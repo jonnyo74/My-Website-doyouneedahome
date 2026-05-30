@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   getCommunityBySlug,
   getCommunityPaths,
@@ -6,7 +7,6 @@ import {
   getParentCity,
   cities,
 } from '@/lib/communities'
-import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -54,6 +54,8 @@ export default async function CommunityPage({ params }: Props) {
   const galleryPhotos = community.photos && community.photos.length > 1
     ? community.photos.slice(1, 6)
     : []
+  // Alternate which agent leads per page
+  const christineOnTop = community.slug.charCodeAt(0) % 2 === 0
 
   return (
     <div className="min-h-screen bg-white">
@@ -279,29 +281,6 @@ export default async function CommunityPage({ params }: Props) {
         </section>
       )}
 
-      {/* ── IDX Listings Widget ────────────────────────────────────── */}
-      <section className="px-6 pt-14 pb-2 sm:px-8">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Live MLS Data</p>
-              <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
-                Homes for Sale in {community.name}
-              </h2>
-            </div>
-            <a
-              href={searchUrl(community.name)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
-            >
-              View all listings →
-            </a>
-          </div>
-          <YlopoResultsWidget city={community.name} />
-        </div>
-      </section>
-
       {/* ── Main content ───────────────────────────────────────────── */}
       <section className="px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-7xl">
@@ -315,6 +294,18 @@ export default async function CommunityPage({ params }: Props) {
                 </h2>
                 <p className="mt-4 leading-8 text-slate-600">{community.overview}</p>
               </div>
+
+              {/* Agent blurb — top */}
+              <AgentBlurb
+                name={christineOnTop ? 'Christine Dekant' : 'John Oliver'}
+                credentials={christineOnTop ? 'REALTOR® · RENE · GRI · CLA' : 'REALTOR® · ABR · RENE · SRS'}
+                photo={christineOnTop ? '/images/christine.jpg' : '/images/john.jpg'}
+                phone={christineOnTop ? '(561) 778-7042' : '(561) 786-3630'}
+                phoneHref={christineOnTop ? 'tel:+15617787042' : 'tel:+15617863630'}
+                quote={christineOnTop
+                  ? `${community.name} is one of my favorite markets to work in. I focus on making sure my buyers understand every nuance of this market before making a decision — real data, honest advice, no pressure.`
+                  : `I've helped buyers and sellers in ${community.name} for years. When you work with me you get someone who knows the neighborhoods, knows the comps, and will fight for your best outcome.`}
+              />
 
               {/* Highlights */}
               {community.highlights && community.highlights.length > 0 && (
@@ -420,6 +411,18 @@ export default async function CommunityPage({ params }: Props) {
                   ))}
                 </div>
               </div>
+
+              {/* Agent blurb — bottom */}
+              <AgentBlurb
+                name={christineOnTop ? 'John Oliver' : 'Christine Dekant'}
+                credentials={christineOnTop ? 'REALTOR® · ABR · RENE · SRS' : 'REALTOR® · RENE · GRI · CLA'}
+                photo={christineOnTop ? '/images/john.jpg' : '/images/christine.jpg'}
+                phone={christineOnTop ? '(561) 786-3630' : '(561) 778-7042'}
+                phoneHref={christineOnTop ? 'tel:+15617863630' : 'tel:+15617787042'}
+                quote={christineOnTop
+                  ? `I've helped buyers and sellers in ${community.name} for years. When you work with me you get someone who knows the neighborhoods, knows the comps, and will fight for your best outcome.`
+                  : `${community.name} is one of my favorite markets to work in. I focus on making sure my buyers understand every nuance of this market before making a decision — real data, honest advice, no pressure.`}
+              />
 
               {/* Market Trends */}
               <div>
@@ -594,6 +597,30 @@ export default async function CommunityPage({ params }: Props) {
           </div>
         </div>
       </section>
+    </div>
+  )
+}
+
+function AgentBlurb({
+  name, credentials, photo, phone, phoneHref, quote,
+}: {
+  name: string; credentials: string; photo: string; phone: string; phoneHref: string; quote: string
+}) {
+  return (
+    <div className="flex gap-6 rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
+      <div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-2xl">
+        <Image src={photo} alt={name} fill className="object-cover object-top" sizes="80px" />
+      </div>
+      <div className="flex flex-col justify-center gap-2">
+        <div>
+          <p className="font-semibold text-slate-900">{name}</p>
+          <p className="text-xs text-gold-600">{credentials}</p>
+        </div>
+        <p className="text-sm leading-7 text-slate-600 italic">"{quote}"</p>
+        <a href={phoneHref} className="text-sm font-semibold text-gold-600 transition hover:text-gold-700">
+          {phone}
+        </a>
+      </div>
     </div>
   )
 }
