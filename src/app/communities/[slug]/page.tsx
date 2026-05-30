@@ -7,6 +7,7 @@ import {
   getParentCity,
   cities,
 } from '@/lib/communities'
+import { getAgentQuotes } from '@/lib/agentQuotes'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -56,6 +57,7 @@ export default async function CommunityPage({ params }: Props) {
     : []
   // Alternate which agent leads per page
   const christineOnTop = community.slug.charCodeAt(0) % 2 === 0
+  const quotes = getAgentQuotes(community.slug)
 
   return (
     <div className="min-h-screen bg-white">
@@ -302,9 +304,7 @@ export default async function CommunityPage({ params }: Props) {
                 photo={christineOnTop ? '/images/christine.jpg' : '/images/john.jpg'}
                 phone={christineOnTop ? '(561) 778-7042' : '(561) 786-3630'}
                 phoneHref={christineOnTop ? 'tel:+15617787042' : 'tel:+15617863630'}
-                quote={christineOnTop
-                  ? `${community.name} is one of my favorite markets to work in. I focus on making sure my buyers understand every nuance of this market before making a decision — real data, honest advice, no pressure.`
-                  : `I've helped buyers and sellers in ${community.name} for years. When you work with me you get someone who knows the neighborhoods, knows the comps, and will fight for your best outcome.`}
+                quote={christineOnTop ? quotes.christineQuote : quotes.johnQuote}
               />
 
               {/* Highlights */}
@@ -419,9 +419,7 @@ export default async function CommunityPage({ params }: Props) {
                 photo={christineOnTop ? '/images/john.jpg' : '/images/christine.jpg'}
                 phone={christineOnTop ? '(561) 786-3630' : '(561) 778-7042'}
                 phoneHref={christineOnTop ? 'tel:+15617863630' : 'tel:+15617787042'}
-                quote={christineOnTop
-                  ? `I've helped buyers and sellers in ${community.name} for years. When you work with me you get someone who knows the neighborhoods, knows the comps, and will fight for your best outcome.`
-                  : `${community.name} is one of my favorite markets to work in. I focus on making sure my buyers understand every nuance of this market before making a decision — real data, honest advice, no pressure.`}
+                quote={christineOnTop ? quotes.johnQuote : quotes.christineQuote}
               />
 
               {/* Market Trends */}
