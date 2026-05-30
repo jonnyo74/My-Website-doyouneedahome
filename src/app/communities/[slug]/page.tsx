@@ -10,8 +10,7 @@ import {
 import { getAgentQuotes } from '@/lib/agentQuotes'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
-import dynamic from 'next/dynamic'
-const TransportMap = dynamic(() => import('@/components/TransportMap'), { ssr: false })
+import TransportMapWrapper from '@/components/TransportMapWrapper'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -538,7 +537,7 @@ export default async function CommunityPage({ params }: Props) {
                   {community.lat && community.lng && (
                     <div className="mt-6">
                       <p className="mb-3 text-sm text-slate-500">Airports, Brightline, and Tri-Rail near {community.name}</p>
-                      <TransportMap lat={community.lat} lng={community.lng} cityName={community.name} />
+                      <TransportMapWrapper lat={community.lat} lng={community.lng} cityName={community.name} />
                     </div>
                   )}
                 </div>
