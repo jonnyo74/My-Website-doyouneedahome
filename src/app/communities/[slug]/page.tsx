@@ -419,6 +419,20 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               </div>
 
+              {/* Market Trends */}
+              <div>
+                <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                  Market Trends
+                </h2>
+                <p className="mt-2 text-sm text-slate-500">Live market data for {community.name}, FL.</p>
+                <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
+                  <div
+                    className="YLOPO_marketTrendsWidget"
+                    data-searchlocation={JSON.stringify({ simpleSearchCity: community.name, simpleSearchState: 'FL' })}
+                  />
+                </div>
+              </div>
+
               {/* Parent city link (neighborhood pages only) */}
               {parentCity && (
                 <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
