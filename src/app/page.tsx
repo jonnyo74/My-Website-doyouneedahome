@@ -51,15 +51,8 @@ export default function Home() {
                 DO Homes Group at Premier Brokers International — trusted local agents helping
                 buyers and sellers across Palm Beach County and the Treasure Coast.
               </p>
+              <div className="YLOPO_searchWidget" />
               <div className="flex flex-col gap-4 sm:flex-row">
-                <a
-                  href={SEARCH_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-gold-500 px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
-                >
-                  Search Homes
-                </a>
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center rounded-full border border-white/40 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10"
@@ -67,17 +60,13 @@ export default function Home() {
                   Contact Us
                 </Link>
               </div>
-              <div className="grid grid-cols-3 gap-6 border-t border-white/20 pt-8">
-                {[
-                  { stat: '500+', label: 'Homes Sold' },
-                  { stat: '15+', label: 'Communities' },
-                  { stat: '5★', label: 'Client Rating' },
-                ].map(({ stat, label }) => (
-                  <div key={stat} className="text-center">
-                    <p className="font-serif text-3xl font-semibold text-gold-400">{stat}</p>
-                    <p className="mt-1 text-sm text-white/60">{label}</p>
-                  </div>
-                ))}
+              <div className="border-t border-white/20 pt-8">
+                <Link
+                  href="/testimonials"
+                  className="inline-flex items-center justify-center rounded-full border border-white/40 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10"
+                >
+                  See What Our Clients Say →
+                </Link>
               </div>
             </div>
 
