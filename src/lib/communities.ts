@@ -16,7 +16,8 @@ export interface CommunityItem {
   lifestyle?: string
   localLoves?: string[]
   schoolOverview?: string
-  schoolList?: Array<{ category: string; names: string[] }>
+  schoolList?: Array<{ category: string; schools: Array<{ name: string; url?: string }> }>
+  hospitals?: Array<{ name: string; url: string; note?: string }>
   commuteTimes?: Array<{ destination: string; time: string }>
   dining?: string[]
   outdoorActivities?: string[]
@@ -116,12 +117,28 @@ export const cities: CommunityItem[] = [
     schoolList: [
       {
         category: 'Top Public Schools',
-        names: ['Jupiter Elementary', 'Limestone Creek Elementary', 'Jerry Thomas Elementary', 'Independence Middle', 'Jupiter Middle', 'Jupiter High School (A-rated — medical & engineering academies)'],
+        schools: [
+          { name: 'Jupiter Elementary School', url: 'https://je.palmbeachschools.org' },
+          { name: 'Limestone Creek Elementary', url: 'https://lce.palmbeachschools.org' },
+          { name: 'Jerry Thomas Elementary', url: 'https://jte.palmbeachschools.org' },
+          { name: 'Independence Middle School', url: 'https://ims.palmbeachschools.org' },
+          { name: 'Jupiter Middle School', url: 'https://jms.palmbeachschools.org' },
+          { name: 'Jupiter High School — A-rated, medical & engineering academies', url: 'https://jhs.palmbeachschools.org' },
+        ],
       },
       {
         category: 'Private & Charter',
-        names: ['The Benjamin School', 'Jupiter Christian School', 'All Saints Catholic School', 'Franklin Academy'],
+        schools: [
+          { name: 'The Benjamin School', url: 'https://www.thebenjaminschool.org' },
+          { name: 'Jupiter Christian School', url: 'https://www.jupiterchristian.org' },
+          { name: 'All Saints Catholic School', url: 'https://allsaintsjupiter.org' },
+          { name: 'Franklin Academy', url: 'https://www.franklinacademy.net' },
+        ],
       },
+    ],
+    hospitals: [
+      { name: 'Jupiter Medical Center', url: 'https://www.jupitermed.com', note: 'Top-rated — ranked in top 10% nationally for quality & patient satisfaction' },
+      { name: 'Palm Beach Gardens Medical Center', url: 'https://www.pbgmc.com', note: '15 minutes south via I-95' },
     ],
     commuteTimes: [
       { destination: 'West Palm Beach', time: '25 min' },

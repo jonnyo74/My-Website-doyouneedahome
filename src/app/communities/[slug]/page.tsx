@@ -431,19 +431,46 @@ export default async function CommunityPage({ params }: Props) {
                     <p className="mt-3 leading-8 text-slate-600">{community.schoolOverview}</p>
                   )}
                   {community.schoolList && (
-                    <div className="mt-6 space-y-5">
+                    <div className="mt-6 space-y-6">
                       {community.schoolList.map((group) => (
                         <div key={group.category}>
                           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">{group.category}</p>
-                          <ul className="mt-2 space-y-1">
-                            {group.names.map((n) => (
-                              <li key={n} className="text-sm leading-7 text-slate-600">· {n}</li>
+                          <ul className="mt-3 space-y-1.5">
+                            {group.schools.map((s) => (
+                              <li key={s.name}>
+                                {s.url ? (
+                                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-sm leading-7 text-gold-600 transition hover:text-gold-700 hover:underline">
+                                    · {s.name} ↗
+                                  </a>
+                                ) : (
+                                  <span className="text-sm leading-7 text-slate-600">· {s.name}</span>
+                                )}
+                              </li>
                             ))}
                           </ul>
                         </div>
                       ))}
                     </div>
                   )}
+                </div>
+              )}
+
+              {/* Hospitals */}
+              {community.hospitals && community.hospitals.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Nearby Hospitals</h2>
+                  <div className="mt-5 space-y-3">
+                    {community.hospitals.map((h) => (
+                      <div key={h.name} className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-5">
+                        <div>
+                          <a href={h.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-gold-600 transition hover:text-gold-700 hover:underline">
+                            {h.name} ↗
+                          </a>
+                          {h.note && <p className="mt-1 text-sm text-slate-500">{h.note}</p>}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
 
