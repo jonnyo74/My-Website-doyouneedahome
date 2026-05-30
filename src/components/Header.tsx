@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { cities } from '@/lib/communities'
 
-const SEARCH_URL = 'https://search.doyouneedahome.com'
+const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)

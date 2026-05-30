@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { cities } from '@/lib/communities'
 import CommunityCard from '@/components/CommunityCard'
 
-const SEARCH_URL = 'https://search.doyouneedahome.com'
+const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
 const testimonials = [
   { quote: 'Christine listed and sold my home within 3 days.', author: 'Dave Hetzel', role: 'Seller', agent: 'Christine Dekant' },

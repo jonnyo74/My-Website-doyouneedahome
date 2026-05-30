@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { cities } from '@/lib/communities'
 
-const SEARCH_URL = 'https://search.doyouneedahome.com'
+const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
 export const metadata: Metadata = {
   title: 'Buy a Home in Palm Beach County | DO Homes Group',

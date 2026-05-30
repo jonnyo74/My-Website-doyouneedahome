@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-const SEARCH_URL = 'https://search.doyouneedahome.com'
+const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
 const pageLinks = [
   { href: '/', label: 'Home' },

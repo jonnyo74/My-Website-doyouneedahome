@@ -10,6 +10,11 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
+function searchUrl(city: string) {
+  const c = encodeURIComponent(city)
+  return `${SEARCH_URL}/search?area=${c}&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
+}
+
 type Props = { params: Promise<{ slug: string }> }
 
 export function generateStaticParams() {
@@ -97,7 +102,7 @@ export default async function CommunityPage({ params }: Props) {
               </p>
               <div className="mt-7 flex flex-wrap gap-4">
                 <a
-                  href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+                  href={searchUrl(community.name)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
@@ -147,7 +152,7 @@ export default async function CommunityPage({ params }: Props) {
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a
-                    href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+                    href={searchUrl(community.name)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
@@ -174,7 +179,7 @@ export default async function CommunityPage({ params }: Props) {
                   </p>
                   <div className="mt-5 space-y-3">
                     <a
-                      href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+                      href={searchUrl(community.name)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -285,7 +290,7 @@ export default async function CommunityPage({ params }: Props) {
               </h2>
             </div>
             <a
-              href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+              href={searchUrl(community.name)}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
@@ -356,7 +361,7 @@ export default async function CommunityPage({ params }: Props) {
                     Ranges are approximate and reflect current market conditions. Contact us for a precise valuation.
                   </p>
                   <a
-                    href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+                    href={searchUrl(community.name)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-flex text-sm font-semibold text-gold-600 transition hover:text-gold-700"
@@ -462,7 +467,7 @@ export default async function CommunityPage({ params }: Props) {
                   </p>
                   <div className="mt-5 space-y-3">
                     <a
-                      href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+                      href={searchUrl(community.name)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -541,7 +546,7 @@ export default async function CommunityPage({ params }: Props) {
         <div className="mx-auto max-w-7xl rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
           <div className="space-y-3">
             <a
-              href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+              href={searchUrl(community.name)}
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -573,7 +578,7 @@ export default async function CommunityPage({ params }: Props) {
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href={`${SEARCH_URL}?area=${encodeURIComponent(community.name)}`}
+              href={searchUrl(community.name)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-gold-700 shadow transition hover:bg-blue-50"

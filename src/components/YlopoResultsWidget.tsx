@@ -20,7 +20,7 @@ export default function YlopoResultsWidget({ city }: { city: string }) {
     <div
       ref={ref}
       className="YLOPO_resultsWidget overflow-hidden rounded-2xl"
-      data-search={JSON.stringify({ locations: [{ city, state: 'FL' }], limit: 6, minPrice: 400000 })}
+      data-search={JSON.stringify({ locations: [{ city, state: 'FL' }], limit: 6, minPrice: 600000 })}
     />
   )
 }
