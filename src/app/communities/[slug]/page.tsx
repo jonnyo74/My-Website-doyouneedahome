@@ -8,6 +8,7 @@ import {
   cities,
 } from '@/lib/communities'
 import { getAgentQuotes } from '@/lib/agentQuotes'
+import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -429,10 +430,7 @@ export default async function CommunityPage({ params }: Props) {
                 </h2>
                 <p className="mt-2 text-sm text-slate-500">Live market data for {community.name}, FL.</p>
                 <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
-                  <div
-                    className="YLOPO_marketTrendsWidget"
-                    data-searchlocation={JSON.stringify({ simpleSearchCity: community.name, simpleSearchState: 'FL' })}
-                  />
+                  <YlopoMarketTrendsWidget city={community.name} />
                 </div>
               </div>
 
