@@ -190,14 +190,14 @@ export default async function CommunityPage({ params }: Props) {
                   <div className="mt-6 border-t border-slate-100 pt-5 space-y-3">
                     <div>
                       <p className="text-sm font-semibold text-slate-900">Christine Dekant</p>
-                      <a href="tel:+15613292589" className="mt-0.5 block text-sm text-slate-500 transition hover:text-gold-600">
-                        (561) 329-2589
+                      <a href="tel:+15617787042" className="mt-0.5 block text-sm text-slate-500 transition hover:text-gold-600">
+                        (561) 778-7042
                       </a>
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900">John Oliver</p>
-                      <a href="tel:+15616036616" className="mt-0.5 block text-sm text-slate-500 transition hover:text-gold-600">
-                        (561) 603-6616
+                      <a href="tel:+15617863630" className="mt-0.5 block text-sm text-slate-500 transition hover:text-gold-600">
+                        (561) 786-3630
                       </a>
                     </div>
                   </div>
@@ -483,15 +483,15 @@ export default async function CommunityPage({ params }: Props) {
                     <div>
                       <p className="text-sm font-semibold text-slate-900">Christine Dekant</p>
                       <p className="text-xs text-slate-400">REALTOR® · RENE · GRI · CLA</p>
-                      <a href="tel:+15613292589" className="mt-1 block text-sm text-slate-500 transition hover:text-gold-600">
-                        (561) 329-2589
+                      <a href="tel:+15617787042" className="mt-1 block text-sm text-slate-500 transition hover:text-gold-600">
+                        (561) 778-7042
                       </a>
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900">John Oliver</p>
                       <p className="text-xs text-slate-400">REALTOR® · ABR · RENE · SRS</p>
-                      <a href="tel:+15616036616" className="mt-1 block text-sm text-slate-500 transition hover:text-gold-600">
-                        (561) 603-6616
+                      <a href="tel:+15617863630" className="mt-1 block text-sm text-slate-500 transition hover:text-gold-600">
+                        (561) 786-3630
                       </a>
                     </div>
                   </div>

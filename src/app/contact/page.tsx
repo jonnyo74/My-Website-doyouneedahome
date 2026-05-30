@@ -10,15 +10,15 @@ const agents = [
   {
     name: 'Christine Dekant',
     title: 'REALTOR® · RENE · GRI · CLA · CPRES',
-    phone: '(561) 329-2589',
-    phoneHref: 'tel:+15613292589',
+    phone: '(561) 778-7042',
+    phoneHref: 'tel:+15617787042',
     email: 'christine@doyouneedahome.com',
   },
   {
     name: 'John Oliver',
     title: 'REALTOR® · ABR · RENE · SRS',
-    phone: '(561) 603-6616',
-    phoneHref: 'tel:+15616036616',
+    phone: '(561) 786-3630',
+    phoneHref: 'tel:+15617863630',
     email: 'john@doyouneedahome.com',
   },
 ]

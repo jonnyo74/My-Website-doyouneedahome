@@ -42,12 +42,10 @@ export const cities: CommunityItem[] = [
       'Easy access to PBI Airport, I-95, and the Brightline station',
     ],
     photos: [
-      '/public/West Palm/IMG_1347.JPG',
-      '/public/West Palm/IMG_1350.JPG',
-      '/public/West Palm/IMG_1352.JPG',
-      '/public/West Palm/IMG_1354.JPG',
-      '/public/West Palm/IMG_1355.JPG',
-      '/public/West Palm/IMG_1356.JPG',
+      '/public/West Palm/34A60333-DC57-49C0-93B2-C109DFF5D57E.jpg',
+      '/public/West Palm/89AA5905-D3C1-419A-9263-4E0EE2B36011.jpg',
+      '/public/West Palm/IMG_6757 (1).jpg',
+      '/public/West Palm/IMG_8538.JPEG',
     ],
   },
   {
