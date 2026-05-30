@@ -23,6 +23,7 @@ export interface CommunityItem {
   outdoorActivities?: string[]
   hiddenGems?: string[]
   popularNeighborhoods?: string[]
+  subNeighborhoods?: Array<{ name: string; description: string }>
 }
 
 export const cities: CommunityItem[] = [
@@ -519,12 +520,84 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Abacoa',
     type: 'Neighborhood',
     region: 'Jupiter',
-    description: 'A walkable New Urbanism town center community with tree-lined streets, parks, and a vibrant downtown core.',
+    description: 'A walkable New Urbanism master-planned community in Jupiter with charming streetscapes, top schools, golf, and a genuine hometown feel.',
     overview:
-      'Abacoa is one of Jupiter\'s most popular communities, designed around a traditional town center with shops, restaurants, and Roger Dean Chevrolet Stadium. It offers a wide range of home styles — from cottages to larger single-family homes — and is served by A-rated Jupiter schools.',
+      'Abacoa is one of Jupiter\'s most beloved master-planned communities — known for its charming streetscapes, tree-lined sidewalks, golf, baseball, top schools, and a genuine "neighbors know neighbors" vibe. Built with New Urbanist design in mind, Abacoa blends residential living with walkable town centers, parks, and everyday convenience.\n\nUnlike many South Florida communities built around gates and isolated subdivisions, Abacoa was intentionally designed to feel like a real town — and it shows. Developed in the late 1990s and early 2000s as one of Palm Beach County\'s first large-scale New Urbanist communities, Abacoa has matured beautifully — with established landscaping, thriving commercial areas, and long-term homeowner pride. What was once "new" is now one of Jupiter\'s most proven and stable residential communities.',
+    lifestyle: 'Abacoa feels active, social, and genuinely connected — without feeling crowded. The community draws families with school-age children, young professionals, golf enthusiasts, second-home buyers, and long-term Jupiter residents who want front-porch neighborhoods, community pools, and a downtown they can actually walk to. Roger Dean Chevrolet Stadium brings concerts, spring training games, and community events right to the neighborhood. It\'s rare to find this level of built-in activity in a residential community.',
+    localLoves: [
+      'Walkable town centers with restaurants, cafés, and local shops',
+      'Roger Dean Chevrolet Stadium — MLB spring training and year-round events',
+      'Front-porch neighborhoods and genuine "neighbors know neighbors" culture',
+      'Community pools and neighborhood parks throughout',
+      'Miles of sidewalks, bike paths, and lakes',
+      'Quick access to Jupiter Beach, I-95, and downtown Jupiter',
+      'Abacoa Golf Club — public course, recently redesigned',
+    ],
+    subNeighborhoods: [
+      { name: 'Mallory Creek', description: 'Key West–style homes with metal roofs and wide sidewalks. One of the most charming and family-oriented sections of Abacoa.' },
+      { name: 'Newhaven', description: 'Larger single-family homes with highly sought-after school zoning.' },
+      { name: 'Osceola Woods', description: 'Townhomes and single-family homes in a quiet, park-adjacent setting.' },
+      { name: 'Antigua', description: 'Single-family homes with lake views and mature landscaping.' },
+      { name: 'Canterbury Place', description: 'Townhomes and condos near Abacoa Golf Club. An affordable entry point into the community.' },
+      { name: 'Windsor Park', description: 'Single-family homes and townhomes with mature trees and a well-established neighborhood feel.' },
+      { name: 'Valencia', description: 'Mediterranean-style condos and townhomes located near the heart of Abacoa.' },
+      { name: 'Martinique', description: 'Modern townhomes offering a low-maintenance lifestyle near Abacoa Town Center.' },
+      { name: 'Dakota / Tuscany', description: 'Smaller enclaves featuring a mix of townhomes and detached homes.' },
+      { name: 'Charleston Court', description: 'A small townhome enclave offering a quiet setting with convenient access throughout Abacoa.' },
+    ],
+    priceRanges: [
+      { type: 'Condos & Townhomes', range: '$400K – $600K' },
+      { type: 'Single-Family Homes', range: '$600K – $1.2M+' },
+      { type: 'Golf Course Properties', range: '$900K – $1.4M+' },
+    ],
+    highlights: [
+      'New Urbanist design — walkable streetscapes, front porches, and town centers built from the ground up',
+      'Roger Dean Chevrolet Stadium brings MLB spring training and live events to the neighborhood',
+      'Abacoa Golf Club offers a public, recently redesigned course steps from residential streets',
+      'Homes historically hold value well due to location, school zoning, and community design',
+      'Diverse home types from condos under $400K to golf-front estates over $1.4M',
+      'Beacon Cove, Eisenhower Middle, and William T. Dwyer High serve the community',
+      '10 minutes to Jupiter Beach, 5 minutes to I-95, 25–30 minutes to PBI Airport',
+    ],
+    schoolOverview: 'Abacoa is highly regarded for both public and private school access. The community is zoned for its own dedicated school pipeline — different from the Jupiter High zone.',
+    schoolList: [
+      {
+        category: 'Public Schools',
+        schools: [
+          { name: 'Beacon Cove Intermediate', url: 'https://bci.palmbeachschools.org' },
+          { name: 'Dwight D. Eisenhower Middle School', url: 'https://ems.palmbeachschools.org' },
+          { name: 'William T. Dwyer High School', url: 'https://dhs.palmbeachschools.org' },
+        ],
+      },
+      {
+        category: 'Nearby Private Schools',
+        schools: [
+          { name: 'Jupiter Christian School', url: 'https://www.jupiterchristian.org' },
+          { name: 'St. Francis Catholic School', url: 'https://www.stfrancisfl.org' },
+          { name: 'The Benjamin School', url: 'https://www.thebenjaminschool.org' },
+        ],
+      },
+    ],
+    commuteTimes: [
+      { destination: 'Jupiter Beach', time: '10–12 min' },
+      { destination: 'I-95', time: '5 min' },
+      { destination: 'Florida Turnpike', time: '10 min' },
+      { destination: 'Downtown Jupiter', time: '8–10 min' },
+      { destination: 'The Gardens Mall', time: '15 min' },
+      { destination: 'PBI Airport', time: '25–30 min' },
+    ],
+    outdoorActivities: [
+      'Abacoa Golf Club (public, recently redesigned)',
+      'Multiple neighborhood parks and playgrounds',
+      'Miles of walking and biking paths',
+      'Jupiter & Juno beaches — 10–12 minutes away',
+      'Riverbend Park and Loxahatchee River access nearby',
+    ],
     quickFacts: [
-      { label: 'Homes', value: 'Single-family homes, townhomes, condos' },
-      { label: 'Highlights', value: 'Town center, baseball stadium, parks, A-rated schools' },
+      { label: 'Home styles', value: 'Single-family homes, townhomes, condos — New Urbanist design' },
+      { label: 'Community type', value: 'PUD (Planned Unit Development) within the City of Jupiter' },
+      { label: 'Best for', value: 'Families, young professionals, golf enthusiasts, walkability buyers' },
+      { label: 'Key draw', value: 'True walkable town center with Roger Dean Stadium, shops, and restaurants' },
     ],
   },
   {

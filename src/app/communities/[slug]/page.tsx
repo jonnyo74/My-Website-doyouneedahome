@@ -308,6 +308,21 @@ export default async function CommunityPage({ params }: Props) {
                 quote={christineOnTop ? quotes.christineQuote : quotes.johnQuote}
               />
 
+              {/* Sub-Neighborhoods */}
+              {community.subNeighborhoods && community.subNeighborhoods.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Neighborhoods Within {community.name}</h2>
+                  <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                    {community.subNeighborhoods.map((n) => (
+                      <div key={n.name} className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
+                        <p className="font-semibold text-slate-900">{n.name}</p>
+                        <p className="mt-1.5 text-sm leading-6 text-slate-600">{n.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Highlights */}
               {community.highlights && community.highlights.length > 0 && (
                 <div>
