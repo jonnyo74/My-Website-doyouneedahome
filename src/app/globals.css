@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Navy — dark elements: footer, dark overlays */
+  --color-navy-950: #0B1929;
+  --color-navy-900: #0F2233;
+  --color-navy-800: #1A3A52;
+
+  /* Brand blue — from doyouneedahome.com logo */
+  --color-gold-50: #EFF8FF;
+  --color-gold-100: #DBEFFE;
+  --color-gold-200: #BAE0FD;
+  --color-gold-300: #93CDEF;
+  --color-gold-400: #4AAEE8;
+  --color-gold-500: #1E7FC2;
+  --color-gold-600: #1561A0;
+  --color-gold-700: #0E4A82;
+
+  /* Brand green — from logo (.com and palm trees) */
+  --color-brand-green: #3BB543;
+  --color-brand-green-dark: #2E9436;
+
+  /* Fonts */
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  /* Shadows — tuned for light backgrounds */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.07);
+  --shadow-card-hover: 0 4px 24px rgba(30,127,194,0.18);
+}
+
+body {
+  background: white;
+  color: #1a3a5f;
+  font-family: var(--font-sans);
+}
