@@ -12,6 +12,16 @@ export interface CommunityItem {
   priceRanges?: Array<{ type: string; range: string }>
   highlights?: string[]
   photos?: string[]
+  // Extended content fields
+  lifestyle?: string
+  localLoves?: string[]
+  schoolOverview?: string
+  schoolList?: Array<{ category: string; names: string[] }>
+  commuteTimes?: Array<{ destination: string; time: string }>
+  dining?: string[]
+  outdoorActivities?: string[]
+  hiddenGems?: string[]
+  popularNeighborhoods?: string[]
 }
 
 export const cities: CommunityItem[] = [
@@ -90,25 +100,87 @@ export const cities: CommunityItem[] = [
     region: 'Northern Palm Beach County',
     description: 'A coastal town with oceanfront living, top private clubs, and a laid-back Florida lifestyle that attracts buyers from around the world.',
     overview:
-      'Jupiter delivers luxury coastal living with a true neighborhood feel. From the marinas and waterfront dining at Harbourside Place to the championship golf clubs inland, Jupiter has something for every buyer. It\'s one of the most sought-after markets in all of Palm Beach County — and our team has the local knowledge to get you in.',
+      'Welcome to Jupiter — where sunrise paddleboarding, top-rated schools, pristine beaches, and small-town charm meet luxury South Florida living. Located at the northern tip of Palm Beach County, Jupiter offers an easygoing coastal lifestyle with quick access to I-95, Palm Beach International Airport, the Brightline, and downtown West Palm Beach. Whether you\'re searching for a waterfront condo, gated golf community, new construction home, or a lock-and-leave townhome — Jupiter delivers a lifestyle that feels like vacation every day.\n\nJupiter is relaxed, outdoorsy, and community-focused — but with just the right amount of luxury. You\'ll see golf carts at dinner, paddleboards on Jeeps, kids biking to school, and neighbors who actually wave back. Families, professionals, retirees, and second-home buyers all call Jupiter home. It\'s one of the most sought-after markets in all of Palm Beach County — and our team has the local knowledge to get you in.',
+    lifestyle: 'Jupiter is one of those rare places where the lifestyle sells itself. The dog-friendly beach, the waterfront dining at Harbourside Place, the Saturday farmers markets, the golf cart nights in Abacoa — it\'s a community that draws people in and keeps them. Families move here for the schools and stay for the lifestyle. Second-home buyers come for a season and end up making it their primary residence. If you\'re looking for a place that feels like vacation but still feels like home, Jupiter is hard to beat.',
+    localLoves: [
+      'Dog-friendly Jupiter Beach and sunrise paddleboarding on the Intracoastal',
+      'Weekend farmers markets and live music at Harbourside Place',
+      'Golf cart living in Abacoa and Jupiter Farms',
+      'Community events, art festivals, and waterfront dining year-round',
+      'Golf, tennis, fishing, and coastal recreation at every level',
+      'Bioluminescent kayaking on the Loxahatchee River in summer',
+      'Painted Buntings at feeders in winter season',
+      'Sandbar parties on weekends',
+    ],
+    schoolOverview: 'Jupiter is one of the top-ranking school zones in Florida, which consistently keeps demand high and resale values strong. Families move here specifically for the schools — and that tells you everything about the long-term strength of this market.',
+    schoolList: [
+      {
+        category: 'Top Public Schools',
+        names: ['Jupiter Elementary', 'Limestone Creek Elementary', 'Jerry Thomas Elementary', 'Independence Middle', 'Jupiter Middle', 'Jupiter High School (A-rated — medical & engineering academies)'],
+      },
+      {
+        category: 'Private & Charter',
+        names: ['The Benjamin School', 'Jupiter Christian School', 'All Saints Catholic School', 'Franklin Academy'],
+      },
+    ],
+    commuteTimes: [
+      { destination: 'West Palm Beach', time: '25 min' },
+      { destination: 'PBI Airport', time: '30 min' },
+      { destination: 'Brightline Station', time: '22 min' },
+      { destination: 'Miami', time: '1 hr 20 min' },
+      { destination: 'Orlando', time: '2 hr 15 min' },
+    ],
+    outdoorActivities: [
+      'Jupiter Beach (dog-friendly)',
+      'Carlin Park & DuBois Park',
+      'John D. MacArthur State Park',
+      'Jonathan Dickinson State Park',
+      'Blowing Rocks Preserve',
+      'Kayaking the Loxahatchee River',
+      'Juno Beach Pier & Loggerhead MarineLife Center',
+      'Abacoa Golf Club · Golf Club of Jupiter · Jupiter Dunes',
+    ],
+    dining: [
+      'Guanabanas — tropical waterfront',
+      'U-Tiki Beach — lighthouse views',
+      'Square Grouper — waterfront bar & grill',
+      'Little Moir\'s Food Shack — Jupiter institution',
+      'Jetty\'s at the inlet',
+      'Blue Pointe Bar & Grill — tiki vibes & poolside',
+      'Harbourside Place — dining, live music & waterfront shops',
+    ],
+    hiddenGems: [
+      'Sandbar parties on weekends off the inlet',
+      'Paddle at sunrise from Coral Cove Park',
+      'Painted Buntings at local feeders in winter',
+      'Golf cart nights in Abacoa town center',
+      'Bioluminescent kayaking on the Loxahatchee in summer',
+    ],
     quickFacts: [
-      { label: 'Market focus', value: 'Beach cottages, waterfront estates, private golf clubs' },
-      { label: 'Key advantage', value: 'Strong resale demand, coastal lifestyle, A-rated schools' },
+      { label: 'Market focus', value: 'Waterfront estates, gated golf communities, family neighborhoods, new construction' },
+      { label: 'Key advantage', value: 'A-rated schools, coastal lifestyle, world-class private clubs, strong resale demand' },
+      { label: 'Hospitals nearby', value: 'Jupiter Medical Center (top-rated), Palm Beach Gardens Medical Center' },
+      { label: 'Shopping & dining', value: 'Harbourside Place, Riverwalk, Downtown at The Gardens, Legacy Place, Gardens Mall' },
     ],
     linkedNeighborhoods: ['abacoa', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'sonoma-bay', 'jupiter-island', 'sea-oats', 'river-road'],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$450K – $900K' },
       { type: 'Gated Communities', range: '$700K – $1.5M' },
+      { type: '55+ Communities', range: '$350K – $700K' },
       { type: 'Golf & Country Club Homes', range: '$2M – $5M+' },
       { type: 'Waterfront Estates', range: '$3M – $20M+' },
     ],
     highlights: [
-      'Harbourside Place and Riverwalk offer waterfront dining, shopping, and live music',
-      'Home to Admiral\'s Cove, Jonathan\'s Landing, and The Bear\'s Club — among Florida\'s most exclusive clubs',
-      'Jupiter Beach and Carlin Park draw year-round outdoor lifestyle buyers',
-      'Abacoa is a popular town-center community with great schools and walkability',
-      '25 minutes to Palm Beach International Airport, 30 minutes to downtown West Palm',
+      'One of the top-ranked school zones in Florida — families move here just for the schools',
+      'Home to Admiral\'s Cove, The Bear\'s Club, The Loxahatchee Club, and Jonathan\'s Landing — among Florida\'s most exclusive private clubs',
+      'Harbourside Place and Riverwalk offer waterfront dining, shopping, and live music year-round',
+      'Jupiter Beach and Carlin Park are dog-friendly and draw year-round outdoor lifestyle buyers',
+      'Abacoa offers walkable town-center living — shops, restaurants, and Roger Dean Stadium steps away',
+      'New construction between $700K–$1.5M is strong, with resort amenities and HOA perks common',
+      '30 minutes to Palm Beach International Airport, 25 minutes to downtown West Palm Beach',
+      'Jupiter Medical Center is one of the top-rated hospitals in Palm Beach County',
     ],
+    popularNeighborhoods: ['Rialto', 'Abacoa', 'Egret Landing', 'Jonathan\'s Landing', 'Admiral\'s Cove', 'Jupiter Country Club', 'Sonoma Isles', 'Jupiter Inlet Colony', 'Jupiter Farms'],
     photos: [
       '/public/Jupiter/IMG_2429.JPG',
       '/public/Jupiter/IMG_2578.JPG',

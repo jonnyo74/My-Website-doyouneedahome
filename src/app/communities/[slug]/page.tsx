@@ -329,6 +329,33 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
+              {/* Lifestyle */}
+              {community.lifestyle && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">The {community.name} Lifestyle</h2>
+                  <p className="mt-4 leading-8 text-slate-600">{community.lifestyle}</p>
+                </div>
+              )}
+
+              {/* What Locals Love */}
+              {community.localLoves && community.localLoves.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">What Locals Love</h2>
+                  <ul className="mt-5 space-y-3">
+                    {community.localLoves.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-1 flex-shrink-0 text-gold-500">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                            <path d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3-3a1 1 0 1 1 1.414-1.414L6 9.808l6.293-6.293a1 1 0 0 1 1.192 0z" />
+                          </svg>
+                        </span>
+                        <span className="text-sm leading-7 text-slate-600">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               {/* Price Ranges */}
               {community.priceRanges && community.priceRanges.length > 0 && (
                 <div>
@@ -393,6 +420,84 @@ export default async function CommunityPage({ params }: Props) {
                       </Link>
                     ))}
                   </div>
+                </div>
+              )}
+
+              {/* Schools */}
+              {(community.schoolOverview || community.schoolList) && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Schools</h2>
+                  {community.schoolOverview && (
+                    <p className="mt-3 leading-8 text-slate-600">{community.schoolOverview}</p>
+                  )}
+                  {community.schoolList && (
+                    <div className="mt-6 space-y-5">
+                      {community.schoolList.map((group) => (
+                        <div key={group.category}>
+                          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">{group.category}</p>
+                          <ul className="mt-2 space-y-1">
+                            {group.names.map((n) => (
+                              <li key={n} className="text-sm leading-7 text-slate-600">· {n}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Commute Times */}
+              {community.commuteTimes && community.commuteTimes.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Commute & Connectivity</h2>
+                  <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
+                    {community.commuteTimes.map((c, i) => (
+                      <div key={c.destination} className={`flex items-center justify-between px-6 py-3.5 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
+                        <span className="text-sm text-slate-700">{c.destination}</span>
+                        <span className="text-sm font-semibold text-gold-600">{c.time}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Outdoor Activities */}
+              {community.outdoorActivities && community.outdoorActivities.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Parks & Outdoor Activities</h2>
+                  <ul className="mt-5 grid gap-2 sm:grid-cols-2">
+                    {community.outdoorActivities.map((item) => (
+                      <li key={item} className="text-sm leading-7 text-slate-600">· {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Dining */}
+              {community.dining && community.dining.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Local Dining</h2>
+                  <ul className="mt-5 space-y-2">
+                    {community.dining.map((item) => (
+                      <li key={item} className="text-sm leading-7 text-slate-600">· {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Hidden Gems */}
+              {community.hiddenGems && community.hiddenGems.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Hidden Gems</h2>
+                  <ul className="mt-5 space-y-3">
+                    {community.hiddenGems.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-1 flex-shrink-0 text-gold-500">✦</span>
+                        <span className="text-sm leading-7 text-slate-600">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
 
