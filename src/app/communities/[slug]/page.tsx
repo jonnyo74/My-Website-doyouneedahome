@@ -6,6 +6,7 @@ import {
   getParentCity,
   cities,
 } from '@/lib/communities'
+import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -292,10 +293,7 @@ export default async function CommunityPage({ params }: Props) {
               View all listings →
             </a>
           </div>
-          <div
-            className="YLOPO_resultsWidget overflow-hidden rounded-2xl"
-            data-search={JSON.stringify({ locations: [{ city: community.name, state: 'FL' }] })}
-          />
+          <YlopoResultsWidget city={community.name} />
         </div>
       </section>
 
