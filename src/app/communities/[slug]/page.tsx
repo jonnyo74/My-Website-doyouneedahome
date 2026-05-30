@@ -9,6 +9,7 @@ import {
 } from '@/lib/communities'
 import { getAgentQuotes } from '@/lib/agentQuotes'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
+import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import dynamic from 'next/dynamic'
 const TransportMap = dynamic(() => import('@/components/TransportMap'), { ssr: false })
 
@@ -288,6 +289,29 @@ export default async function CommunityPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* ── Live Listings ─────────────────────────────────────────── */}
+      <section className="px-6 pt-14 pb-2 sm:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Live MLS Data</p>
+              <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
+                Homes for Sale in {community.name}
+              </h2>
+            </div>
+            <a
+              href={searchUrl(community.name, 600000)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
+            >
+              View all listings →
+            </a>
+          </div>
+          <YlopoResultsWidget city={community.name} />
+        </div>
+      </section>
 
       {/* ── Main content ───────────────────────────────────────────── */}
       <section className="px-6 py-16 sm:px-8">
