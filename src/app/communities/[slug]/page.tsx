@@ -9,6 +9,8 @@ import {
 } from '@/lib/communities'
 import { getAgentQuotes } from '@/lib/agentQuotes'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
+import dynamic from 'next/dynamic'
+const TransportMap = dynamic(() => import('@/components/TransportMap'), { ssr: false })
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -495,18 +497,26 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
-              {/* Commute Times */}
-              {community.commuteTimes && community.commuteTimes.length > 0 && (
+              {/* Commute Times + Map */}
+              {(community.commuteTimes?.length || community.lat) && (
                 <div>
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">Commute & Connectivity</h2>
-                  <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
-                    {community.commuteTimes.map((c, i) => (
-                      <div key={c.destination} className={`flex items-center justify-between px-6 py-3.5 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
-                        <span className="text-sm text-slate-700">{c.destination}</span>
-                        <span className="text-sm font-semibold text-gold-600">{c.time}</span>
-                      </div>
-                    ))}
-                  </div>
+                  {community.commuteTimes && community.commuteTimes.length > 0 && (
+                    <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
+                      {community.commuteTimes.map((c, i) => (
+                        <div key={c.destination} className={`flex items-center justify-between px-6 py-3.5 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
+                          <span className="text-sm text-slate-700">{c.destination}</span>
+                          <span className="text-sm font-semibold text-gold-600">{c.time}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {community.lat && community.lng && (
+                    <div className="mt-6">
+                      <p className="mb-3 text-sm text-slate-500">Airports, Brightline, and Tri-Rail near {community.name}</p>
+                      <TransportMap lat={community.lat} lng={community.lng} cityName={community.name} />
+                    </div>
+                  )}
                 </div>
               )}
 

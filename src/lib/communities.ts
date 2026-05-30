@@ -24,6 +24,8 @@ export interface CommunityItem {
   hiddenGems?: string[]
   popularNeighborhoods?: string[]
   subNeighborhoods?: Array<{ name: string; description: string }>
+  lat?: number
+  lng?: number
 }
 
 export const cities: CommunityItem[] = [
@@ -59,6 +61,7 @@ export const cities: CommunityItem[] = [
       '/public/West Palm/IMG_6757 (1).jpg',
       '/public/West Palm/IMG_8538.JPEG',
     ],
+    lat: 26.7153, lng: -80.0534,
   },
   {
     slug: 'palm-beach-gardens',
@@ -94,6 +97,7 @@ export const cities: CommunityItem[] = [
       '/public/Palm Beach Gardens/IMG_9348.JPG',
       '/public/Palm Beach Gardens/211.JPG',
     ],
+    lat: 26.8233, lng: -80.1246,
   },
   {
     slug: 'jupiter',
@@ -207,6 +211,7 @@ export const cities: CommunityItem[] = [
       '/public/Jupiter/IMG_2622.JPG',
       '/public/Jupiter/IMG_2233.JPG',
     ],
+    lat: 26.9342, lng: -80.0942,
   },
   {
     slug: 'wellington',
@@ -241,6 +246,7 @@ export const cities: CommunityItem[] = [
       '/public/Wellington/IMG_3623.JPEG',
       '/public/Wellington/IMG_3629.JPEG',
     ],
+    lat: 26.6595, lng: -80.2686,
   },
   {
     slug: 'boca-raton',
