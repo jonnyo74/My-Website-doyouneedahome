@@ -292,10 +292,9 @@ export default async function CommunityPage({ params }: Props) {
               View all listings →
             </a>
           </div>
-          {/* IDX widget embed goes here */}
           <div
-            id={`idx-widget-${community.slug}`}
-            className="min-h-[500px] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50"
+            className="YLOPO_resultsWidget overflow-hidden rounded-2xl"
+            data-search={JSON.stringify({ locations: [{ city: community.name, state: 'FL' }] })}
           />
         </div>
       </section>

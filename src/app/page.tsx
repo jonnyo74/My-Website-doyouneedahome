@@ -42,14 +42,14 @@ export default function Home() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div className="space-y-8">
               <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-400">
-                Palm Beach County &amp; the Treasure Coast
+                Premier Brokers International
               </p>
               <h1 className="font-serif text-5xl font-semibold leading-tight text-white sm:text-6xl">
                 Find Your Home<br />in Palm Beach County
               </h1>
               <p className="max-w-xl text-lg leading-8 text-white/80">
-                DO Homes Group at Premier Brokers International — trusted local agents helping
-                buyers and sellers across Palm Beach County and the Treasure Coast.
+                Christine Dekant &amp; John Oliver — local REALTORS® helping buyers and sellers
+                across Palm Beach County and the Treasure Coast.
               </p>
               <div className="YLOPO_searchWidget" />
               <div className="flex flex-col gap-4 sm:flex-row">

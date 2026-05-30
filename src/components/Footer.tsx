@@ -31,7 +31,7 @@ export default function Footer() {
                   className="h-10 w-auto"
                 />
               </div>
-              <p className="text-sm text-slate-400">Premier Brokers International</p>
+              <p className="text-sm text-slate-400">Christine Dekant &amp; John Oliver</p>
             </div>
             <div className="space-y-2 text-sm">
               <p>9123 North Military Trail Suite 104</p>
@@ -96,7 +96,7 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} DO Homes Group at Premier Brokers International. All rights reserved.
+            © {new Date().getFullYear()} Christine Dekant &amp; John Oliver at Premier Brokers International. All rights reserved.
           </p>
           <Link href="/privacy" className="text-xs text-slate-500 transition hover:text-white">
             Privacy Policy
