@@ -582,6 +582,39 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
+              {/* Key Links */}
+              {community.keyLinks && community.keyLinks.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Local Resources & Links</h2>
+                  {(() => {
+                    const categories = [...new Set(community.keyLinks!.map(l => l.category))]
+                    return (
+                      <div className="mt-6 space-y-6">
+                        {categories.map(cat => (
+                          <div key={cat}>
+                            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">{cat}</p>
+                            <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                              {community.keyLinks!.filter(l => l.category === cat).map(link => (
+                                <a
+                                  key={link.url}
+                                  href={link.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="flex items-center justify-between rounded-xl border border-slate-100 bg-slate-50 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-gold-500/40 hover:bg-white hover:text-gold-600"
+                                >
+                                  {link.label}
+                                  <span className="ml-2 flex-shrink-0 text-slate-400">↗</span>
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )
+                  })()}
+                </div>
+              )}
+
               {/* Quick Facts */}
               <div>
                 <h2 className="font-serif text-2xl font-semibold text-slate-900">

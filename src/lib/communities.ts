@@ -24,6 +24,7 @@ export interface CommunityItem {
   hiddenGems?: string[]
   popularNeighborhoods?: string[]
   subNeighborhoods?: Array<{ name: string; description: string }>
+  keyLinks?: Array<{ label: string; url: string; category: string }>
   lat?: number
   lng?: number
 }
@@ -156,6 +157,21 @@ export const cities: CommunityItem[] = [
       { label: 'Key advantage', value: 'A-rated schools, PGA Boulevard lifestyle, beaches 15 min away' },
       { label: 'Best for', value: 'Families, retirees, golf buyers, professionals, relocators from Northeast & Midwest' },
       { label: 'Standout feature', value: 'Burns Road Community Center — Olympic pool, pickleball, fitness at resident rates' },
+    ],
+    keyLinks: [
+      { label: 'Burns Road Aquatic Complex', url: 'https://www.pbgfl.gov/600/Aquatics', category: 'Recreation' },
+      { label: 'Burns Road Main Pool & Splash Zone', url: 'https://www.pbgfl.gov/886/Main-Pool-Splash-Zone', category: 'Recreation' },
+      { label: 'Gardens Green Market', url: 'https://www.pbgfl.gov/711/Green-Market', category: 'Recreation' },
+      { label: 'Downtown at the Gardens', url: 'https://downtownatthegardens.com', category: 'Shopping & Dining' },
+      { label: 'Legacy Place', url: 'https://www.legacyplacepbg.com', category: 'Shopping & Dining' },
+      { label: 'Café Chardonnay', url: 'https://www.cafechardonnay.com', category: 'Dining' },
+      { label: 'The Cooper', url: 'https://www.thecooperpbg.com', category: 'Dining' },
+      { label: 'Rocco\'s Tacos — PBG', url: 'https://www.roccostacos.com', category: 'Dining' },
+      { label: 'Capital Grille — Palm Beach Gardens', url: 'https://www.thecapitalgrille.com', category: 'Dining' },
+      { label: 'John D. MacArthur State Park', url: 'https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park', category: 'Parks & Nature' },
+      { label: 'PGA National Resort', url: 'https://www.pgaresort.com', category: 'Golf & Recreation' },
+      { label: 'Sandhill Crane Golf Club', url: 'https://www.sandhillcranegolf.com', category: 'Golf & Recreation' },
+      { label: 'City of Palm Beach Gardens', url: 'https://www.pbgfl.gov', category: 'City Resources' },
     ],
     popularNeighborhoods: ['Alton', 'Avenir', 'Artistry', 'Evergrene', 'Mirabella', 'San Michele', 'Bent Tree', 'PGA National'],
     photos: [
