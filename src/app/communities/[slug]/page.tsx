@@ -12,9 +12,12 @@ import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
-function searchUrl(city: string) {
+function searchUrl(city: string, minPrice?: number, maxPrice?: number) {
   const c = encodeURIComponent(city)
-  return `${SEARCH_URL}/search?area=${c}&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
+  let url = `${SEARCH_URL}/search?area=${c}&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
+  if (minPrice) url += `&s[minPrice]=${minPrice}`
+  if (maxPrice) url += `&s[maxPrice]=${maxPrice}`
+  return url
 }
 
 type Props = { params: Promise<{ slug: string }> }
@@ -380,15 +383,18 @@ export default async function CommunityPage({ params }: Props) {
                   <p className="mt-2 text-sm text-slate-500">Typical price ranges by home type in today's market.</p>
                   <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
                     {community.priceRanges.map((pr, i) => (
-                      <div
+                      <a
                         key={pr.type}
-                        className={`flex items-center justify-between px-6 py-4 ${
+                        href={searchUrl(community.name, pr.minPrice, pr.maxPrice)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`flex items-center justify-between px-6 py-4 transition hover:bg-gold-50 ${
                           i % 2 === 0 ? 'bg-white' : 'bg-slate-50'
                         }`}
                       >
                         <span className="text-sm font-medium text-slate-700">{pr.type}</span>
-                        <span className="text-sm font-semibold text-gold-600">{pr.range}</span>
-                      </div>
+                        <span className="text-sm font-semibold text-gold-600">{pr.range} →</span>
+                      </a>
                     ))}
                   </div>
                   <p className="mt-3 text-xs text-slate-400">

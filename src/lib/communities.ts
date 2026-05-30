@@ -9,7 +9,7 @@ export interface CommunityItem {
   overview: string
   quickFacts: Array<{ label: string; value: string }>
   linkedNeighborhoods?: string[]
-  priceRanges?: Array<{ type: string; range: string }>
+  priceRanges?: Array<{ type: string; range: string; minPrice?: number; maxPrice?: number }>
   highlights?: string[]
   photos?: string[]
   // Extended content fields
@@ -182,11 +182,11 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['abacoa', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'sonoma-bay', 'jupiter-island', 'sea-oats', 'river-road'],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$450K – $900K' },
-      { type: 'Gated Communities', range: '$700K – $1.5M' },
-      { type: '55+ Communities', range: '$350K – $700K' },
-      { type: 'Golf & Country Club Homes', range: '$2M – $5M+' },
-      { type: 'Waterfront Estates', range: '$3M – $20M+' },
+      { type: 'Condos & Townhomes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000 },
+      { type: 'Gated Communities', range: '$700K – $1.5M', minPrice: 700000, maxPrice: 1500000 },
+      { type: '55+ Communities', range: '$350K – $700K', minPrice: 350000, maxPrice: 700000 },
+      { type: 'Golf & Country Club Homes', range: '$2M – $5M+', minPrice: 2000000 },
+      { type: 'Waterfront Estates', range: '$3M – $20M+', minPrice: 3000000 },
     ],
     highlights: [
       'One of the top-ranked school zones in Florida — families move here just for the schools',
@@ -546,9 +546,9 @@ export const neighborhoods: CommunityItem[] = [
       { name: 'Charleston Court', description: 'A small townhome enclave offering a quiet setting with convenient access throughout Abacoa.' },
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$400K – $600K' },
-      { type: 'Single-Family Homes', range: '$600K – $1.2M+' },
-      { type: 'Golf Course Properties', range: '$900K – $1.4M+' },
+      { type: 'Condos & Townhomes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000 },
+      { type: 'Single-Family Homes', range: '$600K – $1.2M+', minPrice: 600000, maxPrice: 1200000 },
+      { type: 'Golf Course Properties', range: '$900K – $1.4M+', minPrice: 900000 },
     ],
     highlights: [
       'New Urbanist design — walkable streetscapes, front porches, and town centers built from the ground up',
