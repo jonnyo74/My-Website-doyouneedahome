@@ -14,13 +14,23 @@ import TransportMapWrapper from '@/components/TransportMapWrapper'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
-function searchUrl(city: string, minPrice?: number, maxPrice?: number) {
+function searchUrl(city: string, opts: {
+  minPrice?: number
+  maxPrice?: number
+  amenities?: string[]
+  propertyTypes?: string[]
+} = {}) {
   const c = encodeURIComponent(city)
   let url = `${SEARCH_URL}/search?area=${c}&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
-  if (minPrice) url += `&s[minPrice]=${minPrice}`
-  if (maxPrice) url += `&s[maxPrice]=${maxPrice}`
+  if (opts.minPrice) url += `&s[minPrice]=${opts.minPrice}`
+  if (opts.maxPrice) url += `&s[maxPrice]=${opts.maxPrice}`
+  if (opts.amenities) opts.amenities.forEach((a, i) => { url += `&s[amenities][${i}]=${encodeURIComponent(a)}` })
+  if (opts.propertyTypes) opts.propertyTypes.forEach((t, i) => { url += `&s[propertyTypes][${i}]=${encodeURIComponent(t)}` })
   return url
 }
+
+const MEMBERSHIP_AMENITY = 'sa_rapb_membership_required'
+const SENIOR_AMENITY = 'sa_is_senior_community'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -300,7 +310,7 @@ export default async function CommunityPage({ params }: Props) {
               </h2>
             </div>
             <a
-              href={searchUrl(community.name, 600000)}
+              href={searchUrl(community.name, { minPrice: 600000 })}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
@@ -399,6 +409,48 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
+              {/* Quick Search Shortcuts */}
+              {community.hasMembershipCommunities && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Quick Property Searches</h2>
+                  <p className="mt-2 text-sm text-slate-500">Filtered searches for the most common buyer requests in {community.name}.</p>
+                  <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                    <a href={searchUrl(community.name, { propertyTypes: ['condo'], minPrice: 450000 })} target="_blank" rel="noopener noreferrer"
+                      className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                      <div>
+                        <p className="font-semibold text-slate-900">Condos & Townhomes</p>
+                        <p className="text-xs text-slate-500">$450K+ · All condo listings</p>
+                      </div>
+                      <span className="text-gold-600">→</span>
+                    </a>
+                    <a href={searchUrl(community.name, { amenities: [MEMBERSHIP_AMENITY] })} target="_blank" rel="noopener noreferrer"
+                      className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                      <div>
+                        <p className="font-semibold text-slate-900">Membership Communities</p>
+                        <p className="text-xs text-slate-500">Golf clubs · Country clubs · Private communities</p>
+                      </div>
+                      <span className="text-gold-600">→</span>
+                    </a>
+                    <a href={searchUrl(community.name, { amenities: [SENIOR_AMENITY] })} target="_blank" rel="noopener noreferrer"
+                      className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                      <div>
+                        <p className="font-semibold text-slate-900">55+ Active Adult</p>
+                        <p className="text-xs text-slate-500">Age-restricted communities</p>
+                      </div>
+                      <span className="text-gold-600">→</span>
+                    </a>
+                    <a href={searchUrl(community.name, { minPrice: 600000 })} target="_blank" rel="noopener noreferrer"
+                      className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                      <div>
+                        <p className="font-semibold text-slate-900">All Homes $600K+</p>
+                        <p className="text-xs text-slate-500">Every active listing above $600K</p>
+                      </div>
+                      <span className="text-gold-600">→</span>
+                    </a>
+                  </div>
+                </div>
+              )}
+
               {/* Price Ranges */}
               {community.priceRanges && community.priceRanges.length > 0 && (
                 <div>
@@ -410,7 +462,7 @@ export default async function CommunityPage({ params }: Props) {
                     {community.priceRanges.map((pr, i) => (
                       <a
                         key={pr.type}
-                        href={searchUrl(community.name, pr.minPrice, pr.maxPrice)}
+                        href={searchUrl(community.name, { minPrice: pr.minPrice, maxPrice: pr.maxPrice, amenities: pr.amenities })}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-center justify-between px-6 py-4 transition hover:bg-gold-50 ${

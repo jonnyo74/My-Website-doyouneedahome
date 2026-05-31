@@ -9,7 +9,8 @@ export interface CommunityItem {
   overview: string
   quickFacts: Array<{ label: string; value: string }>
   linkedNeighborhoods?: string[]
-  priceRanges?: Array<{ type: string; range: string; minPrice?: number; maxPrice?: number }>
+  priceRanges?: Array<{ type: string; range: string; minPrice?: number; maxPrice?: number; amenities?: string[]; propertyTypes?: string[] }>
+  hasMembershipCommunities?: boolean
   highlights?: string[]
   photos?: string[]
   // Extended content fields
@@ -136,12 +137,12 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['pga-national', 'ballen-isles', 'avenir', 'mirasol', 'alton', 'east-palm-bay', 'panther-national', 'prado'],
     priceRanges: [
-      { type: 'Townhomes & Villas', range: '$450K – $750K', minPrice: 450000, maxPrice: 750000 },
+      { type: 'Condos & Townhomes', range: '$450K – $750K', minPrice: 450000, maxPrice: 750000, propertyTypes: ['condo'] },
       { type: 'Non-Gated Single-Family', range: '$650K – $1.2M', minPrice: 650000, maxPrice: 1200000 },
       { type: 'Gated Communities', range: '$850K – $2.5M+', minPrice: 850000 },
       { type: 'New Construction (Avenir)', range: '$700K – $3M+', minPrice: 700000 },
-      { type: 'Luxury Country Club Estates', range: '$2M – $10M+', minPrice: 2000000 },
-      { type: '55+ Communities', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000 },
+      { type: 'Luxury Country Club Estates', range: '$2M – $10M+', minPrice: 2000000, amenities: ['sa_rapb_membership_required'] },
+      { type: '55+ Communities', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, amenities: ['sa_is_senior_community'] },
     ],
     highlights: [
       'Home to Mirasol, BallenIsles, Old Palm, Frenchman\'s Creek, and PGA National — some of Florida\'s top private clubs',
@@ -271,12 +272,13 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['abacoa', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'sonoma-bay', 'jupiter-island', 'sea-oats', 'river-road'],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000 },
+      { type: 'Condos & Townhomes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['condo'] },
       { type: 'Gated Communities', range: '$700K – $1.5M', minPrice: 700000, maxPrice: 1500000 },
-      { type: '55+ Communities', range: '$350K – $700K', minPrice: 350000, maxPrice: 700000 },
-      { type: 'Golf & Country Club Homes', range: '$2M – $5M+', minPrice: 2000000 },
+      { type: '55+ Communities', range: '$350K – $700K', minPrice: 350000, maxPrice: 700000, amenities: ['sa_is_senior_community'] },
+      { type: 'Golf & Country Club Homes', range: '$2M – $5M+', minPrice: 2000000, amenities: ['sa_rapb_membership_required'] },
       { type: 'Waterfront Estates', range: '$3M – $20M+', minPrice: 3000000 },
     ],
+    hasMembershipCommunities: true,
     highlights: [
       'One of the top-ranked school zones in Florida — families move here just for the schools',
       'Home to Admiral\'s Cove, The Bear\'s Club, The Loxahatchee Club, and Jonathan\'s Landing — among Florida\'s most exclusive private clubs',
