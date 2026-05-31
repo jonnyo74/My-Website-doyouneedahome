@@ -5,13 +5,15 @@ export default function YlopoMarketTrendsWidget({ city }: { city: string }) {
   useEffect(() => {
     ;(window as any).YLOPO_WIDGETS = { domain: 'search.doyouneedahome.com' }
 
-    document.querySelectorAll('#ylopo-widget-script').forEach(s => s.remove())
+    // Remove any previously loaded widget scripts so the library re-initializes
+    document.querySelectorAll('script[src*="widgets-1.0.0"]').forEach(s => s.remove())
+
     const script = document.createElement('script')
     script.id = 'ylopo-widget-script'
     script.src = '//search.doyouneedahome.com/build/js/widgets-1.0.0.js'
     script.async = true
     document.body.appendChild(script)
-    return () => { script.remove() }
+    return () => { document.querySelectorAll('script[src*="widgets-1.0.0"]').forEach(s => s.remove()) }
   }, [city])
 
   return (
