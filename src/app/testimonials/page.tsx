@@ -12,7 +12,10 @@ const christinePhotos = [
 ]
 
 const johnPhotos = [
-  '/images/john.jpg',
+  '/images/Event-81.jpg',
+  '/images/john-oliver.jpg.jpg',
+  '/images/5.jpg',
+  '/images/headshot2018.jpg',
 ]
 
 const christineReviews = [
