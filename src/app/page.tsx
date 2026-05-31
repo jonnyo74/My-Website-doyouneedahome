@@ -6,12 +6,12 @@ import CommunityCard from '@/components/CommunityCard'
 const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
 const testimonials = [
-  { quote: 'Christine listed and sold my home within 3 days.', author: 'Dave Hetzel', role: 'Seller', agent: 'Christine Dekant' },
-  { quote: 'A true professional! This is the third time we have worked with her.', author: 'Nancy Fletcher', role: 'Seller', agent: 'Christine Dekant' },
-  { quote: "She isn't just trying to sell you a house, she is helping find a home.", author: 'Joel Antoine', role: 'Buyer', agent: 'Christine Dekant' },
+  { quote: 'Christine listed and sold my home within 3 days.', author: 'Dave H.', role: 'Seller', agent: 'Christine Dekant' },
+  { quote: 'A true professional! This is the third time we have worked with her.', author: 'Nancy F.', role: 'Seller', agent: 'Christine Dekant' },
+  { quote: "She isn't just trying to sell you a house, she is helping find a home.", author: 'Joel A.', role: 'Buyer', agent: 'Christine Dekant' },
   { quote: 'John went above and beyond would be an understatement.', author: 'Felicia', role: 'Buyer', agent: 'John Oliver' },
-  { quote: 'John is fair, honest & has your best interest.', author: 'Michelle Probert', role: 'Seller & Buyer', agent: 'John Oliver' },
-  { quote: "We didn't just buy a condo, we have a new friend.", author: 'William Woody', role: 'Buyer', agent: 'John Oliver' },
+  { quote: 'John is fair, honest & has your best interest.', author: 'Michelle P.', role: 'Seller & Buyer', agent: 'John Oliver' },
+  { quote: "We didn't just buy a condo, we have a new friend.", author: 'William W.', role: 'Buyer', agent: 'John Oliver' },
 ]
 
 const stripPhotos = [
