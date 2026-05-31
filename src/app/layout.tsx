@@ -39,7 +39,7 @@ export default function RootLayout({
         <Header />
         <div className="flex-1">{children}</div>
         <Footer />
-        <Script id="ylopo-config" strategy="afterInteractive">
+        <Script id="ylopo-config" strategy="beforeInteractive">
           {`var YLOPO_WIDGETS = { domain: 'search.doyouneedahome.com' };`}
         </Script>
         <Script src="//search.doyouneedahome.com/build/js/widgets-1.0.0.js" strategy="afterInteractive" />
