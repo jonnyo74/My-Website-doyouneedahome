@@ -1,0 +1,202 @@
+{
+  "cities": {
+    "jupiter": {
+      "name": "Jupiter",
+      "categories": {
+        "gated-communities": { "name": "Gated Communities", "communities": ["rialto", "sonoma-isles", "jonathans-landing"] },
+        "waterfront-communities": { "name": "Waterfront Communities", "communities": ["admirals-cove", "jupiter-inlet", "seabrook"] },
+        "golf-communities": { "name": "Golf Communities", "communities": ["jonathans-landing"] }
+      },
+      "communities": {
+        "rialto": { "name": "Rialto", "categories": ["gated-communities"] },
+        "sonoma-isles": { "name": "Sonoma Isles", "categories": ["gated-communities"] },
+        "jonathans-landing": { "name": "Jonathan's Landing", "categories": ["golf-communities"] },
+        "admirals-cove": { "name": "Admirals Cove", "categories": ["waterfront-communities"], "master": true }
+      },
+      "masters": {
+        "abacoa": {
+          "name": "Abacoa",
+          "subcommunities": {
+            "mallory-creek": { "name": "Mallory Creek" },
+            "newhaven": { "name": "Newhaven" },
+            "martinique": { "name": "Martinique" },
+            "tuscany": { "name": "Tuscany" },
+            "canterbury-place": { "name": "Canterbury Place" },
+            "san-palermo": { "name": "San Palermo" },
+            "valencia": { "name": "Valencia" },
+            "osceola-woods": { "name": "Osceola Woods" },
+            "antigua": { "name": "Antigua" },
+            "charleston-court": { "name": "Charleston Court" }
+          }
+        }
+      }
+    },
+    "palm-beach-gardens": {
+      "name": "Palm Beach Gardens",
+      "categories": {
+        "golf-communities": { "name": "Golf Communities", "communities": ["pga-national", "ballenisles", "mirasol"] },
+        "luxury-communities": { "name": "Luxury Communities", "communities": ["old-palm", "mirasol", "alton"] },
+        "new-construction-communities": { "name": "New Construction", "communities": ["avenir", "alton"] }
+      },
+      "communities": {
+        "mirasol": { "name": "Mirasol", "categories": ["golf-communities", "luxury-communities"] },
+        "old-palm": { "name": "Old Palm", "categories": ["luxury-communities"] },
+        "ballenisles": { "name": "BallenIsles", "categories": ["golf-communities"] },
+        "alton": { "name": "Alton", "categories": ["new-construction-communities"] }
+      },
+      "masters": {
+        "pga-national": {
+          "name": "PGA National",
+          "subcommunities": {
+            "eagleton": { "name": "Eagleton" },
+            "preston": { "name": "Preston" },
+            "barclay-club": { "name": "Barclay Club" },
+            "masters": { "name": "Masters" },
+            "ryder-cup-villas": { "name": "Ryder Cup Villas" },
+            "club-cottages": { "name": "Club Cottages" },
+            "patio-homes": { "name": "Patio Homes" },
+            "monterey-pointe": { "name": "Monterey Pointe" }
+          }
+        },
+        "avenir": {
+          "name": "Avenir",
+          "subcommunities": {
+            "avondale": { "name": "Avondale" },
+            "apex": { "name": "Apex" },
+            "coral-isles": { "name": "Coral Isles" },
+            "regency": { "name": "Regency" },
+            "la-terre": { "name": "La Terre" },
+            "panther-national": { "name": "Panther National" }
+          }
+        }
+      }
+    },
+    "north-palm-beach": {
+      "name": "North Palm Beach",
+      "categories": {
+        "waterfront-communities": { "name": "Waterfront Communities", "communities": ["sailboat-bend", "north-palm-beach-waterfront"] },
+        "golf-communities": { "name": "Golf & Country Club", "communities": ["north-palm-country-club"] }
+      },
+      "communities": {
+        "sailboat-bend": { "name": "Sailboat Bend", "categories": ["waterfront-communities"] },
+        "north-palm-beach-waterfront": { "name": "North Palm Beach Waterfront", "categories": ["waterfront-communities"] }
+      }
+    },
+    "tequesta": {
+      "name": "Tequesta",
+      "categories": {
+        "waterfront-communities": { "name": "Waterfront & Boating", "communities": ["tequesta-waterfront"] },
+        "gated-communities": { "name": "Gated Communities", "communities": ["tequesta-gated"] }
+      },
+      "communities": {
+        "tequesta-waterfront": { "name": "Tequesta Waterfront", "categories": ["waterfront-communities"] }
+      }
+    },
+    "juno-beach": {
+      "name": "Juno Beach",
+      "categories": {
+        "oceanfront-condos": { "name": "Oceanfront Condos & Beach", "communities": ["juno-beach-condos"] }
+      },
+      "communities": {
+        "juno-beach-condos": { "name": "Juno Beach Condos", "categories": ["oceanfront-condos"] }
+      }
+    },
+    "west-palm-beach": {
+      "name": "West Palm Beach",
+      "categories": {
+        "luxury-communities": { "name": "Luxury & Waterfront", "communities": ["el-cid", "ibis"] },
+        "urban-condo": { "name": "Downtown / Urban", "communities": ["downtown-wpb", "northwood"] }
+      },
+      "communities": {
+        "el-cid": { "name": "El Cid", "categories": ["luxury-communities"] },
+        "ibis": { "name": "Ibis", "categories": ["luxury-communities"] }
+      },
+      "masters": {
+        "ibis": { "name": "Ibis", "subcommunities": {} }
+      }
+    },
+    "lake-worth-beach": {
+      "name": "Lake Worth Beach",
+      "categories": {
+        "waterfront-communities": { "name": "Waterfront & Boating", "communities": ["lake-worth-waterfront"] },
+        "historic": { "name": "Historic / Walkable", "communities": ["downtown-lake-worth"] }
+      },
+      "communities": {
+        "lake-worth-waterfront": { "name": "Lake Worth Waterfront", "categories": ["waterfront-communities"] }
+      }
+    },
+    "boynton-beach": {
+      "name": "Boynton Beach",
+      "categories": {
+        "waterfront-communities": { "name": "Waterfront & Intracoastal", "communities": ["boynton-waterfront"] },
+        "golf-gated": { "name": "Golf & Gated", "communities": ["boynton-golf"] }
+      },
+      "communities": {
+        "boynton-waterfront": { "name": "Boynton Waterfront", "categories": ["waterfront-communities"] }
+      }
+    },
+    "wellington": {
+      "name": "Wellington",
+      "categories": {
+        "equestrian-communities": { "name": "Equestrian & Polo", "communities": ["wellington-equestrian", "palm-beach-polo"] },
+        "gated-luxury": { "name": "Gated Luxury", "communities": ["olympia", "sterling-oaks"] }
+      },
+      "communities": {
+        "wellington-equestrian": { "name": "Wellington Equestrian Area", "categories": ["equestrian-communities"] }
+      }
+    },
+    "royal-palm-beach": {
+      "name": "Royal Palm Beach",
+      "categories": {
+        "family-subdivisions": { "name": "Family-Friendly Subdivisions", "communities": ["royal-palm-estates"] }
+      },
+      "communities": {
+        "royal-palm-estates": { "name": "Royal Palm Estates", "categories": ["family-subdivisions"] }
+      }
+    },
+    "delray-beach": {
+      "name": "Delray Beach",
+      "categories": {
+        "downtown-urban": { "name": "Downtown / Urban", "communities": ["atlantic-avenue", "pineapple-grove"] },
+        "waterfront": { "name": "Waterfront & Boating", "communities": ["delray-marina"] }
+      },
+      "communities": {
+        "atlantic-avenue": { "name": "Atlantic Avenue / Downtown", "categories": ["downtown-urban"] }
+      }
+    },
+    "boca-raton": {
+      "name": "Boca Raton",
+      "categories": {
+        "country-club": { "name": "Country Club & Golf", "communities": ["royal-palm-yacht", "boca-raton-cc"] },
+        "waterfront": { "name": "Waterfront & Boating", "communities": ["spanish-river"] }
+      },
+      "communities": {
+        "royal-palm-yacht": { "name": "Royal Palm Yacht & Country Club", "categories": ["country-club"] }
+      },
+      "masters": {
+        "boca-bridges": { "name": "Boca Bridges", "subcommunities": {} }
+      }
+    },
+    "port-st-lucie": {
+      "name": "Port St. Lucie",
+      "categories": {
+        "master-planned": { "name": "Master-Planned Communities", "communities": ["tradition", "st-lucie-west"] },
+        "new-construction": { "name": "New Construction", "communities": ["tradition"] }
+      },
+      "communities": {
+        "tradition": { "name": "Tradition", "categories": ["master-planned"], "master": true },
+        "st-lucie-west": { "name": "St. Lucie West", "categories": ["master-planned"], "master": true }
+      }
+    },
+    "stuart": {
+      "name": "Stuart",
+      "categories": {
+        "waterfront-communities": { "name": "Waterfront & Boating", "communities": ["sailfish-point", "hutchinson-island"] },
+        "historic-downtown": { "name": "Historic / Downtown", "communities": ["downtown-stuart"] }
+      },
+      "communities": {
+        "sailfish-point": { "name": "Sailfish Point", "categories": ["waterfront-communities"], "master": true }
+      }
+    }
+  }
+}
