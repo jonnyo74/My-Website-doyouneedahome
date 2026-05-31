@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { cities } from '@/lib/communities'
@@ -11,6 +11,13 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [commOpen, setCommOpen] = useState(false)
   const [sellOpen, setSellOpen] = useState(false)
+  const commTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const sellTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const openComm = () => { if (commTimer.current) clearTimeout(commTimer.current); setCommOpen(true) }
+  const closeComm = () => { commTimer.current = setTimeout(() => setCommOpen(false), 200) }
+  const openSell = () => { if (sellTimer.current) clearTimeout(sellTimer.current); setSellOpen(true) }
+  const closeSell = () => { sellTimer.current = setTimeout(() => setSellOpen(false), 200) }
 
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 shadow-sm backdrop-blur-xl">
@@ -34,8 +41,8 @@ export default function Header() {
 
           <div
             className="relative"
-            onMouseEnter={() => setSellOpen(true)}
-            onMouseLeave={() => setSellOpen(false)}
+            onMouseEnter={openSell}
+            onMouseLeave={closeSell}
           >
             <button className="flex items-center gap-1 text-sm font-medium text-slate-700 transition hover:text-gold-600">
               Sell <ChevronIcon />
@@ -50,8 +57,8 @@ export default function Header() {
 
           <div
             className="relative"
-            onMouseEnter={() => setCommOpen(true)}
-            onMouseLeave={() => setCommOpen(false)}
+            onMouseEnter={openComm}
+            onMouseLeave={closeComm}
           >
             <button className="flex items-center gap-1 text-sm font-medium text-slate-700 transition hover:text-gold-600">
               Communities <ChevronIcon />
