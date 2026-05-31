@@ -83,11 +83,11 @@ export const cities: CommunityItem[] = [
         category: 'Public & Magnet Schools',
         schools: [
           { name: 'Dreyfoos School of the Arts — Top-ranked arts magnet, nationally recognized', url: 'https://www.dreyfoos.com' },
-          { name: 'Suncoast High School — Top 10 in Florida, STEM & IB', url: 'https://suncoast.palmbeachschools.org' },
-          { name: 'Bak Middle School of the Arts (lottery-based)', url: 'https://bak.palmbeachschools.org' },
-          { name: 'Forest Hill Community High School', url: 'https://fhh.palmbeachschools.org' },
-          { name: 'Palm Beach Lakes Community High School', url: 'https://pbl.palmbeachschools.org' },
-          { name: 'Conniston Middle School', url: 'https://cms.palmbeachschools.org' },
+          { name: 'Suncoast High School — Top 10 in Florida, STEM & IB', url: 'https://www.palmbeachschools.org/fs/pages/43314' },
+          { name: 'Bak Middle School of the Arts (lottery-based)', url: 'https://www.palmbeachschools.org/fs/pages/15613' },
+          { name: 'Forest Hill Community High School', url: 'https://www.palmbeachschools.org/fs/pages/41116' },
+          { name: 'Palm Beach Lakes Community High School', url: 'https://www.palmbeachschools.org/fs/pages/42372' },
+          { name: 'Conniston Middle School', url: 'https://www.palmbeachschools.org/fs/pages/33080' },
         ],
       },
       {
@@ -187,19 +187,19 @@ export const cities: CommunityItem[] = [
       {
         category: 'Public Elementary',
         schools: [
-          { name: 'Allamanda Elementary School', url: 'https://allamanda.palmbeachschools.org' },
-          { name: 'Marsh Pointe Elementary School', url: 'https://mpe.palmbeachschools.org' },
-          { name: 'Timber Trace Elementary School', url: 'https://tte.palmbeachschools.org' },
+          { name: 'Allamanda Elementary School', url: 'https://www.palmbeachschools.org/fs/pages/14921' },
+          { name: 'Marsh Pointe Elementary School', url: 'https://www.palmbeachschools.org/fs/pages/24498' },
+          { name: 'Timber Trace Elementary School', url: 'https://www.palmbeachschools.org/fs/pages/30311' },
         ],
       },
       {
         category: 'Public Middle & High',
         schools: [
-          { name: 'Watson B. Duncan Middle School', url: 'https://wbd.palmbeachschools.org' },
-          { name: 'Palm Beach Gardens Community High School', url: 'https://pbg.palmbeachschools.org' },
-          { name: 'William T. Dwyer High School', url: 'https://dhs.palmbeachschools.org' },
-          { name: 'Suncoast High School — Top 10 in Florida, STEM & IB', url: 'https://suncoast.palmbeachschools.org' },
-          { name: 'Bak Middle School of the Arts (lottery-based)', url: 'https://bak.palmbeachschools.org' },
+          { name: 'Watson B. Duncan Middle School', url: 'https://www.palmbeachschools.org/fs/pages/36534' },
+          { name: 'Palm Beach Gardens Community High School', url: 'https://www.palmbeachschools.org/fs/pages/42215' },
+          { name: 'William T. Dwyer High School', url: 'https://www.palmbeachschools.org/fs/pages/43942' },
+          { name: 'Suncoast High School — Top 10 in Florida, STEM & IB', url: 'https://www.palmbeachschools.org/fs/pages/43314' },
+          { name: 'Bak Middle School of the Arts (lottery-based)', url: 'https://www.palmbeachschools.org/fs/pages/15613' },
         ],
       },
       {
@@ -307,12 +307,12 @@ export const cities: CommunityItem[] = [
       {
         category: 'Top Public Schools',
         schools: [
-          { name: 'Jupiter Elementary School', url: 'https://je.palmbeachschools.org' },
-          { name: 'Limestone Creek Elementary', url: 'https://lce.palmbeachschools.org' },
-          { name: 'Jerry Thomas Elementary', url: 'https://jte.palmbeachschools.org' },
-          { name: 'Independence Middle School', url: 'https://ims.palmbeachschools.org' },
-          { name: 'Jupiter Middle School', url: 'https://jms.palmbeachschools.org' },
-          { name: 'Jupiter High School — A-rated, medical & engineering academies', url: 'https://jhs.palmbeachschools.org' },
+          { name: 'Jupiter Elementary School', url: 'https://www.palmbeachschools.org/fs/pages/21847' },
+          { name: 'Limestone Creek Elementary', url: 'https://www.palmbeachschools.org/fs/pages/23266' },
+          { name: 'Jerry Thomas Elementary', url: 'https://www.palmbeachschools.org/fs/pages/20614' },
+          { name: 'Independence Middle School', url: 'https://www.palmbeachschools.org/fs/pages/34022' },
+          { name: 'Jupiter Middle School', url: 'https://www.palmbeachschools.org/fs/pages/34336' },
+          { name: 'Jupiter High School — A-rated, medical & engineering academies', url: 'https://www.palmbeachschools.org/fs/pages/41587' },
         ],
       },
       {
@@ -768,9 +768,9 @@ export const neighborhoods: CommunityItem[] = [
       {
         category: 'Public Schools',
         schools: [
-          { name: 'Beacon Cove Intermediate', url: 'https://bci.palmbeachschools.org' },
-          { name: 'Dwight D. Eisenhower Middle School', url: 'https://ems.palmbeachschools.org' },
-          { name: 'William T. Dwyer High School', url: 'https://dhs.palmbeachschools.org' },
+          { name: 'Beacon Cove Intermediate', url: 'https://www.palmbeachschools.org/fs/pages/15392' },
+          { name: 'Dwight D. Eisenhower Middle School', url: 'https://www.palmbeachschools.org/fs/pages/18689' },
+          { name: 'William T. Dwyer High School', url: 'https://www.palmbeachschools.org/fs/pages/43942' },
         ],
       },
       {
