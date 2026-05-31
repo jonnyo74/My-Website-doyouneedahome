@@ -26,6 +26,7 @@ export interface CommunityItem {
   popularNeighborhoods?: string[]
   subNeighborhoods?: Array<{ name: string; description: string }>
   keyLinks?: Array<{ label: string; url: string; category: string }>
+  searchCity?: string
   lat?: number
   lng?: number
 }

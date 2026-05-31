@@ -74,6 +74,8 @@ export default async function CommunityPage({ params }: Props) {
   // Alternate which agent leads per page
   const christineOnTop = community.slug.charCodeAt(0) % 2 === 0
   const quotes = getAgentQuotes(community.slug)
+  // For neighborhoods, search by parent city not the neighborhood name
+  const searchName = community.searchCity ?? community.name
 
   return (
     <div className="min-h-screen bg-white">
@@ -122,7 +124,7 @@ export default async function CommunityPage({ params }: Props) {
               </p>
               <div className="mt-7 flex flex-wrap gap-4">
                 <a
-                  href={searchUrl(community.name)}
+                  href={searchUrl(searchName)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
@@ -172,7 +174,7 @@ export default async function CommunityPage({ params }: Props) {
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a
-                    href={searchUrl(community.name)}
+                    href={searchUrl(searchName)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
@@ -199,7 +201,7 @@ export default async function CommunityPage({ params }: Props) {
                   </p>
                   <div className="mt-5 space-y-3">
                     <a
-                      href={searchUrl(community.name)}
+                      href={searchUrl(searchName)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -310,7 +312,7 @@ export default async function CommunityPage({ params }: Props) {
               </h2>
             </div>
             <a
-              href={searchUrl(community.name, { minPrice: 600000 })}
+              href={searchUrl(searchName, { minPrice: 600000 })}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
@@ -415,7 +417,7 @@ export default async function CommunityPage({ params }: Props) {
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">Quick Property Searches</h2>
                   <p className="mt-2 text-sm text-slate-500">Filtered searches for the most common buyer requests in {community.name}.</p>
                   <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                    <a href={searchUrl(community.name, { propertyTypes: ['condo'], minPrice: 450000 })} target="_blank" rel="noopener noreferrer"
+                    <a href={searchUrl(searchName, { propertyTypes: ['condo'], minPrice: 450000 })} target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
                       <div>
                         <p className="font-semibold text-slate-900">Condos & Townhomes</p>
@@ -423,7 +425,7 @@ export default async function CommunityPage({ params }: Props) {
                       </div>
                       <span className="text-gold-600">→</span>
                     </a>
-                    <a href={searchUrl(community.name, { amenities: [MEMBERSHIP_AMENITY] })} target="_blank" rel="noopener noreferrer"
+                    <a href={searchUrl(searchName, { amenities: [MEMBERSHIP_AMENITY] })} target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
                       <div>
                         <p className="font-semibold text-slate-900">Membership Communities</p>
@@ -431,7 +433,7 @@ export default async function CommunityPage({ params }: Props) {
                       </div>
                       <span className="text-gold-600">→</span>
                     </a>
-                    <a href={searchUrl(community.name, { amenities: [SENIOR_AMENITY] })} target="_blank" rel="noopener noreferrer"
+                    <a href={searchUrl(searchName, { amenities: [SENIOR_AMENITY] })} target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
                       <div>
                         <p className="font-semibold text-slate-900">55+ Active Adult</p>
@@ -439,7 +441,7 @@ export default async function CommunityPage({ params }: Props) {
                       </div>
                       <span className="text-gold-600">→</span>
                     </a>
-                    <a href={searchUrl(community.name, { minPrice: 600000 })} target="_blank" rel="noopener noreferrer"
+                    <a href={searchUrl(searchName, { minPrice: 600000 })} target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
                       <div>
                         <p className="font-semibold text-slate-900">All Homes $600K+</p>
@@ -462,7 +464,7 @@ export default async function CommunityPage({ params }: Props) {
                     {community.priceRanges.map((pr, i) => (
                       <a
                         key={pr.type}
-                        href={searchUrl(community.name, { minPrice: pr.minPrice, maxPrice: pr.maxPrice, amenities: pr.amenities })}
+                        href={searchUrl(searchName, { minPrice: pr.minPrice, maxPrice: pr.maxPrice, amenities: pr.amenities })}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-center justify-between px-6 py-4 transition hover:bg-gold-50 ${
@@ -478,7 +480,7 @@ export default async function CommunityPage({ params }: Props) {
                     Ranges are approximate and reflect current market conditions. Contact us for a precise valuation.
                   </p>
                   <a
-                    href={searchUrl(community.name)}
+                    href={searchUrl(searchName)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-flex text-sm font-semibold text-gold-600 transition hover:text-gold-700"
@@ -737,7 +739,7 @@ export default async function CommunityPage({ params }: Props) {
                   </p>
                   <div className="mt-5 space-y-3">
                     <a
-                      href={searchUrl(community.name)}
+                      href={searchUrl(searchName)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -816,7 +818,7 @@ export default async function CommunityPage({ params }: Props) {
         <div className="mx-auto max-w-7xl rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
           <div className="space-y-3">
             <a
-              href={searchUrl(community.name)}
+              href={searchUrl(searchName)}
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -848,7 +850,7 @@ export default async function CommunityPage({ params }: Props) {
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href={searchUrl(community.name)}
+              href={searchUrl(searchName)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-gold-700 shadow transition hover:bg-blue-50"
