@@ -81,7 +81,7 @@ Watching over all of it is the **Jupiter Inlet Lighthouse** — that bright red 
 
 Let's be straight with each other. Winter in Jupiter is close to perfect. From about November through April, you get warm, dry, sunny days in the 70s. This is when the snowbirds and the Canadians show up, and you'll understand exactly why.
 
-Summer is the trade-off. June through September is hot, sticky, and humid, with afternoon thunderstorms that roll in fast and clear out just as quick. And yes — this is hurricane country. You'll learn to watch the tropics from June to November, keep some water and batteries on hand, and trust your neighbors. If you can make peace with hot summers, the other eight months feel like a reward.
+Summer is the trade-off. June through September is hot, sticky, and humid, with the occasional quick afternoon shower that passes as fast as it arrives. It's technically hurricane season June through November, but this stretch of coast has gone many years without a direct hit — locals keep a casual eye on the tropics and otherwise enjoy the quiet season. If you can make peace with hot summers, the other eight months feel like a reward.
 
 ## Getting around (and the traffic truth)
 
@@ -6663,7 +6663,7 @@ Rent a kayak or paddleboard on the Loxahatchee River — mangroves, manatees in 
 
 ## Go wild at Riverbend Park
 
-Paddle or hike through old, untamed Florida — cypress, palms, quiet water, and Seminole War history, all minutes from town.
+Paddle, bike, or hike through old, untamed Florida — cypress, palms, quiet water, miles of off-road bike trails, and Seminole War history, all minutes from town.
 
 ## Busch Wildlife Sanctuary
 
@@ -6720,11 +6720,11 @@ In summer, plan outdoor stuff for the morning and keep an indoor option — the 
 
 ## You might want to look elsewhere if…
 
-**You need big-city nightlife and energy** — Jupiter rolls up earlier than Miami or Fort Lauderdale.
+**You need big-city nightlife and energy** — Jupiter rolls up earlier than nearby West Palm Beach, where you'll find the area's real late-night scene.
 
 **You're on a tight budget** — Jupiter is one of the pricier towns in the county.
 
-**You can't stand heat, humidity, or storms** — summers are hot and hurricane season is real.
+**You can't stand heat or humidity** — summers are hot, though this stretch of coast has gone many years without a direct hurricane hit.
 
 **You want a walkable, car-free life** — outside Abacoa and the Riverwalk, it's built around the car.
 
@@ -6781,7 +6781,7 @@ Picture your ordinary Tuesday a year from now. Beach walk, porch work, dinner on
 
 ## The bottom line
 
-If your priorities are lifestyle, weather, schools, and the water, the pros bury the cons. If you're stretching the budget or can't handle heat and hurricane season, weigh the cons honestly. For most people who move here, Jupiter's trade-offs are easy ones to live with.`,
+If your priorities are lifestyle, weather, schools, and the water, the pros bury the cons. If you're stretching the budget or can't take the summer heat, weigh the cons honestly. For most people who move here, Jupiter's trade-offs are easy ones to live with.`,
     faqs: [
       { q: "What are the biggest pros of living in Jupiter?", a: "Beautiful weather most of the year, clean low-rise beaches and the dog beach, top-rated schools, no state income tax, an outdoor lifestyle, strong real estate, and a genuine small-town feel." },
       { q: "What is the biggest downside of living in Jupiter?", a: "Cost — it's one of the pricier towns in the county — along with hot, stormy summers, hurricane season, and rising home insurance." },
@@ -6836,7 +6836,7 @@ Jupiter costs more than the U.S. average — mostly housing and insurance — bu
       { q: "Is Jupiter worth the higher cost of living?", a: "For most who move here, yes — they feel they're paying for the lifestyle, the schools, and a town that holds its value." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-jupiter-florida", "best-neighborhoods-in-jupiter-florida", "jupiter-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
