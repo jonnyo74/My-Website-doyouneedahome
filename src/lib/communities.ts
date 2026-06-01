@@ -13,6 +13,9 @@ export interface CommunityItem {
   hasMembershipCommunities?: boolean
   highlights?: string[]
   photos?: string[]
+  // Curated saved-search buttons (real saved URLs from search.doyouneedahome.com — never auto-generated)
+  savedSearches?: Array<{ label: string; sublabel?: string; url: string }>
+
   // Extended content fields
   lifestyle?: string
   localLoves?: string[]
@@ -403,12 +406,24 @@ export const cities: CommunityItem[] = [
       { label: 'Jupiter Beach Park', url: 'https://discover.pbcgov.org/parks/pages/JupiterBeach.aspx', category: 'Parks & Nature' },
     ],
     photos: [
-      '/public/Jupiter/IMG_2429.JPG',
-      '/public/Jupiter/IMG_2578.JPG',
-      '/public/Jupiter/IMG_2579.JPG',
-      '/public/Jupiter/IMG_2589.JPG',
-      '/public/Jupiter/IMG_2622.JPG',
-      '/public/Jupiter/IMG_2233.JPG',
+      '/public/Jupiter/jupiter-lighthouse-sunset.jpg',
+      '/public/Jupiter/jupiter-inlet.jpg',
+      '/public/Jupiter/jupiter-waterfront-dining.jpg',
+      '/public/Jupiter/jupiter-waterway-dusk.jpg',
+      '/public/Jupiter/jupiter-luxury-home.jpg',
+      '/public/Jupiter/jupiter-pelican-dock.jpg',
+    ],
+    savedSearches: [
+      {
+        label: 'Oceanfront Condos',
+        sublabel: '$600K and up',
+        url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[limit]=18&s[propertyTypes][0]=condo&s[minPrice]=600000&s[amenities][0]=sa_has_waterfront_ocean',
+      },
+      {
+        label: 'Single-Family Homes',
+        sublabel: '$800K and up',
+        url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[limit]=18&s[propertyTypes][0]=house&s[minPrice]=800000',
+      },
     ],
     lat: 26.9342, lng: -80.0942,
   },

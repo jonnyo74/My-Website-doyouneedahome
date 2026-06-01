@@ -11,6 +11,7 @@ import { getAgentQuotes } from '@/lib/agentQuotes'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
+import CitySearchButtons from '@/components/CitySearchButtons'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -321,6 +322,16 @@ export default async function CommunityPage({ params }: Props) {
             </a>
           </div>
           <YlopoResultsWidget city={community.name} />
+
+          {community.savedSearches && community.savedSearches.length > 0 && (
+            <div className="mt-8">
+              <CitySearchButtons
+                eyebrow="Start Your Search"
+                heading={`Popular Searches in ${community.name}`}
+                searches={community.savedSearches}
+              />
+            </div>
+          )}
         </div>
       </section>
 
