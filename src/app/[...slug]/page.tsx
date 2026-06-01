@@ -21,29 +21,37 @@ export default function Page({ params }: { params: { slug?: string[] } }) {
   }
 
   if (slug.length === 1) {
-    return <CityHub data={city} />
+    return <CityHub data={city} citySlug={cityKey} />
   }
 
   if (slug.length === 2) {
     const second = slug[1]
     if (city.categories?.[second]) {
-      return <CategoryPage data={city} categoryKey={second} />
+      return <CategoryPage data={city} categoryKey={second} citySlug={cityKey} />
     }
     if (city.masters?.[second]) {
-      return <MasterHub data={city} masterKey={second} />
+      return <MasterHub data={city} masterKey={second} citySlug={cityKey} />
     }
     if (city.communities?.[second]) {
-      return <CommunityPage data={city} communityKey={second} />
+      return <CommunityPage data={city} communityKey={second} citySlug={cityKey} />
     }
     return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">Page not found</div>
   }
 
   if (slug.length === 3) {
-    const masterKey = slug[1]
-    const subKey = slug[2]
-    if (city.masters?.[masterKey]?.subcommunities?.[subKey]) {
-      return <SubCommunity data={city} masterKey={masterKey} subKey={subKey} />
+    const categoryKey = slug[1]
+    const communityKey = slug[2]
+
+    // Check if it's a master community sub-community
+    if (city.masters?.[categoryKey]?.subcommunities?.[communityKey]) {
+      return <SubCommunity data={city} masterKey={categoryKey} subKey={communityKey} citySlug={cityKey} />
     }
+
+    // Check if it's a category community
+    if (city.categories?.[categoryKey]?.communities?.includes(communityKey)) {
+      return <CommunityPage data={city} communityKey={communityKey} categoryKey={categoryKey} citySlug={cityKey} />
+    }
+
     return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">Page not found</div>
   }
 
