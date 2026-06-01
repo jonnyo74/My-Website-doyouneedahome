@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { cities, neighborhoods } from '@/lib/communities'
+import { articles } from '@/lib/articles'
 
 const BASE = 'https://www.doyouneedahome.com'
 
@@ -27,5 +28,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }))
 
-  return [...staticPages, ...cityPages, ...neighborhoodPages]
+  // Only published (live) blog articles belong in the sitemap.
+  const blogPages: MetadataRoute.Sitemap = articles
+    .filter((a) => a.published)
+    .map((a) => ({
+      url: `${BASE}/blog/${a.slug}`,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    }))
+
+  return [...staticPages, ...cityPages, ...neighborhoodPages, ...blogPages]
 }

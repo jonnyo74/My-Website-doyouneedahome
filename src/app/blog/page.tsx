@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { getAllVisibleSorted, regionForCity, REGION_ORDER, groupForRegion } from '@/lib/articles'
 
 export const metadata: Metadata = {
   title: 'Blog | DO Homes Group',
@@ -7,46 +8,10 @@ export const metadata: Metadata = {
     'Real estate insights, market updates, and community guides for Palm Beach County and the Treasure Coast from Christine Dekant & John Oliver at Premier Brokers International.',
 }
 
-const regions = [
-  {
-    name: 'Northern Palm Beach County',
-    description: 'Jupiter, Palm Beach Gardens, Tequesta, Juno Beach & North Palm Beach',
-    posts: [
-      { tag: 'Market Update', title: 'Jupiter Real Estate Market: What Buyers Need to Know' },
-      { tag: 'Community Guide', title: 'Living in Palm Beach Gardens: Golf, Schools & Lifestyle' },
-      { tag: 'Buying Guide', title: 'Tequesta & Juno Beach: Hidden Gems on the Barrier Island' },
-    ],
-  },
-  {
-    name: 'Central Palm Beach County',
-    description: 'West Palm Beach, Palm Beach, Wellington, Royal Palm Beach & Lake Worth Beach',
-    posts: [
-      { tag: 'Market Update', title: 'West Palm Beach Condo Market: Trends & Top Picks' },
-      { tag: 'Community Guide', title: "Wellington's Equestrian Season: How It Affects Real Estate" },
-      { tag: 'Buying Guide', title: 'Palm Beach Island vs. West Palm Beach: Which Is Right for You?' },
-    ],
-  },
-  {
-    name: 'Southern Palm Beach County',
-    description: 'Boca Raton, Delray Beach & Boynton Beach',
-    posts: [
-      { tag: 'Market Update', title: 'Boca Raton Luxury Market: Country Clubs & Coastal Estates' },
-      { tag: 'Community Guide', title: 'Delray Beach: Atlantic Avenue Living & the Real Estate Market' },
-      { tag: 'Buying Guide', title: 'Boynton Beach: Best Value in South Palm Beach County' },
-    ],
-  },
-  {
-    name: 'Treasure Coast',
-    description: 'Stuart, Port St. Lucie, Hutchinson Island & surrounding areas',
-    posts: [
-      { tag: 'Market Update', title: 'Treasure Coast Real Estate: Growth, Value & Opportunity' },
-      { tag: 'Community Guide', title: "Stuart, Florida: The Sailfish Capital's Real Estate Scene" },
-      { tag: 'Buying Guide', title: 'Port St. Lucie: Why Buyers Are Moving North of Palm Beach' },
-    ],
-  },
-]
-
 export default function BlogPage() {
+  const all = getAllVisibleSorted()
+  const regionsPresent = REGION_ORDER.filter((r) => all.some((a) => regionForCity(a.citySlug) === r))
+
   return (
     <div className="min-h-screen bg-white">
 
@@ -64,43 +29,70 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Regional Sections */}
-      {regions.map((region, i) => (
-        <section
-          key={region.name}
-          className={`px-6 py-16 sm:px-8 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}
-        >
-          <div className="mx-auto max-w-7xl">
-            {/* Section header */}
-            <div className="mb-10 border-b border-slate-200 pb-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
-                {region.description}
-              </p>
-              <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
-                {region.name}
-              </h2>
-            </div>
-
-            {/* Post cards */}
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {region.posts.map((post) => (
-                <div
-                  key={post.title}
-                  className="flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white p-6 shadow-card"
-                >
-                  <span className="inline-flex w-fit rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500">
-                    {post.tag}
-                  </span>
-                  <h3 className="flex-1 text-base font-semibold leading-6 text-slate-800">
-                    {post.title}
-                  </h3>
-                  <span className="text-xs font-semibold text-slate-400">Coming soon</span>
-                </div>
-              ))}
-            </div>
-          </div>
+      {/* Article sections grouped by region → city */}
+      {regionsPresent.length === 0 ? (
+        <section className="px-6 py-20 text-center sm:px-8">
+          <p className="text-slate-500">New relocation guides are publishing soon — check back shortly.</p>
         </section>
-      ))}
+      ) : (
+        regionsPresent.map((region, i) => {
+          const regionArticles = all.filter((a) => regionForCity(a.citySlug) === region)
+          const regionCities = Array.from(new Set(regionArticles.map((a) => a.cityName)))
+          return (
+            <section
+              key={region}
+              className={`px-6 py-16 sm:px-8 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}
+            >
+              <div className="mx-auto max-w-7xl">
+                <div className="mb-10 border-b border-slate-200 pb-6">
+                  <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
+                    {groupForRegion(region)}
+                  </p>
+                  <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
+                    {region}
+                  </h2>
+                </div>
+
+                <div className="space-y-12">
+                  {regionCities.map((city) => {
+                    const posts = regionArticles.filter((a) => a.cityName === city)
+                    return (
+                      <div key={city}>
+                        <h3 className="mb-4 font-serif text-xl font-semibold text-slate-800">{city}</h3>
+                        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                          {posts.map((post) => (
+                            <Link
+                              key={post.slug}
+                              href={`/blog/${post.slug}`}
+                              className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-card transition hover:shadow-card-hover"
+                            >
+                              {post.heroImage && (
+                                <>
+                                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                                  <img src={post.heroImage} alt={post.h1} className="h-40 w-full object-cover" />
+                                </>
+                              )}
+                              <div className="flex flex-1 flex-col gap-3 p-6">
+                                <span className="inline-flex w-fit rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500">
+                                  {post.type}
+                                </span>
+                                <span className="flex-1 text-base font-semibold leading-6 text-slate-800 transition group-hover:text-gold-600">
+                                  {post.h1}
+                                </span>
+                                <span className="text-xs font-semibold text-gold-600">Read more →</span>
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            </section>
+          )
+        })
+      )}
 
       {/* CTA */}
       <section className="bg-white px-6 py-16 sm:px-8">
