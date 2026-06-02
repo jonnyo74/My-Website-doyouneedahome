@@ -18,6 +18,7 @@ const agents = [
     phoneHref: 'tel:+15617787042',
     email: 'christine@doyouneedahome.com',
     photo: '/images/Christine-rooftop.png',
+    photoPosition: 'object-top',
     bio: "Christine Dekant is one of Palm Beach County's most trusted REALTORS®, with a long track record of helping buyers find the right home and sellers achieve top dollar. She is known for her professionalism, deep market knowledge, responsiveness, and genuine care for every client she serves. Clients return to Christine time and again — many have completed three, four, or five transactions with her.",
   },
   {
@@ -29,6 +30,7 @@ const agents = [
     phoneHref: 'tel:+15617863630',
     email: 'john@doyouneedahome.com',
     photo: '/images/Event-81.jpg',
+    photoPosition: 'object-[center_25%]',
     bio: 'John Oliver brings honesty, dedication, and an exceptional work ethic to every real estate transaction. He specializes in helping buyers and sellers across Palm Beach County, with a particular focus on condos and waterfront properties. John is known for going above and beyond — clients consistently describe him as patient, knowledgeable, and genuinely invested in getting the best outcome for them.',
   },
 ]
@@ -66,7 +68,7 @@ export default function TeamPage() {
                     src={agent.photo}
                     alt={agent.name}
                     fill
-                    className="object-cover object-top"
+                    className={`object-cover ${agent.photoPosition}`}
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
@@ -130,7 +132,7 @@ export default function TeamPage() {
                 src="/images/christine-award.jpg"
                 alt="Christine Dekant with Ray Carrano — Premier Brokers International"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>

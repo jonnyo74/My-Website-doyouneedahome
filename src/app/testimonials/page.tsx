@@ -115,7 +115,7 @@ function AgentSection({
         </div>
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {reviews.map((r, i) => {
-            const photo = photos[i % photos.length]
+            const photo = photos[(i * 2) % photos.length]
             return (
               <div
                 key={r.author + r.quote}

@@ -7,8 +7,26 @@ import { cities } from '@/lib/communities'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
-const pbcCities = cities.filter((c) => c.region !== 'Treasure Coast')
 const treasureCoastCities = cities.filter((c) => c.region === 'Treasure Coast')
+
+const communityGroups = [
+  {
+    label: 'Palm Beach County',
+    cities: cities.filter((c) => c.region === 'Palm Beach County' || c.region === 'Barrier Island' || c.region === 'Palm Beach County Barrier Island'),
+  },
+  {
+    label: 'Northern PBC',
+    cities: cities.filter((c) => c.region === 'Northern Palm Beach County'),
+  },
+  {
+    label: 'Southern PBC',
+    cities: cities.filter((c) => c.region === 'Southern Palm Beach County'),
+  },
+  {
+    label: 'Western PBC',
+    cities: cities.filter((c) => c.region === 'Western Palm Beach County'),
+  },
+]
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -72,26 +90,31 @@ export default function Header() {
               Communities <ChevronIcon />
             </button>
             {commOpen && (
-              <div className="absolute left-0 top-full mt-1 w-56 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
-                {/* Palm Beach County cities */}
-                <p className="px-4 pb-1 pt-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-                  Palm Beach County
-                </p>
-                {pbcCities.map((c) => (
-                  <DropLink key={c.slug} href={`/communities/${c.slug}`}>
-                    {c.name}
-                  </DropLink>
-                ))}
+              <div className="absolute left-0 top-full mt-1 w-[480px] rounded-2xl border border-slate-200 bg-white p-4 shadow-lg">
+                <div className="grid grid-cols-2 gap-x-4">
+                  {communityGroups.map((group) => (
+                    <div key={group.label} className="mb-3">
+                      <p className="px-2 pb-1 pt-1 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
+                        {group.label}
+                      </p>
+                      {group.cities.map((c) => (
+                        <DropLink key={c.slug} href={`/communities/${c.slug}`}>
+                          {c.name}
+                        </DropLink>
+                      ))}
+                    </div>
+                  ))}
+                </div>
 
                 {/* Treasure Coast — nested flyout */}
-                <div className="mt-1 border-t border-slate-100 pt-1">
+                <div className="border-t border-slate-100 pt-2">
                   <div
                     className="relative"
                     onMouseEnter={openTc}
                     onMouseLeave={closeTc}
                   >
-                    <button className="flex w-full items-center justify-between rounded-xl px-4 py-2 text-sm text-slate-700 transition hover:bg-slate-50 hover:text-gold-600">
-                      Treasure Coast
+                    <button className="flex w-full items-center justify-between rounded-xl px-2 py-2 text-sm text-slate-700 transition hover:bg-slate-50 hover:text-gold-600">
+                      <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">Treasure Coast</span>
                       <ChevronRightIcon />
                     </button>
                     {tcOpen && (
@@ -106,10 +129,10 @@ export default function Header() {
                   </div>
                 </div>
 
-                <div className="mt-1 border-t border-slate-100 pt-1">
+                <div className="border-t border-slate-100 pt-2">
                   <Link
                     href="/communities"
-                    className="block rounded-xl px-4 py-2 text-sm font-semibold text-gold-600 transition hover:bg-slate-50"
+                    className="block rounded-xl px-2 py-2 text-sm font-semibold text-gold-600 transition hover:bg-slate-50"
                   >
                     All Communities →
                   </Link>
@@ -162,13 +185,17 @@ export default function Header() {
             <MobileLink href="/sell" close={() => setMobileOpen(false)}>Sell Your Home</MobileLink>
             <MobileLink href="/sell#valuation" close={() => setMobileOpen(false)}>Get a Valuation</MobileLink>
             <MobileLink href="/communities" close={() => setMobileOpen(false)}>Communities</MobileLink>
-            <p className="px-4 pb-0.5 pt-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-              Palm Beach County
-            </p>
-            {pbcCities.map((c) => (
-              <MobileLink key={c.slug} href={`/communities/${c.slug}`} close={() => setMobileOpen(false)} indent>
-                {c.name}
-              </MobileLink>
+            {communityGroups.map((group) => (
+              <div key={group.label}>
+                <p className="px-4 pb-0.5 pt-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
+                  {group.label}
+                </p>
+                {group.cities.map((c) => (
+                  <MobileLink key={c.slug} href={`/communities/${c.slug}`} close={() => setMobileOpen(false)} indent>
+                    {c.name}
+                  </MobileLink>
+                ))}
+              </div>
             ))}
             <button
               onClick={() => setMobileTcOpen(!mobileTcOpen)}
