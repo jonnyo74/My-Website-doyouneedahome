@@ -303,7 +303,7 @@ export default async function CommunityPage({ params }: Props) {
       )}
 
       {/* ── Live Listings ─────────────────────────────────────────── */}
-      <section className="px-6 pt-14 pb-2 sm:px-8">
+      {community.region !== 'Treasure Coast' && <section className="px-6 pt-14 pb-2 sm:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
             <div>
@@ -333,7 +333,7 @@ export default async function CommunityPage({ params }: Props) {
             </div>
           )}
         </div>
-      </section>
+      </section>}
 
       {/* ── Main content ───────────────────────────────────────────── */}
       <section className="px-6 py-16 sm:px-8">
@@ -707,7 +707,8 @@ export default async function CommunityPage({ params }: Props) {
                 quote={christineOnTop ? quotes.johnQuote : quotes.christineQuote}
               />
 
-              {/* Market Trends */}
+              {/* Market Trends — Palm Beach County only (Treasure Coast not in MLS coverage) */}
+              {community.region !== 'Treasure Coast' && (
               <div>
                 <h2 className="font-serif text-2xl font-semibold text-slate-900">
                   Market Trends
@@ -717,6 +718,7 @@ export default async function CommunityPage({ params }: Props) {
                   <YlopoMarketTrendsWidget city={community.name} />
                 </div>
               </div>
+              )}
 
               {/* Parent city link (neighborhood pages only) */}
               {parentCity && (

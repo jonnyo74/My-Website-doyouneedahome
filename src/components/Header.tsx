@@ -7,17 +7,25 @@ import { cities } from '@/lib/communities'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
+const pbcCities = cities.filter((c) => c.region !== 'Treasure Coast')
+const treasureCoastCities = cities.filter((c) => c.region === 'Treasure Coast')
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [commOpen, setCommOpen] = useState(false)
   const [sellOpen, setSellOpen] = useState(false)
+  const [tcOpen, setTcOpen] = useState(false)
+  const [mobileTcOpen, setMobileTcOpen] = useState(false)
   const commTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const sellTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const tcTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const openComm = () => { if (commTimer.current) clearTimeout(commTimer.current); setCommOpen(true) }
   const closeComm = () => { commTimer.current = setTimeout(() => setCommOpen(false), 200) }
   const openSell = () => { if (sellTimer.current) clearTimeout(sellTimer.current); setSellOpen(true) }
   const closeSell = () => { sellTimer.current = setTimeout(() => setSellOpen(false), 200) }
+  const openTc = () => { if (tcTimer.current) clearTimeout(tcTimer.current); setTcOpen(true) }
+  const closeTc = () => { tcTimer.current = setTimeout(() => setTcOpen(false), 200) }
 
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 shadow-sm backdrop-blur-xl">
@@ -65,11 +73,39 @@ export default function Header() {
             </button>
             {commOpen && (
               <div className="absolute left-0 top-full mt-1 w-56 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
-                {cities.map((c) => (
+                {/* Palm Beach County cities */}
+                <p className="px-4 pb-1 pt-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
+                  Palm Beach County
+                </p>
+                {pbcCities.map((c) => (
                   <DropLink key={c.slug} href={`/communities/${c.slug}`}>
                     {c.name}
                   </DropLink>
                 ))}
+
+                {/* Treasure Coast — nested flyout */}
+                <div className="mt-1 border-t border-slate-100 pt-1">
+                  <div
+                    className="relative"
+                    onMouseEnter={openTc}
+                    onMouseLeave={closeTc}
+                  >
+                    <button className="flex w-full items-center justify-between rounded-xl px-4 py-2 text-sm text-slate-700 transition hover:bg-slate-50 hover:text-gold-600">
+                      Treasure Coast
+                      <ChevronRightIcon />
+                    </button>
+                    {tcOpen && (
+                      <div className="absolute left-full top-0 ml-1 w-48 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
+                        {treasureCoastCities.map((c) => (
+                          <DropLink key={c.slug} href={`/communities/${c.slug}`}>
+                            {c.name}
+                          </DropLink>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+
                 <div className="mt-1 border-t border-slate-100 pt-1">
                   <Link
                     href="/communities"
@@ -126,7 +162,24 @@ export default function Header() {
             <MobileLink href="/sell" close={() => setMobileOpen(false)}>Sell Your Home</MobileLink>
             <MobileLink href="/sell#valuation" close={() => setMobileOpen(false)}>Get a Valuation</MobileLink>
             <MobileLink href="/communities" close={() => setMobileOpen(false)}>Communities</MobileLink>
-            {cities.map((c) => (
+            <p className="px-4 pb-0.5 pt-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
+              Palm Beach County
+            </p>
+            {pbcCities.map((c) => (
+              <MobileLink key={c.slug} href={`/communities/${c.slug}`} close={() => setMobileOpen(false)} indent>
+                {c.name}
+              </MobileLink>
+            ))}
+            <button
+              onClick={() => setMobileTcOpen(!mobileTcOpen)}
+              className="flex items-center justify-between rounded-xl px-4 py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
+            >
+              <span>Treasure Coast</span>
+              <span className={`transition-transform ${mobileTcOpen ? 'rotate-90' : ''}`}>
+                <ChevronRightIcon />
+              </span>
+            </button>
+            {mobileTcOpen && treasureCoastCities.map((c) => (
               <MobileLink key={c.slug} href={`/communities/${c.slug}`} close={() => setMobileOpen(false)} indent>
                 {c.name}
               </MobileLink>
@@ -190,6 +243,14 @@ function ChevronIcon() {
   return (
     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
       <path d="M2 4.5L6 8L10 4.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+function ChevronRightIcon() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+      <path d="M4.5 2L8 6L4.5 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
 }
