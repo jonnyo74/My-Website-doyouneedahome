@@ -104,7 +104,7 @@ Weekends here aren't about errands. They're about the water, the dog, a late bre
 It's only fair to tell you both sides:
 
 - **It's not cheap.** Jupiter is one of the more desirable towns in the county, and home prices reflect that.
-- **Summers test you.** The heat, humidity, and hurricane season are real parts of life.
+- **Warm, humid summers.** The heat and hurricane season are part of Florida life — locals embrace the quieter season as a welcome contrast to the busy winter months.
 - **You'll need a car for everything.**
 - **In-season crowds are real.** Your quiet winter paradise gets busier from January through March.
 
@@ -147,7 +147,7 @@ The best way to know is to picture your own ordinary Tuesday here: morning walk 
       'best-things-to-do-in-jupiter-florida',
       'who-should-move-to-jupiter-florida',
     ],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
@@ -177,7 +177,7 @@ Life here is calm and beach-first. Mornings on the uncrowded sand, a walk on the
 
 ## The trade-offs
 
-Juno Beach is **pricey** — barrier-island living commands a premium, and oceanfront condos especially. It's also tiny, so you'll drive for most errands, and summers bring the usual Florida heat, storms, and insurance costs. But if your dream is a peaceful, gorgeous beach town where the sea turtles outnumber the nightclubs, few places do it better.`,
+Juno Beach is **pricey** — barrier-island living commands a premium, and oceanfront condos especially. It's also tiny, so you'll drive for most errands, and Florida's warm, rainy summers are part of the deal. But if your dream is a peaceful, gorgeous beach town where the sea turtles outnumber the nightclubs, few places do it better.`,
     faqs: [
       { q: 'Is Juno Beach, Florida a good place to live?', a: 'For people who want a quiet, beautiful, beach-first lifestyle — yes. It is small and residential with uncrowded beaches, though it is pricey and light on nightlife and shopping.' },
       { q: 'What is Juno Beach known for?', a: 'Sea turtles and conservation — it is home to the Loggerhead Marinelife Center and some of the most important turtle nesting beaches in the country — plus its quiet, uncrowded shoreline and the Juno Beach Pier.' },
@@ -358,9 +358,9 @@ In summer, go early to beat the heat and the afternoon storms.`,
 - **Tiny footprint** — limited shopping and dining; you'll drive for most amenities.
 - **Quiet nightlife** — this is not a party town.
 - **Condo-heavy** — fewer single-family options, especially near the beach.
-- **Summers & insurance** — heat, hurricane season, and high coastal insurance costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
-**Bottom line:** if peace and a pristine beach are your priorities, the pros are hard to beat. If you need amenities, nightlife, or a lower budget, the cons add up.`,
+**Bottom line:** if peace and a pristine beach are your priorities, the pros are hard to beat. Those who want more amenities, nightlife, or a wider price range often find neighboring Jupiter or Palm Beach Gardens gives them the best of both worlds — just minutes away.`,
     faqs: [
       { q: 'What are the pros of living in Juno Beach?', a: 'Uncrowded, beautiful beaches, a conservation-minded community, quiet safety, a walkable beach core, and no state income tax.' },
       { q: 'What are the downsides of living in Juno Beach?', a: 'High prices, a tiny footprint with limited shopping and dining, quiet nightlife, condo-heavy housing, and coastal-Florida insurance costs.' },
@@ -384,13 +384,11 @@ In summer, go early to beat the heat and the afternoon storms.`,
     secondaryKeywords: ['Juno Beach home prices', 'is Juno Beach expensive', 'Juno Beach FL cost of living'],
     h1: 'Cost of Living in Juno Beach, Florida',
     showMarketTrends: true,
-    body: `Juno Beach runs above the national average, driven by its barrier-island, beachfront location. Here's the honest picture. *(Specific figures below should be verified against current market data before publishing.)*
-
+    body: `Juno Beach runs above the national average, driven by its barrier-island, beachfront location. Here's the honest picture.
 ## Housing
-The biggest cost by far. Oceanfront condos and beach-adjacent homes command a real premium, and limited supply on a tiny barrier island keeps prices firm. *(Insert current median — see the live market trends below.)*
-
+The biggest cost by far. Oceanfront condos and beach-adjacent homes command a real premium, and limited supply on a tiny barrier island keeps prices firm.
 ## Taxes
-**No state income tax** softens the picture, a major draw for retirees and snowbirds. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** softens the picture, a major draw for retirees and snowbirds. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 Budget carefully here. Oceanfront and coastal homes carry **higher homeowners and flood insurance** costs — get quotes before you commit.
@@ -490,8 +488,7 @@ These are the free, low-key pleasures that make Juno Beach feel like home.`,
     primaryKeyword: 'best restaurants in Juno Beach Florida',
     secondaryKeywords: ['where to eat in Juno Beach', 'Juno Beach seafood', "Captain Charlie's Reef Grill"],
     h1: 'Best Places to Eat, Drink & Hang Out in Juno Beach, Florida',
-    body: `Juno Beach is small, so its dining scene is intimate — but it has a couple of genuine local legends, with plenty more minutes away. *(Confirm all spots are current/open before relying on this list.)*
-
+    body: `Juno Beach is small, so its dining scene is intimate — but it has a couple of genuine local legends, with plenty more minutes away.
 ## Local legends
 - **Captain Charlie's Reef Grill** — a beloved, no-frills seafood gem that locals (and in-the-know foodies) swear by. Often the first name a Juno Beach local will give you.
 - **Juno Beach Cafe** — a classic, casual breakfast-and-lunch spot to start the day.
@@ -501,8 +498,7 @@ For a wider range, **Donald Ross Village** (just south) and **Palm Beach Gardens
 
 ## Where it comes together
 In Juno Beach, the real hangout is the **beach and the pier** — sunrise coffee, a sunset stroll, and a casual meal nearby. That's the town's whole vibe.
-
-*(Locals: drop in your current go-to spots — you know the scene best.)*`,
+`,
     faqs: [
       { q: 'What is the best restaurant in Juno Beach?', a: "Captain Charlie's Reef Grill is the long-standing local favorite for seafood. For a wider range, nearby Donald Ross Village and Palm Beach Gardens have many options. (Confirm current hours and availability.)" },
       { q: 'Where do locals eat in Juno Beach?', a: 'Local seafood spots in town plus nearby Donald Ross Village and Palm Beach Gardens, since the town itself has a small dining scene.' },
@@ -731,7 +727,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
 - **City traffic and parking** — especially downtown and in season.
 - **Not on the ocean** — the beach is across the bridge, not at your door.
 - **Block-to-block variation** — neighborhoods range widely; location research matters.
-- **Summers and insurance** — heat, hurricane season, and coastal-Florida insurance costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 - **Busier and louder** than the quiet beach towns.
 
 **Bottom line:** for urban-minded buyers who want energy, culture, and value, the pros are compelling. If you want quiet or beachfront, the cons will weigh heavier.`,
@@ -758,13 +754,11 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
     secondaryKeywords: ["West Palm Beach home prices", "is West Palm Beach expensive", "West Palm Beach FL cost of living"],
     h1: "Cost of Living in West Palm Beach, Florida",
     showMarketTrends: true,
-    body: `West Palm Beach offers the widest cost range in the area — which is a big part of its appeal. *(Verify specific figures against current market data before publishing.)*
-
+    body: `West Palm Beach offers the widest cost range in the area — which is a big part of its appeal.
 ## Housing
-This is where West Palm shines on flexibility. Luxury downtown condos and waterfront homes run high, but historic neighborhoods and areas to the west offer genuinely more attainable options than the beach towns. *(Insert current median — see live market trends below.)*
-
+This is where West Palm shines on flexibility. Luxury downtown condos and waterfront homes run high, but historic neighborhoods and areas to the west offer genuinely more attainable options than the beach towns.
 ## Taxes
-**No state income tax** — a major draw. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a major draw. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal-Florida cost; budget and quote early. Downtown high-rise condos may handle some coverage through the association — ask.
@@ -866,8 +860,7 @@ These are the spots that make city living here feel like a community.`,
     primaryKeyword: "best restaurants in West Palm Beach Florida",
     secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach nightlife", "Clematis Street restaurants", "Grandview Public Market"],
     h1: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
-    body: `As the area's city, West Palm has the deepest dining and nightlife scene around — clustered in a few key districts. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `As the area's city, West Palm has the deepest dining and nightlife scene around — clustered in a few key districts.
 ## The downtown core
 **Clematis Street** and **Rosemary Square** are the heart of it — restaurants, rooftop bars, and nightlife within walking distance, plus events like Clematis by Night.
 
@@ -882,8 +875,7 @@ Artsy, independent spots with character and a creative crowd.
 
 ## Where it comes together
 For a night out, downtown (Clematis + Rosemary Square) is the move; for low-key local flavor, Antique Row and Grandview deliver. West Palm gives you genuine range — the most of any town nearby.
-
-*(Locals: drop in your current favorite names — the scene moves fast and you know it best.)*`,
+`,
     faqs: [
       { q: "Where is the best nightlife in West Palm Beach?", a: "Clematis Street and Rosemary Square downtown are the centers of dining, bars, and nightlife, with regular events like Clematis by Night." },
       { q: "What is Grandview Public Market?", a: "A food hall in a historic building near the train station, with diverse food stalls and a casual, communal hangout vibe." },
@@ -893,6 +885,100 @@ For a night out, downtown (Clematis + Rosemary Square) is the move; for low-key 
     internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
     published: false,
     updated: '2026-06-01',
+  },
+
+  {
+    slug: 'northwood-village-west-palm-beach-neighborhood-guide',
+    citySlug: 'west-palm-beach',
+    cityName: 'West Palm Beach',
+    type: 'Neighborhood Spotlight',
+    order: 11,
+    seoTitle: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (2026 Guide)',
+    metaTitle: 'Northwood Village West Palm Beach Homes | Neighborhood Guide',
+    metaDescription: 'Northwood Village is West Palm Beach\'s most underrated neighborhood — arts scene, walkable restaurants, monthly street festivals, and real affordability. Here\'s why buyers keep discovering it.',
+    primaryKeyword: 'Northwood Village West Palm Beach homes',
+    secondaryKeywords: [
+      'Northwood Village WPB',
+      'West Palm Beach affordable neighborhoods',
+      'Nights in Northwood Village',
+      'WPB arts district homes',
+      'West Palm Beach historic homes for sale',
+    ],
+    h1: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (And Why Buyers Keep Discovering It)',
+    body: `There's a version of West Palm Beach that doesn't make the tourist maps. No velvet ropes, no valet parking — just wide streets lined with historic homes, a string of independent galleries and restaurants, Intracoastal waterfront, and a neighborhood that has been quietly earning its reputation for years.
+
+That's Northwood Village. And if you've been researching **Northwood Village West Palm Beach homes**, you're probably starting to understand what the people who already live there already know: this is the neighborhood that gets under your skin.
+
+## What Makes Northwood Village Different from Downtown WPB
+
+Downtown West Palm Beach has energy — Clematis Street, Rosemary Square, the Brightline station, high-rise condos with waterfront views. Northwood Village, just a mile or so north, has something harder to manufacture: character.
+
+The commercial spine here runs along North Dixie Highway and Old Northwood, and it's defined almost entirely by independent businesses. Vintage furniture dealers. Working artists. A coffee shop with mismatched chairs and a genuinely interesting crowd. The buildings are older, the facades haven't been homogenized, and the whole street moves at a pace that downtown WPB can't really replicate.
+
+That difference is intentional. Northwood has attracted the kind of residents and business owners who specifically chose *not* to be downtown — people who wanted a neighborhood that felt like a neighborhood, with neighbors, front porches, and the sense that something creative was happening here on its own terms. Add Intracoastal waterfront along the eastern edge and you have a neighborhood that genuinely has it all.
+
+## Nights in Northwood Village: The Community Anchor
+
+Every month, Northwood Village holds its signature street festival: **Nights in Northwood Village**. Galleries stay open late. Restaurants spill out onto the sidewalk. Live music fills the street. Artists set up outside their studios. The whole corridor becomes a walkable outdoor event, drawing locals from across Palm Beach County who have made it a standing date on the calendar.
+
+It's not the kind of event you attend once. People come back, bring friends, and eventually start asking their real estate agent what it would cost to live within walking distance.
+
+That's the Nights in Northwood Village effect — and it's one of the strongest community-building events in the WPB area, running consistently enough that it's now part of how the neighborhood defines itself. A neighborhood with a monthly street festival that residents actually show up to is a neighborhood with real social fabric. That matters.
+
+## Housing Types and Price Range
+
+Northwood Village's housing stock reflects decades of character — and genuine variety. You'll find **historic single-family homes dating to the 1920s and 1930s**, many of them well-preserved or thoughtfully renovated, alongside **Intracoastal waterfront condos and homes** with direct water views. It's a range that surprises most buyers who assume this pocket of WPB is all one thing.
+
+Pricing starts in the **$500s** and moves up from there depending on size, condition, and whether you're on the water. For a neighborhood with this much character and this close to downtown WPB, that entry point is real value.
+
+For investors, the combination of historic character, rising neighborhood profile, and waterfront inventory creates a window that tends to close as a neighborhood matures.
+
+## Who Is Northwood Village Right For?
+
+The short answer: more people than you'd expect.
+
+**First-time buyers** find Northwood's price range genuinely accessible without sacrificing location or character. You're still in West Palm Beach, still close to downtown, still within reach of the waterfront — just in a neighborhood that feels personal.
+
+**Artists and creative professionals** have been choosing Northwood for decades, drawn by the affordable live-work spaces, the gallery community, and the culture of a neighborhood that takes creativity seriously.
+
+**Investors** see a neighborhood with a rising profile, strong rental demand from WPB's growing professional class, and price points that still make the math work — especially compared to what's left further south.
+
+**Downsizers** from larger homes often land in Northwood when they want walkability and community without the anonymity of a high-rise. The neighborhood's human scale — real streets, real neighbors, real places to walk to — is the draw.
+
+The through-line for all of them: people come to look at Northwood Village and they don't want to leave.
+
+## Ready to Search?
+
+If **Northwood Village West Palm Beach homes** are on your radar, the inventory moves. The neighborhood is small enough that good listings don't sit long, especially when the street festival crowd has been circling the same blocks for months.
+
+Browse available homes in Northwood Village and the surrounding WPB neighborhoods at [DoYouNeedAHome.com](https://doyouneedahome.com). When you find something worth a closer look, reach out — we can put you in context on the neighborhood, the block, and what the monthly festivals actually feel like when you live there.
+
+The people who discover Northwood Village tend to stay discovered.`,
+    faqs: [
+      {
+        q: 'What is Northwood Village in West Palm Beach?',
+        a: 'Northwood Village is a historic arts and antiques district in northern West Palm Beach, known for its independent galleries, restaurants, historic homes, Intracoastal waterfront properties, and the monthly Nights in Northwood Village street festival.',
+      },
+      {
+        q: 'Is Northwood Village a good neighborhood in West Palm Beach?',
+        a: 'Yes — it\'s one of WPB\'s most distinctive and desirable neighborhoods for buyers who want character, walkability, and a real sense of community at a more accessible price point than downtown or the waterfront.',
+      },
+      {
+        q: 'What is Nights in Northwood Village?',
+        a: 'A monthly street festival in Northwood Village where galleries open late, restaurants move outside, and live music fills the corridor — one of the most consistent community events in Palm Beach County.',
+      },
+      {
+        q: 'How far is Northwood Village from downtown West Palm Beach?',
+        a: 'About a mile north of downtown WPB — close enough to access Clematis Street and the waterfront easily, far enough to feel like its own neighborhood.',
+      },
+    ],
+    internalLinks: [
+      'best-neighborhoods-in-west-palm-beach-florida',
+      'what-its-really-like-living-in-west-palm-beach-florida',
+      'local-guide-to-west-palm-beach-florida',
+    ],
+    published: true,
+    updated: '2026-06-02',
   },
 
   // ===================== DELRAY BEACH =====================
@@ -924,7 +1010,7 @@ There's the lively coastal downtown — pricey, walkable, full of life — and t
 
 ## The trade-offs
 
-Downtown gets busy, especially in season — crowds, parking, and noise are real. Beachside and downtown homes are expensive. And it's still Florida: hot summers, hurricane season, insurance. But if you want a walkable, beachy, social town with great food and real character, few places top Delray.`,
+Downtown gets busy, especially in season — crowds, parking, and noise are real. Beachside and downtown homes are expensive. And it's Florida — warm summers and insurance planning are standard considerations for any homeowner in the region. But if you want a walkable, beachy, social town with great food and real character, few places top Delray.`,
     faqs: [
       { q: "Is Delray Beach a good place to live?", a: "Yes, especially for people who want a walkable downtown, a great beach, dining, arts, and an active social scene. The trade-offs are downtown crowds and higher prices near the coast." },
       { q: "What is Delray Beach known for?", a: "Atlantic Avenue — one of Florida's best downtowns — plus its beach, the Morikami Museum and Japanese Gardens, the Pineapple Grove arts district, and a lively dining and nightlife scene." },
@@ -1112,13 +1198,13 @@ In summer, do outdoor stuff early and let the Avenue's covered restaurants and t
 - **Downtown crowds, noise, and parking** — especially in season.
 - **Expensive near the coast** — downtown and beachside prices run high.
 - **Busy nightlife** isn't for everyone.
-- **Summers and insurance** — heat, hurricane season, and coastal insurance costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 - **West Delray is car-dependent** and far from the beach.
 
 **Bottom line:** if you want a walkable, social, beachy town with great food and culture, Delray is hard to beat. If you crave quiet, the downtown energy may wear on you (west Delray is the calmer alternative).`,
     faqs: [
       { q: "What are the pros of living in Delray Beach?", a: "A walkable downtown, a beautiful beach, strong arts and dining, surprising nature like Wakodahatchee Wetlands, a range of lifestyles from coastal to west-side, and no state income tax." },
-      { q: "What are the downsides of living in Delray Beach?", a: "Downtown crowds, noise and parking in season, higher coastal prices, and the usual Florida heat, hurricane season, and insurance costs." },
+      { q: "What are the downsides of living in Delray Beach?", a: "Downtown crowds, noise and parking in season, higher coastal prices, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Delray Beach worth it?", a: "For people who want a lively, walkable beach town with great food and culture, many feel it absolutely is. Those wanting quiet often prefer west Delray or a neighboring town." },
       { q: "Is Delray Beach a party town?", a: "Atlantic Avenue has a lively nightlife scene, but the city also has quiet residential areas and family-friendly west-side communities." },
     ],
@@ -1139,13 +1225,11 @@ In summer, do outdoor stuff early and let the Avenue's covered restaurants and t
     secondaryKeywords: ["Delray Beach home prices", "is Delray Beach expensive", "Delray Beach FL cost of living"],
     h1: "Cost of Living in Delray Beach, Florida",
     showMarketTrends: true,
-    body: `Delray runs above the national average, but with a wide spread between the coast and the west side. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Delray runs above the national average, but with a wide spread between the coast and the west side.
 ## Housing
-The big variable. Downtown and beachside Delray command a premium for walkability and the lifestyle, while **west Delray's gated golf and 55+ communities** offer dramatically more attainable prices. *(Insert current median — see live market trends below.)*
-
+The big variable. Downtown and beachside Delray command a premium for walkability and the lifestyle, while **west Delray's gated golf and 55+ communities** offer dramatically more attainable prices.
 ## Taxes
-**No state income tax** — a key draw. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a key draw. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal-Florida cost, higher closer to the water. Budget and quote early.
@@ -1220,7 +1304,7 @@ These are the spots that show Delray is more than its nightlife.`,
 
 **Delray Beach vs Boynton Beach.** Boynton (just north) is more affordable and less polished, with growing waterfront development. Delray is pricier but far more vibrant. Choose Boynton for value; Delray for the scene.
 
-**Delray Beach vs Lake Worth Beach.** Both are funky and artsy; Lake Worth Beach is smaller, grittier, and cheaper. Delray is more polished and developed. Choose Lake Worth for bohemian value; Delray for a fuller downtown.
+**Delray Beach vs Lake Worth Beach.** Both are funky and artsy; Lake Worth Beach is smaller, more eclectic, and more affordable. Delray is more developed with a bigger downtown scene. Choose Lake Worth for bohemian value and character; Delray for a fuller, livelier downtown.
 
 **Delray Beach vs West Palm Beach.** Both have lively downtowns; West Palm is a bigger city, Delray a walkable beach village. Choose West Palm for city scale; Delray for beach-town charm.
 
@@ -1247,8 +1331,7 @@ These are the spots that show Delray is more than its nightlife.`,
     primaryKeyword: "best restaurants in Delray Beach Florida",
     secondaryKeywords: ["where to eat in Delray Beach", "Delray Beach nightlife", "Atlantic Avenue restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Delray Beach, Florida",
-    body: `Delray's dining and nightlife are the best part of living here — and most of it lines one famous street. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Delray's dining and nightlife are the best part of living here — and most of it lines one famous street.
 ## Atlantic Avenue
 The heart of it all — a walkable stretch of restaurants, rooftop bars, cocktail lounges, and sidewalk cafés running from downtown to the beach. Whatever you're craving, it's likely on the Ave.
 
@@ -1260,8 +1343,7 @@ Casual, toes-in-the-sand spots near the Delray Municipal Beach for a relaxed bit
 
 ## The vibe
 Delray is a *go-out* town — happy hours, live music, and late dinners are the norm. The hardest part isn't finding a good spot; it's choosing one.
-
-*(Locals: drop in your current favorite Avenue spots — the scene turns over and you know the best of the moment.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Delray Beach?", a: "Atlantic Avenue is the main dining and nightlife strip, with everything from sidewalk cafés to rooftop bars, plus more creative spots in Pineapple Grove and casual options beachside." },
       { q: "Is Delray Beach good for nightlife?", a: "Yes — Atlantic Avenue has one of the liveliest nightlife scenes in South Florida, with bars, lounges, and live music." },
@@ -1302,7 +1384,7 @@ East Boca is coastal, walkable-ish, and pricey; **west Boca** is a vast world of
 
 ## The trade-offs
 
-Boca is expensive, can feel corporate and manicured, and HOA/club fees are real. It's car-dependent, traffic on Glades Road is no joke, and summers bring the usual heat and insurance costs. But for safety, schools, and refined convenience, Boca is one of the most polished places to live in the state.`,
+Boca is expensive, can feel corporate and manicured, and HOA and club fees are part of the equation. It's car-dependent, and traffic on Glades Road builds in season. Florida's warm summers and insurance landscape are standard considerations throughout the region. But for safety, schools, and refined convenience, Boca is one of the most polished places to live in the state.`,
     faqs: [
       { q: "Is Boca Raton a good place to live?", a: "Yes, especially for families, professionals, and retirees who want top schools, safety, upscale shopping and dining, beautiful beaches, and country-club living. The trade-offs are higher costs and a more corporate, manicured feel." },
       { q: "What is Boca Raton known for?", a: "Mediterranean Revival architecture, Mizner Park, upscale shopping and dining, top-rated schools, Florida Atlantic University, gorgeous beach parks, and Gumbo Limbo Nature Center." },
@@ -1492,12 +1574,12 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
 - **Corporate and manicured** — less funky character than some nearby towns.
 - **HOA and club fees** can be substantial.
 - **Car-dependent**, with real traffic on Glades Road and in season.
-- **Summers and insurance** — heat, hurricane season, coastal insurance costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
 **Bottom line:** for families and professionals who want safety, schools, and upscale convenience, the pros are strong. If you want funky and walkable, or a lower budget, weigh the cons.`,
     faqs: [
       { q: "What are the pros of living in Boca Raton?", a: "Top-rated schools, safety, upscale shopping and dining, beautiful beaches and nature, a strong job base, a range of housing options, and no state income tax." },
-      { q: "What are the downsides of living in Boca Raton?", a: "High costs, a corporate and manicured feel, HOA and club fees, car dependence and traffic, and the usual Florida heat, hurricane season, and insurance costs." },
+      { q: "What are the downsides of living in Boca Raton?", a: "High costs, a corporate and manicured feel, HOA and club fees, car dependence and traffic, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Boca Raton worth the cost?", a: "For families and professionals prioritizing schools, safety, and refined convenience, many feel it is. Budget-focused or funkier-lifestyle buyers may prefer nearby towns." },
       { q: "Is Boca Raton safe?", a: "Boca is generally known as one of the safer, well-kept cities in the region, though as always it's wise to research specific neighborhoods." },
     ],
@@ -1518,16 +1600,14 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
     secondaryKeywords: ["Boca Raton home prices", "is Boca Raton expensive", "Boca Raton FL cost of living"],
     h1: "Cost of Living in Boca Raton, Florida",
     showMarketTrends: true,
-    body: `Boca runs above the national average, with a wide spread between the coast and the west side. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Boca runs above the national average, with a wide spread between the coast and the west side.
 ## Housing
-The biggest variable. Coastal and east Boca command a premium, while **west Boca** — gated golf and active-adult communities — offers far more attainable prices. *(Insert current median — see live market trends below.)*
-
+The biggest variable. Coastal and east Boca command a premium, while **west Boca** — gated golf and active-adult communities — offers far more attainable prices.
 ## HOA and club fees
 Like Palm Beach Gardens, many of Boca's best communities are gated golf-and-country-club neighborhoods, so **dues can be substantial**. Always ask before you commit.
 
 ## Taxes
-**No state income tax** softens the picture. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** softens the picture. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal-Florida cost, higher near the water — budget and quote early.
@@ -1629,8 +1709,7 @@ These show there's real nature and history behind Boca's upscale front.`,
     primaryKeyword: "best restaurants in Boca Raton Florida",
     secondaryKeywords: ["where to eat in Boca Raton", "Mizner Park restaurants", "Royal Palm Place"],
     h1: "Best Places to Eat, Drink & Hang Out in Boca Raton, Florida",
-    body: `Boca's dining is upscale and clustered in a few polished districts. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Boca's dining is upscale and clustered in a few polished districts.
 ## Mizner Park
 The elegant heart of Boca dining — open-air restaurants, cafés, and bars alongside shops, the art museum, and the amphitheater. A go-to for a refined night out.
 
@@ -1642,8 +1721,7 @@ Downtown Boca and the Town Center mall area add more upscale and casual options,
 
 ## The vibe
 Boca leans polished — fine dining, chic lounges, and elegant patios more than dive bars. It's a city that dresses up for dinner.
-
-*(Locals: drop in your current favorite Boca spots — the upscale scene turns over and you know the best of the moment.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Boca Raton?", a: "Mizner Park and Royal Palm Place are the two main dining-and-nightlife districts, with more options downtown and around the Town Center mall." },
       { q: "What is Royal Palm Place?", a: "A walkable downtown Boca district of restaurants, lounges, and shops — one of the city's social and dining hubs." },
@@ -1684,7 +1762,7 @@ East Boynton has the marina, the older neighborhoods, and Intracoastal/canal hom
 
 ## The trade-offs
 
-Boynton is still developing — areas vary block to block, and it hasn't got Delray's walkable downtown or Boca's polish (yet). The beach is across the bridge in Ocean Ridge. And it's Florida: hot summers, hurricane season, insurance. But for value, diving, and strong active-adult communities, Boynton punches above its price.`,
+Boynton is still building toward its full potential — neighborhoods vary in character, and while the walkable downtown energy of Delray is still ahead, buyers arriving now are often rewarded as the marina district and Town Square continue to develop. The beach is across the bridge in Ocean Ridge. Florida's warm climate and insurance landscape are standard considerations throughout the region. But for value, diving, and strong active-adult communities, Boynton punches well above its price.`,
     faqs: [
       { q: "Is Boynton Beach a good place to live?", a: "Yes, especially for value-minded buyers, families, retirees, and boaters/divers. It offers a similar coast and climate to Delray and Boca for less, with a revitalizing downtown and marina." },
       { q: "What is Boynton Beach known for?", a: "Its revitalized marina and Gulf Stream diving and fishing, the new Town Square downtown, strong 55+ communities out west, and being a more affordable option between Delray and Boca." },
@@ -1873,12 +1951,12 @@ In summer, do the boardwalks and beach early and let the marina and Town Square 
 - **Less polished** than Delray or Boca (for now).
 - **Beach is across the bridge**, not in the city core.
 - **Car-dependent**, with limited downtown walkability so far.
-- **Summers and insurance** — heat, hurricane season, coastal insurance.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
-**Bottom line:** for value, water access, and active-adult living, Boynton is a smart pick with real upside. If you want polish and prestige today, neighbors cost more for a reason.`,
+**Bottom line:** for value, water access, and active-adult living, Boynton is a smart pick with real upside. For those who want an established, fully walkable downtown today, Delray and Boca deliver that at a higher price point — it's a genuine trade-off worth thinking through.`,
     faqs: [
       { q: "What are the pros of living in Boynton Beach?", a: "Strong value, excellent diving and boating, top 55+ communities, a revitalizing downtown, great nature boardwalks, a central location, and no state income tax." },
-      { q: "What are the downsides of living in Boynton Beach?", a: "It's still developing and uneven block to block, less polished than Delray or Boca, its beach is across the bridge, it's car-dependent, and it has the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in Boynton Beach?", a: "It's still growing into its full potential and neighborhoods vary in character, its walkable downtown scene is still developing, the beach is in Ocean Ridge across the bridge, it's car-dependent, and Florida heat and insurance are standard considerations throughout the region." },
       { q: "Is Boynton Beach worth it?", a: "For value-minded buyers, retirees, and water lovers, many feel it's a smart choice with upside. Those wanting polish or prestige today often pay more for a neighbor." },
       { q: "Is Boynton Beach safe?", a: "Safety varies by neighborhood, as in many growing cities — researching the specific area is the key step." },
     ],
@@ -1899,13 +1977,11 @@ In summer, do the boardwalks and beach early and let the marina and Town Square 
     secondaryKeywords: ["Boynton Beach home prices", "is Boynton Beach affordable", "Boynton Beach FL cost of living"],
     h1: "Cost of Living in Boynton Beach, Florida",
     showMarketTrends: true,
-    body: `Boynton's headline is value — it generally costs less than neighboring Delray and Boca while sharing the same coast. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Boynton's headline is value — it generally costs less than neighboring Delray and Boca while sharing the same coast.
 ## Housing
-The big win. Boynton offers more attainable homes than its pricier neighbors, from value-priced central and west-side communities to waterfront homes that cost less than Delray's. *(Insert current median — see live market trends below.)*
-
+The big win. Boynton offers more attainable homes than its pricier neighbors, from value-priced central and west-side communities to waterfront homes that cost less than Delray's.
 ## Taxes
-**No state income tax** — a key draw. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a key draw. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## HOA fees
 West Boynton's amenity-rich 55+ and gated communities carry HOA dues for their resort clubhouses and activities — usually reasonable for what you get, but ask.
@@ -2008,8 +2084,7 @@ These show Boynton's quiet strengths — water and wetlands — that outshine it
     primaryKeyword: "best restaurants in Boynton Beach Florida",
     secondaryKeywords: ["where to eat in Boynton Beach", "Boynton Beach waterfront dining", "Boynton Harbor Marina restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Boynton Beach, Florida",
-    body: `Boynton's dining shines on the water, with a growing downtown adding more. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Boynton's dining shines on the water, with a growing downtown adding more.
 ## On the water
 The **Boynton Harbor Marina** area is the go-to for waterfront seafood and tiki-bar vibes — fresh catch, boats drifting by, and that classic Florida marina feel. It's the heart of Boynton's hangout scene.
 
@@ -2021,8 +2096,7 @@ Along the Federal Highway and Congress corridors, Boynton has a diverse, afforda
 
 ## The vibe
 Boynton is laid-back and value-friendly — waterfront seafood and casual local spots over a flashy scene. The marina is where it all comes together.
-
-*(Locals: drop in your current favorite marina and downtown spots — you know the freshest catch.)*`,
+`,
     faqs: [
       { q: "Where is the best waterfront dining in Boynton Beach?", a: "The Boynton Harbor Marina area is the hub for waterfront seafood and tiki-bar dining, with boats and the working waterfront right there." },
       { q: "Where do locals eat in Boynton Beach?", a: "At the marina for waterfront seafood, increasingly around the new Town Square downtown, and at casual, diverse spots along the Federal Highway and Congress corridors." },
@@ -2063,7 +2137,7 @@ Lake Worth Beach is more affordable than polished Delray or the beach towns up n
 
 ## The trade-offs
 
-It's eclectic and still gentrifying, so it's grittier and more uneven than Boca or PBG — that's part of the charm for some, a drawback for others. Parking downtown takes patience, and it's Florida (heat, hurricane season, insurance). But if you want character, walkability, art, and the beach without a luxury price tag, few places have this much soul.`,
+It's eclectic and actively revitalizing — more characterful and varied than the master-planned suburbs to the south, which is exactly the draw for the artists, creatives, and value-minded buyers who love it here. Parking downtown takes patience, and Florida's warm climate and insurance landscape are standard considerations throughout the region. But if you want character, walkability, art, and the beach without a luxury price tag, few places have this much soul.`,
     faqs: [
       { q: "Is Lake Worth Beach a good place to live?", a: "Yes, especially for people who want character, walkability, art, and a laid-back beach at a relative value. It's funkier and more eclectic than polished neighbors, which is a plus for some and a drawback for others." },
       { q: "What is Lake Worth Beach known for?", a: "Its artsy, bohemian vibe, colorful historic bungalows, a walkable downtown with galleries and global restaurants, the annual Street Painting Festival, and a laid-back beach and pier." },
@@ -2232,7 +2306,7 @@ In summer, do the beach and lagoon early and let the downtown's galleries, bars,
     order: 6,
     seoTitle: "Pros and Cons of Living in Lake Worth Beach, Florida",
     metaTitle: "Pros and Cons of Living in Lake Worth Beach, FL",
-    metaDescription: "The honest pros and cons of living in Lake Worth Beach, Florida — character, walkability, and value versus a gritty, gentrifying, uneven feel.",
+    metaDescription: "The honest pros and cons of living in Lake Worth Beach, Florida — artsy character, walkability, and relative value versus a more eclectic, evolving urban feel.",
     primaryKeyword: "pros and cons of living in Lake Worth Beach Florida",
     secondaryKeywords: ["Lake Worth Beach pros and cons", "living in Lake Worth Beach downsides", "is Lake Worth Beach worth it"],
     h1: "Pros and Cons of Living in Lake Worth Beach, Florida",
@@ -2250,12 +2324,12 @@ In summer, do the beach and lagoon early and let the downtown's galleries, bars,
 - **Less polished** than Boca, PBG, or even Delray.
 - **Rising prices** as more people discover it.
 - **Downtown parking** can be tight.
-- **Summers and insurance** — heat, hurricane season, coastal costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
-**Bottom line:** if you love character, walkability, and an arts scene at a relative value, Lake Worth Beach has serious soul. If you want polish, gates, and uniformity, it'll feel rough around the edges.`,
+**Bottom line:** if you love character, walkability, and an arts scene at a relative value, Lake Worth Beach has serious soul. Those who prefer gates, uniformity, and a fully manicured suburb will find a better fit in the newer planned communities to the west or south.`,
     faqs: [
       { q: "What are the pros of living in Lake Worth Beach?", a: "Abundant character, a walkable artsy downtown, a strong arts and music scene, a diverse welcoming community, a laid-back beach, relative value, and no state income tax." },
-      { q: "What are the downsides of living in Lake Worth Beach?", a: "It's gritty and uneven block to block, less polished than neighbors, prices are rising, downtown parking is tight, and there are the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in Lake Worth Beach?", a: "It's more eclectic and varied than the manicured planned cities nearby, downtown parking requires patience, prices have been rising as the town continues to revitalize, and Florida heat and insurance are standard considerations for homeowners throughout the region." },
       { q: "Is Lake Worth Beach worth it?", a: "For people who prize character, walkability, and an arts scene at a relative value, many feel it absolutely is. Those wanting polish or prestige often prefer other towns." },
       { q: "Is Lake Worth Beach gentrifying?", a: "Yes — it has been steadily revitalizing, which adds energy and amenities but also pushes prices up over time." },
     ],
@@ -2276,13 +2350,11 @@ In summer, do the beach and lagoon early and let the downtown's galleries, bars,
     secondaryKeywords: ["Lake Worth Beach home prices", "is Lake Worth Beach affordable", "Lake Worth Beach FL cost of living"],
     h1: "Cost of Living in Lake Worth Beach, Florida",
     showMarketTrends: true,
-    body: `Lake Worth Beach is one of the better values on the coast — characterful homes for less than Delray or West Palm, though prices are climbing. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Lake Worth Beach is one of the better values on the coast — characterful homes for less than Delray or West Palm, though prices are climbing.
 ## Housing
-The draw here is character at a relative value. Historic bungalows and cottages cost less than comparable homes in pricier neighbors, though gentrification has pushed prices up, and beachside and renovated homes command more. *(Insert current median — see live market trends below.)*
-
+The draw here is character at a relative value. Historic bungalows and cottages cost less than comparable homes in pricier neighbors, though gentrification has pushed prices up, and beachside and renovated homes command more.
 ## Taxes
-**No state income tax** — a key draw. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a key draw. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal-Florida cost, higher near the water; older bungalows may need updates (roof, plumbing) that affect insurability — budget and inspect carefully.
@@ -2384,8 +2456,7 @@ These are the free, soulful experiences that make people fall for this town.`,
     primaryKeyword: "best restaurants in Lake Worth Beach Florida",
     secondaryKeywords: ["where to eat in Lake Worth Beach", "Lake Worth Beach nightlife", "downtown Lake Worth Beach restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Lake Worth Beach, Florida",
-    body: `Lake Worth Beach punches way above its size for food and nightlife — eclectic, global, and full of character. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Lake Worth Beach punches way above its size for food and nightlife — eclectic, global, and full of character.
 ## The downtown Avenue
 **Lake and Lucerne Avenues** are the scene — an eclectic mix of global restaurants, cocktail bars, breweries, cafés, and live-music spots, all walkable. From Latin and Caribbean to Italian and vegan, the variety reflects the town's diversity.
 
@@ -2394,8 +2465,7 @@ These are the free, soulful experiences that make people fall for this town.`,
 
 ## The vibe
 This is a come-as-you-are, art-and-music town — happy hours, indie venues, and festivals over a polished scene. The downtown is where it all happens.
-
-*(Locals: drop in your current favorite Avenue spots — the eclectic scene moves fast and you know it best.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Lake Worth Beach?", a: "The downtown Avenue (Lake and Lucerne) is the heart of it, with an eclectic, global mix of restaurants, bars, and breweries, plus Benny's on the Beach out on the pier." },
       { q: "Is Lake Worth Beach good for nightlife?", a: "Yes — for its size, the walkable downtown has a lively, eclectic scene of bars, breweries, and live-music venues." },
@@ -2622,12 +2692,12 @@ In summer, hit the preserves early and let the mall and amphitheater fill the ho
 - **Equestrian-season traffic** — busier roads and restaurants Jan–April.
 - **Expensive horse estates** (though family homes are attainable).
 - **HOAs and gated living** are the norm.
-- **Summers and insurance** — heat and hurricane season.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
 **Bottom line:** for families and equestrians who want schools, space, and safety, Wellington is exceptional. If you need the beach or urban energy, its inland location is the catch.`,
     faqs: [
       { q: "What are the pros of living in Wellington?", a: "Top schools, a world-class equestrian scene, safe master-planned communities, space, value relative to the coast, free community events, and no state income tax." },
-      { q: "What are the downsides of living in Wellington?", a: "It's inland with no beach (about 30 minutes away), car-dependent and suburban with limited nightlife, busier during equestrian season, and has the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in Wellington?", a: "It's inland with no beach (about 30 minutes away), car-dependent and suburban with limited nightlife, busier during equestrian season, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Wellington worth it?", a: "For families and horse lovers who prioritize schools, space, and safety, many feel it absolutely is. Those who want the beach or urban energy may prefer the coast." },
       { q: "Does equestrian season affect daily life in Wellington?", a: "Yes — from January to April, the horse shows and polo bring more traffic and busier restaurants, especially near the show grounds." },
     ],
@@ -2648,13 +2718,11 @@ In summer, hit the preserves early and let the mall and amphitheater fill the ho
     secondaryKeywords: ["Wellington home prices", "is Wellington expensive", "Wellington FL cost of living"],
     h1: "Cost of Living in Wellington, Florida",
     showMarketTrends: true,
-    body: `Wellington's cost of living spans an enormous range — from attainable family homes to some of the priciest horse estates in the country. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Wellington's cost of living spans an enormous range — from attainable family homes to some of the priciest horse estates in the country.
 ## Housing
-The big variable. **Equestrian estates** in Grand Prix Village and Palm Beach Point run into the millions, while **family neighborhoods** offer genuinely attainable single-family homes in top school zones — often better value than the coastal towns. *(Insert current median — see live market trends below.)*
-
+The big variable. **Equestrian estates** in Grand Prix Village and Palm Beach Point run into the millions, while **family neighborhoods** offer genuinely attainable single-family homes in top school zones — often better value than the coastal towns.
 ## Taxes
-**No state income tax** — a key draw. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a key draw. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## HOA fees
 Most communities are gated with HOA dues funding amenities — generally reasonable for family neighborhoods, higher in luxury communities.
@@ -2759,8 +2827,7 @@ These quiet, often-free gems are what make Wellington more than just horses and 
     primaryKeyword: "best restaurants in Wellington Florida",
     secondaryKeywords: ["where to eat in Wellington FL", "Wellington dining", "Wellington Green restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Wellington, Florida",
-    body: `Wellington's dining is family-friendly year-round, then turns surprisingly upscale during equestrian season. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Wellington's dining is family-friendly year-round, then turns surprisingly upscale during equestrian season.
 ## Around the Mall at Wellington Green
 The retail hub anchors a cluster of restaurants, from casual family spots to chains and sit-down favorites — the everyday go-to for most residents.
 
@@ -2772,8 +2839,7 @@ Throughout town, Wellington leans family-friendly — pizza, casual American, an
 
 ## The vibe
 This is a family-and-equestrian town, so dining is more comfortable and seasonal than a buzzing nightlife scene. Year-round it's casual; in winter it dresses up.
-
-*(Locals: drop in your current favorite Wellington spots — the scene shifts with the seasons and you know it best.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Wellington?", a: "Most dining clusters around the Mall at Wellington Green for everyday options, with a more upscale, lively scene near the show grounds and polo during the winter equestrian season." },
       { q: "Does Wellington have nightlife?", a: "It's a family-and-equestrian town, so it's lower-key than coastal cities — more comfortable dining than a big nightlife scene, livelier in winter season." },
@@ -2997,12 +3063,12 @@ In summer, hit the park and trails early and enjoy the splash pad and shaded are
 - **Car-dependent** and suburban-quiet, with little nightlife.
 - **Fewer high-end amenities** than flashier neighbors.
 - **Schools** are solid but not as sought-after as Wellington's.
-- **Summers and insurance** — heat and hurricane season.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
 **Bottom line:** for value-focused families, Royal Palm Beach is a smart, comfortable choice anchored by a great park. If you want the beach, prestige, or nightlife, it's not the fit.`,
     faqs: [
       { q: "What are the pros of living in Royal Palm Beach?", a: "Affordability, a family-friendly feel, the standout Commons Park, a diverse community, a central-west location near Wellington, space for the money, and no state income tax." },
-      { q: "What are the downsides of living in Royal Palm Beach?", a: "It's inland with no beach (about 30 minutes away), car-dependent and quiet, has fewer high-end amenities than flashier neighbors, and has the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in Royal Palm Beach?", a: "It's inland with no beach (about 30 minutes away), car-dependent and quiet, has fewer high-end amenities than flashier neighbors, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Royal Palm Beach worth it?", a: "For value-minded families, many feel it's a smart, comfortable choice. Those wanting the beach, prestige, or nightlife often prefer other towns." },
       { q: "Is Royal Palm Beach safe?", a: "It's generally regarded as a quiet, family-oriented suburban village, though as always it's wise to research specific neighborhoods." },
     ],
@@ -3023,13 +3089,11 @@ In summer, hit the park and trails early and enjoy the splash pad and shaded are
     secondaryKeywords: ["Royal Palm Beach home prices", "is Royal Palm Beach affordable", "Royal Palm Beach FL cost of living"],
     h1: "Cost of Living in Royal Palm Beach, Florida",
     showMarketTrends: true,
-    body: `Royal Palm Beach is one of the more affordable family communities in the county — its whole appeal is value. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Royal Palm Beach is one of the more affordable family communities in the county — its whole appeal is value.
 ## Housing
-The headline is affordability. RPB generally offers lower home prices than neighboring Wellington and the coastal towns, with attainable single-family neighborhoods and gated communities. *(Insert current median — see live market trends below.)*
-
+The headline is affordability. RPB generally offers lower home prices than neighboring Wellington and the coastal towns, with attainable single-family neighborhoods and gated communities.
 ## Taxes
-**No state income tax** — a key draw. Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a key draw. Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## HOA fees
 Gated communities carry HOA dues for amenities; established non-gated neighborhoods may have little or none — a way to keep costs down.
@@ -3132,8 +3196,7 @@ These everyday, free pleasures are exactly what make RPB a comfortable, communit
     primaryKeyword: "best restaurants in Royal Palm Beach Florida",
     secondaryKeywords: ["where to eat in Royal Palm Beach", "Royal Palm Beach dining", "Southern Boulevard restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Royal Palm Beach, Florida",
-    body: `Royal Palm Beach's dining is casual, diverse, and value-friendly — fitting its family character. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Royal Palm Beach's dining is casual, diverse, and value-friendly — fitting its family character.
 ## The main corridors
 **Southern Boulevard** and **State Road 7 (US-441)** hold most of RPB's restaurants — a diverse, affordable mix of casual American, Latin, Caribbean, Asian, and family spots that reflect the community.
 
@@ -3145,8 +3208,7 @@ For a wider or more upscale range, Wellington's dining (around the Mall at Welli
 
 ## The vibe
 RPB is laid-back and family-first — everyday, diverse, affordable eats over a flashy scene. The park and the corridors are where locals gather.
-
-*(Locals: drop in your current favorite RPB spots — the diverse local scene shifts and you know it best.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Royal Palm Beach?", a: "Most restaurants cluster along Southern Boulevard and State Road 7, offering a diverse, affordable mix of casual cuisines, with Wellington's wider scene minutes away." },
       { q: "Is the food scene in Royal Palm Beach diverse?", a: "Yes — its corridors reflect the community's diversity, with casual American, Latin, Caribbean, Asian, and family spots." },
@@ -3374,12 +3436,12 @@ In summer, do the refuge and outdoor activities early — the heat and afternoon
 - **Well and septic** — added maintenance for many homes.
 - **Drainage and flooding** can be a factor in low areas — check carefully.
 - **Fully car-dependent.**
-- **Summers and insurance** — heat, hurricane season, and rural-property considerations.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; rural properties benefit from consulting on wind and flood coverage early.
 
 **Bottom line:** for people who want land, animals, and freedom, Loxahatchee is a dream at a value. For anyone needing convenience, amenities, or the coast, the drives and rural realities are dealbreakers.`,
     faqs: [
       { q: "What are the pros of living in Loxahatchee?", a: "Land and space, privacy and freedom, room for horses and toys, strong value per acre, the Everglades and wildlife refuge nearby, no state income tax, and a true country lifestyle." },
-      { q: "What are the downsides of living in Loxahatchee?", a: "Long drives to the coast, shopping, and schools, sparse amenities, well and septic maintenance, potential drainage issues, full car dependence, and the usual Florida heat and insurance." },
+      { q: "What are the downsides of living in Loxahatchee?", a: "Long drives to the coast, shopping, and schools, sparse amenities, well and septic maintenance, potential drainage issues, full car dependence, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Loxahatchee worth it?", a: "For people who want land, animals, and freedom, many feel it's absolutely worth the drives. For those needing convenience or the coast, it usually isn't the right fit." },
       { q: "Does Loxahatchee flood?", a: "Some low-lying areas can have drainage or flooding concerns — it's important to check any specific property carefully before buying." },
     ],
@@ -3400,16 +3462,15 @@ In summer, do the refuge and outdoor activities early — the heat and afternoon
     secondaryKeywords: ["Loxahatchee home prices", "The Acreage home prices", "is Loxahatchee affordable"],
     h1: "Cost of Living in Loxahatchee, Florida",
     showMarketTrends: true,
-    body: `Loxahatchee's cost story is unique: strong value on *land*, but with rural-living costs the coast doesn't have. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Loxahatchee's cost story is unique: strong value on *land*, but with rural-living costs the coast doesn't have.
 ## Housing
-The headline is **land value** — you get acre-plus lots for prices that would buy a small coastal yard. Homes range from modest to large custom builds and equestrian properties. *(Insert current median — see live market trends below.)* Demand has grown as buyers seek space, pushing prices up over recent years.
+The headline is **land value** — you get acre-plus lots for prices that would buy a small coastal yard. Homes range from modest to large custom builds and equestrian properties. Demand has grown as buyers seek space, pushing prices up over recent years.
 
 ## Rural-living costs
 Budget for the realities: **well and septic** maintenance, longer commutes (more gas and vehicle wear), and sometimes private road or drainage considerations. These offset some of the land savings.
 
 ## Taxes
-**No state income tax.** Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents. Note: low/no HOA in much of the area keeps that cost down.
+**No state income tax.** Property taxes apply, with a Homestead Exemption for primary residents. Note: low/no HOA in much of the area keeps that cost down.
 
 ## Insurance
 A real Florida cost; rural and older homes may need updates affecting insurability — inspect and quote early.
@@ -3508,8 +3569,7 @@ These wild, free experiences are the soul of country living out west.`,
     primaryKeyword: "best restaurants in Loxahatchee Florida",
     secondaryKeywords: ["where to eat in Loxahatchee", "Loxahatchee dining", "The Acreage restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Loxahatchee, Florida",
-    body: `Let's be honest: Loxahatchee is country, so its dining scene is small — but there are a few local spots, and plenty more a short drive east. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Let's be honest: Loxahatchee is country, so its dining scene is small — but there are a few local spots, and plenty more a short drive east.
 ## Country-casual local spots
 Along the main roads (Seminole Pratt Whitney and the corridors), Loxahatchee and The Acreage have a handful of casual, no-frills local restaurants, country bars, and convenience stops that locals rely on.
 
@@ -3518,8 +3578,7 @@ For real range — diverse cuisines, sit-down dinners, and nightlife — residen
 
 ## The real hangout
 Out here, the best "hangout" is your own porch, a neighbor's barbecue, or sunset over the land. Loxahatchee's social life is more backyard than restaurant row — and that's exactly how locals like it.
-
-*(Locals: drop in your current go-to country spots — you know the hidden local gems best.)*`,
+`,
     faqs: [
       { q: "Where do locals eat in Loxahatchee?", a: "At a handful of casual country spots along the main roads, but mostly they drive east to Royal Palm Beach and Wellington for a wider range of dining." },
       { q: "Does Loxahatchee have restaurants?", a: "A limited number of casual, country-style local spots — for more variety, residents head to nearby Royal Palm Beach or Wellington." },
@@ -3745,12 +3804,12 @@ In summer, the Adventure Park's water features are the move — and do any outdo
 - **No established downtown** yet — commercial development is coming.
 - **HOA and CDD fees** are part of new master-planned living.
 - **Newer = less character** and few mature trees.
-- **Summers and insurance** — heat and hurricane season.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
 **Bottom line:** for buyers who want brand-new homes and amenities and are comfortable being early in a growing city, Westlake is compelling. If you want established character, walkability, or the coast, it's not the fit.`,
     faqs: [
       { q: "What are the pros of living in Westlake?", a: "Brand-new homes and infrastructure, resort-style amenities like the Adventure Park, a family-friendly master plan, value in new construction, growth upside, and no state income tax." },
-      { q: "What are the downsides of living in Westlake?", a: "It's still building out, sits well west of the coast, lacks an established downtown, carries HOA and CDD fees, has less mature character, and faces the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in Westlake?", a: "It's still building out, sits well west of the coast, lacks an established downtown, carries HOA and CDD fees, has less mature character, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Westlake worth it?", a: "For buyers wanting new construction and amenities who are comfortable being early, many feel it's worth it. Those wanting established character or the coast often prefer other towns." },
       { q: "What are CDD fees in Westlake?", a: "Community Development District fees fund the community's infrastructure and are common in new master-planned communities — factor them into your budget." },
     ],
@@ -3771,16 +3830,14 @@ In summer, the Adventure Park's water features are the move — and do any outdo
     secondaryKeywords: ["Westlake home prices", "Westlake CDD fees", "is Westlake affordable"],
     h1: "Cost of Living in Westlake, Florida",
     showMarketTrends: true,
-    body: `Westlake offers new-construction value, but with the fees that come with a master-planned community — understand the full picture. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Westlake offers new-construction value, but with the fees that come with a master-planned community — understand the full picture.
 ## Housing
-You're buying new, with a range from attainable townhomes to larger single-family homes. New construction in a western location often prices below comparable new builds nearer the coast. *(Insert current median — see live market trends below.)*
-
+You're buying new, with a range from attainable townhomes to larger single-family homes. New construction in a western location often prices below comparable new builds nearer the coast.
 ## HOA and CDD fees
 This is the key nuance. Like most new master-planned communities, Westlake carries **HOA fees** (for amenities) and often **CDD fees** (bonds that funded the infrastructure). Together these can add a meaningful monthly cost — always get the full breakdown before buying.
 
 ## Taxes
-**No state income tax.** Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents. (Note CDD assessments may appear on your tax bill.)
+**No state income tax.** Property taxes apply, with a Homestead Exemption for primary residents. (Note CDD assessments may appear on your tax bill.)
 
 ## Insurance
 A real Florida cost — though new construction often insures better than older homes thanks to modern building codes and roofs.
@@ -3877,8 +3934,7 @@ For a new community, the combination of resort amenities and Everglades-edge nat
     primaryKeyword: "best restaurants in Westlake Florida",
     secondaryKeywords: ["where to eat near Westlake", "Westlake dining", "Westlake Adventure Park"],
     h1: "Best Places to Eat, Drink & Hang Out in and Around Westlake, Florida",
-    body: `Westlake is brand-new, so its own dining scene is just getting started — but the community hub and nearby towns have you covered. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Westlake is brand-new, so its own dining scene is just getting started — but the community hub and nearby towns have you covered.
 ## The community hub
 For now, the **Adventure Park** is the social center — events, family gatherings, and amenity days are where neighbors connect. A planned **town center** is set to bring restaurants and shops as the city grows.
 
@@ -3887,8 +3943,7 @@ For real dining range, residents drive to **Royal Palm Beach** (Southern Bouleva
 
 ## The honest take
 Westlake's food scene is a work in progress, like the city itself. Today, the hangout is the Adventure Park and your neighbors; the dining is nearby. As the town center builds out, expect that to change fast.
-
-*(Locals: as new spots open in and around Westlake, drop them in — this scene is evolving quickly.)*`,
+`,
     faqs: [
       { q: "Does Westlake have restaurants?", a: "Its own dining scene is just starting, with a town center planned. For now, residents drive east to Royal Palm Beach and Wellington for a full range of restaurants." },
       { q: "Where do Westlake residents go out to eat?", a: "Mostly to nearby Royal Palm Beach (Southern Boulevard) and Wellington (Mall at Wellington Green), with the community's Adventure Park as the local social hub." },
@@ -3929,7 +3984,7 @@ Stuart draws retirees, boaters, families, and people escaping the congestion and
 
 ## The trade-offs
 
-It's smaller, with fewer big-city amenities, and it's further north — a real commute if you work in Palm Beach County or beyond. Nightlife is low-key, and summers bring the usual Florida heat and storms. But for charm, boating, and a slower, friendlier pace, Stuart is hard to top.`,
+It's smaller, with fewer big-city amenities, and it's further north — a real commute if you work in Palm Beach County or beyond. Nightlife is low-key, and Florida's warm, rainy summers are part of life throughout the region. But for charm, boating, and a slower, friendlier pace, Stuart is hard to top.`,
     faqs: [
       { q: "Is Stuart, Florida a good place to live?", a: "Yes, especially for boaters, retirees, and families who want a charming, walkable downtown, world-class fishing, and a slower, more affordable pace than Palm Beach County. The trade-offs are its smaller size and distance from big-city job centers." },
       { q: "What is Stuart known for?", a: "Being the Sailfish Capital of the World — a charming, low-rise river town with a historic walkable downtown, the Lyric Theatre, a Riverwalk, and world-class boating and fishing." },
@@ -4116,12 +4171,12 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
 - **Further north** — a real commute to Palm Beach County job centers.
 - **Quiet nightlife** — not a party scene.
 - **Seasonal** — busier with snowbirds in winter.
-- **Summers and insurance** — heat, hurricane season, and coastal/waterfront insurance.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; waterfront properties benefit most from getting insurance quotes early.
 
 **Bottom line:** for boaters, retirees, and charm-seekers who want a slower, more affordable river town, Stuart is a delight. If you need big-city amenities or a short PBC commute, weigh the distance.`,
     faqs: [
       { q: "What are the pros of living in Stuart?", a: "A charming walkable downtown, world-class boating and fishing, low-rise old-Florida character, relative affordability, great beaches and nature, a slower pace, and no state income tax." },
-      { q: "What are the downsides of living in Stuart?", a: "It's smaller with fewer amenities, further north with a real commute to Palm Beach County, quieter on nightlife, and faces the usual Florida heat, hurricane season, and coastal insurance costs." },
+      { q: "What are the downsides of living in Stuart?", a: "It's smaller with fewer amenities, further north with a real commute to Palm Beach County, quieter on nightlife, and Florida's warm climate and coastal insurance planning are standard considerations worth addressing early." },
       { q: "Is Stuart worth it?", a: "For boaters, retirees, and people who want charm and value, many feel it absolutely is. Those needing big-city amenities or a short PBC commute may prefer to live further south." },
       { q: "Is Stuart a quiet place to live?", a: "Yes — it's intentionally slow and low-rise, which is a big part of its charm for the people who love it." },
     ],
@@ -4142,13 +4197,11 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
     secondaryKeywords: ["Stuart home prices", "is Stuart affordable", "Stuart FL cost of living"],
     h1: "Cost of Living in Stuart, Florida",
     showMarketTrends: true,
-    body: `Stuart generally costs less than the Palm Beach County coast while offering similar water access and more charm — a key part of its appeal. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Stuart generally costs less than the Palm Beach County coast while offering similar water access and more charm — a key part of its appeal.
 ## Housing
-The Treasure Coast advantage is value. Stuart offers more attainable homes than comparable PBC coastal towns, though waterfront (especially Sewall's Point) and Hutchinson Island beachfront command premiums. *(Insert current median — see live market trends below.)*
-
+The Treasure Coast advantage is value. Stuart offers more attainable homes than comparable PBC coastal towns, though waterfront (especially Sewall's Point) and Hutchinson Island beachfront command premiums.
 ## Taxes
-**No state income tax** — a key draw, plus this is Martin County (its own millage). Property taxes apply *(verify current Martin County rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a key draw, plus this is Martin County (its own millage). Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal cost, especially for waterfront and barrier-island (Hutchinson Island) homes — budget and quote early.
@@ -4250,8 +4303,7 @@ These charming, often-free spots are what make Stuart feel special.`,
     primaryKeyword: "best restaurants in Stuart Florida",
     secondaryKeywords: ["where to eat in Stuart FL", "downtown Stuart restaurants", "Stuart waterfront dining"],
     h1: "Best Places to Eat, Drink & Hang Out in Stuart, Florida",
-    body: `Stuart's dining is charming and water-leaning, centered on a genuinely lovely downtown. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Stuart's dining is charming and water-leaning, centered on a genuinely lovely downtown.
 ## Historic downtown
 **Downtown Stuart** is the heart of it — walkable streets and the Riverwalk lined with local restaurants, cafés, bars, and live-music spots. From seafood to international, it's the social center, and it hosts markets and festivals year-round.
 
@@ -4263,8 +4315,7 @@ Pair dinner downtown with a show at the historic **Lyric Theatre** for a classic
 
 ## The vibe
 Stuart leans charming and laid-back — small-town friendly, water-focused, and walkable downtown over a flashy scene. The Riverwalk is where it all comes together.
-
-*(Locals: drop in your current favorite downtown and waterfront spots — you know the freshest catch and the best patios.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Stuart?", a: "Historic downtown Stuart and its Riverwalk are the hub, with walkable local restaurants, cafés, and bars, plus waterfront seafood spots along the rivers." },
       { q: "Does Stuart have waterfront dining?", a: "Yes — its rivers offer classic waterfront seafood restaurants where you can dock, dine, and watch the boats." },
@@ -4492,12 +4543,12 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
 - **One bridge on and off** — season traffic is real.
 - **Surrounding mainland varies** — Riviera Beach changes block to block.
 - **Seasonal and touristy** in the busy months.
-- **Summers and insurance** — heat, hurricane season, and oceanfront exposure.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; oceanfront properties benefit most from getting insurance quotes early in your search.
 
 **Bottom line:** for oceanfront condo living and a resort lifestyle near the city, Singer Island is hard to beat. If you want a house, a yard, low-rise quiet, or a tight budget, weigh the cons.`,
     faqs: [
       { q: "What are the pros of living on Singer Island?", a: "True oceanfront condo living, a lock-and-leave resort lifestyle, world-class diving and beaches, proximity to West Palm Beach and Palm Beach, great boating, and no state income tax." },
-      { q: "What are the downsides of living on Singer Island?", a: "High HOA fees and oceanfront insurance, limited single-family housing, a single bridge with seasonal traffic, a variable surrounding mainland, and the usual Florida heat and hurricane exposure." },
+      { q: "What are the downsides of living on Singer Island?", a: "High HOA fees and oceanfront insurance, limited single-family housing, a single bridge with seasonal traffic, a variable surrounding mainland, and Florida's warm climate and oceanfront insurance planning are standard considerations worth addressing early in your search." },
       { q: "Is Singer Island worth it?", a: "For oceanfront condo living and a resort lifestyle, many feel it's worth it. Those wanting a house and yard, low-rise quiet, or a lower budget often prefer other beach towns." },
       { q: "Why are HOA fees high on Singer Island?", a: "Oceanfront condo towers carry significant costs for amenities, maintenance, and insurance, which drive HOA fees up." },
     ],
@@ -4518,16 +4569,14 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
     secondaryKeywords: ["Singer Island condo prices", "is Singer Island expensive", "Singer Island HOA fees"],
     h1: "Cost of Living on Singer Island, Florida",
     showMarketTrends: true,
-    body: `Singer Island runs above the national average, driven by oceanfront condo prices and the costs of barrier-island living. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Singer Island runs above the national average, driven by oceanfront condo prices and the costs of barrier-island living.
 ## Housing
-Oceanfront condos are the headline, with luxury towers commanding high prices and Palm Beach Shores single-family homes adding another premium tier. That said, **older condos and Intracoastal-side units** offer more attainable entry points. *(Insert current median — see live market trends below.)*
-
+Oceanfront condos are the headline, with luxury towers commanding high prices and Palm Beach Shores single-family homes adding another premium tier. That said, **older condos and Intracoastal-side units** offer more attainable entry points.
 ## HOA fees
 A key cost. Oceanfront condo towers carry **significant HOA dues** for amenities, maintenance, and building insurance — often a major monthly figure. Always review the association's finances and reserves.
 
 ## Taxes
-**No state income tax.** Property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax.** Property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 High here — direct oceanfront exposure drives wind and flood costs. Some coverage may run through the condo association; confirm what's included.
@@ -4626,8 +4675,7 @@ These water wonders are why island locals never want to leave.`,
     primaryKeyword: "best restaurants on Singer Island Florida",
     secondaryKeywords: ["where to eat on Singer Island", "Sailfish Marina", "Singer Island waterfront dining"],
     h1: "Best Places to Eat, Drink & Hang Out on Singer Island, Florida",
-    body: `Singer Island's dining is beachy and waterfront, with the big-city scene a quick bridge away. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Singer Island's dining is beachy and waterfront, with the big-city scene a quick bridge away.
 ## On the water
 The **Sailfish Marina** in Palm Beach Shores is the iconic hangout — waterfront dining, daily fish feedings, sunset views, and a true marina vibe. It's the island's classic spot.
 
@@ -4639,8 +4687,7 @@ For a wider range and nightlife, **West Palm Beach** (Clematis and Rosemary Squa
 
 ## The vibe
 Singer Island is relaxed and resort-y — waterfront seafood, beach bars, and sunset views over a big nightlife scene. The marina and the beach are where it all happens.
-
-*(Locals: drop in your current favorite island and marina spots — you know the best sunset tables.)*`,
+`,
     faqs: [
       { q: "Where is the best dining on Singer Island?", a: "The Sailfish Marina in Palm Beach Shores is the iconic waterfront spot, with beachfront resort dining along the ocean and the wider West Palm Beach and Palm Beach scenes a short bridge away." },
       { q: "What is the Sailfish Marina?", a: "A classic Singer Island/Palm Beach Shores marina with waterfront dining, daily fish feedings, sunset views, and boat charters — the island's signature hangout." },
@@ -4868,12 +4915,12 @@ In summer, get on the river or the trails early and let the afternoon storms pas
 - **Car-dependent** and quiet on nightlife.
 - **Not on the beach** — a drive to Hutchinson Island.
 - **Further north** — a haul to Palm Beach County job centers.
-- **Summers and insurance** — heat and hurricane season.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
 **Bottom line:** for families who want top schools, boating, space, and value, Palm City is excellent. If you want downtown energy or beachfront living, you'll lean on Stuart or the coast.`,
     faqs: [
       { q: "What are the pros of living in Palm City?", a: "Top-rated Martin County schools, St. Lucie River boating, equestrian and acreage options, a safe and quiet family feel, strong value, easy regional access, and no state income tax." },
-      { q: "What are the downsides of living in Palm City?", a: "No walkable downtown of its own (Stuart is nearby), car dependence, quiet nightlife, no beachfront (a drive to Hutchinson Island), and the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in Palm City?", a: "No walkable downtown of its own (Stuart is nearby), car dependence, quiet nightlife, no beachfront (a drive to Hutchinson Island), and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Palm City worth it?", a: "For families prioritizing schools, boating, space, and value, many feel it absolutely is. Those wanting downtown energy or beachfront often prefer Stuart or the coast." },
       { q: "Is Palm City safe?", a: "It's generally regarded as a safe, quiet, family-oriented suburb, though as always it's wise to research specific neighborhoods." },
     ],
@@ -4894,13 +4941,11 @@ In summer, get on the river or the trails early and let the afternoon storms pas
     secondaryKeywords: ["Palm City home prices", "is Palm City affordable", "Palm City FL cost of living"],
     h1: "Cost of Living in Palm City, Florida",
     showMarketTrends: true,
-    body: `Palm City offers strong value — top schools and boating for less than comparable Palm Beach County areas. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Palm City offers strong value — top schools and boating for less than comparable Palm Beach County areas.
 ## Housing
-The Treasure Coast advantage applies. Palm City's family homes are generally more attainable than similar PBC towns, while riverfront/canal homes, golf communities, and Palm City Farms acreage command premiums. *(Insert current median — see live market trends below.)*
-
+The Treasure Coast advantage applies. Palm City's family homes are generally more attainable than similar PBC towns, while riverfront/canal homes, golf communities, and Palm City Farms acreage command premiums.
 ## Taxes
-**No state income tax.** Palm City is in **Martin County** (its own millage); property taxes apply *(verify current Martin County rate)*, with a Homestead Exemption for primary residents.
+**No state income tax.** Palm City is in **Martin County** (its own millage); property taxes apply, with a Homestead Exemption for primary residents.
 
 ## HOA fees
 Gated and golf communities carry HOA dues; many standard suburban neighborhoods have lower or no fees, helping keep costs down.
@@ -5003,8 +5048,7 @@ These low-key, mostly free spots are what make Palm City feel like a calm, green
     primaryKeyword: "best restaurants in Palm City Florida",
     secondaryKeywords: ["where to eat in Palm City", "Palm City dining", "Martin Downs restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Palm City, Florida",
-    body: `Palm City's own dining is casual and family-friendly, with charming Stuart right across the river for more. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Palm City's own dining is casual and family-friendly, with charming Stuart right across the river for more.
 ## Local corridors
 Around the **Martin Downs** area and Palm City's main roads, you'll find casual, family-friendly restaurants, cafés, and local favorites — the everyday go-tos for residents.
 
@@ -5016,8 +5060,7 @@ For real range — the historic downtown, the Riverwalk, waterfront seafood, and
 
 ## The vibe
 Palm City is a quiet family suburb, so its scene is casual and low-key. The best nights out are often a short hop to Stuart, while everyday eats and riverfront relaxing happen at home.
-
-*(Locals: drop in your current favorite Palm City and riverfront spots — you know the neighborhood gems.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Palm City?", a: "Casual, family-friendly spots cluster around the Martin Downs area and main roads, with a few riverfront options — and charming downtown Stuart just across the river for more range." },
       { q: "Does Palm City have waterfront dining?", a: "Yes — a few riverfront spots let you dine by the St. Lucie River, with more waterfront options in nearby Stuart." },
@@ -5243,12 +5286,12 @@ In summer, do the park and beach early — and the shaded Loxahatchee River padd
 - **Very quiet nightlife.**
 - **Small-town scale** — not for those who want lots of action.
 - **Stark mainland/island contrast** in housing.
-- **Summers and insurance** — heat, hurricane season, coastal costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
 **Bottom line:** for nature lovers and quiet-seekers who want old-Florida calm near Jupiter, Hobe Sound is a hidden gem. If you want amenities and energy at your door, you'll be driving to neighbors a lot.`,
     faqs: [
       { q: "What are the pros of living in Hobe Sound?", a: "Incredible nature (Jonathan Dickinson State Park, the wildlife refuge beach, the Loxahatchee River), quiet old-Florida charm, proximity to Jupiter and Stuart, a wide housing range, beautiful beaches, and no state income tax." },
-      { q: "What are the downsides of living in Hobe Sound?", a: "Limited shopping and dining of its own, very quiet nightlife, small-town scale, a stark contrast between mainland and Jupiter Island housing, and the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in Hobe Sound?", a: "Limited shopping and dining of its own, very quiet nightlife, small-town scale, a stark contrast between mainland and Jupiter Island housing, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Hobe Sound worth it?", a: "For nature lovers and people who want quiet old-Florida charm near Jupiter, many feel it absolutely is. Those wanting amenities and energy at their doorstep may prefer Jupiter or Stuart." },
       { q: "Is Hobe Sound a quiet place?", a: "Yes — it's intentionally quiet and nature-focused, which is the main reason its residents love it." },
     ],
@@ -5269,13 +5312,11 @@ In summer, do the park and beach early — and the shaded Loxahatchee River padd
     secondaryKeywords: ["Hobe Sound home prices", "Jupiter Island home prices", "is Hobe Sound affordable"],
     h1: "Cost of Living in Hobe Sound, Florida",
     showMarketTrends: true,
-    body: `Hobe Sound has perhaps the widest cost range of any community around — from attainable mainland homes to billionaire estates. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Hobe Sound has perhaps the widest cost range of any community around — from attainable mainland homes to billionaire estates.
 ## Housing
-This is the story. **Mainland Hobe Sound** offers genuinely attainable single-family homes (a Treasure Coast value), golf-community homes sit in the middle, and **Jupiter Island** ranks among the most expensive real estate in the United States. Your budget can land almost anywhere. *(Insert current median — see live market trends below.)*
-
+This is the story. **Mainland Hobe Sound** offers genuinely attainable single-family homes (a Treasure Coast value), golf-community homes sit in the middle, and **Jupiter Island** ranks among the most expensive real estate in the United States. Your budget can land almost anywhere.
 ## Taxes
-**No state income tax.** Hobe Sound is in **Martin County** (its own millage); property taxes apply *(verify current Martin County rate)*, with a Homestead Exemption for primary residents.
+**No state income tax.** Hobe Sound is in **Martin County** (its own millage); property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal cost, especially near the water and on the islands — budget and quote early.
@@ -5377,8 +5418,7 @@ These wild, often-free experiences are the real soul of Hobe Sound.`,
     primaryKeyword: "best restaurants in Hobe Sound Florida",
     secondaryKeywords: ["where to eat in Hobe Sound", "Hobe Sound dining", "Harry and the Natives"],
     h1: "Best Places to Eat, Drink & Hang Out in Hobe Sound, Florida",
-    body: `Hobe Sound's dining is small but full of old-Florida character, with Jupiter and Stuart close for more. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Hobe Sound's dining is small but full of old-Florida character, with Jupiter and Stuart close for more.
 ## Old-Florida character
 Hobe Sound is known for quirky, beloved local spots — the kind of weathered, character-filled restaurants that capture old Florida. **Harry and the Natives** is the legendary example, a longtime roadside institution full of personality. The small downtown adds a few more local cafés and eateries.
 
@@ -5387,8 +5427,7 @@ For real range, **Jupiter** (minutes south, with its waterfront dining scene) an
 
 ## The vibe
 This is a small, laid-back, nature-loving town — character spots and casual local eats over a flashy scene. The real hangouts are the parks, the beach, and the river.
-
-*(Locals: drop in your current favorite Hobe Sound spots — you know the old-Florida gems best.)*`,
+`,
     faqs: [
       { q: "Where do locals eat in Hobe Sound?", a: "At quirky old-Florida local spots like the longtime institution Harry and the Natives and a few downtown cafés, plus easy drives to Jupiter and Stuart for a wider range." },
       { q: "Does Hobe Sound have many restaurants?", a: "Its own scene is small and character-filled; for more variety, residents head minutes south to Jupiter or north to Stuart." },
@@ -5429,7 +5468,7 @@ Port Salerno is generally **more affordable and less polished than Stuart** next
 
 ## The trade-offs
 
-It's working-class and varies block to block, it's small with limited shopping (Stuart fills that in minutes away), and nightlife is low-key. Summers bring the usual heat and storms. But if you want an authentic waterfront village with boating, seafood, and value, Port Salerno has a soul all its own.`,
+It's a working-village with an authentic, unhurried character — small, with limited shopping of its own (Stuart fills that in minutes), and nightlife is low-key by design. Florida's warm summers are part of life throughout the region. But if you want an authentic waterfront village with boating, seafood, and value, Port Salerno has a soul all its own.`,
     faqs: [
       { q: "Is Port Salerno, Florida a good place to live?", a: "Yes, especially for boaters, anglers, and value-minded buyers who want an authentic working-waterfront village with great seafood and quick inlet access. The trade-offs are its working-class, less-polished character and limited amenities (Stuart is minutes away)." },
       { q: "What is Port Salerno known for?", a: "Its working waterfront on the Manatee Pocket — commercial and recreational fishing, marinas, fresh-off-the-boat seafood, and quick access to the St. Lucie Inlet and offshore reefs." },
@@ -5613,12 +5652,12 @@ In summer, get on the water early to beat the heat and storms — and the waterf
 - **Less polished** — working-class and varies block to block.
 - **Small** — limited shopping and dining (Stuart fills the gap).
 - **Quiet nightlife.**
-- **Summers and insurance** — heat, hurricane season, and waterfront insurance costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; waterfront properties benefit most from getting insurance quotes early.
 
 **Bottom line:** for boaters and people who want authentic waterfront living and value, Port Salerno is a salty gem. If you want polish, walkability, or lots of amenities, lean on Stuart next door.`,
     faqs: [
       { q: "What are the pros of living in Port Salerno?", a: "An authentic working waterfront, great boating and fishing with quick inlet access, value pricing, fresh seafood, proximity to Stuart and the beaches, and no state income tax." },
-      { q: "What are the downsides of living in Port Salerno?", a: "It's less polished and varies block to block, it's small with limited shopping and quiet nightlife, and it has the usual Florida heat and waterfront insurance costs." },
+      { q: "What are the downsides of living in Port Salerno?", a: "It's less polished and varies block to block, it's small with limited shopping and quiet nightlife, and Florida's warm climate and waterfront insurance planning are worth addressing early in your search." },
       { q: "Is Port Salerno worth it?", a: "For boaters and authenticity-seekers who want waterfront value, many feel it's worth it. Those wanting polish and amenities often prefer Stuart minutes away." },
       { q: "Is Port Salerno safe?", a: "It's a working-waterfront village that varies by area, so researching the specific neighborhood is the key step." },
     ],
@@ -5639,13 +5678,11 @@ In summer, get on the water early to beat the heat and storms — and the waterf
     secondaryKeywords: ["Port Salerno home prices", "is Port Salerno affordable", "Port Salerno FL cost of living"],
     h1: "Cost of Living in Port Salerno, Florida",
     showMarketTrends: true,
-    body: `Port Salerno is the value play of the Stuart area — authentic waterfront living for less. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Port Salerno is the value play of the Stuart area — authentic waterfront living for less.
 ## Housing
-The appeal is value. Port Salerno generally offers more attainable homes than neighboring Stuart, with waterfront and Manatee Pocket homes commanding a premium but still often pricing below comparable Stuart waterfront. *(Insert current median — see live market trends below.)*
-
+The appeal is value. Port Salerno generally offers more attainable homes than neighboring Stuart, with waterfront and Manatee Pocket homes commanding a premium but still often pricing below comparable Stuart waterfront.
 ## Taxes
-**No state income tax.** Port Salerno is in **Martin County** (its own millage); property taxes apply *(verify current Martin County rate)*, with a Homestead Exemption for primary residents.
+**No state income tax.** Port Salerno is in **Martin County** (its own millage); property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal cost, higher for waterfront homes near the inlet — budget and quote early. Older homes may need updates affecting insurability.
@@ -5747,8 +5784,7 @@ These genuine, water-soaked experiences are what make Port Salerno special.`,
     primaryKeyword: "best restaurants in Port Salerno Florida",
     secondaryKeywords: ["where to eat in Port Salerno", "Manatee Pocket restaurants", "Port Salerno seafood"],
     h1: "Best Places to Eat, Drink & Hang Out in Port Salerno, Florida",
-    body: `Port Salerno punches way above its size for one thing: **fresh waterfront seafood.** This is dock-and-dine country. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Port Salerno punches way above its size for one thing: **fresh waterfront seafood.** This is dock-and-dine country.
 ## On the Manatee Pocket
 The harbor is ringed with **waterfront seafood restaurants and tiki bars** where the catch is local and the boats drift by. This is the heart of Port Salerno's social and dining scene — fresh fish, cold drinks, and sunset views over the working waterfront.
 
@@ -5763,8 +5799,7 @@ For a wider range and a charming downtown night out, Stuart is minutes away.
 
 ## The vibe
 Salty, casual, and authentic — waterfront seafood and tiki bars over a polished scene. The Manatee Pocket is where it all happens.
-
-*(Locals: drop in your current favorite Pocket seafood spots — you know the freshest catch and best sunset decks.)*`,
+`,
     faqs: [
       { q: "Where is the best seafood in Port Salerno?", a: "On the Manatee Pocket, where waterfront restaurants and fish houses serve fresh local catch — dock-and-dine dining is the village's specialty." },
       { q: "Is there waterfront dining in Port Salerno?", a: "Yes — the Manatee Pocket is ringed with waterfront seafood restaurants and tiki bars with boats and sunset views." },
@@ -5997,12 +6032,12 @@ In summer, do the river, gardens, and trails early, and let baseball, golf, and 
 - **Long commute to Palm Beach County** job centers.
 - **Can feel cookie-cutter** in the newer areas.
 - **Growth pains** — construction and traffic as the city expands.
-- **Summers and insurance** — heat and hurricane season.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
 **Bottom line:** for value, new homes, and family living, Port St. Lucie is one of the best deals in the region. If you need the beach, a short PBC commute, or urban charm, weigh the cons.`,
     faqs: [
       { q: "What are the pros of living in Port St. Lucie?", a: "Strong affordability, lots of new construction and master-planned communities, a family-friendly feel, golf and Mets baseball, growing amenities, and no state income tax." },
-      { q: "What are the downsides of living in Port St. Lucie?", a: "It's sprawling and car-dependent, not on the beach (20–30 minutes away), a long commute to Palm Beach County, can feel cookie-cutter in newer areas, and has growth-related traffic plus the usual Florida heat and insurance." },
+      { q: "What are the downsides of living in Port St. Lucie?", a: "It's sprawling and car-dependent, not on the beach (20–30 minutes away), a long commute to Palm Beach County, can feel cookie-cutter in newer areas, and has growth-related traffic and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is Port St. Lucie worth it?", a: "For value, new homes, and family living, many feel it's one of the best deals around. Those needing the beach, a short PBC commute, or established charm may prefer other towns." },
       { q: "Is Port St. Lucie safe?", a: "It's generally regarded as a family-oriented suburban city, though as in any large city it's wise to research the specific neighborhood." },
     ],
@@ -6023,13 +6058,11 @@ In summer, do the river, gardens, and trails early, and let baseball, golf, and 
     secondaryKeywords: ["Port St. Lucie home prices", "is Port St. Lucie affordable", "PSL cost of living"],
     h1: "Cost of Living in Port St. Lucie, Florida",
     showMarketTrends: true,
-    body: `Port St. Lucie's whole appeal is value — it's among the most affordable cities in the region. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Port St. Lucie's whole appeal is value — it's among the most affordable cities in the region.
 ## Housing
-This is the headline. PSL offers some of the most attainable new and resale single-family homes anywhere nearby, well below Palm Beach County and Martin County prices. Master-planned Tradition, golf communities, and upscale gated options span the range, but value is the through-line. *(Insert current median — see live market trends below.)*
-
+This is the headline. PSL offers some of the most attainable new and resale single-family homes anywhere nearby, well below Palm Beach County and Martin County prices. Master-planned Tradition, golf communities, and upscale gated options span the range, but value is the through-line.
 ## Taxes
-**No state income tax.** Port St. Lucie is in **St. Lucie County** (its own millage); property taxes apply *(verify current St. Lucie County rate)*, with a Homestead Exemption for primary residents.
+**No state income tax.** Port St. Lucie is in **St. Lucie County** (its own millage); property taxes apply, with a Homestead Exemption for primary residents.
 
 ## CDD & HOA fees
 Newer master-planned communities (like parts of Tradition) may carry HOA and CDD fees — factor them in.
@@ -6134,8 +6167,7 @@ These green, often-free spots prove there's more to PSL than new rooftops.`,
     primaryKeyword: "best restaurants in Port St. Lucie Florida",
     secondaryKeywords: ["where to eat in Port St. Lucie", "Tradition Square restaurants", "St. Lucie West dining"],
     h1: "Best Places to Eat, Drink & Hang Out in Port St. Lucie, Florida",
-    body: `Port St. Lucie's dining is growing fast and clusters in a couple of key hubs. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Port St. Lucie's dining is growing fast and clusters in a couple of key hubs.
 ## St. Lucie West
 The established hub near Clover Park — a dense mix of restaurants, bars, and chains, busiest in spring during Mets season. The everyday go-to for most residents.
 
@@ -6147,8 +6179,7 @@ As the city booms, more local restaurants, breweries, and spots keep opening acr
 
 ## The vibe
 PSL is family-friendly and value-minded, so its scene leans casual and convenient — more family dinners and brewery hangs than a flashy nightlife strip. For a big night out, the coast (Stuart) or beyond is a drive.
-
-*(Locals: drop in your current favorite PSL spots — the scene is growing quickly and you know the new openings best.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Port St. Lucie?", a: "St. Lucie West (near Clover Park) and Tradition Square are the main hubs, with a mix of restaurants, bars, and chains, plus a growing local scene across the city." },
       { q: "What is Tradition Square?", a: "The master-planned town center of the Tradition community, with restaurants, cafés, a farmers market, food trucks, and community events — PSL's most walkable dining-and-hangout spot." },
@@ -6375,12 +6406,12 @@ In summer, hit the water and snorkeling early, then enjoy the shady downtown and
 - **Small** — limited in-town shopping and dining (Jupiter fills it in).
 - **Upscale prices** — it's a desirable, sought-after village.
 - **Quiet nightlife** — not an action town.
-- **Summers and insurance** — heat, hurricane season, and waterfront insurance.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; waterfront properties benefit most from getting insurance quotes early.
 
 **Bottom line:** for families and boaters who want a quiet, upscale village with Jupiter on its doorstep, Tequesta is a gem. If you want nightlife, lots of amenities, or a lower budget, Jupiter or other towns may fit better.`,
     faqs: [
       { q: "What are the pros of living in Tequesta?", a: "Top schools, a quiet leafy upscale village feel, boating on the Loxahatchee River, Jupiter's beaches and amenities next door, a safe established community, and no state income tax." },
-      { q: "What are the downsides of living in Tequesta?", a: "It's small with limited in-town shopping and dining, it leans upscale on price, nightlife is quiet, and it faces the usual Florida heat, hurricane season, and waterfront insurance costs." },
+      { q: "What are the downsides of living in Tequesta?", a: "It's small with limited in-town shopping and dining, it leans upscale on price, nightlife is quiet, and Florida's warm climate and waterfront insurance planning are standard considerations worth addressing early in your search." },
       { q: "Is Tequesta worth it?", a: "For families and boaters who want a quiet, upscale village next to Jupiter, many feel it absolutely is. Those wanting nightlife or a lower budget may prefer Jupiter or other towns." },
       { q: "Is Tequesta safe?", a: "Yes — it's known as a safe, quiet, established village, a big part of its family appeal." },
     ],
@@ -6401,13 +6432,12 @@ In summer, hit the water and snorkeling early, then enjoy the shady downtown and
     secondaryKeywords: ["Tequesta home prices", "is Tequesta expensive", "Tequesta FL cost of living"],
     h1: "Cost of Living in Tequesta, Florida",
     showMarketTrends: true,
-    body: `Tequesta runs above the national average, in line with its desirable, upscale-village status near Jupiter. *(Verify specific figures against current market data before publishing.)*
-
+    body: `Tequesta runs above the national average, in line with its desirable, upscale-village status near Jupiter.
 ## Housing
-The main cost. Tequesta's desirable location and schools keep prices firm, with waterfront and country-club homes commanding premiums and central village homes offering somewhat more attainable entry points. *(Insert current median — see live market trends below.)* It generally tracks close to Jupiter, sometimes a touch friendlier.
+The main cost. Tequesta's desirable location and schools keep prices firm, with waterfront and country-club homes commanding premiums and central village homes offering somewhat more attainable entry points. It generally tracks close to Jupiter, sometimes a touch friendlier.
 
 ## Taxes
-**No state income tax** — a key draw. Tequesta is in Palm Beach County; property taxes apply *(verify current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax** — a key draw. Tequesta is in Palm Beach County; property taxes apply, with a Homestead Exemption for primary residents.
 
 ## Insurance
 A real coastal-Florida cost, higher for waterfront homes near the river and inlet — budget and quote early.
@@ -6509,8 +6539,7 @@ These calm, often-free pleasures are the heart of village life in Tequesta.`,
     primaryKeyword: "best restaurants in Tequesta Florida",
     secondaryKeywords: ["where to eat in Tequesta", "Tequesta restaurants", "Leftovers Cafe"],
     h1: "Best Places to Eat, Drink & Hang Out in Tequesta, Florida",
-    body: `Tequesta is small, but it has a few genuinely loved local spots — and Jupiter's scene is minutes away. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `Tequesta is small, but it has a few genuinely loved local spots — and Jupiter's scene is minutes away.
 ## Village favorites
 The Tequesta Drive area and nearby plazas hold a handful of beloved local restaurants and cafés — the kind of place where regulars know the staff. **Leftovers Cafe** (the longtime sister to Jupiter's Little Moir's) is a perennial local favorite for fresh, creative seafood and is a great example of the village's hidden-gem dining.
 
@@ -6522,8 +6551,7 @@ For waterfront dining, nightlife, and a wider range, Jupiter — with Guanabanas
 
 ## The vibe
 Tequesta is quiet and upscale-casual — beloved local spots and cafés over a big scene, with Jupiter handling the nightlife. The village's charm is in its low-key, neighborly feel.
-
-*(Locals: drop in your current favorite Tequesta spots — you know the village gems best.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Tequesta?", a: "The Tequesta Drive area holds beloved local spots — Leftovers Cafe (sister to Jupiter's Little Moir's) is a longtime favorite — with Jupiter's wider waterfront dining scene minutes away." },
       { q: "Does Tequesta have good restaurants?", a: "For its size, yes — it has a few genuinely loved local spots and cafés, plus easy access to Jupiter's larger dining scene." },
@@ -6578,7 +6606,7 @@ Beyond the famous spots, locals live around the small stuff: green markets in se
       { q: "How do locals deal with summer traffic and heat?", a: "Start early, take back roads instead of US-1 and Indiantown Road during season, and plan around the predictable afternoon thunderstorms." },
     ],
     internalLinks: ["what-its-really-like-living-in-jupiter-florida", "best-things-to-do-in-jupiter-florida", "hidden-gems-in-jupiter-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -6686,7 +6714,7 @@ In summer, plan outdoor stuff for the morning and keep an indoor option — the 
       { q: "What's the best free thing to do in Jupiter?", a: "Spending a morning at the dog-friendly Jupiter Beach or walking the Riverwalk costs nothing and shows off the town at its best." },
     ],
     internalLinks: ["hidden-gems-in-jupiter-florida", "local-guide-to-jupiter-florida", "best-places-to-eat-drink-hang-out-in-jupiter-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -6741,7 +6769,7 @@ Picture your ordinary Tuesday a year from now. Beach walk, porch work, dinner on
       { q: "Is Jupiter a good place to retire?", a: "Yes — warm winters, golf, boating, walkable waterfront areas, and strong nearby healthcare make it a top retirement and snowbird choice." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-jupiter-florida", "cost-of-living-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -6758,30 +6786,35 @@ Picture your ordinary Tuesday a year from now. Beach walk, porch work, dinner on
     h1: "Pros and Cons of Living in Jupiter, Florida",
     heroImage: '/public/Jupiter/jupiter-pelican-dock.jpg',
     showMarketTrends: true,
-    body: `Every town is a trade-off. Jupiter has more in the "pro" column than most — but it's only fair to show you both sides.
+    body: `Every move involves trade-offs. Jupiter's are honest ones — and most people who make them don't regret it. Here's the real picture.
 
-## The Pros
+## The pros — what makes it genuinely worth it
 
-- **The weather (eight months of it)** — October through May is hard to beat: warm, sunny days that make you forget winter exists.
-- **The beaches and the water** — clean, low-rise, less crowded, plus the famous dog beach, the inlet, and the Loxahatchee River.
-- **Top-rated schools** — a big reason families move here and stay, which also supports home values.
-- **No state income tax** — Florida keeps more in your pocket.
-- **Outdoor life every day** — boating, golf, kayaking, fishing, and parks.
-- **Strong, steady real estate** — desirability and limited land keep values resilient.
-- **Still feels like a town** — low buildings, friendly neighbors, and easy PBI Airport and Brightline access.
+**The water.** Not just as a backdrop — as a way of life. The Loxahatchee River, the inlet, the dog beach, the sandbar where the town gathers on weekends. If you're a water person, Jupiter delivers in a way most places can't.
 
-## The Cons
+**Eight months of near-perfect weather.** October through May is warm, dry, and sunny — the lifestyle that people from the Northeast relocate for. It's as good as advertised.
 
-- **It's expensive** — one of the pricier towns in the county.
-- **Summers are brutal** — June–September is hot, humid, and stormy, and hurricane season is a real, every-year consideration.
-- **Home insurance** — coastal-Florida insurance is a genuine line item; get quotes early.
-- **You need a car** — outside a few walkable pockets, everything is a drive.
-- **Season brings crowds** — January–March means more traffic and busier restaurants.
-- **Quiet nightlife** — great waterfront dining, but not a late-night, big-city scene.
+**Schools that families move here for — and stay for.** Jupiter's school zones are consistently strong. Families put down roots here partly because of them, which also supports long-term home values.
 
-## The bottom line
+**No state income tax.** For anyone relocating from a high-tax state — or for retirees managing distributions — this is a genuine, recurring financial upside that offsets a lot of the housing premium.
 
-If your priorities are lifestyle, weather, schools, and the water, the pros bury the cons. If you're stretching the budget or can't take the summer heat, weigh the cons honestly. For most people who move here, Jupiter's trade-offs are easy ones to live with.`,
+**A town that still feels like a town.** Low buildings, local restaurants, neighbors who wave. It hasn't become a wall of high-rises, and residents work to keep it that way.
+
+**Strong real estate.** Limited land and sustained demand make Jupiter one of the more resilient real estate markets in the region.
+
+## The cons — what to go in knowing
+
+**Home values reflect the lifestyle.** Jupiter sits in one of the most desirable corners of Palm Beach County — established coastal communities and waterfront homes command a premium, though there's a wider range of price points than many expect. Home insurance, like everywhere on Florida's coast, is worth budgeting for early.
+
+**Summers run warm.** June through September is hot and humid — that's Florida, and Jupiter is no different. The occasional afternoon shower rolls through and clears quickly. If you plan your outdoor time for the mornings and evenings, you'll barely notice.
+
+**You need a car — pretty much always.** Outside Abacoa and the Riverwalk, walkability is limited. Every errand, dinner, and school run is a drive.
+
+**Quieter after dark.** Jupiter is a morning-and-daytime town. The waterfront restaurant scene is excellent; for a big night out, West Palm Beach is just down the road.
+
+## The honest bottom line
+
+Jupiter offers the water, the weather, the schools, and a town with real character that holds its value. For most people who move here, it's exactly the trade they were looking for.`,
     faqs: [
       { q: "What are the biggest pros of living in Jupiter?", a: "Beautiful weather most of the year, clean low-rise beaches and the dog beach, top-rated schools, no state income tax, an outdoor lifestyle, strong real estate, and a genuine small-town feel." },
       { q: "What is the biggest downside of living in Jupiter?", a: "Cost — it's one of the pricier towns in the county — along with hot, stormy summers, hurricane season, and rising home insurance." },
@@ -6790,8 +6823,8 @@ If your priorities are lifestyle, weather, schools, and the water, the pros bury
       { q: "Is Jupiter livable in the summer?", a: "Yes, if you make peace with heat, humidity, and afternoon storms — locals plan outdoor activities for the morning and enjoy the quieter, less-crowded season." },
     ],
     internalLinks: ["cost-of-living-in-jupiter-florida", "who-should-move-to-jupiter-florida", "jupiter-vs-nearby-cities"],
-    published: false,
-    updated: '2026-06-01',
+    published: true,
+    updated: '2026-06-03',
   },
   {
     slug: 'cost-of-living-in-jupiter-florida',
@@ -6807,15 +6840,15 @@ If your priorities are lifestyle, weather, schools, and the water, the pros bury
     h1: "Cost of Living in Jupiter, Florida",
     heroImage: '/public/Jupiter/jupiter-luxury-home.jpg',
     showMarketTrends: true,
-    body: `Let's be honest up front: Jupiter is not a budget town. It's one of the more desirable addresses in Palm Beach County, and the price tag reflects that. But "expensive" isn't the whole story. *(Verify specific figures against current market data before publishing.)*
+    body: `Let's be honest up front: Jupiter is not a budget town. It's one of the more desirable addresses in Palm Beach County, and the price tag reflects that. But "expensive" isn't the whole story.
 
 ## Housing — the big one
 
-Housing is where Jupiter costs the most. Home prices and rents sit well above the national average, driven by limited land, top schools, and that low-rise coastal lifestyle. *(Insert current median home price and rent — see the live market trends below.)* You'll find a wide range, though: condos and townhomes are the entry point, while waterfront and country-club homes run into the millions.
+Housing is where Jupiter costs the most. Home prices and rents sit well above the national average, driven by limited land, top schools, and that low-rise coastal lifestyle — see the live market trends below for current figures. You'll find a wide range, though: condos and townhomes are the entry point, while waterfront and country-club homes run into the millions.
 
 ## The tax picture — a real upside
 
-Here's where Florida gives back: **there's no state income tax.** For retirees, remote workers, and anyone relocating from a high-tax Northeast state, that can offset a lot of the higher housing cost. Property taxes apply *(verify the current Palm Beach County rate)*, and the Homestead Exemption helps primary residents.
+Here's where Florida gives back: **there's no state income tax.** For retirees, remote workers, and anyone relocating from a high-tax Northeast state, that can offset a lot of the higher housing cost. Property taxes and the Homestead Exemption apply for primary residents.
 
 ## Home insurance — budget for it
 
@@ -6876,7 +6909,7 @@ These are the places that turn a new resident into a local — free or cheap, of
       { q: "Where is the best quiet sunset spot in Jupiter?", a: "Sawfish Bay Park's riverside boardwalk is a local favorite for a peaceful sunset away from the crowds." },
     ],
     internalLinks: ["best-things-to-do-in-jupiter-florida", "local-guide-to-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -6921,7 +6954,7 @@ Rank what matters most: **price** (Stuart and inland win), **beach access** (Jun
       { q: "Which nearby town is the quietest?", a: "Tequesta and the Treasure Coast towns like Stuart tend to be the quietest, while Jupiter offers more energy and amenities." },
     ],
     internalLinks: ["cost-of-living-in-jupiter-florida", "pros-and-cons-of-living-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -6937,8 +6970,7 @@ Rank what matters most: **price** (Stuart and inland win), **beach access** (Jun
     secondaryKeywords: ["where to eat in Jupiter FL", "Jupiter waterfront restaurants", "Guanabanas Jupiter"],
     h1: "Best Places to Eat, Drink & Hang Out in Jupiter, Florida",
     heroImage: '/public/Jupiter/jupiter-waterfront-dining.jpg',
-    body: `In Jupiter, where you eat is half the lifestyle. The best meals come with a water view, a breeze, and no rush. Here's the local rundown. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `In Jupiter, where you eat is half the lifestyle. The best meals come with a water view, a breeze, and no rush. Here's the local rundown.
 ## On the water (the classics)
 
 - **Guanabanas** — the iconic one. Open-air, banyan trees, string lights, right on the Intracoastal. Equal parts restaurant and Jupiter institution.
@@ -6963,8 +6995,7 @@ Rank what matters most: **price** (Stuart and inland win), **beach access** (Jun
 ## Where it all comes together
 
 For a walkable night with dining, live music, and a waterfront boardwalk, Harbourside Place and the Riverwalk tie it together. Time any of it for sunset and you'll get why locals never want to eat indoors.
-
-*(Locals: drop in your current favorite spots — the scene turns over and you know the best of the moment.)*`,
+`,
     faqs: [
       { q: "What is the best waterfront restaurant in Jupiter?", a: "Guanabanas is the iconic open-air waterfront spot, with Square Grouper and U-Tiki Beach also beloved for inlet-side dining and sunsets. (Confirm current hours and availability.)" },
       { q: "Where do locals eat in Jupiter, Florida?", a: "Local institutions like Little Moir's Food Shack, Dune Dog Cafe, and Schooners, plus the waterfront classics and Harbourside Place." },
@@ -6973,7 +7004,7 @@ For a walkable night with dining, live music, and a waterfront boardwalk, Harbou
       { q: "Is there good nightlife in Jupiter?", a: "There's lively waterfront dining, tiki bars, and live music — especially around Harbourside and the inlet — though it's more laid-back than a big-city nightlife scene." },
     ],
     internalLinks: ["best-things-to-do-in-jupiter-florida", "local-guide-to-jupiter-florida", "hidden-gems-in-jupiter-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
@@ -7018,7 +7049,7 @@ The Gardens is expensive, can feel corporate and manicured, and HOA/club fees ar
       { q: "Is Palm Beach Gardens expensive?", a: "Generally yes — it's an upscale, well-kept city, though prices range from condos and townhomes to multimillion-dollar club estates." },
     ],
     internalLinks: ["best-neighborhoods-in-palm-beach-gardens-florida", "best-things-to-do-in-palm-beach-gardens-florida", "who-should-move-to-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7061,7 +7092,7 @@ Decide east or west first — coastal-convenient or gated golf value — and the
       { q: "How do you get to the beach from Palm Beach Gardens?", a: "The beaches of Juno and Jupiter are about a 15–20 minute drive east." },
     ],
     internalLinks: ["what-its-really-like-living-in-palm-beach-gardens-florida", "best-things-to-do-in-palm-beach-gardens-florida", "hidden-gems-in-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7100,7 +7131,7 @@ Decide east or west first — coastal-convenient or gated golf value — and the
       { q: "Where is the more affordable part of Palm Beach Gardens?", a: "Established neighborhoods like Garden Oaks and older central PGA-area homes tend to offer more accessible prices." },
     ],
     internalLinks: ["what-its-really-like-living-in-palm-beach-gardens-florida", "cost-of-living-in-palm-beach-gardens-florida", "who-should-move-to-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7125,7 +7156,7 @@ Decide east or west first — coastal-convenient or gated golf value — and the
 
 **Hit the beach (15 minutes away).** No ocean in the Gardens itself, but Juno Beach and Singer Island's MacArthur Beach State Park are a quick drive.
 
-**Pickleball and tennis.** The city is big on racquet sports, with a large public tennis and pickleball center.
+**Pickleball and tennis.** The city is big on racquet sports — **Burns Road Community Center** is the local hub, with one of the area's best public tennis and pickleball facilities, plus a pool and fitness center.
 
 **Sunday GreenMarket.** A beloved in-season ritual at the municipal complex — local produce, food, and music.
 
@@ -7137,7 +7168,7 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
       { q: "What is there for families to do in Palm Beach Gardens?", a: "Downtown at the Gardens (with its carousel and theater), the nature preserves, the GreenMarket, and the city's excellent parks and racquet facilities." },
     ],
     internalLinks: ["hidden-gems-in-palm-beach-gardens-florida", "local-guide-to-palm-beach-gardens-florida", "best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7177,7 +7208,7 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
       { q: "Is Palm Beach Gardens or Jupiter better?", a: "Palm Beach Gardens is more polished, golf-and-shopping focused, and inland; Jupiter is beachier and funkier. It comes down to refined convenience versus the beach-town lifestyle." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-palm-beach-gardens-florida", "cost-of-living-in-palm-beach-gardens-florida", "what-its-really-like-living-in-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7193,24 +7224,37 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
     secondaryKeywords: ["Palm Beach Gardens pros and cons", "living in Palm Beach Gardens downsides", "is Palm Beach Gardens worth it"],
     h1: "Pros and Cons of Living in Palm Beach Gardens, Florida",
     showMarketTrends: true,
-    body: `## The Pros
-- **A-rated schools** — a major family draw.
-- **Golf capital** — resort and private courses, plus a PGA Tour event in your backyard.
-- **Upscale shopping & dining** — the Gardens Mall and Downtown at the Gardens.
-- **Safe, planned, and green** — wide roads, mature landscaping, organized neighborhoods.
-- **No state income tax.**
-- **Central & connected** — I-95, the Turnpike, and PBI Airport (~20 min) close; beaches 15–20 min east.
-- **Strong, stable real estate.**
+    body: `Palm Beach Gardens is one of the most refined places to live in South Florida — and that comes with some real trade-offs worth understanding before you move.
 
-## The Cons
-- **It's expensive** — homes, HOA dues, and country-club fees add up fast.
-- **No beach of its own** — every beach day is a drive.
-- **Car-dependent** — outside Alton and a few pockets, you're driving (or carting) everywhere.
-- **Summers & insurance** — hot, stormy summers, hurricane season, and coastal-Florida insurance costs.
-- **Season traffic** — PGA Boulevard gets busy Nov–April, and golf-tournament week is a crunch.
-- **Polished, not quirky** — if you want eclectic character, this isn't it.
+## The pros — what makes it genuinely worth it
 
-**Bottom line:** for golf-loving families, retirees, and professionals who want refined, convenient Florida living, the pros dominate. The cons are mostly cost and the lack of a home beach — fixable with a 15-minute drive.`,
+**A-rated schools.** A consistent draw for families. Jupiter schools get more attention, but the Gardens' school zones are equally strong — and families plant roots here because of them.
+
+**Golf at a level few places match.** Not just access — genuine world-class access. PGA National's resort and championship courses, a public Nicklaus-redesigned municipal course, and a PGA Tour event in your own backyard every winter. If you golf, you've found your town.
+
+**Everyday polish and convenience.** The Gardens Mall, Downtown at the Gardens, top-tier healthcare at the Palm Beach Gardens Medical Center — everything you need, well-maintained, close. PBI Airport is ~20 minutes. I-95 and the Turnpike are right there.
+
+**Safety and order.** Master-planned and organized, with low crime rates and well-kept neighborhoods. Families and retirees value this consistently.
+
+**No state income tax.** The same Florida upside — a meaningful recurring benefit for retirees, remote workers, and anyone relocating from a higher-tax state.
+
+**Real estate that holds.** Desirable location and sustained demand mean the Gardens has been a stable investment.
+
+## The cons — what to go in knowing
+
+**Know your community's full picture.** Palm Beach Gardens has something for a wide range of budgets — from attainable established neighborhoods to luxury club estates. The key detail: many of the most sought-after communities are gated golf-and-country-club neighborhoods, and HOA and club dues are part of the picture. Always ask for the full breakdown before you fall in love with a home.
+
+**Florida's Homestead Exemption is a real benefit.** Primary residents receive a meaningful property tax exemption that reduces your assessed value and caps annual increases — great protection for long-term owners. Combined with Florida's lack of a state income tax, it's a genuine financial advantage worth understanding when you move here.
+
+**It's polished, not quirky.** Planned, gated, manicured — by design. If you want eclectic neighborhoods or an urban edge, West Palm Beach is nearby. The Gardens' vibe is refined and consistent, which most residents love.
+
+**Car-dependent.** Outside Alton and a few pockets, you'll drive everywhere. Golf carts handle a lot within gated communities, but the broader town is built around the car.
+
+**Warm Florida summers.** Like anywhere in the region, summers are hot and humid — plan outdoor activities for the morning and enjoy the quieter, less-crowded season.
+
+## The honest bottom line
+
+Palm Beach Gardens delivers safety, schools, world-class golf, and everyday convenience that's hard to match. Understand your community's full cost picture upfront, and you'll be set up to truly enjoy everything this town offers.`,
     faqs: [
       { q: "What are the pros of living in Palm Beach Gardens?", a: "A-rated schools, world-class golf, upscale shopping and dining, a safe and planned feel, no state income tax, a central and connected location, and strong real estate." },
       { q: "What are the downsides of living in Palm Beach Gardens?", a: "High costs including HOA and club fees, no beach of its own (a drive away), car dependence and PGA Boulevard traffic, summer heat and insurance, and a corporate, manicured feel." },
@@ -7218,8 +7262,8 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
       { q: "Are HOA and club fees high in Palm Beach Gardens?", a: "They can be — many top communities are gated golf and country clubs with substantial dues, so ask about fees before buying." },
     ],
     internalLinks: ["cost-of-living-in-palm-beach-gardens-florida", "who-should-move-to-palm-beach-gardens-florida", "palm-beach-gardens-vs-nearby-cities"],
-    published: false,
-    updated: '2026-06-01',
+    published: true,
+    updated: '2026-06-03',
   },
   {
     slug: 'cost-of-living-in-palm-beach-gardens-florida',
@@ -7234,16 +7278,16 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
     secondaryKeywords: ["Palm Beach Gardens home prices", "is Palm Beach Gardens expensive", "PGA National home prices"],
     h1: "Cost of Living in Palm Beach Gardens, Florida",
     showMarketTrends: true,
-    body: `Palm Beach Gardens runs above the national average — it's a desirable, well-kept town and the costs reflect it. *(Verify specific figures against current market data before publishing.)*
+    body: `Palm Beach Gardens runs above the national average — it's a desirable, well-kept town and the costs reflect it.
 
 ## Housing
-The biggest line. Prices and rents sit comfortably above average, with a wide spread from condos to multimillion-dollar club estates. *(Insert current median — see live market trends below.)*
+The biggest line. Prices and rents sit comfortably above average, with a wide spread from condos to multimillion-dollar club estates — see the live market trends below for current figures.
 
 ## HOA and club fees
 This deserves special mention. Many of the Gardens' best communities are gated golf-and-country-club neighborhoods, and **dues can be substantial** — sometimes a major monthly cost beyond your mortgage. Always ask what membership and HOA fees run before you fall for a home.
 
 ## The tax upside
-**No state income tax**, which softens the higher housing cost — a real draw for retirees and high earners. Property taxes apply *(verify the current county rate)*, with a Homestead Exemption for primary residents.
+**No state income tax**, which softens the higher housing cost — a real draw for retirees and high earners. Property taxes and the Homestead Exemption apply for primary residents.
 
 ## Insurance
 A genuine coastal-Florida cost — budget for it and get quotes early.
@@ -7259,7 +7303,7 @@ Utilities and groceries are near the Florida average; dining out trends higher.
       { q: "Is Palm Beach Gardens worth the cost?", a: "For buyers who value top schools, safety, golf, and refined convenience, many feel it's worth it." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-palm-beach-gardens-florida", "best-neighborhoods-in-palm-beach-gardens-florida", "palm-beach-gardens-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7286,7 +7330,7 @@ Utilities and groceries are near the Florida average; dining out trends higher.
 
 **The Sunday GreenMarket.** Locals' weekend ritual — produce, food, and music at the municipal complex.
 
-**Excellent public parks and racquet facilities.** Beyond the golf, the Gardens has top-notch parks and one of the area's best public tennis and pickleball centers.
+**Burns Road Community Center.** The city's community hub — pool, fitness center, classes, events, and one of the area's best public tennis and pickleball facilities. Beloved by locals and a great way to plug into the community without a club membership.
 
 These quiet, often-free spots make the Gardens feel like a community, not just a collection of gates.`,
     faqs: [
@@ -7296,7 +7340,7 @@ These quiet, often-free spots make the Gardens feel like a community, not just a
       { q: "Where can you see nature in Palm Beach Gardens?", a: "The Loxahatchee Slough Natural Area, Frenchman's Forest, and Sandhill Crane Access Park offer trails, boardwalks, and birdwatching." },
     ],
     internalLinks: ["best-things-to-do-in-palm-beach-gardens-florida", "local-guide-to-palm-beach-gardens-florida", "what-its-really-like-living-in-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7330,7 +7374,7 @@ These quiet, often-free spots make the Gardens feel like a community, not just a
       { q: "Which nearby city is best for golfers?", a: "Palm Beach Gardens is a standout, anchored by PGA National and a deep roster of golf communities." },
     ],
     internalLinks: ["cost-of-living-in-palm-beach-gardens-florida", "pros-and-cons-of-living-in-palm-beach-gardens-florida", "what-its-really-like-living-in-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7345,8 +7389,7 @@ These quiet, often-free spots make the Gardens feel like a community, not just a
     primaryKeyword: "best restaurants in Palm Beach Gardens Florida",
     secondaryKeywords: ["where to eat in Palm Beach Gardens", "Downtown at the Gardens restaurants", "PGA Commons"],
     h1: "Best Places to Eat, Drink & Hang Out in Palm Beach Gardens, Florida",
-    body: `The Gardens' dining is upscale and clustered in a few polished districts. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `The Gardens' dining is upscale and clustered in a few polished districts.
 ## Downtown at the Gardens
 The social heart for casual nights out — open-air dining, a movie theater, and a carousel for families. Spots here cover everything from farm-to-table to lively bar-and-grill energy.
 
@@ -7361,8 +7404,7 @@ The **Gardens Mall** area and PGA corridor have polished steakhouse and fine-din
 
 ## Where it comes together
 For an easy evening, Downtown at the Gardens and PGA Commons give you walkable dining, drinks, and a movie — the Gardens' version of a night on the town.
-
-*(Locals: drop in your current favorite spots — the upscale scene turns over and you know the best of the moment.)*`,
+`,
     faqs: [
       { q: "Where is the best dining in Palm Beach Gardens?", a: "Downtown at the Gardens and the PGA Commons district are the two main dining-and-nightlife areas, with more options downtown and around the Gardens Mall." },
       { q: "What is PGA Commons?", a: "A walkable dining-and-shopping district along PGA Boulevard, a longtime local favorite for sit-down dinners and patio dining." },
@@ -7370,7 +7412,7 @@ For an easy evening, Downtown at the Gardens and PGA Commons give you walkable d
       { q: "Where do locals eat in Palm Beach Gardens?", a: "Across Downtown at the Gardens, PGA Commons, and the Gardens Mall area, plus local favorites along PGA Boulevard." },
     ],
     internalLinks: ["best-things-to-do-in-palm-beach-gardens-florida", "local-guide-to-palm-beach-gardens-florida", "hidden-gems-in-palm-beach-gardens-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
@@ -7411,7 +7453,7 @@ It's a small village, so big-city amenities mean a short drive to Palm Beach Gar
       { q: "Is North Palm Beach on the water?", a: "Yes — it's an Intracoastal village laced with canals and marinas, with Singer Island's ocean beaches just minutes away." },
     ],
     internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7450,7 +7492,7 @@ Join the country club, find a spot at the marina, and lean into the water life. 
       { q: "How close is North Palm Beach to the beach?", a: "Very — Singer Island's ocean beaches and MacArthur Beach State Park are just minutes away across the water." },
     ],
     internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7467,17 +7509,21 @@ Join the country club, find a spot at the marina, and lean into the water life. 
     h1: "Best Neighborhoods in North Palm Beach, Florida",
     body: `North Palm is small, but its neighborhoods range from ultra-exclusive to friendly and attainable. By lifestyle:
 
+North Palm Beach is a great family town, and its neighborhoods cover a wide range — from ultra-exclusive waterfront to attainable village charm. By lifestyle:
+
 **Ultra-luxury & private → Lost Tree Village.** A gated, exclusive waterfront enclave near Singer Island — quietly prestigious, home to notable residents (including Jack Nicklaus), and about as private as it gets.
 
-**Waterfront condo & marina life → Old Port Cove.** Intracoastal-front condos with a marina, walking paths, and water views — popular with boaters and lock-and-leave snowbirds.
+**Waterfront condo & marina life → Old Port Cove.** A private gated community with Intracoastal-front condos, a marina, and water views — popular with boaters and lock-and-leave snowbirds.
 
 **Canal-front boating homes → the village waterfront streets.** Classic North Palm: single-family homes with docks and direct or near-direct Intracoastal access. The heart of the boating lifestyle.
 
+**Golf-course homes → neighborhoods along the village club.** Homes with fairway views and easy access to the Jack Nicklaus–redesigned course — a real perk in an area as golf-oriented as this one.
+
 **Village-classic & attainable → the established interior streets.** Mid-century village homes, many beautifully updated, offering that North Palm address at friendlier prices — great for families and first-time buyers in the area.
 
-**Country-club adjacent → homes near the village club.** Walk or cart to golf, tennis, and the pool — convenient and community-centered.
+**Country-club adjacent → homes near the village club.** Walk or cart to golf, tennis, pickleball, and the pool — convenient and community-centered.
 
-**How to choose:** boat or no boat? Waterfront splurge or attainable village charm? Lock-and-leave condo or a home with a yard and a dock? Your answer points the way.`,
+**How to choose:** boat or no boat? Waterfront splurge or golf-course living? Lock-and-leave condo or a home with a yard and a dock? Your answer points the way.`,
     faqs: [
       { q: "What is the best neighborhood in North Palm Beach?", a: "It depends on your lifestyle — Lost Tree Village for ultra-luxury privacy, Old Port Cove for waterfront condos and marina life, the canal-front streets for boating homes, and the interior village streets for attainable charm." },
       { q: "What is Lost Tree Village?", a: "An exclusive gated waterfront enclave in North Palm Beach near Singer Island, known for privacy and notable residents including Jack Nicklaus." },
@@ -7486,7 +7532,7 @@ Join the country club, find a spot at the marina, and lean into the water life. 
     ],
     internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida"],
     published: false,
-    updated: '2026-06-01',
+    updated: '2026-06-03',
   },
   {
     slug: 'best-things-to-do-in-north-palm-beach-florida',
@@ -7502,7 +7548,7 @@ Join the country club, find a spot at the marina, and lean into the water life. 
     h1: "Best Things to Do in North Palm Beach, Florida",
     body: `For a small village, North Palm packs in a lot — most of it on or near the water.
 
-**Play the Nicklaus municipal course.** The **North Palm Beach Country Club** offers a golf course redesigned by Jack Nicklaus that's open to the public — a genuinely rare thing — plus tennis, a pool, and a waterfront restaurant.
+**Play the Nicklaus municipal course.** The **North Palm Beach Country Club** offers a golf course redesigned by Jack Nicklaus that's open to the public — a genuinely rare thing — plus tennis, pickleball, a pool, and a waterfront restaurant.
 
 **Get on the water.** Boating is the main event. Launch from **Anchorage Park**, cruise the Intracoastal, fish, or paddle the calm canals.
 
@@ -7514,7 +7560,7 @@ Join the country club, find a spot at the marina, and lean into the water life. 
 
 **Easy escapes.** Palm Beach Gardens' shopping and dining and downtown West Palm Beach are both a short drive when you want more.
 
-In summer, get on the water early to beat the heat and storms, then enjoy the club or a waterfront lunch in the afternoon.`,
+In summer, get on the water early to make the most of the morning, then settle into the club or a waterfront lunch when the afternoon heats up.`,
     faqs: [
       { q: "What is there to do in North Palm Beach?", a: "Play the public Jack Nicklaus golf course at the village country club, boat and paddle from Anchorage Park, hit nearby Singer Island and MacArthur Beach State Park, enjoy the marina, and pop to Palm Beach Gardens or West Palm for more." },
       { q: "Is the North Palm Beach golf course open to the public?", a: "Yes — the village-owned North Palm Beach Country Club features a Jack Nicklaus–redesigned course open to the public, a rare perk." },
@@ -7537,13 +7583,15 @@ In summer, get on the water early to beat the heat and storms, then enjoy the cl
     primaryKeyword: "who should move to North Palm Beach Florida",
     secondaryKeywords: ["is North Palm Beach right for me", "should I move to North Palm Beach", "who lives in North Palm Beach"],
     h1: "Who Should Move to North Palm Beach, Florida (And Who Shouldn't)",
-    body: `North Palm is the waterfront-value-and-community pick. Here's who it fits.
+    body: `North Palm Beach is as much a golf town as it is a boating town — and the Village of North Palm Beach is especially waterfront-oriented. Here's who it fits.
+
+> **Quick note on geography:** The *Village of North Palm Beach* is the incorporated village — more concentrated, more waterfront, more Intracoastal. "North Palm Beach" as a broader area includes homes on golf courses, established interior streets, and more. Both are wonderful; just worth knowing which you're looking at.
 
 **You'll love North Palm Beach if you:**
-- **Boat** — canal homes, marinas, and Intracoastal access make this a boater's paradise.
+- **Boat** — canal homes, marinas, and Intracoastal access make this a boater's paradise, especially inside the Village.
+- **Golf** — this whole area is deeply golf-oriented: a public Jack Nicklaus course at the village club, plus golf-course homes throughout. If you golf, North Palm delivers.
 - **Want waterfront living without the very top-tier price** — North Palm offers more attainable water-adjacent options than Jupiter or Palm Beach.
 - **Crave community** — a small village with a town-owned country club at its heart.
-- **Golf** — a public Nicklaus course is a rare perk.
 - **Want the beach close** — Singer Island is minutes away.
 - **Like a quieter, friendly, established town.**
 
@@ -7551,7 +7599,7 @@ In summer, get on the water early to beat the heat and storms, then enjoy the cl
 - **Want big-city amenities at your door** — the village is small; you'll drive to PBG or WPB for more.
 - **Need a beachfront home specifically** — North Palm is Intracoastal, not oceanfront.
 - **Want new construction and master-planned polish** — much of the housing is established/mid-century (charming, but not brand-new).
-- **Want nightlife** — this is a calm, family-and-boater town.
+- **Want nightlife** — this is a calm, family-and-boater-and-golfer town.
 
 **Gut-check:** if "small waterfront village, a boat out back, golf anyone can play, beach 10 minutes away" sounds right, North Palm is your spot. If you want amenities and nightlife at your door, look to Palm Beach Gardens or West Palm.`,
     faqs: [
@@ -7589,18 +7637,18 @@ In summer, get on the water early to beat the heat and storms, then enjoy the cl
 - **Small village** — for big shopping and nightlife, you'll drive to PBG or West Palm.
 - **Not oceanfront** — it's Intracoastal; beach days require a short drive.
 - **Older housing stock** — lots of mid-century homes (charming, but many need updating).
-- **Summers & insurance** — heat, hurricane season, and coastal-Florida insurance costs.
+- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 - **Car-dependent** outside a few walkable pockets.
 
 **Bottom line:** for boaters and community-minded buyers who want waterfront Florida without the steepest prices, the pros win easily. The cons are mostly "it's a small village" and "bring a renovation eye."`,
     faqs: [
       { q: "What are the pros of living in North Palm Beach?", a: "Waterfront and boating access at attainable prices, a public Jack Nicklaus golf course, a real community feel, beaches minutes away, no state income tax, and a central location." },
-      { q: "What are the downsides of living in North Palm Beach?", a: "It's a small village (you'll drive to Palm Beach Gardens or West Palm for more), it's Intracoastal rather than oceanfront, much of the housing is older mid-century stock, and there are the usual Florida heat and insurance costs." },
+      { q: "What are the downsides of living in North Palm Beach?", a: "It's a small village (you'll drive to Palm Beach Gardens or West Palm for more), it's Intracoastal rather than oceanfront, much of the housing is older mid-century stock, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
       { q: "Is North Palm Beach worth it?", a: "For boaters and value-minded buyers who want waterfront Florida and community, many feel it's a great value. Those wanting new construction, oceanfront, or nightlife may prefer other towns." },
       { q: "Is North Palm Beach affordable?", a: "Relatively — it often offers better value than Jupiter or Palm Beach for waterfront-adjacent living, though prime waterfront and Lost Tree Village are high-end." },
     ],
     internalLinks: ["cost-of-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7616,13 +7664,12 @@ In summer, get on the water early to beat the heat and storms, then enjoy the cl
     secondaryKeywords: ["North Palm Beach home prices", "is North Palm Beach affordable", "North Palm Beach FL cost of living"],
     h1: "Cost of Living in North Palm Beach, Florida",
     showMarketTrends: true,
-    body: `North Palm Beach sits above the national average — but it's often **more attainable than its glossier neighbors**, which is a big part of its appeal. *(Verify specific figures against current market data before publishing.)*
-
+    body: `North Palm Beach sits above the national average — but it's often **more attainable than its glossier neighbors**, which is a big part of its appeal.
 ## Housing
-The value play. Established interior village homes are the entry point, while waterfront, Old Port Cove condos, and Lost Tree estates climb steeply. *(Insert current median — see live market trends below.)* Compared to Jupiter or Palm Beach Gardens, North Palm frequently offers more water-adjacent home for the money.
+The value play. Established interior village homes are the entry point, while waterfront, Old Port Cove condos, and Lost Tree estates climb steeply. Compared to Jupiter or Palm Beach Gardens, North Palm frequently offers more water-adjacent home for the money.
 
 ## The tax upside
-**No state income tax.** Property taxes apply *(verify current county rate)* with a Homestead Exemption for residents.
+**No state income tax.** Property taxes apply with a Homestead Exemption for residents.
 
 ## The village country club
 A notable lifestyle cost — but it's optional and village-run, generally friendlier than private-club dues.
@@ -7641,7 +7688,7 @@ Utilities and groceries track close to the Florida average.
       { q: "How much is the North Palm Beach Country Club?", a: "It's a village-owned, optional membership generally friendlier than private-club dues — check the village for current rates." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7652,7 +7699,7 @@ Utilities and groceries track close to the Florida average.
     order: 8,
     seoTitle: "Hidden Gems in North Palm Beach, Florida",
     metaTitle: "Hidden Gems in North Palm Beach, Florida",
-    metaDescription: "Beyond the marina — local hidden gems in North Palm Beach, Florida, from a public Nicklaus course to Old Port Cove's paths and nearby MacArthur Beach.",
+    metaDescription: "Beyond the marina — local hidden gems in North Palm Beach, Florida, from a public Nicklaus course to Anchorage Park, the Tiger Woods marina, and nearby MacArthur Beach.",
     primaryKeyword: "hidden gems in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach secret spots", "free things to do in North Palm Beach", "MacArthur Beach State Park"],
     h1: "Hidden Gems in North Palm Beach, Florida",
@@ -7662,9 +7709,9 @@ Utilities and groceries track close to the Florida average.
 
 **Anchorage Park.** Locals' go-to for a boat launch, a quiet waterfront stroll, and weekend community events — easy to miss if you don't live here.
 
-**Old Port Cove walking paths.** A scenic Intracoastal-front walk with marina and water views that few visitors know about.
+**Old Port Cove marina.** A private, gated community — but it has a bit of lore: Tiger Woods has kept his boat here. That's the kind of low-key famous this village is.
 
-**The country club's waterfront restaurant.** A relaxed, scenic spot for a meal on the water that doesn't require membership.
+**The country club's waterfront restaurant.** A relaxed, scenic spot for a meal on the water that doesn't require membership — open to the public.
 
 **Quiet canal-front streets.** Just driving (or boating) the village's waterways at golden hour is a free local pleasure.
 
@@ -7672,8 +7719,8 @@ Utilities and groceries track close to the Florida average.
 
 These low-key, often-free spots are the heart of village life in North Palm Beach.`,
     faqs: [
-      { q: "What are the hidden gems in North Palm Beach?", a: "The public Jack Nicklaus golf course, Anchorage Park, the Old Port Cove walking paths, the country club's waterfront restaurant, the quiet canal-front streets, and nearby MacArthur Beach State Park." },
-      { q: "What are free things to do in North Palm Beach?", a: "Walking the Old Port Cove paths, enjoying Anchorage Park, strolling the canal-front streets, and visiting nearby MacArthur Beach State Park are all free or low-cost." },
+      { q: "What are the hidden gems in North Palm Beach?", a: "The public Jack Nicklaus golf course, Anchorage Park, the Old Port Cove marina (Tiger Woods has kept his boat there), the country club's waterfront restaurant, the quiet canal-front streets, and nearby MacArthur Beach State Park." },
+      { q: "What are free things to do in North Palm Beach?", a: "Anchorage Park, strolling the canal-front streets at golden hour, and visiting nearby MacArthur Beach State Park are all free or low-cost — and the country club restaurant is open to the public." },
       { q: "Can the public play golf in North Palm Beach?", a: "Yes — the village-owned country club's Jack Nicklaus–redesigned course is open to the public, a rare and beloved local perk." },
       { q: "What's the best nearby beach for North Palm Beach residents?", a: "MacArthur Beach State Park on Singer Island, minutes away, is a favorite for its snorkeling, nature, and uncrowded sand." },
     ],
@@ -7712,7 +7759,7 @@ These low-key, often-free spots are the heart of village life in North Palm Beac
       { q: "Which nearby town is the best value for boaters?", a: "North Palm Beach is a standout — it offers canal and marina living, plus a public Nicklaus golf course, often at better value than its neighbors." },
     ],
     internalLinks: ["cost-of-living-in-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -7727,8 +7774,7 @@ These low-key, often-free spots are the heart of village life in North Palm Beac
     primaryKeyword: "best restaurants in North Palm Beach Florida",
     secondaryKeywords: ["where to eat in North Palm Beach", "North Palm Beach waterfront dining", "North Palm Beach Country Club restaurant"],
     h1: "Best Places to Eat, Drink & Hang Out in North Palm Beach, Florida",
-    body: `North Palm's dining is low-key and water-leaning — exactly the village's style. *(Confirm specific spots are current/open before relying on this list.)*
-
+    body: `North Palm's dining is low-key and water-leaning — exactly the village's style.
 ## On the water
 - **The North Palm Beach Country Club restaurant** — a relaxed, scenic meal on the water, open to the public.
 - **Marina-area dining (Old Port Cove)** — waterfront spots for a casual meal with boats drifting by.
@@ -7741,8 +7787,7 @@ For more range, **Palm Beach Gardens** (Downtown at the Gardens, PGA Commons) an
 
 ## Where it comes together
 The village's social life centers on the **country club and the marina** more than a restaurant row — fitting for a tight-knit waterfront town.
-
-*(Locals: drop in your current favorite spots — you know the village gems best.)*`,
+`,
     faqs: [
       { q: "Where is the best waterfront dining in North Palm Beach?", a: "The North Palm Beach Country Club restaurant (open to the public) and the Old Port Cove marina area offer relaxed, scenic meals on the water." },
       { q: "Where do locals eat in North Palm Beach?", a: "At the village country club and marina-area spots, longtime local favorites along the US-1/Northlake corridor, and quick trips to Palm Beach Gardens or West Palm Beach for more." },
@@ -7750,7 +7795,7 @@ The village's social life centers on the **country club and the marina** more th
       { q: "Can you eat at the North Palm Beach Country Club without a membership?", a: "Yes — its waterfront restaurant is open to the public, a relaxed, scenic spot for a meal." },
     ],
     internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 ]
@@ -7783,6 +7828,12 @@ export function getAllVisibleSorted(): Article[] {
   return [...visibleArticles()].sort(
     (a, b) => a.cityName.localeCompare(b.cityName) || a.order - b.order,
   )
+}
+
+export function getRecentArticles(limit = 4): Article[] {
+  return [...visibleArticles()]
+    .sort((a, b) => b.updated.localeCompare(a.updated))
+    .slice(0, limit)
 }
 
 // ---- regional organization ----
