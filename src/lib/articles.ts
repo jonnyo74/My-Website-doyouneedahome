@@ -1396,7 +1396,7 @@ Boca is expensive, can feel corporate and manicured, and HOA and club fees are p
       { q: "Is Boca Raton good for families?", a: "Very — top-rated schools, safe neighborhoods, family parks like Sugar Sand Park, and a planned, polished feel make it a top family choice." },
     ],
     internalLinks: ["best-neighborhoods-in-boca-raton-florida", "best-things-to-do-in-boca-raton-florida", "who-should-move-to-boca-raton-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1472,7 +1472,7 @@ Decide east or west first — coastal and walkable, or gated golf value — and 
       { q: "Where is the more affordable part of Boca Raton?", a: "West Boca generally offers more attainable prices and more home for the money, including many active-adult communities." },
     ],
     internalLinks: ["what-its-really-like-living-in-boca-raton-florida", "cost-of-living-in-boca-raton-florida", "who-should-move-to-boca-raton-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1509,7 +1509,7 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
       { q: "Is Boca Raton good for families with kids?", a: "Very — Sugar Sand Park, Gumbo Limbo, the beach parks, and top schools make it especially family-friendly." },
     ],
     internalLinks: ["hidden-gems-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "best-places-to-eat-drink-hang-out-in-boca-raton-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1548,7 +1548,7 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
       { q: "Is Boca Raton or Delray Beach better?", a: "Boca is more upscale, corporate, and family-oriented; Delray is funkier, more walkable, and more social. It comes down to refined calm versus lively energy." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-boca-raton-florida", "cost-of-living-in-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1588,7 +1588,7 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
       { q: "Is Boca Raton safe?", a: "Boca is generally known as one of the safer, well-kept cities in the region, though as always it's wise to research specific neighborhoods." },
     ],
     internalLinks: ["cost-of-living-in-boca-raton-florida", "who-should-move-to-boca-raton-florida", "boca-raton-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1627,7 +1627,7 @@ Utilities and groceries track near the Florida average; dining trends upscale at
       { q: "Is west Boca cheaper than east Boca?", a: "Generally yes — west Boca offers more space and more attainable prices than the coastal east side." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-boca-raton-florida", "best-neighborhoods-in-boca-raton-florida", "boca-raton-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1664,7 +1664,7 @@ These show there's real nature and history behind Boca's upscale front.`,
       { q: "Is there good nature in Boca Raton?", a: "Yes — Gumbo Limbo, Spanish River Park, and Daggerwing Nature Center offer beaches, hammocks, and wetlands boardwalks rich with wildlife." },
     ],
     internalLinks: ["best-things-to-do-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1698,7 +1698,7 @@ These show there's real nature and history behind Boca's upscale front.`,
       { q: "Which is best for families?", a: "Boca Raton is a standout for families thanks to its top schools, safety, and family parks." },
     ],
     internalLinks: ["cost-of-living-in-boca-raton-florida", "pros-and-cons-of-living-in-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1733,7 +1733,7 @@ Boca leans polished — fine dining, chic lounges, and elegant patios more than 
       { q: "Where do locals eat in Boca Raton?", a: "Across Mizner Park, Royal Palm Place, downtown, and the Town Center area, which hold most of the city's notable restaurants." },
     ],
     internalLinks: ["best-things-to-do-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "hidden-gems-in-boca-raton-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
