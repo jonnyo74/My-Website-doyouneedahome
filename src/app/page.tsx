@@ -19,7 +19,7 @@ const stripPhotos = [
   { src: '/images/jupiter/jupiter-003.jpg', label: 'Jupiter' },
   { src: '/images/west-palm-beach/waterfront-024.jpg', label: 'West Palm Beach' },
   { src: '/images/singer-island/singer-island-sunset.jpg', label: 'Singer Island' },
-  { src: '/images/juno-beach/juno-beach-001.jpg', label: 'Juno Beach' },
+  { src: '/images/juno-beach/juno-beach-085.jpeg', label: 'Juno Beach' },
 ]
 
 export default function Home() {
