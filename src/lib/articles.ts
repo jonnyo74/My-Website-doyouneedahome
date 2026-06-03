@@ -1774,7 +1774,7 @@ Boynton is still building toward its full potential — neighborhoods vary in ch
       { q: "Is Boynton Beach on the beach?", a: "Its oceanfront park sits across the Intracoastal in the Ocean Ridge area; much of Boynton itself is just inland, a short drive from the sand." },
     ],
     internalLinks: ["best-neighborhoods-in-boynton-beach-florida", "best-things-to-do-in-boynton-beach-florida", "who-should-move-to-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1813,7 +1813,7 @@ Pick east (water, marina, value homes) or west (gated, 55+, golf) and the town c
       { q: "What is the difference between east and west Boynton Beach?", a: "East Boynton has the marina, downtown, and older waterfront neighborhoods; west Boynton is gated and 55+ communities with golf and resort amenities, often at attainable prices." },
     ],
     internalLinks: ["what-its-really-like-living-in-boynton-beach-florida", "best-things-to-do-in-boynton-beach-florida", "hidden-gems-in-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1850,7 +1850,7 @@ Pick east (water, marina, value homes) or west (gated, 55+, golf) and the town c
       { q: "Can you live on the water in Boynton Beach?", a: "Yes — east Boynton has Intracoastal and canal homes near the marina, often at better value than neighboring towns." },
     ],
     internalLinks: ["what-its-really-like-living-in-boynton-beach-florida", "cost-of-living-in-boynton-beach-florida", "who-should-move-to-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1887,7 +1887,7 @@ In summer, do the boardwalks and beach early and let the marina and Town Square 
       { q: "Is Boynton Beach good for families?", a: "Increasingly so — Town Square, the Schoolhouse Children's Museum, the wetlands boardwalks, and growing west-side communities are all family-friendly." },
     ],
     internalLinks: ["hidden-gems-in-boynton-beach-florida", "local-guide-to-boynton-beach-florida", "best-places-to-eat-drink-hang-out-in-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1926,7 +1926,7 @@ In summer, do the boardwalks and beach early and let the marina and Town Square 
       { q: "Is Boynton Beach a good investment?", a: "Many see upside given its ongoing revitalization and value relative to neighboring Delray and Boca, though as always, location within the city matters." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-boynton-beach-florida", "cost-of-living-in-boynton-beach-florida", "what-its-really-like-living-in-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1965,7 +1965,7 @@ In summer, do the boardwalks and beach early and let the marina and Town Square 
       { q: "Is Boynton Beach safe?", a: "Safety varies by neighborhood, as in many growing cities — researching the specific area is the key step." },
     ],
     internalLinks: ["cost-of-living-in-boynton-beach-florida", "who-should-move-to-boynton-beach-florida", "boynton-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2004,7 +2004,7 @@ Utilities and groceries track near the Florida average, and dining tends to be m
       { q: "Are there HOA fees in Boynton Beach?", a: "In west Boynton's gated and 55+ communities, yes — they fund clubhouses and amenities, and are generally reasonable for what's included." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-boynton-beach-florida", "best-neighborhoods-in-boynton-beach-florida", "boynton-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2039,7 +2039,7 @@ These show Boynton's quiet strengths — water and wetlands — that outshine it
       { q: "What can you do at the Boynton Harbor Marina?", a: "Book dive, snorkel, and fishing charters to the Gulf Stream reefs, grab fresh seafood, and enjoy the revitalized waterfront." },
     ],
     internalLinks: ["best-things-to-do-in-boynton-beach-florida", "local-guide-to-boynton-beach-florida", "what-its-really-like-living-in-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2073,7 +2073,7 @@ These show Boynton's quiet strengths — water and wetlands — that outshine it
       { q: "Which nearby town is the best value?", a: "Boynton Beach is widely seen as the value sweet spot of the south county, offering the same coast for less than Delray or Boca." },
     ],
     internalLinks: ["cost-of-living-in-boynton-beach-florida", "pros-and-cons-of-living-in-boynton-beach-florida", "what-its-really-like-living-in-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2090,7 +2090,7 @@ These show Boynton's quiet strengths — water and wetlands — that outshine it
     h1: "Best Places to Eat, Drink & Hang Out in Boynton Beach, Florida",
     body: `Boynton's dining shines on the water, with a growing downtown adding more.
 ## On the water
-The **Boynton Harbor Marina** area is the go-to for waterfront seafood and tiki-bar vibes — fresh catch, boats drifting by, and that classic Florida marina feel. It's the heart of Boynton's hangout scene.
+The **Boynton Harbor Marina** area is the go-to for waterfront seafood and tiki-bar vibes — and two local legends anchor the scene: **Two George's** and **Banana Boat**, both beloved for fresh catch, waterfront views, and that classic Florida marina feel. It's the heart of Boynton's hangout scene.
 
 ## Town Square & downtown
 The revitalized downtown is adding restaurants, cafés, and event spaces — a growing spot to grab a bite before a show at the amphitheater.
