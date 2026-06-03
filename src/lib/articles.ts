@@ -185,7 +185,7 @@ Juno Beach is **pricey** — barrier-island living commands a premium, and ocean
       { q: 'Does Juno Beach have a downtown?', a: 'Not really. It is mostly residential with a small commercial strip; for shopping and dining, locals head to nearby Donald Ross Village or Palm Beach Gardens.' },
     ],
     internalLinks: ['best-things-to-do-in-juno-beach-florida', 'best-neighborhoods-in-juno-beach-florida', 'who-should-move-to-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -224,7 +224,7 @@ Lean into the quiet. Find your stretch of sand, get a pier-walk habit, support t
       { q: 'Where do Juno Beach locals shop and dine?', a: 'The town itself has a small commercial strip; most locals head to nearby Donald Ross Village or Palm Beach Gardens for a wider range of restaurants and shops.' },
     ],
     internalLinks: ['what-its-really-like-living-in-juno-beach-florida', 'best-things-to-do-in-juno-beach-florida', 'hidden-gems-in-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -257,7 +257,7 @@ Lean into the quiet. Find your stretch of sand, get a pier-walk habit, support t
       { q: 'Are there affordable options in Juno Beach?', a: 'Relatively — beachside townhomes and older single-family homes are the more attainable entry points, though the town overall runs pricey.' },
     ],
     internalLinks: ['what-its-really-like-living-in-juno-beach-florida', 'cost-of-living-in-juno-beach-florida', 'who-should-move-to-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -292,7 +292,7 @@ In summer, go early to beat the heat and the afternoon storms.`,
       { q: 'Are Juno Beach beaches crowded?', a: 'Far less than most South Florida beaches. Juno is known for clean, wide, uncrowded sand.' },
     ],
     internalLinks: ['hidden-gems-in-juno-beach-florida', 'local-guide-to-juno-beach-florida', 'best-places-to-eat-drink-hang-out-in-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -330,7 +330,7 @@ In summer, go early to beat the heat and the afternoon storms.`,
       { q: 'Is Juno Beach affordable?', a: 'No — it is one of the pricier small towns in the area due to its barrier-island and oceanfront location.' },
     ],
     internalLinks: ['pros-and-cons-of-living-in-juno-beach-florida', 'cost-of-living-in-juno-beach-florida', 'what-its-really-like-living-in-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -368,7 +368,7 @@ In summer, go early to beat the heat and the afternoon storms.`,
       { q: 'Is Juno Beach safe?', a: 'It is known as a quiet, residential, low-key community.' },
     ],
     internalLinks: ['cost-of-living-in-juno-beach-florida', 'who-should-move-to-juno-beach-florida', 'juno-beach-vs-nearby-cities'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -404,7 +404,7 @@ Utilities and groceries track close to the Florida average; with limited in-town
       { q: 'Is Juno Beach more expensive than nearby towns?', a: 'Often, on a per-home basis, because of its small size and beachfront premium, though exact comparisons depend on the property type.' },
     ],
     internalLinks: ['pros-and-cons-of-living-in-juno-beach-florida', 'best-neighborhoods-in-juno-beach-florida', 'juno-beach-vs-nearby-cities'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -439,7 +439,7 @@ These are the free, low-key pleasures that make Juno Beach feel like home.`,
       { q: 'Where is the best quiet beach spot in Juno Beach?', a: 'Away from the pier, the north-end beach accesses tend to be the calmest and least crowded.' },
     ],
     internalLinks: ['best-things-to-do-in-juno-beach-florida', 'local-guide-to-juno-beach-florida', 'what-its-really-like-living-in-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -473,7 +473,7 @@ These are the free, low-key pleasures that make Juno Beach feel like home.`,
       { q: 'Which nearby town has the most amenities?', a: 'Palm Beach Gardens, with its malls, dining, golf, and healthcare, has by far the most amenities of the nearby towns.' },
     ],
     internalLinks: ['cost-of-living-in-juno-beach-florida', 'pros-and-cons-of-living-in-juno-beach-florida', 'what-its-really-like-living-in-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -491,6 +491,8 @@ These are the free, low-key pleasures that make Juno Beach feel like home.`,
     body: `Juno Beach is small, so its dining scene is intimate — but it has a couple of genuine local legends, with plenty more minutes away.
 ## Local legends
 - **Captain Charlie's Reef Grill** — a beloved, no-frills seafood gem that locals (and in-the-know foodies) swear by. Often the first name a Juno Beach local will give you.
+- **Kee Grill** — a local institution known for serious seafood and a warm, upscale-casual feel. A go-to for a special night out without driving far.
+- **Plaza La Mer** — a charming waterfront spot that locals prize for its setting and seafood — exactly the kind of hidden gem Juno Beach specializes in.
 - **Juno Beach Cafe** — a classic, casual breakfast-and-lunch spot to start the day.
 
 ## Just minutes away
@@ -7568,8 +7570,8 @@ In summer, the water is the place to be — cooling breezes off the Intracoastal
       { q: "Are there beaches near North Palm Beach?", a: "Yes — Singer Island's ocean beaches and MacArthur Beach State Park are just minutes away." },
     ],
     internalLinks: ["hidden-gems-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida"],
-    published: false,
-    updated: '2026-06-01',
+    published: true,
+    updated: '2026-06-03',
   },
   {
     slug: 'who-should-move-to-north-palm-beach-florida',
