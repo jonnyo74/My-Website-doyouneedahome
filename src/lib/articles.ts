@@ -533,7 +533,7 @@ West Palm has what most of the area lacks: a walkable core. **Clematis Street** 
 
 ## Culture and energy
 
-This is the area's culture hub — the **Kravis Center** for performing arts, the **Norton Museum of Art**, festivals like SunFest, and a downtown that actually has a night-time pulse. There's a growing finance scene too ("Wall Street South"), bringing new jobs and residents.
+This is the area's culture hub — the **Kravis Center** for performing arts, the **Norton Museum of Art**, and a downtown that actually has a night-time pulse. The social calendar runs all year: **Clematis by Night** on weeknights, the **Saturday GreenMarket** on the waterfront, the beloved **Sandi sand sculpture tree** during the holidays, and the **Fourth of July** celebrations on the water. There's a growing finance scene too ("Wall Street South"), bringing new jobs and residents.
 
 ## Range and character
 
@@ -572,7 +572,7 @@ It's a city, so expect more traffic, parking hassles downtown, and neighborhoods
 
 ## The local rhythm
 
-Locals walk to dinner downtown, catch the Saturday **waterfront GreenMarket**, ride the **Brightline** for a day trip to Miami, and pop over the bridge to the beach. Free events anchor the social calendar — Clematis by Night, festivals, and shows at the Kravis Center.
+Locals walk to dinner downtown, catch the Saturday **waterfront GreenMarket**, ride the **Brightline** for a day trip to Miami, and pop over the bridge to the beach. Free events anchor the social calendar — **Clematis by Night**, the **Saturday GreenMarket**, the **Sandi sand sculpture tree** at the holidays, **Fourth of July** on the waterfront, and shows at the Kravis Center.
 
 ## The unwritten rules
 
@@ -588,7 +588,7 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
       { q: "What are the historic neighborhoods in West Palm Beach?", a: "El Cid, Flamingo Park, Grandview Heights, and SoSo (South of Southern) are among the best-known historic districts, full of vintage Florida homes." },
     ],
     internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -625,7 +625,7 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
       { q: "Where are the more affordable neighborhoods in West Palm Beach?", a: "Areas like Palm Beach Lakes to the west and parts of Northwood tend to offer more attainable price points than downtown or the historic waterfront districts." },
     ],
     internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "who-should-move-to-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -650,7 +650,7 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
 
 **See the manatees.** **Manatee Lagoon** is a free spot to watch manatees gather in the warm water in winter — a local favorite with kids.
 
-**Catch a festival.** SunFest and other events bring music and crowds to the waterfront each year.
+**Enjoy the events calendar.** West Palm runs events all year — **Clematis by Night** on weeknights, the **Saturday GreenMarket** on the waterfront, the iconic **Sandi sand sculpture tree** at the holidays, and the **Fourth of July** on the water. There's always something on.
 
 **Take the Brightline.** Hop the train for an easy day trip to Miami or Fort Lauderdale — no car, no parking.
 
@@ -701,7 +701,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
       { q: "Is West Palm Beach on the beach?", a: "No — it sits on the Intracoastal, across the bridge from Palm Beach island's beaches, which are a short drive away." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "what-its-really-like-living-in-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
