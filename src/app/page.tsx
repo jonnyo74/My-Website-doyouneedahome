@@ -18,8 +18,8 @@ const stripPhotos = [
   { src: '/images/ibis/ibis-photos-001.png', label: 'Ibis G&CC' },
   { src: '/images/jupiter/jupiter-003.jpg', label: 'Jupiter' },
   { src: '/images/west-palm-beach/waterfront-024.jpg', label: 'West Palm Beach' },
-  { src: '/images/juno-beach/juno-beach-036.jpg', label: 'Juno Beach' },
-  { src: '/images/singer-island/singer-island-0001.jpeg', label: 'Singer Island' },
+  { src: '/images/singer-island/singer-island-sunset.jpg', label: 'Singer Island' },
+  { src: '/images/juno-beach/juno-beach-001.jpg', label: 'Juno Beach' },
 ]
 
 export default function Home() {
