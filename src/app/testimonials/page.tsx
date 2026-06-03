@@ -115,7 +115,9 @@ function AgentSection({
         </div>
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {reviews.map((r, i) => {
-            const photo = photos[(i * 2) % photos.length]
+            // Hash author name for deterministic but varied photo selection
+            const hash = r.author.split('').reduce((acc, c) => acc + c.charCodeAt(0), i)
+            const photo = photos[hash % photos.length]
             return (
               <div
                 key={r.author + r.quote}
