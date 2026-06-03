@@ -508,7 +508,7 @@ In Juno Beach, the real hangout is the **beach and the pier** — sunrise coffee
       { q: 'Where is the best place to watch the sunset in Juno Beach?', a: 'The Juno Beach Pier and the open stretches of beach are the local favorites for both sunrise and golden-hour views.' },
     ],
     internalLinks: ['best-things-to-do-in-juno-beach-florida', 'local-guide-to-juno-beach-florida', 'hidden-gems-in-juno-beach-florida'],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
@@ -740,7 +740,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
       { q: "Is West Palm Beach safe?", a: "Safety varies by neighborhood, which is common in any city — researching the specific area you are considering is the key step." },
     ],
     internalLinks: ["cost-of-living-in-west-palm-beach-florida", "who-should-move-to-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -776,7 +776,7 @@ As a city, dining, parking, and entertainment can add up, but you also get more 
       { q: "Why is home insurance a factor in West Palm Beach?", a: "Like all of South Florida, coastal location drives homeowners and wind/flood insurance costs; get quotes early when budgeting." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -813,7 +813,7 @@ These are the spots that make city living here feel like a community.`,
       { q: "What is Antique Row in West Palm Beach?", a: "A stretch of South Dixie Highway lined with antique shops, design stores, and a few local restaurants — a favorite for browsing and finds." },
     ],
     internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -847,7 +847,7 @@ These are the spots that make city living here feel like a community.`,
       { q: "Which nearby area is best for city living?", a: "West Palm Beach is the clear choice for downtown energy, walkability, arts, and nightlife." },
     ],
     internalLinks: ["cost-of-living-in-west-palm-beach-florida", "pros-and-cons-of-living-in-west-palm-beach-florida", "what-its-really-like-living-in-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -885,7 +885,7 @@ For a night out, downtown (Clematis + Rosemary Square) is the move; for low-key 
       { q: "Does West Palm Beach have good restaurants?", a: "Yes — as the area's urban hub, it has the deepest and most varied dining scene of the surrounding towns." },
     ],
     internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
