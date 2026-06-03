@@ -7531,7 +7531,7 @@ North Palm Beach is a great family town, and its neighborhoods cover a wide rang
       { q: "Are there waterfront condos in North Palm Beach?", a: "Yes — Old Port Cove offers Intracoastal-front condos with a marina and walking paths, popular with boaters and snowbirds." },
     ],
     internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-03',
   },
   {
@@ -7556,11 +7556,11 @@ North Palm Beach is a great family town, and its neighborhoods cover a wide rang
 
 **Enjoy Anchorage Park.** The village's hub for boat ramps, ball fields, a playground, and community events.
 
-**Stroll the marina.** Old Port Cove and the village marina are pleasant for a waterfront walk, a meal, or watching the boats.
+**The village marina.** A pleasant spot for a waterfront walk, a casual meal, or watching the boats drift by — the village's relaxed anchor.
 
 **Easy escapes.** Palm Beach Gardens' shopping and dining and downtown West Palm Beach are both a short drive when you want more.
 
-In summer, get on the water early to make the most of the morning, then settle into the club or a waterfront lunch when the afternoon heats up.`,
+In summer, the water is the place to be — cooling breezes off the Intracoastal make even the warmest days feel easy on the water.`,
     faqs: [
       { q: "What is there to do in North Palm Beach?", a: "Play the public Jack Nicklaus golf course at the village country club, boat and paddle from Anchorage Park, hit nearby Singer Island and MacArthur Beach State Park, enjoy the marina, and pop to Palm Beach Gardens or West Palm for more." },
       { q: "Is the North Palm Beach golf course open to the public?", a: "Yes — the village-owned North Palm Beach Country Club features a Jack Nicklaus–redesigned course open to the public, a rare perk." },
@@ -7609,8 +7609,8 @@ In summer, get on the water early to make the most of the morning, then settle i
       { q: "Is North Palm Beach or Jupiter better?", a: "Jupiter is a bigger beach town with more dining and energy; North Palm is a quieter, often more affordable Intracoastal boating village. It comes down to beach-town energy versus waterfront value and community." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
-    published: false,
-    updated: '2026-06-01',
+    published: true,
+    updated: '2026-06-03',
   },
   {
     slug: 'pros-and-cons-of-living-in-north-palm-beach-florida',
@@ -7725,8 +7725,8 @@ These low-key, often-free spots are the heart of village life in North Palm Beac
       { q: "What's the best nearby beach for North Palm Beach residents?", a: "MacArthur Beach State Park on Singer Island, minutes away, is a favorite for its snorkeling, nature, and uncrowded sand." },
     ],
     internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
-    published: false,
-    updated: '2026-06-01',
+    published: true,
+    updated: '2026-06-03',
   },
   {
     slug: 'north-palm-beach-vs-nearby-cities',
