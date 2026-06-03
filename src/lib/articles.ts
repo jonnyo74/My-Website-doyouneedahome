@@ -492,7 +492,7 @@ These are the free, low-key pleasures that make Juno Beach feel like home.`,
 ## Local legends
 - **Captain Charlie's Reef Grill** — a beloved, no-frills seafood gem that locals (and in-the-know foodies) swear by. Often the first name a Juno Beach local will give you.
 - **Kee Grill** — a local institution known for serious seafood and a warm, upscale-casual feel. A go-to for a special night out without driving far.
-- **Plaza La Mer** — a charming waterfront spot that locals prize for its setting and seafood — exactly the kind of hidden gem Juno Beach specializes in.
+- **Plaza La Mer** — a local shopping center with a mix of shops and eateries, convenient for everyday needs right in the area.
 - **Juno Beach Cafe** — a classic, casual breakfast-and-lunch spot to start the day.
 
 ## Just minutes away
