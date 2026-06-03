@@ -549,7 +549,7 @@ It's a city, so expect more traffic, parking hassles downtown, and neighborhoods
       { q: "Is West Palm Beach more affordable than nearby towns?", a: "Often, yes — it offers more housing variety, from luxury downtown condos to attainable historic homes, giving a wider range than the pricier beach towns." },
     ],
     internalLinks: ["best-neighborhoods-in-west-palm-beach-florida", "best-things-to-do-in-west-palm-beach-florida", "who-should-move-to-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -662,7 +662,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
       { q: "Can you take a train from West Palm Beach?", a: "Yes — the Brightline station downtown connects to Boca Raton, Fort Lauderdale, Miami, and Orlando." },
     ],
     internalLinks: ["hidden-gems-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
