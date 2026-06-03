@@ -101,7 +101,7 @@ export default function SellPage() {
             <div className="mt-8 grid gap-6 sm:grid-cols-3">
               {[
                 { stat: '3 Days', label: 'Average days to contract for recent listings' },
-                { stat: '500+', label: 'Homes sold across Palm Beach County' },
+                { stat: '500+', label: 'Homes sold by Premier Brokers International across Palm Beach County' },
                 { stat: '5★', label: 'Client rating across all reviews' },
               ].map(({ stat, label }) => (
                 <div key={stat} className="rounded-2xl bg-slate-50 p-6 text-center">
