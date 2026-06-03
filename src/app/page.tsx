@@ -30,7 +30,7 @@ export default function Home() {
         {/* Background photo */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/ibis/ibis-photos-001.png"
+          src="/images/olara/olara-hero.jpg"
           alt="Palm Beach County luxury real estate"
           className="absolute inset-0 h-full w-full object-cover opacity-60"
         />
