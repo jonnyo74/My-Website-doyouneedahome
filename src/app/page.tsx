@@ -32,13 +32,13 @@ export default function Home() {
         <img
           src="/images/olara/olara-hero.jpg"
           alt="Palm Beach County luxury real estate"
-          className="absolute inset-0 h-full w-full object-cover opacity-60"
+          className="absolute inset-0 h-full w-full object-cover opacity-85"
         />
-        {/* Gradient overlay — darker on left for legibility, fades right */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+        {/* Gradient overlay — lighter so rendering shows through */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-8 sm:py-28">
+        <div className="relative mx-auto max-w-7xl px-6 pt-28 pb-20 sm:px-8 sm:pt-36 sm:pb-28">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div className="space-y-8">
               <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-400">
