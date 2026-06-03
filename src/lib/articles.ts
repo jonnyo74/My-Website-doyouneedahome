@@ -2108,7 +2108,7 @@ Boynton is laid-back and value-friendly — waterfront seafood and casual local 
       { q: "Is dining in Boynton Beach affordable?", a: "Generally yes — it tends to be more affordable than upscale neighbors like Boca Raton, fitting the city's value-minded character." },
     ],
     internalLinks: ["best-things-to-do-in-boynton-beach-florida", "local-guide-to-boynton-beach-florida", "hidden-gems-in-boynton-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
@@ -2149,7 +2149,7 @@ It's eclectic and actively revitalizing — more characterful and varied than th
       { q: "Is Lake Worth Beach walkable?", a: "Its downtown along Lake and Lucerne Avenues is genuinely walkable, with shops, restaurants, and nightlife close together." },
     ],
     internalLinks: ["best-neighborhoods-in-lake-worth-beach-florida", "best-things-to-do-in-lake-worth-beach-florida", "who-should-move-to-lake-worth-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2188,7 +2188,7 @@ Find your bungalow block or beachside spot, support the local art and music scen
       { q: "What are the historic neighborhoods in Lake Worth Beach?", a: "The downtown is ringed by historic districts of colorful vintage bungalows and cottages, prized for their charm and walkability." },
     ],
     internalLinks: ["what-its-really-like-living-in-lake-worth-beach-florida", "best-things-to-do-in-lake-worth-beach-florida", "hidden-gems-in-lake-worth-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
