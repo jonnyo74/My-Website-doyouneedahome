@@ -1006,6 +1006,8 @@ The soul of Delray is **Atlantic Avenue** — a long, walkable main street runni
 
 This is a creative, lively town. The **Pineapple Grove** arts district, **Old School Square**, murals, and the famous **Morikami Museum and Japanese Gardens** give it real culture. The **Delray Municipal Beach** is wide and beautiful. Nightlife actually exists here — Delray draws a younger, more social crowd than its buttoned-up neighbors.
 
+And perhaps most surprising: world-class nature. **Wakodahatchee Wetlands** and **Green Cay Wetlands** are two of the best wildlife boardwalk experiences in Florida — herons, turtles, gators, and nesting birds, right here in the city. They're a side of Delray most newcomers don't see coming.
+
 ## Two Delrays
 
 There's the lively coastal downtown — pricey, walkable, full of life — and then there's **west Delray**, a sprawl of gated golf and 55+ communities that's quieter and more attainable. Same city, two very different lifestyles.
