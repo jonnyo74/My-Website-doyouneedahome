@@ -1022,7 +1022,7 @@ Downtown gets busy, especially in season — crowds, parking, and noise are real
       { q: "Is Delray Beach good for young people?", a: "Yes — it has more nightlife, walkability, and social energy than most nearby towns, drawing a younger crowd alongside families and retirees." },
     ],
     internalLinks: ["best-neighborhoods-in-delray-beach-florida", "best-things-to-do-in-delray-beach-florida", "who-should-move-to-delray-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1061,7 +1061,7 @@ Pick your Delray — walkable-downtown energy or quieter west-side calm — and 
       { q: "What is Pineapple Grove?", a: "Delray's downtown arts district just north of Atlantic Avenue, known for galleries, murals, shops, and a creative vibe." },
     ],
     internalLinks: ["what-its-really-like-living-in-delray-beach-florida", "best-things-to-do-in-delray-beach-florida", "hidden-gems-in-delray-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1098,7 +1098,7 @@ Pick your Delray — walkable-downtown energy or quieter west-side calm — and 
       { q: "Can you live on the water in Delray Beach?", a: "Yes — the Marina District offers historic Intracoastal homes, and Tropic Isle has canal-front homes with boating access." },
     ],
     internalLinks: ["what-its-really-like-living-in-delray-beach-florida", "cost-of-living-in-delray-beach-florida", "who-should-move-to-delray-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1121,7 +1121,7 @@ Pick your Delray — walkable-downtown energy or quieter west-side calm — and 
 
 **Visit the Morikami.** The **Morikami Museum and Japanese Gardens** is a serene, world-class attraction west of town — beautiful gardens, tea ceremonies, and festivals.
 
-**Walk Wakodahatchee Wetlands.** A boardwalk over wetlands teeming with birds, turtles, and gators — one of the best wildlife spots in the county, and a local favorite.
+**Walk the wetlands.** **Wakodahatchee Wetlands** and **Green Cay Wetlands** are two of the best wildlife boardwalk experiences in the county — herons, turtles, gators, and nesting birds. A local favorite and endlessly surprising.
 
 **Explore the arts.** Pineapple Grove's galleries and murals, Old School Square, and the Cornell Art Museum anchor a real creative scene.
 
@@ -1174,7 +1174,7 @@ In summer, do outdoor stuff early and let the Avenue's covered restaurants and t
       { q: "Is Delray Beach too busy?", a: "Downtown can be busy, especially in season. Those wanting quiet often choose west Delray or a neighboring town while still enjoying the Avenue when they like." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-delray-beach-florida", "cost-of-living-in-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1213,7 +1213,7 @@ In summer, do outdoor stuff early and let the Avenue's covered restaurants and t
       { q: "Is Delray Beach a party town?", a: "Atlantic Avenue has a lively nightlife scene, but the city also has quiet residential areas and family-friendly west-side communities." },
     ],
     internalLinks: ["cost-of-living-in-delray-beach-florida", "who-should-move-to-delray-beach-florida", "delray-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1249,7 +1249,7 @@ Downtown dining and going out can add up given the scene; utilities and grocerie
       { q: "Why is insurance a factor in Delray Beach?", a: "Coastal location drives homeowners and wind/flood insurance costs, especially closer to the beach; get quotes early." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-delray-beach-florida", "best-neighborhoods-in-delray-beach-florida", "delray-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1266,7 +1266,7 @@ Downtown dining and going out can add up given the scene; utilities and grocerie
     h1: "Hidden Gems in Delray Beach, Florida",
     body: `Atlantic Avenue gets all the attention. Locals know Delray's quieter treasures.
 
-**Wakodahatchee Wetlands.** A boardwalk over wetlands packed with birds, turtles, and gators — one of the best (and cheapest) nature experiences in the county.
+**Wakodahatchee Wetlands & Green Cay Wetlands.** Two boardwalks over restored wetlands packed with herons, turtles, gators, and nesting birds — among the best (and cheapest) nature experiences in the county. Green Cay is just up the road and equally worth it.
 
 **The Morikami's quiet hours.** Visit the Japanese gardens early or midweek and you'll have the serene paths nearly to yourself.
 
@@ -1320,7 +1320,7 @@ These are the spots that show Delray is more than its nightlife.`,
       { q: "Which town has the best downtown?", a: "Delray's Atlantic Avenue and West Palm Beach's Clematis/Rosemary Square are the standouts — Delray for a walkable beach-village feel, West Palm for big-city scale." },
     ],
     internalLinks: ["cost-of-living-in-delray-beach-florida", "pros-and-cons-of-living-in-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -1355,7 +1355,7 @@ Delray is a *go-out* town — happy hours, live music, and late dinners are the 
       { q: "Is there beachside dining in Delray Beach?", a: "Yes — there are casual restaurants near the Delray Municipal Beach for a relaxed meal with an ocean view." },
     ],
     internalLinks: ["best-things-to-do-in-delray-beach-florida", "local-guide-to-delray-beach-florida", "hidden-gems-in-delray-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
