@@ -22,7 +22,7 @@ function searchUrl(city: string, opts: {
   propertyTypes?: string[]
 } = {}) {
   const c = encodeURIComponent(city)
-  let url = `${SEARCH_URL}/search?area=${c}&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
+  let url = `${SEARCH_URL}/search?area=${c}&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
   if (opts.minPrice) url += `&s[minPrice]=${opts.minPrice}`
   if (opts.maxPrice) url += `&s[maxPrice]=${opts.maxPrice}`
   if (opts.amenities) opts.amenities.forEach((a, i) => { url += `&s[amenities][${i}]=${encodeURIComponent(a)}` })
@@ -237,6 +237,42 @@ export default async function CommunityPage({ params }: Props) {
         </section>
       )}
 
+      {/* ── Live Listings ─────────────────────────────────────────── */}
+      <section className="px-6 pt-14 pb-2 sm:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Live MLS Data</p>
+              <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
+                Homes for Sale in {community.name}
+              </h2>
+            </div>
+            <a
+              href={searchUrl(searchName, { minPrice: 600000 })}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
+            >
+              View all listings →
+            </a>
+          </div>
+          <YlopoResultsWidget
+            city={isCity ? community.name : (parentCity?.name ?? community.searchCity ?? community.name)}
+            neighborhood={!isCity ? community.name : undefined}
+          />
+
+          {community.savedSearches && community.savedSearches.length > 0 && (
+            <div className="mt-8">
+              <CitySearchButtons
+                eyebrow="Start Your Search"
+                heading={`Popular Searches in ${community.name}`}
+                searches={community.savedSearches}
+              />
+            </div>
+          )}
+        </div>
+      </section>
+
       {/* ── Photo Gallery ──────────────────────────────────────────── */}
       {galleryPhotos.length > 0 && (
         <section className="px-6 pt-12 sm:px-8">
@@ -301,39 +337,6 @@ export default async function CommunityPage({ params }: Props) {
           </div>
         </section>
       )}
-
-      {/* ── Live Listings ─────────────────────────────────────────── */}
-      {community.region !== 'Treasure Coast' && <section className="px-6 pt-14 pb-2 sm:px-8">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Live MLS Data</p>
-              <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
-                Homes for Sale in {community.name}
-              </h2>
-            </div>
-            <a
-              href={searchUrl(searchName, { minPrice: 600000 })}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
-            >
-              View all listings →
-            </a>
-          </div>
-          <YlopoResultsWidget city={community.name} />
-
-          {community.savedSearches && community.savedSearches.length > 0 && (
-            <div className="mt-8">
-              <CitySearchButtons
-                eyebrow="Start Your Search"
-                heading={`Popular Searches in ${community.name}`}
-                searches={community.savedSearches}
-              />
-            </div>
-          )}
-        </div>
-      </section>}
 
       {/* ── Main content ───────────────────────────────────────────── */}
       <section className="px-6 py-16 sm:px-8">
@@ -707,18 +710,16 @@ export default async function CommunityPage({ params }: Props) {
                 quote={christineOnTop ? quotes.johnQuote : quotes.christineQuote}
               />
 
-              {/* Market Trends — Palm Beach County only (Treasure Coast not in MLS coverage) */}
-              {community.region !== 'Treasure Coast' && (
+              {/* Market Trends */}
               <div>
                 <h2 className="font-serif text-2xl font-semibold text-slate-900">
                   Market Trends
                 </h2>
                 <p className="mt-2 text-sm text-slate-500">Live market data for {community.name}, FL.</p>
                 <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
-                  <YlopoMarketTrendsWidget city={community.name} />
+                  <YlopoMarketTrendsWidget city={isCity ? community.name : (parentCity?.name ?? community.name)} />
                 </div>
               </div>
-              )}
 
               {/* Parent city link (neighborhood pages only) */}
               {parentCity && (

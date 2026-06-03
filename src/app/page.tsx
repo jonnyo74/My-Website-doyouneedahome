@@ -15,11 +15,11 @@ const testimonials = [
 ]
 
 const stripPhotos = [
-  { src: '/public/Ibis Photos/Covershot with Sunrise2.jpg', label: 'Ibis G&CC' },
-  { src: '/public/Singer Island/05CB8C4D-90B8-4D71-8600-712B25BD5CFC.jpg', label: 'Singer Island' },
-  { src: '/public/West Palm/IMG_1352.JPG', label: 'West Palm Beach' },
-  { src: '/public/Jupiter/IMG_2578.JPG', label: 'Jupiter' },
-  { src: '/public/Mirasol/IMG_0547.JPEG', label: 'Mirasol' },
+  { src: '/images/ibis/ibis-photos-001.png', label: 'Ibis G&CC' },
+  { src: '/images/jupiter/jupiter-003.jpg', label: 'Jupiter' },
+  { src: '/images/west-palm-beach/waterfront-024.jpg', label: 'West Palm Beach' },
+  { src: '/images/juno-beach/juno-beach-036.jpg', label: 'Juno Beach' },
+  { src: '/images/singer-island/singer-island-0001.jpeg', label: 'Singer Island' },
 ]
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
         {/* Background photo */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/public/Ibis Photos/Covershot with Sunrise2.jpg"
+          src="/images/ibis/ibis-photos-001.png"
           alt="Palm Beach County luxury real estate"
           className="absolute inset-0 h-full w-full object-cover opacity-60"
         />
