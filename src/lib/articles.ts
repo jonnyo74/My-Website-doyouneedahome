@@ -4473,7 +4473,7 @@ Pick your spot — oceanfront tower or a Palm Beach Shores house — get in the 
     internalLinks: ["what-its-really-like-living-in-singer-island-florida", "cost-of-living-in-singer-island-florida", "who-should-move-to-singer-island-florida"],
     funFact: "Palm Beach Shores is its own incorporated municipality with its own mayor and commission — it's not just a neighborhood name. It's a tiny town of about 1,200 residents inside Singer Island, which is why it has a distinctly different feel from the condo towers to the north.",
     author: 'john',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4512,7 +4512,7 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
     internalLinks: ["hidden-gems-in-singer-island-florida", "local-guide-to-singer-island-florida", "best-places-to-eat-drink-hang-out-in-singer-island-florida"],
     funFact: "The Blue Heron Bridge is consistently ranked in the top 10 shore-dive sites in the world — not Florida, the world. The secret is the tidal flow: dive it during slack tide around a full or new moon and the visibility is extraordinary. Most people driving past have no idea what's a few feet below them.",
     author: 'christine',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4554,7 +4554,7 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
     internalLinks: ["pros-and-cons-of-living-in-singer-island-florida", "cost-of-living-in-singer-island-florida", "what-its-really-like-living-in-singer-island-florida"],
     funFact: "A large share of Singer Island residents are not full-time — many condos are snowbird homes or short-term rentals. That gives the island a resort energy year-round but means the community has a more transient character than a typical neighborhood. If you want deep roots, buy in Palm Beach Shores.",
     author: 'john',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4596,7 +4596,7 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
     internalLinks: ["cost-of-living-in-singer-island-florida", "who-should-move-to-singer-island-florida", "singer-island-vs-nearby-cities"],
     funFact: "HOA fees on direct-oceanfront towers on Singer Island can run $1,500–$3,000+ per month in some buildings — which often surprises buyers focused only on the purchase price. Always model the true monthly cost including HOA, insurance, and taxes before falling in love with an oceanfront address.",
     author: 'christine',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
