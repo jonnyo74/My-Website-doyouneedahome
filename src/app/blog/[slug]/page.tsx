@@ -12,6 +12,7 @@ import CitySearchButtons from '@/components/CitySearchButtons'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
+import YlopoInit from '@/components/YlopoInit'
 
 const SITE = 'https://doyouneedahome.com'
 const PHONE = { display: '(561) 786-3630', href: 'tel:+15617863630' }
@@ -119,6 +120,9 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Single Ylopo script initializer — fires once on mount, picks up all widget divs */}
+      <YlopoInit city={article.cityName} />
 
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
         {/* Body */}
