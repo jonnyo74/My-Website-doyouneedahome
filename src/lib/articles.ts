@@ -1435,8 +1435,8 @@ Decide east or west first — coastal and walkable, or gated golf value — and 
       { q: "What is Mizner Park?", a: "An upscale open-air district in downtown Boca with shops, restaurants, the Boca Raton Museum of Art, and an amphitheater — the polished social heart of the city." },
     ],
     internalLinks: ["what-its-really-like-living-in-boca-raton-florida", "best-neighborhoods-in-boca-raton-florida", "hidden-gems-in-boca-raton-florida"],
-    published: false,
-    updated: '2026-06-01',
+    published: true,
+    updated: '2026-06-04',
   },
   {
     slug: 'best-neighborhoods-in-boca-raton-florida',
