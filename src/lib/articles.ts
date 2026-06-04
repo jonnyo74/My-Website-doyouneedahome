@@ -2223,7 +2223,7 @@ Find your bungalow block or beachside spot, support the local art and music scen
       { q: "Where is the most affordable area of Lake Worth Beach?", a: "The more up-and-coming streets away from the beach and historic core tend to offer the most attainable prices." },
     ],
     internalLinks: ["what-its-really-like-living-in-lake-worth-beach-florida", "cost-of-living-in-lake-worth-beach-florida", "who-should-move-to-lake-worth-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2260,7 +2260,7 @@ In summer, do the beach and lagoon early and let the downtown's galleries, bars,
       { q: "Is Lake Worth Beach good for art lovers?", a: "Very — it has a strong gallery and mural scene, the Cultural Council, and the famous annual Street Painting Festival." },
     ],
     internalLinks: ["hidden-gems-in-lake-worth-beach-florida", "local-guide-to-lake-worth-beach-florida", "best-places-to-eat-drink-hang-out-in-lake-worth-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2299,7 +2299,7 @@ In summer, do the beach and lagoon early and let the downtown's galleries, bars,
       { q: "Is Lake Worth Beach safe?", a: "Like any gentrifying town, it varies block to block — researching the specific neighborhood is the key step." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-lake-worth-beach-florida", "cost-of-living-in-lake-worth-beach-florida", "what-its-really-like-living-in-lake-worth-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2338,7 +2338,7 @@ In summer, do the beach and lagoon early and let the downtown's galleries, bars,
       { q: "Is Lake Worth Beach gentrifying?", a: "Yes — it has been steadily revitalizing, which adds energy and amenities but also pushes prices up over time." },
     ],
     internalLinks: ["cost-of-living-in-lake-worth-beach-florida", "who-should-move-to-lake-worth-beach-florida", "lake-worth-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2374,7 +2374,7 @@ Dining and going out tend to be more affordable and eclectic than in upscale nei
       { q: "Is Lake Worth Beach cheaper than Delray Beach?", a: "Generally yes — it tends to offer more character for the money than pricier Delray." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-lake-worth-beach-florida", "best-neighborhoods-in-lake-worth-beach-florida", "lake-worth-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2402,6 +2402,8 @@ Dining and going out tend to be more affordable and eclectic than in upscale nei
 **The bungalow streets.** Just strolling the colorful historic neighborhoods is one of the town's quiet pleasures.
 
 **The Lake Worth Lagoon itself.** Underrated for kayaking, paddleboarding, and sunset views away from the ocean crowds.
+
+**The full moon beach party.** Every month, Lake Worth Beach holds a full moon party on the beach — bonfire, community, and that quintessentially free-spirited Lake Worth Beach energy. Exactly the kind of thing that doesn't happen in Boca.
 
 These are the free, soulful experiences that make people fall for this town.`,
     faqs: [
@@ -2445,7 +2447,7 @@ These are the free, soulful experiences that make people fall for this town.`,
       { q: "Which nearby town has the most character?", a: "Lake Worth Beach is widely considered the most bohemian and characterful of the nearby towns." },
     ],
     internalLinks: ["cost-of-living-in-lake-worth-beach-florida", "pros-and-cons-of-living-in-lake-worth-beach-florida", "what-its-really-like-living-in-lake-worth-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2477,7 +2479,7 @@ This is a come-as-you-are, art-and-music town — happy hours, indie venues, and
       { q: "Is the food scene in Lake Worth Beach diverse?", a: "Very — the downtown reflects the town's diversity with global flavors from Latin and Caribbean to Italian, vegan, and more." },
     ],
     internalLinks: ["best-things-to-do-in-lake-worth-beach-florida", "local-guide-to-lake-worth-beach-florida", "hidden-gems-in-lake-worth-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
