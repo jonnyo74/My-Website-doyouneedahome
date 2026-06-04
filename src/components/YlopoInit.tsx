@@ -2,26 +2,26 @@
 
 import { useEffect } from 'react'
 
+const SCRIPT_SRC = 'https://search.doyouneedahome.com/build/js/widgets-1.0.0.js'
+
 /**
- * Fires once per page mount and reloads the Ylopo widget script so that
- * widgets rendered by React (market trends, results) are picked up after
- * client-side navigation — when the layout script has already run and the
- * widget divs didn't yet exist.
+ * Loads (or reloads) the Ylopo widget script once per city change so that
+ * market-trends and results widget divs rendered by React are picked up.
  *
- * Place this once on the blog article page. Individual widget components
- * should NOT reload the script themselves.
+ * Intentionally no cleanup — removing the script on unmount was causing it to
+ * disappear permanently after the first client-side navigation away, because
+ * the layout-level Script no longer re-injects it in App Router.
  */
 export default function YlopoInit({ city }: { city: string }) {
   useEffect(() => {
     ;(window as any).YLOPO_WIDGETS = { domain: 'search.doyouneedahome.com' }
-    document.querySelectorAll('script[src*="widgets-1.0.0"]').forEach(s => s.remove())
+
+    // Remove any stale copy so the new one re-runs widget discovery on load.
+    document.querySelectorAll(`script[src="${SCRIPT_SRC}"]`).forEach(s => s.remove())
+
     const script = document.createElement('script')
-    script.src = '//search.doyouneedahome.com/build/js/widgets-1.0.0.js'
-    script.async = true
+    script.src = SCRIPT_SRC
     document.body.appendChild(script)
-    return () => {
-      document.querySelectorAll('script[src*="widgets-1.0.0"]').forEach(s => s.remove())
-    }
   }, [city])
 
   return null
