@@ -6,10 +6,12 @@ import {
   getLinkedNeighborhoods,
   getParentCity,
   cities,
+  communities,
 } from '@/lib/communities'
 import { getAgentQuotes } from '@/lib/agentQuotes'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
+import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
 
@@ -256,6 +258,7 @@ export default async function CommunityPage({ params }: Props) {
               View all listings →
             </a>
           </div>
+          <YlopoInit city={isCity ? community.name : (parentCity?.name ?? community.searchCity ?? community.name)} />
           <YlopoResultsWidget
             city={isCity ? community.name : (parentCity?.name ?? community.searchCity ?? community.name)}
             neighborhood={!isCity ? community.name : undefined}
@@ -270,6 +273,41 @@ export default async function CommunityPage({ params }: Props) {
               />
             </div>
           )}
+
+          {/* Similar Neighborhoods in Abacoa */}
+          {community.similarNeighborhoods && community.similarNeighborhoods.length > 0 && (() => {
+            const similar = community.similarNeighborhoods!
+              .map(s => communities.find(c => c.slug === s))
+              .filter(Boolean) as import('@/lib/communities').CommunityItem[]
+            return similar.length > 0 ? (
+              <div className="mt-10">
+                <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Similar Pricing in Abacoa</p>
+                <h3 className="mt-1 font-serif text-xl font-semibold text-slate-900">
+                  Other Abacoa Neighborhoods to Consider
+                </h3>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  {similar.map(n => (
+                    <Link
+                      key={n.slug}
+                      href={`/communities/${n.slug}`}
+                      className="inline-flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-3.5 shadow-card transition hover:-translate-y-0.5 hover:border-gold-500/40 hover:shadow-card-hover"
+                    >
+                      <span className="text-sm font-semibold text-slate-900">{n.name}</span>
+                      {n.priceRanges?.[0] && (
+                        <span className="mt-0.5 text-xs font-medium text-gold-600">{n.priceRanges[0].range}</span>
+                      )}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/communities/abacoa"
+                    className="inline-flex items-center rounded-2xl border border-slate-200 bg-slate-50 px-5 py-3.5 text-sm font-semibold text-slate-500 transition hover:border-gold-500/40 hover:text-gold-600"
+                  >
+                    All of Abacoa →
+                  </Link>
+                </div>
+              </div>
+            ) : null
+          })()}
         </div>
       </section>
 
