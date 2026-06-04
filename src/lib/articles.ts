@@ -4591,9 +4591,9 @@ The south end, **Palm Beach Shores**, adds a small-town, single-family flavor an
 
 ## The trade-offs
 
-It's condo-heavy, so **HOA fees and oceanfront insurance run high**, and there's limited single-family housing. The island connects by a single bridge (traffic in season), and the surrounding Riviera Beach mainland varies block to block. But for true oceanfront living with a resort lifestyle, Singer Island delivers what few places can.`,
+It's condo-heavy, so **HOA fees and oceanfront insurance run high**, and there's limited single-family housing. Two bridges connect the island to the mainland — the south bridge to Riviera Beach and a north bridge out to PGA Boulevard and Palm Beach Gardens (minutes away). The surrounding Riviera Beach mainland varies block to block, but **Palm Beach Gardens** and its shops, restaurants, and amenities are close to the north. For true oceanfront living with a resort lifestyle, Singer Island delivers what few places can.`,
     faqs: [
-      { q: "Is Singer Island a good place to live?", a: "Yes, especially for people who want oceanfront, lock-and-leave condo living with a resort lifestyle and beautiful beaches. The trade-offs are high HOA fees and insurance, limited single-family housing, and a single bridge on and off the island." },
+      { q: "Is Singer Island a good place to live?", a: "Yes, especially for people who want oceanfront, lock-and-leave condo living with a resort lifestyle and beautiful beaches. The trade-offs are high HOA fees and insurance and limited single-family housing. Two bridges connect to the mainland — the south bridge to Riviera Beach and a north bridge to PGA Blvd and Palm Beach Gardens." },
       { q: "What is Singer Island known for?", a: "Oceanfront high-rise condo living, wide beaches, John D. MacArthur Beach State Park, nearby Peanut Island, and the world-class Blue Heron Bridge dive site." },
       { q: "Is Singer Island all condos?", a: "Mostly — it's known for oceanfront condo towers, though the south end (Palm Beach Shores) offers single-family homes and a small-town feel." },
       { q: "Is Singer Island expensive?", a: "Oceanfront condos command a premium, and HOA fees and insurance are high, though older condos and Palm Beach Shores offer somewhat more attainable options." },
@@ -4620,7 +4620,7 @@ It's condo-heavy, so **HOA fees and oceanfront insurance run high**, and there's
 
 ## Get your bearings
 
-The island runs north-south along **Ocean Avenue / A1A**. The **north end** holds John D. MacArthur Beach State Park and quieter nature; the **central stretch** is oceanfront condo towers and the public beach; the **south end** is **Palm Beach Shores** with single-family homes and the Sailfish Marina. A single bridge connects to Riviera Beach and the mainland, with **Peanut Island** just off the south tip.
+The island runs north-south along **Ocean Avenue / A1A**. The **north end** holds John D. MacArthur Beach State Park and quieter nature; the **central stretch** is oceanfront condo towers and the public beach; the **south end** is **Palm Beach Shores** with single-family homes and the Sailfish Marina. Two bridges connect to the mainland — the south bridge to Riviera Beach, and a north bridge that takes you straight to **PGA Boulevard and Palm Beach Gardens**, just minutes away. **Peanut Island** sits just off the south tip.
 
 ## The local rhythm
 
@@ -4628,19 +4628,19 @@ Beach mornings, snorkeling or diving (the Blue Heron Bridge is legendary), kayak
 
 ## The unwritten rules
 
-It's a single-bridge island — plan around season traffic. Condo life means HOA rules and fees, so know your building. And treat the beaches and the nature park with care; locals protect them.
+Two bridges connect the island to the mainland — the south bridge to Riviera Beach and a north bridge out to PGA Boulevard and Palm Beach Gardens. Plan around season traffic regardless of which way you go. Condo life means HOA rules and fees, so know your building. And treat the beaches and the nature park with care; locals protect them.
 
 ## Settling in
 
 Pick your spot — oceanfront tower or a Palm Beach Shores house — get in the water, and enjoy the resort pace with the city minutes away.`,
     faqs: [
       { q: "What do locals do on Singer Island?", a: "Hit the beach, snorkel and dive (the Blue Heron Bridge is world-famous), kayak the MacArthur Beach lagoon, boat to Peanut Island, enjoy the Sailfish Marina, and pop to West Palm Beach or Palm Beach for shopping and nightlife." },
-      { q: "How do you get to Singer Island?", a: "A single bridge connects Singer Island to Riviera Beach and the mainland, so locals plan around seasonal traffic." },
+      { q: "How do you get to Singer Island?", a: "Two bridges connect Singer Island to the mainland — the south bridge to Riviera Beach, and a north bridge to PGA Boulevard and Palm Beach Gardens. Locals plan around seasonal traffic on both." },
       { q: "What is Palm Beach Shores?", a: "A small town on the south end of Singer Island with single-family homes, a more low-key feel, and the Sailfish Marina." },
       { q: "Is Singer Island walkable?", a: "Within the beach-and-condo core you can walk to the sand and some spots, but it's largely a car-and-boat island, with the mainland a short drive over the bridge." },
     ],
     internalLinks: ["what-its-really-like-living-in-singer-island-florida", "best-things-to-do-in-singer-island-florida", "hidden-gems-in-singer-island-florida"],
-    funFact: "The single bridge connecting Singer Island to Riviera Beach isn't just a commute detail — it's what keeps the island feeling like an island. Locals plan their entire day around bridge traffic in season, and it genuinely shapes the culture of life out there.",
+    funFact: "Singer Island has two bridges to the mainland — a south bridge to Riviera Beach and a north bridge to PGA Boulevard and Palm Beach Gardens — but the island still feels like an island. Locals plan their day around bridge traffic in season, and that rhythm genuinely shapes the culture of life out there.",
     author: 'christine',
     published: false,
     updated: '2026-06-01',
@@ -4901,7 +4901,11 @@ These water wonders are why island locals never want to leave.`,
 
 **Singer Island vs West Palm Beach.** West Palm is the urban mainland with a downtown and nightlife; Singer Island is the beach. Choose West Palm for city life; Singer Island for the sand and water (with the city minutes away).
 
-**How to choose:** rank **oceanfront condo living** (Singer Island), **low-rise beach town** (Jupiter), **quiet beach** (Juno), **prestige** (Palm Beach), or **city** (West Palm).`,
+**Singer Island vs Palm Beach Gardens.** Palm Beach Gardens is an inland master-planned city with upscale shopping (The Gardens Mall), golf, and a polished suburban lifestyle; Singer Island is oceanfront condo living on the beach. The north bridge from Singer Island drops you straight onto PGA Boulevard — so you can have the beach and be in PBG in minutes. Choose PBG for suburban space and amenities; Singer Island for oceanfront living with PBG close.
+
+**Singer Island vs North Palm Beach.** North Palm Beach is a quiet, affluent waterfront town on the Intracoastal — single-family homes, a community pool and marina, and a low-key pace. Singer Island is higher-density oceanfront condo living. Choose North Palm Beach for a house on the water in a quiet village; Singer Island for the ocean and the condo lifestyle.
+
+**How to choose:** rank **oceanfront condo living** (Singer Island), **low-rise beach town** (Jupiter), **quiet beach** (Juno), **prestige** (Palm Beach), **city** (West Palm), **suburban amenities** (Palm Beach Gardens), or **quiet waterfront village** (North Palm Beach).`,
     faqs: [
       { q: "Singer Island or Jupiter — which is better?", a: "Jupiter is a low-rise beach town with single-family homes and a funky feel; Singer Island is oceanfront condo towers with a resort vibe. It depends on whether you want a beach-town house or to live on the ocean in a condo." },
       { q: "Singer Island vs Juno Beach?", a: "Juno is low-rise, quiet, and residential; Singer Island is built-up, high-rise, and resort-like with more energy." },
