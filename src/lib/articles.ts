@@ -2894,7 +2894,7 @@ It's inland, so there's no beach (the coast is ~30 minutes), it's car-dependent,
       { q: "Is Royal Palm Beach on the beach?", a: "No — it's an inland village roughly a 30-minute drive from the coast." },
     ],
     internalLinks: ["best-neighborhoods-in-royal-palm-beach-florida", "best-things-to-do-in-royal-palm-beach-florida", "who-should-move-to-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2933,7 +2933,7 @@ Find a family neighborhood that fits your budget, make Commons Park your backyar
       { q: "Is Royal Palm Beach close to Wellington?", a: "Yes — they're adjacent, so RPB residents easily use Wellington's shopping, dining, and equestrian attractions." },
     ],
     internalLinks: ["what-its-really-like-living-in-royal-palm-beach-florida", "best-things-to-do-in-royal-palm-beach-florida", "hidden-gems-in-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -2966,7 +2966,7 @@ Find a family neighborhood that fits your budget, make Commons Park your backyar
       { q: "Are there gated communities in Royal Palm Beach?", a: "Yes — communities like Victoria Grove and Saratoga offer gated, amenity-equipped family living." },
     ],
     internalLinks: ["what-its-really-like-living-in-royal-palm-beach-florida", "cost-of-living-in-royal-palm-beach-florida", "who-should-move-to-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3001,7 +3001,7 @@ In summer, hit the park and trails early and enjoy the splash pad and shaded are
       { q: "Is Royal Palm Beach good for families?", a: "Very — its parks, recreation programs, and family neighborhoods make it especially family-friendly." },
     ],
     internalLinks: ["hidden-gems-in-royal-palm-beach-florida", "local-guide-to-royal-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3040,7 +3040,7 @@ In summer, hit the park and trails early and enjoy the splash pad and shaded are
       { q: "Is Royal Palm Beach or Wellington better?", a: "Royal Palm Beach is more affordable with a similar family feel; Wellington has more sought-after schools and the equestrian scene. It comes down to value versus schools and amenities." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-royal-palm-beach-florida", "cost-of-living-in-royal-palm-beach-florida", "what-its-really-like-living-in-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3079,7 +3079,7 @@ In summer, hit the park and trails early and enjoy the splash pad and shaded are
       { q: "Is Royal Palm Beach safe?", a: "It's generally regarded as a quiet, family-oriented suburban village, though as always it's wise to research specific neighborhoods." },
     ],
     internalLinks: ["cost-of-living-in-royal-palm-beach-florida", "who-should-move-to-royal-palm-beach-florida", "royal-palm-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3118,7 +3118,7 @@ Utilities and groceries track near the Florida average, and dining leans casual 
       { q: "Are there HOA fees in Royal Palm Beach?", a: "Gated communities have HOA dues for amenities, while some established non-gated neighborhoods have little or none." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-royal-palm-beach-florida", "best-neighborhoods-in-royal-palm-beach-florida", "royal-palm-beach-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3153,7 +3153,7 @@ These everyday, free pleasures are exactly what make RPB a comfortable, communit
       { q: "Is there nature near Royal Palm Beach?", a: "Yes — the Loxahatchee Slough Natural Area just west offers trails and wildlife close to the village." },
     ],
     internalLinks: ["best-things-to-do-in-royal-palm-beach-florida", "local-guide-to-royal-palm-beach-florida", "what-its-really-like-living-in-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3187,7 +3187,7 @@ These everyday, free pleasures are exactly what make RPB a comfortable, communit
       { q: "Which western town is best for value families?", a: "Royal Palm Beach is widely seen as the value sweet spot for families in the western communities." },
     ],
     internalLinks: ["cost-of-living-in-royal-palm-beach-florida", "pros-and-cons-of-living-in-royal-palm-beach-florida", "what-its-really-like-living-in-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3222,7 +3222,7 @@ RPB is laid-back and family-first — everyday, diverse, affordable eats over a 
       { q: "Does Royal Palm Beach have nightlife?", a: "It's a quiet, family-first town with limited nightlife — for more, residents head to Wellington or West Palm Beach." },
     ],
     internalLinks: ["best-things-to-do-in-royal-palm-beach-florida", "local-guide-to-royal-palm-beach-florida", "hidden-gems-in-royal-palm-beach-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
@@ -3263,7 +3263,7 @@ You'll drive for everything — the coast is 40+ minutes, and shopping and schoo
       { q: "Is Loxahatchee far from the beach?", a: "Yes — it's well west, roughly 40+ minutes from the coast, and a drive from most shopping and schools." },
     ],
     internalLinks: ["best-neighborhoods-in-loxahatchee-florida", "best-things-to-do-in-loxahatchee-florida", "who-should-move-to-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3302,7 +3302,7 @@ Embrace self-reliance and the space. Loxahatchee rewards people who want land an
       { q: "Is Loxahatchee good for horse owners?", a: "Yes — large lots and a rural, often HOA-free setting make it a popular, affordable alternative to Wellington for equestrians." },
     ],
     internalLinks: ["what-its-really-like-living-in-loxahatchee-florida", "best-things-to-do-in-loxahatchee-florida", "hidden-gems-in-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3335,7 +3335,7 @@ Embrace self-reliance and the space. Loxahatchee rewards people who want land an
       { q: "Is Loxahatchee good for equestrians?", a: "Yes — its large lots and rural character make it a more affordable alternative to Wellington for horse owners." },
     ],
     internalLinks: ["what-its-really-like-living-in-loxahatchee-florida", "cost-of-living-in-loxahatchee-florida", "who-should-move-to-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3372,7 +3372,7 @@ In summer, do the refuge and outdoor activities early — the heat and afternoon
       { q: "Is Loxahatchee good for outdoor lovers?", a: "Very — between the wildlife refuge, horseback riding, fishing, and big open space, it's a haven for people who love the outdoors." },
     ],
     internalLinks: ["hidden-gems-in-loxahatchee-florida", "local-guide-to-loxahatchee-florida", "best-places-to-eat-drink-hang-out-in-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3412,7 +3412,7 @@ In summer, do the refuge and outdoor activities early — the heat and afternoon
       { q: "What are the downsides of living in Loxahatchee?", a: "Long drives to everything, sparse amenities, well and septic maintenance, potential drainage issues, and being far from the beach." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-loxahatchee-florida", "cost-of-living-in-loxahatchee-florida", "what-its-really-like-living-in-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3452,7 +3452,7 @@ In summer, do the refuge and outdoor activities early — the heat and afternoon
       { q: "Does Loxahatchee flood?", a: "Some low-lying areas can have drainage or flooding concerns — it's important to check any specific property carefully before buying." },
     ],
     internalLinks: ["cost-of-living-in-loxahatchee-florida", "who-should-move-to-loxahatchee-florida", "loxahatchee-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3489,7 +3489,7 @@ A real Florida cost; rural and older homes may need updates affecting insurabili
       { q: "Does Loxahatchee have a state income tax?", a: "No — Florida has no state income tax, which helps offset the costs of rural living." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-loxahatchee-florida", "best-neighborhoods-in-loxahatchee-florida", "loxahatchee-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3526,7 +3526,7 @@ These wild, free experiences are the soul of country living out west.`,
       { q: "Is Loxahatchee good for stargazing?", a: "Yes — its rural, dark-sky setting far from city lights makes for excellent stargazing." },
     ],
     internalLinks: ["best-things-to-do-in-loxahatchee-florida", "local-guide-to-loxahatchee-florida", "what-its-really-like-living-in-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3560,7 +3560,7 @@ These wild, free experiences are the soul of country living out west.`,
       { q: "Should I choose acreage or a suburb?", a: "It comes down to one trade-off: land and freedom (Loxahatchee) versus amenities and short commutes (Wellington or Royal Palm Beach)." },
     ],
     internalLinks: ["cost-of-living-in-loxahatchee-florida", "pros-and-cons-of-living-in-loxahatchee-florida", "what-its-really-like-living-in-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3592,7 +3592,7 @@ Out here, the best "hangout" is your own porch, a neighbor's barbecue, or sunset
       { q: "What's the social scene like in Loxahatchee?", a: "More backyard than restaurant row — barbecues, porches, and country living, with a drive to town for a bigger night out." },
     ],
     internalLinks: ["best-things-to-do-in-loxahatchee-florida", "local-guide-to-loxahatchee-florida", "hidden-gems-in-loxahatchee-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
