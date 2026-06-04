@@ -18,7 +18,7 @@ const stripPhotos = [
   { src: '/images/ibis/ibis-photos-001.png', label: 'Ibis G&CC' },
   { src: '/images/jupiter/jupiter-003.jpg', label: 'Jupiter' },
   { src: '/images/west-palm-beach/waterfront-024.jpg', label: 'West Palm Beach' },
-  { src: '/images/singer-island/singer-island-035.jpeg', label: 'Singer Island' },
+  { src: '/images/singer-island/singer-island-0035.jpeg', label: 'Singer Island' },
   { src: '/images/juno-beach/juno-beach-085.jpeg', label: 'Juno Beach' },
 ]
 
