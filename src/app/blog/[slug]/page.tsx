@@ -133,16 +133,14 @@ export default async function ArticlePage({ params }: Props) {
           <LocalExpertNote author={article.author} funFact={article.funFact} />
         )}
 
-        {/* Market trends (cost/market articles only) */}
-        {article.showMarketTrends && (
-          <div className="mt-12">
-            <h2 className="font-serif text-2xl font-semibold text-slate-900">{article.cityName} Market Trends</h2>
-            <p className="mt-2 text-sm text-slate-500">Live data from the local MLS.</p>
-            <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
-              <YlopoMarketTrendsWidget city={article.cityName} />
-            </div>
+        {/* Market trends — every article */}
+        <div className="mt-12">
+          <h2 className="font-serif text-2xl font-semibold text-slate-900">{article.cityName} Market Trends</h2>
+          <p className="mt-2 text-sm text-slate-500">Live data from the local MLS.</p>
+          <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
+            <YlopoMarketTrendsWidget city={article.cityName} />
           </div>
-        )}
+        </div>
 
         {/* Conversion block — search buttons */}
         {community?.savedSearches?.length ? (
