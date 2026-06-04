@@ -28,6 +28,8 @@ export interface Article {
   faqs: Faq[]
   internalLinks?: string[]    // related article slugs
   showMarketTrends?: boolean  // render the Ylopo market-trends widget (cost/market articles)
+  funFact?: string            // local expert insight shown with author headshot
+  author?: 'john' | 'christine'
   published: boolean
   updated: string             // ISO date
 }
@@ -3998,6 +4000,8 @@ It's smaller, with fewer big-city amenities, and it's further north — a real c
       { q: "Does Stuart have high-rises?", a: "No — Martin County's strict growth management and height limits keep Stuart low-rise, preserving its small-town, old-Florida character." },
     ],
     internalLinks: ["best-neighborhoods-in-stuart-florida", "best-things-to-do-in-stuart-florida", "who-should-move-to-stuart-florida"],
+    funFact: "Martin County is one of the only counties in Florida with a strict height limit on waterfront buildings — no high-rises allowed. That's intentional policy, not accident, and it's exactly why Stuart still looks the way it does.",
+    author: 'john',
     published: true,
     updated: '2026-06-01',
   },
@@ -4037,6 +4041,8 @@ Pick downtown-walkable, waterfront, or beachside (Hutchinson Island), get on the
       { q: "What is the main road in Stuart?", a: "US-1 (Federal Highway) is the main north-south corridor connecting downtown, the neighborhoods, and the bridges to the island." },
     ],
     internalLinks: ["what-its-really-like-living-in-stuart-florida", "best-things-to-do-in-stuart-florida", "hidden-gems-in-stuart-florida"],
+    funFact: "The Stuart Riverwalk was built in phases over two decades and was largely driven by community volunteers and local fundraising — not a developer. That grassroots origin is baked into the whole downtown feel.",
+    author: 'christine',
     published: true,
     updated: '2026-06-01',
   },
@@ -4072,6 +4078,8 @@ Pick downtown-walkable, waterfront, or beachside (Hutchinson Island), get on the
       { q: "Where is the most affordable place to live in Stuart?", a: "Inland mainland neighborhoods generally offer the most attainable single-family homes, away from the waterfront and beach premiums." },
     ],
     internalLinks: ["what-its-really-like-living-in-stuart-florida", "cost-of-living-in-stuart-florida", "who-should-move-to-stuart-florida"],
+    funFact: "Sewall's Point is one of the few places in South Florida where a peninsula sits between two separate navigable rivers — the St. Lucie and the Indian River Lagoon — giving waterfront homes ocean access from both sides.",
+    author: 'john',
     published: true,
     updated: '2026-06-01',
   },
@@ -4109,6 +4117,8 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
       { q: "Is Stuart good for fishing?", a: "Absolutely — known as the Sailfish Capital of the World, Stuart offers world-class offshore and inshore fishing." },
     ],
     internalLinks: ["hidden-gems-in-stuart-florida", "local-guide-to-stuart-florida", "best-places-to-eat-drink-hang-out-in-stuart-florida"],
+    funFact: "Bathtub Reef gets its name from the natural rock reef that creates a calm, shallow lagoon right at the shore — it literally feels like a bathtub compared to the open Atlantic surf just yards away. It's one of the most unique beach experiences on the Treasure Coast.",
+    author: 'christine',
     published: true,
     updated: '2026-06-01',
   },
@@ -4148,6 +4158,8 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
       { q: "Is Stuart too far from Palm Beach County?", a: "It's a real commute north — fine for retirees and remote workers, but a consideration if your job is in Palm Beach County or further south." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-stuart-florida", "cost-of-living-in-stuart-florida", "what-its-really-like-living-in-stuart-florida"],
+    funFact: "A surprisingly large portion of Stuart's year-round residents are former snowbirds who came for a season and simply never left. That pattern says a lot about the town — it tends to grow on people the longer they stay.",
+    author: 'john',
     published: true,
     updated: '2026-06-01',
   },
@@ -4187,6 +4199,8 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
       { q: "Is Stuart a quiet place to live?", a: "Yes — it's intentionally slow and low-rise, which is a big part of its charm for the people who love it." },
     ],
     internalLinks: ["cost-of-living-in-stuart-florida", "who-should-move-to-stuart-florida", "stuart-vs-nearby-cities"],
+    funFact: "Martin County consistently ranks among Florida's top counties for quality of life relative to its size. The growth restrictions that feel like a con are the exact same policies that created the pros — it's a deliberate trade-off the county has been making for 50 years.",
+    author: 'christine',
     published: true,
     updated: '2026-06-01',
   },
@@ -4223,6 +4237,8 @@ Utilities and groceries track near the Florida average; dining downtown is charm
       { q: "Why is insurance a factor in Stuart?", a: "Coastal and waterfront location, especially on Hutchinson Island, drives homeowners and wind/flood insurance costs; get quotes early." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-stuart-florida", "best-neighborhoods-in-stuart-florida", "stuart-vs-nearby-cities"],
+    funFact: "Comparable waterfront properties in Stuart often run 20–30% below similar homes in Jupiter, just 20 miles south. That gap has been remarkably consistent over time — one of the better value spreads on the Florida coast.",
+    author: 'john',
     published: true,
     updated: '2026-06-01',
   },
@@ -4260,6 +4276,8 @@ These charming, often-free spots are what make Stuart feel special.`,
       { q: "Is the Florida Oceanographic Center worth visiting?", a: "Yes — its lagoons, trails, and feedings make it a fun, educational stop for families and nature lovers." },
     ],
     internalLinks: ["best-things-to-do-in-stuart-florida", "local-guide-to-stuart-florida", "what-its-really-like-living-in-stuart-florida"],
+    funFact: "The House of Refuge on Hutchinson Island is the last surviving structure of its kind in Florida. Originally there were nine of them along the coast, built in the 1870s to shelter shipwrecked sailors — this is the only one left standing.",
+    author: 'christine',
     published: true,
     updated: '2026-06-01',
   },
@@ -4294,6 +4312,8 @@ These charming, often-free spots are what make Stuart feel special.`,
       { q: "Which Treasure Coast town has the best downtown?", a: "Stuart is widely considered to have the most charming, walkable historic downtown on the Treasure Coast." },
     ],
     internalLinks: ["cost-of-living-in-stuart-florida", "pros-and-cons-of-living-in-stuart-florida", "what-its-really-like-living-in-stuart-florida"],
+    funFact: "Stuart is the county seat of Martin County, which means it punches above its population weight — courthouse, arts infrastructure, government services, and civic institutions you wouldn't expect in a town this size. That's a big part of why the downtown feels so complete.",
+    author: 'john',
     published: true,
     updated: '2026-06-01',
   },
@@ -4313,6 +4333,9 @@ These charming, often-free spots are what make Stuart feel special.`,
 ## Historic downtown
 **Downtown Stuart** is the heart of it — walkable streets and the Riverwalk lined with local restaurants, cafés, bars, and live-music spots. From seafood to international, it's the social center, and it hosts markets and festivals year-round.
 
+## The Pocket
+Stuart's local bar scene lives in **the Pocket** — a cluster of laid-back bars and hangout spots that's the go-to for locals who want a casual night out without the tourist polish. It's where the real Stuart social scene happens.
+
 ## On the water
 Stuart's rivers mean **waterfront seafood spots** where you dock, dine, and watch the boats — a quintessential Treasure Coast experience.
 
@@ -4320,15 +4343,17 @@ Stuart's rivers mean **waterfront seafood spots** where you dock, dine, and watc
 Pair dinner downtown with a show at the historic **Lyric Theatre** for a classic Stuart night out.
 
 ## The vibe
-Stuart leans charming and laid-back — small-town friendly, water-focused, and walkable downtown over a flashy scene. The Riverwalk is where it all comes together.
+Stuart leans charming and laid-back — small-town friendly, water-focused, and walkable downtown over a flashy scene. The Riverwalk and the Pocket are where it all comes together.
 `,
     faqs: [
       { q: "Where is the best dining in Stuart?", a: "Historic downtown Stuart and its Riverwalk are the hub, with walkable local restaurants, cafés, and bars, plus waterfront seafood spots along the rivers." },
+      { q: "What is the Pocket in Stuart?", a: "A local cluster of laid-back bars and hangout spots — the go-to for locals who want a casual night out, and the heart of Stuart's real social scene." },
       { q: "Does Stuart have waterfront dining?", a: "Yes — its rivers offer classic waterfront seafood restaurants where you can dock, dine, and watch the boats." },
-      { q: "Is downtown Stuart good for a night out?", a: "Very — its walkable historic downtown pairs restaurants and bars with the historic Lyric Theatre for shows, plus regular markets and live music." },
-      { q: "Where do locals eat in Stuart?", a: "Throughout the walkable downtown and at the waterfront seafood spots along the St. Lucie River." },
+      { q: "Is downtown Stuart good for a night out?", a: "Very — its walkable historic downtown, the Pocket's bar scene, and the Lyric Theatre all contribute to a charming small-town night out." },
     ],
     internalLinks: ["best-things-to-do-in-stuart-florida", "local-guide-to-stuart-florida", "hidden-gems-in-stuart-florida"],
+    funFact: "The Pocket got its name organically — it's a slight curve in the street that naturally clusters the bars close together in a sheltered little nook. Locals started calling it that informally and it just stuck. That's very Stuart.",
+    author: 'christine',
     published: false,
     updated: '2026-06-01',
   },
