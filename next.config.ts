@@ -9,6 +9,20 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/new-communities/avenir-real-estate',
+        destination: '/communities/avenir',
+        permanent: true,
+      },
+      {
+        source: '/new-communities/pga-national-real-estate',
+        destination: '/communities/pga-national',
+        permanent: true,
+      },
+    ]
+  },
 };
 
 export default nextConfig;

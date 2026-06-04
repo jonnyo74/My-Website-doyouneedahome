@@ -2817,6 +2817,48 @@ export const neighborhoods: CommunityItem[] = [
       '/public/Palm Beach Gardens/PGA National/IMG_1780.jpg',
       '/public/Palm Beach Gardens/PGA National/IMG_1783.jpg',
     ],
+    schoolOverview: 'PGA National is zoned for highly rated Palm Beach Gardens schools. The community falls within the Palm Beach Gardens Community High School district, which consistently ranks among the top public high schools in the county.',
+    schoolList: [
+      {
+        category: 'Public Schools',
+        schools: [
+          { name: 'Timber Trace Elementary School', url: 'https://www.palmbeachschools.org/fs/pages/15576' },
+          { name: 'Watson B. Duncan Middle School', url: 'https://www.palmbeachschools.org/fs/pages/15581' },
+          { name: 'Palm Beach Gardens Community High School', url: 'https://www.palmbeachschools.org/fs/pages/15572' },
+        ],
+      },
+      {
+        category: 'Nearby Private Schools',
+        schools: [
+          { name: 'The Benjamin School', url: 'https://www.thebenjaminschool.org' },
+          { name: 'Palm Beach Day Academy', url: 'https://www.pbda.org' },
+          { name: 'Oxbridge Academy', url: 'https://www.oxbridgeacademy.org' },
+        ],
+      },
+    ],
+    outdoorActivities: [
+      'Five championship golf courses within PGA National — open to members and resort guests',
+      'PGA National Resort & Spa pool and wellness complex',
+      'Hobe Sound National Wildlife Refuge — 30 minutes north',
+      'Jonathan Dickinson State Park — kayaking, paddleboarding, river tours',
+      'Juno Beach and Jupiter Beach — 15 minutes',
+      'Riverbend Park and Loxahatchee River access nearby',
+    ],
+    dining: [
+      'The Butcher\'s Club at PGA National Resort — upscale steakhouse, recently renovated',
+      'Ironwood at PGA National — resort casual dining with course views',
+      'PGA Boulevard corridor — dozens of restaurants within 5–10 minutes',
+      'Alton Town Center — new dining and retail hub nearby',
+      'Gardens Mall and Downtown at the Gardens — shopping and dining 10 min away',
+    ],
+    localLoves: [
+      'PGA National Resort & Spa — completely renovated, world-class destination right in the community',
+      'The Honda Classic golf tournament hosted at the Champion Course each spring',
+      'Optional memberships — get the full lifestyle or just enjoy the location',
+      'Mature landscaping and established neighborhood feel unlike newer PUDs',
+      'Strong seasonal rental demand — the address sells itself',
+      'Quick I-95 and Turnpike access without the western commute',
+    ],
     lat: 26.8371, lng: -80.1582,
   },
   {
@@ -2891,6 +2933,52 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'PBI Airport', time: '25 min' },
       { destination: 'Jupiter Beach', time: '25 min' },
       { destination: 'The Gardens Mall', time: '15 min' },
+    ],
+    schoolOverview: 'Avenir is zoned for some of Palm Beach Gardens\' most desirable public schools, including Palm Beach Gardens Community High School. The western location also puts several newer school facilities within easy reach.',
+    schoolList: [
+      {
+        category: 'Public Schools',
+        schools: [
+          { name: 'Marsh Pointe Elementary School', url: 'https://www.palmbeachschools.org/fs/pages/32408' },
+          { name: 'Watson B. Duncan Middle School', url: 'https://www.palmbeachschools.org/fs/pages/15581' },
+          { name: 'Palm Beach Gardens Community High School', url: 'https://www.palmbeachschools.org/fs/pages/15572' },
+        ],
+      },
+      {
+        category: 'Nearby Private Schools',
+        schools: [
+          { name: 'The Benjamin School', url: 'https://www.thebenjaminschool.org' },
+          { name: 'Palm Beach Day Academy', url: 'https://www.pbda.org' },
+          { name: 'Oxbridge Academy', url: 'https://www.oxbridgeacademy.org' },
+        ],
+      },
+    ],
+    outdoorActivities: [
+      'Panther National Golf Club — ultra-luxury championship course within the community',
+      'Two resort-style amenity centers with pools, fitness, tennis, and pickleball',
+      'Miles of walking and biking paths winding through lakes and preserves',
+      'Loxahatchee National Wildlife Refuge — 15 minutes west',
+      'Jonathan Dickinson State Park — kayaking and river tours',
+      'Jupiter and Juno beaches — 25–30 minutes east',
+    ],
+    dining: [
+      'Avenir retail corridor actively developing — multiple restaurants and services opening',
+      'PGA Boulevard dining corridor — 10 minutes east with dozens of options',
+      'Alton Town Center and Gardens Mall — 15 minutes',
+      'Downtown at the Gardens — dining, entertainment, and shopping nearby',
+    ],
+    hiddenGems: [
+      'Regency at Avenir\'s private clubhouse is one of the best 55+ amenity packages in the county — a selling point even if you\'re not 55+, because it keeps the broader community quiet and owner-occupied',
+      'Buyers in the early Avenir villages are already seeing appreciation as later phases build out and retail fills in — this is the pattern every master-planned community follows',
+      'The preserve buffers along the western edge give many homes a natural backdrop you can\'t get in older Palm Beach Gardens communities',
+    ],
+    photos: [
+      '/public/Palm Beach Gardens/IMG_0869.JPG',
+      '/public/Palm Beach Gardens/IMG_7081.JPG',
+      '/public/Palm Beach Gardens/IMG_7085.JPG',
+      '/public/Palm Beach Gardens/IMG_7086.JPG',
+      '/public/Palm Beach Gardens/IMG_9348.JPG',
+      '/public/Palm Beach Gardens/211.JPG',
     ],
     lat: 26.8553, lng: -80.2248,
   },
