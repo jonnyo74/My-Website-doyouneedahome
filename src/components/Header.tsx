@@ -50,9 +50,9 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3 sm:px-8">
         <Link href="/" className="flex-shrink-0">
           <Image
-            src="/images/logo.png"
-            alt="DoYouNeedAHome.com"
-            width={180}
+            src="/images/premier-brokers.png"
+            alt="Premier Brokers International"
+            width={200}
             height={54}
             className="h-12 w-auto"
             priority

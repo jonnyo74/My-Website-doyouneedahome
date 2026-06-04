@@ -24,9 +24,9 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="inline-flex rounded-xl bg-white px-3 py-2">
                 <Image
-                  src="/images/logo.png"
-                  alt="DoYouNeedAHome.com"
-                  width={160}
+                  src="/images/premier-brokers.png"
+                  alt="Premier Brokers International"
+                  width={180}
                   height={48}
                   className="h-10 w-auto"
                 />
