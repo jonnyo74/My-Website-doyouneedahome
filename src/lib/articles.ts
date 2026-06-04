@@ -6118,7 +6118,9 @@ Salty, casual, and authentic — waterfront seafood and tiki bars over a polishe
       { q: "Where do locals hang out in Port Salerno?", a: "Along the Manatee Pocket's waterfront restaurants and tiki bars, plus quick trips to Stuart for more dining and nightlife." },
     ],
     internalLinks: ["best-things-to-do-in-port-salerno-florida", "local-guide-to-port-salerno-florida", "hidden-gems-in-port-salerno-florida"],
-    published: false,
+    funFact: "The Port Salerno Seafood Festival started in 1979 as a small community fundraiser and grew into one of the largest one-day festivals on the Treasure Coast. It raises money for local nonprofits and is organized entirely by volunteers — a genuinely grassroots event in a town that's stayed genuinely grassroots.",
+    author: 'christine',
+    published: true,
     updated: '2026-06-01',
   },
 
