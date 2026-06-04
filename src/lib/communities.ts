@@ -169,6 +169,14 @@ export const cities: CommunityItem[] = [
       '/images/west-palm-beach/west-palm-beach-003.jpeg',
       '/images/west-palm-beach/flagler-museum-2022-001.jpg',
     ],
+    savedSearches: [
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL' },
+    ],
     lat: 26.7153, lng: -80.0534,
   },
   {
@@ -288,6 +296,14 @@ export const cities: CommunityItem[] = [
       '/images/palm-beach-gardens/pbg-004.jpg',
       '/images/palm-beach-gardens/pbg-005.jpg',
       '/images/palm-beach-gardens/pbg-006.jpg',
+    ],
+    savedSearches: [
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Waterfront Condos', sublabel: 'Lake & Intracoastal views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL' },
     ],
     lat: 26.8233, lng: -80.1246,
   },
@@ -418,16 +434,12 @@ export const cities: CommunityItem[] = [
       '/images/jupiter/jupiter-021.jpg',
     ],
     savedSearches: [
-      {
-        label: 'Oceanfront Condos',
-        sublabel: '$600K and up',
-        url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[limit]=18&s[propertyTypes][0]=condo&s[minPrice]=600000&s[amenities][0]=sa_has_waterfront_ocean',
-      },
-      {
-        label: 'Single-Family Homes',
-        sublabel: '$800K and up',
-        url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[limit]=18&s[propertyTypes][0]=house&s[minPrice]=800000',
-      },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & inlet views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Single-Family Homes', sublabel: '$800K and up', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=800000' },
+      { label: 'Waterfront Homes', sublabel: 'Intracoastal & canal-front', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL' },
     ],
     lat: 26.9342, lng: -80.0942,
   },
@@ -574,6 +586,14 @@ export const cities: CommunityItem[] = [
       '/images/wellington/wellington-005.jpeg',
       '/images/wellington/wellington-006.jpeg',
     ],
+    savedSearches: [
+      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
+      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse' },
+      { label: 'Country Club & Equestrian', sublabel: 'Membership communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL' },
+    ],
     lat: 26.6595, lng: -80.2686,
   },
   {
@@ -714,6 +734,14 @@ export const cities: CommunityItem[] = [
     popularNeighborhoods: ['Royal Palm Yacht & CC', 'Boca West', 'Broken Sound', 'Woodfield Country Club', 'Addison Reserve', 'Boca del Mar', 'Long Lake Estates'],
     photos: [
     ],
+    savedSearches: [
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL' },
+    ],
     lat: 26.3683, lng: -80.1289,
   },
   {
@@ -843,6 +871,14 @@ export const cities: CommunityItem[] = [
     popularNeighborhoods: ['Tropic Isle', 'Pineapple Grove', 'The Estuary', 'Gulf Stream', 'Lake Ida', 'Country Club Acres', 'High Point'],
     photos: [
     ],
+    savedSearches: [
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'Waterfront Homes', sublabel: 'Intracoastal & canal-front', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL' },
+    ],
     lat: 26.4615, lng: -80.0728,
   },
   {
@@ -969,6 +1005,14 @@ export const cities: CommunityItem[] = [
     popularNeighborhoods: ['Ocean Ridge', 'Quantum Lakes', 'Indian Spring', 'Valencia Bay', 'Hunters Run', 'Leisureville', 'Marina District'],
     photos: [
     ],
+    savedSearches: [
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL' },
+    ],
     lat: 26.5317, lng: -80.0905,
   },
   {
@@ -1085,6 +1129,12 @@ export const cities: CommunityItem[] = [
     popularNeighborhoods: ['Downtown / Cottage District', 'East Lake Worth (Barrier Island)', 'Tropical Ridge', 'North Lake Worth'],
     photos: [
     ],
+    savedSearches: [
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
+      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse' },
+      { label: 'Single-Family Homes', sublabel: 'All house listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL' },
+    ],
     lat: 26.6198, lng: -80.0578,
   },
   {
@@ -1199,6 +1249,14 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Woodland Lakes', 'Oakbrook', 'Emerald Dunes Area', 'Lake Estates', 'Seneca Lakes'],
     photos: [
+    ],
+    savedSearches: [
+      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
+      { label: 'Condos & Townhomes', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL' },
     ],
     lat: 26.7076, lng: -80.2262,
   },
@@ -1327,6 +1385,14 @@ export const cities: CommunityItem[] = [
       '/images/palm-beach/lifestyle-004.jpeg',
       '/images/palm-beach/lifestyle-005.jpeg',
     ],
+    savedSearches: [
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Country Club & Membership', sublabel: 'Private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'Waterfront Homes', sublabel: 'Intracoastal & waterfront', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL' },
+    ],
     lat: 26.7056, lng: -80.0364,
   },
   {
@@ -1437,6 +1503,13 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['The Acreage', 'Loxahatchee Groves', 'Southern Reaches'],
     photos: [],
+    savedSearches: [
+      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
+      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL' },
+    ],
     lat: 26.6779, lng: -80.2987,
   },
   {
@@ -1557,6 +1630,14 @@ export const cities: CommunityItem[] = [
       '/images/juno-beach/juno-beach-021.jpg',
       '/images/juno-beach/juno-beach-036.jpg',
       '/images/juno-beach/juno-beach-070.jpg',
+    ],
+    savedSearches: [
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL' },
     ],
     lat: 26.8787, lng: -80.0559,
   },
@@ -1682,6 +1763,14 @@ export const cities: CommunityItem[] = [
       '/images/north-palm-beach/north-palm-004.jpg',
       '/images/north-palm-beach/north-palm-005.jpg',
       '/images/north-palm-beach/north-palm-006.jpg',
+    ],
+    savedSearches: [
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL' },
     ],
     lat: 26.8193, lng: -80.0531,
   },
@@ -2258,6 +2347,14 @@ export const cities: CommunityItem[] = [
       '/images/singer-island/singer-island-0004.jpeg',
       '/images/singer-island/singer-island-0005.jpeg',
       '/images/singer-island/waterfront-001.jpeg',
+    ],
+    savedSearches: [
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & inlet views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL' },
     ],
     lat: 26.7939, lng: -80.0427,
   },
