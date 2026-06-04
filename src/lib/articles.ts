@@ -4875,7 +4875,7 @@ These water wonders are why island locals never want to leave.`,
       { q: "Are there sea turtles on Singer Island?", a: "Yes — its beaches are active sea-turtle nesting grounds, with seasonal turtle walks offered nearby." },
     ],
     internalLinks: ["best-things-to-do-in-singer-island-florida", "local-guide-to-singer-island-florida", "what-its-really-like-living-in-singer-island-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4948,7 +4948,7 @@ Singer Island is relaxed and resort-y — waterfront seafood, beach bars, and su
     internalLinks: ["best-things-to-do-in-singer-island-florida", "local-guide-to-singer-island-florida", "hidden-gems-in-singer-island-florida"],
     funFact: "The Sailfish Marina's daily fish feeding has been going on for decades — it started informally when marina workers began tossing scraps off the dock and the fish learned the routine. Now it's a scheduled daily event that draws locals and visitors alike. The fish know what time it is.",
     author: 'john',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
