@@ -3633,7 +3633,7 @@ Being brand-new cuts both ways: it's still under construction (expect building a
       { q: "Does Westlake have CDD fees?", a: "Like many new master-planned communities, Westlake may carry Community Development District (CDD) fees that fund infrastructure — always ask about them when considering a home." },
     ],
     internalLinks: ["best-neighborhoods-in-westlake-florida", "best-things-to-do-in-westlake-florida", "who-should-move-to-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3672,7 +3672,7 @@ Lean into the new-community energy and the amenities, and watch Westlake grow up
       { q: "Does Westlake have shopping and dining yet?", a: "It's still developing its own commercial town center; for now residents drive to nearby Royal Palm Beach and Wellington." },
     ],
     internalLinks: ["what-its-really-like-living-in-westlake-florida", "best-things-to-do-in-westlake-florida", "hidden-gems-in-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3705,7 +3705,7 @@ Lean into the new-community energy and the amenities, and watch Westlake grow up
       { q: "Are there single-family homes in Westlake?", a: "Yes — single-family collections in a range of sizes are the core of the community, with larger premium homes also available." },
     ],
     internalLinks: ["what-its-really-like-living-in-westlake-florida", "cost-of-living-in-westlake-florida", "who-should-move-to-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3740,7 +3740,7 @@ In summer, the Adventure Park's water features are the move — and do any outdo
       { q: "Is Westlake good for families with kids?", a: "Very — the Adventure Park, parks, trails, and family-focused community events make it especially appealing to families." },
     ],
     internalLinks: ["hidden-gems-in-westlake-florida", "local-guide-to-westlake-florida", "best-places-to-eat-drink-hang-out-in-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3780,7 +3780,7 @@ In summer, the Adventure Park's water features are the move — and do any outdo
       { q: "Should I buy new construction in Westlake or a resale elsewhere?", a: "It depends on your priorities — Westlake offers modern, amenity-rich new builds, while established towns offer character, mature surroundings, and often closer proximity to the coast." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-westlake-florida", "cost-of-living-in-westlake-florida", "what-its-really-like-living-in-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3820,7 +3820,7 @@ In summer, the Adventure Park's water features are the move — and do any outdo
       { q: "What are CDD fees in Westlake?", a: "Community Development District fees fund the community's infrastructure and are common in new master-planned communities — factor them into your budget." },
     ],
     internalLinks: ["cost-of-living-in-westlake-florida", "who-should-move-to-westlake-florida", "westlake-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3856,7 +3856,7 @@ A real Florida cost — though new construction often insures better than older 
       { q: "Is insurance cheaper on new homes in Westlake?", a: "Often new construction insures better than older homes due to modern building codes and roofs, though coastal-Florida insurance is always a real cost — get quotes." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-westlake-florida", "best-neighborhoods-in-westlake-florida", "westlake-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3891,7 +3891,7 @@ For a new community, the combination of resort amenities and Everglades-edge nat
       { q: "What amenities does Westlake offer residents?", a: "The Adventure Park's pool, water slides, splash pad, climbing wall, and event spaces anchor a resort-style amenity package for residents." },
     ],
     internalLinks: ["best-things-to-do-in-westlake-florida", "local-guide-to-westlake-florida", "what-its-really-like-living-in-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3925,7 +3925,7 @@ For a new community, the combination of resort amenities and Everglades-edge nat
       { q: "Should I choose new construction or an established town?", a: "It depends on whether you value modern, amenity-rich new builds (Westlake) or established character, schools, and convenience (Wellington, Royal Palm Beach)." },
     ],
     internalLinks: ["cost-of-living-in-westlake-florida", "pros-and-cons-of-living-in-westlake-florida", "what-its-really-like-living-in-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -3957,7 +3957,7 @@ Westlake's food scene is a work in progress, like the city itself. Today, the ha
       { q: "Will Westlake get more dining?", a: "Yes — a town center with commercial space is part of the master plan, expected to bring restaurants and shops as the city grows." },
     ],
     internalLinks: ["best-things-to-do-in-westlake-florida", "local-guide-to-westlake-florida", "hidden-gems-in-westlake-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
