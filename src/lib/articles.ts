@@ -5178,7 +5178,9 @@ It's small, with limited shopping and dining of its own and quiet nightlife — 
       { q: "Is Hobe Sound affordable?", a: "The mainland offers relatively attainable homes, while Jupiter Island is among the priciest real estate in the country — giving the area an unusually wide range." },
     ],
     internalLinks: ["best-neighborhoods-in-hobe-sound-florida", "best-things-to-do-in-hobe-sound-florida", "who-should-move-to-hobe-sound-florida"],
-    published: false,
+    funFact: "Hobe Sound and Jupiter Island share the same zip code (33455), but the median home price on Jupiter Island is among the highest in the United States — while the Hobe Sound mainland offers genuinely attainable homes. It's one of the widest wealth gaps within a single zip code anywhere in the country.",
+    author: 'john',
+    published: true,
     updated: '2026-06-01',
   },
   {
