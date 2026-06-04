@@ -3998,7 +3998,7 @@ It's smaller, with fewer big-city amenities, and it's further north — a real c
       { q: "Does Stuart have high-rises?", a: "No — Martin County's strict growth management and height limits keep Stuart low-rise, preserving its small-town, old-Florida character." },
     ],
     internalLinks: ["best-neighborhoods-in-stuart-florida", "best-things-to-do-in-stuart-florida", "who-should-move-to-stuart-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4037,7 +4037,7 @@ Pick downtown-walkable, waterfront, or beachside (Hutchinson Island), get on the
       { q: "What is the main road in Stuart?", a: "US-1 (Federal Highway) is the main north-south corridor connecting downtown, the neighborhoods, and the bridges to the island." },
     ],
     internalLinks: ["what-its-really-like-living-in-stuart-florida", "best-things-to-do-in-stuart-florida", "hidden-gems-in-stuart-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4072,7 +4072,7 @@ Pick downtown-walkable, waterfront, or beachside (Hutchinson Island), get on the
       { q: "Where is the most affordable place to live in Stuart?", a: "Inland mainland neighborhoods generally offer the most attainable single-family homes, away from the waterfront and beach premiums." },
     ],
     internalLinks: ["what-its-really-like-living-in-stuart-florida", "cost-of-living-in-stuart-florida", "who-should-move-to-stuart-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4109,7 +4109,7 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
       { q: "Is Stuart good for fishing?", a: "Absolutely — known as the Sailfish Capital of the World, Stuart offers world-class offshore and inshore fishing." },
     ],
     internalLinks: ["hidden-gems-in-stuart-florida", "local-guide-to-stuart-florida", "best-places-to-eat-drink-hang-out-in-stuart-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4148,7 +4148,7 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
       { q: "Is Stuart too far from Palm Beach County?", a: "It's a real commute north — fine for retirees and remote workers, but a consideration if your job is in Palm Beach County or further south." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-stuart-florida", "cost-of-living-in-stuart-florida", "what-its-really-like-living-in-stuart-florida"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4187,7 +4187,7 @@ In summer, do the beach and water early and let downtown's shops, the Lyric, and
       { q: "Is Stuart a quiet place to live?", a: "Yes — it's intentionally slow and low-rise, which is a big part of its charm for the people who love it." },
     ],
     internalLinks: ["cost-of-living-in-stuart-florida", "who-should-move-to-stuart-florida", "stuart-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4223,7 +4223,7 @@ Utilities and groceries track near the Florida average; dining downtown is charm
       { q: "Why is insurance a factor in Stuart?", a: "Coastal and waterfront location, especially on Hutchinson Island, drives homeowners and wind/flood insurance costs; get quotes early." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-stuart-florida", "best-neighborhoods-in-stuart-florida", "stuart-vs-nearby-cities"],
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
