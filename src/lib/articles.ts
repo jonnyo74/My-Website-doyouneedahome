@@ -4354,7 +4354,7 @@ Stuart leans charming and laid-back — small-town friendly, water-focused, and 
     internalLinks: ["best-things-to-do-in-stuart-florida", "local-guide-to-stuart-florida", "hidden-gems-in-stuart-florida"],
     funFact: "The Pocket got its name organically — it's a slight curve in the street that naturally clusters the bars close together in a sheltered little nook. Locals started calling it that informally and it just stuck. That's very Stuart.",
     author: 'christine',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
 
