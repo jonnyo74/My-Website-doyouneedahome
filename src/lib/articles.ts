@@ -4633,7 +4633,7 @@ It's condo-heavy, so **HOA fees and oceanfront insurance run high**, and there's
     internalLinks: ["best-neighborhoods-in-singer-island-florida", "best-things-to-do-in-singer-island-florida", "who-should-move-to-singer-island-florida"],
     funFact: "Singer Island is technically part of the City of Riviera Beach — but most residents identify with the island, not the mainland city. That distinction matters when you're researching neighborhoods: the island and the surrounding Riviera Beach mainland are very different places.",
     author: 'john',
-    published: true,,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4675,7 +4675,7 @@ Pick your spot — oceanfront tower or a Palm Beach Shores house — get in the 
     internalLinks: ["what-its-really-like-living-in-singer-island-florida", "best-things-to-do-in-singer-island-florida", "hidden-gems-in-singer-island-florida"],
     funFact: "Singer Island has two bridges to the mainland — a south bridge to Riviera Beach and a north bridge to PGA Boulevard and Palm Beach Gardens — but the island still feels like an island. Locals plan their day around bridge traffic in season, and that rhythm genuinely shapes the culture of life out there.",
     author: 'christine',
-    published: true,,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -4955,7 +4955,7 @@ These water wonders are why island locals never want to leave.`,
     internalLinks: ["cost-of-living-in-singer-island-florida", "pros-and-cons-of-living-in-singer-island-florida", "what-its-really-like-living-in-singer-island-florida"],
     funFact: "Singer Island sits directly across from Palm Beach — one of the wealthiest barrier islands in the world. About a mile of the Lake Worth Lagoon separates them. That proximity is part of what gives Singer Island its appeal: comparable ocean views and water access at a fraction of the cost.",
     author: 'christine',
-    published: true,,
+    published: true,
     updated: '2026-06-01',
   },
   {
