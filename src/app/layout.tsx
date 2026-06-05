@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -39,6 +40,7 @@ export default function RootLayout({
         <div className="flex-1">{children}</div>
         <Footer />
       </body>
+      <GoogleTagManager gtmId="G-24154P036M" />
     </html>
   )
 }
