@@ -44,11 +44,11 @@ export default function Footer() {
               </a>
             </div>
             <div className="flex items-center gap-4">
-              <SocialLink href="#" label="Facebook"><FacebookIcon /></SocialLink>
-              <SocialLink href="#" label="Instagram"><InstagramIcon /></SocialLink>
-              <SocialLink href="#" label="X"><XIcon /></SocialLink>
-              <SocialLink href="#" label="YouTube"><YouTubeIcon /></SocialLink>
-              <SocialLink href="#" label="TikTok"><TikTokIcon /></SocialLink>
+              <SocialLink href="https://www.facebook.com/doyouneedahome" label="Facebook"><FacebookIcon /></SocialLink>
+              <SocialLink href="https://www.instagram.com/doyouneedahome" label="Instagram"><InstagramIcon /></SocialLink>
+              <SocialLink href="https://x.com/doyouneedahome" label="X"><XIcon /></SocialLink>
+              <SocialLink href="https://www.youtube.com/@doyouneedahome" label="YouTube"><YouTubeIcon /></SocialLink>
+              <SocialLink href="https://www.tiktok.com/@doyouneedahome" label="TikTok"><TikTokIcon /></SocialLink>
             </div>
           </div>
 
@@ -98,9 +98,14 @@ export default function Footer() {
           <p className="text-xs text-slate-500">
             © {new Date().getFullYear()} Christine Dekant &amp; John Oliver at Premier Brokers International. All rights reserved.
           </p>
-          <Link href="/privacy" className="text-xs text-slate-500 transition hover:text-white">
+          <a
+            href="https://www.premierbrokersinternational.com/privacy-policy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-slate-500 transition hover:text-white"
+          >
             Privacy Policy
-          </Link>
+          </a>
         </div>
       </div>
     </footer>

@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/contact`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/blog`, changeFrequency: 'weekly', priority: 0.6 },
     { url: `${BASE}/testimonials`, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/canadahomeseller`, changeFrequency: 'monthly', priority: 0.6 },
   ]
 
   const cityPages: MetadataRoute.Sitemap = cities.map((c) => ({
