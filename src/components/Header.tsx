@@ -77,6 +77,7 @@ export default function Header() {
               <div className="absolute left-0 top-full mt-1 w-48 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
                 <DropLink href="/sell">Sell Your Home</DropLink>
                 <DropLink href="/sell#valuation">Get a Valuation</DropLink>
+                <DropLink href="/canadahomeseller">Canadian Sellers</DropLink>
               </div>
             )}
           </div>
@@ -184,6 +185,7 @@ export default function Header() {
             <MobileLink href="/buy" close={() => setMobileOpen(false)}>Buy</MobileLink>
             <MobileLink href="/sell" close={() => setMobileOpen(false)}>Sell Your Home</MobileLink>
             <MobileLink href="/sell#valuation" close={() => setMobileOpen(false)}>Get a Valuation</MobileLink>
+            <MobileLink href="/canadahomeseller" close={() => setMobileOpen(false)}>Canadian Sellers</MobileLink>
             <MobileLink href="/communities" close={() => setMobileOpen(false)}>Communities</MobileLink>
             {communityGroups.map((group) => (
               <div key={group.label}>

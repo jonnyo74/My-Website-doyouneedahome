@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
-import Script from 'next/script'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -39,10 +38,6 @@ export default function RootLayout({
         <Header />
         <div className="flex-1">{children}</div>
         <Footer />
-        <Script id="ylopo-config" strategy="beforeInteractive">
-          {`var YLOPO_WIDGETS = { domain: 'search.doyouneedahome.com' };`}
-        </Script>
-        <Script src="//search.doyouneedahome.com/build/js/widgets-1.0.0.js" strategy="afterInteractive" />
       </body>
     </html>
   )

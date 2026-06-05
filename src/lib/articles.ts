@@ -169,6 +169,7 @@ The best way to know is to picture your own ordinary Tuesday here: morning walk 
     primaryKeyword: 'living in Juno Beach Florida',
     secondaryKeywords: ['moving to Juno Beach FL', 'Juno Beach lifestyle', 'is Juno Beach a good place to live', 'Juno Beach Florida relocation'],
     h1: "What It's Really Like Living in Juno Beach, Florida",
+    heroImage: '/images/juno-beach/juno-beach-009.jpg',
     body: `Juno Beach is small — barely a few square miles tucked on a barrier island between Jupiter and Singer Island — and that smallness is the whole point. There's no high-rise skyline, no buzzing downtown, no traffic snarl. Just a quiet, pretty beach town where the ocean is always a block or two away.
 
 ## A beach town that protects its beach
@@ -206,6 +207,7 @@ Juno Beach is **pricey** — barrier-island living commands a premium, and ocean
     primaryKeyword: 'Juno Beach local guide',
     secondaryKeywords: ['Juno Beach insider tips', 'things locals do in Juno Beach', 'moving to Juno Beach guide'],
     h1: "A Local's Guide to Juno Beach, Florida",
+    heroImage: '/images/juno-beach/juno-beach-021.jpg',
     body: `Juno Beach is so small you can learn it in a weekend — but living it like a local takes knowing a few things.
 
 ## Get your bearings
@@ -247,6 +249,7 @@ Lean into the quiet. Find your stretch of sand, get a pier-walk habit, support t
     primaryKeyword: 'best neighborhoods in Juno Beach Florida',
     secondaryKeywords: ['where to live in Juno Beach', 'Juno Isles', 'Seminole Landing', 'Juno Beach condos'],
     h1: 'Best Neighborhoods in Juno Beach, Florida',
+    heroImage: '/images/juno-beach/juno-beach-022.jpg',
     body: `Juno Beach is tiny, but it still offers a few distinct ways to live — from steps-to-the-sand condos to gated waterfront estates.
 
 **Oceanfront condos (Ocean Drive).** The classic Juno Beach choice — walk-to-the-water condo living with ocean views, popular with snowbirds and retirees who want lock-and-leave simplicity.
@@ -282,6 +285,7 @@ Lean into the quiet. Find your stretch of sand, get a pier-walk habit, support t
     primaryKeyword: 'things to do in Juno Beach Florida',
     secondaryKeywords: ['Juno Beach attractions', 'Loggerhead Marinelife Center', 'Juno Beach Pier', 'what to do in Juno Beach'],
     h1: 'Best Things to Do in Juno Beach, Florida',
+    heroImage: '/images/juno-beach/juno-beach-070.jpg',
     body: `For such a small town, Juno Beach gives you plenty — almost all of it within sight of the ocean.
 
 **Visit the Loggerhead Marinelife Center.** The town's crown jewel — a free sea-turtle hospital and education center where you can see rescued turtles up close. A must, especially with kids.
@@ -319,6 +323,7 @@ In summer, go early to beat the heat and the afternoon storms.`,
     primaryKeyword: 'who should move to Juno Beach Florida',
     secondaryKeywords: ['is Juno Beach right for me', 'should I move to Juno Beach', 'who lives in Juno Beach'],
     h1: "Who Should Move to Juno Beach, Florida (And Who Shouldn't)",
+    heroImage: '/images/juno-beach/juno-beach-025.jpg',
     body: `Juno Beach is a specific kind of place for a specific kind of person. Here's the honest version.
 
 **You'll love Juno Beach if you:**
@@ -359,6 +364,7 @@ In summer, go early to beat the heat and the afternoon storms.`,
     primaryKeyword: 'pros and cons of living in Juno Beach Florida',
     secondaryKeywords: ['Juno Beach pros and cons', 'living in Juno Beach downsides', 'is Juno Beach worth it'],
     h1: 'Pros and Cons of Living in Juno Beach, Florida',
+    heroImage: '/images/juno-beach/juno-beach-023.jpg',
     showMarketTrends: true,
     body: `## The Pros
 - **Gorgeous, uncrowded beaches** — the calmest, cleanest sand around.
@@ -399,6 +405,7 @@ In summer, go early to beat the heat and the afternoon storms.`,
     primaryKeyword: 'cost of living in Juno Beach Florida',
     secondaryKeywords: ['Juno Beach home prices', 'is Juno Beach expensive', 'Juno Beach FL cost of living'],
     h1: 'Cost of Living in Juno Beach, Florida',
+    heroImage: '/images/juno-beach/juno-beach-010.jpg',
     showMarketTrends: true,
     body: `Juno Beach runs above the national average, driven by its barrier-island, beachfront location. Here's the honest picture.
 ## Housing
@@ -437,6 +444,7 @@ Utilities and groceries track close to the Florida average; with limited in-town
     primaryKeyword: 'hidden gems in Juno Beach Florida',
     secondaryKeywords: ['Juno Beach secret spots', 'free things to do in Juno Beach', 'Juno Dunes Natural Area'],
     h1: 'Hidden Gems in Juno Beach, Florida',
+    heroImage: '/images/juno-beach/juno-beach-085.jpg',
     body: `Juno Beach hides its best moments in plain sight — quiet, free, and right by the water.
 
 **Juno Dunes Natural Area.** A peaceful preserve with two trails — one through coastal scrub, one toward the dunes — and almost never a crowd.
@@ -474,6 +482,7 @@ These are the free, low-key pleasures that make Juno Beach feel like home.`,
     primaryKeyword: 'Juno Beach vs nearby cities',
     secondaryKeywords: ['Juno Beach vs Jupiter', 'Juno Beach vs Singer Island', 'Juno Beach vs Palm Beach Gardens'],
     h1: 'Juno Beach vs Nearby Cities: How to Choose',
+    heroImage: '/images/juno-beach/juno-beach-026.jpg',
     showMarketTrends: true,
     body: `Trying to decide between Juno Beach and its neighbors? Here's the honest comparison.
 
@@ -510,6 +519,7 @@ These are the free, low-key pleasures that make Juno Beach feel like home.`,
     primaryKeyword: 'best restaurants in Juno Beach Florida',
     secondaryKeywords: ['where to eat in Juno Beach', 'Juno Beach seafood', "Captain Charlie's Reef Grill"],
     h1: 'Best Places to Eat, Drink & Hang Out in Juno Beach, Florida',
+    heroImage: '/images/juno-beach/juno-beach-027.jpg',
     body: `Juno Beach is small, so its dining scene is intimate — but it has a couple of genuine local legends, with plenty more minutes away.
 ## Local legends
 - **Captain Charlie's Reef Grill** — a beloved, no-frills seafood gem that locals (and in-the-know foodies) swear by. Often the first name a Juno Beach local will give you.
@@ -549,6 +559,7 @@ In Juno Beach, the real hangout is the **beach and the pier** — sunrise coffee
     primaryKeyword: "living in West Palm Beach Florida",
     secondaryKeywords: ["moving to West Palm Beach FL", "West Palm Beach lifestyle", "is West Palm Beach a good place to live", "West Palm Beach relocation"],
     h1: "What It's Really Like Living in West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/waterfront-024.jpg',
     body: `If the beach towns up the coast are about slowing down, West Palm Beach is about energy. This is the urban heart of the county — the place with a real downtown, a waterfront skyline, arts and nightlife, and a pace that actually feels like a city.
 
 ## A true downtown
@@ -590,6 +601,7 @@ It's a city, so expect more traffic, parking hassles downtown, and neighborhoods
     primaryKeyword: "West Palm Beach local guide",
     secondaryKeywords: ["West Palm Beach insider tips", "things locals do in West Palm Beach", "moving to West Palm Beach guide"],
     h1: "A Local's Guide to West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/west-palm-beach-003.jpeg',
     body: `West Palm rewards people who treat it like the real city it is. Here's the local playbook.
 
 ## Get your bearings
@@ -631,6 +643,7 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
     primaryKeyword: "best neighborhoods in West Palm Beach Florida",
     secondaryKeywords: ["where to live in West Palm Beach", "El Cid", "Flamingo Park", "SoSo West Palm Beach", "downtown West Palm Beach"],
     h1: "Best Neighborhoods in West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/waterfront-030.jpeg',
     body: `West Palm's neighborhoods are its superpower — there's a distinct one for almost every lifestyle.
 
 **Walkable urban → Downtown & Rosemary Square.** High-rise and mid-rise condos steps from Clematis, the waterfront, and the Brightline. For people who want to live in the action.
@@ -670,6 +683,7 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
     primaryKeyword: "things to do in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach attractions", "what to do in West Palm Beach", "Norton Museum", "Clematis Street"],
     h1: "Best Things to Do in West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/waterfront-028.jpeg',
     body: `As the urban hub, West Palm packs in more to do than anywhere nearby — culture, nightlife, waterfront, and even manatees.
 
 **Explore the arts.** The **Norton Museum of Art** is a regional gem, the **Kravis Center** hosts Broadway and concerts, and the **Ann Norton Sculpture Gardens** offer a quiet, beautiful escape.
@@ -709,6 +723,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
     primaryKeyword: "who should move to West Palm Beach Florida",
     secondaryKeywords: ["is West Palm Beach right for me", "should I move to West Palm Beach", "who lives in West Palm Beach"],
     h1: "Who Should Move to West Palm Beach, Florida (And Who Shouldn't)",
+    heroImage: '/images/west-palm-beach/west-palm-beach-017.jpeg',
     body: `West Palm Beach is the area's city — and that fits some people perfectly and others not at all.
 
 **You'll love West Palm Beach if you:**
@@ -750,6 +765,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
     primaryKeyword: "pros and cons of living in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach pros and cons", "living in West Palm Beach downsides", "is West Palm Beach worth it"],
     h1: "Pros and Cons of Living in West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/waterfront-035.jpeg',
     showMarketTrends: true,
     body: `## The Pros
 - **A real downtown** — walkable, with dining, nightlife, and events.
@@ -791,6 +807,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
     primaryKeyword: "cost of living in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach home prices", "is West Palm Beach expensive", "West Palm Beach FL cost of living"],
     h1: "Cost of Living in West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/waterfront-025.jpg',
     showMarketTrends: true,
     body: `West Palm Beach offers the widest cost range in the area — which is a big part of its appeal.
 ## Housing
@@ -829,6 +846,7 @@ As a city, dining, parking, and entertainment can add up, but you also get more 
     primaryKeyword: "hidden gems in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach secret spots", "free things to do in West Palm Beach", "Antique Row West Palm Beach"],
     h1: "Hidden Gems in West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/flagler-museum-2022-001.jpg',
     body: `West Palm's best stuff isn't always on the main drag. Here's where locals go.
 
 **Manatee Lagoon.** A free spot to watch manatees gather in the warm-water outflow in winter — quietly magical and great with kids.
@@ -868,6 +886,7 @@ These are the spots that make city living here feel like a community.`,
     primaryKeyword: "West Palm Beach vs nearby cities",
     secondaryKeywords: ["West Palm Beach vs Palm Beach", "West Palm Beach vs Palm Beach Gardens", "West Palm Beach vs Lake Worth"],
     h1: "West Palm Beach vs Nearby Cities: How to Choose",
+    heroImage: '/images/west-palm-beach/waterfront-024.jpg',
     showMarketTrends: true,
     body: `Deciding between West Palm and its neighbors? Here's the honest rundown.
 
@@ -904,6 +923,7 @@ These are the spots that make city living here feel like a community.`,
     primaryKeyword: "best restaurants in West Palm Beach Florida",
     secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach nightlife", "Clematis Street restaurants", "Grandview Public Market"],
     h1: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
+    heroImage: '/images/west-palm-beach/waterfront-028.jpeg',
     body: `As the area's city, West Palm has the deepest dining and nightlife scene around — clustered in a few key districts.
 ## The downtown core
 **Clematis Street** and **Rosemary Square** are the heart of it — restaurants, rooftop bars, and nightlife within walking distance, plus events like Clematis by Night.
@@ -951,6 +971,7 @@ For a night out, downtown (Clematis + Rosemary Square) is the move; for low-key 
       'West Palm Beach historic homes for sale',
     ],
     h1: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (And Why Buyers Keep Discovering It)',
+    heroImage: '/images/west-palm-beach/west-palm-beach-003.jpeg',
     body: `There's a version of West Palm Beach that doesn't make the tourist maps. No velvet ropes, no valet parking — just wide streets lined with historic homes, a string of independent galleries and restaurants, Intracoastal waterfront, and a neighborhood that has been quietly earning its reputation for years.
 
 That's Northwood Village. And if you've been researching **Northwood Village West Palm Beach homes**, you're probably starting to understand what the people who already live there already know: this is the neighborhood that gets under your skin.
@@ -2622,6 +2643,7 @@ This is a come-as-you-are, art-and-music town — happy hours, indie venues, and
     primaryKeyword: "living in Wellington Florida",
     secondaryKeywords: ["moving to Wellington FL", "Wellington lifestyle", "is Wellington a good place to live", "Wellington Florida relocation"],
     h1: "What It's Really Like Living in Wellington, Florida",
+    heroImage: '/images/wellington/wellington-001.jpeg',
     body: `Wellington is two things at once: one of the best family suburbs in Palm Beach County, and the **winter equestrian capital of the world.** Drive around and you'll pass top-rated schools and tidy gated neighborhoods one minute, then horse farms, bridle trails, and world-class show grounds the next.
 
 ## A family-first master-planned village
@@ -2663,6 +2685,7 @@ It's inland and car-dependent, equestrian season brings traffic and crowds (Jan�
     primaryKeyword: "Wellington Florida local guide",
     secondaryKeywords: ["Wellington insider tips", "things locals do in Wellington", "moving to Wellington guide"],
     h1: "A Local's Guide to Wellington, Florida",
+    heroImage: '/images/wellington/wellington-002.jpeg',
     body: `Wellington runs on two seasons and two worlds — knowing both makes living here click.
 
 ## Get your bearings
@@ -2704,6 +2727,7 @@ Decide your Wellington — family-neighborhood suburbia or the equestrian world 
     primaryKeyword: "best neighborhoods in Wellington Florida",
     secondaryKeywords: ["where to live in Wellington", "Grand Prix Village", "Binks Forest", "Olympia Wellington"],
     h1: "Best Neighborhoods in Wellington, Florida",
+    heroImage: '/images/wellington/wellington-003.jpeg',
     body: `Wellington's neighborhoods split between the horse world and family suburbia. By lifestyle:
 
 **Equestrian estates → Grand Prix Village, Palm Beach Point & Saddle Trail.** Multimillion-dollar horse farms with barns, arenas, and trail access near the show grounds — the heart of the global equestrian scene.
@@ -2739,6 +2763,7 @@ Decide your Wellington — family-neighborhood suburbia or the equestrian world 
     primaryKeyword: "things to do in Wellington Florida",
     secondaryKeywords: ["Wellington attractions", "what to do in Wellington FL", "Winter Equestrian Festival", "International Polo Club"],
     h1: "Best Things to Do in Wellington, Florida",
+    heroImage: '/images/wellington/wellington-004.jpeg',
     body: `Wellington offers a mix you won't find elsewhere — world-class equestrian sport alongside family parks and quiet nature.
 
 **Watch the horse shows.** The **Winter Equestrian Festival** is one of the largest in the world, with jumping and dressage competitions you can watch (often free) through the winter season.
@@ -2778,6 +2803,7 @@ In summer, hit the preserves early and let the mall and amphitheater fill the ho
     primaryKeyword: "who should move to Wellington Florida",
     secondaryKeywords: ["is Wellington right for me", "should I move to Wellington", "who lives in Wellington"],
     h1: "Who Should Move to Wellington, Florida (And Who Shouldn't)",
+    heroImage: '/images/wellington/wellington-005.jpeg',
     body: `Wellington is a specific lifestyle — perfect for some, too inland for others.
 
 **You'll love Wellington if you:**
@@ -2819,6 +2845,7 @@ In summer, hit the preserves early and let the mall and amphitheater fill the ho
     primaryKeyword: "pros and cons of living in Wellington Florida",
     secondaryKeywords: ["Wellington pros and cons", "living in Wellington downsides", "is Wellington worth it"],
     h1: "Pros and Cons of Living in Wellington, Florida",
+    heroImage: '/images/wellington/wellington-006.jpeg',
     showMarketTrends: true,
     body: `## The Pros
 - **Top-rated schools** — a major family draw.
@@ -2861,6 +2888,7 @@ In summer, hit the preserves early and let the mall and amphitheater fill the ho
     primaryKeyword: "cost of living in Wellington Florida",
     secondaryKeywords: ["Wellington home prices", "is Wellington expensive", "Wellington FL cost of living"],
     h1: "Cost of Living in Wellington, Florida",
+    heroImage: '/images/wellington/wellington-007.jpeg',
     showMarketTrends: true,
     body: `Wellington's cost of living spans an enormous range — from attainable family homes to some of the priciest horse estates in the country.
 ## Housing
@@ -2902,6 +2930,7 @@ Utilities and groceries track near the Florida average; dining ranges from every
     primaryKeyword: "hidden gems in Wellington Florida",
     secondaryKeywords: ["Wellington secret spots", "free things to do in Wellington", "Wellington Environmental Preserve"],
     h1: "Hidden Gems in Wellington, Florida",
+    heroImage: '/images/wellington/wellington-008.jpeg',
     body: `Wellington's nature and free experiences fly under the radar behind its famous horse scene.
 
 **Wellington Environmental Preserve.** A restored Everglades habitat (Section 24) with a long boardwalk and a observation tower overlooking wetlands full of gators and birds — free and stunning at sunrise.
@@ -2941,6 +2970,7 @@ These quiet, often-free gems are what make Wellington more than just horses and 
     primaryKeyword: "Wellington vs nearby cities",
     secondaryKeywords: ["Wellington vs Royal Palm Beach", "Wellington vs Palm Beach Gardens", "Wellington vs Loxahatchee"],
     h1: "Wellington vs Nearby Cities: How to Choose",
+    heroImage: '/images/wellington/wellington-001.jpeg',
     showMarketTrends: true,
     body: `Choosing between Wellington and its inland neighbors? The honest comparison:
 
@@ -2977,6 +3007,7 @@ These quiet, often-free gems are what make Wellington more than just horses and 
     primaryKeyword: "best restaurants in Wellington Florida",
     secondaryKeywords: ["where to eat in Wellington FL", "Wellington dining", "Wellington Green restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Wellington, Florida",
+    heroImage: '/images/wellington/wellington-002.jpeg',
     body: `Wellington's dining is family-friendly year-round, then turns surprisingly upscale during equestrian season.
 ## Around the Mall at Wellington Green
 The retail hub anchors a cluster of restaurants, from casual family spots to chains and sit-down favorites — the everyday go-to for most residents.
@@ -4575,6 +4606,7 @@ Stuart leans charming and laid-back — small-town friendly, water-focused, and 
     primaryKeyword: "living on Singer Island Florida",
     secondaryKeywords: ["moving to Singer Island FL", "Singer Island condos", "is Singer Island a good place to live", "Singer Island lifestyle"],
     h1: "What It's Really Like Living on Singer Island, Florida",
+    heroImage: '/images/singer-island/waterfront-001.jpeg',
     body: `Singer Island is the answer for people who want to live *on* the ocean — not near it. This barrier island in Riviera Beach is lined with oceanfront condo towers, wide beaches, and a relaxed resort vibe, just minutes from West Palm Beach and Palm Beach.
 
 ## Oceanfront condo living
@@ -4601,7 +4633,7 @@ It's condo-heavy, so **HOA fees and oceanfront insurance run high**, and there's
     internalLinks: ["best-neighborhoods-in-singer-island-florida", "best-things-to-do-in-singer-island-florida", "who-should-move-to-singer-island-florida"],
     funFact: "Singer Island is technically part of the City of Riviera Beach — but most residents identify with the island, not the mainland city. That distinction matters when you're researching neighborhoods: the island and the surrounding Riviera Beach mainland are very different places.",
     author: 'john',
-    published: false,
+    published: true,,
     updated: '2026-06-01',
   },
   {
@@ -4616,6 +4648,7 @@ It's condo-heavy, so **HOA fees and oceanfront insurance run high**, and there's
     primaryKeyword: "Singer Island local guide",
     secondaryKeywords: ["Singer Island insider tips", "things locals do on Singer Island", "moving to Singer Island guide"],
     h1: "A Local's Guide to Singer Island, Florida",
+    heroImage: '/images/singer-island/singer-island-0004.jpeg',
     body: `Singer Island is compact and beach-focused — easy to learn, easy to love.
 
 ## Get your bearings
@@ -4642,7 +4675,7 @@ Pick your spot — oceanfront tower or a Palm Beach Shores house — get in the 
     internalLinks: ["what-its-really-like-living-in-singer-island-florida", "best-things-to-do-in-singer-island-florida", "hidden-gems-in-singer-island-florida"],
     funFact: "Singer Island has two bridges to the mainland — a south bridge to Riviera Beach and a north bridge to PGA Boulevard and Palm Beach Gardens — but the island still feels like an island. Locals plan their day around bridge traffic in season, and that rhythm genuinely shapes the culture of life out there.",
     author: 'christine',
-    published: false,
+    published: true,,
     updated: '2026-06-01',
   },
   {
@@ -4657,6 +4690,7 @@ Pick your spot — oceanfront tower or a Palm Beach Shores house — get in the 
     primaryKeyword: "best neighborhoods on Singer Island Florida",
     secondaryKeywords: ["where to live on Singer Island", "Singer Island oceanfront condos", "Palm Beach Shores"],
     h1: "Best Neighborhoods & Areas on Singer Island, Florida",
+    heroImage: '/images/singer-island/singer-island-0003.jpeg',
     body: `Singer Island is mostly about *which kind of beach living* you want. By lifestyle:
 
 **Oceanfront condo towers → the central beachfront.** The island's signature — high-rise condos with Atlantic views, beach access, and resort amenities. The classic Singer Island lock-and-leave lifestyle, from luxury new towers to more attainable older buildings.
@@ -4692,6 +4726,7 @@ Pick your spot — oceanfront tower or a Palm Beach Shores house — get in the 
     primaryKeyword: "things to do on Singer Island Florida",
     secondaryKeywords: ["Singer Island attractions", "what to do on Singer Island", "MacArthur Beach State Park", "Peanut Island"],
     h1: "Best Things to Do on Singer Island, Florida",
+    heroImage: '/images/singer-island/waterfront-003.jpeg',
     body: `For a small island, Singer Island is packed with water-based things to do.
 
 **Hit the beaches.** Wide, beautiful Atlantic beaches are the main draw — swim, sun, and walk for miles.
@@ -4731,6 +4766,7 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
     primaryKeyword: "who should move to Singer Island Florida",
     secondaryKeywords: ["is Singer Island right for me", "should I move to Singer Island", "who lives on Singer Island"],
     h1: "Who Should Move to Singer Island, Florida (And Who Shouldn't)",
+    heroImage: '/images/singer-island/singer-island-0005.jpeg',
     body: `Singer Island is oceanfront condo living — perfect for some, wrong for others.
 
 **You'll love Singer Island if you:**
@@ -4773,6 +4809,7 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
     primaryKeyword: "pros and cons of living on Singer Island Florida",
     secondaryKeywords: ["Singer Island pros and cons", "living on Singer Island downsides", "is Singer Island worth it"],
     h1: "Pros and Cons of Living on Singer Island, Florida",
+    heroImage: '/images/singer-island/waterfront-005.jpeg',
     showMarketTrends: true,
     body: `## The Pros
 - **True oceanfront living** — condos with the beach downstairs and Atlantic views.
@@ -4815,6 +4852,7 @@ In summer, hit the water early; the beach, snorkeling, and diving are at their b
     primaryKeyword: "cost of living on Singer Island Florida",
     secondaryKeywords: ["Singer Island condo prices", "is Singer Island expensive", "Singer Island HOA fees"],
     h1: "Cost of Living on Singer Island, Florida",
+    heroImage: '/images/singer-island/singer-island-0007.jpeg',
     showMarketTrends: true,
     body: `Singer Island runs above the national average, driven by oceanfront condo prices and the costs of barrier-island living.
 ## Housing
@@ -4853,6 +4891,7 @@ High here — direct oceanfront exposure drives wind and flood costs. Some cover
     primaryKeyword: "hidden gems on Singer Island Florida",
     secondaryKeywords: ["Singer Island secret spots", "Blue Heron Bridge diving", "Peanut Island"],
     h1: "Hidden Gems on Singer Island, Florida",
+    heroImage: '/images/singer-island/waterfront-006.jpeg',
     body: `Singer Island's gems are all about the water — and they're world-class.
 
 **The Blue Heron Bridge dive site.** At Phil Foster Park, this shore dive is famous worldwide for its marine life — seahorses, octopus, rays, and more — accessible right from the beach at the right tide. A true bucket-list spot hiding in plain sight.
@@ -4890,6 +4929,7 @@ These water wonders are why island locals never want to leave.`,
     primaryKeyword: "Singer Island vs nearby cities",
     secondaryKeywords: ["Singer Island vs Jupiter", "Singer Island vs Juno Beach", "Singer Island vs Palm Beach"],
     h1: "Singer Island vs Nearby Cities: How to Choose",
+    heroImage: '/images/singer-island/waterfront-002.jpeg',
     showMarketTrends: true,
     body: `Choosing between Singer Island and the other beach options? Here's the honest comparison.
 
@@ -4915,7 +4955,7 @@ These water wonders are why island locals never want to leave.`,
     internalLinks: ["cost-of-living-in-singer-island-florida", "pros-and-cons-of-living-in-singer-island-florida", "what-its-really-like-living-in-singer-island-florida"],
     funFact: "Singer Island sits directly across from Palm Beach — one of the wealthiest barrier islands in the world. About a mile of the Lake Worth Lagoon separates them. That proximity is part of what gives Singer Island its appeal: comparable ocean views and water access at a fraction of the cost.",
     author: 'christine',
-    published: false,
+    published: true,,
     updated: '2026-06-01',
   },
   {
@@ -4930,6 +4970,7 @@ These water wonders are why island locals never want to leave.`,
     primaryKeyword: "best restaurants on Singer Island Florida",
     secondaryKeywords: ["where to eat on Singer Island", "Sailfish Marina", "Singer Island waterfront dining"],
     h1: "Best Places to Eat, Drink & Hang Out on Singer Island, Florida",
+    heroImage: '/images/singer-island/singer-island-0002.jpeg',
     body: `Singer Island's dining is beachy and waterfront, with the big-city scene a quick bridge away.
 ## On the water
 The **Sailfish Marina** in Palm Beach Shores is the iconic hangout — waterfront dining, daily fish feedings, sunset views, and a true marina vibe. It's the island's classic spot.
@@ -7396,6 +7437,7 @@ For a walkable night with dining, live music, and a waterfront boardwalk, Harbou
     primaryKeyword: "living in Palm Beach Gardens Florida",
     secondaryKeywords: ["moving to Palm Beach Gardens FL", "Palm Beach Gardens lifestyle", "is Palm Beach Gardens a good place to live", "PGA National"],
     h1: "What It's Really Like Living in Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-001.jpg',
     body: `Pull into Palm Beach Gardens and the first thing you notice is how intentional it all feels. Wide, tree-lined boulevards. Manicured medians. Golf courses tucked behind quiet gates. This isn't a town that grew by accident — it was planned that way, and it shows. If Jupiter is the laid-back beach town up the road, the Gardens is its more polished cousin.
 
 ## A city built on purpose
@@ -7441,6 +7483,7 @@ The Gardens is expensive, can feel corporate and manicured, and HOA/club fees ar
     primaryKeyword: "Palm Beach Gardens local guide",
     secondaryKeywords: ["Palm Beach Gardens insider tips", "things locals do in Palm Beach Gardens", "moving to Palm Beach Gardens guide"],
     h1: "A Local's Guide to Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/pbg-001.jpg',
     body: `Visitors see the Gardens Mall and a golf course or two. Locals know it's really four worlds stitched together by one big road.
 
 ## Get your bearings
@@ -7486,6 +7529,7 @@ Decide east or west first — coastal-convenient or gated golf value — and the
     primaryKeyword: "best neighborhoods in Palm Beach Gardens Florida",
     secondaryKeywords: ["where to live in Palm Beach Gardens", "BallenIsles", "Mirasol", "Alton Palm Beach Gardens"],
     h1: "Best Neighborhoods in Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-003.jpg',
     body: `There's no single "best" neighborhood in the Gardens — there's the best one for your life. By lifestyle:
 
 **Resort golf living → PGA National.** The town's signature golf destination — multiple championship courses, a resort and spa, and a huge range of homes from condos to estates.
@@ -7527,6 +7571,7 @@ Decide east or west first — coastal-convenient or gated golf value — and the
     primaryKeyword: "things to do in Palm Beach Gardens Florida",
     secondaryKeywords: ["Palm Beach Gardens attractions", "what to do in Palm Beach Gardens", "PGA National golf", "Downtown at the Gardens"],
     h1: "Best Things to Do in Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/pbg-003.jpg',
     body: `The Gardens is built for the good life — golf, shopping, green space, and the beach a short drive east.
 
 **Play (or watch) world-class golf.** Tee it up at **PGA National** or the budget-friendly municipal **Sandhill Crane Golf Club**, and every winter the **PGA Tour event at PGA National** brings the pros (and crowds) to town.
@@ -7566,6 +7611,7 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
     primaryKeyword: "who should move to Palm Beach Gardens Florida",
     secondaryKeywords: ["is Palm Beach Gardens right for me", "should I move to Palm Beach Gardens", "who lives in Palm Beach Gardens"],
     h1: "Who Should Move to Palm Beach Gardens, Florida (And Who Shouldn't)",
+    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-005.jpg',
     body: `The Gardens fits some people perfectly and leaves others wanting. The honest take:
 
 **You'll love Palm Beach Gardens if you:**
@@ -7608,6 +7654,7 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
     primaryKeyword: "pros and cons of living in Palm Beach Gardens Florida",
     secondaryKeywords: ["Palm Beach Gardens pros and cons", "living in Palm Beach Gardens downsides", "is Palm Beach Gardens worth it"],
     h1: "Pros and Cons of Living in Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/pbg-005.jpg',
     showMarketTrends: true,
     body: `Palm Beach Gardens is one of the most refined places to live in South Florida — and that comes with some real trade-offs worth understanding before you move.
 
@@ -7664,6 +7711,7 @@ Palm Beach Gardens delivers safety, schools, world-class golf, and everyday conv
     primaryKeyword: "cost of living in Palm Beach Gardens Florida",
     secondaryKeywords: ["Palm Beach Gardens home prices", "is Palm Beach Gardens expensive", "PGA National home prices"],
     h1: "Cost of Living in Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-007.jpg',
     showMarketTrends: true,
     body: `Palm Beach Gardens runs above the national average — it's a desirable, well-kept town and the costs reflect it.
 
@@ -7707,6 +7755,7 @@ Utilities and groceries are near the Florida average; dining out trends higher.
     primaryKeyword: "hidden gems in Palm Beach Gardens Florida",
     secondaryKeywords: ["Palm Beach Gardens secret spots", "free things to do in Palm Beach Gardens", "Loxahatchee Slough Natural Area"],
     h1: "Hidden Gems in Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/pbg-002.jpg',
     body: `Everyone knows the mall and PGA National. The locals' Gardens is quieter and greener than visitors expect.
 
 **Loxahatchee Slough Natural Area.** A vast wetland preserve right in town — trails, a boardwalk, and serious birdwatching. It feels worlds away from PGA Boulevard.
@@ -7746,6 +7795,7 @@ These quiet, often-free spots make the Gardens feel like a community, not just a
     primaryKeyword: "Palm Beach Gardens vs nearby cities",
     secondaryKeywords: ["Palm Beach Gardens vs Jupiter", "Palm Beach Gardens vs West Palm Beach", "Palm Beach Gardens vs North Palm Beach"],
     h1: "Palm Beach Gardens vs Nearby Cities: How to Choose",
+    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-002.jpg',
     showMarketTrends: true,
     body: `Deciding between the Gardens and the towns around it? Here's the honest comparison.
 
@@ -7782,6 +7832,7 @@ These quiet, often-free spots make the Gardens feel like a community, not just a
     primaryKeyword: "best restaurants in Palm Beach Gardens Florida",
     secondaryKeywords: ["where to eat in Palm Beach Gardens", "Downtown at the Gardens restaurants", "PGA Commons"],
     h1: "Best Places to Eat, Drink & Hang Out in Palm Beach Gardens, Florida",
+    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-004.jpg',
     body: `The Gardens' dining is upscale and clustered in a few polished districts.
 ## Downtown at the Gardens
 The social heart for casual nights out — open-air dining, a movie theater, and a carousel for families. Spots here cover everything from farm-to-table to lively bar-and-grill energy.
@@ -7824,6 +7875,7 @@ For an easy evening, Downtown at the Gardens and PGA Commons give you walkable d
     primaryKeyword: "living in North Palm Beach Florida",
     secondaryKeywords: ["moving to North Palm Beach FL", "North Palm Beach lifestyle", "is North Palm Beach a good place to live", "North Palm Beach village"],
     h1: "What It's Really Like Living in North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-001.jpg',
     body: `North Palm Beach is the kind of place people stumble into and never leave. It's a small waterfront village — not a sprawling suburb, not a glitzy resort town — tucked along the Intracoastal between Palm Beach Gardens and the ocean. And it has a secret weapon: water, everywhere.
 
 ## A boater's town
@@ -7865,6 +7917,7 @@ It's a small village, so big-city amenities mean a short drive to Palm Beach Gar
     primaryKeyword: "North Palm Beach local guide",
     secondaryKeywords: ["North Palm Beach insider tips", "things locals do in North Palm Beach", "moving to North Palm Beach guide"],
     h1: "A Local's Guide to North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-002.jpg',
     body: `North Palm is small enough to learn fast and charming enough to keep surprising you. Here's the insider version.
 
 ## Get your bearings
@@ -7906,6 +7959,7 @@ Join the country club, find a spot at the marina, and lean into the water life. 
     primaryKeyword: "best neighborhoods in North Palm Beach Florida",
     secondaryKeywords: ["where to live in North Palm Beach", "Lost Tree Village", "Old Port Cove", "North Palm Beach waterfront"],
     h1: "Best Neighborhoods in North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-003.jpg',
     body: `North Palm is small, but its neighborhoods range from ultra-exclusive to friendly and attainable. By lifestyle:
 
 North Palm Beach is a great family town, and its neighborhoods cover a wide range — from ultra-exclusive waterfront to attainable village charm. By lifestyle:
@@ -7947,6 +8001,7 @@ North Palm Beach is a great family town, and its neighborhoods cover a wide rang
     primaryKeyword: "things to do in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach attractions", "what to do in North Palm Beach", "North Palm Beach Country Club", "Anchorage Park"],
     h1: "Best Things to Do in North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-004.jpg',
     body: `For a small village, North Palm packs in a lot — most of it on or near the water.
 
 **Play the Nicklaus municipal course.** The **North Palm Beach Country Club** offers a golf course redesigned by Jack Nicklaus that's open to the public — a genuinely rare thing — plus tennis, pickleball, a pool, and a waterfront restaurant.
@@ -7986,6 +8041,7 @@ In summer, the water is the place to be — cooling breezes off the Intracoastal
     primaryKeyword: "who should move to North Palm Beach Florida",
     secondaryKeywords: ["is North Palm Beach right for me", "should I move to North Palm Beach", "who lives in North Palm Beach"],
     h1: "Who Should Move to North Palm Beach, Florida (And Who Shouldn't)",
+    heroImage: '/images/north-palm-beach/north-palm-005.jpg',
     body: `North Palm Beach is as much a golf town as it is a boating town — and the Village of North Palm Beach is especially waterfront-oriented. Here's who it fits.
 
 > **Quick note on geography:** The *Village of North Palm Beach* is the incorporated village — more concentrated, more waterfront, more Intracoastal. "North Palm Beach" as a broader area includes homes on golf courses, established interior streets, and more. Both are wonderful; just worth knowing which you're looking at.
@@ -8029,6 +8085,7 @@ In summer, the water is the place to be — cooling breezes off the Intracoastal
     primaryKeyword: "pros and cons of living in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach pros and cons", "living in North Palm Beach downsides", "is North Palm Beach worth it"],
     h1: "Pros and Cons of Living in North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-006.jpg',
     showMarketTrends: true,
     body: `## The Pros
 - **Waterfront & boating** — canals, marinas, and Intracoastal access at relatively attainable prices.
@@ -8070,6 +8127,7 @@ In summer, the water is the place to be — cooling breezes off the Intracoastal
     primaryKeyword: "cost of living in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach home prices", "is North Palm Beach affordable", "North Palm Beach FL cost of living"],
     h1: "Cost of Living in North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-007.jpg',
     showMarketTrends: true,
     body: `North Palm Beach sits above the national average — but it's often **more attainable than its glossier neighbors**, which is a big part of its appeal.
 ## Housing
@@ -8112,6 +8170,7 @@ Utilities and groceries track close to the Florida average.
     primaryKeyword: "hidden gems in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach secret spots", "free things to do in North Palm Beach", "MacArthur Beach State Park"],
     h1: "Hidden Gems in North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-008.jpeg',
     body: `The village hides its best stuff in plain sight along the water.
 
 **The public Nicklaus course.** It bears repeating — a Jack Nicklaus–redesigned golf course you don't need a six-figure membership to play is a genuine hidden gem.
@@ -8151,6 +8210,7 @@ These low-key, often-free spots are the heart of village life in North Palm Beac
     primaryKeyword: "North Palm Beach vs nearby cities",
     secondaryKeywords: ["North Palm Beach vs Palm Beach Gardens", "North Palm Beach vs Jupiter", "North Palm Beach vs Singer Island"],
     h1: "North Palm Beach vs Nearby Cities: How to Choose",
+    heroImage: '/images/north-palm-beach/north-palm-001.jpg',
     showMarketTrends: true,
     body: `Choosing between North Palm Beach and its neighbors? Here's the honest comparison.
 
@@ -8187,6 +8247,7 @@ These low-key, often-free spots are the heart of village life in North Palm Beac
     primaryKeyword: "best restaurants in North Palm Beach Florida",
     secondaryKeywords: ["where to eat in North Palm Beach", "North Palm Beach waterfront dining", "North Palm Beach Country Club restaurant"],
     h1: "Best Places to Eat, Drink & Hang Out in North Palm Beach, Florida",
+    heroImage: '/images/north-palm-beach/north-palm-002.jpg',
     body: `North Palm's dining is low-key and water-leaning — exactly the village's style.
 ## On the water
 - **The North Palm Beach Country Club restaurant** — a relaxed, scenic meal on the water, open to the public.
