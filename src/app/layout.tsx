@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
-import { GoogleTagManager } from '@next/third-parties/google'
+import Script from 'next/script'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -40,7 +40,16 @@ export default function RootLayout({
         <div className="flex-1">{children}</div>
         <Footer />
       </body>
-      <GoogleTagManager gtmId="G-24154P036M" />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-24154P036M"
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-init" strategy="afterInteractive">{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-24154P036M');
+      `}</Script>
     </html>
   )
 }
