@@ -1,4 +1,5 @@
 import siteMap from '@/lib/siteMap.json'
+import { cities } from '@/lib/communities'
 import CityHub from '@/components/templates/CityHub'
 import CategoryPage from '@/components/templates/CategoryPage'
 import CommunityPage from '@/components/templates/CommunityPage'
@@ -22,7 +23,8 @@ export default async function Page({ params }: { params: Promise<{ slug?: string
   }
 
   if (slug.length === 1) {
-    return <CityHub data={city} citySlug={cityKey} />
+    const cityData = cities.find(c => c.slug === cityKey)
+    return <CityHub data={city} citySlug={cityKey} cityData={cityData} />
   }
 
   if (slug.length === 2) {

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
+import YlopoInit from '@/components/YlopoInit'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import GreatSchoolsCard from '@/components/GreatSchoolsCard'
 
@@ -31,6 +32,7 @@ export default function CommunityPage({
 
   return (
     <main className="min-h-screen bg-white">
+      <YlopoInit city={data.name} />
       <Breadcrumbs
         items={[
           { label: data.name, href: `/${cityKey}` },
