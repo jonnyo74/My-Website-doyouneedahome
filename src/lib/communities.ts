@@ -745,8 +745,6 @@ export const cities: CommunityItem[] = [
     ],
     hasMembershipCommunities: true,
     popularNeighborhoods: ['Royal Palm Yacht & CC', 'Boca West', 'Broken Sound', 'Woodfield Country Club', 'Addison Reserve', 'Boca del Mar', 'Long Lake Estates'],
-    photos: [
-    ],
     savedSearches: [
       { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
       { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },

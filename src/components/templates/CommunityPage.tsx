@@ -4,6 +4,7 @@ import Link from 'next/link'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import GreatSchoolsCard from '@/components/GreatSchoolsCard'
 
 export default function CommunityPage({
   data,
@@ -159,6 +160,12 @@ export default function CommunityPage({
       <section className="py-12 sm:py-20">
         <div className="mx-auto max-w-4xl px-6 sm:px-8">
           <YlopoResultsWidget city={data.name} />
+        </div>
+      </section>
+
+      <section className="py-12 sm:py-20">
+        <div className="mx-auto max-w-4xl px-6 sm:px-8">
+          <GreatSchoolsCard citySlug={cityKey} cityName={data.name} />
         </div>
       </section>
 

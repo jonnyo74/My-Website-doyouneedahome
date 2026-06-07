@@ -8,8 +8,9 @@ import SubCommunity from '@/components/templates/SubCommunity'
 export const dynamicParams = true
 export const revalidate = 60
 
-export default function Page({ params }: { params: { slug?: string[] } }) {
-  const slug = params.slug ?? []
+export default async function Page({ params }: { params: Promise<{ slug?: string[] }> }) {
+  const { slug: rawSlug } = await params
+  const slug = rawSlug ?? []
   if (slug.length === 0) {
     return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">Page not found</div>
   }
