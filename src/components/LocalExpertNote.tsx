@@ -11,7 +11,7 @@ const AUTHORS = {
   },
   christine: {
     name: 'Christine Dekant',
-    title: 'Realtor, DO Homes Group',
+    title: 'REALTOR® · RENE · GRI · CLA · CPRES · REDM · C2EX',
     photo: '/images/christine.jpg',
   },
 }

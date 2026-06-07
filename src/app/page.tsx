@@ -83,7 +83,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-5">
                   <p className="font-semibold text-white">Christine Dekant</p>
-                  <p className="text-xs text-white/80">REALTOR® · RENE · GRI · CLA</p>
+                  <p className="text-xs text-white/80">REALTOR® · RENE · GRI · CLA · CPRES · REDM · C2EX</p>
                 </div>
               </div>
               <div className="relative mt-10 aspect-[3/4] w-1/2 overflow-hidden rounded-3xl bg-slate-700 shadow-2xl ring-1 ring-white/10">
