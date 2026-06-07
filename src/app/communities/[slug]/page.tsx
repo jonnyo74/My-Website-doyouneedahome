@@ -95,6 +95,9 @@ export default async function CommunityPage({ params }: Props) {
           />
           {/* Overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+          {community.photoCredits?.[0] && (
+            <span className="absolute bottom-2 right-3 text-[10px] text-white/40">{community.photoCredits[0]}</span>
+          )}
 
           {/* Content */}
           <div className="absolute inset-0 flex flex-col justify-end px-6 pb-12 sm:px-8">

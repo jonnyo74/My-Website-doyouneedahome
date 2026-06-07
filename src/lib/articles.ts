@@ -24,6 +24,7 @@ export interface Article {
   secondaryKeywords: string[]
   h1: string
   heroImage?: string
+  heroImageCredit?: string   // e.g. 'Photo by Jane Doe / Unsplash'
   body: string                // markdown-lite
   faqs: Faq[]
   internalLinks?: string[]    // related article slugs
@@ -1459,6 +1460,8 @@ Delray is a *go-out* town — happy hours, live music, and late dinners are the 
     primaryKeyword: "living in Boca Raton Florida",
     secondaryKeywords: ["moving to Boca Raton FL", "Boca Raton lifestyle", "is Boca Raton a good place to live", "Boca Raton relocation"],
     h1: "What It's Really Like Living in Boca Raton, Florida",
+    heroImage: '/public/Boca Raton/boca-mizner-park.jpg',
+    heroImageCredit: 'Photo by Alexander Donev / Unsplash',
     body: `Boca Raton is South Florida with its collar pressed. It's upscale, planned, and polished — pink Mediterranean architecture, manicured medians, top schools, and a real corporate and country-club backbone. If Delray is the funky artist, Boca is the successful executive.
 
 ## Refined and intentional

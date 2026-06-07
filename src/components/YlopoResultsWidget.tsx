@@ -12,7 +12,7 @@ export default function YlopoResultsWidget({ city, neighborhood, minPrice = 6000
     ? { neighborhood, city, state: 'FL' }
     : { city, state: 'FL' }
 
-  const search: Record<string, unknown> = { locations: [location], limit, minPrice }
+  const search: Record<string, unknown> = { locations: [location], limit, minPrice, sortBy: 'listdate' }
   if (propertyTypes?.length) search.propertyTypes = propertyTypes
 
   return (

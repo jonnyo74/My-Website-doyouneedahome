@@ -100,6 +100,9 @@ export default async function ArticlePage({ params }: Props) {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={article.heroImage} alt={article.h1} className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+          {article.heroImageCredit && (
+            <span className="absolute bottom-2 right-3 text-[10px] text-white/40">{article.heroImageCredit}</span>
+          )}
           <div className="absolute inset-0 flex flex-col justify-end px-6 pb-10 sm:px-8">
             <div className="mx-auto w-full max-w-3xl">
               <nav className="mb-4 flex items-center gap-2 text-xs text-white/70">

@@ -13,6 +13,7 @@ export interface CommunityItem {
   hasMembershipCommunities?: boolean
   highlights?: string[]
   photos?: string[]
+  photoCredits?: string[]  // parallel to photos — e.g. 'Photo by Jane Doe / Unsplash'
   // Curated saved-search buttons (real saved URLs from search.doyouneedahome.com — never auto-generated)
   savedSearches?: Array<{ label: string; sublabel?: string; url: string }>
 
@@ -692,6 +693,18 @@ export const cities: CommunityItem[] = [
       { destination: 'Tri-Rail (Boca Station)', time: '5 min' },
     ],
     linkedNeighborhoods: ['broken-sound', 'boca-west', 'royal-palm-yacht-cc', 'woodfield-country-club', 'delaire-country-club'],
+    photos: [
+      '/public/Boca Raton/boca-mizner-park.jpg',
+      '/public/Boca Raton/boca-oceanfront.jpg',
+      '/public/Boca Raton/boca-mizner-plaza.jpg',
+      '/public/Boca Raton/boca-luxury-pool.jpg',
+    ],
+    photoCredits: [
+      'Photo by Alexander Donev / Unsplash',
+      'Photo by Nigel Sarrag / Unsplash',
+      'Photo by Valeriia Neganova / Unsplash',
+      'Photo by Brian Zajac / Unsplash',
+    ],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$300K – $900K', minPrice: 300000, maxPrice: 900000, propertyTypes: ['condo'] },
       { type: 'Single-Family Homes', range: '$700K – $2.5M', minPrice: 700000 },
