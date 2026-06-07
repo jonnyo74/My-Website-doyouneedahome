@@ -314,71 +314,6 @@ export default async function CommunityPage({ params }: Props) {
         </div>
       </section>
 
-      {/* ── Photo Gallery ──────────────────────────────────────────── */}
-      {galleryPhotos.length > 0 && (
-        <section className="px-6 pt-12 sm:px-8">
-          <div className="mx-auto max-w-7xl">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
-              A Look at {community.name}
-            </p>
-
-            {/* Desktop bento grid (4+ photos) */}
-            {galleryPhotos.length >= 4 && (
-              <div className="hidden overflow-hidden rounded-2xl md:grid md:h-[460px] md:grid-cols-3 md:grid-rows-2 md:gap-1.5">
-                <div className="relative col-span-1 row-span-2 overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={galleryPhotos[0]}
-                    alt={`${community.name} 1`}
-                    className="h-full w-full object-cover transition duration-500 hover:scale-105"
-                  />
-                </div>
-                {galleryPhotos.slice(1, 5).map((src, i) => (
-                  <div key={i} className="relative overflow-hidden">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={src}
-                      alt={`${community.name} ${i + 2}`}
-                      className="h-full w-full object-cover transition duration-500 hover:scale-105"
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* Desktop simple row (1–3 photos) */}
-            {galleryPhotos.length < 4 && (
-              <div className="hidden gap-1.5 overflow-hidden rounded-2xl md:flex md:h-[340px]">
-                {galleryPhotos.map((src, i) => (
-                  <div key={i} className="relative flex-1 overflow-hidden">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={src}
-                      alt={`${community.name} ${i + 1}`}
-                      className="h-full w-full object-cover transition duration-500 hover:scale-105"
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* Mobile 2-col grid */}
-            <div className="grid grid-cols-2 gap-1.5 overflow-hidden rounded-2xl md:hidden">
-              {galleryPhotos.slice(0, 4).map((src, i) => (
-                <div key={i} className="relative aspect-[4/3] overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={src}
-                    alt={`${community.name} ${i + 1}`}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* ── Main content ───────────────────────────────────────────── */}
       <section className="px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-7xl">
@@ -436,6 +371,69 @@ export default async function CommunityPage({ params }: Props) {
                       </li>
                     ))}
                   </ul>
+                </div>
+              )}
+
+              {/* Photo Gallery */}
+              {galleryPhotos.length > 0 && (
+                <div>
+                  <p className="mb-4 text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
+                    A Look at {community.name}
+                  </p>
+
+                  {/* Desktop bento grid (4+ photos) */}
+                  {galleryPhotos.length >= 4 && (
+                    <div className="hidden overflow-hidden rounded-2xl md:grid md:h-[460px] md:grid-cols-3 md:grid-rows-2 md:gap-1.5">
+                      <div className="relative col-span-1 row-span-2 overflow-hidden">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={galleryPhotos[0]}
+                          alt={`${community.name} 1`}
+                          className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                        />
+                      </div>
+                      {galleryPhotos.slice(1, 5).map((src, i) => (
+                        <div key={i} className="relative overflow-hidden">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={src}
+                            alt={`${community.name} ${i + 2}`}
+                            className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Desktop simple row (1–3 photos) */}
+                  {galleryPhotos.length < 4 && (
+                    <div className="hidden gap-1.5 overflow-hidden rounded-2xl md:flex md:h-[340px]">
+                      {galleryPhotos.map((src, i) => (
+                        <div key={i} className="relative flex-1 overflow-hidden">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={src}
+                            alt={`${community.name} ${i + 1}`}
+                            className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Mobile 2-col grid */}
+                  <div className="grid grid-cols-2 gap-1.5 overflow-hidden rounded-2xl md:hidden">
+                    {galleryPhotos.slice(0, 4).map((src, i) => (
+                      <div key={i} className="relative aspect-[4/3] overflow-hidden">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={src}
+                          alt={`${community.name} ${i + 1}`}
+                          className="h-full w-full object-cover"
+                        />
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
 
