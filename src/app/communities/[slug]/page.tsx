@@ -45,9 +45,19 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params
   const community = getCommunityBySlug(slug)
   if (!community) return { title: 'Community not found' }
+  const ogImage = community.photos?.[0]
+    ? encodeURI(community.photos[0])
+    : '/images/og-image.jpg'
   return {
     title: `${community.name} Real Estate | DO Homes Group`,
     description: community.description,
+    openGraph: {
+      images: [{ url: ogImage, width: 1200, height: 630, alt: `${community.name} real estate` }],
+    },
+    twitter: {
+      card: 'summary_large_image' as const,
+      images: [ogImage],
+    },
   }
 }
 

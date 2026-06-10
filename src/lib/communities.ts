@@ -881,8 +881,8 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Tropic Isle', 'Pineapple Grove', 'The Estuary', 'Gulf Stream', 'Lake Ida', 'Country Club Acres', 'High Point'],
     photos: [
-      '/public/Delray Beach/Delray-beach.JPEG',
       '/public/Delray Beach/delray-beach-dining-atlantic-ave.JPEG',
+      '/public/Delray Beach/Delray-beach.JPEG',
       '/public/Delray Beach/delray-beach-pineapple-grove.JPEG',
       '/public/Delray Beach/delray-beach-modern-home.JPEG',
       '/public/Delray Beach/delray-beach-condo-1.JPEG',
