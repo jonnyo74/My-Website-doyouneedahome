@@ -881,6 +881,13 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Tropic Isle', 'Pineapple Grove', 'The Estuary', 'Gulf Stream', 'Lake Ida', 'Country Club Acres', 'High Point'],
     photos: [
+      '/public/Delray Beach/Delray-beach.JPEG',
+      '/public/Delray Beach/delray-beach-dining-atlantic-ave.JPEG',
+      '/public/Delray Beach/delray-beach-pineapple-grove.JPEG',
+      '/public/Delray Beach/delray-beach-modern-home.JPEG',
+      '/public/Delray Beach/delray-beach-condo-1.JPEG',
+      '/public/Delray Beach/delray-beach-dining-delray-marketplace.JPEG',
+      '/public/Delray Beach/delray-beach-silverball-museum.JPEG',
     ],
     savedSearches: [
       { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
