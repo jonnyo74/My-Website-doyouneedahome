@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Blog | DO Homes Group',
   description:
     'Real estate insights, market updates, and community guides for Palm Beach County and the Treasure Coast from Christine Dekant & John Oliver at Premier Brokers International.',
+  alternates: { canonical: '/blog' },
 }
 
 export default function BlogPage() {

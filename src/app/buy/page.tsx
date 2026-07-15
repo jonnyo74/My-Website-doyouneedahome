@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Buy a Home in Palm Beach County | DO Homes Group',
   description:
     'Search all MLS listings across Palm Beach County and the Treasure Coast. DO Homes Group at Premier Brokers International helps buyers find the right home.',
+  alternates: { canonical: '/buy' },
 }
 
 const steps = [

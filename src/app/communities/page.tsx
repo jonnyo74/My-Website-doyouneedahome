@@ -6,6 +6,7 @@ export const metadata = {
   title: 'Communities | DO Homes Group',
   description:
     'Explore Palm Beach County cities, neighborhoods, and gated communities — with local expertise from DO Homes Group at Premier Brokers International.',
+  alternates: { canonical: '/communities' },
 }
 
 export default function CommunitiesPage() {
@@ -22,7 +23,8 @@ export default function CommunitiesPage() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
             From beachfront Jupiter to the equestrian estates of Wellington, DO Homes Group serves
-            buyers and sellers across all 12 major cities and 40+ neighborhoods in Palm Beach County.
+            buyers and sellers across 21 cities and 60+ neighborhoods throughout Palm Beach County
+            and the Treasure Coast.
           </p>
         </div>
       </section>
@@ -34,7 +36,7 @@ export default function CommunitiesPage() {
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gold-600">Cities</p>
               <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
-                12 Markets, Deep Local Knowledge
+                21 Markets, Deep Local Knowledge
               </h2>
             </div>
             <p className="text-sm text-slate-500">Each city page includes neighborhoods, pricing, and lifestyle details.</p>

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Our Team | DO Homes Group',
   description:
     'Meet Christine Dekant and John Oliver — licensed REALTORS® serving Palm Beach County and the Treasure Coast with Premier Brokers International.',
+  alternates: { canonical: '/team' },
 }
 
 const agents = [

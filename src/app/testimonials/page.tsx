@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Client Testimonials | DO Homes Group',
   description:
     'Read client reviews for Christine Dekant and John Oliver at DO Homes Group, Premier Brokers International.',
+  alternates: { canonical: '/testimonials' },
 }
 
 const christinePhotos = [

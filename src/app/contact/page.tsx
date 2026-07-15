@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: 'Contact Us | DO Homes Group',
   description:
     'Contact DO Homes Group at Premier Brokers International. Call, email, or visit our Palm Beach Gardens office.',
+  alternates: { canonical: '/contact' },
 }
 
 const agents = [

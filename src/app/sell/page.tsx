@@ -1,10 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { getActiveListings } from '@/lib/listings'
+import ListingCard from '@/components/ListingCard'
 
 export const metadata: Metadata = {
   title: 'Sell Your Home | DO Homes Group',
   description:
     'List your Palm Beach County home with DO Homes Group at Premier Brokers International. Get a free valuation and expert marketing strategy.',
+  alternates: { canonical: '/sell' },
 }
 
 const steps = [
@@ -36,6 +39,8 @@ const steps = [
 ]
 
 export default function SellPage() {
+  const activeListings = getActiveListings()
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
@@ -98,10 +103,9 @@ export default function SellPage() {
             <h2 className="mt-3 font-serif text-3xl font-semibold text-slate-900">
               Local Knowledge. Proven Results.
             </h2>
-            <div className="mt-8 grid gap-6 sm:grid-cols-3">
+            <div className="mt-8 grid gap-6 sm:grid-cols-2">
               {[
-                { stat: '3 Days', label: 'Average days to contract for recent listings' },
-                { stat: '500+', label: 'Homes sold by Premier Brokers International across Palm Beach County' },
+                { stat: '24 Years', label: 'Combined real estate experience across our team' },
                 { stat: '5★', label: 'Client rating across all reviews' },
               ].map(({ stat, label }) => (
                 <div key={stat} className="rounded-2xl bg-slate-50 p-6 text-center">
@@ -113,6 +117,27 @@ export default function SellPage() {
           </div>
         </div>
       </section>
+
+      {/* Current Listings */}
+      {activeListings.length > 0 && (
+        <section className="bg-white px-6 py-16 sm:px-8">
+          <div className="mx-auto max-w-5xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-600">See Our Marketing</p>
+            <h2 className="mt-3 font-serif text-3xl font-semibold text-slate-900">
+              Homes We&apos;re Currently Marketing
+            </h2>
+            <p className="mt-3 max-w-2xl text-slate-600">
+              A look at how we present a listing — professional photography, a dedicated property
+              page, and a clear path for buyers to reach out.
+            </p>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2">
+              {activeListings.map((listing) => (
+                <ListingCard key={listing.slug} listing={listing} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Valuation CTA */}
       <section id="valuation" className="bg-gradient-to-br from-gold-700 to-gold-500 px-6 py-16 sm:px-8">

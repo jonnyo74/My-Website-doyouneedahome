@@ -49,8 +49,9 @@ export async function generateMetadata({ params }: Props) {
     ? encodeURI(community.photos[0])
     : '/images/og-image.jpg'
   return {
-    title: `${community.name} Real Estate | DO Homes Group`,
-    description: community.description,
+    title: community.metaTitle ?? `${community.name} Real Estate | DO Homes Group`,
+    description: community.metaDescription ?? community.description,
+    alternates: { canonical: `/communities/${slug}` },
     openGraph: {
       images: [{ url: ogImage, width: 1200, height: 630, alt: `${community.name} real estate` }],
     },

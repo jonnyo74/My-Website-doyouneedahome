@@ -1,8 +1,10 @@
 import type { MetadataRoute } from 'next'
 import { cities, neighborhoods } from '@/lib/communities'
 import { articles } from '@/lib/articles'
+import { listings } from '@/lib/listings'
+import { SITE_URL } from '@/lib/site'
 
-const BASE = 'https://www.doyouneedahome.com'
+const BASE = SITE_URL
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -38,5 +40,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     }))
 
-  return [...staticPages, ...cityPages, ...neighborhoodPages, ...blogPages]
+  const listingPages: MetadataRoute.Sitemap = listings
+    .filter((l) => l.status !== 'Sold')
+    .map((l) => ({
+      url: `${BASE}/listings/${l.slug}`,
+      changeFrequency: 'daily',
+      priority: 0.85,
+    }))
+
+  return [...staticPages, ...cityPages, ...neighborhoodPages, ...blogPages, ...listingPages]
 }

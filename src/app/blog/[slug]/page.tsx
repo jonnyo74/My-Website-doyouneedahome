@@ -13,8 +13,9 @@ import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
+import { SITE_URL } from '@/lib/site'
 
-const SITE = 'https://doyouneedahome.com'
+const SITE = SITE_URL
 const PHONE = { display: '(561) 786-3630', href: 'tel:+15617863630' }
 
 type Props = { params: Promise<{ slug: string }> }

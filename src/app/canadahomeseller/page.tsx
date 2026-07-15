@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Selling Your Florida Home as a Canadian | DO Homes Group',
   description:
     'Canadian snowbird selling your Palm Beach County property? DO Homes Group specializes in remote closings, FIRPTA guidance, and making the process simple from anywhere in Canada.',
+  alternates: { canonical: '/canadahomeseller' },
 }
 
 const steps = [

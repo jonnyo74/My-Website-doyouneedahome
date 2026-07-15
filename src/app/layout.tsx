@@ -3,6 +3,7 @@ import { Playfair_Display, Inter } from 'next/font/google'
 import Script from 'next/script'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { SITE_URL } from '@/lib/site'
 import './globals.css'
 
 const playfair = Playfair_Display({
@@ -18,7 +19,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.doyouneedahome.com'),
+  metadataBase: new URL(SITE_URL),
   title: 'DO Homes Group | Palm Beach County Real Estate',
   description: 'Buy or sell homes across Palm Beach County with DO Homes Group at Premier Brokers International. Luxury communities, waterfront estates, golf enclaves, and more.',
   openGraph: {

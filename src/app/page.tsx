@@ -1,7 +1,14 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
 import { cities } from '@/lib/communities'
+import { getActiveListings } from '@/lib/listings'
 import CommunityCard from '@/components/CommunityCard'
+import ListingCard from '@/components/ListingCard'
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+}
 
 const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
 
@@ -23,6 +30,8 @@ const stripPhotos = [
 ]
 
 export default function Home() {
+  const activeListings = getActiveListings()
+
   return (
     <main>
       {/* ── Hero ──────────────────────────────────────────────────── */}
@@ -137,6 +146,27 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ── Current Listings ─────────────────────────────────────── */}
+      {activeListings.length > 0 && (
+        <section className="bg-slate-50 px-6 py-20 sm:px-8">
+          <div className="mx-auto max-w-7xl space-y-10">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+              <div className="space-y-3">
+                <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-600">Current Listings</p>
+                <h2 className="font-serif text-3xl font-semibold text-slate-900 sm:text-4xl">
+                  Homes We&apos;re Currently Marketing
+                </h2>
+              </div>
+            </div>
+            <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              {activeListings.map((listing) => (
+                <ListingCard key={listing.slug} listing={listing} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── Photo Strip ───────────────────────────────────────────── */}
       <section className="px-6 sm:px-8">
