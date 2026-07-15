@@ -5,7 +5,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { cities } from '@/lib/communities'
 
-const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL'
+// No location filter — a bare state=FL param breaks Ylopo's search (returns
+// zero results); omitting locations entirely falls back to the account's
+// configured default market area, which actually works.
+const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1'
 
 const treasureCoastCities = cities.filter((c) => c.region === 'Treasure Coast')
 

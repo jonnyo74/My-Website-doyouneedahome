@@ -88,8 +88,10 @@ export default async function CommunityPage({ params }: Props) {
   // Alternate which agent leads per page
   const christineOnTop = community.slug.charCodeAt(0) % 2 === 0
   const quotes = getAgentQuotes(community.slug)
-  // For neighborhoods, search by parent city not the neighborhood name
-  const searchName = community.searchCity ?? community.name
+  // For neighborhoods, search by parent city not the neighborhood name — Ylopo's
+  // search only resolves real municipalities, not subdivision/community names
+  // (e.g. searching city="Abacoa" returns zero results; it must be "Jupiter").
+  const searchName = community.searchCity ?? parentCity?.name ?? community.name
 
   return (
     <div className="min-h-screen bg-white">
