@@ -357,7 +357,6 @@ export const listings: Listing[] = [
     county: 'St. Lucie',
     state: 'FL',
     zip: '34953',
-    subdivision: 'Port St. Lucie Section 12',
     legalDescription: 'Port St. Lucie - Section 12, Block 1290, Lot 38 (Map 44/07S)',
 
     price: 400000,
@@ -425,9 +424,8 @@ export const listings: Listing[] = [
     ],
 
     overview: [
-      "This three-bedroom home in Port St. Lucie's Section 12 has already had the hard work done. Fresh paint covers the interior from end to end, the kitchen cabinetry has been newly painted, and the backyard has a custom metal-roofed patio cover already built over a spacious paver patio — complete with lighting and a ceiling fan. There's room to add a screened enclosure later if a future owner wants one.",
+      "This three-bedroom home in Port St. Lucie has already had the hard work done. Fresh paint covers the interior from end to end, the kitchen cabinetry has been newly painted, and the backyard has a custom metal-roofed patio cover already built over a spacious paver patio — complete with lighting and a ceiling fan. There's room to add a screened enclosure later if a future owner wants one.",
       "The home sits on a quarter-acre with no HOA, a fully fenced backyard, and a neatly kept lawn framed by a soft blue exterior with real curb appeal. Inside, a split-bedroom layout, cathedral and vaulted ceilings, and a bonus den give the floor plan flexibility beyond the three bedrooms — room for a home office, playroom, or second sitting area.",
-      'The property is vacant, which means showings can be scheduled with real flexibility — no coordinating around a tenant or an owner still living in the home.',
     ],
 
     ownershipConsiderations: [
@@ -439,7 +437,7 @@ export const listings: Listing[] = [
     ],
 
     locationNotes: [
-      "Located off Port St. Lucie Boulevard in the established Section 12 neighborhood.",
+      "Located off Port St. Lucie Boulevard in an established Port St. Lucie neighborhood.",
       'Tradition Town Center, PGA Golf Club, and Clover Park (New York Mets spring training) are all within the greater Port St. Lucie area.',
       'The Savannas Preserve State Park and the St. Lucie River offer paddling, fishing, and outdoor recreation nearby.',
     ],
