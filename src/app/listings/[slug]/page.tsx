@@ -45,7 +45,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description =
     listing.metaDescription ??
     `${listing.propertyType} in ${listing.city}, ${listing.state}. ${listing.beds} bed, ${listing.bathsFull} bath, ${listing.livingSqft.toLocaleString()} sq ft. ${currency(listing.price)}.`
-  const ogImage = listing.heroPhoto ? `${SITE}${encodeURI(listing.heroPhoto.src)}` : `${SITE}/images/og-image.jpg`
+
+  // Prefer a pre-cropped 1200x630 social image. Falling back to the raw hero
+  // photo risks Facebook/LinkedIn cropping it oddly since listing photos aren't
+  // shot in the 1.91:1 ratio those platforms expect — so we only declare
+  // width/height when we know the image actually matches that ratio.
+  const ogPhoto = listing.ogImage ?? listing.heroPhoto
+  const ogImage = ogPhoto ? `${SITE}${encodeURI(ogPhoto.src)}` : `${SITE}/images/og-image.jpg`
+  const ogImageDims = listing.ogImage
+    ? { width: 1200, height: 630 }
+    : listing.heroPhoto
+      ? {}
+      : { width: 1440, height: 1080 }
 
   return {
     title,
@@ -56,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       url,
       type: 'website',
-      images: [{ url: ogImage, width: 1200, height: 630, alt: listing.address }],
+      images: [{ url: ogImage, ...ogImageDims, alt: listing.address }],
     },
     twitter: {
       card: 'summary_large_image' as const,
@@ -510,7 +521,9 @@ export default async function ListingPage({ params }: Props) {
               {/* Exterior, Pool & Outdoor Living */}
               {(listing.exteriorFeatures?.length || listing.pool || listing.lotFeatures?.length) && (
                 <div>
-                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Exterior, Pool & Outdoor Living</h2>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                    {listing.pool ? 'Exterior, Pool & Outdoor Living' : 'Exterior & Outdoor Living'}
+                  </h2>
                   <div className="mt-5 grid gap-6 sm:grid-cols-2">
                     {listing.pool && (
                       <FeatureList title="Pool" items={listing.pool.features ?? ['Private pool']} />

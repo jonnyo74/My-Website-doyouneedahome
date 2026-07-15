@@ -109,6 +109,10 @@ export interface Listing {
 
   virtualTourUrl?: string
   heroPhoto?: ListingPhoto
+  // Pre-cropped 1200x630 image for social/link previews (Facebook, LinkedIn, etc.)
+  // — falls back to heroPhoto if not set, but that risks an odd crop since hero
+  // photos aren't shot in the 1.91:1 ratio social platforms expect.
+  ogImage?: ListingPhoto
   photos: ListingPhoto[]
   floorPlan?: ListingPhoto
 
@@ -281,6 +285,10 @@ export const listings: Listing[] = [
       src: '/images/listings/6145-se-audubon-lane/01-exterior-front-twilight.jpg',
       alt: 'Twilight view of the front exterior of 6145 SE Audubon Lane in Hobe Sound, FL, showing the owned solar panel array on the roof',
     },
+    ogImage: {
+      src: '/images/listings/6145-se-audubon-lane/og-image.jpg',
+      alt: 'Twilight view of the front exterior of 6145 SE Audubon Lane in Hobe Sound, FL',
+    },
     photos: [
       { src: '/images/listings/6145-se-audubon-lane/02-exterior-front-day.jpg', alt: 'Daytime front exterior view of the single-story home with stone accents and attached garage' },
       { src: '/images/listings/6145-se-audubon-lane/03-exterior-front-day-2.jpg', alt: 'Front exterior and landscaped front yard' },
@@ -337,6 +345,205 @@ export const listings: Listing[] = [
 
     metaTitle: '6145 SE Audubon Lane: No-HOA Pool Home in Hobe Sound, FL',
     metaDescription: "3BR/2BA pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $615,000. Schedule your private showing today.",
+  },
+  {
+    slug: '982-sw-worcester-lane',
+    status: 'Active',
+    mlsNumber: 'R11155179DX',
+
+    address: '982 SW Worcester Lane',
+    city: 'Port St. Lucie',
+    citySlug: 'port-st-lucie',
+    county: 'St. Lucie',
+    state: 'FL',
+    zip: '34953',
+    subdivision: 'Port St. Lucie Section 12',
+    legalDescription: 'Port St. Lucie - Section 12, Block 1290, Lot 38 (Map 44/07S)',
+
+    price: 400000,
+    originalPrice: 420000,
+    pricePerSqft: 233.92,
+
+    propertyType: 'Single-Family Residence',
+    beds: 3,
+    bathsFull: 2,
+    bathsHalf: 0,
+    livingSqft: 1710,
+    livingSqftSource: 'Public Records',
+    totalUnderRoofSqft: 2232,
+    lotSqft: 10000,
+    lotAcres: 0.23,
+    yearBuilt: 2007,
+    stories: 1,
+    garageSpaces: 2,
+
+    waterfront: false,
+    hoa: { hasHoa: false, notes: 'No homeowners association, no membership fee, and no association-imposed restrictions on the property.' },
+
+    taxAnnual: 8040.83,
+    taxYear: 2025,
+
+    roof: 'Composition shingle',
+    cooling: ['Central air conditioning'],
+    heating: ['Central heat'],
+    constructionMaterials: ['Block', 'CBS', 'Concrete'],
+    stormProtection: 'Accordion/panel hurricane shutters (complete)',
+    sewer: 'Public sewer',
+    waterSource: 'Public',
+    zoning: 'RS-2PS',
+    gated: false,
+    utilities: ['Cable available', 'Sewer available', 'Water available'],
+    appliances: ['Dishwasher', 'Electric range', 'Microwave', 'Refrigerator', 'Washer', 'Water heater'],
+    interiorFeatures: ['Split-bedroom floor plan', 'Cathedral and vaulted ceilings', 'Central vacuum', 'Pantry', 'Bonus den'],
+    exteriorFeatures: ['Custom metal-roofed patio cover with lighting and a ceiling fan', 'Covered and open patio', 'Open porch'],
+    lotFeatures: ['Fully fenced backyard', 'Neatly kept lawn'],
+
+    pets: { allowed: true, notes: 'No pet restrictions noted on the listing.' },
+    furnished: 'Unfurnished',
+    occupancy: 'Vacant',
+
+    roomDimensions: [
+      { name: 'Living Room', dimensions: `14'0" x 14'0"`, level: 'Main' },
+      { name: 'Kitchen', dimensions: `10'0" x 10'0"`, level: 'Main' },
+      { name: 'Primary Bedroom', dimensions: `15'0" x 12'0"`, level: 'Main' },
+    ],
+
+    upgrades: [
+      { item: 'Fresh interior paint throughout' },
+      { item: 'Newly painted kitchen cabinetry' },
+      { item: 'Custom metal-roofed patio cover added over the paver patio' },
+    ],
+
+    highlights: [
+      'No HOA — no association fees or restrictions',
+      'Move-in ready with fresh interior paint throughout and newly painted kitchen cabinetry',
+      'Custom metal-roofed patio cover over a spacious paver patio, with lighting and a ceiling fan already in place',
+      'Fully fenced backyard with a neatly kept lawn — room to add a screened enclosure if desired',
+      'Split-bedroom floor plan with cathedral and vaulted ceilings plus a bonus den',
+      'Two-car attached garage',
+      'Vacant and easy to show, with flexible scheduling',
+    ],
+
+    overview: [
+      "This three-bedroom home in Port St. Lucie's Section 12 has already had the hard work done. Fresh paint covers the interior from end to end, the kitchen cabinetry has been newly painted, and the backyard has a custom metal-roofed patio cover already built over a spacious paver patio — complete with lighting and a ceiling fan. There's room to add a screened enclosure later if a future owner wants one.",
+      "The home sits on a quarter-acre with no HOA, a fully fenced backyard, and a neatly kept lawn framed by a soft blue exterior with real curb appeal. Inside, a split-bedroom layout, cathedral and vaulted ceilings, and a bonus den give the floor plan flexibility beyond the three bedrooms — room for a home office, playroom, or second sitting area.",
+      'The property is vacant, which means showings can be scheduled with real flexibility — no coordinating around a tenant or an owner still living in the home.',
+    ],
+
+    ownershipConsiderations: [
+      'Public water and sewer service — no well or septic system to maintain.',
+      'Storm protection is provided by accordion/panel hurricane shutters rather than impact windows.',
+      "Annual property taxes are currently $8,040.83 (2025), reflecting both city and county millage; buyers should confirm expected taxes after a sale with their agent or the St. Lucie County Property Appraiser, since assessments can change with a change in ownership or homestead status.",
+      'Accepted financing types include cash, conventional, FHA, and VA loans.',
+      'A standard resale — a home inspection is recommended, as with any purchase.',
+    ],
+
+    locationNotes: [
+      "Located off Port St. Lucie Boulevard in the established Section 12 neighborhood.",
+      'Tradition Town Center, PGA Golf Club, and Clover Park (New York Mets spring training) are all within the greater Port St. Lucie area.',
+      'The Savannas Preserve State Park and the St. Lucie River offer paddling, fishing, and outdoor recreation nearby.',
+    ],
+
+    assignedSchools: [
+      { level: 'Elementary', name: 'Windmill Point Elementary School' },
+      { level: 'Middle', name: 'Manatee Academy K-8' },
+      { level: 'High', name: 'St. Lucie West Centennial High School' },
+    ],
+
+    listingDateDisplay: 'January 15, 2026',
+    domCount: 179,
+    possession: 'Close of escrow; negotiable',
+    financingTermsAccepted: ['Cash', 'Conventional', 'FHA', 'VA Loan'],
+
+    virtualTourUrl: 'https://www.propertypanorama.com/982-SW-Worcester-Lane-Port-Saint-Lucie-FL-34953/unbranded',
+
+    heroPhoto: {
+      src: '/images/listings/982-sw-worcester-lane/01-exterior-twilight.jpg',
+      alt: 'Twilight view of the powder-blue front exterior of 982 SW Worcester Lane in Port St. Lucie, FL',
+    },
+    ogImage: {
+      src: '/images/listings/982-sw-worcester-lane/og-image.jpg',
+      alt: 'Twilight view of the powder-blue front exterior of 982 SW Worcester Lane in Port St. Lucie, FL',
+    },
+    photos: [
+      { src: '/images/listings/982-sw-worcester-lane/02-exterior-1.jpg', alt: 'Front exterior daytime view of the powder-blue single-story home' },
+      { src: '/images/listings/982-sw-worcester-lane/03-exterior-2.jpg', alt: 'Front exterior and driveway' },
+      { src: '/images/listings/982-sw-worcester-lane/04-exterior-3.jpg', alt: 'Front exterior view' },
+      { src: '/images/listings/982-sw-worcester-lane/05-exterior-4.jpg', alt: 'Front exterior and landscaping' },
+      { src: '/images/listings/982-sw-worcester-lane/06-exterior-5.jpg', alt: 'Front exterior daytime view' },
+      { src: '/images/listings/982-sw-worcester-lane/07-exterior-6.jpg', alt: 'Front exterior view' },
+      { src: '/images/listings/982-sw-worcester-lane/08-aerial-1.jpg', alt: 'Aerial view of the property and surrounding neighborhood' },
+      { src: '/images/listings/982-sw-worcester-lane/09-aerial-2.jpg', alt: 'Aerial view of the home and fenced backyard' },
+      { src: '/images/listings/982-sw-worcester-lane/10-aerial-3.jpg', alt: 'Aerial view of the property and lot' },
+      { src: '/images/listings/982-sw-worcester-lane/11-entrance.jpg', alt: 'Front entrance' },
+      { src: '/images/listings/982-sw-worcester-lane/12-foyer-1.jpg', alt: 'Entry foyer' },
+      { src: '/images/listings/982-sw-worcester-lane/13-foyer-2.jpg', alt: 'Foyer view' },
+      { src: '/images/listings/982-sw-worcester-lane/14-living-area-1.jpg', alt: 'Living room with cathedral ceiling' },
+      { src: '/images/listings/982-sw-worcester-lane/15-living-area-2.jpg', alt: 'Living room view' },
+      { src: '/images/listings/982-sw-worcester-lane/16-living-area-3.jpg', alt: 'Living room seating area' },
+      { src: '/images/listings/982-sw-worcester-lane/17-dining-area-1.jpg', alt: 'Formal dining area' },
+      { src: '/images/listings/982-sw-worcester-lane/18-dining-area-2.jpg', alt: 'Dining area view' },
+      { src: '/images/listings/982-sw-worcester-lane/19-dining-area-3.jpg', alt: 'Dining area' },
+      { src: '/images/listings/982-sw-worcester-lane/20-breakfast-nook-1.jpg', alt: 'Breakfast nook' },
+      { src: '/images/listings/982-sw-worcester-lane/21-breakfast-nook-2.jpg', alt: 'Breakfast nook seating area' },
+      { src: '/images/listings/982-sw-worcester-lane/22-breakfast-nook-3.jpg', alt: 'Breakfast nook adjoining the kitchen' },
+      { src: '/images/listings/982-sw-worcester-lane/23-kitchen-1.jpg', alt: 'Kitchen with newly painted cabinetry' },
+      { src: '/images/listings/982-sw-worcester-lane/24-kitchen-2.jpg', alt: 'Kitchen counters and appliances' },
+      { src: '/images/listings/982-sw-worcester-lane/25-kitchen-3.jpg', alt: 'Kitchen view' },
+      { src: '/images/listings/982-sw-worcester-lane/26-kitchen-4.jpg', alt: 'Kitchen cabinetry' },
+      { src: '/images/listings/982-sw-worcester-lane/27-family-area-1.jpg', alt: 'Family room' },
+      { src: '/images/listings/982-sw-worcester-lane/28-family-area-2.jpg', alt: 'Family room view' },
+      { src: '/images/listings/982-sw-worcester-lane/29-family-area-3.jpg', alt: 'Family room seating area' },
+      { src: '/images/listings/982-sw-worcester-lane/30-primary-bedroom-1.jpg', alt: 'Primary bedroom' },
+      { src: '/images/listings/982-sw-worcester-lane/31-primary-bedroom-2.jpg', alt: 'Primary bedroom with natural light' },
+      { src: '/images/listings/982-sw-worcester-lane/32-primary-bedroom-3.jpg', alt: 'Primary bedroom view' },
+      { src: '/images/listings/982-sw-worcester-lane/33-primary-bedroom-4.jpg', alt: 'Primary bedroom' },
+      { src: '/images/listings/982-sw-worcester-lane/34-primary-bedroom-5.jpg', alt: 'Primary bedroom closet area' },
+      { src: '/images/listings/982-sw-worcester-lane/35-primary-bedroom-6.jpg', alt: 'Primary bedroom' },
+      { src: '/images/listings/982-sw-worcester-lane/36-primary-bedroom-7.jpg', alt: 'Primary bedroom view' },
+      { src: '/images/listings/982-sw-worcester-lane/37-primary-bedroom-8.jpg', alt: 'Primary bedroom' },
+      { src: '/images/listings/982-sw-worcester-lane/38-primary-bedroom-9.jpg', alt: 'Primary bedroom' },
+      { src: '/images/listings/982-sw-worcester-lane/39-primary-bathroom-1.jpg', alt: 'Primary bathroom' },
+      { src: '/images/listings/982-sw-worcester-lane/40-primary-bathroom-2.jpg', alt: 'Primary bathroom vanity' },
+      { src: '/images/listings/982-sw-worcester-lane/41-primary-bathroom-3.jpg', alt: 'Primary bathroom view' },
+      { src: '/images/listings/982-sw-worcester-lane/42-primary-bathroom-4.jpg', alt: 'Primary bathroom shower' },
+      { src: '/images/listings/982-sw-worcester-lane/43-primary-bathroom-5.jpg', alt: 'Primary bathroom' },
+      { src: '/images/listings/982-sw-worcester-lane/44-guest-area.jpg', alt: 'Guest bedroom hallway area' },
+      { src: '/images/listings/982-sw-worcester-lane/45-guest-bedroom-a-1.jpg', alt: 'Guest bedroom A' },
+      { src: '/images/listings/982-sw-worcester-lane/46-guest-bedroom-a-2.jpg', alt: 'Guest bedroom A view' },
+      { src: '/images/listings/982-sw-worcester-lane/47-guest-bedroom-a-3.jpg', alt: 'Guest bedroom A' },
+      { src: '/images/listings/982-sw-worcester-lane/48-guest-bedroom-a-4.jpg', alt: 'Guest bedroom A closet' },
+      { src: '/images/listings/982-sw-worcester-lane/49-guest-bedroom-a-5.jpg', alt: 'Guest bedroom A' },
+      { src: '/images/listings/982-sw-worcester-lane/50-guest-bathroom-1.jpg', alt: 'Guest bathroom' },
+      { src: '/images/listings/982-sw-worcester-lane/51-guest-bathroom-2.jpg', alt: 'Guest bathroom vanity' },
+      { src: '/images/listings/982-sw-worcester-lane/52-guest-bedroom-b-1.jpg', alt: 'Guest bedroom B' },
+      { src: '/images/listings/982-sw-worcester-lane/53-guest-bedroom-b-2.jpg', alt: 'Guest bedroom B view' },
+      { src: '/images/listings/982-sw-worcester-lane/54-guest-bedroom-b-3.jpg', alt: 'Guest bedroom B' },
+      { src: '/images/listings/982-sw-worcester-lane/55-guest-bedroom-b-4.jpg', alt: 'Guest bedroom B closet' },
+      { src: '/images/listings/982-sw-worcester-lane/56-patio-1.jpg', alt: 'Covered paver patio with custom metal patio cover' },
+      { src: '/images/listings/982-sw-worcester-lane/57-patio-2.jpg', alt: 'Patio and fully fenced backyard' },
+      { src: '/images/listings/982-sw-worcester-lane/58-patio-3.jpg', alt: 'Patio view with ceiling fan and lighting' },
+      { src: '/images/listings/982-sw-worcester-lane/59-patio-4.jpg', alt: 'Patio and backyard lawn' },
+      { src: '/images/listings/982-sw-worcester-lane/60-patio-5.jpg', alt: 'Patio seating area' },
+      { src: '/images/listings/982-sw-worcester-lane/61-patio-6.jpg', alt: 'Patio and yard view' },
+      { src: '/images/listings/982-sw-worcester-lane/62-patio-7.jpg', alt: 'Backyard view from the patio' },
+      { src: '/images/listings/982-sw-worcester-lane/63-patio-8.jpg', alt: 'Fenced backyard and lawn' },
+      { src: '/images/listings/982-sw-worcester-lane/64-patio-9.jpg', alt: 'Patio and backyard' },
+      { src: '/images/listings/982-sw-worcester-lane/65-laundry-room-1.jpg', alt: 'Laundry room' },
+      { src: '/images/listings/982-sw-worcester-lane/66-laundry-room-2.jpg', alt: 'Laundry room with laundry tub' },
+      { src: '/images/listings/982-sw-worcester-lane/67-garage-1.jpg', alt: 'Two-car attached garage' },
+      { src: '/images/listings/982-sw-worcester-lane/68-garage-2.jpg', alt: 'Garage interior view' },
+      { src: '/images/listings/982-sw-worcester-lane/69-garage-3.jpg', alt: 'Garage view' },
+      { src: '/images/listings/982-sw-worcester-lane/70-exit-1.jpg', alt: 'Side exit view' },
+      { src: '/images/listings/982-sw-worcester-lane/71-exit-2.jpg', alt: 'Side exit and yard access' },
+    ],
+
+    listingAgent: JOHN,
+    coListingAgent: CHRISTINE,
+    brokerage: 'Premier Brokers International',
+
+    metaTitle: '982 SW Worcester Lane: Move-In Ready No-HOA Home in Port St. Lucie, FL',
+    metaDescription: 'Move-in-ready 3BR/2BA home in Port St. Lucie — no HOA, fresh paint, custom patio cover, fully fenced yard. $400,000. Vacant and easy to show.',
   },
 ]
 
