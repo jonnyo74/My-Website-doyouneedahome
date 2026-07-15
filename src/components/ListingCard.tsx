@@ -1,10 +1,30 @@
+'use client'
+
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import type { Listing } from '@/lib/listings'
 
-export default function ListingCard({ listing }: { listing: Listing }) {
+export default function ListingCard({ listing, index = 0 }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
     ? `${listing.bathsFull}.${listing.bathsHalf === 1 ? 5 : listing.bathsHalf}`
     : `${listing.bathsFull}`
+
+  // Best three: hero shot plus the first two gallery photos (curated exterior shots).
+  const photos = [listing.heroPhoto, ...listing.photos]
+    .filter((p): p is { src: string; alt: string } => Boolean(p))
+    .slice(0, 3)
+
+  const [active, setActive] = useState(0)
+  // Stagger rotation speed per card so multiple cards don't crossfade in sync.
+  const intervalMs = 3800 + (index % 3) * 1100
+
+  useEffect(() => {
+    if (photos.length <= 1) return
+    const id = setInterval(() => {
+      setActive((i) => (i + 1) % photos.length)
+    }, intervalMs)
+    return () => clearInterval(id)
+  }, [photos.length, intervalMs])
 
   return (
     <Link
@@ -13,17 +33,22 @@ export default function ListingCard({ listing }: { listing: Listing }) {
     >
       {/* Photo thumbnail */}
       <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
-        {listing.heroPhoto ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={listing.heroPhoto.src}
-            alt={listing.heroPhoto.alt}
-            className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-          />
+        {photos.length > 0 ? (
+          photos.map((photo, i) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              key={photo.src}
+              src={photo.src}
+              alt={photo.alt}
+              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ease-in-out ${
+                i === active ? 'opacity-100' : 'opacity-0'
+              }`}
+            />
+          ))
         ) : (
           <div className="h-full w-full bg-gradient-to-br from-sky-100 via-blue-50 to-slate-100" />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
         <span className="absolute left-4 top-3 rounded-full bg-emerald-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
           {listing.status}
         </span>

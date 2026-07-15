@@ -131,8 +131,8 @@ export default function SellPage() {
               page, and a clear path for buyers to reach out.
             </p>
             <div className="mt-8 grid gap-6 sm:grid-cols-2">
-              {activeListings.map((listing) => (
-                <ListingCard key={listing.slug} listing={listing} />
+              {activeListings.map((listing, i) => (
+                <ListingCard key={listing.slug} listing={listing} index={i} />
               ))}
             </div>
           </div>

@@ -160,8 +160,8 @@ export default function Home() {
               </div>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-              {activeListings.map((listing) => (
-                <ListingCard key={listing.slug} listing={listing} />
+              {activeListings.map((listing, i) => (
+                <ListingCard key={listing.slug} listing={listing} index={i} />
               ))}
             </div>
           </div>
