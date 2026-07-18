@@ -595,6 +595,36 @@ export default async function CommunityPage({ params }: Props) {
               )}
 
               {/* Schools */}
+              {/* Sister-site hand-off (e.g. WPB → CondoWPB.com) */}
+              {community.sisterSite && (
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
+                    {community.sisterSite.eyebrow}
+                  </p>
+                  <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900">
+                    {community.sisterSite.heading}
+                  </h2>
+                  <p className="mt-2 text-sm leading-7 text-slate-500">{community.sisterSite.intro}</p>
+                  <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                    {community.sisterSite.links.map((link) => (
+                      <a
+                        key={link.url}
+                        href={link.url}
+                        className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold-500/40 hover:shadow-card-hover"
+                      >
+                        <p className="text-sm font-semibold leading-6 text-slate-900 transition group-hover:text-gold-600">
+                          {link.label}
+                        </p>
+                        {link.sublabel && (
+                          <p className="mt-1 text-xs leading-5 text-slate-500">{link.sublabel}</p>
+                        )}
+                        <span className="mt-2 inline-block text-xs font-semibold text-gold-600">Explore →</span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {(community.schoolOverview || community.schoolList) && (
                 <div>
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">Schools</h2>

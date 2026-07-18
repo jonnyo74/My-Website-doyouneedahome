@@ -34,6 +34,13 @@ export interface CommunityItem {
   popularNeighborhoods?: string[]
   subNeighborhoods?: Array<{ name: string; description: string }>
   keyLinks?: Array<{ label: string; url: string; category: string }>
+  // Cross-domain hand-off module (e.g. WPB → CondoWPB.com) — rendered as its own section
+  sisterSite?: {
+    eyebrow: string
+    heading: string
+    intro: string
+    links: Array<{ label: string; sublabel?: string; url: string }>
+  }
   searchCity?: string
   lat?: number
   lng?: number
@@ -125,6 +132,17 @@ export const cities: CommunityItem[] = [
       { destination: 'Miami', time: '70–90 min' },
     ],
     linkedNeighborhoods: ['ibis', 'el-cid', 'harbour-islands', 'downtown-west-palm', 'palm-beach-lakes'],
+    sisterSite: {
+      eyebrow: 'Condo Living',
+      heading: 'West Palm Beach Condos',
+      intro: 'Condo shopping instead of house hunting? Our sister site CondoWPB.com profiles every condo building in West Palm Beach — floor plans, HOA fees, and current listings for each tower.',
+      links: [
+        { label: 'West Palm Beach Condos for Sale', sublabel: 'Every building, organized by tier', url: 'https://www.condowpb.com/west-palm-beach-condos-for-sale' },
+        { label: 'New Construction Towers', sublabel: 'Olara, South Flagler House, Ritz-Carlton Residences & more', url: 'https://www.condowpb.com/new-construction' },
+        { label: 'Waterfront Condos', sublabel: 'Along Flagler Drive & the Intracoastal', url: 'https://www.condowpb.com/waterfront-condos-west-palm-beach' },
+        { label: 'WPB Condo Market Report', sublabel: 'Q2 2026 pricing & inventory data', url: 'https://www.condowpb.com/guides/wpb-condo-market-report-2026' },
+      ],
+    },
     priceRanges: [
       { type: 'Downtown Condos & High-Rise', range: '$350K – $1.5M+', minPrice: 350000, propertyTypes: ['condo'] },
       { type: 'Luxury Waterfront Condos', range: '$1M – $5M+', minPrice: 1000000, propertyTypes: ['condo'] },
@@ -153,8 +171,6 @@ export const cities: CommunityItem[] = [
       { label: 'E.R. Bradley\'s Saloon', url: 'https://www.erbradleys.com', category: 'Dining' },
       { label: 'Okeechobee Steakhouse', url: 'https://www.okeechobeesteakhouse.com', category: 'Dining' },
       { label: 'City of West Palm Beach', url: 'https://www.wpb.org', category: 'City Resources' },
-      { label: 'WPB Luxury Condos — condowpb.com', url: 'https://www.condowpb.com', category: 'Condo Search' },
-      { label: 'New Construction Condos — condowpb.com', url: 'https://www.condowpb.com/new-construction/', category: 'Condo Search' },
       { label: 'St. Mary\'s Medical Center', url: 'https://www.stmarysmc.com', category: 'Healthcare' },
       { label: 'Good Samaritan Medical Center', url: 'https://www.goodsamaritanmc.com', category: 'Healthcare' },
     ],
