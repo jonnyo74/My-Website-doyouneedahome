@@ -1,5 +1,6 @@
+import { notFound, permanentRedirect } from 'next/navigation'
 import siteMap from '@/lib/siteMap.json'
-import { cities } from '@/lib/communities'
+import { cities, communities } from '@/lib/communities'
 import CityHub from '@/components/templates/CityHub'
 import CategoryPage from '@/components/templates/CategoryPage'
 import CommunityPage from '@/components/templates/CommunityPage'
@@ -9,17 +10,29 @@ import SubCommunity from '@/components/templates/SubCommunity'
 export const dynamicParams = true
 export const revalidate = 60
 
+// Legacy hierarchy (/jupiter/gated-communities/...) superseded by flat
+// /communities/* pages — keep reachable URLs out of the index.
+export const metadata = {
+  robots: { index: false, follow: false },
+}
+
 export default async function Page({ params }: { params: Promise<{ slug?: string[] }> }) {
   const { slug: rawSlug } = await params
   const slug = rawSlug ?? []
   if (slug.length === 0) {
-    return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">Page not found</div>
+    notFound()
   }
 
   const cityKey = slug[0]
+
+  // Bare legacy city URLs (/jupiter) 308 to the canonical flat page.
+  if (slug.length === 1 && communities.some(c => c.slug === cityKey)) {
+    permanentRedirect(`/communities/${cityKey}`)
+  }
+
   const city = (siteMap as any).cities?.[cityKey]
   if (!city) {
-    return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">City not found</div>
+    notFound()
   }
 
   if (slug.length === 1) {
@@ -38,7 +51,7 @@ export default async function Page({ params }: { params: Promise<{ slug?: string
     if (city.communities?.[second]) {
       return <CommunityPage data={city} communityKey={second} citySlug={cityKey} />
     }
-    return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">Page not found</div>
+    notFound()
   }
 
   if (slug.length === 3) {
@@ -55,8 +68,8 @@ export default async function Page({ params }: { params: Promise<{ slug?: string
       return <CommunityPage data={city} communityKey={communityKey} categoryKey={categoryKey} citySlug={cityKey} />
     }
 
-    return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">Page not found</div>
+    notFound()
   }
 
-  return <div className="min-h-screen bg-white px-6 py-24 sm:px-8">Page not found</div>
+  notFound()
 }

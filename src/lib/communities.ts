@@ -124,7 +124,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Boca Raton', time: '25 min' },
       { destination: 'Miami', time: '70–90 min' },
     ],
-    linkedNeighborhoods: ['ibis', 'el-cid', 'harbour-islands', 'downtown-west-palm', 'singer-island', 'palm-beach-lakes'],
+    linkedNeighborhoods: ['ibis', 'el-cid', 'harbour-islands', 'downtown-west-palm', 'palm-beach-lakes'],
     priceRanges: [
       { type: 'Downtown Condos & High-Rise', range: '$350K – $1.5M+', minPrice: 350000, propertyTypes: ['condo'] },
       { type: 'Luxury Waterfront Condos', range: '$1M – $5M+', minPrice: 1000000, propertyTypes: ['condo'] },
@@ -2335,7 +2335,6 @@ export const cities: CommunityItem[] = [
       { destination: 'Jupiter', time: '25 min' },
       { destination: 'Boca Raton', time: '40 min' },
     ],
-    linkedNeighborhoods: ['singer-island'],
     priceRanges: [
       { type: 'Oceanfront Condos (Older Tower)', range: '$350K – $900K', minPrice: 350000, maxPrice: 900000, propertyTypes: ['condo'] },
       { type: 'Oceanfront Condos (Luxury Tower)', range: '$700K – $3M+', minPrice: 700000, propertyTypes: ['condo'] },
@@ -3262,27 +3261,6 @@ export const neighborhoods: CommunityItem[] = [
     quickFacts: [
       { label: 'Homes', value: 'High-rise condos and luxury apartments' },
       { label: 'Amenities', value: 'Dining, arts, Brightline rail, waterfront parks' },
-    ],
-  },
-  {
-    slug: 'singer-island',
-    name: 'Singer Island',
-    type: 'Neighborhood',
-    region: 'Riviera Beach',
-    description: 'A beachfront peninsula with oceanfront condos, resort amenities, and direct Atlantic access.',
-    overview:
-      'Singer Island is a destination for coastal living with private beach access, high-rise condos with ocean views, and a convenient connection to the Intracoastal and boating.',
-    quickFacts: [
-      { label: 'Homes', value: 'Oceanfront condos and luxury residences' },
-      { label: 'Amenities', value: 'Beach access, boating, dining' },
-    ],
-    photos: [
-      '/images/singer-island/singer-island-0001.jpeg',
-      '/images/singer-island/singer-island-0002.jpeg',
-      '/images/singer-island/singer-island-0003.jpeg',
-      '/images/singer-island/waterfront-001.jpeg',
-      '/images/singer-island/waterfront-002.jpeg',
-      '/images/singer-island/waterfront-003.jpeg',
     ],
   },
   {
