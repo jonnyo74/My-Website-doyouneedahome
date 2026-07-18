@@ -1427,6 +1427,7 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: true,
     popularNeighborhoods: ['Estate Section', 'In-Town', 'North End', 'Midtown', 'Manalapan', 'El Brillo Way'],
     photos: [
+      '/images/west-palm-beach/flagler-museum-2022-001.jpg',
       '/images/palm-beach/palm-beach-001.jpeg',
       '/images/palm-beach/lifestyle-001.jpeg',
       '/images/palm-beach/lifestyle-002.jpeg',
@@ -1676,6 +1677,7 @@ export const cities: CommunityItem[] = [
     ],
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Juno Isles', 'Juno Landing', 'Ocean Trace', 'Seminole Landing', 'A1A Oceanfront Corridor'],
+    linkedNeighborhoods: ['bay-colony'],
     photos: [
       '/images/juno-beach/juno-beach-001.jpg',
       '/images/juno-beach/juno-beach-002.jpg',
@@ -3849,6 +3851,33 @@ export const neighborhoods: CommunityItem[] = [
       '/images/prado/prado-007.jpeg',
       '/images/prado/prado-008.jpeg',
     ],
+  },
+  {
+    slug: 'bay-colony',
+    name: 'Bay Colony',
+    type: 'Neighborhood',
+    region: 'Juno Beach',
+    description: 'A gated Intracoastal enclave in Juno Beach with a private marina, lush tropical grounds, and low-rise waterfront residences minutes from the beach.',
+    overview:
+      'Bay Colony is one of Juno Beach\'s premier waterfront addresses — a gated community set directly on the Intracoastal Waterway with its own private marina. Low-rise residences overlook the water and the docks, surrounded by mature palms and meticulously kept grounds. For boaters, the appeal is obvious: a protected slip steps from your door and quick access to the Jupiter and Palm Beach inlets. For everyone else, it\'s the rare combination of true waterfront living, a quiet gated setting, and a location minutes from Juno Beach\'s uncrowded Atlantic beaches.',
+    quickFacts: [
+      { label: 'Homes', value: 'Low-rise Intracoastal residences in a gated waterfront setting' },
+      { label: 'Amenities', value: 'Private marina with boat slips and lifts, pool, tennis, gated entry' },
+    ],
+    highlights: [
+      'Direct Intracoastal Waterway frontage with a private residents\' marina',
+      'Protected boat slips with lifts — quick runs to the Jupiter and Palm Beach inlets',
+      'Gated community with lush tropical landscaping and manicured grounds',
+      'Minutes to Juno Beach Park, the pier, and the Loggerhead Marinelife Center',
+      'Walkable, low-density Juno Beach location with Jupiter and Palm Beach Gardens amenities 10–15 minutes away',
+    ],
+    photos: [
+      '/images/bay-colony/bay-colony-001.jpeg',
+      '/images/bay-colony/bay-colony-002.jpeg',
+      '/images/bay-colony/bay-colony-003.jpeg',
+      '/images/bay-colony/bay-colony-004.jpeg',
+    ],
+    searchCity: 'Juno Beach',
   },
   {
     slug: 'sonoma-bay',
