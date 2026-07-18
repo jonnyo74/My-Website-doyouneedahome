@@ -26,7 +26,8 @@ function searchUrl(city: string, opts: {
 } = {}) {
   const c = encodeURIComponent(city)
   let url = `${SEARCH_URL}/search?area=${c}&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
-  if (opts.minPrice) url += `&s[minPrice]=${opts.minPrice}`
+  // Site-wide floor — never show listings under $400K.
+  url += `&s[minPrice]=${Math.max(opts.minPrice ?? 0, 400000)}`
   if (opts.maxPrice) url += `&s[maxPrice]=${opts.maxPrice}`
   if (opts.amenities) opts.amenities.forEach((a, i) => { url += `&s[amenities][${i}]=${encodeURIComponent(a)}` })
   if (opts.propertyTypes) opts.propertyTypes.forEach((t, i) => { url += `&s[propertyTypes][${i}]=${encodeURIComponent(t)}` })
@@ -535,7 +536,7 @@ export default async function CommunityPage({ params }: Props) {
                     {community.priceRanges.map((pr, i) => (
                       <a
                         key={pr.type}
-                        href={searchUrl(searchName, { minPrice: pr.minPrice, maxPrice: pr.maxPrice, amenities: pr.amenities })}
+                        href={searchUrl(searchName, { minPrice: pr.minPrice, maxPrice: pr.maxPrice, amenities: pr.amenities, propertyTypes: pr.propertyTypes })}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-center justify-between px-6 py-4 transition hover:bg-gold-50 ${
@@ -594,7 +595,6 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
-              {/* Schools */}
               {/* Sister-site hand-off (e.g. WPB → CondoWPB.com) */}
               {community.sisterSite && (
                 <div>
@@ -625,6 +625,7 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
+              {/* Schools */}
               {(community.schoolOverview || community.schoolList) && (
                 <div>
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">Schools</h2>

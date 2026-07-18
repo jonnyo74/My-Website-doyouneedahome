@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
 // zero results); omitting locations entirely falls back to the account's
 // configured default market area, which actually works.
-const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1'
+const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[minPrice]=400000'
 
 const testimonials = [
   { quote: 'Christine listed and sold my home within 3 days.', author: 'Dave H.', role: 'Seller', agent: 'Christine Dekant' },

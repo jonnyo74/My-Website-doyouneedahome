@@ -185,7 +185,7 @@ export default async function ArticlePage({ params }: Props) {
             <h2 className="font-serif text-2xl font-semibold text-slate-900">Thinking about {article.cityName}?</h2>
             <p className="mt-3 text-slate-600">We're local experts — let's find the right home for your move.</p>
             <div className="mt-5 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <a href="https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-full bg-gold-500 px-7 py-3 text-sm font-semibold text-white transition hover:bg-gold-600">Search Homes</a>
+              <a href="https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[minPrice]=400000" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-full bg-gold-500 px-7 py-3 text-sm font-semibold text-white transition hover:bg-gold-600">Search Homes</a>
               <Link href="/contact" className="inline-flex items-center justify-center rounded-full border border-slate-300 px-7 py-3 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600">Talk to a Local Expert</Link>
             </div>
           </div>

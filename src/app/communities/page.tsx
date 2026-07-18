@@ -92,7 +92,7 @@ export default function CommunitiesPage() {
               Talk to an Agent
             </Link>
             <a
-              href="https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL"
+              href="https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][state]=FL&s[minPrice]=400000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full border border-slate-300 px-8 py-3.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"

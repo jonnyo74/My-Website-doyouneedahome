@@ -144,12 +144,12 @@ export const cities: CommunityItem[] = [
       ],
     },
     priceRanges: [
-      { type: 'Downtown Condos & High-Rise', range: '$350K – $1.5M+', minPrice: 350000, propertyTypes: ['condo'] },
-      { type: 'Luxury Waterfront Condos', range: '$1M – $5M+', minPrice: 1000000, propertyTypes: ['condo'] },
-      { type: 'Historic Homes (El Cid, Flamingo Park, SoSo)', range: '$900K – $4M+', minPrice: 900000 },
-      { type: 'Northwood & Urban Single-Family', range: '$600K – $2M+', minPrice: 600000 },
+      { type: 'Downtown Condos & High-Rise', range: '$400K – $1.5M+', minPrice: 400000, propertyTypes: ['condo'] },
+      { type: 'Luxury Waterfront Condos', range: '$1M – $5M+', minPrice: 1000000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront'] },
+      { type: 'Historic Homes (El Cid, Flamingo Park, SoSo)', range: '$900K – $4M+', minPrice: 900000, propertyTypes: ['house'] },
+      { type: 'Northwood & Urban Single-Family', range: '$600K – $2M+', minPrice: 600000, propertyTypes: ['house'] },
       { type: 'Country Club (Ibis, Breakers West)', range: '$500K – $3M+', minPrice: 500000, amenities: ['sa_rapb_membership_required'] },
-      { type: 'Waterfront Estates', range: '$3M – $25M+', minPrice: 3000000 },
+      { type: 'Waterfront Estates', range: '$3M – $25M+', minPrice: 3000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
     ],
     highlights: [
       'Directly across the Intracoastal from Palm Beach Island — 3 minutes to Worth Avenue and The Breakers',
@@ -191,12 +191,12 @@ export const cities: CommunityItem[] = [
       '/images/west-palm-beach/flagler-museum-2022-001.jpg',
     ],
     savedSearches: [
-      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL' },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.7153, lng: -80.0534,
   },
@@ -272,11 +272,11 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['pga-national', 'ballen-isles', 'avenir', 'mirasol', 'alton', 'east-palm-bay', 'panther-national', 'prado'],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$450K – $750K', minPrice: 450000, maxPrice: 750000, propertyTypes: ['condo'] },
-      { type: 'Non-Gated Single-Family', range: '$650K – $1.2M', minPrice: 650000, maxPrice: 1200000 },
-      { type: 'Gated Communities', range: '$850K – $2.5M+', minPrice: 850000 },
-      { type: 'New Construction (Avenir)', range: '$700K – $3M+', minPrice: 700000 },
-      { type: 'Luxury Country Club Estates', range: '$2M – $10M+', minPrice: 2000000, amenities: ['sa_rapb_membership_required'] },
+      { type: 'Condos & Townhomes', range: '$450K – $750K', minPrice: 450000, maxPrice: 750000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Non-Gated Single-Family', range: '$650K – $1.2M', minPrice: 650000, maxPrice: 1200000, propertyTypes: ['house'] },
+      { type: 'Gated Communities', range: '$850K – $2.5M+', minPrice: 850000, propertyTypes: ['house'] },
+      { type: 'New Construction (Avenir)', range: '$700K – $3M+', minPrice: 700000, propertyTypes: ['house'] },
+      { type: 'Luxury Country Club Estates', range: '$2M – $10M+', minPrice: 2000000, amenities: ['sa_rapb_membership_required'], propertyTypes: ['house'] },
       { type: '55+ Communities', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, amenities: ['sa_is_senior_community'] },
     ],
     highlights: [
@@ -319,12 +319,12 @@ export const cities: CommunityItem[] = [
       '/images/palm-beach-gardens/pbg-006.jpg',
     ],
     savedSearches: [
-      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Waterfront Condos', sublabel: 'Lake & Intracoastal views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL' },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Waterfront Condos', sublabel: 'Lake & Intracoastal views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.8233, lng: -80.1246,
   },
@@ -415,11 +415,11 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['abacoa', 'jupiter-inlet-colony', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'sonoma-bay', 'jupiter-island', 'sea-oats', 'river-road', 'mallory-creek', 'newhaven', 'antigua', 'windsor-park', 'valencia', 'martinique', 'canterbury-place', 'osceola-woods', 'dakota', 'tuscany', 'charleston-court'],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['condo'] },
-      { type: 'Gated Communities', range: '$700K – $1.5M', minPrice: 700000, maxPrice: 1500000 },
-      { type: '55+ Communities', range: '$350K – $700K', minPrice: 350000, maxPrice: 700000, amenities: ['sa_is_senior_community'] },
-      { type: 'Golf & Country Club Homes', range: '$2M – $5M+', minPrice: 2000000, amenities: ['sa_rapb_membership_required'] },
-      { type: 'Waterfront Estates', range: '$3M – $20M+', minPrice: 3000000 },
+      { type: 'Condos & Townhomes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Gated Communities', range: '$700K – $1.5M', minPrice: 700000, maxPrice: 1500000, propertyTypes: ['house'] },
+      { type: '55+ Communities', range: '$400K – $700K', minPrice: 400000, maxPrice: 700000, amenities: ['sa_is_senior_community'] },
+      { type: 'Golf & Country Club Homes', range: '$2M – $5M+', minPrice: 2000000, amenities: ['sa_rapb_membership_required'], propertyTypes: ['house'] },
+      { type: 'Waterfront Estates', range: '$3M – $20M+', minPrice: 3000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
     ],
     hasMembershipCommunities: true,
     highlights: [
@@ -455,12 +455,12 @@ export const cities: CommunityItem[] = [
       '/images/jupiter/jupiter-021.jpg',
     ],
     savedSearches: [
-      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Waterfront Condos', sublabel: 'Intracoastal & inlet views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & inlet views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
       { label: 'Single-Family Homes', sublabel: '$800K and up', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=800000' },
-      { label: 'Waterfront Homes', sublabel: 'Intracoastal & canal-front', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL' },
+      { label: 'Waterfront Homes', sublabel: 'Intracoastal & canal-front', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.9342, lng: -80.0942,
   },
@@ -560,10 +560,10 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['seven-bridges', 'wellington-country-club', 'wellington-estates', 'lake-club'],
     priceRanges: [
-      { type: 'Single-Family Homes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000 },
-      { type: 'Gated Community Homes', range: '$800K – $2.5M', minPrice: 800000 },
-      { type: 'Golf Community Homes (Seven Bridges, Binks Forest)', range: '$900K – $3M', minPrice: 900000 },
-      { type: 'Equestrian Estates & Compounds', range: '$1.5M – $10M+', minPrice: 1500000 },
+      { type: 'Single-Family Homes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['house'] },
+      { type: 'Gated Community Homes', range: '$800K – $2.5M', minPrice: 800000, propertyTypes: ['house'] },
+      { type: 'Golf Community Homes (Seven Bridges, Binks Forest)', range: '$900K – $3M', minPrice: 900000, propertyTypes: ['house'] },
+      { type: 'Equestrian Estates & Compounds', range: '$1.5M – $10M+', minPrice: 1500000, propertyTypes: ['house'] },
       { type: 'Polo & Equestrian Acreage (Paddock Park, Palm Beach Point)', range: '$1M – $8M+', minPrice: 1000000 },
     ],
     highlights: [
@@ -608,12 +608,12 @@ export const cities: CommunityItem[] = [
       '/images/wellington/wellington-006.jpeg',
     ],
     savedSearches: [
-      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
-      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse' },
-      { label: 'Country Club & Equestrian', sublabel: 'Membership communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL' },
+      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000' },
+      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse&s[minPrice]=400000' },
+      { label: 'Country Club & Equestrian', sublabel: 'Membership communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.6595, lng: -80.2686,
   },
@@ -726,11 +726,11 @@ export const cities: CommunityItem[] = [
       'Photo by Brian Zajac / Unsplash',
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$300K – $900K', minPrice: 300000, maxPrice: 900000, propertyTypes: ['condo'] },
-      { type: 'Single-Family Homes', range: '$700K – $2.5M', minPrice: 700000 },
-      { type: 'Private Club & Golf Estates', range: '$1.5M – $8M+', minPrice: 1500000, amenities: ['sa_rapb_membership_required'] },
-      { type: 'Oceanfront & Intracoastal Condos', range: '$1M – $6M+', minPrice: 1000000, propertyTypes: ['condo'] },
-      { type: 'Royal Palm Yacht & CC Estates', range: '$3M – $20M+', minPrice: 3000000 },
+      { type: 'Condos & Townhomes', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Single-Family Homes', range: '$700K – $2.5M', minPrice: 700000, propertyTypes: ['house'] },
+      { type: 'Private Club & Golf Estates', range: '$1.5M – $8M+', minPrice: 1500000, amenities: ['sa_rapb_membership_required'], propertyTypes: ['house'] },
+      { type: 'Oceanfront & Intracoastal Condos', range: '$1M – $6M+', minPrice: 1000000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront'] },
+      { type: 'Royal Palm Yacht & CC Estates', range: '$3M – $20M+', minPrice: 3000000, propertyTypes: ['house'] },
     ],
     highlights: [
       'Royal Palm Yacht & Country Club is one of the most prestigious residential addresses in all of Florida — canal-front estates with private dock access',
@@ -766,12 +766,12 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: true,
     popularNeighborhoods: ['Royal Palm Yacht & CC', 'Boca West', 'Broken Sound', 'Woodfield Country Club', 'Addison Reserve', 'Boca del Mar', 'Long Lake Estates'],
     savedSearches: [
-      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL' },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.3683, lng: -80.1289,
   },
@@ -862,11 +862,11 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['ocean-side', 'delray-beach-harbor', 'seagate', 'shelborne'],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$300K – $800K', minPrice: 300000, maxPrice: 800000, propertyTypes: ['condo'] },
-      { type: 'Single-Family Homes', range: '$600K – $1.8M', minPrice: 600000 },
-      { type: 'Waterfront & Canal Homes', range: '$1.2M – $5M+', minPrice: 1200000 },
-      { type: 'Oceanfront & A1A Estates', range: '$2M – $12M+', minPrice: 2000000 },
-      { type: '55+ Communities', range: '$200K – $500K', minPrice: 200000, maxPrice: 500000, amenities: ['sa_is_senior_community'] },
+      { type: 'Condos & Townhomes', range: '$400K – $800K', minPrice: 400000, maxPrice: 800000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Single-Family Homes', range: '$600K – $1.8M', minPrice: 600000, propertyTypes: ['house'] },
+      { type: 'Waterfront & Canal Homes', range: '$1.2M – $5M+', minPrice: 1200000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Oceanfront & A1A Estates', range: '$2M – $12M+', minPrice: 2000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront_ocean'] },
+      { type: '55+ Communities', range: '$400K – $500K', minPrice: 400000, maxPrice: 500000, amenities: ['sa_is_senior_community'] },
     ],
     highlights: [
       'Atlantic Avenue is one of Florida\'s premier restaurant and entertainment corridors — walkable from the beach to the Intracoastal',
@@ -910,12 +910,12 @@ export const cities: CommunityItem[] = [
       '/public/Delray Beach/delray-beach-silverball-museum.JPEG',
     ],
     savedSearches: [
-      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'Waterfront Homes', sublabel: 'Intracoastal & canal-front', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL' },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Intracoastal & canal-front', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Delray%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.4615, lng: -80.0728,
   },
@@ -1004,11 +1004,11 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['hammock-park', 'water-crest', 'boynton-beach-gardens', 'ocean-ridge'],
     priceRanges: [
-      { type: 'Condos & Villas', range: '$200K – $550K', minPrice: 200000, maxPrice: 550000, propertyTypes: ['condo'] },
-      { type: 'Single-Family Homes', range: '$400K – $900K', minPrice: 400000 },
-      { type: '55+ Golf & Country Club Homes', range: '$300K – $900K', minPrice: 300000, amenities: ['sa_is_senior_community'] },
-      { type: 'Waterfront & Canal Homes', range: '$800K – $3M+', minPrice: 800000 },
-      { type: 'Ocean Ridge Estates', range: '$1.5M – $8M+', minPrice: 1500000 },
+      { type: 'Condos & Villas', range: '$400K – $550K', minPrice: 400000, maxPrice: 550000, propertyTypes: ['condo'] },
+      { type: 'Single-Family Homes', range: '$400K – $900K', minPrice: 400000, propertyTypes: ['house'] },
+      { type: '55+ Golf & Country Club Homes', range: '$400K – $900K', minPrice: 400000, amenities: ['sa_is_senior_community'] },
+      { type: 'Waterfront & Canal Homes', range: '$800K – $3M+', minPrice: 800000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Ocean Ridge Estates', range: '$1.5M – $8M+', minPrice: 1500000, propertyTypes: ['house'] },
     ],
     highlights: [
       'Wakodahatchee Wetlands and Green Cay are two of the top birding destinations in the entire state of Florida — both within city limits',
@@ -1044,12 +1044,12 @@ export const cities: CommunityItem[] = [
     photos: [
     ],
     savedSearches: [
-      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL' },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Boynton%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.5317, lng: -80.0905,
   },
@@ -1135,9 +1135,9 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['lake-worth-estates', 'poinciana-park', 'lake-worth-gardens'],
     priceRanges: [
-      { type: 'Historic Bungalows & Cottages', range: '$350K – $750K', minPrice: 350000, maxPrice: 750000 },
-      { type: 'Barrier Island Condos', range: '$200K – $600K', minPrice: 200000, maxPrice: 600000, propertyTypes: ['condo'] },
-      { type: 'Renovated Single-Family Homes', range: '$500K – $1.2M', minPrice: 500000 },
+      { type: 'Historic Bungalows & Cottages', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, propertyTypes: ['house'] },
+      { type: 'Barrier Island Condos', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo'] },
+      { type: 'Renovated Single-Family Homes', range: '$500K – $1.2M', minPrice: 500000, propertyTypes: ['house'] },
       { type: 'Luxury & Waterfront', range: '$800K – $3M+', minPrice: 800000 },
     ],
     highlights: [
@@ -1170,10 +1170,10 @@ export const cities: CommunityItem[] = [
     photos: [
     ],
     savedSearches: [
-      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
-      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse' },
-      { label: 'Single-Family Homes', sublabel: 'All house listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL' },
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[minPrice]=400000' },
+      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse&s[minPrice]=400000' },
+      { label: 'Single-Family Homes', sublabel: 'All house listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.6198, lng: -80.0578,
   },
@@ -1256,9 +1256,9 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['pomelo-park', 'seneca-lakes', 'oakbrook', 'lake-clarence'],
     priceRanges: [
-      { type: 'Single-Family Starter Homes', range: '$400K – $650K', minPrice: 400000, maxPrice: 650000 },
-      { type: 'Move-Up Single-Family', range: '$600K – $950K', minPrice: 600000, maxPrice: 950000 },
-      { type: 'Larger Lots & Updated Homes', range: '$850K – $1.5M', minPrice: 850000 },
+      { type: 'Single-Family Starter Homes', range: '$400K – $650K', minPrice: 400000, maxPrice: 650000, propertyTypes: ['house'] },
+      { type: 'Move-Up Single-Family', range: '$600K – $950K', minPrice: 600000, maxPrice: 950000, propertyTypes: ['house'] },
+      { type: 'Larger Lots & Updated Homes', range: '$850K – $1.5M', minPrice: 850000, propertyTypes: ['house'] },
     ],
     highlights: [
       'Royal Palm Beach Commons Park is one of the finest 73-acre public parks in western Palm Beach County — lake, trails, splash pad, dog park, and sports fields',
@@ -1291,12 +1291,12 @@ export const cities: CommunityItem[] = [
     photos: [
     ],
     savedSearches: [
-      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
-      { label: 'Condos & Townhomes', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL' },
+      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000' },
+      { label: 'Condos & Townhomes', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.7076, lng: -80.2262,
   },
@@ -1306,6 +1306,15 @@ export const cities: CommunityItem[] = [
     type: 'City',
     region: 'Barrier Island',
     description: 'One of the most prestigious addresses in the world — a barrier island of oceanfront estates, historic private clubs, Worth Avenue luxury, and a timeless way of life that exists nowhere else in Florida.',
+    sisterSite: {
+      eyebrow: 'Across the Bridge',
+      heading: 'Luxury Condos on the West Side',
+      intro: 'Across the Intracoastal, West Palm\'s new generation of luxury towers offers island views at mainland prices, five minutes from Worth Avenue.',
+      links: [
+        { label: 'West Palm Beach Luxury Condos', sublabel: 'The Bristol, South Flagler House & more', url: 'https://www.condowpb.com/west-palm-beach-luxury-condos' },
+        { label: 'The Bristol', sublabel: 'The tower that started the new era', url: 'https://www.condowpb.com/buildings/the-bristol' },
+      ],
+    },
     overview:
       'Palm Beach is not a market — it is an institution. This 14-mile barrier island has been one of the most coveted addresses in the United States for over a century, and its standing has only strengthened as global wealth concentrates in a smaller number of truly exceptional places. Oceanfront estates with direct Atlantic frontage. Ocean-to-lake properties that span the full width of the island. Historic Mediterranean Revival architecture designed by Addison Mizner. Worth Avenue — one of the world\'s great luxury shopping streets, in the same tier as Rodeo Drive and Fifth Avenue.\n\nThe private clubs — The Breakers, Bath & Tennis Club, Everglades Club, Sailfish Club, and Mar-a-Lago — define the social fabric here in a way that is entirely unique to Palm Beach. Membership in these institutions is its own currency. The real estate market operates on its own logic: inventory is scarce by design, off-market transactions are common, and prices reflect not just the property but the address. For buyers operating at this level, the question is never whether Palm Beach holds value — it is how to access the right opportunity at the right moment. That is precisely where our team adds value.',
     lifestyle: 'Palm Beach draws a global buyer — European and Latin American families with generational wealth, American business leaders seeking the ultimate second or primary home, estate buyers who have shopped every luxury market from Greenwich to Beverly Hills and concluded that nothing competes with the island for a certain kind of privacy and prestige. The pace here is deliberately unhurried. Worth Avenue on a Tuesday morning. Lunch at Café Boulud. A round at The Breakers. Sunday brunch at Taboo. The lifestyle is refined, private, and insulated from the noise of the mainland in a way that cannot be replicated. Even West Palm Beach — three minutes across the Intracoastal — feels like a different world.',
@@ -1381,10 +1390,10 @@ export const cities: CommunityItem[] = [
     linkedNeighborhoods: ['manalapan'],
     priceRanges: [
       { type: 'Condos & Co-ops', range: '$800K – $6M+', minPrice: 800000, propertyTypes: ['condo'] },
-      { type: 'Single-Family Homes (In-Town)', range: '$3M – $15M+', minPrice: 3000000 },
-      { type: 'Estate Section Homes', range: '$10M – $50M+', minPrice: 10000000 },
-      { type: 'Ocean-to-Lake Estate Properties', range: '$20M – $100M+', minPrice: 20000000 },
-      { type: 'Manalapan Estates', range: '$8M – $60M+', minPrice: 8000000 },
+      { type: 'Single-Family Homes (In-Town)', range: '$3M – $15M+', minPrice: 3000000, propertyTypes: ['house'] },
+      { type: 'Estate Section Homes', range: '$10M – $50M+', minPrice: 10000000, propertyTypes: ['house'] },
+      { type: 'Ocean-to-Lake Estate Properties', range: '$20M – $100M+', minPrice: 20000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront_ocean'] },
+      { type: 'Manalapan Estates', range: '$8M – $60M+', minPrice: 8000000, propertyTypes: ['house'] },
     ],
     highlights: [
       'Worth Avenue is one of the world\'s great luxury shopping streets — in the same tier as Rodeo Drive and Fifth Avenue',
@@ -1426,12 +1435,12 @@ export const cities: CommunityItem[] = [
       '/images/palm-beach/lifestyle-005.jpeg',
     ],
     savedSearches: [
-      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
-      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Country Club & Membership', sublabel: 'Private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'Waterfront Homes', sublabel: 'Intracoastal & waterfront', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL' },
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[minPrice]=400000' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Intracoastal & waterfront', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.7056, lng: -80.0364,
   },
@@ -1513,8 +1522,8 @@ export const cities: CommunityItem[] = [
     linkedNeighborhoods: [],
     priceRanges: [
       { type: 'Acreage Lots (1–2.5 acres)', range: '$400K – $800K', minPrice: 400000, maxPrice: 800000 },
-      { type: 'Ranch-Style Homes on Acreage', range: '$550K – $1.2M', minPrice: 550000, maxPrice: 1200000 },
-      { type: 'Equestrian Estates (3–10 acres)', range: '$900K – $3M+', minPrice: 900000 },
+      { type: 'Ranch-Style Homes on Acreage', range: '$550K – $1.2M', minPrice: 550000, maxPrice: 1200000, propertyTypes: ['house'] },
+      { type: 'Equestrian Estates (3–10 acres)', range: '$900K – $3M+', minPrice: 900000, propertyTypes: ['house'] },
     ],
     highlights: [
       'No HOA in most of the Acreage — horses, barns, chickens, RVs, and additional structures allowed on your land without community approval',
@@ -1546,11 +1555,11 @@ export const cities: CommunityItem[] = [
     popularNeighborhoods: ['The Acreage', 'Loxahatchee Groves', 'Southern Reaches'],
     photos: [],
     savedSearches: [
-      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[propertyTypes][0]=house' },
-      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL' },
+      { label: 'Single-Family Homes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000' },
+      { label: 'Townhomes & Villas', sublabel: 'Low-maintenance living', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[propertyTypes][0]=townhouse&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Gated Communities', sublabel: 'Private & guard-gated', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[amenities][0]=sa_gated_community&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Loxahatchee&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.6779, lng: -80.2987,
   },
@@ -1634,9 +1643,9 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Lauderdale Airport (FLL)', time: '55 min' },
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$450K – $1.1M', minPrice: 450000, maxPrice: 1100000, propertyTypes: ['condo'] },
-      { type: 'Single-Family Homes', range: '$800K – $2.5M', minPrice: 800000 },
-      { type: 'Oceanfront Estates', range: '$2.5M – $10M+', minPrice: 2500000 },
+      { type: 'Condos & Townhomes', range: '$450K – $1.1M', minPrice: 450000, maxPrice: 1100000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Single-Family Homes', range: '$800K – $2.5M', minPrice: 800000, propertyTypes: ['house'] },
+      { type: 'Oceanfront Estates', range: '$2.5M – $10M+', minPrice: 2500000, propertyTypes: ['house'], amenities: ['sa_has_waterfront_ocean'] },
     ],
     highlights: [
       'Loggerhead Marinelife Center is one of the world\'s leading sea turtle hospitals — Juno Beach has one of the most active loggerhead nesting beaches on the planet',
@@ -1676,12 +1685,12 @@ export const cities: CommunityItem[] = [
       '/images/juno-beach/juno-beach-070.jpg',
     ],
     savedSearches: [
-      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
-      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL' },
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[minPrice]=400000' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Juno%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.8787, lng: -80.0559,
   },
@@ -1765,10 +1774,10 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Lauderdale', time: '50 min' },
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$350K – $900K', minPrice: 350000, maxPrice: 900000, propertyTypes: ['condo'] },
-      { type: 'Single-Family Homes', range: '$700K – $2M', minPrice: 700000 },
-      { type: 'Canal & Intracoastal Waterfront Homes', range: '$1.2M – $5M+', minPrice: 1200000 },
-      { type: 'Old Port Cove Marina Condos', range: '$400K – $1.1M', minPrice: 400000, maxPrice: 1100000 },
+      { type: 'Condos & Townhomes', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Single-Family Homes', range: '$700K – $2M', minPrice: 700000, propertyTypes: ['house'] },
+      { type: 'Canal & Intracoastal Waterfront Homes', range: '$1.2M – $5M+', minPrice: 1200000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Old Port Cove Marina Condos', range: '$400K – $1.1M', minPrice: 400000, maxPrice: 1100000, propertyTypes: ['condo'] },
     ],
     highlights: [
       'North Palm Beach Country Club was fully renovated with a Jack Nicklaus Signature course — one of the best municipal golf facilities in South Florida at resident rates',
@@ -1809,12 +1818,12 @@ export const cities: CommunityItem[] = [
       '/images/north-palm-beach/north-palm-006.jpg',
     ],
     savedSearches: [
-      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse' },
-      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required' },
-      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL' },
+      { label: 'Condos & Townhomes', sublabel: 'All price ranges', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[propertyTypes][1]=townhouse&s[minPrice]=400000' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & waterway views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Country Club & Membership', sublabel: 'Golf & private club communities', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_rapb_membership_required&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'New Construction', sublabel: 'Builder-new homes', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_new_construction&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.8193, lng: -80.0531,
   },
@@ -1897,9 +1906,9 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['powder-pointe', 'abacoa', 'jupiter-inlet-colony'],
     priceRanges: [
-      { type: 'Single-Family Homes (Interior)', range: '$600K – $1.2M', minPrice: 600000, maxPrice: 1200000 },
-      { type: 'Canal & Intracoastal Homes', range: '$1M – $3M+', minPrice: 1000000 },
-      { type: 'Riverfront Homes (Loxahatchee)', range: '$1.5M – $5M+', minPrice: 1500000 },
+      { type: 'Single-Family Homes (Interior)', range: '$600K – $1.2M', minPrice: 600000, maxPrice: 1200000, propertyTypes: ['house'] },
+      { type: 'Canal & Intracoastal Homes', range: '$1M – $3M+', minPrice: 1000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Riverfront Homes (Loxahatchee)', range: '$1.5M – $5M+', minPrice: 1500000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
     ],
     highlights: [
       'The Loxahatchee River runs directly through the village — private riverfront dock access and manatee sightings year-round',
@@ -2015,11 +2024,11 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['tradition', 'pga-village', 'riverland'],
     priceRanges: [
-      { type: 'Single-Family Homes', range: '$300K – $600K', minPrice: 300000, maxPrice: 600000 },
-      { type: 'Tradition / New Construction', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000 },
-      { type: '55+ Active Adult (Riverland)', range: '$350K – $750K', minPrice: 350000, maxPrice: 750000, amenities: ['sa_is_senior_community'] },
-      { type: 'Waterfront & Canal Homes', range: '$500K – $2M+', minPrice: 500000 },
-      { type: 'Golf Community Homes (PGA Village)', range: '$400K – $1.2M', minPrice: 400000 },
+      { type: 'Single-Family Homes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['house'] },
+      { type: 'Tradition / New Construction', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['house'] },
+      { type: '55+ Active Adult (Riverland)', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, amenities: ['sa_is_senior_community'] },
+      { type: 'Waterfront & Canal Homes', range: '$500K – $2M+', minPrice: 500000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Golf Community Homes (PGA Village)', range: '$400K – $1.2M', minPrice: 400000, propertyTypes: ['house'] },
     ],
     highlights: [
       'Tradition is one of Florida\'s most successful New Urbanist communities — a city within a city with its own downtown, hospital, and events calendar',
@@ -2134,10 +2143,10 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: ['jensen-beach', 'hutchinson-island-stuart', 'north-river-shores'],
     priceRanges: [
-      { type: 'Downtown & Historic Homes', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000 },
-      { type: 'Single-Family Suburban', range: '$350K – $750K', minPrice: 350000, maxPrice: 750000 },
-      { type: 'Waterfront & River Homes', range: '$800K – $4M+', minPrice: 800000 },
-      { type: 'Hutchinson Island Oceanfront', range: '$600K – $5M+', minPrice: 600000 },
+      { type: 'Downtown & Historic Homes', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000, propertyTypes: ['house'] },
+      { type: 'Single-Family Suburban', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, propertyTypes: ['house'] },
+      { type: 'Waterfront & River Homes', range: '$800K – $4M+', minPrice: 800000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Hutchinson Island Oceanfront', range: '$600K – $5M+', minPrice: 600000, amenities: ['sa_has_waterfront_ocean'] },
     ],
     highlights: [
       'Osceola Street Historic Downtown is one of the most authentic and beloved small-city downtowns in all of Florida — preserved architecture, zero chain stores, acclaimed local dining',
@@ -2245,9 +2254,9 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: [],
     priceRanges: [
-      { type: 'Single-Family Homes (Entry)', range: '$450K – $650K', minPrice: 450000, maxPrice: 650000 },
-      { type: 'Single-Family Homes (Move-Up)', range: '$600K – $900K', minPrice: 600000, maxPrice: 900000 },
-      { type: 'Estate / Larger Lots', range: '$850K – $1.3M', minPrice: 850000 },
+      { type: 'Single-Family Homes (Entry)', range: '$450K – $650K', minPrice: 450000, maxPrice: 650000, propertyTypes: ['house'] },
+      { type: 'Single-Family Homes (Move-Up)', range: '$600K – $900K', minPrice: 600000, maxPrice: 900000, propertyTypes: ['house'] },
+      { type: 'Estate / Larger Lots', range: '$850K – $1.3M', minPrice: 850000, propertyTypes: ['house'] },
     ],
     highlights: [
       'Florida\'s newest incorporated city — every home in Westlake was built after 2018, with modern construction standards throughout',
@@ -2352,9 +2361,9 @@ export const cities: CommunityItem[] = [
       { destination: 'Boca Raton', time: '40 min' },
     ],
     priceRanges: [
-      { type: 'Oceanfront Condos (Older Tower)', range: '$350K – $900K', minPrice: 350000, maxPrice: 900000, propertyTypes: ['condo'] },
-      { type: 'Oceanfront Condos (Luxury Tower)', range: '$700K – $3M+', minPrice: 700000, propertyTypes: ['condo'] },
-      { type: 'Intracoastal Single-Family & Townhomes', range: '$700K – $2.5M+', minPrice: 700000 },
+      { type: 'Oceanfront Condos (Older Tower)', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront_ocean'] },
+      { type: 'Oceanfront Condos (Luxury Tower)', range: '$700K – $3M+', minPrice: 700000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront_ocean'] },
+      { type: 'Intracoastal Single-Family & Townhomes', range: '$700K – $2.5M+', minPrice: 700000, propertyTypes: ['house', 'townhouse'] },
     ],
     highlights: [
       'Blue Heron Bridge at Phil Foster Park — rated one of the top shore dive sites in the entire world, accessible by foot from the island',
@@ -2392,12 +2401,12 @@ export const cities: CommunityItem[] = [
       '/images/singer-island/waterfront-001.jpeg',
     ],
     savedSearches: [
-      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo' },
-      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Waterfront Condos', sublabel: 'Intracoastal & inlet views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL' },
+      { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[minPrice]=400000' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Waterfront Condos', sublabel: 'Intracoastal & inlet views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.7939, lng: -80.0427,
   },
@@ -2474,8 +2483,8 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: [],
     priceRanges: [
-      { type: 'Mainland Single-Family', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000 },
-      { type: 'Barrier Island Cottages & Homes', range: '$700K – $3M+', minPrice: 700000 },
+      { type: 'Mainland Single-Family', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000, propertyTypes: ['house'] },
+      { type: 'Barrier Island Cottages & Homes', range: '$700K – $3M+', minPrice: 700000, propertyTypes: ['house'] },
       { type: 'Acreage / Equestrian Properties', range: '$600K – $2.5M+', minPrice: 600000 },
     ],
     highlights: [
@@ -2587,9 +2596,9 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: [],
     priceRanges: [
-      { type: 'Non-Gated Single-Family', range: '$400K – $800K', minPrice: 400000, maxPrice: 800000 },
-      { type: 'Gated Golf Communities', range: '$500K – $1.5M', minPrice: 500000, amenities: ['sa_rapb_membership_required'] },
-      { type: 'Waterfront & River Estates', range: '$900K – $4M+', minPrice: 900000 },
+      { type: 'Non-Gated Single-Family', range: '$400K – $800K', minPrice: 400000, maxPrice: 800000, propertyTypes: ['house'] },
+      { type: 'Gated Golf Communities', range: '$500K – $1.5M', minPrice: 500000, amenities: ['sa_rapb_membership_required'], propertyTypes: ['house'] },
+      { type: 'Waterfront & River Estates', range: '$900K – $4M+', minPrice: 900000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
       { type: 'Harbour Ridge (Equity Club)', range: '$600K – $3M+', minPrice: 600000, amenities: ['sa_rapb_membership_required'] },
     ],
     highlights: [
@@ -2700,9 +2709,9 @@ export const cities: CommunityItem[] = [
     ],
     linkedNeighborhoods: [],
     priceRanges: [
-      { type: 'Inland Single-Family Homes', range: '$280K – $550K', minPrice: 280000, maxPrice: 550000 },
-      { type: 'Canal Homes with Docks', range: '$500K – $1.5M', minPrice: 500000 },
-      { type: 'Manatee Pocket Waterfront', range: '$800K – $3M+', minPrice: 800000 },
+      { type: 'Inland Single-Family Homes', range: '$400K – $550K', minPrice: 400000, maxPrice: 550000, propertyTypes: ['house'] },
+      { type: 'Canal Homes with Docks', range: '$500K – $1.5M', minPrice: 500000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Manatee Pocket Waterfront', range: '$800K – $3M+', minPrice: 800000, amenities: ['sa_has_waterfront'] },
     ],
     highlights: [
       'Manatee Pocket is one of the best-protected natural harbors on the east coast — charter boats, waterfront restaurants, and direct Atlantic access through the St. Lucie Inlet',
@@ -2769,8 +2778,8 @@ export const neighborhoods: CommunityItem[] = [
       { name: 'Charleston Court', description: 'A small townhome enclave offering a quiet setting with convenient access throughout Abacoa.' },
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000 },
-      { type: 'Single-Family Homes', range: '$600K – $1.2M+', minPrice: 600000, maxPrice: 1200000 },
+      { type: 'Condos & Townhomes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Single-Family Homes', range: '$600K – $1.2M+', minPrice: 600000, maxPrice: 1200000, propertyTypes: ['house'] },
       { type: 'Golf Course Properties', range: '$900K – $1.4M+', minPrice: 900000 },
     ],
     highlights: [
@@ -2842,15 +2851,15 @@ export const neighborhoods: CommunityItem[] = [
       'Minutes to Jupiter\'s restaurants, A-rated schools, I-95, and PBI Airport',
     ],
     priceRanges: [
-      { type: 'Oceanfront Condos', range: '$1M – $4M+', minPrice: 1000000 },
-      { type: 'Waterfront Homes', range: '$2M – $6M', minPrice: 2000000, maxPrice: 6000000 },
-      { type: 'Oceanfront Estate Homes', range: '$5M – $15M+', minPrice: 5000000 },
+      { type: 'Oceanfront Condos', range: '$1M – $4M+', minPrice: 1000000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront_ocean'] },
+      { type: 'Waterfront Homes', range: '$2M – $6M', minPrice: 2000000, maxPrice: 6000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { type: 'Oceanfront Estate Homes', range: '$5M – $15M+', minPrice: 5000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront_ocean'] },
     ],
     savedSearches: [
-      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean' },
-      { label: 'Waterfront Homes', sublabel: 'Inlet & Intracoastal', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL' },
+      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
+      { label: 'Waterfront Homes', sublabel: 'Inlet & Intracoastal', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
+      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     quickFacts: [
       { label: 'Community type', value: 'Incorporated barrier island municipality — ~400 homes, no commercial development' },
@@ -2969,9 +2978,9 @@ export const neighborhoods: CommunityItem[] = [
       { name: 'Lexington Green', description: 'Popular townhome community with consistent resale demand. Ideal for lock-and-leave seasonal buyers and retirees.' },
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$350K – $700K', minPrice: 350000, maxPrice: 700000 },
-      { type: 'Single-Family Homes', range: '$700K – $2M', minPrice: 700000, maxPrice: 2000000 },
-      { type: 'Custom Golf Course Estates', range: '$2M – $5M+', minPrice: 2000000 },
+      { type: 'Condos & Townhomes', range: '$400K – $700K', minPrice: 400000, maxPrice: 700000, propertyTypes: ['condo', 'townhouse'] },
+      { type: 'Single-Family Homes', range: '$700K – $2M', minPrice: 700000, maxPrice: 2000000, propertyTypes: ['house'] },
+      { type: 'Custom Golf Course Estates', range: '$2M – $5M+', minPrice: 2000000, propertyTypes: ['house'] },
     ],
     highlights: [
       'PGA National Resort & Spa recently fully renovated — The Butcher\'s Club, redesigned spa, updated resort facilities',
@@ -3093,10 +3102,10 @@ export const neighborhoods: CommunityItem[] = [
       { name: 'Regency at Avenir', description: 'Gated 55+ luxury active adult community by Toll Brothers with a private clubhouse, resort pool, and full lifestyle programming.' },
     ],
     priceRanges: [
-      { type: 'Single-Family Homes', range: '$700K – $1.3M', minPrice: 700000, maxPrice: 1300000 },
-      { type: 'Estate & Luxury Homes', range: '$1.3M – $3M+', minPrice: 1300000 },
-      { type: 'Panther National (Ultra-Luxury)', range: '$3M – $12M+', minPrice: 3000000 },
-      { type: 'Regency at Avenir (55+)', range: '$700K – $1.2M', minPrice: 700000, maxPrice: 1200000 },
+      { type: 'Single-Family Homes', range: '$700K – $1.3M', minPrice: 700000, maxPrice: 1300000, propertyTypes: ['house'] },
+      { type: 'Estate & Luxury Homes', range: '$1.3M – $3M+', minPrice: 1300000, propertyTypes: ['house'] },
+      { type: 'Panther National (Ultra-Luxury)', range: '$3M – $12M+', minPrice: 3000000, propertyTypes: ['house'] },
+      { type: 'Regency at Avenir (55+)', range: '$700K – $1.2M', minPrice: 700000, maxPrice: 1200000, propertyTypes: ['house'], amenities: ['sa_is_senior_community'] },
     ],
     highlights: [
       'One of the largest master-planned communities in Palm Beach County — still in active growth phase',
@@ -3248,6 +3257,14 @@ export const neighborhoods: CommunityItem[] = [
     description: 'A historic, walkable neighborhood with Spanish Mediterranean homes and scenic Intracoastal frontage.',
     overview:
       'El Cid is one of West Palm Beach\'s most charming and historic districts, prized for its Mediterranean-style architecture, pedestrian-friendly streets, and waterfront access.',
+    sisterSite: {
+      eyebrow: 'Condo Living',
+      heading: 'Condos Near El Cid',
+      intro: 'Prefer lock-and-leave living near the historic district? CondoWPB.com covers the condo and townhome options in and around El Cid — same palm-lined streets, none of the yard work.',
+      links: [
+        { label: 'El Cid Condo Guide', sublabel: 'Buildings & options near the historic district', url: 'https://www.condowpb.com/neighborhoods/el-cid' },
+      ],
+    },
     quickFacts: [
       { label: 'Homes', value: 'Historic Mediterranean cottages and luxury renovations' },
       { label: 'Amenities', value: 'Waterfront parks, marinas, walkable to restaurants' },
@@ -3274,6 +3291,15 @@ export const neighborhoods: CommunityItem[] = [
     description: 'A vibrant urban district with condos, Clematis Street dining, cultural venues, and Intracoastal waterfront access.',
     overview:
       'Downtown West Palm Beach is ideal for buyers seeking active city living in a waterfront setting, with the Brightline station, Kravis Center, and Palm Beach Island ferry steps away.',
+    sisterSite: {
+      eyebrow: 'Condo Living',
+      heading: 'Downtown Condo Towers',
+      intro: 'Downtown is West Palm\'s condo heartland. Our sister site CondoWPB.com profiles every tower from Clematis to the waterfront — views, amenities, and what daily life looks like in each building.',
+      links: [
+        { label: 'Downtown West Palm Beach Condos', sublabel: 'Every tower in the core, compared', url: 'https://www.condowpb.com/downtown-west-palm-beach-condos' },
+        { label: 'All Building Guides', sublabel: 'Floor plans, amenities & current listings', url: 'https://www.condowpb.com/buildings' },
+      ],
+    },
     quickFacts: [
       { label: 'Homes', value: 'High-rise condos and luxury apartments' },
       { label: 'Amenities', value: 'Dining, arts, Brightline rail, waterfront parks' },
@@ -3654,8 +3680,8 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Deep-water marina, championship golf, private hotel, spa, dining' },
     ],
     priceRanges: [
-      { type: 'Golf-Front Homes', range: '$1.5M – $4M' },
-      { type: 'Waterfront Estates', range: '$3M – $15M+' },
+      { type: 'Golf-Front Homes', range: '$1.5M – $4M', propertyTypes: ['house'] },
+      { type: 'Waterfront Estates', range: '$3M – $15M+', propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
     ],
     highlights: [
       'Extensive deep-water dockage with quick ocean access via the Intracoastal Waterway',
@@ -3678,7 +3704,7 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Jack Nicklaus championship golf, private clubhouse, referral-only membership' },
     ],
     priceRanges: [
-      { type: 'Estate Homes', range: '$1.5M – $5M+' },
+      { type: 'Estate Homes', range: '$1.5M – $5M+', propertyTypes: ['house'] },
     ],
     highlights: [
       'Jack Nicklaus–designed course — Nicklaus called it "one of the best I have ever done"',
@@ -3701,9 +3727,9 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Three golf courses, marina, tennis, fitness, dining' },
     ],
     priceRanges: [
-      { type: 'Condos & Villas', range: '$400K – $900K' },
-      { type: 'Single-Family Homes', range: '$800K – $3M' },
-      { type: 'Waterfront Estates', range: '$2M – $8M+' },
+      { type: 'Condos & Villas', range: '$400K – $900K', propertyTypes: ['condo'] },
+      { type: 'Single-Family Homes', range: '$800K – $3M', propertyTypes: ['house'] },
+      { type: 'Waterfront Estates', range: '$2M – $8M+', propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
     ],
     highlights: [
       'Three championship golf courses with varied terrain and stunning water views',
@@ -3727,7 +3753,7 @@ export const neighborhoods: CommunityItem[] = [
     ],
     priceRanges: [
       { type: 'Courtyard & Golf Residences', range: '$800K – $2M' },
-      { type: 'Estate Homes', range: '$2M – $6M+' },
+      { type: 'Estate Homes', range: '$2M – $6M+', propertyTypes: ['house'] },
     ],
     highlights: [
       'Jack Nicklaus Signature 18-hole championship golf course',
@@ -3750,7 +3776,7 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Jack Nicklaus Signature golf, elegant clubhouse dining, practice facilities' },
     ],
     priceRanges: [
-      { type: 'Custom Estates', range: '$4M – $30M+' },
+      { type: 'Custom Estates', range: '$4M – $30M+', propertyTypes: ['house'] },
     ],
     highlights: [
       'Jack Nicklaus Signature course — regarded as one of South Florida\'s premier private golf experiences',
@@ -3776,7 +3802,7 @@ export const neighborhoods: CommunityItem[] = [
     ],
     priceRanges: [
       { type: 'Estate Homesites', range: '$1M – $5M+' },
-      { type: 'Custom Estate Residences', range: '$3M – $12M+' },
+      { type: 'Custom Estate Residences', range: '$3M – $12M+', propertyTypes: ['house'] },
     ],
     highlights: [
       'Limited-release homesites surrounding a championship-caliber golf experience',
@@ -3807,8 +3833,8 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Resort pool, clubhouse, fitness, walking paths' },
     ],
     priceRanges: [
-      { type: 'Single-Family Homes', range: '$600K – $1.5M' },
-      { type: 'Estate Residences', range: '$1.5M – $3M+' },
+      { type: 'Single-Family Homes', range: '$600K – $1.5M', propertyTypes: ['house'] },
+      { type: 'Estate Residences', range: '$1.5M – $3M+', propertyTypes: ['house'] },
     ],
     highlights: [
       'Mediterranean-inspired architecture with premium exterior and interior finishes',
@@ -3818,12 +3844,10 @@ export const neighborhoods: CommunityItem[] = [
       'Strong resale values in a sought-after Palm Beach County location',
     ],
     photos: [
-      '/images/prado/prado-001.jpeg',
-      '/images/prado/prado-002.jpeg',
-      '/images/prado/prado-003.jpeg',
-      '/images/prado/prado-004.jpeg',
       '/images/prado/prado-005.jpeg',
       '/images/prado/prado-006.jpeg',
+      '/images/prado/prado-007.jpeg',
+      '/images/prado/prado-008.jpeg',
     ],
   },
   {
@@ -3839,8 +3863,8 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Resort pool, clubhouse, lake views, fitness, dog park' },
     ],
     priceRanges: [
-      { type: 'Single-Family Homes', range: '$700K – $1.5M' },
-      { type: 'Lakefront Estates', range: '$1.2M – $2.5M+' },
+      { type: 'Single-Family Homes', range: '$700K – $1.5M', propertyTypes: ['house'] },
+      { type: 'Lakefront Estates', range: '$1.2M – $2.5M+', propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
     ],
     highlights: [
       'Gated community with lakefront lots and beautiful water views throughout',
@@ -3891,7 +3915,7 @@ export const neighborhoods: CommunityItem[] = [
       'Homes in Mallory Creek rarely stay on the market long — limited, in-demand inventory',
     ],
     priceRanges: [
-      { type: 'Single-Family Homes', range: 'High $700s – $1M+', minPrice: 750000 },
+      { type: 'Single-Family Homes', range: 'High $700s – $1M+', minPrice: 750000, propertyTypes: ['house'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: 'Walking distance' },
@@ -3936,7 +3960,7 @@ export const neighborhoods: CommunityItem[] = [
       'Select homes with private pools; many with updated interiors',
     ],
     priceRanges: [
-      { type: 'Single-Family Homes', range: '$650K – $1.1M+', minPrice: 650000, maxPrice: 1100000 },
+      { type: 'Single-Family Homes', range: '$650K – $1.1M+', minPrice: 650000, maxPrice: 1100000, propertyTypes: ['house'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: '5 min' },
@@ -3977,7 +4001,7 @@ export const neighborhoods: CommunityItem[] = [
       'HOA-managed exterior — true low-maintenance lifestyle',
     ],
     priceRanges: [
-      { type: 'Townhomes & Live/Work', range: '$450K – $700K', minPrice: 450000, maxPrice: 700000 },
+      { type: 'Townhomes & Live/Work', range: '$450K – $700K', minPrice: 450000, maxPrice: 700000, propertyTypes: ['townhouse'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: 'Walking distance' },
@@ -4017,7 +4041,7 @@ export const neighborhoods: CommunityItem[] = [
       'Easy access to I-95 and Jupiter Beach',
     ],
     priceRanges: [
-      { type: 'Single-Family Homes', range: '$600K – $1M+', minPrice: 600000, maxPrice: 1000000 },
+      { type: 'Single-Family Homes', range: '$600K – $1M+', minPrice: 600000, maxPrice: 1000000, propertyTypes: ['house'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: '5 min' },
@@ -4057,7 +4081,7 @@ export const neighborhoods: CommunityItem[] = [
       'HOA-managed — true lock-and-leave lifestyle',
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000 },
+      { type: 'Condos & Townhomes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo', 'townhouse'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: 'Walking distance' },
@@ -4097,7 +4121,7 @@ export const neighborhoods: CommunityItem[] = [
       'One of Abacoa\'s most affordable entry points',
     ],
     priceRanges: [
-      { type: 'Condominiums', range: '$400K – $580K', minPrice: 400000, maxPrice: 580000 },
+      { type: 'Condominiums', range: '$400K – $580K', minPrice: 400000, maxPrice: 580000, propertyTypes: ['condo'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: 'Walking distance' },
@@ -4137,7 +4161,7 @@ export const neighborhoods: CommunityItem[] = [
       'Close to Town Center, Roger Dean Stadium, and Abacoa Community Park',
     ],
     priceRanges: [
-      { type: 'Condos & Townhomes', range: '$380K – $580K', minPrice: 380000, maxPrice: 580000 },
+      { type: 'Condos & Townhomes', range: '$400K – $580K', minPrice: 400000, maxPrice: 580000, propertyTypes: ['condo', 'townhouse'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: '5 min' },
@@ -4177,7 +4201,7 @@ export const neighborhoods: CommunityItem[] = [
       'Easy access to Donald Ross Road, Military Trail, and Abacoa Town Center',
     ],
     priceRanges: [
-      { type: 'Townhomes (3-story)', range: '$480K – $700K', minPrice: 480000, maxPrice: 700000 },
+      { type: 'Townhomes (3-story)', range: '$480K – $700K', minPrice: 480000, maxPrice: 700000, propertyTypes: ['townhouse'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: '5 min' },
@@ -4217,7 +4241,7 @@ export const neighborhoods: CommunityItem[] = [
       'Close to Abacoa Town Center, Roger Dean Stadium, and A-rated public schools',
     ],
     priceRanges: [
-      { type: 'Townhomes', range: '$420K – $620K', minPrice: 420000, maxPrice: 620000 },
+      { type: 'Townhomes', range: '$420K – $620K', minPrice: 420000, maxPrice: 620000, propertyTypes: ['townhouse'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: '5 min' },
@@ -4257,7 +4281,7 @@ export const neighborhoods: CommunityItem[] = [
       'Close to Abacoa Town Center, FAU Jupiter campus, and Roger Dean Stadium',
     ],
     priceRanges: [
-      { type: 'Townhomes & Single Family', range: '$450K – $750K', minPrice: 450000, maxPrice: 750000 },
+      { type: 'Townhomes & Single Family', range: '$450K – $750K', minPrice: 450000, maxPrice: 750000, propertyTypes: ['townhouse', 'house'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Town Center', time: '5 min' },
@@ -4297,7 +4321,7 @@ export const neighborhoods: CommunityItem[] = [
       'Quick access to Downtown Abacoa, Roger Dean Stadium, and Jupiter beaches',
     ],
     priceRanges: [
-      { type: 'Townhomes', range: '$400K – $580K', minPrice: 400000, maxPrice: 580000 },
+      { type: 'Townhomes', range: '$400K – $580K', minPrice: 400000, maxPrice: 580000, propertyTypes: ['townhouse'] },
     ],
     commuteTimes: [
       { destination: 'Abacoa Golf Club', time: 'Walking distance' },

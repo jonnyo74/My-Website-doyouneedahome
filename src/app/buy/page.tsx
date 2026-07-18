@@ -5,7 +5,7 @@ import { cities } from '@/lib/communities'
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
 // zero results); omitting locations entirely falls back to the account's
 // configured default market area, which actually works.
-const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1'
+const SEARCH_URL = 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[minPrice]=400000'
 
 export const metadata: Metadata = {
   title: 'Buy a Home in Palm Beach County | DO Homes Group',
@@ -95,6 +95,19 @@ export default function BuyPage() {
                 </div>
               </div>
             ))}
+          </div>
+          {/* Condo hand-off */}
+          <div className="mt-8 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-6 py-5">
+            <p className="text-sm leading-6 text-slate-600">
+              Condo shopping in West Palm Beach? Our sister site profiles every building in the city —
+              start there, then come back for everything else.
+            </p>
+            <a
+              href="https://www.condowpb.com"
+              className="inline-flex flex-shrink-0 items-center rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
+            >
+              CondoWPB.com →
+            </a>
           </div>
         </div>
       </section>

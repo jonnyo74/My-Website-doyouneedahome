@@ -12,7 +12,9 @@ export default function YlopoResultsWidget({ city, neighborhood, minPrice = 6000
     ? { neighborhood, city, state: 'FL' }
     : { city, state: 'FL' }
 
-  const search: Record<string, unknown> = { locations: [location], limit, minPrice, sortBy: 'listdate' }
+  // Site-wide floor — never show listings under $400K regardless of caller.
+  const effectiveMinPrice = Math.max(minPrice, 400000)
+  const search: Record<string, unknown> = { locations: [location], limit, minPrice: effectiveMinPrice, sortBy: 'listdate' }
   if (propertyTypes?.length) search.propertyTypes = propertyTypes
 
   return (

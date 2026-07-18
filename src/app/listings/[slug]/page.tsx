@@ -20,7 +20,8 @@ function searchUrl(city: string, opts: {
 } = {}) {
   const c = encodeURIComponent(city)
   let url = `${SEARCH_URL}/search?area=${c}&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
-  if (opts.minPrice) url += `&s[minPrice]=${opts.minPrice}`
+  // Site-wide floor — never show listings under $400K.
+  url += `&s[minPrice]=${Math.max(opts.minPrice ?? 0, 400000)}`
   if (opts.maxPrice) url += `&s[maxPrice]=${opts.maxPrice}`
   if (opts.amenities) opts.amenities.forEach((a, i) => { url += `&s[amenities][${i}]=${encodeURIComponent(a)}` })
   if (opts.propertyTypes) opts.propertyTypes.forEach((t, i) => { url += `&s[propertyTypes][${i}]=${encodeURIComponent(t)}` })
