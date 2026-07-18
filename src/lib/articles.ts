@@ -565,7 +565,7 @@ In Juno Beach, the real hangout is the **beach and the pier** — sunrise coffee
 
 ## A true downtown
 
-West Palm has what most of the area lacks: a walkable core. **Clematis Street** and **Rosemary Square** stack restaurants, bars, shops, and events into a few blocks, and the **Flagler Drive waterfront** runs right along the Intracoastal, looking across at Palm Beach island. The **Brightline** train station downtown means you can reach Miami or Orlando without a car.
+West Palm has what most of the area lacks: a walkable core. **Clematis Street** and **Rosemary Square** stack restaurants, bars, shops, and events into a few blocks, and the **Flagler Drive waterfront** runs right along the Intracoastal, looking across at Palm Beach island. The **Brightline** train station downtown means you can reach Miami or Orlando without a car. A lot of that skyline is condo living — our sister site [CondoWPB.com](https://www.condowpb.com) profiles every downtown tower if that's the lifestyle calling you.
 
 ## Culture and energy
 
@@ -619,7 +619,7 @@ Downtown parking takes patience — learn the garages. Neighborhoods change bloc
 
 ## Settling in
 
-Pick a neighborhood that matches your vibe — walkable-downtown, historic-charming, or artsy-Northwood — and the city opens up fast. West Palm rewards people who use its downtown, its waterfront, and its train.`,
+Pick a neighborhood that matches your vibe — walkable-downtown, historic-charming, or artsy-Northwood — and the city opens up fast. West Palm rewards people who use its downtown, its waterfront, and its train. For deeper dives into the dining, arts, and waterfront scene, our sister site keeps [50-plus local guides to West Palm Beach living](https://www.condowpb.com/lifestyle).`,
     faqs: [
       { q: "What do locals do in West Palm Beach?", a: "Dine and go out downtown on Clematis Street and at Rosemary Square, hit the Saturday waterfront GreenMarket, ride the Brightline, enjoy the Kravis Center and festivals, and cross the bridge to the beach." },
       { q: "Is West Palm Beach walkable?", a: "Downtown and the waterfront are genuinely walkable, and the Brightline adds car-free travel. Beyond the core, it is more car-dependent." },
@@ -647,7 +647,7 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
     heroImage: '/images/west-palm-beach/waterfront-030.jpeg',
     body: `West Palm's neighborhoods are its superpower — there's a distinct one for almost every lifestyle.
 
-**Walkable urban → Downtown & Rosemary Square.** High-rise and mid-rise condos steps from Clematis, the waterfront, and the Brightline. For people who want to live in the action.
+**Walkable urban → Downtown & Rosemary Square.** High-rise and mid-rise condos steps from Clematis, the waterfront, and the Brightline. For people who want to live in the action — we map every building at [CondoWPB.com's neighborhood guides](https://www.condowpb.com/neighborhoods).
 
 **Historic & waterfront → El Cid.** One of the most charming districts in the city — Spanish-Mediterranean homes, tree canopy, and Intracoastal proximity.
 
@@ -689,7 +689,7 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
 
 **Explore the arts.** The **Norton Museum of Art** is a regional gem, the **Kravis Center** hosts Broadway and concerts, and the **Ann Norton Sculpture Gardens** offer a quiet, beautiful escape.
 
-**Hit downtown.** **Clematis Street** and **Rosemary Square** deliver dining, shopping, bars, and events — including the long-running Clematis by Night.
+**Hit downtown.** **Clematis Street** and **Rosemary Square** deliver dining, shopping, bars, and events — including the long-running Clematis by Night (our [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) has the full scene).
 
 **Stroll the waterfront.** Flagler Drive along the Intracoastal is made for walking, with the Saturday **GreenMarket** a weekend ritual.
 
@@ -741,7 +741,9 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
 - **Want a small-town feel** — this is a city, with city pace and traffic.
 - **Prefer brand-new master-planned homes** — much of the charm here is historic.
 
-**Gut-check:** if "walk to dinner downtown, museum on Sunday, train to Miami, beach across the bridge" excites you, West Palm is your city. If you want sleepy and beachfront, look to the coastal towns.`,
+**Gut-check:** if "walk to dinner downtown, museum on Sunday, train to Miami, beach across the bridge" excites you, West Palm is your city. If you want sleepy and beachfront, look to the coastal towns.
+
+And if brand-new appeals: the city's [new wave of condo towers](https://www.condowpb.com/new-construction) — Olara, South Flagler House, the Ritz-Carlton Residences — is reshaping the skyline right now.`,
     faqs: [
       { q: "Is West Palm Beach good for young professionals?", a: "Yes — its walkable downtown, nightlife, arts, dining, Brightline access, and growing job scene make it popular with young professionals." },
       { q: "Is West Palm Beach good for families?", a: "It can be, especially in its historic neighborhoods, though families wanting quiet, gated suburbia and top-zoned schools sometimes prefer Palm Beach Gardens or Jupiter." },
@@ -783,7 +785,9 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
 - **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 - **Busier and louder** than the quiet beach towns.
 
-**Bottom line:** for urban-minded buyers who want energy, culture, and value, the pros are compelling. If you want quiet or beachfront, the cons will weigh heavier.`,
+**Bottom line:** for urban-minded buyers who want energy, culture, and value, the pros are compelling. If you want quiet or beachfront, the cons will weigh heavier.
+
+If the condo route is calling, our [guide to buying a condo in West Palm Beach](https://www.condowpb.com/guides/buying-a-condo-in-wpb) covers how it differs from buying a house.`,
     faqs: [
       { q: "What are the pros of living in West Palm Beach?", a: "A walkable downtown, strong arts and dining, housing value and variety, Brightline access, a growing job scene, the waterfront, and no state income tax." },
       { q: "What are the downsides of living in West Palm Beach?", a: "City traffic and parking, not being directly on the beach, neighborhood-to-neighborhood variation, summer heat and insurance costs, and a busier pace than the beach towns." },
@@ -812,7 +816,7 @@ And the beaches of Palm Beach island are minutes across the bridge when you want
     showMarketTrends: true,
     body: `West Palm Beach offers the widest cost range in the area — which is a big part of its appeal.
 ## Housing
-This is where West Palm shines on flexibility. Luxury downtown condos and waterfront homes run high, but historic neighborhoods and areas to the west offer genuinely more attainable options than the beach towns.
+This is where West Palm shines on flexibility. Luxury downtown condos and waterfront homes run high, but historic neighborhoods and areas to the west offer genuinely more attainable options than the beach towns. On the condo side there's still real value downtown — browse [condos under $500K in West Palm Beach](https://www.condowpb.com/west-palm-beach-condos-under-500k) to calibrate.
 ## Taxes
 **No state income tax** — a major draw. Property taxes apply, with a Homestead Exemption for primary residents.
 
@@ -856,7 +860,7 @@ As a city, dining, parking, and entertainment can add up, but you also get more 
 
 **Antique Row (South Dixie Highway).** A long stretch of antique shops, design stores, and a few beloved restaurants — a treasure hunt most newcomers miss.
 
-**Northwood Village.** An artsy, walkable pocket of galleries, cafés, and indie spots with real character.
+**Northwood Village.** An artsy, walkable pocket of galleries, cafés, and indie spots with real character — [condo and loft living in Northwood](https://www.condowpb.com/neighborhoods/northwood) is one of the city's better-kept secrets too.
 
 **Grandview Public Market.** A buzzy food hall in a historic building — diverse eats and a local gathering spot near the train.
 
@@ -899,7 +903,9 @@ These are the spots that make city living here feel like a community.`,
 
 **West Palm Beach vs Jupiter.** Jupiter is the laid-back beach town; West Palm is the city. Choose Jupiter for the beach lifestyle; West Palm for downtown energy and value.
 
-**How to choose:** rank **city energy/value** (West Palm), **prestige/quiet** (Palm Beach), **suburban golf** (PBG), **funky beach-adjacent** (Lake Worth), or **beach town** (Jupiter).`,
+**How to choose:** rank **city energy/value** (West Palm), **prestige/quiet** (Palm Beach), **suburban golf** (PBG), **funky beach-adjacent** (Lake Worth), or **beach town** (Jupiter).
+
+If West Palm wins your ranking and condo living is the draw, start with [West Palm Beach condos for sale](https://www.condowpb.com/west-palm-beach-condos-for-sale) — every building, one guide.`,
     faqs: [
       { q: "West Palm Beach or Palm Beach — what's the difference?", a: "Palm Beach is the wealthy, quiet, exclusive island; West Palm Beach is the energetic, diverse, more affordable mainland city across the bridge." },
       { q: "West Palm Beach vs Palm Beach Gardens?", a: "West Palm is urban and walkable with nightlife; Palm Beach Gardens is polished, gated, golf-and-shopping suburbia. It comes down to city energy versus quiet suburbia." },
@@ -927,7 +933,7 @@ These are the spots that make city living here feel like a community.`,
     heroImage: '/images/west-palm-beach/waterfront-028.jpeg',
     body: `As the area's city, West Palm has the deepest dining and nightlife scene around — clustered in a few key districts.
 ## The downtown core
-**Clematis Street** and **Rosemary Square** are the heart of it — restaurants, rooftop bars, and nightlife within walking distance, plus events like Clematis by Night.
+**Clematis Street** and **Rosemary Square** are the heart of it — restaurants, rooftop bars, and nightlife within walking distance, plus events like Clematis by Night. For the block-by-block version, see our [downtown WPB dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb).
 
 ## Antique Row & South Dixie
 A stretch of characterful local restaurants mixed in with the antique shops — a favorite for a more low-key, neighborhood meal.
@@ -1000,6 +1006,8 @@ Northwood Village's housing stock reflects decades of character — and genuine 
 Pricing starts in the **$500s** and moves up from there depending on size, condition, and whether you're on the water. For a neighborhood with this much character and this close to downtown WPB, that entry point is real value.
 
 For investors, the combination of historic character, rising neighborhood profile, and waterfront inventory creates a window that tends to close as a neighborhood matures.
+
+On the condo and loft side, [CondoWPB's Northwood guide](https://www.condowpb.com/neighborhoods/northwood) covers the buildings in and around the village.
 
 ## Who Is Northwood Village Right For?
 

@@ -1,12 +1,13 @@
 import { Fragment, type ReactNode } from 'react'
+import Link from 'next/link'
 
 /**
  * Minimal markdown renderer for article bodies.
- * Supports: ## h2, ### h3, - bullet lists, > blockquote, **bold** inline, and paragraphs.
- * Intentionally dependency-free.
+ * Supports: ## h2, ### h3, - bullet lists, > blockquote, **bold** and
+ * [label](url) inline, and paragraphs. Intentionally dependency-free.
  */
 
-function renderInline(text: string, keyBase: string): ReactNode[] {
+function renderBold(text: string, keyBase: string): ReactNode[] {
   // Split on **bold** segments
   const parts = text.split(/(\*\*[^*]+\*\*)/g)
   return parts.map((part, i) => {
@@ -18,6 +19,29 @@ function renderInline(text: string, keyBase: string): ReactNode[] {
       )
     }
     return <Fragment key={`${keyBase}-t${i}`}>{part}</Fragment>
+  })
+}
+
+function renderInline(text: string, keyBase: string): ReactNode[] {
+  // Split on [label](url) links, then handle **bold** within each segment
+  const parts = text.split(/(\[[^\]]+\]\([^)\s]+\))/g)
+  return parts.flatMap((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/)
+    if (!m) return renderBold(part, `${keyBase}-${i}`)
+    const [, label, href] = m
+    const cls = 'font-medium text-gold-600 underline decoration-gold-300 underline-offset-2 transition hover:text-gold-700'
+    if (href.startsWith('/')) {
+      return (
+        <Link key={`${keyBase}-l${i}`} href={href} className={cls}>
+          {renderBold(label, `${keyBase}-l${i}`)}
+        </Link>
+      )
+    }
+    return (
+      <a key={`${keyBase}-l${i}`} href={href} target="_blank" rel="noopener noreferrer" className={cls}>
+        {renderBold(label, `${keyBase}-l${i}`)}
+      </a>
+    )
   })
 }
 
