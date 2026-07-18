@@ -147,6 +147,16 @@ export default function TeamPage() {
                 leading independent brokerages. Pictured with broker Ray Carrano at a Premier Brokers award ceremony —
                 Christine has been recognized as a top producer year after year.
               </p>
+              <p className="text-sm leading-7 text-slate-600">
+                We also run{' '}
+                <a
+                  href="https://www.condowpb.com/about"
+                  className="font-medium text-gold-600 underline decoration-gold-300 underline-offset-2 transition hover:text-gold-700"
+                >
+                  CondoWPB.com — our dedicated guide to West Palm Beach condo living
+                </a>
+                .
+              </p>
               <div className="space-y-1 text-sm text-slate-600">
                 <p>9123 North Military Trail Suite 104</p>
                 <p>Palm Beach Gardens, FL 33410</p>
