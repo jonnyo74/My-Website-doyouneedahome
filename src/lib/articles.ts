@@ -55,7 +55,7 @@ export const articles: Article[] = [
       'Jupiter FL relocation guide',
     ],
     h1: "What It's Really Like Living in Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-lighthouse-sunset.jpg',
+    heroImage: '/images/jupiter/jupiter-lighthouse-sunset.jpg',
     body: `There's a moment, right after you cross the bridge into Jupiter, where your shoulders drop an inch. The buildings get shorter. The road opens up. You catch a flash of the Loxahatchee River on one side and a wall of green on the other. It doesn't feel like the rest of South Florida — and that's usually the thing that makes people stay.
 
 So what's it actually like to live here? Let's talk like neighbors, not like a brochure.
@@ -6995,7 +6995,7 @@ Tequesta is quiet and upscale-casual — beloved local spots and cafés over a b
     primaryKeyword: "Jupiter Florida local guide",
     secondaryKeywords: ["Jupiter Florida insider tips", "things locals do in Jupiter FL", "moving to Jupiter Florida guide"],
     h1: "A Local's Guide to Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-waterfront-dining.jpg',
+    heroImage: '/images/jupiter/jupiter-waterfront-dining.jpg',
     body: `Anybody can visit Jupiter. They climb the lighthouse, grab a fish sandwich, and post a sunset. That's the tourist version. Living here is different — it's knowing which beach lot fills first, when to avoid Indiantown Road, and why everyone suddenly cares about sea turtles in June.
 
 ## Get your bearings — four pieces
@@ -7042,7 +7042,7 @@ Beyond the famous spots, locals live around the small stuff: green markets in se
     primaryKeyword: "best neighborhoods in Jupiter Florida",
     secondaryKeywords: ["where to live in Jupiter FL", "Abacoa Jupiter", "Jupiter Farms", "family neighborhoods Jupiter FL"],
     h1: "Best Neighborhoods in Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-luxury-home.jpg',
+    heroImage: '/images/jupiter/jupiter-luxury-home.jpg',
     body: `Here's the honest truth: there's no single "best" neighborhood in Jupiter — only the best one for the life you want. A young family, a boater, a retiree, and a horse lover would each pick a different corner, and they'd all be right. So instead of ranking them, here they are matched to the life you're after.
 
 ## Walkable & young at heart → Abacoa
@@ -7097,7 +7097,7 @@ Ask yourself: walk-to-things or space? Beach, boat, horses, or schools? Lock-and
     primaryKeyword: "things to do in Jupiter Florida",
     secondaryKeywords: ["what to do in Jupiter FL", "Jupiter Florida attractions", "Jupiter FL beaches and parks"],
     h1: "Best Things to Do in Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-inlet.jpg',
+    heroImage: '/images/jupiter/jupiter-inlet.jpg',
     body: `Some towns you visit for one big attraction. Jupiter isn't like that — the "thing to do" here is be outside, on the water, on the sand, under the palms. Here's how a local would tell you to spend your time.
 
 ## Climb the Jupiter Inlet Lighthouse
@@ -7154,7 +7154,7 @@ In summer, plan outdoor stuff for the morning and keep an indoor option — the 
     primaryKeyword: "who should move to Jupiter Florida",
     secondaryKeywords: ["is Jupiter Florida right for me", "should I move to Jupiter FL", "who lives in Jupiter Florida"],
     h1: "Who Should Move to Jupiter, Florida (And Who Shouldn't)",
-    heroImage: '/public/Jupiter/jupiter-waterway-dusk.jpg',
+    heroImage: '/images/jupiter/jupiter-waterway-dusk.jpg',
     body: `Most "move here!" articles only tell you the good stuff. This one's going to be straight with you — because the worst thing isn't skipping Jupiter, it's moving here and realizing it doesn't fit your life.
 
 ## You'll love Jupiter if…
@@ -7211,7 +7211,7 @@ Picture your ordinary Tuesday a year from now. Beach walk, porch work, dinner on
     primaryKeyword: "pros and cons of living in Jupiter Florida",
     secondaryKeywords: ["Jupiter Florida pros and cons", "living in Jupiter downsides", "is Jupiter Florida worth it"],
     h1: "Pros and Cons of Living in Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-pelican-dock.jpg',
+    heroImage: '/images/jupiter/jupiter-pelican-dock.jpg',
     showMarketTrends: true,
     body: `Every move involves trade-offs. Jupiter's are honest ones — and most people who make them don't regret it. Here's the real picture.
 
@@ -7267,7 +7267,7 @@ Jupiter offers the water, the weather, the schools, and a town with real charact
     primaryKeyword: "cost of living in Jupiter Florida",
     secondaryKeywords: ["Jupiter Florida home prices", "is Jupiter Florida expensive", "Jupiter FL cost of living"],
     h1: "Cost of Living in Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-luxury-home.jpg',
+    heroImage: '/images/jupiter/jupiter-luxury-home.jpg',
     showMarketTrends: true,
     body: `Let's be honest up front: Jupiter is not a budget town. It's one of the more desirable addresses in Palm Beach County, and the price tag reflects that. But "expensive" isn't the whole story.
 
@@ -7315,7 +7315,7 @@ Jupiter costs more than the U.S. average — mostly housing and insurance — bu
     primaryKeyword: "hidden gems in Jupiter Florida",
     secondaryKeywords: ["Jupiter Florida secret spots", "free things to do in Jupiter", "local favorites Jupiter FL"],
     h1: "Hidden Gems in Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-inlet.jpg',
+    heroImage: '/images/jupiter/jupiter-inlet.jpg',
     body: `Everybody finds the lighthouse and the dog beach in week one. The real Jupiter reveals itself slowly. Here are the spots locals love that newcomers usually miss.
 
 **Coral Cove Park (snorkeling reef).** Just up on the barrier island, Coral Cove has a shallow rock reef right off the beach — one of the few easy snorkeling spots around, full of fish at high tide.
@@ -7357,7 +7357,7 @@ These are the places that turn a new resident into a local — free or cheap, of
     primaryKeyword: "Jupiter vs nearby cities",
     secondaryKeywords: ["Jupiter vs Palm Beach Gardens", "Jupiter vs Juno Beach", "Jupiter vs Stuart"],
     h1: "Jupiter vs Nearby Cities: How to Choose",
-    heroImage: '/public/Jupiter/jupiter-lighthouse-sunset.jpg',
+    heroImage: '/images/jupiter/jupiter-lighthouse-sunset.jpg',
     showMarketTrends: true,
     body: `Relocating to the area but not sure Jupiter specifically is the one? Here's an honest, neighborly comparison of Jupiter against the towns right around it.
 
@@ -7404,7 +7404,7 @@ Rank what matters most: **price** (Stuart and inland win), **beach access** (Jun
     primaryKeyword: "best restaurants in Jupiter Florida",
     secondaryKeywords: ["where to eat in Jupiter FL", "Jupiter waterfront restaurants", "Guanabanas Jupiter"],
     h1: "Best Places to Eat, Drink & Hang Out in Jupiter, Florida",
-    heroImage: '/public/Jupiter/jupiter-waterfront-dining.jpg',
+    heroImage: '/images/jupiter/jupiter-waterfront-dining.jpg',
     body: `In Jupiter, where you eat is half the lifestyle. The best meals come with a water view, a breeze, and no rush. Here's the local rundown.
 ## On the water (the classics)
 

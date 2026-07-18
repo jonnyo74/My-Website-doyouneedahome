@@ -34,7 +34,7 @@ export default function BlogPage() {
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-navy-900 via-slate-800 to-slate-700 px-6 py-20 sm:px-10 sm:py-28">
         {/* subtle texture overlay */}
-        <div className="pointer-events-none absolute inset-0 bg-[url('/images/jupiter-oceanfront-condo.jpg')] bg-cover bg-center opacity-10" />
+        <div className="pointer-events-none absolute inset-0 bg-[url('/images/jupiter/jupiter-oceanfront-condo.jpg')] bg-cover bg-center opacity-10" />
         <div className="relative mx-auto max-w-5xl">
           <div className="flex flex-col items-center gap-10 lg:flex-row lg:items-center lg:gap-14">
 
