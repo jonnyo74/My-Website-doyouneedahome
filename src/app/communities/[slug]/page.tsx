@@ -9,6 +9,7 @@ import {
   communities,
 } from '@/lib/communities'
 import { getAgentQuotes } from '@/lib/agentQuotes'
+import { getArticlesByCity } from '@/lib/articles'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import YlopoInit from '@/components/YlopoInit'
@@ -88,6 +89,10 @@ export default async function CommunityPage({ params }: Props) {
   // Alternate which agent leads per page
   const christineOnTop = community.slug.charCodeAt(0) % 2 === 0
   const quotes = getAgentQuotes(community.slug)
+  // Relocation articles: cities show their own cluster; neighborhoods borrow the parent city's.
+  const articleCity = isCity ? community : parentCity
+  const cityArticles = articleCity ? getArticlesByCity(articleCity.slug) : []
+  const shownArticles = isCity ? cityArticles : cityArticles.slice(0, 4)
   // For neighborhoods, search by parent city not the neighborhood name — Ylopo's
   // search only resolves real municipalities, not subdivision/community names
   // (e.g. searching city="Abacoa" returns zero results; it must be "Jupiter").
@@ -772,6 +777,42 @@ export default async function CommunityPage({ params }: Props) {
                   <YlopoMarketTrendsWidget city={isCity ? community.name : (parentCity?.name ?? community.name)} />
                 </div>
               </div>
+
+              {/* Relocation guides */}
+              {shownArticles.length > 0 && articleCity && (
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Relocation Guides</p>
+                  <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900">
+                    Living in {articleCity.name}: Guides & Insights
+                  </h2>
+                  <p className="mt-2 text-sm leading-7 text-slate-500">
+                    Everything we tell our own buyers about {articleCity.name} — cost of living, best
+                    neighborhoods, pros and cons, and local favorites.
+                  </p>
+                  <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                    {shownArticles.map((a) => (
+                      <Link
+                        key={a.slug}
+                        href={`/blog/${a.slug}`}
+                        className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold-500/40 hover:shadow-card-hover"
+                      >
+                        <p className="text-sm font-semibold leading-6 text-slate-900 transition group-hover:text-gold-600">
+                          {a.h1}
+                        </p>
+                        <span className="mt-2 inline-block text-xs font-semibold text-gold-600">Read the guide →</span>
+                      </Link>
+                    ))}
+                  </div>
+                  {!isCity && cityArticles.length > shownArticles.length && (
+                    <Link
+                      href={`/communities/${articleCity.slug}`}
+                      className="mt-4 inline-flex text-sm font-semibold text-gold-600 transition hover:text-gold-700"
+                    >
+                      All {articleCity.name} guides →
+                    </Link>
+                  )}
+                </div>
+              )}
 
               {/* Parent city link (neighborhood pages only) */}
               {parentCity && (

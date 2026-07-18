@@ -111,7 +111,13 @@ export default async function ArticlePage({ params }: Props) {
                 <span>/</span>
                 <Link href="/blog" className="hover:text-white">Blog</Link>
                 <span>/</span>
-                <span className="text-white/90">{article.cityName}</span>
+                {community ? (
+                  <Link href={`/communities/${community.slug}`} className="text-white/90 hover:text-white">
+                    {article.cityName}
+                  </Link>
+                ) : (
+                  <span className="text-white/90">{article.cityName}</span>
+                )}
               </nav>
               <h1 className="font-serif text-3xl font-semibold text-white sm:text-4xl">{article.h1}</h1>
             </div>
@@ -131,6 +137,24 @@ export default async function ArticlePage({ params }: Props) {
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
         {/* Body */}
         <Prose content={article.body} />
+
+        {/* City page link */}
+        {community && (
+          <div className="mt-10 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-6 py-5">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">Community Guide</p>
+              <p className="mt-1 text-sm leading-6 text-slate-600">
+                Neighborhoods, schools, prices, and lifestyle — all in one place.
+              </p>
+            </div>
+            <Link
+              href={`/communities/${community.slug}`}
+              className="inline-flex items-center rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
+            >
+              Living in {article.cityName} →
+            </Link>
+          </div>
+        )}
 
         {/* Local expert note */}
         {article.funFact && article.author && (
