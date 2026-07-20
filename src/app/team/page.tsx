@@ -48,8 +48,9 @@ export default function TeamPage() {
             Meet Christine & John
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-            Licensed REALTORS® with Premier Brokers International, serving Palm Beach County and
-            the surrounding areas — with a proven track record and a direct line of communication at all times.
+            Licensed REALTORS® with Premier Brokers International, serving buyers and sellers across
+            Palm Beach Island, Palm Beach County, and the Treasure Coast — with a proven track record
+            and a direct line of communication at all times.
           </p>
         </div>
       </section>
@@ -121,6 +122,21 @@ export default function TeamPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Palm Beach Island */}
+      <section className="bg-white px-6 pb-16 sm:px-8">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Palm Beach Island</p>
+          <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">Representing Buyers on Palm Beach Island</h2>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Palm Beach Island real estate moves differently than the mainland — off-market listings, estate
+            sales, and relationships that matter as much as MLS access. Christine and John work as buyer&apos;s
+            agents across the Island&apos;s estate section, mid-town, and North End, alongside the broader Palm
+            Beach County and Treasure Coast markets, giving clients a single point of contact whether the
+            search starts on the Island or expands beyond it.
+          </p>
         </div>
       </section>
 
@@ -205,9 +221,17 @@ export default function TeamPage() {
             Call or email Christine or John directly — we respond the same day.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+            <a
+              href="https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[minPrice]=400000"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex rounded-full bg-gold-500 px-8 py-3.5 text-sm font-semibold text-white transition hover:bg-gold-600"
+            >
+              Search Homes
+            </a>
             <Link
               href="/contact"
-              className="inline-flex rounded-full bg-gold-500 px-8 py-3.5 text-sm font-semibold text-white transition hover:bg-gold-600"
+              className="inline-flex rounded-full border border-slate-300 px-8 py-3.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
             >
               Contact Us
             </Link>

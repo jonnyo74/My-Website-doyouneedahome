@@ -1009,6 +1009,12 @@ For investors, the combination of historic character, rising neighborhood profil
 
 On the condo and loft side, [CondoWPB's Northwood guide](https://www.condowpb.com/neighborhoods/northwood) covers the buildings in and around the village.
 
+## The Old Northwood Historic District
+
+Much of Northwood Village sits inside the Old Northwood Historic District — one of West Palm Beach's designated historic neighborhoods, recognized for its concentration of 1920s Mediterranean Revival, Mission, and Frame Vernacular homes. That designation is part of why the streetscape here still looks the way it did nearly a century ago: mature oak canopies, brick-paved side streets, and architecture that developers can't simply tear down and replace.
+
+For buyers, that means Northwood Village homes come with a built-in layer of protection against the teardown-and-rebuild cycle reshaping so much of coastal Palm Beach County. You're buying into a neighborhood whose character is legally preserved, not just aesthetically pleasant today.
+
 ## Who Is Northwood Village Right For?
 
 The short answer: more people than you'd expect.
@@ -1027,7 +1033,7 @@ The through-line for all of them: people come to look at Northwood Village and t
 
 If **Northwood Village West Palm Beach homes** are on your radar, the inventory moves. The neighborhood is small enough that good listings don't sit long, especially when the street festival crowd has been circling the same blocks for months.
 
-Browse available homes in Northwood Village and the surrounding WPB neighborhoods at [DoYouNeedAHome.com](https://doyouneedahome.com). When you find something worth a closer look, reach out — we can put you in context on the neighborhood, the block, and what the monthly festivals actually feel like when you live there.
+[Search active Northwood Village and West Palm Beach listings now](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=500000). When you find something worth a closer look, reach out — we can put you in context on the neighborhood, the block, and what the monthly festivals actually feel like when you live there.
 
 The people who discover Northwood Village tend to stay discovered.`,
     faqs: [
@@ -2779,8 +2785,8 @@ Decide your Wellington — family-neighborhood suburbia or the equestrian world 
     type: "Best Things To Do In",
     order: 4,
     seoTitle: "Best Things to Do in Wellington, Florida",
-    metaTitle: "Best Things to Do in Wellington, Florida",
-    metaDescription: "From world-class horse shows and Sunday polo to nature preserves and the amphitheater — a local guide to the best things to do in Wellington, Florida.",
+    metaTitle: "Best Things to Do in Wellington, FL: Polo, Preserves & More (2026)",
+    metaDescription: "The best things to do in Wellington, Florida — free Sunday polo at the International Polo Club, Winter Equestrian Festival horse shows, nature preserves, and the amphitheater, from a local agent.",
     primaryKeyword: "things to do in Wellington Florida",
     secondaryKeywords: ["Wellington attractions", "what to do in Wellington FL", "Winter Equestrian Festival", "International Polo Club"],
     h1: "Best Things to Do in Wellington, Florida",
@@ -4191,8 +4197,8 @@ For a new community, the combination of resort amenities and Everglades-edge nat
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
     seoTitle: "Best Places to Eat, Drink & Hang Out in and Around Westlake, Florida",
-    metaTitle: "Best Places to Eat & Drink Near Westlake, FL",
-    metaDescription: "Where to eat, drink, and hang out in and around Westlake, Florida — the Adventure Park hub now, with the bigger dining scenes in Royal Palm Beach and Wellington.",
+    metaTitle: "Best Restaurants Near Westlake, FL: Full Dining Guide (2026)",
+    metaDescription: "What's actually open near Westlake, FL right now — the Adventure Park hub, the town center dining still to come, plus the best nearby options in Royal Palm Beach and Wellington.",
     primaryKeyword: "best restaurants in Westlake Florida",
     secondaryKeywords: ["where to eat near Westlake", "Westlake dining", "Westlake Adventure Park"],
     h1: "Best Places to Eat, Drink & Hang Out in and Around Westlake, Florida",
@@ -4986,8 +4992,8 @@ These water wonders are why island locals never want to leave.`,
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
     seoTitle: "Best Places to Eat, Drink & Hang Out on Singer Island, Florida",
-    metaTitle: "Best Restaurants on Singer Island, FL | Where to Eat & Drink",
-    metaDescription: "Looking for restaurants on Singer Island, FL? Here's where to eat, drink, and hang out — from the Sailfish Marina to beachfront dining, plus WPB nightlife minutes away.",
+    metaTitle: "Best Restaurants & Bars on Singer Island, FL (2026 Guide)",
+    metaDescription: "The best restaurants and bars on Singer Island, FL — waterfront seafood at Sailfish Marina, beachfront dining, and West Palm Beach nightlife just over the bridge.",
     primaryKeyword: "best restaurants on Singer Island Florida",
     secondaryKeywords: ["where to eat on Singer Island", "Sailfish Marina", "Singer Island waterfront dining"],
     h1: "Best Places to Eat, Drink & Hang Out on Singer Island, Florida",
@@ -7037,8 +7043,8 @@ Beyond the famous spots, locals live around the small stuff: green markets in se
     type: "Best Neighborhoods In",
     order: 3,
     seoTitle: "Best Neighborhoods in Jupiter, Florida (A Local's Honest Breakdown)",
-    metaTitle: "Best Neighborhoods in Jupiter, FL (2026 Local Guide)",
-    metaDescription: "Best neighborhoods in Jupiter, Florida by lifestyle — walkable Abacoa, waterfront Admirals Cove, rural Jupiter Farms, and more from a local real estate expert.",
+    metaTitle: "Best Neighborhoods in Jupiter, FL: A Local's Honest Breakdown (2026)",
+    metaDescription: "Which Jupiter neighborhood fits your life? A local agent matches walkable Abacoa, waterfront Admirals Cove, rural Jupiter Farms, and the barrier island to real lifestyles — no generic rankings.",
     primaryKeyword: "best neighborhoods in Jupiter Florida",
     secondaryKeywords: ["where to live in Jupiter FL", "Abacoa Jupiter", "Jupiter Farms", "family neighborhoods Jupiter FL"],
     h1: "Best Neighborhoods in Jupiter, Florida",
