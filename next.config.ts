@@ -12,6 +12,12 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
 
+      // ── YLOPO TOOLS PAGE ──────────────────────────────────────────────
+      // Ylopo hosts the branded-site tools page on its own subdomain
+      // (tools.doyouneedahome.com, DNS set up via Ylopo case #00446128),
+      // not this Next.js app — forward /tools there instead of 404ing.
+      { source: '/tools', destination: 'https://tools.doyouneedahome.com', permanent: false },
+
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate
       { source: '/team-page', destination: '/team', permanent: true },
