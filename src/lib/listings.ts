@@ -127,7 +127,7 @@ export interface Listing {
 const JOHN: ListingAgentInfo = {
   name: 'John Oliver',
   role: 'Listing Agent',
-  credentials: 'REALTOR® · ABR · RENE · SRS',
+  credentials: 'REALTOR® · ABR · RENE · RSPS · SRS',
   phone: '(561) 786-3630',
   phoneHref: 'tel:+15617863630',
   email: 'john@doyouneedahome.com',

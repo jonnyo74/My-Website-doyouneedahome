@@ -93,7 +93,7 @@ export default function BlogPage() {
                 </div>
                 <div className="text-center">
                   <p className="text-sm font-semibold text-white">John Oliver</p>
-                  <p className="text-xs text-gold-400">REALTOR® · ABR · RENE · SRS</p>
+                  <p className="text-xs text-gold-400">REALTOR® · ABR · RENE · RSPS · SRS</p>
                 </div>
               </div>
             </div>

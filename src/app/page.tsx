@@ -109,7 +109,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-5">
                   <p className="font-semibold text-white">John Oliver</p>
-                  <p className="text-xs text-white/80">REALTOR® · ABR · RENE · SRS</p>
+                  <p className="text-xs text-white/80">REALTOR® · ABR · RENE · RSPS · SRS</p>
                 </div>
               </div>
             </div>
@@ -262,7 +262,7 @@ export default function Home() {
               />
               <AgentCard
                 name="John Oliver"
-                credentials="ABR · RENE · SRS"
+                credentials="ABR · RENE · RSPS · SRS"
                 phone="(561) 786-3630"
                 phoneHref="tel:+15617863630"
                 email="john@doyouneedahome.com"

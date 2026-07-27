@@ -112,7 +112,7 @@ export default function TestimonialsPage() {
       />
       <AgentSection
         name="John Oliver"
-        title="REALTOR® · ABR · RENE · SRS"
+        title="REALTOR® · ABR · RENE · RSPS · SRS"
         reviews={johnReviews}
         photos={johnPhotos}
         bg="slate"

@@ -350,7 +350,7 @@ export default async function CommunityPage({ params }: Props) {
               {/* Agent blurb — top */}
               <AgentBlurb
                 name={christineOnTop ? 'Christine Dekant' : 'John Oliver'}
-                credentials={christineOnTop ? 'REALTOR® · RENE · GRI · CLA' : 'REALTOR® · ABR · RENE · SRS'}
+                credentials={christineOnTop ? 'REALTOR® · RENE · GRI · CLA' : 'REALTOR® · ABR · RENE · RSPS · SRS'}
                 photo={christineOnTop ? '/images/christine.jpg' : '/images/john.jpg'}
                 phone={christineOnTop ? '(561) 778-7042' : '(561) 786-3630'}
                 phoneHref={christineOnTop ? 'tel:+15617787042' : 'tel:+15617863630'}
@@ -791,7 +791,7 @@ export default async function CommunityPage({ params }: Props) {
               {/* Agent blurb — bottom */}
               <AgentBlurb
                 name={christineOnTop ? 'John Oliver' : 'Christine Dekant'}
-                credentials={christineOnTop ? 'REALTOR® · ABR · RENE · SRS' : 'REALTOR® · RENE · GRI · CLA'}
+                credentials={christineOnTop ? 'REALTOR® · ABR · RENE · RSPS · SRS' : 'REALTOR® · RENE · GRI · CLA'}
                 photo={christineOnTop ? '/images/john.jpg' : '/images/christine.jpg'}
                 phone={christineOnTop ? '(561) 786-3630' : '(561) 778-7042'}
                 phoneHref={christineOnTop ? 'tel:+15617863630' : 'tel:+15617787042'}
@@ -901,7 +901,7 @@ export default async function CommunityPage({ params }: Props) {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900">John Oliver</p>
-                      <p className="text-xs text-slate-400">REALTOR® · ABR · RENE · SRS</p>
+                      <p className="text-xs text-slate-400">REALTOR® · ABR · RENE · RSPS · SRS</p>
                       <a href="tel:+15617863630" className="mt-1 block text-sm text-slate-500 transition hover:text-gold-600">
                         (561) 786-3630
                       </a>

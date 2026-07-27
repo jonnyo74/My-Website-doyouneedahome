@@ -25,7 +25,7 @@ const agents = [
   {
     name: 'John Oliver',
     title: 'REALTOR®',
-    credentials: ['ABR', 'RENE', 'SRS'],
+    credentials: ['ABR', 'RENE', 'RSPS', 'SRS'],
     license: '3355676',
     phone: '(561) 786-3630',
     phoneHref: 'tel:+15617863630',

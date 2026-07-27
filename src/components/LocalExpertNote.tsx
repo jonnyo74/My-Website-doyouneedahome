@@ -6,7 +6,7 @@ interface Props {
 const AUTHORS = {
   john: {
     name: 'John Oliver',
-    title: 'Realtor, DO Homes Group',
+    title: 'REALTOR® · ABR · RENE · RSPS · SRS',
     photo: '/images/john-professional.jpg',
   },
   christine: {

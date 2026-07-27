@@ -17,7 +17,7 @@ const agents = [
   },
   {
     name: 'John Oliver',
-    title: 'REALTOR® · ABR · RENE · SRS',
+    title: 'REALTOR® · ABR · RENE · RSPS · SRS',
     phone: '(561) 786-3630',
     phoneHref: 'tel:+15617863630',
     email: 'john@doyouneedahome.com',
