@@ -161,9 +161,9 @@ export const listings: Listing[] = [
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
-    price: 615000,
+    price: 599000,
     originalPrice: 625000,
-    pricePerSqft: 434.32,
+    pricePerSqft: 423.02,
 
     propertyType: 'Single-Family Residence',
     beds: 3,
@@ -344,7 +344,7 @@ export const listings: Listing[] = [
     brokerage: 'Premier Brokers International',
 
     metaTitle: '6145 SE Audubon Lane: No-HOA Pool Home in Hobe Sound, FL',
-    metaDescription: "3BR/2BA pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $615,000. Schedule your private showing today.",
+    metaDescription: "3BR/2BA pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $599,000. Schedule your private showing today.",
   },
   {
     slug: '982-sw-worcester-lane',
@@ -359,9 +359,9 @@ export const listings: Listing[] = [
     zip: '34953',
     legalDescription: 'Port St. Lucie - Section 12, Block 1290, Lot 38 (Map 44/07S)',
 
-    price: 400000,
+    price: 390000,
     originalPrice: 420000,
-    pricePerSqft: 233.92,
+    pricePerSqft: 228.07,
 
     propertyType: 'Single-Family Residence',
     beds: 3,
@@ -541,7 +541,7 @@ export const listings: Listing[] = [
     brokerage: 'Premier Brokers International',
 
     metaTitle: '982 SW Worcester Lane: Move-In Ready No-HOA Home in Port St. Lucie, FL',
-    metaDescription: 'Move-in-ready 3BR/2BA home in Port St. Lucie — no HOA, fresh paint, custom patio cover, fully fenced yard. $400,000. Vacant and easy to show.',
+    metaDescription: 'Move-in-ready 3BR/2BA home in Port St. Lucie — no HOA, fresh paint, custom patio cover, fully fenced yard. $390,000. Vacant and easy to show.',
   },
 ]
 
