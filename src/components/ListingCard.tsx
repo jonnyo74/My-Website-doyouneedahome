@@ -49,9 +49,16 @@ export default function ListingCard({ listing, index = 0 }: { listing: Listing; 
           <div className="h-full w-full bg-gradient-to-br from-sky-100 via-blue-50 to-slate-100" />
         )}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-        <span className="absolute left-4 top-3 rounded-full bg-emerald-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
-          {listing.status}
-        </span>
+        <div className="absolute left-4 top-3 flex flex-wrap gap-2">
+          <span className="rounded-full bg-emerald-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+            {listing.status}
+          </span>
+          {listing.originalPrice && listing.originalPrice > listing.price && (
+            <span className="rounded-full bg-gold-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+              Price Reduced
+            </span>
+          )}
+        </div>
         <span className="absolute bottom-3 left-4 font-serif text-xl font-semibold text-white drop-shadow">
           ${listing.price.toLocaleString('en-US')}
         </span>

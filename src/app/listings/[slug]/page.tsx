@@ -165,6 +165,11 @@ export default async function ListingPage({ params }: Props) {
                 <span className="inline-flex items-center rounded-full bg-emerald-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
                   {listing.status}
                 </span>
+                {listing.originalPrice && listing.originalPrice > listing.price && (
+                  <span className="inline-flex items-center rounded-full bg-gold-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+                    Price Reduced
+                  </span>
+                )}
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-300">
                   {listing.subdivision ? `${listing.subdivision} · ` : ''}{listing.city}, {listing.state}
                 </span>
@@ -224,6 +229,11 @@ export default async function ListingPage({ params }: Props) {
                   <span className="inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
                     {listing.status}
                   </span>
+                  {listing.originalPrice && listing.originalPrice > listing.price && (
+                    <span className="inline-flex items-center rounded-full bg-gold-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-gold-700">
+                      Price Reduced
+                    </span>
+                  )}
                   <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">
                     {listing.subdivision ? `${listing.subdivision} · ` : ''}{listing.city}, {listing.state}
                   </span>
