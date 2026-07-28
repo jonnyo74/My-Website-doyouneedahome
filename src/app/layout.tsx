@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
 import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import SiteLeadMagnets from '@/components/leadMagnet/SiteLeadMagnets'
@@ -54,6 +55,7 @@ export default function RootLayout({
         <div className="flex-1">{children}</div>
         <Footer />
         <SiteLeadMagnets />
+        <Analytics />
       </body>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-24154P036M"
