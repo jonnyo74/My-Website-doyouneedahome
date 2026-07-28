@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getActiveListings } from '@/lib/listings'
 import ListingCard from '@/components/ListingCard'
+import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
 
 export const metadata: Metadata = {
   title: 'Sell Your Home | DO Homes Group',
@@ -92,6 +93,17 @@ export default function SellPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Market reports */}
+      <section className="bg-white px-6 pb-4 pt-2 sm:px-8">
+        <div className="mx-auto max-w-5xl">
+          <DualReportCTA
+            pageCategory="sell"
+            headline="Know the Market Before You List"
+            intro="Pick the report that matches your property. Free July 2026 editions with the prices, inventory, and buyer activity that determine what your home is worth today — instant PDF download."
+          />
         </div>
       </section>
 

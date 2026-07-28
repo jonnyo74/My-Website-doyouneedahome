@@ -1,6 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // The market-report PDFs live in private/reports/ (outside public/) so raw
+  // URLs can't bypass the lead form — make sure they're traced into the
+  // serverless bundle for the download route.
+  outputFileTracingIncludes: {
+    '/api/reports/[reportType]': ['./private/reports/**/*'],
+  },
   images: {
     remotePatterns: [
       {

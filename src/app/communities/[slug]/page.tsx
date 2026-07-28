@@ -15,6 +15,8 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
+import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
+import { selectReportForCommunity } from '@/lib/marketReports'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -94,6 +96,8 @@ export default async function CommunityPage({ params }: Props) {
   const articleCity = isCity ? community : parentCity
   const cityArticles = articleCity ? getArticlesByCity(articleCity.slug) : []
   const shownArticles = isCity ? cityArticles : cityArticles.slice(0, 4)
+  // Which market report fits this page — condo, single-family, or both.
+  const reportSelection = selectReportForCommunity(community)
   // For neighborhoods, search by parent city not the neighborhood name — Ylopo's
   // search only resolves real municipalities, not subdivision/community names
   // (e.g. searching city="Abacoa" returns zero results; it must be "Jupiter").
@@ -355,6 +359,13 @@ export default async function CommunityPage({ params }: Props) {
                 phone={christineOnTop ? '(561) 778-7042' : '(561) 786-3630'}
                 phoneHref={christineOnTop ? 'tel:+15617787042' : 'tel:+15617863630'}
                 quote={christineOnTop ? quotes.christineQuote : quotes.johnQuote}
+              />
+
+              {/* Market report CTA */}
+              <MarketReportCTA
+                selection={reportSelection}
+                variant="inline"
+                pageCategory="community"
               />
 
               {/* Sub-Neighborhoods */}
@@ -908,6 +919,13 @@ export default async function CommunityPage({ params }: Props) {
                     </div>
                   </div>
                 </div>
+
+                {/* Market report card */}
+                <MarketReportCTA
+                  selection={reportSelection}
+                  variant="sidebar"
+                  pageCategory="community"
+                />
 
                 {/* Nearby communities */}
                 {isCity && (

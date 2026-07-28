@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { cities } from '@/lib/communities'
+import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
 
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
 // zero results); omitting locations entirely falls back to the account's
@@ -112,8 +113,18 @@ export default function BuyPage() {
         </div>
       </section>
 
-      {/* Communities */}
+      {/* Market reports */}
       <section className="bg-slate-50 px-6 py-16 sm:px-8">
+        <div className="mx-auto max-w-5xl">
+          <DualReportCTA
+            pageCategory="buy"
+            intro="Understand today's market before you make a move. Free July 2026 reports with local prices, inventory, and negotiating conditions — instant PDF download, no obligation."
+          />
+        </div>
+      </section>
+
+      {/* Communities */}
+      <section className="bg-white px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-5xl">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>

@@ -3,6 +3,7 @@ import { Playfair_Display, Inter } from 'next/font/google'
 import Script from 'next/script'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import SiteLeadMagnets from '@/components/leadMagnet/SiteLeadMagnets'
 import { SITE_URL } from '@/lib/site'
 import './globals.css'
 
@@ -52,6 +53,7 @@ export default function RootLayout({
         <Header />
         <div className="flex-1">{children}</div>
         <Footer />
+        <SiteLeadMagnets />
       </body>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-24154P036M"

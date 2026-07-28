@@ -13,12 +13,37 @@ import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
+import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
+import { selectReportForArticle } from '@/lib/marketReports'
 import { SITE_URL } from '@/lib/site'
 
 const SITE = SITE_URL
 const PHONE = { display: '(561) 786-3630', href: 'tel:+15617863630' }
 
 type Props = { params: Promise<{ slug: string }> }
+
+// Split an article body at the "## " heading nearest ~30% through the content
+// (within a 22–45% window) so an inline report CTA can sit between the two
+// halves. Short articles (< 500 words) aren't interrupted — returns null.
+function splitBodyForInlineCta(body: string): [string, string] | null {
+  if (body.split(/\s+/).length < 500) return null
+  const lines = body.split('\n')
+  const target = lines.length * 0.3
+  let bestIndex = -1
+  let bestDistance = Infinity
+  lines.forEach((line, i) => {
+    if (!line.startsWith('## ')) return
+    const position = i / lines.length
+    if (position < 0.22 || position > 0.45) return
+    const distance = Math.abs(i - target)
+    if (distance < bestDistance) {
+      bestDistance = distance
+      bestIndex = i
+    }
+  })
+  if (bestIndex <= 0) return null
+  return [lines.slice(0, bestIndex).join('\n'), lines.slice(bestIndex).join('\n')]
+}
 
 export function generateStaticParams() {
   return getArticlePaths()
@@ -56,6 +81,8 @@ export default async function ArticlePage({ params }: Props) {
     .filter((a): a is NonNullable<typeof a> => Boolean(a))
 
   const url = `${SITE}/blog/${article.slug}`
+  const reportSelection = selectReportForArticle(article)
+  const bodyParts = splitBodyForInlineCta(article.body)
 
   // ---- JSON-LD structured data ----
   const articleSchema = {
@@ -135,8 +162,21 @@ export default async function ArticlePage({ params }: Props) {
       <YlopoInit city={article.cityName} />
 
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
-        {/* Body */}
-        <Prose content={article.body} />
+        {/* Body — with an inline report CTA about a third of the way through */}
+        {bodyParts ? (
+          <>
+            <Prose content={bodyParts[0]} />
+            <MarketReportCTA
+              selection={reportSelection}
+              variant="inline"
+              pageCategory="blog"
+              className="mt-10"
+            />
+            <Prose content={bodyParts[1]} />
+          </>
+        ) : (
+          <Prose content={article.body} />
+        )}
 
         {/* City page link */}
         {community && (
@@ -205,6 +245,15 @@ export default async function ArticlePage({ params }: Props) {
               limit={6}
             />
           </div>
+        </div>
+
+        {/* End-of-article report CTA */}
+        <div className="mt-12">
+          <MarketReportCTA
+            selection={reportSelection}
+            variant="end-of-article"
+            pageCategory="blog"
+          />
         </div>
 
         {/* FAQ */}

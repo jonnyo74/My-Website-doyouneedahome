@@ -15,6 +15,8 @@ const pageLinks = [
   { href: '/testimonials', label: 'Testimonials' },
   { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
+  { href: '/palm-beach-county-single-family-home-market-report', label: 'Single Family Market Report' },
+  { href: '/palm-beach-county-condo-townhome-market-report', label: 'Condo & Townhome Market Report' },
 ]
 
 export default function Footer() {

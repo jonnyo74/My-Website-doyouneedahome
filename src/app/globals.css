@@ -20,6 +20,12 @@
   --color-brand-green: #3BB543;
   --color-brand-green-dark: #2E9436;
 
+  /* Report gold — matches the market-report cover artwork (navy/white/gold).
+     Note --color-gold-* above is the brand BLUE; these are true gold. */
+  --color-report-gold: #C9A961;
+  --color-report-gold-light: #E3CD97;
+  --color-report-gold-dark: #B08F47;
+
   /* Fonts */
   --font-serif: var(--font-playfair), Georgia, serif;
   --font-sans: var(--font-inter), system-ui, sans-serif;
