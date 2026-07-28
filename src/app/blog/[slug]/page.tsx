@@ -288,6 +288,17 @@ export default async function ArticlePage({ params }: Props) {
             </ul>
           </div>
         )}
+
+        {/* Disclaimer — every article */}
+        <div className="mt-12 border-t border-slate-100 pt-6">
+          <p className="text-xs italic leading-relaxed text-slate-400">
+            This article is provided by DO Homes Group at Premier Brokers International for informational
+            purposes only and does not constitute legal, financial, tax, or investment advice. Market
+            statistics, pricing, availability, HOA fees, and community details change frequently and may
+            have changed since publication. Verify all details independently and consult the appropriate
+            licensed professionals before making any real estate decision.
+          </p>
+        </div>
       </div>
     </article>
   )
