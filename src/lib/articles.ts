@@ -72,7 +72,7 @@ Jupiter's beaches are a big reason people move here. The sand is clean, the crow
 
 Here's the local secret outsiders love: **Jupiter Beach is dog-friendly.** There's a long stretch where your dog can run off-leash along the shore in the morning. Locals walk their coffee and their golden retrievers down the sand like it's a daily ritual — because it is.
 
-For families, **Dubois Park** is a gem, sitting on a calm lagoon so little kids can splash without big waves. And **Carlin Park** gives you beach, tennis and pickleball courts, bocce, and the Seabreeze Amphitheater, where free concerts pop up under the stars.
+**Dubois Park** sits on a calm, shallow lagoon protected from the surf, which makes it the easiest water access in town for weak swimmers. And **Carlin Park** gives you beach, tennis and pickleball courts, bocce, and the Seabreeze Amphitheater, where free concerts pop up under the stars.
 
 ![Shaded beach boardwalk through sea grape trees in Jupiter, Florida](/images/jupiter/jupiter-003.jpg "Most of Jupiter's beach access points are short shaded walks through sea grape rather than big parking lots — part of why the beaches stay uncrowded.")
 
@@ -100,7 +100,7 @@ Traffic is real but manageable — nothing like Miami. The pinch points are **US
 
 Jupiter's social heart is the water. **Guanabanas** is the iconic spot — an open-air, jungle-like restaurant on the Intracoastal where the tables sit under banyan trees and string lights. **Square Grouper** and **U-Tiki** put you right on the inlet with a drink in hand and boats drifting by.
 
-**Harbourside Place** and the **Jupiter Riverwalk** give you a walkable stretch of restaurants, live music, and a boardwalk along the water. Sports fans have **Roger Dean Stadium**, where two Major League teams hold spring training every year. And the **Maltz Jupiter Theatre** brings real Broadway-quality shows to a small-town stage.
+**Harbourside Place** and the **Jupiter Riverwalk** are the one pocket of town that genuinely works on foot after dark. Sports fans have **Roger Dean Stadium**, where two Major League teams hold spring training every year. And the **Maltz Jupiter Theatre** brings real Broadway-quality shows to a small-town stage.
 
 The area also quietly draws plenty of famous faces — Tiger Woods, Michael Jordan, and Joe Namath, just to name a few — pulled in by the same easygoing lifestyle. But day to day, it still feels like a town where the barista knows your order.
 
@@ -261,7 +261,7 @@ Lean into the quiet. Find your stretch of sand, get a pier-walk habit, support t
 
 **Waterfront & boating → Juno Isles.** A neighborhood of single-family homes on canals with Intracoastal access — the spot for buyers who want a dock and a yard.
 
-**Gated luxury → Seminole Landing.** An exclusive gated community near the Lost Tree area, offering privacy and high-end coastal homes.
+**Gated luxury → Seminole Landing.** A guard-gated community near the Lost Tree area — low density, heavy screening, and high-end coastal homes.
 
 **Beachside single-family & townhomes.** Established homes and townhomes a short walk or bike from the sand — a more attainable way into the Juno Beach lifestyle.
 
@@ -1496,7 +1496,7 @@ Delray is a *go-out* town — happy hours, live music, and late dinners are the 
 
 Boca's look traces back to architect Addison Mizner, and the city has guarded that elegant, Mediterranean Revival feel ever since. **Mizner Park** — an open-air district of upscale shops, restaurants, the Boca Raton Museum of Art, and an amphitheater — is the polished heart of town, alongside the large **Town Center** mall.
 
-## Beaches, nature, and family life
+## Beaches, nature, and how weekends work
 
 Boca's beach parks are gorgeous — **Red Reef**, **Spanish River**, and **South Beach** — and **Gumbo Limbo Nature Center** is a beloved sea-turtle rehab and nature spot right by the sand. Add the Palm Beach County school district, **Florida Atlantic University**, and a large corporate employment base, and you get a city with unusually deep infrastructure for its size.
 
@@ -2725,7 +2725,7 @@ The **equestrian zone** (show grounds, polo, and horse farms) sits in the south 
 
 ## The local rhythm
 
-Family life centers on schools, sports, the parks, and the amphitheater's free events. From January to April, the town shifts into **equestrian season** — Sunday polo, the horse shows, and a global crowd filling restaurants and roads near the show grounds.
+Daily life centers on the schools, sports, the parks, and the amphitheater's free events. From January to April, the town shifts into **equestrian season** — Sunday polo, the horse shows, and a global crowd filling restaurants and roads near the show grounds.
 
 ## The unwritten rules
 
@@ -2807,7 +2807,7 @@ Decide your Wellington — family-neighborhood suburbia or the equestrian world 
 
 **Enjoy the Wellington Amphitheater.** Free concerts, movies, and events all year — a beloved community gathering spot.
 
-**Shop and play.** The Mall at Wellington Green plus excellent parks and sports facilities round out family life.
+**Shop and play.** The Mall at Wellington Green plus extensive parks and sports facilities round out the everyday options.
 
 In summer, hit the preserves early and let the mall and amphitheater fill the hotter afternoons. (Note: the big equestrian events run in the winter season.)`,
     faqs: [
@@ -3906,7 +3906,7 @@ Westlake sits in the western county off **Seminole Pratt Whitney Road**, near th
 
 ## The local rhythm
 
-Family life centers on the Adventure Park, the parks and trails, and community events. For shopping, dining, and schools, you'll drive east to Royal Palm Beach and Wellington — for now, the in-town commercial scene is still developing.
+Daily life centers on the Adventure Park, the parks and trails, and community events. For shopping, dining, and schools, you'll drive east to Royal Palm Beach and Wellington — for now, the in-town commercial scene is still developing.
 
 ## What to know going in
 
@@ -3976,7 +3976,7 @@ Lean into the new-community energy and the amenities, and watch Westlake grow up
     h1: "Best Things to Do in Westlake, Florida",
     body: `Westlake is new, so its attractions center on the community's amenities and the nature and towns nearby.
 
-**Hit the Westlake Adventure Park.** The headliner — a resort-style amenity center with a pool, water slides, a splash pad, a rock-climbing wall, and recreation that's the heart of family life here.
+**Hit the Westlake Adventure Park.** The headliner — a resort-style amenity center with a pool, water slides, a splash pad, a rock-climbing wall, and recreation that's the heart of community life here.
 
 **Use the parks and trails.** The master plan includes green space, trails, and gathering spots woven through the neighborhoods.
 
@@ -4562,9 +4562,9 @@ These charming, often-free spots are what make Stuart feel special.`,
     showMarketTrends: true,
     body: `Choosing among the Treasure Coast towns? Here's the honest comparison.
 
-**Stuart vs Palm City.** Palm City (just west) is a quieter, family-and-equestrian suburb with newer homes and good schools; Stuart has the historic downtown, the Riverwalk, and the waterfront charm. Choose Palm City for suburban space and gated communities; Stuart for downtown character and the water.
+**Stuart vs Palm City.** Palm City (just west) is a quieter, equestrian-oriented suburb with newer homes and its own Martin County school zoning; Stuart has the historic downtown, the Riverwalk, and the waterfront charm. Choose Palm City for suburban space and gated communities; Stuart for downtown character and the water.
 
-**Stuart vs Hobe Sound.** Hobe Sound (to the south) is smaller and quieter, with Jupiter Island's exclusivity nearby; Stuart has more downtown energy and amenities. Choose Hobe Sound for sleepy and exclusive; Stuart for charm with more going on.
+**Stuart vs Hobe Sound.** Hobe Sound (to the south) is smaller and quieter, with Jupiter Island's very-low-density estate market nearby; Stuart has more downtown energy and amenities. Choose Hobe Sound for quiet and low density; Stuart for charm with more going on.
 
 **Stuart vs Port St. Lucie.** Port St. Lucie (to the north) is much bigger, newer, and more affordable, with sprawling master-planned neighborhoods; Stuart is smaller, charming, and more established. Choose Port St. Lucie for value and new homes; Stuart for character and walkability.
 
@@ -4968,7 +4968,7 @@ These water wonders are why island locals never want to leave.`,
 
 **Singer Island vs Juno Beach.** Juno is low-rise, quiet, and residential; Singer Island is built-up, high-rise, and resort-like. Choose Juno for sleepy and natural; Singer Island for oceanfront condo living with more energy.
 
-**Singer Island vs Palm Beach (the island).** Palm Beach is ultra-exclusive estate living at the highest prices; Singer Island offers oceanfront condo living at a relative value. Choose Palm Beach for prestige; Singer Island for accessible oceanfront.
+**Singer Island vs Palm Beach (the island).** Palm Beach is low-density estate living at the highest price per square foot in the region; Singer Island offers oceanfront condo living at a relative value. Choose by budget and whether you want a house or a unit.
 
 **Singer Island vs West Palm Beach.** West Palm is the urban mainland with a downtown and nightlife; Singer Island is the beach. Choose West Palm for city life; Singer Island for the sand and water (with the city minutes away).
 
@@ -5366,7 +5366,7 @@ These low-key, mostly free spots are what make Palm City feel like a calm, green
 
 **Palm City vs Port St. Lucie.** Port St. Lucie (to the north) is much bigger, newer, and more affordable, with sprawling master-planned neighborhoods; Palm City is smaller, more established, with stronger schools and a higher-end feel. Choose Port St. Lucie for value and new homes; Palm City for schools and prestige.
 
-**Palm City vs Hobe Sound.** Hobe Sound (to the south) is a smaller, coastal-leaning community near exclusive Jupiter Island; Palm City is a larger family suburb with more schools and amenities. Choose Hobe Sound for coastal quiet and preserve land; Palm City for schools, shopping, and recreation infrastructure.
+**Palm City vs Hobe Sound.** Hobe Sound (to the south) is a smaller, coastal-leaning community near Jupiter Island's estate market; Palm City is a larger suburb with more schools and amenities. Choose Hobe Sound for coastal quiet and preserve land; Palm City for schools, shopping, and recreation infrastructure.
 
 **Palm City vs Jensen Beach.** Jensen Beach offers a small beach-town feel near the water; Palm City is more inland and family-suburban. Choose Jensen Beach for the beach vibe; Palm City for schools and space.
 
@@ -5491,7 +5491,7 @@ Embrace the quiet and the nature — that's the whole point. Respect turtle-nest
 
 ## Settling in
 
-Pick mainland-quiet or island-exclusive, lean on Jupiter and Stuart for amenities, and let the parks and beaches be your backyard. Hobe Sound rewards people who want calm and nature.`,
+Pick the mainland or the island, lean on Jupiter and Stuart for amenities, and let the parks and beaches be your backyard. Hobe Sound rewards people who want calm and nature.`,
     faqs: [
       { q: "What do locals do in Hobe Sound?", a: "Explore Jonathan Dickinson State Park (kayaking, hiking, the Hobe Mountain tower), enjoy the wildlife refuge beach and Blowing Rocks Preserve, lunch in the small downtown, and drive to Jupiter or Stuart for shopping and nightlife." },
       { q: "Is Hobe Sound walkable?", a: "It has a small walkable downtown along Bridge Road, but it's largely a quiet, car-first town with nature and beaches reached by car." },
@@ -5518,7 +5518,7 @@ Pick mainland-quiet or island-exclusive, lean on Jupiter and Stuart for amenitie
     h1: "Best Neighborhoods in Hobe Sound, Florida",
     body: `Hobe Sound spans the widest range imaginable — from attainable mainland homes to some of America's priciest estates. By lifestyle:
 
-**Ultra-luxury → Jupiter Island.** Gated oceanfront and riverfront estates among the most exclusive (and expensive) in the country, with deep privacy and celebrity neighbors.
+**Ultra-luxury → Jupiter Island.** Gated oceanfront and riverfront estates among the highest-priced in the country, on very large lots with extensive privacy screening.
 
 **Golf & country club → Mariner Sands, The Preserve & Lost Lake.** Established gated golf communities with clubhouses, courses, and a high share of seasonal ownership.
 
@@ -5599,7 +5599,7 @@ In summer, do the park and beach early — and the shaded Loxahatchee River padd
 - **Want quiet and old-Florida charm** — a slow, small-town pace.
 - **Want to be near Jupiter** without Jupiter's bustle or prices (on the mainland).
 - **Want low density, golf communities, or a seasonal residence.**
-- **Want ultra-exclusive privacy** — Jupiter Island, if budget allows.
+- **Want maximum privacy and lot size** — Jupiter Island, if budget allows.
 - **Value attainable homes** near great beaches and parks (mainland).
 
 **You might look elsewhere if you:**
@@ -5637,7 +5637,7 @@ In summer, do the park and beach early — and the shaded Loxahatchee River padd
 - **Incredible nature** — Jonathan Dickinson State Park, the wildlife refuge beach, and the Loxahatchee River.
 - **Quiet, old-Florida charm** — a slow, peaceful small-town pace.
 - **Near Jupiter and Stuart** — amenities a short drive either way.
-- **Wide range** — attainable mainland homes to ultra-exclusive Jupiter Island.
+- **Wide range** — attainable mainland homes up to Jupiter Island's estate market.
 - **Beautiful, uncrowded beaches** and no state income tax.
 
 ## The Cons
@@ -5758,7 +5758,7 @@ These wild, often-free experiences are the real soul of Hobe Sound.`,
 
 **Hobe Sound vs Palm City.** Palm City is a larger suburb with gated golf communities; Hobe Sound is smaller, coastal-leaning, and surrounded by preserve land. Both sit in the Martin County school district. Choose Palm City for amenities; Hobe Sound for low density and the outdoors.
 
-**Hobe Sound vs Jupiter Island.** They're neighbors at opposite extremes — Hobe Sound mainland is attainable and quiet; Jupiter Island is ultra-exclusive. Choose by budget and the lifestyle you want.
+**Hobe Sound vs Jupiter Island.** They're neighbors at opposite extremes — Hobe Sound mainland is attainable and quiet; Jupiter Island is among the highest-priced estate markets in the country. Choose by budget and the lifestyle you want.
 
 **How to choose:** rank **quiet + nature** (Hobe Sound), **beach-town energy** (Jupiter), **downtown charm** (Stuart), or **family schools** (Palm City).`,
     faqs: [
@@ -6613,7 +6613,7 @@ It's spread out and car-dependent, it's **not on the beach** (the coast at Fort 
 
 ## The local rhythm
 
-Family life centers on the schools, parks, and youth sports, with golf, riverfront kayaking, and Tradition Square events mixed in. Spring means Mets baseball at Clover Park. Beach days are a 20–30 minute drive east to Fort Pierce or Hutchinson Island.
+Daily life centers on the schools, parks, and youth sports, with golf, riverfront kayaking, and Tradition Square events mixed in. Spring means Mets baseball at Clover Park. Beach days are a 20–30 minute drive east to Fort Pierce or Hutchinson Island.
 
 ## The unwritten rules
 
@@ -7056,7 +7056,7 @@ Pick waterfront, country-club, or village-classic, get to know the small downtow
 
 **Gated & newer → select communities.** A few gated and newer developments add more options around the village.
 
-**Island-adjacent → near Jupiter Island.** Toward the coast, you edge into more exclusive territory near Jupiter Island and the beaches.
+**Island-adjacent → near Jupiter Island.** Toward the coast, you edge into a higher price tier near Jupiter Island and the beaches.
 
 **How to choose:** a riverfront boating home, a country-club lifestyle, a charming village house, or something gated and newer? Tequesta's small size keeps it close-knit, with the schools and the river as common threads.`,
     faqs: [
@@ -7403,7 +7403,7 @@ Every town has these. Jupiter's are worth knowing before you accidentally break 
 
 - **Turtle-friendly lighting is not optional.** During nesting season, roughly spring through fall, beachfront properties switch to special amber bulbs so hatchlings aren't disoriented and drawn away from the ocean. Lights aren't turned off — they're changed. If you buy near the beach, this will apply to you, and the town takes it seriously.
 - **Let people merge.** Jupiter isn't a honking town. Aggressive driving marks you as new faster than anything else.
-- **The sandbar is a social institution.** On warm weekends, boats anchor at the inlet sandbar and half the town wades around visiting each other. You don't need your own boat — you need one friend with a boat.
+- **The sandbar is a social institution.** On warm weekends, boats anchor at the inlet sandbar and half the town wades around visiting each other. Owning a boat is optional; knowing someone who does is the actual entry requirement.
 - **Hurricane prep is a group activity.** When something's in the forecast, you stock up early and you check on your neighbors. People notice who does and who doesn't.
 - **Sunset is a commitment.** If someone says "we're going to watch the sunset," that's a plan, not a passing remark.
 
@@ -7589,7 +7589,7 @@ Neighborhood names get all the attention, but the numbers that decide whether a 
 - **CDD assessment**, if the community carries one. It shows up on the tax bill separately from HOA dues.
 - **FEMA flood zone** for the specific address, and whether your lender will require flood coverage.
 - **Roof age and wind mitigation features.** These swing insurance premiums by thousands between otherwise comparable homes.
-- **Property taxes at a reset assessment**, not the seller's capped bill.
+- **Property taxes recalculated for a new owner.** The listing figure usually reflects the seller's capped bill — our [cost of living guide](/blog/cost-of-living-in-jupiter-florida) explains the reset.
 - **For condos: the reserve study, funding level, and any pending special assessment.**
 
 ## Questions worth asking before you commit
@@ -7649,7 +7649,7 @@ Jupiter's beaches are not interchangeable, and locals sort them by purpose:
 
 This is the one that matters most. Rent a kayak or paddleboard on the Loxahatchee River and you're immediately into mangroves, wading birds, and — in the cooler months — manatees. There's a decent chance you'll see a gator sunning on the bank, at a comfortable distance.
 
-If you have access to a boat, the inlet and its sandbar are where the entire town plays on a warm weekend. Boats anchor, people wade, and it turns into a floating social event. You don't need your own boat to experience it. You need one friend with a boat.
+If you have access to a boat, the inlet and its sandbar are where the entire town plays on a warm weekend. Boats anchor, people wade, and it turns into a floating social event that no map will tell you about.
 
 ## Go wild at Riverbend Park
 
@@ -7663,7 +7663,7 @@ A local institution, and the reliable answer when you have kids and a rainy morn
 
 ## Eat, drink, and watch the sun go down
 
-Sunset is treated as an event in Jupiter, and most of the social life is waterfront. **Guanabanas** is the iconic one — open-air, under banyan trees and string lights, on the Intracoastal. **Square Grouper** and **U-Tiki Beach** put you right on the inlet with boats drifting past. **Harbourside Place** and the **Jupiter Riverwalk** give you a walkable stretch of restaurants, live music, and a boardwalk along the water.
+Sunset is treated as an event in Jupiter, and most of the social life is waterfront. **Guanabanas** is the iconic one — open-air, under banyan trees and string lights, on the Intracoastal. **Square Grouper** and **U-Tiki Beach** put you right on the inlet with boats drifting past. For a walkable evening rather than a single destination, head for **Harbourside Place** and the **Jupiter Riverwalk** — full rundown in our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida).
 
 Time any of it for sunset. That's not a tip so much as the local default.
 
@@ -7759,7 +7759,7 @@ Few places pack in this much of both within a short drive. Public and semi-priva
 
 ### You're relocating from a high-tax state
 
-Florida has no state income tax. For anyone coming from New York, New Jersey, Connecticut, or Illinois, and for retirees managing retirement account distributions, that's a recurring annual benefit that offsets a real share of the higher housing cost.
+Florida has no state income tax, and for buyers arriving from a high-tax state it's frequently the line item that makes the whole move pencil out. What that's actually worth against Jupiter's housing premium is broken down in our [cost of living guide](/blog/cost-of-living-in-jupiter-florida).
 
 ![Waterfront dock in Jupiter, Florida](/images/jupiter/jupiter-pelican-dock.jpg "If your ideal weekend involves water, Jupiter is built for you. If it involves a walkable city, it isn't.")
 
@@ -7783,7 +7783,7 @@ Outside Abacoa's town center and the Riverwalk, this is a driving town with mini
 
 ### You're on a tight budget
 
-Jupiter is one of the pricier towns in Palm Beach County, and the carrying cost extends well past the mortgage — insurance, property taxes at a reset assessment, and in many communities HOA dues or mandatory club membership. Neighboring towns and the Treasure Coast offer more room in the budget.
+Jupiter is one of the pricier towns in Palm Beach County, and the carrying cost extends well past the mortgage — insurance, a property tax bill that won't match the seller's, and in many communities HOA dues or mandatory club membership. Neighboring towns and the Treasure Coast offer more room in the budget.
 
 ### Heat and humidity genuinely bother you
 
@@ -7799,7 +7799,7 @@ Jupiter skews toward lifestyle, remote work, retirement, small business, and a r
 
 **Retirees and near-retirees.** Strong fit. Warm winters, single-level homes and lock-and-leave condos, golf and boating, walkable waterfront districts, and hospital access. Pay close attention to insurance costs and condo reserve funding.
 
-**Families relocating.** Jupiter-area school zoning is a common reason people choose the town. Boundaries and grades are reviewed annually — verify current assignments with the School District of Palm Beach County rather than trusting a listing.
+**Families relocating.** School zoning is a common reason people choose Jupiter, and it's worth confirming rather than assuming — our [neighborhood guide](/blog/best-neighborhoods-in-jupiter-florida) covers how to check it properly.
 
 **Remote workers in their 30s and 40s.** Probably the fastest-growing group moving here, and Abacoa in particular tends to suit people who want some walkability and social density alongside the water.
 
@@ -7875,17 +7875,17 @@ October through May is warm, dry, and sunny. This is the stretch people relocate
 
 ### No state income tax
 
-Florida has no state income tax, and for anyone relocating from New York, New Jersey, Connecticut, or Illinois — or for retirees managing retirement account distributions — that's a recurring annual benefit that offsets a meaningful share of the housing premium. It's the single most common reason our clients tell us the math worked.
+Florida has no state income tax. It's the single most common reason our clients tell us the math worked, and for anyone leaving a high-tax state it recurs every year rather than being a one-time win.
 
 ![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "Eight months of the year, being outside is simply the default setting.")
 
-### A town that still feels like a town
+### Low-rise, and working to stay that way
 
 Jupiter has held the line on building heights. There's no wall of glass towers along the sand, which is increasingly unusual in South Florida. You get sky, trees, and low buildings, and residents actively work to keep it that way. Local restaurants outnumber chains along the water. Neighbors wave.
 
 ### Strong school zoning
 
-Jupiter-area schools have historically graded well in Florida's annual school grading system, and it's a common reason families put down roots. Grades and boundaries are reviewed and updated every year, so verify current assignments directly with the School District of Palm Beach County rather than relying on a listing or an article.
+Jupiter-area schools have historically graded well in Florida's annual school grading system, and it's a common reason people put down roots here. Grades and boundaries change yearly, so treat any figure you read — including ours — as a starting point rather than an answer.
 
 ### A resilient housing market
 
@@ -7901,7 +7901,7 @@ Jupiter Medical Center and several specialty campuses are minutes away, which ma
 
 Jupiter sits in one of the most desirable corners of Palm Beach County and prices reflect it. But the housing cost isn't usually what derails a budget — it's the stack underneath. Homeowners insurance across coastal Florida has risen sharply, premiums vary by thousands between comparable homes based on roof age and wind mitigation features, and flood coverage is separate from your standard policy. Association dues and mandatory club memberships in some communities add a monthly number that can rival a car payment.
 
-Get real insurance quotes during your inspection period, and budget property taxes at a reset assessment rather than the seller's capped bill.
+Get real insurance quotes during your inspection period, and don't assume the listing's tax figure will be yours — the [cost of living guide](/blog/cost-of-living-in-jupiter-florida) covers why it usually isn't.
 
 ### Summers are genuinely hot
 
@@ -8315,7 +8315,7 @@ Rank these five in order of what matters to you, then let the ranking pick the t
 4. **Quiet.** Tequesta, Hobe Sound, and Stuart.
 5. **Overall balance.** This is where Jupiter tends to win — it's rarely the top choice on any single axis, but it's usually second on most of them.
 
-That last point is the honest summary. If one factor dominates your decision, another town probably beats Jupiter on it. If you want the best combination of beach, boating, dining, services, and a town that still feels like a town, Jupiter is where most people land.
+That last point is the honest summary. If one factor dominates your decision, another town probably beats Jupiter on it. If you want the best combination of beach, boating, dining, and services without giving up small-town scale, Jupiter is where most people land.
 
 ## A note on comparing costs across these towns
 
@@ -8637,7 +8637,7 @@ In summer, go early or indoors during the afternoon storms — the mall, a spa d
     body: `The Gardens fits some people perfectly and leaves others wanting. The honest take:
 
 **You'll love Palm Beach Gardens if you:**
-- **Golf** — few places in America do it better, from resort to elite private clubs.
+- **Golf** — few places in America do it better, from public and resort courses to private clubs.
 - **Want school access and a polished, planned suburb** — consistent architecture and well-kept public spaces.
 - **Want club life and amenities** — golf, tennis, and full-service country clubs across the city.
 - **Value convenience** — upscale shopping, dining, healthcare, and highways all close.
@@ -8952,7 +8952,7 @@ Mornings on the water — a boat ride, a paddle, or coffee by the marina. Days r
 
 ## The unwritten rules
 
-Boating is the social fabric — get on the water and you'll meet half the village. The country club is the community hub, not an exclusive enclave. And like everywhere here, summer means morning activities and afternoon storm-dodging.
+Boating is the social fabric — get on the water and you'll meet half the village. The country club is village-owned and open to residents rather than a members-only enclave. And like everywhere here, summer means morning activities and afternoon storm-dodging.
 
 ## Settling in
 
@@ -8982,9 +8982,9 @@ Join the country club, find a spot at the marina, and lean into the water life. 
     secondaryKeywords: ["where to live in North Palm Beach", "Lost Tree Village", "Old Port Cove", "North Palm Beach waterfront"],
     h1: "Best Neighborhoods in North Palm Beach, Florida",
     heroImage: '/images/north-palm-beach/north-palm-003.jpg',
-    body: `North Palm is small, but its neighborhoods range from ultra-exclusive to friendly and attainable. By lifestyle:
+    body: `North Palm is small, but its neighborhoods span a wide range of price points and property types. Organized by what you're shopping for:
 
-North Palm Beach is a great family town, and its neighborhoods cover a wide range — from ultra-exclusive waterfront to attainable village charm. By lifestyle:
+North Palm Beach packs a wide range into a small footprint — from high-end waterfront to attainable village-scale homes. Organized by what you're shopping for:
 
 **Ultra-luxury & private → Lost Tree Village.** A guard-gated waterfront enclave near Singer Island — its own golf club, deep-water dockage, the village's highest price per square foot, and about as private as it gets.
 
