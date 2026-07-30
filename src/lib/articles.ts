@@ -5821,30 +5821,82 @@ This is a small, laid-back, nature-loving town — character spots and casual lo
     primaryKeyword: "living in Port Salerno Florida",
     secondaryKeywords: ["moving to Port Salerno FL", "Port Salerno lifestyle", "Manatee Pocket", "is Port Salerno a good place to live"],
     h1: "What It's Really Like Living in Port Salerno, Florida",
-    body: `Port Salerno is the real deal — an authentic, working-waterfront fishing village just south of Stuart, built around the **Manatee Pocket**, a protected harbor packed with commercial and recreational boats. It's salty, unpretentious, and genuinely old-Florida, with some of the best boating, fishing, and fresh seafood on the Treasure Coast.
+    body: `Port Salerno doesn't try to charm you. There's no restored historic downtown, no manicured entry feature with a fountain, no marketing campaign. What there is: a working harbor called the **Manatee Pocket**, a fleet of commercial and charter boats that go out before dawn, fish houses that sell what came off those boats, and a village that has been doing this for generations.
 
-## A working waterfront
+For a certain kind of buyer, that's not a compromise. It's the entire point.
 
-The Manatee Pocket is the soul of Port Salerno — fish houses, marinas, dive boats, and waterfront seafood spots line the harbor. This is a town with real commercial-fishing roots, and that authenticity gives it character you can't manufacture.
+## The village, honestly
 
-## Boater's and angler's paradise
+Port Salerno sits just south of Stuart in Martin County, wrapped around a protected harbor that opens toward the St. Lucie Inlet and the Atlantic beyond it. It's unincorporated, it's small, and it varies noticeably block to block — a restored waterfront cottage can sit near a house that's been waiting on a new roof for a while.
 
-With quick access to the **St. Lucie Inlet** and the Atlantic, Port Salerno is a dream for anyone who lives to fish or boat. Offshore reefs, the inlet, and the rivers are all right there.
+If you need visual consistency from your neighborhood, this will bother you. If you find it refreshing after a decade of HOA architectural review committees, you'll probably love it.
 
-## Value and authenticity
+The character comes from the fact that this is still a **working waterfront**, not a themed one. Commercial fishing, charter operations, marine repair, and boatyards are active businesses here, not decorative history. That means real noise at real hours — trucks at the fish houses early, boats running out before sunrise. Residents who moved here for the authenticity generally consider that part of the deal.
 
-Port Salerno is generally **more affordable and less polished than Stuart** next door — which is the appeal for buyers who want waterfront access and old-Florida flavor without premium prices. It's gentrifying gently, with new waterfront dining adding energy.
+## The daily rhythm
 
-## The trade-offs
+Life organizes around the water and the tide more than the clock. Mornings skew early — people going out to fish, dive, or just run the Pocket before the afternoon heat and the summer storms build. Afternoons are quieter. Evenings drift toward the harbor, where you watch boats come back in.
 
-It's a working-village with an authentic, unhurried character — small, with limited shopping of its own (Stuart fills that in minutes), and nightlife is low-key by design. Florida's warm summers are part of life throughout the region. But if you want an authentic waterfront village with boating, seafood, and value, Port Salerno has a soul all its own.`,
+It's an unhurried place. Not sleepy exactly — a working harbor is never entirely still — but there's no rush hour to speak of, no scene to keep up with, and no expectation that you'll be doing anything in particular on a Saturday night.
+
+## Who this actually suits
+
+The people who thrive here share a pretty specific profile:
+
+- **Boaters and anglers.** This is the core. Quick inlet access to the Atlantic is the town's defining practical advantage, and if you own or want a boat, it reshapes what your life looks like.
+- **People who want water access without the premium.** Port Salerno generally prices below comparable waterfront in Stuart, which is the trade a lot of buyers here are consciously making.
+- **People allergic to polish.** No gate, no uniform rooflines, no committee telling you what color to paint. For some buyers that's the whole appeal.
+- **Divers.** The offshore reefs and wrecks are genuinely good, and launching from here is easy.
+- **Retirees and remote workers** who want quiet and don't need a job market or a nightlife scene.
+
+## Who should look elsewhere
+
+Being straight about this saves people a lot of money:
+
+- **If you want a walkable, charming downtown**, that's Stuart, and it's five minutes north. Live there instead — you'll be happier and you won't spend a year wishing.
+- **If you want manicured, uniform neighborhoods**, Port Salerno will read as inconsistent rather than characterful.
+- **If you don't use the water**, you're paying a location premium for an amenity you won't touch. The town's whole value proposition is inlet access.
+- **If you need shopping, dining variety, or nightlife within your own town**, it isn't here. Stuart covers it, but you'll be driving for essentially everything beyond the harbor.
+- **If you need a commute to Palm Beach County**, it's a real drive, and it gets old.
+
+## The Stuart question
+
+Nearly every buyer looking here is also looking at Stuart, so it's worth addressing directly.
+
+Stuart has the walkable historic downtown, the broader restaurant and retail selection, more polish, and generally higher prices. Port Salerno has the working harbor, better value per waterfront foot, and a rougher, more authentic character.
+
+They're five minutes apart, which means you get Stuart's amenities either way. The real question isn't which town has more — it's which one you want to wake up in. Buyers who want to *walk* to dinner should be in Stuart. Buyers who want to *boat* to dinner should be here.
+
+Jensen Beach offers a small beach-town feel if the ocean matters more than the harbor. Hobe Sound, south of here, leans toward conservation land and quiet. Port St. Lucie, north, is vastly larger and newer if scale and new construction appeal to you.
+
+## The trade-offs nobody puts in the listing
+
+- **It's a working harbor.** Early activity, working vessels, and the associated noise are features of the location, not bugs to be fixed.
+- **Housing stock varies widely in age and condition.** Careful inspection matters more here than in a uniform subdivision — see [our neighborhood breakdown](/blog/best-neighborhoods-in-port-salerno-florida) for what to check.
+- **Waterfront carries real costs** beyond the purchase price. Insurance, flood, seawall, and dock maintenance all add up — the full picture is in our [cost of living guide](/blog/cost-of-living-in-port-salerno-florida).
+- **Summers are hot and storm season is real**, as everywhere on this coast.
+- **You will drive.** There's no meaningful transit and the village isn't walkable in a practical sense.
+
+## Martin County matters more than you'd think
+
+One thing that genuinely shapes life here: Martin County has pursued notably strict growth management for decades, including height limits that have kept the county low-rise. It's a big reason this stretch of coast doesn't look like the counties to the south.
+
+Practically, it means less density, fewer high-rises, and slower change than you'd find in Palm Beach County. It also means a different school district, a different property appraiser, and different millage rates — verify all of it independently rather than assuming Palm Beach County figures apply.
+
+## The honest bottom line
+
+Port Salerno is a small, salty, working fishing village where the water is the reason for everything. It rewards people who actually use it and quietly disappoints people who bought the idea rather than the life.
+
+Spend a morning at the harbor watching the boats come in. If that scene makes you want to be part of it, you'll fit here. If it mostly makes you want a nicer restaurant, Stuart is five minutes away and that's a perfectly good answer too.`,
     faqs: [
-      { q: "Is Port Salerno, Florida a good place to live?", a: "Yes, especially for boaters, anglers, and value-minded buyers who want an authentic working-waterfront village with great seafood and quick inlet access. The trade-offs are its working-class, less-polished character and limited amenities (Stuart is minutes away)." },
-      { q: "What is Port Salerno known for?", a: "Its working waterfront on the Manatee Pocket — commercial and recreational fishing, marinas, fresh-off-the-boat seafood, and quick access to the St. Lucie Inlet and offshore reefs." },
-      { q: "What is the Manatee Pocket?", a: "A protected harbor at the heart of Port Salerno, lined with marinas, fish houses, and waterfront restaurants — the center of the village's boating and seafood culture." },
-      { q: "Is Port Salerno affordable?", a: "Generally yes — it's typically more affordable and less polished than neighboring Stuart, making it a value option for waterfront-area living." },
+      { q: "What is Port Salerno, Florida like?", a: "It's a small, unincorporated working fishing village in Martin County, just south of Stuart, built around the Manatee Pocket — a protected harbor with commercial and charter boats, fish houses, marinas, and boatyards. It's unpolished, water-focused, and genuinely old Florida, with quick access to the St. Lucie Inlet and the Atlantic." },
+      { q: "Is Port Salerno a good place to live?", a: "For boaters, anglers, divers, and people who want waterfront access without Stuart's pricing, yes. For people who want a walkable downtown, uniform manicured neighborhoods, or dining and nightlife within their own town, Stuart or a larger town nearby is likely a better fit." },
+      { q: "Is Port Salerno better than Stuart?", a: "They suit different buyers and are only about five minutes apart, so you get Stuart's amenities either way. Stuart offers a walkable historic downtown, more dining and retail, and more polish at generally higher prices. Port Salerno offers the working harbor, better waterfront value, and a rougher, more authentic character." },
+      { q: "Is Port Salerno noisy?", a: "It's an active working waterfront, so there's genuine early-morning activity — commercial and charter boats heading out, trucks at the fish houses, and marine repair businesses operating. Most residents consider that part of the appeal, but it's worth experiencing before you buy." },
+      { q: "What county is Port Salerno in?", a: "Martin County. That means a different school district, property appraiser, and millage rate than Palm Beach County to the south — verify all of it independently rather than assuming figures carry over." },
+      { q: "Do you need a boat to enjoy living in Port Salerno?", a: "Not strictly, but the town's central advantage is quick access to the St. Lucie Inlet and the Atlantic. Buyers who don't use the water are largely paying a location premium for an amenity they won't take advantage of." },
     ],
-    internalLinks: ["best-neighborhoods-in-port-salerno-florida", "best-things-to-do-in-port-salerno-florida", "who-should-move-to-port-salerno-florida"],
+    internalLinks: ["cost-of-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida", "best-things-to-do-in-port-salerno-florida"],
     funFact: "The Manatee Pocket got its name from the West Indian manatees that historically sheltered in its calm, protected waters. The pocket's narrow entrance and wide interior create exactly the still-water habitat manatees prefer — and they're still spotted there today.",
     author: 'john',
     published: true,
@@ -5888,7 +5940,7 @@ Get a boat (or a boat-owning friend), find your favorite fish house, and lean in
     internalLinks: ["what-its-really-like-living-in-port-salerno-florida", "best-things-to-do-in-port-salerno-florida", "hidden-gems-in-port-salerno-florida"],
     funFact: "Port Salerno is technically an unincorporated community in Martin County — no mayor, no city commission. That's part of why it's retained its working-village character without being redeveloped; there's no local government incentive to chase tax revenue through commercial growth.",
     author: 'christine',
-    published: true,
+    published: false,
     updated: '2026-06-01',
   },
   {
@@ -5903,24 +5955,97 @@ Get a boat (or a boat-owning friend), find your favorite fish house, and lean in
     primaryKeyword: "best neighborhoods in Port Salerno Florida",
     secondaryKeywords: ["where to live in Port Salerno", "Manatee Pocket homes", "Port Salerno waterfront"],
     h1: "Best Neighborhoods in Port Salerno, Florida",
-    body: `Port Salerno is all about the water and value. By lifestyle:
+    body: `Port Salerno is small enough that "neighborhood" is almost the wrong word. It's more useful to think in terms of your relationship to the water: on it, near it, or a short drive from it. Each of those is a genuinely different purchase with different costs and different diligence.
 
-**Waterfront & boating → Manatee Pocket and canal homes.** Homes with docks and quick inlet access — the dream for boaters and anglers, often at better value than Stuart's waterfront.
+First, though, it helps to be able to picture the place.
 
-**Near the Pocket → the village core.** Older, characterful homes within reach of the marinas, fish houses, and waterfront dining.
+## Getting your bearings
 
-**Attainable mainland → the inland neighborhoods.** Value-priced single-family homes for buyers who want the area and inlet access without waterfront costs.
+Everything here orbits the **Manatee Pocket**, a protected harbor that opens north and east toward the St. Lucie River and, past it, the **St. Lucie Inlet** and the Atlantic. Marinas, boatyards, fish houses, and waterfront restaurants ring the harbor.
 
-**Gated & newer → nearby communities.** A few gated and newer developments add more polished options around the village.
+**US-1** is the spine — the main road running north toward Stuart, five minutes away, and south toward Hobe Sound. **Sandsprit Park** sits on the water with a public boat ramp and green space, and functions as the community's front porch.
 
-**How to choose:** a dockside boating home on the Pocket, a characterful spot near the waterfront, or an attainable mainland house? Port Salerno's strength is waterfront access and old-Florida value.`,
+Learn the Pocket and US-1 and you know the town. It's genuinely that compact.
+
+## On the water → Manatee Pocket and the canal homes
+
+The reason most buyers are here. Homes with private dockage and quick, bridge-free access to the inlet — the shortest path from your back yard to the Atlantic that this stretch of coast offers.
+
+**Objective characteristics:** direct waterfront or canal frontage, private dockage in many cases, widely varying build years, often no HOA, highest price tier in the village, highest insurance and flood exposure.
+
+**What to verify, specifically:**
+- **Canal depth at low tide**, not at the showing. Ask directly.
+- **Bridge clearance** between the property and the inlet if you have or want a boat with any height.
+- **Seawall condition and age.** Replacement is a major expense and it's easy to miss in a general inspection.
+- **Dock permits and whether the dock is permitted as built.** Unpermitted structures become your problem.
+- **Whether the slip conveys** with the property.
+
+This is the tier where diligence pays for itself many times over.
+
+## Near the water → the village core
+
+Older, characterful homes within walking or very short driving distance of the marinas, fish houses, and waterfront dining. You're in the middle of village life without paying waterfront pricing.
+
+**Objective characteristics:** older construction, smaller lots, mixed condition block to block, typically no HOA, mid price tier, walkable to the harbor.
+
+**Trade-offs:** this is where the condition spread is widest. Roof age, electrical, plumbing, and prior permit history all matter enormously, and they drive both insurability and your five-year budget. It's also closest to the working waterfront, so early-morning commercial activity is part of the package.
+
+## A short drive from the water → the inland neighborhoods
+
+Value-priced single-family homes for buyers who want the location and inlet access without paying for frontage. You keep the boat at a marina or on a trailer and you save meaningfully on purchase price, insurance, and flood exposure.
+
+**Objective characteristics:** most attainable pricing in the area, larger lots in some pockets, generally lower flood risk, some properties on well and septic, HOA uncommon.
+
+**Trade-offs:** you're paying for dockage or trailering instead of owning your access. For a lot of buyers that math still works out favorably — run it both ways before assuming waterfront is the better deal.
+
+## Newer and gated → the communities around the village
+
+There are a handful of newer and gated developments in the surrounding area that offer more uniformity, newer construction, and HOA-maintained common areas.
+
+**Objective characteristics:** newest construction locally, more consistent architecture, HOA dues, often better insurance outcomes thanks to modern building codes and newer roofs, no direct village-core character.
+
+**Trade-offs:** you're trading the salty authenticity that brought most people to Port Salerno for predictability. That's a legitimate preference — just be clear that's the trade you're making.
+
+## A note on lot size and what you can do with it
+
+One thing that distinguishes the older parts of the village from a modern subdivision: lots are irregular, and what you're allowed to build on them varies more than you'd expect.
+
+Some parcels are generously sized with room for a workshop, a boat on a trailer, or an RV. Others are tight. Setbacks, allowable lot coverage, and rules around accessory structures are set by Martin County, and older properties sometimes have existing structures that predate current requirements.
+
+If your plan involves adding a garage, storing a boat, building a dock, or putting up anything substantial, confirm what's permitted for that specific parcel with Martin County **before** you write the offer. Assuming you can build something and discovering afterward that you can't is an expensive way to learn the zoning code.
+
+## The diligence list for this specific market
+
+Port Salerno's housing stock is older and more varied than a typical master-planned area, so the standard checklist doesn't go far enough. For any property here:
+
+- **Roof age and documentation.** Drives insurability more than anything else.
+- **Four-point inspection** on older homes — roof, electrical, plumbing, HVAC. Insurers will want it and you want to know first.
+- **Wind mitigation inspection.** Inexpensive and frequently pays for itself in credits.
+- **FEMA flood zone and elevation certificate** for the address.
+- **Permit history.** Unpermitted additions, enclosures, and docks are common in older coastal villages and become the buyer's problem.
+- **Well and septic**, if applicable — age, condition, and location of the drain field.
+- **Seawall and dock**, inspected specifically if waterfront.
+
+The full financial picture on taxes and insurance is in our [cost of living guide](/blog/cost-of-living-in-port-salerno-florida) — worth reading before you make an offer, because insurance here can eliminate a property from consideration entirely.
+
+## How to choose
+
+Ask yourself one question honestly: **will you actually use a boat from your own dock, often?**
+
+If yes, the waterfront tier is worth what it costs and the diligence is worth the effort. If the honest answer is "a few times a year," an inland home plus a marina slip usually delivers the same life for meaningfully less money and less risk.
+
+Beyond that, spend time in the village at different hours before committing — early morning at the harbor tells you more about daily life here than any afternoon showing will.
+
+Communities differ on objective characteristics — price, property type, lot size, water access, and HOA structure. The right one depends on your budget, your goals, and how you'll actually spend your time. Visit in person and independently verify anything that matters to your decision, including school assignments with the Martin County School District.`,
     faqs: [
-      { q: "What is the best area to live in Port Salerno?", a: "It depends on your goals — Manatee Pocket and canal homes for boating, the village core for characterful homes near the waterfront, and inland neighborhoods for attainable value." },
-      { q: "Can you live on the water in Port Salerno?", a: "Yes — Manatee Pocket and canal-front homes offer docks and quick access to the St. Lucie Inlet, often at better value than neighboring Stuart." },
-      { q: "Is Port Salerno cheaper than Stuart?", a: "Generally yes — it tends to be more affordable and less polished, which is a big part of its appeal." },
-      { q: "Are there newer communities in Port Salerno?", a: "Yes — a few gated and newer developments around the village add more polished options alongside the older waterfront homes." },
+      { q: "What are the best areas to live in Port Salerno?", a: "It's most useful to think by relationship to the water: waterfront and canal homes on the Manatee Pocket with private dockage; the village core with older characterful homes near the marinas and fish houses; inland neighborhoods offering the most attainable pricing; and a handful of newer or gated communities in the surrounding area." },
+      { q: "What should I check before buying a waterfront home in Port Salerno?", a: "Canal depth at low tide, bridge clearance between the property and the inlet, seawall condition and age, whether the dock is permitted as built, and whether any slip conveys with the property. Seawalls and docks should be inspected specifically rather than as part of a general home inspection." },
+      { q: "Do Port Salerno homes have HOAs?", a: "Many don't — the village core, waterfront, and inland areas commonly have no HOA, which is part of the appeal for buyers tired of architectural review. Some newer and gated developments in the surrounding area do carry dues." },
+      { q: "Is it better to buy waterfront or inland in Port Salerno?", a: "It depends on how often you'd genuinely use a boat from your own dock. Frequent boaters get real value from waterfront. For occasional use, an inland home plus a marina slip often delivers a similar lifestyle at meaningfully lower purchase price, insurance, and flood exposure." },
+      { q: "What inspections do I need for an older Port Salerno home?", a: "Beyond a general inspection, plan on a four-point inspection covering roof, electrical, plumbing, and HVAC, plus a wind mitigation inspection. Also pull the FEMA flood zone and any elevation certificate, and review permit history — unpermitted additions, enclosures, and docks are common in older coastal villages." },
+      { q: "What school district serves Port Salerno?", a: "Port Salerno is served by the Martin County School District, not Palm Beach County. Boundaries and assignments are reviewed and can change, so verify current assignments directly with the district." },
     ],
-    internalLinks: ["what-its-really-like-living-in-port-salerno-florida", "cost-of-living-in-port-salerno-florida", "who-should-move-to-port-salerno-florida"],
+    internalLinks: ["cost-of-living-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida", "best-things-to-do-in-port-salerno-florida"],
     funFact: "The St. Lucie Inlet Preserve State Park is only accessible by boat — no road access. That single requirement is why the beach stays pristine and uncrowded. Most people won't make the trip. Locals consider that a feature, not a bug.",
     author: 'john',
     published: true,
@@ -5938,28 +6063,101 @@ Get a boat (or a boat-owning friend), find your favorite fish house, and lean in
     primaryKeyword: "things to do in Port Salerno Florida",
     secondaryKeywords: ["Port Salerno attractions", "what to do in Port Salerno", "St. Lucie Inlet Preserve", "Manatee Pocket"],
     h1: "Best Things to Do in Port Salerno, Florida",
-    body: `Port Salerno's fun is on, in, and around the water — exactly as a fishing village should be.
+    body: `Port Salerno's entire recreational identity is the water. That sounds like a limitation until you realize what's actually within reach: a fast inlet to the Atlantic, offshore reefs and wrecks worth diving, a boat-access barrier island most people never see, and a harbor that functions as the town's living room.
 
-**Fish and boat the inlet.** Quick access to the **St. Lucie Inlet** and Atlantic makes Port Salerno a top launch point for offshore and inshore fishing and boating.
+Here's what's genuinely worth your time, including the parts visitors never find.
 
-**Eat fresh seafood on the Pocket.** Dock-and-dine waterfront restaurants serve catch that came off the boats nearby — a true taste of the village.
+## Fish the inlet and offshore
 
-**Visit St. Lucie Inlet Preserve State Park.** A boat-access barrier-island park with a pristine beach, a boardwalk through mangroves, and great snorkeling on the offshore reef.
+This is the headline. The **St. Lucie Inlet** puts you in the Atlantic quickly, which is the practical advantage that defines the town — less running time, more fishing time, and the flexibility to go out on a shorter weather window than boaters further from an inlet.
 
-**Dive the reefs.** Port Salerno is a launch point for diving the area's reefs and wrecks.
+Inshore, the St. Lucie River and the Indian River Lagoon system offer protected water when it's rough outside. Offshore, you're reaching reefs and deeper structure without a long haul.
 
-**Hit Sandsprit Park.** A waterfront county park with a boat ramp, fishing, and green space along the water.
+If you don't own a boat, charter operations run out of the Pocket, and that's genuinely the smartest way to learn this water before you buy anything.
 
-**Catch the Seafood Festival.** The village's signature annual event celebrates its fishing heritage with food, music, and crowds.
+## Dive and snorkel the reefs and wrecks
 
-In summer, get on the water early to beat the heat and storms — and the waterfront restaurants are perfect for a shady afternoon after.`,
+Underrated, and one of the real arguments for living here. The offshore reefs and wreck sites in this stretch of the Treasure Coast draw divers from well outside the area, and Port Salerno is a practical launch point.
+
+Conditions vary considerably with wind and season — summer typically brings calmer water and better visibility. Local dive operators run trips and are the fastest way to figure out which sites suit your experience level.
+
+## St. Lucie Inlet Preserve State Park
+
+The best thing in the area that most people never reach, because **you can only get there by boat.**
+
+It's a barrier-island preserve with a genuinely pristine, often nearly empty beach, a boardwalk through mangrove and hammock, and an offshore reef close enough to snorkel from shore in the right conditions. The access requirement is exactly why it stays uncrowded.
+
+If you make one boat trip in your first month here, make it this one.
+
+## Sandsprit Park
+
+The community's practical waterfront anchor — a county park on the water with a public boat ramp, fishing, picnic areas, and green space. It's where you'll launch, where local events happen, and where a lot of residents end up for an unstructured hour by the water.
+
+The ramp gets busy on good weekends. Locals go early, which is generally good advice for everything here.
+
+## Watch the fleet at the Manatee Pocket
+
+Not an attraction, exactly. Just one of the genuine pleasures of living here: sitting at the harbor watching commercial and charter boats come back in, especially as the light drops. Free, unhurried, and completely characteristic of the place.
+
+It also tells you more about whether you'd like living here than any brochure could.
+
+## The Seafood Festival
+
+The village's signature annual event turns its commercial fishing heritage into a food, music, and community celebration. It's the one weekend the town is genuinely crowded, and it's worth planning around — either to attend or to avoid, depending on your temperament.
+
+## Explore the fish houses
+
+Buying seafood straight off the boats is a legitimate local ritual and the most direct expression of what this town is. It's covered properly in our [guide to eating and drinking here](/blog/best-places-to-eat-drink-hang-out-in-port-salerno-florida), but it belongs on any list of things to actually do — go once in your first week.
+
+## Quieter finds most people miss
+
+- **The harbor at first light.** Different town at 6 a.m. than at noon. Boats heading out, working docks busy, and nobody around who isn't there for a reason.
+- **Paddling the protected water.** Kayak or paddleboard in the calmer stretches of the river system and around the mangroves — a completely different perspective from a powerboat, and free.
+- **Manatees in the cooler months.** They move into warmer, calmer water through the area. Give them space, don't feed them, and never chase them with a paddleboard — they're protected.
+- **The boatyards.** Not a tourist activity, but if you're at all mechanically curious, the working marine trades here are genuinely interesting to watch.
+- **Fishing from shore at Sandsprit** — no boat required, low commitment, and a good way to meet people who know this water.
+
+## If you don't own a boat yet
+
+Plenty of people move here intending to buy one and take a while to get around to it. In the meantime, there's more access than newcomers assume:
+
+- **Charter trips** out of the Pocket, for fishing or diving, with no ownership commitment and a captain who knows the water better than you will for years.
+- **Kayak and paddleboard rentals**, which get you into the protected mangrove stretches that powerboats can't reach anyway.
+- **Shore fishing** at Sandsprit and along accessible stretches of the river system.
+- **Marina slips**, if you'd rather own a boat than waterfront property — often the smarter financial move for occasional use.
+
+Chartering first is genuinely good advice for anyone considering buying here. A few trips will teach you what kind of boat actually fits how you'd use this water, which is a much better basis for a purchase than a boat show.
+
+## Within a short drive
+
+The village is small, so it helps to know what's nearby:
+
+- **Stuart**, five minutes north, with a walkable historic downtown, broader dining, and the area's main retail.
+- **Hobe Sound and Jonathan Dickinson State Park**, south, for serious hiking, paddling, and camping in old-Florida terrain.
+- **Jensen Beach and the Atlantic beaches**, north, for actual ocean beach access.
+- **Blowing Rocks Preserve**, further south on Jupiter Island, where winter surf pushes water through limestone in plumes.
+
+## Seasonal timing that matters
+
+**Summer** brings heat, humidity, and near-daily afternoon storms that build fast and clear quickly. Get on the water early — mornings are calmer and safer, and the storms are predictable enough to plan around. Summer typically offers the best diving visibility.
+
+**Winter** brings the best air temperatures and the area's seasonal population bump, along with more wind. Offshore days can be limited by conditions, and inshore fishing becomes the fallback.
+
+**Hurricane season** runs June through November, and in a boating community that means having a plan for the vessel as well as the house.
+
+## The honest advice
+
+Get on the water in your first month, whether that's a charter, a dive trip, a kayak, or a friend's boat. Everything distinctive about living in Port Salerno flows from the inlet being close, and reading about it doesn't land the same way as running out of it at sunrise.`,
     faqs: [
-      { q: "What is there to do in Port Salerno?", a: "Fish and boat the St. Lucie Inlet, eat fresh seafood on the Manatee Pocket, visit the boat-access St. Lucie Inlet Preserve State Park, dive the offshore reefs, enjoy Sandsprit Park, and attend the annual Seafood Festival." },
-      { q: "What is St. Lucie Inlet Preserve State Park?", a: "A boat-access barrier-island state park near Port Salerno with a pristine beach, a mangrove boardwalk, and snorkeling on an offshore reef." },
-      { q: "Is Port Salerno good for fishing?", a: "Very — its quick access to the St. Lucie Inlet and offshore reefs makes it one of the best fishing and boating launch points on the Treasure Coast." },
-      { q: "What is the Port Salerno Seafood Festival?", a: "The village's signature annual event celebrating its commercial-fishing heritage with fresh seafood, music, and a lively crowd." },
+      { q: "What is there to do in Port Salerno, Florida?", a: "Almost all of it is on the water — fishing the St. Lucie Inlet and offshore, diving the reefs and wrecks, boating to St. Lucie Inlet Preserve State Park, launching and fishing at Sandsprit Park, watching the fleet at the Manatee Pocket, and the annual Seafood Festival." },
+      { q: "How do you get to St. Lucie Inlet Preserve State Park?", a: "By boat only, which is exactly why it stays uncrowded. It's a barrier-island preserve with a pristine and often nearly empty beach, a boardwalk through mangrove and hammock, and an offshore reef that can be snorkeled from shore in the right conditions." },
+      { q: "Is Port Salerno good for fishing?", a: "It's one of the main reasons people live there. Quick access to the St. Lucie Inlet means less running time to the Atlantic and the ability to use shorter weather windows, with the St. Lucie River and Indian River Lagoon system offering protected water when it's rough offshore." },
+      { q: "Is there good diving near Port Salerno?", a: "Yes — the offshore reefs and wreck sites along this stretch of the Treasure Coast draw divers from outside the area, and Port Salerno is a practical launch point. Conditions vary with wind and season, with summer typically offering calmer water and better visibility." },
+      { q: "What is Sandsprit Park?", a: "A Martin County waterfront park with a public boat ramp, fishing, picnic areas, and green space. It functions as the community's main launch point and gathering spot. The ramp gets busy on good weekends, so locals tend to go early." },
+      { q: "Can you see manatees in Port Salerno?", a: "Manatees move into warmer, calmer water throughout the area during the cooler months. They're protected — give them space, don't feed them, and don't follow them with a paddleboard or boat." },
+      { q: "What is the Port Salerno Seafood Festival?", a: "The village's signature annual event, celebrating its commercial fishing heritage with food, music, and community activities. It's the one weekend the small town gets genuinely crowded." },
     ],
-    internalLinks: ["hidden-gems-in-port-salerno-florida", "local-guide-to-port-salerno-florida", "best-places-to-eat-drink-hang-out-in-port-salerno-florida"],
+    internalLinks: ["best-places-to-eat-drink-hang-out-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida"],
     funFact: "The Port Salerno Seafood Festival has been running since the 1970s and draws tens of thousands of people to what is otherwise a very small village. For one weekend a year, Port Salerno is briefly one of the most-visited spots on the entire Treasure Coast.",
     author: 'christine',
     published: true,
@@ -6003,7 +6201,7 @@ In summer, get on the water early to beat the heat and storms — and the waterf
     internalLinks: ["pros-and-cons-of-living-in-port-salerno-florida", "cost-of-living-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
     funFact: "Port Salerno is one of the last active commercial-fishing communities on the Treasure Coast. While most nearby waterfront towns have transitioned entirely to recreational boating, the Manatee Pocket still has working fish houses buying and selling fresh catch — a piece of old Florida that's increasingly rare.",
     author: 'john',
-    published: true,
+    published: false,
     updated: '2026-06-01',
   },
   {
@@ -6043,7 +6241,7 @@ In summer, get on the water early to beat the heat and storms — and the waterf
     internalLinks: ["cost-of-living-in-port-salerno-florida", "who-should-move-to-port-salerno-florida", "port-salerno-vs-nearby-cities"],
     funFact: "Buying a waterfront home on the Manatee Pocket means your backyard is a working waterway — commercial boats pass at 5am, the smell of diesel and fresh fish is real, and the energy is nothing like a polished marina. That authentic character is the appeal, but it's good to know going in.",
     author: 'christine',
-    published: true,
+    published: false,
     updated: '2026-06-01',
   },
   {
@@ -6059,26 +6257,103 @@ In summer, get on the water early to beat the heat and storms — and the waterf
     secondaryKeywords: ["Port Salerno home prices", "is Port Salerno affordable", "Port Salerno FL cost of living"],
     h1: "Cost of Living in Port Salerno, Florida",
     showMarketTrends: true,
-    body: `Port Salerno is the value play of the Stuart area — authentic waterfront living for less.
-## Housing
-The appeal is value. Port Salerno generally offers more attainable homes than neighboring Stuart, with waterfront and Manatee Pocket homes commanding a premium but still often pricing below comparable Stuart waterfront.
-## Taxes
-**No state income tax.** Port Salerno is in **Martin County** (its own millage); property taxes apply, with a Homestead Exemption for primary residents.
+    body: `Port Salerno is the value play of the Stuart area — but "cheaper than Stuart" is where most cost conversations start and stop, and that's not enough information to budget against.
 
-## Insurance
-A real coastal cost, higher for waterfront homes near the inlet — budget and quote early. Older homes may need updates affecting insurability.
+The purchase price is the easy part. What decides whether a waterfront village home actually works for you is the stack underneath it: Martin County's tax structure, coastal insurance, flood coverage, and — if you're buying for the water — the recurring cost of the dock and the boat that justified the whole move.
+
+## Housing: what you're actually paying for
+
+Port Salerno generally prices below comparable Stuart property, and waterfront on the Manatee Pocket carries a premium over inland village homes while typically still coming in under equivalent Stuart waterfront. Check the live market trends further down this page for current figures rather than trusting a number in an article.
+
+What matters more than the median here is **condition spread**. The housing stock varies enormously in age and upkeep, which means two homes at the same price can carry wildly different five-year costs. A 1970s block home with an original roof and a failing seawall is not the same purchase as a renovated one, even at identical asking prices.
+
+## Property taxes — and the Martin County difference
+
+Florida has **no state income tax**, which is the single largest recurring financial advantage of moving here from a higher-tax state, and for retirees managing retirement account distributions it's often decisive.
+
+Property taxes are where Port Salerno buyers most often get tripped up, for two reasons.
+
+### You're in Martin County, not Palm Beach County
+
+Different county, different millage rates, different property appraiser, different school district. If you've been researching Palm Beach County towns and mentally carrying those numbers north, stop — verify with the **Martin County Property Appraiser** and Tax Collector for the specific parcel.
+
+### The tax figure on the listing isn't yours
+
+This catches nearly every out-of-state buyer. The property tax number shown on a listing typically reflects the **current owner's** bill. If they've held the home for a long time, that figure is protected by caps that do not transfer to you. Assessed value generally resets toward market value in the year after a sale, and the bill can jump substantially.
+
+Budget against a reset assessment, not the seller's historical number.
+
+### Homestead Exemption and Save Our Homes
+
+If the home will be your **primary residence**, filing for Homestead Exemption reduces taxable value and triggers the Save Our Homes cap, which limits how much assessed value can rise annually. There's a filing deadline early in the year after purchase, and missing it costs you a full year.
+
+If you're moving from another Florida homestead, **portability** may let you carry accumulated Save Our Homes benefit to the new property. It's a separate form with its own rules, and in-state movers leave it on the table constantly.
+
+Exemption amounts, caps, and millage rates are set at the state and county level and change. Verify current figures with Martin County and consult a CPA about your situation.
+
+## Insurance: the number that decides which houses you can buy
+
+On a coastal waterfront village with older housing stock, insurance isn't just a budget line — it determines which properties are realistically available to you.
+
+**Premiums vary enormously between comparable homes.** The drivers:
+
+- **Roof age and material.** The biggest single factor. Past a certain age some carriers decline outright, which can make financing difficult and shrinks your buyer pool at resale.
+- **Wind mitigation features.** Impact windows, shutters, roof-to-wall connections, and secondary water barriers all earn credits. A wind mitigation inspection is inexpensive and routinely pays for itself.
+- **Year built and construction type.** Homes built to post-1994 and especially post-2002 Florida building codes generally insure better — relevant here, where a lot of the stock predates both.
+- **Distance to the water**, which in a village wrapped around a harbor is a short distance for nearly everyone.
+- **Claims history**, both yours and the property's.
+
+**Older homes may need updates to be insurable at all.** Electrical, plumbing, and roof condition can all trigger requirements. Get quotes **during your inspection period**, not after — and ask for the property's prior insurance history.
+
+If the private market won't write it, Citizens Property Insurance is the state-backed insurer of last resort, with its own rules and assessment risk. Verify everything with a licensed Florida insurance agent for the specific address.
+
+### Flood is separate, and here it matters
+
+Flood coverage is **never** included in a standard homeowners policy. In a village built around a harbor, a meaningful share of properties sit in FEMA-designated flood zones, and lenders will require coverage in high-risk zones. Pull the flood zone for any specific address before you get attached to it. Elevation certificates can materially affect the premium.
+
+## The waterfront costs nobody quotes you
+
+If you're buying here for the water — and most people are — these are real recurring numbers:
+
+- **Dock and seawall maintenance.** Both are expensive to repair and very expensive to replace. Have them inspected specifically, not as part of a general home inspection.
+- **Dockage**, if the property doesn't include a slip.
+- **Boat ownership overall** — maintenance, haul-outs, bottom paint, fuel, and boat insurance. In saltwater with year-round use, maintenance runs higher than northern boaters expect.
+- **Marine growth and corrosion.** Everything metal near saltwater has a shorter life. Budget for it.
 
 ## Everyday costs
-Dining can be a bargain at the local seafood spots; for broader shopping, nearby Stuart handles it. Utilities and groceries track near the Florida average.
 
-**Bottom line:** Port Salerno offers authentic waterfront living at Treasure Coast value — generally cheaper than Stuart — with no state income tax. Budget for insurance on waterfront homes.`,
+Utilities and groceries track close to the Florida average, with summer electric as the main swing — air conditioning runs most of the year and older homes with aging systems show it.
+
+Some properties in and around the village are on **well and septic** rather than municipal water and sewer. That changes your cost structure — no water bill, but septic maintenance and eventual replacement are on you. Verify which applies to the specific address.
+
+Eating locally at the seafood spots can genuinely be a bargain relative to the region. Broader shopping means driving to Stuart, so factor fuel and time.
+
+## Running your real number
+
+For any specific address, build the full monthly figure:
+
+- Mortgage principal and interest
+- Property taxes **at a reset assessment**, homestead applied if primary
+- Homeowners insurance, actually quoted
+- Flood insurance, if applicable
+- HOA dues, if any — many village properties have none
+- Dock, seawall, and boat costs if waterfront
+- Electric, water or well/septic, internet
+- Lawn and pest service
+
+## The bottom line
+
+Port Salerno offers authentic waterfront living at genuine Treasure Coast value, and the tax advantage of having no state income tax is real. The buyers who feel good about it afterward are the ones who priced the roof, the insurance, the flood zone, and the seawall before closing — not the ones who compared asking prices to Stuart and stopped there.`,
     faqs: [
-      { q: "Is Port Salerno affordable?", a: "Generally yes — it's typically more affordable than neighboring Stuart, offering authentic waterfront-area living at better value." },
-      { q: "Is Port Salerno cheaper than Stuart?", a: "Usually yes — its less-polished, working-waterfront character makes it a value alternative to Stuart." },
-      { q: "Does Port Salerno have a state income tax?", a: "No — Florida has no state income tax. Port Salerno is in Martin County, which sets its own property tax rate." },
-      { q: "Why is insurance a factor in Port Salerno?", a: "Waterfront and near-inlet location drives homeowners and wind/flood insurance costs, and older homes may need updates — get quotes early." },
+      { q: "Is Port Salerno cheaper than Stuart?", a: "Generally yes — Port Salerno typically prices below comparable Stuart property, and waterfront on the Manatee Pocket often comes in under equivalent Stuart waterfront. Purchase price alone is misleading, though, since the housing stock varies widely in age and condition and that drives insurance and maintenance costs." },
+      { q: "What are property taxes like in Port Salerno?", a: "Port Salerno is in Martin County, with its own millage rates, property appraiser, and school district — Palm Beach County figures don't carry over. Also note that the tax figure on a listing usually reflects the seller's capped assessment; assessed value generally resets toward market value the year after a sale." },
+      { q: "Does Port Salerno have high home insurance?", a: "Coastal waterfront location and older housing stock both push premiums up, and rates vary substantially between comparable homes based on roof age, wind mitigation features, and year built. Some older homes need electrical, plumbing, or roof updates to be insurable at all. Get quotes during your inspection period." },
+      { q: "Do I need flood insurance in Port Salerno?", a: "Quite possibly. Flood is never covered by a standard homeowners policy, and in a village built around a harbor a meaningful share of properties sit in FEMA-designated flood zones where lenders require coverage. Pull the flood zone and any elevation certificate for the specific address." },
+      { q: "What does it cost to own a waterfront home in Port Salerno?", a: "Beyond the mortgage, budget for dock and seawall maintenance, dockage if no slip is included, boat maintenance and insurance, and higher homeowners and flood premiums. Seawalls and docks are expensive to replace and should be inspected specifically rather than as part of a general home inspection." },
+      { q: "Does Florida have a state income tax?", a: "No. Florida has no state income tax, which is a significant recurring advantage for anyone relocating from a higher-tax state and for retirees managing retirement account distributions." },
+      { q: "Are Port Salerno homes on well and septic?", a: "Some properties in and around the village are on well and septic rather than municipal water and sewer. That removes a water bill but puts septic maintenance and eventual replacement on the owner. Verify which applies to the specific address." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida", "port-salerno-vs-nearby-cities"],
+    internalLinks: ["what-its-really-like-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida"],
     funFact: "The Manatee Pocket connects to the St. Lucie River system, which links to Lake Okeechobee through the C-44 canal — the Okeechobee Waterway. That means you can boat from Port Salerno all the way across Florida to the Gulf Coast. Not many towns can say that.",
     author: 'john',
     published: true,
@@ -6120,7 +6395,7 @@ These genuine, water-soaked experiences are what make Port Salerno special.`,
     internalLinks: ["best-things-to-do-in-port-salerno-florida", "local-guide-to-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
     funFact: "Sandsprit Park was a local secret for years — a quiet county park with a boat launch, fishing, and waterfront views known mainly to locals and serious boaters. It's been upgraded but still has that used-by-locals-not-tourists character that makes it worth seeking out.",
     author: 'christine',
-    published: true,
+    published: false,
     updated: '2026-06-01',
   },
   {
@@ -6156,7 +6431,7 @@ These genuine, water-soaked experiences are what make Port Salerno special.`,
     internalLinks: ["cost-of-living-in-port-salerno-florida", "pros-and-cons-of-living-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
     funFact: "Waterfront properties near the St. Lucie Inlet in Port Salerno have historically priced below comparable Stuart waterfront — sometimes by a meaningful margin — despite essentially the same water access and, in some cases, even better inlet proximity. That gap is the whole investment argument.",
     author: 'john',
-    published: true,
+    published: false,
     updated: '2026-06-01',
   },
   {
@@ -6171,29 +6446,96 @@ These genuine, water-soaked experiences are what make Port Salerno special.`,
     primaryKeyword: "best restaurants in Port Salerno Florida",
     secondaryKeywords: ["where to eat in Port Salerno", "Manatee Pocket restaurants", "Port Salerno seafood"],
     h1: "Best Places to Eat, Drink & Hang Out in Port Salerno, Florida",
-    body: `Port Salerno punches way above its size for one thing: **fresh waterfront seafood.** This is dock-and-dine country.
-## On the Manatee Pocket
-The harbor is ringed with **waterfront seafood restaurants and tiki bars** where the catch is local and the boats drift by. This is the heart of Port Salerno's social and dining scene — fresh fish, cold drinks, and sunset views over the working waterfront.
+    body: `Most small towns can't claim a genuine food identity. Port Salerno can, and it comes down to a structural advantage no amount of restaurant investment can manufacture: the boats that catch the fish tie up in the same harbor where you eat it.
 
-## Fish houses
-Buying fresh seafood straight from the **fish houses** on the Pocket is a local ritual — about as fresh as it gets anywhere.
+This is dock-and-dine country, and the distance between the water and the plate is about as short as it gets anywhere in Florida.
+
+## The fish houses — start here
+
+Before the restaurants, understand the fish houses. These are working seafood operations on the **Manatee Pocket** that buy from the commercial fleet and sell to the public. Walking in and buying fish that came off a boat that morning is the single most characteristic thing you can do in this town.
+
+A few things worth knowing:
+
+- **Selection depends on what came in**, not on what you planned to make. That's the appeal — you build dinner around the catch rather than the other way around.
+- **Ask what's freshest** rather than what's cheapest. The people behind the counter know and will tell you straight.
+- **Go earlier in the day** for the best selection.
+- **Seasonality is real.** What's available shifts through the year with the fisheries, and locals eat accordingly.
+
+For a lot of residents, this replaces the grocery store seafood counter permanently. It's cheaper, it's better, and it's more interesting.
+
+## Waterfront dining on the Pocket
+
+The harbor is ringed with **waterfront seafood restaurants and tiki bars** where the boats drift past while you eat. This is the social center of the village — not a downtown strip, but the harbor itself.
+
+What to expect:
+
+- **Casual, unpretentious, and genuinely salty.** Dress code is essentially nonexistent. Nobody is performing.
+- **Fresh local fish** as the core of most menus, prepared straightforwardly rather than elaborately.
+- **Boat-up access** at several spots, which is a completely normal way to arrive for dinner here and one of the small pleasures of living on the water.
+- **Sunset over a working harbor**, which looks different from a beach sunset — masts, trawlers, and boats coming in rather than an empty horizon.
+
+## Where the locals actually go
+
+The pattern most residents settle into is worth knowing:
+
+- **Fish house for the weeknight.** Buy the catch, cook it at home, spend a fraction of what a restaurant costs.
+- **Waterfront spot on the weekend**, often arriving by boat, usually timed to the boats coming back in.
+- **Stuart for anything else.** When you want variety, a nicer dinner, a walkable evening, or a cuisine the village doesn't offer.
+
+That last one isn't a knock. It's five minutes away, and residents here treat Stuart's restaurant scene as functionally their own.
 
 ## The Seafood Festival
-The village's annual festival turns its fishing heritage into a food-and-music celebration — the can't-miss event of the year.
 
-## Just north in Stuart
-For a wider range and a charming downtown night out, Stuart is minutes away.
+The village's annual festival is the town's culinary high point and its biggest event, turning the commercial fishing heritage into a weekend of food, music, and community. It's genuinely crowded — the one time of year that's true — and it's the best single introduction to what this town is about if you're still deciding whether to move here.
 
-## The vibe
-Salty, casual, and authentic — waterfront seafood and tiki bars over a polished scene. The Manatee Pocket is where it all happens.
-`,
+## Cooking what you buy
+
+Since the fish house is central to eating well here, a few things that help if you're new to cooking fish this fresh:
+
+- **Simpler is better.** Fish that came off a boat this morning doesn't need a heavy sauce. Most local cooks land on salt, heat, and citrus and stop there.
+- **Ask how to cook it.** The counter staff handle every species that comes through and will tell you what works — grilling, blackening, frying, or raw.
+- **Buy it whole and have it filleted** if you want the freshest result and don't mind the extra step.
+- **Freshness has a short window.** Cook it within a day or two, or freeze it properly the day you buy it.
+- **Learn the seasons.** What's running changes through the year, and eating with the fisheries is both cheaper and better than insisting on one species.
+
+None of this is complicated. It's just a different relationship with food than most people arrive with, and it's one of the genuine quality-of-life upgrades of living on a working harbor.
+
+## Being realistic about the scene
+
+Honesty matters more than boosterism here, so:
+
+**Port Salerno has depth, not breadth.** What it does — fresh local seafood on a working waterfront — it does about as well as anywhere in Florida. What it doesn't have is variety. If you want a different cuisine four nights a week, this village alone won't deliver it.
+
+**The village is small.** The number of establishments is limited, and hours and ownership change more often than in a larger market.
+
+**Nightlife is low-key by design.** Waterfront bars with a local crowd, not a scene. Things wind down early. For most people who choose this town, that's a feature.
+
+**Stuart carries the load for variety**, and Jensen Beach adds beach-town options a bit further north. Between them you're well covered — you're just driving.
+
+## Practical local advice
+
+- **Go early for the fish houses**, later for the sunset. They're different trips.
+- **Boat-up dockage** exists at several waterfront restaurants, but space and rules vary — call ahead rather than assuming you'll find a spot.
+- **Weekends and season are busier**, particularly on good-weather days when the boating crowd is out.
+- **Summer is quieter and easier** — walk-in friendly, faster service, and the same water view.
+- **Check before you go.** In a village this size, hours, menus, and ownership change. Call rather than relying on anything you read, including this.
+
+## Why the food here punches above its weight
+
+The reason is structural. Working waterfronts have been disappearing across Florida for decades, priced out and redeveloped into condos and themed marinas. Port Salerno still has a real one — active commercial fishing, fish houses buying from the fleet, and restaurants sourcing locally because the supply is right there.
+
+That's not a marketing angle. It's the actual economics of the place, and it's why a village this small eats better than towns ten times its size. It's also the thing most at risk if the area ever gentrifies hard, which is worth appreciating while it's here.
+
+Go buy fish off a boat in your first week. It'll tell you more about whether you belong in this town than any amount of driving around looking at houses.`,
     faqs: [
-      { q: "Where is the best seafood in Port Salerno?", a: "On the Manatee Pocket, where waterfront restaurants and fish houses serve fresh local catch — dock-and-dine dining is the village's specialty." },
-      { q: "Is there waterfront dining in Port Salerno?", a: "Yes — the Manatee Pocket is ringed with waterfront seafood restaurants and tiki bars with boats and sunset views." },
-      { q: "What is the Port Salerno Seafood Festival?", a: "The village's signature annual event celebrating its fishing heritage with fresh seafood, music, and a lively crowd." },
-      { q: "Where do locals hang out in Port Salerno?", a: "Along the Manatee Pocket's waterfront restaurants and tiki bars, plus quick trips to Stuart for more dining and nightlife." },
+      { q: "Where can you eat in Port Salerno, Florida?", a: "The Manatee Pocket is ringed with casual waterfront seafood restaurants and tiki bars, several with boat-up access. The fish houses on the harbor also sell fresh catch directly to the public, which many residents use in place of a grocery store seafood counter. Hours and ownership change, so check before going." },
+      { q: "What are fish houses in Port Salerno?", a: "Working seafood operations on the Manatee Pocket that buy from the commercial fishing fleet and sell to the public. Selection depends on what came in that day, so go earlier for the best choice and ask what's freshest rather than what's cheapest." },
+      { q: "Can you get to Port Salerno restaurants by boat?", a: "Yes — several waterfront restaurants on the Manatee Pocket offer boat-up access, and arriving by water is a normal way to go to dinner locally. Dockage space and rules vary, so call ahead." },
+      { q: "Does Port Salerno have good seafood?", a: "It's the town's defining strength. Because it retains a genuine working waterfront with an active commercial fleet and fish houses buying directly from it, the distance between the water and the plate is unusually short. The trade-off is depth over breadth — limited variety beyond seafood." },
+      { q: "Is there nightlife in Port Salerno?", a: "It's low-key by design — casual waterfront bars with a local crowd rather than a scene, and things wind down early. Stuart, five minutes north, offers a walkable downtown with more options." },
+      { q: "What is the Port Salerno Seafood Festival?", a: "The village's signature annual event and culinary high point, celebrating its commercial fishing heritage with food, music, and community activities. It's the busiest weekend of the year in the village." },
     ],
-    internalLinks: ["best-things-to-do-in-port-salerno-florida", "local-guide-to-port-salerno-florida", "hidden-gems-in-port-salerno-florida"],
+    internalLinks: ["best-things-to-do-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
     funFact: "The Port Salerno Seafood Festival started in 1979 as a small community fundraiser and grew into one of the largest one-day festivals on the Treasure Coast. It raises money for local nonprofits and is organized entirely by volunteers — a genuinely grassroots event in a town that's stayed genuinely grassroots.",
     author: 'christine',
     published: true,

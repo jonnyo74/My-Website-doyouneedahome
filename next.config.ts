@@ -24,6 +24,16 @@ const nextConfig: NextConfig = {
       // not this Next.js app — forward /tools there instead of 404ing.
       { source: '/tools', destination: 'https://tools.doyouneedahome.com', permanent: false },
 
+      // ── BLOG CONSOLIDATION ────────────────────────────────────────────
+      // Port Salerno is a small village — 10 article types produced thin,
+      // heavily overlapping pages. Consolidated to 5 substantive articles;
+      // the retired slugs point at whichever article absorbed their content.
+      { source: '/blog/local-guide-to-port-salerno-florida', destination: '/blog/what-its-really-like-living-in-port-salerno-florida', permanent: true },
+      { source: '/blog/who-should-move-to-port-salerno-florida', destination: '/blog/what-its-really-like-living-in-port-salerno-florida', permanent: true },
+      { source: '/blog/pros-and-cons-of-living-in-port-salerno-florida', destination: '/blog/what-its-really-like-living-in-port-salerno-florida', permanent: true },
+      { source: '/blog/port-salerno-vs-nearby-cities', destination: '/blog/what-its-really-like-living-in-port-salerno-florida', permanent: true },
+      { source: '/blog/hidden-gems-in-port-salerno-florida', destination: '/blog/best-things-to-do-in-port-salerno-florida', permanent: true },
+
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate
       { source: '/team-page', destination: '/team', permanent: true },
