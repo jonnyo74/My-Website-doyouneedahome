@@ -4,8 +4,15 @@ import Link from 'next/link'
 /**
  * Minimal markdown renderer for article bodies.
  * Supports: ## h2, ### h3, - bullet lists, > blockquote, **bold** and
- * [label](url) inline, and paragraphs. Intentionally dependency-free.
+ * [label](url) inline, paragraphs, and standalone images. Dependency-free.
+ *
+ * Images use markdown syntax on their own line, with an optional caption:
+ *   ![alt text](/images/jupiter/jupiter-inlet.jpg)
+ *   ![alt text](/images/jupiter/jupiter-inlet.jpg "Caption shown beneath")
  */
+
+// ![alt](src) or ![alt](src "caption") — the whole line, nothing else on it.
+const IMAGE_LINE = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$/
 
 function renderBold(text: string, keyBase: string): ReactNode[] {
   // Split on **bold** segments
@@ -80,7 +87,27 @@ export default function Prose({ content, className = '' }: { content: string; cl
 
   for (const raw of lines) {
     const line = raw.trimEnd()
-    if (line.startsWith('### ')) {
+    const image = line.match(IMAGE_LINE)
+    if (image) {
+      flushPara(); flushList()
+      const [, alt, src, caption] = image
+      blocks.push(
+        <figure key={`f${key++}`} className="mt-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={src}
+            alt={alt}
+            loading="lazy"
+            className="w-full rounded-2xl border border-slate-200 object-cover shadow-card"
+          />
+          {caption && (
+            <figcaption className="mt-3 text-center text-sm italic leading-6 text-slate-500">
+              {caption}
+            </figcaption>
+          )}
+        </figure>,
+      )
+    } else if (line.startsWith('### ')) {
       flushPara(); flushList()
       blocks.push(
         <h3 key={`h3${key++}`} className="mt-8 font-serif text-xl font-semibold text-slate-900">

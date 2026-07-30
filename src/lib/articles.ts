@@ -74,6 +74,8 @@ Here's the local secret outsiders love: **Jupiter Beach is dog-friendly.** There
 
 For families, **Dubois Park** is a gem, sitting on a calm lagoon so little kids can splash without big waves. And **Carlin Park** gives you beach, tennis and pickleball courts, bocce, and the Seabreeze Amphitheater, where free concerts pop up under the stars.
 
+![Shaded beach boardwalk through sea grape trees in Jupiter, Florida](/images/jupiter/jupiter-003.jpg "Most of Jupiter's beach access points are short shaded walks through sea grape rather than big parking lots — part of why the beaches stay uncrowded.")
+
 ## The river, the lighthouse, and a lot of green
 
 Jupiter isn't only beaches. The **Loxahatchee River** runs right through town, and it's one of only a handful of rivers in the whole country with a "Wild and Scenic" federal designation. You can kayak it, fish it, or just watch for manatees from the bank.
@@ -91,6 +93,8 @@ Summer is the trade-off. June through September is hot, sticky, and humid, with 
 Jupiter is built around the car. You'll drive to the store, drive to the beach, drive to dinner. There's no subway here, and public transit is light.
 
 Traffic is real but manageable — nothing like Miami. The pinch points are **US-1** and **Indiantown Road** during season, when part-timers double the population. A 15-minute drive in August might take 30 in February. The bonus: Palm Beach International Airport is about 30–40 minutes south, so flying home to see family up north is easy.
+
+![Manatee in clear water near the Jupiter inlet](/images/jupiter/jupiter-009.jpg "Manatees move into the calmer water near the inlet and marinas as the water cools — an ordinary winter sight here, not a special occasion.")
 
 ## Food, downtown, and how weekends feel
 
@@ -7002,33 +7006,122 @@ Tequesta is quiet and upscale-casual — beloved local spots and cafés over a b
     secondaryKeywords: ["Jupiter Florida insider tips", "things locals do in Jupiter FL", "moving to Jupiter Florida guide"],
     h1: "A Local's Guide to Jupiter, Florida",
     heroImage: '/images/jupiter/jupiter-waterfront-dining.jpg',
-    body: `Anybody can visit Jupiter. They climb the lighthouse, grab a fish sandwich, and post a sunset. That's the tourist version. Living here is different — it's knowing which beach lot fills first, when to avoid Indiantown Road, and why everyone suddenly cares about sea turtles in June.
+    body: `Anybody can visit Jupiter. They climb the lighthouse, grab a fish sandwich, post a sunset, and go home. That's the tourist version. Living here is different — it's knowing which beach lot fills first, when to avoid Indiantown Road, why everyone suddenly cares about sea turtles in June, and which grocery store to skip entirely in February.
 
-## Get your bearings — four pieces
+This is the orientation we give clients after they close, condensed. It's the stuff that takes most people a year to figure out on their own.
 
-Jupiter makes sense once you picture it in four parts. **The Inlet & beaches** on the eastern edge (the lighthouse, the dog beach, waterfront restaurants, the boats). **Abacoa**, the newer master-planned area with a walkable town center, the baseball stadium, and a college campus. **The river & west**, quieter and greener toward the Loxahatchee and Riverbend Park. And **US-1 and Indiantown Road**, the two main roads everything hangs off of. Learn those two and you'll never feel lost.
+## Get your bearings — the four Jupiters
+
+Jupiter confuses newcomers because it doesn't have one center. It has four distinct areas, and once you can picture them, the whole town clicks into place.
+
+### The Inlet and the beaches
+
+The eastern edge, and the postcard version of town. The lighthouse, the dog beach, the waterfront restaurants, and the boat traffic moving through the inlet. This is where you'll take every visitor who comes to see you, and where you'll still end up on your own Sunday mornings years later.
+
+### Abacoa
+
+The newer master-planned section, built around a walkable town center with restaurants, a baseball stadium, and a college campus. It's the most built-up, most social part of Jupiter, and the closest thing the town has to a place where you can park once and walk all evening.
+
+### The river and the west side
+
+Head inland and it gets quieter and greener fast — toward the Loxahatchee River, Riverbend Park, and eventually the acreage of Jupiter Farms. This is where Jupiter stops feeling coastal and starts feeling like old Florida.
+
+### US-1 and Indiantown Road
+
+Not a neighborhood — the two roads everything hangs off. US-1 runs north-south along the coast; Indiantown Road runs east-west and is how you get from the beach to the highway. Learn these two and you will never be lost in this town again.
+
+![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "The inlet is Jupiter's front door — and the part of town you'll show every visitor you ever have.")
+
+## Two seasons, two completely different towns
+
+Jupiter doesn't have four seasons. It has two, and they change how the town functions.
+
+**November through April** is the reason people move here — warm, dry, sunny, and genuinely close to perfect. It's also crowded. Snowbirds and part-timers arrive, the population swells, restaurants start needing reservations, and Roger Dean Stadium fills up for spring training. Your fifteen-minute drive becomes thirty.
+
+**May through October** is hot, humid, and quiet. The part-timers head north, the beaches feel like yours again, and you can walk into any restaurant on a Friday night. Afternoon storms build, dump hard for twenty or thirty minutes, and clear. Locals plan around them without thinking about it.
+
+Most people who love living here will tell you privately that summer is their favorite season — not because the weather is better, but because the town belongs to residents again.
 
 ## A perfect local day
 
-Coffee and the dog on the sand before the heat. A river paddle or errands (manatees near the inlet in winter). A casual waterfront lunch. Then the afternoon storm builds, dumps for 30 minutes, and clears. And sunset — which is genuinely sacred here. You'll have a favorite spot within a month.
-
-## Two seasons, two towns
-
-**November–April** is gorgeous but crowded — snowbirds arrive, restaurants need reservations, and it's spring-training season at Roger Dean. **Summer** is hotter and quieter; part-timers head north and the beaches feel like yours again.
+Coffee and the dog on the sand before the heat sets in. A paddle on the river or errands knocked out early — manatees show up near the inlet in the cooler months. A casual lunch somewhere with a water view and no dress code. The afternoon storm rolls through and clears. Then sunset, which is treated as genuinely important here. You'll have a favorite spot within a month and you'll get territorial about it.
 
 ## The unwritten rules
 
-Turtle-friendly lighting in nesting season — beachfront properties switch to special amber bulbs along the beach (they don't go dark), spring through fall, so hatchlings aren't disoriented. Let people merge — Jupiter isn't a honking town. The inlet sandbar is a social club where half the town gathers on weekends. And hurricane prep is a group activity — you stock up and check on neighbors.
+Every town has these. Jupiter's are worth knowing before you accidentally break one.
 
-## Settling in
+- **Turtle-friendly lighting is not optional.** During nesting season, roughly spring through fall, beachfront properties switch to special amber bulbs so hatchlings aren't disoriented and drawn away from the ocean. Lights aren't turned off — they're changed. If you buy near the beach, this will apply to you, and the town takes it seriously.
+- **Let people merge.** Jupiter isn't a honking town. Aggressive driving marks you as new faster than anything else.
+- **The sandbar is a social institution.** On warm weekends, boats anchor at the inlet sandbar and half the town wades around visiting each other. You don't need your own boat — you need one friend with a boat.
+- **Hurricane prep is a group activity.** When something's in the forecast, you stock up early and you check on your neighbors. People notice who does and who doesn't.
+- **Sunset is a commitment.** If someone says "we're going to watch the sunset," that's a plan, not a passing remark.
 
-Beyond the famous spots, locals live around the small stuff: green markets in season, the Sunday beach walk, kids' games at Abacoa, a show at the Maltz, a quiet hour at Burt Reynolds Park. Life here orbits the outdoors and the water, not malls or nightlife. Lean that way and within a few months you stop feeling like someone who moved to Jupiter — and start feeling like someone who lives here.`,
+## Getting around without losing your mind
+
+Jupiter is built around the car. There's no meaningful public transit, and outside Abacoa and the Riverwalk, walkability is limited. Plan on driving for essentially everything.
+
+The two pinch points are **Indiantown Road** and **US-1**, and both get significantly worse in season. Locals learn the parallel routes and the timing — avoid Indiantown between about 4 and 6, and give yourself extra margin from January through March. Alternate A1A along the beach when US-1 backs up.
+
+Palm Beach International Airport sits roughly thirty to forty minutes south, which makes flying north to see family straightforward. I-95 and Florida's Turnpike both run through, so getting anywhere else in South Florida is easy — just not always fast in season.
+
+![Jupiter waterway at dusk](/images/jupiter/jupiter-waterway-dusk.jpg "Life here orbits the water — which is also why the town's rhythms revolve around getting outside early and staying out late.")
+
+## Turtle season, explained
+
+From roughly March through October, loggerhead, green, and leatherback turtles nest along this stretch of coast — one of the most significant nesting areas in the country. You'll see marked nests roped off on the beach. Don't disturb them, don't shine white light toward the water at night, and fill in any holes you dig before you leave, because hatchlings fall into them.
+
+Locals genuinely care about this. It's not a tourist-brochure thing here — it's a point of civic pride, and it shapes local ordinances, lighting rules, and even construction timing near the beach.
+
+## Where locals actually spend their time
+
+Beyond the famous spots, day-to-day life here orbits smaller things. Green markets in season. The Sunday morning beach walk. Kids' games and events at Abacoa. A show at the Maltz Jupiter Theatre, which punches far above what a town this size should support. A quiet hour at Burt Reynolds Park watching boats. Riverbend Park when you want to feel like you've left civilization without driving an hour.
+
+What you won't find is a mall-and-nightlife culture. Life here points outdoors and toward the water. People who thrive lean into that; people who fight it tend not to stay.
+
+## Where you'll actually shop and run errands
+
+Jupiter has everything you need day to day, but it's spread along the two main roads rather than concentrated in one place. Grocery stores, pharmacies, and the big-box essentials cluster along Indiantown Road and US-1, and most residents settle into a routine of one or two stores near their side of town.
+
+For serious shopping, the Gardens Mall and the surrounding retail corridor in Palm Beach Gardens is fifteen to twenty minutes south, and that's where most Jupiter residents go for department stores and anything specialized. Downtown West Palm Beach is about half an hour for a bigger night out or a concert.
+
+The practical takeaway: you won't be short of anything, but you will be driving to it, and the drive gets longer in season. Locals compensate by batching errands and going early.
+
+## The Jupiter calendar
+
+A few rhythms worth knowing, because they shape the whole year:
+
+- **January–March:** peak season. Population swells, restaurants need reservations, contractors and services book out weeks ahead, and traffic is at its worst. Beautiful weather, busy town.
+- **February–March:** spring training at Roger Dean Stadium brings a noticeable bump in visitors to the Abacoa area.
+- **March–October:** sea turtle nesting season, with lighting rules and marked nests along the beach.
+- **June–November:** hurricane season. Most of it is uneventful, but preparation is normal life — supplies, a plan, and paying attention when something forms.
+- **May–September:** the hot, quiet stretch. Part-timers head north, restaurants open up, and the beaches feel like they belong to residents again.
+- **Green market season** runs during the cooler months and is a genuine weekend ritual for a lot of households.
+
+If you're timing a move, arriving in the fall gives you the gentlest introduction — you get settled before the crowds and you experience the best weather while you're still figuring the town out.
+
+## Your first ninety days
+
+A short, practical list for new residents:
+
+- **File for Homestead Exemption** if this is your primary residence — there's a deadline early in the year after you buy, and missing it costs you a full year of savings.
+- **Get a wind mitigation inspection** if you didn't get one during the purchase. It frequently pays for itself in insurance credits.
+- **Find your hurricane plan before June.** Know your evacuation zone, your supply list, and what your shutters or impact glass actually require of you.
+- **Set up lawn and pest service.** Things grow year-round here and bugs never fully stop.
+- **Get on the water once in the first month.** Rent a kayak or a paddleboard if you don't have a boat. It's the fastest way to understand why anyone lives here.
+
+## Becoming a local
+
+There's a moment, usually somewhere in the first year, when you stop navigating by GPS and start navigating by landmarks. When you know which beach lot fills first on a Saturday. When you have opinions about the best sunset spot and you'll defend them.
+
+Lean toward the water and the outdoors, be patient in season, and take the turtles seriously. Within a few months you stop feeling like someone who moved to Jupiter and start feeling like someone who lives here.`,
     faqs: [
-      { q: "What do locals do for fun in Jupiter, Florida?", a: "Mostly outdoor, water-based things: beach and dog-beach walks, kayaking the Loxahatchee, boating to the inlet sandbar, sunsets on the Riverwalk, spring-training baseball, and shows at the Maltz Theatre." },
-      { q: "What's the best time of year to live in Jupiter?", a: "November through April has the best weather but the biggest crowds; summer is hotter and stormier but much quieter, with the beaches feeling like your own." },
-      { q: "Is Jupiter, Florida walkable?", a: "Parts are — Abacoa's town center and the Riverwalk/Harbourside area. Overall, though, it's a car-first town." },
-      { q: "Why do people in Jupiter care so much about sea turtles?", a: "Local beaches are active nesting grounds, with rules requiring turtle-safe (amber) beachfront lighting and protecting nests from spring through fall — and it's a point of community pride." },
-      { q: "How do locals deal with summer traffic and heat?", a: "Start early, take back roads instead of US-1 and Indiantown Road during season, and plan around the predictable afternoon thunderstorms." },
+      { q: "What should I know before moving to Jupiter, Florida?", a: "That it's built around the car, that the town has two very different seasons, and that daily life orbits the water and the outdoors rather than shopping or nightlife. Practically: file for Homestead Exemption if it's your primary residence, get a wind mitigation inspection, and have a hurricane plan before June." },
+      { q: "What are the main areas of Jupiter?", a: "Roughly four — the Inlet and beaches on the eastern edge, Abacoa's walkable town center, the quieter river and west side toward Riverbend Park and Jupiter Farms, and the two main roads, US-1 and Indiantown Road, that everything connects to." },
+      { q: "What is season like in Jupiter, Florida?", a: "From roughly November through April the weather is warm, dry, and sunny, but the population swells with part-time residents. Restaurants need reservations and traffic on US-1 and Indiantown Road slows noticeably. Summer is hotter and much quieter." },
+      { q: "What is turtle season in Jupiter?", a: "Roughly March through October, when loggerhead, green, and leatherback turtles nest along the coast. Beachfront properties switch to amber turtle-friendly lighting so hatchlings aren't disoriented, marked nests are protected, and beachgoers are asked to fill in any holes they dig." },
+      { q: "Do you need a car to live in Jupiter?", a: "Essentially yes. Public transit is limited and, outside of Abacoa and the Riverwalk, the town isn't walkable. Most residents drive for groceries, dinner, school, and the beach." },
+      { q: "How bad is traffic in Jupiter, Florida?", a: "Manageable compared to South Florida metros, but real in season. Indiantown Road and US-1 are the pinch points, and a fifteen-minute summer drive can take thirty between January and March." },
+      { q: "How far is Jupiter from the airport?", a: "Palm Beach International Airport is roughly a 30–40 minute drive south, with I-95 and Florida's Turnpike both running through the area." },
     ],
     internalLinks: ["what-its-really-like-living-in-jupiter-florida", "best-things-to-do-in-jupiter-florida", "hidden-gems-in-jupiter-florida"],
     funFact: "The Jupiter Inlet is one of the most productive fishing inlets on the entire East Coast — local captains will tell you the water color change where the clear ocean blue meets the darker Intracoastal green is visible from the air. That mixing zone is why the fishing is so good.",
@@ -7049,41 +7142,117 @@ Beyond the famous spots, locals live around the small stuff: green markets in se
     secondaryKeywords: ["where to live in Jupiter FL", "Abacoa Jupiter", "Jupiter Farms", "family neighborhoods Jupiter FL"],
     h1: "Best Neighborhoods in Jupiter, Florida",
     heroImage: '/images/jupiter/jupiter-luxury-home.jpg',
-    body: `Here's the honest truth: there's no single "best" neighborhood in Jupiter — only the best one for what you need from a home. Dockage, acreage, walkability, and lock-and-leave convenience each point to a different corner of town, and no one of them outranks the others. So instead of ranking them, here they are matched to the priorities you're buying for.
+    body: `Here's the honest truth: there's no single "best" neighborhood in Jupiter — only the best one for what you need from a home. Dockage, acreage, a walkable town center, and lock-and-leave convenience each point to a completely different corner of town, and none of them outranks the others.
 
-## Walkable & young at heart → Abacoa
+So rather than rank them, here they are organized by the objective characteristics buyers actually shop for: property type, price range, lot size, water and golf access, and HOA structure. Use it to narrow where to spend your weekends looking.
 
-Jupiter's "town within a town" — master-planned, with a walkable town center, restaurants, the baseball stadium, and a college campus. Townhomes to single-family homes, and a more built-up, social feel that's the appeal for many.
+## Walkable town center → Abacoa
 
-## Water & a boat → Admirals Cove & Jonathan's Landing
+Jupiter's master-planned "town within a town," built around a walkable center with restaurants, shops, Roger Dean Stadium, and a college campus. Housing runs from townhomes and condos through single-family homes, generally newer construction than most of Jupiter.
 
-The boating-luxury world — gated, with canals, private yacht slips, golf, and big clubhouses. Step off the patio onto your boat. Premium addresses.
+**Objective characteristics:** newer build years, higher density, mixed housing types, active HOA with amenities, walkable to dining and events, no direct water access.
 
-## Room to breathe / horses → Jupiter Farms
+**Trade-offs:** you're closer to neighbors and to activity — which is either the appeal or the dealbreaker. Event traffic on game and concert nights is real.
 
-Rural Jupiter — big lots, acreage, horses, and a country feel, all still part of town. The trade-off is a longer drive to the beach and stores. People who love it really love it.
+## Boat access and dockage → Admirals Cove and Jonathan's Landing
 
-## The beach is the point → the barrier island
+The boating and golf world. Guard-gated communities built around canal systems with private slips, golf courses, and large clubhouses. In parts of these communities you can walk from your patio to your boat.
 
-Beachfront condos along Jupiter Beach trade yard space for direct ocean access, HOA-maintained exteriors, and lock-and-leave convenience.
+**Objective characteristics:** highest price tier, canal or Intracoastal access with dockage, golf, guard gates, substantial HOA dues, and in many cases **mandatory club membership with a one-time initiation fee** on top of dues.
 
-## Classic family life → Egret Landing, Indian Creek & neighbors
+**Trade-offs:** the monthly carrying cost extends well past the mortgage. Confirm membership requirements, initiation, and minimums in writing before you go under contract — this is the single most common surprise we see.
 
-Established neighborhoods built around sidewalks, parks, and community pools, inside the Jupiter-area school zones. Many buyers start their search by school zoning — confirm current boundaries with the district.
+![Waterfront dock in Jupiter, Florida](/images/jupiter/jupiter-pelican-dock.jpg "If dockage is the priority, it narrows the search fast — canal depth, bridge clearance, and slip ownership all vary between communities.")
 
-## Ultra-private luxury → The Bear's Club & Jupiter Inlet Colony
+## Acreage and space → Jupiter Farms
 
-Top-end: a guard-gated Jack Nicklaus golf community built for privacy, and a small, low-density enclave at the tip of the barrier island carrying the area's highest price per square foot.
+Rural Jupiter. Large lots, acreage, room for horses, workshops, and equipment, all still within town limits. Many properties have no HOA at all, which is precisely why people choose it.
 
-## How to choose
+**Objective characteristics:** largest lot sizes in Jupiter, often no HOA, well and septic in many areas rather than municipal water and sewer, agricultural and equestrian uses permitted in much of it.
 
-Ask yourself: walk-to-things or space? Beach, boat, horses, or schools? Lock-and-leave or a yard and a workshop? Your honest answers point straight to the right part of town.`,
+**Trade-offs:** it's a genuine drive to the beach and to stores. Verify well, septic, and any agricultural classification on the specific parcel, and check what's permitted before assuming you can build or keep animals.
+
+## Direct beach access → the barrier island
+
+Condos and a limited number of homes along Jupiter Beach, trading yard space for the ocean out the door.
+
+**Objective characteristics:** condo-dominant, HOA-maintained exteriors, lock-and-leave convenience, highest insurance exposure, oceanfront and ocean-access pricing.
+
+**Trade-offs:** this is where condo due diligence matters most. Since Florida tightened structural reserve requirements for older buildings, some associations have raised dues or levied special assessments. Read the reserve study and the last two years of meeting minutes before you commit.
+
+## Sidewalks, pools, and established streets → Egret Landing, Indian Creek and neighbors
+
+Established single-family neighborhoods built around sidewalks, community pools, and parks — the largest share of Jupiter's housing stock and, for many buyers, the best balance of price and space.
+
+**Objective characteristics:** mostly 1980s through early-2000s construction, single-family, moderate HOA dues, community pools and parks, municipal water and sewer, no direct water access.
+
+**Trade-offs:** roof and AC age matter enormously at these build years, and both drive insurance. Many buyers also start their search here based on school zoning — boundaries and grades are updated annually, so confirm current assignments directly with the School District of Palm Beach County rather than relying on a listing.
+
+![Luxury home in Jupiter, Florida](/images/jupiter/jupiter-luxury-home.jpg "Price per square foot varies more by water access, lot size, and community structure than by any single neighborhood name.")
+
+## Low density and privacy → The Bear's Club and Jupiter Inlet Colony
+
+The top of the market. A guard-gated Jack Nicklaus golf community built around privacy, and a small, low-density municipality at the tip of the barrier island that carries among the highest price per square foot in the area.
+
+**Objective characteristics:** lowest density, highest price tier, guard-gated or municipally policed, golf or ocean-and-Intracoastal access, strict architectural review.
+
+**Trade-offs:** limited inventory means you're often waiting for the right property rather than choosing among several.
+
+## Ocean access without the club → Pennock Point and the river neighborhoods
+
+Between Abacoa and the beach, along the Loxahatchee River and its connected waterways, sits a band of established waterfront and near-waterfront homes that don't carry country-club obligations. Pennock Point is the best-known pocket — large lots on a peninsula with river frontage, no mandatory membership, and a much quieter feel than the gated communities.
+
+**Objective characteristics:** larger lots, river and canal frontage, minimal or no HOA in many pockets, older construction, boat access subject to bridge clearance and canal depth.
+
+**Trade-offs:** older homes mean roof age, seawall condition, and dock permitting all become real diligence items. Verify seawall condition and any dock permits for the specific property — replacing either is expensive.
+
+## Newer construction → Sonoma Isles, Jupiter Country Club and similar
+
+For buyers who want current building codes, newer roofs, and impact glass already installed, Jupiter's newer gated communities in the western part of town are the main option. Building to post-2002 code generally means better insurance outcomes, which matters more than most buyers realize going in.
+
+**Objective characteristics:** newest construction in Jupiter, impact glass and modern roofs standard, gated, resort-style amenities, HOA dues on the higher side, some communities carry CDD assessments.
+
+**Trade-offs:** you're further west, so you're driving to the beach. Check whether a CDD bond is attached to the parcel — it appears on the tax bill separately and can run for decades.
+
+## A rough sense of the price tiers
+
+Precise numbers go stale fast, so check the live market trends on this page for current figures. Directionally, from most accessible to most expensive:
+
+1. **Condos and townhomes** — the entry point, with association dues as the offsetting cost.
+2. **Established inland single-family** — the largest segment, and the widest range.
+3. **Newer gated communities** — a premium for current construction and amenities.
+4. **Acreage in Jupiter Farms** — priced by land as much as by house.
+5. **Golf and boating communities** — the club obligation is part of the real cost.
+6. **Waterfront, oceanfront, and the low-density enclaves** — a separate market, largely cash-driven.
+
+## Renting first is not a bad idea
+
+If you're relocating from out of state and you're torn between two very different parts of town — say, Abacoa versus Jupiter Farms — a season of renting is cheap insurance. Those two areas offer genuinely different daily lives, and the difference is hard to feel on a three-day visit. Try to have August be one of the months you're here.
+
+## How to actually compare them
+
+Neighborhood names get all the attention, but the numbers that decide whether a home works for you are property-specific. For any home you're seriously considering, pin down:
+
+- **HOA dues, and exactly what they include.** Two communities with identical dues can cover wildly different things.
+- **Mandatory club membership** — whether it exists, the initiation amount, and ongoing minimums.
+- **CDD assessment**, if the community carries one. It shows up on the tax bill separately from HOA dues.
+- **FEMA flood zone** for the specific address, and whether your lender will require flood coverage.
+- **Roof age and wind mitigation features.** These swing insurance premiums by thousands between otherwise comparable homes.
+- **Property taxes at a reset assessment**, not the seller's capped bill.
+- **For condos: the reserve study, funding level, and any pending special assessment.**
+
+## Questions worth asking before you commit
+
+Spend a weekday and a weekend evening in any neighborhood you're serious about. Drive the commute you'll actually drive, at the hour you'll actually drive it, in season if you can. Ask how the community handled the last storm. Ask what dues have done over the past five years.
+
+Communities differ on objective characteristics — price, property type, lot size, water and golf access, HOA structure, and location. The right one depends entirely on your budget, your goals, and how you want to spend an ordinary Saturday. We'd encourage you to visit in person and independently verify anything that matters to your decision.`,
     faqs: [
-      { q: "What is the best neighborhood in Jupiter, Florida?", a: "It depends on your lifestyle — Abacoa for walkability, Admirals Cove and Jonathan's Landing for boaters, Jupiter Farms for space and horses, and the barrier island for beach lovers." },
-      { q: "Where do families live in Jupiter, FL?", a: "Established central neighborhoods like Egret Landing and Indian Creek, or master-planned Abacoa — largely for school zoning, sidewalks, and amenities." },
-      { q: "What is Abacoa known for?", a: "Jupiter's walkable, master-planned community with a town center, restaurants, Roger Dean Stadium, and a college campus." },
-      { q: "Is Jupiter Farms a good place to live?", a: "For acreage, privacy, and a rural or equestrian lifestyle, yes — the trade-off is distance from beaches and shopping." },
-      { q: "Can you live near the beach in Jupiter?", a: "Yes — the barrier island and beachfront condos put you within walking distance of the sand." },
+      { q: "What are the best neighborhoods in Jupiter, Florida?", a: "It depends entirely on what you're shopping for. Abacoa offers a walkable town center and newer construction; Admirals Cove and Jonathan's Landing offer dockage and golf; Jupiter Farms offers acreage and often no HOA; the barrier island offers direct beach access; and established neighborhoods like Egret Landing and Indian Creek offer sidewalks, community pools, and the widest range of pricing." },
+      { q: "Which Jupiter neighborhoods have boat dockage?", a: "Admirals Cove and Jonathan's Landing are the best known for canal systems with private slips, and there are waterfront homes along the Intracoastal and connected canals. Canal depth, bridge clearance, and whether the slip conveys with the property all vary — verify for the specific address." },
+      { q: "Does Jupiter Farms have an HOA?", a: "Many properties in Jupiter Farms have no HOA, which is a large part of its appeal. It's characterized by large lots, acreage, equestrian uses in much of the area, and well and septic rather than municipal water and sewer in many locations. Verify specifics for any individual parcel." },
+      { q: "What should I check before buying a condo in Jupiter?", a: "The reserve study, the association's funding level, the last two years of meeting minutes, and whether any special assessment is pending. Florida tightened structural reserve requirements for older buildings, and some associations have raised dues or levied assessments as a result." },
+      { q: "Do Jupiter country club communities require membership?", a: "Several do. Mandatory membership typically involves a one-time initiation fee plus ongoing dues and minimums, separate from HOA dues. Confirm the requirement and the amounts in writing before going under contract." },
+      { q: "How do I check school zoning in Jupiter?", a: "Confirm current assignments directly with the School District of Palm Beach County. Boundaries and school grades are reviewed and updated annually, so listing information may be out of date." },
     ],
     internalLinks: ["what-its-really-like-living-in-jupiter-florida", "cost-of-living-in-jupiter-florida", "who-should-move-to-jupiter-florida"],
     funFact: "Admirals Cove in Jupiter is a gated boating community with its own private marina, golf, and tennis — and its home values have held remarkably steady through multiple market cycles. Waterfront properties there rarely sit long because inventory is tightly controlled.",
@@ -7104,43 +7273,97 @@ Ask yourself: walk-to-things or space? Beach, boat, horses, or schools? Lock-and
     secondaryKeywords: ["what to do in Jupiter FL", "Jupiter Florida attractions", "Jupiter FL beaches and parks"],
     h1: "Best Things to Do in Jupiter, Florida",
     heroImage: '/images/jupiter/jupiter-inlet.jpg',
-    body: `Some towns you visit for one big attraction. Jupiter isn't like that — the "thing to do" here is be outside, on the water, on the sand, under the palms. Here's how a local would tell you to spend your time.
+    body: `Some towns you visit for one big attraction. Jupiter isn't like that. The "thing to do" here is be outside — on the water, on the sand, under the palms — and the best days are the ones you don't plan much.
+
+Still, there's a short list worth working through, whether you're visiting for a weekend or you just moved in and want to feel oriented fast. Here's how a local would tell you to spend your time.
 
 ## Climb the Jupiter Inlet Lighthouse
 
-Start with the icon. From the top you get the inlet, the river, and the Atlantic stretching out forever, plus a small museum at the base. It gives newcomers the whole lay of the land in one look.
+Start with the icon. The red-brick tower has been standing since the 1860s, and from the top you get the inlet, the Loxahatchee River, and the Atlantic stretching out past the horizon. There's a small museum at the base covering the area's history.
 
-## Hit the beaches
+For newcomers this is genuinely the most useful two hours you can spend — you see how all four parts of town fit together in a single look, and the geography stops being confusing.
 
-Jupiter Beach is famously dog-friendly — bring the pup for a morning run. Dubois Park has a calm lagoon for little kids, and Carlin Park stacks beach, tennis and pickleball, bocce, and a beachside amphitheater into one stop.
+## Hit the beaches — and know which one to pick
+
+Jupiter's beaches are not interchangeable, and locals sort them by purpose:
+
+- **Jupiter Beach** is famously dog-friendly, with a long stretch where dogs run off-leash along the shore. Mornings are the ritual.
+- **Dubois Park** sits on a calm lagoon, so small children can splash without dealing with surf. It also holds the DuBois Pioneer Home, a historic house on a shell mound.
+- **Carlin Park** stacks the most into one stop — beach, tennis and pickleball courts, bocce, and the Seabreeze Amphitheater, where free concerts happen under the stars.
+- **Coral Cove Park**, just north on the barrier island, has a shallow rock reef right off the sand — one of the few genuinely easy snorkeling spots in the area at high tide.
+
+![Jet ski near the Jupiter lighthouse](/images/jupiter/jupiter-jet-ski-lighthouse.jpg "The inlet is the center of gravity for everything on the water here — boats, paddleboards, and the sandbar crowd on weekends.")
 
 ## Get on the water
 
-Rent a kayak or paddleboard on the Loxahatchee River — mangroves, manatees in winter, maybe a gator on the bank. Got a boat? The inlet and its sandbar are where the whole town plays on a warm weekend.
+This is the one that matters most. Rent a kayak or paddleboard on the Loxahatchee River and you're immediately into mangroves, wading birds, and — in the cooler months — manatees. There's a decent chance you'll see a gator sunning on the bank, at a comfortable distance.
+
+If you have access to a boat, the inlet and its sandbar are where the entire town plays on a warm weekend. Boats anchor, people wade, and it turns into a floating social event. You don't need your own boat to experience it. You need one friend with a boat.
 
 ## Go wild at Riverbend Park
 
-Paddle, bike, or hike through old, untamed Florida — cypress, palms, quiet water, miles of off-road bike trails, and Seminole War history, all minutes from town.
+Paddle, bike, or hike through old, untamed Florida — cypress, cabbage palms, quiet water, and miles of off-road trails, plus Seminole War history marked along the way. It's minutes from town and feels like an hour away.
+
+Most visitors do the main paddling run. The quieter back trails are where it really pays off.
 
 ## Busch Wildlife Sanctuary
 
-A local favorite, especially with kids — a rescue center where you walk the trails and meet panthers, bald eagles, owls, and gators. Great rainy-morning backup.
+A local institution, and the reliable answer when you have kids and a rainy morning. It's a rescue and rehabilitation center where you walk shaded trails past Florida panthers, bald eagles, owls, bobcats, and alligators — animals that can't be returned to the wild. Genuinely good, and a favorite with residents rather than a tourist trap.
 
-## Eat, drink, and watch the sunset on the water
+## Eat, drink, and watch the sun go down
 
-Guanabanas (banyan trees, string lights), Square Grouper and U-Tiki on the inlet, plus Harbourside Place and the Riverwalk for dining and live music. Time it for sunset.
+Sunset is treated as an event in Jupiter, and most of the social life is waterfront. **Guanabanas** is the iconic one — open-air, under banyan trees and string lights, on the Intracoastal. **Square Grouper** and **U-Tiki Beach** put you right on the inlet with boats drifting past. **Harbourside Place** and the **Jupiter Riverwalk** give you a walkable stretch of restaurants, live music, and a boardwalk along the water.
+
+Time any of it for sunset. That's not a tip so much as the local default.
+
+![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "Plan outdoor time for mornings and evenings in summer — the middle of the day belongs to the heat.")
 
 ## Catch a game or a show
 
-Roger Dean Stadium hosts MLB spring training; the Maltz Jupiter Theatre punches way above its weight with Broadway-caliber productions. And public courses like Abacoa Golf Club welcome every level.
+**Roger Dean Chevrolet Stadium** in Abacoa hosts Major League spring training, and it's a genuinely great small-park experience — close to the field, easy parking, and a completely different feel from a regular-season game in a big stadium.
 
-In summer, plan outdoor stuff for the morning and keep an indoor option — the wildlife sanctuary or theatre — in your back pocket.`,
+The **Maltz Jupiter Theatre** punches dramatically above its weight, staging Broadway-caliber productions in a town this size. Locals treat it as one of the real cultural assets of the area.
+
+For golf, public and semi-private options including Abacoa Golf Club welcome players at every level, so you don't need a club membership to play well here.
+
+## The free list
+
+Some of the best of Jupiter costs nothing:
+
+- **The beaches**, all of them, including the dog stretch.
+- **Jupiter Ridge Natural Area** — trails through rare coastal scrub with a quiet Intracoastal overlook, and almost always empty.
+- **Sawfish Bay Park** — a small park with a boardwalk over the river and an underrated sunset.
+- **The Jupiter Riverwalk** — a boardwalk along the water connecting restaurants and parks.
+- **Burt Reynolds Park** — a quiet hour watching boats move through.
+- **Free concerts at the Seabreeze Amphitheater** in Carlin Park during the cooler months.
+- **Green markets** in season, which function as much as a social event as a shopping trip.
+
+## Day trips within an hour
+
+When you want a change of scenery:
+
+- **Blowing Rocks Preserve** (about 15 minutes north) — a limestone shoreline where winter surf shoots saltwater into the air through the rock. Unlike any other beach in the area.
+- **Peanut Island** (about 25 minutes south) — a snorkeling and boating island in the Lake Worth Inlet with a Cold War-era presidential bunker.
+- **Downtown Stuart** (about 35 minutes north) — a walkable historic downtown with a serious boating culture and a slower pace.
+- **Downtown West Palm Beach and the Norton Museum of Art** (about 30 minutes south) — the area's real urban core, plus the best art museum in the county.
+- **Loxahatchee River upstream by kayak** — technically not a day trip, but the upper stretch feels like a different state entirely.
+
+## Seasonal timing that actually matters
+
+- **Winter (Nov–Apr):** everything is open, the weather is ideal, and everything is crowded. Book restaurants ahead and expect company at the beach.
+- **Summer (May–Oct):** plan outdoor activity for early morning or evening, and always keep an indoor backup — the wildlife sanctuary or the theatre — in your pocket for the afternoon storm.
+- **Turtle nesting season (roughly Mar–Oct):** you'll see marked nests on the beach. Don't disturb them, avoid white light toward the water at night, and fill in any holes you dig.
+
+## The honest local advice
+
+Do the lighthouse once, do the beaches constantly, and get on the water as early in your time here as you can. Everything else on this list is good — but the water is the reason the town exists, and it's the part that turns a visit into a decision to stay.`,
     faqs: [
-      { q: "What is Jupiter, Florida best known for?", a: "Its historic red-brick lighthouse, dog-friendly beach, the Wild and Scenic Loxahatchee River, spring-training baseball at Roger Dean Stadium, and laid-back waterfront dining." },
-      { q: "Is there anything to do in Jupiter when it rains?", a: "Yes — visit the Busch Wildlife Sanctuary, catch a show at the Maltz Jupiter Theatre, explore the lighthouse museum, or enjoy a long lunch at a covered waterfront restaurant." },
-      { q: "Can you kayak in Jupiter, Florida?", a: "Absolutely — the Loxahatchee River and Riverbend Park are top spots for kayaking and paddleboarding, with calm water and beautiful old-Florida scenery." },
-      { q: "Is Jupiter, Florida good for families?", a: "Dubois Park's calm lagoon, the Busch Wildlife Sanctuary, Carlin Park, and the town's beaches and recreation facilities are the main draws, most of them free or low-cost. Verify school assignments with the district." },
-      { q: "What's the best free thing to do in Jupiter?", a: "Spending a morning at the dog-friendly Jupiter Beach or walking the Riverwalk costs nothing and shows off the town at its best." },
+      { q: "What are the best things to do in Jupiter, Florida?", a: "Climb the Jupiter Inlet Lighthouse, spend time at the dog-friendly Jupiter Beach and the calm lagoon at Dubois Park, kayak or paddleboard the Loxahatchee River, explore Riverbend Park, visit Busch Wildlife Sanctuary, catch spring training at Roger Dean Stadium or a show at the Maltz Jupiter Theatre, and watch the sunset from a waterfront restaurant." },
+      { q: "Is there a dog beach in Jupiter, Florida?", a: "Yes. Jupiter Beach has a long dog-friendly stretch where dogs are allowed off-leash along the shore, and walking the dog on the sand in the morning is a daily ritual for many residents." },
+      { q: "Where can you snorkel in Jupiter?", a: "Coral Cove Park, just north on the barrier island, has a shallow rock reef right off the beach — one of the easiest shore-snorkeling spots in the area, best at high tide." },
+      { q: "What is there to do in Jupiter when it rains?", a: "Busch Wildlife Sanctuary, the Maltz Jupiter Theatre, and the lighthouse museum are the usual answers. In summer, afternoon storms typically pass within twenty to thirty minutes, so many residents simply wait them out." },
+      { q: "Which MLB teams have spring training in Jupiter?", a: "Roger Dean Chevrolet Stadium in Abacoa hosts Major League spring training, with two teams sharing the complex. Schedules change year to year — check the stadium directly for the current season." },
+      { q: "What is there to do on the water in Jupiter?", a: "Kayaking and paddleboarding the Loxahatchee River, boating through the inlet, and gathering at the inlet sandbar on weekends. Manatees are commonly seen near the inlet in the cooler months." },
     ],
     internalLinks: ["hidden-gems-in-jupiter-florida", "local-guide-to-jupiter-florida", "best-places-to-eat-drink-hang-out-in-jupiter-florida"],
     funFact: "Roger Dean Chevrolet Stadium is the only spring training facility in Florida that hosts two Major League teams simultaneously — the Miami Marlins and St. Louis Cardinals both train there. Locals buy seats for $12 and sit 15 rows from the field watching All-Stars warm up.",
@@ -7161,43 +7384,109 @@ In summer, plan outdoor stuff for the morning and keep an indoor option — the 
     secondaryKeywords: ["is Jupiter Florida right for me", "should I move to Jupiter FL", "who lives in Jupiter Florida"],
     h1: "Who Should Move to Jupiter, Florida (And Who Shouldn't)",
     heroImage: '/images/jupiter/jupiter-waterway-dusk.jpg',
-    body: `Most "move here!" articles only tell you the good stuff. This one's going to be straight with you — because the worst thing isn't skipping Jupiter, it's moving here and realizing it doesn't fit your life.
+    body: `Most "move here!" articles only tell you the good stuff. This one is going to be straight with you, because the worst outcome isn't skipping Jupiter — it's moving here, buying a house, and realizing eighteen months in that it doesn't fit the life you actually want.
+
+Jupiter is a genuinely great fit for a specific kind of person, and a poor fit for others. Here's how to tell which one you are.
 
 ## You'll love Jupiter if…
 
-**You're happiest near the water.** This is the big one. A beach, a boat, a paddleboard, or a sunset over the Intracoastal — the whole town orbits the water.
+### You're happiest near the water
 
-**You want A-rated school zones.** Jupiter High School and several Jupiter-area elementary and middle schools have carried A grades in Florida's annual school grading system. Grades and boundaries are updated annually — verify current assignments with Palm Beach County Schools.
+This is the big one, and it's not close. A beach, a boat, a paddleboard, a sunset over the Intracoastal — the entire town orbits the water, and its social life, its geography, and its weekend rhythms all assume you want to be near it. People who use the water here are consistently the happiest residents we work with.
 
-**You want warm winters, golf, boating, and healthcare access** — Jupiter Medical Center and multiple specialty campuses are minutes away.
+### You want warm winters and you're done with snow
 
-**You work remotely** and want to trade a gray commute for a porch, palm trees, and the beach at lunch.
+October through May is warm, dry, and sunny. If you're coming from a place with real winters, that first January tends to be the moment the whole move makes sense. Seasonal gloom simply stops being part of your year.
 
-**You golf or boat** — few places pack in this much of both.
+### You work remotely
 
-**You want a slower, friendlier pace** where neighbors wave and the barista learns your order.
+Jupiter is a strong remote-work town — good connectivity, a lifestyle built around being outside, and the ability to trade a gray commute for a porch and a beach at lunch. A large share of the people relocating here now are doing exactly this.
+
+### You golf or boat — ideally both
+
+Few places pack in this much of both within a short drive. Public and semi-private golf is accessible without a club membership, and the inlet gives you real ocean access.
+
+### You're relocating from a high-tax state
+
+Florida has no state income tax. For anyone coming from New York, New Jersey, Connecticut, or Illinois, and for retirees managing retirement account distributions, that's a recurring annual benefit that offsets a real share of the higher housing cost.
+
+![Waterfront dock in Jupiter, Florida](/images/jupiter/jupiter-pelican-dock.jpg "If your ideal weekend involves water, Jupiter is built for you. If it involves a walkable city, it isn't.")
+
+### Healthcare access matters to you
+
+Jupiter Medical Center and several specialty campuses are minutes away. For buyers over 55 this often ranks higher in the final decision than anything about the beach.
+
+### You want a slower pace
+
+Neighbors wave. The barista learns your order. Nobody is in a hurry. If that reads as appealing rather than boring, that's a strong signal.
 
 ## You might want to look elsewhere if…
 
-**You need big-city nightlife and energy** — Jupiter rolls up earlier than nearby West Palm Beach, where you'll find the area's real late-night scene.
+### You need city energy and real nightlife
 
-**You're on a tight budget** — Jupiter is one of the pricier towns in the county.
+Jupiter rolls up early. The waterfront restaurant scene is excellent through dinner and sunset, but the area's genuine late-night scene is in West Palm Beach, twenty-five minutes south. If you'd be driving there most weekends, consider living closer to it.
 
-**You can't stand heat or humidity** — summers are hot, though this stretch of coast has gone many years without a direct hurricane hit.
+### You want a walkable, car-free life
 
-**You want a walkable, car-free life** — outside Abacoa and the Riverwalk, it's built around the car.
+Outside Abacoa's town center and the Riverwalk, this is a driving town with minimal public transit. Groceries, dinner, school, the beach — all drives. This is the trade-off that most often wears on people who moved here from cities.
 
-**You need a dense downtown job market** — Jupiter is more lifestyle-and-remote-work than corporate hub.
+### You're on a tight budget
+
+Jupiter is one of the pricier towns in Palm Beach County, and the carrying cost extends well past the mortgage — insurance, property taxes at a reset assessment, and in many communities HOA dues or mandatory club membership. Neighboring towns and the Treasure Coast offer more room in the budget.
+
+### Heat and humidity genuinely bother you
+
+June through September is hot and humid. Locals shift outdoor life to mornings and evenings and largely stop noticing, but if heat makes you miserable, four months of it every year is a lot to sign up for.
+
+### You need a dense corporate job market
+
+Jupiter skews toward lifestyle, remote work, retirement, small business, and a research and biotech presence. If you need a downtown job market, you'll be commuting south or working remotely.
+
+![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "The honest test: does an ordinary Tuesday here sound like relief, or like boredom?")
+
+## A few specific situations
+
+**Retirees and near-retirees.** Strong fit. Warm winters, single-level homes and lock-and-leave condos, golf and boating, walkable waterfront districts, and hospital access. Pay close attention to insurance costs and condo reserve funding.
+
+**Families relocating.** Jupiter-area school zoning is a common reason people choose the town. Boundaries and grades are reviewed annually — verify current assignments with the School District of Palm Beach County rather than trusting a listing.
+
+**Remote workers in their 30s and 40s.** Probably the fastest-growing group moving here, and Abacoa in particular tends to suit people who want some walkability and social density alongside the water.
+
+**Second-home and seasonal buyers.** Very common here, but understand that non-homestead property carries a different tax profile than a primary residence, without the same caps. Talk to a CPA before you structure the purchase.
+
+## What people miss most from where they came from
+
+Worth knowing before you go, because these come up repeatedly with clients a year in:
+
+- **Walkability.** Far and away the most common. People coming from cities or older Northeast towns miss being able to walk somewhere without planning it.
+- **Real seasons.** A surprising number of transplants miss fall specifically — not winter, just the two good weeks of it.
+- **Density of options.** More restaurants, more culture, more everything within a short radius. Jupiter has quality; it doesn't have volume.
+- **Old friendships.** The move is easier socially than most people expect, since so many residents came from somewhere else, but it's still a rebuild.
+
+None of these are dealbreakers for most people. They're just the things nobody warns you about, and knowing them in advance takes the sting out.
+
+## How long the adjustment takes
+
+Most people we work with describe roughly the same arc. The first few months are pure novelty. Somewhere around month six the practical stuff — insurance renewals, the first big electric bill, learning the traffic — makes it feel like an actual place rather than a vacation. By the end of the first full year, including a summer, you know.
+
+The single best predictor of whether someone stays happy: whether they actually got out on the water in the first few months. The people who bought the kayak, joined the fishing charter, or made friends with a boat owner tend to build a life around the thing that makes this town distinctive. The people who intended to and never did are the ones who start wondering what they're paying for.
 
 ## A simple gut-check
 
-Picture your ordinary Tuesday a year from now. Beach walk, porch work, dinner on the water? You're a Jupiter person. Buzzing downtown, transit, packed nightlife? You'll be happier with more urban energy. No wrong answer — only the right fit.`,
+Forget the brochure version. Picture an ordinary Tuesday a year from now.
+
+Morning walk on the beach with the dog, work from a shady porch, dinner on the water, sunset that you actually stop for? You're a Jupiter person, and you'll probably be happy here for a long time.
+
+Buzzing downtown, walking to a train, dinner at ten, something happening at midnight? You'll be happier somewhere with more urban energy, and there's no shame in that — it's a preference, not a verdict.
+
+There's no wrong answer here. There's only the right fit, and the cost of getting it wrong is high enough to be honest with yourself before you buy. If you're genuinely torn, rent for a season first, and make sure one of the months you're here is August.`,
     faqs: [
-      { q: "Is Jupiter, Florida a good place to move to?", a: "For buyers who want water access, uncrowded beaches, school zoning, and a low-rise coastal setting, it's one of the strongest options in the region. It's less ideal for those wanting big-city nightlife, the lowest cost of living, or a car-free lifestyle." },
-      { q: "Who lives in Jupiter, Florida?", a: "Jupiter housing spans oceanfront and Intracoastal condominiums, waterfront homes with dockage on the Loxahatchee River and Intracoastal, master-planned communities such as Abacoa, gated golf and club communities, and older non-HOA neighborhoods. Town code limits building heights, so there is no high-rise skyline, and the town carries a significant seasonal ownership share." },
-      { q: "Is Jupiter, Florida good for young people?", a: "It can be, especially for those who love the outdoors, boating, and the beach. People seeking dense nightlife may prefer a bigger city." },
-      { q: "Is Jupiter, Florida affordable?", a: "It's one of the pricier towns in Palm Beach County. Buyers on tighter budgets often find more value in nearby inland communities while still enjoying the beaches." },
-      { q: "Is Jupiter a good place to retire?", a: "Jupiter offers warm winters, golf courses, boating with dockage, walkable waterfront districts, lock-and-leave condo options, and Jupiter Medical Center with multiple specialty campuses nearby." },
+      { q: "Who should move to Jupiter, Florida?", a: "People who are drawn to the water, want warm winters, work remotely or are retired, golf or boat, and prefer a slower pace. It's also a common choice for buyers relocating from high-tax states, since Florida has no state income tax." },
+      { q: "Who should not move to Jupiter, Florida?", a: "People who want a walkable, car-free life, need real nightlife and city energy, are on a tight budget, can't tolerate hot humid summers, or need a dense downtown job market. Those aren't flaws in the town — they're just things Jupiter doesn't offer." },
+      { q: "Is Jupiter, Florida good for retirees?", a: "It's a common choice. Warm winters, single-level homes and lock-and-leave condo options, golf and boating, walkable waterfront districts, and Jupiter Medical Center nearby are the features most often cited. Insurance costs and condo reserve funding deserve close attention." },
+      { q: "Is Jupiter, Florida good for remote workers?", a: "Yes — it's one of the fastest-growing groups moving here. Good connectivity, an outdoor-oriented lifestyle, and no state income tax make it attractive, and Abacoa in particular suits people who want some walkability alongside the water." },
+      { q: "Should I rent before buying in Jupiter?", a: "If you're torn, it's worth it — and make sure one of the months you're here is August. The town feels genuinely different in February and August, and experiencing both is the fastest way to know whether it fits." },
+      { q: "Is Jupiter a good place for families?", a: "Jupiter-area school zoning is a common reason people choose the town, along with parks, beaches, and youth sports. Boundaries and school grades are reviewed and updated annually, so verify current assignments directly with the School District of Palm Beach County." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-jupiter-florida", "cost-of-living-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
     funFact: "Several of Jupiter's A-rated elementary schools sit in neighborhoods that are also competitively priced compared to the barrier-island towns just south. That combination is rare on the Palm Beach coast. School grades and boundaries change annually — verify with the district.",
@@ -7219,41 +7508,117 @@ Picture your ordinary Tuesday a year from now. Beach walk, porch work, dinner on
     h1: "Pros and Cons of Living in Jupiter, Florida",
     heroImage: '/images/jupiter/jupiter-pelican-dock.jpg',
     showMarketTrends: true,
-    body: `Every move involves trade-offs. Jupiter's are honest ones — and most people who make them don't regret it. Here's the real picture.
+    body: `Every move involves trade-offs. Jupiter's are honest ones, and most people who make them don't regret it — but "most" isn't "all," and the people who end up unhappy here are almost always the ones who only read the pros.
 
-## The pros — what makes it genuinely worth it
+So here's the real picture, both directions, with enough detail to actually be useful.
 
-**The water.** Not just as a backdrop — as a way of life. The Loxahatchee River, the inlet, the dog beach, the sandbar where the town gathers on weekends. If you're a water person, Jupiter delivers in a way most places can't.
+## The pros
 
-**Eight months of near-perfect weather.** October through May is warm, dry, and sunny — the lifestyle that people from the Northeast relocate for. It's as good as advertised.
+### The water, as a way of life
 
-**Schools that families move here for — and stay for.** Jupiter's school zones are consistently strong. Families put down roots here partly because of them, which also supports long-term home values.
+Not as a backdrop — as the organizing principle of the whole town. The Loxahatchee River, the inlet, the dog beach, the sandbar where half of Jupiter gathers on a warm weekend. If you're a water person, this town delivers something most places genuinely can't: the water is woven into ordinary weekdays, not saved for vacation.
 
-**No state income tax.** For anyone relocating from a high-tax state — or for retirees managing distributions — this is a genuine, recurring financial upside that offsets a lot of the housing premium.
+### Eight months of near-perfect weather
 
-**A town that still feels like a town.** Low buildings, local restaurants, neighbors who wave. It hasn't become a wall of high-rises, and residents work to keep it that way.
+October through May is warm, dry, and sunny. This is the stretch people relocate for, and it's as good as advertised. Winter days in the 70s, low humidity, and enough sun that seasonal gloom simply stops being a factor in your life. If you're coming from the Northeast or the Midwest, that first January here tends to be the moment the move justifies itself.
 
-**Strong real estate.** Limited land and sustained demand make Jupiter one of the more resilient real estate markets in the region.
+### No state income tax
 
-## The cons — what to go in knowing
+Florida has no state income tax, and for anyone relocating from New York, New Jersey, Connecticut, or Illinois — or for retirees managing retirement account distributions — that's a recurring annual benefit that offsets a meaningful share of the housing premium. It's the single most common reason our clients tell us the math worked.
 
-**Home values reflect the lifestyle.** Jupiter sits in one of the most desirable corners of Palm Beach County — established coastal communities and waterfront homes command a premium, though there's a wider range of price points than many expect. Home insurance, like everywhere on Florida's coast, is worth budgeting for early.
+![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "Eight months of the year, being outside is simply the default setting.")
 
-**Summers run warm.** June through September is hot and humid — that's Florida, and Jupiter is no different. The occasional afternoon shower rolls through and clears quickly. If you plan your outdoor time for the mornings and evenings, you'll barely notice.
+### A town that still feels like a town
 
-**You need a car — pretty much always.** Outside Abacoa and the Riverwalk, walkability is limited. Every errand, dinner, and school run is a drive.
+Jupiter has held the line on building heights. There's no wall of glass towers along the sand, which is increasingly unusual in South Florida. You get sky, trees, and low buildings, and residents actively work to keep it that way. Local restaurants outnumber chains along the water. Neighbors wave.
 
-**Quieter after dark.** Jupiter is a morning-and-daytime town. The waterfront restaurant scene is excellent; for a big night out, West Palm Beach is just down the road.
+### Strong school zoning
 
-## The honest bottom line
+Jupiter-area schools have historically graded well in Florida's annual school grading system, and it's a common reason families put down roots. Grades and boundaries are reviewed and updated every year, so verify current assignments directly with the School District of Palm Beach County rather than relying on a listing or an article.
 
-Jupiter offers the water, the weather, the schools, and a town with real character that holds its value. For most people who move here, it's exactly the trade they were looking for.`,
+### A resilient housing market
+
+Limited developable land, height restrictions that prevent added density, and steady demand have made Jupiter one of the more durable markets in the region through multiple cycles. That cuts both ways — it's why prices are high — but for owners it has meant values that hold up.
+
+### Real healthcare access
+
+Jupiter Medical Center and several specialty campuses are minutes away, which matters more to most buyers over 55 than anything about the beach.
+
+## The cons
+
+### It costs more, and insurance is the part people underestimate
+
+Jupiter sits in one of the most desirable corners of Palm Beach County and prices reflect it. But the housing cost isn't usually what derails a budget — it's the stack underneath. Homeowners insurance across coastal Florida has risen sharply, premiums vary by thousands between comparable homes based on roof age and wind mitigation features, and flood coverage is separate from your standard policy. Association dues and mandatory club memberships in some communities add a monthly number that can rival a car payment.
+
+Get real insurance quotes during your inspection period, and budget property taxes at a reset assessment rather than the seller's capped bill.
+
+### Summers are genuinely hot
+
+June through September is hot and humid, full stop. Afternoon storms build and clear quickly, and locals shift outdoor activity to mornings and evenings, but you should be honest with yourself about heat tolerance. Hurricane season runs June through November, and while this stretch of coast has gone long periods without a direct hit, preparation is part of life here — shutters or impact glass, a supply plan, and knowing your evacuation zone.
+
+### You will drive for everything
+
+Outside Abacoa and the Riverwalk, walkability is limited and public transit is minimal. Every errand, dinner, school run, and beach trip is a drive. If a car-free life is important to you, Jupiter will frustrate you.
+
+### In-season crowds are real
+
+From roughly January through March the population swells, restaurants need reservations, contractors get booked out, and your fifteen-minute drive becomes thirty. The quiet coastal town you fell in love with in July is a busier place in February. Most residents adapt; some never stop resenting it.
+
+![Jupiter waterway at dusk](/images/jupiter/jupiter-waterway-dusk.jpg "The trade-off most residents make happily: quieter evenings, in exchange for a town that points at the water instead of a nightlife district.")
+
+### It gets quiet after dark
+
+Jupiter is a morning-and-daytime town. The waterfront restaurant scene is excellent and the sunset culture is real, but if you want energy at midnight you'll be driving to West Palm Beach. For some buyers that's the entire appeal. For others it's the thing that wears thin by year two.
+
+### It's not a corporate job hub
+
+Jupiter skews toward lifestyle, remote work, retirement, and small business. There's a research and biotech presence and a lot of self-employment, but if you need a dense downtown job market you'll be commuting south or working remotely.
+
+### Services and contractors get booked in season
+
+An underrated one. From January through March, contractors, landscapers, pool services, and repair techs are working through a backlog created by part-time residents opening their houses. If your AC fails in February, you wait. Residents learn to schedule anything non-urgent for the summer months, when availability opens up and pricing softens.
+
+### Homeowners insurance can dictate which houses you can even buy
+
+Worth separating from general cost, because it changes your search rather than just your budget. If a home has an older roof, some carriers will decline to write it at all, which means financing becomes difficult and your buyer pool at resale shrinks. Plenty of otherwise appealing houses get eliminated on this basis. Get a quote during your inspection period, not after.
+
+## Things that surprise new residents
+
+A handful of things that catch nearly everyone, in both directions:
+
+- **Property taxes reset after you buy.** The figure on the listing usually reflects the seller's capped assessment. Yours will be based on a reset value. Budget accordingly.
+- **Everything grows relentlessly.** Lawn service and pest control become standing monthly costs, not occasional ones.
+- **The AC runs most of the year**, which shortens equipment life and shows up on the summer electric bill.
+- **Afternoon storms are routine, not events.** They build, dump hard, and clear. You stop rescheduling around them within a month.
+- **The town genuinely empties out in summer** — and most residents come to prefer it.
+- **People are friendlier than expected.** A high share of the population moved here from somewhere else, which makes the town unusually easy to break into socially.
+
+## What changes after year one
+
+The first year is the honeymoon: everything is new, the beach still feels like a vacation, and the winter weather does a lot of heavy lifting.
+
+Year two is when the real assessment happens. You've been through a full summer, a full season, and probably at least one storm scare. This is the point where people either settle in for the long haul or start quietly realizing they'd rather be somewhere walkable.
+
+The residents who make it past that point almost never leave. Jupiter has a notably high rate of people who came for a few years and stayed for decades — which is either reassuring or a warning, depending on how sure you are.
+
+## How to weigh it honestly
+
+The people who are happiest here tend to share a few traits: they genuinely use the water, they can tolerate heat, they don't mind driving, and they did the full cost math before moving rather than after.
+
+The people who struggle usually wanted walkability, nightlife, or a lower cost of living — all reasonable things to want, and all things Jupiter doesn't offer.
+
+## The bottom line
+
+Jupiter offers water access woven into daily life, eight months of exceptional weather, strong school zoning, no state income tax, and a coastal town that has resisted becoming a skyline. In exchange you accept higher carrying costs, hot summers, car dependence, and a busy season.
+
+For most people who make that trade, it's exactly the one they were looking for. Just make it with the full picture in front of you — run the real numbers on taxes, insurance, and association dues for a specific property, and visit in both February and August before you decide.`,
     faqs: [
-      { q: "What are the biggest pros of living in Jupiter?", a: "Beautiful weather most of the year, clean low-rise beaches and the dog beach, A-rated school zones, no state income tax, an outdoor lifestyle, strong real estate, and a genuine small-town feel." },
-      { q: "What is the biggest downside of living in Jupiter?", a: "Cost — it's one of the pricier towns in the county — along with hot, stormy summers, hurricane season, and rising home insurance." },
-      { q: "Is Jupiter worth the cost?", a: "For people who prioritize lifestyle, weather, schools, and the water, most feel it absolutely is. Budget-focused buyers may find better value just inland." },
-      { q: "Is home insurance expensive in Jupiter?", a: "Like all of coastal Florida, it's a real cost that has risen in recent years — get quotes early when budgeting for a home." },
-      { q: "Is Jupiter livable in the summer?", a: "Yes, if you make peace with heat, humidity, and afternoon storms — locals plan outdoor activities for the morning and enjoy the quieter, less-crowded season." },
+      { q: "What are the pros and cons of living in Jupiter, Florida?", a: "The main advantages are water access woven into daily life, eight months of warm dry weather, no state income tax, strong school zoning, low building heights, and a resilient housing market. The main trade-offs are higher housing and insurance costs, hot humid summers with hurricane season, near-total car dependence, busy winter months, and a limited nightlife and corporate job market." },
+      { q: "Is Jupiter, Florida worth the cost?", a: "For most people who move here, yes — but the buyers who feel best about it are the ones who calculated the full carrying cost first, including property taxes at a reset assessment, real insurance quotes, and any HOA or mandatory club fees, rather than looking at the mortgage payment alone." },
+      { q: "What is the biggest downside of living in Jupiter?", a: "Cost is the most common answer, and within cost, insurance is what surprises people most. Premiums have risen across coastal Florida and vary substantially between comparable homes based on roof age, wind mitigation features, and construction year. Car dependence and summer heat are the other two most cited." },
+      { q: "How hot are summers in Jupiter, Florida?", a: "June through September is hot and humid, with afternoon storms that build and clear quickly. Most residents shift outdoor activity to mornings and evenings. Hurricane season runs June through November, so shutters or impact glass and a supply plan are part of normal life here." },
+      { q: "Is Jupiter, Florida walkable?", a: "Only in limited areas. Abacoa's town center and the Harbourside Place and Riverwalk area are walkable, but the rest of the town is built around the car and public transit is minimal." },
+      { q: "Does Jupiter have nightlife?", a: "It has an excellent waterfront restaurant and sunset scene, but it's a morning-and-daytime town that quiets down after dark. For late-night energy, most residents drive to West Palm Beach." },
     ],
     internalLinks: ["cost-of-living-in-jupiter-florida", "who-should-move-to-jupiter-florida", "jupiter-vs-nearby-cities"],
     funFact: "Jupiter has no incorporated 'downtown' — most of its commercial life runs along US-1 and Indiantown Road. That can feel scattered to newcomers, but locals learn to love it because it means no traffic-clogged main street. The water is the town center.",
@@ -7275,33 +7640,131 @@ Jupiter offers the water, the weather, the schools, and a town with real charact
     h1: "Cost of Living in Jupiter, Florida",
     heroImage: '/images/jupiter/jupiter-luxury-home.jpg',
     showMarketTrends: true,
-    body: `Let's be honest up front: Jupiter is not a budget town. It's one of the more desirable addresses in Palm Beach County, and the price tag reflects that. But "expensive" isn't the whole story.
+    body: `Let's be honest up front: Jupiter is not a budget town. It's one of the more desirable addresses in Palm Beach County, and the price tag reflects that. But "expensive" isn't the whole story, and the sticker number on a listing is one of the least useful things you can look at.
 
-## Housing — the big one
+What actually determines whether Jupiter works for your budget is the stack underneath the mortgage — property taxes that reset the year after you buy, insurance that varies by thousands between two houses on the same street, and association fees that range from trivial to larger than a car payment. Most people relocating here get surprised by at least one of those. This is the walkthrough we give clients so they don't.
 
-Housing is where Jupiter costs the most. Home prices and rents sit well above the national average, driven by limited land, school demand, and that low-rise coastal lifestyle — see the live market trends below for current figures. You'll find a wide range, though: condos and townhomes are the entry point, while waterfront and country-club homes run into the millions.
+## Housing — the line item that decides everything
 
-## The tax picture — a real upside
+Housing is where Jupiter costs the most, and it's the number that drives every other number on this page. Prices are pushed up by three things that aren't going away: there's very little developable land left, the town has held the line on building heights so nobody's adding density, and demand from out-of-state buyers has been steady for years.
 
-Here's where Florida gives back: **there's no state income tax.** For retirees, remote workers, and anyone relocating from a high-tax Northeast state, that can offset a lot of the higher housing cost. Property taxes and the Homestead Exemption apply for primary residents.
+Rather than quote a median that'll be stale by the time you read it, look at the **live market trends further down this page** — that pulls from the local MLS. What's more useful here is understanding the tiers, because "the median" hides an enormous spread.
 
-## Home insurance — budget for it
+### The rough tiers of Jupiter housing
 
-Like all of coastal Florida, **homeowners insurance is a significant cost** here, and it's risen in recent years. Get quotes before you fall in love with a house. Flood insurance may apply depending on the zone.
+- **Condos and townhomes.** The entry point into Jupiter, and the only tier where you'll find anything near a Palm Beach County average. Trade-off: association fees are higher and you'll want to look hard at the reserve study.
+- **Inland single-family.** The bulk of Jupiter's housing — established neighborhoods west of US-1, most built from the 1980s onward, many with modest or no HOA.
+- **Gated and country-club communities.** Add a monthly HOA and, in many cases, a mandatory club membership with an initiation fee. This is the tier where the "quiet number" below bites hardest.
+- **Waterfront and Intracoastal.** Ocean access, dockage, and the highest insurance exposure. A different market entirely, largely driven by cash buyers.
+
+![Oceanfront condo building in Jupiter, Florida](/images/jupiter/jupiter-oceanfront-condo.jpg "Condos and townhomes are Jupiter's entry point — but association fees and reserve funding deserve as much scrutiny as the purchase price.")
+
+## The tax picture — better than you think, and more complicated
+
+Here's where Florida gives back: **there's no state income tax.** For retirees drawing down retirement accounts, remote workers, and anyone relocating from New York, New Jersey, Connecticut, or Illinois, that single fact can offset a lot of higher housing cost. It's the most common reason our clients say the math worked.
+
+But property taxes deserve more attention than most buyers give them, because Florida's system has a quirk that catches nearly every out-of-state buyer.
+
+### The tax bill you see is not the tax bill you'll pay
+
+When you're browsing listings, the property tax figure shown usually reflects **the current owner's** bill. If they've owned the home for fifteen years, that number is protected by caps that do not transfer to you. In the year after a sale, the assessed value resets toward market value — and the bill can jump substantially.
+
+Always underwrite your budget against a reset assessment, not the seller's historical bill. The Palm Beach County Property Appraiser publishes an estimator for exactly this, and it's worth ten minutes before you write an offer.
+
+### Homestead Exemption and Save Our Homes
+
+If the home will be your **primary residence**, you can file for Homestead Exemption, which reduces your taxable value. Filing also triggers the **Save Our Homes** cap, which limits how much your assessed value can rise each year regardless of what the market does. Over a long hold, that cap is genuinely valuable — it's a big part of why longtime Florida residents have such low bills.
+
+Two things worth knowing:
+
+- **There's a deadline.** Homestead applications are due to the county early in the year following your purchase. Missing it costs you a full year of savings.
+- **Non-homestead property is capped too, but less generously**, and the cap doesn't apply to school district levies. Second homes and investment properties carry a meaningfully different tax profile than primary residences.
+
+### Portability, if you're already a Florida owner
+
+If you're moving within Florida and selling a homesteaded property, **portability** lets you carry a substantial portion of your accumulated Save Our Homes benefit to your new Jupiter homestead. Buyers relocating from elsewhere in the state routinely leave this on the table simply because nobody told them. There's a separate form, and it has its own timing rules.
+
+Exemption amounts, caps, deadlines, and millage rates are set by the county, the municipality, and the school board, and they change. Verify current figures with the Palm Beach County Property Appraiser and Tax Collector, and talk to a CPA about your specific situation.
+
+## Insurance — the cost that surprises people most
+
+Like all of coastal Florida, **homeowners insurance is a significant line item** here, and it has risen sharply in recent years. This is the expense most likely to blow up an otherwise sound budget, and it's the one buyers investigate last. Reverse that order.
+
+The critical thing to understand: **premiums vary enormously between comparable houses.** Two similar homes on the same block can quote thousands apart. What drives the spread:
+
+- **Roof age and material.** The single biggest factor. An older roof can make a home difficult to insure at any reasonable price, and some carriers decline outright past a certain age.
+- **Wind mitigation features.** Impact windows, hurricane shutters, roof-to-wall connections, and a secondary water barrier all earn credits. A **wind mitigation inspection** is inexpensive and frequently pays for itself many times over — get one.
+- **Construction type and year built.** Homes built to the post-1994 and post-2002 Florida building codes generally insure better.
+- **Distance to the coast** and the specific wind-borne debris region.
+- **Claims history**, both yours and the property's.
+
+### Flood insurance is separate — and not optional the way people assume
+
+Flood is **not** covered by a standard homeowners policy. Whether you're required to carry it depends on the FEMA flood zone and your lender, but plenty of Jupiter homes outside high-risk zones still carry it voluntarily, and rates outside those zones are often reasonable. Pull the flood zone for any specific address before you get attached to it.
+
+### What to actually do
+
+Get real quotes **during your inspection period**, not after. Ask your agent for the property's prior insurance history and any open claims. If the private market won't write it, Citizens Property Insurance is the state-backed option of last resort, but it comes with its own rules and assessment risk. Coverage terms, availability, and pricing change frequently — verify everything with a licensed Florida insurance agent for the specific property.
+
+## HOA, CDD, and club fees — the quiet monthly number
+
+This is the number that quietly reshapes budgets. Depending on the community, monthly obligations can range from nothing at all to more than a car payment.
+
+- **HOA dues** vary widely by what's included — some cover only common-area landscaping, others bundle cable, internet, exterior maintenance, and guarded gates.
+- **Mandatory club membership.** In several Jupiter-area country-club communities, membership isn't optional. There's typically a one-time initiation fee plus ongoing dues and minimums. Ask early — this surprises people badly.
+- **CDD assessments.** Some newer developments carry a Community Development District bond that appears on the tax bill, separate from HOA dues.
+- **Condo reserves and assessments.** Since Florida tightened its structural reserve requirements for older condo buildings, some associations have raised dues or levied special assessments. Read the reserve study and the last two years of meeting minutes. This is not optional homework.
 
 ## Everyday costs
 
-Utilities and groceries run close to the Florida average. Dining out trends higher, especially at the waterfront spots. You'll own a car and pay for gas and insurance, but without a toll-heavy big-metro commute.
+Utilities and groceries run close to the Florida average. Electric is your swing cost — summer air conditioning is the whole ballgame, and a poorly insulated house with an aging AC unit will show up on your bill from June through September. Water and sewer are modest.
+
+![Waterfront dining in Jupiter, Florida](/images/jupiter/jupiter-waterfront-dining.jpg "Waterfront dining is a real part of the Jupiter lifestyle — and a real part of the monthly budget, especially in season.")
+
+Dining out trends higher than the state average, particularly at the waterfront spots that make up so much of the social life here. In-season, expect both higher prices and longer waits. Locals adapt by eating out on weeknights and treating January through March as the season to cook at home.
+
+You'll own a car and pay for gas and auto insurance — Florida auto premiums run above the national average — but you're not dealing with a toll-heavy big-metro commute, and most daily errands stay within a fifteen-minute radius.
+
+## The costs nobody warns you about
+
+A few line items specific to living here that rarely make it into a cost-of-living calculator:
+
+- **Lawn and pest service.** Things grow year-round and bugs never really stop. Most households budget for both as a standing monthly cost.
+- **Hurricane prep.** Shutters or impact glass if the home doesn't have them, plus a generator if you want one. Mostly one-time, but real.
+- **Boat ownership.** Not a requirement, but a genuine temptation here. Dockage, storage, maintenance, and insurance add up quickly.
+- **AC replacement.** Units work hard in this climate and don't last as long as they would up north. If the system is aging, price the replacement into your offer.
+- **Seasonal price drift.** Contractors, restaurants, and services are busier and pricier from January through March.
+
+## Running your own number
+
+Before you decide whether Jupiter works, build the full monthly figure for a **specific address**, not a general one:
+
+- Mortgage principal and interest
+- Property taxes **at a reset assessment**, with homestead applied if it's your primary residence
+- Homeowners insurance, quoted for real
+- Flood insurance, if applicable
+- HOA or condo dues, plus any club membership and initiation
+- CDD assessment, if any
+- Electric, water, internet
+- Lawn, pest, and pool service
+
+Then set that against what you're leaving behind — including the state income tax you'll stop paying. For a lot of our clients relocating from the Northeast, that last line changes the answer entirely.
 
 ## The bottom line
 
-Jupiter costs more than the U.S. average — mostly housing and insurance — but no state income tax and strong, stable home values soften the blow. People who move here generally feel they're paying for something real: the lifestyle, the schools, and a town that holds its value.`,
+Jupiter costs more than the U.S. average, and most of the gap is housing and insurance. What offsets it is real: no state income tax, a homestead cap that rewards staying put, and a town whose values have held up through several cycles because they genuinely aren't building more of it.
+
+The people who feel good about the cost here are the ones who ran the whole number before they moved — taxes at reset, insurance quoted, association fees confirmed — instead of the mortgage payment alone. Do that math honestly and you'll know quickly whether this is your town.`,
     faqs: [
-      { q: "How expensive is it to live in Jupiter, Florida?", a: "Above the national average, driven mainly by housing and insurance, though no state income tax and stable home values help offset it." },
-      { q: "What is the median home price in Jupiter?", a: "It's well above the national average and varies widely by area and home type — check the live market trends on this page for the current figure." },
+      { q: "How expensive is it to live in Jupiter, Florida?", a: "Above the national average, driven mainly by housing and insurance, though no state income tax and stable home values help offset it. The full monthly figure depends heavily on the specific property — taxes, insurance, and association fees vary widely between comparable homes." },
+      { q: "What is the median home price in Jupiter?", a: "It's well above the national average and varies widely by area and home type — check the live market trends on this page for the current figure. The median hides a large spread between condos, inland single-family homes, country-club communities, and waterfront." },
       { q: "Does Jupiter have a state income tax?", a: "No — Florida has no state income tax, a major draw for retirees, remote workers, and those relocating from higher-tax states." },
-      { q: "Why is home insurance high in Jupiter?", a: "Coastal location drives homeowners and wind/flood insurance costs across South Florida; it has risen in recent years, so get quotes early." },
-      { q: "Is Jupiter worth the higher cost of living?", a: "For most who move here, yes — they feel they're paying for the lifestyle, the schools, and a town that holds its value." },
+      { q: "Why is home insurance high in Jupiter?", a: "Coastal location drives homeowners and wind/flood insurance costs across South Florida, and rates have risen in recent years. Premiums vary substantially by roof age, wind mitigation features, construction year, and distance to the coast — so get quotes during your inspection period rather than after." },
+      { q: "Will my property taxes match what's listed on the home?", a: "Usually not. The tax figure shown on a listing typically reflects the current owner's bill, which may be protected by caps that don't transfer to a new buyer. Assessed value generally resets toward market value in the year after a sale, so budget against a reset assessment and verify with the Palm Beach County Property Appraiser." },
+      { q: "What is the Homestead Exemption and how does it help?", a: "If the home is your primary residence, filing for Homestead Exemption reduces your taxable value and triggers the Save Our Homes cap, which limits annual increases in assessed value. There's a filing deadline early in the year after purchase, and amounts and rules are set by the state and county — verify current figures with the county." },
+      { q: "Do I need flood insurance in Jupiter?", a: "It depends on the property's FEMA flood zone and your lender's requirements. Flood is never covered by a standard homeowners policy. Many owners outside high-risk zones carry it voluntarily, often at reasonable rates. Pull the flood zone for the specific address before making an offer." },
+      { q: "What are HOA and club fees like in Jupiter?", a: "They range from nothing to more than a car payment depending on the community. Some country-club communities require mandatory membership with a one-time initiation fee plus ongoing dues, and some newer developments carry a CDD assessment on the tax bill. Confirm all of it in writing before going under contract." },
+      { q: "Is Jupiter worth the higher cost of living?", a: "For most who move here, yes — they feel they're paying for the lifestyle, the water access, and a town that holds its value. The buyers who feel best about it are the ones who calculated taxes at reset, quoted insurance, and confirmed association fees before moving, rather than looking at the mortgage payment alone." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-jupiter-florida", "best-neighborhoods-in-jupiter-florida", "jupiter-vs-nearby-cities"],
     funFact: "Jupiter's median home price has roughly doubled since 2019, but it still runs below comparable beach towns in Miami-Dade and Broward. The no-state-income-tax math is especially meaningful for buyers relocating from New York, New Jersey, or Connecticut — the savings can offset several years of higher housing costs.",
@@ -7322,28 +7785,90 @@ Jupiter costs more than the U.S. average — mostly housing and insurance — bu
     secondaryKeywords: ["Jupiter Florida secret spots", "free things to do in Jupiter", "local favorites Jupiter FL"],
     h1: "Hidden Gems in Jupiter, Florida",
     heroImage: '/images/jupiter/jupiter-inlet.jpg',
-    body: `Everybody finds the lighthouse and the dog beach in week one. The real Jupiter reveals itself slowly. Here are the spots locals love that newcomers usually miss.
+    body: `Everybody finds the lighthouse and the dog beach in week one. Those are the headliners, and they earn it. But the Jupiter that actually makes people stay reveals itself slowly — in small parks nobody photographs, a reef you can swim to from the sand, and a boardwalk that dead-ends at the most underrated sunset in town.
 
-**Coral Cove Park (snorkeling reef).** Just up on the barrier island, Coral Cove has a shallow rock reef right off the beach — one of the few easy snorkeling spots around, full of fish at high tide.
+Here's the list locals actually use. Most of it is free.
 
-**Jupiter Ridge Natural Area.** A quiet preserve with trails through rare coastal scrub and a hidden overlook of the Intracoastal — peaceful, free, and almost always empty.
+## Coral Cove Park — snorkeling without a boat
 
-**The DuBois Pioneer Home.** Tucked inside Dubois Park, this little historic home on a shell mound tells the story of old pioneer Jupiter, right on the water.
+Just north on the barrier island, Coral Cove has something genuinely rare on this coast: a shallow limestone and rock reef sitting right off the beach, close enough to swim to in a few minutes. At high tide with calm water, it fills with fish and the visibility can be excellent.
 
-**Sawfish Bay Park.** A small, easy-to-miss park with a boardwalk over the river — a local sunset secret without the crowds.
+**Local tip:** go at high tide, and check conditions before you commit. When the surf is up, the same rocks that make it special make it a bad idea. Bring water shoes — the rock is sharp.
 
-**Blowing Rocks Preserve.** A short hop north, this limestone shoreline shoots saltwater into the air when the surf's up in winter — wild and unlike any other beach around.
+## Jupiter Ridge Natural Area — the preserve nobody visits
 
-**The sandbar at the inlet.** Not a place you find on a map — it's where boaters anchor and wade on weekends. Make a boat friend and you're in.
+A quiet preserve with trails through coastal scrub, one of Florida's rarer and more threatened habitats, plus a hidden overlook of the Intracoastal. It sits right off a busy road and is almost always empty.
 
-**Riverbend Park's back trails.** Most people kayak the main run; the quieter side trails feel like stepping a century back in time.
+It's not dramatic. It's just genuinely peaceful, five minutes from town, and free. Go early — there's limited shade and it gets hot fast.
 
-These are the places that turn a new resident into a local — free or cheap, off the tourist circuit, and the answer when someone asks what it's really like here.`,
+![Shaded beach boardwalk through sea grape trees in Jupiter, Florida](/images/jupiter/jupiter-003.jpg "The best beach access points in Jupiter are the ones you have to know about — shaded, quiet, and no parking lot in sight.")
+
+## The DuBois Pioneer Home
+
+Tucked inside Dubois Park, this small historic home sits on top of an ancient shell mound left by the Jeaga people, with the inlet right there. It tells the story of pioneer-era Jupiter in about twenty minutes.
+
+Most families go to Dubois Park for the calm lagoon and never walk the extra hundred yards. Worth doing once, especially with kids who've hit their limit on the beach.
+
+## Sawfish Bay Park — the sunset locals don't advertise
+
+A small, easy-to-miss park with a boardwalk over the water near the river. No crowds, no parking hassle, and a genuinely beautiful sunset. Longtime residents are mildly protective of it, which tells you what you need to know.
+
+## Blowing Rocks Preserve
+
+A short hop north onto Jupiter Island. When winter surf hits the limestone shoreline just right, water shoots up through holes in the rock in plumes. It looks nothing like any other beach in the area — dark rock instead of white sand, dramatic instead of gentle.
+
+**Local tip:** it's tide- and surf-dependent. Go at high tide during winter when there's swell, or you'll see interesting rocks and no show. Parking is limited and it's a Nature Conservancy preserve, so there's a modest admission.
+
+## The sandbar at the inlet
+
+Not a place you'll find on a map — it's a shallow spot near the inlet where boats anchor on warm weekends and people wade around visiting each other. It functions as the town's outdoor living room.
+
+You don't need your own boat. You need one friend with a boat, and in Jupiter that's a solvable problem within a few months.
+
+![Manatee in clear water near the Jupiter inlet](/images/jupiter/jupiter-009.jpg "Manatees show up near the inlet and the marinas in the cooler months — one of the genuine perks of living on this water.")
+
+## Manatees near the inlet in the cooler months
+
+Not a location so much as a season. As the water cools, manatees move into the warmer, calmer water near the inlet and the marinas. You can often spot them from a dock or a seawall without any special effort.
+
+Give them room, don't feed them, and don't chase them with a paddleboard — they're protected, and locals will let you know.
+
+## Riverbend Park's back trails
+
+Most people paddle the main run of the Loxahatchee and call it a day. The quieter side trails — on foot or on a bike — get you into cypress and palm hammock that feels genuinely untouched. There's Seminole War history marked along the way, and long stretches where you won't see another person.
+
+## Burt Reynolds Park
+
+A modest waterfront park that most people drive past. It's a good place to sit and watch boats work through the Intracoastal, and it's where a lot of residents end up when they want twenty quiet minutes without a plan.
+
+## Green markets in season
+
+During the cooler months, local green markets function as much as a social institution as a place to buy produce. It's where you run into neighbors, and for new residents it's one of the easiest low-effort ways to start feeling connected to the town.
+
+## Jupiter Inlet Lighthouse Outstanding Natural Area
+
+Most people climb the lighthouse and leave. The surrounding natural area has trails through coastal hammock and along the water that almost nobody walks, with views back across the inlet that you won't get from the tower.
+
+It's a good pairing — do the climb, then spend another half hour on the trails while everyone else drives off.
+
+## The Jupiter Inlet jetty at dawn
+
+Not a secret exactly, but a different experience depending on when you go. At sunrise the jetty is quiet, the light is good, and it's mostly anglers and a few walkers. Later in the day it's a completely different, much busier place.
+
+If you're new here and trying to understand why people love this town, an early morning on the jetty does more work than any article can.
+
+## Why these matter more than the headliners
+
+The lighthouse is worth climbing. The dog beach is worth the ritual. But the places on this list are the ones that turn a new arrival into a resident — they're free or cheap, they're off the tourist circuit, and they're the honest answer when a friend asks what it's actually like to live here.
+
+Work through a few of them in your first few months. They're also the fastest way to figure out which part of town you want to live in, which is a decision most people make on far less information than this.`,
     faqs: [
-      { q: "What is Jupiter, Florida's best-kept secret?", a: "Spots like Coral Cove Park's snorkeling reef, Jupiter Ridge Natural Area, and Sawfish Bay Park — quiet, mostly free local favorites that newcomers tend to miss." },
-      { q: "Where is the best snorkeling in Jupiter?", a: "Coral Cove Park on the barrier island has a shallow rock reef right off the beach, great for easy snorkeling at high tide." },
-      { q: "What are free things to do in Jupiter?", a: "Walking the dog beach, exploring Jupiter Ridge Natural Area and Sawfish Bay Park, and catching a sunset on the Riverwalk all cost nothing." },
-      { q: "Where is the best quiet sunset spot in Jupiter?", a: "Sawfish Bay Park's riverside boardwalk is a local favorite for a peaceful sunset away from the crowds." },
+      { q: "What are the hidden gems in Jupiter, Florida?", a: "Coral Cove Park's shore-accessible snorkeling reef, Jupiter Ridge Natural Area, the DuBois Pioneer Home in Dubois Park, Sawfish Bay Park's boardwalk sunset, Blowing Rocks Preserve just north on Jupiter Island, the inlet sandbar, and the quieter back trails at Riverbend Park." },
+      { q: "Where can you snorkel from the beach in Jupiter?", a: "Coral Cove Park on the barrier island has a shallow rock reef close enough to swim to from the sand. Go at high tide with calm conditions, wear water shoes, and skip it when the surf is up." },
+      { q: "What are free things to do in Jupiter, Florida?", a: "Most of the best of it — the beaches including the dog stretch, Jupiter Ridge Natural Area, Sawfish Bay Park, Burt Reynolds Park, the Riverwalk boardwalk, and green markets in the cooler months." },
+      { q: "Where can you see manatees in Jupiter?", a: "Manatees commonly move into the warmer, calmer water near the inlet and the marinas during the cooler months, and can often be seen from docks and seawalls. They're protected — give them space and don't feed or follow them." },
+      { q: "Is Blowing Rocks Preserve worth visiting?", a: "Yes, but time it. The limestone shoreline sends plumes of water into the air when winter surf hits at high tide. Outside those conditions you'll see an interesting rock shoreline without the show. Parking is limited and there's a modest admission." },
+      { q: "What is the sandbar in Jupiter?", a: "A shallow area near the inlet where boats anchor on warm weekends and people wade and socialize. It functions as an informal gathering spot for much of the town and isn't marked as a destination on maps." },
     ],
     internalLinks: ["best-things-to-do-in-jupiter-florida", "local-guide-to-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
     funFact: "Riverbend Park in Jupiter is 685 acres of Florida wilderness that feels like the backcountry — canoe trails, equestrian paths, and alligator sightings — yet it's minutes from a Publix. Most newcomers drive past it for years before someone finally takes them.",
@@ -7365,32 +7890,100 @@ These are the places that turn a new resident into a local — free or cheap, of
     h1: "Jupiter vs Nearby Cities: How to Choose",
     heroImage: '/images/jupiter/jupiter-lighthouse-sunset.jpg',
     showMarketTrends: true,
-    body: `Relocating to the area but not sure Jupiter specifically is the one? Here's an honest, neighborly comparison of Jupiter against the towns right around it.
+    body: `You've narrowed it to this stretch of coast but not to a town. That's the right place to be — the towns between Palm Beach Gardens and Stuart are genuinely different from each other, and picking wrong costs you real money and a year of your life.
+
+Here's an honest comparison of Jupiter against each of its neighbors, and a framework for deciding at the end.
 
 ## Jupiter vs Palm Beach Gardens
 
-Palm Beach Gardens is more polished and planned — gated golf communities, the Gardens Mall, big medical campuses, and slightly inland. Jupiter is beachier, funkier, and more outdoorsy. Choose PBG for refined convenience and shopping; choose Jupiter for the water and a looser vibe.
+**Palm Beach Gardens** is more planned and more polished. Gated golf communities, the Gardens Mall and a substantial retail corridor, major medical campuses, and a slightly inland position. Housing skews toward newer construction and master-planned communities.
+
+**Jupiter** is beachier, looser, and more outdoors-oriented, with more water access and more variation in housing stock.
+
+**Choose Palm Beach Gardens if:** you want shopping and services at hand, prefer newer construction and planned communities, work in the medical or corporate corridor, or golf is your primary activity.
+
+**Choose Jupiter if:** you want the beach and the inlet in your daily life, prefer a town that feels less manicured, or want boating access.
+
+**Practical note:** Palm Beach Gardens is generally a shorter drive to PBI airport and to West Palm Beach.
+
+![The Jupiter lighthouse across the inlet with docks and a tour boat](/images/jupiter/jupiter-021.jpg "Jupiter's inlet and lighthouse are the practical difference between it and its inland neighbors — the water is part of ordinary life, not a drive away.")
 
 ## Jupiter vs Juno Beach
 
-Juno is Jupiter's smaller, quieter neighbor right on the ocean — fewer restaurants, a tighter footprint, and barrier-island pricing. Pick Juno if you want sleepy and beach-first; pick Jupiter if you want more to do and more housing variety.
+**Juno Beach** is Jupiter's smaller, quieter neighbor directly on the ocean — a compact barrier-island town known for sea turtle conservation and the Loggerhead Marinelife Center. Fewer restaurants, a much smaller footprint, and condo-heavy housing near the sand.
+
+**Choose Juno Beach if:** you want beach-first living in a very small town, are comfortable with a condo, and don't need much nightlife or variety.
+
+**Choose Jupiter if:** you want more restaurants, more housing types, more to do, and options that aren't on the barrier island.
 
 ## Jupiter vs Tequesta
 
-Tequesta is a tiny, leafy village just north, sharing Jupiter's schools and waterways with an even quieter, tucked-away feel. Great for peace and small-town charm; Jupiter wins on amenities and energy.
+**Tequesta** is a small, leafy village immediately north, sharing much of Jupiter's geography and waterways with an even quieter, more tucked-away character. Established neighborhoods, mature trees, and a village feel.
 
-## Jupiter vs Stuart (Treasure Coast)
+**Choose Tequesta if:** quiet and small-scale is the point, and you don't mind driving into Jupiter for most amenities.
 
-Head north to Stuart and your dollar stretches further — more affordable homes, a charming historic downtown, and serious boating culture, but a slower pace and a longer trip to Palm Beach. Choose Stuart for value and quiet; Jupiter for being closer to the action.
+**Choose Jupiter if:** you want more restaurants, more retail, and more happening within your own town.
 
-## How to decide
+The two are close enough that many buyers search both simultaneously, which is a reasonable strategy.
 
-Rank what matters most: **price** (Stuart and inland win), **beach access** (Juno, Jupiter), **shopping/convenience** (Palm Beach Gardens), **quiet** (Tequesta, Stuart), or **all-around lifestyle** (Jupiter's sweet spot). There's a right fit for everyone — Jupiter just happens to balance the most of them.`,
+## Jupiter vs North Palm Beach and Singer Island
+
+**North Palm Beach** offers Intracoastal access and established neighborhoods at generally more accessible pricing than Jupiter's waterfront, with a village feel and a well-known municipal golf course. **Singer Island** is a barrier island with a condo-dominant, oceanfront-heavy market.
+
+**Choose these if:** you want to be closer to West Palm Beach and the airport, or you want oceanfront condo living at a different price point.
+
+**Choose Jupiter if:** you want more single-family options and a less condo-driven market.
+
+## Jupiter vs Hobe Sound and Port Salerno
+
+Head north into Martin County and the pace slows further. **Hobe Sound** is quiet and low-key with significant conservation land nearby. **Port Salerno** has a genuine working-waterfront and fishing-village character.
+
+**Choose these if:** you want more space and a lower cost basis, and you're comfortable being further from Palm Beach County amenities.
+
+**Choose Jupiter if:** you want more services, more dining, and a shorter drive south.
+
+**Practical note:** Martin County is a different county — different school district, different property appraiser, different millage rates. Verify all of it separately rather than assuming Palm Beach County figures carry over.
+
+![Oceanfront condo building in Jupiter, Florida](/images/jupiter/jupiter-oceanfront-condo.jpg "Condo-heavy markets like Singer Island and Juno Beach behave differently from Jupiter's mix — association health matters as much as the unit itself.")
+
+## Jupiter vs Stuart
+
+**Stuart**, up in Martin County, is the value play. Your dollar goes noticeably further, there's a charming and genuinely walkable historic downtown, and the boating culture is serious. The trade-off is distance — you're further from Palm Beach County, PBI airport, and the density of options to the south.
+
+**Choose Stuart if:** budget matters, you want a walkable downtown, and you're happy trading proximity for value and quiet.
+
+**Choose Jupiter if:** you want to stay closer to the action and to Palm Beach County services.
+
+## How to actually decide
+
+Rank these five in order of what matters to you, then let the ranking pick the town:
+
+1. **Budget.** Stuart, Port Salerno, and inland areas stretch further. Jupiter and the barrier islands don't.
+2. **Water access.** Jupiter, Juno Beach, and Singer Island for beach; Jupiter, Stuart, and Port Salerno for serious boating.
+3. **Shopping, services, and healthcare.** Palm Beach Gardens leads clearly.
+4. **Quiet.** Tequesta, Hobe Sound, and Stuart.
+5. **Overall balance.** This is where Jupiter tends to win — it's rarely the top choice on any single axis, but it's usually second on most of them.
+
+That last point is the honest summary. If one factor dominates your decision, another town probably beats Jupiter on it. If you want the best combination of beach, boating, dining, services, and a town that still feels like a town, Jupiter is where most people land.
+
+## A note on comparing costs across these towns
+
+Sticker price is the least reliable way to compare these towns, because the carrying costs diverge more than the purchase prices do.
+
+Insurance varies by distance to the coast and by construction, so a barrier-island condo and an inland single-family home at the same price can carry very different premiums. Association obligations differ enormously — a Stuart neighborhood with no HOA and a Jupiter golf community with mandatory membership are not comparable monthly commitments. And crossing from Palm Beach County into Martin County changes the millage rate, the school district, and the property appraiser you'll be dealing with.
+
+Run the full monthly number for a specific address in each town you're considering, rather than comparing list prices. It reorders people's rankings more often than not.
+
+## Before you commit
+
+Whichever way you're leaning, do three things: drive the actual commute at the actual hour, spend a weekend evening in the town rather than an afternoon, and visit in both February and August. Market conditions, taxes, insurance, and school assignments vary meaningfully between these towns and counties — verify the specifics for any address you're serious about.`,
     faqs: [
-      { q: "Jupiter or Palm Beach Gardens — which is better?", a: "Palm Beach Gardens is more polished, golf-and-shopping focused, and slightly inland; Jupiter is beachier and more outdoorsy. It comes down to refined convenience versus the beach-town lifestyle." },
-      { q: "Jupiter vs Juno Beach?", a: "Juno Beach is smaller, quieter, and right on the ocean; Jupiter is bigger with more dining, shopping, and housing variety." },
-      { q: "Is Stuart or Jupiter more affordable?", a: "Stuart, on the Treasure Coast, generally stretches your dollar further, while Jupiter is pricier but closer to Palm Beach County's action." },
-      { q: "Which nearby town is the quietest?", a: "Tequesta and the Treasure Coast towns like Stuart tend to be the quietest, while Jupiter offers more energy and amenities." },
+      { q: "Is Jupiter or Palm Beach Gardens better?", a: "They suit different priorities. Palm Beach Gardens offers more shopping, major medical campuses, newer planned communities, and a shorter drive to the airport. Jupiter offers more beach and inlet access, more varied housing stock, and a less manicured feel." },
+      { q: "Is Jupiter or Stuart cheaper?", a: "Stuart generally offers more house for the money, along with a walkable historic downtown and strong boating culture. The trade-off is distance from Palm Beach County amenities and the airport. Stuart is also in Martin County, so school district, property appraiser, and millage rates all differ." },
+      { q: "What is the difference between Jupiter and Juno Beach?", a: "Juno Beach is much smaller, sits directly on the barrier island, and is condo-heavy with fewer restaurants and amenities. Jupiter is larger with more housing types, more dining, and options both on and off the island." },
+      { q: "Is Tequesta a good alternative to Jupiter?", a: "For buyers who want quiet, Tequesta is a small village just north that shares much of Jupiter's geography and waterways with a more tucked-away feel. You'll drive into Jupiter for most amenities. Many buyers search both towns at once." },
+      { q: "Which town near Jupiter is best for boating?", a: "Jupiter, Stuart, and Port Salerno all have strong boating cultures. Jupiter offers direct inlet access, Stuart has serious marine infrastructure and better value, and Port Salerno retains a working-waterfront character." },
+      { q: "Should I consider Martin County instead of Palm Beach County?", a: "It's worth considering for value and quiet, but understand it's a different county — separate school district, property appraiser, and millage rates. Verify taxes, insurance, and school assignments independently rather than assuming Palm Beach County figures apply." },
     ],
     internalLinks: ["cost-of-living-in-jupiter-florida", "pros-and-cons-of-living-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
     funFact: "The drive time difference between Jupiter and central Miami is about 90 minutes on a good day — locals who want a true city fix drive down for the night and come back. The people who move here have usually already done the Miami chapter and are ready for a different pace.",
@@ -7411,38 +8004,89 @@ Rank what matters most: **price** (Stuart and inland win), **beach access** (Jun
     secondaryKeywords: ["where to eat in Jupiter FL", "Jupiter waterfront restaurants", "Guanabanas Jupiter"],
     h1: "Best Places to Eat, Drink & Hang Out in Jupiter, Florida",
     heroImage: '/images/jupiter/jupiter-waterfront-dining.jpg',
-    body: `In Jupiter, where you eat is half the lifestyle. The best meals come with a water view, a breeze, and no rush. Here's the local rundown.
-## On the water (the classics)
+    body: `In Jupiter, where you eat is half the lifestyle. The best meals here come with a water view, a breeze, and no particular hurry — and the town's social life is organized around the waterfront rather than a downtown strip.
 
-- **Guanabanas** — the iconic one. Open-air, banyan trees, string lights, right on the Intracoastal. Equal parts restaurant and Jupiter institution.
-- **Square Grouper** — a true tiki bar on the inlet, famous for sunsets, live music, and toes-in-the-sand drinks.
-- **U-Tiki Beach** — waterfront dining at the inlet with boats drifting by; great for groups and seafood.
+Here's the local rundown, organized by what you're actually trying to do.
 
-## Upscale nights out
+## On the water — the classics
 
-- **1000 North** — polished waterfront dining for a special occasion.
-- **The Woods Jupiter** — upscale sports-and-dining spot with a lively bar scene.
+These are the places you'll take every visitor, and the ones you'll keep going back to anyway.
 
-## Local institutions & casual eats
+- **Guanabanas** — the iconic one. Open-air, built under banyan trees strung with lights, right on the Intracoastal. It's equal parts restaurant, bar, and Jupiter institution. Expect a wait in season; it doesn't really do quiet.
+- **Square Grouper** — a genuine tiki bar on the inlet, famous for sunsets, live music, and drinks with your feet more or less in the sand. More about the setting and the crowd than the menu, and nobody's pretending otherwise.
+- **U-Tiki Beach** — waterfront dining right at the inlet with boats moving past constantly. Works well for groups and for seafood, and it's one of the better spots to watch the water traffic.
 
-- **Little Moir's Food Shack** — a beloved, unpretentious favorite known for fresh, creative seafood.
-- **Dune Dog Cafe** — quirky, picnic-table casual with an all-ages menu — a longtime local hang.
-- **Schooners** — laid-back waterfront tiki vibes and a local crowd.
+**Local tip:** all three are sunset destinations, which means everyone else has the same idea. Arrive early, or go on a weeknight, or accept the wait as part of the experience.
 
-## Coffee & sweets
+![Jupiter waterway at dusk](/images/jupiter/jupiter-waterway-dusk.jpg "Sunset isn't a bonus at these places — it's the entire reason the reservation exists.")
 
-- **Jupiter Donut Factory** — the local donut legend; worth the morning stop.
+## A nicer night out
+
+- **1000 North** — polished waterfront dining, the default answer for an anniversary or a client dinner. Reservations strongly recommended, especially in season.
+- **The Woods Jupiter** — upscale food with a lively bar scene, a good option when half your table wants a real dinner and the other half wants to watch a game.
+
+## Local institutions and casual eats
+
+This is where residents actually eat on a Tuesday.
+
+- **Little Moir's Food Shack** — a beloved, unpretentious local favorite known for fresh, creative seafood. It's in a strip plaza, it doesn't look like much, and it has a devoted following for good reason.
+- **Dune Dog Cafe** — quirky, picnic-table casual, all-ages, and a longtime local hang. Exactly what you want after a morning at the beach.
+- **Schooners** — laid-back waterfront tiki atmosphere with a local crowd and no pretense.
+
+## Coffee, breakfast, and sweets
+
+- **Jupiter Donut Factory** — the local legend. Worth the morning stop, worth the line, and the thing visiting friends will ask you about afterward.
+- **Green markets** in the cooler months double as a breakfast-and-coffee social event, which is how a lot of residents start a weekend.
 
 ## Where it all comes together
 
-For a walkable night with dining, live music, and a waterfront boardwalk, Harbourside Place and the Riverwalk tie it together. Time any of it for sunset and you'll get why locals never want to eat indoors.
-`,
+**Harbourside Place** and the **Jupiter Riverwalk** give you the closest thing Jupiter has to a walkable evening — restaurants, live music, and a boardwalk along the water, with the ability to park once and wander. It's where a lot of first dates, family nights, and out-of-town-guest evenings end up.
+
+**Abacoa's town center** is the other walkable pocket, with a cluster of restaurants and bars near the stadium. On game nights it's busy and genuinely fun; on quiet nights it's an easy, low-key dinner.
+
+![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "Almost none of Jupiter's social life happens indoors — which is the whole point, and also why season changes everything.")
+
+## How the seasons change all of this
+
+This matters more than any individual recommendation.
+
+**January through March**, the waterfront restaurants are genuinely busy. Reservations become necessary at places that don't normally need them, waits run long, and parking near the inlet gets competitive. Residents adapt by eating out on weeknights and staying home on weekends.
+
+**May through September**, the same restaurants are relaxed. You can walk into most places, sunset seating opens up, and the town feels like it belongs to the people who live here. Many locals will tell you summer dining is the best-kept secret of living in Jupiter.
+
+## Beyond the waterfront
+
+It would be easy to think Jupiter is only tiki bars and water views. A few things worth knowing once the novelty of eating outdoors wears off:
+
+- **Abacoa and the Indiantown Road corridor** carry most of the everyday variety — sushi, Italian, Mexican, Thai, breweries, and the chains when you want something predictable.
+- **The brewery and taproom scene** has grown steadily and skews casual and local rather than destination-driven.
+- **Palm Beach Gardens is fifteen minutes south** and adds a substantially larger range of restaurants, which matters if you eat out often.
+- **West Palm Beach, about half an hour away**, is where you go for a genuinely big night out or a wider fine-dining selection.
+
+The honest framing: Jupiter has quality and setting in abundance. It has less sheer volume than a bigger city, and residents who eat out constantly tend to range south fairly often.
+
+## Practical local advice
+
+- **Boat-up access** exists at several waterfront spots, and arriving by water is a legitimately common way to go to dinner here.
+- **Dress code is minimal** almost everywhere. This is a flip-flops town, with the exception of the nicer dinner spots.
+- **Sunset timing shifts** significantly through the year — check it rather than guessing, especially if the sunset is the point.
+- **Dog-friendly patios** are common given the beach culture, but call ahead rather than assuming.
+- **Parking near the inlet** is the real constraint on busy evenings, not the wait for a table. Go early or be prepared to walk a few blocks.
+- **Live music** is common at the waterfront spots, particularly on weekend afternoons and evenings — great if that's what you came for, less so if you wanted a conversation.
+- **Happy hour** is genuinely worth planning around at the waterfront places, since it often overlaps with the best light of the day.
+
+## The bottom line
+
+You could eat well in Jupiter for a year without ever going somewhere without a water view, and plenty of residents essentially do. The pattern most people settle into: the classics when friends visit, Little Moir's or Dune Dog on a normal weeknight, the Riverwalk when you want to walk somewhere, and a standing sunset spot you get quietly territorial about.
+
+Hours, menus, and ownership change — check directly before you go.`,
     faqs: [
-      { q: "What is the best waterfront restaurant in Jupiter?", a: "Guanabanas is the iconic open-air waterfront spot, with Square Grouper and U-Tiki Beach also beloved for inlet-side dining and sunsets. (Confirm current hours and availability.)" },
-      { q: "Where do locals eat in Jupiter, Florida?", a: "Local institutions like Little Moir's Food Shack, Dune Dog Cafe, and Schooners, plus the waterfront classics and Harbourside Place." },
-      { q: "Where is the best sunset spot in Jupiter?", a: "The inlet-side spots like Square Grouper and U-Tiki, the Riverwalk, and the beach are all local favorites for golden hour." },
-      { q: "What is the most famous restaurant in Jupiter?", a: "Guanabanas is the most iconic — an open-air, banyan-tree-shaded institution on the Intracoastal." },
-      { q: "Is there good nightlife in Jupiter?", a: "There's lively waterfront dining, tiki bars, and live music — especially around Harbourside and the inlet — though it's more laid-back than a big-city nightlife scene." },
+      { q: "What are the best restaurants in Jupiter, Florida?", a: "The waterfront classics are Guanabanas, Square Grouper, and U-Tiki Beach. For a nicer night out, 1000 North and The Woods Jupiter. For local favorites, Little Moir's Food Shack, Dune Dog Cafe, and Schooners. Hours and menus change, so check directly before going." },
+      { q: "Where is the best sunset spot for dinner in Jupiter?", a: "Square Grouper and U-Tiki Beach at the inlet are the best known, along with Guanabanas on the Intracoastal. All three get busy at sunset, especially January through March — arrive early or go on a weeknight." },
+      { q: "Is there anywhere walkable to eat in Jupiter?", a: "Harbourside Place and the Jupiter Riverwalk are the main walkable stretch, with restaurants, live music, and a waterfront boardwalk. Abacoa's town center near the stadium is the other walkable cluster." },
+      { q: "Can you get to Jupiter restaurants by boat?", a: "Yes — several waterfront restaurants offer boat-up access, and arriving by water is a common way to go to dinner locally. Availability and dockage rules vary, so check with the restaurant." },
+      { q: "Do you need reservations at Jupiter restaurants?", a: "In season, roughly January through March, yes at the popular waterfront spots and anywhere upscale. From May through September most places are walk-in friendly, which many residents consider the best part of summer here." },
+      { q: "What is Jupiter Donut Factory?", a: "A well-known local donut shop that has become something of an institution — typically a morning stop, often with a line, and one of the things residents recommend to visiting friends." },
     ],
     internalLinks: ["best-things-to-do-in-jupiter-florida", "local-guide-to-jupiter-florida", "hidden-gems-in-jupiter-florida"],
     funFact: "Guanabanas has been a Jupiter institution since 2005 and has turned down multiple offers to franchise or expand. The owners built it as a one-of-a-kind open-air jungle spot on the Intracoastal and have kept it exactly that way — which is why it still feels like a real local place rather than a chain.",
