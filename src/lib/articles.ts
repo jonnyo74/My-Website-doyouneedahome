@@ -5821,6 +5821,13 @@ This is a small, laid-back, nature-loving town — character spots and casual lo
     primaryKeyword: "living in Port Salerno Florida",
     secondaryKeywords: ["moving to Port Salerno FL", "Port Salerno lifestyle", "Manatee Pocket", "is Port Salerno a good place to live"],
     h1: "What It's Really Like Living in Port Salerno, Florida",
+    // PLACEHOLDER IMAGE — this is a Jupiter-area shot, not Port Salerno.
+    // Chosen because it carries no identifiable landmark and is honest to the
+    // working-waterfront character. Swap for real Manatee Pocket photography
+    // (harbor, fish houses, the fleet coming in) as soon as we have it, and do
+    // NOT substitute any Intracoastal/luxury-home shot — those misrepresent the
+    // village's housing stock and price tier.
+    heroImage: '/images/jupiter/jupiter-pelican-dock.jpg',
     body: `Port Salerno doesn't try to charm you. There's no restored historic downtown, no manicured entry feature with a fountain, no marketing campaign. What there is: a working harbor called the **Manatee Pocket**, a fleet of commercial and charter boats that go out before dawn, fish houses that sell what came off those boats, and a village that has been doing this for generations.
 
 For a certain kind of buyer, that's not a compromise. It's the entire point.
@@ -6108,6 +6115,8 @@ The village's signature annual event turns its commercial fishing heritage into 
 ## Explore the fish houses
 
 Buying seafood straight off the boats is a legitimate local ritual and the most direct expression of what this town is. It's covered properly in our [guide to eating and drinking here](/blog/best-places-to-eat-drink-hang-out-in-port-salerno-florida), but it belongs on any list of things to actually do — go once in your first week.
+
+![Brown pelican soaring against a cloudy Florida sky](/images/jupiter/jupiter-022.jpg "Summer afternoons build fast on this coast — get on the water early and watch the sky.")
 
 ## Quieter finds most people miss
 
