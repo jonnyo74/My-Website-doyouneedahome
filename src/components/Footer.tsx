@@ -99,7 +99,26 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 border-t border-white/10 pt-8">
+          <p className="text-xs leading-6 text-slate-500">
+            <span aria-hidden="true" className="mr-1.5 font-semibold">⌂</span>
+            <strong className="font-semibold text-slate-400">Equal Housing Opportunity.</strong> We are
+            committed to the letter and spirit of U.S. policy for the achievement of equal housing
+            opportunity throughout the nation. We encourage and support an affirmative advertising and
+            marketing program in which there are no barriers to obtaining housing because of race,
+            color, religion, sex, handicap, familial status, or national origin.
+          </p>
+          <p className="mt-3 text-xs leading-6 text-slate-500">
+            Information on this site is deemed reliable but not guaranteed and is provided for
+            informational purposes only. It does not constitute legal, tax, or financial advice.
+            School assignments, boundaries, and ratings may change — buyers should verify all school
+            information directly with the appropriate school district. Buyers are encouraged to visit
+            neighborhoods personally, consult official public safety and crime resources, and
+            independently verify any information material to their home search.
+          </p>
+        </div>
+
+        <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-slate-500">
             © {new Date().getFullYear()} Christine Dekant &amp; John Oliver at Premier Brokers International. All rights reserved.
           </p>

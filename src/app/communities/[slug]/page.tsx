@@ -665,6 +665,10 @@ export default async function CommunityPage({ params }: Props) {
                       ))}
                     </div>
                   )}
+                  <p className="mt-6 text-xs leading-6 text-slate-400">
+                    School assignments, boundaries, and ratings may change. Buyers should verify all
+                    school information directly with the appropriate school district.
+                  </p>
                 </div>
               )}
 
@@ -1020,6 +1024,21 @@ export default async function CommunityPage({ params }: Props) {
               Call (561) 783-7733
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Compliance / buyer-verification note */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-4xl px-6 pb-16">
+          <p className="text-xs leading-6 text-slate-400">
+            Community details on this page — including pricing, availability, HOA and membership fees,
+            amenities, and school assignments — change frequently and are provided for informational
+            purposes only. The best community depends on your individual goals, budget, lifestyle, and
+            housing preferences. We encourage buyers to visit neighborhoods personally, consult official
+            public safety and crime resources, confirm school boundaries with the appropriate school
+            district, and independently verify any information important to their home search. DO Homes
+            Group at Premier Brokers International is committed to Equal Housing Opportunity.
+          </p>
         </div>
       </section>
     </div>

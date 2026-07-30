@@ -289,14 +289,32 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         )}
 
+        {/* Neighborhood-choice note — ranking-style articles */}
+        {article.type === 'Best Neighborhoods In' && (
+          <div className="mt-12 rounded-2xl border border-slate-200 bg-slate-50 p-6">
+            <p className="text-sm leading-relaxed text-slate-600">
+              Communities below are grouped by objective characteristics — price range, property type,
+              waterfront and golf access, HOA structure, lot size, and location. The best community
+              depends on your individual goals, budget, lifestyle, and housing preferences. We encourage
+              buyers to visit neighborhoods personally and independently verify any information
+              important to their home search.
+            </p>
+          </div>
+        )}
+
         {/* Disclaimer — every article */}
         <div className="mt-12 border-t border-slate-100 pt-6">
           <p className="text-xs italic leading-relaxed text-slate-400">
             This article is provided by DO Homes Group at Premier Brokers International for informational
             purposes only and does not constitute legal, financial, tax, or investment advice. Market
             statistics, pricing, availability, HOA fees, and community details change frequently and may
-            have changed since publication. Verify all details independently and consult the appropriate
-            licensed professionals before making any real estate decision.
+            have changed since publication. School assignments, boundaries, and ratings may change —
+            verify all school information directly with the appropriate school district, and consult
+            official public safety resources for any crime data relevant to your search. Verify all
+            details independently and consult the appropriate licensed professionals before making any
+            real estate decision. DO Homes Group is committed to Equal Housing Opportunity and does not
+            discriminate on the basis of race, color, religion, sex, handicap, familial status, or
+            national origin.
           </p>
         </div>
       </div>

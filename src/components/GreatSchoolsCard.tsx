@@ -10,8 +10,8 @@ export default function GreatSchoolsCard({
       <h3 className="text-lg font-semibold text-gray-900">Nearby Schools</h3>
       <p className="mt-2 text-sm text-gray-600">
         GreatSchools is a nonprofit that provides ratings, test scores, and parent reviews for public
-        and private schools across the country — a helpful starting point for families researching{' '}
-        {cityName}.
+        and private schools across the country — a helpful starting point for anyone researching
+        schools in {cityName}.
       </p>
       <a
         href={`https://www.greatschools.org/florida/${citySlug}/`}
@@ -22,9 +22,9 @@ export default function GreatSchoolsCard({
         View Schools on GreatSchools →
       </a>
       <p className="mt-4 text-xs text-gray-400 leading-relaxed">
-        School data provided by GreatSchools.org. Ratings are one of many factors to consider — we
-        recommend visiting schools directly and consulting your local school district for the most
-        current information.
+        School data provided by GreatSchools.org. School assignments, boundaries, and ratings may
+        change. Buyers should verify all school information directly with the appropriate school
+        district.
       </p>
     </div>
   )

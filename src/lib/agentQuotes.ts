@@ -13,18 +13,18 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'palm-beach-gardens': {
-    christineQuote: "Palm Beach Gardens is my home market and I recommend it most to buyers who want a master-planned lifestyle without sacrificing quality. Families with school-age kids, golf community buyers, executives who need easy I-95 access — this market consistently delivers for all of them.",
-    johnQuote: "Gardens is the right call for buyers who want choices. PGA National, BallenIsles, Avenir, Mirasol — you can find a $500K townhome or a $5M estate and both come with A-rated schools and world-class golf nearby. I help buyers figure out which community actually fits their life.",
+    christineQuote: "Palm Beach Gardens is my home market and I recommend it to buyers who want a master-planned lifestyle without sacrificing quality. A-rated school zones, golf and racquet club communities, and direct I-95 and PBI airport access — this market consistently delivers across all three.",
+    johnQuote: "Gardens is the right call for buyers who want choices. PGA National, BallenIsles, Avenir, Mirasol — you can find a $500K townhome or a $5M estate and both sit near A-rated school zones and world-class golf. I help buyers compare communities on the details that matter to them.",
   },
 
   'jupiter': {
-    christineQuote: "Jupiter is ideal for buyers who want coastal living without the barrier island premium. The private clubs, the Jupiter Inlet, Abacoa for families — it's one of the most complete markets in Palm Beach County. I tell lifestyle buyers to start here.",
-    johnQuote: "Jupiter works great for families and for buyers who want serious boating access. A-rated schools, Harbourside Place, the Loxahatchee River, world-class private golf — and you're 25 minutes from PBI Airport. It's a hard market to beat once you spend a day here.",
+    christineQuote: "Jupiter is ideal for buyers who want coastal living without the barrier island premium. The private clubs, the Jupiter Inlet, the walkable Abacoa town center — it's one of the most complete markets in Palm Beach County. I tell lifestyle buyers to start here.",
+    johnQuote: "Jupiter works especially well for buyers who want serious boating access. A-rated school zones, Harbourside Place, the Loxahatchee River, world-class private golf — and you're 25 minutes from PBI Airport. It's a hard market to beat once you spend a day here.",
   },
 
   'wellington': {
-    christineQuote: "Wellington is the obvious choice for equestrian buyers — there's simply nothing else like it in Florida. But I also recommend it strongly to families who want top schools and a true community feel without coastal pricing. The value here is real.",
-    johnQuote: "Wellington works for two completely different buyer profiles — equestrian buyers who need the show grounds and barn infrastructure, and families who want great schools and suburban space at a price that still makes sense. I work both segments well.",
+    christineQuote: "Wellington is the obvious choice for equestrian buyers — there's simply nothing else like it in Florida. But I also recommend it to buyers who want A-rated school zones, larger lots, and extensive parks without coastal pricing. The value here is real.",
+    johnQuote: "Wellington works for two completely different needs — barn and paddock infrastructure near the show grounds, and standard master-planned neighborhoods with A-rated school zones and suburban space at a price that still makes sense. I work both segments well.",
   },
 
   'boca-raton': {
@@ -48,13 +48,13 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'royal-palm-beach': {
-    christineQuote: "Royal Palm Beach is the right call for families who want great schools, community parks, and a sense of belonging — without coastal pricing. It's a market I recommend confidently to buyers who prioritize lifestyle quality over zip code prestige.",
-    johnQuote: "RPB works best for families and for buyers coming from out of state who want more space for their money. Larger homes, A-rated schools, community parks, easy Turnpike access — and you're still close to Wellington and the equestrian scene. Real value in a strong market.",
+    christineQuote: "Royal Palm Beach is the right call for buyers who want school access, community parks, and larger lots — without coastal pricing. It's a market I recommend confidently to buyers who prioritize square footage and amenities over a coastal ZIP code.",
+    johnQuote: "RPB works best for buyers who want more space for their money. Larger homes, A-rated school zones, community parks, easy Turnpike access — and you're still close to Wellington and the equestrian scene. Real value in a strong market.",
   },
 
   'palm-beach': {
     christineQuote: "Palm Beach island is for buyers who have reached a point where address and exclusivity are the priority. Worth Avenue, the barrier island lifestyle, the historic estates — I work this market with the discretion it requires and the relationships that matter here.",
-    johnQuote: "Palm Beach is the right market for ultra-high-net-worth buyers who want the most prestigious residential address in South Florida. The inventory is limited, the transactions are often private, and you need an agent with real access. That's what I bring to this market.",
+    johnQuote: "Palm Beach is the top of the South Florida market — the highest-priced residential address in the region. The inventory is limited, the transactions are often private, and you need an agent with real access. That's what I bring to this market.",
   },
 
   'loxahatchee': {
@@ -81,7 +81,7 @@ export const agentQuotes: Record<string, AgentQuotes> = {
 
   'pga-national': {
     christineQuote: "PGA National is perfect for buyers who want the country club lifestyle with real flexibility in home type and price point. From attached villas near $500K to estate homes at $3M+ — I know every sub-community and which ones offer the best value right now.",
-    johnQuote: "PGA National works great for golf buyers, seasonal residents, and families who want resort amenities with A-rated schools nearby. Five championship courses and the PGA Resort in your backyard — the lifestyle here is genuinely hard to match.",
+    johnQuote: "PGA National works great for golf buyers, seasonal owners, and anyone who wants resort amenities with A-rated school zones nearby. Five championship courses and the PGA Resort in your backyard — the lifestyle here is genuinely hard to match.",
   },
 
   'ballen-isles': {
@@ -91,7 +91,7 @@ export const agentQuotes: Record<string, AgentQuotes> = {
 
   'avenir': {
     christineQuote: "Avenir is ideal for buyers who want new construction quality in a master-planned Palm Beach Gardens setting. The builder variety, the lot selection, the planned town center — I guide buyers through the new construction process so they don't leave money on the table.",
-    johnQuote: "Avenir works great for buyers relocating to Palm Beach County who want new construction with room to grow. Families, professionals, move-up buyers — the scale of this community and the quality of the builders make it one of the most compelling buys in the county right now.",
+    johnQuote: "Avenir works great for buyers relocating to Palm Beach County who want new construction with room to grow. From townhomes to custom estates and an age-restricted 55+ section — the scale of this community and the quality of the builders make it one of the most compelling buys in the county right now.",
   },
 
   'mirasol': {
@@ -110,7 +110,7 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'loxahatchee-club': {
-    christineQuote: "The Loxahatchee Club is for serious golf buyers who want one of the most exclusive addresses in America. Jack Nicklaus called this course one of his best and Forbes agrees — I work this market carefully and with complete discretion.",
+    christineQuote: "The Loxahatchee Club is for serious golf buyers who want one of the most sought-after private golf addresses in America. Jack Nicklaus called this course one of his best and Forbes has recognized it as well — I work this market carefully and with complete discretion.",
     johnQuote: "Loxahatchee Club buyers want the best private golf experience in Jupiter, full stop. Membership by referral, extremely limited inventory, and a course that consistently ranks among the finest in the country. This is a market where relationships are everything.",
   },
 
@@ -135,13 +135,13 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'sonoma-isles': {
-    christineQuote: "Sonoma Isles is ideal for families relocating to Jupiter who want new or newer construction on a lakefront lot with resort amenities. This community moves fast — I keep my clients ahead of listings because inventory doesn't sit here.",
-    johnQuote: "Sonoma Isles works great for family buyers who want gated lakefront living with top-tier amenities and A-rated Jupiter schools. It's one of the most in-demand communities in Jupiter for good reason.",
+    christineQuote: "Sonoma Isles is ideal for buyers relocating to Jupiter who want new or newer construction on a lakefront lot with resort amenities. This community moves fast — I keep my clients ahead of listings because inventory doesn't sit here.",
+    johnQuote: "Sonoma Isles works great for buyers who want gated lakefront living with top-tier amenities and A-rated Jupiter school zones. It's one of the most in-demand communities in Jupiter for good reason.",
   },
 
   'sonoma-bay': {
     christineQuote: "Sonoma Bay works beautifully for buyers who want gated lakefront living in Jupiter at a price point that's still achievable. The resort amenities, the waterfront lots, the community feel — it's a market that consistently attracts buyers who do their homework.",
-    johnQuote: "Sonoma Bay is ideal for families and professionals who want the Jupiter lifestyle with real water views and a tight-knit gated community. I've helped buyers get into this community at every stage and I know the value opportunities well.",
+    johnQuote: "Sonoma Bay is ideal for buyers who want the Jupiter lifestyle with real lakefront views in a smaller gated community. I've helped buyers get into this community at every stage and I know the value opportunities well.",
   },
 
   'jupiter-country-club': {
@@ -155,7 +155,7 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'manalapan': {
-    christineQuote: "Manalapan is for ultra-luxury buyers who want the most private, prestigious barrier island address in South Florida. Ocean-to-lake estates on expansive lots — I work this market with the discretion and access it demands.",
+    christineQuote: "Manalapan is for ultra-luxury buyers who want the most private barrier island address in South Florida. Ocean-to-lake estates on expansive lots — I work this market with the discretion and access it demands.",
     johnQuote: "Manalapan buyers want maximum privacy, oceanfront living, and some of the largest estate lots on the barrier island. Most inventory here is off-market. If this is the address you're pursuing, you need an agent with real relationships — that's what I bring.",
   },
 

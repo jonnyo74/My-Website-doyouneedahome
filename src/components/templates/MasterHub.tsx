@@ -41,7 +41,7 @@ export default function MasterHub({ data, masterKey, citySlug }: { data: any; ma
           <h2 className="text-2xl font-bold text-gray-900">Community Overview</h2>
           <p className="mt-4 text-gray-600">
             {master.name} is a large-scale, master-planned development offering multiple neighborhoods with distinct
-            character and price points. Whether you're seeking golf course living, luxury estates, or family-friendly
+            character and price points. Whether you're seeking golf course living, luxury estates, or low-maintenance
             subdivisions, {master.name} has options to match your lifestyle.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">

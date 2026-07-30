@@ -82,7 +82,7 @@ export default function CityHub({
             />
             <div>
               <blockquote className="text-lg font-medium text-white leading-8">
-                &ldquo;{cityData?.lifestyle?.split('.')[0] ?? `${data.name} is one of our most rewarding markets to work in`}. Whether you're searching for a private club estate, a waterfront home, or a family-friendly neighborhood, we know every pocket of this city.&rdquo;
+                &ldquo;{cityData?.lifestyle?.split('.')[0] ?? `${data.name} is one of our most rewarding markets to work in`}. Whether you're searching for a private club estate, a waterfront home, or an established residential neighborhood, we know every pocket of this city.&rdquo;
               </blockquote>
               <p className="mt-4 text-sm text-gray-400">— John Oliver &amp; Christine Dekant, DO Homes Group</p>
             </div>
