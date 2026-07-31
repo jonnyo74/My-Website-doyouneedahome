@@ -6158,6 +6158,7 @@ Palm City is a quiet family suburb, so its scene is casual and low-key. The best
     primaryKeyword: "living in Hobe Sound Florida",
     secondaryKeywords: ["moving to Hobe Sound FL", "Hobe Sound lifestyle", "is Hobe Sound a good place to live", "Hobe Sound Jupiter Island"],
     h1: "What It's Really Like Living in Hobe Sound, Florida",
+    heroImage: '/images/hobe-sound/hobe-sound-blowing-rocks-001.jpg',
     body: `Hobe Sound offers a distinctive mix of Old Florida character, natural surroundings, and varied residential settings. On the mainland, you'll find a small historic district, established neighborhoods, and a slower pace of life. Across the bridge, **Jupiter Island** is known for its private waterfront and oceanfront estates. Although much of the area shares the 33455 ZIP code, the mainland and island offer noticeably different housing and lifestyle options.
 
 What surprises most people who move here is how much of that character is structural rather than accidental. Hobe Sound is an unincorporated community in **Martin County** rather than an incorporated city, and Martin County has managed growth more restrictively than the counties to its south for decades. The result is a stretch of coast that stayed low-rise and low-density while the shoreline on either side filled in.
@@ -6183,6 +6184,8 @@ Nature is one of Hobe Sound's defining features. Nearby **Jonathan Dickinson Sta
 How much of that land is permanently protected is the part worth understanding. Jonathan Dickinson covers pine flatwoods, sand pine scrub, and river frontage, and the Hobe Mountain tower sits on one of the highest natural elevations in South Florida. The **Loxahatchee River** running through it carries a federal Wild and Scenic River designation, which restricts what can be built along its protected stretches.
 
 The wildlife refuge protects both a mainland scrub tract and a length of beach on Jupiter Island that ranks among the more active loggerhead sea turtle nesting areas on the Atlantic coast. Nesting season runs roughly March through October and carries real obligations for nearby owners — lighting ordinances on beachfront property, restrictions on leaving furniture out overnight, and marked nests that must be kept clear. If you buy near the water, treat these as conditions of ownership rather than suggestions.
+
+![Eroded Anastasia limestone shoreline meeting the Atlantic at Blowing Rocks Preserve, Hobe Sound, Florida](/images/hobe-sound/hobe-sound-blowing-rocks-002.jpg "The Anastasia limestone shelf at Blowing Rocks — an unusual stretch of rock shoreline on a coast that is otherwise almost entirely sand.")
 
 The practical effect is that the outdoors becomes the default weekend. For specific trails, launches, and access points, see our [guide to things to do here](/blog/best-things-to-do-in-hobe-sound-florida).
 
