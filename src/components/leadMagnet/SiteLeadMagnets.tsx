@@ -8,6 +8,7 @@ import {
   allReports,
   marketReports,
   REPORT_EDITION,
+  reportsCoverPath,
   selectReportForPath,
 } from '@/lib/marketReports'
 import { trackEvent } from '@/lib/analytics'
@@ -57,7 +58,10 @@ function hasDownloaded(): boolean {
  */
 export default function SiteLeadMagnets() {
   const pathname = usePathname()
-  const excluded = EXCLUDED_PATH_PREFIXES.some((p) => pathname.startsWith(p))
+  // Suppressed on excluded paths, and on Treasure Coast pages the PBC reports
+  // don't cover — otherwise the sticky bar re-offers the wrong county's data.
+  const excluded =
+    EXCLUDED_PATH_PREFIXES.some((p) => pathname.startsWith(p)) || !reportsCoverPath(pathname)
 
   useEffect(() => {
     captureFirstTouchUtm()

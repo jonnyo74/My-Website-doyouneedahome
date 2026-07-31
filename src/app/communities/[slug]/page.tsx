@@ -16,7 +16,7 @@ import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
 import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
-import { selectReportForCommunity } from '@/lib/marketReports'
+import { selectReportForCommunity, reportsCoverCity } from '@/lib/marketReports'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -98,6 +98,8 @@ export default async function CommunityPage({ params }: Props) {
   const shownArticles = isCity ? cityArticles : cityArticles.slice(0, 4)
   // Which market report fits this page — condo, single-family, or both.
   const reportSelection = selectReportForCommunity(community)
+  // The reports are Palm Beach County data — don't offer them on Treasure Coast pages.
+  const showReportCta = reportsCoverCity(articleCity?.slug ?? community.slug)
   // For neighborhoods, search by parent city not the neighborhood name — Ylopo's
   // search only resolves real municipalities, not subdivision/community names
   // (e.g. searching city="Abacoa" returns zero results; it must be "Jupiter").
@@ -362,11 +364,13 @@ export default async function CommunityPage({ params }: Props) {
               />
 
               {/* Market report CTA */}
-              <MarketReportCTA
-                selection={reportSelection}
-                variant="inline"
-                pageCategory="community"
-              />
+              {showReportCta && (
+                <MarketReportCTA
+                  selection={reportSelection}
+                  variant="inline"
+                  pageCategory="community"
+                />
+              )}
 
               {/* Sub-Neighborhoods */}
               {community.subNeighborhoods && community.subNeighborhoods.length > 0 && (
@@ -925,11 +929,13 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
 
                 {/* Market report card */}
-                <MarketReportCTA
-                  selection={reportSelection}
-                  variant="sidebar"
-                  pageCategory="community"
-                />
+                {showReportCta && (
+                  <MarketReportCTA
+                    selection={reportSelection}
+                    variant="sidebar"
+                    pageCategory="community"
+                  />
+                )}
 
                 {/* Nearby communities */}
                 {isCity && (

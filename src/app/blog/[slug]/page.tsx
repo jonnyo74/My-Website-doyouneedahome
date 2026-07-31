@@ -14,7 +14,7 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
 import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
-import { selectReportForArticle } from '@/lib/marketReports'
+import { selectReportForArticle, reportsCoverCity } from '@/lib/marketReports'
 import { SITE_URL } from '@/lib/site'
 
 const SITE = SITE_URL
@@ -82,7 +82,9 @@ export default async function ArticlePage({ params }: Props) {
 
   const url = `${SITE}/blog/${article.slug}`
   const reportSelection = selectReportForArticle(article)
-  const bodyParts = splitBodyForInlineCta(article.body)
+  // The reports are Palm Beach County data — don't offer them on Treasure Coast pages.
+  const showReportCta = reportsCoverCity(article.citySlug)
+  const bodyParts = showReportCta ? splitBodyForInlineCta(article.body) : null
 
   // ---- JSON-LD structured data ----
   const articleSchema = {
@@ -248,13 +250,15 @@ export default async function ArticlePage({ params }: Props) {
         </div>
 
         {/* End-of-article report CTA */}
-        <div className="mt-12">
-          <MarketReportCTA
-            selection={reportSelection}
-            variant="end-of-article"
-            pageCategory="blog"
-          />
-        </div>
+        {showReportCta && (
+          <div className="mt-12">
+            <MarketReportCTA
+              selection={reportSelection}
+              variant="end-of-article"
+              pageCategory="blog"
+            />
+          </div>
+        )}
 
         {/* FAQ */}
         {article.faqs.length > 0 && (

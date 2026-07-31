@@ -255,6 +255,43 @@ export function selectReportFromText(text: string): ReportSelection {
   return 'both'
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// GEOGRAPHIC COVERAGE
+//
+// Both reports are built from Palm Beach County BeachesMLS data. The Treasure
+// Coast cities we cover sit in Martin and St. Lucie counties — a different
+// county and a different MLS — so a PBC report does not describe the market a
+// reader on those pages is looking at. Every report CTA is suppressed there
+// rather than offering numbers for the wrong county.
+//
+// Mirrors the 'Treasure Coast' entries in REGION_GROUP / CITY_REGIONS in
+// articles.ts. Held as a literal here so the sitewide client component doesn't
+// have to pull the full article dataset into the browser bundle. If a Treasure
+// Coast city is added to CITY_REGIONS, add its slug here too.
+// ─────────────────────────────────────────────────────────────────────────────
+
+const UNCOVERED_CITY_SLUGS = [
+  'stuart',
+  'palm-city',
+  'hobe-sound',
+  'port-salerno',
+  'port-st-lucie',
+] as const
+
+/** True when the reports actually describe this city's market. */
+export function reportsCoverCity(citySlug: string): boolean {
+  return !UNCOVERED_CITY_SLUGS.some((slug) => slug === citySlug)
+}
+
+/**
+ * Path-based equivalent for the sitewide sticky bar and exit-intent offer,
+ * which only know the pathname. Blog and community URLs both embed the city
+ * slug (/blog/cost-of-living-in-stuart-florida, /communities/hobe-sound).
+ */
+export function reportsCoverPath(pathname: string): boolean {
+  return !UNCOVERED_CITY_SLUGS.some((slug) => pathname.includes(slug))
+}
+
 interface CommunityLike {
   type?: string
   name: string
