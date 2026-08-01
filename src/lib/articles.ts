@@ -6189,6 +6189,7 @@ Westlake's food scene is a work in progress, like the city itself. Today, the ha
     primaryKeyword: "living in Stuart Florida",
     secondaryKeywords: ["moving to Stuart FL", "Stuart Florida lifestyle", "is Stuart a good place to live", "Stuart Treasure Coast"],
     h1: "What It's Really Like Living in Stuart, Florida",
+    heroImage: '/images/stuart/local-open-water.jpg',
     body: `Drive south from Stuart on US-1 and somewhere around the county line the buildings get taller. Not dramatically — but suddenly there are five and six storeys where a mile earlier there were three, and the density of everything steps up a level.
 
 That line on the map is the single most important thing to understand about Stuart. The town looks the way it does because Martin County decided, four decades ago, that it would.
@@ -6232,6 +6233,8 @@ It is also true that the St. Lucie Estuary has spent decades at the centre of Fl
 The picture has improved. The Army Corps' current lake operating manual was selected specifically to reduce releases to the St. Lucie, and the Everglades Agricultural Area reservoir — the long-term structural fix, designed to send water south instead of east — is under construction.
 
 It is not finished, and roughly 70% of the estuary's freshwater comes from drainage canals in the first place, so local runoff matters even in a year with no lake releases. Our [pros and cons guide](/blog/pros-and-cons-of-living-in-stuart-florida) treats this properly, because anyone buying on the water here should understand it rather than discover it.
+
+![Private docks and boat lifts along a residential waterway](/images/stuart/local-waterfront-docks.jpg "Dockage behind the house is ordinary here — which is most of why people move to this stretch of coast.")
 
 ## The pace, honestly
 
@@ -6286,6 +6289,7 @@ Buy here because you want that town. Go in understanding that those rules are cu
     primaryKeyword: "Stuart Florida local guide",
     secondaryKeywords: ["Stuart insider tips", "things locals do in Stuart FL", "moving to Stuart guide"],
     h1: "A Local's Guide to Stuart, Florida",
+    heroImage: '/images/stuart/local-dock-pilings.jpg',
     body: `Stuart is small enough to learn in a weekend and confusing enough on day one that people give up and use the satnav for a year. The confusion is geographic: this is a town assembled around two rivers, an inlet and a set of bridges, and until you understand the water you can't understand the roads.
 
 Here's the orientation I'd give a friend who just moved here.
@@ -6390,6 +6394,7 @@ Then pick a thing and join it. Stuart is small enough that this works quickly an
     primaryKeyword: "best neighborhoods in Stuart Florida",
     secondaryKeywords: ["where to live in Stuart FL", "Sewall's Point", "Hutchinson Island Stuart", "North River Shores"],
     h1: "Best Neighborhoods in Stuart, Florida",
+    heroImage: '/images/stuart/local-boat-on-lift.jpg',
     body: `Most neighborhood guides to a waterfront town sort by price. In Stuart that's the wrong first cut, because two houses at the same price on the same river can be worth very different things depending on what you can get out of the dock.
 
 Sort by **water access first**. Everything else follows.
@@ -6409,6 +6414,8 @@ Three variables decide that, and they are property-specific:
 "Ocean access" in a listing can mean anything from genuinely unobstructed to technically-true-with-three-caveats. Verify clearances, depths and route for **your** vessel, with your own eyes or your own surveyor, before you fall in love with a seawall.
 
 Buyers who get this right pay for exactly the access they need. Buyers who get it wrong either overpay for capability they'll never use or buy a dock they can't use at all.
+
+![A masted sailboat moored off a private dock on a sheltered waterway](/images/stuart/local-sailboat-moored.jpg "Air draft, not dock length, is what decides whether a property can serve a boat like this one.")
 
 ## The premium waterfront tier
 
@@ -6489,6 +6496,7 @@ Stuart rewards specificity. The town is small, the inventory is limited, and the
     primaryKeyword: "things to do in Stuart Florida",
     secondaryKeywords: ["Stuart attractions", "what to do in Stuart FL", "Bathtub Reef Beach", "downtown Stuart"],
     h1: "Best Things to Do in Stuart, Florida",
+    heroImage: '/images/stuart/local-open-water.jpg',
     body: `Stuart packs an unusual amount into a small town, and almost all of it is either on the water or a five-minute walk from it.
 
 Here's what's actually worth your time.
@@ -6612,6 +6620,7 @@ Charter a boat, and walk downtown on a market morning. One tells you why people 
     primaryKeyword: "who should move to Stuart Florida",
     secondaryKeywords: ["is Stuart right for me", "should I move to Stuart FL", "who lives in Stuart Florida"],
     h1: "Who Should Move to Stuart, Florida (And Who Shouldn't)",
+    heroImage: '/images/stuart/local-waterfront-docks.jpg',
     body: `Stuart is a small town that knows what it is. That makes it easy to recommend to the right person and a genuine mistake for the wrong one.
 
 Here's the honest sort.
@@ -6718,6 +6727,7 @@ Our [comparison guide](/blog/stuart-vs-nearby-cities) works through the alternat
     primaryKeyword: "pros and cons of living in Stuart Florida",
     secondaryKeywords: ["Stuart pros and cons", "living in Stuart downsides", "is Stuart worth it"],
     h1: "Pros and Cons of Living in Stuart, Florida",
+    heroImage: '/images/stuart/local-dock-pilings.jpg',
     showMarketTrends: true,
     body: `Stuart gets described as charming so consistently that the word has stopped carrying information. Here's the ledger instead.
 
@@ -6850,6 +6860,7 @@ For a commuter or anyone who needs the optionality of a city, the charm won't co
     primaryKeyword: "cost of living in Stuart Florida",
     secondaryKeywords: ["Stuart home prices", "is Stuart affordable", "Stuart FL cost of living"],
     h1: "Cost of Living in Stuart, Florida",
+    heroImage: '/images/stuart/local-boat-on-lift.jpg',
     showMarketTrends: true,
     body: `Stuart's headline is that it's cheaper than the Palm Beach County coast, and that's true. It's also incomplete, because the two things that most affect your actual monthly number here — the tax reset and the cost of water access — don't show up in a price-per-square-foot comparison.
 
@@ -6883,6 +6894,8 @@ On the coast, "insurance" is really three conversations, and buyers who treat it
 **Age of the structure.** Roof age is the single biggest lever on a coastal wind premium, and much of Martin County's stock was re-roofed after 2004. Older roofs narrow your carrier options sharply. A **wind mitigation inspection** documenting roof attachment, opening protection and roof shape typically pays for itself in credits.
 
 Get real quotes during your inspection period. Not estimates, and not afterwards.
+
+![Timber dock and pilings along a residential waterway](/images/stuart/local-dock-pilings.jpg "Dock, pilings and seawall are infrastructure with maintenance cycles — and none of it shows up in a price per square foot.")
 
 ## What water access actually costs to own
 
@@ -6953,6 +6966,7 @@ Whichever side you land on, build the monthly number from a **reset tax estimate
     primaryKeyword: "hidden gems in Stuart Florida",
     secondaryKeywords: ["Stuart secret spots", "free things to do in Stuart", "House of Refuge Stuart"],
     h1: "Hidden Gems in Stuart, Florida",
+    heroImage: '/images/stuart/local-open-water.jpg',
     body: `Stuart's headline attractions are genuinely good, which is a problem for a list like this — the beach, the downtown and the fishing are famous for reasons.
 
 So here's the other layer: the places residents actually use, most of them free, and most of them missed entirely by anyone who spends a weekend here.
@@ -7074,6 +7088,7 @@ Two honest corrections, because you'll be told otherwise.
     primaryKeyword: "Stuart vs nearby cities",
     secondaryKeywords: ["Stuart vs Palm City", "Stuart vs Port St. Lucie", "Stuart vs Jupiter"],
     h1: "Stuart vs Nearby Cities: How to Choose",
+    heroImage: '/images/stuart/local-sailboat-moored.jpg',
     showMarketTrends: true,
     body: `Almost nobody shops Stuart on its own. Buyers looking here are usually weighing it against a couple of Treasure Coast neighbours and, very often, against paying more to be further south.
 
@@ -7204,6 +7219,7 @@ Our [pros and cons guide](/blog/pros-and-cons-of-living-in-stuart-florida) goes 
     primaryKeyword: "best restaurants in Stuart Florida",
     secondaryKeywords: ["where to eat in Stuart FL", "downtown Stuart restaurants", "Stuart waterfront dining"],
     h1: "Best Places to Eat, Drink & Hang Out in Stuart, Florida",
+    heroImage: '/images/stuart/local-waterfront-docks.jpg',
     body: `Stuart punches well above its size on food, for a reason that has nothing to do with chefs: the town is small, walkable and on the water, so restaurants cluster in places you can actually reach on foot and most of them have a view.
 
 Here's how the scene is laid out.
@@ -7735,6 +7751,7 @@ Singer Island is relaxed and resort-y — waterfront seafood, beach bars, and su
     primaryKeyword: "living in Palm City Florida",
     secondaryKeywords: ["moving to Palm City FL", "Palm City lifestyle", "is Palm City a good place to live", "Palm City Martin County"],
     h1: "What It's Really Like Living in Palm City, Florida",
+    heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
     body: `Palm City is not a city. There's no mayor, no city hall, no municipal government and no downtown. It's an unincorporated area of Martin County with a name, a postcode and a strong sense of itself, which is a slightly odd thing to be and worth understanding before you buy here.
 
 What Palm City actually is: the land west of the St. Lucie River, across the water from Stuart, sitting between I-95 and Florida's Turnpike. That geography is the whole proposition.
@@ -7847,6 +7864,7 @@ Buy here because the daily logistics of your life work better on this side of th
     primaryKeyword: "Palm City Florida local guide",
     secondaryKeywords: ["Palm City insider tips", "things locals do in Palm City", "moving to Palm City guide"],
     h1: "A Local's Guide to Palm City, Florida",
+    heroImage: '/images/palm-city/stock-mangrove-tunnel.jpg',
     body: `Palm City takes about twenty minutes to learn, because it's organised around three roads and a river. The subtlety is not the layout — it's that the place changes character completely depending on how far west you go.
 
 ## The east-to-west gradient
@@ -7959,6 +7977,7 @@ Then get on the South Fork in your first month, by kayak if not by boat. It's th
     primaryKeyword: "best neighborhoods in Palm City Florida",
     secondaryKeywords: ["where to live in Palm City", "Martin Downs", "Palm City Farms", "Palm City riverfront"],
     h1: "Best Neighborhoods in Palm City, Florida",
+    heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
     body: `Palm City's neighborhoods sort cleanly, which is unusual and helpful. Four distinct products, four different buyers, and very little overlap between them.
 
 Work out which one you are and the search takes a weekend rather than a season.
@@ -8072,6 +8091,7 @@ Be honest about which of the three you are, ideally before touring anything.
     primaryKeyword: "things to do in Palm City Florida",
     secondaryKeywords: ["Palm City attractions", "what to do in Palm City", "Halpatiokee Regional Park", "St. Lucie River"],
     h1: "Best Things to Do in Palm City, Florida",
+    heroImage: '/images/palm-city/stock-mangrove-tunnel.jpg',
     body: `Here's the honest opening: Palm City is a residential community, not a destination. It has no downtown, no beach and no marquee attraction, and any list that pretends otherwise is padding.
 
 What it does have is water, golf, horses and parks — plus Stuart ten minutes away. That combination is genuinely good, and it's what residents actually use.
@@ -8099,6 +8119,8 @@ Palm City has more golf than its size warrants, and the standout for visitors an
 **Martin Downs Golf Club** and **Palm Cove Golf Club** are the other main public options, and there are private club communities as well.
 
 Compared with Palm Beach County, a round here is generally easier to get and cheaper to play. If you've relocated from a market where tee times are a competitive sport, this is one of the quiet pleasures of moving north. Check current access and rates directly, since policies vary by course and season.
+
+![Live oaks draped with Spanish moss arching over a sand road](/images/palm-city/stock-oak-canopy-road.jpg "Oak canopy over a sand road — the landscape five minutes west of the plazas.")
 
 ## Riding country
 
@@ -8189,6 +8211,7 @@ One shows you the landscape most residents drive past without seeing; the other 
     primaryKeyword: "who should move to Palm City Florida",
     secondaryKeywords: ["is Palm City right for me", "should I move to Palm City", "who lives in Palm City"],
     h1: "Who Should Move to Palm City, Florida (And Who Shouldn't)",
+    heroImage: '/images/palm-city/stock-oaks-over-water.jpg',
     body: `Palm City is the practical option in Martin County, and practical is an underrated thing to be. It suits a specific and fairly large group of people very well, and a smaller group not at all.
 
 ## The single best reason to choose Palm City
@@ -8300,6 +8323,7 @@ Our [comparison guide](/blog/palm-city-vs-nearby-cities) works through the alter
     primaryKeyword: "pros and cons of living in Palm City Florida",
     secondaryKeywords: ["Palm City pros and cons", "living in Palm City downsides", "is Palm City worth it"],
     h1: "Pros and Cons of Living in Palm City, Florida",
+    heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
     showMarketTrends: true,
     body: `Palm City's pitch is easy to summarise and easy to get wrong: it's the sensible choice in Martin County. Here's what that actually costs and buys.
 
@@ -8420,6 +8444,7 @@ For anyone whose picture of Florida involved walking somewhere, it isn't. Cross 
     primaryKeyword: "cost of living in Palm City Florida",
     secondaryKeywords: ["Palm City home prices", "is Palm City affordable", "Palm City FL cost of living"],
     h1: "Cost of Living in Palm City, Florida",
+    heroImage: '/images/palm-city/stock-oaks-over-water.jpg',
     showMarketTrends: true,
     body: `Palm City's cost story is different from the coastal towns nearby, because the expensive variables here aren't seawalls and flood zones. They're land, utilities that aren't municipal, and a tax structure with a couple of genuine opportunities in it.
 
@@ -8541,6 +8566,7 @@ A house in a subdivision here is a straightforward, predictable cost. Five acres
     primaryKeyword: "hidden gems in Palm City Florida",
     secondaryKeywords: ["Palm City secret spots", "free things to do in Palm City", "Halpatiokee Regional Park"],
     h1: "Hidden Gems in Palm City, Florida",
+    heroImage: '/images/palm-city/stock-mangrove-tunnel.jpg',
     body: `A hidden gems list for a residential community is a hard brief, and pretending otherwise is how these articles get padded with the local mall.
 
 So here's the honest version: Palm City's gems are mostly landscape, mostly free, and mostly missed by residents rather than visitors — because the people who live here drive the same three roads and never turn off them.
@@ -8554,6 +8580,8 @@ Head **upstream** on the **South Fork** and the river narrows quickly. Within tw
 Downstream is where everyone goes. Upstream is where it gets good, and the reason more people don't is simply that you can't get there in anything with a flybridge.
 
 Kayak or paddleboard, early morning, no wind. It's the single best free hour in Palm City.
+
+![Oak branches reaching out over dark, still water](/images/palm-city/stock-oaks-over-water.jpg "Upstream, the banks close in and the canopy meets overhead — the quietest water in the county.")
 
 ## Palm City Farms at golden hour
 
@@ -8664,6 +8692,7 @@ The genuinely under-used things here are the upstream river, the western grid an
     primaryKeyword: "Palm City vs nearby cities",
     secondaryKeywords: ["Palm City vs Stuart", "Palm City vs Port St. Lucie", "Palm City vs Hobe Sound"],
     h1: "Palm City vs Nearby Cities: How to Choose",
+    heroImage: '/images/palm-city/stock-oaks-over-water.jpg',
     showMarketTrends: true,
     body: `Palm City rarely gets shopped on its own. Buyers arrive here from one of two directions: they wanted Stuart and looked at the prices, or they wanted acreage and worked outward from a map.
 
@@ -8795,6 +8824,7 @@ Our [pros and cons guide](/blog/pros-and-cons-of-living-in-palm-city-florida) go
     primaryKeyword: "best restaurants in Palm City Florida",
     secondaryKeywords: ["where to eat in Palm City", "Palm City dining", "Martin Downs restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Palm City, Florida",
+    heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
     body: `Let's be straight about this one, because a dishonest dining guide helps nobody.
 
 **Palm City does not have a restaurant scene.** It has restaurants — a decent number of them, several of them good — but they sit in plazas along the main corridors, and there is no district, no street and no evening quarter. If you want to walk between two places, you're crossing the bridge.
