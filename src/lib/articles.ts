@@ -10695,6 +10695,20 @@ Spring means Mets baseball. Weekends mean Tradition Square events, the river, or
 - **Know your district's identity.** St. Lucie West, Tradition, PGA Village, and the Port District genuinely feel different. Newcomers who say "I live in Port St. Lucie" get asked "which part?" for a reason.
 - **Learn the river.** A surprising number of residents live here for years without discovering the North Fork. Don't be one of them.
 
+## Septic, sewer, and a question worth asking early
+
+One piece of local infrastructure genuinely affects buyers and almost never comes up on a tour.
+
+Because Port St. Lucie was platted as an enormous grid long before it filled in, a large number of homes here were built on **septic systems** rather than city sewer. The city has been running a **septic-to-sewer conversion programme** to connect those properties, both to protect the shallow water supply and to improve the health of local waterways — and its low-pressure wastewater collection system has grown into the largest of its kind in the country.
+
+What that means practically:
+
+- **Ask whether a specific address is on septic or city sewer.** It varies enormously across the grid and it is not obvious from the street.
+- **Ask whether it sits in a planned conversion area**, and what the connection cost would be.
+- **Understand the financial options.** The city has offered grants covering the full connection cost for households that income-qualify under state guidelines, and a ten-year interest-free payback arrangement for those who don't. Grants are first-come, first-served and funding is limited.
+
+None of this is a reason to avoid a house. It is a reason to know the answer before you make an offer rather than after. Confirm current programme terms and the status of a particular address directly with the city's utility department.
+
 ## Getting around and out
 
 **Palm Beach International Airport** is roughly an hour south depending on traffic; **Orlando** is about two hours north. I-95 and the Turnpike make both straightforward.
@@ -11629,6 +11643,20 @@ The catch is that it's dispersed. Because Port St. Lucie has no single downtown,
 Value-minded and casual. This is a city where people moved for affordability, and the dining reflects that — neighborhood restaurants, brewery hangs, and family spots rather than a fine-dining or nightlife destination.
 
 That's not a criticism so much as an accurate expectation to set. If you want a polished night out, Stuart's historic downtown is about thirty minutes south with a considerably more developed restaurant and bar scene, and Palm Beach County is further but deeper still.
+
+## The chains are not a criticism
+
+Worth saying plainly, because guides like this tend to sneer at them.
+
+Port St. Lucie has a high density of national restaurant chains along its commercial corridors, and for a city built this fast that is a feature rather than a failure. They arrived because the rooftops did, they are predictable, they are open when you need them, and in a grid this large the nearest one is usually close.
+
+Residents who moved here from somewhere with a dense independent scene sometimes take a while to make peace with that. The ones who adjust fastest treat the chains as the weeknight default and save the driving for the independents at the weekend.
+
+## Where to take visitors
+
+The reliable answer, given the geography: **Tradition Square** for a walkable evening with somewhere to sit outside, **Clover Park** if the timing works for a spring training game, and the **river** for a morning before it gets hot.
+
+Trying to show someone Port St. Lucie by driving them around it is a mistake — the city is too big and too dispersed for that to land. Pick two anchors and stay put.
 
 ## Practical local advice
 
