@@ -2598,6 +2598,207 @@ Boca leans polished — fine dining, chic lounges, and elegant patios more than 
     published: true,
     updated: '2026-06-01',
   },
+  {
+    slug: 'boca-raton-downtown-civic-area-memorial-park-master-plan',
+    citySlug: 'boca-raton',
+    cityName: 'Boca Raton',
+    type: 'Local News & Development',
+    order: 11,
+    seoTitle: "Boca Raton's Downtown Civic Area & Memorial Park Master Plan: What It Means for Homeowners",
+    metaTitle: 'Boca Raton Downtown Civic Area Master Plan',
+    metaDescription: "City Council picked a lead consultant for Boca Raton's Downtown Civic Area & Memorial Park master plan — what's proposed, what's still undecided, and why it matters if you own downtown.",
+    primaryKeyword: 'Boca Raton Downtown Civic Area master plan',
+    secondaryKeywords: ['Memorial Park Boca Raton', 'downtown Boca Raton redevelopment', 'Boca Raton civic area plan'],
+    h1: "Boca Raton's Downtown Civic Area & Memorial Park Master Plan: What It Means for Homeowners",
+    heroImage: '/images/boca-raton/boca-raton-park-path.jpg',
+    heroImageCredit: 'Photo by Emily Moynihan / Unsplash',
+    body: `Boca Raton's City Council just took a concrete step toward reshaping the civic heart of downtown, and if you own — or are considering buying — anywhere near Mizner Park, Royal Palm Place, or the Golden Triangle, it's worth understanding exactly what happened and what hasn't happened yet.
+
+## What Council actually decided
+
+At its July 27–28, 2026 meeting, City Council reviewed presentations from three consultant teams shortlisted through the city's competitive Request for Qualifications (RFQ) process: **Brooks + Scarpa Architects**, **Chen Moore & Associates**, and **The Corradino Group**. After the presentations, public comment, and Council discussion, Council ranked the firms and reached consensus to select Chen Moore & Associates as its preferred consultant to lead a long-term master plan for the **Downtown Civic Area and Memorial Park**.
+
+That's the real headline, but precision matters. Chen Moore is the *preferred* consultant — not a signed contract. The City will now begin contract negotiations, and if an agreement can't be reached, talks move to the next-ranked firm instead of stalling the project. Only once a contract is finalized does it return to Council for approval, and only then does the actual planning work start. Nothing about the physical redesign — layout, amenities, budget, phasing — has been decided yet. What's locked in right now is the *process*, not the outcome.
+
+## How an RFQ selection actually works
+
+If you haven't dealt with municipal government before, this stage can look more decisive than it is. A Request for Qualifications isn't a bid on a finished design — it's the city asking firms to prove they're capable of leading the project, based on past work and approach. Winning the RFQ gets a firm to the negotiating table, not to a groundbreaking. That's normal, and it's actually a good sign here: Boca ran a competitive process with three legitimate finalists rather than a single-source selection, which tends to produce a stronger final scope once negotiations start.
+
+## What's actually inside the "Downtown Civic Area"
+
+Boca's Downtown Civic Area is the cluster of public land that sits just west of the Mizner Park and Royal Palm Place retail corridors — anchored by City Hall, the downtown library, and **Memorial Park**, one of the oldest public green spaces left inside the downtown core. Unlike Mizner Park, which is a commercial mixed-use district built in the 1990s, this is genuinely public civic land today, which means any redesign has to balance government function with everyday public open space in a way a shopping district never has to.
+
+A master plan for a site like this typically wrestles with how the park connects on foot to the surrounding downtown grid, what recreational and cultural programming the space can realistically support, parking and access for civic functions, and how the aging civic buildings themselves get addressed over the coming decades. None of that has been decided. The process is explicitly structured to include multiple rounds of resident, business, and stakeholder input before a final direction gets set — so if you have opinions about what downtown Boca's civic core should look like, this is the process to watch, not the finish line.
+
+## Why this matters if you're buying or selling downtown
+
+Downtown civic investment tends to move slowly, but it does eventually show up in property values when it lands. A well-executed master plan for Memorial Park and the surrounding civic campus would sit within walking distance of some of the highest-demand condo buildings downtown and the Royal Palm Place dining district — exactly the kind of long-horizon amenity upgrade that South Florida's downtown markets, from Delray's Old School Square corridor to West Palm's waterfront, have historically priced in well before anything actually breaks ground.
+
+That said, this is early — early enough that it shouldn't be a deciding factor in a purchase decision today. If you're evaluating a downtown Boca condo right now, buy it on its current merits: building quality, HOA reserve health, unit layout, and walkability as it exists today. Treat the master plan as long-term upside, not a guarantee, and don't let a listing description use "the city's about to redo Memorial Park" as a substitute for your own due diligence.
+
+It's also worth reading alongside a related item from the same meeting: downtown parking policy shifted at the same session (see our breakdown of [downtown Boca parking](/blog/boca-raton-downtown-parking-condo-buyers-guide)), and access is exactly the kind of detail any Memorial Park master plan will eventually have to solve for too.
+
+## What happens next — and when
+
+- **Contract negotiations** with Chen Moore & Associates begin now. If talks stall, the City moves to the next-ranked firm instead of restarting the process.
+- **Council approval** of a finalized contract is still required before any planning work starts — that hasn't happened yet.
+- **A public input phase** follows contract approval, with multiple structured opportunities for residents, downtown business owners, and other stakeholders to weigh in on the vision for the site.
+- **No construction timeline exists.** Master plans at this scale typically take months to draft and additional time — often years — to fund and phase. Treat this as a multi-year civic process, not a near-term project.
+
+## Where to verify this yourself
+
+City Council agendas, meeting videos, and future updates on this project are posted directly at [myboca.us](https://www.myboca.us) — that's the most current source, and it will stay current long after this article was published.
+
+## Our take
+
+We like seeing Boca invest seriously in its public downtown core instead of leaving that stretch of the city entirely to private development — Memorial Park is genuinely underused relative to the foot traffic Mizner Park pulls a few blocks away. But we'd caution anyone against rushing a downtown purchase because of it. If you're weighing a downtown Boca condo against a west Boca golf community or a home in Delray, we're glad to talk through the actual trade-offs directly.`,
+    faqs: [
+      { q: 'What is the Downtown Civic Area & Memorial Park Master Plan?', a: "A long-term planning process for Boca Raton's downtown civic land — City Hall, the downtown library, and Memorial Park. City Council has selected a preferred consultant, Chen Moore & Associates, to lead the master plan, but no design, budget, or timeline has been finalized." },
+      { q: "Who is the consultant for Boca Raton's Memorial Park master plan?", a: 'Chen Moore & Associates was ranked the preferred firm after a competitive Request for Qualifications process that also included Brooks + Scarpa Architects and The Corradino Group. The City is now negotiating a contract; if talks fail, the next-ranked firm is next in line.' },
+      { q: 'When will construction start on the Downtown Civic Area project?', a: "No construction timeline has been announced. The project is still in the consultant-selection and contract-negotiation stage, followed by a master planning process with public input before any design or construction phase begins." },
+      { q: "How does this affect Boca Raton downtown property values?", a: "Civic investment near a downtown core can support property values over time, but this project is years from completion. Buyers and sellers should treat it as long-term context, not a factor to price into a transaction today." },
+    ],
+    internalLinks: ['local-guide-to-boca-raton-florida', 'best-neighborhoods-in-boca-raton-florida', 'boca-raton-downtown-parking-condo-buyers-guide'],
+    funFact: "Boca's downtown has pulled off ambitious public-facing placemaking before — Mizner Park itself was one of the first purpose-built mixed-use town centers in the country when it opened in 1990, built on the site of a former shopping mall the city bought back. A serious master plan for Memorial Park and the civic core would be the same kind of long-view bet on downtown's future.",
+    author: 'john',
+    published: true,
+    updated: '2026-07-31',
+  },
+  {
+    slug: 'boca-raton-north-park-skatepark-recreation-complex',
+    citySlug: 'boca-raton',
+    cityName: 'Boca Raton',
+    type: 'Local News & Development',
+    order: 12,
+    seoTitle: "North Park's New Skatepark & Recreation Complex: What's Coming to This Corner of Boca Raton",
+    metaTitle: 'Boca Raton North Park Skatepark & Recreation Plans',
+    metaDescription: 'The Greater Boca Raton Beach & Park District presented conceptual plans for a new skatepark, pump track, and recreation complex at North Park — here is what is proposed and what is still unknown.',
+    primaryKeyword: 'North Park Boca Raton skatepark',
+    secondaryKeywords: ['Boca Raton pump track', 'North Park development Boca Raton', 'new parks in Boca Raton'],
+    h1: "North Park's New Skatepark & Recreation Complex: What's Coming to This Corner of Boca Raton",
+    heroImage: '/images/boca-raton/boca-raton-skatepark.jpg',
+    heroImageCredit: 'Photo by Reinis Brūzītis / Unsplash',
+    body: `If you live near — or are looking at homes near — the northern end of Boca Raton, City Council just previewed something that could turn one of the city's park properties into a genuine active-recreation destination.
+
+## What was actually presented
+
+At the July 27–28, 2026 Council meeting, the **Greater Boca Raton Beach & Park District** gave Council an overview of a proposed skatepark planned as part of the future **North Park** development. The presentation covered conceptual design and proposed location, and — more importantly for anyone tracking the neighborhood long-term — described how the skatepark would fit alongside a much larger list of planned amenities: a **pump track**, a **mountain bike trail**, fitness areas, walking paths, and expanded parking.
+
+This is a conceptual overview, not a groundbreaking. No funding vote, construction timeline, or opening date accompanied it. What exists right now is a design direction the District is pursuing, presented to Council for awareness and discussion — the kind of early-stage update that's worth knowing about, but not worth over-weighting yet.
+
+## Who actually runs Boca's parks? (It's not who you'd assume)
+
+Here's a fact that surprises a lot of people relocating to Boca: the Greater Boca Raton Beach & Park District is a separate, independently elected special taxing district — not a department of City Council. It has its own board, its own budget, and its own millage rate on your property tax bill, distinct from both the City of Boca Raton and Palm Beach County. It's the entity that actually owns and operates most of Boca's beach parks and a large share of its inland parks, including the property behind this project.
+
+That's why this story showed up as an "overview" to City Council rather than a City vote — the District runs the project and holds the purse strings, while Council's role here is closer to coordination and public awareness. If you want to track funding, timeline, or design updates going forward, the District's own public meetings are the more direct source, not City Council's agenda.
+
+## What's actually being proposed
+
+Based on the conceptual overview, North Park's future build-out is aimed at active, multi-generational recreation rather than a single amenity:
+
+- A **skatepark** — the anchor amenity in this presentation
+- A **pump track** — a looped, rolling-terrain course for bikes, skateboards, and scooters
+- A **mountain bike trail**
+- **Fitness areas** for outdoor exercise
+- **Walking paths** connecting the site
+- **Expanded parking** to support all of the above
+
+Taken together, that's a meaningfully more active recreational profile than a lot of Boca's older parks currently offer — closer to the multi-sport, teen-and-family-friendly parks that have become a genuine differentiator in newer Florida park systems.
+
+## Why this matters for nearby homeowners and buyers
+
+Active recreation amenities like skateparks and pump tracks pull a specific, loyal user base — often teens, tweens, and cycling or boarding enthusiasts — and parks built around that use tend to become genuine neighborhood anchors rather than passive green space nobody visits. If you're evaluating a home in this part of Boca and have kids into boarding or biking, or you're a rider yourself, a build-out like this is worth factoring into your longer-term view of the neighborhood, even though it isn't open yet and shouldn't move your timeline.
+
+It's also a reminder that Boca's parks system keeps investing, which is a healthy signal for a city's long-term livability, separate from what City Hall itself is doing downtown — see our piece on the [Downtown Civic Area and Memorial Park master plan](/blog/boca-raton-downtown-civic-area-memorial-park-master-plan) for the other major public-space project moving through the pipeline at the same time.
+
+## What we don't know yet
+
+- **Exact boundaries and address** — North Park was described by function in the presentation, not a confirmed public-facing address. Verify the specific site directly with the Beach & Park District before assuming a location.
+- **Timeline** — no construction start or opening date has been announced.
+- **Budget and funding source** — not detailed in the Council overview.
+- **Final design** — this was a conceptual presentation, and details commonly shift during permitting and community input.
+
+## Where to verify this yourself
+
+The Greater Boca Raton Beach & Park District posts its own meeting agendas and project updates independently of City Council — that's the source to check for the latest status, not this article or a City Council recap.
+
+## Our take
+
+This is genuinely good news for anyone drawn to Boca's northern neighborhoods and an active, outdoors-first lifestyle — but treat it as a "watch this," not a done deal. If a listing anywhere near North Park mentions this project as a selling point, ask when you can actually verify status directly with the Beach & Park District rather than taking a marketing sheet's word for it.`,
+    faqs: [
+      { q: 'What is being built at North Park in Boca Raton?', a: 'A conceptual plan presented to City Council includes a skatepark, pump track, mountain bike trail, fitness areas, walking paths, and expanded parking. No funding, timeline, or final design has been confirmed yet.' },
+      { q: 'Who manages Boca Raton\'s parks?', a: 'The Greater Boca Raton Beach & Park District, an independently elected special taxing district with its own budget and millage rate, manages most of the city\'s beach and inland parks — separate from City Council and Palm Beach County.' },
+      { q: 'Is the North Park skatepark approved and funded?', a: 'Not yet. City Council received a conceptual overview from the Beach & Park District, but no construction funding, timeline, or final design has been announced.' },
+      { q: 'Where is North Park located in Boca Raton?', a: 'The presentation described North Park by function rather than a confirmed public address. Verify the exact site and boundaries directly with the Greater Boca Raton Beach & Park District.' },
+    ],
+    internalLinks: ['best-things-to-do-in-boca-raton-florida', 'best-neighborhoods-in-boca-raton-florida', 'boca-raton-downtown-civic-area-memorial-park-master-plan'],
+    funFact: "Most people assume City Hall runs every park in town, but Boca's beach and park system is actually controlled by an independently elected special district with its own taxing authority — a structure that goes back to a 1970s-era push to keep beach access and park funding insulated from city budget politics. It's a quirk of Florida municipal government that shows up in your tax bill line-items whether you notice it or not.",
+    author: 'christine',
+    published: true,
+    updated: '2026-07-31',
+  },
+  {
+    slug: 'boca-raton-downtown-parking-condo-buyers-guide',
+    citySlug: 'boca-raton',
+    cityName: 'Boca Raton',
+    type: 'Local News & Development',
+    order: 13,
+    seoTitle: 'Downtown Boca Raton Parking: What Condo Buyers Should Know',
+    metaTitle: 'Downtown Boca Raton Parking Guide for Condo Buyers',
+    metaDescription: "How downtown Boca Raton's parking program works — 29-minute free parking, license agreements, and what the CRA's latest direction means for condo buyers.",
+    primaryKeyword: 'downtown Boca Raton parking',
+    secondaryKeywords: ['Boca Raton condo parking', 'Mizner Park parking', 'downtown Boca parking permits'],
+    h1: 'Downtown Boca Raton Parking: What Condo Buyers Should Know',
+    heroImage: '/images/boca-raton/boca-raton-parking-garage.jpg',
+    heroImageCredit: 'Photo by Jay Openiano / Unsplash',
+    body: `Downtown Boca Raton's parking policy shifted meaningfully at the same July 27–28, 2026 Council meeting that covered the Memorial Park master plan — and if you're shopping for a condo anywhere in the Mizner Park or Royal Palm Place corridor, the details are worth understanding before you tour your next unit.
+
+## What the CRA actually reviewed
+
+The **Community Redevelopment Agency (CRA)** — Boca's separate redevelopment funding board, distinct from City Council even though the same elected officials sit on both — received a full overview of downtown Boca's parking program: current operations, revenue and enforcement statistics, existing parking license agreements, and a set of pilot programs aimed at improving availability and convenience. Two pilots stood out: **29-minute free parking** in select downtown zones, and **space occupancy monitoring**, which the City is using to actually measure demand rather than guess at it.
+
+Following the presentation, the CRA reached consensus on staff's recommendation to **continue renewing existing parking license agreements** downtown, while **limiting new agreements to areas with lower parking demand — primarily west of Federal Highway.** Staff will use that direction going forward as it evaluates future public parking requests.
+
+## Translating that into plain English
+
+Here's what that actually means if you're not fluent in redevelopment-agency language: parking east of Federal Highway — closer to Mizner Park, Royal Palm Place, and the beach — is considered higher-demand, and the City isn't planning to add new private parking license agreements there. West of Federal Highway, where demand is lower, new agreements are still on the table.
+
+In practice: if you're buying east of Federal Highway, don't count on new public parking supply showing up to solve a tight spot. The City's direction points toward managing existing supply better — through pilots like the 29-minute program and occupancy monitoring — rather than adding new capacity in the highest-demand zone. West of Federal Highway has more room for new arrangements, which is one reason properties on that side of downtown sometimes come with an easier parking story and, often, a lower price point to match.
+
+## The 29-minute free parking pilot, explained
+
+Twenty-nine minutes is a specific, deliberate number — short enough to serve a quick retail stop or a coffee run, but not long enough for someone to park all day for free. It's a classic downtown parking-management tool: encourage turnover in the spaces that serve shops and restaurants, rather than letting them get occupied by employees or all-day parkers. Paired with occupancy monitoring, it gives the City real data on how downtown parking gets used hour by hour — data that will likely shape whatever comes out of this policy direction next, rather than another round of guesswork.
+
+## What this means if you're buying a downtown condo
+
+A few practical questions worth asking before you buy, informed by this update:
+
+- **How many dedicated spaces come with the unit**, and is guest parking separate, assigned, or first-come? Downtown buildings vary enormously here, and it's rarely spelled out clearly in a listing.
+- **Does the building rely on any city or CRA parking license agreement** for overflow or valet arrangements? If so, ask what happens if that agreement isn't renewed — though Council's direction here favors renewing existing agreements, so this is a lower-risk question than it might sound.
+- **East vs. west of Federal Highway** genuinely matters for street parking pressure — don't assume the same experience on both sides of downtown.
+- **Don't assume free street parking will be available for long visits** — the City's tools are explicitly designed to discourage that east of Federal Highway.
+
+None of this should scare you off a downtown purchase. Boca's downtown parking situation is manageable and is being actively managed with real data rather than left to chance. It's simply a detail worth asking about directly, the same way you'd ask about HOA reserves or a roof's age before writing an offer.
+
+## Where to verify this yourself
+
+CRA agendas, meeting videos, and parking program updates are posted directly at [myboca.us](https://www.myboca.us) — check there for the current status rather than relying on a listing agent's summary.
+
+## Our take
+
+This is a "keep managing what exists, don't flood the highest-demand zone with new agreements" policy — a reasonable, low-drama direction. If you want the full context on what else came out of the same meeting, our breakdown of the [Downtown Civic Area and Memorial Park master plan](/blog/boca-raton-downtown-civic-area-memorial-park-master-plan) covers the other major downtown item Council took up in the same session.`,
+    faqs: [
+      { q: 'Is there free parking in downtown Boca Raton?', a: 'Select downtown zones offer a 29-minute free parking pilot aimed at quick retail and dining trips. It is not designed for all-day parking, and availability varies by location.' },
+      { q: "How does downtown Boca Raton's parking license agreement program work?", a: "The City's Community Redevelopment Agency licenses certain parking arrangements downtown. As of the CRA's latest direction, existing agreements will continue to be renewed, while new agreements are being limited mostly to areas west of Federal Highway." },
+      { q: 'Where is parking hardest to find in downtown Boca Raton?', a: 'East of Federal Highway, closer to Mizner Park, Royal Palm Place, and the beach, is considered the higher-demand zone, and the City is not planning to add new private parking license agreements there.' },
+      { q: 'Do downtown Boca Raton condos come with dedicated parking?', a: "It varies significantly by building. Ask specifically how many dedicated spaces come with a unit, how guest parking is handled, and whether the building depends on any city parking license agreement." },
+    ],
+    internalLinks: ['best-neighborhoods-in-boca-raton-florida', 'boca-raton-downtown-civic-area-memorial-park-master-plan', 'local-guide-to-boca-raton-florida'],
+    funFact: "The CRA and City Council share the same five elected officials, but they're legally separate bodies with separate budgets funded by tax-increment financing rather than the general fund. That's why a parking policy shift can move through a 'CRA consensus' rather than a formal City ordinance — it's a different governance track entirely, even on the same meeting agenda.",
+    author: 'john',
+    published: true,
+    updated: '2026-07-31',
+  },
 
   // ===================== BOYNTON BEACH =====================
   {
