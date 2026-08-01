@@ -8476,38 +8476,100 @@ For those who value natural surroundings, a quieter pace, and convenient access 
     order: 2,
     seoTitle: "A Local's Guide to Hobe Sound, Florida",
     metaTitle: "A Local's Guide to Hobe Sound, Florida",
-    metaDescription: "An insider guide to Hobe Sound, Florida — the downtown, Jonathan Dickinson State Park, the wildlife refuge beach, Jupiter Island, and how to live like a local.",
+    metaDescription: "An insider's guide to Hobe Sound, Florida — reading the Bridge Road and Dixie Highway districts, crossing to Jupiter Island, turtle-season etiquette, and the two-season rhythm of a small Martin County town.",
     primaryKeyword: "Hobe Sound local guide",
     secondaryKeywords: ["Hobe Sound insider tips", "things locals do in Hobe Sound", "moving to Hobe Sound guide"],
     h1: "A Local's Guide to Hobe Sound, Florida",
-    body: `Hobe Sound is tiny and nature-wrapped — easy to learn, lovely to live.
+    body: `Hobe Sound takes about ten minutes to drive end to end and considerably longer to understand, because almost nothing about it is where a newcomer expects.
 
-## Get your bearings
+There's no downtown on US-1. The commercial heart is a side street. The most famous address isn't in Hobe Sound at all. And the rules that govern how you use your own outdoor lighting come from sea turtles.
 
-**US-1 (Federal)** and **Dixie Highway** run through the mainland, with a small **downtown along Bridge Road**. To the west sprawls **Jonathan Dickinson State Park**; to the east, Bridge Road leads over to **Jupiter Island**, the **Hobe Sound National Wildlife Refuge** beach, and **Blowing Rocks Preserve**. Jupiter is just south, Stuart just north.
+Here's the orientation.
 
-## The local rhythm
+## The three streets that matter
 
-Mornings in the state park (a paddle on the Loxahatchee, a hike, or the Hobe Mountain tower), beach time at the refuge, and a quiet downtown lunch. For a real night out, shopping, or more dining, locals drive to Jupiter or Stuart.
+**US-1 (Federal Highway)** is the through-road. It carries the traffic, the plazas, the petrol stations and most of the practical retail. It is not the town — it's the road the town sits beside.
+
+**Dixie Highway** runs parallel, a block east, and is quieter and older. Along with **Bridge Road**, this is where the historic core of Hobe Sound actually is: a small, low-slung commercial district of independent shops, cafés and services that you can walk end to end in a few minutes.
+
+**Bridge Road** runs east-west and is the spine of local life. It crosses US-1, passes the commercial district, and continues east over the Intracoastal to **Jupiter Island**. Everything orients to it.
+
+If you drive US-1 through Hobe Sound and conclude there's nothing here, you've missed the town by one block. This happens constantly.
+
+## Jupiter Island is a different place
+
+Worth being precise about, because the two get conflated and it matters.
+
+The island east of the bridge is a different municipality with a different government and a wildly different price tier from the mainland. When someone says "Hobe Sound is one of the wealthiest places in America," they mean the island, not the town you would be buying in. Our [neighborhood guide](/blog/best-neighborhoods-in-hobe-sound-florida) separates the two properly, and the distinction matters for taxes as much as for expectations.
+
+Practical note for visitors: the island is residential and privacy is taken seriously. Parking is limited and enforced, beach access points are specific, and the through road is not a scenic drive to cruise. Go to the public access points, park where you're permitted, and don't linger in front of houses.
+
+## Turtle season is a rule, not a theme
+
+From roughly **March through October**, this stretch of coast — including the refuge beach — is among the more active loggerhead nesting areas on the Atlantic.
+
+For anyone near the beach, that means real obligations: **lighting ordinances** on beachfront and near-beach property, restrictions on leaving furniture on the sand overnight, and marked nests that must be left alone.
+
+This isn't advisory. Compliance is enforced, and retrofitting non-compliant lighting is a genuine expense that buyers rarely price in. If you're purchasing anywhere near the water, ask specifically what applies to that address.
+
+The upside is that walking the beach in season and finding fresh tracks in the morning sand is one of the genuinely special things about living here.
+
+## The two seasons
+
+**November through April**: busier. Traffic on US-1 builds, the restaurants have waits they don't otherwise have, and the seasonal residents are in. It's also when the weather is close to perfect.
+
+**May through October**: hot, wet, and very quiet. Some businesses reduce hours. The beaches and trails empty out. Locals do their errands, their projects and their best beach mornings in this window.
+
+The single most useful thing a prospective buyer can do is see Hobe Sound in **both**. February shows you a town with more going on than it has; August shows you one with less. The truth is in between and the average of the two is what you'll live in.
+
+## How to actually get things done here
+
+Hobe Sound covers daily life and not much more — groceries, pharmacy, hardware, the basics along US-1, plus the independents on Dixie and Bridge.
+
+For anything beyond that, you drive:
+
+- **Jupiter**, roughly fifteen minutes south, for large-format retail, a wide restaurant range and Palm Beach County services.
+- **Stuart**, a similar distance north, for the county seat, the historic downtown and Martin County's main medical facilities.
+- **I-95 and the Turnpike** are both reachable from the Bridge Road corridor, which keeps airport runs straightforward. Palm Beach International is generally under an hour.
+
+Residents don't experience this as inconvenience. They experience it as living somewhere quiet with a proper town a quarter of an hour away in either direction.
+
+## The county line, and why it keeps coming up
+
+Drive fifteen minutes south and you leave **Martin County** for **Palm Beach County** — and with it, an entire set of public institutions and land-use rules.
+
+It is the single most consequential fifteen minutes in the region. Our [who-should-move guide](/blog/who-should-move-to-hobe-sound-florida) spells out exactly what changes, and our [comparison guide](/blog/hobe-sound-vs-nearby-cities) treats Jupiter as a genuinely different proposition rather than a nearby alternative.
 
 ## The unwritten rules
 
-Embrace the quiet and the nature — that's the whole point. Respect turtle-nesting rules on the refuge beach. And know that the island and the mainland are different worlds; both are Hobe Sound.
+**Wave.** Small-town Florida, two-lane roads, and people who recognise cars. It costs nothing.
+
+**Know your utilities.** Some Hobe Sound properties are on county water and sewer, others on well and septic, and it genuinely varies street by street. Never assume — confirm for the specific address.
+
+**Don't treat the state park as scenery.** It's 11,500 acres and it's the reason you moved here. Use it. Our [things-to-do guide](/blog/best-things-to-do-in-hobe-sound-florida) covers how.
+
+**Respect the refuge and the preserve rules.** Both have restrictions on access, pets and hours, and locals notice when visitors ignore them.
+
+**Be patient on US-1 in season.** There is no alternate route worth taking, and the frustration is optional.
 
 ## Settling in
 
-Pick the mainland or the island, lean on Jupiter and Stuart for amenities, and let the parks and beaches be your backyard. Hobe Sound rewards people who want calm and nature.`,
+Hobe Sound is small enough that showing up twice makes you a regular, and quiet enough that not showing up at all leaves you isolated. The Bridge Road district, the nature centre, the state park volunteer programmes and the local events are the easy entry points.
+
+Then do the thing most residents take a year to do: get on the Loxahatchee River. It's the reason this whole area is protected, it's minutes away, and a surprising number of people who live here have never been on it.`,
     faqs: [
-      { q: "What do locals do in Hobe Sound?", a: "Explore Jonathan Dickinson State Park (kayaking, hiking, the Hobe Mountain tower), enjoy the wildlife refuge beach and Blowing Rocks Preserve, lunch in the small downtown, and drive to Jupiter or Stuart for shopping and nightlife." },
-      { q: "Is Hobe Sound walkable?", a: "It has a small walkable downtown along Bridge Road, but it's largely a quiet, car-first town with nature and beaches reached by car." },
-      { q: "How close is Hobe Sound to Jupiter?", a: "Very — Jupiter is just to the south, a short drive, giving Hobe Sound residents easy access to its beaches, dining, and shopping." },
-      { q: "What's the difference between Hobe Sound and Jupiter Island?", a: "Hobe Sound is the quiet mainland town; Jupiter Island, across the bridge, is an ultra-exclusive barrier island of gated oceanfront estates." },
+      { q: "Where is the centre of Hobe Sound?", a: "Not on US-1. The historic commercial core sits a block east along Dixie Highway and Bridge Road — a small, low-slung district of independent shops, cafés and services that can be walked end to end in a few minutes. Drivers passing through on US-1 routinely miss it entirely." },
+      { q: "Is Jupiter Island part of Hobe Sound?", a: "No. Jupiter Island is its own incorporated town on the barrier island, with its own government, police force and tax structure, and it is among the highest-priced residential addresses in the United States. Hobe Sound is unincorporated Martin County on the mainland with housing ranging from modest to substantial. They share a bridge and a postcode." },
+      { q: "What are the rules during sea turtle season in Hobe Sound?", a: "From roughly March through October, lighting ordinances apply to beachfront and near-beach property, furniture generally cannot be left on the sand overnight, and marked nests must be left undisturbed. This stretch of coast is among the more active loggerhead nesting areas on the Atlantic. Compliance is enforced and retrofitting non-compliant lighting is a real expense — ask what applies to a specific address before buying." },
+      { q: "How far is Hobe Sound from Jupiter and Stuart?", a: "Roughly fifteen minutes in either direction — Jupiter to the south for large-format retail and a wider restaurant selection, Stuart to the north for the county seat, historic downtown and Martin County’s main medical facilities. I-95 and the Turnpike are reachable from the Bridge Road corridor, and Palm Beach International is generally under an hour." },
+      { q: "What is the difference between Martin County and Palm Beach County here?", a: "The county line sits just south of Hobe Sound, so driving fifteen minutes to Jupiter crosses into Palm Beach County. That changes school district, county services, tax rate, permitting office and the growth rules governing nearby development. Buyers comparing Hobe Sound with Jupiter are comparing two counties, not two neighborhoods." },
+      { q: "When is the best time to visit Hobe Sound before buying?", a: "Both seasons, if possible. November through April is busy, with heavier US-1 traffic, restaurant waits and seasonal residents in town, plus near-perfect weather. May through October is hot, quiet and stormy with some businesses reducing hours. Touring only in February or only in August gives a distorted picture in opposite directions." },
     ],
     internalLinks: ["what-its-really-like-living-in-hobe-sound-florida", "best-things-to-do-in-hobe-sound-florida", "hidden-gems-in-hobe-sound-florida"],
-    funFact: "The Loxahatchee River is Florida's only federally designated Wild and Scenic River — a status it earned in 1985. That designation helps protect it from development and keeps the stretch through Jonathan Dickinson State Park essentially unchanged from what Trapper Nelson himself would have seen.",
+    funFact: "Most people driving US-1 through Hobe Sound conclude there is nothing there. The actual town centre is one block east, along Dixie Highway and Bridge Road — a compact district of independent shops and cafés you can walk end to end in a few minutes. It is the most consistently missed thing in the community, including by people who have driven past it for years.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'best-neighborhoods-in-hobe-sound-florida',
@@ -8517,34 +8579,112 @@ Pick the mainland or the island, lean on Jupiter and Stuart for amenities, and l
     order: 3,
     seoTitle: "Best Neighborhoods in Hobe Sound, Florida",
     metaTitle: "Best Neighborhoods in Hobe Sound, Florida",
-    metaDescription: "From ultra-exclusive Jupiter Island to attainable mainland Hobe Sound and golf communities — a local guide to the best neighborhoods in Hobe Sound, Florida.",
+    metaDescription: "A local agent's guide to Hobe Sound, Florida neighborhoods — the enormous gap between mainland and Jupiter Island, the established mainland communities, and what Atlantic Fields is adding off Bridge Road.",
     primaryKeyword: "best neighborhoods in Hobe Sound Florida",
     secondaryKeywords: ["where to live in Hobe Sound", "Jupiter Island", "Hobe Sound golf communities", "Mariner Sands"],
     h1: "Best Neighborhoods in Hobe Sound, Florida",
-    body: `Hobe Sound spans the widest range imaginable — from attainable mainland homes to some of America's priciest estates. By lifestyle:
+    body: `Hobe Sound has the widest price range of any community its size in the region, and buyers who don't understand why come away with a completely distorted sense of the market.
 
-**Ultra-luxury → Jupiter Island.** Gated oceanfront and riverfront estates among the highest-priced in the country, on very large lots with extensive privacy screening.
+The reason is that one postcode contains two entirely separate markets, plus a third being built right now.
 
-**Golf & country club → Mariner Sands, The Preserve & Lost Lake.** Established gated golf communities with clubhouses, courses, and a high share of seasonal ownership.
+## First: mainland or island
 
-**Attainable mainland → central Hobe Sound.** Modest, old-Florida single-family neighborhoods that offer a genuinely attainable way into this nature-rich area.
+**Jupiter Island** is a separate incorporated town on the barrier island, with its own government, its own police department and its own tax structure. Oceanfront and Intracoastal estates on large parcels, extreme privacy, and prices among the highest in the country.
 
-**Waterfront pockets → Intracoastal-adjacent homes.** For boaters who want water access without Jupiter Island prices.
+**Mainland Hobe Sound** is unincorporated Martin County. Modest older homes, established subdivisions, manufactured-home communities, some acreage, and a small number of waterfront properties along the Intracoastal.
 
-**Quiet & nature-adjacent → near the state park and refuge.** For buyers who want green space and calm above all.
+Search results that mix the two produce averages that describe nothing real. Filter by municipality before you draw any conclusion about "Hobe Sound prices."
 
-**How to choose:** private island living, a golf-community lifestyle, attainable mainland charm, or quiet nature access? Hobe Sound's price range — from modest cottages to nine-figure oceanfront estates — is unlike anywhere nearby.`,
+## The established mainland communities
+
+This is where most people actually buy.
+
+**Hobe Sound Hills, Hobe Sound Ridge and the older platted neighborhoods** near the Bridge Road and Dixie corridor. Older single-family homes on decent lots, mature trees, close to the commercial district and the beach access. These are the character-heavy options and they carry the diligence that older stock always does: roof, electrical, plumbing, windows.
+
+**Heritage Ridge.** A golf-oriented community on the west side of US-1 with a mix of single-family homes, villas and condominiums at some of the more attainable price points in the area. Popular with buyers who want low-maintenance living without an island budget.
+
+**Poinciana Gardens and the smaller mid-century subdivisions.** Modest, established, and the practical entry point into the community for owner-occupiers.
+
+**Double Tree and the newer gated pockets.** Later construction, HOA structure, and generally better insurance outcomes than the older stock by virtue of build date.
+
+## Manufactured and 55+ communities
+
+Worth naming plainly, because they're a meaningful share of the local housing supply and they get skipped in guides that shouldn't skip them.
+
+Hobe Sound has several **manufactured-home communities** and **age-restricted (55+) communities**, and for a lot of buyers they are the realistic route to living in this area at all.
+
+The diligence is different from a stick-built house:
+
+- **Land-lease versus owned lot** — this is the first question and it changes everything about the transaction and the financing.
+- **Community financials and any pending assessments.**
+- **Age and wind rating of the structure**, which drives insurance availability directly.
+- **Occupancy rules** on age-restricted communities, which vary in how they're written.
+
+Age-restricted housing is lawful and often excellent value, with lower maintenance and a built-in social structure. Don't dismiss the category — just understand what you're buying.
+
+## Acreage and the western side
+
+West of US-1 there are pockets of larger parcels and semi-rural property, including some with agricultural zoning.
+
+The utility question is the important one out here, and it does not follow neighbourhood lines — confirm the service situation for the specific address rather than assuming, and price in the diligence our [cost of living guide](/blog/cost-of-living-in-hobe-sound-florida) sets out.
+
+## Waterfront on the mainland
+
+Limited, and priced accordingly. There are Intracoastal-facing properties on the mainland side with dockage.
+
+The standard water-access diligence applies: **depth at the dock at low tide, bridge clearance between you and the inlet, and running time to open water for your specific vessel.** Being on the Intracoastal is not the same as having unobstructed ocean access, and listing language rarely makes the distinction.
+
+## The new one: Atlantic Fields
+
+The significant change to this market, and it's substantial.
+
+**Atlantic Fields** is a Discovery Land Company private club and golf community off **Bridge Road**, on roughly **1,500 acres** — the former Becker Tree Farm, adjacent to the Hobe Sound Polo Club and near Grove XXIII.
+
+The plan is around **317 home sites** on roughly 420 acres, with more than 1,000 acres kept as nature, wetlands and a working tree farm. Amenities include an **18-hole Tom Fazio course**, extensive racquet sports, an equestrian programme and an organic farm supplying the club's dining.
+
+Three things a buyer should take from it:
+
+**It is a private club community at a high price tier**, and membership structure is integral to the purchase rather than optional. Confirm exactly what a purchase includes and what it obligates.
+
+**It changes the top of the Hobe Sound mainland market**, which historically had no product like this — the high end here was Jupiter Island or nothing.
+
+**It concentrates development and preserves the majority of the site**, which is broadly how large projects get approved under Martin County's growth framework — the same logic behind Newfield in Palm City, covered in our [Palm City guide](/blog/best-neighborhoods-in-palm-city-florida).
+
+Verify current phases, pricing and availability directly. Projects at this scale change.
+
+## What to expect from the inventory
+
+Worth setting expectations, because this market behaves differently from a large suburb.
+
+**It is thin.** Transaction volumes are low and there can be long stretches with nothing available that matches a specific set of criteria. Buyers who need to move on a fixed date should start earlier here than they would further south.
+
+**Comparable sales are sparse**, which makes pricing harder to establish confidently and makes local knowledge worth more than a portal estimate.
+
+**Condition varies enormously.** Much of the mainland stock is decades old, and the gap between a well-maintained 1970s home and a neglected one is far wider than the listing photographs suggest.
+
+The upside of a thin market is that competition on any given property is often lighter than in a deeper one. The downside is that waiting is frequently part of the process.
+
+## Choosing, in order
+
+1. **Island or mainland?** Answer this first and the search halves.
+2. **Owned lot or land-lease?** If you're looking at manufactured housing, this precedes everything else.
+3. **County water or well and septic?** Street-by-street, and it affects both cost and diligence.
+4. **Club community or not?** Atlantic Fields and Heritage Ridge are entirely different propositions, and membership obligations belong in the monthly number.
+5. **Near the beach?** If so, turtle-season lighting compliance applies — our [local's guide](/blog/local-guide-to-hobe-sound-florida) explains what that involves.
+6. **Then price**, with carrying costs from our [cost of living guide](/blog/cost-of-living-in-hobe-sound-florida) included.`,
     faqs: [
-      { q: "What is the best neighborhood in Hobe Sound?", a: "It depends entirely on budget and lifestyle — Jupiter Island for ultra-luxury estates, Mariner Sands and other golf communities for amenities, and central mainland Hobe Sound for attainable old-Florida homes." },
-      { q: "Is Jupiter Island expensive?", a: "Extremely — it's among the most exclusive and expensive real estate in the United States, with gated oceanfront estates." },
-      { q: "Are there affordable homes in Hobe Sound?", a: "Yes — the mainland offers genuinely attainable single-family homes, a stark contrast to ultra-pricey Jupiter Island across the bridge." },
-      { q: "Are there golf communities in Hobe Sound?", a: "Yes — Mariner Sands, The Preserve, and Lost Lake are established gated golf communities with courses, clubhouses, and membership structures." },
+      { q: "What is the best neighborhood in Hobe Sound, Florida?", a: "It depends on budget and lifestyle. Heritage Ridge offers golf-oriented living at attainable prices, the older platted neighborhoods near Bridge Road and Dixie have character and proximity to the commercial district and beach, Poinciana Gardens and similar mid-century subdivisions are the practical entry point, and Atlantic Fields is the new high-end private club community. Jupiter Island is a separate incorporated town at an entirely different price tier." },
+      { q: "Why do Hobe Sound home prices vary so much?", a: "Because one postcode contains two separate markets. Jupiter Island is its own incorporated town with oceanfront and Intracoastal estates among the highest-priced in the country, while mainland Hobe Sound is unincorporated Martin County with modest older homes, established subdivisions, manufactured-home communities and some acreage. Averages that combine the two describe nothing real — filter by municipality." },
+      { q: "What is Atlantic Fields in Hobe Sound?", a: "A Discovery Land Company private club and golf community off Bridge Road on roughly 1,500 acres — the former Becker Tree Farm, adjacent to the Hobe Sound Polo Club. The plan is around 317 home sites on approximately 420 acres, with over 1,000 acres kept as nature, wetlands and a working tree farm, an 18-hole Tom Fazio course, racquet sports, an equestrian programme and an organic farm. Membership structure is integral to a purchase — confirm what is included and obligated." },
+      { q: "Are there affordable homes in Hobe Sound?", a: "Yes. Heritage Ridge, Poinciana Gardens and the older mid-century subdivisions offer the more attainable single-family, villa and condominium options, and the area also has manufactured-home and age-restricted 55+ communities that are a realistic route into the community for many buyers." },
+      { q: "What should I check when buying a manufactured home in Hobe Sound?", a: "Start with whether the lot is owned or land-leased, since that changes the transaction and the financing entirely. Then review community financials and any pending assessments, the age and wind rating of the structure since that drives insurance availability, and — in age-restricted communities — exactly how the occupancy rules are written." },
+      { q: "Do Hobe Sound homes have county water or well and septic?", a: "Both occur, and which one applies does not follow neighborhood lines — it can differ between adjacent streets. Confirm the service situation for the specific address during due diligence rather than assuming, and where a property relies on private systems, price in testing, inspection, maintenance and eventual replacement." },
     ],
     internalLinks: ["what-its-really-like-living-in-hobe-sound-florida", "cost-of-living-in-hobe-sound-florida", "who-should-move-to-hobe-sound-florida"],
-    funFact: "Jupiter Island is a narrow barrier island less than a mile wide in places, yet it consistently ranks among the highest per-capita income zip codes in the United States. Much of the island's inventory is seasonally occupied, and the town's zoning, private roads, and limited public access are the reason its privacy is so often cited.",
+    funFact: "Hobe Sound and Jupiter Island share a postcode and almost nothing else. The island is a separate incorporated town with its own police force and some of the highest home prices in the United States; the mainland is unincorporated Martin County where a modest older house on a good lot is the norm. Any statistic quoted for 'Hobe Sound' that blends the two is describing a place that does not exist.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'best-things-to-do-in-hobe-sound-florida',
@@ -8554,36 +8694,116 @@ Pick the mainland or the island, lean on Jupiter and Stuart for amenities, and l
     order: 4,
     seoTitle: "Best Things to Do in Hobe Sound, Florida",
     metaTitle: "Best Things to Do in Hobe Sound, Florida",
-    metaDescription: "From Jonathan Dickinson State Park to the wildlife refuge beach and Blowing Rocks — a local guide to the best things to do in Hobe Sound, Florida.",
+    metaDescription: "The best things to do in Hobe Sound, Florida — 11,500 acres at Jonathan Dickinson, the highest natural point south of Lake Okeechobee, Trapper Nelson's homestead, Blowing Rocks and the refuge beach.",
     primaryKeyword: "things to do in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound attractions", "Jonathan Dickinson State Park", "Hobe Sound National Wildlife Refuge", "what to do in Hobe Sound"],
     h1: "Best Things to Do in Hobe Sound, Florida",
-    body: `Hobe Sound is one of the most nature-rich spots on the whole coast — its attractions are wild and beautiful.
+    body: `Hobe Sound's attractions are almost entirely outdoors, almost entirely protected land, and considerably better than a town this size has any right to.
 
-**Explore Jonathan Dickinson State Park.** A massive, gorgeous park — climb the **Hobe Mountain** tower for sweeping views, kayak or take a boat tour up the **Loxahatchee River** to historic **Trapper Nelson's**, camp, and hike or bike miles of trails. A genuine Florida treasure.
+If you moved here for shopping and nightlife you made an error. If you moved here for this, you'll never run out.
 
-**Hit the Hobe Sound National Wildlife Refuge.** A pristine, uncrowded beach and one of the most important sea-turtle nesting sites in the country, plus a nature center and scrub trails.
+## Jonathan Dickinson State Park
 
-**See Blowing Rocks Preserve.** On Jupiter Island, this limestone shoreline shoots saltwater skyward when the winter surf is up — wild and unforgettable.
+The centrepiece, and it's enormous: **11,500 acres**, the largest state park in Southeast Florida, containing **sixteen distinct natural communities** — coastal sand hills, sand pine scrub, pine flatwoods, upland lakes, cypress and river frontage.
 
-**Wander the downtown.** The small Bridge Road downtown has local shops and old-Florida charm.
+Four things to do inside it:
 
-**Boat and fish.** The Intracoastal, Peck Lake, and the inlet offer excellent boating, fishing, and snorkeling.
+**Climb Hobe Mountain.** An ancient sand dune standing **86 feet above sea level** — the **highest natural point south of Lake Okeechobee**, with an observation tower on top. It's a short walk from the car park and the view runs from the Atlantic to the interior. Everyone should do this once; most residents haven't.
 
-**Pop to Jupiter.** The lighthouse, beaches, and dining are minutes south.
+**Get on the Loxahatchee River.** Named a **National Wild and Scenic River in 1985** — Florida's first — and it runs through the park beneath a canopy of old cypress. Kayak, canoe or take the boat tour. It is the single best thing to do in this part of the county.
 
-In summer, do the park and beach early — and the shaded Loxahatchee River paddle is perfect for beating the heat.`,
+**Visit Trapper Nelson's homestead.** Ranger-guided tours run year-round to the 1930s pioneer camp of the man they called the Wild Man of the Loxahatchee. It's up the river, it's reached by water, and it's one of the more genuinely atmospheric historic sites in the state.
+
+**Walk or ride the trails.** Miles of hiking, off-road cycling and equestrian trails through scrub and flatwoods, plus camping if you want it.
+
+Check current hours, tour schedules and river conditions before going — tours book up and river access varies.
+
+## Blowing Rocks Preserve
+
+South on Jupiter Island, and unlike anything else on this coast.
+
+A shoreline of eroded **Anastasia limestone** — fossil-shell rock — that the Atlantic has cut into ledges, pools and blowholes. At high tide with an easterly swell running, water forces up through the holes and spouts, sometimes dramatically.
+
+The preserve is managed by The Nature Conservancy. Parking is limited and enforced, hours are set, and there's an admission arrangement — check before driving over.
+
+**Timing is everything.** Go at high tide for the spouts, at low tide for the rock formations and pools. Going at the wrong tide and concluding it's overrated is the classic first-visit mistake.
+
+## Hobe Sound National Wildlife Refuge
+
+Two separate pieces: a mainland tract of sand pine scrub, and a length of **beach on Jupiter Island** that ranks among the more active **loggerhead sea turtle nesting** areas on the Atlantic coast.
+
+The mainland section has a nature centre and short interpretive trails through scrub — a habitat most visitors drive past without recognising as rare. Florida scrub is one of the more threatened ecosystems in the country and holds species found nowhere else.
+
+Nesting season runs roughly **March through October.** Guided turtle walks are offered in some seasons through local organisations and they book out well in advance — worth planning for rather than hoping.
+
+## The beaches
+
+**Hobe Sound Beach**, at the end of Bridge Road on the island, is the main public access — a proper beach with facilities and, in a Martin County way, no development looming over it.
+
+Further south, the refuge beach is wilder and less serviced.
+
+What you get here that you don't get further south is **space.** These beaches are not empty, but they are not Palm Beach County busy either, and outside the winter months a long walk will pass very few people.
+
+## Peck Lake and the Intracoastal
+
+For anyone with a boat, **Peck Lake** is the local institution — a stretch of the Intracoastal where boats anchor off and you can walk across the barrier island to an undeveloped ocean beach.
+
+It's a weekend social scene, it's excellent snorkelling by local standards, and it's the sort of thing that only exists where the land behind the beach is protected. Our [hidden gems guide](/blog/hidden-gems-in-hobe-sound-florida) covers the quieter water.
+
+## Fishing
+
+Inshore in the Intracoastal, surf fishing from the beaches, and offshore out of the nearby inlets. The Gulf Stream runs close to this stretch of coast, which is why the offshore fishing in this region is what it is.
+
+A licence and a rod covers the shore option. For offshore, charters run out of Jupiter and Stuart.
+
+## The Bridge Road district
+
+Not an attraction exactly, but the thing to do on a Saturday morning: walk the small commercial district, get coffee, browse the independents.
+
+It takes twenty minutes, which is the point. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-hobe-sound-florida) covers what's there.
+
+## Fifteen minutes in either direction
+
+Honest framing: for a wider evening, you drive. **Jupiter** south for restaurants, retail and the beaches at the inlet. **Stuart** north for the historic downtown, the theatre and the market.
+
+Residents treat this as normal rather than as a shortfall — quiet town, two proper towns nearby.
+
+## Camping, properly
+
+Jonathan Dickinson has campgrounds and cabins, and it is one of the better places in South Florida to actually camp rather than park a caravan on a slab.
+
+For residents this is an underrated option — a night in the park twenty minutes from home, in a landscape that feels genuinely remote once the day visitors leave. Book ahead; the cooler months fill early.
+
+## Cycling and riding the back trails
+
+Beyond the short walks, the park has a substantial network open to **off-road cycling** and **horses**.
+
+Sandy, exposed and usually empty. For anyone who rides, it is a serious amenity — and it is largely invisible to visitors who come for the river tour and the tower and leave.
+
+## Doing it in summer
+
+Everything above is a morning activity from June through September. Heat and afternoon storms are reliable rather than occasional, and the scrub and flatwoods offer limited shade.
+
+Start at seven. The compensation is that the park, the preserve and the beaches are all at their emptiest.
+
+## If you only do two things
+
+Climb Hobe Mountain, and get on the Loxahatchee.
+
+One takes twenty minutes and reframes the geography. The other explains why 11,500 acres of this county will never be built on.`,
     faqs: [
-      { q: "What is there to do in Hobe Sound?", a: "Explore Jonathan Dickinson State Park (Hobe Mountain tower, Loxahatchee River kayaking, Trapper Nelson's, camping, trails), enjoy the Hobe Sound National Wildlife Refuge beach, see Blowing Rocks Preserve, wander the downtown, and boat and fish the Intracoastal." },
-      { q: "What is Jonathan Dickinson State Park?", a: "A large state park in Hobe Sound with the Hobe Mountain observation tower, Loxahatchee River kayaking and boat tours to historic Trapper Nelson's, camping, and miles of hiking and biking trails." },
-      { q: "Is the Hobe Sound beach worth visiting?", a: "Yes — the Hobe Sound National Wildlife Refuge beach is pristine and uncrowded, and a major sea-turtle nesting site." },
-      { q: "What is Blowing Rocks Preserve?", a: "A limestone shoreline on Jupiter Island near Hobe Sound that shoots saltwater into the air during high winter surf — a dramatic, unique natural sight." },
+      { q: "What is there to do in Hobe Sound, Florida?", a: "Almost everything is outdoors: Jonathan Dickinson State Park with the Hobe Mountain observation tower, the Loxahatchee River and Trapper Nelson’s homestead; Blowing Rocks Preserve on Jupiter Island; the Hobe Sound National Wildlife Refuge and its nature centre; Hobe Sound Beach; Peck Lake for boaters; and inshore, surf and offshore fishing. The small Bridge Road commercial district covers a Saturday morning." },
+      { q: "How big is Jonathan Dickinson State Park?", a: "About 11,500 acres, making it the largest state park in Southeast Florida, and it contains sixteen distinct natural communities including coastal sand hills, sand pine scrub, pine flatwoods, upland lakes and river frontage. It offers hiking, off-road cycling and equestrian trails, camping, kayaking and boat tours." },
+      { q: "What is Hobe Mountain?", a: "An ancient sand dune inside Jonathan Dickinson State Park standing 86 feet above sea level — the highest natural point south of Lake Okeechobee — with an observation tower at the top reached by a short walk from the car park. The view extends from the Atlantic across the interior." },
+      { q: "Who was Trapper Nelson?", a: "A 1930s pioneer known as the Wild Man of the Loxahatchee, whose homestead sits upriver inside Jonathan Dickinson State Park and is reached by water. Ranger-guided tours run year round. Tours book up, so check schedules and reserve ahead." },
+      { q: "When is the best time to visit Blowing Rocks Preserve?", a: "It depends what you want to see. Go at high tide, ideally with an easterly swell running, for the water spouting through the blowholes in the Anastasia limestone. Go at low tide to explore the rock ledges and pools. Visiting at the wrong tide and concluding the site is overrated is the classic first-time mistake. Parking is limited, hours are set and an admission arrangement applies — check before going." },
+      { q: "Can you see sea turtles in Hobe Sound?", a: "The Hobe Sound National Wildlife Refuge beach on Jupiter Island is among the more active loggerhead nesting areas on the Atlantic coast, with nesting season running roughly March through October. Guided turtle walks are offered in some seasons through local organisations and book out well in advance." },
     ],
     internalLinks: ["hidden-gems-in-hobe-sound-florida", "local-guide-to-hobe-sound-florida", "best-places-to-eat-drink-hang-out-in-hobe-sound-florida"],
-    funFact: "Trapper Nelson was a real person — Vince 'Trapper' Nelson homesteaded deep in what's now Jonathan Dickinson State Park from the 1930s until his death in 1968. He ran a small zoo, trapped animals, and lived completely off the land. His story is a genuinely fascinating piece of old Florida that most people don't know exists.",
+    funFact: "The highest natural point in Florida south of Lake Okeechobee is a sand dune in Hobe Sound. Hobe Mountain, inside Jonathan Dickinson State Park, stands 86 feet above sea level with an observation tower on top and a short walk from the car park. In a landscape this flat, 86 feet is genuinely a viewpoint — and most people who live within ten minutes of it have never been up.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'who-should-move-to-hobe-sound-florida',
@@ -8593,37 +8813,118 @@ In summer, do the park and beach early — and the shaded Loxahatchee River padd
     order: 5,
     seoTitle: "Who Should Move to Hobe Sound, Florida (And Who Shouldn't)",
     metaTitle: "Who Should Move to Hobe Sound, FL",
-    metaDescription: "Hobe Sound isn't for everyone. An honest look at who thrives in this quiet, nature-rich town next to Jupiter Island — and who would be happier with more action.",
+    metaDescription: "An honest look at who fits in Hobe Sound, Florida — why the Martin County line matters more than the fifteen-minute drive to Jupiter, and who would be happier somewhere with more going on.",
     primaryKeyword: "who should move to Hobe Sound Florida",
     secondaryKeywords: ["is Hobe Sound right for me", "should I move to Hobe Sound", "who lives in Hobe Sound"],
     h1: "Who Should Move to Hobe Sound, Florida (And Who Shouldn't)",
-    body: `Hobe Sound is quiet, natural, and small — wonderful for some, too sleepy for others.
+    body: `Hobe Sound is a small, quiet, unincorporated town wrapped in protected land, sitting between two better-known places. That is either exactly what you want or a slow disappointment, and there isn't much middle ground.
 
-**You'll love Hobe Sound if you:**
-- **Love nature** — Jonathan Dickinson, the refuge beach, and the rivers are unbeatable.
-- **Want quiet and old-Florida charm** — a slow, small-town pace.
-- **Want to be near Jupiter** without Jupiter's bustle or prices (on the mainland).
-- **Want low density, golf communities, or a seasonal residence.**
-- **Want maximum privacy and lot size** — Jupiter Island, if budget allows.
-- **Value attainable homes** near great beaches and parks (mainland).
+## The decision that actually matters: the county line
 
-**You might look elsewhere if you:**
-- **Want shopping, dining, and nightlife** at your doorstep — it's limited here.
-- **Want a walkable, lively downtown** — Stuart or Jupiter fit better.
-- **Need lots of action** — Hobe Sound is intentionally quiet.
+Nearly everyone who seriously considers Hobe Sound is also considering **Jupiter**, fifteen minutes south. It looks like a small trade-off. It isn't.
 
-**Gut-check:** if "kayaking the Loxahatchee, a quiet beach, an old-Florida town, and Jupiter minutes away" sounds like peace, Hobe Sound is a gem. If you want energy and amenities, look to Jupiter or Stuart.`,
+Jupiter is in **Palm Beach County.** Hobe Sound is in **Martin County.** Crossing that line changes:
+
+- **Your school district** — Martin County versus Palm Beach County, two entirely separate systems.
+- **Your county services and your tax rate.**
+- **Your permitting and building department.**
+- **The growth rules governing what can be built around you** — Martin County's framework is materially more restrictive, which is much of why Hobe Sound looks the way it does.
+
+So the honest question isn't "Hobe Sound or Jupiter." It's **which county do you want to live in**, and everything else follows. Our [comparison guide](/blog/hobe-sound-vs-nearby-cities) works through it.
+
+## You'll likely thrive here if you:
+
+**Want protected land at the door.** Jonathan Dickinson's 11,500 acres, the wildlife refuge, the preserve, and a river with a federal Wild and Scenic designation. If the outdoors is how you spend your time, very little on this coast compares, and our [things-to-do guide](/blog/best-things-to-do-in-hobe-sound-florida) lays out what is there.
+
+**Want quiet, genuinely.** Not "quieter than Miami." Actually quiet. Hobe Sound is a place where very little happens, on purpose.
+
+**Work remotely.** This is the profile the town increasingly suits. The main drawback — a small local economy and a drive to anywhere substantial — largely disappears, and everything else stays.
+
+**Are retiring or semi-retired.** Low pace, good access to healthcare in Stuart and Jupiter, and a small community you can become part of quickly.
+
+**Want Martin County's growth rules.** Some buyers choose this area explicitly because of what can't be built here. That's a legitimate and well-informed reason.
+
+**Are comfortable driving fifteen minutes for anything beyond basics.** This is the crux and honest buyers know their answer.
+
+## You should probably look elsewhere if you:
+
+**Want things to do within walking distance.** The Bridge Road district is charming and takes twenty minutes to exhaust.
+
+**Want nightlife or a restaurant scene.** Neither exists here. Both are fifteen minutes away.
+
+**Need a local job market.** Hobe Sound's economy is small even by Martin County standards. Most working residents commute or work remotely.
+
+**Have school-age children and prefer Palm Beach County's district.** Then buy south of the line and accept the price difference. Verify current school zoning for any address directly with the district.
+
+**Want new construction at attainable prices.** The new inventory here is at the top of the market. Attainable new-build means looking north to St. Lucie County.
+
+## Run the commute, and be realistic
+
+Approximate weekday drives:
+
+- **Jupiter:** roughly 15 minutes.
+- **Stuart:** roughly 15 minutes.
+- **Palm Beach Gardens:** commonly 25 to 35 minutes.
+- **West Palm Beach:** typically 45 minutes to an hour.
+- **Palm Beach International:** generally under an hour.
+- **Boca Raton or further south:** a serious daily commitment.
+
+The Bridge Road corridor gets you to I-95 and the Turnpike, which helps. But US-1 through town is the local bottleneck in season, and there's no useful alternate.
+
+**Drive it on a Tuesday at your actual hour**, in February if you can.
+
+## The seasonal and second-home buyer
+
+A meaningful share of this market, and the calculation is different.
+
+Hobe Sound works well as a winter address precisely because its weakest season is the one you would not be here for. You get the good months — clear weather, the park at its best, the beaches comfortable — and skip the hot, empty stretch that residents have to absorb.
+
+Two things to think through:
+
+**A property left empty needs managing.** Humidity, storms, insurance requirements and general upkeep do not pause because you are elsewhere. Budget for someone to look after it.
+
+**Rental restrictions vary.** If you intend to let it when you are not here, check what the community and the county actually permit before assuming. Rules differ significantly between neighborhoods and have been tightening in parts of Florida.
+
+## If you have school-age children
+
+Hobe Sound is served by the **Martin County School District** — a small district, which means fewer options and shorter chains of command than a large county system, and that reads as a benefit or a limitation depending on what you want.
+
+The relevant comparison is again the county line: fifteen minutes south puts you in a different district entirely. Neither answer is universally better and both change over time.
+
+Grades and attendance boundaries are reassigned periodically. **Verify current zoning for a specific address directly with the district** rather than relying on a listing, a portal or a neighbour's recollection.
+
+## The three profiles that do best
+
+**The outdoors-first buyer.** Someone who will genuinely use the park, the river and the beaches weekly. This town rewards that more than almost anywhere in South Florida, and the people who do it are the happiest residents here.
+
+**The remote professional who wanted out of the busy coast.** Space, quiet, protected land, and two towns fifteen minutes away in opposite directions.
+
+**The retiree who wants small.** Not a gated community with an amenity centre — an actual small town, where the same faces turn up, and the natural world is the entertainment.
+
+## Rent a season first
+
+Especially here, because the thing that determines whether you'll be happy is how you respond to quiet — and that's not measurable on a viewing trip.
+
+Live through one February and one August. If the town still feels peaceful rather than empty in August, buy.
+
+## The gut check
+
+If "11,500 acres of state park, a Wild and Scenic river, a beach with turtle nests, and a commercial district you can walk in twenty minutes" reads as close to ideal — this is your town, and there is genuinely nowhere else quite like it on this coast.
+
+If part of you was waiting for the list to include something to do in the evening, that instinct is correct and worth listening to. Jupiter is fifteen minutes south, costs more, and will make you happier.`,
     faqs: [
-      { q: "Is Hobe Sound good for retirees?", a: "Hobe Sound offers low density, extensive preserve and state park land, gated golf communities with single-level home options, and Jupiter and Stuart both within 15 minutes for medical care and retail." },
-      { q: "Is Hobe Sound good for families?", a: "Hobe Sound is low-density and surrounded by state park and refuge land, with the Martin County school district and The Pine School nearby. Retail, dining, and organized recreation are limited locally and concentrated in Jupiter, Palm City, and Stuart. Verify school assignments with the district." },
-      { q: "Who lives in Hobe Sound?", a: "Hobe Sound spans one of the widest price ranges in the region — mainland single-family homes and older cottages, gated golf communities, and oceanfront estates on Jupiter Island, one of the highest-priced ZIP codes in the United States. Much of the surrounding land is state park, wildlife refuge, and preserve." },
-      { q: "Is Hobe Sound too quiet?", a: "For people wanting nightlife and lots of amenities, possibly — but that quiet, natural calm is exactly why its residents love it, with Jupiter and Stuart close for more." },
+      { q: "Who should move to Hobe Sound, Florida?", a: "It suits outdoors-oriented buyers who will genuinely use the state park, river and beaches; remote workers; retirees and semi-retirees who want a small town rather than a gated community; and anyone who specifically wants Martin County’s more restrictive growth rules. It works for people comfortable driving fifteen minutes for anything beyond basic errands." },
+      { q: "Should I buy in Hobe Sound or Jupiter?", a: "The real question is which county you want. Jupiter is in Palm Beach County and Hobe Sound is in Martin County, and the line between them changes school district, county services, tax rate, permitting and the growth rules governing nearby development. Jupiter has far more amenities and costs more; Hobe Sound is quieter, cheaper and wrapped in protected land." },
+      { q: "Who should not move to Hobe Sound?", a: "Buyers who want walkable amenities, nightlife or a restaurant scene, anyone who needs a local job market, households who specifically prefer the Palm Beach County school district, and buyers looking for attainable new construction — the new inventory in Hobe Sound is at the top of the market." },
+      { q: "How long is the commute from Hobe Sound?", a: "Jupiter and Stuart are both roughly fifteen minutes, Palm Beach Gardens commonly 25 to 35 minutes, West Palm Beach typically 45 minutes to an hour, and Palm Beach International generally under an hour. The Bridge Road corridor reaches I-95 and the Turnpike, but US-1 through town is the local bottleneck in season with no useful alternate route." },
+      { q: "Is Hobe Sound good for remote workers?", a: "Increasingly, yes — it is the profile the town suits best. The main drawbacks are a very small local economy and a drive to anywhere substantial, and remote work removes most of that while leaving the protected land, quiet and beaches intact. Verify internet service at a specific address, since it varies." },
+      { q: "Is Hobe Sound a good place to retire?", a: "It is a common choice — a low pace, healthcare accessible in Stuart and Jupiter, and a community small enough to become part of quickly. The caution is the same as the appeal: very little happens here, and everything beyond basic errands is a fifteen-minute drive, which some people find restful and others find isolating." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-hobe-sound-florida", "cost-of-living-in-hobe-sound-florida", "what-its-really-like-living-in-hobe-sound-florida"],
-    funFact: "Hobe Sound's quiet has had an unintended consequence: property values on the mainland have appreciated steadily as more buyers discovered it as an alternative to crowded Jupiter. The people who came for the peace a decade ago have generally done well — which is the quiet irony of a town famous for staying undiscovered.",
+    funFact: "The most consequential fifteen minutes in this part of Florida is the drive from Hobe Sound to Jupiter, because it crosses the Martin–Palm Beach county line. School district, tax rate, county services, permitting office and the growth rules that decide what gets built next door all change. Buyers weighing the two towns are really choosing between two counties.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'pros-and-cons-of-living-in-hobe-sound-florida',
@@ -8633,37 +8934,129 @@ In summer, do the park and beach early — and the shaded Loxahatchee River padd
     order: 6,
     seoTitle: "Pros and Cons of Living in Hobe Sound, Florida",
     metaTitle: "Pros and Cons of Living in Hobe Sound, FL",
-    metaDescription: "The honest pros and cons of living in Hobe Sound, Florida — incredible nature and quiet charm versus limited amenities and a sleepy small-town pace.",
+    metaDescription: "The honest pros and cons of living in Hobe Sound, Florida — protected land, quiet and Martin County growth rules versus almost nothing to do, a thin market and coastal insurance costs.",
     primaryKeyword: "pros and cons of living in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound pros and cons", "living in Hobe Sound downsides", "is Hobe Sound worth it"],
     h1: "Pros and Cons of Living in Hobe Sound, Florida",
     showMarketTrends: true,
-    body: `## The Pros
-- **Incredible nature** — Jonathan Dickinson State Park, the wildlife refuge beach, and the Loxahatchee River.
-- **Quiet, old-Florida charm** — a slow, peaceful small-town pace.
-- **Near Jupiter and Stuart** — amenities a short drive either way.
-- **Wide range** — attainable mainland homes up to Jupiter Island's estate market.
-- **Beautiful, uncrowded beaches** and no state income tax.
+    body: `Hobe Sound gets described as a hidden gem so routinely that the phrase has stopped meaning anything. Here's the ledger.
+
+## The Pros
+
+### The protected land is the whole product
+
+Jonathan Dickinson State Park's 11,500 acres, the Hobe Sound National Wildlife Refuge, Blowing Rocks Preserve, and a stretch of the Loxahatchee carrying a federal Wild and Scenic designation.
+
+This isn't scenery near the town — it's most of what surrounds it, and it is permanent. For what is actually inside it, see our [things-to-do guide](/blog/best-things-to-do-in-hobe-sound-florida).
+
+### It is genuinely quiet
+
+Not marketing quiet. Very little happens here, the commercial district is a few blocks, and evenings are still. For the right buyer this is the entire appeal, and there are not many places left on this coast that can offer it.
+
+### Martin County's growth framework
+
+A countywide four-storey height limit, a density cap and an urban services boundary mean the shoreline here stayed low while the coast on either side filled in. Whatever your politics about growth, the effect on the streetscape is visible and durable.
+
+### Two proper towns, one quarter-hour drive each
+
+Jupiter lies south and Stuart north, both close. You get a quiet address without being genuinely isolated, and that combination is harder to find than it sounds.
+
+### Beaches with space on them
+
+Hobe Sound Beach and the refuge shoreline are not empty, but they are not Palm Beach County busy — and out of season it is easy to find a long stretch with nobody on it.
+
+### A wide range of housing
+
+Unusually wide. Modest older homes, manufactured and 55+ communities, golf-oriented villas and condominiums, some acreage, and — at the far end — Jupiter Island. Whatever your budget, something here fits it, as our [neighborhood guide](/blog/best-neighborhoods-in-hobe-sound-florida) sets out.
+
+### No municipal levy on the mainland
+
+Hobe Sound is unincorporated, so mainland residents pay the Martin County rate without a city millage on top. Verify current rates for a specific parcel.
+
+### Beach access without a resort strip
+
+Worth stating on its own. You get genuine ocean access without the wall of development that accompanies it in most of coastal Florida — no towers, no resort strip, no traffic funnel to the sand.
+
+That combination is increasingly rare on Florida's east coast, and it is largely a consequence of how much of the shoreline here is protected rather than developable.
 
 ## The Cons
-- **Limited shopping and dining** of its own — you'll drive to Jupiter or Stuart.
-- **Very quiet nightlife.**
-- **Small-town scale** — not for those who want lots of action.
-- **Stark mainland/island contrast** in housing.
-- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
 
-**Bottom line:** for nature lovers and quiet-seekers who want old-Florida calm near Jupiter, Hobe Sound is a hidden gem. If you want amenities and energy at your door, you'll be driving to neighbors a lot.`,
+### There is very little to do here
+
+The honest headline con. No restaurant scene, no nightlife, no cinema, no shopping beyond the basics. The commercial district takes twenty minutes to walk.
+
+Everything else is a drive. If you like that, it's a feature. If you're telling yourself you'll get used to it, be careful — this is the most common source of regret in small coastal towns.
+
+### It is entirely car-dependent
+
+No rail station, no meaningful transit, and a two-lane spine that bottlenecks in season with no useful alternate.
+
+### The local job market is negligible
+
+Even by Martin County standards. Working-age residents commute or work remotely, and there is no realistic third option.
+
+### Turtle-season compliance is a real obligation
+
+Roughly March through October, lighting ordinances apply near the beach, furniture cannot be left on the sand overnight, and nests must be left undisturbed.
+
+For beachfront and near-beach owners this can mean retrofitting non-compliant lighting — a genuine expense buyers rarely price in. Ask what applies to a specific address before you commit.
+
+### Coastal insurance costs
+
+Wind exposure is real, and Martin County took two hurricane landfalls within three weeks in 2004. Roof age and construction type drive premiums more than the address does, and older stock narrows your carrier options.
+
+Flood is separate and varies parcel by parcel — an elevation certificate can materially change the number. Get real quotes during your inspection period.
+
+### Utilities are inconsistent
+
+Whether a property has county service or relies on private systems does not follow neighbourhood lines, and the difference amounts to a monthly bill versus a maintenance schedule with a replacement bill at the end of it. Our [cost of living guide](/blog/cost-of-living-in-hobe-sound-florida) covers the diligence.
+
+### Older housing stock on the mainland
+
+Character, mature trees — and original electrical, aging plumbing, older windows and roofs near the end of their service lives. Establish roof age early because it drives both your insurance options and your first big expense.
+
+### Healthcare is a drive
+
+There is no hospital in Hobe Sound. Martin County's main medical facilities are in Stuart, with substantial options also in Jupiter and Palm Beach Gardens — all fifteen to thirty minutes away.
+
+For most people most of the time this is a non-issue. For anyone managing a condition that means frequent appointments, it becomes a weekly logistics question worth thinking through honestly before buying.
+
+### The market is thin
+
+Few transactions, limited inventory, and long stretches where nothing in your criteria is available. That cuts both ways — it can mean less competition, and it can mean waiting months for the right property.
+
+It also means comparable sales are sparse, so pricing is harder to establish confidently than in a deeper market.
+
+### The top of the market is changing
+
+Atlantic Fields is adding a large private club and golf community off Bridge Road on roughly 1,500 acres. It brings amenities, employment and attention that the mainland high end never had — and a construction period, more traffic and a different profile of buyer.
+
+Whether that reads as a pro or a con depends entirely on what you wanted from a quiet town.
+
+## How it nets out
+
+Hobe Sound asks you to accept that almost nothing happens here, that you'll drive for anything beyond basics, and that you're buying into a small, thin, coastal market with real insurance costs.
+
+In exchange you get protected land on a scale that doesn't exist further south, genuine quiet, beaches with room on them, and two proper towns a quarter of an hour away.
+
+For an outdoors-first buyer, a remote worker or a retiree who actually wants small, that's an excellent trade and there's nothing quite like it on this coast.
+
+For anyone who needs a town around them, it isn't close — and Jupiter is fifteen minutes south.
+
+**Verify before committing**: school zoning with the district, flood zone and elevation for the parcel, insurance quotes during the inspection period, utility status for the address, turtle-lighting requirements near the beach, and what's entitled on nearby land.`,
     faqs: [
-      { q: "What are the pros of living in Hobe Sound?", a: "Incredible nature (Jonathan Dickinson State Park, the wildlife refuge beach, the Loxahatchee River), quiet old-Florida charm, proximity to Jupiter and Stuart, a wide housing range, beautiful beaches, and no state income tax." },
-      { q: "What are the downsides of living in Hobe Sound?", a: "Limited shopping and dining of its own, very quiet nightlife, small-town scale, a stark contrast between mainland and Jupiter Island housing, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
-      { q: "Is Hobe Sound worth it?", a: "For nature lovers and people who want quiet old-Florida charm near Jupiter, many feel it absolutely is. Those wanting amenities and energy at their doorstep may prefer Jupiter or Stuart." },
-      { q: "Is Hobe Sound a quiet place?", a: "Yes — it's intentionally quiet and nature-focused, which is the main reason its residents love it." },
+      { q: "What are the pros of living in Hobe Sound, Florida?", a: "Protected land on an unusual scale including Jonathan Dickinson State Park, the national wildlife refuge and a Wild and Scenic stretch of the Loxahatchee; genuine quiet; Martin County growth rules that kept the area low-rise; beaches with more space than further south; a wide range of housing from modest to extraordinary; no municipal levy on the unincorporated mainland; and two proper towns fifteen minutes away in either direction." },
+      { q: "What are the downsides of living in Hobe Sound?", a: "There is very little to do locally — no restaurant scene, nightlife or shopping beyond basics — and the area is entirely car-dependent with a bottleneck on US-1 in season. The local job market is negligible, turtle-season lighting compliance is a real obligation near the beach, coastal insurance is a meaningful cost, utility service is inconsistent from one street to the next, mainland housing stock is older, and the market is thin with sparse comparable sales." },
+      { q: "Is insurance expensive in Hobe Sound?", a: "Coastal wind exposure is genuine and Martin County took two hurricane landfalls within three weeks in 2004. Roof age and construction type drive premiums more than the address, and older housing stock narrows carrier options. Flood coverage is separate and varies parcel by parcel, where an elevation certificate can materially change the cost. Obtain real quotes during the inspection period rather than estimates afterwards." },
+      { q: "Is the Hobe Sound real estate market competitive?", a: "It is thin rather than competitive. Transaction volumes are low and inventory is limited, so there can be long stretches with nothing available in a given set of criteria. That can mean less competition on a purchase, but it also means sparse comparable sales, which makes pricing harder to establish confidently than in a deeper market." },
+      { q: "Will Atlantic Fields change Hobe Sound?", a: "It is already changing the top of the market. The Discovery Land Company private club and golf community off Bridge Road covers roughly 1,500 acres with around 317 home sites, an 18-hole Tom Fazio course and extensive amenities. It brings employment, amenities and attention the mainland high end never had, alongside a construction period, additional traffic and a different buyer profile." },
+      { q: "Is Hobe Sound worth it?", a: "For outdoors-first buyers, remote workers and retirees who genuinely want a small, quiet town, it is an excellent trade and there is little like it on this coast. For anyone who needs amenities, a dining scene or a local job market, the drawbacks are structural rather than temporary and Jupiter is fifteen minutes south." },
     ],
     internalLinks: ["cost-of-living-in-hobe-sound-florida", "who-should-move-to-hobe-sound-florida", "hobe-sound-vs-nearby-cities"],
-    funFact: "Martin County's growth restrictions extend to Hobe Sound — the same rules that kept Stuart low-rise also kept Hobe Sound from becoming another dense beach town. The limited commercial development isn't an accident; it's the result of deliberate policy that locals have consistently voted to protect.",
+    funFact: "Turtle-nesting rules in Hobe Sound are a line item, not a theme. From roughly March through October, lighting ordinances apply to beachfront and near-beach property, furniture cannot stay on the sand overnight, and nests must be left alone. Retrofitting non-compliant exterior lighting is a genuine cost that buyers near the water rarely price in before closing.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'cost-of-living-in-hobe-sound-florida',
@@ -8673,35 +9066,114 @@ In summer, do the park and beach early — and the shaded Loxahatchee River padd
     order: 7,
     seoTitle: "Cost of Living in Hobe Sound, Florida",
     metaTitle: "Cost of Living in Hobe Sound, Florida",
-    metaDescription: "What it costs to live in Hobe Sound, Florida — from attainable mainland homes to ultra-luxury Jupiter Island, with taxes and insurance explained.",
+    metaDescription: "What it really costs to live in Hobe Sound, Florida — why the price range is so extreme, the property tax reset, well versus county utilities, and turtle-lighting and insurance costs buyers miss.",
     primaryKeyword: "cost of living in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound home prices", "Jupiter Island home prices", "is Hobe Sound affordable"],
     h1: "Cost of Living in Hobe Sound, Florida",
     showMarketTrends: true,
-    body: `Hobe Sound has perhaps the widest cost range of any community around — from attainable mainland homes to nine-figure oceanfront estates.
-## Housing
-This is the story. **Mainland Hobe Sound** offers genuinely attainable single-family homes (a Treasure Coast value), golf-community homes sit in the middle, and **Jupiter Island** ranks among the most expensive real estate in the United States. Your budget can land almost anywhere.
-## Taxes
-**No state income tax.** Hobe Sound is in **Martin County** (its own millage); property taxes apply, with a Homestead Exemption for primary residents.
+    body: `Hobe Sound has one of the widest cost ranges of any small community in Florida, which makes averages here worse than useless. A modest mainland house and a Jupiter Island estate share a postcode and nothing else.
 
-## Insurance
-A real coastal cost, especially near the water and on the islands — budget and quote early.
+So rather than quoting a figure that will be wrong for you, here's the structure.
+
+Prices move constantly — use the market data on this page for where things stand and the rest of this for the mechanics.
+
+## Why the range is so extreme
+
+There are effectively two housing markets here, and a third arriving.
+
+**Mainland Hobe Sound** is unincorporated Martin County: older single-family homes, established subdivisions, villas and condominiums, manufactured-home and 55+ communities, and some acreage. This is where most transactions happen and prices are broadly reasonable for coastal Martin County.
+
+**Jupiter Island** is a separate incorporated town with its own government and tax structure, and among the highest home values in the country.
+
+**Atlantic Fields**, the new private club community off Bridge Road, is adding a high-end product to the mainland that didn't previously exist.
+
+Any "average Hobe Sound price" blends all of that. Filter by municipality and by product type before drawing conclusions — our [neighborhood guide](/blog/best-neighborhoods-in-hobe-sound-florida) separates them.
+
+## The tax reset, and the jurisdiction question
+
+**Florida's Homestead Exemption** reduces the taxable value of a primary residence and the **Save Our Homes** cap limits annual increases in assessed value while you own it. Over a long ownership, assessed value can fall well below market.
+
+**That cap resets on sale.** Your bill is based on current market value, not on what the seller paid.
+
+Practically:
+
+- **Estimate from your purchase price and current millage**, never from the listing's tax figure.
+- **File for Homestead** on a primary residence; the deadline is early in the year after purchase.
+- **Ask about portability** if you already hold a Florida homestead — part of the accumulated benefit may transfer, subject to limits and deadlines.
+- **Confirm the jurisdiction.** Unincorporated Hobe Sound pays the Martin County rate with no municipal levy. Jupiter Island, as an incorporated town, has its own. This is not a small difference.
+
+Verify with the **Martin County Property Appraiser** for the specific parcel.
+
+## Utilities: the street-by-street question
+
+This is the Hobe Sound-specific one and it catches people.
+
+**Some properties are on Martin County water and sewer. Others are on well and septic.** It varies genuinely street by street, and it is not something to assume from the neighbourhood.
+
+If it's **well and septic**:
+
+- **Test the well** for quality and quantity during your inspection period. Treatment systems are common here rather than exotic.
+- **Have the septic located, uncovered and properly inspected** — age, tank condition, drainfield, and service history. A failed drainfield is a serious expense.
+- **Budget for pumps, filtration media, periodic pumping and eventual replacement** of both systems.
+
+The offset is no monthly water or sewer bill, which over a long ownership can net out well — provided you maintain them.
+
+## Insurance on a coastal county
+
+Three separate questions.
+
+**Wind.** Florida policies typically carry a **hurricane deductible as a percentage of dwelling coverage** rather than a flat sum, which on a coastal property can be a large number before anything pays. Compare deductible structures, not just premiums.
+
+**Roof age is the lever.** Older roofs sharply narrow carrier options, and much of mainland Hobe Sound's stock is decades old. Establish the roof's age and condition early.
+
+**Flood is separate**, and zone varies parcel by parcel. Being near the Intracoastal or the ocean is not automatically a high-risk determination, and being inland is not a guarantee. Get the flood zone and, where relevant, an **elevation certificate** — it can materially change the premium.
+
+A **wind mitigation inspection** documenting roof attachment, opening protection and roof shape typically pays for itself in credits.
+
+## The costs specific to being here
+
+**Turtle-season lighting compliance.** Near the beach, exterior lighting must meet ordinance requirements during nesting season, roughly March through October. Bringing non-compliant lighting into compliance is a real expense. Ask what applies before you're committed.
+
+**Waterfront infrastructure**, if you buy it: seawall, dock, lift and their maintenance cycles. Seawall condition at purchase is a material fact and deserves an inspection as serious as a roof.
+
+**Club and community obligations.** In the golf and club communities, membership may be optional, mandatory or tied to the deed, and a mandatory membership can far exceed HOA dues. At Atlantic Fields, membership structure is integral to the purchase. Confirm in writing what a purchase includes and obligates.
+
+**Land-lease versus owned lot** in manufactured-home communities. This changes the transaction, the financing and the long-run cost profile completely, and it is the first question to ask.
 
 ## Everyday costs
-With limited in-town retail, much of your shopping and dining spend happens in nearby Jupiter or Stuart. Utilities and groceries track near the Florida average.
 
-**Bottom line:** Hobe Sound lets almost any budget find a home — true value on the mainland, ultra-luxury on Jupiter Island — all with no state income tax. Budget for insurance near the coast.`,
+**Fuel and vehicles** are the quiet expense. Everything beyond basic errands is a fifteen-minute drive each way, and most households need one vehicle per driving adult.
+
+**Utilities** peak with summer cooling, and older homes with original windows and insulation cost more to run than the square footage suggests.
+
+**Groceries and retail** cover the basics locally; a larger shop generally means Jupiter or Stuart.
+
+**Dining** means driving — covered in our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-hobe-sound-florida).
+
+## No state income tax
+
+Florida levies none, which matters for anyone relocating from a higher-tax state. It doesn't offset a tax estimate you got wrong or a deductible you didn't read.
+
+## The bottom line
+
+Hobe Sound can be one of the more attainable coastal addresses in Martin County or one of the least attainable in the country, and the difference is which side of the bridge you're on.
+
+Whichever you're shopping, build the monthly number from a **reset tax estimate, real wind and flood quotes, the actual utility situation for that address, and any club or community obligations** — not from the list price and not from the seller's costs.
+
+*Figures and rules change. Verify tax, exemption and portability details with the Martin County Property Appraiser and Tax Collector, insurance with a licensed agent, flood zone and elevation with the relevant authority, utility service with the county, and community obligations with the governing documents.*`,
     faqs: [
-      { q: "Is Hobe Sound affordable?", a: "The mainland offers genuinely attainable homes and Treasure Coast value, while Jupiter Island is among the priciest real estate in the country — an unusually wide range." },
-      { q: "Why is there such a price range in Hobe Sound?", a: "The quiet, attainable mainland sits right next to ultra-exclusive Jupiter Island, creating one of the widest housing-cost ranges anywhere in the region." },
-      { q: "Does Hobe Sound have a state income tax?", a: "No — Florida has no state income tax. Hobe Sound is in Martin County, which sets its own property tax rate." },
-      { q: "Why is insurance a factor in Hobe Sound?", a: "Coastal and waterfront location, especially near the islands, drives homeowners and wind/flood insurance costs; get quotes early." },
+      { q: "Is Hobe Sound, Florida expensive to live in?", a: "It has an unusually wide range. Mainland Hobe Sound is unincorporated Martin County with older single-family homes, villas, condominiums and manufactured-home and 55+ communities at broadly reasonable coastal prices. Jupiter Island is a separate incorporated town among the highest-value residential addresses in the country. Any blended average describes neither." },
+      { q: "Why did my property taxes rise after buying in Hobe Sound?", a: "The Save Our Homes assessment cap resets on sale. A long-time owner’s assessed value can sit well below market after years of capped increases, and the property is reassessed at current market value when it transfers. Budget from your purchase price and current millage, file for Homestead in the year after purchase, and ask about portability if you already hold a Florida homestead." },
+      { q: "Do Hobe Sound homes have county water or well and septic?", a: "Both, and it varies genuinely street by street rather than by neighborhood. Confirm the status for the specific address during due diligence. Where a property is on well and septic, test the well for quality and quantity, have the septic located and properly inspected including the drainfield, and budget for maintenance and eventual replacement — offset by having no monthly water or sewer bill." },
+      { q: "What does turtle-season lighting compliance cost?", a: "It depends on the property and what is currently installed. Near the beach, exterior lighting must meet ordinance requirements during nesting season, roughly March through October, and bringing non-compliant lighting into compliance is a genuine expense that buyers frequently do not price in. Ask specifically what applies to an address before committing." },
+      { q: "Are taxes lower in Hobe Sound because it is unincorporated?", a: "On the mainland, yes structurally — unincorporated Hobe Sound pays the Martin County rate with no municipal levy on top. Jupiter Island is an incorporated town with its own tax structure, which is a substantial difference. Verify current millage for the specific parcel with the Martin County Property Appraiser." },
+      { q: "What should I ask about club membership costs in Hobe Sound?", a: "Whether membership is optional, mandatory or tied to the deed, and what the initiation and annual costs are — a mandatory membership can far exceed HOA dues. At Atlantic Fields the membership structure is integral to the purchase rather than an add-on, so confirm in writing exactly what a purchase includes and what it obligates." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-hobe-sound-florida", "best-neighborhoods-in-hobe-sound-florida", "hobe-sound-vs-nearby-cities"],
-    funFact: "The price gap between attainable mainland Hobe Sound and ultra-luxury Jupiter Island is one of the most dramatic wealth contrasts in any single American zip code. The median home on Jupiter Island can be 50–100x the median home on the mainland side — separated by a single bridge.",
+    funFact: "Whether a Hobe Sound home is on county water and sewer or on a well and septic system varies street by street, not neighborhood by neighborhood. It is one of the few places where two houses a few hundred metres apart can have completely different utility situations — and the difference shows up as either a monthly bill or a maintenance schedule with a replacement bill at the end of it.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'hidden-gems-in-hobe-sound-florida',
@@ -8711,36 +9183,120 @@ With limited in-town retail, much of your shopping and dining spend happens in n
     order: 8,
     seoTitle: "Hidden Gems in Hobe Sound, Florida",
     metaTitle: "Hidden Gems in Hobe Sound, Florida",
-    metaDescription: "Beyond the beach — local hidden gems in Hobe Sound, Florida, from Hobe Mountain and Trapper Nelson's to Peck Lake and quiet refuge trails.",
+    metaDescription: "Hobe Sound, Florida's quieter side — Peck Lake's walk-across beach, the scrub trails almost nobody uses, the Intracoastal at first light, and the free stretches of sand most visitors drive past.",
     primaryKeyword: "hidden gems in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound secret spots", "Hobe Mountain", "Trapper Nelson", "Peck Lake"],
     h1: "Hidden Gems in Hobe Sound, Florida",
-    body: `Hobe Sound is basically wall-to-wall hidden gems — here are the local favorites.
+    body: `In a town where the main attractions are already 11,500 acres of state park and a preserve on a limestone shore, "hidden gems" needs to mean something more specific than *the famous things, again.*
 
-**Hobe Mountain.** Climb the tower at the top of this ancient sand dune in Jonathan Dickinson State Park for one of the highest, most sweeping views in South Florida — endless wilderness to the sea.
+So this is the layer below that: the places locals use, the ones that take a bit of knowledge to find, and the versions of the famous places that almost nobody experiences.
 
-**Trapper Nelson's.** Take the Loxahatchee River boat tour (or paddle) to the legendary homestead of "the wild man of the Loxahatchee" — a only-in-Florida slice of history deep in the park.
+## Peck Lake, and the walk across
 
-**The refuge beach.** The Hobe Sound National Wildlife Refuge beach is pristine, uncrowded, and a sea-turtle haven — a quiet alternative to busier beaches.
+The best-kept local secret that requires a boat.
 
-**Peck Lake.** A protected spot in the Intracoastal, popular for boating and snorkeling, with a quiet beach on the far side.
+**Peck Lake** is a stretch of the Intracoastal where boats anchor off the spoil islands. The trick is that you can go ashore and **walk directly across the barrier island to the ocean** — emerging onto an undeveloped beach with nothing behind it, because the land is protected.
 
-**The Loxahatchee River paddle.** Kayaking Florida's first federally designated Wild and Scenic River through cypress and past gators is unforgettable — and shaded.
+It is a genuine social scene on a good weekend, and on a weekday it can be close to empty. There's decent snorkelling by local standards on the nearshore reef.
 
-**The old downtown.** Bridge Road's small-town shops and charm are easy to miss and worth a stroll.
+Anchor with room, watch the seagrass, and take everything out with you.
 
-These wild, often-free experiences are the real soul of Hobe Sound.`,
+## The scrub trails hardly anyone walks
+
+Everyone goes to the river and the tower at Jonathan Dickinson. Far fewer people walk the **sand pine scrub** on the drier side of the park, or the mainland tract at the **wildlife refuge**.
+
+Florida scrub is one of the more threatened habitats in the country and holds species found nowhere else — it looks, to an untrained eye, like a scrubby bit of nothing. That's precisely why it's empty.
+
+Go early, take water, and take the trail guide seriously. There's very little shade and the sand is heavy going.
+
+The reward is a landscape genuinely unlike anywhere else you'll walk on this coast, usually with nobody else on it.
+
+## The Loxahatchee before the day starts
+
+The river tours are excellent and our [things-to-do guide](/blog/best-things-to-do-in-hobe-sound-florida) covers them properly.
+
+The version worth chasing is the early one — first light, in a kayak, before the wind or any other boat. The cypress canopy, the mist coming off the water and the birds working the shallows make it one of the more atmospheric hours available anywhere in Florida.
+
+Check park hours and launch access before planning it, and be honest about your paddling ability. The river has current and it is not the place to discover you're out of practice.
+
+## The beaches nobody stops at
+
+**Hobe Sound Beach** at the end of Bridge Road is the main public access and gets the visitors.
+
+The refuge shoreline is wilder, less serviced and considerably quieter. And in general, this stretch of Martin County coast has something the shoreline forty minutes south simply doesn't: **room**. On a summer weekday morning you can walk a long way and pass very few people.
+
+Bring what you need. Facilities are limited to non-existent once you leave the main access.
+
+## Bridge Road on a weekday morning
+
+The commercial district is small and that's the appeal. On a weekday out of season, coffee and a wander through the independents takes half an hour and constitutes a genuinely pleasant morning.
+
+It's the opposite of a destination and the reason a lot of people live here. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-hobe-sound-florida) covers what's actually there.
+
+## Blowing Rocks at the right tide
+
+Not hidden — but almost everyone visits at the wrong moment and leaves unimpressed.
+
+**High tide with an easterly swell** is when water forces up through the blowholes. **Low tide** is when the limestone ledges, pools and undercuts are exposed and you can properly see what the sea has done to the rock.
+
+Either is worth the trip. Arriving at slack water on a flat day and concluding it's overrated is the standard first-visit error, and it's entirely avoidable with a tide table.
+
+## The Intracoastal at first light
+
+Free, and available every day.
+
+The bridge and the waterfront access points on the Intracoastal face east, and sunrise over the island and the water — with the manatees that work this stretch in cooler months — is the sort of thing residents drive past daily for years.
+
+Ten minutes, no cost, no planning.
+
+## The Hobe Sound Nature Center
+
+Small, easy to miss, and genuinely useful — particularly for anyone new to Florida ecology.
+
+The centre sits by the refuge and runs interpretive programmes and short trails through the scrub. If you have wondered what the low grey-green landscape beside the highway actually is, an hour here answers it, and it changes how you see every undeveloped acre in the county afterwards.
+
+Programmes and hours vary seasonally — check before going.
+
+## The equestrian and off-road trails
+
+Jonathan Dickinson has a substantial network of trails open to **off-road cycling** and **horses**, well beyond the short walks most visitors do.
+
+They are sandy, they are exposed, and they are almost entirely empty. For anyone who rides — bike or horse — this is a serious amenity hiding behind a park entrance most people associate with a river tour and an observation tower.
+
+## The off-season
+
+May through October. The seasonal population goes, US-1 unclogs, the park and the beaches empty, and the whole town drops into a lower gear.
+
+It's hot and it storms most afternoons. Residents who've been here a while will tell you unprompted that it's the best part of the year.
+
+## What isn't a hidden gem
+
+**Jonathan Dickinson is not a secret.** It's the largest state park in Southeast Florida and it's signposted from the highway. Go — just don't expect to have discovered it.
+
+**Jupiter Island is not a destination.** It's a residential town where privacy is taken seriously, parking is limited and enforced, and driving through to look at houses is neither welcome nor interesting. Use the designated public access points.
+
+## Making the most of them
+
+**Early, always.** Everything above is better before nine, and from June to September that isn't optional.
+
+**Check the tide, not just the weather** — for Blowing Rocks, for the beach, and for anything on the water.
+
+**Take repellent and water** for the scrub and the river.
+
+**Do the Peck Lake walk if you get the chance.** Of everything on this list, crossing a barrier island on foot and finding an empty ocean beach on the other side is the one people remember.`,
     faqs: [
-      { q: "What are the hidden gems in Hobe Sound?", a: "Hobe Mountain and its tower, the boat tour or paddle to Trapper Nelson's on the Loxahatchee River, the quiet wildlife refuge beach, Peck Lake, the river paddle itself, and the small Bridge Road downtown." },
-      { q: "What is Hobe Mountain?", a: "An ancient sand dune in Jonathan Dickinson State Park topped by an observation tower offering some of the highest, most sweeping views in South Florida." },
-      { q: "Who was Trapper Nelson?", a: "A legendary 'wild man of the Loxahatchee' whose preserved homestead deep in Jonathan Dickinson State Park is reachable by boat tour or kayak — a beloved piece of Florida lore." },
-      { q: "What are free things to do in Hobe Sound?", a: "Hiking and climbing Hobe Mountain, the refuge beach, paddling the Loxahatchee River, and strolling the downtown are all free or low-cost." },
+      { q: "What are the hidden gems in Hobe Sound, Florida?", a: "Peck Lake, where boats anchor in the Intracoastal and you can walk across the barrier island to an undeveloped ocean beach; the sand pine scrub trails at Jonathan Dickinson and the wildlife refuge mainland tract; the Loxahatchee River at first light by kayak; the quieter refuge shoreline; the Bridge Road district on a weekday morning; and sunrise over the Intracoastal." },
+      { q: "What is Peck Lake in Hobe Sound?", a: "A stretch of the Intracoastal Waterway where boats anchor off the spoil islands, and where you can go ashore and walk directly across the barrier island to an undeveloped ocean beach — undeveloped because the land behind it is protected. There is decent nearshore snorkelling by local standards. It is busy on good weekends and often near-empty midweek." },
+      { q: "When should you visit Blowing Rocks Preserve?", a: "At high tide with an easterly swell running, water forces up through the blowholes in the limestone. At low tide the ledges, pools and undercuts are exposed and the rock formations are best seen. Arriving at slack water on a flat day and concluding the site is overrated is the standard first-visit mistake — check a tide table first." },
+      { q: "Where can you hike in Hobe Sound away from crowds?", a: "The sand pine scrub trails on the drier side of Jonathan Dickinson State Park, and the mainland tract of the Hobe Sound National Wildlife Refuge. Florida scrub is among the more threatened habitats in the country and holds species found nowhere else, but it looks unremarkable to an untrained eye, which is why the trails stay empty. Go early, carry water and expect little shade." },
+      { q: "What free things are there to do in Hobe Sound?", a: "Walking the refuge and scrub trails, sunrise over the Intracoastal from the waterfront access points, the beaches including the quieter refuge shoreline, and wandering the small Bridge Road commercial district. Most of what makes Hobe Sound worth living in costs nothing." },
+      { q: "Can you visit Jupiter Island?", a: "Only via the designated public access points. Jupiter Island is a residential incorporated town where privacy is taken seriously, parking is limited and enforced, and driving through to look at houses is neither welcome nor rewarding. Hobe Sound Beach at the end of Bridge Road is the main public beach access." },
     ],
     internalLinks: ["best-things-to-do-in-hobe-sound-florida", "local-guide-to-hobe-sound-florida", "what-its-really-like-living-in-hobe-sound-florida"],
-    funFact: "Blowing Rocks Preserve gets its name from the limestone outcroppings that trap and shoot water upward during high surf — the effect can send water 50 feet in the air on a big winter swell. It's one of the most dramatic natural spectacles in South Florida, and most people outside the area have never heard of it.",
+    funFact: "At Peck Lake you can anchor in the Intracoastal, go ashore, and walk straight across the barrier island to the Atlantic — arriving at a beach with nothing built behind it. That only works because the land is protected, which makes it one of the few places in South Florida where you can reach an undeveloped ocean beach on foot from a boat.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'hobe-sound-vs-nearby-cities',
@@ -8750,33 +9306,134 @@ These wild, often-free experiences are the real soul of Hobe Sound.`,
     order: 9,
     seoTitle: "Hobe Sound vs Nearby Cities: How to Choose",
     metaTitle: "Hobe Sound vs Nearby Cities",
-    metaDescription: "Hobe Sound vs Jupiter, Stuart, and Palm City — an honest comparison to help you choose the right quiet-or-lively community for your move.",
+    metaDescription: "Hobe Sound vs Jupiter, Tequesta, Stuart, Palm City and Port Salerno — an honest comparison built around the county line that changes schools, taxes and growth rules in fifteen minutes.",
     primaryKeyword: "Hobe Sound vs nearby cities",
     secondaryKeywords: ["Hobe Sound vs Jupiter", "Hobe Sound vs Stuart", "Hobe Sound vs Palm City"],
     h1: "Hobe Sound vs Nearby Cities: How to Choose",
     showMarketTrends: true,
-    body: `Choosing between Hobe Sound and its neighbors comes down to quiet-and-nature vs. amenities.
+    body: `Hobe Sound sits between two better-known places and gets compared with both constantly. It also sits on a county line, which makes one of those comparisons far more consequential than it looks.
 
-**Hobe Sound vs Jupiter.** Jupiter (just south, in PBC) is a bigger, livelier beach town with more dining, shopping, and energy — and higher prices on the mainland. Hobe Sound is quieter, more natural, and often more attainable. Choose Jupiter for the beach-town lifestyle; Hobe Sound for quiet and nature near Jupiter.
+## Start with the county line
 
-**Hobe Sound vs Stuart.** Stuart has the charming historic downtown and more amenities; Hobe Sound is smaller, quieter, and more nature-focused. Choose Stuart for downtown life; Hobe Sound for calm and parks.
+**Hobe Sound is Martin County. Jupiter is Palm Beach County.** They are fifteen minutes apart.
 
-**Hobe Sound vs Palm City.** Palm City is a larger suburb with gated golf communities; Hobe Sound is smaller, coastal-leaning, and surrounded by preserve land. Both sit in the Martin County school district. Choose Palm City for amenities; Hobe Sound for low density and the outdoors.
+Martin County's framework — including a countywide four-storey height limit and an urban services boundary — is materially more restrictive than Palm Beach County's, and the difference in the built environment is visible from the road. The full list of what else changes across that line is in our [who-should-move guide](/blog/who-should-move-to-hobe-sound-florida).
 
-**Hobe Sound vs Jupiter Island.** They're neighbors at opposite extremes — Hobe Sound mainland is attainable and quiet; Jupiter Island is among the highest-priced estate markets in the country. Choose by budget and the lifestyle you want.
+Every comparison below is really a version of this question.
 
-**How to choose:** rank **quiet + nature** (Hobe Sound), **beach-town energy** (Jupiter), **downtown charm** (Stuart), or **family schools** (Palm City).`,
+## Hobe Sound vs Jupiter
+
+The main event.
+
+**Jupiter** has beaches at the inlet, the Loxahatchee riverfront, a deep restaurant and retail scene, a strong job market within reach, better access to I-95 and PBI, and Palm Beach County schools. It costs considerably more.
+
+**Hobe Sound** has protected land on a scale Jupiter can't match, genuine quiet, lower prices on the mainland, and Martin County's growth rules.
+
+**Choose Jupiter** if you want amenities, a town around you and a shorter reach to everything, and the budget allows.
+**Choose Hobe Sound** if you want the quiet and the wild land, and you're content that fifteen minutes gets you Jupiter whenever you want it.
+
+The honest framing: a lot of buyers want Jupiter and buy Hobe Sound because of price. That works well for people who genuinely value the quiet, and poorly for people who were only ever economising.
+
+## Hobe Sound vs Tequesta
+
+**Tequesta** is a small incorporated village just south of the county line — walkable in parts, well regarded, with its own character and village government, on the Loxahatchee.
+
+It's arguably the closest thing to Hobe Sound in temperament while still being in Palm Beach County: small, quiet, green, and low-key.
+
+**Choose Tequesta** for a small village feel with Palm Beach County services and closer proximity to Jupiter's amenities.
+**Choose Hobe Sound** for more protected land, lower prices and Martin County's rules.
+
+Buyers who like Hobe Sound but want the other county should look here first.
+
+## Hobe Sound vs Stuart
+
+North, and a genuinely different product within the same county.
+
+**Stuart** has a walkable historic downtown, a riverfront, the Lyric Theatre, a market and a proper restaurant scene, plus the county's main medical facilities and the inlet.
+
+**Hobe Sound** has none of that and considerably more nature.
+
+**Choose Stuart** if you want a town centre you'll actually use.
+**Choose Hobe Sound** if you want the quiet and the protected land, and you'll happily drive fifteen minutes north when you want a town.
+
+Same county, same school district, same growth rules — this comparison is purely about how much town you want. Our [Stuart guide](/blog/what-its-really-like-living-in-stuart-florida) covers that side.
+
+## Hobe Sound vs Palm City
+
+**Palm City** is inland Martin County, west of Stuart — more house and land for the money, newer construction, and much better access to I-95 and the Turnpike. It has no downtown and no beach.
+
+**Hobe Sound** is coastal, quieter, older in its housing stock, and wrapped in preserve.
+
+**Choose Palm City** for space, newer homes and highway access.
+**Choose Hobe Sound** for the coast and the protected land.
+
+The two attract genuinely different buyers, and the deciding factor is almost always whether being near the ocean matters.
+
+## Hobe Sound vs Port Salerno
+
+**Port Salerno** sits between the two, closer to Stuart, built around a working waterfront and commercial fishing — casual, characterful, and generally more attainable, with excellent dockside seafood.
+
+**Choose Port Salerno** for the working-waterfront character and value.
+**Choose Hobe Sound** for the state park, the refuge and the beach access.
+
+## Hobe Sound vs Jupiter Island
+
+Worth including because people conflate them.
+
+The island is not an upmarket version of the mainland — it is a different municipality and a different market, and our [neighborhood guide](/blog/best-neighborhoods-in-hobe-sound-florida) sets out how far apart they actually are.
+
+If you are weighing the two, your budget has already answered.
+
+## Hobe Sound vs Port St. Lucie
+
+North, and across another county line — this time into **St. Lucie County**.
+
+**Port St. Lucie** is one of Florida's largest and fastest-growing cities: overwhelmingly newer construction, dramatically cheaper per square foot, and building out amenities at speed. It has no equivalent of Martin County's height limit, and the difference is obvious.
+
+**Hobe Sound** is small, coastal, largely built out, and defined by the protected land around it.
+
+**Choose Port St. Lucie** for the most house per dollar and a new build with a warranty — our [Port St. Lucie guide](/blog/what-its-really-like-living-in-port-st-lucie-florida) covers what is coming there.
+**Choose Hobe Sound** if the quiet and the preserve are the point and you are prepared to pay a considerable premium per square foot for them.
+
+This is the widest gap on the list, and buyers who shortlist both are usually still deciding what they actually want.
+
+## How the price ladder runs
+
+Roughly, and for comparable mainland housing rather than waterfront:
+
+Port St. Lucie sits at the bottom, then Port Salerno, then Palm City and Stuart in the middle band, with Hobe Sound above them, Tequesta and Jupiter higher again, and Jupiter Island in a category of its own.
+
+The useful thing about that ordering is that it is not a quality ranking — it tracks proximity to amenities and to Palm Beach County. You are paying for access, and Hobe Sound is the point on the ladder where you stop paying for access and start paying for the absence of it.
+
+## The short version
+
+- **Best amenities and job access:** Jupiter.
+- **Best small-village feel in Palm Beach County:** Tequesta.
+- **Best walkable downtown:** Stuart.
+- **Best space and highway access:** Palm City.
+- **Best working-waterfront character and value:** Port Salerno.
+- **Best protected land, quiet and beach access:** Hobe Sound.
+
+## How to decide
+
+Rank three things honestly: **which county you want, how much town you need around you, and whether the ocean matters.**
+
+Hobe Sound wins for buyers whose honest answers are Martin County, very little town, and yes to the ocean. That's a narrow profile — and for the people in it, there is nothing else on this coast that does the same job.
+
+Our [pros and cons guide](/blog/pros-and-cons-of-living-in-hobe-sound-florida) goes deeper on the trade-offs.`,
     faqs: [
-      { q: "Hobe Sound or Jupiter — which is better?", a: "Jupiter is a bigger, livelier beach town with more dining and shopping at higher mainland prices; Hobe Sound is quieter, more natural, and often more attainable, with Jupiter minutes away." },
-      { q: "Hobe Sound vs Stuart?", a: "Stuart has the charming historic downtown and more amenities; Hobe Sound is smaller, quieter, and more nature-focused." },
-      { q: "Is Hobe Sound cheaper than Jupiter?", a: "On the mainland, generally yes — Hobe Sound offers more attainable homes than much of Jupiter, though Jupiter Island next door is ultra-expensive." },
-      { q: "Which nearby town is quietest?", a: "Hobe Sound is among the quietest and most nature-focused, which is exactly its appeal." },
+      { q: "Hobe Sound or Jupiter — which is better?", a: "Jupiter has beaches at the inlet, a deep restaurant and retail scene, better job access and Palm Beach County schools, at considerably higher prices. Hobe Sound has protected land on a much larger scale, genuine quiet, lower mainland prices and Martin County’s more restrictive growth rules. The two are fifteen minutes apart but in different counties, which changes a great deal more than the drive suggests." },
+      { q: "How does Hobe Sound compare to Tequesta?", a: "Tequesta is a small incorporated village just south of the county line, walkable in parts, quiet and green, with its own village government and Palm Beach County services plus closer proximity to Jupiter’s amenities. It is the closest match to Hobe Sound in temperament while remaining in the other county. Hobe Sound offers more protected land and lower prices." },
+      { q: "Hobe Sound vs Stuart?", a: "Same county, same school district and same growth rules, so the comparison is purely about how much town you want. Stuart has a walkable historic downtown, riverfront, theatre, market, restaurant scene and the county’s main medical facilities. Hobe Sound has considerably more protected land and quiet, with Stuart fifteen minutes north when you want a town." },
+      { q: "Hobe Sound vs Palm City?", a: "Palm City is inland Martin County with more house and land for the money, newer construction and much better access to I-95 and the Turnpike, but no downtown and no beach. Hobe Sound is coastal, quieter and wrapped in preserve, with older housing stock. The deciding factor is almost always whether being near the ocean matters." },
+      { q: "Which is cheaper, Hobe Sound or Jupiter?", a: "Mainland Hobe Sound is generally less expensive than comparable Jupiter property. The caution is that many buyers choose Hobe Sound purely on price while actually wanting Jupiter’s amenities — that works well for people who genuinely value quiet and protected land, and poorly for people who were only economising." },
+      { q: "Is Jupiter Island the same as Hobe Sound?", a: "No — they are different municipalities with different governments, tax structures and price tiers, sharing only a bridge and a postcode. The island is among the highest-value residential addresses in the country; the mainland is ordinary coastal Martin County." },
     ],
     internalLinks: ["cost-of-living-in-hobe-sound-florida", "pros-and-cons-of-living-in-hobe-sound-florida", "what-its-really-like-living-in-hobe-sound-florida"],
-    funFact: "Hobe Sound was once a more developed community than it appears today — the area was actively built out in the early 1900s, but growth stalled and much of that early Florida character was preserved by accident. The fact that it didn't boom when Jupiter did is essentially the whole story of why people love it.",
+    funFact: "Hobe Sound and Jupiter are fifteen minutes apart and in different counties, and that line does more work than the distance. Martin County has a countywide four-storey height limit and an urban services boundary; Palm Beach County does not. You can see where the rules change from the road — which is the real reason these two towns look nothing alike.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
   {
     slug: 'best-places-to-eat-drink-hang-out-in-hobe-sound-florida',
@@ -8785,32 +9442,126 @@ These wild, often-free experiences are the real soul of Hobe Sound.`,
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
     seoTitle: "Best Places to Eat, Drink & Hang Out in Hobe Sound, Florida",
-    metaTitle: "Best Places to Eat & Drink in Hobe Sound, FL",
-    metaDescription: "Where to eat, drink, and hang out in and around Hobe Sound, Florida — quirky old-Florida local spots plus the bigger scenes in Jupiter and Stuart.",
+    metaTitle: "Where to Eat, Drink & Hang Out in Hobe Sound, FL",
+    metaDescription: "Where to eat, drink and hang out in Hobe Sound, Florida — the small Bridge Road and Dixie district, the honest limits of a town this size, and the fifteen-minute drive that solves them.",
     primaryKeyword: "best restaurants in Hobe Sound Florida",
     secondaryKeywords: ["where to eat in Hobe Sound", "Hobe Sound dining", "Harry and the Natives"],
     h1: "Best Places to Eat, Drink & Hang Out in Hobe Sound, Florida",
-    body: `Hobe Sound's dining is small but full of old-Florida character, with Jupiter and Stuart close for more.
-## Old-Florida character
-Hobe Sound is known for quirky, beloved local spots — the kind of weathered, character-filled restaurants that capture old Florida. **Harry and the Natives** is the legendary example, a longtime roadside institution full of personality. The small downtown adds a few more local cafés and eateries.
+    body: `The honest version, because a padded dining guide for a town this size helps nobody.
 
-## Just south and north
-For real range, **Jupiter** (minutes south, with its waterfront dining scene) and **Stuart** (just north, with its historic downtown) are both easy drives — so Hobe Sound gives you a quiet home base with great dining nearby.
+**Hobe Sound does not have a restaurant scene.** It has a small number of genuinely good local places, most of them clustered in a few blocks, and then it has fifteen minutes of driving in either direction.
 
-## The vibe
-This is a small, laid-back, nature-loving town — character spots and casual local eats over a flashy scene. The real hangouts are the parks, the beach, and the river.
-`,
+That's not a criticism. It's the arrangement, and residents who understand it in advance are happy with it.
+
+## The Bridge Road and Dixie district
+
+The town's commercial heart is not on US-1 — it's a block east, along **Dixie Highway** and **Bridge Road**.
+
+This is where you'll find the independents: cafés, a bakery or two, casual lunch spots, a handful of restaurants, and the local services that make a small district feel like somewhere rather than a strip.
+
+The whole thing takes a few minutes to walk end to end, and that's the appeal. Coffee, a wander, and back out again is a genuinely nice way to start a Saturday, and it's what our [hidden gems guide](/blog/hidden-gems-in-hobe-sound-florida) means by the town's quiet pleasures.
+
+The places here survive on local repeat business rather than passing trade, which means two things: the standard is generally decent, and the way to find the good ones is to ask a neighbour rather than an app.
+
+## The US-1 corridor
+
+Practical rather than characterful. Plazas along the highway cover the basics — a supermarket, quick food, a pizza place, the usual.
+
+Useful, not a destination, and not where anyone takes a visitor.
+
+## Fifteen minutes gets you everything
+
+The real answer, and residents use it constantly.
+
+**South to Jupiter**, roughly fifteen minutes, for a genuinely deep restaurant scene, waterfront dining at the inlet, breweries and a proper evening out.
+
+**North to Stuart**, roughly the same, for a walkable historic downtown, riverfront restaurants, live music, the Lyric Theatre and a farmers market — our [Stuart eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) covers it.
+
+Being equidistant from two different towns with real dining is genuinely unusual, and it is the compensation for having little of your own. Most Hobe Sound households keep a Jupiter list and a Stuart list.
+
+## The club dining question
+
+Worth flagging because it changes the picture for some buyers.
+
+In the golf and club communities — and particularly at **Atlantic Fields**, the new private club community off Bridge Road, which includes an organic farm supplying farm-to-table dining — a meaningful share of eating and drinking happens inside the club.
+
+If you buy into one of those, club dining becomes a significant part of your social life. That's either the appeal or a thing to be aware of. Confirm what membership includes.
+
+## Drinking
+
+Minimal, and honest about it. A few local bars and restaurant bars, and that's the extent of it. There is no nightlife in Hobe Sound and no walkable cluster of anything.
+
+Kitchens close early. For an actual night out, you drive — with a plan for getting home that doesn't involve driving back.
+
+## Provisioning matters more here
+
+In a town where dinner out is usually a drive, cooking at home does a lot of the work.
+
+The local supermarket covers the basics, and the two things worth going out of your way for are both nearby: the **retail fish markets** attached to Stuart's working waterfront, selling what local boats landed, and the seasonal produce and farm stands that exist in this part of Martin County.
+
+For a lot of households here the honest pattern is cooking most nights and driving out twice a week. That's not a compromise — it's how the town works, and it's cheaper and often better.
+
+## Breakfast and coffee
+
+The part of the day Hobe Sound does best.
+
+The independents along Dixie and Bridge open early and fill with the same faces — the retired, the remote workers, the tradespeople starting a job. It is unpretentious and genuinely sociable, and it is the single easiest way for a newcomer to start recognising people.
+
+Pair it with the beach or the park beforehand and you have the standard local morning.
+
+## Where to take visitors
+
+A practical problem residents solve the same way every time.
+
+**Lunch** near the water, then **Blowing Rocks** at the right tide or **Jonathan Dickinson** for the tower and the river. **Dinner** in Stuart or Jupiter depending on which way you feel like driving.
+
+Trying to entertain visitors entirely within Hobe Sound is the mistake. The town is the base; the surroundings and the two neighbouring towns are the itinerary.
+
+## Where people actually hang out
+
+Not restaurants, mostly.
+
+- **The beach.** Hobe Sound Beach and the refuge shoreline, at both ends of the day.
+- **The water.** Boats, the Intracoastal, and the Peck Lake weekend scene.
+- **The state park.** 11,500 acres, and the default weekend for a lot of residents.
+- **Each other's houses.** In a town this size, social life is substantially domestic.
+- **The Bridge Road district**, for coffee and running into people.
+- **Jupiter or Stuart**, for anything resembling an evening.
+
+## Farm stands and what grows here
+
+Worth knowing, and easy to miss.
+
+This part of Martin County still has working agricultural land, and seasonal produce, citrus and farm stands turn up along the corridors — more in the cooler months than in high summer.
+
+It is not a formal market scene like Stuart's, and it varies year to year. But for a household that cooks, knowing where the seasonal stands set up is a genuine small pleasure of living out here, and it is the kind of thing you only learn by asking.
+
+## The seasonal swing
+
+**November through April** the town has more people in it, the few local places get busy and US-1 slows down. **May through October** it empties, and some places reduce hours or close for a stretch.
+
+Call ahead in late summer rather than driving over.
+
+## The honest summary
+
+You do not move to Hobe Sound for the food. You move here for the state park, the beach, the river and the quiet, and you accept that dinner is either at home or a fifteen-minute drive.
+
+Buyers who know that going in are fine. Buyers who assume a town this pretty must have a scene hiding somewhere are the ones who end up disappointed — and there isn't one.
+
+Places change and seasonal hours vary. Check before you drive over.`,
     faqs: [
-      { q: "Where do locals eat in Hobe Sound?", a: "At quirky old-Florida local spots like the longtime institution Harry and the Natives and a few downtown cafés, plus easy drives to Jupiter and Stuart for a wider range." },
-      { q: "Does Hobe Sound have many restaurants?", a: "Its own scene is small and character-filled; for more variety, residents head minutes south to Jupiter or north to Stuart." },
-      { q: "Is there nightlife in Hobe Sound?", a: "Very little — it's a quiet, nature-focused town. For nightlife, locals go to Jupiter or Stuart." },
-      { q: "What's the social scene like in Hobe Sound?", a: "Laid-back and outdoorsy — the parks, beaches, and river are the real hangouts, with casual character restaurants rounding it out." },
+      { q: "Where do you eat in Hobe Sound, Florida?", a: "Most of the local independents are clustered along Dixie Highway and Bridge Road a block east of US-1 — cafés, bakeries, casual lunch spots and a handful of restaurants in a district you can walk in a few minutes. The US-1 corridor covers practical basics. For a wider range, residents drive fifteen minutes to Jupiter or Stuart." },
+      { q: "Does Hobe Sound have a restaurant scene?", a: "No. It has a small number of genuinely good local places in a compact district and not much else. Residents treat Jupiter to the south and Stuart to the north — each about fifteen minutes away — as their dining options, and most households keep a list for both." },
+      { q: "Does Hobe Sound have nightlife?", a: "Effectively none. There are a few local bars and restaurant bars, kitchens close early, and there is no walkable cluster of venues. For a genuine night out residents drive to Jupiter or Stuart, with a plan for getting home that does not involve driving back." },
+      { q: "How do you find the good restaurants in Hobe Sound?", a: "Ask neighbours rather than relying on review apps. The independents along Dixie Highway and Bridge Road survive on local repeat business rather than passing trade, so word of mouth is consistently more accurate — and the district is small enough that recommendations are easy to act on." },
+      { q: "Where do people hang out in Hobe Sound?", a: "Mostly outdoors and at home rather than at restaurants — the beach at both ends of the day, the water including the Peck Lake weekend boating scene, Jonathan Dickinson State Park, the Bridge Road district for coffee, and each other’s houses. Anything resembling an evening out means driving to Jupiter or Stuart." },
+      { q: "Do restaurants in Hobe Sound close in the summer?", a: "Some reduce hours or close for a stretch between roughly May and October, when the seasonal population leaves. It is a normal part of the calendar rather than a sign of trouble, but it makes a phone call worthwhile before driving over in late summer." },
     ],
     internalLinks: ["best-things-to-do-in-hobe-sound-florida", "local-guide-to-hobe-sound-florida", "hidden-gems-in-hobe-sound-florida"],
-    funFact: "Harry and the Natives has been a Hobe Sound institution since 1975. It's the kind of local roadside spot that survived decades of Florida development by being completely itself — cash-only, no-frills, walls covered in old signs. Exactly the kind of place that doesn't exist in newer Florida towns.",
+    funFact: "Hobe Sound's dining answer is geographic rather than culinary: it sits almost exactly fifteen minutes from Jupiter and fifteen minutes from Stuart, in opposite directions, and both have proper restaurant scenes. Most households here end up keeping two separate mental lists — a Jupiter list and a Stuart list — and treating the local independents as the everyday option in between.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-01',
   },
 
   // ===================== PORT SALERNO =====================
