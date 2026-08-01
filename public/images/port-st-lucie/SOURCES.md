@@ -12,7 +12,7 @@ asserting a location. Replace them with local photography when we have it.
 | `stock-new-construction-framing.jpg` | Unsplash — `images.unsplash.com/photo-1504149269576-9900c81eb84d` | Unsplash License | Floor-joist framing on a house under construction; no people, no branding |
 | `stock-farmers-market.jpg` | Unsplash — `images.unsplash.com/photo-1552825896-8059df63a1fb` | Unsplash License | Produce stall at an outdoor market; no identifiable faces |
 
-## Why there are only two
+## Why there are only four
 
 Searching Unsplash for "port st lucie", "treasure coast florida", and
 "st lucie river" returns keyword-matched noise, not this city — the top results
