@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getActiveListings } from '@/lib/listings'
+import { agents } from '@/lib/agents'
 import ListingCard from '@/components/ListingCard'
 import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
 
@@ -159,23 +160,27 @@ export default function SellPage() {
             What Is Your Home Worth?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-blue-100">
-            Call or email us for a no-obligation comparative market analysis. We'll give you an
-            honest assessment of your home's value in today's market.
+            Pick the agent you&rsquo;d like to work with and send us the address. You&rsquo;ll hear
+            back the same day, and get a no-obligation comparative market analysis — built by hand
+            from real comparable sales, not an automated estimate — within 48 hours.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <a
-              href="tel:+15617837733"
-              className="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-gold-700 shadow transition hover:bg-blue-50"
-            >
+            {agents.map((agent) => (
+              <Link
+                key={agent.slug}
+                href={`/sell/${agent.slug}`}
+                className="inline-flex w-full items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-gold-700 shadow transition hover:bg-blue-50 sm:w-auto"
+              >
+                Free CMA from {agent.firstName}
+              </Link>
+            ))}
+          </div>
+          <p className="mt-5 text-sm text-blue-100">
+            Prefer to talk first?{' '}
+            <a href="tel:+15617837733" className="font-semibold underline underline-offset-4">
               Call (561) 783-7733
             </a>
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center rounded-full border border-white/40 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white/80 hover:bg-white/10"
-            >
-              Request by Email
-            </Link>
-          </div>
+          </p>
         </div>
       </section>
     </div>
