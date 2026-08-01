@@ -78,6 +78,10 @@ export async function POST(req: NextRequest) {
       phones: phone?.trim() ? [{ value: phone.trim(), type: 'mobile' }] : [],
       tags: buildSellerLeadTags(body, agent),
       addresses: [{ street: address!.trim(), type: 'home' }],
+      // Route the lead straight to the agent whose page it came from, rather
+      // than letting FUB's default distribution decide. The tag above is kept
+      // as well — it's what reporting and any FUB automation filter on.
+      assignedTo: agent.fubAssignedTo,
     },
     message: buildSellerLeadNote(body, agent),
   }

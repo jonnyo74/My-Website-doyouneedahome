@@ -23,6 +23,13 @@ export interface Agent {
   photoPosition: string
   /** Applied to every FUB lead from this agent's page so routing rules can pick it up. */
   crmTag: string
+  /**
+   * Passed to Follow Up Boss as `person.assignedTo` so the lead lands directly in
+   * this agent's queue instead of falling through to default lead distribution.
+   * FUB matches this on the user's full name — it must be EXACTLY the display
+   * name on their FUB account or the assignment silently won't stick.
+   */
+  fubAssignedTo: string
   /** Hero subhead, first person — this is the agent talking, not the brand. */
   pitch: string
   /** Three reasons to trust this specific agent with a valuation. */
@@ -44,6 +51,7 @@ export const agents: Agent[] = [
     photo: '/images/Event-81.jpg',
     photoPosition: 'object-[center_25%]',
     crmTag: 'Agent: John Oliver',
+    fubAssignedTo: 'John Oliver',
     pitch:
       "Tell me where your home is and I'll pull the actual comparable sales — not an automated estimate. You'll get a real number, how I arrived at it, and what I'd do to get you more than it.",
     strengths: [
@@ -75,6 +83,7 @@ export const agents: Agent[] = [
     photo: '/images/Christine-rooftop.png',
     photoPosition: 'object-top',
     crmTag: 'Agent: Christine Dekant',
+    fubAssignedTo: 'Christine Dekant',
     pitch:
       "Send me your address and I'll show you what comparable homes actually sold for — with the reasoning behind the number. I came to real estate from accounting, so you'll get the math, not a sales pitch.",
     strengths: [
