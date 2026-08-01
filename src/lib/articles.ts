@@ -1389,28 +1389,96 @@ You trade quiet and beachfront for energy, range, and the ability to leave the c
     secondaryKeywords: ["West Palm Beach insider tips", "things locals do in West Palm Beach", "moving to West Palm Beach guide"],
     h1: "A Local's Guide to West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/west-palm-beach-003.jpeg',
-    body: `West Palm rewards people who treat it like the real city it is. Here's the local playbook.
+    body: `West Palm rewards people who treat it like the actual city it is, which most newcomers don't for the first six months. They drive everywhere, park badly, and never figure out that the train goes somewhere useful.
+
+Here's the local playbook, condensed.
 
 ## Get your bearings
 
-**Downtown & the waterfront** — Clematis Street, Rosemary Square, and Flagler Drive along the Intracoastal — is the energetic core. South of there sit the **historic neighborhoods** (El Cid, Flamingo Park, Grandview Heights, SoSo). North is **Northwood and Antique Row**, artsy and revitalizing. Head west and it turns suburban toward Palm Beach Lakes.
+The city organizes into four rough zones, and once you can picture them the rest follows.
 
-## The local rhythm
+**Downtown and the waterfront.** Clematis Street, Rosemary Square, and Flagler Drive along the Intracoastal. The dense, walkable, event-driven core, and where the office employment sits.
 
-Locals walk to dinner downtown, catch the Saturday **waterfront GreenMarket**, ride the **Brightline** for a day trip to Miami, and pop over the bridge to the beach. Free events anchor the social calendar — **Clematis by Night**, the **Saturday GreenMarket**, the **Sandi sand sculpture tree** at the holidays, **Fourth of July** on the waterfront, and shows at the Kravis Center.
+**The historic south.** El Cid, Flamingo Park, Grandview Heights, and SoSo (South of Southern) — tree-canopied streets, 1920s architecture, and the walkable-house market that gives this city its character.
+
+**North of downtown.** Northwood and Antique Row along South Dixie's northern reach — artsy, independent, and still revitalizing in parts.
+
+**West.** Past I-95 toward Palm Beach Lakes and beyond, the city turns conventionally suburban: bigger lots, newer stock, easier parking, more accessible pricing, and a car for everything.
+
+The bridges to Palm Beach island are your fifth reference point. Several open on a schedule for boat traffic, which quietly shapes which side of downtown people prefer.
+
+## Parking, honestly
+
+The single most common newcomer complaint, and almost entirely solvable.
+
+Downtown street parking in the evening — particularly Thursday through Saturday, and worse in season — is a losing game. **Learn the garages.** Residents park in the same structure every time and walk two blocks rather than circling for twenty minutes.
+
+Rosemary Square and the surrounding blocks have structured parking. Metered street spots exist but turn over slowly at peak times. If you're going out downtown on a Saturday night in February, decide your garage before you leave the house.
+
+## Use the train
+
+The **Brightline** station is downtown, and it's the most underused asset in the city among people who live here.
+
+Fort Lauderdale and Miami become genuine day trips — dinner, a game, an event — without driving I-95 or paying to park. Orlando is reachable without the four-hour drive. For anyone flying out of a different airport, it changes the calculation entirely.
+
+Residents who build it into their routine describe it as the thing that makes West Palm feel like a real city rather than a large town. Residents who never try it are, in effect, living in a nice suburb with good restaurants.
+
+## The rhythm of the week
+
+Mornings are quiet almost everywhere except downtown, which has an actual weekday commuter pulse — a genuine rarity in this region.
+
+Evenings concentrate downtown and in the neighborhood pockets. The city has a real after-dark life, which is exactly why people either choose it or avoid it.
+
+**Saturday morning belongs to the GreenMarket** on the waterfront. It's been running since 1994, it's genuinely local rather than a tourist market, and on a good season morning it draws a serious crowd. It's the closest thing the city has to a shared weekly ritual and the easiest way for a new resident to start recognizing faces.
+
+## The annual calendar
+
+- **Season, roughly November through April** — busier downtown, fuller restaurants, more traffic, better weather. Reservations start mattering.
+- **Clematis by Night**, the long-running free weeknight music series downtown.
+- **The holidays** bring the sand sculpture tree on the waterfront, which is a genuine local institution and much better than it sounds.
+- **Fourth of July** on the waterfront is one of the biggest gatherings of the year.
+- **Summer, May through October** — hot, humid, with afternoon storms that build and clear. Unlike the seasonal beach towns, the city doesn't hollow out; the office population and year-round residents keep it running.
 
 ## The unwritten rules
 
-Downtown parking takes patience — learn the garages. Neighborhoods change block to block, so get to know your specific pocket. And lean on the Brightline — it's a genuine car-free option most newcomers underuse.
+- **Research at street level, not zip-code level.** This is the single most important thing about West Palm. The city varies block to block, and buyers who walk the actual street — at night, on a weekend — consistently do better than those who don't.
+- **Don't fight the bridges.** If one's up, it's a few minutes. Getting agitated marks you as new.
+- **Learn one garage and commit to it.**
+- **Hurricane prep is normal**, June through November. Know your zone and your flood status; both vary meaningfully across the city.
+- **The city is not the island.** Palm Beach is a separate municipality across the bridge with its own rules, taxes, and pace. Locals are precise about the distinction and you should be too.
+
+## Getting around and out
+
+I-95 and Florida's Turnpike both run through, and **Palm Beach International Airport is unusually close** — roughly 10 to 15 minutes from downtown, which is one of the genuine practical luxuries of living here. Jupiter and the northern beach towns are 25 to 30 minutes up the coast; Delray and Boca are 25 to 40 minutes south.
+
+Public transit beyond the Brightline is limited. Within downtown a free circulator serves the core, but for most of the city you're driving.
+
+## A note on the two "Palm Beaches"
+
+Newcomers conflate them constantly, and it causes real confusion in a home search.
+
+**Palm Beach** is the barrier island — a separate municipality with its own government, its own police, its own zoning, and among the highest property values in the state. **West Palm Beach** is the mainland city across the bridge.
+
+They have different tax rates, different rules, and completely different markets. When you see a listing or a statistic, check which one it refers to, because the difference is not small.
 
 ## Settling in
 
-Pick a neighborhood that matches your vibe — walkable-downtown, historic-charming, or artsy-Northwood — and the city opens up fast. West Palm rewards people who use its downtown, its waterfront, and its train. For deeper dives into the dining, arts, and waterfront scene, our sister site keeps [50-plus local guides to West Palm Beach living](https://www.condowpb.com/lifestyle).`,
+Pick your zone first
+
+## Settling in
+
+Pick your zone first — walkable-downtown, historic-house, artsy-north, or suburban-west — because those are four genuinely different lives inside one city.
+
+Then do the three things newcomers skip: ride the train somewhere, go to the GreenMarket, and walk your prospective block after dark before you buy. Those three cover more ground than any amount of online research.
+
+Weighing a downtown tower instead? That market runs on building-by-building specifics — dues, reserves, rules — and [CondoWPB.com](https://www.condowpb.com) covers them one at a time.`,
     faqs: [
-      { q: "What do locals do in West Palm Beach?", a: "Dine and go out downtown on Clematis Street and at Rosemary Square, hit the Saturday waterfront GreenMarket, ride the Brightline, enjoy the Kravis Center and festivals, and cross the bridge to the beach." },
-      { q: "Is West Palm Beach walkable?", a: "Downtown and the waterfront are genuinely walkable, and the Brightline adds car-free travel. Beyond the core, it is more car-dependent." },
-      { q: "What is the Brightline in West Palm Beach?", a: "A higher-speed train with a downtown West Palm Beach station connecting to Miami, Fort Lauderdale, Boca Raton, and Orlando — a real car-free travel option." },
-      { q: "What are the historic neighborhoods in West Palm Beach?", a: "El Cid, Flamingo Park, Grandview Heights, and SoSo (South of Southern) are among the best-known historic districts, full of vintage Florida homes." },
+      { q: "How is West Palm Beach laid out?", a: "Roughly four zones: downtown and the Flagler Drive waterfront (dense, walkable, where the offices are); the historic south including El Cid, Flamingo Park, Grandview Heights, and SoSo; Northwood and Antique Row to the north; and conventional suburbia west of I-95 toward Palm Beach Lakes." },
+      { q: "Where do you park in downtown West Palm Beach?", a: "Use the garages. Street parking downtown in the evening — especially Thursday through Saturday and during season — turns over slowly and isn't worth circling for. Residents typically pick one structure and walk a couple of blocks." },
+      { q: "How far is West Palm Beach from the airport?", a: "Palm Beach International Airport is roughly 10 to 15 minutes from downtown, which is unusually close and one of the practical advantages of living in the city. I-95 and Florida's Turnpike both run through as well." },
+      { q: "What is the West Palm Beach GreenMarket?", a: "A Saturday morning market on the waterfront that has run since 1994. It's genuinely local rather than a tourist farmers market, draws large crowds during season, and functions as the city's main shared weekly ritual." },
+      { q: "Is there public transit in West Palm Beach?", a: "Limited beyond the Brightline intercity rail station downtown, though a free circulator serves the downtown core. For most of the city you'll drive. The Brightline itself makes Fort Lauderdale, Miami, and Orlando reachable without a car." },
+      { q: "What should new residents of West Palm Beach do first?", a: "Ride the Brightline somewhere, go to the Saturday GreenMarket, and walk any prospective block after dark before buying. The city varies significantly street to street, so street-level research matters far more here than zip-code-level research." },
     ],
     internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
     funFact: "The Saturday GreenMarket on the West Palm waterfront has been running since 1994 and pulls 10,000+ people on a busy season morning. It's genuinely local — Florida-grown produce, local honey, artisan food — not a tourist farmers market. It's where residents actually shop.",
@@ -1431,26 +1499,106 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
     secondaryKeywords: ["where to live in West Palm Beach", "El Cid", "Flamingo Park", "SoSo West Palm Beach", "downtown West Palm Beach"],
     h1: "Best Neighborhoods in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/waterfront-030.jpeg',
-    body: `West Palm's neighborhoods are its superpower — there's a distinct one for almost every lifestyle.
+    body: `This guide covers West Palm Beach's **house** neighborhoods — the single-family and historic districts where you buy a home with a yard, a porch, and a roof of your own.
 
-**Walkable urban → Downtown & Rosemary Square.** High-rise and mid-rise condos steps from Clematis, the waterfront, and the Brightline. For people who want to live in the action — we map every building at [CondoWPB.com's neighborhood guides](https://www.condowpb.com/neighborhoods).
+That's a deliberate scope. Downtown and Flagler Drive are a condo market with entirely different economics — association dues, reserve studies, building-specific risk — and our sister site [CondoWPB.com](https://www.condowpb.com) covers those buildings one by one. If a tower is what you're after, start there instead.
 
-**Historic & waterfront → El Cid.** One of the most charming districts in the city — Spanish-Mediterranean homes, tree canopy, and Intracoastal proximity.
+For everyone shopping for a house, here's how the city divides up.
 
-**Up-and-coming → SoSo (South of Southern).** A hot renovation zone — historic homes getting modern updates, strong appreciation, and a walkable feel.
+## El Cid — the architectural showpiece
 
-**Classic bungalows → Flamingo Park & Grandview Heights.** Vintage Florida charm, tree-lined streets, and a tight-knit, historic-district vibe near downtown.
+Listed on the National Register of Historic Places, and home to some of the best Mediterranean Revival architecture in Florida outside Miami Beach. Tree canopy, brick streets in places, and proximity to the Intracoastal.
 
-**Artsy & revitalizing → Northwood Village.** Galleries, cafés, and a creative identity, with character homes at often-friendlier prices.
+**Objective characteristics:** historic district with design review, 1920s-era Mediterranean and Mission architecture, mature landscaping, larger lots than the bungalow districts, highest price tier among the historic neighborhoods, walkable to Antique Row and near downtown.
 
-**Value & space → Palm Beach Lakes (west).** Larger single-family homes with easy airport and I-95 access at more accessible price points.
+**Trade-offs:** historic district rules govern exterior changes, which is what preserves the character and also constrains renovation. Older systems throughout — confirm roof, plumbing, electrical, and window condition, all of which drive insurance.
 
-**How to choose:** walkable downtown condo, historic charmer, renovation project with upside, artsy enclave, or more space out west? West Palm has a neighborhood for each.`,
+## Flamingo Park — the bungalow district
+
+Vintage Florida at its most intact: 1920s bungalows and Mission-style cottages on tree-lined streets, in one of the city's designated historic districts, an easy walk or short ride from downtown.
+
+**Objective characteristics:** smaller lots and smaller homes than El Cid, strong architectural consistency, historic district protections, active neighborhood association, genuinely walkable to downtown.
+
+**Trade-offs:** bungalows are small by modern standards, and expanding one inside a historic district is a permitting question before it's a budget question. Ask first.
+
+## Grandview Heights — walkable and central
+
+A small historic pocket close to downtown and the Brightline, with vintage homes and a tight, well-defined footprint.
+
+**Objective characteristics:** among the most centrally located house neighborhoods, historic character, compact lots, exceptional walkability to downtown and the train.
+
+**Trade-offs:** limited inventory because the neighborhood is small. You may wait for the right listing.
+
+## SoSo (South of Southern) — the renovation market
+
+The city's most active value-add neighborhood. Historic and mid-century homes, many being updated, with a walkable feel and steady buyer interest.
+
+**Objective characteristics:** mixed housing stock and vintages, wide range of condition from untouched to fully renovated, walkable pockets, proximity to the Intracoastal and to Southern Boulevard.
+
+**Trade-offs:** condition varies enormously property to property, which is the opportunity and the risk. Inspect hard, and budget for what you find rather than what's staged.
+
+## Northwood — character at a friendlier entry point
+
+North of downtown, artsy and independent, with character homes at generally more accessible pricing than the southern historic districts.
+
+**Objective characteristics:** historic bungalows and early-20th-century homes, wide price range, revitalization underway in parts, walkable village core nearby.
+
+**Trade-offs:** this is the clearest example of the city's block-to-block variation. Streets differ meaningfully within a short distance, so walk the specific block at different times of day. We go deeper in our [Northwood Village neighborhood guide](/blog/northwood-village-west-palm-beach-neighborhood-guide).
+
+## Palm Beach Lakes and the west — space and value
+
+West of I-95, the city becomes conventional suburbia: larger single-family homes, bigger lots, newer construction, and the most accessible pricing in the city.
+
+**Objective characteristics:** post-1970s construction predominantly, larger lots, some HOA communities, easy I-95 and airport access, no walkability, generally better insurance profile due to newer building codes.
+
+**Trade-offs:** you're driving for everything, and you give up the historic character that defines the rest of the city. In exchange you get more house, more parking, and typically lower carrying costs.
+
+## How to actually compare them
+
+## What "walkable" actually means here
+
+Worth being precise, because the word gets used loosely in listings.
+
+In Grandview Heights and parts of Flamingo Park, walkable means you can genuinely reach restaurants, coffee, and the train on foot. In El Cid it means a pleasant walk to some things and a drive to others. West of I-95 it means nothing at all — that's a car neighborhood.
+
+Ask what specifically you'd be walking to from a given address, and then try it once before you decide the label applies.
+
+## A note on inventory and pace
+
+Two things about this market that catch buyers coming from newer suburbs.
+
+**The historic districts turn over slowly.** These are small, established neighborhoods where people stay for decades. In any given month the number of genuinely comparable listings may be very small, so buyers with specific requirements often wait rather than choose.
+
+**Condition varies more than price does.** Two houses on the same street at similar asking prices can be twenty years apart in roof age and a full renovation apart in systems. In a market of uniform new construction, price tracks quality fairly closely. Here it doesn't, which is exactly why the inspection matters more than the comps.
+
+In West Palm more than any other local city, the property matters more than the neighborhood name. For anything you're seriously considering:
+
+- **Walk the block at night and on a weekend.** Non-negotiable here.
+- **Roof age, plumbing, electrical, and windows** — the four items that most often decide whether a historic property is insurable at a sane price. Our [cost of living guide](/blog/cost-of-living-in-west-palm-beach-florida) explains how each one moves the number.
+- **Historic district status**, and exactly what exterior changes require review.
+- **FEMA flood zone** for the specific address — zones vary considerably across the city and flood coverage is separate from a standard policy.
+- **Property taxes recalculated for a new owner**, not the seller's capped bill.
+- **What's approved or under construction nearby**, particularly closer to downtown.
+- **Permit history** on any renovated property — unpermitted work is a real and recurring issue in older housing stock.
+
+## On schools
+
+Assignments vary considerably across West Palm Beach, and this is a city where reputation and reality can diverge by neighborhood. Grades and boundaries are reviewed and updated annually.
+
+**Verify current assignments directly with the School District of Palm Beach County** for the specific address before making it a deciding factor.
+
+## Before you commit
+
+Communities here differ on objective characteristics: architectural period, lot size, historic district status, walkability, price tier, and construction age. The right one depends on your budget, your tolerance for older systems, and whether you want to walk places or park easily.
+
+Visit in person, at more than one time of day, and independently verify anything that matters to your decision.`,
     faqs: [
-      { q: "What is the best neighborhood in West Palm Beach?", a: "It depends on your lifestyle — Downtown and Rosemary Square for walkable urban living, El Cid for historic waterfront charm, SoSo for renovation upside, Flamingo Park for classic bungalows, and Palm Beach Lakes for space and value." },
-      { q: "What is the El Cid neighborhood known for?", a: "Historic Spanish-Mediterranean homes, a lush tree canopy, and proximity to the Intracoastal — one of West Palm Beach's most charming districts." },
-      { q: "Is SoSo a good neighborhood in West Palm Beach?", a: "Yes — South of Southern is a popular up-and-coming area known for renovated historic homes, walkability, and strong appreciation." },
-      { q: "Where are the more affordable neighborhoods in West Palm Beach?", a: "Areas like Palm Beach Lakes to the west and parts of Northwood tend to offer more attainable price points than downtown or the historic waterfront districts." },
+      { q: "What are the best house neighborhoods in West Palm Beach?", a: "El Cid for Mediterranean Revival architecture and larger lots, Flamingo Park for intact 1920s bungalows, Grandview Heights for walkability to downtown and the train, SoSo for renovation opportunity, Northwood for character at a friendlier entry point, and Palm Beach Lakes and the west for space, newer construction, and value." },
+      { q: "What is El Cid known for?", a: "It's listed on the National Register of Historic Places and contains some of the finest Mediterranean Revival architecture in Florida outside Miami Beach, with mature tree canopy, larger lots than the bungalow districts, and proximity to the Intracoastal. Historic district rules govern exterior changes." },
+      { q: "Where can you find renovation opportunities in West Palm Beach?", a: "SoSo (South of Southern) is the city's most active value-add neighborhood, with historic and mid-century homes across a wide range of condition. Parts of Northwood also offer opportunity. Condition varies enormously property to property, so inspect thoroughly." },
+      { q: "What should I check before buying a historic home in West Palm Beach?", a: "Roof age, plumbing, electrical, and window condition — all of which drive insurance and can affect financing. Also confirm historic district status and what exterior changes require review, pull the FEMA flood zone for the address, and check permit history, since unpermitted work is a recurring issue in older stock." },
+      { q: "Is west West Palm Beach a good place to buy?", a: "West of I-95 offers the most accessible pricing in the city, larger lots, newer construction with generally better insurance profiles, and easy I-95 and airport access. The trade-off is no walkability and none of the historic character that defines the eastern neighborhoods." },
+      { q: "How do I check school zoning in West Palm Beach?", a: "Verify current assignments directly with the School District of Palm Beach County for the specific address. Assignments vary considerably across the city, reputation and reality can diverge by neighborhood, and boundaries and grades are reviewed annually." },
     ],
     internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "who-should-move-to-west-palm-beach-florida"],
     funFact: "El Cid is listed on the National Register of Historic Places and contains some of the finest Mediterranean Revival architecture in Florida outside of Miami Beach. Several homes there were designed by Addison Mizner-era architects, and the neighborhood association actively maintains the historic character.",
@@ -1471,26 +1619,117 @@ Pick a neighborhood that matches your vibe — walkable-downtown, historic-charm
     secondaryKeywords: ["West Palm Beach attractions", "what to do in West Palm Beach", "Norton Museum", "Clematis Street"],
     h1: "Best Things to Do in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/waterfront-028.jpeg',
-    body: `As the urban hub, West Palm packs in more to do than anywhere nearby — culture, nightlife, waterfront, and even manatees.
+    body: `As the urban center of Palm Beach County, West Palm packs in more to do than anywhere nearby — and a surprising amount of it is either free or genuinely world-class.
 
-**Explore the arts.** The **Norton Museum of Art** is a regional gem, the **Kravis Center** hosts Broadway and concerts, and the **Ann Norton Sculpture Gardens** offer a quiet, beautiful escape.
+Here's what's actually worth your time.
 
-**Hit downtown.** **Clematis Street** and **Rosemary Square** deliver dining, shopping, bars, and events — including the long-running Clematis by Night (our [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) has the full scene).
+## The Norton Museum of Art
 
-**Stroll the waterfront.** Flagler Drive along the Intracoastal is made for walking, with the Saturday **GreenMarket** a weekend ritual.
+Start here. The Norton is a legitimately significant institution — a large permanent collection, and a major expansion designed by Norman Foster that substantially increased its gallery space.
 
-**See the manatees.** **Manatee Lagoon** is a free spot to watch manatees gather in the warm water in winter — a local favorite with kids.
+It is not a regional museum that punches above its weight. It's a serious art museum that happens to be in a mid-sized city, and for a lot of residents it's a primary reason they chose West Palm over the suburbs. Members go repeatedly rather than once.
 
-**Enjoy the events calendar.** West Palm runs events all year — **Clematis by Night** on weeknights, the **Saturday GreenMarket** on the waterfront, the iconic **Sandi sand sculpture tree** at the holidays, and the **Fourth of July** on the water. There's always something on.
+## The Kravis Center
 
-**Take the Brightline.** Hop the train for an easy day trip to Miami or Fort Lauderdale — no car, no parking.
+The county's principal performing arts venue, programming Broadway tours, concerts, dance, and classical seasons. It anchors the cultural calendar and it's the reason you don't have to drive to Fort Lauderdale or Miami for a show.
 
-And the beaches of Palm Beach island are minutes across the bridge when you want sand.`,
+## Ann Norton Sculpture Gardens
+
+The quiet counterweight to the big institutions, and the one most residents forget to recommend.
+
+A small, lush garden of monumental sculpture tucked near the waterfront, on the grounds of the sculptor's former home. It takes under an hour, it's rarely crowded, and it's one of the most genuinely peaceful places in the city.
+
+## Manatee Lagoon
+
+Free, and one of the best family outings on this coast. Manatees gather in the warm-water outflow during the cooler months, and there's an education center built around watching them.
+
+It costs nothing, it's reliably good with children, and the manatees show up in real numbers when the weather turns. Go on a cold snap — counterintuitively, the colder the day, the better the viewing.
+
+## Walk the waterfront
+
+Flagler Drive along the Intracoastal is made for walking, with Palm Beach island across the water. It's the city's default exercise route, sunset walk, and out-of-town-guest activity.
+
+**Saturday morning is the GreenMarket**, running on the waterfront since 1994. Genuinely local rather than touristy, and one of the city's real weekly institutions.
+
+## Take the Brightline somewhere
+
+The most underrated activity in the city, because it doesn't feel like an activity.
+
+Fort Lauderdale for lunch. Miami for a game or a museum. Orlando without the drive. The station is downtown, and using it converts a weekend from "what's on locally" to "where should we go."
+
+Residents who use the train regularly report it as one of the best things about living here. Residents who never try it don't know what they're missing.
+
+## Mounts Botanical Garden
+
+The county's oldest and largest botanical garden, off Military Trail — a quiet green retreat with themed collections and a regular event calendar. Low-key, well-maintained, and consistently overlooked.
+
+## The beach, across the bridge
+
+Palm Beach island's beaches are minutes away over the bridge. You don't live on them, but you can be on the sand faster than most people in most beach towns can find parking.
+
+## The Armory Art Center
+
+A working art school and gallery in a restored 1939 armory building, running classes, studios, and rotating exhibitions.
+
+It's less visited than the Norton and serves a different purpose — this is where residents go to *make* things rather than look at them. For anyone who wants a creative outlet after relocating, it's one of the better and less obvious ways into the local scene.
+
+## The Palm Beach Zoo and the science center
+
+Both sit in Dreher Park near downtown, and both are staples for anyone with children.
+
+The zoo is compact and well-kept rather than sprawling, which is genuinely an advantage with small kids — you can do the whole thing without anyone melting down. The adjacent science center covers a rainy afternoon reliably.
+
+Neither is a destination attraction on its own. Both earn their place in the weekend rotation once there are kids in the house.
+
+## Get out on the water
+
+Easy to overlook in a city defined by its downtown, but the Intracoastal runs right through it.
+
+Boat rentals, charters, and paddling are all accessible from the waterfront, and the Lake Worth Lagoon offers protected water that's considerably calmer than heading out an inlet. **Peanut Island**, reachable by boat or shuttle, has snorkeling, a swimming lagoon, and a Cold War-era presidential bunker — one of the better half-day outings in the county.
+
+For anyone who assumed a mainland city meant giving up the water, it doesn't.
+
+## Day trips within an hour
+
+The city's position and its train station make this unusually easy:
+
+- **Palm Beach island** — Worth Avenue, the Flagler Museum, and the beaches, minutes across the bridge.
+- **Jupiter** (about 30 minutes north) — the inlet, the lighthouse, and Riverbend Park.
+- **Delray Beach** (about 30 minutes south) — Atlantic Avenue's walkable downtown.
+- **Fort Lauderdale** (Brightline, well under an hour) — beaches, dining, and Las Olas without driving.
+- **Loxahatchee National Wildlife Refuge** (about 40 minutes west) — Everglades-system marsh, boardwalks, and airboat access.
+
+## Sports
+
+Spring training baseball is a short drive north, and the region hosts golf, polo in Wellington during season, and equestrian events that draw international fields. None of it is in West Palm proper, but all of it is close enough to be part of living here.
+
+## The events calendar
+
+West Palm runs events year-round, which is unusual for the region:
+
+- **Clematis by Night** — the long-running free weeknight live music series downtown.
+- **The holiday sand sculpture tree** on the waterfront, a genuine local institution.
+- **Fourth of July** on the waterfront, one of the year's biggest gatherings.
+- **Season programming** from roughly November through April across the arts venues.
+
+## Seasonal timing
+
+**November through April** is when everything runs and the weather is ideal. It's also busiest — book ahead for restaurants and expect company downtown.
+
+**May through October** is hot and humid with afternoon storms that build and clear quickly. Unlike the seasonal beach towns, the city keeps running; the museums, the train, and the restaurants are all still there, just less crowded.
+
+## The honest local advice
+
+Do the Norton properly at least once — not a quick walkthrough. Make the waterfront and the GreenMarket a habit rather than a visit. Take the train somewhere in your first month.
+
+And for a night out downtown, [CondoWPB.com](https://www.condowpb.com) maps the dining and entertainment scene block by block — worth a look before you pick a garage.`,
     faqs: [
-      { q: "What is there to do in West Palm Beach?", a: "Visit the Norton Museum of Art and Ann Norton Sculpture Gardens, catch a show at the Kravis Center, explore Clematis Street and Rosemary Square, stroll the waterfront and GreenMarket, see manatees at Manatee Lagoon, and ride the Brightline." },
-      { q: "Is Manatee Lagoon free?", a: "Yes — Manatee Lagoon is a free attraction with an observation deck and exhibits where you can watch manatees gather in winter." },
-      { q: "What is there to do downtown in West Palm Beach?", a: "Clematis Street and Rosemary Square offer dining, shopping, bars, and events, with the Flagler Drive waterfront and GreenMarket nearby." },
-      { q: "Can you take a train from West Palm Beach?", a: "Yes — the Brightline station downtown connects to Boca Raton, Fort Lauderdale, Miami, and Orlando." },
+      { q: "What are the best things to do in West Palm Beach?", a: "Visit the Norton Museum of Art, see a show at the Kravis Center, spend an hour at the Ann Norton Sculpture Gardens, watch manatees for free at Manatee Lagoon in the cooler months, walk the Flagler Drive waterfront, shop the Saturday GreenMarket, visit Mounts Botanical Garden, and take the Brightline to Fort Lauderdale, Miami, or Orlando." },
+      { q: "Is the Norton Museum of Art worth visiting?", a: "Yes — it's a genuinely significant institution rather than a regional museum, with a large permanent collection and a major Norman Foster-designed expansion that substantially increased gallery space. Many residents cite it as a primary reason they chose West Palm Beach over the suburbs." },
+      { q: "Where can you see manatees in West Palm Beach?", a: "Manatee Lagoon, which is free and built around a warm-water outflow where manatees gather during the cooler months. It includes an education center and is reliably good with children. Colder days produce better viewing." },
+      { q: "What free things are there to do in West Palm Beach?", a: "Manatee Lagoon, walking the Flagler Drive waterfront, browsing the Saturday GreenMarket, and Clematis by Night, the long-running free weeknight live music series downtown." },
+      { q: "Where can you take the Brightline from West Palm Beach?", a: "The downtown station connects to Fort Lauderdale, Miami, and Orlando, making all three feasible day trips without driving or paying to park. Residents who build it into their routine consistently rate it among the best aspects of living in the city." },
+      { q: "What is there to do in West Palm Beach in summer?", a: "Everything keeps running, unlike the seasonal beach towns. The museums, the Kravis Center, the Brightline, and the restaurants all operate through summer with smaller crowds. Plan outdoor activity for morning or evening around the afternoon storms." },
     ],
     internalLinks: ["hidden-gems-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida"],
     funFact: "The Norton Museum of Art in West Palm Beach has a permanent collection valued at over $1 billion and is one of the largest art museums in the Southeast US. The 2019 renovation by Lord Norman Foster tripled its gallery space — it's a genuinely world-class institution in a mid-size city.",
@@ -1573,15 +1812,17 @@ The block-to-block variation that makes this city interesting also makes it dema
 
 ## A few specific situations
 
-**Young professionals and remote workers.** Probably the strongest fit in the county. Walkability, the train, a real restaurant scene, and pricing that's achievable relative to the beach towns.
+**Remote workers and first-time buyers.** Probably the strongest fit in the county. Walkability, the train, a real restaurant scene, and pricing that's achievable relative to the beach towns.
 
 **Empty nesters downsizing from a big suburban house.** Very common here. Lock-and-leave downtown living with culture and dining on foot is a genuine draw — and if that's the direction you're heading, [CondoWPB.com](https://www.condowpb.com) is the deeper resource, since downtown buildings vary enormously in fees, reserves, and rules.
 
 **Buyers who want a historic house.** This is the market for it locally. Budget for older-home realities: roof age, plumbing, electrical, and windows all matter more here than in newer stock, and they drive insurance.
 
-**Families.** Workable, and the historic neighborhoods have real community, but school assignments vary considerably across the city. Verify current assignments directly with the School District of Palm Beach County for the specific address rather than relying on any general reputation.
+**Families.** Workable, and the historic neighborhoods have real community, but school assignments vary considerably across the city and reputation is an unreliable guide. Our [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) covers how to check an address properly.
 
 **Retirees.** Good fit for the culturally active. Excellent hospital access, walkable districts, and no state income tax. Less good if you want quiet and a golf community, which the northern suburbs do better.
+
+**Boaters.** Better served than the mainland location suggests. The Intracoastal runs through the city, dockage exists along parts of the waterfront and in some residential areas, and the Lake Worth Inlet gives ocean access. Verify dockage, bridge clearance, and canal depth for any specific property.
 
 **Investors and renovators.** One of the few local markets with genuine value-add opportunity remaining. Check historic district rules before assuming you can alter an exterior.
 
@@ -1684,7 +1925,7 @@ The beach is across the bridge, minutes away, but you don't live on it. This is 
 
 ### Older housing stock
 
-The historic character comes with older roofs, plumbing, electrical, and windows. These drive insurance premiums and can affect financing — an older roof in particular can make a home difficult to insure at a reasonable price.
+The historic character comes with older roofs, plumbing, electrical, and windows, and each of those moves your insurance premium — sometimes enough to change which houses you can realistically buy.
 
 Get real insurance quotes during your inspection period, not after. And if a property sits in a historic district, understand what you're permitted to change before you plan a renovation.
 
@@ -1755,24 +1996,94 @@ Whichever way you lean, do the street-level research and quote the insurance ear
     h1: "Cost of Living in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/waterfront-025.jpg',
     showMarketTrends: true,
-    body: `West Palm Beach offers the widest cost range in the area — which is a big part of its appeal.
-## Housing
-This is where West Palm shines on flexibility. Luxury downtown condos and waterfront homes run high, but historic neighborhoods and areas to the west offer genuinely more attainable options than the beach towns. On the condo side there's still real value downtown — browse [condos under $500K in West Palm Beach](https://www.condowpb.com/west-palm-beach-condos-under-500k) to calibrate.
-## Taxes
-**No state income tax** — a major draw. Property taxes apply, with a Homestead Exemption for primary residents.
+    body: `West Palm Beach offers the widest cost range of any city on this coast, and that flexibility is a genuine part of its appeal. You can spend at the top or find real value, inside the same city limits.
 
-## Insurance
-A real coastal-Florida cost; budget and quote early. Downtown high-rise condos may handle some coverage through the association — ask.
+But the range is also what makes a general "cost of living in West Palm Beach" number useless. What matters is which version of the city you're buying into, and what the specific property carries underneath the mortgage.
+
+## Housing — the widest spread on the coast
+
+Waterfront and downtown sit at the top. Historic neighborhoods occupy a broad middle. West of I-95 is the most attainable part of the city.
+
+For current figures, check the **live market trends further down this page**, which pulls from the local MLS.
+
+What's more useful than a median is understanding what the money actually buys here versus nearby. West Palm is the one place locally where **walkable historic housing is attainable** — a 1920s bungalow within walking distance of restaurants exists here at a price point that has no equivalent in Jupiter, Palm Beach Gardens, or on the barrier islands. That's the city's distinctive value proposition, and buyers who want it usually can't get it anywhere else nearby.
+
+Downtown condo pricing is a separate market with its own dynamics, dues structures, and building-level variation. [CondoWPB.com](https://www.condowpb.com) covers that side building by building.
+
+## Insurance — and why older homes change the math
+
+This is the line item most likely to reshape a West Palm budget, and it behaves differently here than in the newer suburbs.
+
+Premiums have risen sharply across coastal Florida. West Palm's mainland position helps relative to the barrier islands, but the city's **older housing stock** is the complicating factor:
+
+- **Roof age and material** is the single biggest driver. An older roof can make a home difficult to insure at any reasonable price, which affects financing and shrinks your resale pool.
+- **Plumbing and electrical.** Older systems — particularly certain mid-century wiring and plumbing materials — can cause carriers to decline outright. This catches buyers in historic districts constantly.
+- **Construction year** relative to the post-1994 and post-2002 building codes.
+- **Wind mitigation features.** Impact glass, shutters, and roof-to-wall connections earn real credits. A wind mitigation inspection is inexpensive and frequently pays for itself.
+
+**Get real quotes during your inspection period, not after.** In this city that advice is not boilerplate — a beautiful historic home can be an insurance problem, and you want to know before you're committed.
+
+Flood is separate from a standard homeowners policy, and **flood zones vary considerably across West Palm.** Pull the zone for the specific address.
+
+## The tax picture
+
+**Florida has no state income tax**, a recurring annual benefit for retirees, remote workers, and anyone relocating from a higher-tax state.
+
+On property tax, the usual Florida trap applies with particular force in an appreciating market: **the figure on a listing typically reflects the current owner's bill**, which may be protected by caps that don't transfer to you. Assessed value generally resets toward market value in the year after a sale. Budget against a reset assessment and verify with the Palm Beach County Property Appraiser.
+
+If the home will be your **primary residence**, filing for Homestead Exemption reduces taxable value and triggers the **Save Our Homes** cap on annual increases. There's a filing deadline early in the year after purchase, and missing it costs a full year. Non-homestead property is capped less generously. If you're moving within Florida, **portability** may carry a substantial share of an accumulated benefit to your new homestead — it has its own form and timing rules and goes unclaimed constantly.
+
+Millage rates are set by the county, the city, and the school board and they change. Verify current figures and consult a CPA about your situation.
+
+## Renovation and maintenance
+
+Worth budgeting explicitly in a city with this much older housing.
+
+Historic homes carry maintenance that newer construction doesn't: original windows, plaster, older roofing systems, and landscaping with mature trees that need real care. If the property sits in a historic district, exterior work may require review, which affects both timeline and cost.
+
+Also check **permit history** on anything recently renovated. Unpermitted work is a persistent issue in older stock and becomes your problem at resale.
 
 ## Everyday costs
-As a city, dining, parking, and entertainment can add up, but you also get more competition and choice. Utilities and groceries track near the Florida average.
 
-**Bottom line:** West Palm lets you dial your cost up or down more than almost anywhere nearby — luxury if you want it, value if you need it — all with no state income tax.`,
+Utilities and groceries track near the Florida average, with electric the swing cost through summer.
+
+City-specific line items worth counting: **parking**, which is a genuine recurring cost if you live or work downtown; **dining and entertainment**, which are easy to spend more on here simply because there's more available; and **tolls** if you commute on the Turnpike.
+
+Offsetting those: more competition and choice than the suburbs, meaning you're not captive to a handful of restaurants and services. And you may run fewer cars than you would elsewhere — genuinely possible downtown, and worth thousands a year.
+
+## Running your own number
+
+Build the full monthly figure for a **specific address**:
+
+- Mortgage principal and interest
+- Property taxes **at a reset assessment**, homestead applied if primary
+- Homeowners insurance, **actually quoted for that property**
+- Flood insurance if the zone requires it
+- HOA dues if applicable
+- Electric, water, internet
+- Lawn and pest service
+- Parking, if downtown
+
+## The bottom line
+
+West Palm lets you dial your cost up or down more than anywhere else nearby, and no state income tax applies at every level.
+
+## The car question
+
+Worth calculating explicitly, because it's the one cost that can move meaningfully in your favor here.
+
+Households downtown or in the walkable historic pockets sometimes run one car instead of two, or none at all, using the Brightline for trips that would otherwise mean driving. Between payment, insurance, fuel, and maintenance, dropping a vehicle is worth thousands a year — enough to change what house you can afford.
+
+That option genuinely doesn't exist in the suburban towns nearby. If walkability is part of why you're considering West Palm, put a number on it rather than treating it as a lifestyle nicety.
+
+The two things that determine whether your number works are **insurance on an older property** and **taxes at a reset assessment**. Get both before you're emotionally committed to a house, and this city's value story holds up better than almost anywhere on the coast.`,
     faqs: [
-      { q: "Is West Palm Beach expensive to live in?", a: "It has the widest range in the area — luxury downtown and waterfront housing is pricey, but historic and western neighborhoods are more attainable than the beach towns." },
-      { q: "Is West Palm Beach cheaper than the beach towns?", a: "Often, yes — it generally offers more housing variety and more attainable entry points than Jupiter, Juno Beach, or Palm Beach." },
-      { q: "Does West Palm Beach have a state income tax?", a: "No — Florida has no state income tax, which helps offset housing and insurance costs." },
-      { q: "Why is home insurance a factor in West Palm Beach?", a: "Like all of South Florida, coastal location drives homeowners and wind/flood insurance costs; get quotes early when budgeting." },
+      { q: "Is West Palm Beach expensive to live in?", a: "It has the widest cost range on this coast — waterfront and downtown at the top, historic neighborhoods in a broad middle, and the area west of I-95 as the most attainable. That range, plus no state income tax, is a large part of the city's appeal." },
+      { q: "Why is insurance complicated in West Palm Beach?", a: "The city's older housing stock is the complicating factor. Roof age is the biggest driver, and older plumbing and electrical — particularly certain mid-century materials — can cause carriers to decline outright. A beautiful historic home can be an insurance problem, so get real quotes during your inspection period rather than after." },
+      { q: "Will my property taxes match the listing figure?", a: "Usually not. The figure shown typically reflects the current owner's bill, which may be protected by caps that don't transfer to a new buyer. Assessed value generally resets toward market value in the year after a sale. Budget against a reset assessment and verify with the Palm Beach County Property Appraiser." },
+      { q: "What makes West Palm Beach a good value?", a: "It's the one place locally where walkable historic housing is attainable — a 1920s bungalow within walking distance of restaurants exists here at a price point with no equivalent in Jupiter, Palm Beach Gardens, or the barrier islands." },
+      { q: "Do I need flood insurance in West Palm Beach?", a: "It depends on the specific address. Flood zones vary considerably across the city, and flood coverage is always separate from a standard homeowners policy. Pull the FEMA zone for the property and confirm what your lender will require." },
+      { q: "What extra costs should I budget for in West Palm Beach?", a: "Parking if you live or work downtown, higher dining and entertainment spending simply because more is available, tolls if you commute on the Turnpike, and renovation and maintenance on older homes — original windows, plaster, older roofing, and mature landscaping all cost more than newer construction." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities"],
     funFact: "West Palm Beach offers something almost unique on the Palm Beach coast: walkable historic bungalows in the $500K–$800K range, blocks from restaurants and coffee shops. That price point for that lifestyle doesn't exist in Palm Beach Gardens, Jupiter, or the barrier-island towns — it's a West Palm-only value proposition.",
@@ -1793,26 +2104,104 @@ As a city, dining, parking, and entertainment can add up, but you also get more 
     secondaryKeywords: ["West Palm Beach secret spots", "free things to do in West Palm Beach", "Antique Row West Palm Beach"],
     h1: "Hidden Gems in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/flagler-museum-2022-001.jpg',
-    body: `West Palm's best stuff isn't always on the main drag. Here's where locals go.
+    body: `West Palm's best stuff isn't on the main drag, and it isn't downtown. The city is old enough and layered enough to hide things in plain sight, and most residents take a couple of years to find them.
 
-**Manatee Lagoon.** A free spot to watch manatees gather in the warm-water outflow in winter — quietly magical and great with kids.
+Here's where locals actually go.
 
-**Ann Norton Sculpture Gardens.** A serene, lush garden of monumental sculptures tucked off the waterfront — one of the city's most peaceful escapes.
+## Manatee Lagoon
 
-**Antique Row (South Dixie Highway).** A long stretch of antique shops, design stores, and a few beloved restaurants — a treasure hunt most newcomers miss.
+Free, and genuinely one of the best things in the county.
 
-**Northwood Village.** An artsy, walkable pocket of galleries, cafés, and indie spots with real character — [condo and loft living in Northwood](https://www.condowpb.com/neighborhoods/northwood) is one of the city's better-kept secrets too.
+Manatees gather in a warm-water outflow during the cooler months, and there's an education center built around watching them. It's reliably excellent with children and quietly good without them.
 
-**Grandview Public Market.** A buzzy food hall in a historic building — diverse eats and a local gathering spot near the train.
+**Local tip that's counterintuitive:** go on a cold day. The colder the snap, the more manatees pile in. A warm February afternoon gets you an empty lagoon; a chilly morning gets you a crowd of them.
 
-**Mounts Botanical Garden.** The county's oldest and largest botanical garden, a quiet green retreat off Military Trail.
+## Ann Norton Sculpture Gardens
 
-These are the spots that make city living here feel like a community.`,
+The city's most peaceful place, and consistently forgotten by people who live ten minutes away.
+
+A compact garden of monumental sculpture on the grounds of the sculptor's former home and studio, tucked near the waterfront. It takes well under an hour, it's rarely busy, and it's the closest thing West Palm has to a place designed for standing still.
+
+## Antique Row
+
+A long stretch of South Dixie Highway lined with antique dealers, design showrooms, and estate shops — one of the more concentrated design districts anywhere in the country.
+
+Interior designers make sourcing trips here from Miami and further afield, which tells you it's a genuine destination rather than a few dusty shops. For residents it's a browsing habit rather than an errand — you go with no particular plan and see what turns up.
+
+Worth knowing even if you're not shopping: the district gives that stretch of the city its character, and there are good, low-key restaurants scattered through it.
+
+## Mounts Botanical Garden
+
+The county's oldest and largest botanical garden, off Military Trail and well west of where most residents spend their time.
+
+Themed collections, mature plantings, a regular event and plant-sale calendar, and almost never a crowd. It's the kind of place people visit once, mean to return to, and then don't — which is exactly why it stays quiet.
+
+## The Flagler Museum
+
+Whitehall, Henry Flagler's Gilded Age mansion, sits across the bridge on Palm Beach island. It's not technically West Palm, but it's minutes away and it explains more about why this whole region exists than anything on the mainland.
+
+Flagler's railroad is the reason there's a city here at all. Going once reframes the entire area.
+
+## The quieter waterfront stretches
+
+Everyone knows the downtown waterfront. Flagler Drive runs considerably further in both directions than most people walk, and the stretches away from the downtown core are markedly quieter — better for an actual walk, better for sunset, and free of the event crowds.
+
+Find the segment nearest you and it becomes your default. Residents get mildly proprietary about theirs.
+
+## The Brightline station area
+
+Worth wandering even if you aren't catching a train. The blocks around the station have redeveloped noticeably, and the mix of historic buildings and newer infill makes it one of the more interesting short walks downtown.
+
+It's also the clearest place to see where the city is heading — the station has pulled investment toward it in a way that's visibly reshaping the surrounding streets.
+
+## Howard Park and the downtown green
+
+A large park close to downtown that residents use constantly and visitors never notice — open lawn, shade, and a genuinely central location for something that isn't a sidewalk.
+
+In a downtown that skews toward pavement, having real green space within walking distance of it is worth more than it sounds, particularly if you have a dog or a small child.
+
+## Currie Park and the northern waterfront
+
+North of downtown along Flagler, Currie Park gives you waterfront, a boat ramp, and open green space with considerably fewer people than the downtown promenade.
+
+It's a working local park rather than a polished one, and that's the appeal — residents use it for fishing, launching, walking, and watching the water without any of the event-day crowding further south.
+
+## The banyans and the street trees
+
+Not a place, but worth learning to notice. West Palm's older neighborhoods carry a mature canopy that took a century to grow — banyans, live oaks, and royal palms lining streets that were laid out in the 1920s.
+
+It's the single biggest reason the historic districts feel the way they do, and it's the thing residents miss most acutely if they move somewhere newer. Walking under it on a hot afternoon is a genuinely different experience from walking the same distance in a modern subdivision, and it's free.
+
+## The Kelsey City history in Lake Park
+
+Just north of the city limits, Lake Park was originally laid out in the 1920s as Kelsey City — one of Florida's early planned communities, with a street grid and civic layout still legible today.
+
+It's a short drive and a quiet piece of local history that almost nobody visits deliberately. For anyone interested in how this stretch of coast actually developed, it's a useful counterpart to the Flagler story.
+
+## Clear Lake and the western green space
+
+Between downtown and the western neighborhoods sits more water and park than the map suggests. It's not dramatic, but for residents wanting a walk or a run that isn't the waterfront promenade, it's the local option and it's genuinely underused.
+
+## The historic districts as a walk
+
+Not a destination so much as an activity. Walking El Cid, Flamingo Park, or Grandview Heights on a cool morning — looking at 1920s architecture under mature canopy — is one of the real pleasures of living here, and it costs nothing.
+
+It's also, practically, the single best way to work out which neighborhood you actually want to buy in.
+
+## Why these matter
+
+West Palm gets characterized by its downtown, and if that's all you see you'd conclude it's a small city with some restaurants and a museum.
+
+The places on this list are the counterargument, and most of them are free. They're also how residents build a life here that doesn't depend on going out — which matters, because the downtown-centric version of this city gets expensive fast.
+
+Work through a few in your first few months, and go to Manatee Lagoon on the first genuinely cold morning of the winter.`,
     faqs: [
-      { q: "What are the hidden gems in West Palm Beach?", a: "Manatee Lagoon, the Ann Norton Sculpture Gardens, Antique Row on South Dixie Highway, Northwood Village, the Grandview Public Market food hall, and Mounts Botanical Garden." },
-      { q: "What are free things to do in West Palm Beach?", a: "Visiting Manatee Lagoon, walking the waterfront and GreenMarket, browsing Antique Row and Northwood Village, and exploring downtown all cost little or nothing." },
-      { q: "Where can you see manatees in West Palm Beach?", a: "Manatee Lagoon is a free attraction dedicated to manatee viewing, best in the cooler winter months." },
-      { q: "What is Antique Row in West Palm Beach?", a: "A stretch of South Dixie Highway lined with antique shops, design stores, and a few local restaurants — a favorite for browsing and finds." },
+      { q: "What are the hidden gems in West Palm Beach?", a: "Manatee Lagoon for free manatee viewing in the cooler months, the Ann Norton Sculpture Gardens, Antique Row on South Dixie Highway, Mounts Botanical Garden, the Grandview Public Market food hall, the quieter stretches of the Flagler Drive waterfront, and walking the historic districts." },
+      { q: "When is the best time to see manatees at Manatee Lagoon?", a: "On cold days during the cooler months. Manatees gather in the warm-water outflow, and the colder the snap the more of them arrive — a warm winter afternoon can produce an empty lagoon while a chilly morning produces a crowd. Admission is free." },
+      { q: "What is Antique Row in West Palm Beach?", a: "A long stretch of South Dixie Highway lined with antique dealers, design showrooms, and estate shops — one of the more concentrated design districts in the country. Interior designers travel there to source, and there are good low-key restaurants scattered through it." },
+      { q: "What is Mounts Botanical Garden?", a: "The county's oldest and largest botanical garden, located off Military Trail west of where most residents spend their time. It has themed collections, mature plantings, and a regular event and plant-sale calendar, and it's rarely crowded." },
+      { q: "What free things are there to do in West Palm Beach?", a: "Manatee Lagoon, walking the quieter stretches of the Flagler Drive waterfront, browsing Antique Row, and walking the historic districts of El Cid, Flamingo Park, and Grandview Heights to see the 1920s architecture." },
+      { q: "Is the Flagler Museum worth visiting?", a: "Yes. Whitehall, Henry Flagler's Gilded Age mansion, sits across the bridge on Palm Beach island minutes from downtown. Flagler's railroad is the reason the region developed at all, so visiting reframes the whole area's history." },
     ],
     internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida"],
     funFact: "Antique Row on South Dixie Highway in West Palm Beach is one of the most concentrated antique and design districts in the US, stretching about 30 blocks with hundreds of dealers. Interior designers from Miami, New York, and beyond make sourcing trips there regularly — locals who haven't explored it are missing a legitimate destination.",
@@ -1938,7 +2327,7 @@ A downtown West Palm condo carries association dues, reserve exposure, and build
 
 Build the full monthly figure for a **specific address** in each town: taxes at a reset assessment, insurance actually quoted, association dues plus any pending assessment, and flood if the zone requires it.
 
-If your comparison is specifically between downtown condo buildings, that's a market with its own dynamics and our sister site [CondoWPB.com](https://www.condowpb.com) goes building by building on fees, reserves, and pricing.
+Comparing specific downtown buildings against each other is a different exercise again — [CondoWPB.com](https://www.condowpb.com) breaks those down on fees, reserves, and pricing.
 
 ## Before you commit
 
@@ -1970,27 +2359,104 @@ Drive the commute at the real hour. Spend a weekend evening in each town rather 
     secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach nightlife", "Clematis Street restaurants", "Grandview Public Market"],
     h1: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/waterfront-028.jpeg',
-    body: `As the area's city, West Palm has the deepest dining and nightlife scene around — clustered in a few key districts.
-## The downtown core
-**Clematis Street** and **Rosemary Square** are the heart of it — restaurants, rooftop bars, and nightlife within walking distance, plus events like Clematis by Night. For the block-by-block version, see our [downtown WPB dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb).
+    body: `This guide covers **neighborhood** dining in West Palm Beach — the places scattered through the historic districts, along Antique Row, and out in the residential parts of the city where people actually eat on a Tuesday.
 
-## Antique Row & South Dixie
-A stretch of characterful local restaurants mixed in with the antique shops — a favorite for a more low-key, neighborhood meal.
+Downtown is a separate scene with its own logic, and our sister site covers it properly: [CondoWPB.com's downtown dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb) and its [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) go block by block on the Clematis and Rosemary Square scene. If you're planning a night out downtown, start there.
+
+For everything else, here's the local rundown.
+
+## Breweries and the drinking scene outside downtown
+
+The independent brewery and taproom scene has grown steadily and mostly sits *outside* the downtown core, tucked into light-industrial and transitional pockets around the city.
+
+That's a deliberate distinction worth knowing: the downtown bar scene is nightlife, while the neighborhood taprooms skew earlier, quieter, and more conversational. They're also considerably easier to park at, which for a lot of residents settles the question.
+
+A handful have become genuine neighborhood anchors, functioning as informal community spaces rather than just places to drink.
+
+## How the districts differ
+
+Worth understanding before you go looking, because West Palm's neighborhood dining isn't one scene — it's several, and they don't feel alike.
+
+**The southern historic districts** lean toward established, quieter restaurants with a regular clientele. Reliable rather than trend-driven, and the sort of place you become a regular at.
+
+**Northwood** skews smaller, newer, and more owner-operated, with more turnover and more personality per square foot.
+
+**The Grandview and train-station area** is the most mixed — a food hall alongside independents, and the most likely to work for a group with different tastes.
+
+**West of I-95** is convenience dining: chains, larger rooms, easy parking, lower prices.
+
+Knowing which of these fits your normal Tuesday is more useful than any single restaurant recommendation, because it determines where you'll actually end up eating for the next several years.
+
+## Coffee and the morning routine
+
+A real part of daily life in the walkable neighborhoods, and one of the genuine advantages of living east of I-95.
+
+Independent coffee shops are scattered through the historic districts and the village cores, and in Grandview Heights, Flamingo Park, and Northwood, walking to one is realistic rather than aspirational. For anyone coming from a city with a café culture, this is the part of West Palm that feels most familiar.
+
+West of the highway that changes entirely — it's drive-through territory, and the difference is one of the clearer everyday distinctions between the two halves of the city.
+
+## Antique Row and South Dixie
+
+The most characterful eating in the city, and the least publicized.
+
+Scattered among the antique dealers and design showrooms are independent restaurants that have been there for years — the kind of places with a regular crowd, no particular interest in trends, and staff who recognize repeat customers. It's a low-key, neighborhood-meal district rather than a destination strip.
+
+For residents of El Cid, SoSo, and the southern historic neighborhoods, this is the default.
 
 ## Grandview Public Market
-A historic-building food hall near the train with diverse stalls — a great casual, something-for-everyone hangout.
 
-## Northwood Village
-Artsy, independent spots with character and a creative crowd.
+A food hall in a historic building near the train station, with independent stalls covering a genuinely wide range.
 
-## Where it comes together
-For a night out, downtown (Clematis + Rosemary Square) is the move; for low-key local flavor, Antique Row and Grandview deliver. West Palm gives you genuine range — the most of any town nearby.
-`,
+It solves the group-that-can't-agree problem better than anywhere else in the city, and it's casual enough for a weeknight. Its position near the Brightline station also makes it the natural first or last stop around a train trip.
+
+## Northwood
+
+North of downtown, the village core has independent, owner-operated spots with real character and a creative crowd — cafés, small restaurants, and a handful of places that have anchored the neighborhood's revitalization.
+
+It's a different feel from both downtown and the southern districts: smaller, scrappier, and more personal.
+
+## The neighborhood staples
+
+Beyond the named districts, West Palm has what most Florida cities don't: **actual neighborhood restaurants** embedded in residential areas rather than clustered in commercial strips. Corner spots, family-run places, and long-running local institutions are scattered through the historic districts and out west.
+
+These rarely make lists, they're the ones residents name when asked where they *actually* eat, and finding the two or three near your house is one of the small pleasures of settling in.
+
+## Out west
+
+Past I-95 the dining shifts toward the familiar — chains, larger-format restaurants, and shopping-center dining, with easy parking and lower prices.
+
+Less character, considerably less hassle. For a weeknight with kids or a quick meal that doesn't involve a garage, it's what residents out there use.
+
+## How season changes things
+
+**November through April** the whole city gets busier, and the popular spots need reservations they don't need in summer. Downtown parking gets meaningfully harder, which is part of why the neighborhood places fill up too — locals avoid the center.
+
+**May through October** everything relaxes. You can walk into most places, and residents often say summer dining is the quiet reward for living here year-round.
+
+## Practical local advice
+
+- **Neighborhood dining sidesteps the parking problem**, which is a real reason residents default to it. Being able to park on the street outside is worth more than it sounds.
+- **Reservations in season** at anywhere popular, especially weekends.
+- **Dress code is relaxed** nearly everywhere outside the higher-end downtown rooms.
+- **Lunch is easier than dinner** at the busier places during season.
+- **Hours shift between season and summer**, and some independents reduce hours in the slowest months. Check before you drive.
+
+## The bigger picture
+
+West Palm has the deepest and most varied food scene in the county — that's simply a function of being the only real city — but the version most guides describe is the downtown version.
+
+The neighborhood version is the one you'll actually live in: closer to home, easier to park, cheaper, and more consistent. Find your two or three regulars in the first few months and the city starts to feel like yours.
+
+One last practical note: the neighborhood scene turns over faster than the downtown one, because the rents are lower and the operators are smaller. That churn is why it stays interesting, and also why a recommendation more than a year old is worth verifying.
+
+Hours, menus, and ownership change constantly. Check directly before you go.`,
     faqs: [
-      { q: "Where is the best nightlife in West Palm Beach?", a: "Clematis Street and Rosemary Square downtown are the centers of dining, bars, and nightlife, with regular events like Clematis by Night." },
-      { q: "What is Grandview Public Market?", a: "A food hall in a historic building near the train station, with diverse food stalls and a casual, communal hangout vibe." },
-      { q: "Where do locals eat in West Palm Beach?", a: "Across downtown (Clematis and Rosemary Square), Antique Row on South Dixie, Northwood Village, and the Grandview Public Market — the city has the widest range nearby." },
-      { q: "Does West Palm Beach have good restaurants?", a: "Yes — as the area's urban hub, it has the deepest and most varied dining scene of the surrounding towns." },
+      { q: "Where do locals eat in West Palm Beach?", a: "Away from downtown, residents rely on the independent restaurants scattered along Antique Row and South Dixie, the Grandview Public Market food hall near the train station, the independent spots in Northwood, and neighborhood restaurants embedded in the historic residential districts." },
+      { q: "What is Grandview Public Market?", a: "A food hall in a historic building near the Brightline station, with independent stalls covering a wide range of food. It works well for groups that can't agree, is casual enough for a weeknight, and is a natural stop around a train trip." },
+      { q: "Where should I eat in downtown West Palm Beach?", a: "Downtown is its own scene centered on Clematis Street and Rosemary Square, and our sister site CondoWPB.com covers it block by block in its downtown dining and Clematis Street entertainment guides." },
+      { q: "Is it hard to park for dinner in West Palm Beach?", a: "Downtown, yes — especially Thursday through Saturday and during season, when using a garage is the practical answer. Neighborhood dining largely sidesteps the problem, which is a real reason many residents default to it." },
+      { q: "Do you need reservations at West Palm Beach restaurants?", a: "During season, roughly November through April, yes at anywhere popular and especially on weekends. From May through October most places are walk-in friendly, and many residents consider summer dining one of the advantages of living here year-round." },
+      { q: "What is the dining like in west West Palm Beach?", a: "Past I-95 it shifts toward chains, larger-format restaurants, and shopping-center dining — less character but easy parking and lower prices. It's what residents out that way use for weeknight meals." },
     ],
     internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
     funFact: "Clematis Street has been West Palm's social spine since the 1920s — the name comes from the Clematis vine that once grew along the waterfront. The weekly Clematis by Night live-music series has run since 1994 and is one of the longest-running free outdoor music events in South Florida.",
@@ -2018,80 +2484,95 @@ For a night out, downtown (Clematis + Rosemary Square) is the move; for low-key 
     ],
     h1: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (And Why Buyers Keep Discovering It)',
     heroImage: '/images/west-palm-beach/west-palm-beach-003.jpeg',
-    body: `There's a version of West Palm Beach that doesn't make the tourist maps. No velvet ropes, no valet parking — just wide streets lined with historic homes, a string of independent galleries and restaurants, Intracoastal waterfront, and a neighborhood that has been quietly earning its reputation for years.
+    body: `This guide is about **buying a house in Northwood** — the bungalows, cottages, and early-twentieth-century homes that make up the neighborhood's residential core, and what it's actually like to own one.
 
-That's Northwood Village. And if you've been researching **Northwood Village West Palm Beach homes**, you're probably starting to understand what the people who already live there already know: this is the neighborhood that gets under your skin.
+Northwood also has a condo and loft market, and that's covered in depth on our sister site: [CondoWPB.com's Northwood guide](https://www.condowpb.com/neighborhoods/northwood) goes through the buildings, the fees, and the unit-level detail. If a condo is what you're after, start there. This page is for the houses.
 
-## What Makes Northwood Village Different from Downtown WPB
+## What Northwood actually is
 
-Downtown West Palm Beach has energy — Clematis Street, Rosemary Square, the Brightline station, high-rise condos with waterfront views. Northwood Village, just a mile or so north, has something harder to manufacture: character.
+A historic neighborhood north of downtown West Palm Beach, built out largely in the 1920s and 30s, with a small commercial village core surrounded by residential streets.
 
-The commercial spine here runs along North Dixie Highway and Old Northwood, and it's defined almost entirely by independent businesses. Vintage furniture dealers. Working artists. A coffee shop with mismatched chairs and a genuinely interesting crowd. The buildings are older, the facades haven't been homogenized, and the whole street moves at a pace that downtown WPB can't really replicate.
+For decades it was overlooked. Over the past twenty years it has drawn artists, small-business owners, and buyers priced out of the southern historic districts, and the result is a neighborhood mid-transition — genuinely charming in stretches, still uneven in others, and considerably more affordable than El Cid or Flamingo Park.
 
-That difference is intentional. Northwood has attracted the kind of residents and business owners who specifically chose *not* to be downtown — people who wanted a neighborhood that felt like a neighborhood, with neighbors, front porches, and the sense that something creative was happening here on its own terms. Add Intracoastal waterfront along the eastern edge and you have a neighborhood that genuinely has it all.
+That combination is the whole proposition. You're buying character and location at a discount, and accepting that the neighborhood isn't finished.
 
-## Nights in Northwood Village: The Community Anchor
+## The housing stock
 
-Every month, Northwood Village holds its signature street festival: **Nights in Northwood Village**. Galleries stay open late. Restaurants spill out onto the sidewalk. Live music fills the street. Artists set up outside their studios. The whole corridor becomes a walkable outdoor event, drawing locals from across Palm Beach County who have made it a standing date on the calendar.
+This is the part that matters most for a buyer.
 
-It's not the kind of event you attend once. People come back, bring friends, and eventually start asking their real estate agent what it would cost to live within walking distance.
+**Mission and Mediterranean Revival cottages** from the 1920s, with barrel-tile roofs, arched openings, and original detail where it survived. **Frame vernacular bungalows** with porches and wood siding. A scattering of **mid-century infill** and a smaller number of newer builds on previously vacant lots.
 
-That's the Nights in Northwood Village effect — and it's one of the strongest community-building events in the WPB area, running consistently enough that it's now part of how the neighborhood defines itself. A neighborhood with a monthly street festival that residents actually show up to is a neighborhood with real social fabric. That matters.
+**Objective characteristics:** small-to-modest lot sizes, homes generally under 2,000 square feet, original 1920s construction predominating, alley access on many blocks, mature street trees in the established sections, a wide condition range from untouched to fully restored.
 
-## Housing Types and Price Range
+**What that means practically:** you are buying a house that is roughly a century old. Roof, plumbing, electrical, and windows are the four things that will determine both your insurance premium and your renovation budget, and they vary enormously property to property even on the same block.
 
-Northwood Village's housing stock reflects decades of character — and genuine variety. You'll find **historic single-family homes dating to the 1920s and 1930s**, many of them well-preserved or thoughtfully renovated, alongside **Intracoastal waterfront condos and homes** with direct water views. It's a range that surprises most buyers who assume this pocket of WPB is all one thing.
+## The block-to-block reality
 
-Pricing starts in the **$500s** and moves up from there depending on size, condition, and whether you're on the water. For a neighborhood with this much character and this close to downtown WPB, that entry point is real value.
+Northwood is the clearest example of something true across West Palm Beach, and it deserves stating plainly: **quality and condition vary meaningfully within short distances here.**
 
-For investors, the combination of historic character, rising neighborhood profile, and waterfront inventory creates a window that tends to close as a neighborhood matures.
+Some streets are largely restored, with consistent upkeep and long-term owners. Others are mid-transition, with restored homes next to properties that haven't been touched in decades. That variation is precisely why the pricing is what it is.
 
-On the condo and loft side, [CondoWPB's Northwood guide](https://www.condowpb.com/neighborhoods/northwood) covers the buildings in and around the village.
+None of that is a reason to avoid the neighborhood. It is a reason to do something specific: **walk the actual block you're considering, at more than one time of day, including after dark and on a weekend.** Drive-by research and zip-code statistics are not adequate here. Buyers who do the walking consistently do well in Northwood; buyers who don't sometimes get a surprise.
 
-## The Old Northwood Historic District
+## Historic designation and what you can change
 
-Much of Northwood Village sits inside the Old Northwood Historic District — one of West Palm Beach's designated historic neighborhoods, recognized for its concentration of 1920s Mediterranean Revival, Mission, and Frame Vernacular homes. That designation is part of why the streetscape here still looks the way it did nearly a century ago: mature oak canopies, brick-paved side streets, and architecture that developers can't simply tear down and replace.
+Parts of Northwood fall within historic designation, which affects what you may alter on a building's exterior — windows, roofing materials, additions, and in some cases paint.
 
-For buyers, that means Northwood Village homes come with a built-in layer of protection against the teardown-and-rebuild cycle reshaping so much of coastal Palm Beach County. You're buying into a neighborhood whose character is legally preserved, not just aesthetically pleasant today.
+This is a genuine double-edged item. It's what preserves the architectural character that makes the neighborhood worth buying into, and it's a real constraint if you arrive with renovation plans that assume you can do whatever you like.
 
-## Who Is Northwood Village Right For?
+**Confirm the specific designation status of the specific property before you budget a renovation.** A plan that's straightforward on one block may require review three streets over.
 
-The short answer: more people than you'd expect.
+## Renovation, honestly
 
-**First-time buyers** find Northwood's price range genuinely accessible without sacrificing location or character. You're still in West Palm Beach, still close to downtown, still within reach of the waterfront — just in a neighborhood that feels personal.
+Northwood is one of the more active renovation markets in the city, and there's genuine value-add opportunity remaining. A few things buyers should go in knowing:
 
-**Artists and creative professionals** have been choosing Northwood for decades, drawn by the affordable live-work spaces, the gallery community, and the culture of a neighborhood that takes creativity seriously.
+- **Permit history matters.** Unpermitted work is common in older stock and becomes your problem at resale. Pull the history.
+- **Insurance is the gating item.** Get real quotes during your inspection period. An older roof or certain vintage electrical and plumbing can make a property difficult to insure at a sane price, which affects financing.
+- **Original detail is worth preserving**, both for character and for value. Restored period homes here command a real premium over gut-renovated ones that lost their character.
+- **Budget for surprises.** Century-old houses reveal things. Buyers who leave a contingency do fine; buyers who spend their whole budget on the purchase struggle.
 
-**Investors** see a neighborhood with a rising profile, strong rental demand from WPB's growing professional class, and price points that still make the math work — especially compared to what's left further south.
+## Who's been buying here
 
-**Downsizers** from larger homes often land in Northwood when they want walkability and community without the anonymity of a high-rise. The neighborhood's human scale — real streets, real neighbors, real places to walk to — is the draw.
+Useful context for judging where the neighborhood is heading.
 
-The through-line for all of them: people come to look at Northwood Village and they don't want to leave.
+The buyer mix has shifted noticeably over the past two decades — from almost entirely long-term local owners toward a blend that includes renovators, small-business owners, artists, and buyers priced out of the southern historic districts. A meaningful share are people who wanted El Cid or Flamingo Park and found Northwood offered comparable architecture for less.
 
-## Ready to Search?
+That inflow is what's driven the restoration activity, and it's also why condition varies so much: the neighborhood is partway through a change rather than finished with one.
 
-If **Northwood Village West Palm Beach homes** are on your radar, the inventory moves. The neighborhood is small enough that good listings don't sit long, especially when the street festival crowd has been circling the same blocks for months.
+## The village core
 
-[Search active Northwood Village and West Palm Beach listings now](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=West%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=500000). When you find something worth a closer look, reach out — we can put you in context on the neighborhood, the block, and what the monthly festivals actually feel like when you live there.
+The small commercial stretch gives the neighborhood something most residential districts lack: somewhere to walk to. Independent cafés, galleries, and small restaurants, with a creative, owner-operated character that's distinct from both downtown and the southern historic districts.
 
-The people who discover Northwood Village tend to stay discovered.`,
+It's modest in scale. But being able to walk to coffee is a genuine part of the appeal, and it's a large reason the neighborhood has held its momentum.
+
+## Location and getting around
+
+North of downtown, which puts the city center within a short drive and the Brightline station accessible for trips to Fort Lauderdale, Miami, or Orlando. Palm Beach International Airport is close. The Palm Beach island beaches are a short drive across the bridge.
+
+You will drive for most things, though less than in the suburbs.
+
+## Who Northwood suits
+
+**Buyers who want historic character and can't reach El Cid or Flamingo Park pricing.** This is the main story, and it's a real opportunity.
+
+**Renovators.** One of the few local markets with genuine work-to-be-done and upside remaining.
+
+**People who want a neighborhood with an identity.** Northwood has a distinct creative character that the newer suburbs don't and can't manufacture.
+
+**Less suited to:** buyers who want turnkey and predictable, want new construction, or aren't comfortable doing street-level diligence before committing.
+
+## Before you buy
+
+Walk the block at different times. Pull the permit history. Get insurance quoted on the specific property during your inspection period. Confirm historic designation status before planning any exterior work. And check the school assignment for the address rather than the neighborhood — it varies more than people expect across this part of the city.
+
+Independently verify anything material to your decision, and see the property in person more than once.`,
     faqs: [
-      {
-        q: 'What is Northwood Village in West Palm Beach?',
-        a: 'Northwood Village is a historic arts and antiques district in northern West Palm Beach, known for its independent galleries, restaurants, historic homes, Intracoastal waterfront properties, and the monthly Nights in Northwood Village street festival.',
-      },
-      {
-        q: 'Is Northwood Village a good neighborhood in West Palm Beach?',
-        a: 'Yes — it\'s one of WPB\'s most distinctive and desirable neighborhoods for buyers who want character, walkability, and a real sense of community at a more accessible price point than downtown or the waterfront.',
-      },
-      {
-        q: 'What is Nights in Northwood Village?',
-        a: 'A monthly street festival in Northwood Village where galleries open late, restaurants move outside, and live music fills the corridor — one of the most consistent community events in Palm Beach County.',
-      },
-      {
-        q: 'How far is Northwood Village from downtown West Palm Beach?',
-        a: 'About a mile north of downtown WPB — close enough to access Clematis Street and the waterfront easily, far enough to feel like its own neighborhood.',
-      },
+      { q: "Is Northwood a good place to buy a house in West Palm Beach?", a: "It offers historic character and proximity to downtown at pricing below El Cid and Flamingo Park, which is its main appeal. It's a neighborhood mid-transition, so condition and upkeep vary meaningfully block to block — walking the specific street at different times of day is essential before committing." },
+      { q: "What kind of homes are in Northwood?", a: "Mostly 1920s and 30s construction — Mission and Mediterranean Revival cottages with barrel-tile roofs and arched openings, and frame vernacular bungalows with porches. Lots are modest, homes are generally under 2,000 square feet, and there's some mid-century infill and newer building on formerly vacant lots." },
+      { q: "Is Northwood a historic district?", a: "Parts of Northwood carry historic designation, which affects what you may change on a building's exterior — windows, roofing materials, additions, and sometimes paint. Confirm the designation status of the specific property before budgeting any renovation, since requirements vary within the neighborhood." },
+      { q: "What should I check before buying a house in Northwood?", a: "Walk the block at multiple times of day including after dark, pull the property's permit history since unpermitted work is common in older stock, get insurance quoted during your inspection period, and confirm historic designation status before planning exterior work." },
+      { q: "Are there condos in Northwood?", a: "Yes, Northwood has a condo and loft market alongside its houses. Our sister site CondoWPB.com covers those buildings in depth, including fees and unit-level detail — this guide focuses on the single-family housing stock." },
+      { q: "Is Northwood walkable?", a: "The village core gives the neighborhood a small commercial stretch with independent cafés, galleries, and restaurants within walking distance of the residential streets, which is a genuine part of its appeal. For most other errands you'll drive, though less than in the suburbs." },
     ],
     internalLinks: [
       'best-neighborhoods-in-west-palm-beach-florida',
