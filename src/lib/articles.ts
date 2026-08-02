@@ -2599,32 +2599,82 @@ Independently verify anything material to your decision, and see the property in
     primaryKeyword: "living in Delray Beach Florida",
     secondaryKeywords: ["moving to Delray Beach FL", "Delray Beach lifestyle", "is Delray Beach a good place to live", "Delray Beach relocation"],
     h1: "What It's Really Like Living in Delray Beach, Florida",
-    body: `Delray Beach calls itself "the Village by the Sea," and it earns the name. It's a town with a genuine, buzzing downtown, a gorgeous beach, and more energy per square mile than almost anywhere in the county. People don't just live in Delray — they're *out* in it.
+    body: `Delray Beach calls itself "the Village by the Sea." It has not been a village for a long time, and the gap between the nickname and the reality is the most useful thing to understand about living here.
 
-## Atlantic Avenue is the heart
+What it actually is: a small coastal city with one of the most successful downtowns in Florida, a two-mile public beach, and a western half that looks nothing like the eastern half. Most of what people love and most of what they complain about traces back to that success and that split.
 
-The soul of Delray is **Atlantic Avenue** — a long, walkable main street running from the historic downtown straight to the sand, packed with restaurants, bars, galleries, and shops. It's one of the best downtowns in Florida, and it's the reason Delray feels so social and alive.
+## The two Delrays
 
-## Arts, beach, and energy
+This is the first thing to grasp, because the city name covers two genuinely different lives.
 
-This is a creative, lively town. The **Pineapple Grove** arts district, **Old School Square**, murals, and the famous **Morikami Museum and Japanese Gardens** give it real culture. The **Delray Municipal Beach** is wide and beautiful. Nightlife actually exists here — Delray draws a younger, more social crowd than its buttoned-up neighbors.
+**East Delray** is the postcard — the downtown, the historic districts, the Intracoastal, and the beach. It's walkable in a way almost nothing else in the county manages. It's also expensive, busy, and getting busier.
 
-And perhaps most surprising: world-class nature. **Wakodahatchee Wetlands** and **Green Cay Wetlands** are two of the best wildlife boardwalk experiences in Florida — herons, turtles, gators, and nesting birds, right here in the city. They're a side of Delray most newcomers don't see coming.
+**West Delray** starts past I-95 and spreads out toward the Turnpike and beyond, and it's a different world: gated communities, golf, a large concentration of 55+ and active-adult neighborhoods, big-box shopping, and wide arterial roads. It's quiet, it's substantially more attainable, and you drive everywhere.
 
-## Two Delrays
+Both are Delray Beach. They share a mailing address, a city government, and very little else. Someone describing their life here as walkable and someone describing it as a gated community fifteen minutes from the beach are both being accurate.
 
-There's the lively coastal downtown — pricey, walkable, full of life — and then there's **west Delray**, a sprawl of gated golf and 55+ communities that's quieter and more attainable. Same city, two very different lifestyles.
+Buyers routinely search the city name, see the price range, and get confused. That range isn't noise — it's two different products. Our [neighborhood guide](/blog/best-neighborhoods-in-delray-beach-florida) separates them properly.
 
-## The trade-offs
+## What the downtown does to daily life
 
-Downtown gets busy, especially in season — crowds, parking, and noise are real. Beachside and downtown homes are expensive. And it's Florida — warm summers and insurance planning are standard considerations for any homeowner in the region. But if you want a walkable, beachy, social town with great food and real character, few places top Delray.`,
+If you live east, the downtown is not a place you visit. It's the condition you live in.
+
+The upside is genuine and hard to find elsewhere in South Florida: you can walk to dinner, walk to the beach, walk to a gallery, and not touch your car for a weekend. Very few Florida towns deliver that, and the ones that do tend to be either much smaller or much more expensive.
+
+The downside is the same fact from the other side. The restaurant district doesn't switch off because you went to bed. Weekend nights are loud within a few blocks of the core. Parking is a permanent negotiation. And the closer you live to the action, the more of both you get.
+
+There's a well-worn local pattern here: people move to within two blocks of the downtown for the energy, then move six blocks away after a year or two, keeping the walk and losing the noise. That's not a failure — it's the town teaching you your own tolerance. It's worth knowing the pattern exists before you buy the first place.
+
+## The season is not a detail
+
+From roughly November through April, the population swells, the restaurants fill, traffic thickens, and the beach parking becomes competitive by mid-morning. From May through October it drains away, the town exhales, and residents get it back.
+
+Both versions are real, and neither is the whole picture. The single most useful thing a prospective buyer can do is visit twice — once in February and once in August. February shows you a town at maximum energy. August shows you a hot, quiet place where you can park anywhere. You will live in the average.
+
+People who only ever saw February tend to underestimate how long the summer is. People who only saw August tend to be startled by their first season.
+
+## The culture is real, not decorative
+
+A lot of Florida towns claim an arts scene. Delray's is substantial enough to shape the calendar — a downtown arts district, working galleries and studios, a civic arts campus, murals, and a run of festivals and events that keeps something happening most weeks.
+
+There's also depth to the history that newcomers rarely see at first, including a significant Black settlement history in the neighborhoods west of Swinton Avenue and an early Japanese agricultural colony west of town whose legacy is now a major cultural institution. Both are properly part of the place rather than footnotes to it, and both are covered in our [guide to what's worth doing](/blog/best-things-to-do-in-delray-beach-florida).
+
+## The growth argument
+
+You will hear this within a month of moving here, because it's the town's central ongoing debate.
+
+Delray's downtown revival, which began in earnest decades ago, worked so well that it created the problems success brings: development pressure, rising prices, buildings getting taller, chains replacing independents, and a persistent worry that the character that made it desirable is being sold off piece by piece.
+
+Longtime residents have opinions about this. Newcomers acquire them quickly. Height limits, redevelopment approvals, and parking policy are live civic issues here rather than abstractions, and the city commission meetings are genuinely contested.
+
+Whether this bothers you is worth knowing in advance. If you're buying the Delray of ten years ago, understand that it is actively becoming something else — busier, denser, more expensive. If you're buying what's here now, it's excellent.
+
+## What year two feels like
+
+Newcomers follow a fairly consistent arc.
+
+Year one is enthusiasm. You go out constantly, you're on the Avenue several nights a week, and you can't believe you get to live here.
+
+Somewhere in year two, most people settle into a quieter version. They find the two or three places they actually like, they learn which nights to avoid the core, they discover the parks and the quieter beach access points, and they stop treating the downtown as the reason they live here and start treating it as an amenity they use deliberately.
+
+That second version is the sustainable one, and the people who reach it tend to stay a long time. The ones who don't are usually the ones who wanted the energy every night, got tired, and realized they'd bought noise.
+
+## The honest summary
+
+Delray Beach is one of the few genuinely walkable beach towns in Florida, and it charges for the privilege — in money if you live east, in driving if you live west, and in crowds either way during season.
+
+It rewards people who want to be out among other people. It frustrates people who want quiet and assumed a small coastal city would provide it.
+
+If you're weighing it against its neighbors, our [comparison of the surrounding cities](/blog/delray-beach-vs-nearby-cities) treats them as genuinely different propositions — and the [weighed list of upsides and drawbacks](/blog/pros-and-cons-of-living-in-delray-beach-florida) is the fastest way to find out whether the trade-offs land for you.`,
     faqs: [
-      { q: "Is Delray Beach a good place to live?", a: "Yes, especially for people who want a walkable downtown, a great beach, dining, arts, and an active social scene. The trade-offs are downtown crowds and higher prices near the coast." },
-      { q: "What is Delray Beach known for?", a: "Atlantic Avenue — one of Florida's best downtowns — plus its beach, the Morikami Museum and Japanese Gardens, the Pineapple Grove arts district, and a lively dining and nightlife scene." },
-      { q: "Is Delray Beach expensive?", a: "Downtown and beachside Delray are pricey, but west Delray's gated golf and 55+ communities offer much more attainable options." },
-      { q: "Is Delray Beach good for young people?", a: "Delray has more nightlife, walkability, and rental-permissive downtown condo inventory than most nearby towns, with Atlantic Avenue as the social center." },
+      { q: "What does it actually mean that there are \"two Delrays\"?", a: "East Delray is the downtown, historic districts, Intracoastal and beach — walkable, lively and expensive. West Delray, past I-95 toward the Turnpike, is gated communities, golf, a large concentration of 55+ neighborhoods and big-box shopping — quiet, car-dependent and substantially more attainable. They share a city government and very little else, which is why the city-wide price range looks so wide." },
+      { q: "Is downtown Delray Beach too noisy to live in?", a: "Within a few blocks of the core, weekend nights are genuinely loud, and parking is a permanent negotiation. There is a well-known local pattern of people buying within two blocks of the action, then moving six blocks out after a year or two — keeping the walk and losing the noise. Knowing that pattern exists before you buy saves a move." },
+      { q: "How different is Delray Beach in season versus summer?", a: "Substantially. November through April the population swells, restaurants fill and beach parking is competitive by mid-morning. May through October it empties out and residents get the town back. Visit in both February and August before buying — you will live in the average of the two, and people who only saw one are consistently surprised by the other." },
+      { q: "Is Delray Beach losing the character that made it popular?", a: "It's the town's central ongoing debate. The downtown revival worked well enough to create development pressure, rising prices, taller buildings and chains replacing independents. Height limits and redevelopment approvals are live, genuinely contested civic issues rather than abstractions. If you're buying the Delray of a decade ago, understand it is actively becoming something denser and busier." },
+      { q: "Is Delray Beach walkable?", a: "East Delray is, unusually so for South Florida — you can walk to dinner, the beach and a gallery without touching your car. West Delray is not walkable at all; it is gated communities and arterial roads where you drive for everything. Which Delray you buy in determines which answer applies to you." },
+      { q: "What surprises people most after moving to Delray Beach?", a: "How long the summer is, and how much quieter their own habits become. Year one is usually constant enthusiasm and several nights a week out. By year two most residents settle into using the downtown deliberately rather than living in it, and discover the parks and quieter beach accesses. That second version is the one that lasts." },
     ],
-    internalLinks: ["best-neighborhoods-in-delray-beach-florida", "best-things-to-do-in-delray-beach-florida", "who-should-move-to-delray-beach-florida"],
+    internalLinks: ["best-neighborhoods-in-delray-beach-florida", "delray-beach-vs-nearby-cities", "pros-and-cons-of-living-in-delray-beach-florida"],
     funFact: "Delray Beach has won the All-America City Award twice — in 1993 and 2001 — a national recognition for community civic engagement that most cities never win once. The downtown revival on Atlantic Avenue started in the early 1990s and is now studied as a model of how a distressed beach town can reinvent itself without losing its identity.",
     author: 'john',
     published: true,
@@ -2643,30 +2693,100 @@ Downtown gets busy, especially in season — crowds, parking, and noise are real
     primaryKeyword: "Delray Beach local guide",
     secondaryKeywords: ["Delray Beach insider tips", "things locals do in Delray Beach", "moving to Delray Beach guide"],
     h1: "A Local's Guide to Delray Beach, Florida",
-    body: `Delray is easy to enjoy as a visitor and even better once you know it like a local.
+    body: `This is the practical layer — how the city is laid out, how to solve the parking problem, who to call for what, and the things new residents work out a month too late.
 
-## Get your bearings
+Not what Delray feels like, and not what to do on a Saturday. How to operate here.
 
-**Atlantic Avenue** is the spine — it runs from the western, historic downtown east across the Intracoastal to the beach. **Pineapple Grove** (the arts district) sits just north of Atlantic downtown. **Lake Ida** and the older neighborhoods sit west of Swinton, and **west Delray** (gated golf and 55+ communities) spreads out past the Turnpike.
+## The layout, in about a minute
 
-## The local rhythm
+**Atlantic Avenue** runs east–west and is the organising line for the whole city; addresses are north or south of it. It runs from out past I-95, through the historic downtown, over the Intracoastal, and ends at the ocean.
 
-Mornings on the beach, afternoons in Pineapple Grove or at the Morikami Gardens, and evenings on the Ave — Delray's nightlife is a real draw. The Saturday GreenMarket and a packed events calendar keep downtown buzzing.
+**Swinton Avenue** runs north–south through the historic core and is the informal boundary of the oldest part of town. **Federal Highway (US-1)** carries north–south traffic a few blocks in from the water, splitting into one-way pairs through the downtown — a detail that catches newcomers out constantly. **A1A** runs along the beach.
 
-## The unwritten rules
+West of the downtown: **I-95**, then the arterials — **Congress**, **Military Trail**, **Jog**, **Lyons** — with **Linton Boulevard** as the main east–west route south of Atlantic, and **the Turnpike** further west again.
 
-In season (Nov–April), downtown is *busy* — locals park once and walk, or avoid the Ave on peak weekend nights. Parking is the eternal downtown puzzle; learn the garages. And pace yourself: Delray is a town that likes to go out.
+The mental model: everything walkable is east of I-95 and within about a mile of Atlantic Avenue. Everything west of I-95 is arterials and gated communities.
 
-## Settling in
+## Solving parking
 
-Pick your Delray — walkable-downtown energy or quieter west-side calm — and lean in. The beach, the Ave, and the arts scene are all yours.`,
+The single most useful skill for living east.
+
+**Learn the garages.** There are public parking structures near the downtown core, and using one is almost always faster than circling for a street space. Residents who insist on finding kerbside parking spend a remarkable share of their lives failing to.
+
+**The beach is metered** along A1A, with a handful of lots. It fills early on good days in season. There are resident parking options through the city — look into what's currently offered when you move in, because it changes and it's worth having.
+
+**Park once.** The classic local move for an evening downtown: park in a garage, walk everywhere, and don't move the car until you leave. The district is compact enough that this always works.
+
+**In season, don't fight it.** Weekend evenings from November through April, arriving without a plan is how you end up parked half a mile away and irritated.
+
+## Setting up services
+
+- **Electric** is FPL. Arrange it before closing.
+- **Water and sewer** come from the City of Delray Beach for most of the incorporated city. Some western communities are served by other providers or by their own systems — confirm for the specific address rather than assuming.
+- **Waste and recycling** run on a city schedule, with separate arrangements for bulk and vegetative waste. The rules are stricter than newcomers expect; check the current schedule when you arrive.
+- **Internet** varies by street and building. Confirm what's actually serviceable at the address before you commit, particularly if you work from home.
+
+## City services, and who handles what
+
+Delray Beach is an incorporated city, which means more of your dealings are municipal than in the unincorporated areas nearby:
+
+- **Police and fire rescue** are city departments.
+- **Permits, zoning, code enforcement, and historic preservation review** run through the city. If you're planning exterior work in a historic district, start here early — that process is real and it takes time.
+- **Property records, homestead filing, and tax matters** are Palm Beach County — the Property Appraiser and Tax Collector.
+- **Vehicle and vessel registration, and driver licensing** are county Tax Collector functions.
+- **Schools** are the School District of Palm Beach County. Attendance boundaries, magnet and choice programmes all have their own rules and deadlines — verify boundaries for the specific address directly with the district rather than relying on any listing or third-party site.
+
+## Health care
+
+**Delray Medical Center** is the main hospital serving the city, west of downtown off Linton. There are additional hospitals in the neighbouring cities north and south, and a dense supply of specialists throughout the south county corridor.
+
+Note your nearest emergency entrance now rather than looking it up during an emergency.
+
+## Getting out of town
+
+- **Palm Beach International** is the closest major airport and generally the easiest.
+- **Fort Lauderdale–Hollywood** is further but opens more routes; worth the drive for the right fare.
+- **Tri-Rail** has a station on the west side of the city, serving the corridor from Miami to West Palm Beach. Useful if your destination is near another station.
+- **Brightline** does not stop in Delray. The nearest stations are in neighbouring cities to the north and south, offering fast service toward West Palm Beach, Fort Lauderdale, Miami and Orlando. Drive, park, and ride is a common local pattern.
+- **I-95 and the Turnpike** are both easy to reach; I-95 is faster but far more variable in season.
+
+## Hurricane season, practically
+
+June through November, peaking late summer into early autumn.
+
+- **Find your evacuation zone before the season starts.** Palm Beach County publishes them, and the barrier island and low-lying eastern areas are called first. Knowing your zone in advance is the difference between leaving calmly and leaving badly.
+- **Sort shutters or impact protection before June**, including who installs them if you can't.
+- **Keep roughly two weeks** of water, food, medication, and cash. Fuel and ice vanish before a storm and stay gone after.
+- **Photograph the property annually** for insurance. Ten minutes, and the most useful thing you can do for a future claim.
+- **Know your flood zone**, which is parcel-specific and not something you can infer from the neighbourhood.
+
+## The seasonal calendar
+
+**November through April** is season: perfect weather, full restaurants, heavy traffic, competitive parking, and the events calendar at maximum. Everything takes longer.
+
+**May and June** bring heat and the start of storm season as the seasonal residents leave.
+
+**July through September** is hot, humid, and stormy most afternoons. Quiet, easy to park, and the months residents quietly enjoy.
+
+**October** is the turn — the heat breaking, the crowds not yet back. Arguably the best month of the year here.
+
+## Fitting in
+
+- **Walk more than you think you need to.** If you live east, the car is often the slower option for anything within a mile. Residents who keep driving downtown never quite get the benefit of living there.
+- **Go early.** Beach, errands, exercise, the market. By midday in summer the outdoors is unpleasant and by midday in season everywhere is full.
+- **Learn the off-peak rhythm.** Weeknights and summer are when this town is genuinely easy, and that's when locals do most of their going out.
+- **Verify everything address by address.** Flood zone, evacuation zone, historic designation, utility provider, HOA obligations, and school boundaries all vary within short distances here. Nothing about the neighbourhood tells you what's true of the specific parcel.
+
+For the texture rather than the mechanics, read [what living here is actually like](/blog/what-its-really-like-living-in-delray-beach-florida) — and once you're settled, the [quieter local spots](/blog/hidden-gems-in-delray-beach-florida) are where the city stops being a destination and starts being home.`,
     faqs: [
-      { q: "What do locals do in Delray Beach?", a: "Hit the beach, stroll and dine on Atlantic Avenue, explore the Pineapple Grove arts district and Morikami Gardens, shop the Saturday GreenMarket, and enjoy the downtown nightlife." },
-      { q: "Is Delray Beach walkable?", a: "Downtown Delray and Atlantic Avenue are very walkable, all the way to the beach. West Delray is more car-dependent and suburban." },
-      { q: "Is parking hard in downtown Delray Beach?", a: "It can be, especially in season — locals use the parking garages and tend to park once and walk the Avenue." },
-      { q: "What is Pineapple Grove?", a: "Delray's downtown arts district just north of Atlantic Avenue, known for galleries, murals, shops, and a creative vibe." },
+      { q: "How is Delray Beach laid out?", a: "Atlantic Avenue runs east–west and organises the whole city, from past I-95 through the historic downtown, over the Intracoastal, to the ocean. Swinton Avenue marks the oldest part of town, Federal Highway carries north–south traffic in one-way pairs through downtown, and A1A runs the beach. Everything walkable is east of I-95 within about a mile of Atlantic." },
+      { q: "What is the trick to parking in downtown Delray Beach?", a: "Learn the garages and park once. There are public structures near the core, and using one is almost always faster than circling for a street space. For an evening out, park in a garage, walk everywhere and do not move the car until you leave — the district is compact enough that this always works." },
+      { q: "Who provides water and other services in Delray Beach?", a: "Delray Beach is an incorporated city, so police, fire rescue, permits, zoning, code enforcement and historic preservation review are municipal, and water and sewer come from the city for most of the incorporated area. Property records, homestead and vehicle registration are Palm Beach County functions. Some western communities use other utility providers — confirm for the address." },
+      { q: "Does Brightline stop in Delray Beach?", a: "No. Tri-Rail has a station on the west side of the city serving the Miami–West Palm Beach corridor, but the nearest Brightline stations are in neighbouring cities to the north and south. Driving, parking and riding from there is a common local pattern for trips to West Palm Beach, Fort Lauderdale, Miami or Orlando." },
+      { q: "How should I prepare for hurricane season in Delray Beach?", a: "Find your evacuation zone before the season starts — the barrier island and low-lying eastern areas are called first. Sort shutters or impact protection before June, keep about two weeks of water, food, medication and cash, photograph the property annually for insurance, and know your parcel-specific flood zone." },
+      { q: "What is the best month in Delray Beach?", a: "October, arguably — the heat is breaking and the seasonal crowds have not yet returned. November through April has the best weather and the fullest calendar along with heavy traffic and competitive parking. July through September is hot and stormy but quiet, easy to park, and the stretch many residents quietly prefer." },
     ],
-    internalLinks: ["what-its-really-like-living-in-delray-beach-florida", "best-things-to-do-in-delray-beach-florida", "hidden-gems-in-delray-beach-florida"],
+    internalLinks: ["what-its-really-like-living-in-delray-beach-florida", "hidden-gems-in-delray-beach-florida", "best-neighborhoods-in-delray-beach-florida"],
     funFact: "Atlantic Avenue in Delray is exactly one mile from I-95 to the ocean, and on a Friday or Saturday night in season it is genuinely walkable end-to-end with a different vibe at every block. The mix of upscale dining, dive bars, live music, and a surfboard shop all on the same street is something most Florida towns can't pull off.",
     author: 'christine',
     published: true,
@@ -2685,28 +2805,87 @@ Pick your Delray — walkable-downtown energy or quieter west-side calm — and 
     primaryKeyword: "best neighborhoods in Delray Beach Florida",
     secondaryKeywords: ["where to live in Delray Beach", "Lake Ida", "Tropic Isle Delray", "west Delray communities"],
     h1: "Best Neighborhoods in Delray Beach, Florida",
-    body: `Delray's neighborhoods run from buzzing and walkable to gated and golf-quiet. By lifestyle:
+    body: `Delray's housing splits along one line — I-95 — and almost everything about price, lot size, and daily life follows from which side of it you land on.
 
-**Walkable downtown → Pineapple Grove & central downtown.** Condos and townhomes steps from Atlantic Avenue, the arts, and the beach. For people who want to live in the energy.
+Here's the geography, east to west, with what each area actually is and what to check before you commit.
 
-**Sought-after near downtown → Lake Ida.** Larger lots, mature trees, and a short hop to the Ave — one of Delray's most coveted single-family areas, popular for renovations and new builds.
+## Getting oriented
 
-**Historic & waterfront → the Marina District.** Charming historic homes along the Intracoastal, walkable to downtown.
+Three roads organise the whole city. **Atlantic Avenue** runs east–west and is the dividing line for addresses north and south. **Swinton Avenue** runs north–south through the historic core and marks the edge of the oldest part of town. **Federal Highway (US-1)** carries the traffic a few blocks inland from the water, and **A1A** runs the beach.
 
-**Boating → Tropic Isle.** Canal-front homes with quick Intracoastal and ocean access, south of downtown.
+West of I-95, the grid gives way to arterials — Congress, Military Trail, Jog, Lyons — and the neighborhoods become gated communities strung along them.
 
-**Beachside & upscale → Seagate and the beach blocks.** Premium homes and condos near the sand.
+## Downtown and Pineapple Grove — living in the middle of it
 
-**Value, golf & 55+ → west Delray.** Gated golf communities and active-adult neighborhoods past the Turnpike offer far more space and home for the money.
+The arts district just north of Atlantic, and the blocks immediately around the downtown core. Mostly condos and townhomes, some newer mid-rise, at the highest density in the city.
 
-**How to choose:** walkable downtown buzz, a classic Lake Ida home, a boating canal, beachside luxury, or quiet golf value out west? Delray has a lane for each.`,
+You are trading space for position. Units are generally smaller and pricier per square foot than anything else in Delray, and you get a walk score almost nowhere else in the county matches.
+
+*Check:* what the building faces and how high up you are — noise from the restaurant district is very sensitive to both. Ask about the association's reserves and any planned assessments, and confirm what parking actually conveys with the unit, because in this part of town a deeded space is a real asset rather than an afterthought.
+
+## The historic districts — Old School Square, Del-Ida Park, Nassau Street, Marina District
+
+Delray has several designated historic districts clustered near the core, and they are the most characterful housing in the city: early-twentieth-century cottages, bungalows, Mediterranean Revival, and some genuinely beautiful streets. Del-Ida's diagonal street grid is unlike anything else nearby. The Marina District puts historic homes along the Intracoastal within a walk of downtown.
+
+*Check this one carefully:* designation brings design review. Exterior changes — windows, roofing, additions, sometimes paint and fencing — go through a historic preservation process, and it is not a formality. This protects the streetscape you're buying into and constrains what you can do with your own house. Get the specific rules for the specific district before you plan a renovation, not after.
+
+## Lake Ida — the classic single-family choice
+
+North and west of the downtown, around the lake. Larger lots, mature tree canopy, no HOA on most of it, and a short drive or long walk to the Avenue.
+
+It has been the city's renovation and teardown market for years, which means enormous variety: original mid-century homes, gut renovations, and large new builds sitting side by side. Lake Ida Park adds green space, a dog park, and a water-ski lake.
+
+*Check:* lot elevation and drainage, what the neighbors' new builds have done to your light and privacy, and — if you're renovating — what the city will let you build to. The absence of an HOA cuts both ways.
+
+## Osceola Park and the blocks south of Atlantic
+
+Just south and east of the core, smaller and older housing stock, and one of the more actively changing parts of east Delray. Prices sit below the historic districts while keeping much of the walkability.
+
+*Check:* condition and permit history. This area has a lot of renovation activity and a corresponding amount of work done without permits over the years.
+
+## The beachside blocks and Seagate — the premium tier
+
+East of the Intracoastal, between the waterway and the ocean. Seagate to the south of Atlantic is the best-known name, and the beach blocks generally are the top of the market: single-family homes, some low-rise condos, and direct beach access.
+
+*Check:* flood zone and elevation certificate, wind mitigation, and the full insurance picture before you're emotionally committed. Barrier-side property carries costs that don't show up on the listing — our [cost breakdown](/blog/cost-of-living-in-delray-beach-florida) walks through them.
+
+## Tropic Isle and the canal neighborhoods — the boating option
+
+South of downtown off Federal, a canal-front grid with dockage behind the houses.
+
+One thing buyers here need to know, because it surprises people: **Delray Beach has no inlet of its own.** Ocean access means running north to the Boynton Inlet or south to the Boca Raton Inlet, both of which take time and both of which have their own conditions and bridge considerations.
+
+*Check:* depth at your dock at low water, fixed bridge clearances on your chosen route out, seawall condition and age, and who is responsible for it. A seawall nearing the end of its life is a five-figure problem minimum.
+
+## West Delray — space, golf, and 55+
+
+Past I-95, running out toward the Turnpike and beyond. This is where most of the city's housing units actually are, and where the money goes furthest.
+
+The product mix is broad: large gated golf communities, a substantial concentration of age-restricted 55+ and active-adult neighborhoods, newer gated subdivisions of single-family homes, and everything from modest villas to genuinely high-end country club addresses.
+
+What you get is space, newer construction, amenities inside the gates, and prices well below the coast. What you give up is the walkability entirely — this is car-dependent living, and the beach is a fifteen-to-twenty-five minute drive depending on where you are and what time of year it is.
+
+*Check:* the HOA or club structure in detail, because it varies enormously out here. Some communities carry mandatory club membership with a substantial buy-in and annual minimums; some have equity memberships that transfer; some have none of it. Ask for the current budget, the reserve study, the assessment history, and the full schedule of fees before you fall for the house. And confirm any age-restricted community's governing documents directly rather than assuming from what you see.
+
+## Choosing
+
+Answer these in order and the map narrows fast:
+
+1. **Do you want to walk to things, or do you want space?** This is the I-95 question and it decides most of the rest.
+2. **Are you renovating?** If yes, historic designation and HOA rules matter more than the house does.
+3. **Is there a boat?** Then it's the canal neighborhoods, and you're planning around a run to someone else's inlet.
+4. **Is age-restricted living what you want?** West Delray has one of the deepest selections in the county.
+
+Whichever way you go, verify flood zone, elevation, permit history, and association obligations for the specific parcel. Nothing about a Delray neighborhood tells you what's true of an individual address here.`,
     faqs: [
-      { q: "What is the best neighborhood in Delray Beach?", a: "It depends on your lifestyle — downtown and Pineapple Grove for walkability, Lake Ida for sought-after single-family homes near the Ave, Tropic Isle for boating, the beach blocks for coastal luxury, and west Delray for golf and value." },
-      { q: "Is Lake Ida a good neighborhood in Delray Beach?", a: "Yes — Lake Ida is one of Delray's most desirable areas, known for larger lots, mature trees, and easy access to downtown." },
-      { q: "Where are the more affordable areas of Delray Beach?", a: "West Delray, with its gated golf and 55+ communities, generally offers far more attainable prices than downtown or beachside." },
-      { q: "Can you live on the water in Delray Beach?", a: "Yes — the Marina District offers historic Intracoastal homes, and Tropic Isle has canal-front homes with boating access." },
+      { q: "What is the best neighborhood in Delray Beach?", a: "It depends entirely on whether you want walkability or space. For walkability, downtown and Pineapple Grove put you in the middle of it, and the historic districts offer the same access with more character. For a classic single-family home near downtown, Lake Ida is the long-standing choice. For space and value, west Delray past I-95 delivers far more house per dollar." },
+      { q: "Can Delray Beach homes reach the ocean by boat?", a: "Not directly — Delray Beach has no inlet of its own. Boaters in the canal neighborhoods like Tropic Isle run north to the Boynton Inlet or south to the Boca Raton Inlet. Before buying waterfront here, check depth at your dock at low water and fixed bridge clearances on whichever route you would actually take." },
+      { q: "What should I know before buying in a Delray historic district?", a: "Designation brings design review, and it is not a formality. Exterior changes — windows, roofing, additions, sometimes paint and fencing — go through a historic preservation process. That protects the streetscape you are buying into and genuinely constrains what you can do with your own house. Get the specific rules for the specific district before planning any renovation." },
+      { q: "Is west Delray Beach worth considering?", a: "It is where most of the city's housing actually is and where the money goes furthest — gated communities, golf, a deep selection of 55+ and active-adult neighborhoods, and newer construction. You give up walkability completely; the beach is a fifteen-to-twenty-five minute drive. Scrutinise the HOA or club structure, since mandatory memberships and buy-ins vary enormously out there." },
+      { q: "Does Lake Ida have an HOA?", a: "Most of it does not, which is part of the appeal and part of the risk. It has been the city's renovation and teardown market for years, so you will find original mid-century homes, gut renovations and large new builds on the same street. Check what the city will let you build to, and consider what neighbouring new construction may do to your light and privacy." },
+      { q: "Which Delray neighborhoods are the most expensive?", a: "The beachside blocks east of the Intracoastal, including Seagate, sit at the top of the market, followed by the historic districts and waterfront property generally. Downtown condos carry the highest price per square foot in the city because you are paying for position rather than space." },
     ],
-    internalLinks: ["what-its-really-like-living-in-delray-beach-florida", "cost-of-living-in-delray-beach-florida", "who-should-move-to-delray-beach-florida"],
+    internalLinks: ["cost-of-living-in-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida", "who-should-move-to-delray-beach-florida"],
     funFact: "The Arts District along Swinton Avenue is home to the largest collection of historic wood-frame architecture in Palm Beach County — bungalows and cottage-style homes from the 1920s and 30s that have been steadily restored. Prices there have climbed steeply as buyers figured out the walkability to Atlantic Avenue.",
     author: 'john',
     published: true,
@@ -2725,28 +2904,97 @@ Pick your Delray — walkable-downtown energy or quieter west-side calm — and 
     primaryKeyword: "things to do in Delray Beach Florida",
     secondaryKeywords: ["Delray Beach attractions", "what to do in Delray Beach", "Morikami Museum", "Wakodahatchee Wetlands"],
     h1: "Best Things to Do in Delray Beach, Florida",
-    body: `Delray gives you a rare combo: a vibrant downtown, a beautiful beach, real culture, and surprising nature — all in one town.
+    body: `Delray packs an unusual amount into a small city: two miles of public beach, a genuine arts campus, a world-class Japanese garden, and some of the best wildlife boardwalks in South Florida — several of which most residents don't discover for a year.
 
-**Stroll Atlantic Avenue.** The main event — restaurants, bars, galleries, and shops from downtown to the sea. Day or night, this is Delray.
+Here's what's actually worth your time, roughly in the order a new resident should work through it.
 
-**Hit the beach.** The wide, lively **Delray Municipal Beach** is steps from downtown.
+## The beach
 
-**Visit the Morikami.** The **Morikami Museum and Japanese Gardens** is a serene, world-class attraction west of town — beautiful gardens, tea ceremonies, and festivals.
+Two miles of municipal shoreline along A1A, and it's the anchor of the whole east side.
 
-**Walk the wetlands.** **Wakodahatchee Wetlands** and **Green Cay Wetlands** are two of the best wildlife boardwalk experiences in the county — herons, turtles, gators, and nesting birds. A local favorite and endlessly surprising.
+What makes it unusual is what isn't there. No commercial strip on the sand, no boardwalk of shops, no high-rise wall — just dune, sand, and a road with houses and low buildings behind it. That restraint was a deliberate civic choice decades ago and it's the reason the beach still feels like a beach.
 
-**Explore the arts.** Pineapple Grove's galleries and murals, Old School Square, and the Cornell Art Museum anchor a real creative scene.
+The main stretch near the downtown is lifeguarded, social, and busy. It gets progressively quieter as you move north or south from the centre.
 
-**Catch the tennis.** Delray hosts a pro tennis tournament each winter at its downtown tennis center.
+**Practical notes:** parking is metered along A1A and in a handful of lots, it fills early on good days in season, and it's the single most common source of new-resident frustration. Go early, or go in summer when the whole problem evaporates.
 
-In summer, do outdoor stuff early and let the Avenue's covered restaurants and the Morikami carry the hotter afternoons.`,
+## The Morikami Museum and Japanese Gardens
+
+West of town, and genuinely one of the best cultural attractions in Florida — not merely one of the best in the county.
+
+Six distinct gardens spanning different eras of Japanese garden design, a museum, a bonsai collection, a tea house with ceremonies, and a café. The grounds are large enough to spend a half-day in without rushing.
+
+The history behind it is worth knowing: it traces to the **Yamato Colony**, an early-twentieth-century Japanese farming settlement in this area, and to George Morikami, a colonist who eventually donated the land. That lineage is why this exists here rather than being an imported theme.
+
+Festivals through the year draw large crowds; ordinary weekday mornings are serene.
+
+## The wetlands boardwalks
+
+**Wakodahatchee Wetlands** is a constructed wetland on Jog Road with a three-quarter-mile boardwalk over open water, and it is spectacular — herons, egrets, anhingas, ibis, turtles, alligators, and one of the more reliable rookeries in the region during nesting season. Photographers drive a long way for it.
+
+**Green Cay Nature Center**, a short distance north in Boynton Beach, is the same idea at larger scale with a nature centre attached.
+
+Both are free, both are easy walking, and both are best early in the morning. Nesting season, roughly late winter into spring, is the standout period — the boardwalk gets busy with tripods and it's worth the crowd.
+
+If you do one outdoor thing in your first month that isn't the beach, make it Wakodahatchee at sunrise.
+
+## The arts campus and the downtown cultural core
+
+The civic arts campus at the heart of downtown includes a museum in the original 1913 school building, a theatre in the 1925 building, a fieldhouse, and an outdoor pavilion used for concerts and events.
+
+Worth a note for newcomers: the campus went through a significant governance change in recent years, and programming and management have shifted as a result. What's running when you arrive may differ from what an older article describes — check the current schedule directly rather than assuming.
+
+The surrounding downtown adds working galleries, studios, and a well-established mural programme, particularly through the arts district north of Atlantic Avenue.
+
+## The GreenMarket and the events calendar
+
+The Saturday GreenMarket runs through the cooler months downtown and is a genuine local institution rather than a tourist draw — produce, prepared food, plants, and most of the neighbourhood.
+
+Beyond it, Delray runs one of the fuller event calendars in the county: art and craft festivals, food and wine events, holiday programming that draws regional crowds, and street festivals that close portions of the downtown. In season there is something most weekends.
+
+## The tennis
+
+The city's downtown tennis centre hosts a professional tournament each winter that brings genuinely top-tier players to a small stadium in the middle of town. It's an unusual thing for a city this size and worth catching at least once — the intimacy of the venue is the appeal.
+
+The centre also runs public courts and programmes the rest of the year.
+
+## On and in the water
+
+Beyond swimming, the practical options:
+
+- **Paddling the Intracoastal**, best early before the boat traffic builds, with rentals available locally.
+- **Diving and snorkelling offshore**, reached by boat — the reef systems off this stretch of coast are good, though Delray has no inlet of its own, so charters run from neighbouring inlets.
+- **Fishing** from shore, from the Intracoastal seawalls where permitted, or offshore by charter.
+- **Boat tours** on the Intracoastal, which are the easiest way to see the waterfront housing stock if you're house-hunting.
+
+## Green space away from the beach
+
+- **Lake Ida Park**, with a lake, a well-used dog park, and space to actually spread out.
+- **The natural areas** west and south of the city preserve remnant scrub and pine flatwoods, and they're quiet in a way the coastal parks never are.
+- **Veterans Park** on the Intracoastal downtown, small but well-placed, with playground and waterfront.
+
+## Seasonal timing
+
+**Winter into spring** is peak: perfect weather, the full events calendar, nesting season at the wetlands, the tennis tournament, and the largest crowds of the year.
+
+**Summer** is hot, humid, and stormy by afternoon. Do outdoor things early, and use the museum, the gardens' shaded paths, and indoor venues for the middle of the day. The upside is that everything is uncrowded and parking stops being a problem.
+
+**Hurricane season** runs June through November — worth building into any plan involving a boat.
+
+## Where to start
+
+If you have one weekend: the beach early, the Avenue in the evening, Wakodahatchee at sunrise the next morning, and the Morikami after.
+
+That sequence covers the four genuinely distinct things this city offers, and it'll tell you quickly whether Delray suits you. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-delray-beach-florida) are where it starts to feel like your town rather than a destination.`,
     faqs: [
-      { q: "What is there to do in Delray Beach?", a: "Stroll and dine on Atlantic Avenue, enjoy the beach, visit the Morikami Museum and Japanese Gardens, walk the Wakodahatchee Wetlands boardwalk, explore the Pineapple Grove arts district, and catch the winter pro tennis tournament." },
-      { q: "What is the Morikami?", a: "The Morikami Museum and Japanese Gardens, a serene cultural attraction in west Delray with beautiful gardens, exhibits, and festivals." },
-      { q: "What is Wakodahatchee Wetlands?", a: "A boardwalk trail over restored wetlands in Delray Beach, famous for birdwatching and wildlife including herons, turtles, and alligators." },
-      { q: "Is Delray Beach good for nightlife?", a: "Yes — Atlantic Avenue has one of the liveliest dining and nightlife scenes in the county." },
+      { q: "What is the one thing everyone should do in Delray Beach?", a: "Wakodahatchee Wetlands at sunrise. A three-quarter-mile boardwalk over open water with herons, egrets, anhingas, turtles, alligators and a reliable rookery in nesting season. It is free, easy walking, and the single most surprising thing in the city for people who came for the beach and the downtown." },
+      { q: "Is the Morikami Museum worth visiting?", a: "Yes — it is one of the best cultural attractions in Florida, not just the county. Six gardens spanning different eras of Japanese design, a museum, a bonsai collection and a tea house. It traces to the Yamato Colony, an early-twentieth-century Japanese farming settlement in this area, which is why it exists here rather than being an imported theme." },
+      { q: "What is parking like at Delray Beach?", a: "It is the most common source of new-resident frustration. Parking is metered along A1A and in a handful of lots, and it fills early on good days during season. Go early, or go in summer when the problem disappears entirely along with the crowds." },
+      { q: "Why does Delray Beach look different from other Florida beaches?", a: "There is no commercial strip on the sand, no boardwalk of shops and no high-rise wall — just dune, sand, and a road with houses and low buildings behind it. That restraint was a deliberate civic decision decades ago, and it is the main reason the beach still reads as a beach rather than a resort frontage." },
+      { q: "Can you go boating or diving from Delray Beach?", a: "Yes, though with a caveat: Delray has no inlet of its own, so offshore charters run from neighbouring inlets to the north and south. Paddling the Intracoastal is easy and best early before boat traffic builds, and the reef systems off this stretch of coast are genuinely good once you get out to them." },
+      { q: "When is the best time of year to enjoy Delray Beach?", a: "Winter into spring has perfect weather, the full events calendar, wetlands nesting season and the tennis tournament — along with the biggest crowds. Summer is hot and stormy by afternoon, but everything is uncrowded and parking stops being an issue. Do outdoor activities early either way." },
     ],
-    internalLinks: ["hidden-gems-in-delray-beach-florida", "local-guide-to-delray-beach-florida", "best-places-to-eat-drink-hang-out-in-delray-beach-florida"],
+    internalLinks: ["hidden-gems-in-delray-beach-florida", "best-places-to-eat-drink-hang-out-in-delray-beach-florida", "local-guide-to-delray-beach-florida"],
     funFact: "The Morikami Museum and Japanese Gardens in Delray Beach is one of the only museums in the continental US dedicated entirely to living Japanese culture — not Japanese-American history, but living traditions, art, and cuisine. It was founded on land given by a Japanese pineapple farmer who came to Delray in 1905.",
     author: 'christine',
     published: true,
@@ -2765,30 +3013,83 @@ In summer, do outdoor stuff early and let the Avenue's covered restaurants and t
     primaryKeyword: "who should move to Delray Beach Florida",
     secondaryKeywords: ["is Delray Beach right for me", "should I move to Delray Beach", "who lives in Delray Beach"],
     h1: "Who Should Move to Delray Beach, Florida (And Who Shouldn't)",
-    body: `Delray is a lively, social town — perfect for some, too busy for others. The honest take:
+    body: `The useful version of this question isn't "would you enjoy Delray Beach" — almost everyone enjoys Delray Beach for a weekend. It's whether the specific way this city works matches the specific way you live.
 
-**You'll love Delray Beach if you:**
-- **Want a walkable downtown** with great dining and nightlife at your doorstep.
-- **Love the beach** and a wide, social public shoreline.
-- **Are drawn to arts and culture** — galleries, the Morikami, festivals.
-- **Want energy and a scene** — Atlantic Avenue's dining and nightlife district runs year-round.
-- **Are 55+ and want value** — west Delray's active-adult and golf communities are excellent.
-- **Like to go out** — Delray is built for it.
+Here are the profiles that do well, the ones that don't, and the practical realities — work, commuting, seasons — that decide it either way.
 
-**You might look elsewhere if you:**
-- **Want quiet** — downtown Delray is busy, especially in season.
-- **Hate crowds and parking hassles** — the Avenue gets packed.
-- **Are on a tight budget near the coast** — downtown and beachside are pricey (west Delray helps).
-- **Want gated suburban calm only** — though west Delray does offer that.
+## The people this city fits
 
-**Gut-check:** if "walk to dinner, beach by day, art and live music by night" sounds like your scene, Delray is a bullseye. If you want sleepy and serene, look to a quieter town.`,
+**The buyer who genuinely wants to walk.** This is the core case, and Delray is one of the few places in South Florida that delivers it. If the ability to leave the car for a whole weekend is near the top of your list, the eastern half of this city is a short list of one in the immediate area.
+
+*What to verify:* how far you actually are from the core on foot, in August, at two in the afternoon. Walkable on a map and walkable in Florida summer are different measurements.
+
+**The 55+ or active-adult buyer.** West Delray has one of the deepest concentrations of age-restricted and active-adult communities in Palm Beach County — a wide range of price points, community sizes, and amenity levels, from modest villa neighbourhoods to full country club addresses.
+
+*What to verify:* the community's governing documents, its age-restriction status, the full fee schedule, and whether club membership is mandatory and what it costs. These vary enormously between communities that look similar from the road.
+
+**The person who wants a social life without organising it.** Delray's downtown, events calendar, and markets mean you can have a full week without joining anything. For people relocating alone, or newly retired, or recently divorced, that ambient sociability is genuinely valuable and hard to manufacture elsewhere.
+
+**The remote worker who wants a real town around them.** If you're at a desk all day, the difference between a gated subdivision and somewhere you can walk out into is significant. Delray suits people who need the outside world within reach at six in the evening.
+
+*What to verify:* internet service at the specific address, and whether your building or street is quiet enough for calls. Some downtown blocks are not.
+
+**The beach person who doesn't want a resort.** Delray's shoreline has no commercial strip and no high-rise wall. If you want a genuine public beach rather than a hotel frontage, this is one of the better stretches in the county.
+
+**The buyer splitting the difference geographically.** Delray sits near the middle of the Palm Beach County coast, roughly equidistant from West Palm Beach and the Broward line. For households with people working in opposite directions, that centrality is a real practical argument.
+
+## The people who tend to regret it
+
+**Anyone whose main requirement is quiet.** This is the most common mismatch by a distance. Buyers see a small coastal city and assume calm. East Delray in season is busy, loud on weekend nights, and hard to park in. If quiet is the priority, west Delray or a different town will serve you far better.
+
+**The buyer who wants ocean access by boat.** Worth being blunt: **Delray Beach has no inlet.** Reaching open water means a run to a neighbouring one in either direction, and our [neighborhood guide](/blog/best-neighborhoods-in-delray-beach-florida) spells out what that costs a canal-front owner in practice. If quick offshore access is central to your life, other towns do it better and you should look at them.
+
+**The buyer expecting west Delray to feel like Delray.** People fall for the downtown, discover the prices, buy out west, and are then surprised that they don't use the downtown much. Fifteen to twenty-five minutes each way plus parking is enough friction that a weekly habit becomes a monthly one. That's fine if you chose it deliberately — and disappointing if you assumed proximity.
+
+**The buyer on a tight budget who insists on the coast.** East Delray is expensive and the carrying costs — insurance, association fees, reassessed taxes — are heavier than the sticker price suggests. Our [cost breakdown](/blog/cost-of-living-in-delray-beach-florida) is unsparing about it. Stretching to buy east and then being unable to afford to go out is a genuinely common and genuinely miserable outcome in this particular town.
+
+**Anyone who needs a large local employment market.** Delray's economy is hospitality, retail, healthcare, real estate, construction, and services. If your field isn't on that list, you're commuting.
+
+## Work and commuting, specifically
+
+The centrality that makes Delray attractive also means most professional work is somewhere else. The honest picture:
+
+- **Boca Raton** is the nearest concentration of corporate employment and it's a short, manageable drive. This is the commute nobody minds.
+- **West Palm Beach** is realistic daily, though I-95 in season adds meaningful time and unpredictability.
+- **Fort Lauderdale** is a genuine commute — doable, and tiring five days a week.
+- **Miami** is a serious daily commitment. Most people who try it eventually restructure their week or move south.
+
+**Rail matters here more than people expect.** Tri-Rail has a station on the western side of town serving the county corridor, which works well if your destination is near another station. Brightline does not stop in Delray — the nearest stations are in neighbouring cities, which is a short drive and then a fast, comfortable ride toward West Palm Beach, Fort Lauderdale, Miami, or Orlando. For anyone commuting or travelling regularly, that combination is worth building into the decision.
+
+**Airports:** Palm Beach International is the closest and easiest. Fort Lauderdale–Hollywood opens up more routes for a longer drive. Both are practical.
+
+The recurring advice: drive your actual route at your actual hour in February, not in July. Season is the stress test, and I-95 through this stretch behaves very differently across the year.
+
+## The test worth running
+
+Come in August.
+
+Anyone can love Delray in February — that's the easy version, with perfect weather and the full calendar. August is the honest one: hot, humid, storming most afternoons, seasonal residents gone, some places on reduced hours.
+
+If you walk the Avenue on a August evening and still think *yes, this*, you'll be happy here. That reaction is a much better predictor than a January visit, because you'll spend roughly half of every year in the August version.
+
+The complementary test, if you're considering the east side: stand on the block you're thinking about buying on, at eleven at night, on a Saturday in season. Whatever you hear is what you're buying.
+
+## The gut check
+
+Delray Beach works for people who want to be out among other people, who value walking over space, and who are honest with themselves about the cost of both.
+
+It doesn't work for people who wanted a quiet beach town, and it half-works for people who buy west while imagining an eastern life.
+
+Get specific before you shop: which half of the city, what you'll actually pay to carry it, and what your week really looks like. The [neighborhood guide](/blog/best-neighborhoods-in-delray-beach-florida) and the [honest ledger of trade-offs](/blog/pros-and-cons-of-living-in-delray-beach-florida) are the two fastest ways to get there.`,
     faqs: [
-      { q: "Is Delray Beach good for families?", a: "Delray Beach ranges from a dense, nightlife-oriented downtown to lower-density residential and gated communities west of I-95. Amenities, noise levels, and school assignments differ significantly between those areas, so buyers should tour both and verify zoning with the district." },
-      { q: "Is Delray Beach good for retirees?", a: "Delray offers a walkable downtown and beach access, while west Delray's 55+ and golf communities offer lower-density, more affordable active-adult living with resort amenities." },
-      { q: "Who lives in Delray Beach?", a: "Delray Beach housing spans walkable downtown condos and townhomes, historic beach-side cottages, and gated and age-restricted communities west of I-95. Price points range widely, and the downtown core has the highest concentration of seasonal and second-home ownership in the city." },
-      { q: "Is Delray Beach too busy?", a: "Downtown can be busy, especially in season. Those wanting quiet often choose west Delray or a neighboring town while still enjoying the Avenue when they like." },
+      { q: "Who is Delray Beach best suited to?", a: "People who genuinely want to walk to things, 55+ and active-adult buyers looking at the deep selection west of I-95, remote workers who want a real town around them, and anyone who wants an ambient social life without having to organise it. It also suits households with people commuting in opposite directions, since the city sits near the middle of the county coast." },
+      { q: "Who should not move to Delray Beach?", a: "Anyone whose main requirement is quiet — east Delray in season is busy and loud on weekend nights. Also boaters who need fast ocean access, since Delray has no inlet of its own, and buyers on tight budgets who insist on the coast, where carrying costs are heavier than the sticker price suggests." },
+      { q: "Can I commute from Delray Beach?", a: "Boca Raton is a short, easy drive and the commute nobody minds. West Palm Beach is realistic daily though I-95 in season is unpredictable. Fort Lauderdale is doable but tiring five days a week, and Miami is a serious commitment most people eventually restructure. Drive your route in February rather than July before deciding." },
+      { q: "Does Delray Beach have train service?", a: "Tri-Rail has a station on the western side of town serving the county corridor. Brightline does not stop in Delray — the nearest stations are in neighbouring cities, a short drive away, offering fast service toward West Palm Beach, Fort Lauderdale, Miami and Orlando. For regular commuters or travellers that combination is worth factoring in." },
+      { q: "Is it a mistake to buy in west Delray if I love the downtown?", a: "Not a mistake, but go in clear-eyed. Fifteen to twenty-five minutes each way plus parking is enough friction that a weekly downtown habit tends to become a monthly one. People who choose west Delray deliberately, for the space and value, are happy. People who assumed proximity are the ones who feel short-changed." },
+      { q: "What is the best way to test whether Delray Beach suits me?", a: "Visit in August rather than February. August is hot, humid, storming most afternoons, with seasonal residents gone and some places on reduced hours — and it is roughly half your year. If you walk the Avenue on an August evening and still want it, that is a far better predictor than a perfect January weekend." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-delray-beach-florida", "cost-of-living-in-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida"],
+    internalLinks: ["pros-and-cons-of-living-in-delray-beach-florida", "cost-of-living-in-delray-beach-florida", "best-neighborhoods-in-delray-beach-florida"],
     funFact: "Delray Beach has one of the most active pickleball scenes in South Florida — the city built dedicated courts and multiple leagues run year-round, at every level from beginner to competitive, within walking distance of the downtown.",
     author: 'john',
     published: true,
@@ -2808,29 +3109,77 @@ In summer, do outdoor stuff early and let the Avenue's covered restaurants and t
     secondaryKeywords: ["Delray Beach pros and cons", "living in Delray Beach downsides", "is Delray Beach worth it"],
     h1: "Pros and Cons of Living in Delray Beach, Florida",
     showMarketTrends: true,
-    body: `## The Pros
-- **One of Florida's best downtowns** — walkable Atlantic Avenue with dining, bars, and shops.
-- **A beautiful, social beach** steps from downtown.
-- **Real arts and culture** — Pineapple Grove, the Morikami, festivals.
-- **Surprising nature** — Wakodahatchee Wetlands and more.
-- **Range of lifestyles** — lively coastal downtown or quieter, affordable west Delray.
-- **No state income tax** and a central south-county location.
+    body: `Delray Beach is easy to sell and harder to describe accurately, because most of its drawbacks are the direct cost of its advantages. The downtown is crowded *because* it's good. The east side is expensive *because* it's walkable.
 
-## The Cons
-- **Downtown crowds, noise, and parking** — especially in season.
-- **Expensive near the coast** — downtown and beachside prices run high.
-- **Busy nightlife** isn't for everyone.
-- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
-- **West Delray is car-dependent** and far from the beach.
+So rather than two lists that cancel out, here's what you're actually buying, what you're actually giving up, and the handful of things that genuinely surprise people.
 
-**Bottom line:** if you want a walkable, social, beachy town with great food and culture, Delray is hard to beat. If you crave quiet, the downtown energy may wear on you (west Delray is the calmer alternative).`,
+## What you're actually buying
+
+**Walkability that barely exists elsewhere in South Florida.** This is the headline and it isn't marketing. In east Delray you can leave the car for a weekend — dinner, drinks, the beach, a gallery, a market, all on foot. Very few Florida towns manage it. It is the single hardest thing on this list to find somewhere else.
+
+**A beach that still looks like a beach.** Two miles of public shoreline with no commercial strip on the sand and no high-rise wall behind it, the result of deliberate civic decisions decades ago. Compare it to almost any comparable stretch of the Florida coast and the difference is obvious immediately.
+
+**Two price points in one city.** The gap between east and west Delray means you can buy walkability or buy space without changing towns, school district, or city government. Most places make you choose a different city entirely.
+
+**Genuine culture, at density.** A working arts district, a civic arts campus, a world-class Japanese garden west of town, murals, galleries, and an events calendar full enough that something is happening most weeks in season.
+
+**Central location.** Roughly the middle of the Palm Beach County coast, with Boca immediately south, West Palm to the north, and the Broward line close. For anyone whose life pulls in more than one direction, that's worth real money.
+
+**No state income tax**, which is material — though as our [cost guide](/blog/cost-of-living-in-delray-beach-florida) makes clear, insurance and reassessed property taxes claw back more of it than newcomers expect.
+
+## What you're actually giving up
+
+**Quiet, if you live east.** The restaurant and bar district doesn't wind down because you did. Within a few blocks of the core, weekend nights in season are loud, and that's structural rather than fixable.
+
+**Parking, permanently.** Downtown parking and beach parking are the two most reliable sources of resident irritation. Learning the garages helps. Nothing solves it.
+
+**Money, if you want the coast.** East Delray prices are high, and the carrying costs — insurance, association fees, taxes reassessed at purchase — are heavier than the listing suggests. The specific failure mode here is stretching to buy east and then not being able to afford the lifestyle that made you want to be east.
+
+**Walkability, if you go west.** West Delray is entirely car-dependent. That's a fair trade for space and value, but it is a complete trade, not a partial one.
+
+**Half the year to summer.** May through October is hot, humid, and storming most afternoons. It's long, and people who visited only in season consistently underestimate it.
+
+**Medical care is close, but the specialists are spread out.** There's a hospital serving the city and a dense supply of practices across the south county corridor, which is a genuine advantage over more isolated towns. The catch is that "nearby" often means a fifteen-to-twenty-five minute drive on arterials that clog in season, so a routine appointment can eat more of a morning than the map suggests.
+
+**Resale here tracks the downtown's trajectory.** Property values in the eastern city are unusually tied to whether the district stays desirable — more so than in a typical suburb, where schools and lot size do most of the work. That has been a strong tailwind for a long time. It also means a buyer in east Delray is taking a position on the downtown's future, not just on a house.
+
+## The ones that surprise people
+
+**There's no inlet.** Delray Beach has no ocean cut of its own, so every trip offshore begins with a detour to a neighbouring city's. Buyers who assumed a coastal city meant quick ocean access find this out late, and it's a genuine constraint on canal-front property here.
+
+**Historic designation constrains renovation.** Several of the most appealing neighbourhoods sit in designated historic districts where exterior changes go through design review. It protects the streets you fell for and it limits what you can do to your own house. Check the specific district's rules before planning work, not after.
+
+**Short-term rentals affect some blocks.** In parts of the eastern city, vacation rental activity means turnover next door and neighbours who change weekly. Regulation of this is contested and has shifted over time. If it matters to you, ask specifically about the block and check current city rules rather than assuming.
+
+**Condo economics have changed.** Florida's structural inspection and reserve funding requirements have pushed fees and special assessments up sharply across older coastal buildings. A low monthly fee on an older, under-reserved building is a red flag, not a bargain. Get the reserve study.
+
+**The town is actively changing.** Redevelopment pressure, height and density debates, and rising rents that push out independents are live civic issues, not background noise. If you're buying the Delray you remember from a decade ago, be aware you're buying a place mid-transition.
+
+**Traffic is worse than the map implies.** I-95 through this stretch, Atlantic Avenue through the core, and the east–west arterials all thicken substantially in season. A drive that takes fifteen minutes in July can take thirty in February.
+
+## How to weigh it
+
+The pattern is unusually tidy: nearly every drawback is the shadow of an advantage.
+
+The crowds exist because the downtown succeeded. The prices exist because people want to be here. The car dependence out west exists because the land is cheaper and the lots are bigger. The summer is the price of the winter.
+
+Which means the decision reduces to two questions, in order:
+
+1. **Do you want to be out among people, or do you want quiet?** If it's quiet, this is the wrong city, and the [comparison with the neighbours](/blog/delray-beach-vs-nearby-cities) will point you somewhere better.
+2. **East or west?** If it's east, budget honestly for the carrying costs and go stand on the block at eleven on a Saturday night before you commit. If it's west, accept that you're buying a suburb with a beach nearby rather than a walkable beach town.
+
+Get those two right and Delray is one of the most liveable places on this coast. Get them wrong and you'll spend a year explaining to yourself why the town you loved on holiday isn't working as a home.
+
+Our [profile-by-profile look at who fits here](/blog/who-should-move-to-delray-beach-florida) is the fastest way to check yourself against both questions.`,
     faqs: [
-      { q: "What are the pros of living in Delray Beach?", a: "A walkable downtown, a beautiful beach, strong arts and dining, surprising nature like Wakodahatchee Wetlands, a range of lifestyles from coastal to west-side, and no state income tax." },
-      { q: "What are the downsides of living in Delray Beach?", a: "Downtown crowds, noise and parking in season, higher coastal prices, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
-      { q: "Is Delray Beach worth it?", a: "For people who want a lively, walkable beach town with great food and culture, many feel it absolutely is. Those wanting quiet often prefer west Delray or a neighboring town." },
-      { q: "Is Delray Beach a party town?", a: "Atlantic Avenue has a concentrated nightlife district, but the city also has low-density residential areas and gated west-side communities well away from the downtown corridor." },
+      { q: "What is the biggest advantage of living in Delray Beach?", a: "Walkability, which barely exists elsewhere in South Florida. In east Delray you can leave the car for an entire weekend — dinner, drinks, the beach, a gallery and a market all on foot. Very few Florida towns manage it, and it is the hardest single thing on the list to replicate somewhere else." },
+      { q: "What is the biggest drawback of living in Delray Beach?", a: "Depends which half you buy in. East: noise and parking, both structural rather than fixable, plus carrying costs heavier than the listing suggests. West: complete car dependence. The specific failure mode to avoid is stretching to buy east and then being unable to afford the lifestyle that made you want to live there." },
+      { q: "Does Delray Beach have an inlet for boaters?", a: "No, and it surprises people. Getting to open water means running north to the Boynton Inlet or south to the Boca Raton Inlet, with the travel time and bridge clearances that implies. It is a genuine constraint on canal-front property here, and buyers who assumed a coastal city meant quick ocean access often discover it late." },
+      { q: "Are short-term rentals a problem in Delray Beach?", a: "In parts of the eastern city, vacation rental activity means neighbours who change weekly. Regulation is contested and has shifted over time. If it matters to you, ask specifically about the block you are considering and check current city rules rather than assuming anything from general reputation." },
+      { q: "Should I worry about condo fees in Delray Beach?", a: "Yes, and specifically about reserves. Florida's structural inspection and reserve funding requirements have pushed fees and special assessments up sharply across older coastal buildings. A low monthly fee on an older, under-reserved building is a warning sign rather than a bargain — always get the reserve study and assessment history." },
+      { q: "Is Delray Beach getting too crowded and overdeveloped?", a: "It is the town's live civic argument rather than a settled question. Redevelopment pressure, height and density debates, and rents pushing out independents are all active. The honest framing: the downtown succeeded well enough to create the problems success brings, and you are buying a place mid-transition rather than a finished one." },
     ],
-    internalLinks: ["cost-of-living-in-delray-beach-florida", "who-should-move-to-delray-beach-florida", "delray-beach-vs-nearby-cities"],
+    internalLinks: ["who-should-move-to-delray-beach-florida", "cost-of-living-in-delray-beach-florida", "delray-beach-vs-nearby-cities"],
     funFact: "Delray's Atlantic Avenue parking can feel impossible on a Saturday night in season — the city has added garages and a free trolley, but locals either walk from home, use the trolley, or arrive before 6 PM. Knowing that trick is the difference between a frustrating night and a great one.",
     author: 'christine',
     published: true,
@@ -2850,26 +3199,90 @@ In summer, do outdoor stuff early and let the Avenue's covered restaurants and t
     secondaryKeywords: ["Delray Beach home prices", "is Delray Beach expensive", "Delray Beach FL cost of living"],
     h1: "Cost of Living in Delray Beach, Florida",
     showMarketTrends: true,
-    body: `Delray runs above the national average, but with a wide spread between the coast and the west side.
-## Housing
-The big variable. Downtown and beachside Delray command a premium for walkability and the lifestyle, while **west Delray's gated golf and 55+ communities** offer dramatically more attainable prices.
-## Taxes
-**No state income tax** — a key draw. Property taxes apply, with a Homestead Exemption for primary residents.
+    body: `Delray Beach doesn't have a cost of living so much as two of them, and averaging them produces a number that describes nobody.
 
-## Insurance
-A real coastal-Florida cost, higher closer to the water. Budget and quote early.
+A downtown condo owner and a resident of a gated community west of the Turnpike are in the same city, paying the same millage, and living entirely different financial lives. This is how the pieces actually work, and what to verify before you commit to any of it.
+
+## Housing is the whole story
+
+Everything else on this page is a rounding error next to what you pay for the roof.
+
+**East of I-95**, you are paying for position. Walkability to the downtown, proximity to the beach, and historic character all carry premiums, and the closer you get to the Avenue or the sand, the steeper it becomes. Downtown condos command the highest price per square foot in the city — you are explicitly buying location rather than space.
+
+**West of I-95**, the same budget buys substantially more house, more land, newer construction, and a set of amenities behind a gate. The trade is the drive and the loss of walkability.
+
+The gap between the two is wide enough that buyers regularly reset their expectations mid-search once they understand it. Our [neighborhood guide](/blog/best-neighborhoods-in-delray-beach-florida) lays out what each area actually offers.
+
+## Property taxes
+
+Florida has **no state income tax**, which is a genuine and material advantage, particularly for retirees and higher earners. It does not mean your overall burden is low — property taxes and insurance do a great deal of work here.
+
+Delray Beach sits in **Palm Beach County**, so your bill combines county, municipal, school district, and special district millage. Two things matter more than the rate:
+
+**The tax figure on the listing is not your tax figure.** It reflects the seller's assessed value, which may have been capped for years. On a change of ownership the property is reassessed at market value, and the new number can be dramatically higher. This catches buyers out constantly and it is entirely avoidable — ask what the taxes will be *for you*, not what they were for the seller.
+
+**Homestead Exemption and Save Our Homes** apply to primary residences and are worth real money: an exemption off assessed value plus a cap on annual assessment increases while you hold the property. Portability may let you carry accrued savings from a prior Florida homestead. If Delray is a second home or an investment property, none of this applies to you.
+
+Verify current rates, exemptions, and portability with the Palm Beach County Property Appraiser and Tax Collector rather than relying on any published figure.
+
+## Insurance is the number that decides what you can buy
+
+For a great many buyers here, particularly east of the Intracoastal, the insurance premium — not the purchase price — determines which houses are actually affordable.
+
+The drivers:
+
+- **Distance from the coast.** Wind exposure prices sharply, and barrier-side property is a different market from anything a few miles inland.
+- **Roof age and type.** This is frequently the single largest variable. An older roof can make a property difficult to insure at any reasonable price.
+- **Wind mitigation features.** Impact glass, shutters, roof-to-wall connections, and a current wind mitigation inspection can move the premium substantially.
+- **Construction and year built.** Newer construction built to updated code generally prices better.
+
+**Flood is a separate policy** and it matters here. Flood zone is parcel-specific rather than neighbourhood-wide, and an elevation certificate can materially change the number. Coastal and low-lying properties should assume flood coverage is required and priced accordingly.
+
+The practical rule: get real quotes on the specific address before you are under contract, not after inspection. Buyers who leave insurance to the end of the process are the ones who lose deposits or discover the payment they modelled was fiction.
+
+## Association fees, and the west-side club question
+
+This is where west Delray budgets go wrong.
+
+Condo and HOA fees east of I-95 vary with building age, amenities, and reserve health. Ask for the current budget, the reserve study, the assessment history, and any pending special assessments. Florida's structural reserve requirements have pushed fees and assessments up across older coastal buildings in recent years, and a low monthly fee on an under-reserved building is a warning rather than a bargain.
+
+West of I-95, the picture is more complicated. Many communities carry **mandatory club membership** on top of the HOA — a buy-in that can be substantial, annual dues, and often a food-and-beverage minimum. Some are equity memberships that transfer on sale; some are not. Two houses that look identical can carry wildly different annual obligations depending on which community they sit in.
+
+Get the full schedule of every recurring cost in writing before you fall for the house. The monthly number people quote each other at parties is frequently not the whole number.
 
 ## Everyday costs
-Downtown dining and going out can add up given the scene; utilities and groceries track near the Florida average.
 
-**Bottom line:** Delray lets you choose your price point — splurge for the walkable coast or save out west — with no state income tax either way. Just budget for insurance and a lively dining habit.`,
+- **Utilities** track the Florida average, with summer cooling the obvious spike. Older, less efficient houses cost noticeably more to run than newer construction here.
+- **Water and sewer** come through the city for most of the incorporated area; some western communities are on other providers. Confirm for the address.
+- **Groceries** are unremarkable — near the state average, with the usual coastal markup at the small downtown shops.
+- **Going out** is the line item people underestimate. Delray's downtown is genuinely good and genuinely easy to use several nights a week, and a lot of new residents find their discretionary spending climbs sharply in year one. Our [guide to the dining scene](/blog/best-places-to-eat-drink-hang-out-in-delray-beach-florida) is honest about the range.
+- **Parking** downtown is a small but real recurring cost if you live east and drive.
+- **Commuting** costs whatever your route costs. There's Tri-Rail on the west side of town for the county corridor, and the nearest Brightline stations are in neighbouring cities.
+
+## Running your real number
+
+Do this before you make an offer, in this order:
+
+1. **Ask what the taxes will be on the reassessed value**, not what the seller paid.
+2. **Get an actual insurance quote** for the specific address, including flood.
+3. **Get the association's budget, reserves, and assessment history** — plus any club obligation.
+4. **Add roof age into the maths.** If it's near end of life, that's a near-term capital cost and an insurance problem simultaneously.
+5. **Then** compare the total against what the same money does on the other side of I-95, and against the [neighbouring cities](/blog/delray-beach-vs-nearby-cities).
+
+## The bottom line
+
+Delray lets you pick your price point more freely than most South Florida cities, because it genuinely contains two markets. What it doesn't let you do is skip the diligence — the carrying costs here are driven by insurance, association obligations, and reassessment, none of which appear on the listing.
+
+*Figures, rates and rules change. Verify tax, exemption and portability specifics with the Palm Beach County Property Appraiser and Tax Collector, insurance and flood costs with a licensed agent, flood zone and elevation with the relevant authority, and all association and club obligations with the community's governing documents.*`,
     faqs: [
-      { q: "Is Delray Beach expensive to live in?", a: "Downtown and beachside Delray are pricey, but west Delray's gated and 55+ communities are far more attainable, giving the city a wide cost range." },
-      { q: "Is west Delray cheaper than downtown Delray?", a: "Generally, yes — west Delray's golf and active-adult communities offer significantly more home for the money than the walkable coastal core." },
-      { q: "Does Delray Beach have a state income tax?", a: "No — Florida has no state income tax, which helps offset housing and insurance costs." },
-      { q: "Why is insurance a factor in Delray Beach?", a: "Coastal location drives homeowners and wind/flood insurance costs, especially closer to the beach; get quotes early." },
+      { q: "Is Delray Beach expensive to live in?", a: "It contains two markets. East of I-95 you pay a real premium for walkability and proximity to the beach, with downtown condos carrying the highest price per square foot in the city. West of I-95 the same budget buys substantially more house, land and newer construction behind a gate. Averaging the two produces a number that describes nobody." },
+      { q: "Why are the property taxes on my Delray listing so much lower than what I would pay?", a: "Because that figure reflects the seller's assessed value, which may have been capped for years under Save Our Homes. On a change of ownership the property is reassessed at market value and the new bill can be dramatically higher. Always ask what the taxes will be for you rather than what they were for the seller." },
+      { q: "How much is homeowners insurance in Delray Beach?", a: "It varies enough that a general figure is useless, and for many buyers east of the Intracoastal the premium rather than the price decides which houses are affordable. The main drivers are distance from the coast, roof age and type, wind mitigation features and year built. Flood is a separate policy and is parcel-specific. Get real quotes before you are under contract." },
+      { q: "What are HOA and club fees like in west Delray Beach?", a: "Highly variable, and this is where budgets most often go wrong. Many communities carry mandatory club membership on top of the HOA — a potentially substantial buy-in, annual dues and often a food-and-beverage minimum. Some memberships are equity and transfer on sale; some are not. Get the complete schedule of recurring costs in writing before committing." },
+      { q: "Does Florida's lack of state income tax make Delray Beach cheap?", a: "It is a genuine and material advantage, particularly for retirees and higher earners, but it does not make the overall burden low. Property taxes, insurance and association obligations do a great deal of work here, and for coastal property the insurance line alone can exceed what people expected to save." },
+      { q: "What everyday cost do new Delray residents underestimate?", a: "Going out. The downtown is good enough and easy enough to use several nights a week that discretionary spending climbs sharply in year one for a lot of new arrivals. Beyond that, summer cooling costs in older, less efficient houses and downtown parking are the two recurring items people forget to budget." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-delray-beach-florida", "best-neighborhoods-in-delray-beach-florida", "delray-beach-vs-nearby-cities"],
+    internalLinks: ["best-neighborhoods-in-delray-beach-florida", "pros-and-cons-of-living-in-delray-beach-florida", "delray-beach-vs-nearby-cities"],
     funFact: "Delray Beach sits in a sweet spot on the coastal pricing curve: it's more expensive than Boynton Beach or Lake Worth to the north, but still noticeably less than Boca Raton to the south. For buyers who want Atlantic Avenue walkability without full Boca pricing, Delray is the play.",
     author: 'john',
     published: true,
@@ -2888,28 +3301,100 @@ Downtown dining and going out can add up given the scene; utilities and grocerie
     primaryKeyword: "hidden gems in Delray Beach Florida",
     secondaryKeywords: ["Delray Beach secret spots", "free things to do in Delray Beach", "Wakodahatchee Wetlands"],
     h1: "Hidden Gems in Delray Beach, Florida",
-    body: `Atlantic Avenue gets all the attention. Locals know Delray's quieter treasures.
+    body: `The headline attractions here are genuinely excellent and they're covered in [our guide to what's worth doing](/blog/best-things-to-do-in-delray-beach-florida) — the beach, the Japanese gardens, the wetlands boardwalks.
 
-**Wakodahatchee Wetlands & Green Cay Wetlands.** Two boardwalks over restored wetlands packed with herons, turtles, gators, and nesting birds — among the best (and cheapest) nature experiences in the county. Green Cay is just up the road and equally worth it.
+This is the other list: the small, quiet, mostly inexpensive places that residents find in year two, and that a visitor working from a top-ten article will walk straight past.
 
-**The Morikami's quiet hours.** Visit the Japanese gardens early or midweek and you'll have the serene paths nearly to yourself.
+## The West Settlers district and the Spady Museum
 
-**Atlantic Dunes Park.** A quieter, natural stretch of beach with a dune boardwalk, away from the busy main beach.
+The most significant thing in Delray that most residents never visit.
 
-**Pineapple Grove's murals.** A walkable open-air gallery of street art most visitors stroll right past.
+The neighbourhoods northwest of the downtown are the historic heart of the city's Black community, settled in the late nineteenth and early twentieth centuries by families who were central to building Delray. The **Spady Cultural Heritage Museum**, in the restored 1926 home of educator Solomon D. Spady, tells that history properly — the settlement, the segregation-era institutions, and the people.
 
-**Sandoway Discovery Center.** A small beachfront nature center — sharks, reef tanks, and coastal ecology, great with kids.
+It is a small museum and a serious one. If you're going to live here, this is the context that makes the rest of the city legible, and an hour there will change how you read the streets west of Swinton.
 
-**The Marina District walk.** Historic homes along the Intracoastal make for a peaceful, pretty stroll just off the Avenue.
+## Atlantic Dunes Park
 
-These are the spots that show Delray is more than its nightlife.`,
+South of the busy municipal stretch, a quieter beach access with a boardwalk through genuine coastal dune habitat — sea grape, cabbage palm, and the low tangled scrub that used to cover this entire coastline.
+
+The beach here is the same ocean with a fraction of the people. The dune walk takes three minutes and is the only place in the city where you can see what the shoreline looked like before any of this was built.
+
+## Sandoway Discovery Center
+
+A small nature centre in a 1936 beachfront house, with reef tanks, a shark feeding, native coastal habitat, and a hammock of old-growth vegetation behind it.
+
+It's modest by design and unusually good at what it does. The building itself is worth the visit — one of the few surviving houses from that era on this stretch of beach.
+
+## Cason Cottage and the historic society
+
+A restored early-1900s house near the downtown, run as a house museum by the local historical society, with the original architecture and furnishings of a Delray pioneer household.
+
+Small, quiet, staffed by people who know an enormous amount, and almost never busy. Pair it with a walk through the surrounding historic district and you'll understand the eastern city considerably better.
+
+## The Colony Hotel
+
+A 1926 hotel on the Avenue, still operating, still recognisably itself — the lobby, the woodwork, the general sense of a building that predates everything around it.
+
+You don't have to stay there. Walk through, have a drink, look at the ceiling. In a downtown that has been substantially rebuilt around it, this is one of the few places where the original scale of the town is still legible.
+
+## Delray Oaks Natural Area
+
+A county natural area west of the downtown preserving remnant oak hammock and pine flatwoods — short trails, deep shade, and a genuinely different ecosystem from anything on the coast.
+
+It's small, it's free, and it's usually empty. It's also the fastest reminder available that this coast was something other than golf courses and subdivisions within living memory.
+
+## The murals, properly
+
+Everyone notices there are murals in the arts district. Fewer people walk the whole set deliberately.
+
+Done properly — an hour, on foot, off the Avenue — it's a genuine open-air gallery with work that's better than the average civic mural programme by a distance. Go on a weekday morning when you can actually stand in front of them.
+
+## The pinball museum
+
+An entire building of restored machines spanning decades, playable, on the Avenue.
+
+It has no business being as good as it is. It's the most reliably fun hour in the downtown for anyone who doesn't want another restaurant, and it's the one place on this list that works equally well at eleven at night.
+
+## The quiet ends of the beach
+
+The municipal beach is two miles long and the crowd is concentrated in the middle third.
+
+Walk ten minutes north or south from the main access points and the density drops away sharply. Same water, same sand, and on a weekday morning in summer you'll have long stretches essentially to yourself. Residents know this. Visitors park in the middle and stay there.
+
+## The Intracoastal at dusk
+
+Not a place so much as a habit. The waterfront near the downtown, in the last half-hour of light, with the boat traffic thinning and the bridge going up occasionally.
+
+## The city cemetery
+
+An unlikely entry and a genuinely interesting one. The municipal cemetery near the downtown holds the graves of the pioneer families whose names are on the streets you drive daily, along with veterans of conflicts going back well over a century.
+
+It takes twenty minutes to walk and it does the same thing the house museums do — it makes the city's short, dense history concrete. Go on a cool morning.
+
+## The bridge tender's rhythm
+
+The Intracoastal drawbridge at the east end of the Avenue opens on a schedule, and learning it is a small but real quality-of-life upgrade for anyone living on the barrier side or heading to the beach regularly.
+
+More than that: standing on the approach while it lifts, with the traffic stopped and a sailboat working through, is one of those ordinary local moments that quietly explains why people put up with the parking. Check the current schedule when you arrive — it changes seasonally.
+
+Free, available daily, and one of the better arguments for living on this side of town.
+
+## Making the most of these
+
+The through-line is timing. Almost everything here is better early on a weekday, and several of them are transformed by going in summer when the seasonal population has gone.
+
+The other rule is that this city rewards walking off the main street. Delray's reputation is built on one avenue, and nearly everything on this list is within a few minutes of it — but not on it. The residents who enjoy this place most are the ones who worked that out early.
+
+Once you have, our [practical guide to operating here](/blog/local-guide-to-delray-beach-florida) covers the logistics side, and the [dining rundown](/blog/best-places-to-eat-drink-hang-out-in-delray-beach-florida) explains where residents actually eat once the novelty of the Avenue wears off.`,
     faqs: [
-      { q: "What are the hidden gems in Delray Beach?", a: "Wakodahatchee Wetlands, the quiet hours at the Morikami Gardens, Atlantic Dunes Park, the Pineapple Grove murals, the Sandoway Discovery Center, and the historic Marina District." },
-      { q: "What are free things to do in Delray Beach?", a: "Walking Wakodahatchee Wetlands, exploring the Pineapple Grove murals, enjoying the beach and Atlantic Dunes Park, and strolling the Marina District all cost little or nothing." },
-      { q: "Where is a quieter beach in Delray Beach?", a: "Atlantic Dunes Park offers a more natural, less crowded stretch of beach with a dune boardwalk." },
-      { q: "Is Wakodahatchee Wetlands worth visiting?", a: "Absolutely — its boardwalk is one of the top wildlife and birdwatching spots in Palm Beach County, and it's free." },
+      { q: "What is Delray Beach's most overlooked attraction?", a: "The Spady Cultural Heritage Museum and the surrounding West Settlers district northwest of downtown — the historic heart of the city's Black community, settled by families central to building Delray. It is a small, serious museum, and an hour there changes how you read the rest of the city." },
+      { q: "Where can I find a quiet part of Delray Beach?", a: "Atlantic Dunes Park south of the main municipal stretch has the same ocean with a fraction of the people, plus a short boardwalk through genuine coastal dune habitat. More generally, the beach is two miles long and the crowd concentrates in the middle third — walk ten minutes north or south and the density drops away." },
+      { q: "Is there anything to do in Delray Beach besides eat and drink?", a: "Quite a lot of it low-key: the Sandoway Discovery Center in a 1936 beachfront house, Cason Cottage and the historical society, Delray Oaks Natural Area west of downtown, the pinball museum on the Avenue, and the arts district murals walked deliberately rather than glanced at." },
+      { q: "What is Delray Oaks Natural Area?", a: "A small county natural area west of downtown preserving remnant oak hammock and pine flatwoods — short trails, deep shade and an ecosystem completely unlike anything on the coast. Free, usually empty, and the fastest reminder that this coast was something other than subdivisions within living memory." },
+      { q: "Is the Colony Hotel worth visiting if I am not staying there?", a: "Yes. The 1926 building is still operating and still recognisably itself — the lobby, the woodwork, the original scale of the town. In a downtown substantially rebuilt around it, it is one of very few places where you can still see what Delray was before the current era." },
+      { q: "When is the best time to visit these quieter spots?", a: "Early on a weekday, and ideally in summer. Almost everything on this list is better without the seasonal crowd, and several are transformed by it. The broader rule is that Delray rewards walking off the main street — nearly all of this sits within a few minutes of Atlantic Avenue but not on it." },
     ],
-    internalLinks: ["best-things-to-do-in-delray-beach-florida", "local-guide-to-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida"],
+    internalLinks: ["best-things-to-do-in-delray-beach-florida", "local-guide-to-delray-beach-florida", "best-places-to-eat-drink-hang-out-in-delray-beach-florida"],
     funFact: "The Wakodahatchee Wetlands in Delray Beach is a 3-acre constructed wetland built by the water utility on reclaimed land — and it has become one of the premier birding destinations in the entire Eastern US. Over 180 species have been documented there, including rare wading birds that locals walk past daily on the boardwalk.",
     author: 'christine',
     published: true,
@@ -2929,24 +3414,116 @@ These are the spots that show Delray is more than its nightlife.`,
     secondaryKeywords: ["Delray Beach vs Boca Raton", "Delray Beach vs Boynton Beach", "Delray vs Lake Worth"],
     h1: "Delray Beach vs Nearby Cities: How to Choose",
     showMarketTrends: true,
-    body: `Choosing between Delray and its neighbors? Here's the honest comparison.
+    body: `Nobody shops Delray alone. Buyers arrive with a stretch of the South Florida coast in mind and a rough sense that the towns blur into each other.
 
-**Delray Beach vs Boca Raton.** Boca is higher-priced, more polished, and more corporate, with master-planned communities and a large private school corridor. Delray is more walkable, social, and bohemian, with a livelier downtown. Choose Boca for refined calm and club life; Delray for energy and walkability.
+They don't. These places are ten to twenty minutes apart and genuinely different in price, pace, and what a Saturday looks like. Here's the honest comparison, and a way to decide.
 
-**Delray Beach vs Boynton Beach.** Boynton (just north) is more affordable and less polished, with growing waterfront development. Delray is pricier but far more vibrant. Choose Boynton for value; Delray for the scene.
+## vs Boca Raton
 
-**Delray Beach vs Lake Worth Beach.** Both are funky and artsy; Lake Worth Beach is smaller, more eclectic, and more affordable. Delray is more developed with a bigger downtown scene. Choose Lake Worth for bohemian value and character; Delray for a fuller, livelier downtown.
+The comparison that comes up most, because the two cities sit next to each other and attract overlapping buyers.
 
-**Delray Beach vs West Palm Beach.** Both have lively downtowns; West Palm is a bigger city, Delray a walkable beach village. Choose West Palm for city scale; Delray for beach-town charm.
+Boca is larger, more polished, and more corporate — planned development, a substantial business presence, a large university, upscale retail, and a general atmosphere of things being well-organised. Its downtown is pleasant and improving but has never been the social centre of gravity that Delray's is.
 
-**How to choose:** rank **walkable beach-town energy** (Delray), **polished club living** (Boca), **value** (Boynton), **bohemian** (Lake Worth), or **big-city** (West Palm).`,
+Delray is smaller, looser, more walkable, and considerably more social. Its downtown is the main event rather than one amenity among many.
+
+Money runs in Boca's favour for some things and against for others: Boca's median is generally higher, but Delray's most desirable eastern blocks are competitive with anything in Boca.
+
+**Choose Boca if:** you want scale, polish, a corporate job base, and a more organised kind of comfort.
+**Choose Delray if:** you want the walk-out-your-door social life and a downtown you actually use.
+
+## vs Boynton Beach
+
+Directly north, and the value play.
+
+Boynton is less expensive, less polished, and considerably less of a destination. It has real waterfront, an inlet — which Delray notably lacks — and a downtown that has been redeveloping for years without yet arriving. It also has a great deal of solid, attainable housing.
+
+The trade is straightforward: your money goes further, and you're driving to Delray or elsewhere for the evening.
+
+**Choose Boynton if:** value leads, or you want an inlet and quick ocean access.
+**Choose Delray if:** you're paying specifically for the downtown and the walkability, and you'd rather live in it than drive to it.
+
+## vs Lake Worth Beach
+
+North again, and the closest thing to Delray's temperament at a lower price.
+
+Lake Worth Beach is smaller, funkier, more eclectic, and more genuinely bohemian — a real arts community, an idiosyncratic downtown, historic bungalows, and a beach with its own character. It is also less polished, more uneven block to block, and much less expensive.
+
+There's a reasonable argument that Lake Worth Beach today resembles Delray two or three decades ago, before the money arrived.
+
+**Choose Lake Worth Beach if:** you want character and value and don't need the polish.
+**Choose Delray if:** you want the developed version, with the restaurant depth and the property values that come with it.
+
+## vs West Palm Beach
+
+Further north, and a different category — an actual city with a skyline, a business district, an arts complex, and the scale that follows.
+
+West Palm gives you more of everything urban: employment, culture at institutional scale, transport connections, and a much larger housing market including a substantial condo tower market that Delray simply doesn't have.
+
+Delray gives you a beach town you can walk across, which West Palm doesn't and can't.
+
+**Choose West Palm if:** you want city scale, a downtown job, and the range that a larger market provides.
+**Choose Delray if:** you want the beach village, and you're happy to drive twenty-five minutes when you need a city.
+
+## vs Highland Beach and Gulf Stream
+
+The small, quiet, wealthy coastal enclaves immediately adjacent — worth naming because buyers looking at oceanfront drift into their listings.
+
+Both are largely residential, very quiet, and expensive, with essentially no commercial life. Gulf Stream is tiny and heavily green; Highland Beach is a narrow barrier strip of mostly condos and estates between Delray and Boca.
+
+**Choose those if:** privacy and oceanfront lead, and you're content to drive to every restaurant and errand.
+**Choose Delray if:** you want somewhere to walk to.
+
+## vs Wellington
+
+Inland and west, and a genuinely different proposition rather than a coastal alternative.
+
+Wellington is equestrian country — large lots, a world-class horse sport scene, gated communities, and a suburban, spacious feel. It's a long way from any beach and organised around entirely different interests.
+
+**Choose Wellington if:** horses, space, or a large-lot suburban life lead your list.
+**Choose Delray if:** you want the coast and a downtown.
+
+## vs the Broward towns to the south
+
+Deerfield Beach, Pompano, and Lighthouse Point sit just over the county line, and the line matters: different county government, different school district, different property tax picture.
+
+Broward generally offers more house for the money along this stretch, with less of the manicured feel. Deerfield has a good beach and an easier price point; Lighthouse Point is boating-oriented with real inlet access.
+
+**Choose south of the line if:** value or boating leads, and you'll verify the county differences rather than assume.
+## vs Boynton Beach's western communities
+
+Worth separating from Boynton proper, because west Boynton and west Delray are direct competitors and buyers compare them constantly.
+
+Both offer gated communities, golf, and a deep supply of 55+ and active-adult neighbourhoods along the same arterial corridors. The housing product is genuinely similar, often built by the same developers in the same decades.
+
+The differences are marginal but real: west Delray generally runs slightly higher on price and slightly closer to the Atlantic Avenue downtown, while west Boynton tends to offer a little more for the money and sits nearer the wetlands boardwalks and the western shopping corridors.
+
+**Choose either if:** the gated-community life is what you want and you'll pick on the specific community rather than the city name — which, out here, is the right way to shop anyway.
+
+**Choose Delray if:** the downtown is the point.
+
+## How to decide
+
+Rank these four honestly before you tour anything. Most buyers can't have all of them:
+
+1. **Walk to dinner.** If this is first, the list is short: Delray, Lake Worth Beach, or downtown West Palm.
+2. **Quick ocean access by boat.** If this is first, Delray is out — look at Boynton, Lighthouse Point, or further afield. There is no inlet here.
+3. **Space and value per dollar.** West Delray, Boynton, or over the Broward line.
+4. **Polish and organisation.** Boca.
+
+The pattern in this stretch of coast is that walkability and boating rarely come together, and neither comes cheaply. Knowing which one you actually want — before you fall for a house — is the whole game.
+
+One practical note: **check which county you're in.** The Palm Beach–Broward line changes your school district, your tax picture, and your county services. Buyers routinely carry assumptions across it. Verify independently, every time.
+
+If Delray is looking like the answer, our [look at what living here is actually like](/blog/what-its-really-like-living-in-delray-beach-florida) and the [carrying-cost breakdown](/blog/cost-of-living-in-delray-beach-florida) are the two things to read next.`,
     faqs: [
-      { q: "Delray Beach or Boca Raton — which is better?", a: "Boca is higher-priced and more polished, with master-planned communities and a large private school corridor; Delray is more walkable, social, and bohemian with a livelier downtown. It depends on whether you want refined calm or energy." },
-      { q: "Is Boynton Beach cheaper than Delray Beach?", a: "Generally yes — Boynton tends to be more affordable, while Delray is pricier but more vibrant and developed." },
-      { q: "Delray Beach vs Lake Worth Beach?", a: "Both are artsy and funky; Lake Worth Beach is smaller, grittier, and cheaper, while Delray is more polished with a fuller downtown." },
-      { q: "Which town has the best downtown?", a: "Delray's Atlantic Avenue and West Palm Beach's Clematis/Rosemary Square are the standouts — Delray for a walkable beach-village feel, West Palm for big-city scale." },
+      { q: "Delray Beach or Boca Raton — which is better?", a: "Boca is larger, more polished and more corporate, with a substantial business base and upscale retail; its downtown is pleasant but never the social centre Delray's is. Delray is smaller, looser and far more walkable, with a downtown that is the main event. Choose Boca for scale and organisation, Delray for the walk-out-your-door social life." },
+      { q: "Is Boynton Beach a good alternative to Delray Beach?", a: "It is the value play, and it has something Delray lacks — an inlet, meaning quick ocean access for boaters. Boynton is less expensive and less of a destination, with a downtown still redeveloping. The trade is simple: your money goes further and you drive to Delray or elsewhere for the evening." },
+      { q: "How does Lake Worth Beach compare to Delray Beach?", a: "Lake Worth Beach is the closest thing to Delray's temperament at a lower price — smaller, funkier, more genuinely bohemian, with a real arts community and historic bungalows. It is less polished and more uneven block to block. There is a fair argument it resembles Delray two or three decades ago, before the money arrived." },
+      { q: "Should I choose Delray Beach or West Palm Beach?", a: "West Palm is an actual city — skyline, business district, institutional-scale arts, transport connections and a much larger housing market including condo towers Delray does not have. Delray is a beach town you can walk across. Choose West Palm for city scale and a downtown job; Delray for the village, accepting a twenty-five minute drive when you need a city." },
+      { q: "What about the towns just south in Broward County?", a: "Deerfield Beach, Pompano and Lighthouse Point generally offer more house for the money with less manicured polish, and Lighthouse Point has genuine inlet access for boaters. The important caveat is the county line: different county government, different school district and a different property tax picture. Verify rather than carrying Palm Beach County assumptions across it." },
+      { q: "What is the single most useful way to choose between these cities?", a: "Rank walking to dinner, quick ocean access, space per dollar, and polish — in honest order, before touring anything. Along this stretch of coast walkability and boating rarely come together and neither comes cheaply. Knowing which you actually want before you fall for a house is most of the decision." },
     ],
-    internalLinks: ["cost-of-living-in-delray-beach-florida", "pros-and-cons-of-living-in-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida"],
+    internalLinks: ["who-should-move-to-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida", "cost-of-living-in-delray-beach-florida"],
     funFact: "Delray Beach has a walkable beach-to-downtown connection that Boca Raton and Boynton Beach both lack — you can walk from the sand to dinner to a live music venue without a car. That urban-beach combination is what drives the premium over its immediate neighbors.",
     author: 'john',
     published: true,
@@ -2965,26 +3542,92 @@ These are the spots that show Delray is more than its nightlife.`,
     primaryKeyword: "best restaurants in Delray Beach Florida",
     secondaryKeywords: ["where to eat in Delray Beach", "Delray Beach nightlife", "Atlantic Avenue restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Delray Beach, Florida",
-    body: `Delray's dining and nightlife are the best part of living here — and most of it lines one famous street.
-## Atlantic Avenue
-The heart of it all — a walkable stretch of restaurants, rooftop bars, cocktail lounges, and sidewalk cafés running from downtown to the beach. Whatever you're craving, it's likely on the Ave.
+    body: `Delray's dining scene is the best argument for living here and the most reliable way to blow your budget. It is genuinely deep for a city this size — and it is also concentrated, crowded, and seasonal in ways worth understanding before you arrive.
+
+This is how the scene is actually organised, and how residents use it differently from visitors.
+
+## Atlantic Avenue, honestly
+
+The Avenue is the spine of the whole thing: a long, walkable run of restaurants, bars, rooftops, cocktail lounges, and sidewalk tables stretching from the historic downtown east toward the ocean.
+
+It is genuinely one of the best restaurant streets in Florida. It is also, in the middle of season on a Saturday night, extremely busy, loud, and difficult to park near.
+
+Here's the local calibration. **The western blocks**, nearer Swinton and the historic core, tend toward the more interesting independents and are marginally calmer. **The central blocks** are the densest concentration and the highest energy — this is where the crowds are. **The eastern end**, approaching the Intracoastal bridge, gets more waterfront-oriented and more expensive.
+
+Residents learn to work the street rather than surrender to it: early or late rather than peak, weeknights rather than weekends, and the side streets rather than the Avenue itself when they want to hear each other.
+
+## The side streets are where residents end up
+
+This is the single most useful thing a newcomer can learn.
+
+The blocks running off Atlantic — north toward the arts district, south toward Osceola Park, and along Swinton — hold a good deal of the food people who live here actually eat. Smaller rooms, more independents, lower volume, and a meaningfully better chance of a table without a wait.
+
+Year one you eat on the Avenue. Year two you eat a block off it. That progression is close to universal.
 
 ## Pineapple Grove
-Just north of Atlantic, the arts district adds a more creative, low-key set of cafés and eateries.
 
-## Beachside
-Casual, toes-in-the-sand spots near the Delray Municipal Beach for a relaxed bite with an ocean view.
+The arts district just north of Atlantic runs to cafés, coffee, casual rooms, and a more creative, lower-key set of places. It's where you go for a long coffee, a working lunch, or dinner that doesn't require a reservation strategy.
 
-## The vibe
-Delray is a *go-out* town — happy hours, live music, and late dinners are the norm. The hardest part isn't finding a good spot; it's choosing one.
-`,
+The atmosphere is different enough from the Avenue to feel like a separate neighbourhood, which — given that it's a two-minute walk — is a small miracle of urban design.
+
+## The beach end
+
+East of the Intracoastal near the municipal beach, the food skews casual, salty, and oriented around a view. Fewer serious kitchens, more places to eat with sand on your feet.
+
+It's the right call after a beach day and the wrong call if you're after the city's best cooking, which is mostly back west of the bridge.
+
+## The GreenMarket
+
+The Saturday morning market downtown, running through the cooler months, is a genuine institution — produce, bread, prepared food, coffee, plants, and a substantial share of the neighbourhood.
+
+Residents treat it as a weekly ritual rather than an event. It's also one of the easiest ways to meet people if you're new, because everyone is there and nobody is in a hurry.
+
+## Drinking, and what the scene actually is
+
+Delray has real nightlife, which distinguishes it from most of its neighbours. Rooftops, cocktail bars, live music, and a downtown that stays busy well past when comparable towns have gone quiet.
+
+Two honest caveats.
+
+First, **the character changes by the hour**. The Avenue at seven in the evening is a pleasant restaurant street. The same blocks at eleven on a Saturday in season are a different, louder proposition. Neither is a problem — but knowing which one you're walking into saves disappointment.
+
+Second, **this affects where you buy**. If you're considering a condo within a couple of blocks of the core, the nightlife is not an amenity you visit, it's a sound you live with. Our [look at daily life here](/blog/what-its-really-like-living-in-delray-beach-florida) covers how residents handle that.
+
+## Seasonality is real
+
+From roughly November through April, the good places want reservations, waits are long, and walking in on a Saturday night is optimistic.
+
+From May through October, the same restaurants have tables. Some reduce hours or close briefly. Residents do their best eating in these months, and a fair number of the best meals happen on a Tuesday in July with the place half empty.
+
+If you're visiting to decide whether to move here, eat here in both seasons. The February version oversells the scene's accessibility; the August version undersells its energy.
+
+## The practical mechanics
+
+- **Reservations** in season are not optional at the better rooms. Book well ahead for anything on a weekend.
+- **Parking** is the recurring frustration. Learn the garages rather than circling for a space on the street — the time saved is worth the walk, and the walk is pleasant.
+- **Walking** is the actual answer if you live east. It's the entire point of the neighbourhood.
+- **Happy hours** are widespread and genuinely good value, and they're how a lot of residents use the Avenue without spending Avenue money.
+- **Turnover is real.** This is a competitive restaurant market in a town with high rents and a seasonal revenue curve. Places open and close regularly, so check that somewhere is still trading before you plan an evening around it.
+
+## Beyond the downtown
+
+West Delray has its own dining, concentrated in plazas along the arterial roads — more chains, more casual, considerably easier parking, and prices that reflect the lower rent. It isn't a destination scene and doesn't pretend to be, but if you live out there you are not driving east every night, and the practical everyday options are perfectly good.
+
+## The honest summary
+
+The hard part in Delray isn't finding somewhere good. It's that there's too much within a short walk, the crowds are real for half the year, and the ease of going out will quietly reshape your monthly spending if you let it.
+
+Use the side streets, eat off-peak, learn the garages, and treat the Avenue as something you choose deliberately rather than default to. That's how the people who've been here a while do it — and it's how the scene stays a pleasure rather than an expense.
+
+For the rest of what fills a week here, our [rundown of things worth doing](/blog/best-things-to-do-in-delray-beach-florida) covers the beach, the gardens, and the wetlands.`,
     faqs: [
-      { q: "Where is the best dining in Delray Beach?", a: "Atlantic Avenue is the main dining and nightlife strip, with everything from sidewalk cafés to rooftop bars, plus more creative spots in Pineapple Grove and casual options beachside." },
-      { q: "Is Delray Beach good for nightlife?", a: "Yes — Atlantic Avenue has one of the liveliest nightlife scenes in South Florida, with bars, lounges, and live music." },
-      { q: "Where do locals eat in Delray Beach?", a: "All along Atlantic Avenue and in Pineapple Grove, plus casual beachside spots — locals tend to have favorites up and down the Ave." },
-      { q: "Is there beachside dining in Delray Beach?", a: "Yes — there are casual restaurants near the Delray Municipal Beach for a relaxed meal with an ocean view." },
+      { q: "Where do locals actually eat in Delray Beach?", a: "A block off Atlantic Avenue. The side streets running north toward the arts district, south toward Osceola Park and along Swinton hold much of the food residents eat regularly — smaller rooms, more independents, lower volume and a far better chance of a table. Year one you eat on the Avenue; year two you eat a block off it." },
+      { q: "Do I need reservations in Delray Beach?", a: "In season, from roughly November through April, yes — walking into a good restaurant on a Saturday night is optimistic. From May through October the same places have tables, and a lot of the best meals residents have happen on a quiet weeknight in summer." },
+      { q: "Is Atlantic Avenue too crowded?", a: "It depends on the hour and the season. At seven in the evening it is a pleasant restaurant street; at eleven on a Saturday night in season it is a much louder proposition. Residents work around it by eating early or late, choosing weeknights, and using the side streets when they want to hear each other." },
+      { q: "Does Delray Beach nightlife affect where I should buy?", a: "Considerably, if you are looking at downtown condos. Within a couple of blocks of the core the nightlife is not an amenity you visit — it is a sound you live with on weekend nights. Buyers frequently move a few blocks out after a year or two, keeping the walkability and losing the volume." },
+      { q: "What is the Delray GreenMarket?", a: "A Saturday morning market downtown running through the cooler months — produce, bread, prepared food, coffee and plants. Residents treat it as a weekly ritual rather than an event, and it is one of the easiest ways to meet people when you are new, because everyone is there and nobody is rushing." },
+      { q: "Is there anywhere to eat in west Delray Beach?", a: "Yes, concentrated in plazas along the arterial roads — more chains, more casual, much easier parking and lower prices than the downtown. It is not a destination scene, but if you live out west you are not driving east every night and the everyday options are perfectly good." },
     ],
-    internalLinks: ["best-things-to-do-in-delray-beach-florida", "local-guide-to-delray-beach-florida", "hidden-gems-in-delray-beach-florida"],
+    internalLinks: ["best-things-to-do-in-delray-beach-florida", "local-guide-to-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida"],
     funFact: "Boston's on the Beach has been at the end of Atlantic Avenue since 1981, and on a busy Sunday it's one of the most energetic outdoor beach bars in all of South Florida. Locals and tourists mix in a way that almost never happens gracefully — at Boston's it just works because the location is that good.",
     author: 'christine',
     published: true,
