@@ -3006,28 +3006,104 @@ Delray is a *go-out* town — happy hours, live music, and late dinners are the 
     h1: "What It's Really Like Living in Boca Raton, Florida",
     heroImage: '/public/Boca Raton/boca-mizner-park.jpg',
     heroImageCredit: 'Photo by Alexander Donev / Unsplash',
-    body: `Boca Raton is South Florida with its collar pressed. It's higher-priced, planned, and polished — pink Mediterranean architecture, manicured medians, a deep bench of public and private schools, and a real corporate and country-club backbone. If Delray is the funky artist, Boca is the successful executive.
+    body: `Boca Raton is South Florida with its collar pressed. Higher-priced, planned, and polished — pink Mediterranean architecture, manicured medians, a deep bench of schools, and a genuine corporate backbone. If Delray up the road is the funky artist, Boca is the successful executive.
 
-## Refined and intentional
+That's a caricature, but it's a useful one, because Boca is unusually consistent about what it is. The city knows its own aesthetic and enforces it.
 
-Boca's look traces back to architect Addison Mizner, and the city has guarded that elegant, Mediterranean Revival feel ever since. **Mizner Park** — an open-air district of upscale shops, restaurants, the Boca Raton Museum of Art, and an amphitheater — is the polished heart of town, alongside the large **Town Center** mall.
+## A city built to a look
 
-## Beaches, nature, and how weekends work
+Boca's appearance traces back to **Addison Mizner**, the architect whose Mediterranean Revival vision shaped 1920s Palm Beach County. Boca took that language and never let go of it — barrel tile, arches, stucco, courtyards — and codified it into how the city looks today.
 
-Boca's beach parks are gorgeous — **Red Reef**, **Spanish River**, and **South Beach** — and **Gumbo Limbo Nature Center** is a beloved sea-turtle rehab and nature spot right by the sand. Add the Palm Beach County school district, **Florida Atlantic University**, and a large corporate employment base, and you get a city with unusually deep infrastructure for its size.
+The result is a place with far more visual coherence than most Florida cities. Medians are planted. Signage is restrained. Even the strip retail is required to behave. Whether that reads as elegant or slightly airless is the single best predictor of whether Boca suits you.
 
-## Two sides of town
+**Mizner Park** — an open-air district of shops, restaurants, an art museum, and an amphitheater — is the polished heart of it, with the large **Town Center** mall anchoring the west side of the retail picture.
 
-East Boca is coastal, walkable-ish, and pricey; **west Boca** is a vast world of gated golf and country-club communities (Boca West, Broken Sound, St. Andrews) plus age-restricted active-adult communities, generally at more attainable price points.
+## Two cities, split by the highway
+
+This is the most useful thing to understand about Boca, and it shapes everything from price to lifestyle.
+
+**East Boca** is coastal: the beach parks, downtown, Mizner Park, older and more architecturally interesting housing, and the highest prices in the city. It's the walkable-ish part, and it's where the character lives.
+
+**West Boca** — past I-95 and the Turnpike — is an entirely different world. A vast landscape of gated golf and country-club communities like Boca West, Broken Sound, and St. Andrews, alongside a large concentration of age-restricted 55+ communities, generally at meaningfully more attainable price points.
+
+People say "I'm looking in Boca" as though it's one market. It isn't. Deciding east or west first will save you months.
+
+![Aerial view of the Boca Raton oceanfront](/public/Boca%20Raton/boca-oceanfront.jpg "East Boca: the beach parks, the low-rise condo line, and the highest prices in the city.")
+
+## The beaches are genuinely good
+
+Not an afterthought. **Red Reef Park**, **Spanish River Park**, and **South Beach Park** are among the best-maintained beach parks in the county, with real facilities, real parking, and a nature-conservation ethic that shows.
+
+**Gumbo Limbo Nature Center** sits right by the sand — a sea-turtle rehabilitation and coastal-nature center that residents treat as a genuine civic asset rather than a tourist stop.
+
+For a city with a reputation built on shopping and golf, the coastal infrastructure is better than outsiders expect.
+
+## Deep institutional infrastructure
+
+Boca carries more institutional weight than its size suggests: a wide range of public, magnet, and private schools, **Florida Atlantic University** anchoring the center of the city, a substantial corporate employment base, and strong healthcare.
+
+That combination — schools, a university, and corporate offices — gives Boca a weekday economy and a year-round population that the seasonal beach towns simply don't have.
+
+## Season, and how the city handles it
+
+Roughly November through April the population swells, restaurants fill, and Glades Road slows noticeably. It's also when the weather is at its best.
+
+What distinguishes Boca from the seasonal beach villages is that it doesn't hollow out afterward. The university, the corporate base, and a large year-round residential population keep the city running through summer — restaurants stay open, services stay staffed, and life continues at a slightly quieter tempo rather than shutting down.
+
+For anyone who has lived somewhere that empties in May, that steadiness is a genuine and underrated argument for the city.
 
 ## The trade-offs
 
-Boca is expensive, can feel corporate and manicured, and HOA and club fees are part of the equation. It's car-dependent, and traffic on Glades Road builds in season. Florida's warm summers and insurance landscape are standard considerations throughout the region. But for schools, private clubs, and refined convenience, Boca is one of the most polished places to live in the state.`,
+**It's expensive**, particularly east of I-95 and near the water.
+
+## The trade-offs
+
+**It's expensive**, particularly east of I-95 and near the water.
+
+**Club and association fees are part of the equation.** Many of the most desirable communities are gated golf-and-country-club neighborhoods where dues, initiation, and minimums add a substantial monthly figure on top of the mortgage. This is where Boca budgets most often break.
+
+**It's corporate and manicured.** By design. If you want funky, eclectic, or accidental, Delray is fifteen minutes north and does exactly that.
+
+**Car-dependent, with real traffic.** **Glades Road** is the local headache and it builds significantly in season.
+
+**Florida climate.** Warm, humid summers and hurricane season June through November, with insurance costs to match.
+
+## The university changes the city more than people expect
+
+**Florida Atlantic University** sits near the center of Boca, and residents without a student in the family routinely underestimate what that means day to day.
+
+It brings a year-round population that isn't seasonal, college athletics and performing arts open to the public, lecture and gallery programming at low cost, and a research and medical presence feeding the local economy. It also produces its own traffic patterns around move-in, home games, and graduation.
+
+For a city that can otherwise feel like it runs entirely on retail and golf, the university is a genuine counterweight — and the most accessible cultural resource in Boca for anyone not buying into a club.
+
+## Healthcare and planning ahead
+
+Worth stating plainly, because it factors heavily into why people relocate here later in life: Boca carries strong hospital and specialty medical coverage, and the concentration of practices is high.
+
+Combined with the depth of 55+ housing west of the Turnpike, that makes the city one of the more practical places in South Florida to plan for the long term rather than just the next decade.
+
+## Who ends up happy here
+
+People who want the polish
+
+## Who ends up happy here
+
+People who want the polish and use the infrastructure — the schools, the clubs, the beaches, the university. Boca rewards buyers who actually participate in it.
+
+The people who struggle usually wanted character, walkability, or a lower carrying cost, and chose Boca for the address. Delray, Boynton, and Fort Lauderdale all offer versions of what they were actually after.
+
+## The bottom line
+
+Boca Raton is one of the most consistently well-executed cities in Florida. The architecture is coherent, the public spaces are maintained, the schools are numerous, and the beaches are excellent.
+
+You pay for it, in both price and a certain amount of sameness. Decide east or west, get the full club and association number before you fall for a house, and you'll know quickly whether this is your city.`,
     faqs: [
-      { q: "Is Boca Raton good for families?", a: "Boca Raton offers a large concentration of public, magnet, and private schools, extensive parks including Sugar Sand Park, beach parks, and country-club communities. Costs run higher than neighboring cities and the layout is car-dependent. School boundaries and ratings may change — verify with the district." },
-      { q: "What is Boca Raton known for?", a: "Mediterranean Revival architecture, Mizner Park, high-end shopping and dining, a large private school corridor, Florida Atlantic University, gorgeous beach parks, and Gumbo Limbo Nature Center." },
-      { q: "Is Boca Raton expensive?", a: "Generally yes — coastal and east Boca are pricey, though west Boca's gated golf and 55+ communities offer more attainable options." },
-      { q: "Is Boca Raton a good place to live?", a: "Boca Raton offers a wide school selection, oceanfront and Intracoastal condos, country-club communities, beach parks, and an extensive shopping and dining corridor. The trade-offs are higher costs, HOA and club fees, and a car-dependent layout." },
+      { q: "What is Boca Raton known for?", a: "Mediterranean Revival architecture traceable to Addison Mizner, Mizner Park's shopping and arts district, well-maintained beach parks including Red Reef and Spanish River, Gumbo Limbo Nature Center, a wide range of public and private schools, Florida Atlantic University, and a large concentration of gated golf and country-club communities west of I-95." },
+      { q: "What is the difference between east and west Boca Raton?", a: "They function as separate markets. East Boca is coastal — beach parks, downtown, Mizner Park, older and more architecturally interesting housing, and the highest prices. West Boca, past I-95 and the Turnpike, is gated golf and country-club communities plus a large concentration of 55+ age-restricted communities, at more attainable price points." },
+      { q: "Is Boca Raton expensive?", a: "Yes, particularly east of I-95 and near the water. The bigger budget factor for many buyers is club and association obligations — many desirable communities are gated golf-and-country-club neighborhoods where dues, initiation, and minimums add substantially to the monthly cost." },
+      { q: "Are the beaches good in Boca Raton?", a: "Better than the city's shopping-and-golf reputation suggests. Red Reef Park, Spanish River Park, and South Beach Park are among the best-maintained beach parks in the county, and Gumbo Limbo Nature Center sits right by the sand as a sea-turtle rehabilitation and nature facility." },
+      { q: "Is Boca Raton walkable?", a: "Only in parts. Mizner Park, downtown, and some east Boca pockets work on foot, but the city is largely car-dependent, and Glades Road traffic builds significantly during season." },
+      { q: "Who is Addison Mizner and why does Boca look the way it does?", a: "Mizner was the architect whose Mediterranean Revival vision shaped 1920s Palm Beach County. Boca adopted that language — barrel tile, arches, stucco, courtyards — and codified it, which is why the city has far more visual consistency than most Florida cities." },
     ],
     internalLinks: ["best-neighborhoods-in-boca-raton-florida", "best-things-to-do-in-boca-raton-florida", "who-should-move-to-boca-raton-florida"],
     funFact: "Boca Raton was largely designed by Addison Mizner in the 1920s, and the Mediterranean Revival architecture he championed — pink stucco, red tile roofs, arched doorways — became the aesthetic blueprint the city has enforced ever since. That's why Boca looks cohesive in a way that most Florida cities don't.",
@@ -3047,28 +3123,103 @@ Boca is expensive, can feel corporate and manicured, and HOA and club fees are p
     primaryKeyword: "Boca Raton local guide",
     secondaryKeywords: ["Boca Raton insider tips", "things locals do in Boca Raton", "moving to Boca Raton guide"],
     h1: "A Local's Guide to Boca Raton, Florida",
-    body: `Boca is bigger and more spread out than the beach villages nearby, so knowing how it's organized matters.
+    heroImage: "/public/Boca Raton/boca-mizner-plaza.jpg",
+    body: `Boca is bigger and considerably more spread out than the beach villages up the coast, and newcomers routinely underestimate that. Knowing how the city is organized is most of the battle.
 
 ## Get your bearings
 
-**East Boca** holds the coast, the beach parks, downtown, and **Mizner Park**. **West Boca** (past I-95 and the Turnpike) is country-club and active-adult country — gated communities, golf, and the Town Center mall hub around Glades Road. **FAU** anchors the center.
+Four reference points cover it.
 
-## The local rhythm
+**East Boca** holds the coast, the beach parks, downtown, and **Mizner Park**. This is the older, denser, pricier, most walkable part of the city.
 
-Beach mornings at Red Reef or Spanish River, lunch and shopping at Mizner Park or Town Center, family time at Sugar Sand Park, and dinner downtown or in your community's club. It's a polished, comfortable daily routine.
+**Central Boca** is anchored by **Florida Atlantic University** and the corridor around it — a mix of housing, the university's facilities, and the city's institutional core.
+
+**West Boca**, past I-95 and the Turnpike, is country-club and active-adult territory: gated communities, golf, and the retail hub around **Town Center** on Glades Road.
+
+**Glades Road** is the artery connecting it all, and understanding its behavior is the single most practical piece of local knowledge in this city.
+
+## The two coasts of Boca
+
+A useful frame once you're here: Boca has an ocean coast and a wetland coast, and both are genuinely part of the city.
+
+The **ocean side** is the beach parks, the A1A corridor, and the older coastal neighborhoods. The **western side** backs onto Everglades-system conservation land, with wetland boardwalks and habitat most people associate with a drive out to the refuge.
+
+Most residents use one and forget the other exists. The ones who use both tend to be noticeably happier here, because the city stops being a shopping-and-golf town and becomes somewhere with actual landscape at either end.
+
+## Where you'll actually run errands
+
+**Town Center** and the Glades Road corridor carry most of the big-box and mall retail. **Mizner Park and downtown** handle the polished end. Neighborhood centers are distributed through both halves of the city, and west of the Turnpike each large community has its own nearby cluster.
+
+The pattern most households settle into: one grocery store near home, Glades Road for anything larger, and Mizner Park when the trip is meant to be enjoyable rather than efficient.
+
+## Glades Road, honestly
+
+It's the local headache and everyone will tell you so within a week.
+
+The corridor concentrates the mall, the university, major office space, and the I-95 and Turnpike interchanges, which means it absorbs commuter traffic, shopping traffic, and campus traffic simultaneously. In season, from roughly January through March, it gets meaningfully worse.
+
+Residents adapt the same way everywhere: learn the parallel routes, avoid the interchange stretch at rush hour, and treat any Glades Road estimate as optimistic between January and March. If you're house-hunting, drive your actual commute at your actual hour before you commit — a two-mile difference in where you buy can change your daily life considerably.
+
+## The daily rhythm
+
+Mornings skew toward the beach parks and the golf courses. Midday is Town Center, Mizner Park, and the office corridor. Evenings are downtown, Royal Palm Place, or your community's club — and which of those it is depends almost entirely on whether you bought east or west.
+
+That's the thing outsiders miss about Boca: a large share of social life happens inside gated communities and their clubs. Your neighborhood doesn't just determine your commute, it substantially determines your social circle.
+
+## The seasonal calendar
+
+**Season runs roughly November through April.** The population swells, restaurants fill, Glades Road slows, and the city is at its busiest and its prettiest.
+
+**Summer, May through October**, is the quiet half of the year. Unlike the seasonal beach villages, Boca doesn't hollow out — the university, the corporate base, and the year-round residential population keep it running.
+
+**FAU's calendar** matters more than people expect. Move-in, home games, and graduation all produce noticeable local traffic if you live near the campus corridor.
 
 ## The unwritten rules
 
-**Glades Road traffic** is the local headache — plan around it. Much of social life runs through gated communities and their clubs, so your neighborhood shapes your circle. And in season, restaurants and roads fill up with snowbirds.
+- **Decide east or west before you start touring.** These are different markets with different prices, different lifestyles, and different buyers. Trying to shop both wastes months.
+- **Ask about the club before you fall for the house.** In many communities membership isn't optional, and initiation plus dues plus minimums is a real number.
+- **Plan around Glades.** Locals do it automatically.
+- **In season, book restaurants.** Places that never need a reservation in August need one in February.
+- **Hurricane prep is routine**, June through November. Know your zone and your flood status.
+
+## The seasonal calendar in practice
+
+**Season, roughly November through April**, brings fuller restaurants, slower roads, and the year's best weather. Reservations start mattering at places that never need them in August.
+
+**FAU's calendar** matters more than newcomers expect — move-in, home games, and graduation each produce noticeable traffic near the campus corridor.
+
+**Summer, May through October**, is hot and humid with afternoon storms that build and clear within half an hour. Locals shift outdoor time to mornings and evenings and stop noticing within a year.
+
+**Hurricane season runs June through November.** Know your evacuation zone and your flood status before the first storm forms, not during.
+
+## Getting around and out
+
+I-95 and Florida's Turnpike both run through, and the city sits roughly midway between two international airports
+
+## Getting around and out
+
+I-95 and Florida's Turnpike both run through, and the city sits roughly midway between two international airports — **Palm Beach International** to the north and **Fort Lauderdale-Hollywood** to the south, each around 30 minutes depending on traffic. That two-airport access is a genuine and underrated convenience.
+
+Fort Lauderdale is about 30 minutes south, Delray about 15 minutes north, and Miami roughly an hour depending on the day. There's a Tri-Rail station serving the area for commuter rail into the southern counties.
+
+## A note on the two counties
+
+Boca sits close enough to the Broward County line that a meaningful share of buyers end up comparing across it — Parkland, Coral Springs, Deerfield Beach, and Pompano all sit within a short drive.
+
+That comparison is worth making, but do it carefully. Broward is a separate county with its own school district, property appraiser, and millage rates, so nothing about taxes or school assignment carries over. Verify each independently rather than assuming Palm Beach County figures apply.
 
 ## Settling in
 
-Decide east or west first — coastal and walkable, or gated golf value — and the rest of Boca falls into place. Lean into the parks, the beaches, and the club life.`,
+Pick your side of the highway. Then pick club or no club, because those two decisions shape your budget and your social life more than the specific street.
+
+After that, use what the city is genuinely good at: the beach parks in the morning, Gumbo Limbo when you want the nature side, and Mizner Park when you want the polished evening. Boca rewards residents who participate in it rather than just live in it.`,
     faqs: [
-      { q: "What do locals do in Boca Raton?", a: "Enjoy the beach parks, shop and dine at Mizner Park and Town Center, take families to Sugar Sand Park and Gumbo Limbo, golf at the country clubs, and attend events at the Mizner Park amphitheater and FAU." },
-      { q: "What is the difference between east and west Boca Raton?", a: "East Boca is coastal, with the beaches, downtown, and Mizner Park; west Boca is gated golf and active-adult communities with more attainable prices, centered around Glades Road and the Town Center mall." },
-      { q: "Is Boca Raton walkable?", a: "Pockets like Mizner Park and downtown are walkable, but Boca is largely a car-first, spread-out city." },
-      { q: "What is Mizner Park?", a: "An upscale open-air district in downtown Boca with shops, restaurants, the Boca Raton Museum of Art, and an amphitheater — the polished social heart of the city." },
+      { q: "How is Boca Raton laid out?", a: "Four reference points: east Boca holds the coast, beach parks, downtown, and Mizner Park; central Boca is anchored by Florida Atlantic University; west Boca past I-95 and the Turnpike is gated golf and active-adult communities plus the Town Center retail hub; and Glades Road is the artery connecting everything." },
+      { q: "How bad is traffic on Glades Road in Boca Raton?", a: "It's the city's main traffic complaint. The corridor concentrates the mall, the university, major office space, and the I-95 and Turnpike interchanges, so it absorbs commuter, shopping, and campus traffic at once — and it worsens noticeably from roughly January through March." },
+      { q: "Should I live in east or west Boca Raton?", a: "Decide this before touring, because they're different markets. East is coastal, older, denser, more walkable, and pricier. West is gated golf and country-club communities plus a large concentration of 55+ options, at more attainable prices with a longer drive to the beach." },
+      { q: "How far is Boca Raton from the airport?", a: "Boca sits roughly midway between two international airports — Palm Beach International to the north and Fort Lauderdale-Hollywood to the south, each around 30 minutes depending on traffic. I-95 and Florida's Turnpike both run through the city." },
+      { q: "Does social life in Boca Raton revolve around clubs?", a: "To a significant degree, yes, particularly west of I-95 where a large share of housing sits inside gated golf and country-club communities. Your neighborhood substantially determines your social circle there, which is worth factoring into where you buy." },
+      { q: "What is season like in Boca Raton?", a: "Roughly November through April brings more residents, fuller restaurants, and slower Glades Road traffic, along with the best weather. Unlike the seasonal beach villages, Boca doesn't empty out in summer — the university, corporate base, and year-round population keep it active." },
     ],
     internalLinks: ["what-its-really-like-living-in-boca-raton-florida", "best-neighborhoods-in-boca-raton-florida", "hidden-gems-in-boca-raton-florida"],
     funFact: "The Town Center mall in Boca Raton is consistently one of the top-performing malls in the US by sales per square foot — it pulls shoppers from as far south as Miami and as far north as Jupiter. For a mall to function as a genuine regional destination in 2024 takes a very specific tenant mix, and Boca Town Center has figured it out.",
@@ -3088,26 +3239,100 @@ Decide east or west first — coastal and walkable, or gated golf value — and 
     primaryKeyword: "best neighborhoods in Boca Raton Florida",
     secondaryKeywords: ["where to live in Boca Raton", "Royal Palm Yacht and Country Club", "Old Floresta", "west Boca communities"],
     h1: "Best Neighborhoods in Boca Raton, Florida",
-    body: `Boca's neighborhoods range from ultra-luxury waterfront to attainable active-adult. By lifestyle:
+    body: `Boca Raton spans a wider range than almost any city in Palm Beach County — from oceanfront estates with deep-water dockage to attainable age-restricted communities out west. There's no single "best" neighborhood, only the one that matches what you're actually shopping for.
 
-**Ultra-luxury & boating → Royal Palm Yacht & Country Club.** Boca's highest-priced address — waterfront estates, deep-water dockage, and a championship golf club.
+Here they are organized by objective characteristics: property type, price tier, water and golf access, lot size, and association structure.
 
-**Waterfront luxury → The Sanctuary.** A guard-gated community of grand homes on wide canals with ocean access.
+## Royal Palm Yacht & Country Club — the top of the market
 
-**Historic charm → Old Floresta.** One of Boca's original Mizner-designed neighborhoods — character homes, lush canopy, and walkable to downtown.
+Boca's highest-priced address. Waterfront estates on deep-water canals with direct Intracoastal access, plus a championship golf club.
 
-**Coastal & convenient → East Boca near the beach.** Homes and condos close to the sand, Mizner Park, and downtown.
+**Objective characteristics:** highest price tier in the city, deep-water dockage with ocean access, guard-gated, golf and yacht club structure, large lots, strict architectural review, very limited inventory.
 
-**Golf & country club → Boca West, Broken Sound, St. Andrews.** Large gated communities with golf, amenities, and a strong social scene.
+**Trade-offs:** membership structure and obligations are substantial and separate from HOA. Verify dockage specifics for the individual property — slip length, bridge clearance, and canal depth all vary and all matter for larger vessels.
 
-**Space & value → west Boca and active-adult communities.** Larger lots and more attainable prices, with Palm Beach County school access and 55+ options.
+## The Sanctuary — waterfront without the golf
 
-**How to choose:** premium waterfront, historic charm, coastal convenience, country-club living, or larger-lot value out west? Boca has a tier for each.`,
+A guard-gated community of large homes on wide canals with ocean access, focused on privacy and waterfront rather than a club campus.
+
+**Objective characteristics:** high price tier, wide canal frontage with ocean access, guard-gated with patrol, large lots, no golf course, lower amenity overhead than the club communities.
+
+**Trade-offs:** you're buying privacy and water rather than facilities. If club social life is what you want, this isn't the structure for it.
+
+## Old Floresta — the historic pocket
+
+One of Boca's original Mizner-era neighborhoods: character homes on lush, canopied streets, walkable to downtown, and utterly unlike the rest of the city.
+
+**Objective characteristics:** 1920s-era architecture, mature tree canopy, modest lot sizes, historic character with associated protections in parts, walkable to downtown and Mizner Park, small and tightly held.
+
+**Trade-offs:** older systems throughout — roof, plumbing, electrical, and windows all matter for insurance and financing. Inventory is very limited; buyers often wait. Confirm what exterior changes are permitted before planning a renovation.
+
+## East Boca near the beach — coastal and convenient
+
+Homes and condos close to the sand, the beach parks, downtown, and Mizner Park. The walkable-ish part of the city and the most expensive per square foot outside the waterfront enclaves.
+
+**Objective characteristics:** mixed single-family and condo, older construction predominating, small lots, highest wind and flood exposure in the city, genuine proximity to beach parks and downtown.
+
+**Trade-offs:** insurance is at its most expensive here, and older construction compounds it. For condos, read the reserve study and two years of minutes — Florida's tightened structural reserve requirements have driven dues increases and assessments in some older coastal buildings.
+
+## Boca West, Broken Sound and St. Andrews — country club living
+
+The large gated golf-and-country-club communities that define west Boca, with extensive amenities, multiple courses in some cases, and a dense social calendar.
+
+**Objective characteristics:** gated with guard, golf, racquet and fitness facilities, clubhouse dining, wide range of property types from condos to estate homes, substantial HOA dues, and **mandatory club membership in several** with a one-time initiation fee plus ongoing dues and food and beverage minimums.
+
+**Trade-offs:** the monthly carrying cost extends well past the mortgage, and clubs periodically levy capital assessments for renovations. This is the single most common budget surprise in Boca. Get the full written obligation before going under contract.
+
+## West Boca and the age-restricted communities
+
+West of the Turnpike, the city offers its most attainable pricing — larger lots, newer construction, and a substantial concentration of **55+ age-restricted communities**, which are lawful under federal housing rules and are a large and well-established part of this market.
+
+**Objective characteristics:** newest construction in the city, generally better insurance profiles due to modern building codes, larger lots and more square footage per dollar, HOA communities predominating, some with amenity centers, no walkability.
+
+**Trade-offs:** you're driving for everything, and it's a real distance to the beach. Age-restricted communities have occupancy rules — confirm the specific requirements, since they vary and they affect who can live with you.
+
+## How to actually compare them
+
+In Boca more than most cities, the community's financial structure matters as much as the house. For anything you're seriously considering:
+
+- **HOA dues** and exactly what they include
+- **Whether club membership is mandatory**, the initiation figure, ongoing dues, and any food and beverage minimum
+- **Recent and pending capital assessments**
+- **FEMA flood zone** for the specific address, and what your lender requires
+- **Roof age, construction year, and wind mitigation features** — these swing insurance by thousands
+- **Property taxes recalculated for a new owner**, not the seller's capped bill
+- **For condos:** reserve study, funding level, and any pending special assessment
+- **For waterfront:** slip length, bridge clearance, canal depth, and seawall condition
+- **For age-restricted:** the specific occupancy rules
+
+## A note on inventory
+
+Worth setting expectations on. The genuinely distinctive neighborhoods here — Old Floresta, the waterfront enclaves, the best streets in east Boca — are small and tightly held. Turnover is low, and buyers with specific requirements frequently wait months rather than choosing among options.
+
+The large club communities and west Boca are the opposite: deep inventory, regular turnover, and real choice. That difference in pace should shape how you run your search, and how ready you need to be to move when the right property appears.
+
+## On schools
+
+School selection is a common reason buyers choose Boca
+
+## On schools
+
+School selection is a common reason buyers choose Boca, and the city has an unusually wide range of public, magnet, and private options.
+
+Assignments and school grades are reviewed and updated annually, and they vary across a city this large. **Verify current assignments directly with the School District of Palm Beach County** for the specific address rather than relying on reputation or a listing.
+
+## Before you commit
+
+Drive your actual commute at the actual hour — Glades Road makes this more consequential in Boca than in smaller towns. Spend a weekday and a weekend evening in the community. And if it's a club community, ask to see the full fee schedule in writing rather than a summary.
+
+Communities differ on objective characteristics: price tier, property type, lot size, water and golf access, association and club structure, construction age, and location. The right one depends on your budget, your goals, and how you want to spend a Saturday. Visit in person and independently verify anything material to your decision.`,
     faqs: [
-      { q: "What is the most prestigious neighborhood in Boca Raton?", a: "Royal Palm Yacht & Country Club carries Boca's highest price per square foot, with waterfront estates and deep-water dockage, followed by waterfront communities like The Sanctuary." },
-      { q: "What are the main residential areas in Boca Raton?", a: "West Boca is dominated by gated and age-restricted communities, while east-side neighborhoods offer older single-family homes, Intracoastal access, and proximity to the beach and downtown." },
-      { q: "What are the best golf communities in Boca Raton?", a: "Boca West, Broken Sound, and St. Andrews are among the largest and best-known gated golf and country-club communities." },
-      { q: "Where is the more affordable part of Boca Raton?", a: "West Boca generally offers more attainable prices and more home for the money, including many active-adult communities." },
+      { q: "What are the best neighborhoods in Boca Raton?", a: "It depends what you're shopping for. Royal Palm Yacht & Country Club is the top of the market with deep-water dockage and golf; The Sanctuary offers waterfront without a golf club; Old Floresta is the historic Mizner-era pocket walkable to downtown; east Boca near the beach is coastal and convenient; Boca West, Broken Sound and St. Andrews are the large country-club communities; and west Boca offers the most attainable pricing plus a large concentration of 55+ communities." },
+      { q: "Which Boca Raton communities require club membership?", a: "Several of the large gated golf-and-country-club communities have mandatory membership, typically involving a one-time initiation fee plus ongoing dues and food and beverage minimums, separate from HOA dues. Clubs may also levy capital assessments for renovations. Confirm the full written obligation before going under contract." },
+      { q: "Where can you keep a boat in Boca Raton?", a: "Royal Palm Yacht & Country Club offers deep-water canals with direct Intracoastal access, and The Sanctuary has wide canal frontage with ocean access. Verify slip length, bridge clearance, canal depth, and seawall condition for the specific property, particularly for larger vessels." },
+      { q: "What is Old Floresta?", a: "One of Boca Raton's original Mizner-era neighborhoods — 1920s-era character homes on lush, canopied streets, walkable to downtown and Mizner Park. It's small and tightly held, with older systems throughout, so confirm roof, plumbing, and electrical condition and what exterior changes are permitted." },
+      { q: "Are there 55+ communities in Boca Raton?", a: "Yes, west Boca has a substantial and well-established concentration of age-restricted 55+ communities, generally at the city's most attainable pricing with newer construction. Occupancy rules vary between communities, so confirm the specific requirements for any you're considering." },
+      { q: "How do I check school zoning in Boca Raton?", a: "Verify current assignments directly with the School District of Palm Beach County for the specific address. The city has a wide range of public, magnet, and private options, but assignments and school grades are reviewed annually and vary across a city this large." },
     ],
     internalLinks: ["what-its-really-like-living-in-boca-raton-florida", "cost-of-living-in-boca-raton-florida", "who-should-move-to-boca-raton-florida"],
     funFact: "The Royal Palm Yacht and Country Club in Boca Raton has a waitlist for membership that can run years — and the homes inside start well above $3 million. It's one of the most genuinely exclusive zip codes in South Florida, and the Intracoastal frontage inside the gates is what drives the value.",
@@ -3127,26 +3352,117 @@ Decide east or west first — coastal and walkable, or gated golf value — and 
     primaryKeyword: "things to do in Boca Raton Florida",
     secondaryKeywords: ["Boca Raton attractions", "what to do in Boca Raton", "Gumbo Limbo Nature Center", "Mizner Park"],
     h1: "Best Things to Do in Boca Raton, Florida",
-    body: `Boca pairs upscale culture and shopping with genuinely great beaches and nature.
+    heroImage: "/public/Boca Raton/boca-oceanfront.jpg",
+    body: `Boca pairs upscale culture and shopping with beaches and nature that are genuinely better than the city's reputation suggests. For a place known mainly for golf and retail, there's a surprising amount of coastline and conservation land.
 
-**Mizner Park.** Shop, dine, see a show at the amphitheater, and visit the **Boca Raton Museum of Art** — all in one walkable, elegant district.
+Here's what's actually worth your time.
 
-**Hit the beach parks.** **Red Reef Park** (snorkeling), **Spanish River Park** (shady, with a canopy walkway), and **South Beach Park** are among the prettiest in the county.
+## Mizner Park
 
-**Gumbo Limbo Nature Center.** A beloved sea-turtle rehabilitation and coastal-nature center right by the beach — free and great for all ages.
+The polished heart of the city, and the thing most visitors see first.
 
-**Sugar Sand Park.** A standout family park with a science playground, carousel, and theater.
+An open-air district of shops, restaurants, and cafés built around a central green, with the **Boca Raton Museum of Art** at one end and an **amphitheater** that hosts concerts and events. It's designed to be walked, which in Boca is genuinely notable.
 
-**Explore nature west.** Daggerwing Nature Center offers a wetlands boardwalk on the western edge of town.
+The museum is worth treating as a destination rather than a stop — it carries a substantial permanent collection and rotating exhibitions, and it anchors the city's arts scene.
 
-**Catch a game or show.** FAU brings college sports and events, and Mizner Park's amphitheater hosts concerts.
+## The beach parks
 
-In summer, hit the beach and parks early, and let Mizner Park and the museum carry the hot afternoons.`,
+Boca's coastal parks are among the best-maintained in the county, and each has a distinct character worth knowing.
+
+**Red Reef Park** has a man-made reef close to shore, making it one of the easier and better snorkeling spots in the area — genuinely accessible from the sand rather than requiring a boat.
+
+**Spanish River Park** is the largest and shadiest, with a tree canopy, an observation tower, and tunnels running under A1A that connect the inland picnic areas to a quieter stretch of beach. It's the pick for a full day rather than a quick swim.
+
+**South Beach Park** is the more straightforward beach stop — sand, surf, and facilities.
+
+All three charge for parking, and all three are worth it.
+
+## Gumbo Limbo Nature Center
+
+A sea-turtle rehabilitation and coastal-nature center sitting right by the beach, with outdoor tanks, a coastal hammock boardwalk, and an observation tower.
+
+It's free to enter, it's excellent with children, and residents treat it as a civic asset rather than an attraction. It's also the best short explanation available of what this coastline actually is ecologically, which makes it a good early stop for anyone new to the area.
+
+## Sugar Sand Park
+
+Consistently underrated even by locals. A large community park with a **science playground**, a restored carousel, a children's theater, and extensive open space.
+
+For residents with young children this is a genuine weekly destination rather than an occasional outing, and it's better funded and maintained than most municipal parks anywhere.
+
+## Daggerwing Nature Center
+
+Out past the Turnpike, a wetlands boardwalk through cypress and marsh habitat with a small nature center attached.
+
+It's the counterweight to the coastal parks — a completely different ecosystem, rarely busy, and a reminder that Boca's western edge backs onto genuine Everglades-system wetland.
+
+## Florida Atlantic University
+
+More useful to residents than outsiders realize. **FAU** brings college athletics, performing arts, lecture programming, and community events to the center of the city, and much of it is open to the public at modest cost.
+
+For a city sometimes characterized as culturally thin outside of shopping, the university is a real and underused resource.
+
+## The Boca Raton Resort and the waterfront
+
+The historic resort complex and the surrounding waterfront are worth seeing even if you're not a guest. The architecture is the clearest surviving statement of what the city's 1920s founders were building toward, and it explains the aesthetic rules that still govern how Boca looks.
+
+The Intracoastal runs through the eastern half of the city, and boat rentals, charters, and paddling are all accessible. **Lake Boca** in particular is a well-known gathering spot on the water for boaters on a warm weekend.
+
+## Tennis and pickleball
+
+Boca takes racquet sports seriously, with public facilities alongside the extensive private club programs. Pickleball has grown substantially here as everywhere, and the public courts are a genuine route into meeting people for anyone not buying into a club.
+
+## Golf
+
+Boca is a serious golf town
+
+## Golf
+
+Boca is a serious golf town, though much of it sits behind club gates in the western communities. Public and semi-private options exist, and the concentration of courses within a short drive is high even by South Florida standards.
+
+## Day trips within an hour
+
+Boca's position between two metros makes this unusually easy:
+
+- **Delray Beach** (about 15 minutes north) — Atlantic Avenue's walkable downtown and a livelier evening scene.
+- **Fort Lauderdale** (about 30 minutes south) — a bigger beach city, Las Olas, and a real downtown.
+- **Loxahatchee National Wildlife Refuge** (about 40 minutes northwest) — Everglades-system marsh with boardwalks and airboat access.
+- **Miami** (roughly an hour, traffic dependent) — everything.
+- **Palm Beach and West Palm Beach** (about 30 minutes north) — Worth Avenue, the Norton Museum, and the Flagler Museum.
+
+## Where to take visitors
+
+A practical shortlist, since Boca residents host a lot of out-of-town guests.
+
+**First-timers:** Mizner Park for the setting, the art museum if they'll sit still for it, and Red Reef or Spanish River for a beach afternoon.
+
+**With children:** Sugar Sand Park, then Gumbo Limbo. That combination reliably fills a day and costs almost nothing.
+
+**Wanting a night out:** dinner at Mizner Park or Royal Palm Place, or drive fifteen minutes to Delray for Atlantic Avenue if they want more energy.
+
+**Wanting nature:** Daggerwing in the morning before it heats up, or the boardwalk and tower at Spanish River.
+
+## Seasonal timing
+
+**November through April** is peak: ideal weather
+
+## Seasonal timing
+
+**November through April** is peak: ideal weather, full event calendars at Mizner Park and FAU, and the busiest roads and restaurants of the year.
+
+**May through October** is the hot half. Do the beach parks and Daggerwing early, and let Mizner Park, the art museum, and Sugar Sand's indoor facilities carry the afternoons.
+
+## The honest local advice
+
+Do Gumbo Limbo early — it explains the coast better than anything else and it's free. Snorkel Red Reef at least once. Treat the art museum as a real museum rather than a mall amenity.
+
+And if you've just moved here with children, get a Sugar Sand routine going in the first month. It's the single best piece of local knowledge in the city for that.`,
     faqs: [
-      { q: "What is there to do in Boca Raton?", a: "Shop and dine at Mizner Park, visit the Boca Raton Museum of Art, enjoy the Red Reef, Spanish River, and South Beach parks, explore Gumbo Limbo Nature Center and Sugar Sand Park, and catch events at the amphitheater or FAU." },
-      { q: "Is Gumbo Limbo Nature Center worth visiting?", a: "Yes — it's a well-regarded sea-turtle rehabilitation and coastal nature center near the beach, with hands-on exhibits and free admission (donations welcome)." },
-      { q: "What is the best beach in Boca Raton?", a: "Red Reef Park (great for snorkeling) and Spanish River Park (shady, with a canopy walkway) are local favorites among Boca's excellent beach parks." },
-      { q: "Is Boca Raton good for families with kids?", a: "Sugar Sand Park with its science center and playgrounds, Gumbo Limbo Nature Center, the beach parks, and a wide selection of public, magnet, and private schools are the main draws. Verify school assignments with the district." },
+      { q: "What are the best things to do in Boca Raton?", a: "Visit Mizner Park and the Boca Raton Museum of Art, snorkel the near-shore reef at Red Reef Park, spend a day at Spanish River Park with its canopy and beach tunnels, visit the free Gumbo Limbo Nature Center, take children to Sugar Sand Park, walk the wetlands boardwalk at Daggerwing Nature Center, and use Florida Atlantic University's sports and arts programming." },
+      { q: "Where can you snorkel in Boca Raton?", a: "Red Reef Park has a man-made reef close enough to shore to swim to, making it one of the more accessible snorkeling spots in the area without needing a boat." },
+      { q: "Is Gumbo Limbo Nature Center free?", a: "Yes, it's free to enter. It's a sea-turtle rehabilitation and coastal-nature center by the beach with outdoor tanks, a coastal hammock boardwalk, and an observation tower, and it's one of the best short introductions to the local coastal ecology." },
+      { q: "What is the best beach park in Boca Raton?", a: "It depends what you want. Red Reef is best for snorkeling thanks to its near-shore reef, Spanish River is the largest and shadiest with a canopy, observation tower, and tunnels under A1A to a quieter beach, and South Beach Park is the more straightforward sand-and-surf option." },
+      { q: "What is there to do in Boca Raton with kids?", a: "Sugar Sand Park is the standout, with a science playground, carousel, and children's theater. Gumbo Limbo Nature Center is free and excellent with children, and the beach parks — particularly Spanish River — work well for a full day." },
+      { q: "What is there to do near Boca Raton?", a: "Delray Beach is about 15 minutes north for a walkable downtown, Fort Lauderdale about 30 minutes south, West Palm Beach about 30 minutes north for the Norton Museum, Loxahatchee National Wildlife Refuge about 40 minutes northwest, and Miami roughly an hour depending on traffic." },
     ],
     internalLinks: ["hidden-gems-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "best-places-to-eat-drink-hang-out-in-boca-raton-florida"],
     funFact: "The Boca Raton Museum of Art hosts the annual Art Boca Raton fair, which draws gallery participation from New York, London, and Miami alongside local collectors. For a mid-size city, Boca has built a legitimate art market infrastructure — the museum, the collectors, and the event circuit reinforce each other.",
@@ -3166,28 +3482,116 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
     primaryKeyword: "who should move to Boca Raton Florida",
     secondaryKeywords: ["is Boca Raton right for me", "should I move to Boca Raton", "who lives in Boca Raton"],
     h1: "Who Should Move to Boca Raton, Florida (And Who Shouldn't)",
-    body: `Boca is polished and upscale — perfect for some, too buttoned-up for others. The honest take:
+    body: `Boca Raton is polished and upscale, and that suits some people perfectly while leaving others feeling like they've moved into a very nice office park. The city is consistent enough that you can usually tell which one you are fairly quickly.
 
-**You'll love Boca Raton if you:**
-- **Want school selection and parks** — a wide range of public, magnet, and private schools plus Sugar Sand Park and the beach parks.
-- **Are a professional or executive** — strong corporate base and FAU.
-- **Want upscale, refined living** — Mizner Park, fine dining, and elegant architecture.
-- **Golf or want country-club life** — west Boca's communities are excellent.
-- **Are 55+ and want value** — active-adult communities out west are popular and attainable.
-- **Value beautiful beaches and nature** close by.
+Here's the honest sorting.
 
-**You might look elsewhere if you:**
-- **Want a funky, bohemian, walkable scene** — Delray fits better.
-- **Are on a tight budget near the coast** — east Boca is pricey (west helps).
-- **Dislike gated communities and HOA/club fees** — much of Boca runs through them.
-- **Want a small-town feel** — Boca is a larger, spread-out, corporate city.
+## You'll love Boca Raton if…
 
-**Gut-check:** if "school selection, Mizner Park, country-club weekends, beach nearby" sounds ideal, Boca is a bullseye. If you want artsy and walkable, look just north to Delray.`,
+### You want school selection
+
+This is one of the strongest single arguments for the city. Boca offers an unusually wide range — public, magnet, charter, and a substantial private school corridor — within a relatively compact area.
+
+For buyers relocating from somewhere with one realistic option, having genuine choice is a meaningful difference. Verify current assignments with the School District of Palm Beach County for any specific address, since boundaries and grades are reviewed annually.
+
+### You want club life
+
+A large share of Boca's social infrastructure sits inside the gates: golf, racquet sports, dining, fitness, and a dense social calendar, all without leaving the community.
+
+For people relocating in their fifties and sixties, that's genuinely valuable. Moving to a new state is much easier when there's a built-in structure for meeting people, and Boca's clubs supply it better than almost anywhere.
+
+### You're a professional or executive
+
+The city carries a real corporate employment base plus **Florida Atlantic University**, and it sits between two international airports roughly thirty minutes in either direction. For anyone who travels for work, that two-airport access is a practical luxury.
+
+### You want polish and consistency
+
+Boca enforces its aesthetic. Architecture is coherent, public spaces are maintained, and the city looks after itself. If you find that reassuring rather than sterile, you'll like living here.
+
+### You want beaches and nature without living on the sand
+
+The beach parks are excellent and the conservation land on the western edge is real. You get both without paying barrier-island prices or carrying oceanfront insurance.
+
+### You want an age-restricted community
+
+West Boca has a large, well-established concentration of 55+ communities at the city's most attainable pricing, with newer construction and amenity centers. It's one of the deepest such markets in the region.
+
+### You're relocating from a high-tax state
+
+Florida has no state income tax, and it recurs annually rather than being a one-time benefit.
+
+## You might want to look elsewhere if…
+
+### You want funky, walkable, and social
+
+Delray Beach is fifteen minutes north and does exactly this — Atlantic Avenue, an arts scene, and a genuinely walkable downtown with real energy. A lot of people who think they want Boca actually want Delray.
+
+### You're on a tight budget near the coast
+
+East Boca is expensive, and the insurance on older coastal stock compounds it. West Boca helps substantially, but then you're accepting a real drive to the beach.
+
+### You dislike gated communities and association fees
+
+Much of the city runs through them, particularly west of I-95. There are non-HOA options, but you'll be shopping a narrower slice.
+
+### You want a small-town feel
+
+Boca is a large, spread-out city with real traffic. Highland Beach, Ocean Ridge, and the smaller coastal towns nearby offer the opposite.
+
+### You want architectural variety
+
+The Mediterranean Revival consistency that defines Boca is enforced. If you want a street where every house is different, West Palm Beach's historic districts will suit you better.
+
+## A few specific situations
+
+## How long the adjustment takes
+
+Most people we work with describe the same arc. The first few months are easy — the weather, the beaches, and the sheer convenience of the place do the work.
+
+Around month six the practicalities land: the first insurance renewal, the first full season of Glades Road traffic, and, if you bought into a club, the first real assessment of whether you're using it enough to justify the obligation.
+
+By the end of a full year, including a summer, you know. The residents who stay tend to be the ones who actively used what the city offers rather than just living near it.
+
+**Families relocating.** Among the strongest fits in the county, driven by school selection and parks. Sugar Sand Park alone is a genuine quality-of-life factor.
+
+**Retirees and near-retirees.** Very strong. Club social structure, single-level and lock-and-leave options, excellent healthcare, and a deep 55+ market. Scrutinize club obligations and condo reserve funding closely — those are the two things that most often surprise people.
+
+**Executives and frequent travelers.** The two-airport position and corporate base make this unusually practical.
+
+## What people miss from where they came from
+
+Consistently three things.
+
+**Walkability.** Outside Mizner Park and a few east Boca pockets, this is a driving city, and transplants from older Northeast towns feel it.
+
+**Character and variety.** The enforced architectural consistency that makes Boca look coherent also makes it feel uniform to people who came from somewhere layered.
+
+**A casual, cheap, scruffy local spot.** Boca's polish means the low end of the dining and social market is thin, and it's the gap residents mention most often.
+
+None are dealbreakers, and all three are fifteen to thirty minutes away in Delray or West Palm Beach. Knowing them in advance takes the sting out.
+
+**Golfers.** Excellent, though most of the good golf sits behind club gates, which means the club obligation is part of the cost of playing.
+
+**Boaters.** Royal Palm Yacht & Country Club and The Sanctuary offer deep-water and canal access with ocean reach. Verify slip length, bridge clearance, and canal depth for the specific property.
+
+**Second-home and seasonal buyers.** Common here. Non-homestead property carries a different tax profile without the same caps — talk to a CPA before structuring the purchase.
+
+## A simple gut-check
+
+Picture an ordinary Saturday a year from now.
+
+Beach park in the morning, lunch at Mizner Park, a round in the afternoon, dinner at the club, home early? That's Boca, and if it sounds appealing you'll be happy here for a long time.
+
+Coffee somewhere scruffy, a gallery, live music, walking home at eleven with no plan? That's Delray or West Palm Beach, and Boca will feel buttoned-up by comparison.
+
+Neither is better. But the cost of getting it wrong is high enough to be honest with yourself before you buy — and the alternative is fifteen minutes up the road.`,
     faqs: [
-      { q: "What is Boca Raton known for?", a: "Mediterranean Revival architecture from the Addison Mizner era, Mizner Park, a dense concentration of private clubs and private schools, Florida Atlantic University, and manicured, master-planned development." },
-      { q: "Is Boca Raton good for retirees?", a: "Yes — west Boca's gated golf and active-adult (55+) communities are popular, attainable, and amenity-rich." },
-      { q: "Who lives in Boca Raton?", a: "Boca Raton housing includes country-club and golf communities, gated single-family neighborhoods, oceanfront and Intracoastal condominiums, and age-restricted communities west of the city. Boca has one of the largest concentrations of private clubs and private schools in Palm Beach County, with price points running from entry-level condos to oceanfront estates." },
-      { q: "Is Boca Raton or Delray Beach better?", a: "Boca is more upscale, corporate, and family-oriented; Delray is funkier, more walkable, and more social. It comes down to refined calm versus lively energy." },
+      { q: "Who should move to Boca Raton?", a: "Families wanting school selection, buyers who want gated club life and its built-in social structure, professionals and executives who value the corporate base and two-airport access, people who want polish and architectural consistency, and buyers looking for an age-restricted 55+ community. It's also a common choice for those leaving high-tax states." },
+      { q: "Who should not move to Boca Raton?", a: "People who want a funky, walkable, social downtown — Delray Beach does that better fifteen minutes north. Also those on a tight budget near the coast, anyone who dislikes gated communities and association fees, buyers wanting a small-town feel, and those who want architectural variety rather than enforced consistency." },
+      { q: "Is Boca Raton good for families?", a: "It's among the strongest fits in the county, largely because of school selection — public, magnet, charter, and a substantial private school corridor within a compact area — plus parks like Sugar Sand. Verify current school assignments with the School District of Palm Beach County for the specific address." },
+      { q: "Is Boca Raton good for retirees?", a: "Very strong. Club social structure makes relocating easier, there are single-level and lock-and-leave options, healthcare is excellent, and west Boca has one of the region's deepest 55+ markets. Examine club obligations and condo reserve funding carefully before committing." },
+      { q: "Should I choose Boca Raton or Delray Beach?", a: "Boca is polished, planned, club-oriented, and school-driven. Delray is funkier, more walkable, and more social, centered on Atlantic Avenue's downtown and arts scene. A lot of buyers who start out assuming they want Boca discover they actually want Delray." },
+      { q: "Is Boca Raton good for golfers?", a: "Yes, with a high concentration of courses, though much of the best golf sits inside gated club communities. That means the club obligation — initiation, dues, and minimums — is effectively part of the cost of playing regularly." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-boca-raton-florida", "cost-of-living-in-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
     funFact: "Florida Atlantic University's research park in Boca Raton has become a genuine biotech and technology cluster — it's home to companies in digital health, cybersecurity, and aerospace. That employment base is part of why Boca sustains year-round housing demand rather than a purely seasonal market.",
@@ -3208,28 +3612,110 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
     secondaryKeywords: ["Boca Raton pros and cons", "living in Boca Raton downsides", "is Boca Raton worth it"],
     h1: "Pros and Cons of Living in Boca Raton, Florida",
     showMarketTrends: true,
-    body: `## The Pros
-- **Wide school selection** — public, magnet, and a large private school corridor.
-- **Planned and polished** — consistent architecture and well-kept public spaces.
-- **Upscale shopping and dining** — Mizner Park and Town Center.
-- **Beautiful beaches and nature** — Red Reef, Spanish River, Gumbo Limbo.
-- **Strong job base** — corporate offices and FAU.
-- **Range of options** — coastal luxury or attainable west-side and 55+ communities.
-- **No state income tax.**
+    body: `Boca Raton is one of the most consistently well-run cities in Florida, and it asks a specific price for that — in money and in character. Here's both sides in enough detail to decide.
 
-## The Cons
-- **Expensive**, especially east and coastal.
-- **Corporate and manicured** — less funky character than some nearby towns.
-- **HOA and club fees** can be substantial.
-- **Car-dependent**, with real traffic on Glades Road and in season.
-- **Florida climate** — warm summers and hurricane awareness are part of life here; proactive insurance planning makes it straightforward.
+## The pros
 
-**Bottom line:** for buyers who want school selection, private clubs, and refined convenience, the pros are strong. If you want funky and walkable, or a lower budget, weigh the cons.`,
+### School selection
+
+The strongest single argument. Public, magnet, charter, and a large private school corridor, all within a relatively compact area. For households used to having one realistic option, genuine choice is a substantial difference.
+
+Grades and boundaries are reviewed annually — verify current assignments with the district for any specific address.
+
+### Planning and upkeep
+
+Boca enforces its Mediterranean Revival aesthetic and maintains its public realm. Medians are planted, signage is restrained, streetscapes are kept. The city looks after itself in a way that's visible everywhere and increasingly unusual.
+
+For crime statistics, consult the Boca Raton Police Department and FDLE Uniform Crime Reports directly rather than any third-party summary.
+
+### Genuinely good beaches and nature
+
+Red Reef, Spanish River, and South Beach are among the best-maintained beach parks in the county, Gumbo Limbo is a real conservation facility, and the western edge of the city backs onto Everglades-system wetland. Better than the shopping-and-golf reputation implies.
+
+### Deep institutional infrastructure
+
+Florida Atlantic University, a substantial corporate employment base, strong healthcare, and a well-funded parks system. Boca carries more institutional weight than its population suggests, which gives it a weekday economy and a year-round population.
+
+### Genuinely good beaches and nature
+
+Worth restating as a positive rather than a footnote. Red Reef, Spanish River, and South Beach are among the best-maintained beach parks in the county, Gumbo Limbo is a working conservation facility rather than a visitor attraction, and the western edge of the city backs onto Everglades-system wetland.
+
+For a city whose reputation is shopping and golf, the coastal and conservation infrastructure is substantially better than outsiders expect, and most new residents underuse it for the first year.
+
+### Two airports
+
+Palm Beach International to the north and Fort Lauderdale-Hollywood to the south, each roughly thirty minutes. For frequent travelers this is a real and underrated advantage.
+
+### An unusually wide price range
+
+From oceanfront estates to attainable 55+ communities west of the Turnpike, inside one city. Few places locally offer that spread.
+
+### No state income tax
+
+The Florida upside, recurring annually.
+
+## The cons
+
+### The club obligation
+
+The most common budget surprise in Boca, and the thing to investigate first. Many desirable communities carry mandatory club membership — a one-time initiation fee plus ongoing dues, food and beverage minimums, and periodic capital assessments — all on top of HOA dues.
+
+A house that looks affordable relative to a neighboring community can carry an obligation that reverses the comparison entirely. Get the full written fee schedule before you fall for a property.
+
+### It's expensive, especially east
+
+Coastal and east Boca command a substantial premium, and older construction near the water compounds it through insurance.
+
+### Corporate and manicured
+
+By design. If you want eclectic, historic, or accidental character, Boca doesn't have it and isn't pursuing it. Delray is fifteen minutes north; West Palm Beach's historic districts are thirty.
+
+### Car-dependent, with Glades Road
+
+Outside Mizner Park and a few east Boca pockets, you drive everywhere. **Glades Road** concentrates the mall, the university, office space, and both highway interchanges, and it slows considerably in season.
+
+### Insurance
+
+A significant coastal cost that's risen sharply. Proximity to the water matters, but construction year and roof age matter more — much of west Boca's newer stock quotes meaningfully better than older eastern housing. Flood zones vary across the city and flood coverage is separate. Quote it during your inspection period.
+
+## What changes after year one
+
+The first year in Boca is straightforward — the weather does a lot of work, the beaches are new, and the infrastructure makes everything easy.
+
+Year two is when the real assessment happens. You've been through a season, a summer, and at least one insurance renewal. If you bought into a club, you know by then whether you're using it enough to justify the obligation, which is the most common second-year reckoning in this city.
+
+Residents who conclude they're using it stay for decades. Residents who conclude they aren't often move within the city rather than out of it — west, or to a non-club community — which is worth knowing before committing to the highest-obligation option available.
+
+### Warm summers
+
+June through September is hot and humid with afternoon storms, and hurricane season runs June through November.
+
+## Things that surprise new residents
+
+- **The east/west divide is bigger than expected.** These function as two different cities with different prices, lifestyles, and buyers.
+- **Social life happens behind gates.** If you don't buy into a club community, you'll need to work harder at meeting people — FAU's public programming and the parks system are the usual routes.
+- **Dining skews upscale.** The casual-and-cheap end of the market is thinner here than in neighboring cities, which shows up in a monthly budget.
+- **The beaches are better than advertised**, and most newcomers underuse them for the first year.
+- **Season is real but the city doesn't empty.** Unlike the beach villages, the university and corporate base keep Boca running through summer.
+
+## How to weigh it honestly
+
+The residents happiest here use the infrastructure — the schools, the clubs, the beaches, the university — and calculated the full carrying cost including club obligations before buying.
+
+The ones who struggle wanted character or walkability and chose Boca for the address and the schools. That trade tends to wear thin, and the alternative is a short drive north.
+
+## The bottom line
+
+For buyers who want school selection, club life, excellent public infrastructure, and a city that maintains itself, Boca's advantages are difficult to match anywhere in Florida.
+
+For anyone wanting funky, walkable, or genuinely affordable, the cons will dominate. Get the club number in writing and be honest about whether polished is what you actually want, and you'll make the right call either way.`,
     faqs: [
-      { q: "What are the pros of living in Boca Raton?", a: "A wide school selection, extensive shopping and dining, beaches and nature preserves, a large corporate job base, a broad range of housing options, and no state income tax." },
-      { q: "What are the downsides of living in Boca Raton?", a: "High costs, a corporate and manicured feel, HOA and club fees, car dependence and traffic, and Florida's warm climate and insurance planning are standard considerations worth addressing early." },
-      { q: "Is Boca Raton worth the cost?", a: "For buyers prioritizing school selection, private clubs, and refined convenience, many feel it is. Budget-focused or funkier-lifestyle buyers may prefer nearby towns." },
-      { q: "Is Boca Raton safe?", a: "Crime statistics vary by neighborhood. Buyers should review Boca Raton Police Services Department data and the FDLE Uniform Crime Reports for the specific area they are considering." },
+      { q: "What are the pros and cons of living in Boca Raton?", a: "Advantages: wide school selection, strong planning and upkeep, genuinely good beach parks and nature, deep institutional infrastructure including FAU and a corporate base, access to two international airports, a wide internal price range, and no state income tax. Trade-offs: substantial club and HOA obligations, high cost especially east of I-95, a corporate and manicured character, car dependence with Glades Road traffic, rising insurance, and hot summers." },
+      { q: "What is the biggest downside of living in Boca Raton?", a: "The club obligation. Many desirable communities carry mandatory membership with a one-time initiation fee plus ongoing dues, food and beverage minimums, and periodic capital assessments on top of HOA dues. It's the most common budget surprise in the city." },
+      { q: "Is Boca Raton too corporate?", a: "It's planned and consistent by design, with an enforced Mediterranean Revival aesthetic. Whether that reads as elegant or sterile is personal — buyers who want eclectic or historic character generally prefer Delray Beach fifteen minutes north or West Palm Beach's historic districts." },
+      { q: "How bad is traffic in Boca Raton?", a: "Glades Road is the main issue, concentrating the mall, Florida Atlantic University, office space, and both the I-95 and Turnpike interchanges. It slows considerably from roughly January through March, and residents plan routes and errands around it." },
+      { q: "Is insurance expensive in Boca Raton?", a: "It's a significant coastal cost that has risen sharply. Proximity to the water matters, but construction year and roof age matter more — much of west Boca's newer housing quotes meaningfully better than older eastern stock. Flood zones vary across the city and flood coverage is separate from a standard policy." },
+      { q: "What surprises people who move to Boca Raton?", a: "How large the east/west divide is, that much of the social life happens inside gated communities, that dining skews upscale with a thin casual end, that the beach parks are better than the city's reputation suggests, and that unlike the beach villages the city doesn't empty out in summer." },
     ],
     internalLinks: ["cost-of-living-in-boca-raton-florida", "who-should-move-to-boca-raton-florida", "boca-raton-vs-nearby-cities"],
     funFact: "Boca Raton's city government owns and maintains over 40 parks and 2,000 acres of green space — an unusually high ratio for a Florida city of its size. That's not an accident; it reflects decades of deliberate land preservation decisions that have kept the city from feeling as overdeveloped as many of its neighbors.",
@@ -3249,28 +3735,112 @@ In summer, hit the beach and parks early, and let Mizner Park and the museum car
     primaryKeyword: "cost of living in Boca Raton Florida",
     secondaryKeywords: ["Boca Raton home prices", "is Boca Raton expensive", "Boca Raton FL cost of living"],
     h1: "Cost of Living in Boca Raton, Florida",
+    heroImage: "/public/Boca Raton/boca-luxury-pool.jpg",
     showMarketTrends: true,
-    body: `Boca runs above the national average, with a wide spread between the coast and the west side.
-## Housing
-The biggest variable. Coastal and east Boca command a premium, while **west Boca** — gated golf and active-adult communities — offers far more attainable prices.
-## HOA and club fees
-Like Palm Beach Gardens, many of Boca's best communities are gated golf-and-country-club neighborhoods, so **dues can be substantial**. Always ask before you commit.
+    body: `Boca Raton runs above the national average, and the spread between the two halves of the city is wider than almost anywhere else in the region. That range is genuinely useful — it means "can I afford Boca?" has more than one answer.
 
-## Taxes
-**No state income tax** softens the picture. Property taxes apply, with a Homestead Exemption for primary residents.
+But the purchase price is the least interesting number here. In this city more than most, what determines affordability is the obligation attached to the specific community.
+
+## Housing — and the east/west gap
+
+Coastal and east Boca command a substantial premium: older housing, architectural character, walkability, and proximity to the beach parks and Mizner Park.
+
+**West Boca is a different market entirely.** Gated golf communities and the large concentration of age-restricted 55+ communities out there offer meaningfully more attainable pricing, often with newer construction and more square footage.
+
+For current figures, check the **live market trends further down this page**, which pulls from the local MLS.
+
+The practical point: buyers who conclude "Boca is out of reach" have usually only looked east. Buyers who conclude "west Boca is the value play" sometimes haven't counted the club.
+
+## Club and association fees — where Boca budgets break
+
+This deserves the most attention on the page.
+
+Many of Boca's most desirable communities are gated golf-and-country-club neighborhoods, and the obligations can be substantial — in some clubs considerably more than a mortgage payment on a modest house.
+
+Pin all of this down in writing for any specific community:
+
+- **HOA dues**, and precisely what they include. Two communities at similar dues can bundle wildly different things.
+- **Whether club membership is mandatory.** In several Boca communities it is not optional.
+- **The one-time initiation fee**, which in the top-tier clubs is a significant capital outlay in its own right.
+- **Ongoing club dues**, separate from HOA.
+- **Food and beverage minimums** — an annual spend requirement at club dining that buyers routinely forget to count.
+- **Capital assessments.** Clubs periodically fund clubhouse renovations, course rebuilds, and racquet facilities through assessments on members.
+- **Condo reserves.** Since Florida tightened structural reserve requirements for older buildings, some associations have raised dues or levied special assessments. Read the reserve study and two years of meeting minutes.
+
+**Get the full written breakdown before you fall in love with a house.** A west Boca home that looks like a bargain next to an east Boca listing can carry an obligation that closes the gap entirely — or reverses it.
+
+## The tax picture
+
+**Florida has no state income tax**, a recurring annual benefit that's a genuine part of why Boca draws relocating executives and retirees.
+
+On property taxes, the standard Florida trap: **the figure on a listing usually reflects the current owner's bill**, which may be protected by caps that don't transfer to you. Assessed value generally resets toward market value in the year after a sale. Budget against a reset assessment.
+
+If the home will be your **primary residence**, filing for Homestead Exemption reduces taxable value and triggers the **Save Our Homes** cap limiting annual increases. There's a filing deadline early in the year after purchase and missing it costs a full year. Non-homestead property — common in a city with this many seasonal residents — is capped less generously, and the cap doesn't apply to school district levies.
+
+Moving within Florida? **Portability** may carry a substantial share of an accumulated Save Our Homes benefit to a new homestead. Separate form, separate timing, routinely unclaimed.
+
+Millage is set by the county, the city, and the school board and changes. Verify with the Palm Beach County Property Appraiser and Tax Collector, and consult a CPA.
 
 ## Insurance
-A real coastal-Florida cost, higher near the water — budget and quote early.
+
+A significant coastal-Florida cost that has risen sharply, and it varies enormously by where in Boca you buy.
+
+**Proximity to the coast matters.** East Boca and anything near the water carries higher wind exposure than communities west of I-95, and premiums reflect that.
+
+**Construction year and roof age matter more.** Homes built to the post-1994 and especially post-2002 codes, with newer roofs and impact glass, quote meaningfully better. A great deal of west Boca's housing benefits from this; much of east Boca's older stock does not.
+
+**Flood is separate** from a standard homeowners policy, and zones vary across the city. Pull the FEMA zone for the specific address.
+
+Get real quotes **during your inspection period**. A wind mitigation inspection is inexpensive and frequently pays for itself many times over.
 
 ## Everyday costs
-Utilities and groceries track near the Florida average; dining trends upscale at Mizner Park and downtown.
 
-**Bottom line:** Boca is a premium city, but west Boca and active-adult communities let you dial costs down. No income tax helps; watch HOA/club fees and insurance.`,
+Utilities and groceries track near the Florida average, with summer air conditioning the swing cost.
+
+Dining trends genuinely upscale, particularly around Mizner Park and downtown — a real budget factor if you eat out regularly, since the casual-and-cheap end of the market is thinner here than in neighboring cities.
+
+Lawn and pest service are standing monthly costs. And if you're west of I-95, factor the driving: everything is a car trip, and the distances are real.
+
+## Running your own number
+
+Build the full monthly figure for a **specific address**:
+
+- Mortgage principal and interest
+- Property taxes **at a reset assessment**, homestead applied if primary
+- Homeowners insurance, actually quoted
+- Flood insurance if the zone requires it
+- HOA dues, and what they include
+- **Club initiation, dues, and any food and beverage minimum**
+- Any pending or recent capital assessment
+- Electric, water, internet
+- Lawn, pest, and pool service
+
+## Renovation and maintenance
+
+Worth budgeting explicitly, and it varies enormously between the two halves of the city.
+
+East Boca's older housing carries the maintenance profile you'd expect — roofs, plumbing, electrical, and windows all aging on their own schedule, and all of them affecting insurance. Anything in or near a historic pocket may also carry review requirements on exterior work, which affects both timeline and cost.
+
+West Boca's newer stock is the opposite: fewer surprises, better insurance outcomes, and longer runway before major systems need attention. That difference is a real part of the east/west cost comparison and it rarely shows up in a listing.
+
+Also check **permit history** on anything recently renovated. Unpermitted work is a persistent issue in older Florida housing and it becomes your problem at resale.
+
+## The bottom line
+
+Boca is a premium city with an unusually wide internal range.
+
+## The bottom line
+
+Boca is a premium city with an unusually wide internal range. West Boca and the age-restricted communities let you dial the cost down substantially, and no state income tax applies at every level.
+
+What decides whether it works for you isn't the list price — it's the club. Get that number in writing first, and the rest of the math becomes straightforward.`,
     faqs: [
-      { q: "Is Boca Raton expensive to live in?", a: "Generally yes, especially coastal and east Boca, though west Boca's gated and active-adult communities are far more attainable." },
-      { q: "Are HOA and club fees high in Boca Raton?", a: "They can be — many top communities are gated golf and country clubs with substantial dues, so ask about fees before buying." },
-      { q: "Does Boca Raton have a state income tax?", a: "No — Florida has no state income tax, which helps offset housing, insurance, and fee costs." },
-      { q: "Is west Boca cheaper than east Boca?", a: "Generally yes — west Boca offers more space and more attainable prices than the coastal east side." },
+      { q: "Is Boca Raton expensive to live in?", a: "It runs above the national average with an unusually wide internal range. Coastal and east Boca command a substantial premium, while west Boca's gated communities and 55+ options are meaningfully more attainable. Club and association obligations, rather than list price, are usually what decide affordability." },
+      { q: "How much are club fees in Boca Raton?", a: "They vary enormously and can exceed a mortgage payment in top-tier clubs. Confirm in writing whether membership is mandatory, the one-time initiation fee, ongoing club dues separate from HOA, any food and beverage minimum, and any recent or pending capital assessment." },
+      { q: "Is west Boca Raton cheaper than east Boca?", a: "Generally yes, often with newer construction and more square footage. But a west Boca home that looks like a bargain can carry a club obligation that closes the gap or reverses it, so compare full monthly figures rather than list prices." },
+      { q: "Will my property taxes in Boca Raton match the listing?", a: "Usually not. The figure shown typically reflects the current owner's bill, which may be protected by caps that don't transfer. Assessed value generally resets toward market value in the year after a sale, so budget against a reset assessment and verify with the Palm Beach County Property Appraiser." },
+      { q: "Is insurance more expensive in east or west Boca Raton?", a: "East Boca and anything near the water carries higher wind exposure and premiums. Construction year and roof age matter even more — much of west Boca's newer housing built to post-1994 and post-2002 codes quotes meaningfully better than older eastern stock. Flood zones vary citywide and flood coverage is separate." },
+      { q: "Does Boca Raton have a state income tax?", a: "No — Florida has no state income tax, which is a recurring annual benefit and a genuine part of why the city attracts relocating executives and retirees." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-boca-raton-florida", "best-neighborhoods-in-boca-raton-florida", "boca-raton-vs-nearby-cities"],
     funFact: "Boca Raton consistently ranks in the top 10 most expensive cities in Florida by median household income and home values — but property taxes are partially offset by the no-state-income-tax advantage. For high earners relocating from California, New York, or New Jersey, the after-tax math often still favors Boca despite the sticker price.",
@@ -3290,26 +3860,106 @@ Utilities and groceries track near the Florida average; dining trends upscale at
     primaryKeyword: "hidden gems in Boca Raton Florida",
     secondaryKeywords: ["Boca Raton secret spots", "free things to do in Boca Raton", "Spanish River Park"],
     h1: "Hidden Gems in Boca Raton, Florida",
-    body: `Boca's polish hides some genuinely lovely, low-key spots.
+    body: `Boca's polish is the first thing you notice and the least interesting thing about it. Behind the manicured medians and the Mediterranean stucco, the city holds genuine nature, real history, and a handful of places locals guard quietly.
 
-**Gumbo Limbo Nature Center.** Sea-turtle tanks, a coastal hammock boardwalk, and an observation tower — beloved by locals and free to enjoy.
+Here's what's worth finding.
 
-**Spanish River Park's canopy walkway.** A shaded park with a tower and bridge over the tree canopy, plus tunnels under A1A to a quieter beach.
+## The Spanish River Park canopy walkway and beach tunnels
 
-**Old Floresta.** A historic Mizner-designed neighborhood of character homes and lush streets — a beautiful, quiet stroll.
+The single best-kept secret in Boca, and it's in plain sight.
 
-**Daggerwing Nature Center.** A wetlands boardwalk on the western edge of town, rich with birds and wildlife.
+Spanish River Park has an **observation tower** and an elevated walkway that puts you up in the tree canopy — a rare vantage point in a flat state. More usefully, the park has **tunnels running underneath A1A** connecting the shaded inland picnic areas to the beach.
 
-**Red Reef Park snorkeling.** A man-made reef just offshore makes this one of the best easy snorkel spots around.
+That means you can park in deep shade, walk under the highway, and come out on a quieter stretch of sand than the main beach entrances. Residents use this constantly; visitors almost never find it.
 
-**Sugar Sand Park.** Even locals underrate how good this family park is — a science playground, carousel, and theater.
+## Daggerwing Nature Center
 
-These show there's real nature and history behind Boca's upscale front.`,
+On the western edge of the city, a boardwalk through cypress swamp and wetland with a small nature center.
+
+It's the ecological opposite of the beach parks, it's free, and it's usually near-empty. Boca's western boundary backs onto genuine Everglades-system habitat, and this is the most accessible way to see it without driving out to the refuge.
+
+Go early — the boardwalk has limited shade in stretches and Florida wetland in the afternoon is unpleasant.
+
+## The Red Reef snorkeling
+
+Worth listing separately from the park itself. A man-made reef sits close enough to shore that you can swim to it, which makes Boca one of very few places on this coast with genuinely accessible shore snorkeling.
+
+**Go at high tide with calm conditions**, wear water shoes for the rock, and check the surf before committing. When it's right, it's excellent. When the surf is up, don't.
+
+## The art museum inside the shopping district
+
+Consistently underestimated purely because of where it sits.
+
+Being inside Mizner Park gets it filed mentally as a retail amenity. It isn't — the permanent collection and rotating exhibitions would draw attention if the building stood alone on a street corner somewhere else, and the annual art fair it hosts pulls galleries from well beyond Florida.
+
+## The old Boca Raton Resort architecture
+
+The historic resort complex is the clearest surviving expression of what Addison Mizner and his successors were actually building toward in the 1920s.
+
+You don't need to be staying there to appreciate the exterior architecture and the setting, and understanding it explains why the entire city looks the way it does. For anyone trying to make sense of Boca's aesthetic rules, this is the source document.
+
+## The quieter stretches of the beach
+
+Boca's coastline runs longer than the three named parks suggest, and the sections between and beyond them are noticeably emptier. Access points vary and parking is the limiting factor, but residents who find the one nearest them stop going to the main lots entirely.
+
+## FAU's public programming
+
+The university runs lectures, performances, galleries, and athletics that are open to the public, often free or inexpensive, and largely unknown to residents who don't have a student in the family.
+
+For anyone looking to plug into something in a city where a lot of social life happens behind gates, this is one of the more accessible options available.
+
+## Lake Boca and the inlet
+
+The stretch of water where the Intracoastal widens near the inlet is where the city's boating life concentrates on a warm weekend — boats rafting up, people wading, and a scene most landlocked residents never see.
+
+You don't need a boat to appreciate the inlet itself, which is a good spot to watch traffic move between the Intracoastal and the ocean, and one of the more interesting free things to do in east Boca.
+
+## The public racquet courts
+
+An unglamorous entry that solves a real problem. In a city where much of the social infrastructure sits behind club gates, the public tennis and pickleball facilities are one of the few genuinely open routes into meeting people.
+
+They're well used, they're inexpensive, and for a new resident who hasn't bought into a club community they may be the most useful thing on this page.
+
+## The western wetland edge
+
+Beyond Daggerwing, the city's far western boundary sits against conservation land that connects into the larger Everglades system. It isn't developed for visitors the way the coastal parks are, which is precisely the appeal for people who want to walk somewhere genuinely quiet.
+
+## The A1A stretch between the parks
+
+Boca's coastal road runs longer than the three named beach parks suggest, and the sections between them are noticeably quieter. Parking is the limiting factor rather than access, which is precisely why they stay empty.
+
+Residents who find the pull-off nearest them stop using the main lots almost entirely.
+
+## Old Floresta on foot
+
+Worth walking even if you'll never buy there. It's one of the original Mizner-era neighborhoods, and a slow loop through its canopied streets is the clearest explanation available of what the rest of the city is imitating.
+
+Twenty minutes there tells you more about why Boca looks the way it does than anything you'll read.
+
+## The green markets and seasonal events
+
+Boca runs seasonal markets and community events through the cooler months, mostly aimed at residents rather than visitors and mostly free.
+
+For newcomers they're one of the few reliable ways to meet people outside a club, and they're consistently underpublicized — the city calendar is worth checking monthly rather than waiting to hear about things.
+
+## Why these matter
+
+Boca gets dismissed as a shopping city
+
+## Why these matter
+
+Boca gets dismissed as a shopping city with good weather. The dismissal is understandable from the main roads and completely wrong.
+
+The places on this list — a canopy walkway, a wetland boardwalk, a swimmable reef, a real art museum, and a university with an open calendar — are what make the city livable rather than just comfortable. Most of them are free.
+
+If you've just moved here and you're wondering whether Boca has anything underneath the polish, spend a morning at Spanish River and an afternoon at Daggerwing. That answers it.`,
     faqs: [
-      { q: "What are the hidden gems in Boca Raton?", a: "Gumbo Limbo Nature Center, Spanish River Park's canopy walkway, the historic Old Floresta neighborhood, Daggerwing Nature Center, Red Reef Park snorkeling, and Sugar Sand Park." },
-      { q: "What are free things to do in Boca Raton?", a: "Visiting Gumbo Limbo Nature Center, exploring Spanish River Park and its canopy walkway, strolling Old Floresta, and walking the Daggerwing boardwalk are all low-cost or free." },
-      { q: "Where can you snorkel in Boca Raton?", a: "Red Reef Park has a man-made reef just offshore, making it one of the area's best easy snorkeling spots." },
-      { q: "Is there good nature in Boca Raton?", a: "Yes — Gumbo Limbo, Spanish River Park, and Daggerwing Nature Center offer beaches, hammocks, and wetlands boardwalks rich with wildlife." },
+      { q: "What are the hidden gems in Boca Raton?", a: "The canopy walkway and beach tunnels at Spanish River Park, the wetlands boardwalk at Daggerwing Nature Center, shore-accessible snorkeling at Red Reef Park, the Boca Raton Museum of Art at Mizner Park, the historic resort architecture, the quieter beach stretches between the main parks, and Florida Atlantic University's public programming." },
+      { q: "What are the tunnels at Spanish River Park?", a: "Tunnels running underneath A1A that connect the shaded inland picnic areas to the beach, letting you park in deep shade and emerge on a quieter stretch of sand than the main beach entrances. Residents use them constantly; visitors rarely find them." },
+      { q: "Can you snorkel from the beach in Boca Raton?", a: "Yes — Red Reef Park has a man-made reef close enough to shore to swim to, which is rare on this coast. Go at high tide in calm conditions, wear water shoes for the rock, and skip it when the surf is up." },
+      { q: "What is Daggerwing Nature Center?", a: "A free nature center on Boca Raton's western edge with a boardwalk through cypress swamp and wetland habitat. It's the ecological opposite of the beach parks, usually near-empty, and the most accessible way to see the Everglades-system habitat the city backs onto." },
+      { q: "Is the Boca Raton Museum of Art worth visiting?", a: "Yes, and it's consistently underestimated because it sits inside Mizner Park and gets mentally filed as a shopping-district amenity. It carries a real permanent collection and rotating exhibitions and stands on its own as a small museum." },
+      { q: "How can you get involved locally in Boca Raton?", a: "Florida Atlantic University's public programming — lectures, performances, galleries, and athletics, often free or inexpensive — is one of the more accessible options in a city where much social life happens inside gated communities and their clubs." },
     ],
     internalLinks: ["best-things-to-do-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
     funFact: "Gumbo Limbo Nature Center in Boca Raton sits on one of the last preserved coastal hammock habitats in Palm Beach County and doubles as a sea-turtle rehabilitation center. The center releases 100+ rehabilitated turtles annually and the behind-the-scenes turtle tanks are free to visit — most Boca residents have never been.",
@@ -3330,22 +3980,122 @@ These show there's real nature and history behind Boca's upscale front.`,
     secondaryKeywords: ["Boca Raton vs Delray Beach", "Boca Raton vs Boynton Beach", "Boca Raton vs Fort Lauderdale"],
     h1: "Boca Raton vs Nearby Cities: How to Choose",
     showMarketTrends: true,
-    body: `Weighing Boca against its neighbors? The honest comparison:
+    body: `Boca Raton sits in one of the most competitive stretches of the Florida coast, with genuinely distinct alternatives within fifteen to thirty minutes in either direction. That makes these comparisons unusually consequential.
 
-**Boca Raton vs Delray Beach.** Boca is higher-priced, more corporate, and more master-planned, with a large private school corridor; Delray is funkier, more walkable, and more social. Choose Boca for refined calm and club life; Delray for energy and walkability.
+Here's the honest rundown.
 
-**Boca Raton vs Boynton Beach.** Boynton (to the north) is more affordable and less polished, with growing development. Boca is pricier and more upscale. Choose Boynton for value; Boca for prestige and schools.
+## Boca Raton vs Delray Beach
 
-**Boca Raton vs Fort Lauderdale.** Fort Lauderdale (to the south) is a bigger, more urban beach city with a major downtown and nightlife. Boca is more suburban, polished, and family-focused. Choose Fort Lauderdale for city energy; Boca for refined suburban living.
+The comparison that matters most, and the one buyers most often get wrong.
 
-**Boca Raton vs Highland Beach / Deerfield.** Smaller neighbors offer quieter beach living; Boca offers far more amenities, schools, and shopping. Choose the small towns for quiet; Boca for everything close.
+**Delray Beach** is funkier, more walkable, and considerably more social. Atlantic Avenue is a genuine downtown with restaurants, galleries, and an arts identity, and the beach is right there. It's smaller, looser, and has more character per block than anywhere nearby.
 
-**How to choose:** rank **polished club living** (Boca), **funky walkability** (Delray), **value** (Boynton), or **big-city beach** (Fort Lauderdale).`,
+**Boca** is larger, more polished, more planned, more club-oriented, and offers far deeper school selection.
+
+**Choose Delray if:** you want walkability, nightlife, and an arts scene, and you'll trade some polish and school choice for it.
+
+**Choose Boca if:** school selection, club life, or architectural consistency matter more than a walkable evening.
+
+**The honest note:** a substantial share of buyers who arrive committed to Boca discover they actually wanted Delray. Spend an evening on Atlantic Avenue before deciding. They're fifteen minutes apart.
+
+## Boca Raton vs Boynton Beach
+
+**Boynton Beach** to the north is more affordable and less polished, with a marina district, ongoing downtown redevelopment, and a wide range of housing including a strong 55+ market of its own.
+
+**Choose Boynton if:** value is the priority and you're comfortable with a city still working through its transition.
+
+**Choose Boca if:** you want the schools, the clubs, and the finished version.
+
+## Boca Raton vs Fort Lauderdale
+
+**Fort Lauderdale** to the south is a genuinely urban beach city — a real downtown, Las Olas, an international airport in town, serious nightlife, and a dense, varied housing market including significant waterfront.
+
+**Choose Fort Lauderdale if:** you want city energy, urban density, and a bigger scene.
+
+**Choose Boca if:** you want suburban calm, school selection, and lower urban friction.
+
+Boca is effectively the polished suburb to Fort Lauderdale's city, and plenty of people work in one and live in the other.
+
+## Boca Raton vs Highland Beach, Ocean Ridge and the small coastal towns
+
+These small barrier-island and coastal municipalities offer quiet, low density, and direct beach proximity, with limited commercial activity of their own.
+
+**Choose the small towns if:** quiet and oceanfront are the whole point and you're happy driving to Boca or Delray for everything else.
+
+**Choose Boca if:** you want amenities, schools, and services inside your own city.
+
+## Boca Raton vs Deerfield Beach and Pompano
+
+Immediately south into Broward, both offer beach access at meaningfully lower prices than Boca, with Pompano in particular seeing substantial redevelopment along its beachfront.
+
+**Choose these if:** oceanfront or near-oceanfront living matters and Boca's pricing doesn't work.
+
+**Choose Boca if:** you want the school selection, the club infrastructure, and the civic upkeep.
+
+**Practical note:** these are Broward County — separate school district, property appraiser, and millage rates. Verify independently rather than assuming Palm Beach County figures carry over.
+
+## Boca Raton vs Parkland and Coral Springs
+
+West and south into Broward County, **Parkland** and **Coral Springs** offer newer construction, larger lots, strong school reputations, and generally more house per dollar than Boca.
+
+**Choose these if:** you want space and newness and don't need coastal proximity.
+
+**Choose Boca if:** beach access, club life, or Palm Beach County school options matter.
+
+**Practical note:** this crosses a county line. Broward County has a separate school district, property appraiser, and millage rates. Verify all of it independently rather than assuming Palm Beach County figures carry over.
+
+## Boca Raton vs the northern Palm Beach County towns
+
+Buyers relocating within the county ask this constantly.
+
+The northern towns — Palm Beach Gardens, Jupiter, and the beach villages — offer more water access, a quieter pace, and in Jupiter's case a genuine beach-town identity. Boca offers deeper school selection, a larger private-school corridor, more corporate employment, and closer proximity to Fort Lauderdale and Miami.
+
+**Choose north if:** boating, beach proximity, or a slower pace matter most.
+
+**Choose Boca if:** schools, corporate access, or being closer to the southern metros matter more.
+
+The difference most people underweight is the drive. Boca to Jupiter is roughly an hour in traffic, which makes them genuinely different regions rather than neighboring options.
+
+## Boca Raton vs West Palm Beach
+
+Further north, **West Palm Beach** is the county's urban center — a walkable downtown, major arts institutions, a Brightline rail station, and attainable historic housing that Boca simply doesn't have.
+
+**Choose West Palm if:** you want urban energy, culture, rail access, or a historic house at a reachable price.
+
+**Choose Boca if:** you want polish, planning, club life, and school selection.
+
+## How to actually decide
+
+Rank these and let the ranking pick:
+
+1. **School selection** — Boca, and it's a genuine differentiator.
+2. **Walkable downtown and nightlife** — Delray, then Fort Lauderdale or West Palm Beach.
+3. **Club and golf life** — Boca, clearly.
+4. **Value** — Boynton, or west into Broward.
+5. **Urban density** — Fort Lauderdale.
+6. **Quiet oceanfront** — Highland Beach, Ocean Ridge.
+7. **Historic character** — West Palm Beach.
+
+Boca's pattern: it wins decisively on schools, clubs, and civic upkeep, and loses on character, walkability, and price. If any of those three is your top priority, a neighbor probably beats it.
+
+## A note on comparing costs
+
+List price is unreliable across these cities because the structures differ so much.
+
+A Boca club community carries initiation, dues, and minimums that a Delray bungalow doesn't — and that bungalow may carry older-systems insurance risk instead. Crossing into Broward changes millage and the school district entirely. Coastal proximity moves insurance substantially in every one of these towns.
+
+Build the full monthly figure for a **specific address** in each city: taxes at a reset assessment, insurance actually quoted, HOA dues, club obligations, and flood if the zone requires it. It reorders rankings more often than not.
+
+## Before you commit
+
+Drive the commute at the real hour — Glades Road makes this more consequential here than elsewhere. Spend a weekend evening in each city rather than an afternoon. And visit in both February and August, because these towns feel materially different in season and out of it.`,
     faqs: [
-      { q: "Boca Raton or Delray Beach — which is better?", a: "Boca is higher-priced, more corporate, and more master-planned with a large private school corridor; Delray is funkier, more walkable, and more social. It depends on whether you want refined calm or lively energy." },
-      { q: "Is Boynton Beach cheaper than Boca Raton?", a: "Generally yes — Boynton tends to be more affordable, while Boca is more upscale and polished." },
-      { q: "Boca Raton vs Fort Lauderdale?", a: "Fort Lauderdale is a bigger, more urban beach city with nightlife and a major downtown; Boca is more suburban, polished, and family-focused." },
-      { q: "Which has the most school options?", a: "Boca Raton has the widest selection — public, magnet, and a large private school corridor — though boundaries and ratings change and should be verified with the district." },
+      { q: "Boca Raton or Delray Beach — which is better?", a: "Delray is funkier, more walkable, and more social, with Atlantic Avenue's downtown, an arts scene, and the beach right there. Boca is larger, more polished, more club-oriented, and offers far deeper school selection. A substantial share of buyers who arrive committed to Boca discover they actually wanted Delray — they're fifteen minutes apart, so visit both." },
+      { q: "Is Boynton Beach cheaper than Boca Raton?", a: "Generally yes. Boynton is more affordable and less polished, with a marina district, ongoing downtown redevelopment, and a strong 55+ market of its own. Boca offers the schools, the clubs, and a more finished version of the same coast." },
+      { q: "Boca Raton or Fort Lauderdale?", a: "Fort Lauderdale is a genuinely urban beach city with a real downtown, Las Olas, an international airport in town, and serious nightlife. Boca is the polished suburb by comparison, with school selection and lower urban friction. Many people work in one and live in the other." },
+      { q: "Should I consider Parkland or Coral Springs instead of Boca Raton?", a: "They offer newer construction, larger lots, and generally more house per dollar, but they're inland and in Broward County — a separate school district, property appraiser, and millage rate. Verify all of that independently rather than assuming Palm Beach County figures apply." },
+      { q: "How do I compare costs between Boca Raton and nearby cities?", a: "Not by list price. A Boca club community carries initiation, dues, and minimums that a Delray bungalow doesn't, and that bungalow may carry older-systems insurance risk instead. Crossing into Broward changes millage and the school district. Build the full monthly figure for a specific address in each city." },
+      { q: "What does Boca Raton do better than its neighbors?", a: "School selection, club and golf infrastructure, and civic upkeep — those are its clear differentiators. It loses to neighbors on character, walkability, and price, so if any of those three is your top priority, a nearby city probably suits you better." },
     ],
     internalLinks: ["cost-of-living-in-boca-raton-florida", "pros-and-cons-of-living-in-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
     funFact: "Boca Raton has its own municipal police force, fire department, beach, and airport — infrastructure that most similarly sized cities in Palm Beach County don't have. That self-contained government structure is part of why Boca has been able to maintain stricter building codes and aesthetic standards than unincorporated areas nearby.",
@@ -3365,24 +4115,112 @@ These show there's real nature and history behind Boca's upscale front.`,
     primaryKeyword: "best restaurants in Boca Raton Florida",
     secondaryKeywords: ["where to eat in Boca Raton", "Mizner Park restaurants", "Royal Palm Place"],
     h1: "Best Places to Eat, Drink & Hang Out in Boca Raton, Florida",
-    body: `Boca's dining is upscale and clustered in a few polished districts.
+    body: `Boca's dining is upscale, clustered, and more varied than its reputation suggests — though you have to look past the two obvious districts to find the range.
+
+Here's the local rundown, organized by what you're actually doing.
+
 ## Mizner Park
-The elegant heart of Boca dining — open-air restaurants, cafés, and bars alongside shops, the art museum, and the amphitheater. A go-to for a refined night out.
+
+The polished heart of it, and the default answer for a nice evening out.
+
+Open-air restaurants and cafés arranged around a central green, with the art museum at one end and an amphitheater hosting concerts and events. The appeal is the setting as much as any individual restaurant — you can park once, eat outside, walk to a show, and not deal with a car again until you leave.
+
+That combination is rarer in Boca than you'd expect, which is why Mizner Park carries so much of the city's social weight.
 
 ## Royal Palm Place
-A walkable downtown dining-and-nightlife district with a range of restaurants and lounges — one of Boca's social hubs.
 
-## Downtown & Town Center
-Downtown Boca and the Town Center mall area add more upscale and casual options, from steakhouses to chic cafés.
+The other walkable district, and the one locals often prefer.
 
-## The vibe
-Boca leans polished — fine dining, chic lounges, and elegant patios more than dive bars. It's a city that dresses up for dinner.
-`,
+A downtown cluster of restaurants, lounges, and bars with a somewhat livelier, less curated feel than Mizner Park. It's where a lot of the city's actual nightlife happens, to the extent Boca has nightlife, and it skews slightly younger and later.
+
+## Downtown Boca and the Town Center corridor
+
+Downtown adds steakhouses, chef-driven rooms, and upscale casual options beyond the two named districts. Out west, the **Town Center** corridor along Glades Road carries a heavy concentration of chain and larger-format restaurants — convenient, predictable, and where a lot of west Boca residents actually eat on a weeknight.
+
+That east/west dining split mirrors the city's housing split almost exactly.
+
+## The club dining factor
+
+Worth naming, because it changes the calculus for a large share of Boca residents.
+
+If you buy into a golf-and-country-club community, you likely have a **food and beverage minimum** — an annual amount you're required to spend at club dining. That means a meaningful portion of your restaurant budget is already committed before you choose anywhere else.
+
+Practically, club residents eat at the club more than they expected to, and that's by design. Factor it in when you're assessing whether Boca's restaurant scene will actually be part of your life.
+
+## The casual end is thinner than you'd expect
+
+An honest limitation. For a city this size and this affluent, the genuinely casual, cheap, characterful end of the market is underrepresented — the sort of scruffy neighborhood institution that West Palm Beach and Delray both have in quantity.
+
+Boca skews polished, and if what you want is a great inexpensive local spot with no dress code and no reservation, you'll be driving to Delray more often than you planned.
+
+## Where residents go instead
+
+**Delray Beach**, fifteen minutes north, is the release valve. Atlantic Avenue has more density, more variety, and considerably more character per block, and a lot of Boca residents treat it as an extension of their own dining options.
+
+**Fort Lauderdale**, about thirty minutes south, is the bigger night out — Las Olas and a genuinely urban restaurant scene.
+
+Treating both as part of your range is how people who care about food make Boca work.
+
+## How season changes things
+
+**November through April**, the popular rooms need reservations they don't need in summer, and Glades Road makes getting anywhere slower. Residents shift to weeknights.
+
+**May through October** everything relaxes considerably. Walk-ins become realistic again, and locals consistently name summer dining as one of the quiet advantages of living here year-round.
+
+## Coffee and the daytime scene
+
+Better than the nightlife reputation suggests, and more useful to most residents.
+
+Mizner Park, downtown, and the Royal Palm area all carry cafés that work for a laptop or a long conversation, and the Glades corridor has the reliable chains. For a city where a lot of people work from home or run their own business, the daytime coffee scene is a real amenity and one of the easier ways to establish a routine somewhere new.
+
+## Eating with children
+
+Boca handles this well — the casual end may be thin on character, but it's deep on practicality, and most of the larger restaurants along the Glades corridor and around Town Center are set up for it.
+
+Sugar Sand Park and the beach parks both pair naturally with a casual meal afterward, which is how a lot of local weekends actually run.
+
+## Practical local advice
+
+- **Reservations in season**, always, at anywhere popular.
+
+## Practical local advice
+
+- **Reservations in season**, always, at anywhere popular.
+- **Mizner Park parking** is structured and straightforward, which is a genuine advantage over street-parking districts elsewhere.
+- **Dress code is real** at the higher-end rooms in a way it isn't in most of the county. Boca dresses up for dinner.
+- **Lunch is easier than dinner** during season at the busier places.
+- **Check hours between season and summer** — some places reduce hours in the slowest months.
+
+## Breakfast
+
+Underrated in a city that skews toward dinner. The cafés around Mizner Park and downtown handle a proper sit-down breakfast well, and the beach parks pair naturally with something casual beforehand.
+
+For a city where a lot of residents are retired or self-employed, a good breakfast routine ends up mattering more than the nightlife does.
+
+## Where residents actually eat on a weeknight
+
+Worth separating from the destination districts, because it's the honest picture of daily life here.
+
+East of I-95, that means the neighborhood spots scattered through downtown and along the coastal corridor. West of the Turnpike, it means the retail centers attached to each large community and the concentration along Glades Road — convenient, predictable, and where most west Boca households actually eat when nobody wants to think about it.
+
+The east/west dining split mirrors the housing split almost exactly, and which side you buy on will shape your everyday options more than any individual restaurant recommendation.
+
+## The bottom line
+
+Mizner Park for a polished evening
+
+## The bottom line
+
+Mizner Park for a polished evening with something to do attached. Royal Palm Place when you want more energy. The Glades corridor for a weeknight that doesn't require thinking about it.
+
+And Delray when you want the thing Boca doesn't really do. Hours, menus, and ownership change — check directly before you go.`,
     faqs: [
-      { q: "Where is the best dining in Boca Raton?", a: "Mizner Park and Royal Palm Place are the two main dining-and-nightlife districts, with more options downtown and around the Town Center mall." },
-      { q: "What is Royal Palm Place?", a: "A walkable downtown Boca district of restaurants, lounges, and shops — one of the city's social and dining hubs." },
-      { q: "Does Boca Raton have good nightlife?", a: "Yes, though it leans upscale — chic lounges and elegant bars at Mizner Park and Royal Palm Place more than a casual bar scene." },
-      { q: "Where do locals eat in Boca Raton?", a: "Across Mizner Park, Royal Palm Place, downtown, and the Town Center area, which hold most of the city's notable restaurants." },
+      { q: "Where are the best places to eat in Boca Raton?", a: "Mizner Park is the polished default — open-air restaurants around a central green with the art museum and amphitheater attached. Royal Palm Place is the livelier walkable district where more of the nightlife happens. Downtown adds steakhouses and chef-driven rooms, and the Town Center corridor on Glades Road carries chain and larger-format options." },
+      { q: "What is Royal Palm Place?", a: "A walkable downtown Boca Raton district of restaurants, lounges, and bars with a livelier, less curated feel than Mizner Park. It's where much of the city's nightlife happens and it skews slightly younger and later." },
+      { q: "Does Boca Raton have good casual restaurants?", a: "The casual, inexpensive, characterful end is thinner than you'd expect for a city this size — Boca skews polished. Residents wanting that regularly drive fifteen minutes north to Delray Beach, which has considerably more of it." },
+      { q: "How do club food and beverage minimums work in Boca Raton?", a: "Many golf-and-country-club communities require members to spend a set amount annually at club dining. That commits a meaningful portion of your restaurant budget before you choose anywhere else, and club residents typically eat at the club more than they expected to." },
+      { q: "Do you need reservations in Boca Raton?", a: "During season, roughly November through April, yes at anywhere popular, and Glades Road traffic makes arriving on time harder. From May through October most places are walk-in friendly, which residents consider one of the quiet advantages of living here year-round." },
+      { q: "Is there a dress code at Boca Raton restaurants?", a: "At the higher-end rooms, more so than in most of Palm Beach County. Boca dresses up for dinner in a way neighboring cities generally don't." },
     ],
     internalLinks: ["best-things-to-do-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "hidden-gems-in-boca-raton-florida"],
     funFact: "Mizner Park in Boca Raton was one of the first purpose-built mixed-use town centers in the US when it opened in 1990 — the developer literally had to invent the zoning category. The amphitheater there has hosted free concerts since opening day, and on a warm season night it's one of the most pleasant public spaces in South Florida.",
@@ -3429,6 +4267,14 @@ Downtown civic investment tends to move slowly, but it does eventually show up i
 That said, this is early — early enough that it shouldn't be a deciding factor in a purchase decision today. If you're evaluating a downtown Boca condo right now, buy it on its current merits: building quality, HOA reserve health, unit layout, and walkability as it exists today. Treat the master plan as long-term upside, not a guarantee, and don't let a listing description use "the city's about to redo Memorial Park" as a substitute for your own due diligence.
 
 It's also worth reading alongside a related item from the same meeting: downtown parking policy shifted at the same session (see our breakdown of [downtown Boca parking](/blog/boca-raton-downtown-parking-condo-buyers-guide)), and access is exactly the kind of detail any Memorial Park master plan will eventually have to solve for too.
+
+## How these processes usually unfold
+
+Worth setting expectations if you're following this as a buyer or seller rather than a civics enthusiast.
+
+Master-planning processes of this kind typically run in phases — consultant selection, then concept development, then public input, then design refinement, then funding decisions — and each phase can take months. Timelines published early in a process are best treated as intentions rather than commitments.
+
+The practical implication: a plan being approved is not the same as ground being broken, and the gap between the two is frequently measured in years. If a nearby project is part of why you're buying, weight what has actually been funded far more heavily than what has been proposed.
 
 ## What happens next — and when
 
@@ -3495,13 +4341,29 @@ Based on the conceptual overview, North Park's future build-out is aimed at acti
 - **Walking paths** connecting the site
 - **Expanded parking** to support all of the above
 
-Taken together, that's a meaningfully more active recreational profile than a lot of Boca's older parks currently offer — closer to the multi-sport, teen-and-family-friendly parks that have become a genuine differentiator in newer Florida park systems.
+Taken together, that's a meaningfully more active recreational profile than a lot of Boca's older parks currently offer — closer to the multi-sport, multi-generational facility mix that has become a genuine differentiator in newer Florida park systems.
 
 ## Why this matters for nearby homeowners and buyers
 
 Active recreation amenities like skateparks and pump tracks pull a specific, loyal user base — often teens, tweens, and cycling or boarding enthusiasts — and parks built around that use tend to become genuine neighborhood anchors rather than passive green space nobody visits. If you're evaluating a home in this part of Boca and have kids into boarding or biking, or you're a rider yourself, a build-out like this is worth factoring into your longer-term view of the neighborhood, even though it isn't open yet and shouldn't move your timeline.
 
 It's also a reminder that Boca's parks system keeps investing, which is a healthy signal for a city's long-term livability, separate from what City Hall itself is doing downtown — see our piece on the [Downtown Civic Area and Memorial Park master plan](/blog/boca-raton-downtown-civic-area-memorial-park-master-plan) for the other major public-space project moving through the pipeline at the same time.
+
+## How to follow a proposal like this
+
+If a project genuinely affects a property you own or are considering, the useful habit is to track it at the source rather than through summaries.
+
+City agendas and minutes are published ahead of meetings and are the authoritative record of what was actually decided versus what was merely presented. Public comment periods are typically the point at which resident input carries the most weight, and they are frequently missed by the people most affected simply because nobody was watching the calendar.
+
+The distinction worth holding onto: a concept shown to council is not an approved plan, an approved plan is not a funded project, and a funded project is not a construction schedule. Each of those steps can take a year or more.
+
+## What this pattern usually means for nearby values
+
+General context rather than a prediction about this specific proposal.
+
+Recreational investment near residential areas tends to cut two ways. Improved facilities within walking or short driving distance are generally treated as an amenity, particularly by buyers with children. Immediately adjacent properties can see the opposite effect during construction, and sometimes afterward, from traffic, lighting, and noise depending on the facility type and hours.
+
+The distinction that usually matters is proximity. "Near a good park" and "backing onto a busy park" are different propositions, and buyers should walk the specific site at the hours the facility would actually be in use before drawing conclusions.
 
 ## What we don't know yet
 
@@ -3557,6 +4419,28 @@ Here's what that actually means if you're not fluent in redevelopment-agency lan
 
 In practice: if you're buying east of Federal Highway, don't count on new public parking supply showing up to solve a tight spot. The City's direction points toward managing existing supply better — through pilots like the 29-minute program and occupancy monitoring — rather than adding new capacity in the highest-demand zone. West of Federal Highway has more room for new arrangements, which is one reason properties on that side of downtown sometimes come with an easier parking story and, often, a lower price point to match.
 
+## Questions to ask before buying a downtown unit
+
+A short, practical list that applies regardless of how any specific policy shakes out:
+
+- **How many spaces convey with the unit**, and are they deeded or assigned?
+- **Is there guest parking**, and how is it controlled?
+- **What are the association's rules** on vehicles, commercial vehicles, and overnight guests?
+- **Is there EV charging**, and who pays for it?
+- **What does the building charge** for an additional space, if one is even available?
+
+Get the answers in writing from the association rather than from a listing. Parking terms vary considerably between buildings on the same street, and they affect both daily life and resale.
+
+## Why parking policy matters more downtown than elsewhere
+
+Worth explaining, because buyers from suburban markets often skip past it.
+
+In a downtown condo purchase, parking is not a detail — it's part of what you're buying. How many spaces convey with the unit, whether they're deeded or assigned, what guest parking exists, and how the surrounding public parking is priced and enforced all affect both daily livability and resale.
+
+Municipal parking policy sits underneath all of that. Changes to rates, time limits, and enforcement shift how easy it is for your guests to visit and how attractive the surrounding retail stays over time.
+
+For anyone buying downtown, it's worth asking what conveys with the unit in writing, and reading the association's rules on parking separately from the purchase contract.
+
 ## The 29-minute free parking pilot, explained
 
 Twenty-nine minutes is a specific, deliberate number — short enough to serve a quick retail stop or a coffee run, but not long enough for someone to park all day for free. It's a classic downtown parking-management tool: encourage turnover in the spaces that serve shops and restaurants, rather than letting them get occupied by employees or all-day parkers. Paired with occupancy monitoring, it gives the City real data on how downtown parking gets used hour by hour — data that will likely shape whatever comes out of this policy direction next, rather than another round of guesswork.
@@ -3575,6 +4459,12 @@ None of this should scare you off a downtown purchase. Boca's downtown parking s
 ## Where to verify this yourself
 
 CRA agendas, meeting videos, and parking program updates are posted directly at [myboca.us](https://www.myboca.us) — check there for the current status rather than relying on a listing agent's summary.
+
+## How this compares to neighboring downtowns
+
+For context, the downtowns Boca competes with for residents handle this differently. Delray's Atlantic Avenue leans on a mix of garages and metered street parking with its own seasonal pressure, and West Palm Beach's downtown runs on structured garage parking that residents learn by name.
+
+None of those models is obviously better — they reflect different densities and different amounts of available land. But it's worth understanding that a downtown condo purchase in any of these cities comes with a parking situation attached, and it varies more between buildings than between cities.
 
 ## Our take
 
