@@ -10348,7 +10348,7 @@ The practical effect is that the outdoors becomes the default weekend. For speci
 
 Hobe Sound sits between **Jupiter** to the south and **Stuart** to the north. Residents can reach a broader selection of restaurants, shopping, entertainment, medical services, and everyday conveniences in either direction while returning home to a less densely developed setting.
 
-In practice, a short drive is simply part of the routine. Jupiter is roughly fifteen minutes south for large-format retail and a wider restaurant selection. Stuart is a similar distance north for the county seat, the historic downtown, and Martin County's main medical facilities. I-95 and Florida's Turnpike are both reachable from the Bridge Road corridor, which keeps airport trips straightforward.
+In practice, a short drive is simply part of the routine. Jupiter is roughly fifteen minutes south for large-format retail and a wider restaurant selection. Stuart is a similar distance north for the county seat, the historic downtown, and the area's principal hospital campuses. I-95 and Florida's Turnpike are both reachable from the Bridge Road corridor, which keeps airport trips straightforward.
 
 The seasonal rhythm is worth planning around. From roughly November through April, traffic and restaurant waits increase noticeably across the Treasure Coast and northern Palm Beach County. Through the summer the area empties out considerably. Touring only in February gives you a distorted picture in one direction, and touring only in August distorts it in the other — try to see the area in both.
 
@@ -10426,6 +10426,14 @@ For anyone near the beach, that means real obligations: **lighting ordinances** 
 This isn't advisory. Compliance is enforced, and retrofitting non-compliant lighting is a genuine expense that buyers rarely price in. If you're purchasing anywhere near the water, ask specifically what applies to that address.
 
 The upside is that walking the beach in season and finding fresh tracks in the morning sand is one of the genuinely special things about living here.
+
+## What a Hobe Sound address actually covers
+
+A quirk that catches newcomers mid-search: this is unincorporated Martin County, so the postal designation stretches well past what residents would call the town.
+
+Listings several miles inland — west of the highway, out toward the agricultural edge — carry a Hobe Sound address and a genuinely different daily life from the Bridge Road corridor. Neither is worse. They're simply not the same place, and a search filtered by city name will hand you both without distinguishing between them.
+
+Check the actual location on a map before you fall for a price, and confirm the parcel's utilities, zoning and school attendance boundary directly rather than inferring them from the mailing address.
 
 ## The two seasons
 
@@ -10930,7 +10938,7 @@ Character, mature trees — and original electrical, aging plumbing, older windo
 
 ### Healthcare is a drive
 
-There is no hospital in Hobe Sound. Martin County's main medical facilities are in Stuart, with substantial options also in Jupiter and Palm Beach Gardens — all fifteen to thirty minutes away.
+There is no hospital in Hobe Sound. The nearest hospital campuses sit in Stuart, with substantial options also in Jupiter and Palm Beach Gardens — all fifteen to thirty minutes away.
 
 For most people most of the time this is a non-issue. For anyone managing a condition that means frequent appointments, it becomes a weekly logistics question worth thinking through honestly before buying.
 
@@ -11505,9 +11513,19 @@ For a certain kind of buyer, that's not a compromise. It's the entire point.
 
 Port Salerno sits just south of Stuart in Martin County, wrapped around a protected harbor that opens toward the St. Lucie Inlet and the Atlantic beyond it. It's unincorporated, it's small, and it varies noticeably block to block — a restored waterfront cottage can sit near a house that's been waiting on a new roof for a while.
 
-If you need visual consistency from your neighborhood, this will bother you. If you find it refreshing after a decade of HOA architectural review committees, you'll probably love it.
+The character comes from the fact that this is still a **working waterfront**, not a themed one. Commercial fishing, charter operations, marine repair, and boatyards are active businesses here, not decorative history. Vessels are hauled and painted, engines come apart in the open, and the docks are for loading rather than for photographs.
 
-The character comes from the fact that this is still a **working waterfront**, not a themed one. Commercial fishing, charter operations, marine repair, and boatyards are active businesses here, not decorative history. That means real noise at real hours — trucks at the fish houses early, boats running out before sunrise. Residents who moved here for the authenticity generally consider that part of the deal.
+That's the distinction that matters most, and it's the one that surprises people who arrive expecting a quaint fishing village of the postcard variety. This is the functional kind.
+
+## Living among the mismatch
+
+Nothing here matches, and living with that is a specific experience worth describing.
+
+Your street may hold a recently renovated house, a mid-century block home in original condition, a mobile home, and a vacant lot with a boat parked on it. Fences don't align. Mailboxes are whatever each owner chose. There's no palette, no approved plant list, and nobody coming by to tell you the trim is the wrong shade.
+
+If you've spent a decade under an architectural review committee, the relief is immediate and lasts about a year, at which point it becomes simply normal. If you've spent that decade enjoying the uniformity, the same street will read as untended no matter how long you look at it, and that reaction generally doesn't soften.
+
+There's a practical dimension too. Property condition varies enough that what your neighbors do — or defer — is more visible here than in a managed community, and you have less recourse. Most residents consider that a fair exchange for the freedom to do what they like with their own place. It's worth knowing which side of that trade you're on before you sign.
 
 ## The daily rhythm
 
@@ -11515,55 +11533,45 @@ Life organizes around the water and the tide more than the clock. Mornings skew 
 
 It's an unhurried place. Not sleepy exactly — a working harbor is never entirely still — but there's no rush hour to speak of, no scene to keep up with, and no expectation that you'll be doing anything in particular on a Saturday night.
 
-## Who this actually suits
+The social fabric works the same way. There aren't many organized institutions doing the introductions. What there is instead is shared interest: the ramp, the yard, the dock, the water. People meet because they're doing the same thing at the same hour, and newcomers who show up consistently get absorbed without ever attending anything.
 
-The people who thrive here share a pretty specific profile:
+## What a year here actually sounds like
 
-- **Boaters and anglers.** This is the core. Quick inlet access to the Atlantic is the town's defining practical advantage, and if you own or want a boat, it reshapes what your life looks like.
-- **People who want water access without the premium.** Port Salerno generally prices below comparable waterfront in Stuart, which is the trade a lot of buyers here are consciously making.
-- **People allergic to polish.** No gate, no uniform rooflines, no committee telling you what color to paint. For some buyers that's the whole appeal.
-- **Divers.** The offshore reefs and wrecks are genuinely good, and launching from here is easy.
-- **Retirees and remote workers** who want quiet and don't need a job market or a nightlife scene.
+The soundscape is the most underestimated part of living in this village, and it changes across the year.
 
-## Who should look elsewhere
+Before dawn, most days, you'll hear engines. Commercial and charter vessels leave early because the fish and the weather demand it, and the docks are busy well before the rest of the county is awake. During business hours the yards contribute their own layer — sanders, compressors, travel lifts, the occasional hammer on a hull.
 
-Being straight about this saves people a lot of money:
+None of this is unusual for a working port. All of it is unusual for a residential neighborhood, and that's exactly the point: here they're the same place.
 
-- **If you want a walkable, charming downtown**, that's Stuart, and it's five minutes north. Live there instead — you'll be happier and you won't spend a year wishing.
-- **If you want manicured, uniform neighborhoods**, Port Salerno will read as inconsistent rather than characterful.
-- **If you don't use the water**, you're paying a location premium for an amenity you won't touch. The town's whole value proposition is inlet access.
-- **If you need shopping, dining variety, or nightlife within your own town**, it isn't here. Stuart covers it, but you'll be driving for essentially everything beyond the harbor.
-- **If you need a commute to Palm Beach County**, it's a real drive, and it gets old.
+Most residents stop hearing it within a month or two. It becomes weather. A minority never make that adjustment, and for them it's a persistent low-grade irritation that no amount of appreciating the character offsets. There's no reliable way to predict which group you'll fall into from a showing, which is the strongest argument for renting through a season first.
 
-## The Stuart question
+Layered on top is the seasonal swing. From roughly January through April the population climbs, the roads thicken, the ramp queues, and the restaurants fill. By June it has drained away, and from July into September the village is hot, quiet, and largely returned to the people who live here year-round.
 
-Nearly every buyer looking here is also looking at Stuart, so it's worth addressing directly.
+## What changes after the first year
 
-Stuart has the walkable historic downtown, the broader restaurant and retail selection, more polish, and generally higher prices. Port Salerno has the working harbor, better value per waterfront foot, and a rougher, more authentic character.
+Newcomers tend to follow a recognizable arc.
 
-They're five minutes apart, which means you get Stuart's amenities either way. The real question isn't which town has more — it's which one you want to wake up in. Buyers who want to *walk* to dinner should be in Stuart. Buyers who want to *boat* to dinner should be here.
+The first few months are novelty — the boats, the fish houses, the sense of having found somewhere real. Around month four or five the practical friction shows up: the driving, the errands that take longer than they should, the realization that the nearest of everything is somewhere else.
 
-Jensen Beach offers a small beach-town feel if the ocean matters more than the harbor. Hobe Sound, south of here, leans toward conservation land and quiet. Port St. Lucie, north, is vastly larger and newer if scale and new construction appeal to you.
+Then, usually, one of two things happens. Either the water becomes genuinely central to how you spend your time, at which point the friction stops registering because you're getting something you actually want. Or it doesn't, and the friction is all that's left.
 
-## The trade-offs nobody puts in the listing
-
-- **It's a working harbor.** Early activity, working vessels, and the associated noise are features of the location, not bugs to be fixed.
-- **Housing stock varies widely in age and condition.** Careful inspection matters more here than in a uniform subdivision — see [our neighborhood breakdown](/blog/best-neighborhoods-in-port-salerno-florida) for what to check.
-- **Waterfront carries real costs** beyond the purchase price. Insurance, flood, seawall, and dock maintenance all add up — the full picture is in our [cost of living guide](/blog/cost-of-living-in-port-salerno-florida).
-- **Summers are hot and storm season is real**, as everywhere on this coast.
-- **You will drive.** There's no meaningful transit and the village isn't walkable in a practical sense.
+That fork is the whole thing. It's why our guide to [which buyers actually belong here](/blog/who-should-move-to-port-salerno-florida) spends so much time on specific profiles rather than adjectives — the difference between loving this village and enduring it isn't taste, it's whether you use the water.
 
 ## Martin County matters more than you'd think
 
 One thing that genuinely shapes life here: Martin County has pursued notably strict growth management for decades, including height limits that have kept the county low-rise. It's a big reason this stretch of coast doesn't look like the counties to the south.
 
-Practically, it means less density, fewer high-rises, and slower change than you'd find in Palm Beach County. It also means a different school district, a different property appraiser, and different millage rates — verify all of it independently rather than assuming Palm Beach County figures apply.
+Practically, it means less density, fewer high-rises, and slower change than you'd find in Palm Beach County. Development pressure exists — it always does — but the framework resisting it has held up for a long time, and that continuity is a large part of what people are buying when they buy here.
+
+It also means a different school district, a different property appraiser, and different millage rates than Palm Beach County. Verify all of it independently rather than assuming figures carry across the county line. They don't.
 
 ## The honest bottom line
 
 Port Salerno is a small, salty, working fishing village where the water is the reason for everything. It rewards people who actually use it and quietly disappoints people who bought the idea rather than the life.
 
-Spend a morning at the harbor watching the boats come in. If that scene makes you want to be part of it, you'll fit here. If it mostly makes you want a nicer restaurant, Stuart is five minutes away and that's a perfectly good answer too.`,
+Spend a morning at the harbor watching the boats come in. If that scene makes you want to be part of it, you'll fit here — and the [weighed list of upsides and drawbacks](/blog/pros-and-cons-of-living-in-port-salerno-florida) will read as an acceptable set of trades.
+
+If it mostly makes you want a nicer restaurant, that's useful information rather than a failure of imagination, and the [comparison with the surrounding towns](/blog/port-salerno-vs-nearby-cities) will point you somewhere that suits you better. Several of them are within ten minutes, and choosing one of those is a perfectly good outcome.`,
     faqs: [
       { q: "What is Port Salerno, Florida like?", a: "It's a small, unincorporated working fishing village in Martin County, just south of Stuart, built around the Manatee Pocket — a protected harbor with commercial and charter boats, fish houses, marinas, and boatyards. It's unpolished, water-focused, and genuinely old Florida, with quick access to the St. Lucie Inlet and the Atlantic." },
       { q: "Is Port Salerno a good place to live?", a: "For boaters, anglers, divers, and people who want waterfront access without Stuart's pricing, yes. For people who want a walkable downtown, uniform manicured neighborhoods, or dining and nightlife within their own town, Stuart or a larger town nearby is likely a better fit." },
@@ -11572,7 +11580,7 @@ Spend a morning at the harbor watching the boats come in. If that scene makes yo
       { q: "What county is Port Salerno in?", a: "Martin County. That means a different school district, property appraiser, and millage rate than Palm Beach County to the south — verify all of it independently rather than assuming figures carry over." },
       { q: "Do you need a boat to enjoy living in Port Salerno?", a: "Not strictly, but the town's central advantage is quick access to the St. Lucie Inlet and the Atlantic. Buyers who don't use the water are largely paying a location premium for an amenity they won't take advantage of." },
     ],
-    internalLinks: ["cost-of-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida", "best-things-to-do-in-port-salerno-florida"],
+    internalLinks: ["who-should-move-to-port-salerno-florida", "pros-and-cons-of-living-in-port-salerno-florida", "port-salerno-vs-nearby-cities"],
     funFact: "The Manatee Pocket got its name from the West Indian manatees that historically sheltered in its calm, protected waters. The pocket's narrow entrance and wide interior create exactly the still-water habitat manatees prefer — and they're still spotted there today.",
     author: 'john',
     published: true,
@@ -11590,33 +11598,104 @@ Spend a morning at the harbor watching the boats come in. If that scene makes yo
     primaryKeyword: "Port Salerno local guide",
     secondaryKeywords: ["Port Salerno insider tips", "things locals do in Port Salerno", "moving to Port Salerno guide"],
     h1: "A Local's Guide to Port Salerno, Florida",
-    body: `Port Salerno is small, salty, and water-focused — easy to learn, fun to live.
+    body: `This is the operations manual — the practical things a new resident has to sort out, in roughly the order they come up. Not what the village feels like, and not what to do on a Saturday, but how to actually function here.
 
-## Get your bearings
+Most of it is unglamorous. All of it is the sort of thing people discover a month after moving in and wish they'd known a month before.
 
-Everything orbits the **Manatee Pocket**, the harbor lined with marinas, fish houses, and waterfront restaurants. **US-1** is the main road; **Stuart** is minutes north; the **St. Lucie Inlet** and the Atlantic are a short cruise east. **Sandsprit Park** offers a public boat ramp and waterfront green space.
+## The road network, in about a minute
 
-## The local rhythm
+Learn three roads and you can navigate the whole area.
 
-Mornings on the water — fishing offshore, diving the reefs, or cruising the Pocket — and evenings at a dock-and-dine seafood spot watching the boats come in. The annual **Seafood Festival** is the town's signature event. For broader shopping and dining, Stuart is a quick drive.
+**US-1** runs north–south and is the spine — most retail, most services, and the route to Stuart. **Cove Road** and **Salerno Road** are the main east–west connectors, linking the residential areas and the harbor across to US-1 and points west. Beyond that, **Kanner Highway** heads west toward the Turnpike and I-95.
 
-## The unwritten rules
+The harbor and the streets around it sit east of US-1. Nearly everything commercial sits on it. That's the mental map.
 
-This is a working waterfront — respect the commercial-fishing culture that defines it. Boating is the lifestyle; if you've got a boat, the inlet is your gateway. And embrace the unpolished authenticity — it's the point.
+Traffic is genuinely light most of the year and noticeably heavier from roughly January through April, when the seasonal population arrives. Nothing here resembles a real city's congestion, but the difference between an August and a February drive is enough to matter if you're timing a commute.
 
-## Settling in
+## Setting up services
 
-Get a boat (or a boat-owning friend), find your favorite fish house, and lean into the salty, friendly village pace. Port Salerno rewards people who love the water and keep it real.`,
+- **Electric** is FPL for this area — set it up before closing, not after.
+- **Water and sewer** depend on the parcel. Some properties are on county utilities; others are on well and septic. Confirm which you have, and if there's a septic system, ask when it was last pumped and inspected. It's a maintenance obligation, not a one-time item.
+- **Internet** coverage varies by street more than you'd expect. Confirm what's actually serviceable at your address before assuming — this catches remote workers out regularly.
+- **Waste collection** runs through Martin County's solid waste program. Check the pickup schedule and the rules for bulk and yard waste, which are stricter than most newcomers expect.
+
+## County services, since there's no city hall
+
+The village is unincorporated, so this is all Martin County rather than a municipal government:
+
+- **Law enforcement** is the Martin County Sheriff's Office.
+- **Permits, zoning, and code enforcement** run through the county's growth management department. If you're planning a dock, a seawall, a shed, or anything structural, start there early — waterfront work frequently involves state and federal review as well, and those timelines are long.
+- **Property records, homestead, and tax matters** go through the county Property Appraiser and Tax Collector.
+- **Voter registration and vehicle titling** are handled at county offices in Stuart.
+
+Two things to know about the permitting side: the county's growth management rules are strict by Florida standards, and marine construction adds agencies. Assume anything touching the water takes longer than you were told.
+
+## Health care and emergencies
+
+The Cleveland Clinic Martin Health system covers this area, with hospital campuses in and near Stuart — including one on Salerno Road, close enough to matter in an emergency. Specialists are largely in Stuart, with the broader Treasure Coast and northern Palm Beach County covering anything more specialized.
+
+Note your nearest emergency entrance now rather than looking it up during an emergency.
+
+## Getting in and out by air
+
+**Palm Beach International** is the practical major airport for most trips — roughly forty-five minutes to an hour south depending on traffic and where you're starting. **Orlando** and **Fort Lauderdale** open up more routes at the cost of a much longer drive.
+
+**Witham Field** in Stuart handles general aviation and is close by, which matters if you fly privately and is otherwise mostly relevant as a landmark.
+
+## If you own a boat
+
+This is the part that's specific to living here, and the part newcomers most often get wrong.
+
+- **Register the vessel** with the state through the county Tax Collector, and keep documentation current.
+- **Trailer or slip?** Decide honestly. Slips and dry storage carry real ongoing cost; trailering means the ramp every time. Plenty of residents own waterfront and still keep the boat elsewhere because the depth at their dock doesn't suit their draft.
+- **Learn the ramp etiquette before your first launch.** Stage in the lot, not on the ramp. Have the plug in, the straps off, and the gear aboard before you back down. The ramp gets busy on good weekends and locals are patient with beginners who are visibly trying and much less patient with people rigging on the ramp.
+- **Know the manatee zones and idle-speed areas.** They're marked, they're enforced, and the fines are not trivial.
+- **Check the tide and the depth on your route**, particularly if you draw more than a couple of feet. Local knowledge here is worth more than any chart.
+- **Have a storm plan for the vessel** that isn't "figure it out in August." Haul-out slots and safe dockage fill up fast once a storm is named.
+
+## Hurricane season, practically
+
+June through November, with the peak generally late summer into early fall.
+
+- **Find your evacuation zone now.** The county publishes them, and low-lying areas near the water are called first. Knowing your zone is the difference between an orderly departure and a panicked one.
+- **Have shutters or panels sorted before June**, along with a plan for who installs them if you can't.
+- **Keep a two-week supply** of water, food, medication, and cash, and remember that fuel and ice disappear before a storm and stay gone after one.
+- **Photograph the property annually** for insurance purposes. It takes ten minutes and it's the single most useful thing you can do for a future claim.
+
+## The seasonal calendar
+
+**January through April** is high season — the population swells, traffic thickens, restaurants fill, and the water gets busier. The weather is excellent.
+
+**May and June** bring heat and the start of storm season, with the seasonal residents thinning out.
+
+**July through September** is hot, humid, and stormy, with near-daily afternoon convection that builds fast and clears fast. Get anything outdoor done in the morning.
+
+**October through December** is the quiet reward — the heat breaks, the crowds haven't arrived, and it's arguably the best stretch of the year to be here.
+
+The village's signature event is its seafood festival, held in the winter months, and it's the one weekend the place is genuinely crowded. Plan around it either way.
+
+## Fitting in
+
+A few things residents figure out quickly:
+
+- **The working waterfront isn't scenery.** The vessels, yards, and docks are businesses. Don't block working access, and don't complain about the hours — that activity is the reason the village exists.
+- **Early is the local default.** For the water, for errands, for exercise. By midday in summer the outdoors is unpleasant.
+- **People will help you.** Ask at the ramp, ask at the yard, ask the person fishing next to you. The community runs on shared interest rather than formal organizations, and newcomers who ask questions get absorbed quickly.
+- **Verify everything about the parcel yourself.** Utilities, evacuation zone, flood elevation, permit history, and school attendance boundaries all vary address to address here. Nothing about the neighborhood tells you what's true of the specific property.
+
+For the texture of daily life rather than the mechanics of it, read [what living here is actually like](/blog/what-its-really-like-living-in-port-salerno-florida) — and once you're settled, [the quieter local finds](/blog/hidden-gems-in-port-salerno-florida) are where the village starts to feel like home.`,
     faqs: [
-      { q: "What do locals do in Port Salerno?", a: "Fish and boat from the Manatee Pocket and St. Lucie Inlet, dive the offshore reefs, eat fresh seafood at dock-and-dine spots, use Sandsprit Park's boat ramp, attend the Seafood Festival, and drive to Stuart for more." },
-      { q: "Is Port Salerno walkable?", a: "The Manatee Pocket waterfront has a cluster of restaurants you can stroll, but it's largely a boat-and-car village, with Stuart minutes away for more." },
-      { q: "What is there at the Manatee Pocket?", a: "Marinas, commercial and recreational fishing boats, fish houses, dive operations, and waterfront seafood restaurants — the heart of Port Salerno." },
-      { q: "How close is Port Salerno to Stuart?", a: "Very — Stuart is just north, minutes away, for downtown dining, shopping, and amenities." },
+      { q: "What are the main roads in Port Salerno?", a: "US-1 runs north–south and carries most of the retail and services along with the route to Stuart. Cove Road and Salerno Road are the main east–west connectors between the residential areas, the harbor, and US-1. Kanner Highway heads west toward the Turnpike and I-95. The harbor sits east of US-1; most commerce sits on it." },
+      { q: "Who provides services in Port Salerno if it has no city government?", a: "Martin County. The Sheriff's Office handles law enforcement, growth management handles permits, zoning, and code enforcement, and the Property Appraiser and Tax Collector handle records, homestead, and vehicle or vessel registration. There is no city hall and no separate municipal tax." },
+      { q: "Which airport should I use from Port Salerno?", a: "Palm Beach International is the practical choice for most trips, roughly forty-five minutes to an hour south depending on traffic. Orlando and Fort Lauderdale offer more routes at the cost of a much longer drive. Witham Field in Stuart is close by but handles general aviation rather than commercial service." },
+      { q: "What should I know before launching a boat at the ramp here?", a: "Stage in the parking lot rather than on the ramp — plug in, straps off, gear aboard before you back down. The ramp gets busy on good weekends. Also register your vessel through the county Tax Collector, learn the marked manatee and idle-speed zones, and check tide and depth on your route if you draw more than a couple of feet." },
+      { q: "How should I prepare for hurricane season in Port Salerno?", a: "Find your evacuation zone before the season starts, since low-lying areas near the water are called first. Have shutters or panels sorted before June, keep roughly two weeks of water, food, medication, and cash, and photograph the property annually for insurance. If you own a boat, arrange a haul-out or safe dockage plan early — slots fill fast once a storm is named." },
+      { q: "What is the best time of year in Port Salerno?", a: "October through December is arguably the sweet spot — the heat has broken and the seasonal crowds have not yet arrived. January through April has excellent weather but the most traffic and the busiest water. July through September is hot, humid, and stormy, with afternoon convection that builds and clears quickly." },
     ],
-    internalLinks: ["what-its-really-like-living-in-port-salerno-florida", "best-things-to-do-in-port-salerno-florida", "hidden-gems-in-port-salerno-florida"],
+    internalLinks: ["what-its-really-like-living-in-port-salerno-florida", "hidden-gems-in-port-salerno-florida", "pros-and-cons-of-living-in-port-salerno-florida"],
     funFact: "Port Salerno is technically an unincorporated community in Martin County — no mayor, no city commission. That's part of why it's retained its working-village character without being redeveloped; there's no local government incentive to chase tax revenue through commercial growth.",
     author: 'christine',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -11741,13 +11820,15 @@ Communities differ on objective characteristics — price, property type, lot si
     h1: "Best Things to Do in Port Salerno, Florida",
     body: `Port Salerno's entire recreational identity is the water. That sounds like a limitation until you realize what's actually within reach: a fast inlet to the Atlantic, offshore reefs and wrecks worth diving, a boat-access barrier island most people never see, and a harbor that functions as the town's living room.
 
-Here's what's genuinely worth your time, including the parts visitors never find.
+Here's what's genuinely worth your time.
 
 ## Fish the inlet and offshore
 
 This is the headline. The **St. Lucie Inlet** puts you in the Atlantic quickly, which is the practical advantage that defines the town — less running time, more fishing time, and the flexibility to go out on a shorter weather window than boaters further from an inlet.
 
-Inshore, the St. Lucie River and the Indian River Lagoon system offer protected water when it's rough outside. Offshore, you're reaching reefs and deeper structure without a long haul.
+Inshore, the St. Lucie River and the Indian River Lagoon system offer protected water when it's rough outside. Snook, redfish, trout, and jacks work the mangrove edges, docks, and grass, and the fishing stays viable on days when going outside would be miserable.
+
+Offshore, you're reaching reefs and deeper structure without a long haul. What's running depends heavily on the calendar — the cooler months bring one set of species close, the warmer months another, and the pelagic migrations along this coast are the reason a lot of people keep boats here at all. Regulations, seasons, and bag limits change; check current state and federal rules before every trip rather than relying on what someone told you last year.
 
 If you don't own a boat, charter operations run out of the Pocket, and that's genuinely the smartest way to learn this water before you buy anything.
 
@@ -11755,7 +11836,9 @@ If you don't own a boat, charter operations run out of the Pocket, and that's ge
 
 Underrated, and one of the real arguments for living here. The offshore reefs and wreck sites in this stretch of the Treasure Coast draw divers from well outside the area, and Port Salerno is a practical launch point.
 
-Conditions vary considerably with wind and season — summer typically brings calmer water and better visibility. Local dive operators run trips and are the fastest way to figure out which sites suit your experience level.
+Sites range from shallow reef suitable for a newer diver to deeper structure that demands experience and proper planning. Conditions vary considerably with wind and season — summer typically brings calmer water and better visibility, while winter fronts can shut the offshore diving down for days at a stretch.
+
+Local dive operators run trips and are the fastest way to figure out which sites suit your certification and comfort level. Go with them a few times before you start planning your own trips; the people running boats out of here know which sites fish and dive well in which conditions, and that knowledge takes years to accumulate independently.
 
 ## St. Lucie Inlet Preserve State Park
 
@@ -11770,6 +11853,17 @@ If you make one boat trip in your first month here, make it this one.
 The community's practical waterfront anchor — a county park on the water with a public boat ramp, fishing, picnic areas, and green space. It's where you'll launch, where local events happen, and where a lot of residents end up for an unstructured hour by the water.
 
 The ramp gets busy on good weekends. Locals go early, which is generally good advice for everything here.
+
+## Destinations within a day's run
+
+Once you have a boat, the map opens up considerably, and these are the runs residents make regularly:
+
+- **Peck Lake and the protected water behind the barrier island**, for anchoring, swimming, and walking across to an empty stretch of Atlantic beach.
+- **The sandbars**, which function as the area's floating social venue on weekends — anchor up, wade, and meet half the village.
+- **South along the Intracoastal toward Jupiter Island**, past some of the most striking undeveloped shoreline on this coast.
+- **North toward Fort Pierce**, a longer run through the lagoon system with genuinely good fishing along the way.
+
+Each of these is a half-day at most, which is the real luxury of being this close to the water: they're ordinary weekend outings rather than expeditions.
 
 ## Watch the fleet at the Manatee Pocket
 
@@ -11787,14 +11881,6 @@ Buying seafood straight off the boats is a legitimate local ritual and the most 
 
 ![Brown pelican soaring against a cloudy Florida sky](/images/jupiter/jupiter-022.jpg "Summer afternoons build fast on this coast — get on the water early and watch the sky.")
 
-## Quieter finds most people miss
-
-- **The harbor at first light.** Different town at 6 a.m. than at noon. Boats heading out, working docks busy, and nobody around who isn't there for a reason.
-- **Paddling the protected water.** Kayak or paddleboard in the calmer stretches of the river system and around the mangroves — a completely different perspective from a powerboat, and free.
-- **Manatees in the cooler months.** They move into warmer, calmer water through the area. Give them space, don't feed them, and never chase them with a paddleboard — they're protected.
-- **The boatyards.** Not a tourist activity, but if you're at all mechanically curious, the working marine trades here are genuinely interesting to watch.
-- **Fishing from shore at Sandsprit** — no boat required, low commitment, and a good way to meet people who know this water.
-
 ## If you don't own a boat yet
 
 Plenty of people move here intending to buy one and take a while to get around to it. In the meantime, there's more access than newcomers assume:
@@ -11806,13 +11892,15 @@ Plenty of people move here intending to buy one and take a while to get around t
 
 Chartering first is genuinely good advice for anyone considering buying here. A few trips will teach you what kind of boat actually fits how you'd use this water, which is a much better basis for a purchase than a boat show.
 
-## Within a short drive
+Beyond these, there's a whole layer of low-key local spots that take residents a year or two to find — those are collected in our [rundown of the quieter finds](/blog/hidden-gems-in-port-salerno-florida).
 
-The village is small, so it helps to know what's nearby:
+## Day trips from here
 
-- **Stuart**, five minutes north, with a walkable historic downtown, broader dining, and the area's main retail.
-- **Hobe Sound and Jonathan Dickinson State Park**, south, for serious hiking, paddling, and camping in old-Florida terrain.
-- **Jensen Beach and the Atlantic beaches**, north, for actual ocean beach access.
+The village is small, so it helps to know what's within easy reach for an afternoon:
+
+- **Stuart**, minutes north, for a walkable historic downtown and the area's main retail.
+- **Jonathan Dickinson State Park**, south, for serious hiking, paddling, and camping in old-Florida terrain.
+- **The Atlantic beaches** at Jensen Beach and Hobe Sound, for actual ocean sand.
 - **Blowing Rocks Preserve**, further south on Jupiter Island, where winter surf pushes water through limestone in plumes.
 
 ## Seasonal timing that matters
@@ -11853,33 +11941,77 @@ Get on the water in your first month, whether that's a charter, a dive trip, a k
     primaryKeyword: "who should move to Port Salerno Florida",
     secondaryKeywords: ["is Port Salerno right for me", "should I move to Port Salerno", "who lives in Port Salerno"],
     h1: "Who Should Move to Port Salerno, Florida (And Who Shouldn't)",
-    body: `Port Salerno is a salty, authentic waterfront village — perfect for some, too unpolished for others.
+    body: `Most guides answer this question with adjectives. Salty. Authentic. Unpretentious. All true, and none of it tells you whether you'd actually be happy here two years in.
 
-**You'll love Port Salerno if you:**
-- **Boat or fish** — quick inlet access and a true fishing culture.
-- **Want authenticity** — a real working waterfront with old-Florida soul.
-- **Want value** — waterfront-area living for less than Stuart.
-- **Love fresh seafood** and dock-and-dine waterfront spots.
-- **Want dockage and a laid-back working-waterfront setting.**
-- **Like being near Stuart** for amenities without its prices.
+So here is the useful version: a set of specific profiles, what each one gets out of this village, and what each one needs to verify before writing an offer. If you don't see yourself in any of them, that is a real answer too — and a cheaper one than finding out after closing.
 
-**You might look elsewhere if you:**
-- **Want polish and upscale surroundings** — Port Salerno is working-class and varies block to block.
-- **Want a walkable, charming downtown** — that's Stuart, next door.
-- **Need lots of shopping and nightlife** — it's small and quiet.
-- **Want uniform, manicured neighborhoods.**
+## The profiles that thrive here
 
-**Gut-check:** if "a boat on the Pocket, fresh seafood, salty authenticity, and value" sounds like your speed, Port Salerno is a find. If you want polished and walkable, Stuart is minutes away.`,
+**The boat owner who actually uses the boat.** This is the archetype, and it isn't a stereotype — it's the reason the housing market here prices the way it does. If you run a vessel most weekends, being minutes from open water changes the arithmetic of your whole week. You go out on marginal forecasts because the commitment is small. You come back in when the weather turns instead of riding it out. Over a year that adds up to dozens of trips a person living further from an inlet simply never takes.
+
+*Verify before you buy:* your actual draft against the depth at your dock at mean low water, bridge clearances on your route out, and whether the slip or lift you're inheriting is sized for the boat you own now rather than the one the seller had.
+
+**The person who works in the marine trades.** Boatyards, canvas and rigging shops, engine mechanics, captains, mates, marine electronics. This is one of the few places on this coast where that career and a short drive to work still coexist, because the industry never got zoned out. If you turn wrenches on boats for a living, living inside the industry rather than commuting into it is a genuine quality-of-life upgrade.
+
+**The diver.** Underrated as a reason to move somewhere, but the offshore sites here draw people from well outside the county, and proximity means you dive on ordinary weekends instead of planning trips. If you're certified and lapsed, this is the kind of place that gets you back in the water.
+
+**The remote worker who wants quiet and doesn't need a scene.** The village has no commercial district competing for your attention, which is either the appeal or the problem. Broadband is generally adequate for video work, but coverage varies by street and provider more than you'd expect in 2026 — confirm what's actually serviceable at the specific address, in writing, before you assume it.
+
+**Retirees and active-adult buyers.** No state income tax, a slower pace, and water access that doesn't require the budget of the barrier islands. Several communities in the area are age-restricted 55+; several aren't. If age-restricted living is what you want, confirm the community's status and its governing documents rather than inferring it from who you see at the mailboxes.
+
+**The buyer priced out of the town next door.** A meaningful share of purchases here are made by people who wanted Stuart, ran the numbers, and found that the same money buys more house or more water frontage a few minutes south. That's a rational trade, and it's covered in detail in our [comparison of the surrounding towns](/blog/port-salerno-vs-nearby-cities).
+
+## The profiles that regret it
+
+**The buyer who wants to walk to things.** This is the single most common mismatch, and it's worth being blunt. The village is not walkable in any practical sense — there's no continuous sidewalk network, no district of shops to stroll, and the distances plus the summer heat mean you will drive. Buyers who imagined evening walks to dinner tend to be disappointed within the first season.
+
+**The buyer who doesn't own and doesn't want a boat.** If you subtract the water, what remains is a quiet residential area with limited amenities and a drive to nearly everything. The location premium here is built on inlet proximity. Paying it and never using it is the clearest way to overpay in this market.
+
+**The buyer who needs a large employment market nearby.** The local economy is marine trades, hospitality, healthcare, and services. If your field isn't represented, you're commuting — and the honest drive times matter more than the map suggests.
+
+**The buyer who wants architectural consistency.** Housing stock here varies widely in age, style, and condition, sometimes within a single block. Some people read that as character. Others find it grating every time they pull into the driveway. Know which one you are before you commit.
+
+## Work and commuting, honestly
+
+This is where the fantasy meets the calendar, and it deserves specifics.
+
+Stuart is the nearest concentration of employment, healthcare, and government offices, and it's a short drive — the one commute here that nobody complains about. Beyond that, the picture changes:
+
+- **Northern Palm Beach County** — Jupiter, Palm Beach Gardens — is a real commute. It's manageable a couple of days a week and genuinely wearing five days a week, particularly in season when the population swells and the corridors thicken.
+- **West Palm Beach and points south** turn a hybrid schedule into a serious daily commitment. People do it. Most of them eventually either move south or renegotiate their days in the office.
+- **Northbound toward the Port St. Lucie employment corridors** is generally the easier direction, since you're running against the heaviest flow.
+
+If your job requires being somewhere specific every morning, drive the route at the hour you'd actually be driving it, in February rather than August. Season is the stress test, and the off-season drive will lie to you about it.
+
+## A test worth running before you commit
+
+Rent first if you possibly can. Not for a weekend — for a season, and ideally the season you're least sure about.
+
+Two things reveal themselves only over time. The first is the working-harbor soundscape: vessels leaving before dawn, trucks at the docks early, yard equipment during business hours. Most residents stop hearing it within a month, and a minority never do. There is no way to know which group you're in from a Saturday afternoon showing.
+
+The second is the summer. Anyone can enjoy this place in January. The question is how you feel in late August, when the heat is relentless, storms build most afternoons, the seasonal population has thinned out, and the social calendar is thin. If you like it then, you'll love it the rest of the year.
+
+## The gut check
+
+Go to the harbor at first light on a weekday and watch for an hour.
+
+If your reaction is *I want to be part of this* — the boats, the water, the unhurried competence of people who work on it — you'll fit here, and the trade-offs in our [honest ledger of the upsides and drawbacks](/blog/pros-and-cons-of-living-in-port-salerno-florida) will read as acceptable.
+
+If your reaction is mostly *I wish there were somewhere nice to get breakfast* — believe that instinct. It isn't snobbery, and it doesn't fade. It means you want a different town, and there are good ones within ten minutes.
+
+The buyers who are happiest here are the ones who were honest with themselves at that moment. Before you commit to the [full carrying cost of a waterfront property](/blog/cost-of-living-in-port-salerno-florida), make sure you're buying the life and not the idea of it.`,
     faqs: [
-      { q: "Who lives in Port Salerno?", a: "Port Salerno housing includes older cottages and single-family homes, canal-front properties with dockage, and condominiums, clustered around a working commercial fishing harbor at the Manatee Pocket. Price points are among the more accessible waterfront options in Martin County." },
-      { q: "Is Port Salerno good for retirees?", a: "Port Salerno offers the most accessible waterfront pricing in Martin County with canal-front dockage and single-level older homes, though retail, dining, and organized amenities are limited compared with Stuart." },
-      { q: "Is Port Salerno good for families?", a: "Port Salerno offers the most accessible waterfront pricing in Martin County and sits in the Martin County school district, though it is a working commercial harbor with limited retail and organized recreation. Stuart and Palm City are minutes away for both. Verify school assignments with the district." },
-      { q: "Is Port Salerno worth it?", a: "For boaters and authenticity-seekers wanting waterfront value, many feel it's a genuine find. Those wanting polish or walkability often prefer Stuart next door." },
+      { q: "Do I need to own a boat to enjoy living in Port Salerno?", a: "No, but you should want to use the water somehow — chartering, diving, paddling, or shore fishing all count. The location premium here is built on quick access to open water. Buyers who never touch it are paying for an amenity they don't use, and they tend to be the ones who resell within a few years." },
+      { q: "Is Port Salerno a realistic place to live if I work in Palm Beach County?", a: "It depends entirely on how often you go in. A couple of days a week is workable for most people. A five-day commute to northern Palm Beach County is wearing, and anything south of that becomes a serious daily commitment. Drive your actual route at your actual hour during winter season before deciding — the off-season drive is misleadingly pleasant." },
+      { q: "Is Port Salerno good for retirees?", a: "It suits retirees who want a quiet, water-oriented pace and no state income tax, particularly those who boat or fish. It suits them less if they want walkability, a dense calendar of organized activities, or medical specialists within a few minutes. Some communities in the area are age-restricted 55+ and some are not — confirm a community's status and its governing documents directly rather than assuming." },
+      { q: "Should I rent in Port Salerno before buying?", a: "If you can, yes. Two things only reveal themselves over time: whether the early-morning working-harbor activity fades into background noise for you, and how you feel about the village in late summer when the heat is at its worst and the seasonal population has thinned. Both are much cheaper to discover as a tenant." },
+      { q: "What kind of buyer regrets moving to Port Salerno?", a: "Most commonly, the buyer who wanted a walkable downtown. There's no continuous sidewalk network and no district of shops to stroll, so you'll drive for nearly everything. The other common mismatch is the buyer who wanted architectural consistency — housing stock here varies widely in age and condition, sometimes on the same block." },
+      { q: "What jobs actually exist in Port Salerno?", a: "The local economy runs on marine trades — boatyards, repair, canvas and rigging, charter operations — along with hospitality, healthcare, and general services. If your field is represented, the short commute is a genuine advantage. If it is not, plan on driving to Stuart or further, and budget the time honestly." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-port-salerno-florida", "cost-of-living-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
+    internalLinks: ["pros-and-cons-of-living-in-port-salerno-florida", "cost-of-living-in-port-salerno-florida", "port-salerno-vs-nearby-cities"],
     funFact: "Port Salerno is one of the last active commercial-fishing communities on the Treasure Coast. While most nearby waterfront towns have transitioned entirely to recreational boating, the Manatee Pocket still has working fish houses buying and selling fresh catch — a piece of old Florida that's increasingly rare.",
     author: 'john',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -11895,31 +12027,80 @@ Get on the water in your first month, whether that's a charter, a dive trip, a k
     secondaryKeywords: ["Port Salerno pros and cons", "living in Port Salerno downsides", "is Port Salerno worth it"],
     h1: "Pros and Cons of Living in Port Salerno, Florida",
     showMarketTrends: true,
-    body: `## The Pros
-- **Authentic working waterfront** — real old-Florida character on the Manatee Pocket.
-- **Boating and fishing** — quick St. Lucie Inlet and offshore-reef access.
-- **Value** — waterfront-area living for less than Stuart.
-- **Fresh seafood** — dock-and-dine restaurants on the harbor.
-- **Near Stuart and the beaches** — amenities minutes away.
-- **No state income tax.**
+    body: `Every town's pros-and-cons list is really an argument about which drawbacks you can live with. A bullet list that treats "quiet nightlife" and "your street may still be on septic" as equivalent isn't much help.
 
-## The Cons
-- **Less polished** — working-class and varies block to block.
-- **Small** — limited shopping and dining (Stuart fills the gap).
-- **Quiet nightlife.**
-- **Florida climate** — warm summers and hurricane awareness are part of life here; waterfront properties benefit most from getting insurance quotes early.
+So this one weighs them. Each item gets what it actually costs you, how often it comes up, and whether it's fixable.
 
-**Bottom line:** for boaters and people who want authentic waterfront living and value, Port Salerno is a salty gem. If you want polish, walkability, or lots of amenities, lean on Stuart next door.`,
+## The genuine advantages
+
+**Open water is close, and that changes everything.** This is the whole case for the village, and it's not marketing. Short running time to the inlet means shorter weather windows are usable, half-day trips are worth taking, and the boat gets used rather than admired. For a household organized around the water, nothing else on this list matters as much.
+
+*How often it comes up:* every single week you own a boat.
+
+**You get more waterfront for the money than the towns around you.** Frontage here has historically priced below comparable water in the surrounding towns. That gap is the reason a lot of people end up here, and it's real — though it has narrowed as the area has been discovered.
+
+*The catch:* the discount is partly a discount on the house. Older stock, more deferred maintenance, more variation. You're often trading building condition for water access, which is a fine trade if you go in knowing it.
+
+**Martin County's growth rules have held.** The county has pursued strict growth management for decades, including height limits that kept it low-rise while counties to the south went vertical. Whatever you think of the politics, the practical result is less density, fewer towers, and a coastline that still looks like the one people moved here for.
+
+*Why it matters more than it sounds:* it's the closest thing to a guarantee that the view you buy is the view you keep.
+
+**No state income tax.** Straightforward, and material for retirees and high earners alike. It does not mean your total tax burden is low — property taxes and insurance do plenty of work — but it's a real line item that isn't there.
+
+**The community is unusually easy to enter.** Shared interests do the work that organized social infrastructure does elsewhere. If you fish, dive, or keep a boat, you will meet people at the ramp and the yard without joining anything.
+
+**Nature is genuinely close.** Preserve land, protected inland water, and undeveloped barrier-island beach are all within reach, most of it uncrowded because access is limited.
+
+## The genuine drawbacks
+
+**You will drive for essentially everything.** No walkable core, no meaningful transit, no grocery-and-coffee errand you can do on foot. This is the drawback residents cite most, and it is not fixable.
+
+*How often it comes up:* daily.
+
+**It is a working harbor, with the hours that implies.** Commercial and charter vessels leave before dawn. Trucks arrive at the docks early. Yards run equipment during business hours. Most residents stop noticing within a month. A minority never do, and for them it's a serious ongoing irritation.
+
+*Fixable?* Partly, by street selection — but understand that the activity is the town's economic base, not a nuisance that will be regulated away.
+
+**Being unincorporated has practical consequences.** There is no city hall, no municipal police department, and no local council. Martin County provides services, the Sheriff's Office handles law enforcement, and county code enforcement applies. In practice this means a longer chain of command when you want something addressed, and decisions about your neighborhood get made at a county building by people representing a much larger area.
+
+*The upside of the same fact:* fewer overlapping layers of government and no separate municipal tax.
+
+**Utility infrastructure varies block to block.** Some properties are on county sewer; others remain on septic, and conversion projects tied to lagoon water quality have been ongoing in parts of the area for years. A septic system is not a dealbreaker, but it's a maintenance obligation, a possible future assessment, and a question you must answer for the specific parcel — never the general neighborhood.
+
+**Water quality in the estuary is a real and recurring issue.** The St. Lucie River and the Indian River Lagoon have periodically suffered from freshwater discharges and nutrient loading, with visible effects on clarity, seagrass, and sometimes algae. Conditions vary year to year and there has been sustained restoration work, but any honest account of living on this water has to include it. If you're buying specifically for the water, read up on the estuary's recent history rather than judging by the week you toured.
+
+**Storm exposure is concentrated here.** Everyone in Florida deals with hurricane season. Waterfront households deal with it twice — once for the house and once for the vessel. Low-lying areas near the harbor fall into the earliest evacuation zones the county calls, which means you leave sooner and more often than someone a few miles inland. Confirm the specific zone for any address you're considering.
+
+**Insurance and flood are the deciding costs, not the sticker price.** For waterfront and near-waterfront property here, the premium is frequently the number that determines which houses you can actually afford. Quote before you're under contract, not after. Our [cost of living breakdown](/blog/cost-of-living-in-port-salerno-florida) walks through the full carrying picture.
+
+**The amenity base is thin and always will be.** Limited retail, a small dining scene, no nightlife to speak of. Stuart covers the gap, which is why most residents don't experience this as a hardship — but it does mean the town itself will never be the reason you stay.
+
+**Resale is narrower than in a mass-market suburb.** A working-waterfront village appeals strongly to a specific buyer and not at all to most others. That's fine when you're buying — it's why the value is there — but it can mean longer marketing times when you sell, particularly for unusual properties.
+
+## Weighing it
+
+The pattern is unusually clean. Nearly every drawback is a direct consequence of something on the advantages list.
+
+The harbor noise exists because the working waterfront exists, which is why the character is real. The thin retail exists because the village stayed small, which is why it isn't crowded. The variable housing stock exists because nobody master-planned it, which is why there's no architectural committee and why the frontage is affordable. The evacuation exposure exists because you're on the water, which is the entire point.
+
+That makes the decision less about tallying columns and more about a single question: is quick access to open water worth reorganizing your daily logistics around?
+
+For people who use the water constantly, it isn't close — the drawbacks are administrative and the advantage is life-shaping. For people who don't, the same list reads as a lot of inconvenience in exchange for a view.
+
+Work out which one you are, then get concrete: run the numbers, confirm the utilities and evacuation zone for the actual parcel, and read our [practical guide to operating here](/blog/local-guide-to-port-salerno-florida) for the logistics nobody mentions until you've moved in.`,
     faqs: [
-      { q: "What are the pros of living in Port Salerno?", a: "An authentic working waterfront, great boating and fishing with quick inlet access, value pricing, fresh seafood, proximity to Stuart and the beaches, and no state income tax." },
-      { q: "What are the downsides of living in Port Salerno?", a: "It's less polished and varies block to block, it's small with limited shopping and quiet nightlife, and Florida's warm climate and waterfront insurance planning are worth addressing early in your search." },
-      { q: "Is Port Salerno worth it?", a: "For boaters and authenticity-seekers who want waterfront value, many feel it's worth it. Those wanting polish and amenities often prefer Stuart minutes away." },
-      { q: "Is Port Salerno safe?", a: "Crime statistics vary by area. Buyers should review Martin County Sheriff's Office data and the FDLE Uniform Crime Reports for the specific neighborhood they are considering." },
+      { q: "What is the biggest downside of living in Port Salerno?", a: "Car dependence. There is no walkable core, no meaningful transit, and no errand you can reasonably do on foot, so you drive for essentially everything. Residents cite it more than any other drawback, and unlike noise or insurance costs it is not something you can address by choosing a different street." },
+      { q: "Is the noise from the working waterfront actually a problem?", a: "It depends on the person and the street. Commercial and charter vessels leave before dawn, trucks reach the docks early, and boatyards run equipment during business hours. Most residents stop noticing within a month. A minority never adjust. Renting through a season first is the only reliable way to find out which group you are in." },
+      { q: "Is Port Salerno on city sewer or septic?", a: "Both, depending on the parcel. Some properties are connected to county sewer and others remain on septic, with conversion projects tied to lagoon water quality ongoing in parts of the area. Confirm the status for the specific address, and ask whether any future assessment is anticipated for that street." },
+      { q: "What does it mean that Port Salerno is unincorporated?", a: "There is no city government, no municipal police department, and no local council. Martin County provides services, the Sheriff's Office handles law enforcement, and county code enforcement applies. You avoid a separate municipal tax and an extra layer of government, but decisions affecting your neighborhood are made at the county level." },
+      { q: "Should I worry about water quality in the St. Lucie River and the lagoon?", a: "You should be informed about it. The estuary has periodically suffered from freshwater discharges and nutrient loading, with visible effects on clarity and seagrass, though conditions vary year to year and substantial restoration work is ongoing. If you are buying specifically for the water, research the estuary's recent history rather than judging by the week you happened to tour." },
+      { q: "Is Port Salerno hard to resell?", a: "It appeals strongly to a specific buyer — someone who wants working-waterfront character and quick access to open water — and not much to anyone else. That narrower pool is part of why the value is there when you buy, but it can mean longer marketing times when you sell, especially for unusual or heavily customized properties." },
+      { q: "Does Port Salerno flood?", a: "Low-lying areas near the harbor sit in the earliest evacuation zones Martin County calls, and flood insurance is a significant cost for waterfront and near-waterfront property. Flood risk is parcel-specific rather than neighborhood-wide, so get the elevation certificate and a flood quote for the actual address before you are under contract." },
     ],
-    internalLinks: ["cost-of-living-in-port-salerno-florida", "who-should-move-to-port-salerno-florida", "port-salerno-vs-nearby-cities"],
+    internalLinks: ["who-should-move-to-port-salerno-florida", "cost-of-living-in-port-salerno-florida", "local-guide-to-port-salerno-florida"],
     funFact: "Buying a waterfront home on the Manatee Pocket means your backyard is a working waterway — commercial boats pass at 5am, the smell of diesel and fresh fish is real, and the energy is nothing like a polished marina. That authentic character is the appeal, but it's good to know going in.",
     author: 'christine',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -12049,31 +12230,105 @@ Port Salerno offers authentic waterfront living at genuine Treasure Coast value,
     primaryKeyword: "hidden gems in Port Salerno Florida",
     secondaryKeywords: ["Port Salerno secret spots", "St. Lucie Inlet Preserve", "Sandsprit Park"],
     h1: "Hidden Gems in Port Salerno, Florida",
-    body: `Port Salerno's gems are salty, scenic, and authentic.
+    body: `The well-known things here are genuinely good, and they're covered in [our guide to what's worth doing](/blog/best-things-to-do-in-port-salerno-florida). This is the other list — the small, low-profile, mostly free things that take residents a year or two to find, and that visitors almost never do.
 
-**St. Lucie Inlet Preserve State Park.** Boat over to this barrier-island park for a pristine, often-empty beach, a mangrove boardwalk, and one of the area's best snorkeling reefs just offshore.
+Several of them aren't attractions at all. That's rather the point.
 
-**The fish houses.** Buying fresh-off-the-boat seafood (or eating it dockside) on the Manatee Pocket is a quintessential local experience most visitors miss.
+## The commercial fishing dock
 
-**Sandsprit Park.** A quiet waterfront county park with a boat ramp, fishing, and green space — a low-key local favorite.
+Most people drive past it. It's one of the last working commercial fishing docks on this stretch of coast, and standing near it while a boat offloads is the most direct experience of what this village actually is — not a heritage display, not a restored anything, just people doing a difficult job the way it has been done here for generations.
 
-**The Manatee Pocket at golden hour.** Watching the fishing fleet and recreational boats against a sunset is a free, only-here pleasure.
+Go on a weekday morning. Stay out of the way, don't photograph people without asking, and you'll see something that has largely disappeared from the Florida coastline.
 
-**Offshore reefs and wrecks.** Diving and snorkeling the area's reefs from Port Salerno is world-class and underrated.
+## Pendarvis Cove Park
 
-**The Fish House art and culture.** The village's working-waterfront heritage shows up in local art and the Seafood Festival — authentic Florida character.
+A small county park on the harbor that gets a fraction of the traffic the main ramp does. There's shoreline, shade, a place to sit, and usually almost nobody.
 
-These genuine, water-soaked experiences are what make Port Salerno special.`,
+It's the spot residents go when they want twenty minutes by the water without the logistics of going out on it. Bring a chair. That's the whole activity.
+
+## Salerno Settlement and the village's inland history
+
+The waterfront gets all the attention, but the settlement's roots run inland, and traces of that older community are still legible if you know to look — original street patterns, a scattering of early buildings, and lot lines that predate anything resembling modern planning.
+
+The village grew from settlers, fishing families, and generations of people who worked the water long before there was a market for waterfront views. Understanding that history explains something practical, too: it's why the housing stock varies so much block to block, and why nothing here looks master-planned. It wasn't.
+
+## The art center at the fish house
+
+An arts complex occupying working waterfront buildings, with studios and galleries in a setting that's still unmistakably industrial. It's small, it's easy to miss, and it's one of the few places where the village's creative side and its working side occupy the same footprint.
+
+Hours vary and the schedule is seasonal — check before making a trip of it.
+
+## Manatee Creek
+
+The tidal creek feeding into the harbor is the quietest paddling in the immediate area. Mangroves, wading birds, and water that stays calm when the open stretches are unpleasant.
+
+A kayak or paddleboard is all you need. It's also the best answer to a windy day when going out isn't appealing.
+
+## Manatees in the cool months
+
+They move into warmer, calmer water through this area when temperatures drop, and seeing them from a dock or a quiet shoreline is an ordinary winter occurrence rather than a special event.
+
+They're federally protected. Give them room, never feed them, and don't pursue them on a paddleboard — beyond being illegal, harassment stresses animals already dealing with cold.
+
+## The boatyards
+
+Not a destination, and not somewhere to wander unannounced. But if you're mechanically curious, the marine trades here are genuinely interesting — hulls out of the water, rigging work, engines apart, problems being solved by people who've solved them a thousand times.
+
+If you're new and plan to own a boat, the yards are also where you'll get better advice than any forum will give you. Buy the coffee.
+
+## Shore fishing without a boat
+
+Newcomers assume you need a vessel to fish here. You don't, and several accessible spots along the harbor and the river system produce well, particularly around moving tide.
+
+Bring a Florida saltwater license, check current regulations for what you're targeting, and go at dawn or dusk. It's also the fastest way to meet people who understand this water — the shore-fishing crowd is generally happy to talk.
+
+## The harbor at first light
+
+Free, available every morning, and the single most characteristic experience the village offers.
+
+Between roughly five-thirty and seven, the place operates on a different logic — vessels heading out, docks busy, nobody present who doesn't have a reason to be. By nine it's an ordinary quiet Florida community. For that hour and a half it's something else.
+
+## The road-end water access points
+
+Scattered through the residential streets are places where a road simply stops at the water. Some are platted public access, some are county right-of-way, and a few are neither despite what a neighbor may tell you.
+
+The legitimate ones are quietly valuable — a place to launch a kayak, drop a line, or sit for twenty minutes without driving to a park. Residents guard the knowledge lightly rather than secretively; ask at the ramp and someone will tell you.
+
+The caution is worth stating: confirm that access is genuinely public before you make a habit of it. Private easements and neighborhood-association parcels look identical to county right-of-way from the street, and the distinction only surfaces when someone objects.
+
+## The paddling nobody talks about
+
+Beyond the creek, the protected stretches of the river system and the mangrove edges offer hours of flatwater that powerboats can't reach and mostly don't want.
+
+Early morning is best for wind and wildlife both. Wear sun protection you'd consider excessive, carry more water than seems necessary, and tell someone your route — the mangrove edges look identical from the water and it's easier to get turned around than you'd expect.
+
+## The seasonal quiet
+
+Not a place, but a genuine and rarely mentioned feature.
+
+Between late spring and early fall, the seasonal population thins dramatically. The ramp is uncrowded, the restaurants have tables, and the water is quieter than at any other time of year. It's hot — genuinely, unpleasantly hot by August — but if you can tolerate that, you get a version of this coast that the winter residents never see.
+
+Plenty of year-round residents will tell you privately that it's their favorite stretch of the calendar.
+
+## Making the most of these
+
+Almost everything here rewards being early. Wildlife is more active, wind is lighter, heat is bearable, and you'll have most of it to yourself.
+
+The other rule is patience. This isn't a village that presents itself — there's no visitor center pointing you at the good parts, and the good parts are mostly ordinary things happening in a specific place. Give it a season and you'll assemble your own version of this list, which is the only one that really matters.
+
+When you're ready to handle the practical side of settling in, our [guide to operating here day to day](/blog/local-guide-to-port-salerno-florida) covers the logistics — and our [rundown of where to eat](/blog/best-places-to-eat-drink-hang-out-in-port-salerno-florida) covers the fish houses properly.`,
     faqs: [
-      { q: "What are the hidden gems in Port Salerno?", a: "The boat-access St. Lucie Inlet Preserve State Park, the fresh seafood fish houses on the Manatee Pocket, Sandsprit Park, sunset over the fishing fleet, and the offshore reefs and wrecks for diving." },
-      { q: "Can you get fresh seafood in Port Salerno?", a: "Yes — the Manatee Pocket's fish houses offer fresh-off-the-boat seafood, a hallmark of this working-waterfront village." },
-      { q: "What is Sandsprit Park?", a: "A quiet waterfront county park in the Port Salerno area with a boat ramp, fishing, and green space along the water." },
-      { q: "Is there good diving near Port Salerno?", a: "Yes — Port Salerno is a launch point for diving and snorkeling the area's offshore reefs and wrecks, including the reef at St. Lucie Inlet Preserve." },
+      { q: "What is Port Salerno's best-kept secret?", a: "The harbor between roughly five-thirty and seven in the morning. Vessels heading out, docks working, and nobody around who does not have a reason to be there. It costs nothing, happens every day, and tells you more about the village than any attraction does. By nine it looks like an ordinary quiet Florida community." },
+      { q: "Can I fish in Port Salerno without a boat?", a: "Yes. Several accessible spots along the harbor and the river system produce well, particularly around moving tide. Bring a Florida saltwater fishing license and check current regulations for whatever you are targeting. Dawn and dusk are best, and the shore-fishing crowd is generally happy to share local knowledge." },
+      { q: "Where can I see manatees near Port Salerno?", a: "They move into warmer, calmer water throughout this area during the cooler months, and spotting them from a dock or quiet shoreline is an ordinary winter occurrence. They are federally protected, so give them room, never feed them, and do not pursue them on a paddleboard — harassment is illegal and stresses animals already coping with cold." },
+      { q: "Is there anything to do in Port Salerno that does not involve a boat?", a: "Quite a lot, though most of it is low-key: Pendarvis Cove Park for shoreline and shade, shore fishing along the harbor, the art center in the working waterfront buildings, watching the commercial dock on a weekday morning, and paddling Manatee Creek with a kayak you can carry." },
+      { q: "What is the best time of year to enjoy Port Salerno?", a: "Winter has the best weather but the most people. Many year-round residents privately prefer late spring through early fall, when the seasonal population thins, the ramp is uncrowded, and restaurants have tables. It is genuinely hot by August, so it depends entirely on your heat tolerance." },
+      { q: "Why does Port Salerno look so different from block to block?", a: "Because it was never master-planned. The settlement grew from fishing families and early settlers over generations, well before there was a market for waterfront views, so lot lines and street patterns predate modern planning. The variation in housing age, style, and condition is a direct result of that history." },
     ],
-    internalLinks: ["best-things-to-do-in-port-salerno-florida", "local-guide-to-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
+    internalLinks: ["best-things-to-do-in-port-salerno-florida", "local-guide-to-port-salerno-florida", "best-places-to-eat-drink-hang-out-in-port-salerno-florida"],
     funFact: "Sandsprit Park was a local secret for years — a quiet county park with a boat launch, fishing, and waterfront views known mainly to locals and serious boaters. It's been upgraded but still has that used-by-locals-not-tourists character that makes it worth seeking out.",
     author: 'christine',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
@@ -12089,27 +12344,109 @@ These genuine, water-soaked experiences are what make Port Salerno special.`,
     secondaryKeywords: ["Port Salerno vs Stuart", "Port Salerno vs Hobe Sound", "Port Salerno vs Port St. Lucie"],
     h1: "Port Salerno vs Nearby Cities: How to Choose",
     showMarketTrends: true,
-    body: `Choosing among the Stuart-area towns? Here's the honest comparison.
+    body: `Almost nobody shops this village in isolation. Buyers arrive with a short list of Martin County towns and a vague sense that they're all "the Stuart area," which is true administratively and misleading in every way that affects daily life.
 
-**Port Salerno vs Stuart.** Stuart has the charming, polished historic downtown and more amenities; Port Salerno is the salty, authentic, more affordable working-waterfront village next door. Choose Stuart for downtown charm; Port Salerno for value and waterfront authenticity.
+These places are close enough to share a hospital system and a school district and different enough that picking the wrong one costs you real money and a year of quiet disappointment. Here's how they actually compare.
 
-**Port Salerno vs Hobe Sound.** Both are quiet Martin County spots — Hobe Sound is more nature-and-park focused, Port Salerno more fishing-and-boating focused. Choose Hobe Sound for state parks and beaches; Port Salerno for the working waterfront and seafood.
+## vs Stuart
 
-**Port Salerno vs Port St. Lucie.** Port St. Lucie (to the north) is much bigger, newer, and sprawling, with master-planned value; Port Salerno is a small, authentic village. Choose Port St. Lucie for new homes and scale; Port Salerno for character and waterfront access.
+The comparison that matters most, because it's the one nearly every buyer is really making.
 
-**Port Salerno vs Jensen Beach.** Jensen Beach offers a small beach-town feel; Port Salerno offers a working-harbor vibe. Choose by whether you want beach-town or boat-town.
+Stuart has the walkable historic downtown, the broader restaurant and retail selection, the civic institutions, and the polish. It also has higher prices, particularly for anything near the water or the downtown core.
 
-**How to choose:** rank **waterfront value + authenticity** (Port Salerno), **downtown charm** (Stuart), **nature + parks** (Hobe Sound), or **new homes + scale** (Port St. Lucie).`,
+This village has quicker access to open water, more frontage per dollar, and a character that is worked rather than curated.
+
+Here's the thing that surprises people: they're minutes apart. You get Stuart's amenities either way. Nobody living here is cut off from a good dinner — they're a short drive from it.
+
+So the real question isn't which town offers more. It's which one you want to wake up in and walk out into. Buyers who want to walk to dinner belong in Stuart and should stop resisting it. Buyers who want to run out the inlet before sunrise belong here.
+
+**Choose Stuart if:** walkability, dining variety, and a downtown you can stroll rank above water access.
+**Choose here if:** the boat is central, and you'd rather put the difference into frontage than into location polish. Compare against [what daily life actually feels like](/blog/what-its-really-like-living-in-port-salerno-florida) before deciding.
+
+## vs Palm City
+
+Palm City sits inland and west, across the river, and it's the choice for buyers who want space and newer construction more than salt air.
+
+You get larger lots, a lot of newer housing stock, quiet residential subdivisions, and easy access to the highway corridors. What you don't get is quick ocean access — the boating there is river boating, and reaching the inlet takes real time.
+
+**Choose Palm City if:** you want more house and land for the money, newer construction, and don't need fast access to open ocean.
+**Choose here if:** running time to the inlet is the point. See [our breakdown of the housing here](/blog/best-neighborhoods-in-port-salerno-florida) for what the money actually buys.
+
+## vs Hobe Sound
+
+South along the coast, and the closest thing to a philosophical opposite within the county.
+
+Hobe Sound orients around conservation land and beach — the state park, the preserves, the barrier island. It's quiet in a hushed, tree-canopied way. This village is quiet in a working way, which is a different thing entirely: there's activity, it's just not social activity.
+
+Hobe Sound also spans an unusually wide range, from modest inland neighborhoods to some of the most expensive addresses on this coast.
+
+**Choose Hobe Sound if:** hiking, beach access, and preserve land matter more than a boat slip. Their [side-by-side comparison of the same towns](/blog/hobe-sound-vs-nearby-cities) is worth reading alongside this one.
+**Choose here if:** the water is for using rather than looking at.
+
+## vs Jensen Beach
+
+North, on the water, and genuinely charming in a beach-town way.
+
+Jensen Beach gives you actual Atlantic beach as your default outdoor setting, a small commercial strip with some life to it, and a lighter, more casual coastal feel. It's a beach town. This is a boat town. The distinction sounds minor and shapes everything about how you spend a Saturday.
+
+**Choose Jensen Beach if:** you picture yourself walking onto sand.
+**Choose here if:** you picture yourself running out an inlet.
+
+## vs Sewall's Point and the barrier islands
+
+Worth naming because buyers looking at water often drift into these listings.
+
+Sewall's Point and the island addresses are the premium tier — quiet, green, heavily residential, and priced accordingly. Beautiful, and a different budget conversation entirely.
+
+**Choose those if:** the budget is there and you want prestige and privacy above all.
+**Choose here if:** you'd rather spend the money on the boat than the address.
+
+## vs Port St. Lucie
+
+North, in the next county, and a fundamentally different product.
+
+Port St. Lucie is one of Florida's largest cities by land area — master-planned, newer, enormous, with the amenities that scale brings and the sprawl that comes with it. If you want a new-construction house with a warranty and a big-box store minutes away, it delivers that far better than anything in Martin County.
+
+It's also in St. Lucie County, which means a different school district, different millage, and different county services. Don't carry assumptions across the line.
+
+**Choose Port St. Lucie if:** new construction, scale, and price-per-square-foot lead your list. Their [own comparison guide](/blog/port-st-lucie-vs-nearby-cities) covers it from the other direction.
+**Choose here if:** character, water access, and Martin County's growth limits matter more than square footage.
+
+## vs Jupiter
+
+Further south, in Palm Beach County, and the aspirational alternative for a lot of buyers on this list.
+
+Jupiter offers its own inlet, excellent beaches, a much deeper dining and retail scene, and a considerably higher price point. It is, fairly, a more polished version of the boating-town idea.
+
+The trade is money and density. You pay substantially more, and you share the water with far more people.
+
+**Choose Jupiter if:** the budget stretches and you want amenities alongside the boating.
+**Choose here if:** you'd rather have a shorter run to open water, a quieter ramp, and change left over.
+
+## How to actually decide
+
+Rank these four in order, honestly, before you tour anything:
+
+1. **Time from your dock to open ocean.** If this is first, the list gets very short and this village wins it.
+2. **Walkability and dining.** If this is first, you want Stuart or Jensen Beach.
+3. **House size, age, and condition.** If this is first, look inland — Palm City or Port St. Lucie.
+4. **Nature and beach access.** If this is first, Hobe Sound.
+
+Most buyers can't have all four. The ones who end up happy figured out their true first choice before they started looking, rather than discovering it after they'd already bought around it.
+
+One practical note: whichever way you lean, confirm which county you're in. The Martin–St. Lucie line changes your school district, your tax bill, and your county services, and buyers routinely assume figures from one side apply to the other. They don't. Verify independently, every time.`,
     faqs: [
-      { q: "Port Salerno or Stuart — which is better?", a: "Stuart has the charming, polished downtown and more amenities; Port Salerno is the salty, authentic, more affordable working-waterfront village. It comes down to downtown charm versus waterfront value and authenticity." },
-      { q: "Port Salerno vs Hobe Sound?", a: "Both are quiet Martin County towns — Hobe Sound is more nature-and-park focused, Port Salerno more fishing-and-boating focused." },
-      { q: "Is Port Salerno cheaper than Stuart?", a: "Generally yes — its less-polished, working-waterfront character makes it a value alternative to Stuart." },
-      { q: "Which town is best for boaters and anglers?", a: "Port Salerno is a standout, with its working harbor and quick access to the St. Lucie Inlet and offshore reefs." },
+      { q: "Port Salerno or Stuart — which should I choose?", a: "Stuart if you want to walk to dinner, browse a downtown, and have dining variety at hand. Port Salerno if the boat is central and you'd rather spend the difference on water frontage than location polish. They're minutes apart, so you get Stuart's amenities either way — the real question is which one you want to wake up in." },
+      { q: "How is Port Salerno different from Hobe Sound?", a: "Hobe Sound orients around conservation land, preserves, and beach access, and it's quiet in a hushed, tree-canopied way. Port Salerno is quiet in a working way — there's activity, it just isn't social. Choose Hobe Sound if hiking and beach matter most; choose Port Salerno if you want to use the water rather than look at it." },
+      { q: "Is Port St. Lucie a better value than Port Salerno?", a: "On price per square foot, generally yes — it is newer, master-planned, and enormous, so it delivers more house for the money. But it is in a different county, with a different school district and different millage, and it cannot offer quick inlet access or Martin County growth limits. The two are different products, not different prices for the same thing." },
+      { q: "Should I consider Palm City instead of Port Salerno?", a: "Consider it if you want larger lots, newer construction, and easy highway access, and if river boating is enough for you. Palm City sits inland across the river, so reaching the ocean takes real time. If running time to the inlet is what you are buying, Palm City will not satisfy you regardless of what the house looks like." },
+      { q: "How does Port Salerno compare to Jupiter?", a: "Jupiter is the more polished version of the same boating-town idea — its own inlet, better beaches, a much deeper dining and retail scene, and a considerably higher price point. The trade is money and crowding. Port Salerno offers a shorter run to open water, a quieter ramp, and meaningful change left over." },
+      { q: "What is the single most useful question for choosing between these towns?", a: "Rank walkability, water access, house size, and nature in honest order before you tour anything. Most buyers cannot have all four. Those who end up happy identified their true first priority in advance instead of discovering it after buying around it." },
     ],
-    internalLinks: ["cost-of-living-in-port-salerno-florida", "pros-and-cons-of-living-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
+    internalLinks: ["who-should-move-to-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida"],
     funFact: "Waterfront properties near the St. Lucie Inlet in Port Salerno have historically priced below comparable Stuart waterfront — sometimes by a meaningful margin — despite essentially the same water access and, in some cases, even better inlet proximity. That gap is the whole investment argument.",
     author: 'john',
-    published: false,
+    published: true,
     updated: '2026-06-01',
   },
   {
