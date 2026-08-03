@@ -9484,6 +9484,8 @@ Before you shop, be honest about the maintenance appetite and the driving. The [
     showMarketTrends: true,
     body: `Loxahatchee has the cleanest trade-off structure of anywhere in Palm Beach County: you exchange convenience for space, comprehensively and in both directions.
 
+A note on how to read this list. Out here more than anywhere else in the county, the drawbacks are chores and the advantages are the reason you got up. Whether that trade works depends less on the individual items below than on whether you will genuinely use what the land gives you.
+
 ## What you're genuinely getting
 
 **Land, at a price nothing else matches.** Acre-plus parcels within reach of the coast, for money that buys a small lot closer in. This is the whole proposition and it's real.
@@ -9523,6 +9525,8 @@ Before you shop, be honest about the maintenance appetite and the driving. The [
 **Address confusion is real.** "Loxahatchee" covers unincorporated county, The Acreage and an incorporated town, and a postal address does not tell you which. It affects your taxes, your rules and who you call.
 
 **Resale takes a specific buyer.** Acreage appeals strongly to a narrow group and not at all to most, which is fine when buying and can mean longer marketing times when selling — particularly for heavily customised properties.
+
+**Fencing is expensive and it is yours.** Perimeter fencing on an acre-plus parcel runs to real money, and on land with animals it is not optional. Existing fence in poor condition is a cost, not a feature.
 
 ## The ones that catch people out
 
@@ -9857,6 +9861,12 @@ For the practical side, our [guide to operating out here](/blog/local-guide-to-l
     showMarketTrends: true,
     body: `Loxahatchee competes on one thing — land — and the comparison to everywhere else turns on how much you actually need it.
 
+## The framing that actually helps
+
+Before comparing places, it helps to name what you are really choosing between out here, because the towns confuse the issue.
+
+The question is not which community is better. It is how far along the land-versus-convenience line you want to sit, and every western option is simply a different point on it. Once you know your point, the shortlist writes itself.
+
 ## vs Wellington
 
 The comparison that matters most for anyone with horses.
@@ -9988,6 +9998,14 @@ Along the main roads — particularly the **Seminole Pratt Whitney** corridor an
 These places survive on regulars, and they function as the closest thing the area has to gathering points. If you live out here, you'll have one you go to, and you'll be recognised there within a month.
 
 Don't expect range or ambition. Expect honest food, reasonable prices, and people who know each other.
+
+## Timing the trip
+
+A small habit that makes the driving considerably less annoying.
+
+Residents batch: the grocery run, the feed store, the hardware, dinner and anything else east all happen on one trip rather than four. Sunday afternoon and weekday mid-morning are the easy windows; weekday evenings heading east are the worst.
+
+It sounds obvious and it takes most newcomers a few months to actually adopt.
 
 ## The drive east
 
@@ -17803,6 +17821,14 @@ Small, well maintained and mostly used by residents:
 
 None is a destination. All of them are useful, and together they're a large part of why the village feels liveable at its size.
 
+## The county-line advantage for days out
+
+A quiet benefit of sitting where the village sits: you have easy access to two counties' worth of outdoor recreation.
+
+South and west, Palm Beach County's parks, natural areas and beaches. North, Martin County's state parks, preserves and quieter shoreline. Both are within a short drive, and they are managed by different agencies with different fee structures, hours and character.
+
+Residents who work this out early get considerably more variety than either county alone would offer.
+
 ## Golf
 
 **Tequesta Country Club** anchors the village's golf, and the surrounding area — Jupiter, Palm Beach Gardens and Hobe Sound — holds one of the densest concentrations of courses in Florida.
@@ -17914,6 +17940,8 @@ People who tour Jupiter, like it, and find it busier than they wanted end up in 
 **Retirees and downsizers who still want to be near things.** Quiet, low-density, walkable in patches, with a substantial town three minutes away and a major airport well within reach.
 
 **The person who wants a small government they can actually reach.** The village runs its own police and water utility and has a council that's genuinely accessible. For people who've dealt with large county bureaucracies, this is a real quality-of-life difference.
+
+**Anyone who needs a large local rental market.** Inventory here is thin in general and rentals particularly so. Buyers who hoped to rent locally while searching, or who want an investment property, will find the options limited compared with the towns south.
 
 ## The people who tend to regret it
 
@@ -18032,6 +18060,8 @@ Here's the weighed version.
 **Utility boundaries are not the village boundary.** Village water covers much of Tequesta but not everything with a Tequesta postal address, and the same is true of other services. Confirm per parcel.
 
 **Thin inventory means less choice than you expect.** In a village this small, the house that matches your specification may simply not be on the market this year. Buyers with narrow requirements should plan to wait rather than to compromise quickly.
+
+**Tree work is a recurring cost.** The canopy that makes the village what it is needs maintaining, and mature trees near a structure require periodic assessment and pruning. It is a genuine annual line rather than a one-off.
 
 ## The ones that catch people out
 
@@ -18270,6 +18300,14 @@ It requires no boat, no membership and very little equipment — a Florida saltw
 Constitution, Tequesta and Bert Winters parks get local traffic and essentially no visitors.
 
 They're small and unglamorous, which is exactly the appeal: somewhere to walk, sit by the water, or put a kayak in without organising an outing. In a village without a town square, they do a fair amount of the work.
+
+## The early-morning river light
+
+Distinct from the sunsets, and arguably better.
+
+In the hour after dawn the river runs flat and the light comes low across the water through the trees, with mist rising in the cooler months. Wading birds work the edges and there is almost no boat traffic.
+
+It requires only that you get up. Most residents never do, and the ones who do tend to make a habit of it.
 
 ## Riverfront sunsets
 
