@@ -3018,13 +3018,7 @@ export const neighborhoods: CommunityItem[] = [
     ],
     photos: [
       '/images/pga-national/pga-national-001.jpg',
-      '/images/pga-national/pga-national-002.jpg',
-      '/images/pga-national/pga-national-003.jpg',
-      '/images/pga-national/pga-national-004.jpg',
-      '/images/pga-national/pga-national-005.jpg',
       '/images/pga-national/pga-national-006.jpg',
-      '/images/pga-national/pga-national-007.jpg',
-      '/images/pga-national/pga-national-008.jpg',
     ],
     schoolOverview: 'PGA National is zoned for Palm Beach Gardens public schools and falls within the Palm Beach Gardens Community High School attendance area. Buyers should verify current Florida Department of Education school grades and confirm boundaries with Palm Beach County Schools.',
     schoolList: [
