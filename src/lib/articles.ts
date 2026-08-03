@@ -6305,7 +6305,7 @@ The swing is gentler than in the destination towns, because Lake Worth Beach's v
 
 The pattern is consistent. People who choose this city tend to have chosen it deliberately, often after living somewhere more uniform and finding it dull. Artists, people who work with their hands, restaurant people, teachers, and a substantial number of buyers who wanted a walkable old house and found the alternatives unaffordable.
 
-People who struggle are generally those expecting the finished version of a coastal downtown, and who find that a working city of forty-odd thousand people has more variety in it than a resort district does.
+People who struggle are generally those expecting the finished version of a coastal downtown, and who find that a working city of forty-five thousand people has more variety in it than a resort district does.
 
 ## The honest bottom line
 
@@ -6578,7 +6578,7 @@ Verify designation, flood zone, elevation, permit history and roof age for the s
     primaryKeyword: "things to do in Lake Worth Beach Florida",
     secondaryKeywords: ["Lake Worth Beach attractions", "what to do in Lake Worth Beach", "Lake Worth Pier", "Snook Islands"],
     h1: "Best Things to Do in Lake Worth Beach, Florida",
-    body: `For a city of around forty thousand people occupying a compact grid, Lake Worth Beach offers an unusual amount — largely because it has its own beach, its own lagoon habitat, and an arts culture that generates a genuine events calendar.
+    body: `For a city of around forty-five thousand people occupying a compact grid, Lake Worth Beach offers an unusual amount — largely because it has its own beach, its own lagoon habitat, and an arts culture that generates a genuine events calendar.
 
 ## The pier and the beach
 
@@ -18933,7 +18933,7 @@ Hours, menus, tenants, and opening dates all change. Verify directly before you 
     primaryKeyword: "living in Tequesta Florida",
     secondaryKeywords: ["moving to Tequesta FL", "Tequesta lifestyle", "is Tequesta a good place to live", "Tequesta village"],
     h1: "What It's Really Like Living in Tequesta, Florida",
-    body: `Tequesta is a village of roughly five and a half thousand people at the very top of Palm Beach County, and it has spent sixty years deliberately not becoming Jupiter.
+    body: `Tequesta is a village of roughly six thousand people at the very top of Palm Beach County, and it has spent sixty years deliberately not becoming Jupiter.
 
 That's the whole story. Jupiter, immediately south across the Loxahatchee River, grew into a substantial town with beaches, a waterfront dining scene and a strong identity. Tequesta stayed small, stayed residential, and kept its own government. The two share a river, a school district and a great deal of daily life — but they are not the same place, and the difference is the reason people choose the smaller one.
 
@@ -19003,7 +19003,7 @@ The seasonal swing is gentler than in most of the county, mainly because Tequest
 
 Turnover here is low. A meaningful share of residents have been in the village for decades, and it's common to meet people who moved from Jupiter deliberately, wanting the same area with less of everything.
 
-The people who struggle are generally those who wanted a beach town and found themselves inland of one, or who underestimated how small five and a half thousand people actually is.
+The people who struggle are generally those who wanted a beach town and found themselves inland of one, or who underestimated how small a village of six thousand actually is.
 
 ## The honest bottom line
 
@@ -19442,7 +19442,7 @@ People who tour Jupiter, like it, and find it busier than they wanted end up in 
 
 ## The people who tend to regret it
 
-**Anyone who wants a town.** Roughly five thousand residents, one small commercial stretch, no nightlife. If you want to walk out into something, this isn't it — and Jupiter, three minutes away, doesn't change the fact that you'll be driving.
+**Anyone who wants a town.** Roughly six thousand residents, one small commercial stretch, no nightlife. If you want to walk out into something, this isn't it — and Jupiter, three minutes away, doesn't change the fact that you'll be driving.
 
 **The budget-constrained buyer.** Tequesta is not the affordable option in this area. Scarcity, desirability and thin inventory keep prices firm, and the carrying costs on older houses and club properties add to it.
 
@@ -19578,7 +19578,7 @@ Here's the weighed version.
 
 Several features get argued about and are really matters of temperament.
 
-**The size.** Roughly five thousand residents means you'll recognize faces quickly. Warm to some, close to others, and you probably already know which.
+**The size.** Roughly six thousand residents means you'll recognize faces quickly. Warm to some, close to others, and you probably already know which.
 
 **The age of the housing.** A village built out mid-century reads as characterful or dated depending entirely on the viewer, and the same street produces both reactions.
 
@@ -19948,7 +19948,7 @@ Both offer more house and land for the money, a slower pace, and Martin County's
 
 Worth naming because buyers wanting more space often end up looking inland.
 
-The gated communities west offer newer construction, larger houses, community amenities and lower prices per square foot. What they can't offer is a river, mature canopy, or a village of five thousand people.
+The gated communities west offer newer construction, larger houses, community amenities and lower prices per square foot. What they can't offer is a river, mature canopy, or a village of six thousand people.
 
 **Choose west if:** house size and newness lead.
 **Choose Tequesta if:** the setting is the point.
