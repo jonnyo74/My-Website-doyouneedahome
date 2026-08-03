@@ -8565,7 +8565,7 @@ That does not make the overall tax bill small, because the municipal line is onl
 
 Most towns have a downtown. Royal Palm Beach has a park instead, and that substitution tells you most of what you need to know about the place.
 
-Royal Palm Beach Commons Park is where the village stages its events, where the summer programs run, where the concerts and the holiday calendar happen, and where a large share of residents spend a large share of their free time. It is not a neighborhood green. It is the civic space, deliberately built as one, and the inventory of what sits inside it is covered in our [guide to things to do](/blog/best-things-to-do-in-royal-palm-beach-florida).
+Royal Palm Beach Commons Park is where the village stages its events, where the summer programs run, where the concerts and the holiday calendar happen, and where a large share of residents spend a large share of their free time. It is not a neighborhood green. It is the civic space, deliberately built as one, and the inventory of what sits inside it is covered in our [recreation guide](/blog/best-things-to-do-in-royal-palm-beach-florida).
 
 What matters here is the effect rather than the amenity list. In a village with no historic core and no walkable main street, the park does the work a downtown would do elsewhere. Residents who use it feel genuinely connected to the place. Residents who never go find the village perfectly pleasant and slightly anonymous. That split is real and it is predictable, and it is worth knowing which side of it you are likely to land on.
 
@@ -8599,7 +8599,7 @@ If that reads as sensible rather than as a compromise, the [weighed list of trad
     faqs: [
       { q: "What is Royal Palm Beach, Florida like?", a: "It is an established, incorporated suburban village in the western part of Palm Beach County, planned in the 1950s and incorporated in 1959. Expect decades-old housing on generous lots, mature tree cover, its own parks and recreation department, ordinary shopping within a few minutes, and an inland location roughly half an hour from the coast." },
       { q: "Is Royal Palm Beach an old community or a new one?", a: "Old by western county standards. Most of the housing stock dates from the 1970s through the 1990s, with gated communities added in the 2000s. It is one of the oldest municipalities in the western county and predates the newer master-planned communities nearby by decades." },
-      { q: "Does Royal Palm Beach have its own local government?", a: "Yes. It is an incorporated village with an elected council, a village hall, its own parks and recreation department and code enforcement. Law enforcement is contracted with the Palm Beach County Sheriff’s Office, fire and rescue is provided by Palm Beach County Fire Rescue, water and wastewater by the county utilities department, and electricity by Florida Power and Light." },
+      { q: "Does Royal Palm Beach have its own local government?", a: "Yes. It is an incorporated village with an elected council, a village hall, its own parks and recreation department and code enforcement. Law enforcement is contracted with the Palm Beach County Sheriff's Office, fire and rescue is provided by Palm Beach County Fire Rescue, water and wastewater by the county utilities department, and electricity by Florida Power and Light." },
       { q: "Is Royal Palm Beach on the beach?", a: "No. The village is inland, west of the Turnpike, and the ocean is roughly a half-hour drive depending on the route and the season." },
     ],
     internalLinks: ["best-neighborhoods-in-royal-palm-beach-florida", "best-things-to-do-in-royal-palm-beach-florida", "who-should-move-to-royal-palm-beach-florida"],
@@ -8654,7 +8654,7 @@ Palm Beach International Airport is a straightforward run east on Okeechobee or 
 
 **Public services.** Village Hall handles municipal business. The Palm Beach County Library System operates a branch serving the village, which is genuinely useful and free.
 
-**Recreation.** The village park system, anchored by Royal Palm Beach Commons Park, is where a large share of weekend life happens — the full inventory sits in our [guide to things to do](/blog/best-things-to-do-in-royal-palm-beach-florida).
+**Recreation.** The village park system, anchored by Royal Palm Beach Commons Park, is where a large share of weekend life happens — the full inventory sits in our [recreation round-up](/blog/best-things-to-do-in-royal-palm-beach-florida).
 
 ## Using the village properly
 
@@ -8840,7 +8840,7 @@ Verify the current assignment for the exact address directly with the district b
 
 ## Royal Palm Beach Commons Park
 
-The centrepiece, and the reason people from neighboring communities drive in.
+The centerpiece, and the reason people from neighboring communities drive in.
 
 **The lake and the swim area.** A freshwater lake with a sandy beach-style swimming area, which is an uncommon thing to find inland and the feature most visitors are surprised by.
 
@@ -8854,7 +8854,7 @@ The centrepiece, and the reason people from neighboring communities drive in.
 
 **Playgrounds and picnic pavilions.** Covered pavilions available to reserve, plus open lawn, restrooms and substantial parking.
 
-**The amphitheatre.** An outdoor performance venue that anchors the village event calendar.
+**The amphitheater.** An outdoor performance venue that anchors the village event calendar.
 
 **Practical notes:** parking is generous but fills for large events, the swim area and splash pad are busiest on weekend afternoons, and between June and September the sensible plan is to arrive early. Bring shade and water regardless of the season.
 
@@ -8876,13 +8876,13 @@ This is a genuine advantage of living inside the municipality, and residents typ
 
 ## The event calendar
 
-The amphitheatre and the surrounding lawn host the village's public program through the year — outdoor concerts, film nights, seasonal festivals and holiday events. Much of it is free to attend.
+The amphitheater and the surrounding lawn host the village's public program through the year — outdoor concerts, film nights, seasonal festivals and holiday events. Much of it is free to attend.
 
 The cooler months carry the heavier schedule for obvious reasons, and the winter and spring calendar is where most of the larger gatherings sit. Check the published village calendar rather than relying on hearing about things second hand.
 
 ## Golf
 
-**Madison Green** offers public golf within the village itself, built as the centrepiece of the surrounding community but open beyond it.
+**Madison Green** offers public golf within the village itself, built as the centerpiece of the surrounding community but open beyond it.
 
 The wider western county has a substantial concentration of golf, both public and private, within a short drive, so residents who play seriously have considerably more than one option.
 
@@ -8908,6 +8908,22 @@ Between them these three cover most of what an outdoor household would want with
 
 **The rural western county** offers a genuinely different landscape within twenty minutes, from the [Loxahatchee area](/blog/best-things-to-do-in-loxahatchee-florida) out to the Everglades edge.
 
+## Organised sport, month by month
+
+The village leagues follow a predictable annual rhythm, and knowing it helps newcomers arrive at the right moment rather than a season late.
+
+**Autumn** brings the football and soccer seasons, which fill the fields on weekday evenings and Saturday mornings and are the busiest period of the sporting year.
+
+**Winter** shifts toward basketball and the indoor and court-based activities, helped considerably by the weather being at its most pleasant.
+
+**Spring** is baseball and softball, running through into the early part of the hot season.
+
+**Summer** is camps and swimming, structured around the heat rather than fighting it, with most activity scheduled early or late in the day.
+
+**Adult leagues** run alongside throughout, generally in the evenings, and are one of the more effective ways for people new to the area to meet anyone.
+
+Places in the more popular age groups go quickly once sign-up opens, so it is worth knowing the dates in advance rather than discovering them afterwards.
+
 ## Doing it by season
 
 **October through April** is when this all works best. The parks are comfortable at any hour, the event calendar is full, and outdoor sport is pleasant rather than punishing.
@@ -8920,10 +8936,10 @@ For an outdoor-minded household, Royal Palm Beach delivers well above its size. 
 
 For anyone whose leisure runs to restaurants, galleries and nightlife, the village is a base rather than a destination, and the [dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida) is honest about where that ceiling sits.`,
     faqs: [
-      { q: "What is there to do in Royal Palm Beach?", a: "Royal Palm Beach Commons Park is the main draw, with a lake and sandy swimming area, a splash pad, a dog park, paved trails, shoreline fishing, playgrounds, picnic pavilions and an amphitheatre. Beyond it the village runs a network of neighborhood parks and sports facilities, a year-round recreation program, public golf at Madison Green, and nearby natural areas." },
+      { q: "What is there to do in Royal Palm Beach?", a: "Royal Palm Beach Commons Park is the main draw, with a lake and sandy swimming area, a splash pad, a dog park, paved trails, shoreline fishing, playgrounds, picnic pavilions and an amphitheater. Beyond it the village runs a network of neighborhood parks and sports facilities, a year-round recreation program, public golf at Madison Green, and nearby natural areas." },
       { q: "Can you swim at Royal Palm Beach Commons Park?", a: "Yes. The park has a freshwater lake with a sandy beach-style swimming area, plus a separate splash pad for water play. Both are busiest on weekend afternoons, and arriving early is sensible through the summer months." },
       { q: "Are there nature trails near Royal Palm Beach?", a: "Yes. Royal Palm Beach Pines Natural Area sits on the north side of the village, Loxahatchee Slough Natural Area is a larger wetland preserve to the west, and Okeeheelee Park is a substantial county park to the east with lakes, trails and a nature center." },
-      { q: "Does Royal Palm Beach hold community events?", a: "Yes. The amphitheatre and surrounding lawn at Commons Park host the village event program through the year, including outdoor concerts, film nights, seasonal festivals and holiday events, much of it free. The calendar is heavier through the cooler months and is published by the village." },
+      { q: "Does Royal Palm Beach hold community events?", a: "Yes. The amphitheater and surrounding lawn at Commons Park host the village event program through the year, including outdoor concerts, film nights, seasonal festivals and holiday events, much of it free. The calendar is heavier through the cooler months and is published by the village." },
     ],
     internalLinks: ["hidden-gems-in-royal-palm-beach-florida", "local-guide-to-royal-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida"],
     funFact: "The Acreage Equestrian Trail network connects through western Palm Beach County and is accessible from multiple Royal Palm Beach trailheads — giving riders and hikers access to miles of unpaved natural paths that feel nothing like suburban South Florida. It's largely unknown to residents east of 441.",
@@ -8998,6 +9014,20 @@ Before deciding, run the real number rather than the asking price.
 
 If that total works and the trade-offs still read as acceptable, the fit is good. If it only works by ignoring line five, it is not.
 
+## What a first year here actually looks like
+
+Useful to picture, because it is fairly consistent and it is not quite what buyers imagine.
+
+**The first month** is logistics: transferring utilities, registering with the recreation department, and working out which corridor you will use for errands. Most people settle that pattern quickly and never revisit it.
+
+**The first summer** is the adjustment. The heat, the humidity and the daily afternoon storm are more relentless than a winter visit suggests, and outdoor life compresses into the early morning and the evening. Households who came from a cooler climate find this the genuine test.
+
+**The first storm season** is the other one. Preparation is straightforward once done, but doing it for the first time — protection, supplies, insurance documentation, knowing your zone — takes a weekend of effort that nobody enjoys.
+
+**Somewhere in the first two years** an older house will present a bill: a compressor, a water heater, a roof approaching the end of its insurable life. Buyers who reserved for it treat it as scheduled maintenance. Buyers who did not remember it as the year the village disappointed them.
+
+None of that is discouraging. It is simply the shape of the thing, and knowing it in advance is most of what separates a good first year from a difficult one.
+
 ## The gut check
 
 Two questions settle it for most people.
@@ -9038,9 +9068,9 @@ If both answers point the right way, the [weighed trade-offs](/blog/pros-and-con
 
 **Price relative to everything around it.** The village sits below the coastal towns and below its immediate southern neighbor on price, for broadly comparable suburban housing. A buyer with a fixed budget gets more house and more land here than almost anywhere within a similar drive of the ocean.
 
-**Unusually low municipal overheads.** The village's own property tax rate has sat well below what a municipality of its size would ordinarily levy, a consequence of selling its water utility to the county in the mid-2000s. The municipal line is only one part of the total bill, but it is a real structural saving — the detail is in our [cost breakdown](/blog/cost-of-living-in-royal-palm-beach-florida).
+**Unusually low municipal overheads.** The village's own property tax rate has sat well below what a municipality of its size would ordinarily levy, a lasting effect of the utility sale described in our [village profile](/blog/what-its-really-like-living-in-royal-palm-beach-florida). The municipal line is only one part of the total bill, but it is a real structural saving — the detail is in our [cost breakdown](/blog/cost-of-living-in-royal-palm-beach-florida).
 
-**A park and recreation system beyond its size.** Royal Palm Beach Commons Park, a network of neighborhood parks, and a year-round program of leagues, camps and events. Most of what a resident uses week to week costs nothing, and our [guide to things to do](/blog/best-things-to-do-in-royal-palm-beach-florida) lists it in full.
+**A park and recreation system beyond its size.** Royal Palm Beach Commons Park, a network of neighborhood parks, and a year-round program of leagues, camps and events. Most of what a resident uses week to week costs nothing, and our [recreation guide](/blog/best-things-to-do-in-royal-palm-beach-florida) lists it in full.
 
 **Established infrastructure.** Roads finished, retail in place, drainage built and tested over decades, and trees tall enough to matter. Nothing is under construction and nothing is being promised for a later phase.
 
@@ -9076,9 +9106,11 @@ If both answers point the right way, the [weighed trade-offs](/blog/pros-and-con
 
 **No district assessments, but no new infrastructure either.** The village core carries none of the community development district assessments that fund infrastructure in newer master-planned communities — those are explained in our [Westlake cost breakdown](/blog/cost-of-living-in-westlake-florida). The corollary is that what you get is what was built decades ago, maintained rather than new.
 
+**Being inland carries one genuine advantage.** Storm surge is a coastal phenomenon, and properties this far west sit outside the surge zones that shape both risk and insurance pricing along the barrier islands and the intracoastal. Wind exposure still applies everywhere in South Florida, and inland is emphatically not the same as out of a flood zone — the lakes and canals here mean flood zones are determined lot by lot. But the specific coastal risk that drives the highest premiums in the county is not one you are buying into here, and that is a real if unglamorous benefit of the location.
+
 **Value positioning affects resale.** Buying the least expensive comparable option in an area is generally sound. It also means your buyer pool at resale is price-sensitive, and improvements beyond the neighborhood norm do not always return what they cost.
 
-**School boundaries are not permanent.** Attendance is administered by the School District of Palm Beach County and determined by property address, and boundaries and capacity both change over time. Verify the current assignment for a specific address with the district rather than treating any listing or guide as authoritative.
+**School boundaries are not permanent.** Attendance zones here are set by the county school district and depend on the exact address of the property, and both the zone lines and school capacity shift over the years. Confirm the current assignment for any address you are serious about directly with the district, rather than treating a listing or a guide as authoritative.
 
 **Lot position matters more than in a newer community.** In neighborhoods built before contemporary drainage standards, how a specific lot sits and drains varies house to house. It is worth understanding before you buy rather than after a wet August.
 
@@ -9189,7 +9221,7 @@ This is the single biggest difference between the true cost of an established vi
 - **Solid waste** is handled through a county authority assessment collected with the tax bill.
 - **Groceries** track close to the state average, with full supermarket competition along the corridors.
 - **Dining** runs affordable and casual, which suits the budget — our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida) covers where.
-- **Recreation** is close to free for residents, which for an active household genuinely offsets other lines. Our [guide to things to do](/blog/best-things-to-do-in-royal-palm-beach-florida) lists what is included.
+- **Recreation** is close to free for residents, which for an active household genuinely offsets other lines. Our [recreation round-up](/blog/best-things-to-do-in-royal-palm-beach-florida) lists what is included.
 
 ## Driving
 
@@ -9257,7 +9289,7 @@ Everyone knows about Commons Park at the weekend. The version worth knowing abou
 
 The paths are empty, the temperature is bearable, the lake is still, and the dog park has the regulars rather than the crowd. For anyone working from home or on a flexible schedule, that hour is one of the genuine privileges of living here, and it costs nothing.
 
-The same applies to late afternoon in the cooler months. The full inventory of what the park contains sits in our [guide to things to do](/blog/best-things-to-do-in-royal-palm-beach-florida) — the point here is simply that the timing changes the experience completely.
+The same applies to late afternoon in the cooler months. The full inventory of what the park contains sits in our [recreation guide](/blog/best-things-to-do-in-royal-palm-beach-florida) — the point here is simply that the timing changes the experience completely.
 
 ## The village's water
 
@@ -9268,6 +9300,16 @@ Royal Palm Beach is threaded with lakes and drainage canals, which is why so man
 **The canal and lake edges** provide informal walking routes through parts of the village that most people never see, connecting neighborhoods in ways the road network does not.
 
 **The water is also functional.** The lake system is the village's drainage, which is worth understanding as a buyer as much as enjoying as a resident.
+
+## The seasonal shift almost nobody notices
+
+South Florida has two seasons rather than four, and out here the difference is visible in a way it is not on the coast.
+
+**The dry months, roughly November through April**, draw the water down across the natural areas and the wetland edges. Fish concentrate into the remaining pools, and the wading birds concentrate with them — herons, egrets, storks and spoonbills in numbers that make the winter the far better time to walk the preserves. The ground is firm, the insects are manageable, and the light is good.
+
+**The wet months** reverse all of it. Water spreads back across the prairie, the birds disperse, the vegetation grows quickly and the mosquitoes arrive in earnest. The landscape looks entirely different, and after a heavy summer the wetlands are genuinely impressive in their own right.
+
+Residents who only visit the natural areas once tend to do so in July, conclude that there is nothing much there, and never return. Going back in February is the correction, and it costs nothing but the drive.
 
 ## The free event calendar
 
@@ -9312,7 +9354,7 @@ That distinction, more than any other single thing, separates residents who are 
       { q: "What are the lesser-known things to do in Royal Palm Beach?", a: "Royal Palm Beach Pines Natural Area on the north side of the village, shoreline fishing on the lake and canal system, the informal walking routes along the water, the Palm Beach County Library branch and its free programs, the village event calendar, and the independent restaurants tucked into the corridor plazas." },
       { q: "What is Royal Palm Beach Pines Natural Area?", a: "A county-managed natural area of pine flatwoods, wet prairie and cypress on the northern side of the village, with trail access and no admission charge. It is good for birdwatching and quieter than the village parks. Go early, use insect repellent, and expect wet ground during the rainy season." },
       { q: "What can you do in Royal Palm Beach for free?", a: "Most of it. The village parks, their trails, the swimming area and splash pad, the dog park and shoreline fishing are free to use, as are most events on the village calendar and the county library branch and its programs. Nearby natural areas also have no admission charge." },
-      { q: "Do you need a license to fish in Royal Palm Beach?", a: "A Florida freshwater fishing license applies to most adults fishing the village lakes and canals, subject to the state’s standard exemptions. Licenses are inexpensive and issued by the Florida Fish and Wildlife Conservation Commission." },
+      { q: "Do you need a license to fish in Royal Palm Beach?", a: "A Florida freshwater fishing license applies to most adults fishing the village lakes and canals, subject to the state's standard exemptions. Licenses are inexpensive and issued by the Florida Fish and Wildlife Conservation Commission." },
     ],
     internalLinks: ["best-things-to-do-in-royal-palm-beach-florida", "local-guide-to-royal-palm-beach-florida", "what-its-really-like-living-in-royal-palm-beach-florida"],
     funFact: "The Royal Palm Beach Pines Natural Area preserves a 600-acre upland pine flatwoods ecosystem that was nearly lost to development in the 1990s — a community campaign saved it. The trails through the pines are genuinely quiet on a weekday morning, and gopher tortoise sightings are common.",
@@ -9349,7 +9391,7 @@ The closest comparison and the one most buyers are actually making, since the tw
 
 **Choose Royal Palm Beach if** you want the same general way of living for less, and are comfortable with an older house. For a buyer with no connection to horses and a firm budget, the village is the obvious substitute — [Wellington's own guide](/blog/what-its-really-like-living-in-wellington-florida) sets out what the premium buys.
 
-School attendance in both is administered by the School District of Palm Beach County and determined by property address. Boundaries change, so verify the assignment for any specific address with the district directly rather than relying on general reputation.
+In both places, school assignment follows the exact address rather than the town, and the zone lines are drawn by the county district and revised periodically. Check any address you are considering with the district itself instead of relying on general reputation.
 
 ## Against Westlake
 
@@ -9406,6 +9448,20 @@ East of the village, communities such as Greenacres and the areas around Lake Wo
 **Choose them if** shortening the eastward drive matters more than lot size.
 
 **Choose Royal Palm Beach if** you want more ground and a stronger municipal park system, and can absorb the extra distance.
+
+## A word on how each option resells
+
+Worth a thought at purchase, because it is a decision you make once and live with later.
+
+**Established village housing** has the broadest buyer pool of anything in this comparison, because the price point reaches the largest number of households. That pool is also price-sensitive, which means improvements pushing a property well beyond its street's norm rarely return what they cost.
+
+**New construction** competes with the builder for several years, and a builder with unsold inventory and incentives to offer is a difficult competitor for a private seller.
+
+**Acreage** has a narrow buyer pool but a committed one, and pricing depends heavily on the specific parcel rather than on comparable sales.
+
+**Coastal and near-coastal property** holds the strongest demand and asks the highest entry price for it.
+
+None of that should override where you actually want to live. It is simply worth knowing which of these you are choosing.
 
 ## The decision matrix
 
@@ -9477,11 +9533,21 @@ The village does not have a coffee-shop culture in the sense of somewhere to sit
 
 This is the part that distinguishes the village, and it is not a restaurant.
 
-**The park does the work a main street would do elsewhere.** Picnics, the playgrounds, the dog park, weekend sport and the outdoor event program are where residents actually run into each other. Food at village events is generally trucks and stalls rather than anything permanent, and that is part of the appeal — the full picture is in our [guide to things to do](/blog/best-things-to-do-in-royal-palm-beach-florida).
+**The park does the work a main street would do elsewhere.** Picnics, the playgrounds, the dog park, weekend sport and the outdoor event program are where residents actually run into each other. Food at village events is generally trucks and stalls rather than anything permanent, and that is part of the appeal — the full picture is in our [parks and events round-up](/blog/best-things-to-do-in-royal-palm-beach-florida).
 
 **Sports bars along the corridors** fill for the major fixtures, and they are the closest the village comes to a communal indoor space.
 
 **The plazas themselves** function socially in a low-key way — people run into each other at the supermarket rather than at a café, which is simply how suburban Florida works.
+
+## Groceries, markets and cooking at home
+
+Easy to overlook in a dining guide, and for a household that cooks it matters more than any restaurant.
+
+The corridors carry the full range of mainstream supermarkets, which keeps prices competitive. More interesting are the international grocers scattered among the plazas, serving the western communities' Latin American and Caribbean populations in particular, with produce, cuts of meat and store-cupboard ingredients that the mainstream chains simply do not stock. For anyone who likes cooking beyond the standard repertoire, these are a genuine asset and considerably cheaper than the specialist alternative further east.
+
+Palm Beach County also runs a seasonal outdoor market circuit through the cooler months, drawing produce growers, bakers and prepared-food stalls. The nearest of these are a short drive, and they are a pleasant Saturday morning as much as a shopping trip.
+
+For a household that eats at home most nights — which, given the price of living here, describes a lot of residents — this side of the food picture does more work than the restaurants do.
 
 ## Nightlife, honestly
 
@@ -18947,7 +19013,7 @@ What it asks is that you accept being small: limited shops, no nightlife, and a 
 
 If that sounds right, our [comparison with the neighboring towns](/blog/tequesta-vs-nearby-cities) shows what the alternatives actually offer — and the [weighed list of trade-offs](/blog/pros-and-cons-of-living-in-tequesta-florida) is the fastest way to find out whether the drawbacks would bother you.`,
     faqs: [
-      { q: "What is Tequesta like to live in?", a: "A village of roughly five and a half thousand people at the top of Palm Beach County that has spent sixty years deliberately not becoming Jupiter. Low-rise, low-density and unusually green, with its own police department, water utility and village council. The Loxahatchee River defines its edges and shapes how residents spend their time." },
+      { q: "What is Tequesta like to live in?", a: "A village of roughly six thousand people at the top of Palm Beach County that has spent sixty years deliberately not becoming Jupiter. Low-rise, low-density and unusually green, with its own police department, water utility and village council. The Loxahatchee River defines its edges and shapes how residents spend their time." },
       { q: "Is Tequesta the same as Jupiter?", a: "No, though they function as one connected area in practice. Jupiter is a substantial town with beaches, a waterfront dining scene and a strong identity. Tequesta stayed small and residential with its own government. They share a river and a great deal of daily life, but the difference is exactly why people choose the smaller one." },
       { q: "Why is Tequesta so green?", a: "Because the village has been protecting its tree canopy since the 1960s. Mature canopy over residential streets, deep lots in the older sections, and an absence of the scraped-flat look of newer Florida development. On a hot afternoon the difference from a subdivision built in 2015 is immediately physical." },
       { q: "Is Tequesta in Palm Beach County or Martin County?", a: "Mostly Palm Beach County, but the county line runs right by the village and some properties with a Tequesta mailing address are in Martin County. That changes the school district, property appraiser, millage and county services. It is invisible from the street, so treat it as a first-order question when shopping." },
@@ -19431,7 +19497,7 @@ It works poorly for people who wanted a walkable town, new construction, oceanfr
 Get concrete before you shop: which county, whether there's a boat, and what you can actually carry. The [neighborhood guide](/blog/best-neighborhoods-in-tequesta-florida) and the [cost breakdown](/blog/cost-of-living-in-tequesta-florida) are where to start.`,
     faqs: [
       { q: "Who should move to Tequesta?", a: "Buyers who want Jupiter without Jupiter — the same area, waterways and coast in a quieter, greener, lower-density setting, often for slightly less. Also boaters who want a protected river rather than a dredged canal, people who value mature trees and generous lots over new construction, and retirees who want quiet with a town three minutes away." },
-      { q: "Who should not move to Tequesta?", a: "Anyone who wants a town to walk out into — five and a half thousand people, one small commercial stretch and no nightlife. Also budget-constrained buyers, since scarcity and thin inventory keep prices firm; buyers wanting new construction; and anyone who needs oceanfront, since the village is inland of the barrier island." },
+      { q: "Who should not move to Tequesta?", a: "Anyone who wants a town to walk out into — six thousand residents, one small commercial stretch and no nightlife. Also budget-constrained buyers, since scarcity and thin inventory keep prices firm; buyers wanting new construction; and anyone who needs oceanfront, since the village is inland of the barrier island." },
       { q: "What schools serve Tequesta?", a: "Most of the village sits in the Palm Beach County school district and shares attendance areas with the Jupiter area, but some Tequesta-addressed properties fall in Martin County and a different district entirely. Establish which county the address is in, then verify attendance boundaries directly with the relevant district — boundaries change and no listing is authoritative." },
       { q: "Can I commute from Tequesta?", a: "Jupiter is minutes away, Palm Beach Gardens is a straightforward drive south with substantial office and medical employment, and West Palm Beach is realistic daily though I-95 in season is unpredictable. Stuart is an easy commute north against the main flow. Fort Lauderdale and Miami are not realistic daily." },
       { q: "Is Tequesta cheaper than Jupiter?", a: "Often slightly, for something comparable, which is the village's quiet value argument. But it is not the affordable option in this area — scarcity, desirability and thin inventory keep prices firm, and carrying costs on older houses and club properties add to the total." },
@@ -20034,7 +20100,7 @@ The village will not give you a dining scene. It will give you two or three plac
 
 That's a better everyday arrangement than most small towns manage, and it's a large part of why residents don't experience Tequesta's size as a limitation. For everything else that fills a week, our [guide to what's worth doing](/blog/best-things-to-do-in-tequesta-florida) covers the river and the coast.`,
     faqs: [
-      { q: "Are there good restaurants in Tequesta?", a: "A handful of genuinely good local places rather than a scene — a village of five and a half thousand cannot support one. The standout is a long-running restaurant doing creative fresh seafood with a following well beyond the village, tucked into a plaza that gives away nothing from the road. The good places here do not announce themselves." },
+      { q: "Are there good restaurants in Tequesta?", a: "A handful of genuinely good local places rather than a scene — a village of six thousand cannot support one. The standout is a long-running restaurant doing creative fresh seafood with a following well beyond the village, tucked into a plaza that gives away nothing from the road. The good places here do not announce themselves." },
       { q: "Where do Tequesta residents go out to eat?", a: "Jupiter, three minutes south, for anything requiring range. The Riverwalk and waterfront hold a cluster of restaurants where you eat outside with boats going past, Harbourside adds a walkable district, and the inlet area has casual places that have been there a long time. Locals treat the whole Jupiter side as their own." },
       { q: "Does Tequesta have nightlife?", a: "Essentially none — a few places to have a drink with dinner and a couple of casual bars. Anything resembling a night out happens in Jupiter, where the waterfront places run later and there is genuine choice. Most residents consider this exactly right, but it is worth knowing if you do not." },
       { q: "Can you buy groceries in Tequesta?", a: "There is enough in the village for a forgotten item and not enough for a weekly shop, which happens in Jupiter or along the US-1 corridor. The practical advantage for anyone who cooks is fish — with an inlet nearby and an active charter fleet, access to fresh local seafood is good." },
