@@ -15847,30 +15847,94 @@ Hours, menus, tenants, and opening dates all change. Verify directly before you 
     primaryKeyword: "living in Tequesta Florida",
     secondaryKeywords: ["moving to Tequesta FL", "Tequesta lifestyle", "is Tequesta a good place to live", "Tequesta village"],
     h1: "What It's Really Like Living in Tequesta, Florida",
-    body: `Tequesta is Jupiter's quieter, leafier neighbor — a small, upscale village tucked just across the Loxahatchee River at the northern edge of Palm Beach County. It has the feel of a peaceful, established hometown, with Jupiter's beaches, schools, and amenities just minutes away.
+    body: `Tequesta is a village of roughly five and a half thousand people at the very top of Palm Beach County, and it has spent sixty years deliberately not becoming Jupiter.
 
-## A peaceful village
+That's the whole story. Jupiter, immediately south across the Loxahatchee River, grew into a substantial town with beaches, a waterfront dining scene and a strong identity. Tequesta stayed small, stayed residential, and kept its own government. The two share a river, a school district and a great deal of daily life — but they are not the same place, and the difference is the reason people choose the smaller one.
 
-Tequesta is small and proud of it. Tree-lined streets, a tidy little downtown along Tequesta Drive, and a genuine community feel define the village. It's low-density and residential — the kind of place where life slows down a notch, even by Jupiter standards.
+## What "village" means here
 
-## Water and schools
+Tequesta is incorporated, which for a community this size is unusual and consequential.
 
-Sitting on the Loxahatchee River and the Intracoastal, Tequesta has a strong boating culture, with waterfront and canal homes prized by boaters. And it shares the **A-rated Jupiter-area school zones** — grades and boundaries are updated annually, so verify assignments with Palm Beach County Schools.
+It runs its own police department. It operates its own water utility. It has a village council you can actually reach and a village hall where decisions get made by people who live a few streets away.
 
-## Upscale, but livable
+For residents this shows up as responsiveness — services feel local because they are. It also shows up in the way the village has resisted density for decades. Low-rise, low-density, heavily planted, with the tree canopy that a community makes when it has been protecting it since the 1960s.
 
-Tequesta leans upscale — established homes, a country club, and well-kept neighborhoods — but it offers a range, and it feels more like a friendly hometown than a flashy resort town. Jupiter's restaurants, the lighthouse, and the beaches are a short hop south.
+## The river is the organising fact
 
-## The trade-offs
+The **Loxahatchee River** defines the village's southern and eastern edges, and it's not an ordinary Florida waterway. It carries a federal Wild and Scenic designation — a rare distinction and the reason the upper reaches still look like Florida before the twentieth century.
 
-It's small, so for bigger shopping, dining, and nightlife you'll head to Jupiter or beyond. Prices reflect the desirable location and schools. And it's Florida (heat, hurricane season, insurance). But for boaters and buyers who want a quiet, low-density village with Jupiter on its doorstep, Tequesta is hard to beat.`,
+Practically, that means two things. Boating and paddling are central to how people here spend time, with dockage behind a good number of houses and a run out to the Atlantic through the inlet at Jupiter. And there is a genuine conservation culture in the village that shapes local politics more than a newcomer expects.
+
+## The scale, honestly
+
+Five and a half thousand people cannot support much. Tequesta has a small commercial stretch along **Tequesta Drive** with a handful of restaurants, cafés and services, and that is essentially the extent of it.
+
+Everything else — the supermarket run, the restaurant range, the cinema, the hardware store you actually want — happens in Jupiter, a few minutes south. Residents don't experience this as a hardship, because Jupiter is genuinely close and the two function as one connected area in practice.
+
+But it does mean the village will never be the reason you stay out late, and buyers who wanted a town with a centre should understand they're getting a neighbourhood with a shop instead.
+
+## The trees, and why they matter
+
+It's worth naming the thing residents mention first: Tequesta is unusually green.
+
+Mature canopy over residential streets, deep lots in the older sections, and a general absence of the scraped-flat look that characterises newer Florida development. On a hot afternoon the difference between driving through Tequesta and driving through a subdivision built in 2015 is immediately physical.
+
+That canopy is a policy outcome as much as an accident, and it's a large part of what people are paying for here.
+
+## The county line runs through it
+
+An administrative quirk with real consequences: the village straddles the edge of **two counties**, and some properties carrying a Tequesta mailing address are in Martin County rather than Palm Beach County.
+
+That changes the school district, the property appraiser, the millage and the county services. It is not visible from the street and it is not obvious from a listing. Our [practical guide](/blog/local-guide-to-tequesta-florida) covers how to check, and anyone shopping here should treat it as a first-order question rather than a footnote.
+
+## The relationship with Jupiter
+
+Worth describing properly, because it's the single most important practical fact about living here and it's easy to get wrong in either direction.
+
+Tequesta is not a suburb of Jupiter. It's an older, separately governed community that happens to sit next to one, and residents are generally clear about the distinction.
+
+But functionally, the two operate as one area. People shop, eat, work, see doctors and take their children to activities across the boundary without thinking about it, and a great many households have one foot in each. Nobody here experiences the drive as a commute — it's the length of a phone call.
+
+The upshot for a buyer: you should evaluate Tequesta on what's within about ten minutes rather than on what's within the village limits. Judged on village limits alone it looks thin. Judged on the ten-minute radius it's one of the better-served small communities in Florida.
+
+## What the village argues about
+
+Every small town has a running argument, and knowing it tells you what people value.
+
+Here it's density and character — building heights, lot coverage, tree removal, and what happens on the handful of parcels that could still be developed. The village has spent decades keeping a lid on all of it, and proposals that would be unremarkable elsewhere get genuine scrutiny here.
+
+If you like that, you'll find the council responsive and the outcomes reassuring. If you're planning to build something ambitious, factor the process into your timeline.
+
+## The rhythm of the year
+
+Season runs roughly November through April. The village fills modestly, Jupiter fills considerably, and the roads between them thicken. Nothing here approaches the congestion further south, but the difference is noticeable.
+
+Summer is hot, wet and quiet, with afternoon storms most days. The river is warm, the paddling is best early, and the village largely belongs to its year-round residents.
+
+The seasonal swing is gentler than in most of the county, mainly because Tequesta was never a destination. People come here to live rather than to visit.
+
+## Who stays
+
+Turnover here is low. A meaningful share of residents have been in the village for decades, and it's common to meet people who moved from Jupiter deliberately, wanting the same area with less of everything.
+
+The people who struggle are generally those who wanted a beach town and found themselves inland of one, or who underestimated how small five and a half thousand people actually is.
+
+## The honest bottom line
+
+Tequesta is a small, green, low-density village with its own government, a nationally designated river along its edge, and one of the better towns in Florida a few minutes away.
+
+What it asks is that you accept being small: limited shops, no nightlife, and a price tier that reflects how many people want exactly this.
+
+If that sounds right, our [comparison with the neighbouring towns](/blog/tequesta-vs-nearby-cities) shows what the alternatives actually offer — and the [weighed list of trade-offs](/blog/pros-and-cons-of-living-in-tequesta-florida) is the fastest way to find out whether the drawbacks would bother you.`,
     faqs: [
-      { q: "Is Tequesta, Florida a good place to live?", a: "Tequesta offers Loxahatchee River and Intracoastal dockage, tree-lined low-density streets, Jupiter-area school zoning, and Jupiter's beaches and amenities minutes away. The trade-offs are its small size and higher price points." },
-      { q: "What is Tequesta known for?", a: "Being a compact, low-density village just north of Jupiter — with tree-lined streets, a small downtown, riverfront boating and dockage, and A-rated school zones." },
-      { q: "Is Tequesta expensive?", a: "It leans upscale, reflecting its desirable location and schools, though it offers a range of homes from waterfront estates to more attainable village properties." },
-      { q: "How close is Tequesta to Jupiter?", a: "Very — Tequesta sits just across the Loxahatchee River from Jupiter, so its beaches, dining, and the lighthouse are minutes away." },
+      { q: "What is Tequesta like to live in?", a: "A village of roughly five and a half thousand people at the top of Palm Beach County that has spent sixty years deliberately not becoming Jupiter. Low-rise, low-density and unusually green, with its own police department, water utility and village council. The Loxahatchee River defines its edges and shapes how residents spend their time." },
+      { q: "Is Tequesta the same as Jupiter?", a: "No, though they function as one connected area in practice. Jupiter is a substantial town with beaches, a waterfront dining scene and a strong identity. Tequesta stayed small and residential with its own government. They share a river and a great deal of daily life, but the difference is exactly why people choose the smaller one." },
+      { q: "Why is Tequesta so green?", a: "Because the village has been protecting its tree canopy since the 1960s. Mature canopy over residential streets, deep lots in the older sections, and an absence of the scraped-flat look of newer Florida development. On a hot afternoon the difference from a subdivision built in 2015 is immediately physical." },
+      { q: "Is Tequesta in Palm Beach County or Martin County?", a: "Mostly Palm Beach County, but the county line runs right by the village and some properties with a Tequesta mailing address are in Martin County. That changes the school district, property appraiser, millage and county services. It is invisible from the street, so treat it as a first-order question when shopping." },
+      { q: "What is the Loxahatchee River?", a: "A federally designated Wild and Scenic river — a rare distinction and the reason its upper reaches still look like Florida before the twentieth century. It defines Tequesta's southern and eastern edges, supports dockage behind many houses with access out through the Jupiter Inlet, and underpins a genuine local conservation culture." },
+      { q: "Is Tequesta too small?", a: "It depends what you need. Five and a half thousand people support a small commercial stretch on Tequesta Drive and not much else — the supermarket run, the restaurant range and most errands happen in Jupiter a few minutes south. Residents rarely mind, but buyers wanting a town with a centre should know they are getting a neighbourhood with a shop." },
     ],
-    internalLinks: ["best-neighborhoods-in-tequesta-florida", "best-things-to-do-in-tequesta-florida", "who-should-move-to-tequesta-florida"],
+    internalLinks: ["best-neighborhoods-in-tequesta-florida", "tequesta-vs-nearby-cities", "pros-and-cons-of-living-in-tequesta-florida"],
     funFact: "Tequesta is named after the Tequesta people, a Native American tribe who inhabited southern Florida for at least 2,000 years before European contact. The village name is one of the few direct linguistic legacies of the Tequesta people remaining in South Florida today.",
     author: 'john',
     published: true,
@@ -15888,30 +15952,124 @@ It's small, so for bigger shopping, dining, and nightlife you'll head to Jupiter
     primaryKeyword: "Tequesta local guide",
     secondaryKeywords: ["Tequesta insider tips", "things locals do in Tequesta", "moving to Tequesta guide"],
     h1: "A Local's Guide to Tequesta, Florida",
-    body: `Tequesta is tiny and easy to love — here's how a local sees the village.
+    body: `The practical layer: how the village is laid out, who handles what, the county-line trap, and the things new residents work out a month too late.
 
-## Get your bearings
+## The layout
 
-Tequesta sits north of the **Loxahatchee River**, with **Tequesta Drive** running through its small downtown and **US-1 / County Line Road** as the main connectors. The river and Intracoastal define the eastern, waterfront side, and Jupiter is right across the bridges to the south. **Coral Cove Park** and the beaches are a short drive east on Jupiter Island.
+Tequesta is small enough to learn in twenty minutes.
 
-## The local rhythm
+**Tequesta Drive** runs east–west through the village and holds the small commercial centre. **US-1 (Federal Highway)** is the main north–south route, carrying you south toward Jupiter and north toward Hobe Sound. **County Line Road** marks the northern boundary. **Island Way** and **Beach Road** run east toward Jupiter Island and the ocean.
 
-Mornings on the water or a walk through the leafy neighborhoods, a coffee or lunch in the little downtown, and easy trips to Jupiter for the beach, dining, or errands. It's a calm, community-paced life with the village's parks and the river at its center.
+The **Loxahatchee River** wraps the southern and eastern sides. Bridges south take you into Jupiter; bridges east take you to the barrier island.
 
-## The unwritten rules
+**I-95 and the Turnpike** are both a short drive west via the main connectors.
 
-Enjoy the quiet — it's the whole appeal. Boating is part of the culture on the river side. And lean on Jupiter next door for anything the village doesn't have; locals treat the two as one connected area.
+## The county line — check this first
 
-## Settling in
+The single most important administrative fact about this village.
 
-Pick waterfront, country-club, or village-classic, get to know the small downtown, and enjoy a peaceful hometown with Jupiter's perks minutes away. Tequesta rewards people who want calm and community.`,
+Tequesta sits at the **Palm Beach–Martin county line**, and some properties with a Tequesta mailing address are in **Martin County**. The postal address does not tell you. The street may not tell you. Neighbouring houses can differ.
+
+What changes:
+
+- **School district** — Palm Beach County or Martin County, entirely different systems, boundaries and choice programmes.
+- **Property appraiser and tax collector**, and therefore your millage and your bill.
+- **County services**, including sheriff's coverage in unincorporated areas.
+- **Building and permitting authority** for anything outside village jurisdiction.
+
+The title work answers it definitively. Ask before you get attached to a house, not at closing.
+
+## Village services
+
+Tequesta is an incorporated village and does more for itself than most communities its size:
+
+- **Police** is a village department.
+- **Water** comes from the village's own utility across much of Tequesta — unusual, and worth confirming for the specific address.
+- **Permits, zoning and code enforcement** run through the village. The village takes its character seriously, so start early on exterior work. Anything touching a dock, seawall or the river usually pulls in state and federal review as well, and those timelines are long.
+- **Fire rescue** is provided at county level.
+- **Electric** is FPL.
+- **Waste collection** runs on a village schedule with separate bulk and vegetative rules.
+
+**County-level functions** — property records, homestead filing, vehicle and vessel registration, driver licensing — go through the relevant county, which brings us back to establishing which one you're in.
+
+## Schools
+
+Verify attendance boundaries for the specific address, directly with the relevant district, before making any assumption.
+
+Boundaries change. Magnet, choice and lottery programmes have their own rules and deadlines. Listings and third-party sites are frequently out of date, and given the county-line situation here they may be pointing at the wrong district entirely.
+
+## Health care
+
+There's a hospital in Jupiter, minutes south, and a substantial concentration of specialists throughout the northern Palm Beach County corridor. Martin County facilities are close to the north.
+
+Note your nearest emergency entrance now rather than looking it up during an emergency.
+
+## If you own a boat
+
+- **Register the vessel** through the relevant county Tax Collector.
+- **Establish dock depth at mean low water** and **fixed bridge clearances** on your route to the Jupiter Inlet before you buy. The river system shoals in places and this is the local mistake.
+- **Learn the manatee and idle-speed zones**, which are extensive on this river, actively enforced, and carry substantial penalties.
+- **Understand the conservation constraints** on the river generally — this is a protected waterway and it's regulated accordingly.
+- **Have a storm plan for the vessel.** Haul-out slots fill fast once a storm is named.
+
+## Getting out of town
+
+- **Palm Beach International** is roughly half an hour south.
+- **Brightline** runs from West Palm Beach to Fort Lauderdale, Miami and Orlando.
+- **Tri-Rail** serves the county corridor from stations further south.
+- **I-95 and the Turnpike** are both easily reached.
+
+## Hurricane season
+
+June through November, peaking late summer into early autumn.
+
+- **Find your evacuation zone before the season starts.** Low-lying riverfront and anything near the barrier island go early, and buyers routinely assume river property is safer than it is.
+- **Sort shutters or impact protection before June.**
+- **Keep about two weeks** of water, food, medication and cash.
+- **Photograph the property annually** for insurance.
+- **Know your flood zone**, which is parcel-specific.
+- **Tree canopy is a mixed blessing** in a storm. Mature trees near the house should be assessed and maintained.
+
+## The seasonal calendar
+
+**November through April:** best weather, fullest roads, Jupiter noticeably busier. Still modest by county standards.
+
+**May and June:** heat arrives, storm season begins.
+
+**July through September:** hot, humid, storming most afternoons. Quiet, and the best paddling if you go early.
+
+**October:** the turn, and arguably the best month here.
+
+## Practical first-month checklist
+
+Things worth doing early that new residents routinely leave too late:
+
+- **Confirm the county on your deed**, and register to vote and update your licence with the right one.
+- **File for homestead exemption** if this is your primary residence — there's a deadline and missing it costs a year.
+- **Set up village water** and confirm whether your address is on it.
+- **Find your evacuation zone and flood zone** and write them down somewhere you'll find them in a hurry.
+- **Get a tide app** if you're anywhere near the water; it will shape more of your week than you expect.
+- **Introduce yourself at the village hall** — in a community this size that's genuinely useful rather than quaint.
+- **Learn the two routes south into Jupiter** and which one works at which hour.
+- **Check whether your property has any club obligation attached to it** if you bought near the country club, and what it actually requires.
+
+## Fitting in
+
+- **Go early.** Water, exercise, errands. By midday in summer the outdoors is unpleasant.
+- **Treat Jupiter as part of your town.** Residents who resist driving three minutes for groceries make the village harder than it needs to be.
+- **Respect the river.** The conservation culture here is genuine, and speed zones and access rules matter to people.
+- **Verify address by address.** County, village versus unincorporated, flood and evacuation zone, utility provider, school boundary, and any club obligation all vary within short distances.
+
+For the feel of the place rather than the mechanics, read [what living here is actually like](/blog/what-its-really-like-living-in-tequesta-florida) — and the [quieter local finds](/blog/hidden-gems-in-tequesta-florida) are where the village starts to feel like yours.`,
     faqs: [
-      { q: "What do locals do in Tequesta?", a: "Boat and kayak the Loxahatchee River, enjoy the small downtown's cafés and shops, walk the leafy neighborhoods and parks, snorkel at nearby Coral Cove Park, and pop to Jupiter for the beach, dining, and the lighthouse." },
-      { q: "Does Tequesta have a downtown?", a: "Yes — a small, charming downtown along Tequesta Drive with local cafés, shops, and restaurants, with Jupiter close for more." },
-      { q: "Is Tequesta walkable?", a: "Parts of the small downtown are walkable, but it's largely a quiet, residential, car-first village." },
-      { q: "Is Tequesta part of Jupiter?", a: "No — Tequesta is its own village, but it sits right next to Jupiter and shares its schools, waterways, and proximity to the beaches." },
+      { q: "Is Tequesta in Palm Beach County or Martin County?", a: "Mostly Palm Beach County, but the county line runs right by the village and some Tequesta-addressed properties are in Martin County. The postal address does not tell you and neighbouring houses can differ. It changes your school district, tax bill, county services and permitting authority — the title work answers it definitively." },
+      { q: "Does Tequesta have its own police and water?", a: "Yes — police is a village department and the village operates its own water utility across much of Tequesta, which is unusual for a community of this size. Permits, zoning and code enforcement also run through the village. Fire rescue is provided at county level and electric is FPL." },
+      { q: "How do I check schools for a Tequesta address?", a: "Establish which county the property is in first, then verify attendance boundaries directly with that district. Boundaries change, magnet and choice programmes have their own rules and deadlines, and third-party sites are frequently out of date — and given the county-line situation may be pointing at the wrong district entirely." },
+      { q: "What should I know before keeping a boat in Tequesta?", a: "Establish dock depth at mean low water and fixed bridge clearances on your route to the Jupiter Inlet before buying — the river system shoals in places and this is the local mistake. Learn the manatee and idle-speed zones, which are extensive and actively enforced, and understand that this is a protected waterway regulated accordingly." },
+      { q: "How should I prepare for hurricane season in Tequesta?", a: "Find your evacuation zone before the season starts — low-lying riverfront goes early and buyers routinely assume river property is safer than it is. Sort shutters or impact protection before June, keep about two weeks of supplies, photograph the property annually, and have mature trees near the house assessed and maintained." },
+      { q: "What is the best month in Tequesta?", a: "October, arguably — the heat breaking and the seasonal crowds not yet back. November through April has the best weather and the fullest roads, though still modest by county standards. July through September is hot and stormy but quiet, and the paddling is excellent if you go early." },
     ],
-    internalLinks: ["what-its-really-like-living-in-tequesta-florida", "best-things-to-do-in-tequesta-florida", "hidden-gems-in-tequesta-florida"],
+    internalLinks: ["what-its-really-like-living-in-tequesta-florida", "hidden-gems-in-tequesta-florida", "best-neighborhoods-in-tequesta-florida"],
     funFact: "Tequesta and Jupiter share school buses and the same schools, but are separate municipalities with different governments and tax rates. The practical daily life is so integrated that new residents often take months to realize they're technically in a different town than their kids' school.",
     author: 'christine',
     published: true,
@@ -15929,26 +16087,102 @@ Pick waterfront, country-club, or village-classic, get to know the small downtow
     primaryKeyword: "best neighborhoods in Tequesta Florida",
     secondaryKeywords: ["where to live in Tequesta", "Tequesta Country Club", "Tequesta waterfront homes"],
     h1: "Best Neighborhoods in Tequesta, Florida",
-    body: `Tequesta is small, but it offers a few distinct ways to live. By lifestyle:
+    body: `Tequesta is small enough that "which neighbourhood" is a shorter conversation than in most places — but the differences between its handful of areas are real, and they matter more than the village's size suggests.
 
-**Waterfront & boating → the riverfront and Intracoastal streets.** Homes with docks and quick river/ocean access — the prize for boaters, and the priciest tier.
+Here's what's actually here.
 
-**Established & golf → Tequesta Country Club.** A classic, leafy community around the golf course — well-kept, sought-after, and central to village life.
+## Getting oriented
 
-**Charming village homes → the central neighborhoods.** Tidy, tree-lined streets near the small downtown, ranging from attainable to upscale, in great school zones.
+**Tequesta Drive** runs east–west through the village and holds the small commercial centre. **US-1 (Federal Highway)** is the main north–south route. **County Line Road** marks the northern edge and, as the name says, the county boundary.
 
-**Gated & newer → select communities.** A few gated and newer developments add more options around the village.
+The **Loxahatchee River** wraps the southern and eastern sides, with the Intracoastal beyond it. East across the bridges is **Jupiter Island** and the ocean.
 
-**Island-adjacent → near Jupiter Island.** Toward the coast, you edge into a higher price tier near Jupiter Island and the beaches.
+The general pattern: waterfront and near-water east and south, the golf community in the middle, and village housing filling the rest.
 
-**How to choose:** a riverfront boating home, a country-club lifestyle, a charming village house, or something gated and newer? Tequesta's small size keeps it close-knit, with the schools and the river as common threads.`,
+## The riverfront and Intracoastal streets
+
+The top of the market and the reason many buyers are here at all — homes with dockage on the river system, with access out through the Jupiter Inlet to the Atlantic.
+
+The appeal is specific: the Loxahatchee is a protected, scenic, genuinely beautiful waterway rather than a dredged canal, and living on it is a different proposition from living on a suburban waterway elsewhere.
+
+*Check, in order:*
+- **Depth at your dock at mean low water** against your actual draft. The river system varies considerably and shoals in places.
+- **Fixed bridge clearances** anywhere between your dock and open water.
+- **Seawall condition, age and responsibility**, which is a five-figure item at minimum.
+- **Flood zone and elevation certificate**, plus a real insurance quote before you're committed.
+- **Manatee zones and speed restrictions** on your stretch, which are enforced and which affect how you'll actually use a boat.
+
+## Tequesta Country Club
+
+The village's established golf community — leafy, well-kept, and central both geographically and socially. Housing here spans a range, generally from the 1960s onward, much of it renovated.
+
+It's a large share of the village's identity, and for residents who play, the walk-or-cart convenience is a genuine daily benefit.
+
+*Check:* the club's membership structure and whether it's mandatory with the property, the buy-in and annual obligations, and the HOA rules separately. These vary and they're material — our [cost breakdown](/blog/cost-of-living-in-tequesta-florida) explains why club obligations can outweigh a mortgage difference.
+
+## The village-core streets
+
+The largest share of the housing: tree-lined residential streets in and around the centre, ranging from modest mid-century houses to substantially rebuilt ones.
+
+This is the attainable way into Tequesta and where most transactions happen. Lot sizes are generous by modern standards, canopy is mature, and the streets were laid out before cul-de-sac subdivisions became the default.
+
+*Check:* roof age above almost anything else, since it drives a near-term capital cost and insurability together. Then permit history, electrical panel type, plumbing material, and whether impact protection is in place. A great many of these houses have been renovated to a high standard and a great many have not, sometimes on the same street.
+
+## The newer gated communities
+
+A handful of gated and more recently built developments add newer construction, community amenities and lower maintenance obligations to the village's mix.
+
+*Check:* the HOA budget, reserve study and assessment history, plus what the association controls externally.
+
+## Toward Jupiter Island
+
+East, approaching the barrier island, the price tier steps up sharply and the character shifts toward larger properties and coastal exposure.
+
+*Check:* wind exposure, elevation, flood zone and insurance above everything else, plus evacuation zone, which will be called early.
+
+## Rentals and seasonal occupancy
+
+Worth checking on any street you're considering, because it varies more than the village's uniform appearance suggests.
+
+Parts of Tequesta have a meaningful seasonal population, and some properties are let short-term. Neither is a problem in itself, but it changes what a street feels like across the year — busier and more sociable in winter, quieter in summer, with neighbours you may or may not get to know.
+
+Ask directly about the block rather than inferring from the houses, and check current village rules on short-term letting if it matters to you either way.
+
+## The Martin County question
+
+Worth repeating here because it affects the purchase directly: **some properties with a Tequesta address sit in Martin County rather than Palm Beach County.**
+
+This changes your school district, your property appraiser and tax bill, and your county services. Two houses on nearby streets can differ on all three. It's answered definitively by the title work, and it should be asked early rather than discovered at closing.
+
+## What the housing stock is actually like
+
+Worth setting expectations, because photographs flatten the differences.
+
+Most of Tequesta was built between the late 1950s and the 1980s, which means single-storey and two-storey houses on generous lots, concrete block construction, and floor plans from an era with different assumptions about how people live — smaller kitchens, more separate rooms, less glass.
+
+A large share have been renovated, some to a very high standard, and those are the ones that photograph well and sell quickly. The rest are honest mid-century houses with original systems.
+
+**The practical consequence:** two houses on the same street at similar asking prices can represent completely different propositions once you account for roof, windows, electrical, plumbing and insurance. In a village this size the inventory is thin enough that you may not get to choose, so know what you're looking at and price the work realistically.
+
+**The upside:** the lots and the canopy are what they are regardless of the house, and those are the things you cannot add later. Buyers who prioritise the land over the finishes generally do better here.
+
+## Choosing
+
+1. **Is there a boat?** If yes, the riverfront streets are the point of this village — and dock depth plus bridge clearance decide which ones work.
+2. **Do you play golf?** The country club is a genuinely different daily life from the village streets, and its obligations need pricing.
+3. **Renovating or not?** The core streets reward a renovation appetite and punish its absence.
+4. **Which county?** Establish it before you get attached to a house.
+
+Whatever you land on, verify flood zone, elevation, permit history, county, and any club or association obligation for the specific parcel. In a village this varied in housing age, the street tells you very little about the house.`,
     faqs: [
-      { q: "What is the best neighborhood in Tequesta?", a: "It depends on your lifestyle — riverfront and Intracoastal streets for boating, the Tequesta Country Club for established golf living, and the central village neighborhoods for charming homes in great school zones." },
-      { q: "Can you live on the water in Tequesta?", a: "Yes — the riverfront and Intracoastal streets offer homes with docks and quick access to the Loxahatchee River and the ocean." },
-      { q: "What is Tequesta Country Club?", a: "An established, leafy community built around a golf course — one of Tequesta's most sought-after and central neighborhoods." },
-      { q: "Are there attainable homes in Tequesta?", a: "Yes — the central village neighborhoods offer more attainable homes than the waterfront tier, all within desirable school zones." },
+      { q: "What is the best neighborhood in Tequesta?", a: "It depends on what you are buying for. The riverfront and Intracoastal streets are the top of the market and the reason many buyers come. Tequesta Country Club is the established golf community and a large part of village identity. The tree-lined village-core streets hold most of the housing and are the attainable way in." },
+      { q: "What should I check before buying a waterfront home in Tequesta?", a: "Depth at your dock at mean low water against your actual draft, since the river system varies and shoals in places. Then fixed bridge clearances on the route out to the Jupiter Inlet, seawall condition and responsibility, flood zone and elevation certificate with a real insurance quote, and the manatee speed zones on your stretch." },
+      { q: "Could my Tequesta home be in Martin County?", a: "Possibly — the county line runs right by the village and some Tequesta-addressed properties sit in Martin County. That changes your school district, property appraiser, tax bill and county services, and two houses on nearby streets can differ on all three. The title work answers it definitively; ask early." },
+      { q: "Is Tequesta Country Club membership mandatory?", a: "It varies by property, which is exactly why it needs checking. Establish whether membership comes with the house, what the buy-in and annual obligations are, and what the HOA requires separately. Club obligations can outweigh the mortgage difference between two houses." },
+      { q: "Where is the most affordable place to buy in Tequesta?", a: "The village-core streets around the centre, which hold the largest share of the housing — mid-century houses on generous lots under mature canopy. That is where most transactions happen. Roof age is the thing to check first, since it drives both a near-term capital cost and whether the house is insurable at a sensible price." },
+      { q: "Is there new construction in Tequesta?", a: "A limited amount, in a handful of gated and more recently built communities that add newer housing, community amenities and lower maintenance obligations. Check the HOA budget, reserve study and assessment history, and establish what the association controls externally before committing." },
     ],
-    internalLinks: ["what-its-really-like-living-in-tequesta-florida", "cost-of-living-in-tequesta-florida", "who-should-move-to-tequesta-florida"],
+    internalLinks: ["cost-of-living-in-tequesta-florida", "what-its-really-like-living-in-tequesta-florida", "who-should-move-to-tequesta-florida"],
     funFact: "Tequesta Country Club was founded in 1956 — the same year the village was incorporated — making the club essentially as old as Tequesta itself. Several holes run along the Loxahatchee River, giving the course a wild-Florida riverfront character that newer courses simply can't replicate.",
     author: 'john',
     published: true,
@@ -15966,28 +16200,111 @@ Pick waterfront, country-club, or village-classic, get to know the small downtow
     primaryKeyword: "things to do in Tequesta Florida",
     secondaryKeywords: ["Tequesta attractions", "what to do in Tequesta", "Coral Cove Park", "Loxahatchee River"],
     h1: "Best Things to Do in Tequesta, Florida",
-    body: `Tequesta is small, but it's surrounded by water and minutes from Jupiter's best — so there's plenty to do.
+    body: `Tequesta's recreation is mostly water, mostly free, and mostly within ten minutes of the village. For somewhere this small it punches well above its size — largely because of what surrounds it.
 
-**Snorkel at Coral Cove Park.** Just east on Jupiter Island, Coral Cove has a shallow rock-and-reef shoreline that's one of the area's best easy snorkeling and family beach spots.
+## Paddle the Loxahatchee River
 
-**Kayak the Loxahatchee River.** Paddle the Wild and Scenic Loxahatchee right from Tequesta — mangroves, manatees, and old-Florida calm.
+The single best thing to do here, and the reason the village exists where it does.
 
-**Explore the village downtown.** Tequesta Drive's cafés, shops, and restaurants give the village a charming, walkable little center.
+The Loxahatchee carries a federal **Wild and Scenic** designation, and the upper reaches genuinely look like pre-development Florida: cypress, live oak, dense overhang, and water that goes from brackish to fresh as you move upstream. It's one of very few rivers in the state that has been protected to this degree.
 
-**Enjoy the parks.** Constitution Park, Tequesta Park, and Bert Winters Park offer fields, trails, and waterfront access for easy days out.
+**How to do it:** launch a kayak or paddleboard from access points around the village and Jupiter, and go early. Mornings are calm, wildlife is active, and the boat traffic hasn't built. Manatees are common in the cooler months, and alligators are present in the fresher upper stretches — which is normal, and a reason to keep dogs out of the water up there.
 
-**Golf the country club.** Tequesta Country Club anchors the local golf scene.
+Paddling upstream toward the northwest fork gets progressively wilder and quieter. It's a genuinely different landscape from the coastal Florida five minutes away.
 
-**Tap into Jupiter.** The lighthouse, dog beach, Riverwalk dining, and Roger Dean Stadium are all minutes south.
+## Snorkel Coral Cove Park
 
-In summer, hit the water and snorkeling early, then enjoy the shady downtown and parks through the afternoon storms.`,
+East on Jupiter Island, and one of the best easy snorkelling spots in the county.
+
+What makes it work is the limestone outcropping running along the shoreline — the same Anastasia formation that produces the dramatic rock at Blowing Rocks further north. Here it sits in shallow water close in, creating pools, ledges and structure that hold fish without requiring a boat or a long swim.
+
+**Conditions matter enormously.** On a calm day it's clear and easy; on a day with any swell it's murky and the rocks become a hazard. Check the forecast, go at the right tide, and wear something on your feet.
+
+There's also beach, a playground, picnic areas and parking, which makes it a straightforward outing rather than an expedition.
+
+## The village parks
+
+Small, well maintained and mostly used by residents:
+
+- **Constitution Park** for open space, courts and community events.
+- **Tequesta Park** with fields and trails.
+- **Bert Winters Park** for waterfront access on the Intracoastal side and a launch point for paddling.
+
+None is a destination. All of them are useful, and together they're a large part of why the village feels liveable at its size.
+
+## Golf
+
+**Tequesta Country Club** anchors the village's golf, and the surrounding area — Jupiter, Palm Beach Gardens and Hobe Sound — holds one of the densest concentrations of courses in Florida.
+
+For anyone whose week is organised around a round, the supply within a short drive is substantial.
+
+## Fishing and boating
+
+Access to the river system and out through the **Jupiter Inlet** puts you into the Atlantic reasonably quickly, and the Gulf Stream runs close inshore along this stretch.
+
+Inshore, the river and Intracoastal fish well. Offshore is a short run once you're through the inlet. Charters operate out of Jupiter for anyone without a boat.
+
+## Jupiter, minutes south
+
+The village treats Jupiter as an extension of itself, and for recreation that's where a good deal happens:
+
+- **The Jupiter Inlet Lighthouse**, which you can climb, with a small museum and genuinely good views.
+- **The beaches**, including the well-known dog-friendly stretch.
+- **The Riverwalk** along the Loxahatchee, with waterfront dining.
+- **Roger Dean Chevrolet Stadium** for spring training and minor league baseball.
+
+## A little further
+
+- **Blowing Rocks Preserve**, north on Jupiter Island, where winter swell forces water through limestone in plumes.
+- **Jonathan Dickinson State Park**, north in Martin County, for serious hiking, camping, paddling and the best remaining scrub habitat in the region.
+- **Riverbend Park**, west, with extensive trails and its own paddling on the upper river.
+
+## Cycling and running the village
+
+Underrated and one of the practical benefits of low density.
+
+The village's residential streets are quiet, shaded and largely free of through traffic, which makes them genuinely pleasant for running, cycling or walking a dog — a rarity in a part of Florida where most neighbourhoods are ringed by arterials.
+
+Longer rides head north on the coastal road toward Hobe Sound, where the traffic thins further and the scenery improves, or west toward the trail networks around the upper river.
+
+Early morning, as with everything here, is the window.
+
+## Tennis, pickleball and the club sports
+
+Beyond golf, the country club and the village's park facilities support the racquet sports that do a good deal of the area's social work.
+
+Pickleball in particular has taken hold across this corner of the county, and it's one of the easier ways into a community if you're new and don't play golf. The barrier to entry is minimal and the regulars are generally welcoming.
+
+## Seasonal timing
+
+**Winter into spring** brings the best air temperatures, the calmest ocean days for snorkelling, and the biggest crowds — modest by county standards.
+
+**Summer** is hot and stormy by afternoon. Get on the water early; the paddling is excellent and the river is at its most sheltered.
+
+**Manatee season**, roughly the cooler months, brings animals into the river and warrants extra care with speed zones and paddling distance.
+
+## Community events
+
+Small, frequent, and the main thing that makes a village of this size feel like a community rather than a subdivision.
+
+The village runs a steady programme through the cooler months centred on its parks — markets, concerts, holiday events, and the sort of gathering where turning up twice makes you a familiar face. None of it is a destination, which is precisely the point.
+
+Check the village's own calendar rather than regional listings sites, which largely ignore communities this small.
+
+## Where to start
+
+Paddle the river at sunrise, then snorkel Coral Cove on the first calm day.
+
+Those two are what this village is actually for, and neither costs much. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-tequesta-florida) are where it starts to feel like home.`,
     faqs: [
-      { q: "What is there to do in Tequesta?", a: "Snorkel at nearby Coral Cove Park, kayak the Loxahatchee River, explore the village downtown's cafés and shops, enjoy the local parks, golf at Tequesta Country Club, and tap into Jupiter's beaches and dining minutes away." },
-      { q: "What is Coral Cove Park?", a: "A beach park on Jupiter Island just east of Tequesta with a shallow rock-and-reef shoreline — one of the best easy snorkeling and family beach spots in the area." },
-      { q: "Can you kayak in Tequesta?", a: "Yes — the Loxahatchee River, a federally designated Wild and Scenic river, is right there for kayaking, with manatees and beautiful scenery." },
-      { q: "Is Tequesta good for families?", a: "The village is zoned to Jupiter-area Palm Beach County schools and offers parks, a community center, and easy beach access. School boundaries may change — verify with the district." },
+      { q: "What is the best thing to do in Tequesta?", a: "Paddle the Loxahatchee River at sunrise. It carries a federal Wild and Scenic designation and the upper reaches genuinely look like pre-development Florida — cypress, live oak, dense overhang, and water turning from brackish to fresh as you go upstream. Mornings are calm, wildlife is active and boat traffic has not built." },
+      { q: "Is Coral Cove Park good for snorkelling?", a: "One of the best easy spots in the county, thanks to a limestone outcropping in shallow water close to shore that creates pools, ledges and structure holding fish. Conditions matter enormously — clear and easy on a calm day, murky and hazardous with any swell. Check the forecast, go at the right tide and wear something on your feet." },
+      { q: "Can you see manatees in Tequesta?", a: "Commonly, in the cooler months, when they move into the Loxahatchee River system. That is also when extra care with speed zones and paddling distance matters most. Alligators are present in the fresher upper stretches of the river, which is normal and a good reason to keep dogs out of the water up there." },
+      { q: "What parks does Tequesta have?", a: "Constitution Park for open space, courts and community events; Tequesta Park with fields and trails; and Bert Winters Park for Intracoastal waterfront access and a paddling launch. None is a destination, all are useful, and together they are a large part of why the village feels liveable at its size." },
+      { q: "Can you get to the ocean by boat from Tequesta?", a: "Yes, out through the Jupiter Inlet, which puts you into the Atlantic reasonably quickly, with the Gulf Stream running close inshore along this stretch. Inshore, the river and Intracoastal fish well. Charters operate out of Jupiter for anyone without their own boat." },
+      { q: "What is there to do near Tequesta?", a: "Jupiter is minutes south with the inlet lighthouse, beaches, the Riverwalk and Roger Dean Stadium. Further out, Blowing Rocks Preserve north on Jupiter Island, Jonathan Dickinson State Park in Martin County for hiking and camping, and Riverbend Park to the west with trails and upper-river paddling." },
     ],
-    internalLinks: ["hidden-gems-in-tequesta-florida", "local-guide-to-tequesta-florida", "best-places-to-eat-drink-hang-out-in-tequesta-florida"],
+    internalLinks: ["hidden-gems-in-tequesta-florida", "best-places-to-eat-drink-hang-out-in-tequesta-florida", "local-guide-to-tequesta-florida"],
     funFact: "Coral Cove Park sits at the northern edge of Jupiter Island, where a natural limestone reef runs parallel to the beach just offshore. It's only accessible on foot or by bike — no large parking lot — which keeps the crowds low even in peak season. Locals who know about it guard the secret carefully.",
     author: 'christine',
     published: true,
@@ -16005,30 +16322,92 @@ In summer, hit the water and snorkeling early, then enjoy the shady downtown and
     primaryKeyword: "who should move to Tequesta Florida",
     secondaryKeywords: ["is Tequesta right for me", "should I move to Tequesta", "who lives in Tequesta"],
     h1: "Who Should Move to Tequesta, Florida (And Who Shouldn't)",
-    body: `Tequesta is a quiet, upscale village — ideal for some, too sleepy for others.
+    body: `Tequesta suits a specific kind of buyer very well. The question isn't whether it's a nice place — it plainly is — but whether the particular trade it offers is the one you want.
 
-**You'll love Tequesta if you:**
-- **Want school access and low density** — Jupiter-area school zoning and leafy, quiet streets.
-- **Boat** — the Loxahatchee River and Intracoastal access are a draw.
-- **Want quiet and charm** — a peaceful hometown feel.
-- **Want Jupiter next door** — beaches, dining, and amenities minutes away, without Jupiter's bustle.
-- **Want a calm, low-density village** with dockage and higher-end housing stock.
-- **Value an established community** over flashy new development.
+## The people this village fits
 
-**You might look elsewhere if you:**
-- **Want nightlife or a big downtown** — that's Jupiter or West Palm.
-- **Are budget-focused** — Tequesta leans upscale.
-- **Want lots of shopping and amenities** in-town — it's small.
-- **Crave urban energy** — Tequesta is intentionally quiet.
+**The buyer who wants Jupiter without Jupiter.** This is the core case and it's a large share of who moves here. You get the same area, the same waterways, the same coast and much of the same daily life, in a quieter, greener, lower-density setting, often for slightly less money.
 
-**Gut-check:** if "a quiet leafy village, a boat on the river, A-rated school zones, and Jupiter minutes away" sounds perfect, Tequesta is a gem. If you want energy and amenities at your door, lean toward Jupiter or the city.`,
+People who tour Jupiter, like it, and find it busier than they wanted end up in Tequesta regularly.
+
+**The boater who wants a river rather than a canal.** The Loxahatchee is protected, scenic and genuinely beautiful, and it connects to the ocean by way of the Jupiter Inlet. Living on it is a different experience from living on a dredged suburban waterway.
+
+*Verify:* dock depth at mean low water against your draft, any fixed span between you and open water, and the speed zones on your stretch.
+
+**Households with children in school.** Tequesta sits within the Palm Beach County school district and shares attendance areas with the Jupiter area — though some Tequesta-addressed properties fall in Martin County and a different district entirely.
+
+*Verify:* attendance boundaries for the specific address, directly with the relevant district. Boundaries change, magnet and choice programmes have their own rules and deadlines, and no listing or third-party site is authoritative. Establish which county you're in first.
+
+**The buyer who values trees and space over newness.** Mature canopy, generous lots and streets laid out before the subdivision era. If you've been looking at new construction and finding it bare, this village will feel like a relief.
+
+**Retirees and downsizers who still want to be near things.** Quiet, low-density, walkable in patches, with a substantial town three minutes away and a major airport well within reach.
+
+**The person who wants a small government they can actually reach.** The village runs its own police and water utility and has a council that's genuinely accessible. For people who've dealt with large county bureaucracies, this is a real quality-of-life difference.
+
+## The people who tend to regret it
+
+**Anyone who wants a town.** Roughly five thousand residents, one small commercial stretch, no nightlife. If you want to walk out into something, this isn't it — and Jupiter, three minutes away, doesn't change the fact that you'll be driving.
+
+**The budget-constrained buyer.** Tequesta is not the affordable option in this area. Scarcity, desirability and thin inventory keep prices firm, and the carrying costs on older houses and club properties add to it.
+
+**The buyer who wants new construction.** Most of the housing is decades old. There's some newer building, but if a warranty and modern systems lead your list, the communities west and north deliver that better.
+
+**Anyone who needs oceanfront.** The village is inland of the barrier island. The beaches are close and good, but you're crossing a bridge.
+
+**The buyer who wants anonymity.** Everyone here gets recognised eventually. Some people find that warm and some find it close.
+
+## Work and commuting
+
+Tequesta sits at the northern end of Palm Beach County, and that geography shapes the commute:
+
+- **Jupiter** is minutes away and holds meaningful employment.
+- **Palm Beach Gardens** is a straightforward drive south and has substantial office and medical employment.
+- **West Palm Beach** is realistic daily, though I-95 in season adds unpredictability.
+- **Stuart and Martin County** are close to the north — an easy commute against the main flow.
+- **Fort Lauderdale and Miami** are not realistic daily propositions from here.
+
+**Palm Beach International** is roughly half an hour south. **Brightline** runs from West Palm Beach with fast service to Fort Lauderdale, Miami and Orlando.
+
+Drive your actual route in February, not July. Season changes the arithmetic on every road here.
+
+## The stage-of-life question
+
+Tequesta suits some stages better than others, and it's worth being honest about which you're in.
+
+**Early career, no children, wanting a social life:** this is not the place. The village is quiet, the population skews established, and the nightlife is elsewhere. Jupiter or West Palm Beach will serve you much better.
+
+**Raising a family:** works well, with the caveat that you must verify which county and therefore which school district the address falls in — that single question changes the answer entirely.
+
+**Empty-nesters and downsizers:** arguably the strongest fit. The quiet becomes an asset rather than a limitation, the medical access nearby is good, and the village's scale suits people who no longer want to maintain a large property or drive far.
+
+**Retirement:** similar, with the same caveat everyone in Florida faces — think honestly about how you'd manage an evacuation, and about how far the specialists you need actually are.
+
+None of this is prescriptive. But the village's population and rhythm reflect who's chosen it, and buyers who are markedly out of step with that tend to notice within a year.
+
+## The test worth running
+
+Spend a Saturday morning in the village and a Saturday evening in Jupiter.
+
+If the combination feels like one life rather than two — quiet at home, everything else a few minutes away — you've understood what Tequesta actually offers, and you'll be happy here.
+
+If the morning feels empty rather than peaceful, believe that. It means you want the town rather than the village, and Jupiter is right there.
+
+## The gut check
+
+Tequesta works for people who want a quiet, green, low-density village and are content to drive a few minutes for nearly everything else.
+
+It works poorly for people who wanted a walkable town, new construction, oceanfront, or a lower price.
+
+Get concrete before you shop: which county, whether there's a boat, and what you can actually carry. The [neighborhood guide](/blog/best-neighborhoods-in-tequesta-florida) and the [cost breakdown](/blog/cost-of-living-in-tequesta-florida) are where to start.`,
     faqs: [
-      { q: "What is Tequesta known for?", a: "Loxahatchee River frontage and private dockage, tree-lined residential streets, a compact two-square-mile footprint, and immediate access to Jupiter's beaches and amenities." },
-      { q: "Is Tequesta good for retirees?", a: "Tequesta offers a compact, low-density village layout, condo and single-level home options, Loxahatchee River dockage, and Jupiter Medical Center and full retail minutes away." },
-      { q: "Who lives in Tequesta?", a: "Tequesta housing includes waterfront and canal-front single-family homes with Loxahatchee River and Intracoastal dockage, golf-community homes, condominiums, and older non-HOA neighborhoods. The village is compact — roughly two square miles — and sits directly north of Jupiter at the Martin County line." },
-      { q: "Is Tequesta too quiet?", a: "For those wanting nightlife and lots of amenities, possibly — but that quiet, leafy calm is exactly why its residents love it, with Jupiter close for more." },
+      { q: "Who should move to Tequesta?", a: "Buyers who want Jupiter without Jupiter — the same area, waterways and coast in a quieter, greener, lower-density setting, often for slightly less. Also boaters who want a protected river rather than a dredged canal, people who value mature trees and generous lots over new construction, and retirees who want quiet with a town three minutes away." },
+      { q: "Who should not move to Tequesta?", a: "Anyone who wants a town to walk out into — five and a half thousand people, one small commercial stretch and no nightlife. Also budget-constrained buyers, since scarcity and thin inventory keep prices firm; buyers wanting new construction; and anyone who needs oceanfront, since the village is inland of the barrier island." },
+      { q: "What schools serve Tequesta?", a: "Most of the village sits in the Palm Beach County school district and shares attendance areas with the Jupiter area, but some Tequesta-addressed properties fall in Martin County and a different district entirely. Establish which county the address is in, then verify attendance boundaries directly with the relevant district — boundaries change and no listing is authoritative." },
+      { q: "Can I commute from Tequesta?", a: "Jupiter is minutes away, Palm Beach Gardens is a straightforward drive south with substantial office and medical employment, and West Palm Beach is realistic daily though I-95 in season is unpredictable. Stuart is an easy commute north against the main flow. Fort Lauderdale and Miami are not realistic daily." },
+      { q: "Is Tequesta cheaper than Jupiter?", a: "Often slightly, for something comparable, which is the village's quiet value argument. But it is not the affordable option in this area — scarcity, desirability and thin inventory keep prices firm, and carrying costs on older houses and club properties add to the total." },
+      { q: "How do I know if Tequesta suits me?", a: "Spend a Saturday morning in the village and a Saturday evening in Jupiter. If that feels like one life rather than two — quiet at home, everything else minutes away — you have understood the offer. If the morning feels empty rather than peaceful, you want the town rather than the village." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-tequesta-florida", "cost-of-living-in-tequesta-florida", "what-its-really-like-living-in-tequesta-florida"],
+    internalLinks: ["pros-and-cons-of-living-in-tequesta-florida", "cost-of-living-in-tequesta-florida", "best-neighborhoods-in-tequesta-florida"],
     funFact: "Tequesta has a per-capita income that consistently ranks among the highest in Palm Beach County, but it doesn't feel like a wealthy enclave — it feels like a small town where people know their neighbors. That combination of affluence and genuine community character is rare and hard to manufacture.",
     author: 'john',
     published: true,
@@ -16047,28 +16426,102 @@ In summer, hit the water and snorkeling early, then enjoy the shady downtown and
     secondaryKeywords: ["Tequesta pros and cons", "living in Tequesta downsides", "is Tequesta worth it"],
     h1: "Pros and Cons of Living in Tequesta, Florida",
     showMarketTrends: true,
-    body: `## The Pros
-- **A-rated school zones** shared with the Jupiter area — verify boundaries with the district.
-- **Quiet, leafy, upscale village** charm.
-- **Boating** — Loxahatchee River and Intracoastal access.
-- **Jupiter next door** — beaches, dining, and amenities minutes away.
-- **Established and low-density** with a real community feel.
-- **No state income tax.**
+    body: `Tequesta is an easy place to like and a slightly harder one to assess, because most of what people love about it is the direct result of what it lacks.
 
-## The Cons
-- **Small** — limited in-town shopping and dining (Jupiter fills it in).
-- **Upscale prices** — it's a desirable, sought-after village.
-- **Quiet nightlife** — not an action town.
-- **Florida climate** — warm summers and hurricane awareness are part of life here; waterfront properties benefit most from getting insurance quotes early.
+Here's the weighed version.
 
-**Bottom line:** for boaters and buyers who want a quiet, low-density village with Jupiter on its doorstep, Tequesta is a gem. If you want nightlife, lots of amenities, or a lower budget, Jupiter or other towns may fit better.`,
+## What you're genuinely getting
+
+**A protected river on your doorstep.** The Loxahatchee's Wild and Scenic designation isn't decoration — it's why the upper river still looks the way it does, and it's a genuinely rare thing to live beside.
+
+*How often it matters:* constantly, if you paddle or boat; as scenery and character, always.
+
+**Low density, kept deliberately.** Sixty years of resisting the pressure that reshaped everything around it. Mature canopy, generous lots, no towers, and a scale that feels human.
+
+**Your own village government.** Own police, own water utility, a council you can reach. For a community of this size that's unusual and it shows in how the place is run.
+
+**Jupiter three minutes away.** All the amenity of a substantial town without living in it — restaurants, shopping, beaches, employment, a hospital.
+
+**Genuine quiet.** Not a marketing adjective here. The village is actually quiet, most of the time, and that's the product.
+
+**No state income tax**, though as our [cost breakdown](/blog/cost-of-living-in-tequesta-florida) shows, insurance and reassessment reclaim more than newcomers expect.
+
+## What you're genuinely giving up
+
+**A town.** One small commercial stretch. No nightlife, limited shopping, and a supermarket run that involves a drive.
+
+**Price.** This is not where you come to save money in this area. Thin inventory and high desirability keep it firm.
+
+**Newness.** Much of the housing is decades old, with the maintenance and insurance profile that implies.
+
+**Oceanfront.** You're inland of the barrier island; the beach is a short drive.
+
+**Anonymity.** In a village this size, you'll be known.
+
+**Utility boundaries are not the village boundary.** Village water covers much of Tequesta but not everything with a Tequesta postal address, and the same is true of other services. Confirm per parcel.
+
+**Thin inventory means less choice than you expect.** In a village this small, the house that matches your specification may simply not be on the market this year. Buyers with narrow requirements should plan to wait rather than to compromise quickly.
+
+## The ones that catch people out
+
+**The county line.** Some Tequesta-addressed properties are in Martin County, which changes the school district, tax bill and county services. It's invisible from the street and it catches buyers out at closing. Ask first.
+
+**Club obligations attached to the property.** Whether country club membership comes with a house — and what it costs — varies, and it's the most common budget surprise in the village.
+
+**Roof age and insurability.** On mid-century stock this is frequently the difference between a house being affordable and being unbuyable. Get quotes before you're under contract.
+
+**The river has rules.** Manatee zones, speed restrictions and conservation constraints are real and enforced. If you're picturing an open throttle out your back door, adjust.
+
+**Renovation review.** The village takes its character seriously, and exterior work goes through a village process. Start early — our [practical guide](/blog/local-guide-to-tequesta-florida) covers who handles what.
+
+**Storm season is a real annual exercise**, and low-lying riverfront property is called earlier than people assume.
+
+## The things that are simply neutral
+
+Several features get argued about and are really matters of temperament.
+
+**The size.** Roughly five thousand residents means you'll recognise faces quickly. Warm to some, close to others, and you probably already know which.
+
+**The age of the housing.** A village built out mid-century reads as characterful or dated depending entirely on the viewer, and the same street produces both reactions.
+
+**The tree canopy.** Beautiful, cooling, and a genuine maintenance obligation with real implications in a storm.
+
+**The proximity to Jupiter.** Some residents treat it as an extension of home and never think about the boundary. Others feel slightly outside the action. Both are living in the same place.
+
+**The conservation culture.** The seriousness with which the river and the canopy get protected is either the reason you moved here or a source of friction when you want to do something with your own property.
+
+## What changes the calculation most
+
+If you're weighing this village against its neighbours, one variable moves the answer more than any other: **whether you'll use the river.**
+
+With a boat or a kayak and the habit of getting on the water, Tequesta's case is strong — you're paying for access to something genuinely protected and genuinely rare, and you'll touch it weekly.
+
+Without that, you're buying a quiet, green, well-run residential village at a firm price, which is a perfectly good thing to buy and available in several other places for less.
+
+## Weighing it up
+
+The structure is almost perfectly clean: **every drawback on this list is the cost of the density Tequesta refused to build.**
+
+No town, because it stayed residential. High prices, because supply is fixed and demand isn't. Old housing, because it built out decades ago and didn't tear itself down. Everyone knows you, because there aren't many of you.
+
+There is no version of this village with a walkable downtown, new construction and lower prices. That village is Jupiter, or Palm Beach Gardens, and both are minutes away and available.
+
+So the decision comes down to one question:
+
+**Do you want to live in the quiet part and drive to everything else, or live in the busy part and have it around you?**
+
+Both are legitimate. People who answer the first honestly are very happy here, and turnover in the village is low enough to prove it. People who answer it aspirationally — imagining they'll enjoy the quiet more than they do — tend to move to Jupiter within a few years.
+
+Our [profile-by-profile breakdown](/blog/who-should-move-to-tequesta-florida) is the fastest way to test which answer is actually yours.`,
     faqs: [
-      { q: "What are the pros of living in Tequesta?", a: "Jupiter-area school zoning, a quiet leafy village feel, boating and dockage on the Loxahatchee River, Jupiter's beaches and amenities next door, an established low-density community, and no state income tax." },
-      { q: "What are the downsides of living in Tequesta?", a: "It's small with limited in-town shopping and dining, it leans upscale on price, nightlife is quiet, and Florida's warm climate and waterfront insurance planning are standard considerations worth addressing early in your search." },
-      { q: "Is Tequesta worth it?", a: "For boaters and buyers who want a quiet, low-density village next to Jupiter, many feel it absolutely is. Those wanting nightlife or a lower budget may prefer Jupiter or other towns." },
-      { q: "Is Tequesta safe?", a: "Tequesta is a small, established residential village. For crime data, buyers should consult the Tequesta Police Department and the FDLE Uniform Crime Reports, which publish statistics by jurisdiction." },
+      { q: "What is the best thing about living in Tequesta?", a: "For most residents, the combination of genuine quiet and a protected river on the doorstep, with a substantial town three minutes away. The Loxahatchee's Wild and Scenic designation is the reason the upper river still looks the way it does, and living beside that is genuinely rare." },
+      { q: "What are the drawbacks of Tequesta?", a: "Almost all of them follow from the density the village refused to build: no town to speak of, one small commercial stretch, no nightlife, firm prices from thin inventory, and housing that is mostly decades old. You are also inland of the barrier island, so the beach is a short drive." },
+      { q: "What catches Tequesta buyers out most often?", a: "The county line. Some Tequesta-addressed properties sit in Martin County, changing the school district, tax bill and county services, and it is invisible from the street. After that, country club obligations attached to a specific property, and roof age on mid-century houses driving insurability." },
+      { q: "Are there restrictions on the Loxahatchee River?", a: "Yes — manatee zones, speed restrictions and conservation constraints are real and enforced, which is part of why the river remains what it is. If you are picturing an open throttle from your back door, adjust the expectation before buying riverfront." },
+      { q: "Does Tequesta have renovation rules?", a: "The village takes its character seriously and exterior work goes through a village process. Start early rather than assuming, particularly for anything structural or anything touching a dock or seawall, since marine work usually pulls in state and federal review with long timelines." },
+      { q: "Should I choose Tequesta or Jupiter?", a: "It reduces to one question: do you want to live in the quiet part and drive to everything else, or live in the busy part and have it around you? Both are legitimate. People who answer the first honestly are very happy here; people who answer it aspirationally tend to move to Jupiter within a few years." },
     ],
-    internalLinks: ["cost-of-living-in-tequesta-florida", "who-should-move-to-tequesta-florida", "tequesta-vs-nearby-cities"],
+    internalLinks: ["who-should-move-to-tequesta-florida", "cost-of-living-in-tequesta-florida", "local-guide-to-tequesta-florida"],
     funFact: "Tequesta's village government is genuinely accessible — residents attend the same commission meetings, know the same elected officials, and can actually influence decisions in ways that are impossible in Jupiter or Palm Beach Gardens. That civic intimacy is a real differentiator for people who care about where they live.",
     author: 'christine',
     published: true,
@@ -16087,27 +16540,109 @@ In summer, hit the water and snorkeling early, then enjoy the shady downtown and
     secondaryKeywords: ["Tequesta home prices", "is Tequesta expensive", "Tequesta FL cost of living"],
     h1: "Cost of Living in Tequesta, Florida",
     showMarketTrends: true,
-    body: `Tequesta runs above the national average, in line with its desirable, upscale-village status near Jupiter.
-## Housing
-The main cost. Tequesta's desirable location and schools keep prices firm, with waterfront and country-club homes commanding premiums and central village homes offering somewhat more attainable entry points. It generally tracks close to Jupiter, sometimes a touch friendlier.
+    body: `Tequesta prices like what it is: a small, low-density, heavily planted village with a protected river along its edge, in one of the more desirable corners of Palm Beach County. Scarcity does most of the work.
 
-## Taxes
-**No state income tax** — a key draw. Tequesta is in Palm Beach County; property taxes apply, with a Homestead Exemption for primary residents.
+Here's what actually drives the number and what to verify.
+
+## Housing
+
+Prices here generally track Jupiter and occasionally sit a little below it, which is the village's quiet value argument — similar area, similar access, slightly friendlier numbers.
+
+**The riverfront and Intracoastal streets** are the top tier, priced on frontage, dock access and quality of water rather than square footage alone.
+
+**Tequesta Country Club** carries its own premium, and club obligations sit on top of the purchase price.
+
+**The village-core streets** are where most transactions happen and where the attainable entry is. Housing is largely mid-century, and condition varies enormously — which means the price you see and the price you end up paying can diverge.
+
+**The newer gated communities** price for newness and lower maintenance obligation.
+
+The structural point: this is a small village with essentially no room to grow. Inventory is thin, and that supports prices in a way a larger market wouldn't.
+
+## Property taxes — and the county question first
+
+Before anything else: **establish which county the property is in.**
+
+The village abuts the Martin County boundary, and some Tequesta-addressed properties fall on the far side of it. That changes your millage, your property appraiser, your school district and your county services. It's a first-order question, not a detail.
+
+Florida has **no state income tax**, which is material for retirees and higher earners.
+
+Two mechanics matter more than the rate:
+
+**The listing's tax figure isn't yours.** It reflects the seller's assessed value, potentially capped for years. On a change of ownership the property is reassessed at market value, and the new bill can be substantially higher.
+
+**Homestead Exemption and Save Our Homes** apply to a primary residence — an exemption off assessed value plus a cap on annual increases. Portability may let you carry accrued savings from a prior Florida homestead. None of it applies to a second home.
+
+Verify current rates, exemptions and portability with the relevant county's Property Appraiser and Tax Collector — and make sure you're asking the right county.
 
 ## Insurance
-A real coastal-Florida cost, higher for waterfront homes near the river and inlet — budget and quote early.
+
+A serious cost here, and the variable that most often decides which houses work.
+
+The drivers:
+
+- **Roof age and type.** On Tequesta's substantially mid-century stock this is frequently the deciding factor. An older roof can make a house difficult to insure at any sensible price.
+- **Wind mitigation.** Impact glass, shutters, roof-to-wall connections and a current inspection move the premium meaningfully.
+- **Proximity to the water and elevation.** Riverfront and near-coastal property prices very differently from inland village streets.
+- **Year built and construction type.**
+
+**Flood is separate**, and it matters on the river. Flood zone is parcel-specific and an elevation certificate can change the number materially.
+
+Get real quotes on the specific address before you're under contract.
+
+## Club and association obligations
+
+**Tequesta Country Club** membership arrangements vary by property, and this is the single most common source of budget surprise in the village. Establish whether membership is mandatory with the house, what the buy-in is, what annual dues and any minimums come to, and whether the membership is equity or non-equity.
+
+For the gated communities, get the HOA budget, reserve study and assessment history.
+
+The general principle: two similar houses can differ by a substantial annual figure depending entirely on what comes attached to them.
 
 ## Everyday costs
-Utilities and groceries track near the Florida average; with a small in-town scene, much of your shopping and dining spend happens in nearby Jupiter.
 
-**Bottom line:** Tequesta is an upscale village, priced for its schools, charm, and location near Jupiter — with no state income tax helping. Budget for insurance on waterfront homes.`,
+- **Water** comes from the village's own utility for much of Tequesta, which is unusual and worth confirming for the address.
+- **Electric** is FPL.
+- **Utilities generally** track the Florida average, with summer cooling the spike. Older, less efficient houses cost noticeably more to run.
+- **Groceries and most shopping** happen in Jupiter, so factor the driving into how you actually live. It's a few minutes, not a burden, but it's constant.
+- **Dining** locally is limited, so a meaningful share of eating out happens next door — our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-tequesta-florida) is honest about the range.
+- **Boat ownership**, if that's why you're here, is the budget people underestimate: dockage or maintenance, fuel, insurance and haul-out.
+
+## The renovation budget nobody plans
+
+On housing stock this age, the capital expenditure isn't optional and it isn't small.
+
+The items that come up repeatedly: roof replacement, impact windows and doors, electrical panel upgrades, repiping, air conditioning, and — on riverfront property — seawall and dock work. Several of these interact with insurance, which means deferring them costs money twice.
+
+A house that needs three of those at once can absorb a substantial sum in the first two years of ownership, and that's before anything cosmetic.
+
+**How to handle it:** get a thorough inspection, price the major systems specifically rather than accepting a general estimate, and treat the total as part of the purchase price when comparing properties. A more expensive house with a new roof, new windows and updated systems is frequently the cheaper purchase.
+
+Buyers who model this properly do well in Tequesta. Buyers who compare asking prices and assume the rest will keep are the ones who get caught.
+
+## Running your real number
+
+1. **Confirm the county.** Everything downstream depends on it.
+2. **Ask what the taxes will be for you**, on the reassessed value.
+3. **Get real insurance quotes**, including flood, for the specific address.
+4. **Price the roof.** Near end of life means a capital cost and an insurance problem at once.
+5. **Get every club and association obligation in writing.**
+6. **Then** compare against [the neighbouring towns](/blog/tequesta-vs-nearby-cities).
+
+## The bottom line
+
+Tequesta is priced for scarcity and for a location that a lot of people want. It's not cheap, and it's frequently a little friendlier than Jupiter for something comparable.
+
+The costs that surprise people aren't the mortgage. They're insurance on older houses, club obligations attached to the property, and the discovery that the county line changed the tax bill they'd modelled.
+
+*Figures, rates and rules change. Verify tax, exemption and portability specifics with the relevant county's Property Appraiser and Tax Collector, insurance and flood costs with a licensed agent, flood zone and elevation with the relevant authority, and all club and association obligations with the governing documents.*`,
     faqs: [
-      { q: "Is Tequesta expensive to live in?", a: "It leans upscale, reflecting its desirable location and schools near Jupiter, though central village homes are more attainable than the waterfront tier." },
-      { q: "Is Tequesta cheaper than Jupiter?", a: "It generally tracks close to Jupiter, sometimes a touch friendlier on price, while sharing the same schools and proximity to the coast." },
-      { q: "Does Tequesta have a state income tax?", a: "No — Florida has no state income tax, which helps offset housing and insurance costs." },
-      { q: "Why is insurance a factor in Tequesta?", a: "Coastal and riverfront location drives homeowners and wind/flood insurance costs, especially for waterfront homes; get quotes early." },
+      { q: "Is Tequesta expensive?", a: "It prices for scarcity — a small, low-density village with essentially no room to grow, on a protected river in a desirable corner of the county. Prices generally track Jupiter and occasionally sit a little below it, which is the village's quiet value argument: similar area and access, slightly friendlier numbers." },
+      { q: "What is the first thing to check on a Tequesta property?", a: "Which county it is in. Tequesta sits at the Palm Beach–Martin line and some Tequesta-addressed properties are in Martin County, which changes your millage, property appraiser, school district and county services. Everything downstream in your budget depends on getting that right." },
+      { q: "How much is insurance in Tequesta?", a: "Variable enough that a general figure is useless, and it is often the variable that decides which houses work. Roof age is frequently the deciding factor on the village's mid-century stock, followed by wind mitigation features, proximity to water and elevation. Flood is separate and matters on the river." },
+      { q: "What are the club fees at Tequesta Country Club?", a: "They vary by property, which is exactly why it is the most common source of budget surprise in the village. Establish whether membership is mandatory with the house, the buy-in, annual dues and any minimums, and whether the membership is equity or non-equity. Two similar houses can differ substantially on this alone." },
+      { q: "Who provides water in Tequesta?", a: "The village operates its own water utility serving much of Tequesta, which is unusual for a community this size. Electric is FPL. Confirm the provider for the specific address, since coverage does not extend uniformly across everything with a Tequesta postal address." },
+      { q: "What costs do Tequesta buyers underestimate?", a: "Three things: insurance on older houses, club obligations that come attached to a specific property rather than to the village, and the tax consequence of the county line. The mortgage is rarely the surprise." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-tequesta-florida", "best-neighborhoods-in-tequesta-florida", "tequesta-vs-nearby-cities"],
+    internalLinks: ["best-neighborhoods-in-tequesta-florida", "pros-and-cons-of-living-in-tequesta-florida", "tequesta-vs-nearby-cities"],
     funFact: "Tequesta homes often appraise within a few percent of comparable Jupiter homes — the school-zone overlap and water access are equivalent. The slight discount that sometimes appears comes down entirely to name recognition: buyers from out of state search for 'Jupiter' and don't know to look in Tequesta.",
     author: 'john',
     published: true,
@@ -16125,28 +16660,106 @@ Utilities and groceries track near the Florida average; with a small in-town sce
     primaryKeyword: "hidden gems in Tequesta Florida",
     secondaryKeywords: ["Tequesta secret spots", "Coral Cove Park snorkeling", "free things to do in Tequesta"],
     h1: "Hidden Gems in Tequesta, Florida",
-    body: `Tequesta's gems are quiet, watery, and easy to miss if you only know Jupiter.
+    body: `The well-known things around here — the river, Coral Cove, Jupiter's beaches — are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-tequesta-florida).
 
-**Coral Cove Park's reef.** Just east on Jupiter Island, the shallow rock reef right off the beach makes for some of the best easy snorkeling around — a local favorite that stays under the radar.
+This is the quieter layer: the small local knowledge that takes a year or two to accumulate, in a village that has never advertised itself to anyone.
 
-**Quiet Loxahatchee River paddling.** Launch from the Tequesta side and paddle the Wild and Scenic river through mangroves and past manatees, away from the busier Jupiter spots.
+## The northwest fork
 
-**The village parks.** Constitution Park, Tequesta Park, and Bert Winters Park offer trails, fields, and waterfront access that mostly only locals use.
+Most people paddle the stretch of the Loxahatchee they can see from a bridge. Considerably fewer keep going.
 
-**The small downtown.** Tequesta Drive's tucked-away cafés and shops have a quiet, neighborly charm worth a slow stroll.
+Upstream, the river narrows and the character changes completely — cypress closing overhead, tannic water, birdlife, and a landscape that looks nothing like the coast twenty minutes behind you. It's the part that earned the federal designation, and on a weekday morning you can have long stretches to yourself.
 
-**Blowing Rocks nearby.** A short drive north on Jupiter Island, this dramatic limestone shoreline is a regional gem.
+It takes commitment: a longer paddle, an early start, and attention to the tide, since you'll want the current working with you at least one way. Worth every bit of it.
 
-**Riverfront sunsets.** Quiet spots along the Loxahatchee and Intracoastal make for peaceful golden-hour views without a crowd.
+## Coral Cove at low tide
 
-These calm, often-free pleasures are the heart of village life in Tequesta.`,
+Everyone goes to Coral Cove. Almost nobody times it.
+
+At low tide, the limestone outcropping exposes pools and ledges that hold small fish, urchins and crabs, and the whole shoreline becomes a rock-pooling exercise rather than a swim. It's a completely different visit from the same place at high water.
+
+Check the tide chart, go on a calm morning, and wear something on your feet — the rock is sharp and slick in equal measure.
+
+## Blowing Rocks Preserve
+
+North on Jupiter Island, and genuinely dramatic when conditions are right.
+
+Winter swell forces water up through the limestone and it erupts in plumes — sometimes very high. It only works with a decent east swell at high tide, so most visitors arrive on a calm day and see interesting rocks rather than a spectacle.
+
+Watch the forecast and go when there's weather offshore. That's the whole trick, and almost nobody knows it.
+
+## The old bridge fishing
+
+Along the river and the Intracoastal, the bridge approaches and seawall access points draw a regular local crowd who fish them in most weathers.
+
+It requires no boat, no membership and very little equipment — a Florida saltwater licence and some patience. It's also the fastest way to get local knowledge about the water, since the people out there know exactly what's running and when.
+
+## The village parks nobody uses
+
+Constitution, Tequesta and Bert Winters parks get local traffic and essentially no visitors.
+
+They're small and unglamorous, which is exactly the appeal: somewhere to walk, sit by the water, or put a kayak in without organising an outing. In a village without a town square, they do a fair amount of the work.
+
+## Riverfront sunsets
+
+Not a place so much as a habit, and the one residents mention most.
+
+The last half-hour of light along the river and the Intracoastal — from a park, a dock, or a boat idling home — is when this area is at its best. Water going gold, boats coming back, and almost nobody around.
+
+Free, available most evenings, and the clearest argument for living on this side of the county.
+
+## Jonathan Dickinson, just north
+
+A short drive into Martin County gets you one of the best state parks in Florida — extensive trails, genuine scrub habitat, camping, a river tour, and the highest natural point in South Florida.
+
+It's large enough to absorb visitors, so even on a busy weekend the interior is quiet. Cooler months only for the hiking, and take more water than seems necessary.
+
+## The village's name, and what was here first
+
+Worth knowing because it explains something.
+
+The village takes its name from the **Tequesta**, a people who lived in southeast Florida for thousands of years before European contact. This river mouth and the surrounding coast were inhabited long before anything currently standing.
+
+Understanding that reframes the place — the Loxahatchee wasn't discovered by anyone, and its protection is a recent chapter in a much longer story. The area's museums and the state park interpret this properly, and it's worth an afternoon.
+
+## Manatee season on the river
+
+Through the cooler months, manatees move into the river system, and seeing them from a dock or a kayak is an ordinary occurrence rather than an event.
+
+They're federally protected. Keep distance, never feed them, don't pursue them on a paddleboard, and observe the speed zones — which exist precisely because this is where the animals are.
+
+## The sandbar and the boat-up spots
+
+For residents with a boat, a layer of local knowledge that takes a season to acquire.
+
+The river system and the Intracoastal nearby have shallows and anchorages that fill on good weekends — informal gatherings where boats raft up, people stand in waist-deep water, and half the conversation is with strangers.
+
+They're not marked and they're not advertised. You learn them by being out there, by following the boats, and by asking at the ramp. The etiquette is simple: anchor with room, keep the volume reasonable, mind your wake coming in, and take everything home.
+
+## The osprey and the wading birds
+
+An everyday pleasure that residents stop noticing and visitors never forget.
+
+Osprey nest conspicuously along the river and the Intracoastal, hunting in plain sight, and the wading birds work the shallows at low tide within a few feet of docks and kayaks.
+
+It costs nothing, requires no plan, and is one of the clearest illustrations of what the river's protected status actually delivers.
+
+## Making the most of these
+
+The pattern is timing: early mornings, weekdays, the right tide, and — for Blowing Rocks — the right swell. Almost everything here is transformed by getting the conditions right and disappointing without them.
+
+The other rule is that this village doesn't present itself. There's no visitor centre, no listings page, and the good things are mostly ordinary places at particular moments. Give it a season.
+
+For the practical side of settling in, our [guide to operating here](/blog/local-guide-to-tequesta-florida) covers the logistics.`,
     faqs: [
-      { q: "What are the hidden gems in Tequesta?", a: "Coral Cove Park's snorkeling reef, quiet Loxahatchee River paddling, the village's parks (Constitution, Tequesta, and Bert Winters), the small downtown, nearby Blowing Rocks Preserve, and peaceful riverfront sunsets." },
-      { q: "Where is the best snorkeling near Tequesta?", a: "Coral Cove Park on Jupiter Island, just east of Tequesta, has a shallow rock reef right off the beach that's great for easy snorkeling." },
-      { q: "Can you kayak in Tequesta?", a: "Yes — the Loxahatchee River is right there for quiet paddling through mangroves, with manatees and beautiful scenery." },
-      { q: "What are free things to do in Tequesta?", a: "Snorkeling and beach time at Coral Cove, paddling the river, enjoying the village parks, and strolling the small downtown are all free or low-cost." },
+      { q: "What is Tequesta's best-kept secret?", a: "The northwest fork of the Loxahatchee. Most people paddle the stretch visible from a bridge; upstream the river narrows completely — cypress closing overhead, tannic water, and a landscape nothing like the coast twenty minutes behind you. It is the part that earned the federal designation, and on a weekday you can have it to yourself." },
+      { q: "When should I visit Coral Cove Park?", a: "At low tide on a calm morning, which almost nobody times. The limestone exposes pools and ledges holding small fish, urchins and crabs, turning the whole shoreline into a rock-pooling exercise rather than a swim. Wear something on your feet — the rock is sharp and slick in equal measure." },
+      { q: "How do I see Blowing Rocks actually blowing?", a: "Go when there is a decent east swell at high tide. Winter weather offshore is what forces water up through the limestone in plumes, sometimes very high. Most visitors arrive on a calm day and see interesting rocks instead. Watching the forecast is the whole trick and almost nobody does it." },
+      { q: "Where does the name Tequesta come from?", a: "From the Tequesta, a people who lived in southeast Florida for thousands of years before European contact. This river mouth and the surrounding coast were inhabited long before anything currently standing — which reframes the place, since the Loxahatchee was not discovered by anyone and its protection is a recent chapter." },
+      { q: "Can I see manatees in Tequesta?", a: "Through the cooler months they move into the river system, and seeing them from a dock or kayak is ordinary rather than an event. They are federally protected — keep distance, never feed them, do not pursue them on a paddleboard, and observe the speed zones, which exist precisely because this is where the animals are." },
+      { q: "Is Jonathan Dickinson State Park worth the drive?", a: "Very much so — extensive trails, genuine scrub habitat, camping, a river tour and the highest natural point in South Florida, a short drive north into Martin County. It is large enough to absorb visitors, so even on a busy weekend the interior stays quiet. Cooler months for hiking, and take more water than seems necessary." },
     ],
-    internalLinks: ["best-things-to-do-in-tequesta-florida", "local-guide-to-tequesta-florida", "what-its-really-like-living-in-tequesta-florida"],
+    internalLinks: ["best-things-to-do-in-tequesta-florida", "local-guide-to-tequesta-florida", "best-places-to-eat-drink-hang-out-in-tequesta-florida"],
     funFact: "Tequesta sits exactly on the Palm Beach County / Martin County line — the county line actually runs through the village. Some Tequesta addresses are in Martin County, others in Palm Beach County, with different tax rates and county services depending on which side your house is on.",
     author: 'christine',
     published: true,
@@ -16165,24 +16778,114 @@ These calm, often-free pleasures are the heart of village life in Tequesta.`,
     secondaryKeywords: ["Tequesta vs Jupiter", "Tequesta vs Hobe Sound", "Tequesta vs Juno Beach"],
     h1: "Tequesta vs Nearby Cities: How to Choose",
     showMarketTrends: true,
-    body: `Choosing between Tequesta and its neighbors? Here's the honest comparison.
+    body: `Almost everyone shopping Tequesta is also shopping Jupiter, and a good number are looking north into Martin County as well. The towns are close enough to share a weather forecast and different enough that the choice matters.
 
-**Tequesta vs Jupiter.** Jupiter is bigger, livelier, and more of a beach town with more dining, shopping, and energy; Tequesta is its quieter, leafier village neighbor sharing the same schools and waterways. Choose Jupiter for more to do; Tequesta for calm and charm with Jupiter next door.
+## vs Jupiter
 
-**Tequesta vs Hobe Sound.** Hobe Sound (just north, in Martin County) is more nature-and-park focused with a wider price range; Tequesta is a tidier, more upscale village. Choose Hobe Sound for nature and value range; Tequesta for an established upscale village feel.
+The comparison that decides it for most buyers, since the two are minutes apart and share the river.
 
-**Tequesta vs Juno Beach.** Juno is a low-rise beach town right on the ocean; Tequesta is a riverfront village just inland. Choose Juno to be on the beach; Tequesta for boating, schools, and village charm.
+Jupiter is substantially larger, with real beaches, the inlet and lighthouse, a waterfront dining scene, significant employment, a hospital, and a strong town identity. It's also busier, more built-up, and generally a little more expensive for something comparable.
 
-**Tequesta vs Palm Beach Gardens.** PBG is larger, polished, and golf-and-shopping focused; Tequesta is a small, quiet village. Choose PBG for amenities; Tequesta for small-town calm near Jupiter.
+Tequesta is quieter, greener, lower-density and smaller, with a village government and essentially none of Jupiter's commercial life.
 
-**How to choose:** rank **quiet village charm** (Tequesta), **beach-town energy** (Jupiter), **nature** (Hobe Sound), or **on-the-beach** (Juno Beach).`,
+Here's the thing that resolves it: **you get Jupiter either way.** Living in Tequesta doesn't cut you off from any of it — the beaches, restaurants and shops are three minutes away. What changes is what's outside your own front door.
+
+**Choose Jupiter if:** you want the town around you rather than nearby.
+**Choose Tequesta if:** you want quiet at home and are happy to drive for everything else. Our [look at daily life here](/blog/what-its-really-like-living-in-tequesta-florida) is honest about what that means.
+
+## vs Hobe Sound
+
+North, over the county line into Martin County, and the closest thing to Tequesta in temperament.
+
+Hobe Sound is also small, also quiet, also water-adjacent — but oriented around conservation land and beach rather than around a river, with a much wider range of price points and a genuinely different feel. Martin County's growth rules have kept it low-rise in a way that even Tequesta hasn't fully matched.
+
+**Choose Hobe Sound if:** you want state park and preserve land at the door, a broader price range, and Martin County's slower pace.
+**Choose Tequesta if:** you want the river, and Palm Beach County's services and proximity.
+
+## vs Juno Beach
+
+South, small, and the low-rise beach alternative.
+
+Juno Beach is a genuinely restrained coastal town with a well-preserved shoreline and oceanfront access. It's also limited in supply and expensive relative to house size.
+
+**Choose Juno Beach if:** walking to the ocean is the requirement.
+**Choose Tequesta if:** the river and the trees matter more than the sand.
+
+## vs Palm Beach Gardens
+
+South, larger, and the amenity-rich alternative.
+
+Palm Beach Gardens offers newer housing, gated communities, golf, the area's main retail concentration, substantial employment and considerably more house per dollar in many segments. It's polished, master-planned and inland.
+
+**Choose Palm Beach Gardens if:** newness, space and amenities lead.
+**Choose Tequesta if:** you'd trade all of that for canopy, quiet and a protected river.
+
+## vs Jupiter Inlet Colony and Jupiter Island
+
+The small barrier-island communities east, and a different financial universe.
+
+Both are exclusive in the literal sense — small, heavily residential, tightly controlled and extremely expensive. Jupiter Island in particular ranks among the most expensive residential addresses in the country.
+
+**Choose those if:** the budget genuinely allows and oceanfront privacy is the requirement.
+**Choose Tequesta if:** you'd rather own a boat and a house than an address.
+
+## vs Stuart and Palm City
+
+Further north in Martin County, and the value direction.
+
+Both offer more house and land for the money, a slower pace, and Martin County's strict growth management. Stuart has a genuine historic downtown that Tequesta cannot match. The trade is distance from Palm Beach County's employment and amenities.
+
+**Choose north if:** value and space lead, and you'll verify what the county change means for you.
+**Choose Tequesta if:** you want to stay within easy reach of the Gardens and West Palm Beach.
+
+## vs the western Palm Beach Gardens communities
+
+Worth naming because buyers wanting more space often end up looking inland.
+
+The gated communities west offer newer construction, larger houses, community amenities and lower prices per square foot. What they can't offer is a river, mature canopy, or a village of five thousand people.
+
+**Choose west if:** house size and newness lead.
+**Choose Tequesta if:** the setting is the point.
+
+## vs Jupiter Farms and the western areas
+
+Worth naming because buyers wanting land often look west rather than north or south.
+
+Jupiter Farms and the semi-rural areas west of the highway offer acreage, room for horses and workshops, and considerably more land per dollar than anything in the village. The trade is a genuine drive to everything, well and septic rather than utilities in many cases, and no walkable anything.
+
+**Choose west if:** land and privacy lead, and you're equipped for a more self-sufficient setup.
+**Choose Tequesta if:** you want a village with services and a river rather than acreage.
+
+## vs staying put and renovating
+
+An option worth naming, because a fair number of people shopping this village already live in the area.
+
+Given how much of Tequesta's value sits in lots, canopy and location rather than in the houses themselves, buying a dated house here and renovating it is a common and often sensible path — frequently better value than paying the premium for someone else's finished renovation.
+
+**Consider that if:** you have the appetite and the timeline. Our [cost breakdown](/blog/cost-of-living-in-tequesta-florida) covers what the work actually runs to.
+
+## How to decide
+
+Rank these honestly before touring:
+
+1. **Quiet at home.** If first, Tequesta and Hobe Sound lead.
+2. **A town around you.** Jupiter, or Palm Beach Gardens.
+3. **Ocean at your door.** Juno Beach, or the island communities at a price.
+4. **Space per dollar.** West, or north into Martin County.
+5. **A protected river with dockage.** Tequesta, essentially alone.
+
+The pattern here is that this corner of the county offers several genuinely good small towns within ten minutes of each other, and the differences are about texture rather than quality. Most buyers can be happy in more than one — the exercise is working out which texture you actually want.
+
+One practical note: **confirm the county.** The Palm Beach–Martin line runs through this area and changes your school district, tax bill and services. Verify rather than assuming from a mailing address, and see our [cost breakdown](/blog/cost-of-living-in-tequesta-florida) for why it matters to the budget.`,
     faqs: [
-      { q: "Tequesta or Jupiter — which is better?", a: "Jupiter is bigger and livelier with more dining, shopping, and beach-town energy; Tequesta is its quieter, leafier village neighbor sharing the same schools and waterways. It comes down to energy versus calm." },
-      { q: "Tequesta vs Hobe Sound?", a: "Hobe Sound is more nature-and-park focused with a wider price range; Tequesta is a tidier, more upscale established village." },
-      { q: "Tequesta vs Juno Beach?", a: "Juno Beach is a low-rise beach town on the ocean; Tequesta is a riverfront village just inland with boating and village charm." },
-      { q: "Is Tequesta quieter than Jupiter?", a: "Yes — Tequesta is noticeably quieter and more village-like, while sharing Jupiter's schools and being minutes from its beaches and dining." },
+      { q: "Tequesta or Jupiter?", a: "You get Jupiter either way — living in Tequesta does not cut you off from its beaches, restaurants or shops, which are three minutes away. What changes is what sits outside your own front door. Choose Jupiter if you want the town around you, Tequesta if you want quiet at home and are happy to drive." },
+      { q: "How does Hobe Sound compare to Tequesta?", a: "It is the closest thing to Tequesta in temperament — small, quiet and water-adjacent — but oriented around conservation land and beach rather than a river, with a wider range of price points and Martin County's slower pace and stricter growth rules. Choose Hobe Sound for preserve land, Tequesta for the river and Palm Beach County proximity." },
+      { q: "Is Palm Beach Gardens a better choice than Tequesta?", a: "It depends what you value. Palm Beach Gardens offers newer housing, gated communities, golf, the main retail concentration, substantial employment and more house per dollar in many segments. Tequesta trades all of that for mature canopy, genuine quiet and a protected river." },
+      { q: "What about Jupiter Island or Jupiter Inlet Colony?", a: "Both are small, heavily residential, tightly controlled and extremely expensive, with Jupiter Island ranking among the priciest residential addresses in the country. Choose them if the budget genuinely allows and oceanfront privacy is the requirement; choose Tequesta if you would rather own a boat and a house than an address." },
+      { q: "Should I look north into Martin County instead?", a: "Stuart and Palm City offer more house and land for the money, a slower pace and Martin County's strict growth management, and Stuart has a historic downtown Tequesta cannot match. The trade is distance from Palm Beach County employment and amenities — and a county change that affects schools, taxes and services." },
+      { q: "What is the key difference between the towns up here?", a: "Texture rather than quality. This corner of the county has several genuinely good small towns within ten minutes of each other, and most buyers could be happy in more than one. The exercise is working out whether you want quiet at home, a town around you, ocean at the door, or space per dollar." },
     ],
-    internalLinks: ["cost-of-living-in-tequesta-florida", "pros-and-cons-of-living-in-tequesta-florida", "what-its-really-like-living-in-tequesta-florida"],
+    internalLinks: ["who-should-move-to-tequesta-florida", "what-its-really-like-living-in-tequesta-florida", "cost-of-living-in-tequesta-florida"],
     funFact: "The Loxahatchee River Battlefield Park in Tequesta marks the site of the 1838 Battle of Loxahatchee during the Second Seminole War — a significant engagement that's almost completely unknown outside Florida history circles. It's a quiet, preserved site right in the village that most residents drive past without knowing what happened there.",
     author: 'john',
     published: true,
@@ -16200,26 +16903,105 @@ These calm, often-free pleasures are the heart of village life in Tequesta.`,
     primaryKeyword: "best restaurants in Tequesta Florida",
     secondaryKeywords: ["where to eat in Tequesta", "Tequesta restaurants", "Leftovers Cafe"],
     h1: "Best Places to Eat, Drink & Hang Out in Tequesta, Florida",
-    body: `Tequesta is small, but it has a few genuinely loved local spots — and Jupiter's scene is minutes away.
-## Village favorites
-The Tequesta Drive area and nearby plazas hold a handful of beloved local restaurants and cafés — the kind of place where regulars know the staff. **Leftovers Cafe** (the longtime sister to Jupiter's Little Moir's) is a perennial local favorite for fresh, creative seafood and is a great example of the village's hidden-gem dining.
+    body: `A community this size cannot support a restaurant scene, and Tequesta doesn't have one. What it has is a handful of genuinely good local places, a small walkable commercial stretch, and one of Florida's better dining towns three minutes south.
 
-## Coffee and casual
-Small cafés and casual eateries give the village an easygoing, neighborly daytime scene.
+That arrangement works better than it sounds, provided you understand it before you arrive.
 
-## Jupiter next door
-For waterfront dining, nightlife, and a wider range, Jupiter — with Guanabanas, the Riverwalk, and Harbourside — is just minutes south. Locals treat it as their backyard.
+## The Tequesta Drive stretch
 
-## The vibe
-Tequesta is quiet and upscale-casual — beloved local spots and cafés over a big scene, with Jupiter handling the nightlife. The village's charm is in its low-key, neighborly feel.
-`,
+The village's commercial centre, and small enough to walk end to end.
+
+There are cafés, a few restaurants, and the services a residential village needs, spread along the drive and through a couple of adjacent plazas. The atmosphere is neighbourly rather than designed — these are places that survive on the same people coming back, not on passing trade.
+
+**The standout** is a long-running local restaurant doing creative, fresh seafood that has a genuine following well beyond the village. It's the kind of place people drive from Jupiter for, tucked into a plaza that gives away nothing from the road, and it's a fair summary of how the village works: unglamorous frontage, serious cooking, no fuss about it.
+
+That pattern repeats. The good places here don't announce themselves.
+
+## Coffee and the daytime scene
+
+Small cafés along and near the drive do the village's daytime work — morning coffee, informal meetings, the place you end up after a paddle.
+
+In a community without a town square, these do a fair amount of social lifting. Becoming a regular takes about two weeks and it's the fastest way to start knowing people.
+
+## Jupiter, three minutes south
+
+This is where residents actually eat when they want range, and it's genuinely excellent.
+
+**The Riverwalk and the waterfront** along the Loxahatchee hold a cluster of restaurants where you eat outside with boats going past — the area's signature dining experience and worth doing regularly rather than saving for visitors.
+
+**Harbourside** adds a walkable district with restaurants, shops and events.
+
+**The inlet area and the beach road** have casual, salty places that have been there a long time.
+
+**Further south**, Palm Beach Gardens brings the main retail concentration and a much wider restaurant range.
+
+Locals treat the whole Jupiter side as their own. The village and the town function as one area for eating out, and nobody here thinks of it as travelling.
+
+## Drinking
+
+Tequesta has essentially no nightlife, which is accurate rather than critical.
+
+There are places to have a drink with dinner and a couple of casual bars, and that's the extent of it. Anything resembling a night out happens in Jupiter, where the waterfront places run later and there's genuine choice.
+
+Most residents consider this exactly right. It's worth knowing if you don't.
+
+## Provisioning
+
+Grocery shopping and most errands happen in Jupiter or along the US-1 corridor. There's enough in the village for a forgotten item and not enough for a weekly shop.
+
+For anyone who cooks, the practical advantage here is fish: with an inlet nearby and an active charter fleet, access to fresh local seafood is good, both at counters in the area and directly if you fish.
+
+## Where residents actually become regulars
+
+The pattern here is worth naming because it differs from a bigger town.
+
+Somewhere this small, you don't develop a rotation of ten places. You develop two or three — a coffee spot, a casual dinner place, and somewhere for an occasion — and you go to them repeatedly for years.
+
+That sounds limiting and mostly isn't. Being genuinely known somewhere is a different experience from having choice, and in a community without a town square it does a great deal of the social work. Newcomers who pick their two or three early settle in noticeably faster.
+
+## The Jupiter overflow effect
+
+One practical note on timing: because Tequesta residents eat in Jupiter and Jupiter is a destination, the good places there fill with people who have driven considerably further than you have.
+
+The fix is straightforward — eat earlier than the crowd, favour weeknights, and book anything on the waterfront in season. Residents who work that out stop competing with visitors for tables.
+
+## Practicalities
+
+- **Season**, roughly November through April, fills the good places and makes reservations worth having, particularly on the Jupiter waterfront.
+- **Summer** is quiet and easy, with some places on reduced hours.
+- **Parking** is straightforward everywhere in the village, which after almost anywhere else in the county is a relief.
+- **Turnover** happens; check somewhere is trading before planning around it.
+
+## Eating on the water nearby
+
+Worth a section of its own, because it's the area's signature and it's five minutes away.
+
+The waterfront restaurants along the Loxahatchee in Jupiter let you eat outside with boats going past, and several are reachable **by boat** as well as by car — which for residents with dockage is a genuinely different way to spend an evening.
+
+Arriving somewhere by water, tying up, eating, and running home in the dark is one of the real pleasures of living on this river system, and it's available most of the year.
+
+Ask about guest dockage before you set off; availability varies and some places take reservations for it.
+
+## The seasonal shift in the village
+
+Small but noticeable: through the cooler months the local places fill with people who aren't here in July, and the character of a Tuesday evening changes.
+
+Year-round residents tend to have their own rhythm around this — eating out more in the quiet months, when tables are easy and the staff have time to talk, and less in the crush. It's a small adjustment that makes the limited local scene work considerably better.
+
+## The honest summary
+
+The village will not give you a dining scene. It will give you two or three places you become a regular at, in a walkable stretch, with a genuinely good restaurant town a few minutes away.
+
+That's a better everyday arrangement than most small towns manage, and it's a large part of why residents don't experience Tequesta's size as a limitation. For everything else that fills a week, our [guide to what's worth doing](/blog/best-things-to-do-in-tequesta-florida) covers the river and the coast.`,
     faqs: [
-      { q: "Where is the best dining in Tequesta?", a: "The Tequesta Drive area holds beloved local spots — Leftovers Cafe (sister to Jupiter's Little Moir's) is a longtime favorite — with Jupiter's wider waterfront dining scene minutes away." },
-      { q: "Does Tequesta have good restaurants?", a: "For its size, yes — it has a few genuinely loved local spots and cafés, plus easy access to Jupiter's larger dining scene." },
-      { q: "Is there nightlife in Tequesta?", a: "It's a quiet village with a low-key scene; for nightlife, locals head minutes south to Jupiter." },
-      { q: "Where do locals eat in Tequesta?", a: "At the village's beloved local restaurants and cafés around Tequesta Drive, plus frequent trips to Jupiter's waterfront spots." },
+      { q: "Are there good restaurants in Tequesta?", a: "A handful of genuinely good local places rather than a scene — a village of five and a half thousand cannot support one. The standout is a long-running restaurant doing creative fresh seafood with a following well beyond the village, tucked into a plaza that gives away nothing from the road. The good places here do not announce themselves." },
+      { q: "Where do Tequesta residents go out to eat?", a: "Jupiter, three minutes south, for anything requiring range. The Riverwalk and waterfront hold a cluster of restaurants where you eat outside with boats going past, Harbourside adds a walkable district, and the inlet area has casual places that have been there a long time. Locals treat the whole Jupiter side as their own." },
+      { q: "Does Tequesta have nightlife?", a: "Essentially none — a few places to have a drink with dinner and a couple of casual bars. Anything resembling a night out happens in Jupiter, where the waterfront places run later and there is genuine choice. Most residents consider this exactly right, but it is worth knowing if you do not." },
+      { q: "Can you buy groceries in Tequesta?", a: "There is enough in the village for a forgotten item and not enough for a weekly shop, which happens in Jupiter or along the US-1 corridor. The practical advantage for anyone who cooks is fish — with an inlet nearby and an active charter fleet, access to fresh local seafood is good." },
+      { q: "Is the Tequesta Drive area walkable?", a: "The commercial stretch is small enough to walk end to end, with cafés, a few restaurants and the services a residential village needs across the drive and a couple of adjacent plazas. In a community without a town square, the cafés do a fair amount of social lifting." },
+      { q: "Do I need reservations in Tequesta?", a: "Rarely within the village itself. They are worth having from roughly November through April, particularly for the Jupiter waterfront restaurants, which fill in season. Parking is straightforward everywhere in the village year-round, which after almost anywhere else in the county is a relief." },
     ],
-    internalLinks: ["best-things-to-do-in-tequesta-florida", "local-guide-to-tequesta-florida", "hidden-gems-in-tequesta-florida"],
+    internalLinks: ["best-things-to-do-in-tequesta-florida", "local-guide-to-tequesta-florida", "what-its-really-like-living-in-tequesta-florida"],
     funFact: "Leftovers Cafe in Tequesta is run by the same family behind Little Moir's Food Shack in Jupiter — both have received James Beard consideration, which is extraordinary for neighborhood restaurants in a non-major-metro area. Locals have been going for 20+ years and still consider it one of the most underrated restaurants in Palm Beach County.",
     author: 'christine',
     published: true,
