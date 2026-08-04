@@ -17878,6 +17878,20 @@ Martin County has dredged it, at real scale — a restoration project moved on t
 
 **If you're buying a house here for a specific boat**, the two numbers that decide it are the depth at that dock at mean low water and the clearance on the route out. Neither is a property of the neighborhood. Both are properties of the address.
 
+## The water quality question
+
+Anyone buying on this water should understand this, and local marketing tends not to raise it.
+
+The St. Lucie Estuary takes high-volume freshwater discharges from **Lake Okeechobee** when lake levels rise. That water carries nutrients, and the consequences can include seagrass loss, fish kills and harmful algal blooms — including blue-green algae that public health guidance says to avoid contact with entirely. The Pocket is part of that system and is affected by it.
+
+It is not constant and not annual. But when it happens it degrades exactly what most people came here for, and it can persist for weeks.
+
+**The present picture is meaningfully better.** After more than a year with no harmful Lake Okeechobee discharges, the estuary is showing real recovery — seagrass returning, clarity improving, oysters spawning again. Large reservoir and treatment projects are under construction specifically to cut those discharges.
+
+**How to weigh it as a buyer:** do not judge this water by the week you happened to visit, in either direction. Read several years of history rather than one season. Martin County publishes water conditions and Florida's DEP runs an algal bloom hotline; use both if the water is your reason for moving here.
+
+Anyone who tells you it is solved is selling you something. Anyone who tells you the river is finished is also wrong. It fluctuates, it is being actively worked on, and it belongs in your decision rather than in a footnote.
+
 ## The marinas
 
 The Pocket carries an unusual density of marine business for a village this size.
