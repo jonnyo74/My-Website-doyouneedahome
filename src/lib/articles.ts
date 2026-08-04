@@ -23654,10 +23654,19 @@ export function getArticleBySlug(slug: string): Article | undefined {
   return visibleArticles().find((a) => a.slug === slug)
 }
 
+/**
+ * Newest first within a city, so freshly rewritten articles lead.
+ * Most articles still share an `updated` date, so `order` is the tiebreak and
+ * keeps the curated sequence intact for everything published the same day.
+ */
+export function byRecencyThenOrder(a: Article, b: Article): number {
+  return b.updated.localeCompare(a.updated) || a.order - b.order
+}
+
 export function getArticlesByCity(citySlug: string): Article[] {
   return visibleArticles()
     .filter((a) => a.citySlug === citySlug)
-    .sort((a, b) => a.order - b.order)
+    .sort(byRecencyThenOrder)
 }
 
 /** Static params for /blog/[slug] — only build pages that should exist in this env. */
@@ -23667,7 +23676,7 @@ export function getArticlePaths(): { slug: string }[] {
 
 export function getAllVisibleSorted(): Article[] {
   return [...visibleArticles()].sort(
-    (a, b) => a.cityName.localeCompare(b.cityName) || a.order - b.order,
+    (a, b) => a.cityName.localeCompare(b.cityName) || byRecencyThenOrder(a, b),
   )
 }
 
