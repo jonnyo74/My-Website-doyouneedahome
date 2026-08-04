@@ -8,6 +8,14 @@
 |---|---|---|---|
 | `stock-angler-jetty-dawn.jpg` | Unsplash, Ryan Arnst — `TGFcHIE4oK8` | Free Unsplash License | Silhouetted angler on a granite jetty at first light, open Atlantic behind |
 | `stock-pineapples-harvested.jpg` | Unsplash, Rafael Peier — `XUIVulXs_ss` | Free Unsplash License | Freshly harvested pineapples piled together, ripe and unripe |
+| `stock-canal-homes-dusk.jpg` | Unsplash, Casey Lovegrove — `JTnSqEuIRHE` | Free Unsplash License | Canal-front homes, docks and a covered boat lift reflected at dusk |
+
+`stock-canal-homes-dusk.jpg` is the hero on `port-salerno-vs-stuart`. Shot at Crystal River
+on the Gulf coast; cropped from 4:3 to a 3.4:1 band to match the hero container. **Note the
+house in frame is a larger, newer two-storey with a screened enclosure** — closer to the
+upmarket end than Port Salerno's typical stock. Acceptable on a comparison article that
+weighs two towns and discusses dockage in both; do **not** reuse it on a Port Salerno-only
+article, for the reasons in the section above.
 
 `stock-pineapples-harvested.jpg` is the inline image in the pineapple section of
 `history-of-port-salerno-florida`. Shot in Madagascar; cropped from portrait to 4:3 and

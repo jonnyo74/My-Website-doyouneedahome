@@ -28,6 +28,7 @@ const nextConfig: NextConfig = {
       // Port Salerno carries 10 articles. The hidden-gems article was rewritten
       // into the history cornerstone at a new slug; this preserves that URL.
       { source: '/blog/hidden-gems-in-port-salerno-florida', destination: '/blog/history-of-port-salerno-florida', permanent: true },
+      { source: '/blog/port-salerno-vs-nearby-cities', destination: '/blog/port-salerno-vs-stuart', permanent: true },
 
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate

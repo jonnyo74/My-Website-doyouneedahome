@@ -17585,122 +17585,157 @@ Send us the address. We'll tell you honestly what era the house is from, what th
     updated: '2026-08-04',
   },
   {
-    slug: 'port-salerno-vs-nearby-cities',
+    slug: 'port-salerno-vs-stuart',
     citySlug: 'port-salerno',
     cityName: 'Port Salerno',
     type: "City vs Nearby Cities",
     order: 9,
-    seoTitle: "Port Salerno vs Nearby Cities: How to Choose",
-    metaTitle: "Port Salerno vs Nearby Cities",
-    metaDescription: "Port Salerno vs Stuart, Hobe Sound, and Port St. Lucie — an honest comparison to help you choose the right Treasure Coast community for your move.",
-    primaryKeyword: "Port Salerno vs nearby cities",
-    secondaryKeywords: ["Port Salerno vs Stuart", "Port Salerno vs Hobe Sound", "Port Salerno vs Port St. Lucie"],
-    h1: "Port Salerno vs Nearby Cities: How to Choose",
+    seoTitle: "Port Salerno vs Stuart: Which Florida Town Fits Your Lifestyle?",
+    metaTitle: "Port Salerno vs Stuart, FL: How to Choose",
+    metaDescription: "Port Salerno or Stuart? The differences that matter — city vs unincorporated taxes, sewer vs septic, walkability, inlet access, and what's changing downtown.",
+    primaryKeyword: "Port Salerno vs Stuart",
+    secondaryKeywords: ["living in Port Salerno vs Stuart", "Stuart or Port Salerno", "Martin County unincorporated property taxes", "Port Salerno vs Stuart waterfront"],
+    h1: "Port Salerno vs Stuart: Which Florida Town Fits Your Lifestyle?",
+    heroImage: '/images/port-salerno/stock-canal-homes-dusk.jpg',
+    heroImageCredit: 'Photo by Casey Lovegrove / Unsplash',
     showMarketTrends: true,
-    body: `Almost nobody shops this village in isolation. Buyers arrive with a short list of Martin County towns and a vague sense that they're all "the Stuart area," which is true administratively and misleading in every way that affects daily life.
+    body: `These two are about five miles apart, share a county, a school district, a hospital system, and a zip-code-level identity that makes people treat them as interchangeable. They aren't.
 
-These places are close enough to share a hospital system and a school district and different enough that picking the wrong one costs you real money and a year of quiet disappointment. Here's how they actually compare.
+The differences that matter aren't the ones buyers ask about on a tour. They're structural: one is an incorporated city and one isn't, and almost everything else — your tax bill, who answers a 911 call, whether you're on sewer, what your street looks like — follows from that single fact.
 
-## vs Stuart
+Here's the comparison, honestly, from people who sell in both.
 
-The comparison that matters most, because it's the one nearly every buyer is really making.
+## The five-minute problem
 
-Stuart has the walkable historic downtown, the broader restaurant and retail selection, the civic institutions, and the polish. It also has higher prices, particularly for anything near the water or the downtown core.
+Start with the thing that makes this decision harder than it looks.
 
-This village has quicker access to open water, more frontage per dollar, and a character that is worked rather than curated.
+Stuart is close. From most of Port Salerno you're in downtown Stuart in ten minutes or so, traffic depending. That means **you get Stuart's restaurants, its Riverwalk, its theater, and its shopping either way.** Nobody living in Port Salerno is cut off from a good dinner.
 
-Here's the thing that surprises people: they're minutes apart. You get Stuart's amenities either way. Nobody living here is cut off from a good dinner — they're a short drive from it.
+So "Stuart has more to do" is true and mostly irrelevant. The question isn't which town has more amenities within its boundaries. It's which one you want to step out of your front door into, and what the structural differences cost or save you.
 
-So the real question isn't which town offers more. It's which one you want to wake up in and walk out into. Buyers who want to walk to dinner belong in Stuart and should stop resisting it. Buyers who want to run out the inlet before sunrise belong here.
+## Incorporated versus unincorporated: the real difference
 
-**Choose Stuart if:** walkability, dining variety, and a downtown you can stroll rank above water access.
-**Choose here if:** the boat is central, and you'd rather put the difference into frontage than into location polish. Compare against [what daily life actually feels like](/blog/what-its-really-like-living-in-port-salerno-florida) before deciding.
+This is the distinction that actually separates them, and it's the one least discussed.
 
-## vs Palm City
+**Stuart is an incorporated city.** It was [incorporated in 1914](/communities/stuart), it's the county seat, and the 2020 census put it at 17,489 residents across about 9.5 square miles. It has its own city commission, its own police department, its own water and wastewater utility, and its own building and zoning departments.
 
-Palm City sits inland and west, across the river, and it's the choice for buyers who want space and newer construction more than salt air.
+**Port Salerno is unincorporated Martin County.** No city hall, no mayor, no municipal police force. The 2020 census counted 10,401 residents. Law enforcement is the Martin County Sheriff's Office. Land use decisions go to the county. There is no local government below the county level, which is why the community's advocacy has historically run through a Neighborhood Advisory Committee and a Community Redevelopment Area rather than a city council.
 
-You get larger lots, a lot of newer housing stock, quiet residential subdivisions, and easy access to the highway corridors. What you don't get is quick ocean access — the boating there is river boating, and reaching the inlet takes real time.
+Neither arrangement is better. They're different, and the differences show up in three places.
 
-**Choose Palm City if:** you want more house and land for the money, newer construction, and don't need fast access to open ocean.
-**Choose here if:** running time to the inlet is the point. See [our breakdown of the housing here](/blog/best-neighborhoods-in-port-salerno-florida) for what the money actually buys.
+### Your tax bill
 
-## vs Hobe Sound
+Both pay Martin County's general fund millage. What differs is the layer on top.
 
-South along the coast, and the closest thing to a philosophical opposite within the county.
+**In Stuart**, you additionally pay the City of Stuart's own millage — recently in the neighborhood of five mills, plus a debt service levy — and the city provides the services that money buys.
 
-Hobe Sound orients around conservation land and beach — the state park, the preserves, the barrier island. It's quiet in a hushed, tree-canopied way. This village is quiet in a working way, which is a different thing entirely: there's activity, it's just not social activity.
+**In unincorporated Port Salerno**, you don't pay city millage. Instead you pay county **Municipal Service Taxing Units**, which are levied only in unincorporated areas: fire and rescue, parks and recreation, and stormwater and roads.
 
-Hobe Sound also spans an unusually wide range, from modest inland neighborhoods to some of the most expensive addresses on this coast.
+The MSTU layer is meaningfully lighter than the city layer. In practice that means an equivalently assessed property in unincorporated Port Salerno generally carries a lower total millage than one inside Stuart's city limits — for the straightforward reason that you're buying a thinner bundle of services.
 
-**Choose Hobe Sound if:** hiking, beach access, and preserve land matter more than a boat slip. Their [side-by-side comparison of the same towns](/blog/hobe-sound-vs-nearby-cities) is worth reading alongside this one.
-**Choose here if:** the water is for using rather than looking at.
+**Do not take this as a number for your property.** Millage is reset annually by each taxing authority, and your actual bill depends on assessed value, exemptions, and which taxing districts your specific parcel sits in. Pull the property's tax record from the [Martin County Property Appraiser](https://www.pa.martin.fl.us/millage-codes-tax-rates) and read the actual line items before you rely on any of it.
 
-## vs Jensen Beach
+### Water, sewer, and septic
 
-North, on the water, and genuinely charming in a beach-town way.
+Stuart runs its own utility. The city's water and wastewater system serves roughly 4,000 households and 500 commercial accounts across a service area of about 3.4 square miles. If you buy inside that footprint, you're almost certainly on city water and sewer, and you'll get a city utility bill.
 
-Jensen Beach gives you actual Atlantic beach as your default outdoor setting, a small commercial strip with some life to it, and a lighter, more casual coastal feel. It's a beach town. This is a boat town. The distinction sounds minor and shapes everything about how you spend a Saturday.
+Port Salerno is patchier. Some of it is on county utilities, some of it is on **septic**, and which one applies varies parcel to parcel rather than by neighborhood. Extending central sewer and county water to unserved areas has been a stated priority in the county's redevelopment planning for the community — which tells you plainly that unserved areas exist.
 
-**Choose Jensen Beach if:** you picture yourself walking onto sand.
-**Choose here if:** you picture yourself running out an inlet.
+That matters commercially. A septic system is a real inspection item, a real replacement cost, and in some cases a real constraint on what you can add to the property.
 
-## vs Sewall's Point and the barrier islands
+### Who shows up
 
-Worth naming because buyers looking at water often drift into these listings.
+Stuart has a municipal police department. Port Salerno is patrolled by the Martin County Sheriff's Office. Fire and rescue is Martin County in both cases.
 
-Sewall's Point and the island addresses are the premium tier — quiet, green, heavily residential, and priced accordingly. Beautiful, and a different budget conversation entirely.
+For most buyers this is a non-issue, but it's worth knowing which agency covers the address, because response expectations, community programs, and who you call about a recurring nuisance all differ.
 
-**Choose those if:** the budget is there and you want prestige and privacy above all.
-**Choose here if:** you'd rather spend the money on the boat than the address.
+## What the money buys
 
-## vs Port St. Lucie
+This is the part buyers actually feel.
 
-North, in the next county, and a fundamentally different product.
+**Stuart's housing stock is broader and its price range is wider.** You'll find historic homes near downtown, mid-century neighborhoods, newer subdivisions, condos, and a genuine downtown-adjacent tier that carries a premium for exactly that adjacency.
 
-Port St. Lucie is one of Florida's largest cities by land area — master-planned, newer, enormous, with the amenities that scale brings and the sprawl that comes with it. If you want a new-construction house with a warranty and a big-box store minutes away, it delivers that far better than anything in Martin County.
+**Port Salerno's stock is older, more variable, and more water-weighted.** The village grew in bursts around a working harbor rather than to a plan, so condition and age swing hard from block to block. What it offers disproportionately is water frontage and dockage — and historically, frontage here has priced below comparable Stuart water.
 
-It's also in St. Lucie County, which means a different school district, different millage, and different county services. Don't carry assumptions across the line.
+That gap is the single most common reason a buyer who started in Stuart ends up in Port Salerno. It's real, and it has narrowed as the area has been discovered. Treat it as a reason to compare specific properties, not as a rule.
 
-**Choose Port St. Lucie if:** new construction, scale, and price-per-square-foot lead your list. Their [own comparison guide](/blog/port-st-lucie-vs-nearby-cities) covers it from the other direction.
-**Choose here if:** character, water access, and Martin County's growth limits matter more than square footage.
+We're deliberately not putting price figures in this article. They'd be stale within a quarter, and the only number that matters is the one attached to the address you're looking at.
 
-## vs Jupiter
+## Walkability and the downtown question
 
-Further south, in Palm Beach County, and the aspirational alternative for a lot of buyers on this list.
+Stuart wins this outright and it isn't close.
 
-Jupiter offers its own inlet, excellent beaches, a much deeper dining and retail scene, and a considerably higher price point. It is, fairly, a more polished version of the boating-town idea.
+Downtown Stuart is a genuine walkable core — restaurants, shops, the Lyric Theatre, the Riverwalk along the St. Lucie, a Sunday farmers market. You can park once and spend an evening. For a certain buyer this is the entire reason to be in Martin County, and if that's you, buy in Stuart and stop deliberating.
 
-The trade is money and density. You pay substantially more, and you share the water with far more people.
+**Port Salerno has no downtown in that sense.** It has a waterfront district with restaurants clustered around the Manatee Pocket, which is genuinely good and genuinely small. You can walk between a handful of places on the water. You cannot walk to a pharmacy, a hardware store, or most of what you need in a week.
 
-**Choose Jupiter if:** the budget stretches and you want amenities alongside the boating.
-**Choose here if:** you'd rather have a shorter run to open water, a quieter ramp, and change left over.
+If walkability is your first priority rather than your third, that settles it.
 
-## How to actually decide
+## The water
 
-Rank these four in order, honestly, before you tour anything:
+This flips the comparison.
 
-1. **Time from your dock to open ocean.** If this is first, the list gets very short and this village wins it.
-2. **Walkability and dining.** If this is first, you want Stuart or Jensen Beach.
-3. **House size, age, and condition.** If this is first, look inland — Palm City or Port St. Lucie.
-4. **Nature and beach access.** If this is first, Hobe Sound.
+Port Salerno sits on the **Manatee Pocket**, a protected harbor that opens toward the St. Lucie Inlet. For anyone whose life involves a boat, that proximity is the product. It's a working harbor with marinas, boatyards, marine trades, and [the last commercial fishing dock in Martin County](/blog/history-of-port-salerno-florida).
 
-Most buyers can't have all four. The ones who end up happy figured out their true first choice before they started looking, rather than discovering it after they'd already bought around it.
+Stuart is a water town too — it's wrapped around the St. Lucie River and has plenty of waterfront and dockage of its own. But much of Stuart's water is river water, further from the inlet, and some of it sits behind bridges.
 
-One practical note: whichever way you lean, confirm which county you're in. The Martin–St. Lucie line changes your school district, your tax bill, and your county services, and buyers routinely assume figures from one side apply to the other. They don't. Verify independently, every time.`,
+**The variable that decides it is running time to open ocean, and bridge clearance between your dock and the inlet.** Those are property-specific, not town-specific. A Stuart house can beat a Port Salerno house on both. But on average, and for the money, Port Salerno's positioning relative to the inlet is the stronger hand.
+
+If a boat is central to why you're moving here, that question — dock to inlet, and what's overhead on the way — should be answered before you fall in love with a kitchen.
+
+## What's changing in Stuart
+
+Two developments belong in this decision, because they affect Stuart more than they affect Port Salerno.
+
+**Costco opened on Kanner Highway in April 2025** — roughly 162,000 square feet on a 49-acre site with a gas station, the first full Costco on the Treasure Coast. It's a genuine convenience upgrade for the whole area, and it sits closer to the south end of Stuart than to downtown. Port Salerno residents get most of the benefit too.
+
+**A Brightline station has been planned for downtown Stuart, and it keeps slipping.** The site is 2.35 acres at 500 SE Flagler Avenue, opposite the Martin County Courthouse. Announced in 2024 for a 2026 opening, the project lost momentum when the Federal Railroad Administration declined Martin County's request for $45 million in grant funding. Cost estimates have since risen toward $87 million, and county officials have pointed to 2028 or later.
+
+Why a buyer should care: a downtown station would change downtown Stuart substantially — foot traffic, parking pressure, and likely values near the site. **It is not a certainty and the timeline has moved repeatedly.** Don't pay a premium today for a station that hasn't broken ground, and don't dismiss the possibility either. If you're buying near the site, ask specifically about it and verify the current status with the county rather than with a listing agent's optimism.
+
+## Which one fits
+
+**Choose Stuart if:** you want to walk to dinner, you want a downtown, you want the broadest housing selection, you'd rather be on city utilities than think about septic, and the extra millage buys you services you'll actually use.
+
+**Choose Port Salerno if:** the boat is central, you want more water frontage per dollar, you're comfortable with [older housing stock that varies block to block](/blog/best-neighborhoods-in-port-salerno-florida) and address-by-address due diligence, and you'd rather put money into the property than into location polish.
+
+**A genuinely useful test:** picture a Saturday. If it starts with coffee and a walk into town, you want Stuart. If it starts at five-thirty in the dark, at a ramp, you want Port Salerno. Buyers who answer that honestly before touring almost never regret the choice. Buyers who answer it afterward often do.
+
+## If you're also considering the rest of the county
+
+Most people shopping these two also look at a few others. Briefly:
+
+- **Palm City** — inland and west, larger lots, newer construction, easy highway access. River boating rather than quick ocean access.
+- **Hobe Sound** — south, oriented around preserve land and beach, quiet in a hushed way, with an unusually wide price range.
+- **Jensen Beach** — north, an actual beach town with a small commercial strip. Sand rather than inlet.
+- **Port St. Lucie** — next county north. Newer, larger, cheaper per square foot, and a different school district and millage entirely. Don't carry Martin County assumptions across the line.
+
+Each is a different trade against the same four variables: walkability, water access, house size, and nature.
+
+## Before you decide either way
+
+Whichever direction you lean, confirm these for the specific address rather than the town:
+
+- Which taxing districts apply, and what the actual prior-year bill was
+- Water and sewer versus septic, and the age and condition of the system
+- Flood zone and elevation
+- For waterfront: dock condition, water depth at low tide, and bridge clearance to the inlet
+- Permit history, especially on older homes and any dock or seawall
+
+Confirm all of it with Martin County and the appropriate licensed professionals. Nothing about the town tells you what's true of the parcel.`,
     faqs: [
-      { q: "Port Salerno or Stuart — which should I choose?", a: "Stuart if you want to walk to dinner, browse a downtown, and have dining variety at hand. Port Salerno if the boat is central and you'd rather spend the difference on water frontage than location polish. They're minutes apart, so you get Stuart's amenities either way — the real question is which one you want to wake up in." },
-      { q: "How is Port Salerno different from Hobe Sound?", a: "Hobe Sound orients around conservation land, preserves, and beach access, and it's quiet in a hushed, tree-canopied way. Port Salerno is quiet in a working way — there's activity, it just isn't social. Choose Hobe Sound if hiking and beach matter most; choose Port Salerno if you want to use the water rather than look at it." },
-      { q: "Is Port St. Lucie a better value than Port Salerno?", a: "On price per square foot, generally yes — it is newer, master-planned, and enormous, so it delivers more house for the money. But it is in a different county, with a different school district and different millage, and it cannot offer quick inlet access or Martin County growth limits. The two are different products, not different prices for the same thing." },
-      { q: "Should I consider Palm City instead of Port Salerno?", a: "Consider it if you want larger lots, newer construction, and easy highway access, and if river boating is enough for you. Palm City sits inland across the river, so reaching the ocean takes real time. If running time to the inlet is what you are buying, Palm City will not satisfy you regardless of what the house looks like." },
-      { q: "How does Port Salerno compare to Jupiter?", a: "Jupiter is the more polished version of the same boating-town idea — its own inlet, better beaches, a much deeper dining and retail scene, and a considerably higher price point. The trade is money and crowding. Port Salerno offers a shorter run to open water, a quieter ramp, and meaningful change left over." },
-      { q: "What is the single most useful question for choosing between these towns?", a: "Rank walkability, water access, house size, and nature in honest order before you tour anything. Most buyers cannot have all four. Those who end up happy identified their true first priority in advance instead of discovering it after buying around it." },
+      { q: "Is Port Salerno or Stuart better?", a: "Neither is better; they suit different buyers and sit about five miles apart, so you get Stuart's amenities either way. Stuart offers a walkable downtown, the broadest housing selection, and city utilities. Port Salerno offers quicker inlet access and more water frontage per dollar, with older and more variable housing stock." },
+      { q: "Are property taxes lower in Port Salerno than Stuart?", a: "Generally yes, because Port Salerno is unincorporated. Both pay Martin County's general fund millage, but Stuart properties add the City of Stuart's own millage while unincorporated properties instead pay lighter county Municipal Service Taxing Units for fire, parks, and stormwater. The trade is a thinner bundle of services. Verify the actual line items for any specific parcel with the Martin County Property Appraiser." },
+      { q: "Does Port Salerno have city water and sewer?", a: "Some of it does and some of it is on septic, and which applies varies parcel to parcel rather than by neighborhood. Extending central sewer and county water to unserved areas has been a stated county redevelopment priority for the community. Confirm the specific address before you make an offer, because a septic system is a real inspection item and a real replacement cost." },
+      { q: "Who provides police in Port Salerno?", a: "The Martin County Sheriff’s Office, because Port Salerno is unincorporated and has no municipal police department. Stuart has its own city police force. Fire and rescue is Martin County in both places." },
+      { q: "Is the Brightline station in Stuart actually happening?", a: "It is planned but not certain, and the timeline has moved repeatedly. The site is 2.35 acres at 500 SE Flagler Avenue opposite the Martin County Courthouse. It was announced in 2024 for a 2026 opening, but the Federal Railroad Administration declined the county’s request for $45 million in grant funding, cost estimates have risen, and officials have pointed to 2028 or later. Verify the current status with the county rather than relying on a listing." },
+      { q: "Which town is better for boating?", a: "Port Salerno, on average and for the money, because it sits on the Manatee Pocket with quick access to the St. Lucie Inlet. Stuart has plenty of waterfront too, but much of it is river water further from the inlet and some sits behind bridges. The deciding variables are running time to open ocean and bridge clearance between the dock and the inlet, and both are property-specific rather than town-specific." },
     ],
-    internalLinks: ["who-should-move-to-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida"],
-    funFact: "Waterfront properties near the St. Lucie Inlet in Port Salerno have historically priced below comparable Stuart waterfront — sometimes by a meaningful margin — despite essentially the same water access and, in some cases, even better inlet proximity. That gap is the whole investment argument.",
+    internalLinks: ["history-of-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
+    funFact: "The biggest practical difference between these two is invisible on a tour: Stuart is an incorporated city with its own police force, its own water and wastewater utility, and its own millage, while Port Salerno is unincorporated Martin County with none of the three. Almost every other difference in the tax bill and the services follows from that one fact.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-04',
   },
   {
     slug: 'best-places-to-eat-drink-hang-out-in-port-salerno-florida',
