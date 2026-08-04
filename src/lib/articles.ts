@@ -17361,6 +17361,8 @@ Work out which one you are, then get concrete: run the numbers, confirm the util
     primaryKeyword: "Port Salerno waterfront homes",
     secondaryKeywords: ["buying waterfront Port Salerno", "seawall inspection Florida", "dock permit Martin County", "flood insurance Port Salerno", "no fixed bridges Stuart Florida"],
     h1: "Waterfront Homes in Port Salerno: What Buyers Need to Know",
+    heroImage: '/images/port-salerno/stock-canal-homes-docks.jpg',
+    heroImageCredit: 'Photo by Brianna Lengacher / Unsplash',
     showMarketTrends: true,
     body: `Buying a waterfront house is not buying a regular house with a better view. It's buying a structure, plus a piece of engineering holding the land up, plus a permitted structure over sovereign submerged land, plus a route to the ocean, plus an insurance profile that behaves nothing like an inland one.
 

@@ -69,6 +69,21 @@ is the hero on `port-salerno-vs-stuart`. Deliberate: different crop, aspect, and
 so it does not read as the same banner twice. **Do not put the two wide crops on two
 articles as heroes.**
 
+`stock-canal-homes-docks.jpg` is the hero on `waterfront-homes-port-salerno-buyers-guide`
+(Unsplash, Brianna Lengacher — `Em6Zd6BEWyo`, free licence, Florida). Canal-front homes with
+private docks, boat lifts and pilings showing a tidal growth line — the things that article
+tells buyers to inspect. Band from `top: 520`.
+
+Faint "YAMAHA" is legible on the outboard cowlings **only at extreme zoom**; at hero width
+those engines are a couple of hundred pixels. Same judgement as the registration number on
+the Rocky Point hero, and quite different from the GoPro logo that disqualified `1DO-za0h1ig`.
+
+⚠️ **Visual repetition to watch.** This is the third canal-at-golden-hour hero in one
+cluster, after `port-salerno-vs-stuart` and `rocky-point-stuart-florida`. Articles that link
+to each other should not all look alike — **break the pattern on the next hero.** A Keys
+stilt-house frame (`tDPwoivoMLE`, Mick Kirchman, free licence) was the distinct alternative
+and remains available if we want to swap one out.
+
 ## Screened and approved, awaiting the right article
 
 Both cleared screening but were deliberately not spent on the waterfront buyer's guide,
