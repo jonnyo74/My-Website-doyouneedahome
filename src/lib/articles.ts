@@ -17411,6 +17411,7 @@ Port Salerno offers authentic waterfront living at genuine Treasure Coast value,
     primaryKeyword: "Port Salerno history",
     secondaryKeywords: ["history of Port Salerno Florida", "Manatee Pocket history", "Port Salerno fishing village history", "Salerno Florida name origin", "when was Port Salerno founded", "Port Salerno shark industry"],
     h1: "The Complete History of Port Salerno, Florida",
+    heroImage: '/images/port-salerno/stock-angler-jetty-dawn.jpg',
     body: `Most Florida towns were drawn on paper before anyone lived in them. Port Salerno wasn't. It accumulated — around a protected harbor, a hand-dug inlet, a railroad siding, and a series of industries that each boomed and then vanished.
 
 That accumulation is why the village looks the way it does today: no grid worth the name, no entry feature, housing stock spanning a century, and a working commercial dock sitting a few hundred feet from restaurant patios. This is the story of how that happened, and where the documented record is thinner than the local retellings suggest.

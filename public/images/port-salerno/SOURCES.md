@@ -1,6 +1,26 @@
 # Port Salerno imagery — provenance and shot list
 
-**Status: no files yet.** All ten Port Salerno articles currently run without a hero.
+**Status: one stock file.** Nine of the ten Port Salerno articles still run without a hero.
+
+## Files
+
+| File | Source | Licence | Depicts |
+|---|---|---|---|
+| `stock-angler-jetty-dawn.jpg` | Unsplash, Ryan Arnst — `TGFcHIE4oK8` | Free Unsplash License | Silhouetted angler on a granite jetty at first light, open Atlantic behind |
+
+`stock-angler-jetty-dawn.jpg` is the hero on `history-of-port-salerno-florida`. **Shot at
+Singer Island, Riviera Beach — not Port Salerno.** It is used as subject illustration only,
+the same way stock is used elsewhere on the site, and its caption describes the subject
+rather than asserting a location. Same Atlantic coastline and the same granite jetty
+construction, so it is honest as illustration. Replace with genuine Port Salerno
+photography when we have it.
+
+Screened and passed: the angler is backlit with his back turned, so no likeness risk; no
+branding, no vessel names, no identifying landmark.
+
+**Rejected — do not retry:** Unsplash `7CD0XAin6Q4` (paddleboarder at sunset, Islamorada)
+is an **Unsplash+ premium** image. It requires a paid subscription and is not covered by
+the free Unsplash License.
 
 ## Do not use Intracoastal or luxury-home shots here
 
