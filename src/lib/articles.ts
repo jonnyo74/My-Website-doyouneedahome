@@ -17441,6 +17441,8 @@ It also created a permanent maintenance obligation. The inlet received federal p
 
 The earliest economy here was split between the water and the sandy ridge inland. Most people made a living either fishing commercially or working the **pineapple** farms that ran along this stretch of the Indian River in the 1890s and early 1900s.
 
+![Freshly harvested pineapples piled together, some ripe and some still green](/images/port-salerno/stock-pineapples-harvested.jpg "The Indian River pineapple crop went north on the railway that still runs through the middle of the village — the same line that carried the fish.")
+
 Henry Flagler's **Florida East Coast Railway** reached this part of the coast in the mid-1890s, and it changed the arithmetic completely. Fish and fruit that had been limited to local consumption could now reach northern markets. The tracks still run through the middle of the village, parallel to Dixie Highway, splitting it into an east side and a west side — a division you can still read in the street pattern and the housing.
 
 The hardest documentary marker of settlement is postal: a post office named **Salerno** operated from **1909 to 1959**.

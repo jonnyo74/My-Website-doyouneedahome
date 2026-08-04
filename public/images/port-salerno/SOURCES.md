@@ -7,6 +7,12 @@
 | File | Source | Licence | Depicts |
 |---|---|---|---|
 | `stock-angler-jetty-dawn.jpg` | Unsplash, Ryan Arnst — `TGFcHIE4oK8` | Free Unsplash License | Silhouetted angler on a granite jetty at first light, open Atlantic behind |
+| `stock-pineapples-harvested.jpg` | Unsplash, Rafael Peier — `XUIVulXs_ss` | Free Unsplash License | Freshly harvested pineapples piled together, ripe and unripe |
+
+`stock-pineapples-harvested.jpg` is the inline image in the pineapple section of
+`history-of-port-salerno-florida`. Shot in Madagascar; cropped from portrait to 4:3 and
+captioned by subject. No people, branding or terrain tells in frame, so it reads as
+harvested fruit rather than as a claim about place.
 
 `stock-angler-jetty-dawn.jpg` is the hero on `history-of-port-salerno-florida`. **Shot at
 Singer Island, Riviera Beach — not Port Salerno.** It is used as subject illustration only,
@@ -18,9 +24,18 @@ photography when we have it.
 Screened and passed: the angler is backlit with his back turned, so no likeness risk; no
 branding, no vessel names, no identifying landmark.
 
-**Rejected — do not retry:** Unsplash `7CD0XAin6Q4` (paddleboarder at sunset, Islamorada)
-is an **Unsplash+ premium** image. It requires a paid subscription and is not covered by
-the free Unsplash License.
+## Rejected — do not retry
+
+Both of these are **Unsplash+ premium**: they require a paid subscription and are not
+covered by the free Unsplash License.
+
+- `7CD0XAin6Q4` — paddleboarder at sunset, Islamorada
+- `-XqY0NrRU-Y` — row of pineapples on a wooden shelf, Elise Lainé
+
+**Unsplash+ images are hard to spot when picking.** Search results interleave them with
+free photos and the URL is identical in form, so a copied link gives no clue. On the photo
+page they carry a small "Plus" badge and a lock icon by the download button. If a download
+returns a ~7KB file instead of an image, it is gated — that is the tell.
 
 ## Do not use Intracoastal or luxury-home shots here
 
