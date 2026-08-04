@@ -9,6 +9,28 @@
 | `stock-angler-jetty-dawn.jpg` | Unsplash, Ryan Arnst — `TGFcHIE4oK8` | Free Unsplash License | Silhouetted angler on a granite jetty at first light, open Atlantic behind |
 | `stock-pineapples-harvested.jpg` | Unsplash, Rafael Peier — `XUIVulXs_ss` | Free Unsplash License | Freshly harvested pineapples piled together, ripe and unripe |
 | `stock-canal-homes-dusk.jpg` | Unsplash, Casey Lovegrove — `JTnSqEuIRHE` | Free Unsplash License | Canal-front homes, docks and a covered boat lift reflected at dusk |
+| `stock-dock-lift-canal.jpg` | Unsplash, Casey Lovegrove — `JTnSqEuIRHE` | Free Unsplash License | Covered lift with a boat, dock and trailer — a tighter crop of the same frame |
+| `stock-canal-docks-evening.jpg` | Unsplash, Martin Zangerl — `p2UZu5Fq7pE` | Free Unsplash License | Residential canal receding to open water, private docks and covered lifts both banks |
+
+`stock-canal-docks-evening.jpg` is the hero on `rocky-point-stuart-florida`. Shot at Fort
+Myers Beach; cropped to a 3.4:1 band. Chosen because the geography actually matches — an
+enclosed residential canal with docks and lifts, no skyline or causeway on the horizon to
+identify somewhere else. A small Florida registration number is visible on one boat at the
+bottom edge; it is low-contrast, sits under the title gradient, and is a registration
+marking rather than a painted vessel name.
+
+`stock-dock-lift-canal.jpg` is a **different crop of the same frame** as
+`stock-canal-homes-dusk.jpg`, used in-body on the Rocky Point article while the wide band
+is the hero on `port-salerno-vs-stuart`. Deliberate: different crop, aspect, and position,
+so it does not read as the same banner twice. **Do not put the two wide crops on two
+articles as heroes.**
+
+### Rejected for the Rocky Point article
+
+- **`r7Syqs3uaDQ`** (Shawn Slawson, dock with two chairs) — free licence and a lovely shot,
+  but tagged **Rocky Point, *Tampa*** and showing open bay with a multi-mile causeway and a
+  distant skyline on the horizon. Wrong Rocky Point and visibly wrong water: Martin
+  County's fronts an enclosed harbour a few hundred yards across.
 
 `stock-canal-homes-dusk.jpg` is the hero on `port-salerno-vs-stuart`. Shot at Crystal River
 on the Gulf coast; cropped from 4:3 to a 3.4:1 band to match the hero container. **Note the
