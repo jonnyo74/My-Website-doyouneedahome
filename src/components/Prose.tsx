@@ -65,6 +65,7 @@ export default function Prose({ content, className = '' }: { content: string; cl
   const blocks: ReactNode[] = []
   let para: string[] = []
   let list: string[] = []
+  let table: string[][] = []
   let key = 0
 
   const flushPara = () => {
@@ -92,9 +93,52 @@ export default function Prose({ content, className = '' }: { content: string; cl
       list = []
     }
   }
+  const flushTable = () => {
+    if (table.length) {
+      const [head, ...rows] = table
+      blocks.push(
+        <div key={`tw${key++}`} className="mt-6 overflow-x-auto">
+          <table className="w-full border-collapse text-left text-sm">
+            <thead>
+              <tr className="border-b-2 border-slate-300">
+                {head.map((cell, i) => (
+                  <th key={i} className="py-2 pr-6 font-semibold text-slate-900">
+                    {renderInline(cell, `th${key}-${i}`)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((row, ri) => (
+                <tr key={ri} className="border-b border-slate-200 last:border-0">
+                  {row.map((cell, ci) => (
+                    <td key={ci} className="py-2 pr-6 align-top leading-7 text-slate-600">
+                      {renderInline(cell, `td${key}-${ri}-${ci}`)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>,
+      )
+      table = []
+    }
+  }
 
   for (const raw of lines) {
     const line = raw.trimEnd()
+
+    // Pipe tables: | Year | Event |  with a |---|---| separator row.
+    if (/^\|.*\|$/.test(line)) {
+      flushPara(); flushList()
+      const cells = line.slice(1, -1).split('|').map((c) => c.trim())
+      // Skip the separator row; everything else is header (first) then body.
+      if (!cells.every((c) => /^:?-{2,}:?$/.test(c))) table.push(cells)
+      continue
+    }
+    flushTable()
+
     const image = line.match(IMAGE_LINE)
     if (image) {
       flushPara(); flushList()
@@ -153,7 +197,7 @@ export default function Prose({ content, className = '' }: { content: string; cl
       para.push(line)
     }
   }
-  flushPara(); flushList()
+  flushPara(); flushList(); flushTable()
 
   return <div className={className}>{blocks}</div>
 }
