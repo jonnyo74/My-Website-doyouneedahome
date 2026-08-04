@@ -11,6 +11,14 @@
 | `stock-canal-homes-dusk.jpg` | Unsplash, Casey Lovegrove — `JTnSqEuIRHE` | Free Unsplash License | Canal-front homes, docks and a covered boat lift reflected at dusk |
 | `stock-dock-lift-canal.jpg` | Unsplash, Casey Lovegrove — `JTnSqEuIRHE` | Free Unsplash License | Covered lift with a boat, dock and trailer — a tighter crop of the same frame |
 | `stock-canal-docks-evening.jpg` | Unsplash, Martin Zangerl — `p2UZu5Fq7pE` | Free Unsplash License | Residential canal receding to open water, private docks and covered lifts both banks |
+| `stock-manatee-underwater.jpg` | Unsplash, Maegan Luckiesh — `UDdt74azlig` | Free Unsplash License | Wild manatee underwater, head-on |
+
+`stock-manatee-underwater.jpg` is the in-body image on `manatee-pocket-guide`. Shot at Caye
+Caulker, Belize, in clear water over sand. **Used at 4:3 in-body rather than as a hero** —
+a 3.4:1 band cuts the snout off the bottom and the skull off the top, and the head-on
+portrait is the whole point of the frame. The caption says outright that the Pocket does
+not look like this, so the clarity of the water does not set an expectation the estuary
+cannot meet.
 
 `stock-canal-docks-evening.jpg` is the hero on `rocky-point-stuart-florida`. Shot at Fort
 Myers Beach; cropped to a 3.4:1 band. Chosen because the geography actually matches — an

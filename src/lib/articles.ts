@@ -17797,114 +17797,146 @@ Confirm all of it with Martin County and the appropriate licensed professionals.
     updated: '2026-08-04',
   },
   {
-    slug: 'best-places-to-eat-drink-hang-out-in-port-salerno-florida',
+    slug: 'manatee-pocket-guide',
     citySlug: 'port-salerno',
     cityName: 'Port Salerno',
-    type: "Best Places To Eat, Drink & Hang Out In",
-    order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out in Port Salerno, Florida",
-    metaTitle: "Best Places to Eat & Drink in Port Salerno, FL",
-    metaDescription: "Where to eat, drink, and hang out in Port Salerno, Florida — fresh waterfront seafood on the Manatee Pocket, dock-and-dine spots, and the Seafood Festival.",
-    primaryKeyword: "best restaurants in Port Salerno Florida",
-    secondaryKeywords: ["where to eat in Port Salerno", "Manatee Pocket restaurants", "Port Salerno seafood"],
-    h1: "Best Places to Eat, Drink & Hang Out in Port Salerno, Florida",
-    body: `Most small towns can't claim a genuine food identity. Port Salerno can, and it comes down to a structural advantage no amount of restaurant investment can manufacture: the boats that catch the fish tie up in the same harbor where you eat it.
+    type: "Area Guide",
+    order: 4,
+    seoTitle: "The Complete Guide to the Manatee Pocket, Port Salerno",
+    metaTitle: "The Manatee Pocket: A Complete Guide",
+    metaDescription: "The Manatee Pocket is Port Salerno's harbor — protected, close to the inlet, and shallower than most people expect. Depth, marinas, dining, and what to check.",
+    primaryKeyword: "Manatee Pocket",
+    secondaryKeywords: ["Manatee Pocket marinas", "Manatee Pocket depth", "Port Salerno waterfront district", "Manatee Pocket restaurants", "Manatee Pocket boating"],
+    h1: "The Complete Guide to the Manatee Pocket",
+    body: `Everything in Port Salerno points at one piece of water.
 
-This is dock-and-dine country, and the distance between the water and the plate is about as short as it gets anywhere in Florida.
+The **Manatee Pocket** is a long, narrow arm of the St. Lucie River that runs inland from near the inlet, and it is the reason this village exists, the reason it looks the way it does, and the reason people move here. Understand the Pocket and the rest of the place explains itself.
 
-## The fish houses — start here
+This is a guide to the harbor itself — its shape, its edges, who works on it, where you can eat on it, and the things about it that surprise people who arrive by boat or buy a house on it.
 
-Before the restaurants, understand the fish houses. These are working seafood operations on the **Manatee Pocket** that buy from the commercial fleet and sell to the public. Walking in and buying fish that came off a boat that morning is the single most characteristic thing you can do in this town.
+## What it actually is
 
-A few things worth knowing:
+The Pocket is an **estuarine embayment** — a natural bay rather than a dug canal — running roughly north to south, narrow enough that you can see both banks clearly, long enough that it takes a while to idle its length.
 
-- **Selection depends on what came in**, not on what you planned to make. That's the appeal — you build dinner around the catch rather than the other way around.
-- **Ask what's freshest** rather than what's cheapest. The people behind the counter know and will tell you straight.
-- **Go earlier in the day** for the best selection.
-- **Seasonality is real.** What's available shifts through the year with the fisheries, and locals eat accordingly.
+It opens at its north end toward the St. Lucie River and the Indian River Lagoon, and from there the **St. Lucie Inlet** and the Atlantic are a short run away. That proximity is the whole point. It's a protected harbor with a fast exit to open ocean, which is a rarer combination than it sounds.
 
-For a lot of residents, this replaces the grocery store seafood counter permanently. It's cheaper, it's better, and it's more interesting.
+The name comes from the manatees that shelter in its calm water, and they still do, particularly in the cooler months when they move into warmer, quieter places.
 
-## Waterfront dining on the Pocket
+Its defining physical quality is **shelter**. The Pocket is narrow, largely surrounded by land, and doesn't build much sea. That's why the commercial fleet based here, why boatyards cluster along it, and why it's a natural hurricane refuge — though anyone treating it as a storm plan should be talking to a marina about haul-out well before a storm has a name.
 
-The harbor is ringed with **waterfront seafood restaurants and tiki bars** where the boats drift past while you eat. This is the social center of the village — not a downtown strip, but the harbor itself.
+## How it's laid out
 
-What to expect:
+Think of the Pocket as having three distinct edges, and it helps enormously to know which one you're looking at.
 
-- **Casual, unpretentious, and genuinely salty.** Dress code is essentially nonexistent. Nobody is performing.
-- **Fresh local fish** as the core of most menus, prepared straightforwardly rather than elaborately.
-- **Boat-up access** at several spots, which is a completely normal way to arrive for dinner here and one of the small pleasures of living on the water.
-- **Sunset over a working harbor**, which looks different from a beach sunset — masts, trawlers, and boats coming in rather than an empty horizon.
+**The working side** is where the fleet ties up and the yards operate. Boats come out of the water here, engines come apart in the open, and it is loud early. This is a functioning industrial waterfront, not a preserved one.
 
-## Where the locals actually go
+**The marina and restaurant side** is where visiting boats tie up and where most of the dining sits, much of it directly on the water with dockage attached.
 
-The pattern most residents settle into is worth knowing:
+**The residential edges** run along both banks and up the side creeks — a mix of older waterfront homes, canal-front streets, and to the north the [Rocky Point peninsula](/blog/rocky-point-stuart-florida), which fronts the Pocket and holds much of the deep-water housing.
 
-- **Fish house for the weeknight.** Buy the catch, cook it at home, spend a fraction of what a restaurant costs.
-- **Waterfront spot on the weekend**, often arriving by boat, usually timed to the boats coming back in.
-- **Stuart for anything else.** When you want variety, a nicer dinner, a walkable evening, or a cuisine the village doesn't offer.
+Those three things sitting within a few hundred yards of each other is unusual, and it's the single most distinctive fact about this harbor. In most of Florida the working waterfront was zoned out, bought out, or built over decades ago. Here it's still operating next to the restaurant patios — and that survival was deliberate, which is a story told in our [history of the village](/blog/history-of-port-salerno-florida).
 
-That last one isn't a knock. It's five minutes away, and residents here treat Stuart's restaurant scene as functionally their own.
+## Depth, and the thing nobody tells you
 
-## The Seafood Festival
+This is where new arrivals get caught out, so read this part twice.
 
-The village's annual festival is the town's culinary high point and its biggest event, turning the commercial fishing heritage into a weekend of food, music, and community. It's genuinely crowded — the one time of year that's true — and it's the best single introduction to what this town is about if you're still deciding whether to move here.
+**The Pocket is shallower than it looks.** Approach depths from the river run roughly seven to nine feet. Once you're inside, depths of **four to six feet** are typical, with a marked dredged channel carrying more water down toward the south end.
 
-## Cooking what you buy
+That has consequences. It means draft matters here in a way it doesn't in deeper harbors. It means the marked channel is not a suggestion. And it means the depth at a particular dock is a genuine question rather than a formality — the Pocket accumulates sandy and organic sediment, and shoaling is an ongoing condition rather than a one-time problem.
 
-Since the fish house is central to eating well here, a few things that help if you're new to cooking fish this fresh:
+Martin County has dredged it, at real scale — a restoration project moved on the order of **285,000 cubic yards** of material. But dredging is maintenance, not a cure. Anything you're told about depth should be checked against a current chart and, better, against your own sounder at low water.
 
-- **Simpler is better.** Fish that came off a boat this morning doesn't need a heavy sauce. Most local cooks land on salt, heat, and citrus and stop there.
-- **Ask how to cook it.** The counter staff handle every species that comes through and will tell you what works — grilling, blackening, frying, or raw.
-- **Buy it whole and have it filleted** if you want the freshest result and don't mind the extra step.
-- **Freshness has a short window.** Cook it within a day or two, or freeze it properly the day you buy it.
-- **Learn the seasons.** What's running changes through the year, and eating with the fisheries is both cheaper and better than insisting on one species.
+**If you're buying a house here for a specific boat**, the two numbers that decide it are the depth at that dock at mean low water and the clearance on the route out. Neither is a property of the neighborhood. Both are properties of the address.
 
-None of this is complicated. It's just a different relationship with food than most people arrive with, and it's one of the genuine quality-of-life upgrades of living on a working harbor.
+## The marinas
 
-## Being realistic about the scene
+The Pocket carries an unusual density of marine business for a village this size.
 
-Honesty matters more than boosterism here, so:
+- **Pirate's Cove Resort & Marina** — a full-service resort and marina with roughly 50 wet slips taking vessels up to about 90 feet, plus dry rack storage for boats up to around 32 feet.
+- **Sailfish Marina** — just inside the Pocket to starboard as you enter.
+- **Finest Kind Marina** — takes transient guests.
+- **Mariner Cay** — a marina with transient facilities partway down.
+- **Hinckley Yacht Services** — a working yard with a large travel lift, in the 150-ton class, doing haul-outs and refit work.
 
-**Port Salerno has depth, not breadth.** What it does — fresh local seafood on a working waterfront — it does about as well as anywhere in Florida. What it doesn't have is variety. If you want a different cuisine four nights a week, this village alone won't deliver it.
+Two things worth drawing out of that list. First, the range: this harbor serves a 22-foot center console and a 90-foot yacht in the same water. Second, the **yard capacity** — a lift of that size means serious repair work happens here, which is why you see boats on the hard that clearly didn't come from around the corner.
 
-**The village is small.** The number of establishments is limited, and hours and ownership change more often than in a larger market.
+The county also runs a managed mooring field here, with a harbormaster and a dinghy dock. It is a large part of why this anchorage stays orderly rather than accumulating abandoned hulls the way some Florida harbors do — capacity and rules are in the [Rocky Point guide](/blog/rocky-point-stuart-florida).
 
-**Nightlife is low-key by design.** Waterfront bars with a local crowd, not a scene. Things wind down early. For most people who choose this town, that's a feature.
+Rates, fuel, ramps and the practicalities of running a boat out of here are a subject of their own, and we'll cover them properly rather than in passing.
 
-**Stuart carries the load for variety**, and Jensen Beach adds beach-town options a bit further north. Between them you're well covered — you're just driving.
+## Eating on the water
 
-## Practical local advice
+The dining here is concentrated on the Pocket and it is genuinely good, for a reason that has nothing to do with chefs.
 
-- **Go early for the fish houses**, later for the sunset. They're different trips.
-- **Boat-up dockage** exists at several waterfront restaurants, but space and rules vary — call ahead rather than assuming you'll find a spot.
-- **Weekends and season are busier**, particularly on good-weather days when the boating crowd is out.
-- **Summer is quieter and easier** — walk-in friendly, faster service, and the same water view.
-- **Check before you go.** In a village this size, hours, menus, and ownership change. Call rather than relying on anything you read, including this.
+**The fish comes off boats you can see from the table.** A commercial dock still operates here, so the seafood supply chain is measured in yards rather than in days and truck miles. That is the whole explanation for why a village of ten thousand eats better fish than most coastal towns three times its size.
 
-## Why the food here punches above its weight
+What to expect, honestly:
 
-The reason is structural. Working waterfronts have been disappearing across Florida for decades, priced out and redeveloped into condos and themed marinas. Port Salerno still has a real one — active commercial fishing, fish houses buying from the fleet, and restaurants sourcing locally because the supply is right there.
+- **Casual, waterfront, and unpretentious.** Plastic chairs and paper towels are common. So is excellent fish.
+- **Dock and dine works.** Several places have dockage, so arriving by boat is normal rather than a novelty.
+- **Fish houses are separate from restaurants.** You can buy fish to cook rather than fish to be served, and doing that once is worth more than any recommendation we could give you.
+- **It's small.** A handful of places, not a district. For range, Stuart is ten minutes north — a comparison covered in our [Port Salerno and Stuart guide](/blog/port-salerno-vs-stuart).
+- **Hours move seasonally.** Some kitchens shorten hours or close for a stretch in late summer. Call before you drive over.
 
-That's not a marketing angle. It's the actual economics of the place, and it's why a village this small eats better than towns ten times its size. It's also the thing most at risk if the area ever gentrifies hard, which is worth appreciating while it's here.
+Provisioning is better than visiting boaters expect: a grocery store, pharmacy, liquor store, and a handful of specialty shops sit near the waterfront, which makes the Pocket a practical stop rather than only a scenic one.
 
-Go buy fish off a boat in your first week. It'll tell you more about whether you belong in this town than any amount of driving around looking at houses.`,
+## The residential edges
+
+Living on the Pocket is a different proposition from living near it.
+
+**Directly on the water**, you get the view, the access, and the activity — including the early-morning activity, which is a feature to some buyers and a problem to others. Waterfront here spans a wide range of condition and age, and the seawalls tell you more about a property's future costs than the kitchen does.
+
+**A street or two back**, you get much of the lifestyle at a materially different price, particularly in areas with a community ramp or shared dockage.
+
+**Along the creeks** — Manatee Creek and the smaller tidal arms — the water gets quieter, shallower, and better for paddling than for anything with a big propeller.
+
+The variation from block to block is real, and it reflects a settlement that filled in piecemeal, industry by industry, with no master plan behind it.
+
+## Beyond boating
+
+The Pocket rewards people who aren't going out on it.
+
+**Manatees** move through in the cool months, and seeing them from a dock or a quiet shoreline is an ordinary winter occurrence. They're federally protected — give them room, never feed them, and don't follow them on a paddleboard.
+
+![A manatee swimming underwater, seen head-on](/images/port-salerno/stock-manatee-underwater.jpg "The harbor is named for them. Do not expect water like this — the Pocket runs tannic and murky, so a back or a snout at the surface is the usual sighting. || Photo by Maegan Luckiesh / Unsplash")
+
+**Paddling** the creeks and mangrove edges is the best low-effort thing here, especially early when wind is light and birds are working.
+
+**Watching the harbor at first light** costs nothing and tells you more about this place than any attraction. Between roughly half past five and seven, the Pocket runs on working logic — boats leaving, docks busy, nobody present without a reason.
+
+**Fishing from shore** is genuinely productive around moving tide, and the shore-fishing crowd is the fastest way to learn this water.
+
+## What makes it distinctive
+
+Strip away the marketing and three things separate this harbor from the rest of the Florida coast.
+
+**It still works.** Commercial fishing, marine repair, and boatbuilding are live businesses here, not heritage displays.
+
+**It's protected and close to the ocean at the same time.** Most sheltered water is far from an inlet. Most inlet-adjacent water is exposed. The Pocket is both, which is why the fleet chose it in the first place.
+
+**Nothing about it was designed.** Industry, restaurants, marinas and houses ended up within a few hundred yards of each other through a century of unrelated decisions, which is why the place reads as real rather than themed.
+
+## Thinking about a property on the Pocket?
+
+The question we get asked most about this harbor is which stretch of it someone should be looking at, and that depends entirely on how you intend to use the water.
+
+So tell us what you want out of it. A slip for something substantial, a quiet creek to paddle from, dinner reachable on foot, or simply distance from the early-morning noise — each points at a different part of this shoreline. We will tell you which stretch delivers what you are after and which will quietly disappoint you. We would far rather talk you out of the wrong piece of water than hand you the right-looking house on it.
+
+Depth, seawall condition, permits, flood zone and insurance are all address-level questions. Put them to Martin County and to a qualified marine contractor, surveyor and insurance agent before you act on anything here.`,
     faqs: [
-      { q: "Where can you eat in Port Salerno, Florida?", a: "The Manatee Pocket is ringed with casual waterfront seafood restaurants and tiki bars, several with boat-up access. The fish houses on the harbor also sell fresh catch directly to the public, which many residents use in place of a grocery store seafood counter. Hours and ownership change, so check before going." },
-      { q: "What are fish houses in Port Salerno?", a: "Working seafood operations on the Manatee Pocket that buy from the commercial fishing fleet and sell to the public. Selection depends on what came in that day, so go earlier for the best choice and ask what's freshest rather than what's cheapest." },
-      { q: "Can you get to Port Salerno restaurants by boat?", a: "Yes — several waterfront restaurants on the Manatee Pocket offer boat-up access, and arriving by water is a normal way to go to dinner locally. Dockage space and rules vary, so call ahead." },
-      { q: "Does Port Salerno have good seafood?", a: "It's the town's defining strength. Because it retains a genuine working waterfront with an active commercial fleet and fish houses buying directly from it, the distance between the water and the plate is unusually short. The trade-off is depth over breadth — limited variety beyond seafood." },
-      { q: "Is there nightlife in Port Salerno?", a: "It's low-key by design — casual waterfront bars with a local crowd rather than a scene, and things wind down early. Stuart, five minutes north, offers a walkable downtown with more options." },
-      { q: "What is the Port Salerno Seafood Festival?", a: "The village's signature annual event and culinary high point, celebrating its commercial fishing heritage with food, music, and community activities. It's the busiest weekend of the year in the village." },
+      { q: "What is the Manatee Pocket?", a: "A long, narrow natural bay off the St. Lucie River at Port Salerno, running roughly north to south. It opens toward the river and the Indian River Lagoon at its north end, with the St. Lucie Inlet and the Atlantic a short run beyond. It is the harbor the village was built around, and it holds the marinas, boatyards, commercial fishing dock and most of the waterfront dining." },
+      { q: "How deep is the Manatee Pocket?", a: "Shallower than most people expect. Approach depths from the river run roughly seven to nine feet, but inside the Pocket four to six feet is typical, with a marked dredged channel carrying more water toward the south end. Shoaling is ongoing, so treat any quoted depth as a starting point and check a current chart and your own sounder at low water." },
+      { q: "Why is it called the Manatee Pocket?", a: "For the manatees that shelter in its calm water, which they still do — particularly in the cooler months when they move into warmer, quieter places. They are federally protected, so give them room, never feed them, and do not follow them on a paddleboard." },
+      { q: "What marinas are on the Manatee Pocket?", a: "Several for a village this size. Pirate’s Cove Resort & Marina has roughly 50 wet slips for vessels up to about 90 feet plus dry rack storage; Sailfish Marina sits just inside the entrance to starboard; Finest Kind Marina and Mariner Cay both take transients; and Hinckley Yacht Services runs a working yard with a travel lift in the 150-ton class. Martin County also operates a managed mooring field with a harbormaster." },
+      { q: "Can you dock and dine on the Manatee Pocket?", a: "Yes. Several waterfront restaurants have dockage, so arriving by boat is normal rather than a novelty. The dining is casual and concentrated — a handful of places rather than a district — and the fish is unusually good because a commercial dock still operates here, so the supply chain is measured in yards rather than truck miles." },
+      { q: "Is the Manatee Pocket a good hurricane hole?", a: "It is narrow, largely surrounded by land, and does not build much sea, which is why boats have sheltered here for generations. That said, shelter is not a plan. If you keep a vessel here, arrange haul-out or safe dockage with a marina well before a storm is named — slots fill fast once one is." },
     ],
-    internalLinks: ["best-things-to-do-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
-    funFact: "The Port Salerno Seafood Festival started in 1979 as a small community fundraiser and grew into one of the largest one-day festivals on the Treasure Coast. It raises money for local nonprofits and is organized entirely by volunteers — a genuinely grassroots event in a town that's stayed genuinely grassroots.",
-    author: 'christine',
+    internalLinks: ["rocky-point-stuart-florida", "history-of-port-salerno-florida", "port-salerno-vs-stuart"],
+    funFact: "Almost every description of the Manatee Pocket calls it a protected deep-water harbor. It is protected, but it is not deep: inside the Pocket, four to six feet is typical, with a marked dredged channel carrying more water toward the south end. For anyone matching a boat to a dock here, that is the number that actually decides it.",
+    author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-04',
   },
-
-  // ===================== PORT ST. LUCIE =====================
   {
     slug: 'what-its-really-like-living-in-port-st-lucie-florida',
     citySlug: 'port-st-lucie',

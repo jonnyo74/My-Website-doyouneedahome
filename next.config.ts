@@ -30,6 +30,7 @@ const nextConfig: NextConfig = {
       { source: '/blog/hidden-gems-in-port-salerno-florida', destination: '/blog/history-of-port-salerno-florida', permanent: true },
       { source: '/blog/port-salerno-vs-nearby-cities', destination: '/blog/port-salerno-vs-stuart', permanent: true },
       { source: '/blog/who-should-move-to-port-salerno-florida', destination: '/blog/rocky-point-stuart-florida', permanent: true },
+      { source: '/blog/best-places-to-eat-drink-hang-out-in-port-salerno-florida', destination: '/blog/manatee-pocket-guide', permanent: true },
 
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate
