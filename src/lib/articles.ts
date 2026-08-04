@@ -17350,119 +17350,148 @@ Work out which one you are, then get concrete: run the numbers, confirm the util
     updated: '2026-06-01',
   },
   {
-    slug: 'cost-of-living-in-port-salerno-florida',
+    slug: 'waterfront-homes-port-salerno-buyers-guide',
     citySlug: 'port-salerno',
     cityName: 'Port Salerno',
-    type: "Cost Of Living In",
-    order: 7,
-    seoTitle: "Cost of Living in Port Salerno, Florida",
-    metaTitle: "Cost of Living in Port Salerno, Florida",
-    metaDescription: "What it costs to live in Port Salerno, Florida — an affordable, authentic waterfront alternative to Stuart, with housing, taxes, and insurance explained.",
-    primaryKeyword: "cost of living in Port Salerno Florida",
-    secondaryKeywords: ["Port Salerno home prices", "is Port Salerno affordable", "Port Salerno FL cost of living"],
-    h1: "Cost of Living in Port Salerno, Florida",
+    type: "Buyer's Guide",
+    order: 6,
+    seoTitle: "Waterfront Homes in Port Salerno: What Buyers Need to Know",
+    metaTitle: "Port Salerno Waterfront Homes: Buyer's Guide",
+    metaDescription: "Seawalls, dock permits, bridge clearance, flood zones and wind mitigation — the five things that decide what a Port Salerno waterfront home really costs to own.",
+    primaryKeyword: "Port Salerno waterfront homes",
+    secondaryKeywords: ["buying waterfront Port Salerno", "seawall inspection Florida", "dock permit Martin County", "flood insurance Port Salerno", "no fixed bridges Stuart Florida"],
+    h1: "Waterfront Homes in Port Salerno: What Buyers Need to Know",
     showMarketTrends: true,
-    body: `Port Salerno is the value play of the Stuart area — but "cheaper than Stuart" is where most cost conversations start and stop, and that's not enough information to budget against.
+    body: `Buying a waterfront house is not buying a regular house with a better view. It's buying a structure, plus a piece of engineering holding the land up, plus a permitted structure over sovereign submerged land, plus a route to the ocean, plus an insurance profile that behaves nothing like an inland one.
 
-The purchase price is the easy part. What decides whether a waterfront village home actually works for you is the stack underneath it: Martin County's tax structure, coastal insurance, flood coverage, and — if you're buying for the water — the recurring cost of the dock and the boat that justified the whole move.
+Any of those five can cost you more than the kitchen you fell in love with.
 
-## Housing: what you're actually paying for
+This is what we'd want checked, in the order we'd check it, and — more usefully — *why* each one matters and what a bad answer actually looks like.
 
-Port Salerno generally prices below comparable Stuart property, and waterfront on the Manatee Pocket carries a premium over inland village homes while typically still coming in under equivalent Stuart waterfront. Check the live market trends further down this page for current figures rather than trusting a number in an article.
+## Ocean access is a route, not a feature
 
-What matters more than the median here is **condition spread**. The housing stock varies enormously in age and upkeep, which means two homes at the same price can carry wildly different five-year costs. A 1970s block home with an original roof and a failing seawall is not the same purchase as a renovated one, even at identical asking prices.
+"Ocean access" appears in nearly every waterfront listing here and it means almost nothing on its own. What matters is the particular path a boat has to take from that property out to the St. Lucie Inlet, and whether yours fits through every part of it.
 
-## Property taxes — and the Martin County difference
+Three things decide that.
 
-Florida has **no state income tax**, which is the single largest recurring financial advantage of moving here from a higher-tax state, and for retirees managing retirement account distributions it's often decisive.
+**Fixed bridges.** A fixed bridge sets a hard ceiling. If your air draft — height with the antennas, tower and outriggers up — exceeds the clearance, the route is closed to you permanently. Not at certain tides. Permanently.
 
-Property taxes are where Port Salerno buyers most often get tripped up, for two reasons.
+**Clearance is not a constant.** Charted bridge clearance is usually given at mean high water. You get more at low tide and less at high, and a listing that says "no fixed bridges" may be describing one route and not the one you'd actually use.
 
-### You're in Martin County, not Palm Beach County
+**Distance and idle zones.** Two properties can both be twenty minutes from the inlet on paper and forty minutes apart in practice, because one of them idles through a no-wake zone for most of it.
 
-Different county, different millage rates, different property appraiser, different school district. If you've been researching Palm Beach County towns and mentally carrying those numbers north, stop — verify with the **Martin County Property Appraiser** and Tax Collector for the specific parcel.
+The only reliable test is to run the route in the boat you intend to own, at the tide you'd typically leave on. Second best is to have someone who runs it weekly walk you through it. A chart alone will not tell you what the marina traffic is like on a Saturday in February.
 
-### The tax figure on the listing isn't yours
+## Depth, and what "deep water" is doing in that listing
 
-This catches nearly every out-of-state buyer. The property tax number shown on a listing typically reflects the **current owner's** bill. If they've held the home for a long time, that figure is protected by caps that do not transfer to you. Assessed value generally resets toward market value in the year after a sale, and the bill can jump substantially.
+Depth is quoted loosely and measured precisely.
 
-Budget against a reset assessment, not the seller's historical number.
+Only one measurement counts: **what is under your keel at the dock on a low tide**. Not the waterway average, not the figure at the canal mouth, and not whatever the sounder read on a sunny afternoon at half flood.
 
-### Homestead Exemption and Save Our Homes
+Canals shoal. Sediment moves, storms redistribute it, and a canal dredged eight years ago is not the canal on the survey. If the seller can't tell you when the canal was last dredged and who paid for it, that's information too — dredging a private canal is expensive and the responsibility question is frequently unresolved.
 
-If the home will be your **primary residence**, filing for Homestead Exemption reduces taxable value and triggers the Save Our Homes cap, which limits how much assessed value can rise annually. There's a filing deadline early in the year after purchase, and missing it costs you a full year.
+Our [guide to the Manatee Pocket](/blog/manatee-pocket-guide) covers the harbor's own depth situation, which surprises people. Assume nothing about a canal off it.
 
-If you're moving from another Florida homestead, **portability** may let you carry accumulated Save Our Homes benefit to the new property. It's a separate form with its own rules, and in-state movers leave it on the table constantly.
+## The seawall is the biggest number nobody budgets for
 
-Exemption amounts, caps, and millage rates are set at the state and county level and change. Verify current figures with Martin County and consult a CPA about your situation.
+If there's one thing in this article to take seriously, it's this.
 
-## Insurance: the number that decides which houses you can buy
+A seawall is a retaining structure holding your yard back from the water. When it fails it does so expensively, and replacement is a marine construction job — barge, permits, engineering — not a landscaping one.
 
-On a coastal waterfront village with older housing stock, insurance isn't just a budget line — it determines which properties are realistically available to you.
+**What to look for.** Cracking, particularly stepped or vertical cracks in the cap. Rust staining, which means the reinforcing steel inside is corroding and expanding. Bulging or leaning panels. Sinkholes, soft spots or depressions in the lawn near the wall — that's soil migrating out through a failure you can't see. Tie-back rods and deadmen are buried and invisible, and they fail before anything shows on the surface.
 
-**Premiums vary enormously between comparable homes.** The drivers:
+**What to establish.** Age, whether it's been repaired or capped, who built it, and above all **whose responsibility it is.** On some canals the wall is entirely the owner's. On others it's shared, association-owned, or ambiguous — and ambiguous is the expensive answer, because it usually means nobody has maintained it.
 
-- **Roof age and material.** The biggest single factor. Past a certain age some carriers decline outright, which can make financing difficult and shrinks your buyer pool at resale.
-- **Wind mitigation features.** Impact windows, shutters, roof-to-wall connections, and secondary water barriers all earn credits. A wind mitigation inspection is inexpensive and routinely pays for itself.
-- **Year built and construction type.** Homes built to post-1994 and especially post-2002 Florida building codes generally insure better — relevant here, where a lot of the stock predates both.
-- **Distance to the water**, which in a village wrapped around a harbor is a short distance for nearly everyone.
-- **Claims history**, both yours and the property's.
+**Get a marine contractor to look at it during your inspection period.** A general home inspector will note that a seawall exists. They will not tell you how much life is left in it, and that is the number that matters.
 
-**Older homes may need updates to be insurable at all.** Electrical, plumbing, and roof condition can all trigger requirements. Get quotes **during your inspection period**, not after — and ask for the property's prior insurance history.
+## Docks and lifts: three agencies, not one
 
-If the private market won't write it, Citizens Property Insurance is the state-backed insurer of last resort, with its own rules and assessment risk. Verify everything with a licensed Florida insurance agent for the specific address.
+This is where buyers get an unpleasant surprise, usually after closing.
 
-### Flood is separate, and here it matters
+Marine structures in Florida are potentially reviewable by **three separate authorities**: the local government, the **Florida Department of Environmental Protection**, and the **U.S. Army Corps of Engineers**. Local handles building and zoning. FDEP handles impacts to wetlands, submerged lands and water quality through an Environmental Resource Permit. The Corps has jurisdiction over navigable waters.
 
-Flood coverage is **never** included in a standard homeowners policy. In a village built around a harbor, a meaningful share of properties sit in FEMA-designated flood zones, and lenders will require coverage in high-risk zones. Pull the flood zone for any specific address before you get attached to it. Elevation certificates can materially affect the premium.
+Permitting runs in tiers. Minor work — a small dock replacement, a seawall placed close to the existing line — can fall under a general license. Moderate residential projects typically use a general permit. Larger or higher-impact work needs an individual permit, and those can take many months.
 
-## The waterfront costs nobody quotes you
+Two practical consequences.
 
-If you're buying here for the water — and most people are — these are real recurring numbers:
+**Unpermitted structures become your problem.** Older waterfront areas are full of docks, lifts, enclosures and davits that were built without permits or were modified after permitting. When you buy, you inherit that. Pull the permit history for the address — don't accept a verbal assurance that "it was all done properly."
 
-- **Dock and seawall maintenance.** Both are expensive to repair and very expensive to replace. Have them inspected specifically, not as part of a general home inspection.
-- **Dockage**, if the property doesn't include a slip.
-- **Boat ownership overall** — maintenance, haul-outs, bottom paint, fuel, and boat insurance. In saltwater with year-round use, maintenance runs higher than northern boaters expect.
-- **Marine growth and corrosion.** Everything metal near saltwater has a shorter life. Budget for it.
+**Seagrass changes everything.** Marine construction in South Florida frequently requires a benthic resource survey to identify seagrass and other protected marine life. If there's seagrass off your dock, what you can build, extend or dredge may be sharply limited. That's worth knowing *before* you buy the house on the strength of the dock you were planning to add.
 
-## Everyday costs
+## Flood zones, and what Risk Rating 2.0 changed
 
-Utilities and groceries track close to the Florida average, with summer electric as the main swing — air conditioning runs most of the year and older homes with aging systems show it.
+Flood insurance is where waterfront budgets go wrong, and the rules changed in a way many buyers haven't caught up with.
 
-Some properties in and around the village are on **well and septic** rather than municipal water and sewer. That changes your cost structure — no water bill, but septic maintenance and eventual replacement are on you. Verify which applies to the specific address.
+**The zones.** **Zone AE** is high-risk — inside the 100-year floodplain, with a published Base Flood Elevation. **Zone VE** is coastal high hazard, where wave action is expected, and it is materially more expensive. **Zone X** sits outside the mapped high-risk area, where flood cover isn't federally required but is often still a good idea.
 
-Eating locally at the seafood spots can genuinely be a bargain relative to the region. Broader shopping means driving to Stuart, so factor fuel and time.
+**The elevation certificate.** This is a surveyor's document recording your structure's elevation relative to the Base Flood Elevation. If the property has one, get it. If it doesn't, getting one is usually money well spent, because a structure sitting above BFE can price very differently from one sitting below.
 
-## Running your real number
+**What changed.** Under FEMA's Risk Rating 2.0, premiums are no longer driven mainly by which zone you're in. Elevation matters, but so do distance to the flood source, construction type and replacement cost. **The practical upshot is that two houses in the same flood zone, on the same street, can carry very different premiums.** You cannot infer your cost from the neighbor's, and you cannot infer it from the zone.
 
-For any specific address, build the full monthly figure:
+**So get a real quote, in writing, during your inspection period.** Not an estimate, not last year's number, and not the seller's premium — theirs may reflect circumstances that don't transfer.
 
-- Mortgage principal and interest
-- Property taxes **at a reset assessment**, homestead applied if primary
-- Homeowners insurance, actually quoted
-- Flood insurance, if applicable
-- HOA dues, if any — many village properties have none
-- Dock, seawall, and boat costs if waterfront
-- Electric, water or well/septic, internet
-- Lawn and pest service
+## Wind, roof age, and the other insurance lever
 
-## The bottom line
+Flood is a separate policy from homeowners. Both matter here, and the homeowners side turns largely on wind.
 
-Port Salerno offers authentic waterfront living at genuine Treasure Coast value, and the tax advantage of having no state income tax is real. The buyers who feel good about it afterward are the ones who priced the roof, the insurance, the flood zone, and the seawall before closing — not the ones who compared asking prices to Stuart and stopped there.`,
+**Wind mitigation inspections** document features that resist windstorm damage — roof covering, roof deck attachment, roof-to-wall connections, opening protection, roof geometry. Florida law requires insurers to offer credits for these, and the credits apply to the windstorm portion of the premium, which on the coast is most of it. An inspection is inexpensive and typically valid for five years.
+
+**Roof age is the single biggest lever.** Homes built to the 2002 Florida Building Code and later generally insure better. Older homes with roofs updated to modern code standards can qualify for credits too. An original roof on a 1970s block house is not merely a future expense — it can make a property difficult to insure at all, which means difficult to finance, which means difficult to resell.
+
+**One current detail worth knowing:** as of April 2026 wind mitigation inspections use an updated state form with stricter documentation requirements for impact windows, roof coverings and roof-to-wall connections. An older inspection report may not carry the credits you expect. Confirm what your insurer will actually accept before you rely on a report the seller hands you.
+
+If the private market won't write the property, **Citizens** is the state-backed insurer of last resort. Being pushed to Citizens is a signal about the property, not just about the market.
+
+## Septic, sewer and the things under the lawn
+
+Waterfront lots in older areas are frequently on septic. That matters more here than inland.
+
+Establish which system serves the property, and if it's septic: its age, its capacity, when it was last pumped, where the drainfield sits, and whether it has ever been replaced. A drainfield near the water, on a small lot, in sandy soil, is a system with less margin than most.
+
+It also constrains you. Additions, bedroom counts and accessory structures can all run into septic capacity limits. If your plan involves expanding the house, find out what the system will support before you write the offer.
+
+## What to actually do, in order
+
+1. **Before you offer** — pull the flood zone and any elevation certificate, pull the permit history, and get a rough insurance indication.
+2. **During the inspection period** — general inspection, four-point and wind mitigation, a marine contractor on the seawall and dock, and **written** insurance quotes for both flood and homeowners.
+3. **Run the route** to the inlet in a comparable boat, at a typical tide.
+4. **Read the HOA or association documents** if any apply, particularly anything governing docks, boat size, trailers and rentals.
+5. **Confirm utilities** — water, sewer or septic — for the specific parcel rather than the street.
+
+Nothing on this list is exotic and none of it is expensive relative to the purchase. All of it is far cheaper before closing than after.
+
+## The questions that actually reveal a property
+
+If you only ask five things, ask these.
+
+- **When was the seawall built, and who is responsible for it?**
+- **What is the depth at the dock at mean low water?**
+- **Were the dock and lift permitted, and is there paperwork?**
+- **What did the seller pay for flood and wind cover last year, and what will *I* be quoted?**
+- **How old is the roof, and does it have a current wind mitigation report?**
+
+Vague answers to any of these are not a reason to walk away. They're a reason to find out, at the seller's inconvenience rather than your expense.
+
+## Send us the listing before you fall for it
+
+We look at waterfront here constantly, and the difference between a good one and an expensive one is rarely visible in the photographs.
+
+Send us one you're considering. We'll tell you which of the five questions above we expect to come back badly on that particular house, whether the access it advertises survives contact with a real boat, and what we would insist on seeing before we let a client proceed. We would rather cost ourselves a sale in week one than watch you find it in month three.
+
+None of the above is legal, insurance, engineering or environmental advice. Verify flood zone, permits and utilities with Martin County and the relevant state and federal agencies, and get a licensed marine contractor, surveyor, inspector and insurance agent to put their findings in writing.`,
     faqs: [
-      { q: "Is Port Salerno cheaper than Stuart?", a: "Generally yes — Port Salerno typically prices below comparable Stuart property, and waterfront on the Manatee Pocket often comes in under equivalent Stuart waterfront. Purchase price alone is misleading, though, since the housing stock varies widely in age and condition and that drives insurance and maintenance costs." },
-      { q: "What are property taxes like in Port Salerno?", a: "Port Salerno is in Martin County, with its own millage rates, property appraiser, and school district — Palm Beach County figures don't carry over. Also note that the tax figure on a listing usually reflects the seller's capped assessment; assessed value generally resets toward market value the year after a sale." },
-      { q: "Does Port Salerno have high home insurance?", a: "Coastal waterfront location and older housing stock both push premiums up, and rates vary substantially between comparable homes based on roof age, wind mitigation features, and year built. Some older homes need electrical, plumbing, or roof updates to be insurable at all. Get quotes during your inspection period." },
-      { q: "Do I need flood insurance in Port Salerno?", a: "Quite possibly. Flood is never covered by a standard homeowners policy, and in a village built around a harbor a meaningful share of properties sit in FEMA-designated flood zones where lenders require coverage. Pull the flood zone and any elevation certificate for the specific address." },
-      { q: "What does it cost to own a waterfront home in Port Salerno?", a: "Beyond the mortgage, budget for dock and seawall maintenance, dockage if no slip is included, boat maintenance and insurance, and higher homeowners and flood premiums. Seawalls and docks are expensive to replace and should be inspected specifically rather than as part of a general home inspection." },
-      { q: "Does Florida have a state income tax?", a: "No. Florida has no state income tax, which is a significant recurring advantage for anyone relocating from a higher-tax state and for retirees managing retirement account distributions." },
-      { q: "Are Port Salerno homes on well and septic?", a: "Some properties in and around the village are on well and septic rather than municipal water and sewer. That removes a water bill but puts septic maintenance and eventual replacement on the owner. Verify which applies to the specific address." },
+      { q: "What should I check before buying a waterfront home in Port Salerno?", a: "Five things carry most of the risk: the seawall and who is responsible for it, the depth at the dock at mean low water, whether the dock and lift were permitted, real written insurance quotes for both flood and wind, and the roof age. All five are address-specific and none can be answered by anything you read about the neighborhood." },
+      { q: "Does \"ocean access\" in a listing mean my boat can actually get out?", a: "Not necessarily. It describes the water, not the route. A fixed bridge sets a permanent ceiling on air draft, charted clearance is usually given at mean high water so you get less at high tide, and two properties equally distant from the inlet can differ enormously once no-wake zones are counted. Run the route in the boat you intend to own before you rely on the phrase." },
+      { q: "How much does a seawall matter when buying?", a: "It is the largest cost most buyers fail to budget for. A seawall is a retaining structure, and replacing one is marine construction — barge, permits, engineering. Look for stepped cracking, rust staining, leaning panels, and soft spots or depressions in the lawn near the wall, which indicate soil escaping through a failure you cannot see. Have a marine contractor assess it during the inspection period; a general home inspector will only note that it exists." },
+      { q: "Do I need permits for a dock or seawall in Florida?", a: "Usually, and potentially from three separate authorities: the local government, the Florida Department of Environmental Protection through an Environmental Resource Permit, and the U.S. Army Corps of Engineers for navigable waters. Permitting runs in tiers from a general license for minor work up to an individual permit for larger projects, which can take many months. Marine construction in South Florida also frequently requires a benthic survey for seagrass." },
+      { q: "Why do two houses in the same flood zone have different insurance costs?", a: "Because under FEMA's Risk Rating 2.0 the zone is no longer the main driver. Elevation matters, but so do distance to the flood source, construction type and replacement cost. Two houses on the same street in the same zone can price very differently, so you cannot infer your premium from the neighbor's or from the zone. Get a written quote during your inspection period." },
+      { q: "Does roof age affect insurance on a Florida waterfront home?", a: "Heavily. Homes built to the 2002 Florida Building Code and later generally insure better, and older homes with roofs updated to modern standards can still qualify for wind mitigation credits. An original roof on a 1970s block house can make a property hard to insure at all — which makes it hard to finance and hard to resell. Note that as of April 2026 wind mitigation inspections use an updated state form, so an older report a seller hands you may not carry the credits you expect." },
     ],
-    internalLinks: ["what-its-really-like-living-in-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida"],
-    funFact: "The Manatee Pocket connects to the St. Lucie River system, which links to Lake Okeechobee through the C-44 canal — the Okeechobee Waterway. That means you can boat from Port Salerno all the way across Florida to the Gulf Coast. Not many towns can say that.",
+    internalLinks: ["manatee-pocket-guide", "rocky-point-stuart-florida", "port-salerno-vs-stuart"],
+    funFact: "The most expensive thing on a waterfront property is usually the one nobody inspects. A seawall is a retaining structure holding the yard back from the water, and replacing one is marine construction with a barge, permits and engineering. A general home inspector will note that a seawall exists; only a marine contractor will tell you how many years are left in it.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-04',
   },
   {
     slug: 'history-of-port-salerno-florida',
@@ -17808,7 +17837,7 @@ Confirm all of it with Martin County and the appropriate licensed professionals.
     primaryKeyword: "Manatee Pocket",
     secondaryKeywords: ["Manatee Pocket marinas", "Manatee Pocket depth", "Port Salerno waterfront district", "Manatee Pocket restaurants", "Manatee Pocket boating"],
     h1: "The Complete Guide to the Manatee Pocket",
-    heroImage: '/images/port-salerno/local-manatees.jpg',
+    heroImage: '/images/port-salerno/local-manatee-pocket-marina.jpg',
     body: `Everything in Port Salerno points at one piece of water.
 
 The **Manatee Pocket** is a long, narrow arm of the St. Lucie River that runs inland from near the inlet, and it is the reason this village exists, the reason it looks the way it does, and the reason people move here. Understand the Pocket and the rest of the place explains itself.
@@ -17899,7 +17928,7 @@ The Pocket rewards people who aren't going out on it.
 
 **Manatees** move through in the cool months, and seeing them from a dock or a quiet shoreline is an ordinary winter occurrence. They're federally protected — give them room, never feed them, and don't follow them on a paddleboard.
 
-![A manatee swimming underwater, seen head-on](/images/port-salerno/stock-manatee-underwater.jpg "The harbor is named for them. Do not expect water like this — the Pocket runs tannic and murky, so a back or a snout at the surface is the usual sighting. || Photo by Maegan Luckiesh / Unsplash")
+![Two manatees just under the surface in clear water](/images/port-salerno/local-manatees-inline.jpg "Manatees move into warmer, calmer water as temperatures drop. The Pocket runs darker than this, so a back or a snout at the surface is the usual sighting.")
 
 **Paddling** the creeks and mangrove edges is the best low-effort thing here, especially early when wind is light and birds are working.
 

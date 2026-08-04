@@ -24,18 +24,33 @@ cannot meet.
 
 | File | Source | Depicts |
 |---|---|---|
-| `local-manatees.jpg` | Ours — `Loose - Unsorted/IMG_5873.JPEG` | Two manatees just under the surface in clear water |
+| `local-manatee-pocket-marina.jpg` | Ours — `Archive/2020/February 2020/IMG_3310.JPEG` | **The actual Manatee Pocket** — tiki bar, docks, boats, blue clubhouse |
+| `local-manatees-inline.jpg` | Ours — `Loose - Unsorted/IMG_5872.JPEG` | Manatee just under the surface, boats in shot |
 
-`local-manatees.jpg` is the hero on `manatee-pocket-guide`. **No credit line** — it is our
-own photograph, same as the `local-` files in the Stuart folder.
+**No credit lines on either — they are our own photographs**, same convention as the
+`local-` files in the Stuart folder.
 
-Shot at Sailfish Marina, Palm Beach Shores, not the Pocket, so it is captioned by subject
-like the rest of our out-of-area photography. The full frame carries a megayacht, docks and
-Peanut Island across the water; **John's call was to crop those out** and keep water and
-animals only, so the band is taken from `top: 420`.
+`local-manatee-pocket-marina.jpg` is the hero on `manatee-pocket-guide`, and it is the only
+image in this folder actually shot in Port Salerno. Band taken from `top: 640`. That makes
+the water honest: the Pocket runs dark and tannic, not the turquoise of every stock
+alternative screened for this article.
 
-Two more usable frames from the same sequence sit in that folder: `IMG_5872.JPEG` (single
-animal, boats in shot) and `IMG_5875.JPEG`.
+**It carries a rental sign with a phone number and a hull badge.** Our screening rule bars
+third-party branding, but that rule exists for *stock*, where the risks are implying a
+relationship or faking a location. This is our own documentary photograph of a public
+marina, where incidental signage is ordinary editorial content. Judgement call, made
+deliberately — do not treat it as licence to accept branding in stock.
+
+Two more Port Salerno frames sit in the same folder: `IMG_3311.JPEG` (boatyard with travel
+lift and sportfishers — the best working-waterfront frame we have) and `IMG_3312.JPEG`
+(dock, but with identifiable people in the foreground). More usable manatee frames:
+`Loose - Unsorted/IMG_5873.JPEG` and `IMG_5875.JPEG`.
+
+### Retired
+
+- `stock-manatee-underwater.jpg` (Belize) and `stock-manatee-face.jpg` — both replaced by
+  our own photography. The Belize frame needed a caption apologising for water clarity;
+  ours does not.
 
 **Lesson worth keeping:** the first hero here was a tight crop through a manatee's muzzle.
 It read fine at hero width and looked like a shapeless brown mass in the 160px-tall blog
@@ -53,6 +68,28 @@ marking rather than a painted vessel name.
 is the hero on `port-salerno-vs-stuart`. Deliberate: different crop, aspect, and position,
 so it does not read as the same banner twice. **Do not put the two wide crops on two
 articles as heroes.**
+
+## Screened and approved, awaiting the right article
+
+Both cleared screening but were deliberately not spent on the waterfront buyer's guide,
+which is a due-diligence piece about seawalls, permits and flood zones — neither
+illustrates any of that.
+
+- **`I1ropGCbnms`** (Torkil Torgard, piled fishing nets, buoys and warp) — free licence, no
+  people, text or branding. It is Faroese trawl gear, so it reads as generic fishing rather
+  than Florida. **Intended use: in-body in the history article at the net ban section**, where
+  stacked, out-of-the-water nets are the point rather than a mismatch.
+- **`SnG-ybMtKT0`** (Ben Wilkins, two centre consoles offshore, St. George Island FL) — free
+  licence, real Florida, anglers aboard but far too small to identify, no names or branding.
+  **Intended use: hero for the fishing article.**
+
+### Rejected
+
+- **`JFOG2KEZSMs`** — commercial trawler, Netherlands. Vessel name `MAARTEN-JACOB` and
+  registration `OD-1` painted legibly across the hull, and a North Sea beam-trawl rig that
+  does not exist on this coast.
+- **`1DO-za0h1ig`** — angler on a skiff, Tampa. Would otherwise pass, but **"GoPro" is
+  clearly readable on the outboard cowling**, plus sponsor decals along the hull.
 
 ### Rejected for the Rocky Point article
 
