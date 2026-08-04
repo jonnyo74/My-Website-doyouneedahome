@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import type { Article } from '@/lib/articles'
 
@@ -10,8 +10,30 @@ interface RegionGroup {
   cities: { name: string; posts: Article[] }[]
 }
 
+const slugifyRegion = (r: string) => r.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
 export default function BlogRegionTabs({ regions }: { regions: RegionGroup[] }) {
   const [active, setActive] = useState(0)
+
+  // Keep the selected region in the URL so a refresh, or a back-navigation from
+  // an article, returns to the tab the reader was on instead of resetting to the
+  // first region. Read on mount rather than during render to avoid a hydration
+  // mismatch; written with replaceState so tab switches don't pile up in history.
+  useEffect(() => {
+    const wanted = new URLSearchParams(window.location.search).get('region')
+    if (!wanted) return
+    const i = regions.findIndex((r) => slugifyRegion(r.region) === wanted)
+    if (i > 0) setActive(i)
+  }, [regions])
+
+  const selectRegion = (i: number) => {
+    setActive(i)
+    const url = new URL(window.location.href)
+    if (i === 0) url.searchParams.delete('region')
+    else url.searchParams.set('region', slugifyRegion(regions[i].region))
+    window.history.replaceState(null, '', url)
+  }
+
   const current = regions[active]
 
   return (
@@ -22,7 +44,7 @@ export default function BlogRegionTabs({ regions }: { regions: RegionGroup[] }) 
           {regions.map((r, i) => (
             <button
               key={r.region}
-              onClick={() => setActive(i)}
+              onClick={() => selectRegion(i)}
               className={`mb-[-1px] rounded-t-xl border border-b-0 px-5 py-2.5 text-sm font-semibold transition ${
                 i === active
                   ? 'border-slate-200 bg-white text-gold-600'
@@ -46,9 +68,20 @@ export default function BlogRegionTabs({ regions }: { regions: RegionGroup[] }) 
                     href={`/blog/${post.slug}`}
                     className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-card transition hover:shadow-card-hover"
                   >
-                    {post.heroImage && (
+                    {post.heroImage ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img src={post.heroImage} alt={post.h1} className="h-40 w-full object-cover" />
+                    ) : (
+                      // Nearly half the articles have no photography yet. Without a
+                      // placeholder the grid stretches those cards and they read as broken.
+                      <div
+                        aria-hidden
+                        className="flex h-40 w-full items-end bg-gradient-to-br from-slate-100 via-slate-50 to-gold-50 p-5"
+                      >
+                        <span className="font-serif text-lg font-semibold text-slate-400">
+                          {post.cityName}
+                        </span>
+                      </div>
                     )}
                     <div className="flex flex-1 flex-col gap-3 p-6">
                       <span className="inline-flex w-fit rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500">

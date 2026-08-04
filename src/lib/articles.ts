@@ -2699,7 +2699,7 @@ Not what Delray feels like, and not what to do on a Saturday. How to operate her
 
 ## The layout, in about a minute
 
-**Atlantic Avenue** runs east–west and is the organising line for the whole city; addresses are north or south of it. It runs from out past I-95, through the historic downtown, over the Intracoastal, and ends at the ocean.
+**Atlantic Avenue** runs east–west and is the organizing line for the whole city; addresses are north or south of it. It runs from out past I-95, through the historic downtown, over the Intracoastal, and ends at the ocean.
 
 **Swinton Avenue** runs north–south through the historic core and is the informal boundary of the oldest part of town. **Federal Highway (US-1)** carries north–south traffic a few blocks in from the water, splitting into one-way pairs through the downtown — a detail that catches newcomers out constantly. **A1A** runs along the beach.
 
@@ -3027,7 +3027,7 @@ Here are the profiles that do well, the ones that don't, and the practical reali
 
 *What to verify:* the community's governing documents, its age-restriction status, the full fee schedule, and whether club membership is mandatory and what it costs. These vary enormously between communities that look similar from the road.
 
-**The person who wants a social life without organising it.** Delray's downtown, events calendar, and markets mean you can have a full week without joining anything. For people relocating alone, or newly retired, or recently divorced, that ambient sociability is genuinely valuable and hard to manufacture elsewhere.
+**The person who wants a social life without organizing it.** Delray's downtown, events calendar, and markets mean you can have a full week without joining anything. For people relocating alone, or newly retired, or recently divorced, that ambient sociability is genuinely valuable and hard to manufacture elsewhere.
 
 **The remote worker who wants a real town around them.** If you're at a desk all day, the difference between a gated subdivision and somewhere you can walk out into is significant. Delray suits people who need the outside world within reach at six in the evening.
 
@@ -6872,7 +6872,7 @@ Before you shop, be honest about the renovation appetite and get concrete about 
 
 Several features get argued about that are really matters of temperament.
 
-**The density.** Small lots, short setbacks and neighbors close by. Some people find that neighbourly; others find it tight.
+**The density.** Small lots, short setbacks and neighbors close by. Some people find that neighborly; others find it tight.
 
 **The variety.** A city built over a century contains a century of decisions, and no two blocks match. Rich or inconsistent, depending on the viewer.
 
@@ -8908,7 +8908,7 @@ Between them these three cover most of what an outdoor household would want with
 
 **The rural western county** offers a genuinely different landscape within twenty minutes, from the [Loxahatchee area](/blog/best-things-to-do-in-loxahatchee-florida) out to the Everglades edge.
 
-## Organised sport, month by month
+## Organized sport, month by month
 
 The village leagues follow a predictable annual rhythm, and knowing it helps newcomers arrive at the right moment rather than a season late.
 
@@ -13785,7 +13785,7 @@ You cannot have attainable direct oceanfront without density, and density means 
 
 So the decision reduces to one question, honestly answered:
 
-**Is living directly on the Atlantic worth reorganising your financial and domestic life around?**
+**Is living directly on the Atlantic worth reorganizing your financial and domestic life around?**
 
 For people who've wanted it for years, the answer is usually obvious within a week of moving in, and the drawbacks become administrative background.
 
@@ -13798,7 +13798,7 @@ The good news is that this is knowable in advance. Rent for a month, read three 
       { q: "How often do Singer Island residents have to evacuate?", a: "More often than mainland residents, because barrier island property sits in the first zones called — sometimes for storms that ultimately do little. Anyone with mobility constraints, pets or complex logistics should think this through properly rather than assuming it will be manageable." },
       { q: "Do turtle nesting rules affect Singer Island property?", a: "Yes, for beachfront and near-beach property. Lighting ordinances during nesting season are enforced, and retrofitting non-compliant lighting is a genuine expense that buyers rarely price in. Ask specifically what applies to the building or address you are considering." },
       { q: "Is Singer Island quiet in the summer?", a: "Very. Buildings with heavy seasonal ownership empty out from roughly May to October. Some residents find that peaceful and others find it eerie, particularly in a tower where half the units are dark. It is one of the main reasons to visit in August before buying." },
-      { q: "Should I buy on Singer Island?", a: "It reduces to one question: is living directly on the Atlantic worth reorganising your financial and domestic life around? For people who have wanted that for years, the answer becomes obvious within a week. For people who liked the idea without examining it, the fees, bridges and board meetings gradually become the whole experience." },
+      { q: "Should I buy on Singer Island?", a: "It reduces to one question: is living directly on the Atlantic worth reorganizing your financial and domestic life around? For people who have wanted that for years, the answer becomes obvious within a week. For people who liked the idea without examining it, the fees, bridges and board meetings gradually become the whole experience." },
     ],
     internalLinks: ["who-should-move-to-singer-island-florida", "cost-of-living-in-singer-island-florida", "local-guide-to-singer-island-florida"],
     funFact: "HOA fees on direct-oceanfront towers on Singer Island can run $1,500–$3,000+ per month in some buildings — which often surprises buyers focused only on the purchase price. Always model the true monthly cost including HOA, insurance, and taxes before falling in love with an oceanfront address.",
@@ -17808,6 +17808,8 @@ Confirm all of it with Martin County and the appropriate licensed professionals.
     primaryKeyword: "Manatee Pocket",
     secondaryKeywords: ["Manatee Pocket marinas", "Manatee Pocket depth", "Port Salerno waterfront district", "Manatee Pocket restaurants", "Manatee Pocket boating"],
     h1: "The Complete Guide to the Manatee Pocket",
+    heroImage: '/images/port-salerno/stock-manatee-face.jpg',
+    heroImageCredit: 'Photo by Maegan Luckiesh / Unsplash',
     body: `Everything in Port Salerno points at one piece of water.
 
 The **Manatee Pocket** is a long, narrow arm of the St. Lucie River that runs inland from near the inlet, and it is the reason this village exists, the reason it looks the way it does, and the reason people move here. Understand the Pocket and the rest of the place explains itself.
@@ -19143,7 +19145,7 @@ It runs its own police department. It operates its own water utility. It has a v
 
 For residents this shows up as responsiveness — services feel local because they are. It also shows up in the way the village has resisted density for decades. Low-rise, low-density, heavily planted, with the tree canopy that a community makes when it has been protecting it since the 1960s.
 
-## The river is the organising fact
+## The river is the organizing fact
 
 The **Loxahatchee River** defines the village's southern and eastern edges, and it's not an ordinary Florida waterway. It carries a federal Wild and Scenic designation — a rare distinction and the reason the upper reaches still look like Florida before the twentieth century.
 
@@ -19994,7 +19996,7 @@ It requires no boat, no membership and very little equipment — a Florida saltw
 
 Constitution, Tequesta and Bert Winters parks get local traffic and essentially no visitors.
 
-They're small and unglamorous, which is exactly the appeal: somewhere to walk, sit by the water, or put a kayak in without organising an outing. In a village without a town square, they do a fair amount of the work.
+They're small and unglamorous, which is exactly the appeal: somewhere to walk, sit by the water, or put a kayak in without organizing an outing. In a village without a town square, they do a fair amount of the work.
 
 ## The early-morning river light
 
@@ -20215,7 +20217,7 @@ That arrangement works better than it sounds, provided you understand it before 
 
 The village's commercial center, and small enough to walk end to end.
 
-There are cafés, a few restaurants, and the services a residential village needs, spread along the drive and through a couple of adjacent plazas. The atmosphere is neighbourly rather than designed — these are places that survive on the same people coming back, not on passing trade.
+There are cafés, a few restaurants, and the services a residential village needs, spread along the drive and through a couple of adjacent plazas. The atmosphere is neighborly rather than designed — these are places that survive on the same people coming back, not on passing trade.
 
 **The standout** is a long-running local restaurant doing creative, fresh seafood that has a genuine following well beyond the village. It's the kind of place people drive from Jupiter for, tucked into a plaza that gives away nothing from the road, and it's a fair summary of how the village works: unglamorous frontage, serious cooking, no fuss about it.
 
@@ -22571,7 +22573,7 @@ This changes the social structure of the place. Golf, tennis, pickleball, the po
 
 That's worth knowing before you move. In a village this size, with no walkable downtown to bump into people in, the club does a lot of the work that a main street does elsewhere.
 
-## Water is the organising fact
+## Water is the organizing fact
 
 Canals run through the residential streets, a great many houses have dockage behind them, and the Intracoastal forms the eastern edge of the village.
 
