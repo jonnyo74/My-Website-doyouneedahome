@@ -32,6 +32,11 @@ const nextConfig: NextConfig = {
       { source: '/blog/who-should-move-to-port-salerno-florida', destination: '/blog/rocky-point-stuart-florida', permanent: true },
       { source: '/blog/best-places-to-eat-drink-hang-out-in-port-salerno-florida', destination: '/blog/manatee-pocket-guide', permanent: true },
       { source: '/blog/cost-of-living-in-port-salerno-florida', destination: '/blog/waterfront-homes-port-salerno-buyers-guide', permanent: true },
+      { source: '/blog/what-its-really-like-living-in-port-salerno-florida', destination: '/blog/port-salerno-vs-stuart', permanent: true },
+      { source: '/blog/local-guide-to-port-salerno-florida', destination: '/blog/manatee-pocket-guide', permanent: true },
+      { source: '/blog/best-neighborhoods-in-port-salerno-florida', destination: '/blog/rocky-point-stuart-florida', permanent: true },
+      { source: '/blog/best-things-to-do-in-port-salerno-florida', destination: '/blog/manatee-pocket-guide', permanent: true },
+      { source: '/blog/pros-and-cons-of-living-in-port-salerno-florida', destination: '/blog/port-salerno-vs-stuart', permanent: true },
 
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate
