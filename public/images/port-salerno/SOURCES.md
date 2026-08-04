@@ -20,6 +20,27 @@ portrait is the whole point of the frame. The caption says outright that the Poc
 not look like this, so the clarity of the water does not set an expectation the estuary
 cannot meet.
 
+## Our own photography
+
+| File | Source | Depicts |
+|---|---|---|
+| `local-manatees.jpg` | Ours — `Loose - Unsorted/IMG_5873.JPEG` | Two manatees just under the surface in clear water |
+
+`local-manatees.jpg` is the hero on `manatee-pocket-guide`. **No credit line** — it is our
+own photograph, same as the `local-` files in the Stuart folder.
+
+Shot at Sailfish Marina, Palm Beach Shores, not the Pocket, so it is captioned by subject
+like the rest of our out-of-area photography. The full frame carries a megayacht, docks and
+Peanut Island across the water; **John's call was to crop those out** and keep water and
+animals only, so the band is taken from `top: 420`.
+
+Two more usable frames from the same sequence sit in that folder: `IMG_5872.JPEG` (single
+animal, boats in shot) and `IMG_5875.JPEG`.
+
+**Lesson worth keeping:** the first hero here was a tight crop through a manatee's muzzle.
+It read fine at hero width and looked like a shapeless brown mass in the 160px-tall blog
+card. **Check any hero at card size as well as banner size before shipping it.**
+
 `stock-canal-docks-evening.jpg` is the hero on `rocky-point-stuart-florida`. Shot at Fort
 Myers Beach; cropped to a 3.4:1 band. Chosen because the geography actually matches — an
 enclosed residential canal with docks and lifts, no skyline or causeway on the horizon to

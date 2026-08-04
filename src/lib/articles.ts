@@ -17808,8 +17808,7 @@ Confirm all of it with Martin County and the appropriate licensed professionals.
     primaryKeyword: "Manatee Pocket",
     secondaryKeywords: ["Manatee Pocket marinas", "Manatee Pocket depth", "Port Salerno waterfront district", "Manatee Pocket restaurants", "Manatee Pocket boating"],
     h1: "The Complete Guide to the Manatee Pocket",
-    heroImage: '/images/port-salerno/stock-manatee-face.jpg',
-    heroImageCredit: 'Photo by Maegan Luckiesh / Unsplash',
+    heroImage: '/images/port-salerno/local-manatees.jpg',
     body: `Everything in Port Salerno points at one piece of water.
 
 The **Manatee Pocket** is a long, narrow arm of the St. Lucie River that runs inland from near the inlet, and it is the reason this village exists, the reason it looks the way it does, and the reason people move here. Understand the Pocket and the rest of the place explains itself.
