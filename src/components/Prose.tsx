@@ -98,7 +98,11 @@ export default function Prose({ content, className = '' }: { content: string; cl
     const image = line.match(IMAGE_LINE)
     if (image) {
       flushPara(); flushList()
-      const [, alt, src, caption] = image
+      // Caption may carry an optional photo credit after a ` || ` delimiter:
+      //   ![alt](/img.jpg "Caption text || Photo by Jane Doe / Unsplash")
+      // Captions without the delimiter are unaffected.
+      const [, alt, src, rawCaption] = image
+      const [caption, credit] = (rawCaption ?? '').split(' || ')
       blocks.push(
         <figure key={`f${key++}`} className="mt-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -108,9 +112,12 @@ export default function Prose({ content, className = '' }: { content: string; cl
             loading="lazy"
             className="w-full rounded-2xl border border-slate-200 object-cover shadow-card"
           />
-          {caption && (
+          {(caption || credit) && (
             <figcaption className="mt-3 text-center text-sm italic leading-6 text-slate-500">
               {caption}
+              {credit && (
+                <span className="mt-1 block text-xs not-italic text-slate-400">{credit}</span>
+              )}
             </figcaption>
           )}
         </figure>,

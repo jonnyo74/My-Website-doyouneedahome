@@ -1,5 +1,13 @@
 # Port St. Lucie imagery — provenance
 
+> ⚠️ **These four are the only stock images on the site still missing a photo credit.**
+> Site policy is that any image that is not our own photography carries a credit. The table
+> below records CDN URLs (`images.unsplash.com/photo-…`) rather than Unsplash photo pages,
+> and a CDN URL cannot be reverse-mapped to a photographer without the Unsplash API. To
+> fix: find each image on Unsplash by subject, confirm it is the same shot, then append
+> ` || Photo by <Name> / Unsplash` to the caption in `articles.ts`. Record the photo page
+> URL here as well as the CDN URL so this does not recur.
+
 Files prefixed `stock-` are **licensed stock, not photographs of Port St. Lucie.**
 They are used as subject-matter illustration only, and their captions in
 `src/lib/articles.ts` deliberately describe the *activity or subject* rather than

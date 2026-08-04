@@ -14304,6 +14304,7 @@ That difference is one of the more genuine distinctions between the two ways of 
     secondaryKeywords: ["moving to Palm City FL", "Palm City lifestyle", "is Palm City a good place to live", "Palm City Martin County"],
     h1: "What It's Really Like Living in Palm City, Florida",
     heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
+    heroImageCredit: 'Photo by Samantha Fortney / Unsplash',
     body: `Palm City is not a city. There's no mayor, no city hall, no municipal government and no downtown. It's an unincorporated area of Martin County with a name, a postcode and a strong sense of itself, which is a slightly odd thing to be and worth understanding before you buy here.
 
 What Palm City actually is: the land west of the St. Lucie River, across the water from Stuart, sitting between I-95 and Florida's Turnpike. That geography is the whole proposition.
@@ -14417,6 +14418,7 @@ Buy here because the daily logistics of your life work better on this side of th
     secondaryKeywords: ["Palm City insider tips", "things locals do in Palm City", "moving to Palm City guide"],
     h1: "A Local's Guide to Palm City, Florida",
     heroImage: '/images/palm-city/stock-mangrove-tunnel.jpg',
+    heroImageCredit: 'Photo by Alexander Bücker / Unsplash',
     body: `Palm City takes about twenty minutes to learn, because it's organized around three roads and a river. The subtlety is not the layout — it's that the place changes character completely depending on how far west you go.
 
 ## The east-to-west gradient
@@ -14530,6 +14532,7 @@ Then get on the South Fork in your first month, by kayak if not by boat. It's th
     secondaryKeywords: ["where to live in Palm City", "Martin Downs", "Palm City Farms", "Palm City riverfront"],
     h1: "Best Neighborhoods in Palm City, Florida",
     heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
+    heroImageCredit: 'Photo by Samantha Fortney / Unsplash',
     body: `Palm City's neighborhoods sort cleanly, which is unusual and helpful. Four distinct products, four different buyers, and very little overlap between them.
 
 Work out which one you are and the search takes a weekend rather than a season.
@@ -14644,6 +14647,7 @@ Be honest about which of the three you are, ideally before touring anything.
     secondaryKeywords: ["Palm City attractions", "what to do in Palm City", "Halpatiokee Regional Park", "St. Lucie River"],
     h1: "Best Things to Do in Palm City, Florida",
     heroImage: '/images/palm-city/stock-mangrove-tunnel.jpg',
+    heroImageCredit: 'Photo by Alexander Bücker / Unsplash',
     body: `Here's the honest opening: Palm City is a residential community, not a destination. It has no downtown, no beach and no marquee attraction, and any list that pretends otherwise is padding.
 
 What it does have is water, golf, horses and parks — plus Stuart ten minutes away. That combination is genuinely good, and it's what residents actually use.
@@ -14672,7 +14676,7 @@ Palm City has more golf than its size warrants, and the standout for visitors an
 
 Compared with Palm Beach County, a round here is generally easier to get and cheaper to play. If you've relocated from a market where tee times are a competitive sport, this is one of the quiet pleasures of moving north. Check current access and rates directly, since policies vary by course and season.
 
-![Live oaks draped with Spanish moss arching over a sand road](/images/palm-city/stock-oak-canopy-road.jpg "Oak canopy over a sand road — the landscape five minutes west of the plazas.")
+![Live oaks draped with Spanish moss arching over a sand road](/images/palm-city/stock-oak-canopy-road.jpg "Oak canopy over a sand road — the landscape five minutes west of the plazas. || Photo by Samantha Fortney / Unsplash")
 
 ## Riding country
 
@@ -14764,6 +14768,7 @@ One shows you the landscape most residents drive past without seeing; the other 
     secondaryKeywords: ["is Palm City right for me", "should I move to Palm City", "who lives in Palm City"],
     h1: "Who Should Move to Palm City, Florida (And Who Shouldn't)",
     heroImage: '/images/palm-city/stock-oaks-over-water.jpg',
+    heroImageCredit: 'Photo by Tey Lovius / Unsplash',
     body: `Palm City is the practical option in Martin County, and practical is an underrated thing to be. It suits a specific and fairly large group of people very well, and a smaller group not at all.
 
 ## The single best reason to choose Palm City
@@ -14876,6 +14881,7 @@ Our [comparison guide](/blog/palm-city-vs-nearby-cities) works through the alter
     secondaryKeywords: ["Palm City pros and cons", "living in Palm City downsides", "is Palm City worth it"],
     h1: "Pros and Cons of Living in Palm City, Florida",
     heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
+    heroImageCredit: 'Photo by Samantha Fortney / Unsplash',
     showMarketTrends: true,
     body: `Palm City's pitch is easy to summarise and easy to get wrong: it's the sensible choice in Martin County. Here's what that actually costs and buys.
 
@@ -14997,6 +15003,7 @@ For anyone whose picture of Florida involved walking somewhere, it isn't. Cross 
     secondaryKeywords: ["Palm City home prices", "is Palm City affordable", "Palm City FL cost of living"],
     h1: "Cost of Living in Palm City, Florida",
     heroImage: '/images/palm-city/stock-oaks-over-water.jpg',
+    heroImageCredit: 'Photo by Tey Lovius / Unsplash',
     showMarketTrends: true,
     body: `Palm City's cost story is different from the coastal towns nearby, because the expensive variables here aren't seawalls and flood zones. They're land, utilities that aren't municipal, and a tax structure with a couple of genuine opportunities in it.
 
@@ -15119,6 +15126,7 @@ A house in a subdivision here is a straightforward, predictable cost. Five acres
     secondaryKeywords: ["Palm City secret spots", "free things to do in Palm City", "Halpatiokee Regional Park"],
     h1: "Hidden Gems in Palm City, Florida",
     heroImage: '/images/palm-city/stock-mangrove-tunnel.jpg',
+    heroImageCredit: 'Photo by Alexander Bücker / Unsplash',
     body: `A hidden gems list for a residential community is a hard brief, and pretending otherwise is how these articles get padded with the local mall.
 
 So here's the honest version: Palm City's gems are mostly landscape, mostly free, and mostly missed by residents rather than visitors — because the people who live here drive the same three roads and never turn off them.
@@ -15133,7 +15141,7 @@ Downstream is where everyone goes. Upstream is where it gets good, and the reaso
 
 Kayak or paddleboard, early morning, no wind. It's the single best free hour in Palm City.
 
-![Oak branches reaching out over dark, still water](/images/palm-city/stock-oaks-over-water.jpg "Upstream, the banks close in and the canopy meets overhead — the quietest water in the county.")
+![Oak branches reaching out over dark, still water](/images/palm-city/stock-oaks-over-water.jpg "Upstream, the banks close in and the canopy meets overhead — the quietest water in the county. || Photo by Tey Lovius / Unsplash")
 
 ## Palm City Farms at golden hour
 
@@ -15245,6 +15253,7 @@ The genuinely under-used things here are the upstream river, the western grid an
     secondaryKeywords: ["Palm City vs Stuart", "Palm City vs Port St. Lucie", "Palm City vs Hobe Sound"],
     h1: "Palm City vs Nearby Cities: How to Choose",
     heroImage: '/images/palm-city/stock-oaks-over-water.jpg',
+    heroImageCredit: 'Photo by Tey Lovius / Unsplash',
     showMarketTrends: true,
     body: `Palm City rarely gets shopped on its own. Buyers arrive here from one of two directions: they wanted Stuart and looked at the prices, or they wanted acreage and worked outward from a map.
 
@@ -15377,6 +15386,7 @@ Our [pros and cons guide](/blog/pros-and-cons-of-living-in-palm-city-florida) go
     secondaryKeywords: ["where to eat in Palm City", "Palm City dining", "Martin Downs restaurants"],
     h1: "Best Places to Eat, Drink & Hang Out in Palm City, Florida",
     heroImage: '/images/palm-city/stock-oak-canopy-road.jpg',
+    heroImageCredit: 'Photo by Samantha Fortney / Unsplash',
     body: `Let's be straight about this one, because a dishonest dining guide helps nobody.
 
 **Palm City does not have a restaurant scene.** It has restaurants — a decent number of them, several of them good — but they sit in plazas along the main corridors, and there is no district, no street and no evening quarter. If you want to walk between two places, you're crossing the bridge.
@@ -17441,7 +17451,7 @@ It also created a permanent maintenance obligation. The inlet received federal p
 
 The earliest economy here was split between the water and the sandy ridge inland. Most people made a living either fishing commercially or working the **pineapple** farms that ran along this stretch of the Indian River in the 1890s and early 1900s.
 
-![Freshly harvested pineapples piled together, some ripe and some still green](/images/port-salerno/stock-pineapples-harvested.jpg "The Indian River pineapple crop went north on the railway that still runs through the middle of the village — the same line that carried the fish.")
+![Freshly harvested pineapples piled together, some ripe and some still green](/images/port-salerno/stock-pineapples-harvested.jpg "The Indian River pineapple crop went north on the railway that still runs through the middle of the village — the same line that carried the fish. || Photo by Rafael Peier / Unsplash")
 
 Henry Flagler's **Florida East Coast Railway** reached this part of the coast in the mid-1890s, and it changed the arithmetic completely. Fish and fruit that had been limited to local consumption could now reach northern markets. The tracks still run through the middle of the village, parallel to Dixie Highway, splitting it into an east side and a west side — a division you can still read in the street pattern and the housing.
 
@@ -17683,16 +17693,11 @@ Stuart is a water town too — it's wrapped around the St. Lucie River and has p
 
 If a boat is central to why you're moving here, that question — dock to inlet, and what's overhead on the way — should be answered before you fall in love with a kitchen.
 
-## What's changing in Stuart
+## What's changed recently
 
-Two developments belong in this decision, because they affect Stuart more than they affect Port Salerno.
+**Costco opened on Kanner Highway in April 2025** — roughly 162,000 square feet on a 49-acre site with a gas station, the first full Costco on the Treasure Coast. It sits closer to the south end of Stuart than to downtown, which means Port Salerno residents get most of the same benefit without the Stuart tax layer.
 
-**Costco opened on Kanner Highway in April 2025** — roughly 162,000 square feet on a 49-acre site with a gas station, the first full Costco on the Treasure Coast. It's a genuine convenience upgrade for the whole area, and it sits closer to the south end of Stuart than to downtown. Port Salerno residents get most of the benefit too.
-
-**A Brightline station has been planned for downtown Stuart, and it keeps slipping.** The site is 2.35 acres at 500 SE Flagler Avenue, opposite the Martin County Courthouse. Announced in 2024 for a 2026 opening, the project lost momentum when the Federal Railroad Administration declined Martin County's request for $45 million in grant funding. Cost estimates have since risen toward $87 million, and county officials have pointed to 2028 or later.
-
-Why a buyer should care: a downtown station would change downtown Stuart substantially — foot traffic, parking pressure, and likely values near the site. **It is not a certainty and the timeline has moved repeatedly.** Don't pay a premium today for a station that hasn't broken ground, and don't dismiss the possibility either. If you're buying near the site, ask specifically about it and verify the current status with the county rather than with a listing agent's optimism.
-
+That is worth naming because it is the kind of amenity people move for, and in this case it does not favour one of these two towns over the other. Both are a short drive away.
 ## Which one fits
 
 **Choose Stuart if:** you want to walk to dinner, you want a downtown, you want the broadest housing selection, you'd rather be on city utilities than think about septic, and the extra millage buys you services you'll actually use.
@@ -17728,7 +17733,6 @@ Confirm all of it with Martin County and the appropriate licensed professionals.
       { q: "Are property taxes lower in Port Salerno than Stuart?", a: "Generally yes, because Port Salerno is unincorporated. Both pay Martin County's general fund millage, but Stuart properties add the City of Stuart's own millage while unincorporated properties instead pay lighter county Municipal Service Taxing Units for fire, parks, and stormwater. The trade is a thinner bundle of services. Verify the actual line items for any specific parcel with the Martin County Property Appraiser." },
       { q: "Does Port Salerno have city water and sewer?", a: "Some of it does and some of it is on septic, and which applies varies parcel to parcel rather than by neighborhood. Extending central sewer and county water to unserved areas has been a stated county redevelopment priority for the community. Confirm the specific address before you make an offer, because a septic system is a real inspection item and a real replacement cost." },
       { q: "Who provides police in Port Salerno?", a: "The Martin County Sheriff’s Office, because Port Salerno is unincorporated and has no municipal police department. Stuart has its own city police force. Fire and rescue is Martin County in both places." },
-      { q: "Is the Brightline station in Stuart actually happening?", a: "It is planned but not certain, and the timeline has moved repeatedly. The site is 2.35 acres at 500 SE Flagler Avenue opposite the Martin County Courthouse. It was announced in 2024 for a 2026 opening, but the Federal Railroad Administration declined the county’s request for $45 million in grant funding, cost estimates have risen, and officials have pointed to 2028 or later. Verify the current status with the county rather than relying on a listing." },
       { q: "Which town is better for boating?", a: "Port Salerno, on average and for the money, because it sits on the Manatee Pocket with quick access to the St. Lucie Inlet. Stuart has plenty of waterfront too, but much of it is river water further from the inlet and some sits behind bridges. The deciding variables are running time to open ocean and bridge clearance between the dock and the inlet, and both are property-specific rather than town-specific." },
     ],
     internalLinks: ["history-of-port-salerno-florida", "best-neighborhoods-in-port-salerno-florida", "what-its-really-like-living-in-port-salerno-florida"],
