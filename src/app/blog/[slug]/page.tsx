@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import {
   getArticleBySlug,
   getArticlePaths,
+  marketTrendsCity,
   visibleArticles,
 } from '@/lib/articles'
 import { getCommunityBySlug } from '@/lib/communities'
@@ -80,6 +81,7 @@ export default async function ArticlePage({ params }: Props) {
     .map((s) => visibleArticles().find((a) => a.slug === s))
     .filter((a): a is NonNullable<typeof a> => Boolean(a))
 
+  const trends = marketTrendsCity(article.cityName)
   const url = `${SITE}/blog/${article.slug}`
   const reportSelection = selectReportForArticle(article)
   // The reports are Palm Beach County data — don't offer them on Treasure Coast pages.
@@ -203,14 +205,21 @@ export default async function ArticlePage({ params }: Props) {
           <LocalExpertNote author={article.author} funFact={article.funFact} />
         )}
 
-        {/* Market trends — every article */}
-        <div className="mt-12">
-          <h2 className="font-serif text-2xl font-semibold text-slate-900">{article.cityName} Market Trends</h2>
-          <p className="mt-2 text-sm text-slate-500">Live data from the local MLS.</p>
-          <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
-            <YlopoMarketTrendsWidget city={article.cityName} />
+        {/* Market trends — omitted where Ylopo has no single-family data for the
+            city, rather than rendering a heading over an empty box. */}
+        {trends && (
+          <div className="mt-12">
+            <h2 className="font-serif text-2xl font-semibold text-slate-900">{trends.city} Market Trends</h2>
+            <p className="mt-2 text-sm text-slate-500">
+              {trends.substituted
+                ? `Live MLS data for ${trends.city} — the closest market with full single-family coverage. ${article.cityName} is not reported separately.`
+                : 'Live data from the local MLS.'}
+            </p>
+            <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
+              <YlopoMarketTrendsWidget city={trends.city} />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Conversion block — search buttons */}
         {community?.savedSearches?.length ? (

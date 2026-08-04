@@ -9,7 +9,7 @@ import {
   communities,
 } from '@/lib/communities'
 import { getAgentQuotes } from '@/lib/agentQuotes'
-import { getArticlesByCity } from '@/lib/articles'
+import { getArticlesByCity, marketTrendsCity } from '@/lib/articles'
 import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import YlopoInit from '@/components/YlopoInit'
@@ -817,16 +817,28 @@ export default async function CommunityPage({ params }: Props) {
                 quote={christineOnTop ? quotes.johnQuote : quotes.christineQuote}
               />
 
-              {/* Market Trends */}
-              <div>
-                <h2 className="font-serif text-2xl font-semibold text-slate-900">
-                  Market Trends
-                </h2>
-                <p className="mt-2 text-sm text-slate-500">Live market data for {community.name}, FL.</p>
-                <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
-                  <YlopoMarketTrendsWidget city={isCity ? community.name : (parentCity?.name ?? community.name)} />
-                </div>
-              </div>
+              {/* Market Trends — omitted where Ylopo has no single-family data,
+                  rather than rendering a heading over an empty box. */}
+              {(() => {
+                const base = isCity ? community.name : (parentCity?.name ?? community.name)
+                const trends = marketTrendsCity(base)
+                if (!trends) return null
+                return (
+                  <div>
+                    <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                      Market Trends
+                    </h2>
+                    <p className="mt-2 text-sm text-slate-500">
+                      {trends.substituted
+                        ? `Live market data for ${trends.city}, FL — the closest market with full single-family coverage. ${base} is not reported separately.`
+                        : `Live market data for ${trends.city}, FL.`}
+                    </p>
+                    <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
+                      <YlopoMarketTrendsWidget city={trends.city} />
+                    </div>
+                  </div>
+                )
+              })()}
 
               {/* Relocation guides */}
               {shownArticles.length > 0 && articleCity && (

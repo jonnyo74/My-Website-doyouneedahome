@@ -23808,6 +23808,43 @@ export const REGION_ORDER = [
   'St. Lucie County',
 ]
 
+// ---- Ylopo market-trends coverage ----
+// The widget renders single-family trends. Where Ylopo has no single-family data
+// for a city it mounts an empty container, which showed up on the live site as a
+// heading and a bordered box around nothing.
+//
+// Audited against portal.ylopo.com/api/1.0/trends for all 20 cities: full
+// coverage returns 75 fact types, thin coverage 50. Port Salerno returns 25 and
+// every one of them ends in _MULTI_FAMILY, so the single-family view is empty.
+// Westlake, and the two cities Ylopo spells differently, returned nothing at all.
+
+/** Same place, different spelling in Ylopo's data. No disclaimer needed. */
+const YLOPO_CITY_ALIAS: Record<string, string> = {
+  'Port St. Lucie': 'Port Saint Lucie',
+  'Lake Worth Beach': 'Lake Worth',
+}
+
+/**
+ * Cities with no usable single-family data, mapped to the nearest market that
+ * has it — or null where no substitute would be honest. A substituted city is
+ * labelled as that city on the page; we never present another market's numbers
+ * under this city's name.
+ */
+const YLOPO_CITY_FALLBACK: Record<string, string | null> = {
+  'Port Salerno': 'Stuart', // multi-family only; Stuart is five miles north
+  Westlake: null, // no coverage at all — too new
+}
+
+export function marketTrendsCity(
+  cityName: string,
+): { city: string; substituted: boolean } | null {
+  if (cityName in YLOPO_CITY_FALLBACK) {
+    const fallback = YLOPO_CITY_FALLBACK[cityName]
+    return fallback ? { city: fallback, substituted: true } : null
+  }
+  return { city: YLOPO_CITY_ALIAS[cityName] ?? cityName, substituted: false }
+}
+
 export function regionForCity(citySlug: string): string {
   return CITY_REGIONS[citySlug] ?? 'Other'
 }
