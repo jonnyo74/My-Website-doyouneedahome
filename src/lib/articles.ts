@@ -15577,7 +15577,7 @@ For those who value natural surroundings, a quieter pace, and convenient access 
     citySlug: 'hobe-sound',
     cityName: 'Hobe Sound',
     type: "A Local's Guide To",
-    order: 2,
+    order: 3,
     seoTitle: "A Local's Guide to Hobe Sound, Florida",
     metaTitle: "A Local's Guide to Hobe Sound, Florida",
     metaDescription: "An insider's guide to Hobe Sound, Florida — reading the Bridge Road and Dixie Highway districts, crossing to Jupiter Island, turtle-season etiquette, and the two-season rhythm of a small Martin County town.",
@@ -15723,7 +15723,7 @@ The character of the community becomes much clearer once you see the places that
     citySlug: 'hobe-sound',
     cityName: 'Hobe Sound',
     type: "Best Neighborhoods In",
-    order: 3,
+    order: 2,
     seoTitle: "Hobe Sound Neighborhoods and Communities: A Buyer's Guide",
     metaTitle: "Hobe Sound Neighborhoods: A Buyer’s Guide",
     metaDescription: "Established neighborhoods, golf and gated communities, age-qualified and land-lease options, larger western lots, waterfront and Atlantic Fields — and what to check in each.",
@@ -15942,119 +15942,177 @@ Once the location, ownership structure, utilities, fees and lifestyle priorities
     citySlug: 'hobe-sound',
     cityName: 'Hobe Sound',
     type: "Best Things To Do In",
-    order: 4,
+    order: 1,
     seoTitle: "Best Things to Do in Hobe Sound, Florida",
     metaTitle: "Best Things to Do in Hobe Sound, Florida",
-    metaDescription: "The best things to do in Hobe Sound, Florida — 11,500 acres at Jonathan Dickinson, the highest natural point south of Lake Okeechobee, Trapper Nelson's homestead, Blowing Rocks and the refuge beach.",
+    metaDescription: "The best things to do in Hobe Sound, Florida — more than 10,000 acres at Jonathan Dickinson, the highest natural point south of Lake Okeechobee, Trapper Nelson's camp, Blowing Rocks and the refuge beach.",
     primaryKeyword: "things to do in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound attractions", "Jonathan Dickinson State Park", "Hobe Sound National Wildlife Refuge", "what to do in Hobe Sound"],
     h1: "Best Things to Do in Hobe Sound, Florida",
-    body: `Hobe Sound's attractions are almost entirely outdoors, almost entirely protected land, and considerably better than a town this size has any right to.
+    body: `Many of Hobe Sound’s most memorable attractions are found outdoors.
 
-If you moved here for shopping and nightlife you made an error. If you moved here for this, you'll never run out.
+The area is surrounded by protected beaches, preserved natural habitats, waterways and one of Southeast Florida’s largest state parks. While Hobe Sound is not known for extensive shopping or nightlife, it offers plenty to do for people who enjoy beaches, boating, hiking, wildlife and [a quieter coastal lifestyle](/blog/local-guide-to-hobe-sound-florida).
 
-## Jonathan Dickinson State Park
+Here are some of the best ways to experience Hobe Sound and the surrounding area.
 
-The centrepiece, and it's enormous: **11,500 acres**, the largest state park in Southeast Florida, containing **sixteen distinct natural communities** — coastal sand hills, sand pine scrub, pine flatwoods, upland lakes, cypress and river frontage.
+## Explore Jonathan Dickinson State Park
 
-Four things to do inside it:
+Jonathan Dickinson State Park is one of the defining features of Hobe Sound. Covering more than 10,000 acres, it is the largest state park in Southeast Florida and contains 16 distinct natural communities.
 
-**Climb Hobe Mountain.** An ancient sand dune standing **86 feet above sea level** — the **highest natural point south of Lake Okeechobee**, with an observation tower on top. It's a short walk from the car park and the view runs from the Atlantic to the interior. Everyone should do this once; most residents haven't.
+Visitors can hike, bicycle, camp, paddle, fish, watch wildlife and explore landscapes ranging from sand pine scrub and pine flatwoods to cypress wetlands and riverfront habitat.
 
-**Get on the Loxahatchee River.** Named a **National Wild and Scenic River in 1985** — Florida's first — and it runs through the park beneath a canopy of old cypress. Kayak, canoe or take the boat tour. It is the single best thing to do in this part of the county.
+Because activities, rentals, tours and river conditions can change, visitors should check the park’s current operating information before arriving.
 
-**Visit Trapper Nelson's homestead.** Ranger-guided tours run year-round to the 1930s pioneer camp of the man they called the Wild Man of the Loxahatchee. It's up the river, it's reached by water, and it's one of the more genuinely atmospheric historic sites in the state.
+## Climb Hobe Mountain
 
-**Walk or ride the trails.** Miles of hiking, off-road cycling and equestrian trails through scrub and flatwoods, plus camping if you want it.
+Hobe Mountain is an ancient sand dune that rises approximately 86 feet above sea level. It is recognized as the highest natural point in Florida south of Lake Okeechobee.
 
-Check current hours, tour schedules and river conditions before going — tours book up and river access varies.
+A short boardwalk leads through the scrub habitat to an observation tower with wide views across the park and surrounding area.
 
-## Blowing Rocks Preserve
+Eighty-six feet may not sound especially high, but in South Florida’s flat landscape, it offers a surprisingly expansive view. The walk is short enough to include even during a brief visit to the park.
 
-South on Jupiter Island, and unlike anything else on this coast.
+## Experience the Loxahatchee River
 
-A shoreline of eroded **Anastasia limestone** — fossil-shell rock — that the Atlantic has cut into ledges, pools and blowholes. At high tide with an easterly swell running, water forces up through the holes and spouts, sometimes dramatically.
+The Northwest Fork of the Loxahatchee River flows through Jonathan Dickinson State Park beneath a canopy of cypress trees.
 
-The preserve is managed by The Nature Conservancy. Parking is limited and enforced, hours are set, and there's an admission arrangement — check before driving over.
+In 1985, it became Florida’s first federally designated National Wild and Scenic River. The designation recognizes the river’s natural, scenic and recreational importance.
 
-**Timing is everything.** Go at high tide for the spouts, at low tide for the rock formations and pools. Going at the wrong tide and concluding it's overrated is the classic first-visit mistake.
+Depending on current access and operating conditions, visitors may be able to explore the river by kayak, canoe or guided excursion. Those bringing their own equipment should confirm launch access, water levels and park regulations before visiting.
 
-## Hobe Sound National Wildlife Refuge
+The river offers one of the best opportunities to see the natural landscape that has shaped this part of Martin County.
 
-Two separate pieces: a mainland tract of sand pine scrub, and a length of **beach on Jupiter Island** that ranks among the more active **loggerhead sea turtle nesting** areas on the Atlantic coast.
+## Learn About Trapper Nelson
 
-The mainland section has a nature center and short interpretive trails through scrub — a habitat most visitors drive past without recognising as rare. Florida scrub is one of the more threatened ecosystems in the country and holds species found nowhere else.
+Jonathan Dickinson State Park is also home to the former camp of Vince “Trapper” Nelson, a local figure who lived along the Loxahatchee River and became known as the “Wild Man of the Loxahatchee.”
 
-Nesting season runs roughly **March through October.** Guided turtle walks are offered in some seasons through local organizations and they book out well in advance — worth planning for rather than hoping.
+The restored site provides a glimpse into a very different period of local history. Access and tour availability can change, so visitors should confirm current options with the park before planning their trip.
 
-## The beaches
+## Hike or Bicycle the Trails
 
-**Hobe Sound Beach**, at the end of Bridge Road on the island, is the main public access — a proper beach with facilities and, in a Martin County way, no development looming over it.
+Jonathan Dickinson offers trails for hiking and off-road cycling, along with designated equestrian areas.
 
-Further south, the refuge beach is wilder and less serviced.
+Some routes are short and accessible, while others travel through sandy, exposed terrain with limited shade. Conditions can vary by season, weather and recent rainfall.
 
-What you get here that you don't get further south is **space.** These beaches are not empty, but they are not Palm Beach County busy either, and outside the winter months a long walk will pass very few people.
+Bring water, sun protection and insect repellent, and review the trail map before setting out.
 
-## Peck Lake and the Intracoastal
+## Visit Blowing Rocks Preserve
 
-For anyone with a boat, **Peck Lake** is the local institution — a stretch of the Intracoastal where boats anchor off and you can walk across the barrier island to an undeveloped ocean beach.
+Blowing Rocks Preserve is located on Jupiter Island, south of Hobe Sound Beach.
 
-It's a weekend social scene, it's excellent snorkelling by local standards, and it's the sort of thing that only exists where the land behind the beach is protected. Our [hidden gems guide](/blog/hidden-gems-in-hobe-sound-florida) covers the quieter water.
+Managed by The Nature Conservancy, the preserve protects a distinctive stretch of shoreline where Anastasia limestone has been shaped into ledges, crevices and formations along the Atlantic Ocean.
 
-## Fishing
+During certain high tides and ocean conditions, waves strike the limestone and force water upward through openings in the rocks. The display can be dramatic, but it is not guaranteed during every visit.
 
-Inshore in the Intracoastal, surf fishing from the beaches, and offshore out of the nearby inlets. The Gulf Stream runs close to this stretch of coast, which is why the offshore fishing in this region is what it is.
+At lower tides, visitors may get a better view of the limestone formations along the shoreline.
 
-A license and a rod covers the shore option. For offshore, charters run out of Jupiter and Stuart.
+Tide, wind and wave conditions all affect the experience. Visitors should check the current tide schedule, preserve hours, parking information and beach conditions before going.
 
-## The Bridge Road district
+## Discover the Hobe Sound National Wildlife Refuge
 
-Not an attraction exactly, but the thing to do on a Saturday morning: walk the small commercial district, get coffee, browse the independents.
+The Nathaniel P. Reed Hobe Sound National Wildlife Refuge protects both coastal and mainland habitats.
 
-It takes twenty minutes, which is the point. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-hobe-sound-florida) covers what's there.
+The refuge includes approximately 3.5 miles of undeveloped Atlantic beach, along with sand pine scrub, mangrove habitat and portions of the Indian River Lagoon. It is also considered one of the most productive sea turtle nesting areas in the southeastern United States.
 
-## Fifteen minutes in either direction
+The mainland portion includes the Hobe Sound Nature Center and a self-guided nature trail through scrub habitat. The center offers educational programs that may include wildlife presentations, scrub tours and seasonal sea turtle walks.
 
-Honest framing: for a wider evening, you drive. **Jupiter** south for restaurants, retail and the beaches at the inlet. **Stuart** north for the historic downtown, the theater and the market.
+Program schedules and registration requirements vary. Popular seasonal programs may fill quickly, so advance planning is recommended.
 
-Residents treat this as normal rather than as a shortfall — quiet town, two proper towns nearby.
+Visitors should also review refuge rules concerning pets, beach access, wildlife protection and operating hours.
 
-## Camping, properly
+## Spend the Day at Hobe Sound Beach
 
-Jonathan Dickinson has campgrounds and cabins, and it is one of the better places in South Florida to actually camp rather than park a caravan on a slab.
+Hobe Sound Beach is located at the eastern end of Bridge Road on Jupiter Island.
 
-For residents this is an underrated option — a night in the park twenty minutes from home, in a landscape that feels genuinely remote once the day visitors leave. Book ahead; the cooler months fill early.
+It is the primary public beach serving the Hobe Sound area and offers a more natural setting than many heavily developed South Florida beaches. The beach is guarded during designated periods, and accessibility resources may be available through Martin County.
 
-## Cycling and riding the back trails
+It is a convenient choice for swimming, walking, relaxing and watching the sunrise.
 
-Beyond the short walks, the park has a substantial network open to **off-road cycling** and **horses**.
+Parking and beach conditions can vary, particularly during weekends, holidays and the winter season. Arriving early is usually helpful during popular times.
 
-Sandy, exposed and usually empty. For anyone who rides, it is a serious amenity — and it is largely invisible to visitors who come for the river tour and the tower and leave.
+The refuge beach farther south offers a less developed experience, although facilities and access differ. Visitors should verify the applicable entrance requirements and refuge rules before going.
 
-## Doing it in summer
+## Explore Peck Lake by Boat
 
-Everything above is a morning activity from June through September. Heat and afternoon storms are reliable rather than occasional, and the scrub and flatwoods offer limited shade.
+Peck Lake is part of the Intracoastal Waterway north of Hobe Sound and is a popular destination for recreational boaters.
 
-Start at seven. The compensation is that the park, the preserve and the beaches are all at their emptiest.
+Boats commonly anchor in the lagoon, where visitors can reach [the protected barrier island and undeveloped Atlantic shoreline](/blog/hidden-gems-in-hobe-sound-florida). The natural setting is possible because much of the surrounding land is protected.
 
-## If you only do two things
+Water depth, tides, weather and boating traffic should always be considered. Boaters should follow posted rules, protect sensitive habitat and avoid disturbing wildlife or vegetated areas.
 
-Climb Hobe Mountain, and get on the Loxahatchee.
+Conditions can change quickly, so local navigation information should be checked before setting out.
 
-One takes twenty minutes and reframes the geography. The other explains why 11,500 acres of this county will never be built on.`,
+## Go Fishing
+
+Hobe Sound provides access to several types of fishing.
+
+Depending on the location and season, anglers may fish from the beach, along the Intracoastal Waterway, in the Loxahatchee River or offshore through the Jupiter or St. Lucie inlets.
+
+Charter fishing is available from nearby Jupiter, Stuart and surrounding waterfront communities.
+
+Florida fishing license requirements, seasons, size limits and permitted methods vary based on where and how a person is fishing. Residents and visitors should review current Florida Fish and Wildlife Conservation Commission requirements before participating.
+
+## Visit the Bridge Road District
+
+The commercial district near Bridge Road and Dixie Highway provides a change of pace from Hobe Sound’s beaches and natural attractions.
+
+Visitors can [stop for coffee or a meal, browse local businesses](/blog/best-places-to-eat-drink-hang-out-in-hobe-sound-florida) and explore the small historic center that many people miss when traveling through town on US-1.
+
+It is compact and easy to combine with a morning at the beach or a visit to Jonathan Dickinson State Park.
+
+The appeal is not the size of the district. It is the opportunity to experience the quieter, more local side of Hobe Sound.
+
+## Camp at Jonathan Dickinson
+
+Jonathan Dickinson State Park offers camping options for visitors who want more time to explore its trails, river and natural surroundings.
+
+Spending the night provides a different experience once daytime visitors leave and the park becomes quieter.
+
+Reservations are recommended, particularly during South Florida’s cooler winter and spring months. Campground availability, cabin access, fees and restrictions should be confirmed directly with the park.
+
+## Visit Nearby Jupiter and Stuart
+
+Hobe Sound is quiet by design, but residents and visitors have access to additional activities in both directions.
+
+Jupiter, to the south, offers restaurants, shopping, waterfront parks, beaches and activities near the Jupiter Inlet.
+
+Stuart, to the north, offers a historic downtown, restaurants, shops, cultural venues, waterfront areas and community events.
+
+Travel times depend on traffic and the starting destination, but both communities are close enough for an afternoon or evening trip.
+
+Many residents view this as one of Hobe Sound’s advantages: a peaceful home base with [larger neighboring communities nearby](/blog/hobe-sound-vs-nearby-cities).
+
+## Enjoying Hobe Sound in the Summer
+
+Outdoor activities require more planning during the summer months.
+
+From June through September, mornings are generally more comfortable for hiking, cycling, beach visits and other exposed activities. Heat, humidity and afternoon thunderstorms are common, and many scrub and flatwoods trails provide limited shade.
+
+Start early, carry plenty of water, use sun protection and watch the weather forecast.
+
+The reward is that beaches, trails and natural areas may be quieter than they are during the winter season.
+
+## If You Only Have Time for Two Things
+
+Start with Hobe Mountain and the Loxahatchee River.
+
+The short walk to the Hobe Mountain observation tower provides a broad view of the landscape surrounding Hobe Sound.
+
+Experiencing the Loxahatchee River provides a closer look at the waterways, cypress habitat and protected land that make this part of Florida distinctive.
+
+Together, they offer one of the best introductions to the natural character of Hobe Sound.`,
     faqs: [
-      { q: "What is there to do in Hobe Sound, Florida?", a: "Almost everything is outdoors: Jonathan Dickinson State Park with the Hobe Mountain observation tower, the Loxahatchee River and Trapper Nelson’s homestead; Blowing Rocks Preserve on Jupiter Island; the Hobe Sound National Wildlife Refuge and its nature center; Hobe Sound Beach; Peck Lake for boaters; and inshore, surf and offshore fishing. The small Bridge Road commercial district covers a Saturday morning." },
-      { q: "How big is Jonathan Dickinson State Park?", a: "About 11,500 acres, making it the largest state park in Southeast Florida, and it contains sixteen distinct natural communities including coastal sand hills, sand pine scrub, pine flatwoods, upland lakes and river frontage. It offers hiking, off-road cycling and equestrian trails, camping, kayaking and boat tours." },
-      { q: "What is Hobe Mountain?", a: "An ancient sand dune inside Jonathan Dickinson State Park standing 86 feet above sea level — the highest natural point south of Lake Okeechobee — with an observation tower at the top reached by a short walk from the car park. The view extends from the Atlantic across the interior." },
-      { q: "Who was Trapper Nelson?", a: "A 1930s pioneer known as the Wild Man of the Loxahatchee, whose homestead sits upriver inside Jonathan Dickinson State Park and is reached by water. Ranger-guided tours run year round. Tours book up, so check schedules and reserve ahead." },
-      { q: "When is the best time to visit Blowing Rocks Preserve?", a: "It depends what you want to see. Go at high tide, ideally with an easterly swell running, for the water spouting through the blowholes in the Anastasia limestone. Go at low tide to explore the rock ledges and pools. Visiting at the wrong tide and concluding the site is overrated is the classic first-time mistake. Parking is limited, hours are set and an admission arrangement applies — check before going." },
-      { q: "Can you see sea turtles in Hobe Sound?", a: "The Hobe Sound National Wildlife Refuge beach on Jupiter Island is among the more active loggerhead nesting areas on the Atlantic coast, with nesting season running roughly March through October. Guided turtle walks are offered in some seasons through local organizations and book out well in advance." },
+      { q: "What is there to do in Hobe Sound, Florida?", a: "Almost everything is outdoors: Jonathan Dickinson State Park with the Hobe Mountain observation tower, the Loxahatchee River and Trapper Nelson’s former camp; Blowing Rocks Preserve on Jupiter Island; the Nathaniel P. Reed Hobe Sound National Wildlife Refuge and its nature center; Hobe Sound Beach; Peck Lake for boaters; and fishing from the beach, the Intracoastal, the river or offshore. The small Bridge Road commercial district covers a Saturday morning." },
+      { q: "How big is Jonathan Dickinson State Park?", a: "More than 10,000 acres, making it the largest state park in Southeast Florida, and it contains 16 distinct natural communities ranging from sand pine scrub and pine flatwoods to cypress wetlands and riverfront habitat. It offers hiking, off-road cycling and equestrian areas, camping, paddling and wildlife viewing. Activities, rentals, tours and river conditions can change, so check the park’s current operating information before arriving." },
+      { q: "What is Hobe Mountain?", a: "An ancient sand dune inside Jonathan Dickinson State Park that rises approximately 86 feet above sea level — the highest natural point in Florida south of Lake Okeechobee. A short boardwalk leads through scrub habitat to an observation tower with wide views across the park and surrounding area. In South Florida’s flat landscape, 86 feet offers a surprisingly expansive view." },
+      { q: "Who was Trapper Nelson?", a: "Vince “Trapper” Nelson was a local figure who lived along the Loxahatchee River and became known as the “Wild Man of the Loxahatchee.” His former camp inside Jonathan Dickinson State Park has been restored and provides a glimpse into a very different period of local history. Access and tour availability can change, so confirm current options with the park before planning a trip." },
+      { q: "When is the best time to visit Blowing Rocks Preserve?", a: "It depends what you want to see. During certain high tides and ocean conditions, waves strike the Anastasia limestone and force water upward through openings in the rocks, though the display is not guaranteed on every visit. At lower tides you may get a better view of the limestone formations themselves. Check the current tide schedule, preserve hours, parking information and beach conditions before going." },
+      { q: "Can you see sea turtles in Hobe Sound?", a: "The Nathaniel P. Reed Hobe Sound National Wildlife Refuge is considered one of the most productive sea turtle nesting areas in the southeastern United States, and its beach runs about 3.5 miles. The Hobe Sound Nature Center offers educational programs that may include seasonal sea turtle walks. Program schedules and registration requirements vary, and popular seasonal programs may fill quickly, so plan ahead." },
     ],
-    internalLinks: ["hidden-gems-in-hobe-sound-florida", "local-guide-to-hobe-sound-florida", "best-places-to-eat-drink-hang-out-in-hobe-sound-florida"],
-    funFact: "The highest natural point in Florida south of Lake Okeechobee is a sand dune in Hobe Sound. Hobe Mountain, inside Jonathan Dickinson State Park, stands 86 feet above sea level with an observation tower on top and a short walk from the car park. In a landscape this flat, 86 feet is genuinely a viewpoint — and most people who live within ten minutes of it have never been up.",
+    internalLinks: ["local-guide-to-hobe-sound-florida", "hidden-gems-in-hobe-sound-florida", "best-places-to-eat-drink-hang-out-in-hobe-sound-florida", "hobe-sound-vs-nearby-cities"],
+    funFact: "Hobe Mountain, inside Jonathan Dickinson State Park, rises approximately 86 feet above sea level and is recognized as the highest natural point in Florida south of Lake Okeechobee. A short boardwalk leads to the observation tower, where the view stretches across the park and surrounding landscape. In an area as flat as South Florida, 86 feet creates a surprisingly impressive viewpoint—and many people who live nearby have never experienced it.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-08-05',
   },
   {
     slug: 'who-should-move-to-hobe-sound-florida',
