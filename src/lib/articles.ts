@@ -15730,6 +15730,8 @@ The character of the community becomes much clearer once you see the places that
     primaryKeyword: "best neighborhoods in Hobe Sound Florida",
     secondaryKeywords: ["where to live in Hobe Sound", "Jupiter Island", "Hobe Sound golf communities", "Mariner Sands"],
     h1: "Hobe Sound Neighborhoods and Communities: A Buyer's Guide",
+    heroImage: '/images/hobe-sound/stock-golf-fairway-sunset.jpg',
+    heroImageCredit: 'Photo by Derick McKinney / Unsplash',
     body: `Hobe Sound offers a surprisingly broad range of housing options for a relatively small community.
 
 Buyers can choose from established mainland neighborhoods, golf communities, condominiums, manufactured-home and age-qualified communities, larger properties west of US-1, waterfront homes and private club living. Jupiter Island properties may also appear in Hobe Sound searches because they commonly use a Hobe Sound mailing address, even though Jupiter Island is a separate incorporated town.
