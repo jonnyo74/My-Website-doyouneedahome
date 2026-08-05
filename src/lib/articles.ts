@@ -15750,7 +15750,7 @@ Buyers should confirm the property's actual municipality before comparing prices
 
 Many of Hobe Sound's established neighborhoods are located near the Bridge Road and Dixie Highway corridors.
 
-Communities such as Hobe Sound Hills, Hobe Sound Ridge and other nearby residential areas offer older single-family homes, mature landscaping and convenient access to local shops, restaurants and beach routes.
+Areas such as Zeus Park, Poinciana Gardens and Gomez Grant offer older single-family homes, mature landscaping and convenient access to local shops, restaurants and beach routes. Gomez Grant, one of the oldest parts of the community, sits toward the Intracoastal Waterway.
 
 These neighborhoods may appeal to buyers who prefer character, larger yards or a more established residential setting.
 
@@ -15787,6 +15787,14 @@ Buyers considering a planned community should review:
 Newer construction may include more recent building standards and storm-protection features, but the age of a home alone does not determine its insurance cost or availability.
 
 Each property should be evaluated individually.
+
+## Established Golf and Club Communities
+
+Hobe Sound has a long-standing private club presence that predates the newer developments.
+
+Hobe Sound Golf Club is a member-owned club on roughly 235 acres, with a course renovated by Tom Fazio II. Loblolly is also member-owned, with a Pete Dye course. Medalist Golf Club dates to 1995 and was originally designed by Pete Dye with Greg Norman. Lost Lake and The Soundings offer further options, the latter oriented toward the water.
+
+Club structures differ considerably. Some memberships are tied to property ownership, some are separate, and some have waiting lists or approval processes. Initiation costs, annual dues and any mandatory membership should be confirmed for the specific property and included in the total cost of ownership.
 
 ## Manufactured-Home and Age-Qualified Communities
 
