@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import type { Article } from '@/lib/articles'
+import ArticleCardPlaceholder from '@/components/ArticleCardPlaceholder'
 
 interface RegionGroup {
   region: string
@@ -72,16 +73,7 @@ export default function BlogRegionTabs({ regions }: { regions: RegionGroup[] }) 
                       // eslint-disable-next-line @next/next/no-img-element
                       <img src={post.heroImage} alt={post.h1} className="h-40 w-full object-cover" />
                     ) : (
-                      // Nearly half the articles have no photography yet. Without a
-                      // placeholder the grid stretches those cards and they read as broken.
-                      <div
-                        aria-hidden
-                        className="flex h-40 w-full items-end bg-gradient-to-br from-slate-100 via-slate-50 to-gold-50 p-5"
-                      >
-                        <span className="font-serif text-lg font-semibold text-slate-400">
-                          {post.cityName}
-                        </span>
-                      </div>
+                      <ArticleCardPlaceholder seed={post.slug} />
                     )}
                     <div className="flex flex-1 flex-col gap-3 p-6">
                       <span className="inline-flex w-fit rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500">

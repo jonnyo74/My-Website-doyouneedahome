@@ -15584,6 +15584,7 @@ For those who value natural surroundings, a quieter pace, and convenient access 
     primaryKeyword: "Hobe Sound local guide",
     secondaryKeywords: ["Hobe Sound insider tips", "things locals do in Hobe Sound", "moving to Hobe Sound guide"],
     h1: "A Local's Guide to Hobe Sound, Florida",
+    heroImage: '/images/hobe-sound/local-blowing-rocks-shore.jpg',
     body: `Hobe Sound is easy to drive through and surprisingly easy to miss.
 
 Most of the everyday shopping and traffic are concentrated along US-1, but the community's historic center sits just east of it, around Dixie Highway and Bridge Road. Add in Jonathan Dickinson State Park, the nearby beaches, and convenient access to both Stuart and Jupiter, and Hobe Sound begins to make much more sense as a place to live—not simply a town along the highway.
