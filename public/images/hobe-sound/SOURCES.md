@@ -6,7 +6,28 @@
 |---|---|
 | `hobe-sound-blowing-rocks-001.jpg` | Blowing Rocks limestone shoreline, surf, horizon |
 | `hobe-sound-blowing-rocks-002.jpg` | Eroded limestone overhang above the beach — the stronger frame of the two |
+| `hobe-sound-blowing-rocks-003.jpg` | Undercut limestone ledge projecting into the Atlantic, sky and horizon above |
 | `local-blowing-rocks-shore.jpg` | Banner crop of 001 from `top: 680` |
+
+**Originals located.** The shoot is `Doyouneedphotos/Jupiter/`, frames **IMG_0120–IMG_0127**,
+all 1536×2048, file dates 2026-05-30. Matched by image signature, so these are certain:
+`001 = IMG_0122`, `002 = IMG_0125`, `003 = IMG_0120`. Frames 0121, 0123, 0124, 0126 and 0127
+are still unused and are the same shoreline from slightly different angles — that folder is
+the first place to look before sourcing stock for anything Blowing Rocks.
+
+Note `Doyouneedphotos/Jupiter/` is a **different folder from `Doyouneedphotos/Ibis Photos/`**,
+which is the one with the open rights question below. Jupiter is John's own phone shoot;
+Ibis is the club marketing set. Do not conflate them.
+
+The landscape 4:3 frames nearby in that folder (IMG_5201, IMG_5202, IMG_3592, IMG_3466) are
+**plain beach and open water with no limestone** — they cannot carry a Blowing Rocks caption,
+though they would serve a generic beach slot.
+
+`hobe-sound-blowing-rocks-003.jpg` is the inline image in the Blowing Rocks section of
+`best-things-to-do-in-hobe-sound-florida`. Cut from IMG_0120 at `top: 480`, full width, then
+resized to the 1400×1050 inline spec. Chosen over 001 and 002 because both were already in
+use and this frame is a genuinely different composition — ledge against open water with sky,
+rather than the beach-side view (001) or the tight overhang (002).
 
 **No credit lines** — ours. Genuinely Martin County: John confirmed this shoot on 2026-07-31.
 Note the originals sit in the master library under **Jupiter**, not Hobe Sound; the folder

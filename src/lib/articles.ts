@@ -16003,6 +16003,8 @@ Blowing Rocks Preserve is located on Jupiter Island, south of Hobe Sound Beach.
 
 Managed by The Nature Conservancy, the preserve protects a distinctive stretch of shoreline where Anastasia limestone has been shaped into ledges, crevices and formations along the Atlantic Ocean.
 
+![Undercut Anastasia limestone ledge above the Atlantic at Blowing Rocks Preserve, Jupiter Island, Florida](/images/hobe-sound/hobe-sound-blowing-rocks-003.jpg "The undercut limestone ledge at Blowing Rocks — the crevices and overhangs the Atlantic has cut into the Anastasia formation, best seen at lower tides.")
+
 During certain high tides and ocean conditions, waves strike the limestone and force water upward through openings in the rocks. The display can be dramatic, but it is not guaranteed during every visit.
 
 At lower tides, visitors may get a better view of the limestone formations along the shoreline.
