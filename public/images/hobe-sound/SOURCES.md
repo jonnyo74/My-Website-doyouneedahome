@@ -27,7 +27,7 @@ size as well as banner width. Chosen because the ecology is right: sabal palms, 
 a water hazard and no relief on the horizon. Location not stated by the photographer, so it
 is captioned by subject.
 
-## The Bridge Road banyan canopy — worth chasing
+## The Bridge Road banyan canopy — chased, and closed out
 
 Bridge Road's banyan tunnel was planted by the Hobe Sound Company in the **1930s** to make
 the approach to Jupiter Island welcoming. An **EF-1 tornado felled 22** of the historic
@@ -42,16 +42,41 @@ Two genuine images exist in the State Archives:
 
 - `floridamemory.com/items/show/334984` — "Banyan trees along canopy road in Hobe Sound",
   **1979**, Florida Dept. of Commerce, identifier **K012315**, Martin County
-- `floridamemory.com/items/show/334986` — companion frame
+- `floridamemory.com/items/show/334986` — companion frame, identifier **K012313**
+
+Both carry the geographic term **Bridge Road (Hobe Sound, Fla.)**, so the location is
+confirmed by the archive itself rather than inferred. Both sit in Dept. of Commerce
+collection, Series 1047, Box 4, Folder 19.
 
 Florida Memory publishes under Creative Commons Public Domain Mark: free, commercial use
-fine, credit requested. **Cloudflare blocks automated download** — these have to be fetched
-from a browser by hand. Credit as:
+fine, credit requested. Credit as:
 
 > Banyan trees along canopy road in Hobe Sound, 1979. Florida Department of Commerce
 > collection, State Archives of Florida, Florida Memory (K012315).
 
-Being 1979, they suit a history article rather than a present-tense guide.
+**Checked properly on 2026-08-05 — do not re-chase.** The Cloudflare note was half right:
+it blocks automated fetch, but an ordinary browser loads the site fine. The real blocker is
+resolution. **Florida Memory serves a 600px-wide derivative and nothing larger** — the
+"Download" control returns the same 600px JPG that is on screen. Verified across three
+separate items in three folders: K012315 (600×406), K012313 (600×408), COM00490 (600×401).
+
+Our hero band is 3.4:1. Cropping a 600px frame to that gives roughly 600×176, which is far
+short of a banner and would be visibly soft. **Florida Memory is not a hero source for this
+site.** It is fine for a small inline image if a history article ever wants one.
+
+Higher resolution exists only through the site's **ORDER** tab — a paid archival
+reproduction request, handled by hand with the State Archives. Worth it only if Bridge Road
+becomes important enough to pay for.
+
+Being 1979, they suit a history article rather than a present-tense guide in any case —
+which is the second, independent reason not to put one on Christine's local guide.
+
+### What else is in Florida Memory for Hobe Sound
+
+146 items for "Hobe Sound", 86 for "Jonathan Dickinson State Park". All historic —
+the range runs **1900 to 1989**, mostly aerials (Camp Murphy 1942, park overflights 1983,
+residential aerials 1989). Nothing present-tense, and everything at the same 600px ceiling.
+Searched via `floridamemory.com/find?keywords=`.
 
 ## Rejected
 
