@@ -21,6 +21,24 @@ that people miss the town centre by one block.
 | File | Source | Licence | Depicts |
 |---|---|---|---|
 | `stock-golf-fairway-sunset.jpg` | Unsplash, Derick McKinney — `dlzCGn5LndM` | Free Unsplash License | Golf fairway at sunset, sabal palms, water hazard, open water beyond |
+| `stock-marsh-boardwalk.jpg` | Unsplash, Hannah Cole — `x15_JR1aRQo` | Free Unsplash License | Wooden boardwalk over marsh, cabbage palms and pines in the treeline, saw palmetto, flat horizon |
+
+`stock-marsh-boardwalk.jpg` is the hero on `best-things-to-do-in-hobe-sound-florida`.
+Source frame 2400×1600, band cut from `top: 300` to 2400×706 (3.40:1), 435KB. Checked at
+card size as well as banner — the boardwalk still reads as a boardwalk in the 160px strip
+rather than going to mush.
+
+Chosen because the ecology is unambiguous: **cabbage palms** in the treeline, saw palmetto
+bottom right, marsh grass, dead-flat horizon, no relief anywhere. No people, no branding, no
+signage. The subject also matches the article — boardwalks are how you reach Hobe Mountain's
+tower and the refuge nature trail. Location is not stated by the photographer, so it is
+captioned by subject and the article never claims it is Hobe Sound.
+
+Rejected during the same search: `nckyOXGBRDE` — bridge over vivid green duckweed, but
+portrait, dark, and the railing and dense straight trunks read more like an Asian park than
+Florida. `l_QRxpESJXk` — genuinely good cypress-over-water boardwalk, but portrait, so a
+3.4:1 band would have cut both the canopy and the vanishing point. Worth remembering if an
+inline 4:3 slot ever needs filling.
 
 Hero on `best-neighborhoods-in-hobe-sound-florida`, band from `top: 620`, checked at card
 size as well as banner width. Chosen because the ecology is right: sabal palms, flat ground,

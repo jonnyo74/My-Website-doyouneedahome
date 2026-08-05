@@ -15949,6 +15949,8 @@ Once the location, ownership structure, utilities, fees and lifestyle priorities
     primaryKeyword: "things to do in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound attractions", "Jonathan Dickinson State Park", "Hobe Sound National Wildlife Refuge", "what to do in Hobe Sound"],
     h1: "Best Things to Do in Hobe Sound, Florida",
+    heroImage: '/images/hobe-sound/stock-marsh-boardwalk.jpg',
+    heroImageCredit: 'Photo by Hannah Cole / Unsplash',
     body: `Many of Hobe Sound’s most memorable attractions are found outdoors.
 
 The area is surrounded by protected beaches, preserved natural habitats, waterways and one of Southeast Florida’s largest state parks. While Hobe Sound is not known for extensive shopping or nightlife, it offers plenty to do for people who enjoy beaches, boating, hiking, wildlife and [a quieter coastal lifestyle](/blog/local-guide-to-hobe-sound-florida).
