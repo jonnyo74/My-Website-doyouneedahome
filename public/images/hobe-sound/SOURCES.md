@@ -8,6 +8,7 @@
 | `hobe-sound-blowing-rocks-002.jpg` | Eroded limestone overhang above the beach — the stronger frame of the two |
 | `hobe-sound-blowing-rocks-003.jpg` | Undercut limestone ledge projecting into the Atlantic, sky and horizon above |
 | `local-blowing-rocks-shore.jpg` | Banner crop of 001 from `top: 680` |
+| `local-bridge-road-banyans.jpg` | The Bridge Road banyan tunnel looking east, canopy closed overhead, Town of Jupiter Island sign at right |
 
 **Originals located.** The shoot is `Doyouneedphotos/Jupiter/`, frames **IMG_0120–IMG_0127**,
 all 1536×2048, file dates 2026-05-30. Matched by image signature, so these are certain:
@@ -43,6 +44,24 @@ that people miss the town centre by one block.
 |---|---|---|---|
 | `stock-golf-fairway-sunset.jpg` | Unsplash, Derick McKinney — `dlzCGn5LndM` | Free Unsplash License | Golf fairway at sunset, sabal palms, water hazard, open water beyond |
 | `stock-marsh-boardwalk.jpg` | Unsplash, Hannah Cole — `x15_JR1aRQo` | Free Unsplash License | Wooden boardwalk over marsh, cabbage palms and pines in the treeline, saw palmetto, flat horizon |
+| `stock-kayak-cypress-river.jpg` | Unsplash, Chase Baker — `gTFtX-y1O14` | Free Unsplash License | Single kayaker on dark, still blackwater; buttressed bald cypress, cabbage palms, ferns and vine-covered trunks |
+
+`stock-kayak-cypress-river.jpg` is the inline image in the nature section of
+`who-should-move-to-hobe-sound-florida`, sitting above the Jonathan Dickinson paragraph.
+Source frame 2400×1600, cropped to 2133×1600 from `left: 220` and resized to the 1400×1050
+inline spec, 376KB. The offset keeps the big buttressed cypress on the left edge and puts
+the kayak just right of centre.
+
+The photographer's own location tag is **Loxahatchee, Florida** — note that is the Acreage
+community in western Palm Beach County, **not** the Loxahatchee River, so the caption claims
+subject only and never says Jonathan Dickinson. The ecology is right either way: bald
+cypress, cabbage palm, sword fern, blackwater. One person, shirtless, back to camera under
+a cap — not identifiable. No branding on the kayak or paddle.
+
+Rejected during the same search: `_qUsMvdxX3s` and `CKhfku28FbE` — both better-composed
+mangrove-tunnel frames, both **Unsplash+**, which is a paid subscription rather than the
+free licence everything else here uses. `5pdmF7PD-zI` is free but it is Levera Pond,
+Grenada, shot from the air. `6tNqzypQE78` (Silver Springs) has identifiable faces.
 
 `stock-marsh-boardwalk.jpg` is the hero on `best-things-to-do-in-hobe-sound-florida`.
 Source frame 2400×1600, band cut from `top: 300` to 2400×706 (3.40:1), 435KB. Checked at
@@ -66,7 +85,46 @@ size as well as banner width. Chosen because the ecology is right: sabal palms, 
 a water hazard and no relief on the horizon. Location not stated by the photographer, so it
 is captioned by subject.
 
-## The Bridge Road banyan canopy — chased, and closed out
+## The Bridge Road banyan canopy — SOLVED, we own one
+
+**2026-08-09: John had shot it himself in 2021 and nobody knew.** Four frames, 2048×1536,
+EXIF intact but no GPS. They are now the source of the hero on
+`who-should-move-to-hobe-sound-florida`:
+
+| Original | Depicts |
+|---|---|
+| `IMG_4522` | Town of Jupiter Island / Martin County sign, close, framed by areca and bamboo |
+| `IMG_4523` | Tunnel from the north shoulder, guardrail leading the eye — **white car parked in the bottom-left corner**, which is why it is not the hero |
+| `IMG_4524` | Dead centre on the double yellow, canopy closed overhead, sign at right. **The best frame — this is the hero.** |
+| `IMG_4525` | Near-identical to 4524, a half step back; slightly more sky top-right, canopy arch less complete |
+
+`local-bridge-road-banyans.jpg` is a 3.4:1 band cut from **IMG_4524 at `top: 300`**, full
+width, 2048×602, 307KB. No upscale — the source is only 2048 wide, so the band is narrower
+than the 2400 the other banners use, and it is sharper for staying native.
+
+`top: 300` was chosen against `379` and `460`. Both lower crops keep more road and lose the
+arch, and the arch is the entire subject — at `460` it reads as an ordinary tree-lined street.
+At `300` you get the canopy closing overhead, both rows of aerial roots, the tunnel
+vanishing point and the sign.
+
+The sign is **wanted**, not a defect. Every other stock image here is captioned by subject
+because we cannot prove where it was taken; this one proves itself in frame — Town of
+Jupiter Island, Martin County, Florida. Note that also fixes the location honestly: this is
+the **eastern end** of Bridge Road where it approaches Jupiter Island, not the Dixie Highway
+end in Hobe Sound proper.
+
+**Ours — no credit line. John confirmed on 2026-08-09**, and confirmed the method: he walked
+out into the middle of Bridge Road to take them. That is why 4524 and 4525 are centred on
+the double yellow with both tree rows symmetrical, and it is not a composition you can
+recover from the shoulder — 4523 is the shoulder attempt and it is visibly worse. Worth
+knowing if the tunnel ever needs reshooting: the frame depends on standing in a live 30mph
+lane, so go early on a Sunday.
+
+⚠️ The four originals were dropped straight into `public/images/hobe-sound/` as
+`IMG_45xx.JPEG`, 6.7MB total. They are served publicly and off naming convention. They
+should move to the master library, keeping only the derived crop here.
+
+### The chase, kept for the record
 
 Bridge Road's banyan tunnel was planted by the Hobe Sound Company in the **1930s** to make
 the approach to Jupiter Island welcoming. An **EF-1 tornado felled 22** of the historic
@@ -136,6 +194,10 @@ established before any of them goes on the site.
 
 ## Still needed
 
-Bridge Road and the Dixie Highway historic district, the banyan tunnel as it looks now,
-Jonathan Dickinson State Park, Hobe Sound Beach, and a residential street in one of the
-established neighbourhoods.
+The Dixie Highway historic district and the Bridge Road town-centre block, Jonathan
+Dickinson State Park, Hobe Sound Beach, and a residential street in one of the established
+neighbourhoods.
+
+The banyan tunnel is **no longer on this list** — see above. What is still missing is the
+*other* end of Bridge Road: the shops between Dixie and the railway, which is the hero
+Christine's local guide actually wants.

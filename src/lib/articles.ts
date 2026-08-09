@@ -16130,6 +16130,7 @@ Together, they offer one of the best introductions to the natural character of H
     primaryKeyword: "who should move to Hobe Sound Florida",
     secondaryKeywords: ["is Hobe Sound right for me", "should I move to Hobe Sound", "who lives in Hobe Sound"],
     h1: "Who Should Move to Hobe Sound, Florida—and Who Might Prefer Somewhere Else?",
+    heroImage: '/images/hobe-sound/local-bridge-road-banyans.jpg',
     body: `Hobe Sound appeals to people who value natural surroundings, a quieter pace and convenient access to both Stuart and Jupiter.
 
 It is an unincorporated community in Martin County surrounded by beaches, waterways and protected land. It offers everyday conveniences without the density, nightlife or extensive commercial development found in some larger South Florida communities.
@@ -16156,6 +16157,8 @@ Hobe Sound is served by Martin County, while Jupiter is in Palm Beach County. Ea
 The better question is not simply whether one community is preferable to the other. Buyers should consider which location, county services, housing options and lifestyle best match their needs.
 
 ## Hobe Sound May Be a Good Fit If You Value Nature
+
+![Kayaker paddling a blackwater river beneath bald cypress and cabbage palms](/images/hobe-sound/stock-kayak-cypress-river.jpg "Bald cypress, cabbage palm and dark, still water — what a morning on a Florida blackwater river actually looks like. || Photo by Chase Baker / Unsplash")
 
 Jonathan Dickinson State Park is one of the most significant features of the area. The park encompasses more than 10,000 acres and includes 16 distinct natural communities, [hiking and cycling trails, campgrounds and access to the Loxahatchee River](/blog/best-things-to-do-in-hobe-sound-florida).
 
