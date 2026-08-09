@@ -9,6 +9,8 @@
 | `hobe-sound-blowing-rocks-003.jpg` | Undercut limestone ledge projecting into the Atlantic, sky and horizon above |
 | `local-blowing-rocks-shore.jpg` | Banner crop of 001 from `top: 680` |
 | `local-bridge-road-banyans.jpg` | The Bridge Road banyan tunnel looking east, canopy closed overhead, Town of Jupiter Island sign at right |
+| `local-atlantic-surf.jpg` | Turquoise water, horizon and an incoming surf line — hero on `pros-and-cons-of-living-in-hobe-sound-florida` |
+| `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
 
 **Originals located.** The shoot is `Doyouneedphotos/Jupiter/`, frames **IMG_0120–IMG_0127**,
 all 1536×2048, file dates 2026-05-30. Matched by image signature, so these are certain:
@@ -23,6 +25,32 @@ Ibis is the club marketing set. Do not conflate them.
 The landscape 4:3 frames nearby in that folder (IMG_5201, IMG_5202, IMG_3592, IMG_3466) are
 **plain beach and open water with no limestone** — they cannot carry a Blowing Rocks caption,
 though they would serve a generic beach slot.
+
+**Two of them now do.** `local-atlantic-surf.jpg` is a 3.4:1 band from **IMG_5201 at `top: 330`**,
+1920×565, and `local-beach-empty-sand.jpg` is **IMG_5202** straight down to 1400×1050 — the
+source is natively 4:3 at 1920×1440, so that one is a pure resize with no crop at all.
+
+⚠️ **Location is not established for these two.** They are John's own frames and the ecology is
+right, but nothing in either image fixes where it was taken, and the folder name is Jupiter.
+Both are therefore captioned by subject and neither claims Hobe Sound Beach. The hero carries
+an unavoidable implicit claim by sitting at the top of a Hobe Sound article — the same
+compromise already accepted for `stock-marsh-boardwalk.jpg` and `stock-golf-fairway-sunset.jpg`,
+which are Unsplash frames of unknown location doing the same job. Worth replacing with a
+confirmed Hobe Sound Beach frame when one exists.
+
+`top: 330` beat `top: 210`. The higher band was sky and flat water with nothing to anchor it;
+330 keeps the horizon, the turquoise shelf, the breaking surf line and a strip of wet sand,
+and leaves the smooth left third clear for the title overlay.
+
+**IMG_3466 is rejected for this article specifically.** It is a good shell-strewn beach frame,
+but there is a **high-rise condo tower on the right horizon**, and one of this article's pros
+is beach access without a resort strip. The image would contradict the copy underneath it.
+
+Blowing Rocks limestone was considered for the hero and passed over — `local-blowing-rocks-shore.jpg`
+already opens the local guide, and two Hobe Sound articles should not lead on the same rocks.
+IMG_0121 is the frame to use if that changes: horizon, open water and the ledge, and it is
+confirmed Martin County. IMG_0124 is dramatic but composed looking down, so a wide band from it
+is all rock and no horizon.
 
 `hobe-sound-blowing-rocks-003.jpg` is the inline image in the Blowing Rocks section of
 `best-things-to-do-in-hobe-sound-florida`. Cut from IMG_0120 at `top: 480`, full width, then
