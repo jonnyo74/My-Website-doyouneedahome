@@ -9,6 +9,7 @@
 | `hobe-sound-blowing-rocks-003.jpg` | Undercut limestone ledge projecting into the Atlantic, sky and horizon above |
 | `local-blowing-rocks-shore.jpg` | Banner crop of 001 from `top: 680` |
 | `local-bridge-road-banyans.jpg` | The Bridge Road banyan tunnel looking east, canopy closed overhead, Town of Jupiter Island sign at right |
+| `local-bridge-road-curve.jpg` | Bridge Road from the north shoulder, guardrail curving away under the banyans — hero on `local-guide-to-hobe-sound-florida` |
 | `local-atlantic-surf.jpg` | Turquoise water, horizon and an incoming surf line — hero on `pros-and-cons-of-living-in-hobe-sound-florida` |
 | `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
 
@@ -62,9 +63,20 @@ rather than the beach-side view (001) or the tight overhang (002).
 Note the originals sit in the master library under **Jupiter**, not Hobe Sound; the folder
 name is wrong, the photographs are not.
 
-`local-blowing-rocks-shore.jpg` is the hero on `local-guide-to-hobe-sound-florida`. It is a
-stand-in. The right hero for that article is **Bridge Road**, because Christine's hook is
-that people miss the town centre by one block.
+`local-blowing-rocks-shore.jpg` **was** the stand-in hero on `local-guide-to-hobe-sound-florida`
+and is now unused, though still in the repo. Replaced 2026-08-09 by `local-bridge-road-curve.jpg`,
+because the article's hook is that people miss the town by one block and a limestone shoreline
+three miles away said nothing about that.
+
+**Partly solved, not fully.** The new hero is genuinely Bridge Road, which the article names in
+its second paragraph — but it is the banyan tunnel at the Jupiter Island end, not the Dixie
+Highway commercial block Christine is actually describing. Right street, wrong thousand feet.
+A storefront frame looking down the block between Dixie and the railway would still be better.
+
+IMG_4523 was chosen over the other Bridge Road frames specifically to avoid a second article
+opening on the same picture. `local-bridge-road-banyans.jpg` (#5) is the symmetrical dead-centre
+shot; this one is from the north shoulder with the guardrail curving away and the road bending
+right, so the two read as different places even though they are metres apart.
 
 ## Licensed stock
 
@@ -122,7 +134,7 @@ EXIF intact but no GPS. They are now the source of the hero on
 | Original | Depicts |
 |---|---|
 | `IMG_4522` | Town of Jupiter Island / Martin County sign, close, framed by areca and bamboo |
-| `IMG_4523` | Tunnel from the north shoulder, guardrail leading the eye — **white car parked in the bottom-left corner**, which is why it is not the hero |
+| `IMG_4523` | Tunnel from the north shoulder, guardrail leading the eye — white car parked in the bottom-left corner. **Now the local-guide hero**: the car sits at roughly `y: 1034` and a band cut at `top: 300` ends at `y: 902`, so it is cropped out of frame rather than retouched. `top: 400` is too low and catches the roof. |
 | `IMG_4524` | Dead centre on the double yellow, canopy closed overhead, sign at right. **The best frame — this is the hero.** |
 | `IMG_4525` | Near-identical to 4524, a half step back; slightly more sky top-right, canopy arch less complete |
 
