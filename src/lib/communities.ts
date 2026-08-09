@@ -2753,7 +2753,8 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Manatee Pocket Waterfront', 'Canal Homes', 'Salerno Road Corridor'],
     photos: [
-      '/images/port-salerno/local-manatee-pocket-marina.jpg',
+      '/images/port-salerno/local-manatee-pocket-hero.jpg',
+      '/images/port-salerno/local-pocket-river-view.jpg',
       '/images/port-salerno/local-manatees-inline.jpg',
     ],
     savedSearches: [
