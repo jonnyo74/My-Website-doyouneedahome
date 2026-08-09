@@ -1,8 +1,9 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 import { cities } from '@/lib/communities'
 
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
@@ -31,15 +32,75 @@ const communityGroups = [
   },
 ]
 
+// The mobile menu collapses everything, so Treasure Coast is just another group
+// rather than the nested flyout the desktop dropdown needs.
+const mobileCommunityGroups = [
+  ...communityGroups,
+  { label: 'Treasure Coast', cities: treasureCoastCities },
+]
+
+const sellLinks = [
+  { href: '/sell', label: 'Sell Your Home' },
+  { href: '/sell#valuation', label: 'Get a Valuation' },
+  { href: '/canadahomeseller', label: 'Canadian Sellers' },
+]
+
+// Mirrors REGION_ORDER in src/lib/articles.ts. Held locally on purpose: importing
+// from that module would pull the whole 204-article dataset into the client
+// bundle just to read six labels. If a region is added there, add it here too.
+const blogRegions = [
+  'North County',
+  'Central County',
+  'West County',
+  'South County',
+  'Martin County',
+  'St. Lucie County',
+]
+
+// Must match slugifyRegion in BlogRegionTabs — these become ?region= values that
+// deep-link straight to the right tab on /blog.
+const slugifyRegion = (r: string) => r.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [commOpen, setCommOpen] = useState(false)
   const [sellOpen, setSellOpen] = useState(false)
   const [tcOpen, setTcOpen] = useState(false)
-  const [mobileTcOpen, setMobileTcOpen] = useState(false)
+  // One open accordion at a time, so the menu always fits a phone screen.
+  const [openSection, setOpenSection] = useState<string | null>(null)
   const commTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const sellTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const tcTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const pathname = usePathname()
+
+  const closeMobile = () => {
+    setMobileOpen(false)
+    setOpenSection(null)
+  }
+
+  // Close on navigation. Links inside the panel call closeMobile directly, but
+  // hash links to the page you're already on don't change pathname, and the
+  // browser back button doesn't either — this covers the rest.
+  useEffect(() => {
+    setMobileOpen(false)
+    setOpenSection(null)
+  }, [pathname])
+
+  // Lock the page behind the panel so scrolling the menu doesn't scroll the
+  // article underneath it.
+  useEffect(() => {
+    if (!mobileOpen) return
+    const previous = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') closeMobile()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => {
+      document.body.style.overflow = previous
+      window.removeEventListener('keydown', onKey)
+    }
+  }, [mobileOpen])
 
   const openComm = () => { if (commTimer.current) clearTimeout(commTimer.current); setCommOpen(true) }
   const closeComm = () => { commTimer.current = setTimeout(() => setCommOpen(false), 200) }
@@ -174,65 +235,146 @@ export default function Header() {
         </div>
 
         <button
-          className="p-1 text-slate-700 lg:hidden"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          className="-mr-1 p-2 text-slate-700 lg:hidden"
+          onClick={() => (mobileOpen ? closeMobile() : setMobileOpen(true))}
+          aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-menu"
         >
           {mobileOpen ? <CloseIcon /> : <MenuIcon />}
         </button>
       </div>
 
       {mobileOpen && (
-        <div className="border-t border-slate-200 bg-white px-6 pb-6 pt-2 lg:hidden">
-          <div className="flex flex-col gap-0.5">
-            <MobileLink href="/buy" close={() => setMobileOpen(false)}>Buy</MobileLink>
-            <MobileLink href="/sell" close={() => setMobileOpen(false)}>Sell Your Home</MobileLink>
-            <MobileLink href="/sell#valuation" close={() => setMobileOpen(false)}>Get a Valuation</MobileLink>
-            <MobileLink href="/canadahomeseller" close={() => setMobileOpen(false)}>Canadian Sellers</MobileLink>
-            <MobileLink href="/communities" close={() => setMobileOpen(false)}>Communities</MobileLink>
-            {communityGroups.map((group) => (
-              <div key={group.label}>
-                <p className="px-4 pb-0.5 pt-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-                  {group.label}
-                </p>
-                {group.cities.map((c) => (
-                  <MobileLink key={c.slug} href={`/communities/${c.slug}`} close={() => setMobileOpen(false)} indent>
-                    {c.name}
-                  </MobileLink>
-                ))}
-              </div>
-            ))}
-            <button
-              onClick={() => setMobileTcOpen(!mobileTcOpen)}
-              className="flex items-center justify-between rounded-xl px-4 py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
-            >
-              <span>Treasure Coast</span>
-              <span className={`transition-transform ${mobileTcOpen ? 'rotate-90' : ''}`}>
-                <ChevronRightIcon />
-              </span>
-            </button>
-            {mobileTcOpen && treasureCoastCities.map((c) => (
-              <MobileLink key={c.slug} href={`/communities/${c.slug}`} close={() => setMobileOpen(false)} indent>
-                {c.name}
-              </MobileLink>
-            ))}
-            <MobileLink href="/team" close={() => setMobileOpen(false)}>Team</MobileLink>
-            <MobileLink href="/testimonials" close={() => setMobileOpen(false)}>Testimonials</MobileLink>
-            <MobileLink href="/blog" close={() => setMobileOpen(false)}>Blog</MobileLink>
-            <MobileLink href="/contact" close={() => setMobileOpen(false)}>Contact Us</MobileLink>
+        <div
+          id="mobile-menu"
+          className="max-h-[calc(100dvh-4.5rem)] overflow-y-auto overscroll-contain border-t border-slate-200 bg-white pb-8 lg:hidden"
+        >
+          {/* Primary action first — most people opening this on a phone want listings. */}
+          <div className="px-4 pb-2 pt-4">
             <a
               href={SEARCH_URL}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => setMobileOpen(false)}
-              className="mt-3 flex items-center justify-center rounded-full bg-gold-500 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
+              onClick={closeMobile}
+              className="flex items-center justify-center rounded-full bg-gold-500 px-4 py-3.5 text-base font-semibold text-white shadow-sm transition hover:bg-gold-600"
             >
               Search Homes
             </a>
           </div>
+
+          <nav className="px-2">
+            <MobileRow href="/buy" close={closeMobile}>Buy</MobileRow>
+
+            <MobileSection id="sell" label="Sell" openSection={openSection} setOpenSection={setOpenSection}>
+              {sellLinks.map((l) => (
+                <MobileRow key={l.href} href={l.href} close={closeMobile} indent>
+                  {l.label}
+                </MobileRow>
+              ))}
+            </MobileSection>
+
+            <MobileSection
+              id="communities"
+              label="Communities"
+              openSection={openSection}
+              setOpenSection={setOpenSection}
+            >
+              {mobileCommunityGroups.map((group) => (
+                <div key={group.label} className="pb-1">
+                  <p className="px-4 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-widest text-slate-400">
+                    {group.label}
+                  </p>
+                  {group.cities.map((c) => (
+                    <MobileRow key={c.slug} href={`/communities/${c.slug}`} close={closeMobile} indent>
+                      {c.name}
+                    </MobileRow>
+                  ))}
+                </div>
+              ))}
+              <MobileRow href="/communities" close={closeMobile} accent>
+                All Communities →
+              </MobileRow>
+            </MobileSection>
+
+            {/* The reason for this rework: the blog was a single link at the bottom
+                of a wall of city names, so nothing below the fold got reached. */}
+            <MobileSection
+              id="blog"
+              label="Blog & Area Guides"
+              openSection={openSection}
+              setOpenSection={setOpenSection}
+            >
+              {blogRegions.map((region) => (
+                <MobileRow
+                  key={region}
+                  href={`/blog?region=${slugifyRegion(region)}`}
+                  close={closeMobile}
+                  indent
+                >
+                  {region}
+                </MobileRow>
+              ))}
+              <MobileRow href="/blog" close={closeMobile} accent>
+                All Articles →
+              </MobileRow>
+            </MobileSection>
+
+            <MobileRow href="/team" close={closeMobile}>Team</MobileRow>
+            <MobileRow href="/testimonials" close={closeMobile}>Testimonials</MobileRow>
+          </nav>
+
+          <div className="px-4 pt-4">
+            <Link
+              href="/contact"
+              onClick={closeMobile}
+              className="flex items-center justify-center rounded-full border border-slate-300 px-4 py-3.5 text-base font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
+            >
+              Contact Us
+            </Link>
+          </div>
         </div>
       )}
     </header>
+  )
+}
+
+function MobileSection({
+  id,
+  label,
+  openSection,
+  setOpenSection,
+  children,
+}: {
+  id: string
+  label: string
+  openSection: string | null
+  setOpenSection: (v: string | null) => void
+  children: React.ReactNode
+}) {
+  const open = openSection === id
+  return (
+    <div className="border-b border-slate-100 last:border-b-0">
+      <button
+        onClick={() => setOpenSection(open ? null : id)}
+        aria-expanded={open}
+        aria-controls={`mobile-section-${id}`}
+        className="flex w-full items-center justify-between rounded-xl px-4 py-3.5 text-left text-base font-medium text-slate-800 transition hover:bg-slate-50"
+      >
+        <span>{label}</span>
+        <span
+          aria-hidden="true"
+          className={`text-slate-400 transition-transform duration-200 ${open ? 'rotate-90' : ''}`}
+        >
+          <ChevronRightIcon />
+        </span>
+      </button>
+      {open && (
+        <div id={`mobile-section-${id}`} className="pb-2">
+          {children}
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -247,25 +389,29 @@ function DropLink({ href, children }: { href: string; children: React.ReactNode 
   )
 }
 
-function MobileLink({
+function MobileRow({
   href,
   children,
   close,
   indent,
+  accent,
 }: {
   href: string
   children: React.ReactNode
   close: () => void
   indent?: boolean
+  accent?: boolean
 }) {
+  // py-3 keeps every row at a ~44px tap target; the old menu sat under 40px.
+  const base = 'block rounded-xl py-3 transition hover:bg-slate-50 hover:text-gold-600'
+  const tone = accent
+    ? 'px-4 text-sm font-semibold text-gold-600'
+    : indent
+      ? 'pl-8 pr-4 text-[15px] text-slate-600'
+      : 'px-4 text-base font-medium text-slate-800 border-b border-slate-100'
+
   return (
-    <Link
-      href={href}
-      onClick={close}
-      className={`rounded-xl py-2.5 text-sm font-medium transition hover:bg-slate-50 hover:text-gold-600 ${
-        indent ? 'pl-8 pr-4 text-slate-500' : 'px-4 text-slate-700'
-      }`}
-    >
+    <Link href={href} onClick={close} className={`${base} ${tone}`}>
       {children}
     </Link>
   )
