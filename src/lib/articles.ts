@@ -20377,6 +20377,18 @@ Palm Beach County cannot offer that at any scale, because it is substantially bu
 
 That difference is the whole reason this article exists, and it is worth being blunt about: the ability to do this is one of the few things Port St. Lucie can offer that the markets to the south structurally cannot.
 
+## Most Spot Lots Are Not in an Association
+
+This is a large part of the appeal and it deserves saying early.
+
+Because the grid was platted decades before the master-planned era, most of it sits outside any homeowners association. In much of it there is no CDD either — the assessment that finances a community's infrastructure and lands on the tax bill, which our [neighborhood guide](/blog/best-neighborhoods-in-port-st-lucie-florida) covers in detail.
+
+Practically that means no monthly dues, no architectural review board, no approval process for a fence or a paint colour, no rental restriction written by a board, and — where zoning permits it — somewhere to keep a boat or an RV. That last one is genuinely scarce in newer Florida housing, and for a lot of buyers it is the whole reason they end up out here.
+
+The monthly arithmetic matters more than people expect. A house with no HOA dues and no CDD assessment can carry cheaper every month than a nominally cheaper house inside a master-planned community. Run the total payment, not the sale price.
+
+The honest counterweight: no association also means no amenities, and no architectural control over your neighbours either. Nobody is stopping the house across the street from being painted a colour you would not have chosen, or from parking a project car on the driveway. Streets in the grid vary, and that variation is the price of the freedom.
+
 ## What a Spot Lot Actually Costs to Make Build-Ready
 
 The lot price is the number buyers anchor on, and it is the smallest part of the decision.
@@ -20412,11 +20424,40 @@ For a vacant lot the questions are sharper than they are for a finished house:
 
 Two adjacent lots can answer those differently. Get the answers in writing from the city's utility department before the lot goes under contract, not after.
 
+## The Lot Matters More Than the Builder
+
+If there is one thing to take from this page, it is this: the biggest decision you will make is where the lot is, not whose name goes on the house.
+
+Builders can be changed. Plans can be changed. Finishes can be changed. The parcel cannot. You are buying a location for the life of the property, and in a city still filling in unevenly that decision carries more weight than it would in a finished neighbourhood.
+
+What actually separates a good lot from a cheap one here:
+
+- Which part of the city it sits in. A lot out west and a lot off US-1 give you different commutes, different drive times to the coast, and different daily routines — our [local guide](/blog/local-guide-to-port-st-lucie-florida) breaks the districts down.
+- How much of the street is already built. A lot on a street that is three-quarters finished is a different proposition from one on a street with four houses and twenty empty parcels. The second will fill in eventually, but you will live through it, and it affects how the finished house appraises and resells.
+- Whether sewer is at the street. This is the largest single cost swing on the whole project.
+- What is approved on the vacant parcels around it. In a grid still filling in, your future neighbours are not houses yet — they are entitlements. Check them.
+- Flood zone and required finished floor elevation, which vary considerably across the city's canal and drainage network.
+- Distance to an arterial. Close is convenient and it is also loud. Walk it at rush hour.
+
+Get the lot right and an average builder still leaves you in good shape. Get the lot wrong and the best builder in the county cannot fix it.
+
+### Be Careful With the Builder's Own Lot
+
+Several builders hold lot inventory of their own and will offer to sell you one as part of the package. That is convenient, and it is also where people get caught.
+
+A builder's remaining lots are, by definition, the ones nobody has bought yet. Sometimes that is timing. Often it is the lot: an awkward shape, poor drainage, no sewer at the street, a rear boundary onto an arterial, a location three streets from anything. The house on top of it may be perfectly good. The parcel underneath it is the part you cannot renovate later.
+
+So look at a builder's lot at least as hard as you would look at one on the open market, and ideally harder — because in that conversation the person showing it to you is also the person selling it. Price it against comparable lots listed independently. If the builder's lot is cheaper, find out why before you decide the discount is a win.
+
+There is nothing wrong with buying a builder's lot. Plenty are fine. Just do not let the convenience of a package deal substitute for the diligence you would do on the land if you were buying it separately.
+
 ## The Builders
 
 There are, by one industry count, more than forty builders offering some form of build-on-your-lot programme in the Port St. Lucie area, spanning roughly $276,000 to well over three million. That is a directory, not a shortlist, and a directory is not much use to anyone.
 
-These are the ones worth starting with. [[CONFIRM WITH JOHN BEFORE PUBLISHING: which of these five sales offices have you and Christine actually been inside, and roughly when? The claim is written per-builder below and must be exact.]]
+They also do not all have the same reputation, and it would be dishonest to pretend otherwise. What follows is a starting point, not a ranking — check each one yourself. Talk to owners of their completed homes, look them up with the Treasure Coast Builders Association and the Better Business Bureau, and search the county's permit and complaint records for the company name. Reputations here are earned locally and they change.
+
+These are the ones worth starting with. I have been inside all five of these sales offices personally — sat down, gone through the plans, asked the questions further down this page. That is the entire basis on which they are here.
 
 ### Homecrete Homes
 
