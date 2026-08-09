@@ -19,6 +19,27 @@ asserting a location. Replace them with local photography when we have it.
 | `stock-baseball-diamond.jpg` | Unsplash — `images.unsplash.com/photo-1434854775064-aa2c72a4aa32` | Unsplash License | Overhead of a baseball diamond mid-pitch; no readable team branding, no identifiable faces |
 | `stock-new-construction-framing.jpg` | Unsplash — `images.unsplash.com/photo-1504149269576-9900c81eb84d` | Unsplash License | Floor-joist framing on a house under construction; no people, no branding |
 | `stock-farmers-market.jpg` | Unsplash — `images.unsplash.com/photo-1552825896-8059df63a1fb` | Unsplash License | Produce stall at an outdoor market; no identifiable faces |
+| `stock-suburban-streetscape.jpg` | Unsplash — **FilterGrade**, [photo page](https://unsplash.com/photos/white-and-brown-painted-house-4T4AcGJvARQ), CDN `photo-1555636222-cae831e670b3` | Unsplash License | Florida master-planned streetscape: barrel-tile roofs, palms, paver drives, empty street. No people, no branding |
+| `stock-aerial-rooftops.jpg` | Unsplash — **Ameer Basheer**, [photo page](https://unsplash.com/photos/aerial-photography-of-brown-houses-euyV2Ae_KX0), CDN `photo-1549861833-372c82ca6c92` | Unsplash License | Straight-down aerial of tile-roofed houses either side of a residential street |
+
+### The two added 2026-08-09 — chosen by John, and credited properly
+
+John picked both from Unsplash directly. **These two carry full credit lines**, unlike the
+original four flagged above: `heroImageCredit` on the hero, and a `|| Photo by …` suffix on
+the inline caption. Both photo pages are recorded here so the credit can never be lost again.
+
+- `stock-suburban-streetscape.jpg` — **hero on `what-its-really-like-living-in-port-st-lucie-florida`.**
+  3.4:1 band from the 3000×1986 original at `top: 800`, resized to 2400×706, q82 mozjpeg.
+  Cut to keep sky, roofline and street, so the title overlay lands on road rather than roof.
+- `stock-aerial-rooftops.jpg` — inline in that article's *The City Is Large and Spread Out*
+  section. `extract({left:508, top:200, width:1984, height:1488})` then 1400×1050.
+  **The top strip is cropped deliberately**: the full frame has a lone figure beside a
+  screened pool along the top edge, and the screening rule here is no identifiable people.
+
+The two were given different jobs on purpose. The streetscape reads aspirational and works as
+the establishing image; the aerial reads uniform and slightly relentless, which is only
+editorially honest where the article is making exactly that point — the grid, the absence of
+a centre, and "newer areas can feel repetitive." It would be the wrong lead image.
 
 ## Why there are only four
 

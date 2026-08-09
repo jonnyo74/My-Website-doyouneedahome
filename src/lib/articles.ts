@@ -19040,6 +19040,8 @@ Evaluate the actual address and the actual boating route — not the words "Mana
     primaryKeyword: "living in Port St. Lucie Florida",
     secondaryKeywords: ["moving to Port St. Lucie FL", "Port St. Lucie lifestyle", "is Port St. Lucie a good place to live", "PSL Florida"],
     h1: "What It's Really Like Living in Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/stock-suburban-streetscape.jpg',
+    heroImageCredit: 'Photo by FilterGrade / Unsplash',
     body: `Port St. Lucie is changing quickly, and that is the most important thing to understand before you buy here.
 
 The city has grown from a few hundred residents at incorporation in 1961 to more than 260,000 today. It covers roughly 120 square miles and is now the sixth-largest city in Florida by population.
@@ -19147,6 +19149,8 @@ This is the adjustment nobody warns transplants about, and it changes ordinary l
 Two people can both live in Port St. Lucie and still be twenty or thirty minutes apart. Residents organize around individual districts — Tradition, St. Lucie West, Torino, Becker Road, Gatlin Boulevard, the eastern side — and there is no single traditional downtown serving as the center of daily life. Social life organizes around districts, schools and clubs rather than a center, because there isn't one.
 
 That shapes how residents choose schools, medical providers, grocery stores, restaurants, recreation, social activities, highway access and commute routes. Evaluate a property by its relationship to the places you will actually use, not simply because it carries a Port St. Lucie address.
+
+![Aerial view looking straight down on rows of tile-roofed houses either side of a residential street](/images/port-st-lucie/stock-aerial-rooftops.jpg "Newer sections are built block by block on a grid — efficient to develop, and the reason the city has no single centre. || Photo by Ameer Basheer / Unsplash")
 
 ### Most Residents Depend on a Car
 
