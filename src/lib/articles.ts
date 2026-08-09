@@ -16694,103 +16694,120 @@ Whichever you're shopping, build the monthly number from a **reset tax estimate,
     primaryKeyword: "hidden gems in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound secret spots", "Hobe Mountain", "Trapper Nelson", "Peck Lake"],
     h1: "Hidden Gems in Hobe Sound, Florida",
-    body: `In a town where the main attractions are already 11,500 acres of state park and a preserve on a limestone shore, "hidden gems" needs to mean something more specific than *the famous things, again.*
+    heroImage: '/images/hobe-sound/local-blowing-rocks-ledge.jpg',
+    body: `Hobe Sound's best-known attractions are hard to miss.
 
-So this is the layer below that: the places locals use, the ones that take a bit of knowledge to find, and the versions of the famous places that almost nobody experiences.
+Jonathan Dickinson State Park, Blowing Rocks Preserve and the protected beaches get most of the attention, and they deserve it. But some of the most memorable experiences here are quieter places, less-travelled trails and familiar attractions caught at the right hour.
 
-## Peck Lake, and the walk across
+Here are a few worth finding.
 
-The best-kept local secret that requires a boat.
+## Peck Lake Park
 
-**Peck Lake** is a stretch of the Intracoastal where boats anchor off the spoil islands. The trick is that you can go ashore and **walk directly across the barrier island to the ocean** — emerging onto an undeveloped beach with nothing behind it, because the land is protected.
+A quiet preserve tucked away near the Intracoastal Waterway, where a boardwalk and nature trail run through native habitat to the lagoon — water views, wildlife watching and none of the crowd you get at the beach.
 
-It is a genuine social scene on a good weekend, and on a weekday it can be close to empty. There's decent snorkelling by local standards on the nearshore reef.
+The walk is short, which makes it an easy outing for anyone who wants the natural side of Hobe Sound without committing to a hike. There are picnic areas, and it opens onto a version of the community most people never see while driving US-1.
 
-Anchor with room, watch the seagrass, and take everything out with you.
+The park borders environmentally sensitive land, so stay on the designated paths, leave plants and wildlife undisturbed, and carry out everything you bring in.
 
-## The scrub trails hardly anyone walks
+## Peck Lake by Boat
 
-Everyone goes to the river and the tower at Jonathan Dickinson. Far fewer people walk the **sand pine scrub** on the drier side of the park, or the mainland tract at the **wildlife refuge**.
+Peck Lake is also a popular stop for boaters working along the Intracoastal. They anchor near the protected barrier island and go ashore, and a walk across the island reaches an undeveloped Atlantic beach.
 
-Florida scrub is one of the more threatened habitats in the country and holds species found nowhere else — it looks, to an untrained eye, like a scrubby bit of nothing. That's precisely why it's empty.
+That sequence — anchor, cross a narrow strip of protected land, arrive at an ocean shoreline with nothing built behind it — is genuinely unusual in South Florida.
 
-Go early, take water, and take the trail guide seriously. There's very little shade and the sand is heavy going.
+Conditions shift with weather, tides, boat traffic and depth. Use current navigation information, anchor responsibly, keep clear of seagrass and sensitive shoreline, and confirm refuge rules and permitted access areas before you land.
 
-The reward is a landscape genuinely unlike anywhere else you'll walk on this coast, usually with nobody else on it.
+## Explore the Scrub Trails
 
-## The Loxahatchee before the day starts
+Most visitors to Jonathan Dickinson head straight for the river, the campground or Hobe Mountain. Far fewer walk the sand pine scrub and backcountry trails.
 
-The river tours are excellent and our [things-to-do guide](/blog/best-things-to-do-in-hobe-sound-florida) covers them properly.
+Florida scrub looks sparse at first glance and is in fact one of the rarer and more important habitats in the state. Jonathan Dickinson holds extensive scrub and flatwoods supporting plants and wildlife adapted to dry, sandy ground.
 
-The version worth chasing is the early one — first light, in a kayak, before the wind or any other boat. The cypress canopy, the mist coming off the water and the birds working the shallows make it one of the more atmospheric hours available anywhere in Florida.
+The Nathaniel P. Reed Hobe Sound National Wildlife Refuge adds a half-mile self-guided trail through sand pine scrub and hardwood hammock, open sunrise to sunset.
 
-Check park hours and launch access before planning it, and be honest about your paddling ability. The river has current and it is not the place to discover you're out of practice.
+These trails are sandy, exposed and hot. Wear proper shoes, carry water and sun protection, and stay on the marked route.
 
-## The beaches nobody stops at
+## Experience the Loxahatchee River Early
 
-**Hobe Sound Beach** at the end of Bridge Road is the main public access and gets the visitors.
+The Loxahatchee is the most distinctive natural feature in the area, running through Jonathan Dickinson beneath cypress and offering paddling, boating and wildlife watching.
 
-The refuge shoreline is wilder, less serviced and considerably quieter. And in general, this stretch of Martin County coast has something the shoreline forty minutes south simply doesn't: **room**. On a summer weekday morning you can walk a long way and pass very few people.
+Early means calmer water, cooler air and far fewer people on it.
 
-Bring what you need. Facilities are limited to non-existent once you leave the main access.
+Launch access, rentals and guided trips change with the season. The river also deserves respect regardless of how placid it looks — weigh current, weather, distance and your own experience, and carry proper safety equipment.
 
-## Bridge Road on a weekday morning
+## Visit the Refuge Beach
 
-The commercial district is small and that's the appeal. On a weekday out of season, coffee and a wander through the independents takes half an hour and constitutes a genuinely pleasant morning.
+Hobe Sound Beach at the eastern end of Bridge Road is the area's main public beach. The refuge shoreline next door is the undeveloped one.
 
-It's the opposite of a destination and the reason a lot of people live here. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-hobe-sound-florida) covers what's actually there.
+The Nathaniel P. Reed Hobe Sound National Wildlife Refuge protects roughly 3.5 miles of Atlantic beach and holds the largest contiguous stretch of undeveloped beach in southeastern Florida.
 
-## Blowing Rocks at the right tide
+It has fewer services than a county beach, which is the point. Bring water, sun protection and whatever else you need. Public use is limited to designated areas, generally sunrise to sunset.
 
-Not hidden — but almost everyone visits at the wrong moment and leaves unimpressed.
+## Walk Bridge Road on a Quiet Morning
 
-**High tide with an easterly swell** is when water forces up through the blowholes. **Low tide** is when the limestone ledges, pools and undercuts are exposed and you can properly see what the sea has done to the rock.
+The commercial district at Bridge Road and Dixie Highway is small, and that is exactly what residents like about it.
 
-Either is worth the trip. Arriving at slack water on a flat day and concluding it's overrated is the standard first-visit error, and it's entirely avoidable with a tide table.
+A weekday morning is [coffee, breakfast](/blog/best-places-to-eat-drink-hang-out-in-hobe-sound-florida), a few local businesses and a walk through the compact historic block. It is not a shopping destination and does not try to be — [our local guide](/blog/local-guide-to-hobe-sound-florida) covers how the area is laid out.
 
-## The Intracoastal at first light
+It pairs well with a morning at Hobe Sound Beach or one of the nearby preserves.
 
-Free, and available every day.
+## Visit Blowing Rocks at the Right Time
 
-The bridge and the waterfront access points on the Intracoastal face east, and sunrise over the island and the water — with the manatees that work this stretch in cooler months — is the sort of thing residents drive past daily for years.
+Not hidden exactly, but the experience swings enormously on tide, wind and sea state.
 
-Ten minutes, no cost, no planning.
+The preserve protects a section of Anastasia limestone that the ocean has cut into ledges, caves, pools, arches and blowholes. On certain high tides and wave conditions water is forced upward through the openings; at lower tide more of the rock formations are exposed. Neither is guaranteed on any given visit.
 
-## The Hobe Sound Nature Center
+Check the tide and ocean conditions, but put safety first — wet limestone is slippery, waves are unpredictable, and posted restrictions exist for a reason. Parking is free and on site, street parking is not permitted, and the gates are locked when the preserve closes.
 
-Small, easy to miss, and genuinely useful — particularly for anyone new to Florida ecology.
+## Stop at the Intracoastal Around Sunrise
 
-The center sits by the refuge and runs interpretive programs and short trails through the scrub. If you have wondered what the low gray-green landscape beside the highway actually is, an hour here answers it, and it changes how you see every undeveloped acre in the county afterwards.
+Some of the best of this takes no planning at all. Public waterfront along the Intracoastal gives you the view across the water to Jupiter Island, and early morning is when it is worth having.
 
-Programs and hours vary seasonally — check before going.
+Depending on the season you will see birds, fish and whatever else is moving through the lagoon. It is an easy way to spend a few quiet minutes before the day gets going.
 
-## The equestrian and off-road trails
+Use designated public areas, observe the parking rules, and avoid stopping on private property or blocking residential access.
 
-Jonathan Dickinson has a substantial network of trails open to **off-road cycling** and **horses**, well beyond the short walks most visitors do.
+## Visit the Hobe Sound Nature Center
 
-They are sandy, they are exposed, and they are almost entirely empty. For anyone who rides — bike or horse — this is a serious amenity hiding behind a park entrance most people associate with a river tour and an observation tower.
+The Hobe Sound Nature Center sits at the mainland portion of the refuge and is the best short introduction to what you are actually looking at — local wildlife and the sand pine scrub that runs through the whole area.
 
-## The off-season
+The unpaved self-guided loop starting near the Center runs about half a mile over sand and dirt. Programs and operating schedules vary.
 
-May through October. The seasonal population goes, US-1 unclogs, the park and the beaches empty, and the whole town drops into a lower gear.
+An hour here changes how the surrounding landscape reads. Scrub stops looking like empty ground.
 
-It's hot and it storms most afternoons. Residents who've been here a while will tell you unprompted that it's the best part of the year.
+## Explore Jonathan Dickinson's Longer Trails
 
-## What isn't a hidden gem
+The park is far larger than its popular corners. There are paved and off-road cycling routes, hiking trails and equestrian trails running out through scrub, flatwoods and other habitats — including a two-mile paved multiuse trail and considerably longer off-road systems for more experienced visitors.
 
-**Jonathan Dickinson is not a secret.** It's the largest state park in Southeast Florida and it's signposted from the highway. Go — just don't expect to have discovered it.
+Conditions run sandy, exposed or wet depending on the trail and the season. Review current maps and permitted uses first, and cyclists and equestrians should stay on designated routes and carry water, safety and repair equipment.
 
-**Jupiter Island is not a destination.** It's a residential town where privacy is taken seriously, parking is limited and enforced, and driving through to look at houses is neither welcome nor interesting. Use the designated public access points.
+The long trails give you the actual scale of the place, which the day-use areas never do.
 
-## Making the most of them
+## Enjoy Hobe Sound During the Off-Season
 
-**Early, always.** Everything above is better before nine, and from June to September that isn't optional.
+From roughly May through October the seasonal residents leave and everything empties out — beaches, trails and public spaces, especially on weekday mornings.
 
-**Check the tide, not just the weather** — for Blowing Rocks, for the beach, and for anything on the water.
+The trade is heat, humidity and frequent afternoon thunderstorms. Go early, carry plenty of water, use sun and insect protection, and watch the weather turn.
 
-**Take repellent and water** for the scrub and the river.
+Some residents prefer these months. It is Hobe Sound at its most relaxed.
 
-**Do the Peck Lake walk if you get the chance.** Of everything on this list, crossing a barrier island on foot and finding an empty ocean beach on the other side is the one people remember.`,
+## What Is Not a Hidden Gem
+
+Jonathan Dickinson State Park is not a secret, and it does not need to be. It is the largest state park in Southeast Florida and one of the most important recreational and environmental resources in the region — [our things-to-do guide](/blog/best-things-to-do-in-hobe-sound-florida) covers it properly. What is hidden is inside it: the quieter trails, the less-visited areas, the different hours.
+
+Jupiter Island is not a sightseeing attraction either. It is a residential municipality where privacy and property access should be respected. Use the designated beaches, preserves and public access points rather than treating residential streets as a tour route.
+
+## Making the Most of Hobe Sound's Hidden Places
+
+- Start early, particularly in summer.
+- Check current hours and closures before visiting parks, preserves and refuge land.
+- Review the tide schedule for Blowing Rocks and anything else near the water.
+- Carry water, sun protection and insect repellent on the trails.
+- Stay in designated public areas and follow posted parking, boating and wildlife rules.
+
+Most of all, slow down.
+
+These are not large attractions designed to fill a day. They are quiet walks, uncrowded stretches of shoreline, early mornings on the water and protected land that gives up more the longer you stand in it — which is a fair description of [what living here is actually like](/blog/what-its-really-like-living-in-hobe-sound-florida).`,
     faqs: [
       { q: "What are the hidden gems in Hobe Sound, Florida?", a: "Peck Lake, where boats anchor in the Intracoastal and you can walk across the barrier island to an undeveloped ocean beach; the sand pine scrub trails at Jonathan Dickinson and the wildlife refuge mainland tract; the Loxahatchee River at first light by kayak; the quieter refuge shoreline; the Bridge Road district on a weekday morning; and sunrise over the Intracoastal." },
       { q: "What is Peck Lake in Hobe Sound?", a: "A stretch of the Intracoastal Waterway where boats anchor off the spoil islands, and where you can go ashore and walk directly across the barrier island to an undeveloped ocean beach — undeveloped because the land behind it is protected. There is decent nearshore snorkelling by local standards. It is busy on good weekends and often near-empty midweek." },
@@ -16799,11 +16816,11 @@ It's hot and it storms most afternoons. Residents who've been here a while will 
       { q: "What free things are there to do in Hobe Sound?", a: "Walking the refuge and scrub trails, sunrise over the Intracoastal from the waterfront access points, the beaches including the quieter refuge shoreline, and wandering the small Bridge Road commercial district. Most of what makes Hobe Sound worth living in costs nothing." },
       { q: "Can you visit Jupiter Island?", a: "Only via the designated public access points. Jupiter Island is a residential incorporated town where privacy is taken seriously, parking is limited and enforced, and driving through to look at houses is neither welcome nor rewarding. Hobe Sound Beach at the end of Bridge Road is the main public beach access." },
     ],
-    internalLinks: ["best-things-to-do-in-hobe-sound-florida", "local-guide-to-hobe-sound-florida", "what-its-really-like-living-in-hobe-sound-florida"],
-    funFact: "At Peck Lake you can anchor in the Intracoastal, go ashore, and walk straight across the barrier island to the Atlantic — arriving at a beach with nothing built behind it. That only works because the land is protected, which makes it one of the few places in South Florida where you can reach an undeveloped ocean beach on foot from a boat.",
+    internalLinks: ["best-things-to-do-in-hobe-sound-florida", "local-guide-to-hobe-sound-florida", "what-its-really-like-living-in-hobe-sound-florida", "best-places-to-eat-drink-hang-out-in-hobe-sound-florida"],
+    funFact: "Peck Lake is one of the most memorable boating experiences in the area. Anchor along the Intracoastal side of the protected barrier island and, where public access is permitted, walk across to an undeveloped Atlantic shoreline. The absence of buildings behind the beach is what makes it so unusual, and it is only possible because the surrounding land is protected rather than developed. Check current refuge rules, navigation conditions and approved access areas before going ashore, and take particular care to avoid seagrass and sensitive habitat.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-08-09',
   },
   {
     slug: 'hobe-sound-vs-nearby-cities',

@@ -10,8 +10,19 @@
 | `local-blowing-rocks-shore.jpg` | Banner crop of 001 from `top: 680` |
 | `local-bridge-road-banyans.jpg` | The Bridge Road banyan tunnel looking east, canopy closed overhead, Town of Jupiter Island sign at right |
 | `local-bridge-road-curve.jpg` | Bridge Road from the north shoulder, guardrail curving away under the banyans — hero on `local-guide-to-hobe-sound-florida` |
+| `local-blowing-rocks-ledge.jpg` | Horizon, turquoise water and the limestone ledge entering from the right — hero on `hidden-gems-in-hobe-sound-florida` |
 | `local-atlantic-surf.jpg` | Turquoise water, horizon and an incoming surf line — hero on `pros-and-cons-of-living-in-hobe-sound-florida` |
 | `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
+
+`local-blowing-rocks-ledge.jpg` is a band from **IMG_0121 at `top: 620`**, 1536×452 upscaled to
+2000×589 — the same upscale `local-blowing-rocks-shore.jpg` already uses, since the source frames
+are portrait and only 1536 wide. `top: 780` was rejected: it drops below the horizon and the band
+becomes almost entirely rock.
+
+**Do not use `local-blowing-rocks-shore.jpg` as a hero anywhere else.** It is a crop of IMG_0122,
+and IMG_0122's sibling **IMG_0121 is now the hidden-gems hero while `hobe-sound-blowing-rocks-001.jpg`
+(also IMG_0122) is the hero on `what-its-really-like-living-in-hobe-sound-florida`**. Three articles
+drawing on one eight-frame shoot is already the limit; a fourth would be visibly repetitive.
 
 **Originals located.** The shoot is `Doyouneedphotos/Jupiter/`, frames **IMG_0120–IMG_0127**,
 all 1536×2048, file dates 2026-05-30. Matched by image signature, so these are certain:
