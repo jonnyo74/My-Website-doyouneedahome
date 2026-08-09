@@ -19253,6 +19253,8 @@ The most important decision is which part of Port St. Lucie you choose. Evaluate
     primaryKeyword: "Port St. Lucie local guide",
     secondaryKeywords: ["Port St. Lucie insider tips", "things locals do in Port St. Lucie", "moving to PSL guide"],
     h1: "A Local's Guide to Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/stock-community-road-aerial.jpg',
+    heroImageCredit: 'Photo by Ameer Basheer / Unsplash',
     body: `Port St. Lucie is physically enormous — one of the largest cities by land area in the state — and that is what makes it confusing to newcomers. There is no single downtown organizing the whole community. Daily life revolves instead around several distinct districts, commercial corridors and residential areas that can feel very different from one another.
 
 Learn those areas, and the roads connecting them, and everything else falls into place. It is the best way to decide where in Port St. Lucie you actually want to live.
@@ -19387,6 +19389,8 @@ And pay attention to what is under construction near you. In a city changing thi
     primaryKeyword: "best neighborhoods in Port St. Lucie Florida",
     secondaryKeywords: ["where to live in Port St. Lucie", "Tradition PSL", "PGA Village", "St. Lucie West"],
     h1: "Best Neighborhoods in Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/stock-lakefront-community-aerial.jpg',
+    heroImageCredit: 'Photo by Robert Bye / Unsplash',
     body: `Choosing where to live in Port St. Lucie is less about picking a traditional neighborhood and more about picking the part of the city that supports your daily routine. The districts differ far more than the housing inside them does.
 
 They vary in housing age, property type, amenities, association fees, access to major roads, and proximity to shopping, schools and recreation. So what follows is organized by objective characteristics — property type, price tier, build era, amenities, and the association and CDD structure that determines what you actually pay monthly. The right choice depends on what matters to you, not on a universal ranking.

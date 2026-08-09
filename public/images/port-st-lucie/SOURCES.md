@@ -22,6 +22,46 @@ asserting a location. Replace them with local photography when we have it.
 | `stock-suburban-streetscape.jpg` | Unsplash — **FilterGrade**, [photo page](https://unsplash.com/photos/white-and-brown-painted-house-4T4AcGJvARQ), CDN `photo-1555636222-cae831e670b3` | Unsplash License | Florida master-planned streetscape: barrel-tile roofs, palms, paver drives, empty street. No people, no branding |
 | `stock-aerial-rooftops.jpg` | Unsplash — **Ameer Basheer**, [photo page](https://unsplash.com/photos/aerial-photography-of-brown-houses-euyV2Ae_KX0), CDN `photo-1549861833-372c82ca6c92` | Unsplash License | Straight-down aerial of tile-roofed houses either side of a residential street |
 
+| `stock-community-road-aerial.jpg` | Unsplash — **Ameer Basheer**, [photo page](https://unsplash.com/photos/aerial-photo-of-houses-yyjdnaGs8rY), CDN `photo-1549998288-28f24e55577a` | Unsplash License | Oblique aerial: road running through a Florida planned community, tile roofs, screened lanais, lakes with a fountain. **Shot in Fort Myers, FL** |
+| `stock-lakefront-community-aerial.jpg` | Unsplash — **Robert Bye**, [photo page](https://unsplash.com/photos/aerial-photography-of-body-of-water-surrounded-with-buildings-BkbGXp1w2Sk), CDN `photo-1538513378193-915936c7c018` | Unsplash License | Top-down aerial of a Florida lakefront community: tile roofs, screened pools, private docks, mature oaks, curving streets. **Shot in Windermere, FL** |
+
+### The two heroes added for blogs 2 and 3 — 2026-08-09
+
+Both picked by John, both real Florida photographs under the plain Unsplash License, both
+carrying `heroImageCredit`. Cut to the standard 2400×706 article banner.
+
+- `stock-community-road-aerial.jpg` — **hero on `local-guide-to-port-st-lucie-florida`.**
+  `extract({left:0, top:300, width:3000, height:882})` from the 3000×1688 original.
+  ⚠️ **The `top: 300` is not aesthetic — it removes a burned-in text banner.** The source
+  frame carries the photographer's own overlay reading "DOWNTOWN || COLORADO RIVER || AUSTIN
+  TEXAS" across the top, which is both third-party text on our page and factually wrong for
+  a Fort Myers photograph. Do not re-cut this one higher.
+  Chosen because the article is about districts and the roads connecting them, and the frame
+  is literally a road running through a planned community.
+- `stock-lakefront-community-aerial.jpg` — **hero on `best-neighborhoods-in-port-st-lucie-florida`.**
+  `extract({left:0, top:700, width:3000, height:882})` from the 3000×2248 original.
+  Chosen because the neighbourhoods guide is organised around objective characteristics —
+  lot size, water frontage, density, dock access — and a top-down frame shows all of them at
+  once in a way a streetscape cannot.
+
+Neither was shot in Port St. Lucie, so both are captioned and credited by subject, never by
+place, in line with the rule at the top of this file.
+
+### Rejected on 2026-08-09, and why — read before repeating the search
+
+- **Davey Gravy, `R-RPNzFhG5k`** — Unsplash+ licence. See the warning above.
+- **Thomas Boxma, `An8rBraaLPk`** (boardwalk) — Unsplash+. The CDN host is the giveaway:
+  Unsplash+ assets serve from `plus.unsplash.com`, free ones from `images.unsplash.com`.
+- **Guille Pozzi, `g3esK1uXCjM`** (palm-lined road) — free licence, but the original is
+  1500×2250 **portrait**. Nothing portrait can yield a 3.4:1 banner.
+- **CHUTTERSNAP, `r7dBK7gHZJ4`** ("aerial view photography of houses") — free licence and
+  correct subject on paper, but opening it showed a dense Asian city: shophouses, rooftop
+  terraces, a red double-decker bus. Nothing like Florida suburbia. **This is exactly why the
+  rule is to open the file before recommending it.**
+- **Brian Zajac, `SHb20XQreeg`** ("a row of white houses next to a lush green park") — free
+  licence and genuinely Jacksonville, FL, but it is a **3D architectural rendering**, not a
+  photograph. A render has no place illustrating real neighbourhoods on a brokerage site.
+
 ### The two added 2026-08-09 — chosen by John, and credited properly
 
 John picked both from Unsplash directly. **These two carry full credit lines**, unlike the
