@@ -16694,7 +16694,7 @@ Whichever you're shopping, build the monthly number from a **reset tax estimate,
     primaryKeyword: "hidden gems in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound secret spots", "Hobe Mountain", "Trapper Nelson", "Peck Lake"],
     h1: "Hidden Gems in Hobe Sound, Florida",
-    heroImage: '/images/hobe-sound/local-blowing-rocks-ledge.jpg',
+    heroImage: '/images/hobe-sound/local-blowing-rocks-blowhole-hero.jpg',
     body: `Hobe Sound's best-known attractions are hard to miss.
 
 Jonathan Dickinson State Park, Blowing Rocks Preserve and the protected beaches get most of the attention, and they deserve it. But some of the most memorable experiences here are quieter places, less-travelled trails and familiar attractions caught at the right hour.
@@ -16740,6 +16740,8 @@ Launch access, rentals and guided trips change with the season. The river also d
 Hobe Sound Beach at the eastern end of Bridge Road is the area's main public beach. The refuge shoreline next door is the undeveloped one.
 
 The Nathaniel P. Reed Hobe Sound National Wildlife Refuge protects roughly 3.5 miles of Atlantic beach and holds the largest contiguous stretch of undeveloped beach in southeastern Florida.
+
+![Empty sand and limestone outcrops along an undeveloped stretch of Atlantic shoreline in Hobe Sound](/images/hobe-sound/local-refuge-beach.jpg "Limestone outcrops, open sand and nothing built behind it — the undeveloped shoreline is the whole reason to walk this stretch.")
 
 It has fewer services than a county beach, which is the point. Bring water, sun protection and whatever else you need. Public use is limited to designated areas, generally sunrise to sunset.
 

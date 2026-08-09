@@ -10,9 +10,40 @@
 | `local-blowing-rocks-shore.jpg` | Banner crop of 001 from `top: 680` |
 | `local-bridge-road-banyans.jpg` | The Bridge Road banyan tunnel looking east, canopy closed overhead, Town of Jupiter Island sign at right |
 | `local-bridge-road-curve.jpg` | Bridge Road from the north shoulder, guardrail curving away under the banyans — hero on `local-guide-to-hobe-sound-florida` |
-| `local-blowing-rocks-ledge.jpg` | Horizon, turquoise water and the limestone ledge entering from the right — hero on `hidden-gems-in-hobe-sound-florida` |
+| `local-blowing-rocks-ledge.jpg` | Horizon, turquoise water and the limestone ledge entering from the right — **now unused**, superseded as the hidden-gems hero within the hour |
+| `hobe-sound-blowing-rocks-dad.jpg` | **John's father at Blowing Rocks, 2017**, a blowhole erupting beside him under a storm sky. 960×720, the source frame — not referenced by any article directly |
+| `local-blowing-rocks-blowhole-hero.jpg` | Banner cut from the above — hero on `hidden-gems-in-hobe-sound-florida` |
+| `local-refuge-beach.jpg` | Empty sand, limestone outcrops and open water, nothing built — inline in the refuge beach section of that article |
 | `local-atlantic-surf.jpg` | Turquoise water, horizon and an incoming surf line — hero on `pros-and-cons-of-living-in-hobe-sound-florida` |
 | `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
+
+## The blowhole frame — the best photograph we have of this coast
+
+`hobe-sound-blowing-rocks-dad.jpg` is **John's father standing on the limestone at Blowing Rocks
+in 2017**, with a blowhole going off beside him under a grey storm sky and heavy surf behind.
+Ours, so no credit line. He is identifiable and John approved the use.
+
+It is the only image on the site that shows the phenomenon the articles keep describing — water
+forced up through the rock — rather than the rock sitting still. That is why it took the hero slot
+on `hidden-gems-in-hobe-sound-florida` over a landscape cut the same day.
+
+`local-blowing-rocks-blowhole-hero.jpg` is a **960×310 band at `top: 150`**, Lanczos-upscaled to
+1920×620.
+
+⚠️ **This one breaks the no-upscale rule and it is deliberate.** The source is a 960×720 phone
+frame from 2017, so the banner is a 2× enlargement and will read softer than every other hero
+here. Accepted because no other frame shows the blowhole firing.
+
+The geometry is worth recording, because a banner crop of this image is *nearly impossible*. The
+figure runs from roughly `y: 260` to the bottom edge — over 460px of a 720px frame. A true 3.4:1
+band is only 282px tall, so **no compliant crop can contain him**. `top: 150` at 3.1:1 works
+because the site hero is `object-cover` in a `52vh` box, which runs nearer 3.1:1 than 3.4:1 on a
+typical laptop: head, shoulders, torso and the full plume, cut at the waist, with the title
+overlay landing on water rather than across him.
+
+`local-refuge-beach.jpg` is **IMG_0123**, a 1536×1152 window from `top: 560` resized to the
+1400×1050 inline spec — empty sand, limestone outcrops, open water and nothing built behind it,
+which is exactly what the refuge beach section claims.
 
 `local-blowing-rocks-ledge.jpg` is a band from **IMG_0121 at `top: 620`**, 1536×452 upscaled to
 2000×589 — the same upscale `local-blowing-rocks-shore.jpg` already uses, since the source frames
