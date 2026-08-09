@@ -19228,7 +19228,7 @@ The most important decision is which part of Port St. Lucie you choose. Evaluate
       { q: "What new development is coming to Port St. Lucie?", a: "Several major projects are in flight: The Grove, a riverfront dining and entertainment district in the Port District; a professional soccer stadium planned at Walton Road and US-1 anchoring a wider entertainment district; a Buc-ee's coming to St. Lucie County; and continued build-out at Tradition plus substantial new retail. Timelines on projects this size move — verify current status." },
       { q: "Is Port St. Lucie a good place to live?", a: "It suits buyers who want more house for the money, newer construction, and a city on an upward trajectory, and who can accept car dependence, no beach frontage, and ongoing construction. It suits people less well if they want the coast, walkable historic character, or a short Palm Beach County commute." },
       { q: "Is Port St. Lucie on the beach?", a: "No. The city is inland, with the coast at Fort Pierce or Hutchinson Island a 20–30 minute drive east. This regularly surprises buyers who assume the Treasure Coast location means beachfront." },
-      { q: "How fast is Port St. Lucie growing?", a: "It was incorporated in 1961 with a population of about 330 and now has well over 230,000 residents, making it one of the fastest-growing large cities in American history by percentage. The city has been functionally catching up with its own growth for two decades." },
+      { q: "How fast is Port St. Lucie growing?", a: "Very fast. The city was incorporated on former ranch land in April 1961 with roughly 250 homes platted; the first census afterward, in 1970, counted 330 residents. It now reports more than 260,000 across about 120 square miles, which makes it the sixth-largest city in Florida and one of the fastest-growing large cities in American history by percentage. It has been functionally catching up with its own growth for two decades." },
       { q: "What are the downsides of living in Port St. Lucie?", a: "It's spread out and car-dependent, it's not on the beach, the commute to Palm Beach County job centers is long, newer areas can feel repetitive, and constant construction and road work are part of daily life while the city builds out." },
     ],
     internalLinks: ["best-neighborhoods-in-port-st-lucie-florida", "best-things-to-do-in-port-st-lucie-florida", "who-should-move-to-port-st-lucie-florida"],
@@ -19518,7 +19518,7 @@ The courses came first and the residential community was built around them, whic
 
 ## Kayak the North Fork of the St. Lucie River
 
-The best free thing to do here, and the biggest surprise for anyone who thinks of this city as subdivisions. The result of its protected status is a narrow, quiet, genuinely wild waterway running through a city of 230,000 people.
+The best free thing to do here, and the biggest surprise for anyone who thinks of this city as subdivisions. The result of its protected status is a narrow, quiet, genuinely wild waterway running through a city of more than 260,000 people.
 
 Manatees use it as a warm-water refuge in the cooler months. Dolphins come up it. There's a Riverwalk boardwalk if you'd rather stay dry.
 
@@ -19998,7 +19998,7 @@ Manatees use it as a warm-water refuge in the cooler months. Dolphins come up it
 
 A vast, wild marsh ecosystem running north toward Fort Pierce, and one of the largest remaining freshwater marsh systems on Florida's east coast.
 
-Trails, paddling, and a landscape that looks like Florida before any of this was here. It's the sort of place that's genuinely rare this close to a city of 230,000 people, and on a weekday morning you may not see another person.
+Trails, paddling, and a landscape that looks like Florida before any of this was here. It's the sort of place that's genuinely rare this close to a city of more than 260,000 people, and on a weekday morning you may not see another person.
 
 ## Oxbow Eco-Center
 
