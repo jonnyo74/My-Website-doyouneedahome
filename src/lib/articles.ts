@@ -18175,123 +18175,225 @@ Work out which one you are, then get concrete: run the numbers, confirm the util
     heroImage: '/images/port-salerno/stock-canal-homes-docks.jpg',
     heroImageCredit: 'Photo by Brianna Lengacher / Unsplash',
     showMarketTrends: true,
-    body: `Buying a waterfront house is not buying a regular house with a better view. It's buying a structure, plus a piece of engineering holding the land up, plus a permitted structure over sovereign submerged land, plus a route to the ocean, plus an insurance profile that behaves nothing like an inland one.
+    body: `Buying a waterfront home is not the same as buying an inland home with a better view.
 
-Any of those five can cost you more than the kitchen you fell in love with.
+A Port Salerno waterfront property may also come with a seawall holding up the land, a dock or boat lift, a navigational route out through [Manatee Pocket](/blog/manatee-pocket-guide), flood and wind exposure, marine permits, water-depth limits and utility or septic complications.
 
-This is what we'd want checked, in the order we'd check it, and — more usefully — *why* each one matters and what a bad answer actually looks like.
+Any one of those can cost more than the kitchen or bathroom that drew the buyer to the property in the first place.
 
-## Ocean access is a route, not a feature
+Here is what to investigate, and why each one matters.
 
-"Ocean access" appears in nearly every waterfront listing here and it means almost nothing on its own. What matters is the particular path a boat has to take from that property out to the St. Lucie Inlet, and whether yours fits through every part of it.
+## Ocean Access Is a Route, Not Just a Listing Feature
 
-Three things decide that.
+"Ocean access" appears in almost every waterfront listing, and on its own it does not tell you whether a particular boat can reach the St. Lucie Inlet from that dock.
 
-**Fixed bridges.** A fixed bridge sets a hard ceiling. If your air draft — height with the antennas, tower and outriggers up — exceeds the clearance, the route is closed to you permanently. Not at certain tides. Permanently.
+The actual route may involve fixed bridges, shallow canals, tide-dependent stretches, no-wake and idle-speed zones, shoaling, narrow passages, marina traffic, and considerably more distance than the map suggests.
 
-**Clearance is not a constant.** Charted bridge clearance is usually given at mean high water. You get more at low tide and less at high, and a listing that says "no fixed bridges" may be describing one route and not the one you'd actually use.
+Two properties can both advertise ocean access and offer completely different boating.
 
-**Distance and idle zones.** Two properties can both be twenty minutes from the inlet on paper and forty minutes apart in practice, because one of them idles through a no-wake zone for most of it.
+### Check Every Bridge on the Route
 
-The only reliable test is to run the route in the boat you intend to own, at the tide you'd typically leave on. Second best is to have someone who runs it weekly walk you through it. A chart alone will not tell you what the marina traffic is like on a Saturday in February.
+A fixed bridge caps the height of vessel that can pass beneath it. The measurement that matters is the boat's air draft, including antennas, towers, outriggers, radar, hardtops and anything else permanently mounted.
 
-## Depth, and what "deep water" is doing in that listing
+Some of that can be lowered. Do not assume all of it folds, or that a route stays usable at every tide.
 
-Depth is quoted loosely and measured precisely.
+Published bridge clearances are measured against a stated water-level datum, and real clearance moves with tide, rainfall and wind. Verify every bridge on the intended route, the published clearance and its datum, the vessel's true air draft, whether equipment can be lowered safely, and any seasonal or temporary navigation restrictions.
 
-Only one measurement counts: **what is under your keel at the dock on a low tide**. Not the waterway average, not the figure at the canal mouth, and not whatever the sounder read on a sunny afternoon at half flood.
+"No fixed bridges" is useful information only when it describes the actual route from that specific dock to the inlet.
 
-Canals shoal. Sediment moves, storms redistribute it, and a canal dredged eight years ago is not the canal on the survey. If the seller can't tell you when the canal was last dredged and who paid for it, that's information too — dredging a private canal is expensive and the responsibility question is frequently unresolved.
+### Consider Travel Time and No-Wake Zones
 
-Our [guide to the Manatee Pocket](/blog/manatee-pocket-guide) covers the harbor's own depth situation, which surprises people. Assume nothing about a canal off it.
+Distance to the inlet is only part of the calculation. A property can sit close to open water and still require a long run at idle or minimum wake.
 
-## The seawall is the biggest number nobody budgets for
+That shapes travel time, fuel use, engine hours, weekend traffic and — the one that actually matters — how often the owner will realistically take the boat out.
 
-If there's one thing in this article to take seriously, it's this.
+Have a local captain or marine professional review the route, and travel it in conditions resembling how you expect to use it.
 
-A seawall is a retaining structure holding your yard back from the water. When it fails it does so expensively, and replacement is a marine construction job — barge, permits, engineering — not a landscaping one.
+## Measure the Depth at the Dock
 
-**What to look for.** Cracking, particularly stepped or vertical cracks in the cap. Rust staining, which means the reinforcing steel inside is corroding and expanding. Bulging or leaning panels. Sinkholes, soft spots or depressions in the lawn near the wall — that's soil migrating out through a failure you can't see. Tie-back rods and deadmen are buried and invisible, and they fail before anything shows on the surface.
+"Deep water" is used loosely. What counts is the usable depth along the real route and at the dock when water levels are low, not the general depth of Manatee Pocket or the canal mouth.
 
-**What to establish.** Age, whether it's been repaired or capped, who built it, and above all **whose responsibility it is.** On some canals the wall is entirely the owner's. On others it's shared, association-owned, or ambiguous — and ambiguous is the expensive answer, because it usually means nobody has maintained it.
+Establish depth at the dock, in the access canal and along the normal route; the tide and date of the measurement; the boat's draft; and the clearance you want under the keel.
 
-**Get a marine contractor to look at it during your inspection period.** A general home inspector will note that a seawall exists. They will not tell you how much life is left in it, and that is the number that matters.
+Depth changes with shoaling, storms, sediment movement, dredging, propeller wash, canal maintenance and season. A reading taken one afternoon is not a permanent guarantee.
 
-## Docks and lifts: three agencies, not one
+### Investigate Dredging Responsibility
 
-This is where buyers get an unpleasant surprise, usually after closing.
+Private and neighborhood canals may eventually need maintenance dredging. Before buying, find out whether the canal has been dredged before, when, who authorized it, who paid, whether an association is responsible, whether permits were obtained, and whether future dredging is even feasible.
 
-Marine structures in Florida are potentially reviewable by **three separate authorities**: the local government, the **Florida Department of Environmental Protection**, and the **U.S. Army Corps of Engineers**. Local handles building and zoning. FDEP handles impacts to wetlands, submerged lands and water quality through an Environmental Resource Permit. The Corps has jurisdiction over navigable waters.
+Dredging and filling in surface waters is regulated by Florida DEP, including in lagoons, rivers, estuaries and artificial waterways. Do not assume a shallow canal can simply be deepened after closing.
 
-Permitting runs in tiers. Minor work — a small dock replacement, a seawall placed close to the existing line — can fall under a general license. Moderate residential projects typically use a general permit. Larger or higher-impact work needs an individual permit, and those can take many months.
+## Have the Seawall Evaluated
 
-Two practical consequences.
+A seawall is not landscaping. It is a shoreline-stabilization structure that may be holding up the land beside the water.
 
-**Unpermitted structures become your problem.** Older waterfront areas are full of docks, lifts, enclosures and davits that were built without permits or were modified after permitting. When you buy, you inherit that. Pull the permit history for the address — don't accept a verbal assurance that "it was all done properly."
+Signs that warrant professional attention: cracks in the wall or cap, leaning or bulging sections, rust staining, soil loss, depressions or holes near the wall, separation between sections, movement around docks or pilings, and a history of repeated repairs.
 
-**Seagrass changes everything.** Marine construction in South Florida frequently requires a benthic resource survey to identify seagrass and other protected marine life. If there's seagrass off your dock, what you can build, extend or dredge may be sharply limited. That's worth knowing *before* you buy the house on the strength of the dock you were planning to add.
+Some of the components that matter most — tie-backs and buried anchors — are not visible in a casual look.
 
-## Flood zones, and what Risk Rating 2.0 changed
+Martin County requires permits for seawall construction and asks for supporting material including a survey, site plan, erosion-control information and shoreline evaluation.
 
-Flood insurance is where waterfront budgets go wrong, and the rules changed in a way many buyers haven't caught up with.
+### Determine Who Owns and Maintains It
 
-**The zones.** **Zone AE** is high-risk — inside the 100-year floodplain, with a published Base Flood Elevation. **Zone VE** is coastal high hazard, where wave action is expected, and it is materially more expensive. **Zone X** sits outside the mapped high-risk area, where flood cover isn't federally required but is often still a good idea.
+The owner may be solely responsible. Do not assume it. Responsibility may sit with the individual owner, a homeowners association, several adjoining owners, another private entity, or a recorded maintenance agreement.
 
-**The elevation certificate.** This is a surveyor's document recording your structure's elevation relative to the Base Flood Elevation. If the property has one, get it. If it doesn't, getting one is usually money well spent, because a structure sitting above BFE can price very differently from one sitting below.
+Review the survey, deed, association documents, easements, maintenance agreements, and prior permits and invoices. Ambiguity here gets resolved before closing, not after a repair becomes necessary.
 
-**What changed.** Under FEMA's Risk Rating 2.0, premiums are no longer driven mainly by which zone you're in. Elevation matters, but so do distance to the flood source, construction type and replacement cost. **The practical upshot is that two houses in the same flood zone, on the same street, can carry very different premiums.** You cannot infer your cost from the neighbor's, and you cannot infer it from the zone.
+### Use a Qualified Marine Professional
 
-**So get a real quote, in writing, during your inspection period.** Not an estimate, not last year's number, and not the seller's premium — theirs may reflect circumstances that don't transfer.
+A general home inspector may spot visible deterioration and recommend further evaluation. For a meaningful opinion on a seawall, dock or lift, bring in an appropriately qualified marine contractor, engineer or other licensed professional.
 
-## Wind, roof age, and the other insurance lever
+Ask for findings in writing, including the limits of what could be observed. No inspection can promise an exact remaining lifespan, but a specialist can identify deterioration, repair history and conditions that need investigating.
 
-Flood is a separate policy from homeowners. Both matter here, and the homeowners side turns largely on wind.
+## Verify Dock and Boat-Lift Permits
 
-**Wind mitigation inspections** document features that resist windstorm damage — roof covering, roof deck attachment, roof-to-wall connections, opening protection, roof geometry. Florida law requires insurers to offer credits for these, and the credits apply to the windstorm portion of the premium, which on the coast is most of it. An inspection is inexpensive and typically valid for five years.
+Martin County requires permits to build docks and boat lifts, and pilings and seawalls need county approval too.
 
-**Roof age is the single biggest lever.** Homes built to the 2002 Florida Building Code and later generally insure better. Older homes with roofs updated to modern code standards can qualify for credits too. An original roof on a 1970s block house is not merely a future expense — it can make a property difficult to insure at all, which means difficult to finance, which means difficult to resell.
+State and federal authorization may also apply, depending on the waterway type, project size, environmental impact, submerged-land ownership, wetlands, seagrass, navigability, and whether the work qualifies for an exemption or general permit.
 
-**One current detail worth knowing:** as of April 2026 wind mitigation inspections use an updated state form with stricter documentation requirements for impact windows, roof coverings and roof-to-wall connections. An older inspection report may not carry the credits you expect. Confirm what your insurer will actually accept before you rely on a report the seller hands you.
+Florida DEP offers exemption self-certification for some qualifying single-family dock projects, with separate processes for general and individual permits. The U.S. Army Corps of Engineers may have jurisdiction over work in navigable waters, though some activities are covered by programmatic or regional general permits.
 
-If the private market won't write the property, **Citizens** is the state-backed insurer of last resort. Being pushed to Citizens is a signal about the property, not just about the market.
+The question is not "does every dock need three permits?" It is "which approvals, exemptions or authorizations applied to this structure?"
 
-## Septic, sewer and the things under the lawn
+### Unpermitted Work Can Become the Buyer's Problem
 
-Waterfront lots in older areas are frequently on septic. That matters more here than inland.
+Older waterfront properties collect docks, lifts, pilings, davits, seawalls and additions that were built without permits, modified after approval, replaced differently from the permitted plans, expanded without authorization, or never formally closed out.
 
-Establish which system serves the property, and if it's septic: its age, its capacity, when it was last pumped, where the drainfield sits, and whether it has ever been replaced. A drainfield near the water, on a small lot, in sandy soil, is a system with less margin than most.
+Request county permit history, state permit or exemption records, Army Corps authorization where applicable, approved plans, final inspections, dock and lift specifications, and repair invoices.
 
-It also constrains you. Additions, bedroom counts and accessory structures can all run into septic capacity limits. If your plan involves expanding the house, find out what the system will support before you write the offer.
+A seller saying the work was done properly is not a substitute for the records.
 
-## What to actually do, in order
+### Seagrass and Environmental Conditions Matter
 
-1. **Before you offer** — pull the flood zone and any elevation certificate, pull the permit history, and get a rough insurance indication.
-2. **During the inspection period** — general inspection, four-point and wind mitigation, a marine contractor on the seawall and dock, and **written** insurance quotes for both flood and homeowners.
-3. **Run the route** to the inlet in a comparable boat, at a typical tide.
-4. **Read the HOA or association documents** if any apply, particularly anything governing docks, boat size, trailers and rentals.
-5. **Confirm utilities** — water, sewer or septic — for the specific parcel rather than the street.
+Protected resources may limit what can be built or altered. Regulators may evaluate seagrass, mangroves, wetlands, water depth, shading, navigation, submerged lands, water quality and wildlife habitat.
 
-Nothing on this list is exotic and none of it is expensive relative to the purchase. All of it is far cheaper before closing than after.
+A dock existing today does not mean it can be enlarged, relocated or replaced in a different configuration. Anyone planning a bigger dock, an added lift or dredging should confirm feasibility before paying for the property on the assumption it is possible.
 
-## The questions that actually reveal a property
+## Understand the Flood Zone
 
-If you only ask five things, ask these.
+Port Salerno waterfront properties fall into different FEMA flood zones.
 
-- **When was the seawall built, and who is responsible for it?**
-- **What is the depth at the dock at mean low water?**
-- **Were the dock and lift permitted, and is there paperwork?**
-- **What did the seller pay for flood and wind cover last year, and what will *I* be quoted?**
-- **How old is the roof, and does it have a current wind mitigation report?**
+### Zone AE
 
-Vague answers to any of these are not a reason to walk away. They're a reason to find out, at the seller's inconvenience rather than your expense.
+An area with a one-percent annual chance of flooding, where FEMA has established a Base Flood Elevation.
 
-## Send us the listing before you fall for it
+### Zone VE
 
-We look at waterfront here constantly, and the difference between a good one and an expensive one is rarely visible in the photographs.
+A coastal high-hazard area subject to the one-percent annual-chance flood plus wave hazards. FEMA publishes Base Flood Elevations for these areas too.
 
-Send us one you're considering. We'll tell you which of the five questions above we expect to come back badly on that particular house, whether the access it advertises survives contact with a real boat, and what we would insist on seeing before we let a client proceed. We would rather cost ourselves a sale in week one than watch you find it in month three.
+### Zone X
 
-None of the above is legal, insurance, engineering or environmental advice. Verify flood zone, permits and utilities with Martin County and the relevant state and federal agencies, and get a licensed marine contractor, surveyor, inspector and insurance agent to put their findings in writing.`,
+Used for areas outside the highest mapped risk, or for certain moderate-risk conditions. Zone X does not mean flooding is impossible.
+
+FEMA treats AE and VE as Special Flood Hazard Areas, where mandatory flood-insurance purchase requirements generally apply to federally backed mortgages. Check the current map for the specific structure, not the parcel or the neighborhood.
+
+### Request an Elevation Certificate
+
+An elevation certificate records the building's elevation relative to mapped flood levels. Where one exists, get it and read it.
+
+It helps an insurance professional evaluate the property, and it does not by itself set the premium or guarantee the building will not flood. Under FEMA's Risk Rating 2.0 methodology elevation still matters, but pricing also weighs distance from a flood source, foundation type, building characteristics, replacement cost, and flood frequency and type.
+
+FEMA is explicit that two homes in the same mapped zone can carry substantially different premiums, because each property is rated individually. That is the single most common misunderstanding about flood cost.
+
+### Obtain a New Flood-Insurance Quote
+
+Do not rely on the seller's current premium, a neighbor's premium, the zone designation, an online estimate or last year's quote. The seller's circumstances may differ, and policy assumptions and discounts may not transfer.
+
+Get a written quote for the actual buyer and property during due diligence, and review coverage limits, building and contents coverage, deductibles, exclusions, waiting periods, and whether it is NFIP or private.
+
+## Homeowners and Wind Insurance Are Separate From Flood
+
+Standard homeowners insurance and flood insurance cover different things. A coastal property needs separate evaluation of windstorm, hurricane deductibles, flood, liability, personal property, dock or seawall coverage, ordinance and law, replacement cost, and additional living expenses.
+
+Do not assume the homeowners policy covers flood damage or every marine structure. Ask the agent specifically how the dock, lift and seawall are treated.
+
+### Wind-Mitigation Features Can Affect the Premium
+
+A wind-mitigation inspection documents qualifying construction features: roof covering, roof-deck attachment, roof-to-wall connection, roof shape, secondary water resistance and opening protection.
+
+Florida requires admitted insurers to recognize valid mitigation verification forms completed by authorized professionals, subject to verification and the insurer's review. Current guidance is that the form may stay valid for up to five years if the structure has not materially changed and the report remains accurate.
+
+The inspection does not guarantee every possible discount. The insurer decides which credits apply.
+
+### Roof Age Matters, and It Is Not the Only Factor
+
+Roof age and condition affect insurability, premiums, required inspections, coverage options, financing and future replacement cost.
+
+It is too broad, though, to call roof age the single largest factor or to assume every older home is hard to insure. Insurers also look at electrical, plumbing, HVAC, construction type, prior claims, opening protection, wind mitigation, flood exposure and overall condition.
+
+Florida's Department of Financial Services notes that insurers commonly request four-point inspections on older homes, with particular attention to the roof's remaining useful life. Get the property-specific quote rather than working from assumptions about the home's age.
+
+### Understand Citizens Eligibility
+
+Citizens Property Insurance Corporation exists to cover qualifying Florida property owners who cannot get acceptable comparable coverage in the private market.
+
+A buyer may be eligible when no comparable private-market offer exists, or when comparable private premiums exceed the Citizens premium by more than the statutory threshold. A buyer generally becomes ineligible once a comparable authorized private-market offer arrives within 20 percent of the Citizens premium, subject to underwriting.
+
+A Citizens quote does not prove a property is defective. It does mean comparing coverage, exclusions, deductibles, private-market availability, eligibility and potential future depopulation offers.
+
+## Confirm Water, Sewer or Septic
+
+Older parts of Port Salerno do not have uniform utility service. A waterfront property may be on public water and sewer, public water with septic, a private well and septic, or some other arrangement particular to that parcel.
+
+Confirm the service for the individual property rather than assuming the street is consistent.
+
+### Inspect the Septic System
+
+For a septic property, establish tank and drainfield locations, system age, permitted capacity, maintenance history, last pumping date, prior repairs, evidence of failure, and whether the system supports the current bedroom count.
+
+Anyone planning an addition, an extra bedroom, a pool or an accessory structure should find out whether the existing system and lot can take it. Waterfront setbacks, small lots, groundwater conditions and existing improvements all limit replacement options.
+
+Use a qualified septic professional and review the available health-department and permit records.
+
+## Read the Association Documents
+
+Not every Port Salerno waterfront property has an association. Where one applies, read the restrictions on boat length, boat type, dock modifications, lift installation, trailer storage, commercial vehicles, rentals, pets, architectural changes, seawall responsibility, dredging assessments and shared canals.
+
+A dock can physically fit a boat that the community rules prohibit.
+
+## What to Do Before Making an Offer
+
+Gather what is reasonably available: flood zone, elevation certificate, permit history, utility information, preliminary insurance guidance, survey, association documents, and dock and seawall records.
+
+You will not have every answer before offering. You can identify the obvious problems.
+
+## What to Do During Due Diligence
+
+Inside the inspection and review periods, consider a general home inspection, a four-point inspection, a wind-mitigation inspection, a seawall and dock evaluation, a septic inspection where applicable, survey review, written homeowners and flood quotes, permit research, association-document review, and a boat-route and depth investigation.
+
+Which professionals you need depends on the property and what you plan to do with it.
+
+## Five Questions That Reveal a Waterfront Property
+
+### 1. When was the seawall built or repaired, and who maintains it?
+
+Request documentation rather than an estimate.
+
+### 2. What is the usable depth at the dock under low-water conditions?
+
+Ask when and how it was measured.
+
+### 3. Were the dock, lift and seawall properly permitted?
+
+Review county, state and applicable federal records.
+
+### 4. What will this buyer pay for homeowners and flood insurance?
+
+Obtain new written quotes.
+
+### 5. How old are the roof and major systems, and what do the inspection reports document?
+
+Review the evidence behind any expected insurance credits.
+
+A vague answer is not by itself a reason to reject a property. It is a reason to investigate before taking on the risk.
+
+## The Bottom Line
+
+A Port Salerno waterfront purchase involves considerably more than the house. It involves the route to the inlet, bridge restrictions, water depth, no-wake travel time, seawall condition, dock and lift permits, environmental limits, flood exposure, wind insurance, roof and building condition, utilities and septic, and association restrictions.
+
+The most expensive problem is often the one that never appears in the listing photographs. Do the investigation while you still have contractual options — [not after closing](/blog/port-salerno-vs-stuart).
+
+This information is general and is not legal, engineering, environmental or insurance advice. Verify property-specific conditions with Martin County, the applicable state and federal agencies, and qualified licensed professionals.`,
     faqs: [
       { q: "What should I check before buying a waterfront home in Port Salerno?", a: "Five things carry most of the risk: the seawall and who is responsible for it, the depth at the dock at mean low water, whether the dock and lift were permitted, real written insurance quotes for both flood and wind, and the roof age. All five are address-specific and none can be answered by anything you read about the neighborhood." },
       { q: "Does \"ocean access\" in a listing mean my boat can actually get out?", a: "Not necessarily. It describes the water, not the route. A fixed bridge sets a permanent ceiling on air draft, charted clearance is usually given at mean high water so you get less at high tide, and two properties equally distant from the inlet can differ enormously once no-wake zones are counted. Run the route in the boat you intend to own before you rely on the phrase." },
@@ -18301,10 +18403,10 @@ None of the above is legal, insurance, engineering or environmental advice. Veri
       { q: "Does roof age affect insurance on a Florida waterfront home?", a: "Heavily. Homes built to the 2002 Florida Building Code and later generally insure better, and older homes with roofs updated to modern standards can still qualify for wind mitigation credits. An original roof on a 1970s block house can make a property hard to insure at all — which makes it hard to finance and hard to resell. Note that as of April 2026 wind mitigation inspections use an updated state form, so an older report a seller hands you may not carry the credits you expect." },
     ],
     internalLinks: ["manatee-pocket-guide", "rocky-point-stuart-florida", "port-salerno-vs-stuart"],
-    funFact: "The most expensive thing on a waterfront property is usually the one nobody inspects. A seawall is a retaining structure holding the yard back from the water, and replacing one is marine construction with a barge, permits and engineering. A general home inspector will note that a seawall exists; only a marine contractor will tell you how many years are left in it.",
+    funFact: "The most expensive component of a waterfront property may be the one that gets the least attention during a showing. A seawall is a shoreline-stabilization structure, not part of the landscaping, and repairing or replacing one can involve engineering, marine construction, permitting and specialized equipment. A general home inspector may flag visible concerns and recommend further evaluation, but consider having the seawall and dock reviewed by a qualified marine contractor, engineer or other appropriate professional during the inspection period. No professional can guarantee an exact remaining lifespan from a visual inspection alone — the goal is to understand apparent condition, repair history, who is responsible for it, and whether more investigation is needed before closing.",
     author: 'john',
     published: true,
-    updated: '2026-08-04',
+    updated: '2026-08-09',
   },
   {
     slug: 'history-of-port-salerno-florida',
