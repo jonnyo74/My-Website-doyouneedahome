@@ -21,7 +21,9 @@
 
 `hobe-sound-blowing-rocks-dad.jpg` is **John's father standing on the limestone at Blowing Rocks
 in 2017**, with a blowhole going off beside him under a grey storm sky and heavy surf behind.
-Ours, so no credit line. He is identifiable and John approved the use.
+Ours, so no credit line. He is identifiable, and **John confirmed the use directly on 2026-08-09**
+when shown the live hero and asked whether to pull it — his words were that the photo "is the jam."
+Treat that as settled; do not re-raise it or quietly swap the hero for a landscape.
 
 It is the only image on the site that shows the phenomenon the articles keep describing — water
 forced up through the rock — rather than the rock sitting still. That is why it took the hero slot
