@@ -13,7 +13,7 @@
 | `local-blowing-rocks-ledge.jpg` | Horizon, turquoise water and the limestone ledge entering from the right — **now unused**, superseded as the hidden-gems hero within the hour |
 | `hobe-sound-blowing-rocks-dad.jpg` | **John's father at Blowing Rocks, 2017**, a blowhole erupting beside him under a storm sky. 960×720, the source frame — not referenced by any article directly |
 | `local-blowing-rocks-blowhole-hero.jpg` | Banner cut from the above — hero on `hidden-gems-in-hobe-sound-florida` |
-| `local-refuge-beach.jpg` | Empty sand, limestone outcrops and open water, nothing built — inline in the refuge beach section of that article |
+| `local-blowing-rocks-beach.jpg` | Exposed limestone shelf along the sand at low surf — inline in the **Blowing Rocks** section of that article |
 | `local-atlantic-surf.jpg` | Turquoise water, horizon and an incoming surf line — hero on `pros-and-cons-of-living-in-hobe-sound-florida` |
 | `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
 
@@ -41,9 +41,18 @@ because the site hero is `object-cover` in a `52vh` box, which runs nearer 3.1:1
 typical laptop: head, shoulders, torso and the full plume, cut at the waist, with the title
 overlay landing on water rather than across him.
 
-`local-refuge-beach.jpg` is **IMG_0123**, a 1536×1152 window from `top: 560` resized to the
-1400×1050 inline spec — empty sand, limestone outcrops, open water and nothing built behind it,
-which is exactly what the refuge beach section claims.
+`local-blowing-rocks-beach.jpg` is **IMG_0123**, a 1536×1152 window from `top: 560` resized to the
+1400×1050 inline spec — the limestone shelf exposed along the sand with the surf down.
+
+⚠️ **This was shipped mislabelled and had to be corrected.** It first went in as
+`local-refuge-beach.jpg`, inline in the *refuge beach* section, captioned as though it were the
+Nathaniel P. Reed shoreline. It is **IMG_0123 — part of the Blowing Rocks shoot**, which this file
+already documented at the top. John caught it. Renamed and moved to the Blowing Rocks section, where
+it now pairs with the blowhole hero as the same place under opposite conditions.
+
+The lesson is specific and worth keeping: **`IMG_0120`–`IMG_0127` are Blowing Rocks Preserve on
+Jupiter Island, and nothing from that run can caption as the refuge, Hobe Sound Beach or any other
+stretch of shoreline.** They look like generic Florida coast and they are not.
 
 `local-blowing-rocks-ledge.jpg` is a band from **IMG_0121 at `top: 620`**, 1536×452 upscaled to
 2000×589 — the same upscale `local-blowing-rocks-shore.jpg` already uses, since the source frames

@@ -16741,8 +16741,6 @@ Hobe Sound Beach at the eastern end of Bridge Road is the area's main public bea
 
 The Nathaniel P. Reed Hobe Sound National Wildlife Refuge protects roughly 3.5 miles of Atlantic beach and holds the largest contiguous stretch of undeveloped beach in southeastern Florida.
 
-![Empty sand and limestone outcrops along an undeveloped stretch of Atlantic shoreline in Hobe Sound](/images/hobe-sound/local-refuge-beach.jpg "Limestone outcrops, open sand and nothing built behind it — the undeveloped shoreline is the whole reason to walk this stretch.")
-
 It has fewer services than a county beach, which is the point. Bring water, sun protection and whatever else you need. Public use is limited to designated areas, generally sunrise to sunset.
 
 ## Walk Bridge Road on a Quiet Morning
@@ -16758,6 +16756,8 @@ It pairs well with a morning at Hobe Sound Beach or one of the nearby preserves.
 Not hidden exactly, but the experience swings enormously on tide, wind and sea state.
 
 The preserve protects a section of Anastasia limestone that the ocean has cut into ledges, caves, pools, arches and blowholes. On certain high tides and wave conditions water is forced upward through the openings; at lower tide more of the rock formations are exposed. Neither is guaranteed on any given visit.
+
+![Exposed Anastasia limestone along the sand at Blowing Rocks Preserve, Hobe Sound, Florida](/images/hobe-sound/local-blowing-rocks-beach.jpg "The other half of the same place. With the surf down, the limestone shelf lies exposed along the sand — the same rock that throws the plumes when conditions line up.")
 
 Check the tide and ocean conditions, but put safety first — wet limestone is slippery, waves are unpredictable, and posted restrictions exist for a reason. Parking is free and on site, street parking is not permitted, and the gates are locked when the preserve closes.
 
