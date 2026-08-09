@@ -20377,6 +20377,18 @@ Palm Beach County cannot offer that at any scale, because it is substantially bu
 
 That difference is the whole reason this article exists, and it is worth being blunt about: the ability to do this is one of the few things Port St. Lucie can offer that the markets to the south structurally cannot.
 
+## Two Different Kinds of Builder
+
+Before anything else, work out which conversation you are actually in — because "new construction" in this city means two quite different businesses.
+
+There are community builders. You buy a homesite inside their development, they control the land, the utilities, the road and the sequencing, and you choose from a defined set of plans. Price is more predictable because they have built that plan on that street forty times. There is usually an association, often a CDD, and generally amenities attached.
+
+Then there are spot-lot builders. They put a house on an individual platted lot — one you already own, or one they will sell you. Every job is a one-off: different soil, different setbacks, different utility situation, different neighbours. Usually no association, usually no amenities, and considerably more variables between the contract and the keys.
+
+Some firms do both, and market it that way — a couple of the builders below will sell you a homesite in their community or build on yours, and the terms are not the same in each case. Ask which one you are being quoted.
+
+Neither model is better. They suit different people. If you want predictability, amenities and a finished street on day one, the community route is genuinely the easier path. If you want a specific location, a bigger parcel, no monthly association obligation, or somewhere to put a boat, the spot-lot route is the one that gets you there — and this page is about that route.
+
 ## Most Spot Lots Are Not in an Association
 
 This is a large part of the appeal and it deserves saying early.
@@ -20482,6 +20494,29 @@ Long-established in Port St. Lucie with an extensive presence across the city.
 Two honest caveats. First, builder programmes change — plans get retired, price bands move, and a builder that takes scattered lots this year may stop next year. Confirm the current programme directly. Second, this is a starting shortlist rather than a ranking, and it is not the only good answer; there are capable builders working here who are not on it.
 
 [[CONFIRM WITH JOHN BEFORE PUBLISHING: the no-compensation statement. If there are no arrangements with any of these builders, this is where the article says so plainly — that nobody paid to be listed and we receive nothing if you build with them. If any arrangement exists, it gets disclosed here instead.]]
+
+## Spec Homes: The Third Option, and Often the Right One
+
+Every builder on that list carries spec inventory, and a lot of buyers should be looking at it before they look at anything else.
+
+A spec home is one the builder starts without a buyer under contract — on their own lot, to their own plan, with their own finish selections. Some sell before completion, some stand finished for a while. Either way you are buying a new house rather than commissioning one.
+
+The case for it is strong, and it is essentially the case for new construction with the hard parts removed:
+
+- No construction loan. You buy it with an ordinary mortgage, which is simpler, cheaper and available from far more lenders.
+- No construction timeline risk. You are looking at a house with a completion date you can see, or one already standing.
+- No site-work surprises. The fill, the drainage, the utility connection and the permit queue have already happened, at the builder's risk rather than yours.
+- Everything is still new. New roof, new air conditioning, new appliances, current building code and current wind provisions — which is the entire reason we search 2020 and newer to begin with.
+
+The trade is control. You take the builder's lot, the builder's plan and the builder's finish choices. If the spec is caught early enough you can sometimes still pick flooring, cabinets and paint; once it is finished, what is there is what you get.
+
+Two things to watch, and they are the same two from earlier on this page.
+
+The first is the lot, again. A spec sits on land the builder chose from their own inventory, which loops straight back to the warning above — look at that parcel as hard as you would look at one you were buying on the open market.
+
+The second is how long it has been standing. Builders carry real cost on unsold spec inventory, so a house that has been finished for a while can come with genuine motivation attached, particularly near the end of a quarter or a year. That can be an opportunity. It can also be a signal — sometimes a spec sits because of the lot, the layout or the price, and it is worth working out which before you decide you have found a bargain.
+
+Ask how long it has been complete, what it was originally listed at, and whether the price has moved. The answers tell you which situation you are in.
 
 ## What Separates a Good Spot-Lot Builder From a Thin One
 
