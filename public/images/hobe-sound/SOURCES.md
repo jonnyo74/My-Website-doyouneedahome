@@ -184,7 +184,7 @@ EXIF intact but no GPS. They are now the source of the hero on
 
 | Original | Depicts |
 |---|---|
-| `IMG_4522` | Town of Jupiter Island / Martin County sign, close, framed by areca and bamboo |
+| `IMG_4522` | Town of Jupiter Island / Martin County sign, close, framed by areca and bamboo. **Now the hero on `hobe-sound-vs-nearby-cities`** as `local-county-line-sign.jpg`, band at `top: 300` — a boundary marker naming both the municipality and the county is the literal subject of a county-line comparison article, and it was the last unused frame of the four |
 | `IMG_4523` | Tunnel from the north shoulder, guardrail leading the eye — white car parked in the bottom-left corner. **Now the local-guide hero**: the car sits at roughly `y: 1034` and a band cut at `top: 300` ends at `y: 902`, so it is cropped out of frame rather than retouched. `top: 400` is too low and catches the roof. |
 | `IMG_4524` | Dead centre on the double yellow, canopy closed overhead, sign at right. **The best frame — this is the hero.** |
 | `IMG_4525` | Near-identical to 4524, a half step back; slightly more sky top-right, canopy arch less complete |
