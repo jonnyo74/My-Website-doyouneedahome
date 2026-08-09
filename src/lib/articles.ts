@@ -15525,7 +15525,7 @@ Day to day, that translates into short lines, easy parking, and a commercial dis
 
 ## Surrounded by Nature
 
-Nature is one of Hobe Sound's defining features. Nearby **Jonathan Dickinson State Park** offers access to the Loxahatchee River, the Hobe Mountain observation tower, kayaking, camping, and miles of trails. The area is also home to the **Hobe Sound National Wildlife Refuge** and its protected coastal habitat, while **Blowing Rocks Preserve** is located just south on Jupiter Island.
+Nature is one of Hobe Sound's defining features. Nearby **Jonathan Dickinson State Park** offers access to the Loxahatchee River, the Hobe Mountain boardwalk, kayaking, camping, and miles of trails. The area is also home to the **Hobe Sound National Wildlife Refuge** and its protected coastal habitat, while **Blowing Rocks Preserve** is located just south on Jupiter Island.
 
 How much of that land is permanently protected is the part worth understanding. Jonathan Dickinson covers pine flatwoods, sand pine scrub, and river frontage, and the Hobe Mountain tower sits on one of the highest natural elevations in South Florida. The **Loxahatchee River** running through it carries a federal Wild and Scenic River designation, which restricts what can be built along its protected stretches.
 
@@ -15965,13 +15965,13 @@ Visitors can hike, bicycle, camp, paddle, fish, watch wildlife and explore lands
 
 Because activities, rentals, tours and river conditions can change, visitors should check the park’s current operating information before arriving.
 
-## Climb Hobe Mountain
+## Walk Up Hobe Mountain
 
 Hobe Mountain is an ancient sand dune that rises approximately 86 feet above sea level. It is recognized as the highest natural point in Florida south of Lake Okeechobee.
 
-A short boardwalk leads through the scrub habitat to an observation tower with wide views across the park and surrounding area.
+A short boardwalk leads through the scrub habitat toward the observation tower at the top.
 
-Eighty-six feet may not sound especially high, but in South Florida’s flat landscape, it offers a surprisingly expansive view. The walk is short enough to include even during a brief visit to the park.
+Note that the tower itself is currently closed for restoration, with no reopening date announced. The boardwalk remains open, and the walk through the scrub is worth doing on its own — but check the park’s current status before going if the view from the top is the reason you are making the trip.
 
 ## Experience the Loxahatchee River
 
@@ -16099,21 +16099,21 @@ The reward is that beaches, trails and natural areas may be quieter than they ar
 
 Start with Hobe Mountain and the Loxahatchee River.
 
-The short walk to the Hobe Mountain observation tower provides a broad view of the landscape surrounding Hobe Sound.
+The short boardwalk up Hobe Mountain runs through sand pine scrub to the highest natural point south of Lake Okeechobee. The observation tower at the top is closed for restoration at present, so check the park's current status if the view is what you are going for.
 
 Experiencing the Loxahatchee River provides a closer look at the waterways, cypress habitat and protected land that make this part of Florida distinctive.
 
 Together, they offer one of the best introductions to the natural character of Hobe Sound.`,
     faqs: [
-      { q: "What is there to do in Hobe Sound, Florida?", a: "Almost everything is outdoors: Jonathan Dickinson State Park with the Hobe Mountain observation tower, the Loxahatchee River and Trapper Nelson’s former camp; Blowing Rocks Preserve on Jupiter Island; the Nathaniel P. Reed Hobe Sound National Wildlife Refuge and its nature center; Hobe Sound Beach; Peck Lake for boaters; and fishing from the beach, the Intracoastal, the river or offshore. The small Bridge Road commercial district covers a Saturday morning." },
+      { q: "What is there to do in Hobe Sound, Florida?", a: "Almost everything is outdoors: Jonathan Dickinson State Park with the Hobe Mountain boardwalk, the Loxahatchee River and Trapper Nelson’s former camp; Blowing Rocks Preserve on Jupiter Island; the Nathaniel P. Reed Hobe Sound National Wildlife Refuge and its nature center; Hobe Sound Beach; Peck Lake for boaters; and fishing from the beach, the Intracoastal, the river or offshore. The small Bridge Road commercial district covers a Saturday morning." },
       { q: "How big is Jonathan Dickinson State Park?", a: "More than 10,000 acres, making it the largest state park in Southeast Florida, and it contains 16 distinct natural communities ranging from sand pine scrub and pine flatwoods to cypress wetlands and riverfront habitat. It offers hiking, off-road cycling and equestrian areas, camping, paddling and wildlife viewing. Activities, rentals, tours and river conditions can change, so check the park’s current operating information before arriving." },
-      { q: "What is Hobe Mountain?", a: "An ancient sand dune inside Jonathan Dickinson State Park that rises approximately 86 feet above sea level — the highest natural point in Florida south of Lake Okeechobee. A short boardwalk leads through scrub habitat to an observation tower with wide views across the park and surrounding area. In South Florida’s flat landscape, 86 feet offers a surprisingly expansive view." },
+      { q: "What is Hobe Mountain?", a: "An ancient sand dune inside Jonathan Dickinson State Park that rises approximately 86 feet above sea level — the highest natural point in Florida south of Lake Okeechobee. A short boardwalk leads through scrub habitat toward an observation tower at the summit. The tower is currently closed for restoration with no reopening date announced, though the boardwalk remains open. Check the park's current status before going if the view from the top is the reason for the trip." },
       { q: "Who was Trapper Nelson?", a: "Vince “Trapper” Nelson was a local figure who lived along the Loxahatchee River and became known as the “Wild Man of the Loxahatchee.” His former camp inside Jonathan Dickinson State Park has been restored and provides a glimpse into a very different period of local history. Access and tour availability can change, so confirm current options with the park before planning a trip." },
       { q: "When is the best time to visit Blowing Rocks Preserve?", a: "It depends what you want to see. During certain high tides and ocean conditions, waves strike the Anastasia limestone and force water upward through openings in the rocks, though the display is not guaranteed on every visit. At lower tides you may get a better view of the limestone formations themselves. Check the current tide schedule, preserve hours, parking information and beach conditions before going." },
       { q: "Can you see sea turtles in Hobe Sound?", a: "The Nathaniel P. Reed Hobe Sound National Wildlife Refuge is considered one of the most productive sea turtle nesting areas in the southeastern United States, and its beach runs about 3.5 miles. The Hobe Sound Nature Center offers educational programs that may include seasonal sea turtle walks. Program schedules and registration requirements vary, and popular seasonal programs may fill quickly, so plan ahead." },
     ],
     internalLinks: ["local-guide-to-hobe-sound-florida", "hidden-gems-in-hobe-sound-florida", "best-places-to-eat-drink-hang-out-in-hobe-sound-florida", "hobe-sound-vs-nearby-cities"],
-    funFact: "Hobe Mountain, inside Jonathan Dickinson State Park, rises approximately 86 feet above sea level and is recognized as the highest natural point in Florida south of Lake Okeechobee. A short boardwalk leads to the observation tower, where the view stretches across the park and surrounding landscape. In an area as flat as South Florida, 86 feet creates a surprisingly impressive viewpoint—and many people who live nearby have never experienced it.",
+    funFact: "Hobe Mountain, inside Jonathan Dickinson State Park, rises approximately 86 feet above sea level and is recognized as the highest natural point in Florida south of Lake Okeechobee. A short boardwalk climbs through sand pine scrub to the observation tower at the summit. The tower is closed for restoration at the moment, with no reopening date announced, so check the park's current status before making the trip for the view — the boardwalk itself remains open, and in an area this flat, even the walk up is worth doing.",
     author: 'christine',
     published: true,
     updated: '2026-08-05',
