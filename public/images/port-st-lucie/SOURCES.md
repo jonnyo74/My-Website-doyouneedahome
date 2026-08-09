@@ -63,8 +63,42 @@ Anything used here must be:
 - **Captioned by subject, never by place** — a stock image must never imply it
   was taken at a specific named location.
 
-## Still needed (local photography)
+## ⚠️ Unsplash+ is not the Unsplash License — check every time
 
-Tradition Square, the North Fork riverfront and Riverwalk boardwalk, Clover Park,
-PGA Village, Savannas Preserve, and the in-flight development sites. These are the
-shots that would let us drop the stock entirely.
+Searching Unsplash for a neighbourhood aerial on 2026-08-09 surfaced a strong candidate
+(Davey Gravy, "an aerial view of a neighborhood with lots of houses", `R-RPNzFhG5k`) that
+turned out to carry the **Unsplash+ License** — a paid-subscription licence, not the free
+commercial one every other file in this folder uses. It was dropped for that reason alone.
+
+Unsplash+ results sit inline with free results and look identical in search. **Confirm the
+licence on the photo page before downloading**, not after. Every file in this folder is
+plain Unsplash License; keep it that way unless someone buys a subscription and records it.
+
+## Still needed (local photography) — John is shooting these
+
+John said on 2026-08-09 he would go and take these himself, which is the right answer: three
+separate attempts at PSL stock have now produced only four usable images, none big enough
+for a hero. Priority order for a single trip, highest value first:
+
+1. **The Port District / Pioneer Park** — riverfront, the boardwalk, the overwater stage.
+   Feeds the local guide, hidden gems and things-to-do, and it is the city's biggest recent
+   change. Nothing we hold shows it at all.
+2. **Tradition Square** — the walkable centre. Feeds the local guide, neighbourhoods and
+   the eat-and-drink guide.
+3. **Two residential streets** — one established in St. Lucie West, one new-construction in
+   Tradition. The neighbourhoods guide is built on exactly that contrast and currently
+   illustrates it with nothing.
+4. **Clover Park** exterior, and **PGA Village** — things-to-do and neighbourhoods.
+5. **Savannas Preserve** and the North Fork — hidden gems.
+
+### Shooting notes, learned the hard way today
+
+- **Shoot horizontal, and leave room top and bottom.** Article heroes are cut to 3.4:1
+  bands. A tight composition cannot be cropped to that without losing its subject.
+- **A 4:3 full frame is the most useful thing you can bring back**, because it yields both a
+  3.4:1 article banner *and* a community-page hero. The community hero is `72vh`, which is
+  roughly 0.64:1 on a phone — a 3.4:1 banner shows only 19% of its width there. That is why
+  Port Salerno needed the original frame re-shot in from the archive rather than the banner.
+- **No identifiable people**, and no third-party business signage in frame.
+- Shoot the same subject a few paces apart. Two Bridge Road frames metres apart gave Hobe
+  Sound two different-looking heroes; one frame would have given us one.
