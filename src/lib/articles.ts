@@ -20493,7 +20493,19 @@ Long-established in Port St. Lucie with an extensive presence across the city.
 
 Two honest caveats. First, builder programmes change — plans get retired, price bands move, and a builder that takes scattered lots this year may stop next year. Confirm the current programme directly. Second, this is a starting shortlist rather than a ranking, and it is not the only good answer; there are capable builders working here who are not on it.
 
-[[CONFIRM WITH JOHN BEFORE PUBLISHING: the no-compensation statement. If there are no arrangements with any of these builders, this is where the article says so plainly — that nobody paid to be listed and we receive nothing if you build with them. If any arrangement exists, it gets disclosed here instead.]]
+For the record: we have no arrangement of any kind with any builder on this page. Nobody paid to be listed, nobody is paying us for referrals, and we receive nothing extra if you build with one of them rather than another. They are here because I have been in their offices and these are the names I would give a friend.
+
+## Bring Your Agent to the First Appointment
+
+This is the most expensive mistake buyers make with builders, and it costs nothing to avoid.
+
+The person who greets you in a builder's sales office works for the builder. They are pleasant, they are knowledgeable, and they are not representing you. Their job is to sell that builder's houses at that builder's terms.
+
+Most builders operate a registration policy: your agent has to be with you, or registered on your behalf, at your first visit. Tour alone on a Saturday afternoon, decide you like it, and come back later with an agent, and many builders simply will not recognise that agent on the transaction. You do not get a discount for having walked in alone — the price is the price. You just go through the process without anyone on your side of the table.
+
+There is also a paperwork step now. To represent you I need a signed buyer broker agreement in place before we tour, which is the standard across the industry since the 2024 changes. So the sequence that actually works is straightforward: sign the agreement, then I come with you to the first appointment. After that you can go back on your own as often as you like.
+
+None of that costs you anything at the sales office. It just determines whether you have representation when the contract, the allowances, the escalation clause and the warranty terms come up — which, on a build, is exactly when you want it.
 
 ## Spec Homes: The Third Option, and Often the Right One
 
@@ -20611,7 +20623,7 @@ If you are weighing a specific parcel, send us the address. We will tell you wha
     internalLinks: ["local-guide-to-port-st-lucie-florida", "cost-of-living-in-port-st-lucie-florida", "best-neighborhoods-in-port-st-lucie-florida"],
     funFact: "Port St. Lucie exists because General Development Corporation bought roughly 40,000 acres along the North Fork of the St. Lucie River in 1958 and platted a residential grid across it before there was a city to speak of. It incorporated in April 1961 with about 250 homes on it. Sixty-odd years later that grid is still filling in unevenly, and the gaps left in it are the reason an ordinary buyer here can still purchase a lot and build — something the built-out markets an hour south cannot offer at any scale.",
     author: 'john',
-    published: false,
+    published: true,
     updated: '2026-08-09',
   },
 
