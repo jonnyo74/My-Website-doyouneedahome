@@ -19253,100 +19253,114 @@ The most important decision is which part of Port St. Lucie you choose. Evaluate
     primaryKeyword: "Port St. Lucie local guide",
     secondaryKeywords: ["Port St. Lucie insider tips", "things locals do in Port St. Lucie", "moving to PSL guide"],
     h1: "A Local's Guide to Port St. Lucie, Florida",
-    body: `Port St. Lucie is physically enormous — one of the largest cities by land area in the state — and that's what makes it confusing to newcomers. There's no single downtown to orient around. There are districts, and they don't feel like the same city.
+    body: `Port St. Lucie is physically enormous — one of the largest cities by land area in the state — and that is what makes it confusing to newcomers. There is no single downtown organizing the whole community. Daily life revolves instead around several distinct districts, commercial corridors and residential areas that can feel very different from one another.
 
-Learn the districts and the roads that connect them, and everything else falls into place.
+Learn those areas, and the roads connecting them, and everything else falls into place. It is the best way to decide where in Port St. Lucie you actually want to live.
 
-## Get your bearings — the districts
+## Start With the Districts
+
+A home in Tradition and a home near US-1 can share a Port St. Lucie mailing address while offering completely different routines, amenities and driving patterns. Before you fall for a floor plan, work out which part of the city sits closest to the places you will use every week.
 
 ### St. Lucie West
 
-The established hub. Clover Park (Mets spring training), the densest concentration of restaurants and shopping, and a mix of housing including active-adult communities. If you want things already built rather than coming soon, this is where to look.
+One of the city's more established residential and commercial districts, with restaurants, shopping, medical offices, golf communities, schools and convenient access to I-95.
+
+Clover Park is here — the spring-training home of the New York Mets and the regular-season home of the St. Lucie Mets. If you want things already built rather than coming soon, this is where to look. Traffic gets heavier during commuting hours, through the winter season and around major events at Clover Park, so drive your regular routes before you buy.
 
 ### Tradition
 
-The flagship planned community out west, organized around its own walkable town square. It reads as a genuine center rather than a strip with houses behind it, for reasons our [neighborhood guide](/blog/best-neighborhoods-in-port-st-lucie-florida) gets into. Still actively building out.
+The flagship master-planned community out west, organized around Tradition Square — restaurants, shops, community events and public gathering space in a genuinely more walkable setting than most of the city offers. The broader area takes in numerous residential communities, healthcare facilities, parks, trails, businesses and continuing development.
+
+Not every neighborhood carrying the Tradition name is within walking distance of the square. Evaluate the individual community rather than assuming every property has the same access to shopping and events. Construction and expansion continue throughout, which brings new conveniences alongside changing traffic and temporary disruption. Our [neighborhood guide](/blog/best-neighborhoods-in-port-st-lucie-florida) compares the communities inside it.
 
 ### PGA Village
 
-The golf anchor to the south — multiple courses, a learning center, and residential neighborhoods laid out around the courses rather than the other way around.
+One of the city's major golf destinations. PGA Golf Club runs three championship courses — two by Tom Fazio, one by Pete Dye — plus a short course and extensive practice and instruction facilities. The wider PGA Village area holds several residential neighborhoods offering single-family homes, villas and condominiums, rather than one uniform community.
+
+A PGA Village address does not by itself mean golf membership is included or mandatory. Fees, access and ownership obligations vary between communities, so confirm the association, amenities and membership structure attached to the specific property.
 
 ### The Port District
 
-The one most residents haven't caught up with yet. This is the city's riverfront redevelopment area along the St. Lucie River, and it's where **The Grove** — a dining and entertainment district — is going in, alongside existing Port District amenities including boardwalks, kayak launches, event space, and playgrounds near Pioneer Park.
+The one most residents still have not caught up with. This is the city's riverfront destination along the North Fork of the St. Lucie River, taking in Pioneer Park, public gathering space, waterfront access, boardwalks, kayak access and event areas. It opened in June 2024, and development within it continues.
 
-For a city that has historically turned its back on its own river, this is the most significant change to how Port St. Lucie works socially. Worth watching if you're choosing where to buy.
+The Grove is planned as its dining and entertainment component. Concepts, opening dates and construction schedules move, so verify the current picture with the city rather than an early announcement.
 
-### The Walton Road / US-1 corridor
+For a city that historically turned its back on its own river, this is the most significant change to how Port St. Lucie works socially — a central gathering place in a city that has never had a downtown waterfront.
 
-The eastern side, and the planned location of the **professional soccer stadium** and the wider entertainment district intended around it. Another area where what's there now and what's planned are meaningfully different.
+### Walton and One, and the US-1 Corridor
 
-### The broader grid
+The eastern side runs along the US-1 and Walton Road corridors. Walton and One is a planned 46-acre mixed-use redevelopment there, intended to bring restaurants, retail, residential space, public areas and pedestrian and bicycle connections. It sits near the existing MIDFLORIDA Credit Union Event Center, and a 6,000-seat professional soccer stadium is planned as its anchor.
 
-Beyond the named districts, most of Port St. Lucie is an enormous grid of residential streets — the bulk of the city's housing and the most attainable pricing.
+Because this is a multi-year project, separate what exists today from what is approved and what remains proposed. The eastern side also gives relatively convenient access to Jensen Beach, Stuart, the US-1 businesses and the routes toward Hutchinson Island.
+
+### The Broader Residential Grid
+
+Beyond the named districts, most of Port St. Lucie is an enormous grid of established residential streets — the bulk of the city's housing and its most attainable pricing. Expect older and newer single-family homes, non-HOA properties, larger suburban lots, homes with private pools, properties with room for a boat or RV where permitted, and a mix of public utilities, wells and septic systems.
+
+Two neighborhoods that look identical on a map can differ in utility arrangement, road access, property age and what is being built nearby. The specific address matters more than the district name.
 
 ![Produce stall at an outdoor market](/images/port-st-lucie/stock-farmers-market.jpg "Tradition Square's markets and events are the closest thing this spread-out city has to a shared gathering place.")
 
-## What the growth means for where you buy
+## What the Growth Means for Where You Buy
 
-In a city adding this much at once, the parcel next to you has a future, and it's worth knowing what it is.
+In a city adding this much at once, the parcel next to you has a future, and it is worth knowing what it is.
 
-Vacant land in Port St. Lucie is rarely vacant permanently. Before committing to a house, it's worth checking what's approved or planned nearby — that empty stretch behind the back fence may be a road extension, a school, or a commercial center. The city publishes development activity, and it's a fifteen-minute check that occasionally changes a decision entirely.
+Vacant land in Port St. Lucie is rarely vacant permanently. Before committing to a house, check what is approved or planned nearby — that empty stretch behind the back fence may be a road extension, a school or a commercial center. The city publishes development activity, and it is a fifteen-minute check that occasionally changes a decision entirely.
 
-This cuts both ways. Being near something that's coming can be an advantage as easily as a nuisance — proximity to a planned retail center or entertainment district is a very different proposition from proximity to a planned arterial road.
+This cuts both ways. Being near something that is coming can be an advantage as easily as a nuisance: proximity to a planned retail center or entertainment district is a very different proposition from proximity to a planned arterial road.
 
-## The roads that matter
+## The Roads That Matter
 
-**I-95** and **Florida's Turnpike** both run through, which is why the city is better connected than its inland position suggests. **US-1** runs north-south on the east side. The **Crosstown Parkway** is the key east-west connector and the road that most changed how the city moves.
+I-95 and Florida's Turnpike both run through, which is why the city is better connected than its inland position suggests. US-1 runs north to south on the east side. The Crosstown Parkway is the key east-west connector, and the road that most changed how the city moves.
 
-The practical advice: this city is big enough that **where you live determines your entire daily experience.** A home in Tradition and a home off US-1 are in the same city and share almost no daily routine. Pick your district around your actual commute and errands, not around a floor plan.
+The practical point: this city is big enough that where you live determines your entire daily experience. A home in Tradition and a home off US-1 sit in the same city and share almost no daily routine. Pick your district around your actual commute and errands, not around a floor plan.
 
-## The local rhythm
+## The Local Rhythm
 
-Daily life orbits schools, parks, and youth sports — the city's parks and recreation network is genuinely extensive and one of the more underrated things about living here.
+Daily life orbits schools, parks and youth sports — the city's parks and recreation network is genuinely extensive and one of the more underrated things about living here.
 
-Spring means Mets baseball. Weekends mean Tradition Square events, the river, or a drive to the coast. Beach days mean heading east to Fort Pierce or Hutchinson Island — a real drive rather than a quick hop.
+Spring means Mets baseball. Weekends mean Tradition Square events, the river, or a drive to the coast. Beach days mean heading east to Fort Pierce or Hutchinson Island, which is a real drive rather than a quick hop.
 
-## The local calendar
+## The Local Calendar
 
-**Winter and spring** are the best weather and the busiest stretch, with spring training bringing visitors and filling St. Lucie West restaurants for several weeks.
+Winter and spring bring the best weather and the busiest stretch, with spring training filling St. Lucie West restaurants for several weeks.
 
-**Summer** is hot, humid, and stormy, with afternoon storms that build and clear. Quieter, and the time locals schedule anything non-urgent — contractors included.
+Summer is hot, humid and stormy, with afternoon storms that build and clear. It is quieter, and the time locals schedule anything non-urgent — contractors included.
 
-**Hurricane season** runs June through November. Know your evacuation zone and keep supplies. Drainage and canal infrastructure is extensive, though what that means for any given address is a question for our [cost of living guide](/blog/cost-of-living-in-port-st-lucie-florida).
+Hurricane season runs June through November. Know your evacuation zone and keep supplies. Drainage and canal infrastructure is extensive, though what that means for any given address is a question for our [cost of living guide](/blog/cost-of-living-in-port-st-lucie-florida).
 
-## The unwritten rules
+## The Unwritten Rules
 
-- **Plan your routes.** The city is enormous and crossing it takes real time. Locals batch errands by district.
-- **Expect construction.** Roads are perpetually under work as the city catches up with itself. Build it into your timing rather than being surprised by it.
-- **Know your district's identity.** St. Lucie West, Tradition, PGA Village, and the Port District genuinely feel different. Newcomers who say "I live in Port St. Lucie" get asked "which part?" for a reason.
-- **Learn the river.** A surprising number of residents live here for years without discovering the North Fork. Don't be one of them.
+- Plan your routes. The city is enormous and crossing it takes real time, so locals batch errands by district.
+- Expect construction. Roads are perpetually under work as the city catches up with itself. Build it into your timing rather than being surprised by it.
+- Know your district's identity. St. Lucie West, Tradition, PGA Village and the Port District genuinely feel different. Newcomers who say "I live in Port St. Lucie" get asked "which part?" for a reason.
+- Learn the river. A surprising number of residents live here for years without ever discovering the North Fork. Don't be one of them.
 
-## Septic, sewer, and a question worth asking early
+## Septic, Sewer, and a Question Worth Asking Early
 
 One piece of local infrastructure genuinely affects buyers and almost never comes up on a tour.
 
-Because Port St. Lucie was platted as an enormous grid long before it filled in, a large number of homes here were built on **septic systems** rather than city sewer. The city has been running a **septic-to-sewer conversion program** to connect those properties, both to protect the shallow water supply and to improve the health of local waterways — and its low-pressure wastewater collection system has grown into the largest of its kind in the country.
+Because Port St. Lucie was platted as an enormous grid long before it filled in, a large number of homes here were built on septic systems rather than city sewer. The city has been running a septic-to-sewer conversion program to connect those properties, both to protect the shallow water supply and to improve the health of local waterways, and its low-pressure wastewater collection system has grown into the largest of its kind in the country.
 
 What that means practically:
 
-- **Ask whether a specific address is on septic or city sewer.** It varies enormously across the grid and it is not obvious from the street.
-- **Ask whether it sits in a planned conversion area**, and what the connection cost would be.
-- **Understand the financial options.** The city has offered grants covering the full connection cost for households that income-qualify under state guidelines, and a ten-year interest-free payback arrangement for those who don't. Grants are first-come, first-served and funding is limited.
+- Ask whether a specific address is on septic or city sewer. It varies enormously across the grid and it is not obvious from the street.
+- Ask whether it sits in a planned conversion area, and what the connection cost would be.
+- Understand the financial options. The city has offered grants covering the full connection cost for households that income-qualify under state guidelines, and a ten-year interest-free payback arrangement for those who do not. Grants are first-come, first-served and funding is limited.
 
 None of this is a reason to avoid a house. It is a reason to know the answer before you make an offer rather than after. Confirm current program terms and the status of a particular address directly with the city's utility department.
 
-## Getting around and out
+## Getting Around and Out
 
-**Palm Beach International Airport** is roughly an hour south depending on traffic; **Orlando** is about two hours north. I-95 and the Turnpike make both straightforward.
+Palm Beach International Airport is roughly an hour south depending on traffic; Orlando is about two hours north. I-95 and the Turnpike make both straightforward.
 
-The Palm Beach County commute is the thing to be realistic about. It's a long haul, particularly in the morning. Plenty of residents do it happily. The ones who regret it are the ones who didn't drive it before buying.
+The Palm Beach County commute is the thing to be realistic about. It is a long haul, particularly in the morning. Plenty of residents do it happily. The ones who regret it are the ones who did not drive it before buying.
 
-## Settling in
+## Settling In
 
 Pick your district first, and pick it around your actual daily routine rather than the house. Then lean into what the city does well — the parks network, the river, Tradition Square events, and the sheer amount of space your money buys.
 
-And pay attention to what's under construction near you. In a city changing this fast, the empty parcel down the road is a question worth asking about before you sign.`,
+And pay attention to what is under construction near you. In a city changing this fast, the empty parcel down the road is a question worth asking about before you sign.`,
     faqs: [
       { q: "What are the main districts of Port St. Lucie?", a: "St. Lucie West is the established hub with Clover Park and the densest retail. Tradition is the master-planned community with its own town square. PGA Village anchors golf to the south. The Port District is the riverfront redevelopment area along the St. Lucie River. The Walton Road and US-1 corridor is the planned stadium area. Beyond those, most of the city is a large residential grid." },
       { q: "What is the Port District in Port St. Lucie?", a: "The city's riverfront redevelopment area along the St. Lucie River, near Pioneer Park. It already has boardwalks, kayak launches, event space, and playgrounds, and it's where The Grove dining and entertainment district is being built — a significant change for a city that has historically turned away from its own river." },
@@ -19359,7 +19373,7 @@ And pay attention to what's under construction near you. In a city changing this
     funFact: "Tradition was designed as a new-urbanist 'town within a city' — the developer programmed the town square and retail before homes were sold, which is exactly backwards from how Florida suburbs usually develop. It's why Tradition actually feels like a town center rather than an afterthought.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-09',
   },
   {
     slug: 'best-neighborhoods-in-port-st-lucie-florida',
@@ -19373,63 +19387,73 @@ And pay attention to what's under construction near you. In a city changing this
     primaryKeyword: "best neighborhoods in Port St. Lucie Florida",
     secondaryKeywords: ["where to live in Port St. Lucie", "Tradition PSL", "PGA Village", "St. Lucie West"],
     h1: "Best Neighborhoods in Port St. Lucie, Florida",
-    body: `Choosing a neighborhood in Port St. Lucie is really choosing a district — and the districts differ far more than the housing inside them does.
+    body: `Choosing where to live in Port St. Lucie is less about picking a traditional neighborhood and more about picking the part of the city that supports your daily routine. The districts differ far more than the housing inside them does.
 
-Here they are organized by objective characteristics: property type, price tier, build era, amenities, and the association and CDD structure that determines what you'll actually pay monthly.
+They vary in housing age, property type, amenities, association fees, access to major roads, and proximity to shopping, schools and recreation. So what follows is organized by objective characteristics — property type, price tier, build era, amenities, and the association and CDD structure that determines what you actually pay monthly. The right choice depends on what matters to you, not on a universal ranking.
 
-## Master-planned with a town center → Tradition
+## Master-Planned With a Town Center: Tradition
 
-The city's flagship planned community, on the west side, built around a walkable town square with shops, restaurants, and a steady events calendar.
+The city's flagship planned community, on the west side, built around Tradition Square — shops, restaurants, community events and public gathering space in a walkable center. The broader area takes in numerous residential communities, parks, trails, healthcare facilities, businesses and continuing development.
 
-What distinguishes it: the developer programmed the town center and retail **before** selling homes, which is backwards from how Florida suburbs usually develop and the reason Tradition functions as an actual center rather than a strip mall with houses behind it. It's still actively building out.
+What distinguishes it: the developer programmed the town center and retail before selling homes, which is backwards from how Florida suburbs usually develop and the reason Tradition functions as an actual center rather than a strip mall with houses behind it.
 
-**Objective characteristics:** newest construction in the city, wide range from townhomes to larger single-family, walkable town center, extensive amenities, HOA, and **CDD assessments in much of it**.
+Housing runs to townhomes and villas, single-family homes, gated communities, age-qualified communities, new-construction neighborhoods, and larger homes with extensive amenities.
 
-**Trade-offs:** you're on the far west side, so the beach and the eastern districts are a real drive. Confirm the CDD amount and remaining term — see below, because this is the number that catches people.
+Objective characteristics: newest construction in the city, walkable town center, extensive amenities, HOA, and CDD assessments in much of it.
+
+Trade-offs: you are on the far west side, so the beach, US-1 and the eastern districts are a real drive. Not every neighborhood carrying the Tradition name is within walking distance of the square, and the area keeps adding neighborhoods and commercial development — so separate what is open today from what is still planned or under construction.
+
+Because association structures vary between neighborhoods, confirm HOA dues and what the association maintains, master-association fees, special-district assessments appearing on the tax bill, any club or amenity fees, rental and occupancy restrictions, and construction planned nearby. Do not assume every home carrying the Tradition name has the same amenities, fees or access to the town center. Confirm the CDD amount and remaining term in particular — see below, because that is the number that catches people.
 
 ![House under construction, floor framing in place](/images/port-st-lucie/stock-new-construction-framing.jpg "Much of Port St. Lucie's inventory is new or newly built — which generally insures better, and often carries a CDD assessment.")
 
-## Golf → PGA Village and The Legacy
+## Golf: PGA Village and The Legacy
 
-A serious golf destination with multiple courses, a learning center, and residential neighborhoods laid out around the layouts rather than the reverse.
+A serious golf destination. PGA Golf Club runs three championship courses — two by Tom Fazio, one by Pete Dye — plus a short course and extensive practice and instruction facilities, with residential neighborhoods laid out around the layouts rather than the reverse.
 
-**Objective characteristics:** golf-course frontage in much of it, established construction, HOA, range from attainable to upscale, some sections with additional club structure.
+The wider PGA Village area holds several communities rather than one uniform neighborhood: single-family homes, villas and condominiums, gated sections, golf-course properties, age-qualified communities, and both newer and established homes.
 
-**Trade-offs:** confirm what golf access actually attaches to the property — membership structures vary between sections and are not always what buyers assume.
+Objective characteristics: golf-course frontage in much of it, established construction, HOA, range from attainable to upscale, some sections with additional club structure.
 
-## Established and central → St. Lucie West
+Trade-offs: a PGA Village address does not automatically carry the same golf access or membership rights. Confirm whether membership is required, optional or separate; which courses and amenities are actually accessible; membership dues and initiation fees; HOA and master-association fees; maintenance responsibilities; rental restrictions; and whether the property sits inside PGA Village or simply near it. The individual community documents matter far more than the name.
 
-Near Clover Park, the densest retail and dining, and the most convenient part of the city for day-to-day life. A mix of housing including active-adult communities.
+## Established and Central: St. Lucie West
 
-**Objective characteristics:** mostly 1990s–2000s construction, established landscaping, wide range of property types including 55+ sections, HOA varies, no CDD in much of it, closest thing to "already finished" in Port St. Lucie.
+Near Clover Park — spring-training home of the New York Mets and regular-season home of the St. Lucie Mets — with the densest retail and dining, schools, medical services, golf communities and convenient I-95 access. The most convenient part of the city for day-to-day life.
 
-**Trade-offs:** older stock than Tradition, so roof and AC age matter more and drive insurance. The upside is that what you see is what you get — no construction next door.
+Housing covers single-family neighborhoods, gated and golf communities, condominiums and townhomes, villas, age-qualified communities, and homes both with and without associations.
 
-## Upscale gated → Tesoro and The Reserve
+Objective characteristics: mostly 1990s to 2000s construction, established landscaping, wide range of property types including 55+ sections, HOA varies, no CDD in much of it, and the closest thing to "already finished" in Port St. Lucie.
+
+Trade-offs: much of it was developed before the newest sections of Tradition, though construction dates vary by community. That means roof age, air-conditioning age, electrical and plumbing systems, windows and storm protection, association fees and reserves, insurance availability, and any recent or pending assessments all matter more than they would on newer stock.
+
+The advantage of an established area is that the surrounding commercial development is already visible — what you see is what you get. Even so, check current development plans for any nearby vacant or underused parcels.
+
+## Upscale Gated: Tesoro and The Reserve
 
 The higher-end gated golf communities, for buyers wanting luxury within Port St. Lucie's pricing rather than Martin County's.
 
-**Objective characteristics:** highest price tier in the city, gated, golf, larger lots, substantial HOA and in places club structure.
+Objective characteristics: highest price tier in the city, gated, golf, larger lots, substantial HOA and in places club structure.
 
-**Trade-offs:** limited inventory relative to the rest of the city. Confirm club obligations in writing.
+Trade-offs: limited inventory relative to the rest of the city. Confirm club obligations in writing.
 
-## Riverfront and nature → the North Fork areas
+## Riverfront and Nature: The North Fork Areas
 
 Homes near the St. Lucie River and its North Fork, for water access and green surroundings.
 
-**Objective characteristics:** varies widely by pocket, river and canal proximity, some with dock access, generally lower density, mixed build eras.
+Objective characteristics: varies widely by pocket, river and canal proximity, some with dock access, generally lower density, mixed build eras.
 
-**Trade-offs:** verify the flood zone specifically — river proximity changes the insurance picture materially. Confirm what water access actually exists, since "near the river" and "on navigable water with a dock" are very different properties.
+Trade-offs: verify the flood zone specifically — river proximity changes the insurance picture materially. Confirm what water access actually exists, since "near the river" and "on navigable water with a dock" are very different properties.
 
-## Maximum value → the broader grid
+## Maximum Value: The Broader Grid
 
-The bulk of the city: an enormous grid of residential streets holding its most accessible pricing, new and resale alike.
+The bulk of the city: an enormous grid of residential streets holding its most accessible pricing, new and resale alike. Expect older and newer single-family homes, non-HOA properties, larger suburban lots, homes with private pools, room for a boat or RV where permitted, and a mix of public utilities, wells and septic systems.
 
-**Objective characteristics:** widest range of build eras, many with **no HOA and no CDD**, municipal utilities, no amenity package, most attainable pricing in the area.
+Objective characteristics: widest range of build eras, many with no HOA and no CDD, no amenity package, most attainable pricing in the area.
 
-**Trade-offs:** no amenities and no community structure, and quality varies street to street. But for buyers who want a house and a yard without monthly obligations, this is where the value genuinely is — and the absence of a CDD can make a nominally pricier home cheaper monthly than a Tradition equivalent.
+Trade-offs: no amenities and no community structure, and quality varies street to street. Two neighborhoods that look identical on a map can differ in utility arrangement, road access, property age and what is being built nearby. But for buyers who want a house and a yard without monthly obligations, this is where the value genuinely is — and the absence of a CDD can make a nominally pricier home cheaper monthly than a Tradition equivalent.
 
-## Age of the housing stock, by district
+## Age of the Housing Stock, by District
 
 A useful shortcut, because build era drives insurance and maintenance more than location does here.
 
@@ -19439,29 +19463,29 @@ The western side, especially Tradition and its surrounding communities, is subst
 
 Neither is automatically better. Older stock often means bigger lots, no CDD, and mature landscaping. Newer means lower maintenance and better insurance but frequently a monthly assessment attached.
 
-## The CDD question — ask it every time
+## The CDD Question — Ask It Every Time
 
 This matters more here than in most Florida markets, for reasons our [cost of living guide](/blog/cost-of-living-in-port-st-lucie-florida) sets out in full.
 
-A **Community Development District** assessment finances a community's infrastructure and lands on your tax bill as a line item most buyers don't expect. It can run for decades and it transfers with the property.
+A Community Development District assessment finances a community's infrastructure and lands on your tax bill as a line item most buyers do not expect. It can run for decades and it transfers with the property.
 
-For any property you're considering, get in writing: **the CDD amount, the remaining term, and the payoff figure if one exists.** A lower-priced home with a large CDD can cost more monthly than a higher-priced home without one. Full mechanics in our [cost of living guide](/blog/cost-of-living-in-port-st-lucie-florida).
+For any property you are considering, get in writing the CDD amount, the remaining term, and the payoff figure if one exists. A lower-priced home with a large CDD can cost more monthly than a higher-priced home without one.
 
-## What else to verify
+## What Else to Verify
 
-- **FEMA flood zone** for the specific address — this varies considerably across the city's canal and drainage network
-- **Roof age and wind mitigation features**, which swing insurance by thousands
-- **Property taxes recalculated for a new owner**, not the seller's capped bill
-- **What's planned on nearby vacant parcels** — in a city building this fast, that empty lot has a future
-- **HOA dues and what they include**
+- FEMA flood zone for the specific address — this varies considerably across the city's canal and drainage network
+- Roof age and wind-mitigation features, which swing insurance by thousands
+- Property taxes recalculated for a new owner, not the seller's capped bill
+- What is planned on nearby vacant parcels — in a city building this fast, that empty lot has a future
+- HOA dues, master-association fees, and what they actually include
 
-## On schools
+## On Schools
 
-Port St. Lucie is served by **St. Lucie County Public Schools**. Grades and boundaries are reviewed and updated annually, and assignments in a rapidly growing district can change as new schools open to keep pace with growth.
+Port St. Lucie is served by St. Lucie County Public Schools. Grades and boundaries are reviewed and updated annually, and assignments in a rapidly growing district can change as new schools open to keep pace with growth.
 
 Verify current assignments directly with the district for the specific address rather than relying on a listing or an article, including this one.
 
-## Before you commit
+## Before You Commit
 
 In a city this large, spend time in the district at the hour you'd actually be there, and drive your real commute. Communities here differ on objective characteristics — price tier, build era, property type, amenities, association and CDD structure, and location. The right one depends on your budget, your commute, and how much monthly obligation you want attached to the house.`,
     faqs: [
@@ -19476,7 +19500,7 @@ In a city this large, spend time in the district at the hour you'd actually be t
     funFact: "PGA Village in Port St. Lucie was designed by Pete Dye and has hosted qualifying events for professional golf tours. The courses came first — the residential community was laid out around them, not the other way around. That sequencing shows in how the neighborhoods feel.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-08-09',
   },
   {
     slug: 'best-things-to-do-in-port-st-lucie-florida',
