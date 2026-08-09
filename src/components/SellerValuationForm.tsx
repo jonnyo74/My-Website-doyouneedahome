@@ -5,6 +5,7 @@ import type { Agent } from '@/lib/agents'
 import { TIMELINE_OPTIONS } from '@/lib/sellerLeadHelpers'
 import { trackEvent } from '@/lib/analytics'
 import { getUtmAndReferrer } from '@/lib/utm'
+import FormConsent from '@/components/FormConsent'
 
 interface FormValues {
   address: string
@@ -200,9 +201,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
           >
             Get My Free CMA
           </button>
-          <p className="text-center text-xs leading-5 text-slate-400">
-            No spam. Your information is never shared or sold.
-          </p>
+          <FormConsent />
         </form>
       ) : (
         <form onSubmit={handleSubmit} noValidate className="space-y-4">
@@ -359,10 +358,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
             </p>
           )}
 
-          <p className="text-center text-xs leading-5 text-slate-400">
-            No spam — your information is never shared or sold. By submitting, you agree to be
-            contacted by {agent.name} about your property.
-          </p>
+          <FormConsent />
         </form>
       )}
     </div>

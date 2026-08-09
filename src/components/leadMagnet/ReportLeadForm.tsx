@@ -4,6 +4,7 @@ import { useRef, useState } from 'react'
 import type { MarketReport } from '@/lib/marketReports'
 import { trackEvent } from '@/lib/analytics'
 import { getUtmAndReferrer } from '@/lib/utm'
+import FormConsent from '@/components/FormConsent'
 
 export const INTEREST_OPTIONS = [
   'Buying',
@@ -331,10 +332,7 @@ export default function ReportLeadForm({
         </p>
       )}
 
-      <p className={`text-center text-xs leading-5 ${dark ? 'text-white/40' : 'text-slate-400'}`}>
-        Free instant PDF download. No spam — your information is never shared or sold. By submitting,
-        you agree to be contacted by DO Homes Group about this report.
-      </p>
+      <FormConsent dark={dark} prefix="Free instant PDF download." />
     </form>
   )
 }
