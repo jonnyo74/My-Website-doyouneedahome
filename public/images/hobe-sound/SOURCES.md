@@ -196,6 +196,27 @@ EXIF intact but no GPS. They are now the source of the hero on
 width, 2048×602, 307KB. No upscale — the source is only 2048 wide, so the band is narrower
 than the 2400 the other banners use, and it is sharper for staying native.
 
+### `local-bridge-road-tunnel.jpg` — the community-page hero (4:3, not a banner)
+
+Added 2026-08-09 when John asked for a hero on the Hobe Sound **city page**. That hero is
+`h-[72vh] min-h-[520px]` with `object-cover`, which is roughly **0.64:1 on a phone** and
+2.2:1 on a laptop — so a 3.4:1 banner is the wrong shape entirely. At 375×812 a 3.4:1 source
+shows only **19% of its width**. Article banners cannot be reused here; the city hero needs a
+source near 4:3.
+
+Cut from **IMG_4524**, `extract({ left: 40, top: 140, width: 1460, height: 1095 })` then
+resized to **1440×1080**, quality 82 mozjpeg, 387KB. No upscale.
+
+**The Town of Jupiter Island sign is deliberately cropped out of this one**, which is the
+opposite of the decision made for `local-bridge-road-banyans.jpg` above. The reasoning
+differs by context: in an article banner the sign proves the location and is wanted. On the
+**Hobe Sound city page** the sign names a different municipality directly under an `<h1>`
+reading Hobe Sound, which reads as a mistake rather than as provenance. Cropping to
+`width: 1460` clears it (the sign starts near `x: 1618`) and also drops the parked car that
+rules out IMG_4523. What remains is the closed canopy, both rows of aerial roots and the
+vanishing point — plus a small speed-limit sign, which is ordinary road furniture and names
+no place.
+
 `top: 300` was chosen against `379` and `460`. Both lower crops keep more road and lose the
 arch, and the arch is the entire subject — at `460` it reads as an ordinary tree-lined street.
 At `300` you get the canopy closing overhead, both rows of aerial roots, the tunnel

@@ -2522,6 +2522,12 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Hobe Sound Barrier Island', 'Gomez Grant', 'Lost Lake / Equestrian Interior'],
     photos: [
+      '/images/hobe-sound/local-bridge-road-tunnel.jpg',
+      '/images/hobe-sound/local-blowing-rocks-shore.jpg',
+      '/images/hobe-sound/local-beach-empty-sand.jpg',
+      '/images/hobe-sound/local-blowing-rocks-beach.jpg',
+      '/images/hobe-sound/local-county-line-sign.jpg',
+      '/images/hobe-sound/local-bridge-road-curve.jpg',
     ],
     lat: 27.0597, lng: -80.1367,
   },
@@ -2747,6 +2753,8 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Manatee Pocket Waterfront', 'Canal Homes', 'Salerno Road Corridor'],
     photos: [
+      '/images/port-salerno/local-manatee-pocket-marina.jpg',
+      '/images/port-salerno/local-manatees-inline.jpg',
     ],
     savedSearches: [
       { label: 'Inland Homes', sublabel: '$400K – $550K', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Port%20Salerno&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000&s[maxPrice]=550000' },

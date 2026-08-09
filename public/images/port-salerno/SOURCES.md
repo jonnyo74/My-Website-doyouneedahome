@@ -46,6 +46,30 @@ lift and sportfishers — the best working-waterfront frame we have) and `IMG_33
 (dock, but with identifiable people in the foreground). More usable manatee frames:
 `Loose - Unsorted/IMG_5873.JPEG` and `IMG_5875.JPEG`.
 
+### City-page hero — shipped 2026-08-09, but wanting a taller source
+
+`local-manatee-pocket-marina.jpg` is now also `photos[0]` on `/communities/port-salerno`,
+which makes it the page hero and the og:image. It is the only frame we hold that was
+actually shot in Port Salerno, so there was no alternative.
+
+⚠️ **It is the wrong shape for that slot and this is a known compromise.** The community
+hero is `h-[72vh] min-h-[520px]` with `object-cover` — about 0.64:1 on a phone. A 3.4:1
+banner therefore shows only **19% of its width** at 375×812. The visible strip was checked
+before shipping and is defensible (blue clubhouse, docked sportfishers, pilings, water, with
+the gradient and title landing on the water), but it is a slice, not the composition.
+
+**To fix properly, `Archive/2020/February 2020/IMG_3310.JPEG` needs to be on this machine** —
+it is not currently anywhere under `Website Folders/`, so only the derived 2400×705 band
+survives here. With the original, cut a 4:3 city hero the same way Hobe Sound's
+`local-bridge-road-tunnel.jpg` was cut. `IMG_3311.JPEG` (the boatyard) is worth cutting at
+the same time — a working-waterfront frame arguably suits the city page better than the
+recreational marina does.
+
+`local-manatees-inline.jpg` is `photos[1]`, the single gallery image. The `stock-` files in
+this folder were deliberately **not** added to the gallery: gallery photos carry no caption,
+so putting a licensed stock canal shot there would assert it is Port Salerno, which is
+exactly what the caption-by-subject rule exists to prevent.
+
 ### Retired
 
 - `stock-manatee-underwater.jpg` (Belize) and `stock-manatee-face.jpg` — both replaced by
