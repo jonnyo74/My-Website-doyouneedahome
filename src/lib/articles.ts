@@ -17945,118 +17945,228 @@ Get on the water in your first month, whether that's a charter, a dive trip, a k
     h1: "Rocky Point, Stuart FL: A Buyer's Guide",
     heroImage: '/images/port-salerno/stock-canal-docks-evening.jpg',
     heroImageCredit: 'Photo by Martin Zangerl / Unsplash',
-    body: `If you've been shopping waterfront in this part of Martin County, Rocky Point has probably come up — and it has probably confused you.
+    body: `Rocky Point comes up constantly in searches for waterfront homes in Stuart and Port Salerno, and the way it gets described is confusing.
 
-The listings say Stuart. The ZIP code is the same one Port Salerno uses. The water out front is the Manatee Pocket, which is Port Salerno's harbor. And the reason buyers keep circling back to it has nothing to do with any of that: it's one of the few places on this coast where a lot of homes reach the ocean without passing under a fixed bridge.
+The listings say Stuart. The ZIP code is 34997, which is also Port Salerno's. The peninsula sits on Manatee Pocket, directly across from Port Salerno's historic fishing and restaurant district. The government is unincorporated Martin County.
 
-Here's what the area actually is, what it isn't, and what to check before you write an offer.
+All of those are accurate at the same time.
 
-## Where Rocky Point is
+Rocky Point is a distinct waterfront neighborhood inside the broader Port Salerno census-designated community, with a strong enough local identity that people simply call it Rocky Point. Understanding the difference between its mailing address, its census geography and its local identity matters as soon as you start comparing homes, taxes, services and boating access.
 
-Rocky Point is a peninsula on the north side of the **Manatee Pocket**, just south of downtown Stuart and immediately across the water from Port Salerno. It's unincorporated Martin County — no city government, no municipal police, county services throughout.
+Here is what the area is, what it is not, and what to check before you write an offer.
 
-It isn't a subdivision. It's a geographic area containing several subdivisions plus a lot of older, unplatted waterfront that predates any of them. That's the first thing to understand: "Rocky Point" describes where you are, not what you bought.
+## Where Rocky Point Is Located
 
-### The address confusion, resolved
+Rocky Point is a water-wrapped peninsula on the eastern and northern side of Manatee Pocket, in unincorporated Martin County. It lies south of downtown Stuart and directly across the Pocket from Port Salerno's commercial fishing and restaurant district.
 
-Mail here goes to **Stuart, FL 34997**.
+Its borders are a combination of Manatee Pocket, the St. Lucie River, the Intracoastal Waterway, residential canals and smaller tidal creeks. That position places many homes relatively close to the St. Lucie Inlet and the Atlantic, which is the main reason Rocky Point attracts boaters.
 
-34997 is also Port Salerno's ZIP. So a Rocky Point property has a Stuart mailing address, a Port Salerno ZIP, an unincorporated Martin County government, and a Manatee Pocket waterfront. All four are true at once, and none of them contradicts the others.
+## Is Rocky Point Part of Port Salerno
 
-Why it matters practically: **the mailing address tells you nothing about your taxes, your services, or your schools.** People assume a Stuart address means the City of Stuart. It usually doesn't. Rocky Point sits outside the city limits, which means county millage and county services rather than city ones — a difference we cover in detail in our [comparison of Port Salerno and Stuart](/blog/port-salerno-vs-stuart).
+For census and geographic purposes, yes. It falls within the Port Salerno Census-Designated Place, commonly called a CDP — a statistical boundary used to identify an unincorporated population center. A CDP is not an incorporated city and does not create a separate municipal government.
 
-Confirm the jurisdiction for the specific parcel with Martin County rather than inferring it from the envelope.
+Rocky Point also keeps its own recognizable identity. Locals say Rocky Point rather than Port Salerno, and listings use whichever label suits: Rocky Point, Rocky Point Stuart, Stuart 34997, Port Salerno area, Manatee Pocket. Those are all different ways of identifying the same general area.
 
-## Why boaters target it
+## Why the Mailing Address Says Stuart
 
-This is the whole reason Rocky Point commands attention.
+Most Rocky Point properties use a Stuart, Florida 34997 mailing address. That does not mean the home sits inside the incorporated City of Stuart.
 
-Much of the area is laid out on **deep-water canals**, and a significant share of those canals reach the St. Lucie Inlet **without a fixed bridge in the way**. From the Pocket it's a short run to the inlet and out to the Atlantic.
+Postal addresses exist to deliver mail. They do not establish municipal boundaries, taxing districts, police jurisdiction, utility providers, school assignments, permitting authority or government services.
 
-That combination — depth, no overhead restriction, short run — is genuinely uncommon. Plenty of Florida waterfront offers a dock. Far less of it offers a dock that a tall boat can leave from and return to on any tide without planning around a bridge.
+Rocky Point is generally governed as part of unincorporated Martin County rather than by the City of Stuart, which means county millage and county services rather than city ones — a difference we cover in our [comparison of Port Salerno and Stuart](/blog/port-salerno-vs-stuart). Verify jurisdiction for the specific parcel through county property and tax records rather than relying on the mailing address or the MLS city field.
 
-**But do not treat "no fixed bridges" as a property of the neighborhood.** It's a property of the specific route from the specific dock. Verify it for the address you're considering, ideally by running it yourself. The same goes for depth: canal depth varies, it shoals, and the number that matters is depth at your dock at mean low water, not the average someone quotes you.
+## Rocky Point Is Not One Subdivision
 
-The insurance and carrying-cost side of owning waterfront here — which is where a lot of buyers get surprised — is covered in our [waterfront buyer's guide](/blog/waterfront-homes-port-salerno-buyers-guide). Read it before you tour.
+Rocky Point is a geographic neighborhood containing several subdivisions and residential sections. It is not one master-planned community with one set of rules.
 
-## The subdivisions, and what differs between them
+Depending on where you look you will find waterfront homes with private docks, non-waterfront homes, homes with community boat-ramp access, HOA communities, gated subdivisions, non-HOA streets, older concrete-block houses, renovated waterfront properties, newer custom construction, larger residential lots and smaller canal-front lots.
+
+Condition and character vary considerably from one street to the next. That appeals to buyers who prefer an established neighborhood over a uniform planned development, but it is also why property-specific due diligence matters more here than in most areas.
+
+## Why Boaters Consider Rocky Point
+
+This is the whole reason the area commands attention.
+
+Many waterfront properties offer routes from private canals or the Manatee Pocket shoreline toward the St. Lucie River and the St. Lucie Inlet, and some of those routes do not pass beneath a fixed bridge. That matters enormously for vessels with towers, hardtops, radar, antennas, outriggers or anything else that adds air draft.
+
+That combination — depth, no overhead restriction, short run to the inlet — is genuinely uncommon. Plenty of Florida waterfront offers a dock. Far less of it offers a dock that a tall boat can leave from and return to on any tide without planning around a bridge.
+
+But "no fixed bridges" is never a property of the neighborhood. It is a property of the exact route from the exact dock, and it has to be verified that way.
+
+### Ocean Access Is Property-Specific
+
+A listing may advertise ocean access without answering any of the practical questions. Before you rely on the phrase, establish whether there are fixed bridges, whether any equipment has to be lowered, the actual route to the inlet, travel time at legal speeds, the no-wake and idle-speed zones, canal width, turning room, water depth, shoaling and any current navigation restrictions.
+
+Two Rocky Point properties can both advertise ocean access and deliver completely different boating experiences. Evaluate the route for the boat you own, or the one you realistically intend to own — ideally by running it yourself.
+
+### Water Depth Varies
+
+Rocky Point is associated with deep-water boating, but depth is not uniform across the neighborhood. It varies by canal, tide, shoaling, sediment, dredging history, storm activity, distance from the marked route, dock placement and waterway maintenance.
+
+The useful measurement is never a general figure for Rocky Point or the Pocket. It is the depth at the private dock, through the canal, and along the intended route, under relatively low-water conditions — compared against your vessel's draft and the under-keel clearance you want.
+
+## The Subdivisions
 
 Rocky Point contains a mix, and the differences matter more than the marketing does.
 
-**Rocky Point Estates** is one of the few HOA communities in the area — just over 170 homes on a canal off the St. Lucie. Residents get a waterfront park with a boat ramp and picnic grounds, and there's a 29-slip marina where members in good standing can own or lease a dock. If you want deeded amenities and a governing document, this is the part of Rocky Point that has them.
+### Rocky Point Estates
 
-**The Reef** is a newer gated subdivision — around 52 home sites, a portion of them larger estate lots, with inlet access a short run away. Newer construction, newer infrastructure, and an HOA.
+Just over 170 homes on a canal off the St. Lucie River, and one of the few HOA communities in the area. Amenities have included a waterfront park, picnic areas, a private community boat ramp, and a 29-slip marina taking boats up to about 30 feet, where docks can be owned or leased by members in good standing. Dues have recently run around two hundred dollars a year.
 
-**The rest of Rocky Point** is largely non-HOA: older waterfront homes, varied lot sizes and setbacks, no architectural review, and considerable variation in condition from one street to the next. Some of it is well kept. Some of it is a project.
+That structure lets non-waterfront residents reach the water without owning and maintaining a private seawall and dock. Confirm the current figures before relying on them, and check slip availability, whether slips are owned, assigned or leased, waiting lists, boat length and beam limits, ramp use, guest privileges, trailer storage, parking, dues and any special assessments. Owning a home in the community does not mean a slip will be available.
 
-This is the trade the area presents. HOA sections give you amenities, predictability, and rules. Non-HOA sections give you freedom, generally more land or water per dollar, and the full responsibility for your own seawall and dock.
+### The Reef
 
-Neither is better. They attract different buyers and carry different costs, and you should decide which you want before you fall for a specific house.
+A gated community near the Intracoastal — roughly 52 home sites, a portion of them larger estate lots, built mostly between the mid-1990s and the late 2000s, with inlet access a short run away. Its planned, gated setting is a different experience from Rocky Point's older non-HOA streets.
 
-## The community ramp strategy
+Review current association documents for restrictions on architecture, construction, landscaping, boats, trailers, rentals, pets, parking and waterfront improvements, along with assessments. Not every home in The Reef is waterfront, and proximity to the Intracoastal does not by itself provide a private dock or legal water access.
 
-Here's the part most buyers never think of, and it's the most useful thing on this page.
+### Non-HOA Areas
 
-**Several neighborhoods in Rocky Point have their own boat ramp** — a community ramp, sometimes a park, sometimes dock slips, available to residents whether or not their own lot touches water.
+A significant share of Rocky Point is residential streets outside any large homeowners association. That appeals to buyers who want fewer private restrictions, more architectural flexibility, room for boat and trailer storage, larger or more varied lots, renovation opportunities, and control over their own dock and seawall.
 
-Work through what that means. A waterfront lot with a private dock carries a waterfront price, waterfront insurance, a seawall you are responsible for, and dock maintenance forever. A non-waterfront house three streets back, in a neighborhood with a community ramp, gets you onto the same water on the same tide — for a materially different number.
+The trade-off is responsibility. A non-HOA waterfront owner may be entirely on the hook for seawall maintenance, dock repairs, boat-lift maintenance, marine permitting, drainage, landscaping, code compliance and, where applicable, private-road or shared-access issues. Housing condition and street appearance also vary more than in a regulated community. Some of it is well kept. Some of it is a project.
 
-Rocky Point Estates is the clearest illustration. Residents get the ramp, the park, and access to a 29-slip marina where a dock can be owned or leased, and the association fee has recently run to only a couple of hundred dollars a year. Confirm the current figure and what it covers before you rely on it, but the structure is the point: that is not a waterfront carrying cost.
+Neither arrangement is better. They attract different buyers and carry different costs, and you should decide which you want before you fall for a specific house.
 
-**The trade-offs are real.** You launch and retrieve rather than walking out your back door. You may be trailering, or paying separately for a slip. On a busy winter weekend there's a queue. And a community ramp is governed — read the rules on boat size, trailer storage, guest use, and whether slips are actually available or there's a waiting list.
+## The Community-Ramp Alternative
 
-But for a buyer who wants a boat more than they want a seawall, this is the single most efficient way to buy into this area. **Ask specifically which neighborhoods have their own ramp** — it isn't advertised the way waterfront is, and it doesn't show up in a listing search.
+Here is the part most buyers never think of, and it is the most useful thing on this page.
+
+A waterfront home is not the only way to boat in Rocky Point. Some neighborhoods provide community ramps, shared waterfront parks or marina access to residents whose homes are not on the water at all.
+
+Work through what that means. A waterfront lot with a private dock carries a waterfront price, waterfront insurance, a seawall you are responsible for, and dock maintenance forever. A non-waterfront house three streets back, in a neighborhood with a community ramp, gets you onto the same water on the same tide for a materially different number — avoiding the waterfront purchase premium, private seawall responsibility, dock maintenance, boat-lift repairs and some direct flood exposure.
+
+Rocky Point Estates is the clearest illustration. Residents get the ramp, the park, and access to the marina, for dues in the low hundreds annually. Confirm the current figure and what it covers before you rely on it, but the structure is the point: that is not a waterfront carrying cost.
+
+The trade-offs are real — launching and retrieving instead of walking out your back door, trailer storage, ramp congestion on a busy winter weekend, association rules, guest restrictions, operating hours, marina waiting lists and separate slip fees.
+
+A buyer who mainly wants access to boating rather than a waterfront view should compare both options honestly. For someone who wants a boat more than they want a seawall, this is the single most efficient way to buy into this area. Ask specifically which neighborhoods have their own ramp — it is not advertised the way waterfront is, and it does not show up in a listing search.
 
 ![A covered boat lift and dock on a quiet residential canal at dusk](/images/port-salerno/stock-dock-lift-canal.jpg "Community ramp access means a boat without a waterfront lot — no seawall of your own, and no dock to maintain. || Photo by Casey Lovegrove / Unsplash")
 
+### Verify the Rights Conveyed With the Property
+
+Community water access should never be assumed. Confirm whether the property legally includes boat-ramp use, marina eligibility, shared dock rights, waterfront-park access, trailer-storage privileges and guest access.
+
+Those rights may be controlled by association membership, deed restrictions, recorded easements, separate marina agreements, waiting lists or current community rules. A nearby ramp or dock is not automatically available to every Rocky Point resident.
+
 ## Sandsprit Park
 
-At the entrance to the Manatee Pocket, facing the St. Lucie Inlet and the Indian River Lagoon, **Sandsprit Park** is the public anchor of this area.
+At 3443 SE St. Lucie Boulevard, near the entrance to Manatee Pocket and facing the St. Lucie Inlet and the Indian River Lagoon, Sandsprit Park is one of Martin County's major public boating facilities and the public anchor of this area. It is positioned for access to the Pocket, the St. Lucie River, the Intracoastal Waterway and the inlet.
 
-It has a boat ramp — one of the busiest in the county, and the closest public ramp to the inlet — plus a playground, shoreline beach areas, and a perimeter boardwalk. Typical hours run roughly 6 a.m. to 9 p.m., though it's worth confirming current hours and any ramp construction with Martin County before you rely on them.
+Amenities have included public boat ramps across two separate launch areas, courtesy docks, roughly 110 trailer parking spaces, picnic areas, pavilions, a playground, restrooms, shoreline waterfront access and a perimeter boardwalk. Its ramp is among the busiest in the county and the closest public ramp to the inlet. Typical hours run 6 a.m. to 9 p.m., though it is worth confirming current hours and any ramp construction with Martin County before you rely on them.
 
-Two honest notes for anyone buying nearby.
+### Park Traffic and Noise
 
-**The ramp is genuinely busy**, particularly on winter weekends and holidays. If you're buying within earshot, go stand there on a Saturday morning in February before you decide it won't bother you.
+Public ramps get busy on winter weekends, holidays, tournament days, in good boating weather, early in the morning and throughout peak season. Homes near the park may get trailer traffic, engines, early-morning activity, parking pressure and launch noise.
 
-**It's also a real amenity**, and not only for people without a dock. Trailer boats, visiting family, kayaks, and a place to put in when your lift is being serviced all run through it.
+If you are considering something nearby, go stand there on an active Saturday morning in February rather than relying on a quiet weekday showing.
 
-## The mooring field
+The same activity is also a real amenity, and not only for people without a dock. Trailer boats, visiting family, kayaks, and a place to put in when your lift is being serviced all run through it. What reads as noise to one buyer is the reason another one moves here.
 
-Martin County operates a **36-vessel mooring field** in the Manatee Pocket — the North Field taking boats up to 40 feet, the South Field up to 30, in water averaging roughly five to seven feet at mean lower low tide. There's a dinghy dock, a weekly pump-out, and a harbormaster.
+## The Manatee Pocket Mooring Field
 
-It's relevant to Rocky Point buyers for two reasons. It's an option if you want a bigger boat than your dock can take, and it's part of why the Pocket stays organized rather than becoming an anchorage free-for-all. How the harbor came to be organized this way, and how the last working fishing dock survived, is in our [history of the village](/blog/history-of-port-salerno-florida).
+Martin County operates a managed 36-vessel mooring field at 4358 SE Bayview Street. It currently includes North Field moorings for vessels up to 40 feet, South Field moorings up to 30 feet, average depths of roughly five to seven feet at mean lower low water, a dinghy dock, restrooms, weekly pump-out service, trash facilities, limited vehicle parking and harbormaster oversight.
 
-## Who Rocky Point suits
+The field accepts transient and longer-term users who meet current registration, insurance and vessel-condition requirements.
 
-**It suits you if:** the boat is the reason you're moving, you want water depth and unobstructed inlet access more than you want a walkable downtown, and you're comfortable doing property-specific due diligence rather than relying on the neighborhood's reputation.
+It is relevant to Rocky Point buyers for two reasons. It is an option if you want a bigger boat than your dock can take, and it is a large part of why the Pocket stays organized rather than becoming an anchorage free-for-all. How the harbor came to be run this way, and how the last working fishing dock survived, is in our [history of the village](/blog/history-of-port-salerno-florida).
 
-**It suits you less if:** dinner within walking distance matters to you, you want uniform housing stock and predictable street appearance, or you don't own a boat and don't intend to. Waterfront here carries a cost — in price, insurance, and maintenance — that only pays off if you use the water.
+### Mooring Depth Does Not Establish Residential Depth
 
-**It's worth a hard look if** you've been shopping Stuart waterfront and finding that the properties with genuinely unobstructed inlet access are thin on the ground or priced beyond what you wanted to spend.
+The county's published depth applies to its designated moorings. It says nothing about the depth at a private Rocky Point dock, inside a residential canal, along a side creek, throughout Manatee Pocket, or along every route to the inlet. A waterfront buyer still has to investigate the individual property and route.
 
-## What to check before you offer
+Nor should the mooring field be assumed to provide guaranteed space for a vessel that cannot use a residential dock. Availability, size limits, insurance requirements and draft rules all still apply.
+
+## Waterfront Ownership Costs
+
+A Rocky Point waterfront property may come with considerably more than a house and a view: seawall, dock, boat lift, pilings, shoreline stabilization, marine permits, flood insurance, wind insurance, dredging participation and canal maintenance.
+
+None of that is obvious during a showing, and all of it can represent substantial future cost. A renovated interior does not compensate for a failing seawall or an unpermitted dock. The insurance and carrying-cost side — where a lot of buyers get surprised — is covered in our [waterfront buyer's guide](/blog/waterfront-homes-port-salerno-buyers-guide). Read it before you tour.
+
+### Have the Seawall Evaluated
+
+A seawall stabilizes and protects waterfront land. Warning signs include cracking, leaning, bulging, rust staining, soil loss, depressions near the wall, separation between panels and repeated patching.
+
+A general home inspection may identify visible concerns but will not usually determine the wall's structural condition or likely repair cost. Use a qualified marine contractor, engineer or other appropriate specialist during the inspection period. Establish who is legally responsible for the wall, too — it may be the individual owner, an association, multiple neighboring owners, or another entity under a recorded agreement.
+
+### Verify Dock and Lift Permits
+
+Older waterfront properties may have docks, lifts, pilings, davits or seawalls that were built without permits, modified after approval, replaced differently from approved plans, expanded without authorization, or never formally closed out.
+
+Request Martin County permit history, approved plans, final inspections, state and federal authorization where applicable, repair invoices and manufacturer information for the lift. Existing structures do not prove that the work was permitted, and unpermitted work becomes the buyer's problem.
+
+### Flood Zones and Insurance
+
+Flood exposure varies throughout Rocky Point, and neighboring homes can differ in FEMA flood zone, base flood elevation, building elevation, flood-insurance requirement, prior flooding history and drainage conditions.
+
+Obtain current flood-zone information, an elevation certificate where available, homeowners and flood quotes, a wind-mitigation inspection and a four-point inspection where required. Do not estimate your cost from the seller's current premium or a neighbor's policy. Pricing is property-specific, and the quotes should be in writing during your inspection period rather than after closing.
+
+### Roof and Building Condition
+
+Roof age, construction type and wind-mitigation features affect both insurance availability and cost. Insurers may review roof covering, roof-deck attachment, roof-to-wall connection, opening protection, electrical, plumbing, HVAC, prior claims and general property condition.
+
+An older home is not automatically uninsurable, and a newer home is not automatically inexpensive to insure. Get written quotes for the actual buyer and the actual property during the contract period.
+
+### Sewer, Septic and Utilities
+
+Utility service varies within Rocky Point. A property may be on public water and sewer, public water with septic, a private well and septic, or another property-specific arrangement.
+
+For septic properties, investigate system age, tank and drainfield location, capacity, maintenance history, last pumping, prior repairs, and whether future additions can be supported. Do not assume every property on the street has the same arrangement.
+
+## Who Rocky Point May Suit
+
+Rocky Point tends to appeal to buyers who value boating access and proximity to the inlet, Manatee Pocket itself, private docks or community boat ramps, the choice between HOA and non-HOA streets, an established residential setting, access to Port Salerno's waterfront businesses, and proximity to Stuart without living downtown.
+
+Put more bluntly: it suits you if the boat is the reason you are moving, you want water depth and unobstructed inlet access more than you want a walkable downtown, and you are comfortable doing property-specific due diligence rather than relying on the neighborhood's reputation.
+
+It is worth a hard look if you have been shopping Stuart waterfront and finding that the properties with genuinely unobstructed inlet access are thin on the ground or priced beyond what you wanted to spend.
+
+## Who May Prefer Another Area
+
+Rocky Point is less suitable for buyers who want a highly walkable downtown, uniform architecture, extensive shopping within the neighborhood, minimal exterior maintenance, passenger-rail access, a boating lifestyle without marine expenses, or identical rules and amenities throughout the area.
+
+A buyer who does not intend to use the water should think carefully about whether the added price and carrying costs of waterfront ownership deliver enough value.
+
+## What to Check Before Making an Offer
 
 Rocky Point rewards diligence more than most areas, because the variation between two adjacent properties can be enormous.
 
-- **Bridge clearance on the actual route** from that dock to the inlet, for your actual boat, including antennas and towers
-- **Depth at the dock at mean low water**, not at high tide on the day you toured
-- **Seawall condition and age**, and whether it's the owner's responsibility or shared — this is one of the largest unbudgeted costs a waterfront buyer meets
-- **Dock and lift permits**, and whether what's there was permitted. Unpermitted docks and enclosures are common in older waterfront areas and become your problem
-- **Sewer or septic** — and if septic, when it was last pumped, its capacity, and whether the drainfield has ever been replaced
-- **Flood zone and elevation certificate**, plus what insurance actually quotes — get real quotes during your inspection period, not after
-- **HOA documents** if you're in Rocky Point Estates or The Reef: dues, reserves, rules on boats, trailers, rentals and construction
-- **Whether the ramp noise reaches the property**, on a busy weekend rather than a quiet weekday
+- Jurisdiction — is the property in unincorporated Martin County, which taxing districts apply, which agencies provide services, and which permitting office has authority?
+- Boating route — are there fixed bridges, what is your vessel's air draft with antennas and towers up, how long is the route to the inlet, and where are the no-wake zones?
+- Water depth — what is the depth at the dock, when was it measured, what is the low-water depth, and what is the depth along the full route?
+- Marine structures — who owns the seawall, who maintains it, were the dock and lift permitted, and what repairs have been completed?
+- Insurance and flooding — what flood zone applies, is an elevation certificate available, what do current written quotes show, and what is the hurricane deductible?
+- Utilities — is the property on sewer or septic, is the water public or from a well, and are connection requirements or assessments pending?
+- Association rules — what are the dues, are special assessments expected, is marina space available, what boat and trailer rules apply, and are rentals or construction restricted?
+- Ramp noise — does it reach the property on a busy weekend, rather than on the quiet weekday you toured?
 
-None of this is exotic. All of it is address-specific, and none of it can be answered by anything you read about the neighborhood as a whole — including this article.
+None of this is exotic. All of it is address-specific, and none of it can be answered by anything you read about the neighborhood as a whole, including this article.
 
 Confirm the particulars with Martin County and the appropriate licensed professionals: a marine contractor for the seawall and dock, a surveyor for elevation, and an insurance agent who will put a real number in writing.
 
-## Send us the address
+## Visit More Than Once
 
-If you're looking at something in Rocky Point, tell us the address and tell us about your boat — length, draft, and height with everything up.
+Rocky Point feels different depending on the time and the conditions. Visit early on a weekday, on a Saturday morning, during active boating hours, in winter season, near both high and lower tides, and after heavy rain where practical.
 
-We'll walk the route from that dock to the inlet with you, tell you honestly what we'd want checked on the seawall and the dock, what the insurance picture is likely to look like, and whether the property actually delivers the access it's being sold on. Free, and with no obligation to use us.`,
+Watch the ramp traffic, marine-business noise, water depth, wakes, drainage, street parking, neighboring properties, boat and trailer storage, and commercial activity. A quiet afternoon showing does not represent every aspect of daily life here.
+
+## The Bottom Line
+
+Rocky Point is a distinct waterfront neighborhood within the broader Port Salerno census-designated community. It generally uses Stuart mailing addresses and is usually governed as part of unincorporated Martin County rather than the incorporated City of Stuart.
+
+Its appeal comes largely from its relationship with the water. Depending on the property, buyers may find private docks, routes without fixed bridges, community boat ramps, marina access, proximity to Sandsprit Park, access to Manatee Pocket, comparatively convenient inlet access, and a choice between HOA and non-HOA streets.
+
+Those advantages are not identical throughout Rocky Point. Water depth, boating routes, seawall condition, permits, utility service, flood exposure and community rights can vary significantly between nearby properties. Evaluate the exact home, the exact dock and the exact route — not simply the Rocky Point, Stuart or Port Salerno label used in the listing.
+
+If you want the wider picture on schools, prices and daily life, our [Port Salerno community guide](/communities/port-salerno) covers it.
+
+## Send Us the Address
+
+If you are looking at something in Rocky Point, tell us the address and tell us about your boat — length, draft, and height with everything up.
+
+We will walk the route from that dock to the inlet with you, tell you honestly what we would want checked on the seawall and the dock, what the insurance picture is likely to look like, and whether the property actually delivers the access it is being sold on. Free, and with no obligation to use us.`,
     faqs: [
       { q: "Is Rocky Point in Stuart or Port Salerno?", a: "Both answers are partly right, which is why it confuses people. Mail goes to Stuart, FL 34997 — but 34997 is also Port Salerno’s ZIP, the water out front is the Manatee Pocket, and the area is unincorporated Martin County rather than inside Stuart city limits. The mailing address does not determine your taxes, services, or jurisdiction." },
       { q: "Do Rocky Point homes have ocean access without bridges?", a: "Many do, and that is the main reason buyers look here. A significant share of the canals reach the St. Lucie Inlet with no fixed bridge in the way. But treat it as a property of the specific route from the specific dock rather than a feature of the neighborhood, and verify it for the address you are considering — ideally by running it yourself with your own boat." },
@@ -18066,10 +18176,10 @@ We'll walk the route from that dock to the inlet with you, tell you honestly wha
       { q: "What should I check before buying in Rocky Point?", a: "Bridge clearance on the actual route from that dock to the inlet for your actual boat, depth at the dock at mean low water, seawall condition and who is responsible for it, whether the dock and lift were permitted, sewer versus septic, flood zone and real insurance quotes, and HOA documents if applicable. The variation between two adjacent properties here can be enormous, so none of it can be answered at the neighborhood level." },
     ],
     internalLinks: ["port-salerno-vs-stuart", "history-of-port-salerno-florida", "waterfront-homes-port-salerno-buyers-guide"],
-    funFact: "A Rocky Point property can carry a Stuart mailing address, Port Salerno’s 34997 ZIP code, unincorporated Martin County government, and Manatee Pocket waterfront — all at the same time. None of those contradict each other, and the address on the envelope tells you nothing about which taxing districts or services actually apply.",
+    funFact: "Rocky Point can be described, all at the same time, as a distinct waterfront neighborhood, part of the broader Port Salerno Census-Designated Place, a Stuart 34997 mailing address, an unincorporated Martin County community, and a peninsula bordering Manatee Pocket. None of those descriptions contradicts the others. The mailing address does not independently establish city limits, taxes, services, utilities or permitting authority — and for waterfront buyers, the same address-specific thinking applies to the water. “No fixed bridges,” “deep water” and “ocean access” should be verified for the exact dock and the exact route, not assumed from the Rocky Point name.",
     author: 'john',
     published: true,
-    updated: '2026-08-04',
+    updated: '2026-08-09',
   },
   {
     slug: 'pros-and-cons-of-living-in-port-salerno-florida',
