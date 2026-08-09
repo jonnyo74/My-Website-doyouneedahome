@@ -136,6 +136,7 @@ right, so the two read as different places even though they are metres apart.
 | `stock-golf-fairway-sunset.jpg` | Unsplash, Derick McKinney — `dlzCGn5LndM` | Free Unsplash License | Golf fairway at sunset, sabal palms, water hazard, open water beyond |
 | `stock-marsh-boardwalk.jpg` | Unsplash, Hannah Cole — `x15_JR1aRQo` | Free Unsplash License | Wooden boardwalk over marsh, cabbage palms and pines in the treeline, saw palmetto, flat horizon |
 | `stock-kayak-cypress-river.jpg` | Unsplash, Chase Baker — `gTFtX-y1O14` | Free Unsplash License | Single kayaker on dark, still blackwater; buttressed bald cypress, cabbage palms, ferns and vine-covered trunks |
+| `stock-communal-table.jpg` | Unsplash, Spencer Davis — `vJsj-hgOEG0` | Free Unsplash License | Overhead of a loaded communal picnic table, hands reaching in from both sides — hero on `best-places-to-eat-drink-hang-out-in-hobe-sound-florida` |
 
 `stock-kayak-cypress-river.jpg` is the inline image in the nature section of
 `who-should-move-to-hobe-sound-florida`, sitting above the Jonathan Dickinson paragraph.
@@ -265,6 +266,46 @@ which is the second, independent reason not to put one on Christine's local guid
 the range runs **1900 to 1989**, mostly aerials (Camp Murphy 1942, park overflights 1983,
 residential aerials 1989). Nothing present-tense, and everything at the same 600px ceiling.
 Searched via `floridamemory.com/find?keywords=`.
+
+## The eat-and-drink hero — seven rejections before one passed
+
+`stock-communal-table.jpg` is a 3.4:1 band from **`vJsj-hgOEG0` at `top: 400`**, 2400×706, no
+upscale. Shot from directly overhead, so there is **not one face in frame** — only hands, arms
+and torsos around a loaded picnic table.
+
+That is why it won. It is the only frame found that puts people in the picture while clearing
+all three constraints at once: the free licence, the fair-housing exposure that comes with
+identifiable people on a real estate page, and the no-legible-branding rule. The group reads as
+visibly mixed and nobody is grouped as a household. `top: 400` also crops out a small garment
+tag at the bottom of the source frame.
+
+**Everything else tried, and why each failed** — worth keeping, because this subject is far
+harder to source than it looks. Real cafés have signage and aprons carry badges.
+
+| Frame | Failure |
+|---|---|
+| `2AbAZiIhkY8` | Unsplash+ paid tier |
+| `Che5p3omBXQ`, `febxRTk6ZsM` | Unsplash+ paid tier |
+| `8XMvobRFrA4` | Free and Florida-tagged, but a woman and child with faces visible — family-status imagery, which `FAIR-HOUSING-AUDIT.md` already ran a pass to remove from copy |
+| `VqsF1ZKgwHU` | Portrait; PocketBook e-reader branding; European licence plate on a car in frame |
+| `MEZ0rALHk24` | "Jocelyn's Provisions" legible twice plus "Messina" — Brisbane |
+| `zKLRgmN_4vg` | Portrait; tight identifiable portrait of the barista |
+| `XiyR0BXRIsI` | Face cropped out, but apron badges reading "5th Coffee Master CBS International", a South Korean flag pin, and a "9 BLOCK" dripper |
+| `B6ZMCaqLwwA` | Portrait, and it is **Ho Chi Minh City** — "Bún Mọc" signage, "Tháp K", Vietnamese phone numbers |
+
+⚠️ **Method note.** `B6ZMCaqLwwA` was recommended off Unsplash's own metadata, which described a
+subtropical outdoor café with palms and no branding. Opening the file showed a Vietnamese street
+with a restaurant sign in it. **Open every candidate before recommending it** — the metadata on
+that platform describes tags, not what is actually in the frame.
+
+## Known free Unsplash frames that are genuinely Hobe Sound
+
+Rare and worth keeping on file:
+
+- **`tKzbAZPLGk4`** — Kate M, free Unsplash License, geotagged **575 S Beach Rd, Hobe Sound**,
+  which is Blowing Rocks. A person sitting in the limestone gaps above the sea. Portrait
+  2400×3000, so it cannot carry a banner, but it would serve an inline. Note it does show an
+  identifiable person.
 
 ## Rejected
 

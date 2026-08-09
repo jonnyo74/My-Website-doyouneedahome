@@ -17111,6 +17111,8 @@ There is no universally best choice. The right community is the one that support
     primaryKeyword: "best restaurants in Hobe Sound Florida",
     secondaryKeywords: ["where to eat in Hobe Sound", "Hobe Sound dining", "Harry and the Natives"],
     h1: "Best Places to Eat, Drink & Hang Out in Hobe Sound, Florida",
+    heroImage: '/images/hobe-sound/stock-communal-table.jpg',
+    heroImageCredit: 'Photo by Spencer Davis / Unsplash',
     body: `Hobe Sound's dining and social scene reflects the community itself: small, local and relaxed.
 
 There is no large entertainment district here, and no dense concentration of restaurants and bars. What there is instead is a set of independent restaurants, cafés and casual gathering places, plus easy access to the much larger scenes in Jupiter and Stuart.
