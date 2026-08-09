@@ -23,7 +23,7 @@ export default function FormConsent({ dark = false, prefix, className = '' }: Fo
       condition of any purchase. Message and data rates may apply. Reply STOP to opt out of texts.
       See our{' '}
       <a
-        href="https://www.premierbrokersinternational.com/privacy-policy/"
+        href="/privacy-policy"
         target="_blank"
         rel="noopener noreferrer"
         className={`underline underline-offset-2 transition ${dark ? 'hover:text-white' : 'hover:text-slate-700'}`}

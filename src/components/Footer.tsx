@@ -122,14 +122,12 @@ export default function Footer() {
           <p className="text-xs text-slate-500">
             © {new Date().getFullYear()} Christine Dekant &amp; John Oliver at Premier Brokers International. All rights reserved.
           </p>
-          <a
-            href="https://www.premierbrokersinternational.com/privacy-policy/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/privacy-policy"
             className="text-xs text-slate-500 transition hover:text-white"
           >
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
