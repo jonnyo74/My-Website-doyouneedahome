@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import type { Listing } from '@/lib/listings'
+import { statusBadgeClasses, type Listing } from '@/lib/listings'
 
 export default function ListingCard({ listing, index = 0 }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
@@ -50,7 +50,7 @@ export default function ListingCard({ listing, index = 0 }: { listing: Listing; 
         )}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
         <div className="absolute left-4 top-3 flex flex-wrap gap-2">
-          <span className="rounded-full bg-emerald-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+          <span className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${statusBadgeClasses(listing.status, 'solid')}`}>
             {listing.status}
           </span>
           {listing.originalPrice && listing.originalPrice > listing.price && (

@@ -1,4 +1,4 @@
-export type ListingStatus = 'Active' | 'Pending' | 'Coming Soon' | 'Sold'
+export type ListingStatus = 'Active' | 'Active Under Contract' | 'Pending' | 'Coming Soon' | 'Sold'
 
 export interface RoomDimension {
   name: string
@@ -348,7 +348,7 @@ export const listings: Listing[] = [
   },
   {
     slug: '982-sw-worcester-lane',
-    status: 'Active',
+    status: 'Active Under Contract',
     mlsNumber: 'R11155179DX',
 
     address: '982 SW Worcester Lane',
@@ -554,5 +554,15 @@ export function getListingPaths() {
 }
 
 export function getActiveListings() {
-  return listings.filter((l) => l.status === 'Active' || l.status === 'Coming Soon' || l.status === 'Pending')
+  return listings.filter((l) => l.status !== 'Sold')
+}
+
+// Only a plain 'Active' listing gets the green badge — anything under contract or
+// already sold reads as available if it shares that color.
+export function statusBadgeClasses(status: ListingStatus, tone: 'solid' | 'soft') {
+  const available = status === 'Active' || status === 'Coming Soon'
+  if (tone === 'solid') {
+    return available ? 'bg-emerald-500/90 text-white' : 'bg-slate-700/90 text-white'
+  }
+  return available ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-200 text-slate-700'
 }

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getListingBySlug, getListingPaths, type ListingAgentInfo } from '@/lib/listings'
+import { getListingBySlug, getListingPaths, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
 import { getCommunityBySlug } from '@/lib/communities'
 import YlopoInit from '@/components/YlopoInit'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
@@ -114,7 +114,13 @@ export default async function ListingPage({ params }: Props) {
       '@type': 'Offer',
       price: listing.price,
       priceCurrency: 'USD',
-      availability: listing.status === 'Active' ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
+      availability:
+        listing.status === 'Active' || listing.status === 'Coming Soon'
+          ? 'https://schema.org/InStock'
+          : listing.status === 'Sold'
+            ? 'https://schema.org/SoldOut'
+            : // Under contract or pending — still worth a backup offer.
+              'https://schema.org/LimitedAvailability',
       url,
       seller: {
         '@type': 'RealEstateAgent',
@@ -162,7 +168,7 @@ export default async function ListingPage({ params }: Props) {
               </nav>
 
               <div className="flex flex-wrap items-center gap-3">
-                <span className="inline-flex items-center rounded-full bg-emerald-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+                <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${statusBadgeClasses(listing.status, 'solid')}`}>
                   {listing.status}
                 </span>
                 {listing.originalPrice && listing.originalPrice > listing.price && (
@@ -226,7 +232,7 @@ export default async function ListingPage({ params }: Props) {
             <div className="grid gap-10 lg:grid-cols-[1fr_340px] lg:items-start">
               <div>
                 <div className="flex flex-wrap items-center gap-3">
-                  <span className="inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
+                  <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${statusBadgeClasses(listing.status, 'soft')}`}>
                     {listing.status}
                   </span>
                   {listing.originalPrice && listing.originalPrice > listing.price && (
