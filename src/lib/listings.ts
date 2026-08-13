@@ -248,22 +248,25 @@ export const listings: Listing[] = [
       { level: 'High', name: 'Olympic Heights Community High School' },
     ],
 
-    // The hero is the community entrance, not the house — there is no exterior
-    // of 8804 on file yet, and the Coming Soon badge sits right beside it.
     heroPhoto: {
-      src: '/images/listings/8804-skyward-street/lotus-entrance-monument.jpg',
-      alt: 'The Lotus Boca Raton entrance monument and water feature at the community gate on Lyons Road',
+      src: '/images/listings/8804-skyward-street/01-exterior-front.jpg',
+      alt: 'Front exterior of 8804 Skyward Street — a two-story contemporary home in white stucco with a stone-veneer entry column, three-car garage, and paver driveway',
     },
     ogImage: {
       src: '/images/listings/8804-skyward-street/og-image.jpg',
-      alt: 'The Lotus Boca Raton entrance monument',
+      alt: 'Front exterior of 8804 Skyward Street in Lotus, Boca Raton',
     },
 
-    // Photos of the home itself go here once they are shot — until then the
-    // gallery honestly says so rather than filling the slot with amenities.
+    // Interiors and the lake/pool side go here once they are shot — until then
+    // the gallery says so rather than filling the slot with amenities.
     photos: [],
 
     communityPhotos: [
+      {
+        src: '/images/listings/8804-skyward-street/lotus-entrance-monument.jpg',
+        alt: 'The Lotus Boca Raton entrance monument and water feature at the community gate on Lyons Road',
+        caption: 'The entrance monument on Lyons Road. Past it the gate is manned around the clock.',
+      },
       {
         src: '/images/listings/8804-skyward-street/community-01-resort-pool.jpg',
         alt: 'Resort pool and clubhouse building at Lotus Boca Raton, with loungers and cabanas along the paver deck',
@@ -323,6 +326,31 @@ export const listings: Listing[] = [
         src: '/images/listings/8804-skyward-street/community-12-activity-calendar.jpg',
         alt: 'A printed monthly resident activity calendar on a desk in the Lotus Boca Raton clubhouse',
         caption: 'One month of resident programming — coffee talks, food trucks, fitness classes. This is what a full-time social director produces, and it is the part of the assessment buyers tend to underestimate.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-13-sports-complex-2.jpg',
+        alt: 'Wide view of the indoor sports complex court at Lotus Boca Raton from the sideline',
+        caption: 'The sports complex from the sideline — full ceiling height, padded walls, and clerestory glass along the top.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-14-fitness-cardio-2.jpg',
+        alt: 'Cardio machines and a weight rack in the Lotus Boca Raton fitness center, with the pool deck visible outside',
+        caption: 'The other end of the fitness center. Nothing here is on a booking system — residents walk in.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-15-entrance-monument-drive.jpg',
+        alt: 'The Lotus Boca Raton entrance drive with the monument sign and reflecting-pool fountains alongside',
+        caption: 'The monument and reflecting pool as you turn in off Lyons Road.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-16-entrance-fountains.jpg',
+        alt: 'Fountains running along the reflecting pool beside the entrance drive at Lotus Boca Raton',
+        caption: 'The fountains run the length of the entry — the first thing your guests see.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-17-entrance-approach.jpg',
+        alt: 'The approach road into Lotus Boca Raton, divided and landscaped, leading toward the manned gate',
+        caption: 'The approach to the gatehouse. Everything past this point is residents and their guests.',
       },
     ],
 
