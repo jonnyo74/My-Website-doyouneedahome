@@ -20357,7 +20357,7 @@ Hours, menus, tenants, and opening dates all change. Verify directly before you 
     primaryKeyword: "build on your own lot Port St. Lucie",
     secondaryKeywords: ["Port St. Lucie vacant lots","buildable lot Port St. Lucie","spot lot Port St. Lucie","buy a lot and build Port St. Lucie","Port St. Lucie lot impact fees"],
     h1: "Building on Your Own Lot in Port St. Lucie: The Lot",
-    body: `One of the first things I ever sold in Port St. Lucie was a vacant lot, for twenty-five thousand dollars. Comparable buildable lots in the city list for five or six times that today.
+    body: `In 2017 I sold a vacant lot in Port St. Lucie for twenty-five thousand dollars. It was one of the first things I ever sold here. Comparable buildable lots in the city list for five or six times that today, nine years later.
 
 That one transaction is a fair summary of what makes this city different from the markets south of it. In most of Palm Beach County, and much of Martin County, buying a piece of land and putting a house on it is either impossible or a luxury exercise for people with an architect on retainer. In Port St. Lucie it is an ordinary path to a new home, and a lot of people take it every year.
 
