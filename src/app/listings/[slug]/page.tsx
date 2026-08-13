@@ -427,11 +427,13 @@ export default async function ListingPage({ params }: Props) {
                   </>
                 ) : (
                   <div className="rounded-2xl border border-dashed border-slate-300 bg-slate-50 px-6 py-14 text-center">
-                    <p className="font-semibold text-slate-700">Listing photos coming soon</p>
+                    <p className="font-semibold text-slate-700">Photos of the home are coming soon</p>
                     <p className="mx-auto mt-2 max-w-md text-sm text-slate-500">
                       {listing.virtualTourUrl
                         ? 'Professional photography for this home is being added to the site. In the meantime, view the complete photo tour below.'
-                        : 'Professional photography for this home is being scheduled. Reach out and we’ll send you the photos as soon as they’re shot.'}
+                        : listing.communityPhotos && listing.communityPhotos.length > 0
+                          ? 'Professional photography of the house is being scheduled. Photographs of the community are below — ask us and we will send you the interiors the moment they are shot.'
+                          : 'Professional photography for this home is being scheduled. Reach out and we’ll send you the photos as soon as they’re shot.'}
                     </p>
                     {listing.virtualTourUrl && (
                       <a
@@ -446,6 +448,39 @@ export default async function ListingPage({ params }: Props) {
                   </div>
                 )}
               </div>
+
+              {/* Community amenities — captioned, and headed so nobody mistakes
+                  these for photographs of the home. */}
+              {listing.communityPhotos && listing.communityPhotos.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                    Inside {listing.subdivision ?? listing.city} — The Amenities
+                  </h2>
+                  <p className="mt-2 max-w-2xl text-sm leading-7 text-slate-500">
+                    These are photographs of the community, not of this home. They are here because
+                    the club is a large part of what you are buying at this address — and what the
+                    monthly assessment pays for.
+                  </p>
+                  <div className="mt-6 grid gap-6 sm:grid-cols-2">
+                    {listing.communityPhotos.map((photo) => (
+                      <figure key={photo.src} className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
+                        <a href={photo.src} target="_blank" rel="noopener noreferrer" className="block aspect-[4/3] overflow-hidden">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={photo.src}
+                            alt={photo.alt}
+                            loading="lazy"
+                            className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                          />
+                        </a>
+                        <figcaption className="px-5 py-4 text-sm leading-7 text-slate-600">
+                          {photo.caption}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Floor Plan */}
               {listing.floorPlan && (

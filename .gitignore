@@ -44,3 +44,8 @@ next-env.d.ts
 
 # claude code local tooling
 .claude
+
+# Camera originals and video dropped alongside listing photos. The committed
+# files are the resized, EXIF-stripped derivatives next to them — the raw
+# frames are hundreds of megabytes and carry GPS metadata.
+public/images/**/_source/

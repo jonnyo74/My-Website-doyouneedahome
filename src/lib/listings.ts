@@ -16,6 +16,13 @@ export interface ListingPhoto {
   alt: string
 }
 
+// Shots of the community rather than the home itself. Kept in a separate,
+// captioned gallery: the main gallery carries no captions, so an amenity photo
+// sitting in it would read as part of the house.
+export interface CommunityPhoto extends ListingPhoto {
+  caption: string
+}
+
 export interface ListingAgentInfo {
   name: string
   role: string
@@ -117,6 +124,7 @@ export interface Listing {
   // photos aren't shot in the 1.91:1 ratio social platforms expect.
   ogImage?: ListingPhoto
   photos: ListingPhoto[]
+  communityPhotos?: CommunityPhoto[]
   floorPlan?: ListingPhoto
 
   listingAgent: ListingAgentInfo
@@ -240,9 +248,83 @@ export const listings: Listing[] = [
       { level: 'High', name: 'Olympic Heights Community High School' },
     ],
 
-    // Photos to be added at /public/images/listings/8804-skyward-street/ —
-    // until then the page renders its "photos coming soon" placeholder.
+    // The hero is the community entrance, not the house — there is no exterior
+    // of 8804 on file yet, and the Coming Soon badge sits right beside it.
+    heroPhoto: {
+      src: '/images/listings/8804-skyward-street/lotus-entrance-monument.jpg',
+      alt: 'The Lotus Boca Raton entrance monument and water feature at the community gate on Lyons Road',
+    },
+    ogImage: {
+      src: '/images/listings/8804-skyward-street/og-image.jpg',
+      alt: 'The Lotus Boca Raton entrance monument',
+    },
+
+    // Photos of the home itself go here once they are shot — until then the
+    // gallery honestly says so rather than filling the slot with amenities.
     photos: [],
+
+    communityPhotos: [
+      {
+        src: '/images/listings/8804-skyward-street/community-01-resort-pool.jpg',
+        alt: 'Resort pool and clubhouse building at Lotus Boca Raton, with loungers and cabanas along the paver deck',
+        caption: 'The resort pool sits directly off the clubhouse. Everything in this gallery — plus the manned gate and the lawn care on each home — is what the monthly assessment buys.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-02-pool-deck.jpg',
+        alt: 'Wide view of the resort pool deck at Lotus Boca Raton with rows of loungers and shade cabanas',
+        caption: 'The deck runs the full length of the pool, with shaded cabanas at the far end and a separate lap pool alongside.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-03-pool-loungers.jpg',
+        alt: 'Loungers and side tables arranged along the pool deck at Lotus Boca Raton',
+        caption: 'Seating is set out and maintained by the club rather than claimed by residents.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-04-clubhouse-exterior.jpg',
+        alt: 'Exterior of the Lotus Boca Raton clubhouse seen from the drive, framed by royal palms',
+        caption: 'The clubhouse from the drive. The restaurant, fitness center, game room, playroom, and indoor sports complex are all under this roof.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-05-sports-complex.jpg',
+        alt: 'Indoor sports complex court at Lotus Boca Raton with the Lotus emblem at center court',
+        caption: 'The indoor sports complex — a full air-conditioned court, which is rare even among Boca clubs at this level.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-06-basketball-court.jpg',
+        alt: 'Indoor basketball court at Lotus Boca Raton with clerestory windows along the upper wall',
+        caption: 'The same court from the baseline. It converts for pickleball and volleyball as well.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-07-fitness-cardio.jpg',
+        alt: 'Row of treadmills and cardio machines along the window wall of the Lotus Boca Raton fitness center',
+        caption: 'Cardio runs along the window wall of the fitness center, looking out to the pool deck.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-08-fitness-strength.jpg',
+        alt: 'Free weights and strength training machines in the Lotus Boca Raton fitness center',
+        caption: 'Free weights and strength machines share the same room — no separate membership or class fee.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-09-kids-playroom.jpg',
+        alt: "Indoor children's playroom at Lotus Boca Raton with a soft-play climbing frame and slide",
+        caption: "The children's playroom: soft play, a climbing frame and a slide, indoors and air-conditioned.",
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-10-kids-playroom-2.jpg',
+        alt: "Second view of the children's playroom at Lotus Boca Raton showing the climbing structure and play panels",
+        caption: 'A second view of the same room. It is a genuine draw for buyers moving with young children in August heat.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-11-entrance-drive.jpg',
+        alt: 'The entrance drive at Lotus Boca Raton with fountains in the reflecting pool alongside',
+        caption: 'The approach to the manned gate, with fountains running the length of the entry drive.',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/community-12-activity-calendar.jpg',
+        alt: 'A printed monthly resident activity calendar on a desk in the Lotus Boca Raton clubhouse',
+        caption: 'One month of resident programming — coffee talks, food trucks, fitness classes. This is what a full-time social director produces, and it is the part of the assessment buyers tend to underestimate.',
+      },
+    ],
 
     listingAgent: JOHN,
     coListingAgent: CHRISTINE,
