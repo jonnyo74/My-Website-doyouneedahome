@@ -142,3 +142,27 @@ for a hero. Priority order for a single trip, highest value first:
 - **No identifiable people**, and no third-party business signage in frame.
 - Shoot the same subject a few paces apart. Two Bridge Road frames metres apart gave Hobe
   Sound two different-looking heroes; one frame would have given us one.
+
+## Hero for `build-on-your-own-lot-port-st-lucie-florida` — REJECTED CANDIDATES, still needed
+
+This article has no hero as of 2026-08-09. Three stock candidates were screened and all three
+failed the same test, so do not retry this search without reading the reason.
+
+**Florida residential is concrete block on slab-on-grade.** Stock "house under construction"
+photography is overwhelmingly wood-frame, and the wrong construction method is an immediate tell
+to the exact audience this article is written for — buyers about to walk into builder sales
+offices, and the builders themselves. This is a stricter bar than the other PSL heroes needed,
+because streetscapes and aerials are regionally ambiguous and framing is not.
+
+Rejected:
+
+| Candidate | Why rejected |
+| --- | --- |
+| Aerial of slabs poured on individual lots (Perth, AU) | Perfect subject — lots at different stages, bare pads, one finished house. But Perth's orange iron-rich soil and a corrugated metal roof. Florida sand is pale grey. |
+| `photo-1504149269576-9900c81eb84d` framing shot at 3000×2000 | Elevated wood floor-joist framing over a crawlspace, chain-link and utility poles — Pacific Northwest. Note this file is ALREADY inline in three PSL articles at 1400×1050; that is pre-existing and worth revisiting. |
+| Unsplash CMU/concrete-block searches | Return wall textures and industrial blockwork, not residential construction. No usable frame found. |
+
+**What to shoot instead (John, on his PSL trip):** block walls going up on a scattered lot, a bare
+platted lot with the road frontage visible, or a slab poured and waiting. Any of the three beats
+every stock option, and the article's whole argument is first-hand local knowledge — a stock hero
+actively undercuts it.
