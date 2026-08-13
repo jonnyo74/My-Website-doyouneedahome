@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
+import { priceDisplay, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
 
 export default function ListingCard({ listing, index = 0 }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
@@ -60,7 +60,7 @@ export default function ListingCard({ listing, index = 0 }: { listing: Listing; 
           )}
         </div>
         <span className="absolute bottom-3 left-4 font-serif text-xl font-semibold text-white drop-shadow">
-          ${listing.price.toLocaleString('en-US')}
+          {priceDisplay(listing)}
         </span>
       </div>
 

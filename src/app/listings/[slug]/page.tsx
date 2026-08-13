@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getListingBySlug, getListingPaths, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
+import { getListingBySlug, getListingPaths, priceDisplay, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
 import { getCommunityBySlug } from '@/lib/communities'
 import YlopoInit from '@/components/YlopoInit'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
@@ -10,6 +10,9 @@ import { SITE_URL } from '@/lib/site'
 
 const SITE = SITE_URL
 const OFFICE_PHONE = { display: '(561) 783-7733', href: 'tel:+15617837733' }
+// Shown wherever a price would be on a listing we haven't priced yet, so the
+// blank reads as deliberate rather than as missing data.
+const PRICE_PENDING_NOTE = 'The list price will be published here once a list date is set.'
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
 function searchUrl(city: string, opts: {
@@ -30,6 +33,19 @@ function searchUrl(city: string, opts: {
 
 const currency = (n: number) => `$${n.toLocaleString('en-US')}`
 
+// Compact form for search-tile labels: $450K, $1.2M.
+const shortPrice = (n: number) =>
+  n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(n % 1_000_000 === 0 ? 0 : 1)}M` : `$${Math.round(n / 1000)}K`
+
+// The "comparable price range" tile has to bracket the listing it sits on — a
+// fixed band lands wrong the moment a listing isn't mid-market. Rounds out to
+// the nearest $50K and respects the same $400K floor searchUrl enforces.
+function comparableBand(price: number) {
+  const min = Math.max(Math.floor((price * 0.8) / 50000) * 50000, 400000)
+  const max = Math.max(Math.ceil((price * 1.2) / 50000) * 50000, min + 50000)
+  return { min, max }
+}
+
 type Props = { params: Promise<{ slug: string }> }
 
 export function generateStaticParams() {
@@ -45,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = listing.metaTitle ?? `${listing.address} | ${listing.city}, ${listing.state} Real Estate`
   const description =
     listing.metaDescription ??
-    `${listing.propertyType} in ${listing.city}, ${listing.state}. ${listing.beds} bed, ${listing.bathsFull} bath, ${listing.livingSqft.toLocaleString()} sq ft. ${currency(listing.price)}.`
+    `${listing.propertyType} in ${listing.city}, ${listing.state}. ${listing.beds} bed, ${listing.bathsFull} bath, ${listing.livingSqft.toLocaleString()} sq ft. ${priceDisplay(listing)}.`
 
   // Prefer a pre-cropped 1200x630 social image. Falling back to the raw hero
   // photo risks Facebook/LinkedIn cropping it oddly since listing photos aren't
@@ -90,7 +106,14 @@ export default async function ListingPage({ params }: Props) {
   const halfBaths = listing.bathsHalf
   const bathsDisplay = halfBaths > 0 ? `${fullBaths}.${halfBaths === 1 ? 5 : halfBaths}` : `${fullBaths}`
   const heroPhoto = listing.heroPhoto
-  const contactCtx = `listing=${encodeURIComponent(listing.address)}&source=listing-page&mls=${listing.mlsNumber}`
+  const contactCtx =
+    `listing=${encodeURIComponent(listing.address)}&source=listing-page` +
+    (listing.mlsNumber ? `&mls=${listing.mlsNumber}` : '')
+  // Coming Soon listings have no MLS number yet, so anything that would quote
+  // one drops the reference instead of emailing us "MLS# undefined".
+  const mlsRef = listing.mlsNumber ? ` (MLS# ${listing.mlsNumber})` : ''
+  const priceBand = listing.price ? comparableBand(listing.price) : null
+  const isComingSoon = listing.status === 'Coming Soon'
 
   // ---- JSON-LD structured data ----
   const listingSchema = {
@@ -112,15 +135,19 @@ export default async function ListingPage({ params }: Props) {
     url,
     offers: {
       '@type': 'Offer',
-      price: listing.price,
-      priceCurrency: 'USD',
+      // An unpriced Coming Soon listing declares no price at all rather than a
+      // zero or a guess — a wrong number here is worse than a missing one.
+      ...(listing.price ? { price: listing.price, priceCurrency: 'USD' } : {}),
       availability:
-        listing.status === 'Active' || listing.status === 'Coming Soon'
+        listing.status === 'Active'
           ? 'https://schema.org/InStock'
-          : listing.status === 'Sold'
-            ? 'https://schema.org/SoldOut'
-            : // Under contract or pending — still worth a backup offer.
-              'https://schema.org/LimitedAvailability',
+          : listing.status === 'Coming Soon'
+            ? // Announced but not yet purchasable.
+              'https://schema.org/PreOrder'
+            : listing.status === 'Sold'
+              ? 'https://schema.org/SoldOut'
+              : // Under contract or pending — still worth a backup offer.
+                'https://schema.org/LimitedAvailability',
       url,
       seller: {
         '@type': 'RealEstateAgent',
@@ -189,8 +216,11 @@ export default async function ListingPage({ params }: Props) {
               </p>
 
               <p className="mt-5 font-serif text-3xl font-semibold text-white sm:text-4xl">
-                {currency(listing.price)}
+                {priceDisplay(listing)}
               </p>
+              {!listing.price && (
+                <p className="mt-2 text-sm text-white/70">{PRICE_PENDING_NOTE}</p>
+              )}
 
               <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-sm text-white/90">
                 <span><strong className="font-semibold text-white">{listing.beds}</strong> Beds</span>
@@ -207,7 +237,7 @@ export default async function ListingPage({ params }: Props) {
                   Schedule a Private Showing
                 </a>
                 <a
-                  href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`Question about ${listing.address}`)}&body=${encodeURIComponent(`Hi ${listing.listingAgent.name}, I'd like more information about ${listing.address}, ${listing.city}, ${listing.state} ${listing.zip} (MLS# ${listing.mlsNumber}).`)}`}
+                  href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`Question about ${listing.address}`)}&body=${encodeURIComponent(`Hi ${listing.listingAgent.name}, I'd like more information about ${listing.address}, ${listing.city}, ${listing.state} ${listing.zip}${mlsRef}.`)}`}
                   className="inline-flex items-center rounded-full border border-white/40 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10"
                 >
                   Ask a Question
@@ -253,8 +283,11 @@ export default async function ListingPage({ params }: Props) {
                 </p>
 
                 <p className="mt-6 font-serif text-3xl font-semibold text-gold-700 sm:text-4xl">
-                  {currency(listing.price)}
+                  {priceDisplay(listing)}
                 </p>
+                {!listing.price && (
+                  <p className="mt-2 text-sm text-slate-500">{PRICE_PENDING_NOTE}</p>
+                )}
 
                 <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-700">
                   <span><strong className="font-semibold text-slate-900">{listing.beds}</strong> Beds</span>
@@ -271,7 +304,7 @@ export default async function ListingPage({ params }: Props) {
                     Schedule a Private Showing
                   </a>
                   <a
-                    href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`Question about ${listing.address}`)}&body=${encodeURIComponent(`Hi ${listing.listingAgent.name}, I'd like more information about ${listing.address}, ${listing.city}, ${listing.state} ${listing.zip} (MLS# ${listing.mlsNumber}).`)}`}
+                    href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`Question about ${listing.address}`)}&body=${encodeURIComponent(`Hi ${listing.listingAgent.name}, I'd like more information about ${listing.address}, ${listing.city}, ${listing.state} ${listing.zip}${mlsRef}.`)}`}
                     className="inline-flex items-center rounded-full border border-slate-300 px-7 py-3.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
                   >
                     Ask a Question
@@ -396,8 +429,9 @@ export default async function ListingPage({ params }: Props) {
                   <div className="rounded-2xl border border-dashed border-slate-300 bg-slate-50 px-6 py-14 text-center">
                     <p className="font-semibold text-slate-700">Listing photos coming soon</p>
                     <p className="mx-auto mt-2 max-w-md text-sm text-slate-500">
-                      Professional photography for this home is being added to the site. In the
-                      meantime, view the complete photo tour below.
+                      {listing.virtualTourUrl
+                        ? 'Professional photography for this home is being added to the site. In the meantime, view the complete photo tour below.'
+                        : 'Professional photography for this home is being scheduled. Reach out and we’ll send you the photos as soon as they’re shot.'}
                     </p>
                     {listing.virtualTourUrl && (
                       <a
@@ -482,7 +516,7 @@ export default async function ListingPage({ params }: Props) {
                     <Fact label="Total Parking" value={`${listing.parkingTotal} vehicles`} />
                   )}
                   {listing.pool && (
-                    <Fact label="Pool" value={`Private, ${listing.pool.size ?? ''}`.trim()} />
+                    <Fact label="Pool" value={listing.pool.size ? `Private, ${listing.pool.size}` : 'Private'} />
                   )}
                   <Fact label="Waterfront" value={listing.waterfront ? 'Yes' : 'No'} />
                   {listing.view && <Fact label="View" value={listing.view} />}
@@ -659,7 +693,7 @@ export default async function ListingPage({ params }: Props) {
                 <div>
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">Assigned Public Schools</h2>
                   <p className="mt-2 text-sm text-slate-500">
-                    Per the Martin County School District. School assignments can change — verify current boundaries directly with the district.
+                    Per the {listing.county} County School District. School assignments can change — verify current boundaries directly with the district.
                   </p>
                   <ul className="mt-4 space-y-1.5">
                     {listing.assignedSchools.map((s) => (
@@ -673,26 +707,42 @@ export default async function ListingPage({ params }: Props) {
 
               {/* Buyer CTA section */}
               <div className="rounded-3xl border border-slate-200 bg-gradient-to-br from-sky-50 via-blue-50 to-white p-7 sm:p-9">
-                <h2 className="font-serif text-2xl font-semibold text-slate-900">Ready to Learn More?</h2>
+                <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                  {isComingSoon ? 'Want the First Look?' : 'Ready to Learn More?'}
+                </h2>
                 <p className="mt-3 text-slate-600">
-                  Reach out any time — we&apos;ll confirm availability, answer questions on financing or
-                  ownership costs, and get you the MLS sheet.
+                  {isComingSoon
+                    ? `Reach out now and we'll send you the price and the list date the moment they're set — and we'll do our best to get you inside before this one hits the open market.`
+                    : `Reach out any time — we'll confirm availability, answer questions on financing or ownership costs, and get you the MLS sheet.`}
                 </p>
                 <div className="mt-6 grid gap-3 sm:grid-cols-2">
                   <a href={`/contact?${contactCtx}&action=schedule-showing`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
-                    <span className="font-semibold text-slate-900">Schedule a Private Showing</span>
+                    <span className="font-semibold text-slate-900">
+                      {isComingSoon ? 'Request a Pre-Market Showing' : 'Schedule a Private Showing'}
+                    </span>
                     <span className="text-gold-600">→</span>
                   </a>
-                  <a href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`MLS sheet request — ${listing.address}`)}&body=${encodeURIComponent(`Hi ${listing.listingAgent.name}, could you send me the full MLS sheet / property brochure for ${listing.address} (MLS# ${listing.mlsNumber})?`)}`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
-                    <span className="font-semibold text-slate-900">Request the MLS Sheet</span>
-                    <span className="text-gold-600">→</span>
-                  </a>
+                  {/* A Coming Soon listing has no MLS sheet to send yet — the ask
+                      that actually matters is the price and the list date. */}
+                  {isComingSoon ? (
+                    <a href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`Notify me when ${listing.address} lists`)}&body=${encodeURIComponent(`Hi ${listing.listingAgent.name}, please let me know the price and list date for ${listing.address}, ${listing.city}, ${listing.state} ${listing.zip} as soon as they're set.`)}`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                      <span className="font-semibold text-slate-900">Notify Me of the Price</span>
+                      <span className="text-gold-600">→</span>
+                    </a>
+                  ) : (
+                    <a href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`MLS sheet request — ${listing.address}`)}&body=${encodeURIComponent(`Hi ${listing.listingAgent.name}, could you send me the full MLS sheet / property brochure for ${listing.address}${mlsRef}?`)}`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                      <span className="font-semibold text-slate-900">Request the MLS Sheet</span>
+                      <span className="text-gold-600">→</span>
+                    </a>
+                  )}
                   <a href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`Financing question — ${listing.address}`)}`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
                     <span className="font-semibold text-slate-900">Ask About Financing</span>
                     <span className="text-gold-600">→</span>
                   </a>
-                  <a href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(`Is ${listing.address} still available?`)}`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
-                    <span className="font-semibold text-slate-900">Is It Still Available?</span>
+                  <a href={`mailto:${listing.listingAgent.email}?subject=${encodeURIComponent(isComingSoon ? `Questions about ${listing.address}` : `Is ${listing.address} still available?`)}`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                    <span className="font-semibold text-slate-900">
+                      {isComingSoon ? 'Ask a Question About This Home' : 'Is It Still Available?'}
+                    </span>
                     <span className="text-gold-600">→</span>
                   </a>
                 </div>
@@ -709,13 +759,19 @@ export default async function ListingPage({ params }: Props) {
                     </div>
                     <span className="text-gold-600">→</span>
                   </a>
-                  <a href={searchUrl(listing.city, { propertyTypes: ['house'], minPrice: 500000, maxPrice: 750000 })} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
-                    <div>
-                      <p className="font-semibold text-slate-900">Single-Family Homes $500K–$750K</p>
-                      <p className="text-xs text-slate-500">Comparable price range in {listing.city}</p>
-                    </div>
-                    <span className="text-gold-600">→</span>
-                  </a>
+                  {/* No price yet means no comparable band to point at — the tile
+                      is dropped rather than guessing one. */}
+                  {priceBand && (
+                    <a href={searchUrl(listing.city, { propertyTypes: ['house'], minPrice: priceBand.min, maxPrice: priceBand.max })} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
+                      <div>
+                        <p className="font-semibold text-slate-900">
+                          Single-Family Homes {shortPrice(priceBand.min)}–{shortPrice(priceBand.max)}
+                        </p>
+                        <p className="text-xs text-slate-500">Comparable price range in {listing.city}</p>
+                      </div>
+                      <span className="text-gold-600">→</span>
+                    </a>
+                  )}
                   <Link href={`/communities/${listing.citySlug}`} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover">
                     <div>
                       <p className="font-semibold text-slate-900">{listing.city} Community Guide</p>
@@ -759,8 +815,11 @@ export default async function ListingPage({ params }: Props) {
                   size, taxes, HOA details, and all other information should be independently
                   verified by the buyer. Equal Housing Opportunity — {listing.brokerage} does not
                   discriminate on the basis of race, color, religion, sex, national origin,
-                  familial status, or disability. MLS# {listing.mlsNumber}
-                  {listing.domCount ? ` · Listed ${listing.listingDateDisplay ?? ''} · ${listing.domCount} days on market` : ''}.
+                  familial status, or disability.{listing.mlsNumber ? ` MLS# ${listing.mlsNumber}` : ''}
+                  {listing.domCount ? ` · Listed ${listing.listingDateDisplay ?? ''} · ${listing.domCount} days on market` : ''}
+                  {listing.status === 'Coming Soon'
+                    ? ' This home is Coming Soon and is not yet listed on the MLS; details and price are subject to change.'
+                    : '.'}
                 </p>
               </div>
             </div>
@@ -770,7 +829,7 @@ export default async function ListingPage({ params }: Props) {
               <div className="sticky top-24 space-y-6">
                 <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
                   <p className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">
-                    {currency(listing.price)}
+                    {priceDisplay(listing)}
                   </p>
                   <p className="mt-1 text-sm text-slate-500">
                     {listing.beds} bed · {bathsDisplay} bath · {listing.livingSqft.toLocaleString()} sq ft

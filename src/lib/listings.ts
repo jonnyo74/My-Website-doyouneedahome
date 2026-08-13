@@ -30,7 +30,8 @@ export interface ListingAgentInfo {
 export interface Listing {
   slug: string
   status: ListingStatus
-  mlsNumber: string
+  // Absent on Coming Soon listings that haven't hit the MLS yet.
+  mlsNumber?: string
 
   address: string
   city: string
@@ -41,7 +42,9 @@ export interface Listing {
   subdivision?: string
   legalDescription?: string
 
-  price: number
+  // Withheld on Coming Soon listings until a list date is set — the page then
+  // reads "Price Upon Request" everywhere a dollar figure would normally sit.
+  price?: number
   originalPrice?: number
   pricePerSqft?: number
 
@@ -147,6 +150,108 @@ const CHRISTINE: ListingAgentInfo = {
 }
 
 export const listings: Listing[] = [
+  // ─────────────────────────────────────────────────────────────────────────
+  // ⚠ CONFIRM BEFORE THIS GOES LIVE — the fields below are drawn from the GL
+  // Homes Sumatra floor plan and public records, not from the MLS sheet, and
+  // need to be replaced with the listing data:
+  //   beds · bathsFull · bathsHalf · livingSqft · totalUnderRoofSqft
+  //   lotSqft / lotAcres · yearBuilt · garageSpaces · hoa.fee · taxAnnual
+  //   pool size/features · storm protection · appliances · interior features
+  // Also still to add: mlsNumber, price, listingDateDisplay, and photos.
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: '8804-skyward-street',
+    status: 'Coming Soon',
+
+    address: '8804 Skyward Street',
+    city: 'Boca Raton',
+    citySlug: 'boca-raton',
+    county: 'Palm Beach',
+    state: 'FL',
+    zip: '33496',
+    subdivision: 'Lotus',
+
+    propertyType: 'Single-Family Residence',
+    beds: 5,
+    bathsFull: 5,
+    bathsHalf: 1,
+    livingSqft: 5000,
+    livingSqftSource: 'GL Homes Sumatra floor plan — to be confirmed against county records',
+    totalUnderRoofSqft: 6263,
+    lotSqft: 7840,
+    lotAcres: 0.18,
+    yearBuilt: 2021,
+    stories: 2,
+    garageSpaces: 3,
+
+    pool: { private: true, features: ['Private in-ground pool', 'Pool deck overlooking the lake'] },
+    waterfront: true,
+    view: 'Lake',
+    hoa: {
+      hasHoa: true,
+      fee: 'Approx. $420/month',
+      notes:
+        'Lotus is a guard-gated GL Homes community with a 24-hour manned gate. The HOA assessment covers the gate, lawn maintenance for each home, the common areas, the clubhouse, and a full-time social director — so the monthly figure carries more than a typical Boca Raton association fee does. Confirm the current assessment and what it includes with the association before writing an offer.',
+    },
+
+    roof: 'Concrete tile',
+    cooling: ['Central air conditioning'],
+    heating: ['Central heat'],
+    constructionMaterials: ['Concrete block', 'Stucco'],
+    sewer: 'Public sewer',
+    waterSource: 'Public',
+    gated: true,
+
+    highlights: [
+      'Lake-front homesite with a private pool — waterfront lots are a limited share of what Lotus ever offered',
+      'The Sumatra, one of the larger two-story plans in the Bali Collection, with a first-floor primary suite',
+      'Built in 2021 — current building code, concrete block construction, and systems still early in their service life',
+      'Three-car garage on a paver drive, with the contemporary white-stucco elevation Lotus is known for',
+      'Guard-gated with a 24-hour manned gate and a full-time social director',
+      'Resort amenity package: clubhouse and restaurant, resort pool, lap pool, fitness center, lighted clay tennis, pickleball, sports complex, game room, playground, and splash pad',
+      'Zoned for Whispering Pines Elementary, Eagles Landing Middle, and Olympic Heights Community High',
+      'Coming Soon — reach out now to see it before it reaches the open market',
+    ],
+
+    overview: [
+      "This is a Sumatra on the water — one of the larger two-story plans GL Homes built in the Bali Collection at Lotus, sited on a lake-front lot with a private pool. Waterfront homesites were never a large share of what Lotus released, and the ones that come back to market tend to move on their own timeline rather than the market's. The pool deck looks out over the water rather than into a neighbor's screen enclosure, which is the practical difference buyers are usually paying for here.",
+      "The house was built in 2021, so it is a contemporary home in the literal sense: current building code, concrete block construction, a three-car garage, and mechanical systems still early in their service life. The Sumatra puts the primary suite on the first floor and keeps the secondary bedrooms and flex space upstairs — a layout that works for buyers who want the square footage of a large two-story without climbing stairs to go to bed.",
+      "Lotus itself is the reason a lot of these buyers are in west Boca at all. It is guard-gated with a manned gate around the clock, and the amenity package — clubhouse and restaurant, resort and lap pools, fitness center, lighted clay tennis courts, pickleball, a sports complex, game room, playground, and splash pad — is run with a full-time social director rather than left to a volunteer board. The monthly assessment reflects that, and it also covers lawn maintenance on each home.",
+    ],
+
+    ownershipConsiderations: [
+      'This home is Coming Soon and has not yet reached the MLS. The list price will be published here once a list date is set — reach out in the meantime and we will send it to you as soon as it is.',
+      'Lotus carries a mandatory homeowners association with a monthly assessment that covers the manned gate, lawn maintenance, common areas, clubhouse, and social programming. Review the association documents, the current budget, and any pending assessments during your inspection period.',
+      'The community and the home are subject to HOA architectural and use restrictions, and GL Homes communities typically limit leasing. Confirm the current leasing rules with the association if a rental is part of your plan.',
+      'Property taxes in Palm Beach County are commonly reassessed after a sale, and the seller\'s current exemptions do not transfer. Ask us to run the expected post-sale tax figure for your situation rather than relying on the current bill.',
+      'A standard home inspection is recommended, as with any purchase — a 2021 build is early in its life, but it is not a warranty.',
+    ],
+
+    locationNotes: [
+      'Lotus sits along Lyons Road in west Boca Raton, north of Clint Moore Road, with straightforward access to the Turnpike and I-95.',
+      'Everyday shopping, dining, and medical offices are clustered along Glades Road and the Lyons/Yamato corridor, a short drive from the gate.',
+      'Mizner Park, downtown Boca, and the Boca Raton beaches are roughly 20–25 minutes east.',
+      'Boca Raton Regional Hospital and Florida Atlantic University are both within the city, and Palm Beach International and Fort Lauderdale–Hollywood airports are each about 35–45 minutes out.',
+    ],
+
+    assignedSchools: [
+      { level: 'Elementary', name: 'Whispering Pines Elementary School' },
+      { level: 'Middle', name: 'Eagles Landing Middle School' },
+      { level: 'High', name: 'Olympic Heights Community High School' },
+    ],
+
+    // Photos to be added at /public/images/listings/8804-skyward-street/ —
+    // until then the page renders its "photos coming soon" placeholder.
+    photos: [],
+
+    listingAgent: JOHN,
+    coListingAgent: CHRISTINE,
+    brokerage: 'Premier Brokers International',
+
+    metaTitle: '8804 Skyward Street: Coming Soon Waterfront Pool Home in Lotus, Boca Raton',
+    metaDescription:
+      'Coming Soon in Lotus, Boca Raton — a lake-front Sumatra pool home with a first-floor primary suite and 3-car garage in a guard-gated GL Homes community. Ask for early access.',
+  },
   {
     slug: '6145-se-audubon-lane',
     status: 'Active',
@@ -575,5 +680,14 @@ export function statusBadgeClasses(status: ListingStatus, tone: 'solid' | 'soft'
 // A price cut only sells the home while it's still on the market. Once it's under
 // contract the badge is noise sitting next to a status that already says more.
 export function showsPriceReduced(listing: Listing) {
-  return isAvailable(listing.status) && Boolean(listing.originalPrice && listing.originalPrice > listing.price)
+  return (
+    isAvailable(listing.status) &&
+    Boolean(listing.price && listing.originalPrice && listing.originalPrice > listing.price)
+  )
+}
+
+// Every dollar figure on a listing goes through here so an unpriced Coming Soon
+// listing reads the same way in the hero, the card, and the sticky sidebar.
+export function priceDisplay(listing: Listing) {
+  return listing.price ? `$${listing.price.toLocaleString('en-US')}` : 'Price Upon Request'
 }
