@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { statusBadgeClasses, type Listing } from '@/lib/listings'
+import { showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
 
 export default function ListingCard({ listing, index = 0 }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
@@ -53,7 +53,7 @@ export default function ListingCard({ listing, index = 0 }: { listing: Listing; 
           <span className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${statusBadgeClasses(listing.status, 'solid')}`}>
             {listing.status}
           </span>
-          {listing.originalPrice && listing.originalPrice > listing.price && (
+          {showsPriceReduced(listing) && (
             <span className="rounded-full bg-gold-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
               Price Reduced
             </span>

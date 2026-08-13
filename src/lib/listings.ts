@@ -557,12 +557,23 @@ export function getActiveListings() {
   return listings.filter((l) => l.status !== 'Sold')
 }
 
-// Only a plain 'Active' listing gets the green badge — anything under contract or
+// "Available" means a buyer can still act on it normally — not under contract,
+// pending, or sold.
+export function isAvailable(status: ListingStatus) {
+  return status === 'Active' || status === 'Coming Soon'
+}
+
+// Only an available listing gets the green badge — anything under contract or
 // already sold reads as available if it shares that color.
 export function statusBadgeClasses(status: ListingStatus, tone: 'solid' | 'soft') {
-  const available = status === 'Active' || status === 'Coming Soon'
   if (tone === 'solid') {
-    return available ? 'bg-emerald-500/90 text-white' : 'bg-slate-700/90 text-white'
+    return isAvailable(status) ? 'bg-emerald-500/90 text-white' : 'bg-slate-700/90 text-white'
   }
-  return available ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-200 text-slate-700'
+  return isAvailable(status) ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-200 text-slate-700'
+}
+
+// A price cut only sells the home while it's still on the market. Once it's under
+// contract the badge is noise sitting next to a status that already says more.
+export function showsPriceReduced(listing: Listing) {
+  return isAvailable(listing.status) && Boolean(listing.originalPrice && listing.originalPrice > listing.price)
 }

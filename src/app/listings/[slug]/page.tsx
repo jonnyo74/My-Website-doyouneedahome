@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getListingBySlug, getListingPaths, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
+import { getListingBySlug, getListingPaths, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
 import { getCommunityBySlug } from '@/lib/communities'
 import YlopoInit from '@/components/YlopoInit'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
@@ -171,7 +171,7 @@ export default async function ListingPage({ params }: Props) {
                 <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${statusBadgeClasses(listing.status, 'solid')}`}>
                   {listing.status}
                 </span>
-                {listing.originalPrice && listing.originalPrice > listing.price && (
+                {showsPriceReduced(listing) && (
                   <span className="inline-flex items-center rounded-full bg-gold-500/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
                     Price Reduced
                   </span>
@@ -235,7 +235,7 @@ export default async function ListingPage({ params }: Props) {
                   <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${statusBadgeClasses(listing.status, 'soft')}`}>
                     {listing.status}
                   </span>
-                  {listing.originalPrice && listing.originalPrice > listing.price && (
+                  {showsPriceReduced(listing) && (
                     <span className="inline-flex items-center rounded-full bg-gold-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-gold-700">
                       Price Reduced
                     </span>
