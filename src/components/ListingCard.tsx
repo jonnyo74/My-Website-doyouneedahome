@@ -2,21 +2,27 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { priceDisplay, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
+import { cardRotationMs, priceDisplay, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
 
-export default function ListingCard({ listing, index = 0 }: { listing: Listing; index?: number }) {
+export default function ListingCard({ listing }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
     ? `${listing.bathsFull}.${listing.bathsHalf === 1 ? 5 : listing.bathsHalf}`
     : `${listing.bathsFull}`
 
-  // Best three: hero shot plus the first two gallery photos (curated exterior shots).
-  const photos = [listing.heroPhoto, ...listing.photos]
-    .filter((p): p is { src: string; alt: string } => Boolean(p))
-    .slice(0, 3)
+  // Best three: hero shot plus the first two gallery photos (curated exterior
+  // shots). A listing with no photos of the house yet falls back to its
+  // community shots so the card still moves instead of sitting frozen.
+  const ownPhotos = [listing.heroPhoto, ...listing.photos].filter(
+    (p): p is { src: string; alt: string } => Boolean(p),
+  )
+  const photos = (
+    ownPhotos.length > 1
+      ? ownPhotos
+      : [...ownPhotos, ...(listing.communityPhotos ?? [])]
+  ).slice(0, 3)
 
   const [active, setActive] = useState(0)
-  // Stagger rotation speed per card so multiple cards don't crossfade in sync.
-  const intervalMs = 3800 + (index % 3) * 1100
+  const intervalMs = cardRotationMs(listing.slug)
 
   useEffect(() => {
     if (photos.length <= 1) return
@@ -40,8 +46,10 @@ export default function ListingCard({ listing, index = 0 }: { listing: Listing; 
               key={photo.src}
               src={photo.src}
               alt={photo.alt}
-              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ease-in-out ${
-                i === active ? 'opacity-100' : 'opacity-0'
+              // Crossfade plus a slow settle out of a 4% overscan, so the
+              // incoming photo drifts in rather than snapping into place.
+              className={`absolute inset-0 h-full w-full object-cover transition-[opacity,transform] duration-[1400ms] ease-out motion-reduce:transition-none ${
+                i === active ? 'scale-100 opacity-100' : 'scale-[1.04] opacity-0'
               }`}
             />
           ))

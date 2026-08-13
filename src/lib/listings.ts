@@ -773,3 +773,23 @@ export function showsPriceReduced(listing: Listing) {
 export function priceDisplay(listing: Listing) {
   return listing.price ? `$${listing.price.toLocaleString('en-US')}` : 'Price Upon Request'
 }
+
+// Photo-rotation speed for each listing card. Two cards crossfading in step
+// looks like a glitch rather than a slideshow, so every listing gets its own
+// interval and no two can collide.
+//
+// Keyed off slug order, not array order: hashing the slug produced duplicate
+// intervals, and using the display index meant reordering the listings swapped
+// the cards' rhythms around with them.
+const ROTATION_BASE_MS = 3400
+const ROTATION_STEP_MS = 650
+const rotationBySlug = new Map(
+  listings
+    .map((l) => l.slug)
+    .sort()
+    .map((slug, i) => [slug, ROTATION_BASE_MS + i * ROTATION_STEP_MS] as const),
+)
+
+export function cardRotationMs(slug: string) {
+  return rotationBySlug.get(slug) ?? ROTATION_BASE_MS
+}
