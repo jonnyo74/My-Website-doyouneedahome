@@ -159,13 +159,11 @@ const CHRISTINE: ListingAgentInfo = {
 
 export const listings: Listing[] = [
   // ─────────────────────────────────────────────────────────────────────────
-  // ⚠ CONFIRM BEFORE THIS GOES LIVE — the fields below are drawn from the GL
-  // Homes Sumatra floor plan and public records, not from the MLS sheet, and
-  // need to be replaced with the listing data:
-  //   beds · bathsFull · bathsHalf · livingSqft · totalUnderRoofSqft
-  //   lotSqft / lotAcres · yearBuilt · garageSpaces · hoa.fee · taxAnnual
-  //   pool size/features · storm protection · appliances · interior features
-  // Also still to add: mlsNumber, price, listingDateDisplay, and photos.
+  // Beds, baths, square footage, finishes and equipment below come from John's
+  // own "What's special" notes on the property. Still unconfirmed and still
+  // sourced from public records or estimate: lotSqft/lotAcres,
+  // totalUnderRoofSqft, hoa.fee, and taxAnnual (absent). Still to add:
+  // mlsNumber, price, listingDateDisplay, and photos of the interior.
   // ─────────────────────────────────────────────────────────────────────────
   {
     slug: '8804-skyward-street',
@@ -181,10 +179,9 @@ export const listings: Listing[] = [
 
     propertyType: 'Single-Family Residence',
     beds: 5,
-    bathsFull: 5,
+    bathsFull: 6,
     bathsHalf: 1,
-    livingSqft: 5000,
-    livingSqftSource: 'GL Homes Sumatra floor plan — to be confirmed against county records',
+    livingSqft: 4932,
     totalUnderRoofSqft: 6263,
     lotSqft: 7840,
     lotAcres: 0.18,
@@ -192,7 +189,17 @@ export const listings: Listing[] = [
     stories: 2,
     garageSpaces: 3,
 
-    pool: { private: true, features: ['Private in-ground pool', 'Pool deck overlooking the lake'] },
+    pool: {
+      private: true,
+      features: [
+        'Oversized custom pool',
+        'Saltwater system',
+        'Heated',
+        'Marble pool deck and rear patio',
+        'Full cabana bath with a French door to the deck',
+        'Permitted pool safety barrier',
+      ],
+    },
     waterfront: true,
     view: 'Lake',
     hoa: {
@@ -206,25 +213,48 @@ export const listings: Listing[] = [
     cooling: ['Central air conditioning'],
     heating: ['Central heat'],
     constructionMaterials: ['Concrete block', 'Stucco'],
+    flooring: ['Wood — all second-floor bedrooms and the loft', 'Tile'],
+    stormProtection: 'Impact-resistant glass windows and doors throughout',
     sewer: 'Public sewer',
     waterSource: 'Public',
     gated: true,
+    appliances: ['Stainless steel appliance package', 'Central vacuum', 'Whole-house standby generator'],
+    interiorFeatures: [
+      'All five bedrooms en suite, with the primary suite on the first floor',
+      '22-foot entry with an open floor plan beyond it',
+      'Gourmet kitchen — quartz countertops, cabinetry run to the ceiling, stainless appliances',
+      'Office/den, formal dining room, living room and breakfast area',
+      'Loft, media room, and a gym with mirrored walls',
+      'Built-in closets throughout',
+      'Sound insulation around the primary suite and the media room',
+      'Upgraded smooth-finish ceilings',
+      'Central vacuum',
+    ],
+    exteriorFeatures: [
+      'Oversized custom saltwater pool, heated',
+      'Marble pool deck and rear patio',
+      'Cabana bath opening to the deck through a French door',
+      'Lake frontage behind the pool deck',
+    ],
 
     highlights: [
-      'Lake-front homesite with a private pool — waterfront lots are a limited share of what Lotus ever offered',
-      'The Sumatra, one of the larger two-story plans in the Bali Collection, with a first-floor primary suite',
-      'Built in 2021 — current building code, concrete block construction, and systems still early in their service life',
-      'Three-car garage on a paver drive, with the contemporary white-stucco elevation Lotus is known for',
-      'Guard-gated with a 24-hour manned gate and a full-time social director',
-      'Resort amenity package: clubhouse and restaurant, resort pool, lap pool, fitness center, lighted clay tennis, pickleball, sports complex, game room, playground, and splash pad',
-      'Zoned for Whispering Pines Elementary, Eagles Landing Middle, and Olympic Heights Community High',
-      'Coming Soon — reach out now to see it before it reaches the open market',
+      'Lake-front homesite with an oversized custom saltwater pool, heated, on a marble deck',
+      'All five bedrooms are en suite — 6.5 baths in total — with the primary suite on the first floor',
+      'A whole-house standby generator, already installed',
+      'Impact glass windows and doors throughout — no shutters to put up',
+      'Office/den, formal dining, living room, breakfast area, loft, media room, and a mirrored gym: the rooms are there without converting a bedroom',
+      'Full cabana bath opening to the pool deck through a French door',
+      'Gourmet kitchen with quartz counters and cabinetry run all the way to the ceiling',
+      'A 22-foot entry, upgraded smooth-finish ceilings, and sound insulation around the primary suite and media room',
+      'Three-car garage with epoxy floors, plus central vacuum throughout',
+      'Guard-gated Lotus, with a manned gate, a full-time social director, and the full resort amenity package',
     ],
 
     overview: [
-      "This is a Sumatra on the water — one of the larger two-story plans GL Homes built in the Bali Collection at Lotus, sited on a lake-front lot with a private pool. Waterfront homesites were never a large share of what Lotus released, and the ones that come back to market tend to move on their own timeline rather than the market's. The pool deck looks out over the water rather than into a neighbor's screen enclosure, which is the practical difference buyers are usually paying for here.",
-      "The house was built in 2021, so it is a contemporary home in the literal sense: current building code, concrete block construction, a three-car garage, and mechanical systems still early in their service life. The Sumatra puts the primary suite on the first floor and keeps the secondary bedrooms and flex space upstairs — a layout that works for buyers who want the square footage of a large two-story without climbing stairs to go to bed.",
-      "Lotus itself is the reason a lot of these buyers are in west Boca at all. It is guard-gated with a manned gate around the clock, and the amenity package — clubhouse and restaurant, resort and lap pools, fitness center, lighted clay tennis courts, pickleball, a sports complex, game room, playground, and splash pad — is run with a full-time social director rather than left to a volunteer board. The monthly assessment reflects that, and it also covers lawn maintenance on each home.",
+      "This is a Sumatra on the water: 4,932 square feet built in 2021, on a lake-front lot in Lotus, with an oversized custom pool — salt, heated, marble deck — running along the back. Waterfront homesites were never a large share of what Lotus released. The pool deck here looks out over the water rather than into a neighbor's screen enclosure, which is the practical difference buyers are paying for.",
+      "The room count is the real story. Five bedrooms, every one of them en suite, 6.5 baths in total, and the primary suite on the first floor. Beyond the bedrooms there is an office/den, a formal dining room, a living room, a breakfast area, a loft, a media room, and a gym with mirrored walls — so the home office and the workout space exist without giving up a bedroom for either. A 22-foot entry opens onto the floor plan, ceilings carry an upgraded smooth finish, and the primary suite and media room are sound-insulated.",
+      "The expensive decisions are already made. Impact glass on every window and door, so there is nothing to put up before a storm. A whole-house standby generator. Central vacuum, built-in closets throughout, quartz counters with cabinetry run to the ceiling, wood floors through the upstairs bedrooms and loft, and epoxy floors in the three-car garage. Add a full cabana bath opening to the deck through a French door, and the house needs nothing on day one.",
+      "Lotus is the other half of what a buyer is purchasing here. It is guard-gated with a manned gate around the clock, and the amenity package — clubhouse and restaurant, resort and lap pools, fitness center, lighted clay tennis courts, pickleball, an indoor sports complex, game room, playground, and splash pad — runs under a full-time social director rather than a volunteer board. The monthly assessment reflects that, and it also covers lawn maintenance on each home. There are photographs of all of it further down this page.",
     ],
 
     ownershipConsiderations: [
@@ -240,6 +270,19 @@ export const listings: Listing[] = [
       'Everyday shopping, dining, and medical offices are clustered along Glades Road and the Lyons/Yamato corridor, a short drive from the gate.',
       'Mizner Park, downtown Boca, and the Boca Raton beaches are roughly 20–25 minutes east.',
       'Boca Raton Regional Hospital and Florida Atlantic University are both within the city, and Palm Beach International and Fort Lauderdale–Hollywood airports are each about 35–45 minutes out.',
+    ],
+
+    upgrades: [
+      { item: 'Oversized custom saltwater pool, heated, with a marble deck and rear patio' },
+      { item: 'Whole-house standby generator' },
+      { item: 'Impact-resistant glass windows and doors throughout' },
+      { item: 'Central vacuum' },
+      { item: 'Epoxy garage floors' },
+      { item: 'Upgraded smooth-finish ceilings' },
+      { item: 'Sound insulation around the primary suite and media room' },
+      { item: 'Built-in closets throughout' },
+      { item: 'Kitchen cabinetry run to the ceiling with quartz countertops' },
+      { item: 'Appliance service protection plan in place' },
     ],
 
     assignedSchools: [
@@ -358,9 +401,9 @@ export const listings: Listing[] = [
     coListingAgent: CHRISTINE,
     brokerage: 'Premier Brokers International',
 
-    metaTitle: '8804 Skyward Street: Coming Soon Waterfront Pool Home in Lotus, Boca Raton',
+    metaTitle: '8804 Skyward Street: Coming Soon Lakefront Pool Home in Lotus, Boca Raton',
     metaDescription:
-      'Coming Soon in Lotus, Boca Raton — a lake-front Sumatra pool home with a first-floor primary suite and 3-car garage in a guard-gated GL Homes community. Ask for early access.',
+      'Coming Soon in Lotus, Boca Raton — a lakefront Sumatra with 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a heated saltwater pool, impact glass and a whole-house generator. Ask for early access.',
   },
   {
     slug: '6145-se-audubon-lane',
