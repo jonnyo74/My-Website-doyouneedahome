@@ -575,7 +575,13 @@ export default async function ListingPage({ params }: Props) {
                         key={r.name}
                         className={`flex items-center justify-between px-6 py-3.5 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}
                       >
-                        <span className="text-sm font-medium text-slate-700">{r.name}</span>
+                        <span className="text-sm font-medium text-slate-700">
+                          {r.name}
+                          {/* Which floor a room sits on is half the information in a
+                              two-story plan, and the level was being collected but
+                              never shown. */}
+                          {r.level && <span className="ml-2 text-xs font-normal text-slate-400">{r.level}</span>}
+                        </span>
                         <span className="text-sm text-slate-500">{r.dimensions}</span>
                       </div>
                     ))}

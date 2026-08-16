@@ -221,7 +221,10 @@ export const listings: Listing[] = [
     appliances: ['Stainless steel appliance package', 'Central vacuum', 'Whole-house standby generator'],
     interiorFeatures: [
       'All five bedrooms en suite, with the primary suite on the first floor',
-      '22-foot entry with an open floor plan beyond it',
+      'Two-story foyer under a 22-foot entry, opening onto the floor plan',
+      "10-foot ceilings across the first floor, 9'4\" on the second",
+      'Coffered ceiling in the primary bedroom; Roman tub and dual walk-in closets in the primary bath',
+      'Nearly 36 feet of covered patio running the back of the house',
       'Gourmet kitchen — quartz countertops, cabinetry run to the ceiling, stainless appliances',
       'Office/den, formal dining room, living room and breakfast area',
       'Loft, media room, and a gym with mirrored walls',
@@ -270,6 +273,26 @@ export const listings: Listing[] = [
       'Everyday shopping, dining, and medical offices are clustered along Glades Road and the Lyons/Yamato corridor, a short drive from the gate.',
       'Mizner Park, downtown Boca, and the Boca Raton beaches are roughly 20–25 minutes east.',
       'Boca Raton Regional Hospital and Florida Atlantic University are both within the city, and Palm Beach International and Fort Lauderdale–Hollywood airports are each about 35–45 minutes out.',
+    ],
+
+    // Off the builder's Sumatra plan. The page already carries the standard
+    // "approximate, verify independently" note beneath the table.
+    roomDimensions: [
+      { name: 'Great Room', dimensions: `19'8" x 22'10"`, level: 'First floor' },
+      { name: 'Kitchen', dimensions: `14'0" x 11'6"`, level: 'First floor' },
+      { name: 'Casual Dining', dimensions: `16'0" x 11'10"`, level: 'First floor' },
+      { name: 'Formal Dining Room', dimensions: `15'8" x 12'6"`, level: 'First floor' },
+      { name: 'Club Room / Game Room / Den', dimensions: `15'4" x 17'10"`, level: 'First floor' },
+      { name: 'Primary Bedroom', dimensions: `15'0" x 18'0"`, level: 'First floor' },
+      { name: 'Covered Patio', dimensions: `35'8" x 9'6"`, level: 'First floor' },
+      { name: 'Two-Car Garage', dimensions: `20'0" x 20'0"`, level: 'First floor' },
+      { name: 'One-Car Garage', dimensions: `19'0" x 11'8"–13'4"`, level: 'First floor' },
+      { name: 'Media Room', dimensions: `18'2" x 18'10"`, level: 'Second floor' },
+      { name: 'Loft', dimensions: `15'8" x 16'0"`, level: 'Second floor' },
+      { name: 'Second Bedroom', dimensions: `15'6" x 14'0"`, level: 'Second floor' },
+      { name: 'Third Bedroom', dimensions: `12'0" x 15'0"`, level: 'Second floor' },
+      { name: 'Fourth Bedroom', dimensions: `14'6" x 13'2"`, level: 'Second floor' },
+      { name: 'Fifth Bedroom', dimensions: `16'4" x 12'6"`, level: 'Second floor' },
     ],
 
     upgrades: [
