@@ -293,7 +293,7 @@ export default async function CommunityPage({ params }: Props) {
           <YlopoInit city={isCity ? community.name : (parentCity?.name ?? community.searchCity ?? community.name)} />
           <YlopoResultsWidget
             city={isCity ? community.name : (parentCity?.name ?? community.searchCity ?? community.name)}
-            neighborhood={!isCity ? community.name : undefined}
+            neighborhood={!isCity ? (community.ylopoLocation ?? community.name) : undefined}
           />
 
           {community.savedSearches && community.savedSearches.length > 0 && (

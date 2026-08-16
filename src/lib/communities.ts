@@ -55,6 +55,14 @@ export interface CommunityItem {
     links: Array<{ label: string; sublabel?: string; url: string }>
   }
   searchCity?: string
+  /**
+   * The name Ylopo files this place under, when it differs from ours. Their
+   * location index is the MLS's, not the marketing name — Panther National is
+   * "Panther National At Avenir Pod" over there. Only set this when the
+   * autocomplete disagrees with `name`; check with:
+   *   portal.ylopo.com/api/1.0/autocomplete?q=<name>&partyWebsite=search.doyouneedahome.com
+   */
+  ylopoLocation?: string
   lat?: number
   lng?: number
   // Slugs of similar-priced communities within the same PUD/master-planned community
@@ -144,7 +152,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Boca Raton', time: '25 min' },
       { destination: 'Miami', time: '70–90 min' },
     ],
-    linkedNeighborhoods: ['ibis', 'el-cid', 'harbour-islands', 'downtown-west-palm', 'palm-beach-lakes'],
+    linkedNeighborhoods: ['ibis', 'el-cid', 'harbour-islands', 'downtown-west-palm', 'palm-beach-lakes', 'prado'],
     sisterSite: {
       eyebrow: 'Condo Living',
       heading: 'West Palm Beach Condos',
@@ -283,7 +291,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Brightline Station (WPB)', time: '18 min' },
       { destination: 'Miami', time: '1 hr 15 min' },
     ],
-    linkedNeighborhoods: ['pga-national', 'ballen-isles', 'avenir', 'mirasol', 'alton', 'east-palm-bay', 'panther-national', 'prado'],
+    linkedNeighborhoods: ['pga-national', 'ballen-isles', 'avenir', 'mirasol', 'alton', 'east-palm-bay', 'panther-national'],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$450K – $750K', minPrice: 450000, maxPrice: 750000, propertyTypes: ['condo', 'townhouse'] },
       { type: 'Non-Gated Single-Family', range: '$650K – $1.2M', minPrice: 650000, maxPrice: 1200000, propertyTypes: ['house'] },
@@ -571,7 +579,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Lauderdale', time: '55 min' },
       { destination: 'Miami', time: '1 hr 30 min' },
     ],
-    linkedNeighborhoods: ['seven-bridges', 'wellington-country-club', 'wellington-estates', 'lake-club'],
+    linkedNeighborhoods: ['wellington-country-club', 'wellington-estates', 'lake-club'],
     priceRanges: [
       { type: 'Single-Family Homes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['house'] },
       { type: 'Gated Community Homes', range: '$800K – $2.5M', minPrice: 800000, propertyTypes: ['house'] },
@@ -725,7 +733,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Miami', time: '50 min' },
       { destination: 'Tri-Rail (Boca Station)', time: '5 min' },
     ],
-    linkedNeighborhoods: ['broken-sound', 'boca-west', 'royal-palm-yacht-cc', 'woodfield-country-club', 'delaire-country-club'],
+    linkedNeighborhoods: ['broken-sound', 'boca-west', 'royal-palm-yacht-cc', 'woodfield-country-club'],
     photos: [
       '/public/Boca Raton/boca-mizner-park.jpg',
       '/public/Boca Raton/boca-oceanfront.jpg',
@@ -873,7 +881,7 @@ export const cities: CommunityItem[] = [
       { destination: 'PBI Airport', time: '30 min' },
       { destination: 'Miami', time: '1 hr' },
     ],
-    linkedNeighborhoods: ['ocean-side', 'delray-beach-harbor', 'seagate', 'shelborne'],
+    linkedNeighborhoods: ['ocean-side', 'delray-beach-harbor', 'seagate', 'shelborne', 'seven-bridges', 'delaire-country-club'],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$400K – $800K', minPrice: 400000, maxPrice: 800000, propertyTypes: ['condo', 'townhouse'] },
       { type: 'Single-Family Homes', range: '$600K – $1.8M', minPrice: 600000, propertyTypes: ['house'] },
@@ -3403,7 +3411,7 @@ export const neighborhoods: CommunityItem[] = [
     slug: 'seven-bridges',
     name: 'Seven Bridges',
     type: 'Neighborhood',
-    region: 'Wellington',
+    region: 'Delray Beach',
     description: 'A modern gated community with lakefront homes and resort-style amenities in a private country club setting.',
     overview:
       'Seven Bridges is known for elegant estates and a private club lifestyle with pools, dining, a fitness center, and a signature golf course.',
@@ -3509,7 +3517,7 @@ export const neighborhoods: CommunityItem[] = [
     slug: 'delaire-country-club',
     name: 'Delaire Country Club',
     type: 'Neighborhood',
-    region: 'Boca Raton',
+    region: 'Delray Beach',
     description: 'A luxury private golf community with refined estate living and an intimate club atmosphere.',
     overview:
       'Delaire Country Club features lush grounds, elegant homes, and upscale club amenities in one of Boca Raton\'s most intimate private settings.',
@@ -3871,7 +3879,9 @@ export const neighborhoods: CommunityItem[] = [
     slug: 'panther-national',
     name: 'Panther National',
     type: 'Neighborhood',
-    region: 'Palm Beach County',
+    region: 'Palm Beach Gardens',
+    // The MLS carries it as the Avenir pod it sits in, not the marketing name.
+    ylopoLocation: 'Panther National At Avenir Pod',
     description: 'An emerging ultra-luxury golf community with championship design, custom estate homesites, and resort-caliber amenities.',
     overview:
       'Panther National is one of the most anticipated new luxury communities in Palm Beach County — a limited-release golf and residential development offering custom estate homesites surrounding a world-class championship golf experience. With bespoke architecture, curated amenities, and a private club lifestyle, it represents one of the most exclusive address opportunities currently available in South Florida.',
@@ -3903,7 +3913,7 @@ export const neighborhoods: CommunityItem[] = [
     slug: 'prado',
     name: 'The Prado',
     type: 'Neighborhood',
-    region: 'Palm Beach County',
+    region: 'West Palm Beach',
     description: 'A beautifully appointed residential community featuring Mediterranean-inspired architecture, lush landscaping, and resort-style amenity living.',
     overview:
       'The Prado is a refined gated community offering elegantly designed single-family homes in a private, amenity-rich setting. Known for meticulous attention to architectural detail and lush tropical landscaping, The Prado delivers the feel of a private resort with the warmth of a true neighborhood — a rare combination in today\'s Palm Beach County market.',
