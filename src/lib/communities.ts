@@ -3759,6 +3759,7 @@ export const neighborhoods: CommunityItem[] = [
     name: "Admiral's Cove",
     type: 'Neighborhood',
     region: 'Jupiter',
+    ylopoLocation: 'Admirals Cove', // the MLS drops the apostrophe
     description: 'A premier waterfront country club on the Intracoastal — deep-water dockage, championship golf, and estate homes that attract discerning buyers seeking the ultimate private lifestyle.',
     overview:
       "Admiral's Cove is one of Jupiter's most prestigious waterfront club communities, set along the Intracoastal Waterway with direct ocean access and deep-water dockage for large yachts. The community offers a rare combination of protected dockage, championship golf, and a fully integrated club lifestyle — all within minutes of Jupiter's beaches, dining, and private aviation access. The club has undergone extensive modernization over the past decade, attracting a new generation of owners who value both prestige and privacy. A standout feature unique to Admiral's Cove is its private on-site hotel, allowing residents to host guests without compromising the privacy of their own homes. Inventory here is limited — long-term ownership and strong demand keep opportunities rare.",
@@ -3806,6 +3807,7 @@ export const neighborhoods: CommunityItem[] = [
     name: "Jonathan's Landing",
     type: 'Neighborhood',
     region: 'Jupiter',
+    ylopoLocation: 'Jonathans Landing', // the MLS drops the apostrophe
     description: 'A prestigious gated golf and boating community with three championship courses, deep-water marina access, and a diverse range of luxury home styles.',
     overview:
       "Jonathan's Landing is one of Jupiter's landmark private club communities, offering three championship golf courses, a full-service marina, and a wide variety of home types from condos to custom estates. The community spans lush waterways and preserves, delivering a resort lifestyle in one of Northern Palm Beach County's most established gated addresses.",
@@ -3855,6 +3857,7 @@ export const neighborhoods: CommunityItem[] = [
     name: "The Bear's Club",
     type: 'Neighborhood',
     region: 'Jupiter',
+    ylopoLocation: 'The Bears Club', // the MLS drops the apostrophe
     description: 'Jack Nicklaus\'s premier private golf community — guard-gated, intentionally discreet, and home to some of Jupiter\'s most significant custom estate residences.',
     overview:
       "The Bear's Club is an exclusive guard-gated residential golf community in Jupiter, designed by Jack Nicklaus and built around a championship-quality Signature course widely regarded as one of the premier private golf experiences in South Florida. The community is defined by its intentionally low-key, member-centric culture — generous lot sizes, thoughtful architectural diversity, mature landscaping, and a quiet atmosphere that has long attracted executives, entrepreneurs, and professional athletes who value privacy above all else. Custom estate residences offer expansive floor plans, high ceilings, private pools, and golf course, lake, or preserve views. Limited inventory and a long-term ownership culture make opportunities rare. Jupiter's beaches are 10 minutes away; Abacoa dining is 5 minutes; Palm Beach International Airport is about 25 minutes.",
