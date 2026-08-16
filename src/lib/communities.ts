@@ -1167,7 +1167,14 @@ export const cities: CommunityItem[] = [
     ],
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Downtown / Cottage District', 'East Lake Worth (Barrier Island)', 'Tropical Ridge', 'North Lake Worth'],
+    // Index 1 lands in the bento grid's tall left cell — keep a portrait frame there.
     photos: [
+      '/images/lake-worth-beach/local-pier-morning-hero.jpg',
+      '/images/lake-worth-beach/local-street-painting-lake-avenue.jpg',
+      '/images/lake-worth-beach/local-casino-building-palms.jpg',
+      '/images/lake-worth-beach/local-lifeguard-tides-board.jpg',
+      '/images/lake-worth-beach/local-street-painting-carpenter-bee.jpg',
+      '/images/lake-worth-beach/local-beach-looking-north.jpg',
     ],
     savedSearches: [
       { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Lake%20Worth%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[minPrice]=400000' },
