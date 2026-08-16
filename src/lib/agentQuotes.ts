@@ -139,11 +139,6 @@ export const agentQuotes: Record<string, AgentQuotes> = {
     johnQuote: "Sonoma Isles works great for buyers who want gated lakefront living with top-tier amenities and A-rated Jupiter school zones. It's one of the most in-demand communities in Jupiter for good reason.",
   },
 
-  'sonoma-bay': {
-    christineQuote: "Sonoma Bay works beautifully for buyers who want gated lakefront living in Jupiter at a price point that's still achievable. The resort amenities, the waterfront lots, the community feel — it's a market that consistently attracts buyers who do their homework.",
-    johnQuote: "Sonoma Bay is ideal for buyers who want the Jupiter lifestyle with real lakefront views in a smaller gated community. I've helped buyers get into this community at every stage and I know the value opportunities well.",
-  },
-
   'jupiter-country-club': {
     christineQuote: "Jupiter Country Club works well for buyers who want true country club living without a stiff, formal atmosphere. The Greg Norman course is exceptional and the community has a welcoming social scene that keeps residents engaged long-term.",
     johnQuote: "JCC is ideal for golf buyers who want a Greg Norman championship course, Mediterranean architecture, and a country club lifestyle that feels approachable rather than pretentious. I know which sections of this community offer the best views and value.",

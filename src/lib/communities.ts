@@ -1,5 +1,16 @@
 export type CommunityType = 'City' | 'Neighborhood'
 
+export type CommunityVideoData = {
+  /** YouTube video ID (the `v=` param). */
+  id: string
+  title: string
+  /** Runtime in seconds — used for the badge and the VideoObject schema. */
+  durationSeconds: number
+  /** ISO date, e.g. '2025-12-18'. Required by Google for VideoObject. */
+  uploadDate: string
+  description: string
+}
+
 export interface CommunityItem {
   slug: string
   name: string
@@ -18,6 +29,8 @@ export interface CommunityItem {
   highlights?: string[]
   photos?: string[]
   photoCredits?: string[]  // parallel to photos — e.g. 'Photo by Jane Doe / Unsplash'
+  /** Our own YouTube tour for this community, rendered as a click-to-load facade. */
+  video?: CommunityVideoData
   // Curated saved-search buttons (real saved URLs from search.doyouneedahome.com — never auto-generated)
   savedSearches?: Array<{ label: string; sublabel?: string; url: string }>
 
@@ -413,7 +426,7 @@ export const cities: CommunityItem[] = [
       { label: 'Hospitals nearby', value: 'Jupiter Medical Center (top-rated), Palm Beach Gardens Medical Center' },
       { label: 'Shopping & dining', value: 'Harbourside Place, Riverwalk, Downtown at The Gardens, Legacy Place, Gardens Mall' },
     ],
-    linkedNeighborhoods: ['abacoa', 'jupiter-inlet-colony', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'sonoma-bay', 'jupiter-island', 'sea-oats', 'river-road', 'mallory-creek', 'newhaven', 'antigua', 'windsor-park', 'valencia', 'martinique', 'canterbury-place', 'osceola-woods', 'dakota', 'tuscany', 'charleston-court'],
+    linkedNeighborhoods: ['abacoa', 'jupiter-inlet-colony', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'jupiter-island', 'sea-oats', 'river-road', 'mallory-creek', 'newhaven', 'antigua', 'windsor-park', 'valencia', 'martinique', 'canterbury-place', 'osceola-woods', 'dakota', 'tuscany', 'charleston-court'],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['condo', 'townhouse'] },
       { type: 'Gated Communities', range: '$700K – $1.5M', minPrice: 700000, maxPrice: 1500000, propertyTypes: ['house'] },
@@ -2929,20 +2942,64 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Sonoma Isles',
     type: 'Neighborhood',
     region: 'Jupiter',
-    description: 'A newer gated community with lakefront homes, resort-style amenities, and a community pool and clubhouse.',
-    overview:
-      'Sonoma Isles is one of Jupiter\'s newest and most popular communities, featuring beautifully designed single-family homes on lakefront lots with a spectacular resort-style amenity center.',
-    quickFacts: [
-      { label: 'Homes', value: 'Lakefront single-family homes' },
-      { label: 'Amenities', value: 'Resort pool, fitness center, tennis, dog park' },
+    searchCity: 'Jupiter',
+    description: 'A 275-home gated DiVosta community off Indiantown Road — newer construction on lakefront lots, a 24-hour manned gate, and one of the strongest amenity packages in Jupiter.',
+    overview: 'Sonoma Isles is the newest large-scale gated community in Jupiter, built by DiVosta beginning in 2016 on 275 single-family homesites just west of Florida\'s Turnpike off Indiantown Road. Most lots back to water — the community was laid out around a series of interconnected lakes rather than a golf course, which is why so many homes here have a genuine long water view rather than a preserve buffer or a neighbor\'s roofline.\n\nBecause it was built out in a single decade by one builder, Sonoma Isles reads as far more consistent than the older Jupiter communities. Floor plans run from roughly 2,488 to 5,149 square feet under air across eight designs, two to seven bedrooms, with three-car garages common on the larger plans. The trade-off for that newness is price: this is now a $1.6M-plus community, and it competes directly with Jupiter Country Club rather than with Abacoa.',
+    lifestyle: 'Newer-construction, family-heavy, and amenity-driven. The clubhouse is the social center — a resort pool with dedicated lap lanes, heated spa, fire pit, fitness center, and a community lounge with a catering kitchen that residents actually book. Tennis, pickleball, and a playground round it out. The 24-hour manned gate matters to a lot of buyers here, particularly seasonal owners and relocating families who want the house watched while they\'re north. Location is the quiet advantage: the Turnpike entrance is under a mile away and I-95 is a straight shot east, so this is one of the easier Jupiter addresses to commute out of.',
+    highlights: [
+      '275 DiVosta-built homes on lakefront and water-view lots — most homes have a real water view',
+      'Eight floor plans from ~2,488 to 5,149 sq ft under air, 2–7 bedrooms, three-car garages on larger plans',
+      'Clubhouse with resort pool and lap lanes, heated spa, fire pit, fitness center, and catering-kitchen lounge',
+      'Tennis, pickleball, playground, and a 24-hour manned gate',
+      'Half a mile from Florida\'s Turnpike, minutes to I-95 — the easiest commute of Jupiter\'s gated communities',
+      'Newer construction throughout — impact glass, current codes, and no 1990s renovation projects',
     ],
+    priceRanges: [
+      { type: 'Single-Family Homes', range: '$1.6M – $3M', minPrice: 1600000, propertyTypes: ['house'] },
+    ],
+    commuteTimes: [
+      { destination: 'Florida\'s Turnpike entrance', time: '2 min' },
+      { destination: 'I-95', time: '7 min' },
+      { destination: 'Harbourside Place / Jupiter Riverwalk', time: '12–15 min' },
+      { destination: 'Jupiter Beach & Carlin Park', time: '15–20 min' },
+      { destination: 'Downtown at the Gardens / Legacy Place', time: '15–20 min' },
+      { destination: 'PBI Airport', time: '30 min' },
+    ],
+    schoolList: [
+      { category: 'Public Schools', schools: [
+        { name: 'Jerry Thomas Elementary School' },
+        { name: 'Independence Middle School' },
+        { name: 'Jupiter Community High School' },
+      ]},
+      { category: 'Nearby Private Schools', schools: [
+        { name: 'Jupiter Christian School', url: 'https://www.jupiterchristian.org' },
+        { name: 'The Benjamin School', url: 'https://www.thebenjaminschool.org' },
+      ]},
+    ],
+    quickFacts: [
+      { label: 'Home style', value: 'Single-family, DiVosta-built 2016–2021 — most on lakefront or water-view lots' },
+      { label: 'Size & bedrooms', value: '~2,488 – 5,149 sq ft under air; 2–7 bedrooms across eight floor plans' },
+      { label: 'Price range', value: '$1.6M – $3M' },
+      { label: 'HOA', value: 'Approx. $460 – $520/mo — includes lawn care, irrigation, and the manned gate' },
+      { label: 'Amenities', value: 'Resort pool with lap lanes, spa, fire pit, fitness center, tennis, pickleball, playground' },
+      { label: 'Best for', value: 'Buyers who want turnkey newer construction on water inside a 24-hour manned gate' },
+    ],
+    similarNeighborhoods: ['jupiter-country-club'],
+    video: {
+      id: 'UC102bsbYQM',
+      title: 'Inside Sonoma Isles | Clubhouse, Pool & Fitness Center Tour in Jupiter, FL',
+      durationSeconds: 70,
+      uploadDate: '2025-12-18',
+      description:
+        'A walkthrough of the clubhouse, fitness center, and resort-style community pool inside Sonoma Isles — a DiVosta-built gated community in Jupiter, Florida.',
+    },
     photos: [
-      '/images/sonoma-bay/sonoma-bay-001.jpeg',
-      '/images/sonoma-bay/sonoma-bay-002.jpeg',
-      '/images/sonoma-bay/sonoma-bay-003.jpeg',
-      '/images/sonoma-bay/sonoma-bay-004.jpeg',
-      '/images/sonoma-bay/sonoma-bay-005.jpeg',
-      '/images/sonoma-bay/sonoma-bay-006.jpeg',
+      '/images/sonoma-isles/sonoma-isles-001.jpeg',
+      '/images/sonoma-isles/sonoma-isles-002.jpeg',
+      '/images/sonoma-isles/sonoma-isles-003.jpeg',
+      '/images/sonoma-isles/sonoma-isles-004.jpeg',
+      '/images/sonoma-isles/sonoma-isles-005.jpeg',
+      '/images/sonoma-isles/sonoma-isles-006.jpeg',
     ],
   },
   {
@@ -3899,39 +3956,6 @@ export const neighborhoods: CommunityItem[] = [
     ],
     searchCity: 'Juno Beach',
   },
-  {
-    slug: 'sonoma-bay',
-    name: 'Sonoma Bay',
-    type: 'Neighborhood',
-    region: 'Jupiter',
-    description: 'A gated Jupiter community with lakefront homes, resort-style amenities, and the relaxed South Florida lifestyle.',
-    overview:
-      'Sonoma Bay is a premier gated community in Jupiter featuring single-family homes on scenic lakefront lots surrounded by lush Florida landscaping. With a resort-style amenity center, wide palm-lined streets, and lakefront lots throughout, Sonoma Bay offers gated single-family living in one of Northern Palm Beach County\'s most sought-after towns.',
-    quickFacts: [
-      { label: 'Homes', value: 'Lakefront single-family homes' },
-      { label: 'Amenities', value: 'Resort pool, clubhouse, lake views, fitness, dog park' },
-    ],
-    priceRanges: [
-      { type: 'Single-Family Homes', range: '$700K – $1.5M', propertyTypes: ['house'] },
-      { type: 'Lakefront Estates', range: '$1.2M – $2.5M+', propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
-    ],
-    highlights: [
-      'Gated community with lakefront lots and beautiful water views throughout',
-      'Resort-style amenity center with pool, cabana, and outdoor entertainment spaces',
-      'Located in Jupiter, served by A-rated Palm Beach County schools',
-      'Close to Harbourside Place dining, Jupiter beach, and outdoor recreation',
-      'Active social calendar with regular neighborhood and community events',
-    ],
-    photos: [
-      '/images/sonoma-bay/sonoma-bay-001.jpeg',
-      '/images/sonoma-bay/sonoma-bay-002.jpeg',
-      '/images/sonoma-bay/sonoma-bay-003.jpeg',
-      '/images/sonoma-bay/sonoma-bay-004.jpeg',
-      '/images/sonoma-bay/sonoma-bay-005.jpeg',
-      '/images/sonoma-bay/sonoma-bay-006.jpeg',
-    ],
-  },
-
   // ── TEQUESTA ─────────────────────────────────────────────────
   {
     slug: 'powder-pointe',

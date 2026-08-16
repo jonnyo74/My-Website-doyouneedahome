@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { notFound } from 'next/navigation'
 import {
   getCommunityBySlug,
   getCommunityPaths,
@@ -15,10 +16,21 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
+import CommunityVideo from '@/components/CommunityVideo'
 import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
 import { selectReportForCommunity, reportsCoverCity } from '@/lib/marketReports'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
+
+/**
+ * Abacoa's villages are neighborhoods-within-a-neighborhood: their region is
+ * "Jupiter", but buyers cross-shop them against each other inside Abacoa, not
+ * against the rest of Jupiter. Everything else rolls up to its own city page.
+ */
+const ABACOA_VILLAGES = new Set([
+  'mallory-creek', 'newhaven', 'osceola-woods', 'antigua', 'canterbury-place',
+  'windsor-park', 'valencia', 'martinique', 'dakota', 'tuscany', 'charleston-court',
+])
 
 function searchUrl(city: string, opts: {
   minPrice?: number
@@ -70,17 +82,9 @@ export default async function CommunityPage({ params }: Props) {
   const { slug } = await params
   const community = getCommunityBySlug(slug)
 
-  if (!community) {
-    return (
-      <div className="min-h-screen bg-white px-6 py-24 sm:px-8">
-        <h1 className="font-serif text-3xl font-semibold text-slate-900">Community not found</h1>
-        <p className="mt-4 text-slate-600">The requested page does not exist.</p>
-        <Link href="/communities" className="mt-6 inline-block text-gold-600 hover:text-gold-700">
-          ← Back to Communities
-        </Link>
-      </div>
-    )
-  }
+  // Unknown slugs must be a real HTTP 404, not a 200 "not found" page — a
+  // soft-404 here would let Google index an unbounded /communities/* space.
+  if (!community) notFound()
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []
@@ -302,16 +306,23 @@ export default async function CommunityPage({ params }: Props) {
             </div>
           )}
 
-          {/* Similar Neighborhoods in Abacoa */}
+          {/* Similar-priced neighborhoods. Abacoa's villages roll up to the Abacoa page;
+              every other community rolls up to its own city page. */}
           {community.similarNeighborhoods && community.similarNeighborhoods.length > 0 && (() => {
             const similar = community.similarNeighborhoods!
               .map(s => communities.find(c => c.slug === s))
               .filter(Boolean) as import('@/lib/communities').CommunityItem[]
+            const groupSlug = ABACOA_VILLAGES.has(community.slug)
+              ? 'abacoa'
+              : community.region.toLowerCase().replace(/\s+/g, '-')
+            const group = communities.find(c => c.slug === groupSlug)
             return similar.length > 0 ? (
               <div className="mt-10">
-                <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Similar Pricing in Abacoa</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
+                  Similar Pricing{group ? ` in ${group.name}` : ''}
+                </p>
                 <h3 className="mt-1 font-serif text-xl font-semibold text-slate-900">
-                  Other Abacoa Neighborhoods to Consider
+                  {group ? `Other ${group.name} Neighborhoods to Consider` : 'Other Neighborhoods to Consider'}
                 </h3>
                 <div className="mt-4 flex flex-wrap gap-3">
                   {similar.map(n => (
@@ -326,12 +337,14 @@ export default async function CommunityPage({ params }: Props) {
                       )}
                     </Link>
                   ))}
-                  <Link
-                    href="/communities/abacoa"
-                    className="inline-flex items-center rounded-2xl border border-slate-200 bg-slate-50 px-5 py-3.5 text-sm font-semibold text-slate-500 transition hover:border-gold-500/40 hover:text-gold-600"
-                  >
-                    All of Abacoa →
-                  </Link>
+                  {group && (
+                    <Link
+                      href={`/communities/${group.slug}`}
+                      className="inline-flex items-center rounded-2xl border border-slate-200 bg-slate-50 px-5 py-3.5 text-sm font-semibold text-slate-500 transition hover:border-gold-500/40 hover:text-gold-600"
+                    >
+                      All of {group.name} →
+                    </Link>
+                  )}
                 </div>
               </div>
             ) : null
@@ -469,6 +482,11 @@ export default async function CommunityPage({ params }: Props) {
                     ))}
                   </div>
                 </div>
+              )}
+
+              {/* Video tour */}
+              {community.video && (
+                <CommunityVideo video={community.video} communityName={community.name} />
               )}
 
               {/* Lifestyle */}

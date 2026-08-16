@@ -81,6 +81,9 @@ const nextConfig: NextConfig = {
       { source: '/new-communities/jupiter-country-club-real-estate', destination: '/communities/jupiter-country-club', permanent: true },
       { source: '/new-communities/the-loxahatchee-club-real-estate', destination: '/communities/loxahatchee-club', permanent: true },
       { source: '/new-communities/sonoma-isles-real-estate', destination: '/communities/sonoma-isles', permanent: true },
+      // "Sonoma Bay" was a duplicate of Sonoma Isles under the wrong name — the real
+      // Sonoma Bay is a townhome community in Riviera Beach, not Jupiter.
+      { source: '/communities/sonoma-bay', destination: '/communities/sonoma-isles', permanent: true },
       { source: '/new-communities/alton-real-estate', destination: '/communities/alton', permanent: true },
       // No-match communities (Mirabella, Jupiter Farms, Old Port Cove, Artistry,
       // Jupiter Yacht Club) will be built as neighborhood sections inside city pages.
@@ -103,6 +106,21 @@ const nextConfig: NextConfig = {
       { source: '/blog/2024/2/16/score-clients-with-these-top-rated-realtor-review-websites', destination: '/blog', permanent: true },
       { source: '/blog/2026/1/7/why-you-should-list-your-home-at-the-beginning-of-the-year', destination: '/blog', permanent: true },
       { source: '/blog/2025/2/23/celebrating-johns-achievement-elevating-real-estate-excellence', destination: '/blog', permanent: true },
+
+      // ── /communities/[city]-real-estate — remaining cities ────────────
+      // Same old-Squarespace pattern as the block above, for the cities that
+      // hadn't been covered yet. Exact slug-to-slug; each goes to its own city
+      // page, never to a hub. (port-st-lucie and lake-worth-beach are already
+      // handled above under their old slugs: port-saint-lucie, lake-worth.)
+      { source: '/communities/boynton-beach-real-estate', destination: '/communities/boynton-beach', permanent: true },
+      { source: '/communities/royal-palm-beach-real-estate', destination: '/communities/royal-palm-beach', permanent: true },
+      { source: '/communities/palm-beach-real-estate', destination: '/communities/palm-beach', permanent: true },
+      { source: '/communities/loxahatchee-real-estate', destination: '/communities/loxahatchee', permanent: true },
+      { source: '/communities/stuart-real-estate', destination: '/communities/stuart', permanent: true },
+      { source: '/communities/westlake-real-estate', destination: '/communities/westlake', permanent: true },
+      { source: '/communities/hobe-sound-real-estate', destination: '/communities/hobe-sound', permanent: true },
+      { source: '/communities/palm-city-real-estate', destination: '/communities/palm-city', permanent: true },
+      { source: '/communities/port-salerno-real-estate', destination: '/communities/port-salerno', permanent: true },
 
     ]
   },
