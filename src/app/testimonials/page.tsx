@@ -44,6 +44,7 @@ const christineReviews = [
 ]
 
 const johnReviews = [
+  { quote: 'Purchasing a home in South Palm Beach while living in New Jersey could have been overwhelming, but John made the entire process remarkably smooth and stress-free. If you\'re looking for a realtor who is honest, knowledgeable, dependable, and genuinely cares about his clients, we recommend John Oliver without hesitation.', author: 'Nancy M.', role: 'Out-of-State Buyer' },
   { quote: 'John went above and beyond would be an understatement.', author: 'Felicia', role: 'Buyer' },
   { quote: 'John is fair, honest & has your best interest.', author: 'Michelle P.', role: 'Seller & Buyer' },
   { quote: "We didn't just buy a condo, we have a new friend.", author: 'William W.', role: 'Buyer' },
