@@ -114,6 +114,7 @@ export default async function ListingPage({ params }: Props) {
   const mlsRef = listing.mlsNumber ? ` (MLS# ${listing.mlsNumber})` : ''
   const priceBand = listing.price ? comparableBand(listing.price) : null
   const isComingSoon = listing.status === 'Coming Soon'
+  const nearbyScope = listing.subdivision ?? listing.city
 
   // ---- JSON-LD structured data ----
   const listingSchema = {
@@ -850,13 +851,35 @@ export default async function ListingPage({ params }: Props) {
               {/* Other homes for sale nearby (live MLS feed) */}
               <div>
                 <h2 className="font-serif text-2xl font-semibold text-slate-900">
-                  Other Homes for Sale in {listing.city}
+                  Other Homes for Sale in {nearbyScope}
                 </h2>
-                <p className="mt-2 text-sm text-slate-500">Live MLS data, updated daily.</p>
+                <p className="mt-2 text-sm text-slate-500">
+                  Live MLS data, updated daily.
+                  {listing.subdivision ? ` Everything currently on the market inside ${listing.subdivision}.` : ''}
+                </p>
                 <div className="mt-5">
                   <YlopoInit city={listing.city} />
-                  <YlopoResultsWidget city={listing.city} minPrice={400000} propertyTypes={['SFR']} limit={6} />
+                  <YlopoResultsWidget
+                    city={listing.city}
+                    neighborhood={listing.subdivision}
+                    minPrice={400000}
+                    propertyTypes={['SFR']}
+                    limit={6}
+                  />
                 </div>
+                {/* A subdivision feed can legitimately come back empty, and the
+                    widget renders nothing rather than saying so — this keeps an
+                    exit to the wider market either way. */}
+                {listing.subdivision && (
+                  <a
+                    href={searchUrl(listing.city)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-flex text-sm font-semibold text-gold-600 transition hover:text-gold-700"
+                  >
+                    See everything for sale in {listing.city} →
+                  </a>
+                )}
               </div>
 
               {/* Agents */}
