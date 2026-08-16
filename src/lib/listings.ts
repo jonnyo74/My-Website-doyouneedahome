@@ -16,10 +16,10 @@ export interface ListingPhoto {
   alt: string
 }
 
-// Shots of the community rather than the home itself. Kept in a separate,
-// captioned gallery: the main gallery carries no captions, so an amenity photo
-// sitting in it would read as part of the house.
-export interface CommunityPhoto extends ListingPhoto {
+// An image that has to explain itself — a community amenity that is not the
+// house, or a floor plan sheet. The main gallery carries no captions, which is
+// exactly why neither of those belongs in it.
+export interface CaptionedPhoto extends ListingPhoto {
   caption: string
 }
 
@@ -124,8 +124,10 @@ export interface Listing {
   // photos aren't shot in the 1.91:1 ratio social platforms expect.
   ogImage?: ListingPhoto
   photos: ListingPhoto[]
-  communityPhotos?: CommunityPhoto[]
-  floorPlan?: ListingPhoto
+  communityPhotos?: CaptionedPhoto[]
+  // A two-story plan needs a sheet per floor, so this is a list rather than the
+  // single image it started as.
+  floorPlans?: CaptionedPhoto[]
 
   listingAgent: ListingAgentInfo
   coListingAgent?: ListingAgentInfo
@@ -326,9 +328,26 @@ export const listings: Listing[] = [
       alt: 'Front exterior of 8804 Skyward Street in Lotus, Boca Raton',
     },
 
-    // Interiors and the lake/pool side go here once they are shot — until then
-    // the gallery says so rather than filling the slot with amenities.
-    photos: [],
+    // Two interiors so far. The professional shoot will replace and extend this.
+    photos: [
+      {
+        src: '/images/listings/8804-skyward-street/02-foyer-two-story.jpg',
+        alt: 'The two-story foyer at 8804 Skyward Street seen from the upstairs loft, with a linear bar chandelier suspended over the entry and a curved staircase below',
+      },
+      {
+        src: '/images/listings/8804-skyward-street/03-gym.jpg',
+        alt: 'The home gym at 8804 Skyward Street, with a mirrored wall, rubber flooring, a cable machine, bench, exercise bike and heavy bag',
+      },
+    ],
+
+    // The GL Homes Sumatra plan sheets are held out deliberately. They are the
+    // builder's copyrighted illustrations, and the Intellectual Property
+    // Affidavit signed for this address names Magik Box Creations as the vendor
+    // for its marketing materials — which does not extend to GL's drawings.
+    // Files are parked in _source/ as HOLD-*. Restore them here once GL Homes
+    // gives written permission; the room dimensions taken off them are fine to
+    // publish, since facts about a building are not the drawing.
+    // floorPlans: [ ... ]
 
     communityPhotos: [
       {
@@ -618,10 +637,13 @@ export const listings: Listing[] = [
       { src: '/images/listings/6145-se-audubon-lane/43-garage.jpg', alt: 'Attached one-car garage with laundry area' },
       { src: '/images/listings/6145-se-audubon-lane/44-driveway.jpg', alt: 'Driveway and front parking area' },
     ],
-    floorPlan: {
-      src: '/images/listings/6145-se-audubon-lane/floor-plan.jpg',
-      alt: 'Floor plan of 6145 SE Audubon Lane, Hobe Sound, FL, showing room layout and dimensions',
-    },
+    floorPlans: [
+      {
+        src: '/images/listings/6145-se-audubon-lane/floor-plan.jpg',
+        alt: 'Floor plan of 6145 SE Audubon Lane, Hobe Sound, FL, showing room layout and dimensions',
+        caption: 'The full single-story layout, with the split-bedroom arrangement and the covered porch running along the pool patio.',
+      },
+    ],
 
     listingAgent: JOHN,
     coListingAgent: CHRISTINE,

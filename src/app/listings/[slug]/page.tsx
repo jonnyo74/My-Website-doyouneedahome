@@ -482,21 +482,38 @@ export default async function ListingPage({ params }: Props) {
                 </div>
               )}
 
-              {/* Floor Plan */}
-              {listing.floorPlan && (
+              {/* Floor Plans */}
+              {listing.floorPlans && listing.floorPlans.length > 0 && (
                 <div>
-                  <h2 className="font-serif text-2xl font-semibold text-slate-900">Floor Plan</h2>
-                  <a
-                    href={listing.floorPlan.src}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 block overflow-hidden rounded-2xl border border-slate-200"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={listing.floorPlan.src} alt={listing.floorPlan.alt} loading="lazy" className="w-full" />
-                  </a>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                    {listing.floorPlans.length > 1 ? 'Floor Plans' : 'Floor Plan'}
+                  </h2>
+                  {/* Plan sheets are often tall portrait pages, so each is capped
+                      by height and centered rather than stretched to full width. */}
+                  <div className={`mt-4 grid gap-5 ${listing.floorPlans.length > 1 ? 'sm:grid-cols-2' : ''}`}>
+                    {listing.floorPlans.map((plan) => (
+                      <figure key={plan.src}>
+                        <a
+                          href={plan.src}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block overflow-hidden rounded-2xl border border-slate-200 bg-white p-3"
+                        >
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={plan.src}
+                            alt={plan.alt}
+                            loading="lazy"
+                            className="mx-auto max-h-[70vh] w-auto max-w-full object-contain"
+                          />
+                        </a>
+                        <figcaption className="mt-2 text-sm leading-6 text-slate-500">{plan.caption}</figcaption>
+                      </figure>
+                    ))}
+                  </div>
                   <p className="mt-3 text-xs text-slate-400">
                     Floor plan measurements are approximate and should be independently verified.
+                    Plans show the builder&apos;s model; options selected on this home may differ.
                   </p>
                 </div>
               )}
