@@ -197,7 +197,7 @@ export const listings: Listing[] = [
         'Heated',
         'Marble pool deck and rear patio',
         'Full cabana bath with a French door to the deck',
-        'Permitted pool safety barrier',
+        'Barrier enclosure meeting Florida pool safety requirements',
       ],
     },
     waterfront: true,
@@ -210,6 +210,8 @@ export const listings: Listing[] = [
     },
 
     roof: 'Concrete tile',
+    roofYear: 2021,
+    occupancy: 'Owner-occupied',
     cooling: ['Central air conditioning'],
     heating: ['Central heat'],
     constructionMaterials: ['Concrete block', 'Stucco'],
@@ -262,6 +264,7 @@ export const listings: Listing[] = [
 
     ownershipConsiderations: [
       'This home is Coming Soon and has not yet reached the MLS. The list price will be published here once a list date is set — reach out in the meantime and we will send it to you as soon as it is.',
+      "A signed Seller's Property Disclosure is already on file and available on request. On it the seller reports the roof as installed in 2021 and never having leaked, no history of water intrusion, drainage or flooding problems, no sinkhole activity or claims, no environmental hazards, no boundary disputes or encroachments, no pending litigation or special assessments, and that none of the appliances are leased. The home is owner-occupied. Read the disclosure yourself rather than relying on this summary of it.",
       'Lotus carries a mandatory homeowners association with a monthly assessment that covers the manned gate, lawn maintenance, common areas, clubhouse, and social programming. Review the association documents, the current budget, and any pending assessments during your inspection period.',
       'The community and the home are subject to HOA architectural and use restrictions, and GL Homes communities typically limit leasing. Confirm the current leasing rules with the association if a rental is part of your plan.',
       'Property taxes in Palm Beach County are commonly reassessed after a sale, and the seller\'s current exemptions do not transfer. Ask us to run the expected post-sale tax figure for your situation rather than relying on the current bill.',
