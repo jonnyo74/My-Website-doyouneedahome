@@ -3055,6 +3055,10 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Jupiter Island',
     type: 'Neighborhood',
     region: 'Jupiter',
+    // Tested as type: 'City' — Ylopo has a Jupiter Island city record but it
+    // returns no listings AND no trends, so the page ends up worse off than it
+    // is here, where it at least borrows Jupiter's trends and article cluster.
+    // Leave it as a Jupiter neighborhood until Ylopo's island data improves.
     description: 'An ultra-exclusive barrier island community with oceanfront estates and exceptional privacy.',
     overview:
       'Jupiter Island is one of the most exclusive coastal addresses in Palm Beach County, ideal for luxury buyers seeking oceanfront living with the highest level of privacy.',
