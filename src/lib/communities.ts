@@ -1023,7 +1023,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Lauderdale Airport (FLL)', time: '40 min' },
       { destination: 'Brightline (Boca Station)', time: '15 min' },
     ],
-    linkedNeighborhoods: ['hammock-park', 'water-crest', 'boynton-beach-gardens', 'ocean-ridge'],
+    linkedNeighborhoods: ['hammock-park', 'water-crest', 'boynton-beach-gardens'],
     priceRanges: [
       { type: 'Condos & Villas', range: '$400K – $550K', minPrice: 400000, maxPrice: 550000, propertyTypes: ['condo'] },
       { type: 'Single-Family Homes', range: '$400K – $900K', minPrice: 400000, propertyTypes: ['house'] },
@@ -1415,7 +1415,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Lauderdale Airport (FLL)', time: '55 min' },
       { destination: 'Miami', time: '1 hr 15 min' },
     ],
-    linkedNeighborhoods: ['manalapan'],
+    linkedNeighborhoods: [],
     priceRanges: [
       { type: 'Condos & Co-ops', range: '$800K – $6M+', minPrice: 800000, propertyTypes: ['condo'] },
       { type: 'Single-Family Homes (In-Town)', range: '$3M – $15M+', minPrice: 3000000, propertyTypes: ['house'] },
@@ -2792,6 +2792,46 @@ export const cities: CommunityItem[] = [
     ],
     lat: 27.1494, lng: -80.1944,
   },
+
+  // ── BARRIER ISLAND TOWNS ─────────────────────────────────────
+  // Small incorporated towns, not neighborhoods of their mainland neighbours.
+  // Ylopo indexes both as cities, so the listings widget only resolves them
+  // when they carry type: 'City' — as a Neighborhood it asks for a community
+  // record that does not exist over there and gets nothing back.
+  {
+    slug: 'ocean-ridge',
+    name: 'Ocean Ridge',
+    type: 'City',
+    region: 'Barrier Island',
+    description: 'A small, exclusive bayfront town with luxury estates and direct inlet access between Boca and Boynton.',
+    overview:
+      'Ocean Ridge offers quiet elegance and waterfront living between Palm Beach and Boynton Beach, with direct access to the Intracoastal and Atlantic inlet.',
+    quickFacts: [
+      { label: 'Homes', value: 'Bayfront estates and luxury homes' },
+      { label: 'Amenities', value: 'Marina access, private beaches' },
+    ],
+  },
+  {
+    slug: 'manalapan',
+    name: 'Manalapan',
+    type: 'City',
+    region: 'Barrier Island',
+    description: 'A small incorporated beachfront town offering some of the county\'s highest-priced oceanfront estates.',
+    overview:
+      'Manalapan delivers the highest level of privacy and luxury on the barrier island, with magnificent oceanfront and lakefront estates on expansive lots.',
+    quickFacts: [
+      { label: 'Homes', value: 'Oceanfront mega estates' },
+      { label: 'Amenities', value: 'Private beaches, gated access' },
+    ],
+    photos: [
+      '/public/Mega Mansion Manalapan walk through/IMG_5343.JPEG',
+      '/public/Mega Mansion Manalapan walk through/IMG_5344.JPEG',
+      '/public/Mega Mansion Manalapan walk through/IMG_5345.JPEG',
+      '/public/Mega Mansion Manalapan walk through/IMG_5346.JPEG',
+      '/public/Mega Mansion Manalapan walk through/IMG_5347.JPEG',
+      '/public/Mega Mansion Manalapan walk through/IMG_5348.JPEG',
+    ],
+  },
 ]
 
 export const neighborhoods: CommunityItem[] = [
@@ -2988,7 +3028,7 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Home style', value: 'Single-family, DiVosta-built 2016–2021 — most on lakefront or water-view lots' },
       { label: 'Size & bedrooms', value: '~2,488 – 5,149 sq ft under air; 2–7 bedrooms across eight floor plans' },
       { label: 'Price range', value: '$1.6M – $3M' },
-      { label: 'HOA', value: 'Approx. $460 – $520/mo — includes lawn care, irrigation, and the manned gate' },
+      { label: 'HOA', value: 'Approx. $519/mo — includes lawn care, irrigation, and the manned gate' },
       { label: 'Amenities', value: 'Resort pool with lap lanes, spa, fire pit, fitness center, tennis, pickleball, playground' },
       { label: 'Best for', value: 'Buyers who want turnkey newer construction on water inside a 24-hour manned gate' },
     ],
@@ -3621,19 +3661,6 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Schools, shops, parks' },
     ],
   },
-  {
-    slug: 'ocean-ridge',
-    name: 'Ocean Ridge',
-    type: 'Neighborhood',
-    region: 'Boynton Beach',
-    description: 'A small, exclusive bayfront town with luxury estates and direct inlet access between Boca and Boynton.',
-    overview:
-      'Ocean Ridge offers quiet elegance and waterfront living between Palm Beach and Boynton Beach, with direct access to the Intracoastal and Atlantic inlet.',
-    quickFacts: [
-      { label: 'Homes', value: 'Bayfront estates and luxury homes' },
-      { label: 'Amenities', value: 'Marina access, private beaches' },
-    ],
-  },
 
   // ── LAKE WORTH BEACH ─────────────────────────────────────────
   {
@@ -3730,28 +3757,6 @@ export const neighborhoods: CommunityItem[] = [
     ],
   },
 
-  // ── PALM BEACH ───────────────────────────────────────────────
-  {
-    slug: 'manalapan',
-    name: 'Manalapan',
-    type: 'Neighborhood',
-    region: 'Palm Beach',
-    description: 'A small incorporated beachfront town offering some of the county\'s highest-priced oceanfront estates.',
-    overview:
-      'Manalapan delivers the highest level of privacy and luxury on the barrier island, with magnificent oceanfront and lakefront estates on expansive lots.',
-    quickFacts: [
-      { label: 'Homes', value: 'Oceanfront mega estates' },
-      { label: 'Amenities', value: 'Private beaches, gated access' },
-    ],
-    photos: [
-      '/public/Mega Mansion Manalapan walk through/IMG_5343.JPEG',
-      '/public/Mega Mansion Manalapan walk through/IMG_5344.JPEG',
-      '/public/Mega Mansion Manalapan walk through/IMG_5345.JPEG',
-      '/public/Mega Mansion Manalapan walk through/IMG_5346.JPEG',
-      '/public/Mega Mansion Manalapan walk through/IMG_5347.JPEG',
-      '/public/Mega Mansion Manalapan walk through/IMG_5348.JPEG',
-    ],
-  },
 
   // ── JUPITER COUNTRY CLUBS ────────────────────────────────────
   {

@@ -25333,6 +25333,8 @@ export const CITY_REGIONS: Record<string, string> = {
   'boca-raton': 'South County',
   'delray-beach': 'South County',
   'boynton-beach': 'South County',
+  'ocean-ridge': 'South County',
+  'manalapan': 'South County',
   // Martin County
   'stuart': 'Martin County',
   'palm-city': 'Martin County',
