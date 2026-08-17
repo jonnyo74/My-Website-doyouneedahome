@@ -434,7 +434,7 @@ export const cities: CommunityItem[] = [
       { label: 'Hospitals nearby', value: 'Jupiter Medical Center (top-rated), Palm Beach Gardens Medical Center' },
       { label: 'Shopping & dining', value: 'Harbourside Place, Riverwalk, Downtown at The Gardens, Legacy Place, Gardens Mall' },
     ],
-    linkedNeighborhoods: ['abacoa', 'jupiter-inlet-colony', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'jupiter-island', 'sea-oats', 'river-road', 'mallory-creek', 'newhaven', 'antigua', 'windsor-park', 'valencia', 'martinique', 'canterbury-place', 'osceola-woods', 'dakota', 'tuscany', 'charleston-court'],
+    linkedNeighborhoods: ['abacoa', 'jupiter-inlet-colony', 'jupiter-country-club', 'admirals-cove', 'loxahatchee-club', 'jonathans-landing', 'trump-national-jupiter', 'bears-club', 'sonoma-isles', 'jupiter-island', 'river-road', 'mallory-creek', 'newhaven', 'antigua', 'windsor-park', 'valencia', 'martinique', 'canterbury-place', 'osceola-woods', 'dakota', 'tuscany', 'charleston-court'],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['condo', 'townhouse'] },
       { type: 'Gated Communities', range: '$700K – $1.5M', minPrice: 700000, maxPrice: 1500000, propertyTypes: ['house'] },
@@ -1709,7 +1709,7 @@ export const cities: CommunityItem[] = [
     ],
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Juno Isles', 'Juno Landing', 'Ocean Trace', 'Seminole Landing', 'A1A Oceanfront Corridor'],
-    linkedNeighborhoods: ['bay-colony'],
+    linkedNeighborhoods: ['bay-colony', 'sea-oats'],
     photos: [
       '/images/juno-beach/juno-beach-005.jpg',
       '/images/juno-beach/juno-beach-021.jpg',
@@ -3027,10 +3027,10 @@ export const neighborhoods: CommunityItem[] = [
     slug: 'sea-oats',
     name: 'Sea Oats',
     type: 'Neighborhood',
-    region: 'Jupiter',
+    region: 'Juno Beach',
     description: 'A gated community with canal-front homes, private docks, and waterfront amenities.',
     overview:
-      'Sea Oats offers gated waterfront living in Jupiter with private docks and direct boat access to the Intracoastal.',
+      'Sea Oats offers gated waterfront living in Juno Beach with private docks and direct boat access to the Intracoastal.',
     quickFacts: [
       { label: 'Homes', value: 'Canal-front estates and homes' },
       { label: 'Amenities', value: 'Private docks, gated security' },
