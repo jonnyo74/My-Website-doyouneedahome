@@ -4316,6 +4316,10 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
+    // Do NOT "correct" this to Delray Beach. There are two Dakotas: this one is
+    // the Abacoa townhomes in Jupiter; the other is newer single-family east of
+    // the Turnpike on Atlantic in Delray. Ylopo only carries the Delray one, so
+    // this page's listings block stays empty until they add ours.
     description: 'Modern 2–3 story townhomes with clean coastal design, private garages, and approachable pricing — one of Abacoa\'s most accessible entries into Jupiter\'s competitive real estate market.',
     overview: 'Dakota is a modern townhome community within Abacoa featuring contemporary architecture and practical floor plans. The community emphasizes modern townhome living with a clean, coastal style and an easy, low-maintenance lifestyle. Most homes are 2–3 story with 2–3 bedroom configurations, open living and dining layouts, modern kitchens, private garages, balconies or small outdoor spaces on select models, and HOA-managed exterior and landscaping.\n\nDakota offers approachable pricing compared to larger Abacoa neighborhoods and is described as providing an accessible entry into Jupiter\'s competitive real estate market. Community amenities include a swimming pool, sidewalks, tree-lined streets, green spaces, and guest parking.',
     lifestyle: 'Low-maintenance and practical with coastal-modern curb appeal. Dakota offers Abacoa\'s most accessible price points, compact low-maintenance floor plans, and HOA-managed exteriors.',
