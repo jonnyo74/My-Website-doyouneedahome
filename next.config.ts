@@ -38,6 +38,12 @@ const nextConfig: NextConfig = {
       { source: '/blog/best-things-to-do-in-port-salerno-florida', destination: '/blog/manatee-pocket-guide', permanent: true },
       { source: '/blog/pros-and-cons-of-living-in-port-salerno-florida', destination: '/blog/port-salerno-vs-stuart', permanent: true },
 
+      // ── RETIRED COMMUNITY ─────────────────────────────────────────────
+      // Wellington Country Club is not a real club. Its page claimed "eight golf
+      // courses" and contradicted the Wellington golf section, which names the
+      // clubs that do exist. Record removed; the URL was live and indexed.
+      { source: '/communities/wellington-country-club', destination: '/communities/wellington', permanent: true },
+
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate
       { source: '/team-page', destination: '/team', permanent: true },
