@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { cities } from '@/lib/communities'
-import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
+import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import { leadMagnets, publishedLeadMagnets } from '@/lib/leadMagnets'
 
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
 // zero results); omitting locations entirely falls back to the account's
@@ -113,13 +114,47 @@ export default function BuyPage() {
         </div>
       </section>
 
-      {/* Market reports */}
+      {/* Primary buyer magnet — one offer, then links to the rest */}
       <section className="bg-slate-50 px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-5xl">
-          <DualReportCTA
+          <div className="text-center">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-text">
+              Start Here
+            </p>
+            <h2 className="mt-2 font-serif text-3xl font-semibold text-slate-900 sm:text-4xl">
+              Not Sure Where You Want to Live Yet?
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+              Almost every buyer we work with starts with the same question, and it is not about a
+              house. It is about which town. This free guide puts every area we serve side by side —
+              price, water access, golf, 55+, HOAs, hospitals and commute — so you can narrow it down
+              before you start touring.
+            </p>
+          </div>
+          <LeadMagnetCTA
+            selection="relocation-decision-guide"
+            variant="end-of-article"
             pageCategory="buy"
-            intro="Understand today's market before you make a move. Free July 2026 reports with local prices, inventory, and negotiating conditions — instant PDF download, no obligation."
+            className="mt-10"
           />
+          <div className="mt-8 rounded-2xl border border-slate-200 bg-white px-6 py-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+              Also free, whenever you need them
+            </p>
+            <div className="mt-3 flex flex-wrap gap-3">
+              {publishedLeadMagnets
+                .filter((m) => m.key !== leadMagnets['relocation-decision-guide'].key)
+                .map((m) => (
+                  <Link
+                    key={m.key}
+                    href={m.landingPage}
+                    className="rounded-full border border-slate-200 px-5 py-2.5 text-sm font-medium text-slate-700 transition hover:border-gold-500/40 hover:text-gold-600"
+                  >
+                    {m.shortTitle}
+                  </Link>
+                ))}
+            </div>
+          </div>
         </div>
       </section>
 

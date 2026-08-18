@@ -155,7 +155,7 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'seven-bridges': {
-    christineQuote: "Seven Bridges works perfectly for buyers who want a modern luxury country club lifestyle in western Palm Beach County. Elegant estates, championship golf, resort amenities — and a price point that still makes sense compared to coastal markets.",
+    christineQuote: "Seven Bridges works perfectly for buyers who want a modern luxury country club lifestyle in west Delray Beach. Elegant estates, championship golf, resort amenities — and a price point that still makes sense compared to coastal markets.",
     johnQuote: "Seven Bridges is the right call for golf buyers who want a newer, modern community without the dated feel of older country clubs. The lakefront homes, the course, the clubhouse — it's a community that's aging well and holding its value.",
   },
 

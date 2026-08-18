@@ -1,10 +1,12 @@
 'use client'
 
 import { useRef, useState } from 'react'
-import type { MarketReport } from '@/lib/marketReports'
+import type { LeadMagnet } from '@/lib/leadMagnets'
+import { markDownloaded } from '@/lib/leadMagnetState'
 import { trackEvent } from '@/lib/analytics'
 import { getUtmAndReferrer } from '@/lib/utm'
 import FormConsent from '@/components/FormConsent'
+import { CURRENT_CONSENT_VERSION } from '@/lib/consent'
 
 export const INTEREST_OPTIONS = [
   'Buying',
@@ -13,8 +15,24 @@ export const INTEREST_OPTIONS = [
   'Just researching',
 ] as const
 
-/** Set once any report is downloaded — suppresses the sticky bar + exit intent. */
-export const DOWNLOADED_STORAGE_KEY = 'dhg-report-downloaded'
+/** Mirrors AREA_OPTIONS / TIMELINE_OPTIONS in src/lib/leadHelpers.ts. */
+const AREA_OPTIONS = [
+  'Northern Palm Beach County',
+  'Central Palm Beach County',
+  'Southern Palm Beach County',
+  'Western Palm Beach County',
+  'Martin County / Treasure Coast',
+  'St. Lucie County',
+  'Still deciding',
+] as const
+
+const TIMELINE_OPTIONS = [
+  'Within 3 months',
+  '3 to 6 months',
+  '6 to 12 months',
+  'More than a year',
+  'No specific timeline',
+] as const
 
 interface FormValues {
   firstName: string
@@ -36,8 +54,8 @@ function validate(values: FormValues): Partial<Record<keyof FormValues, string>>
   return errors
 }
 
-export interface ReportLeadFormProps {
-  report: MarketReport
+export interface LeadMagnetFormProps {
+  magnet: LeadMagnet
   /** Where the CTA lives, e.g. 'sidebar', 'inline', 'exit-intent', 'landing-hero' */
   ctaLocation: string
   /** Page bucket for analytics/CRM, e.g. 'community', 'blog', 'landing-page' */
@@ -50,26 +68,36 @@ export interface ReportLeadFormProps {
 
 type Status = 'idle' | 'sending' | 'success' | 'error'
 
-export default function ReportLeadForm({
-  report,
+export default function LeadMagnetForm({
+  magnet,
   ctaLocation,
   pageCategory,
   idPrefix,
   tone = 'light',
   onSuccess,
-}: ReportLeadFormProps) {
+}: LeadMagnetFormProps) {
   const [values, setValues] = useState<FormValues>(EMPTY)
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({})
   const [status, setStatus] = useState<Status>('idle')
   const [serverError, setServerError] = useState<string | null>(null)
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null)
+  // Optional second step — asked only after the download has been handed over.
+  const [area, setArea] = useState('')
+  const [timeline, setTimeline] = useState('')
+  const [followUpSent, setFollowUpSent] = useState(false)
   const startedRef = useRef(false)
   const submittingRef = useRef(false)
   const formRef = useRef<HTMLFormElement>(null)
 
   const analyticsParams = {
-    report_type: report.type,
-    report_edition: report.edition,
+    magnet_key: magnet.key,
+    magnet_id: magnet.id,
+    magnet_kind: magnet.kind,
+    magnet_edition: magnet.edition,
+    // Kept as an alias of magnet_key so GA4 reports built on the original
+    // two-report event schema keep working.
+    report_type: magnet.key,
+    report_edition: magnet.edition,
     cta_location: ctaLocation,
     page_category: pageCategory,
     page_url: typeof window !== 'undefined' ? window.location.pathname : undefined,
@@ -108,11 +136,7 @@ export default function ReportLeadForm({
     a.click()
     a.remove()
     trackEvent('lead_magnet_download', analyticsParams)
-    try {
-      localStorage.setItem(DOWNLOADED_STORAGE_KEY, report.edition)
-    } catch {
-      // storage unavailable — fine
-    }
+    markDownloaded(magnet.key, magnet.edition)
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -139,7 +163,8 @@ export default function ReportLeadForm({
           phone: values.phone.trim(),
           interest: values.interest,
           honeypot: values.honeypot,
-          reportType: report.type,
+          magnetKey: magnet.key,
+          magnetEdition: magnet.edition,
           sourcePageUrl: window.location.href,
           pageCategory,
           ctaPlacement: ctaLocation,
@@ -149,6 +174,7 @@ export default function ReportLeadForm({
           utmCampaign,
           utmContent,
           referrer,
+          consentVersion: CURRENT_CONSENT_VERSION,
         }),
       })
       if (!res.ok) throw new Error(`Lead submission failed (${res.status})`)
@@ -171,6 +197,33 @@ export default function ReportLeadForm({
     }
   }
 
+  const submitFollowUp = async () => {
+    if (!area && !timeline) return
+    setFollowUpSent(true)
+    trackEvent('lead_magnet_followup_submit', analyticsParams)
+    try {
+      await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          followUp: true,
+          firstName: values.firstName.trim(),
+          email: values.email.trim(),
+          magnetKey: magnet.key,
+          magnetEdition: magnet.edition,
+          areaOfInterest: area || undefined,
+          timeline: timeline || undefined,
+          sourcePageUrl: window.location.href,
+          submittedAt: new Date().toISOString(),
+        }),
+      })
+    } catch (err) {
+      // The visitor already has their download — a failed enrichment call is
+      // logged and swallowed rather than shown as an error.
+      console.error('Lead magnet follow-up error:', err)
+    }
+  }
+
   const fieldId = (name: string) => `${idPrefix}-${name}`
 
   /**
@@ -187,33 +240,107 @@ export default function ReportLeadForm({
   }
 
   if (status === 'success') {
+    const selectCls = `${inputCls} appearance-none`
     return (
-      <div className="py-2 text-center" role="status" aria-live="polite">
-        <div
-          className={`mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border ${
-            dark ? 'border-report-gold/50 bg-report-gold/10' : 'border-report-gold bg-report-gold/10'
-          }`}
-        >
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M5 13l4 4L19 7" stroke="#B08F47" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </div>
-        <h3 className={`font-serif text-xl font-semibold ${dark ? 'text-white' : 'text-slate-900'}`}>
-          Your report is downloading now.
-        </h3>
-        <p className={`mt-2 text-sm leading-6 ${dark ? 'text-white/60' : 'text-slate-500'}`}>
-          Thanks, {values.firstName.trim()}! &ldquo;{report.title}&rdquo; ({report.edition} edition) should be in
-          your downloads. Christine or John will follow up shortly.
-        </p>
-        {downloadUrl && (
-          <a
-            href={downloadUrl}
-            rel="nofollow"
-            onClick={() => trackEvent('lead_magnet_download', analyticsParams)}
-            className="mt-5 inline-flex items-center justify-center rounded-full bg-report-gold px-6 py-3 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark"
+      <div className="py-2" role="status" aria-live="polite">
+        <div className="text-center">
+          <div
+            className={`mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border ${
+              dark ? 'border-report-gold/50 bg-report-gold/10' : 'border-report-gold bg-report-gold/10'
+            }`}
           >
-            Didn&rsquo;t start? Download again
-          </a>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 13l4 4L19 7" stroke="#B08F47" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <h3 className={`font-serif text-xl font-semibold ${dark ? 'text-white' : 'text-slate-900'}`}>
+            Your download is starting now.
+          </h3>
+          <p className={`mt-2 text-sm leading-6 ${dark ? 'text-white/60' : 'text-slate-500'}`}>
+            Thanks, {values.firstName.trim()}! &ldquo;{magnet.title}&rdquo; should be in your
+            downloads. Christine or John will follow up shortly.
+          </p>
+          {downloadUrl && (
+            <a
+              href={downloadUrl}
+              rel="nofollow"
+              onClick={() => trackEvent('lead_magnet_download', analyticsParams)}
+              className="mt-5 inline-flex items-center justify-center rounded-full bg-report-gold px-6 py-3 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark"
+            >
+              Didn&rsquo;t start? Download again
+            </a>
+          )}
+        </div>
+
+        {/* Optional second step — never required, never blocks the download. */}
+        {!followUpSent ? (
+          <div className={`mt-7 border-t pt-6 ${dark ? 'border-white/15' : 'border-slate-200'}`}>
+            <p className={`text-sm font-semibold ${dark ? 'text-white' : 'text-slate-900'}`}>
+              Two optional questions
+            </p>
+            <p className={`mt-1 text-xs leading-5 ${dark ? 'text-white/60' : 'text-slate-500'}`}>
+              Answer these and we&rsquo;ll tailor what we send you next. Skip them and nothing
+              changes.
+            </p>
+            <div className="mt-4 space-y-3">
+              <div>
+                <label htmlFor={fieldId('area')} className={labelCls}>
+                  Where are you looking?
+                </label>
+                <select
+                  id={fieldId('area')}
+                  value={area}
+                  onChange={(e) => setArea(e.target.value)}
+                  className={selectCls}
+                >
+                  <option value="">Select an area (optional)</option>
+                  {AREA_OPTIONS.map((opt) => (
+                    <option key={opt} value={opt}>
+                      {opt}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label htmlFor={fieldId('timeline')} className={labelCls}>
+                  When are you hoping to move?
+                </label>
+                <select
+                  id={fieldId('timeline')}
+                  value={timeline}
+                  onChange={(e) => setTimeline(e.target.value)}
+                  className={selectCls}
+                >
+                  <option value="">Select a timeline (optional)</option>
+                  {TIMELINE_OPTIONS.map((opt) => (
+                    <option key={opt} value={opt}>
+                      {opt}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <button
+                type="button"
+                onClick={submitFollowUp}
+                disabled={!area && !timeline}
+                className={`w-full rounded-full px-6 py-3 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-50 ${
+                  dark
+                    ? 'border border-report-gold/60 text-report-gold-light hover:bg-white/10'
+                    : 'border border-report-gold-dark text-report-gold-text hover:bg-report-gold/10'
+                }`}
+              >
+                Send These Answers
+              </button>
+            </div>
+          </div>
+        ) : (
+          <p
+            className={`mt-6 border-t pt-5 text-center text-xs ${
+              dark ? 'border-white/15 text-white/60' : 'border-slate-200 text-slate-500'
+            }`}
+          >
+            Thanks — that helps. We&rsquo;ll keep it in mind when we follow up.
+          </p>
         )}
       </div>
     )
@@ -302,9 +429,7 @@ export default function ReportLeadForm({
         />
       </div>
 
-      <fieldset
-        aria-describedby={errors.interest ? fieldId('interest-error') : undefined}
-      >
+      <fieldset aria-describedby={errors.interest ? fieldId('interest-error') : undefined}>
         <legend className={labelCls}>I am primarily interested in: *</legend>
         <div className="grid grid-cols-2 gap-2">
           {INTEREST_OPTIONS.map((opt) => {
@@ -346,7 +471,7 @@ export default function ReportLeadForm({
         disabled={status === 'sending'}
         className="w-full rounded-full bg-report-gold px-6 py-3.5 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark disabled:opacity-60"
       >
-        {status === 'sending' ? 'Sending…' : 'Download the Free Report'}
+        {status === 'sending' ? 'Sending…' : magnet.ctaButtonLabel}
       </button>
 
       {status === 'error' && serverError && (

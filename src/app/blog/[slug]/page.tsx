@@ -14,8 +14,8 @@ import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
-import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
-import { selectReportForArticle, reportsCoverCity } from '@/lib/marketReports'
+import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import { selectMagnetForArticle } from '@/lib/leadMagnetRouting'
 import { SITE_URL } from '@/lib/site'
 
 const SITE = SITE_URL
@@ -61,6 +61,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: a.metaDescription,
     keywords: [a.primaryKeyword, ...a.secondaryKeywords],
     alternates: { canonical: url },
+    // Tells the sitewide sticky bar and exit-intent offer which magnet this
+    // page chose, so they can't offer something different from the in-page CTAs.
+    other: { 'lead-magnet-selection': selectMagnetForArticle(a) },
     openGraph: {
       title: a.metaTitle,
       description: a.metaDescription,
@@ -83,10 +86,11 @@ export default async function ArticlePage({ params }: Props) {
 
   const trends = marketTrendsCity(article.cityName)
   const url = `${SITE}/blog/${article.slug}`
-  const reportSelection = selectReportForArticle(article)
-  // The reports are Palm Beach County data — don't offer them on Treasure Coast pages.
-  const showReportCta = reportsCoverCity(article.citySlug)
-  const bodyParts = showReportCta ? splitBodyForInlineCta(article.body) : null
+  // One contextually chosen magnet for the whole page: Treasure Coast articles
+  // get a Treasure Coast offer, relocation articles get the decision guide, and
+  // condo-building articles get the due-diligence checklist.
+  const magnetSelection = selectMagnetForArticle(article)
+  const bodyParts = splitBodyForInlineCta(article.body)
 
   // ---- JSON-LD structured data ----
   const articleSchema = {
@@ -170,8 +174,8 @@ export default async function ArticlePage({ params }: Props) {
         {bodyParts ? (
           <>
             <Prose content={bodyParts[0]} />
-            <MarketReportCTA
-              selection={reportSelection}
+            <LeadMagnetCTA
+              selection={magnetSelection}
               variant="inline"
               pageCategory="blog"
               className="mt-10"
@@ -258,16 +262,14 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </div>
 
-        {/* End-of-article report CTA */}
-        {showReportCta && (
-          <div className="mt-12">
-            <MarketReportCTA
-              selection={reportSelection}
-              variant="end-of-article"
-              pageCategory="blog"
-            />
-          </div>
-        )}
+        {/* End-of-article lead-magnet CTA */}
+        <div className="mt-12">
+          <LeadMagnetCTA
+            selection={magnetSelection}
+            variant="end-of-article"
+            pageCategory="blog"
+          />
+        </div>
 
         {/* FAQ */}
         {article.faqs.length > 0 && (

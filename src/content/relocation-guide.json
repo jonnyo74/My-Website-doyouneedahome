@@ -1,0 +1,427 @@
+{
+  "note": "Every field below is summarized from content already published on this site (src/lib/communities.ts quickFacts, priceRanges, hospitals, commuteTimes, plus the city blog articles). Nothing here is a new statistic. Price ranges are the same asking-price ranges shown on each community page, not MLS medians. Update this file when the underlying community pages change.",
+  "areas": [
+    {
+      "slug": "jupiter",
+      "name": "Jupiter",
+      "county": "Palm Beach County",
+      "region": "North County",
+      "communityPage": "/communities/jupiter",
+      "setting": "Coastal",
+      "priceRanges": [
+        { "type": "Condos & townhomes", "range": "$450K - $900K" },
+        { "type": "Gated communities", "range": "$700K - $1.5M" },
+        { "type": "55+ communities", "range": "$400K - $700K" },
+        { "type": "Golf & country club homes", "range": "$2M - $5M+" },
+        { "type": "Waterfront estates", "range": "$3M - $20M+" }
+      ],
+      "boating": "Strong. The Loxahatchee River and the Jupiter Inlet give direct ocean access, and waterfront estates with private dockage are a defined segment of the market.",
+      "golf": "Deep. Private golf and country club communities are their own price tier here, starting where gated non-golf homes leave off.",
+      "fiftyFivePlus": "Yes - dedicated 55+ communities in the $400K - $700K range.",
+      "newConstruction": "Yes. Master-planned single-family neighborhoods and new construction are a core part of the market.",
+      "hoa": "Mostly HOA. Gated and master-planned neighborhoods dominate the mid and upper market.",
+      "healthcare": "Jupiter Medical Center in town (ranked in the top 10% nationally for quality and patient satisfaction); Palm Beach Gardens Medical Center 15 minutes south.",
+      "transportation": "PBI Airport about 30 minutes; Brightline station about 22 minutes; Miami about 1 hr 20 min.",
+      "pace": "A beach town that stayed a beach town - low buildings, no high-rise skyline, and a visibly slower rhythm than the county south of it.",
+      "bestFor": "Buyers who want coastal living with A-rated schools and club life, and are willing to pay northern Palm Beach County prices for it.",
+      "tradeOff": "One of the most expensive towns in the county, and in-season traffic on US-1 and Indiantown Road is real."
+    },
+    {
+      "slug": "palm-beach-gardens",
+      "name": "Palm Beach Gardens",
+      "county": "Palm Beach County",
+      "region": "North County",
+      "communityPage": "/communities/palm-beach-gardens",
+      "setting": "Inland, beaches about 15 minutes east",
+      "priceRanges": [
+        { "type": "Condos & townhomes", "range": "$450K - $750K" },
+        { "type": "Non-gated single-family", "range": "$650K - $1.2M" },
+        { "type": "Gated communities", "range": "$850K - $2.5M+" },
+        { "type": "New construction (Avenir)", "range": "$700K - $3M+" },
+        { "type": "Luxury country club estates", "range": "$2M - $10M+" },
+        { "type": "55+ communities", "range": "$400K - $750K" }
+      ],
+      "boating": "Limited within the city itself - this is a golf-and-club market rather than a dockage market. Intracoastal access is a short drive east through North Palm Beach or Juno Beach.",
+      "golf": "The deepest golf-and-tennis club inventory in northern Palm Beach County, from mid-market club communities up to luxury country club estates.",
+      "fiftyFivePlus": "Yes - 55+ communities in the $400K - $750K range.",
+      "newConstruction": "Yes, and at scale. Avenir is the largest active new-construction community in northern Palm Beach County.",
+      "hoa": "Almost entirely HOA, and often club-membership-linked. Non-gated single-family is the main exception.",
+      "healthcare": "Palm Beach Gardens Medical Center inside the city; Jupiter Medical Center 10 minutes north.",
+      "transportation": "PBI Airport about 20 minutes; Brightline (West Palm Beach) about 18 minutes; Miami about 1 hr 15 min.",
+      "pace": "Suburban and organized - PGA Boulevard is the spine, and daily life runs on it. Quieter than West Palm Beach, less coastal than Jupiter.",
+      "bestFor": "Golf and club buyers, new-construction buyers, and anyone who wants the widest price range in the north county under one municipality.",
+      "tradeOff": "You are driving to the beach, not walking to it, and club communities can carry membership costs on top of the purchase price."
+    },
+    {
+      "slug": "west-palm-beach",
+      "name": "West Palm Beach",
+      "county": "Palm Beach County",
+      "region": "Central County",
+      "communityPage": "/communities/west-palm-beach",
+      "setting": "Urban waterfront",
+      "priceRanges": [
+        { "type": "Downtown condos & high-rise", "range": "$400K - $1.5M+" },
+        { "type": "Luxury waterfront condos", "range": "$1M - $5M+" },
+        { "type": "Historic homes (El Cid, Flamingo Park, SoSo)", "range": "$900K - $4M+" },
+        { "type": "Northwood & urban single-family", "range": "$600K - $2M+" },
+        { "type": "Country club (Ibis, Breakers West)", "range": "$500K - $3M+" },
+        { "type": "Waterfront estates", "range": "$3M - $25M+" }
+      ],
+      "boating": "Intracoastal frontage along the whole downtown waterfront, plus waterfront estate blocks. Ocean access is via the Palm Beach Inlet.",
+      "golf": "Yes, but west of the city - Ibis and Breakers West are the country club addresses, not downtown.",
+      "fiftyFivePlus": "Not a defining segment of this market.",
+      "newConstruction": "Yes - new luxury construction is concentrated downtown and on the South Flagler waterfront.",
+      "hoa": "Split. Condo associations downtown, largely non-HOA in the historic bungalow districts.",
+      "healthcare": "St. Mary's Medical Center downtown; Good Samaritan Medical Center (Level II trauma center); Cleveland Clinic Palm Beach for outpatient and specialty care.",
+      "transportation": "The best transit access in the region - Brightline station 2-4 minutes, PBI Airport 8-10 minutes, Palm Beach Island 3-5 minutes.",
+      "pace": "The only genuinely urban, walkable market in the county. Restaurants, the Kravis Center, the Norton Museum and the waterfront are all on foot.",
+      "bestFor": "Buyers who want to walk to dinner, fly often, or take the train - and condo buyers who want the widest building selection in the county.",
+      "tradeOff": "Condo buying here is building-specific: two units on the same street can have very different association health, fees and rental rules."
+    },
+    {
+      "slug": "boca-raton",
+      "name": "Boca Raton",
+      "county": "Palm Beach County",
+      "region": "South County",
+      "communityPage": "/communities/boca-raton",
+      "setting": "Coastal and inland",
+      "priceRanges": [
+        { "type": "Condos & townhomes", "range": "$400K - $900K" },
+        { "type": "Single-family homes", "range": "$700K - $2.5M" },
+        { "type": "Private club & golf estates", "range": "$1.5M - $8M+" },
+        { "type": "Oceanfront & Intracoastal condos", "range": "$1M - $6M+" },
+        { "type": "Royal Palm Yacht & CC estates", "range": "$3M - $20M+" }
+      ],
+      "boating": "Yes - Royal Palm Yacht & Country Club and the Intracoastal corridor are the dockage addresses.",
+      "golf": "The deepest concentration of private country clubs in Palm Beach County: Boca West, Broken Sound, Royal Palm Yacht & CC, Woodfield and Addison Reserve.",
+      "fiftyFivePlus": "Not a defining segment, though club communities skew heavily to second-half-of-life buyers.",
+      "newConstruction": "Selective - largely infill and rebuilds rather than large master-planned tracts.",
+      "hoa": "Almost entirely HOA, and club communities frequently carry mandatory membership.",
+      "healthcare": "Boca Raton Regional Hospital (Baptist Health); West Boca Medical Center; Delray Medical Center (Level II trauma) 15 minutes north.",
+      "transportation": "Tri-Rail station about 5 minutes; Fort Lauderdale Airport about 35 minutes; PBI about 40 minutes; Miami about 50 minutes.",
+      "pace": "Polished and established. The southern end of the county, and the one that looks south to Fort Lauderdale and Miami rather than north.",
+      "bestFor": "Private club buyers, families using the private-school corridor, and anyone commuting toward Fort Lauderdale or Miami.",
+      "tradeOff": "The furthest point in our service area from PBI and from the north county, and mandatory club memberships can add significantly to carrying cost."
+    },
+    {
+      "slug": "delray-beach",
+      "name": "Delray Beach",
+      "county": "Palm Beach County",
+      "region": "South County",
+      "communityPage": "/communities/delray-beach",
+      "setting": "Coastal",
+      "priceRanges": [
+        { "type": "Condos & townhomes", "range": "$400K - $800K" },
+        { "type": "Single-family homes", "range": "$600K - $1.8M" },
+        { "type": "Waterfront & canal homes", "range": "$1.2M - $5M+" },
+        { "type": "Oceanfront & A1A estates", "range": "$2M - $12M+" },
+        { "type": "55+ communities", "range": "$400K - $500K" }
+      ],
+      "boating": "Yes - canal and Intracoastal homes with dockage, with ocean access through the Boynton Inlet.",
+      "golf": "Present but not the headline. Gated and age-restricted communities west of I-95 carry most of the golf inventory.",
+      "fiftyFivePlus": "Yes, and it is one of the most affordable entry points on this list - 55+ communities in the $400K - $500K range.",
+      "newConstruction": "Limited. This is a rebuild-and-renovate market more than a new-tract market.",
+      "hoa": "Split - condo and gated communities west of I-95 have associations; older beach-side cottages often do not.",
+      "healthcare": "Delray Medical Center (Level II trauma) in town; Boca Raton Regional 15 minutes south; Bethesda Hospital East 10 minutes north.",
+      "transportation": "PBI Airport about 30 minutes; Fort Lauderdale Airport about 45 minutes; Miami about an hour.",
+      "pace": "The most social market on this list. Atlantic Avenue is genuinely walkable and genuinely busy, and the beach is at the end of it.",
+      "bestFor": "Buyers who want walkability and nightlife with a beach, and 55+ buyers looking for the lowest entry price in south county.",
+      "tradeOff": "In-season Atlantic Avenue crowds and parking are a real daily factor if you live close to downtown."
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "county": "Palm Beach County",
+      "region": "West County",
+      "communityPage": "/communities/wellington",
+      "setting": "Inland",
+      "priceRanges": [
+        { "type": "Single-family homes", "range": "$450K - $900K" },
+        { "type": "Gated community homes", "range": "$800K - $2.5M" },
+        { "type": "Golf community homes (Binks Forest, Wellington National)", "range": "$900K - $3M" },
+        { "type": "Equestrian estates & compounds (Grand Prix Village, Saddle Trail Park)", "range": "$1.5M - $10M+" },
+        { "type": "Polo & equestrian acreage (Paddock Park, Palm Beach Point)", "range": "$1M - $8M+" }
+      ],
+      "boating": "No. This is an inland market - if dockage matters, Wellington is the wrong side of the county. What Wellington has instead of water is trails: more than 100 miles of public and private bridle trails woven throughout the equestrian community, running along roadway easements, canal rights-of-way and bridle-path easements. They sit inside a roughly 9,000-acre Equestrian Preserve overlay, which is the zoning reason the low density is permanent rather than temporary.",
+      "golf": "Deeper than the equestrian reputation suggests - four established private clubs, plus one in development. Palm Beach Polo Golf & Country Club is the big established name: private, gated, golf and equestrian lifestyle together, with an 18-hole Pete Dye / P.B. Dye Cypress course, and housing from condominiums and patio homes up to substantial estates. The Wanderers Club is a private 18-hole club in the village with racquets, pool, dining and fitness, and a strong equestrian connection. Wellington National Golf Club is a private club at Binks Forest, and Binks Forest itself is the established, wooded, larger-lot golf community. Wycliffe Golf & Country Club sits at the southern edge, in the Wellington mailing area rather than the village proper - two 18-hole courses plus tennis, pickleball, spa and fitness make it the closest thing locally to the traditional bundled South Florida country-club community. Coming: The Wellington, a 400-acre private residential club community from Wellington Lifestyle Partners with 253 luxury residences and a David McLay Kidd championship course, currently scheduled to open in 2028. In all of them, confirm whether membership is mandatory, optional or tied to the deed before you write - that answer moves the monthly carrying cost more than the price difference between two similar houses, and at Palm Beach Polo club membership and amenity access are separate from the real estate entirely.",
+      "fiftyFivePlus": "Not a defining segment of this market.",
+      "newConstruction": "Yes, within gated master-planned neighborhoods.",
+      "hoa": "Mostly HOA in the gated neighborhoods; equestrian acreage is where you find genuinely unrestricted land.",
+      "healthcare": "Wellington Regional Medical Center inside the village; Good Samaritan (Level II trauma) about 20 minutes east.",
+      "transportation": "Florida Turnpike about 10 minutes; PBI Airport about 25 minutes; Miami about 1 hr 30 min.",
+      "pace": "Suburban and family-oriented for eight months of the year, then a world-class equestrian destination from January through April. The bridle trails set the everyday rhythm as much as the show season does - they are open to walkers and, in most sections, cyclists, so an hour on soft ground under trees without crossing a major road is an ordinary Tuesday here. That is a genuinely uncommon thing in suburban South Florida.",
+      "equestrianEstates": "The top of this market is unlike anything else in the region. Grand Prix Village is the headline: farms built for the sport, adjacent to the show grounds, with barns, arenas and direct trail access, trading as much like commercial sporting property as residential real estate - buyers are frequently international and frequently buying a business asset. Saddle Trail Park is closer in and prized for the ability to hack to the show grounds rather than trailer, on older stock and larger lots that have mostly been rebuilt or heavily renovated. Palm Beach Point is the acreage play: bigger, quieter, further out, favoured by people who want a working farm setup with room rather than proximity to the ring. Below the marquee names, Little Ranches, Rustic Ranches and the smaller equestrian pockets are the realistic entry point for a working horse family. Never assume horse use transfers with the land - verify zoning, approved uses, the number of animals permitted and any HOA overlay for the specific parcel before you write.",
+      "bestFor": "Horse people, full stop - and specifically anyone who wants to ride from their own property rather than trailer to a facility, since the equestrian acreage neighborhoods have direct hack access to the trail network. Also families who want more house and more land per dollar than the coast allows, and who will actually use the trails on foot.",
+      "tradeOff": "No coastline and no dockage, and the winter equestrian season brings traffic, horse trailers on the shoulder, and short-term demand that the rest of the year does not."
+    },
+    {
+      "slug": "north-palm-beach",
+      "name": "North Palm Beach",
+      "county": "Palm Beach County",
+      "region": "North County",
+      "communityPage": "/communities/north-palm-beach",
+      "setting": "Coastal / Intracoastal",
+      "priceRanges": [
+        { "type": "Condos & townhomes", "range": "$400K - $900K" },
+        { "type": "Single-family homes", "range": "$700K - $2M" },
+        { "type": "Canal & Intracoastal waterfront homes", "range": "$1.2M - $5M+" },
+        { "type": "Old Port Cove marina condos", "range": "$400K - $1.1M" }
+      ],
+      "boating": "Among the best value on this list. Canal-front and Intracoastal dockage is the defining feature of the village, and Old Port Cove is a working marina address.",
+      "golf": "Yes - and unusually, at municipal rates. The village owns the North Palm Beach Country Club, with a Jack Nicklaus Signature course, resort pool and tennis available to residents.",
+      "fiftyFivePlus": "Not a defining segment of this market.",
+      "newConstruction": "Limited. The housing stock is largely mid-century, and much of it is being renovated rather than replaced.",
+      "hoa": "This is the strongest non-HOA option in northern Palm Beach County - many village neighborhoods have no association at all.",
+      "healthcare": "Palm Beach Gardens Medical Center 10 minutes west; Jupiter Medical Center 15 minutes north; St. Mary's 20 minutes south.",
+      "transportation": "PBI Airport about 15 minutes; Brightline (West Palm Beach) about 20 minutes.",
+      "pace": "Quiet, established and permanently low-density - the village's zoning is the reason the character has not been developed away.",
+      "bestFor": "Boaters, golfers who do not want a private club initiation, and buyers who specifically do not want an HOA.",
+      "tradeOff": "Mid-century housing stock means a renovation budget is part of the real purchase price."
+    },
+    {
+      "slug": "juno-beach",
+      "name": "Juno Beach",
+      "county": "Palm Beach County",
+      "region": "North County",
+      "communityPage": "/communities/juno-beach",
+      "setting": "Barrier island, coastal",
+      "priceRanges": [
+        { "type": "Condos & townhomes", "range": "$450K - $1.1M" },
+        { "type": "Single-family homes", "range": "$800K - $2.5M" },
+        { "type": "Oceanfront estates", "range": "$2.5M - $10M+" }
+      ],
+      "boating": "Ocean and Intracoastal frontage, but this is a beach town rather than a dockage town - most boating buyers look to North Palm Beach or Jupiter.",
+      "golf": "Not a golf market. Palm Beach Gardens is 15 minutes west.",
+      "fiftyFivePlus": "Not a defining segment of this market.",
+      "newConstruction": "Very limited by design - the town is low-density and largely built out.",
+      "hoa": "Mostly HOA, because oceanfront and Intracoastal condos make up much of the inventory.",
+      "healthcare": "Jupiter Medical Center 10 minutes north; Palm Beach Gardens Medical Center 15 minutes west.",
+      "transportation": "PBI Airport about 20 minutes; Jupiter 8-10 minutes; West Palm Beach about 25 minutes.",
+      "pace": "The quietest coastal town in the north county. Uncrowded public beach access, conservation land, the Juno Beach Pier - and no nightlife district at all.",
+      "bestFor": "Buyers who want the beach itself to be the amenity, and who read 'nothing to do at night' as a feature.",
+      "tradeOff": "Small inventory, few price tiers, and you will drive for restaurants and shopping."
+    },
+    {
+      "slug": "tequesta",
+      "name": "Tequesta",
+      "county": "Palm Beach County",
+      "region": "North County",
+      "communityPage": "/communities/tequesta",
+      "setting": "Riverfront / coastal",
+      "priceRanges": [
+        { "type": "Single-family homes (interior)", "range": "$600K - $1.2M" },
+        { "type": "Canal & Intracoastal homes", "range": "$1M - $3M+" },
+        { "type": "Riverfront homes (Loxahatchee)", "range": "$1.5M - $5M+" }
+      ],
+      "boating": "Excellent. Loxahatchee River and Intracoastal dockage is the reason many buyers choose Tequesta over Jupiter.",
+      "golf": "Yes - golf-community homes are part of the village's inventory, though the selection is small.",
+      "fiftyFivePlus": "Not a defining segment of this market.",
+      "newConstruction": "Minimal. The village is two square miles and effectively built out, and no high-rises are permitted.",
+      "hoa": "Mixed, with a meaningful share of older non-HOA riverfront and interior streets.",
+      "healthcare": "Jupiter Medical Center 5 minutes south; Cleveland Clinic Martin North 20 minutes north; Palm Beach Gardens Medical Center 20 minutes south.",
+      "transportation": "PBI Airport about 30 minutes; downtown Jupiter 3-5 minutes; Stuart about 20 minutes.",
+      "pace": "The smallest and quietest municipality on this list - a two-square-mile village where the river, not the highway, is the organizing feature.",
+      "bestFor": "River and dock buyers who want Jupiter school-zone access without Jupiter's traffic or its beachfront pricing.",
+      "tradeOff": "Very small inventory. In any given month there may be only a handful of homes on market in the tier you want."
+    },
+    {
+      "slug": "stuart",
+      "name": "Stuart",
+      "county": "Martin County",
+      "region": "Treasure Coast",
+      "communityPage": "/communities/stuart",
+      "setting": "Coastal / riverfront",
+      "priceRanges": [
+        { "type": "Downtown & historic homes", "range": "$400K - $900K" },
+        { "type": "Single-family suburban", "range": "$400K - $750K" },
+        { "type": "Waterfront & river homes", "range": "$800K - $4M+" },
+        { "type": "Hutchinson Island oceanfront", "range": "$600K - $5M+" }
+      ],
+      "boating": "As good as it gets in our service area. World-class inshore and offshore fishing, river and inlet access, and waterfront homes with dockage across several price tiers.",
+      "golf": "Present, but Palm City next door carries the gated golf and country club inventory.",
+      "fiftyFivePlus": "Not a defining segment of the city's inventory.",
+      "newConstruction": "Limited within the city - Martin County growth restrictions are the reason the low-density character has held.",
+      "hoa": "Mixed. Downtown and historic homes are frequently non-HOA; Hutchinson Island is condo and association territory.",
+      "healthcare": "Cleveland Clinic Martin North and Martin South hospitals, both in Stuart. Jupiter Medical Center about 45 minutes south.",
+      "transportation": "Port St. Lucie 20 minutes; Jupiter 30 minutes; PBI Airport about 55 minutes; West Palm Beach about an hour.",
+      "pace": "A preserved historic downtown with a real Main Street. Osceola Street has restaurants, galleries and live music at a scale most cities five times its size do not manage.",
+      "bestFor": "Boaters and anglers, downtown-walkability buyers, and families targeting the Martin County school district.",
+      "tradeOff": "You are an hour from West Palm Beach and PBI. If you fly weekly or work in Palm Beach County, that commute is the whole decision."
+    },
+    {
+      "slug": "hobe-sound",
+      "name": "Hobe Sound",
+      "county": "Martin County",
+      "region": "Treasure Coast",
+      "communityPage": "/communities/hobe-sound",
+      "setting": "Coastal, heavily preserved",
+      "priceRanges": [
+        { "type": "Mainland single-family", "range": "$400K - $900K" },
+        { "type": "Barrier island cottages & homes", "range": "$700K - $3M+" },
+        { "type": "Acreage / equestrian properties", "range": "$600K - $2.5M+" }
+      ],
+      "boating": "Yes, via the Intracoastal, with the barrier island on the ocean side. Jupiter Island's oceanfront estates sit at the top of this market.",
+      "golf": "Yes - gated golf communities are part of the mainland inventory.",
+      "fiftyFivePlus": "Not a defining segment of this market.",
+      "newConstruction": "Deliberately limited. The low-density character here is legally protected, and the surrounding state park and refuge land is not going anywhere.",
+      "hoa": "Mixed - gated golf communities have associations, while acreage and older Old Florida streets often do not.",
+      "healthcare": "Jupiter Medical Center 15 minutes south; Cleveland Clinic Martin North about 25 minutes north.",
+      "transportation": "Jupiter 10 minutes; PBI Airport about 35 minutes; Stuart 25 minutes.",
+      "pace": "The most preserved, nature-first community in our service area. Blowing Rocks Preserve and Jonathan Dickinson State Park flank it on both sides.",
+      "bestFor": "Buyers who want Martin County schools with Jupiter's amenities ten minutes away, without Jupiter's density or pricing.",
+      "tradeOff": "Very little retail and dining of its own - you are driving to Jupiter or Stuart for most of it."
+    },
+    {
+      "slug": "palm-city",
+      "name": "Palm City",
+      "county": "Martin County",
+      "region": "Treasure Coast",
+      "communityPage": "/communities/palm-city",
+      "setting": "Riverfront / inland",
+      "priceRanges": [
+        { "type": "Non-gated single-family", "range": "$400K - $800K" },
+        { "type": "Gated golf communities", "range": "$500K - $1.5M" },
+        { "type": "Waterfront & river estates", "range": "$900K - $4M+" },
+        { "type": "Harbour Ridge (equity club)", "range": "$600K - $3M+" }
+      ],
+      "boating": "Yes - St. Lucie River access and dockage, and Harbour Ridge has a marina with direct Atlantic access.",
+      "golf": "This is the Treasure Coast's gated-golf market. Harbour Ridge Yacht & Country Club is the headline address.",
+      "fiftyFivePlus": "Not a defining segment, though the equity club communities skew older.",
+      "newConstruction": "Yes, within gated communities, at a smaller scale than Port St. Lucie.",
+      "hoa": "Mostly HOA in the gated communities; genuinely unrestricted acreage exists out in Palm City Farms.",
+      "healthcare": "Cleveland Clinic Martin North and South, both about 15 minutes east in Stuart. Jupiter Medical Center about 35 minutes south.",
+      "transportation": "Stuart 10 minutes; Port St. Lucie 20 minutes; PBI Airport about 55 minutes.",
+      "pace": "Quiet, residential and family-oriented. The draw is what you get per dollar, not what there is to do on a Friday night.",
+      "bestFor": "Buyers who want gated golf or waterfront living inside the Martin County school district - our community page puts it at roughly 25-40% below comparable Palm Beach Gardens pricing.",
+      "tradeOff": "Little walkability and limited nightlife. Stuart is the town you drive to."
+    },
+    {
+      "slug": "port-salerno",
+      "name": "Port Salerno",
+      "county": "Martin County",
+      "region": "Treasure Coast",
+      "communityPage": "/communities/port-salerno",
+      "setting": "Working waterfront village",
+      "priceRanges": [
+        { "type": "Inland single-family homes", "range": "$400K - $550K" },
+        { "type": "Canal homes with docks", "range": "$500K - $1.5M" },
+        { "type": "Manatee Pocket waterfront", "range": "$800K - $3M+" }
+      ],
+      "boating": "The reason to be here. The Manatee Pocket is a natural harbor with charter boats and direct Atlantic access through the St. Lucie Inlet, and canal homes with private docks start lower than anywhere else on this list.",
+      "golf": "Not a golf market - Palm City and Stuart carry that inventory.",
+      "fiftyFivePlus": "Not a defining segment of this market.",
+      "newConstruction": "Very limited. This is an older Old Florida village.",
+      "hoa": "Largely non-HOA - one of the least association-heavy markets in our service area.",
+      "healthcare": "Cleveland Clinic Martin South about 10 minutes north; Martin North about 15 minutes; Jupiter Medical Center about 30 minutes south.",
+      "transportation": "Stuart 10 minutes; Jupiter 30 minutes; PBI Airport about 55 minutes.",
+      "pace": "A genuine working waterfront - charter boats, seafood restaurants on the water, and none of the polish of the coast to the south.",
+      "bestFor": "Boat owners who want dockage and Martin County schools at prices Palm Beach County stopped offering years ago.",
+      "tradeOff": "Small market, older housing stock, and an unpolished village character that will not suit every buyer."
+    },
+    {
+      "slug": "port-st-lucie",
+      "name": "Port St. Lucie",
+      "county": "St. Lucie County",
+      "region": "Treasure Coast",
+      "communityPage": "/communities/port-st-lucie",
+      "setting": "Inland, with canal frontage",
+      "priceRanges": [
+        { "type": "Single-family homes", "range": "$400K - $600K" },
+        { "type": "Tradition / new construction", "range": "$450K - $900K" },
+        { "type": "55+ active adult (Riverland)", "range": "$400K - $750K" },
+        { "type": "Waterfront & canal homes", "range": "$500K - $2M+" },
+        { "type": "Golf community homes (PGA Village)", "range": "$400K - $1.2M" }
+      ],
+      "boating": "Canal-front homes are common and affordable, but ocean access is less direct than from Stuart or Port Salerno.",
+      "golf": "Excellent value. Three championship public courses at PGA Golf Club, plus golf community homes starting at the bottom of this market's range.",
+      "fiftyFivePlus": "Yes, and it is the largest active-adult market on this list - Riverland in the $400K - $750K range.",
+      "newConstruction": "The most new construction in our entire service area. Tradition and the surrounding master-planned communities are the reason many people move here.",
+      "hoa": "Mostly HOA in the master-planned communities; older non-HOA sections of the city trade at the bottom of the range.",
+      "healthcare": "Cleveland Clinic Tradition Hospital inside the Tradition community; HCA Florida Lawnwood (Level II trauma) about 20 minutes north; Jupiter Medical Center about 40 minutes south.",
+      "transportation": "Stuart 20 minutes; Jupiter 40 minutes; PBI Airport about 65 minutes; West Palm Beach about an hour.",
+      "pace": "New, spread out and still building. This is the growth market of the region rather than a finished one.",
+      "bestFor": "New-construction buyers, 55+ buyers, and anyone whose budget does not stretch to the coast - our community page puts pricing roughly 20-40% below Palm Beach County.",
+      "tradeOff": "The furthest from PBI and from Palm Beach County employment, and the least established sense of place on this list."
+    }
+  ],
+  "categories": [
+    { "key": "priceRanges", "label": "Home price ranges" },
+    { "key": "setting", "label": "Coastal vs. inland" },
+    { "key": "boating", "label": "Boating & waterfront access" },
+    { "key": "golf", "label": "Golf & private-club living" },
+    { "key": "fiftyFivePlus", "label": "55+ options" },
+    { "key": "newConstruction", "label": "New construction" },
+    { "key": "hoa", "label": "HOA vs. non-HOA living" },
+    { "key": "healthcare", "label": "Healthcare access" },
+    { "key": "transportation", "label": "Airport & transportation" },
+    { "key": "pace", "label": "Pace & community character" },
+    { "key": "bestFor", "label": "Which buyer it fits best" },
+    { "key": "tradeOff", "label": "The important trade-off" }
+  ],
+  "shortlists": [
+    {
+      "heading": "Start Here If You Already Know What Matters Most",
+      "intro": "Most people arrive with one non-negotiable. These are the shortest paths from that one thing to a shortlist of areas.",
+      "items": [
+        {
+          "title": "A dock behind the house",
+          "body": "North Palm Beach, Tequesta and Port Salerno give you the most dockage per dollar. Stuart gives you the best fishing access. Jupiter and Boca Raton hold the prestige addresses at the top of the range."
+        },
+        {
+          "title": "Private club and golf life",
+          "body": "Boca Raton has the deepest private-club inventory in Palm Beach County, and Palm Beach Gardens the widest range of club price points. Wellington is the one to check if you want golf and horses on the same property search - Palm Beach Polo, The Wanderers Club, Wellington National and Binks Forest all sit in the village, Wycliffe is just off its southern edge, and The Wellington is due to open in 2028. Palm City is where the Treasure Coast keeps its equity clubs, and Port St. Lucie offers the best public-golf value. Wherever you land, ask early whether membership is mandatory, optional or tied to the deed."
+        },
+        {
+          "title": "A specific school district",
+          "body": "Martin County schools mean Stuart, Palm City, Hobe Sound or Port Salerno. Jupiter's school zone reaches into Tequesta. This is one of the most common reasons buyers cross the county line in either direction."
+        },
+        {
+          "title": "New construction",
+          "body": "Port St. Lucie has by far the most. Palm Beach Gardens has the most at the luxury end (Avenir), and Jupiter has master-planned new construction in between. Juno Beach, Tequesta and Hobe Sound have almost none, by design."
+        },
+        {
+          "title": "55+ living",
+          "body": "Port St. Lucie (Riverland) is the largest market. Delray Beach has the lowest entry pricing. Jupiter and Palm Beach Gardens are the north-county options."
+        },
+        {
+          "title": "No HOA",
+          "body": "North Palm Beach and Port Salerno are the two strongest non-HOA markets in this guide, followed by older sections of Stuart and Tequesta and West Palm Beach's historic districts."
+        },
+        {
+          "title": "A horse at home, or trails at the door",
+          "body": "Wellington, and it is not close. The Village cites more than 100 miles of public and private bridle trails woven throughout its equestrian community, inside a roughly 9,000-acre Equestrian Preserve overlay that makes the low density permanent. The equestrian neighborhoods - Grand Prix Village, Saddle Trail Park, Paddock Park, Palm Beach Point, Equestrian Club Estates - have direct hack access, meaning you ride from your own barn rather than trailering out. At the top end, Grand Prix Village farms trade more like commercial sporting property than houses. Worth knowing even if you do not ride: the trails are open to walkers and, in most sections, cyclists. Hobe Sound and Palm City are the Treasure Coast alternatives for acreage and barns, at lower prices and without the show-season infrastructure."
+        },
+        {
+          "title": "Walking to dinner",
+          "body": "West Palm Beach and Delray Beach are the two genuinely walkable markets in Palm Beach County. Stuart is the Treasure Coast's answer, at a smaller scale."
+        },
+        {
+          "title": "Flying often",
+          "body": "West Palm Beach (8-10 minutes to PBI), Palm Beach Gardens and North Palm Beach (15-20 minutes) are the practical choices. Port St. Lucie is about 65 minutes out."
+        }
+      ]
+    },
+    {
+      "heading": "The Palm Beach County vs. Treasure Coast Decision, Honestly",
+      "intro": "This is the choice most of our relocating clients are actually making. Neither answer is wrong - they trade different things.",
+      "items": [
+        {
+          "title": "What you gain moving north",
+          "body": "More house, more land and more waterfront per dollar; the Martin County school district; Cleveland Clinic hospitals; and a quieter, less seasonal rhythm. Our Palm City page puts gated golf and waterfront living at roughly 25-40% below comparable Palm Beach Gardens pricing, and Port St. Lucie roughly 20-40% below Palm Beach County generally."
+        },
+        {
+          "title": "What you give up moving north",
+          "body": "Proximity. PBI Airport goes from 15-30 minutes to 55-65 minutes. Palm Beach County employment, the Brightline station, and the county's dining and cultural density all get an hour further away."
+        },
+        {
+          "title": "Where the line is blurriest",
+          "body": "Hobe Sound and Tequesta. Hobe Sound is Martin County but ten minutes from Jupiter. Tequesta is Palm Beach County but twenty minutes from Stuart. Buyers who want both sides of the trade often end up in one of these two."
+        },
+        {
+          "title": "How to test it before you commit",
+          "body": "Drive the actual commute you would be making, on a Tuesday in February - in-season traffic is the variable that surprises people most. Do it once from the Treasure Coast and once from northern Palm Beach County, and the decision usually makes itself."
+        }
+      ]
+    }
+  ]
+}

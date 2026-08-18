@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getAgentBySlug } from '@/lib/agents'
+import { getValuationRoute, TEAM_ROUTE_SLUG } from '@/lib/agents'
 import {
   buildSellerLeadNote,
   buildSellerLeadTags,
@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true })
   }
 
-  const agent = getAgentBySlug(agentSlug ?? '')
+  const agent = getValuationRoute(agentSlug)
   if (!agent) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
   }
@@ -67,6 +67,11 @@ export async function POST(req: NextRequest) {
 
   const { firstName, lastName } = splitName(name!)
 
+  const assignedTo =
+    agent.slug === TEAM_ROUTE_SLUG
+      ? process.env.FUB_TEAM_ASSIGNED_TO?.trim() || undefined
+      : agent.fubAssignedTo
+
   const fubBody = {
     source: 'doyouneedahome.com',
     system: 'doyouneedahome.com',
@@ -78,12 +83,16 @@ export async function POST(req: NextRequest) {
       phones: phone?.trim() ? [{ value: phone.trim(), type: 'mobile' }] : [],
       tags: buildSellerLeadTags(body, agent),
       addresses: [{ street: address!.trim(), type: 'home' }],
-      // Route the lead straight to the agent whose page it came from, rather
-      // than letting FUB's default distribution decide. The tag above is kept
-      // as well — it's what reporting and any FUB automation filter on.
-      assignedTo: agent.fubAssignedTo,
+      // A named agent's page routes straight to that agent. The neutral /sell
+      // review is assigned internally instead of making the visitor choose:
+      // FUB_TEAM_ASSIGNED_TO if it's configured, otherwise FUB's own lead
+      // distribution. The tag is applied either way — it's what reporting and
+      // any FUB automation filter on.
+      ...(assignedTo ? { assignedTo } : {}),
     },
-    message: buildSellerLeadNote(body, agent),
+    // Consent time is stamped here, not taken from the client — a
+    // self-reported timestamp is worthless as an audit record.
+    message: buildSellerLeadNote({ ...body, consentCapturedAt: new Date().toISOString() }, agent),
   }
 
   const res = await fetch('https://api.followupboss.com/v1/events', {

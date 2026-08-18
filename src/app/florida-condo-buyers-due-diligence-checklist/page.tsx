@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import { leadMagnets } from '@/lib/leadMagnets'
 import LeadMagnetLanding from '@/components/leadMagnet/LeadMagnetLanding'
+import CondoChecklistPreview from '@/components/leadMagnet/CondoChecklistPreview'
 
-const magnet = leadMagnets['condo-townhome']
+const magnet = leadMagnets['condo-due-diligence']
 
 export const metadata: Metadata = {
   title: magnet.metaTitle,
@@ -16,6 +17,10 @@ export const metadata: Metadata = {
   },
 }
 
-export default function CondoTownhomeReportPage() {
-  return <LeadMagnetLanding magnet={magnet} />
+export default function CondoDueDiligencePage() {
+  return (
+    <LeadMagnetLanding magnet={magnet}>
+      <CondoChecklistPreview />
+    </LeadMagnetLanding>
+  )
 }

@@ -11,6 +11,24 @@ export type CommunityVideoData = {
   description: string
 }
 
+export type CommunityFaq = {
+  q: string
+  a: string
+}
+
+/**
+ * A short "what is this place, actually" explainer rendered directly under the
+ * overview. Added for places whose county, boundaries, or name are a genuine
+ * source of confusion in search — Loxahatchee is the clearest case, where the
+ * top queries on the page are all "what county is Loxahatchee in" variants.
+ */
+export type PlaceNote = {
+  heading: string
+  body: string
+  /** Optional in-site follow-on reading, rendered as a row of links. */
+  links?: Array<{ label: string; href: string }>
+}
+
 export interface CommunityItem {
   slug: string
   name: string
@@ -22,6 +40,10 @@ export interface CommunityItem {
   metaTitle?: string
   metaDescription?: string
   overview: string
+  /** Direct-answer explainer under the overview — see PlaceNote. */
+  placeNotes?: PlaceNote[]
+  /** Rendered as an FAQ section plus FAQPage JSON-LD. Optional per community. */
+  faqs?: CommunityFaq[]
   quickFacts: Array<{ label: string; value: string }>
   linkedNeighborhoods?: string[]
   priceRanges?: Array<{ type: string; range: string; minPrice?: number; maxPrice?: number; amenities?: string[]; propertyTypes?: string[] }>
@@ -506,13 +528,16 @@ export const cities: CommunityItem[] = [
     ],
     subNeighborhoods: [
       { name: 'Equestrian Club Estates', description: 'The premier gated equestrian community — custom estate homes with private paddocks, direct access to the show circuit, and a lifestyle built entirely around the horse world.' },
+      { name: 'Grand Prix Village', description: 'The top of the equestrian market — farms built for the sport beside the show grounds, with barns, arenas and direct trail access. These trade as much like commercial sporting property as residential real estate, and buyers are frequently international.' },
+      { name: 'Saddle Trail Park', description: 'Closer-in and established, prized for the ability to hack to the show grounds rather than trailer. Older housing stock on larger lots, much of it rebuilt or heavily renovated.' },
       { name: 'Palm Beach Point', description: 'Sprawling equestrian and polo estates on generous acreage — home to some of the most significant equestrian compounds in South Florida.' },
       { name: 'Paddock Park I & II', description: 'Established equestrian acreage neighborhoods with barns, paddocks, and direct hack access — the workingman\'s equestrian community, practical and well-loved.' },
-      { name: 'Seven Bridges', description: 'Wellington\'s newest luxury gated community — elegant estate homes, a Nicklaus-designed golf course, resort amenities, and a modern country club lifestyle.' },
       { name: 'Olympia', description: 'One of Wellington\'s largest gated communities — resort-style amenities, a clubhouse, pools, and tennis in a well-established neighborhood with consistent demand.' },
       { name: 'Grand Isles', description: 'Gated lakefront community with custom homes on large lots — boat docks on Lake Wellington, waterfront views, and a quiet, established feel.' },
       { name: 'Versailles', description: 'A grand gated neighborhood known for its European-inspired architecture, mature landscaping, and larger estate-style lots in western Wellington.' },
-      { name: 'Binks Forest', description: 'A quiet, established golf community built around the Binks Forest Golf Course — single-family homes with course and preserve views at strong value price points.' },
+      { name: 'Palm Beach Polo Golf & Country Club', description: 'The big established Wellington club name — private and gated, with golf and the equestrian lifestyle side by side, an 18-hole Pete Dye / P.B. Dye Cypress course, and housing that runs from condominiums and patio homes up to substantial estates.' },
+      { name: 'The Wanderers Club', description: 'A private 18-hole golf club in the village with racquets, pool, dining and fitness, and a strong equestrian connection.' },
+      { name: 'Binks Forest', description: 'A quiet, established golf community built around the Binks Forest Golf Course — single-family homes with course and preserve views at strong value price points. Wellington National Golf Club, a private club, is also here.' },
       { name: 'Greenview Shores', description: 'One of Wellington\'s original neighborhoods — established homes on larger lots with a canal and lake frontage option, strong community character, and excellent value.' },
     ],
     dining: [
@@ -534,6 +559,7 @@ export const cities: CommunityItem[] = [
       'International Polo Club Palm Beach — open practice and match viewing throughout polo season',
       'Lion Country Safari — drive-through safari 20 minutes west on Southern Blvd',
       'Binks Forest Golf Club — semi-private course with affordable rates and preserve views',
+      'Private club golf — Palm Beach Polo Golf & Country Club, The Wanderers Club and Wellington National, with Wycliffe Golf & Country Club just off the village\'s southern edge',
       'Scott\'s Place — fully accessible playground and splash pad, a community landmark',
     ],
     schoolOverview: 'Wellington is served by Palm Beach County public schools, with several campuses that have earned A grades under the Florida Department of Education\'s annual school grading system. The area also has established athletics and extracurricular programs and private school options nearby. Grades and attendance boundaries are updated annually.',
@@ -583,14 +609,15 @@ export const cities: CommunityItem[] = [
     priceRanges: [
       { type: 'Single-Family Homes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['house'] },
       { type: 'Gated Community Homes', range: '$800K – $2.5M', minPrice: 800000, propertyTypes: ['house'] },
-      { type: 'Golf Community Homes (Seven Bridges, Binks Forest)', range: '$900K – $3M', minPrice: 900000, propertyTypes: ['house'] },
+      { type: 'Golf Community Homes (Binks Forest, Wellington National)', range: '$900K – $3M', minPrice: 900000, propertyTypes: ['house'] },
       { type: 'Equestrian Estates & Compounds', range: '$1.5M – $10M+', minPrice: 1500000, propertyTypes: ['house'] },
       { type: 'Polo & Equestrian Acreage (Paddock Park, Palm Beach Point)', range: '$1M – $8M+', minPrice: 1000000 },
     ],
     highlights: [
       'Equestrian capital of the world — PBIEC hosts the Winter Equestrian Festival, the largest hunter/jumper show on the planet',
       'International Polo Club Palm Beach draws 200,000+ visitors per season — Sunday polo is a Wellington institution',
-      'Seven Bridges delivers a new-luxury golf community experience competitive with anything in Palm Beach Gardens',
+      'More than 100 miles of public and private bridle trails run throughout the village — open to walkers and, in most sections, cyclists, not just riders',
+      'Four established private clubs — Palm Beach Polo, The Wanderers Club, Wellington National and Binks Forest — with Wycliffe just off the southern edge; The Wellington, a 400-acre private club community with a David McLay Kidd course, is scheduled to open in 2028',
       'Wellington Community High School and Palm Beach Central are consistently A-rated with strong IB and academy programs',
       'Wellington Regional Medical Center is a full-service hospital located directly in the community',
       'Seasonal rental demand from the equestrian circuit is among the strongest in all of South Florida — investors take note',
@@ -617,9 +644,10 @@ export const cities: CommunityItem[] = [
       { label: 'Key advantage', value: 'Equestrian capital of the world — unmatched seasonal demand and lifestyle infrastructure' },
       { label: 'Best for', value: 'Equestrian show grounds and facilities, barns and paddock acreage, gated master-planned neighborhoods, extensive parks and preserve land' },
       { label: 'Standout feature', value: 'PBIEC Winter Equestrian Festival + IPC polo — 4 months of world-class events in your backyard' },
+      { label: 'Equestrian Preserve', value: 'Roughly 9,000 acres of protected low-density land with 100+ miles of public and private bridle trails woven through it' },
     ],
     hasMembershipCommunities: true,
-    popularNeighborhoods: ['Equestrian Club Estates', 'Palm Beach Point', 'Seven Bridges', 'Olympia', 'Grand Isles', 'Versailles', 'Paddock Park', 'Binks Forest'],
+    popularNeighborhoods: ['Equestrian Club Estates', 'Palm Beach Point', 'Palm Beach Polo', 'Olympia', 'Grand Isles', 'Versailles', 'Paddock Park', 'Binks Forest'],
     photos: [
       '/images/wellington/wellington-001.jpeg',
       '/images/wellington/wellington-002.jpeg',
@@ -1487,6 +1515,63 @@ export const cities: CommunityItem[] = [
     metaDescription: 'Loxahatchee is a rural, horse-friendly part of Palm Beach County, FL — wide-open acreage, no HOA, and land minutes from Wellington\'s equestrian world.',
     overview:
       'Loxahatchee is the rural counterpoint to the rest of Palm Beach County — a place where multi-acre parcels, horse barns, and unpaved driveways coexist with proximity to Wellington, Royal Palm Beach, and every county amenity. The community is unincorporated, mostly HOA-free, and zoned for residential agricultural use, meaning buyers can bring horses, keep goats, build a barn, or simply spread out on a few acres of high-and-dry Florida land without asking permission from a community association.\n\nThe Loxahatchee area has been steadily gaining value as Palm Beach County\'s western edge develops — new commercial corridors, improved road infrastructure, and the overflow of buyers from Wellington and Royal Palm Beach who want more land at a better price point. For buyers who specifically want space — a five-acre spread with a separate guest cottage, an equestrian property with a regulation dressage arena, or simply a half-acre to plant a garden and park three vehicles — Loxahatchee delivers what the rest of the county cannot. The Arthur R. Marshall Loxahatchee National Wildlife Refuge borders the community\'s eastern edge, giving residents 147,000 acres of protected Everglades headwaters as a backyard wilderness.',
+    // The page's biggest search demand by a distance is people asking which
+    // county Loxahatchee is in — roughly 320 impressions a month across
+    // "what county is loxahatchee fl in", "loxahatchee fl county" and
+    // "is loxahatchee in palm beach county", every one of them landing here at
+    // position 8–10 with zero clicks. Answering it plainly and high on the page
+    // is the whole point of this section.
+    placeNotes: [
+      {
+        heading: 'Which county is Loxahatchee in?',
+        body: 'Loxahatchee is in Palm Beach County, Florida. It sits in the county\'s western reaches, inland from West Palm Beach and directly north of Wellington, and everything here — property taxes, school assignments, permitting, and the Property Appraiser record on your parcel — runs through Palm Beach County. Despite the rural character and the distance from the coast, a Loxahatchee address is as much a Palm Beach County address as one in Boca Raton or Jupiter.',
+      },
+      {
+        heading: 'Loxahatchee, Loxahatchee Groves, and The Acreage are three different things',
+        body: '"Loxahatchee" is primarily a postal designation. The ZIP code 33470 is labelled Loxahatchee, and it blankets a large stretch of unincorporated western Palm Beach County — which is why so many homes carry a Loxahatchee mailing address without being in any place called Loxahatchee. The Acreage is the large unincorporated residential area that makes up most of that ZIP: 1.25-acre-and-up parcels, residential-agricultural zoning, and almost no HOAs. Loxahatchee Groves is different again — it is a genuinely incorporated town with its own council, its own rules, and its own boundaries, immediately south of The Acreage. All three sit inside Palm Beach County.',
+      },
+      {
+        heading: 'Why the naming causes so much confusion',
+        body: 'Three things collide. First, the postal address rarely matches the place: buyers tour a home in The Acreage, see "Loxahatchee, FL 33470" on the listing, and reasonably assume that is the town. Second, an unincorporated area has no welcome sign and no municipal boundary a map can show you, so the edges feel arbitrary. Third, the Loxahatchee name is attached to landmarks that are nowhere near here — the Loxahatchee River runs through Jupiter, twenty-five miles northeast, while the Arthur R. Marshall Loxahatchee National Wildlife Refuge sits along the eastern edge of this area. When you are comparing listings, the practical questions are which parcel you are buying, what its zoning allows, and whether it falls inside the Town of Loxahatchee Groves — not what the mailing address says.',
+        links: [
+          { label: 'Loxahatchee homes & acreage', href: '/communities/loxahatchee' },
+          { label: 'Best neighborhoods in Loxahatchee', href: '/blog/best-neighborhoods-in-loxahatchee-florida' },
+          { label: 'Westlake — the new city next door', href: '/communities/westlake' },
+          { label: 'Royal Palm Beach', href: '/communities/royal-palm-beach' },
+          { label: 'Wellington', href: '/communities/wellington' },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What county is Loxahatchee, FL in?',
+        a: 'Loxahatchee is in Palm Beach County, Florida. It lies in the western part of the county, north of Wellington and west of Royal Palm Beach, roughly 30 to 35 minutes inland from West Palm Beach.',
+      },
+      {
+        q: 'Is Loxahatchee in Palm Beach County?',
+        a: 'Yes. Loxahatchee, The Acreage, and the Town of Loxahatchee Groves are all within Palm Beach County. None of them are in Martin County or Broward County, though the rural setting leads people to assume otherwise.',
+      },
+      {
+        q: 'Is Loxahatchee a city?',
+        a: 'Not in the usual sense. "Loxahatchee" is mainly a postal designation for ZIP code 33470, covering a large unincorporated area of western Palm Beach County. Loxahatchee Groves, just to the south, is a separately incorporated town. Most homes with a Loxahatchee mailing address are in unincorporated county territory rather than inside any municipality.',
+      },
+      {
+        q: 'What is the difference between Loxahatchee and The Acreage?',
+        a: 'The Acreage is the large unincorporated residential community that makes up most of the 33470 ZIP code — parcels generally starting at 1.25 acres, residential-agricultural zoning, and very few homeowner associations. "Loxahatchee" is the postal name applied to that ZIP, so a home in The Acreage almost always shows a Loxahatchee address. In everyday conversation locals use the two names interchangeably.',
+      },
+      {
+        q: 'Why does my address say Loxahatchee when I do not live in Loxahatchee Groves?',
+        a: 'Because postal boundaries and municipal boundaries are set by different bodies and do not line up. The Postal Service assigns 33470 the Loxahatchee name across a wide unincorporated area, while the Town of Loxahatchee Groves is a much smaller incorporated municipality within the same region. Your mailing address reflects the ZIP code, not the jurisdiction your property actually sits in.',
+      },
+      {
+        q: 'Do homes in Loxahatchee have HOAs?',
+        a: 'Most do not. The absence of a homeowners association across much of The Acreage is one of the main reasons buyers come here — it is what allows horses, barns, workshops, RV and boat parking, and additional structures on the same parcel. A handful of newer platted subdivisions in the area do have associations, so confirm on any specific property before you write an offer.',
+      },
+      {
+        q: 'Can you keep horses in Loxahatchee?',
+        a: 'On most parcels, yes. Residential-agricultural zoning throughout much of the area permits horses and other livestock, along with barns and outbuildings, subject to Palm Beach County rules on parcel size and setbacks. This is the practical reason Loxahatchee acreage trades at a fraction of comparable equestrian property in Wellington, fifteen minutes south.',
+      },
+    ],
     lifestyle: 'Loxahatchee is defined by land and zoning rather than amenities: parcels commonly start at 1.25 acres, agricultural and equestrian zoning permits barns, livestock, coops, and outbuildings, and most properties sit outside any HOA. It offers equestrian acreage at a fraction of Wellington pricing, room for gardens and workshops, and land in the path of western county growth. The lifestyle is decidedly low-key and self-directed — neighbors wave from trucks, local feed stores are still part of daily commerce, and the evening quiet is genuine. Wellington\'s polo season, Royal Palm Beach\'s parks, and Lion Country Safari are all within 15 minutes.',
     localLoves: [
       'Arthur R. Marshall Loxahatchee National Wildlife Refuge — 147,000 acres of Everglades headwaters with hiking, kayaking, and exceptional birding',
@@ -2056,7 +2141,10 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Pierce', time: '20 min' },
       { destination: 'Vero Beach', time: '40 min' },
     ],
-    linkedNeighborhoods: ['tradition', 'pga-village', 'riverland'],
+    // Tradition, PGA Village and Riverland have no community pages yet, so the
+    // slugs were silently dropped by getLinkedNeighborhoods and rendered nothing.
+    // Re-add each slug as its page is built.
+    linkedNeighborhoods: [],
     priceRanges: [
       { type: 'Single-Family Homes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['house'] },
       { type: 'Tradition / New Construction', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['house'] },
@@ -2175,7 +2263,10 @@ export const cities: CommunityItem[] = [
       { destination: 'West Palm Beach', time: '60 min' },
       { destination: 'Vero Beach', time: '30 min' },
     ],
-    linkedNeighborhoods: ['jensen-beach', 'hutchinson-island-stuart', 'north-river-shores'],
+    // Jensen Beach, Hutchinson Island and North River Shores have no community
+    // pages yet, so the slugs were silently dropped by getLinkedNeighborhoods
+    // and rendered nothing. Re-add each slug as its page is built.
+    linkedNeighborhoods: [],
     priceRanges: [
       { type: 'Downtown & Historic Homes', range: '$400K – $900K', minPrice: 400000, maxPrice: 900000, propertyTypes: ['house'] },
       { type: 'Single-Family Suburban', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, propertyTypes: ['house'] },
@@ -3450,7 +3541,10 @@ export const neighborhoods: CommunityItem[] = [
     ],
   },
 
-  // ── WELLINGTON ───────────────────────────────────────────────
+  // ── DELRAY BEACH ─────────────────────────────────────────────
+  // Seven Bridges is west Delray Beach, off Lyons Road — not Wellington. It sat
+  // under the Wellington heading and was listed on the Wellington city page for
+  // a while; both are corrected.
   {
     slug: 'seven-bridges',
     name: 'Seven Bridges',
@@ -3464,6 +3558,7 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Golf, clubhouse, resort pool, tennis' },
     ],
   },
+  // ── WELLINGTON ───────────────────────────────────────────────
   {
     slug: 'wellington-country-club',
     name: 'Wellington Country Club',

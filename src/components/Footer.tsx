@@ -17,6 +17,8 @@ const pageLinks = [
   { href: '/contact', label: 'Contact' },
   { href: '/palm-beach-county-single-family-home-market-report', label: 'Single Family Market Report' },
   { href: '/palm-beach-county-condo-townhome-market-report', label: 'Condo & Townhome Market Report' },
+  { href: '/palm-beach-county-treasure-coast-relocation-guide', label: 'Relocation Decision Guide' },
+  { href: '/florida-condo-buyers-due-diligence-checklist', label: 'Condo Due-Diligence Checklist' },
 ]
 
 export default function Footer() {

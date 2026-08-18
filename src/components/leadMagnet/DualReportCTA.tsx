@@ -3,13 +3,9 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { useRef, useState } from 'react'
-import {
-  allReports,
-  REPORT_EDITION,
-  type ReportType,
-} from '@/lib/marketReports'
+import { pbcReports, REPORT_EDITION, type LeadMagnetKey } from '@/lib/leadMagnets'
 import { trackEvent } from '@/lib/analytics'
-import MarketReportModal from './MarketReportModal'
+import LeadMagnetModal from './LeadMagnetModal'
 
 export interface DualReportCTAProps {
   pageCategory: string
@@ -18,28 +14,34 @@ export interface DualReportCTAProps {
   className?: string
 }
 
-/** Two-card "pick your report" section for buyer/seller and county-level pages. */
+/**
+ * Two-card "pick your report" section for the county-level hub pages (home,
+ * sell). Deliberately limited to the two Palm Beach County market reports —
+ * this is a property-type choice, not a menu of every magnet on the site.
+ */
 export default function DualReportCTA({
   pageCategory,
   headline = 'Choose Your Palm Beach County Market Report',
   intro = `Free ${REPORT_EDITION} reports prepared by Christine Dekant & John Oliver — local prices, inventory, cash activity, and what it all means for your next move. Instant PDF download, no obligation.`,
   className = '',
 }: DualReportCTAProps) {
-  const [openType, setOpenType] = useState<ReportType | null>(null)
+  const [openKey, setOpenKey] = useState<LeadMagnetKey | null>(null)
   const triggerRefs = {
     'single-family': useRef<HTMLButtonElement>(null),
     'condo-townhome': useRef<HTMLButtonElement>(null),
-  }
+  } as Record<LeadMagnetKey, React.RefObject<HTMLButtonElement | null>>
 
-  const handleClick = (type: ReportType) => {
+  const handleClick = (key: LeadMagnetKey) => {
     trackEvent('lead_magnet_click', {
-      report_type: type,
+      magnet_key: key,
+      report_type: key,
+      magnet_edition: REPORT_EDITION,
       report_edition: REPORT_EDITION,
       cta_location: 'dual-cards',
       page_category: pageCategory,
       page_url: window.location.pathname,
     })
-    setOpenType(type)
+    setOpenKey(key)
   }
 
   return (
@@ -53,9 +55,9 @@ export default function DualReportCTA({
       </div>
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
-        {allReports.map((report) => (
+        {pbcReports.map((report) => (
           <div
-            key={report.type}
+            key={report.key}
             className="flex flex-col overflow-hidden rounded-3xl border border-report-gold/40 bg-navy-950 shadow-card transition hover:-translate-y-0.5 hover:shadow-card-hover"
           >
             <div className="flex items-start gap-5 p-7">
@@ -92,9 +94,9 @@ export default function DualReportCTA({
             </p>
             <div className="mt-auto p-7 pt-5">
               <button
-                ref={triggerRefs[report.type]}
+                ref={triggerRefs[report.key]}
                 type="button"
-                onClick={() => handleClick(report.type)}
+                onClick={() => handleClick(report.key)}
                 className="w-full rounded-full bg-report-gold px-6 py-3.5 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark"
               >
                 Download the {report.shortTitle}
@@ -104,14 +106,14 @@ export default function DualReportCTA({
         ))}
       </div>
 
-      {openType && (
-        <MarketReportModal
+      {openKey && (
+        <LeadMagnetModal
           isOpen
-          onClose={() => setOpenType(null)}
-          selection={openType}
+          onClose={() => setOpenKey(null)}
+          selection={openKey}
           ctaLocation="dual-cards"
           pageCategory={pageCategory}
-          returnFocusRef={triggerRefs[openType]}
+          returnFocusRef={triggerRefs[openKey]}
         />
       )}
     </div>

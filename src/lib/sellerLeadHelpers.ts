@@ -7,7 +7,8 @@
 // token. A valuation request has neither, so it gets its own path rather than
 // loosening validation on the flow that gates the reports.
 
-import { getAgentBySlug, type Agent } from '@/lib/agents'
+import { getValuationRoute, TEAM_ROUTE_SLUG, type ValuationRoute } from '@/lib/agents'
+import { formatConsentLine } from '@/lib/consent'
 
 export const TIMELINE_OPTIONS = [
   'As soon as possible',
@@ -28,7 +29,7 @@ export interface SellerLeadSubmission {
   timeline?: string
   /** Free-text "anything we should know" box. */
   notes?: string
-  /** Which agent's landing page this came from. */
+  /** Which valuation route this came from — an agent slug, or 'team'. */
   agentSlug?: string
   honeypot?: string
   sourcePageUrl?: string
@@ -37,6 +38,10 @@ export interface SellerLeadSubmission {
   utmCampaign?: string
   utmContent?: string
   referrer?: string
+  // Contact-consent record. consentCapturedAt is stamped server-side in the
+  // route handler — the client value is not trusted for an audit record.
+  consentVersion?: string
+  consentCapturedAt?: string
   submittedAt?: string
 }
 
@@ -63,10 +68,17 @@ export function isValidTimeline(timeline: string | undefined): timeline is Timel
 }
 
 export function isValidAgentSlug(slug: string | undefined): boolean {
-  return !!slug && !!getAgentBySlug(slug)
+  return !!getValuationRoute(slug)
 }
 
-export function buildSellerLeadTags(sub: SellerLeadSubmission, agent: Agent): string[] {
+/** How the lead described itself in the CRM note. */
+function routeSourceLabel(route: ValuationRoute): string {
+  return route.slug === TEAM_ROUTE_SLUG
+    ? 'the pricing & net proceeds review on /sell'
+    : `${route.name}'s valuation page`
+}
+
+export function buildSellerLeadTags(sub: SellerLeadSubmission, agent: ValuationRoute): string[] {
   const tags = [
     'Seller Lead',
     'Home Valuation Request',
@@ -76,9 +88,9 @@ export function buildSellerLeadTags(sub: SellerLeadSubmission, agent: Agent): st
   return Array.from(new Set(tags))
 }
 
-export function buildSellerLeadNote(sub: SellerLeadSubmission, agent: Agent): string {
+export function buildSellerLeadNote(sub: SellerLeadSubmission, agent: ValuationRoute): string {
   const lines = [
-    `Requested a home valuation from ${agent.name}'s page.`,
+    `Requested a home valuation from ${routeSourceLabel(agent)}.`,
     sub.address ? `Property: ${sub.address.trim()}` : null,
     sub.timeline ? `Selling timeline: ${sub.timeline}` : null,
     sub.notes?.trim() ? `Notes: ${sub.notes.trim()}` : null,
@@ -94,6 +106,11 @@ export function buildSellerLeadNote(sub: SellerLeadSubmission, agent: Agent): st
   ].filter(Boolean)
   if (utmParts.length) lines.push(`UTM: ${utmParts.join(', ')}`)
   if (sub.referrer) lines.push(`Referrer: ${sub.referrer}`)
+  // Consent record last, so it doesn't push the property/message details
+  // out of view when the lead is worked in Follow Up Boss.
+  if (sub.consentCapturedAt) {
+    lines.push(formatConsentLine(sub.consentVersion, sub.consentCapturedAt))
+  }
   return lines.filter(Boolean).join('\n')
 }
 

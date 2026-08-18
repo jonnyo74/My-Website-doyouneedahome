@@ -3,6 +3,7 @@ import { cities, neighborhoods } from '@/lib/communities'
 import { articles } from '@/lib/articles'
 import { listings } from '@/lib/listings'
 import { agents } from '@/lib/agents'
+import { publishedLeadMagnets } from '@/lib/leadMagnets'
 import { SITE_URL } from '@/lib/site'
 
 const BASE = SITE_URL
@@ -20,9 +21,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/accessibility`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/canadahomeseller`, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${BASE}/palm-beach-county-single-family-home-market-report`, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/palm-beach-county-condo-townhome-market-report`, changeFrequency: 'monthly', priority: 0.8 },
   ]
+
+  // Lead-magnet landing pages. Only published magnets are listed — an offer
+  // whose content isn't verified yet 404s in production and must not be here.
+  const leadMagnetPages: MetadataRoute.Sitemap = publishedLeadMagnets.map((m) => ({
+    url: `${BASE}${m.landingPage}`,
+    changeFrequency: m.kind === 'market-report' ? 'monthly' : 'yearly',
+    priority: 0.8,
+  }))
 
   const cityPages: MetadataRoute.Sitemap = cities.map((c) => ({
     url: `${BASE}/communities/${c.slug}`,
@@ -62,6 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticPages,
+    ...leadMagnetPages,
     ...agentPages,
     ...cityPages,
     ...neighborhoodPages,

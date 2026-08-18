@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import CommunityCard from '@/components/CommunityCard'
-import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
+import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { cities, neighborhoods } from '@/lib/communities'
 
 export const metadata = {
@@ -53,7 +53,7 @@ export default function CommunitiesPage() {
       {/* Market report CTA */}
       <section className="px-6 pb-16 sm:px-8">
         <div className="mx-auto max-w-7xl">
-          <MarketReportCTA selection="both" variant="inline" pageCategory="communities-index" />
+          <LeadMagnetCTA selection="pbc-both" variant="inline" pageCategory="communities-index" />
         </div>
       </section>
 

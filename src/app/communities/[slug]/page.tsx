@@ -17,8 +17,8 @@ import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
 import CommunityVideo from '@/components/CommunityVideo'
-import MarketReportCTA from '@/components/leadMagnet/MarketReportCTA'
-import { selectReportForCommunity, reportsCoverCity } from '@/lib/marketReports'
+import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -68,6 +68,14 @@ export async function generateMetadata({ params }: Props) {
     title: community.metaTitle ?? `${community.name} Real Estate | DO Homes Group`,
     description: community.metaDescription ?? community.description,
     alternates: { canonical: `/communities/${slug}` },
+    // Tells the sitewide sticky bar and exit-intent offer which magnet this page
+    // chose, so they can't offer something different from the in-page CTAs.
+    other: {
+      'lead-magnet-selection': selectMagnetForCommunity(
+        community,
+        community.type === 'City' ? community.slug : getParentCity(slug)?.slug,
+      ),
+    },
     openGraph: {
       images: [{ url: ogImage, width: 1200, height: 630, alt: `${community.name} real estate` }],
     },
@@ -100,17 +108,37 @@ export default async function CommunityPage({ params }: Props) {
   const articleCity = isCity ? community : parentCity
   const cityArticles = articleCity ? getArticlesByCity(articleCity.slug) : []
   const shownArticles = isCity ? cityArticles : cityArticles.slice(0, 4)
-  // Which market report fits this page — condo, single-family, or both.
-  const reportSelection = selectReportForCommunity(community)
-  // The reports are Palm Beach County data — don't offer them on Treasure Coast pages.
-  const showReportCta = reportsCoverCity(articleCity?.slug ?? community.slug)
+  // The one magnet this page offers. Treasure Coast communities are routed to a
+  // Treasure Coast offer rather than Palm Beach County report language; a
+  // neighborhood inherits its parent city's geography.
+  const magnetSelection = selectMagnetForCommunity(community, articleCity?.slug ?? community.slug)
   // For neighborhoods, search by parent city not the neighborhood name — Ylopo's
   // search only resolves real municipalities, not subdivision/community names
   // (e.g. searching city="Abacoa" returns zero results; it must be "Jupiter").
   const searchName = community.searchCity ?? parentCity?.name ?? community.name
 
+  // Mirrors the rendered FAQ block above. Emitted only when the community
+  // actually has FAQs, so pages without them are unchanged.
+  const faqSchema = community.faqs?.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: community.faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.q,
+          acceptedAnswer: { '@type': 'Answer', text: faq.a },
+        })),
+      }
+    : null
+
   return (
     <div className="min-h-screen bg-white">
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* ── Hero ──────────────────────────────────────────────────── */}
       {hasPhotos ? (
@@ -366,6 +394,36 @@ export default async function CommunityPage({ params }: Props) {
                 <p className="mt-4 leading-8 text-slate-600">{community.overview}</p>
               </div>
 
+              {/* Place explainer — only for communities whose county, boundaries
+                  or name genuinely confuse buyers in search (see PlaceNote). */}
+              {community.placeNotes && community.placeNotes.length > 0 && (
+                <div className="rounded-3xl border border-slate-200 bg-slate-50/70 p-7 sm:p-9">
+                  <div className="space-y-7">
+                    {community.placeNotes.map((note) => (
+                      <div key={note.heading}>
+                        <h2 className="font-serif text-xl font-semibold text-slate-900 sm:text-2xl">
+                          {note.heading}
+                        </h2>
+                        <p className="mt-3 leading-8 text-slate-600">{note.body}</p>
+                        {note.links && note.links.length > 0 && (
+                          <div className="mt-4 flex flex-wrap gap-2">
+                            {note.links.map((l) => (
+                              <Link
+                                key={l.href}
+                                href={l.href}
+                                className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-gold-500/50 hover:text-gold-600"
+                              >
+                                {l.label}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Agent blurb — top */}
               <AgentBlurb
                 name={christineOnTop ? 'Christine Dekant' : 'John Oliver'}
@@ -376,14 +434,12 @@ export default async function CommunityPage({ params }: Props) {
                 quote={christineOnTop ? quotes.christineQuote : quotes.johnQuote}
               />
 
-              {/* Market report CTA */}
-              {showReportCta && (
-                <MarketReportCTA
-                  selection={reportSelection}
-                  variant="inline"
-                  pageCategory="community"
-                />
-              )}
+              {/* Lead-magnet CTA */}
+              <LeadMagnetCTA
+                selection={magnetSelection}
+                variant="inline"
+                pageCategory="community"
+              />
 
               {/* Sub-Neighborhoods */}
               {community.subNeighborhoods && community.subNeighborhoods.length > 0 && (
@@ -808,6 +864,27 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
+              {/* FAQs — rendered plainly and mirrored into FAQPage JSON-LD
+                  further down so the answers are eligible for rich results. */}
+              {community.faqs && community.faqs.length > 0 && (
+                <div>
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                    Frequently Asked Questions About {community.name}
+                  </h2>
+                  <dl className="mt-6 space-y-5">
+                    {community.faqs.map((faq) => (
+                      <div
+                        key={faq.q}
+                        className="rounded-2xl border border-slate-100 bg-slate-50 p-5"
+                      >
+                        <dt className="font-semibold text-slate-900">{faq.q}</dt>
+                        <dd className="mt-2 text-sm leading-7 text-slate-600">{faq.a}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              )}
+
               {/* Quick Facts */}
               <div>
                 <h2 className="font-serif text-2xl font-semibold text-slate-900">
@@ -958,14 +1035,12 @@ export default async function CommunityPage({ params }: Props) {
                   </div>
                 </div>
 
-                {/* Market report card */}
-                {showReportCta && (
-                  <MarketReportCTA
-                    selection={reportSelection}
-                    variant="sidebar"
-                    pageCategory="community"
-                  />
-                )}
+                {/* Lead-magnet card */}
+                <LeadMagnetCTA
+                  selection={magnetSelection}
+                  variant="sidebar"
+                  pageCategory="community"
+                />
 
                 {/* Nearby communities */}
                 {isCity && (

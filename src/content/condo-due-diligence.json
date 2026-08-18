@@ -1,0 +1,192 @@
+{
+  "note": "Evergreen checklist content. Deliberately written as documents to request and questions to ask - not as legal, financial, insurance or inspection advice, and with no statute citations, deadlines, fee figures or building-specific claims. Keep it that way: anything that would need a lawyer, a CPA, an insurance agent or a licensed inspector to stand behind belongs in the disclaimer, not in a bullet.",
+  "sections": [
+    {
+      "heading": "Association Financial Documents",
+      "intro": "The building's finances tell you more about your future cost of ownership than the unit ever will. Ask for these in writing, and read them before you are emotionally committed to the unit.",
+      "items": [
+        { "title": "The last two to three years of financial statements", "body": "You are looking for the direction of travel, not a single snapshot. Are operating costs rising faster than dues? Is the association ending each year even, ahead, or short?" },
+        { "title": "The most recent audit or review, if one exists", "body": "Ask whether the association's financials are audited, reviewed, or compiled, and by whom. Ask why, if the answer is none of the three." },
+        { "title": "Accounts receivable and delinquency levels", "body": "Ask what share of owners are behind on dues. Widespread delinquency shifts costs onto the owners who do pay, and it can affect a building's financing eligibility." },
+        { "title": "Any loans the association is carrying", "body": "Associations can borrow. Ask whether there is an outstanding loan, what it funded, what the payments are, and how long it runs." }
+      ]
+    },
+    {
+      "heading": "Budgets and Reserves",
+      "intro": "Reserves are the money set aside for the expensive things that wear out on a schedule: roof, elevators, paving, painting, plumbing risers. Underfunded reserves do not make a cost disappear - they move it into your future as an assessment.",
+      "items": [
+        { "title": "The current year's budget, line by line", "body": "Compare it against last year's actual spending. Ask about any line that moved sharply in either direction." },
+        { "title": "The reserve schedule and the current reserve balance", "body": "Ask what components are on the reserve schedule, what remaining useful life the association is assuming for each, and how much is actually in the account today." },
+        { "title": "Whether reserves are fully funded, partially funded, or waived", "body": "Ask directly, and ask how the answer has changed over the last several years. Ask what the association's plan is for any gap." },
+        { "title": "The last few years of dues increases", "body": "A building that has held dues flat while costs rose is usually deferring something. Find out what." },
+        { "title": "Any reserve study or structural reserve analysis on file", "body": "If one exists, ask for it in full, not for a summary. If one does not exist, ask why not and whether one is planned." }
+      ]
+    },
+    {
+      "heading": "Structural and Milestone Inspection Documentation",
+      "intro": "Florida buildings of a certain age and height are subject to inspection requirements, and the results drive both cost and financing. Requirements vary by building, age, county and municipality - confirm what applies to your specific building with the association and your attorney rather than assuming.",
+      "items": [
+        { "title": "Any completed milestone or structural inspection report", "body": "Ask for the full report and any follow-up engineering reports, not the cover letter." },
+        { "title": "The status of any required repairs identified", "body": "Ask what was found, what has been repaired, what is scheduled, what is unfunded, and who is doing the work." },
+        { "title": "When the next inspection is due", "body": "An inspection that is coming up shortly after your closing is a cost event you want to know about before you write the offer, not after." },
+        { "title": "Concrete restoration, balcony, and waterproofing history", "body": "Coastal buildings live with salt air. Ask when the building was last restored and painted, and what the association expects next." },
+        { "title": "Roof age and elevator modernization history", "body": "Both are large, predictable, expensive items. Ask when each was last done and what the reserve schedule assumes." }
+      ]
+    },
+    {
+      "heading": "Special Assessments",
+      "intro": "A special assessment is a bill sent to owners on top of regular dues. Assessments already levied, and assessments being discussed, are two different risks - ask about both.",
+      "items": [
+        { "title": "Any assessment currently levied or being collected", "body": "Ask the amount, the payment schedule, the remaining balance, and - critically - who is responsible for the unpaid portion after closing. That is a negotiable contract term, not a fixed rule." },
+        { "title": "Any assessment under discussion but not yet voted", "body": "Board meeting minutes are where these surface first. Ask for the last twelve months of minutes." },
+        { "title": "The assessment history of the last five to ten years", "body": "A pattern of repeated assessments tells you the reserves are not carrying the building." },
+        { "title": "How the association has historically funded large projects", "body": "Reserves, a loan, or an assessment. The answer tells you what to expect the next time something large comes due." }
+      ]
+    },
+    {
+      "heading": "Association Insurance",
+      "intro": "The association's master policy is a major driver of your monthly cost, and what it does and does not cover determines what your own policy has to pick up. Have an insurance professional review the actual policy documents.",
+      "items": [
+        { "title": "The current master policy declarations page", "body": "Ask what is covered, what the limits are, and what the deductibles are - including any separate windstorm or named-storm deductible." },
+        { "title": "How the premium has moved over the last few years", "body": "Insurance is one of the fastest-moving costs in Florida association budgets, and it flows straight into dues." },
+        { "title": "Whether the association has had coverage non-renewed or repriced", "body": "Ask, and ask what the association did about it." },
+        { "title": "Where the association's coverage stops and yours begins", "body": "This boundary varies by building and by governing document. Get it in writing and give it to your insurance agent before you close." },
+        { "title": "Recent claims history", "body": "Ask what claims have been filed in recent years and how they were resolved." }
+      ]
+    },
+    {
+      "heading": "Your Own Insurance",
+      "intro": "Quote your own coverage while you are still in your inspection period, not after. In Florida the quote itself is part of the due diligence, because it can change whether the purchase works.",
+      "items": [
+        { "title": "Get a real quote on a unit-owner policy", "body": "Not an estimate from a calculator - an actual quote for the actual unit, from an agent who has seen the association's coverage boundary." },
+        { "title": "Ask what the association's deductible means for you", "body": "In some structures a portion of a large association deductible can be passed to owners. Ask your agent and your attorney how that would work in this building." },
+        { "title": "Confirm flood coverage and its cost", "body": "Ask whether flood coverage is required, whether the association carries it, and what a policy for your unit would cost." },
+        { "title": "Ask about loss assessment coverage", "body": "It is a specific coverage type worth discussing with your agent when you buy into an association." }
+      ]
+    },
+    {
+      "heading": "Financing and Building Eligibility",
+      "intro": "In condo purchases the building has to qualify, not just the buyer. A unit you can afford in a building your lender will not lend on is not a purchase you can complete.",
+      "items": [
+        { "title": "Tell your lender the building name before you write the offer", "body": "Ask them to check the building's status early. This is the single most common avoidable delay in a condo transaction." },
+        { "title": "Ask whether the building is approved, ineligible, or unreviewed", "body": "Different loan programs treat buildings differently, and a building can be fine for one and not another." },
+        { "title": "Ask what specifically would disqualify it", "body": "Delinquency levels, litigation, reserve funding, deferred maintenance, the share of units that are rentals, and single-owner concentration are all common factors." },
+        { "title": "Ask what your options are if the building is not approved", "body": "There may be alternatives, and they may cost more. Better to know while you can still walk away." },
+        { "title": "Confirm the appraisal and lender document requirements", "body": "Lenders typically require a questionnaire completed by the association. Ask who completes it, how long it takes, and whether there is a fee." }
+      ]
+    },
+    {
+      "heading": "Pending Litigation",
+      "intro": "Litigation affects cost, financing and resale. Ask the question in writing so the answer is documented.",
+      "items": [
+        { "title": "Is the association a party to any pending litigation?", "body": "Ask for the nature of it, the stage it is at, and the association's estimate of exposure." },
+        { "title": "Are there disputes with a developer, contractor, or insurer?", "body": "Construction-defect and insurance disputes in particular can precede large costs." },
+        { "title": "Are there disputes with individual owners?", "body": "Ask about collection actions and covenant-enforcement disputes." },
+        { "title": "Have your attorney read the answer", "body": "Litigation disclosure is exactly the point at which a real estate attorney earns their fee." }
+      ]
+    },
+    {
+      "heading": "Rental Restrictions",
+      "intro": "If you plan to rent the unit at any point - even occasionally, even years from now - read the rules before you buy. They can also be amended after you buy, which is its own consideration.",
+      "items": [
+        { "title": "The minimum lease term", "body": "Ask what it is, and whether it has changed recently." },
+        { "title": "How many times per year a unit may be leased", "body": "Some associations limit the number of leases per year regardless of length." },
+        { "title": "Any waiting period after purchase before you may rent", "body": "Ask whether one applies and how long it runs." },
+        { "title": "Any cap on the total number of rented units", "body": "If the building is at its cap you may be on a waiting list, and rental caps can also affect financing." },
+        { "title": "Whether tenants require association approval", "body": "Ask about the process, the timeline, and any fee." },
+        { "title": "Short-term rental rules specifically", "body": "Ask about both the association rules and the local ordinance. They are separate, and both apply." }
+      ]
+    },
+    {
+      "heading": "Pet Restrictions",
+      "intro": "Pet rules are one of the most common post-closing surprises, and they are usually easy to verify in advance.",
+      "items": [
+        { "title": "Whether pets are permitted at all, and for owners versus tenants", "body": "The rules are often different for each." },
+        { "title": "Number, weight and breed limits", "body": "Ask for the written rule rather than a verbal summary from anyone." },
+        { "title": "Registration or approval requirements", "body": "Ask what documentation is required and whether there is a fee." },
+        { "title": "Where pets may and may not go in the building", "body": "Elevators, lobbies, pool decks and grounds are commonly addressed." }
+      ]
+    },
+    {
+      "heading": "Application and Approval Requirements",
+      "intro": "Many associations screen buyers. Build the time and the paperwork into your contract timeline rather than discovering it two weeks before closing.",
+      "items": [
+        { "title": "Is buyer approval required, and by whom?", "body": "Ask whether it is a board decision, a committee decision, or a management-company process." },
+        { "title": "What the application actually requires", "body": "Background check, credit check, references, financial documentation and an interview are all common. Ask which apply." },
+        { "title": "How long approval takes", "body": "Get a realistic answer and make sure your contract dates reflect it." },
+        { "title": "The application fee and who pays it", "body": "Ask the amount and confirm in the contract who is responsible." },
+        { "title": "Whether the association holds any right of first refusal", "body": "Ask whether one exists and how it is exercised." },
+        { "title": "Occupancy and age restrictions", "body": "Ask how many people may occupy the unit and whether the community is age-restricted. If it is, ask how the restriction is documented and enforced." }
+      ]
+    },
+    {
+      "heading": "Capital Contributions and Transfer Fees",
+      "intro": "These are one-time costs at closing that buyers routinely miss when they budget. Ask for the full list in writing.",
+      "items": [
+        { "title": "Capital contribution or working capital contribution", "body": "Ask whether one applies, what it is, and whether it is refundable." },
+        { "title": "Transfer or estoppel-related fees", "body": "Ask what the association and its management company charge to process a transfer." },
+        { "title": "Who pays each of them", "body": "Custom varies and it is negotiable. Make sure the contract says what you think it says." },
+        { "title": "Any move-in fee, deposit, or elevator reservation requirement", "body": "Common in high-rises, and easy to overlook until moving day." },
+        { "title": "Any club, marina, or amenity fee that is separate from dues", "body": "Ask whether membership is mandatory, what it costs, and whether it is transferable." }
+      ]
+    },
+    {
+      "heading": "Maintenance Responsibilities",
+      "intro": "The line between what the association maintains and what you maintain is set by the governing documents, and it is different in every building.",
+      "items": [
+        { "title": "Get the maintenance responsibility chart, if one exists", "body": "Many governing documents include one. It is the fastest way to see the boundary." },
+        { "title": "Windows, doors, sliders and screens", "body": "Ask who is responsible for repair and replacement, and whether replacements require approval and must match a specification." },
+        { "title": "Balconies and terraces", "body": "Ask who maintains the structure, the surface, and the railings." },
+        { "title": "Air conditioning, water heater and in-unit plumbing", "body": "Ask where association responsibility stops inside the walls." },
+        { "title": "Roof, exterior walls and common areas", "body": "Confirm these are association responsibilities in this specific building, and ask when each was last addressed." },
+        { "title": "Renovation and alteration approval", "body": "Ask what requires board approval, what documentation is needed, and whether there are restrictions on flooring, work hours, or contractors." }
+      ]
+    },
+    {
+      "heading": "Questions to Ask Before You Make an Offer",
+      "intro": "You can ask all of these before you are under contract. The answers routinely change what a buyer offers, or whether they offer at all.",
+      "items": [
+        { "title": "What are the monthly dues, and what do they include?", "body": "Ask what is covered - and specifically what is not." },
+        { "title": "What have dues done over the last five years?", "body": "The trend matters more than today's number." },
+        { "title": "Is there an assessment now, or one being discussed?", "body": "Ask both halves of that question separately." },
+        { "title": "Has the building completed its required inspections?", "body": "And if repairs were identified, what is the funding plan?" },
+        { "title": "Will my lender lend in this building?", "body": "Ask before you write, not after." },
+        { "title": "What are the rental and pet rules?", "body": "Confirm from the written documents, not from a conversation." },
+        { "title": "How long does buyer approval take?", "body": "Then set your contract dates around the real answer." },
+        { "title": "What one-time costs are due at closing?", "body": "Capital contribution, transfer fees, move-in fees, amenity fees." },
+        { "title": "How many units are owner-occupied?", "body": "It affects both the feel of the building and, in some cases, financing." },
+        { "title": "Who manages the building, and how responsive are they?", "body": "You will be dealing with them for as long as you own the unit." }
+      ]
+    },
+    {
+      "heading": "Documents to Review During Your Contractual Review Period",
+      "intro": "Request every one of these in writing, confirm the date you received them, and give your attorney time to read them. If a document cannot be produced, that itself is information.",
+      "items": [
+        { "title": "Declaration of condominium", "body": "The governing document. It defines the unit boundary, the common elements and the maintenance split." },
+        { "title": "Articles of incorporation and bylaws", "body": "How the association is governed and how decisions get made." },
+        { "title": "Rules and regulations, including any recent amendments", "body": "Ask specifically for amendments - rules change more often than declarations." },
+        { "title": "Current budget and most recent financial statements", "body": "Plus the audit or review, if one exists." },
+        { "title": "Reserve schedule and any reserve or structural study", "body": "Read the assumptions, not only the balance." },
+        { "title": "Board and member meeting minutes for the last twelve months", "body": "This is where assessments, litigation and building problems appear first." },
+        { "title": "Master insurance policy documents", "body": "Give them to your own insurance agent." },
+        { "title": "Milestone or structural inspection reports and engineering follow-ups", "body": "In full." },
+        { "title": "Frequently asked questions and answers sheet", "body": "Associations commonly maintain one for prospective buyers. Ask for it." },
+        { "title": "Estoppel certificate", "body": "It states what is owed on the unit at closing. Read it and reconcile it against what you were told." },
+        { "title": "Any pending assessment or special assessment notices", "body": "Ask for these by name, separately from the financials." },
+        { "title": "A written summary of any pending litigation", "body": "And have your attorney interpret it." }
+      ]
+    }
+  ],
+  "redFlags": [
+    "Reserves that are waived or minimally funded in a building with an aging roof, elevators, or concrete.",
+    "Dues that have been held flat for years while insurance and labor costs rose.",
+    "A pattern of repeated special assessments rather than reserve-funded projects.",
+    "Meeting minutes that discuss a project with no identified funding source.",
+    "A milestone or structural inspection that has not been completed, or repairs identified with no schedule.",
+    "High owner delinquency, or a small number of owners holding a large share of the units.",
+    "Litigation the association will describe only verbally.",
+    "A lender who cannot confirm the building's eligibility, or who declines to review it.",
+    "Documents that arrive slowly, incomplete, or only after repeated requests."
+  ],
+  "disclaimer": "This checklist is general information for buyers, not advice. It is not legal, financial, tax, insurance, engineering or inspection advice, and it does not create a professional relationship of any kind. Condominium requirements differ by building, by age, by county and by municipality, and they change. Every item here should be verified for your specific building with the association's own documents and reviewed by the appropriate licensed professionals - a Florida real estate attorney, your lender, a licensed insurance agent, and a licensed inspector or engineer - before you rely on it. DO Homes Group and Premier Brokers International make no representation about any particular building or association."
+}

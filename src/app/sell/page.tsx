@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getActiveListings } from '@/lib/listings'
-import { agents } from '@/lib/agents'
+import { agents, teamValuationRoute } from '@/lib/agents'
 import ListingCard from '@/components/ListingCard'
+import SellerValuationForm from '@/components/SellerValuationForm'
 import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
 
 export const metadata: Metadata = {
@@ -61,7 +62,7 @@ export default function SellPage() {
               href="#valuation"
               className="inline-flex items-center justify-center rounded-full bg-gold-500 px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
             >
-              Get a Free Valuation
+              Get My Pricing &amp; Net Proceeds Review
             </a>
             <Link
               href="/contact"
@@ -152,35 +153,72 @@ export default function SellPage() {
         </section>
       )}
 
-      {/* Valuation CTA */}
+      {/* Valuation CTA — one neutral request. Visitors used to have to choose
+          between "Free CMA from John" and "Free CMA from Christine" before they
+          knew either of them; the lead is now routed internally instead. The
+          per-agent pages at /sell/john and /sell/christine still exist for
+          direct marketing and attribution, and are linked below. */}
       <section id="valuation" className="bg-gradient-to-br from-gold-700 to-gold-500 px-6 py-16 sm:px-8">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">Free Valuation</p>
-          <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
-            What Is Your Home Worth?
-          </h2>
-          <p className="mx-auto mt-4 max-w-xl text-white">
-            Pick the agent you&rsquo;d like to work with and send us the address. You&rsquo;ll hear
-            back the same day, and get a no-obligation comparative market analysis — built by hand
-            from real comparable sales, not an automated estimate — within 48 hours.
-          </p>
-          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            {agents.map((agent) => (
-              <Link
-                key={agent.slug}
-                href={`/sell/${agent.slug}`}
-                className="inline-flex w-full items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-gold-700 shadow transition hover:bg-blue-50 sm:w-auto"
-              >
-                Free CMA from {agent.firstName}
-              </Link>
-            ))}
+        <div className="mx-auto max-w-5xl">
+          <div className="grid gap-10 lg:grid-cols-[1fr_420px] lg:items-start">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">
+                Free, No Obligation
+              </p>
+              <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
+                Get My Pricing &amp; Net Proceeds Review
+              </h2>
+              <p className="mt-4 max-w-xl text-white">
+                Send us the address. You&rsquo;ll hear back the same day, and within 48 hours
+                you&rsquo;ll have a comparative market analysis built by hand from real comparable
+                sales &mdash; plus the number that actually matters: what you would walk away with
+                after commission, taxes and payoff.
+              </p>
+              <ul className="mt-7 space-y-3">
+                {[
+                  'Recent comparable sales, with the adjustments that make them comparable to your home',
+                  'A realistic price range, not a single automated estimate, with the reasoning behind both ends of it',
+                  'Your estimated net proceeds at closing',
+                  'The specific prep, pricing and marketing moves we would make, and which are worth the money',
+                ].map((point) => (
+                  <li key={point} className="flex items-start gap-3 text-sm leading-7 text-white">
+                    <span className="mt-0.5 flex-shrink-0" aria-hidden="true">
+                      &#10022;
+                    </span>
+                    {point}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-7 text-sm text-white">
+                Prefer to talk first?{' '}
+                <a href="tel:+15617837733" className="font-semibold underline underline-offset-4">
+                  Call (561) 783-7733
+                </a>
+              </p>
+              <p className="mt-4 text-sm text-white">
+                Already know who you want to work with?{' '}
+                {agents.map((agent, i) => (
+                  <span key={agent.slug}>
+                    {i > 0 && ' or '}
+                    <Link
+                      href={`/sell/${agent.slug}`}
+                      className="font-semibold underline underline-offset-4"
+                    >
+                      {agent.firstName}
+                    </Link>
+                  </span>
+                ))}
+                .
+              </p>
+            </div>
+            <SellerValuationForm
+              agent={teamValuationRoute}
+              step1Heading="Start With the Address"
+              step1SubmitLabel={'Get My Pricing & Net Proceeds Review'}
+              submitLabel={'Get My Pricing & Net Proceeds Review'}
+              pageCategory="sell-pricing-review"
+            />
           </div>
-          <p className="mt-5 text-sm text-white">
-            Prefer to talk first?{' '}
-            <a href="tel:+15617837733" className="font-semibold underline underline-offset-4">
-              Call (561) 783-7733
-            </a>
-          </p>
         </div>
       </section>
     </div>

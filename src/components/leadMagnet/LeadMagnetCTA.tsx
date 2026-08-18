@@ -2,22 +2,20 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import { useEffect, useRef, useState } from 'react'
-import {
-  marketReports,
-  REPORT_EDITION,
-  type ReportSelection,
-} from '@/lib/marketReports'
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
+import { magnetsForSelection, type LeadMagnetSelection } from '@/lib/leadMagnets'
+import { hasDownloaded, subscribeToDownloads } from '@/lib/leadMagnetState'
 import { trackEvent } from '@/lib/analytics'
-import MarketReportModal from './MarketReportModal'
+import LeadMagnetModal from './LeadMagnetModal'
+import NextStepCTA from './NextStepCTA'
 
-export interface MarketReportCTAProps {
-  /** Which report to promote — 'both' opens a picker in the modal. */
-  selection: ReportSelection
+export interface LeadMagnetCTAProps {
+  /** Which magnet to promote — 'pbc-both' opens a two-report picker. */
+  selection: LeadMagnetSelection
   variant: 'inline' | 'sidebar' | 'end-of-article'
   /** Page bucket for analytics/CRM, e.g. 'community', 'blog', 'buy' */
   pageCategory: string
-  /** Overrides the default CTA button label */
+  /** Overrides the magnet's own CTA button label */
   buttonLabel?: string
   className?: string
 }
@@ -47,23 +45,41 @@ function useViewTracking(
   }, [])
 }
 
-export default function MarketReportCTA({
+export default function LeadMagnetCTA({
   selection,
   variant,
   pageCategory,
   buttonLabel,
   className = '',
-}: MarketReportCTAProps) {
+}: LeadMagnetCTAProps) {
   const [open, setOpen] = useState(false)
   const triggerRef = useRef<HTMLButtonElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  const report = selection === 'both' ? null : marketReports[selection]
+  const covers = magnetsForSelection(selection)
+  const magnet = covers.length === 1 ? covers[0] : null
+
+  // localStorage can only be read after mount, so the server snapshot is always
+  // "not downloaded" and the CTA swaps to its next-step variant on hydration —
+  // and again the moment a download completes in the modal on this same page.
+  // Only meaningful for a single magnet: the two-report picker stands as long as
+  // either report is still on offer.
+  // The snapshot returns a boolean read straight from storage, so it is stable
+  // between calls within a render and needs no manual memoization.
+  const alreadyHave = useSyncExternalStore(
+    subscribeToDownloads,
+    () => (magnet ? hasDownloaded(magnet.key, magnet.edition) : false),
+    () => false,
+  )
+
   const ctaLocation = variant
 
   const analyticsParams = {
+    magnet_key: selection,
+    magnet_id: magnet?.id,
+    magnet_edition: magnet?.edition,
     report_type: selection,
-    report_edition: REPORT_EDITION,
+    report_edition: magnet?.edition,
     cta_location: ctaLocation,
     page_category: pageCategory,
   }
@@ -75,14 +91,28 @@ export default function MarketReportCTA({
     setOpen(true)
   }
 
-  const headline = report?.ctaHeadline ?? `Get the ${REPORT_EDITION} Palm Beach County Market Update`
+  if (magnet && alreadyHave) {
+    return (
+      <NextStepCTA
+        magnet={magnet}
+        ctaLocation={ctaLocation}
+        pageCategory={pageCategory}
+        compact={variant === 'inline'}
+        className={className}
+      />
+    )
+  }
+
+  const eyebrow = magnet?.ctaEyebrow ?? 'Free Palm Beach County Market Reports'
+  const headline =
+    magnet?.ctaHeadline ?? 'Get the Latest Palm Beach County Market Report'
   const description =
-    report?.ctaDescription ??
+    magnet?.ctaDescription ??
     'Local prices, inventory, and negotiating conditions for single family homes, condos, and townhomes — free instant PDF downloads.'
-  const covers = report ? [report] : [marketReports['single-family'], marketReports['condo-townhome']]
+  const label = buttonLabel ?? magnet?.ctaButtonLabel ?? 'Download the Free Report'
 
   const modal = (
-    <MarketReportModal
+    <LeadMagnetModal
       isOpen={open}
       onClose={() => setOpen(false)}
       selection={selection}
@@ -100,18 +130,18 @@ export default function MarketReportCTA({
       >
         <div className="p-6">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-report-gold">
-            Free Market Report
+            {eyebrow}
           </p>
           <div className="mt-4 flex justify-center gap-3">
-            {covers.map((r) => (
+            {covers.map((m) => (
               <img
-                key={r.type}
-                src={r.coverImage}
-                alt={r.coverAlt}
-                width={report ? 150 : 110}
-                height={report ? 194 : 142}
+                key={m.key}
+                src={m.coverImage}
+                alt={m.coverAlt}
+                width={magnet ? 150 : 110}
+                height={magnet ? 194 : 142}
                 loading="lazy"
-                className={`rounded-lg shadow-lg ring-1 ring-white/10 ${report ? 'w-36' : 'w-[6.8rem]'}`}
+                className={`rounded-lg shadow-lg ring-1 ring-white/10 ${magnet ? 'w-36' : 'w-[6.8rem]'}`}
               />
             ))}
           </div>
@@ -123,7 +153,7 @@ export default function MarketReportCTA({
             onClick={handleClick}
             className="mt-5 w-full rounded-full bg-report-gold px-5 py-3 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark"
           >
-            {buttonLabel ?? 'Download the Free Report'}
+            {label}
           </button>
           <p className="mt-3 text-center text-[11px] text-white/60">
             Instant download · No obligation
@@ -142,11 +172,11 @@ export default function MarketReportCTA({
       >
         <div className="grid items-center gap-6 p-7 sm:grid-cols-[auto_1fr] sm:p-9">
           <div className="flex justify-center gap-3">
-            {covers.map((r) => (
+            {covers.map((m) => (
               <img
-                key={r.type}
-                src={r.coverImage}
-                alt={r.coverAlt}
+                key={m.key}
+                src={m.coverImage}
+                alt={m.coverAlt}
                 width={130}
                 height={168}
                 loading="lazy"
@@ -156,7 +186,7 @@ export default function MarketReportCTA({
           </div>
           <div className="text-center sm:text-left">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-report-gold">
-              Buying or Selling in Palm Beach County?
+              {eyebrow}
             </p>
             <h3 className="mt-2 font-serif text-2xl font-semibold leading-snug text-white">{headline}</h3>
             <p className="mt-3 text-sm leading-7 text-white/60">{description}</p>
@@ -166,11 +196,9 @@ export default function MarketReportCTA({
               onClick={handleClick}
               className="mt-5 inline-flex items-center justify-center rounded-full bg-report-gold px-8 py-3.5 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark"
             >
-              {buttonLabel ?? 'Get Instant Access'}
+              {label}
             </button>
-            <p className="mt-3 text-xs text-white/60">
-              Free instant PDF · Updated with the latest Palm Beach County market data
-            </p>
+            <p className="mt-3 text-xs text-white/60">Free instant PDF · No obligation</p>
           </div>
         </div>
         {modal}
@@ -185,11 +213,11 @@ export default function MarketReportCTA({
       className={`flex flex-col items-center gap-5 rounded-2xl border border-report-gold/40 bg-navy-950 p-6 sm:flex-row ${className}`}
     >
       <div className="flex flex-shrink-0 gap-2">
-        {covers.map((r) => (
+        {covers.map((m) => (
           <img
-            key={r.type}
-            src={r.coverImage}
-            alt={r.coverAlt}
+            key={m.key}
+            src={m.coverImage}
+            alt={m.coverAlt}
             width={72}
             height={93}
             loading="lazy"
@@ -199,7 +227,7 @@ export default function MarketReportCTA({
       </div>
       <div className="min-w-0 flex-1 text-center sm:text-left">
         <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-report-gold">
-          Free {REPORT_EDITION} Market Report
+          {eyebrow}
         </p>
         <h3 className="mt-1 font-serif text-lg font-semibold leading-snug text-white">{headline}</h3>
         <p className="mt-1 text-sm leading-6 text-white/60">{description}</p>
@@ -210,7 +238,7 @@ export default function MarketReportCTA({
         onClick={handleClick}
         className="flex-shrink-0 whitespace-nowrap rounded-full bg-report-gold px-6 py-3 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark"
       >
-        {buttonLabel ?? 'Download the Free Report'}
+        {label}
       </button>
       {modal}
     </div>

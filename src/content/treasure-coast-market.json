@@ -1,0 +1,108 @@
+{
+  "note": "VERIFIED DATA. Every figure below is transcribed from the BeachesMLS July 2026 Market Snapshot graphics for Martin County and St. Lucie County, the same source and format as the monthly Palm Beach County snapshots. Year-over-year percentages were recomputed from the raw 2026/2025 values rather than copied, because the source graphics print two of them without a sign: Martin condo median days to contract reads '24.7%' but is a decrease (70 vs 93), and St. Lucie single-family inventory reads '-8.2' with no percent sign. Cash share is derived arithmetic (paid-in-cash count / closed sales), not a figure the snapshot states. Do not edit any number here without a new snapshot in hand.",
+  "dataStatus": "July 2026",
+  "edition": "August 2026",
+  "dataMonth": "July 2026",
+  "source": "BeachesMLS July 2026 Market Snapshot",
+  "counties": [
+    {
+      "key": "martin",
+      "name": "Martin County",
+      "cities": ["Stuart", "Palm City", "Hobe Sound", "Port Salerno", "Jensen Beach"],
+      "propertyTypes": [
+        {
+          "key": "single-family",
+          "label": "Single Family Homes",
+          "metrics": [
+            { "key": "medianSalePrice", "label": "Median sale price", "value": "$599,900", "yearOverYear": "+4.3%" },
+            { "key": "closedSales", "label": "Closed sales", "value": "211", "yearOverYear": "+23.4%" },
+            { "key": "paidInCash", "label": "Paid in cash", "value": "82 of 211 closings (38.9%)", "yearOverYear": "+5.1%" },
+            { "key": "pctOriginalListPrice", "label": "Percent of original list price received", "value": "94.7%", "yearOverYear": "+2.5%" },
+            { "key": "medianDaysToContract", "label": "Median days to contract", "value": "43", "yearOverYear": "-14.0%" },
+            { "key": "activeInventory", "label": "Active inventory", "value": "696", "yearOverYear": "-21.3%" },
+            { "key": "monthsSupply", "label": "Months supply of inventory", "value": "3.7", "yearOverYear": "-33.9%" }
+          ]
+        },
+        {
+          "key": "condo-townhome",
+          "label": "Townhouses & Condos",
+          "metrics": [
+            { "key": "medianSalePrice", "label": "Median sale price", "value": "$230,000", "yearOverYear": "-10.7%" },
+            { "key": "closedSales", "label": "Closed sales", "value": "77", "yearOverYear": "+6.9%" },
+            { "key": "paidInCash", "label": "Paid in cash", "value": "51 of 77 closings (66.2%)", "yearOverYear": "+64.5%" },
+            { "key": "pctOriginalListPrice", "label": "Percent of original list price received", "value": "92.2%", "yearOverYear": "+2.4%" },
+            { "key": "medianDaysToContract", "label": "Median days to contract", "value": "70", "yearOverYear": "-24.7%" },
+            { "key": "activeInventory", "label": "Active inventory", "value": "514", "yearOverYear": "-19.1%" },
+            { "key": "monthsSupply", "label": "Months supply of inventory", "value": "5.6", "yearOverYear": "-34.1%" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "st-lucie",
+      "name": "St. Lucie County",
+      "cities": ["Port St. Lucie", "Fort Pierce", "Tradition"],
+      "propertyTypes": [
+        {
+          "key": "single-family",
+          "label": "Single Family Homes",
+          "metrics": [
+            { "key": "medianSalePrice", "label": "Median sale price", "value": "$394,995", "yearOverYear": "+2.6%" },
+            { "key": "closedSales", "label": "Closed sales", "value": "517", "yearOverYear": "+2.4%" },
+            { "key": "paidInCash", "label": "Paid in cash", "value": "134 of 517 closings (25.9%)", "yearOverYear": "+3.1%" },
+            { "key": "pctOriginalListPrice", "label": "Percent of original list price received", "value": "96%", "yearOverYear": "+1.8%" },
+            { "key": "medianDaysToContract", "label": "Median days to contract", "value": "63", "yearOverYear": "+21.2%" },
+            { "key": "activeInventory", "label": "Active inventory", "value": "2,271", "yearOverYear": "-8.2%" },
+            { "key": "monthsSupply", "label": "Months supply of inventory", "value": "4.9", "yearOverYear": "-14.0%" }
+          ]
+        },
+        {
+          "key": "condo-townhome",
+          "label": "Townhouses & Condos",
+          "metrics": [
+            { "key": "medianSalePrice", "label": "Median sale price", "value": "$319,950", "yearOverYear": "+13.3%" },
+            { "key": "closedSales", "label": "Closed sales", "value": "82", "yearOverYear": "+17.1%" },
+            { "key": "paidInCash", "label": "Paid in cash", "value": "43 of 82 closings (52.4%)", "yearOverYear": "+30.3%" },
+            { "key": "pctOriginalListPrice", "label": "Percent of original list price received", "value": "94.1%", "yearOverYear": "+5.4%" },
+            { "key": "medianDaysToContract", "label": "Median days to contract", "value": "93", "yearOverYear": "+3.3%" },
+            { "key": "activeInventory", "label": "Active inventory", "value": "641", "yearOverYear": "-16.4%" },
+            { "key": "monthsSupply", "label": "Months supply of inventory", "value": "7.8", "yearOverYear": "-26.4%" }
+          ]
+        }
+      ]
+    }
+  ],
+  "narrativeSlots": [
+    {
+      "key": "martinSummary",
+      "label": "Martin County: What the July Numbers Say",
+      "value": "Martin County's single family market tightened sharply in July 2026. Closed sales rose 23.4% over July 2025 to 211 while active inventory fell 21.3% to 696 homes - the combination that pushed months of supply from 5.6 down to 3.7. The median sale price reached $599,900, up 4.3%, sellers received 94.7% of original list price, and the median home went under contract in 43 days, a week faster than a year ago. On the townhouse and condo side the picture is more mixed. Closings rose 6.9% to 77 and inventory fell 19.1%, cutting months of supply from 8.5 to 5.6, but the median sale price fell 10.7% to $230,000. With only 77 closings in the month, a shift in which buildings and price tiers happened to trade can move that median on its own, so it is better read alongside the 92.2% of original list price sellers received than as a standalone signal of falling values."
+    },
+    {
+      "key": "stLucieSummary",
+      "label": "St. Lucie County: What the July Numbers Say",
+      "value": "St. Lucie County's single family market moved more gently. Closed sales rose 2.4% to 517 and inventory eased 8.2% to 2,271 homes, taking months of supply from 5.7 to 4.9. The median sale price rose 2.6% to $394,995 - still the most affordable of the three counties we serve - and sellers received 96% of original list price, the strongest list-price performance on either side of the county line. The one metric moving toward buyers is time: the median home took 63 days to go under contract, up from 52 a year ago. The condo and townhouse market is the county's sharpest mover. Closings rose 17.1% to 82, inventory fell 16.4% to 641, and months of supply dropped from 10.6 to 7.8. The median sale price rose 13.3% to $319,950, though with 82 closings that figure carries the same small-sample caution as Martin County's."
+    },
+    {
+      "key": "negotiatingConditions",
+      "label": "Negotiating Conditions Across Both Counties",
+      "value": "A balanced market is roughly 5.5 months of supply. By that yardstick, Martin County single family homes at 3.7 months are firmly seller's territory, and St. Lucie single family at 4.9 months is close behind. Martin County condos at 5.6 months sit almost exactly at balance, and St. Lucie condos at 7.8 months remain the one segment where buyers still hold real leverage - though that leverage has shrunk faster than anywhere else, down from 10.6 months a year ago. Percent of original list price received tells the same story from the other direction: St. Lucie single family sellers are conceding least at 96%, while Martin County condo sellers are conceding most at 92.2%, which is where a prepared buyer will find the most room."
+    },
+    {
+      "key": "cashConditions",
+      "label": "Cash Buyers",
+      "value": "Cash concentrates in condos on both sides of the county line. Two of every three Martin County condo closings were cash purchases (51 of 77, up 64.5% year over year), and just over half of St. Lucie's were (43 of 82). Single family cash activity is far lower - 38.9% in Martin County and 25.9% in St. Lucie. That matters for financed condo buyers in two ways: you are competing against offers with no appraisal and no loan contingency, and a building that a large share of cash buyers are choosing is not necessarily a building your lender will approve. Confirm financing eligibility for the specific building before you write."
+    },
+    {
+      "key": "buyerGuidance",
+      "label": "If You Are Buying",
+      "value": "Inventory fell in all four segments, so the era of waiting for more choice has ended on the Treasure Coast. If you want a single family home in Martin County, 3.7 months of supply means the well-priced ones will not sit and your negotiating room is on terms rather than price. St. Lucie single family is the better-supplied market of the two, and the jump to 63 days on market means the homes that are lingering are genuinely negotiable. If you are buying a condo, St. Lucie's 7.8 months of supply is the best buyer's window in either county - but arrive with the association's paperwork requested and your lender's building review already underway, because that is what decides whether a condo purchase closes."
+    },
+    {
+      "key": "sellerGuidance",
+      "label": "If You Are Selling",
+      "value": "Single family sellers in both counties are in the strongest position in several years: supply down, sales up, and buyers conceding less off list price than they did in July 2025. Price to this year's comparables rather than last year's and the data says the market will meet you. Condo sellers need to be more precise. Martin County's median fell 10.7% year over year and its sellers are conceding the most of any segment, so the pricing conversation there starts with which buildings are actually trading and why. In both counties, the buildings with completed inspections, funded reserves and stable dues are the ones moving - having that paperwork assembled before you list is now part of the pricing strategy, not the closing paperwork."
+    }
+  ],
+  "requiredData": []
+}

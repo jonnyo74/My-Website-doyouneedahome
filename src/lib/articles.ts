@@ -7509,7 +7509,7 @@ Buy here because you want the space, the trails, the recreation system and the s
     order: 2,
     seoTitle: "A Local's Guide to Wellington, Florida",
     metaTitle: "A Local's Guide to Wellington, Florida",
-    metaDescription: "An insider's guide to Wellington, Florida — how to read the village layout, the 65-mile bridle trail system, the two-season calendar, and the local etiquette nobody tells newcomers about.",
+    metaDescription: "An insider's guide to Wellington, Florida — how to read the village layout, the 100-plus-mile bridle trail system, the two-season calendar, and the local etiquette nobody tells newcomers about.",
     primaryKeyword: "Wellington Florida local guide",
     secondaryKeywords: ["Wellington insider tips", "things locals do in Wellington", "moving to Wellington guide"],
     h1: "A Local's Guide to Wellington, Florida",
@@ -7532,7 +7532,9 @@ Learn which band you're in and Wellington stops feeling confusing.
 
 ## The trail system is the thing to actually learn
 
-Wellington maintains roughly **65 miles of bridle trails** — a connected sand-and-grass network running along canals, road easements and community edges across the village.
+Wellington has **more than 100 miles of public and private bridle trails** woven throughout its equestrian community — a connected sand-and-grass network running along roadway easements, canal rights-of-way, and public and private bridle-path easements across the village.
+
+You will see smaller figures quoted, and they are not wrong so much as narrower. The Village counts portions of the network differently depending on the document: some materials cite 57-plus miles, and the Environmental Preserve page describes its own 3.6-mile loop as an extension of an approximately 65-mile system. The 100-plus figure is the one the Village's current equestrian materials use for the whole network, public and private together.
 
 If you have horses, this is functionally infrastructure: it's how you get from a barn to a ring to a show without a trailer.
 
@@ -7598,11 +7600,11 @@ Pick your Wellington deliberately. Buyers who choose the residential middle for 
 Go to a show in your first winter even if you have zero interest in horses. It's free, it's fifteen minutes away, and it's the fastest way to understand why the village is shaped the way it is.`,
     faqs: [
       { q: "What do locals actually do in Wellington?", a: "Everyday life centers on the village recreation system — athletic complexes, aquatics, parks and youth sports — plus free events at the Wellington Amphitheater and the bridle trail network. In winter, locals attend the equestrian festival and polo, much of which is free or low-cost to spectate. Nightlife with real range generally means driving east toward West Palm Beach." },
-      { q: "How many miles of bridle trails does Wellington have?", a: "The village maintains roughly 65 miles of bridle trails — a connected sand and grass network running along canals, easements and community edges. They are used by riders but are also open to pedestrians and, in most sections, cyclists, which makes them one of the better walking amenities in the village." },
+      { q: "How many miles of bridle trails does Wellington have?", a: "The Village's current equestrian materials cite more than 100 miles of public and private bridle trails throughout Wellington, running along roadway easements, canal rights-of-way and bridle-path easements. Smaller figures circulate because the Village counts portions of the network differently in different documents — some materials cite 57-plus miles, and the Environmental Preserve page describes its 3.6-mile loop as an extension of an approximately 65-mile system. The trails are used by riders but are also open to pedestrians and, in most sections, cyclists, which makes them one of the better walking amenities in the village." },
       { q: "When is equestrian season in Wellington, Florida?", a: "The Winter Equestrian Festival at Wellington International runs about 13 weeks in the new year — the 2026 season ran January 7 through March 29. The polo season at the National Polo Center runs longer, generally from late December into early May. Expect heavier traffic and busier restaurants through that window." },
       { q: "Is the Winter Equestrian Festival free to attend?", a: "General admission has been free in recent seasons, with the 2026 festival open Wednesday through Sunday from 8 a.m. to 5 p.m. The Saturday Night Lights events are also free to attend, with parking around $22 per car and a free off-site parking shuttle offered from the Equestrian Village facility. Admission, hours and parking are set season by season — confirm before you go." },
       { q: "What are the main roads in Wellington?", a: "Forest Hill Boulevard is the main east-west spine through the residential village, and State Road 7 (US-441) is the commercial corridor along the eastern edge. South Shore Boulevard and Pierson Road are the primary routes through the equestrian southwest, where drivers should expect horse trailers and riders on the shoulder." },
-      { q: "Is Wellington walkable?", a: "Not in the conventional sense — there is no walkable downtown and the village is designed around driving. However, the 65-mile bridle trail network and the extensive park system make it unusually good for walking recreationally, as opposed to walking to errands." },
+      { q: "Is Wellington walkable?", a: "Not in the conventional sense — there is no walkable downtown and the village is designed around driving. However, the 100-plus-mile bridle trail network and the extensive park system make it unusually good for walking recreationally, as opposed to walking to errands." },
     ],
     internalLinks: ["what-its-really-like-living-in-wellington-florida", "best-things-to-do-in-wellington-florida", "hidden-gems-in-wellington-florida"],
     funFact: "The venue most people still call the International Polo Club was renamed the National Polo Center - Wellington after the U.S. Polo Association took it over in 2022. If you are searching for tickets or schedules and getting confusing results, that rebrand is usually why — plenty of listings and older articles still use the former name.",
@@ -7775,7 +7777,7 @@ If you have kids in sports, this system will structure a meaningful part of your
 
 ## The trails
 
-The village's bridle trail network runs roughly 65 miles, and it's open to walkers and, in most sections, cyclists — not just riders. An hour on soft ground under trees, without crossing a major road, is a genuinely uncommon thing in suburban South Florida. Our [local's guide](/blog/local-guide-to-wellington-florida) covers trail etiquette, which is worth reading before your first walk.
+The village's bridle trail network runs more than 100 miles, public and private together, and it's open to walkers and, in most sections, cyclists — not just riders. An hour on soft ground under trees, without crossing a major road, is a genuinely uncommon thing in suburban South Florida. Our [local's guide](/blog/local-guide-to-wellington-florida) covers trail etiquette, which is worth reading before your first walk.
 
 ## Nature, quietly
 
@@ -7813,7 +7815,7 @@ That itinerary costs very little, covers both of Wellington's identities, and ta
 
 Go to the show grounds on a free admission day, walk to a rail, and watch for twenty minutes. Whether or not you care about horses, it explains more about Wellington than any amount of driving around looking at neighborhoods will.`,
     faqs: [
-      { q: "What is there to do in Wellington, Florida?", a: "Watch show jumping at the Winter Equestrian Festival and polo at the National Polo Center during the winter season, attend free concerts and movie nights at the Wellington Amphitheater, use the village athletic and aquatics complexes, walk the roughly 65 miles of bridle trails, and visit the nature preserves. The Mall at Wellington Green and the State Road 7 corridor cover shopping and chain dining." },
+      { q: "What is there to do in Wellington, Florida?", a: "Watch show jumping at the Winter Equestrian Festival and polo at the National Polo Center during the winter season, attend free concerts and movie nights at the Wellington Amphitheater, use the village athletic and aquatics complexes, walk the more than 100 miles of bridle trails, and visit the nature preserves. The Mall at Wellington Green and the State Road 7 corridor cover shopping and chain dining." },
       { q: "Can you watch the Winter Equestrian Festival for free?", a: "Yes. General admission has been free in recent seasons — the 2026 festival was open Wednesday through Sunday from 8 a.m. to 5 p.m. The Saturday Night Lights evening events have also been free to attend, with parking around $22 per car and a free shuttle offered from off-site parking at the Equestrian Village facility. Confirm current details before going, as they are set each season." },
       { q: "What is the National Polo Center in Wellington?", a: "It is the main polo venue in Wellington, hosting a winter season that generally runs from late December into early May and includes major U.S. tournaments. It was known as the International Polo Club Palm Beach until the U.S. Polo Association rebranded it in 2022, which is why older listings and articles use the former name." },
       { q: "What is divot stomping at a polo match?", a: "At halftime, spectators are invited onto the field to press back the pieces of turf torn up by the horses. It is a long-standing polo tradition, it is genuinely participatory, and it is one of the more enjoyable things a first-time polo spectator can do." },
@@ -7914,7 +7916,7 @@ If the fit isn't quite right, the near neighbors solve different problems: Royal
 
 ## The gut check
 
-If reading "9,000 acres of protected low-density land, 65 miles of trails, a deep parks system, and a world sporting event down the road" made you lean forward — Wellington is a bullseye, and few places compete with it.
+If reading "9,000 acres of protected low-density land, more than 100 miles of trails, a deep parks system, and a world sporting event down the road" made you lean forward — Wellington is a bullseye, and few places compete with it.
 
 If what you actually pictured was walking to a coffee shop with the ocean two blocks away, no amount of Wellington's strengths will fix that. Buy the coast, buy less of it, and be happier.`,
     faqs: [
@@ -7961,7 +7963,7 @@ Ball fields, an aquatics facility, courts, community centers, an amphitheater pr
 
 ### A trail network you can actually use
 
-The village's bridle trails — around 65 miles of them — are open to walkers and, in most sections, cyclists, not only riders. A connected soft-surface network you can use for an hour without crossing a major road is rare in suburban South Florida.
+The village's bridle trails — more than 100 miles of them, public and private — are open to walkers and, in most sections, cyclists, not only riders. A connected soft-surface network you can use for an hour without crossing a major road is rare in suburban South Florida.
 
 ### It's a village, and that shows
 
@@ -8035,7 +8037,7 @@ For buyers who wanted Florida to mean salt air and a short walk to the water, it
 
 **Verify the specifics that matter to you** — school zoning, flood zone, HOA documents, insurance quotes and any entitlements near a property you care about — with the district, the village and your own licensed professionals before you commit.`,
     faqs: [
-      { q: "What are the pros of living in Wellington, Florida?", a: "Structurally low density thanks to the roughly 9,000-acre Equestrian Preserve overlay, an unusually deep public recreation system, roughly 65 miles of bridle trails open to walkers and cyclists, world-class equestrian sport that is largely free to attend, Palm Beach County School District options plus a hospital and full retail inside the village, more house per dollar than the coast, and no state income tax." },
+      { q: "What are the pros of living in Wellington, Florida?", a: "Structurally low density thanks to the roughly 9,000-acre Equestrian Preserve overlay, an unusually deep public recreation system, more than 100 miles of bridle trails open to walkers and cyclists, world-class equestrian sport that is largely free to attend, Palm Beach County School District options plus a hospital and full retail inside the village, more house per dollar than the coast, and no state income tax." },
       { q: "What are the downsides of living in Wellington?", a: "It is inland with the coast about 30 minutes away, entirely car-dependent with no walkable downtown, noticeably busier from January through March during the equestrian season, and largely governed by HOAs. Insurance is a meaningful cost, the State Road 7 corridor is under active construction, and the summer off-season is hot and quiet." },
       { q: "Does equestrian season affect daily life in Wellington?", a: "Yes. From roughly January through March, traffic on the southern and western roads gets heavier, restaurants near the show grounds fill up, and the village takes on a substantial temporary seasonal population. Most residents enjoy the energy, but commuters crossing the equestrian corridor feel it daily." },
       { q: "Is flood insurance required in Wellington?", a: "It depends on the specific parcel. Being inland can reduce flood exposure compared with coastal properties, but Wellington is laid out around canals and lakes and flood zones vary property by property. Windstorm coverage applies regardless of distance from the ocean, and roof age, construction type and wind-mitigation features drive premiums significantly. Get a real quote during your inspection period." },
@@ -8217,7 +8219,7 @@ Bring binoculars. The tower plus binoculars in February is one of the better fre
 
 Everyone knows Wellington has bridle trails. Fewer non-riders realize they're allowed on them.
 
-Around 65 miles of connected soft-surface trail run along canals, easements and community edges throughout the village, open to pedestrians and, in most sections, cyclists. You can put together a long walk on forgiving ground, mostly shaded, without crossing a major road.
+More than 100 miles of connected soft-surface trail run along canals, easements and community edges throughout the village, open to pedestrians and, in most sections, cyclists. You can put together a long walk on forgiving ground, mostly shaded, without crossing a major road.
 
 The practical trick is finding the access points, which are not signposted like a trailhead — most connections come off community edges, canal maintenance roads and road easements rather than a parking lot. Section 24's perimeter trail is the easiest place to start precisely because it has actual parking.
 
@@ -8365,7 +8367,7 @@ Not really a close comparison, but people run it anyway.
 
 **Boca Raton** is a larger, denser, coastal city with a substantial downtown, extensive dining, a major university, and beach access. It's urban in a way no western community is.
 
-**Wellington** is a quiet village with 65 miles of horse trails.
+**Wellington** is a quiet village with more than 100 miles of horse trails.
 
 They serve almost opposite preferences. If you're genuinely torn between these two, the useful question isn't which is better — it's whether you want to live in a city or a village, because that's the actual decision.
 

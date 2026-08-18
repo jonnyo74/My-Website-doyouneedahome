@@ -4,12 +4,13 @@
 
 import { useEffect, useId, useRef, useState } from 'react'
 import {
-  marketReports,
-  type ReportSelection,
-  type ReportType,
-} from '@/lib/marketReports'
+  leadMagnets,
+  magnetsForSelection,
+  type LeadMagnetKey,
+  type LeadMagnetSelection,
+} from '@/lib/leadMagnets'
 import { trackEvent } from '@/lib/analytics'
-import ReportLeadForm from './ReportLeadForm'
+import LeadMagnetForm from './LeadMagnetForm'
 
 const FOCUSABLE_SELECTOR =
   'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
@@ -18,10 +19,10 @@ const FOCUSABLE_SELECTOR =
 // DOM order and would otherwise steal focus ahead of the First Name input.
 const INITIAL_FOCUS_SELECTOR = 'input:not([type="hidden"]):not([tabindex="-1"]), select, textarea'
 
-export interface MarketReportModalProps {
+export interface LeadMagnetModalProps {
   isOpen: boolean
   onClose: () => void
-  selection: ReportSelection
+  selection: LeadMagnetSelection
   ctaLocation: string
   pageCategory: string
   returnFocusRef?: React.RefObject<HTMLElement | null>
@@ -29,38 +30,41 @@ export interface MarketReportModalProps {
   intro?: string
 }
 
-export default function MarketReportModal({
+export default function LeadMagnetModal({
   isOpen,
   onClose,
   selection,
   ctaLocation,
   pageCategory,
   returnFocusRef,
-  headline = 'Get the Latest Palm Beach County Market Report',
+  headline,
   intro,
-}: MarketReportModalProps) {
-  const [chosenType, setChosenType] = useState<ReportType | null>(
-    selection === 'both' ? null : selection,
-  )
+}: LeadMagnetModalProps) {
+  const choices = magnetsForSelection(selection)
+  const singleKey = choices.length === 1 ? choices[0].key : null
+
+  const [chosenKey, setChosenKey] = useState<LeadMagnetKey | null>(singleKey)
   // Reset picker state each time the modal reopens (render-phase adjustment —
   // an effect calling setState here would trip the react-compiler lint rule).
   const [prevOpen, setPrevOpen] = useState(isOpen)
   if (prevOpen !== isOpen) {
     setPrevOpen(isOpen)
-    if (isOpen) setChosenType(selection === 'both' ? null : selection)
+    if (isOpen) setChosenKey(singleKey)
   }
   const dialogRef = useRef<HTMLDivElement>(null)
   const uid = useId()
-  const idPrefix = `report-modal-${ctaLocation}-${uid}`
+  const idPrefix = `magnet-modal-${ctaLocation}-${uid}`
   const titleId = `${idPrefix}-title`
 
-  const report = chosenType ? marketReports[chosenType] : null
+  const magnet = chosenKey ? leadMagnets[chosenKey] : null
+  const resolvedHeadline = headline ?? magnet?.ctaHeadline ?? 'Choose Your Free Market Report'
 
   // Open/close side effects: body scroll lock, initial focus, restore focus.
   useEffect(() => {
     if (!isOpen) return
     document.body.style.overflow = 'hidden'
     trackEvent('lead_magnet_modal_open', {
+      magnet_key: selection,
       report_type: selection,
       cta_location: ctaLocation,
       page_category: pageCategory,
@@ -147,31 +151,33 @@ export default function MarketReportModal({
               Free Instant Download
             </p>
             <h2 id={titleId} className="mt-1.5 pr-8 font-serif text-xl font-semibold leading-snug text-white">
-              {headline}
+              {resolvedHeadline}
             </h2>
             {intro && <p className="mt-2 text-sm leading-6 text-white/60">{intro}</p>}
 
-            {report ? (
+            {magnet ? (
               <>
                 <div className="mt-4 flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-3.5">
                   <img
-                    src={report.coverImage}
-                    alt={report.coverAlt}
+                    src={magnet.coverImage}
+                    alt={magnet.coverAlt}
                     width={44}
                     height={57}
                     loading="lazy"
                     className="h-14 w-11 flex-shrink-0 rounded shadow-md"
                   />
                   <div className="min-w-0">
-                    <p className="text-sm font-semibold leading-snug text-white">{report.title}</p>
+                    <p className="text-sm font-semibold leading-snug text-white">{magnet.title}</p>
                     <p className="mt-0.5 text-xs text-report-gold">
-                      {report.edition} Edition · {report.dataMonth} market data
+                      {magnet.kind === 'market-report'
+                        ? `${magnet.edition} Edition · ${magnet.dataMonth} market data`
+                        : `${magnet.edition} · Instant PDF`}
                     </p>
                   </div>
-                  {selection === 'both' && (
+                  {!singleKey && (
                     <button
                       type="button"
-                      onClick={() => setChosenType(null)}
+                      onClick={() => setChosenKey(null)}
                       className="ml-auto flex-shrink-0 text-xs font-semibold text-white/50 underline underline-offset-2 transition hover:text-white"
                     >
                       Change
@@ -179,8 +185,8 @@ export default function MarketReportModal({
                   )}
                 </div>
                 <div className="mt-5">
-                  <ReportLeadForm
-                    report={report}
+                  <LeadMagnetForm
+                    magnet={magnet}
                     ctaLocation={ctaLocation}
                     pageCategory={pageCategory}
                     idPrefix={idPrefix}
@@ -191,31 +197,30 @@ export default function MarketReportModal({
             ) : (
               <div className="mt-5 space-y-3">
                 <p className="text-sm text-white/60">Which report would you like?</p>
-                {(Object.keys(marketReports) as ReportType[]).map((type) => {
-                  const r = marketReports[type]
-                  return (
-                    <button
-                      key={type}
-                      type="button"
-                      onClick={() => setChosenType(type)}
-                      className="flex w-full items-center gap-4 rounded-2xl border border-white/15 bg-white/5 p-4 text-left transition hover:border-report-gold/60 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-report-gold"
-                    >
-                      <img
-                        src={r.coverImage}
-                        alt={r.coverAlt}
-                        width={52}
-                        height={67}
-                        loading="lazy"
-                        className="h-[4.2rem] w-13 flex-shrink-0 rounded shadow-md"
-                      />
-                      <span className="min-w-0">
-                        <span className="block text-sm font-semibold leading-snug text-white">{r.title}</span>
-                        <span className="mt-1 block text-xs text-white/50">{r.ctaDescription}</span>
+                {choices.map((choice) => (
+                  <button
+                    key={choice.key}
+                    type="button"
+                    onClick={() => setChosenKey(choice.key)}
+                    className="flex w-full items-center gap-4 rounded-2xl border border-white/15 bg-white/5 p-4 text-left transition hover:border-report-gold/60 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-report-gold"
+                  >
+                    <img
+                      src={choice.coverImage}
+                      alt={choice.coverAlt}
+                      width={52}
+                      height={67}
+                      loading="lazy"
+                      className="h-[4.2rem] w-13 flex-shrink-0 rounded shadow-md"
+                    />
+                    <span className="min-w-0">
+                      <span className="block text-sm font-semibold leading-snug text-white">
+                        {choice.title}
                       </span>
-                      <span className="ml-auto flex-shrink-0 text-report-gold" aria-hidden="true">→</span>
-                    </button>
-                  )
-                })}
+                      <span className="mt-1 block text-xs text-white/50">{choice.ctaDescription}</span>
+                    </span>
+                    <span className="ml-auto flex-shrink-0 text-report-gold" aria-hidden="true">→</span>
+                  </button>
+                ))}
               </div>
             )}
           </div>

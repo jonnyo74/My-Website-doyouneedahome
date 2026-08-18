@@ -1,11 +1,12 @@
 'use client'
 
 import { useRef, useState } from 'react'
-import type { Agent } from '@/lib/agents'
+import type { ValuationRoute } from '@/lib/agents'
 import { TIMELINE_OPTIONS } from '@/lib/sellerLeadHelpers'
 import { trackEvent } from '@/lib/analytics'
 import { getUtmAndReferrer } from '@/lib/utm'
 import FormConsent from '@/components/FormConsent'
+import { CURRENT_CONSENT_VERSION } from '@/lib/consent'
 
 interface FormValues {
   address: string
@@ -40,7 +41,22 @@ function validateStep2(values: FormValues): Partial<Record<keyof FormValues, str
 
 type Status = 'idle' | 'sending' | 'success' | 'error'
 
-export default function SellerValuationForm({ agent }: { agent: Agent }) {
+export default function SellerValuationForm({
+  agent,
+  submitLabel,
+  step1Heading,
+  step1SubmitLabel,
+  pageCategory = 'agent-valuation',
+}: {
+  /** An agent, or the neutral team route used by the main /sell page. */
+  agent: ValuationRoute
+  /** Overrides the "Send to {firstName}" submit label on step 2. */
+  submitLabel?: string
+  /** Overrides the step-1 card heading and its submit button. */
+  step1Heading?: string
+  step1SubmitLabel?: string
+  pageCategory?: string
+}) {
   const [values, setValues] = useState<FormValues>(EMPTY)
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({})
   const [status, setStatus] = useState<Status>('idle')
@@ -55,7 +71,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
   const analyticsParams = {
     agent: agent.slug,
     cta_location: 'valuation-hero',
-    page_category: 'agent-valuation',
+    page_category: pageCategory,
   }
 
   const update = (field: keyof FormValues, value: string) => {
@@ -114,6 +130,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
           utmCampaign,
           utmContent,
           referrer,
+          consentVersion: CURRENT_CONSENT_VERSION,
         }),
       })
       if (!res.ok) throw new Error(`Seller lead submission failed (${res.status})`)
@@ -178,7 +195,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
     <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-card sm:p-8">
       <div className="mb-6">
         <h2 className="font-serif text-xl font-semibold text-slate-900">
-          {step === 1 ? 'What Is Your Home Worth?' : 'Where Should I Send It?'}
+          {step === 1 ? (step1Heading ?? 'What Is Your Home Worth?') : 'Where Should I Send It?'}
         </h2>
         <p className="mt-1 text-sm leading-6 text-slate-500">
           {step === 1
@@ -217,7 +234,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
             type="submit"
             className="w-full rounded-full bg-gold-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-gold-600"
           >
-            Get My Free CMA
+            {step1SubmitLabel ?? 'Get My Free CMA'}
           </button>
           <FormConsent />
         </form>
@@ -366,7 +383,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
               disabled={status === 'sending'}
               className="flex-1 rounded-full bg-gold-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-gold-600 disabled:opacity-60"
             >
-              {status === 'sending' ? 'Sending…' : `Send to ${agent.firstName}`}
+              {status === 'sending' ? 'Sending…' : (submitLabel ?? `Send to ${agent.firstName}`)}
             </button>
           </div>
 

@@ -1,0 +1,86 @@
+{
+  "note": "Palm Beach County monthly market reports. Every figure is transcribed from the BeachesMLS Market Snapshot graphic for the month named in `dataMonth`. Year-over-year percentages are recomputed from the raw values rather than copied, because the snapshots occasionally print a decrease without its minus sign. Cash share is derived (paid in cash / closed sales). Do not edit a number here without the matching snapshot in hand.",
+  "dataStatus": "July 2026",
+  "edition": "August 2026",
+  "dataMonth": "July 2026",
+  "priorMonth": "July 2025",
+  "source": "BeachesMLS (Broward, Palm Beaches & St. Lucie Realtors(R)), July 2026 Market Snapshot, Palm Beach County",
+  "reports": [
+    {
+      "key": "single-family",
+      "label": "Single Family Homes",
+      "title": "Palm Beach County Single Family Home Market Report",
+      "tiles": [
+        { "value": "$660,090", "label": "Median Sale Price", "sub": "+7.6% YOY" },
+        { "value": "1,336", "label": "Closed Sales", "sub": "+12.7% YOY" },
+        { "value": "3.7", "label": "Months of Supply", "sub": "-32.7% YOY" },
+        { "value": "41", "label": "Median Days", "sub": "to contract" }
+      ],
+      "rows": [
+        ["Closed Sales", "1,336", "1,185", "+12.7%"],
+        ["Paid in Cash", "551", "443", "+24.4%"],
+        ["Median Sale Price", "$660,090", "$613,250", "+7.6%"],
+        ["Original List Price Received", "95.1%", "93.5%", "+1.7%"],
+        ["Median Days to Contract", "41", "46", "-10.9%"],
+        ["Inventory (Active Listings)", "4,590", "5,986", "-23.3%"],
+        ["Months Supply of Inventory", "3.7", "5.5", "-32.7%"]
+      ],
+      "overview": "The Palm Beach County single family home market carried its momentum into July 2026. Closed sales rose 12.7% over July 2025 while active inventory fell 23.3% - a combination that lifted the median sale price to $660,090, up 7.6% year over year. At 3.7 months of supply, down from 5.5, the single family market remains firmly in seller's-market territory.",
+      "afterTable": "Two numbers frame the month. First, speed: the median home went under contract in 41 days, five days faster than a year ago, and sellers received 95.1% of original list price. Second, supply: a balanced market is generally considered about 5.5 months of inventory, and Palm Beach County single family homes now sit well below that at 3.7.",
+      "sellingIntro": "This is a strong seller's market, but it is rewarding preparation rather than optimism. Sellers received 95.1% of original list price on average, which means buyers are still negotiating roughly 5% off asking. Homes priced to today's comparables are the ones capturing the 12.7% rise in closed sales.",
+      "sellingPoints": [
+        "Inventory is down 23.3% year over year - a well-prepared listing faces less competition than it has in several years",
+        "The median home went under contract in 41 days; pricing right the first time is what keeps you on that pace",
+        "41% of buyers are paying cash - expect stronger offers, but vet proof of funds carefully",
+        "Professional photography, fresh paint and pre-listing inspections still separate top-dollar sales from the rest"
+      ],
+      "buyingIntro": "Buyers face more competition than a year ago, but this is not the frenzy of 2021-2022. A 41-day median time to contract means you still have room to see a home, do diligence and write a considered offer - you just cannot sit on the fence for weeks on a well-priced property.",
+      "buyingPoints": [
+        "With supply at 3.7 months and falling, waiting has a price: the median home cost $46,840 more than last July",
+        "Cash purchases rose 24.4% - financed buyers should have full underwriting pre-approval, not just pre-qualification",
+        "Late summer is historically the best negotiating window before seasonal demand returns in October",
+        "Sellers are still conceding about 5% from original list on average - there is room to negotiate on homes with longer market time"
+      ],
+      "outlookHeading": "What to Watch Through Fall 2026",
+      "outlook": "If the last two years are a guide, inventory will stay tight through the summer and new listings will build again in September ahead of season. That makes the next 60-90 days a window: buyers get their best leverage of the year, while sellers who list now face the least competition. Interest-rate moves will matter most in the financed mid-market; the heavy cash share at higher price points insulates that segment. If the 3.7-month supply trend holds, expect continued upward pressure on prices into 2027."
+    },
+    {
+      "key": "condo-townhome",
+      "label": "Townhouses & Condos",
+      "title": "Palm Beach County Condo & Townhome Market Report",
+      "tiles": [
+        { "value": "$312,500", "label": "Median Sale Price", "sub": "+4.0% YOY" },
+        { "value": "914", "label": "Closed Sales", "sub": "+18.5% YOY" },
+        { "value": "6.7", "label": "Months of Supply", "sub": "-28.0% YOY" },
+        { "value": "57%", "label": "Of Sales", "sub": "paid in cash" }
+      ],
+      "rows": [
+        ["Closed Sales", "914", "771", "+18.5%"],
+        ["Paid in Cash", "523", "435", "+20.2%"],
+        ["Median Sale Price", "$312,500", "$300,500", "+4.0%"],
+        ["Original List Price Received", "92.2%", "90.7%", "+1.7%"],
+        ["Median Days to Contract", "69", "70", "-1.4%"],
+        ["Inventory (Active Listings)", "5,853", "7,249", "-19.3%"],
+        ["Months Supply of Inventory", "6.7", "9.3", "-28.0%"]
+      ],
+      "overview": "The Palm Beach County condo and townhome market continued its turn in July 2026. Closed sales rose 18.5% over July 2025 and active inventory fell 19.3%, cutting months of supply from 9.3 to 6.7 - the clearest absorption yet of the supply that built up through 2024-2025. The median sale price rose 4% to $312,500, and 57% of closings were all-cash purchases.",
+      "afterTable": "At 6.7 months of supply, buyers still hold leverage - a balanced market is generally considered about 5.5 months - but that leverage has narrowed sharply from 9.3 months a year ago. Sellers received 92.2% of original list price, nearly three points below what single family sellers achieved, which is where the remaining negotiating room sits.",
+      "sellingIntro": "The market is absorbing condo inventory again, but it is doing so selectively. Closed sales rose 18.5% while sellers still conceded about 8% from original list price, so pricing and building paperwork are doing more work than presentation alone.",
+      "sellingPoints": [
+        "Inventory is down 19.3% year over year - the competition you were pricing against last summer has thinned",
+        "Buildings with completed milestone inspections, funded reserves and stable fees are trading as a separate, stronger market",
+        "57% of buyers are paying cash - a building your buyer's lender will not approve narrows your pool to those buyers only",
+        "Assemble the association documents before you list; a slow document request is where condo contracts stall"
+      ],
+      "buyingIntro": "This is still the best buyer's window in Palm Beach County, and the data says it is closing. A 69-day median time to contract gives you time to do the diligence a condo purchase actually requires.",
+      "buyingPoints": [
+        "At 6.7 months of supply you have genuine choice - but that is down from 9.3 months a year ago",
+        "Sellers are conceding about 8% from original list on average, the widest gap of either property type",
+        "Tell your lender the building name before you write; in a condo purchase the building has to qualify too",
+        "Request reserves, meeting minutes, assessment history and inspection reports early - our free due-diligence checklist lists every document"
+      ],
+      "outlookHeading": "What to Watch Through Fall 2026",
+      "outlook": "The condo market is roughly a year behind the single family market in its cycle, and July's figures suggest it is closing that gap. Expect the split between buildings to widen rather than narrow: association health, insurance costs and inspection status now drive value more than square footage does. If absorption continues at July's pace, the buyer's window in Palm Beach County condos closes sometime in 2027 - sooner in the buildings with clean paperwork, later in those without."
+    }
+  ]
+}

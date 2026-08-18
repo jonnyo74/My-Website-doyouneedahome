@@ -8,27 +8,38 @@
 // Adding a third agent means adding a record here; the route, sitemap entry,
 // and /sell links all derive from this list.
 
-export interface Agent {
+/**
+ * The fields a valuation form needs to address someone and route the lead.
+ * `Agent` satisfies it, and so does the neutral team route used on /sell — the
+ * main sell page no longer asks a visitor to choose an agent before they know
+ * the team.
+ */
+export interface ValuationRoute {
   slug: string
   firstName: string
   name: string
-  title: string
-  credentials: string[]
-  license: string
   phone: string
   phoneHref: string
   email: string
+  /** Applied to every FUB lead from this route so routing rules can pick it up. */
+  crmTag: string
+  /**
+   * Passed to Follow Up Boss as `person.assignedTo`. FUB matches this on the
+   * user's full name — it must be EXACTLY the display name on their FUB
+   * account or the assignment silently won't stick. Undefined means "let FUB's
+   * own lead distribution decide".
+   */
+  fubAssignedTo?: string
+}
+
+export interface Agent extends ValuationRoute {
+  title: string
+  credentials: string[]
+  license: string
   photo: string
   /** Tailwind object-position class — these two headshots crop differently. */
   photoPosition: string
-  /** Applied to every FUB lead from this agent's page so routing rules can pick it up. */
-  crmTag: string
-  /**
-   * Passed to Follow Up Boss as `person.assignedTo` so the lead lands directly in
-   * this agent's queue instead of falling through to default lead distribution.
-   * FUB matches this on the user's full name — it must be EXACTLY the display
-   * name on their FUB account or the assignment silently won't stick.
-   */
+  /** Always set for a named agent — the lead lands directly in their queue. */
   fubAssignedTo: string
   /** Hero subhead, first person — this is the agent talking, not the brand. */
   pitch: string
@@ -104,8 +115,34 @@ export const agents: Agent[] = [
   },
 ]
 
+/**
+ * The neutral route used by the main /sell pricing review. Visitors should not
+ * have to pick an agent before they know the team, so the lead is assigned
+ * internally instead: set FUB_TEAM_ASSIGNED_TO to a FUB user's exact display
+ * name to send these to one person, or leave it unset and Follow Up Boss's own
+ * lead distribution decides. The tag below is applied either way, so a FUB
+ * automation can also route on it.
+ */
+export const TEAM_ROUTE_SLUG = 'team'
+
+export const teamValuationRoute: ValuationRoute = {
+  slug: TEAM_ROUTE_SLUG,
+  firstName: 'Christine or John',
+  name: 'DO Homes Group',
+  phone: '(561) 783-7733',
+  phoneHref: 'tel:+15617837733',
+  email: 'info@doyouneedahome.com',
+  crmTag: 'Seller Lead - Team Pricing Review',
+}
+
 export function getAgentBySlug(slug: string): Agent | undefined {
   return agents.find((a) => a.slug === slug)
+}
+
+/** An agent slug, or 'team' for the neutral /sell pricing review. */
+export function getValuationRoute(slug: string | undefined): ValuationRoute | undefined {
+  if (slug === TEAM_ROUTE_SLUG) return teamValuationRoute
+  return getAgentBySlug(slug ?? '')
 }
 
 export function getAgentPaths(): { agent: string }[] {
