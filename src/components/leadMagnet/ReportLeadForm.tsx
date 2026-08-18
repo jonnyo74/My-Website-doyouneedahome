@@ -65,6 +65,7 @@ export default function ReportLeadForm({
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null)
   const startedRef = useRef(false)
   const submittingRef = useRef(false)
+  const formRef = useRef<HTMLFormElement>(null)
 
   const analyticsParams = {
     report_type: report.type,
@@ -76,12 +77,18 @@ export default function ReportLeadForm({
 
   const dark = tone === 'dark'
   const labelCls = `block text-xs font-medium mb-1.5 ${dark ? 'text-white/70' : 'text-slate-600'}`
-  const inputCls = `w-full rounded-xl px-4 py-3 text-sm transition focus:outline-none ${
+  // The dark variant previously signalled focus with a border-colour swap only,
+  // which is far too subtle to serve as a focus indicator. Both tones now get a
+  // 2px ring (report-gold clears 3:1 on navy, report-gold-dark on white).
+  const inputCls = `w-full rounded-xl px-4 py-3 text-sm transition focus:outline-none focus-visible:ring-2 ${
     dark
-      ? 'border border-white/20 bg-white/10 text-white placeholder-white/40 focus:border-report-gold'
-      : 'border border-slate-300 bg-white text-slate-900 placeholder-slate-400 focus:border-report-gold-dark focus:ring-1 focus:ring-report-gold-dark'
+      ? 'border border-white/20 bg-white/10 text-white placeholder-white/60 focus:border-report-gold focus-visible:ring-report-gold'
+      : 'border border-slate-300 bg-white text-slate-900 placeholder-slate-500 focus:border-report-gold-dark focus-visible:ring-report-gold-dark'
   }`
-  const errorCls = 'mt-1 text-xs text-red-400'
+  // red-400 reads at 2.89:1 on the white form and 6.3:1 on the navy modal, so
+  // the error colour has to follow the tone rather than being fixed.
+  const errorTone = dark ? 'text-red-400' : 'text-red-600'
+  const errorCls = `mt-1 text-xs ${errorTone}`
 
   const update = (field: keyof FormValues, value: string) => {
     setValues((prev) => ({ ...prev, [field]: value }))
@@ -112,7 +119,10 @@ export default function ReportLeadForm({
     e.preventDefault()
     const nextErrors = validate(values)
     setErrors(nextErrors)
-    if (Object.keys(nextErrors).length > 0) return
+    if (Object.keys(nextErrors).length > 0) {
+      focusField(Object.keys(nextErrors)[0])
+      return
+    }
     if (submittingRef.current) return
     submittingRef.current = true
     setStatus('sending')
@@ -163,6 +173,19 @@ export default function ReportLeadForm({
 
   const fieldId = (name: string) => `${idPrefix}-${name}`
 
+  /**
+   * Put focus on the first field that failed validation (WCAG 3.3.1 / 3.3.3).
+   * Without it a failed submit is silent: the message renders below the fold on
+   * a phone, and a screen-reader user gets no signal the button did anything.
+   * The radio group has no id of its own, so it's matched by name.
+   */
+  const focusField = (field: string) => {
+    const el =
+      document.getElementById(fieldId(field)) ??
+      formRef.current?.querySelector<HTMLElement>(`input[name="${fieldId(field)}"]`)
+    el?.focus()
+  }
+
   if (status === 'success') {
     return (
       <div className="py-2 text-center" role="status" aria-live="polite">
@@ -197,7 +220,7 @@ export default function ReportLeadForm({
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-4">
+    <form ref={formRef} onSubmit={handleSubmit} noValidate className="space-y-4">
       {/* Honeypot — hidden from sighted users, left open for bots */}
       <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, overflow: 'hidden' }}>
         <label htmlFor={fieldId('company')}>Company</label>
@@ -264,7 +287,7 @@ export default function ReportLeadForm({
 
       <div>
         <label htmlFor={fieldId('phone')} className={labelCls}>
-          Phone Number <span className={dark ? 'text-white/40' : 'text-slate-400'}>(Optional)</span>
+          Phone Number <span className={dark ? 'text-white/60' : 'text-slate-500'}>(Optional)</span>
         </label>
         <input
           id={fieldId('phone')}
@@ -291,7 +314,7 @@ export default function ReportLeadForm({
                 key={opt}
                 className={`flex cursor-pointer items-center justify-center rounded-xl border px-3 py-2.5 text-center text-sm font-medium transition ${
                   selected
-                    ? 'border-report-gold-dark bg-report-gold/15 ' + (dark ? 'text-report-gold-light' : 'text-report-gold-dark')
+                    ? 'border-report-gold-dark bg-report-gold/15 ' + (dark ? 'text-report-gold-light' : 'text-report-gold-text')
                     : dark
                       ? 'border-white/20 text-white/70 hover:border-white/40'
                       : 'border-slate-300 text-slate-600 hover:border-slate-400'
@@ -327,7 +350,7 @@ export default function ReportLeadForm({
       </button>
 
       {status === 'error' && serverError && (
-        <p role="alert" aria-live="assertive" className="text-center text-xs text-red-400">
+        <p role="alert" aria-live="assertive" className={`text-center text-xs ${errorTone}`}>
           {serverError}
         </p>
       )}

@@ -78,7 +78,7 @@ export default function BlogPage() {
                 </div>
                 <div className="text-center">
                   <p className="text-sm font-semibold text-white">Christine Dekant</p>
-                  <p className="text-xs text-gold-400">REALTOR® · RENE · GRI · CLA</p>
+                  <p className="text-xs text-gold-200">REALTOR® · RENE · GRI · CLA</p>
                 </div>
               </div>
               {/* John */}
@@ -93,7 +93,7 @@ export default function BlogPage() {
                 </div>
                 <div className="text-center">
                   <p className="text-sm font-semibold text-white">John Oliver</p>
-                  <p className="text-xs text-gold-400">REALTOR® · ABR · RENE · RSPS · SRS</p>
+                  <p className="text-xs text-gold-200">REALTOR® · ABR · RENE · RSPS · SRS</p>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function BlogPage() {
                       aria-hidden
                       className="flex h-40 w-full items-end bg-gradient-to-br from-slate-100 via-slate-50 to-gold-50 p-5"
                     >
-                      <span className="font-serif text-lg font-semibold text-slate-400">
+                      <span className="font-serif text-lg font-semibold text-slate-500">
                         {post.cityName}
                       </span>
                     </div>

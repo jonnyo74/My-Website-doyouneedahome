@@ -31,7 +31,7 @@ export default function CommunityPage({
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <YlopoInit city={data.name} />
       <Breadcrumbs
         items={[
@@ -185,6 +185,6 @@ export default function CommunityPage({
           </a>
         </div>
       </section>
-    </main>
+    </div>
   )
 }

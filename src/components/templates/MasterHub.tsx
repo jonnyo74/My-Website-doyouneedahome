@@ -18,7 +18,7 @@ export default function MasterHub({ data, masterKey, citySlug }: { data: any; ma
   const subkeys = Object.keys(master.subcommunities || {})
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <YlopoInit city={data.name} />
       <Breadcrumbs
         items={[
@@ -142,6 +142,6 @@ export default function MasterHub({ data, masterKey, citySlug }: { data: any; ma
           </a>
         </div>
       </section>
-    </main>
+    </div>
   )
 }

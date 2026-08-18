@@ -12,8 +12,34 @@ export const revalidate = 60
 
 // Legacy hierarchy (/jupiter/gated-communities/...) superseded by flat
 // /communities/* pages — keep reachable URLs out of the index.
-export const metadata = {
-  robots: { index: false, follow: false },
+//
+// These still need a descriptive <title> (WCAG 2.4.2): without one every page
+// in this family inherited the generic site title, so a screen-reader user
+// with several tabs open could not tell them apart. noindex is unchanged, so
+// this has no bearing on search.
+export async function generateMetadata({ params }: { params: Promise<{ slug?: string[] }> }) {
+  const { slug: rawSlug } = await params
+  const slug = rawSlug ?? []
+  const city = (siteMap as any).cities?.[slug[0]]
+  const cityName = city?.name
+
+  let name: string | undefined
+  if (cityName && slug.length >= 2) {
+    const second = slug[1]
+    const third = slug[2]
+    name =
+      city.masters?.[second]?.subcommunities?.[third]?.name ??
+      city.categories?.[second]?.name ??
+      city.masters?.[second]?.name ??
+      city.communities?.[second]?.name ??
+      city.communities?.[third]?.name
+  }
+
+  const title = cityName
+    ? `${name ? `${name} — ` : ''}${cityName} Real Estate | DO Homes Group`
+    : 'DO Homes Group | Palm Beach County Real Estate'
+
+  return { title, robots: { index: false, follow: false } }
 }
 
 export default async function Page({ params }: { params: Promise<{ slug?: string[] }> }) {

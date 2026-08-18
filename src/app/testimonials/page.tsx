@@ -136,7 +136,7 @@ function AgentSection({
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 flex items-center gap-5 border-b border-slate-200 pb-6">
           <div className="relative h-14 w-14 flex-shrink-0 overflow-hidden rounded-2xl">
-            <Image src={photos[0]} alt={name} fill className="object-cover object-top" sizes="56px" />
+            <Image src={photos[0]} alt="" fill className="object-cover object-top" sizes="56px" />
           </div>
           <div>
             <h2 className="font-serif text-2xl font-semibold text-slate-900">{name}</h2>
@@ -154,6 +154,7 @@ function AgentSection({
                 className="flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white p-6 shadow-card"
               >
                 <div className="flex gap-1 text-amber-400">
+                  <span className="sr-only">Rated 5 out of 5 stars.</span>
                   {Array.from({ length: 5 }).map((_, j) => (
                     <svg key={j} width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -167,7 +168,7 @@ function AgentSection({
                     <p className="text-xs text-slate-500">{r.role}</p>
                   </div>
                   <div className="relative h-9 w-9 flex-shrink-0 overflow-hidden rounded-xl">
-                    <Image src={photo} alt={name} fill className="object-cover object-top" sizes="36px" />
+                    <Image src={photo} alt="" fill className="object-cover object-top" sizes="36px" />
                   </div>
                 </div>
               </div>

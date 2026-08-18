@@ -45,7 +45,7 @@ export default function DualReportCTA({
   return (
     <div className={className}>
       <div className="text-center">
-        <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-dark">
+        <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-text">
           Free {REPORT_EDITION} Market Intelligence
         </p>
         <h2 className="mt-2 font-serif text-3xl font-semibold text-slate-900 sm:text-4xl">{headline}</h2>
@@ -87,7 +87,7 @@ export default function DualReportCTA({
                 </li>
               ))}
             </ul>
-            <p className="mt-3 px-7 text-xs text-white/40">
+            <p className="mt-3 px-7 text-xs text-white/60">
               {report.dataMonth} Palm Beach County market data · {report.edition} edition
             </p>
             <div className="mt-auto p-7 pt-5">

@@ -143,7 +143,7 @@ export default function BuyPage() {
                 className="flex items-center justify-between rounded-2xl border border-slate-200 bg-white px-5 py-3.5 text-sm shadow-card transition hover:border-gold-500/40 hover:shadow-card-hover"
               >
                 <span className="font-medium text-slate-800">{city.name}</span>
-                <span className="text-xs text-slate-400">{city.region}</span>
+                <span className="text-xs text-slate-500">{city.region}</span>
               </Link>
             ))}
           </div>
@@ -153,11 +153,11 @@ export default function BuyPage() {
       {/* CTA */}
       <section className="bg-gradient-to-br from-gold-700 to-gold-500 px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-blue-100">Ready to Search?</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">Ready to Search?</p>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
             Start Your Home Search Today
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-blue-100">
+          <p className="mx-auto mt-4 max-w-xl text-white">
             Browse real-time MLS listings or call us directly — we respond the same day.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

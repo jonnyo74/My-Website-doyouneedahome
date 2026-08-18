@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useId } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
@@ -63,14 +63,10 @@ const slugifyRegion = (r: string) => r.toLowerCase().replace(/[^a-z0-9]+/g, '-')
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [commOpen, setCommOpen] = useState(false)
-  const [sellOpen, setSellOpen] = useState(false)
-  const [tcOpen, setTcOpen] = useState(false)
   // One open accordion at a time, so the menu always fits a phone screen.
   const [openSection, setOpenSection] = useState<string | null>(null)
-  const commTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
-  const sellTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
-  const tcTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const menuButtonRef = useRef<HTMLButtonElement>(null)
+  const mobilePanelRef = useRef<HTMLDivElement>(null)
   const pathname = usePathname()
 
   const closeMobile = () => {
@@ -87,27 +83,30 @@ export default function Header() {
   }, [pathname])
 
   // Lock the page behind the panel so scrolling the menu doesn't scroll the
-  // article underneath it.
+  // article underneath it. Escape closes it and hands focus back to the
+  // hamburger, so a keyboard user isn't dumped at the top of the document.
   useEffect(() => {
     if (!mobileOpen) return
     const previous = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') closeMobile()
+      if (e.key === 'Escape') {
+        closeMobile()
+        menuButtonRef.current?.focus()
+      }
     }
     window.addEventListener('keydown', onKey)
+    // Move focus into the panel so the next Tab walks the menu rather than
+    // continuing past it into the page behind.
+    mobilePanelRef.current?.focus()
     return () => {
       document.body.style.overflow = previous
       window.removeEventListener('keydown', onKey)
     }
   }, [mobileOpen])
 
-  const openComm = () => { if (commTimer.current) clearTimeout(commTimer.current); setCommOpen(true) }
-  const closeComm = () => { commTimer.current = setTimeout(() => setCommOpen(false), 200) }
-  const openSell = () => { if (sellTimer.current) clearTimeout(sellTimer.current); setSellOpen(true) }
-  const closeSell = () => { sellTimer.current = setTimeout(() => setSellOpen(false), 200) }
-  const openTc = () => { if (tcTimer.current) clearTimeout(tcTimer.current); setTcOpen(true) }
-  const closeTc = () => { tcTimer.current = setTimeout(() => setTcOpen(false), 200) }
+  // Marks the current page for screen readers without changing how it looks.
+  const current = (href: string) => (pathname === href ? ('page' as const) : undefined)
 
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 shadow-sm backdrop-blur-xl">
@@ -124,95 +123,83 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 lg:flex">
-          <Link href="/buy" className="text-sm font-medium text-slate-700 transition hover:text-gold-600">
+        <nav aria-label="Main" className="hidden items-center gap-6 lg:flex">
+          <Link
+            href="/buy"
+            aria-current={current('/buy')}
+            className="text-sm font-medium text-slate-700 transition hover:text-gold-600"
+          >
             Buy
           </Link>
 
-          <div
-            className="relative"
-            onMouseEnter={openSell}
-            onMouseLeave={closeSell}
-          >
-            <button className="flex items-center gap-1 text-sm font-medium text-slate-700 transition hover:text-gold-600">
-              Sell <ChevronIcon />
-            </button>
-            {sellOpen && (
-              <div className="absolute left-0 top-full mt-1 w-48 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
-                <DropLink href="/sell">Sell Your Home</DropLink>
-                <DropLink href="/sell#valuation">Get a Valuation</DropLink>
-                <DropLink href="/canadahomeseller">Canadian Sellers</DropLink>
-              </div>
-            )}
-          </div>
+          <NavDropdown label="Sell" panelClassName="absolute left-0 top-full mt-1 w-48 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
+            <DropLink href="/sell">Sell Your Home</DropLink>
+            <DropLink href="/sell#valuation">Get a Valuation</DropLink>
+            <DropLink href="/canadahomeseller">Canadian Sellers</DropLink>
+          </NavDropdown>
 
-          <div
-            className="relative"
-            onMouseEnter={openComm}
-            onMouseLeave={closeComm}
-          >
-            <button className="flex items-center gap-1 text-sm font-medium text-slate-700 transition hover:text-gold-600">
-              Communities <ChevronIcon />
-            </button>
-            {commOpen && (
-              <div className="absolute left-0 top-full mt-1 w-[480px] rounded-2xl border border-slate-200 bg-white p-4 shadow-lg">
-                <div className="grid grid-cols-2 gap-x-4">
-                  {communityGroups.map((group) => (
-                    <div key={group.label} className="mb-3">
-                      <p className="px-2 pb-1 pt-1 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-                        {group.label}
-                      </p>
-                      {group.cities.map((c) => (
-                        <DropLink key={c.slug} href={`/communities/${c.slug}`}>
-                          {c.name}
-                        </DropLink>
-                      ))}
-                    </div>
+          <NavDropdown label="Communities" panelClassName="absolute left-0 top-full mt-1 w-[480px] rounded-2xl border border-slate-200 bg-white p-4 shadow-lg">
+            <div className="grid grid-cols-2 gap-x-4">
+              {communityGroups.map((group) => (
+                <div key={group.label} className="mb-3">
+                  <p className="px-2 pb-1 pt-1 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
+                    {group.label}
+                  </p>
+                  {group.cities.map((c) => (
+                    <DropLink key={c.slug} href={`/communities/${c.slug}`}>
+                      {c.name}
+                    </DropLink>
                   ))}
                 </div>
+              ))}
+            </div>
 
-                {/* Treasure Coast — nested flyout */}
-                <div className="border-t border-slate-100 pt-2">
-                  <div
-                    className="relative"
-                    onMouseEnter={openTc}
-                    onMouseLeave={closeTc}
-                  >
-                    <button className="flex w-full items-center justify-between rounded-xl px-2 py-2 text-sm text-slate-700 transition hover:bg-slate-50 hover:text-gold-600">
-                      <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">Treasure Coast</span>
-                      <ChevronRightIcon />
-                    </button>
-                    {tcOpen && (
-                      <div className="absolute left-full top-0 ml-1 w-48 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
-                        {treasureCoastCities.map((c) => (
-                          <DropLink key={c.slug} href={`/communities/${c.slug}`}>
-                            {c.name}
-                          </DropLink>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                </div>
+            {/* Treasure Coast — nested flyout */}
+            <div className="border-t border-slate-100 pt-2">
+              <NavDropdown
+                label={<span className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">Treasure Coast</span>}
+                accessibleLabel="Treasure Coast"
+                icon={<ChevronRightIcon />}
+                buttonClassName="flex w-full items-center justify-between rounded-xl px-2 py-2 text-sm text-slate-700 transition hover:bg-slate-50 hover:text-gold-600"
+                panelClassName="absolute left-full top-0 ml-1 w-48 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg"
+              >
+                {treasureCoastCities.map((c) => (
+                  <DropLink key={c.slug} href={`/communities/${c.slug}`}>
+                    {c.name}
+                  </DropLink>
+                ))}
+              </NavDropdown>
+            </div>
 
-                <div className="border-t border-slate-100 pt-2">
-                  <Link
-                    href="/communities"
-                    className="block rounded-xl px-2 py-2 text-sm font-semibold text-gold-600 transition hover:bg-slate-50"
-                  >
-                    All Communities →
-                  </Link>
-                </div>
-              </div>
-            )}
-          </div>
+            <div className="border-t border-slate-100 pt-2">
+              <Link
+                href="/communities"
+                className="block rounded-xl px-2 py-2 text-sm font-semibold text-gold-600 transition hover:bg-slate-50"
+              >
+                All Communities →
+              </Link>
+            </div>
+          </NavDropdown>
 
-          <Link href="/team" className="text-sm font-medium text-slate-700 transition hover:text-gold-600">
+          <Link
+            href="/team"
+            aria-current={current('/team')}
+            className="text-sm font-medium text-slate-700 transition hover:text-gold-600"
+          >
             Team
           </Link>
-          <Link href="/testimonials" className="text-sm font-medium text-slate-700 transition hover:text-gold-600">
+          <Link
+            href="/testimonials"
+            aria-current={current('/testimonials')}
+            className="text-sm font-medium text-slate-700 transition hover:text-gold-600"
+          >
             Testimonials
           </Link>
-          <Link href="/blog" className="text-sm font-medium text-slate-700 transition hover:text-gold-600">
+          <Link
+            href="/blog"
+            aria-current={current('/blog')}
+            className="text-sm font-medium text-slate-700 transition hover:text-gold-600"
+          >
             Blog
           </Link>
         </nav>
@@ -235,6 +222,8 @@ export default function Header() {
         </div>
 
         <button
+          ref={menuButtonRef}
+          type="button"
           className="-mr-1 p-2 text-slate-700 lg:hidden"
           onClick={() => (mobileOpen ? closeMobile() : setMobileOpen(true))}
           aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
@@ -248,7 +237,9 @@ export default function Header() {
       {mobileOpen && (
         <div
           id="mobile-menu"
-          className="max-h-[calc(100dvh-4.5rem)] overflow-y-auto overscroll-contain border-t border-slate-200 bg-white pb-8 lg:hidden"
+          ref={mobilePanelRef}
+          tabIndex={-1}
+          className="max-h-[calc(100dvh-4.5rem)] overflow-y-auto overscroll-contain border-t border-slate-200 bg-white pb-8 focus:outline-none lg:hidden"
         >
           {/* Primary action first — most people opening this on a phone want listings. */}
           <div className="px-4 pb-2 pt-4">
@@ -263,7 +254,7 @@ export default function Header() {
             </a>
           </div>
 
-          <nav className="px-2">
+          <nav aria-label="Mobile" className="px-2">
             <MobileRow href="/buy" close={closeMobile}>Buy</MobileRow>
 
             <MobileSection id="sell" label="Sell" openSection={openSection} setOpenSection={setOpenSection}>
@@ -282,7 +273,7 @@ export default function Header() {
             >
               {mobileCommunityGroups.map((group) => (
                 <div key={group.label} className="pb-1">
-                  <p className="px-4 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-widest text-slate-400">
+                  <p className="px-4 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-widest text-slate-500">
                     {group.label}
                   </p>
                   {group.cities.map((c) => (
@@ -339,6 +330,91 @@ export default function Header() {
   )
 }
 
+/**
+ * Desktop nav dropdown.
+ *
+ * The original opened on hover only, with a <button> that had no click
+ * handler — so the Sell and Communities menus (and every city link inside
+ * them) were unreachable without a mouse. Hover behaviour is unchanged;
+ * click now toggles, Escape closes and returns focus to the trigger, and
+ * tabbing out of the group closes it. Nested dropdowns stop Escape from
+ * bubbling so it only closes one level at a time.
+ */
+function NavDropdown({
+  label,
+  accessibleLabel,
+  icon,
+  buttonClassName = 'flex items-center gap-1 text-sm font-medium text-slate-700 transition hover:text-gold-600',
+  panelClassName,
+  children,
+}: {
+  label: React.ReactNode
+  /** Needed when `label` is markup rather than plain text. */
+  accessibleLabel?: string
+  icon?: React.ReactNode
+  buttonClassName?: string
+  panelClassName: string
+  children: React.ReactNode
+}) {
+  const [open, setOpen] = useState(false)
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const buttonRef = useRef<HTMLButtonElement>(null)
+  const panelId = `nav-dropdown-${useId()}`
+
+  const openNow = () => {
+    if (timer.current) clearTimeout(timer.current)
+    setOpen(true)
+  }
+  const closeSoon = () => {
+    timer.current = setTimeout(() => setOpen(false), 200)
+  }
+
+  return (
+    // The interactive control here is the real <button> below; this wrapper
+    // only widens the hover target so the panel doesn't snap shut as the
+    // pointer travels from the trigger into it. Keyboard users operate the
+    // button and Escape, both handled natively.
+    // eslint-disable-next-line jsx-a11y/no-static-element-interactions
+    <div
+      className="relative"
+      onMouseEnter={openNow}
+      onMouseLeave={closeSoon}
+      onKeyDown={(e) => {
+        if (e.key === 'Escape' && open) {
+          e.stopPropagation()
+          setOpen(false)
+          buttonRef.current?.focus()
+        }
+      }}
+      onBlur={(e) => {
+        // Only close when focus leaves the group entirely — moving between
+        // the trigger and the links inside it must not dismiss the panel.
+        if (!e.currentTarget.contains(e.relatedTarget as Node | null)) {
+          if (timer.current) clearTimeout(timer.current)
+          setOpen(false)
+        }
+      }}
+    >
+      <button
+        ref={buttonRef}
+        type="button"
+        aria-expanded={open}
+        aria-controls={panelId}
+        aria-label={accessibleLabel}
+        onClick={() => setOpen((v) => !v)}
+        className={buttonClassName}
+      >
+        {label} {icon ?? <ChevronIcon />}
+      </button>
+      {open && (
+        <div id={panelId} className={panelClassName}>
+          {children}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function MobileSection({
   id,
   label,
@@ -356,6 +432,7 @@ function MobileSection({
   return (
     <div className="border-b border-slate-100 last:border-b-0">
       <button
+        type="button"
         onClick={() => setOpenSection(open ? null : id)}
         aria-expanded={open}
         aria-controls={`mobile-section-${id}`}

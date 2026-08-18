@@ -30,7 +30,7 @@ export default function SubCommunity({
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <YlopoInit city={data.name} />
       <Breadcrumbs
         items={[
@@ -192,6 +192,6 @@ export default function SubCommunity({
           </a>
         </div>
       </section>
-    </main>
+    </div>
   )
 }

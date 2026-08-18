@@ -204,11 +204,11 @@ export default function CanadaHomeSellerPage() {
       {/* CTA */}
       <section className="bg-gradient-to-br from-gold-700 to-gold-500 px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-blue-100">Ready to Talk?</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">Ready to Talk?</p>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
             Let's Figure Out Your Best Move
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-blue-100">
+          <p className="mx-auto mt-4 max-w-xl text-white">
             No pressure, no commitment. Tell us about your property and we'll walk you through
             exactly what a sale would look like — timeline, taxes, net proceeds, and all.
           </p>

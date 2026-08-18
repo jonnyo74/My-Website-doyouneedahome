@@ -75,10 +75,10 @@ export default function MarketReportLanding({
       {/* ── Hero + form ─────────────────────────────────────────────── */}
       <section className="bg-navy-950 px-6 py-14 sm:px-8 sm:py-20">
         <div className="mx-auto max-w-7xl">
-          <nav className="mb-8 flex items-center gap-2 text-xs text-white/50">
+          <nav aria-label="Breadcrumb" className="mb-8 flex items-center gap-2 text-xs text-white/50">
             <Link href="/" className="transition hover:text-white">Home</Link>
-            <span>/</span>
-            <span className="text-white/80">{report.shortTitle}</span>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page" className="text-white/80">{report.shortTitle}</span>
           </nav>
 
           <div className="grid gap-12 lg:grid-cols-[1fr_400px] lg:items-start">
@@ -108,10 +108,10 @@ export default function MarketReportLanding({
                       <p className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-white/70">
                         {stat.label}
                       </p>
-                      {stat.sub && <p className="mt-1 text-xs text-white/40">{stat.sub}</p>}
+                      {stat.sub && <p className="mt-1 text-xs text-white/60">{stat.sub}</p>}
                     </div>
                   ))}
-                  <p className="col-span-2 text-xs leading-5 text-white/40">
+                  <p className="col-span-2 text-xs leading-5 text-white/60">
                     {report.dataMonth} Palm Beach County market data (BeachesMLS), published in the{' '}
                     {report.edition} report.
                   </p>
@@ -150,7 +150,7 @@ export default function MarketReportLanding({
       {/* ── Market commentary (crawlable) ───────────────────────────── */}
       <section className="px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-dark">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-text">
             {report.dataMonth} at a Glance
           </p>
           <h2 className="mt-2 font-serif text-3xl font-semibold text-slate-900">
@@ -164,7 +164,7 @@ export default function MarketReportLanding({
           <ul className="mt-5 space-y-3">
             {report.takeaways.map((t) => (
               <li key={t} className="flex items-start gap-3">
-                <span className="mt-1 flex-shrink-0 text-report-gold-dark" aria-hidden="true">
+                <span className="mt-1 flex-shrink-0 text-report-gold-text" aria-hidden="true">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
                     <path d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3-3a1 1 0 1 1 1.414-1.414L6 9.808l6.293-6.293a1 1 0 0 1 1.192 0z" />
                   </svg>
@@ -173,7 +173,7 @@ export default function MarketReportLanding({
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-xs text-slate-400">
+          <p className="mt-4 text-xs text-slate-500">
             Statistics are {report.dataMonth} Palm Beach County market data from BeachesMLS, published
             in the {report.edition} report. The full PDF includes the complete year-over-year table and
             our buyer and seller guidance.
@@ -189,26 +189,26 @@ export default function MarketReportLanding({
           </h2>
           <div className="mt-10 grid gap-8 md:grid-cols-2">
             <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-card">
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-report-gold-dark">
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-report-gold-text">
                 If You&rsquo;re Buying
               </p>
               <ul className="mt-5 space-y-4">
                 {report.buyerPoints.map((p) => (
                   <li key={p} className="flex items-start gap-3 text-sm leading-7 text-slate-600">
-                    <span className="mt-0.5 flex-shrink-0 text-report-gold-dark" aria-hidden="true">✦</span>
+                    <span className="mt-0.5 flex-shrink-0 text-report-gold-text" aria-hidden="true">✦</span>
                     {p}
                   </li>
                 ))}
               </ul>
             </div>
             <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-card">
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-report-gold-dark">
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-report-gold-text">
                 If You&rsquo;re Selling
               </p>
               <ul className="mt-5 space-y-4">
                 {report.sellerPoints.map((p) => (
                   <li key={p} className="flex items-start gap-3 text-sm leading-7 text-slate-600">
-                    <span className="mt-0.5 flex-shrink-0 text-report-gold-dark" aria-hidden="true">✦</span>
+                    <span className="mt-0.5 flex-shrink-0 text-report-gold-text" aria-hidden="true">✦</span>
                     {p}
                   </li>
                 ))}
@@ -222,7 +222,7 @@ export default function MarketReportLanding({
             >
               Download the Free Report
             </a>
-            <p className="mt-3 text-xs text-slate-400">
+            <p className="mt-3 text-xs text-slate-500">
               Download immediately after completing the form · No obligation
             </p>
           </div>
@@ -243,14 +243,14 @@ export default function MarketReportLanding({
                     <Image src={agent.src} alt={agent.name} fill className="object-cover object-top" sizes="128px" />
                   </div>
                   <p className="mt-3 text-sm font-semibold text-slate-900">{agent.name}</p>
-                  <p className="mx-auto mt-0.5 max-w-[9rem] text-[11px] leading-4 text-report-gold-dark">
+                  <p className="mx-auto mt-0.5 max-w-[9rem] text-[11px] leading-4 text-report-gold-text">
                     {agent.creds}
                   </p>
                 </div>
               ))}
             </div>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-dark">
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-text">
                 Prepared by
               </p>
               <h2 className="mt-2 font-serif text-3xl font-semibold text-slate-900">
@@ -327,7 +327,7 @@ export default function MarketReportLanding({
           </div>
 
           <div className="mt-12">
-            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-dark">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-text">
               Keep Exploring
             </p>
             <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">

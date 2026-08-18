@@ -25,7 +25,7 @@ export default function CityHub({
   const photos = cityData?.photos?.filter(Boolean) ?? []
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <YlopoInit city={data.name} />
       <Breadcrumbs items={[{ label: data.name, href: `/${cityKey}` }]} />
 
@@ -61,7 +61,7 @@ export default function CityHub({
               <div className="mt-10 grid gap-4 sm:grid-cols-2">
                 {cityData.quickFacts.map((fact) => (
                   <div key={fact.label} className="rounded-lg border border-gray-200 p-5">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">{fact.label}</p>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">{fact.label}</p>
                     <p className="mt-1 text-sm text-gray-700">{fact.value}</p>
                   </div>
                 ))}
@@ -118,7 +118,7 @@ export default function CityHub({
                 <div key={i} className="aspect-[4/3] overflow-hidden rounded-lg bg-gray-200">
                   <img
                     src={src}
-                    alt={`${data.name} real estate — photo ${i + 1}`}
+                    alt={`${data.name}, Florida`}
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -175,7 +175,7 @@ export default function CityHub({
                       href={`/${cityKey}/${category}/${key}`}
                       className="mt-4 inline-block text-sm font-medium text-blue-600 hover:text-blue-700"
                     >
-                      Learn More →
+                      Learn More<span className="sr-only"> about {community.name}</span> →
                     </Link>
                   </div>
                 )
@@ -247,6 +247,6 @@ export default function CityHub({
           </div>
         </div>
       </section>
-    </main>
+    </div>
   )
 }

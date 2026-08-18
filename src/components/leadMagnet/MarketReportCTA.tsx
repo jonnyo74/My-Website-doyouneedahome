@@ -125,7 +125,7 @@ export default function MarketReportCTA({
           >
             {buttonLabel ?? 'Download the Free Report'}
           </button>
-          <p className="mt-3 text-center text-[11px] text-white/40">
+          <p className="mt-3 text-center text-[11px] text-white/60">
             Instant download · No obligation
           </p>
         </div>
@@ -168,7 +168,7 @@ export default function MarketReportCTA({
             >
               {buttonLabel ?? 'Get Instant Access'}
             </button>
-            <p className="mt-3 text-xs text-white/40">
+            <p className="mt-3 text-xs text-white/60">
               Free instant PDF · Updated with the latest Palm Beach County market data
             </p>
           </div>

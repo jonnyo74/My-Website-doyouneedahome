@@ -37,7 +37,7 @@ export default function Home() {
   const activeListings = getActiveListings()
 
   return (
-    <main>
+    <>
       {/* ── Hero ──────────────────────────────────────────────────── */}
       <section className="relative min-h-[88vh] overflow-hidden bg-slate-900">
         {/* Background photo */}
@@ -54,7 +54,10 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-6 pt-28 pb-20 sm:px-8 sm:pt-36 sm:pb-28">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div className="space-y-8">
-              <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-400">
+              {/* gold-200 not gold-400: measured against the hero photo under
+                  its overlay, gold-400 drops below 4.5:1 across ~40% of the
+                  area this line covers. gold-200 clears it everywhere. */}
+              <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-200">
                 Premier Brokers International
               </p>
               <h1 className="font-serif text-5xl font-semibold leading-tight text-white sm:text-6xl">
@@ -179,7 +182,7 @@ export default function Home() {
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
               Palm Beach County
             </p>
-            <Link href="/communities" className="text-xs font-semibold text-slate-400 transition hover:text-gold-600">
+            <Link href="/communities" className="text-xs font-semibold text-slate-500 transition hover:text-gold-600">
               Explore communities →
             </Link>
           </div>
@@ -298,6 +301,7 @@ export default function Home() {
             {testimonials.map((t) => (
               <div key={t.author} className="flex flex-col gap-5 rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
                 <div className="flex gap-1 text-amber-400">
+                  <span className="sr-only">Rated 5 out of 5 stars.</span>
                   {Array.from({ length: 5 }).map((_, i) => (
                     <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -321,12 +325,14 @@ export default function Home() {
       {/* ── Bottom CTA ───────────────────────────────────────────── */}
       <section className="bg-white px-6 py-20 sm:px-8">
         <div className="mx-auto max-w-7xl">
-          <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-gold-700 to-gold-500 p-10 text-center shadow-lg">
-            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-blue-200">Get Started</p>
+          {/* Ends on gold-600 rather than gold-500: the pale blue copy below
+              only clears 4.5:1 against the darker end of the gradient. */}
+          <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-gold-700 to-gold-600 p-10 text-center shadow-lg">
+            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">Get Started</p>
             <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
               Ready to Make Your Move?
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-blue-100">
+            <p className="mx-auto mt-4 max-w-xl text-white">
               Call us at (561) 783-7733 or send a message — we respond the same day.
             </p>
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -346,7 +352,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
+    </>
   )
 }
 
@@ -366,13 +372,16 @@ function CtaCard({
         <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
         <p className="mt-2 text-sm leading-6 text-slate-600">{body}</p>
       </div>
+      {/* The card heading is a sibling, not part of the link, so on its own
+          "Learn More" tells a screen-reader user nothing about where it goes.
+          The hidden suffix carries the card title into the link's name. */}
       {external ? (
         <a href={href} target="_blank" rel="noopener noreferrer" className={`inline-flex text-sm font-semibold transition ${ctaColor}`}>
-          {cta} →
+          {cta}<span className="sr-only"> — {title}</span> →
         </a>
       ) : (
         <a href={href} className={`inline-flex text-sm font-semibold transition ${ctaColor}`}>
-          {cta} →
+          {cta}<span className="sr-only"> — {title}</span> →
         </a>
       )}
     </div>
@@ -391,11 +400,14 @@ function AgentCard({
         <p className="mt-0.5 text-xs font-medium text-gold-600">REALTOR®</p>
       </div>
       <p className="text-xs text-slate-500">{credentials}</p>
-      <div className="space-y-1 border-t border-slate-200 pt-3">
-        <a href={phoneHref} className="block text-sm text-slate-700 transition hover:text-gold-600">
+      {/* py-1 on each link: stacked 16–20px text links sat ~22px apart, which
+          misses both the 24px target size and the 24px spacing exception
+          (WCAG 2.2 — 2.5.8). Padding absorbs it without moving anything. */}
+      <div className="border-t border-slate-200 pt-2">
+        <a href={phoneHref} className="block py-1 text-sm text-slate-700 transition hover:text-gold-600">
           {phone}
         </a>
-        <a href={`mailto:${email}`} className="block truncate text-xs text-slate-500 transition hover:text-gold-600">
+        <a href={`mailto:${email}`} className="block truncate py-1 text-xs text-slate-500 transition hover:text-gold-600">
           {email}
         </a>
       </div>

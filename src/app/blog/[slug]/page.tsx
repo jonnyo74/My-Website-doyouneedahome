@@ -131,23 +131,23 @@ export default async function ArticlePage({ params }: Props) {
         <section className="relative h-[52vh] min-h-[380px] overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={article.heroImage} alt={article.h1} className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
           {article.heroImageCredit && (
-            <span className="absolute bottom-2 right-3 text-[10px] text-white/40">{article.heroImageCredit}</span>
+            <span className="absolute bottom-2 right-3 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/80">{article.heroImageCredit}</span>
           )}
           <div className="absolute inset-0 flex flex-col justify-end px-6 pb-10 sm:px-8">
             <div className="mx-auto w-full max-w-3xl">
-              <nav className="mb-4 flex items-center gap-2 text-xs text-white/70">
+              <nav aria-label="Breadcrumb" className="mb-4 flex items-center gap-2 text-xs text-white/80">
                 <Link href="/" className="hover:text-white">Home</Link>
-                <span>/</span>
+                <span aria-hidden="true">/</span>
                 <Link href="/blog" className="hover:text-white">Blog</Link>
-                <span>/</span>
+                <span aria-hidden="true">/</span>
                 {community ? (
                   <Link href={`/communities/${community.slug}`} className="text-white/90 hover:text-white">
                     {article.cityName}
                   </Link>
                 ) : (
-                  <span className="text-white/90">{article.cityName}</span>
+                  <span aria-current="page" className="text-white/90">{article.cityName}</span>
                 )}
               </nav>
               <h1 className="font-serif text-3xl font-semibold text-white sm:text-4xl">{article.h1}</h1>
@@ -317,7 +317,7 @@ export default async function ArticlePage({ params }: Props) {
 
         {/* Disclaimer — every article */}
         <div className="mt-12 border-t border-slate-100 pt-6">
-          <p className="text-xs italic leading-relaxed text-slate-400">
+          <p className="text-xs italic leading-relaxed text-slate-500">
             This article is provided by DO Homes Group at Premier Brokers International for informational
             purposes only and does not constitute legal, financial, tax, or investment advice. Market
             statistics, pricing, availability, HOA fees, and community details change frequently and may

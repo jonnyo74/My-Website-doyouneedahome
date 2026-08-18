@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import SiteLeadMagnets from '@/components/leadMagnet/SiteLeadMagnets'
+import ThirdPartyFrameTitles from '@/components/ThirdPartyFrameTitles'
 import { SITE_URL } from '@/lib/site'
 import './globals.css'
 
@@ -51,10 +52,25 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex min-w-0 flex-col bg-white">
+        {/* Bypass block (WCAG 2.4.1). Off-screen until focused, then the
+            first thing a keyboard user lands on. tabIndex on <main> is what
+            actually moves focus — without it the browser only scrolls. */}
+        <a
+          href="#main-content"
+          className="sr-only rounded-full focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:bg-gold-600 focus:px-5 focus:py-3 focus:text-sm focus:font-semibold focus:text-white focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
         <Header />
-        <div className="flex-1">{children}</div>
+        {/* The site's single <main> landmark. Pages render their own
+            sections inside it rather than each declaring a <main>, so the
+            landmark is guaranteed present and unique on every route. */}
+        <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
+          {children}
+        </main>
         <Footer />
         <SiteLeadMagnets />
+        <ThirdPartyFrameTitles />
         <Analytics />
       </body>
       <Script

@@ -12,19 +12,29 @@
   --color-gold-200: #BAE0FD;
   --color-gold-300: #93CDEF;
   --color-gold-400: #4AAEE8;
-  --color-gold-500: #1E7FC2;
+  /* gold-500 is the primary button fill. It was #1E7FC2, which put white button
+     text at 4.31:1 — just under the 4.5:1 AA floor for normal text. One step
+     darker clears it (4.70:1) without visibly changing the brand blue. */
+  --color-gold-500: #1A79B8;
   --color-gold-600: #1561A0;
   --color-gold-700: #0E4A82;
 
-  /* Brand green — from logo (.com and palm trees) */
+  /* Brand green — from logo (.com and palm trees).
+     brand-green-dark is the text tone. It was #2E9436, which reads at 3.88:1 on
+     white; #2A8630 reaches 4.69:1. brand-green stays as-is — it is only ever a
+     border or a hover target, never body text. */
   --color-brand-green: #3BB543;
-  --color-brand-green-dark: #2E9436;
+  --color-brand-green-dark: #2A8630;
 
   /* Report gold — matches the market-report cover artwork (navy/white/gold).
      Note --color-gold-* above is the brand BLUE; these are true gold. */
   --color-report-gold: #C9A961;
   --color-report-gold-light: #E3CD97;
   --color-report-gold-dark: #B08F47;
+  /* Text-on-white variant. report-gold-dark is tuned as a button-hover fill and
+     only reaches 3.05:1 against white, so it cannot carry small text; this one
+     clears AA at 4.83:1. Buttons keep report-gold-dark and their exact look. */
+  --color-report-gold-text: #8A6E33;
 
   /* Fonts */
   --font-serif: var(--font-playfair), Georgia, serif;
@@ -39,4 +49,56 @@ body {
   background: white;
   color: #1a3a5f;
   font-family: var(--font-sans);
+}
+
+/* ── Accessibility ─────────────────────────────────────────────
+   Baseline keyboard focus indicator. Brand blue clears 3:1 against
+   both white (4.31:1) and navy-950 (4.22:1), so one colour covers the
+   light pages and the dark footer/modals. Components that set
+   `focus:outline-none` alongside their own ring win on specificity and
+   keep their bespoke indicator; everything else falls back to this. */
+:focus-visible {
+  outline: 3px solid var(--color-gold-500);
+  outline-offset: 2px;
+}
+
+/* Radio/checkbox inputs hidden with .sr-only put focus on an invisible
+   1px box — the styled <label> wrapping them has to show the ring
+   instead, or keyboard users can't tell which option they're on. */
+label:has(> input.sr-only:focus-visible) {
+  outline: 3px solid var(--color-gold-500);
+  outline-offset: 2px;
+}
+
+/* Fallback for engines without :has(). The radio is the label's only
+   focusable child, so :focus-within is equivalent here — it just also fires
+   on mouse click, which is harmless for a control with no visible box. */
+@supports not selector(:has(*)) {
+  label:focus-within {
+    outline: 3px solid var(--color-gold-500);
+    outline-offset: 2px;
+  }
+}
+
+/* Leaflet ships its attribution links ("Leaflet | © OpenStreetMap
+   contributors") distinguished from the surrounding text by colour alone,
+   which fails 1.4.1 Use of Colour. Their stylesheet is vendor code loaded
+   from a CDN, but we can underline them from ours. */
+.leaflet-control-attribution a {
+  text-decoration: underline;
+}
+
+/* WCAG 2.2 — 2.3.3 Animation from Interactions. Every transition on
+   this site is decorative (hover lifts, crossfades, card scales), so
+   they can all stand down. JS-driven motion honours the same query
+   via matchMedia where CSS can't reach it. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

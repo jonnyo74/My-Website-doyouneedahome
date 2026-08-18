@@ -64,17 +64,24 @@ export default function TransportMap({ lat, lng, cityName }: TransportMapProps) 
         iconSize: [13, 13],
         iconAnchor: [6, 6],
       })
-      L.marker([lat, lng], { icon: communityIcon }).addTo(map).bindPopup(`<strong>${cityName}</strong>`)
+      // Leaflet makes every marker keyboard-focusable. A divIcon marker has no
+      // text of its own, so without `title`/`alt` each one reads as a bare
+      // "button" — `title` also gives sighted mouse users the same hover label.
+      L.marker([lat, lng], { icon: communityIcon, title: cityName, alt: cityName })
+        .addTo(map)
+        .bindPopup(`<strong>${cityName}</strong>`)
 
       // Transport markers
       TRANSPORT_HUBS.forEach((hub) => {
         const icon = L.divIcon({
-          html: `<div style="background:${colors[hub.type]};color:white;font-size:10px;padding:2px 5px;border-radius:4px;white-space:nowrap;box-shadow:0 2px 4px rgba(0,0,0,0.3);font-weight:700">${hub.emoji}</div>`,
+          html: `<div aria-hidden="true" style="background:${colors[hub.type]};color:white;font-size:10px;padding:2px 5px;border-radius:4px;white-space:nowrap;box-shadow:0 2px 4px rgba(0,0,0,0.3);font-weight:700">${hub.emoji}</div>`,
           className: '',
           iconSize: [22, 18],
           iconAnchor: [11, 9],
         })
-        L.marker([hub.lat, hub.lng], { icon }).addTo(map).bindPopup(`<strong>${hub.name}</strong>`)
+        L.marker([hub.lat, hub.lng], { icon, title: hub.name, alt: hub.name })
+          .addTo(map)
+          .bindPopup(`<strong>${hub.name}</strong>`)
       })
     }
 
@@ -98,13 +105,21 @@ export default function TransportMap({ lat, lng, cityName }: TransportMapProps) 
 
   return (
     <div className="space-y-3">
-      <div className="flex flex-wrap gap-4 text-xs text-slate-500">
-        <span className="flex items-center gap-1.5"><span className="inline-block h-3 w-3 rounded-full bg-gold-500"></span>{cityName}</span>
-        <span className="flex items-center gap-1.5"><span className="inline-block h-3 w-3 rounded bg-blue-800"></span>Airport</span>
-        <span className="flex items-center gap-1.5"><span className="inline-block h-3 w-3 rounded bg-violet-700"></span>Brightline</span>
-        <span className="flex items-center gap-1.5"><span className="inline-block h-3 w-3 rounded bg-emerald-800"></span>Tri-Rail</span>
-      </div>
-      <div ref={mapRef} className="h-[420px] w-full overflow-hidden rounded-2xl border border-slate-200" />
+      <ul className="flex flex-wrap gap-4 text-xs text-slate-500">
+        <li className="flex items-center gap-1.5"><span aria-hidden="true" className="inline-block h-3 w-3 rounded-full bg-gold-500"></span>{cityName}</li>
+        <li className="flex items-center gap-1.5"><span aria-hidden="true" className="inline-block h-3 w-3 rounded bg-blue-800"></span>Airport</li>
+        <li className="flex items-center gap-1.5"><span aria-hidden="true" className="inline-block h-3 w-3 rounded bg-violet-700"></span>Brightline</li>
+        <li className="flex items-center gap-1.5"><span aria-hidden="true" className="inline-block h-3 w-3 rounded bg-emerald-800"></span>Tri-Rail</li>
+      </ul>
+      {/* The map is a supplementary view of the hub list below it, not the only
+          route to that information — the airports and rail stations are named
+          in the surrounding page copy. */}
+      <div
+        ref={mapRef}
+        role="application"
+        aria-label={`Map of ${cityName} showing nearby airports, Brightline stations, and Tri-Rail stations`}
+        className="h-[420px] w-full overflow-hidden rounded-2xl border border-slate-200"
+      />
     </div>
   )
 }

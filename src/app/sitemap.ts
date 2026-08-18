@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog`, changeFrequency: 'weekly', priority: 0.6 },
     { url: `${BASE}/testimonials`, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE}/accessibility`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/canadahomeseller`, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/palm-beach-county-single-family-home-market-report`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/palm-beach-county-condo-townhome-market-report`, changeFrequency: 'monthly', priority: 0.8 },

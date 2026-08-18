@@ -160,7 +160,7 @@ export default function Prose({ content, className = '' }: { content: string; cl
             <figcaption className="mt-3 text-center text-sm italic leading-6 text-slate-500">
               {caption}
               {credit && (
-                <span className="mt-1 block text-xs not-italic text-slate-400">{credit}</span>
+                <span className="mt-1 block text-xs not-italic text-slate-500">{credit}</span>
               )}
             </figcaption>
           )}

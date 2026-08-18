@@ -24,12 +24,29 @@ export default function ListingCard({ listing }: { listing: Listing; index?: num
   const [active, setActive] = useState(0)
   const intervalMs = cardRotationMs(listing.slug)
 
+  // The crossfade already stands down under prefers-reduced-motion via
+  // motion-reduce:transition-none, but the photos kept swapping regardless —
+  // a hard cut is arguably worse than the fade. Freeze the rotation entirely
+  // for anyone who asked for reduced motion (WCAG 2.3.3), and stay on the
+  // hero shot, which is the one the card is meant to lead with.
   useEffect(() => {
     if (photos.length <= 1) return
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)')
+    if (reduced.matches) return
     const id = setInterval(() => {
       setActive((i) => (i + 1) % photos.length)
     }, intervalMs)
-    return () => clearInterval(id)
+    const onChange = () => {
+      if (reduced.matches) {
+        clearInterval(id)
+        setActive(0)
+      }
+    }
+    reduced.addEventListener('change', onChange)
+    return () => {
+      clearInterval(id)
+      reduced.removeEventListener('change', onChange)
+    }
   }, [photos.length, intervalMs])
 
   return (
@@ -44,8 +61,11 @@ export default function ListingCard({ listing }: { listing: Listing; index?: num
             // eslint-disable-next-line @next/next/no-img-element
             <img
               key={photo.src}
+              // All three frames sit in the DOM at once, so three alt strings
+              // would land in this link's accessible name. Only the lead photo
+              // describes the card; the rotation is presentational.
+              alt={i === 0 ? photo.alt : ''}
               src={photo.src}
-              alt={photo.alt}
               // Crossfade plus a slow settle out of a 4% overscan, so the
               // incoming photo drifts in rather than snapping into place.
               className={`absolute inset-0 h-full w-full object-cover transition-[opacity,transform] duration-[1400ms] ease-out motion-reduce:transition-none ${

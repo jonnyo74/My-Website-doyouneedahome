@@ -95,7 +95,7 @@ export default function TeamPage() {
                   </div>
 
                   <div className="space-y-2 border-t border-slate-100 pt-5 text-sm">
-                    <p className="text-slate-400">License #{agent.license}</p>
+                    <p className="text-slate-500">License #{agent.license}</p>
                     <a href={agent.phoneHref} className="block text-slate-700 transition hover:text-gold-600">
                       {agent.phone}
                     </a>

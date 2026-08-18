@@ -24,7 +24,7 @@ export default function CategoryPage({
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <YlopoInit city={data.name} />
       <Breadcrumbs
         items={[
@@ -63,7 +63,7 @@ export default function CategoryPage({
                     href={`/${cityKey}/${categoryKey}/${slug}`}
                     className="mt-4 inline-block text-sm font-medium text-blue-600 hover:text-blue-700"
                   >
-                    View Community →
+                    View Community<span className="sr-only"> — {community.name}</span> →
                   </Link>
                 </div>
               )
@@ -134,6 +134,6 @@ export default function CategoryPage({
           </a>
         </div>
       </section>
-    </main>
+    </div>
   )
 }

@@ -123,32 +123,32 @@ export default async function CommunityPage({ params }: Props) {
             className="h-full w-full object-cover"
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
           {community.photoCredits?.[0] && (
-            <span className="absolute bottom-2 right-3 text-[10px] text-white/40">{community.photoCredits[0]}</span>
+            <span className="absolute bottom-2 right-3 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/80">{community.photoCredits[0]}</span>
           )}
 
           {/* Content */}
           <div className="absolute inset-0 flex flex-col justify-end px-6 pb-12 sm:px-8">
             <div className="mx-auto w-full max-w-7xl">
               {/* Breadcrumb */}
-              <nav className="mb-5 flex items-center gap-2 text-xs text-white/60">
+              <nav aria-label="Breadcrumb" className="mb-5 flex items-center gap-2 text-xs text-white/80">
                 <Link href="/" className="transition hover:text-white">Home</Link>
-                <span>/</span>
+                <span aria-hidden="true">/</span>
                 <Link href="/communities" className="transition hover:text-white">Communities</Link>
                 {parentCity && (
                   <>
-                    <span>/</span>
+                    <span aria-hidden="true">/</span>
                     <Link href={`/communities/${parentCity.slug}`} className="transition hover:text-white">
                       {parentCity.name}
                     </Link>
                   </>
                 )}
-                <span>/</span>
-                <span className="text-white/90">{community.name}</span>
+                <span aria-hidden="true">/</span>
+                <span aria-current="page" className="text-white/90">{community.name}</span>
               </nav>
 
-              <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-400">
+              <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-200">
                 {community.type} · {community.region}
               </p>
               <h1 className="mt-2 font-serif text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
@@ -180,20 +180,20 @@ export default async function CommunityPage({ params }: Props) {
         <section className="bg-gradient-to-br from-sky-50 via-blue-50 to-white px-6 py-16 sm:px-8 sm:py-20">
           <div className="mx-auto max-w-7xl">
             {/* Breadcrumb */}
-            <nav className="mb-6 flex items-center gap-2 text-xs text-slate-500">
+            <nav aria-label="Breadcrumb" className="mb-6 flex items-center gap-2 text-xs text-slate-500">
               <Link href="/" className="hover:text-gold-600">Home</Link>
-              <span>/</span>
+              <span aria-hidden="true">/</span>
               <Link href="/communities" className="hover:text-gold-600">Communities</Link>
               {parentCity && (
                 <>
-                  <span>/</span>
+                  <span aria-hidden="true">/</span>
                   <Link href={`/communities/${parentCity.slug}`} className="hover:text-gold-600">
                     {parentCity.name}
                   </Link>
                 </>
               )}
-              <span>/</span>
-              <span className="text-slate-700">{community.name}</span>
+              <span aria-hidden="true">/</span>
+              <span aria-current="page" className="text-slate-700">{community.name}</span>
             </nav>
 
             <div className="grid gap-10 lg:grid-cols-[1fr_320px] lg:items-start">
@@ -581,7 +581,7 @@ export default async function CommunityPage({ params }: Props) {
                       </a>
                     ))}
                   </div>
-                  <p className="mt-3 text-xs text-slate-400">
+                  <p className="mt-3 text-xs text-slate-500">
                     Ranges are approximate and reflect current market conditions. Contact us for a precise valuation.
                   </p>
                   <a
@@ -687,7 +687,7 @@ export default async function CommunityPage({ params }: Props) {
                       ))}
                     </div>
                   )}
-                  <p className="mt-6 text-xs leading-6 text-slate-400">
+                  <p className="mt-6 text-xs leading-6 text-slate-500">
                     School assignments, boundaries, and ratings may change. Buyers should verify all
                     school information directly with the appropriate school district.
                   </p>
@@ -796,7 +796,7 @@ export default async function CommunityPage({ params }: Props) {
                                   className="flex items-center justify-between rounded-xl border border-slate-100 bg-slate-50 px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-gold-500/40 hover:bg-white hover:text-gold-600"
                                 >
                                   {link.label}
-                                  <span className="ml-2 flex-shrink-0 text-slate-400">↗</span>
+                                  <span className="ml-2 flex-shrink-0 text-slate-500">↗</span>
                                 </a>
                               ))}
                             </div>
@@ -943,14 +943,14 @@ export default async function CommunityPage({ params }: Props) {
                   <div className="mt-6 border-t border-slate-100 pt-5 space-y-4">
                     <div>
                       <p className="text-sm font-semibold text-slate-900">Christine Dekant</p>
-                      <p className="text-xs text-slate-400">REALTOR® · RENE · GRI · CLA</p>
+                      <p className="text-xs text-slate-500">REALTOR® · RENE · GRI · CLA</p>
                       <a href="tel:+15617787042" className="mt-1 block text-sm text-slate-500 transition hover:text-gold-600">
                         (561) 778-7042
                       </a>
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900">John Oliver</p>
-                      <p className="text-xs text-slate-400">REALTOR® · ABR · RENE · RSPS · SRS</p>
+                      <p className="text-xs text-slate-500">REALTOR® · ABR · RENE · RSPS · SRS</p>
                       <a href="tel:+15617863630" className="mt-1 block text-sm text-slate-500 transition hover:text-gold-600">
                         (561) 786-3630
                       </a>
@@ -999,7 +999,7 @@ export default async function CommunityPage({ params }: Props) {
 
                 <Link
                   href="/communities"
-                  className="block text-sm text-slate-400 transition hover:text-slate-600"
+                  className="block text-sm text-slate-500 transition hover:text-slate-600"
                 >
                   ← All Communities
                 </Link>
@@ -1034,13 +1034,13 @@ export default async function CommunityPage({ params }: Props) {
       {/* Bottom search banner */}
       <section className="bg-gradient-to-br from-gold-700 to-gold-500 px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-blue-100">
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">
             {community.name} Listings
           </p>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
             Ready to Find Your Home?
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-blue-100">
+          <p className="mx-auto mt-4 max-w-xl text-white">
             Browse all active MLS listings in {community.name} — updated daily. Or call us and
             we'll hand-pick homes that match your criteria.
           </p>
@@ -1066,7 +1066,7 @@ export default async function CommunityPage({ params }: Props) {
       {/* Compliance / buyer-verification note */}
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 pb-16">
-          <p className="text-xs leading-6 text-slate-400">
+          <p className="text-xs leading-6 text-slate-500">
             Community details on this page — including pricing, availability, HOA and membership fees,
             amenities, and school assignments — change frequently and are provided for informational
             purposes only. The best community depends on your individual goals, budget, lifestyle, and

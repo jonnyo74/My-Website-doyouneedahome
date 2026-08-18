@@ -205,7 +205,7 @@ export default async function AgentValuationPage({ params }: Props) {
 
           <div className="mt-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-card">
             <p className="text-sm leading-7 text-slate-600">{agent.bio}</p>
-            <p className="mt-4 text-xs text-slate-400">
+            <p className="mt-4 text-xs text-slate-500">
               Florida license #{agent.license} · Premier Brokers International, 9123 North Military
               Trail, Suite 104, Palm Beach Gardens, FL 33410
             </p>
@@ -233,7 +233,7 @@ export default async function AgentValuationPage({ params }: Props) {
           <h2 className="font-serif text-3xl font-semibold text-white sm:text-4xl">
             Start With the Address
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-blue-100">
+          <p className="mx-auto mt-4 max-w-xl text-white">
             Send the address, hear back from {agent.firstName} today, and have your CMA within 48
             hours. No obligation and no pressure — if the number is not what you hoped,{' '}
             {agent.firstName} will tell you that too, and what it would take to change it.

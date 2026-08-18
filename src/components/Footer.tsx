@@ -48,7 +48,10 @@ export default function Footer() {
                 info@doyouneedahome.com
               </a>
             </div>
-            <div className="flex items-center gap-4">
+            {/* gap-1 + p-2 on each link rather than gap-4 on bare 18px icons:
+                same visual spacing, but each tap target grows from 18px to
+                34px (WCAG 2.2 — 2.5.8 Target Size). */}
+            <div className="-ml-2 flex items-center gap-1">
               <SocialLink href="https://www.facebook.com/doyouneedahome" label="Facebook"><FacebookIcon /></SocialLink>
               <SocialLink href="https://www.instagram.com/doyouneedahome" label="Instagram"><InstagramIcon /></SocialLink>
               <SocialLink href="https://x.com/doyouneedahome" label="X"><XIcon /></SocialLink>
@@ -58,8 +61,10 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-gold-400">Quick Links</p>
+          <nav aria-labelledby="footer-quick-links">
+            <p id="footer-quick-links" className="text-xs font-semibold uppercase tracking-widest text-gold-400">
+              Quick Links
+            </p>
             <ul className="mt-5 space-y-2">
               {pageLinks.map(({ href, label }) => (
                 <li key={href}>
@@ -69,7 +74,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
 
           {/* Search CTA */}
           <div className="space-y-5">
@@ -87,9 +92,11 @@ export default function Footer() {
             </a>
             <div className="pt-4">
               <div className="inline-flex rounded-xl bg-white px-3 py-2">
+                {/* Second copy of the same logo in the same footer — decorative
+                    repetition, so it stays out of the accessibility tree. */}
                 <Image
                   src="/images/premier-brokers.png"
-                  alt="Premier Brokers International"
+                  alt=""
                   width={160}
                   height={56}
                   className="h-10 w-auto"
@@ -100,15 +107,17 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8">
-          <p className="text-xs leading-6 text-slate-500">
+          {/* slate-400 rather than slate-500: on navy-950 slate-500 lands at
+              3.8:1, under the 4.5:1 floor for this small print. */}
+          <p className="text-xs leading-6 text-slate-400">
             <span aria-hidden="true" className="mr-1.5 font-semibold">⌂</span>
-            <strong className="font-semibold text-slate-400">Equal Housing Opportunity.</strong> We are
+            <strong className="font-semibold text-slate-300">Equal Housing Opportunity.</strong> We are
             committed to the letter and spirit of U.S. policy for the achievement of equal housing
             opportunity throughout the nation. We encourage and support an affirmative advertising and
             marketing program in which there are no barriers to obtaining housing because of race,
             color, religion, sex, handicap, familial status, or national origin.
           </p>
-          <p className="mt-3 text-xs leading-6 text-slate-500">
+          <p className="mt-3 text-xs leading-6 text-slate-400">
             Information on this site is deemed reliable but not guaranteed and is provided for
             informational purposes only. It does not constitute legal, tax, or financial advice.
             School assignments, boundaries, and ratings may change — buyers should verify all school
@@ -119,15 +128,17 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-slate-400">
             © {new Date().getFullYear()} Christine Dekant &amp; John Oliver at Premier Brokers International. All rights reserved.
           </p>
-          <Link
-            href="/privacy-policy"
-            className="text-xs text-slate-500 transition hover:text-white"
-          >
-            Privacy Policy
-          </Link>
+          <div className="flex items-center gap-5">
+            <Link href="/accessibility" className="text-xs text-slate-400 transition hover:text-white">
+              Accessibility
+            </Link>
+            <Link href="/privacy-policy" className="text-xs text-slate-400 transition hover:text-white">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
@@ -136,7 +147,11 @@ export default function Footer() {
 
 function SocialLink({ href, label, children }: { href: string; label: string; children: React.ReactNode }) {
   return (
-    <a href={href} aria-label={label} className="text-slate-500 transition hover:text-white">
+    <a
+      href={href}
+      aria-label={label}
+      className="rounded-full p-2 text-slate-400 transition hover:text-white"
+    >
       {children}
     </a>
   )

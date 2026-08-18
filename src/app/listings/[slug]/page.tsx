@@ -182,17 +182,17 @@ export default async function ListingPage({ params }: Props) {
             alt={heroPhoto.alt}
             className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/88 via-black/50 to-transparent" />
           <div className="absolute inset-0 flex flex-col justify-end px-6 pb-12 sm:px-8">
             <div className="mx-auto w-full max-w-7xl">
-              <nav className="mb-5 flex flex-wrap items-center gap-2 text-xs text-white/60">
+              <nav aria-label="Breadcrumb" className="mb-5 flex flex-wrap items-center gap-2 text-xs text-white/80">
                 <Link href="/" className="transition hover:text-white">Home</Link>
-                <span>/</span>
+                <span aria-hidden="true">/</span>
                 <Link href={`/communities/${listing.citySlug}`} className="transition hover:text-white">
                   {listing.city} Real Estate
                 </Link>
-                <span>/</span>
-                <span className="text-white/90">{listing.address}</span>
+                <span aria-hidden="true">/</span>
+                <span aria-current="page" className="text-white/90">{listing.address}</span>
               </nav>
 
               <div className="flex flex-wrap items-center gap-3">
@@ -204,7 +204,7 @@ export default async function ListingPage({ params }: Props) {
                     Price Reduced
                   </span>
                 )}
-                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-300">
+                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-200">
                   {listing.subdivision ? `${listing.subdivision} · ` : ''}{listing.city}, {listing.state}
                 </span>
               </div>
@@ -250,14 +250,14 @@ export default async function ListingPage({ params }: Props) {
       ) : (
         <section className="bg-gradient-to-br from-sky-50 via-blue-50 to-white px-6 py-14 sm:px-8 sm:py-20">
           <div className="mx-auto max-w-7xl">
-            <nav className="mb-6 flex flex-wrap items-center gap-2 text-xs text-slate-500">
+            <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-2 text-xs text-slate-500">
               <Link href="/" className="hover:text-gold-600">Home</Link>
-              <span>/</span>
+              <span aria-hidden="true">/</span>
               <Link href={`/communities/${listing.citySlug}`} className="hover:text-gold-600">
                 {listing.city} Real Estate
               </Link>
-              <span>/</span>
-              <span className="text-slate-700">{listing.address}</span>
+              <span aria-hidden="true">/</span>
+              <span aria-current="page" className="text-slate-700">{listing.address}</span>
             </nav>
 
             <div className="grid gap-10 lg:grid-cols-[1fr_340px] lg:items-start">
@@ -340,12 +340,12 @@ export default async function ListingPage({ params }: Props) {
                   <div className="mt-6 border-t border-slate-100 pt-5 space-y-3">
                     <div>
                       <p className="text-sm font-semibold text-slate-900">{listing.listingAgent.name}</p>
-                      <p className="text-xs text-slate-400">{listing.listingAgent.credentials}</p>
+                      <p className="text-xs text-slate-500">{listing.listingAgent.credentials}</p>
                     </div>
                     {listing.coListingAgent && (
                       <div>
                         <p className="text-sm font-semibold text-slate-900">{listing.coListingAgent.name}</p>
-                        <p className="text-xs text-slate-400">{listing.coListingAgent.credentials}</p>
+                        <p className="text-xs text-slate-500">{listing.coListingAgent.credentials}</p>
                       </div>
                     )}
                   </div>
@@ -424,7 +424,7 @@ export default async function ListingPage({ params }: Props) {
                         ))}
                       </div>
                     )}
-                    <p className="mt-3 text-xs text-slate-400">Click any photo to view it full-size.</p>
+                    <p className="mt-3 text-xs text-slate-500">Click any photo to view it full-size.</p>
                   </>
                 ) : (
                   <div className="rounded-2xl border border-dashed border-slate-300 bg-slate-50 px-6 py-14 text-center">
@@ -512,7 +512,7 @@ export default async function ListingPage({ params }: Props) {
                       </figure>
                     ))}
                   </div>
-                  <p className="mt-3 text-xs text-slate-400">
+                  <p className="mt-3 text-xs text-slate-500">
                     Floor plan measurements are approximate and should be independently verified.
                     Plans show the builder&apos;s model; options selected on this home may differ.
                   </p>
@@ -598,13 +598,13 @@ export default async function ListingPage({ params }: Props) {
                           {/* Which floor a room sits on is half the information in a
                               two-story plan, and the level was being collected but
                               never shown. */}
-                          {r.level && <span className="ml-2 text-xs font-normal text-slate-400">{r.level}</span>}
+                          {r.level && <span className="ml-2 text-xs font-normal text-slate-500">{r.level}</span>}
                         </span>
                         <span className="text-sm text-slate-500">{r.dimensions}</span>
                       </div>
                     ))}
                   </div>
-                  <p className="mt-3 text-xs text-slate-400">
+                  <p className="mt-3 text-xs text-slate-500">
                     Room dimensions are approximate and should be independently verified.
                   </p>
                 </div>
@@ -890,7 +890,7 @@ export default async function ListingPage({ params }: Props) {
               </div>
 
               {/* Disclaimer */}
-              <div className="border-t border-slate-100 pt-8 text-xs leading-6 text-slate-400">
+              <div className="border-t border-slate-100 pt-8 text-xs leading-6 text-slate-500">
                 <p>
                   Listing information is deemed reliable but is not guaranteed. Square footage, lot
                   size, taxes, HOA details, and all other information should be independently
@@ -944,7 +944,7 @@ export default async function ListingPage({ params }: Props) {
 
                 <Link
                   href={`/communities/${listing.citySlug}`}
-                  className="block text-sm text-slate-400 transition hover:text-slate-600"
+                  className="block text-sm text-slate-500 transition hover:text-slate-600"
                 >
                   ← {listing.city} Real Estate
                 </Link>
@@ -977,13 +977,13 @@ export default async function ListingPage({ params }: Props) {
       {/* Bottom banner CTA */}
       <section className="bg-gradient-to-br from-gold-700 to-gold-500 px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-blue-100">
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">
             {listing.address}
           </p>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
             Ready to See It in Person?
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-blue-100">
+          <p className="mx-auto mt-4 max-w-xl text-white">
             {`Contact ${listing.listingAgent.name} directly, or call the office and we'll connect you with the listing team.`}
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -1038,7 +1038,7 @@ function AgentBlurb({ agent, brokerage }: { agent: ListingAgentInfo; brokerage: 
         <div>
           <p className="font-semibold text-slate-900">{agent.name}</p>
           <p className="text-xs text-gold-600">{agent.role} · {agent.credentials}</p>
-          <p className="text-xs text-slate-400">{brokerage} · License #{agent.license}</p>
+          <p className="text-xs text-slate-500">{brokerage} · License #{agent.license}</p>
         </div>
         <div className="mt-1 flex gap-4">
           <a href={agent.phoneHref} className="text-sm font-semibold text-gold-600 transition hover:text-gold-700">

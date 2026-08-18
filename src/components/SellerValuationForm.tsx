@@ -50,6 +50,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
   const [step, setStep] = useState<1 | 2>(1)
   const startedRef = useRef(false)
   const submittingRef = useRef(false)
+  const formRef = useRef<HTMLFormElement>(null)
 
   const analyticsParams = {
     agent: agent.slug,
@@ -71,6 +72,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
     e.preventDefault()
     if (values.address.trim().length < 5) {
       setErrors({ address: 'Please enter the property address.' })
+      focusField('address')
       return
     }
     setErrors({})
@@ -82,7 +84,10 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
     e.preventDefault()
     const nextErrors = validateStep2(values)
     setErrors(nextErrors)
-    if (Object.keys(nextErrors).length > 0) return
+    if (Object.keys(nextErrors).length > 0) {
+      focusField(Object.keys(nextErrors)[0])
+      return
+    }
     if (submittingRef.current) return
     submittingRef.current = true
     setStatus('sending')
@@ -128,9 +133,22 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
   }
 
   const fieldId = (name: string) => `valuation-${name}`
+
+  /**
+   * Put focus on the first field that failed validation (WCAG 3.3.1 / 3.3.3),
+   * so a failed submit isn't silent for keyboard and screen-reader users. The
+   * timeline radio group has no id of its own, so it's matched by name.
+   */
+  const focusField = (field: string) => {
+    const el =
+      document.getElementById(fieldId(field)) ??
+      formRef.current?.querySelector<HTMLElement>(`input[name="${fieldId(field)}"]`)
+    el?.focus()
+  }
+
   const labelCls = 'block text-xs font-medium mb-1.5 text-slate-600'
   const inputCls =
-    'w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-400 transition focus:border-gold-500 focus:outline-none focus:ring-1 focus:ring-gold-500'
+    'w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-500 transition focus:border-gold-500 focus:outline-none focus:ring-1 focus:ring-gold-500'
   const errorCls = 'mt-1 text-xs text-red-600'
 
   if (status === 'success') {
@@ -170,7 +188,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
       </div>
 
       {step === 1 ? (
-        <form onSubmit={handleStep1} noValidate className="space-y-4">
+        <form ref={formRef} onSubmit={handleStep1} noValidate className="space-y-4">
           <div>
             <label htmlFor={fieldId('address')} className={labelCls}>
               Property Address *
@@ -204,7 +222,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
           <FormConsent />
         </form>
       ) : (
-        <form onSubmit={handleSubmit} noValidate className="space-y-4">
+        <form ref={formRef} onSubmit={handleSubmit} noValidate className="space-y-4">
           {/* Honeypot — hidden from sighted users, left open for bots */}
           <div
             aria-hidden="true"
@@ -272,7 +290,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
 
           <div>
             <label htmlFor={fieldId('phone')} className={labelCls}>
-              Phone Number <span className="text-slate-400">(Optional)</span>
+              Phone Number <span className="text-slate-500">(Optional)</span>
             </label>
             <input
               id={fieldId('phone')}
@@ -322,7 +340,7 @@ export default function SellerValuationForm({ agent }: { agent: Agent }) {
 
           <div>
             <label htmlFor={fieldId('notes')} className={labelCls}>
-              Anything {agent.firstName} should know? <span className="text-slate-400">(Optional)</span>
+              Anything {agent.firstName} should know? <span className="text-slate-500">(Optional)</span>
             </label>
             <textarea
               id={fieldId('notes')}

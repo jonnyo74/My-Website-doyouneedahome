@@ -19,9 +19,9 @@ export default function GreatSchoolsCard({
         rel="noopener noreferrer"
         className="mt-4 inline-block rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700 transition-colors"
       >
-        View Schools on GreatSchools →
+        View Schools on GreatSchools<span className="sr-only"> for {cityName}</span> →
       </a>
-      <p className="mt-4 text-xs text-gray-400 leading-relaxed">
+      <p className="mt-4 text-xs text-gray-500 leading-relaxed">
         School data provided by GreatSchools.org. School assignments, boundaries, and ratings may
         change. Buyers should verify all school information directly with the appropriate school
         district.

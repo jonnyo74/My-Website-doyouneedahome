@@ -155,11 +155,11 @@ export default function SellPage() {
       {/* Valuation CTA */}
       <section id="valuation" className="bg-gradient-to-br from-gold-700 to-gold-500 px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-blue-100">Free Valuation</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white">Free Valuation</p>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
             What Is Your Home Worth?
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-blue-100">
+          <p className="mx-auto mt-4 max-w-xl text-white">
             Pick the agent you&rsquo;d like to work with and send us the address. You&rsquo;ll hear
             back the same day, and get a no-obligation comparative market analysis — built by hand
             from real comparable sales, not an automated estimate — within 48 hours.
@@ -175,7 +175,7 @@ export default function SellPage() {
               </Link>
             ))}
           </div>
-          <p className="mt-5 text-sm text-blue-100">
+          <p className="mt-5 text-sm text-white">
             Prefer to talk first?{' '}
             <a href="tel:+15617837733" className="font-semibold underline underline-offset-4">
               Call (561) 783-7733

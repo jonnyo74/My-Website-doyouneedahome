@@ -131,12 +131,11 @@ export default function MarketReportModal({
             aria-modal="true"
             aria-labelledby={titleId}
             className="pointer-events-auto relative max-h-[88vh] w-full max-w-md overflow-y-auto rounded-3xl border border-report-gold/30 bg-navy-950 p-6 shadow-2xl sm:p-7"
-            onClick={(e) => e.stopPropagation()}
           >
             <button
               type="button"
               onClick={onClose}
-              className="absolute right-4 top-4 rounded-full p-1.5 text-white/40 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-report-gold"
+              className="absolute right-4 top-4 rounded-full p-1.5 text-white/60 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-report-gold"
               aria-label="Close dialog"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
