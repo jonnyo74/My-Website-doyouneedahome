@@ -605,7 +605,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Lauderdale', time: '55 min' },
       { destination: 'Miami', time: '1 hr 30 min' },
     ],
-    linkedNeighborhoods: ['wellington-country-club', 'wellington-estates', 'lake-club'],
+    linkedNeighborhoods: ['wellington-estates', 'lake-club'],
     priceRanges: [
       { type: 'Single-Family Homes', range: '$450K – $900K', minPrice: 450000, maxPrice: 900000, propertyTypes: ['house'] },
       { type: 'Gated Community Homes', range: '$800K – $2.5M', minPrice: 800000, propertyTypes: ['house'] },
@@ -3559,19 +3559,11 @@ export const neighborhoods: CommunityItem[] = [
     ],
   },
   // ── WELLINGTON ───────────────────────────────────────────────
-  {
-    slug: 'wellington-country-club',
-    name: 'Wellington Country Club',
-    type: 'Neighborhood',
-    region: 'Wellington',
-    description: 'A guard-gated golf and family community with resort-style amenities and eight golf courses.',
-    overview:
-      'Wellington Country Club offers active lifestyle living with eight golf courses, family amenities, and a dynamic social calendar.',
-    quickFacts: [
-      { label: 'Homes', value: 'Guard-gated luxury homes' },
-      { label: 'Amenities', value: 'Golf, dining, fitness, social events' },
-    ],
-  },
+  // No 'wellington-country-club' entry: there is no such club. The record that
+  // used to sit here claimed "eight golf courses" and contradicted the golf
+  // section on the Wellington city page, which names the clubs that do exist —
+  // Palm Beach Polo, The Wanderers Club, Wellington National and Wycliffe.
+  // /communities/wellington-country-club now 301s to /communities/wellington.
   {
     slug: 'wellington-estates',
     name: 'Wellington Estates',

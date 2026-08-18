@@ -82,16 +82,21 @@ export default function PrivacyPolicyPage() {
             </h2>
             <p>
               When you submit a form on this site, you agree that DO Homes Group and Premier Brokers
-              International may contact you at the phone number and email address you provided —
-              including by phone, text message, and automated or prerecorded means — about your
-              inquiry and Palm Beach County real estate. Consent is not a condition of any purchase.
-              Message and data rates may apply.
+              International may email you about your request and Palm Beach County real estate.
             </p>
             <p className="mt-3">
-              You can withdraw that consent at any time: reply STOP to any text message, use the
-              unsubscribe link in any email, or contact us using the details under &ldquo;Your
-              Choices&rdquo; below. Withdrawing consent does not affect our ability to respond to a
-              request you have already sent us.
+              Calls and text messages are separate. The phone number field is optional on every form,
+              and we contact you at a number you provide — including by voice call, text message, or
+              similar automated means — only if you tick the consent checkbox that appears once you
+              enter one. Consent is not a condition of any purchase, and you will still receive
+              whatever you requested if you leave it unticked. Message and data rates may apply, and
+              message frequency may vary.
+            </p>
+            <p className="mt-3">
+              You can withdraw that consent at any time: reply STOP to any text message, HELP for
+              help, use the unsubscribe link in any email, or contact us using the details under
+              &ldquo;Your Choices&rdquo; below. Withdrawing consent does not affect our ability to
+              respond to a request you have already sent us.
             </p>
           </div>
 

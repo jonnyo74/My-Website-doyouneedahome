@@ -58,6 +58,7 @@ export default function SellerValuationForm({
   pageCategory?: string
 }) {
   const [values, setValues] = useState<FormValues>(EMPTY)
+  const [phoneConsent, setPhoneConsent] = useState(false)
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({})
   const [status, setStatus] = useState<Status>('idle')
   const [serverError, setServerError] = useState<string | null>(null)
@@ -131,6 +132,8 @@ export default function SellerValuationForm({
           utmContent,
           referrer,
           consentVersion: CURRENT_CONSENT_VERSION,
+          // undefined when no number was given — nothing to consent to.
+          phoneConsent: values.phone.trim() ? phoneConsent : undefined,
         }),
       })
       if (!res.ok) throw new Error(`Seller lead submission failed (${res.status})`)
@@ -236,7 +239,11 @@ export default function SellerValuationForm({
           >
             {step1SubmitLabel ?? 'Get My Free CMA'}
           </button>
-          <FormConsent />
+          <FormConsent
+            phoneEntered={!!values.phone.trim()}
+            phoneConsent={phoneConsent}
+            onPhoneConsentChange={setPhoneConsent}
+          />
         </form>
       ) : (
         <form ref={formRef} onSubmit={handleSubmit} noValidate className="space-y-4">
@@ -393,7 +400,11 @@ export default function SellerValuationForm({
             </p>
           )}
 
-          <FormConsent />
+          <FormConsent
+            phoneEntered={!!values.phone.trim()}
+            phoneConsent={phoneConsent}
+            onPhoneConsentChange={setPhoneConsent}
+          />
         </form>
       )}
     </div>

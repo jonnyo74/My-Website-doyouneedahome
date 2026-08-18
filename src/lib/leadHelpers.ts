@@ -5,7 +5,7 @@
 import { createHmac, timingSafeEqual } from 'node:crypto'
 import { isLeadMagnetKey, leadMagnets, type LeadMagnetKey } from '@/lib/leadMagnets'
 import { SITE_URL } from '@/lib/site'
-import { formatConsentLine } from '@/lib/consent'
+import { formatConsentLine, NO_PHONE_CONSENT_TAG } from '@/lib/consent'
 
 export const INTEREST_OPTIONS = [
   'Buying',
@@ -66,6 +66,9 @@ export interface LeadSubmission {
   // Contact-consent record. consentCapturedAt is stamped server-side in the
   // route handler — the client value is not trusted for an audit record.
   consentVersion?: string
+  /** true = ticked the call/text box, false = gave a number but did not tick,
+   *  undefined = no phone number provided. */
+  phoneConsent?: boolean
   consentCapturedAt?: string
   submittedAt?: string
   /** Optional second-step enrichment — see AREA_OPTIONS / TIMELINE_OPTIONS. */
@@ -109,6 +112,9 @@ export function buildLeadTags(sub: LeadSubmission): string[] {
     sub.interest ? `Interest: ${sub.interest}` : null,
     isValidArea(sub.areaOfInterest) ? `Area: ${sub.areaOfInterest}` : null,
     isValidTimeline(sub.timeline) ? `Timeline: ${sub.timeline}` : null,
+    // Surfaced as a tag, not just a note line — a note is easy to scroll
+    // past, and calling this person would be the actual violation.
+    sub.phoneConsent === false ? NO_PHONE_CONSENT_TAG : null,
   ].filter(Boolean) as string[]
   return Array.from(new Set(tags))
 }
@@ -152,7 +158,7 @@ export function buildLeadNote(sub: LeadSubmission): string {
   // Consent record last, so it doesn't push the property/message details
   // out of view when the lead is worked in Follow Up Boss.
   if (sub.consentCapturedAt) {
-    lines.push(formatConsentLine(sub.consentVersion, sub.consentCapturedAt))
+    lines.push(formatConsentLine(sub.consentVersion, sub.phoneConsent, sub.consentCapturedAt))
   }
   return lines.filter(Boolean).join('\n')
 }

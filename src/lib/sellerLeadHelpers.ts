@@ -8,7 +8,7 @@
 // loosening validation on the flow that gates the reports.
 
 import { getValuationRoute, TEAM_ROUTE_SLUG, type ValuationRoute } from '@/lib/agents'
-import { formatConsentLine } from '@/lib/consent'
+import { formatConsentLine, NO_PHONE_CONSENT_TAG } from '@/lib/consent'
 
 export const TIMELINE_OPTIONS = [
   'As soon as possible',
@@ -41,6 +41,9 @@ export interface SellerLeadSubmission {
   // Contact-consent record. consentCapturedAt is stamped server-side in the
   // route handler — the client value is not trusted for an audit record.
   consentVersion?: string
+  /** true = ticked the call/text box, false = gave a number but did not tick,
+   *  undefined = no phone number provided. */
+  phoneConsent?: boolean
   consentCapturedAt?: string
   submittedAt?: string
 }
@@ -84,6 +87,9 @@ export function buildSellerLeadTags(sub: SellerLeadSubmission, agent: ValuationR
     'Home Valuation Request',
     agent.crmTag,
     isValidTimeline(sub.timeline) ? `Timeline: ${sub.timeline}` : null,
+    // Surfaced as a tag, not just a note line — a note is easy to scroll
+    // past, and calling this person would be the actual violation.
+    sub.phoneConsent === false ? NO_PHONE_CONSENT_TAG : null,
   ].filter(Boolean) as string[]
   return Array.from(new Set(tags))
 }
@@ -109,7 +115,7 @@ export function buildSellerLeadNote(sub: SellerLeadSubmission, agent: ValuationR
   // Consent record last, so it doesn't push the property/message details
   // out of view when the lead is worked in Follow Up Boss.
   if (sub.consentCapturedAt) {
-    lines.push(formatConsentLine(sub.consentVersion, sub.consentCapturedAt))
+    lines.push(formatConsentLine(sub.consentVersion, sub.phoneConsent, sub.consentCapturedAt))
   }
   return lines.filter(Boolean).join('\n')
 }

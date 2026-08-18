@@ -77,6 +77,7 @@ export default function LeadMagnetForm({
   onSuccess,
 }: LeadMagnetFormProps) {
   const [values, setValues] = useState<FormValues>(EMPTY)
+  const [phoneConsent, setPhoneConsent] = useState(false)
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({})
   const [status, setStatus] = useState<Status>('idle')
   const [serverError, setServerError] = useState<string | null>(null)
@@ -175,6 +176,8 @@ export default function LeadMagnetForm({
           utmContent,
           referrer,
           consentVersion: CURRENT_CONSENT_VERSION,
+          // undefined when no number was given — nothing to consent to.
+          phoneConsent: values.phone.trim() ? phoneConsent : undefined,
         }),
       })
       if (!res.ok) throw new Error(`Lead submission failed (${res.status})`)
@@ -480,7 +483,13 @@ export default function LeadMagnetForm({
         </p>
       )}
 
-      <FormConsent dark={dark} prefix="Free instant PDF download." />
+      <FormConsent
+        dark={dark}
+        prefix="Free instant PDF download."
+        phoneEntered={!!values.phone.trim()}
+        phoneConsent={phoneConsent}
+        onPhoneConsentChange={setPhoneConsent}
+      />
     </form>
   )
 }
