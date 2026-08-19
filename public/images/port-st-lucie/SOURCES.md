@@ -1,6 +1,8 @@
 # Port St. Lucie imagery — provenance
 
 > ⚠️ **These four are the only stock images on the site still missing a photo credit.**
+> (As of 2026-08-19 one of the four, `stock-baseball-diamond.jpg`, is no longer referenced
+> anywhere — see the local-photography section at the bottom. Three remain live.)
 > Site policy is that any image that is not our own photography carries a credit. The table
 > below records CDN URLs (`images.unsplash.com/photo-…`) rather than Unsplash photo pages,
 > and a CDN URL cannot be reverse-mapped to a photographer without the Unsplash API. To
@@ -166,3 +168,61 @@ Rejected:
 platted lot with the road frontage visible, or a slab poured and waiting. Any of the three beats
 every stock option, and the article's whole argument is first-hand local knowledge — a stock hero
 actively undercuts it.
+
+---
+
+## John's own photography — added 2026-08-19
+
+**First local photography for Port St. Lucie.** Seventeen frames shot by John on a Port
+St. Lucie trip: seven at Clover Park, ten at PGA Golf Club and PGA Village. Ours outright,
+so no credit line, no licence question, and the captions can finally assert the location
+instead of dancing around it the way the `stock-` files have to.
+
+Originals (`IMG_6443`–`IMG_6459`, 4032×3024 and 5712×4284) are left untracked in this
+folder, matching how `port-salerno` keeps its `IMG_*` source frames. Only the derived
+`local-` files below are committed.
+
+| File | From | Size | Depicts | Wired to |
+|---|---|---|---|---|
+| `local-clover-park-entrance.jpg` | `IMG_6443` | 2400×1350 | Clover Park's main entrance head-on, "cloverpark" and Mets signage, cumulus behind | `communities.ts` → `port-st-lucie` **hero + OG image** |
+| `local-clover-park-banner.jpg` | `IMG_6443` | 2400×706 | Same frame, cut to the standard article banner | hero on `best-things-to-do-in-port-st-lucie-florida` |
+| `local-clover-park-facade.jpg` | `IMG_6446` | 1600×1200 | Three-quarter view of the front, Mets script, flags | St. Lucie West section of `local-guide-to-port-st-lucie-florida`; city gallery |
+| `local-clover-park-plaza.jpg` | `IMG_6449` | 1600×1200 | Entrance plaza, Mets window graphics, oversized Adirondack chair | city gallery |
+| `local-clover-park-mets-chair.jpg` | `IMG_6447` | 1600×1200 | The Adirondack chair close in, Mets window wall behind | spring-training section of `best-things-to-do-in-port-st-lucie-florida` |
+| `local-pga-village-clock-tower.jpg` | `IMG_6459` | 1600×1200 | PGA Village clock tower on its planted roundabout | golf section of `best-things-to-do-…`; city gallery (bento tall slot) |
+| `local-pga-golf-club-drive.jpg` | `IMG_6454` | 1600×1200 | Palm allée up to the clubhouse cupola | golf section of `best-neighborhoods-in-port-st-lucie-florida`; city gallery |
+| `local-pga-golf-club-welcome.jpg` | `IMG_6453` | 1600×1200 | "Welcome to PGA Golf Club" entrance sign, palms, roundabout | PGA Village section of `local-guide-to-port-st-lucie-florida` |
+| `local-pga-practice-range.jpg` | `IMG_6451` | 1600×1200 | Practice range wide, carts, two distant unidentifiable figures | city gallery |
+| `local-pga-golf-club-sign.jpg` | `IMG_6450` | 1600×1200 | `PGA GOLF CLUB · 1916 PERFECT DRIVE` monument sign | not yet wired — held for the golf article |
+
+### ⚠️ These are PGA **Village / Golf Club, Port St. Lucie** — not PGA National
+
+The two are 50 miles apart and the name collides badly. PGA National is in **Palm Beach
+Gardens** and has its own folder at `../pga-national/`, which is short on photography and
+therefore exactly where someone will be tempted to reach for these. Don't. The tells in
+these frames are unambiguous: the monument sign reads **1916 Perfect Drive**, and the
+clock tower reads **PGA Village**. Neither exists in Palm Beach Gardens.
+
+### On the branding in these frames
+
+Both sets carry a venue's own marks — Mets and Clover Park logos on the ballpark, the PGA
+of America roundel on the club's signage. That is deliberately treated as different from
+the problem recorded in `../pga-national/SOURCES.md`, where Honda Classic spectator photos
+were pulled: there the subjects were **identifiable professional athletes** and the marks
+were **sponsors'** rather than the venue's. Here the subject is a building, the marks are
+the building's own identity, and there is no identifiable person in any committed frame.
+
+Screened out on the same reasoning:
+
+- **`IMG_6448`** — three Mets heritage banners (1969, 1986) with player photography filling
+  the frame. The player likenesses *are* the subject here rather than incidental
+  architecture, which puts it in the same bucket as the Honda Classic set. Left untracked.
+- `IMG_6447` and `IMG_6449` keep small player murals on the orange panels at the edge of
+  frame. Judged incidental — architectural cladding on a building shot as a building. Flag
+  raised, not a legal opinion; same caveat as the PGA National file.
+
+### Knock-on: `stock-baseball-diamond.jpg` is now unused
+
+It was the illustration for spring training and has been replaced by
+`local-clover-park-mets-chair.jpg`. The file is still committed but nothing references it.
+That takes the uncredited-stock list at the top of this file from four files to three.

@@ -19271,6 +19271,8 @@ One of the city's more established residential and commercial districts, with re
 
 Clover Park is here — the spring-training home of the New York Mets and the regular-season home of the St. Lucie Mets. If you want things already built rather than coming soon, this is where to look. Traffic gets heavier during commuting hours, through the winter season and around major events at Clover Park, so drive your regular routes before you buy.
 
+![The front of Clover Park in St. Lucie West, its Mets script sign and curved roof under summer cloud](/images/port-st-lucie/local-clover-park-facade.jpg "Clover Park sits in the middle of St. Lucie West rather than out on its own — which is exactly why the district's traffic changes character for six weeks each spring.")
+
 ### Tradition
 
 The flagship master-planned community out west, organized around Tradition Square — restaurants, shops, community events and public gathering space in a genuinely more walkable setting than most of the city offers. The broader area takes in numerous residential communities, healthcare facilities, parks, trails, businesses and continuing development.
@@ -19282,6 +19284,8 @@ Not every neighborhood carrying the Tradition name is within walking distance of
 One of the city's major golf destinations. PGA Golf Club runs three championship courses — two by Tom Fazio, one by Pete Dye — plus a short course and extensive practice and instruction facilities. The wider PGA Village area holds several residential neighborhoods offering single-family homes, villas and condominiums, rather than one uniform community.
 
 A PGA Village address does not by itself mean golf membership is included or mandatory. Fees, access and ownership obligations vary between communities, so confirm the association, amenities and membership structure attached to the specific property.
+
+![The PGA Golf Club entrance sign on its palm-ringed roundabout, directing traffic to member parking, bag drop and guest parking](/images/port-st-lucie/local-pga-golf-club-welcome.jpg "The club entrance off Perfect Drive. PGA Golf Club is public-access — the residential communities carrying the PGA Village name around it are a separate question, one at a time.")
 
 ### The Port District
 
@@ -19417,6 +19421,8 @@ Because association structures vary between neighborhoods, confirm HOA dues and 
 
 A serious golf destination. PGA Golf Club runs three championship courses — two by Tom Fazio, one by Pete Dye — plus a short course and extensive practice and instruction facilities, with residential neighborhoods laid out around the layouts rather than the reverse.
 
+![A double row of tall palms lining the grass approach to the PGA Golf Club clubhouse and its green cupola](/images/port-st-lucie/local-pga-golf-club-drive.jpg "The approach to the PGA Golf Club clubhouse off Perfect Drive. The courses were laid out first and the neighborhoods fitted around them — which is why the golf infrastructure here reads as the main event rather than an amenity.")
+
 The wider PGA Village area holds several communities rather than one uniform neighborhood: single-family homes, villas and condominiums, gated sections, golf-course properties, age-qualified communities, and both newer and established homes.
 
 Objective characteristics: golf-course frontage in much of it, established construction, HOA, range from attainable to upscale, some sections with additional club structure.
@@ -19520,6 +19526,7 @@ In a city this large, spend time in the district at the hour you'd actually be t
     primaryKeyword: "things to do in Port St. Lucie Florida",
     secondaryKeywords: ["Port St. Lucie attractions", "what to do in PSL", "Clover Park Mets", "PGA Village"],
     h1: "Best Things to Do in Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/local-clover-park-banner.jpg',
     body: `Port St. Lucie has spent years living with a bedroom-community reputation, and for a while it was earned. That's no longer an accurate description, and the gap between the reputation and the reality is widening fast.
 
 Here's what's actually here, and what's arriving.
@@ -19534,7 +19541,7 @@ You end up a short distance from professional players taking batting practice, a
 
 For several weeks each spring, the whole St. Lucie West district reorganizes around it.
 
-![Overhead view of a baseball diamond during play](/images/port-st-lucie/stock-baseball-diamond.jpg "Spring training is the city's signature experience — professional baseball at general-admission prices, in front of crowds you can actually see over.")
+![An oversized Mets-blue Adirondack chair on the Clover Park entrance plaza, with the ballpark's Mets script windows behind](/images/port-st-lucie/local-clover-park-mets-chair.jpg "The Clover Park entrance plaza on an ordinary summer afternoon. For six weeks each spring this is a crowd — professional baseball at general-admission prices, in front of crowds you can actually see over.")
 
 ## A professional soccer stadium is coming
 
@@ -19549,6 +19556,8 @@ For a city whose sports identity has been six weeks of spring training a year, a
 A genuine golf destination rather than a local course. Multiple layouts, a learning center, and a reputation that draws players from well outside the region.
 
 The courses came first and the residential community was built around them, which shows in how the whole thing is laid out. Beyond PGA Village, the wider city and surrounding area carry a considerable amount of accessible golf across price points, including public options — genuinely one of Port St. Lucie's stronger and least-marketed features.
+
+![The PGA Village clock tower on its landscaped roundabout at the community entrance](/images/port-st-lucie/local-pga-village-clock-tower.jpg "The clock tower at the entrance to PGA Village. The name covers a broad area rather than one community — worth knowing before you read it on a listing.")
 
 ## Kayak the North Fork of the St. Lucie River
 
