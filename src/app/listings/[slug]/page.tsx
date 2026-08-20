@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getListingBySlug, getListingPaths, priceDisplay, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
+import { bedsLabel, bedsUnit, getListingBySlug, getListingPaths, priceDisplay, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
 import { getCommunityBySlug } from '@/lib/communities'
 import YlopoInit from '@/components/YlopoInit'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = listing.metaTitle ?? `${listing.address} | ${listing.city}, ${listing.state} Real Estate`
   const description =
     listing.metaDescription ??
-    `${listing.propertyType} in ${listing.city}, ${listing.state}. ${listing.beds} bed, ${listing.bathsFull} bath, ${listing.livingSqft.toLocaleString()} sq ft. ${priceDisplay(listing)}.`
+    `${listing.propertyType} in ${listing.city}, ${listing.state}. ${bedsLabel(listing).toLowerCase()}, ${listing.bathsFull} bath, ${listing.livingSqft.toLocaleString()} sq ft. ${priceDisplay(listing)}.`
 
   // Prefer a pre-cropped 1200x630 social image. Falling back to the raw hero
   // photo risks Facebook/LinkedIn cropping it oddly since listing photos aren't
@@ -129,6 +129,10 @@ export default async function ListingPage({ params }: Props) {
       postalCode: listing.zip,
       addressCountry: 'US',
     },
+    // The MLS bedroom count and nothing else — a den or flex room is never
+    // folded in here. numberOfRooms mirrors it rather than counting every
+    // room in the house, which is how it has always been emitted.
+    numberOfBedrooms: listing.beds,
     numberOfRooms: listing.beds,
     numberOfBathroomsTotal: fullBaths + halfBaths,
     floorSize: { '@type': 'QuantitativeValue', value: listing.livingSqft, unitCode: 'FTK' },
@@ -224,7 +228,7 @@ export default async function ListingPage({ params }: Props) {
               )}
 
               <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-sm text-white/90">
-                <span><strong className="font-semibold text-white">{listing.beds}</strong> Beds</span>
+                <span><strong className="font-semibold text-white">{listing.beds}</strong> {bedsUnit(listing)}</span>
                 <span><strong className="font-semibold text-white">{bathsDisplay}</strong> Baths</span>
                 <span><strong className="font-semibold text-white">{listing.livingSqft.toLocaleString()}</strong> Sq Ft</span>
                 <span><strong className="font-semibold text-white">{listing.propertyType}</strong></span>
@@ -291,7 +295,7 @@ export default async function ListingPage({ params }: Props) {
                 )}
 
                 <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-700">
-                  <span><strong className="font-semibold text-slate-900">{listing.beds}</strong> Beds</span>
+                  <span><strong className="font-semibold text-slate-900">{listing.beds}</strong> {bedsUnit(listing)}</span>
                   <span><strong className="font-semibold text-slate-900">{bathsDisplay}</strong> Baths</span>
                   <span><strong className="font-semibold text-slate-900">{listing.livingSqft.toLocaleString()}</strong> Sq Ft</span>
                   <span><strong className="font-semibold text-slate-900">{listing.propertyType}</strong></span>
@@ -351,6 +355,23 @@ export default async function ListingPage({ params }: Props) {
                   </div>
                 </div>
               </aside>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── Feature spotlight ─────────────────────────────────────
+          Sits between the spec bar and the gallery: where the headline
+          numbers on their own misrepresent what a buyer is getting, the
+          correction has to land before they scroll past it. */}
+      {listing.featureSpotlight && (
+        <section className="border-b border-slate-100 bg-slate-50/70 px-6 py-12 sm:px-8">
+          <div className="mx-auto max-w-7xl">
+            <div className="max-w-3xl">
+              <h2 className="font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
+                {listing.featureSpotlight.heading}
+              </h2>
+              <p className="mt-4 leading-8 text-slate-600">{listing.featureSpotlight.body}</p>
             </div>
           </div>
         </section>
@@ -552,7 +573,7 @@ export default async function ListingPage({ params }: Props) {
               <div>
                 <h2 className="font-serif text-2xl font-semibold text-slate-900">At a Glance</h2>
                 <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                  <Fact label="Bedrooms / Bathrooms" value={`${listing.beds} bed / ${bathsDisplay} bath`} />
+                  <Fact label="Bedrooms / Bathrooms" value={`${bedsLabel(listing).toLowerCase()} / ${bathsDisplay} bath`} />
                   <Fact label="Living Area" value={`${listing.livingSqft.toLocaleString()} sq ft${listing.livingSqftSource ? ` (${listing.livingSqftSource})` : ''}`} />
                   {listing.totalUnderRoofSqft && (
                     <Fact label="Total Under Roof" value={`${listing.totalUnderRoofSqft.toLocaleString()} sq ft`} />
@@ -891,6 +912,9 @@ export default async function ListingPage({ params }: Props) {
 
               {/* Disclaimer */}
               <div className="border-t border-slate-100 pt-8 text-xs leading-6 text-slate-500">
+                {listing.disclosures?.map((d) => (
+                  <p key={d} className="mb-3">{d}</p>
+                ))}
                 <p>
                   Listing information is deemed reliable but is not guaranteed. Square footage, lot
                   size, taxes, HOA details, and all other information should be independently
@@ -913,7 +937,7 @@ export default async function ListingPage({ params }: Props) {
                     {priceDisplay(listing)}
                   </p>
                   <p className="mt-1 text-sm text-slate-500">
-                    {listing.beds} bed · {bathsDisplay} bath · {listing.livingSqft.toLocaleString()} sq ft
+                    {bedsLabel(listing, 'tight').toLowerCase()} · {bathsDisplay} bath · {listing.livingSqft.toLocaleString()} sq ft
                   </p>
                   <div className="mt-5 space-y-3">
                     <a

@@ -57,6 +57,11 @@ export interface Listing {
 
   propertyType: string
   beds: number
+  // A den, flex room, or bonus room is counted here and never folded into
+  // `beds`. The bed count on the page has to match the bed count on the MLS
+  // exactly, so the numeral and the extra room live in separate fields and
+  // only ever meet inside a label.
+  denCount?: number
   bathsFull: number
   bathsHalf: number
   livingSqft: number
@@ -104,6 +109,10 @@ export interface Listing {
 
   roomDimensions?: RoomDimension[]
   upgrades?: ListingUpgrade[]
+  // One room or feature given its own section directly under the spec bar,
+  // ahead of the gallery — for when the headline numbers on their own
+  // misrepresent what a buyer is actually getting.
+  featureSpotlight?: { heading: string; body: string }
   highlights: string[]
   // Original marketing copy, one paragraph per array entry — rewritten from source
   // remarks, never copied verbatim.
@@ -111,6 +120,9 @@ export interface Listing {
   ownershipConsiderations?: string[]
   locationNotes?: string[]
   assignedSchools?: Array<{ level: string; name: string }>
+
+  // Property-specific fine print, printed ahead of the standard disclaimer.
+  disclosures?: string[]
 
   listingDateDisplay?: string
   domCount?: number
@@ -469,7 +481,11 @@ export const listings: Listing[] = [
     pricePerSqft: 423.02,
 
     propertyType: 'Single-Family Residence',
-    beds: 3,
+    // Two bedrooms on the MLS. The third room is a den: it has a window but no
+    // closet, and a door opening into the garage — which the Florida Building
+    // Code does not permit for a room used for sleeping.
+    beds: 2,
+    denCount: 1,
     bathsFull: 2,
     bathsHalf: 0,
     livingSqft: 1416,
@@ -485,7 +501,7 @@ export const listings: Listing[] = [
     pool: { private: true, size: "15' x 30'", features: ['In-ground', 'Fenced pool area', 'Pool equipment included'] },
     waterfront: false,
     view: 'Pool',
-    hoa: { hasHoa: false, notes: 'No homeowners association, no membership fee, and no association-imposed restrictions on the property.' },
+    hoa: { hasHoa: false, notes: 'No homeowners association, no CDD, no membership fee, and no deed restrictions on the property.' },
 
     taxAnnual: 3011.92,
     taxYear: 2025,
@@ -497,18 +513,27 @@ export const listings: Listing[] = [
     heating: ['Central heat'],
     constructionMaterials: ['Frame', 'Stone accents'],
     flooring: ['Carpet', 'Laminate'],
-    stormProtection: 'Hurricane-rated impact windows throughout the home',
+    stormProtection: 'Hurricane-rated impact windows — every opening in the home',
     solar: 'Owned solar power system (not leased)',
-    sewer: 'Septic tank (newly installed)',
+    sewer: 'Septic system — newly installed in 2019',
     waterSource: 'Private well',
     floodZone: 'Zone X — a minimal-risk flood zone per FEMA',
     zoning: 'Residential',
     gated: false,
     utilities: ['Cable connected', 'Electric connected', 'Underground utility lines'],
-    appliances: ['Dishwasher', 'Dryer', 'Electric range', 'Ice maker', 'Microwave', 'Refrigerator', 'Washer', 'Water heater', 'Water softener'],
-    interiorFeatures: ['Split-bedroom floor plan', 'Cathedral and vaulted ceilings', 'Entrance foyer', 'Pantry', 'Walk-in closet'],
-    exteriorFeatures: ['Covered patio', 'Open porch', 'Exterior lighting', 'Storage', 'Automatic sprinkler system'],
-    lotFeatures: ['Landscaped', 'Mature trees', 'Fully fenced yard (vinyl, gated)'],
+    appliances: ['Dishwasher', 'Dryer', 'Electric range', 'Ice maker', 'Microwave', 'Refrigerator', 'Washer', 'Water heater', 'Kinetico water treatment system'],
+    interiorFeatures: [
+      'Den / flex room with a direct door into the attached garage',
+      'Split-bedroom floor plan',
+      'Cathedral and vaulted ceilings',
+      'Entrance foyer',
+      'Granite kitchen with stone backsplash and snack bar',
+      'Pantry',
+      'Walk-in closet',
+      'Jacuzzi tub',
+    ],
+    exteriorFeatures: ['Covered patio', 'Open porch', 'Exterior lighting', 'Storage', 'Automatic sprinkler system', 'Attached garage with MyQ smart opener'],
+    lotFeatures: ['Landscaped', 'Mature trees', 'Fully fenced yard with gate (vinyl, 2019)'],
 
     leasing: { permitted: true, notes: 'Leasing is permitted, with no minimum lease term or annual-leasing-frequency limit noted on the listing.' },
     pets: { allowed: true, notes: 'No pet restrictions and no pet fee noted on the listing.' },
@@ -522,8 +547,8 @@ export const listings: Listing[] = [
       { name: 'Primary Bedroom', dimensions: `12'11" x 14'0"`, level: 'Main' },
       { name: 'Primary Bathroom', dimensions: `7'8" x 5'10"`, level: 'Main' },
       { name: 'Walk-In Closet', dimensions: `7'7" x 4'9"`, level: 'Main' },
-      { name: 'Guest Bedroom A', dimensions: `10'9" x 11'3"`, level: 'Main' },
-      { name: 'Guest Bedroom B', dimensions: `12'11" x 14'11"`, level: 'Main' },
+      { name: 'Guest Bedroom', dimensions: `10'9" x 11'3"`, level: 'Main' },
+      { name: 'Den / Flex Room', dimensions: `12'11" x 14'11"`, level: 'Main' },
       { name: 'Guest Bathroom', dimensions: `7'5" x 6'11"`, level: 'Main' },
       { name: 'Foyer', dimensions: `4'9" x 11'4"`, level: 'Main' },
       { name: 'Garage', dimensions: `12'10" x 19'5"`, level: 'Main' },
@@ -533,27 +558,43 @@ export const listings: Listing[] = [
 
     upgrades: [
       { item: 'Metal roof', year: 2012 },
-      { item: 'Owned solar power system' },
-      { item: 'New septic system' },
-      { item: 'Hurricane impact windows (complete)' },
+      { item: 'A/C, water heater, Kinetico water treatment, well pump and holding tank all replaced', year: 2016 },
+      { item: 'New septic system', year: 2019 },
+      { item: 'Fully fenced yard with gate', year: 2019 },
+      { item: 'New flooring throughout (December 2024)' },
+      { item: 'Owned solar power system — no lease payment transfers to the buyer' },
+      { item: 'Hurricane impact windows — every opening' },
       { item: 'Renovated kitchen with granite counters and stone backsplash' },
+      { item: 'Attached garage with MyQ smart opener' },
     ],
 
     highlights: [
-      'No HOA — no restrictions on parking a boat, trailer, or RV on the property',
-      'Owned solar power system already in place, helping reduce the monthly electric bill',
-      'Major systems already handled: metal roof (2012), a brand-new septic system, and complete hurricane impact windows',
-      'Private 15x30 in-ground pool inside a fully fenced, vinyl-fenced yard',
-      'Split-bedroom layout with cathedral and vaulted ceilings and a renovated granite kitchen',
-      'County-only property taxes with a homestead exemption in place',
-      'Leasing permitted with no restrictions noted — flexibility for investor buyers',
-      'Minutes from Hobe Sound Beach, Jonathan Dickinson State Park, golf, and major commuter routes',
+      'Den / flex room with direct garage access',
+      'Metal roof (2012)',
+      'Full hurricane impact windows — every opening',
+      'Brand-new septic system (2019)',
+      'Owned solar — no lease payment transfers to the buyer',
+      'A/C, water heater, Kinetico water treatment, well pump and holding tank all replaced 2016',
+      'New flooring throughout (December 2024)',
+      '15x30 private in-ground pool with pool fence',
+      'Fully fenced 0.23-acre yard with gate (2019) — room for boat, trailer, RV',
+      'Golf cart friendly neighborhood',
+      'No HOA, no CDD, no deed restrictions',
+      'Unincorporated Martin County — county-only taxes, no municipal millage',
+      'Flood Zone X',
+      'Split-bedroom layout, cathedral and vaulted ceilings, walk-in closets',
+      'Granite kitchen with stone backsplash, snack bar',
+      'Attached garage with MyQ smart opener, jacuzzi tub',
+      '1,416 sq ft living, built 1980, well water and septic, sold as-is',
     ],
 
     overview: [
-      "This three-bedroom pool home on a quarter-acre in Poinciana Gardens has already had its expensive decisions made. The current owners installed a metal roof in 2012, added an owned solar power system, put in a brand-new septic system, and replaced every window with hurricane-rated impact glass. What's left for a buyer is the part that's easy to enjoy: split bedrooms and cathedral ceilings inside, a renovated granite kitchen with a stone backsplash, and a private 15x30 pool set inside a fully fenced yard with genuine room for a boat, trailer, or RV.",
-      "There's no HOA on this property and no association dictating what can sit in the driveway or side yard. The home sits in unincorporated Martin County, is taxed at the county rate only, and carries a homestead exemption — a meaningfully lighter carrying cost than a comparable home closer to the Palm Beach County line. It suits buyers who want a single-family home with real land and real privacy, without anyone signing off on how they use it.",
-      'Hobe Sound Beach, Jonathan Dickinson State Park, and the area\'s golf courses are all a short drive away, with straightforward access to the commuter routes that connect Martin County to Jupiter and the rest of the Treasure Coast.',
+      'Two bedrooms plus a den/flex room with its own garage access — home office, gym, workshop, studio, hobby room. Come and go without tracking through the house.',
+      'No HOA. No restrictions. No one telling you what to do with your property. Metal roof. Owned solar. Brand-new septic. Hurricane impact windows throughout. The big-ticket items are already handled — this home has been invested in, not just lived in.',
+      'Step outside to a private oasis: 15x30 pool with a gorgeous pool fence, lush lawn, and a fully fenced yard with room for the boat, the trailer, and the RV. Golf cart friendly neighborhood.',
+      'Inside: split bedrooms, cathedral ceilings, updated granite kitchen with stone backsplash, and an open living area that flows right out to the pool.',
+      'County-only taxes — no municipal millage. Solar significantly reduces the electric bill.',
+      '5.3 miles to Hobe Sound Beach. Minutes to Jonathan Dickinson State Park, golf, and major commuter routes. Come see it.',
     ],
 
     ownershipConsiderations: [
@@ -575,6 +616,16 @@ export const listings: Listing[] = [
       { level: 'Elementary', name: 'SeaWind Elementary School' },
       { level: 'Middle', name: 'Murray Middle School' },
       { level: 'High', name: 'South Fork High School' },
+    ],
+
+    featureSpotlight: {
+      heading: 'The Flex Room',
+      body:
+        'This home is two bedrooms plus a den — and that den has its own door into the garage. That makes it the room most houses do not have: a home gym you can walk into with muddy shoes, a workshop, a studio, a home office with its own entrance. Bring the bikes, the boards or the tools straight in without going through the living room. It is a den and we call it a den — but it is the most useful room in the house.',
+    },
+
+    disclosures: [
+      '2 bedrooms plus a den/flex room. The den has no closet and has a door opening into the garage; buyer to verify intended use and any conversion with the Martin County Building Department. Improvement dates provided by seller. All information deemed reliable but not guaranteed; measurements approximate. Buyer to verify all items independently.',
     ],
 
     listingDateDisplay: 'June 12, 2026',
@@ -625,32 +676,29 @@ export const listings: Listing[] = [
       { src: '/images/listings/6145-se-audubon-lane/31-primary-bedroom-5.jpg', alt: 'Primary bedroom closet area' },
       { src: '/images/listings/6145-se-audubon-lane/32-guest-area-1.jpg', alt: 'Guest bedroom hallway area' },
       { src: '/images/listings/6145-se-audubon-lane/33-guest-area-2.jpg', alt: 'Guest bedroom area' },
-      { src: '/images/listings/6145-se-audubon-lane/34-guest-bedroom-a-1.jpg', alt: 'Guest bedroom A' },
-      { src: '/images/listings/6145-se-audubon-lane/35-guest-bedroom-a-2.jpg', alt: 'Guest bedroom A view' },
-      { src: '/images/listings/6145-se-audubon-lane/36-guest-bedroom-a-3.jpg', alt: 'Guest bedroom A' },
-      { src: '/images/listings/6145-se-audubon-lane/37-jack-and-jill-bath-1.jpg', alt: 'Jack-and-Jill bathroom' },
-      { src: '/images/listings/6145-se-audubon-lane/38-jack-and-jill-bath-2.jpg', alt: 'Jack-and-Jill bathroom vanity' },
-      { src: '/images/listings/6145-se-audubon-lane/39-guest-bedroom-b-1.jpg', alt: 'Guest bedroom B' },
-      { src: '/images/listings/6145-se-audubon-lane/40-guest-bedroom-b-2.jpg', alt: 'Guest bedroom B view' },
-      { src: '/images/listings/6145-se-audubon-lane/41-guest-bedroom-b-3.jpg', alt: 'Guest bedroom B' },
-      { src: '/images/listings/6145-se-audubon-lane/42-guest-bedroom-b-4.jpg', alt: 'Guest bedroom B closet' },
+      { src: '/images/listings/6145-se-audubon-lane/34-guest-bedroom-a-1.jpg', alt: 'Guest bedroom' },
+      { src: '/images/listings/6145-se-audubon-lane/35-guest-bedroom-a-2.jpg', alt: 'Guest bedroom view' },
+      { src: '/images/listings/6145-se-audubon-lane/36-guest-bedroom-a-3.jpg', alt: 'Guest bedroom' },
+      { src: '/images/listings/6145-se-audubon-lane/37-jack-and-jill-bath-1.jpg', alt: 'Guest bathroom' },
+      { src: '/images/listings/6145-se-audubon-lane/38-jack-and-jill-bath-2.jpg', alt: 'Guest bathroom vanity' },
+      { src: '/images/listings/6145-se-audubon-lane/39-guest-bedroom-b-1.jpg', alt: 'Den / flex room with a wood-panel accent wall and window' },
+      { src: '/images/listings/6145-se-audubon-lane/40-guest-bedroom-b-2.jpg', alt: 'Den / flex room looking toward the hall' },
+      { src: '/images/listings/6145-se-audubon-lane/41-guest-bedroom-b-3.jpg', alt: 'Den / flex room, window wall and open floor space' },
+      { src: '/images/listings/6145-se-audubon-lane/42-guest-bedroom-b-4.jpg', alt: 'Den / flex room, with its own door opening directly into the attached garage' },
       { src: '/images/listings/6145-se-audubon-lane/43-garage.jpg', alt: 'Attached one-car garage with laundry area' },
       { src: '/images/listings/6145-se-audubon-lane/44-driveway.jpg', alt: 'Driveway and front parking area' },
     ],
-    floorPlans: [
-      {
-        src: '/images/listings/6145-se-audubon-lane/floor-plan.jpg',
-        alt: 'Floor plan of 6145 SE Audubon Lane, Hobe Sound, FL, showing room layout and dimensions',
-        caption: 'The full single-story layout, with the split-bedroom arrangement and the covered porch running along the pool patio.',
-      },
-    ],
+    // The vendor's plan sheet is off the page until it is redrawn: it letters
+    // the den as a bedroom, and that label is baked into the image where no
+    // caption can outrank it. The file is still on disk at
+    // /images/listings/6145-se-audubon-lane/floor-plan.jpg for the reshoot.
 
     listingAgent: JOHN,
     coListingAgent: CHRISTINE,
     brokerage: 'Premier Brokers International',
 
-    metaTitle: '6145 SE Audubon Lane: No-HOA Pool Home in Hobe Sound, FL',
-    metaDescription: "3BR/2BA pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $599,000. Schedule your private showing today.",
+    metaTitle: '6145 SE Audubon Lane: 2 Bed + Den No-HOA Pool Home in Hobe Sound, FL',
+    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $599,000. Schedule a private showing.",
   },
   {
     slug: '982-sw-worcester-lane',
@@ -885,6 +933,22 @@ export function showsPriceReduced(listing: Listing) {
     isAvailable(listing.status) &&
     Boolean(listing.price && listing.originalPrice && listing.originalPrice > listing.price)
   )
+}
+
+// The MLS bed count and the den are separate fields, so the numeral can never
+// drift from the MLS. Every user-facing bed count goes through these two: the
+// noun carries the den, the numeral never does, and a home with a den never
+// shows a bare total.
+export function bedsUnit(listing: Listing, form: 'full' | 'tight' = 'full') {
+  if (!listing.denCount) return listing.beds === 1 ? 'Bed' : 'Beds'
+  // Where the layout is tight the den drops out of the label entirely rather
+  // than getting added to the number.
+  if (form === 'tight') return 'Bed'
+  return listing.denCount > 1 ? `Bed + ${listing.denCount} Dens` : 'Bed + Den'
+}
+
+export function bedsLabel(listing: Listing, form: 'full' | 'tight' = 'full') {
+  return `${listing.beds} ${bedsUnit(listing, form)}`
 }
 
 // Every dollar figure on a listing goes through here so an unpriced Coming Soon

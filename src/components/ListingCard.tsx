@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { cardRotationMs, priceDisplay, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
+import { bedsLabel, cardRotationMs, priceDisplay, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
 
 export default function ListingCard({ listing }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
@@ -101,7 +101,7 @@ export default function ListingCard({ listing }: { listing: Listing; index?: num
           {listing.address}
         </h3>
         <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-600">
-          <span>{listing.beds} Beds</span>
+          <span>{bedsLabel(listing)}</span>
           <span>{bathsDisplay} Baths</span>
           <span>{listing.livingSqft.toLocaleString()} Sq Ft</span>
         </div>
