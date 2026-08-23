@@ -197,6 +197,9 @@ export function selectMagnetForPath(pathname: string): LeadMagnetSelection {
 const EXCLUDED_PATH_PREFIXES = [
   '/contact',
   '/sell', // /sell and /sell/[agent] both run the valuation funnel
+  // Standalone listing microsite — carries its own showing-request form, and a
+  // market-report interruption would undercut a $2.8M conversion page.
+  '/listings/8804-skyward-street',
   ...Object.values(leadMagnets).map((m) => m.landingPage),
 ]
 

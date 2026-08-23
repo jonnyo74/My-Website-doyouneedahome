@@ -4,6 +4,7 @@ import Script from 'next/script'
 import { Analytics } from '@vercel/analytics/next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import SiteChrome from '@/components/SiteChrome'
 import SiteLeadMagnets from '@/components/leadMagnet/SiteLeadMagnets'
 import ThirdPartyFrameTitles from '@/components/ThirdPartyFrameTitles'
 import { SITE_URL } from '@/lib/site'
@@ -61,14 +62,20 @@ export default function RootLayout({
         >
           Skip to main content
         </a>
-        <Header />
+        {/* Standalone listing microsites carry their own chrome — SiteChrome
+            hides the site Header/Footer there and renders them everywhere else. */}
+        <SiteChrome>
+          <Header />
+        </SiteChrome>
         {/* The site's single <main> landmark. Pages render their own
             sections inside it rather than each declaring a <main>, so the
             landmark is guaranteed present and unique on every route. */}
         <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
           {children}
         </main>
-        <Footer />
+        <SiteChrome>
+          <Footer />
+        </SiteChrome>
         <SiteLeadMagnets />
         <ThirdPartyFrameTitles />
         <Analytics />

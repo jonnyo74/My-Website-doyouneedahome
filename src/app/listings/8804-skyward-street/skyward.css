@@ -1,0 +1,272 @@
+/* ── 8804 Skyward Street — page-scoped styles ────────────────────────────────
+   Palette is built from the house itself: warm quartz off-white, near-black
+   window-frame ink, a warm greige mid-tone, and one deep lake-teal accent.
+   Deliberately NOT the site's brand blue/gold — this page is a standalone
+   marketing asset. All classes are prefixed .sky- to keep the import (a global
+   stylesheet, route-loaded) from colliding with anything else. */
+
+.sky-root {
+  --sky-paper: #f5f2eb;
+  --sky-paper-2: #ece7dc;
+  --sky-ink: #16140f;
+  --sky-ink-soft: #3f3a31;
+  --sky-greige: #6b6355;
+  --sky-line: #d9d2c3;
+  --sky-teal: #14535e;
+  --sky-teal-deep: #0e3f48;
+  --sky-teal-light: #93c4cb; /* labels on ink — 7.4:1 on --sky-ink */
+
+  background: var(--sky-paper);
+  color: var(--sky-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: 'liga' 1, 'kern' 1;
+}
+
+/* ── Type scale ──────────────────────────────────────────────────────────── */
+
+.sky-label {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--sky-teal);
+}
+
+.sky-label--dark {
+  color: var(--sky-teal-light);
+}
+
+.sky-display {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+}
+
+.sky-h1 {
+  font-size: clamp(2.5rem, 6.5vw, 4.75rem);
+}
+
+.sky-h2 {
+  font-size: clamp(1.9rem, 3.6vw, 2.875rem);
+  line-height: 1.12;
+}
+
+.sky-lede {
+  font-size: 1.1875rem;
+  line-height: 1.75;
+  color: var(--sky-ink-soft);
+}
+
+.sky-body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--sky-ink-soft);
+}
+
+.sky-num {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* ── Hero ────────────────────────────────────────────────────────────────── */
+
+.sky-hero-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+/* A single slow settle — no loop, nothing bouncing. */
+@keyframes sky-hero-settle {
+  from { transform: scale(1.07); }
+  to { transform: scale(1); }
+}
+
+.sky-hero-media img {
+  animation: sky-hero-settle 12s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+@keyframes sky-cue {
+  0% { transform: scaleY(0); transform-origin: top; }
+  45% { transform: scaleY(1); transform-origin: top; }
+  55% { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+.sky-cue-line {
+  width: 1px;
+  height: 3.5rem;
+  background: rgba(245, 242, 235, 0.85);
+  animation: sky-cue 2.6s ease-in-out infinite;
+}
+
+/* ── Scroll reveal ───────────────────────────────────────────────────────────
+   The hidden state is applied by JS only (Reveal.tsx), so content is fully
+   visible without JavaScript. The global prefers-reduced-motion rule zeroes
+   the transition, which collapses the reveal to an instant appearance. */
+
+.sky-reveal-hidden {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+.sky-reveal-in {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+/* ── Gallery ─────────────────────────────────────────────────────────────── */
+
+.sky-frame {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--sky-paper-2);
+  padding: 0;
+  border: 0;
+  cursor: zoom-in;
+}
+
+.sky-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 1.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@media (hover: hover) {
+  .sky-frame:hover img {
+    transform: scale(1.025);
+  }
+}
+
+/* ── Dimensions table ────────────────────────────────────────────────────── */
+
+.sky-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sky-table {
+  width: 100%;
+  min-width: 30rem;
+  border-collapse: collapse;
+}
+
+.sky-table caption {
+  text-align: left;
+  padding-bottom: 0.875rem;
+}
+
+.sky-table th[scope='col'] {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sky-greige);
+  text-align: left;
+  padding: 0 1rem 0.625rem 0;
+  border-bottom: 1px solid var(--sky-ink);
+}
+
+.sky-table th[scope='col']:last-child,
+.sky-table td:last-child {
+  text-align: right;
+  padding-right: 0;
+}
+
+.sky-table th[scope='row'] {
+  font-weight: 500;
+  text-align: left;
+  color: var(--sky-ink);
+}
+
+.sky-table td,
+.sky-table th[scope='row'] {
+  padding: 0.8125rem 1rem 0.8125rem 0;
+  border-bottom: 1px solid var(--sky-line);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.sky-table td {
+  color: var(--sky-ink-soft);
+  font-variant-numeric: tabular-nums lining-nums;
+  white-space: nowrap;
+}
+
+/* ── Showing form (dark panel) ───────────────────────────────────────────── */
+
+.sky-input {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid rgba(245, 242, 235, 0.28);
+  background: rgba(245, 242, 235, 0.06);
+  color: var(--sky-paper);
+  padding: 0.8125rem 1rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.sky-input::placeholder {
+  color: rgba(245, 242, 235, 0.45);
+}
+
+.sky-input:focus {
+  outline: none;
+  border-color: var(--sky-teal-light);
+  background: rgba(245, 242, 235, 0.1);
+}
+
+select.sky-input {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2393c4cb' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+
+select.sky-input option {
+  color: var(--sky-ink);
+  background: var(--sky-paper);
+}
+
+/* ── Lightbox ────────────────────────────────────────────────────────────── */
+
+.sky-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: flex;
+  flex-direction: column;
+  background: rgba(13, 12, 9, 0.96);
+}
+
+.sky-lightbox-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid rgba(245, 242, 235, 0.3);
+  border-radius: 9999px;
+  color: var(--sky-paper);
+  background: transparent;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.sky-lightbox-btn:hover {
+  border-color: rgba(245, 242, 235, 0.75);
+  background: rgba(245, 242, 235, 0.08);
+}
+
+/* Scroll-margin so anchored jumps clear the sticky bar. */
+.sky-anchor {
+  scroll-margin-top: 4.5rem;
+}

@@ -173,15 +173,15 @@ const CHRISTINE: ListingAgentInfo = {
 
 export const listings: Listing[] = [
   // ─────────────────────────────────────────────────────────────────────────
-  // Beds, baths, square footage, finishes and equipment below come from John's
-  // own "What's special" notes on the property. Still unconfirmed and still
-  // sourced from public records or estimate: lotSqft/lotAcres,
-  // totalUnderRoofSqft, hoa.fee, and taxAnnual (absent). Still to add:
-  // mlsNumber, price, listingDateDisplay, and photos of the interior.
+  // Now Active at $2,799,999 (Aug 2026). This entry feeds the listing cards,
+  // sitemap, and internal links — the page itself is the standalone microsite
+  // at src/app/listings/8804-skyward-street/, which shadows the [slug] route.
+  // Price, taxes, HOA, and lot figures below are John-verified for the active
+  // listing. Still to add: mlsNumber once assigned.
   // ─────────────────────────────────────────────────────────────────────────
   {
     slug: '8804-skyward-street',
-    status: 'Coming Soon',
+    status: 'Active',
 
     address: '8804 Skyward Street',
     city: 'Boca Raton',
@@ -191,14 +191,16 @@ export const listings: Listing[] = [
     zip: '33496',
     subdivision: 'Lotus',
 
+    price: 2799999,
+
     propertyType: 'Single-Family Residence',
     beds: 5,
     bathsFull: 6,
     bathsHalf: 1,
     livingSqft: 4932,
     totalUnderRoofSqft: 6263,
-    lotSqft: 7840,
-    lotAcres: 0.18,
+    lotSqft: 7850,
+    lotAcres: 0.1802,
     yearBuilt: 2021,
     stories: 2,
     garageSpaces: 3,
@@ -216,9 +218,13 @@ export const listings: Listing[] = [
     },
     waterfront: true,
     view: 'Lake',
+    taxAnnual: 17787,
+    taxYear: 2025,
+    homestead: true,
+
     hoa: {
       hasHoa: true,
-      fee: 'Approx. $420/month',
+      fee: '$720/month, billed quarterly at $2,160',
       notes:
         'Lotus is a guard-gated GL Homes community with a 24-hour manned gate. The HOA assessment covers the gate, lawn maintenance for each home, the common areas, the clubhouse, and a full-time social director — so the monthly figure carries more than a typical Boca Raton association fee does. Confirm the current assessment and what it includes with the association before writing an offer.',
     },
@@ -277,7 +283,7 @@ export const listings: Listing[] = [
     ],
 
     ownershipConsiderations: [
-      'This home is Coming Soon and has not yet reached the MLS. The list price will be published here once a list date is set — reach out in the meantime and we will send it to you as soon as it is.',
+      'Lotus charges a buyer capital contribution of $4,320 at closing — two quarterly assessments — on top of the regular $720/month association fee, billed quarterly at $2,160.',
       "A signed Seller's Property Disclosure is already on file and available on request. On it the seller reports the roof as installed in 2021 and never having leaked, no history of water intrusion, drainage or flooding problems, no sinkhole activity or claims, no environmental hazards, no boundary disputes or encroachments, no pending litigation or special assessments, and that none of the appliances are leased. The home is owner-occupied. Read the disclosure yourself rather than relying on this summary of it.",
       'Lotus carries a mandatory homeowners association with a monthly assessment that covers the manned gate, lawn maintenance, common areas, clubhouse, and social programming. Review the association documents, the current budget, and any pending assessments during your inspection period.',
       'The community and the home are subject to HOA architectural and use restrictions, and GL Homes communities typically limit leasing. Confirm the current leasing rules with the association if a rental is part of your plan.',
@@ -332,11 +338,11 @@ export const listings: Listing[] = [
     ],
 
     heroPhoto: {
-      src: '/images/listings/8804-skyward-street/01-exterior-front.jpg',
+      src: '/images/listings/8804-skyward-street/gallery/01-front-elevation.jpg',
       alt: 'Front exterior of 8804 Skyward Street — a two-story contemporary home in white stucco with a stone-veneer entry column, three-car garage, and paver driveway',
     },
     ogImage: {
-      src: '/images/listings/8804-skyward-street/og-image.jpg',
+      src: '/images/listings/8804-skyward-street/og-skyward-active.jpg',
       alt: 'Front exterior of 8804 Skyward Street in Lotus, Boca Raton',
     },
 
@@ -458,9 +464,9 @@ export const listings: Listing[] = [
     coListingAgent: CHRISTINE,
     brokerage: 'Premier Brokers International',
 
-    metaTitle: '8804 Skyward Street: Coming Soon Lakefront Pool Home in Lotus, Boca Raton',
+    metaTitle: '8804 Skyward Street — Lakefront in Lotus | Boca Raton, FL',
     metaDescription:
-      'Coming Soon in Lotus, Boca Raton — a lakefront Sumatra with 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a heated saltwater pool, impact glass and a whole-house generator. Ask for early access.',
+      'Waterfront in Lotus, Boca Raton — a 2021 Sumatra Select with 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool, impact glass and a whole-house generator. $2,799,999.',
   },
   {
     slug: '6145-se-audubon-lane',
