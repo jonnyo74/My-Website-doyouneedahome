@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { openLightbox } from './lightboxBus'
-import type { SkywardPhoto } from './photos'
+import { PHOTOS, type SkywardPhoto } from './photos'
 
 /**
  * One clickable frame in the gallery. `index` is the photo's position in the
@@ -31,7 +31,7 @@ export default function GalleryImage({
       type="button"
       className={`sky-frame ${crop ?? ''}`}
       onClick={() => openLightbox(index)}
-      aria-label={`View photo ${index + 1} of 46 full-size: ${photo.alt}`}
+      aria-label={`View photo ${index + 1} of ${PHOTOS.length} full-size: ${photo.alt}`}
     >
       {crop ? (
         <Image

@@ -206,8 +206,8 @@ export default function SkywardStreetPage() {
     datePosted: '2026-08-23',
     image: [
       `${SITE_URL}${PHOTOS[0].src}`,
-      `${SITE_URL}${PHOTOS[4].src}`,
-      `${SITE_URL}${PHOTOS[12].src}`,
+      `${SITE_URL}${PHOTOS[3].src}`,
+      `${SITE_URL}${PHOTOS[11].src}`,
     ],
     about: {
       '@type': 'SingleFamilyResidence',
@@ -318,13 +318,13 @@ export default function SkywardStreetPage() {
         </div>
         <div className="mx-auto mt-14 max-w-[1400px]">
           <Reveal>
-            <div className="grid gap-4 sm:grid-cols-3 sm:gap-5">
+            <div className="grid gap-4 sm:grid-cols-2 sm:gap-5">
               {slice(ARRIVAL).map((photo, i) => (
                 <GalleryImage
                   key={photo.src}
                   photo={photo}
                   index={ARRIVAL[0] + i}
-                  sizes="(min-width: 1440px) 448px, (min-width: 640px) 33vw, 100vw"
+                  sizes="(min-width: 1440px) 672px, (min-width: 640px) 50vw, 100vw"
                   crop="aspect-[4/3]"
                 />
               ))}
@@ -391,6 +391,10 @@ export default function SkywardStreetPage() {
                 plan&rsquo;s quiet advantage: the kitchen, the laundry, and the primary suite all sit
                 on the ground floor — full single-level living, with the four guest suites, media
                 room, gym, and loft above.
+              </p>
+              <p className="text-[13px] leading-6 text-[#6b6355]">
+                Final photography of the kitchen, primary bedroom, and remaining interiors is being
+                finished — request a showing or the MLS sheet and we&rsquo;ll send the complete set.
               </p>
             </div>
           </SectionHeading>
