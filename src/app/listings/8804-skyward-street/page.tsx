@@ -312,7 +312,7 @@ export default function SkywardStreetPage() {
               8804 Skyward Street is a Sumatra Select from GL Homes&rsquo; Bali Collection — the big
               two-story — on a waterfront homesite in Lotus, and waterfront was never a large share
               of what Lotus released. Five bedrooms, every one of them en suite. A 22-foot entry
-              under a curved staircase. And behind the house, the lake runs long.
+              under a curved staircase. And behind the house, open water.
             </p>
           </SectionHeading>
         </div>
@@ -336,11 +336,11 @@ export default function SkywardStreetPage() {
       {/* ── The Waterfront ────────────────────────────────────────────────── */}
       <section className="px-5 py-20 sm:px-8 sm:py-28">
         <div className="mx-auto max-w-6xl">
-          <SectionHeading label="The Waterfront" title="The value driver is the view down the water.">
+          <SectionHeading label="The Waterfront" title="The value driver is the water behind it.">
             <div className="mt-6 max-w-3xl space-y-5">
               <p className="sky-body">
                 This lot doesn&rsquo;t look across a canal into a neighbor&rsquo;s screen enclosure —
-                it looks down the axis of the lake. The pool came in 2022, built custom rather than
+                it opens onto the lake itself. The pool came in 2022, built custom rather than
                 from the builder&rsquo;s catalog: saltwater, heated, a main body sized for actual
                 swimming and an offset shallow sun shelf finished in deep blue glass-mosaic tile with
                 bubblers, the whole thing wrapped in a marble deck.

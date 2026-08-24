@@ -81,8 +81,8 @@ export const PHOTOS: SkywardPhoto[] = [
     w: 2048, h: 1365,
   },
   {
-    src: `${DIR}/12-lake-axis.jpg`,
-    alt: 'The view down the water axis from the backyard: lawn, low black aluminum fence, and the lake stretching into the distance',
+    src: `${DIR}/12-lake-frontage.jpg`,
+    alt: 'The lake frontage from the backyard: lawn, a low black aluminum fence, and open water beyond',
     w: 2048, h: 1365,
   },
   {
