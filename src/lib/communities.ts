@@ -3990,6 +3990,12 @@ export const neighborhoods: CommunityItem[] = [
     description: 'An emerging ultra-luxury golf community with championship design, custom estate homesites, and resort-caliber amenities.',
     overview:
       'Panther National is one of the most anticipated new luxury communities in Palm Beach County — a limited-release golf and residential development offering custom estate homesites surrounding a world-class championship golf experience. With bespoke architecture, curated amenities, and a private club lifestyle, it represents one of the most exclusive address opportunities currently available in South Florida.',
+    placeNotes: [
+      {
+        heading: 'Ownership & development',
+        body: 'Ohana Real Estate Investors acquired Panther National from Centaur U.S. Investment Holdings in July 2026 for $191.2 million — South Florida\'s largest golf course trade of the year. If you are considering a homesite or a residence here, ask about club membership terms and the build-out timeline under the new ownership before you commit; both are the kind of thing that can be revisited when a community changes hands mid-development.',
+      },
+    ],
     quickFacts: [
       { label: 'Homes', value: 'Custom estate homesites and residences' },
       { label: 'Amenities', value: 'Championship golf, resort clubhouse, luxury lifestyle amenities' },
