@@ -4,7 +4,9 @@ import { SITE_URL } from '@/lib/site'
 import { ARRIVAL, CLUB, LIVING, PHOTOS, slice, UPSTAIRS, WATERFRONT } from './photos'
 import GalleryImage from './GalleryImage'
 import Lightbox from './Lightbox'
+import LotusAnalysisModal from './LotusAnalysisModal'
 import Reveal from './Reveal'
+import SellerCta from './SellerCta'
 import ShowingRequestForm from './ShowingRequestForm'
 import StickyBar from './StickyBar'
 import './skyward.css'
@@ -259,6 +261,7 @@ export default function SkywardStreetPage() {
 
       <StickyBar />
       <Lightbox />
+      <LotusAnalysisModal />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <section id="sky-hero" className="relative flex min-h-svh flex-col justify-end">
@@ -397,6 +400,80 @@ export default function SkywardStreetPage() {
         </div>
         <div className="mx-auto mt-14 max-w-[1400px]">
           <PhotoGrid range={LIVING} />
+        </div>
+      </section>
+
+      {/* ── Lotus homeowners ──────────────────────────────────────────────────
+          The one substantial seller moment on the page, placed here on purpose:
+          far enough in that a buyer has already had the hero, the water, and
+          the main floor, and early enough that a Lotus owner who scanned the
+          postcard QR reaches it without hunting. It is a band, not an
+          interstitial — the property content continues directly underneath.
+          There is no popup and no on-load prompt anywhere on this page. */}
+      <section id="lotus-owners" className="sky-anchor sky-seller-band px-5 py-20 sm:px-8 sm:py-28">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:gap-20">
+            <Reveal>
+              <p className="sky-label sky-label--dark">Own a Home in Lotus?</p>
+              <h2 className="sky-display sky-h2 mt-4 text-[#f5f2eb]">
+                Curious what your home could actually sell for?
+              </h2>
+              <div className="mt-6 space-y-5">
+                <p className="text-[17px] leading-8 text-[#f5f2eb]/80">
+                  Every Lotus home is different. Your model, where your lot sits, the water behind
+                  you, the view, the upgrades you have put in, the condition of the house and what
+                  else is on the market this month can each move what a buyer is willing to pay —
+                  and none of it is visible to an automated website estimate.
+                </p>
+                <p className="text-[15px] leading-7 text-[#f5f2eb]/65">
+                  Request a detailed analysis of your specific property, built on the Lotus sales
+                  that actually closed, the homes competing with yours right now, and the
+                  characteristics that make yours unlike the one next door.
+                </p>
+              </div>
+
+              <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
+                <SellerCta ctaLocation="seller-band" />
+                <p className="text-[13px] leading-6 text-[#f5f2eb]/55">
+                  Property-specific. Reviewed by John Oliver.
+                  <br className="hidden sm:block" /> No generic online estimate. No obligation.
+                </p>
+              </div>
+            </Reveal>
+
+            <Reveal>
+              <div className="border-t border-[#f5f2eb]/20 pt-8 lg:border-l lg:border-t-0 lg:pl-12 lg:pt-0">
+                <h3 className="sky-label sky-label--dark">What the Analysis Weighs</h3>
+                <ul className="mt-5 grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-1 lg:gap-y-3.5">
+                  {[
+                    'Your Lotus model and floor plan',
+                    'Square footage and price per square foot',
+                    'Lot position, water frontage and view',
+                    'Pool, deck and outdoor improvements',
+                    'Interior upgrades and condition',
+                    'Relevant closed sales inside Lotus',
+                    'The listings competing with yours now',
+                    'Model-to-model differences and buyer demand',
+                  ].map((item) => (
+                    <li
+                      key={item}
+                      className="flex gap-3.5 text-[15px] leading-7 text-[#f5f2eb]/75"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="mt-3 h-px w-5 flex-shrink-0 bg-[#93c4cb]"
+                      />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <p className="sky-seller-rule mt-8 border-t pt-6 text-[13px] leading-6 text-[#f5f2eb]/55">
+                  John Oliver represented the family who bought 8804 Skyward Street in 2021. They
+                  asked him to bring it back to market.
+                </p>
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
 
@@ -586,6 +663,57 @@ export default function SkywardStreetPage() {
               <ShowingRequestForm />
             </Reveal>
           </div>
+        </div>
+      </section>
+
+      {/* ── Two paths ─────────────────────────────────────────────────────────
+          The close. Whoever scrolled this far is here for one of two reasons,
+          and both get an equal, quiet door — matched hairline buttons rather
+          than one CTA shouting over the other. The buyer path anchors back up
+          to the showing form; the seller path opens the same dialog as the
+          band above, tagged to this placement so the two can be compared. */}
+      <section className="border-t border-[#f5f2eb]/15 bg-[#16140f] px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-6xl">
+          <Reveal>
+            <div className="grid gap-10 sm:gap-12 lg:grid-cols-2 lg:gap-16">
+              <div className="lg:pr-16">
+                <p className="sky-label sky-label--dark">Interested in 8804 Skyward?</p>
+                <h2 className="sky-display mt-3 text-2xl leading-tight text-[#f5f2eb] sm:text-[1.75rem]">
+                  See it in person.
+                </h2>
+                <p className="mt-4 text-[15px] leading-7 text-[#f5f2eb]/65">
+                  Private, by appointment, with the listing agent. Twenty-four hours&rsquo; notice,
+                  and your name goes to the Lotus gate once the time is confirmed.
+                </p>
+                <a
+                  href="#showing"
+                  className="sky-cta mt-7 inline-flex w-full justify-center border border-[#93c4cb]/60 px-8 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#f5f2eb] transition hover:border-[#93c4cb] hover:bg-[#93c4cb]/10 sm:w-auto"
+                >
+                  Schedule a Private Showing
+                </a>
+              </div>
+
+              <div className="border-t border-[#f5f2eb]/15 pt-10 lg:border-l lg:border-t-0 lg:pl-16 lg:pt-0">
+                <p className="sky-label sky-label--dark">Own a Home in Lotus?</p>
+                <h2 className="sky-display mt-3 text-2xl leading-tight text-[#f5f2eb] sm:text-[1.75rem]">
+                  Find out what yours could bring.
+                </h2>
+                <p className="mt-4 text-[15px] leading-7 text-[#f5f2eb]/65">
+                  A detailed look at your own property — your model, your lot, your upgrades — set
+                  against the Lotus sales that closed and the homes competing today.
+                </p>
+                <SellerCta
+                  ctaLocation="seller-footer"
+                  label="Request a Detailed Property Analysis"
+                  variant="outline"
+                  className="mt-7"
+                />
+                <p className="mt-4 text-[13px] leading-6 text-[#f5f2eb]/45">
+                  Property-specific. Reviewed by John Oliver. No obligation.
+                </p>
+              </div>
+            </div>
+          </Reveal>
         </div>
       </section>
 

@@ -270,3 +270,102 @@ select.sky-input option {
 .sky-anchor {
   scroll-margin-top: 4.5rem;
 }
+
+/* ── Seller CTA (Lotus homeowners) ───────────────────────────────────────────
+   The deep-teal band and the request dialog. Same zero-radius, hairline,
+   uppercase-tracking language as the rest of the page — the only new idea is
+   that the seller band gets --sky-teal-deep, which was defined in the palette
+   above and previously unused, so it reads as its own moment without
+   introducing a colour the page didn't already own. */
+
+.sky-seller-band {
+  background: var(--sky-teal-deep);
+}
+
+/* Hairline rule used to separate the seller band's supporting copy. */
+.sky-seller-rule {
+  border-color: rgba(245, 242, 235, 0.18);
+}
+
+/* Every CTA on the page is one fixed height, so the buttons line up when two
+   sit side by side and each clears the 44px touch target on a phone. */
+.sky-cta {
+  min-height: 3.25rem;
+  align-items: center;
+}
+
+/* ── Analysis dialog ─────────────────────────────────────────────────────── */
+
+.sky-modal-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 90; /* above the lightbox (80) and the sticky bar (40) */
+}
+
+.sky-modal-scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(13, 12, 9, 0.82);
+  backdrop-filter: blur(2px);
+}
+
+.sky-modal-scroll {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 1rem 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .sky-modal-scroll {
+    padding: 3.5rem 1.5rem;
+  }
+}
+
+.sky-modal-panel {
+  position: relative;
+  width: 100%;
+  max-width: 34rem;
+  background: var(--sky-ink);
+  border: 1px solid rgba(245, 242, 235, 0.22);
+  padding: 1.75rem 1.25rem 1.5rem;
+  box-shadow: 0 24px 70px rgba(13, 12, 9, 0.5);
+}
+
+@media (min-width: 640px) {
+  .sky-modal-panel {
+    padding: 2.5rem 2.5rem 2rem;
+  }
+}
+
+.sky-modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  color: rgba(245, 242, 235, 0.6);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.sky-modal-close:hover {
+  color: var(--sky-paper);
+}
+
+/* iOS zooms the whole page when a focused field is under 16px. The showing
+   form's 15px fields predate this; inside the dialog the zoom would fight the
+   scroll lock, so fields here are pinned to 16px. Visually identical at the
+   sizes this dialog renders at. */
+.sky-modal-panel .sky-input {
+  font-size: 1rem;
+}
