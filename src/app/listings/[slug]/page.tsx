@@ -2,8 +2,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { bedsLabel, bedsUnit, getListingBySlug, getListingPaths, priceDisplay, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
+import { bedsLabel, bedsUnit, getListingBySlug, getListingPaths, priceDisplay, showsOpenHouse, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
 import { getCommunityBySlug } from '@/lib/communities'
+import OpenHouseBanner from './OpenHouseBanner'
 import YlopoInit from '@/components/YlopoInit'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import { SITE_URL } from '@/lib/site'
@@ -227,6 +228,18 @@ export default async function ListingPage({ params }: Props) {
                 <p className="mt-2 text-sm text-white/70">{PRICE_PENDING_NOTE}</p>
               )}
 
+              {showsOpenHouse(listing) && listing.openHouses && (
+                <div className="mt-5">
+                  <OpenHouseBanner
+                    openHouses={listing.openHouses}
+                    address={listing.address}
+                    agentEmail={listing.listingAgent.email}
+                    agentName={listing.listingAgent.name}
+                    tone="onPhoto"
+                  />
+                </div>
+              )}
+
               <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-sm text-white/90">
                 <span><strong className="font-semibold text-white">{listing.beds}</strong> {bedsUnit(listing)}</span>
                 <span><strong className="font-semibold text-white">{bathsDisplay}</strong> Baths</span>
@@ -292,6 +305,18 @@ export default async function ListingPage({ params }: Props) {
                 </p>
                 {!listing.price && (
                   <p className="mt-2 text-sm text-slate-500">{PRICE_PENDING_NOTE}</p>
+                )}
+
+                {showsOpenHouse(listing) && listing.openHouses && (
+                  <div className="mt-6">
+                    <OpenHouseBanner
+                      openHouses={listing.openHouses}
+                      address={listing.address}
+                      agentEmail={listing.listingAgent.email}
+                      agentName={listing.listingAgent.name}
+                      tone="onLight"
+                    />
+                  </div>
                 )}
 
                 <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-700">

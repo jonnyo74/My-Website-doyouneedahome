@@ -23,6 +23,20 @@ export interface CaptionedPhoto extends ListingPhoto {
   caption: string
 }
 
+// A scheduled public showing. `date` and `time` are the exact strings the page
+// prints, so an unusual window ("Sunday 11-1, last tour starts 12:45") doesn't
+// have to be reverse-engineered out of a timestamp. `endsAt` exists only so the
+// banner can retire itself: the listing pages are statically generated, so
+// without it a page built before the open house would keep advertising it
+// forever.
+export interface OpenHouse {
+  date: string
+  time: string
+  // ISO 8601 with the Eastern offset — -04:00 during EDT, -05:00 in winter.
+  endsAt: string
+  note?: string
+}
+
 export interface ListingAgentInfo {
   name: string
   role: string
@@ -123,6 +137,9 @@ export interface Listing {
 
   // Property-specific fine print, printed ahead of the standard disclaimer.
   disclosures?: string[]
+
+  // Upcoming open houses, soonest first. Cleared once they've passed.
+  openHouses?: OpenHouse[]
 
   listingDateDisplay?: string
   domCount?: number
@@ -482,9 +499,9 @@ export const listings: Listing[] = [
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
-    price: 599000,
+    price: 590000,
     originalPrice: 625000,
-    pricePerSqft: 423.02,
+    pricePerSqft: 416.67,
 
     propertyType: 'Single-Family Residence',
     // Two bedrooms on the MLS. The third room is a den: it has a window but no
@@ -634,6 +651,14 @@ export const listings: Listing[] = [
       '2 bedrooms plus a den/flex room. The den has no closet and has a door opening into the garage; buyer to verify intended use and any conversion with the Martin County Building Department. Improvement dates provided by seller. All information deemed reliable but not guaranteed; measurements approximate. Buyer to verify all items independently.',
     ],
 
+    openHouses: [
+      {
+        date: 'Sunday, August 30',
+        time: '11:00 AM – 1:00 PM',
+        endsAt: '2026-08-30T13:00:00-04:00',
+      },
+    ],
+
     listingDateDisplay: 'June 12, 2026',
     domCount: 33,
     possession: 'Close of escrow',
@@ -704,7 +729,7 @@ export const listings: Listing[] = [
     brokerage: 'Premier Brokers International',
 
     metaTitle: '6145 SE Audubon Lane: 2 Bed + Den No-HOA Pool Home in Hobe Sound, FL',
-    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $599,000. Schedule a private showing.",
+    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $590,000. Schedule a private showing.",
   },
   {
     slug: '982-sw-worcester-lane',
@@ -939,6 +964,14 @@ export function showsPriceReduced(listing: Listing) {
     isAvailable(listing.status) &&
     Boolean(listing.price && listing.originalPrice && listing.originalPrice > listing.price)
   )
+}
+
+// An open house on a home that's already under contract sends people on a
+// wasted trip — the same reasoning that retires the Price Reduced badge. The
+// window having passed is handled separately, in the browser: these pages are
+// statically generated, so build time can't be trusted to be near show time.
+export function showsOpenHouse(listing: Listing) {
+  return isAvailable(listing.status) && Boolean(listing.openHouses?.length)
 }
 
 // The MLS bed count and the den are separate fields, so the numeral can never

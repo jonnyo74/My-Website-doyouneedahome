@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { bedsLabel, cardRotationMs, priceDisplay, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
+import { bedsLabel, cardRotationMs, priceDisplay, showsOpenHouse, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
 
 export default function ListingCard({ listing }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
@@ -49,6 +49,20 @@ export default function ListingCard({ listing }: { listing: Listing; index?: num
     }
   }, [photos.length, intervalMs])
 
+  // Same problem the listing page's banner has: the cards are statically
+  // generated, so a build from before the open house would keep advertising it
+  // afterwards. Render it server-side, then drop it in the browser once the
+  // last window has closed.
+  const openHouses = listing.openHouses
+  const [openHouseOver, setOpenHouseOver] = useState(false)
+  useEffect(() => {
+    if (!openHouses?.length) return
+    const latest = Math.max(...openHouses.map((o) => new Date(o.endsAt).getTime()))
+    if (Number.isFinite(latest) && Date.now() > latest) setOpenHouseOver(true)
+  }, [openHouses])
+
+  const showOpenHouse = showsOpenHouse(listing) && !openHouseOver
+
   return (
     <Link
       href={`/listings/${listing.slug}`}
@@ -86,11 +100,32 @@ export default function ListingCard({ listing }: { listing: Listing; index?: num
               Price Reduced
             </span>
           )}
+          {showOpenHouse && (
+            <span className="rounded-full bg-white/95 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-gold-700">
+              Open House
+            </span>
+          )}
         </div>
         <span className="absolute bottom-3 left-4 font-serif text-xl font-semibold text-white drop-shadow">
           {priceDisplay(listing)}
         </span>
       </div>
+
+      {/* The badge above says there is one; this says when. Sits between the
+          photo and the content block so it reads as part of the card rather
+          than as an overlay competing with the price. */}
+      {showOpenHouse && (
+        <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 border-b border-gold-200 bg-gold-50 px-6 py-2.5">
+          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-700">
+            Open House
+          </span>
+          {openHouses?.map((oh) => (
+            <span key={oh.endsAt} className="text-sm font-semibold text-slate-900">
+              {oh.date} · {oh.time}
+            </span>
+          ))}
+        </div>
+      )}
 
       {/* Content */}
       <div className="flex flex-1 flex-col p-6">
