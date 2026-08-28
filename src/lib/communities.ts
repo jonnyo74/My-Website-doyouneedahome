@@ -2222,7 +2222,7 @@ export const cities: CommunityItem[] = [
       'Pirate\'s Loft — waterfront dining in the historic downtown with panoramic river views',
       'Sailor\'s Return — casual waterfront dining on the St. Lucie River, popular with the boating crowd',
       'The Dog Bar — locals\' favorite casual spot with a great outdoor vibe',
-      'Conchy Joe\'s Seafood — oceanside Old Florida atmosphere and fresh seafood on Jensen Beach',
+      "Conchy Joe's Seafood — Old Florida atmosphere and fresh seafood on the Indian River in Jensen Beach",
       'Green Turtle Market and Bar — a barrier island institution on Hutchinson Island since 1947',
       'Mulligan\'s Beach House Bar & Grill — casual beach dining with stunning water views',
     ],
