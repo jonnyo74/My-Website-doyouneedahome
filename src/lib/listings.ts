@@ -733,7 +733,7 @@ export const listings: Listing[] = [
   },
   {
     slug: '982-sw-worcester-lane',
-    status: 'Active Under Contract',
+    status: 'Pending',
     mlsNumber: 'R11155179DX',
 
     address: '982 SW Worcester Lane',
