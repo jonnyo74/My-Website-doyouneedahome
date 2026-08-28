@@ -2778,7 +2778,62 @@ export const cities: CommunityItem[] = [
     metaTitle: 'Port Salerno, FL Homes for Sale | DO Homes Group',
     metaDescription: 'Port Salerno, FL homes for sale on the Manatee Pocket — a waterfront fishing village with charter boats, waterfront dining, and affordable Intracoastal real estate.',
     overview:
-      'Port Salerno is a community that rewards buyers who find it. Sitting on the Manatee Pocket — a protected harbor fed by the South Fork of the St. Lucie River — this unincorporated community south of Stuart is the Treasure Coast\'s most authentic fishing village. Charter boats line the docks. Waterfront restaurants have been feeding anglers and locals for decades. The pace is unhurried, the character is genuine, and the real estate offers Intracoastal waterfront access at prices that comparable properties in Jupiter or Juno Beach stopped offering years ago.\n\nPort Salerno is technically an unincorporated community within Martin County, but it has a clear identity and a distinct address. The Manatee Pocket is one of the best-protected natural harbors on the Treasure Coast — deep enough for sport fishing boats, calm enough for kayaks, and lined with a waterfront commercial strip that includes some of the region\'s most beloved seafood restaurants. Waterfront and canal homes here give buyers private dock access to the Pocket, the Indian River Lagoon, and the Atlantic Ocean through the St. Lucie Inlet with minimal offshore miles.\n\nPort Salerno carries its own ZIP code and its own identity, even though it\'s unincorporated Martin County rather than a standalone municipality — a detail that trips up out-of-town buyers Googling whether Port Salerno is "a real city." What matters more than the technicality is the market itself: waterfront and canal-front inventory here has historically lagged well behind comparable Stuart, Jupiter, and Juno Beach pricing, giving buyers a longer runway before Port Salerno catches up to its neighbors.\n\nFor buyers who want the Treasure Coast waterfront lifestyle at the most accessible price point — with Stuart\'s acclaimed downtown 10 minutes north and Jupiter 30 minutes south — Port Salerno is one of the region\'s best-kept real estate opportunities.',
+      'Port Salerno is a community that rewards buyers who find it. Sitting on the Manatee Pocket — a protected harbor fed by the South Fork of the St. Lucie River — this unincorporated community south of Stuart is the Treasure Coast\'s most authentic fishing village. Charter boats line the docks. Waterfront restaurants have been feeding anglers and locals for decades. The pace is unhurried, the character is genuine, and the real estate offers Intracoastal waterfront access at prices that comparable properties in Jupiter or Juno Beach stopped offering years ago.\n\nPort Salerno is technically an unincorporated community within Martin County, but it has a clear identity and a distinct address. The Manatee Pocket is one of the best-protected natural harbors on the Treasure Coast — deep enough for sport fishing boats, calm enough for kayaks, and lined with a waterfront commercial strip that includes some of the region\'s most beloved seafood restaurants. Waterfront and canal homes here give buyers private dock access to the Pocket, the Indian River Lagoon, and the Atlantic Ocean through the St. Lucie Inlet with minimal offshore miles.\n\nPort Salerno keeps a clear identity of its own, though much of it shares the 34997 ZIP code with Stuart and it\'s unincorporated Martin County rather than a standalone municipality — a detail that trips up out-of-town buyers Googling whether Port Salerno is "a real city." What matters more than the technicality is the market itself: waterfront and canal-front inventory here has historically lagged well behind comparable Stuart, Jupiter, and Juno Beach pricing, giving buyers a longer runway before Port Salerno catches up to its neighbors.\n\nFor buyers who want the Treasure Coast waterfront lifestyle at the most accessible price point — with Stuart\'s acclaimed downtown 10 minutes north and Jupiter 30 minutes south — Port Salerno is one of the region\'s best-kept real estate opportunities.',
+    // Port Salerno's head term is an entity/tourism SERP: knowledge panel, AI
+    // Overview, PAA and carousels, with the blue links going to Wikipedia and the
+    // county tourism board. Competing brokerages were being cited in the AI
+    // Overview while this page offered nothing extractable. These notes and FAQs
+    // answer the live PAA questions plainly, the way Loxahatchee's do.
+    placeNotes: [
+      {
+        heading: "Where is Port Salerno, and what county is it in?",
+        body: "Port Salerno is in Martin County, Florida, on the Treasure Coast. It sits on the Manatee Pocket, a protected natural harbor fed by the South Fork of the St. Lucie River, immediately south of Stuart and north of Hobe Sound. It is unincorporated — a Census-Designated Place rather than an incorporated town — so there is no city hall, no mayor and no municipal police department. Property taxes, permitting, land use decisions and law enforcement all run through Martin County and the Martin County Sheriff's Office. The 2020 census counted 10,401 residents.",
+      },
+      {
+        heading: "Is Port Salerno part of Stuart?",
+        body: "No — but the mail says otherwise, which is why the question comes up constantly. Port Salerno is unincorporated Martin County and sits outside the City of Stuart's limits, yet much of it shares the 34997 ZIP code with Stuart, so listings and mail routinely read Stuart, FL 34997 for a home that is squarely in Port Salerno. A mailing address does not establish city limits, millage, utilities or permitting authority. The distinction is worth money: an unincorporated parcel pays no City of Stuart millage, paying lighter county Municipal Service Taxing Units for fire, parks and stormwater instead — a thinner bundle of services for a lower total rate. Verify the line items for any specific parcel with the Martin County Property Appraiser.",
+        links: [
+          { label: "Port Salerno vs Stuart", href: "/blog/port-salerno-vs-stuart" },
+          { label: "Waterfront buyer's guide", href: "/blog/waterfront-homes-port-salerno-buyers-guide" },
+          { label: "What it's really like living here", href: "/blog/what-its-really-like-living-in-port-salerno-florida" },
+        ],
+      },
+      {
+        heading: "What Port Salerno is known for",
+        body: "A working waterfront rather than a resort one. The Manatee Pocket is a genuine commercial and charter fishing harbor — boats that go out to earn a living, not to decorate a marina — and the restaurants, boatyards and galleries along the water grew up serving that fleet. Sandsprit Park sits near the mouth of the Pocket with boat ramps and shoreline fishing. The St. Lucie Inlet puts the Atlantic within a short run of the docks, which is why so much of the region's sport fishing fleet is based here. The Old Florida character is both the draw and the constraint: the housing stock skews to older cottages and canal homes, and the waterfront commercial strip has stayed stubbornly independent.",
+        links: [
+          { label: "Best things to do in Port Salerno", href: "/blog/best-things-to-do-in-port-salerno-florida" },
+          { label: "The Manatee Pocket guide", href: "/blog/manatee-pocket-guide" },
+          { label: "History of Port Salerno", href: "/blog/history-of-port-salerno-florida" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What county is Port Salerno, FL in?",
+        a: "Port Salerno is in Martin County, Florida, on the Treasure Coast, immediately south of Stuart. It is unincorporated, so Martin County handles property taxes, permitting, schools and law enforcement directly — there is no separate city government.",
+      },
+      {
+        q: "Is Port Salerno part of Stuart, FL?",
+        a: "No. Port Salerno is unincorporated Martin County and lies outside the City of Stuart's limits. The confusion comes from the mail: much of Port Salerno shares the 34997 ZIP code with Stuart, so listings often show a Stuart address on a Port Salerno home. The address does not determine city limits, millage, utilities or permitting authority.",
+      },
+      {
+        q: "What is Port Salerno known for?",
+        a: "Its working waterfront on the Manatee Pocket — a protected natural harbor that still hosts a commercial and charter fishing fleet, waterfront seafood restaurants, boatyards and an arts district. It is also known for fast offshore access through the St. Lucie Inlet, which is why much of the Treasure Coast sport fishing fleet is based here.",
+      },
+      {
+        q: "What is Port Salerno close to?",
+        a: "Stuart is about 10 minutes north and Jensen Beach about 15. Jupiter and Port St. Lucie are each roughly 30 minutes, Palm Beach Gardens about 45, and Palm Beach International Airport about 55 minutes south. The Hutchinson Island beaches, including Bathtub Beach, are about 20 minutes northeast.",
+      },
+      {
+        q: "When was Port Salerno founded?",
+        a: "There is no clean answer. The community's own site and most regional sources give 1894, while other references place the settlement in the 1920s. The firmest documentary markers are the hand-dug opening of the St. Lucie Inlet in 1892 and a Salerno post office operating from 1909.",
+      },
+      {
+        q: "Is Port Salerno a good place to live?",
+        a: "It suits people who want the water to be the point — dock access, a short run to the inlet and an unpolished village character — and it remains one of the more affordable ways to own Intracoastal-access property in the region. The trade-offs are real: the housing stock is older, a good deal of it is on septic rather than sewer, and there is no walkable downtown of its own. Stuart, ten minutes north, supplies that.",
+      },
+    ],
     lifestyle: 'Port Salerno is built around a working commercial fishing harbor at the Manatee Pocket, with year-round dockage, quick inlet access, and canal-front homes at prices that no comparable waterfront to the south can match. The housing stock is largely older cottages, single-family homes, and condominiums, and the Old Florida architecture and harbor character are increasingly rare in the region. The social life centers on the water — fishing tournaments, the waterfront restaurant circuit, the charter boat community, and the organic neighborhood gatherings that develop in communities with genuine character.',
     localLoves: [
       'Manatee Pocket — one of the best-protected natural harbors on the east coast, lined with charter boats, waterfront restaurants, and a genuine fishing village atmosphere',
@@ -2797,7 +2852,7 @@ export const cities: CommunityItem[] = [
     ],
     dining: [
       'Shrimper\'s Waterfront Grill — longtime Manatee Pocket institution with fresh local seafood and waterfront views',
-      'Conchy Joe\'s Seafood — one of the most famous Old Florida waterfront seafood restaurants in the region, on the Manatee Pocket',
+      "Conchy Joe's Seafood (Jensen Beach) — one of the most famous Old Florida waterfront seafood houses on the Treasure Coast, 15 min north",
       'Sailor\'s Return Waterfront Restaurant — a fixture on the Treasure Coast dining scene, fresh fish and local character',
       'Manatee Pocket Waterfront bars — a rotating cast of local waterfront spots serving the charter boat crowd and locals',
       'Stuart (10 min north) — The Gafford, Osceola Street Café, and the full Stuart dining scene',
@@ -2854,7 +2909,7 @@ export const cities: CommunityItem[] = [
     highlights: [
       'Manatee Pocket is one of the best-protected natural harbors on the east coast — charter boats, waterfront restaurants, and direct Atlantic access through the St. Lucie Inlet',
       'Canal and waterfront home prices here represent the best value in Intracoastal-accessible real estate on the entire Treasure Coast',
-      'Conchy Joe\'s Seafood is a South Florida institution — one of the most photographed and beloved Old Florida waterfront restaurants anywhere on the east coast',
+      "The waterfront restaurant row on the Manatee Pocket — Shrimper's and Sailor's Return among them — is a working-harbor dining scene rather than a themed one",
       'Martin County Schools serve Port Salerno students — among Florida\'s top-ranked public school districts',
       'Cleveland Clinic\'s Martin County hospitals are 10–15 minutes north in Stuart — world-class healthcare accessible from a value-priced waterfront community',
       'Stuart\'s acclaimed historic downtown is 10 minutes north — Osceola Street dining, galleries, the Lyric Theatre, and the full Stuart social scene',
@@ -2862,7 +2917,7 @@ export const cities: CommunityItem[] = [
       'Authentic Old Florida fishing village character that is genuinely disappearing everywhere else in South Florida',
     ],
     keyLinks: [
-      { label: 'Conchy Joe\'s Seafood', url: 'https://www.conchyjoes.com', category: 'Dining' },
+      { label: "Conchy Joe's Seafood (Jensen Beach)", url: 'https://www.conchyjoes.com', category: 'Dining' },
       { label: 'St. Lucie Inlet State Park', url: 'https://www.floridastateparks.org/parks-and-trails/st-lucie-inlet-preserve-state-park', category: 'Parks & Nature' },
       { label: 'Indian River Lagoon Program', url: 'https://www.ircf.org', category: 'Parks & Nature' },
       { label: 'Martin County Schools', url: 'https://www.martinschools.org', category: 'Education' },
