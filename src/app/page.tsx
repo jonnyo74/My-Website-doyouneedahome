@@ -26,11 +26,11 @@ const testimonials = [
 ]
 
 const stripPhotos = [
-  { src: '/images/ibis/ibis-photos-001.png', label: 'Ibis G&CC' },
-  { src: '/images/jupiter/jupiter-003.jpg', label: 'Jupiter' },
-  { src: '/images/west-palm-beach/waterfront-024.jpg', label: 'West Palm Beach' },
-  { src: '/images/singer-island/singer-island-0035.jpeg', label: 'Singer Island' },
-  { src: '/images/juno-beach/juno-beach-025.jpg', label: 'Juno Beach' },
+  { src: '/images/ibis/ibis-photos-001.png', label: 'Ibis G&CC', slug: 'ibis' },
+  { src: '/images/jupiter/jupiter-003.jpg', label: 'Jupiter', slug: 'jupiter' },
+  { src: '/images/west-palm-beach/waterfront-024.jpg', label: 'West Palm Beach', slug: 'west-palm-beach' },
+  { src: '/images/singer-island/singer-island-0035.jpeg', label: 'Singer Island', slug: 'singer-island' },
+  { src: '/images/juno-beach/juno-beach-025.jpg', label: 'Juno Beach', slug: 'juno-beach' },
 ]
 
 export default function Home() {
@@ -186,28 +186,41 @@ export default function Home() {
               Explore communities →
             </Link>
           </div>
-          {/* Desktop bento */}
+          {/* Desktop bento — every tile links to its community page: the labels
+              and hover-zoom read as clickable, so they have to be. */}
           <div className="hidden h-[400px] grid-cols-3 grid-rows-2 gap-1.5 overflow-hidden rounded-2xl md:grid">
-            <div className="relative col-span-1 row-span-2 overflow-hidden">
+            <Link
+              href={`/communities/${stripPhotos[0].slug}`}
+              className="group relative col-span-1 row-span-2 overflow-hidden rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-600"
+            >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={stripPhotos[0].src} alt={stripPhotos[0].label} className="h-full w-full object-cover transition duration-700 hover:scale-105" />
+              <img src={stripPhotos[0].src} alt={stripPhotos[0].label} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
               <span className="absolute bottom-3 left-4 text-xs font-semibold text-white drop-shadow">{stripPhotos[0].label}</span>
-            </div>
+            </Link>
             {stripPhotos.slice(1).map((p) => (
-              <div key={p.src} className="relative overflow-hidden">
+              <Link
+                key={p.src}
+                href={`/communities/${p.slug}`}
+                className="group relative overflow-hidden rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-600"
+              >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={p.src} alt={p.label} className="h-full w-full object-cover transition duration-700 hover:scale-105" />
+                <img src={p.src} alt={p.label} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                 <span className="absolute bottom-2 left-3 text-xs font-semibold text-white drop-shadow">{p.label}</span>
-              </div>
+              </Link>
             ))}
           </div>
           {/* Mobile 2-col */}
           <div className="grid grid-cols-2 gap-1.5 overflow-hidden rounded-2xl md:hidden">
             {stripPhotos.slice(0, 4).map((p) => (
-              <div key={p.src} className="relative aspect-[4/3] overflow-hidden">
+              <Link
+                key={p.src}
+                href={`/communities/${p.slug}`}
+                className="relative aspect-[4/3] overflow-hidden rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-600"
+              >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={p.src} alt={p.label} className="h-full w-full object-cover" />
-              </div>
+                <span className="absolute bottom-2 left-3 text-xs font-semibold text-white drop-shadow">{p.label}</span>
+              </Link>
             ))}
           </div>
         </div>
