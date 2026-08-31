@@ -2648,7 +2648,7 @@ export const cities: CommunityItem[] = [
     popularNeighborhoods: ['Hobe Sound Barrier Island', 'Gomez Grant', 'Lost Lake / Equestrian Interior'],
     photos: [
       '/images/hobe-sound/local-bridge-road-tunnel.jpg',
-      '/images/hobe-sound/local-blowing-rocks-shore.jpg',
+      '/images/hobe-sound/local-hobe-sound-entry-sign.jpg',
       '/images/hobe-sound/local-beach-empty-sand.jpg',
       '/images/hobe-sound/local-blowing-rocks-beach.jpg',
       '/images/hobe-sound/local-county-line-sign.jpg',

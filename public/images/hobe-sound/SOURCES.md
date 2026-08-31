@@ -16,6 +16,8 @@
 | `local-blowing-rocks-beach.jpg` | Exposed limestone shelf along the sand at low surf — inline in the **Blowing Rocks** section of that article |
 | `local-atlantic-surf.jpg` | Turquoise water, horizon and an incoming surf line — hero on `pros-and-cons-of-living-in-hobe-sound-florida` |
 | `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
+| `local-hobe-sound-entry-sign.jpg` | The **Hobe Sound** median sign on Bridge Road at the entrance to town, under a cabbage-palm cluster — Hobe Sound community-page gallery |
+| `local-poinciana-gardens-sign.jpg` | The **Poinciana Gardens** entrance monument — hero on `best-neighborhoods-in-hobe-sound-florida` |
 
 ## The blowhole frame — the best photograph we have of this coast
 
@@ -130,6 +132,68 @@ IMG_4523 was chosen over the other Bridge Road frames specifically to avoid a se
 opening on the same picture. `local-bridge-road-banyans.jpg` (#5) is the symmetrical dead-centre
 shot; this one is from the north shoulder with the guardrail curving away and the road bending
 right, so the two read as different places even though they are metres apart.
+
+## The 2026-08-31 drop — two signs, both ours
+
+Three frames landed in this folder as `IMG_6546`–`IMG_6548`, all **5712×4284**, EXIF stripped
+(no GPS). No people, no business signage, no third-party branding. John confirmed the location
+directly: the "Hobe Sound" sign is **on Bridge Road as you enter town**.
+
+`IMG_6547` and `IMG_6548` are the same sign a half step apart. **6548 is the better frame** —
+fuller palm crowns and more sky; 6547 is tighter and clips the canopy. 6547 is unused.
+
+### `local-hobe-sound-entry-sign.jpg` — community-page gallery
+
+Cut from **IMG_6548**, `extract({ left: 229, top: 120, width: 5254, height: 3941 })` resized to
+**1440×1080**, quality 78, 417KB. No upscale. Same 4:3 spec as `local-bridge-road-tunnel.jpg`,
+because `community.photos` renders in a bento grid — a 3.4:1 article banner is the wrong shape
+there.
+
+This is the frame the city page had been missing. The note above records that the Jupiter Island
+sign was deliberately cropped **out** of `local-bridge-road-tunnel.jpg` because it named a
+different municipality under an `<h1>` reading Hobe Sound. This one names the right place, in
+frame, on the road the articles keep citing — so the gallery now proves its own location instead
+of working around a sign that contradicted it.
+
+It went in at `photos[1]`, the first gallery slot, **replacing `local-blowing-rocks-shore.jpg`**.
+The array is capped in practice: the page renders `photos[0]` as hero and OG image and
+`photos.slice(1, 6)` as the gallery, so a seventh entry would have been silently invisible.
+`local-blowing-rocks-shore.jpg` was the one to drop — it is a 3.4:1 banner crop in a grid of 4:3
+tiles, and its subject duplicates `local-blowing-rocks-beach.jpg` two slots later. It is **now
+orphaned** but still in the repo.
+
+`local-bridge-road-tunnel.jpg` stays as `photos[0]`. The banyan arch is the stronger image and
+John signed off on it; the entry sign is documentary, not a hero.
+
+### `local-poinciana-gardens-sign.jpg` — best-neighborhoods hero
+
+Cut from **IMG_6546**, `extract({ left: 0, top: 760, width: 5140, height: 1512 })` resized to
+**2048×602** (3.40:1), quality 84, 276KB. No upscale.
+
+**`width: 5140` is doing real work.** A white Nissan sits at the right edge from roughly
+`x: 5198`, close enough to the camera that its Florida plate may be legible at full resolution.
+Cropping to 5140 clears it entirely rather than relying on the band height to miss it. The car
+still visible far right in the finished banner is a different one, parked down the street and
+too distant to read.
+
+`top: 760` was chosen over `960`. Both cut the lamp finials — a 3.4:1 band of a 4:3 frame cannot
+hold the finials and the lettering at once, since that span needs 1784px of height and the band
+is 1512. At `960` the globes are gone and only their black bases survive, which reads as debris
+floating at the top edge. At `760` most of both globes are in frame and cut by the edge, which
+reads as framing. The left third is road and treeline, so the title overlay lands clear of the
+lettering.
+
+Replaced `stock-golf-fairway-sunset.jpg`, an Unsplash frame of unstated location, and the
+`heroImageCredit` line came out with it — this one is ours. The swap matters for this article
+specifically: **Poinciana Gardens is named in the body and twice more in the FAQ**, and it is the
+subdivision on the active 6145 SE Audubon Lane listing. The article now opens on a place it
+actually discusses instead of a golf course nobody can locate.
+
+`stock-golf-fairway-sunset.jpg` is **now orphaned** and still in the repo.
+
+⚠️ Same warning as the 2021 banyan frames: `IMG_6546`–`IMG_6548` were dropped straight into
+`public/images/hobe-sound/` at 12.7MB total, are served publicly and are off naming convention.
+They should move to the master library, keeping only the derived crops here.
 
 ## Licensed stock
 
@@ -352,6 +416,10 @@ established before any of them goes on the site.
 The Dixie Highway historic district and the Bridge Road town-centre block, Jonathan
 Dickinson State Park, Hobe Sound Beach, and a residential street in one of the established
 neighbourhoods.
+
+**Harry and the Natives** (11910 SE Federal Hwy, closed Mondays) and the **Nathaniel P. Reed
+refuge shoreline** are also still unshot. The 2026-08-31 drop closed none of these three — it
+added two signs, which is a different and smaller gap.
 
 The banyan tunnel is **no longer on this list** — see above. What is still missing is the
 *other* end of Bridge Road: the shops between Dixie and the railway, which is the hero
