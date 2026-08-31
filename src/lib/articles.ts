@@ -2916,6 +2916,8 @@ Two miles of municipal shoreline along A1A, and it's the anchor of the whole eas
 
 What makes it unusual is what isn't there. No commercial strip on the sand, no boardwalk of shops, no high-rise wall — just dune, sand, and a road with houses and low buildings behind it. That restraint was a deliberate civic choice decades ago and it's the reason the beach still feels like a beach.
 
+Readers voting in USA TODAY's 10Best Readers' Choice Awards named it Best Beach in Florida in 2026 — the third consecutive year Delray has taken the title. It's a public vote rather than an editorial ranking, and voters pointed to the coastline, the walkable downtown behind it, and the community feel.
+
 The main stretch near the downtown is lifeguarded, social, and busy. It gets progressively quieter as you move north or south from the center.
 
 **Practical notes:** parking is metered along A1A and in a handful of lots, it fills early on good days in season, and it's the single most common source of new-resident frustration. Go early, or go in summer when the whole problem evaporates.
@@ -4021,6 +4023,8 @@ Boca's coastal parks are among the best-maintained in the county, and each has a
 **South Beach Park** is the more straightforward beach stop — sand, surf, and facilities.
 
 All three charge for parking, and all three are worth it.
+
+**Bark Beach** is the off-leash dog beach inside Spanish River Park Beach, between lifeguard towers 18 and 20 at 3001 N. Ocean Boulevard on A1A. As of 2026 it runs seven days a week rather than weekends only, with dogs off-leash from 7 to 9 a.m. and again from 3 p.m. until sunset, and a pass is required for each dog — $15 for three days, $35 for the season, or $210 annually for non-residents. Fees are reviewed annually, so confirm the current ones with the City of Boca Raton at [myboca.us](https://www.myboca.us) before you go.
 
 ## Gumbo Limbo Nature Center
 
@@ -22232,6 +22236,8 @@ Most visitors do the main paddling run. The quieter back trails are where it rea
 ## Busch Wildlife Sanctuary
 
 A local institution, and the reliable answer when you have kids and a rainy morning. It's a rescue and rehabilitation center where you walk shaded trails past Florida panthers, bald eagles, owls, bobcats, and alligators — animals that can't be returned to the wild. Genuinely good, and a favorite with residents rather than a tourist trap.
+
+Behind the trails is a working wildlife hospital that treats thousands of injured, sick, and orphaned animals every year — many of them hit by cars, tangled in fishing line, or displaced by storms — with release back into the wild as the goal. You can support it by symbolically adopting one of the resident ambassador animals, volunteering on site, or donating at [buschwildlife.org](https://buschwildlife.org).
 
 ## Eat, drink, and watch the sun go down
 
