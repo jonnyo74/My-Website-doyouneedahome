@@ -1463,10 +1463,6 @@ They have different tax rates, different rules, and completely different markets
 
 ## Settling in
 
-Pick your zone first
-
-## Settling in
-
 Pick your zone first — walkable-downtown, historic-house, artsy-north, or suburban-west — because those are four genuinely different lives inside one city.
 
 Then do the three things newcomers skip: ride the train somewhere, go to the GreenMarket, and walk your prospective block after dark before you buy. Those three cover more ground than any amount of online research.
@@ -3703,10 +3699,6 @@ For anyone who has lived somewhere that empties in May, that steadiness is a gen
 
 **It's expensive**, particularly east of I-95 and near the water.
 
-## The trade-offs
-
-**It's expensive**, particularly east of I-95 and near the water.
-
 **Club and association fees are part of the equation.** Many of the most desirable communities are gated golf-and-country-club neighborhoods where dues, initiation, and minimums add a substantial monthly figure on top of the mortgage. This is where Boca budgets most often break.
 
 **It's corporate and manicured.** By design. If you want funky, eclectic, or accidental, Delray is fifteen minutes north and does exactly that.
@@ -3728,10 +3720,6 @@ For a city that can otherwise feel like it runs entirely on retail and golf, the
 Worth stating plainly, because it factors heavily into why people relocate here later in life: Boca carries strong hospital and specialty medical coverage, and the concentration of practices is high.
 
 Combined with the depth of 55+ housing west of the Turnpike, that makes the city one of the more practical places in South Florida to plan for the long term rather than just the next decade.
-
-## Who ends up happy here
-
-People who want the polish
 
 ## Who ends up happy here
 
@@ -3838,10 +3826,6 @@ That's the thing outsiders miss about Boca: a large share of social life happens
 **Summer, May through October**, is hot and humid with afternoon storms that build and clear within half an hour. Locals shift outdoor time to mornings and evenings and stop noticing within a year.
 
 **Hurricane season runs June through November.** Know your evacuation zone and your flood status before the first storm forms, not during.
-
-## Getting around and out
-
-I-95 and Florida's Turnpike both run through, and the city sits roughly midway between two international airports
 
 ## Getting around and out
 
@@ -3960,10 +3944,6 @@ The large club communities and west Boca are the opposite: deep inventory, regul
 
 ## On schools
 
-School selection is a common reason buyers choose Boca
-
-## On schools
-
 School selection is a common reason buyers choose Boca, and the city has an unusually wide range of public, magnet, and private options.
 
 Assignments and school grades are reviewed and updated annually, and they vary across a city this large. **Verify current assignments directly with the School District of Palm Beach County** for the specific address rather than relying on reputation or a listing.
@@ -4062,10 +4042,6 @@ Boca takes racquet sports seriously, with public facilities alongside the extens
 
 ## Golf
 
-Boca is a serious golf town
-
-## Golf
-
 Boca is a serious golf town, though much of it sits behind club gates in the western communities. Public and semi-private options exist, and the concentration of courses within a short drive is high even by South Florida standards.
 
 ## Day trips within an hour
@@ -4089,10 +4065,6 @@ A practical shortlist, since Boca residents host a lot of out-of-town guests.
 **Wanting a night out:** dinner at Mizner Park or Royal Palm Place, or drive fifteen minutes to Delray for Atlantic Avenue if they want more energy.
 
 **Wanting nature:** Daggerwing in the morning before it heats up, or the boardwalk and tower at Spanish River.
-
-## Seasonal timing
-
-**November through April** is peak: ideal weather
 
 ## Seasonal timing
 
@@ -4476,10 +4448,6 @@ Also check **permit history** on anything recently renovated. Unpermitted work i
 
 ## The bottom line
 
-Boca is a premium city with an unusually wide internal range.
-
-## The bottom line
-
 Boca is a premium city with an unusually wide internal range. West Boca and the age-restricted communities let you dial the cost down substantially, and no state income tax applies at every level.
 
 What decides whether it works for you isn't the list price — it's the club. Get that number in writing first, and the rest of the math becomes straightforward.`,
@@ -4590,10 +4558,6 @@ Twenty minutes there tells you more about why Boca looks the way it does than an
 Boca runs seasonal markets and community events through the cooler months, mostly aimed at residents rather than visitors and mostly free.
 
 For newcomers they're one of the few reliable ways to meet people outside a club, and they're consistently underpublicized — the city calendar is worth checking monthly rather than waiting to hear about things.
-
-## Why these matter
-
-Boca gets dismissed as a shopping city
 
 ## Why these matter
 
@@ -4831,10 +4795,6 @@ Sugar Sand Park and the beach parks both pair naturally with a casual meal after
 ## Practical local advice
 
 - **Reservations in season**, always, at anywhere popular.
-
-## Practical local advice
-
-- **Reservations in season**, always, at anywhere popular.
 - **Mizner Park parking** is structured and straightforward, which is a genuine advantage over street-parking districts elsewhere.
 - **Dress code is real** at the higher-end rooms in a way it isn't in most of the county. Boca dresses up for dinner.
 - **Lunch is easier than dinner** during season at the busier places.
@@ -4853,10 +4813,6 @@ Worth separating from the destination districts, because it's the honest picture
 East of I-95, that means the neighborhood spots scattered through downtown and along the coastal corridor. West of the Turnpike, it means the retail centers attached to each large community and the concentration along Glades Road — convenient, predictable, and where most west Boca households actually eat when nobody wants to think about it.
 
 The east/west dining split mirrors the housing split almost exactly, and which side you buy on will shape your everyday options more than any individual restaurant recommendation.
-
-## The bottom line
-
-Mizner Park for a polished evening
 
 ## The bottom line
 
