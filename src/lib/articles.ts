@@ -2798,7 +2798,7 @@ For the texture rather than the mechanics, read [what living here is actually li
     cityName: 'Delray Beach',
     type: "Best Neighborhoods In",
     order: 3,
-    heroImage: '/public/Delray Beach/delray-beach-modern-home.JPEG',
+    heroImage: '/public/Delray Beach/delray-beach-beachside-cottage.jpg',
     seoTitle: "Best Neighborhoods in Delray Beach, Florida",
     metaTitle: "Best Neighborhoods in Delray Beach, Florida",
     metaDescription: "From walkable downtown and Lake Ida to Tropic Isle boating and west Delray's golf communities — a local guide to the best neighborhoods in Delray Beach.",
@@ -2846,6 +2846,8 @@ Just south and east of the core, smaller and older housing stock, and one of the
 ## The beachside blocks and Seagate — the premium tier
 
 East of the Intracoastal, between the waterway and the ocean. Seagate to the south of Atlantic is the best-known name, and the beach blocks generally are the top of the market: single-family homes, some low-rise condos, and direct beach access.
+
+![Renovated pastel beach cottage with a black-and-white striped awning and a wicker seating area](/public/Delray%20Beach/delray-beach-cottage-porch.jpg "Much of the beachside stock is small, old and expensive — renovated cottages on modest lots rather than anything that reads as an estate.")
 
 *Check:* flood zone and elevation certificate, wind mitigation, and the full insurance picture before you're emotionally committed. Barrier-side property carries costs that don't show up on the listing — our [cost breakdown](/blog/cost-of-living-in-delray-beach-florida) walks through them.
 
