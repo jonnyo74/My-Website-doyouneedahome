@@ -12,7 +12,8 @@ export const metadata: Metadata = {
 const agents = [
   {
     name: 'Christine Dekant',
-    title: 'REALTOR®',
+    title: 'REALTOR® · Co-Founder, DO Homes Group',
+    brokerage: 'Premier Brokers International',
     credentials: ['RENE', 'GRI', 'CLA', 'CPRES', 'REDM', 'C2EX'],
     license: '3264840',
     phone: '(561) 778-7042',
@@ -20,11 +21,17 @@ const agents = [
     email: 'christine@doyouneedahome.com',
     photo: '/images/Christine-rooftop.png',
     photoPosition: 'object-top',
-    bio: "Christine Dekant is one of Palm Beach County's most trusted REALTORS®, with a long track record of helping buyers find the right home and sellers achieve top dollar. She is known for her professionalism, deep market knowledge, responsiveness, and genuine care for every client she serves. Clients return to Christine time and again — many have completed three, four, or five transactions with her.",
+    bio: [
+      'Christine Dekant has been serving residential real estate clients in Palm Beach County since 2012. She is known for her analytical approach, responsiveness, market knowledge, and straightforward guidance.',
+      'Her business has grown largely through repeat clients and referrals, including clients who have worked with her through multiple purchases and sales over the years.',
+      'Before entering real estate, Christine worked in accounting within the renewable energy industry. That financial background continues to shape the detail-oriented approach she brings to pricing, comparable sales, market trends, negotiations, and property evaluation.',
+      'Christine works with buyers and sellers across a broad range of residential real estate, including condominiums, single-family homes, resale properties, new construction, and relocation.',
+    ],
   },
   {
     name: 'John Oliver',
-    title: 'REALTOR®',
+    title: 'REALTOR® · Co-Founder, DO Homes Group',
+    brokerage: 'Premier Brokers International',
     credentials: ['ABR', 'RENE', 'RSPS', 'SRS'],
     license: '3355676',
     phone: '(561) 786-3630',
@@ -32,7 +39,12 @@ const agents = [
     email: 'john@doyouneedahome.com',
     photo: '/images/Event-81.jpg',
     photoPosition: 'object-[center_25%]',
-    bio: 'John Oliver brings honesty, dedication, and an exceptional work ethic to every real estate transaction. He specializes in helping buyers and sellers across Palm Beach County, with a particular focus on condos and waterfront properties. John is known for going above and beyond — clients consistently describe him as patient, knowledgeable, and genuinely invested in getting the best outcome for them.',
+    bio: [
+      'John Oliver brings a practical, consultative approach to real estate, helping buyers and sellers understand both the opportunities and the details behind each transaction.',
+      'After relocating to South Florida from Connecticut in 2007, John developed extensive familiarity with Palm Beach County and the surrounding market, with particular experience in condominiums, waterfront properties, investment opportunities, new construction, and resale homes.',
+      'Clients appreciate John’s patience, responsiveness, and willingness to take the time to explain the process, whether they are seasoned property owners or purchasing in South Florida for the first time.',
+      'John is also a 2018 and 2020 Platinum Producer Award recipient at Premier Brokers International.',
+    ],
   },
 ]
 
@@ -45,12 +57,22 @@ export default function TeamPage() {
         <div className="mx-auto max-w-5xl">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-gold-600">Our Team</p>
           <h1 className="mt-3 font-serif text-4xl font-semibold text-slate-900 sm:text-5xl">
-            Meet Christine & John
+            Meet Christine &amp; John
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-            Licensed REALTORS® with Premier Brokers International, serving buyers and sellers across
-            Palm Beach Island, Palm Beach County, and the Treasure Coast — with a proven track record
-            and a direct line of communication at all times.
+            Licensed REALTORS® with Premier Brokers International, Christine Dekant and John Oliver help
+            buyers and sellers throughout Palm Beach County and surrounding South Florida and Treasure
+            Coast markets.
+          </p>
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-600">
+            As Co-Founders of DO Homes Group, DoYouNeedAHome.com, and CondoWPB.com, they combine local
+            market knowledge, practical guidance, and direct communication to help clients make informed
+            real estate decisions.
+          </p>
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-600">
+            Whether buying a primary residence, selling a longtime home, relocating to South Florida,
+            purchasing a condominium, exploring new construction, or evaluating an investment property,
+            clients work directly with Christine and John throughout the process.
           </p>
         </div>
       </section>
@@ -78,28 +100,46 @@ export default function TeamPage() {
                 <div className="flex flex-col gap-5 p-8">
                   <div>
                     <h2 className="font-serif text-2xl font-semibold text-slate-900">{agent.name}</h2>
-                    <p className="mt-1 text-sm font-medium text-gold-600">{agent.title} · Premier Brokers International</p>
+                    <p className="mt-1 text-sm font-medium text-gold-600">{agent.title}</p>
+                    <p className="mt-1 text-sm text-slate-500">{agent.brokerage}</p>
                   </div>
 
-                  <p className="text-sm leading-7 text-slate-600">{agent.bio}</p>
-
-                  <div className="flex flex-wrap gap-2">
-                    {agent.credentials.map((c) => (
-                      <span
-                        key={c}
-                        className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600"
-                      >
-                        {c}
-                      </span>
+                  <div className="space-y-4">
+                    {agent.bio.map((paragraph) => (
+                      <p key={paragraph} className="text-sm leading-7 text-slate-600">
+                        {paragraph}
+                      </p>
                     ))}
+                  </div>
+
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Credentials</p>
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {agent.credentials.map((c) => (
+                        <span
+                          key={c}
+                          className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600"
+                        >
+                          {c}
+                        </span>
+                      ))}
+                    </div>
                   </div>
 
                   <div className="space-y-2 border-t border-slate-100 pt-5 text-sm">
                     <p className="text-slate-500">License #{agent.license}</p>
-                    <a href={agent.phoneHref} className="block text-slate-700 transition hover:text-gold-600">
+                    <a
+                      href={agent.phoneHref}
+                      aria-label={`Call ${agent.name} at ${agent.phone}`}
+                      className="block text-slate-700 transition hover:text-gold-600"
+                    >
                       {agent.phone}
                     </a>
-                    <a href={`mailto:${agent.email}`} className="block text-slate-700 transition hover:text-gold-600">
+                    <a
+                      href={`mailto:${agent.email}`}
+                      aria-label={`Email ${agent.name} at ${agent.email}`}
+                      className="block text-slate-700 transition hover:text-gold-600"
+                    >
                       {agent.email}
                     </a>
                   </div>
@@ -107,12 +147,14 @@ export default function TeamPage() {
                   <div className="flex flex-col gap-3 sm:flex-row">
                     <a
                       href={agent.phoneHref}
+                      aria-label={`Call ${agent.name} now at ${agent.phone}`}
                       className="flex items-center justify-center rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-600"
                     >
                       Call Now
                     </a>
                     <a
                       href={`mailto:${agent.email}`}
+                      aria-label={`Send email to ${agent.name} at ${agent.email}`}
                       className="flex items-center justify-center rounded-full border border-slate-200 px-6 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
                     >
                       Send Email
@@ -125,22 +167,36 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Palm Beach Island */}
+      {/* Local Expertise */}
       <section className="bg-white px-6 pb-16 sm:px-8">
         <div className="mx-auto max-w-5xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Palm Beach Island</p>
-          <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">Representing Buyers on Palm Beach Island</h2>
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Local Expertise</p>
+          <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">
+            Serving Palm Beach County and Surrounding Markets
+          </h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
-            Palm Beach Island real estate moves differently than the mainland — off-market listings, estate
-            sales, and relationships that matter as much as MLS access. Christine and John work as buyer&apos;s
-            agents across the Island&apos;s estate section, mid-town, and North End, alongside the broader Palm
-            Beach County and Treasure Coast markets, giving clients a single point of contact whether the
-            search starts on the Island or expands beyond it.
+            Christine and John work with buyers and sellers throughout Palm Beach County and neighboring
+            South Florida and Treasure Coast communities.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Their experience spans a wide range of property types and price points, including condominiums,
+            single-family homes, waterfront properties, new construction, resale homes, relocation, and
+            investment opportunities.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Whether a client’s search begins in Palm Beach County or extends into surrounding counties,
+            Christine and John provide the same practical guidance, market insight, and direct communication
+            throughout the process.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Their approach is never one-size-fits-all. They focus on understanding each client’s priorities,
+            evaluating the available options carefully, and helping buyers and sellers make informed
+            decisions based on current market conditions and individual goals.
           </p>
         </div>
       </section>
 
-      {/* Brokerage — Christine & Ray */}
+      {/* Brokerage */}
       <section className="bg-slate-50 px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-5xl">
           <div className="grid gap-10 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-card lg:grid-cols-2">
@@ -159,24 +215,26 @@ export default function TeamPage() {
                 <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">Premier Brokers International</h2>
               </div>
               <p className="text-sm leading-7 text-slate-600">
-                Christine and John are proud members of Premier Brokers International, one of Palm Beach County's
-                leading independent brokerages. Pictured with broker Ray Carrano at a Premier Brokers award ceremony —
-                Christine has been recognized as a top producer year after year.
+                Christine and John are REALTORS® with Premier Brokers International in Palm Beach Gardens.
               </p>
               <p className="text-sm leading-7 text-slate-600">
-                We also run{' '}
-                <a
-                  href="https://www.condowpb.com/about"
-                  className="font-medium text-gold-600 underline decoration-gold-300 underline-offset-2 transition hover:text-gold-700"
-                >
-                  CondoWPB.com — our dedicated guide to West Palm Beach condo living
-                </a>
-                .
+                Their affiliation with Premier Brokers International provides the brokerage resources and
+                support behind their work as DO Homes Group while allowing clients to work directly with
+                Christine and John throughout the transaction.
+              </p>
+              <p className="text-sm leading-7 text-slate-600">
+                Christine has also received recognition for her production through Premier Brokers
+                International.
               </p>
               <div className="space-y-1 text-sm text-slate-600">
-                <p>9123 North Military Trail Suite 104</p>
+                <p>Premier Brokers International</p>
+                <p>9123 North Military Trail, Suite 104</p>
                 <p>Palm Beach Gardens, FL 33410</p>
-                <a href="tel:+15617837733" className="block pt-1 text-slate-700 transition hover:text-gold-600">
+                <a
+                  href="tel:+15617837733"
+                  aria-label="Call Premier Brokers International at (561) 783-7733"
+                  className="block pt-1 text-slate-700 transition hover:text-gold-600"
+                >
                   (561) 783-7733
                 </a>
               </div>
@@ -185,11 +243,58 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Team Photos */}
+      {/* Real Estate Resources */}
       <section className="bg-white px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-5xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Our Real Estate Resources</p>
+          <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">More Than a Team Website</h2>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Christine and John are also the Co-Founders of two real estate resources designed to help
+            consumers better understand South Florida real estate before they buy or sell.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            <Link
+              href="/"
+              className="font-medium text-gold-600 underline decoration-gold-300 underline-offset-2 transition hover:text-gold-700"
+            >
+              DoYouNeedAHome.com
+            </Link>{' '}
+            provides community guides, local real estate information, market content, and resources for
+            buyers and sellers throughout Palm Beach County and surrounding areas.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            <a
+              href="https://www.condowpb.com/about"
+              className="font-medium text-gold-600 underline decoration-gold-300 underline-offset-2 transition hover:text-gold-700"
+            >
+              CondoWPB.com
+            </a>{' '}
+            is dedicated specifically to the West Palm Beach condominium market, with detailed building
+            information, comparisons, market insights, and resources for condo buyers, sellers, and owners.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Together, the two sites reflect the same goal: giving consumers useful, practical information so
+            they can make better-informed real estate decisions.
+          </p>
+        </div>
+      </section>
+
+      {/* Team Photos */}
+      <section className="bg-white px-6 pb-16 sm:px-8">
+        <div className="mx-auto max-w-5xl">
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">The Team</p>
-          <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">Christine & John in the Field</h2>
+          <h2 className="mt-2 font-serif text-2xl font-semibold text-slate-900">Christine &amp; John in the Field</h2>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Real estate is personal, and clients work directly with us.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            From property tours and showings to inspections, negotiations, closings, and everything in
+            between, we stay involved throughout the process and remain available when questions come up.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            Our goal is simple: provide knowledgeable guidance, honest communication, and a level of service
+            that clients feel comfortable returning to and recommending to others.
+          </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
@@ -218,8 +323,32 @@ export default function TeamPage() {
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">Ready to Work Together?</h2>
           <p className="mx-auto mt-4 max-w-xl text-slate-600">
-            Call or email Christine or John directly — we respond the same day.
+            Call or email Christine or John directly to start a conversation about your real estate plans.
           </p>
+          <div className="mx-auto mt-8 flex max-w-md flex-col gap-4">
+            {agents.map((agent) => (
+              <div
+                key={agent.name}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-card"
+              >
+                <h3 className="font-serif text-lg font-semibold text-slate-900">{agent.name}</h3>
+                <a
+                  href={agent.phoneHref}
+                  aria-label={`Call ${agent.name} at ${agent.phone}`}
+                  className="mt-2 block text-sm text-slate-700 transition hover:text-gold-600"
+                >
+                  {agent.phone}
+                </a>
+                <a
+                  href={`mailto:${agent.email}`}
+                  aria-label={`Email ${agent.name} at ${agent.email}`}
+                  className="mt-1 block break-words text-sm text-slate-700 transition hover:text-gold-600"
+                >
+                  {agent.email}
+                </a>
+              </div>
+            ))}
+          </div>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href="https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[minPrice]=400000"
