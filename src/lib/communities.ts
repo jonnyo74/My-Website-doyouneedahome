@@ -2977,12 +2977,11 @@ export const cities: CommunityItem[] = [
       { label: 'Amenities', value: 'Private beaches, gated access' },
     ],
     photos: [
-      '/public/Mega Mansion Manalapan walk through/IMG_5343.JPEG',
       '/public/Mega Mansion Manalapan walk through/IMG_5344.JPEG',
-      '/public/Mega Mansion Manalapan walk through/IMG_5345.JPEG',
       '/public/Mega Mansion Manalapan walk through/IMG_5346.JPEG',
-      '/public/Mega Mansion Manalapan walk through/IMG_5347.JPEG',
       '/public/Mega Mansion Manalapan walk through/IMG_5348.JPEG',
+      '/public/Mega Mansion Manalapan walk through/IMG_5345.JPEG',
+      '/public/Mega Mansion Manalapan walk through/IMG_5347.JPEG',
     ],
   },
 ]
