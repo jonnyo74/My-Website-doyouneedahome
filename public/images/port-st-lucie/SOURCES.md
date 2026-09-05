@@ -184,16 +184,28 @@ folder, matching how `port-salerno` keeps its `IMG_*` source frames. Only the de
 
 | File | From | Size | Depicts | Wired to |
 |---|---|---|---|---|
-| `local-clover-park-entrance.jpg` | `IMG_6443` | 2400×1350 | Clover Park's main entrance head-on, "cloverpark" and Mets signage, cumulus behind | `communities.ts` → `port-st-lucie` **hero + OG image** |
+| `local-pga-golf-club-allee.jpg` | `IMG_6455` | 2400×1350 | PGA Golf Club palm allée: twin rows of cabbage palms down a striped centre green to the clubhouse clock tower, cumulus behind. No faces; a few distant parked vehicles at the right edge | `communities.ts` → `port-st-lucie` **hero + OG image** (since 2026-09-05) |
+| `local-clover-park-entrance.jpg` | `IMG_6443` | 2400×1350 | Clover Park's main entrance head-on, "cloverpark" and Mets signage, cumulus behind | city gallery (was hero + OG until 2026-09-05) |
 | `local-clover-park-banner.jpg` | `IMG_6443` | 2400×706 | Same frame, cut to the standard article banner | hero on `best-things-to-do-in-port-st-lucie-florida` |
 | `local-clover-park-facade.jpg` | `IMG_6446` | 1600×1200 | Three-quarter view of the front, Mets script, flags | St. Lucie West section of `local-guide-to-port-st-lucie-florida`; city gallery |
 | `local-clover-park-plaza.jpg` | `IMG_6449` | 1600×1200 | Entrance plaza, Mets window graphics, oversized Adirondack chair | city gallery |
 | `local-clover-park-mets-chair.jpg` | `IMG_6447` | 1600×1200 | The Adirondack chair close in, Mets window wall behind | spring-training section of `best-things-to-do-in-port-st-lucie-florida` |
 | `local-pga-village-clock-tower.jpg` | `IMG_6459` | 1600×1200 | PGA Village clock tower on its planted roundabout | golf section of `best-things-to-do-…`; city gallery (bento tall slot) |
-| `local-pga-golf-club-drive.jpg` | `IMG_6454` | 1600×1200 | Palm allée up to the clubhouse cupola | golf section of `best-neighborhoods-in-port-st-lucie-florida`; city gallery |
+| `local-pga-golf-club-drive.jpg` | `IMG_6454` | 1600×1200 | Palm allée up to the clubhouse cupola | golf section of `best-neighborhoods-in-port-st-lucie-florida`. Pulled from the city gallery 2026-09-05 — near-duplicate of the `IMG_6455` allée now used as hero |
 | `local-pga-golf-club-welcome.jpg` | `IMG_6453` | 1600×1200 | "Welcome to PGA Golf Club" entrance sign, palms, roundabout | PGA Village section of `local-guide-to-port-st-lucie-florida` |
 | `local-pga-practice-range.jpg` | `IMG_6451` | 1600×1200 | Practice range wide, carts, two distant unidentifiable figures | city gallery |
 | `local-pga-golf-club-sign.jpg` | `IMG_6450` | 1600×1200 | `PGA GOLF CLUB · 1916 PERFECT DRIVE` monument sign | not yet wired — held for the golf article |
+
+### Hero swap — 2026-09-05
+
+The city hero was Clover Park's entrance, which made the card for a city of ~250,000 read as a
+Mets spring-training page — and put third-party team branding in the OG image every time the page
+was shared. Replaced with `local-pga-golf-club-allee.jpg`, cut from `IMG_6455` (5712×4284):
+`extract({left:0, top:0, width:5712, height:3213})` then resized to 2400×1350, which trims 1071px
+of foreground grass and keeps the full palm canopy. Still our own photograph, still Port St. Lucie.
+
+⚠️ Caveat carried over from the section below: this is PGA **Village / Golf Club, Port St. Lucie**,
+not PGA National in Palm Beach Gardens. Do not let a caption drift into the wrong one.
 
 ### ⚠️ These are PGA **Village / Golf Club, Port St. Lucie** — not PGA National
 

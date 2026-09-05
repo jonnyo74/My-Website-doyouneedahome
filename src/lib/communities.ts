@@ -2182,9 +2182,9 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: true,
     popularNeighborhoods: ['Tradition', 'PGA Village', 'Riverland', 'East Port St. Lucie', 'West Port / Torino'],
     photos: [
-      '/images/port-st-lucie/local-clover-park-entrance.jpg',
+      '/images/port-st-lucie/local-pga-golf-club-allee.jpg',
       '/images/port-st-lucie/local-pga-village-clock-tower.jpg',
-      '/images/port-st-lucie/local-pga-golf-club-drive.jpg',
+      '/images/port-st-lucie/local-clover-park-entrance.jpg',
       '/images/port-st-lucie/local-clover-park-plaza.jpg',
       '/images/port-st-lucie/local-pga-practice-range.jpg',
       '/images/port-st-lucie/local-clover-park-facade.jpg',
