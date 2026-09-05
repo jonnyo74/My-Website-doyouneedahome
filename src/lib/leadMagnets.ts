@@ -626,8 +626,8 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     ],
     subheadline:
       'Stuart, Palm City, Hobe Sound, Port Salerno and Port St. Lucie sit in a different county and a different market from Palm Beach County. This report covers them on their own terms.',
-    metaTitle: `Treasure Coast Real Estate Market Report (${TREASURE_COAST_EDITION}) | Martin & St. Lucie`,
-    metaDescription: `Free ${TREASURE_COAST_EDITION} Treasure Coast market report: Martin County single family median $599,900 at 3.7 months of supply, St. Lucie $394,995 at 4.9 months. ${TREASURE_COAST_DATA_MONTH} BeachesMLS data for both counties — instant download.`,
+    metaTitle: `Treasure Coast Real Estate Market Report | ${TREASURE_COAST_EDITION}`,
+    metaDescription: `Martin County single-family median $599,900 at 3.7 months of supply, St. Lucie $394,995 at 4.9 — kept separate, not blended. Free BeachesMLS PDF.`,
     summaryHeading: 'Martin and St. Lucie, on Their Own Terms',
     summary:
       'The Treasure Coast is not a cheaper version of Palm Beach County — it is a different market moving on its own cycle. In July 2026 both counties tightened. Martin County single family closings rose 23.4% while inventory fell 21.3%, taking months of supply from 5.6 to 3.7 and the median to $599,900. St. Lucie moved more gently — closings up 2.4%, supply down from 5.7 to 4.9 months, median $394,995 — but its sellers received 96% of original list price, the strongest figure in either county. Condos are the split story: supply fell hard in both counties, yet Martin’s median dropped 10.7% while St. Lucie’s rose 13.3%, on 77 and 82 closings respectively. This report covers each county separately so the numbers you are reading describe the market you are actually buying or selling in.',
