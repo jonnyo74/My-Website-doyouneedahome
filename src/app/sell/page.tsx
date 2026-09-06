@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getActiveListings } from '@/lib/listings'
+import { getActiveListings, getRecentlySoldListings } from '@/lib/listings'
 import { agents, teamValuationRoute } from '@/lib/agents'
 import ListingCard from '@/components/ListingCard'
+import RecentlySold from '@/components/RecentlySold'
 import SellerValuationForm from '@/components/SellerValuationForm'
 import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
 
@@ -43,6 +44,7 @@ const steps = [
 
 export default function SellPage() {
   const activeListings = getActiveListings()
+  const recentlySold = getRecentlySoldListings()
 
   return (
     <div className="min-h-screen bg-white">
@@ -152,6 +154,16 @@ export default function SellPage() {
           </div>
         </section>
       )}
+
+      {/* Recently Sold — the marketing section above shows how a home is
+          presented; this shows how it finishes. */}
+      <RecentlySold
+        listings={recentlySold}
+        sectionClassName="bg-slate-50 px-6 py-16 sm:px-8"
+        containerClassName="mx-auto max-w-5xl"
+        gridClassName="grid gap-6 sm:grid-cols-2"
+        blurb="Homes we listed and closed. Every one of them got the same marketing you see above."
+      />
 
       {/* Valuation CTA — one neutral request. Visitors used to have to choose
           between "Free CMA from John" and "Free CMA from Christine" before they

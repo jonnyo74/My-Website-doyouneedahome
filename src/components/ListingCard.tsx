@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { bedsLabel, cardRotationMs, priceDisplay, showsOpenHouse, showsPriceReduced, statusBadgeClasses, type Listing } from '@/lib/listings'
+import { bedsLabel, cardRotationMs, priceDisplay, showsOpenHouse, showsPriceReduced, soldDateDisplay, statusBadgeClasses, type Listing } from '@/lib/listings'
 
 export default function ListingCard({ listing }: { listing: Listing; index?: number }) {
   const bathsDisplay = listing.bathsHalf > 0
@@ -124,6 +124,19 @@ export default function ListingCard({ listing }: { listing: Listing; index?: num
               {oh.date} · {oh.time}
             </span>
           ))}
+        </div>
+      )}
+
+      {/* The closing date, in the slot the open house strip uses — the two can
+          never collide, since a home under contract stops advertising showings.
+          "SOLD" alone reads as undated and could be from any year; the date is
+          what makes it proof. */}
+      {listing.status === 'Sold' && soldDateDisplay(listing) && (
+        <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 border-b border-slate-200 bg-slate-50 px-6 py-2.5">
+          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
+            Sold
+          </span>
+          <span className="text-sm font-semibold text-slate-900">{soldDateDisplay(listing)}</span>
         </div>
       )}
 

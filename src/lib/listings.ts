@@ -51,6 +51,13 @@ export interface ListingAgentInfo {
 export interface Listing {
   slug: string
   status: ListingStatus
+  // The day a Sold listing actually closed, as plain YYYY-MM-DD. It drives the
+  // Recently Sold row, which retires a card RECENTLY_SOLD_WINDOW_DAYS after
+  // this date — so a Sold listing without one never appears there at all.
+  soldDate?: string
+  // The closed price, when it differs from what the home was listed at. Absent,
+  // every dollar figure keeps showing the list price.
+  soldPrice?: number
   // Absent on Coming Soon listings that haven't hit the MLS yet.
   mlsNumber?: string
 
@@ -499,9 +506,9 @@ export const listings: Listing[] = [
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
-    price: 590000,
+    price: 575000,
     originalPrice: 625000,
-    pricePerSqft: 416.67,
+    pricePerSqft: 406.07,
 
     propertyType: 'Single-Family Residence',
     // Two bedrooms on the MLS. The third room is a den: it has a window but no
@@ -729,7 +736,7 @@ export const listings: Listing[] = [
     brokerage: 'Premier Brokers International',
 
     metaTitle: '6145 SE Audubon Lane: 2 Bed + Den No-HOA Pool Home in Hobe Sound, FL',
-    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $590,000. Schedule a private showing.",
+    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $575,000. Schedule a private showing.",
   },
   {
     slug: '982-sw-worcester-lane',
@@ -942,6 +949,53 @@ export function getActiveListings() {
   return listings.filter((l) => l.status !== 'Sold')
 }
 
+// How long a closed sale keeps a card on the site. 90 days rather than 30: a
+// recent closing is the strongest proof either page carries, and nobody reading
+// it in September takes a June sale as a sign we've gone quiet. Cut it if the
+// row ever starts crowding the homes that are actually for sale.
+export const RECENTLY_SOLD_WINDOW_DAYS = 90
+
+// `soldDate` is a bare YYYY-MM-DD, which JS parses as UTC midnight — the evening
+// before, in Florida. Reading it at noon Eastern instead keeps a card from
+// retiring a day early for the people it is aimed at. The fixed -05:00 is an
+// hour off under EDT, which is nowhere near a day boundary.
+export function soldAtMs(listing: Listing) {
+  if (!listing.soldDate) return null
+  const t = new Date(`${listing.soldDate}T12:00:00-05:00`).getTime()
+  return Number.isFinite(t) ? t : null
+}
+
+// A Sold listing with no soldDate never joins the row: there is nothing to
+// measure the window against, and a sale of unknown age is exactly what the
+// window exists to keep off the page. A date still in the future does show —
+// getActiveListings() has already dropped it, so the alternative is a home that
+// appears nowhere at all.
+export function isRecentlySold(listing: Listing, now = Date.now()) {
+  if (listing.status !== 'Sold') return false
+  const soldAt = soldAtMs(listing)
+  if (soldAt === null) return false
+  return now - soldAt <= RECENTLY_SOLD_WINDOW_DAYS * 24 * 60 * 60 * 1000
+}
+
+// Newest closing first. This runs at build time on the server; the browser
+// re-checks, because a static page easily outlives the window it was built in.
+export function getRecentlySoldListings(now = Date.now()) {
+  return listings
+    .filter((l) => isRecentlySold(l, now))
+    .sort((a, b) => (soldAtMs(b) ?? 0) - (soldAtMs(a) ?? 0))
+}
+
+export function soldDateDisplay(listing: Listing) {
+  const soldAt = soldAtMs(listing)
+  if (soldAt === null) return null
+  return new Date(soldAt).toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'America/New_York',
+  })
+}
+
 // "Available" means a buyer can still act on it normally — not under contract,
 // pending, or sold.
 export function isAvailable(status: ListingStatus) {
@@ -993,7 +1047,11 @@ export function bedsLabel(listing: Listing, form: 'full' | 'tight' = 'full') {
 // Every dollar figure on a listing goes through here so an unpriced Coming Soon
 // listing reads the same way in the hero, the card, and the sticky sidebar.
 export function priceDisplay(listing: Listing) {
-  return listing.price ? `$${listing.price.toLocaleString('en-US')}` : 'Price Upon Request'
+  // A closed sale shows what it closed at rather than what it was asking — that
+  // number is most of the reason the card is still up. With no soldPrice on
+  // record it keeps showing the list price, which is what was advertised anyway.
+  const shown = listing.status === 'Sold' ? listing.soldPrice ?? listing.price : listing.price
+  return shown ? `$${shown.toLocaleString('en-US')}` : 'Price Upon Request'
 }
 
 // Photo-rotation speed for each listing card. Two cards crossfading in step
