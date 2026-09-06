@@ -17267,8 +17267,7 @@ There is no universally best choice. The right community is the one that support
     primaryKeyword: "best restaurants in Hobe Sound Florida",
     secondaryKeywords: ["where to eat in Hobe Sound", "Hobe Sound dining", "Harry and the Natives"],
     h1: "Best Places to Eat, Drink & Hang Out in Hobe Sound, Florida",
-    heroImage: '/images/hobe-sound/stock-communal-table.jpg',
-    heroImageCredit: 'Photo by Spencer Davis / Unsplash',
+    heroImage: '/images/hobe-sound/local-harry-and-the-natives.jpg',
     body: `Hobe Sound's dining and social scene reflects the community itself: small, local and relaxed.
 
 There is no large entertainment district here, and no dense concentration of restaurants and bars. What there is instead is a set of independent restaurants, cafés and casual gathering places, plus easy access to the much larger scenes in Jupiter and Stuart.
@@ -17314,6 +17313,8 @@ That pairing — a quiet local restaurant and something outdoors — is most of 
 US-1 is the practical commercial corridor. Shopping centers and roadside businesses cover the everyday: groceries, takeout, pizza, casual dining. It is where people run errands and pick up dinner without leaving the immediate area.
 
 It would be easy to write the corridor off as the characterless half of town, and that would be a mistake, because Harry and the Natives is on it.
+
+![The teal porch and hand-painted roadside sign of Harry and the Natives on US-1 in Hobe Sound, Florida](/images/hobe-sound/local-harry-and-the-natives-porch.jpg "Hand-painted signs, carved shutters and a parking-lot notice banning snowmobiles. The US-1 corridor is not as characterless as it looks at 45 miles an hour.")
 
 The site has been feeding people on this road since the Cypress Cabins and Restaurant opened on 7 December 1941 — the same day as Pearl Harbor. It reopened later under the name it carries now, and it is the closest thing Hobe Sound has to a landmark you can eat inside: Old Florida to the bone, hand-painted signs everywhere, live music, beer and wine, a gift shop, and a menu that has never once tried to be fashionable. It sits at 11910 SE Federal Highway and closes on Mondays, though hours are worth confirming before you drive out.
 

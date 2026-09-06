@@ -18,6 +18,8 @@
 | `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
 | `local-hobe-sound-entry-sign.jpg` | The **Hobe Sound** median sign on Bridge Road at the entrance to town, under a cabbage-palm cluster — Hobe Sound community-page gallery |
 | `local-poinciana-gardens-sign.jpg` | The **Poinciana Gardens** entrance monument — hero on `best-neighborhoods-in-hobe-sound-florida` |
+| `local-harry-and-the-natives.jpg` | The thatched entrance, flags and roadside sign at **Harry and the Natives** on US-1 — hero on `best-places-to-eat-drink-hang-out-in-hobe-sound-florida` |
+| `local-harry-and-the-natives-porch.jpg` | The same building from the parking lot: sign, tin-roofed porch and carved shutters — inline in that article's US-1 section |
 
 ## The blowhole frame — the best photograph we have of this coast
 
@@ -191,9 +193,73 @@ actually discusses instead of a golf course nobody can locate.
 
 `stock-golf-fairway-sunset.jpg` is **now orphaned** and still in the repo.
 
-⚠️ Same warning as the 2021 banyan frames: `IMG_6546`–`IMG_6548` were dropped straight into
-`public/images/hobe-sound/` at 12.7MB total, are served publicly and are off naming convention.
-They should move to the master library, keeping only the derived crops here.
+✅ **Resolved 2026-09-06.** `IMG_6546`–`IMG_6548` were dropped straight into
+`public/images/hobe-sound/` at 12.7MB total and off naming convention. They have now been moved
+to `Doyouneedphotos/Hobe Sound/` (md5-verified) and deleted from `public/`. Only the derived
+crops remain here.
+
+## The 2026-09-06 drop — Harry and the Natives, finally
+
+Four files landed as `IMG_6613`, `IMG_6614`, `IMG_6614 (1)` and `IMG_6615`. **`IMG_6614 (1)` is
+a byte-identical duplicate of `IMG_6614`** (same md5), so the drop is three frames, not four.
+`IMG_6613`/`IMG_6614` are 4032×3024, `IMG_6615` is 5712×4284. All full-resolution, all EXIF
+stripped (no GPS), all genuinely the restaurant at 11910 SE Federal Hwy.
+
+**No people in any frame.** Business signage is legible throughout, which is fine and in fact the
+point — this is the subject of the article, not incidental branding on someone else's premises.
+Parked cars appear in all three; the crops below clear the ones close enough to read a plate.
+
+| Frame | Content |
+|---|---|
+| `IMG_6613` | Sign and the long porch from the north end of the lot. Parked cars across the bottom third — a windshield fills the bottom-left corner. **Source of the inline crop.** |
+| `IMG_6614` | Widest view, whole building plus US-1 beyond. A silver Tesla is parked side-on and dominates the right half. Documentary, but the car is the second-biggest object in the frame. **Unused.** |
+| `IMG_6615` | Tiki entrance close in — thatched roof peak, two flags, the carved gecko, sign clear against sky at right. Highest resolution and the only frame with no car in the upper two-thirds. **The hero.** |
+
+### `local-harry-and-the-natives.jpg` — eat-and-drink hero
+
+Cut from **IMG_6615**, `extract({ left: 0, top: 780, width: 5712, height: 1680 })` resized to
+**2048×602** (3.40:1), quality 84, 323KB. No upscale. Same banner spec as the other article heroes.
+
+`top: 780` was chosen over `860` and `900`. All three hold the roof peak and the whole sign, but
+at `860` and below the top edge of the white sign panel sits right on the frame edge and reads as
+clipped rather than framed. At `780` there is visible sky above it. Going higher than `780` starts
+trading away the porch and the gecko at the bottom for empty cloud, and by `300` the band is two
+thirds sky.
+
+The left third is thatch — mid-tone and textured, so the white `h1` overlay lands on it cleanly.
+No car enters the band at any `x`.
+
+**Replaced `stock-communal-table.jpg`**, and the `heroImageCredit` line came out with it — this
+one is ours. That stock frame was the survivor of seven rejections documented below, and it was
+never more than a stand-in: an overhead of an anonymous picnic table, on an article whose
+`secondaryKeywords` include "Harry and the Natives" and whose longest section is about this
+building. `stock-communal-table.jpg` is **now orphaned** and still in the repo.
+
+### `local-harry-and-the-natives-porch.jpg` — inline, US-1 section
+
+Cut from **IMG_6613**, `extract({ left: 1150, top: 560, width: 2500, height: 1875 })` resized to
+**1400×1050** (4:3), quality 84, 316KB. No upscale. Same inline spec as `local-beach-empty-sand.jpg`.
+
+**`top: 560` and the 1875 height are doing the plate work.** The bottom of the source frame is
+parked cars, including a windshield close enough to the camera to read anything on it; the band
+ends at `y: 2435`, above all of them. `left: 1150` drops the cars along the left edge of the lot
+and, incidentally, pulls the sign in off the frame edge — cropping from `left: 1400` puts the sign
+hard against `x: 0`, which looks like an accident.
+
+It sits directly under "It would be easy to write the corridor off as the characterless half of
+town, and that would be a mistake" — so the caption picks up the legible **"Absolutely No
+Snowmobiling In Parking Lot"** notice as the evidence for that sentence.
+
+✅ **Handled the same day, and the backlog with it.** `IMG_6613`–`IMG_6615` landed straight in
+`public/images/hobe-sound/` at 9.5MB, off naming convention. All three are now in
+`Doyouneedphotos/Hobe Sound/` (md5-verified against the originals) and deleted from `public/`.
+The redundant `IMG_6614 (1).jpg` was deleted outright rather than copied — byte-identical to
+`IMG_6614.jpg`, and the space in the filename made it a second URL for the same bytes.
+
+The **`IMG_45xx` and `IMG_654x` frames from the earlier drops were cleared in the same pass**, so
+`public/images/hobe-sound/` now holds only `SOURCES.md` and derived crops. That is the state to
+keep it in: raw camera frames belong in the master library, and nothing under `public/` should be
+a source file.
 
 ## Licensed stock
 
@@ -202,7 +268,7 @@ They should move to the master library, keeping only the derived crops here.
 | `stock-golf-fairway-sunset.jpg` | Unsplash, Derick McKinney — `dlzCGn5LndM` | Free Unsplash License | Golf fairway at sunset, sabal palms, water hazard, open water beyond |
 | `stock-marsh-boardwalk.jpg` | Unsplash, Hannah Cole — `x15_JR1aRQo` | Free Unsplash License | Wooden boardwalk over marsh, cabbage palms and pines in the treeline, saw palmetto, flat horizon |
 | `stock-kayak-cypress-river.jpg` | Unsplash, Chase Baker — `gTFtX-y1O14` | Free Unsplash License | Single kayaker on dark, still blackwater; buttressed bald cypress, cabbage palms, ferns and vine-covered trunks |
-| `stock-communal-table.jpg` | Unsplash, Spencer Davis — `vJsj-hgOEG0` | Free Unsplash License | Overhead of a loaded communal picnic table, hands reaching in from both sides — hero on `best-places-to-eat-drink-hang-out-in-hobe-sound-florida` |
+| `stock-communal-table.jpg` | Unsplash, Spencer Davis — `vJsj-hgOEG0` | Free Unsplash License | Overhead of a loaded communal picnic table, hands reaching in from both sides — **was** the eat-and-drink hero, replaced 2026-09-06 by `local-harry-and-the-natives.jpg`. Now orphaned |
 
 `stock-kayak-cypress-river.jpg` is the inline image in the nature section of
 `who-should-move-to-hobe-sound-florida`, sitting above the Jonathan Dickinson paragraph.
@@ -299,9 +365,10 @@ recover from the shoulder — 4523 is the shoulder attempt and it is visibly wor
 knowing if the tunnel ever needs reshooting: the frame depends on standing in a live 30mph
 lane, so go early on a Sunday.
 
-⚠️ The four originals were dropped straight into `public/images/hobe-sound/` as
-`IMG_45xx.JPEG`, 6.7MB total. They are served publicly and off naming convention. They
-should move to the master library, keeping only the derived crop here.
+✅ **Resolved 2026-09-06.** The four originals were dropped straight into
+`public/images/hobe-sound/` as `IMG_45xx.JPEG`, 6.7MB total, off naming convention. They were
+already present in `Doyouneedphotos/Hobe Sound/` (md5-verified as identical), so the `public/`
+copies were simply deleted. Only the derived crops remain here.
 
 ### The chase, kept for the record
 
@@ -355,6 +422,11 @@ residential aerials 1989). Nothing present-tense, and everything at the same 600
 Searched via `floridamemory.com/find?keywords=`.
 
 ## The eat-and-drink hero — seven rejections before one passed
+
+> **Superseded 2026-09-06.** This hero is now `local-harry-and-the-natives.jpg`, John's own
+> photograph. The section below is kept because the rejection list is the useful part: it
+> records how hard this subject is to source as stock, and it is the reason the answer was
+> always going to be a phone photo. Do not re-run this chase.
 
 `stock-communal-table.jpg` is a 3.4:1 band from **`vJsj-hgOEG0` at `top: 400`**, 2400×706, no
 upscale. Shot from directly overhead, so there is **not one face in frame** — only hands, arms
@@ -417,9 +489,10 @@ The Dixie Highway historic district and the Bridge Road town-centre block, Jonat
 Dickinson State Park, Hobe Sound Beach, and a residential street in one of the established
 neighbourhoods.
 
-**Harry and the Natives** (11910 SE Federal Hwy, closed Mondays) and the **Nathaniel P. Reed
-refuge shoreline** are also still unshot. The 2026-08-31 drop closed none of these three — it
-added two signs, which is a different and smaller gap.
+The **Nathaniel P. Reed refuge shoreline** is also still unshot.
+
+**Harry and the Natives is no longer on this list** — the 2026-09-06 drop closed it, and it was
+the top item. See above.
 
 The banyan tunnel is **no longer on this list** — see above. What is still missing is the
 *other* end of Bridge Road: the shops between Dixie and the railway, which is the hero
