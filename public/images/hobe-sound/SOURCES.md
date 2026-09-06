@@ -261,12 +261,84 @@ The **`IMG_45xx` and `IMG_654x` frames from the earlier drops were cleared in th
 keep it in: raw camera frames belong in the master library, and nothing under `public/` should be
 a source file.
 
+## The 2026-09-06 Peck Lake drop — the biggest single haul so far
+
+Sixteen files landed as `IMG_6628`–`IMG_6651`. **All sixteen are usable**, which has not happened
+before: fourteen are 5712×4284 and two (`IMG_6642`, `IMG_6648`) are 4032×3024, so every frame is
+full-resolution camera output and none are text-thread thumbnails. EXIF carries no capture date
+and no GPS.
+
+**No people in any frame. No third-party branding.** The only signage is Martin County park
+signage, which is the subject rather than incidental. Boats appear in `IMG_6643` and `IMG_6648`,
+all far enough off that no name or registration is legible.
+
+Subject is confirmed by the frames themselves — `IMG_6628`/`IMG_6629` are the **Peck Lake Park**
+entrance sign at 8108, reading "operated by the Martin County Board of County Commissioners" and
+"park development funded with assistance from the Florida Inland Navigation District", and
+`IMG_6630`/`IMG_6631` are the **Peck Lake Park Interpretive Boardwalk** trailhead board. No
+location-honesty question on this drop.
+
+| Frame | Content | Became |
+|---|---|---|
+| `IMG_6628` | Entrance sign, portrait | — |
+| `IMG_6629` | Entrance sign, landscape, address post and pines behind | `local-peck-lake-park-sign.jpg` |
+| `IMG_6630` | Interpretive board, portrait, dog-waste station at left | — |
+| `IMG_6631` | Interpretive board, landscape, both trail-rule signs legible | `local-peck-lake-trailhead-kiosk.jpg` |
+| `IMG_6637` | Lagoon shoreline, portrait, old pilings in the shallows | — |
+| `IMG_6638` | Lagoon from the deck rail, channel marker mid-distance | `local-peck-lake-deck-view.jpg` |
+| `IMG_6639` | Boardwalk curving to the pavilion, mangroves and water at left | `local-peck-lake-boardwalk-hero.jpg` |
+| `IMG_6641` | Pavilion and deck, wide, picnic tables under the roof | `local-peck-lake-observation-deck.jpg` |
+| `IMG_6642` | Pavilion and deck rail over the water, 4032×3024 | — |
+| `IMG_6643` | Lagoon framed by mangrove, a sailboat on the far side | `local-peck-lake-lagoon.jpg` |
+| `IMG_6644` | Red mangrove prop roots close in, channel marker beyond | `local-peck-lake-mangrove-roots.jpg` |
+| `IMG_6646` | Shell path at the waterline under the boardwalk, sea grape overhead | `local-peck-lake-shoreline.jpg` |
+| `IMG_6648` | Anchored boats along the far tree line, 4032×3024 | `local-peck-lake-anchorage.jpg` |
+| `IMG_6649` | Boardwalk through the mangrove tunnel, leaf litter on the deck | `local-peck-lake-boardwalk-mangrove.jpg` |
+| `IMG_6650` | Boardwalk, same stretch, tighter canopy | `local-peck-lake-boardwalk-banner.jpg` |
+| `IMG_6651` | Boardwalk approaching the mid-trail kiosk, cabbage palms at left | `local-peck-lake-boardwalk-shelter.jpg` |
+
+### Derived crops
+
+Two banners at **2048×602** (3.40:1), the standard hero spec:
+
+- `local-peck-lake-boardwalk-hero.jpg` — from `IMG_6639`, full width, band from `top: 1450`,
+  326KB. Hero on the new `peck-lake-park-hobe-sound-florida`. `1450` was chosen over `1750` and
+  `2050`: all three hold the boardwalk and the pavilion, but only `1450` keeps sky and the strip
+  of lagoon at left, and by `2050` the pavilion roof is cut off entirely. The left third is water
+  and mangrove — mid-tone, so the white `h1` overlay lands cleanly.
+- `local-peck-lake-boardwalk-banner.jpg` — from `IMG_6650`, full width, band from `top: 1500`,
+  429KB. **Replaced `stock-marsh-boardwalk.jpg`** as the hero on
+  `best-things-to-do-in-hobe-sound-florida`, and the `heroImageCredit` line came out with it.
+
+Everything else is a straight resize to the inline specs, quality 82, no crop needed — the source
+frames are already 4:3. `local-peck-lake-park-sign.jpg` and `local-peck-lake-deck-view.jpg` are
+**1440×1080** (community-gallery spec); the rest are **1400×1050** (article inline spec).
+
+### Where they are used
+
+`peck-lake-park-hobe-sound-florida` carries eight of them inline. `hidden-gems-in-hobe-sound-florida`
+gets `local-peck-lake-deck-view.jpg` in its **Peck Lake by Boat** section — that article kept the
+boat angle and handed the mainland park over to the new guide.
+
+On the Hobe Sound community page, note that `photos[]` renders as `photos[0]` (hero **and** the OG
+image) plus `photos.slice(1, 6)` — so **only the first six entries are ever visible** and anything
+appended past index 5 is dead weight. `local-peck-lake-observation-deck.jpg` was put at index 5 and
+`local-bridge-road-curve.jpg` pushed out of the visible range, on the grounds that the curve is the
+same subject as the index-0 hero (`local-bridge-road-tunnel.jpg`) and Peck Lake was not represented
+at all. Nothing was deleted.
+
+### Raw frames
+
+All sixteen were copied to `Doyouneedphotos/Hobe Sound/` (md5-verified against the originals) and
+deleted from `public/`, per the rule set after the Harry and the Natives drop: raw camera frames
+belong in the master library, and nothing under `public/` should be a source file.
+
 ## Licensed stock
 
 | File | Source | Licence | Depicts |
 |---|---|---|---|
 | `stock-golf-fairway-sunset.jpg` | Unsplash, Derick McKinney — `dlzCGn5LndM` | Free Unsplash License | Golf fairway at sunset, sabal palms, water hazard, open water beyond |
-| `stock-marsh-boardwalk.jpg` | Unsplash, Hannah Cole — `x15_JR1aRQo` | Free Unsplash License | Wooden boardwalk over marsh, cabbage palms and pines in the treeline, saw palmetto, flat horizon |
+| `stock-marsh-boardwalk.jpg` | Unsplash, Hannah Cole — `x15_JR1aRQo` | Free Unsplash License | Wooden boardwalk over marsh, cabbage palms and pines in the treeline, saw palmetto, flat horizon — **was** the things-to-do hero, replaced 2026-09-06 by `local-peck-lake-boardwalk-banner.jpg`. Now orphaned |
 | `stock-kayak-cypress-river.jpg` | Unsplash, Chase Baker — `gTFtX-y1O14` | Free Unsplash License | Single kayaker on dark, still blackwater; buttressed bald cypress, cabbage palms, ferns and vine-covered trunks |
 | `stock-communal-table.jpg` | Unsplash, Spencer Davis — `vJsj-hgOEG0` | Free Unsplash License | Overhead of a loaded communal picnic table, hands reaching in from both sides — **was** the eat-and-drink hero, replaced 2026-09-06 by `local-harry-and-the-natives.jpg`. Now orphaned |
 
@@ -287,7 +359,9 @@ mangrove-tunnel frames, both **Unsplash+**, which is a paid subscription rather 
 free licence everything else here uses. `5pdmF7PD-zI` is free but it is Levera Pond,
 Grenada, shot from the air. `6tNqzypQE78` (Silver Springs) has identifiable faces.
 
-`stock-marsh-boardwalk.jpg` is the hero on `best-things-to-do-in-hobe-sound-florida`.
+`stock-marsh-boardwalk.jpg` **was** the hero on `best-things-to-do-in-hobe-sound-florida`,
+until the 2026-09-06 Peck Lake drop gave us a real Hobe Sound boardwalk to put there instead.
+The reasoning below is kept because it is the standard this library holds stock to.
 Source frame 2400×1600, band cut from `top: 300` to 2400×706 (3.40:1), 435KB. Checked at
 card size as well as banner — the boardwalk still reads as a boardwalk in the 160px strip
 rather than going to mush.
@@ -489,7 +563,12 @@ The Dixie Highway historic district and the Bridge Road town-centre block, Jonat
 Dickinson State Park, Hobe Sound Beach, and a residential street in one of the established
 neighbourhoods.
 
-The **Nathaniel P. Reed refuge shoreline** is also still unshot.
+The **Nathaniel P. Reed refuge shoreline** is also still unshot. Note that the 2026-09-06 Peck
+Lake drop does **not** close this one — those frames look west and north across the *lagoon* from
+the mainland. The gap is the Atlantic side of the barrier island, which is a boat trip.
+
+**Peck Lake is now covered** — see the 2026-09-06 drop above. Sixteen frames, twelve derived
+crops, and it closed the largest single hole in this library.
 
 **Harry and the Natives is no longer on this list** — the 2026-09-06 drop closed it, and it was
 the top item. See above.

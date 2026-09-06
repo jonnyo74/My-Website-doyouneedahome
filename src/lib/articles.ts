@@ -16105,8 +16105,7 @@ Once the location, ownership structure, utilities, fees and lifestyle priorities
     primaryKeyword: "things to do in Hobe Sound Florida",
     secondaryKeywords: ["Hobe Sound attractions", "Jonathan Dickinson State Park", "Hobe Sound National Wildlife Refuge", "what to do in Hobe Sound"],
     h1: "Best Things to Do in Hobe Sound, Florida",
-    heroImage: '/images/hobe-sound/stock-marsh-boardwalk.jpg',
-    heroImageCredit: 'Photo by Hannah Cole / Unsplash',
+    heroImage: '/images/hobe-sound/local-peck-lake-boardwalk-banner.jpg',
     body: `Many of Hobe Sound’s most memorable attractions are found outdoors.
 
 The area is surrounded by protected beaches, preserved natural habitats, waterways and one of Southeast Florida’s largest state parks. While Hobe Sound is not known for extensive shopping or nightlife, it offers plenty to do for people who enjoy beaches, boating, hiking, wildlife and [a quieter coastal lifestyle](/blog/local-guide-to-hobe-sound-florida).
@@ -16200,6 +16199,12 @@ Boats commonly anchor in the lagoon, where visitors can reach [the protected bar
 Water depth, tides, weather and boating traffic should always be considered. Boaters should follow posted rules, protect sensitive habitat and avoid disturbing wildlife or vegetated areas.
 
 Conditions can change quickly, so local navigation information should be checked before setting out.
+
+## Walk the Boardwalk at Peck Lake Park
+
+If you do not have a boat, the mainland side of Peck Lake is still worth an hour. Peck Lake Park is a free Martin County park off Gomez Avenue where roughly a mile of boardwalk crosses pine flatwoods, baygall wetland, oak hammock and mangrove forest before opening onto a covered observation deck on the Indian River Lagoon.
+
+Manatees, dolphins and wading birds all work that stretch of water, and the far shoreline is protected land rather than houses. It is open sunrise to sunset, leashed dogs are welcome, and there are restrooms and picnic pavilions on site. [The full guide to the park](/blog/peck-lake-park-hobe-sound-florida) covers the trail, the deck and how to find the entrance.
 
 ## Go Fishing
 
@@ -16859,9 +16864,7 @@ Here are a few worth finding.
 
 ## Peck Lake Park
 
-A quiet preserve tucked away near the Intracoastal Waterway, where a boardwalk and nature trail run through native habitat to the lagoon — water views, wildlife watching and none of the crowd you get at the beach.
-
-The walk is short, which makes it an easy outing for anyone who wants the natural side of Hobe Sound without committing to a hike. There are picnic areas, and it opens onto a version of the community most people never see while driving US-1.
+The free county park off Gomez Avenue, where roughly a mile of boardwalk runs through four habitats to a covered deck on the Intracoastal. It is the easiest thing on this list to do on a whim, and the one most people drive straight past — [it is worth a guide of its own](/blog/peck-lake-park-hobe-sound-florida).
 
 The park borders environmentally sensitive land, so stay on the designated paths, leave plants and wildlife undisturbed, and carry out everything you bring in.
 
@@ -16870,6 +16873,8 @@ The park borders environmentally sensitive land, so stay on the designated paths
 Peck Lake is also a popular stop for boaters working along the Intracoastal. They anchor near the protected barrier island and go ashore, and a walk across the island reaches an undeveloped Atlantic beach.
 
 That sequence — anchor, cross a narrow strip of protected land, arrive at an ocean shoreline with nothing built behind it — is genuinely unusual in South Florida.
+
+![The Intracoastal at Peck Lake seen from the deck at Peck Lake Park, Hobe Sound](/images/hobe-sound/local-peck-lake-deck-view.jpg "The Intracoastal off Peck Lake Park, looking toward the barrier island. The far bank is protected land, which is why there is nothing built on it.")
 
 Conditions shift with weather, tides, boat traffic and depth. Use current navigation information, anchor responsibly, keep clear of seagrass and sensitive shoreline, and confirm refuge rules and permitted access areas before you land.
 
@@ -17447,6 +17452,116 @@ For most residents that is variety enough, without having to live in the middle 
     author: 'christine',
     published: true,
     updated: '2026-08-09',
+  },
+
+  {
+    slug: 'peck-lake-park-hobe-sound-florida',
+    citySlug: 'hobe-sound',
+    cityName: 'Hobe Sound',
+    type: 'Park Guide',
+    order: 11,
+    seoTitle: "Peck Lake Park, Hobe Sound: A Visitor's Guide",
+    metaTitle: "Peck Lake Park, Hobe Sound, FL | Visitor's Guide",
+    metaDescription: "Peck Lake Park in Hobe Sound, Florida — a free 70-acre Martin County park where a mile of boardwalk crosses pine flatwoods, baygall and mangrove to a covered deck on the Indian River Lagoon.",
+    primaryKeyword: "Peck Lake Park Hobe Sound",
+    secondaryKeywords: ["Peck Lake Park boardwalk", "Peck Lake Park trail", "Peck Lake Hobe Sound", "Indian River Lagoon Hobe Sound"],
+    h1: "Peck Lake Park, Hobe Sound: A Visitor's Guide",
+    heroImage: '/images/hobe-sound/local-peck-lake-boardwalk-hero.jpg',
+    body: `There is a blue sign on SE Gomez Avenue, a gravel parking circle and a gap in the pines. That is everything Peck Lake Park announces about itself from the road, which is a fair part of why so many people who live ten minutes from it have never turned in.
+
+Behind the sign sits roughly 70 acres of Martin County park and about a mile of round-trip walking that ends on a covered deck over the Indian River Lagoon, looking across open water at a barrier island with nothing built on it. It costs nothing, it is open sunrise to sunset, and it is the gentlest introduction there is to [the natural side of this stretch of coast](/blog/best-things-to-do-in-hobe-sound-florida).
+
+![Peck Lake Park entrance sign on SE Gomez Avenue in Hobe Sound, Florida](/images/hobe-sound/local-peck-lake-park-sign.jpg "The entrance on SE Gomez Avenue. The park is operated by Martin County, and the sign notes that development here was funded with assistance from the Florida Inland Navigation District.")
+
+## The practical details, first
+
+- **Address:** 8108 SE Gomez Avenue, Hobe Sound
+- **Hours:** sunrise to sunset
+- **Cost:** free — no gate, no booth, no parking fee
+- **Trail:** roughly a mile round trip, mostly boardwalk with graveled and natural sections
+- **Facilities:** restrooms and a water fountain by the parking circle, a large picnic pavilion near the front and several more scattered along the way
+- **Dogs:** leashed dogs are welcome, and there is a waste station at the trailhead
+- **No alcohol**
+
+Getting there is the part visitors most often fumble. From US-1, turn east on Osprey Street, cross A1A, then head north on Gomez Avenue; the entrance appears within about a quarter mile. There is no turn lane and no warning, so it is easy to sail past it.
+
+Hours, closures and trail conditions do change. Martin County Parks and Recreation is the place to confirm before you make the drive.
+
+## The walk out
+
+The trail starts at the back of the parking lot, past a weathered interpretive board with a map of the boardwalk painted on it. Two small signs stand in front of it, and both are worth taking seriously: stay on the designated path, and footwear is advisable. This is not a paved municipal loop.
+
+![Interpretive trail map and trailhead signs at Peck Lake Park in Hobe Sound](/images/hobe-sound/local-peck-lake-trailhead-kiosk.jpg "The interpretive board at the trailhead maps the boardwalk out to the lagoon. Restrooms and parking are behind you at this point.")
+
+What makes this short walk worth a drive rather than just a pleasant stroll is how much changes underfoot in half a mile. You start in pine flatwoods — high, dry, open, sandy. The ground then dips into baygall, a freshwater wetland that holds moisture when everything around it has gone crisp. After that comes oak hammock, shaded and closed in. And then the mangroves take over completely.
+
+![Boardwalk running through a red mangrove tunnel at Peck Lake Park](/images/hobe-sound/local-peck-lake-boardwalk-mangrove.jpg "The mangrove section of the boardwalk, where the canopy closes overhead and the temperature noticeably drops.")
+
+The mangrove stretch is the part people remember. Red mangrove prop roots arch up on both sides of the rail, the light turns flat and green, the air cools by a few degrees, and the road noise disappears entirely. If you have wondered what this coast looked like before it was drained and platted, this is a reasonable approximation, and it is a hundred yards from a parking space.
+
+![Red mangrove prop roots along the shoreline at Peck Lake Park](/images/hobe-sound/local-peck-lake-mangrove-roots.jpg "Red mangrove prop roots at the water's edge — the nursery habitat that makes the lagoon productive.")
+
+Roughly halfway out, the boardwalk passes a small covered shelter with interpretive panels. It is a natural place to stop with children, and the only shade of any consequence between the trailhead and the deck.
+
+![Boardwalk approaching a covered interpretive shelter at Peck Lake Park](/images/hobe-sound/local-peck-lake-boardwalk-shelter.jpg "A small roofed kiosk sits about midway along the boardwalk, with cabbage palms and mangrove behind it.")
+
+## What is at the end
+
+The boardwalk opens onto a broad wooden deck on the edge of the Indian River Lagoon, with a hip-roofed pavilion and picnic tables under it. There is a rail the whole way around and a set of steps down to a short stretch of shell and sand at the waterline.
+
+![Covered pavilion and observation deck on the Indian River Lagoon at Peck Lake Park](/images/hobe-sound/local-peck-lake-observation-deck.jpg "The pavilion and deck at the end of the boardwalk — picnic tables, shade, and an unbroken view across the lagoon.")
+
+It is a genuinely good view, and an unusual one for a free county park. To the east is the barrier island — the island tract of the Nathaniel P. Reed Hobe Sound National Wildlife Refuge and the protected land around it — which means the far shoreline is mangrove and cabbage palm rather than roofs and docks. There is very little developed land in the frame from up there.
+
+![Mangrove-framed view across the Indian River Lagoon from Peck Lake Park](/images/hobe-sound/local-peck-lake-lagoon.jpg "Looking across the lagoon from the shoreline below the deck. The far bank is protected land, which is why there is nothing built on it.")
+
+The water is shallow, clear on a calm day and busy with life. Manatees move through, dolphins work the channel, wading birds pick along the flats, and mangrove crabs climb the tree limbs right beside the rail if you stand still long enough. Alligators turn up in the freshwater marsh inland, which is one more reason the signs ask you to stay on the path.
+
+![Shell path at the waterline below the boardwalk at Peck Lake Park](/images/hobe-sound/local-peck-lake-shoreline.jpg "Steps from the deck lead down to a narrow shell and sand shoreline under the sea grape.")
+
+## The other Peck Lake
+
+Two different places share this name, and it causes regular confusion.
+
+Peck Lake Park is the mainland county park described above — a boardwalk, a deck and a view. Peck Lake itself is the broad stretch of the Intracoastal off that shoreline, and it is one of the better-known anchorages on this part of the coast. On a good weekend you will see a line of boats tucked in along the far side, and from the deck you are looking straight at them.
+
+![Boats anchored across the Intracoastal from Peck Lake Park, Hobe Sound](/images/hobe-sound/local-peck-lake-anchorage.jpg "Boats anchored along the far shoreline, seen from the park. The undeveloped tree line behind them is protected land.")
+
+What you cannot do is walk there. The [anchorage and the undeveloped Atlantic beach behind it](/blog/hidden-gems-in-hobe-sound-florida) are reached by boat rather than from this park, and going ashore is governed by refuge rules that change. The park gives you the view of it for nothing; the crossing is a separate outing entirely.
+
+The name, incidentally, traces back to Samuel Peck, a homesteader who came down from Augusta, Georgia. A good deal of the land around here still carries names from that era — Gomez Avenue among them.
+
+## What it says about living here
+
+Peck Lake Park is a small park, and it is not the reason anyone buys a house in Hobe Sound. But it is a fair illustration of the trade this town makes.
+
+There is no concession stand, no playground equipment, no splash pad and no event lawn. There is a boardwalk through four habitats, a deck, some picnic tables and a bathroom. Martin County's growth rules are the reason the far shoreline is still trees, and they are also the reason the amenity list is short. People who move here from denser parts of South Florida usually work out within a year which side of that trade they landed on, which is worth thinking through honestly before you buy — the [pros and cons](/blog/pros-and-cons-of-living-in-hobe-sound-florida) go at it directly.
+
+The park also sits a short drive from the mainland residential core along Gomez Avenue and North Dixie Highway, where Hobe Sound's more accessible price points tend to be. If you are looking at houses on that side of US-1, this is a five-minute detour worth folding into the same trip.
+
+## Before you go
+
+- Go early or late. There is real shade in the mangrove section and almost none on the deck.
+- Bring water and insect repellent. The baygall and mangrove stretches earn the repellent.
+- Wear closed shoes. The graveled and natural sections are uneven.
+- Leash the dog and pick up after it.
+- Stay on the boardwalk and the marked path — this is working habitat on both sides of the rail.
+- Check current hours and any closures with Martin County Parks and Recreation before driving over.
+
+Give it about forty-five minutes and you will have done it properly, which makes it the easiest thing on any Hobe Sound list to actually get around to — and a better first stop than most people expect when they are trying to work out [whether this town suits them](/blog/what-its-really-like-living-in-hobe-sound-florida).`,
+    faqs: [
+      { q: "Where is Peck Lake Park in Hobe Sound?", a: "At 8108 SE Gomez Avenue, Hobe Sound. From US-1, turn east on Osprey Street, cross A1A, then head north on Gomez Avenue; the entrance is within about a quarter mile and is easy to overshoot. It is a Martin County park, open sunrise to sunset." },
+      { q: "Is there a fee to visit Peck Lake Park?", a: "No. There is no gate, no booth and no parking fee. Restrooms and a water fountain sit by the parking circle, and there are picnic pavilions near the entrance and along the trail. Alcohol is not permitted. Confirm current hours and closures with Martin County Parks and Recreation before you go." },
+      { q: "How long is the Peck Lake Park boardwalk trail?", a: "Roughly a mile round trip, mostly boardwalk with some graveled and natural surface. It crosses pine flatwoods, baygall wetland, oak hammock and mangrove forest before opening onto a covered observation deck on the Indian River Lagoon. Allow about forty-five minutes to walk it without hurrying." },
+      { q: "Are dogs allowed at Peck Lake Park?", a: "Yes, on a leash. There is a waste station at the trailhead. Keep to the designated path in both directions, since the habitat on either side of the rail is the reason the park exists." },
+      { q: "Can you reach the Peck Lake beach from Peck Lake Park?", a: "No. The park is on the mainland and ends at a deck on the lagoon. The anchorage and the undeveloped Atlantic beach across the water are reached by boat, and going ashore there is governed by refuge rules that change. From the deck you get the view of it, not the crossing." },
+      { q: "What wildlife can you see at Peck Lake Park?", a: "Manatees and dolphins move through the lagoon, wading birds work the shallows, and mangrove crabs climb the limbs beside the boardwalk. Alligators turn up in the freshwater marsh sections inland. Sightings are never guaranteed; early morning gives the best odds." },
+    ],
+    internalLinks: ["best-things-to-do-in-hobe-sound-florida", "hidden-gems-in-hobe-sound-florida", "local-guide-to-hobe-sound-florida", "what-its-really-like-living-in-hobe-sound-florida"],
+    funFact: "Two places share the Peck Lake name and buyers mix them up constantly. Peck Lake Park is the free Martin County park on the mainland at 8108 SE Gomez Avenue — a boardwalk, a deck and a view. Peck Lake itself is the stretch of Intracoastal off that shoreline, one of the better-known anchorages on this coast, and it is a boat trip, not a walk. If someone tells you they walked across to the ocean beach at Peck Lake, they anchored first. The park is still the better forty-five minutes if you are trying to get a feel for Hobe Sound in an afternoon. — John Oliver, REALTOR® · ABR · RENE · RSPS · SRS",
+    author: 'john',
+    published: true,
+    updated: '2026-09-06',
   },
 
   // ===================== PORT SALERNO =====================
