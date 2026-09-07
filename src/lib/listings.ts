@@ -68,6 +68,12 @@ export interface Listing {
    * To set: open the property on a satellite map, drop a pin on the roof, copy
    * the coordinates.
    */
+  // Rooftop coordinates. Derived by matching PHY_ADDR1 in the Florida statewide
+  // cadastral layer and taking the centroid of the one building inside that
+  // parcel — NOT from a street geocoder. Census interpolates along the address
+  // range and puts the pin in the road, where the nearest footprint was the
+  // WRONG house for all three of these (the correct one was second-nearest
+  // every time). Verified against each listing's own sq ft and year built.
   lat?: number
   lng?: number
   city: string
@@ -221,6 +227,8 @@ export const listings: Listing[] = [
     county: 'Palm Beach',
     state: 'FL',
     zip: '33496',
+    lat: 26.422855,
+    lng: -80.184635,
     subdivision: 'Lotus',
 
     price: 2799999,
@@ -511,6 +519,8 @@ export const listings: Listing[] = [
     county: 'Martin',
     state: 'FL',
     zip: '33455',
+    lat: 27.103890,
+    lng: -80.171167,
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
@@ -757,6 +767,8 @@ export const listings: Listing[] = [
     county: 'St. Lucie',
     state: 'FL',
     zip: '34953',
+    lat: 27.269004,
+    lng: -80.378383,
     legalDescription: 'Port St. Lucie - Section 12, Block 1290, Lot 38 (Map 44/07S)',
 
     price: 390000,

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { SITE_URL } from '@/lib/site'
 import { ARRIVAL, CLUB, LIVING, PHOTOS, slice, UPSTAIRS, WATERFRONT } from './photos'
 import GalleryImage from './GalleryImage'
@@ -370,6 +371,20 @@ export default function SkywardStreetPage() {
                 </div>
               ))}
             </dl>
+          </Reveal>
+
+          <Reveal>
+            <p className="mt-8 max-w-3xl text-[13px] leading-6 text-[#6b6355]">
+              A west-facing pool deck and an east-facing one are not the same purchase.{' '}
+              <Link
+                href="/sun-shade?address=8804%20Skyward%20Street%2C%20Boca%20Raton&lat=26.422855&lng=-80.184635&t=840"
+                className="text-[#16140f] underline underline-offset-4 hover:no-underline"
+              >
+                See how sun and shade move across this lot
+              </Link>{' '}
+              through the day and across the seasons. Estimates only — the model does not know
+              about the trees.
+            </p>
           </Reveal>
         </div>
         <div className="mx-auto mt-14 max-w-[1400px]">
