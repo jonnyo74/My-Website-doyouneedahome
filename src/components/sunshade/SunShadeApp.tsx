@@ -6,6 +6,7 @@ import AddressSearch from './AddressSearch'
 import DateSelector from './DateSelector'
 import ReportCta from './ReportCta'
 import SummaryPanel from './SummaryPanel'
+import SeasonalComparison from './SeasonalComparison'
 import TimeSlider from './TimeSlider'
 import {
   DISCLAIMER,
@@ -448,6 +449,21 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
                     parcelPending={loadingParcel}
                     parcelNote={parcelNote}
                     buildingCount={buildings.length}
+                  />
+
+                  {/* Sits under the exposure rows: having read what today
+                      looks like, the next question is whether that holds in
+                      January. */}
+                  <SeasonalComparison
+                    centre={centre}
+                    year={date.year}
+                    timeZone={FLORIDA_TIMEZONE}
+                    buildings={buildings}
+                    pools={pools}
+                    heights={heights}
+                    parcelRing={parcelRing}
+                    onPickDate={setDate}
+                    activeDate={date}
                   />
                 </div>
                 <ReportCta address={property.address} />
