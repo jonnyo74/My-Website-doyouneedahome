@@ -132,6 +132,14 @@ export default function Header() {
             Buy
           </Link>
 
+          <Link
+            href="/sun-shade"
+            aria-current={current('/sun-shade')}
+            className="text-sm font-medium text-slate-700 transition hover:text-gold-600"
+          >
+            Sun &amp; Shade
+          </Link>
+
           <NavDropdown label="Sell" panelClassName="absolute left-0 top-full mt-1 w-48 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg">
             <DropLink href="/sell">Sell Your Home</DropLink>
             <DropLink href="/sell#valuation">Get a Valuation</DropLink>
@@ -256,6 +264,7 @@ export default function Header() {
 
           <nav aria-label="Mobile" className="px-2">
             <MobileRow href="/buy" close={closeMobile}>Buy</MobileRow>
+            <MobileRow href="/sun-shade" close={closeMobile}>Sun &amp; Shade</MobileRow>
 
             <MobileSection id="sell" label="Sell" openSection={openSection} setOpenSection={setOpenSection}>
               {sellLinks.map((l) => (
