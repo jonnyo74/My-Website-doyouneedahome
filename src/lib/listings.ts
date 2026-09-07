@@ -55,6 +55,21 @@ export interface Listing {
   mlsNumber?: string
 
   address: string
+  /**
+   * Verified rooftop coordinates, set by hand — never geocoded.
+   *
+   * Both must be present for the Sun & Shade section to appear on the listing
+   * page; a listing without them simply does not show it. That is deliberate.
+   * These are new builds in gated communities, and neither OpenStreetMap nor
+   * the state parcel roll has them yet: geocoding 8804 Skyward Street resolves
+   * to 8828, four doors away. Showing a buyer the sun on a neighbour's patio
+   * under our own listing is far worse than showing nothing.
+   *
+   * To set: open the property on a satellite map, drop a pin on the roof, copy
+   * the coordinates.
+   */
+  lat?: number
+  lng?: number
   city: string
   citySlug: string // matches a slug in communities.ts for internal linking
   county: string

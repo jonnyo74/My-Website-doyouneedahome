@@ -35,6 +35,11 @@
      only reaches 3.05:1 against white, so it cannot carry small text; this one
      clears AA at 4.83:1. Buttons keep report-gold-dark and their exact look. */
   --color-report-gold-text: #8A6E33;
+  /* Text-on-gold-tint variant, for the Sun & Shade "High" exposure badge.
+     report-gold-text was tuned against pure WHITE; on the 20% report-gold tint
+     that badge uses (#F4EEDF) the same colour drops to 4.16:1 and fails AA.
+     One step darker restores the margin at 5.14:1 on that tint. */
+  --color-report-gold-badge: #7A6029;
 
   /* Fonts */
   --font-serif: var(--font-playfair), Georgia, serif;
@@ -101,4 +106,94 @@ label:has(> input.sr-only:focus-visible) {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ── Sun & Shade Analyzer time slider ──────────────────────────────
+   Range inputs cannot be styled with utility classes — the track and
+   thumb are shadow-DOM pseudo-elements, and Chromium and Firefox spell
+   them differently, so both sets are declared here.
+
+   The filled portion of the track is a gradient driven by the
+   --sunshade-progress custom property the component sets inline, which
+   keeps the fill in sync with the value without a wrapper element.
+
+   The thumb is 28px: below ~24px a slider is genuinely hard to drag on a
+   phone, and this control is the main thing the user touches. */
+.sunshade-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  height: 28px;
+  cursor: pointer;
+}
+
+.sunshade-slider::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    var(--color-report-gold) 0%,
+    var(--color-report-gold) var(--sunshade-progress, 0%),
+    #E2E8F0 var(--sunshade-progress, 0%),
+    #E2E8F0 100%
+  );
+}
+
+.sunshade-slider::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: #E2E8F0;
+}
+
+.sunshade-slider::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-report-gold);
+}
+
+.sunshade-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--color-report-gold-dark);
+  box-shadow: 0 2px 6px rgba(11, 25, 41, 0.28);
+  /* Centres the thumb on the 6px track: (28 - 6) / 2 = 11px up. */
+  margin-top: -11px;
+}
+
+.sunshade-slider::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--color-report-gold-dark);
+  box-shadow: 0 2px 6px rgba(11, 25, 41, 0.28);
+}
+
+/* The baseline :focus-visible outline sits on the input's full 28px box,
+   which reads as a rectangle around the whole track. Ringing the thumb
+   instead puts the indicator where the user's attention already is. */
+.sunshade-slider:focus-visible {
+  outline: none;
+}
+
+.sunshade-slider:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid var(--color-gold-500);
+  outline-offset: 2px;
+}
+
+.sunshade-slider:focus-visible::-moz-range-thumb {
+  outline: 3px solid var(--color-gold-500);
+  outline-offset: 2px;
+}
+
+/* Leaflet's own controls sit at z-index 400–1000 and would otherwise
+   punch through the site's sticky header (z-40) when the map is tall. */
+.leaflet-pane,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 30;
 }

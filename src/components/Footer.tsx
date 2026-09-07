@@ -19,6 +19,7 @@ const pageLinks = [
   { href: '/palm-beach-county-condo-townhome-market-report', label: 'Condo & Townhome Market Report' },
   { href: '/palm-beach-county-treasure-coast-relocation-guide', label: 'Relocation Decision Guide' },
   { href: '/florida-condo-buyers-due-diligence-checklist', label: 'Condo Due-Diligence Checklist' },
+  { href: '/sun-shade', label: 'Sun & Shade Analyzer' },
 ]
 
 export default function Footer() {

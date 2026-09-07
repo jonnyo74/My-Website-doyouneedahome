@@ -6,6 +6,7 @@ import { bedsLabel, bedsUnit, getListingBySlug, getListingPaths, priceDisplay, s
 import { getCommunityBySlug } from '@/lib/communities'
 import OpenHouseBanner from './OpenHouseBanner'
 import YlopoInit from '@/components/YlopoInit'
+import ListingSunShade from '@/components/ListingSunShade'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import { SITE_URL } from '@/lib/site'
 
@@ -495,6 +496,16 @@ export default async function ListingPage({ params }: Props) {
                   </div>
                 )}
               </div>
+
+              {/* Directly after the photos, which is where the question comes
+                  up: the gallery was shot on a good day at a flattering hour.
+                  Renders nothing unless the listing has verified coordinates. */}
+              <ListingSunShade
+                address={listing.address}
+                city={listing.city}
+                lat={listing.lat}
+                lng={listing.lng}
+              />
 
               {/* Community amenities — captioned, and headed so nobody mistakes
                   these for photographs of the home. */}
