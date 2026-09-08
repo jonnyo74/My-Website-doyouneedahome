@@ -73,6 +73,9 @@ interface FeatureData {
 interface ParcelData {
   parcel: ParcelInfo | null
   parcelRing: LngLat[] | null
+  /** Set when the county roll located the typed address more precisely than
+   *  the geocoder did. See the note on `applyParcel`. */
+  snapTo: { lat: number; lng: number } | null
   /** Set when the lookup itself failed, as opposed to finding no record. */
   note: string | null
 }
@@ -113,14 +116,30 @@ async function fetchFeatures(lat: number, lng: number): Promise<FeatureData> {
  * parcel merely improves two things when it eventually lands: the height
  * estimate for the subject building, and the lot outline used for yard sampling.
  */
-async function fetchParcel(lat: number, lng: number): Promise<ParcelData> {
+async function fetchParcel(lat: number, lng: number, query = ''): Promise<ParcelData> {
+  const params = new URLSearchParams({ lat: String(lat), lng: String(lng) })
+  if (query) params.set('q', query)
   try {
-    const data = await fetch(`/api/sunshade/parcel?lat=${lat}&lng=${lng}`).then((r) => r.json())
-    return { parcel: data.parcel ?? null, parcelRing: data.ring ?? null, note: data.note ?? null }
+    const data = await fetch(`/api/sunshade/parcel?${params.toString()}`).then((r) => r.json())
+    return {
+      parcel: data.parcel ?? null,
+      parcelRing: data.ring ?? null,
+      snapTo: data.snapTo ?? null,
+      note: data.note ?? null,
+    }
   } catch {
-    return { parcel: null, parcelRing: null, note: 'County records could not be reached.' }
+    return {
+      parcel: null,
+      parcelRing: null,
+      snapTo: null,
+      note: 'County records could not be reached.',
+    }
   }
 }
+
+/** Far enough that the pin is on a different property, not just a different
+ *  corner of the same lot. Below this, moving it would be fidgeting. */
+const SNAP_THRESHOLD_M = 20
 
 export default function SunShadeApp({ initial }: { initial: SunShadeInitialState }) {
   const today = todayInZone(FLORIDA_TIMEZONE)
@@ -187,26 +206,50 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
     setLoadingFeatures(false)
   }, [])
 
-  const applyParcel = useCallback((data: ParcelData) => {
-    setParcel(data.parcel)
-    setParcelRing(data.parcelRing)
-    setParcelNote(data.note)
-    setLoadingParcel(false)
-  }, [])
+  /**
+   * Applies the parcel record, and moves the pin onto it when the county roll
+   * located the address better than the geocoder did.
+   *
+   * Census and Nominatim both interpolate along a street's address range, so
+   * the pin lands in the road: for 2414 24th Lane it sat 61 m from the unit,
+   * inside the community's common-area tract. The roll knows where 2414 is, so
+   * a matched boundary relocates the pin and refetches footprints — the ones
+   * fetched around the old pin may not cover the new position at all.
+   */
+  const applyParcel = useCallback(
+    (data: ParcelData, origin: { lat: number; lng: number }) => {
+      setParcel(data.parcel)
+      setParcelRing(data.parcelRing)
+      setParcelNote(data.note)
+      setLoadingParcel(false)
+
+      const snap = data.snapTo
+      if (!snap || haversineM(origin, snap) < SNAP_THRESHOLD_M) return
+
+      setProperty((current) =>
+        current ? { ...current, lat: snap.lat, lng: snap.lng, precision: 'rooftop' } : current
+      )
+      setLoadingFeatures(true)
+      void fetchFeatures(snap.lat, snap.lng).then(applyFeatures)
+    },
+    [applyFeatures]
+  )
 
   /** Event-handler entry point. The two requests are started together and
    *  applied independently, so neither blocks the other. */
   const loadSite = useCallback(
-    (lat: number, lng: number) => {
+    (lat: number, lng: number, query = '') => {
       setLoadingFeatures(true)
       setLoadingParcel(true)
       setFeatureNote(null)
       setParcelNote(null)
       void fetchFeatures(lat, lng).then(applyFeatures)
-      void fetchParcel(lat, lng).then(applyParcel)
+      void fetchParcel(lat, lng, query).then((data) => applyParcel(data, { lat, lng }))
     },
     [applyFeatures, applyParcel]
   )
+
+
 
   const search = useCallback(
     async (query: string) => {
@@ -226,7 +269,7 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
           lng: match.lng,
           precision: match.precision,
         })
-        loadSite(match.lat, match.lng)
+        loadSite(match.lat, match.lng, query)
       } catch {
         setError('Address lookup failed. Check your connection and try again.')
       } finally {
@@ -252,7 +295,7 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
           lng: suggestion.lng,
           precision: suggestion.kind === 'listing' ? 'rooftop' : 'approximate',
         })
-        loadSite(suggestion.lat, suggestion.lng)
+        loadSite(suggestion.lat, suggestion.lng, suggestion.label)
         return
       }
       void search(suggestion.query)
@@ -279,8 +322,8 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
     void fetchFeatures(lat, lng).then((data) => {
       if (!cancelled) applyFeatures(data)
     })
-    void fetchParcel(lat, lng).then((data) => {
-      if (!cancelled) applyParcel(data)
+    void fetchParcel(lat, lng, initial.address).then((data) => {
+      if (!cancelled) applyParcel(data, { lat, lng })
     })
     return () => {
       cancelled = true
@@ -293,6 +336,9 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
   const moveProperty = useCallback(
     (lat: number, lng: number) => {
       setProperty((current) => (current ? { ...current, lat, lng, precision: 'rooftop' } : current))
+      // No address passed on purpose. A drag is the user overruling us, so the
+      // parcel lookup reverts to reporting whatever is under the new pin rather
+      // than snapping it back to where the county roll thinks it belongs.
       loadSite(lat, lng)
     },
     [loadSite]
