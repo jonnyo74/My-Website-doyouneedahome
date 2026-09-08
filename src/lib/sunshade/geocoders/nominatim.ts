@@ -23,7 +23,15 @@ interface NominatimPlace {
   category?: string
 }
 
-const PRECISE_ADDRESS_TYPES = new Set(['house', 'building', 'place', 'address', 'amenity'])
+/**
+ * Only these mean Nominatim matched a mapped structure.
+ *
+ * `place` was in this set and should not have been: for 2414 24th Lane it
+ * returned addresstype `place` and a point 61 m from the property, in the road.
+ * Claiming rooftop there is not cosmetic — it suppresses the "drag the pin"
+ * hint precisely when the pin most needs dragging.
+ */
+const ROOFTOP_ADDRESS_TYPES = new Set(['house', 'building'])
 
 export const nominatimGeocoder: GeocoderProvider = {
   id: 'nominatim',
@@ -58,9 +66,9 @@ export const nominatimGeocoder: GeocoderProvider = {
           lat,
           lng,
           provider: 'nominatim',
-          precision: PRECISE_ADDRESS_TYPES.has(place.addresstype ?? '')
+          precision: ROOFTOP_ADDRESS_TYPES.has(place.addresstype ?? '')
             ? 'rooftop'
-            : 'approximate',
+            : 'interpolated',
         },
       ]
     })
