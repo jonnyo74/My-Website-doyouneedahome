@@ -101,7 +101,11 @@ export async function GET(req: NextRequest) {
   url.searchParams.set('outFields', 'PARCEL_ID,PHY_ADDR1,PHY_CITY,TOT_LVG_AR,ACT_YR_BLT,NO_BULDNG')
   url.searchParams.set('returnGeometry', 'true')
   url.searchParams.set('maxAllowableOffset', String(GEOMETRY_TOLERANCE_DEG))
-  url.searchParams.set('resultRecordCount', '1')
+  // NO `resultRecordCount`. It looks like a harmless optimisation and is the
+  // opposite: this layer REJECTS the query with a 400 when it is present
+  // alongside `returnGeometry` + `maxAllowableOffset`, and takes ~55s to say so.
+  // Without it the same query answers in ~29s. A point-intersect against a
+  // parcel layer returns one polygon anyway, so there is nothing to cap.
   url.searchParams.set('f', 'geojson')
 
   // Rounded to ~1 m so a dragged pin does not mint a new upstream query for

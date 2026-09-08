@@ -158,6 +158,39 @@ export default function BuyPage() {
         </div>
       </section>
 
+      {/* Sun & Shade Analyzer. Deliberately NOT added to the
+          `publishedLeadMagnets` row above: the analyzer is an open tool with
+          nothing to download and no email gate, so it does not belong in the
+          magnet registry or its token-gated download flow. */}
+      <section className="bg-white px-6 py-16 sm:px-8">
+        <div className="mx-auto max-w-5xl">
+          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-sky-50 via-blue-50 to-white p-8 sm:p-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-text">
+              Free Tool
+            </p>
+            <h2 className="mt-2 font-serif text-3xl font-semibold text-slate-900 sm:text-4xl">
+              Florida Sun &amp; Shade Analyzer
+            </h2>
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+              Orientation is the one thing about a house you cannot renovate. Enter any Florida
+              address and watch estimated sunlight and building shadows move across the lot through
+              the day — then compare the summer and winter solstices to see what the pool, patio, or
+              balcony actually gets in January. No sign-up, nothing gated.
+            </p>
+            <Link
+              href="/sun-shade"
+              className="mt-6 inline-flex rounded-xl bg-gold-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-gold-600"
+            >
+              Open the Sun &amp; Shade Analyzer
+            </Link>
+            <p className="mt-4 text-xs leading-relaxed text-slate-500">
+              Projections are estimates from public mapping and solar-position data. Trees, terrain,
+              and unmapped structures are not included.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Communities */}
       <section className="bg-white px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-5xl">

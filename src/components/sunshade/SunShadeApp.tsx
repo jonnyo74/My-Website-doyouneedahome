@@ -27,6 +27,7 @@ import { buildHeightIndex } from '@/lib/sunshade/heights'
 import { buildShadowGeometry } from '@/lib/sunshade/shadows'
 import { solarDay, solarPositionAtLocalTime } from '@/lib/sunshade/solar'
 import { toDateInputValue, todayInZone } from '@/lib/sunshade/time'
+import type { Suggestion } from '@/lib/sunshade/suggest'
 import type {
   BuildingFootprint,
   GeocodeResult,
@@ -236,6 +237,30 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
   )
 
   /**
+   * A picked suggestion, which is a better starting point than the text it
+   * came from. Our own listings carry parcel-matched coordinates, so choosing
+   * one skips geocoding entirely and lands on the roof rather than in the road
+   * where a street geocoder would have put it.
+   */
+  const selectSuggestion = useCallback(
+    (suggestion: Suggestion) => {
+      if (suggestion.lat !== undefined && suggestion.lng !== undefined) {
+        setError(null)
+        setProperty({
+          address: suggestion.label,
+          lat: suggestion.lat,
+          lng: suggestion.lng,
+          precision: suggestion.kind === 'listing' ? 'rooftop' : 'approximate',
+        })
+        loadSite(suggestion.lat, suggestion.lng)
+        return
+      }
+      void search(suggestion.query)
+    },
+    [loadSite, search]
+  )
+
+  /**
    * Loads site data for a property restored from a shared link, once.
    *
    * It watches the INITIAL coordinates rather than `property`: keyed off
@@ -365,7 +390,12 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
         </header>
 
         <div className="mb-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-card sm:p-4 lg:mb-4">
-          <AddressSearch initialQuery={initial.address} busy={searching} onSearch={search} />
+          <AddressSearch
+            initialQuery={initial.address}
+            busy={searching}
+            onSearch={search}
+            onSelect={selectSuggestion}
+          />
           {error && (
             <p role="alert" className="mt-2 text-sm font-medium text-red-700">
               {error}

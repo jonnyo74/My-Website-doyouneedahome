@@ -109,23 +109,46 @@ function defaultEstimate(tags: Record<string, string>): HeightEstimate {
 /**
  * Storeys implied by county living area against the mapped footprint.
  *
- * A 2,800 sq ft house on a 1,500 sq ft footprint is two storeys; the same house
- * on a 2,700 sq ft footprint is one. The ratio is noisy — garages and lanais
- * are inside the footprint but outside "living area", which biases the ratio
- * DOWN, so we only promote to two storeys past 1.55 rather than 1.5, and never
- * infer more than three from this signal alone.
+ * The naive version of this compares living area to footprint and calls
+ * anything above ~1.5 a two-storey house. That is wrong, and measurably so,
+ * because the two numbers do not describe the same thing:
+ *
+ *   - `TOT_LVG_AR` counts air-conditioned space only. Garages, lanais and
+ *     covered entries are excluded.
+ *   - An OpenStreetMap footprint is traced from aerial imagery, so it is the
+ *     whole UNDER-ROOF outline, garage and lanai very much included.
+ *
+ * In Florida that gap is big. A three-car garage and a 36-foot lanai can be a
+ * third of the roof. So we model the relationship explicitly instead of
+ * guessing a threshold: roughly `LIVING_SHARE_OF_FOOTPRINT` of the under-roof
+ * area is living space on the ground floor, and the storey count is the living
+ * area divided by that.
+ *
+ * Calibrated against the three listings in `listings.ts`, where the MLS storey
+ * count is known ground truth:
+ *
+ *   8804 Skyward St   4,932 sq ft living / 4,422 sq ft footprint -> 1.72 -> 2  (true: 2)
+ *   6145 SE Audubon   1,416 / 2,612                              -> 0.83 -> 1  (true: 1)
+ *   982 SW Worcester  1,710 / 2,566                              -> 1.03 -> 1  (true: 1)
+ *
+ * Three houses is a thin calibration set and this is stated as such in the UI —
+ * every result from this path is reported as an estimate, never a fact. But it
+ * beats the threshold it replaced, which called Skyward a single-storey house
+ * and so drew half the shadow it should have.
  */
+const LIVING_SHARE_OF_FOOTPRINT = 0.65
+
 export function storeysFromParcel(
   livingAreaSqFt: number | null | undefined,
   footprintM2: number
 ): number | null {
   if (!livingAreaSqFt || livingAreaSqFt <= 0 || footprintM2 <= 20) return null
-  const livingM2 = livingAreaSqFt * SQ_METRES_PER_SQ_FOOT
-  const ratio = livingM2 / footprintM2
-  if (!Number.isFinite(ratio) || ratio <= 0) return null
-  if (ratio < 1.55) return 1
-  if (ratio < 2.55) return 2
-  return 3
+  const footprintSqFt = footprintM2 / SQ_METRES_PER_SQ_FOOT
+  const implied = livingAreaSqFt / (LIVING_SHARE_OF_FOOTPRINT * footprintSqFt)
+  if (!Number.isFinite(implied) || implied <= 0) return null
+  // Clamped at three: past that the ratio is telling us the footprint is wrong
+  // (a traced block of townhouses, say), not that the house is a tower.
+  return Math.min(3, Math.max(1, Math.round(implied)))
 }
 
 /**
