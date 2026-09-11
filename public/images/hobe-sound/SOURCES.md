@@ -354,6 +354,14 @@ subject only and never says Jonathan Dickinson. The ecology is right either way:
 cypress, cabbage palm, sword fern, blackwater. One person, shirtless, back to camera under
 a cap — not identifiable. No branding on the kayak or paddle.
 
+**Also used on `/kayak-launches-jupiter-tequesta`** (2026-09-11), as the illustrative
+figure in the “Upriver — the Wild & Scenic Northwest Fork” section. Same rule applies and
+matters more there: that page is *about* the Loxahatchee, so an uncaptioned frame would
+assert the place. The caption used claims subject only — “Bald cypress, cabbage palm and
+tannin-dark water — the character of a Florida blackwater river above the tide line.” —
+and the credit line runs beneath it. The reasoning is repeated in a comment on the GROUPS
+table in `src/components/paddle/LaunchExplorer.tsx` so it is not lost if this file is not read.
+
 Rejected during the same search: `_qUsMvdxX3s` and `CKhfku28FbE` — both better-composed
 mangrove-tunnel frames, both **Unsplash+**, which is a paid subscription rather than the
 free licence everything else here uses. `5pdmF7PD-zI` is free but it is Levera Pond,

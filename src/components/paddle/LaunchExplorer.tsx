@@ -55,7 +55,23 @@ const SOURCING_LABEL: Record<LaunchSite['sourcing'], string> = {
   single: 'Single source — verify',
 }
 
-const GROUPS: { id: LaunchSite['group']; title: string; kicker: string; blurb: string }[] = [
+/**
+ * `figure` is illustrative, not documentary.
+ *
+ * The caption claims the SUBJECT and never the place. The frame is stock, and
+ * although the photographer tagged it “Loxahatchee, Florida” that tag means the
+ * Acreage community in western Palm Beach County, not the Loxahatchee River.
+ * The ecology is right — bald cypress, cabbage palm, sword fern, blackwater —
+ * so it shows a reader what this water looks like without asserting it is this
+ * river. See public/images/hobe-sound/SOURCES.md.
+ */
+const GROUPS: {
+  id: LaunchSite['group']
+  title: string
+  kicker: string
+  blurb: string
+  figure?: { src: string; alt: string; caption: string; credit: string }
+}[] = [
   {
     id: 'tidal',
     title: 'The tidal river, the inlet & the Intracoastal',
@@ -69,6 +85,13 @@ const GROUPS: { id: LaunchSite['group']; title: string; kicker: string; blurb: s
     kicker: 'Fresh water · cypress · portages',
     blurb:
       'Florida’s first federally designated Wild & Scenic river. Two dams to portage, log jams after storms, and a landing at Trapper Nelson’s you can only reach by boat. The day-trip half of the system, not the before-work half.',
+    figure: {
+      src: '/images/hobe-sound/stock-kayak-cypress-river.jpg',
+      alt: 'A kayaker paddling a narrow blackwater river beneath bald cypress and cabbage palms',
+      caption:
+        'Bald cypress, cabbage palm and tannin-dark water — the character of a Florida blackwater river above the tide line.',
+      credit: 'Photo by Chase Baker / Unsplash',
+    },
   },
   {
     id: 'other',
@@ -311,6 +334,25 @@ export default function LaunchExplorer() {
               </h2>
             </div>
             <p className="max-w-3xl text-[15px] leading-relaxed text-slate-600">{group.blurb}</p>
+            {group.figure && (
+              <figure className="max-w-3xl">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={group.figure.src}
+                  alt={group.figure.alt}
+                  width={1400}
+                  height={1050}
+                  loading="lazy"
+                  className="w-full rounded-2xl border border-slate-200 object-cover shadow-card"
+                />
+                <figcaption className="mt-3 text-center text-sm italic leading-6 text-slate-600">
+                  {group.figure.caption}
+                  <span className="mt-1 block text-xs not-italic text-slate-600">
+                    {group.figure.credit}
+                  </span>
+                </figcaption>
+              </figure>
+            )}
             <div className="space-y-4">
               {sites.map((site) => (
                 <LaunchEntry
