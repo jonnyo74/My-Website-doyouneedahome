@@ -19342,6 +19342,28 @@ Two things worth drawing out. First the range: this harbor serves a 22-foot cent
 
 Martin County runs a managed 36-vessel mooring field on the Pocket, with a harbormaster and a dinghy dock. It is a large part of why this anchorage stays orderly rather than accumulating abandoned hulls the way some Florida harbors do. Capacity and rules are in the [Rocky Point guide](/blog/rocky-point-stuart-florida).
 
+## Depth, Navigation and Dredging
+
+Manatee Pocket is sometimes described as a protected deep-water harbor. "Protected" generally fits the geography. "Deep water" should not be applied automatically to every part of it.
+
+### The Pocket Is Not Uniformly Deep
+
+Depth varies with location, tide, shoaling, dredging history, sediment, storm activity, distance from the marked route, and the condition of the individual canal or dock. One marina can accommodate a large vessel while a residential dock a few hundred yards away cannot.
+
+For a waterfront buyer the measurements that matter are depth at the dock, depth through the connecting canal or creek, depth along the entire route, the tide and datum used for the measurement, the boat's draft, and the under-keel clearance you want. Those are characteristics of the individual address, not of Manatee Pocket as a whole.
+
+### Follow the Marked Route
+
+Shoaling and shifting bottom conditions make current information essential. Use updated charts, the current channel markers, tide tables, marine weather, local knowledge, a working depth sounder and notices to mariners. A chart alone may not show a recent shoal or the local traffic pattern.
+
+A buyer purchasing for a specific vessel should run the route with an experienced local captain or marine professional before closing, not after.
+
+### Dredging Is Not Permanent
+
+The Pocket and its connected waterways have been included in dredging and restoration projects. Dredging improves navigation in a defined area for a period. It does not guarantee depth, because sediment returns through storms, natural movement, runoff, erosion and boat traffic.
+
+A prior project also does not prove a private canal or dock can be dredged again. Future work may need engineering, funding, environmental studies, county permits, state and federal authorization, and agreement among the neighboring owners. For a home on a private or shared canal, establish who is responsible for dredging and whether any legal mechanism exists to collect the cost.
+
 ## Eating on the Water
 
 The dining here is concentrated on the Pocket and it is genuinely good, for a reason that has nothing to do with chefs.
@@ -19366,11 +19388,35 @@ The St. Lucie Estuary takes high-volume freshwater discharges from Lake Okeechob
 
 It is not constant and not annual. When it happens, though, it degrades exactly what most people came here for, and it can persist for weeks.
 
-The present picture is meaningfully better. After more than a year with no harmful Lake Okeechobee discharges, the estuary is showing real recovery — seagrass returning, clarity improving, oysters spawning again — and large reservoir and treatment projects are under construction specifically to cut those discharges.
+The present picture is meaningfully better. As of mid-2026, after more than a year without harmful Lake Okeechobee discharges, the estuary was showing real recovery — seagrass returning, clarity improving, oysters spawning again — and large reservoir and treatment projects are under construction specifically to cut those discharges.
 
 How to weigh it as a buyer: do not judge this water by the week you happened to visit, in either direction. Read several years of history rather than one season. Martin County publishes water conditions and Florida's DEP runs an algal bloom hotline; use both if the water is your reason for moving here.
 
 Anyone who tells you it is solved is selling you something. Anyone who tells you the river is finished is also wrong. It fluctuates, it is being actively worked on, and it belongs in your decision rather than in a footnote.
+
+## Living On the Pocket or Near It
+
+A home directly on Manatee Pocket may offer water views, immediate boating access, a private dock, harbor activity, proximity to the marinas and restaurants, and sunrise or sunset views depending on orientation. It may also bring early-morning commercial activity, boat wakes, marine traffic, flood exposure, seawall maintenance, dock repairs, environmental permitting, insurance costs and depth limits.
+
+A property beside a working boatyard will feel very different from one on a quieter residential stretch. The address matters more than the words "Manatee Pocket".
+
+Some buyers deliberately live a street or two back and use a community ramp, shared dockage, a marina, dry storage, a public launch or a kayak access point. That can reduce the purchase price and remove direct responsibility for a seawall or dock, in exchange for association fees, boat-size limits, waiting lists, storage rules, ramp congestion, limited parking and restricted hours.
+
+Confirm the legal rights that come with the property. Living near the water does not by itself give you the right to use a nearby dock, ramp or shoreline.
+
+### Creeks and Smaller Waterways
+
+Manatee Creek and the smaller tidal waterways feeding the Pocket are quieter than the main harbor and can suit kayaks, canoes, paddleboards, small skiffs and wildlife watching. They may not work for larger or deeper-draft boats: shallow water, narrow routes, mangroves, vegetation, low bridges, tidal restrictions and limited turning room all apply.
+
+Match the property to the activity you actually intend to pursue. Not all Port Salerno waterfront is interchangeable.
+
+## Manatees and Wildlife
+
+Manatees move through the Pocket and nearby waterways when conditions suit them, particularly in the cooler months. Sightings are possible, not guaranteed.
+
+![Two manatees just under the surface in clear water](/images/port-salerno/local-manatees-inline.jpg "Manatees move into warmer, calmer water as temperatures drop. The Pocket runs darker than this, so a back or a snout at the surface is the usual sighting.")
+
+Boaters and paddlers should obey posted manatee zones, slow down, watch for animals near the surface, keep their distance, never chase or surround them, and never feed them or offer fresh water. The Pocket also supports fish, wading birds and other estuarine wildlife. Observe them without trying to change their behavior.
 
 ## Paddling
 
@@ -19441,7 +19487,7 @@ Evaluate the actual address and the actual boating route — not the words "Mana
     funFact: "Manatee Pocket is often described as a protected deep-water harbor. It is relatively protected, but do not let deep water attach itself to every marina, canal and private dock in it. Martin County reports average depths of roughly five to seven feet at mean lower low water at its 36-vessel Manatee Pocket mooring field — and that measurement applies to the mooring field, not the whole Pocket. Depth at a private property varies with location, tide, shoaling, canal conditions and distance from the marked route. If you are matching a particular boat to a waterfront home, the deciding numbers are the current depth at that dock and along the entire route, plus any bridge or clearance restrictions. Those are address-level facts, and they need verifying before you buy.",
     author: 'john',
     published: true,
-    updated: '2026-08-09',
+    updated: '2026-09-11',
   },
   {
     slug: 'what-its-really-like-living-in-port-st-lucie-florida',
