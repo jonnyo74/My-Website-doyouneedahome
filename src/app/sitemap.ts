@@ -21,6 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Only the bare entry point belongs here.
     { url: `${BASE}/sun-shade`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/blog`, changeFrequency: 'weekly', priority: 0.6 },
+    // Paired paddle-access guides. The launch map answers an informational
+    // query and the communities table a transactional one, which is why they
+    // are two URLs rather than one — they should rank for different searches.
+    { url: `${BASE}/kayak-launches-jupiter-tequesta`, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/communities-with-kayak-launches`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/testimonials`, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/accessibility`, changeFrequency: 'yearly', priority: 0.3 },
