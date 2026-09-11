@@ -19719,6 +19719,7 @@ If you've just moved here: get on the river in your first month, find your neare
     primaryKeyword: "who should move to Port St. Lucie Florida",
     secondaryKeywords: ["is Port St. Lucie right for me", "should I move to PSL", "who lives in Port St. Lucie"],
     h1: "Who Should Move to Port St. Lucie, Florida (And Who Shouldn't)",
+    heroImage: '/images/port-st-lucie/local-pga-welcome-banner.jpg',
     body: `Port St. Lucie is the value-and-space pick on this coast, and increasingly it's also the get-in-early pick. Neither of those makes it right for everyone.
 
 Here's the honest sorting.
@@ -19844,6 +19845,7 @@ If you're torn, do two things before deciding: **drive the commute**, and **look
     primaryKeyword: "pros and cons of living in Port St. Lucie Florida",
     secondaryKeywords: ["Port St. Lucie pros and cons", "living in PSL downsides", "is Port St. Lucie worth it"],
     h1: "Pros and Cons of Living in Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/local-clover-park-palms.jpg',
     showMarketTrends: true,
     body: `Port St. Lucie makes a clear trade: you give up the coast, walkability, and established character, and you get space, newness, and a lower cost of ownership than anywhere comparable to the south.
 
@@ -19974,6 +19976,7 @@ Two checks determine whether it works for you: **the CDD on the specific propert
     primaryKeyword: "cost of living in Port St. Lucie Florida",
     secondaryKeywords: ["Port St. Lucie home prices", "is Port St. Lucie affordable", "PSL cost of living"],
     h1: "Cost of Living in Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/local-pga-members-only.jpg',
     showMarketTrends: true,
     body: `Port St. Lucie is often viewed as one of the more attainable places to buy in Southeast Florida, and the range of inventory is genuinely wide — established resale homes, new construction, non-HOA neighborhoods, master-planned communities, villas and townhomes, golf communities, age-qualified developments, riverfront and canal-front property, and homes on larger suburban lots.
 
@@ -20302,6 +20305,7 @@ If you've just moved here and you're wondering whether this city has any charact
     primaryKeyword: "Port St. Lucie vs nearby cities",
     secondaryKeywords: ["Port St. Lucie vs Stuart", "Port St. Lucie vs Palm City", "Port St. Lucie vs Fort Pierce"],
     h1: "Port St. Lucie vs Nearby Cities: How to Choose",
+    heroImage: '/images/port-st-lucie/local-pga-practice-range-banner.jpg',
     showMarketTrends: true,
     body: `Choosing along the Treasure Coast usually comes down to three variables: value, water, and how established you want your town to feel. Port St. Lucie wins decisively on the first and generally loses on the other two.
 
@@ -20420,6 +20424,7 @@ Drive the commute you'd actually drive, at the hour you'd actually drive it. Spe
     primaryKeyword: "best restaurants in Port St. Lucie Florida",
     secondaryKeywords: ["where to eat in Port St. Lucie", "Tradition Square restaurants", "St. Lucie West dining"],
     h1: "Best Places to Eat, Drink & Hang Out in Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/local-clover-park-frontage.jpg',
     body: `Port St. Lucie's dining scene has been the city's weakest point for years, and residents will tell you so without much prompting. It's improving, and one project in particular is about to change the picture substantially.
 
 Here's the honest current state, plus what's coming.
