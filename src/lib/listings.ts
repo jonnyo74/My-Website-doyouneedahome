@@ -60,6 +60,11 @@ export interface Listing {
   soldPrice?: number
   // Absent on Coming Soon listings that haven't hit the MLS yet.
   mlsNumber?: string
+  // Who shot the gallery. Listing photography is one shoot by one
+  // photographer, so this credits the whole set once beneath it rather than
+  // repeating a line under every frame. Absent means we have not confirmed
+  // who took them — leave it absent rather than guessing.
+  photoCredit?: string
 
   address: string
   city: string
@@ -755,6 +760,7 @@ export const listings: Listing[] = [
     status: 'Sold',
     soldDate: '2026-09-08',
     mlsNumber: 'R11155179DX',
+    photoCredit: 'Photo by Jatin Shah / MagiK Box',
 
     address: '982 SW Worcester Lane',
     city: 'Port St. Lucie',

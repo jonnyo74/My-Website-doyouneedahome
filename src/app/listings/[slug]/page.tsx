@@ -7,6 +7,7 @@ import { getCommunityBySlug } from '@/lib/communities'
 import OpenHouseBanner from './OpenHouseBanner'
 import YlopoInit from '@/components/YlopoInit'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
+import SunShadeLink from '@/components/sunshade/SunShadeLink'
 import { SITE_URL } from '@/lib/site'
 
 const SITE = SITE_URL
@@ -470,7 +471,10 @@ export default async function ListingPage({ params }: Props) {
                         ))}
                       </div>
                     )}
-                    <p className="mt-3 text-xs text-slate-500">Click any photo to view it full-size.</p>
+                    <p className="mt-3 text-xs text-slate-500">
+                      Click any photo to view it full-size.
+                      {listing.photoCredit ? <span className="ml-2 text-slate-400">{listing.photoCredit}</span> : null}
+                    </p>
                   </>
                 ) : (
                   <div className="rounded-2xl border border-dashed border-slate-300 bg-slate-50 px-6 py-14 text-center">
@@ -693,6 +697,20 @@ export default async function ListingPage({ params }: Props) {
                   </div>
                 </div>
               )}
+
+              {/* Sun & shade — sits with the outdoor sections because that is
+                  the question it answers: which parts of the lot are in sun,
+                  and when. Coordinates come from the listing record, so the
+                  analyzer opens on this roof rather than geocoding the street. */}
+              <SunShadeLink
+                address={listing.address}
+                city={listing.city}
+                state={listing.state}
+                zip={listing.zip}
+                lat={listing.lat}
+                lng={listing.lng}
+                hasPool={Boolean(listing.pool)}
+              />
 
               {/* Systems & Mechanical */}
               {(listing.cooling?.length || listing.heating?.length || listing.roof || listing.solar || listing.stormProtection) && (
