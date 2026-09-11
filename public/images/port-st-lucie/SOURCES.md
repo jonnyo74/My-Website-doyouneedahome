@@ -238,3 +238,68 @@ Screened out on the same reasoning:
 It was the illustration for spring training and has been replaced by
 `local-clover-park-mets-chair.jpg`. The file is still committed but nothing references it.
 That takes the uncredited-stock list at the top of this file from four files to three.
+
+## Five article heroes cut from the same 2026-08-19 drop — 2026-09-11
+
+John asked for heroes on the nine Port St. Lucie articles that had none. The drop only
+covers two subjects — Clover Park and PGA Golf Club / PGA Village — so five were served
+honestly and four were left alone rather than filled.
+
+All five are 2048×602 (3.40:1), matching every other article hero on the site. Ours
+outright, so no `heroImageCredit` on any of them.
+
+| File | From | Band | Depicts | Hero on |
+|---|---|---|---|---|
+| `local-pga-members-only.jpg` | `IMG_6452` | x 850–5712, y 1835–3265 | PGA Golf Club "CLUB MEMBERS & REGISTERED GUESTS ONLY" post, cart path, fairway and range beyond | `cost-of-living-in-port-st-lucie-florida` |
+| `local-pga-welcome-banner.jpg` | `IMG_6453` | y 1499–3179 | "Welcome to PGA Golf Club" roundabout sign, palms, clubhouse and cupola behind | `who-should-move-to-port-st-lucie-florida` |
+| `local-clover-park-frontage.jpg` | `IMG_6444` | y 907–2093 | Clover Park head-on across the empty plaza, palms both sides, cumulus | `best-places-to-eat-drink-hang-out-in-port-st-lucie-florida` |
+| `local-clover-park-palms.jpg` | `IMG_6445` | y 847–2033 | Clover Park three-quarter, Mets script, flagpoles, palm trunk right | `pros-and-cons-of-living-in-port-st-lucie-florida` |
+| `local-pga-practice-range-banner.jpg` | `IMG_6456` | y 756–1942 | Covered practice range across open turf to the treeline | `port-st-lucie-vs-nearby-cities` |
+
+### Two of these are establishing shots, not subject matches
+
+`cost-of-living` earns `local-pga-members-only` outright — that article has a **Golf and
+Private Club Costs** section, and a members-only post is the picture of a mandatory club
+obligation. `who-should-move` mentions golf six times. `eat-drink` has a **Spring training
+changes the calculus** section.
+
+`pros-and-cons` and `vs-nearby-cities` mention neither golf nor the ballpark. They get a
+landmark establishing shot on the same reasoning that blogs 1–3 carry generic stock
+streetscapes and aerials: the hero sets the scene rather than illustrating an argument, and
+John's own photograph of a real Port St. Lucie landmark beats an uncredited stock suburb.
+**If John would rather they stayed bare until the right frame exists, these are the two to
+pull.**
+
+### The person check, and why `IMG_6452` is cropped from x=850
+
+The full-width 3.4:1 band off `IMG_6452` put a man beside a cart at the extreme left, close
+enough to read as identifiable at full resolution. The band was re-cut from x=850 instead,
+which removes him and the carts entirely and loses nothing of the sign. The only remaining
+figure across these five is the distant golfer mid-frame in
+`local-pga-practice-range-banner.jpg` — bent over a ball, no face, the same call already
+made for `local-pga-practice-range.jpg`.
+
+`local-clover-park-palms.jpg` carries a player mural on the orange cladding at right, the
+same incidental-architecture call recorded above for `IMG_6447` and `IMG_6449`.
+
+### Four articles still have no hero, deliberately
+
+Nothing in this drop can honestly serve them. A ballpark and a golf club are not these
+subjects, and reaching for them would be filler:
+
+| Article | What it actually needs |
+|---|---|
+| `hidden-gems-in-port-st-lucie-florida` | The North Fork, Savannas Preserve, Oxbow Eco-Center, the Botanical Gardens, the Riverwalk boardwalk. A stadium is the opposite of a hidden gem. |
+| `build-on-your-own-lot-port-st-lucie-florida` | A cleared or wooded platted lot on the PSL grid, ideally with a for-sale sign |
+| `spot-lot-builders-port-st-lucie-florida` | A block-and-slab house going up, or a builder sales office exterior |
+| `cost-to-build-on-your-lot-port-st-lucie-florida` | Same subject at a later framing / truss stage |
+
+The build series is the harder ask, and the rejected-stock section above explains why:
+Florida builds concrete block on slab, and stock construction photography is overwhelmingly
+wood-frame. Those three need John's own camera.
+
+**The original shot list at the top of this file is still 3/5 outstanding.** The Port
+District / Pioneer Park, Tradition Square, and two residential streets (one established in
+St. Lucie West, one new-construction in Tradition) were priorities 1–3 and none were shot
+on the 2026-08-19 trip. Those three stops would hero `hidden-gems`, close the
+neighbourhoods contrast, and give the city set something other than golf and baseball.
