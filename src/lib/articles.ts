@@ -14768,118 +14768,159 @@ Choose the property type first. Then compare the specific community, ownership c
     order: 4,
     seoTitle: "Best Things to Do in Palm City, Florida",
     metaTitle: "Best Things to Do in Palm City, Florida",
-    metaDescription: "The best things to do in Palm City, Florida — quiet paddling on the South Fork, Nicklaus-designed golf through wetlands, Charlie Leighton Park, riding country, and the ten-minute drive to everything else.",
+    metaDescription: "The best things to do in Palm City, Florida — quiet paddling on the South Fork, Nicklaus-designed golf through wetlands, the rebuilt Charlie Leighton Park, Hawks Hammock, riding country, and the short drive to everything else.",
     primaryKeyword: "things to do in Palm City Florida",
     secondaryKeywords: ["Palm City attractions", "what to do in Palm City", "Halpatiokee Regional Park", "St. Lucie River"],
     h1: "Best Things to Do in Palm City, Florida",
     heroImage: '/images/palm-city/stock-mangrove-tunnel.jpg',
     heroImageCredit: 'Photo by Alexander Bücker / Unsplash',
-    body: `Here's the honest opening: Palm City is a residential community, not a destination. It has no downtown, no beach and no marquee attraction, and any list that pretends otherwise is padding.
+    body: `Here's the honest opening: Palm City is primarily a residential community rather than a traditional tourist destination. It does not have an Atlantic beach or a large historic downtown of its own, and any list that pretends otherwise is padding. Its attractions are quieter and more closely tied to the way residents actually live: the St. Lucie River, golf, parks, equestrian trails, youth sports and community gathering places.
 
-What it does have is water, golf, horses and parks — plus Stuart ten minutes away. That combination is genuinely good, and it's what residents actually use.
+Downtown Stuart, the beaches of Hutchinson Island and the larger regional parks are all nearby, although drive times depend on the starting address, traffic and season. That combination is genuinely good, and it is what residents actually use. Here are the best ways to experience Palm City.
 
-## Paddle the South Fork
+## Paddle the South Fork of the St. Lucie River
 
-The best thing to do in Palm City, and the most underrated.
+The South Fork is Palm City's most distinctive natural feature, and the most underrated thing to do here. As the river travels inland it becomes narrower and more sheltered than the open estuary near downtown Stuart, and mangroves, wetlands and overhanging vegetation create the setting for paddling, fishing, birdwatching and wildlife observation. Depending on the route and conditions, paddlers meet mangrove-lined shorelines, wading birds, fish and turtles, quiet coves, preserved natural areas and stretches with little powerboat traffic.
 
-The **South Fork** of the St. Lucie runs along the community's eastern edge and narrows going upstream into mangrove tunnels and overhanging canopy. It is quiet, shaded, full of wading birds, and completely different in character from the wide open estuary that downtown Stuart faces.
+The experience varies with weather, tide, current, water level and boat activity. Early mornings are often cooler and calmer, particularly in summer, but confirm conditions before launching.
 
-Early morning with no wind is the version to aim for. Kayak or paddleboard; the water up there is not a powerboat proposition and that's precisely why it's good.
+### Where to Launch a Kayak or Canoe
+
+Public access to the South Fork is spread among parks and preserves rather than concentrated in one Palm City waterfront complex.
+
+The Kiplinger Nature Preserve, just across the river off Kanner Highway, covers approximately 164 acres with nearly three miles of riverfront, and its floating dock can be used for fishing or launching a kayak or canoe. Delaplane Preserve, 51 acres at 6084 SW Gaines Avenue on the same bank, has a canoe and kayak launch, a fishing dock, a quarter-mile accessible nature trail and parking for only a handful of cars. Both are stops on the state-designated St. Lucie River paddling trail.
+
+Before launching, check park hours, parking, weather, tide and current, water conditions, paddling distance, the safety equipment you are required to carry, and the fishing and boating regulations. Wear a personal flotation device, and do not treat an unfamiliar waterway as a casual trip because the surface looks calm.
 
 ## Charlie Leighton Park
 
-The community's waterfront anchor and the answer to "where do we go on a Sunday."
+Charlie Leighton Park is the community's waterfront anchor and the answer to "where do we go on a Sunday": a roughly four-acre riverfront park at 1707 SW Cornell Avenue in Old Palm City, with the boat ramp, fishing pier, picnic areas, a playground and a walking path along the water.
 
-A boat ramp, a fishing pier, picnic tables, grills, a playground and a walking path along the water. It's a straightforward local park done well, it's free, and it's where a lot of Palm City's outdoor life actually happens.
+Martin County closed it in September 2025 for a $4.5 million rebuild and reopened it in summer 2026 with a new boat ramp, additional docks, expanded car and trailer parking, an accessible floating launch for kayaks, paddleboards and rowing sculls, more green space, a gazebo and pedestrian access under the bridge. It is free, and it is where a lot of Palm City's outdoor life actually happens. Do not confuse it with Jock Leighton Park, the athletic facility on Mapp Road.
 
-There's also the **Lance Corporal Justin Wilson Memorial Park** among the community's other public spaces.
+## Jock Leighton Park
 
-## Golf, and this is the real strength
+Jock Leighton Park, at 3755 SW Mapp Road, is one of Palm City's primary athletic and recreation facilities. Its sixteen and a half acres hold soccer and football fields, a concrete skate park with bowls and a street course, running trails, a playground, pavilions with picnic tables and restrooms, and it opens daily from 6 a.m. to 9 p.m. It serves youth sports, skateboarding, team practices, community recreation, picnics and organized leagues. Field availability and league schedules vary, and organized use may require a reservation or permit.
 
-Palm City has more golf than its size warrants, and the standout for visitors and non-members is **Hammock Creek Golf Club** — a **Jack Nicklaus design** routed through protected wetlands, with long fairways and white sand bunkers, playing as much like a nature walk as a golf course.
+## Lance Corporal Justin Wilson Memorial Park
 
-**Martin Downs Golf Club** and **Palm Cove Golf Club** are the other main public options, and there are private club communities as well.
+Lance Corporal Justin Wilson Memorial Park, at 2050 SW Mapp Road, is the other major Palm City recreation facility, named for a Palm City Marine killed in Afghanistan in 2010. Its amenities include baseball and softball fields, multipurpose athletic fields, basketball, tennis and racquetball courts, dedicated pickleball courts, four playgrounds, a nature trail, an observation tower, pavilions, concessions and restrooms.
 
-Compared with Palm Beach County, a round here is generally easier to get and cheaper to play. If you've relocated from a market where tee times are a competitive sport, this is one of the quiet pleasures of moving north. Check current access and rates directly, since policies vary by course and season.
+Youth and adult sports are an important part of social life in suburban Martin County, and practically a substantial part of how adults meet each other. Practices, games and recreation programs are a natural way to meet people outside your immediate neighborhood, and people who plug into the league structure are connected within a season.
+
+## Explore Hawks Hammock Preserve
+
+Hawks Hammock Preserve protects approximately 432 acres of pine flatwoods, wetlands and deepwater habitat in western Palm City, at 5300 SW Green Farms Lane. Its facilities include parking, a picnic chickee and trails used by walkers and equestrians, and the county lists birdwatching and fishing among the activities there. It offers a very different view of Palm City from the shopping plazas and subdivisions farther east.
+
+Stay on the designated trails, yield to horses, keep dogs under control, carry water, use insect repellent, leave the wildlife alone and check conditions after heavy rain. Some trails are wet, uneven or fully exposed to the sun.
+
+## Experience Palm City's Equestrian Side
+
+Horses and equestrian activity are part of western Palm City's character. Out in Palm City Farms, horses are ordinary rather than exotic: larger properties, boarding facilities and private equestrian operations sit in and around the Farms, and Hawks Hammock provides public equestrian trail access.
+
+You do not need to own a horse to enjoy this side of Palm City. The Farms roads are pleasant driving and cycling, quiet, straight and lined with pasture, a very different landscape from the one five minutes east, and non-riders can hike the shared trails or attend approved equestrian events in the wider county. Drivers in the acreage areas should stay alert for horses and riders, trailers, farm equipment, cyclists, animals near the road and narrow or unpaved shoulders. Do not enter private barns, farms or riding facilities without permission.
+
+## Play Golf at Hammock Creek
+
+Golf is one of Palm City's strongest recreational offerings, and there is more of it than the community's size warrants. The standout for visitors and non-members is Hammock Creek Golf Club, a Jack Nicklaus Legacy Design created by Jack Nicklaus and Jack Nicklaus II, routed through mature pines and protected wetlands so that a round plays as much like a nature walk as a golf course. The 18-hole course opened in 1996 and was renovated in 2013. The club describes itself as semi-private and currently offers public tee times alongside membership and loyalty programs, with multiple tee options, a driving and practice facility, a golf shop and food and beverage service.
+
+Compared with Palm Beach County, a round here is generally easier to get and cheaper to play. If you have relocated from a market where tee times are a competitive sport, this is one of the quiet pleasures of moving north. Rates, maintenance closures and tee-time availability change through the year, so check directly with the course before planning a round, especially in the winter season.
 
 ![Live oaks draped with Spanish moss arching over a sand road](/images/palm-city/stock-oak-canopy-road.jpg "Oak canopy over a sand road — the landscape five minutes west of the plazas. || Photo by Samantha Fortney / Unsplash")
 
-## Riding country
+### Understand the Other Golf Options
 
-Out west in **Palm City Farms**, horses are ordinary rather than exotic. There are boarding and training facilities in the area, riding trails, and enough acreage that the western half of the community has a genuinely rural feel.
+Palm City also includes the residential golf communities around Martin Downs and Palm Cove, and course ownership, membership rules and public access change. Martin Downs Golf Club is semi-private, Banyan Creek inside Martin Downs is private, and Palm Cove Golf, once public, reopened in 2025 as a private invitation-only club. Before planning to play, or buying a home in a golf community, confirm whether the course accepts public play, whether membership is required, guest privileges, initiation fees, annual dues, tee-time availability, seasonal rates and current course conditions. Living beside a golf course does not automatically include access to it.
 
-You don't need to own a horse to benefit. The Farms roads are pleasant driving and cycling — quiet, straight, and lined with pasture — and it's a very different landscape from the one five minutes east.
+## Go Fishing
 
-Drive them slowly. Riders use the shoulders.
+Palm City offers freshwater, brackish and estuary fishing: the South Fork, the public fishing docks, kayak-accessible waterways, private waterfront properties, the nearby county parks and the broader St. Lucie River system. On the South Fork that means quiet inshore fishing from a small boat, a kayak or the pier at Charlie Leighton Park, for snook, tarpon in season, jacks and the general estuary mix. Species vary with location, season, salinity and water conditions.
 
-## Fishing
+For the full offshore program you need to launch or keep a boat with the clearance to reach the inlet, or drive to a Stuart charter. Our [Stuart things-to-do guide](/blog/best-things-to-do-in-stuart-florida) covers the offshore side.
 
-Two distinct options.
+Fishing from a private seawall, canal bank or undeveloped parcel requires the owner's permission, so use designated public access, and confirm current Florida licensing and size-limit requirements. Water quality, releases and environmental conditions within the St. Lucie River system change, so check current advisories before eating locally caught fish or planning anything that involves water contact.
 
-**On the South Fork**, quiet inshore fishing from a small boat, a kayak or the pier at Leighton Park — snook, tarpon in season, jacks and the general estuary mix.
+## Visit the Patio at Palm City Place
 
-**Out of the inlet**, the full offshore program, which means launching or keeping a boat with the clearance to get there, or driving to a Stuart charter. Our [Stuart things-to-do guide](/blog/best-things-to-do-in-stuart-florida) covers the offshore side.
+The Patio at Palm City Place gives Old Palm City a public gathering space along Mapp Road. The county describes it as a multifunctional outdoor area designed for community events, concerts and pop-up markets, with walking paths, green space and a fishing pier extending into a stormwater-treatment area. It hosts community gatherings, markets, live entertainment, seasonal events, outdoor recreation and neighborhood programs, but the calendar is not fixed, so check the current county or organizer information before making a special trip.
 
-## Sport, and the youth leagues
+### Walk or Cycle the Mapp Road Area
 
-For households with kids in sport, the county parks and league structure are a substantial part of local life here — and, practically, a substantial part of how adults meet each other.
+Improvements within the Old Palm City Community Redevelopment Area have added sidewalks, bicycle facilities, landscaping and public spaces along and near Mapp Road, and it is one of the better parts of Palm City for a casual walk or ride connected to neighborhood destinations. It is not a fully developed downtown shopping district, and cyclists should expect the bicycle infrastructure and traffic conditions to change from one road segment to the next.
 
-It's worth knowing in advance that this is the main social engine of suburban Martin County. People who plug into it are connected within a season.
+## Attend Events at Newfield
 
-## Ten minutes to everything else
+Newfield is becoming another source of activities in western Palm City. The master-planned community already hosts public and resident-focused programs around its farm, trails and gathering spaces: farmers markets, seasonal farm activities, community celebrations, educational programs, live entertainment, and home and neighborhood events. Newfield continues to develop, so the event schedule, access rules and available amenities change. Confirm whether an event is open to the public, whether registration is required and where visitors should park.
 
-The honest framing of Palm City's recreation is that its best amenity is proximity.
+## Explore Additional Martin County Preserves
 
-Across the bridge in Stuart: the historic downtown, the Riverwalk, the Lyric Theatre, the farmers market, the restaurants and the boat show. Twenty-five minutes east: Hutchinson Island, Bathtub Reef and the Atlantic. South: Jonathan Dickinson State Park and the Jupiter area.
+Palm City residents are close to several larger preserves. Halpatiokee Regional Park protects more than 500 acres and approximately four miles of frontage along the South Fork, with hiking and biking trails, river views and picnic areas. Pal-Mar East, southwest of Palm City between Pratt Whitney Road and the Turnpike and I-95 corridor, protects approximately 3,200 acres of flatwoods, marsh and cypress slough, with public facilities focused on hiking and equestrian access. Conditions in these natural areas vary significantly with rainfall, heat and seasonal water levels.
 
-Residents don't experience this as a deficiency. They experience it as having a quiet house in a good school district with a town, a beach and a state park all inside half an hour.
+## Use Palm City as a Base for Stuart
 
-## Keeping a boat here
+The honest framing of Palm City's recreation is that its best amenity is proximity. Across the bridge in Stuart are the historic downtown, the Riverwalk, the Lyric Theatre, the farmers market, waterfront parks, museums and galleries, the restaurants, the boat show, and the boating and fishing services.
 
-Worth understanding before you buy, because it changes what "on the water" means.
+Drive times should not be quoted as a guaranteed ten or fifteen minutes. Western Palm City, bridge traffic, seasonal congestion and the specific destination all add time. Residents do not experience this as a deficiency. They experience it as a quiet house in a good school district with a town, a beach and a state park all inside roughly half an hour.
 
-Palm City is **upstream**, which is excellent for quiet paddling and a genuine constraint for anything larger. Between a dock here and the Atlantic there are bridges, and their clearances determine what you can realistically own and where you can take it.
+## Visit the Beaches
 
-The options are broadly: keep something modest at a private dock and enjoy the river; keep a larger vessel at a marina closer to the inlet and drive to it; or keep it on a trailer and use the ramps. All three are common locally and the third is the cheapest by a wide margin.
+Palm City has no Atlantic beach of its own. Residents drive east through Stuart or Jensen Beach to Hutchinson Island, typically around twenty-five minutes to Bathtub Reef and the other guarded public beaches, natural shoreline areas, parks and reef-adjacent spots, though the Palm City neighborhood, bridge traffic, seasonal congestion, beach parking, road construction and the chosen beach all move that figure.
 
-Storage for trailered boats and RVs is another quiet advantage out here — the acreage areas and the non-HOA neighborhoods generally permit what a gated coastal community will not.
+Before visiting, check current beach conditions, lifeguard coverage, parking rules and water-quality advisories. Reef and nearshore conditions change with tide and waves, so do not assume every beach suits every ability level.
 
-## A Saturday, planned
+## Explore Jonathan Dickinson State Park
+
+Jonathan Dickinson State Park lies south of Palm City near Hobe Sound and is a much larger outdoor destination, with hiking, cycling, camping, paddling, boat tours, fishing, wildlife viewing and equestrian recreation. The drive fits comfortably into a day trip, though travel time varies by route and traffic, and programs, rentals and facilities can be affected by weather or maintenance, so verify current conditions before leaving Palm City.
+
+## Boating From Palm City
+
+Palm City's position upstream on the South Fork brings both opportunities and limitations, and it changes what "on the water" means before you buy. Smaller boats, kayaks and paddleboards suit the quieter portions of the river. Larger vessels face fixed bridges, vertical clearance, water depth, canal width, dock capacity, travel time to the inlet, tides and no-wake areas.
+
+The options are broadly: keep something modest at a private dock and enjoy the river; keep a larger vessel at a marina closer to the inlet and drive to it; or keep it on a trailer and use the ramps. All three are common locally, and the third is the cheapest by a wide margin. Evaluate a waterfront home for your actual vessel, and do not assume "ocean access" means fast, unrestricted or practical access for every boat. A marine contractor, captain or other qualified professional can evaluate docks, seawalls, lifts, depth and bridge limitations.
+
+### Boat and RV Storage
+
+Acreage and non-HOA properties generally provide more room for boats, trailers and recreational vehicles than tightly controlled communities, and that is a quiet advantage of this side of the county. Storage is not automatically permitted, though. Review county zoning, recorded deed restrictions, HOA rules, vehicle-visibility requirements, setbacks, driveway and surface rules, height or size restrictions and screening requirements. Never buy on the strength of another owner currently keeping a boat or RV on a nearby property.
+
+## A Palm City Weekend
 
 If you want one day that covers what living here is actually like:
 
-**Early** — paddle the river upstream, before the wind gets up.
-**Mid-morning** — breakfast in one of the plazas, then a drive west through the Farms.
-**Midday** — nine holes, or the park and the pier.
-**Afternoon** — heat and storms, so indoors or in a pool.
-**Evening** — across the bridge into Stuart for dinner.
+**Morning** — paddle the South Fork before the wind gets up, hike Hawks Hammock or play an early round at Hammock Creek.
+**Midday** — a park, a youth-sports game or an event at the Patio or Newfield.
+**Afternoon** — heat and storms, so home, a community pool or indoors.
+**Evening** — dinner locally or across the river into Stuart.
 
-That is the shape of a good Palm City weekend, and it tells you plainly that the evening happens elsewhere.
+That is the shape of a good Palm City weekend, and it tells you plainly that the evening often happens elsewhere. The exact routine depends on the neighborhood: someone in western Palm City organizes the day differently from someone near Old Palm City and the bridge.
 
-## Doing it in summer
+## Summer Outdoor Planning
 
-Everything outdoors here is a morning activity from June through September. Heat and afternoon thunderstorms are reliable rather than occasional.
+From late spring through early fall, everything outdoors is a morning activity. Summer brings high temperatures, humidity, strong sun, afternoon thunderstorms, lightning, heavy rain, insects and rapidly changing water conditions. For paddling, golf, hiking and field sports: start early, carry water, use sun protection, watch the radar, leave exposed ground when you hear thunder, avoid flooded trails and do not shelter under an isolated tree.
 
-Paddle at seven, golf early, and take the afternoon indoors or in the water. The compensation is that the courses, the parks and the river are all far quieter once the seasonal residents have gone.
+Seasonal residents leave for parts of the summer, and the courses, parks and river are quieter for it, but none of them is guaranteed to be empty.
 
-## If you only do two things
+## If You Only Do Two Things
 
-Paddle the South Fork at sunrise, and play Hammock Creek.
+Paddle a public section of the South Fork at sunrise, and play Hammock Creek or walk Hawks Hammock. The river reveals the natural landscape hidden behind the bridges and residential roads, the landscape most residents drive past without seeing. A round at Hammock Creek or a morning in the preserve shows why outdoor recreation is a meaningful part of living here. Our [hidden gems guide](/blog/hidden-gems-in-palm-city-florida) covers the quieter end of the list.
 
-One shows you the landscape most residents drive past without seeing; the other is genuinely good and considerably easier to get on than anything comparable an hour south. Our [hidden gems guide](/blog/hidden-gems-in-palm-city-florida) covers the quieter end of the list.`,
+## The Bottom Line
+
+Palm City is not a conventional tourist destination, and that is part of its appeal. Its recreation centers on the river, the golf courses, the parks, the sports fields, the trails and the rural landscape to the west, with downtown Stuart, the Hutchinson Island beaches and the larger regional parks within reach without living in those busier places.
+
+The best things to do are not concentrated in one walkable district. They are spread across Palm City and the surrounding county, so be prepared to drive, check access and plan around the weather. For someone who enjoys water, golf, parks, horses and a quieter residential setting, Palm City offers plenty to do without pretending to be something it is not.`,
     faqs: [
-      { q: "What is there to do in Palm City, Florida?", a: "Paddle or fish the South Fork of the St. Lucie River, use Charlie Leighton Park with its boat ramp, fishing pier and walking path, play golf at Hammock Creek, Martin Downs or Palm Cove, ride or explore the rural roads of Palm City Farms, and take advantage of the county parks and youth sport leagues. Downtown Stuart, Hutchinson Island beaches and Jonathan Dickinson State Park are all within about half an hour." },
-      { q: "Where can you kayak in Palm City?", a: "The South Fork of the St. Lucie River is the standout — it narrows upstream into mangrove tunnels and overhanging canopy, offering quiet, shaded paddling with abundant wading birds and a completely different character from the open estuary at Stuart. Early morning with little wind is best, and access is available from local parks including Charlie Leighton Park." },
-      { q: "What is Hammock Creek Golf Club?", a: "A Jack Nicklaus-designed public course in Palm City routed through protected wetlands, with long fairways and white sand bunkers. It is the best-known public course locally, alongside Martin Downs Golf Club and Palm Cove Golf Club. Rounds in Martin County are generally easier to book and less expensive than comparable Palm Beach County courses." },
-      { q: "Is Palm City good for horse riding?", a: "Yes, in the western Palm City Farms area, which has agricultural zoning, an established equestrian community, riding trails and boarding and training facilities. Even for non-riders, the Farms roads are pleasant for driving and cycling, though drivers should go slowly because riders use the shoulders." },
-      { q: "What is Charlie Leighton Park?", a: "Palm City’s main waterfront park, with a boat ramp, fishing pier, picnic tables and grills, a playground and a walking path along the water. It is free and functions as the community’s main outdoor gathering point." },
-      { q: "Is there much to do in Palm City itself?", a: "Palm City is residential rather than a destination, with no downtown, beach or marquee attraction. Its recreation is water, golf, horses and parks, supplemented by proximity — downtown Stuart is ten to fifteen minutes away, the Hutchinson Island beaches roughly twenty-five minutes, and Jonathan Dickinson State Park within half an hour." },
+      { q: "What is there to do in Palm City, Florida?", a: "Paddle or fish the South Fork of the St. Lucie River, use the rebuilt Charlie Leighton Park with its boat ramp, fishing pier and kayak launch, play golf at Hammock Creek, walk or ride the trails at Hawks Hammock Preserve, explore the rural roads of Palm City Farms, and take advantage of the county parks on Mapp Road and the youth sports leagues. Downtown Stuart, Hutchinson Island beaches and Jonathan Dickinson State Park are all within roughly half an hour, depending on where in Palm City you start." },
+      { q: "Where can you kayak in Palm City?", a: "The South Fork of the St. Lucie River is the standout — it narrows upstream into mangrove-lined, sheltered water with wading birds and far less traffic than the open estuary at Stuart. Launch from the floating dock at Charlie Leighton Park, the Kiplinger Nature Preserve's floating dock off Kanner Highway, or Delaplane Preserve's canoe and kayak launch on SW Gaines Avenue. Early morning with little wind is best, and conditions, tide and boat traffic vary by route." },
+      { q: "What is Hammock Creek Golf Club?", a: "A semi-private Jack Nicklaus Legacy Design by Jack Nicklaus and Jack Nicklaus II in Palm City, opened in 1996 and renovated in 2013, routed through mature pines and protected wetlands. It offers public tee times alongside membership programs. The other Palm City courses have changed status: Martin Downs Golf Club is semi-private, Banyan Creek is private, and Palm Cove Golf reopened in 2025 as a private invitation-only club. Rounds in Martin County are generally easier to book and less expensive than comparable Palm Beach County courses." },
+      { q: "Is Palm City good for horse riding?", a: "Yes, in the western Palm City Farms area, which has an established equestrian community, boarding and training facilities, and public equestrian trail access at the 432-acre Hawks Hammock Preserve. Even for non-riders, the Farms roads are pleasant for driving and cycling. Drivers should follow the posted limits and stay alert for horses, riders and trailers on narrow shoulders." },
+      { q: "What is Charlie Leighton Park?", a: "Palm City’s main waterfront park, a roughly four-acre riverfront site at 1707 SW Cornell Avenue in Old Palm City. Martin County closed it in September 2025 for a $4.5 million rebuild and reopened it in summer 2026 with a new boat ramp, additional docks, expanded trailer parking, an accessible floating launch for kayaks and paddleboards, a fishing pier, picnic areas, a playground, a gazebo and a walking path. It is free and functions as the community’s main outdoor gathering point." },
+      { q: "Is there much to do in Palm City itself?", a: "Palm City is residential rather than a destination, with no downtown, beach or marquee attraction. Its recreation is water, golf, horses, preserves and parks, supplemented by proximity — downtown Stuart is a short drive across the bridge, the Hutchinson Island beaches roughly twenty-five minutes, and Jonathan Dickinson State Park within about half an hour, all depending on where in Palm City you start and the season." },
     ],
     internalLinks: ["hidden-gems-in-palm-city-florida", "local-guide-to-palm-city-florida", "best-places-to-eat-drink-hang-out-in-palm-city-florida"],
-    funFact: "The best thing to do in Palm City is upstream, not downstream. Everyone focuses on the inlet and the ocean, but the South Fork of the St. Lucie narrows into mangrove tunnels within a few minutes of paddling — shaded, still, full of wading birds, and effectively inaccessible to anything with a flybridge. It is the quietest water in the county and most residents have never been on it.",
+    funFact: "The South Fork of the St. Lucie River is one of Palm City’s most overlooked recreational assets. As the river narrows inland, portions become more sheltered and natural than the wider estuary near downtown Stuart. Public access is available through nearby preserves such as Kiplinger and Delaplane, which provide kayak or canoe launch facilities. It should not be described as inaccessible to all larger boats or as the quietest water in the county: bridge clearance, depth, tide and boat traffic vary by route. The better advice is simple. Choose an approved launch, check the conditions and experience the river early in the day. It reveals a side of Palm City that is easy to miss from the road.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-11',
   },
   {
     slug: 'who-should-move-to-palm-city-florida',
