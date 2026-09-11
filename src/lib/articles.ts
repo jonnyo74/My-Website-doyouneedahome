@@ -20731,6 +20731,8 @@ Advertises a build-on-your-lot programme covering Port St. Lucie and the wider T
 
 Long-established in Port St. Lucie with an extensive presence across the city.
 
+*This shortlist is current as of August 2026. Builder rosters and price bands in Port St. Lucie change quickly — if you are reading this much later, ask us what has changed.*
+
 Two honest caveats. First, builder programmes change — plans get retired, price bands move, and a builder that takes scattered lots this year may stop next year. Confirm the current programme directly. Second, this is a starting shortlist rather than a ranking, and it is not the only good answer; there are capable builders working here who are not on it.
 
 For the record: we have no arrangement of any kind with any builder on this page. Nobody paid to be listed, nobody is paying us for referrals, and we receive nothing extra if you build with one of them rather than another. They are here because I have been in their offices and these are the names I would give a friend.
