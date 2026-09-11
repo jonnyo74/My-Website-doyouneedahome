@@ -20074,7 +20074,7 @@ Confirm all club obligations in writing and determine whether membership terms c
 
 Insurance is a significant cost throughout Florida, and both the premium and the available coverage depend on the specific property and the insurer's underwriting.
 
-Factors that move the number include roof age, condition, shape and attachment; construction type; replacement cost; impact-rated windows and doors or approved shutters; electrical and plumbing systems; prior claims; flood zone; and deductible choices.
+Factors that move the number include roof age, condition, shape and attachment; construction type; replacement cost; impact-rated windows and doors or approved shutters; electrical and plumbing systems; prior claims; property use; flood zone; and deductible choices.
 
 Newer construction may include updated structural and wind-resistance features, but **do not assume a newer home automatically quotes lower.** A larger new home also carries a higher replacement cost, which raises the amount of insurance required. Obtain property-specific quotes during the inspection or due-diligence period.
 
