@@ -20,6 +20,8 @@ const pageLinks = [
   { href: '/palm-beach-county-treasure-coast-relocation-guide', label: 'Relocation Decision Guide' },
   { href: '/florida-condo-buyers-due-diligence-checklist', label: 'Condo Due-Diligence Checklist' },
   { href: '/sun-shade', label: 'Sun & Shade Analyzer' },
+  { href: '/kayak-launches-jupiter-tequesta', label: 'Kayak Launch Map' },
+  { href: '/communities-with-kayak-launches', label: 'Communities With Water Access' },
 ]
 
 export default function Footer() {
