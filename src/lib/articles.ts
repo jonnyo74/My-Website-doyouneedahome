@@ -19169,7 +19169,7 @@ So "Stuart has more to do" is true and mostly irrelevant. The question isn't whi
 
 This is the distinction that actually separates them, and it's the one least discussed.
 
-**Stuart is an incorporated city.** It was [incorporated in 1914](/communities/stuart), it's the county seat, and the 2020 census put it at 17,489 residents across about 9.5 square miles. It has its own city commission, its own police department, its own water and wastewater utility, and its own building and zoning departments.
+**Stuart is an incorporated city.** It was [incorporated in 1914](/communities/stuart), it's the county seat, and the 2020 census put it at 17,425 residents across about 9.5 square miles. It has its own city commission, its own police department, its own water and wastewater utility, and its own building and zoning departments.
 
 **Port Salerno is unincorporated Martin County.** No city hall, no mayor, no municipal police force. The 2020 census counted 10,401 residents. Law enforcement is the Martin County Sheriff's Office. Land use decisions go to the county. There is no local government below the county level, which is why the community's advocacy has historically run through a Neighborhood Advisory Committee and a Community Redevelopment Area rather than a city council.
 
@@ -19281,7 +19281,7 @@ Confirm all of it with Martin County and the appropriate licensed professionals.
     funFact: "The biggest practical difference between these two is invisible on a tour: Stuart is an incorporated city with its own police force, its own water and wastewater utility, and its own millage, while Port Salerno is unincorporated Martin County with none of the three. Almost every other difference in the tax bill and the services follows from that one fact.",
     author: 'john',
     published: true,
-    updated: '2026-08-04',
+    updated: '2026-09-11',
   },
   {
     slug: 'manatee-pocket-guide',
