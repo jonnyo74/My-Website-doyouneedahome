@@ -67,6 +67,14 @@ export interface Listing {
   county: string
   state: string
   zip: string
+  // Rooftop coordinates, used to deep-link the Sun & Shade Analyzer straight at
+  // the house. NOT from a street geocoder — those interpolate along the address
+  // range and land in the road, where the nearest building footprint is as likely
+  // to be the neighbour's as this one's (it was, for all three of these). Derived
+  // instead by matching PHY_ADDR1 in the Florida statewide cadastral layer, then
+  // taking the centroid of the single building footprint inside that parcel.
+  lat: number
+  lng: number
   subdivision?: string
   legalDescription?: string
 
@@ -213,6 +221,8 @@ export const listings: Listing[] = [
     county: 'Palm Beach',
     state: 'FL',
     zip: '33496',
+    lat: 26.422855,
+    lng: -80.184635,
     subdivision: 'Lotus',
 
     price: 2799999,
@@ -503,6 +513,8 @@ export const listings: Listing[] = [
     county: 'Martin',
     state: 'FL',
     zip: '33455',
+    lat: 27.103890,
+    lng: -80.171167,
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
@@ -740,7 +752,8 @@ export const listings: Listing[] = [
   },
   {
     slug: '982-sw-worcester-lane',
-    status: 'Pending',
+    status: 'Sold',
+    soldDate: '2026-09-08',
     mlsNumber: 'R11155179DX',
 
     address: '982 SW Worcester Lane',
@@ -749,6 +762,8 @@ export const listings: Listing[] = [
     county: 'St. Lucie',
     state: 'FL',
     zip: '34953',
+    lat: 27.269004,
+    lng: -80.378383,
     legalDescription: 'Port St. Lucie - Section 12, Block 1290, Lot 38 (Map 44/07S)',
 
     price: 390000,
