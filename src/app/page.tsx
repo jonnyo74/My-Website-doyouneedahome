@@ -2,9 +2,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 import { cities } from '@/lib/communities'
-import { getActiveListings } from '@/lib/listings'
+import { getActiveListings, getRecentlySoldListings } from '@/lib/listings'
 import CommunityCard from '@/components/CommunityCard'
 import ListingCard from '@/components/ListingCard'
+import RecentlySold from '@/components/RecentlySold'
 import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
 
 export const metadata: Metadata = {
@@ -35,6 +36,7 @@ const stripPhotos = [
 
 export default function Home() {
   const activeListings = getActiveListings()
+  const recentlySold = getRecentlySoldListings()
 
   return (
     <>
@@ -174,6 +176,9 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      {/* ── Recently Sold ─────────────────────────────────────────── */}
+      <RecentlySold listings={recentlySold} />
 
       {/* ── Photo Strip ───────────────────────────────────────────── */}
       <section className="px-6 sm:px-8">
