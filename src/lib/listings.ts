@@ -60,6 +60,11 @@ export interface Listing {
   soldPrice?: number
   // Absent on Coming Soon listings that haven't hit the MLS yet.
   mlsNumber?: string
+  // Who shot the gallery. Listing photography is one shoot by one
+  // photographer, so this credits the whole set once beneath it rather than
+  // repeating a line under every frame. Absent means we have not confirmed
+  // who took them — leave it absent rather than guessing.
+  photoCredit?: string
 
   address: string
   /**
@@ -88,6 +93,14 @@ export interface Listing {
   county: string
   state: string
   zip: string
+  // Rooftop coordinates, used to deep-link the Sun & Shade Analyzer straight at
+  // the house. NOT from a street geocoder — those interpolate along the address
+  // range and land in the road, where the nearest building footprint is as likely
+  // to be the neighbour's as this one's (it was, for all three of these). Derived
+  // instead by matching PHY_ADDR1 in the Florida statewide cadastral layer, then
+  // taking the centroid of the single building footprint inside that parcel.
+  lat: number
+  lng: number
   subdivision?: string
   legalDescription?: string
 
@@ -765,8 +778,10 @@ export const listings: Listing[] = [
   },
   {
     slug: '982-sw-worcester-lane',
-    status: 'Pending',
+    status: 'Sold',
+    soldDate: '2026-09-08',
     mlsNumber: 'R11155179DX',
+    photoCredit: 'Photo by Jatin Shah / MagiK Box',
 
     address: '982 SW Worcester Lane',
     city: 'Port St. Lucie',
