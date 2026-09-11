@@ -62,6 +62,7 @@ hero on `manatee-pocket-guide`, where 3.4:1 is correct.
 |---|---|---|
 | `local-manatee-pocket-hero.jpg` | `IMG_3310` | **`photos[0]` — city hero and og:image.** 1600×1200, q82 mozjpeg, 271KB. Resize only, no crop: the frame is already 4:3 and well composed — tiki bar left, blue clubhouse centre, dock line right, open sky above. Distant figures near the tiki bar are small and unidentifiable, the same judgement already made for the banner. |
 | `local-pocket-river-view.jpg` | `IMG_3311` | `photos[1]` — the working waterfront: boatyard, travel lift, sportfishers and the Pocket opening out. 1400×1050 from `extract({left:0,top:0,width:1740,height:1305})`. **The right edge is cropped deliberately** — two identifiable people stood at the dock rail beyond `x: 1780`. Cropping was preferred to seeking sign-off for a gallery slot that carries no caption. |
+| `local-manatee-pocket-dusk.jpg` | `IMG_3311` | **Hero of `history-of-port-salerno-florida`** (2026-09-11). 1780×523 from `extract({left:0,top:560,width:1780,height:523})`, q82 mozjpeg, 160KB. **Width stops at 1780 for the same reason the gallery crop does** — the two identifiable people at the dock rail start around `x: 1800`. That caps it below the 2048×602 banner spec used elsewhere in this folder; it is not upscaled to reach it, and the hero renders `object-cover` so it fills regardless. Band top 560 puts the boatyard and travel-lift horizon just above centre and leaves water in the lower half, which is where the hero's `black/85` gradient and title sit. No credit line — it is ours. |
 
 `IMG_3312` stays unused: identifiable people in the foreground, and no crop saves it.
 
@@ -71,6 +72,8 @@ licensed stock canal shot there would assert it is Port Salerno, which is exactl
 caption-by-subject rule exists to prevent.
 
 ### Retired
+
+`stock-angler-jetty-dawn.jpg` **was** the hero on `history-of-port-salerno-florida`, replaced 2026-09-11 by `local-manatee-pocket-dusk.jpg`. Now orphaned. It was a silhouetted angler on open Atlantic — no Manatee Pocket, no Salerno, nothing a reader could place, on an article about how this particular harbour came to exist.
 
 - `stock-manatee-underwater.jpg` (Belize) and `stock-manatee-face.jpg` — both replaced by
   our own photography. The Belize frame needed a caption apologising for water clarity;
@@ -181,6 +184,8 @@ and price tier, and those images misrepresent it. The same warning was already r
 a code comment on the previous Port Salerno hero.
 
 ## Archival — the best source for the history article
+
+**Still worth doing even though the article now has a local hero.** `local-manatee-pocket-dusk.jpg` is the Pocket as it looks today; the 1923 frame is the Pocket this article is actually about. Swap it in when the unwatermarked scan arrives.
 
 The **1923 Manatee Pocket photograph** is the right hero for
 `history-of-port-salerno-florida`. Original typed caption reads
