@@ -20709,7 +20709,7 @@ There are, by one industry count, more than forty builders offering some form of
 
 They also do not all have the same reputation, and it would be dishonest to pretend otherwise. What follows is a starting point, not a ranking — check each one yourself. Talk to owners of their completed homes, look them up with the Treasure Coast Builders Association and the Better Business Bureau, and search the county's permit and complaint records for the company name. Reputations here are earned locally and they change.
 
-These are the ones worth starting with. I have been inside all five of these sales offices personally — sat down, gone through the plans, asked the questions further down this page. That is the entire basis on which they are here.
+These are the ones worth starting with. I have sat down inside four of these sales offices myself — Homecrete, Holiday Builders, Maronda and Adams — gone through the plans and asked the questions further down this page. RJM is here for what it advertises and builds rather than a visit of my own. Treat the list as a starting point rather than a recommendation, and put those same questions to whichever ones you visit.
 
 ### Homecrete Homes
 
@@ -20730,6 +20730,8 @@ Advertises a build-on-your-lot programme covering Port St. Lucie and the wider T
 ### Adams Homes
 
 Long-established in Port St. Lucie with an extensive presence across the city.
+
+*This shortlist is current as of August 2026. Builder rosters and price bands in Port St. Lucie change quickly — if you are reading this much later, ask us what has changed.*
 
 Two honest caveats. First, builder programmes change — plans get retired, price bands move, and a builder that takes scattered lots this year may stop next year. Confirm the current programme directly. Second, this is a starting shortlist rather than a ranking, and it is not the only good answer; there are capable builders working here who are not on it.
 
