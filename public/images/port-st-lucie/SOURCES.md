@@ -303,3 +303,56 @@ District / Pioneer Park, Tradition Square, and two residential streets (one esta
 St. Lucie West, one new-construction in Tradition) were priorities 1–3 and none were shot
 on the 2026-08-19 trip. Those three stops would hero `hidden-gems`, close the
 neighbourhoods contrast, and give the city set something other than golf and baseball.
+
+## Hero for `hidden-gems-in-port-st-lucie-florida` — 2026-09-11
+
+| File | Source | Licence | Depicts |
+|---|---|---|---|
+| `stock-mangrove-boardwalk.jpg` | Unsplash — **Sebastian Jacobsen**, [photo page](https://unsplash.com/photos/boardwalk-over-a-winding-river-surrounded-by-green-mangroves-fSCfNl0cdw0), CDN `photo-1779721464169-f99845792b9b` | Unsplash License (confirmed on the photo page — title reads "Free Photo", not "Premium Photo") | Railed boardwalk curving in from the right over a mangrove-lined channel, open sky. No people, no branding |
+
+2048×602, cut from the 3000×2000 original at band y 600–1482. Credited as
+`Photo by Sebastian Jacobsen / Unsplash`.
+
+Chosen because the article has a **Riverwalk boardwalk** section and this is that structure
+in the abstract. **Captioned by subject, not place** — it must not imply it was shot at the
+North Fork or the Port District. The article also keeps `stock-kayak-mangrove-waterway.jpg`
+inline for the canal-network section; the two are different subjects (a boardwalk and a
+paddler) and do not read as duplicates.
+
+### Also screened and rejected on 2026-09-11
+
+Two further free-licence mangrove candidates were good but second-best:
+`photo-1615941634977-e895245bafa7` (Mark Jacquez, mangrove tunnel over dark water) and
+`photo-1546380151-fb5064f669b4` (Anita Denunzio, aerial of a kayaker in a mangrove creek —
+two distant unidentifiable paddlers, houses along the top edge). Both are plain Unsplash
+License and both remain usable if this hero is ever swapped.
+
+### `stock-aerial-rooftops.jpg` is NOT a hero for the spot-lot series
+
+John proposed the Ameer Basheer aerial (`euyV2Ae_KX0`) on 2026-09-11. We already hold it —
+it has been in this folder since August and runs inline in
+`what-its-really-like-living-in-port-st-lucie-florida`. It is the wrong picture for
+`build-on-your-own-lot-port-st-lucie-florida` specifically: the frame is a **fully built-out**
+subdivision of tile-roofed houses with no vacant parcel anywhere in it, and that article's
+whole argument is that Port St. Lucie still has tens of thousands of empty platted lots while
+the markets south of it are built out. It would contradict the copy it sat above. It is also
+only 1400×1050, below the 2048×602 hero band without upscaling.
+
+### The spot-lot search was re-run and failed again — do not re-run it a third time
+
+`concrete-block-house-construction` and `vacant-lot-for-sale` were both searched on
+2026-09-11, free-licence filter on. Every usable block-construction frame failed on origin:
+
+| Candidate | Why rejected |
+| --- | --- |
+| `photo-1786314076312-9bbe391d11a8` | Block shell in limestone rubble with flat roof and dry scrub — Caribbean / Yucatán, not Florida |
+| `photo-1785928656092-b0dab96b86dc` | Poland. Polish permit placard on the garage, **readable licence plate** on the car, conifer forest |
+| `photo-1761479135364-4240520b5793` | Middle East. Arabic signage on the site hoarding, dense multi-storey row |
+
+`vacant-lot-for-sale` returns abandoned brick buildings. `florida-pine-flatwoods-palmetto`
+returns twelve photographs of palm trees and nothing resembling a building lot.
+
+**The finding to carry forward is broader than the August note.** It is not only that stock
+framing is wood-frame. **An empty residential lot is not a subject anyone shoots for stock**,
+so no search refinement will produce one. The three spot-lot articles need John's own camera:
+a cleared lot with road frontage, a house at block stage, and one with trusses up.

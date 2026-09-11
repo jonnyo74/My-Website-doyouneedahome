@@ -20192,6 +20192,8 @@ The useful comparison is between the complete monthly and annual cost of specifi
     primaryKeyword: "hidden gems in Port St. Lucie Florida",
     secondaryKeywords: ["Port St. Lucie secret spots", "free things to do in PSL", "Savannas Preserve State Park"],
     h1: "Hidden Gems in Port St. Lucie, Florida",
+    heroImage: '/images/port-st-lucie/stock-mangrove-boardwalk.jpg',
+    heroImageCredit: 'Photo by Sebastian Jacobsen / Unsplash',
     body: `Port St. Lucie's reputation is subdivisions and new rooftops, and if you only ever drive US-1 and the Crosstown Parkway that's a fair impression.
 
 It's also badly incomplete. This city contains some of the least-visited and genuinely wild natural areas on the Treasure Coast, most of them free, and almost none of them known to people who moved here for the housing.
