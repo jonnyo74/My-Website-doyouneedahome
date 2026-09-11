@@ -17,6 +17,7 @@ import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
 import CommunityVideo from '@/components/CommunityVideo'
+import PaddleCommunityLink from '@/components/paddle/PaddleCommunityLink'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
 
@@ -803,6 +804,10 @@ export default async function CommunityPage({ params }: Props) {
                   </ul>
                 </div>
               )}
+
+              {/* Paddle guides — offered only for the towns those guides actually
+                  cover; the component returns null everywhere else. */}
+              <PaddleCommunityLink slug={community.slug} name={community.name} />
 
               {/* Dining */}
               {community.dining && community.dining.length > 0 && (
