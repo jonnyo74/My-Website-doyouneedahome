@@ -19970,119 +19970,212 @@ Two checks determine whether it works for you: **the CDD on the specific propert
     order: 7,
     seoTitle: "Cost of Living in Port St. Lucie, Florida",
     metaTitle: "Cost of Living in Port St. Lucie, Florida",
-    metaDescription: "What it costs to live in Port St. Lucie, Florida — one of the region's most affordable cities, with housing, taxes, and insurance explained.",
+    metaDescription: "What it costs to live in Port St. Lucie, Florida — taxes, insurance, CDD assessments, club dues and utilities, explained address by address.",
     primaryKeyword: "cost of living in Port St. Lucie Florida",
     secondaryKeywords: ["Port St. Lucie home prices", "is Port St. Lucie affordable", "PSL cost of living"],
     h1: "Cost of Living in Port St. Lucie, Florida",
     showMarketTrends: true,
-    body: `Port St. Lucie's entire pitch is value, and it's a real one. This is among the most attainable places to buy in southeast Florida, and the gap between here and Palm Beach County is wide enough that it changes what people can afford to own.
+    body: `Port St. Lucie is often viewed as one of the more attainable places to buy in Southeast Florida, and the range of inventory is genuinely wide — established resale homes, new construction, non-HOA neighborhoods, master-planned communities, villas and townhomes, golf communities, age-qualified developments, riverfront and canal-front property, and homes on larger suburban lots.
 
-But "affordable" is doing a lot of work in most articles about this city, and the number that matters isn't the purchase price. It's the full monthly carry — and in Port St. Lucie specifically, there's one line item that catches more buyers than anywhere else in the region.
+But the purchase price is only one part of the cost. The number that decides whether a house is affordable is the complete monthly and annual expense attached to that specific address: property taxes, insurance, association dues, club fees, special-district assessments, utilities, maintenance and transportation.
 
-## Housing — the headline, and it's genuine
+Here is what to understand before calculating the cost of living in Port St. Lucie.
 
-This is why people move here. Port St. Lucie offers some of the most attainable new and resale single-family homes anywhere in the region, well below Palm Beach County and Martin County pricing for comparable space.
+## Housing Costs
 
-For current figures, check the **live market trends further down this page** — that pulls from the local MLS rather than going stale in an article.
+For current pricing, check the **live market trends further down this page** — that pulls from the local MLS rather than going stale in an article.
 
-Directionally, what the money buys here is *space and newness*. Buyers coming from Palm Beach County routinely find they can move up a full housing category, or from an older house to new construction, without increasing their payment. That's the trade the whole city is built on.
+Buyers comparing Port St. Lucie with communities farther south often find different combinations of home size, construction age, lot size and community amenities within the same budget. But broad statements about affordability can mislead. A lower-priced home carrying significant association fees, club dues or special assessments may cost more each month than a higher-priced property without those obligations.
 
-The range is wider than the "affordable suburb" reputation suggests — from attainable resale homes through master-planned communities to upscale gated golf. But value is the through-line at every tier.
+Use current market data to compare similar properties, then build the actual ownership budget one address at a time.
 
-## The tax advantage is bigger than people expect
+## New Construction and the Final Purchase Price
 
-Two things stack here.
+Port St. Lucie has extensive new residential development, particularly in its western and southern areas. New construction appeals to buyers who want modern layouts, updated systems, current building-code requirements and fewer immediate renovation projects.
 
-**Florida has no state income tax**, which is the same benefit available anywhere in the state and matters most for retirees drawing down accounts and anyone relocating from a high-tax state.
+The advertised price, though, may not represent the final amount paid. Add lot premiums, structural options, design-center selections, appliances, window treatments, landscaping, pool construction, closing costs and builder fees — then the recurring obligations: association dues, club fees and special-district assessments.
 
-More specific to Port St. Lucie: **you're in St. Lucie County, not Palm Beach County or Martin County.** Different county, different millage rates, different school district. For buyers comparing against Palm Beach County, the annual property tax difference on a comparable home is frequently larger than they anticipated, and it compounds every year you own.
+Request a complete written breakdown of the home price and every recurring community obligation before signing a contract. Builder incentives may reduce certain upfront or financing costs, but compare their terms against other available loan and purchase options.
 
-That said, don't take a rate comparison on faith. Millage is set by the county, the city, the school board, and various special districts, and it changes. Verify current rates with the **St. Lucie County Property Appraiser and Tax Collector** for the specific address.
+## Property Taxes After a Purchase
 
-### The tax figure on the listing probably isn't yours
+The property-tax figure shown on a listing may not represent what the next owner will pay. The seller may have owned for many years and may benefit from Homestead Exemption and Save Our Homes assessment limitations.
 
-The property tax number shown on a listing usually reflects the **current owner's** bill, which may be protected by caps that don't transfer to you. Assessed value generally resets toward market value in the year after a sale, and in a fast-appreciating market that reset can be substantial.
+After a qualifying change of ownership, the property is generally reassessed at just value as of January 1 of the following year. The resulting bill depends on the new assessed value, applicable exemptions, millage rates, municipal and county taxing authorities, school district taxes, special districts and non-ad valorem assessments.
 
-Underwrite against a reset assessment, not the seller's historical number. This bites harder in a rapidly growing city than it does in a flat one.
+Do not calculate future taxes by copying the seller's current bill. The St. Lucie County Property Appraiser provides an online estimator that works as a starting point, though it remains an estimate rather than a guaranteed amount.
 
-### Homestead Exemption and Save Our Homes
+### Millage Rates and Taxing Authorities
 
-If the home will be your **primary residence**, filing for Homestead Exemption reduces taxable value and triggers the **Save Our Homes** cap limiting annual assessed-value increases. In a city appreciating as quickly as this one, that cap is worth more than it would be elsewhere — it's genuine protection against your own neighborhood's growth.
+Property taxes are calculated from the property's taxable value and the millage rates approved by the applicable taxing authorities. One mill equals one dollar for every $1,000 of taxable value, and the total rate affecting a property may include the city, the county, the school district and other authorities.
 
-There's a **filing deadline early in the year after you purchase**, and missing it costs a full year. Non-homestead property is capped less generously, and the cap doesn't apply to school district levies.
+Millage rates change and should be verified for the current tax year. A comparison between Port St. Lucie, Palm Beach County and Martin County needs similar property values, exemptions and taxing districts to mean anything — a general countywide statement may not reflect the taxes on an individual home. Estimate using the specific parcel, the anticipated purchase value and the expected exemptions.
 
-Moving within Florida? **Portability** may let you carry a substantial share of an accumulated Save Our Homes benefit to a new homestead. Separate form, separate timing rules, routinely left unclaimed.
+### Homestead Exemption
 
-## CDD fees — the line item that surprises people here
+A qualifying Florida permanent resident may apply for Homestead Exemption on a primary residence, which reduces the property's taxable value.
 
-This is the one to pay attention to, and it's more prevalent in Port St. Lucie than in most of the region because so much of the city is newer master-planned development.
+The exact amount changes, because part of Florida's homestead benefit is now adjusted for inflation. The St. Lucie County Property Appraiser currently describes an exemption of up to **$51,411** for qualifying owners, subject to the applicable taxing authority and ownership percentage. The second tier applies only to non-school taxes, so the figure that reduces a school-district levy is smaller than the headline number.
 
-A **Community Development District** is a special taxing district used to finance the infrastructure of a new community — roads, drainage, utilities, amenities. The bond is repaid by the homeowners inside the district, and **the assessment appears on your annual tax bill, separate from HOA dues.**
+To qualify, the homeowner must generally own and occupy the property as a permanent residence as of January 1 of the applicable tax year. Applications are generally due by **March 1**; verify current requirements and any late-filing procedures directly with the Property Appraiser.
+
+### Save Our Homes
+
+Once a property qualifies for Homestead Exemption, Florida's Save Our Homes benefit limits annual increases in its assessed value. Over time that can leave a long-term owner's assessed value far below the property's market value.
+
+The benefit does not transfer automatically to a buyer, which is why a seller's existing tax bill may be substantially lower than the new owner's future bill. Save Our Homes also limits changes to assessed value rather than freezing the total bill — millage rates, exemptions and other assessments can still move.
+
+### Homestead Portability
+
+A homeowner moving from one qualifying Florida homestead to another may be able to transfer some or all of an accumulated Save Our Homes assessment difference through portability. The maximum transferable difference is **$500,000**. The new homestead must generally be established by January 1 within three tax years after abandoning the prior one, and the portability application should be filed alongside the new Homestead Exemption application by March 1.
+
+Portability transfers an assessment benefit — not the prior home's tax bill, and not the exemption itself. Verify individual eligibility and file the required applications rather than assuming the benefit follows automatically.
+
+## Special-District Assessments and CDDs
+
+Some Port St. Lucie properties sit within Community Development Districts or other special-assessment districts. A CDD is a special-purpose governmental district that may finance or maintain community infrastructure — roads, drainage, utilities, landscaping, recreational facilities and district operations.
+
+These assessments may appear on the annual property-tax bill as non-ad valorem charges, meaning the amount is not calculated from the property's assessed value. Port St. Lucie tax bills may also carry other non-ad valorem assessments for services such as stormwater or solid waste, so identify the exact name and purpose of every charge rather than assuming each one is a CDD fee.
 
 Several things buyers routinely misunderstand:
 
-- **It's in addition to HOA dues**, not instead of them. A community can have both, and many do.
-- **It can run for decades.** These bonds are long-dated. Ask how many years remain.
-- **It's attached to the parcel, not to you.** It transfers with the property.
-- **Some CDDs allow the bond portion to be paid off early**, which changes the math on a purchase considerably. Ask whether it can be, and what the payoff is.
-- **A lower purchase price with a large CDD** can carry more monthly than a higher-priced home without one. Compare the full figure, not the list price.
+- **It is in addition to association dues**, not instead of them. A community can have both, and many do.
+- **It can run for decades.** These bonds are long-dated, so ask how many years remain.
+- **It is attached to the parcel, not to you.** It transfers with the property.
+- **Some districts allow the bond portion to be paid off early**, which changes the math on a purchase considerably.
+- **A lower purchase price with a large assessment** can carry more monthly than a higher-priced home without one.
 
-Ask for the CDD assessment amount, the remaining term, and the payoff figure in writing before you go under contract. This single question resolves more Port St. Lucie budget surprises than anything else.
+### What to Ask About a CDD or Special Assessment
 
-## HOA dues
+For any property with a district assessment, obtain the district's full legal name, the current annual assessment, whether it includes debt and maintenance components, the remaining term of any debt assessment, whether early payoff is permitted and the current payoff amount, whether operating assessments will continue, the most recent property-tax bill, and any required buyer disclosures.
 
-Master-planned communities here typically carry HOA dues, and what they include varies widely — some cover only common-area landscaping, others bundle amenity access, lawn service, and gated entry. Confirm what's actually included rather than comparing dues in the abstract.
+A community may have both an association and a district assessment. The two serve different purposes and appear in different places — association dues are generally paid directly to the association, while district and municipal assessments may appear on the tax bill. Compare the complete annual cost rather than the purchase price alone.
 
-## Insurance
+## Homeowners' Association Fees
 
-A genuine Florida cost, and one that has risen sharply statewide. Port St. Lucie has two structural advantages worth knowing.
+Many Port St. Lucie master-planned, gated, golf and age-qualified communities charge association dues, and what they include varies widely: common-area landscaping, management, gates or security, pools and clubhouses, fitness facilities, lawn or exterior maintenance, cable or internet, building insurance, roof reserves and community events.
 
-**New construction generally insures better.** Homes built to the post-1994 and especially post-2002 Florida building codes, with modern roofs and impact glass, tend to quote meaningfully lower than older stock. In a city with this much new construction, that's a real and often overlooked part of the value proposition.
+A higher fee may cover services the owner would otherwise pay for separately. A lower fee is not automatically better if it excludes important maintenance or if the association holds inadequate reserves.
 
-**Inland position helps.** Being off the coast changes the wind and flood profile relative to the barrier islands. That said, "inland" is not "no flood risk" — Port St. Lucie has extensive canal and drainage infrastructure and low-lying areas, and flood zones vary considerably across the city.
+Review the current budget, recent financial statements, reserve information, insurance coverage, meeting minutes, pending litigation, current or proposed assessments, maintenance responsibilities, and rental and occupancy restrictions.
 
-**Pull the FEMA flood zone for the specific address**, understand what your lender will require, and get real homeowners quotes **during your inspection period** rather than after. Premiums vary by thousands between comparable homes based on roof age, wind mitigation features, and construction year. A wind mitigation inspection is inexpensive and frequently pays for itself.
+## Golf and Private Club Costs
 
-## Everyday costs
+Golf and country-club communities may carry expenses well beyond association dues. Membership may be mandatory or optional, separate from property ownership or tied to a particular residence, and split into different membership categories.
 
-Utilities and groceries track near the Florida average. Electric is the swing cost, driven by summer air conditioning from roughly June through September.
+The costs to ask about: initiation fees, annual dues, food-and-beverage minimums, trail or cart fees, capital charges, guest fees and special club assessments.
 
-Dining and entertainment run noticeably cheaper than the coastal metros — a real quality-of-life factor that compounds over a year. Lawn and pest service are standing monthly costs, as everywhere in Florida.
+Confirm all club obligations in writing and determine whether membership terms can change after purchase. Where membership is required, club costs belong in the monthly and annual ownership estimate — not in a mental column marked discretionary.
 
-The cost most people underestimate is **driving.** This is a spread-out, car-dependent city, and if anyone in the household commutes south to Palm Beach County, fuel, tolls, vehicle wear, and time are a genuine line item. Run that number honestly before you decide the housing savings are net savings.
+## Homeowners Insurance
 
-## Running your own number
+Insurance is a significant cost throughout Florida, and both the premium and the available coverage depend on the specific property and the insurer's underwriting.
 
-Build the full monthly figure for a **specific address**:
+Factors that move the number include roof age, condition, shape and attachment; construction type; replacement cost; impact-rated windows and doors or approved shutters; electrical and plumbing systems; prior claims; flood zone; and deductible choices.
+
+Newer construction may include updated structural and wind-resistance features, but **do not assume a newer home automatically quotes lower.** A larger new home also carries a higher replacement cost, which raises the amount of insurance required. Obtain property-specific quotes during the inspection or due-diligence period.
+
+### Hurricane Deductibles
+
+Florida homeowners policies commonly carry a hurricane deductible separate from the standard deductible for other covered losses. Insurers generally must offer hurricane-deductible options of $500, 2%, 5% or 10% of the dwelling limit, subject to statutory exceptions, and the policy must state the deductible as a dollar amount.
+
+A 2% hurricane deductible on a home insured for $500,000 is $10,000.
+
+Compare the annual premium, the hurricane deductible, the standard deductible, any separate roof or water deductibles, coverage limits, exclusions and replacement-cost estimates together. A policy with a lower annual premium may require substantially more out of pocket after a covered loss.
+
+### Wind-Mitigation Inspections
+
+A wind-mitigation inspection documents structural features that reduce a home's vulnerability to wind damage: roof-to-wall attachment, roof-deck attachment, roof shape, secondary water resistance, opening protection, and impact-rated doors and windows or approved shutters.
+
+Florida insurers are required to recognize qualifying hurricane-loss mitigation features through available premium discounts, though the amount depends on the inspection results, the policy and the insurer. An inspection does not guarantee a particular discount, but current documentation helps an agent produce an accurate quote.
+
+### Flood Risk and Flood Insurance
+
+Port St. Lucie is inland from the Atlantic, but inland does not mean no flood risk. The city contains canals, drainage systems, rivers and low-lying areas, and conditions vary substantially from property to property.
+
+Investigate the current FEMA flood-zone designation, the City's flood-zone map, whether a lender will require flood insurance, available elevation information, any history of flooding or water intrusion, drainage around the home, nearby canals, lakes and waterways, and the flood-insurance options available. The City directs residents to both the **FEMA Flood Map Service Center** and its own **Flood Zone Interactive Map** for address-specific information.
+
+One thing that rarely makes it into a cost article: Port St. Lucie participates in FEMA's Community Rating System at **Class 5**, so properties in the Special Flood Hazard Area receive a **25% discount** on their flood insurance policy and properties outside it receive **10%**, as of April 1, 2023.
+
+Flood insurance is generally separate from a standard homeowners policy, and a property outside a lender-designated high-risk zone can still flood. Discuss the available coverage with a licensed insurance professional.
+
+## Everyday Costs
+
+### Electricity and Cooling
+
+Air conditioning is one of the larger household utility expenses here. Actual use depends on home size, ceiling height, insulation, window type, sun exposure, air-conditioning efficiency, thermostat settings, pool equipment, number of occupants, work-from-home schedules, and whether occupancy is seasonal or year-round.
+
+Older homes with limited insulation or inefficient systems may cost more to cool than their square footage suggests. Newer homes may run more efficiently, but larger floor plans, pools and extensive electronics offset some of that. Prior utility bills help, though they reflect the seller's habits and occupancy rather than the buyer's.
+
+### Water, Sewer and Septic
+
+Utility arrangements vary across the city. Some properties are on city water and wastewater service; others have septic systems or a mix of public and private utilities.
+
+Verify whether the property has city water, whether it is connected to city sewer, whether it has a septic system, the current utility rates, any outstanding connection charges or special utility assessments, whether a future connection is planned or required, and the age and condition of any private system.
+
+A septic property may avoid some monthly wastewater charges but takes on separate inspection, pumping, maintenance and replacement responsibilities. The correct comparison is the long-term cost and condition of the specific systems, not simply whether a monthly utility bill arrives.
+
+### Lawn, Pool and Pest Control
+
+Many homes here have a yard, a pool or both, which means recurring mowing, fertilization, weed and pest control, irrigation maintenance, tree trimming, pool cleaning, pool chemicals, equipment repairs and exterior pressure cleaning.
+
+Association-managed communities may include some landscaping in their dues, while owners in non-HOA neighborhoods arrange and pay for it independently. Confirm what is included before comparing association fees or estimating household expenses.
+
+## Transportation Costs
+
+Port St. Lucie is geographically large and primarily car-dependent. Most residents need a vehicle for work, shopping, medical appointments, schools, restaurants, recreation, beach trips and social life — which means fuel, vehicle insurance, maintenance, tires, tolls, additional mileage, eventual vehicle replacement and commuting time.
+
+**The Palm Beach County commute deserves particular attention.** A property may appear less expensive than a home farther south, but regular fuel, tolls, maintenance and time on the road reduce the effective savings. Drive the actual route during the hours you expect to travel, and calculate the expense honestly before concluding the housing savings are net savings.
+
+## Florida Has No State Personal Income Tax
+
+Florida does not impose a state personal income tax, which can be financially meaningful for someone relocating from a state that does.
+
+It is one part of the comparison, not the whole of it. Set it alongside property taxes, homeowners insurance, flood insurance, association and club fees, utilities, transportation, home maintenance and storm preparation. The absence of a state income tax does not make every Port St. Lucie property inexpensive to own.
+
+## Building a Realistic Monthly Budget
+
+A complete ownership budget for a specific address includes:
 
 - Mortgage principal and interest
-- Property taxes **at a reset assessment**, homestead applied if primary
-- **CDD assessment** — amount, remaining term, and whether it can be paid off
-- HOA dues, and what they include
+- Property taxes **at a reset assessment**, with homestead and portability applied where they apply
+- **Special-district assessments** — amount, remaining term, and whether the bond can be paid off
+- Municipal non-ad valorem assessments
+- Association dues, and what they include
+- Club dues, where membership is required
 - Homeowners insurance, actually quoted
 - Flood insurance, if the zone requires it
-- Electric, water, internet
-- Lawn and pest service
-- **Commuting cost**, if anyone drives to Palm Beach County
+- Water and wastewater, or septic maintenance
+- Electricity
+- Internet and cellular service
+- Lawn and pool care, and pest control
+- **Transportation and tolls**, including the commute if anyone drives south
+- Routine maintenance, and reserves for major repairs
 
-## The bottom line
+Account too for expenses that are not monthly but are entirely predictable over time: roof replacement, air-conditioning replacement, appliance repairs and storm preparation.
 
-Port St. Lucie is the affordability leader in this region, and the advantage is real rather than marketing — more house, newer construction, and a lower county millage than the markets to the south.
+Do not rely on the listing price, the seller's tax bill, the seller's insurance premium or an advertised builder payment.
 
-Two things determine whether that advantage survives contact with your actual budget: the CDD assessment on the specific property, and the commute if you have one. Get both of those numbers before you fall in love with a house, and the value story here holds up better than almost anywhere nearby.`,
+## The Bottom Line
+
+Port St. Lucie offers a large housing selection, extensive new construction and the chance to buy more space than the same money finds farther south. Whether that value survives contact with a real budget depends on the complete ownership cost.
+
+Property taxes have to be estimated for the new owner. Insurance has to be quoted on the actual home. Association, club and special-district obligations have to be identified, and transportation has to be counted. No single expense decides whether a Port St. Lucie home is affordable.
+
+The useful comparison is between the complete monthly and annual cost of specific properties — not between citywide averages or listing prices.`,
     faqs: [
-      { q: "Is Port St. Lucie affordable?", a: "It's among the most attainable markets in southeast Florida, with new and resale single-family homes well below Palm Beach County and Martin County pricing for comparable space. The two things that can erode that advantage are CDD assessments in newer communities and commuting costs if you work in Palm Beach County." },
-      { q: "What is a CDD fee in Port St. Lucie?", a: "A Community Development District assessment — a special taxing district that finances a new community's infrastructure, repaid by the homeowners inside it. It appears on your annual tax bill separately from HOA dues, can run for decades, transfers with the property, and in some districts the bond portion can be paid off early. Always ask for the amount, remaining term, and payoff figure in writing." },
-      { q: "Are property taxes lower in Port St. Lucie than Palm Beach County?", a: "Port St. Lucie is in St. Lucie County, with its own millage rates and school district, and buyers comparing against Palm Beach County often find the annual difference larger than expected. Rates are set by multiple taxing bodies and change, so verify current figures with the St. Lucie County Property Appraiser and Tax Collector for the specific address." },
-      { q: "Will my property taxes match the listing figure?", a: "Usually not. The figure shown typically reflects the current owner's bill, which may be protected by caps that don't transfer. Assessed value generally resets toward market value in the year after a sale, and in a fast-appreciating market that reset can be substantial. Budget against a reset assessment." },
-      { q: "Is home insurance cheaper in Port St. Lucie?", a: "It benefits from two structural advantages: much of the housing is newer construction built to modern codes, which generally insures better, and the inland position changes the wind and flood profile versus the barrier islands. Inland is not no-flood-risk though — pull the FEMA flood zone for the specific address and get quotes during your inspection period." },
-      { q: "Should I factor commuting into Port St. Lucie's cost of living?", a: "Yes, if anyone in the household works in Palm Beach County. It's a long drive, and fuel, tolls, vehicle wear, and time are a real line item that can offset a meaningful share of the housing savings. Run that number before concluding the move saves money." },
+      { q: "Is Port St. Lucie affordable?", a: "It's among the more attainable markets in southeast Florida, with a wide range of new and resale single-family homes. But the purchase price doesn't settle it. A lower-priced home carrying a special-district assessment, club dues or a Palm Beach County commute can cost more each month than a higher-priced home without them. Compare the complete monthly cost of specific properties." },
+      { q: "What is a CDD fee in Port St. Lucie?", a: "A Community Development District assessment — a special-purpose governmental district that finances or maintains a community's infrastructure, repaid by the homeowners inside it. It appears on your annual tax bill as a non-ad valorem charge, separate from association dues, can run for decades, and transfers with the property. Some districts allow the bond portion to be paid off early. Ask for the district's legal name, the current annual assessment, the remaining term and the payoff figure in writing." },
+      { q: "Are property taxes lower in Port St. Lucie than Palm Beach County?", a: "Not as simply as a countywide millage comparison suggests. A home's bill depends on its assessed value, exemptions, municipality, school district, special districts and non-ad valorem assessments — two similarly priced properties can have noticeably different bills even within Port St. Lucie. Use the St. Lucie County Property Appraiser's estimator for the specific parcel and anticipated purchase value, then review the actual tax bill for every assessment attached to it." },
+      { q: "Will my property taxes match the listing figure?", a: "Usually not. The figure shown typically reflects the current owner's bill, which may benefit from Homestead Exemption and Save Our Homes limits that don't transfer to you. After a qualifying change of ownership the property is generally reassessed at just value as of January 1 of the following year. Budget against a reset assessment, not the seller's historical number." },
+      { q: "Is home insurance cheaper in Port St. Lucie?", a: "Not automatically. Newer construction may include updated structural and wind-resistance features, but a larger new home also carries a higher replacement cost, which raises the coverage required. Premium and availability depend on roof age and shape, construction type, opening protection, prior claims, flood zone and deductible choices for the specific property. On flood insurance specifically, Port St. Lucie's Community Rating System Class 5 status does earn a 25% discount in the Special Flood Hazard Area and 10% elsewhere. Get property-specific quotes during your inspection period." },
+      { q: "Should I factor commuting into Port St. Lucie's cost of living?", a: "Yes, if anyone in the household works in Palm Beach County. Fuel, tolls, vehicle wear and time are a real line item that can offset a meaningful share of the housing savings. Drive the actual route during the hours you'd travel, and run the number before concluding the move saves money." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-port-st-lucie-florida", "best-neighborhoods-in-port-st-lucie-florida", "port-st-lucie-vs-nearby-cities"],
-    funFact: "St. Lucie County has meaningfully lower property tax millage rates than Palm Beach County — on a $400K home, the difference can be $2,000+ annually. Buyers relocating from PBC who crunch the true cost of ownership consistently find PSL's tax advantage more significant than they expected.",
+    funFact: "Property-tax comparisons between Port St. Lucie, Martin County and Palm Beach County are not as simple as comparing one countywide millage rate. A home's tax bill depends on its assessed value, exemptions, municipality, school district, special districts and non-ad valorem assessments — two similarly priced properties can have noticeably different tax bills even within Port St. Lucie. Use the St. Lucie County Property Appraiser's tax estimator as a starting point, then review the actual tax bill for every special assessment attached to the parcel. The seller's current bill should never be assumed to represent what a new owner will pay.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-09-11',
   },
   {
     slug: 'hidden-gems-in-port-st-lucie-florida',
