@@ -17,6 +17,7 @@
 | `local-atlantic-surf.jpg` | Turquoise water, horizon and an incoming surf line — hero on `pros-and-cons-of-living-in-hobe-sound-florida` |
 | `local-beach-empty-sand.jpg` | Clear water and a broad sweep of empty sand — inline in that article's beaches section |
 | `local-hobe-sound-entry-sign.jpg` | The **Hobe Sound** median sign on Bridge Road at the entrance to town, under a cabbage-palm cluster — Hobe Sound community-page gallery |
+| `local-hobe-sound-entry-banner.jpg` | Banner cut of the same **Hobe Sound** median sign on Bridge Road — hero on `cost-of-living-in-hobe-sound-florida` |
 | `local-poinciana-gardens-sign.jpg` | The **Poinciana Gardens** entrance monument — hero on `best-neighborhoods-in-hobe-sound-florida` |
 | `local-harry-and-the-natives.jpg` | The thatched entrance, flags and roadside sign at **Harry and the Natives** on US-1 — hero on `best-places-to-eat-drink-hang-out-in-hobe-sound-florida` |
 | `local-harry-and-the-natives-porch.jpg` | The same building from the parking lot: sign, tin-roofed porch and carved shutters — inline in that article's US-1 section |
@@ -143,6 +144,26 @@ directly: the "Hobe Sound" sign is **on Bridge Road as you enter town**.
 
 `IMG_6547` and `IMG_6548` are the same sign a half step apart. **6548 is the better frame** —
 fuller palm crowns and more sky; 6547 is tighter and clips the canopy. 6547 is unused.
+
+### `local-hobe-sound-entry-banner.jpg` — hero on the cost-of-living guide
+
+Cut from **IMG_6548**, `extract({ left: 0, top: 1600, width: 5712, height: 1680 })` resized to
+**2048×602**, quality 82 mozjpeg, 299KB. A true 3.40:1 band at full source width, so **no
+upscale at all** — unlike the Blowing Rocks bands, which stretch 1536 to 2000.
+
+`top: 1600` puts the sign plaque a little below centre with the palm trunks above it and both
+carriageways entering from the sides. Higher bands lose the sign into the mulch bed; lower ones
+crop the palms off entirely and the frame stops reading as an entrance.
+
+**Why this frame rather than the two unused Blowing Rocks banners.** `local-blowing-rocks-ledge.jpg`
+and `local-blowing-rocks-shore.jpg` are both sitting orphaned at 3.40:1, and both were ineligible:
+this file already records that three articles drawing on that eight-frame shoot is the limit, and
+a fourth would be visibly repetitive. The cost-of-living article is also about an address rather
+than a coastline — a limestone ledge says nothing about what it costs to live here, and the town
+sign says exactly that.
+
+The earlier note that the entry sign is "documentary, not a hero" stands for the community page,
+where it lost to the banyan arch. Documentary is the right register for this particular article.
 
 ### `local-hobe-sound-entry-sign.jpg` — community-page gallery
 
