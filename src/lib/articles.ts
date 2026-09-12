@@ -12164,102 +12164,189 @@ Choose Stuart because you want the combination it currently offers: a real downt
     order: 2,
     seoTitle: "A Local's Guide to Stuart, Florida",
     metaTitle: "A Local's Guide to Stuart, Florida",
-    metaDescription: "An insider's guide to Stuart, Florida — how to read the bridges and rivers, the truth about the Brightline station, boating etiquette, and the seasonal rhythm of a Treasure Coast river town.",
+    metaDescription: "An insider's guide to Stuart, Florida — how the rivers, bridges and surrounding towns fit together, where the Brightline station actually stands, boating rules that mark you as local, and the seasonal rhythm.",
     primaryKeyword: "Stuart Florida local guide",
     secondaryKeywords: ["Stuart insider tips", "things locals do in Stuart FL", "moving to Stuart guide"],
     h1: "A Local's Guide to Stuart, Florida",
     heroImage: '/images/stuart/local-dock-pilings.jpg',
-    body: `Stuart is small enough to learn in a weekend and confusing enough on day one that people give up and use the satnav for a year. The confusion is geographic: this is a town assembled around two rivers, an inlet and a set of bridges, and until you understand the water you can't understand the roads.
+    body: `Stuart is small enough to learn in a weekend and confusing enough on day one that people give up and use the satnav for a year. It becomes much easier once you understand how the rivers, the bridges and the surrounding communities fit together.
 
-Here's the orientation I'd give a friend who just moved here.
+The city is built around the St. Lucie River, with the Indian River Lagoon and the Atlantic farther east. Downtown occupies a compact waterfront, while US-1, the Roosevelt Bridge, the railroad crossings and several separate municipalities shape how everyone actually moves around.
 
-## Learn the water first, then the roads
+Here is the orientation a local would give someone who has just moved here.
 
-Three bodies of water define everything:
+## Learn the Water First
 
-- The **St. Lucie River**, which splits into North and South Forks and wraps around downtown.
-- The **Indian River Lagoon**, running north-south behind the barrier island.
-- The **St. Lucie Inlet**, the gap to the Atlantic, which is why anyone with a boat lives here.
+Water defines Stuart's geography and most of its lifestyle. The waterways that matter are the St. Lucie River, its North and South Forks, the Indian River Lagoon, the St. Lucie Inlet and the Atlantic.
 
-Everything else is a way of getting across or around those.
+The St. Lucie runs through the Stuart area and divides into North and South Forks farther inland. The lagoon runs north and south behind Hutchinson Island, and the inlet is the gap between the estuary and the ocean, which is why anyone with a boat lives here.
 
-**Downtown Stuart** sits on the south bank of the St. Lucie. **Sewall's Point** is the peninsula east of downtown between the two rivers — its own incorporated town, not part of the City of Stuart. **Hutchinson Island** is the barrier island beyond that, holding the beaches. **Palm City** is west across the river, **Jensen Beach** north, **Port Salerno** south.
+Those waterways decide boating routes, bridge crossings, waterfront property, flood exposure, traffic patterns, parks, marine businesses and water quality. A map that shows only roads does not give you the picture.
 
-**US-1** is the north-south spine. **I-95** and **Florida's Turnpike** run further west and are how you leave the county. The **Roosevelt Bridge** carries US-1 over the river north of downtown and is the piece of infrastructure locals actually talk about.
+## The Surrounding Communities
 
-## Confusion Corner is real and it is fine
+Several places commonly lumped in with Stuart are legally separate, and the Stuart mailing area extends well beyond the incorporated city. Always confirm whether a property is actually inside the municipal limits.
 
-Downtown Stuart has an intersection where several roads and a rail line converge at odd angles. It is signposted, locals navigate it without thinking, and it is called Confusion Corner because that is what it does to newcomers.
+**Sewall's Point** is its own incorporated town on the peninsula east of downtown, with a separate town government, zoning, police department and tax structure. A Sewall's Point address is not the City of Stuart.
 
-Approach it slowly the first few times, watch the lane markings rather than your instincts, and within a fortnight it stops registering. Nobody has ever moved away because of it.
+**Hutchinson Island** is the barrier island beyond the lagoon, holding the beaches, condominiums, waterfront communities and parks. It straddles two counties and several jurisdictions, so verify the county and taxing authorities for the exact parcel.
 
-## The Brightline station: what's actually true
+**Palm City** lies west across the South Fork: unincorporated Martin County, suburban neighborhoods, golf communities, waterfront homes, acreage, and quick access to I-95 and the Turnpike from most of it.
 
-You will hear about this constantly, so here is the honest status.
+**Jensen Beach** is north and northeast, an unincorporated community on the lagoon with a small commercial center and its own road onto Hutchinson Island.
 
-Brightline announced in **March 2024** that Stuart would get a Treasure Coast station, on about 2.35 acres at **500 SE Flagler Avenue** in downtown, opposite the Martin County Courthouse. The original target was 2026.
+**Port Salerno** is south, unincorporated, and known for the working waterfront around Manatee Pocket.
 
-It has not been built. Martin County's request for **$45 million** in federal grant funding was **not awarded**, and county officials have since projected the earliest realistic opening as **2028**, with more recent reporting suggesting **spring 2029**. A second grant application has been submitted.
+## The Roads That Matter
 
-So: announced, sited, and genuinely intended — but unfunded and repeatedly delayed. If a downtown purchase only makes sense to you with rail service attached, treat the station as a possibility rather than a plan, and verify the current status before you commit. Plenty of people are buying downtown on the strength of downtown itself, which is a sounder basis.
+**US-1**, also called Federal Highway, is the north-south commercial spine: shopping centers, restaurants, medical offices, car dealers, the bridges, and the way to Jensen Beach, Port Salerno and Hobe Sound. It is practical and busy, and it is not the downtown experience.
 
-## Getting out of town
+**The Roosevelt Bridge** carries US-1 over the St. Lucie north of downtown and is the piece of infrastructure locals actually talk about, particularly for travel between Stuart and Jensen Beach or northern Martin County. Traffic backs up with commuting hours, crashes, maintenance, the seasonal population, events and nearby railroad crossings. Learn at least one alternate route, and accept that the alternatives can add considerable time.
 
-Until that changes, Stuart's connections are:
+**Kanner Highway** connects downtown with western Martin County, Palm City and I-95. **Monterey Road** links Palm City, central Stuart and the US-1 corridor, along with county offices, medical services and a lot of residential streets. **Ocean Boulevard** runs east through Sewall's Point to Hutchinson Island and the beaches, with travel time set by bridges, events and season.
 
-- **I-95 and the Turnpike**, both a short drive west, for anywhere north or south.
-- **Palm Beach International (PBI)**, the nearest commercial airport, generally under an hour south.
-- **Orlando** for a wider route map, roughly two and a half hours north.
-- **Witham Field**, in Stuart itself, for general aviation — handy if that's relevant to you, irrelevant if not.
+## Confusion Corner Is Real
 
-## Boating: the etiquette that marks you as local
+Confusion Corner is the intersection near downtown where several streets, a roundabout and the Florida East Coast Railway corridor meet around Colorado Avenue and Ocean Boulevard. The name is earned. The geometry makes no sense the first time you see it.
 
-If you're going to have a boat here, and a lot of people move here specifically to, a few things matter.
+Slow down, follow the marked lane, watch for trains, do not make a last-second turn, expect pedestrians and cyclists, and allow extra time when there is construction. Within a fortnight it stops registering. Nobody has ever moved away because of it.
 
-**Know your air draft.** Several bridges between the inland waterways and the inlet are fixed. What you can keep at your dock and where you can take it is determined by clearance, not by how much dock you bought. This is the single most common expensive surprise for buyers moving here from a place without bridges — our [neighborhood guide](/blog/best-neighborhoods-in-stuart-florida) goes into how it shapes the market.
+Just south of it is the **Creek District of Arts and Entertainment**, the city's designated arts district since 2019, centered on Colorado Avenue with galleries, restaurants, shops and community events.
 
-**Watch your wake.** Manatee zones and no-wake areas are enforced, and the residents whose seawalls you're hitting are the people you'll meet at the market.
+## Downtown Is Best Explored on Foot
 
-**Learn the inlet before you run it.** The St. Lucie Inlet shoals and its conditions change. Locals check before crossing and take advice from people who ran it that morning. Newcomers who treat it as a straight line out to the ocean are the ones who need help.
+Downtown is compact enough to park once and walk: restaurants, shops, galleries, the Lyric Theatre, Flagler Park, Riverwalk Park, the Creek District, the public docks, and the markets and events.
 
-**The sandbar is a social institution.** On a calm weekend the flats fill with rafted boats. It is friendly, it is the fastest way to meet people, and it has its own unwritten rules about anchoring distance and volume.
+Riverwalk Park sits behind City Hall at 121 SW Flagler Avenue, with a boardwalk over the St. Lucie, docks, seating, restrooms and an event stage. It is open daily from sunrise to sunset, with the lighted facilities open until 10 p.m. The city also runs a free downtown tram with regular and on-call stops. Routes and hours change, so check the current schedule before depending on it.
 
-## The seasonal rhythm
+Parking tightens during festivals, concerts and the winter season. Circling for the closest possible space is a newcomer tell. A slightly longer walk is usually faster than waiting for a prime spot.
 
-**Winter into spring** is the busy season — the population swells, downtown is lively, restaurants fill, fishing tournaments and the boat show run, and traffic on US-1 is noticeably worse. This is also when the weather is at its best and everyone remembers why they moved here.
+### Downtown Events
 
-**Summer into autumn** is hot, humid and quiet, with near-daily afternoon storms and hurricane season in the background. Some seasonal businesses reduce hours or close. Locals get their town back and are not sorry about it.
+Stuart Main Street has served the historic district for more than three decades and runs Market on Main on Sunday mornings at Flagler Park and Rock'n Riverwalk, the free Sunday concert series on the Riverwalk stage. Depending on the calendar, downtown adds art walks, holiday events, festivals, historic tours, theater, community races and food and craft vendors. Confirm schedules, street closures and parking before you go.
 
-The dividing line is roughly Easter and roughly Thanksgiving, and residents plan around it — dentist appointments and home projects in August, guests in February.
+### Arriving Downtown by Boat
 
-## The unwritten rules
+The city provides free daytime dockage behind City Hall for boaters visiting downtown, subject to current rules and availability, with no overnight docking. The facility is a 300-foot face dock plus six finger piers, with space for roughly thirteen boats.
 
-**Downtown is a park-once town.** Leave the car, walk the grid. Circling for a closer space is a newcomer tell.
+Before relying on it, confirm availability, depth, tide, your boat's size, the operating rules, the markers, the weather and the length-of-stay limit. It is a useful amenity, not a guarantee of a slip for every boat at every hour.
 
-**Be careful about praising Palm Beach County.** Plenty of residents moved here to get away from it, and there's a mild local sport in noting the differences.
+## The Brightline Station: What Is Actually True
 
-**Take the water quality question seriously but not hysterically.** It is a genuine long-running issue with a genuinely improving trajectory. Locals will tell you about it at length; they are not exaggerating the history, and they are also still out on the water most weekends.
+You will hear about this constantly, so here is the status as of September 2026.
 
-**Turn up to things.** The market, the boat show, the theater, the festivals. This is a town where the same few hundred people organize everything, and they are very easy to meet if you show up twice.
+Brightline announced in March 2024 that it had chosen downtown Stuart for its Treasure Coast station, on about 2.35 acres at 500 SE Flagler Avenue opposite the Martin County Courthouse, and originally projected an opening in the second half of 2026.
 
-## Settling in
+That timetable is long gone. In September 2025 the Federal Railroad Administration did not award Martin County's request for $45 million toward what was then a $60 million project. The federal program was reissued under a new name, and in February 2026 the county reapplied for $69.2 million against a revised cost of $87.15 million, with the county's share set at $17.87 million in bond financing and land value. The county owns the site; Brightline would lease it. The projected opening slid to spring 2029.
 
-Get on the water in the first month, even if you don't own a boat — charter, kayak, or take the free option and walk the Riverwalk at sunrise.
+In August 2026 the second application was passed over as well. The same federal program funded a $57 million station for Cocoa and did not fund Stuart. The county's agreement with Brightline provided for two grant cycles, after which neither party carries a mandatory obligation to build a Treasure Coast station. Both cycles have now run.
 
-Then pick a thing and join it. Stuart is small enough that this works quickly and small enough that not doing it leaves you isolated for a year.`,
+So the accurate description today is: a selected downtown site, land the county owns, an agreement whose obligations have lapsed, and no funding, no construction and no opening year. Buy downtown because you want downtown as it exists now. Treat a future station as a possibility, not part of the property's amenity package.
+
+### The Railroad Bridge Is Being Replaced
+
+One rail project did get funded. Stuart was awarded $79 million from the same federal program toward replacing the century-old single-track railroad bridge over the St. Lucie River, an estimated $262 million job. The current bridge gives boats about 6.5 feet of vertical clearance and a 50-foot opening; the replacement is designed for roughly 17.75 feet and 90 feet, which would let more than 90 percent of vessels pass without an opening. Construction timelines had not been announced as of this writing, so for now the drawbridge schedule still governs anyone boating the river past downtown.
+
+## Getting Out of Town
+
+Until a station is funded, built and open, Stuart's regional connections are roads and airports.
+
+I-95 and Florida's Turnpike both run west of downtown and the coast. Drive time to an interchange depends on the neighborhood, the time of day, traffic, construction and which highway you want. Neither is "a few minutes" from every Stuart address.
+
+Palm Beach International is generally the closest major commercial airport, and the drive varies a great deal with the starting address, traffic and parking. Anyone who flies regularly should test the route from the actual property rather than trusting a generalized estimate. Depending on the destination, fare and schedule, residents also use Orlando, Fort Lauderdale, Miami and Melbourne; the best airport is often decided by the available flight rather than the mileage.
+
+Witham Field is Martin County's public-use airport in Stuart itself. It handles private aviation, charters, flight training and aircraft services, not scheduled passenger flights. Handy if that is relevant to you, irrelevant if not.
+
+## Boating Begins With the Specific Property
+
+A lot of people move here for the boating, and a waterfront address does not automatically mean the property works for every boat.
+
+Before buying, establish water depth, fixed bridges, drawbridge schedules, vertical clearance, canal width, dock length, boat-lift capacity, seawall condition, no-wake zones, travel time to the inlet and tidal limits. The measurement that matters is the vessel's air draft, from the waterline to its highest fixed point. A boat can fit at the dock and still not clear a bridge between the property and open water. This is the most common expensive surprise for buyers arriving from places without bridges, and our [neighborhood guide](/blog/best-neighborhoods-in-stuart-florida) shows how it shapes the market. Have the route evaluated for the boat you actually intend to use.
+
+### Wake and Manatee Rules
+
+The Stuart area has posted speed zones, slow-speed areas and manatee-protection requirements, and they are enforced. Wakes damage seawalls, docks, moored boats, shorelines and habitat, and the residents whose seawalls you are hitting are the people you will meet at the market. Follow the posted restrictions rather than local habit, give manatees and other wildlife room, and never feed, chase or surround them.
+
+### Treat the St. Lucie Inlet Seriously
+
+The inlet is the passage between the estuary and the Atlantic, and it changes with shoaling, tide, wind, waves, storms, dredging, traffic and shifting channels. Newcomers who treat it as a straight line out to the ocean are the ones who end up needing help.
+
+Before running it, review current navigation information, check the marine forecast, confirm tide and sea state, use updated charts, follow the markers, take advice from qualified local people, and do not attempt conditions beyond your experience. A route that was safe last month may not be identical after a storm.
+
+### Sandbars and Boating Gatherings
+
+On a calm weekend the shallow flats fill with rafted boats. It is friendly, it is the fastest way to meet people, and it has rules. Anchor with adequate spacing, watch the tide, keep clear of the channel, protect seagrass, control the noise, pack out trash, monitor the weather and designate a sober operator. Not every shallow spot is a legal or environmentally appropriate place to anchor.
+
+## The Seasonal Rhythm
+
+Stuart gets busier through parts of winter and spring. Seasonal residents, visitors and good weather raise downtown traffic, restaurant demand, marina activity, beach parking, boat-ramp use, event attendance and travel on US-1. This is also when the weather is at its best and everyone remembers why they moved here.
+
+Summer and early fall are hotter, wetter and quieter, with afternoon thunderstorms and hurricane season from June 1 through November 30. Locals get their town back and are not sorry about it.
+
+The community does not switch seasons on fixed dates, though. Crowds move with the weather, holidays, events and the particular neighborhood. Plan around actual conditions rather than a folk calendar.
+
+### Summer Life
+
+Summer outdoor life happens early in the day. Expect heat, humidity, strong sun, afternoon storms, lightning, heavy rain, mosquitoes and fast changes on the water. For boating, walking, golf and the beach: start early, carry water, use sun protection, watch the radar, come in before the weather builds, and leave exposed ground when you hear thunder. Some businesses trim hours, but Stuart is a year-round town. Check directly rather than assuming a place has closed for the season.
+
+## Take Water Quality Seriously
+
+The St. Lucie River and Estuary have long-running problems with freshwater discharges, local runoff, nutrient pollution and harmful algal blooms. The issue should be neither ignored nor treated as though every day on the river is unsafe. Conditions vary by time and by location, and the history and the current outlook are covered in our [living guide](/blog/what-its-really-like-living-in-stuart-florida).
+
+Anyone boating, swimming, fishing or buying waterfront should follow current information from Martin County, the Florida Department of Environmental Protection, the Florida Department of Health, the South Florida Water Management District, the Army Corps of Engineers and the local environmental groups. Check the advisories before water contact or eating locally caught fish. Locals will tell you about it at length, and they are also still out on the water most weekends.
+
+## Social Life Rewards Participation
+
+Stuart is small enough that regular participation creates familiarity quickly. Markets, the theater, boating and fishing groups, volunteer organizations, environmental programs, arts events, civic groups, neighborhood associations, business groups and the parks and recreation calendar all work.
+
+This is a town where the same few hundred people organize everything, and they are very easy to meet if you show up twice. Someone who expects social life to arrive on its own may find Stuart quiet. Someone who turns up regularly and joins something will not.
+
+One small thing: be careful about praising Palm Beach County. Plenty of residents moved here to get away from it.
+
+## Explore the Water Without Owning a Boat
+
+You do not need a boat to understand Stuart's relationship with the river. Walk Riverwalk Park, use the public docks, kayak from an approved launch, book a fishing charter, take an authorized excursion, visit the waterfront parks, eat near the water and turn up to riverfront events. Check that a launch, tour or activity is currently operating, and respect the park's hours. A morning walk along the Riverwalk at sunrise is the easiest starting point there is.
+
+## A Useful First Month
+
+- Drive US-1 during weekday traffic
+- Cross the Roosevelt Bridge at different times of day, and learn an alternate route
+- Walk downtown, and go to Market on Main or a Riverwalk event
+- Explore the Creek District
+- Visit the beaches on Hutchinson Island
+- Find the nearest boat ramp or kayak launch
+- Test the drive to the interstate and to the airport
+- Check the development applications near the house
+- Find out whether the house is inside the city
+
+Those experiences tell you more than a weekend of showings.
+
+## What New Residents Should Verify
+
+Before purchasing, or right after moving, confirm the municipal boundary, property taxes, utility providers, flood zone, evacuation zone, insurance requirements, school assignment where relevant, railroad proximity, boat-route restrictions, parking regulations, trash and recycling schedules, current road projects, nearby zoning and development, public transit options and hurricane preparation procedures. A Stuart mailing address answers none of those on its own.
+
+## The Bottom Line
+
+Stuart is built around water, bridges, a working railroad corridor and a compact historic downtown. Understanding those four things makes the city easy to navigate.
+
+The Roosevelt Bridge and US-1 shape regional travel. Confusion Corner is unusual and manageable. Downtown is best on foot, and the Riverwalk is the public connection to the St. Lucie. The Brightline station remains a possibility on a real site, and as of this writing it is unfunded, unbuilt and no longer contractually required.
+
+For boaters the important questions are property-specific: bridge clearance, depth, dockage, wake restrictions and inlet conditions. For everyone else, Stuart works best when you take part in its markets, events, parks and cultural life rather than treating it as a quiet place to own a house.
+
+Learn the water, learn the bridges and show up downtown. The rest of Stuart makes sense quickly.`,
     faqs: [
-      { q: "Is the Brightline station in Stuart, Florida built?", a: "No. Brightline announced in March 2024 that a Treasure Coast station would be built on about 2.35 acres at 500 SE Flagler Avenue in downtown Stuart, opposite the Martin County Courthouse, originally targeting 2026. Martin County’s request for $45 million in federal grant funding was not awarded, and officials have since projected 2028 at the earliest, with more recent reporting suggesting spring 2029. A second grant application has been submitted. Verify current status before relying on it." },
-      { q: "What is Confusion Corner in Stuart?", a: "It is a downtown Stuart intersection where several roads and a rail line converge at unusual angles. It is signposted and locals navigate it routinely; newcomers should approach slowly and follow the lane markings rather than instinct. It stops being confusing within a couple of weeks." },
-      { q: "What do locals do in Stuart, Florida?", a: "Boating and fishing dominate, along with the downtown Riverwalk, the Lyric Theatre, the farmers market, seasonal festivals, fishing tournaments and the boat show. Weekend sandbar gatherings on the flats are a social institution. Beach days happen on Hutchinson Island." },
-      { q: "What should boaters know before buying in Stuart?", a: "Air draft and bridge clearance matter more than dock length. Several bridges between the inland waterways and the St. Lucie Inlet are fixed, which determines what vessel you can realistically keep at a given property and where you can take it. Buyers moving from areas without bridge constraints are frequently caught out by this — verify clearances for your specific vessel and route." },
-      { q: "What is the nearest airport to Stuart, Florida?", a: "Palm Beach International is the nearest commercial airport, generally under an hour south. Orlando, roughly two and a half hours north, offers a wider route map. Witham Field in Stuart itself handles general aviation." },
-      { q: "When is the busy season in Stuart, Florida?", a: "Roughly late autumn through spring, when the seasonal population arrives, downtown is lively, tournaments and the boat show run, and traffic on US-1 is noticeably heavier. Summer into autumn is hot, quiet and stormy, with some seasonal businesses reducing hours." },
+      { q: "Is the Brightline station in Stuart, Florida built?", a: "No. Brightline chose downtown Stuart in March 2024, on about 2.35 acres at 500 SE Flagler Avenue opposite the courthouse, originally targeting late 2026. The Federal Railroad Administration passed over Martin County’s $45 million request in September 2025 and its revised $69.2 million request in August 2026, when the same program funded a station in Cocoa instead. The county’s agreement with Brightline allowed two grant cycles, and both have now run without an award, so neither party is currently obliged to build. Verify the status before relying on it." },
+      { q: "What is Confusion Corner in Stuart?", a: "It is the downtown intersection around Colorado Avenue and Ocean Boulevard where several streets, a roundabout and the Florida East Coast Railway corridor meet at odd angles. It is signposted and locals navigate it without thinking; newcomers should slow down, follow the marked lane and watch for trains. It stops being confusing within a couple of weeks, and the Creek District arts area sits just south of it." },
+      { q: "What do locals do in Stuart, Florida?", a: "Boating and fishing dominate, along with the downtown Riverwalk, the Lyric Theatre, Sunday’s Market on Main and Rock’n Riverwalk concerts, the Creek District, seasonal festivals, fishing tournaments and the boat show. Weekend sandbar gatherings on the flats are a social institution with their own rules. Beach days happen on Hutchinson Island." },
+      { q: "What should boaters know before buying in Stuart?", a: "Air draft and bridge clearance matter more than dock length. Several bridges between the inland waterways and the St. Lucie Inlet are fixed, and the century-old railroad bridge at downtown gives only about 6.5 feet of clearance until its funded replacement is built. That determines what you can keep at a property and where you can take it. Verify clearances, depth and the route for your specific vessel, and learn the inlet before you run it." },
+      { q: "What is the nearest airport to Stuart, Florida?", a: "Palm Beach International is generally the closest major commercial airport, though the drive varies a lot with the starting address and traffic, so test it from the actual property. Orlando, Fort Lauderdale, Miami and Melbourne are all used depending on the flight. Witham Field in Stuart itself handles general aviation only." },
+      { q: "When is the busy season in Stuart, Florida?", a: "Parts of winter and spring, when the seasonal population arrives, downtown is lively, tournaments and the boat show run, and traffic on US-1 is heavier. Summer into early fall is hot, quiet and stormy, with hurricane season from June 1 to November 30 and some businesses trimming hours. The change does not happen on fixed dates; crowds follow the weather, holidays and events." },
     ],
     internalLinks: ["what-its-really-like-living-in-stuart-florida", "best-things-to-do-in-stuart-florida", "hidden-gems-in-stuart-florida"],
-    funFact: "The Brightline station announced for downtown Stuart in March 2024 still has not been built. Martin County’s $45 million federal grant request was turned down, pushing the earliest projected opening to 2028 and, by more recent reporting, possibly spring 2029. It is a genuine plan on a real site opposite the courthouse — but if a purchase only works with train service attached, treat it as a maybe.",
+    funFact: "Brightline selected downtown Stuart for a Treasure Coast station in March 2024 and originally announced an opening in the second half of 2026. That station has not been built. Martin County owns the proposed site and applied twice for federal rail grants: the first request was not awarded in September 2025, and the second was passed over in August 2026 when the same program funded a station in Cocoa. The county’s agreement with Brightline ran for two grant cycles, after which neither side carries a mandatory obligation to build. The accurate description today is a selected site, no funding, no construction and no opening year. Buy downtown because you want downtown as it exists now, and treat future rail service as a possibility rather than part of the property’s amenity package.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'best-neighborhoods-in-stuart-florida',
