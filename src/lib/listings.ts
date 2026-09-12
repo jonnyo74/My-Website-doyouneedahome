@@ -67,27 +67,6 @@ export interface Listing {
   photoCredit?: string
 
   address: string
-  /**
-   * Verified rooftop coordinates, set by hand — never geocoded.
-   *
-   * Both must be present for the Sun & Shade section to appear on the listing
-   * page; a listing without them simply does not show it. That is deliberate.
-   * These are new builds in gated communities, and neither OpenStreetMap nor
-   * the state parcel roll has them yet: geocoding 8804 Skyward Street resolves
-   * to 8828, four doors away. Showing a buyer the sun on a neighbour's patio
-   * under our own listing is far worse than showing nothing.
-   *
-   * To set: open the property on a satellite map, drop a pin on the roof, copy
-   * the coordinates.
-   */
-  // Rooftop coordinates. Derived by matching PHY_ADDR1 in the Florida statewide
-  // cadastral layer and taking the centroid of the one building inside that
-  // parcel — NOT from a street geocoder. Census interpolates along the address
-  // range and puts the pin in the road, where the nearest footprint was the
-  // WRONG house for all three of these (the correct one was second-nearest
-  // every time). Verified against each listing's own sq ft and year built.
-  lat?: number
-  lng?: number
   city: string
   citySlug: string // matches a slug in communities.ts for internal linking
   county: string
