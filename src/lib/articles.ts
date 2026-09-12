@@ -12522,121 +12522,185 @@ Start with how you expect to live. Then verify that the property can support it.
     order: 4,
     seoTitle: "Best Things to Do in Stuart, Florida",
     metaTitle: "Best Things to Do in Stuart, Florida",
-    metaDescription: "The best things to do in Stuart, Florida — the Riverwalk and Lyric Theatre, Bathtub Reef, the 1870s House of Refuge, Florida Oceanographic, and the fishing that earned the Sailfish Capital title.",
+    metaDescription: "The best things to do in Stuart, Florida — downtown and the Riverwalk, Market on Main, the Lyric, Bathtub Reef, the 1876 House of Refuge, Florida Oceanographic, Halpatiokee, and the fishing behind the Sailfish Capital title.",
     primaryKeyword: "things to do in Stuart Florida",
     secondaryKeywords: ["Stuart attractions", "what to do in Stuart FL", "Bathtub Reef Beach", "downtown Stuart"],
     h1: "Best Things to Do in Stuart, Florida",
     heroImage: '/images/stuart/local-open-water.jpg',
-    body: `Stuart packs an unusual amount into a small town, and almost all of it is either on the water or a five-minute walk from it.
+    body: `Stuart packs an unusual concentration of waterfront recreation, history, arts and outdoors into a small city, and almost all of it is either on the water or a short drive from it.
 
-Here's what's actually worth your time.
+Historic downtown sits beside the St. Lucie River. The beaches, museums and environmental attractions of Hutchinson Island are a short drive east. Boating and fishing remain the center of the place, and you do not need to own a boat to enjoy what makes it distinctive.
 
-## Walk the downtown and the Riverwalk
+Here is what is actually worth your time.
 
-Start here, because it explains the town.
+## Walk Through Historic Downtown
 
-Historic **downtown Stuart** is a compact walkable grid of independent shops, galleries and restaurants, with the **Riverwalk** boardwalk running along the St. Lucie River behind it. Dolphins and manatees turn up in the river with enough regularity that locals stop pointing.
+Start here, because it explains the town. The compact district holds more than 50 locally owned shops, restaurants and galleries beside the river, with historic buildings, public spaces and a walkable street grid that give Stuart a recognizable center rather than the string of disconnected plazas most Florida towns settle for.
 
-The **Lyric Theatre** has anchored the district since **1926** and still programs concerts, theater and film. It's the reason downtown has evening life rather than just lunch trade.
+A downtown visit takes in the independent shops, restaurants and cafés, galleries, the historic architecture, Flagler Park, Riverwalk Park, the Lyric Theatre, the public docks, and whatever market or live music is on. Parking tightens during festivals and in season, but it is a park-once district, and the city runs a free downtown tram whose routes and hours change, so check before relying on it.
 
-Time it for the weekly farmers market or one of the seasonal festivals and you'll see the entire town in one morning.
+## Walk the Riverwalk
 
-## Fish, because this is what the place is for
+Riverwalk Park sits behind City Hall on the St. Lucie, with a waterfront boardwalk, public docks, benches, picnic tables, restrooms, shade structures, bicycle parking and an outdoor stage. It is the right place for a morning walk, a short waterfront stop or an outdoor concert.
 
-Stuart is the **Sailfish Capital of the World** and the title isn't marketing. The combination of the St. Lucie Inlet, the proximity of the Gulf Stream, the estuary and the lagoon gives you offshore, nearshore and inshore fishing within a short run of each other.
+Dolphins and manatees do turn up in the river, often enough that locals stop pointing. They are wild animals, though, and no sighting can be promised. The Riverwalk Stage carries community programming through the year; check the city's current calendar.
 
-You don't need a boat to start. Charters run out of the local marinas at every level from a half-day inshore trip to serious offshore, and there's productive shore and pier fishing for the price of a license.
+## Visit Market on Main
 
-If you're moving here, book a charter early. It's the fastest possible orientation to the local water.
+Market on Main runs at Flagler Park every Sunday morning through the year, rain or shine, generally from 9 a.m., with holiday closures possible. It is more than a produce market: local farmers, artists, crafters, bakers, prepared food, musicians and community organizations.
+
+It is also the easiest way to stack a downtown morning. Shop the market, walk the river, look in on the stores, have lunch downtown and stay for the music. Time a visit for it and you will see the whole town in one morning.
+
+## Stay for Rock'n Riverwalk
+
+Rock'n Riverwalk is the recurring free outdoor concert series on the Riverwalk Stage, generally on Sunday afternoons following the market. The combination makes Sunday the easiest day of the week to experience downtown. Bring weather protection and check the schedule; outdoor programs move with rain, heat and special events.
+
+## See a Performance at the Lyric Theatre
+
+The Lyric opened on March 15, 1926, as a silent-movie house and has anchored downtown for generations. Today it programs concerts, theater, comedy, film, community performances and educational events, and it is the reason downtown has evening life rather than just lunch trade. Check the calendar and buy ahead when it matters; some events sell out.
+
+## Go Fishing
+
+Stuart has a long-established reputation as a sport-fishing destination and is widely known as the Sailfish Capital of the World. The title is not marketing. The St. Lucie Inlet, the nearby Gulf Stream, the estuary and the Indian River Lagoon put offshore, nearshore and inshore fishing within a short run of each other, along with canals, tributaries, beaches, shoreline spots and public fishing areas. Species and conditions move with the season, weather, location and method.
+
+You do not need a boat to start. Offshore and inshore charters run at every level, and there is guided fishing, pier and bridge fishing where permitted, shoreline fishing, kayak fishing and private-boat fishing. A charter is the best introduction, because a qualified captain will explain current conditions, the regulations, the gear and the local water. If you are moving here, book one early. It is the fastest orientation to the place.
+
+### Check the License Rules First
+
+Owning a rod is not the only requirement. Florida generally requires a saltwater fishing license to take or attempt to take saltwater species, with exemptions and different license types. Residents fishing only from shore may qualify for a shoreline license, while fishing from a vessel generally needs different coverage. Charter customers are usually covered under the captain's license, but confirm that with the operator.
+
+Before fishing, verify whether a license or an exemption applies, the size and bag limits, closed seasons, gear restrictions, protected species and local access rules, using current Florida Fish and Wildlife Conservation Commission information.
 
 ## Bathtub Reef Beach
 
-On Hutchinson Island, and the standout beach in the area. A natural worm-rock reef sits just offshore, breaking the Atlantic swell and creating a shallow, calm lagoon at the shoreline — hence the name.
+Bathtub Beach is on Hutchinson Island at 1585 SE MacArthur Boulevard, and it is the standout beach in the area. A natural worm-rock reef sits just offshore and, when the sea and water level are relatively calm, breaks the Atlantic swell and leaves a shallow, calm lagoon at the shoreline. Hence the name.
 
-The snorkelling over the reef is the draw, and the calm water makes it the easy choice for anyone who doesn't want surf. It's popular, parking is finite, and it periodically closes for erosion or renourishment work — check before driving over.
+The name is not a guarantee. Waves, currents, poor visibility, marine life, erosion, exposed or submerged rock, changing depths and storm damage all happen here. Martin County Ocean Rescue guards it daily, and the beach has a history of erosion, temporary closures and resilience work, so confirm its status before driving over. Parking is finite.
+
+### Snorkel Carefully at the Reef
+
+The reef is what makes Bathtub appealing for snorkeling when conditions allow. Check the flags, talk to the lifeguards, judge the visibility, watch the waves and current, keep off the reef, do not touch or chase wildlife, use appropriate flotation and supervision, and stay within your ability. A reef that knocks down some of the swell still holds sharp rock, living organisms and changing water. Snorkel on the conditions that day, not on the beach's reputation.
 
 ## The House of Refuge
 
-A **1870s lifesaving station** on the rocky Hutchinson Island shore, and **Martin County's oldest building**.
+The House of Refuge at Gilbert's Bar is one of Martin County's most important historic sites and its oldest surviving building. Built in 1876, it was part of a chain of ten stations put up along Florida's then-empty Atlantic coast over the following decade so that shipwreck survivors would have somewhere to walk to. Keepers kept supplies and patrolled the shore for people who had reached land but were still far from any settlement.
 
-These stations were built along Florida's then-empty coast to shelter shipwrecked sailors, and this is the last one standing. It sits directly above the Anastasia limestone shoreline with the Atlantic breaking below it. Worth the visit for the setting alone; the history is a bonus, and it's genuinely affecting once you understand what the building was for.
+It is the only one of the ten still standing. It later served under the U.S. Coast Guard and the U.S. Navy before becoming a museum, and it is listed on the National Register of Historic Places. Exhibits cover the shipwrecks, early lifesaving, maritime history, the keepers, Hutchinson Island's past and the Georges Valentine, the Italian barque driven onto the rocks here in the hurricane of October 1904.
+
+It sits directly above the Anastasia rock shoreline with the Atlantic breaking below. The setting alone justifies the trip, and the history is genuinely affecting once you understand what the building was for. The rocks are hazardous; follow the posted rules and stay clear of dangerous surf.
 
 ## Florida Oceanographic Coastal Center
 
-Also on Hutchinson Island — a coastal science center with a game-fish lagoon, a stingray touch experience, trails through coastal hammock, and exhibits about the estuary system.
+Florida Oceanographic Coastal Center is a marine-science and environmental-education facility on Hutchinson Island between the Indian River Lagoon and the Atlantic, run by the nonprofit Florida Oceanographic Society, which does education, research and advocacy on Florida's coastal ecosystems.
 
-It is also, usefully, the best place to understand the water-quality story that dominates local conversation, explained by people who study it. If you're new here and want the estuary situation from a scientific rather than a political source, spend an hour here.
+The center has a 750,000-gallon gamefish lagoon, sea-turtle programs, stingray programs with scheduled interaction periods, aquariums of local species, nature trails, coastal-habitat exhibits and interactive educational areas. Daily presentations cover the stingrays, the gamefish and the sea turtles, with times and animal interactions that change.
+
+It is especially useful for new residents who want to understand the Indian River Lagoon, the St. Lucie Estuary, seagrass and mangroves, local marine wildlife, the water-quality challenges and coastal restoration, explained by the people who study them rather than the people who argue about them. It is open Tuesday through Sunday, 10 a.m. to 4 p.m., and closed on a handful of major holidays; check admission and program times before going.
 
 ## Halpatiokee Regional Park
 
-The largest park in Martin County, running to over 500 acres along the South Fork of the St. Lucie. The name comes from a Seminole term meaning, roughly, "alligator water," which sets expectations appropriately.
+Halpatiokee is Martin County's largest park: roughly 65 acres of active recreation surrounded by about 500 acres of wetland preserve, with about four miles of frontage on the South Fork of the St. Lucie River. The name comes from a Seminole word meaning "alligator water", which sets expectations correctly. Alligators may be present, along with river otters, manatees, turtles, fish and a long list of birds.
 
-Hiking, genuine mountain-biking trails, kayak access to the South Fork, and sports fields. It is consistently under-visited relative to how good it is, and it's the answer for anyone who wants Stuart's outdoors without a boat. Our [hidden gems guide](/blog/hidden-gems-in-stuart-florida) covers more in this vein.
+Hiking, genuine mountain-biking trails, paddling, disc golf, tennis, pickleball, baseball, softball, soccer and football fields, picnicking and primitive camping by reservation, across pine flatwoods, oak hammock, scrub, wetlands and river habitat. It is consistently under-visited relative to how good it is, and it is the answer for anyone who wants Stuart's outdoors without a boat.
 
-## Get on the water without a boat
+Stay on the marked trails, keep away from wildlife, carry water, use insect protection, check trail conditions, wear a helmet on the bike trails, avoid flooded or closed trails and watch the storms. The mountain-bike trails are unsupervised, with roots, bridges, sudden grade changes and other obstacles. Our [hidden gems guide](/blog/hidden-gems-in-stuart-florida) covers more in this vein.
 
-Charters are one route. The cheaper ones:
+### Paddle the South Fork
 
-**Kayak the forks.** The North and South Forks of the St. Lucie narrow into mangrove and canopy upstream, and launch points exist at several county parks. Twenty minutes from downtown and it feels like nowhere near it.
+Bring a kayak or canoe to Halpatiokee and explore the South Fork. Other public launches exist around Martin County, but access, parking, tide and temporary closures should be checked before every trip.
 
-**Fish from shore.** Bridges, jetties, causeways and the county parks all produce. A Florida license and a rod is the entire barrier to entry.
+Expect narrow waterways, tree canopy, mangroves, current, shallow stretches, submerged obstacles, wildlife and fast weather changes. How quickly a route turns into a quiet mangrove corridor depends on the launch point, the water level, the direction, your pace, the weather, maintenance and seasonal vegetation, so no fixed number of minutes applies. Carry the required safety gear and leave a basic trip plan with someone on shore.
 
-**Take the Riverwalk.** Free, flat, and the dolphins turn up on their own schedule.
+## Enjoy the Water Without Owning a Boat
 
-## The museums
+Boat ownership is not necessary. Book a charter, rent a kayak or paddleboard, use an approved public launch, walk the Riverwalk, visit the waterfront parks, fish from an authorized shoreline spot, eat beside the river, or join an educational boat excursion. Verify that the operator, launch or tour is currently open.
 
-**The Elliott Museum**, near Stuart Beach, covers regional history alongside a well-known collection of vintage vehicles and Americana. It's a solid rainy-afternoon option and better than a small-town museum has any right to be.
+Public access does not mean every shoreline, seawall, bridge or dock is open for fishing or launching. Respect private property and posted restrictions.
+
+## The Elliott Museum
+
+The Elliott Museum sits on Hutchinson Island near Stuart Beach. Its collections and rotating exhibits run to vintage automobiles, local history, baseball memorabilia, artwork, Americana and temporary shows. It is best known for the vehicle collection and reaches well beyond it, and it is better than a small-town museum has any right to be. It is the right call in rain, in extreme afternoon heat, as a break from the beach, or with visitors who like regional history. Check hours and current exhibits before going.
 
 ## Sailfish Splash Waterpark
 
-A municipal waterpark with a long lazy river, a zero-depth entry play area and four-story slides. Unglamorous, extremely popular in summer, and the correct answer to what to do at two in the afternoon in August.
+Sailfish Splash is Martin County's waterpark in Stuart, with a 1,000-foot lazy river, two four-story water slides, a zero-depth-entry interactive splash playground, water features, shade, rental cabanas and an adjoining competitive pool complex that offers lap swimming at various times through the year.
 
-## Golf, quietly
+It operates seasonally. In 2026 it ran daily from late May into early August and then weekends through Labor Day, with spring-break and weekend openings earlier in the year. Hours and closures shift with weather, staffing, maintenance and swim meets, so check operating dates, admission, height requirements, outside-food rules and weather closures. It is the correct answer to what to do at two in the afternoon in August, with the caveat that an afternoon thunderstorm can shut it.
 
-Not what Stuart is known for, and there's more of it than visitors expect — public, semi-private and private courses across Martin County, without the waiting lists or the pricing of the clubs further south.
+## Stuart Beach and the Other Beaches
 
-For anyone relocating from a golf-heavy part of Florida, the useful discovery is that a round here is generally easier to get and cheaper to play than the equivalent in Palm Beach County. Check current access and rates directly; policies vary by course and by season.
+Bathtub is not the only beach serving Stuart. Stuart Beach on Hutchinson Island is another guarded beach with facilities and broader sand, and the county also guards Jensen Beach and Hobe Sound Beach, with many smaller public access points along the island. Guarded hours, parking, accessibility and amenities differ by location, and Martin County provides all-terrain beach wheelchairs at several of its guarded beaches at no charge.
 
-## The boat show and the tournaments
+Before visiting, check conditions and the flags, confirm lifeguard hours, watch for rip currents, use sun protection, follow the sea-turtle rules and keep pets only where they are allowed. The "best" beach depends on whether the priority is lifeguards, snorkeling, facilities, space or a particular spot.
 
-The **Stuart Boat Show** is a fixture of the winter calendar and takes over a chunk of the waterfront. Fishing tournaments run through the season.
+## Play Golf
 
-Even with no intention of buying anything, the boat show is worth walking — it's the clearest single expression of what this town is about, and it's where a lot of the social calendar is actually set.
+Stuart and the wider county have public, semi-private and private courses. Access, membership requirements, tee-time availability and pricing vary by course and by season, and it is not reliable to claim that golf across Martin County is consistently cheaper or easier to book than in Palm Beach County.
 
-## How to spend a Saturday
+Before planning a round, verify whether the course accepts public play, current greens and cart fees, seasonal rates, dress requirements, maintenance closures, membership rules and advance-booking requirements. Some private clubs offer limited reciprocal, guest or seasonal access; never assume it.
 
-If you want one day that covers the town properly:
+## Attend the Stuart Boat Show
 
-**Early** — Riverwalk at sunrise, then the farmers market when it opens.
-**Mid-morning** — drive to Hutchinson Island. Bathtub Reef if you want the reef, further up the island if you want the space.
-**Lunch** — dockside seafood at the working waterfront south of town.
-**Afternoon** — House of Refuge, or Halpatiokee if you'd rather be under trees than on sand.
-**Evening** — back downtown. Dinner outside, and the Lyric if something's on.
+The Stuart Boat Show is the fixture of the local marine calendar, and it takes over a chunk of the waterfront each January. The next one is scheduled for January 15 to 17, 2027, with more than 220 exhibitors expected: boats from about 12 to 100 feet, marine electronics, fishing equipment, accessories, lifts, docks and the businesses around them.
 
-That's most of Stuart's argument in a single day, and only the museum and dinner cost anything meaningful.
+You do not need to be shopping for a boat. It is the clearest single expression of what this town is about, a concentrated look at the marine economy and the boating culture, and a good deal of the social calendar gets set there. Confirm admission, parking and transport arrangements directly.
 
-## Doing it in summer
+## Watch or Fish the Tournaments
 
-Everything above except the museums and the waterpark is better before ten in the morning from June to September. Heat and afternoon storms are reliable rather than occasional.
+Fishing tournaments run through the year for sailfish, dolphin, wahoo, kingfish, inshore species, youth anglers and charities. Schedules change annually, and some weigh-ins and associated events are open to spectators.
 
-The compensation is that Bathtub Reef on a quiet summer weekday, with the seasonal crowd gone, is close to the best version of it.
+Participants should review the registration rules, fishing boundaries, weather policies, species regulations, captain requirements and any insurance or waiver provisions. Never assume a tournament date from last year's calendar.
 
-## If you only do two things
+## Spend Time in the Parks
 
-Charter a boat, and walk downtown on a market morning. One tells you why people move here; the other tells you whether you'd like living here. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) covers where to eat afterwards.`,
+Beyond Halpatiokee and the Riverwalk, the city and county run many parks with playgrounds, sports fields, waterfront access, picnic areas, trails, fishing, public docks and programming. Flagler Park, beside downtown, has picnic facilities, a playground, a basketball court and a lighted fishing pier. The best park depends on the activity; check the city or county listings for hours, reservations, construction, pet policies, boat access, athletic schedules and closures.
+
+## A Practical Stuart Saturday
+
+**Morning.** Walk downtown and the Riverwalk. On a Sunday, make it Market on Main.
+
+**Late morning.** Drive to Hutchinson Island and choose among Bathtub Beach, Stuart Beach, Florida Oceanographic, the Elliott Museum and the House of Refuge.
+
+**Afternoon.** In cooler weather, Halpatiokee. In hot or stormy weather, the Elliott, Florida Oceanographic's indoor exhibits, or Sailfish Splash while the weather holds.
+
+**Evening.** Back downtown for dinner, live music or the Lyric.
+
+That is most of Stuart's argument in one day. It requires driving between downtown and the island, so it is not entirely walkable, and only the museums and dinner cost anything meaningful. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) covers where to eat afterwards.
+
+## Doing It in Summer
+
+From June through September, outdoor activities are more comfortable early in the morning or late in the day. Heat, humidity, strong sun, afternoon thunderstorms, lightning, heavy rain, mosquitoes and fast-changing marine conditions are reliable rather than occasional. Plan early, carry water and watch the radar, and leave beaches, waterways, golf courses and open parks when you hear thunder.
+
+Summer thins the seasonal crowd, and quieter does not mean empty. Beaches, the waterpark and the boating areas stay busy on weekends and holidays. The compensation is that Bathtub Reef on a quiet summer weekday is close to the best version of it.
+
+## Doing It in Winter and Spring
+
+Winter and early spring bring cooler weather and more demand at restaurants, downtown events, boat ramps, marinas, beaches, golf courses, markets and festivals. Reserve charters, theater tickets and special activities in advance where you can, and allow longer for parking and traffic, especially around the big events.
+
+## Check Before Leaving Home
+
+So much of Stuart depends on weather, tides, wildlife and public projects that it pays to confirm before you travel: beach status, lifeguard hours, water quality, weather and lightning, tide and marine forecasts, park closures, event calendars, museum hours, ticket availability, waterpark schedules, fishing regulations, and construction and parking notices. A permanent attraction can still have a temporary restriction.
+
+## If You Only Do Two Things
+
+Walk through historic downtown and the Riverwalk on a Sunday morning. That introduces the community center, the waterfront, the market and the local businesses in one visit.
+
+Then pick one thing for your interests: a fishing charter, Florida Oceanographic, the House of Refuge, a morning at the beach, a paddle on the South Fork, or a night at the Lyric. One tells you why people move here; the other tells you whether you would like living here.
+
+Stuart's appeal is not contained in one attraction. It is the combination of a working waterfront, an active downtown, public access to nature and a local history shaped by the river and the ocean.`,
     faqs: [
-      { q: "What is there to do in Stuart, Florida?", a: "Walk the historic downtown and Riverwalk and catch a show at the Lyric Theatre, fish inshore or offshore, snorkel the reef at Bathtub Reef Beach, visit the 1870s House of Refuge and the Florida Oceanographic Coastal Center on Hutchinson Island, hike or bike Halpatiokee Regional Park, and see the Elliott Museum. The Stuart Boat Show anchors the winter calendar." },
-      { q: "Why is Bathtub Reef Beach called that?", a: "A natural worm-rock reef sits just offshore and breaks the Atlantic swell, creating a shallow, calm lagoon right at the shoreline that feels like a bathtub compared with the open surf beyond it. It also makes the snorkelling unusually accessible. Parking is limited and the beach periodically closes for erosion or renourishment work — check before visiting." },
-      { q: "What is the House of Refuge in Stuart?", a: "A lifesaving station built in the 1870s on the rocky Hutchinson Island shore to shelter shipwrecked sailors along what was then an empty coast. It is Martin County's oldest building and the last surviving station of its kind, sitting directly above the limestone shoreline with the Atlantic below." },
-      { q: "Is Stuart good for fishing?", a: "It is known as the Sailfish Capital of the World, and the geography backs it up — the St. Lucie Inlet, the nearby Gulf Stream, the estuary and the Indian River Lagoon put offshore, nearshore and inshore fishing within a short run of each other. Charters operate at every level and there is productive shore and pier fishing for the cost of a license." },
-      { q: "What is Halpatiokee Regional Park?", a: "The largest park in Martin County, running to over 500 acres along the South Fork of the St. Lucie River, with hiking, mountain-biking trails, kayak access and sports fields. The name derives from a Seminole term meaning roughly \"alligator water.\" It is consistently under-visited relative to its quality." },
-      { q: "What is there to do in Stuart with kids?", a: "Sailfish Splash Waterpark has a lazy river, a zero-depth play area and large slides; the Florida Oceanographic Coastal Center offers a stingray touch experience and trails; Bathtub Reef Beach has calm, shallow water for swimming and snorkelling; and Halpatiokee Regional Park has trails and sports fields." },
+      { q: "What is there to do in Stuart, Florida?", a: "Walk the historic downtown and Riverwalk, catch Market on Main and Rock'n Riverwalk on a Sunday, see a show at the Lyric Theatre, fish inshore or offshore, snorkel the reef at Bathtub Beach, visit the 1876 House of Refuge and the Florida Oceanographic Coastal Center on Hutchinson Island, hike, bike or paddle Halpatiokee Regional Park, and see the Elliott Museum. The Stuart Boat Show anchors the January calendar." },
+      { q: "Why is Bathtub Reef Beach called that?", a: "A natural worm-rock reef sits just offshore and, in calm conditions, breaks the Atlantic swell to leave a shallow, calm lagoon at the shoreline. The name is not a guarantee: waves, currents, poor visibility, exposed rock and erosion all occur, and the beach has closed temporarily before. It is guarded daily by Martin County Ocean Rescue, parking is limited, and you should check its status before visiting." },
+      { q: "What is the House of Refuge in Stuart?", a: "A lifesaving station built in 1876 on the rocky Hutchinson Island shore, one of ten put up along Florida's then-empty Atlantic coast so shipwreck survivors would have somewhere to walk to. It is the only one still standing, Martin County's oldest surviving building, later a Coast Guard and Navy post, and now a museum on the National Register of Historic Places." },
+      { q: "Is Stuart good for fishing?", a: "It is known as the Sailfish Capital of the World, and the geography backs it up: the St. Lucie Inlet, the nearby Gulf Stream, the estuary and the Indian River Lagoon put offshore, nearshore and inshore fishing within a short run of each other. Charters operate at every level and there is shore, pier and kayak fishing. Florida generally requires a saltwater license, with a shoreline license available to residents fishing from land; check current FWC rules." },
+      { q: "What is Halpatiokee Regional Park?", a: "Martin County's largest park: about 65 acres of active recreation inside roughly 500 acres of wetland preserve, with about four miles of frontage on the South Fork of the St. Lucie River. It has hiking, mountain-biking and paddling trails, disc golf, tennis, pickleball, sports fields and primitive camping by reservation. The name comes from a Seminole word meaning \"alligator water\", and it is consistently under-visited for its quality." },
+      { q: "What is there to do in Stuart with kids?", a: "Sailfish Splash Waterpark has a 1,000-foot lazy river, two four-story slides and a zero-depth splash playground in season; the Florida Oceanographic Coastal Center has stingray programs, a gamefish lagoon and trails; Bathtub Beach has calm, shallow water in the right conditions; Flagler Park has a playground beside the Sunday market; and Halpatiokee has trails and fields." },
     ],
     internalLinks: ["hidden-gems-in-stuart-florida", "local-guide-to-stuart-florida", "best-places-to-eat-drink-hang-out-in-stuart-florida"],
-    funFact: "The House of Refuge on Hutchinson Island is the last surviving station of its kind in Florida. In the 1870s the state's coast was so empty that the federal government built a chain of these houses purely so shipwrecked sailors would have somewhere to walk to. Martin County's oldest building exists because this shoreline used to be the middle of nowhere.",
+    funFact: "The House of Refuge at Gilbert's Bar was built in 1876 to help survivors of shipwrecks along a stretch of Florida's Atlantic coast that was then almost empty. The keeper kept supplies and patrolled the shoreline because surviving the wreck did not mean a survivor who reached the beach could find food, water or a settlement. Ten Houses of Refuge were built along Florida's coast over the following decade, and the Gilbert's Bar station on Hutchinson Island is the only one still standing. It later served under the U.S. Coast Guard and U.S. Navy before becoming a museum, and it is a reminder that the developed shoreline residents know today was once remote enough that reaching land was only the beginning of the journey to safety.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'who-should-move-to-stuart-florida',
@@ -12886,103 +12950,204 @@ For a commuter or anyone who needs the optionality of a city, the charm won't co
     order: 7,
     seoTitle: "Cost of Living in Stuart, Florida",
     metaTitle: "Cost of Living in Stuart, Florida",
-    metaDescription: "What it really costs to live in Stuart, Florida — the property tax reset that catches new buyers, flood zones and elevation certificates, and the true annual cost of owning a dock and seawall.",
+    metaDescription: "What it really costs to live in Stuart, Florida — the property tax reset that catches new buyers, how hurricane deductibles and flood cover actually work, and the true cost of owning a dock and seawall.",
     primaryKeyword: "cost of living in Stuart Florida",
     secondaryKeywords: ["Stuart home prices", "is Stuart affordable", "Stuart FL cost of living"],
     h1: "Cost of Living in Stuart, Florida",
     heroImage: '/images/stuart/local-boat-on-lift.jpg',
     showMarketTrends: true,
-    body: `Stuart's headline is that it's cheaper than the Palm Beach County coast, and that's true. It's also incomplete, because the two things that most affect your actual monthly number here — the tax reset and the cost of water access — don't show up in a price-per-square-foot comparison.
+    body: `Stuart's headline is that it costs less than the Palm Beach County coast, and that is broadly true. It is also incomplete, because the things that most affect your actual monthly number here do not show up in a price-per-square-foot comparison.
+
+The cost of living in Stuart depends far more on which property you buy than on the town itself. An inland single-family home, a downtown condominium, a house with a private dock and an oceanfront place on Hutchinson Island can have completely different ownership costs even when their purchase prices are similar.
+
+The expenses most likely to reshape the budget are property taxes after the purchase, homeowners and flood insurance, HOA or condominium fees, roof and building age, waterfront maintenance, commuting, utility efficiency and anything to do with a boat.
 
 Prices move constantly. Use the market data on this page for where things stand today, and use the rest of this for the structure underneath it.
 
-## The tax bill you inherit is not the tax bill you'll pay
+## Stuart Is Not One Taxing Jurisdiction
 
-The most common budgeting mistake in Florida, and it catches people in every county.
+Start here, because it catches people before anything else does. A Stuart mailing address does not establish that a property sits inside the incorporated City of Stuart.
 
-**Florida's Homestead Exemption** reduces the taxable value of a primary residence, and the **Save Our Homes** cap then limits how much assessed value can rise annually while you own it. Over a long ownership that cap can hold a seller's assessed value far below market.
+The broader Stuart-area market takes in the City of Stuart, the Town of Sewall's Point, the Town of Ocean Breeze, unincorporated Martin County, the Hutchinson Island jurisdictions and several nearby communities that simply use a Stuart mailing address. Each parcel may carry a different combination of county taxes, school-board taxes, municipal taxes, special-district assessments, non-ad valorem charges and community redevelopment assessments.
 
-**On sale, the cap resets** and the property is reassessed at current market value. The new bill can look nothing like the old one.
+Two homes a quarter-mile apart can therefore sit under different tax structures. Confirm the actual jurisdiction through Martin County property records rather than trusting the address on the listing.
+
+## The Tax Bill You Inherit Is Not the Tax Bill You Will Pay
+
+The most common budgeting mistake in Florida, and it catches buyers in every county.
+
+The seller's current bill may be far below what you will pay, usually because they have owned the home for years, held a homestead exemption, accumulated a Save Our Homes benefit, qualified for additional exemptions or ported a benefit in from a previous Florida homestead.
+
+Florida's **Save Our Homes** limitation generally caps the annual increase in the assessed value of an existing homestead at the lower of 3% or the change in the Consumer Price Index. Note what it applies to: assessed value, not the amount of tax owed. Over a long ownership that opens a wide gap between market value, assessed value and taxable value — and that gap belongs to the qualifying owner's homestead benefit. It does not stay with the property for the next buyer.
+
+After a change of ownership the property is generally reassessed for the next assessment year, unless a statutory exception applies. So do not assume your future assessed value will match the seller's assessed value, the seller's taxable value, the listing price, or even exactly your purchase price. The property appraiser determines just value using recognized valuation methods and available market data; your purchase price is important evidence, not an automatic answer.
 
 What to do about it:
 
-- **Estimate from your purchase price and current millage**, never from the seller's tax bill or a listing's tax figure.
-- **File for Homestead** on a primary residence — the deadline falls early in the year after purchase, and missing it costs a year of benefit.
-- **Ask about portability** if you already own a homesteaded Florida property; a portion of accumulated Save Our Homes benefit may transfer. Limits and deadlines apply.
-- **Check which jurisdiction you're in.** Stuart, Sewall's Point, Ocean Breeze and unincorporated Martin County levy differently. An address a quarter-mile apart can carry a different rate.
+- **Estimate from your own purchase price and current millage**, never from the seller's tax bill or a listing's tax figure. Better still, use the Martin County Property Appraiser's tax estimator, and ask for a property-specific explanation when the projected bill materially affects whether you can afford the house.
+- **File for Homestead** on a primary residence. The standard deadline is **March 1** for the applicable tax year, and missing it costs a year of benefit.
+- **Ask about portability** if you already hold a homesteaded Florida property.
+- **Check which jurisdiction you are in**, per the section above.
 
-Verify all of it with the **Martin County Property Appraiser** and Tax Collector for the specific parcel.
+### Homestead Exemption
 
-## Insurance: three separate questions, not one
+An owner who makes a Florida property their permanent residence may qualify. For 2026 in Martin County that means **$25,000 off assessed value for all taxing authorities, plus an inflation-adjusted additional $26,411** on assessed value above $50,000 — a total of $51,411, though the additional portion does not apply to school taxes. That figure is indexed and moves, so check the current year rather than reusing an older number.
 
-On the coast, "insurance" is really three conversations, and buyers who treat it as one number get surprised.
+Qualifying for homestead also establishes eligibility for the Save Our Homes limitation in future years. It is not automatic, eligibility depends on ownership, residency and title, and filing does not guarantee approval. Apply directly through the Martin County Property Appraiser.
 
-**Wind.** Florida policies typically carry a **hurricane deductible set as a percentage of dwelling coverage** rather than a flat sum, which on a coastal home can be a very large number before anything pays. Two policies with similar premiums can carry entirely different exposure. Compare the deductible structure first.
+### Save Our Homes Portability
 
-**Flood.** Separate from your homeowner's policy, and in a river-and-lagoon town it matters. **Get the flood zone and, where relevant, an elevation certificate for the specific parcel.** Zones vary street by street here — being near water is not the same as being in a high-risk zone, and being away from it is not a guarantee. An elevation certificate can materially change what you pay.
+A buyer who previously owned a Florida homestead may be able to transfer — "port" — some or all of the accumulated Save Our Homes assessment difference to a new Florida homestead, currently up to **$500,000**.
 
-**Age of the structure.** Roof age is the single biggest lever on a coastal wind premium, and much of Martin County's stock was re-roofed after 2004. Older roofs narrow your carrier options sharply. A **wind mitigation inspection** documenting roof attachment, opening protection and roof shape typically pays for itself in credits.
+Two things people get wrong. The exemption itself does not transfer: you apply for homestead on the new residence and request portability separately, using form DR-501T alongside the homestead application. And the clock is tighter than it sounds — you generally have until January 1 three years after January 1 of the year you abandoned the prior homestead to establish the new one, with the application due by March 1 of the first qualifying year.
 
-Get real quotes during your inspection period. Not estimates, and not afterwards.
+The calculation also differs depending on whether you are moving to a property of higher or lower just value. Get an estimate from the Property Appraiser rather than assuming a number.
+
+## Insurance: Three Separate Questions, Not One
+
+On this coast, "insurance" is really three conversations, and buyers who treat it as a single number get surprised.
+
+### Wind and the Hurricane Deductible
+
+Florida homeowners policies may carry a separate hurricane deductible, and unlike an ordinary fixed-dollar deductible it is often calculated as a percentage of the insured dwelling limit. Florida residential insurers are generally required to offer specified hurricane-deductible options, including percentage-based choices, though exceptions and policy-specific rules apply.
+
+The arithmetic is worth doing out loud. A 2% deductible on $600,000 of dwelling coverage is $12,000 out of pocket before the policy responds. That does not mean every policy carries 2%, or that the deductible applies in every wind event — read the percentage, the dwelling-coverage amount, the statutory hurricane definition, when the deductible starts and stops, whether it can apply more than once in a season, and any separate windstorm provisions.
+
+Two policies with near-identical annual premiums can expose you to very different out-of-pocket costs. Compare the deductible structure before you compare the premium.
+
+### Flood Is a Separate Policy
+
+Standard homeowners insurance generally does not cover flood damage. Flood cover comes through the National Flood Insurance Program or the private market, and a lender may require it depending on the property, its flood designation and the loan. Even where no lender requires it, it can still be the right call: flooding here can come from storm surge, river or coastal water, heavy rainfall, drainage failure, rising groundwater or an overflowing canal. **Being outside a high-risk FEMA zone does not mean a property cannot flood.**
+
+Zones vary street by street in a river-and-lagoon town, so being near water is not the same as being in a high-risk zone, and being away from it is not a guarantee.
+
+One correction worth making, because the older advice is still repeated everywhere. Under the NFIP's current Risk Rating 2.0 methodology an elevation certificate is **no longer required** to buy cover and does not set the premium the way it did under the previous rating system — FEMA draws its own elevation data. A certificate is now optional, and it may still lower your rate where FEMA's model understates your elevation. The NFIP does not retroactively raise a rate if the certificate turns out to be less favorable, so the only real risk is the cost of obtaining one. Provide it to your insurance professional and let the insurer determine whether it changes the quote.
+
+Beyond the flood-zone letter, look at the current FEMA zone, base flood elevation, building and finished-floor elevation, any elevation certificate, prior flooding, drainage, storm-surge and evacuation information, policy limits, building and contents cover, deductibles, waiting periods and what the lender requires.
+
+### The Building Itself
+
+Roof condition and age genuinely affect insurance availability, premiums, required repairs, negotiations and financing deadlines. What is too absolute is the common claim that roof age is the single largest pricing factor on every policy. Insurers rate the whole property and may weigh construction type, location, replacement cost, mitigation features, claims history and other building systems heavily.
+
+Verify the roof through permit records, inspection, seller documentation, insurance underwriting and any roofing records. And do not assume that every home standing during the 2004 hurricanes received a complete new roof afterwards — that is a generalization about Martin County housing stock, not a fact about the house you are buying.
+
+Florida requires residential insurers to describe the hurricane-mitigation discounts available to policyholders. Qualifying features can include roof-to-wall attachment, roof-deck attachment, roof geometry, secondary water resistance, impact-rated openings, approved shutters and building-code era. A wind-mitigation inspection documents what a property has, but it does not guarantee a particular discount or premium — have the report reviewed by the agent actually providing your quote.
+
+Get real written quotes during the inspection or due-diligence period. Not estimates, and not afterwards. The seller's present premium establishes nothing about yours: you may not even qualify for their carrier.
 
 ![Timber dock and pilings along a residential waterway](/images/stuart/local-dock-pilings.jpg "Dock, pilings and seawall are infrastructure with maintenance cycles — and none of it shows up in a price per square foot.")
 
-## What water access actually costs to own
+## What Water Access Actually Costs to Own
 
-This is the Stuart-specific part, and it's the difference between two identically-priced homes.
+This is the Stuart-specific part, and it is the difference between two identically priced homes.
 
-If you buy waterfront with a dock, you have acquired infrastructure:
+A home with a private dock is not a house with a recreational feature attached. It is a house with privately owned marine infrastructure that needs inspection, maintenance and eventual replacement. Depending on the property that can include:
 
-- **Seawall.** The big one. Seawalls have finite lives, repair is expensive and replacement more so, and the condition of one at purchase is a material fact. Have it inspected as seriously as you would a roof — panel condition, tie-backs, cap, and any voids behind it.
-- **Dock and pilings.** Wood in warm salt water is a maintenance schedule, not a fixture. Pilings, decking and hardware all have replacement cycles.
-- **Boat lift.** Motors, cables, bunks and annual servicing, plus eventual replacement.
-- **Dredging or shoaling.** Some canals and basins silt up. Ask who is responsible and what it has cost.
-- **Marine insurance and vessel costs**, which are separate from everything above.
+- **Seawall.** The big one, and the one most often taken on faith.
+- **Dock and pilings.** Wood in warm salt water is a maintenance schedule, not a fixture.
+- **Boat lift**, with motors, cables, bunks, controls and servicing.
+- **Marine electrical and water service**, shoreline stabilization, riprap, davits and mooring equipment.
+- **Depth and shoaling**, where they apply.
 
-None of this appears in a price-per-square-foot comparison and all of it is real. Which is why a lot of experienced local buyers purchase inland and rent a marina slip — an annual slip fee is frequently less than the carrying cost of ownership, let alone the purchase premium. Our [neighborhood guide](/blog/best-neighborhoods-in-stuart-florida) works through that decision.
+None of it appears in a price per square foot, and two similarly priced homes can carry very different future capital needs.
 
-## Association costs
+### Seawalls
 
-**HOA dues** vary widely and many Stuart neighborhoods have none at all — a genuine difference from the master-planned parts of Palm Beach County.
+A seawall is structural infrastructure with a finite service life. It may need repair or replacement because of cracking, corrosion, failing panels, cap deterioration, tie-back problems, soil loss, voids behind the wall, erosion, poor drainage or storm damage — and none of that can be judged from appearance alone.
 
-**Condominium associations**, particularly on Hutchinson Island, are the ones to scrutinise. Reserve funding, structural reporting, insurance history and recent special assessments matter far more than the finishes. Ask for several years of history, not just the current budget.
+A standard home inspection may not include a detailed marine-structure evaluation. Where it matters, have a qualified marine contractor or engineer look at the panels, cap, tie-backs or anchors, pilings, drainage, soil loss, signs of movement, the adjacent seawalls and whether there is access for future construction.
 
-## Everyday costs
+Then establish who is legally responsible for the wall. Depending on the property that may be the owner, an association, a neighboring owner, a municipality or another entity — and the answer changes the number materially.
 
-**Utilities** peak with summer cooling; older housing stock is often less efficient, so a 1970s block home and a new build with modern glazing are not comparable on running cost.
+### Docks, Pilings and Lifts
 
-**Fuel and vehicles.** This is a car town and the nearest metro is an hour away. If anyone commutes south, calculate fuel, tolls and wear as a real line item rather than an afterthought.
+Docks live in saltwater, sun, storms, wake and marine organisms. Inspection should cover decking, stringers, pilings, hardware, electrical service, plumbing, lighting, railings, permits and code compliance.
 
-**Groceries and retail** track regional norms; the range is narrower than a metro and some people drive south periodically for specific shopping.
+The existence of a dock does not establish that it was properly permitted, or that it could be rebuilt in its current configuration. If your plans depend on replacing or extending it, check the records and take professional advice before closing rather than after.
 
-**Dining** swings seasonally — noticeably busier and pricier in winter, quiet and easy in summer, as our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) describes.
+A boat lift has to match the boat. Verify rated capacity against actual vessel weight and beam, plus bunk configuration, motors, cables, controls, electrical system, pilings, service history and permit status. A lift that handled the seller's boat may not safely handle yours, and both routine service and eventual component replacement belong in the budget.
 
-**Boating**, if it applies, is its own budget: fuel, storage, maintenance, bottom paint, insurance and the tendency of every marine job to cost more than quoted.
+### Depth, Shoaling and Dredging
 
-## No state income tax
+Some canals, basins and private waterfront areas accumulate sediment and change depth. Before buying, establish depth at the dock and at low tide, navigational depth along your actual route, whether dredging has been done before, who is responsible for it, whether permits would be needed, and whether neighbors or an association share the cost.
 
-Florida levies no state income tax, which is a meaningful part of the relocation maths for people arriving from higher-tax states. It does not offset a tax estimate you got wrong or a hurricane deductible you didn't read.
+Do not assume an individual owner has either the right or the practical ability to dredge a waterway.
 
-## The bottom line
+### Private Dock Versus Marina Slip
 
-Stuart can be a genuinely affordable place to live or an expensive one, and the fork is water access rather than postcode.
+Buying inland and keeping the boat at a marina is a real alternative, and it does move some risk off your balance sheet — seawall replacement, dock reconstruction, lift repair, certain dredging problems and shoreline maintenance stop being yours.
 
-Whichever side you land on, build the monthly number from a **reset tax estimate, real wind and flood quotes, and an honest schedule for seawall, dock and lift** — not from the seller's costs and not from the list price.
+But it is not reliably cheaper, which is the claim most often made about it. A marina arrangement brings slip rent, electricity, water, storage, haul-out charges, hurricane plans, insurance requirements, access restrictions, waiting lists, annual increases and minimum lease terms.
+
+Run the actual numbers against each other: the waterfront purchase-price premium, the insurance difference, flood exposure, realistic dock, seawall and lift reserves, current marina charges, whether a slip is even available, travel time and convenience, and how long you expect to own. The better financial answer depends on the household, the boat and the property — our [neighborhood guide](/blog/best-neighborhoods-in-stuart-florida) works through where each option tends to make sense.
+
+## Association and Condominium Costs
+
+Association fees vary substantially. Some Stuart-area single-family neighborhoods have no mandatory HOA at all, which is a genuine difference from the master-planned parts of Palm Beach County; others have voluntary associations, mandatory associations or deed restrictions.
+
+Where an association exists, review the current assessment, what it includes, reserve balances, recent increases, special assessments, insurance, planned capital projects, rules and enforcement, rental restrictions and any boat or RV rules.
+
+Worth saying plainly: **"no HOA" does not mean "no restrictions."** County or city ordinances, zoning, permitting and recorded private restrictions may all still apply.
+
+For a condominium, the monthly fee is the least interesting number. It may cover building insurance, exterior maintenance, landscaping, water, sewer, cable or internet, amenities, management, security and reserves. A higher fee is not automatically bad if it funds adequate insurance, maintenance and reserves; a low fee is not a bargain if major expenses have been deferred.
+
+### Structural Inspections and Reserve Studies
+
+Florida law requires qualifying condominium and cooperative buildings to complete milestone inspections and Structural Integrity Reserve Studies in defined circumstances. A Structural Integrity Reserve Study identifies required structural reserve components, estimates remaining useful life and calculates recommended funding, and for covered buildings it must generally be repeated at least every ten years.
+
+Before buying a condominium — and this matters most on Hutchinson Island — review the milestone-inspection reports, the Structural Integrity Reserve Study, engineering reports, reserve balances, the funding plan, the current budget, insurance, recent meeting minutes, special assessments, pending repairs, litigation and planned capital projects.
+
+One thing buyers miss: a completed report does not mean the work it identifies has been done, or funded.
+
+## Everyday Costs
+
+**Utilities.** Electricity use climbs through the hot, humid months for cooling and moisture control, but the actual cost depends on square footage, insulation, windows, roof, air-conditioning efficiency, thermostat habits, pool equipment, occupancy, solar exposure and rates. Older homes are not automatically inefficient and new ones are not automatically cheap to run. Ask for recent utility records where available, remembering that another household's habits are not yours. Also confirm whether the property is on public water and sewer, well water, septic, an irrigation well, propane or association-provided utilities — septic maintenance, well equipment and future connection projects all cost money.
+
+**Transportation.** Much of the area is car-dependent, so count fuel, tolls, maintenance, insurance, parking, commute time, airport trips and any additional household vehicle. Anyone commuting regularly to Palm Beach County should drive the real route at real work-hour traffic and cost the month out properly. Palm Beach International is the nearest major commercial airport for most residents, though travel time varies by address. There is no operating Brightline station in Stuart, and a proposed future one should not be counted as a transportation benefit you are buying today.
+
+**Groceries, shopping and dining.** These track household habits more than they track Stuart. The area has supermarkets, local businesses, shopping centers and restaurants, with a smaller selection than a large metropolitan county, and some households drive south periodically for specialty shopping, particular restaurants, entertainment or professional services. Dining activity does rise through winter and spring — but menu prices should not be described as universally higher in season without business-specific evidence. What changes more noticeably is availability, reservations and wait times, as our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) describes.
+
+**Boating**, where it applies, is its own budget entirely: purchase or financing, registration, insurance, fuel, routine service, engines, electronics, bottom maintenance, storage, dockage, haul-outs, cleaning, safety equipment, storm preparation and repairs. A private dock removes monthly slip rent. It removes none of the rest.
+
+## Florida Has No Individual State Income Tax
+
+Florida levies no individual state income tax, which is a meaningful part of the relocation arithmetic for people arriving from a state that does.
+
+It is not, by itself, an affordability argument. The honest comparison also has to carry property taxes, insurance, sales taxes, HOA or condominium fees, transportation, housing costs, healthcare and estate and financial planning. Tax consequences vary by household, and this is a question for your own qualified tax adviser rather than for a real estate guide.
+
+## Build a Complete Ownership Budget
+
+For a single-family home: principal and interest, property taxes after reassessment, homeowners insurance, flood insurance, HOA fees, utilities, roof and building maintenance, landscaping, pool maintenance, transportation and an emergency reserve.
+
+For a condominium, add the association assessment, potential special assessments, interior insurance, deductibles, building projects and the possibility of reserve-funding changes.
+
+For waterfront, add a seawall reserve, a dock reserve, lift maintenance, marine electrical work, flood exposure, boat expenses and any dredging or depth issues.
+
+## The Bottom Line
+
+Stuart's cost of living does not reduce to a price comparison against Palm Beach County. The individual property matters more than the town.
+
+An inland home with no association may have a genuinely straightforward ownership budget. A similarly priced waterfront home can add flood cover, a percentage-based hurricane deductible, seawall reserves, dock maintenance and boat-lift expenses. A condominium may cut your personal exterior maintenance while adding association fees, structural-reserve obligations and the possibility of assessments.
+
+Build the number from an updated property-tax estimate, actual written insurance quotes, the association documents, professional inspections, realistic maintenance reserves and the full cost of commuting or boating — not from the seller's taxes, the seller's premium or the listing price.
+
+A property can be affordable at closing and expensive to keep. The question is never only what it costs to buy. It is what it will cost you to own.
 
 *Figures and rules change. Verify tax, exemption and assessment details with the Martin County Property Appraiser and Tax Collector, insurance with a licensed agent, flood zone and elevation with the relevant authority, and association obligations with the governing documents.*`,
     faqs: [
-      { q: "Is Stuart, Florida expensive to live in?", a: "Comparable homes generally price below the Palm Beach County coast, sometimes substantially. The variable that matters most is water access: waterfront property with a dock carries a purchase premium plus ongoing seawall, dock, lift and flood costs that do not appear in a price-per-square-foot comparison." },
-      { q: "Why do property taxes go up after buying a home in Florida?", a: "Because the Save Our Homes assessment cap resets on sale. A long-time owner's assessed value may sit far below market after years of capped increases, and the property is reassessed at current market value when it transfers. Estimate from your purchase price and current millage rather than the seller's bill, and check which jurisdiction the address is in — Stuart, Sewall's Point, Ocean Breeze and unincorporated Martin County levy differently." },
-      { q: "Do I need flood insurance in Stuart, Florida?", a: "It depends on the specific parcel. Flood zones vary street by street in a river-and-lagoon town, so proximity to water does not automatically mean a high-risk zone and distance from it is not a guarantee. Obtain the flood zone determination and, where relevant, an elevation certificate for the address — an elevation certificate can materially change the premium. Flood coverage is separate from a homeowner policy." },
-      { q: "What does it cost to own a dock and seawall in Stuart?", a: "More than most buyers expect. Seawalls have finite lives and expensive repair or replacement, and their condition at purchase is a material fact worth inspecting as seriously as a roof. Docks and pilings in warm salt water are a maintenance schedule rather than a fixture, boat lifts need servicing and eventual replacement, and some canals and basins require dredging. Many experienced local buyers purchase inland and rent a marina slip instead." },
-      { q: "What is a hurricane deductible in Florida?", a: "Florida policies typically apply a separate hurricane deductible calculated as a percentage of the dwelling coverage rather than a flat dollar amount, which on a coastal home can represent a large out-of-pocket figure before coverage responds. Compare deductible structure across quotes, not just premium." },
-      { q: "Do homes in Stuart have HOA fees?", a: "Many Stuart neighborhoods have no HOA at all, which differs from the master-planned parts of Palm Beach County. Where associations do exist, dues vary widely. Condominium associations, particularly on Hutchinson Island, deserve the closest scrutiny — review several years of reserve funding, structural reporting, insurance history and special assessments rather than only the current budget." },
+      { q: "Is Stuart, Florida expensive to live in?", a: "Comparable homes generally price below the Palm Beach County coast, sometimes substantially. The variable that matters most is not the town but the property: waterfront with a dock carries a purchase premium plus ongoing seawall, dock, lift and flood costs that never appear in a price-per-square-foot comparison, while an inland home with no association can have a much simpler budget at a similar price." },
+      { q: "Why do property taxes go up after buying a home in Florida?", a: "Because the Save Our Homes assessment limitation resets on sale. It caps annual increases in an existing homestead's assessed value at the lower of 3% or the change in CPI, so a long-time owner's assessed value can sit far below market — and that accumulated benefit belongs to them, not to the property. After a change of ownership the property is generally reassessed for the next assessment year. Estimate from your own purchase price and current millage, use the Martin County Property Appraiser's estimator, and check which jurisdiction the address is in, because Stuart, Sewall's Point, Ocean Breeze and unincorporated Martin County levy differently." },
+      { q: "Do I need flood insurance in Stuart, Florida?", a: "It depends on the parcel, and flood cover is always separate from a homeowner policy. Flood zones vary street by street in a river-and-lagoon town, so proximity to water does not automatically mean a high-risk zone and distance from it is no guarantee — being outside a high-risk FEMA zone does not mean a property cannot flood. Obtain the flood zone determination for the specific address. Note that under the NFIP's current Risk Rating 2.0 methodology an elevation certificate is no longer required and no longer sets the premium as it once did, though providing one may still lower the rate where FEMA's own elevation data understates the building." },
+      { q: "How much is the homestead exemption in Martin County?", a: "For 2026 a qualifying Florida homestead receives $25,000 off assessed value for all taxing authorities, plus an inflation-adjusted additional exemption — $26,411 in Martin County for 2026 — on assessed value above $50,000, for a total of $51,411. The additional portion does not apply to school taxes. The indexed figure changes annually, the standard filing deadline is March 1, and approval is not automatic, so apply directly through the Martin County Property Appraiser." },
+      { q: "What does it cost to own a dock and seawall in Stuart?", a: "More than most buyers expect, and it cannot be judged from appearance. A seawall is structural infrastructure with a finite service life that may fail through cracking, corrosion, failing panels, cap deterioration, tie-back problems, soil loss or voids behind the wall, and a standard home inspection may not evaluate marine structures at all. Docks and pilings in warm salt water are a maintenance schedule rather than a fixture, boat lifts need servicing and eventual replacement, and some canals require dredging. Establish who is legally responsible for the seawall — owner, association, neighbor or another entity — before you close." },
+      { q: "Is renting a marina slip cheaper than buying waterfront in Stuart?", a: "Not reliably, despite how often it is said. A marina does move seawall replacement, dock reconstruction, lift repair and some dredging risk off your balance sheet, but it adds slip rent, electricity, water, storage, haul-out charges, hurricane plans, insurance requirements, access restrictions, waiting lists, annual increases and minimum terms. Compare the actual figures — the waterfront price premium, the insurance difference, realistic dock and seawall reserves, current marina charges, slip availability and how long you plan to own." },
+      { q: "Do homes in Stuart have HOA fees?", a: "Many Stuart-area neighborhoods have no mandatory HOA, which differs from the master-planned parts of Palm Beach County; others have voluntary or mandatory associations or deed restrictions. Where one exists, review the assessment, reserves, recent increases, special assessments, insurance and rental rules. Note that no HOA does not mean no restrictions — county and city ordinances, zoning, permitting and recorded private restrictions can all still apply. Condominium associations, particularly on Hutchinson Island, deserve the closest review, including milestone inspections and the Structural Integrity Reserve Study." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-stuart-florida", "best-neighborhoods-in-stuart-florida", "stuart-vs-nearby-cities"],
-    funFact: "The most underestimated line item in a Stuart waterfront purchase is the seawall. They have finite lives, replacement runs into serious money, and condition at closing is a material fact — yet buyers who would never skip a roof inspection routinely take a seawall on faith. Have it looked at properly: panels, cap, tie-backs, and any voids behind it.",
+    funFact: "The easiest expense to underestimate in a Stuart waterfront purchase is the seawall. It is structural infrastructure with a finite service life, and its condition affects future repair costs, shoreline stability and your ability to keep a dock or other waterfront improvements at all. A standard home inspection may not include a detailed marine-structure evaluation, so where it matters have a qualified marine contractor or engineer assess the panels, cap, tie-backs, pilings, cracking or movement, soil loss, voids behind the wall, drainage and access for future repair. Then confirm who is legally responsible for the wall, which may be the owner, an association, a neighboring owner or another entity. Buyers routinely investigate a roof because they understand replacement is expensive. A seawall deserves the same attention.",
     author: 'john',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'hidden-gems-in-stuart-florida',
