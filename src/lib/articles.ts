@@ -13180,124 +13180,192 @@ Our [pros and cons guide](/blog/pros-and-cons-of-living-in-stuart-florida) goes 
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
     seoTitle: "Best Places to Eat, Drink & Hang Out in Stuart, Florida",
-    metaTitle: "Where to Eat, Drink & Hang Out in Stuart, FL",
-    metaDescription: "Where to eat, drink and hang out in Stuart, Florida — the downtown dining grid, the waterfront and marina restaurants, dockside seafood at the fishing ports, and how the season changes everything.",
+    metaTitle: "Best Places to Eat, Drink & Hang Out in Stuart, Florida",
+    metaDescription: "Where to eat, drink and hang out in Stuart, Florida — the walkable downtown grid, dock-and-dine waterfront restaurants, Port Salerno's working harbour and the Sunday market.",
     primaryKeyword: "best restaurants in Stuart Florida",
-    secondaryKeywords: ["where to eat in Stuart FL", "downtown Stuart restaurants", "Stuart waterfront dining"],
+    secondaryKeywords: ["where to eat in Stuart Florida", "downtown Stuart restaurants", "Stuart waterfront dining", "Port Salerno seafood"],
     h1: "Best Places to Eat, Drink & Hang Out in Stuart, Florida",
     heroImage: '/images/stuart/local-waterfront-docks.jpg',
-    body: `Stuart punches well above its size on food, for a reason that has nothing to do with chefs: the town is small, walkable and on the water, so restaurants cluster in places you can actually reach on foot and most of them have a view.
+    body: `Stuart offers several distinct dining and social areas inside a fairly small part of Martin County. Historic downtown is the most concentrated and walkable restaurant district. Other waterfront restaurants are scattered along the St. Lucie River, at the marinas, and across nearby communities like Port Salerno and Hutchinson Island.
 
-Here's how the scene is laid out.
+What you want decides where you go: a walkable dinner downtown, a table on the water, casual seafood beside a working harbour, coffee and breakfast, live music, a beach-day lunch, a Sunday market, or somewhere you can tie up a boat.
 
-## Downtown: the walkable grid
+Restaurants open, close and change hours constantly. Verify before making a special trip — and check the business's own page rather than a third-party listing, which is where stale hours live.
 
-The historic downtown core is the heart of it — a compact set of streets where independent restaurants, bars and cafés sit within a few minutes' walk of each other, wrapped by the Riverwalk along the St. Lucie.
+## Historic Downtown Stuart
 
-The range is genuinely decent for a town this size: seafood as you'd expect, but also Italian, Latin American, sushi, gastropub food, a European-leaning bistro or two, and coffee that isn't an afterthought.
+The place to start when the goal is to park once and visit several businesses on foot. The City describes its historic downtown as holding more than 50 locally owned shops, restaurants and galleries near the St. Lucie River, with Riverwalk, Flagler Park, the Lyric Theatre and the public waterfront all within the same few streets.
 
-The practical advice is to **park once and walk.** Circling for a closer space is the newcomer move, and the whole point of this district is that you don't have to drive between places.
+The mix runs well beyond fish: seafood and steaks, Italian, Latin American, sushi, American, sandwiches and casual lunches, wine and cocktails, coffee and breakfast, desserts.
 
-Evenings here are the best version of Stuart. Dinner outside, live music somewhere within earshot, the theater letting out, and the river doing its thing behind it all.
+Not every downtown restaurant is on the water, but the district is compact enough to combine dinner with a Riverwalk stroll, a theatre performance or live music.
 
-## The waterfront tier
+**Park once and walk.** Circling for a closer space is the newcomer move, and the whole point of the district is that you don't need to drive between places. A typical evening runs drinks or an appetiser, dinner, a walk along Riverwalk, a performance at the Lyric, then dessert or music. Parking gets tighter during festivals, concerts and the winter season.
 
-Stuart has an unusual density of restaurants actually on the water rather than merely near it — along the downtown riverfront, at the marinas, and out toward the bridges.
+### The Gafford
 
-This is where you take visitors. Expect a view of the St. Lucie, boats coming and going, sunset timing that people actually plan around, and prices that reflect all of it.
+Contemporary American, seafood and hand-cut steaks, and the usual downtown choice for a dinner with some occasion to it. Not on the waterfront, but inside the walkable district and close to Riverwalk.
 
-A few things worth knowing:
+### Riverwalk Cafe and Oyster Bar
 
-- **Sunset seating gets booked.** In season, decide earlier than you think you need to.
-- **Many are accessible by boat.** Dockage at a restaurant is a normal thing here, and arriving by water is a genuine local pleasure. Check depth and dock availability first.
-- **The view is the product.** Some of these places are very good; some are fine restaurants with an outstanding outlook. Both are worth going to, but calibrate.
+**201 SW St Lucie Avenue**, in one of the oldest downtown buildings — seafood, steaks, oysters and a deep wine list with a large by-the-glass selection. A smaller dining room, and a good pre- or post-theatre dinner.
 
-## Dockside seafood at the fishing ports
+Despite the name, it is not the public Riverwalk boardwalk.
 
-The other tradition, and the more distinctive one.
+### Stuart Boathouse
 
-South of town toward Port Salerno and the working waterfront, there's a cluster of casual, unfussy seafood places attached to the commercial fishing infrastructure — the kind where the building is unremarkable, the seating is outdoors and the fish came off a boat you can see.
+**49 SW Seminole Street**, a restored 1920s building directly on the river beside the band shell — seafood, oysters and sushi. It combines naturally with Riverwalk, Flagler Park and downtown shopping.
 
-This is the food experience most worth seeking out here, and it's the one visitors miss because it doesn't look like anything from the road. Our [Port Salerno guide](/blog/manatee-pocket-guide) covers that side of the water.
+It appears on Martin County's dock-and-dine list, but confirm current dock availability, depth and rules before arriving by water, and don't assume waterfront seating without a wait or a reservation.
 
-## Buy the fish yourself
+### Hudson's on the River
 
-The corollary to the dockside restaurants, and something a lot of residents take a year to discover.
+On Flagler Avenue beside the St. Lucie — riverfront dining with separate weekday and weekend hours, and outdoor seating when the weather allows. Lunch, dinner or drinks.
 
-There are **retail fish markets attached to the working waterfront** here, selling what the local boats landed. Prices are reasonable, the selection changes with the season and the weather, and the people behind the counter will tell you what's good today and how to cook it if you ask.
+### Breakfast and Coffee
 
-For anyone moving here from a landlocked market, this is one of the genuine quality-of-life upgrades of the town, and it costs less than eating out.
+Downtown has a proper morning scene. **Blue Door Coffee Bar** and **The Roasted Record** — a coffee shop, roastery and record store in one — sit alongside longer-standing breakfast places including Maria's Cafe and The Googan.
 
-## Eating on the island
+Check hours carefully: coffee and breakfast businesses often close well before the dinner restaurants.
 
-Hutchinson Island runs on a different rhythm — a smaller set of casual places, beach bars and resort dining, busier in season and noticeably quieter out of it.
+## Market on Main and Rock'n Riverwalk
 
-The move is to pair it with a beach day rather than driving over specifically. Sand in the morning, lunch on the island, back across the causeway before the afternoon storms.
+Sunday is the best single day to understand downtown.
 
-## Coffee, mornings and the market
+**Market on Main** runs every Sunday, year-round and rain or shine, at Flagler Park (221 SW Flagler Avenue) — food, produce, crafts, specialty products, musicians and community organisations. Hours are seasonal: **April through September, 9 a.m. to 1 p.m.; October through March, 9 a.m. to 2 p.m.** Holiday closures happen.
 
-Downtown does mornings well. Independent coffee shops, breakfast places that fill early, and a farmers market that functions as a weekly social event rather than a shopping trip.
+**Rock'n Riverwalk** follows it — a free open-air concert series at the Riverwalk Stage, Sundays from 1 p.m., subject to the published lineup and the weather.
 
-The market is genuinely the fastest way for a newcomer to feel like a local — go three times and people start recognising you.
+The two run back to back, so a Sunday can be market, lunch downtown, then music by the river without moving the car. Outdoor events do get delayed or cancelled for storms and heat.
 
-## Drinking
+## Live Music and Taverns
 
-Stuart is not a nightlife town and won't pretend to be. What it has:
+**Terra Fermata** at 26 SE 6th Street is an outdoor music venue in the Creek District, with performances most nights of the week. Individual events, ticket prices and age restrictions vary, and some shows are 21-plus — read the listing rather than assuming every night is the same.
 
-- **Waterfront bars** where the appeal is the setting and the sunset.
-- **Downtown pubs and cocktail spots** within walking distance of each other, busy on weekend evenings.
-- **Live music**, which is a real fixture — several downtown venues program it regularly, and the Lyric Theatre covers the ticketed end.
+**Carson's Tavern** at 2883 SE Ocean Boulevard is a neighbourhood tavern rather than a downtown restaurant: food, drinks, televisions and recurring live music. A different evening entirely from the waterfront places, and better for a casual dinner, sport or a drink.
 
-Kitchens close earlier than in a city. Most of downtown is winding down by eleven on a weeknight, and locals adjust rather than complain.
+The **Lyric Theatre** is not a restaurant, but it shapes downtown evenings — concerts, theatre, comedy, film and community events, all within walking distance of dinner. On nights with a popular Lyric show, book a table.
 
-## The seasonal swing
+## Waterfront Dining Beyond the Downtown Grid
 
-This shapes eating out here more than anything else.
+Not every waterfront restaurant is downtown or walkable from the others. Some sit at marinas, resorts, on the river, around Manatee Pocket or out on Hutchinson Island. Martin County publishes a dock-and-dine guide covering the ones reachable by water.
 
-**In season**, roughly Thanksgiving through Easter, the seasonal population arrives and downtown is genuinely busy. Reservations matter, waterfront tables at sunset need planning, and the boat show and tournaments create spikes where the whole town is out at once.
+**Sailor's Return**, 625 SW Anchorage Way at Sunset Bay Marina — seafood, steaks, marina activity, outdoor seating and entertainment on selected dates. It has roughly **930 feet of courtesy dockage** in front of it, which is unusually generous; confirm availability with the marina regardless.
 
-**Off season**, roughly May through October, you can walk into almost anywhere. Some places reduce hours or close for a stretch — a normal part of the calendar rather than a sign of trouble. Call ahead in August rather than driving over.
+**TideHouse**, 915 NW Flagler Avenue — upstairs above the Harborage Marina with a panoramic view down the St. Lucie. A more casual riverside option.
 
-Residents run two mental lists: the in-season places worth queueing for and the off-season places that are quietly better when empty.
+### Arriving by Boat
 
-## Where people actually hang out
+Dining by boat is part of life here, but dock access takes planning. Before you go, confirm whether dockage is public or reserved, the water depth, boat-length limits, the tide, no-wake zones, overnight and length-of-stay limits, whether reservations are taken, and whether a separate marina controls the docks.
 
-Beyond restaurants, Stuart's social life runs through:
+**Do not assume a waterfront restaurant owns the docks beside it.** A listing in a dock-and-dine directory does not guarantee space for your vessel, and wind, storms and seasonal traffic all affect it.
 
-- **The Riverwalk and downtown**, which function as the town's shared space.
-- **The Lyric Theatre**, for evenings that aren't dinner.
-- **The water** — sandbar weekends, boat ramps, marinas and fishing, covered in our [hidden gems guide](/blog/hidden-gems-in-stuart-florida).
-- **The market and the festivals**, which is where the town assembles.
-- **Boat shows and tournaments**, which anchor the winter calendar.
+## Port Salerno and Manatee Pocket
 
-## A note on timing
+Some of the area's most distinctive casual waterfront dining is south of the city, in Port Salerno — an unincorporated community built around the working waterfront of Manatee Pocket. It is not part of downtown Stuart and needs a drive or a boat.
 
-Two habits separate residents from visitors here.
+**Shrimpers Grill and Raw Bar** has operated on the Pocket **since 1992** — open-air, casual seafood, marina views, next door to the Twisted Tuna at Manatee Marina. **The Twisted Tuna** is the larger venue, two floors of indoor dining with panoramic water views, live entertainment and boat access; it gets busy during events, so check reservations and parking. **The Pearl** is a more contemporary waterfront bar and restaurant with live music and separate weekday and weekend hours. **Pirate's Cove Resort and Marina** adds waterfront dining, marina activity and a recurring music and fishing-event calendar.
 
-**Eat early or eat late in season.** The seasonal crowd concentrates between about six and eight. Either side of that, downtown is comfortable.
+The **Fish House District and Marina** is a newer waterfront destination combining dining, boating and lodging. Tenants are still changing as it develops, so check what is actually open before going.
 
-**Check before you drive over in summer.** Reduced hours and short seasonal closures are normal from roughly August into September, and a five-minute phone call saves a wasted trip across a bridge.
+Our [Manatee Pocket guide](/blog/manatee-pocket-guide) covers the waterway itself in detail.
 
-## The honest summary
+### Buying Fresh Seafood
 
-For a town of this size, Stuart's food scene is a genuine asset — walkable, water-facing, independent, and better than the population would predict.
+Port Salerno also has retail seafood markets, **Basin Seafood and Fresh Fish Market** near Salerno Road and A1A and **Tausha's Seafood Market** on Dixie Highway among them.
 
-What it isn't is a metropolitan scene. The range is finite, late-night is limited, and if you want a particular cuisine on a particular Tuesday you may be driving south. Residents accept that trade, largely because being able to walk from dinner to the river in ninety seconds is worth more day to day than optionality they'd use twice a year.
+Port Salerno's fishing fleet still supplies local markets and restaurants, but **do not assume every fish on every menu was landed locally that morning.** Ask what is local, what is fresh versus previously frozen, where it was caught and when it arrived. Locally landed seafood is also not automatically cheaper than the supermarket.
 
-Restaurants change. Check current hours and seasonal closures before making the trip.`,
+## Hutchinson Island
+
+A different environment again — restaurants inside resorts, near the beaches, at marinas, along the Indian River Lagoon or overlooking the Atlantic. It is not a continuous walkable district; you cross a bridge and drive between places.
+
+**Drift Kitchen and Bar** at Hutchinson Shores Resort is oceanfront, serving seafood and Italian-influenced dishes — suited to brunch, dinner or a meal built around a beach day. The Marriott Hutchinson Island Resort has run several dining and bar concepts near its marina, golf and beach areas, including the Sandpiper Tiki Bar.
+
+Resort restaurants change names, menus and schedules often. Confirm whether a venue is open to the public or guests-only, reachable by boat, taking reservations, or operating seasonally.
+
+An island trip pairs well with Stuart Beach, the Florida Oceanographic Coastal Center, the Elliott Museum, the House of Refuge or Bathtub Beach when it is open. In summer, go early and watch the afternoon storms.
+
+## Drinks, Nightlife and Closing Times
+
+There are cocktail bars, neighbourhood taverns, waterfront bars, outdoor music venues, resort bars, pubs, restaurant lounges and ticketed concerts — but Stuart should not be sold as a nightlife destination.
+
+Pick by what you actually want: conversation, sunset, live music, sport, dancing, waterfront atmosphere or a late dinner.
+
+**Expect earlier hours than a big city.** Some kitchens and bars close sooner than they would in a metro area, though there is no universal hour when downtown shuts. It varies by day, restaurant, season, event, licence and demand — and **check the kitchen's closing time separately from the bar's**, since a restaurant often stays open after food service ends.
+
+## The Seasonal Pattern
+
+Stuart and Martin County get busier through parts of winter and spring, as seasonal residents, good weather and events lift demand at downtown restaurants, waterfront seating, markets, marinas, boat ramps, the theatre and music venues.
+
+The busy season doesn't start or end on a fixed date. Thanksgiving and Easter are useful reference points, but crowds track holidays, weather and individual events.
+
+**In the busier months**, make reservations, arrive before peak dinner time, allow extra parking time, check whether an event is on, and reserve marina dockage where you can. A sunset table is not guaranteed just because a restaurant takes bookings — many won't promise a specific seating area.
+
+**In summer and early autumn**, reservations get easier at some places and traffic thins, but expect modified hours, vacation and maintenance closures, afternoon storms and hurricane-related changes. It is not true that you can walk into any restaurant without waiting: popular businesses stay busy at weekends, on holidays and on event nights. Call before driving across a bridge.
+
+## Festivals, Boat Shows and Fishing Events
+
+Demand spikes around the Stuart Boat Show, fishing tournaments, downtown festivals, holiday events, art shows, theatre performances, Rock'n Riverwalk and Market on Main. Large events affect parking, reservations, road access, waits and marina availability.
+
+The calendar changes annually — confirm dates with the City, Stuart Main Street or the organiser rather than last year's schedule.
+
+## Where People Gather Without Ordering Dinner
+
+Social life here isn't only restaurants. **Riverwalk**, the public boardwalk and event area behind City Hall. **Flagler Park**, home of Market on Main. **The Lyric Theatre**. **Terra Fermata** for outdoor music. The public marinas and boat ramps — functional boating facilities rather than entertainment areas, so follow the parking and dock rules. And the beaches, parks, community markets and festivals.
+
+Turning up doesn't guarantee you'll meet anyone, but showing up repeatedly is how people here actually build a circle. More on the quieter corners in our [hidden gems guide](/blog/hidden-gems-in-stuart-florida).
+
+## A Practical Food-and-Drink Weekend
+
+**Friday evening** — park downtown, have dinner, walk Riverwalk, check whether the Lyric or Terra Fermata has something on.
+
+**Saturday** — breakfast or coffee downtown, then shops and galleries, or drive to Hutchinson Island for a beach or museum day. Lunch on the island or in Port Salerno for waterfront seafood. In the evening, choose between downtown, a marina restaurant, live music, or a Port Salerno waterfront venue.
+
+**Sunday** — Market on Main at Flagler Park, then stay for Rock'n Riverwalk or have lunch downtown.
+
+That itinerary involves driving between Stuart, Hutchinson Island and Port Salerno. They are not one continuous walkable restaurant district, and anyone who tells you otherwise has not tried it.
+
+## How to Choose
+
+**Downtown** for walkability, several restaurants close together, theatre, Riverwalk, shopping, coffee, cocktails and community events.
+
+**A waterfront restaurant** for river or marina views, outdoor seating, boat activity, sunset and possible dock access.
+
+**Port Salerno** for a working-harbour atmosphere, casual seafood, marina activity, live music, seafood markets and Manatee Pocket.
+
+**Hutchinson Island** for beach-day dining, resort restaurants, ocean views and a quieter island setting.
+
+**A market or music event** for a casual community atmosphere, local vendors and outdoor entertainment with less emphasis on a formal meal.
+
+## What to Check Before Going
+
+Current hours, reservation policy, the kitchen's closing time, seasonal closures, weather, the live-music schedule, parking, outdoor seating, pet policy, accessibility, dockage, dress expectations and private-event closures.
+
+Use the restaurant's own website or contact them directly. Third-party listings are frequently out of date on hours, menus and closures.
+
+## The Bottom Line
+
+Stuart's strength isn't that every restaurant is on the water, or that every cuisine is represented. It is the number of genuinely different experiences packed into a small area: a compact walkable downtown, restaurants along Riverwalk, marina and riverfront dining, live music, a Sunday market, Port Salerno's working waterfront, Hutchinson Island's beach and resort options, and local seafood markets.
+
+That range is broader than most people expect from a small city. It is not a major metropolitan dining market, and some cuisines and late-night options stay limited.
+
+The trade works for people who value walking from dinner to the river, hearing live music outdoors, or reaching a working waterfront in a short drive.
+
+Ownership, names and hours change constantly here. Choose the district first, check what is currently open, then make the plan.`,
     faqs: [
-      { q: "Where is the best dining in Stuart, Florida?", a: "Historic downtown is the heart of it — a compact walkable grid of independent restaurants, bars and cafés beside the Riverwalk, with a broader range than the town’s size suggests. Beyond that, there is an unusual density of genuinely waterfront restaurants along the river and at the marinas, and a cluster of casual dockside seafood places toward the working waterfront south of town." },
-      { q: "Is downtown Stuart walkable for restaurants and bars?", a: "Yes, genuinely. The downtown core places restaurants, bars, cafés and the Lyric Theatre within a few minutes’ walk of each other alongside the Riverwalk. Park once and walk rather than driving between venues." },
-      { q: "Can you get to restaurants in Stuart by boat?", a: "Yes — arriving by water is a normal local practice, and a number of waterfront restaurants and marina venues offer dockage. Check dock availability and water depth for your vessel before planning on it, particularly at low tide." },
-      { q: "Does Stuart have nightlife?", a: "Low-key. There are waterfront bars, downtown pubs and cocktail spots within walking distance of each other and regular live music, with the Lyric Theatre covering ticketed evenings. Kitchens close earlier than in a city and most of downtown winds down by around eleven on a weeknight." },
-      { q: "Does the restaurant scene in Stuart change seasonally?", a: "Substantially. From roughly Thanksgiving through Easter the seasonal population fills downtown, reservations matter and sunset waterfront tables need planning, with spikes around the boat show and fishing tournaments. From May through October it is easy to walk in anywhere, and some places reduce hours or close for a stretch — call ahead in late summer." },
-      { q: "Where do locals eat seafood in Stuart?", a: "The most distinctive option is the cluster of casual dockside seafood places attached to the working waterfront south of town toward Port Salerno — unassuming buildings, outdoor seating and fish landed nearby. Visitors routinely miss them because they do not look like much from the road." },
+      { q: "Where is the best dining in Stuart, Florida?", a: "It depends what you want. Historic downtown is the most concentrated and walkable district, with more than 50 locally owned shops, restaurants and galleries near the St. Lucie River. For water views, the riverfront and marina restaurants; for casual seafood beside a working harbour, Port Salerno on Manatee Pocket; for beach-day dining, Hutchinson Island. Pick the district first, then check what is currently open." },
+      { q: "Is downtown Stuart walkable for restaurants and bars?", a: "Yes — it's the one genuinely park-once-and-walk district in the area. Restaurants, bars and cafés sit within a few minutes of each other, wrapped by the Riverwalk boardwalk, with Flagler Park and the Lyric Theatre alongside. Parking gets tighter during festivals, concerts and the winter season. Note that Port Salerno and Hutchinson Island are separate drives, not extensions of the same walk." },
+      { q: "Can you get to restaurants in Stuart by boat?", a: "Yes. Martin County publishes a dock-and-dine guide covering restaurants reachable by water, including Stuart Boathouse, Sailor's Return and TideHouse. Sailor's Return has roughly 930 feet of courtesy dockage. Confirm depth, boat-length limits, tide, no-wake zones and length-of-stay before setting off — a listing in the directory does not guarantee space, and a restaurant does not necessarily control the docks beside it." },
+      { q: "Does Stuart have nightlife?", a: "There are cocktail bars, neighbourhood taverns, waterfront bars, pubs, restaurant lounges, outdoor music and ticketed concerts — Terra Fermata on SE 6th Street runs live music most nights — but Stuart isn't a nightlife destination. Kitchens and bars often close earlier than in a metro area, and hours vary by day, season and event. Check the kitchen's closing time separately from the bar's." },
+      { q: "Does the restaurant scene in Stuart change seasonally?", a: "Considerably. Winter and spring bring seasonal residents and events, so book ahead, arrive before peak dinner time and allow extra parking time. Summer and early autumn are quieter, with easier reservations but also modified hours, vacation and maintenance closures and afternoon storms. It is not true that you can walk in anywhere in summer — popular places stay busy at weekends and on event nights." },
+      { q: "Where do locals eat seafood in Stuart?", a: "A lot of it happens in Port Salerno rather than downtown. Shrimpers Grill and Raw Bar has been on Manatee Pocket since 1992, with the Twisted Tuna next door at Manatee Marina, plus The Pearl and Pirate's Cove nearby. Retail markets like Basin Seafood and Tausha's sell to take home. Ask what is local and what is fresh versus previously frozen — a working fishing harbour nearby doesn't mean every menu item came off a local boat." },
     ],
     internalLinks: ["best-things-to-do-in-stuart-florida", "local-guide-to-stuart-florida", "hidden-gems-in-stuart-florida"],
-    funFact: "Stuart's most distinctive food is not downtown at all — it is at the working waterfront south of town, where casual seafood places sit alongside the commercial fishing docks. They look like nothing from the road, which is exactly why visitors drive past them to eat somewhere with a nicer sign and a longer wait.",
+    funFact: "Some of the Stuart area's most distinctive seafood is not in downtown Stuart at all. It is south of the city around Manatee Pocket in Port Salerno, where restaurants, seafood markets, marinas and commercial marine businesses share a working waterfront — Shrimpers Grill and Raw Bar has been there since 1992, alongside the Twisted Tuna, The Pearl, Pirate's Cove and the developing Fish House District. The fishing fleet still supplies local markets and restaurants, but don't assume every fish on every menu was landed locally that day; ask what is local and in season. The buildings and signs are less polished than downtown, and the harbour setting is the point. Plan to drive or arrive by boat, and check hours and dockage first.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
 
   // ===================== SINGER ISLAND =====================
