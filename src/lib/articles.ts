@@ -12950,103 +12950,204 @@ For a commuter or anyone who needs the optionality of a city, the charm won't co
     order: 7,
     seoTitle: "Cost of Living in Stuart, Florida",
     metaTitle: "Cost of Living in Stuart, Florida",
-    metaDescription: "What it really costs to live in Stuart, Florida — the property tax reset that catches new buyers, flood zones and elevation certificates, and the true annual cost of owning a dock and seawall.",
+    metaDescription: "What it really costs to live in Stuart, Florida — the property tax reset that catches new buyers, how hurricane deductibles and flood cover actually work, and the true cost of owning a dock and seawall.",
     primaryKeyword: "cost of living in Stuart Florida",
     secondaryKeywords: ["Stuart home prices", "is Stuart affordable", "Stuart FL cost of living"],
     h1: "Cost of Living in Stuart, Florida",
     heroImage: '/images/stuart/local-boat-on-lift.jpg',
     showMarketTrends: true,
-    body: `Stuart's headline is that it's cheaper than the Palm Beach County coast, and that's true. It's also incomplete, because the two things that most affect your actual monthly number here — the tax reset and the cost of water access — don't show up in a price-per-square-foot comparison.
+    body: `Stuart's headline is that it costs less than the Palm Beach County coast, and that is broadly true. It is also incomplete, because the things that most affect your actual monthly number here do not show up in a price-per-square-foot comparison.
+
+The cost of living in Stuart depends far more on which property you buy than on the town itself. An inland single-family home, a downtown condominium, a house with a private dock and an oceanfront place on Hutchinson Island can have completely different ownership costs even when their purchase prices are similar.
+
+The expenses most likely to reshape the budget are property taxes after the purchase, homeowners and flood insurance, HOA or condominium fees, roof and building age, waterfront maintenance, commuting, utility efficiency and anything to do with a boat.
 
 Prices move constantly. Use the market data on this page for where things stand today, and use the rest of this for the structure underneath it.
 
-## The tax bill you inherit is not the tax bill you'll pay
+## Stuart Is Not One Taxing Jurisdiction
 
-The most common budgeting mistake in Florida, and it catches people in every county.
+Start here, because it catches people before anything else does. A Stuart mailing address does not establish that a property sits inside the incorporated City of Stuart.
 
-**Florida's Homestead Exemption** reduces the taxable value of a primary residence, and the **Save Our Homes** cap then limits how much assessed value can rise annually while you own it. Over a long ownership that cap can hold a seller's assessed value far below market.
+The broader Stuart-area market takes in the City of Stuart, the Town of Sewall's Point, the Town of Ocean Breeze, unincorporated Martin County, the Hutchinson Island jurisdictions and several nearby communities that simply use a Stuart mailing address. Each parcel may carry a different combination of county taxes, school-board taxes, municipal taxes, special-district assessments, non-ad valorem charges and community redevelopment assessments.
 
-**On sale, the cap resets** and the property is reassessed at current market value. The new bill can look nothing like the old one.
+Two homes a quarter-mile apart can therefore sit under different tax structures. Confirm the actual jurisdiction through Martin County property records rather than trusting the address on the listing.
+
+## The Tax Bill You Inherit Is Not the Tax Bill You Will Pay
+
+The most common budgeting mistake in Florida, and it catches buyers in every county.
+
+The seller's current bill may be far below what you will pay, usually because they have owned the home for years, held a homestead exemption, accumulated a Save Our Homes benefit, qualified for additional exemptions or ported a benefit in from a previous Florida homestead.
+
+Florida's **Save Our Homes** limitation generally caps the annual increase in the assessed value of an existing homestead at the lower of 3% or the change in the Consumer Price Index. Note what it applies to: assessed value, not the amount of tax owed. Over a long ownership that opens a wide gap between market value, assessed value and taxable value — and that gap belongs to the qualifying owner's homestead benefit. It does not stay with the property for the next buyer.
+
+After a change of ownership the property is generally reassessed for the next assessment year, unless a statutory exception applies. So do not assume your future assessed value will match the seller's assessed value, the seller's taxable value, the listing price, or even exactly your purchase price. The property appraiser determines just value using recognized valuation methods and available market data; your purchase price is important evidence, not an automatic answer.
 
 What to do about it:
 
-- **Estimate from your purchase price and current millage**, never from the seller's tax bill or a listing's tax figure.
-- **File for Homestead** on a primary residence — the deadline falls early in the year after purchase, and missing it costs a year of benefit.
-- **Ask about portability** if you already own a homesteaded Florida property; a portion of accumulated Save Our Homes benefit may transfer. Limits and deadlines apply.
-- **Check which jurisdiction you're in.** Stuart, Sewall's Point, Ocean Breeze and unincorporated Martin County levy differently. An address a quarter-mile apart can carry a different rate.
+- **Estimate from your own purchase price and current millage**, never from the seller's tax bill or a listing's tax figure. Better still, use the Martin County Property Appraiser's tax estimator, and ask for a property-specific explanation when the projected bill materially affects whether you can afford the house.
+- **File for Homestead** on a primary residence. The standard deadline is **March 1** for the applicable tax year, and missing it costs a year of benefit.
+- **Ask about portability** if you already hold a homesteaded Florida property.
+- **Check which jurisdiction you are in**, per the section above.
 
-Verify all of it with the **Martin County Property Appraiser** and Tax Collector for the specific parcel.
+### Homestead Exemption
 
-## Insurance: three separate questions, not one
+An owner who makes a Florida property their permanent residence may qualify. For 2026 in Martin County that means **$25,000 off assessed value for all taxing authorities, plus an inflation-adjusted additional $26,411** on assessed value above $50,000 — a total of $51,411, though the additional portion does not apply to school taxes. That figure is indexed and moves, so check the current year rather than reusing an older number.
 
-On the coast, "insurance" is really three conversations, and buyers who treat it as one number get surprised.
+Qualifying for homestead also establishes eligibility for the Save Our Homes limitation in future years. It is not automatic, eligibility depends on ownership, residency and title, and filing does not guarantee approval. Apply directly through the Martin County Property Appraiser.
 
-**Wind.** Florida policies typically carry a **hurricane deductible set as a percentage of dwelling coverage** rather than a flat sum, which on a coastal home can be a very large number before anything pays. Two policies with similar premiums can carry entirely different exposure. Compare the deductible structure first.
+### Save Our Homes Portability
 
-**Flood.** Separate from your homeowner's policy, and in a river-and-lagoon town it matters. **Get the flood zone and, where relevant, an elevation certificate for the specific parcel.** Zones vary street by street here — being near water is not the same as being in a high-risk zone, and being away from it is not a guarantee. An elevation certificate can materially change what you pay.
+A buyer who previously owned a Florida homestead may be able to transfer — "port" — some or all of the accumulated Save Our Homes assessment difference to a new Florida homestead, currently up to **$500,000**.
 
-**Age of the structure.** Roof age is the single biggest lever on a coastal wind premium, and much of Martin County's stock was re-roofed after 2004. Older roofs narrow your carrier options sharply. A **wind mitigation inspection** documenting roof attachment, opening protection and roof shape typically pays for itself in credits.
+Two things people get wrong. The exemption itself does not transfer: you apply for homestead on the new residence and request portability separately, using form DR-501T alongside the homestead application. And the clock is tighter than it sounds — you generally have until January 1 three years after January 1 of the year you abandoned the prior homestead to establish the new one, with the application due by March 1 of the first qualifying year.
 
-Get real quotes during your inspection period. Not estimates, and not afterwards.
+The calculation also differs depending on whether you are moving to a property of higher or lower just value. Get an estimate from the Property Appraiser rather than assuming a number.
+
+## Insurance: Three Separate Questions, Not One
+
+On this coast, "insurance" is really three conversations, and buyers who treat it as a single number get surprised.
+
+### Wind and the Hurricane Deductible
+
+Florida homeowners policies may carry a separate hurricane deductible, and unlike an ordinary fixed-dollar deductible it is often calculated as a percentage of the insured dwelling limit. Florida residential insurers are generally required to offer specified hurricane-deductible options, including percentage-based choices, though exceptions and policy-specific rules apply.
+
+The arithmetic is worth doing out loud. A 2% deductible on $600,000 of dwelling coverage is $12,000 out of pocket before the policy responds. That does not mean every policy carries 2%, or that the deductible applies in every wind event — read the percentage, the dwelling-coverage amount, the statutory hurricane definition, when the deductible starts and stops, whether it can apply more than once in a season, and any separate windstorm provisions.
+
+Two policies with near-identical annual premiums can expose you to very different out-of-pocket costs. Compare the deductible structure before you compare the premium.
+
+### Flood Is a Separate Policy
+
+Standard homeowners insurance generally does not cover flood damage. Flood cover comes through the National Flood Insurance Program or the private market, and a lender may require it depending on the property, its flood designation and the loan. Even where no lender requires it, it can still be the right call: flooding here can come from storm surge, river or coastal water, heavy rainfall, drainage failure, rising groundwater or an overflowing canal. **Being outside a high-risk FEMA zone does not mean a property cannot flood.**
+
+Zones vary street by street in a river-and-lagoon town, so being near water is not the same as being in a high-risk zone, and being away from it is not a guarantee.
+
+One correction worth making, because the older advice is still repeated everywhere. Under the NFIP's current Risk Rating 2.0 methodology an elevation certificate is **no longer required** to buy cover and does not set the premium the way it did under the previous rating system — FEMA draws its own elevation data. A certificate is now optional, and it may still lower your rate where FEMA's model understates your elevation. The NFIP does not retroactively raise a rate if the certificate turns out to be less favorable, so the only real risk is the cost of obtaining one. Provide it to your insurance professional and let the insurer determine whether it changes the quote.
+
+Beyond the flood-zone letter, look at the current FEMA zone, base flood elevation, building and finished-floor elevation, any elevation certificate, prior flooding, drainage, storm-surge and evacuation information, policy limits, building and contents cover, deductibles, waiting periods and what the lender requires.
+
+### The Building Itself
+
+Roof condition and age genuinely affect insurance availability, premiums, required repairs, negotiations and financing deadlines. What is too absolute is the common claim that roof age is the single largest pricing factor on every policy. Insurers rate the whole property and may weigh construction type, location, replacement cost, mitigation features, claims history and other building systems heavily.
+
+Verify the roof through permit records, inspection, seller documentation, insurance underwriting and any roofing records. And do not assume that every home standing during the 2004 hurricanes received a complete new roof afterwards — that is a generalization about Martin County housing stock, not a fact about the house you are buying.
+
+Florida requires residential insurers to describe the hurricane-mitigation discounts available to policyholders. Qualifying features can include roof-to-wall attachment, roof-deck attachment, roof geometry, secondary water resistance, impact-rated openings, approved shutters and building-code era. A wind-mitigation inspection documents what a property has, but it does not guarantee a particular discount or premium — have the report reviewed by the agent actually providing your quote.
+
+Get real written quotes during the inspection or due-diligence period. Not estimates, and not afterwards. The seller's present premium establishes nothing about yours: you may not even qualify for their carrier.
 
 ![Timber dock and pilings along a residential waterway](/images/stuart/local-dock-pilings.jpg "Dock, pilings and seawall are infrastructure with maintenance cycles — and none of it shows up in a price per square foot.")
 
-## What water access actually costs to own
+## What Water Access Actually Costs to Own
 
-This is the Stuart-specific part, and it's the difference between two identically-priced homes.
+This is the Stuart-specific part, and it is the difference between two identically priced homes.
 
-If you buy waterfront with a dock, you have acquired infrastructure:
+A home with a private dock is not a house with a recreational feature attached. It is a house with privately owned marine infrastructure that needs inspection, maintenance and eventual replacement. Depending on the property that can include:
 
-- **Seawall.** The big one. Seawalls have finite lives, repair is expensive and replacement more so, and the condition of one at purchase is a material fact. Have it inspected as seriously as you would a roof — panel condition, tie-backs, cap, and any voids behind it.
-- **Dock and pilings.** Wood in warm salt water is a maintenance schedule, not a fixture. Pilings, decking and hardware all have replacement cycles.
-- **Boat lift.** Motors, cables, bunks and annual servicing, plus eventual replacement.
-- **Dredging or shoaling.** Some canals and basins silt up. Ask who is responsible and what it has cost.
-- **Marine insurance and vessel costs**, which are separate from everything above.
+- **Seawall.** The big one, and the one most often taken on faith.
+- **Dock and pilings.** Wood in warm salt water is a maintenance schedule, not a fixture.
+- **Boat lift**, with motors, cables, bunks, controls and servicing.
+- **Marine electrical and water service**, shoreline stabilization, riprap, davits and mooring equipment.
+- **Depth and shoaling**, where they apply.
 
-None of this appears in a price-per-square-foot comparison and all of it is real. Which is why a lot of experienced local buyers purchase inland and rent a marina slip — an annual slip fee is frequently less than the carrying cost of ownership, let alone the purchase premium. Our [neighborhood guide](/blog/best-neighborhoods-in-stuart-florida) works through that decision.
+None of it appears in a price per square foot, and two similarly priced homes can carry very different future capital needs.
 
-## Association costs
+### Seawalls
 
-**HOA dues** vary widely and many Stuart neighborhoods have none at all — a genuine difference from the master-planned parts of Palm Beach County.
+A seawall is structural infrastructure with a finite service life. It may need repair or replacement because of cracking, corrosion, failing panels, cap deterioration, tie-back problems, soil loss, voids behind the wall, erosion, poor drainage or storm damage — and none of that can be judged from appearance alone.
 
-**Condominium associations**, particularly on Hutchinson Island, are the ones to scrutinise. Reserve funding, structural reporting, insurance history and recent special assessments matter far more than the finishes. Ask for several years of history, not just the current budget.
+A standard home inspection may not include a detailed marine-structure evaluation. Where it matters, have a qualified marine contractor or engineer look at the panels, cap, tie-backs or anchors, pilings, drainage, soil loss, signs of movement, the adjacent seawalls and whether there is access for future construction.
 
-## Everyday costs
+Then establish who is legally responsible for the wall. Depending on the property that may be the owner, an association, a neighboring owner, a municipality or another entity — and the answer changes the number materially.
 
-**Utilities** peak with summer cooling; older housing stock is often less efficient, so a 1970s block home and a new build with modern glazing are not comparable on running cost.
+### Docks, Pilings and Lifts
 
-**Fuel and vehicles.** This is a car town and the nearest metro is an hour away. If anyone commutes south, calculate fuel, tolls and wear as a real line item rather than an afterthought.
+Docks live in saltwater, sun, storms, wake and marine organisms. Inspection should cover decking, stringers, pilings, hardware, electrical service, plumbing, lighting, railings, permits and code compliance.
 
-**Groceries and retail** track regional norms; the range is narrower than a metro and some people drive south periodically for specific shopping.
+The existence of a dock does not establish that it was properly permitted, or that it could be rebuilt in its current configuration. If your plans depend on replacing or extending it, check the records and take professional advice before closing rather than after.
 
-**Dining** swings seasonally — noticeably busier and pricier in winter, quiet and easy in summer, as our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) describes.
+A boat lift has to match the boat. Verify rated capacity against actual vessel weight and beam, plus bunk configuration, motors, cables, controls, electrical system, pilings, service history and permit status. A lift that handled the seller's boat may not safely handle yours, and both routine service and eventual component replacement belong in the budget.
 
-**Boating**, if it applies, is its own budget: fuel, storage, maintenance, bottom paint, insurance and the tendency of every marine job to cost more than quoted.
+### Depth, Shoaling and Dredging
 
-## No state income tax
+Some canals, basins and private waterfront areas accumulate sediment and change depth. Before buying, establish depth at the dock and at low tide, navigational depth along your actual route, whether dredging has been done before, who is responsible for it, whether permits would be needed, and whether neighbors or an association share the cost.
 
-Florida levies no state income tax, which is a meaningful part of the relocation maths for people arriving from higher-tax states. It does not offset a tax estimate you got wrong or a hurricane deductible you didn't read.
+Do not assume an individual owner has either the right or the practical ability to dredge a waterway.
 
-## The bottom line
+### Private Dock Versus Marina Slip
 
-Stuart can be a genuinely affordable place to live or an expensive one, and the fork is water access rather than postcode.
+Buying inland and keeping the boat at a marina is a real alternative, and it does move some risk off your balance sheet — seawall replacement, dock reconstruction, lift repair, certain dredging problems and shoreline maintenance stop being yours.
 
-Whichever side you land on, build the monthly number from a **reset tax estimate, real wind and flood quotes, and an honest schedule for seawall, dock and lift** — not from the seller's costs and not from the list price.
+But it is not reliably cheaper, which is the claim most often made about it. A marina arrangement brings slip rent, electricity, water, storage, haul-out charges, hurricane plans, insurance requirements, access restrictions, waiting lists, annual increases and minimum lease terms.
+
+Run the actual numbers against each other: the waterfront purchase-price premium, the insurance difference, flood exposure, realistic dock, seawall and lift reserves, current marina charges, whether a slip is even available, travel time and convenience, and how long you expect to own. The better financial answer depends on the household, the boat and the property — our [neighborhood guide](/blog/best-neighborhoods-in-stuart-florida) works through where each option tends to make sense.
+
+## Association and Condominium Costs
+
+Association fees vary substantially. Some Stuart-area single-family neighborhoods have no mandatory HOA at all, which is a genuine difference from the master-planned parts of Palm Beach County; others have voluntary associations, mandatory associations or deed restrictions.
+
+Where an association exists, review the current assessment, what it includes, reserve balances, recent increases, special assessments, insurance, planned capital projects, rules and enforcement, rental restrictions and any boat or RV rules.
+
+Worth saying plainly: **"no HOA" does not mean "no restrictions."** County or city ordinances, zoning, permitting and recorded private restrictions may all still apply.
+
+For a condominium, the monthly fee is the least interesting number. It may cover building insurance, exterior maintenance, landscaping, water, sewer, cable or internet, amenities, management, security and reserves. A higher fee is not automatically bad if it funds adequate insurance, maintenance and reserves; a low fee is not a bargain if major expenses have been deferred.
+
+### Structural Inspections and Reserve Studies
+
+Florida law requires qualifying condominium and cooperative buildings to complete milestone inspections and Structural Integrity Reserve Studies in defined circumstances. A Structural Integrity Reserve Study identifies required structural reserve components, estimates remaining useful life and calculates recommended funding, and for covered buildings it must generally be repeated at least every ten years.
+
+Before buying a condominium — and this matters most on Hutchinson Island — review the milestone-inspection reports, the Structural Integrity Reserve Study, engineering reports, reserve balances, the funding plan, the current budget, insurance, recent meeting minutes, special assessments, pending repairs, litigation and planned capital projects.
+
+One thing buyers miss: a completed report does not mean the work it identifies has been done, or funded.
+
+## Everyday Costs
+
+**Utilities.** Electricity use climbs through the hot, humid months for cooling and moisture control, but the actual cost depends on square footage, insulation, windows, roof, air-conditioning efficiency, thermostat habits, pool equipment, occupancy, solar exposure and rates. Older homes are not automatically inefficient and new ones are not automatically cheap to run. Ask for recent utility records where available, remembering that another household's habits are not yours. Also confirm whether the property is on public water and sewer, well water, septic, an irrigation well, propane or association-provided utilities — septic maintenance, well equipment and future connection projects all cost money.
+
+**Transportation.** Much of the area is car-dependent, so count fuel, tolls, maintenance, insurance, parking, commute time, airport trips and any additional household vehicle. Anyone commuting regularly to Palm Beach County should drive the real route at real work-hour traffic and cost the month out properly. Palm Beach International is the nearest major commercial airport for most residents, though travel time varies by address. There is no operating Brightline station in Stuart, and a proposed future one should not be counted as a transportation benefit you are buying today.
+
+**Groceries, shopping and dining.** These track household habits more than they track Stuart. The area has supermarkets, local businesses, shopping centers and restaurants, with a smaller selection than a large metropolitan county, and some households drive south periodically for specialty shopping, particular restaurants, entertainment or professional services. Dining activity does rise through winter and spring — but menu prices should not be described as universally higher in season without business-specific evidence. What changes more noticeably is availability, reservations and wait times, as our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) describes.
+
+**Boating**, where it applies, is its own budget entirely: purchase or financing, registration, insurance, fuel, routine service, engines, electronics, bottom maintenance, storage, dockage, haul-outs, cleaning, safety equipment, storm preparation and repairs. A private dock removes monthly slip rent. It removes none of the rest.
+
+## Florida Has No Individual State Income Tax
+
+Florida levies no individual state income tax, which is a meaningful part of the relocation arithmetic for people arriving from a state that does.
+
+It is not, by itself, an affordability argument. The honest comparison also has to carry property taxes, insurance, sales taxes, HOA or condominium fees, transportation, housing costs, healthcare and estate and financial planning. Tax consequences vary by household, and this is a question for your own qualified tax adviser rather than for a real estate guide.
+
+## Build a Complete Ownership Budget
+
+For a single-family home: principal and interest, property taxes after reassessment, homeowners insurance, flood insurance, HOA fees, utilities, roof and building maintenance, landscaping, pool maintenance, transportation and an emergency reserve.
+
+For a condominium, add the association assessment, potential special assessments, interior insurance, deductibles, building projects and the possibility of reserve-funding changes.
+
+For waterfront, add a seawall reserve, a dock reserve, lift maintenance, marine electrical work, flood exposure, boat expenses and any dredging or depth issues.
+
+## The Bottom Line
+
+Stuart's cost of living does not reduce to a price comparison against Palm Beach County. The individual property matters more than the town.
+
+An inland home with no association may have a genuinely straightforward ownership budget. A similarly priced waterfront home can add flood cover, a percentage-based hurricane deductible, seawall reserves, dock maintenance and boat-lift expenses. A condominium may cut your personal exterior maintenance while adding association fees, structural-reserve obligations and the possibility of assessments.
+
+Build the number from an updated property-tax estimate, actual written insurance quotes, the association documents, professional inspections, realistic maintenance reserves and the full cost of commuting or boating — not from the seller's taxes, the seller's premium or the listing price.
+
+A property can be affordable at closing and expensive to keep. The question is never only what it costs to buy. It is what it will cost you to own.
 
 *Figures and rules change. Verify tax, exemption and assessment details with the Martin County Property Appraiser and Tax Collector, insurance with a licensed agent, flood zone and elevation with the relevant authority, and association obligations with the governing documents.*`,
     faqs: [
-      { q: "Is Stuart, Florida expensive to live in?", a: "Comparable homes generally price below the Palm Beach County coast, sometimes substantially. The variable that matters most is water access: waterfront property with a dock carries a purchase premium plus ongoing seawall, dock, lift and flood costs that do not appear in a price-per-square-foot comparison." },
-      { q: "Why do property taxes go up after buying a home in Florida?", a: "Because the Save Our Homes assessment cap resets on sale. A long-time owner's assessed value may sit far below market after years of capped increases, and the property is reassessed at current market value when it transfers. Estimate from your purchase price and current millage rather than the seller's bill, and check which jurisdiction the address is in — Stuart, Sewall's Point, Ocean Breeze and unincorporated Martin County levy differently." },
-      { q: "Do I need flood insurance in Stuart, Florida?", a: "It depends on the specific parcel. Flood zones vary street by street in a river-and-lagoon town, so proximity to water does not automatically mean a high-risk zone and distance from it is not a guarantee. Obtain the flood zone determination and, where relevant, an elevation certificate for the address — an elevation certificate can materially change the premium. Flood coverage is separate from a homeowner policy." },
-      { q: "What does it cost to own a dock and seawall in Stuart?", a: "More than most buyers expect. Seawalls have finite lives and expensive repair or replacement, and their condition at purchase is a material fact worth inspecting as seriously as a roof. Docks and pilings in warm salt water are a maintenance schedule rather than a fixture, boat lifts need servicing and eventual replacement, and some canals and basins require dredging. Many experienced local buyers purchase inland and rent a marina slip instead." },
-      { q: "What is a hurricane deductible in Florida?", a: "Florida policies typically apply a separate hurricane deductible calculated as a percentage of the dwelling coverage rather than a flat dollar amount, which on a coastal home can represent a large out-of-pocket figure before coverage responds. Compare deductible structure across quotes, not just premium." },
-      { q: "Do homes in Stuart have HOA fees?", a: "Many Stuart neighborhoods have no HOA at all, which differs from the master-planned parts of Palm Beach County. Where associations do exist, dues vary widely. Condominium associations, particularly on Hutchinson Island, deserve the closest scrutiny — review several years of reserve funding, structural reporting, insurance history and special assessments rather than only the current budget." },
+      { q: "Is Stuart, Florida expensive to live in?", a: "Comparable homes generally price below the Palm Beach County coast, sometimes substantially. The variable that matters most is not the town but the property: waterfront with a dock carries a purchase premium plus ongoing seawall, dock, lift and flood costs that never appear in a price-per-square-foot comparison, while an inland home with no association can have a much simpler budget at a similar price." },
+      { q: "Why do property taxes go up after buying a home in Florida?", a: "Because the Save Our Homes assessment limitation resets on sale. It caps annual increases in an existing homestead's assessed value at the lower of 3% or the change in CPI, so a long-time owner's assessed value can sit far below market — and that accumulated benefit belongs to them, not to the property. After a change of ownership the property is generally reassessed for the next assessment year. Estimate from your own purchase price and current millage, use the Martin County Property Appraiser's estimator, and check which jurisdiction the address is in, because Stuart, Sewall's Point, Ocean Breeze and unincorporated Martin County levy differently." },
+      { q: "Do I need flood insurance in Stuart, Florida?", a: "It depends on the parcel, and flood cover is always separate from a homeowner policy. Flood zones vary street by street in a river-and-lagoon town, so proximity to water does not automatically mean a high-risk zone and distance from it is no guarantee — being outside a high-risk FEMA zone does not mean a property cannot flood. Obtain the flood zone determination for the specific address. Note that under the NFIP's current Risk Rating 2.0 methodology an elevation certificate is no longer required and no longer sets the premium as it once did, though providing one may still lower the rate where FEMA's own elevation data understates the building." },
+      { q: "How much is the homestead exemption in Martin County?", a: "For 2026 a qualifying Florida homestead receives $25,000 off assessed value for all taxing authorities, plus an inflation-adjusted additional exemption — $26,411 in Martin County for 2026 — on assessed value above $50,000, for a total of $51,411. The additional portion does not apply to school taxes. The indexed figure changes annually, the standard filing deadline is March 1, and approval is not automatic, so apply directly through the Martin County Property Appraiser." },
+      { q: "What does it cost to own a dock and seawall in Stuart?", a: "More than most buyers expect, and it cannot be judged from appearance. A seawall is structural infrastructure with a finite service life that may fail through cracking, corrosion, failing panels, cap deterioration, tie-back problems, soil loss or voids behind the wall, and a standard home inspection may not evaluate marine structures at all. Docks and pilings in warm salt water are a maintenance schedule rather than a fixture, boat lifts need servicing and eventual replacement, and some canals require dredging. Establish who is legally responsible for the seawall — owner, association, neighbor or another entity — before you close." },
+      { q: "Is renting a marina slip cheaper than buying waterfront in Stuart?", a: "Not reliably, despite how often it is said. A marina does move seawall replacement, dock reconstruction, lift repair and some dredging risk off your balance sheet, but it adds slip rent, electricity, water, storage, haul-out charges, hurricane plans, insurance requirements, access restrictions, waiting lists, annual increases and minimum terms. Compare the actual figures — the waterfront price premium, the insurance difference, realistic dock and seawall reserves, current marina charges, slip availability and how long you plan to own." },
+      { q: "Do homes in Stuart have HOA fees?", a: "Many Stuart-area neighborhoods have no mandatory HOA, which differs from the master-planned parts of Palm Beach County; others have voluntary or mandatory associations or deed restrictions. Where one exists, review the assessment, reserves, recent increases, special assessments, insurance and rental rules. Note that no HOA does not mean no restrictions — county and city ordinances, zoning, permitting and recorded private restrictions can all still apply. Condominium associations, particularly on Hutchinson Island, deserve the closest review, including milestone inspections and the Structural Integrity Reserve Study." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-stuart-florida", "best-neighborhoods-in-stuart-florida", "stuart-vs-nearby-cities"],
-    funFact: "The most underestimated line item in a Stuart waterfront purchase is the seawall. They have finite lives, replacement runs into serious money, and condition at closing is a material fact — yet buyers who would never skip a roof inspection routinely take a seawall on faith. Have it looked at properly: panels, cap, tie-backs, and any voids behind it.",
+    funFact: "The easiest expense to underestimate in a Stuart waterfront purchase is the seawall. It is structural infrastructure with a finite service life, and its condition affects future repair costs, shoreline stability and your ability to keep a dock or other waterfront improvements at all. A standard home inspection may not include a detailed marine-structure evaluation, so where it matters have a qualified marine contractor or engineer assess the panels, cap, tie-backs, pilings, cracking or movement, soil loss, voids behind the wall, drainage and access for future repair. Then confirm who is legally responsible for the wall, which may be the owner, an association, a neighboring owner or another entity. Buyers routinely investigate a roof because they understand replacement is expensive. A seawall deserves the same attention.",
     author: 'john',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'hidden-gems-in-stuart-florida',
