@@ -12992,119 +12992,179 @@ Whichever side you land on, build the monthly number from a **reset tax estimate
     order: 8,
     seoTitle: "Hidden Gems in Stuart, Florida",
     metaTitle: "Hidden Gems in Stuart, Florida",
-    metaDescription: "Stuart, Florida's quieter side — Halpatiokee's 500 acres of trail, Seabranch Preserve's painted buntings, the sandbar culture, and the free riverfront most visitors drive straight past.",
+    metaDescription: "Stuart, Florida's quieter side — the 500 acres of preserve behind Halpatiokee's ball fields, Seabranch's rare scrub, the public paddling trail on the South Fork, and the riverfront most visitors drive straight past.",
     primaryKeyword: "hidden gems in Stuart Florida",
     secondaryKeywords: ["Stuart secret spots", "free things to do in Stuart", "House of Refuge Stuart"],
     h1: "Hidden Gems in Stuart, Florida",
     heroImage: '/images/stuart/local-open-water.jpg',
-    body: `Stuart's headline attractions are genuinely good, which is a problem for a list like this — the beach, the downtown and the fishing are famous for reasons.
+    body: `Stuart's headline attractions are genuinely good, which is a problem for a list like this. The historic downtown, the beaches, the fishing and the waterfront are popular for real reasons.
 
-So here's the other layer: the places residents actually use, most of them free, and most of them missed entirely by anyone who spends a weekend here.
+But the area also has quieter parks, preserves, paddling routes and public spaces that most visitors never reach. Some are hidden because they sit away from downtown. Others are entirely familiar places that feel like somewhere else at the right hour.
 
-## Halpatiokee Regional Park
+A word on what follows: these are lesser-known, not undiscovered, and almost none of them come with guarantees. Trail conditions, park hours, beach access and museum schedules all change, so check current information before making the trip rather than treating any of this as a promise.
 
-The largest park in Martin County, running to over **500 acres** along the South Fork of the St. Lucie River. The name comes from a Seminole term meaning roughly "alligator water."
+## Halpatiokee Regional Park and Preserve
 
-What makes it unusual is the **mountain-biking trail network** — genuine single-track with roots, berms and enough technical sections to be interesting, which is close to unheard of in a landscape this flat. There's also hiking, kayak access to the South Fork, and sports fields.
+Martin County's largest park, at 8303 SW Lost River Road, and the clearest example of the pattern this whole article is about: thousands of people know it and almost nobody has seen most of it.
 
-Most Stuart residents know it exists as somewhere their kids play soccer. Far fewer have walked the back trails, which run through pine flatwoods and along the river and stay quiet even at weekends.
+The name is the Seminole word for "alligator water." The developed portion runs to about 65 acres of active parkland — athletic fields, tennis and pickleball courts, baseball and softball, disc golf, picnic areas and an open-air roller-hockey rink. Wrapped around that is roughly 500 acres of wetland preserve, including about four miles of frontage along the west side of the South Fork of the St. Lucie River. The landscape moves through pine flatwoods, oak hammock, scrub and riverland, and the county records habitat there for at least thirteen species listed by the state as endangered or threatened.
+
+Visitors who know Halpatiokee only as the place their children play soccer may never realize that a substantial natural area begins a few hundred yards past the parking lot, with hiking trails, off-road biking, paddling routes, river access and a primitive riverside campsite.
+
+### Mountain Biking at Halpatiokee
+
+This is the genuine surprise: roughly 7.5 miles of natural-surface mountain-bike trail, with roots, narrow sections, bridges, uneven ground, sudden turns and what elevation change the terrain and trail construction can produce. In a landscape this flat, that is close to absurd.
+
+It is also not a paved loop around the ball fields, and the county is direct about this. Martin County describes the mountain-biking area as an unsupervised facility and warns that the activity carries a significant risk of injury. Wear a helmet, ride a bike suited to off-road conditions, ride within your ability, yield appropriately, avoid wet or closed trails, carry water and follow the posted rules. Riders under eighteen should check the county's current waiver requirements before turning up.
+
+Conditions change after storms, flooding and maintenance, so the trail you rode in March is not necessarily the trail that is there in September.
+
+### Hiking Along the South Fork
+
+The preserve carries miles of hiking trail out toward the South Fork. Expect soft sand, mud, roots, standing water, insects, limited shade, wildlife and sections that flood after rain. Check park alerts, carry water, and use sun and insect protection.
+
+The trails can feel a long way from the athletic fields a few minutes behind you. What they are not is reliably empty — use varies with the day, the season, the weather and whatever is scheduled at the park.
 
 ## Seabranch Preserve State Park
 
-South of town, and one of the better birding sites in the county. Sand pine scrub, flatwoods and hammock, with a trail system that sees very little traffic.
+About ten miles south of Stuart along Dixie Highway, and the best place nearby to see several Florida habitats without driving far.
 
-**Painted buntings** are the draw — small, absurdly colourful, and reliably present in the cooler months alongside woodpeckers, herons and migrating warblers in spring and autumn. If you've never seen one, it's worth the trip on its own.
+The park protects sand pine scrub, scrubby flatwoods, pine flatwoods, baygall, and mangrove and tidal habitat inside a fairly compact area. Florida State Parks lists more than six miles of hiking trail — the north and south loops form a 4.8-mile double loop through ancient sand pine scrub, while the eastern section runs through flatwoods and baygall — along with a 1.7-mile paved segment of the East Coast Greenway. The park is open from 8 a.m. until sundown every day of the year, and there is no entrance fee.
 
-Go early, take water, and expect to have the trail to yourself.
+It suits hiking, birding, walking and running, cycling and mountain biking, wildlife observation, picnicking and geocaching.
 
-## The sandbar
+### What You Might Actually See
 
-Less a place than an institution. On calm weekends boats raft up on the flats and a floating neighborhood assembles for the afternoon.
+Sand pine scrub is rare habitat and it holds species you will not find on a beach walk. Gopher tortoises, Florida scrub-jays, sandhill cranes, bald eagles, swallow-tailed kites, herons and egrets, wood storks, bobcats and a range of resident and migratory birds all turn up here.
 
-It's the fastest way to meet people in this town, it's free if you already have a boat, and it has its own etiquette — anchor with room, keep the music at a level your neighbors can talk over, take your rubbish home, and mind the seagrass. Our [local's guide](/blog/local-guide-to-stuart-florida) covers the wider water etiquette.
+One correction worth making plainly, because it is repeated often. Painted buntings are not a reliable Seabranch attraction and should not be the reason you drive down. They do occur in South Florida in parts of the year, but the preserve is known for its scrub habitat and its scrub-jays rather than for buntings, and no site produces a particular species on demand. If you are making the trip for one bird, check recent local observations or a birding database first. Wildlife sightings are never guaranteed anywhere on this list.
 
-## The Riverwalk at six in the morning
+### Preparing for Seabranch
 
-The boardwalk along the St. Lucie downtown is not a secret. Doing it at sunrise more or less is.
+The sandy, exposed trails get hot. Bring water, sun protection, insect repellent, closed-toe shoes, a trail map, a charged phone and rain protection. Florida State Parks asks that pets stay on a six-foot handheld leash. Because much of the preserve is sensitive scrub, stay on the designated trails and leave the vegetation alone.
 
-The water is flat, the light is good, dolphins and manatees work the river, and you'll pass a handful of regulars and nobody else. Downtown at that hour — before anything opens, with the river doing its thing — is the version of Stuart people fall in love with.
+## Riverwalk Early in the Morning
 
-Free, ten minutes, and available every single day.
+Riverwalk is not hidden. Doing it shortly after sunrise more or less is.
 
-## The riverfront parks nobody stops at
+The park sits behind Stuart City Hall and includes a waterfront boardwalk, public docks, seating, restrooms and an outdoor stage, open daily from sunrise to sunset with lighted facilities available later under city rules. Early, you get cooler air, better light, very little downtown activity and a long view across the St. Lucie.
 
-Stuart and Martin County maintain a string of small waterfront parks and boat ramps that most people only use as launch points.
+Dolphins, manatees and birds are all possible. None of them is scheduled, and a morning without a sighting is still a good morning. The walk costs nothing, takes ten minutes and is available every day of the year, which makes it the easiest thing on this list to actually do.
 
-They're also just good places to sit. Shepard Park near downtown, the smaller access points along the North and South Forks, and the county's various ramps all have water frontage, shade and picnic tables — and they're empty most weekday evenings while people queue for a waterfront table two hundred yards away.
+### Carry On Into Downtown
 
-## The rocks below the House of Refuge, at low tide
+A morning walk extends naturally into Flagler Park, the downtown streets, the Lyric Theatre area, the historic blocks and the public art and waterfront spaces. Most businesses will not be open that early, so treat it as seeing the setting rather than shopping. On Sundays you can come back later for Market on Main and Rock'n Riverwalk, subject to the current schedule.
 
-The building gets the visitors. The shoreline underneath it is the better experience.
+## Shepard Park
 
-This stretch of Hutchinson Island has exposed Anastasia limestone — the same fossil-shell rock that shows up at a handful of spots along this coast — and at low tide it becomes a landscape of ledges, pools and channels with the Atlantic working at the edge of it.
+A City of Stuart waterfront park at 600 SW Ocean Boulevard, about 4.5 acres, with a boat ramp, fishing dock, boardwalk over the water beside the mangroves, picnic tables, a pavilion, playground, restrooms, benches and grills. The ramp runs out through Frazier Creek into the St. Lucie River. It is open sunrise to sunset.
 
-Check the tide table, go on a falling tide, wear something on your feet, and don't turn your back on the sea. It looks nothing like the rest of Florida's coastline.
+The city promotes it for walking, fishing from the dock and watching the sunset, and that is exactly what it is good for — a public waterfront stop that does not require planning a whole beach or boating day. Activity varies, and the ramp end gets busy in good boating weather.
 
-## The quiet water on the forks
+### The Small Waterfront Parks Are More Than Launch Points
 
-Everyone talks about the inlet. The better paddling is the other direction.
+Stuart and Martin County maintain a number of waterfront parks, ramps and preserves that most people use only to put a boat in the water. Depending on the site, they may also offer picnic areas, river views, short walks, fishing access, wildlife watching, shade and kayak launches.
 
-The **North and South Forks** of the St. Lucie narrow as you go upstream into mangrove and overhanging canopy, and within twenty minutes of downtown you can be somewhere that feels genuinely remote. Kayak access points exist at several county parks, including Halpatiokee on the South Fork.
+Amenities are emphatically not uniform. Some have restrooms, pavilions and real parking; others offer little beyond access to the water. Check the official park listing before assuming any given site has shade, a picnic table, a restroom, a legal fishing area, trailer parking or a usable kayak launch.
 
-Early morning, no wind, no wake — this is the version of the river that doesn't appear in any brochure, largely because you can't get to it in anything with a flybridge.
+## Delaplane Preserve and the Paddling Trail
 
-## The beaches past the famous one
+Delaplane Preserve is a 51-acre conservation property on the South Fork, and Martin County lists a canoe and kayak launch among its amenities. It is quieter and less developed than the county's larger parks, which is the appeal.
 
-Bathtub Reef takes the attention and the parking. Hutchinson Island has a string of other public accesses running north — Stuart Beach among them — and they thin out noticeably the further you go from the marquee name.
+The river beside it forms part of a state-designated paddling trail. Martin County's designated paddling trails cover about 37.7 miles across the Indian River Lagoon and St. Lucie River systems: the St. Lucie River portion runs roughly 21.5 miles from the Atlantic Ridge and Halpatiokee area down toward the lagoon and the St. Lucie Inlet, and the lagoon portion adds about 16.2 miles between Jensen Beach and Hobe Sound, with public launch and stopover sites along the way.
 
-If you want sand without company on a February Saturday, drive an extra ten minutes up the island. The water is the same water.
+What you encounter depends entirely on the launch and the route: mangroves, overhanging vegetation, open river, narrow tributaries, boat wakes, tides, wildlife, shallows and changing current. It is worth resisting the common claim that twenty minutes upstream of downtown reliably puts you somewhere remote. Nobody can promise that — it depends on where you put in, which way you go and what the water is doing.
 
-## The Elliott Museum's car collection
+Before you launch, confirm the launch is actually open. One shown on a map can be closed for maintenance, weather or water level.
 
-Filed under things that are better than they sound.
+### Paddling Safety
 
-The museum near Stuart Beach covers regional history, and it also holds a substantial collection of vintage vehicles and Americana, housed in a modern building with an unusual automated stacking display system.
+Review the route, check tides and weather, carry the required flotation devices, bring water, protect your electronics, tell somebody where you are going, watch for motorized boats, stay clear of private property, leave wildlife alone and turn back before a storm builds rather than after. Summer weather here changes fast, and a calm morning is not a guarantee of a calm return.
 
-People arrive expecting a small-town history museum and stay considerably longer than planned. It's also the right call on a rainy afternoon, of which there are many between June and September.
+## The Sandbars
 
-## Off-season everything
+Shallow-water gathering areas are a real part of Stuart's boating culture. On good weekends boats anchor and raft up near the exposed flats, and something like a floating neighborhood assembles for the afternoon.
 
-The genuine local secret is May through October.
+Two honest qualifications. These are not formal public parks — there are no guaranteed boundaries, no supervision and no services, and conditions shift with tide, shoaling, weather, boat traffic, navigation markers and environmental restrictions. And it is only "free" in the sense that nobody charges admission; you still need legal access to a boat or a permitted charter, which is the entire cost.
 
-The seasonal population has gone. Bathtub Reef on a quiet summer weekday, restaurants with tables free on a Friday, boat ramps without queues, and the whole town operating at half volume.
+The etiquette is straightforward: use updated charts, follow posted navigation rules, avoid seagrass, anchor with adequate space, keep the music at a level your neighbors can talk over, secure your trash, watch the depth under you, designate a sober operator and give other boaters room. Our [local's guide](/blog/local-guide-to-stuart-florida) covers the wider water etiquette.
 
-It is hot and it storms most afternoons. It is also when Stuart is most itself, and residents who've been here a few years will say so without being asked.
+One more thing, and it matters more than it sounds. Some of these shallow areas are widely known locally and are easily damaged by traffic. Avoid publishing precise coordinates for sensitive seagrass, nesting areas or narrow waterways that are not established public destinations, and follow current Florida Fish and Wildlife Conservation Commission, Coast Guard and local navigation rules. A hidden gem should still be healthy after people find it.
 
-## What isn't a hidden gem
+## The Shoreline by the House of Refuge
 
-Two honest corrections, because you'll be told otherwise.
+The building gets the visitors. The shoreline underneath it is arguably the better experience.
 
-**Bathtub Reef is not undiscovered.** It's the best beach in the area and everyone knows it. Go, but go early and expect company — our [things-to-do guide](/blog/best-things-to-do-in-stuart-florida) has the details.
+The House of Refuge at Gilbert's Bar sits at 301 SE MacArthur Boulevard on an unusual rocky stretch of Hutchinson Island. The exposed rock is Anastasia Formation limestone, made partly of ancient shell material, and it produces ledges, irregular surfaces, channels and tidal pools rather than the broad sand you get along most of this coast. It looks like nowhere else nearby.
 
-**Downtown is not a secret either.** It's the town's front room. The hidden part is the hour, not the place.
+Built in 1876, the house has come through an extensive restoration and reopened, and it marks its 150th anniversary in 2026 with new exhibits. It has been closed for stretches during that work, so if you last tried to visit mid-restoration it is worth another look. Museum hours, admission and access can still change, so confirm before traveling.
 
-## Making the most of them
+### Treat the Rocks With Respect
 
-**Early or late, especially in summer.** Everything on this list is better at either end of the day.
+The setting is dramatic and it is genuinely hazardous. Expect sharp uneven rock, slippery algae, holes and crevices, breaking waves, sudden surges, changing tides, strong currents, marine organisms and very limited safe footing.
 
-**Take repellent for the preserves.** Flatwoods and hammock are exactly what you'd expect.
+Low tide does not make it safe. Check current weather and surf, stay well back in rough conditions, wear something real on your feet, supervise children closely, never turn your back on breaking waves, respect posted closures and barriers, keep off unstable or protected areas, and do not enter water beyond your ability. Give it the same caution you would give any rocky Atlantic shoreline, because that is what it is.
 
-**Check access before driving over.** Beach closures for erosion work, preserve conditions and park hours all change.
+## The Beaches Past the Famous One
 
-**Pick the low-effort ones first.** The Riverwalk at sunrise costs nothing and takes ten minutes, and it does more to make a newcomer feel like a resident than anything else on this list.`,
+Bathtub Beach gets the attention because of its nearshore reef, and it is worth visiting. It is not, however, undiscovered — it is one of Martin County's best-known beaches, and erosion and restoration work have repeatedly affected parking, access and conditions. Check before you go.
+
+Martin County manages a range of other public beaches and access points along Hutchinson Island, from full-service beach parks through smaller public access areas to less-developed beachfront. Stuart Beach, Jensen Beach, Santa Lucea, Chastain, Fletcher and a number of smaller access points all sit along the island. Which one suits depends on whether you want lifeguards, restrooms, showers, substantial parking, snorkeling conditions, accessibility features or simply fewer people.
+
+Worth saying: driving farther north does not reliably buy you an empty beach. Crowds track the day of the week, weather, surf, season, holidays, parking, nearby construction, erosion and temporary closures. A smaller access point may well have fewer visitors, and it will also have fewer facilities and very little parking. Check the current beach map, lifeguard status and closures before leaving home.
+
+### Clifton S. Perry Beach
+
+A 17-acre natural area on NE MacArthur Boulevard, between Santa Lucea Beach and the House of Refuge. Martin County describes it as largely undisturbed and it runs the full width of the island, from the Atlantic to the Indian River Lagoon, taking in beach and dune, coastal strand, maritime hammock and tidal mangrove swamp, with a boardwalk through dense mangrove out to the lagoon.
+
+Amenities and permitted activities can change as improvements are made, so confirm current access before planning a beach or paddling trip around it.
+
+## Two Museums Worth the Detour
+
+The Elliott Museum, near Stuart Beach, is better known than most of this list, but visitors consistently underestimate its range. Depending on what is showing, it covers historic automobiles, regional history, baseball memorabilia, art, Americana and temporary exhibitions. The vehicle collection makes it a sound choice for a rainy day, a hot afternoon, or anyone interested in engineering and design. Exhibitions and display systems change, so check the current schedule rather than assuming any particular collection or mechanical display will be running.
+
+The Stuart Heritage Museum, downtown, is the easier one to miss entirely. The city describes it as a collection of artifacts connected with Stuart's past, and current city information lists free admission and daytime hours — verify the latest schedule before arriving. It combines well with a downtown walk, Riverwalk, lunch, the Lyric Theatre area or Market on Main, and it is about the lowest-effort way to add some local history to a downtown morning.
+
+## The Quieter Season
+
+Stuart does see reduced seasonal activity through parts of late spring, summer and early fall. In practice that can mean easier restaurant reservations, less event traffic, more parking, fewer seasonal residents and quieter weekday beaches.
+
+What it does not mean is that the town runs at half volume. Summer residents, visitors, school schedules, fishing conditions, holidays and weekend beach traffic all keep things moving.
+
+The trade-offs are real: high temperatures, humidity, strong UV, afternoon thunderstorms, lightning, heavy rain, mosquitoes, hurricane-season planning and marine conditions that change quickly. Outdoor plans work best early or late, and museums, shaded parks and indoor attractions earn their place in the middle of a July afternoon.
+
+## What Is Not Really Hidden
+
+Worth being straight about three things. Bathtub Beach is one of the best-known beaches in the county. Downtown Stuart is the city's primary public gathering place, not an undiscovered district. Riverwalk is a signature city amenity and a maintained public park, not a secret trail. In all three cases the quieter experience comes from the hour you choose, not from the place being unknown — and our [things-to-do guide](/blog/best-things-to-do-in-stuart-florida) covers them properly.
+
+## How to Make the Most of These Places
+
+Go early: mornings are cooler and calmer, and nearly everything here is better at one end of the day. Check official alerts for park closures, trail conditions, beach status, museum hours, weather, water quality and tides before you drive over. Bring water and insect protection, because preserves and natural trails are hot, exposed and buggy. Wear proper shoes, since rocky shore, wet trail and deep sand all ask more than sandals. Observe wildlife from a distance and never feed, touch or pursue it. Stay off the dunes, avoid seagrass, keep to marked trails and take your trash out. And do not assume facilities exist — a small park or beach access may have no restroom, no lifeguard, no shade and almost no parking.
+
+### A Low-Effort Hidden-Gem Day
+
+Walk Riverwalk shortly after sunrise. Mid-morning, visit the Stuart Heritage Museum or wander downtown. Late morning, stop at Shepard Park for a river view or a picnic. In the afternoon, take the Elliott Museum if it is hot or raining, or walk part of Seabranch if conditions are comfortable. Then finish at a public waterfront park for sunset.
+
+That is a full day of the quieter Stuart without a boat and without a whole day on the sand.
+
+## The Bottom Line
+
+Stuart's hidden gems are mostly not unknown places. They are overlooked parts of familiar ones: the natural trails behind Halpatiokee's ball fields, Seabranch's rare scrub, Riverwalk at first light, Shepard Park outside peak boating hours, a public paddling route on the South Fork, a smaller Hutchinson Island access, the rocky shoreline by the House of Refuge when conditions allow, and a local museum during a summer storm.
+
+The way to find this side of town is to slow down, check current access and go a little past whatever appears first in a visitor guide. The reward is not guaranteed solitude. It is a better understanding of the river, the shoreline and the natural areas that shape daily life here.`,
     faqs: [
-      { q: "What are the hidden gems in Stuart, Florida?", a: "Halpatiokee Regional Park with its 500-plus acres and mountain-biking trails, Seabranch Preserve State Park for painted buntings and quiet hiking, the weekend sandbar gatherings on the flats, the downtown Riverwalk at sunrise, the small riverfront parks and boat ramps most people only use as launch points, and the vintage vehicle collection at the Elliott Museum." },
-      { q: "Where can you go mountain biking near Stuart, Florida?", a: "Halpatiokee Regional Park has a genuine single-track network with roots, berms and technical sections along the South Fork of the St. Lucie River — unusual for terrain this flat. The park runs to over 500 acres and also offers hiking, kayak access and sports fields." },
-      { q: "Where can you see painted buntings near Stuart?", a: "Seabranch Preserve State Park, south of Stuart, is one of the better birding sites in the county, with sand pine scrub, flatwoods and hammock. Painted buntings are reliably present in the cooler months, alongside woodpeckers, herons and migrating warblers in spring and autumn. Trail traffic is very light." },
-      { q: "What is the Stuart sandbar?", a: "A weekend social institution rather than a formal destination — on calm days boats raft up on the flats and a floating gathering forms for the afternoon. It has its own etiquette: anchor with room, keep music at a reasonable level, take rubbish home, and avoid damaging seagrass." },
-      { q: "What free things are there to do in Stuart, Florida?", a: "Walking the downtown Riverwalk, hiking or biking Halpatiokee Regional Park, birding at Seabranch Preserve, and using the string of small riverfront parks and boat ramps along the North and South Forks. Sunrise on the Riverwalk costs nothing and is the single best free ten minutes in town." },
-      { q: "Is Stuart worth visiting in the summer?", a: "For residents, summer is often the best time — the seasonal population has gone, beaches and restaurants are uncrowded and boat ramps have no queues. It is hot and humid with near-daily afternoon storms, so outdoor plans work best early in the day, and some seasonal businesses reduce hours." },
+      { q: "What are the hidden gems in Stuart, Florida?", a: "The preserve behind Halpatiokee Regional Park's athletic fields, with hiking and a natural-surface mountain-bike network; Seabranch Preserve State Park for rare sand pine scrub and quiet hiking; the downtown Riverwalk shortly after sunrise; Shepard Park and the other small riverfront parks most people use only as boat ramps; the public paddling trail on the South Fork; the rocky shoreline by the House of Refuge; and the Elliott and Stuart Heritage museums." },
+      { q: "Where can you go mountain biking near Stuart, Florida?", a: "Halpatiokee Regional Park, at 8303 SW Lost River Road, has roughly 7.5 miles of natural-surface trail with roots, bridges, narrow sections and uneven terrain — unusual for ground this flat. Martin County describes the mountain-biking area as an unsupervised facility and warns that the activity carries a significant risk of injury, so wear a helmet, ride within your ability, avoid wet or closed trails, and check the county's current waiver requirements if you are under eighteen." },
+      { q: "What wildlife can you see at Seabranch Preserve State Park?", a: "Seabranch protects rare sand pine scrub along with scrubby flatwoods, pine flatwoods, baygall and mangrove habitat, and species recorded there include gopher tortoises, Florida scrub-jays, sandhill cranes, bald eagles, swallow-tailed kites, herons and egrets, wood storks and bobcats. Sightings are never guaranteed. The preserve is known for its scrub and scrub-jays rather than for painted buntings, so if you are traveling for one particular species, check recent local observations first." },
+      { q: "How big is Halpatiokee Regional Park?", a: "It is Martin County's largest park: about 65 acres of active parkland — ball fields, tennis and pickleball, disc golf, picnic areas and a roller-hockey rink — surrounded by roughly 500 acres of wetland preserve, including about four miles of frontage along the west side of the South Fork of the St. Lucie River. The county records habitat there for at least thirteen state-listed endangered or threatened species. The name is the Seminole word for \"alligator water.\"" },
+      { q: "Where can you kayak near Stuart, Florida?", a: "Martin County's designated paddling trails cover about 37.7 miles across the Indian River Lagoon and St. Lucie River systems. The St. Lucie River portion runs roughly 21.5 miles from the Atlantic Ridge and Halpatiokee area toward the lagoon and the St. Lucie Inlet, and the lagoon portion adds about 16.2 miles between Jensen Beach and Hobe Sound. Launches include Halpatiokee and the 51-acre Delaplane Preserve, though a launch shown on a map can be closed for maintenance, weather or water level, so confirm before loading the car." },
+      { q: "Is Stuart worth visiting in the summer?", a: "Parts of late spring, summer and early fall are quieter, which can mean easier restaurant reservations, less event traffic, more parking and quieter weekday beaches. It does not mean the town empties out — summer residents, visitors, school schedules, fishing and holiday weekends all keep it busy. Expect heat, humidity, strong sun, afternoon thunderstorms and mosquitoes, so plan outdoor time early or late and keep museums and shaded parks for the middle of the day." },
     ],
     internalLinks: ["best-things-to-do-in-stuart-florida", "local-guide-to-stuart-florida", "what-its-really-like-living-in-stuart-florida"],
-    funFact: "Halpatiokee Regional Park has a real mountain-biking trail network — single-track with roots, berms and technical sections — which is close to absurd in terrain this flat. Most Stuart residents know the park only as the place their kids play soccer and have never ridden or walked the back trails along the South Fork.",
+    funFact: "Halpatiokee Regional Park is far more than its athletic fields. About 65 acres of active recreation sit inside roughly 500 acres of preserve, with miles of hiking, biking and paddling and about four miles of frontage on the South Fork of the St. Lucie River. The off-road biking trails are real natural-surface trails rather than a paved loop around the ball diamonds — Martin County classifies mountain biking there as an unsupervised activity and warns riders that the terrain carries a significant risk of injury. That is the surprise: someone can turn up for soccer, baseball or pickleball and never realize a large natural preserve begins just past the developed facilities. Check trail conditions before you hike or ride, bring water, use proper safety equipment, and expect the ground to change after rain.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'stuart-vs-nearby-cities',
