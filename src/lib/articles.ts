@@ -12356,99 +12356,163 @@ Learn the water, learn the bridges and show up downtown. The rest of Stuart make
     order: 3,
     seoTitle: "Best Neighborhoods in Stuart, Florida",
     metaTitle: "Best Neighborhoods in Stuart, FL: Sorted by Water Access",
-    metaDescription: "Why bridge clearance — not price — sorts the Stuart market. A local agent on Sewall's Point, North River Shores, Hutchinson Island and the inland value belt.",
+    metaDescription: "Why jurisdiction and bridge clearance, not price, sort the Stuart market. Sewall's Point, North River Shores, Rocky Point, downtown, East Stuart, Hutchinson Island and the inland alternatives, with what to verify for each.",
     primaryKeyword: "best neighborhoods in Stuart Florida",
     secondaryKeywords: ["where to live in Stuart FL", "Sewall's Point", "Hutchinson Island Stuart", "North River Shores"],
     h1: "Best Neighborhoods in Stuart, Florida",
     heroImage: '/images/stuart/local-boat-on-lift.jpg',
-    body: `Most neighborhood guides to a waterfront town sort by price. In Stuart that's the wrong first cut, because two houses at the same price on the same river can be worth very different things depending on what you can get out of the dock.
+    body: `Choosing where to live in Stuart begins with one distinction: are you searching inside the incorporated City of Stuart, or across the broader Stuart area?
 
-Sort by **water access first**. Everything else follows.
+Many communities marketed with Stuart are legally separate municipalities or unincorporated parts of Martin County. That difference reaches property taxes, police and public services, zoning, utilities, rental regulations, boat and RV storage, historic-preservation rules, permitting, and flood and evacuation planning.
 
-## The question that reorders the whole map
+So the best choice depends less on a neighborhood ranking than on the lifestyle, the property type and the level of water access you actually want. For boaters, the search starts with the route between the dock and open water. For non-boaters, walkability, maintenance, community structure and price matter far more.
 
-If you own or intend to own a boat, the governing question is not "is it waterfront?" It's:
+## Start With the Municipality
 
-**What can I keep here, and where can I take it?**
+A Stuart mailing address does not mean a property is inside the City of Stuart. The broader market takes in the city itself, the Town of Sewall's Point, the Town of Ocean Breeze, unincorporated North River Shores, unincorporated Rocky Point and Port Salerno, Jensen Beach, Hutchinson Island, Palm City and the rest of unincorporated Martin County.
 
-Three variables decide that, and they are property-specific:
+Before comparing two homes, use the Martin County property-information system and the municipal maps to establish where each one actually sits. Do not rely on the mailing city in a listing.
 
-- **Bridge clearance (air draft).** Several bridges sit between the inland waterways and the St. Lucie Inlet, and some are fixed. A sailboat with a mast, or a sportfisher with a tower, may simply be unable to reach the ocean from a given dock. A center console will not care at all.
-- **Water depth at the dock at low tide.** Advertised dockage means nothing if your draft doesn't clear at the bottom of the tide.
-- **Distance and time to the inlet.** Twenty minutes versus an hour changes whether you actually use the boat on a Tuesday evening.
+## For Boaters: The Property Is Only Half the Purchase
 
-"Ocean access" in a listing can mean anything from genuinely unobstructed to technically-true-with-three-caveats. Verify clearances, depths and route for **your** vessel, with your own eyes or your own surveyor, before you fall in love with a seawall.
+A waterfront home can have a private dock and still be unsuitable for the boat you intend to keep there. Before you evaluate the kitchen, establish depth at the dock, depth along the route, tidal limits, fixed bridges, drawbridges and their opening schedules, vertical clearance, canal width, dock dimensions, lift capacity, seawall condition, distance to the inlet, and the no-wake and slow-speed zones.
 
-Buyers who get this right pay for exactly the access they need. Buyers who get it wrong either overpay for capability they'll never use or buy a dock they can't use at all.
+Two vessel measurements govern all of it. Draft is how far the boat extends below the waterline. Air draft is the height from the waterline to its highest fixed point. A boat can fit beside the dock and be unable to clear a bridge. Another property can have an open route and too little water at low tide.
+
+### Do Not Rely on "Ocean Access"
+
+"Ocean access" is a marketing phrase. It can mean no fixed bridges, one or more drawbridges, fixed bridges that work for smaller boats, a shallow route that depends on the tide, a long trip through no-wake zones, or access that is practical only for certain vessels.
+
+Ask for the exact route from the property to the St. Lucie Inlet, then verify it for your boat against current charts, bridge-clearance data and tide tables, with a marine surveyor or a qualified local captain, by direct observation, and with dock and lift inspections. The seller's boat using the property successfully does not prove that yours will. Buyers who get this right pay for exactly the access they need. Buyers who get it wrong either overpay for capability they will never use or buy a dock they cannot use at all.
 
 ![A masted sailboat moored off a private dock on a sheltered waterway](/images/stuart/local-sailboat-moored.jpg "Air draft, not dock length, is what decides whether a property can serve a boat like this one.")
 
-## The premium waterfront tier
+## Sewall's Point
 
-**Sewall's Point.** The peninsula between the St. Lucie River and the Indian River Lagoon, and Stuart's best-known address. It is its own incorporated town with its own government, which matters for taxes, services and rules — you are not buying into the City of Stuart. Large lots, heavy tree canopy, water on both sides, and the highest price per square foot in the area. Deep-water access on the lagoon side is the draw.
+Sewall's Point is one of the best-known addresses associated with Stuart, and it is not part of the City of Stuart. It is a separately incorporated town on the peninsula east of downtown, between waters connected to the St. Lucie River and the Indian River Lagoon, known for mature landscaping, established homes, larger lots in many sections, a mix of waterfront and interior properties, and a primarily residential character close to downtown and the beaches.
 
-**Hutchinson Island waterfront.** Oceanfront and river-side properties on the barrier island. Beach at the door, and everything that comes with barrier-island ownership: wind exposure, insurance, and evacuation orders that come first.
+Waterfront conditions differ from one side of the peninsula to the other and from lot to lot. Verify depth, exposure, dock permits, seawalls, bridges, the inlet route, the flood zone and the town's own taxes and rules. Not every Sewall's Point property is waterfront, and not every waterfront lot offers the same navigability.
 
-## The boating neighborhoods
+It suits buyers who want a residential peninsula setting, mature neighborhoods, larger lots and waterfront options near downtown and the beaches. Weigh the separate town government and taxes, older housing in some sections, flood and storm exposure, property-specific boating access, insurance and maintenance costs, and the near absence of commercial activity inside the town.
 
-This is where most people who move here for the water actually end up, and where the value is.
+## North River Shores
 
-**North River Shores.** Established, north of downtown across the river, with canal and river frontage at a wide range of price points. A long-standing favorite among boaters for exactly the reasons above — many properties have workable access without Sewall's Point pricing.
+North River Shores is an established unincorporated community north of the St. Lucie River and west of the Roosevelt Bridge. It is not inside the city, though most properties carry Stuart mailing addresses. Housing runs from interior single-family homes and older ranch houses to canal-front and riverfront properties, renovated homes, association sections and non-waterfront homes near boating facilities.
 
-**Rocky Point.** South-east of downtown toward the inlet, which is the point — this is some of the shortest running time to the ocean in the area. Mixed housing stock, strong boating community.
+It has long drawn buyers who want an established neighborhood near downtown, US-1 and the river, and its water access varies enormously. One listing has direct river frontage, the next a canal behind a fixed bridge, shallow water, a longer run to the inlet, or no dock at all. Many properties offer workable access without Sewall's Point pricing, and that is the appeal.
 
-**Snug Harbor, Krueger Creek and the smaller riverfront pockets.** Older, quieter, canal-oriented neighborhoods where the house is often modest and the water access is the asset.
+It suits buyers who want an established neighborhood with both waterfront and dry options, Stuart-area shopping and downtown nearby, renovation potential and a less formal setting than a gated community. Weigh the unincorporated jurisdiction, property-specific association rules, bridge clearance and canal depth, older roofs and systems, flood insurance, and traffic near US-1 and the bridge.
 
-## Walkable downtown
+## Rocky Point
 
-**Downtown Stuart and the surrounding historic streets.** Cottages, bungalows and small older homes within walking distance of the Riverwalk, the Lyric and the restaurants.
+Rocky Point is an unincorporated waterfront community south of Stuart beside Port Salerno and Manatee Pocket. It is not within the city. Boaters look here because parts of it offer relatively direct access toward the St. Lucie Inlet, and the housing is varied: older single-family homes, renovated waterfront, canal-front houses, interior lots, non-HOA streets and private docks.
 
-This is a genuinely different product from the rest of the market: you are buying walkability, not dockage. It suits people who want to leave the car parked, and it holds appeal for buyers who don't own a boat at all — which in this town is a smaller pool, and worth knowing on both sides of a transaction.
+"Close to the inlet" still has to be evaluated property by property. No-wake zones, canal location, tide, bridges and the boat's cruising speed all decide the actual trip. We cover the peninsula in detail in our [Rocky Point buyer's guide](/blog/rocky-point-stuart-florida).
 
-Older housing stock means older systems. Budget for the roof, the electrical and the windows, and get a proper inspection rather than a reassuring one.
+It suits buyers who want a boating-oriented community, Manatee Pocket nearby, private-dock possibilities, an established and varied neighborhood, and non-HOA options. Weigh the unincorporated jurisdiction, mixed housing ages and condition, marine and commercial activity nearby, flood and insurance exposure, canal and seawall maintenance, and the different routes to open water within the same neighborhood.
 
-## Beachside and lock-and-leave
+## Snug Harbor and Krueger Creek
 
-**Hutchinson Island condominiums.** The straightforward answer for beach access without maintaining a house — and the standard choice for seasonal residents.
+Snug Harbor, Krueger Creek and the smaller riverfront pockets around them are another version of Stuart waterfront: canal-front homes, river access, older residences, private docks and established streets close to downtown or the main roads. The house is often modest and the water is the asset.
 
-Read the association documents carefully. On a barrier island, reserve funding, recent structural reporting and insurance history are not paperwork, they're the investment. Ask what the last three years of assessments looked like and what's scheduled.
+Verify the municipal boundary and the boating route for each address. Some of these streets sit behind bridges or shallow water; others have a more direct route.
 
-## The parts of the market people overlook
+They suit buyers who want a smaller waterfront neighborhood, an established home, a private dock and a quieter setting near downtown. Weigh the limited inventory, older systems, canal depth and clearance, seawall and dock condition, flood exposure and any neighborhood-specific restrictions.
 
-**Ocean Breeze.** A very small incorporated town near Jensen Beach with its own government and a distinct housing profile. Easy to miss on a map and worth knowing exists.
+## Historic Downtown Stuart and the Nearby Streets
 
-**Manufactured and mobile home communities.** Martin County has a meaningful supply of them, and they are frequently the most attainable route to living in this area — particularly for buyers who want to be near the water without a waterfront budget. The diligence is different from a stick-built house: land-lease versus owned lot, community financials, age and wind rating of the structure, and financing that often works differently. Worth understanding rather than dismissing.
+Downtown is a different product from the boating neighborhoods. The city describes its historic center as more than 50 locally owned shops, restaurants and galleries beside the St. Lucie River and the Riverwalk, and the surrounding streets offer historic cottages and bungalows, smaller single-family homes, townhomes, condominiums and infill, reachable on foot, by bicycle or on the city's free tram.
 
-**Age-restricted (55+) communities.** Several operate in and around Stuart, and they are a legitimate and often excellent option — lower maintenance, built-in social structure, and pricing that can be considerably better than comparable non-restricted housing. Confirm the community's occupancy rules, because they vary in how they're written.
+The city continues to document and preserve its historic resources, and the Stuart Community Redevelopment Area, created in 1986, covers downtown and the historic neighborhoods beside it, including Frazier Addition and Potsdam. You are buying walkability here, not dockage, and it appeals to people without a boat at all, which in this town is a smaller pool and worth knowing on both sides of a transaction.
 
-## The inland value belt
+It suits buyers who want walkability, restaurants and shops at hand, Riverwalk access, historic character, community events, and a smaller or lower-maintenance home. Weigh older electrical, plumbing and roofs, historic-preservation requirements, limited private parking, event and railroad noise, flood exposure, small lots and scarce private dockage. Get a proper inspection rather than a reassuring one.
 
-**Mainland Stuart, and the neighborhoods west and south toward Palm City and Port Salerno.** Single-family homes without a water premium, at the most attainable prices in the area, inside the same county services and school district.
+Walkability depends on the exact address. A property with a Stuart mailing address several miles from downtown is not walkable because it shares the name.
 
-If your search keeps returning waterfront you can't afford, this is the part of the market you're missing. Plenty of people here keep the boat at a marina and buy the house inland — which is very often the better financial decision, since a slip costs less annually than the price gap between an inland home and a comparable one with a dock.
+## East Stuart
 
-## Choosing, in order
+East Stuart is a historically significant neighborhood southeast of downtown. The city identifies it as Stuart's most prominent historically Black community, platted as Lincoln Park in 1913 and renamed East Stuart in 1964. It holds historic resources, single-family homes, churches and community institutions close to downtown, with ongoing public and private reinvestment.
 
-1. **Boat or no boat?** If no boat, ignore the entire water-access analysis and buy walkability or value. It will save you a great deal of money.
-2. **If boat: what boat?** Air draft and draft determine your search area before price does.
-3. **Dock it or slip it?** Run the actual numbers. Ownership of water frontage brings seawall and dock maintenance that a marina slip does not.
-4. **City, town, or unincorporated county?** Stuart, Sewall's Point, Ocean Breeze and unincorporated Martin County have different governments, millage and rules. Confirm which one an address is in.
-5. **Then price.** Our [cost of living guide](/blog/cost-of-living-in-stuart-florida) covers the carrying costs that separate two identically-priced homes.
+On July 29, 2026, the East Stuart Historic District was listed on the National Register of Historic Places, announced by the city the following week as the conclusion of a multi-year nomination effort led by its redevelopment agency. Evaluate each property and block individually, including zoning, existing uses and nearby redevelopment plans.
 
-Stuart rewards specificity. The town is small, the inventory is limited, and the buyers who know exactly what access they need get the right house at the right number.`,
+It suits buyers who want proximity to downtown, a historic community context, older homes, renovation opportunities and city services. Weigh property condition, the implications of historic-district status, nearby land uses, active redevelopment, railroad and road proximity, and flood and drainage conditions.
+
+## Hutchinson Island
+
+Hutchinson Island is the barrier island east of Stuart, with oceanfront and riverfront property, and it is not one Stuart neighborhood. Different stretches fall under different municipalities, counties and unincorporated jurisdictions. Housing includes oceanfront and riverfront condominiums, single-family homes, gated communities, seasonal residences, properties with marina access and communities with golf or recreation amenities.
+
+It suits buyers who want direct beach access, ocean or river views, condominium living, seasonal or lock-and-leave ownership, resort-style amenities and barrier-island life. Weigh wind and salt exposure, evacuation orders that come first, flood and storm-surge risk, bridge dependence, association fees, insurance, special assessments, building age, and the structural inspections and reserve funding behind the fees. Martin County adopts the FEMA flood maps and participates in the National Flood Insurance Program, and the risk and the insurance requirement still have to be checked for the individual property.
+
+### Condominium Due Diligence
+
+A Florida condominium buyer should read far more than the monthly fee: the current budget, financial statements, reserve schedule, Structural Integrity Reserve Study, milestone-inspection reports, engineering reports, insurance, recent minutes, pending litigation, special assessments, planned capital projects, and the rules on rentals, pets and renovations.
+
+Florida generally requires a Structural Integrity Reserve Study for residential condominium buildings of three or more habitable stories, repeated at least every ten years. Milestone inspections are a separate requirement, sometimes done at the same time. Do not ask only whether an inspection was completed. Ask what it found, which repairs were recommended, whether contracts were signed, how the work is funded, whether reserves went up, whether an assessment is likely and whether the insurance changed. A well-maintained building with higher fees may be far healthier than one advertising low fees and thin reserves.
+
+## Ocean Breeze
+
+Ocean Breeze is a very small incorporated town near Jensen Beach with its own municipal government and a housing history rooted in manufactured and mobile-home living. It is not a Stuart neighborhood. Today's housing mixes older and newer property types depending on the section and its redevelopment history.
+
+It suits buyers who want a small incorporated community, proximity to Jensen Beach and Stuart, and lower-maintenance living. Weigh municipal taxes and services, ownership structure, community fees, flood exposure, property type, financing, insurance, and rental and occupancy rules. Confirm whether you would own the underlying land or hold some other form of interest.
+
+## Manufactured-Home Communities
+
+Manufactured-home communities are another route into the Stuart-area market and frequently the most attainable one, and the ownership structures differ. A buyer may purchase a home on an owned lot, a home on leased land, a cooperative interest, membership in a resident-owned community, or a structure subject to monthly lot rent. Those are financially and legally different things.
+
+Before purchasing, confirm whether land is included, the lot rent and its increase history, the community's financial condition, the age and wind standard of the home, insurance availability, financing options, resale restrictions, pet rules, occupancy requirements, storm history and evacuation planning. Never compare the purchase price of a land-lease home directly with a fee-simple house without accounting for the continuing land expense.
+
+## Age-Restricted Communities
+
+The Stuart area has communities operating under the federal housing-for-older-persons rules: condominiums, manufactured-home communities, villas, townhomes and single-family neighborhoods, with amenities and maintenance responsibilities that vary widely. They are a legitimate and often excellent option, with lower maintenance and a built-in social structure.
+
+Before purchasing, review the minimum-age requirement, occupancy rules, the rules for younger spouses or residents, guest restrictions, association fees, what maintenance is included, rental limits, reserve funding, pet restrictions, parking and the recreational facilities. Age-restricted does not mean assisted living, and it does not mean healthcare is provided.
+
+## Inland Stuart and the Nearby Mainland
+
+Buyers who do not need private dockage have broader choices inland: single-family homes, townhomes, villas, condominiums, gated communities, non-HOA streets, older neighborhoods and newer infill, at the most attainable prices in the area and inside the same county services and school district.
+
+Buying inland removes the waterfront premium and some marine-maintenance exposure. It does not automatically mean a location outside a flood zone, lower insurance, newer construction, no HOA, better value or an easier commute. Each property still has to be evaluated on its own.
+
+### Keeping the Boat at a Marina
+
+Some buyers take the inland house and keep the boat at a marina, which avoids seawall replacement, dock repair, lift maintenance, dredging worries, waterfront landscaping and some storm preparation. Marina costs include monthly or annual slip rent, electricity, water, storage, haul-out fees, access restrictions, insurance requirements, waiting lists and minimum lease terms.
+
+There is no universal rule that a slip costs less than the price gap between a waterfront and an inland home. Run both options with current property prices and actual marina availability.
+
+## A Better Order for Choosing
+
+1. **Decide whether private water access is essential.** Without a boat, prioritize walkability, beach access, amenities, lot size, maintenance, proximity to work and price. A view may still matter; a private dock will provide little practical value.
+2. **Identify the vessel.** Record length, beam, draft, air draft, weight and lift requirements. Those numbers eliminate properties before price becomes relevant.
+3. **Choose private dockage or a marina.** Compare the waterfront premium, insurance, flood exposure, seawall and dock maintenance, lift installation and upkeep, marina rent, travel time to the boat, slip availability and convenience.
+4. **Confirm the jurisdiction.** Stuart, Sewall's Point, Ocean Breeze, unincorporated Martin County, or another municipality or county, and compare the taxes, services and regulations.
+5. **Review the complete ownership cost.** Property taxes after purchase, homeowners and flood insurance, association or condominium fees, assessments, utilities, maintenance, dock, seawall and lift expenses, marina costs and commuting. Two homes at the same price can carry very different annual costs, and our [cost of living guide](/blog/cost-of-living-in-stuart-florida) works through them.
+
+## What to Verify Before Buying
+
+For every property, confirm the municipality and county, property taxes, zoning, future land use, utility providers, flood zone and elevation, insurance quotes, association or condominium obligations, rental rules, roof and major systems, nearby development, commute and traffic, and school assignment where relevant.
+
+For waterfront property, also confirm water depth, low-tide conditions, bridge clearance, drawbridge schedules, dock permits, seawall condition, lift capacity, no-wake zones, the route to the inlet and current navigation conditions. For condominiums, review the milestone inspection, the reserve study, reserve balances, special assessments, insurance coverage, engineering reports and board minutes.
+
+## The Bottom Line
+
+The Stuart area offers several distinct versions of coastal living: walkability near the historic downtown, private dockage in an established boating community, residential privacy in Sewall's Point, direct beach access on Hutchinson Island, lower-maintenance condominium living, an age-restricted community, a manufactured home, or an inland house with a separately rented slip.
+
+No single neighborhood is best for everyone. The right choice depends on the property's actual jurisdiction, the form of ownership, the complete carrying cost and, when boating is involved, the route between the dock and the water you intend to use.
+
+Start with how you expect to live. Then verify that the property can support it. Stuart rewards specificity.`,
     faqs: [
-      { q: "What is the best neighborhood in Stuart, Florida?", a: "It depends primarily on whether you need boat access. Sewall's Point is the premium waterfront address, North River Shores and Rocky Point are the established boating neighborhoods with better value, downtown offers genuine walkability rather than dockage, Hutchinson Island covers beachside and condominiums, and mainland Stuart offers the most attainable single-family homes." },
-      { q: "What should I check before buying a waterfront home in Stuart?", a: "Three property-specific things: bridge clearance between the dock and the St. Lucie Inlet, since some bridges are fixed and may prevent a masted or towered vessel from reaching the ocean; water depth at the dock at low tide against your vessel’s draft; and realistic running time to the inlet. Listing language such as \"ocean access\" can mean very different things — verify for your specific vessel." },
-      { q: "Is Sewall's Point part of Stuart?", a: "No. Sewall's Point is its own incorporated town with its own government, located on the peninsula between the St. Lucie River and the Indian River Lagoon. That affects taxes, services and local rules, so buyers should confirm which municipality an address actually sits in — Stuart, Sewall's Point, Ocean Breeze, or unincorporated Martin County." },
-      { q: "Where is the most affordable place to live in Stuart?", a: "Mainland Stuart and the neighborhoods running west and south toward Palm City and Port Salerno offer the most attainable single-family homes, without a waterfront premium but inside the same county services and school district. Many boat owners buy inland and keep the vessel at a marina, which often costs less annually than the price gap for a home with a dock." },
-      { q: "Is it better to buy a home with a dock or keep a boat at a marina in Stuart?", a: "It depends on use and budget. Owning water frontage brings ongoing seawall, dock and lift maintenance on top of the purchase premium, while a marina slip converts most of that into a predictable annual cost. For owners who use the boat occasionally, buying inland and renting a slip is frequently the better financial decision." },
-      { q: "What should I know about buying a condo on Hutchinson Island?", a: "Review the association documents closely — reserve funding, recent structural reporting, insurance history and the last several years of assessments matter more than the finishes. Barrier-island buildings carry wind exposure and evacuation considerations, and those factors flow directly into association costs." },
+      { q: "What is the best neighborhood in Stuart, Florida?", a: "It depends first on jurisdiction and then on whether you need boat access. Sewall's Point is the premium residential address and a separate town; North River Shores and Rocky Point are the established boating neighborhoods, both unincorporated; downtown and East Stuart offer walkability and historic character inside the city; Hutchinson Island covers beachside condominiums and homes; and the inland mainland offers the most attainable single-family houses. Confirm which municipality an address actually sits in before comparing." },
+      { q: "What should I check before buying a waterfront home in Stuart?", a: "Property-specific things: bridge clearance and drawbridge schedules between the dock and the St. Lucie Inlet against your vessel’s air draft; water depth at the dock and along the route at low tide against its draft; realistic running time through the no-wake zones; and the seawall, dock permits and lift capacity. \"Ocean access\" can mean anything from unobstructed to usable only by small boats at high tide, so verify the exact route for your specific vessel." },
+      { q: "Is Sewall's Point part of Stuart?", a: "No. Sewall's Point is its own incorporated town with its own government, police department and taxes, on the peninsula between the St. Lucie River and the Indian River Lagoon. Buyers should confirm which municipality an address sits in — Stuart, Sewall's Point, Ocean Breeze, or unincorporated Martin County — because taxes, services and rules differ." },
+      { q: "Where is the most affordable place to live in Stuart?", a: "Inland mainland Stuart and the neighborhoods running toward Palm City and Port Salerno offer the most attainable single-family homes, without a waterfront premium and inside the same county services and school district. Manufactured-home and age-restricted communities are often more attainable still, with different ownership structures to check. Inland does not automatically mean outside a flood zone or cheaper to insure, so evaluate each property." },
+      { q: "Is it better to buy a home with a dock or keep a boat at a marina in Stuart?", a: "There is no universal answer. Owning water frontage brings the purchase premium plus seawall, dock and lift maintenance, while a marina slip converts most of that into rent, utilities, storage and haul-out fees, subject to waiting lists and lease terms. Run both options with current property prices and actual slip availability rather than assuming the slip is cheaper." },
+      { q: "What should I know about buying a condo on Hutchinson Island?", a: "Read the association documents, not the finishes: budget, reserves, the Structural Integrity Reserve Study that Florida requires for buildings of three or more habitable stories, milestone-inspection findings, insurance, minutes, litigation and planned assessments. Ask what the inspections found and how the work is funded. Barrier-island buildings carry wind, surge and evacuation considerations that flow straight into association costs." },
     ],
     internalLinks: ["what-its-really-like-living-in-stuart-florida", "cost-of-living-in-stuart-florida", "who-should-move-to-stuart-florida"],
-    funFact: "In Stuart the most important number on a waterfront listing often is not the price or the frontage — it is the bridge clearance between that dock and the St. Lucie Inlet. Some bridges on the way out are fixed, so a sailboat or a towered sportfisher can be landlocked at a property advertised as having ocean access. A center console owner will never notice. Same house, entirely different value.",
+    funFact: "For a waterfront buyer, the most important number may not be the frontage or the dock length. It may be the vessel's air draft compared with the lowest bridge clearance between the property and the St. Lucie Inlet. A listing can accurately advertise ocean access even though that route works only for boats that fit beneath its bridges and can navigate the available depth. That does not make the property defective; it means its value depends partly on the boat using it. Verify the exact route to the inlet, the fixed and opening bridges, the published clearances, the depth at low tide, the no-wake zones and the dock and lift capacity. A center-console owner, a sailboat owner and a towered sportfishing-boat owner may put completely different values on the same waterfront home.",
     author: 'john',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'best-things-to-do-in-stuart-florida',
