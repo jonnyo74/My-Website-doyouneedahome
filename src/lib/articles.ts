@@ -12522,121 +12522,185 @@ Start with how you expect to live. Then verify that the property can support it.
     order: 4,
     seoTitle: "Best Things to Do in Stuart, Florida",
     metaTitle: "Best Things to Do in Stuart, Florida",
-    metaDescription: "The best things to do in Stuart, Florida — the Riverwalk and Lyric Theatre, Bathtub Reef, the 1870s House of Refuge, Florida Oceanographic, and the fishing that earned the Sailfish Capital title.",
+    metaDescription: "The best things to do in Stuart, Florida — downtown and the Riverwalk, Market on Main, the Lyric, Bathtub Reef, the 1876 House of Refuge, Florida Oceanographic, Halpatiokee, and the fishing behind the Sailfish Capital title.",
     primaryKeyword: "things to do in Stuart Florida",
     secondaryKeywords: ["Stuart attractions", "what to do in Stuart FL", "Bathtub Reef Beach", "downtown Stuart"],
     h1: "Best Things to Do in Stuart, Florida",
     heroImage: '/images/stuart/local-open-water.jpg',
-    body: `Stuart packs an unusual amount into a small town, and almost all of it is either on the water or a five-minute walk from it.
+    body: `Stuart packs an unusual concentration of waterfront recreation, history, arts and outdoors into a small city, and almost all of it is either on the water or a short drive from it.
 
-Here's what's actually worth your time.
+Historic downtown sits beside the St. Lucie River. The beaches, museums and environmental attractions of Hutchinson Island are a short drive east. Boating and fishing remain the center of the place, and you do not need to own a boat to enjoy what makes it distinctive.
 
-## Walk the downtown and the Riverwalk
+Here is what is actually worth your time.
 
-Start here, because it explains the town.
+## Walk Through Historic Downtown
 
-Historic **downtown Stuart** is a compact walkable grid of independent shops, galleries and restaurants, with the **Riverwalk** boardwalk running along the St. Lucie River behind it. Dolphins and manatees turn up in the river with enough regularity that locals stop pointing.
+Start here, because it explains the town. The compact district holds more than 50 locally owned shops, restaurants and galleries beside the river, with historic buildings, public spaces and a walkable street grid that give Stuart a recognizable center rather than the string of disconnected plazas most Florida towns settle for.
 
-The **Lyric Theatre** has anchored the district since **1926** and still programs concerts, theater and film. It's the reason downtown has evening life rather than just lunch trade.
+A downtown visit takes in the independent shops, restaurants and cafés, galleries, the historic architecture, Flagler Park, Riverwalk Park, the Lyric Theatre, the public docks, and whatever market or live music is on. Parking tightens during festivals and in season, but it is a park-once district, and the city runs a free downtown tram whose routes and hours change, so check before relying on it.
 
-Time it for the weekly farmers market or one of the seasonal festivals and you'll see the entire town in one morning.
+## Walk the Riverwalk
 
-## Fish, because this is what the place is for
+Riverwalk Park sits behind City Hall on the St. Lucie, with a waterfront boardwalk, public docks, benches, picnic tables, restrooms, shade structures, bicycle parking and an outdoor stage. It is the right place for a morning walk, a short waterfront stop or an outdoor concert.
 
-Stuart is the **Sailfish Capital of the World** and the title isn't marketing. The combination of the St. Lucie Inlet, the proximity of the Gulf Stream, the estuary and the lagoon gives you offshore, nearshore and inshore fishing within a short run of each other.
+Dolphins and manatees do turn up in the river, often enough that locals stop pointing. They are wild animals, though, and no sighting can be promised. The Riverwalk Stage carries community programming through the year; check the city's current calendar.
 
-You don't need a boat to start. Charters run out of the local marinas at every level from a half-day inshore trip to serious offshore, and there's productive shore and pier fishing for the price of a license.
+## Visit Market on Main
 
-If you're moving here, book a charter early. It's the fastest possible orientation to the local water.
+Market on Main runs at Flagler Park every Sunday morning through the year, rain or shine, generally from 9 a.m., with holiday closures possible. It is more than a produce market: local farmers, artists, crafters, bakers, prepared food, musicians and community organizations.
+
+It is also the easiest way to stack a downtown morning. Shop the market, walk the river, look in on the stores, have lunch downtown and stay for the music. Time a visit for it and you will see the whole town in one morning.
+
+## Stay for Rock'n Riverwalk
+
+Rock'n Riverwalk is the recurring free outdoor concert series on the Riverwalk Stage, generally on Sunday afternoons following the market. The combination makes Sunday the easiest day of the week to experience downtown. Bring weather protection and check the schedule; outdoor programs move with rain, heat and special events.
+
+## See a Performance at the Lyric Theatre
+
+The Lyric opened on March 15, 1926, as a silent-movie house and has anchored downtown for generations. Today it programs concerts, theater, comedy, film, community performances and educational events, and it is the reason downtown has evening life rather than just lunch trade. Check the calendar and buy ahead when it matters; some events sell out.
+
+## Go Fishing
+
+Stuart has a long-established reputation as a sport-fishing destination and is widely known as the Sailfish Capital of the World. The title is not marketing. The St. Lucie Inlet, the nearby Gulf Stream, the estuary and the Indian River Lagoon put offshore, nearshore and inshore fishing within a short run of each other, along with canals, tributaries, beaches, shoreline spots and public fishing areas. Species and conditions move with the season, weather, location and method.
+
+You do not need a boat to start. Offshore and inshore charters run at every level, and there is guided fishing, pier and bridge fishing where permitted, shoreline fishing, kayak fishing and private-boat fishing. A charter is the best introduction, because a qualified captain will explain current conditions, the regulations, the gear and the local water. If you are moving here, book one early. It is the fastest orientation to the place.
+
+### Check the License Rules First
+
+Owning a rod is not the only requirement. Florida generally requires a saltwater fishing license to take or attempt to take saltwater species, with exemptions and different license types. Residents fishing only from shore may qualify for a shoreline license, while fishing from a vessel generally needs different coverage. Charter customers are usually covered under the captain's license, but confirm that with the operator.
+
+Before fishing, verify whether a license or an exemption applies, the size and bag limits, closed seasons, gear restrictions, protected species and local access rules, using current Florida Fish and Wildlife Conservation Commission information.
 
 ## Bathtub Reef Beach
 
-On Hutchinson Island, and the standout beach in the area. A natural worm-rock reef sits just offshore, breaking the Atlantic swell and creating a shallow, calm lagoon at the shoreline — hence the name.
+Bathtub Beach is on Hutchinson Island at 1585 SE MacArthur Boulevard, and it is the standout beach in the area. A natural worm-rock reef sits just offshore and, when the sea and water level are relatively calm, breaks the Atlantic swell and leaves a shallow, calm lagoon at the shoreline. Hence the name.
 
-The snorkelling over the reef is the draw, and the calm water makes it the easy choice for anyone who doesn't want surf. It's popular, parking is finite, and it periodically closes for erosion or renourishment work — check before driving over.
+The name is not a guarantee. Waves, currents, poor visibility, marine life, erosion, exposed or submerged rock, changing depths and storm damage all happen here. Martin County Ocean Rescue guards it daily, and the beach has a history of erosion, temporary closures and resilience work, so confirm its status before driving over. Parking is finite.
+
+### Snorkel Carefully at the Reef
+
+The reef is what makes Bathtub appealing for snorkeling when conditions allow. Check the flags, talk to the lifeguards, judge the visibility, watch the waves and current, keep off the reef, do not touch or chase wildlife, use appropriate flotation and supervision, and stay within your ability. A reef that knocks down some of the swell still holds sharp rock, living organisms and changing water. Snorkel on the conditions that day, not on the beach's reputation.
 
 ## The House of Refuge
 
-A **1870s lifesaving station** on the rocky Hutchinson Island shore, and **Martin County's oldest building**.
+The House of Refuge at Gilbert's Bar is one of Martin County's most important historic sites and its oldest surviving building. Built in 1876, it was part of a chain of ten stations put up along Florida's then-empty Atlantic coast over the following decade so that shipwreck survivors would have somewhere to walk to. Keepers kept supplies and patrolled the shore for people who had reached land but were still far from any settlement.
 
-These stations were built along Florida's then-empty coast to shelter shipwrecked sailors, and this is the last one standing. It sits directly above the Anastasia limestone shoreline with the Atlantic breaking below it. Worth the visit for the setting alone; the history is a bonus, and it's genuinely affecting once you understand what the building was for.
+It is the only one of the ten still standing. It later served under the U.S. Coast Guard and the U.S. Navy before becoming a museum, and it is listed on the National Register of Historic Places. Exhibits cover the shipwrecks, early lifesaving, maritime history, the keepers, Hutchinson Island's past and the Georges Valentine, the Italian barque driven onto the rocks here in the hurricane of October 1904.
+
+It sits directly above the Anastasia rock shoreline with the Atlantic breaking below. The setting alone justifies the trip, and the history is genuinely affecting once you understand what the building was for. The rocks are hazardous; follow the posted rules and stay clear of dangerous surf.
 
 ## Florida Oceanographic Coastal Center
 
-Also on Hutchinson Island — a coastal science center with a game-fish lagoon, a stingray touch experience, trails through coastal hammock, and exhibits about the estuary system.
+Florida Oceanographic Coastal Center is a marine-science and environmental-education facility on Hutchinson Island between the Indian River Lagoon and the Atlantic, run by the nonprofit Florida Oceanographic Society, which does education, research and advocacy on Florida's coastal ecosystems.
 
-It is also, usefully, the best place to understand the water-quality story that dominates local conversation, explained by people who study it. If you're new here and want the estuary situation from a scientific rather than a political source, spend an hour here.
+The center has a 750,000-gallon gamefish lagoon, sea-turtle programs, stingray programs with scheduled interaction periods, aquariums of local species, nature trails, coastal-habitat exhibits and interactive educational areas. Daily presentations cover the stingrays, the gamefish and the sea turtles, with times and animal interactions that change.
+
+It is especially useful for new residents who want to understand the Indian River Lagoon, the St. Lucie Estuary, seagrass and mangroves, local marine wildlife, the water-quality challenges and coastal restoration, explained by the people who study them rather than the people who argue about them. It is open Tuesday through Sunday, 10 a.m. to 4 p.m., and closed on a handful of major holidays; check admission and program times before going.
 
 ## Halpatiokee Regional Park
 
-The largest park in Martin County, running to over 500 acres along the South Fork of the St. Lucie. The name comes from a Seminole term meaning, roughly, "alligator water," which sets expectations appropriately.
+Halpatiokee is Martin County's largest park: roughly 65 acres of active recreation surrounded by about 500 acres of wetland preserve, with about four miles of frontage on the South Fork of the St. Lucie River. The name comes from a Seminole word meaning "alligator water", which sets expectations correctly. Alligators may be present, along with river otters, manatees, turtles, fish and a long list of birds.
 
-Hiking, genuine mountain-biking trails, kayak access to the South Fork, and sports fields. It is consistently under-visited relative to how good it is, and it's the answer for anyone who wants Stuart's outdoors without a boat. Our [hidden gems guide](/blog/hidden-gems-in-stuart-florida) covers more in this vein.
+Hiking, genuine mountain-biking trails, paddling, disc golf, tennis, pickleball, baseball, softball, soccer and football fields, picnicking and primitive camping by reservation, across pine flatwoods, oak hammock, scrub, wetlands and river habitat. It is consistently under-visited relative to how good it is, and it is the answer for anyone who wants Stuart's outdoors without a boat.
 
-## Get on the water without a boat
+Stay on the marked trails, keep away from wildlife, carry water, use insect protection, check trail conditions, wear a helmet on the bike trails, avoid flooded or closed trails and watch the storms. The mountain-bike trails are unsupervised, with roots, bridges, sudden grade changes and other obstacles. Our [hidden gems guide](/blog/hidden-gems-in-stuart-florida) covers more in this vein.
 
-Charters are one route. The cheaper ones:
+### Paddle the South Fork
 
-**Kayak the forks.** The North and South Forks of the St. Lucie narrow into mangrove and canopy upstream, and launch points exist at several county parks. Twenty minutes from downtown and it feels like nowhere near it.
+Bring a kayak or canoe to Halpatiokee and explore the South Fork. Other public launches exist around Martin County, but access, parking, tide and temporary closures should be checked before every trip.
 
-**Fish from shore.** Bridges, jetties, causeways and the county parks all produce. A Florida license and a rod is the entire barrier to entry.
+Expect narrow waterways, tree canopy, mangroves, current, shallow stretches, submerged obstacles, wildlife and fast weather changes. How quickly a route turns into a quiet mangrove corridor depends on the launch point, the water level, the direction, your pace, the weather, maintenance and seasonal vegetation, so no fixed number of minutes applies. Carry the required safety gear and leave a basic trip plan with someone on shore.
 
-**Take the Riverwalk.** Free, flat, and the dolphins turn up on their own schedule.
+## Enjoy the Water Without Owning a Boat
 
-## The museums
+Boat ownership is not necessary. Book a charter, rent a kayak or paddleboard, use an approved public launch, walk the Riverwalk, visit the waterfront parks, fish from an authorized shoreline spot, eat beside the river, or join an educational boat excursion. Verify that the operator, launch or tour is currently open.
 
-**The Elliott Museum**, near Stuart Beach, covers regional history alongside a well-known collection of vintage vehicles and Americana. It's a solid rainy-afternoon option and better than a small-town museum has any right to be.
+Public access does not mean every shoreline, seawall, bridge or dock is open for fishing or launching. Respect private property and posted restrictions.
+
+## The Elliott Museum
+
+The Elliott Museum sits on Hutchinson Island near Stuart Beach. Its collections and rotating exhibits run to vintage automobiles, local history, baseball memorabilia, artwork, Americana and temporary shows. It is best known for the vehicle collection and reaches well beyond it, and it is better than a small-town museum has any right to be. It is the right call in rain, in extreme afternoon heat, as a break from the beach, or with visitors who like regional history. Check hours and current exhibits before going.
 
 ## Sailfish Splash Waterpark
 
-A municipal waterpark with a long lazy river, a zero-depth entry play area and four-story slides. Unglamorous, extremely popular in summer, and the correct answer to what to do at two in the afternoon in August.
+Sailfish Splash is Martin County's waterpark in Stuart, with a 1,000-foot lazy river, two four-story water slides, a zero-depth-entry interactive splash playground, water features, shade, rental cabanas and an adjoining competitive pool complex that offers lap swimming at various times through the year.
 
-## Golf, quietly
+It operates seasonally. In 2026 it ran daily from late May into early August and then weekends through Labor Day, with spring-break and weekend openings earlier in the year. Hours and closures shift with weather, staffing, maintenance and swim meets, so check operating dates, admission, height requirements, outside-food rules and weather closures. It is the correct answer to what to do at two in the afternoon in August, with the caveat that an afternoon thunderstorm can shut it.
 
-Not what Stuart is known for, and there's more of it than visitors expect — public, semi-private and private courses across Martin County, without the waiting lists or the pricing of the clubs further south.
+## Stuart Beach and the Other Beaches
 
-For anyone relocating from a golf-heavy part of Florida, the useful discovery is that a round here is generally easier to get and cheaper to play than the equivalent in Palm Beach County. Check current access and rates directly; policies vary by course and by season.
+Bathtub is not the only beach serving Stuart. Stuart Beach on Hutchinson Island is another guarded beach with facilities and broader sand, and the county also guards Jensen Beach and Hobe Sound Beach, with many smaller public access points along the island. Guarded hours, parking, accessibility and amenities differ by location, and Martin County provides all-terrain beach wheelchairs at several of its guarded beaches at no charge.
 
-## The boat show and the tournaments
+Before visiting, check conditions and the flags, confirm lifeguard hours, watch for rip currents, use sun protection, follow the sea-turtle rules and keep pets only where they are allowed. The "best" beach depends on whether the priority is lifeguards, snorkeling, facilities, space or a particular spot.
 
-The **Stuart Boat Show** is a fixture of the winter calendar and takes over a chunk of the waterfront. Fishing tournaments run through the season.
+## Play Golf
 
-Even with no intention of buying anything, the boat show is worth walking — it's the clearest single expression of what this town is about, and it's where a lot of the social calendar is actually set.
+Stuart and the wider county have public, semi-private and private courses. Access, membership requirements, tee-time availability and pricing vary by course and by season, and it is not reliable to claim that golf across Martin County is consistently cheaper or easier to book than in Palm Beach County.
 
-## How to spend a Saturday
+Before planning a round, verify whether the course accepts public play, current greens and cart fees, seasonal rates, dress requirements, maintenance closures, membership rules and advance-booking requirements. Some private clubs offer limited reciprocal, guest or seasonal access; never assume it.
 
-If you want one day that covers the town properly:
+## Attend the Stuart Boat Show
 
-**Early** — Riverwalk at sunrise, then the farmers market when it opens.
-**Mid-morning** — drive to Hutchinson Island. Bathtub Reef if you want the reef, further up the island if you want the space.
-**Lunch** — dockside seafood at the working waterfront south of town.
-**Afternoon** — House of Refuge, or Halpatiokee if you'd rather be under trees than on sand.
-**Evening** — back downtown. Dinner outside, and the Lyric if something's on.
+The Stuart Boat Show is the fixture of the local marine calendar, and it takes over a chunk of the waterfront each January. The next one is scheduled for January 15 to 17, 2027, with more than 220 exhibitors expected: boats from about 12 to 100 feet, marine electronics, fishing equipment, accessories, lifts, docks and the businesses around them.
 
-That's most of Stuart's argument in a single day, and only the museum and dinner cost anything meaningful.
+You do not need to be shopping for a boat. It is the clearest single expression of what this town is about, a concentrated look at the marine economy and the boating culture, and a good deal of the social calendar gets set there. Confirm admission, parking and transport arrangements directly.
 
-## Doing it in summer
+## Watch or Fish the Tournaments
 
-Everything above except the museums and the waterpark is better before ten in the morning from June to September. Heat and afternoon storms are reliable rather than occasional.
+Fishing tournaments run through the year for sailfish, dolphin, wahoo, kingfish, inshore species, youth anglers and charities. Schedules change annually, and some weigh-ins and associated events are open to spectators.
 
-The compensation is that Bathtub Reef on a quiet summer weekday, with the seasonal crowd gone, is close to the best version of it.
+Participants should review the registration rules, fishing boundaries, weather policies, species regulations, captain requirements and any insurance or waiver provisions. Never assume a tournament date from last year's calendar.
 
-## If you only do two things
+## Spend Time in the Parks
 
-Charter a boat, and walk downtown on a market morning. One tells you why people move here; the other tells you whether you'd like living here. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) covers where to eat afterwards.`,
+Beyond Halpatiokee and the Riverwalk, the city and county run many parks with playgrounds, sports fields, waterfront access, picnic areas, trails, fishing, public docks and programming. Flagler Park, beside downtown, has picnic facilities, a playground, a basketball court and a lighted fishing pier. The best park depends on the activity; check the city or county listings for hours, reservations, construction, pet policies, boat access, athletic schedules and closures.
+
+## A Practical Stuart Saturday
+
+**Morning.** Walk downtown and the Riverwalk. On a Sunday, make it Market on Main.
+
+**Late morning.** Drive to Hutchinson Island and choose among Bathtub Beach, Stuart Beach, Florida Oceanographic, the Elliott Museum and the House of Refuge.
+
+**Afternoon.** In cooler weather, Halpatiokee. In hot or stormy weather, the Elliott, Florida Oceanographic's indoor exhibits, or Sailfish Splash while the weather holds.
+
+**Evening.** Back downtown for dinner, live music or the Lyric.
+
+That is most of Stuart's argument in one day. It requires driving between downtown and the island, so it is not entirely walkable, and only the museums and dinner cost anything meaningful. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) covers where to eat afterwards.
+
+## Doing It in Summer
+
+From June through September, outdoor activities are more comfortable early in the morning or late in the day. Heat, humidity, strong sun, afternoon thunderstorms, lightning, heavy rain, mosquitoes and fast-changing marine conditions are reliable rather than occasional. Plan early, carry water and watch the radar, and leave beaches, waterways, golf courses and open parks when you hear thunder.
+
+Summer thins the seasonal crowd, and quieter does not mean empty. Beaches, the waterpark and the boating areas stay busy on weekends and holidays. The compensation is that Bathtub Reef on a quiet summer weekday is close to the best version of it.
+
+## Doing It in Winter and Spring
+
+Winter and early spring bring cooler weather and more demand at restaurants, downtown events, boat ramps, marinas, beaches, golf courses, markets and festivals. Reserve charters, theater tickets and special activities in advance where you can, and allow longer for parking and traffic, especially around the big events.
+
+## Check Before Leaving Home
+
+So much of Stuart depends on weather, tides, wildlife and public projects that it pays to confirm before you travel: beach status, lifeguard hours, water quality, weather and lightning, tide and marine forecasts, park closures, event calendars, museum hours, ticket availability, waterpark schedules, fishing regulations, and construction and parking notices. A permanent attraction can still have a temporary restriction.
+
+## If You Only Do Two Things
+
+Walk through historic downtown and the Riverwalk on a Sunday morning. That introduces the community center, the waterfront, the market and the local businesses in one visit.
+
+Then pick one thing for your interests: a fishing charter, Florida Oceanographic, the House of Refuge, a morning at the beach, a paddle on the South Fork, or a night at the Lyric. One tells you why people move here; the other tells you whether you would like living here.
+
+Stuart's appeal is not contained in one attraction. It is the combination of a working waterfront, an active downtown, public access to nature and a local history shaped by the river and the ocean.`,
     faqs: [
-      { q: "What is there to do in Stuart, Florida?", a: "Walk the historic downtown and Riverwalk and catch a show at the Lyric Theatre, fish inshore or offshore, snorkel the reef at Bathtub Reef Beach, visit the 1870s House of Refuge and the Florida Oceanographic Coastal Center on Hutchinson Island, hike or bike Halpatiokee Regional Park, and see the Elliott Museum. The Stuart Boat Show anchors the winter calendar." },
-      { q: "Why is Bathtub Reef Beach called that?", a: "A natural worm-rock reef sits just offshore and breaks the Atlantic swell, creating a shallow, calm lagoon right at the shoreline that feels like a bathtub compared with the open surf beyond it. It also makes the snorkelling unusually accessible. Parking is limited and the beach periodically closes for erosion or renourishment work — check before visiting." },
-      { q: "What is the House of Refuge in Stuart?", a: "A lifesaving station built in the 1870s on the rocky Hutchinson Island shore to shelter shipwrecked sailors along what was then an empty coast. It is Martin County's oldest building and the last surviving station of its kind, sitting directly above the limestone shoreline with the Atlantic below." },
-      { q: "Is Stuart good for fishing?", a: "It is known as the Sailfish Capital of the World, and the geography backs it up — the St. Lucie Inlet, the nearby Gulf Stream, the estuary and the Indian River Lagoon put offshore, nearshore and inshore fishing within a short run of each other. Charters operate at every level and there is productive shore and pier fishing for the cost of a license." },
-      { q: "What is Halpatiokee Regional Park?", a: "The largest park in Martin County, running to over 500 acres along the South Fork of the St. Lucie River, with hiking, mountain-biking trails, kayak access and sports fields. The name derives from a Seminole term meaning roughly \"alligator water.\" It is consistently under-visited relative to its quality." },
-      { q: "What is there to do in Stuart with kids?", a: "Sailfish Splash Waterpark has a lazy river, a zero-depth play area and large slides; the Florida Oceanographic Coastal Center offers a stingray touch experience and trails; Bathtub Reef Beach has calm, shallow water for swimming and snorkelling; and Halpatiokee Regional Park has trails and sports fields." },
+      { q: "What is there to do in Stuart, Florida?", a: "Walk the historic downtown and Riverwalk, catch Market on Main and Rock'n Riverwalk on a Sunday, see a show at the Lyric Theatre, fish inshore or offshore, snorkel the reef at Bathtub Beach, visit the 1876 House of Refuge and the Florida Oceanographic Coastal Center on Hutchinson Island, hike, bike or paddle Halpatiokee Regional Park, and see the Elliott Museum. The Stuart Boat Show anchors the January calendar." },
+      { q: "Why is Bathtub Reef Beach called that?", a: "A natural worm-rock reef sits just offshore and, in calm conditions, breaks the Atlantic swell to leave a shallow, calm lagoon at the shoreline. The name is not a guarantee: waves, currents, poor visibility, exposed rock and erosion all occur, and the beach has closed temporarily before. It is guarded daily by Martin County Ocean Rescue, parking is limited, and you should check its status before visiting." },
+      { q: "What is the House of Refuge in Stuart?", a: "A lifesaving station built in 1876 on the rocky Hutchinson Island shore, one of ten put up along Florida's then-empty Atlantic coast so shipwreck survivors would have somewhere to walk to. It is the only one still standing, Martin County's oldest surviving building, later a Coast Guard and Navy post, and now a museum on the National Register of Historic Places." },
+      { q: "Is Stuart good for fishing?", a: "It is known as the Sailfish Capital of the World, and the geography backs it up: the St. Lucie Inlet, the nearby Gulf Stream, the estuary and the Indian River Lagoon put offshore, nearshore and inshore fishing within a short run of each other. Charters operate at every level and there is shore, pier and kayak fishing. Florida generally requires a saltwater license, with a shoreline license available to residents fishing from land; check current FWC rules." },
+      { q: "What is Halpatiokee Regional Park?", a: "Martin County's largest park: about 65 acres of active recreation inside roughly 500 acres of wetland preserve, with about four miles of frontage on the South Fork of the St. Lucie River. It has hiking, mountain-biking and paddling trails, disc golf, tennis, pickleball, sports fields and primitive camping by reservation. The name comes from a Seminole word meaning \"alligator water\", and it is consistently under-visited for its quality." },
+      { q: "What is there to do in Stuart with kids?", a: "Sailfish Splash Waterpark has a 1,000-foot lazy river, two four-story slides and a zero-depth splash playground in season; the Florida Oceanographic Coastal Center has stingray programs, a gamefish lagoon and trails; Bathtub Beach has calm, shallow water in the right conditions; Flagler Park has a playground beside the Sunday market; and Halpatiokee has trails and fields." },
     ],
     internalLinks: ["hidden-gems-in-stuart-florida", "local-guide-to-stuart-florida", "best-places-to-eat-drink-hang-out-in-stuart-florida"],
-    funFact: "The House of Refuge on Hutchinson Island is the last surviving station of its kind in Florida. In the 1870s the state's coast was so empty that the federal government built a chain of these houses purely so shipwrecked sailors would have somewhere to walk to. Martin County's oldest building exists because this shoreline used to be the middle of nowhere.",
+    funFact: "The House of Refuge at Gilbert's Bar was built in 1876 to help survivors of shipwrecks along a stretch of Florida's Atlantic coast that was then almost empty. The keeper kept supplies and patrolled the shoreline because surviving the wreck did not mean a survivor who reached the beach could find food, water or a settlement. Ten Houses of Refuge were built along Florida's coast over the following decade, and the Gilbert's Bar station on Hutchinson Island is the only one still standing. It later served under the U.S. Coast Guard and U.S. Navy before becoming a museum, and it is a reminder that the developed shoreline residents know today was once remote enough that reaching land was only the beginning of the journey to safety.",
     author: 'christine',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'who-should-move-to-stuart-florida',
