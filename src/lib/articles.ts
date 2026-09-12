@@ -11953,97 +11953,208 @@ For the rest of what fills a week here, our [guide to what's worth doing](/blog/
     order: 1,
     seoTitle: "What It's Really Like Living in Stuart, Florida (Local Guide)",
     metaTitle: "What It's Really Like Living in Stuart, FL",
-    metaDescription: "An honest local look at living in Stuart, Florida — how Martin County's four-story height limit and urban services boundary shaped the town, what's pressuring them now, and the real trade-offs of Treasure Coast life.",
+    metaDescription: "An honest local look at living in Stuart, Florida — a small incorporated city with a downtown residents actually use, how county and city planning shaped it, the state of the river, and the real trade-offs.",
     primaryKeyword: "living in Stuart Florida",
     secondaryKeywords: ["moving to Stuart FL", "Stuart Florida lifestyle", "is Stuart a good place to live", "Stuart Treasure Coast"],
     h1: "What It's Really Like Living in Stuart, Florida",
     heroImage: '/images/stuart/local-open-water.jpg',
-    body: `Drive south from Stuart on US-1 and somewhere around the county line the buildings get taller. Not dramatically — but suddenly there are five and six stories where a mile earlier there were three, and the density of everything steps up a level.
+    body: `Stuart is a small waterfront city with something many Florida communities claim and relatively few genuinely possess: an active historic downtown that residents use.
 
-That line on the map is the single most important thing to understand about Stuart. The town looks the way it does because Martin County decided, four decades ago, that it would.
+Its compact center holds restaurants, shops, galleries, public waterfront and the Lyric Theatre. The St. Lucie River shapes the city's appearance, its recreation and its economy, and boating and fishing remain central to the wider Martin County way of life.
 
-## The rules that made this town
+Stuart is also the county seat of Martin County and an incorporated municipality with its own mayor, commission, taxes, planning rules and public services. That distinction matters more than most relocation guides let on. Some of the forces shaping Stuart come from Martin County's long-standing growth-management policies. Others come from the City of Stuart's own comprehensive plan, zoning, historic-preservation efforts and redevelopment decisions.
 
-Martin County adopted a Comprehensive Growth Management Plan in **1982** and substantially expanded it in **1990**. Three of its provisions do most of the work:
+Here is what living in Stuart is really like.
 
-- A **four-story height limit that applies countywide.** Not just on the water — everywhere.
-- A **density cap of 15 units per acre.**
-- An **Urban Services District boundary**, also established in 1982, drawing a line around where county services extend and, in practice, where intensive development goes.
+## Stuart Is a City, Not Just a Martin County Community
 
-There are also required buffers protecting residential areas from more intense land uses.
+Stuart is an incorporated city with its own city commission, municipal government, planning and zoning regulations, police department, public works and utility services, municipal property-tax millage, parks and recreation facilities, and community redevelopment programs.
 
-None of this is scenery. It's the reason Stuart still has a low skyline, why the riverfront isn't a wall of towers, and why the drive west out of town turns agricultural rather than suburban. Residents here are unusually well informed about their own comprehensive plan, and it comes up at dinner parties in a way it doesn't in most Florida towns.
+Martin County government still reaches residents through countywide services, the school district, property appraisal, emergency management and regional planning. But the rules governing unincorporated Martin County do not apply identically inside the city, and a buyer should not assume they do.
 
-## And the rules are under pressure
+For any property, verify whether it is inside the City of Stuart, its zoning and future land-use designation, the applicable city and county taxes, the utility provider, historic-district status, flood zone and any nearby development approvals. A Stuart mailing address also covers a good deal of ground outside the city limits, so the postal address alone does not establish the municipality.
 
-This is the part a relocation guide from three years ago won't tell you.
+## Martin County's Growth-Management History
 
-Florida's **Live Local Act** — state legislation intended to encourage affordable housing — has generated real concern among Martin County residents and officials, because state preemption of local land-use rules cuts directly against a growth-management regime built on local height and density limits.
+Martin County created its Comprehensive Growth Management Plan in 1982 and substantially expanded it in 1990. The plan guides development, public infrastructure and environmental protection across the county, and it established an Urban Service District boundary, also in 1982, identifying the areas considered suitable for urban development and planned public services.
 
-You will find people here who think the county's rules are the reason Stuart is worth living in, and people who think they've made housing unaffordable for anyone who works in the county. Both arguments are made in good faith and you'll hear both within a month of arriving.
+That framework is why so much of Martin County remains low-rise and why development concentrates in established urban areas rather than spreading continuously across every rural parcel. Its best-known provisions are a four-story building height limit and a density cap of 15 units per acre, and residents here are unusually well informed about their own comprehensive plan. It comes up at dinner parties in a way it does not in most Florida towns.
 
-The practical takeaway for a buyer is the same one that applies anywhere with contested land-use rules: **the view and the low-rise character across the street are protected by policy, not by physics.** If a specific outlook matters to your purchase, look up what's actually entitled nearby rather than assuming today's skyline is permanent. County growth-management staff and the agenda archive are public.
+The county plan should not be reduced to one universal rule, though. What can be built on a given parcel depends on the municipality, the future land-use designation, the zoning district, location, historic-district requirements, coastal regulations, redevelopment standards, project-specific approvals and state law. Martin County publishes zoning and future land-use maps for researching individual parcels.
 
-## A town built at the meeting of two rivers
+## Stuart Has Its Own Development Rules
 
-Stuart sits where the **St. Lucie River** meets the **Indian River Lagoon**, with the **St. Lucie Inlet** giving direct ocean access. Everything about how the town functions follows from that.
+Because Stuart is incorporated, the city has its own comprehensive plan and land-development regulations. It also runs a Community Redevelopment Area and historic-preservation programs that have shaped how downtown looks and why it is still in use.
 
-The historic **downtown** is genuinely walkable — a compact grid of shops, restaurants and galleries around the **Lyric Theatre**, which opened in 1926 and still programs concerts and theater. A **Riverwalk** boardwalk runs along the water. There's a farmers market, an art festival, a boat show, and enough going on that residents actually use downtown rather than driving past it.
+Stuart's low-rise character is therefore the product of several overlapping factors: city zoning, historic preservation, downtown redevelopment, the existing building pattern, environmental constraints, market demand, countywide infrastructure planning and state development law. It is not the result of a single countywide four-story rule reaching across the city line.
 
-That last point separates Stuart from most Florida towns its size. A lot of places have a "historic downtown" that is really three antique shops and a parking problem. Stuart's works.
+The practical consequence is the same one that applies anywhere with contested land-use rules. The view and the low-rise character across the street are protected by policy, not by physics. Before buying because of an open outlook, find out what the parcel across the street or the vacant lot nearby is actually zoned for, what height and density are currently permitted, whether a development application is pending, whether the property sits in a historic or redevelopment district, and whether state housing law affects what could be approved.
 
-## The water is the whole point, and it has a complication
+## The Live Local Act
 
-Stuart calls itself the **Sailfish Capital of the World**, and the fishing — inshore, offshore, and in the lagoon — is the genuine article.
+Florida's Live Local Act creates an approval pathway for qualifying affordable multifamily and mixed-use housing on certain commercial, industrial and mixed-use properties. For qualifying projects, state law can limit a city or county's ability to require conventional zoning or comprehensive-plan changes, and it can affect allowable density, floor-area ratio and building height.
 
-It is also true that the St. Lucie Estuary has spent decades at the center of Florida's most contentious water-quality fight, because it is artificially connected to Lake Okeechobee and receives freshwater discharges when the lake runs high. Those discharges have historically driven algae blooms that shut down the water for weeks.
+Current law generally prevents a municipality from restricting a qualifying project below density and height thresholds tied to development already allowed nearby, subject to exceptions and conditions. That has created real concern in communities like this one, where the development pattern has historically been controlled through lower height and density limits.
 
-The picture has improved. The Army Corps' current lake operating manual was selected specifically to reduce releases to the St. Lucie, and the Everglades Agricultural Area reservoir — the long-term structural fix, designed to send water south instead of east — is under construction.
+It does not mean every parcel in Stuart or Martin County can become a high-rise apartment project. Whether the law applies depends on the property's location, its existing land use, the proposed use, affordable-housing commitments, the surrounding development, the statutory requirements, any changes to state law and the specific application. Buyers concerned about future development should review current city and county records rather than relying on generalized statements that local growth controls have either disappeared or remain absolute.
 
-It is not finished, and roughly 70% of the estuary's freshwater comes from drainage canals in the first place, so local runoff matters even in a year with no lake releases. Our [pros and cons guide](/blog/pros-and-cons-of-living-in-stuart-florida) treats this properly, because anyone buying on the water here should understand it rather than discover it.
+## Downtown Stuart Is a Genuine Community Center
+
+Downtown Stuart is one of the city's strongest attractions: restaurants, independent shops, galleries, professional offices, historic buildings, public parks, riverfront access, the Lyric Theatre, and a calendar of markets and events. The city's own historic survey credits restoration work, the Lyric, the Riverwalk and the arrival of restaurants and specialty shops with bringing downtown back.
+
+This is not a decorative district maintained for occasional visitors. Residents use it for dinner, coffee, shopping, concerts, markets, festivals, waterfront walks and community events. A lot of Florida places have a "historic downtown" that is really three antique shops and a parking problem. Stuart's works.
+
+The experience is most walkable from properties in or immediately around downtown. A home elsewhere in Stuart may still mean driving, and a Stuart mailing address does not put downtown within walking distance.
+
+### The Lyric Theatre
+
+The Lyric opened on March 15, 1926, as a silent-movie house, went through other uses, and was restored as an entertainment venue and downtown anchor. Today it programs concerts, theater, comedy, films, community events and educational programs, which gives a city this size a year-round cultural venue it has no business having. The schedule changes, so check current programming directly.
+
+### Riverwalk and the Downtown Waterfront
+
+Stuart's Riverwalk provides public access along the St. Lucie River beside downtown, with parks, seating, docks, event space and connections to the restaurants and shops. City docks let daytime visitors arrive by boat, subject to current docking rules and availability, and the city runs a free downtown tram connecting City Hall, the Riverwalk, the Lyric, public parking and other stops. Confirm routes and hours before relying on it.
+
+### Markets and Community Events
+
+Market on Main runs on Sundays at Flagler Park on the river, focused on locally made, grown and produced goods, usually with live music. Rock'n Riverwalk adds free Sunday music on the downtown waterfront stage. Through the year there are art and craft festivals, holiday celebrations, boat-related events, historic tours, community concerts and street festivals. Schedules, locations and parking change, so check the current city and downtown calendars.
+
+## Stuart Is Closely Connected to the Water
+
+The St. Lucie River is central to Stuart's identity. The city and its surroundings offer boating, sailing, offshore and inshore fishing, kayaking, paddleboarding, marinas, waterfront restaurants and public docks. The St. Lucie Inlet connects the estuary and Indian River Lagoon to the Atlantic, which makes Stuart a serious base for recreational boating and fishing, though travel time and navigation depend on where the marina, canal or property sits.
+
+Stuart is widely known as the "Sailfish Capital of the World", reflecting a long history as a sport-fishing destination, and the fishing is the genuine article.
+
+### Waterfront Homes Are Not All the Same
+
+A listing may describe direct river frontage, canal frontage, a private dock, community marina access, ocean access, a water view or proximity to a public ramp. These are not interchangeable.
+
+Before purchasing, a boater should verify water depth, tide, fixed bridges, vertical clearance, canal width, dock permits, boat-lift capacity, seawall condition, travel time to the inlet, no-wake zones and maintenance responsibilities. A property may technically offer ocean access while being inconvenient for a particular boat. Have the marine improvements and the route evaluated for the vessel you intend to keep.
 
 ![Private docks and boat lifts along a residential waterway](/images/stuart/local-waterfront-docks.jpg "Dockage behind the house is ordinary here — which is most of why people move to this stretch of coast.")
 
-## The pace, honestly
+## Water Quality Is an Ongoing Issue
 
-Stuart is slower than Palm Beach County and that is the product, not a defect.
+The St. Lucie River and Estuary have had significant water-quality problems over many years: excess freshwater, nutrient pollution, stormwater runoff, septic-system impacts, agricultural and urban drainage, Lake Okeechobee releases, harmful algal blooms and swings in salinity.
 
-Traffic is manageable outside season. People talk to each other at the market. The social calendar runs on boat shows, fishing tournaments, civic and volunteer groups, and the theater. Downtown gets busy on a Friday night and quiet by eleven.
+Lake Okeechobee is artificially connected to the St. Lucie system through canals and water-control structures. During high-water conditions, releases have historically sent large volumes of freshwater toward the estuary, stressing it and raising the risk of harmful algal blooms.
 
-If you are coming from Broward or Miami-Dade, the adjustment is real and mostly pleasant. If you are coming from a city and expect a city's optionality, you will find the third month harder than the first.
+The lake is not the only source. Rainfall and runoff from the local St. Lucie watershed pass through canals into the river even when no lake water is being released. By the state's own accounting in the St. Lucie River and Estuary Basin Management Action Plan, Lake Okeechobee supplied about 42 percent of the canal freshwater reaching the estuary between 1996 and 2012, which means local drainage was the larger share. Our [pros and cons guide](/blog/pros-and-cons-of-living-in-stuart-florida) treats this properly, because anyone buying on the water here should understand it rather than discover it.
 
-## The trade-offs
+### The Lake Okeechobee System Operating Manual
 
-- **It's far from the big job centers.** West Palm Beach is a serious drive, and anything further south is a commitment. Our [who-should-move guide](/blog/who-should-move-to-stuart-florida) has the real numbers.
-- **Fewer amenities than a metro.** One hospital system, a modest airport at Witham Field, limited nightlife, and you drive south or fly for a wider range of anything.
-- **Hurricane exposure is genuine.** This is a coastal county that took two landfalls in three weeks in 2004. Insurance and building age matter here more than the brochures suggest.
-- **Summer is hot, wet and quiet.** Seasonal businesses slow down; some close.
-- **Waterfront costs more than the house.** Docks, seawalls, lifts, flood coverage — the carrying costs of water access are their own budget, covered in our [cost of living guide](/blog/cost-of-living-in-stuart-florida).
+The U.S. Army Corps of Engineers put the Lake Okeechobee System Operating Manual, known as LOSOM, into effect in August 2024. The Corps projects that it will substantially reduce routine lake releases to the St. Lucie compared with the previous schedule; its planning analysis found releases toward the St. Lucie would be zero roughly 95 percent of the time under normal conditions over the modeled period.
 
-## Who this town actually suits
+That is a real operational change. It does not guarantee the estuary will never receive a lake release, because water-management decisions still turn on lake levels, rainfall, flood-control needs, system conditions, environmental requirements and emergencies. Local basin runoff remains a problem even in years without lake releases.
 
-The people happiest in Stuart wanted the water, wanted a real town center they could walk, and were prepared to trade metropolitan convenience for a place with a coherent character. Boaters and anglers are the obvious case. So are people who have done the Palm Beach County version of Florida and want the volume turned down.
+### The EAA Reservoir
 
-The people who struggle are the ones who needed the job market, needed the airport, or assumed "Treasure Coast" meant a cheaper version of the same coastal lifestyle with all the same options. It's a different product, not a discounted one.
+The Everglades Agricultural Area Reservoir is the long-term structural fix, designed to store water south of Lake Okeechobee and work with treatment wetlands to move clean water toward the Everglades instead of east and west to the coasts. Construction is under way. In April 2026 the State and the Army Corps announced that all federally funded construction contracts had been executed and that the reservoir is projected for completion in 2029.
 
-## The bottom line
+That is meaningful progress, and it is not yet a completed solution. Its benefits will work alongside, not instead of, the projects addressing local runoff, septic systems, stormwater and nutrients throughout the St. Lucie watershed.
 
-Stuart is one of the few places in South Florida where you can point at a specific set of decisions — 1982, 1990, four stories, an urban services line — and see the result in the streetscape forty years later.
+### Treat Water Quality as a Current Issue
 
-Buy here because you want that town. Go in understanding that those rules are currently being tested from Tallahassee, that the estuary's health is a live and improving but unfinished project, and that the water access which makes the place special is also the most expensive thing about it.`,
+Anyone buying waterfront should understand current conditions rather than assuming the river is either permanently damaged or fully restored. Before purchasing, look at recent water-quality reports, algal-bloom conditions, salinity, local drainage, septic or sewer service, flood history, nearby canals and outfalls, current Lake Okeechobee operations and the planned restoration projects.
+
+Conditions change by season and by year. One clear week during a showing does not describe everything the owner will experience over a long ownership.
+
+## The Pace of Life
+
+Stuart feels slower and smaller than Palm Beach, Broward or Miami-Dade, and that is the product, not a defect. Daily life runs on downtown restaurants and events, boating and fishing, parks, civic organizations, golf, volunteer groups, cultural programs, local businesses and time on the water.
+
+Downtown is active during events, weekends and the winter season, and much of the city goes quiet relatively early in the evening. Someone who wants a big-city schedule, extensive nightlife or a constantly changing entertainment menu will find Stuart limited. Someone who prefers a recognizable local center and a quieter pace will count that among its strongest advantages.
+
+If you are coming from a city and expect a city's optionality, you will find the third month harder than the first.
+
+## Stuart Is Not One Neighborhood
+
+The city contains several distinct residential environments: historic neighborhoods near downtown, older single-family streets, riverfront properties, canal-front homes, condominiums, townhomes, gated communities, non-HOA streets, newer infill and properties along the commercial corridors. The city's own history notes the historic neighborhoods beside downtown as well as its modern townhomes and condominiums.
+
+Two Stuart addresses can deliver completely different experiences. A downtown property prioritizes walkability. A waterfront home prioritizes boating. A home near US-1 gets easier commercial access and more traffic. Explore the individual neighborhood rather than buying the Stuart name.
+
+## The Commute South
+
+Stuart sits north of the major employment centers in Palm Beach, Broward and Miami-Dade counties. Some residents commute south, and the distance deserves careful thought. A regular commute means I-95 or Florida's Turnpike traffic, tolls, fuel, vehicle wear, unpredictable incidents and significant time. A commute that looks manageable on a map becomes exhausting when it repeats five days a week.
+
+Drive the actual route from the specific property at the hours you expect to travel, and cost the whole thing rather than the time alone. Our [who-should-move guide](/blog/who-should-move-to-stuart-florida) has the real numbers.
+
+## Employment, the Airport and Healthcare
+
+The Stuart and Martin County economy runs on healthcare, marine industries, construction, education, government, retail, hospitality, professional services, aviation and small business. It does not offer the depth of a metropolitan county. Someone relocating without a job in hand or a reliable remote arrangement should investigate the local market for their specific profession first.
+
+Witham Field is Martin County's public-use airport in Stuart, and it serves general aviation rather than scheduled airlines: private and corporate aviation, flight training, maintenance, charters, and emergency and government flights. Residents flying commercially mostly use Palm Beach International. Test the drive from the actual property.
+
+Stuart and the wider county have hospitals, medical offices, urgent care and specialists, but the availability of a particular doctor, hospital service or insurance network has to be checked individually. Anyone with ongoing medical needs should confirm the distance to their preferred providers, hospital access, specialist availability, insurance participation, emergency routes and follow-up care. A small regional community will not offer every highly specialized service locally.
+
+## Hurricane and Flood Exposure
+
+This is coastal South Florida. Stuart is exposed to hurricanes, tropical storms, wind, heavy rain, storm surge in vulnerable locations, and river and drainage flooding. Martin County took both Hurricane Frances and Hurricane Jeanne in 2004, three weeks apart.
+
+That history illustrates the exposure. It does not determine the insurance cost or risk of a particular property. Review the FEMA flood zone, elevation, roof age, wind-mitigation features, opening protection, drainage, prior flood or insurance claims, and get property-specific homeowners and flood quotes with the hurricane deductibles spelled out during due diligence.
+
+## Waterfront Ownership Costs More Than Dockage
+
+A waterfront home carries expenses that never appear in the listing price: flood insurance, higher replacement-cost coverage, seawall repair, dock and boat-lift maintenance, permitting, electrical and plumbing service to the dock, dredging or depth issues, saltwater corrosion, storm preparation and boat insurance.
+
+A waterfront property may still be exactly the right purchase. It needs its own maintenance budget, and the seawall, dock and lift should be evaluated by qualified professionals. The carrying costs are worked through in our [cost of living guide](/blog/cost-of-living-in-stuart-florida).
+
+## Seasonal Changes
+
+Stuart gets busier in winter and spring. Seasonal residents, visitors, events and good weather raise traffic, restaurant demand, boat-ramp use, marina activity, downtown parking pressure and attendance at markets and festivals.
+
+Summer is hotter, wetter and quieter. Afternoon thunderstorms are routine and some businesses adjust their schedules. Stuart remains a year-round community, though, and no single seasonal window applies uniformly to every road or business.
+
+## Who May Enjoy Living in Stuart
+
+Stuart suits buyers who want a genuine historic downtown, restaurants and shops in a compact area, public waterfront, boating or fishing, a smaller city, community events, cultural venues, historic neighborhoods, a quieter pace than South Florida's metros, and access to Martin County's natural environment.
+
+It is particularly right for someone who expects to use both downtown and the water rather than merely admire them.
+
+## Who May Prefer Somewhere Else
+
+Stuart is less suitable for buyers who need a large metropolitan job market, extensive nightlife, a major commercial airport close by, large-scale shopping and entertainment, a short commute to Broward or Miami-Dade, a newly built master-planned environment, complete predictability about future development, or inexpensive waterfront ownership.
+
+Someone who mainly wants a large new home will find more inventory in Port St. Lucie or another growing community. Someone who wants to live directly on the Atlantic will prefer a barrier-island address.
+
+## What to Verify Before Buying
+
+For any Stuart property, confirm:
+
+- Whether it is inside the incorporated city
+- Zoning and future land use, and any nearby development applications
+- Historic-district restrictions
+- Property taxes after purchase
+- Homeowners and flood-insurance quotes, flood zone and elevation
+- Water and sewer service
+- HOA or condominium obligations
+- School assignment, where relevant
+- Commute, noise and traffic
+- Roof and major-system condition
+
+For waterfront property, also verify water depth, bridges, dock permits, seawall condition, lift capacity, inlet travel time, environmental conditions and the water-quality history.
+
+## The Bottom Line
+
+Stuart offers something increasingly hard to find in South Florida: a small incorporated waterfront city with a functioning historic downtown, public river access and a recognizable identity. Its appearance was shaped by decades of city and county planning, preservation and redevelopment decisions.
+
+Its skyline is not controlled by one simple countywide four-story rule, and future development is not frozen. State housing law, local zoning, project-specific approvals and continued demand all affect what may be built.
+
+The St. Lucie River remains both the city's greatest natural asset and its most complicated issue. LOSOM, the EAA Reservoir and the other restoration projects are significant progress, and water quality remains an active and unfinished effort.
+
+Choose Stuart because you want the combination it currently offers: a real downtown, access to the water and a smaller-city pace. Then evaluate the specific property, the surrounding development and the complete ownership costs, rather than assuming every Stuart address delivers the same life.`,
     faqs: [
-      { q: "What is Stuart, Florida known for?", a: "Stuart is known as the Sailfish Capital of the World and for having one of the most genuinely walkable historic downtowns in the region, anchored by the Lyric Theatre and a Riverwalk along the St. Lucie River. It is also known for its low-rise character, a direct result of Martin County growth-management rules including a countywide four-story height limit." },
-      { q: "Why are there no high-rises in Stuart, Florida?", a: "Martin County's Comprehensive Growth Management Plan, adopted in 1982 and expanded in 1990, includes a four-story height limit that applies countywide, a density cap of 15 units per acre, and an Urban Services District boundary limiting where intensive development occurs. The low skyline is deliberate policy rather than an accident of the market." },
-      { q: "Are Martin County height limits going to change?", a: "They are under pressure. Florida's Live Local Act, which preempts some local land-use control in the interest of affordable housing, has generated significant concern among Martin County residents and officials because it cuts against locally adopted height and density limits. Buyers who are relying on a particular outlook or low-rise character should check what is actually entitled nearby rather than assuming current conditions are permanent." },
-      { q: "Is the water quality in Stuart, Florida bad?", a: "The St. Lucie Estuary is artificially connected to Lake Okeechobee and has historically received freshwater discharges that drove harmful algae blooms. The situation has improved: the Army Corps adopted a lake operating manual intended to reduce releases to the St. Lucie, and the Everglades Agricultural Area reservoir designed to send water south is under construction. It is not resolved, and about 70% of the estuary’s freshwater inflow comes from drainage canals regardless of the lake, so conditions vary. Check current conditions rather than relying on any article." },
+      { q: "What is Stuart, Florida known for?", a: "Stuart is known as the Sailfish Capital of the World and for one of the most genuinely walkable historic downtowns in the region, anchored by the Lyric Theatre and a Riverwalk along the St. Lucie River. It is the county seat of Martin County and an incorporated city with its own commission, police, utilities and planning rules. Its low-rise character comes from decades of county growth-management policy and the city's own zoning, historic-preservation and redevelopment decisions." },
+      { q: "Why are there no high-rises in Stuart, Florida?", a: "Martin County adopted a Comprehensive Growth Management Plan in 1982 and expanded it in 1990, with an urban service boundary and, for the unincorporated county, a four-story height limit and a density cap of 15 units per acre. Stuart is an incorporated city with its own comprehensive plan, zoning districts, historic-preservation rules and a redevelopment area, so what can be built on a given parcel inside the city depends on that parcel's designation rather than on one countywide rule. The low skyline is deliberate policy, checked parcel by parcel." },
+      { q: "Are Martin County and Stuart height limits going to change?", a: "They are under pressure. Florida's Live Local Act creates an approval pathway for qualifying affordable multifamily and mixed-use projects on certain commercial, industrial and mixed-use sites, and it can limit local control over density, floor-area ratio and height for those projects. It does not turn every parcel into a high-rise site. A buyer relying on a particular outlook should check the zoning, future land use and pending applications for the properties nearby rather than assuming current conditions are permanent." },
+      { q: "Is the water quality in Stuart, Florida bad?", a: "The St. Lucie Estuary is artificially connected to Lake Okeechobee and has historically received freshwater releases that drove harmful algae blooms. Since August 2024 the Army Corps has operated the lake under LOSOM, which its analysis projects will send no lake water toward the St. Lucie about 95 percent of the time under normal conditions, and the EAA Reservoir is projected for completion in 2029. The lake is not the only source: state accounting puts it at about 42 percent of canal freshwater inflow, so local drainage still matters. Check current conditions rather than relying on any article." },
       { q: "Is Stuart cheaper than Palm Beach County?", a: "Generally yes for comparable homes — the Treasure Coast typically prices below the Palm Beach County coast. The exception is waterfront with good boating access, which carries its own premium and its own carrying costs for docks, seawalls, lifts and flood coverage." },
-      { q: "What are the downsides of living in Stuart?", a: "It is a long way from the major job centers, with a limited local job market and a modest general-aviation airport rather than a commercial one. Amenities and nightlife are thinner than in a metro area, hurricane exposure is genuine for a coastal county, and summers are hot, wet and quiet as seasonal businesses slow down." },
+      { q: "What are the downsides of living in Stuart?", a: "It is a long way from the major job centers, with a limited local job market and a general-aviation airport at Witham Field rather than a commercial one. Amenities and nightlife are thinner than in a metro area, hurricane exposure is genuine for a coastal county, waterfront carries real maintenance costs, and summers are hot, wet and quiet as seasonal businesses slow down." },
     ],
     internalLinks: ["best-neighborhoods-in-stuart-florida", "best-things-to-do-in-stuart-florida", "who-should-move-to-stuart-florida"],
-    funFact: "Martin County's four-story height limit applies countywide, not just on the waterfront, and it sits alongside a 15-units-per-acre density cap and an urban services boundary that has been in place since 1982. Drive south across the county line and you can see where it stops — the buildings get taller within a mile. Stuart's skyline is a policy decision you can stand and look at.",
+    funFact: "Martin County created its Comprehensive Growth Management Plan in 1982 and substantially expanded it in 1990, and its Urban Service District boundary dates from the same year. Those policies drove the county's low-rise pattern, but there is not one universal four-story limit and 15-unit-per-acre cap governing every parcel. Stuart is an incorporated city with its own comprehensive plan, zoning and historic-preservation rules, and building height and density depend on the individual property, its designation and any applicable state law. The practical advice is not to assume the current view is permanent. Before buying because of an open outlook or low-rise surroundings, review the zoning, future land use and active development applications for the properties nearby. Stuart's character was shaped by policy, and policy has to be checked parcel by parcel.",
     author: 'john',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-12',
   },
   {
     slug: 'local-guide-to-stuart-florida',
