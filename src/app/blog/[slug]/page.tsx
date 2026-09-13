@@ -20,6 +20,12 @@ import { selectMagnetForArticle } from '@/lib/leadMagnetRouting'
 import { SITE_URL } from '@/lib/site'
 
 const SITE = SITE_URL
+
+// Some image paths carry a literal space (the off-convention
+// `public/public/<City>/` tree), which is legal on disk but not in a URL that
+// goes into OG tags or JSON-LD. next/image encodes its own optimizer URL; these
+// absolute URLs have to be encoded here.
+const absoluteImage = (path: string) => encodeURI(`${SITE}${path}`)
 const PHONE = { display: '(561) 786-3630', href: 'tel:+15617863630' }
 
 type Props = { params: Promise<{ slug: string }> }
@@ -56,7 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const a = getArticleBySlug(slug)
   if (!a) return { title: 'Article not found' }
   const url = `${SITE}/blog/${a.slug}`
-  const image = a.heroImage ? `${SITE}${a.heroImage}` : undefined
+  const image = a.heroImage ? absoluteImage(a.heroImage) : undefined
   return {
     title: a.metaTitle,
     description: a.metaDescription,
@@ -101,7 +107,7 @@ export default async function ArticlePage({ params }: Props) {
     description: article.metaDescription,
     datePublished: article.publishedDate ?? article.updated,
     dateModified: article.updated,
-    image: article.heroImage ? `${SITE}${article.heroImage}` : undefined,
+    image: article.heroImage ? absoluteImage(article.heroImage) : undefined,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     author: { '@type': 'Organization', name: 'DO Homes Group' },
     publisher: { '@type': 'Organization', name: 'DO Homes Group' },
