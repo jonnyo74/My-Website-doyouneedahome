@@ -15,24 +15,35 @@ folder's `SOURCES.md` for the fuller write-up. Two consequences that bite immedi
   `image`, the Open Graph `images` — must percent-encode it. Before 2026-09-13 both emitted a
   raw space. Fixed with the `absoluteImage()` helper in `src/app/blog/[slug]/page.tsx`.
 
-## ⚠️ Provenance is NOT established for any file in this folder
+## Provenance: source and licence type recorded, per-photo URLs still missing
 
-The credits below exist only as bare strings in `src/lib/communities.ts` (`photoCredits`) and
-`src/lib/articles.ts` (`heroImageCredit`). **There is no recorded Unsplash photo-page URL, no
-CDN URL, no licence record, and no download date for any of them.** They predate this note and
-nobody wrote down where they came from.
+**Corrected 2026-09-13** (this section first read "provenance is NOT established", which
+overstated the gap — the adding commit was not checked at the time).
+
+All four arrived together in commit `30d4d70`, "Add Boca Raton photos, wire up images, Ylopo
+sort, and photo credits", whose message states plainly: *"Add 4 Unsplash photos for Boca Raton
+(Mizner Park, oceanfront, plaza, pool)"* and *"photo credits"*. So the **source (Unsplash) and
+the per-file credit were recorded contemporaneously by the session that downloaded them**, and
+the [Unsplash License](https://unsplash.com/license) permits free commercial use with
+attribution not required — attribution is given anyway. The licence position is sound.
+
+What is still missing is the **audit trail**: no Unsplash photo-page URL, no CDN URL, and no
+download date for any individual file, so a given file cannot be mapped back to its photographer
+independently. The files themselves carry no identifying metadata either — checked on
+2026-09-13: no XMP, no Artist tag, no Unsplash photo id. The only `Copyright` string in them is
+the stock sRGB ICC profile boilerplate, which means nothing.
 
 | File | Credit string in the repo | Status |
 |---|---|---|
-| `boca-mizner-park.jpg` | Photo by Alexander Donev / Unsplash | **Unverified** — no source URL on record |
-| `boca-oceanfront.jpg` | Photo by Nigel Sarrag / Unsplash | **Unverified** — no source URL on record |
-| `boca-mizner-plaza.jpg` | Photo by Valeriia Neganova / Unsplash | **Unverified** — no source URL on record |
-| `boca-luxury-pool.jpg` | Photo by Brian Zajac / Unsplash | **Unverified** — no source URL on record |
+| `boca-mizner-park.jpg` | Photo by Alexander Donev / Unsplash | Unsplash per `30d4d70`; no photo-page URL |
+| `boca-oceanfront.jpg` | Photo by Nigel Sarrag / Unsplash | Unsplash per `30d4d70`; no photo-page URL |
+| `boca-mizner-plaza.jpg` | Photo by Valeriia Neganova / Unsplash | Unsplash per `30d4d70`; no photo-page URL |
+| `boca-luxury-pool.jpg` | Photo by Brian Zajac / Unsplash | Unsplash per `30d4d70`; no photo-page URL |
 
-**To fix:** find each on Unsplash by subject, confirm it is the same shot, and record the photo
-page URL here alongside the credit. Until then, treat these as in-place legacy images — safe to
-keep where they already run, but **do not** promote one into a new slot, a listing page, or an
-OG image for a new page on the strength of the credit string alone.
+**To close it out:** find each on Unsplash by subject, confirm it is the same shot, and record
+the photo page URL here alongside the credit. Until then these are fine where they already run,
+including as an article hero and its OG image — the licence and the credit are on record. Apply
+the usual care before putting one somewhere the stakes are higher, such as a listing page.
 
 ## What the two images used by the "living in" article actually show
 
