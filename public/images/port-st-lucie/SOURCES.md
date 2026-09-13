@@ -356,3 +356,34 @@ returns twelve photographs of palm trees and nothing resembling a building lot.
 framing is wood-frame. **An empty residential lot is not a subject anyone shoots for stock**,
 so no search refinement will produce one. The three spot-lot articles need John's own camera:
 a cleared lot with road frontage, a house at block stage, and one with trusses up.
+
+## 2026-09-13 — second Clover Park / PGA Village drop (John's own camera)
+
+Seventeen frames landed in this folder as raw `IMG_64xx.jpg` camera files, 38 MB total, at
+4032x3024 and 5712x4284. **Ten of the seventeen were the raw originals of `local-*` files
+already committed here** — `IMG_6446/6447/6449/6450/6451/6453/6454/6455/6458/6459` match
+`local-clover-park-facade`, `-mets-chair`, `-plaza`, `local-pga-golf-club-sign`,
+`local-pga-practice-range`, `local-pga-golf-club-welcome`, `local-pga-golf-club-drive` (x2)
+and `local-pga-village-clock-tower` (x2) at a perceptual-hash distance of 0-5. They were not
+committed; the processed versions already in the repo supersede them.
+
+The seven genuinely new frames were resized to the 1600x1200 standard this folder already
+uses and renamed to the `local-<subject>-<detail>` convention:
+
+| File | From | Depicts |
+|---|---|---|
+| `local-clover-park-main-gate.jpg` | `IMG_6443` | Clover Park main gate and box-office frontage, bollards and crosswalk |
+| `local-clover-park-approach.jpg` | `IMG_6444` | Approach road and parking apron looking toward the stadium |
+| `local-clover-park-concourse.jpg` | `IMG_6445` | Outer concourse under the tall palms, retired-number roundel visible |
+| `local-clover-park-1986-banners.jpg` | `IMG_6448` | The 1986 player banners on the ticket-office elevation |
+| `local-pga-members-only-post.jpg` | `IMG_6452` | "Club members & registered guests only" post on the cart path |
+| `local-pga-practice-range-bays.jpg` | `IMG_6456` | Covered hitting bays across the practice range |
+| `local-pga-practice-range-wide.jpg` | `IMG_6457` | Wider practice-range frame, range furniture in foreground |
+
+These are **our own photography**, so they carry no third-party credit and are safe to caption
+with the actual location, unlike the `stock-` files above. EXIF was already stripped on
+arrival — no GPS, no camera tag, no orientation tag — so the location rests on John having
+taken them, not on metadata.
+
+Not yet referenced by any article. They are available for the Port St. Lucie set whenever the
+Clover Park and PGA Village sections want more than the single frame each currently has.
