@@ -24,6 +24,8 @@ export interface Article {
   secondaryKeywords: string[]
   h1: string
   heroImage?: string
+  heroImageAlt?: string      // descriptive alt text; falls back to the h1 when absent
+  heroImageCaption?: string  // shown under the hero — e.g. to mark a stock photo as illustrative
   heroImageCredit?: string   // e.g. 'Photo by Jane Doe / Unsplash'
   body: string                // markdown-lite
   faqs: Faq[]
@@ -32,7 +34,8 @@ export interface Article {
   funFact?: string            // local expert insight shown with author headshot
   author?: 'john' | 'christine'
   published: boolean
-  updated: string             // ISO date
+  publishedDate?: string      // original publication date; defaults to `updated` when absent
+  updated: string             // ISO date — last modified
 }
 
 export const articles: Article[] = [
@@ -4839,73 +4842,92 @@ And Delray when you want the thing Boca doesn't really do. Hours, menus, and own
     cityName: 'Boca Raton',
     type: 'Local News & Development',
     order: 11,
-    seoTitle: "Boca Raton's Downtown Civic Area & Memorial Park Master Plan: What It Means for Homeowners",
-    metaTitle: 'Boca Raton Downtown Civic Area Master Plan',
-    metaDescription: "City Council picked a lead consultant for Boca Raton's Downtown Civic Area & Memorial Park master plan — what's proposed, what's still undecided, and why it matters if you own downtown.",
-    primaryKeyword: 'Boca Raton Downtown Civic Area master plan',
-    secondaryKeywords: ['Memorial Park Boca Raton', 'downtown Boca Raton redevelopment', 'Boca Raton civic area plan'],
-    h1: "Boca Raton's Downtown Civic Area & Memorial Park Master Plan: What It Means for Homeowners",
+    seoTitle: 'Boca Raton Memorial Park Master Plan: 2026 Update | DO Homes Group',
+    metaTitle: 'Boca Raton Memorial Park Master Plan: 2026 Update | DO Homes Group',
+    metaDescription: 'Boca Raton approved Chen Moore’s master-planning agreement for Memorial Park and the downtown civic area. See the scope, timeline, and buyer context.',
+    primaryKeyword: 'Boca Raton Memorial Park Master Plan',
+    secondaryKeywords: ['Downtown Civic Area Master Plan', 'Memorial Park update Boca Raton', 'downtown Boca Raton real estate', 'Boca Raton civic area plan'],
+    h1: 'Boca Raton Memorial Park Master Plan: What Homeowners Should Know',
     heroImage: '/images/boca-raton/boca-raton-park-path.jpg',
+    heroImageAlt: 'Tall palm trees lining a sunlit public park walkway, used as an illustrative stock photo',
+    heroImageCaption: 'Illustrative stock photo of a public park path. This is not Boca Raton Memorial Park or the Downtown Civic Area, and it does not depict any proposed design.',
     heroImageCredit: 'Photo by Emily Moynihan / Unsplash',
-    body: `Boca Raton's City Council just took a concrete step toward reshaping the civic heart of downtown, and if you own — or are considering buying — anywhere near Mizner Park, Royal Palm Place, or the Golden Triangle, it's worth understanding exactly what happened and what hasn't happened yet.
+    body: `Boca Raton's downtown civic core has moved out of consultant selection and into actual planning. On September 8, 2026, City Council approved the agreement that puts a master-planning team to work on Memorial Park and the surrounding Downtown Civic Area. If you own — or are considering buying — anywhere near Mizner Park, Royal Palm Place, or the Golden Triangle, here's what that approval does, and just as importantly, what it does not do.
 
-## What Council actually decided
+## Project status
 
-At its July 27–28, 2026 meeting, City Council reviewed presentations from three consultant teams shortlisted through the city's competitive Request for Qualifications (RFQ) process: **Brooks + Scarpa Architects**, **Chen Moore & Associates**, and **The Corradino Group**. After the presentations, public comment, and Council discussion, Council ranked the firms and reached consensus to select Chen Moore & Associates as its preferred consultant to lead a long-term master plan for the **Downtown Civic Area and Memorial Park**.
+> Approved: a master-planning and public-engagement contract. Not approved: a final design, a construction project, a construction budget, or a construction timeline.
 
-That's the real headline, but precision matters. Chen Moore is the *preferred* consultant — not a signed contract. The City will now begin contract negotiations, and if an agreement can't be reached, talks move to the next-ranked firm instead of stalling the project. Only once a contract is finalized does it return to Council for approval, and only then does the actual planning work start. Nothing about the physical redesign — layout, amenities, budget, phasing — has been decided yet. What's locked in right now is the *process*, not the outcome.
+On September 8, 2026, Boca Raton City Council approved **Resolution No. 113-2026**, authorizing the City Manager to execute a professional-services agreement with **Chen Moore & Associates** for the Downtown Civic Area/Memorial Park Master Plan. This approval starts the master-planning and public-engagement work; it does not approve a final design, construction project, construction budget, or construction timeline.
 
-## How an RFQ selection actually works
+- **Agreement value:** a base value of $519,925, with up to $52,000 authorized for contingency.
+- **Study area:** the roughly 17-acre Downtown Civic Area and Memorial Park.
+- **Scope and duration:** the work is expected to proceed through four phases over roughly six months — project initiation and listening framework, community listening, design charrette and concepts, then final recommendations.
+- **A milestone is not a start date:** a master-plan milestone anticipated in early 2027 is a planning deliverable, not a construction start date.
+- **Still ahead:** any final physical design, construction funding, permitting, and construction would require later City decisions.
 
-If you haven't dealt with municipal government before, this stage can look more decisive than it is. A Request for Qualifications isn't a bid on a finished design — it's the city asking firms to prove they're capable of leading the project, based on past work and approach. Winning the RFQ gets a firm to the negotiating table, not to a groundbreaking. That's normal, and it's actually a good sign here: Boca ran a competitive process with three legitimate finalists rather than a single-source selection, which tends to produce a stronger final scope once negotiations start.
+Sources for everything in this box: the [City Council agenda for September 8, 2026](https://bocaraton.granicus.com/GeneratedAgendaViewer.php?event_id=23629&view_id=9), the City's [Memorial Park Project page](https://www.myboca.us/3004/Memorial-Park-Project), and the [agreement backup materials](https://www.myboca.us/DocumentCenter/View/44279) filed with the resolution.
 
-## What's actually inside the "Downtown Civic Area"
+## How the timeline actually ran
 
-Boca's Downtown Civic Area is the cluster of public land that sits just west of the Mizner Park and Royal Palm Place retail corridors — anchored by City Hall, the downtown library, and **Memorial Park**, one of the oldest public green spaces left inside the downtown core. Unlike Mizner Park, which is a commercial mixed-use district built in the 1990s, this is genuinely public civic land today, which means any redesign has to balance government function with everyday public open space in a way a shopping district never has to.
+- **July 28, 2026** — Council ranked Chen Moore & Associates first after finalist presentations under the city's competitive Request for Qualifications (RFQ) process, which also included Brooks + Scarpa Architects and The Corradino Group.
+- **September 8, 2026** — Council approved Resolution No. 113-2026, authorizing the City Manager to execute the professional-services agreement with Chen Moore & Associates.
+- **Current phase** — master planning and public engagement. Not construction.
 
-A master plan for a site like this typically wrestles with how the park connects on foot to the surrounding downtown grid, what recreational and cultural programming the space can realistically support, parking and access for civic functions, and how the aging civic buildings themselves get addressed over the coming decades. None of that has been decided. The process is explicitly structured to include multiple rounds of resident, business, and stakeholder input before a final direction gets set — so if you have opinions about what downtown Boca's civic core should look like, this is the process to watch, not the finish line.
+The distinction between those first two dates is the part that gets flattened in most coverage. A ranking is a procurement step. The September 8 resolution is what actually authorizes the agreement and lets the planning work begin.
 
-## Why this matters if you're buying or selling downtown
+## What's inside the "Downtown Civic Area"
 
-Downtown civic investment tends to move slowly, but it does eventually show up in property values when it lands. A well-executed master plan for Memorial Park and the surrounding civic campus would sit within walking distance of some of the highest-demand condo buildings downtown and the Royal Palm Place dining district — exactly the kind of long-horizon amenity upgrade that South Florida's downtown markets, from Delray's Old School Square corridor to West Palm's waterfront, have historically priced in well before anything actually breaks ground.
+Boca's Downtown Civic Area is the cluster of public land that sits just west of the Mizner Park and Royal Palm Place retail corridors — anchored by City Hall, the downtown library, and **Memorial Park**. The study area covers roughly 17 acres. Unlike Mizner Park, which is a commercial mixed-use district, this is public civic land, which means any plan has to balance government function with everyday public open space in a way a shopping district never has to.
 
-That said, this is early — early enough that it shouldn't be a deciding factor in a purchase decision today. If you're evaluating a downtown Boca condo right now, buy it on its current merits: building quality, HOA reserve health, unit layout, and walkability as it exists today. Treat the master plan as long-term upside, not a guarantee, and don't let a listing description use "the city's about to redo Memorial Park" as a substitute for your own due diligence.
+A master plan for a site like this typically works through how the park connects on foot to the surrounding downtown grid, what recreational and cultural programming the space can realistically support, parking and access for civic functions, and how the civic buildings themselves get addressed over time. None of that has been decided. The approved scope builds structured community listening into the process before a direction is set — so if you have opinions about what downtown Boca's civic core should be, this is the phase to engage with, not the finish line.
 
-It's also worth reading alongside a related item from the same meeting: downtown parking policy shifted at the same session (see our breakdown of [downtown Boca parking](/blog/boca-raton-downtown-parking-condo-buyers-guide)), and access is exactly the kind of detail any Memorial Park master plan will eventually have to solve for too.
+## What the four phases cover
 
-## How these processes usually unfold
+- **Project initiation and listening framework** — the consultant team stands up the process and the public-engagement plan.
+- **Community listening** — structured input from residents, downtown business owners, and other stakeholders.
+- **Design charrette and concepts** — working sessions that turn that input into alternatives.
+- **Final recommendations** — the master-plan deliverable that goes back to the City.
 
-Worth setting expectations if you're following this as a buyer or seller rather than a civics enthusiast.
+A master-plan milestone is anticipated in early 2027. That is a planning milestone. It is not a construction start date, a funding commitment, or an approved design.
 
-Master-planning processes of this kind typically run in phases — consultant selection, then concept development, then public input, then design refinement, then funding decisions — and each phase can take months. Timelines published early in a process are best treated as intentions rather than commitments.
+## What this means if you're buying or selling downtown
 
-The practical implication: a plan being approved is not the same as ground being broken, and the gap between the two is frequently measured in years. If a nearby project is part of why you're buying, weight what has actually been funded far more heavily than what has been proposed.
+Keep two things separate: a master plan is a study, and construction is a separate set of decisions the City has not made.
 
-## What happens next — and when
+If you're evaluating a downtown Boca condo or home right now, evaluate it on current conditions — building quality, HOA reserve health, pending assessments, unit layout, and the walkability that exists today. Treat the master plan as context about the city's planning agenda, and independently verify the status of any future City action before you weight it in a decision.
 
-- **Contract negotiations** with Chen Moore & Associates begin now. If talks stall, the City moves to the next-ranked firm instead of restarting the process.
-- **Council approval** of a finalized contract is still required before any planning work starts — that hasn't happened yet.
-- **A public input phase** follows contract approval, with multiple structured opportunities for residents, downtown business owners, and other stakeholders to weigh in on the vision for the site.
-- **No construction timeline exists.** Master plans at this scale typically take months to draft and additional time — often years — to fund and phase. Treat this as a multi-year civic process, not a near-term project.
+We're not going to tell you what this plan will do to values in the area, and we'd be skeptical of anyone who does. Nothing has been designed, funded, permitted, or scheduled for construction. If a listing description leans on "the city's about to redo Memorial Park," treat that as a prompt to check the City's own record rather than as a reason to move faster.
 
-## Where to verify this yourself
+It's worth reading alongside a related downtown item: parking policy also moved through Council this summer (see our breakdown of [downtown Boca parking](/blog/boca-raton-downtown-parking-condo-buyers-guide)), and access is exactly the kind of detail a Memorial Park master plan will eventually have to solve for too.
 
-City Council agendas, meeting videos, and future updates on this project are posted directly at [myboca.us](https://www.myboca.us) — that's the most current source, and it will stay current long after this article was published.
+## How to verify this yourself
+
+Everything above comes from the City's own record, and that record will stay current long after this article was published:
+
+- [City Council agenda, September 8, 2026](https://bocaraton.granicus.com/GeneratedAgendaViewer.php?event_id=23629&view_id=9) — Resolution No. 113-2026 as Council took it up.
+- [Memorial Park Project](https://www.myboca.us/3004/Memorial-Park-Project) — the City's project page for the master plan.
+- [Agreement and scope backup materials](https://www.myboca.us/DocumentCenter/View/44279) — the supporting documents filed with the September 8 resolution.
+
+One note if you're checking these yourself: municipal project pages are sometimes slower to update than the Council record, so where they disagree, the September 8 Resolution 113-2026 materials are the governing current record.
 
 ## Our take
 
-We like seeing Boca invest seriously in its public downtown core instead of leaving that stretch of the city entirely to private development — Memorial Park is genuinely underused relative to the foot traffic Mizner Park pulls a few blocks away. But we'd caution anyone against rushing a downtown purchase because of it. If you're weighing a downtown Boca condo against a west Boca golf community or a home in Delray, we're glad to talk through the actual trade-offs directly.`,
+Boca is running this in public — a funded scope, a defined set of phases, and structured community listening — rather than settling a downtown plan privately. That's a reasonable way to do it. But an approved planning agreement is an early step in a long sequence, and the decisions that would actually change anything physical downtown haven't been made. If you're weighing a downtown Boca condo against a west Boca golf community or a home in Delray, we're glad to talk through the trade-offs as they stand today.`,
     faqs: [
-      { q: 'What is the Downtown Civic Area & Memorial Park Master Plan?', a: "A long-term planning process for Boca Raton's downtown civic land — City Hall, the downtown library, and Memorial Park. City Council has selected a preferred consultant, Chen Moore & Associates, to lead the master plan, but no design, budget, or timeline has been finalized." },
-      { q: "Who is the consultant for Boca Raton's Memorial Park master plan?", a: 'Chen Moore & Associates was ranked the preferred firm after a competitive Request for Qualifications process that also included Brooks + Scarpa Architects and The Corradino Group. The City is now negotiating a contract; if talks fail, the next-ranked firm is next in line.' },
-      { q: 'When will construction start on the Downtown Civic Area project?', a: "No construction timeline has been announced. The project is still in the consultant-selection and contract-negotiation stage, followed by a master planning process with public input before any design or construction phase begins." },
-      { q: "How does this affect Boca Raton downtown property values?", a: "Civic investment near a downtown core can support property values over time, but this project is years from completion. Buyers and sellers should treat it as long-term context, not a factor to price into a transaction today." },
+      { q: 'What did Boca Raton City Council approve on September 8, 2026?', a: 'Council approved Resolution No. 113-2026, authorizing the City Manager to execute a professional-services agreement with Chen Moore & Associates for the Downtown Civic Area/Memorial Park Master Plan. The approval starts the master-planning and public-engagement work. It does not approve a final design, a construction project, a construction budget, or a construction timeline.' },
+      { q: 'What is the Downtown Civic Area & Memorial Park Master Plan?', a: "A planning study for Boca Raton's downtown civic land — City Hall, the downtown library, and Memorial Park — covering roughly 17 acres. City Council approved the master-planning agreement on September 8, 2026, and the plan is being developed now. No design, construction budget, or construction timeline has been approved." },
+      { q: "Who is the consultant for Boca Raton's Memorial Park master plan?", a: 'Chen Moore & Associates. Council ranked the firm first on July 28, 2026 after finalist presentations under the city’s Request for Qualifications process, which also included Brooks + Scarpa Architects and The Corradino Group, and approved the professional-services agreement on September 8, 2026 through Resolution No. 113-2026. The agreement has a base value of $519,925, with up to $52,000 authorized for contingency.' },
+      { q: 'How long will the Memorial Park master plan take?', a: 'The approved scope is expected to run four phases over roughly six months: project initiation and listening framework, community listening, design charrette and concepts, and final recommendations. A master-plan milestone is anticipated in early 2027.' },
+      { q: 'When will construction start on the Downtown Civic Area project?', a: 'No construction timeline has been approved. The project is in master planning and public engagement. The master-plan milestone anticipated in early 2027 is a planning deliverable, not a construction start date — any final physical design, construction funding, permitting, and construction would require later City decisions.' },
+      { q: 'How does this affect Boca Raton downtown property values?', a: 'We make no prediction, and buyers should be skeptical of anyone who does. Nothing has been designed, funded, permitted, or scheduled for construction. Evaluate a downtown property on its current condition, HOA finances, assessments, and location, and independently verify the status of any future City action that matters to your decision.' },
     ],
     internalLinks: ['local-guide-to-boca-raton-florida', 'best-neighborhoods-in-boca-raton-florida', 'boca-raton-downtown-parking-condo-buyers-guide'],
-    funFact: "Boca's downtown has pulled off ambitious public-facing placemaking before — Mizner Park itself was one of the first purpose-built mixed-use town centers in the country when it opened in 1990, built on the site of a former shopping mall the city bought back. A serious master plan for Memorial Park and the civic core would be the same kind of long-view bet on downtown's future.",
+    funFact: "The thing I tell clients to watch is the gap between a planning milestone and a funded construction project. The scope Council approved here runs four phases over about six months and produces recommendations — the design, the money, the permits, and the shovels are all separate decisions that come later, if they come at all. Plan around what's been funded, not what's been proposed.",
     author: 'john',
     published: true,
-    updated: '2026-07-31',
+    publishedDate: '2026-07-31',
+    updated: '2026-09-13',
   },
   {
     slug: 'boca-raton-north-park-skatepark-recreation-complex',
@@ -22007,6 +22029,10 @@ This is not yet a city with one central restaurant or nightlife district. Its st
     primaryKeyword: "build on your own lot Port St. Lucie",
     secondaryKeywords: ["Port St. Lucie vacant lots","buildable lot Port St. Lucie","spot lot Port St. Lucie","buy a lot and build Port St. Lucie","Port St. Lucie lot impact fees"],
     h1: "Building on Your Own Lot in Port St. Lucie: The Lot",
+    heroImage: '/images/listings/982-sw-worcester-lane/04-exterior-3.jpg',
+    heroImageAlt: 'A completed single-story home on a scattered residential lot in Port St. Lucie, seen from the street with its driveway and frontage',
+    heroImageCaption: 'A finished spot-lot build on an ordinary Port St. Lucie street. The frontage, the setback and the neighbours either side are what you are buying before the house exists.',
+    heroImageCredit: 'Photo by Jatin Shah / MagiK Box',
     body: `In 2017 I sold a vacant lot in Port St. Lucie for twenty-five thousand dollars. It was one of the first things I ever sold here. Comparable buildable lots in the city list for five or six times that today, nine years later.
 
 That one transaction is a fair summary of what makes this city different from the markets south of it. In most of Palm Beach County, and much of Martin County, buying a piece of land and putting a house on it is either impossible or a luxury exercise for people with an architect on retainer. In Port St. Lucie it is an ordinary path to a new home, and a lot of people take it every year.
@@ -22151,6 +22177,10 @@ When you have a parcel you like, the next question is who builds on it. That is 
     primaryKeyword: "spot lot builders Port St. Lucie",
     secondaryKeywords: ["scattered lot builders Florida","Port St. Lucie home builders","build on your lot builders Port St. Lucie","Port St. Lucie spec homes","builder registration buyer agent"],
     h1: "Spot-Lot Builders in Port St. Lucie",
+    heroImage: '/images/listings/982-sw-worcester-lane/03-exterior-2.jpg',
+    heroImageAlt: 'Covered entry of a completed Port St. Lucie home, showing columns, an arched opening and a paver walkway',
+    heroImageCaption: 'Entry detail on a completed Port St. Lucie spot-lot build. Column work, the paver walk and the stucco finish are where the difference between builders shows up.',
+    heroImageCredit: 'Photo by Jatin Shah / MagiK Box',
     body: `Once you have a lot in Port St. Lucie, or you are close to one, the question becomes who puts a house on it.
 
 This is part two of three on building in Port St. Lucie. Part one covers [choosing the lot](/blog/build-on-your-own-lot-port-st-lucie-florida), which is the decision that matters most and the one to make first. This part covers who actually builds on scattered lots here, how to tell a good one from a thin one, and how to approach a sales office without losing your own representation. Part three covers [the money and the timeline](/blog/cost-to-build-on-your-lot-port-st-lucie-florida).
@@ -22284,6 +22314,10 @@ What all of it costs, and how the financing actually works, is [part three](/blo
     primaryKeyword: "cost to build on your own lot Port St. Lucie",
     secondaryKeywords: ["Port St. Lucie construction loan","construction to permanent loan Florida","build vs buy Port St. Lucie","how long to build a house Florida","Port St. Lucie new construction cost"],
     h1: "What It Costs to Build on Your Own Lot in Port St. Lucie",
+    heroImage: '/images/listings/982-sw-worcester-lane/02-exterior-1.jpg',
+    heroImageAlt: 'Front elevation of a completed single-story Port St. Lucie home with a wide front lawn',
+    heroImageCaption: 'The finished article: a completed spot-lot build in Port St. Lucie. Everything in this guide is the arithmetic of getting to this photograph.',
+    heroImageCredit: 'Photo by Jatin Shah / MagiK Box',
     body: `You have a lot and you have a builder. This is the part where the numbers decide whether the project is a good idea.
 
 This is part three of three on building in Port St. Lucie. Part one covers [choosing the lot](/blog/build-on-your-own-lot-port-st-lucie-florida) and part two covers [the builders](/blog/spot-lot-builders-port-st-lucie-florida). This part is the money: how construction lending differs from a mortgage, how long a build really takes, and the cases where buying something finished simply beats building.
