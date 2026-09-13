@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -98,7 +99,7 @@ export default async function ArticlePage({ params }: Props) {
     '@type': 'BlogPosting',
     headline: article.h1,
     description: article.metaDescription,
-    datePublished: article.updated,
+    datePublished: article.publishedDate ?? article.updated,
     dateModified: article.updated,
     image: article.heroImage ? `${SITE}${article.heroImage}` : undefined,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
@@ -132,9 +133,21 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* Hero */}
       {article.heroImage ? (
+        <>
         <section className="relative h-[52vh] min-h-[380px] overflow-hidden">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={article.heroImage} alt={article.h1} className="h-full w-full object-cover" />
+          {/* The hero is the LCP element on every article, so it's preloaded
+              (Next 16 replaced the deprecated `priority` prop with `preload`)
+              and served through the optimizer for responsive AVIF/WebP variants.
+              `fill` over the fixed-height section keeps layout stable without
+              hardcoding intrinsic dimensions per article. */}
+          <Image
+            src={article.heroImage}
+            alt={article.heroImageAlt ?? article.h1}
+            fill
+            preload
+            sizes="100vw"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
           {article.heroImageCredit && (
             <span className="absolute bottom-2 right-3 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/80">{article.heroImageCredit}</span>
@@ -158,6 +171,12 @@ export default async function ArticlePage({ params }: Props) {
             </div>
           </div>
         </section>
+        {article.heroImageCaption && (
+          <p className="mx-auto max-w-3xl px-6 pt-4 text-xs italic leading-5 text-slate-500 sm:px-8">
+            {article.heroImageCaption}
+          </p>
+        )}
+        </>
       ) : (
         <section className="bg-gradient-to-br from-sky-50 via-blue-50 to-white px-6 py-14 sm:px-8">
           <div className="mx-auto max-w-3xl">
