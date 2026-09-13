@@ -15060,7 +15060,7 @@ The effect depends on the property's location and the phase of development. Some
 
 Palm City reads as green, suburban and residential: wide roads, mature landscaping, a mix of gated communities, golf neighborhoods, older subdivisions and real acreage as you move west.
 
-Most residents drive for everyday life, for groceries, schools, medical appointments, restaurants, the gym, parks, work and entertainment. Many also cross the river into Stuart for dining, shopping, cultural events and the waterfront. Palm City has community facilities of its own, including parks, recreation programs and the Peter & Julie Cummings Library at 2551 SW Matheson Avenue, which hosts educational and cultural programs. What it does not offer is a large walkable restaurant and entertainment district. For most residents the trade is a quieter residential setting with Stuart a short drive away.
+Most residents drive for everyday life, for groceries, schools, medical appointments, restaurants, the gym, parks, work and entertainment. Many also cross the river into Stuart for dining, shopping, cultural events and the waterfront. Palm City has community facilities of its own, including parks, recreation programs and the Peter & Julie Cummings Library at 2551 SW Matheson Avenue, which hosts educational and cultural programs. What it does not offer is a large walkable restaurant and entertainment district. For most residents the trade is a quieter residential setting with Stuart a short drive away. Our [local's guide](/blog/local-guide-to-palm-city-florida) covers the day-to-day version of that: where people actually shop, eat and spend a weekend here.
 
 ### Access to Major Roads
 
@@ -17420,7 +17420,9 @@ The short boardwalk up Hobe Mountain runs through sand pine scrub to the highest
 
 Experiencing the Loxahatchee River provides a closer look at the waterways, cypress habitat and protected land that make this part of Florida distinctive.
 
-Together, they offer one of the best introductions to the natural character of Hobe Sound.`,
+Together, they offer one of the best introductions to the natural character of Hobe Sound.
+
+If a visit leaves you wondering whether Hobe Sound would work as an address rather than a day out, our [who-should-move guide](/blog/who-should-move-to-hobe-sound-florida) answers that honestly, including who the village does not suit.`,
     faqs: [
       { q: "What is there to do in Hobe Sound, Florida?", a: "Almost everything is outdoors: Jonathan Dickinson State Park with the Hobe Mountain boardwalk, the Loxahatchee River and Trapper Nelson’s former camp; Blowing Rocks Preserve on Jupiter Island; the Nathaniel P. Reed Hobe Sound National Wildlife Refuge and its nature center; Hobe Sound Beach; Peck Lake for boaters; and fishing from the beach, the Intracoastal, the river or offshore. The small Bridge Road commercial district covers a Saturday morning." },
       { q: "How big is Jonathan Dickinson State Park?", a: "More than 10,000 acres, making it the largest state park in Southeast Florida, and it contains 16 distinct natural communities ranging from sand pine scrub and pine flatwoods to cypress wetlands and riverfront habitat. It offers hiking, off-road cycling and equestrian areas, camping, paddling and wildlife viewing. Activities, rentals, tours and river conditions can change, so check the park’s current operating information before arriving." },
