@@ -100,9 +100,13 @@ export default function SeasonalComparison({
   }, [open, centre, year, timeZone, buildings, pools, heights, parcelRing])
 
   const swing = seasons ? seasonalSwing(seasons) : null
-  const usable = seasons?.some((s) => seasonFraction(s) !== null)
-  // Says what the number measures, since it silently changes when the county
-  // parcel has not arrived.
+  // With nothing mapped to cast a shadow every season scores ~100%, which reads
+  // as a finding about the property when it is really the absence of data. The
+  // exposure rows above decline to answer in that case; so does this.
+  const hasShadowCasters = buildings.length > 0
+  const usable = hasShadowCasters && seasons?.some((s) => seasonFraction(s) !== null)
+  // Says what the number covers. It changes with the data available, so it is
+  // stated rather than left for the reader to assume.
   const basis = seasons?.map(seasonFraction).find(Boolean)?.basis ?? 'yard'
 
   return (
@@ -155,8 +159,9 @@ export default function SeasonalComparison({
               <p className="mt-3 text-xs leading-relaxed text-slate-600">
                 {swing.spreadPoints <= 8 ? (
                   <>
-                    This space stays close to even all year — about {swing.spreadPoints} points
-                    between {swing.best.label.toLowerCase()} and {swing.worst.label.toLowerCase()}.
+                    This space stays close to even all year — about {swing.spreadPoints}{' '}
+                    {swing.spreadPoints === 1 ? 'point' : 'points'} between{' '}
+                    {swing.best.label.toLowerCase()} and {swing.worst.label.toLowerCase()}.
                   </>
                 ) : (
                   <>
@@ -172,7 +177,9 @@ export default function SeasonalComparison({
             <p className="mt-2 text-xs leading-relaxed text-slate-500">
               {basis === 'yard'
                 ? 'Share of daylight the open ground on the lot is in direct sun.'
-                : 'Share of daylight in direct sun, averaged across the day — the county parcel has not arrived, so this is not limited to the yard.'}{' '}
+                : basis === 'approx'
+                  ? 'Share of daylight in direct sun, sampled around the property point — no parcel boundary or mapped pool, so this is not limited to the yard.'
+                  : 'Share of daylight in direct sun, averaged across the day rather than sampled across the yard.'}{' '}
               Tap a season to move the map to it. Building shadows only — trees are not modelled.
             </p>
           </>

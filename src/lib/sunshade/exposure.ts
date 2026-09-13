@@ -34,6 +34,16 @@ import type {
  * a percentage: a decimal would imply a precision the inputs cannot support.
  */
 
+/**
+ * The note on an estimate that could not be made at all.
+ *
+ * Distinct from the informational notes - "No mapped pool", say - which
+ * describe how a perfectly good figure was arrived at. Callers deciding
+ * whether a figure is usable must test for this, not for the presence of a
+ * note: a note is not a failure.
+ */
+export const NO_ESTIMATE_NOTE = 'Not enough mapping data to estimate.'
+
 /** Sample points are laid on a grid this many metres apart across the lot. */
 const SAMPLE_SPACING_M = 6
 const MAX_SAMPLE_POINTS = 48
@@ -123,7 +133,7 @@ export function estimateExposure(input: ExposureInput): ExposureSummary {
   const empty: ExposureEstimate = {
     rating: 'Moderate',
     sunFraction: 0,
-    note: 'Not enough mapping data to estimate.',
+    note: NO_ESTIMATE_NOTE,
   }
 
   if (day.sunriseMinutes === null || day.sunsetMinutes === null) {

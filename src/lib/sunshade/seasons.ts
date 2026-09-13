@@ -1,4 +1,4 @@
-import { estimateExposure } from './exposure'
+import { estimateExposure, NO_ESTIMATE_NOTE } from './exposure'
 import { solarPositionAtLocalTime, solarDay } from './solar'
 import { seasonalDates } from './time'
 import type {
@@ -27,6 +27,8 @@ export interface SeasonSnapshot {
   noonElevation: number
   day: SolarDay
   exposure: ExposureSummary
+  /** Whether the yard sampling was clipped to a real parcel boundary. */
+  parcelBacked: boolean
 }
 
 export interface SeasonalInput {
@@ -61,6 +63,7 @@ export function computeSeasons(input: SeasonalInput): SeasonSnapshot[] {
       key,
       label,
       date,
+      parcelBacked: parcelRing !== null,
       noonElevation: noon.elevationDeg,
       day,
       exposure: estimateExposure({
@@ -87,18 +90,30 @@ export function formatDaylight(minutes: number): string {
 /**
  * The figure to compare a season on, and what it actually measures.
  *
- * The yard estimate is the one worth showing, but it needs a parcel boundary
- * or a mapped pool, and the county parcel service is slow enough that it often
- * has not answered. Rather than hide the whole comparison in that case — while
- * the panel above is happily showing morning and afternoon ratings — fall back
- * to the average of those two, which needs only the footprints.
+ * The yard estimate is the one worth showing. It is usable whenever the
+ * sampler produced anything at all — an informational note such as "No mapped
+ * pool" describes how the figure was reached, not a failure to reach one, and
+ * treating any note as a failure meant every property without a mapped pool
+ * silently dropped to the day average and was told the parcel had not arrived.
+ *
+ * Only the explicit no-estimate sentinel means there is nothing to show; then
+ * fall back to the morning/afternoon average, which needs only the footprints.
+ *
+ * `basis` says what the number covers, so the panel can label it honestly:
+ * `yard` when the sampling was clipped to a real parcel boundary or a mapped
+ * pool, `approx` when neither had arrived and it fell back to a fixed square
+ * around the property point, `day` when the yard figure was unusable.
  */
 export function seasonFraction(
   season: SeasonSnapshot
-): { fraction: number; basis: 'yard' | 'day' } | null {
+): { fraction: number; basis: 'yard' | 'approx' | 'day' } | null {
   const { yard, morning, afternoon } = season.exposure
-  if (!yard.note) return { fraction: yard.sunFraction, basis: 'yard' }
-  if (!morning.note && !afternoon.note) {
+  if (yard.note !== NO_ESTIMATE_NOTE) {
+    const basis =
+      season.parcelBacked || season.exposure.yardFromMappedPool ? 'yard' : 'approx'
+    return { fraction: yard.sunFraction, basis }
+  }
+  if (morning.note !== NO_ESTIMATE_NOTE && afternoon.note !== NO_ESTIMATE_NOTE) {
     return { fraction: (morning.sunFraction + afternoon.sunFraction) / 2, basis: 'day' }
   }
   return null
@@ -117,7 +132,7 @@ export function seasonalSwing(seasons: SeasonSnapshot[]): {
 } | null {
   const scored = seasons
     .map((s) => ({ season: s, scored: seasonFraction(s) }))
-    .filter((x): x is { season: SeasonSnapshot; scored: { fraction: number; basis: 'yard' | 'day' } } =>
+    .filter((x): x is { season: SeasonSnapshot; scored: { fraction: number; basis: 'yard' | 'approx' | 'day' } } =>
       x.scored !== null
     )
   if (scored.length < 2) return null
