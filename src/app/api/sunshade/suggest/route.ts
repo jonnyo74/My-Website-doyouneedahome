@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server'
+import { streetSuggestions } from '@/lib/sunshade/streets'
 import { addressSuggestions, localSuggestions, type Suggestion } from '@/lib/sunshade/suggest'
 
 /**
@@ -21,6 +22,11 @@ export async function GET(req: NextRequest) {
   }
 
   const local = localSuggestions(query)
+  // Streets come from a committed index and need no key, so the box predicts
+  // real addresses even with no provider configured. They sit BELOW the local
+  // matches: someone typing "8804 Sky" means our listing, whose coordinates are
+  // parcel-matched, not the street it stands on.
+  const streets = streetSuggestions(query)
 
   let addresses: Suggestion[] = []
   try {
@@ -33,7 +39,7 @@ export async function GET(req: NextRequest) {
   }
 
   const seen = new Set<string>()
-  const suggestions = [...addresses, ...local].filter((s) => {
+  const suggestions = [...addresses, ...local, ...streets].filter((s) => {
     const key = s.label.toLowerCase()
     if (seen.has(key)) return false
     seen.add(key)
