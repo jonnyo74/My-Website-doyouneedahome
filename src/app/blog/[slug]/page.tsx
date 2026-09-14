@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import {
@@ -22,6 +23,14 @@ const SITE = SITE_URL
 const PHONE = { display: '(561) 786-3630', href: 'tel:+15617863630' }
 
 type Props = { params: Promise<{ slug: string }> }
+
+// Hero photos live in folders whose names carry spaces ('/public/Boca Raton/…'),
+// which are not legal in a URL. Encode each segment so og:image, JSON-LD, and
+// the image optimizer all receive a well-formed absolute URL. Paths without
+// spaces come back unchanged.
+function encodeImagePath(path: string): string {
+  return path.split('/').map(encodeURIComponent).join('/')
+}
 
 // Split an article body at the "## " heading nearest ~30% through the content
 // (within a 22–45% window) so an inline report CTA can sit between the two
@@ -55,7 +64,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const a = getArticleBySlug(slug)
   if (!a) return { title: 'Article not found' }
   const url = `${SITE}/blog/${a.slug}`
-  const image = a.heroImage ? `${SITE}${a.heroImage}` : undefined
+  const image = a.heroImage ? `${SITE}${encodeImagePath(a.heroImage)}` : undefined
+  // Describe the photo, not the headline — the h1 is already the og:title, and
+  // repeating it tells a screen reader or a scraper nothing about the picture.
+  const imageAlt = a.heroImageAlt ?? a.h1
+  const ogImage = image
+    ? {
+        url: image,
+        alt: imageAlt,
+        ...(a.heroImageWidth && a.heroImageHeight
+          ? { width: a.heroImageWidth, height: a.heroImageHeight }
+          : {}),
+      }
+    : undefined
   return {
     title: a.metaTitle,
     description: a.metaDescription,
@@ -69,8 +90,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: a.metaDescription,
       url,
       type: 'article',
-      images: image ? [{ url: image }] : undefined,
+      // A page-level openGraph object replaces the layout's rather than merging
+      // into it, so siteName and locale have to be restated here or they vanish.
+      siteName: 'DO Homes Group',
+      locale: 'en_US',
+      publishedTime: a.updated,
+      modifiedTime: a.updated,
+      images: ogImage ? [ogImage] : undefined,
     },
+    // Inherits card type and site defaults from the root layout; this narrows
+    // the image to the article's own hero when it has one.
+    twitter: ogImage
+      ? { title: a.metaTitle, description: a.metaDescription, images: [ogImage] }
+      : { title: a.metaTitle, description: a.metaDescription },
   }
 }
 
@@ -93,6 +125,8 @@ export default async function ArticlePage({ params }: Props) {
   const bodyParts = splitBodyForInlineCta(article.body)
 
   // ---- JSON-LD structured data ----
+  const heroUrl = article.heroImage ? `${SITE}${encodeImagePath(article.heroImage)}` : undefined
+  const heroAlt = article.heroImageAlt ?? article.h1
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -100,10 +134,25 @@ export default async function ArticlePage({ params }: Props) {
     description: article.metaDescription,
     datePublished: article.updated,
     dateModified: article.updated,
-    image: article.heroImage ? `${SITE}${article.heroImage}` : undefined,
+    image: heroUrl
+      ? {
+          '@type': 'ImageObject',
+          url: heroUrl,
+          caption: heroAlt,
+          ...(article.heroImageWidth && article.heroImageHeight
+            ? { width: article.heroImageWidth, height: article.heroImageHeight }
+            : {}),
+        }
+      : undefined,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    url,
     author: { '@type': 'Organization', name: 'DO Homes Group' },
-    publisher: { '@type': 'Organization', name: 'DO Homes Group' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'DO Homes Group',
+      url: SITE,
+      logo: { '@type': 'ImageObject', url: `${SITE}/images/logo.png`, width: 3290, height: 1772 },
+    },
   }
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -133,8 +182,19 @@ export default async function ArticlePage({ params }: Props) {
       {/* Hero */}
       {article.heroImage ? (
         <section className="relative h-[52vh] min-h-[380px] overflow-hidden">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={article.heroImage} alt={article.h1} className="h-full w-full object-cover" />
+          {/* The section's fixed height reserves the layout box, so `fill` can't
+              shift the page in. `sizes` makes the optimizer emit a full srcset
+              for a full-bleed image, and eager/high loading marks it as the LCP
+              candidate rather than letting it queue behind the rest of the page. */}
+          <Image
+            src={encodeImagePath(article.heroImage)}
+            alt={heroAlt}
+            fill
+            sizes="100vw"
+            loading="eager"
+            fetchPriority="high"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
           {article.heroImageCredit && (
             <span className="absolute bottom-2 right-3 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/80">{article.heroImageCredit}</span>

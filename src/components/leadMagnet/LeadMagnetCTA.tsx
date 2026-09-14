@@ -105,7 +105,7 @@ export default function LeadMagnetCTA({
 
   const eyebrow = magnet?.ctaEyebrow ?? 'Free Palm Beach County Market Reports'
   const headline =
-    magnet?.ctaHeadline ?? 'Get the Latest Palm Beach County Market Report'
+    magnet?.ctaHeadline ?? 'Get a Free Palm Beach County Market Report'
   const description =
     magnet?.ctaDescription ??
     'Local prices, inventory, and negotiating conditions for single family homes, condos, and townhomes — free instant PDF downloads.'

@@ -117,13 +117,13 @@ export interface LeadMagnet {
   published: boolean
 }
 
-/** Publication month of the current Palm Beach County reports. */
+/** Publication month of the most recently published Palm Beach County reports. */
 export const REPORT_EDITION = 'August 2026'
 /** The month the Palm Beach County MLS statistics actually cover. */
 export const REPORT_DATA_MONTH = 'July 2026'
 /** Year label carried by the evergreen guides. */
 export const GUIDE_EDITION = '2026 Edition'
-/** Publication month of the current Treasure Coast report. */
+/** Publication month of the most recently published Treasure Coast report. */
 export const TREASURE_COAST_EDITION = 'August 2026'
 /** The month the Martin / St. Lucie statistics actually cover. */
 export const TREASURE_COAST_DATA_MONTH = 'July 2026'
