@@ -15,10 +15,13 @@ const nextConfig: NextConfig = {
       },
     ],
     // An optimizer cache miss re-fetches the FULL original from origin, not the
-    // optimized output — and this library still has 23-25 MB source photos in
-    // it (public/images/ibis/*). On the framework default TTL that was costing
-    // tens of MB of origin transfer per miss. Community photos never change at
-    // a given path; when one does, rename it or run:
+    // optimized output. The JPEG library has since been compressed to a 2048px
+    // ceiling, so most sources are now well under 1 MB — but PNGs were not part
+    // of that pass, and public/images/ibis/ibis-photos-001.png is still 13.6 MB
+    // at 3874x2905 while being referenced from the homepage. Until the PNGs are
+    // converted, a miss there still costs double-digit MB of origin transfer.
+    // Community photos never change at a given path; when one does, rename it
+    // or run:
     //   vercel cache invalidate --srcimg /images/<path>
     minimumCacheTTL: 31536000,
     // Trimmed from the 8 Next.js defaults — each width is a separate cache
