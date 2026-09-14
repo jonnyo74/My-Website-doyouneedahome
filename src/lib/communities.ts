@@ -3528,7 +3528,7 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Three golf courses, pools, tennis, fitness, dining' },
     ],
     photos: [
-      '/images/ibis/ibis-photos-001.png',
+      '/images/ibis/ibis-photos-001.jpg',
       '/images/ibis/ibis-photos-002.jpg',
       '/images/ibis/ibis-photos-003.jpg',
       '/images/ibis/ibis-photos-004.jpg',

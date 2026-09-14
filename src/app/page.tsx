@@ -27,7 +27,7 @@ const testimonials = [
 ]
 
 const stripPhotos = [
-  { src: '/images/ibis/ibis-photos-001.png', label: 'Ibis G&CC', slug: 'ibis' },
+  { src: '/images/ibis/ibis-photos-001.jpg', label: 'Ibis G&CC', slug: 'ibis' },
   { src: '/images/jupiter/jupiter-003.jpg', label: 'Jupiter', slug: 'jupiter' },
   { src: '/images/west-palm-beach/waterfront-024.jpg', label: 'West Palm Beach', slug: 'west-palm-beach' },
   { src: '/images/singer-island/singer-island-0035.jpeg', label: 'Singer Island', slug: 'singer-island' },
