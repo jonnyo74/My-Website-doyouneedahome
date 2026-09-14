@@ -4082,122 +4082,159 @@ If you want a hand working through the documents on a particular address, that i
     type: "Best Things To Do In",
     order: 4,
     seoTitle: "Best Things to Do in Boca Raton, Florida",
-    metaTitle: "Best Things to Do in Boca Raton, Florida",
-    metaDescription: "From Mizner Park and the beach parks to Gumbo Limbo and Sugar Sand Park — a local guide to the best things to do in Boca Raton, Florida.",
+    metaTitle: "Best Things to Do in Boca Raton, FL | Local Guide",
+    metaDescription: "Plan a Boca Raton day with beach parks, Red Reef snorkeling, Mizner Park, museums, nature centers, waterfront parks, and current visitor tips.",
     primaryKeyword: "things to do in Boca Raton Florida",
-    secondaryKeywords: ["Boca Raton attractions", "what to do in Boca Raton", "Gumbo Limbo Nature Center", "Mizner Park"],
+    secondaryKeywords: ["Boca Raton attractions", "what to do in Boca Raton", "Gumbo Limbo Nature Center", "Mizner Park", "Red Reef Park snorkeling", "Boca Raton beach parks"],
     h1: "Best Things to Do in Boca Raton, Florida",
     heroImage: "/public/Boca Raton/boca-oceanfront.jpg",
-    body: `Boca pairs upscale culture and shopping with beaches and nature that are genuinely better than the city's reputation suggests. For a place known mainly for golf and retail, there's a surprising amount of coastline and conservation land.
+    heroImageAlt: "Aerial view of Boca Raton's Atlantic shoreline and coastal neighborhoods",
+    heroImageCredit: "Photo by Nigel Sarrag / Unsplash",
+    heroImageWidth: 5472,
+    heroImageHeight: 3078,
+    body: `Boca Raton fits a lot into a short stretch of coast: a walkable arts district, City beach parks strung along A1A, two nature centers on opposite sides of the county, a public boat ramp and paddling launch, and a university calendar that is open to anyone who looks at it.
 
-Here's what's actually worth your time.
+This is a guide to the places themselves — what each one actually is, and where to check the details that move. Because they do move. Hours, parking rules, permits, lifeguard coverage, pass prices, and maintenance closures all change here, so every section below ends with the official page for that destination.
 
-## Mizner Park
+Two are worth opening before any trip at all: the City's [beach parks and current conditions page](https://www.myboca.us/2462/Beaches) and its [improvements and closures list](https://myboca.us/2315/Improvements-and-Closures). Between them they will tell you more about your specific day than anything written in advance.
 
-The polished heart of the city, and the thing most visitors see first.
+## Mizner Park: shops, dining, museum, and amphitheater
 
-An open-air district of shops, restaurants, and cafés built around a central green, with the **Boca Raton Museum of Art** at one end and an **amphitheater** that hosts concerts and events. It's designed to be walked, which in Boca is genuinely notable.
+Mizner Park is the open-air center of downtown — shops, restaurants, and cafés arranged along a central green, built to be walked rather than parked in front of.
 
-The museum is worth treating as a destination rather than a stop — it carries a substantial permanent collection and rotating exhibitions, and it anchors the city's arts scene.
+Two institutions anchor it. The **Boca Raton Museum of Art** sits at the north end at 501 Plaza Real, with a permanent collection, rotating exhibitions, and an art school on the same creative campus. The **Mizner Park Amphitheater** beside it carries concerts, City events, and festival programming through the year.
 
-## The beach parks
+Both run on their own calendars. Exhibitions rotate, performances sell out, and ticketing and access vary event by event — so check the calendar before you build a day around either one.
 
-Boca's coastal parks are among the best-maintained in the county, and each has a distinct character worth knowing.
+*Plan your visit:* [Boca Raton Museum of Art](https://www.bocamuseum.org/) · [Mizner Park Amphitheater events](https://myboca.us/calendar.aspx?CID=27)
 
-**Red Reef Park** has a man-made reef close to shore, making it one of the easier and better snorkeling spots in the area — genuinely accessible from the sand rather than requiring a boat.
+## Beach parks: Red Reef, Spanish River, South Beach, and Bark Beach
 
-**Spanish River Park** is the largest and shadiest, with a tree canopy, an observation tower, and tunnels running under A1A that connect the inland picnic areas to a quieter stretch of beach. It's the pick for a full day rather than a quick swim.
+The City's beach parks sit along A1A within a few miles of each other, and they are genuinely different places.
 
-**South Beach Park** is the more straightforward beach stop — sand, surf, and facilities.
+**Red Reef Park** is the snorkeling one. The City describes a snorkel trail there with a jetty and 20 artificial reefs just offshore, reachable from the sand rather than by boat. The park itself has a boardwalk, a playground, picnic areas with tables and grills, restrooms, and ocean access.
 
-All three charge for parking, and all three are worth it.
+This is open-ocean swimming, not a pool. Check the surf and water conditions, confirm lifeguard coverage for the hours you plan to be there, check the closures list for the beach access point you intend to use, and be honest with yourself about your swimming ability before you get in.
 
-**Bark Beach** is the off-leash dog beach inside Spanish River Park Beach, between lifeguard towers 18 and 20 at 3001 N. Ocean Boulevard on A1A. As of 2026 it runs seven days a week rather than weekends only, with dogs off-leash from 7 to 9 a.m. and again from 3 p.m. until sunset, and a pass is required for each dog — $15 for three days, $35 for the season, or $210 annually for non-residents. Fees are reviewed annually, so confirm the current ones with the City of Boca Raton at [myboca.us](https://www.myboca.us) before you go.
+**Spanish River Park** is the large one — a City beach park with pavilions, picnic areas, beach access, and tunnels running under A1A between the inland picnic grounds and the sand. Don't assume every tunnel is open: at least one has been closed for maintenance, so check the City's closures page before you plan a route with a stroller, a cooler, or anyone who can't manage a long detour.
+
+**South Beach Park** is a City beach park with beach access, walking paths, benches, restrooms, and its own parking and permit requirements. Parking rules differ between permit spaces and metered spaces across the City's beach lots, and a beach permit does not automatically cover a metered spot — read the current rules on the beaches page rather than assuming.
+
+**Bark Beach** is a permitted off-leash area within Spanish River Park. Hours, eligibility, passes, parking, and fees change; check the City's Bark Beach page before visiting.
+
+*Plan your visit:* [City beach parks and current conditions](https://www.myboca.us/2462/Beaches) · [Red Reef Park](https://www.myboca.us/facilities/facility/details/redreefpark-49) · [Bark Beach rules and permits](https://www.myboca.us/953/Bark-Beach-at-Spanish-River-Park) · [Current City closures](https://myboca.us/2315/Improvements-and-Closures)
 
 ## Gumbo Limbo Nature Center
 
-A sea-turtle rehabilitation and coastal-nature center sitting right by the beach, with outdoor tanks, a coastal hammock boardwalk, and an observation tower.
+Gumbo Limbo Nature Center is a City-operated coastal and marine education center on Boca Raton's barrier island. Visitors can explore outdoor marine aquariums, a tropical hardwood-hammock boardwalk, butterfly garden, and Jacob's Outlook observation tower. General admission is free; confirm current hours, programs, parking, and temporary closures before visiting.
 
-It's free to enter, it's excellent with children, and residents treat it as a civic asset rather than an attraction. It's also the best short explanation available of what this coastline actually is ecologically, which makes it a good early stop for anyone new to the area.
+A few specifics that make it easier to plan. The boardwalk crosses preserved tropical hardwood hammock — gumbo limbo, strangler fig, cabbage palm — and passes Glades Culture middens left by the people who lived on this ridge long before the city existed. Jacob's Outlook is a 40-foot tower reached by an ADA-accessible switchback ramp, with a view across the barrier island to the Intracoastal. The City lists resident sea turtles among the animals on site.
 
-## Sugar Sand Park
+Two practical notes: on-site parking is limited and reserved for Gumbo Limbo visitors, and the center closes its outdoor areas when its lightning-detection system triggers — worth knowing on a summer afternoon.
 
-Consistently underrated even by locals. A large community park with a **science playground**, a restored carousel, a children's theater, and extensive open space.
+*Plan your visit:* [Gumbo Limbo visitor information](https://myboca.us/2098/Plan-Your-Visit) · [Boardwalk trail and observation tower](https://www.myboca.us/2110/Boardwalk-Trail-and-Observation-Tower)
 
-For residents with young children this is a genuine weekly destination rather than an occasional outing, and it's better funded and maintained than most municipal parks anywhere.
+## Sugar Sand Park and the Children's Science Explorium
+
+Sugar Sand Park is owned by the Greater Boca Raton Beach and Park District and operated by the City's Recreation Services. On one site you get the **Children's Science Explorium**, a carousel, the Willow Theatre, a field house, and a large science playground.
+
+It's built for repeat visits rather than a single tour, which is why families here tend to end up on a rotation rather than making a day of it once. Each venue keeps its own hours and its own program calendar, and the field house and theatre close periodically for resurfacing and productions, so check before you drive over.
+
+*Plan your visit:* [Sugar Sand Park Community Center](https://www.myboca.us/2469/Sugar-Sand-Park-Community-Center)
 
 ## Daggerwing Nature Center
 
-Out past the Turnpike, a wetlands boardwalk through cypress and marsh habitat with a small nature center attached.
+Daggerwing Nature Center, operated by Palm Beach County within Burt Aaronson South County Regional Park, has exhibits and a 0.6-mile accessible boardwalk through natural swampland. The boardwalk is generally open sunrise to sunset; check the County page for current nature-center hours, programs, and closures.
 
-It's the counterweight to the coastal parks — a completely different ecosystem, rarely busy, and a reminder that Boca's western edge backs onto genuine Everglades-system wetland.
+Pair it with the coast rather than choosing between them. This is inland freshwater habitat, and it reads completely differently from the barrier-island hammock at Gumbo Limbo. Note that the nature center building keeps much shorter hours than the boardwalk, so if you want the exhibits and the staff, check the schedule first.
 
-## Florida Atlantic University
+*Plan your visit:* [Daggerwing Nature Center](https://discover.pbc.gov/parks/pages/daggerwing.aspx)
 
-More useful to residents than outsiders realize. **FAU** brings college athletics, performing arts, lecture programming, and community events to the center of the city, and much of it is open to the public at modest cost.
+## The Boca Raton's Mizner history and public waterfront parks
 
-For a city sometimes characterized as culturally thin outside of shopping, the university is a real and underused resource.
+The city's architecture starts with one building. **The Boca Raton** — the resort on the Intracoastal at the east end of Camino Real — opened on February 6, 1926 as the Ritz-Carlton Cloister Inn, and it is associated with the architect Addison Mizner, whose Mediterranean Revival vocabulary still shapes what gets approved here a century later.
 
-## The Boca Raton Resort and the waterfront
+It is not an open public attraction. Many of its facilities are reserved for hotel guests and members, so treat it as context for why the city looks the way it does rather than as a stop on an itinerary.
 
-The historic resort complex and the surrounding waterfront are worth seeing even if you're not a guest. The architecture is the clearest surviving statement of what the city's 1920s founders were building toward, and it explains the aesthetic rules that still govern how Boca looks.
+For actual time on the water, the City runs three public parks that need no membership and no boat of your own.
 
-The Intracoastal runs through the eastern half of the city, and boat rentals, charters, and paddling are all accessible. **Lake Boca** in particular is a well-known gathering spot on the water for boaters on a warm weekend.
+**Wildflower Park**, at 551 E. Palmetto Park Road, is the strolling one: Intracoastal views, a walking path along the water, benches, picnic tables, a pavilion, a splash pad, restrooms, and free parking, with installations from the City's public art program.
 
-## Tennis and pickleball
+**Silver Palm Park**, just across the Palmetto Park Road bridge at 600 E. Palmetto Park Road, is the working waterfront — a public boat launch with trailer parking, a canoe and kayak launch, a fish-cleaning station, benches, and restrooms. The launch requires a permit, so sort that out before you arrive towing anything.
 
-Boca takes racquet sports seriously, with public facilities alongside the extensive private club programs. Pickleball has grown substantially here as everywhere, and the public courts are a genuine route into meeting people for anyone not buying into a club.
+**James A. Rutherford Park**, at 600 NE 24th Street, is the easiest way onto the water with no gear at all: a self-serve kayak and paddleboard rental kiosk, an ADA-compliant kayak launch, accessible walking paths, and free parking.
 
-## Golf
+*Plan your visit:* [The Boca Raton's 1926 history](https://www.thebocaraton.com/centennial/) · [Wildflower Park](https://www.myboca.us/2876/Wildflower-Park) · [Silver Palm Park](https://www.myboca.us/2878/Silver-Palm-Park) · [James A. Rutherford Park](https://www.myboca.us/2866/James-A-Rutherford-Park) · [Paddling the Intracoastal](https://www.myboca.us/2733/Paddle-Along-the-Intracoastal)
 
-Boca is a serious golf town, though much of it sits behind club gates in the western communities. Public and semi-private options exist, and the concentration of courses within a short drive is high even by South Florida standards.
+## Racquet sports and golf
 
-## Day trips within an hour
+**Boca Raton Tennis Center**, at 271 NW Boca Raton Boulevard, is the public clay option — ten Har-Tru courts with lights, booked through the City's online reservation system, with private lessons available through the pro shop. It does not offer pickleball.
 
-Boca's position between two metros makes this unusually easy:
+For **pickleball and hard courts**, the City points players to **Patch Reef Paddle & Racquet Club**, set inside Patch Reef Park off Yamato Road: outdoor hard tennis courts alongside outdoor and covered pickleball courts, with free parking. Reservation windows differ for members and non-members, so check the booking rules before you drive over.
 
-- **Delray Beach** (about 15 minutes north) — Atlantic Avenue's walkable downtown and a livelier evening scene.
-- **Fort Lauderdale** (about 30 minutes south) — a bigger beach city, Las Olas, and a real downtown.
-- **Loxahatchee National Wildlife Refuge** (about 40 minutes northwest) — Everglades-system marsh with boardwalks and airboat access.
-- **Miami** (roughly an hour, traffic dependent) — everything.
-- **Palm Beach and West Palm Beach** (about 30 minutes north) — Worth Avenue, the Norton Museum, and the Flagler Museum.
+For golf, the **Boca Raton Golf & Racquet Club** is the City's own 18-hole course, it is open for play, and tee times can be reserved in advance online. There's a driving range, a practice putting green, a golf shop, cart rental, and on-site dining. Most of the rest of the golf in and around Boca sits behind private club gates, which is exactly what makes a City course with public tee times worth knowing about.
+
+*Plan your visit:* [Boca Raton Tennis Center](https://www.myboca.us/2546/Boca-Raton-Tennis-Center) · [Patch Reef Paddle & Racquet Club](https://www.myboca.us/2547/Patch-Reef-Paddle-Racquet-Club) · [Boca Raton Golf & Racquet Club](https://www.myboca.us/2043/Boca-Raton-Golf-Racquet-Club)
+
+## Florida Atlantic University events
+
+FAU's main campus sits in the middle of the city, and much of what happens there is open to the public: Division I athletics, performing arts, lectures, exhibitions, and community events. Ticketing, pricing, and public access vary by event, and the schedule moves with the academic calendar rather than the tourist one.
+
+*Plan your visit:* [FAU Boca Raton events calendar](https://calendar.fau.edu/group/bocaraton/calendar)
+
+## Nearby day-trip ideas — travel times vary
+
+Boca sits between two metros, so a lot is reachable in a day. How long any of it takes depends on traffic, season, and time of day, so check live routing before you commit to a plan.
+
+- **Delray Beach** — Atlantic Avenue's walkable downtown, galleries, and a livelier evening scene.
+- **Fort Lauderdale** — a bigger beach city, with Las Olas Boulevard and a real downtown.
+- **West Palm Beach and Palm Beach** — the Norton Museum of Art, the Flagler Museum, and Worth Avenue.
+- **Miami** — museums, distinct neighborhoods, and everything else that comes with a major metro.
+- **Arthur R. Marshall Loxahatchee National Wildlife Refuge**, out west — Everglades-system marsh with the Cypress Swamp Boardwalk, the Marsh Trail, miles of levee and impoundment trails, wildlife viewing, and a 5.5-mile canoe trail you can paddle by bringing your own canoe or kayak. An entrance fee applies per vehicle and is waived for visitors arriving on foot or by bicycle. Check the refuge's own alerts and closures before you leave — water levels, trails, and visitor center hours all change.
+
+*Plan your visit:* [Loxahatchee refuge visitor information](https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee/visit-us)
+
+## Seasonal planning and current conditions
+
+Boca is an outdoor city, which means the weather decides more of your day than the calendar does.
+
+Before you head out, check beach conditions, lifeguard coverage, the forecast, and facility closures. The City publishes current beach conditions alongside a running list of park and facility closures, and both are more current than anything printed in advance.
+
+Summer brings heat, humidity, near-daily afternoon thunderstorms, and lightning. Gumbo Limbo closes its outdoor areas when lightning is detected, and beach staff clear the water — plan the outdoor half of a summer day for the morning. Atlantic hurricane season runs June through November, and it can affect travel, park access, and hours well before and after any single storm.
+
+Build flexibility into a warm-season visit rather than a fixed itinerary. Don't count on a storm clearing on a schedule, and don't count on any single attraction being open on the day you arrive — check it the morning of.
+
+*Plan around it:* [City beach conditions](https://www.myboca.us/2462/Beaches) · [Current City closures](https://myboca.us/2315/Improvements-and-Closures) · [National Hurricane Center seasonal information](https://www.nhc.noaa.gov/climo/)
 
 ## Where to take visitors
 
 A practical shortlist, since Boca residents host a lot of out-of-town guests.
 
-**First-timers:** Mizner Park for the setting, the art museum if they'll sit still for it, and Red Reef or Spanish River for a beach afternoon.
+**First-timers:** Mizner Park for the setting and the art museum, then Red Reef or Spanish River for a beach afternoon.
 
-**With children:** Sugar Sand Park, then Gumbo Limbo. That combination reliably fills a day and costs almost nothing.
+**With children:** Sugar Sand Park and the Children's Science Explorium in the morning, Gumbo Limbo after — general admission at Gumbo Limbo is free, which keeps the day's cost to parking and lunch.
 
-**Wanting a night out:** dinner at Mizner Park or Royal Palm Place, or drive fifteen minutes to Delray for Atlantic Avenue if they want more energy.
+**Wanting a night out:** dinner at Mizner Park or Royal Palm Place, or head up to Delray Beach for Atlantic Avenue if they want more energy.
 
-**Wanting nature:** Daggerwing in the morning before it heats up, or the boardwalk and tower at Spanish River.
+**Wanting nature:** Daggerwing's boardwalk early in the day, or the hammock boardwalk and Jacob's Outlook at Gumbo Limbo.
 
-## Seasonal timing
+**Wanting the water:** a rental board or kayak at James A. Rutherford Park, or the launch at Silver Palm Park if they've brought their own.
 
-**November through April** is peak: ideal weather, full event calendars at Mizner Park and FAU, and the busiest roads and restaurants of the year.
-
-**May through October** is the hot half. Do the beach parks and Daggerwing early, and let Mizner Park, the art museum, and Sugar Sand's indoor facilities carry the afternoons.
-
-## The honest local advice
-
-Do Gumbo Limbo early — it explains the coast better than anything else and it's free. Snorkel Red Reef at least once. Treat the art museum as a real museum rather than a mall amenity.
-
-And if you've just moved here with children, get a Sugar Sand routine going in the first month. It's the single best piece of local knowledge in the city for that.`,
+If you're weighing Boca as somewhere to live rather than visit, our [Boca Raton community guide](/communities/boca-raton) covers neighborhoods, pricing, and schools, and the [local guide to Boca Raton](/blog/local-guide-to-boca-raton-florida) and our [places to eat, drink, and hang out](/blog/best-places-to-eat-drink-hang-out-in-boca-raton-florida) go deeper on daily life here.`,
     faqs: [
-      { q: "What are the best things to do in Boca Raton?", a: "Visit Mizner Park and the Boca Raton Museum of Art, snorkel the near-shore reef at Red Reef Park, spend a day at Spanish River Park with its canopy and beach tunnels, visit the free Gumbo Limbo Nature Center, take children to Sugar Sand Park, walk the wetlands boardwalk at Daggerwing Nature Center, and use Florida Atlantic University's sports and arts programming." },
-      { q: "Where can you snorkel in Boca Raton?", a: "Red Reef Park has a man-made reef close enough to shore to swim to, making it one of the more accessible snorkeling spots in the area without needing a boat." },
-      { q: "Is Gumbo Limbo Nature Center free?", a: "Yes, it's free to enter. It's a sea-turtle rehabilitation and coastal-nature center by the beach with outdoor tanks, a coastal hammock boardwalk, and an observation tower, and it's one of the best short introductions to the local coastal ecology." },
-      { q: "What is the best beach park in Boca Raton?", a: "It depends what you want. Red Reef is best for snorkeling thanks to its near-shore reef, Spanish River is the largest and shadiest with a canopy, observation tower, and tunnels under A1A to a quieter beach, and South Beach Park is the more straightforward sand-and-surf option." },
-      { q: "What is there to do in Boca Raton with kids?", a: "Sugar Sand Park is the standout, with a science playground, carousel, and children's theater. Gumbo Limbo Nature Center is free and excellent with children, and the beach parks — particularly Spanish River — work well for a full day." },
-      { q: "What is there to do near Boca Raton?", a: "Delray Beach is about 15 minutes north for a walkable downtown, Fort Lauderdale about 30 minutes south, West Palm Beach about 30 minutes north for the Norton Museum, Loxahatchee National Wildlife Refuge about 40 minutes northwest, and Miami roughly an hour depending on traffic." },
+      { q: "What are the best things to do in Boca Raton?", a: "Walk Mizner Park for its shops, dining, the Boca Raton Museum of Art, and the amphitheater; snorkel the City's marked snorkel trail at Red Reef Park; spend a day at Spanish River Park; visit Gumbo Limbo Nature Center for its outdoor marine aquariums, hardwood-hammock boardwalk, butterfly garden, and Jacob's Outlook tower; take children to Sugar Sand Park and the Children's Science Explorium; walk the accessible boardwalk at Daggerwing Nature Center; and get on the water at Wildflower, Silver Palm, or James A. Rutherford parks. Check each operator's official page for current hours, parking, and closures before you go." },
+      { q: "Where can I snorkel in Boca Raton?", a: "Red Reef Park. The City describes a snorkel trail there with a jetty and 20 artificial reefs just offshore, reachable from the beach rather than by boat. It is open-ocean swimming, so check surf and water conditions, lifeguard coverage, and any beach access point closures on the City's pages, and consider your own swimming ability before entering the water." },
+      { q: "Is Gumbo Limbo Nature Center free?", a: "General admission is free. Gumbo Limbo is a City-operated coastal and marine education center on Boca Raton's barrier island with outdoor marine aquariums, a tropical hardwood-hammock boardwalk, a butterfly garden, and the Jacob's Outlook observation tower. On-site parking is limited and some programs are ticketed separately, so confirm current hours, programs, parking, and temporary closures on the City's visitor page before visiting." },
+      { q: "Which Boca Raton beach park should I choose?", a: "It depends what you want from the day. Red Reef Park has the City's snorkel trail, with a jetty and 20 artificial reefs just offshore. Spanish River Park is the large one, with pavilions, picnic areas, beach access, and tunnels under A1A — at least one tunnel has been closed for maintenance, so check the City's closures page first. South Beach Park has beach access, walking paths, benches, restrooms, and its own parking and permit requirements. Confirm conditions and parking rules on the City's beaches page before you go." },
+      { q: "Can I take my dog to Bark Beach?", a: "Bark Beach is a permitted off-leash area within Spanish River Park. Hours, eligibility, passes, parking, and fees change; check the City's Bark Beach page before visiting." },
+      { q: "What can I do near Boca Raton?", a: "Delray Beach for Atlantic Avenue, Fort Lauderdale for Las Olas and a bigger beach city, West Palm Beach and Palm Beach for the Norton Museum of Art, the Flagler Museum, and Worth Avenue, Miami for a full metro day, and the Arthur R. Marshall Loxahatchee National Wildlife Refuge for boardwalks, levee trails, wildlife viewing, and a canoe trail you can paddle by bringing your own canoe or kayak. Travel times vary with traffic and season, and the refuge posts its own alerts and closures — check both before you leave." },
     ],
     internalLinks: ["hidden-gems-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "best-places-to-eat-drink-hang-out-in-boca-raton-florida"],
-    funFact: "The Boca Raton Museum of Art hosts the annual Art Boca Raton fair, which draws gallery participation from New York, London, and Miami alongside local collectors. For a mid-size city, Boca has built a legitimate art market infrastructure — the museum, the collectors, and the event circuit reinforce each other.",
+    funFact: "Check the Boca Raton Museum of Art and Mizner Park Amphitheater calendars before planning a culture-focused visit. Exhibitions, performances, tickets, and access change throughout the year.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-14',
   },
   {
     slug: 'who-should-move-to-boca-raton-florida',
