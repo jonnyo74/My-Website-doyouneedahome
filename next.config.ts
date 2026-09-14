@@ -14,6 +14,21 @@ const nextConfig: NextConfig = {
         hostname: 'images.unsplash.com',
       },
     ],
+    // An optimizer cache miss re-fetches the FULL original from origin, not the
+    // optimized output — and this library still has 23-25 MB source photos in
+    // it (public/images/ibis/*). On the framework default TTL that was costing
+    // tens of MB of origin transfer per miss. Community photos never change at
+    // a given path; when one does, rename it or run:
+    //   vercel cache invalidate --srcimg /images/<path>
+    minimumCacheTTL: 31536000,
+    // Trimmed from the 8 Next.js defaults — each width is a separate cache
+    // object, and dropping 3840 also shrinks the fallback `src` that next/image
+    // puts on every `fill` image for clients that ignore srcSet (crawlers).
+    //
+    // The top width tracks the 2048px ceiling the source photos are compressed
+    // to. Going above it would just mint extra cache objects that all return
+    // the same bytes, since the optimizer never upscales past the source.
+    deviceSizes: [640, 828, 1200, 1600, 2048],
   },
   async redirects() {
     return [
