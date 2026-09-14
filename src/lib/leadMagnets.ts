@@ -117,7 +117,16 @@ export interface LeadMagnet {
   published: boolean
 }
 
-/** Publication month of the current Palm Beach County reports. */
+/**
+ * Publication month of the latest Palm Beach County reports.
+ *
+ * This is the edition label, and it stays accurate on the report landing pages
+ * and covers. It is deliberately NOT in the CTA copy any more: the CTA is
+ * sitewide and long-lived, so a month in it reads as "this month's report" and
+ * goes stale the moment the next BeachesMLS snapshot is due. Bump this (and
+ * REPORT_DATA_MONTH, the JSON in src/content/, the PDFs and the magnet ids)
+ * when the next snapshot lands.
+ */
 export const REPORT_EDITION = 'August 2026'
 /** The month the Palm Beach County MLS statistics actually cover. */
 export const REPORT_DATA_MONTH = 'July 2026'
@@ -164,8 +173,8 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       'Cover of the Palm Beach County Single Family Home Market Report, August 2026 Edition, prepared by Christine Dekant and John Oliver of DO Homes Group',
     crmTag: 'Lead Magnet - PBC Single Family Market Report',
     landingPage: '/palm-beach-county-single-family-home-market-report',
-    ctaEyebrow: `Free ${REPORT_EDITION} Market Report`,
-    ctaHeadline: `Get the ${REPORT_EDITION} Single Family Home Market Report`,
+    ctaEyebrow: 'Free Palm Beach County Market Report',
+    ctaHeadline: 'Get the Single Family Home Market Report',
     ctaDescription:
       'Home prices, inventory, sales activity, buyer demand, and negotiating conditions across Palm Beach County — in one free PDF.',
     ctaButtonLabel: 'Download the Free Report',
@@ -273,8 +282,8 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       'Cover of the Palm Beach County Condo & Townhome Market Report, August 2026 Edition, prepared by Christine Dekant and John Oliver of DO Homes Group',
     crmTag: 'Lead Magnet - PBC Condo Market Report',
     landingPage: '/palm-beach-county-condo-townhome-market-report',
-    ctaEyebrow: `Free ${REPORT_EDITION} Market Report`,
-    ctaHeadline: `Get the ${REPORT_EDITION} Condo & Townhome Market Report`,
+    ctaEyebrow: 'Free Palm Beach County Market Report',
+    ctaHeadline: 'Get the Condo & Townhome Market Report',
     ctaDescription:
       'Condo and townhome prices, inventory, cash activity, buyer leverage, and association concerns across Palm Beach County — in one free PDF.',
     ctaButtonLabel: 'Download the Free Report',

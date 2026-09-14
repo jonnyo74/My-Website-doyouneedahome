@@ -26,6 +26,8 @@ export interface Article {
   heroImage?: string
   heroImageAlt?: string      // descriptive alt text; falls back to the h1 when absent
   heroImageCaption?: string  // shown under the hero — e.g. to mark a stock photo as illustrative
+  heroImageWidth?: number    // intrinsic px — emitted as og:image:width so crawlers can size the card
+  heroImageHeight?: number   // intrinsic px — emitted as og:image:height
   heroImageCredit?: string   // e.g. 'Photo by Jane Doe / Unsplash'
   body: string                // markdown-lite
   faqs: Faq[]
@@ -3928,108 +3930,150 @@ If you want a hand working through any of that for a specific property, that is 
     cityName: 'Boca Raton',
     type: "Best Neighborhoods In",
     order: 3,
-    seoTitle: "Best Neighborhoods in Boca Raton, Florida",
-    metaTitle: "Best Neighborhoods in Boca Raton, Florida",
-    metaDescription: "From waterfront Royal Palm Yacht & Country Club to historic Old Floresta and west Boca's golf communities — a local guide to the best neighborhoods in Boca Raton.",
-    primaryKeyword: "best neighborhoods in Boca Raton Florida",
-    secondaryKeywords: ["where to live in Boca Raton", "Royal Palm Yacht and Country Club", "Old Floresta", "west Boca communities"],
-    h1: "Best Neighborhoods in Boca Raton, Florida",
-    body: `Boca Raton spans a wider range than almost any city in Palm Beach County — from oceanfront estates with deep-water dockage to attainable age-restricted communities out west. There's no single "best" neighborhood, only the one that matches what you're actually shopping for.
+    seoTitle: 'Best Neighborhoods in Boca Raton, FL | Buyer’s Guide',
+    metaTitle: 'Best Neighborhoods in Boca Raton, FL | Buyer’s Guide',
+    metaDescription: 'Compare Boca Raton neighborhoods by location, home type, water access, club and HOA obligations, historic-district rules, and address-specific due diligence.',
+    primaryKeyword: 'best neighborhoods in Boca Raton Florida',
+    secondaryKeywords: ['where to live in Boca Raton', 'Royal Palm Yacht and Country Club', 'Old Floresta historic district', 'Boca Raton country club communities'],
+    h1: 'Best Neighborhoods in Boca Raton, Florida',
+    heroImage: '/public/Boca Raton/boca-oceanfront.jpg',
+    heroImageAlt: 'Aerial view of a South Florida shoreline with low-rise condominium buildings and dense greenery between the beach and the Intracoastal',
+    heroImageCredit: 'Photo by Nigel Sarrag / Unsplash',
+    heroImageWidth: 5472,
+    heroImageHeight: 3078,
+    body: `Boca Raton includes waterfront, historic, condominium, and private-club communities, while the commonly used term "West Boca" can cover addresses in both the City of Boca Raton and unincorporated Palm Beach County. Rather than naming one universal "best" neighborhood, it is more useful to compare the property type, location, association obligations, and address-specific due diligence that fit what you are looking for.
 
-Here they are organized by objective characteristics: property type, price tier, water and golf access, lot size, and association structure.
+What follows is a guide to **representative neighborhood and community types**, not an exhaustive ranking and not a list of every community in the area. Every figure that matters — dues, membership terms, insurance, taxes, water access — is property-specific and has to be verified in writing for the individual address.
 
-## Royal Palm Yacht & Country Club — the top of the market
+## Private waterfront communities: Royal Palm Yacht & Country Club and The Sanctuary
 
-Boca's highest-priced address. Waterfront estates on deep-water canals with direct Intracoastal access, plus a championship golf club.
+**[Royal Palm Yacht & Country Club](https://www.rpycc.org/)** is a private club community in Boca Raton. The club's own site describes membership as invitation-based and lists a 60-slip marina among its facilities.
 
-**Objective characteristics:** highest price tier in the city, deep-water dockage with ocean access, guard-gated, golf and yacht club structure, large lots, strict architectural review, very limited inventory.
+**[The Sanctuary of Boca Raton](https://www.thesanctuaryofbocaraton.com/default.php)** is a guard-gated waterfront community on the Intracoastal. Its community site lists a marina, Har-Tru tennis courts, and a wildlife preserve.
 
-**Trade-offs:** membership structure and obligations are substantial and separate from HOA. Verify dockage specifics for the individual property — slip length, bridge clearance, and canal depth all vary and all matter for larger vessels.
+What neither description tells you is what any individual property has, and The Sanctuary's own site makes the point for me: it states that deep-water dockage sits behind sixty of its ninety-seven estates. **Water access is not a community-wide attribute.** Whether a specific home has a dock or slip, what the canal depth is, what the controlling bridge clearance is on the route to open water, and what the seawall condition is all vary address by address — and all of them matter more than the community name if you intend to keep a boat.
 
-## The Sanctuary — waterfront without the golf
+For any waterfront property, get the survey, the dock or slip rights as they are actually recorded, and independent confirmation of depth and navigation clearance for that address.
 
-A guard-gated community of large homes on wide canals with ocean access, focused on privacy and waterfront rather than a club campus.
+## Old Floresta: historic-district considerations
 
-**Objective characteristics:** high price tier, wide canal frontage with ocean access, guard-gated with patrol, large lots, no golf course, lower amenity overhead than the club communities.
+Old Floresta is one of Boca Raton's early neighborhoods and is designated as the **Old Floresta Historic District**.
 
-**Trade-offs:** you're buying privacy and water rather than facilities. If club social life is what you want, this isn't the structure for it.
+The practical consequence for a buyer is procedural. Exterior construction, alteration, repair, and demolition within a designated historic district can require a **Certificate of Appropriateness** from the City. That affects what you can change, how long a project takes, and what it costs.
 
-## Old Floresta — the historic pocket
+> Before you plan a renovation, verify two things: whether the specific parcel is inside the designated district, and whether the specific work you have in mind requires a Certificate of Appropriateness.
 
-One of Boca's original Mizner-era neighborhoods: character homes on lush, canopied streets, walkable to downtown, and utterly unlike the rest of the city.
+The City publishes the [Certificate of Appropriateness requirements and checklist](https://www.myboca.us/DocumentCenter/View/6696/COA--Certificate-of-Appropriateness-Checklist). Confirm parcel status with the City rather than assuming it from the neighborhood name.
 
-**Objective characteristics:** 1920s-era architecture, mature tree canopy, modest lot sizes, historic character with associated protections in parts, walkable to downtown and Mizner Park, small and tightly held.
+On condition: do not assume anything about a home's systems from its age. Roof, plumbing, electrical, windows, and openings may have been updated at any point, or not. **Inspect the individual property** and use the permit history to see what work has actually been done and permitted.
 
-**Trade-offs:** older systems throughout — roof, plumbing, electrical, and windows all matter for insurance and financing. Inventory is very limited; buyers often wait. Confirm what exterior changes are permitted before planning a renovation.
+## Coastal and central Boca: proximity and building due diligence
 
-## East Boca near the beach — coastal and convenient
+Homes and condominiums in the coastal and central parts of the city sit closer to the beach parks, downtown, and Mizner Park. **How close, and how easily you can get there, varies by address and by how you travel** — a walk, a bike, and a drive with parking at the end are three different answers from the same starting point. Check it for the specific address rather than relying on a neighborhood label.
 
-Homes and condos close to the sand, the beach parks, downtown, and Mizner Park. The walkable-ish part of the city and the most expensive per square foot outside the waterfront enclaves.
+For condominiums anywhere in the city, the building matters as much as the unit:
 
-**Objective characteristics:** mixed single-family and condo, older construction predominating, small lots, highest wind and flood exposure in the city, genuine proximity to beach parks and downtown.
+- The **reserve study** and current funding level.
+- **Milestone inspection** status where applicable, and any structural findings.
+- Two years of **meeting minutes**, and any pending or planned **special assessment**.
+- The association's **insurance** and what it does and does not cover.
 
-**Trade-offs:** insurance is at its most expensive here, and older construction compounds it. For condos, read the reserve study and two years of minutes — Florida's tightened structural reserve requirements have driven dues increases and assessments in some older coastal buildings.
+Florida has tightened structural inspection and reserve requirements for condominiums, and the state maintains [condominium inspection and reserve information](https://condos.myfloridalicense.com/inspections/) covering how those rules work. Read the documents for the specific building; the requirements apply differently depending on the building's age, height, and history.
 
-## Boca West, Broken Sound and St. Andrews — country club living
+## Residential country-club communities: Boca West, Broken Sound, and St. Andrews
 
-The large gated golf-and-country-club communities that define west Boca, with extensive amenities, multiple courses in some cases, and a dense social calendar.
+**[Boca West Country Club](https://www.bocawestcc.org/)**, **[Broken Sound Club](https://www.brokensoundclub.org/home)**, and **[St. Andrews Country Club](https://standrewscc.com/)** are residential private-club communities.
 
-**Objective characteristics:** gated with guard, golf, racquet and fitness facilities, clubhouse dining, wide range of property types from condos to estate homes, substantial HOA dues, and **mandatory club membership in several** with a one-time initiation fee plus ongoing dues and food and beverage minimums.
+They are not interchangeable, and this is the single most important thing to understand about them: **membership, dues, capital contribution, amenity access, and application requirements differ between these communities, and can differ between membership categories within one community.** Whether membership is mandatory for a given property is itself something to verify for that property, not something to assume from the community.
 
-**Trade-offs:** the monthly carrying cost extends well past the mortgage, and clubs periodically levy capital assessments for renovations. This is the single most common budget surprise in Boca. Get the full written obligation before going under contract.
+Do not budget from a figure you read anywhere, including here. Request the **current written schedule directly from the club**, covering:
 
-## West Boca and the age-restricted communities
+- Initiation fee or capital contribution, and how it is paid.
+- Annual dues by membership category.
+- Any minimum spend requirement.
+- Transfer requirements when a property changes hands, and whether a membership conveys.
+- Application process and current availability.
 
-West of the Turnpike, the city offers its most attainable pricing — larger lots, newer construction, and a substantial concentration of **55+ age-restricted communities**, which are lawful under federal housing rules and are a large and well-established part of this market.
+Club obligations sit alongside HOA or condominium obligations, not inside them. You need both, in writing, before you go under contract.
 
-**Objective characteristics:** newest construction in the city, generally better insurance profiles due to modern building codes, larger lots and more square footage per dollar, HOA communities predominating, some with amenity centers, no walkability.
+## West Boca Raton area: location, jurisdiction, and community rules
 
-**Trade-offs:** you're driving for everything, and it's a real distance to the beach. Age-restricted communities have occupancy rules — confirm the specific requirements, since they vary and they affect who can live with you.
+"West Boca" is a colloquial geographic term, not a municipal district. **City of Boca Raton boundaries are irregular, and a Boca Raton mailing address in this area may be inside the City or in unincorporated Palm Beach County.** The two are not the same for taxes, services, code enforcement, or permitting.
 
-## How to actually compare them
+Confirm for the specific parcel:
 
-In Boca more than most cities, the community's financial structure matters as much as the house. For anything you're seriously considering:
+- **Municipal jurisdiction** — City or unincorporated county. The City publishes a [city-limits map](https://www.myboca.us/DocumentCenter/View/4637/City-of-Boca-Raton-City-Limits-Map-082023-PDF).
+- **Property-taxing authorities** that apply to that address.
+- **Zoning** and permitted uses.
+- **Services** — utilities, waste, police and fire coverage.
+- **Association rules**, including any occupancy or age-restriction provisions.
 
-- **HOA dues** and exactly what they include
-- **Whether club membership is mandatory**, the initiation figure, ongoing dues, and any food and beverage minimum
-- **Recent and pending capital assessments**
-- **FEMA flood zone** for the specific address, and what your lender requires
-- **Roof age, construction year, and wind mitigation features** — these swing insurance by thousands
-- **Property taxes recalculated for a new owner**, not the seller's capped bill
-- **For condos:** reserve study, funding level, and any pending special assessment
-- **For waterfront:** slip length, bridge clearance, canal depth, and seawall condition
-- **For age-restricted:** the specific occupancy rules
+Where a community is age-restricted, the provisions are set out in its recorded declaration. Obtain the **current declaration and the association's written confirmation** of how the rules apply, rather than relying on a summary or a listing description.
 
-## A note on inventory
+## How to compare a property before making an offer
 
-Worth setting expectations on. The genuinely distinctive neighborhoods here — Old Floresta, the waterfront enclaves, the best streets in east Boca — are small and tightly held. Turnover is low, and buyers with specific requirements frequently wait months rather than choosing among options.
+The community's financial and regulatory structure often matters as much as the house. For anything you are seriously considering, request and read:
 
-The large club communities and west Boca are the opposite: deep inventory, regular turnover, and real choice. That difference in pace should shape how you run your search, and how ready you need to be to move when the right property appears.
+**Association**
+- Current budget, governing documents, and reserve information.
+- Recent meeting minutes.
+- The association's insurance coverage.
+- Any active or planned assessments.
 
-## On schools
+**Club, where applicable**
+- Current written membership terms, transfer requirements, deposits or capital contributions, dues, and availability.
 
-School selection is a common reason buyers choose Boca, and the city has an unusually wide range of public, magnet, and private options.
+**Property condition and insurance**
+- FEMA flood map status, plus elevation or flood documentation where relevant. FEMA's [Flood Map Service Center](https://www.fema.gov/flood-maps/products-tools) is the starting point.
+- Insurance quotes for the specific property — flood risk, elevation, construction type, wind-mitigation features, and insurer underwriting all vary property by property, and so does the premium.
+- Roof age, wind-mitigation features, and the permit history.
 
-Assignments and school grades are reviewed and updated annually, and they vary across a city this large. **Verify current assignments directly with the School District of Palm Beach County** for the specific address rather than relying on reputation or a listing.
+**Taxes**
+- A Palm Beach County property-tax estimate for **your** ownership scenario. A change in ownership may remove the prior owner's exemption and assessment-cap benefit, so the seller's current bill is not a reliable guide to yours. The Florida Department of Revenue publishes a guide to [property taxes for new homebuyers](https://floridarevenue.com/property/Documents/pt107.pdf).
+
+**Waterfront property**
+- Survey, seawall condition, dock or slip rights, canal depth, bridge clearance, and navigation access for that specific address.
+
+**Historic property**
+- City historic-district status for the parcel and the Certificate of Appropriateness requirements for the work you plan.
+
+**Age-restricted communities**
+- The current recorded declaration, the occupancy provisions, and written confirmation from the association.
+
+## Schools and official buyer resources
+
+School assignment is address-specific, and assignments, program eligibility, capacity, and transportation are reviewed and change over time. **Verify current assignment for the exact address** through the School District of Palm Beach County's [enrollment inquiry tool](https://www.palmbeachschools.org/studentsparents/student-registration/enrollment-inquiry-form) rather than relying on a listing or a neighborhood's reputation.
+
+### Official buyer resources
+
+- [City of Boca Raton city-limits map](https://www.myboca.us/DocumentCenter/View/4637/City-of-Boca-Raton-City-Limits-Map-082023-PDF) — municipal jurisdiction for an address.
+- [Old Floresta Certificate of Appropriateness requirements](https://www.myboca.us/DocumentCenter/View/6696/COA--Certificate-of-Appropriateness-Checklist) — historic-district review.
+- [Royal Palm Yacht & Country Club](https://www.rpycc.org/) and [The Sanctuary of Boca Raton](https://www.thesanctuaryofbocaraton.com/default.php) — community and club information.
+- [Boca West Country Club](https://www.bocawestcc.org/), [Broken Sound Club](https://www.brokensoundclub.org/home), and [St. Andrews Country Club](https://standrewscc.com/) — membership requirements.
+- [FEMA Flood Map Service Center](https://www.fema.gov/flood-maps/products-tools) — flood zone and map products.
+- [Florida condominium inspection and reserve information](https://condos.myfloridalicense.com/inspections/) — milestone inspections and reserve studies.
+- [Florida Department of Revenue: property taxes for new homebuyers](https://floridarevenue.com/property/Documents/pt107.pdf) — what changes at a change of ownership.
+- [School District of Palm Beach County: Find My School](https://www.palmbeachschools.org/studentsparents/student-registration/enrollment-inquiry-form) — assignment by address.
 
 ## Before you commit
 
-Drive your actual commute at the actual hour — Glades Road makes this more consequential in Boca than in smaller towns. Spend a weekday and a weekend evening in the community. And if it's a club community, ask to see the full fee schedule in writing rather than a summary.
+Visit at more than one time of day, and drive the routes you would actually use at the times you would use them. Read the association and club documents in full rather than a summary of them. And independently verify anything material to your decision — the communities above differ on objective characteristics, and the right one depends on your budget, your requirements, and the specific property in front of you.
 
-Communities differ on objective characteristics: price tier, property type, lot size, water and golf access, association and club structure, construction age, and location. The right one depends on your budget, your goals, and how you want to spend a Saturday. Visit in person and independently verify anything material to your decision.`,
+If you want a hand working through the documents on a particular address, that is exactly the conversation we are glad to have.`,
     faqs: [
-      { q: "What are the best neighborhoods in Boca Raton?", a: "It depends what you're shopping for. Royal Palm Yacht & Country Club is the top of the market with deep-water dockage and golf; The Sanctuary offers waterfront without a golf club; Old Floresta is the historic Mizner-era pocket walkable to downtown; east Boca near the beach is coastal and convenient; Boca West, Broken Sound and St. Andrews are the large country-club communities; and west Boca offers the most attainable pricing plus a large concentration of 55+ communities." },
-      { q: "Which Boca Raton communities require club membership?", a: "Several of the large gated golf-and-country-club communities have mandatory membership, typically involving a one-time initiation fee plus ongoing dues and food and beverage minimums, separate from HOA dues. Clubs may also levy capital assessments for renovations. Confirm the full written obligation before going under contract." },
-      { q: "Where can you keep a boat in Boca Raton?", a: "Royal Palm Yacht & Country Club offers deep-water canals with direct Intracoastal access, and The Sanctuary has wide canal frontage with ocean access. Verify slip length, bridge clearance, canal depth, and seawall condition for the specific property, particularly for larger vessels." },
-      { q: "What is Old Floresta?", a: "One of Boca Raton's original Mizner-era neighborhoods — 1920s-era character homes on lush, canopied streets, walkable to downtown and Mizner Park. It's small and tightly held, with older systems throughout, so confirm roof, plumbing, and electrical condition and what exterior changes are permitted." },
-      { q: "Are there 55+ communities in Boca Raton?", a: "Yes, west Boca has a substantial and well-established concentration of age-restricted 55+ communities, generally at the city's most attainable pricing with newer construction. Occupancy rules vary between communities, so confirm the specific requirements for any you're considering." },
-      { q: "How do I check school zoning in Boca Raton?", a: "Verify current assignments directly with the School District of Palm Beach County for the specific address. The city has a wide range of public, magnet, and private options, but assignments and school grades are reviewed annually and vary across a city this large." },
+      { q: 'What should I compare when choosing a Boca Raton neighborhood?', a: 'Compare the objective characteristics rather than reputation: property type, location and what it is actually close to for your travel method, whether there is water access recorded for that specific address, association obligations, whether club membership is required and on what terms, municipal jurisdiction, and the property-specific insurance and tax picture. Request the association and club documents in writing before going under contract.' },
+      { q: 'Is all of West Boca inside the City of Boca Raton?', a: 'No. "West Boca" is a colloquial geographic term, not a municipal district. City of Boca Raton boundaries are irregular, and a Boca Raton mailing address in that area may be inside the City or in unincorporated Palm Beach County — which differ for taxes, services, code enforcement, and permitting. Confirm the specific parcel against the City’s city-limits map.' },
+      { q: 'How do country-club membership requirements work?', a: 'They vary. Membership, dues, capital contribution, amenity access, and application requirements differ between communities and can differ between membership categories within one community, and whether membership is mandatory for a given property is itself something to verify for that property. Request the current written schedule directly from the club, covering initiation or capital contribution, annual dues, any minimum spend, transfer requirements, and availability. Club obligations sit alongside HOA or condominium obligations, not inside them.' },
+      { q: 'How do I check whether a home is in the Old Floresta Historic District?', a: 'Confirm the parcel’s status with the City of Boca Raton rather than assuming it from the neighborhood name. If the property is within the designated historic district, exterior construction, alteration, repair, and demolition can require a Certificate of Appropriateness, which affects what you can change and how long a project takes. The City publishes the Certificate of Appropriateness requirements and checklist, and it is worth verifying both parcel status and whether your specific planned work requires review.' },
+      { q: 'How do I check flood risk for a Boca Raton property?', a: 'Start with the FEMA Flood Map Service Center for the specific address, and obtain elevation or flood documentation where relevant. Then get actual insurance quotes for that property: flood risk, elevation, construction type, wind-mitigation features, and insurer underwriting all vary property by property, and so does the premium. Roof age and permit history are worth pulling at the same time.' },
+      { q: 'How do I verify school assignment for an address?', a: 'Use the School District of Palm Beach County’s enrollment inquiry tool for the exact address. Assignment is address-specific, and assignments, program eligibility, capacity, and transportation are reviewed and change over time, so verify current information directly with the district rather than relying on a listing or a neighborhood’s reputation.' },
     ],
-    internalLinks: ["what-its-really-like-living-in-boca-raton-florida", "cost-of-living-in-boca-raton-florida", "who-should-move-to-boca-raton-florida"],
-    funFact: "The Royal Palm Yacht and Country Club in Boca Raton has a waitlist for membership that can run years — and the homes inside start well above $3 million. It's one of the most genuinely exclusive zip codes in South Florida, and the Intracoastal frontage inside the gates is what drives the value.",
+    internalLinks: ['what-its-really-like-living-in-boca-raton-florida', 'local-guide-to-boca-raton-florida', 'cost-of-living-in-boca-raton-florida', 'boca-raton-downtown-parking-condo-buyers-guide'],
+    funFact: "The document I ask for first in a club community isn't the HOA budget, it's the club's own current written membership schedule. They are two separate obligations and they get quoted to buyers as though they were one number. Ask the club directly for initiation or capital contribution, annual dues for the category you'd actually hold, any minimum spend, and what happens at transfer — in writing, before you're under contract rather than during inspection.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-14',
   },
   {
     slug: 'best-things-to-do-in-boca-raton-florida',

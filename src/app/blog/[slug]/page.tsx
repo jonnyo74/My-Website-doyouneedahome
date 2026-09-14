@@ -76,7 +76,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: a.metaDescription,
       url,
       type: 'article',
-      images: image ? [{ url: image }] : undefined,
+      publishedTime: a.publishedDate ?? a.updated,
+      modifiedTime: a.updated,
+      images: image
+        ? [{ url: image, width: a.heroImageWidth, height: a.heroImageHeight, alt: a.heroImageAlt ?? a.h1 }]
+        : undefined,
+    },
+    // Without this the card falls back to the sitewide og-image.jpg from the
+    // root layout, so every article shares one generic social preview.
+    twitter: {
+      card: 'summary_large_image',
+      title: a.metaTitle,
+      description: a.metaDescription,
+      images: image ? [{ url: image, alt: a.heroImageAlt ?? a.h1 }] : undefined,
     },
   }
 }
