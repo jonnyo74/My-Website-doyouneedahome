@@ -3947,7 +3947,7 @@ What follows is a guide to **representative neighborhood and community types**, 
 
 ## Private waterfront communities: Royal Palm Yacht & Country Club and The Sanctuary
 
-**[Royal Palm Yacht & Country Club](https://www.rpycc.org/)** is a private club community in Boca Raton. The club's own site describes membership as invitation-based and lists a 60-slip marina among its facilities.
+**[Royal Palm Yacht & Country Club](/communities/royal-palm-yacht-cc)** is a private club community in Boca Raton. [The club's own site](https://www.rpycc.org/) describes membership as invitation-based and lists a 60-slip marina among its facilities.
 
 **[The Sanctuary of Boca Raton](https://www.thesanctuaryofbocaraton.com/default.php)** is a guard-gated waterfront community on the Intracoastal. Its community site lists a marina, Har-Tru tennis courts, and a wildlife preserve.
 
@@ -3982,7 +3982,7 @@ Florida has tightened structural inspection and reserve requirements for condomi
 
 ## Residential country-club communities: Boca West, Broken Sound, and St. Andrews
 
-**[Boca West Country Club](https://www.bocawestcc.org/)**, **[Broken Sound Club](https://www.brokensoundclub.org/home)**, and **[St. Andrews Country Club](https://standrewscc.com/)** are residential private-club communities.
+**[Boca West](/communities/boca-west)**, **[Broken Sound](/communities/broken-sound)**, and **St. Andrews Country Club** are residential private-club communities. Membership terms come from each club directly — [Boca West](https://www.bocawestcc.org/), [Broken Sound](https://www.brokensoundclub.org/home), and [St. Andrews](https://standrewscc.com/).
 
 They are not interchangeable, and this is the single most important thing to understand about them: **membership, dues, capital contribution, amenity access, and application requirements differ between these communities, and can differ between membership categories within one community.** Whether membership is mandatory for a given property is itself something to verify for that property, not something to assume from the community.
 
