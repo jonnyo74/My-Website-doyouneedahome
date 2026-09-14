@@ -91,7 +91,7 @@ export const agents: Agent[] = [
     phone: '(561) 778-7042',
     phoneHref: 'tel:+15617787042',
     email: 'christine@doyouneedahome.com',
-    photo: '/images/Christine-rooftop.png',
+    photo: '/images/Christine-rooftop.jpg',
     photoPosition: 'object-top',
     crmTag: 'Agent: Christine Dekant',
     fubAssignedTo: 'Christine Dekant',

@@ -19,7 +19,7 @@ const agents = [
     phone: '(561) 778-7042',
     phoneHref: 'tel:+15617787042',
     email: 'christine@doyouneedahome.com',
-    photo: '/images/Christine-rooftop.png',
+    photo: '/images/Christine-rooftop.jpg',
     photoPosition: 'object-top',
     bio: [
       'Christine Dekant has been serving residential real estate clients in Palm Beach County since 2012. She is known for her analytical approach, responsiveness, market knowledge, and straightforward guidance.',

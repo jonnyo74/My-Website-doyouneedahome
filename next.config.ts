@@ -17,11 +17,12 @@ const nextConfig: NextConfig = {
     // An optimizer cache miss re-fetches the FULL original from origin, not the
     // optimized output, so source weight is what a miss actually costs. The
     // library has been compressed to a 2048px ceiling and the worst offender —
-    // a 13.6 MB PNG on the homepage — is now a 0.5 MB JPEG. Three photographic
-    // PNGs remain at ~2.2-2.3 MB (Team.png, Christine-rooftop.png, and
-    // delray-beach-atlantic-ave-sign.png); they are the next ones worth
-    // converting. Community photos never change at a given path; when one does,
-    // rename it or run:
+    // a 13.6 MB PNG on the homepage — is now a 0.5 MB JPEG, as is the
+    // Christine-rooftop headshot. The two photographic PNGs still here
+    // (Team.png and delray-beach-atlantic-ave-sign.png, ~2.3 MB each) are
+    // referenced from nowhere in src/, so they cost nothing to serve and were
+    // left alone rather than converted or deleted. Community photos never
+    // change at a given path; when one does, rename it or run:
     //   vercel cache invalidate --srcimg /images/<path>
     minimumCacheTTL: 31536000,
     // Trimmed from the 8 Next.js defaults — each width is a separate cache

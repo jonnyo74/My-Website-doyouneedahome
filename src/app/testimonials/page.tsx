@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const christinePhotos = [
   '/images/christine.jpg',
   '/images/christine-award-2.jpg',
-  '/images/Christine-rooftop.png',
+  '/images/Christine-rooftop.jpg',
 ]
 
 const johnPhotos = [

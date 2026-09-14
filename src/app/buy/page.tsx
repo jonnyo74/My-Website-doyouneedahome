@@ -158,7 +158,10 @@ export default function BuyPage() {
         </div>
       </section>
 
-      {/* Sun & Shade Analyzer */}
+      {/* Sun & Shade Analyzer. Deliberately NOT added to the
+          `publishedLeadMagnets` row above: the analyzer is an open tool with
+          nothing to download and no email gate, so it does not belong in the
+          magnet registry or its token-gated download flow. */}
       <section className="bg-white px-6 py-16 sm:px-8">
         <div className="mx-auto max-w-5xl">
           <div className="overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-sky-50 via-blue-50 to-white p-8 sm:p-10">
