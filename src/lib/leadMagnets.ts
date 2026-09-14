@@ -191,8 +191,8 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     ],
     subheadline:
       'See what is happening with home prices, inventory, sales activity, buyer demand, and negotiating conditions across Palm Beach County.',
-    metaTitle: `Palm Beach County Single Family Home Market Report (${REPORT_EDITION}) | Free PDF`,
-    metaDescription: `Free ${REPORT_EDITION} Palm Beach County single family home market report: $660,090 median price, 1,336 closed sales, 3.7 months of inventory. ${REPORT_DATA_MONTH} MLS data — instant download.`,
+    metaTitle: `Palm Beach County Single-Family Market Report | ${REPORT_EDITION}`,
+    metaDescription: `Single-family median $660,090, up 7.6%, at 3.7 months of supply and 41 days to contract, sellers averaging 95.1% of original list. Free BeachesMLS PDF.`,
     summaryHeading: `What the ${REPORT_DATA_MONTH} Numbers Say`,
     summary:
       "Palm Beach County's single family home market carried its momentum into July 2026. Closed sales rose 12.7% over July 2025 while active inventory fell 23.3% — a combination that lifted the median sale price to $660,090, up 7.6% year over year. At 3.7 months of supply, down from 5.5, the single family market remains firmly in seller's-market territory, yet sellers still received 95.1% of original list price on average, which means buyers retain real room to negotiate on well-chosen homes.",
@@ -300,8 +300,8 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     ],
     subheadline:
       'Condo and townhome prices, inventory, cash activity, and the association factors that now decide what a unit is worth across Palm Beach County.',
-    metaTitle: `Palm Beach County Condo & Townhome Market Report (${REPORT_EDITION}) | Free PDF`,
-    metaDescription: `Free ${REPORT_EDITION} Palm Beach County condo and townhome market report: $312,500 median price, 914 closed sales, 6.7 months of inventory. ${REPORT_DATA_MONTH} MLS data — instant download.`,
+    metaTitle: `Palm Beach County Condo Market Report | ${REPORT_EDITION}`,
+    metaDescription: `Condo and townhome median $312,500, up 4%, 57% of closings all cash, supply down to 6.7 months from 9.3 — buyers keep the leverage. Free BeachesMLS PDF.`,
     summaryHeading: `What the ${REPORT_DATA_MONTH} Numbers Say`,
     summary:
       'The Palm Beach County condo and townhome market continued its turn in July 2026. Closed sales rose 18.5% over July 2025 and active inventory fell 19.3% — the clearest absorption yet of the supply that built up through 2024–2025. The median sale price rose 4% to $312,500, and 57% of closings were all-cash purchases. At 6.7 months of supply, down from 9.3, buyers still hold leverage, but the direction of travel now favors sellers — especially in buildings with completed milestone inspections and funded reserves.',
