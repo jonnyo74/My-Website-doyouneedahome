@@ -17,6 +17,7 @@ import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
 import CommunityVideo from '@/components/CommunityVideo'
+import GreatSchoolsCard, { greatSchoolsCity } from '@/components/GreatSchoolsCard'
 import PaddleCommunityLink from '@/components/paddle/PaddleCommunityLink'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
@@ -716,7 +717,9 @@ export default async function CommunityPage({ params }: Props) {
               )}
 
               {/* Schools */}
-              {(community.schoolOverview || community.schoolList) && (
+              {(community.schoolOverview ||
+                community.schoolList ||
+                greatSchoolsCity(isCity ? community.slug : (parentCity?.slug ?? community.slug))) && (
                 <div>
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">Schools</h2>
                   {community.schoolOverview && (
@@ -744,6 +747,16 @@ export default async function CommunityPage({ params }: Props) {
                       ))}
                     </div>
                   )}
+                  {/* Ratings come from GreatSchools rather than from copy of
+                      ours that would need re-checking every year. Neighborhood
+                      pages have no schoolList, so they resolve to their parent
+                      city — which is how GreatSchools indexes them anyway. */}
+                  <div className="mt-6">
+                    <GreatSchoolsCard
+                      citySlug={isCity ? community.slug : (parentCity?.slug ?? community.slug)}
+                      cityName={isCity ? community.name : (parentCity?.name ?? community.name)}
+                    />
+                  </div>
                   <p className="mt-6 text-xs leading-6 text-slate-500">
                     School assignments, boundaries, and ratings may change. Buyers should verify all
                     school information directly with the appropriate school district.

@@ -143,8 +143,8 @@ export const cities: CommunityItem[] = [
       {
         category: 'Public & Magnet Schools',
         schools: [
-          { name: 'Dreyfoos School of the Arts — Top-ranked arts magnet, nationally recognized', url: 'https://www.dreyfoos.com' },
-          { name: 'Suncoast High School — Top 10 in Florida, STEM & IB', url: 'https://www.palmbeachschools.org/fs/pages/43314' },
+          { name: 'Dreyfoos School of the Arts — West Palm Beach, arts magnet', url: 'https://www.dreyfoos.com' },
+          { name: 'Suncoast High School — Riviera Beach, STEM & IB programs', url: 'https://www.palmbeachschools.org/fs/pages/43314' },
           { name: 'Bak Middle School of the Arts (lottery-based)', url: 'https://www.palmbeachschools.org/fs/pages/15613' },
           { name: 'Forest Hill Community High School', url: 'https://www.palmbeachschools.org/fs/pages/41116' },
           { name: 'Palm Beach Lakes Community High School', url: 'https://www.palmbeachschools.org/fs/pages/42372' },
@@ -197,7 +197,7 @@ export const cities: CommunityItem[] = [
     highlights: [
       'Directly across the Intracoastal from Palm Beach Island — 3 minutes to Worth Avenue and The Breakers',
       'Brightline station 2–4 minutes away — direct rail to Boca, Fort Lauderdale, and Miami',
-      'Dreyfoos School of the Arts — one of the top arts magnet schools in the United States',
+      'Dreyfoos School of the Arts — a Palm Beach County arts magnet high school',
       '41+ condo buildings across all price points — from $200K downtown to $35M+ ultra-luxury on South Flagler',
       'Major new construction wave underway — Olara, Ritz-Carlton Residences, South Flagler House, Shorecrest and more',
       'Historic neighborhoods (El Cid, Flamingo Park, SoSo) rivaling the best in South Florida',
@@ -248,9 +248,9 @@ export const cities: CommunityItem[] = [
     name: 'Palm Beach Gardens',
     type: 'City',
     region: 'Northern Palm Beach County',
-    description: 'A premier master-planned city offering golf, shopping, A-rated school zones, and some of the county\'s most sought-after communities — luxury with a real neighborhood feel.',
+    description: 'A master-planned city offering golf, shopping, gated and non-gated neighborhoods, and a range of housing types.',
     overview:
-      'Palm Beach Gardens offers a rare combination of luxury, convenience, and real community. Just north of West Palm Beach and minutes from Juno and Jupiter beaches, it attracts buyers seeking the Palm Beach lifestyle without the chaos. Wide roads, mature landscaping, gated communities, public amenities, and A-rated schools define the city.\n\nGolf carts at dinner, fitness before work, farmers market on Sundays, beach within 20 minutes. Palm Beach Gardens is Florida — just more refined. Less tourist, more local. A place built for full-time living. It\'s everything people love about Palm Beach, just easier to live in.',
+      'Palm Beach Gardens offers a rare combination of luxury, convenience, and real community. Just north of West Palm Beach and minutes from Juno and Jupiter beaches, it attracts buyers seeking the Palm Beach lifestyle without the chaos. Wide roads, mature landscaping, gated communities, and public amenities define the city.\n\nGolf carts at dinner, fitness before work, farmers market on Sundays, beach within 20 minutes. Palm Beach Gardens is Florida — just more refined. Less tourist, more local. A place built for full-time living. It\'s everything people love about Palm Beach, just easier to live in.',
     lifestyle: 'Palm Beach Gardens blends laid-back Florida living with an amenity-rich, active setting. Golf and tennis club communities, gated master-planned neighborhoods, and the county\'s second-largest shopping and dining corridor all sit within a few minutes of one another. PGA Boulevard anchors the shopping and dining corridor — The Gardens Mall, Downtown at the Gardens, Legacy Place, PGA Commons, and Midtown each offer their own vibe from casual to fine dining.',
     localLoves: [
       'Gardens Green Market — farmers market with local produce and vendors',
@@ -278,7 +278,7 @@ export const cities: CommunityItem[] = [
           { name: 'Watson B. Duncan Middle School', url: 'https://www.palmbeachschools.org/fs/pages/36534' },
           { name: 'Palm Beach Gardens Community High School', url: 'https://www.palmbeachschools.org/fs/pages/42215' },
           { name: 'William T. Dwyer High School', url: 'https://www.palmbeachschools.org/fs/pages/43942' },
-          { name: 'Suncoast High School — Top 10 in Florida, STEM & IB', url: 'https://www.palmbeachschools.org/fs/pages/43314' },
+          { name: 'Suncoast High School — Riviera Beach, STEM & IB programs', url: 'https://www.palmbeachschools.org/fs/pages/43314' },
           { name: 'Bak Middle School of the Arts (lottery-based)', url: 'https://www.palmbeachschools.org/fs/pages/15613' },
         ],
       },
@@ -326,14 +326,14 @@ export const cities: CommunityItem[] = [
       'Home to Mirasol, BallenIsles, Old Palm, Frenchman\'s Creek, and PGA National — some of Florida\'s top private clubs',
       'Avenir is one of South Florida\'s largest active new construction corridors — still pre-buildout',
       'Burns Road Community Center gives residents Olympic pool, pickleball, tennis, and fitness at reduced rates',
-      'Suncoast High School ranked Top 10 in Florida — STEM and IB programs',
+      'Suncoast High School offers STEM and IB programs',
       'PGA Boulevard corridor offers premier dining from casual to fine — Capital Grille to local favorites',
       'Minutes from Juno and Jupiter beaches — coastal access without barrier island pricing',
       '20 minutes to Palm Beach International Airport and the Brightline station',
     ],
     quickFacts: [
       { label: 'Market focus', value: 'Golf estates, gated communities, new construction, country club living' },
-      { label: 'Key advantage', value: 'A-rated schools, PGA Boulevard lifestyle, beaches 15 min away' },
+      { label: 'Key advantage', value: 'PGA Boulevard corridor, golf, and beaches nearby' },
       { label: 'Best for', value: 'Golf and tennis club communities, gated master-planned neighborhoods, Gardens Mall and PBI airport access, wide price range' },
       { label: 'Standout feature', value: 'Burns Road Community Center — Olympic pool, pickleball, fitness at resident rates' },
     ],
@@ -378,7 +378,7 @@ export const cities: CommunityItem[] = [
     region: 'Northern Palm Beach County',
     description: 'A coastal town with oceanfront living, top private clubs, and a laid-back Florida lifestyle that attracts buyers from around the world.',
     overview:
-      'Welcome to Jupiter — where sunrise paddleboarding, A-rated school zones, pristine beaches, and small-town charm meet luxury South Florida living. Located at the northern tip of Palm Beach County, Jupiter offers an easygoing coastal lifestyle with quick access to I-95, Palm Beach International Airport, the Brightline, and downtown West Palm Beach. Whether you\'re searching for a waterfront condo, gated golf community, new construction home, or a lock-and-leave townhome — Jupiter delivers a lifestyle that feels like vacation every day.\n\nJupiter is relaxed, outdoorsy, and community-focused — but with just the right amount of luxury. You\'ll see golf carts at dinner, paddleboards on Jeeps, kids biking to school, and neighbors who actually wave back. Housing runs from oceanfront condos to waterfront estates, gated golf communities, and acreage in Jupiter Farms. It\'s one of the most sought-after markets in all of Palm Beach County — and our team has the local knowledge to get you in.',
+      'Welcome to Jupiter — where sunrise paddleboarding, wide beaches, and a small-town feel meet South Florida living. Located at the northern tip of Palm Beach County, Jupiter offers an easygoing coastal lifestyle with quick access to I-95, Palm Beach International Airport, the Brightline, and downtown West Palm Beach. Whether you\'re searching for a waterfront condo, gated golf community, new construction home, or a lock-and-leave townhome — Jupiter delivers a lifestyle that feels like vacation every day.\n\nJupiter is relaxed, outdoorsy, and community-focused — but with just the right amount of luxury. You\'ll see golf carts at dinner, paddleboards on Jeeps, kids biking to school, and neighbors who actually wave back. Housing runs from oceanfront condos to waterfront estates, gated golf communities, and acreage in Jupiter Farms. It\'s one of the most sought-after markets in all of Palm Beach County — and our team has the local knowledge to get you in.',
     lifestyle: 'Jupiter is one of those rare places where the lifestyle sells itself. The dog-friendly beach, the waterfront dining at Harbourside Place, the Saturday farmers markets, the golf cart nights in Abacoa — it\'s a community that draws people in and keeps them. The low building heights, beach access, and Loxahatchee River frontage are the features buyers cite most often, and a meaningful share of seasonal owners eventually convert to full-time residency. If you\'re looking for a place that feels like vacation but still feels like home, Jupiter is hard to beat.',
     localLoves: [
       'Dog-friendly Jupiter Beach and sunrise paddleboarding on the Intracoastal',
@@ -400,7 +400,7 @@ export const cities: CommunityItem[] = [
           { name: 'Jerry Thomas Elementary', url: 'https://www.palmbeachschools.org/fs/pages/20614' },
           { name: 'Independence Middle School', url: 'https://www.palmbeachschools.org/fs/pages/34022' },
           { name: 'Jupiter Middle School', url: 'https://www.palmbeachschools.org/fs/pages/34336' },
-          { name: 'Jupiter High School — A-rated, medical & engineering academies', url: 'https://www.palmbeachschools.org/fs/pages/41587' },
+          { name: 'Jupiter High School — Jupiter, medical & engineering academies', url: 'https://www.palmbeachschools.org/fs/pages/41587' },
         ],
       },
       {
@@ -452,7 +452,7 @@ export const cities: CommunityItem[] = [
     ],
     quickFacts: [
       { label: 'Market focus', value: 'Waterfront estates, gated golf communities, master-planned single-family neighborhoods, new construction' },
-      { label: 'Key advantage', value: 'A-rated schools, coastal lifestyle, world-class private clubs, strong resale demand' },
+      { label: 'Key advantage', value: 'Coastal lifestyle, private clubs, beaches, and a range of housing types' },
       { label: 'Hospitals nearby', value: 'Jupiter Medical Center (top-rated), Palm Beach Gardens Medical Center' },
       { label: 'Shopping & dining', value: 'Harbourside Place, Riverwalk, Downtown at The Gardens, Legacy Place, Gardens Mall' },
     ],
@@ -466,7 +466,7 @@ export const cities: CommunityItem[] = [
     ],
     hasMembershipCommunities: true,
     highlights: [
-      'A-rated Palm Beach County school zones — verify current grades and boundaries with the district',
+      'Served by Palm Beach County schools — verify current assignment and boundaries for a specific address with the district',
       'Home to Admiral\'s Cove, The Bear\'s Club, The Loxahatchee Club, and Jonathan\'s Landing — among Florida\'s most exclusive private clubs',
       'Harbourside Place and Riverwalk offer waterfront dining, shopping, and live music year-round',
       'Jupiter Beach and Carlin Park are dog-friendly and draw year-round outdoor lifestyle buyers',
@@ -512,7 +512,7 @@ export const cities: CommunityItem[] = [
     name: 'Wellington',
     type: 'City',
     region: 'Western Palm Beach County',
-    description: 'The equestrian capital of the world — a master-planned community with world-class show grounds, luxury gated neighborhoods, A-rated school zones, and a lifestyle unlike anywhere else in Florida.',
+    description: 'A master-planned community known for its equestrian show grounds, gated and non-gated neighborhoods, and a wide range of housing.',
     overview:
       'Wellington is one of the most distinctive communities in all of South Florida — a master-planned village in western Palm Beach County internationally recognized as the equestrian capital of the world. From January through April, the Winter Equestrian Festival and the Global Dressage Festival transform Wellington into a global gathering point for riders, owners, and enthusiasts from more than 50 countries. On Sundays during polo season, the International Polo Club Palm Beach draws thousands to watch world-class matches with Veuve Clicquot in hand.\n\nBut Wellington is far more than a seasonal destination. It\'s a real, fully lived-in community — with several A-graded schools under Florida\'s annual grading system, extensive parks, a shopping corridor along State Road 7, strong year-round demand, and an extraordinary range of homes from attainable single-family neighborhoods to gated luxury estates and equestrian compounds. Outside capital is taking notice: in August 2026, Related Ross — downtown West Palm Beach\'s dominant developer — closed on Wellington\'s Village Landing (K-Park) site for $28.3 million, with plans for a mixed-use district including a hotel and retail. The village offers lot size, amenities, and green space without barrier-island prices. School grades and boundaries are updated annually and should be verified with the district. Wellington delivers more home for the money — and a lifestyle that most communities can only dream about.',
     lifestyle: 'Wellington is built around the winter equestrian circuit, which connects it to sister show venues in Europe and South America and produces seasonal rental demand unlike anywhere else in the country. Beyond the show grounds, the village offers larger lots, barn and paddock acreage, and gated master-planned neighborhoods. The social calendar runs hot from January through April and never fully stops. Polo Sundays at the International Polo Club, horses on every back road, golf carts at dinner, school athletics drawing the whole community out — Wellington has the kind of neighborhood culture that\'s rare in South Florida.',
@@ -578,8 +578,8 @@ export const cities: CommunityItem[] = [
         schools: [
           { name: 'Polo Park Middle School', url: 'https://www.palmbeachschools.org/ppm' },
           { name: 'Wellington Landings Middle School', url: 'https://www.palmbeachschools.org/wlm' },
-          { name: 'Wellington Community High School — A-rated, IB program', url: 'https://www.palmbeachschools.org/whs' },
-          { name: 'Palm Beach Central High School — A-rated, academy programs', url: 'https://www.palmbeachschools.org/pbc' },
+          { name: 'Wellington Community High School — Wellington, IB program', url: 'https://www.palmbeachschools.org/whs' },
+          { name: 'Palm Beach Central High School — Wellington, academy programs', url: 'https://www.palmbeachschools.org/pbc' },
         ],
       },
       {
@@ -618,7 +618,7 @@ export const cities: CommunityItem[] = [
       'International Polo Club Palm Beach draws 200,000+ visitors per season — Sunday polo is a Wellington institution',
       'More than 100 miles of public and private bridle trails run throughout the village — open to walkers and, in most sections, cyclists, not just riders',
       'Four established private clubs — Palm Beach Polo, The Wanderers Club, Wellington National and Binks Forest — with Wycliffe just off the southern edge; The Wellington, a 400-acre private club community with a David McLay Kidd course, is scheduled to open in 2028',
-      'Wellington Community High School and Palm Beach Central are consistently A-rated with strong IB and academy programs',
+      'Wellington Community High School and Palm Beach Central High School offer IB and academy programs — verify current assignment by address with the district',
       'Wellington Regional Medical Center is a full-service hospital located directly in the community',
       'Seasonal rental demand from the equestrian circuit is among the strongest in all of South Florida — investors take note',
       'More land and more home for the money than any coastal market in the county — a value play with lifestyle upside',
@@ -733,7 +733,7 @@ export const cities: CommunityItem[] = [
       {
         category: 'Private Schools',
         schools: [
-          { name: 'Saint Andrew\'s School — PK–12', url: 'https://www.saintandrews.net' },
+          { name: 'Saint Andrew\'s School — PK–12, Boca Raton', url: 'https://www.saintandrews.net' },
           { name: 'Saint John Paul II Academy', url: 'https://www.sjp2a.org' },
           { name: 'Grandview Preparatory School', url: 'https://www.grandviewprep.net' },
           { name: 'Donna Klein Jewish Academy', url: 'https://www.dkja.org' },
@@ -1736,8 +1736,8 @@ export const cities: CommunityItem[] = [
         schools: [
           { name: 'Lighthouse Elementary School', url: 'https://www.palmbeachschools.org/les' },
           { name: 'Independence Middle School', url: 'https://www.palmbeachschools.org/ims' },
-          { name: 'William T. Dwyer High School — A-rated', url: 'https://www.palmbeachschools.org/wth' },
-          { name: 'Jupiter High School — A-rated, medical & engineering academies', url: 'https://www.palmbeachschools.org/jhs' },
+          { name: 'William T. Dwyer High School — Palm Beach Gardens', url: 'https://www.palmbeachschools.org/wth' },
+          { name: 'Jupiter High School — Jupiter, medical & engineering academies', url: 'https://www.palmbeachschools.org/jhs' },
         ],
       },
       {
@@ -1867,7 +1867,7 @@ export const cities: CommunityItem[] = [
           { name: 'Allamanda Elementary School', url: 'https://www.palmbeachschools.org/ala' },
           { name: 'Howell L. Watkins Middle School', url: 'https://www.palmbeachschools.org/hwm' },
           { name: 'Palm Beach Gardens Community High School', url: 'https://www.palmbeachschools.org/pbg' },
-          { name: 'William T. Dwyer High School — A-rated', url: 'https://www.palmbeachschools.org/wth' },
+          { name: 'William T. Dwyer High School — Palm Beach Gardens', url: 'https://www.palmbeachschools.org/wth' },
         ],
       },
       {
@@ -2033,7 +2033,7 @@ export const cities: CommunityItem[] = [
     highlights: [
       'The Loxahatchee River runs directly through the village — private riverfront dock access and manatee sightings year-round',
       'No high-rises, no commercial strips, and no crowds — Tequesta has consciously preserved its low-density village character',
-      'Jupiter schools serve Tequesta students — consistently among the top-ranked public schools in Palm Beach County',
+      'Tequesta students are served by Palm Beach County schools in the Jupiter area — verify assignment by address',
       'Jonathan Dickinson State Park is 10 minutes north — 11,500 acres of protected Florida wilderness with kayak eco-tours',
       'Harborside Place, downtown Jupiter dining, and the beach at Carlin Park are all 5 minutes away',
       'Martin County border location gives residents access to two county park systems without the density of either county seat',
@@ -2086,7 +2086,7 @@ export const cities: CommunityItem[] = [
       { name: 'Tradition', description: 'Port St. Lucie\'s flagship New Urbanist master-planned community — its own town center, hospital, and events calendar. The fastest-appreciating segment of the market and a destination community within a destination.' },
       { name: 'PGA Village', description: 'Golf-centric community surrounding the PGA Golf Club — gated neighborhoods with course views, active lifestyle amenities, and a strong demand base from golf enthusiasts nationwide.' },
       { name: 'East Port St. Lucie', description: 'Established residential neighborhoods east of US-1 with Intracoastal and river access — older housing stock, canal homes, and some of the most affordable waterfront in the Treasure Coast.' },
-      { name: 'West Port St. Lucie / Torino', description: 'Growing western corridor with newer construction, larger lots, and A-rated school access at some of the city\'s more accessible price points.' },
+      { name: 'West Port St. Lucie / Torino', description: 'Growing western corridor with newer construction, larger lots, and a range of price points.' },
       { name: 'Riverland', description: 'Active adult community built around the concept of a "City of Wellbeing" — resort-style amenities, wellness programming, and a 55+ lifestyle that has drawn national attention.' },
     ],
     dining: [
@@ -2283,7 +2283,7 @@ export const cities: CommunityItem[] = [
     highlights: [
       'Osceola Street Historic Downtown is one of the most authentic and beloved small-city downtowns in all of Florida — preserved architecture, zero chain stores, acclaimed local dining',
       'The "Sailfish Capital of the World" — winter sailfish season November–April draws anglers from around the world, with the fishery 20 minutes from the downtown marina',
-      'Martin County Schools rank among the top-performing in the state — a genuine and well-documented buyer driver',
+      'Served by the Martin County School District — verify current assignment for a specific address with the district',
       'Martin County\'s growth restrictions are legally protected and politically durable — the low-density, small-town character here is not going to change',
       'Cleveland Clinic operates two full-service hospitals in Stuart — among the best hospital access of any small city in Florida',
       'Bathtub Beach on Hutchinson Island is one of the most extraordinary natural beach experiences in Florida — a protected tidal pool accessible by bridge',
@@ -2685,7 +2685,7 @@ export const cities: CommunityItem[] = [
       { name: 'Cobblestone Country Club', description: 'An established gated golf community with mature landscaping, a well-maintained course, and consistent resale demand for country club amenities at approachable price points.' },
       { name: 'Crane Creek Country Club', description: 'One of Palm City\'s earlier and more established communities — golf, pool, and clubhouse in a quieter setting with a loyal long-term resident base.' },
       { name: 'Riverfront / Non-Gated Estates', description: 'Custom waterfront estates on the South Fork and its tributaries — private docks, deep-water access, and a more individual residential character than the managed communities.' },
-      { name: 'Clubhouse Pointe / Newer Communities', description: 'Newer construction neighborhoods in Palm City\'s western reaches — larger lots, A-rated school access, and the most accessible price points in the community.' },
+      { name: 'Clubhouse Pointe / Newer Communities', description: 'Newer construction neighborhoods in Palm City\'s western reaches — larger lots and a range of price points.' },
     ],
     dining: [
       'Stuart Waterfront (10 min east) — The Gafford, Osceola Street Café, Sailor\'s Return, and Manatee Pocket dining',
@@ -2745,7 +2745,7 @@ export const cities: CommunityItem[] = [
       { type: 'Harbour Ridge (Equity Club)', range: '$600K – $3M+', minPrice: 600000, amenities: ['sa_rapb_membership_required'] },
     ],
     highlights: [
-      'Martin County Schools are among the top-performing in Florida — consistently strong academic outcomes and smaller class sizes than Palm Beach or St. Lucie County peers',
+      'Served by the Martin County School District — verify current assignment for a specific address with the district',
       'Harbour Ridge Yacht & Country Club is one of the Treasure Coast\'s most acclaimed private equity clubs — two Arnold Palmer golf courses, a full marina, and an exceptional amenity program',
       'South Fork St. Lucie River access gives Palm City a boating lifestyle that most inland communities at this price point cannot offer',
       'Martin County\'s growth management regulations preserve the community\'s density and character — this is not a community that will densify over time',
@@ -2915,7 +2915,7 @@ export const cities: CommunityItem[] = [
       'Manatee Pocket is one of the best-protected natural harbors on the east coast — charter boats, waterfront restaurants, and direct Atlantic access through the St. Lucie Inlet',
       'Canal and waterfront home prices here represent the best value in Intracoastal-accessible real estate on the entire Treasure Coast',
       "The waterfront restaurant row on the Manatee Pocket — Shrimper's and Sailor's Return among them — is a working-harbor dining scene rather than a themed one",
-      'Martin County Schools serve Port Salerno students — among Florida\'s top-ranked public school districts',
+      'Port Salerno students are served by the Martin County School District — verify assignment by address',
       'Cleveland Clinic\'s Martin County hospitals are 10–15 minutes north in Stuart — world-class healthcare accessible from a value-priced waterfront community',
       'Stuart\'s acclaimed historic downtown is 10 minutes north — Osceola Street dining, galleries, the Lyric Theatre, and the full Stuart social scene',
       'The St. Lucie Inlet puts blue water and sailfish within 20 miles of the Pocket docks — one of the most accessible offshore fisheries on the Florida east coast',
@@ -2997,9 +2997,9 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Abacoa',
     type: 'Neighborhood',
     region: 'Jupiter',
-    description: 'A walkable New Urbanism master-planned community in Jupiter with charming streetscapes, A-rated school zones, golf, and a genuine hometown feel.',
+    description: 'A walkable New Urbanism master-planned community in Jupiter with tree-lined streetscapes, golf, and walkable town centers.',
     overview:
-      'Abacoa is one of Jupiter\'s most sought-after master-planned communities — known for its charming streetscapes, tree-lined sidewalks, golf, baseball, A-rated school zones, and a genuine "neighbors know neighbors" vibe. Built with New Urbanist design in mind, Abacoa blends residential living with walkable town centers, parks, and everyday convenience.\n\nUnlike many South Florida communities built around gates and isolated subdivisions, Abacoa was intentionally designed to feel like a real town — and it shows. Developed in the late 1990s and early 2000s as one of Palm Beach County\'s first large-scale New Urbanist communities, Abacoa has matured beautifully — with established landscaping, thriving commercial areas, and long-term homeowner pride. What was once "new" is now one of Jupiter\'s most proven and stable residential communities.',
+      'Abacoa is one of Jupiter\'s most sought-after master-planned communities — known for its streetscapes, tree-lined sidewalks, golf, baseball, and walkable town centers. Built with New Urbanist design in mind, Abacoa blends residential living with walkable town centers, parks, and everyday convenience.\n\nUnlike many South Florida communities built around gates and isolated subdivisions, Abacoa was intentionally designed to feel like a real town — and it shows. Developed in the late 1990s and early 2000s as one of Palm Beach County\'s first large-scale New Urbanist communities, Abacoa has matured beautifully — with established landscaping, thriving commercial areas, and long-term homeowner pride. What was once "new" is now one of Jupiter\'s most proven and stable residential communities.',
     lifestyle: 'Abacoa feels active, social, and genuinely connected — without feeling crowded. The community is built around front-porch neighborhoods, community pools, a golf course, and a town center that is genuinely walkable from most of its sections. Roger Dean Chevrolet Stadium brings concerts, spring training games, and community events right to the neighborhood. It\'s rare to find this level of built-in activity in a residential community.',
     localLoves: [
       'Walkable town centers with restaurants, cafés, and local shops',
@@ -3093,7 +3093,7 @@ export const neighborhoods: CommunityItem[] = [
       'Only ~400 homes — one of the smallest and most exclusive incorporated towns in Florida',
       'The Jupiter Lighthouse sits at the edge of the Colony — one of the most iconic views in South Florida',
       'No commercial development — pure residential, no traffic, no noise',
-      'Minutes to Jupiter\'s restaurants, A-rated schools, I-95, and PBI Airport',
+      'Minutes to Jupiter\'s restaurants, I-95, and PBI Airport',
     ],
     priceRanges: [
       { type: 'Oceanfront Condos', range: '$1M – $4M+', minPrice: 1000000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront_ocean'] },
@@ -4099,7 +4099,7 @@ export const neighborhoods: CommunityItem[] = [
       'Mediterranean-inspired architecture with premium exterior and interior finishes',
       'Resort-style amenity center with pool, fitness center, and social spaces',
       'Low-density neighborhood with generous lot sizes and manicured common areas',
-      'Convenient access to local shopping, dining, and top-rated Palm Beach County schools',
+      'Convenient access to local shopping, dining, and Palm Beach County schools',
       'Strong resale values in a sought-after Palm Beach County location',
     ],
     photos: [
@@ -4495,7 +4495,7 @@ export const neighborhoods: CommunityItem[] = [
       '2–3 bedroom layouts with open living, modern kitchens, and community pool',
       'HOA-managed exterior — lock-and-leave ready',
       'Approachable pricing within Abacoa',
-      'Close to Abacoa Town Center, Roger Dean Stadium, and A-rated public schools',
+      'Close to Abacoa Town Center, Roger Dean Stadium, and Jupiter public schools',
     ],
     priceRanges: [
       { type: 'Townhomes', range: '$420K – $620K', minPrice: 420000, maxPrice: 620000, propertyTypes: ['townhouse'] },
