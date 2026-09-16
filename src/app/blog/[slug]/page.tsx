@@ -11,7 +11,7 @@ import {
 import { getCommunityBySlug } from '@/lib/communities'
 import Prose from '@/components/Prose'
 import CitySearchButtons from '@/components/CitySearchButtons'
-import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
+import MarketTrendsBlock from '@/components/MarketTrendsBlock'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
@@ -247,18 +247,19 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         {/* Market trends — omitted where Ylopo has no single-family data for the
-            city, rather than rendering a heading over an empty box. */}
+            city, rather than rendering a heading over an empty box. The block
+            drops itself the same way if the widget never loads at runtime. */}
         {trends && (
           <div className="mt-12">
-            <h2 className="font-serif text-2xl font-semibold text-slate-900">{trends.city} Market Trends</h2>
-            <p className="mt-2 text-sm text-slate-500">
-              {trends.substituted
-                ? `Live MLS data for ${trends.city} — the closest market with full single-family coverage. ${article.cityName} is not reported separately.`
-                : 'Live data from the local MLS.'}
-            </p>
-            <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200">
-              <YlopoMarketTrendsWidget city={trends.city} />
-            </div>
+            <MarketTrendsBlock
+              city={trends.city}
+              heading={`${trends.city} Market Trends`}
+              caption={
+                trends.substituted
+                  ? `Live MLS data for ${trends.city} — the closest market with full single-family coverage. ${article.cityName} is not reported separately.`
+                  : 'Live data from the local MLS.'
+              }
+            />
           </div>
         )}
 

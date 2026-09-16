@@ -11,7 +11,7 @@ import {
 } from '@/lib/communities'
 import { getAgentQuotes } from '@/lib/agentQuotes'
 import { getArticlesByCity, marketTrendsCity } from '@/lib/articles'
-import YlopoMarketTrendsWidget from '@/components/YlopoMarketTrendsWidget'
+import MarketTrendsBlock from '@/components/MarketTrendsBlock'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
@@ -937,19 +937,16 @@ export default async function CommunityPage({ params }: Props) {
                 const trends = marketTrendsCity(base)
                 if (!trends) return null
                 return (
-                  <div>
-                    <h2 className="font-serif text-2xl font-semibold text-slate-900">
-                      Market Trends
-                    </h2>
-                    <p className="mt-2 text-sm text-slate-500">
-                      {trends.substituted
+                  <MarketTrendsBlock
+                    city={trends.city}
+                    heading="Market Trends"
+                    caption={
+                      trends.substituted
                         ? `Live market data for ${trends.city}, FL — the closest market with full single-family coverage. ${base} is not reported separately.`
-                        : `Live market data for ${trends.city}, FL.`}
-                    </p>
-                    <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
-                      <YlopoMarketTrendsWidget city={trends.city} />
-                    </div>
-                  </div>
+                        : `Live market data for ${trends.city}, FL.`
+                    }
+                    frameClassName="mt-6"
+                  />
                 )
               })()}
 
