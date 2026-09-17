@@ -60,6 +60,12 @@ function Place({ place, id }: { place: GuidePlace; id: string }) {
       <Prose content={place.body} />
 
       <dl className="mt-5 grid gap-x-6 gap-y-3 rounded-xl bg-slate-50 px-5 py-4 text-sm sm:grid-cols-[7.5rem_minmax(0,1fr)]">
+        {place.area && (
+          <>
+            <dt className="font-semibold text-slate-900">Where</dt>
+            <dd className="text-slate-700">{place.area}</dd>
+          </>
+        )}
         <dt className="font-semibold text-slate-900">Best for</dt>
         <dd className="text-slate-700">{place.bestFor.join(' · ')}</dd>
         {place.note && (
@@ -89,6 +95,21 @@ export default function DiscoveryGuide({ guide }: { guide: ArticleGuide }) {
           {guide.heading}
         </h2>
         {guide.intro && <p className="mt-3 leading-7 text-slate-600">{guide.intro}</p>}
+        {/* How fresh the entries are. Hours, menus and ownership change, so
+            only move this date after re-checking every official link. */}
+        {guide.lastReviewed && (
+          <p className="mt-3 text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+            Last reviewed{' '}
+            <time dateTime={guide.lastReviewed}>
+              {new Date(`${guide.lastReviewed}T12:00:00Z`).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                timeZone: 'UTC',
+              })}
+            </time>
+          </p>
+        )}
         <ul className="mt-6 grid gap-3 sm:grid-cols-3">
           {guide.categories.map((c) => (
             <li key={c.id}>
@@ -115,6 +136,21 @@ export default function DiscoveryGuide({ guide }: { guide: ArticleGuide }) {
             {c.title}
           </h2>
           {c.intro && <p className="mt-3 leading-7 text-slate-600">{c.intro}</p>}
+          {c.image && (
+            <figure className="mt-6">
+              <Image
+                src={c.image.src}
+                alt={c.image.alt}
+                width={c.image.width}
+                height={c.image.height}
+                sizes="(min-width: 768px) 704px, 100vw"
+                className="h-auto w-full rounded-xl"
+              />
+              {c.image.credit && (
+                <figcaption className="mt-2 text-xs text-slate-500">{c.image.credit}</figcaption>
+              )}
+            </figure>
+          )}
           <div className="mt-8 space-y-10">
             {c.places.map((p, i) => (
               <Place key={p.name} place={p} id={`${c.id}-${i + 1}`} />

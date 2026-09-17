@@ -108,3 +108,20 @@ county-line positions are approximate. East–west spacing is exaggerated so the
 It is deliberately not a map: no roads, distances, scale bar or drive times. Borders the article relies on
 (Highland Beach and Deerfield Beach adjoin Boca) come from the City's comprehensive plan, Intergovernmental
 Coordination Element. If the comparison set changes, edit `PLACES` in the script and re-run it.
+
+## Derived crops for the eat/drink guide (added 2026-09-17)
+
+Crops of the four dining images downloaded to `public/public/Boca Raton/` on the same date — see that folder's
+SOURCES.md for the Unsplash License record, photographer credits and the screening rules applied.
+
+- **boca-dining-terrace-wide.webp** — 2400x1200 (2:1) of `boca-dining-terrace.jpg`, source region y250, 3000x1500.
+  Covered open-air terrace, set tables, ceiling fans, palms beyond a hedge. No people, no signage. Desktop hero and
+  the Open Graph / JSON-LD image.
+- **boca-dining-terrace-mobile.webp** — 1200x800 (3:2), source region x600 y200, 2400x1600. Tighter on the set tables.
+- **boca-evening-patio-lights.webp** — 1600x900 of `boca-string-lights-patio.jpg`. Category image for "Drinks and late evenings".
+- **boca-coffee-counter.webp** — 1600x900 of `boca-latte-counter.jpg`. Category image for "Coffee and daytime".
+- **boca-cafe-table-hedge.webp** — 1600x900 of `boca-cafe-table.jpg`. Category image for "Casual and family-friendly".
+  Used on: `best-places-to-eat-drink-hang-out-in-boca-raton-florida`
+
+The three category images carry a visible caption marking them illustrative, because the article names real
+restaurants and a photo next to a venue list would otherwise read as a photo of that venue.

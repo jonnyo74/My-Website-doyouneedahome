@@ -66,3 +66,26 @@ Subject descriptions below are from looking at the files, not from any caption:
 specific building, a historic Mizner structure, or as evidence of prices — the article's
 earlier caption asserted "the highest prices in the city" off this aerial, which was removed on
 2026-09-13 as an unsupported market claim.
+
+## Dining and social-life images (added 2026-09-17)
+
+Four Unsplash downloads for `best-places-to-eat-drink-hang-out-in-boca-raton-florida`, all free to use under the
+[Unsplash License](https://unsplash.com/license) (checked on each photo page, not Unsplash+). Screened for no
+identifiable faces, no third-party branding and no recognisable real venue — a rejected fifth candidate was dropped
+because a bakery's signage was legible in frame. **None was shot in Boca Raton.** Alt text describes the scene and
+never names or implies a specific restaurant, and the supporting captions say "illustrative, not a specific venue".
+
+- **boca-dining-terrace.jpg** (3000x2000) — "An outdoor dining area with tables and chairs" by Kate Trysh (@katetrysh).
+  https://unsplash.com/photos/an-outdoor-dining-area-with-tables-and-chairs-KRXX14JyFaY
+  Credit: Photo by Kate Trysh / Unsplash. Hero.
+- **boca-string-lights-patio.jpg** (3000x2000) — "Outdoor cafe with string lights at dusk" by Nikita Kulikov (@kulikovniki).
+  https://unsplash.com/photos/outdoor-cafe-with-string-lights-at-dusk-nFRRqDEkzMs
+  Credit: Photo by Nikita Kulikov / Unsplash. "Drinks and late evenings".
+- **boca-latte-counter.jpg** (3000x2001) — "A person holding a cup of coffee on top of a wooden table" by Nathan Dumlao (@nate_dumlao).
+  https://unsplash.com/photos/a-person-holding-a-cup-of-coffee-on-top-of-a-wooden-table-cb_ppfNXLSU
+  Credit: Photo by Nathan Dumlao / Unsplash. "Coffee and daytime".
+- **boca-cafe-table.jpg** (3000x1999) — "Outdoor cafe table with coffee and chairs" by Philip Flores (@pflores).
+  https://unsplash.com/photos/outdoor-cafe-table-with-coffee-and-chairs-v2bG2TG6EL0
+  Credit: Photo by Philip Flores / Unsplash. "Casual and family-friendly".
+
+Derived crops live in `public/images/boca-raton/` and are recorded in that folder's SOURCES.md.

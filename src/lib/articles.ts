@@ -26,6 +26,8 @@ export interface GuidePlace {
   /** Why it is worth the detour. Paragraphs, inline markdown allowed. */
   body: string
   bestFor: string[]
+  /** Neighborhood or district, for guides where location is part of the answer. */
+  area?: string
   /** Practical note — only details that can be verified, or a pointer to the source. */
   note?: string
   /** Official page for the place. External links open in a new tab. */
@@ -36,7 +38,18 @@ export interface GuidePlace {
 export interface ArticleGuide {
   heading: string
   intro?: string
-  categories: Array<{ id: string; title: string; intro?: string; places: GuidePlace[] }>
+  /** ISO date the entries were last checked against their official sources.
+   *  Shown to readers, so re-check the links before changing it. */
+  lastReviewed?: string
+  // A category may carry one lifestyle image, shown under its intro. It sets
+  // the mood for the group — never use one that implies a specific venue.
+  categories: Array<{
+    id: string
+    title: string
+    intro?: string
+    image?: { src: string; width: number; height: number; alt: string; credit?: string }
+    places: GuidePlace[]
+  }>
 }
 
 /** One alternative in a "City vs nearby cities" comparison. */
@@ -5272,114 +5285,253 @@ If you've just moved here and you're wondering whether Boca has anything underne
     order: 10,
     seoTitle: "Best Places to Eat, Drink & Hang Out in Boca Raton, Florida",
     metaTitle: "Best Places to Eat & Drink in Boca Raton, FL",
-    metaDescription: "Where to eat, drink, and hang out in Boca Raton, Florida — from Mizner Park and Royal Palm Place to downtown's upscale dining scene.",
+    metaDescription: "A local guide to eating, drinking and hanging out in Boca Raton — 12 places worth your time across Mizner Park, Royal Palm Place, downtown and west Boca.",
     primaryKeyword: "best restaurants in Boca Raton Florida",
-    secondaryKeywords: ["where to eat in Boca Raton", "Mizner Park restaurants", "Royal Palm Place"],
+    secondaryKeywords: ["where to eat in Boca Raton", "Mizner Park restaurants", "Royal Palm Place", "Boca Raton coffee shops", "Boca Raton bars"],
     h1: "Best Places to Eat, Drink & Hang Out in Boca Raton, Florida",
-    body: `Boca's dining is upscale, clustered, and more varied than its reputation suggests — though you have to look past the two obvious districts to find the range.
+    heroImage: '/images/boca-raton/boca-dining-terrace-wide.webp',
+    heroImageAlt: 'A covered open-air dining terrace with wooden tables set for service, teal napkins and cushions, ceiling fans overhead and palms beyond the hedge',
+    heroImageCredit: 'Photo by Kate Trysh / Unsplash',
+    heroImageWidth: 2400,
+    heroImageHeight: 1200,
+    editorial: {
+      eyebrow: "A Local's Guide to Boca Raton",
+      deck: "Where locals actually eat, drink and linger.",
+      mobileImage: { src: '/images/boca-raton/boca-dining-terrace-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Boca Raton Neighborhoods', href: '/communities/boca-raton' },
+      secondaryCta: { label: 'Read the Local Guide', href: '/blog/local-guide-to-boca-raton-florida' },
+      magnetPlacement: 'after-expert-note',
+      guide: {
+        heading: 'Pick the kind of outing',
+        intro: "More varied than the city's reputation suggests. Twelve places we checked against their own websites and current listings before publishing — a curated set, not a directory — and hours, menus and ownership change, so confirm directly before you go.",
+        lastReviewed: '2026-09-17',
+        categories: [
+          {
+            id: 'dinner-and-date-night',
+            title: 'Dinner and date night',
+            intro: "The polished end of Boca, which is what the city does best. All three take reservations online.",
+            places: [
+              {
+                name: "Max's Grille",
+                area: 'Mizner Park',
+                body: "The one that has been there the whole time — the restaurant calls itself **\"the only original Mizner Park restaurant in Boca Raton\"**, which makes it the default answer for a first evening out in the district.\n\nIts outdoor bar sits, in the restaurant's words, \"in the heart of Mizner Park\", so you can park once, eat outside and walk to whatever is on at the amphitheater.",
+                bestFor: ['A polished evening out', 'Outdoor bar', 'Walking to a show'],
+                note: "The site advertises live music \"weather permitting\" and weekend brunch, and takes reservations online.",
+                link: { label: "Max's Grille", href: 'https://www.maxsgrille.com/' },
+              },
+              {
+                name: "Louie Bossi's Ristorante Bar Pizzeria",
+                area: 'Downtown, East Palmetto Park Road',
+                body: "The liveliest of the downtown Italian rooms, and the one that works for a date or a group without feeling stiff.\n\nThe restaurant describes **\"a fire-pit-friendly piazza\" and a bocce court**, and says \"all of our pasta, bread, gelatos, pastries and cookies are made in-house daily\".",
+                bestFor: ['Italian', 'Groups', 'Outdoor tables'],
+                note: "Valet service is listed daily, reservations run through OpenTable, and weekend brunch is on the menu.",
+                link: { label: "Louie Bossi's Boca Raton", href: 'https://www.louiebossi.com/bocaraton' },
+              },
+              {
+                name: "Abe & Louie's",
+                area: 'Glades Road corridor',
+                body: "The steakhouse answer, and proof that the Glades corridor is not only chains and convenience.\n\nIt bills itself as **\"the epitome of classic American steakhouses\"** — the kind of room Boca dresses up for, with private and semi-private space for the celebration dinners that fill the calendar in season.",
+                bestFor: ['Steak', 'A celebration dinner', 'Business dinners'],
+                note: 'Valet parking, and reservations through OpenTable.',
+                link: { label: "Abe & Louie's", href: 'https://www.abeandlouies.com/' },
+              },
+            ],
+          },
+          {
+            id: 'drinks-and-late-evenings',
+            title: 'Drinks and late evenings',
+            intro: "Boca's nightlife is smaller than the city's size suggests, so the good rooms are the ones with something on: a band, a trivia night, a reason to stay.",
+            image: {
+              src: '/images/boca-raton/boca-evening-patio-lights.webp',
+              width: 1600,
+              height: 900,
+              alt: 'A covered patio at dusk strung with warm bulb lights, with empty tables in the foreground and a lit dining area beyond',
+              credit: 'Photo by Nikita Kulikov / Unsplash — illustrative, not a specific venue',
+            },
+            places: [
+              {
+                name: 'The Funky Biscuit',
+                area: 'Royal Palm Place',
+                body: "The best argument that Boca has a real night out in it. The venue calls itself **\"South Florida's Premiere Live Music Concert Venue & Restaurant\"**, and it runs a show calendar most nights of the week rather than a stray weekend band.\n\nIt's a full restaurant and bar as well, so dinner and the show are the same stop.",
+                bestFor: ['Live music', 'A late evening', 'Blues and roots'],
+                note: 'Shows are ticketed and dated on the venue calendar — check who is playing before you plan around it.',
+                link: { label: 'The Funky Biscuit', href: 'https://www.funkybiscuit.com/' },
+              },
+              {
+                name: 'Barrel of Monks Brewing',
+                area: 'North Boca, Rogers Circle',
+                body: "The other side of Boca entirely: an **independent local brewery making Belgian-inspired beer** in a north Boca business park, with a food truck rather than a kitchen.\n\nThe taproom calendar carries comedy nights, trivia and live jazz and blues, which is how an industrial-park unit ends up being a neighborhood hangout.",
+                bestFor: ['Craft beer', 'A low-key weeknight', 'Trivia and comedy'],
+                note: 'Food comes from a truck on site rather than a kitchen — check the calendar for who is parked there.',
+                link: { label: 'Barrel of Monks Brewing', href: 'https://barrelofmonks.com/' },
+              },
+            ],
+          },
+          {
+            id: 'coffee-and-daytime',
+            title: 'Coffee and daytime',
+            intro: "Better than the nightlife reputation suggests, and more useful to most residents. In a city with this many people working from home, a coffee routine is one of the easier ways to settle in somewhere new.",
+            image: {
+              src: '/images/boca-raton/boca-coffee-counter.webp',
+              width: 1600,
+              height: 900,
+              alt: 'A cappuccino with latte art in a white cup on a dark wooden café counter, beside a milk jug and an espresso scale',
+              credit: 'Photo by Nathan Dumlao / Unsplash — illustrative, not a specific venue',
+            },
+            places: [
+              {
+                name: 'MANE Coffee',
+                area: 'North Boca, Spanish River Boulevard',
+                body: "A coffee shop and bakery in one, started by **a Boca Raton native, Daniel Karram**, to put the two together.\n\nBread and toast are baked in house, and the pour-over list rotates through guest roasters — the closest thing in town to a specialty-coffee destination rather than a place to grab a cup.",
+                bestFor: ['Specialty coffee', 'Breakfast', 'A laptop hour'],
+                note: 'Online ordering is on the site.',
+                link: { label: 'MANE Coffee', href: 'https://www.mane.coffee/' },
+              },
+              {
+                name: 'Subculture Coffee',
+                area: 'Mizner Park',
+                body: "The Mizner Park option, and a useful one because it **roasts in house daily** and stays open into the evening — so it works before a show as well as at eight in the morning.\n\nThe pastry case leans local, with vegan and homemade cakes called out by the shop itself.",
+                bestFor: ['Coffee in Mizner Park', 'Before a show', 'Vegan options'],
+                note: 'Later closing than most Boca cafés, which makes it the pre-amphitheater stop.',
+                link: { label: 'Subculture Coffee Boca', href: 'https://sub-culture.org/boca-coffee/' },
+              },
+            ],
+          },
+          {
+            id: 'casual-and-family-friendly',
+            title: 'Casual and family-friendly',
+            intro: "The everyday end. Boca's casual scene is thinner on character than its size suggests, but it is deep on practicality.",
+            image: {
+              src: '/images/boca-raton/boca-cafe-table-hedge.webp',
+              width: 1600,
+              height: 900,
+              alt: 'An outdoor café table with two cups of coffee, rattan bistro chairs and a clipped green hedge behind',
+              credit: 'Photo by Philip Flores / Unsplash — illustrative, not a specific venue',
+            },
+            places: [
+              {
+                name: "Gary Rack's Farmhouse Kitchen",
+                area: 'Royal Palm Place',
+                body: "The walkable everyday option downtown, built on **\"locally sourced, seasonal menus\"** with patio tables and daytime weekend hours.\n\nIt's the rare Boca room that works for a quick weeknight dinner and for a long weekend breakfast without changing register.",
+                bestFor: ['A weeknight dinner', 'Weekend breakfast', 'Patio tables'],
+                note: 'The Delray location is temporarily closed for renovation; the Boca Raton one remains open, per the restaurant.',
+                link: { label: 'Farmhouse Kitchen Boca', href: 'https://farmhousekitchenboca.com/' },
+              },
+              {
+                name: "TooJay's Deli • Bakery • Restaurant",
+                area: 'West Boca, Yamato Road',
+                body: "The west-Boca weeknight answer, and a Florida institution rather than a national chain. The deli's own line is **\"Homestyle Comfort Food for the Whole Family\"**.\n\nThere's an in-house bakery, and breakfast runs all morning — useful in a part of the city where most options are attached to a shopping center.",
+                bestFor: ['Families', 'Breakfast', 'West Boca'],
+                note: 'A kids menu and catering are listed on the location page.',
+                link: { label: "TooJay's Boca Raton", href: 'https://www.toojays.com/locations/regency-courtyard/' },
+              },
+            ],
+          },
+          {
+            id: 'worth-the-drive',
+            title: 'Worth the drive: Delray and Fort Lauderdale',
+            intro: "Both cities are part of how people who care about food make Boca work. Delray for character and walkability, Fort Lauderdale for a bigger night.",
+            places: [
+              {
+                name: 'Deck 84',
+                area: 'Delray Beach, east end of Atlantic Avenue',
+                body: "The waterfront table Boca doesn't have. The restaurant calls itself **\"Delray Beach's favorite (and ONLY) waterfront dining destination for boaters\"**, on the Intracoastal at the end of Atlantic Avenue.\n\nCasual, dog-friendly, open since 2010, with live music on weekends — it's the easiest first stop if you're testing whether Delray suits you better than Boca.",
+                bestFor: ['Waterfront', 'Arriving by boat', 'Dogs'],
+                note: 'The restaurant lists 140 feet of dock, tie-off only with no slips, first come first served.',
+                link: { label: 'Deck 84', href: 'https://www.deck84.com/' },
+              },
+              {
+                name: "Elisabetta's Ristorante",
+                area: 'Delray Beach, Atlantic Avenue',
+                body: "The destination dinner on the Avenue, and a scratch kitchen by design: chef Lisabet Summa's explanation for making everything in house is that **\"we had to make these things ourselves\"** to get the Italian food she wanted.\n\nA daily aperitivo hour and weekend brunch make it flexible for a trip up from Boca.",
+                bestFor: ['A night on Atlantic Avenue', 'Italian', 'Brunch'],
+                note: 'Valet is available and reservations run through OpenTable.',
+                link: { label: "Elisabetta's Delray Beach", href: 'https://www.elisabettas.com/delray' },
+              },
+              {
+                name: 'Casa Sensei',
+                area: 'Fort Lauderdale, East Las Olas Boulevard',
+                body: "The bigger night out, half an hour south. Pan-Asian and Latin cooking on the New River, with an omakase sushi bar and **gondola dining on the water** — the sort of set piece Boca's dining districts don't attempt.",
+                bestFor: ['A special occasion', 'Waterfront Las Olas', 'Sushi'],
+                note: 'Reservations by OpenTable or phone; weekend brunch is listed.',
+                link: { label: 'Casa Sensei', href: 'https://www.casasensei.com/' },
+              },
+            ],
+          },
+        ],
+      },
+    },
+    body: `## Where the places are: Boca's dining districts
 
-Here's the local rundown, organized by what you're actually doing.
+Four clusters carry nearly all of it, and knowing which is which saves a lot of driving.
 
-## Mizner Park
+### Mizner Park
 
-The polished heart of it, and the default answer for a nice evening out.
+The polished heart, and the default answer for a nice evening out.
 
-Open-air restaurants and cafés arranged around a central green, with the art museum at one end and an amphitheater hosting concerts and events. The appeal is the setting as much as any individual restaurant — you can park once, eat outside, walk to a show, and not deal with a car again until you leave.
+Open-air restaurants and cafés sit around a central green, with the Boca Raton Museum of Art at the north end and the city-run amphitheater beside it. That combination — park once, eat outside, walk to a show — is rarer in Boca than you'd expect, which is why the district carries so much of the city's social weight.
 
-That combination is rarer in Boca than you'd expect, which is why Mizner Park carries so much of the city's social weight.
+Parking is free in Mizner Park's four garages, with paid valet at the fountain. On concert nights the garages fill, and the City points people to free parking at City Hall on West Palmetto Park Road.
 
-## Royal Palm Place
+### Royal Palm Place
 
 The other walkable district, and the one locals often prefer.
 
-A downtown cluster of restaurants, lounges, and bars with a somewhat livelier, less curated feel than Mizner Park. It's where a lot of the city's actual nightlife happens, to the extent Boca has nightlife, and it skews slightly younger and later.
+The district describes itself as fourteen acres with more than twenty restaurants alongside boutiques and residences. It feels livelier and less curated than Mizner Park, and it's where more of the city's nightlife actually happens.
 
-## Downtown Boca and the Town Center corridor
+### Downtown
 
-Downtown adds steakhouses, chef-driven rooms, and upscale casual options beyond the two named districts. Out west, the **Town Center** corridor along Glades Road carries a heavy concentration of chain and larger-format restaurants — convenient, predictable, and where a lot of west Boca residents actually eat on a weeknight.
+East Palmetto Park Road and the streets around it add the chef-driven rooms and the Italian restaurants that don't sit inside either named district. It's the part of Boca that rewards walking a block off the obvious.
 
-That east/west dining split mirrors the city's housing split almost exactly.
+### The Glades Road corridor
 
-## The club dining factor
+Out west, Town Center at Boca Raton carries a heavy concentration of larger-format and chain restaurants, convenient and predictable, and the steakhouses sit along the same road. It's where a lot of west Boca residents actually eat on a weeknight.
 
-Worth naming, because it changes the calculus for a large share of Boca residents.
+That east/west split mirrors the city's housing split almost exactly, and which side you buy on will shape your everyday options more than any single recommendation.
 
-If you buy into a golf-and-country-club community, you likely have a **food and beverage minimum** — an annual amount you're required to spend at club dining. That means a meaningful portion of your restaurant budget is already committed before you choose anywhere else.
+## Living here changes how you eat out
 
-Practically, club residents eat at the club more than they expected to, and that's by design. Factor it in when you're assessing whether Boca's restaurant scene will actually be part of your life.
+Worth naming, because it changes the math for a large share of Boca residents.
+
+> If you buy into a golf-and-country-club community, you likely have a food and beverage minimum — an annual amount you're required to spend at club dining. A meaningful part of your restaurant budget is committed before you choose anywhere else.
+
+Practically, club residents eat at the club more than they expected to, and that's by design. Factor it in when you're judging whether Boca's restaurant scene will really be part of your life — and ask for the current minimum in writing, in the community you're considering, since it varies club to club.
 
 ## The casual end is thinner than you'd expect
 
-An honest limitation. For a city this size and this affluent, the genuinely casual, cheap, characterful end of the market is underrepresented — the sort of scruffy neighborhood institution that West Palm Beach and Delray both have in quantity.
+An honest limitation. For a city this size and this affluent, the genuinely casual, cheap, characterful end is underrepresented — the scruffy neighborhood institution that West Palm Beach and Delray both have in quantity.
 
-Boca skews polished, and if what you want is a great inexpensive local spot with no dress code and no reservation, you'll be driving to Delray more often than you planned.
+Boca skews polished. If what you want is an inexpensive local spot with no dress code and no reservation, you'll be driving to Delray more often than you planned, which is why three of the twelve places above aren't in Boca at all.
 
-## Where residents go instead
+## Good to know
 
-**Delray Beach**, fifteen minutes north, is the release valve. Atlantic Avenue has more density, more variety, and considerably more character per block, and a lot of Boca residents treat it as an extension of their own dining options.
-
-**Fort Lauderdale**, about thirty minutes south, is the bigger night out — Las Olas and a genuinely urban restaurant scene.
-
-Treating both as part of your range is how people who care about food make Boca work.
-
-## How season changes things
-
-**November through April**, the popular rooms need reservations they don't need in summer, and Glades Road makes getting anywhere slower. Residents shift to weeknights.
-
-**May through October** everything relaxes considerably. Walk-ins become realistic again, and locals consistently name summer dining as one of the quiet advantages of living here year-round.
-
-## Coffee and the daytime scene
-
-Better than the nightlife reputation suggests, and more useful to most residents.
-
-Mizner Park, downtown, and the Royal Palm area all carry cafés that work for a laptop or a long conversation, and the Glades corridor has the reliable chains. For a city where a lot of people work from home or run their own business, the daytime coffee scene is a real amenity and one of the easier ways to establish a routine somewhere new.
-
-## Eating with children
-
-Boca handles this well — the casual end may be thin on character, but it's deep on practicality, and most of the larger restaurants along the Glades corridor and around Town Center are set up for it.
-
-Sugar Sand Park and the beach parks both pair naturally with a casual meal afterward, which is how a lot of local weekends actually run.
-
-## Practical local advice
-
-- **Reservations in season**, always, at anywhere popular.
-- **Mizner Park parking** is structured and straightforward, which is a genuine advantage over street-parking districts elsewhere.
-- **Dress code is real** at the higher-end rooms in a way it isn't in most of the county. Boca dresses up for dinner.
-- **Lunch is easier than dinner** during season at the busier places.
-- **Check hours between season and summer** — some places reduce hours in the slowest months.
-
-## Breakfast
-
-Underrated in a city that skews toward dinner. The cafés around Mizner Park and downtown handle a proper sit-down breakfast well, and the beach parks pair naturally with something casual beforehand.
-
-For a city where a lot of residents are retired or self-employed, a good breakfast routine ends up mattering more than the nightlife does.
-
-## Where residents actually eat on a weeknight
-
-Worth separating from the destination districts, because it's the honest picture of daily life here.
-
-East of I-95, that means the neighborhood spots scattered through downtown and along the coastal corridor. West of the Turnpike, it means the retail centers attached to each large community and the concentration along Glades Road — convenient, predictable, and where most west Boca households actually eat when nobody wants to think about it.
-
-The east/west dining split mirrors the housing split almost exactly, and which side you buy on will shape your everyday options more than any individual restaurant recommendation.
+- [ ] **Reserve in season.** November through April, the popular rooms need reservations they don't need in summer. May through October, walk-ins become realistic again — locals count summer dining as a quiet advantage of living here year-round.
+- [ ] **Check hours between season and summer.** Some kitchens cut back in the slowest months, and a few close for a stretch entirely.
+- [ ] **Park once in Mizner Park.** Free garages beat street-parking districts; on concert nights, use City Hall instead.
+- [ ] **Dress up for the higher-end rooms.** This is our own read rather than a posted rule, but Boca dresses for dinner more than its neighbors do.
+- [ ] **Lunch is easier than dinner** at the busier places during season.
+- [ ] **Pair a casual meal with a park.** Sugar Sand Park — Beach and Park District-owned, city-run, with a science playground, the Children's Science Explorium and a carousel — and the beach parks both work for this, which is how a lot of local weekends run.
 
 ## The bottom line
 
-Mizner Park for a polished evening with something to do attached. Royal Palm Place when you want more energy. The Glades corridor for a weeknight that doesn't require thinking about it.
+Mizner Park for a polished evening with something to do attached. Royal Palm Place when you want more energy. The Glades corridor for a weeknight that doesn't require thinking about it. Delray when you want the thing Boca doesn't really do.
 
-And Delray when you want the thing Boca doesn't really do. Hours, menus, and ownership change — check directly before you go.`,
+Everything above was checked against each venue's own website or current listing on the date shown in the guide. Hours, menus and ownership change — confirm directly before you go.`,
     faqs: [
-      { q: "Where are the best places to eat in Boca Raton?", a: "Mizner Park is the polished default — open-air restaurants around a central green with the art museum and amphitheater attached. Royal Palm Place is the livelier walkable district where more of the nightlife happens. Downtown adds steakhouses and chef-driven rooms, and the Town Center corridor on Glades Road carries chain and larger-format options." },
-      { q: "What is Royal Palm Place?", a: "A walkable downtown Boca Raton district of restaurants, lounges, and bars with a livelier, less curated feel than Mizner Park. It's where much of the city's nightlife happens and it skews slightly younger and later." },
-      { q: "Does Boca Raton have good casual restaurants?", a: "The casual, inexpensive, characterful end is thinner than you'd expect for a city this size — Boca skews polished. Residents wanting that regularly drive fifteen minutes north to Delray Beach, which has considerably more of it." },
-      { q: "How do club food and beverage minimums work in Boca Raton?", a: "Many golf-and-country-club communities require members to spend a set amount annually at club dining. That commits a meaningful portion of your restaurant budget before you choose anywhere else, and club residents typically eat at the club more than they expected to." },
-      { q: "Do you need reservations in Boca Raton?", a: "During season, roughly November through April, yes at anywhere popular, and Glades Road traffic makes arriving on time harder. From May through October most places are walk-in friendly, which residents consider one of the quiet advantages of living here year-round." },
-      { q: "Is there a dress code at Boca Raton restaurants?", a: "At the higher-end rooms, more so than in most of Palm Beach County. Boca dresses up for dinner in a way neighboring cities generally don't." },
+      { q: "Where are the best places to eat in Boca Raton?", a: "It depends on the outing. For a polished evening, Max's Grille in Mizner Park calls itself the only original Mizner Park restaurant, and Louie Bossi's downtown has a piazza with a fire pit and a bocce court. Abe & Louie's on Glades Road is the classic steakhouse. For live music, The Funky Biscuit in Royal Palm Place runs shows most nights. We check each venue against its own website before publishing, and the guide shows the date it was last reviewed." },
+      { q: "What is Royal Palm Place?", a: "A walkable downtown Boca Raton district that describes itself as fourteen acres with more than twenty restaurants, alongside boutiques and residences. It feels livelier and less curated than Mizner Park, and it's where more of the city's nightlife happens — The Funky Biscuit and Gary Rack's Farmhouse Kitchen are both there." },
+      { q: "Does Boca Raton have good casual restaurants?", a: "The casual, inexpensive, characterful end is thinner than you'd expect for a city this size, because Boca skews polished. It is deep on practicality, though: Gary Rack's Farmhouse Kitchen in Royal Palm Place and TooJay's in west Boca both cover the everyday end. Residents who want more character regularly drive north to Delray Beach." },
+      { q: "Where should I get coffee in Boca Raton?", a: "MANE Coffee on Spanish River Boulevard was started by a Boca Raton native and bakes its bread and toast in house, with a rotating pour-over list from guest roasters. Subculture Coffee in Mizner Park roasts in house daily and stays open into the evening, which makes it the stop before a show at the amphitheater." },
+      { q: "How do club food and beverage minimums work in Boca Raton?", a: "Many golf-and-country-club communities require members to spend a set amount annually at club dining. That commits a meaningful portion of your restaurant budget before you choose anywhere else, and club residents typically eat at the club more than they expected to. Minimums vary between clubs, so ask for the current figure in writing for the community you're considering." },
+      { q: "Do you need reservations in Boca Raton?", a: "During season, roughly November through April, yes at anywhere popular, and traffic on Glades Road makes arriving on time harder. From May through October most places are walk-in friendly, which residents consider one of the quiet advantages of living here year-round. Hours can also be shorter in the slowest summer months, so check before you drive." },
+      { q: "Is it worth driving to Delray Beach or Fort Lauderdale to eat?", a: "Often, yes, and plenty of Boca residents treat both as part of their range. Atlantic Avenue in Delray has more density and more character per block — Deck 84 on the Intracoastal and Elisabetta's on the Avenue are the easy first stops. Fort Lauderdale is the bigger night out, with places like Casa Sensei on the New River off Las Olas." },
     ],
     internalLinks: ["best-things-to-do-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "hidden-gems-in-boca-raton-florida"],
-    funFact: "Mizner Park in Boca Raton was one of the first purpose-built mixed-use town centers in the US when it opened in 1990 — the developer literally had to invent the zoning category. The amphitheater there has hosted free concerts since opening day, and on a warm season night it's one of the most pleasant public spaces in South Florida.",
+    funFact: "Mizner Park opened in January 1991 on the site of the failed Boca Mall, built as a partnership between a private developer and the city's Community Redevelopment Agency, and it's still cited as an early example of a purpose-built mixed-use town center. The amphitheater came later, in 2002, and the City has owned and run it since 2010 — which is why its own summer concert series and holiday events are free while touring shows are ticketed.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-17',
   },
   {
     slug: 'boca-raton-downtown-civic-area-memorial-park-master-plan',
