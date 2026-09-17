@@ -140,9 +140,13 @@ export function buildLeadNote(sub: LeadSubmission): string {
       ? `Downloaded "${magnet.title}" (${sub.magnetEdition ?? magnet.edition} edition, id ${magnet.id}) from doyouneedahome.com.`
       : null,
     // These leads are submitted with no assignedTo, so Follow Up Boss's own
-    // lead distribution picks the agent. Whoever it lands on is the one who
-    // calls — said here because the record itself names no agent.
-    'In rotation — call this lead.',
+    // lead distribution picks the agent. Whoever it lands on works the lead —
+    // said here because the record itself names no agent. Never say "call"
+    // when the visitor declined call/text consent; the tag and the consent
+    // line below say so too, but this line is the one read first.
+    sub.phoneConsent === false || !sub.phone
+      ? 'In rotation — reach out by email.'
+      : 'In rotation — call this lead.',
     sub.interest ? `Primarily interested in: ${sub.interest}.` : null,
     sub.phone ? 'Phone was provided.' : 'Phone was not provided.',
     magnet ? `Lead magnet landing page: ${SITE_URL}${magnet.landingPage}` : null,
