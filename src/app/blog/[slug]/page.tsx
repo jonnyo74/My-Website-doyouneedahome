@@ -12,6 +12,7 @@ import {
 import { WORKSHEET_HEADING, WORKSHEET_HEADING_ID } from '@/lib/carryingCost'
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import KeyFactors from '@/components/article/KeyFactors'
+import DiscoveryGuide from '@/components/article/DiscoveryGuide'
 import { getCommunityBySlug } from '@/lib/communities'
 import Prose from '@/components/Prose'
 import CitySearchButtons from '@/components/CitySearchButtons'
@@ -136,7 +137,9 @@ export default async function ArticlePage({ params }: Props) {
   // get a Treasure Coast offer, relocation articles get the decision guide, and
   // condo-building articles get the due-diligence checklist.
   const magnetSelection = selectMagnetForArticle(article)
-  const bodyParts = splitBodyForInlineCta(article.body)
+  // An article that places its magnet CTA explicitly never also gets the
+  // automatic mid-body one.
+  const bodyParts = article.editorial?.magnetPlacement ? null : splitBodyForInlineCta(article.body)
 
   // Editorial layout is opt-in per article, and needs the wide hero's
   // intrinsic size to art-direct it — without that, fall back to the standard hero.
@@ -300,6 +303,7 @@ export default async function ArticlePage({ params }: Props) {
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
         {editorial?.keyFactors && <KeyFactors data={editorial.keyFactors} />}
         {editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
+        {editorial?.guide && <DiscoveryGuide guide={editorial.guide} />}
 
         <div className="relative">
           {sections.length > 0 && <ArticleToc sections={sections} />}
@@ -342,6 +346,11 @@ export default async function ArticlePage({ params }: Props) {
         {/* Local expert note */}
         {article.funFact && article.author && (
           <LocalExpertNote author={article.author} funFact={article.funFact} />
+        )}
+
+        {/* Report CTA moved out of the reading flow, for articles that ask. */}
+        {editorial?.magnetPlacement === 'after-expert-note' && (
+          <LeadMagnetCTA selection={magnetSelection} variant="inline" pageCategory="blog" className="mt-10" />
         )}
 
         {/* Market trends — omitted where Ylopo has no single-family data for the
@@ -416,7 +425,7 @@ export default async function ArticlePage({ params }: Props) {
               {editorial.closingStep.cta.label}
             </Link>
           </div>
-        ) : (
+        ) : editorial?.magnetPlacement ? null : (
           <div className="mt-12">
             <LeadMagnetCTA
               selection={magnetSelection}

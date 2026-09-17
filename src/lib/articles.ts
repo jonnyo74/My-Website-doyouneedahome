@@ -21,6 +21,24 @@ export interface ArticleLink {
  * byline and two CTAs, plus optional quick-fit and table-of-contents modules.
  * Articles without it render the standard hero and flow, unchanged.
  */
+export interface GuidePlace {
+  name: string
+  /** Why it is worth the detour. Paragraphs, inline markdown allowed. */
+  body: string
+  bestFor: string[]
+  /** Practical note — only details that can be verified, or a pointer to the source. */
+  note?: string
+  /** Official page for the place. External links open in a new tab. */
+  link?: ArticleLink
+  image?: { src: string; width: number; height: number; alt: string; credit?: string }
+}
+
+export interface ArticleGuide {
+  heading: string
+  intro?: string
+  categories: Array<{ id: string; title: string; intro?: string; places: GuidePlace[] }>
+}
+
 export interface ArticleEditorial {
   eyebrow: string
   deck: string                // shown in the hero, so the body must not repeat it
@@ -53,6 +71,13 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: { kind: 'carrying-cost-worksheet'; beforeSection: string }
+  // Structured discovery guide rendered above the body: a jump-link nav, then
+  // one H2 per category and one H3 per place. Places carry optional practical
+  // notes and official links, so no current-condition detail has to live in prose.
+  guide?: ArticleGuide
+  // "after-expert-note" moves the lead-magnet CTA out of the reading flow to sit
+  // under the Local Expert Note, and drops the end-of-article repeat.
+  magnetPlacement?: 'after-expert-note'
   // Stands in for the end-of-article lead-magnet CTA, which otherwise repeats
   // the inline offer word for word a few screens later.
   closingStep?: { eyebrow: string; text: string; cta: ArticleLink }
@@ -4800,112 +4825,196 @@ What decides whether it works for you isn't the list price — it's the club. Ge
     order: 8,
     seoTitle: "Hidden Gems in Boca Raton, Florida",
     metaTitle: "Hidden Gems in Boca Raton, Florida",
-    metaDescription: "Beyond Mizner Park — local hidden gems in Boca Raton, Florida, from Gumbo Limbo and Spanish River's canopy walkway to historic Old Floresta.",
+    metaDescription: "Beyond Mizner Park — local hidden gems in Boca Raton, Florida, from Gumbo Limbo and the tunnels at Spanish River Park to historic Old Floresta.",
     primaryKeyword: "hidden gems in Boca Raton Florida",
-    secondaryKeywords: ["Boca Raton secret spots", "free things to do in Boca Raton", "Spanish River Park"],
+    secondaryKeywords: ["Boca Raton secret spots", "things locals do in Boca Raton", "free things to do in Boca Raton", "Spanish River Park", "Gumbo Limbo Nature Center"],
     h1: "Hidden Gems in Boca Raton, Florida",
-    body: `Boca's polish is the first thing you notice and the least interesting thing about it. Behind the manicured medians and the Mediterranean stucco, the city holds genuine nature, real history, and a handful of places locals guard quietly.
+    heroImage: '/images/boca-raton/boca-raton-quiet-shoreline-wide.webp',
+    heroImageAlt: 'Aerial view of a quiet stretch of beach, with a dune line and dense coastal hammock between the sand and low-rise condominium buildings',
+    heroImageCredit: 'Photo by Nigel Sarrag / Unsplash',
+    heroImageWidth: 2400,
+    heroImageHeight: 1200,
+    editorial: {
+      eyebrow: "A Local's Guide to Boca Raton",
+      deck: "Boca's polish is the first thing you notice — and the least interesting. Underneath are genuine nature, real history, and places locals return to.",
+      mobileImage: { src: '/images/boca-raton/boca-raton-quiet-shoreline-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Boca Raton Neighborhoods', href: '/communities/boca-raton' },
+      secondaryCta: { label: 'See the Local Guide', href: '/blog/local-guide-to-boca-raton-florida' },
+      guide: {
+        heading: "Choose your Boca",
+        intro: "Here's what's worth finding, grouped by the kind of afternoon you're after.",
+        categories: [
+          {
+            id: "nature-and-water",
+            title: "Nature & Water",
+            places: [
+              {
+                name: "Spanish River Park: the lagoon side and the tunnels to the beach",
+                body: "One of the easiest discoveries in Boca, and it's in plain sight.\n\nSpanish River is a large City beach park with a lagoon, a nature trail, and a bird observation area on its inland side — and **tunnels running underneath A1A** that connect those shaded picnic grounds to the beach.\n\nThat means you can start under the trees, walk under the highway, and come out on the sand without crossing traffic. It's an easy part of the park to overlook if you only know the beach entrances.",
+                bestFor: ["A shaded half day", "Families", "Newcomers"],
+                note: "At least one tunnel has been closed for maintenance. Check the City's improvements and closures list before you plan a route with a stroller or a cooler.",
+                link: {
+                  label: "City of Boca Raton: Spanish River Park",
+                  href: "https://www.myboca.us/facilities/facility/details/Spanish-River-Park-55",
+                },
+              },
+              {
+                name: "Gumbo Limbo Nature Center",
+                body: "A City-operated coastal and marine education center on the barrier island, and the best short introduction to what this coastline actually is.\n\nThe draw is the **boardwalk through tropical hardwood hammock** — gumbo limbo, strangler fig, and cabbage palm — leading to Jacob's Outlook, a 40-foot observation tower with a view across the barrier island to the Intracoastal. There are outdoor marine aquariums and a butterfly garden as well.",
+                bestFor: ["Nature", "Families", "A first visit"],
+                note: "General admission is free. On-site parking is limited, and outdoor areas close when lightning threatens — confirm current hours, programs, and any closures on the City's visitor page.",
+                link: {
+                  label: "City of Boca Raton: Gumbo Limbo visitor information",
+                  href: "https://myboca.us/2098/Plan-Your-Visit",
+                },
+              },
+              {
+                name: "Daggerwing Nature Center",
+                body: "The ecological opposite of the beach parks. Daggerwing is a Palm Beach County nature center inside Burt Aaronson South County Regional Park, west of the City, with an **elevated boardwalk through swamp habitat** that splits into two trails.\n\nIt's a completely different Boca from the coast — the County lists ospreys, woodpeckers, turtles, and alligators among the wildlife — and a good counterweight to a morning on the sand.",
+                bestFor: ["Nature", "A quiet morning", "Families"],
+                note: "The boardwalk is generally open sunrise to sunset; the nature center building keeps shorter hours. In the warmer months, earlier in the day is more comfortable. Check the County's page for current hours and closures.",
+                link: {
+                  label: "Palm Beach County: Daggerwing Nature Center",
+                  href: "https://discover.pbc.gov/parks/pages/daggerwing.aspx",
+                },
+              },
+              {
+                name: "The Red Reef Park snorkel trail",
+                body: "Worth singling out from the park itself. The City describes a **snorkel trail with a jetty and 20 artificial reefs** just offshore — reachable from the beach rather than by boat.",
+                bestFor: ["Confident swimmers", "Families with older kids", "A calm-water day"],
+                note: "This is open-ocean swimming, and conditions change day to day. Check the City's beach conditions and lifeguard coverage before you go in, and sit it out when the surf is up.",
+                link: {
+                  label: "City of Boca Raton: Red Reef Park",
+                  href: "https://www.myboca.us/facilities/facility/details/redreefpark-49",
+                },
+              },
+              {
+                name: "The quieter stretches of shoreline",
+                body: "Boca's coastline runs longer than its three named City beach parks suggest, and the sand between and beyond them tends to be less busy than the main entrances.\n\nResidents who find a stretch that works for them often stop defaulting to the main lots.",
+                bestFor: ["A low-key beach morning", "Walkers"],
+                note: "Not every stretch of sand has public access, and parking rules differ between permit and metered spaces. Check the City's beaches page for designated access and parking before you go.",
+                link: {
+                  label: "City of Boca Raton: beach parks and current conditions",
+                  href: "https://www.myboca.us/2462/Beaches",
+                },
+              },
+              {
+                name: "Lake Boca and the inlet",
+                body: "The stretch where the Intracoastal widens near the inlet is where a lot of the city's weekend boating life gathers — a scene many residents who don't own a boat never see.\n\nYou don't need a boat to appreciate the inlet itself. South Inlet Park, on the ocean side, has a jetty that makes a good spot to watch boat traffic move between the Intracoastal and the ocean.",
+                bestFor: ["A short stop", "Boat watchers", "Newcomers"],
+                note: "South Inlet Park is run by Palm Beach County, not the City, with its own rules and notices — check its page before you visit.",
+                link: {
+                  label: "Palm Beach County: South Inlet Park",
+                  href: "https://discover.pbc.gov/parks/Locations/South-Inlet.aspx",
+                },
+              },
+            ],
+          },
+          {
+            id: "art-history-and-architecture",
+            title: "Art, History & Architecture",
+            places: [
+              {
+                name: "The art museum inside the shopping district",
+                body: "Easy to underestimate purely because of where it sits.\n\nBeing inside Mizner Park gets the **Boca Raton Museum of Art** filed mentally as a retail amenity. It isn't — the permanent collection and rotating exhibitions would draw attention if the building stood alone on a street corner somewhere else, and an art school shares the same creative campus.",
+                bestFor: ["Culture", "A hot or rainy afternoon", "Visitors"],
+                note: "Exhibitions, hours, and ticketing change through the year — check the museum before you plan around a show.",
+                link: {
+                  label: "Boca Raton Museum of Art",
+                  href: "https://www.bocamuseum.org/",
+                },
+              },
+              {
+                name: "The Boca Raton's 1920s architecture",
+                body: "The resort now called **The Boca Raton** opened in 1926 as the Cloister Inn, associated with the architect Addison Mizner, and it is the clearest surviving expression of what the city's 1920s founders were building toward.\n\nUnderstanding it explains why so much of Boca looks the way it does. For anyone trying to make sense of the city's aesthetic rules, this is the source document.",
+                bestFor: ["Architecture and history", "Newcomers making sense of Boca"],
+                note: "Much of the property is reserved for hotel guests and members, so treat it as context for the city rather than an open attraction.",
+                link: {
+                  label: "The Boca Raton: the resort's 1926 history",
+                  href: "https://www.thebocaraton.com/centennial/",
+                },
+              },
+              {
+                name: "Old Floresta on foot",
+                body: "Worth walking even if you'll never buy there. Old Floresta became Boca Raton's first historic district in 1990, and its 1920s Mediterranean-style houses — rough stucco, wrought iron, barrel tile — sit along narrow, tree-lined streets.\n\nA slow loop there is the clearest explanation available of what much of the rest of the city is imitating. Twenty minutes tells you more about why Boca looks the way it does than anything you'll read.",
+                bestFor: ["A slow walk", "Architecture", "Buyers curious about historic homes"],
+                note: "It's a residential neighborhood, so stick to public streets and sidewalks. Exterior work on homes in the district requires a City Certificate of Appropriateness.",
+                link: {
+                  label: "City of Boca Raton: Historic Preservation Board",
+                  href: "https://www.myboca.us/577/Historic-Preservation-Board",
+                },
+              },
+            ],
+          },
+          {
+            id: "local-life-and-community",
+            title: "Local Life & Community",
+            places: [
+              {
+                name: "FAU's public programming",
+                body: "Florida Atlantic University runs lectures, performances, galleries, and athletics, and much of it is open to the public — a calendar many residents without a student in the family never look at.\n\nIn a city where a lot of social life happens behind gates, it's one of the more accessible ways to plug into something.",
+                bestFor: ["Culture", "Meeting people", "Newcomers"],
+                note: "Ticketing and public access vary by event.",
+                link: {
+                  label: "FAU Boca Raton events calendar",
+                  href: "https://calendar.fau.edu/group/bocaraton/calendar",
+                },
+              },
+              {
+                name: "The public racquet courts",
+                body: "An unglamorous entry that solves a real problem. In a city where much of the social infrastructure sits behind club gates, the public tennis and pickleball facilities are one of the few genuinely open routes into meeting people.\n\nFor a new resident who hasn't bought into a club community, they may be the most useful thing on this page.",
+                bestFor: ["Meeting people", "Active newcomers"],
+                note: "The Boca Raton Tennis Center has clay courts and does not offer pickleball; the City points pickleball and hard-court players to Patch Reef Paddle & Racquet Club. Both take reservations — check each facility’s booking rules.",
+                link: {
+                  label: "City of Boca Raton: Tennis Center",
+                  href: "https://www.myboca.us/2546/Boca-Raton-Tennis-Center",
+                },
+              },
+              {
+                name: "The green markets and seasonal events",
+                body: "Boca runs seasonal markets and community events through the cooler months, mostly aimed at residents rather than visitors.\n\nFor newcomers they're one of the more reliable ways to meet people outside a club, and they're easy to miss — the City calendar is worth checking monthly rather than waiting to hear about things.",
+                bestFor: ["A low-key weekend morning", "Meeting neighbors", "Families"],
+                note: "Days, locations, and seasons change from year to year — confirm before you go.",
+                link: {
+                  label: "City of Boca Raton: events calendar",
+                  href: "https://myboca.us/calendar.aspx",
+                },
+              },
+            ],
+          },
+        ],
+      },
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `## A first weekend in Boca
 
-Here's what's worth finding.
+Three stops, all from this guide — one of each kind.
 
-## The Spanish River Park canopy walkway and beach tunnels
-
-The single best-kept secret in Boca, and it's in plain sight.
-
-Spanish River Park has an **observation tower** and an elevated walkway that puts you up in the tree canopy — a rare vantage point in a flat state. More usefully, the park has **tunnels running underneath A1A** connecting the shaded inland picnic areas to the beach.
-
-That means you can park in deep shade, walk under the highway, and come out on a quieter stretch of sand than the main beach entrances. Residents use this constantly; visitors almost never find it.
-
-## Daggerwing Nature Center
-
-On the western edge of the city, a boardwalk through cypress swamp and wetland with a small nature center.
-
-It's the ecological opposite of the beach parks, it's free, and it's usually near-empty. Boca's western boundary backs onto genuine Everglades-system habitat, and this is the most accessible way to see it without driving out to the refuge.
-
-Go early — the boardwalk has limited shade in stretches and Florida wetland in the afternoon is unpleasant.
-
-## The Red Reef snorkeling
-
-Worth listing separately from the park itself. A man-made reef sits close enough to shore that you can swim to it, which makes Boca one of very few places on this coast with genuinely accessible shore snorkeling.
-
-**Go at high tide with calm conditions**, wear water shoes for the rock, and check the surf before committing. When it's right, it's excellent. When the surf is up, don't.
-
-## The art museum inside the shopping district
-
-Consistently underestimated purely because of where it sits.
-
-Being inside Mizner Park gets it filed mentally as a retail amenity. It isn't — the permanent collection and rotating exhibitions would draw attention if the building stood alone on a street corner somewhere else, and the annual art fair it hosts pulls galleries from well beyond Florida.
-
-## The old Boca Raton Resort architecture
-
-The historic resort complex is the clearest surviving expression of what Addison Mizner and his successors were actually building toward in the 1920s.
-
-You don't need to be staying there to appreciate the exterior architecture and the setting, and understanding it explains why the entire city looks the way it does. For anyone trying to make sense of Boca's aesthetic rules, this is the source document.
-
-## The quieter stretches of the beach
-
-Boca's coastline runs longer than the three named parks suggest, and the sections between and beyond them are noticeably emptier. Access points vary and parking is the limiting factor, but residents who find the one nearest them stop going to the main lots entirely.
-
-## FAU's public programming
-
-The university runs lectures, performances, galleries, and athletics that are open to the public, often free or inexpensive, and largely unknown to residents who don't have a student in the family.
-
-For anyone looking to plug into something in a city where a lot of social life happens behind gates, this is one of the more accessible options available.
-
-## Lake Boca and the inlet
-
-The stretch of water where the Intracoastal widens near the inlet is where the city's boating life concentrates on a warm weekend — boats rafting up, people wading, and a scene most landlocked residents never see.
-
-You don't need a boat to appreciate the inlet itself, which is a good spot to watch traffic move between the Intracoastal and the ocean, and one of the more interesting free things to do in east Boca.
-
-## The public racquet courts
-
-An unglamorous entry that solves a real problem. In a city where much of the social infrastructure sits behind club gates, the public tennis and pickleball facilities are one of the few genuinely open routes into meeting people.
-
-They're well used, they're inexpensive, and for a new resident who hasn't bought into a club community they may be the most useful thing on this page.
-
-## The western wetland edge
-
-Beyond Daggerwing, the city's far western boundary sits against conservation land that connects into the larger Everglades system. It isn't developed for visitors the way the coastal parks are, which is precisely the appeal for people who want to walk somewhere genuinely quiet.
-
-## The A1A stretch between the parks
-
-Boca's coastal road runs longer than the three named beach parks suggest, and the sections between them are noticeably quieter. Parking is the limiting factor rather than access, which is precisely why they stay empty.
-
-Residents who find the pull-off nearest them stop using the main lots almost entirely.
-
-## Old Floresta on foot
-
-Worth walking even if you'll never buy there. It's one of the original Mizner-era neighborhoods, and a slow loop through its canopied streets is the clearest explanation available of what the rest of the city is imitating.
-
-Twenty minutes there tells you more about why Boca looks the way it does than anything you'll read.
-
-## The green markets and seasonal events
-
-Boca runs seasonal markets and community events through the cooler months, mostly aimed at residents rather than visitors and mostly free.
-
-For newcomers they're one of the few reliable ways to meet people outside a club, and they're consistently underpublicized — the city calendar is worth checking monthly rather than waiting to hear about things.
+- **Morning, nature:** Gumbo Limbo's hammock boardwalk and Jacob's Outlook, or Daggerwing's boardwalk if you'd rather head inland.
+- **Afternoon, culture or coast:** the Boca Raton Museum of Art at Mizner Park — or, if the weather's right, Spanish River's lagoon side and a walk through to the sand.
+- **Something low-key:** a slow loop through Old Floresta, then a seasonal market if one is running.
 
 ## Why these matter
 
 Boca gets dismissed as a shopping city with good weather. The dismissal is understandable from the main roads and completely wrong.
 
-The places on this list — a canopy walkway, a wetland boardwalk, a swimmable reef, a real art museum, and a university with an open calendar — are what make the city livable rather than just comfortable. Most of them are free.
+The places on this list — a lagoon-side park with tunnels to the beach, a hammock boardwalk and a wetland boardwalk, a reef trail you can reach from the sand, a real art museum, and a university with an open calendar — are what make the city livable rather than just comfortable.
 
 If you've just moved here and you're wondering whether Boca has anything underneath the polish, spend a morning at Spanish River and an afternoon at Daggerwing. That answers it.`,
     faqs: [
-      { q: "What are the hidden gems in Boca Raton?", a: "The canopy walkway and beach tunnels at Spanish River Park, the wetlands boardwalk at Daggerwing Nature Center, shore-accessible snorkeling at Red Reef Park, the Boca Raton Museum of Art at Mizner Park, the historic resort architecture, the quieter beach stretches between the main parks, and Florida Atlantic University's public programming." },
-      { q: "What are the tunnels at Spanish River Park?", a: "Tunnels running underneath A1A that connect the shaded inland picnic areas to the beach, letting you park in deep shade and emerge on a quieter stretch of sand than the main beach entrances. Residents use them constantly; visitors rarely find them." },
-      { q: "Can you snorkel from the beach in Boca Raton?", a: "Yes — Red Reef Park has a man-made reef close enough to shore to swim to, which is rare on this coast. Go at high tide in calm conditions, wear water shoes for the rock, and skip it when the surf is up." },
-      { q: "What is Daggerwing Nature Center?", a: "A free nature center on Boca Raton's western edge with a boardwalk through cypress swamp and wetland habitat. It's the ecological opposite of the beach parks, usually near-empty, and the most accessible way to see the Everglades-system habitat the city backs onto." },
-      { q: "Is the Boca Raton Museum of Art worth visiting?", a: "Yes, and it's consistently underestimated because it sits inside Mizner Park and gets mentally filed as a shopping-district amenity. It carries a real permanent collection and rotating exhibitions and stands on its own as a small museum." },
-      { q: "How can you get involved locally in Boca Raton?", a: "Florida Atlantic University's public programming — lectures, performances, galleries, and athletics, often free or inexpensive — is one of the more accessible options in a city where much social life happens inside gated communities and their clubs." },
+      { q: "What are the hidden gems in Boca Raton?", a: "Some of the less obvious places worth finding are Spanish River Park's lagoon side and the tunnels under A1A to the beach, Gumbo Limbo Nature Center's hammock boardwalk and observation tower, Daggerwing Nature Center's wetland boardwalk, the Red Reef Park snorkel trail, the Boca Raton Museum of Art at Mizner Park, a walk through the Old Floresta historic district, the inlet, and Florida Atlantic University's public programming." },
+      { q: "What are the tunnels at Spanish River Park?", a: "Tunnels running underneath A1A that connect the park's shaded inland picnic areas to the beach, so you can walk from the lagoon side to the sand without crossing traffic. At least one has been closed for maintenance, so check the City of Boca Raton's closures list before planning your route." },
+      { q: "Can you snorkel from the beach in Boca Raton?", a: "Red Reef Park has a snorkel trail that the City describes as a jetty and 20 artificial reefs just offshore, reachable from the beach. It's open-ocean swimming, so check the City's beach conditions and lifeguard coverage first, and skip it when the surf is up." },
+      { q: "What is Daggerwing Nature Center?", a: "A Palm Beach County nature center inside Burt Aaronson South County Regional Park, west of the City of Boca Raton, with an elevated boardwalk through swamp habitat. The boardwalk is generally open sunrise to sunset while the nature center building keeps shorter hours — check the County's page before visiting." },
+      { q: "Is the Boca Raton Museum of Art worth visiting?", a: "Yes. It's easy to underestimate because it sits inside Mizner Park, but it has a permanent collection, rotating exhibitions, and an art school on the same campus. Check the museum for current exhibitions and hours." },
+      { q: "How can you get involved locally in Boca Raton?", a: "Florida Atlantic University's public lectures, performances, galleries, and athletics, the City's public tennis and pickleball facilities, and seasonal markets and community events are some of the more accessible options in a city where much social life happens inside gated communities." },
     ],
     internalLinks: ["best-things-to-do-in-boca-raton-florida", "local-guide-to-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
-    funFact: "Gumbo Limbo Nature Center in Boca Raton sits on one of the last preserved coastal hammock habitats in Palm Beach County and doubles as a sea-turtle rehabilitation center. The center releases 100+ rehabilitated turtles annually and the behind-the-scenes turtle tanks are free to visit — most Boca residents have never been.",
+    funFact: "Gumbo Limbo's Jacob's Outlook is a 40-foot observation tower reached by an ADA-accessible switchback ramp, so the view across the barrier island to the Intracoastal is open to visitors who can't manage stairs.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-17',
   },
   {
     slug: 'boca-raton-vs-nearby-cities',

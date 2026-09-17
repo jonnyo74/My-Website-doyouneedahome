@@ -68,3 +68,24 @@ tables, a posted "No Diving" sign. Not a private home, which is why it suits an 
 obligations. ⚠️ The image looks like it may be an architectural rendering rather than a photograph (uniform
 lighting, pristine surfaces). Alt text describes the scene and does not call it a photo; confirm on Unsplash
 before describing it as photography anywhere.
+
+## Derived crops of `boca-oceanfront.jpg` for hidden-gems (added 2026-09-17)
+
+Crops of `public/public/Boca Raton/boca-oceanfront.jpg` (5472x3078; "Photo by Nigel Sarrag / Unsplash").
+Cut below the skyline and sky that the #3 and #4 heroes show, so the frame reads as quiet shoreline
+rather than an establishing aerial.
+
+- **boca-raton-quiet-shoreline-wide.webp** — 2400x1200 (2:1). Source region x1500 y1098, 3960x1980. Surf line,
+  beach, dune strip, dense coastal hammock, low-rise condominiums, a glimpse of the Intracoastal.
+  Desktop hero and the Open Graph / JSON-LD image (2:1 loses almost nothing to a 1.91:1 share card).
+- **boca-raton-quiet-shoreline-mobile.webp** — 1200x800 (3:2). Source region x2500 y1690, 2070x1380. Tighter on
+  the beach curve and the hammock.
+  Used on (both): `hidden-gems-in-boca-raton-florida`
+  Credit: Photo by Nigel Sarrag / Unsplash
+
+Alt text is location-neutral ("a quiet stretch of beach"), matching the convention set on
+`best-neighborhoods-in-boca-raton-florida`: nothing on record confirms the shot is Boca.
+
+**No supporting images were added to that article.** None of the approved assets show the places it
+features (Spanish River, Gumbo Limbo, Daggerwing, Red Reef, Old Floresta, the inlet). The guide component
+takes an optional `image` per place, so owned photos of those places can be added one line at a time.
