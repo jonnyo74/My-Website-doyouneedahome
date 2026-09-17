@@ -89,3 +89,16 @@ never names or implies a specific restaurant, and the supporting captions say "i
   Credit: Photo by Philip Flores / Unsplash. "Casual and family-friendly".
 
 Derived crops live in `public/images/boca-raton/` and are recorded in that folder's SOURCES.md.
+
+## Parking deck image (added 2026-09-17)
+
+- **boca-parking-deck.jpg** (3000x2001) — "Empty white concrete pillared parking lot" by Claudio Schwarz (@purzlbaum),
+  free to use under the [Unsplash License](https://unsplash.com/license) (checked on the photo page; not Unsplash+).
+  https://unsplash.com/photos/empty-white-concrete-pillared-parking-lot-fAmj2spOqxc
+  Credit: Photo by Claudio Schwarz / Unsplash. Used on: `boca-raton-downtown-parking-condo-buyers-guide`
+
+Chosen because it carries **no text of any kind** — no signage, plates, faces or branding — on a page about one
+city's parking rules. Two candidates were rejected first: the article's previous hero
+(`boca-raton-parking-garage.jpg`, still on disk) shows non-US road signs and architecture, and a second candidate
+had German "Lift" and "Ausfahrt" signage that survived every workable crop. It is **not** a Boca Raton facility:
+the alt text says "representative image" and a visible caption under the hero says so too.

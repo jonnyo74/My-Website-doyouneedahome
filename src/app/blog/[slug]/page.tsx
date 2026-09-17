@@ -16,6 +16,7 @@ import DiscoveryGuide from '@/components/article/DiscoveryGuide'
 import ComparisonShortlist from '@/components/article/ComparisonShortlist'
 import ComparisonGuide from '@/components/article/ComparisonGuide'
 import { ProjectStatusCard, ProjectTimeline, ProjectTracking } from '@/components/article/ProjectStatus'
+import ArticleChecklist from '@/components/article/ArticleChecklist'
 import { getCommunityBySlug } from '@/lib/communities'
 import Prose from '@/components/Prose'
 import CitySearchButtons from '@/components/CitySearchButtons'
@@ -314,6 +315,9 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* Comparison articles open with a full-width shortlist, wider than the reading column. */}
       {editorial?.comparison && <ComparisonShortlist comparison={editorial.comparison} />}
+
+      {/* Due-diligence articles lead with the thing a buyer should act on. */}
+      {editorial?.checklist && <ArticleChecklist data={editorial.checklist} />}
 
       {/* Civic projects lead with how mature the project actually is. */}
       {editorial?.civicProject && <ProjectStatusCard status={editorial.civicProject.status} />}

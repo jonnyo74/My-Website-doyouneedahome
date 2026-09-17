@@ -141,3 +141,15 @@ Same photo, same credit: "Empty skate park with ramps and rails" by Reinis Brūz
 built. The article's alt text says "used here as a representative image" and a visible caption under the hero
 says it is not the North Park design. Do not remove that caption while this photo is in use, and do not swap in
 the District's official renderings — the District's site asserts "All Rights Reserved" with no media-use terms.
+
+## Derived crops of boca-parking-deck.jpg (added 2026-09-17)
+
+Crops of `public/public/Boca Raton/boca-parking-deck.jpg` (see that folder's SOURCES.md for the licence record and
+why this photo replaced the previous parking hero).
+
+- **boca-parking-deck-wide.webp** — 2400x1200 (2:1), centred. Desktop hero and the Open Graph / JSON-LD image.
+- **boca-parking-deck-mobile.webp** — 1200x675 (16:9), centre 80%. The article opts into the 16:9 stacked hero.
+  Used on (both): `boca-raton-downtown-parking-condo-buyers-guide`
+
+`boca-raton-parking-garage.jpg` is no longer referenced by any article. Keep the caption in place while any
+representative parking photo is the hero.

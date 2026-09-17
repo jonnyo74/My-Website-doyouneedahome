@@ -115,6 +115,16 @@ export interface CivicProject {
   }
 }
 
+/** A printable, copyable due-diligence checklist rendered under the hero. */
+export interface ArticleChecklistData {
+  heading: string
+  intro?: string
+  items: Array<{ label: string; detail?: string }>
+  note?: string
+  /** Points at an existing lead magnet — never a competing one. */
+  cta?: ArticleLink
+}
+
 export interface ArticleEditorial {
   eyebrow: string
   deck: string                // shown in the hero, so the body must not repeat it
@@ -162,6 +172,9 @@ export interface ArticleEditorial {
   // Live civic project: status card under the hero, then a sourced timeline and
   // official tracking links after the body.
   civicProject?: CivicProject
+  // The action tool of a due-diligence article: a checklist under the hero,
+  // with copy and print affordances.
+  checklist?: ArticleChecklistData
   // "after-expert-note" moves the lead-magnet CTA out of the reading flow to sit
   // under the Local Expert Note, and drops the end-of-article repeat.
   magnetPlacement?: 'after-expert-note'
@@ -5890,90 +5903,223 @@ The honest position is still: watch it at the source, and don't assume a build d
     order: 13,
     seoTitle: 'Downtown Boca Raton Parking: What Condo Buyers Should Know',
     metaTitle: 'Downtown Boca Raton Parking Guide for Condo Buyers',
-    metaDescription: "How downtown Boca Raton's parking program works — 29-minute free parking, license agreements, and what the CRA's latest direction means for condo buyers.",
+    metaDescription: "What downtown Boca Raton's parking rules actually say — $2/hour meters, a four-hour limit, the 29-minute pilot — and the parking terms to confirm before you buy.",
     primaryKeyword: 'downtown Boca Raton parking',
-    secondaryKeywords: ['Boca Raton condo parking', 'Mizner Park parking', 'downtown Boca parking permits'],
+    secondaryKeywords: ['Boca Raton condo parking', 'downtown Boca Raton condo buyers', 'Boca Raton parking rules', '29-minute free parking Boca Raton'],
     h1: 'Downtown Boca Raton Parking: What Condo Buyers Should Know',
-    heroImage: '/images/boca-raton/boca-raton-parking-garage.jpg',
-    heroImageCredit: 'Photo by Jay Openiano / Unsplash',
-    body: `Downtown Boca Raton's parking policy shifted meaningfully at the same July 27–28, 2026 Council meeting that covered the Memorial Park master plan — and if you're shopping for a condo anywhere in the Mizner Park or Royal Palm Place corridor, the details are worth understanding before you tour your next unit.
+    // A representative parking deck: empty, unbranded, no plates, no signage.
+    // It is not a Boca facility and the caption says so.
+    heroImage: '/images/boca-raton/boca-parking-deck-wide.webp',
+    heroImageAlt: 'An empty multi-level concrete parking deck with white columns, used here as a representative image',
+    heroImageCaption: 'Representative image of a parking structure, not a downtown Boca Raton facility. Photo by Claudio Schwarz / Unsplash.',
+    heroImageCredit: 'Photo by Claudio Schwarz / Unsplash',
+    heroImageWidth: 2400,
+    heroImageHeight: 1200,
+    editorial: {
+      eyebrow: 'Condo Due Diligence',
+      deck: 'Public parking policy and the parking you actually buy are two different things.',
+      mobileImage: { src: '/images/boca-raton/boca-parking-deck-mobile.webp', width: 1200, height: 675 },
+      mobileAspect: '16/9',
+      primaryCta: { label: 'Get the Condo Buyer Due-Diligence Checklist', href: '/florida-condo-buyers-due-diligence-checklist' },
+      secondaryCta: { label: 'Jump to the parking checklist', href: '#article-checklist' },
+      magnetPlacement: 'after-expert-note',
+      checklist: {
+        heading: 'Before you offer: confirm these parking terms in writing',
+        intro:
+          "Parking terms vary between buildings on the same street, and a listing rarely spells them out. Get these answers from the association's governing documents — not from a listing sheet or a showing agent — before you write an offer.",
+        items: [
+          { label: 'How many spaces convey with the unit', detail: 'Stated in the deed or the purchase contract, not implied by the listing.' },
+          { label: 'Whether spaces are deeded or assigned', detail: 'A deeded space is property you own; an assignment can, in some buildings, be changed by the association.' },
+          { label: 'The exact space numbers and where they are', detail: 'Level, column, distance to the elevator, and whether the space is tandem, compact or oversized.' },
+          { label: 'Guest parking and overnight visitor rules', detail: 'Where guests park, who authorizes it, and what happens overnight. On-street metered spaces downtown carry a four-hour maximum with enforcement available 24 hours, and the free City lots post overnight prohibitions — so a guest cannot simply leave a car on the street.' },
+          { label: 'Waitlist, rental or purchase options for a second space', detail: 'Whether one is available at all, what it costs, and whether it conveys on resale.' },
+          { label: 'EV charging: availability, cost and approval', detail: 'Who owns the charger, who pays for the electricity, and what the association requires before you install one.' },
+          { label: 'Vehicle, commercial-vehicle and valet restrictions', detail: 'Size and height limits, pickup trucks, work vehicles, motorcycles, and whether valet is mandatory.' },
+          { label: 'Whether the building relies on a city or CRA license agreement', detail: 'Some downtown buildings license public spaces for valet stands or loading zones. Ask whether one exists, when it expires, and what the building does if it is not renewed.' },
+          { label: 'Current HOA parking rules and any recent changes', detail: 'Read the rules as they stand today, plus recent board minutes — parking rules change more often than declarations do.' },
+        ],
+        note: 'Posted signs, the association’s governing documents and any recorded parking assignment control for a specific space. Municipal policy sets the backdrop; it does not convey parking with a unit.',
+        cta: { label: 'Get the full condo due-diligence checklist', href: '/florida-condo-buyers-due-diligence-checklist' },
+      },
+      quickFit: {
+        heading: 'Two parking systems affect a downtown condo purchase',
+        fitHeading: 'Building parking — what you actually buy',
+        fit: [
+          'Spaces that convey with the unit, by deed or by assignment, in the numbers and locations the documents specify',
+          "Guest parking, EV charging and vehicle restrictions, set by the association's rules",
+          'Any off-site or licensed spaces the building depends on, which under the downtown ordinance must sit within 600 feet and be secured by a recorded instrument',
+          'This is the part that conveys, and the only part a purchase contract can guarantee',
+        ],
+        elsewhereHeading: 'Public parking — what the City controls',
+        elsewhere: [
+          'Metered on-street spaces, City lots and the Mizner Park garages, with rates set in the adopted fee schedule',
+          'Time limits and enforcement: a four-hour maximum, with enforcement available 24 hours a day',
+          'Pilot programs such as the 29-minute free rate, which can change at any meeting',
+          'This affects convenience, guests and the health of downtown retail — it does not add parking to your unit',
+        ],
+      },
+      civicProject: {
+        status: {
+          heading: 'Policy snapshot',
+          items: [
+            {
+              label: 'What the CRA reviewed',
+              value:
+                'On July 27, 2026 the Community Redevelopment Agency received a downtown parking overview and a follow-up on parking license agreement requests: current operations, revenue and enforcement figures, the eight active license agreements, and the pilot programs.',
+            },
+            {
+              label: 'What was decided',
+              value:
+                'Nothing. It was a presentation with no motion, vote or resolution. Staff recommended continuing to renew existing license agreements while limiting new ones to lower-utilization areas, but the CRA gave no direction on the record.',
+            },
+            {
+              label: 'Current rates',
+              value:
+                'Downtown City-owned metered spaces are $2.00 per hour under the user fee schedule effective October 1, 2025. All on-street spaces inside the CRA boundary are metered, with a four-hour maximum and enforcement available 24 hours a day.',
+            },
+            {
+              label: 'The 29-minute pilot',
+              value:
+                'Adopted by CRA consensus on November 18, 2024 as a three-month trial on NE 1st Avenue, and later extended to Boca Raton Road. It is still running, and it is still a pilot — no resolution has made it permanent, and it does not appear in the adopted fee schedule.',
+            },
+            {
+              label: 'How to pay',
+              value:
+                'The City uses ParkMobile on downtown meters, where the space number is the zone number. Some private garages, including The Mark at Cityscape and Royal Palm Place, use a different system.',
+            },
+          ],
+          unconfirmedLabel: 'Not supported by any current official source',
+          unconfirmed: [
+            'Different parking rules east versus west of Federal Highway. The adopted fee schedule sets one downtown rate, and the staff phrase about areas "mainly west of Federal Highway" applies only to where new license agreements might be granted.',
+            'Any downtown resident or condo parking permit program. None appears on the City parking pages or in the fee schedule.',
+            'New public parking supply downtown. No garage is in an adopted plan, and the Downtown Campus redevelopment failed at referendum in March 2026.',
+            'A published enforcement-hours window. The only official statement is that enforcement is available 24 hours a day.',
+            'Any City policy on condo guest parking or buildings using City garages for overflow — which is exactly why a building’s own documents are the answer.',
+          ],
+          lastVerified: '2026-09-17',
+          source: { label: "The City's parking page", href: 'https://www.myboca.us/209/Parking' },
+        },
+        timeline: {
+          heading: 'How the current policy got here',
+          intro: 'Only actions that appear in adopted minutes, an adopted fee schedule or an official City page.',
+          items: [
+            {
+              date: '2024-11-18',
+              dateLabel: 'November 18, 2024',
+              title: '29-minute free parking starts as a three-month trial',
+              text: 'The CRA reached consensus to try a 29-minute free rate on NE 1st Avenue — by consensus in a director’s report, not by resolution.',
+              source: { label: 'CRA minutes, November 18, 2024', href: 'https://bocaraton.granicus.com/MetaViewer.php?view_id=9&clip_id=2808&meta_id=208169' },
+            },
+            {
+              date: '2025-10-01',
+              dateLabel: 'October 1, 2025',
+              title: 'Current parking rates take effect',
+              text: 'The adopted user fee schedule sets downtown metered parking at $2.00 per hour, along with citation amounts.',
+              source: { label: 'City user fee schedule', href: 'https://www.myboca.us/1244/User-Fee-Schedule' },
+            },
+            {
+              date: '2026-03-10',
+              dateLabel: 'March 10, 2026',
+              title: 'Downtown Campus redevelopment fails at referendum',
+              text: 'The City states the project will not move forward as proposed — which is why no adopted plan currently adds downtown public parking.',
+              source: { label: 'City: Government Campus', href: 'https://www.myboca.us/1431/Government-Campus' },
+            },
+            {
+              date: '2026-05-12',
+              dateLabel: 'May 12',
+              title: 'The 29-minute rate expands to Boca Raton Road',
+              text: 'Staff reported roughly 8% of transactions using the free rate on 1st Avenue and about 15% on Boca Raton Road.',
+              source: { label: 'CRA parking presentation, July 2026 (PDF)', href: 'https://bocaraton.granicus.com/MetaViewer.php?view_id=9&clip_id=3086&meta_id=237969' },
+            },
+            {
+              date: '2026-07-27',
+              dateLabel: 'July 27, 2026',
+              title: 'CRA parking overview and license-agreement follow-up',
+              text: 'A presentation covering operations, the eight active license agreements and pending requests. No vote was taken.',
+              source: { label: 'CRA minutes, July 27, 2026', href: 'https://bocaraton.granicus.com/MinutesViewer.php?view_id=9&clip_id=3086' },
+            },
+          ],
+          note: 'The 29-minute pilot has run well past its three-month trial without a resolution extending or ending it, so it can change at any CRA meeting. We update this page when an official record changes.',
+        },
+        tracking: {
+          heading: 'Check the current rules yourself',
+          intro:
+            'Parking rates, limits and pilots are set by the City and the CRA, and they change by meeting rather than by season. These are the sources that actually govern.',
+          links: [
+            { label: 'City of Boca Raton: parking', href: 'https://www.myboca.us/209/Parking' },
+            { label: 'Adopted user fee schedule (current rates and citations)', href: 'https://www.myboca.us/1244/User-Fee-Schedule' },
+            { label: 'ParkMobile: how downtown meters are paid', href: 'https://www.myboca.us/1893/ParkMobile' },
+            { label: 'Downtown Boca parking map', href: 'https://www.downtownboca.org/DocumentCenter/View/2448/Downtown-Boca-Parking-Map' },
+            { label: 'CRA and City agendas, minutes and meeting video', href: 'https://bocaraton.granicus.com/ViewPublisher.php?view_id=9' },
+          ],
+          note: 'There is no official City FAQ on downtown parking, and nothing official about condo guest parking — which is why the building documents matter more than any city page.',
+        },
+      },
+    },
+    body: `## What the CRA actually reviewed
 
-## What the CRA actually reviewed
+The **Community Redevelopment Agency** — Boca's redevelopment board, legally distinct from City Council even though the same elected officials sit on both — took a downtown parking overview on July 27, 2026, along with a follow-up on requests for parking license agreements.
 
-The **Community Redevelopment Agency (CRA)** — Boca's separate redevelopment funding board, distinct from City Council even though the same elected officials sit on both — received a full overview of downtown Boca's parking program: current operations, revenue and enforcement statistics, existing parking license agreements, and a set of pilot programs aimed at improving availability and convenience. Two pilots stood out: **29-minute free parking** in select downtown zones, and **space occupancy monitoring**, which the City is using to actually measure demand rather than guess at it.
+Those agreements are the mechanism by which a private building licenses **public** spaces: a valet stand in the right-of-way, a loading zone, a few spaces in a bank lot. Eight are currently active, all of them renewals of existing licenses, with expirations running from 2026 to 2031. Several new requests were on the table.
 
-Following the presentation, the CRA reached consensus on staff's recommendation to **continue renewing existing parking license agreements** downtown, while **limiting new agreements to areas with lower parking demand — primarily west of Federal Highway.** Staff will use that direction going forward as it evaluates future public parking requests.
-
-## Translating that into plain English
-
-Here's what that actually means if you're not fluent in redevelopment-agency language: parking east of Federal Highway — closer to Mizner Park, Royal Palm Place, and the beach — is considered higher-demand, and the City isn't planning to add new private parking license agreements there. West of Federal Highway, where demand is lower, new agreements are still on the table.
-
-In practice: if you're buying east of Federal Highway, don't count on new public parking supply showing up to solve a tight spot. The City's direction points toward managing existing supply better — through pilots like the 29-minute program and occupancy monitoring — rather than adding new capacity in the highest-demand zone. West of Federal Highway has more room for new arrangements, which is one reason properties on that side of downtown sometimes come with an easier parking story and, often, a lower price point to match.
-
-## Questions to ask before buying a downtown unit
-
-A short, practical list that applies regardless of how any specific policy shakes out:
-
-- **How many spaces convey with the unit**, and are they deeded or assigned?
-- **Is there guest parking**, and how is it controlled?
-- **What are the association's rules** on vehicles, commercial vehicles, and overnight guests?
-- **Is there EV charging**, and who pays for it?
-- **What does the building charge** for an additional space, if one is even available?
-
-Get the answers in writing from the association rather than from a listing. Parking terms vary considerably between buildings on the same street, and they affect both daily life and resale.
-
-## Why parking policy matters more downtown than elsewhere
-
-Worth explaining, because buyers from suburban markets often skip past it.
-
-In a downtown condo purchase, parking is not a detail — it's part of what you're buying. How many spaces convey with the unit, whether they're deeded or assigned, what guest parking exists, and how the surrounding public parking is priced and enforced all affect both daily livability and resale.
-
-Municipal parking policy sits underneath all of that. Changes to rates, time limits, and enforcement shift how easy it is for your guests to visit and how attractive the surrounding retail stays over time.
-
-For anyone buying downtown, it's worth asking what conveys with the unit in writing, and reading the association's rules on parking separately from the purchase contract.
+What did not happen is a decision. There was no motion, no vote and no resolution. Staff recommended continuing to renew existing agreements while limiting new ones to lower-utilization areas, and the board gave no direction on the record. That matters for how you read any summary of this meeting — including the earlier version of this article, which described the direction as settled.
 
 ## The 29-minute free parking pilot, explained
 
-Twenty-nine minutes is a specific, deliberate number — short enough to serve a quick retail stop or a coffee run, but not long enough for someone to park all day for free. It's a classic downtown parking-management tool: encourage turnover in the spaces that serve shops and restaurants, rather than letting them get occupied by employees or all-day parkers. Paired with occupancy monitoring, it gives the City real data on how downtown parking gets used hour by hour — data that will likely shape whatever comes out of this policy direction next, rather than another round of guesswork.
+Twenty-nine minutes is a deliberate number: long enough for a quick errand, short enough that nobody parks all day for free. It is a standard turnover tool for the spaces that serve shops and restaurants.
 
-## What this means if you're buying a downtown condo
+Three things about it are worth knowing before you factor it into daily life:
 
-A few practical questions worth asking before you buy, informed by this update:
+- **It is not downtown-wide.** It started on NE 1st Avenue and later expanded to Boca Raton Road. Everywhere else, the meter is the meter.
+- **It is still a pilot.** The CRA approved it by consensus in November 2024 as a three-month trial. It has been running ever since without a resolution making it permanent, and it does not appear in the adopted fee schedule.
+- **It is lightly used.** Staff reported roughly 8% of transactions taking the free rate on 1st Avenue, and about 15% on Boca Raton Road.
 
-- **How many dedicated spaces come with the unit**, and is guest parking separate, assigned, or first-come? Downtown buildings vary enormously here, and it's rarely spelled out clearly in a listing.
-- **Does the building rely on any city or CRA parking license agreement** for overflow or valet arrangements? If so, ask what happens if that agreement isn't renewed — though Council's direction here favors renewing existing agreements, so this is a lower-risk question than it might sound.
-- **East vs. west of Federal Highway** genuinely matters for street parking pressure — don't assume the same experience on both sides of downtown.
-- **Don't assume free street parking will be available for long visits** — the City's tools are explicitly designed to discourage that east of Federal Highway.
+Treat it as a convenience that currently exists, not as a feature of the neighborhood you are buying into.
 
-None of this should scare you off a downtown purchase. Boca's downtown parking situation is manageable and is being actively managed with real data rather than left to chance. It's simply a detail worth asking about directly, the same way you'd ask about HOA reserves or a roof's age before writing an offer.
+## What the City controls, and what it doesn't
 
-## Where to verify this yourself
+Inside the CRA boundary, every on-street space is metered, at $2.00 an hour under the fee schedule that took effect in October 2025. There is a **four-hour maximum**, and the City's own presentation says enforcement is **available 24 hours a day**. Downtown meters are paid through ParkMobile, where the space number doubles as the zone number.
 
-CRA agendas, meeting videos, and parking program updates are posted directly at [myboca.us](https://www.myboca.us) — check there for the current status rather than relying on a listing agent's summary.
+Some parking downtown is free: the City Hall and library lots, and the Mizner Park garages. The library lots post overnight prohibitions.
 
-## How this compares to neighboring downtowns
+None of that changes what conveys with a condo. The City sets the price and the rules for public spaces. Your deed, your association's documents and any recorded parking assignment decide what you own.
 
-For context, the downtowns Boca competes with for residents handle this differently. Delray's Atlantic Avenue leans on a mix of garages and metered street parking with its own seasonal pressure, and West Palm Beach's downtown runs on structured garage parking that residents learn by name.
+## Why this matters more downtown than in the suburbs
 
-None of those models is obviously better — they reflect different densities and different amounts of available land. But it's worth understanding that a downtown condo purchase in any of these cities comes with a parking situation attached, and it varies more between buildings than between cities.
+In a downtown purchase, parking is part of what you are buying rather than a detail attached to it. How many spaces convey, whether they are deeded or assigned, where they sit and what happens when you have guests all affect daily life and resale.
 
-## Our take
+Public policy sits underneath that. Rates, limits and enforcement shape how easy it is for a visitor to stop by and how the surrounding retail fares over time. It is worth understanding — and it is not a substitute for reading the documents.
 
-This is a "keep managing what exists, don't flood the highest-demand zone with new agreements" policy — a reasonable, low-drama direction. If you want the full context on what else came out of the same meeting, our breakdown of the [Downtown Civic Area and Memorial Park master plan](/blog/boca-raton-downtown-civic-area-memorial-park-master-plan) covers the other major downtown item Council took up in the same session.`,
+## Guests are where this gets real
+
+A four-hour maximum with 24-hour enforcement means a guest cannot legally leave a car on a downtown street overnight, and the free City lots post overnight restrictions of their own. So "my friends can just park on the street" is not a plan.
+
+The City publishes no policy on condo guest parking, and none on buildings using public garages for overflow. What exists instead is in the buildings' own approvals: the downtown ordinance allows off-site parking within **600 feet**, subject to CRA Board approval and a recorded instrument keeping those spaces available. If a building depends on off-site or licensed spaces, that arrangement lives in its development approval and its governing documents — which is where to look.
+
+## Comparing downtowns
+
+Delray Beach and West Palm Beach run their own programs, with their own rates, limits and payment systems, and each city posts its own rules. The useful generalization is narrower than it looks: parking terms vary more between buildings in one downtown than they do between cities. Compare the specific building, not the city.
+
+## What this may mean for condo buyers
+
+Downtown Boca's public parking is being actively managed — metered, monitored, and adjusted through pilots rather than left alone. For a buyer, the practical implications are modest and mostly about guests and convenience.
+
+The part that deserves your attention is the part a city page cannot answer: what conveys with the unit, what the association's rules say, and whether the building leans on an arrangement that has an expiration date on it. The checklist above is the version of this article worth keeping.`,
     faqs: [
-      { q: 'Is there free parking in downtown Boca Raton?', a: 'Select downtown zones offer a 29-minute free parking pilot aimed at quick retail and dining trips. It is not designed for all-day parking, and availability varies by location.' },
-      { q: "How does downtown Boca Raton's parking license agreement program work?", a: "The City's Community Redevelopment Agency licenses certain parking arrangements downtown. As of the CRA's latest direction, existing agreements will continue to be renewed, while new agreements are being limited mostly to areas west of Federal Highway." },
-      { q: 'Where is parking hardest to find in downtown Boca Raton?', a: 'East of Federal Highway, closer to Mizner Park, Royal Palm Place, and the beach, is considered the higher-demand zone, and the City is not planning to add new private parking license agreements there.' },
-      { q: 'Do downtown Boca Raton condos come with dedicated parking?', a: "It varies significantly by building. Ask specifically how many dedicated spaces come with a unit, how guest parking is handled, and whether the building depends on any city parking license agreement." },
+      { q: 'How much is parking in downtown Boca Raton?', a: "Downtown City-owned metered spaces are $2.00 per hour under the user fee schedule that took effect October 1, 2025. All on-street spaces inside the CRA boundary are metered, with a four-hour maximum, and the City's own July 2026 presentation says enforcement is available 24 hours a day. The City Hall and library lots and the Mizner Park garages are listed as free, with overnight restrictions posted at the library lots. Rates change by resolution, so check the current fee schedule before relying on any figure." },
+      { q: 'Is the 29-minute free parking still available in downtown Boca Raton?', a: 'Yes, as a pilot rather than a permanent program. The CRA approved it by consensus on November 18, 2024 as a three-month trial on NE 1st Avenue and it later expanded to Boca Raton Road. It has continued past that trial period without a resolution making it permanent, and it does not appear in the adopted fee schedule. It is also not downtown-wide — everywhere else, standard meter rates apply.' },
+      { q: 'Are parking rules different east and west of Federal Highway?', a: 'Not in any current official source. The adopted fee schedule sets a single downtown rate, and the downtown ordinance contains no east/west parking provision. The phrase comes from a staff recommendation about where the CRA might grant new parking license agreements to private buildings — which is a different question from what a driver pays or how long they can stay.' },
+      { q: 'What parking questions should I ask before buying a downtown Boca condo?', a: "How many spaces convey and whether they are deeded or assigned; the exact space numbers and locations; guest and overnight rules; whether a second space can be rented or bought; EV charging availability, cost and approval; vehicle and valet restrictions; whether the building relies on a city or CRA license agreement; and the association's current parking rules plus any recent changes. Get the answers from the governing documents in writing, not from a listing." },
+      { q: 'Where can guests park at a downtown Boca Raton condo?', a: 'That depends entirely on the building, which is why it belongs on your due-diligence list. On-street metered spaces carry a four-hour maximum with enforcement available 24 hours a day, and the free City lots post overnight prohibitions, so a guest cannot simply leave a car downtown overnight. The City publishes no condo guest-parking policy. If a building uses off-site spaces, the downtown ordinance requires them within 600 feet, with CRA Board approval and a recorded instrument.' },
+      { q: 'Is Boca Raton adding more public parking downtown?', a: 'Not in any adopted plan. The Downtown Campus redevelopment failed at referendum in March 2026, and the current downtown plan amendments do not include a parking project. The City is managing existing supply instead, through pilots such as the 29-minute rate and space-occupancy monitoring. Do not assume new public parking will appear to solve a tight situation at a specific building.' },
     ],
     internalLinks: ['best-neighborhoods-in-boca-raton-florida', 'boca-raton-downtown-civic-area-memorial-park-master-plan', 'local-guide-to-boca-raton-florida'],
-    funFact: "The CRA and City Council share the same five elected officials, but they're legally separate bodies with separate budgets funded by tax-increment financing rather than the general fund. That's why a parking policy shift can move through a 'CRA consensus' rather than a formal City ordinance — it's a different governance track entirely, even on the same meeting agenda.",
+    funFact: "The CRA and City Council are made up of the same elected officials, but they are legally separate bodies with separate agendas — so a downtown parking item can be 'approved' at a CRA meeting by nothing more than board consensus in a director's report, with no resolution behind it. That is exactly how the 29-minute free parking pilot started, and why it has run for well over a year without ever being made permanent. When someone tells you the City decided something downtown, it's worth asking which body, and whether anyone actually voted.",
     author: 'john',
     published: true,
-    updated: '2026-07-31',
+    publishedDate: '2026-07-31',
+    updated: '2026-09-17',
   },
-
-  // ===================== BOYNTON BEACH =====================
   {
     slug: 'what-its-really-like-living-in-boynton-beach-florida',
     citySlug: 'boynton-beach',
