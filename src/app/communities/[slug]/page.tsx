@@ -17,8 +17,6 @@ import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
 import CommunityVideo from '@/components/CommunityVideo'
-import GreatSchoolsCard, { greatSchoolsCity } from '@/components/GreatSchoolsCard'
-import PaddleCommunityLink from '@/components/paddle/PaddleCommunityLink'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
 
@@ -436,13 +434,6 @@ export default async function CommunityPage({ params }: Props) {
                 quote={christineOnTop ? quotes.christineQuote : quotes.johnQuote}
               />
 
-              {/* Lead-magnet CTA */}
-              <LeadMagnetCTA
-                selection={magnetSelection}
-                variant="inline"
-                pageCategory="community"
-              />
-
               {/* Sub-Neighborhoods */}
               {community.subNeighborhoods && community.subNeighborhoods.length > 0 && (
                 <div>
@@ -717,9 +708,7 @@ export default async function CommunityPage({ params }: Props) {
               )}
 
               {/* Schools */}
-              {(community.schoolOverview ||
-                community.schoolList ||
-                greatSchoolsCity(isCity ? community.slug : (parentCity?.slug ?? community.slug))) && (
+              {(community.schoolOverview || community.schoolList) && (
                 <div>
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">Schools</h2>
                   {community.schoolOverview && (
@@ -747,16 +736,6 @@ export default async function CommunityPage({ params }: Props) {
                       ))}
                     </div>
                   )}
-                  {/* Ratings come from GreatSchools rather than from copy of
-                      ours that would need re-checking every year. Neighborhood
-                      pages have no schoolList, so they resolve to their parent
-                      city — which is how GreatSchools indexes them anyway. */}
-                  <div className="mt-6">
-                    <GreatSchoolsCard
-                      citySlug={isCity ? community.slug : (parentCity?.slug ?? community.slug)}
-                      cityName={isCity ? community.name : (parentCity?.name ?? community.name)}
-                    />
-                  </div>
                   <p className="mt-6 text-xs leading-6 text-slate-500">
                     School assignments, boundaries, and ratings may change. Buyers should verify all
                     school information directly with the appropriate school district.
@@ -818,10 +797,6 @@ export default async function CommunityPage({ params }: Props) {
                 </div>
               )}
 
-              {/* Paddle guides — offered only for the towns those guides actually
-                  cover; the component returns null everywhere else. */}
-              <PaddleCommunityLink slug={community.slug} name={community.name} />
-
               {/* Dining */}
               {community.dining && community.dining.length > 0 && (
                 <div>
@@ -848,6 +823,17 @@ export default async function CommunityPage({ params }: Props) {
                   </ul>
                 </div>
               )}
+
+              {/* Lead-magnet CTA. Mobile only: the desktop sidebar card is
+                  sticky, so an in-content copy of the same offer sat beside it
+                  on screen. Placed this far down so a phone reader meets it
+                  after the substance of the page, not before it. */}
+              <LeadMagnetCTA
+                selection={magnetSelection}
+                variant="inline"
+                pageCategory="community"
+                className="lg:hidden"
+              />
 
               {/* Key Links */}
               {community.keyLinks && community.keyLinks.length > 0 && (
