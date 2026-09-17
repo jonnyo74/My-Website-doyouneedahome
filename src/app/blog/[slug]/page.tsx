@@ -16,7 +16,12 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import EditorialHero from '@/components/article/EditorialHero'
+import QuickFit from '@/components/article/QuickFit'
+import ArticleToc from '@/components/article/ArticleToc'
 import { selectMagnetForArticle } from '@/lib/leadMagnetRouting'
+import { articleSections } from '@/lib/headingId'
+import { AUTHORS } from '@/lib/authors'
 import { SITE_URL } from '@/lib/site'
 
 const SITE = SITE_URL
@@ -111,6 +116,23 @@ export default async function ArticlePage({ params }: Props) {
   const magnetSelection = selectMagnetForArticle(article)
   const bodyParts = splitBodyForInlineCta(article.body)
 
+  // Editorial layout is opt-in per article, and needs the wide hero's
+  // intrinsic size to art-direct it — without that, fall back to the standard hero.
+  const editorial =
+    article.editorial && article.heroImage && article.heroImageWidth && article.heroImageHeight
+      ? {
+          ...article.editorial,
+          heroImage: {
+            src: article.heroImage,
+            width: article.heroImageWidth,
+            height: article.heroImageHeight,
+            alt: article.heroImageAlt ?? article.h1,
+            credit: article.heroImageCredit,
+          },
+        }
+      : undefined
+  const sections = editorial?.tableOfContents ? articleSections(article.body) : []
+
   // ---- JSON-LD structured data ----
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -119,9 +141,29 @@ export default async function ArticlePage({ params }: Props) {
     description: article.metaDescription,
     datePublished: article.publishedDate ?? article.updated,
     dateModified: article.updated,
-    image: article.heroImage ? absoluteImage(article.heroImage) : undefined,
+    // An ImageObject when the intrinsic size is on record, so the dimensions
+    // and alt text travel with the image; the bare URL otherwise.
+    image: !article.heroImage
+      ? undefined
+      : article.heroImageWidth && article.heroImageHeight
+        ? {
+            '@type': 'ImageObject',
+            url: absoluteImage(article.heroImage),
+            width: article.heroImageWidth,
+            height: article.heroImageHeight,
+            caption: article.heroImageAlt ?? article.h1,
+          }
+        : absoluteImage(article.heroImage),
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    author: { '@type': 'Organization', name: 'DO Homes Group' },
+    // Match the byline: the named agent where the article has one.
+    author: article.author
+      ? {
+          '@type': 'Person',
+          name: AUTHORS[article.author].name,
+          url: `${SITE}/team`,
+          worksFor: { '@type': 'Organization', name: 'DO Homes Group' },
+        }
+      : { '@type': 'Organization', name: 'DO Homes Group' },
     publisher: { '@type': 'Organization', name: 'DO Homes Group' },
   }
   const faqSchema = {
@@ -150,7 +192,28 @@ export default async function ArticlePage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
-      {article.heroImage ? (
+      {editorial ? (
+        <EditorialHero
+          editorial={editorial}
+          h1={article.h1}
+          image={editorial.heroImage}
+          breadcrumb={{
+            cityName: article.cityName,
+            cityHref: community ? `/communities/${community.slug}` : undefined,
+          }}
+          byline={{
+            authorName: article.author ? AUTHORS[article.author].name : undefined,
+            updatedIso: article.updated,
+            // Noon UTC so the calendar date can't roll back a day in any US zone.
+            updatedLabel: new Date(`${article.updated}T12:00:00Z`).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              timeZone: 'UTC',
+            }),
+          }}
+        />
+      ) : article.heroImage ? (
         <>
         <section className="relative h-[52vh] min-h-[380px] overflow-hidden">
           {/* The hero is the LCP element on every article, so it's preloaded
@@ -207,21 +270,27 @@ export default async function ArticlePage({ params }: Props) {
       <YlopoInit city={article.cityName} />
 
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
-        {/* Body — with an inline report CTA about a third of the way through */}
-        {bodyParts ? (
-          <>
-            <Prose content={bodyParts[0]} />
-            <LeadMagnetCTA
-              selection={magnetSelection}
-              variant="inline"
-              pageCategory="blog"
-              className="mt-10"
-            />
-            <Prose content={bodyParts[1]} />
-          </>
-        ) : (
-          <Prose content={article.body} />
-        )}
+        {editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
+
+        <div className="relative">
+          {sections.length > 0 && <ArticleToc sections={sections} />}
+
+          {/* Body — with an inline report CTA about a third of the way through */}
+          {bodyParts ? (
+            <>
+              <Prose content={bodyParts[0]} />
+              <LeadMagnetCTA
+                selection={magnetSelection}
+                variant="inline"
+                pageCategory="blog"
+                className="mt-10"
+              />
+              <Prose content={bodyParts[1]} />
+            </>
+          ) : (
+            <Prose content={article.body} />
+          )}
+        </div>
 
         {/* City page link */}
         {community && (
@@ -300,14 +369,33 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </div>
 
-        {/* End-of-article lead-magnet CTA */}
-        <div className="mt-12">
-          <LeadMagnetCTA
-            selection={magnetSelection}
-            variant="end-of-article"
-            pageCategory="blog"
-          />
-        </div>
+        {/* End-of-article lead-magnet CTA — or, on editorial pages that define
+            one, a different next step, since the hero and the inline block
+            have already made the same offer. */}
+        {editorial?.closingStep ? (
+          <div className="mt-12 flex flex-col gap-4 border-y border-slate-200 py-7 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">
+                {editorial.closingStep.eyebrow}
+              </p>
+              <p className="mt-2 max-w-md leading-7 text-slate-700">{editorial.closingStep.text}</p>
+            </div>
+            <Link
+              href={editorial.closingStep.cta.href}
+              className="inline-flex shrink-0 items-center justify-center rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
+            >
+              {editorial.closingStep.cta.label}
+            </Link>
+          </div>
+        ) : (
+          <div className="mt-12">
+            <LeadMagnetCTA
+              selection={magnetSelection}
+              variant="end-of-article"
+              pageCategory="blog"
+            />
+          </div>
+        )}
 
         {/* FAQ */}
         {article.faqs.length > 0 && (

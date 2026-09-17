@@ -11,6 +11,36 @@ export interface Faq {
   a: string
 }
 
+export interface ArticleLink {
+  label: string
+  href: string                // internal path only, e.g. '/communities/boca-raton'
+}
+
+/**
+ * Opt-in editorial presentation: an image hero carrying the eyebrow, deck,
+ * byline and two CTAs, plus optional quick-fit and table-of-contents modules.
+ * Articles without it render the standard hero and flow, unchanged.
+ */
+export interface ArticleEditorial {
+  eyebrow: string
+  deck: string                // shown in the hero, so the body must not repeat it
+  // Art-directed crop for narrow screens. heroImage (with heroImageWidth/Height)
+  // is the wide version and stays the Open Graph / JSON-LD image.
+  mobileImage: { src: string; width: number; height: number }
+  primaryCta: ArticleLink
+  secondaryCta: ArticleLink
+  quickFit?: {
+    fitHeading: string
+    fit: string[]
+    elsewhereHeading: string
+    elsewhere: string[]
+  }
+  tableOfContents?: boolean
+  // Stands in for the end-of-article lead-magnet CTA, which otherwise repeats
+  // the inline offer word for word a few screens later.
+  closingStep?: { eyebrow: string; text: string; cta: ArticleLink }
+}
+
 export interface Article {
   slug: string
   citySlug: string            // matches a community slug in communities.ts (e.g. 'jupiter')
@@ -37,6 +67,7 @@ export interface Article {
   author?: 'john' | 'christine'
   published: boolean
   publishedDate?: string      // original publication date; defaults to `updated` when absent
+  editorial?: ArticleEditorial
   updated: string             // ISO date — last modified
 }
 
@@ -4243,14 +4274,46 @@ If you're weighing Boca as somewhere to live rather than visit, our [Boca Raton 
     type: "Who Should Move To",
     order: 5,
     seoTitle: "Who Should Move to Boca Raton, Florida (And Who Shouldn't)",
-    metaTitle: "Who Should Move to Boca Raton, FL",
+    metaTitle: "Who Should Move to Boca Raton, FL (And Who Shouldn't)",
     metaDescription: "Boca Raton isn't for everyone. An honest look at what fits in this polished, corporate, club-oriented city — and who would be happier somewhere funkier.",
     primaryKeyword: "who should move to Boca Raton Florida",
     secondaryKeywords: ["is Boca Raton right for me", "should I move to Boca Raton", "who lives in Boca Raton"],
     h1: "Who Should Move to Boca Raton, Florida (And Who Shouldn't)",
-    body: `Boca Raton is polished and upscale, and that suits some people perfectly while leaving others feeling like they've moved into a very nice office park. The city is consistent enough that you can usually tell which one you are fairly quickly.
-
-Here's the honest sorting.
+    heroImage: '/images/boca-raton/boca-raton-pastel-balconies-wide.webp',
+    heroImageAlt: 'Upper floors of a pastel Mediterranean-style building with teal balcony railings, a patio umbrella, and palm trees against a partly cloudy sky',
+    heroImageCredit: 'Photo by Alexander Donev / Unsplash',
+    heroImageWidth: 2400,
+    heroImageHeight: 1200,
+    editorial: {
+      eyebrow: 'Boca Raton Relocation Guide',
+      deck: "Boca Raton is polished and upscale, and that suits some people perfectly while leaving others feeling like they've moved into a very nice office park. The city is consistent enough that you can usually tell which one you are fairly quickly.",
+      mobileImage: { src: '/images/boca-raton/boca-raton-pastel-balconies-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Boca Raton Neighborhoods', href: '/communities/boca-raton' },
+      secondaryCta: { label: 'Get the Relocation Decision Guide', href: '/palm-beach-county-treasure-coast-relocation-guide' },
+      quickFit: {
+        fitHeading: 'Boca may fit you if…',
+        fit: [
+          'You want real school choice — public, magnet, charter, and private options in a compact area',
+          "You'd use club life: golf, racquet sports, dining, and a built-in social calendar",
+          'You travel for work and value a corporate base with two international airports within reach',
+          'You find enforced polish and architectural consistency reassuring rather than sterile',
+        ],
+        elsewhereHeading: 'Consider nearby alternatives if…',
+        elsewhere: [
+          'You want a funky, walkable, social downtown — Delray Beach does that',
+          "You're on a tight budget and want to live near the coast",
+          "You'd rather avoid gated communities and association fees",
+          'You want a small-town feel, or streets with real architectural variety',
+        ],
+      },
+      tableOfContents: true,
+      closingStep: {
+        eyebrow: 'Still deciding?',
+        text: "Torn between Boca, Delray Beach, and West Palm Beach? Talk through how you'd actually spend that ordinary Saturday.",
+        cta: { label: 'Talk it through with a local agent', href: '/contact' },
+      },
+    },
+    body: `Here's the honest sorting.
 
 ## You'll love Boca Raton if…
 
@@ -4310,6 +4373,30 @@ The Mediterranean Revival consistency that defines Boca is enforced. If you want
 
 ## A few specific situations
 
+### Families relocating
+
+Among the strongest fits in the county, driven by school selection and parks. Sugar Sand Park alone is a genuine quality-of-life factor.
+
+### Retirees and near-retirees
+
+Very strong. Club social structure, single-level and lock-and-leave options, excellent healthcare, and a deep 55+ market. Scrutinize club obligations and condo reserve funding closely — those are the two things that most often surprise people.
+
+### Executives and frequent travelers
+
+The two-airport position and corporate base make this unusually practical.
+
+### Golfers
+
+Excellent, though most of the good golf sits behind club gates, which means the club obligation is part of the cost of playing.
+
+### Boaters
+
+Royal Palm Yacht & Country Club and The Sanctuary offer deep-water and canal access with ocean reach. Verify slip length, bridge clearance, and canal depth for the specific property.
+
+### Second-home and seasonal buyers
+
+Common here. Non-homestead property carries a different tax profile without the same caps — talk to a CPA before structuring the purchase.
+
 ## How long the adjustment takes
 
 Most people we work with describe the same arc. The first few months are easy — the weather, the beaches, and the sheer convenience of the place do the work.
@@ -4317,12 +4404,6 @@ Most people we work with describe the same arc. The first few months are easy �
 Around month six the practicalities land: the first insurance renewal, the first full season of Glades Road traffic, and, if you bought into a club, the first real assessment of whether you're using it enough to justify the obligation.
 
 By the end of a full year, including a summer, you know. The residents who stay tend to be the ones who actively used what the city offers rather than just living near it.
-
-**Families relocating.** Among the strongest fits in the county, driven by school selection and parks. Sugar Sand Park alone is a genuine quality-of-life factor.
-
-**Retirees and near-retirees.** Very strong. Club social structure, single-level and lock-and-leave options, excellent healthcare, and a deep 55+ market. Scrutinize club obligations and condo reserve funding closely — those are the two things that most often surprise people.
-
-**Executives and frequent travelers.** The two-airport position and corporate base make this unusually practical.
 
 ## What people miss from where they came from
 
@@ -4335,12 +4416,6 @@ Consistently three things.
 **A casual, cheap, scruffy local spot.** Boca's polish means the low end of the dining and social market is thin, and it's the gap residents mention most often.
 
 None are dealbreakers, and all three are fifteen to thirty minutes away in Delray or West Palm Beach. Knowing them in advance takes the sting out.
-
-**Golfers.** Excellent, though most of the good golf sits behind club gates, which means the club obligation is part of the cost of playing.
-
-**Boaters.** Royal Palm Yacht & Country Club and The Sanctuary offer deep-water and canal access with ocean reach. Verify slip length, bridge clearance, and canal depth for the specific property.
-
-**Second-home and seasonal buyers.** Common here. Non-homestead property carries a different tax profile without the same caps — talk to a CPA before structuring the purchase.
 
 ## A simple gut-check
 
@@ -4363,7 +4438,8 @@ Neither is better. But the cost of getting it wrong is high enough to be honest 
     funFact: "Florida Atlantic University's research park in Boca Raton has become a genuine biotech and technology cluster — it's home to companies in digital health, cybersecurity, and aerospace. That employment base is part of why Boca sustains year-round housing demand rather than a purely seasonal market.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-17',
   },
   {
     slug: 'pros-and-cons-of-living-in-boca-raton-florida',

@@ -1,19 +1,8 @@
-interface Props {
-  author: 'john' | 'christine'
-  funFact: string
-}
+import { AUTHORS, type AuthorId } from '@/lib/authors'
 
-const AUTHORS = {
-  john: {
-    name: 'John Oliver',
-    title: 'REALTOR® · ABR · RENE · RSPS · SRS',
-    photo: '/images/john-professional.jpg',
-  },
-  christine: {
-    name: 'Christine Dekant',
-    title: 'REALTOR® · RENE · GRI · CLA · CPRES · REDM · C2EX',
-    photo: '/images/christine.jpg',
-  },
+interface Props {
+  author: AuthorId
+  funFact: string
 }
 
 export default function LocalExpertNote({ author, funFact }: Props) {

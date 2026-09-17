@@ -1,5 +1,6 @@
 import { Fragment, type ReactNode } from 'react'
 import Link from 'next/link'
+import { headingId } from '@/lib/headingId'
 
 /**
  * Minimal markdown renderer for article bodies.
@@ -176,7 +177,7 @@ export default function Prose({ content, className = '' }: { content: string; cl
     } else if (line.startsWith('## ')) {
       flushPara(); flushList()
       blocks.push(
-        <h2 key={`h2${key++}`} className="mt-10 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
+        <h2 key={`h2${key++}`} id={headingId(line.slice(3))} className="mt-10 scroll-mt-28 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
           {renderInline(line.slice(3), `h2${key}`)}
         </h2>,
       )
