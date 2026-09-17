@@ -5,7 +5,7 @@
 import { createHmac, timingSafeEqual } from 'node:crypto'
 import { isLeadMagnetKey, leadMagnets, type LeadMagnetKey } from '@/lib/leadMagnets'
 import { SITE_URL } from '@/lib/site'
-import { formatConsentLine, NO_PHONE_CONSENT_TAG } from '@/lib/consent'
+import { formatConsentLine, NO_PHONE_CONSENT_TAG, PHONE_CONSENT_TAG } from '@/lib/consent'
 
 export const INTEREST_OPTIONS = [
   'Buying',
@@ -112,9 +112,12 @@ export function buildLeadTags(sub: LeadSubmission): string[] {
     sub.interest ? `Interest: ${sub.interest}` : null,
     isValidArea(sub.areaOfInterest) ? `Area: ${sub.areaOfInterest}` : null,
     isValidTimeline(sub.timeline) ? `Timeline: ${sub.timeline}` : null,
-    // Surfaced as a tag, not just a note line — a note is easy to scroll
-    // past, and calling this person would be the actual violation.
+    // Consent is tagged both ways, not just noted: a note is easy to scroll
+    // past, calling someone who declined is the actual violation, and "no
+    // tag" would otherwise cover both a consenting lead and one who left the
+    // phone field empty — which no Follow Up Boss list could tell apart.
     sub.phoneConsent === false ? NO_PHONE_CONSENT_TAG : null,
+    sub.phoneConsent === true ? PHONE_CONSENT_TAG : null,
   ].filter(Boolean) as string[]
   return Array.from(new Set(tags))
 }

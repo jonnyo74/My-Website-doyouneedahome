@@ -4,7 +4,7 @@
 // either: those flows gate PDFs and valuations; this one books private
 // showings of a specific listing.
 
-import { formatConsentLine, NO_PHONE_CONSENT_TAG } from '@/lib/consent'
+import { formatConsentLine, NO_PHONE_CONSENT_TAG, PHONE_CONSENT_TAG } from '@/lib/consent'
 
 // The one listing this route currently serves. Keyed so a second standalone
 // listing page can register itself without loosening validation.
@@ -100,7 +100,10 @@ export function buildShowingTags(
     'Showing Request',
     listing.crmTag,
     sub.affiliation === 'I am a buyer’s agent inquiring for a client' ? "Buyer's Agent" : null,
+    // Tagged both ways: "no tag" would cover both a consenting lead and one
+    // who left the phone field empty, which no saved list could tell apart.
     sub.phoneConsent === false ? NO_PHONE_CONSENT_TAG : null,
+    sub.phoneConsent === true ? PHONE_CONSENT_TAG : null,
   ].filter(Boolean) as string[]
   return Array.from(new Set(tags))
 }

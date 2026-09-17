@@ -8,7 +8,7 @@
 // loosening validation on the flow that gates the reports.
 
 import { getValuationRoute, TEAM_ROUTE_SLUG, type ValuationRoute } from '@/lib/agents'
-import { formatConsentLine, NO_PHONE_CONSENT_TAG } from '@/lib/consent'
+import { formatConsentLine, NO_PHONE_CONSENT_TAG, PHONE_CONSENT_TAG } from '@/lib/consent'
 
 export const TIMELINE_OPTIONS = [
   'As soon as possible',
@@ -87,9 +87,12 @@ export function buildSellerLeadTags(sub: SellerLeadSubmission, agent: ValuationR
     'Home Valuation Request',
     agent.crmTag,
     isValidTimeline(sub.timeline) ? `Timeline: ${sub.timeline}` : null,
-    // Surfaced as a tag, not just a note line — a note is easy to scroll
-    // past, and calling this person would be the actual violation.
+    // Consent is tagged both ways, not just noted: a note is easy to scroll
+    // past, calling someone who declined is the actual violation, and "no
+    // tag" would otherwise cover both a consenting lead and one who left the
+    // phone field empty — which no Follow Up Boss list could tell apart.
     sub.phoneConsent === false ? NO_PHONE_CONSENT_TAG : null,
+    sub.phoneConsent === true ? PHONE_CONSENT_TAG : null,
   ].filter(Boolean) as string[]
   return Array.from(new Set(tags))
 }
