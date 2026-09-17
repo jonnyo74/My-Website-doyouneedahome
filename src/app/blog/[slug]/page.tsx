@@ -7,7 +7,11 @@ import {
   getArticlePaths,
   marketTrendsCity,
   visibleArticles,
+  type ArticleEditorial,
 } from '@/lib/articles'
+import { WORKSHEET_HEADING, WORKSHEET_HEADING_ID } from '@/lib/carryingCost'
+import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
+import KeyFactors from '@/components/article/KeyFactors'
 import { getCommunityBySlug } from '@/lib/communities'
 import Prose from '@/components/Prose'
 import CitySearchButtons from '@/components/CitySearchButtons'
@@ -34,6 +38,24 @@ const absoluteImage = (path: string) => encodeURI(`${SITE}${path}`)
 const PHONE = { display: '(561) 786-3630', href: 'tel:+15617863630' }
 
 type Props = { params: Promise<{ slug: string }> }
+
+// Renders one slice of the article body. When the article defines an
+// interactive tool and its target "## " heading falls inside this slice, the
+// tool is spliced in directly before that heading; otherwise it's plain Prose.
+// The inline magnet CTA splits the body in two, so either half may hold it.
+function BodyWithTool({ content, tool }: { content: string; tool?: ArticleEditorial['tool'] }) {
+  if (!tool) return <Prose content={content} />
+  const lines = content.split('\n')
+  const at = lines.findIndex((line) => line.trimEnd() === `## ${tool.beforeSection}`)
+  if (at < 0) return <Prose content={content} />
+  return (
+    <>
+      <Prose content={lines.slice(0, at).join('\n')} />
+      <CarryingCostWorksheet />
+      <Prose content={lines.slice(at).join('\n')} />
+    </>
+  )
+}
 
 // Split an article body at the "## " heading nearest ~30% through the content
 // (within a 22–45% window) so an inline report CTA can sit between the two
@@ -132,6 +154,12 @@ export default async function ArticlePage({ params }: Props) {
         }
       : undefined
   const sections = editorial?.tableOfContents ? articleSections(article.body) : []
+  // The worksheet is its own section, so it gets a contents entry directly
+  // before the section it's rendered in front of.
+  if (editorial?.tool?.kind === 'carrying-cost-worksheet') {
+    const at = sections.findIndex((s) => s.label === editorial.tool?.beforeSection)
+    if (at >= 0) sections.splice(at, 0, { id: WORKSHEET_HEADING_ID, label: WORKSHEET_HEADING })
+  }
 
   // ---- JSON-LD structured data ----
   const articleSchema = {
@@ -270,6 +298,7 @@ export default async function ArticlePage({ params }: Props) {
       <YlopoInit city={article.cityName} />
 
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
+        {editorial?.keyFactors && <KeyFactors data={editorial.keyFactors} />}
         {editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
 
         <div className="relative">
@@ -278,17 +307,17 @@ export default async function ArticlePage({ params }: Props) {
           {/* Body — with an inline report CTA about a third of the way through */}
           {bodyParts ? (
             <>
-              <Prose content={bodyParts[0]} />
+              <BodyWithTool content={bodyParts[0]} tool={editorial?.tool} />
               <LeadMagnetCTA
                 selection={magnetSelection}
                 variant="inline"
                 pageCategory="blog"
                 className="mt-10"
               />
-              <Prose content={bodyParts[1]} />
+              <BodyWithTool content={bodyParts[1]} tool={editorial?.tool} />
             </>
           ) : (
-            <Prose content={article.body} />
+            <BodyWithTool content={article.body} tool={editorial?.tool} />
           )}
         </div>
 

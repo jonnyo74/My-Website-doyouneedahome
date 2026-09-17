@@ -44,6 +44,15 @@ export interface ArticleEditorial {
     elsewhere: string[]
   }
   tableOfContents?: boolean
+  // Numbered "what actually moves the answer" module shown under the hero.
+  keyFactors?: {
+    heading: string
+    intro?: string
+    items: Array<{ title: string; text: string }>
+  }
+  // An interactive tool rendered inside the body, directly before the ## section
+  // whose heading text matches beforeSection. Client-side only.
+  tool?: { kind: 'carrying-cost-worksheet'; beforeSection: string }
   // Stands in for the end-of-article lead-magnet CTA, which otherwise repeats
   // the inline offer word for word a few screens later.
   closingStep?: { eyebrow: string; text: string; cta: ArticleLink }
@@ -4618,12 +4627,52 @@ For anyone wanting funky, walkable, or genuinely affordable, the cons will domin
     secondaryKeywords: ["Boca Raton home prices", "is Boca Raton expensive", "Boca Raton FL cost of living"],
     h1: "Cost of Living in Boca Raton, Florida",
     heroImage: "/public/Boca Raton/boca-luxury-pool.jpg",
+    heroImageAlt: 'A community clubhouse pool and spa with white lounge chairs, shaded patio tables, and palm trees under a blue sky',
+    heroImageCredit: 'Photo by Brian Zajac / Unsplash',
+    heroImageWidth: 5500,
+    heroImageHeight: 3095,
+    editorial: {
+      eyebrow: 'Boca Raton Relocation Guide',
+      deck: "Boca Raton runs above the national average, and the spread between the two halves of the city is wide — which means \"can I afford Boca?\" has more than one answer.",
+      mobileImage: { src: '/images/boca-raton/boca-raton-community-pool-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Boca Raton Neighborhoods', href: '/communities/boca-raton' },
+      secondaryCta: { label: 'Get the Relocation Decision Guide', href: '/palm-beach-county-treasure-coast-relocation-guide' },
+      keyFactors: {
+        heading: 'What actually changes the cost of living in Boca?',
+        intro: "The purchase price is the least interesting number here. In this city more than most, what determines affordability is the obligation attached to the specific community.",
+        items: [
+          {
+            title: 'East Boca versus west Boca',
+            text: "Coastal and east Boca carry a premium for older housing, walkability, and proximity to the beach parks. West Boca's gated and age-restricted communities price differently, often with newer construction and more square footage.",
+          },
+          {
+            title: 'HOA and mandatory club obligations',
+            text: "In several communities club membership isn't optional. Initiation fees, dues, food and beverage minimums, and capital assessments can close — or reverse — the gap between two list prices.",
+          },
+          {
+            title: 'The property-tax reset after purchase',
+            text: "The tax figure on a listing usually reflects the seller's capped bill. Assessed value generally resets toward market value in the year after a sale; homestead, if it applies, caps increases from there.",
+          },
+          {
+            title: 'Insurance, roof age, and flood exposure',
+            text: 'Coastal exposure, construction year, roof age, and impact glass all move the wind premium. Flood coverage is a separate policy, and zones vary by address.',
+          },
+          {
+            title: 'Maintenance, utilities, and driving',
+            text: 'Older systems age on their own schedule, summer air conditioning is the swing utility, lawn, pest, and pool service are standing costs, and west of I-95 nearly everything is a car trip.',
+          },
+        ],
+      },
+      tableOfContents: true,
+      tool: { kind: 'carrying-cost-worksheet', beforeSection: 'Running your own number' },
+      closingStep: {
+        eyebrow: 'Comparing addresses?',
+        text: 'A local agent can help you pull the fee schedule, tax history, and insurance details for each property on your shortlist.',
+        cta: { label: 'Talk it through with a local agent', href: '/contact' },
+      },
+    },
     showMarketTrends: true,
-    body: `Boca Raton runs above the national average, and the spread between the two halves of the city is wider than almost anywhere else in the region. That range is genuinely useful — it means "can I afford Boca?" has more than one answer.
-
-But the purchase price is the least interesting number here. In this city more than most, what determines affordability is the obligation attached to the specific community.
-
-## Housing — and the east/west gap
+    body: `## Housing — and the east/west gap
 
 Coastal and east Boca command a substantial premium: older housing, architectural character, walkability, and proximity to the beach parks and Mizner Park.
 
@@ -4639,15 +4688,17 @@ This deserves the most attention on the page.
 
 Many of Boca's most desirable communities are gated golf-and-country-club neighborhoods, and the obligations can be substantial — in some clubs considerably more than a mortgage payment on a modest house.
 
-Pin all of this down in writing for any specific community:
+### Before you offer, get these in writing
 
-- **HOA dues**, and precisely what they include. Two communities at similar dues can bundle wildly different things.
-- **Whether club membership is mandatory.** In several Boca communities it is not optional.
-- **The one-time initiation fee**, which in the top-tier clubs is a significant capital outlay in its own right.
-- **Ongoing club dues**, separate from HOA.
-- **Food and beverage minimums** — an annual spend requirement at club dining that buyers routinely forget to count.
-- **Capital assessments.** Clubs periodically fund clubhouse renovations, course rebuilds, and racquet facilities through assessments on members.
-- **Condo reserves.** Since Florida tightened structural reserve requirements for older buildings, some associations have raised dues or levied special assessments. Read the reserve study and two years of meeting minutes.
+For any specific community, pin down each of these on paper:
+
+- [ ] **HOA dues**, and precisely what they include. Two communities at similar dues can bundle wildly different things.
+- [ ] **Whether club membership is mandatory.** In several Boca communities it is not optional.
+- [ ] **The one-time initiation fee**, which in the top-tier clubs is a significant capital outlay in its own right.
+- [ ] **Ongoing club dues**, separate from HOA.
+- [ ] **Food and beverage minimums** — an annual spend requirement at club dining that buyers routinely forget to count.
+- [ ] **Capital assessments.** Clubs periodically fund clubhouse renovations, course rebuilds, and racquet facilities through assessments on members.
+- [ ] **Condo reserves.** Since Florida tightened structural reserve requirements for older buildings, some associations have raised dues or levied special assessments. Read the reserve study and two years of meeting minutes.
 
 **Get the full written breakdown before you fall in love with a house.** A west Boca home that looks like a bargain next to an east Boca listing can carry an obligation that closes the gap entirely — or reverses it.
 
@@ -4685,17 +4736,31 @@ Lawn and pest service are standing monthly costs. And if you're west of I-95, fa
 
 ## Running your own number
 
-Build the full monthly figure for a **specific address**:
+Build the full monthly figure for a **specific address**. The worksheet above does the arithmetic; this is the order to gather and verify each input.
 
-- Mortgage principal and interest
-- Property taxes **at a reset assessment**, homestead applied if primary
-- Homeowners insurance, actually quoted
-- Flood insurance if the zone requires it
-- HOA dues, and what they include
-- **Club initiation, dues, and any food and beverage minimum**
-- Any pending or recent capital assessment
-- Electric, water, internet
-- Lawn, pest, and pool service
+### 1. Financing
+
+- [ ] Mortgage principal and interest
+
+### 2. Taxes
+
+- [ ] Property taxes **at a reset assessment**, homestead applied if primary
+
+### 3. Insurance
+
+- [ ] Homeowners insurance, actually quoted
+- [ ] Flood insurance if the zone requires it
+
+### 4. Community obligations
+
+- [ ] HOA dues, and what they include
+- [ ] **Club initiation, dues, and any food and beverage minimum**
+- [ ] Any pending or recent capital assessment
+
+### 5. Running costs
+
+- [ ] Electric, water, internet
+- [ ] Lawn, pest, and pool service
 
 ## Renovation and maintenance
 
@@ -4721,10 +4786,11 @@ What decides whether it works for you isn't the list price — it's the club. Ge
       { q: "Does Boca Raton have a state income tax?", a: "No — Florida has no state income tax, which is a recurring annual benefit and a genuine part of why the city attracts relocating executives and retirees." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-boca-raton-florida", "best-neighborhoods-in-boca-raton-florida", "boca-raton-vs-nearby-cities"],
-    funFact: "Boca Raton consistently ranks in the top 10 most expensive cities in Florida by median household income and home values — but property taxes are partially offset by the no-state-income-tax advantage. For high earners relocating from California, New York, or New Jersey, the after-tax math often still favors Boca despite the sticker price.",
+    funFact: "Ask for two documents on any Boca listing before you compare prices: the community's full written fee schedule, including any club obligation, and the property's tax history from the Palm Beach County Property Appraiser. Together they show what the monthly number is likely to be after closing, not before.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-17',
   },
   {
     slug: 'hidden-gems-in-boca-raton-florida',

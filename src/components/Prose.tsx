@@ -4,7 +4,7 @@ import { headingId } from '@/lib/headingId'
 
 /**
  * Minimal markdown renderer for article bodies.
- * Supports: ## h2, ### h3, - bullet lists, > blockquote, **bold**, *italic*
+ * Supports: ## h2, ### h3, - bullet lists, - [ ] checklists, > blockquote, **bold**, *italic*
  * and [label](url) inline, paragraphs, and standalone images. Dependency-free.
  *
  * Images use markdown syntax on their own line, with an optional caption:
@@ -81,6 +81,27 @@ export default function Prose({ content, className = '' }: { content: string; cl
     }
   }
   const flushList = () => {
+    // A list whose every item starts with "[ ] " is a to-do checklist: square
+    // markers instead of bullets. The squares are decorative — this is a
+    // reading aid, not a form — so nothing is focusable and nothing is stored.
+    const CHECK = '[ ] '
+    if (list.length && list.every((item) => item.startsWith(CHECK))) {
+      blocks.push(
+        <ul key={`c${key++}`} className="mt-5 space-y-3">
+          {list.map((item, i) => (
+            <li key={i} className="flex gap-3 leading-7 text-slate-600">
+              <span
+                aria-hidden="true"
+                className="mt-1.5 inline-block h-4 w-4 shrink-0 rounded-[3px] border-2 border-gold-500"
+              />
+              <span>{renderInline(item.slice(CHECK.length), `c${key}-${i}`)}</span>
+            </li>
+          ))}
+        </ul>,
+      )
+      list = []
+      return
+    }
     if (list.length) {
       blocks.push(
         <ul key={`u${key++}`} className="mt-5 space-y-2 pl-5">

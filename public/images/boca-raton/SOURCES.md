@@ -54,3 +54,17 @@ storefronts, white green-market tents, parked cars, an open-top Moke in the fore
 A small "Do Not Enter" street sign is visible centre-right in all three — real street furniture, not
 overlaid text. The parent is also the hero of `local-guide-to-boca-raton-florida` (centre-cropped there).
 Alt text describes the scene; it does not name the plaza or assert the location.
+
+## Derived crop of `boca-luxury-pool.jpg` (added 2026-09-17)
+
+- **boca-raton-community-pool-mobile.webp** — 1200x800 (3:2). Source region x900 y0, 4600x3067 of
+  `public/public/Boca Raton/boca-luxury-pool.jpg` (5500x3095; credited "Photo by Brian Zajac / Unsplash" in
+  `communities.ts`). Drops most of the blank clubhouse wall so a phone shows the cabana, pool, spa and palms.
+  Used on: `cost-of-living-in-boca-raton-florida` (mobile hero; desktop and the social/JSON-LD image stay the
+  original file, so the existing Open Graph relationship is unchanged).
+
+What it shows: a shared community amenity — clubhouse, cabana, pool and spa, rows of loungers, shaded patio
+tables, a posted "No Diving" sign. Not a private home, which is why it suits an article about HOA and club
+obligations. ⚠️ The image looks like it may be an architectural rendering rather than a photograph (uniform
+lighting, pristine surfaces). Alt text describes the scene and does not call it a photo; confirm on Unsplash
+before describing it as photography anywhere.
