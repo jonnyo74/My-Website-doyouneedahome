@@ -125,3 +125,19 @@ SOURCES.md for the Unsplash License record, photographer credits and the screeni
 
 The three category images carry a visible caption marking them illustrative, because the article names real
 restaurants and a photo next to a venue list would otherwise read as a photo of that venue.
+
+## Derived crops of boca-raton-skatepark.jpg (added 2026-09-17)
+
+Crops of the existing `boca-raton-skatepark.jpg` (6000x4000, 7.3MB — far too heavy to serve as a hero).
+Same photo, same credit: "Empty skate park with ramps and rails" by Reinis Brūzītis / Unsplash.
+
+- **boca-raton-skatepark-wide.webp** — 2400x1200 (2:1), source region y500, 6000x3000. Desktop hero and the
+  Open Graph / JSON-LD image.
+- **boca-raton-skatepark-mobile.webp** — 1200x675 (16:9), source region x600 y700, 4800x2700. The article opts
+  into a 16:9 stacked hero (`mobileAspect`) because its H1 runs five lines on a phone.
+  Used on (both): `boca-raton-north-park-skatepark-recreation-complex`
+
+⚠️ This is a REPRESENTATIVE image: a skatepark somewhere else, standing in for a facility that has not been
+built. The article's alt text says "used here as a representative image" and a visible caption under the hero
+says it is not the North Park design. Do not remove that caption while this photo is in use, and do not swap in
+the District's official renderings — the District's site asserts "All Rights Reserved" with no media-use terms.

@@ -15,6 +15,7 @@ import KeyFactors from '@/components/article/KeyFactors'
 import DiscoveryGuide from '@/components/article/DiscoveryGuide'
 import ComparisonShortlist from '@/components/article/ComparisonShortlist'
 import ComparisonGuide from '@/components/article/ComparisonGuide'
+import { ProjectStatusCard, ProjectTimeline, ProjectTracking } from '@/components/article/ProjectStatus'
 import { getCommunityBySlug } from '@/lib/communities'
 import Prose from '@/components/Prose'
 import CitySearchButtons from '@/components/CitySearchButtons'
@@ -226,6 +227,7 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* Hero */}
       {editorial ? (
+        <>
         <EditorialHero
           editorial={editorial}
           h1={article.h1}
@@ -246,6 +248,14 @@ export default async function ArticlePage({ params }: Props) {
             }),
           }}
         />
+        {/* Marks a hero that stands in for the subject rather than showing it —
+            a representative photo, or artwork that is subject to change. */}
+        {article.heroImageCaption && (
+          <p className="mx-auto max-w-6xl px-6 pt-3 text-xs italic leading-5 text-slate-500 sm:px-8">
+            {article.heroImageCaption}
+          </p>
+        )}
+        </>
       ) : article.heroImage ? (
         <>
         <section className="relative h-[52vh] min-h-[380px] overflow-hidden">
@@ -305,6 +315,9 @@ export default async function ArticlePage({ params }: Props) {
       {/* Comparison articles open with a full-width shortlist, wider than the reading column. */}
       {editorial?.comparison && <ComparisonShortlist comparison={editorial.comparison} />}
 
+      {/* Civic projects lead with how mature the project actually is. */}
+      {editorial?.civicProject && <ProjectStatusCard status={editorial.civicProject.status} />}
+
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
         {editorial?.keyFactors && <KeyFactors data={editorial.keyFactors} />}
         {editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
@@ -330,6 +343,14 @@ export default async function ArticlePage({ params }: Props) {
             <BodyWithTool content={article.body} tool={editorial?.tool} />
           )}
         </div>
+
+        {/* Sourced milestones, then where to watch for the next one. */}
+        {editorial?.civicProject && (
+          <>
+            <ProjectTimeline timeline={editorial.civicProject.timeline} />
+            <ProjectTracking tracking={editorial.civicProject.tracking} />
+          </>
+        )}
 
         {/* City page link */}
         {community && (

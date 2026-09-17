@@ -125,6 +125,8 @@ function Credit({ credit }: { credit?: string }) {
 
 export default function EditorialHero(props: Props) {
   const { editorial, image } = props
+  // Tailwind needs whole class names, so both variants are written out.
+  const stacked = editorial.mobileAspect === '16/9' ? 'aspect-[16/9]' : 'aspect-[3/2]'
   const panel = editorial.heroLayout === 'split' ? editorial.panelImage : undefined
   const split = Boolean(panel)
   // Desktop candidate: the tall panel crop in the split layout, the wide crop
@@ -171,7 +173,7 @@ export default function EditorialHero(props: Props) {
           {/* Photo first in source so it leads on phones; the grid moves it
               right on wider screens. aspect-ratio reserves its box before it
               paints, so nothing below shifts. */}
-          <div className="relative aspect-[3/2] overflow-hidden md:order-2 md:my-10 md:aspect-[4/5] md:max-h-[640px] md:rounded-sm lg:my-12">
+          <div className={`relative ${stacked} overflow-hidden md:order-2 md:my-10 md:aspect-[4/5] md:max-h-[640px] md:rounded-sm lg:my-12`}>
             {picture}
             <Credit credit={image.credit} />
           </div>
@@ -189,7 +191,7 @@ export default function EditorialHero(props: Props) {
     <header className="relative bg-navy-950 md:aspect-[16/9] md:min-h-[600px] lg:aspect-[2.2/1] lg:max-h-[780px]">
       {/* The box reserves its height from aspect-ratio before the image
           arrives, so nothing below shifts when it paints. */}
-      <div className="relative aspect-[3/2] overflow-hidden md:absolute md:inset-0 md:aspect-auto">
+      <div className={`relative ${stacked} overflow-hidden md:absolute md:inset-0 md:aspect-auto`}>
         {picture}
         {/* Scrim only where text sits: a left-weighted wash on wide screens.
             Keeps every overlaid line at or above WCAG AA against the

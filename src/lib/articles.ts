@@ -83,12 +83,48 @@ export interface ArticleComparison {
   costCallout: { heading: string; body: string }   // body is markdown
 }
 
+/**
+ * A live civic project: a status card, a source-backed timeline and a block of
+ * official links. Every field is meant to carry a primary source, because the
+ * whole point is letting a reader tell a concept from a funded, built thing.
+ */
+export interface CivicProject {
+  status: {
+    heading: string
+    /** Short label/value pairs: current status, lead agency, location context… */
+    items: Array<{ label: string; value: string }>
+    /** What is NOT settled. Kept separate so it can never read as confirmed. */
+    unconfirmedLabel: string
+    unconfirmed: string[]
+    /** ISO date the claims were last checked against primary sources. */
+    lastVerified: string
+    source: ArticleLink
+  }
+  timeline: {
+    heading: string
+    intro?: string
+    /** Verified milestones only — no projected or invented future dates. */
+    items: Array<{ date: string; dateLabel: string; title: string; text?: string; source?: ArticleLink }>
+    note?: string
+  }
+  tracking: {
+    heading: string
+    intro?: string
+    links: ArticleLink[]
+    note?: string
+  }
+}
+
 export interface ArticleEditorial {
   eyebrow: string
   deck: string                // shown in the hero, so the body must not repeat it
   // Art-directed crop for narrow screens. heroImage (with heroImageWidth/Height)
   // is the wide version and stays the Open Graph / JSON-LD image.
   mobileImage: { src: string; width: number; height: number }
+  // Height of the stacked hero image on phones. '3/2' (default) or '16/9' for
+  // articles whose headline and deck need the extra vertical room — a long H1
+  // otherwise pushes the CTAs under the sitewide call bar.
+  mobileAspect?: '3/2' | '16/9'
   // 'overlay' (default): full-bleed wide image with text over a dark scrim.
   // 'split': text on a light panel beside a tall image, for articles that
   // share a photo with a sibling post and need their own look.
@@ -123,6 +159,9 @@ export interface ArticleEditorial {
   // article, then one H2 section per alternative, a priority framework and a
   // cost callout, all rendered above the body.
   comparison?: ArticleComparison
+  // Live civic project: status card under the hero, then a sourced timeline and
+  // official tracking links after the body.
+  civicProject?: CivicProject
   // "after-expert-note" moves the lead-magnet CTA out of the reading flow to sit
   // under the Local Expert Note, and drops the end-of-article repeat.
   magnetPlacement?: 'after-expert-note'
@@ -5634,86 +5673,214 @@ Boca is running this in public — a funded scope, a defined set of phases, and 
     order: 12,
     seoTitle: "North Park's New Skatepark & Recreation Complex: What's Coming to This Corner of Boca Raton",
     metaTitle: 'Boca Raton North Park Skatepark & Recreation Plans',
-    metaDescription: 'The Greater Boca Raton Beach & Park District presented conceptual plans for a new skatepark, pump track, and recreation complex at North Park — here is what is proposed and what is still unknown.',
+    metaDescription: 'Where the North Park skatepark and pump track actually stands: design approved, a construction contract awarded, the site plan cleared — and no build date yet.',
     primaryKeyword: 'North Park Boca Raton skatepark',
-    secondaryKeywords: ['Boca Raton pump track', 'North Park development Boca Raton', 'new parks in Boca Raton'],
+    secondaryKeywords: ['Boca Raton pump track', 'North Park development Boca Raton', 'new parks in Boca Raton', 'North Park Boca Teeca'],
     h1: "North Park's New Skatepark & Recreation Complex: What's Coming to This Corner of Boca Raton",
-    heroImage: '/images/boca-raton/boca-raton-skatepark.jpg',
+    // A stock skatepark photo standing in for a project that hasn't been built.
+    // The alt text and caption both have to say so — an unlabelled photo here
+    // reads as "this is the North Park facility", which would be false.
+    heroImage: '/images/boca-raton/boca-raton-skatepark-wide.webp',
+    heroImageAlt: 'A generic empty skatepark with concrete ramps and rails, used here as a representative image',
+    heroImageCaption: 'Representative image of a skatepark elsewhere — not the North Park design, which has not been built. Photo by Reinis Brūzītis / Unsplash.',
     heroImageCredit: 'Photo by Reinis Brūzītis / Unsplash',
-    body: `If you live near — or are looking at homes near — the northern end of Boca Raton, City Council just previewed something that could turn one of the city's park properties into a genuine active-recreation destination.
+    heroImageWidth: 2400,
+    heroImageHeight: 1200,
+    editorial: {
+      eyebrow: 'Boca Raton Project Tracker',
+      deck: 'Approved and under contract. Not yet built.',
+      mobileImage: { src: '/images/boca-raton/boca-raton-skatepark-mobile.webp', width: 1200, height: 675 },
+      mobileAspect: '16/9',
+      primaryCta: { label: 'Explore Boca Raton Neighborhoods', href: '/communities/boca-raton' },
+      secondaryCta: { label: 'Track the official project', href: '#how-to-follow' },
+      magnetPlacement: 'after-expert-note',
+      quickFit: {
+        heading: 'The amenities, sorted by how settled they are',
+        fitHeading: 'Approved in the skatepark design',
+        fit: [
+          'A multi-use street course, pump tracks, and transition and bowl areas — the concept the District board approved on January 20, 2026',
+          'Shaded green space, landscape buffering and low-impact lighting, approved as part of that concept',
+          'A site plan for the southern portion of North Park, cleared by the City on September 3, 2026',
+          'A construction agreement with American Ramp Company for roughly $3 million, awarded May 4, 2026',
+        ],
+        elsewhereHeading: 'Elsewhere at North Park, on its own track',
+        elsewhere: [
+          'The traffic garden opened in August 2025 — built and in use',
+          'Boca Paddle, the pickleball and padel complex, is under construction',
+          'Trails, a dog park and a playground on the east side broke ground on September 3, 2026 — a separate phase from the skatepark',
+          'A field house and aquatic facilities remain conceptual, with no approved design',
+        ],
+      },
+      civicProject: {
+        status: {
+          heading: 'Project status',
+          items: [
+            {
+              label: 'Current status',
+              value:
+                'Design approved and a construction contract awarded by the District; the City cleared the site plan on September 3, 2026. Construction of the skatepark has not started, and no permit issuance, build date or opening date is on the record.',
+            },
+            {
+              label: 'Lead agency',
+              value:
+                'The Greater Boca Raton Beach & Park District, which owns the land, approved the design and holds the construction contract. The City of Boca Raton is the land-use and permitting authority, not the project owner.',
+            },
+            {
+              label: 'Location',
+              value:
+                'North Park — the former Ocean Breeze golf course property in Boca Teeca, which the City identifies as roughly 69.49 acres of a 74.72-acre site at 5800 NW 2nd Avenue. The skatepark sits on the southern portion.',
+            },
+            {
+              label: 'Approved design',
+              value:
+                'A multi-use street course, pump tracks, and transition and bowl areas, with shaded green space, landscape buffering and low-impact lighting.',
+            },
+            {
+              label: 'Contract',
+              value:
+                'Roughly $3 million to American Ramp Company through a Sourcewell cooperative purchasing contract, approved May 4, 2026 — with construction to proceed only after permitting and City approvals.',
+            },
+          ],
+          unconfirmedLabel: 'Not confirmed by any primary source',
+          unconfirmed: [
+            'The City’s share of the cost. The District says the City committed to two-thirds of construction, but no council vote, resolution or executed interlocal agreement for the skatepark is on the record.',
+            'A total project cost. The $3.6 million figure in circulation appears only in press coverage; the District’s own approved contract is about $3 million.',
+            'The facility’s size. Figures from 42,000 to 60,000 square feet have been reported, with no single official number published.',
+            'Building permits, a construction start, and an opening date.',
+            'Final parking arrangements for the skatepark, and whether it gets its own address.',
+          ],
+          lastVerified: '2026-09-17',
+          source: { label: "The District's North Park project page", href: 'https://www.mybocaparks.org/north-park-project' },
+        },
+        timeline: {
+          heading: 'Project timeline',
+          intro:
+            'Only milestones that appear in District minutes, City agendas or official District announcements. Where a detail is reported but not in a primary record, it is left out.',
+          items: [
+            {
+              date: '2018',
+              dateLabel: '2018',
+              title: 'The District buys the Ocean Breeze golf course',
+              text: 'The defunct course in Boca Teeca becomes the property now called North Park.',
+              source: { label: 'District: North Park project', href: 'https://www.mybocaparks.org/north-park-project' },
+            },
+            {
+              date: '2025-08-06',
+              dateLabel: 'August 6, 2025',
+              title: 'First skatepark design workshop',
+              text: 'Public input session funded through a Plant-A-Park grant.',
+              source: { label: 'District: workshop provides skatepark input', href: 'https://www.mybocaparks.org/news/workshop-provides-skatepark-input' },
+            },
+            {
+              date: '2025-12-17',
+              dateLabel: 'December 17, 2025',
+              title: 'Second design workshop',
+              text: 'Held with the District, its designers and American Ramp Company.',
+              source: { label: 'City: recreation projects page', href: 'https://myboca.us/2804/Recreation-Relocations-Improvements' },
+            },
+            {
+              date: '2026-01-20',
+              dateLabel: 'January 20, 2026',
+              title: 'District board approves the design',
+              text: 'The board unanimously approved the conceptual design for the skatepark and pump track and authorized construction documents and permitting.',
+              source: { label: 'District minutes, January 20, 2026 (PDF)', href: 'https://www.mybocaparks.org/sites/default/files/documents/2026/2026%20minutes/Approved%20Minutes%2001-20-2026.pdf' },
+            },
+            {
+              date: '2026-05-04',
+              dateLabel: 'May 4, 2026',
+              title: 'Construction contract awarded',
+              text: 'The board unanimously approved an agreement with American Ramp Company for about $3 million, with construction to proceed only once permitting and City approvals are complete.',
+              source: { label: 'District minutes, May 4, 2026 (PDF)', href: 'https://www.mybocaparks.org/sites/default/files/documents/2026/2026%20minutes/Approved%20Minutes%2005-04-2026_260518_175951.pdf' },
+            },
+            {
+              date: '2026-07-27',
+              dateLabel: 'July 27, 2026',
+              title: 'Presentation to City Council',
+              text: "The District's executive director briefed a Council workshop. A presentation, not a vote — this is the item the earlier version of this article was written from.",
+              source: { label: 'City Council workshop agenda', href: 'https://bocaraton.granicus.com/AgendaViewer.php?view_id=9&clip_id=3087' },
+            },
+            {
+              date: '2026-09-03',
+              dateLabel: 'September 3, 2026',
+              title: 'City clears the skatepark site plan',
+              text: 'The Planning & Zoning Board took final action on an amendment authorizing construction of the skate park on the southern portion of North Park.',
+              source: { label: 'Planning & Zoning agenda, September 3, 2026', href: 'https://bocaraton.granicus.com/AgendaViewer.php?view_id=9&clip_id=3098' },
+            },
+            {
+              date: '2026-09-03',
+              dateLabel: 'September 3, 2026',
+              title: 'Groundbreaking — but for the east side, not the skatepark',
+              text: "The District broke ground on North Park's trails, dog park and playground. The announcement does not mention the skatepark, which remains unbuilt. It is an easy one to misread.",
+              source: { label: 'District: breaking ground at North Park', href: 'https://www.mybocaparks.org/news/district-breaks-ground-north-park' },
+            },
+          ],
+          note: 'As of the last verified date above, no skatepark-specific item appears on the District or City meeting calendars. We add a milestone here only when an official record shows one.',
+        },
+        tracking: {
+          heading: 'How to follow updates',
+          intro:
+            'The District leads the project because it owns the land, approved the design and holds the contract, so its board is where status actually changes; City agendas show the permitting and land-use steps rather than final project decisions.',
+          links: [
+            { label: 'District: North Park project page', href: 'https://www.mybocaparks.org/north-park-project' },
+            { label: 'District board agendas', href: 'https://www.mybocaparks.org/meeting-agendas' },
+            { label: 'District board minutes', href: 'https://www.mybocaparks.org/meeting-minutes' },
+            { label: 'City of Boca Raton agendas and meeting video', href: 'https://bocaraton.granicus.com/ViewPublisher.php?view_id=9' },
+            { label: 'City: recreation projects page', href: 'https://myboca.us/2804/Recreation-Relocations-Improvements' },
+          ],
+          note: 'This page is updated only when an official milestone changes, and the "last verified" date above says when we last checked.',
+        },
+      },
+    },
+    body: `## What actually happened, in order
 
-## What was actually presented
+The short version: this is no longer a sketch, and it is not a construction site either.
 
-At the July 27–28, 2026 Council meeting, the **Greater Boca Raton Beach & Park District** gave Council an overview of a proposed skatepark planned as part of the future **North Park** development. The presentation covered conceptual design and proposed location, and — more importantly for anyone tracking the neighborhood long-term — described how the skatepark would fit alongside a much larger list of planned amenities: a **pump track**, a **mountain bike trail**, fitness areas, walking paths, and expanded parking.
+The Greater Boca Raton Beach & Park District board **approved the design in January 2026** and told its consultants to prepare construction documents and pursue permits. In **May 2026** the board **awarded a construction contract** of about $3 million — explicitly conditioned on permitting and City approvals landing first. In **July 2026** the District's executive director gave City Council a briefing, which is the presentation an earlier version of this article was built around. On **September 3, 2026** the City's Planning & Zoning Board took final action on the site plan amendment that authorizes the skate park on the southern portion of North Park.
 
-This is a conceptual overview, not a groundbreaking. No funding vote, construction timeline, or opening date accompanied it. What exists right now is a design direction the District is pursuing, presented to Council for awareness and discussion — the kind of early-stage update that's worth knowing about, but not worth over-weighting yet.
+What has not happened: a skatepark groundbreaking. The District did break ground at North Park on September 3, but on the east side of the property — trails, a dog park and a playground. That is a separate phase, and conflating the two is the single easiest mistake to make with this project.
 
-## Who actually runs Boca's parks? (It's not who you'd assume)
+## Who runs Boca's parks, and why it matters here
 
-Here's a fact that surprises a lot of people relocating to Boca: the Greater Boca Raton Beach & Park District is a separate, independently elected special taxing district — not a department of City Council. It has its own board, its own budget, and its own millage rate on your property tax bill, distinct from both the City of Boca Raton and Palm Beach County. It's the entity that actually owns and operates most of Boca's beach parks and a large share of its inland parks, including the property behind this project.
+A fact that surprises people relocating to Boca: the Greater Boca Raton Beach & Park District is a separate, independently elected special taxing district — not a department of the City. It has its own board, its own budget and its own millage on your property tax bill, and it owns North Park, which it bought as a defunct golf course in 2018.
 
-That's why this story showed up as an "overview" to City Council rather than a City vote — the District runs the project and holds the purse strings, while Council's role here is closer to coordination and public awareness. If you want to track funding, timeline, or design updates going forward, the District's own public meetings are the more direct source, not City Council's agenda.
+That split explains why this project keeps appearing in two places. The District owns the land, approves the design and signs the contracts. The City is the land-use and permitting authority, which is why the September step happened at a City board rather than a District one, and why the July Council item was a briefing rather than a vote.
 
-## What's actually being proposed
+Practically: **if you want to know whether the project moved, watch the District.** City agendas tell you about permits and land use.
 
-Based on the conceptual overview, North Park's future build-out is aimed at active, multi-generational recreation rather than a single amenity:
+## What we still don't know
 
-- A **skatepark** — the anchor amenity in this presentation
-- A **pump track** — a looped, rolling-terrain course for bikes, skateboards, and scooters
-- A **mountain bike trail**
-- **Fitness areas** for outdoor exercise
-- **Walking paths** connecting the site
-- **Expanded parking** to support all of the above
+- **Who is paying for what.** The District says the City committed to two-thirds of construction cost. We could not find a council vote, a resolution, a budget line or an executed interlocal agreement for it, so treat the split as asserted rather than settled.
+- **The total cost.** The District's own approved contract is about $3 million. The $3.6 million total quoted in press coverage does not appear in any primary document we could find.
+- **How big it is.** Reported sizes run from 42,000 to 60,000 square feet. The District does not publish a figure on its project page.
+- **When.** No permit issuance, construction start or opening date is on the record.
 
-Taken together, that's a meaningfully more active recreational profile than a lot of Boca's older parks currently offer — closer to the multi-sport, multi-generational facility mix that has become a genuine differentiator in newer Florida park systems.
+## If you live nearby, or are buying nearby
 
-## Why this matters for nearby homeowners and buyers
+This is a real facility heading toward construction near homes, so the neutral version is worth stating plainly.
 
-Active recreation amenities like skateparks and pump tracks pull a specific, loyal user base — often teens, tweens, and cycling or boarding enthusiasts — and parks built around that use tend to become genuine neighborhood anchors rather than passive green space nobody visits. If you're evaluating a home in this part of Boca and have kids into boarding or biking, or you're a rider yourself, a build-out like this is worth factoring into your longer-term view of the neighborhood, even though it isn't open yet and shouldn't move your timeline.
+An active recreation facility brings use: cars, arrivals and departures, and noise that carries differently outdoors than indoors. The approved design includes landscape buffering and low-impact lighting, and the District has described the skating features as sitting more than 300 feet from homes. Construction itself is its own period of trucks, dust and noise, whenever it begins.
 
-It's also a reminder that Boca's parks system keeps investing, which is a healthy signal for a city's long-term livability, separate from what City Hall itself is doing downtown — see our piece on the [Downtown Civic Area and Memorial Park master plan](/blog/boca-raton-downtown-civic-area-memorial-park-master-plan) for the other major public-space project moving through the pipeline at the same time.
-
-## How to follow a proposal like this
-
-If a project genuinely affects a property you own or are considering, the useful habit is to track it at the source rather than through summaries.
-
-City agendas and minutes are published ahead of meetings and are the authoritative record of what was actually decided versus what was merely presented. Public comment periods are typically the point at which resident input carries the most weight, and they are frequently missed by the people most affected simply because nobody was watching the calendar.
-
-The distinction worth holding onto: a concept shown to council is not an approved plan, an approved plan is not a funded project, and a funded project is not a construction schedule. Each of those steps can take a year or more.
-
-## What this pattern usually means for nearby values
-
-General context rather than a prediction about this specific proposal.
-
-Recreational investment near residential areas tends to cut two ways. Improved facilities within walking or short driving distance are generally treated as an amenity, particularly by buyers with children. Immediately adjacent properties can see the opposite effect during construction, and sometimes afterward, from traffic, lighting, and noise depending on the facility type and hours.
-
-The distinction that usually matters is proximity. "Near a good park" and "backing onto a busy park" are different propositions, and buyers should walk the specific site at the hours the facility would actually be in use before drawing conclusions.
-
-## What we don't know yet
-
-- **Exact boundaries and address** — North Park was described by function in the presentation, not a confirmed public-facing address. Verify the specific site directly with the Beach & Park District before assuming a location.
-- **Timeline** — no construction start or opening date has been announced.
-- **Budget and funding source** — not detailed in the Council overview.
-- **Final design** — this was a conceptual presentation, and details commonly shift during permitting and community input.
-
-## Where to verify this yourself
-
-The Greater Boca Raton Beach & Park District posts its own meeting agendas and project updates independently of City Council — that's the source to check for the latest status, not this article or a City Council recap.
+Whether that reads as an amenity or an intrusion depends on where a specific home sits relative to the site and on when the facility is actually in use. Walk the property at the hours you would care about before you draw conclusions, and read the approved site plan rather than a listing description. **We don't predict what any of this does to prices, and you should be skeptical of anyone who does** — particularly a marketing sheet that lists an unbuilt park as a feature.
 
 ## Our take
 
-This is genuinely good news for anyone drawn to Boca's northern neighborhoods and an active, outdoors-first lifestyle — but treat it as a "watch this," not a done deal. If a listing anywhere near North Park mentions this project as a selling point, ask when you can actually verify status directly with the Beach & Park District rather than taking a marketing sheet's word for it.`,
+Further along than most people realize, and further from opening than the September groundbreaking coverage suggested. A design is approved, a contractor is under contract, and the City has cleared the site plan — which is a genuinely different stage from where this article started in July.
+
+The honest position is still: watch it at the source, and don't assume a build date exists until the District publishes one.`,
     faqs: [
-      { q: 'What is being built at North Park in Boca Raton?', a: 'A conceptual plan presented to City Council includes a skatepark, pump track, mountain bike trail, fitness areas, walking paths, and expanded parking. No funding, timeline, or final design has been confirmed yet.' },
-      { q: 'Who manages Boca Raton\'s parks?', a: 'The Greater Boca Raton Beach & Park District, an independently elected special taxing district with its own budget and millage rate, manages most of the city\'s beach and inland parks — separate from City Council and Palm Beach County.' },
-      { q: 'Is the North Park skatepark approved and funded?', a: 'Not yet. City Council received a conceptual overview from the Beach & Park District, but no construction funding, timeline, or final design has been announced.' },
-      { q: 'Where is North Park located in Boca Raton?', a: 'The presentation described North Park by function rather than a confirmed public address. Verify the exact site and boundaries directly with the Greater Boca Raton Beach & Park District.' },
+      { q: 'What is being built at North Park in Boca Raton?', a: 'A skatepark and pump track. The Greater Boca Raton Beach & Park District board approved the design in January 2026 — a multi-use street course, pump tracks, and transition and bowl areas, with shaded green space, landscape buffering and low-impact lighting — and the City cleared the site plan on September 3, 2026. Separately, North Park already has a traffic garden that opened in 2025, a pickleball and padel complex under construction, and trails, a dog park and a playground that broke ground in September 2026.' },
+      { q: 'Has the North Park skatepark been approved and funded?', a: 'The design is approved and a construction contract of roughly $3 million was awarded to American Ramp Company in May 2026, conditioned on permitting and City approvals. The funding split is less clear: the District says the City committed to two-thirds of construction cost, but no council vote, resolution or executed interlocal agreement for that is on the public record, so treat it as asserted rather than confirmed.' },
+      { q: 'Has construction started on the North Park skatepark?', a: 'No. The District broke ground at North Park on September 3, 2026, but that was for the east-side trails, dog park and playground — a separate phase. No permit issuance, construction start or opening date for the skatepark is on the record.' },
+      { q: "Who manages Boca Raton's parks?", a: "The Greater Boca Raton Beach & Park District, an independently elected special taxing district with its own board, budget and millage rate — separate from City Council and Palm Beach County. It owns North Park, which it bought as a defunct golf course in 2018. The City of Boca Raton is the land-use and permitting authority for projects on District land, which is why approvals for this project happen at both." },
+      { q: 'Where is North Park located in Boca Raton?', a: 'It is the former Ocean Breeze golf course property in the Boca Teeca area. City records identify the site as roughly 69.49 acres of a 74.72-acre property at 5800 NW 2nd Avenue, with the skatepark on the southern portion. A separate address for the skatepark itself has not been published.' },
+      { q: 'How do I check the current status of the project?', a: "Use the District's North Park project page and its board agendas and minutes, since the District owns the land and approves the design and contracts. City agendas cover the permitting and land-use steps. Both are linked in the 'How to follow updates' section of this article." },
     ],
     internalLinks: ['best-things-to-do-in-boca-raton-florida', 'best-neighborhoods-in-boca-raton-florida', 'boca-raton-downtown-civic-area-memorial-park-master-plan'],
-    funFact: "Most people assume City Hall runs every park in town, but Boca's beach and park system is actually controlled by an independently elected special district with its own taxing authority — a structure that goes back to a 1970s-era push to keep beach access and park funding insulated from city budget politics. It's a quirk of Florida municipal government that shows up in your tax bill line-items whether you notice it or not.",
+    funFact: "Most people assume City Hall runs every park in town. In Boca, the Greater Boca Raton Beach & Park District is an independently elected special taxing district with its own board, budget and millage — and it owns North Park outright, having bought the failed Ocean Breeze golf course in 2018. That's why a project on District land still needs City site-plan approval: two separate public bodies, two separate meeting calendars, and only one of them owns the land.",
     author: 'christine',
     published: true,
-    updated: '2026-07-31',
+    publishedDate: '2026-07-31',
+    updated: '2026-09-17',
   },
   {
     slug: 'boca-raton-downtown-parking-condo-buyers-guide',
