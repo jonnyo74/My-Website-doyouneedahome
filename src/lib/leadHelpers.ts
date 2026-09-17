@@ -139,6 +139,10 @@ export function buildLeadNote(sub: LeadSubmission): string {
     magnet
       ? `Downloaded "${magnet.title}" (${sub.magnetEdition ?? magnet.edition} edition, id ${magnet.id}) from doyouneedahome.com.`
       : null,
+    // These leads are submitted with no assignedTo, so Follow Up Boss's own
+    // lead distribution picks the agent. Whoever it lands on is the one who
+    // calls — said here because the record itself names no agent.
+    'In rotation — call this lead.',
     sub.interest ? `Primarily interested in: ${sub.interest}.` : null,
     sub.phone ? 'Phone was provided.' : 'Phone was not provided.',
     magnet ? `Lead magnet landing page: ${SITE_URL}${magnet.landingPage}` : null,
