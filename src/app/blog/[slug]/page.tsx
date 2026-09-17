@@ -13,6 +13,8 @@ import { WORKSHEET_HEADING, WORKSHEET_HEADING_ID } from '@/lib/carryingCost'
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import KeyFactors from '@/components/article/KeyFactors'
 import DiscoveryGuide from '@/components/article/DiscoveryGuide'
+import ComparisonShortlist from '@/components/article/ComparisonShortlist'
+import ComparisonGuide from '@/components/article/ComparisonGuide'
 import { getCommunityBySlug } from '@/lib/communities'
 import Prose from '@/components/Prose'
 import CitySearchButtons from '@/components/CitySearchButtons'
@@ -300,10 +302,14 @@ export default async function ArticlePage({ params }: Props) {
       {/* Single Ylopo script initializer — fires once on mount, picks up all widget divs */}
       <YlopoInit city={article.cityName} />
 
+      {/* Comparison articles open with a full-width shortlist, wider than the reading column. */}
+      {editorial?.comparison && <ComparisonShortlist comparison={editorial.comparison} />}
+
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
         {editorial?.keyFactors && <KeyFactors data={editorial.keyFactors} />}
         {editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
         {editorial?.guide && <DiscoveryGuide guide={editorial.guide} />}
+        {editorial?.comparison && <ComparisonGuide comparison={editorial.comparison} />}
 
         <div className="relative">
           {sections.length > 0 && <ArticleToc sections={sections} />}

@@ -39,6 +39,37 @@ export interface ArticleGuide {
   categories: Array<{ id: string; title: string; intro?: string; places: GuidePlace[] }>
 }
 
+/** One alternative in a "City vs nearby cities" comparison. */
+export interface ComparisonPlace {
+  id: string                  // anchor for the section's H2
+  name: string                // shortlist label, e.g. 'Deerfield Beach & Pompano Beach'
+  heading: string             // section H2, e.g. 'Boca Raton vs Delray Beach'
+  county: string
+  /** Shown when one row covers several separate municipalities. */
+  grouping?: string
+  // Shortlist cells — qualitative only: no scores, prices, drive times or ratings.
+  bestFor: string
+  weigh: string
+  whyHome: string
+  body: string                // markdown
+  chooseThem: { label: string; text: string }
+  chooseHome: { label: string; text: string }
+  note?: { label: string; text: string }
+}
+
+export interface ArticleComparison {
+  shortlist: { heading: string; intro?: string; whyHomeHeading: string; footnote?: string }
+  places: ComparisonPlace[]
+  decide: {
+    heading: string
+    intro?: string
+    // start: in-page anchors ("#id") or internal paths, in the order to visit them
+    pathways: Array<{ priority: string; start: ArticleLink[]; text: string }>
+    summary?: string          // markdown
+  }
+  costCallout: { heading: string; body: string }   // body is markdown
+}
+
 export interface ArticleEditorial {
   eyebrow: string
   deck: string                // shown in the hero, so the body must not repeat it
@@ -75,6 +106,10 @@ export interface ArticleEditorial {
   // one H2 per category and one H3 per place. Places carry optional practical
   // notes and official links, so no current-condition detail has to live in prose.
   guide?: ArticleGuide
+  // Nearby-cities comparison: a shortlist table between the hero and the
+  // article, then one H2 section per alternative, a priority framework and a
+  // cost callout, all rendered above the body.
+  comparison?: ArticleComparison
   // "after-expert-note" moves the lead-magnet CTA out of the reading flow to sit
   // under the Local Expert Note, and drops the end-of-article repeat.
   magnetPlacement?: 'after-expert-note'
@@ -5023,134 +5058,211 @@ If you've just moved here and you're wondering whether Boca has anything underne
     type: "City vs Nearby Cities",
     order: 9,
     seoTitle: "Boca Raton vs Nearby Cities: How to Choose",
-    metaTitle: "Boca Raton vs Delray Beach, West Palm & 6 More Towns",
-    metaDescription: "A local agent's honest read on Boca Raton against Delray Beach, West Palm Beach, Boynton, Fort Lauderdale and Parkland — and who should choose each.",
+    metaTitle: "Boca Raton vs Delray, West Palm & Nearby Cities",
+    metaDescription: "A local agent's candid read on Boca Raton vs Delray, Boynton, Fort Lauderdale, West Palm, Parkland, Jupiter and the small coastal towns, by priority.",
     primaryKeyword: "Boca Raton vs nearby cities",
-    secondaryKeywords: ["Boca Raton vs Delray Beach", "Boca Raton vs Boynton Beach", "Boca Raton vs Fort Lauderdale"],
+    secondaryKeywords: ["Boca Raton vs Delray Beach", "Boca Raton vs Boynton Beach", "Boca Raton vs Fort Lauderdale", "Boca Raton vs West Palm Beach", "Boca Raton vs Parkland"],
     h1: "Boca Raton vs Nearby Cities: How to Choose",
+    // A schematic of the places compared, not a photo: a single-city shot would
+    // misstate the article's scope. Built by scripts/generate-boca-comparison-graphic.mjs.
+    heroImage: '/images/boca-raton/boca-raton-nearby-cities-social.webp',
+    heroImageAlt: "Schematic of the Southeast Florida coast, not to scale, marking the places compared from north to south: Jupiter, Palm Beach Gardens, West Palm Beach, Boynton Beach and Ocean Ridge, Delray Beach, Highland Beach and Boca Raton, then across the Broward County line Deerfield Beach, Parkland, Coral Springs, Pompano Beach and Fort Lauderdale",
+    heroImageWidth: 2400,
+    heroImageHeight: 1257,
+    editorial: {
+      eyebrow: 'South Florida Relocation Guide',
+      deck: "Delray, Highland Beach and Deerfield are next door; West Palm, Fort Lauderdale and Jupiter are separate markets. Where each beats Boca, and where it doesn't.",
+      heroLayout: 'split',
+      panelImage: { src: '/images/boca-raton/boca-raton-nearby-cities-panel.webp', width: 1200, height: 1500 },
+      mobileImage: { src: '/images/boca-raton/boca-raton-nearby-cities-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Boca Raton Neighborhoods', href: '/communities/boca-raton' },
+      secondaryCta: { label: 'Get the Relocation Decision Guide', href: '/palm-beach-county-treasure-coast-relocation-guide' },
+      magnetPlacement: 'after-expert-note',
+      comparison: {
+        shortlist: {
+          heading: 'Shortlist at a glance',
+          intro: "The eight alternatives Boca buyers weigh most, in one view. Where a row groups several places, they share a trade-off but are separate municipalities, and each has its own government.",
+          whyHomeHeading: 'Why someone may choose Boca instead',
+          footnote: "Qualitative only. Prices, taxes, insurance, school assignments and commutes vary by address, so verify them for the specific homes you're considering.",
+        },
+        places: [
+          {
+            id: 'boca-raton-vs-delray-beach',
+            name: 'Delray Beach',
+            heading: 'Boca Raton vs Delray Beach',
+            county: 'Palm Beach County',
+            bestFor: "A walkable downtown, nightlife, an arts scene, and Atlantic Avenue running to the beach.",
+            weigh: "Less polish and more variation block to block. Older houses can bring older-systems insurance questions.",
+            whyHome: "A larger, more planned city with more club communities and a wider range of school options to research.",
+            body: "The comparison that matters most, and the one buyers most often underestimate.\n\n**Delray Beach**, Boca's neighbor to the north, is funkier, more walkable and more social. Atlantic Avenue runs from a genuine downtown of restaurants and galleries over the Intracoastal to the beach, and the city has an arts identity to match. It's smaller and looser, with more character per block.\n\n**Boca** is larger, more polished, more planned and more club-oriented, with a wider range of public, choice and private school options to research.",
+            chooseThem: { label: 'Choose Delray if', text: "you want walkability, nightlife and an arts scene, and you'll trade some polish and school choice for it." },
+            chooseHome: { label: 'Choose Boca if', text: "school options, club life or architectural consistency matter more than a walkable evening." },
+            note: { label: 'The honest note', text: "in our experience, a real share of buyers who arrive set on Boca find they wanted Delray. Spend an evening on Atlantic Avenue before you decide." },
+          },
+          {
+            id: 'boca-raton-vs-boynton-beach',
+            name: 'Boynton Beach',
+            heading: 'Boca Raton vs Boynton Beach',
+            county: 'Palm Beach County',
+            bestFor: "Buyers putting value first, with a marina district and a downtown still being redeveloped.",
+            weigh: "A city mid-transition. Some Boynton Beach mailing addresses sit in unincorporated Palm Beach County.",
+            whyHome: "The schools, the clubs, and a more finished version of the same coast.",
+            body: "**Boynton Beach**, north of Delray, is generally more affordable and less polished. Its community redevelopment agency owns Boynton Harbor Marina, the eastern anchor of a downtown that is still being rebuilt, and the area offers a wide range of housing, including many 55+ communities.\n\nAs with Boca, the mailing address doesn't settle the jurisdiction. Some Boynton Beach neighborhoods are in unincorporated Palm Beach County, which changes who provides services and which taxes apply.",
+            chooseThem: { label: 'Choose Boynton if', text: "value is the priority and you're comfortable with a city still working through its redevelopment." },
+            chooseHome: { label: 'Choose Boca if', text: "you want the schools, the clubs and the finished version." },
+          },
+          {
+            id: 'boca-raton-vs-fort-lauderdale',
+            name: 'Fort Lauderdale',
+            heading: 'Boca Raton vs Fort Lauderdale',
+            county: 'Broward County',
+            bestFor: "City energy: a real downtown, Las Olas, serious nightlife, and a dense housing market with significant waterfront.",
+            weigh: "More urban friction, and a different county with its own school district, property appraiser and millage.",
+            whyHome: "Suburban calm, school options and less urban friction, with its own Brightline station for trips south.",
+            body: "**Fort Lauderdale** is a genuinely urban beach city: a real downtown, Las Olas Boulevard, serious nightlife, and a dense, varied housing market that includes significant waterfront. Brightline stops downtown, and Fort Lauderdale–Hollywood International Airport sits just outside the city limits.\n\nBoca is effectively the polished suburb to Fort Lauderdale's city, and plenty of people work in one and live in the other.",
+            chooseThem: { label: 'Choose Fort Lauderdale if', text: "you want city energy, urban density and a bigger scene." },
+            chooseHome: { label: 'Choose Boca if', text: "you want suburban calm, school options and less urban friction." },
+            note: { label: 'Practical note', text: "this crosses into Broward County. Verify school assignments, taxes and millage independently rather than assuming Palm Beach County figures carry over." },
+          },
+          {
+            id: 'boca-raton-vs-highland-beach-ocean-ridge-and-the-small-coastal-towns',
+            name: 'Highland Beach, Ocean Ridge & small coastal towns',
+            heading: 'Boca Raton vs Highland Beach, Ocean Ridge and the small coastal towns',
+            county: 'Palm Beach County',
+            grouping: 'Separate towns, grouped',
+            bestFor: "Quiet, low density and the beach at hand.",
+            weigh: "Little commercial activity of their own. Dining, errands and most services mean a drive to a larger city.",
+            whyHome: "Amenities, schools and services inside your own city.",
+            body: "These are separate small municipalities on the barrier island, each with its own town government. **Highland Beach** borders Boca to the north; **Ocean Ridge** sits east of Boynton Beach.\n\nWhat they share is the trade-off: quiet, low density and direct beach proximity, with limited commercial activity of their own.",
+            chooseThem: { label: 'Choose a small coastal town if', text: "quiet and the ocean are the whole point, and you're happy driving to Boca or Delray for everything else." },
+            chooseHome: { label: 'Choose Boca if', text: "you want amenities, schools and services inside your own city." },
+          },
+          {
+            id: 'boca-raton-vs-deerfield-beach-and-pompano',
+            name: 'Deerfield Beach & Pompano Beach',
+            heading: 'Boca Raton vs Deerfield Beach and Pompano Beach',
+            county: 'Broward County',
+            grouping: 'Two separate cities, grouped',
+            bestFor: "Beach access for buyers who find Boca's pricing doesn't work.",
+            weigh: "A different county, with its own school district, property appraiser and millage rates.",
+            whyHome: "School options, club infrastructure, and staying in Palm Beach County.",
+            body: "Directly south across the county line, **Deerfield Beach** borders Boca and **Pompano Beach** sits just beyond it. They're separate cities with their own character, but for Boca buyers they answer the same question: how to live near the beach when Boca's pricing doesn't work.\n\nPompano in particular has been remaking its beachfront, where the City's redevelopment agency built the Pompano Beach Fishing Village around a rebuilt pier.",
+            chooseThem: { label: 'Choose Deerfield or Pompano if', text: "oceanfront or near-oceanfront living matters and Boca's pricing doesn't work for you." },
+            chooseHome: { label: 'Choose Boca if', text: "you want its school options and club infrastructure, and to stay in Palm Beach County." },
+            note: { label: 'Practical note', text: "these are Broward County, with a separate school district, property appraiser and millage rates. Verify independently rather than assuming Palm Beach County figures carry over." },
+          },
+          {
+            id: 'boca-raton-vs-parkland-and-coral-springs',
+            name: 'Parkland & Coral Springs',
+            heading: 'Boca Raton vs Parkland and Coral Springs',
+            county: 'Broward County',
+            grouping: 'Two separate cities, grouped',
+            bestFor: "More house and yard: Parkland for larger lots and newer neighborhoods, Coral Springs for an established planned city.",
+            weigh: "Inland, away from the coast, and in Broward County.",
+            whyHome: "Beach access, club life and Palm Beach County school options.",
+            body: "West and south across the county line, these two are often shopped together but aren't the same thing.\n\n**Parkland** has long used large-lot zoning, and many of its neighborhoods were built from the mid-1990s on. **Coral Springs**, just south of it, was founded in 1963 as a planned city and is now largely built out, so it offers established neighborhoods more than new construction.\n\nWhat they share is the trade Boca buyers are weighing: generally more house and yard for the money, in exchange for living inland.",
+            chooseThem: { label: 'Choose Parkland or Coral Springs if', text: "you want space (and, in Parkland, newer construction) and don't need to be near the coast." },
+            chooseHome: { label: 'Choose Boca if', text: "beach access, club life or Palm Beach County school options matter." },
+            note: { label: 'Practical note', text: "this crosses a county line. Broward County has a separate school district, property appraiser and millage rates. Verify all of it independently." },
+          },
+          {
+            id: 'boca-raton-vs-the-northern-palm-beach-county-towns',
+            name: 'Palm Beach Gardens, Jupiter & the northern county',
+            heading: 'Boca Raton vs the northern Palm Beach County towns',
+            county: 'Palm Beach County',
+            grouping: 'Several towns, grouped',
+            bestFor: "Boating and water access, a quieter pace and, in Jupiter, a real beach-town identity.",
+            weigh: "A different region near the other end of the county, not a neighboring option.",
+            whyHome: "A wider range of school options, and being much closer to Fort Lauderdale and Miami.",
+            body: "Buyers relocating within the county ask this constantly.\n\nThe northern towns, including **Palm Beach Gardens**, **Jupiter**, and smaller municipalities such as Juno Beach and Tequesta, offer more water access, a quieter pace and, in Jupiter's case, a genuine beach-town identity. Boca offers a wider range of school options and sits much closer to Fort Lauderdale and Miami.\n\nThe difference most people underweight is distance. Jupiter and Boca sit near opposite ends of Palm Beach County, which makes them different regions rather than neighboring options. Drive it at the hour you'd actually make the trip.",
+            chooseThem: { label: 'Choose the northern towns if', text: "boating, beach proximity or a slower pace matter most." },
+            chooseHome: { label: 'Choose Boca if', text: "school options or being closer to the southern metros matter more." },
+          },
+          {
+            id: 'boca-raton-vs-west-palm-beach',
+            name: 'West Palm Beach',
+            heading: 'Boca Raton vs West Palm Beach',
+            county: 'Palm Beach County',
+            bestFor: "Urban culture: a walkable downtown, major arts institutions and deep historic neighborhoods.",
+            weigh: "A more urban setting than Boca, and historic houses can bring older-systems insurance questions.",
+            whyHome: "Polish, planning, club life and school options.",
+            body: "Farther north, **West Palm Beach** is the county's urban center: a walkable downtown, major arts institutions including the Norton Museum of Art and the Kravis Center, and a Brightline station.\n\nIts clearest difference from Boca is historic housing. The City has [designated 18 local historic districts](https://www.wpb.org/Departments/Development-Services/Planning-Division/Historic-Preservation), including El Cid, Flamingo Park and Grandview Heights. If a historic house is on your list, that's West Palm's strongest case.\n\nRail alone doesn't separate them, since Boca has its own Brightline station downtown. The real question is how much city you want around the platform.",
+            chooseThem: { label: 'Choose West Palm if', text: "you want urban energy, culture, a downtown rail station and the choice of a historic house." },
+            chooseHome: { label: 'Choose Boca if', text: "you want polish, planning, club life and school options." },
+          },
+        ],
+        decide: {
+          heading: 'How to actually decide',
+          intro: "Rank these six priorities, then start with the place your top one points to.",
+          pathways: [
+            {
+              priority: 'Walkability and nightlife',
+              text: "Delray's Atlantic Avenue is the clearest answer. Fort Lauderdale and West Palm Beach put a bigger city around it.",
+              start: [
+                { label: 'Delray Beach', href: '#boca-raton-vs-delray-beach' },
+                { label: 'Fort Lauderdale', href: '#boca-raton-vs-fort-lauderdale' },
+              ],
+            },
+            {
+              priority: 'Schools and club life',
+              text: "Boca's clearest strengths: a wide range of public, choice and private schools to research, and deep club and golf infrastructure. Confirm school assignments with the district for each address.",
+              start: [{ label: 'Boca Raton neighborhoods', href: '/communities/boca-raton' }],
+            },
+            {
+              priority: 'Urban culture and rail access',
+              text: "West Palm, Fort Lauderdale and Boca all have Brightline stations. The difference is the city around them: arts and historic neighborhoods in West Palm, density and scene in Fort Lauderdale.",
+              start: [
+                { label: 'West Palm Beach', href: '#boca-raton-vs-west-palm-beach' },
+                { label: 'Fort Lauderdale', href: '#boca-raton-vs-fort-lauderdale' },
+              ],
+            },
+            {
+              priority: 'More house or newer construction',
+              text: "West into Broward for more house and yard, with Parkland for newer neighborhoods. Boynton when value comes first and you'd rather stay in Palm Beach County.",
+              start: [
+                { label: 'Parkland & Coral Springs', href: '#boca-raton-vs-parkland-and-coral-springs' },
+                { label: 'Boynton Beach', href: '#boca-raton-vs-boynton-beach' },
+              ],
+            },
+            {
+              priority: 'Quiet coastal living',
+              text: "The small barrier-island towns for quiet with the ocean at hand. Deerfield and Pompano when you want the beach and Boca's pricing doesn't work.",
+              start: [
+                { label: 'Highland Beach & Ocean Ridge', href: '#boca-raton-vs-highland-beach-ocean-ridge-and-the-small-coastal-towns' },
+                { label: 'Deerfield & Pompano', href: '#boca-raton-vs-deerfield-beach-and-pompano' },
+              ],
+            },
+            {
+              priority: 'Boating and a slower pace',
+              text: "Jupiter and Palm Beach Gardens, near the other end of the county. Treat them as a different region, not a nearby option.",
+              start: [{ label: 'The northern county towns', href: '#boca-raton-vs-the-northern-palm-beach-county-towns' }],
+            },
+          ],
+          summary: "**Boca's pattern:** it wins on school options, club life and a polished, planned look, and it loses on character, walkability and price. If any of those last three is your top priority, a neighbor probably beats it.",
+        },
+        costCallout: {
+          heading: 'Compare full monthly cost for a specific address, not list price',
+          body: "List price is unreliable across these cities because the cost structures differ so much.\n\nA Boca club community can carry initiation, dues and minimums that a Delray bungalow doesn't, and that bungalow may carry older-systems insurance risk instead. Crossing into Broward changes the millage and the school district entirely. Coastal proximity and flood zone can move insurance in any of these towns.\n\nFor each finalist, build the monthly figure for one **specific address**: taxes at a reset assessment, insurance actually quoted, HOA dues, club obligations, and flood coverage if the zone requires it. It can reorder your shortlist.\n\n[Estimate a Boca address with the carrying-cost worksheet](/blog/cost-of-living-in-boca-raton-florida#estimate-your-monthly-boca-carrying-cost)",
+        },
+      },
+    },
     showMarketTrends: true,
-    body: `Boca Raton sits in one of the most competitive stretches of the Florida coast, with genuinely distinct alternatives within fifteen to thirty minutes in either direction. That makes these comparisons unusually consequential.
-
-Here's the honest rundown.
-
-## Boca Raton vs Delray Beach
-
-The comparison that matters most, and the one buyers most often get wrong.
-
-**Delray Beach** is funkier, more walkable, and considerably more social. Atlantic Avenue is a genuine downtown with restaurants, galleries, and an arts identity, and the beach is right there. It's smaller, looser, and has more character per block than anywhere nearby.
-
-**Boca** is larger, more polished, more planned, more club-oriented, and offers far deeper school selection.
-
-**Choose Delray if:** you want walkability, nightlife, and an arts scene, and you'll trade some polish and school choice for it.
-
-**Choose Boca if:** school selection, club life, or architectural consistency matter more than a walkable evening.
-
-**The honest note:** a substantial share of buyers who arrive committed to Boca discover they actually wanted Delray. Spend an evening on Atlantic Avenue before deciding. They're fifteen minutes apart.
-
-## Boca Raton vs Boynton Beach
-
-**Boynton Beach** to the north is more affordable and less polished, with a marina district, ongoing downtown redevelopment, and a wide range of housing including a strong 55+ market of its own.
-
-**Choose Boynton if:** value is the priority and you're comfortable with a city still working through its transition.
-
-**Choose Boca if:** you want the schools, the clubs, and the finished version.
-
-## Boca Raton vs Fort Lauderdale
-
-**Fort Lauderdale** to the south is a genuinely urban beach city — a real downtown, Las Olas, an international airport in town, serious nightlife, and a dense, varied housing market including significant waterfront.
-
-**Choose Fort Lauderdale if:** you want city energy, urban density, and a bigger scene.
-
-**Choose Boca if:** you want suburban calm, school selection, and lower urban friction.
-
-Boca is effectively the polished suburb to Fort Lauderdale's city, and plenty of people work in one and live in the other.
-
-## Boca Raton vs Highland Beach, Ocean Ridge and the small coastal towns
-
-These small barrier-island and coastal municipalities offer quiet, low density, and direct beach proximity, with limited commercial activity of their own.
-
-**Choose the small towns if:** quiet and oceanfront are the whole point and you're happy driving to Boca or Delray for everything else.
-
-**Choose Boca if:** you want amenities, schools, and services inside your own city.
-
-## Boca Raton vs Deerfield Beach and Pompano
-
-Immediately south into Broward, both offer beach access at meaningfully lower prices than Boca, with Pompano in particular seeing substantial redevelopment along its beachfront.
-
-**Choose these if:** oceanfront or near-oceanfront living matters and Boca's pricing doesn't work.
-
-**Choose Boca if:** you want the school selection, the club infrastructure, and the civic upkeep.
-
-**Practical note:** these are Broward County — separate school district, property appraiser, and millage rates. Verify independently rather than assuming Palm Beach County figures carry over.
-
-## Boca Raton vs Parkland and Coral Springs
-
-West and south into Broward County, **Parkland** and **Coral Springs** offer newer construction, larger lots, strong school reputations, and generally more house per dollar than Boca.
-
-**Choose these if:** you want space and newness and don't need coastal proximity.
-
-**Choose Boca if:** beach access, club life, or Palm Beach County school options matter.
-
-**Practical note:** this crosses a county line. Broward County has a separate school district, property appraiser, and millage rates. Verify all of it independently rather than assuming Palm Beach County figures carry over.
-
-## Boca Raton vs the northern Palm Beach County towns
-
-Buyers relocating within the county ask this constantly.
-
-The northern towns — Palm Beach Gardens, Jupiter, and the beach villages — offer more water access, a quieter pace, and in Jupiter's case a genuine beach-town identity. Boca offers deeper school selection, a larger private-school corridor, more corporate employment, and closer proximity to Fort Lauderdale and Miami.
-
-**Choose north if:** boating, beach proximity, or a slower pace matter most.
-
-**Choose Boca if:** schools, corporate access, or being closer to the southern metros matter more.
-
-The difference most people underweight is the drive. Boca to Jupiter is roughly an hour in traffic, which makes them genuinely different regions rather than neighboring options.
-
-## Boca Raton vs West Palm Beach
-
-Further north, **West Palm Beach** is the county's urban center — a walkable downtown, major arts institutions, a Brightline rail station, and attainable historic housing that Boca simply doesn't have.
-
-**Choose West Palm if:** you want urban energy, culture, rail access, or a historic house at a reachable price.
-
-**Choose Boca if:** you want polish, planning, club life, and school selection.
-
-## How to actually decide
-
-Rank these and let the ranking pick:
-
-1. **School selection** — Boca, and it's a genuine differentiator.
-2. **Walkable downtown and nightlife** — Delray, then Fort Lauderdale or West Palm Beach.
-3. **Club and golf life** — Boca, clearly.
-4. **Value** — Boynton, or west into Broward.
-5. **Urban density** — Fort Lauderdale.
-6. **Quiet oceanfront** — Highland Beach, Ocean Ridge.
-7. **Historic character** — West Palm Beach.
-
-Boca's pattern: it wins decisively on schools, clubs, and civic upkeep, and loses on character, walkability, and price. If any of those three is your top priority, a neighbor probably beats it.
-
-## A note on comparing costs
-
-List price is unreliable across these cities because the structures differ so much.
-
-A Boca club community carries initiation, dues, and minimums that a Delray bungalow doesn't — and that bungalow may carry older-systems insurance risk instead. Crossing into Broward changes millage and the school district entirely. Coastal proximity moves insurance substantially in every one of these towns.
-
-Build the full monthly figure for a **specific address** in each city: taxes at a reset assessment, insurance actually quoted, HOA dues, club obligations, and flood if the zone requires it. It reorders rankings more often than not.
-
-## Before you commit
-
-Drive the commute at the real hour — Glades Road makes this more consequential here than elsewhere. Spend a weekend evening in each city rather than an afternoon. And visit in both February and August, because these towns feel materially different in season and out of it.`,
+    body: "## Before you commit\n\n- [ ] Drive the commute at the hour you'd actually make it. Glades Road and I-95 at rush hour are a different trip from the same drive at noon.\n- [ ] Spend a weekend evening in each finalist, not just an afternoon.\n- [ ] Visit in season and out of it, in February and in August, because these towns feel materially different.\n- [ ] Price one specific address in each finalist before you rank them.",
     faqs: [
-      { q: "Boca Raton or Delray Beach — which is better?", a: "Delray is funkier, more walkable, and more social, with Atlantic Avenue's downtown, an arts scene, and the beach right there. Boca is larger, more polished, more club-oriented, and offers far deeper school selection. A substantial share of buyers who arrive committed to Boca discover they actually wanted Delray — they're fifteen minutes apart, so visit both." },
-      { q: "Is Boynton Beach cheaper than Boca Raton?", a: "Generally yes. Boynton is more affordable and less polished, with a marina district, ongoing downtown redevelopment, and a strong 55+ market of its own. Boca offers the schools, the clubs, and a more finished version of the same coast." },
-      { q: "Boca Raton or Fort Lauderdale?", a: "Fort Lauderdale is a genuinely urban beach city with a real downtown, Las Olas, an international airport in town, and serious nightlife. Boca is the polished suburb by comparison, with school selection and lower urban friction. Many people work in one and live in the other." },
-      { q: "Should I consider Parkland or Coral Springs instead of Boca Raton?", a: "They offer newer construction, larger lots, and generally more house per dollar, but they're inland and in Broward County — a separate school district, property appraiser, and millage rate. Verify all of that independently rather than assuming Palm Beach County figures apply." },
-      { q: "How do I compare costs between Boca Raton and nearby cities?", a: "Not by list price. A Boca club community carries initiation, dues, and minimums that a Delray bungalow doesn't, and that bungalow may carry older-systems insurance risk instead. Crossing into Broward changes millage and the school district. Build the full monthly figure for a specific address in each city." },
-      { q: "What does Boca Raton do better than its neighbors?", a: "School selection, club and golf infrastructure, and civic upkeep — those are its clear differentiators. It loses to neighbors on character, walkability, and price, so if any of those three is your top priority, a nearby city probably suits you better." },
+      { q: "Boca Raton or Delray Beach — which is better?", a: "It depends on your top priority. Delray is funkier, more walkable and more social, with Atlantic Avenue running from downtown to the beach and an arts scene to match. Boca is larger, more polished, more planned and more club-oriented, with a wider range of school options to research. In our experience, a real share of buyers who arrive set on Boca find they wanted Delray, so spend an evening on Atlantic Avenue before you decide." },
+      { q: "Is Boynton Beach cheaper than Boca Raton?", a: "Generally, yes. Boynton is more affordable and less polished, with a marina district and a downtown still being redeveloped, while Boca offers the schools, the clubs and a more finished version of the same coast. Compare the full monthly cost of specific addresses rather than list prices, and check whether an address is inside city limits: some Boynton Beach neighborhoods are in unincorporated Palm Beach County." },
+      { q: "Boca Raton or Fort Lauderdale?", a: "Fort Lauderdale is a genuinely urban beach city, with a real downtown, Las Olas, serious nightlife and significant waterfront. Boca is the polished suburb by comparison, with school options and less urban friction. Both have Brightline stations, and plenty of people work in one and live in the other." },
+      { q: "Should I consider Parkland or Coral Springs instead of Boca Raton?", a: "If you want more house and yard and don't need to be near the coast, they're worth a look, but they aren't interchangeable. Parkland has long used large-lot zoning and many of its neighborhoods were built from the mid-1990s on; Coral Springs is an established planned city that is now largely built out. Both are in Broward County, with a separate school district, property appraiser and millage rates, so verify those independently." },
+      { q: "Are Jupiter and Palm Beach Gardens nearby alternatives to Boca Raton?", a: "Not really. They sit near the other end of Palm Beach County, which makes them a different region rather than a neighboring option. They suit buyers who put boating, beach proximity or a slower pace first; Boca suits buyers who put school options or being closer to Fort Lauderdale and Miami first." },
+      { q: "How do I compare costs between Boca Raton and nearby cities?", a: "Not by list price. A Boca club community can carry initiation, dues and minimums that a Delray bungalow doesn't, and that bungalow may carry older-systems insurance risk instead. Crossing into Broward changes the millage and the school district. For each finalist, build the full monthly figure for one specific address: taxes at a reset assessment, insurance actually quoted, HOA dues, club obligations, and flood coverage if the zone requires it." },
+      { q: "What does Boca Raton do better than its neighbors?", a: "School options, club life and a polished, planned look are its clearest strengths. It loses to its neighbors on character, walkability and price, so if any of those is your top priority, a nearby city probably suits you better." },
     ],
     internalLinks: ["cost-of-living-in-boca-raton-florida", "pros-and-cons-of-living-in-boca-raton-florida", "what-its-really-like-living-in-boca-raton-florida"],
-    funFact: "Boca Raton has its own municipal police force, fire department, beach, and airport — infrastructure that most similarly sized cities in Palm Beach County don't have. That self-contained government structure is part of why Boca has been able to maintain stricter building codes and aesthetic standards than unincorporated areas nearby.",
+    funFact: "Boca Raton runs its own police and fire-rescue departments and its own beach parks, but the Boca Raton Airport is operated by a separate airport authority. When you compare cities, check who actually provides services at a given address, because it isn't always the city on the mailing label.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-17',
   },
   {
     slug: 'best-places-to-eat-drink-hang-out-in-boca-raton-florida',
