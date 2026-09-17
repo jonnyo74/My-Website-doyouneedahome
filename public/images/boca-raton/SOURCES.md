@@ -35,3 +35,22 @@ licence position is the same as the parent file's.
 The parent file is also the hero of `what-its-really-like-living-in-boca-raton-florida`, which that
 article centre-crops from portrait. Same rule applies: alt text describes the building, it does not
 name a property or assert the shot is in Boca Raton.
+
+## Derived crops of `boca-mizner-plaza.jpg` (added 2026-09-17)
+
+Crops of `public/public/Boca Raton/boca-mizner-plaza.jpg` (credited "Photo by Valeriia Neganova / Unsplash";
+licence record in that folder's `SOURCES.md`). Subject: royal palms over pastel Mediterranean-style
+storefronts, white green-market tents, parked cars, an open-top Moke in the foreground.
+
+- **boca-raton-market-palms-panel.webp** — 1200x1500 (4:5). Source region x0 y265, 2983x3729. Palm crowns
+  down to the Moke's canopy and windshield; the crop stops above its badge. Desktop panel of the split hero.
+- **boca-raton-market-palms-mobile.webp** — 1200x800 (3:2). Source region x0 y1700, 2983x1989. Palm trunks,
+  storefronts and tents with only the Moke's canopy — cut above the grilles so no vehicle badges are in frame.
+- **boca-raton-market-palms-social.webp** — 2400x1257 (1.91:1). Source region x0 y1900, 2983x1562. Open Graph /
+  Twitter / BlogPosting image; a portrait image is cropped unpredictably by social cards.
+  Used on (all three): `pros-and-cons-of-living-in-boca-raton-florida`
+  Credit: Photo by Valeriia Neganova / Unsplash
+
+A small "Do Not Enter" street sign is visible centre-right in all three — real street furniture, not
+overlaid text. The parent is also the hero of `local-guide-to-boca-raton-florida` (centre-cropped there).
+Alt text describes the scene; it does not name the plaza or assert the location.

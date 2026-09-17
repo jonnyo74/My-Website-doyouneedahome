@@ -27,9 +27,17 @@ export interface ArticleEditorial {
   // Art-directed crop for narrow screens. heroImage (with heroImageWidth/Height)
   // is the wide version and stays the Open Graph / JSON-LD image.
   mobileImage: { src: string; width: number; height: number }
+  // 'overlay' (default): full-bleed wide image with text over a dark scrim.
+  // 'split': text on a light panel beside a tall image, for articles that
+  // share a photo with a sibling post and need their own look.
+  heroLayout?: 'overlay' | 'split'
+  // Tall desktop image for the split layout. heroImage stays the social and
+  // JSON-LD image, so it should be a landscape crop of the same photo.
+  panelImage?: { src: string; width: number; height: number }
   primaryCta: ArticleLink
   secondaryCta: ArticleLink
   quickFit?: {
+    heading?: string          // module label; defaults to 'The short version'
     fitHeading: string
     fit: string[]
     elsewhereHeading: string
@@ -4453,10 +4461,45 @@ Neither is better. But the cost of getting it wrong is high enough to be honest 
     primaryKeyword: "pros and cons of living in Boca Raton Florida",
     secondaryKeywords: ["Boca Raton pros and cons", "living in Boca Raton downsides", "is Boca Raton worth it"],
     h1: "Pros and Cons of Living in Boca Raton, Florida",
+    heroImage: '/images/boca-raton/boca-raton-market-palms-social.webp',
+    heroImageAlt: 'Royal palms above pastel Mediterranean-style storefronts and white market tents, with the canopy of an open-top Moke in the foreground',
+    heroImageCredit: 'Photo by Valeriia Neganova / Unsplash',
+    heroImageWidth: 2400,
+    heroImageHeight: 1257,
+    editorial: {
+      eyebrow: 'Boca Raton Relocation Guide',
+      deck: "Boca Raton is a well-run, well-kept city, and it asks a specific price for that — in money and in character. Here are both sides, in enough detail to decide.",
+      heroLayout: 'split',
+      panelImage: { src: '/images/boca-raton/boca-raton-market-palms-panel.webp', width: 1200, height: 1500 },
+      mobileImage: { src: '/images/boca-raton/boca-raton-market-palms-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Boca Raton Neighborhoods', href: '/communities/boca-raton' },
+      secondaryCta: { label: 'Get the Relocation Decision Guide', href: '/palm-beach-county-treasure-coast-relocation-guide' },
+      quickFit: {
+        heading: 'At a glance',
+        fitHeading: 'Why people choose Boca',
+        fit: [
+          'Real school choice — public, magnet, charter, and private options within a compact area',
+          'A planned, well-kept city with three beach parks and easy access to nature',
+          'A year-round economy anchored by FAU, healthcare, and corporate employers',
+          'Two international airports within reach, and no state income tax',
+        ],
+        elsewhereHeading: 'What to weigh carefully',
+        elsewhere: [
+          'Club obligations — initiation, dues, minimums, and assessments on top of HOA fees',
+          "East Boca's premium, compounded by insurance on older coastal homes",
+          'Driving for nearly everything, and Glades Road in season',
+          'A corporate, manicured character that reads as sterile to some buyers',
+        ],
+      },
+      tableOfContents: true,
+      closingStep: {
+        eyebrow: 'Weighing it up?',
+        text: "If the club number or the east/west trade-off is what's giving you pause, it's worth talking through before you build a shortlist.",
+        cta: { label: 'Talk it through with a local agent', href: '/contact' },
+      },
+    },
     showMarketTrends: true,
-    body: `Boca Raton is one of the most consistently well-run cities in Florida, and it asks a specific price for that — in money and in character. Here's both sides in enough detail to decide.
-
-## The pros
+    body: `## The pros
 
 ### School selection
 
@@ -4472,17 +4515,13 @@ For crime statistics, consult the Boca Raton Police Department and FDLE Uniform 
 
 ### Genuinely good beaches and nature
 
-Red Reef, Spanish River, and South Beach are among the best-maintained beach parks in the county, Gumbo Limbo is a real conservation facility, and the western edge of the city backs onto Everglades-system wetland. Better than the shopping-and-golf reputation implies.
+Red Reef, Spanish River, and South Beach give the city three distinct beach parks, Gumbo Limbo is a City-run coastal and marine education center, and Palm Beach County's Daggerwing Nature Center sits just west of the city limits.
+
+For a city whose reputation is shopping and golf, the coastal and nature access is substantially better than outsiders expect, and most new residents underuse it for the first year.
 
 ### Deep institutional infrastructure
 
 Florida Atlantic University, a substantial corporate employment base, strong healthcare, and a well-funded parks system. Boca carries more institutional weight than its population suggests, which gives it a weekday economy and a year-round population.
-
-### Genuinely good beaches and nature
-
-Worth restating as a positive rather than a footnote. Red Reef, Spanish River, and South Beach are among the best-maintained beach parks in the county, Gumbo Limbo is a working conservation facility rather than a visitor attraction, and the western edge of the city backs onto Everglades-system wetland.
-
-For a city whose reputation is shopping and golf, the coastal and conservation infrastructure is substantially better than outsiders expect, and most new residents underuse it for the first year.
 
 ### Two airports
 
@@ -4520,6 +4559,10 @@ Outside Mizner Park and a few east Boca pockets, you drive everywhere. **Glades 
 
 A significant coastal cost that's risen sharply. Proximity to the water matters, but construction year and roof age matter more — much of west Boca's newer stock quotes meaningfully better than older eastern housing. Flood zones vary across the city and flood coverage is separate. Quote it during your inspection period.
 
+### Warm summers
+
+June through September is hot and humid with afternoon storms, and hurricane season runs June through November.
+
 ## What changes after year one
 
 The first year in Boca is straightforward — the weather does a lot of work, the beaches are new, and the infrastructure makes everything easy.
@@ -4527,10 +4570,6 @@ The first year in Boca is straightforward — the weather does a lot of work, th
 Year two is when the real assessment happens. You've been through a season, a summer, and at least one insurance renewal. If you bought into a club, you know by then whether you're using it enough to justify the obligation, which is the most common second-year reckoning in this city.
 
 Residents who conclude they're using it stay for decades. Residents who conclude they aren't often move within the city rather than out of it — west, or to a non-club community — which is worth knowing before committing to the highest-obligation option available.
-
-### Warm summers
-
-June through September is hot and humid with afternoon storms, and hurricane season runs June through November.
 
 ## Things that surprise new residents
 
@@ -4563,7 +4602,8 @@ For anyone wanting funky, walkable, or genuinely affordable, the cons will domin
     funFact: "Boca Raton's city government owns and maintains over 40 parks and 2,000 acres of green space — an unusually high ratio for a Florida city of its size. That's not an accident; it reflects decades of deliberate land preservation decisions that have kept the city from feeling as overdeveloped as many of its neighbors.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-17',
   },
   {
     slug: 'cost-of-living-in-boca-raton-florida',

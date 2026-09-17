@@ -13,7 +13,7 @@ export default function QuickFit({ data }: { data: QuickFitData }) {
   return (
     <section aria-labelledby="quick-fit-heading" className="border-b border-slate-200 pb-10">
       <h2 id="quick-fit-heading" className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">
-        The short version
+        {data.heading ?? 'The short version'}
       </h2>
       <div className="mt-5 grid gap-8 md:grid-cols-2 md:gap-10">
         {columns.map((col) => (

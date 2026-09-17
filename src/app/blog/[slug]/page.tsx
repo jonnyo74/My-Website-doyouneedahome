@@ -207,7 +207,7 @@ export default async function ArticlePage({ params }: Props) {
             // Noon UTC so the calendar date can't roll back a day in any US zone.
             updatedLabel: new Date(`${article.updated}T12:00:00Z`).toLocaleDateString('en-US', {
               year: 'numeric',
-              month: 'long',
+              month: 'short',
               day: 'numeric',
               timeZone: 'UTC',
             }),
