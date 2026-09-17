@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import {
-  isLeadMagnetKey,
+  isLeadMagnetSelection,
   magnetsForSelection,
   type LeadMagnetSelection,
 } from '@/lib/leadMagnets'
@@ -53,12 +53,10 @@ function alreadyHasSelection(selection: LeadMagnetSelection): boolean {
  */
 function selectionForPage(pathname: string): LeadMagnetSelection {
   if (typeof document !== 'undefined') {
-    const declared = document
-      .querySelector('meta[name="lead-magnet-selection"]')
-      ?.getAttribute('content')
-    if (declared === 'pbc-both' || isLeadMagnetKey(declared ?? undefined)) {
-      return declared as LeadMagnetSelection
-    }
+    const declared =
+      document.querySelector('meta[name="lead-magnet-selection"]')?.getAttribute('content') ??
+      undefined
+    if (isLeadMagnetSelection(declared)) return declared
   }
   return selectMagnetForPath(pathname)
 }

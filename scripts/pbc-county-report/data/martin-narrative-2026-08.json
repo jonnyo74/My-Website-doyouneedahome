@@ -1,0 +1,80 @@
+{
+  "_note": "Martin County, August 2026. Strings are Jinja templates rendered against data/martin-market-2026-08.json. Numbers come from data; the judgments do not update themselves — re-read every sentence when the data changes. Community names appear in ONE line only (insights.localLine).",
+
+  "glanceLede": "Both property types recorded fewer closings and less supply than a year ago. Here are the four key measures for each, side by side.",
+
+  "verdicts": [
+    {"label": "Single-family homes", "value": "{{ s.sfh.m.monthsSupply.current | dec1 }} months", "verdict": "Seller-leaning", "note": "Supply down from {{ s.sfh.m.monthsSupply.prior | dec1 }} months; median days to contract fell from {{ s.sfh.m.daysToContract.prior }} to {{ s.sfh.m.daysToContract.current }}."},
+    {"label": "Condos & townhomes", "value": "{{ s.condo.m.monthsSupply.current | dec1 }} months", "verdict": "Close to balanced", "note": "Supply down from {{ s.condo.m.monthsSupply.prior | dec1 }} months; sales closed at {{ s.condo.m.olpReceived.current | dec1 }}% of original list price."}
+  ],
+
+  "numbersLede": "Every figure below is as reported for Martin County. Percent change is year over year, {{ dataMonth }} versus {{ priorMonth }}.",
+
+  "insights": {
+    "heading": "What the Numbers Say",
+    "lede": "What the {{ dataMonth }} figures point to, tied directly to the tables on page 3.",
+    "cards": [
+      {
+        "stat": "<span class=\"row\">{{ s.sfh.m.closedSales.pct | signed }}<span class=\"sub\">single-family</span></span><span class=\"row\">{{ s.condo.m.closedSales.pct | signed }}<span class=\"sub\">condo/townhome</span></span>",
+        "statClass": "two",
+        "statLabel": "Closed sales, YoY",
+        "title": "Fewer closings, and fewer listings to choose from.",
+        "body": "Closed sales fell to {{ s.sfh.m.closedSales.current | int }} single-family homes and {{ s.condo.m.closedSales.current | int }} condos/townhomes. Active inventory also dropped, {{ s.sfh.m.inventory.pct | abspct }} to {{ s.sfh.m.inventory.current | int }} and {{ s.condo.m.inventory.pct | abspct }} to {{ s.condo.m.inventory.current | int }}, so both buyers and sellers are working with a thinner market than a year ago."
+      },
+      {
+        "stat": "{{ s.sfh.m.monthsSupply.current | dec1 }} mo",
+        "statLabel": "Single-family months of supply",
+        "title": "Single-family homes are seller-leaning.",
+        "body": "Supply tightened from {{ s.sfh.m.monthsSupply.prior | dec1 }} to {{ s.sfh.m.monthsSupply.current | dec1 }} months, and median days to contract fell sharply, down {{ s.sfh.m.daysToContract.pct | abspct }} from {{ s.sfh.m.daysToContract.prior }} to {{ s.sfh.m.daysToContract.current }}. The typical sale closed at {{ s.sfh.m.olpReceived.current | dec1 }}% of original list price, up from {{ s.sfh.m.olpReceived.prior | dec1 }}%."
+      },
+      {
+        "stat": "{{ s.condo.m.monthsSupply.current | dec1 }} mo",
+        "statLabel": "Condo/townhome months of supply",
+        "title": "Condos and townhomes are close to balanced.",
+        "body": "Supply fell from {{ s.condo.m.monthsSupply.prior | dec1 }} to {{ s.condo.m.monthsSupply.current | dec1 }} months. With the typical sale closing at {{ s.condo.m.olpReceived.current | dec1 }}% of original list price and a median of {{ s.condo.m.daysToContract.current }} days to contract, buyers still have a measured opportunity to negotiate."
+      },
+      {
+        "stat": "{{ s.condo.m.closedSales.current | int }}",
+        "statLabel": "Condo/townhome closings",
+        "title": "Read the {{ s.condo.m.medianPrice.pct | signed }} condo median with care.",
+        "body": "The condo/townhome median rose to {{ s.condo.m.medianPrice.current | usd }} from {{ s.condo.m.medianPrice.prior | usd }}, but it rests on only {{ s.condo.m.closedSales.current | int }} closings. A small sample can shift with the mix of units that happened to sell, so it is not a blanket conclusion about what any condo or townhome is worth."
+      },
+      {
+        "stat": "<span class=\"row\">{{ cash.sfh }}%<span class=\"sub\">single-family</span></span><span class=\"row\">{{ cash.condo }}%<span class=\"sub\">condo/townhome</span></span>",
+        "statClass": "two",
+        "statLabel": "Cash share (calculated)",
+        "title": "Cash buyers remain a large part of the market.",
+        "body": "{{ cash.sfh }}% of single-family closings ({{ s.sfh.m.paidInCash.current | int }} of {{ s.sfh.m.closedSales.current | int }}) and {{ cash.condo }}% of condo/townhome closings ({{ s.condo.m.paidInCash.current | int }} of {{ s.condo.m.closedSales.current | int }}) were paid in cash, calculated from the reported counts."
+      }
+    ],
+    "localLine": "County figures blend distinct local markets, including Stuart, Palm City, Jensen Beach, Hobe Sound and Port Salerno, and conditions in any one of them can differ from the county median."
+  },
+
+  "guidanceLede": "The same county data calls for different moves depending on which side of the transaction you are on, and which property type you are dealing with.",
+
+  "buyers": {
+    "sfh": [
+      ["Be ready to act.", "At {{ s.sfh.m.monthsSupply.current | dec1 }} months of supply and {{ s.sfh.m.daysToContract.current }} median days to contract, have a pre-approval or proof of funds in hand before you tour."],
+      ["Anchor offers to closed sales.", "Sales closed at {{ s.sfh.m.olpReceived.current | dec1 }}% of original list price. With {{ cash.sfh }}% of closings in cash (calculated), clean terms help financed offers compete."]
+    ],
+    "condo": [
+      ["Negotiate, with a plan.", "At {{ s.condo.m.monthsSupply.current | dec1 }} months of supply and {{ s.condo.m.olpReceived.current | dec1 }}% of original list price, there is measured room on price, credits or repairs. Well-priced units can still move."],
+      ["Do the building homework.", "Use the {{ s.condo.m.daysToContract.current }}-day median to review the budget, reserves, assessments and inspections. If financing, confirm lender eligibility for the building early."]
+    ]
+  },
+
+  "sellers": {
+    "sfh": [
+      ["Supply favors you. Price still decides.", "With {{ s.sfh.m.monthsSupply.current | dec1 }} months of supply and days to contract down to {{ s.sfh.m.daysToContract.current }}, homes priced to recent closed sales are drawing buyers."],
+      ["Don't overshoot the first price.", "Sellers received {{ s.sfh.m.olpReceived.current | dec1 }}% of original list price. Starting too high risks reductions after the first weeks on market."]
+    ],
+    "condo": [
+      ["Expect negotiation.", "At {{ s.condo.m.monthsSupply.current | dec1 }} months of supply and {{ s.condo.m.olpReceived.current | dec1 }}% of original list price, build some give into pricing and a {{ s.condo.m.daysToContract.current }}-day median timeline."],
+      ["Don't price off the headline.", "The {{ s.condo.m.medianPrice.pct | signed }} median reflects only {{ s.condo.m.closedSales.current | int }} closings. Price from comparable sales in your building or community, with association documents ready."]
+    ]
+  },
+
+  "ctaLede": "County medians are a starting point. We'll look at recent sales and active competition where you own or want to buy, and build a plan around your property type and timeline, with no obligation.",
+
+  "disclaimer": "This report summarizes past market activity in Martin County for the months shown. It is not an appraisal, a prediction of future prices, or investment advice, and county medians do not reflect the value of any specific property. Cash shares were calculated by DO Homes Group from the reported counts. Information is believed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker."
+}

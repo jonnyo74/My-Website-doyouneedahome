@@ -1,0 +1,79 @@
+{
+  "_note": "St. Lucie County, August 2026. Strings are Jinja templates rendered against data/st-lucie-market-2026-08.json. Numbers come from data; judgments do not update themselves. Port St. Lucie, Fort Pierce, Tradition and Hutchinson Island appear ONLY in insights.localLine, as examples, with no local statistics.",
+
+  "glanceLede": "Single-family homes and condos/townhomes are sending different signals. Here are the four key measures for each, side by side.",
+
+  "verdicts": [
+    {"label": "Single-family homes", "value": "{{ s.sfh.m.monthsSupply.current | dec1 }} months", "verdict": "Near balanced, tilting to sellers", "note": "Supply down from {{ s.sfh.m.monthsSupply.prior | dec1 }} months; sales closed at {{ s.sfh.m.olpReceived.current | dec1 }}% of original list price; contract time fell from {{ s.sfh.m.daysToContract.prior }} to {{ s.sfh.m.daysToContract.current }} days."},
+    {"label": "Condos & townhomes", "value": "{{ s.condo.m.monthsSupply.current | dec1 }} months", "verdict": "Buyer-leaning", "note": "Supply down from {{ s.condo.m.monthsSupply.prior | dec1 }} months but still elevated; contract time rose from {{ s.condo.m.daysToContract.prior }} to {{ s.condo.m.daysToContract.current }} days."}
+  ],
+
+  "numbersLede": "Every figure below is as reported for St. Lucie County. Percent change is year over year, {{ dataMonth }} versus {{ priorMonth }}.",
+
+  "insights": {
+    "heading": "What the Market Is Telling Us",
+    "lede": "What the {{ dataMonth }} figures point to, tied directly to the tables on page 3.",
+    "cards": [
+      {
+        "stat": "{{ s.sfh.m.monthsSupply.current | dec1 }} mo",
+        "statLabel": "Single-family months of supply",
+        "title": "Single-family: near balanced, tilting toward sellers.",
+        "body": "Supply eased from {{ s.sfh.m.monthsSupply.prior | dec1 }} to {{ s.sfh.m.monthsSupply.current | dec1 }} months. The typical sale closed at {{ s.sfh.m.olpReceived.current | dec1 }}% of original list price, up from {{ s.sfh.m.olpReceived.prior | dec1 }}%, and median days to contract fell {{ s.sfh.m.daysToContract.pct | abspct }} to {{ s.sfh.m.daysToContract.current }}. Both support the seller tilt."
+      },
+      {
+        "stat": "{{ s.sfh.m.medianPrice.pct | signed }}",
+        "statLabel": "Single-family median price",
+        "title": "Single-family prices held essentially steady.",
+        "body": "The median sale price was {{ s.sfh.m.medianPrice.current | usd }}, compared with {{ s.sfh.m.medianPrice.prior | usd }} a year earlier, while closed sales slipped {{ s.sfh.m.closedSales.pct | abspct }} to {{ s.sfh.m.closedSales.current | int }}."
+      },
+      {
+        "stat": "{{ s.condo.m.monthsSupply.current | dec1 }} mo",
+        "statLabel": "Condo/townhome months of supply",
+        "title": "Condos and townhomes remain buyer-leaning.",
+        "body": "Active inventory fell {{ s.condo.m.inventory.pct | abspct }} to {{ s.condo.m.inventory.current | int }} and supply dropped from {{ s.condo.m.monthsSupply.prior | dec1 }} months, yet {{ s.condo.m.monthsSupply.current | dec1 }} months still leaves buyers with options. Median days to contract lengthened to {{ s.condo.m.daysToContract.current }} from {{ s.condo.m.daysToContract.prior }}, which makes precise pricing essential."
+      },
+      {
+        "stat": "{{ s.condo.m.closedSales.current | int }}",
+        "statLabel": "Condo/townhome closings",
+        "title": "Read the {{ s.condo.m.medianPrice.pct | signed }} condo median in context.",
+        "body": "The median rose to {{ s.condo.m.medianPrice.current | usd }} from {{ s.condo.m.medianPrice.prior | usd }}, but it is based on {{ s.condo.m.closedSales.current | int }} closings. Read it alongside {{ s.condo.m.monthsSupply.current | dec1 }} months of supply, {{ s.condo.m.inventory.current | int }} active listings and {{ s.condo.m.olpReceived.current | dec1 }}% of original list price, not as a universal increase in condo values."
+      },
+      {
+        "stat": "<span class=\"row\">{{ cash.sfh }}%<span class=\"sub\">single-family</span></span><span class=\"row\">{{ cash.condo }}%<span class=\"sub\">condo/townhome</span></span>",
+        "statClass": "two",
+        "statLabel": "Cash share (calculated)",
+        "title": "Cash plays a very different role by property type.",
+        "body": "{{ cash.sfh }}% of single-family closings ({{ s.sfh.m.paidInCash.current | int }} of {{ s.sfh.m.closedSales.current | int }}) and {{ cash.condo }}% of condo/townhome closings ({{ s.condo.m.paidInCash.current | int }} of {{ s.condo.m.closedSales.current | int }}) were paid in cash, calculated from the reported counts."
+      }
+    ],
+    "localLine": "County figures blend varied local markets, such as Port St. Lucie, Fort Pierce, Tradition and Hutchinson Island, and conditions in any one of them can differ from the county median."
+  },
+
+  "guidanceLede": "The same county data calls for different moves depending on which side of the transaction you are on, and which property type you are dealing with.",
+
+  "buyers": {
+    "sfh": [
+      ["Expect steady competition.", "At {{ s.sfh.m.monthsSupply.current | dec1 }} months of supply and {{ s.sfh.m.daysToContract.current }} median days to contract, well-priced homes move. Have a pre-approval or proof of funds ready."],
+      ["Offer from closed sales.", "Sales closed at {{ s.sfh.m.olpReceived.current | dec1 }}% of original list price, so there may be less room than you expect. {{ cash.sfh }}% of closings were cash (calculated)."]
+    ],
+    "condo": [
+      ["Use your leverage.", "At {{ s.condo.m.monthsSupply.current | dec1 }} months of supply and {{ s.condo.m.daysToContract.current }} median days to contract, buyers can often negotiate on price, credits or repairs."],
+      ["Don't overread the median.", "The {{ s.condo.m.medianPrice.pct | signed }} median reflects {{ s.condo.m.closedSales.current | int }} closings. Judge each unit on its building's recent sales, budget, reserves and assessments."]
+    ]
+  },
+
+  "sellers": {
+    "sfh": [
+      ["The market tilts your way, narrowly.", "At {{ s.sfh.m.monthsSupply.current | dec1 }} months of supply, near balanced, homes priced to recent closed sales are closing at {{ s.sfh.m.olpReceived.current | dec1 }}% of original list price."],
+      ["Price precisely from day one.", "Median days to contract fell to {{ s.sfh.m.daysToContract.current }}. A realistic first price helps you capture early buyer attention."]
+    ],
+    "condo": [
+      ["Price for a buyer-leaning market.", "With {{ s.condo.m.monthsSupply.current | dec1 }} months of supply and {{ s.condo.m.daysToContract.current }} median days to contract, buyers have options. Precise pricing matters more than usual."],
+      ["Don't list off the headline.", "The {{ s.condo.m.medianPrice.pct | signed }} median rests on {{ s.condo.m.closedSales.current | int }} closings. Price from comparable sales in your building or community, with association documents ready."]
+    ]
+  },
+
+  "ctaLede": "County figures only go so far. We'll review recent sales and active competition in your neighborhood or building and map out a plan around your timing, with no obligation.",
+
+  "disclaimer": "These statistics describe past sales activity in St. Lucie County for the months shown. They are not an appraisal, a prediction of future prices, or investment advice, and county medians do not reflect the value of any specific property. Cash shares were calculated by DO Homes Group from the reported counts. Information is believed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker."
+}

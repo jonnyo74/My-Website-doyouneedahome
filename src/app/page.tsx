@@ -6,7 +6,7 @@ import { getActiveListings, getRecentlySoldListings } from '@/lib/listings'
 import CommunityCard from '@/components/CommunityCard'
 import ListingCard from '@/components/ListingCard'
 import RecentlySold from '@/components/RecentlySold'
-import DualReportCTA from '@/components/leadMagnet/DualReportCTA'
+import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -234,7 +234,11 @@ export default function Home() {
       {/* ── Market Reports ────────────────────────────────────────── */}
       <section className="bg-white px-6 py-20 sm:px-8">
         <div className="mx-auto max-w-5xl">
-          <DualReportCTA pageCategory="home" />
+          <LeadMagnetCTA
+            selection="palm-beach-county-market-report"
+            variant="end-of-article"
+            pageCategory="home"
+          />
         </div>
       </section>
 

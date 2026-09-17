@@ -22,22 +22,22 @@
 
 import relocationGuide from '@/content/relocation-guide.json'
 import condoDueDiligence from '@/content/condo-due-diligence.json'
-import treasureCoastMarket from '@/content/treasure-coast-market.json'
 
 export type LeadMagnetKey =
-  | 'single-family'
-  | 'condo-townhome'
-  | 'treasure-coast-market-report'
+  | 'palm-beach-county-market-report'
+  | 'martin-county-market-report'
+  | 'st-lucie-county-market-report'
   | 'relocation-decision-guide'
   | 'condo-due-diligence'
 
 /**
- * What a CTA or the sitewide layer decided to offer. 'pbc-both' is the one
- * multi-magnet value: a general Palm Beach County page where the property type
- * is genuinely ambiguous shows the two county reports side by side and lets the
- * visitor pick. Everything else resolves to exactly one magnet.
+ * What a CTA or the sitewide layer decided to offer. Everything resolves to
+ * exactly one magnet except 'martin-and-palm-beach-county', which offers a pair
+ * side by side and lets the visitor pick. It exists for Jupiter Island only: the
+ * town is in Martin County, but the site files it as a Jupiter neighborhood.
  */
-export type LeadMagnetSelection = LeadMagnetKey | 'pbc-both'
+export type LeadMagnetSelection = LeadMagnetKey | MultiMagnetSelection
+export type MultiMagnetSelection = 'martin-and-palm-beach-county'
 
 export interface ReportStat {
   value: string
@@ -113,29 +113,27 @@ export interface LeadMagnet {
    * Replaces the repeat offer in CTAs and the mobile sticky bar.
    */
   nextStep: { headline: string; description: string; label: string; href: string }
+  /**
+   * Magnets for the landing page's "also free" rail. Omitted = the first other
+   * published magnets in registry order.
+   */
+  related?: LeadMagnetKey[]
   /** false = not routed, not in the sitemap, landing page 404s in production. */
   published: boolean
 }
 
-/**
- * Publication month of the most recently published Palm Beach County reports.
- *
- * This is the edition label, and it stays accurate on the report landing pages
- * and covers. It is deliberately NOT in the CTA copy any more: the CTA is
- * sitewide and long-lived, so a month in it reads as "this month's report" and
- * goes stale the moment the next BeachesMLS snapshot is due. Bump this (and
- * REPORT_DATA_MONTH, the JSON in src/content/, the PDFs and the magnet ids)
- * when the next snapshot lands.
- */
-export const REPORT_EDITION = 'August 2026'
-/** The month the Palm Beach County MLS statistics actually cover. */
-export const REPORT_DATA_MONTH = 'July 2026'
 /** Year label carried by the evergreen guides. */
 export const GUIDE_EDITION = '2026 Edition'
-/** Publication month of the most recently published Treasure Coast report. */
-export const TREASURE_COAST_EDITION = 'August 2026'
-/** The month the Martin / St. Lucie statistics actually cover. */
-export const TREASURE_COAST_DATA_MONTH = 'July 2026'
+/**
+ * Publication month of the three county market reports (Palm Beach, Martin,
+ * St. Lucie). The edition month and the data month are the same month.
+ */
+export const COUNTY_REPORT_EDITION = 'August 2026'
+/** The month the county report statistics actually cover. */
+export const COUNTY_REPORT_DATA_MONTH = 'August 2026'
+/** Source line printed in all three county report PDFs. */
+export const COUNTY_REPORT_SOURCE =
+  'MIAMI REALTORS® + RWorld, based on Florida Realtors® data, August 2026'
 
 // Counts printed on the guide landing pages and covers are derived from the
 // content files so they can never drift out of sync with what is actually in
@@ -151,96 +149,99 @@ const CONDO_QUESTION_COUNT =
   condoDueDiligence.sections.find((s) => s.heading.startsWith('Questions to Ask'))?.items.length ??
   0
 
-/** True while the Treasure Coast report has no verified MLS data behind it. */
-export const TREASURE_COAST_DATA_PENDING = treasureCoastMarket.dataStatus === 'awaiting-data'
-
 export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
   // ───────────────────────────────────────────────────────────────────────────
-  'single-family': {
-    key: 'single-family',
-    id: 'pbc-single-family-report-2026-08',
+  // Built by scripts/pbc-county-report/ from data/pbc-market-2026-08.json, which
+  // the landing-page tables also read. Replaces the two July-data Palm Beach
+  // County reports (single-family and condo-townhome) — both property types are
+  // in this one PDF. Past activity only: no predictions, no valuation claims.
+  'palm-beach-county-market-report': {
+    key: 'palm-beach-county-market-report',
+    id: 'palm-beach-county-market-report-2026-08',
     kind: 'market-report',
-    title: 'Palm Beach County Single Family Home Market Report',
-    shortTitle: 'Single Family Home Report',
-    category: 'Single Family Homes',
-    edition: REPORT_EDITION,
-    dataMonth: REPORT_DATA_MONTH,
-    dataAttribution: `${REPORT_DATA_MONTH} Palm Beach County market data (BeachesMLS)`,
-    fileName: 'pbc-single-family-home-market-report-august-2026.pdf',
-    coverImage: '/images/reports/single-family-cover.webp',
-    coverImageLarge: '/images/reports/single-family-cover-lg.webp',
+    title: 'Palm Beach County Market Report',
+    shortTitle: 'Palm Beach County Market Report',
+    category: 'Palm Beach County',
+    edition: COUNTY_REPORT_EDITION,
+    dataMonth: COUNTY_REPORT_DATA_MONTH,
+    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} Palm Beach County market data (MIAMI REALTORS® + RWorld, based on Florida Realtors® data)`,
+    fileName: 'palm-beach-county-market-report-august-2026.pdf',
+    coverImage: '/images/reports/palm-beach-county-cover.webp',
+    coverImageLarge: '/images/reports/palm-beach-county-cover-lg.webp',
     coverAlt:
-      'Cover of the Palm Beach County Single Family Home Market Report, August 2026 Edition, prepared by Christine Dekant and John Oliver of DO Homes Group',
-    crmTag: 'Lead Magnet - PBC Single Family Market Report',
-    landingPage: '/palm-beach-county-single-family-home-market-report',
+      'Cover of the Palm Beach County Market Report, August 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
+    crmTag: 'Lead Magnet - Palm Beach County Market Report',
+    landingPage: '/palm-beach-county-market-report',
     ctaEyebrow: 'Free Palm Beach County Market Report',
-    ctaHeadline: 'Get the Single Family Home Market Report',
+    ctaHeadline: 'Get the Palm Beach County Market Report',
     ctaDescription:
-      'Home prices, inventory, sales activity, buyer demand, and negotiating conditions across Palm Beach County — in one free PDF.',
-    ctaButtonLabel: 'Download the Free Report',
+      'Palm Beach County single-family and condo/townhome prices, closed sales, inventory, months of supply and days to contract, compared with a year ago, in one free PDF.',
+    ctaButtonLabel: 'Get the Palm Beach County Report',
     benefits: [
-      'Median price, closed sales, and inventory trends with year-over-year context',
-      'What the numbers mean if you are selling — and if you are buying',
-      'The negotiating windows to watch through fall 2026',
+      'Single-family homes and condos/townhomes reported separately, each against August 2025',
+      'Months of supply, days to contract and percent of original list price received',
+      'Separate guidance for buyers and for sellers, by property type',
     ],
     keyStats: [
-      { value: '$660,090', label: 'Median Sale Price', sub: '+7.6% year over year' },
-      { value: '1,336', label: 'Closed Sales', sub: '+12.7% year over year' },
-      { value: '3.7', label: 'Months of Inventory', sub: 'down from 5.5' },
-      { value: '41', label: 'Median Days to Contract' },
+      { value: '$650,000', label: 'Single-Family Median', sub: '+3.2% year over year' },
+      { value: '3.5', label: 'Single-Family Months of Supply', sub: 'down from 5.2' },
+      { value: '$300,000', label: 'Condo/Townhome Median', sub: '+5.3% year over year' },
+      { value: '6.7', label: 'Condo/Townhome Months of Supply', sub: 'down from 9.0' },
     ],
     subheadline:
-      'See what is happening with home prices, inventory, sales activity, buyer demand, and negotiating conditions across Palm Beach County.',
-    metaTitle: `Palm Beach County Single-Family Market Report | ${REPORT_EDITION}`,
-    metaDescription: `Single-family median $660,090, up 7.6%, at 3.7 months of supply and 41 days to contract, sellers averaging 95.1% of original list. Free BeachesMLS PDF.`,
-    summaryHeading: `What the ${REPORT_DATA_MONTH} Numbers Say`,
+      'Prices, inventory, pace and negotiating conditions across Palm Beach County, with single-family homes and condos/townhomes measured separately.',
+    metaTitle: `Palm Beach County Real Estate Market Report | ${COUNTY_REPORT_EDITION}`,
+    metaDescription:
+      'Palm Beach County August 2026: single-family median $650,000 at 3.5 months of supply; condos/townhomes $300,000 at 6.7 months. Free PDF with year-over-year tables.',
+    summaryHeading: `What the ${COUNTY_REPORT_DATA_MONTH} Numbers Say`,
     summary:
-      "Palm Beach County's single family home market carried its momentum into July 2026. Closed sales rose 12.7% over July 2025 while active inventory fell 23.3% — a combination that lifted the median sale price to $660,090, up 7.6% year over year. At 3.7 months of supply, down from 5.5, the single family market remains firmly in seller's-market territory, yet sellers still received 95.1% of original list price on average, which means buyers retain real room to negotiate on well-chosen homes.",
+      'Single-family homes and condos/townhomes behaved like two different markets in Palm Beach County in August 2026. Single-family supply tightened from 5.2 to 3.5 months as active inventory fell 23.8% to 4,345, and median days to contract dropped from 46 to 40, even though closed sales slipped 2.0% to 1,112. The median sale price was $650,000, against $630,000 a year earlier, and the typical sale closed at 94.8% of original list price. That reads as seller-leaning. Condos and townhomes still leave more room to negotiate at 6.7 months of supply, with a median of 69 days to contract and sales closing at 92.6% of original list price, but inventory fell 17.1% and supply is down from 9.0 months, so that room is narrower than it was a year ago.',
     takeaways: [
-      'The median single family home sold for $660,090 — $46,840 more than in July 2025.',
-      'Closed sales rose 12.7% year over year to 1,336 while active inventory declined 23.3%.',
-      'At 3.7 months of supply (down from 5.5), conditions firmly favor sellers.',
-      'Roughly 41% of closings were all-cash — up 24.4% from a year ago.',
-      'The median home went under contract in 41 days, five days faster than a year ago.',
+      'Single-family: 1,112 closed sales (−2.0%), median $650,000 (+3.2%), 3.5 months of supply, down from 5.2.',
+      'Single-family median days to contract fell from 46 to 40, and sales closed at 94.8% of original list price, up from 93.3%.',
+      'Condo/townhome: 765 closed sales (−6.7%), median $300,000 (+5.3%), 6.7 months of supply, down from 9.0.',
+      'Condo/townhome sales closed at 92.6% of original list price, with a median of 69 days to contract, down from 74.',
+      'Active inventory fell 23.8% for single-family homes and 17.1% for condos and townhomes.',
+      '41.8% of single-family and 57.3% of condo/townhome closings were paid in cash, calculated from the reported counts.',
     ],
     audienceColumns: [
       {
-        heading: "If You're Buying",
+        heading: 'If You Are Buying',
         points: [
-          'Understand what 3.7 months of supply means for your offer strategy — and why waiting has a measurable cost.',
-          'See why late summer is historically the best negotiating window before seasonal demand returns in October.',
-          'Learn how to compete when nearly half of buyers are paying cash.',
+          'See how 3.5 months of single-family supply and a 40-day median contract time shape how ready you need to be.',
+          'Understand the negotiating room 6.7 months of condo/townhome supply still gives buyers, and why it is narrower than a year ago.',
+          'Base offers on what homes actually closed at relative to original list price, not on asking prices.',
         ],
       },
       {
-        heading: "If You're Selling",
+        heading: 'If You Are Selling',
         points: [
-          'Benchmark your home against the strongest seller backdrop in several years.',
-          'See why pricing to today’s comparables — not last year’s — captures the 12.7% rise in closed sales.',
-          'Know what buyers are negotiating off asking price, and how preparation closes that gap.',
+          'Benchmark against Palm Beach County closings for your property type.',
+          'See why the first list price matters when the typical sale closes below original list price in both segments.',
+          'Know what serious condo buyers ask for first, and have it ready on day one.',
         ],
       },
     ],
     faqs: [
       {
-        q: 'What data is in the Palm Beach County Single Family Home Market Report?',
-        a: 'The August 2026 edition covers July 2026 BeachesMLS market data for Palm Beach County single family homes: median sale price, closed sales, cash sales, list-price-received percentage, median days to contract, active inventory, and months of supply, each compared with July 2025 — plus plain-English guidance for buyers and sellers.',
+        q: 'What data is in the Palm Beach County Market Report?',
+        a: 'August 2026 county-level figures for Palm Beach County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with August 2025, plus guidance for buyers and sellers. Source: MIAMI REALTORS® + RWorld, based on Florida Realtors® data.',
+      },
+      {
+        q: 'Does it include figures for my city or neighborhood?',
+        a: 'No. Every figure is a Palm Beach County total. County numbers blend dozens of very different communities, and your street, building or neighborhood can be moving differently. For a specific area, we pull the recent closed sales and active competition there with you.',
+      },
+      {
+        q: 'Does it cover condos as well as houses?',
+        a: 'Yes. Single-family homes and condos/townhomes are reported separately, because in August 2026 they were behaving like two different markets: 3.5 months of supply for single-family homes against 6.7 for condos and townhomes.',
       },
       {
         q: 'Is the report really free?',
         a: 'Yes. Enter your name and email and the PDF downloads immediately — no payment, no obligation, and your information is never shared or sold.',
       },
       {
-        q: 'Is Palm Beach County a seller’s market for single family homes right now?',
-        a: 'Based on July 2026 data published in the August 2026 report, yes — at 3.7 months of supply (a balanced market is roughly 5.5 months), single family homes are in seller’s-market territory, though sellers still conceded about 5% from original list price on average.',
-      },
-      {
-        q: 'How often is the report updated?',
-        a: 'Monthly. Each edition is prepared by Christine Dekant and John Oliver of DO Homes Group using the latest BeachesMLS market snapshot for Palm Beach County.',
-      },
-      {
         q: 'Who prepares the report?',
-        a: 'Christine Dekant and John Oliver, REALTORS® with DO Homes Group at Premier Brokers International in Palm Beach Gardens, serving buyers and sellers across Palm Beach County and the Treasure Coast.',
+        a: 'Christine Dekant and John Oliver, REALTORS® with DO Homes Group at Premier Brokers International, serving buyers and sellers across Palm Beach County and the Treasure Coast.',
       },
     ],
     internalLinks: [
@@ -249,128 +250,21 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       { label: 'All Communities', href: '/communities' },
       { label: 'Jupiter Real Estate', href: '/communities/jupiter' },
       { label: 'Palm Beach Gardens Real Estate', href: '/communities/palm-beach-gardens' },
-      { label: 'Wellington Real Estate', href: '/communities/wellington' },
       { label: 'West Palm Beach Real Estate', href: '/communities/west-palm-beach' },
       { label: 'Boca Raton Real Estate', href: '/communities/boca-raton' },
-      { label: 'Relocation Guides & Blog', href: '/blog' },
-    ],
-    nextStep: {
-      headline: 'You already have the single family report',
-      description:
-        'The next useful step is a shortlist built around your budget and the neighborhoods you are actually considering.',
-      label: 'Request a Personalized Shortlist',
-      href: '/contact',
-    },
-    published: true,
-  },
-
-  // ───────────────────────────────────────────────────────────────────────────
-  'condo-townhome': {
-    key: 'condo-townhome',
-    id: 'pbc-condo-townhome-report-2026-08',
-    kind: 'market-report',
-    title: 'Palm Beach County Condo & Townhome Market Report',
-    shortTitle: 'Condo & Townhome Report',
-    category: 'Condos & Townhomes',
-    edition: REPORT_EDITION,
-    dataMonth: REPORT_DATA_MONTH,
-    dataAttribution: `${REPORT_DATA_MONTH} Palm Beach County market data (BeachesMLS)`,
-    fileName: 'pbc-condo-townhome-market-report-august-2026.pdf',
-    coverImage: '/images/reports/condo-townhome-cover.webp',
-    coverImageLarge: '/images/reports/condo-townhome-cover-lg.webp',
-    coverAlt:
-      'Cover of the Palm Beach County Condo & Townhome Market Report, August 2026 Edition, prepared by Christine Dekant and John Oliver of DO Homes Group',
-    crmTag: 'Lead Magnet - PBC Condo Market Report',
-    landingPage: '/palm-beach-county-condo-townhome-market-report',
-    ctaEyebrow: 'Free Palm Beach County Market Report',
-    ctaHeadline: 'Get the Condo & Townhome Market Report',
-    ctaDescription:
-      'Condo and townhome prices, inventory, cash activity, buyer leverage, and association concerns across Palm Beach County — in one free PDF.',
-    ctaButtonLabel: 'Download the Free Report',
-    benefits: [
-      'Median price, closed sales, and inventory trends with year-over-year context',
-      'Cash-buyer activity and what it signals about the pricing cycle',
-      'HOA, milestone-inspection, and reserve-funding factors that now drive value',
-    ],
-    keyStats: [
-      { value: '$312,500', label: 'Median Sale Price', sub: '+4.0% year over year' },
-      { value: '914', label: 'Closed Sales', sub: '+18.5% year over year' },
-      { value: '6.7', label: 'Months of Inventory', sub: 'down from 9.3' },
-      { value: '57%', label: 'Of Sales Paid in Cash' },
-    ],
-    subheadline:
-      'Condo and townhome prices, inventory, cash activity, and the association factors that now decide what a unit is worth across Palm Beach County.',
-    metaTitle: `Palm Beach County Condo Market Report | ${REPORT_EDITION}`,
-    metaDescription: `Condo and townhome median $312,500, up 4%, 57% of closings all cash, supply down to 6.7 months from 9.3 — buyers keep the leverage. Free BeachesMLS PDF.`,
-    summaryHeading: `What the ${REPORT_DATA_MONTH} Numbers Say`,
-    summary:
-      'The Palm Beach County condo and townhome market continued its turn in July 2026. Closed sales rose 18.5% over July 2025 and active inventory fell 19.3% — the clearest absorption yet of the supply that built up through 2024–2025. The median sale price rose 4% to $312,500, and 57% of closings were all-cash purchases. At 6.7 months of supply, down from 9.3, buyers still hold leverage, but the direction of travel now favors sellers — especially in buildings with completed milestone inspections and funded reserves.',
-    takeaways: [
-      'The median condo or townhome sold for $312,500 — up 4% from July 2025.',
-      'Closed sales rose 18.5% year over year to 914 while active inventory declined 19.3%.',
-      'Months of supply fell from 9.3 to 6.7 — still a buyer’s window, but a closing one.',
-      '57% of purchases were all-cash, up 20.2% from a year ago.',
-      'Sellers received 92.2% of original list price — nearly three points below what single family sellers achieved.',
-      'Buildings with clean association paperwork are increasingly trading like a separate, stronger market.',
-    ],
-    audienceColumns: [
-      {
-        heading: "If You're Buying",
-        points: [
-          'See why this is the best buyer’s window in Palm Beach County right now — and why the data says it is starting to close.',
-          'Know what sellers are conceding from original list price, and where your leverage is strongest.',
-          'Get the HOA, reserve-funding, and special-assessment questions to ask before you write an offer.',
-        ],
-      },
-      {
-        heading: "If You're Selling",
-        points: [
-          'Understand what the 18.5% jump in closed sales means for your pricing strategy.',
-          'See the profile shared by the units that are actually selling in a 6.7-month-supply market.',
-          'Learn why milestone inspections, funded reserves, and stable HOA fees now command a premium.',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What data is in the Palm Beach County Condo & Townhome Market Report?',
-        a: 'The August 2026 edition covers July 2026 BeachesMLS market data for Palm Beach County townhouses and condos: median sale price, closed sales, cash sales, list-price-received percentage, median days to contract, active inventory, and months of supply, each compared with July 2025 — plus buyer and seller guidance and an association-health checklist.',
-      },
-      {
-        q: 'Is the report really free?',
-        a: 'Yes. Enter your name and email and the PDF downloads immediately — no payment, no obligation, and your information is never shared or sold.',
-      },
-      {
-        q: 'Is it a buyer’s market for Palm Beach County condos right now?',
-        a: 'Based on July 2026 data published in the August 2026 report, yes — 6.7 months of supply still gives buyers choice and negotiating room. But inventory is down 19.3% year over year and sales are accelerating, so that leverage is shrinking.',
-      },
-      {
-        q: 'Why does the report talk about HOAs and milestone inspections?',
-        a: 'Because they now drive condo values in Florida. Buildings with completed milestone inspections, funded reserves, and stable fees are commanding a clear premium, and lenders scrutinize association health. The report explains what to check as a buyer or prepare as a seller.',
-      },
-      {
-        q: 'How often is the report updated?',
-        a: 'Monthly. Each edition is prepared by Christine Dekant and John Oliver of DO Homes Group using the latest BeachesMLS market snapshot for Palm Beach County.',
-      },
-    ],
-    internalLinks: [
-      { label: 'Buying in Palm Beach County', href: '/buy' },
       { label: 'Condo Buyer’s Due-Diligence Checklist', href: '/florida-condo-buyers-due-diligence-checklist' },
-      { label: 'Selling Your Home', href: '/sell' },
-      { label: 'All Communities', href: '/communities' },
-      { label: 'West Palm Beach Real Estate', href: '/communities/west-palm-beach' },
-      { label: 'Singer Island Real Estate', href: '/communities/singer-island' },
-      { label: 'Boca Raton Real Estate', href: '/communities/boca-raton' },
-      { label: 'Delray Beach Real Estate', href: '/communities/delray-beach' },
       { label: 'Relocation Guides & Blog', href: '/blog' },
     ],
+    disclaimer:
+      'This report describes past market activity in Palm Beach County for the months shown. It is not an appraisal, a prediction of future prices, or financial, legal or investment advice. County-level medians do not reflect the value of any specific property. Cash-share percentages were calculated by DO Homes Group from the reported closed-sales and paid-in-cash counts. Information is believed reliable but not guaranteed. If your property is currently listed with a real estate broker, this is not intended as a solicitation of that listing.',
     nextStep: {
-      headline: 'You already have the condo & townhome report',
+      headline: 'You already have the Palm Beach County report',
       description:
-        'The building matters more than the unit. Send us the address and we will tell you what we know about the association before you write an offer.',
-      label: 'Ask a Condo-Building Question',
+        'County numbers blend very different communities. Tell us the area or building you care about and we will pull the recent closed sales and active competition there.',
+      label: 'Request Neighborhood Numbers',
       href: '/contact',
     },
+    related: ['relocation-decision-guide', 'condo-due-diligence'],
     published: true,
   },
 
@@ -451,7 +345,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       },
       {
         q: 'Where do the numbers come from?',
-        a: 'The price ranges are the same asking-price ranges published on our community pages for each area, and the hospital and drive-time details come from the same pages. They are ranges for orientation, not MLS medians — for current sale statistics, see our Palm Beach County market reports.',
+        a: 'The price ranges are the same asking-price ranges published on our community pages for each area, and the hospital and drive-time details come from the same pages. They are ranges for orientation, not MLS medians — for current sale statistics, see our county market reports.',
       },
       {
         q: 'Is the guide really free?',
@@ -575,7 +469,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     ],
     internalLinks: [
       { label: 'Buying a Home', href: '/buy' },
-      { label: 'Palm Beach County Condo & Townhome Market Report', href: '/palm-beach-county-condo-townhome-market-report' },
+      { label: 'Palm Beach County Market Report', href: '/palm-beach-county-market-report' },
       { label: 'West Palm Beach Real Estate', href: '/communities/west-palm-beach' },
       { label: 'Singer Island Real Estate', href: '/communities/singer-island' },
       { label: 'Juno Beach Real Estate', href: '/communities/juno-beach' },
@@ -596,97 +490,99 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
   },
 
   // ───────────────────────────────────────────────────────────────────────────
-  // First edition published August 2026 from the BeachesMLS July 2026 Market
-  // Snapshots for Martin and St. Lucie counties. Every figure lives in
-  // src/content/treasure-coast-market.json — update that file, regenerate the
-  // PDF and cover, and bump `edition` / `dataMonth` / `id` here.
-  'treasure-coast-market-report': {
-    key: 'treasure-coast-market-report',
-    id: 'treasure-coast-market-report-2026-08',
+  // The Martin and St. Lucie county reports. Every figure below comes from the
+  // August 2026 data files the PDFs are built from — scripts/pbc-county-report/
+  // data/{martin,st-lucie}-market-2026-08.json — and the landing-page tables
+  // read those same files. Past activity only: no predictions, no valuation
+  // claims. Both condo medians rest on small samples (61 and 80 closings) and
+  // must never be presented as a blanket increase in condo values.
+  'martin-county-market-report': {
+    key: 'martin-county-market-report',
+    id: 'martin-county-market-report-2026-08',
     kind: 'market-report',
-    title: 'Treasure Coast Real Estate Market Report',
-    shortTitle: 'Treasure Coast Market Report',
-    category: 'Martin & St. Lucie Counties',
-    edition: TREASURE_COAST_EDITION,
-    dataMonth: TREASURE_COAST_DATA_MONTH,
-    dataAttribution: `${TREASURE_COAST_DATA_MONTH} Martin County and St. Lucie County market data (BeachesMLS)`,
-    fileName: 'treasure-coast-real-estate-market-report.pdf',
-    coverImage: '/images/reports/treasure-coast-cover.webp',
-    coverImageLarge: '/images/reports/treasure-coast-cover-lg.webp',
+    title: 'Martin County Market Report',
+    shortTitle: 'Martin County Market Report',
+    category: 'Martin County',
+    edition: COUNTY_REPORT_EDITION,
+    dataMonth: COUNTY_REPORT_DATA_MONTH,
+    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} Martin County market data (MIAMI REALTORS® + RWorld, based on Florida Realtors® data)`,
+    fileName: 'martin-county-market-report-august-2026.pdf',
+    coverImage: '/images/reports/martin-county-cover.webp',
+    coverImageLarge: '/images/reports/martin-county-cover-lg.webp',
     coverAlt:
-      'Cover of the Treasure Coast Real Estate Market Report covering Martin and St. Lucie counties, prepared by Christine Dekant and John Oliver of DO Homes Group',
-    crmTag: 'Lead Magnet - Treasure Coast Market Report',
-    landingPage: '/treasure-coast-real-estate-market-report',
-    ctaEyebrow: `Free ${TREASURE_COAST_EDITION} Treasure Coast Market Report`,
-    ctaHeadline: 'Get the Treasure Coast Market Report',
+      'Cover of the Martin County Market Report, August 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
+    crmTag: 'Lead Magnet - Martin County Market Report',
+    landingPage: '/martin-county-market-report',
+    ctaEyebrow: 'Free Martin County Market Report',
+    ctaHeadline: 'Get the Martin County Market Report',
     ctaDescription:
-      'Martin and St. Lucie county prices, inventory, closed sales, days to contract and negotiating conditions — single-family and condo, in one free PDF.',
-    ctaButtonLabel: 'Get the Treasure Coast Market Report',
+      'Martin County single-family and condo/townhome prices, closed sales, inventory, months of supply and days to contract, compared with a year ago, in one free PDF.',
+    ctaButtonLabel: 'Get the Martin County Report',
     benefits: [
-      'Separate Martin County and St. Lucie County sections',
-      'Single-family and condo/townhome figures where the data supports them',
-      'Plain-English guidance for buyers and for sellers on both sides of the county line',
+      'Single-family homes and condos/townhomes reported separately, each against August 2025',
+      'Months of supply, days to contract and percent of original list price received',
+      'Plain-English guidance for buyers and for sellers, by property type',
     ],
     keyStats: [
-      { value: '$599,900', label: 'Martin County Median', sub: 'single family, +4.3% year over year' },
-      { value: '$394,995', label: 'St. Lucie County Median', sub: 'single family, +2.6% year over year' },
-      { value: '3.7', label: 'Martin Months of Supply', sub: 'down from 5.6' },
-      { value: '4.9', label: 'St. Lucie Months of Supply', sub: 'down from 5.7' },
+      { value: '$656,900', label: 'Single-Family Median', sub: '+12.8% year over year' },
+      { value: '3.4', label: 'Single-Family Months of Supply', sub: 'down from 5.1' },
+      { value: '56', label: 'Single-Family Days to Contract', sub: 'down from 77' },
+      { value: '5.5', label: 'Condo/Townhome Months of Supply', sub: 'down from 8.1' },
     ],
     subheadline:
-      'Stuart, Palm City, Hobe Sound, Port Salerno and Port St. Lucie sit in a different county and a different market from Palm Beach County. This report covers them on their own terms.',
-    metaTitle: `Treasure Coast Real Estate Market Report | ${TREASURE_COAST_EDITION}`,
-    metaDescription: `Martin County single-family median $599,900 at 3.7 months of supply, St. Lucie $394,995 at 4.9 — kept separate, not blended. Free BeachesMLS PDF.`,
-    summaryHeading: 'Martin and St. Lucie, on Their Own Terms',
+      'Stuart, Palm City, Hobe Sound, Port Salerno and the rest of Martin County, measured on their own county’s numbers rather than Palm Beach County’s.',
+    metaTitle: `Martin County Real Estate Market Report | ${COUNTY_REPORT_EDITION}`,
+    metaDescription:
+      'Martin County August 2026: single-family median $656,900 at 3.4 months of supply; condos/townhomes at 5.5 months. Year-over-year tables in a free PDF.',
+    summaryHeading: `What the ${COUNTY_REPORT_DATA_MONTH} Numbers Say`,
     summary:
-      'The Treasure Coast is not a cheaper version of Palm Beach County — it is a different market moving on its own cycle. In July 2026 both counties tightened. Martin County single family closings rose 23.4% while inventory fell 21.3%, taking months of supply from 5.6 to 3.7 and the median to $599,900. St. Lucie moved more gently — closings up 2.4%, supply down from 5.7 to 4.9 months, median $394,995 — but its sellers received 96% of original list price, the strongest figure in either county. Condos are the split story: supply fell hard in both counties, yet Martin’s median dropped 10.7% while St. Lucie’s rose 13.3%, on 77 and 82 closings respectively. This report covers each county separately so the numbers you are reading describe the market you are actually buying or selling in.',
+      'Martin County recorded fewer closings and fewer active listings in August 2026 than a year earlier, for both property types. Single-family closed sales fell 11.3% to 181 while active inventory fell 21.7% to 644, taking months of supply from 5.1 to 3.4. Median days to contract dropped from 77 to 56, the typical sale closed at 94.2% of original list price, and the median sale price was $656,900, compared with $582,500 in August 2025. That combination reads as seller-leaning. Condos and townhomes are closer to balanced: supply fell from 8.1 to 5.5 months, sales closed at 90.8% of original list price, and the median took 84 days to reach contract. The condo/townhome median rose 20.7% to $277,500, but it rests on only 61 closings, so it reflects the mix of units that happened to sell rather than a change in what any particular condo is worth.',
     takeaways: [
-      'Martin County single family: median $599,900 (+4.3%), 211 closings (+23.4%), 3.7 months of supply — down from 5.6.',
-      'St. Lucie County single family: median $394,995 (+2.6%), 517 closings (+2.4%), 4.9 months of supply — down from 5.7.',
-      'Inventory fell in all four segments, by 8.2% to 21.3% year over year.',
-      'St. Lucie single family sellers received 96% of original list price — the strongest in either county; Martin condo sellers received 92.2%, the weakest.',
-      'St. Lucie single family is the one segment where time moved toward buyers: 63 median days to contract, up from 52.',
-      'Two of every three Martin County condo closings were all-cash, and just over half of St. Lucie’s.',
-      'St. Lucie condos at 7.8 months of supply are the last clear buyer’s window — down from 10.6 a year ago.',
+      'Single-family: 181 closed sales (−11.3%), median $656,900 (+12.8%), 3.4 months of supply, down from 5.1.',
+      'Single-family median days to contract fell from 77 to 56, and sales closed at 94.2% of original list price, up from 91.5%.',
+      'Condo/townhome: 61 closed sales (−22.8%), 5.5 months of supply, down from 8.1, at 90.8% of original list price.',
+      'The +20.7% condo/townhome median rests on only 61 closings. It is not a blanket conclusion about condo values.',
+      'Active inventory fell 21.7% for single-family homes and 19.9% for condos and townhomes.',
+      '36.5% of single-family and 52.5% of condo/townhome closings were paid in cash, calculated from the reported counts.',
     ],
     audienceColumns: [
       {
         heading: 'If You Are Buying',
         points: [
-          'See Martin and St. Lucie inventory and negotiating conditions separately, rather than inferring them from Palm Beach County.',
-          'Understand where the two counties are in their own cycle.',
-          'Know what sellers are conceding from asking price on this side of the county line.',
+          'See how 3.4 months of single-family supply and a 56-day median contract time shape how ready you need to be.',
+          'Anchor offers to what homes actually closed at, relative to original list price, by property type.',
+          'Know which condo and townhome figures rest on small samples before you read too much into them.',
         ],
       },
       {
         heading: 'If You Are Selling',
         points: [
-          'Benchmark against your own county, not the county to the south.',
-          'See how long comparable homes are taking to go under contract.',
-          'Understand which property types are absorbing and which are sitting.',
+          'Benchmark against Martin County closings, not Palm Beach County’s or the Treasure Coast as a whole.',
+          'See what share of original list price sellers received, and how long homes took to go under contract.',
+          'Understand why a county condo median is no substitute for comparable sales in your own building or community.',
         ],
       },
     ],
     faqs: [
       {
-        q: 'Which areas does the Treasure Coast Market Report cover?',
-        a: 'Martin County — including Stuart, Palm City, Hobe Sound and Port Salerno — and St. Lucie County, including Port St. Lucie. It is a single combined report with a separate section for each county.',
+        q: 'What data is in the Martin County Market Report?',
+        a: 'August 2026 county-level figures for Martin County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with August 2025. Source: MIAMI REALTORS® + RWorld, based on Florida Realtors® data.',
       },
       {
-        q: 'Why is this separate from the Palm Beach County reports?',
-        a: 'Because it is a different market. Martin and St. Lucie counties are a different MLS from Palm Beach County, and their prices, inventory and pace do not track Palm Beach County’s. Offering a Palm Beach County report to a Stuart buyer would be giving them the wrong county’s numbers.',
+        q: 'Does it include figures for Stuart, Palm City, Hobe Sound or Port Salerno?',
+        a: 'No. Every figure is a Martin County total. County numbers blend distinct local markets, and conditions in any one town or neighborhood can differ from the county median. For a specific area, we review recent sales and active competition there with you.',
       },
       {
-        q: 'Does it cover condos as well as houses?',
-        a: 'It covers single-family homes for both counties, and condos and townhomes where the sample size supports reliable figures. Where it does not, the report says so rather than publishing a number built on a handful of sales.',
+        q: 'Did Martin County condo values go up 20.7%?',
+        a: 'Not in any general sense. The condo/townhome median sale price was $277,500 in August 2026, compared with $230,000 a year earlier, but that median is based on only 61 closings. A sample that small moves with the mix of units that happened to sell, so it says nothing reliable about what any particular condo or townhome is worth.',
       },
       {
-        q: 'How often is it updated?',
-        a: 'Monthly, alongside the Palm Beach County reports. Each edition is prepared by Christine Dekant and John Oliver of DO Homes Group from the latest BeachesMLS market snapshot for Martin and St. Lucie counties.',
+        q: 'Is the report really free?',
+        a: 'Yes. Enter your name and email and the PDF downloads immediately — no payment, no obligation, and your information is never shared or sold.',
       },
       {
-        q: 'Why does the report caution about the condo medians?',
-        a: 'Because the samples are small. Martin County recorded 77 condo and townhouse closings in July 2026 and St. Lucie 82, so which buildings and price tiers happened to trade in a given month can move the median on its own. The report reads those medians alongside inventory, months of supply and percent of original list price received rather than treating them as a standalone signal.',
+        q: 'Who prepares the report?',
+        a: 'Christine Dekant and John Oliver, REALTORS® with DO Homes Group at Premier Brokers International, serving buyers and sellers across Palm Beach County and the Treasure Coast.',
       },
     ],
     internalLinks: [
@@ -694,20 +590,133 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       { label: 'Palm City Real Estate', href: '/communities/palm-city' },
       { label: 'Hobe Sound Real Estate', href: '/communities/hobe-sound' },
       { label: 'Port Salerno Real Estate', href: '/communities/port-salerno' },
-      { label: 'Port St. Lucie Real Estate', href: '/communities/port-st-lucie' },
       { label: 'Relocation Decision Guide', href: '/palm-beach-county-treasure-coast-relocation-guide' },
       { label: 'Buying a Home', href: '/buy' },
       { label: 'Selling Your Home', href: '/sell' },
       { label: 'Relocation Guides & Blog', href: '/blog' },
     ],
+    disclaimer:
+      'This report summarizes past market activity in Martin County for the months shown. It is not an appraisal, a prediction of future prices, or investment advice, and county medians do not reflect the value of any specific property. Cash shares were calculated by DO Homes Group from the reported counts. Information is believed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.',
     nextStep: {
-      headline: 'You already have the Treasure Coast report',
+      headline: 'You already have the Martin County report',
       description:
-        'Tell us the town and the property type you are focused on and we will send a shortlist that matches.',
-      label: 'Request a Personalized Shortlist',
+        'County medians are a starting point. Tell us the neighborhood and property type and we will look at recent sales and active competition there with you.',
+      label: 'Start a Strategy Conversation',
       href: '/contact',
     },
-    published: !TREASURE_COAST_DATA_PENDING,
+    related: ['relocation-decision-guide', 'condo-due-diligence'],
+    published: true,
+  },
+
+  // ───────────────────────────────────────────────────────────────────────────
+  'st-lucie-county-market-report': {
+    key: 'st-lucie-county-market-report',
+    id: 'st-lucie-county-market-report-2026-08',
+    kind: 'market-report',
+    title: 'St. Lucie County Market Report',
+    shortTitle: 'St. Lucie County Market Report',
+    category: 'St. Lucie County',
+    edition: COUNTY_REPORT_EDITION,
+    dataMonth: COUNTY_REPORT_DATA_MONTH,
+    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} St. Lucie County market data (MIAMI REALTORS® + RWorld, based on Florida Realtors® data)`,
+    fileName: 'st-lucie-county-market-report-august-2026.pdf',
+    coverImage: '/images/reports/st-lucie-county-cover.webp',
+    coverImageLarge: '/images/reports/st-lucie-county-cover-lg.webp',
+    coverAlt:
+      'Cover of the St. Lucie County Market Report, August 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
+    crmTag: 'Lead Magnet - St. Lucie County Market Report',
+    landingPage: '/st-lucie-county-market-report',
+    ctaEyebrow: 'Free St. Lucie County Market Report',
+    ctaHeadline: 'Get the St. Lucie County Market Report',
+    ctaDescription:
+      'St. Lucie County single-family and condo/townhome prices, closed sales, inventory, months of supply and days to contract, compared with a year ago, in one free PDF.',
+    ctaButtonLabel: 'Get the St. Lucie County Report',
+    benefits: [
+      'Single-family homes and condos/townhomes reported separately, each against August 2025',
+      'Months of supply, days to contract and percent of original list price received',
+      'Plain-English guidance for buyers and for sellers, by property type',
+    ],
+    keyStats: [
+      { value: '$402,500', label: 'Single-Family Median', sub: '+0.6% year over year' },
+      { value: '4.9', label: 'Single-Family Months of Supply', sub: 'down from 5.4' },
+      { value: '95.5%', label: 'Single-Family List Price Received', sub: 'up from 94.3%' },
+      { value: '7.6', label: 'Condo/Townhome Months of Supply', sub: 'down from 10.1' },
+    ],
+    subheadline:
+      'Port St. Lucie and the rest of St. Lucie County, measured on their own county’s numbers rather than Palm Beach County’s.',
+    metaTitle: `St. Lucie County Real Estate Market Report | ${COUNTY_REPORT_EDITION}`,
+    metaDescription:
+      'St. Lucie County August 2026: single-family median $402,500 at 4.9 months of supply; condos/townhomes at 7.6 months. Year-over-year tables in a free PDF.',
+    summaryHeading: `What the ${COUNTY_REPORT_DATA_MONTH} Numbers Say`,
+    summary:
+      'St. Lucie County’s two property types sent different signals in August 2026. Single-family homes were near balanced and tilting toward sellers: supply eased from 5.4 to 4.9 months, the typical sale closed at 95.5% of original list price, up from 94.3%, and median days to contract fell from 64 to 54. The median sale price held essentially steady at $402,500, against $400,000 a year earlier, while closed sales slipped 6.5% to 444. Condos and townhomes remained buyer-leaning. Active inventory fell 15.2% to 626 and supply dropped from 10.1 months, yet 7.6 months still leaves buyers with options, and median days to contract lengthened from 78 to 82. The condo/townhome median rose 7.2% to $320,000, but it is based on only 80 closings, so read it alongside supply and list-price-received figures rather than as an increase in condo values.',
+    takeaways: [
+      'Single-family: 444 closed sales (−6.5%), median $402,500 (+0.6%), 4.9 months of supply, down from 5.4.',
+      'Single-family sales closed at 95.5% of original list price, and median days to contract fell from 64 to 54.',
+      'Condo/townhome: 80 closed sales (−9.1%), 7.6 months of supply, down from 10.1, with median days to contract up from 78 to 82.',
+      'The +7.2% condo/townhome median rests on only 80 closings. It is not a universal increase in condo values.',
+      'Active inventory fell 3.4% to 2,270 single-family homes and 15.2% to 626 condos and townhomes.',
+      '25.2% of single-family and 53.8% of condo/townhome closings were paid in cash, calculated from the reported counts.',
+    ],
+    audienceColumns: [
+      {
+        heading: 'If You Are Buying',
+        points: [
+          'See why single-family sales closing at 95.5% of original list price can mean less room than you expect.',
+          'Understand the leverage 7.6 months of condo/townhome supply and an 82-day median contract time give buyers.',
+          'Judge a condo on its own building’s sales and finances, not a county median built on 80 closings.',
+        ],
+      },
+      {
+        heading: 'If You Are Selling',
+        points: [
+          'Benchmark against St. Lucie County closings, not Palm Beach County’s or the Treasure Coast as a whole.',
+          'See how days to contract differ between single-family homes and condos/townhomes.',
+          'Understand why precise first pricing matters more when buyers have options.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What data is in the St. Lucie County Market Report?',
+        a: 'August 2026 county-level figures for St. Lucie County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with August 2025. Source: MIAMI REALTORS® + RWorld, based on Florida Realtors® data.',
+      },
+      {
+        q: 'Does it include figures for Port St. Lucie?',
+        a: 'No. Every figure is a St. Lucie County total. County numbers blend varied local markets, and conditions in any one city or neighborhood can differ from the county median. For a specific area, we review recent sales and active competition there with you.',
+      },
+      {
+        q: 'Did St. Lucie County condo values go up 7.2%?',
+        a: 'Not in any general sense. The condo/townhome median sale price was $320,000 in August 2026, compared with $298,450 a year earlier, but it is based on only 80 closings. Read it alongside 7.6 months of supply, 626 active listings and 93.7% of original list price received, not as a universal increase in condo values.',
+      },
+      {
+        q: 'Is the report really free?',
+        a: 'Yes. Enter your name and email and the PDF downloads immediately — no payment, no obligation, and your information is never shared or sold.',
+      },
+      {
+        q: 'Who prepares the report?',
+        a: 'Christine Dekant and John Oliver, REALTORS® with DO Homes Group at Premier Brokers International, serving buyers and sellers across Palm Beach County and the Treasure Coast.',
+      },
+    ],
+    internalLinks: [
+      { label: 'Port St. Lucie Real Estate', href: '/communities/port-st-lucie' },
+      { label: 'Relocation Decision Guide', href: '/palm-beach-county-treasure-coast-relocation-guide' },
+      { label: 'Condo Buyer’s Due-Diligence Checklist', href: '/florida-condo-buyers-due-diligence-checklist' },
+      { label: 'Buying a Home', href: '/buy' },
+      { label: 'Selling Your Home', href: '/sell' },
+      { label: 'Relocation Guides & Blog', href: '/blog' },
+    ],
+    disclaimer:
+      'These statistics describe past sales activity in St. Lucie County for the months shown. They are not an appraisal, a prediction of future prices, or investment advice, and county medians do not reflect the value of any specific property. Cash shares were calculated by DO Homes Group from the reported counts. Information is believed reliable but not guaranteed. Not intended to solicit properties currently listed with another broker.',
+    nextStep: {
+      headline: 'You already have the St. Lucie County report',
+      description:
+        'County figures only go so far. Tell us the neighborhood or building and we will map out a plan around recent sales there and your timing.',
+      label: 'Request a Neighborhood Game Plan',
+      href: '/contact',
+    },
+    related: ['relocation-decision-guide', 'condo-due-diligence'],
+    published: true,
   },
 }
 
@@ -716,23 +725,35 @@ export const allLeadMagnets: LeadMagnet[] = Object.values(leadMagnets)
 /** Every magnet that may be routed onto a page, linked, or listed in the sitemap. */
 export const publishedLeadMagnets: LeadMagnet[] = allLeadMagnets.filter((m) => m.published)
 
-/** The two Palm Beach County market reports, in the order the picker shows them. */
-export const pbcReports: LeadMagnet[] = [
-  leadMagnets['single-family'],
-  leadMagnets['condo-townhome'],
-]
+/** The pairs offered by each multi-magnet selection, in picker order. */
+const multiMagnetSelections: Record<MultiMagnetSelection, LeadMagnet[]> = {
+  'martin-and-palm-beach-county': [
+    leadMagnets['martin-county-market-report'],
+    leadMagnets['palm-beach-county-market-report'],
+  ],
+}
 
 export function isLeadMagnetKey(value: string | undefined): value is LeadMagnetKey {
   return !!value && Object.prototype.hasOwnProperty.call(leadMagnets, value)
+}
+
+/** True for any value a page may publish as its lead-magnet selection. */
+export function isLeadMagnetSelection(value: string | undefined): value is LeadMagnetSelection {
+  return (
+    isLeadMagnetKey(value) ||
+    (!!value && Object.prototype.hasOwnProperty.call(multiMagnetSelections, value))
+  )
 }
 
 export function getLeadMagnet(key: LeadMagnetKey): LeadMagnet {
   return leadMagnets[key]
 }
 
-/** Resolve a selection to the magnets it offers — one, or the two PBC reports. */
+/** Resolve a selection to the magnets it offers — one, or a pair for the picker. */
 export function magnetsForSelection(selection: LeadMagnetSelection): LeadMagnet[] {
-  return selection === 'pbc-both' ? pbcReports : [leadMagnets[selection]]
+  return isLeadMagnetKey(selection)
+    ? [leadMagnets[selection]]
+    : multiMagnetSelections[selection].filter((m) => m.published)
 }
 
 /** API path that streams the PDF (tokenized — issued by /api/leads on success). */
@@ -742,5 +763,12 @@ export function magnetDownloadApiPath(key: LeadMagnetKey): string {
 
 /** Up to `limit` other published magnets, for the "also available" rail. */
 export function relatedMagnets(key: LeadMagnetKey, limit = 2): LeadMagnet[] {
+  const preferred = leadMagnets[key].related
+  if (preferred) {
+    return preferred
+      .map((k) => leadMagnets[k])
+      .filter((m) => m.published && m.key !== key)
+      .slice(0, limit)
+  }
   return publishedLeadMagnets.filter((m) => m.key !== key).slice(0, limit)
 }

@@ -1,0 +1,166 @@
+{
+  "slug": "st-lucie-county-market-report-august-2026",
+  "title": "St. Lucie County Market Report",
+  "docTitle": "St. Lucie County Market Report | August 2026",
+  "resultsLabel": "August 2026 Results",
+  "dataMonth": "August 2026",
+  "priorMonth": "August 2025",
+  "county": "St. Lucie County",
+  "pages": [
+    "cover",
+    "glance",
+    "numbers",
+    "insights",
+    "buyers_sellers",
+    "cta"
+  ],
+  "source": "Source: MIAMI REALTORS® + RWorld, based on Florida Realtors® data, August 2026.",
+  "siteUrl": "https://www.doyouneedahome.com",
+  "siteLabel": "doyouneedahome.com",
+  "ctaPath": "/contact",
+  "utm": {
+    "link": "utm_source=pdf&utm_medium=link&utm_campaign=st-lucie-2026-08",
+    "qr": "utm_source=pdf&utm_medium=qr&utm_campaign=st-lucie-2026-08"
+  },
+  "cta": {
+    "kicker": "Neighborhood game plan",
+    "headline": "Want a St. Lucie County game plan for your neighborhood?",
+    "button": "Build your game plan at doyouneedahome.com",
+    "qrCaption": "Scan to request<br>your game plan",
+    "headlineClass": "long"
+  },
+  "phone": "(561) 783-7733",
+  "phoneTel": "+15617837733",
+  "team": "DO Homes Group",
+  "brokerage": "Premier Brokers International",
+  "agents": [
+    {
+      "name": "Christine Dekant",
+      "credentials": "REALTOR® · RENE · GRI · CLA",
+      "photo": "assets/img/christine-dekant.jpg"
+    },
+    {
+      "name": "John Oliver",
+      "credentials": "REALTOR® · ABR · RENE · RSPS · SRS",
+      "photo": "assets/img/john-oliver.jpg"
+    }
+  ],
+  "segments": [
+    {
+      "key": "sfh",
+      "label": "Single-Family Homes",
+      "short": "Single-family",
+      "metrics": {
+        "closedSales": {
+          "label": "Closed sales",
+          "current": 444,
+          "prior": 475,
+          "pct": -6.5,
+          "fmt": "int"
+        },
+        "paidInCash": {
+          "label": "Paid in cash",
+          "current": 112,
+          "prior": 118,
+          "pct": -5.1,
+          "fmt": "int"
+        },
+        "medianPrice": {
+          "label": "Median sale price",
+          "current": 402500,
+          "prior": 400000,
+          "pct": 0.6,
+          "fmt": "usd"
+        },
+        "olpReceived": {
+          "label": "Original list price received",
+          "current": 95.5,
+          "prior": 94.3,
+          "pct": 1.3,
+          "fmt": "pct"
+        },
+        "daysToContract": {
+          "label": "Median days to contract",
+          "current": 54,
+          "prior": 64,
+          "pct": -15.6,
+          "fmt": "int"
+        },
+        "inventory": {
+          "label": "Active inventory",
+          "current": 2270,
+          "prior": 2351,
+          "pct": -3.4,
+          "fmt": "int"
+        },
+        "monthsSupply": {
+          "label": "Months of supply",
+          "current": 4.9,
+          "prior": 5.4,
+          "pct": -9.3,
+          "fmt": "dec1"
+        }
+      }
+    },
+    {
+      "key": "condo",
+      "label": "Condos & Townhomes",
+      "short": "Condo/townhome",
+      "metrics": {
+        "closedSales": {
+          "label": "Closed sales",
+          "current": 80,
+          "prior": 88,
+          "pct": -9.1,
+          "fmt": "int"
+        },
+        "paidInCash": {
+          "label": "Paid in cash",
+          "current": 43,
+          "prior": 45,
+          "pct": -4.4,
+          "fmt": "int"
+        },
+        "medianPrice": {
+          "label": "Median sale price",
+          "current": 320000,
+          "prior": 298450,
+          "pct": 7.2,
+          "fmt": "usd"
+        },
+        "olpReceived": {
+          "label": "Original list price received",
+          "current": 93.7,
+          "prior": 90.4,
+          "pct": 3.7,
+          "fmt": "pct"
+        },
+        "daysToContract": {
+          "label": "Median days to contract",
+          "current": 82,
+          "prior": 78,
+          "pct": 5.1,
+          "fmt": "int"
+        },
+        "inventory": {
+          "label": "Active inventory",
+          "current": 626,
+          "prior": 738,
+          "pct": -15.2,
+          "fmt": "int"
+        },
+        "monthsSupply": {
+          "label": "Months of supply",
+          "current": 7.6,
+          "prior": 10.1,
+          "pct": -24.8,
+          "fmt": "dec1"
+        }
+      }
+    }
+  ],
+  "cashShare": {
+    "sfh": 25.2,
+    "condo": 53.8
+  }
+}

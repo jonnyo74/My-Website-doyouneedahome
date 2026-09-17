@@ -53,7 +53,7 @@ export default function CommunitiesPage() {
       {/* Market report CTA */}
       <section className="px-6 pb-16 sm:px-8">
         <div className="mx-auto max-w-7xl">
-          <LeadMagnetCTA selection="pbc-both" variant="inline" pageCategory="communities-index" />
+          <LeadMagnetCTA selection="palm-beach-county-market-report" variant="inline" pageCategory="communities-index" />
         </div>
       </section>
 

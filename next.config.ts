@@ -24,6 +24,14 @@ const nextConfig: NextConfig = {
       // not this Next.js app — forward /tools there instead of 404ing.
       { source: '/tools', destination: 'https://tools.doyouneedahome.com', permanent: false },
 
+      // ── RETIRED LEAD MAGNETS ──────────────────────────────────────────
+      // The July-data market reports were replaced in September 2026 by the
+      // August county reports built in scripts/pbc-county-report/. The combined
+      // Treasure Coast report goes to Martin County, where most of its towns are.
+      { source: '/palm-beach-county-single-family-home-market-report', destination: '/palm-beach-county-market-report', permanent: true },
+      { source: '/palm-beach-county-condo-townhome-market-report', destination: '/palm-beach-county-market-report', permanent: true },
+      { source: '/treasure-coast-real-estate-market-report', destination: '/martin-county-market-report', permanent: true },
+
       // ── BLOG CONSOLIDATION ────────────────────────────────────────────
       // Port Salerno carries 10 articles. The hidden-gems article was rewritten
       // into the history cornerstone at a new slug; this preserves that URL.

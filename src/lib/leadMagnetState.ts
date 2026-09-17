@@ -12,8 +12,6 @@ import type { LeadMagnetKey } from '@/lib/leadMagnets'
 const STORAGE_KEY = 'dhg-lead-magnet-downloads'
 /** Fired on this tab when a download is recorded — 'storage' only fires on others. */
 const CHANGE_EVENT = 'dhg-lead-magnet-download'
-/** Pre-registry key. Its presence means the visitor took a PBC market report. */
-const LEGACY_STORAGE_KEY = 'dhg-report-downloaded'
 
 type DownloadMap = Partial<Record<LeadMagnetKey, string>>
 
@@ -25,12 +23,6 @@ function read(): DownloadMap {
     if (raw) {
       const parsed: unknown = JSON.parse(raw)
       if (parsed && typeof parsed === 'object') map = parsed as DownloadMap
-    }
-    // Migrate the legacy flag on read rather than with a one-off script: its
-    // value was the edition string of whichever report was downloaded.
-    const legacy = localStorage.getItem(LEGACY_STORAGE_KEY)
-    if (legacy && !map['single-family'] && !map['condo-townhome']) {
-      map = { ...map, 'single-family': legacy, 'condo-townhome': legacy }
     }
   } catch {
     // storage unavailable (private mode) — treat as nothing downloaded
