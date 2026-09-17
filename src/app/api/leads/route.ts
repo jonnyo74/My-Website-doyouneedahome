@@ -99,7 +99,9 @@ export async function POST(req: NextRequest) {
   if (!isValidFirstName(firstName)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
   }
-  if (!isValidInterest(body.interest)) {
+  // Interest is optional — the form asks for name and email only. A value
+  // that is present but not one of ours is still a forged payload.
+  if (body.interest && !isValidInterest(body.interest)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
   }
   // An unpublished magnet has no verified content behind it — its landing page

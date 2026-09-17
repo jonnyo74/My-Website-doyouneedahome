@@ -50,7 +50,6 @@ function validate(values: FormValues): Partial<Record<keyof FormValues, string>>
   if (!values.firstName.trim()) errors.firstName = 'Please enter your first name.'
   if (!values.email.trim()) errors.email = 'Please enter your email address.'
   else if (!EMAIL_RE.test(values.email.trim())) errors.email = 'Please enter a valid email address.'
-  if (!values.interest) errors.interest = 'Please select an option.'
   return errors
 }
 
@@ -433,7 +432,7 @@ export default function LeadMagnetForm({
       </div>
 
       <fieldset aria-describedby={errors.interest ? fieldId('interest-error') : undefined}>
-        <legend className={labelCls}>I am primarily interested in: *</legend>
+        <legend className={labelCls}>I am primarily interested in: (optional)</legend>
         <div className="grid grid-cols-2 gap-2">
           {INTEREST_OPTIONS.map((opt) => {
             const selected = values.interest === opt
