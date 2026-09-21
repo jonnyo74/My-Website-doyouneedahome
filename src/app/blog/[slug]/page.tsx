@@ -273,6 +273,7 @@ export default async function ArticlePage({ params }: Props) {
             preload
             sizes="100vw"
             className="object-cover"
+            style={article.heroImagePosition ? { objectPosition: article.heroImagePosition } : undefined}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
           {article.heroImageCredit && (
