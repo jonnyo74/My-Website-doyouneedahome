@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 const agents = [
   {
     name: 'Christine Dekant',
+    sellSlug: 'christine',
     title: 'REALTOR® · Co-Founder, DO Homes Group',
     brokerage: 'Premier Brokers International',
     credentials: ['RENE', 'GRI', 'CLA', 'CPRES', 'REDM', 'C2EX'],
@@ -30,6 +31,7 @@ const agents = [
   },
   {
     name: 'John Oliver',
+    sellSlug: 'john',
     title: 'REALTOR® · Co-Founder, DO Homes Group',
     brokerage: 'Premier Brokers International',
     credentials: ['ABR', 'RENE', 'RSPS', 'SRS'],
@@ -160,6 +162,12 @@ export default function TeamPage() {
                       Send Email
                     </a>
                   </div>
+                  <Link
+                    href={`/sell/${agent.sellSlug}`}
+                    className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
+                  >
+                    Get a free home valuation from {agent.name.split(' ')[0]} →
+                  </Link>
                 </div>
               </div>
             ))}
