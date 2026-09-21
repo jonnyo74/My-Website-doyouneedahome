@@ -24,6 +24,7 @@ import MarketTrendsBlock from '@/components/MarketTrendsBlock'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
+import DeferredContactCta from '@/components/DeferredContactCta'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import EditorialHero from '@/components/article/EditorialHero'
 import QuickFit from '@/components/article/QuickFit'
@@ -312,6 +313,8 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* Single Ylopo script initializer — fires once on mount, picks up all widget divs */}
       <YlopoInit city={article.cityName} />
+      {/* Keeps the FUB contact card off the opening copy until the reader scrolls. */}
+      <DeferredContactCta />
 
       {/* Comparison articles open with a full-width shortlist, wider than the reading column. */}
       {editorial?.comparison && <ComparisonShortlist comparison={editorial.comparison} />}

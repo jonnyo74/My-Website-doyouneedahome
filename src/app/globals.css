@@ -197,3 +197,11 @@ label:has(> input.sr-only:focus-visible) {
 .leaflet-bottom {
   z-index: 30;
 }
+
+/* Follow Up Boss contact card: hidden on article pages (desktop only) until the
+   reader scrolls past the opening copy. Toggled by DeferredContactCta. */
+@media (min-width: 768px) {
+  html[data-cta-defer] iframe[name="widgetCta"] {
+    visibility: hidden !important;
+  }
+}
