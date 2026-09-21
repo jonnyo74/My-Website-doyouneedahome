@@ -108,7 +108,7 @@ export const agents: Agent[] = [
       },
       {
         title: 'Clients Who Come Back',
-        body: 'Many of my clients have done three, four, or five transactions with me. That only happens if the first valuation you give someone turns out to be honest.',
+        body: 'Much of my business comes from repeat clients and referrals, including clients who have trusted me with multiple purchases and sales over the years. That only happens if the first valuation you give someone turns out to be honest.',
       },
     ],
     bio: 'Christine Dekant has been serving residential real estate clients in Palm Beach County since 2012, bringing an analytical, detail-oriented approach to every transaction.',
