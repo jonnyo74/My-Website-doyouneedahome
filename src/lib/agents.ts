@@ -79,7 +79,7 @@ export const agents: Agent[] = [
         body: "Waterfront and condo valuations turn on details a generic estimate can't see — floor, view orientation, dockage, HOA health, assessment history. That's the segment I work in every day.",
       },
     ],
-    bio: 'John Oliver brings honesty, dedication, and an exceptional work ethic to every real estate transaction. He specializes in helping buyers and sellers across Palm Beach County, with a particular focus on condos and waterfront properties. John is known for going above and beyond — clients consistently describe him as patient, knowledgeable, and genuinely invested in getting the best outcome for them.',
+    bio: 'John Oliver brings a practical, consultative approach to real estate, helping buyers and sellers understand not only the opportunities in front of them, but also the details that can influence a smart decision. Since relocating to South Florida from Connecticut in 2007, he has worked across Palm Beach County in condominiums, waterfront properties, investment opportunities, new construction, resale homes, and second-home purchases. His approach is straightforward: provide honest guidance, communicate clearly, evaluate the options carefully, and help clients make decisions that fit their goals rather than pushing them toward a transaction.',
   },
   {
     slug: 'christine',
