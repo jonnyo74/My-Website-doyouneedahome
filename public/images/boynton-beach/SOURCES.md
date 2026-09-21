@@ -131,3 +131,31 @@ Portrait 1536×2048 frames of a single age-restricted community. Provenance is n
 (they arrived in a September photo drop). They are not suitable as city-wide heroes: the
 portrait frame crops badly in the wide hero, and one named age-restricted community should not
 stand in for the whole city.
+
+## `intracoastal-palms-sunset.webp` — hero, `pros-and-cons-of-living-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/FuA6v6GY-7A |
+| Photographer | Richard Sagredo (@sagredophotography) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1585184374689-…` file, not Unsplash+) |
+| Photographer's location tag | Manalapan, FL, USA (26.5692, -80.0448) — titled "Florida sunset by the water" |
+| Published | 2020-03-26 |
+| Original | 4640×3712 JPEG, downloaded 2026-09-21 |
+| Derivative | Crop `(0, 1050, 4640, 3660)` → 16:9, resized to **2048×1152**, WebP q80 (~400 KB) |
+
+What the frame shows: palm trees in silhouette against an orange sunset over the Intracoastal
+Waterway, the sun low over a far shoreline of low buildings and trees, and a small boat on the
+water. No people, signage or addresses.
+
+⚠️ **Not Boynton Beach.** The photographer tagged it Manalapan, the barrier-island town just
+north of the Boynton Inlet. The article carries a visible `heroImageCaption` marking it as a
+representative image not taken within city limits, and the alt text names no place. Replace
+with John's own Intracoastal shot when one exists (shot list item #6).
+
+⚠️ **Don't reuse the inlet frame.** Unsplash `ZpZxpOaZWec` (the boat in the inlet channel)
+turns up first in "boynton inlet" searches, but it's already the #1 hero
+(`boynton-inlet-sunrise.webp`).
+
+The sun sits left of centre (~38% of the width), so the article sets
+`heroImagePosition: '40% 50%'` to keep it in the phone crop.
