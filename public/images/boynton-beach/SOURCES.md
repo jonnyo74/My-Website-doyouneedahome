@@ -55,6 +55,31 @@ The pavilion sits left of centre (~34% of the width), so the article sets
 The companion frame `w32fWO52vf8` (same photographer, same boardwalk) was rejected because it
 shows identifiable visitors.
 
+## `florida-canal-neighborhood-aerial.webp` — hero, `best-neighborhoods-in-boynton-beach-florida`
+
+⚠️ **NOT BOYNTON BEACH.** This is a representative Florida canal neighborhood in **Indian Rocks
+Beach, on the Gulf coast (Pinellas County)**. The article carries a visible `heroImageCaption`
+saying so, and the alt text names the real location. Never caption it as Boynton. Replace it
+with John's own east-Boynton canal shot when he has one.
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/ZqXI8foTBu8 |
+| Photographer | Matt Paul (@flpilotshark) — "Aerial shot of my Neighborhood" |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-…` file, not Unsplash+) |
+| Photographer's location tag | Indian Rocks Beach, FL, USA |
+| Published | 2022-01-16 |
+| Original | 3933×2948 JPEG, downloaded 2026-09-21 via the Unsplash download link |
+| Derivative | Crop `(0, 676, 3933, 2888)` → 16:9, resized to **2048×1152**, WebP q80 (~400 KB) |
+
+What the frame shows: a drone view of canal-front homes with docks, tile roofs, palms and a
+curving street beside wide open water. The houses are private homes, but no house numbers or
+licence plates are legible at delivery size. `heroImagePosition: '70% 50%'` keeps the docks and
+the waterfront row in the phone crop.
+
+Why not a Boynton photo: as of 2026-09-21, Unsplash has no free Boynton-tagged aerial or
+residential shots (only beach, wildlife, Green Cay and the inlet frame used on #1).
+
 ## `valencia-bay-002` … `valencia-bay-006.jpeg` — unused
 
 Portrait 1536×2048 frames of a single age-restricted community. Provenance is not recorded
