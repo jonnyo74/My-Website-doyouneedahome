@@ -13,7 +13,7 @@ const agents = [
   {
     name: 'Christine Dekant',
     sellSlug: 'christine',
-    title: 'REALTOR® · Co-Founder, DO Homes Group',
+    title: 'REALTOR® · Co-Founder, DO Homes Group · Co-Founder, DoYouNeedAHome.com · Co-Founder, CondoWPB.com',
     brokerage: 'Premier Brokers International',
     credentials: ['RENE', 'GRI', 'CLA', 'CPRES', 'REDM', 'C2EX'],
     license: '3264840',
@@ -23,10 +23,13 @@ const agents = [
     photo: '/images/Christine-rooftop.png',
     photoPosition: 'object-top',
     bio: [
-      'Christine Dekant has been serving residential real estate clients in Palm Beach County since 2012. She is known for her analytical approach, responsiveness, market knowledge, and straightforward guidance.',
-      'Her business has grown largely through repeat clients and referrals, including clients who have worked with her through multiple purchases and sales over the years.',
-      'Before entering real estate, Christine worked in accounting within the renewable energy industry. That financial background continues to shape the detail-oriented approach she brings to pricing, comparable sales, market trends, negotiations, and property evaluation.',
-      'Christine works with buyers and sellers across a broad range of residential real estate, including condominiums, single-family homes, resale properties, new construction, and relocation.',
+      'Christine Dekant has been serving residential real estate clients in Palm Beach County since 2012, bringing an analytical, detail-oriented approach to every transaction.',
+      'Before entering real estate, Christine worked in accounting within the renewable energy industry. That financial background continues to influence the way she evaluates pricing, comparable sales, market trends, property values, negotiations, and the many details that can affect a real estate decision.',
+      'Her clients value clear communication, practical guidance, responsiveness, and a straightforward approach. Christine focuses on helping buyers and sellers understand their options, evaluate the market carefully, and make informed decisions without unnecessary pressure.',
+      'Her business has grown largely through repeat clients and referrals, including clients who have trusted her with multiple purchases and sales over the years.',
+      'Christine works with buyers and sellers throughout Palm Beach County and surrounding South Florida markets across a broad range of residential real estate, including single-family homes, condominiums, resale properties, new construction, relocation, and market analysis.',
+      'She is also the Co-Founder of DoYouNeedAHome.com and CondoWPB.com, two real estate resources created to provide consumers with useful local information, community guidance, market insight, and property research before they buy or sell.',
+      'Christine was recognized as a Platinum Producer at Premier Brokers International in 2019.',
     ],
   },
   {
