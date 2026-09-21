@@ -3074,109 +3074,129 @@ Whichever way you go, verify flood zone, elevation, permit history, and associat
     type: "Best Things To Do In",
     order: 4,
     heroImage: '/public/Delray Beach/delray-beach-pineapple-grove.JPEG',
+    heroImageAlt: 'The blue Pineapple Grove entrance arch, topped with a pineapple, spanning a palm- and tree-lined street in the Pineapple Grove arts district of Delray Beach',
+    heroImageWidth: 2048,
+    heroImageHeight: 1536,
     seoTitle: "Best Things to Do in Delray Beach, Florida",
     metaTitle: "Best Things to Do in Delray Beach, Florida",
     metaDescription: "From Atlantic Avenue and the beach to the Morikami Gardens and Wakodahatchee Wetlands — a local guide to the best things to do in Delray Beach, Florida.",
     primaryKeyword: "things to do in Delray Beach Florida",
     secondaryKeywords: ["Delray Beach attractions", "what to do in Delray Beach", "Morikami Museum", "Wakodahatchee Wetlands"],
     h1: "Best Things to Do in Delray Beach, Florida",
-    body: `Delray packs an unusual amount into a small city: two miles of public beach, a genuine arts campus, a world-class Japanese garden, and some of the best wildlife boardwalks in South Florida — several of which most residents don't discover for a year.
+    body: `Delray packs an unusual amount into a small city: approximately two miles of municipal beach, a historic arts campus downtown, a Japanese museum and gardens with real local roots, and two wetland boardwalks nearby that plenty of residents take a while to discover.
 
-Here's what's actually worth your time, roughly in the order a new resident should work through it.
+Here's what's actually worth your time, roughly in the order a new resident should work through it. Hours, closures, tickets and schedules change, so each section points to the official source — check it before you go.
 
 ## The beach
 
-Two miles of municipal shoreline along A1A, and it's the anchor of the whole east side.
+Approximately two miles of municipal beach along A1A, and it's the anchor of the whole east side.
 
-What makes it unusual is what isn't there. No commercial strip on the sand, no boardwalk of shops, no high-rise wall — just dune, sand, and a road with houses and low buildings behind it. That restraint was a deliberate civic choice decades ago and it's the reason the beach still feels like a beach.
+What makes it stand out is what isn't there. No commercial strip on the sand, no boardwalk of shops, no high-rise wall — just dune, sand, and a road with houses and low buildings behind it. The beach still feels like a beach.
 
-Readers voting in USA TODAY's 10Best Readers' Choice Awards named it Best Beach in Florida in 2026 — the third consecutive year Delray has taken the title. It's a public vote rather than an editorial ranking, and voters pointed to the coastline, the walkable downtown behind it, and the community feel.
+Delray Beach won the USA TODAY 10Best Readers' Choice Award for Best Beach in Florida in 2026, the third consecutive year it has taken the title. Nominees are selected by travel experts, and the final results are decided by reader votes.
 
-The main stretch near the downtown is lifeguarded, social, and busy. It gets progressively quieter as you move north or south from the center.
+The main stretch near the downtown is lifeguarded, social, and busy. In our experience it gets quieter as you move north or south from the center.
 
-**Practical notes:** parking is metered along A1A and in a handful of lots, it fills early on good days in season, and it's the single most common source of new-resident frustration. Go early, or go in summer when the whole problem evaporates.
+**Practical notes:** beach parking is paid, and on good days in season it can fill early. Going early helps, and summer is usually easier. Check lifeguard hours, beach conditions, parking and current restrictions with the City before you go.
+
+*Plan your visit:* [City of Delray Beach — public beaches](https://www.delraybeachfl.gov/Home/Components/FacilityDirectory/FacilityDirectory/64/194) · [Best Beach in Florida announcement](https://www.delraybeachfl.gov/Home/Components/News/News/799/395)
 
 ## The Morikami Museum and Japanese Gardens
 
-West of town, and genuinely one of the best cultural attractions in Florida — not merely one of the best in the county.
+West of town, and in our view one of the best cultural outings in the region.
 
-Six distinct gardens spanning different eras of Japanese garden design, a museum, a bonsai collection, a tea house with ceremonies, and a café. The grounds are large enough to spend a half-day in without rushing.
+Six distinct gardens spanning different eras of Japanese garden design, a museum, a bonsai collection, a tea house, and a café. The grounds are large enough to spend a half-day in without rushing.
 
-The history behind it is worth knowing: it traces to the **Yamato Colony**, an early-twentieth-century Japanese farming settlement in this area, and to George Morikami, a colonist who eventually donated the land. That lineage is why this exists here rather than being an imported theme.
+The history behind it is worth knowing. Morikami connects living Japanese cultural experiences with South Florida history: its Yamato-kan preserves the story of the **Yamato Colony**, a Japanese farming settlement established in what is now northern Boca Raton, south of Delray Beach. George Sukeji Morikami arrived in 1906 as one of the Yamato settlers, and in the 1970s he donated his land to Palm Beach County — the land the museum and gardens stand on today.
 
-Festivals through the year draw large crowds; ordinary weekday mornings are serene.
+Festivals and events through the year can draw large crowds; ordinary weekday mornings tend to be calmer.
+
+*Plan your visit:* [Morikami — hours, admission and events](https://morikami.org/about/) · [The Yamato Colony](https://morikami.org/yamato-colony/)
 
 ## The wetlands boardwalks
 
-**Wakodahatchee Wetlands** is a constructed wetland on Jog Road with a three-quarter-mile boardwalk over open water, and it is spectacular — herons, egrets, anhingas, ibis, turtles, alligators, and one of the more reliable rookeries in the region during nesting season. Photographers drive a long way for it.
+**Wakodahatchee Wetlands** is a constructed wetland on Jog Road, run by Palm Beach County Water Utilities, with a three-quarter-mile boardwalk over open water. Herons, egrets, anhingas, ibis, turtles and alligators are all commonly seen there, and it's a favorite with photographers — though what you'll see on any given visit varies.
 
-**Green Cay Nature Center**, a short distance north in Boynton Beach, is the same idea at larger scale with a nature center attached.
+**Green Cay Nature Center**, a short distance north in Boynton Beach, pairs a 1.5-mile elevated boardwalk through the wetland with a nature center.
 
-Both are free, both are easy walking, and both are best early in the morning. Nesting season, roughly late winter into spring, is the standout period — the boardwalk gets busy with tripods and it's worth the crowd.
+Both are easy walking, and early in the day is usually the more comfortable time to go. Late winter into spring is often a busy time for nesting birds, but timing varies year to year. The boardwalks close periodically for maintenance and repairs, so check before you drive out.
 
-If you do one outdoor thing in your first month that isn't the beach, make it Wakodahatchee at sunrise.
+If you do one outdoor thing in your first month that isn't the beach, make it Wakodahatchee early in the morning.
 
-## The arts campus and the downtown cultural core
+*Plan your visit:* [Wakodahatchee Wetlands](https://discover.pbc.gov/waterutilities/Pages/Wetlands.aspx) · [Green Cay Nature Center](https://discover.pbc.gov/parks/pages/greencay.aspx)
 
-The civic arts campus at the heart of downtown includes a museum in the original 1913 school building, a theater in the 1925 building, a fieldhouse, and an outdoor pavilion used for concerts and events.
+## Old School Square and the downtown arts scene
 
-Worth a note for newcomers: the campus went through a significant governance change in recent years, and programming and management have shifted as a result. What's running when you arrive may differ from what an older article describes — check the current schedule directly rather than assuming.
+Old School Square is the historic campus at the heart of downtown and still its cultural anchor — historic school buildings, public open space, and the grounds that host many community events.
 
-The surrounding downtown adds working galleries, studios, and a well-established mural program, particularly through the arts district north of Atlantic Avenue.
+Programming there has changed in recent years, so don't rely on an older article's list of what's running. The City's Creative Arts School currently operates from the Crest Theater building, with classes and workshops on its own schedule.
+
+The surrounding downtown adds galleries, studios, and murals, particularly in Pineapple Grove, the arts district north of Atlantic Avenue.
+
+*Plan your visit:* [City of Delray Beach Creative Arts School](https://www.delraybeachfl.gov/government/city-departments/creative-arts-school-classfocus) · [Downtown Delray Beach events](https://downtowndelraybeach.com/events)
 
 ## The GreenMarket and the events calendar
 
-The Saturday GreenMarket runs through the cooler months downtown and is a genuine local institution rather than a tourist draw — produce, prepared food, plants, and most of the neighborhood.
+The Delray GreenMarket is a seasonal downtown market — produce, prepared food, plants, and a good cross-section of the neighborhood. Its season, day and location are set each year, so check the current calendar.
 
-Beyond it, Delray runs one of the fuller event calendars in the county: art and craft festivals, food and wine events, holiday programming that draws regional crowds, and street festivals that close portions of the downtown. In season there is something most weekends.
+Beyond it, the downtown calendar includes art and craft festivals, food and drink events, holiday programming, and street festivals that close portions of the downtown. What's on, and when, changes year to year; the Downtown Development Authority's calendar is the place to check.
+
+*Plan your visit:* [Downtown Delray Beach events and GreenMarket calendar](https://downtowndelraybeach.com/events)
 
 ## The tennis
 
-The city's downtown tennis center hosts a professional tournament each winter that brings genuinely top-tier players to a small stadium in the middle of town. It's an unusual thing for a city this size and worth catching at least once — the intimacy of the venue is the appeal.
+The Delray Beach Tennis Center, downtown, hosts the Delray Beach Open, a professional ATP tournament held in winter, in a small stadium in the middle of town. It's an unusual thing for a city this size and worth catching at least once — the intimacy of the venue is the appeal.
 
 The center also runs public courts and programs the rest of the year.
 
+*Plan your visit:* [Delray Beach Tennis Center](https://www.delraytennis.com/) · [Delray Beach Open](https://www.delraybeachopen.com/en)
+
 ## On and in the water
 
-Beyond swimming, the practical options:
+Beyond swimming, the possibilities:
 
-- **Paddling the Intracoastal**, best early before the boat traffic builds, with rentals available locally.
-- **Diving and snorkelling offshore**, reached by boat — the reef systems off this stretch of coast are good, though Delray has no inlet of its own, so charters run from neighboring inlets.
-- **Fishing** from shore, from the Intracoastal seawalls where permitted, or offshore by charter.
-- **Boat tours** on the Intracoastal, which are the easiest way to see the waterfront housing stock if you're house-hunting.
+- **Paddling the Intracoastal**, often calmer early in the day before boat traffic builds.
+- **Diving and snorkeling offshore**, reached by boat. Delray has no inlet of its own, so offshore trips run through inlets outside the city.
+- **Fishing** from shore, from the Intracoastal where permitted, or offshore by charter.
+- **Boat tours** on the Intracoastal, which are also an easy way to see the waterfront housing stock if you're house-hunting.
+
+Rentals, charters and tours come and go, so confirm what's currently operating. **For any time on the water, use qualified, licensed providers, and check current weather, marine and access conditions before you go.**
 
 ## Green space away from the beach
 
-- **Lake Ida Park**, with a lake, a well-used dog park, and space to actually spread out.
-- **The natural areas** west and south of the city preserve remnant scrub and pine flatwoods, and they're quiet in a way the coastal parks never are.
-- **Veterans Park** on the Intracoastal downtown, small but well-placed, with playground and waterfront.
+- **Lake Ida West Park**, a Palm Beach County park on Lake Ida with boat ramps, canoe and kayak access, fishing, walking and bike paths, and a dog park.
+- **Palm Beach County natural areas** nearby preserve native habitat and tend to be quieter than the coastal parks.
+- **Veterans Park** on the Intracoastal downtown, small but well placed, with a playground and waterfront.
+
+*Plan your visit:* [Lake Ida West Park](https://discover.pbc.gov/parks/Locations/Lake-Ida-West.aspx)
 
 ## Seasonal timing
 
-**Winter into spring** is peak: perfect weather, the full events calendar, nesting season at the wetlands, the tennis tournament, and the largest crowds of the year.
+**Winter into spring** is the busy stretch: the most comfortable weather, the fullest events calendar, nesting activity at the wetlands, the tennis tournament, and the largest crowds of the year.
 
-**Summer** is hot, humid, and stormy by afternoon. Do outdoor things early, and use the museum, the gardens' shaded paths, and indoor venues for the middle of the day. The upside is that everything is uncrowded and parking stops being a problem.
+**Summer** is hot, humid, and often stormy by afternoon. Do outdoor things early, and use the museum, the gardens' shaded paths, and indoor venues for the middle of the day. In our experience it's less crowded, and parking is usually easier.
 
-**Hurricane season** runs June through November — worth building into any plan involving a boat.
+**Hurricane season** runs June 1 through November 30. Build it into any plan involving a boat, and check conditions before you go out.
 
 ## Where to start
 
-If you have one weekend: the beach early, the Avenue in the evening, Wakodahatchee at sunrise the next morning, and the Morikami after.
+If you have one weekend: the beach early, the Avenue in the evening, Wakodahatchee early the next morning, and the Morikami after.
 
-That sequence covers the four genuinely distinct things this city offers, and it'll tell you quickly whether Delray suits you. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-delray-beach-florida) are where it starts to feel like your town rather than a destination.`,
+That sequence covers four distinct sides of this city, and it'll tell you quickly whether Delray suits you. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-delray-beach-florida) are where it starts to feel like your town rather than a destination.`,
     faqs: [
-      { q: "What is the one thing everyone should do in Delray Beach?", a: "Wakodahatchee Wetlands at sunrise. A three-quarter-mile boardwalk over open water with herons, egrets, anhingas, turtles, alligators and a reliable rookery in nesting season. It is free, easy walking, and the single most surprising thing in the city for people who came for the beach and the downtown." },
-      { q: "Is the Morikami Museum worth visiting?", a: "Yes — it is one of the best cultural attractions in Florida, not just the county. Six gardens spanning different eras of Japanese design, a museum, a bonsai collection and a tea house. It traces to the Yamato Colony, an early-twentieth-century Japanese farming settlement in this area, which is why it exists here rather than being an imported theme." },
-      { q: "What is parking like at Delray Beach?", a: "It is the most common source of new-resident frustration. Parking is metered along A1A and in a handful of lots, and it fills early on good days during season. Go early, or go in summer when the problem disappears entirely along with the crowds." },
-      { q: "Why does Delray Beach look different from other Florida beaches?", a: "There is no commercial strip on the sand, no boardwalk of shops and no high-rise wall — just dune, sand, and a road with houses and low buildings behind it. That restraint was a deliberate civic decision decades ago, and it is the main reason the beach still reads as a beach rather than a resort frontage." },
-      { q: "Can you go boating or diving from Delray Beach?", a: "Yes, though with a caveat: Delray has no inlet of its own, so offshore charters run from neighboring inlets to the north and south. Paddling the Intracoastal is easy and best early before boat traffic builds, and the reef systems off this stretch of coast are genuinely good once you get out to them." },
-      { q: "When is the best time of year to enjoy Delray Beach?", a: "Winter into spring has perfect weather, the full events calendar, wetlands nesting season and the tennis tournament — along with the biggest crowds. Summer is hot and stormy by afternoon, but everything is uncrowded and parking stops being an issue. Do outdoor activities early either way." },
+      { q: "What is the one thing everyone should do in Delray Beach?", a: "Our pick is Wakodahatchee Wetlands early in the morning. It is a constructed wetland run by Palm Beach County Water Utilities, with a three-quarter-mile boardwalk over open water where herons, egrets, anhingas, turtles and alligators are commonly seen, though sightings vary. Check the County's page for current hours and closures before you go." },
+      { q: "Is the Morikami Museum worth visiting?", a: "Yes. Morikami connects living Japanese cultural experiences with South Florida history, with six gardens, a museum, a bonsai collection and a tea house. Its Yamato-kan preserves the story of the Yamato Colony, established in what is now northern Boca Raton, and of George Sukeji Morikami, one of its settlers, who later donated land to Palm Beach County. Check Morikami's site for current hours, admission and events." },
+      { q: "What is parking like at Delray Beach?", a: "Beach parking is paid, and on good days in season it can fill early. Going early helps, and summer is usually easier. Check the City of Delray Beach's beach page for current parking, lifeguard hours and restrictions." },
+      { q: "Why does Delray Beach look different from other Florida beaches?", a: "There is no commercial strip on the sand, no boardwalk of shops and no high-rise wall — just dune, sand, and a road with houses and low buildings behind it. That is a big part of why the beach still reads as a beach rather than a resort frontage." },
+      { q: "Can you go boating or diving from Delray Beach?", a: "Yes, with a caveat: Delray has no inlet of its own, so offshore trips run through inlets outside the city. Paddling, fishing, diving and boat tours are all possible. Use qualified, licensed providers, confirm what is currently operating, and check current weather, marine and access conditions before going out." },
+      { q: "When is the best time of year to enjoy Delray Beach?", a: "It depends on what you want. Winter into spring has the most comfortable weather, the fullest events calendar, wetlands nesting activity and the tennis tournament, along with the biggest crowds. Summer is hot and often stormy by afternoon but usually less crowded. Hurricane season runs June 1 through November 30, so check conditions before any time on the water, and do outdoor activities early either way." },
     ],
     internalLinks: ["hidden-gems-in-delray-beach-florida", "best-places-to-eat-drink-hang-out-in-delray-beach-florida", "local-guide-to-delray-beach-florida"],
-    funFact: "The Morikami Museum and Japanese Gardens in Delray Beach is one of the only museums in the continental US dedicated entirely to living Japanese culture — not Japanese-American history, but living traditions, art, and cuisine. It was founded on land given by a Japanese pineapple farmer who came to Delray in 1905.",
+    funFact: "Morikami Museum and Japanese Gardens connects living Japanese cultural experiences with South Florida history. Its Yamato-kan preserves the story of the Yamato Colony, established in what is now northern Boca Raton, and of George Sukeji Morikami, one of its settlers who later donated land to Palm Beach County.",
     author: 'christine',
     published: true,
-    updated: '2026-06-04',
+    publishedDate: '2026-06-04',
+    updated: '2026-09-21',
   },
   {
     slug: 'who-should-move-to-delray-beach-florida',
