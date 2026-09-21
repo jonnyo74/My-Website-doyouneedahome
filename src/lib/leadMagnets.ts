@@ -175,10 +175,10 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     ctaEyebrow: `Free — ${COUNTY_REPORT_DATA_MONTH} Palm Beach County Numbers`,
     ctaHeadline: 'What Palm Beach County Homes Actually Sold For',
     ctaDescription:
-      'The typical house sold for $650,000 and went under contract in 40 days, at 94.8% of asking. Condos are a different market: 6.7 months of supply and 69 days. See both, and what each means for your offer or your asking price.',
+      `In ${COUNTY_REPORT_DATA_MONTH}, the typical house sold for $650,000 and went under contract in 40 days, at 94.8% of asking. Condos are a different market: 6.7 months of supply and 69 days. See both, and what each means for your offer or your asking price.`,
     ctaButtonLabel: 'Send Me the Numbers',
     benefits: [
-      'What houses and condos actually sold for last month, and how fast',
+      `What houses and condos actually sold for in ${COUNTY_REPORT_DATA_MONTH}, and how fast`,
       'How much sellers came down from asking — your room to negotiate',
       'How much is for sale now versus a year ago, so you can see who has the upper hand',
     ],
@@ -516,10 +516,10 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     ctaEyebrow: `Free — ${COUNTY_REPORT_DATA_MONTH} Martin County Numbers`,
     ctaHeadline: 'Martin County Houses Are Selling Three Weeks Faster',
     ctaDescription:
-      'Houses went under contract in 56 days last month, down from 77 a year ago, and what is for sale dropped by more than a fifth. The typical house sold for $656,900. Every number is Martin County \u2014 Stuart, Palm City, Hobe Sound and Port Salerno \u2014 not Palm Beach County.',
+      `In ${COUNTY_REPORT_DATA_MONTH}, houses went under contract in 56 days, down from 77 a year ago, and what is for sale dropped by more than a fifth. The typical house sold for $656,900. Every number is Martin County \u2014 Stuart, Palm City, Hobe Sound and Port Salerno \u2014 not Palm Beach County.`,
     ctaButtonLabel: 'Send Me the Numbers',
     benefits: [
-      'What houses and condos actually sold for last month, and how fast',
+      `What houses and condos actually sold for in ${COUNTY_REPORT_DATA_MONTH}, and how fast`,
       'How much sellers came down from asking — your room to negotiate',
       'Martin County only, never blended with Palm Beach County',
     ],
@@ -629,10 +629,10 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     ctaEyebrow: `Free — ${COUNTY_REPORT_DATA_MONTH} St. Lucie County Numbers`,
     ctaHeadline: 'Houses Are Tight Here. Condo Buyers Still Have Choice.',
     ctaDescription:
-      'Houses sold at 95.5% of asking in 54 days last month, so there was less room than most buyers expect. Condos ran 7.6 months of supply and 82 days, which is a different negotiation entirely. Both sets of numbers, in one free PDF.',
+      `In ${COUNTY_REPORT_DATA_MONTH}, houses sold at 95.5% of asking in 54 days, so there was less room than most buyers expect. Condos ran 7.6 months of supply and 82 days, which is a different negotiation entirely. Both sets of numbers, in one free PDF.`,
     ctaButtonLabel: 'Send Me the Numbers',
     benefits: [
-      'What houses and condos actually sold for last month, and how fast',
+      `What houses and condos actually sold for in ${COUNTY_REPORT_DATA_MONTH}, and how fast`,
       'How much sellers came down from asking — your room to negotiate',
       'St. Lucie County only, never blended with Palm Beach County',
     ],
