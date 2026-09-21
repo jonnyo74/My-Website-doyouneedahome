@@ -99,6 +99,11 @@ export default async function CommunityPage({ params }: Props) {
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []
   const parentCity = !isCity ? getParentCity(community.slug) : undefined
+  // Other neighborhoods in the same city. Without this, a neighborhood page is
+  // linked only from /communities and its parent city.
+  const siblingNeighborhoods = parentCity
+    ? getLinkedNeighborhoods(parentCity).filter((n) => n.slug !== community.slug)
+    : []
   const hasPhotos = community.photos && community.photos.length > 0
   const galleryPhotos = community.photos && community.photos.length > 1
     ? community.photos.slice(1, 6)
@@ -1005,6 +1010,25 @@ export default async function CommunityPage({ params }: Props) {
                   >
                     Explore {parentCity.name} →
                   </Link>
+                  {siblingNeighborhoods.length > 0 && (
+                    <div className="mt-6 border-t border-slate-200 pt-5">
+                      <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">
+                        Other communities in {parentCity.name}
+                      </p>
+                      <ul className="mt-3 flex flex-wrap gap-2">
+                        {siblingNeighborhoods.map((n) => (
+                          <li key={n.slug}>
+                            <Link
+                              href={`/communities/${n.slug}`}
+                              className="inline-flex rounded-full border border-slate-200 bg-white px-3.5 py-1.5 text-sm font-medium text-slate-700 transition hover:border-gold-500/40 hover:text-gold-600"
+                            >
+                              {n.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               )}
             </div>

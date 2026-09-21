@@ -3,6 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
+import Link from 'next/link'
 import { magnetsForSelection, type LeadMagnetSelection } from '@/lib/leadMagnets'
 import { hasDownloaded, subscribeToDownloads } from '@/lib/leadMagnetState'
 import { trackEvent } from '@/lib/analytics'
@@ -111,6 +112,15 @@ export default function LeadMagnetCTA({
     'Prices, inventory, months of supply and days to contract for single-family homes and condos/townhomes, county by county — pick either report as a free instant PDF.'
   const label = buttonLabel ?? magnet?.ctaButtonLabel ?? 'Download the Free Report'
 
+  // A crawlable link to the magnet's own page. The button only opens a modal,
+  // so without this the county report pages are linked from almost nowhere.
+  const landingLink = (className: string) =>
+    magnet?.landingPage ? (
+      <Link href={magnet.landingPage} className={className}>
+        See what&apos;s inside →
+      </Link>
+    ) : null
+
   const modal = (
     <LeadMagnetModal
       isOpen={open}
@@ -158,6 +168,11 @@ export default function LeadMagnetCTA({
           <p className="mt-3 text-center text-[11px] text-white/60">
             Instant download · No obligation
           </p>
+          {magnet?.landingPage && (
+            <p className="mt-2 text-center">
+              {landingLink('text-xs font-semibold text-report-gold transition hover:text-white')}
+            </p>
+          )}
         </div>
         {modal}
       </div>
@@ -198,7 +213,11 @@ export default function LeadMagnetCTA({
             >
               {label}
             </button>
-            <p className="mt-3 text-xs text-white/60">Free instant PDF · No obligation</p>
+            <p className="mt-3 text-xs text-white/60">
+              Free instant PDF · No obligation
+              {magnet?.landingPage && ' · '}
+              {landingLink('font-semibold text-report-gold transition hover:text-white')}
+            </p>
           </div>
         </div>
         {modal}
