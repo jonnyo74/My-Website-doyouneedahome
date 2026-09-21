@@ -94,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // into it, so siteName and locale have to be restated here or they vanish.
       siteName: 'DO Homes Group',
       locale: 'en_US',
-      publishedTime: a.updated,
+      publishedTime: a.publishedDate ?? a.updated,
       modifiedTime: a.updated,
       images: ogImage ? [ogImage] : undefined,
     },
@@ -132,7 +132,7 @@ export default async function ArticlePage({ params }: Props) {
     '@type': 'BlogPosting',
     headline: article.h1,
     description: article.metaDescription,
-    datePublished: article.updated,
+    datePublished: article.publishedDate ?? article.updated,
     dateModified: article.updated,
     image: heroUrl
       ? {
