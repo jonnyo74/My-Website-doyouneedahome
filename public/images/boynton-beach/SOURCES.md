@@ -180,3 +180,27 @@ names no place. Chosen over a Sarasota waterfront frame because the brief exclud
 imagery. Replace with John's own west-Boynton street shot (no house numbers) when available.
 
 The houses sit right of centre, so the article sets `heroImagePosition: '72% 50%'`.
+
+## `loxahatchee-refuge-marsh-sunset.webp` — hero, `hidden-gems-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/TyVPvSuzkfU |
+| Photographer | Richard Sagredo (@sagredophotography) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1662427580294-…` file, not Unsplash+) |
+| Photographer's location tag | Arthur R. Marshall Loxahatchee National Wildlife Refuge, Lee Road, Boynton Beach, FL (26.4993, -80.2124) |
+| Published | 2022-09-06 |
+| Original | 6048×4024 JPEG, downloaded 2026-09-21 |
+| Derivative | Crop `(0, 300, 6048, 3702)` → 16:9, resized to **2048×1152**, WebP q80 (~165 KB) |
+
+What the frame shows: a water channel through tall marsh grass with the sun low on the horizon
+and its reflection on the water, under streaked clouds. No people or structures.
+
+⚠️ **Sunrise or sunset is unconfirmed.** The photographer tagged it both ways, so the alt text
+says only "the sun low on the horizon". Don't call it a sunset or a sunrise.
+
+⚠️ **Location wording.** The refuge is a federal refuge farther west in Palm Beach County. Its
+visitor center has a Boynton Beach mailing address, but it is not inside city limits, and the
+visible `heroImageCaption` says so.
+
+The sun sits at centre, so the article sets `heroImagePosition: '50% 50%'`.
