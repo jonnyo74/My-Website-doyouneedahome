@@ -204,3 +204,22 @@ visitor center has a Boynton Beach mailing address, but it is not inside city li
 visible `heroImageCaption` says so.
 
 The sun sits at centre, so the article sets `heroImagePosition: '50% 50%'`.
+
+## `south-county-coast-aerial.webp` — hero, `boynton-beach-vs-nearby-cities`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/zKE81V63vdo |
+| Photographer | Nigel Sarrag |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1738654942907-…` file, not Unsplash+) |
+| Photographer's location tag | Boca Raton, FL, USA (city-centre coordinates, so the exact spot is unconfirmed) |
+| Original | 5472×3078 JPEG, downloaded 2026-09-21 |
+| Derivative | Already ~16:9; full frame resized to **2048×1152**, WebP q80 (~190 KB) |
+
+What the frame shows: an aerial of blue-green Atlantic water, a long beach, coastal trees and
+mid-rise condo towers, with a lagoon in the distance. No legible signage or people.
+
+⚠️ **Not Boynton Beach.** The caption calls it a representative image of the south Palm Beach
+County coast, tagged Boca Raton, south of Boynton. The alt text names no place.
+
+The beach line sits just right of centre, so the article sets `heroImagePosition: '60% 50%'`.
