@@ -30,6 +30,31 @@ The subject sits right of centre (boat at ~76% of the width), so the article set
 
 No faces or licence plates are legible at delivery size.
 
+## `green-cay-boardwalk.webp` — hero, `local-guide-to-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/qU-I90yRDRg |
+| Photographer | Jeffrey Eisen (@jeisen) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-…` file, not Unsplash+) |
+| Photographer's location tag | Green Cay Nature Center & Wetlands, Hagen Ranch Road, Boynton Beach, FL |
+| Published | 2022-12-27 |
+| Original | 6000×4000 JPEG, downloaded 2026-09-21 via the Unsplash download link |
+| Derivative | Crop `(0, 250, 6000, 3625)` → 16:9, resized to **2048×1152**, WebP q80 (~240 KB) |
+
+What the frame shows: a wooden boardwalk leading to a white-roofed shade pavilion over open
+water, with a wetland edge and tree line under a blue sky with cumulus clouds. There are no people
+in the frame.
+
+⚠️ **Green Cay is a Palm Beach County facility with a Boynton Beach address**, not a City of
+Boynton Beach park. Captions and alt text must not imply City ownership.
+
+The pavilion sits left of centre (~34% of the width), so the article sets
+`heroImagePosition: '35% 50%'`.
+
+The companion frame `w32fWO52vf8` (same photographer, same boardwalk) was rejected because it
+shows identifiable visitors.
+
 ## `valencia-bay-002` … `valencia-bay-006.jpeg` — unused
 
 Portrait 1536×2048 frames of a single age-restricted community. Provenance is not recorded
