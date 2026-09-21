@@ -2024,7 +2024,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Stuart (Martin County)', time: '20 min' },
       { destination: 'West Palm Beach', time: '35 min' },
     ],
-    linkedNeighborhoods: ['powder-pointe', 'abacoa', 'jupiter-inlet-colony'],
+    linkedNeighborhoods: ['powder-pointe'],
     priceRanges: [
       { type: 'Single-Family Homes (Interior)', range: '$600K – $1.2M', minPrice: 600000, maxPrice: 1200000, propertyTypes: ['house'] },
       { type: 'Canal & Intracoastal Homes', range: '$1M – $3M+', minPrice: 1000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },

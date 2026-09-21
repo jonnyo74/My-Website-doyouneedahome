@@ -102,7 +102,9 @@ export default async function CommunityPage({ params }: Props) {
   // Other neighborhoods in the same city. Without this, a neighborhood page is
   // linked only from /communities and its parent city.
   const siblingNeighborhoods = parentCity
-    ? getLinkedNeighborhoods(parentCity).filter((n) => n.slug !== community.slug)
+    ? getLinkedNeighborhoods(parentCity).filter(
+        (n) => n.slug !== community.slug && getParentCity(n.slug)?.slug === parentCity.slug,
+      )
     : []
   const hasPhotos = community.photos && community.photos.length > 0
   const galleryPhotos = community.photos && community.photos.length > 1
