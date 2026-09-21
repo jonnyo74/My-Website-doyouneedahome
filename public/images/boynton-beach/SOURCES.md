@@ -131,3 +131,116 @@ Portrait 1536×2048 frames of a single age-restricted community. Provenance is n
 (they arrived in a September photo drop). They are not suitable as city-wide heroes: the
 portrait frame crops badly in the wide hero, and one named age-restricted community should not
 stand in for the whole city.
+
+## `intracoastal-palms-sunset.webp` — hero, `pros-and-cons-of-living-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/FuA6v6GY-7A |
+| Photographer | Richard Sagredo (@sagredophotography) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1585184374689-…` file, not Unsplash+) |
+| Photographer's location tag | Manalapan, FL, USA (26.5692, -80.0448) — titled "Florida sunset by the water" |
+| Published | 2020-03-26 |
+| Original | 4640×3712 JPEG, downloaded 2026-09-21 |
+| Derivative | Crop `(0, 1050, 4640, 3660)` → 16:9, resized to **2048×1152**, WebP q80 (~400 KB) |
+
+What the frame shows: palm trees in silhouette against an orange sunset over the Intracoastal
+Waterway, the sun low over a far shoreline of low buildings and trees, and a small boat on the
+water. No people, signage or addresses.
+
+⚠️ **Not Boynton Beach.** The photographer tagged it Manalapan, the barrier-island town just
+north of the Boynton Inlet. The article carries a visible `heroImageCaption` marking it as a
+representative image not taken within city limits, and the alt text names no place. Replace
+with John's own Intracoastal shot when one exists (shot list item #6).
+
+⚠️ **Don't reuse the inlet frame.** Unsplash `ZpZxpOaZWec` (the boat in the inlet channel)
+turns up first in "boynton inlet" searches, but it's already the #1 hero
+(`boynton-inlet-sunrise.webp`).
+
+The sun sits left of centre (~38% of the width), so the article sets
+`heroImagePosition: '40% 50%'` to keep it in the phone crop.
+
+## `planned-community-street.webp` — hero, `cost-of-living-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/4T4AcGJvARQ |
+| Photographer | FilterGrade (@filtergrade) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1555636222-…` file, not Unsplash+) |
+| Photographer's location tag | None |
+| Original | 5672×3755 JPEG, downloaded 2026-09-21 |
+| Derivative | Small address plaque on the right-hand house blurred (box `5260,2295–5405,2415`); crop `(0, 565, 5672, 3755)` → 16:9, resized to **2048×1152**, WebP q80 (~200 KB) |
+
+What the frame shows: a residential street of single-story stucco homes with clay-tile roofs,
+paver driveways, palms and hedges. No people, vehicles or legible addresses.
+
+⚠️ **Location unknown.** It is NOT presented as Boynton Beach: the article's visible
+`heroImageCaption` calls it a representative Florida planned-community street, and the alt text
+names no place. Chosen over a Sarasota waterfront frame because the brief excluded luxury-home
+imagery. Replace with John's own west-Boynton street shot (no house numbers) when available.
+
+The houses sit right of centre, so the article sets `heroImagePosition: '72% 50%'`.
+
+## `loxahatchee-refuge-marsh-sunset.webp` — hero, `hidden-gems-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/TyVPvSuzkfU |
+| Photographer | Richard Sagredo (@sagredophotography) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1662427580294-…` file, not Unsplash+) |
+| Photographer's location tag | Arthur R. Marshall Loxahatchee National Wildlife Refuge, Lee Road, Boynton Beach, FL (26.4993, -80.2124) |
+| Published | 2022-09-06 |
+| Original | 6048×4024 JPEG, downloaded 2026-09-21 |
+| Derivative | Crop `(0, 300, 6048, 3702)` → 16:9, resized to **2048×1152**, WebP q80 (~165 KB) |
+
+What the frame shows: a water channel through tall marsh grass with the sun low on the horizon
+and its reflection on the water, under streaked clouds. No people or structures.
+
+⚠️ **Sunrise or sunset is unconfirmed.** The photographer tagged it both ways, so the alt text
+says only "the sun low on the horizon". Don't call it a sunset or a sunrise.
+
+⚠️ **Location wording.** The refuge is a federal refuge farther west in Palm Beach County. Its
+visitor center has a Boynton Beach mailing address, but it is not inside city limits, and the
+visible `heroImageCaption` says so.
+
+The sun sits at centre, so the article sets `heroImagePosition: '50% 50%'`.
+
+## `south-county-coast-aerial.webp` — hero, `boynton-beach-vs-nearby-cities`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/zKE81V63vdo |
+| Photographer | Nigel Sarrag |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1738654942907-…` file, not Unsplash+) |
+| Photographer's location tag | Boca Raton, FL, USA (city-centre coordinates, so the exact spot is unconfirmed) |
+| Original | 5472×3078 JPEG, downloaded 2026-09-21 |
+| Derivative | Already ~16:9; full frame resized to **2048×1152**, WebP q80 (~190 KB) |
+
+What the frame shows: an aerial of blue-green Atlantic water, a long beach, coastal trees and
+mid-rise condo towers, with a lagoon in the distance. No legible signage or people.
+
+⚠️ **Not Boynton Beach.** The caption calls it a representative image of the south Palm Beach
+County coast, tagged Boca Raton, south of Boynton. The alt text names no place.
+
+The beach line sits just right of centre, so the article sets `heroImagePosition: '60% 50%'`.
+
+## `florida-marina-sportfishing.webp` — hero, `best-places-to-eat-drink-hang-out-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/JeQLpw97924 |
+| Photographer | Mike Bergmann |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1788316695980-…` file, not Unsplash+) |
+| Photographer's location tag | Ponce Inlet, FL, USA — "Sport fishing boats docked on the river in Ponce Inlet" |
+| Original | 5897×3931 JPEG, downloaded 2026-09-21 |
+| Derivative | Business name and phone number on the tiki boat's banner blurred (box `1539,2457–2568,2784`); crop `(0, 614, 5897, 3931)` → 16:9, resized to **2048×1152**, WebP q80 |
+
+What the frame shows: sportfishing boats with tuna towers at a marina beside a small thatched-roof
+tiki boat, with palms and late-afternoon clouds. No people or legible business names remain.
+
+⚠️ **Not Boynton Beach.** It's Ponce Inlet, in Volusia County. The visible `heroImageCaption`
+says so and notes the blurred sign. Replace with John's own Boynton Harbor Marina shot (shot list
+item #10: waterfront dining area without dominant signage) when available. No free Unsplash
+frame of Boynton's marina dining exists.
+
+The main boat sits left of centre, so the article sets `heroImagePosition: '40% 50%'`.
