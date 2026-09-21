@@ -2861,9 +2861,12 @@ If you're weighing it against its neighbors, our [comparison of the surrounding 
     type: "A Local's Guide To",
     order: 2,
     heroImage: '/public/Delray Beach/delray-beach-dining-atlantic-ave.JPEG',
+    heroImageAlt: 'White-brick restaurant frontage with striped awnings, planters and entry steps on the brick-paved sidewalk of Atlantic Avenue in downtown Delray Beach',
+    heroImageWidth: 2048,
+    heroImageHeight: 1536,
     seoTitle: "A Local's Guide to Delray Beach, Florida",
     metaTitle: "A Local's Guide to Delray Beach, Florida",
-    metaDescription: "An insider guide to Delray Beach, Florida — Atlantic Avenue, Pineapple Grove, the beach, and how to live like a local in the Village by the Sea.",
+    metaDescription: "A practical local guide to Delray Beach, FL: parking, utilities, city services, transit, storm preparation, and day-to-day moves.",
     primaryKeyword: "Delray Beach local guide",
     secondaryKeywords: ["Delray Beach insider tips", "things locals do in Delray Beach", "moving to Delray Beach guide"],
     h1: "A Local's Guide to Delray Beach, Florida",
@@ -2871,100 +2874,109 @@ If you're weighing it against its neighbors, our [comparison of the surrounding 
 
 Not what Delray feels like, and not what to do on a Saturday. How to operate here.
 
+> **First, check which Delray you're in.** "Delray Beach" can mean the incorporated City of Delray Beach or a broader postal area that includes unincorporated Palm Beach County. Services, permits, taxes, utility providers, parking eligibility, and code enforcement follow the address's actual jurisdiction, not the name on the envelope.
+
 ## The layout, in about a minute
 
-**Atlantic Avenue** runs east–west and is the organizing line for the whole city; addresses are north or south of it. It runs from out past I-95, through the historic downtown, over the Intracoastal, and ends at the ocean.
+**Atlantic Avenue** is the east–west spine, and street addresses are numbered north or south of it. It runs east from I-95 through the historic downtown, crosses the Intracoastal on a drawbridge, and ends at A1A by the beach.
 
-**Swinton Avenue** runs north–south through the historic core and is the informal boundary of the oldest part of town. **Federal Highway (US-1)** carries north–south traffic a few blocks in from the water, splitting into one-way pairs through the downtown — a detail that catches newcomers out constantly. **A1A** runs along the beach.
+**Swinton Avenue** runs north–south through the historic core and is the informal boundary of the oldest part of town. **Federal Highway (US-1)** carries north–south traffic a few blocks in from the water, splitting into one-way pairs through the downtown — a detail that often catches newcomers off guard. **A1A** runs along the beach.
 
 West of the downtown: **I-95**, then the arterials — **Congress**, **Military Trail**, **Jog**, **Lyons** — with **Linton Boulevard** as the main east–west route south of Atlantic, and **the Turnpike** further west again.
 
-The mental model: everything walkable is east of I-95 and within about a mile of Atlantic Avenue. Everything west of I-95 is arterials and gated communities.
+The mental model: the densest walkable area is around downtown Atlantic Avenue and the nearby historic and Pineapple Grove blocks — not everything east of I-95. West of I-95 the street pattern turns more suburban and driving is more common. Either way, walkability, traffic, noise, parking, and jurisdiction are worth checking for the exact address rather than the side of the highway.
 
 ## Solving parking
 
-The single most useful skill for living east.
+The single most useful skill for living near downtown.
 
-**Learn the garages.** There are public parking structures near the downtown core, and using one is almost always faster than circling for a street space. Residents who insist on finding kerbside parking spend a remarkable share of their lives failing to.
+**Learn the garages.** The City offers on-street, garage, and lot parking, and near the core a garage is usually faster than circling for a street space. Residents who insist on finding curbside parking spend a lot of evenings circling.
 
-**The beach is metered** along A1A, with a handful of lots. It fills early on good days in season. There are resident parking options through the city — look into what's currently offered when you move in, because it changes and it's worth having.
+**Resident permits have limits.** Where a downtown resident parking permit is available, it is valid only in designated locations and does not guarantee a space. Don't assume it covers on-street or beach parking — check what the City currently offers, and where it applies, when you move in.
 
-**Park once.** The classic local move for an evening downtown: park in a garage, walk everywhere, and don't move the car until you leave. The district is compact enough that this always works.
+**Park once.** The classic local move for an evening downtown: park in a garage, walk everywhere, and don't move the car until you leave. The core is compact enough that this usually works.
 
-**In season, don't fight it.** Weekend evenings from November through April, arriving without a plan is how you end up parked half a mile away and irritated.
+**In season, have a plan.** On weekend evenings from roughly November through April, arriving without one is how you end up parked a long way from dinner.
+
+*Official resource:* [City of Delray Beach — find parking](https://www.delraybeachfl.gov/government/city-departments/public-works/parking/find-parking)
 
 ## Setting up services
 
 - **Electric** is FPL. Arrange it before closing.
 - **Water and sewer** come from the City of Delray Beach for most of the incorporated city. Some western communities are served by other providers or by their own systems — confirm for the specific address rather than assuming.
-- **Waste and recycling** run on a city schedule, with separate arrangements for bulk and vegetative waste. The rules are stricter than newcomers expect; check the current schedule when you arrive.
+- **Waste and recycling** run on a city schedule inside city limits, with separate arrangements for bulk and vegetative waste. Check the current rules when you arrive; they are more detailed than many newcomers expect.
 - **Internet** varies by street and building. Confirm what's actually serviceable at the address before you commit, particularly if you work from home.
+
+*Official resource:* [City of Delray Beach — new utility account](https://www.delraybeachfl.gov/services/utility-billing/new-utility-account)
 
 ## City services, and who handles what
 
-Delray Beach is an incorporated city, which means more of your dealings are municipal than in the unincorporated areas nearby:
+If the address is inside the City of Delray Beach, more of your dealings are municipal than in the unincorporated areas nearby. If it isn't, the county handles much of what follows — so confirm jurisdiction first.
 
-- **Police and fire rescue** are city departments.
-- **Permits, zoning, code enforcement, and historic preservation review** run through the city. If you're planning exterior work in a historic district, start here early — that process is real and it takes time.
+- **Police and fire rescue** are city departments inside city limits.
+- **Permits, zoning, code enforcement, and historic preservation review** run through the city. If you're planning exterior work in a designated historic district, it needs a Certificate of Appropriateness — start early, because that process is real and it takes time. The City's [development review page](https://www.delraybeachfl.gov/government/city-departments/development-services/zoning-current-planning/development-review-process-and-applications) is the place to begin.
 - **Property records, homestead filing, and tax matters** are Palm Beach County — the Property Appraiser and Tax Collector.
-- **Vehicle and vessel registration, and driver licensing** are county Tax Collector functions.
+- **Vehicle and vessel registration, and driver license services** are provided by the Palm Beach County Tax Collector's offices on behalf of the state systems.
 - **Schools** are the School District of Palm Beach County. Attendance boundaries, magnet and choice programs all have their own rules and deadlines — verify boundaries for the specific address directly with the district rather than relying on any listing or third-party site.
 
 ## Health care
 
-**Delray Medical Center** is the main hospital serving the city, west of downtown off Linton. There are additional hospitals in the neighboring cities north and south, and a dense supply of specialists throughout the south county corridor.
+**Delray Medical Center** is on Linton Boulevard, west of downtown, and has emergency services. There are additional hospitals in the neighboring cities north and south, and a wide range of specialists along the south county corridor.
 
-Note your nearest emergency entrance now rather than looking it up during an emergency.
+In an emergency, call 911. For everything short of that, note your nearest emergency entrance now rather than looking it up under pressure.
 
 ## Getting out of town
 
 - **Palm Beach International** is the closest major airport and generally the easiest.
 - **Fort Lauderdale–Hollywood** is further but opens more routes; worth the drive for the right fare.
-- **Tri-Rail** has a station on the west side of the city, serving the corridor from Miami to West Palm Beach. Useful if your destination is near another station.
-- **Brightline** does not stop in Delray. The nearest stations are in neighboring cities to the north and south, offering fast service toward West Palm Beach, Fort Lauderdale, Miami and Orlando. Drive, park, and ride is a common local pattern.
+- **Tri-Rail**'s Delray Beach Station is at 345 S. Congress Avenue and has public commuter parking. The line runs the corridor between Miami and West Palm Beach, so it's useful if your destination is near another station.
+- **Brightline does not stop in Delray Beach.** The nearby station options are Boca Raton and West Palm Beach. Check schedules, fares, and station parking directly with Brightline before relying on either.
 - **I-95 and the Turnpike** are both easy to reach; I-95 is faster but far more variable in season.
 
 ## Hurricane season, practically
 
-June through November, peaking late summer into early autumn.
+The Atlantic hurricane season runs June 1 through November 30. This is the short version; follow official orders and current storm-specific guidance from the City and Palm Beach County over anything written in advance.
 
-- **Find your evacuation zone before the season starts.** Palm Beach County publishes them, and the barrier island and low-lying eastern areas are called first. Knowing your zone in advance is the difference between leaving calmly and leaving badly.
-- **Sort shutters or impact protection before June**, including who installs them if you can't.
-- **Keep roughly two weeks** of water, food, medication, and cash. Fuel and ice vanish before a storm and stay gone after.
-- **Photograph the property annually** for insurance. Ten minutes, and the most useful thing you can do for a future claim.
-- **Know your flood zone**, which is parcel-specific and not something you can infer from the neighborhood.
+- **Know your evacuation zone and flood zone before the season starts.** Both are specific to the property. Look them up now, then follow official evacuation orders when a storm is coming.
+- **Build a kit to the county's recommendation:** seven days of water and nonperishable food, 30 days of medication, and cash.
+- **Sort shutters or impact protection before the season**, including who installs them if you can't — and follow current City, County, insurer, and HOA instructions on what's required.
+- **Photograph the property annually** and keep insurance documents where you can reach them. It's ten minutes, and it's among the most useful things you can do for a future claim.
+- **Know your flood zone at the parcel level.** It isn't something you can infer from the neighborhood.
+
+*Official resources:* [Delray Beach hurricane season](https://www.delraybeachfl.gov/government/city-departments/fire-rescue/emergency-management/hurricane-season) · [Delray Beach evacuations and shelters](https://www.delraybeachfl.gov/government/city-departments/emergency-management/evacuations-shelters) · [Palm Beach County hurricane safety](https://discover.pbcgov.org/pbcfr/crrd/pages/hurricane-safety.aspx) · [Flooding in low-lying areas](https://www.delraybeachfl.gov/government/city-departments/public-works/stormwater/flooding-in-low-lying-areas)
 
 ## The seasonal calendar
 
-**November through April** is season: perfect weather, full restaurants, heavy traffic, competitive parking, and the events calendar at maximum. Everything takes longer.
+**November through April** is season: the most comfortable weather, busier restaurants, heavier traffic, more competitive parking, and a full events calendar. Plan for things to take longer.
 
-**May and June** bring heat and the start of storm season as the seasonal residents leave.
+**May and June** bring heat and the start of hurricane season, and many seasonal residents head north.
 
-**July through September** is hot, humid, and stormy most afternoons. Quiet, easy to park, and the months residents quietly enjoy.
+**July through September** is hot and humid, with frequent afternoon storms. It's quieter and easier to park — a stretch plenty of residents enjoy.
 
-**October** is the turn — the heat breaking, the crowds not yet back. Arguably the best month of the year here.
+**October** is the turn — the heat easing, the crowds not yet back. It's a local favorite.
 
 ## Fitting in
 
-- **Walk more than you think you need to.** If you live east, the car is often the slower option for anything within a mile. Residents who keep driving downtown never quite get the benefit of living there.
-- **Go early.** Beach, errands, exercise, the market. By midday in summer the outdoors is unpleasant and by midday in season everywhere is full.
-- **Learn the off-peak rhythm.** Weeknights and summer are when this town is genuinely easy, and that's when locals do most of their going out.
-- **Verify everything address by address.** Flood zone, evacuation zone, historic designation, utility provider, HOA obligations, and school boundaries all vary within short distances here. Nothing about the neighborhood tells you what's true of the specific parcel.
+- **Walk more than you think you need to.** If you live near downtown, the car is often the slower option for short trips. Residents who keep driving downtown miss much of the benefit of living there.
+- **Go early.** Beach, errands, exercise, the market. Midday in summer is hot, and midday in season is busy.
+- **Learn the off-peak rhythm.** Weeknights and summer are when the town is easiest, and plenty of locals do most of their going out then.
+- **Verify everything address by address.** Jurisdiction, flood zone, evacuation zone, historic designation, utility provider, HOA obligations, and school boundaries all vary within short distances here. Nothing about the neighborhood tells you what's true of the specific parcel.
 
 For the texture rather than the mechanics, read [what living here is actually like](/blog/what-its-really-like-living-in-delray-beach-florida) — and once you're settled, the [quieter local spots](/blog/hidden-gems-in-delray-beach-florida) are where the city stops being a destination and starts being home.`,
     faqs: [
-      { q: "How is Delray Beach laid out?", a: "Atlantic Avenue runs east–west and organises the whole city, from past I-95 through the historic downtown, over the Intracoastal, to the ocean. Swinton Avenue marks the oldest part of town, Federal Highway carries north–south traffic in one-way pairs through downtown, and A1A runs the beach. Everything walkable is east of I-95 within about a mile of Atlantic." },
-      { q: "What is the trick to parking in downtown Delray Beach?", a: "Learn the garages and park once. There are public structures near the core, and using one is almost always faster than circling for a street space. For an evening out, park in a garage, walk everywhere and do not move the car until you leave — the district is compact enough that this always works." },
-      { q: "Who provides water and other services in Delray Beach?", a: "Delray Beach is an incorporated city, so police, fire rescue, permits, zoning, code enforcement and historic preservation review are municipal, and water and sewer come from the city for most of the incorporated area. Property records, homestead and vehicle registration are Palm Beach County functions. Some western communities use other utility providers — confirm for the address." },
-      { q: "Does Brightline stop in Delray Beach?", a: "No. Tri-Rail has a station on the west side of the city serving the Miami–West Palm Beach corridor, but the nearest Brightline stations are in neighboring cities to the north and south. Driving, parking and riding from there is a common local pattern for trips to West Palm Beach, Fort Lauderdale, Miami or Orlando." },
-      { q: "How should I prepare for hurricane season in Delray Beach?", a: "Find your evacuation zone before the season starts — the barrier island and low-lying eastern areas are called first. Sort shutters or impact protection before June, keep about two weeks of water, food, medication and cash, photograph the property annually for insurance, and know your parcel-specific flood zone." },
-      { q: "What is the best month in Delray Beach?", a: "October, arguably — the heat is breaking and the seasonal crowds have not yet returned. November through April has the best weather and the fullest calendar along with heavy traffic and competitive parking. July through September is hot and stormy but quiet, easy to park, and the stretch many residents quietly prefer." },
+      { q: "How is Delray Beach laid out?", a: "Atlantic Avenue is the east–west spine: it runs east from I-95 through the historic downtown, crosses the Intracoastal on a drawbridge, and ends at A1A by the beach. Swinton Avenue marks the oldest part of town, Federal Highway carries north–south traffic in one-way pairs through downtown, and A1A runs along the beach. The densest walkable area is around downtown Atlantic Avenue and the nearby historic and Pineapple Grove blocks; west of I-95 is more suburban. Check walkability, parking and jurisdiction for the exact address." },
+      { q: "What is the trick to parking in downtown Delray Beach?", a: "Learn the garages and park once. The City offers on-street, garage and lot parking, and near the core a garage is usually faster than circling for a street space. A downtown resident parking permit, where available, is valid only in designated locations and does not guarantee a space. Check the City's current parking information for options and where each applies." },
+      { q: "Who provides water and other services in Delray Beach?", a: "It depends on whether the address is inside the City of Delray Beach. Inside city limits, police, fire rescue, permits, zoning, code enforcement and historic preservation review are municipal, and water and sewer come from the City for most of the incorporated area. Some addresses with a Delray Beach mailing address are in unincorporated Palm Beach County, and some western communities use other utility providers — confirm for the address. Property records and homestead are Palm Beach County functions, and the County Tax Collector's offices provide vehicle registration and driver license services on behalf of the state." },
+      { q: "Does Brightline stop in Delray Beach?", a: "No. Brightline does not stop in Delray Beach; the nearby station options are Boca Raton and West Palm Beach. Check schedules, fares and parking directly with Brightline before relying on either. Tri-Rail's Delray Beach Station is at 345 S. Congress Avenue and has public commuter parking." },
+      { q: "How should I prepare for hurricane season in Delray Beach?", a: "The Atlantic hurricane season runs June 1 through November 30. Identify the property's evacuation and flood zones before the season, then follow official orders and current storm-specific guidance. Palm Beach County recommends seven days of water and nonperishable food, 30 days of medication, and cash. Arrange shutters or impact protection following current City, County, insurer and HOA instructions, and photograph the property for insurance." },
+      { q: "What is the best month in Delray Beach?", a: "October is a local favorite — the heat is easing and the seasonal crowds have not yet returned. November through April has the most comfortable weather and the fullest calendar, along with heavier traffic and more competitive parking. July through September is hot and stormy but quieter and easier to park." },
     ],
     internalLinks: ["what-its-really-like-living-in-delray-beach-florida", "hidden-gems-in-delray-beach-florida", "best-neighborhoods-in-delray-beach-florida"],
-    funFact: "Atlantic Avenue in Delray is exactly one mile from I-95 to the ocean, and on a Friday or Saturday night in season it is genuinely walkable end-to-end with a different vibe at every block. The mix of upscale dining, dive bars, live music, and a surfboard shop all on the same street is something most Florida towns can't pull off.",
+    funFact: "Atlantic Avenue is the spine of Delray's evening life. From the I-95 interchange, it carries you through downtown toward the beach; once you park near the core, the restaurants, bars, shops, and live-music venues are easy to explore on foot. The mix of upscale dining, dive bars, live music, and a surf shop on the same street is something most Florida towns can't pull off.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-21',
   },
   {
     slug: 'best-neighborhoods-in-delray-beach-florida',
