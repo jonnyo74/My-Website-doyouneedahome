@@ -18452,7 +18452,7 @@ If a visit leaves you wondering whether Hobe Sound would work as an address rath
     citySlug: 'hobe-sound',
     cityName: 'Hobe Sound',
     type: "Who Should Move To",
-    order: 1,
+    order: 5,
     seoTitle: "Who Should Move to Hobe Sound, Florida—and Who Might Prefer Somewhere Else?",
     metaTitle: "Who Should Move to Hobe Sound, FL",
     metaDescription: "An honest look at who fits in Hobe Sound, Florida — why the Martin County line matters more than the fifteen-minute drive to Jupiter, and who would be happier somewhere with more going on.",
