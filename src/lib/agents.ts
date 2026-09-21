@@ -111,7 +111,7 @@ export const agents: Agent[] = [
         body: 'Many of my clients have done three, four, or five transactions with me. That only happens if the first valuation you give someone turns out to be honest.',
       },
     ],
-    bio: "Christine Dekant is one of Palm Beach County's most trusted REALTORS®, with a long track record of helping buyers find the right home and sellers achieve top dollar. She is known for her professionalism, deep market knowledge, responsiveness, and genuine care for every client she serves. Clients return to Christine time and again — many have completed three, four, or five transactions with her.",
+    bio: 'Christine Dekant has been serving residential real estate clients in Palm Beach County since 2012, bringing an analytical, detail-oriented approach to every transaction.',
   },
 ]
 
