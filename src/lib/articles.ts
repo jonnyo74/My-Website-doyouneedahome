@@ -198,6 +198,9 @@ export interface Article {
   heroImage?: string
   heroImageAlt?: string      // descriptive alt text; falls back to the h1 when absent
   heroImageCaption?: string  // shown under the hero — e.g. to mark a stock photo as illustrative
+  // CSS object-position for the full-bleed hero, e.g. '68% 50%'. The hero crops hard
+  // on phones, so set this when the subject sits off-centre. Defaults to centre.
+  heroImagePosition?: string
   heroImageWidth?: number    // intrinsic px — emitted as og:image:width so crawlers can size the card
   heroImageHeight?: number   // intrinsic px — emitted as og:image:height
   heroImageCredit?: string   // e.g. 'Photo by Jane Doe / Unsplash'
@@ -6201,98 +6204,117 @@ The part that deserves your attention is the part a city page cannot answer: wha
     cityName: 'Boynton Beach',
     type: "What It's Really Like Living In",
     order: 1,
+    heroImage: '/images/boynton-beach/boynton-inlet-sunset.webp',
+    heroImageAlt: 'A center-console boat running through the Boynton Inlet channel at sunset, between a seawall lined with palms, parked cars and a pavilion on one side and a mangrove bank on the other',
+    heroImageCredit: 'Photo by Richard Sagredo / Unsplash',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '68% 50%',
     seoTitle: "What It's Really Like Living in Boynton Beach, Florida (Local Guide)",
     metaTitle: "What It's Really Like Living in Boynton Beach, FL",
-    metaDescription: "A local look at living in Boynton Beach, Florida — the value pick between Delray and Boca, with a revitalized marina, a new downtown, diving, and great 55+ communities.",
+    metaDescription: "Living in Boynton Beach, Florida: east vs. west, the inlet and marina, how the beach really works, downtown's walkable pockets, and what to test before you buy.",
     primaryKeyword: "living in Boynton Beach Florida",
     secondaryKeywords: ["moving to Boynton Beach FL", "Boynton Beach lifestyle", "is Boynton Beach a good place to live", "Boynton Beach relocation"],
     h1: "What It's Really Like Living in Boynton Beach, Florida",
-    body: `Boynton Beach is the city people drive through on the way to somewhere more famous, and that fact is the single most useful thing to understand about living here.
+    body: `Living in Boynton Beach, Florida means living between better-known neighbors — Delray Beach to the south, Lantana and Lake Worth Beach to the north — on the same coast, with the same climate and the same county. Boynton doesn't have one postcard street that defines it. What it has is close access to an ocean inlet, a working marina, a varied east side, and a large western area of planned communities.
 
-It sits between Delray Beach and Lantana on the same coast, with the same climate, the same ocean, and the same county government — for meaningfully less money. What it doesn't have is a signature. There's no Atlantic Avenue, no Worth Avenue, no postcard. What there is instead is a large, varied, working city that most of Palm Beach County has never really looked at.
+Knowing which Boynton you're looking at is most of the decision. This guide covers how the city is laid out, what the water and the beach actually involve, where it's walkable and where it isn't, and what to test before you buy.
 
 ## The two Boyntons
 
-Like most of the south county, the city splits at I-95, and the two halves are genuinely different places.
+Like much of south Palm Beach County, Boynton splits at I-95, and the two sides are different places to live.
 
-**East Boynton** holds the older neighborhoods, the canal and Intracoastal housing, the marina, and the civic core. The housing stock runs from mid-century block homes to newer townhomes, and it varies substantially street to street. It's closer to the water and generally cheaper than the equivalent in the cities north and south.
+**East Boynton** holds the older neighborhoods, canal and Intracoastal housing, the marina, and the downtown core. The housing stock runs from mid-century block homes to newer townhomes and condos, and it varies a great deal from street to street — two blocks apart can mean a different price, a different flood picture and a different feel.
 
-**West Boynton** runs from I-95 out past the Turnpike and is one of the largest concentrations of gated community living in the county — golf clubs, big master-planned neighborhoods, and an unusually deep supply of age-restricted 55+ and active-adult communities. It is quiet, newer, amenity-rich, and entirely car-dependent.
+**West Boynton** runs from I-95 out toward the Turnpike and beyond: planned and gated communities, golf communities, newer construction and wide arterial roads. It's quieter and mostly car-oriented. Some communities out there have age-restriction or membership eligibility rules, so confirm the governing documents, eligibility requirements, fees and transfer terms for the exact community.
 
-The gap between them is wide enough that "I live in Boynton" tells you almost nothing. Our [neighborhood guide](/blog/best-neighborhoods-in-boynton-beach-florida) separates them properly, because searching the city name as a single market is how buyers get confused here.
+The western Boynton Beach mailing area is also not one jurisdiction. It includes City of Boynton Beach neighborhoods and unincorporated Palm Beach County communities, so taxes, utilities, permitting and services depend on the exact address — check the county's [municipal boundary maps](https://discover.pbcgov.org/pzb/Maps/Boundary-Maps.aspx). Our [neighborhood guide](/blog/best-neighborhoods-in-boynton-beach-florida) separates the areas in more detail.
 
-## A city in the middle of becoming something
+## Downtown: walkable pockets, not a walk-to-everything town
 
-Boynton has spent years redeveloping its core — a rebuilt marina district, a civic campus with a library and amphitheatre, and a steady run of approvals along the waterfront and Federal Highway.
+Boynton has small walkable pockets — around East Ocean Avenue and along the waterfront near the marina — where you can walk to a meal, the water or a civic event. It does not have a Delray-scale downtown where you can leave the car for a whole weekend.
 
-Here's the honest assessment: it's real, it's ongoing, and it is not finished. Some of it is genuinely good. Some blocks still look exactly as they did twenty years ago. You can stand in one spot downtown and see new construction in one direction and a vacant lot in the other.
+For most residents, most errands and most evenings out involve a short drive. If walkability matters to you, walk from the specific address to the places you'd actually use, and judge it block by block.
 
-That's the trade at the center of buying here. You're paying less than the neighbors because the place hasn't arrived, and whether that reads as opportunity or as disappointment depends entirely on your temperament.
+## A city still redeveloping
 
-Buyers who want a finished town should look at the finished towns and pay for them. Buyers who are comfortable living somewhere mid-transition — and who'd rather own the cheaper house on the improving street — have a genuine case here. Just don't confuse the second position with the first.
+Boynton has been redeveloping its downtown and waterfront for years, and that work is ongoing. Progress is uneven: some blocks have new buildings and public spaces, while others haven't changed much.
 
-## What the water actually gives this city
+That affects a purchase in two ways. A nearby project can improve a block, or bring years of construction next door. Before you buy, check current City planning and development records for projects near the specific address rather than relying on the city's reputation in either direction.
 
-This is where Boynton quietly beats its more expensive neighbors, and almost nobody outside the boating and diving world knows it.
+## The water: the inlet and the marina
 
-The **Boynton Inlet** at the north end of the city's coastal stretch gives fast access to the Atlantic, and the Gulf Stream runs unusually close inshore here. The practical result is that this is one of the best launch points for offshore diving and fishing on the entire South Florida coast.
+This is the part of Boynton that people who boat, fish or dive tend to notice first.
 
-Delray, immediately south, has no inlet at all. That single geographic fact is worth real money if the water is why you're moving, and it's covered properly in our [guide to what's worth doing](/blog/best-things-to-do-in-boynton-beach-florida).
+**Boynton Inlet** — formally South Lake Worth Inlet — sits between Manalapan and Ocean Ridge, connecting the Lake Worth Lagoon with the Atlantic. It isn't inside Boynton Beach's city limits, but it's close to the city's east side, and nearby ocean access is a real practical advantage for boaters and divers. Delray Beach, immediately south, has no inlet of its own.
 
-## The beach situation, explained
+Palm Beach County's **Ocean Inlet Park**, on the inlet in Ocean Ridge, lists a guarded beach area, a jetty open around the clock for fishing, and marina slips. Closer to home, the City's **Harvey E. Oyer Jr. Park** on North Federal Highway has boat-trailer parking.
 
-New residents get confused by this, so it's worth stating plainly: **the city's oceanfront park sits across the Intracoastal, in the neighboring town of Ocean Ridge.**
+How useful the inlet is from a particular property depends on the exact water route, bridges, dock rights, and marina availability, so verify those with current sources and qualified marine professionals before you buy for the boat.
 
-Boynton Beach proper is on the mainland. The barrier island in front of it belongs to other municipalities. The city owns and operates a beach park over there, and residents get access on different terms than visitors — but you cross a bridge to reach the sand, and the practicalities of parking and permits catch people out in their first month.
+*Official resources:* [Ocean Inlet Park](https://discover.pbcgov.org/parks/locations/ocean-inlet.aspx) · [South Lake Worth Inlet](https://discover.pbcgov.org/erm/CoastalProjects/SouthLakeWorthInlet.aspx) · [City of Boynton Beach — parking locations and fees](https://www.boynton-beach.org/378/Locations-Fees)
 
-It doesn't make the beach less good. It does mean "Boynton Beach" is a slightly optimistic name, and that beach access here is an errand rather than a stroll.
+## The beach, explained
 
-## The city nobody has decided about
+New residents are often surprised by this, so it's worth stating plainly: **the city's beach park is not on the mainland.** The City of Boynton Beach's **Oceanfront Park** is at 6415 N. Ocean Boulevard in **Ocean Ridge**, across the Intracoastal on the barrier island.
 
-One genuinely odd feature of living here: Boynton has no settled reputation, even locally.
+Boynton Beach itself is on the mainland, so for most residents a beach trip means crossing a bridge and paying to park — the City lists hourly parking at Oceanfront Park. It's an easy trip, but it's a drive rather than a stroll. Check the City's current parking information before you go.
 
-Ask around the county and you'll get wildly inconsistent answers. Some people describe it as the rough one between Delray and Lantana. Others describe it as the smart buy. Divers talk about it as a destination. Plenty of Palm Beach County residents have no impression at all beyond the exit number.
+## Nature west of the coast
 
-That vagueness is worth understanding before you buy, because it cuts two ways. It keeps prices down, which is the whole opportunity. It also means the address does nothing for you socially, and if you're the sort of person who wants where-you-live to say something, it will quietly bother you for years.
+Two Palm Beach County wetland boardwalks are west of I-95. Palm Beach County's **Green Cay Nature Center**, at 12800 Hagen Ranch Road with a Boynton Beach address, has a 1.5-mile elevated boardwalk and a nature center with live-animal exhibits. **Wakodahatchee Wetlands**, run by Palm Beach County Water Utilities at 13270 Jog Road — a Delray Beach address — has a three-quarter-mile boardwalk where more than 178 bird species have been identified. Check each page for current hours before you go.
 
-The residents who are happiest here tend to have made peace with that early — they came for a house, a boat, or a community, not for a name.
+*Official resources:* [Green Cay Nature Center](https://discover.pbcgov.org/parks/pages/greencay.aspx) · [Wakodahatchee Wetlands](https://discover.pbcgov.org/waterutilities/pages/wetlands.aspx)
 
 ## The rhythm of the year
 
-Season runs roughly November through April, and Boynton feels it less sharply than Delray or Boca because fewer people are coming here specifically. Traffic thickens, the restaurants fill, the western communities repopulate, and the boat ramp queues.
+In our experience, season runs roughly November through April: traffic thickens, restaurants get busier, boat ramps get busier, and many western communities fill with seasonal residents. Summer is hot and humid, with frequent afternoon storms, and quieter.
 
-Summer is hot, wet, and quiet. Afternoon storms build most days. The western communities empty out noticeably as seasonal residents leave.
+The seasonal swing is more noticeable in some western communities than on the east side. If you're considering one, visit in both seasons.
 
-The seasonal swing out west is more pronounced than most people expect. In some of the 55+ communities the difference between February and August is dramatic, and if you're considering one, it's worth seeing it in both.
+## The trade-offs, plainly
 
-## Who ends up happy here
+Boynton is easier to judge once you set aside its reputation and look at the specific trade-offs:
 
-The pattern is consistent. People thrive in Boynton when they came for something specific the city genuinely has — the diving and boating, the 55+ communities, or simply more house for the money within reach of the coast.
+- **You gain:** ocean access through a nearby inlet, a working marina, a wide range of housing types on both sides of I-95, and access to the coast and the western wetlands.
+- **You give up:** a single walk-everywhere downtown, a beach you can walk to from the mainland, and the consistency of a fully built-out town — the block next to yours may still be changing.
+- **It varies by address:** housing, flood exposure, noise, redevelopment and even the governing jurisdiction change within short distances.
 
-People struggle when they came for a general idea of coastal Florida living and expected the town to supply atmosphere. Boynton doesn't do atmosphere. It does value, water access, and space, and it expects you to bring your own reasons.
+## Who's likely to appreciate Boynton
 
-That sounds like faint praise and isn't meant as one. A city that knows what it's actually good at is easier to buy into than one selling a lifestyle it can't quite deliver.
+Boynton tends to suit buyers whose priorities match what it does well:
 
-## The honest bottom line
+- **The water comes first** — boating, fishing or diving — and nearby inlet access matters more than a walkable downtown.
+- **You want range and space** — an older east-side home near the water, or newer construction in a western planned community — rather than paying for a particular downtown.
+- **You're comfortable with change** — a city that is still redeveloping, where you choose the block carefully.
 
-Boynton Beach is the practical choice on this stretch of coast: the same ocean, a genuinely superior inlet, a deep supply of active-adult housing, and prices below the towns on either side.
+If a walk-to-everything downtown is at the top of your list, compare Boynton with its neighbors first; our [comparison with nearby cities](/blog/boynton-beach-vs-nearby-cities) sets out the differences.
 
-What you give up is polish, walkability, and the sense of having arrived somewhere with a name.
+## What to test before you buy
 
-If that trade appeals, our [comparison with the neighboring cities](/blog/boynton-beach-vs-nearby-cities) shows exactly what the price difference buys and costs — and the [weighed list of trade-offs](/blog/pros-and-cons-of-living-in-boynton-beach-florida) is the fastest way to test whether you'd be comfortable here.`,
+- **Jurisdiction** — City of Boynton Beach or unincorporated Palm Beach County, for the exact address.
+- **The drives you'd make** — to the beach, the inlet or boat ramp, and work, at the hours you'd make them.
+- **The walk** — from the address to the places you'd actually walk to.
+- **Flood zone and insurance** — a property-specific quote, early.
+- **Community documents** — HOA, club and any age-restriction or eligibility rules.
+- **Nearby development** — current projects on and around the block.
+- **Both seasons** — especially for a western community.
+
+For the numbers and the trade-offs in more detail, see our [cost of living guide](/blog/cost-of-living-in-boynton-beach-florida) and [pros and cons of living in Boynton Beach](/blog/pros-and-cons-of-living-in-boynton-beach-florida), or start from the [Boynton Beach community guide](/communities/boynton-beach).`,
     faqs: [
-      { q: "Is Boynton Beach a good place to live?", a: "It's the practical choice on this stretch of coast — same ocean and climate as Delray and Boca for meaningfully less, with a genuinely superior inlet for boaters and one of the county's deepest supplies of 55+ housing. What you give up is polish, walkability and a signature downtown. It suits people who came for something specific rather than for atmosphere." },
-      { q: "What is the difference between east and west Boynton Beach?", a: "East Boynton has the older neighborhoods, canal and Intracoastal housing, the marina and the civic core, with housing that varies substantially street to street. West Boynton runs from I-95 past the Turnpike and is one of the largest concentrations of gated community living in the county — quiet, newer, amenity-rich and entirely car-dependent." },
-      { q: "Is the beach actually in Boynton Beach?", a: "Not quite. The city sits on the mainland and its oceanfront park is across the Intracoastal in the neighboring town of Ocean Ridge. The city owns and operates the park, and residents get access on different terms than visitors, but you cross a bridge to reach the sand. Beach access here is an errand rather than a stroll." },
-      { q: "Is Boynton Beach still improving or has it stalled?", a: "It is genuinely ongoing and genuinely unfinished. The marina district was rebuilt, there is a civic campus with a library and amphitheatre, and approvals continue along the waterfront. But you can stand downtown and see new construction one way and a vacant lot the other. That unfinished quality is exactly why it costs less than its neighbors." },
-      { q: "What is Boynton Beach best known for?", a: "Among people who use the water, its inlet. The Boynton Inlet gives fast Atlantic access and the Gulf Stream runs unusually close inshore, making this one of the best launch points for offshore diving and fishing in South Florida. Delray, immediately south, has no inlet at all." },
-      { q: "Who tends to be unhappy in Boynton Beach?", a: "Buyers who came for a general idea of coastal Florida living and expected the town to supply the atmosphere. Boynton does value, water access and space; it does not do charm or walkability. People who wanted a finished town with a name are usually better served paying more for one of the neighbors." },
+      { q: "Is Boynton Beach a good place to live?", a: "It depends on your priorities. Boynton offers nearby ocean access through the Boynton Inlet, a working marina, and a wide range of housing on both sides of I-95. It has small walkable pockets around East Ocean Avenue and the waterfront, but not a walk-to-everything downtown, and its redevelopment is ongoing and uneven. Test the specific address before deciding." },
+      { q: "What is the difference between east and west Boynton Beach?", a: "East Boynton has the older neighborhoods, canal and Intracoastal housing, the marina and the downtown core, with housing that varies street to street. West Boynton runs from I-95 toward the Turnpike and beyond, with planned and gated communities and mostly car-oriented living. The western mailing area includes City of Boynton Beach neighborhoods and unincorporated Palm Beach County, so verify the jurisdiction for the exact address." },
+      { q: "Is the beach actually in Boynton Beach?", a: "Not on the mainland. The City of Boynton Beach's Oceanfront Park is at 6415 N. Ocean Boulevard in Ocean Ridge, across the Intracoastal on the barrier island. For most residents a beach trip means crossing a bridge and paying to park; the City lists hourly parking at the park." },
+      { q: "Where is the Boynton Inlet, and why does it matter?", a: "Boynton Inlet, formally South Lake Worth Inlet, sits between Manalapan and Ocean Ridge, connecting the Lake Worth Lagoon with the Atlantic. It isn't inside Boynton Beach's city limits, but it's close to the city's east side, and nearby ocean access is a practical advantage for boaters and divers. Access from a property depends on the water route, bridges, dock rights and marina availability." },
+      { q: "Is downtown Boynton Beach walkable?", a: "In small pockets. Around East Ocean Avenue and along the waterfront near the marina you can walk to a meal, the water or a civic event, but Boynton does not have a Delray-scale downtown, and most errands involve a short drive. Walk from the specific address to judge it." },
+      { q: "What should I test before buying in Boynton Beach?", a: "Confirm whether the address is in the City or unincorporated Palm Beach County, drive to the beach, the inlet and work at your usual hours, walk from the address, get a property-specific flood and insurance quote, review HOA, club and any age-restriction documents, check current development near the block, and visit in both seasons." },
     ],
-    internalLinks: ["best-neighborhoods-in-boynton-beach-florida", "boynton-beach-vs-nearby-cities", "pros-and-cons-of-living-in-boynton-beach-florida"],
-    funFact: "Boynton Beach has about 80,000 residents but feels more like several smaller communities layered together — coastal Boynton Beach near the inlet is completely different in character from western Boynton near Lyons Road. Buyers who research only at the city level often miss that the east-west difference matters more than the city name.",
+    internalLinks: ["best-neighborhoods-in-boynton-beach-florida", "cost-of-living-in-boynton-beach-florida", "pros-and-cons-of-living-in-boynton-beach-florida", "boynton-beach-vs-nearby-cities"],
+    funFact: "The Boynton Inlet isn't technically in Boynton Beach — it sits between Manalapan and Ocean Ridge — but it's the reason many boaters look at Boynton first. If the water is your reason for moving, drive from the specific address to the inlet and to the City's boat-trailer parking at Harvey E. Oyer Jr. Park at the times you'd actually go.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-21',
   },
   {
     slug: 'local-guide-to-boynton-beach-florida',
