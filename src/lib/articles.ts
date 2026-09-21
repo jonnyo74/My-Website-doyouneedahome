@@ -2973,55 +2973,87 @@ For the texture rather than the mechanics, read [what living here is actually li
     type: "Best Neighborhoods In",
     order: 3,
     heroImage: '/public/Delray Beach/delray-beach-beachside-cottage.jpg',
+    heroImageAlt: 'Turquoise one-story beach cottage with white trim, Adirondack chairs on the lawn and an open-sided Moke parked on the paver driveway in Delray Beach',
+    heroImageWidth: 2048,
+    heroImageHeight: 602,
     seoTitle: "Best Neighborhoods in Delray Beach, Florida",
     metaTitle: "Best Neighborhoods in Delray Beach, Florida",
-    metaDescription: "From walkable downtown and Lake Ida to Tropic Isle boating and west Delray's golf communities — a local guide to the best neighborhoods in Delray Beach.",
+    metaDescription: "Compare Delray Beach neighborhoods by location, home type, historic rules, waterfront access, HOA structure, and address-specific due diligence.",
     primaryKeyword: "best neighborhoods in Delray Beach Florida",
     secondaryKeywords: ["where to live in Delray Beach", "Lake Ida", "Tropic Isle Delray", "west Delray communities"],
     h1: "Best Neighborhoods in Delray Beach, Florida",
-    body: `Delray's housing splits along one line — I-95 — and almost everything about price, lot size, and daily life follows from which side of it you land on.
+    body: `People often describe Delray's neighborhoods as east or west of I-95. That's a useful lifestyle shorthand, but it isn't a municipal, pricing, or legal boundary, and it doesn't settle much on its own. Housing type, historic designation, waterfront configuration, association structure and jurisdiction all vary within short distances.
 
-Here's the geography, east to west, with what each area actually is and what to check before you commit.
+Here's the geography, east to west, with what each area is and what to check before you commit.
 
 ## Getting oriented
 
-Three roads organize the whole city. **Atlantic Avenue** runs east–west and is the dividing line for addresses north and south. **Swinton Avenue** runs north–south through the historic core and marks the edge of the oldest part of town. **Federal Highway (US-1)** carries the traffic a few blocks inland from the water, and **A1A** runs the beach.
+A few roads organize the city. **Atlantic Avenue** runs east–west and is the dividing line for addresses north and south. **Swinton Avenue** runs north–south through the historic core and marks the edge of the oldest part of town. **Federal Highway (US-1)** carries traffic a few blocks inland from the water, and **A1A** runs the beach.
 
-West of I-95, the grid gives way to arterials — Congress, Military Trail, Jog, Lyons — and the neighborhoods become gated communities strung along them.
+The densest walkable area is around downtown Atlantic Avenue, Pineapple Grove and the nearby historic districts. Walkability falls off with distance from that core, on either side of I-95, so judge it for the exact address.
+
+West of I-95, the grid gives way to arterials — Congress, Military Trail, Jog, Lyons — and many neighborhoods are planned or gated communities along them, though not all. "West Delray" also covers more than the City: it includes City of Delray Beach neighborhoods and unincorporated Palm Beach County communities that use a Delray Beach mailing address.
+
+### Before you choose, verify the exact address
+
+- **Jurisdiction.** City of Delray Beach or unincorporated Palm Beach County? Check the county's [municipal boundary maps](https://discover.pbcgov.org/pzb/Maps/Boundary-Maps.aspx) and the property's tax record, not the mailing address.
+- **What follows from it.** Property taxes, utilities, police and fire coverage, permits, code enforcement and parking eligibility depend on that jurisdiction.
+- **Governing documents.** HOA, condominium and club rules, restrictions, fees and assessments come from the property's own documents, not the neighborhood's reputation.
+- **The parcel itself.** Flood zone, elevation, historic designation and permit history are specific to the address.
+
+## Neighborhoods at a glance
+
+| Area | Typical housing | Historic, HOA or club considerations | Walkability or waterfront | Verify first |
+|---|---|---|---|---|
+| Downtown and Pineapple Grove | Condos, townhomes, some mid-rise | Condominium associations | In the walkable core | Reserves, assessments, deeded parking, noise exposure |
+| Historic districts | Early-twentieth-century cottages and bungalows, other historic styles | Certificate of Appropriateness for exterior work | Near the core; Marina District on the Intracoastal | Designation and review process before planning work |
+| Lake Ida | Single-family homes, from original to new builds | Association status varies by property | Near Lake Ida and its parks | Association status, drainage, what can be built |
+| Osceola Park and south of Atlantic | Smaller, older single-family homes | Varies by property | Close to the core | Condition and permit history |
+| Beachside and Seagate | Single-family homes, low-rise condos | Condominium associations where applicable | Between the Intracoastal and the ocean | Flood zone, elevation certificate, wind mitigation, insurance |
+| Tropic Isle and canal neighborhoods | Canal-front single-family homes | Varies by property | Canal dockage; no Delray inlet | Route, depth, bridges, seawall, permits, insurance |
+| West of I-95 | Gated and planned communities, golf communities, villas, single-family homes | HOA and club structures, age-restricted communities | Mostly car-oriented | Jurisdiction, governing documents, membership terms |
 
 ## Downtown and Pineapple Grove — living in the middle of it
 
-The arts district just north of Atlantic, and the blocks immediately around the downtown core. Mostly condos and townhomes, some newer mid-rise, at the highest density in the city.
+The arts district just north of Atlantic, and the blocks immediately around the downtown core. Mostly condos and townhomes, some newer mid-rise, at higher density than the surrounding neighborhoods.
 
-You are trading space for position. Units are generally smaller and pricier per square foot than anything else in Delray, and you get a walk score almost nowhere else in the county matches.
+You are trading space for position. Units are generally smaller, and in exchange the restaurants, galleries and the Avenue are on foot.
 
 *Check:* what the building faces and how high up you are — noise from the restaurant district is very sensitive to both. Ask about the association's reserves and any planned assessments, and confirm what parking actually conveys with the unit, because in this part of town a deeded space is a real asset rather than an afterthought.
 
-## The historic districts — Old School Square, Del-Ida Park, Nassau Street, Marina District
+## The historic districts
 
-Delray has several designated historic districts clustered near the core, and they are the most characterful housing in the city: early-twentieth-century cottages, bungalows, Mediterranean Revival, and some genuinely beautiful streets. Del-Ida's diagonal street grid is unlike anything else nearby. The Marina District puts historic homes along the Intracoastal within a walk of downtown.
+Delray Beach has five local historic districts: **Old School Square Historic District**, **Marina Historic District**, **Del-Ida Park Historic District**, **Nassau Park Historic District**, and **West Settlers Historic District**.
 
-*Check this one carefully:* designation brings design review. Exterior changes — windows, roofing, additions, sometimes paint and fencing — go through a historic preservation process, and it is not a formality. This protects the streetscape you're buying into and constrains what you can do with your own house. Get the specific rules for the specific district before you plan a renovation, not after.
+Old School Square is the largest, and its streets mix early Delray architecture with civic landmarks. Del-Ida Park's diagonal street grid is unlike anything else nearby. The Marina Historic District puts historic homes along the Intracoastal within a walk of downtown.
+
+West Settlers represents the early years of Delray Beach's African-American community and is an important part of the City's history. Its designation recognizes that story as part of how the city was built, and the same review process applies there as in the other districts.
+
+*Check this one carefully:* exterior improvements and alterations to designated historic properties, or to properties in designated historic districts, require a Certificate of Appropriateness. The review protects the streetscape you're buying into and constrains what you can do with your own house. Confirm the property's designation and the applicable review process before you plan exterior work, not after.
+
+*Official resources:* [City of Delray Beach historic districts](https://www.delraybeachfl.gov/government/city-departments/development-services/historic-preservation/historic-districts) · [Development review process and applications](https://www.delraybeachfl.gov/government/city-departments/development-services/zoning-current-planning/development-review-process-and-applications)
 
 ## Lake Ida — the classic single-family choice
 
-North and west of the downtown, around the lake. Larger lots, mature tree canopy, no HOA on most of it, and a short drive or long walk to the Avenue.
+North and west of the downtown, around the lake. Larger lots, mature tree canopy, and a short drive or long walk to the Avenue.
 
-It has been the city's renovation and teardown market for years, which means enormous variety: original mid-century homes, gut renovations, and large new builds sitting side by side. Lake Ida Park adds green space, a dog park, and a water-ski lake.
+It has been an active renovation and rebuild market for years, which means real variety: original mid-century homes, gut renovations, and large new builds sitting side by side. Whether a given property has an association — and what restrictions and assessments come with it — varies by property, so confirm it for the address.
 
-*Check:* lot elevation and drainage, what the neighbors' new builds have done to your light and privacy, and — if you're renovating — what the city will let you build to. The absence of an HOA cuts both ways.
+On the lake, Palm Beach County's [Lake Ida West Park](https://discover.pbc.gov/parks/Locations/Lake-Ida-West.aspx) has boat ramps, canoe and kayak access, fishing, walking and bike paths, and a dog park.
+
+*Check:* lot elevation and drainage, what the neighbors' new builds have done to your light and privacy, association status, and — if you're renovating — what the city will let you build to.
 
 ## Osceola Park and the blocks south of Atlantic
 
-Just south and east of the core, smaller and older housing stock, and one of the more actively changing parts of east Delray. Prices sit below the historic districts while keeping much of the walkability.
+Just south of the core, with smaller and older housing stock and a lot of renovation activity, while keeping much of the walkability.
 
-*Check:* condition and permit history. This area has a lot of renovation activity and a corresponding amount of work done without permits over the years.
+*Check:* condition and permit history. Where a house has been renovated, confirm the work was permitted and closed out.
 
-## The beachside blocks and Seagate — the premium tier
+## The beachside blocks and Seagate
 
-East of the Intracoastal, between the waterway and the ocean. Seagate to the south of Atlantic is the best-known name, and the beach blocks generally are the top of the market: single-family homes, some low-rise condos, and direct beach access.
+East of the Intracoastal, between the waterway and the ocean. Seagate, south of Atlantic, is the best-known name. Housing is mostly single-family homes and some low-rise condos, close to the beach.
 
-![Renovated pastel beach cottage with a black-and-white striped awning and a wicker seating area](/public/Delray%20Beach/delray-beach-cottage-porch.jpg "Much of the beachside stock is small, old and expensive — renovated cottages on modest lots rather than anything that reads as an estate.")
+![Renovated pastel beach cottage with a black-and-white striped awning and a wicker seating area](/public/Delray%20Beach/delray-beach-cottage-porch.jpg "Renovated cottages on modest lots are part of the beachside mix, alongside larger homes and low-rise condos.")
 
 *Check:* flood zone and elevation certificate, wind mitigation, and the full insurance picture before you're emotionally committed. Barrier-side property carries costs that don't show up on the listing — our [cost breakdown](/blog/cost-of-living-in-delray-beach-florida) walks through them.
 
@@ -3029,43 +3061,42 @@ East of the Intracoastal, between the waterway and the ocean. Seagate to the sou
 
 South of downtown off Federal, a canal-front grid with dockage behind the houses.
 
-One thing buyers here need to know, because it surprises people: **Delray Beach has no inlet of its own.** Ocean access means running north to the Boynton Inlet or south to the Boca Raton Inlet, both of which take time and both of which have their own conditions and bridge considerations.
+One thing buyers here need to know, because it surprises people: **Delray Beach has no ocean inlet of its own.** Ocean-going boaters commonly consider the Boynton Inlet to the north or the Boca Raton Inlet to the south, and each route has its own conditions.
 
-*Check:* depth at your dock at low water, fixed bridge clearances on your chosen route out, seawall condition and age, and who is responsible for it. A seawall nearing the end of its life is a five-figure problem minimum.
+*Check:* the actual route you'd use, tides and depth, bridge restrictions, dock condition, seawall condition, permits, and insurance — with current sources and qualified marine professionals rather than a neighbor's rule of thumb. Seawall repair or replacement can be a material expense, so have it evaluated before your offer and inspection deadlines.
 
-## West Delray — space, golf, and 55+
+## West of I-95 — space, golf, and planned communities
 
-Past I-95, running out toward the Turnpike and beyond. This is where most of the city's housing units actually are, and where the money goes furthest.
+Past I-95, running out toward the Turnpike and beyond. Some of it is inside the City of Delray Beach; some of it is unincorporated Palm Beach County with a Delray Beach mailing address.
 
-The product mix is broad: large gated golf communities, a substantial concentration of age-restricted 55+ and active-adult neighborhoods, newer gated subdivisions of single-family homes, and everything from modest villas to genuinely high-end country club addresses.
+The product mix is broad: gated golf communities, age-restricted communities, newer gated subdivisions of single-family homes, and everything from villas to large country-club homes. Many communities have amenities inside the gates, and daily life is mostly car-oriented, though that varies by community and address.
 
-What you get is space, newer construction, amenities inside the gates, and prices well below the coast. What you give up is the walkability entirely — this is car-dependent living, and the beach is a fifteen-to-twenty-five minute drive depending on where you are and what time of year it is.
-
-*Check:* the HOA or club structure in detail, because it varies enormously out here. Some communities carry mandatory club membership with a substantial buy-in and annual minimums; some have equity memberships that transfer; some have none of it. Ask for the current budget, the reserve study, the assessment history, and the full schedule of fees before you fall for the house. And confirm any age-restricted community's governing documents directly rather than assuming from what you see.
+*Check:* the HOA or club structure in detail, because it varies widely. Some communities carry mandatory club membership with a buy-in and annual minimums; some have equity memberships that transfer; some have none of it. Ask for the current budget, the reserve study, the assessment history, the transferability terms, and the full schedule of fees before you fall for the house. For an age-restricted community, confirm the restriction and its requirements in the governing documents directly rather than assuming from what you see.
 
 ## Choosing
 
 Answer these in order and the map narrows fast:
 
-1. **Do you want to walk to things, or do you want space?** This is the I-95 question and it decides most of the rest.
-2. **Are you renovating?** If yes, historic designation and HOA rules matter more than the house does.
-3. **Is there a boat?** Then it's the canal neighborhoods, and you're planning around a run to someone else's inlet.
-4. **Is age-restricted living what you want?** West Delray has one of the deepest selections in the county.
+- **Do you want to walk to things, or do you want space?** Walkability is strongest around the downtown core; check it for the exact address.
+- **Are you renovating?** If yes, historic designation and association rules matter more than the house does.
+- **Is there a boat?** Then it's the canal neighborhoods, and you're planning around a run to an inlet outside Delray.
+- **Are you considering an age-restricted or club community?** Then the governing documents and membership terms are the first thing to read.
 
-Whichever way you go, verify flood zone, elevation, permit history, and association obligations for the specific parcel. Nothing about a Delray neighborhood tells you what's true of an individual address here.`,
+Whichever way you go, verify jurisdiction, flood zone, elevation, permit history, and association obligations for the specific parcel. Nothing about a Delray neighborhood tells you what's true of an individual address here.`,
     faqs: [
-      { q: "What is the best neighborhood in Delray Beach?", a: "It depends entirely on whether you want walkability or space. For walkability, downtown and Pineapple Grove put you in the middle of it, and the historic districts offer the same access with more character. For a classic single-family home near downtown, Lake Ida is the long-standing choice. For space and value, west Delray past I-95 delivers far more house per dollar." },
-      { q: "Can Delray Beach homes reach the ocean by boat?", a: "Not directly — Delray Beach has no inlet of its own. Boaters in the canal neighborhoods like Tropic Isle run north to the Boynton Inlet or south to the Boca Raton Inlet. Before buying waterfront here, check depth at your dock at low water and fixed bridge clearances on whichever route you would actually take." },
-      { q: "What should I know before buying in a Delray historic district?", a: "Designation brings design review, and it is not a formality. Exterior changes — windows, roofing, additions, sometimes paint and fencing — go through a historic preservation process. That protects the streetscape you are buying into and genuinely constrains what you can do with your own house. Get the specific rules for the specific district before planning any renovation." },
-      { q: "Is west Delray Beach worth considering?", a: "It is where most of the city's housing actually is and where the money goes furthest — gated communities, golf, a deep selection of 55+ and active-adult neighborhoods, and newer construction. You give up walkability completely; the beach is a fifteen-to-twenty-five minute drive. Scrutinise the HOA or club structure, since mandatory memberships and buy-ins vary enormously out there." },
-      { q: "Does Lake Ida have an HOA?", a: "Most of it does not, which is part of the appeal and part of the risk. It has been the city's renovation and teardown market for years, so you will find original mid-century homes, gut renovations and large new builds on the same street. Check what the city will let you build to, and consider what neighboring new construction may do to your light and privacy." },
-      { q: "Which Delray neighborhoods are the most expensive?", a: "The beachside blocks east of the Intracoastal, including Seagate, sit at the top of the market, followed by the historic districts and waterfront property generally. Downtown condos carry the highest price per square foot in the city because you are paying for position rather than space." },
+      { q: "What is the best neighborhood in Delray Beach?", a: "It depends on what you need. Downtown and Pineapple Grove put you in the walkable core, mostly in condos and townhomes. The historic districts are near the core, with design review for exterior work. Lake Ida offers single-family homes near downtown, and the areas west of I-95 are mostly planned and gated communities. Verify jurisdiction, governing documents and flood zone for the specific address." },
+      { q: "Can Delray Beach homes reach the ocean by boat?", a: "Not directly — Delray Beach has no ocean inlet of its own. Ocean-going boaters in the canal neighborhoods like Tropic Isle commonly consider the Boynton Inlet to the north or the Boca Raton Inlet to the south. Before buying waterfront, verify the actual route, tides and depth, bridge restrictions, dock and seawall condition, permits and insurance with current sources and qualified marine professionals." },
+      { q: "What should I know before buying in a Delray historic district?", a: "Delray Beach has five local historic districts: Old School Square, Marina, Del-Ida Park, Nassau Park and West Settlers. Exterior improvements and alterations to designated historic properties, or to properties in designated historic districts, require a Certificate of Appropriateness. Confirm the property's designation and the applicable review process before planning exterior work." },
+      { q: "Is west Delray Beach worth considering?", a: "It depends on what you want. West of I-95 you'll find gated and planned communities, golf communities, age-restricted communities and single-family subdivisions, and daily life is mostly car-oriented. Some of it is inside the City of Delray Beach and some is unincorporated Palm Beach County with a Delray Beach mailing address, so taxes, services and rules depend on the address. Review the HOA or club structure, since memberships and buy-ins vary widely." },
+      { q: "Does Lake Ida have an HOA?", a: "It varies by property. Whether a home has an association, and what restrictions and assessments come with it, should be confirmed for the specific address. Lake Ida has been an active renovation and rebuild market, so you will find original mid-century homes, gut renovations and large new builds on the same street. Check what the city will let you build to, and consider what neighboring new construction may do to your light and privacy." },
+      { q: "Which Delray neighborhoods are the most expensive?", a: "Prices change and vary block by block, so this guide doesn't rank neighborhoods by price. For current pricing, ask for a recent MLS comparison for the specific area and property type you're considering." },
     ],
     internalLinks: ["cost-of-living-in-delray-beach-florida", "what-its-really-like-living-in-delray-beach-florida", "who-should-move-to-delray-beach-florida"],
-    funFact: "The Arts District along Swinton Avenue is home to the largest collection of historic wood-frame architecture in Palm Beach County — bungalows and cottage-style homes from the 1920s and 30s that have been steadily restored. Prices there have climbed steeply as buyers figured out the walkability to Atlantic Avenue.",
+    funFact: "Old School Square is the City's largest historic district, and its streets contain a mix of early Delray architecture and civic landmarks. If you are considering a historic property, confirm its designation and the applicable review process before planning exterior work.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-21',
   },
   {
     slug: 'best-things-to-do-in-delray-beach-florida',
