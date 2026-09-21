@@ -2024,7 +2024,6 @@ export const cities: CommunityItem[] = [
       { destination: 'Stuart (Martin County)', time: '20 min' },
       { destination: 'West Palm Beach', time: '35 min' },
     ],
-    linkedNeighborhoods: ['powder-pointe', 'abacoa', 'jupiter-inlet-colony'],
     priceRanges: [
       { type: 'Single-Family Homes (Interior)', range: '$600K – $1.2M', minPrice: 600000, maxPrice: 1200000, propertyTypes: ['house'] },
       { type: 'Canal & Intracoastal Homes', range: '$1M – $3M+', minPrice: 1000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
@@ -4136,20 +4135,7 @@ export const neighborhoods: CommunityItem[] = [
     ],
     searchCity: 'Juno Beach',
   },
-  // ── TEQUESTA ─────────────────────────────────────────────────
-  {
-    slug: 'powder-pointe',
-    name: 'Powder Pointe',
-    type: 'Neighborhood',
-    region: 'Tequesta',
-    description: 'A waterfront neighborhood with canal homes and close proximity to the Intracoastal.',
-    overview:
-      'Powder Pointe offers buyers water-oriented living with easy access to boating and the Intracoastal Waterway in the village of Tequesta.',
-    quickFacts: [
-      { label: 'Homes', value: 'Canal-front and waterfront homes' },
-      { label: 'Amenities', value: 'Marina access, water lifestyle' },
-    ],
-  },
+
   // ── Abacoa Villages ─────────────────────────────────────────────────────────
   {
     slug: 'mallory-creek',

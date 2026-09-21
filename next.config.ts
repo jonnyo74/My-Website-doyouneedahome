@@ -51,6 +51,9 @@ const nextConfig: NextConfig = {
       // courses" and contradicted the Wellington golf section, which names the
       // clubs that do exist. Record removed; the URL was live and indexed.
       { source: '/communities/wellington-country-club', destination: '/communities/wellington', permanent: true },
+      // Powder Pointe (Tequesta) could not be found as a real place and John
+      // doesn't know of one. Its page was a one-line stub. Removed 2026-09-21.
+      { source: '/communities/powder-pointe', destination: '/communities/tequesta', permanent: true },
 
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate
