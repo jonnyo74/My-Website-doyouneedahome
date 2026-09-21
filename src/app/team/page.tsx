@@ -32,7 +32,7 @@ const agents = [
   {
     name: 'John Oliver',
     sellSlug: 'john',
-    title: 'REALTOR® · Co-Founder, DO Homes Group',
+    title: 'REALTOR® · Co-Founder, DO Homes Group · Co-Founder, DoYouNeedAHome.com · Co-Founder, CondoWPB.com',
     brokerage: 'Premier Brokers International',
     credentials: ['ABR', 'RENE', 'RSPS', 'SRS'],
     license: '3355676',
@@ -42,10 +42,12 @@ const agents = [
     photo: '/images/Event-81.jpg',
     photoPosition: 'object-[center_25%]',
     bio: [
-      'John Oliver brings a practical, consultative approach to real estate, helping buyers and sellers understand both the opportunities and the details behind each transaction.',
-      'After relocating to South Florida from Connecticut in 2007, John developed extensive familiarity with Palm Beach County and the surrounding market, with particular experience in condominiums, waterfront properties, investment opportunities, new construction, and resale homes.',
-      'Clients appreciate John’s patience, responsiveness, and willingness to take the time to explain the process, whether they are seasoned property owners or purchasing in South Florida for the first time.',
-      'John is also a 2018 and 2020 Platinum Producer Award recipient at Premier Brokers International.',
+      'John Oliver brings a practical, consultative approach to real estate, helping buyers and sellers understand not only the opportunities in front of them, but also the details that can influence a smart decision.',
+      'After relocating to South Florida from Connecticut in 2007, John developed extensive familiarity with Palm Beach County and surrounding South Florida markets. His experience includes condominiums, waterfront properties, investment opportunities, new construction, resale homes, and second-home purchases.',
+      'Clients appreciate John’s patience, responsiveness, and willingness to explain the process clearly, whether they are seasoned property owners or purchasing in South Florida for the first time.',
+      'His approach is straightforward: provide honest guidance, communicate clearly, evaluate the options carefully, and help clients make decisions that fit their goals rather than pushing them toward a transaction.',
+      'John is also the Co-Founder of DoYouNeedAHome.com and CondoWPB.com, two real estate resources created to give buyers and sellers better access to local market information, community insight, property research, and practical guidance before making a move.',
+      'John was recognized as a Platinum Producer at Premier Brokers International in 2018 and 2020.',
     ],
   },
 ]
