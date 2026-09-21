@@ -1,6 +1,6 @@
 # Boynton Beach imagery — provenance
 
-## `boynton-inlet-sunset.webp` — hero, `what-its-really-like-living-in-boynton-beach-florida`
+## `boynton-inlet-sunrise.webp` — hero, `what-its-really-like-living-in-boynton-beach-florida`
 
 | | |
 |---|---|
@@ -12,10 +12,13 @@
 | Original | 4407×3148 JPEG, downloaded 2026-09-21 via the Unsplash download link |
 | Derivative | Crop `(0, 600, 4407, 3079)` → 16:9, resized to **2048×1152**, WebP q80 (~330 KB) |
 
-What the frame shows: the inlet channel between two seawalls at sunset, a centre-console
-boat heading out, palms, a pavilion and parked cars on the left seawall, and a mangrove bank
-on the right. The sun sits over the water to the west, consistent with looking inland across
-the inlet toward the Lake Worth Lagoon.
+What the frame shows: the inlet channel between two seawalls at **sunrise over the
+Intracoastal**, a centre-console boat heading out, palms, a pavilion and parked cars on the left
+seawall, and a mangrove bank on the right.
+
+⚠️ **Sunrise, not sunset.** The photographer titled it "sunset", but John identified it
+(2026-09-21) as a sunrise over the Intracoastal. His identification wins. Don't describe it as
+a sunset anywhere.
 
 ⚠️ **Location wording.** Boynton Inlet (South Lake Worth Inlet) lies **between Manalapan and
 Ocean Ridge**, not inside Boynton Beach city limits. Alt text and captions should call it the
