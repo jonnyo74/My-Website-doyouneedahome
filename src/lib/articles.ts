@@ -3557,110 +3557,106 @@ Compare current, like-for-like properties by exact location, condition, ownershi
     type: "Hidden Gems In",
     order: 8,
     heroImage: '/public/Delray Beach/delray-beach-silverball-museum.JPEG',
-    seoTitle: "Hidden Gems in Delray Beach, Florida",
-    metaTitle: "Hidden Gems in Delray Beach, Florida",
-    metaDescription: "Beyond Atlantic Avenue — local hidden gems in Delray Beach, Florida, from Wakodahatchee Wetlands to quiet beach parks and the Morikami's calmest corners.",
+    heroImageAlt: 'Exterior of Silverball Retro Pub & Arcade in Delray Beach — a black building covered in white line-art murals, with an "Arcade & Pub" sign, red railings and pizza umbrellas',
+    heroImageWidth: 2048,
+    heroImageHeight: 1536,
+    seoTitle: "Hidden Gems in Delray Beach: Lesser-Known History, Nature and Local Spots",
+    metaTitle: "Hidden Gems in Delray Beach, FL: Lesser-Known Local Spots",
+    metaDescription: "Lesser-known places in Delray Beach, FL — the Spady Museum, the Historical Society, Wakodahatchee Wetlands, Delray Oaks, Atlantic Dunes Park, Sandoway and more, with official links to check before you go.",
     primaryKeyword: "hidden gems in Delray Beach Florida",
-    secondaryKeywords: ["Delray Beach secret spots", "free things to do in Delray Beach", "Wakodahatchee Wetlands"],
-    h1: "Hidden Gems in Delray Beach, Florida",
-    body: `The headline attractions here are genuinely excellent and they're covered in [our guide to what's worth doing](/blog/best-things-to-do-in-delray-beach-florida) — the beach, the Japanese gardens, the wetlands boardwalks.
+    secondaryKeywords: ["Delray Beach secret spots", "lesser-known things to do in Delray Beach", "Wakodahatchee Wetlands", "Spady Museum Delray Beach"],
+    h1: "Hidden Gems in Delray Beach: Lesser-Known History, Nature and Local Spots",
+    body: `The headline attractions are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-delray-beach-florida) — the beach, the Japanese gardens, the downtown.
 
-This is the other list: the small, quiet, mostly inexpensive places that residents find in year two, and that a visitor working from a top-ten article will walk straight past.
+This is a shorter list of lesser-known places: local history, natural areas, and a few spots off the main street. Each entry names the operator and links to its official page. Hours, admission, reservations and closures change, so check before you go.
 
-## The West Settlers district and the Spady Museum
+## The Spady Cultural Heritage Museum
 
-The most significant thing in Delray that most residents never visit.
+The Spady Cultural Heritage Museum, at 170 NW 5th Avenue, presents the Black history and heritage of Palm Beach County. It occupies the Spady House, built in 1926 by Solomon and Jessie Spady; Solomon D. Spady was a longtime educator and school principal in Delray Beach.
 
-The neighborhoods northwest of the downtown are the historic heart of the city's Black community, settled in the late nineteenth and early twentieth centuries by families who were central to building Delray. The **Spady Cultural Heritage Museum**, in the restored 1926 home of educator Solomon D. Spady, tells that history properly — the settlement, the segregation-era institutions, and the people.
+The museum sits in the West Settlers area, which carries the story of Delray Beach's early African-American community and is an important part of the city's history.
 
-It is a small museum and a serious one. If you're going to live here, this is the context that makes the rest of the city legible, and an hour there will change how you read the streets west of Swinton.
+*Before you go:* [Spady Cultural Heritage Museum](https://www.spadymuseum.com/)
 
-## Atlantic Dunes Park
+## The Delray Beach Historical Society
 
-South of the busy municipal stretch, a quieter beach access with a boardwalk through genuine coastal dune habitat — sea grape, cabbage palm, and the low tangled scrub that used to cover this entire coastline.
+The Delray Beach Historical Society, at 3 NE 1st Street near the downtown, presents exhibits on Delray Beach and Florida history in the Ethel Sterling Williams Cottage, with a self-guided Heritage Garden of native Florida plantings. Some visits require a reservation, and the archive is open by appointment — check the Society's visitor page for current exhibits, hours and reservation requirements.
 
-The beach here is the same ocean with a fraction of the people. The dune walk takes three minutes and is the only place in the city where you can see what the shoreline looked like before any of this was built.
+*Before you go:* [Delray Beach Historical Society — visit](https://delraybeachhistory.org/visit/)
 
-## Sandoway Discovery Center
+## Delray Beach Memorial Gardens Municipal Cemetery
 
-A small nature center in a 1936 beachfront house, with reef tanks, a shark feeding, native coastal habitat, and a hammock of old-growth vegetation behind it.
+The City dates Delray Beach Memorial Gardens Municipal Cemetery to 1903. It holds pioneer families, civic leaders, educators and civil-rights activists — many of them names that appear on the city's streets and institutions. The City has published history and a map for visitors.
 
-It's modest by design and unusually good at what it does. The building itself is worth the visit — one of the few surviving houses from that era on this stretch of beach.
-
-## Cason Cottage and the historic society
-
-A restored early-1900s house near the downtown, run as a house museum by the local historical society, with the original architecture and furnishings of a Delray pioneer household.
-
-Small, quiet, staffed by people who know an enormous amount, and almost never busy. Pair it with a walk through the surrounding historic district and you'll understand the eastern city considerably better.
+*Before you go:* [City of Delray Beach — cemetery history and map](https://www.delraybeachfl.gov/Home/Components/News/News/896/395)
 
 ## The Colony Hotel
 
-A 1926 hotel on the Avenue, still operating, still recognisably itself — the lobby, the woodwork, the general sense of a building that predates everything around it.
+The Colony was built in 1926 and is a Delray Beach historic landmark and a member of the National Trust for Historic Preservation's Historic Hotels of America. It sits on Atlantic Avenue, and its building is one of the older reminders of the downtown's original scale. The hotel lists a porch bar and restaurants; check its site for current public access and dining hours before you go.
 
-You don't have to stay there. Walk through, have a drink, look at the ceiling. In a downtown that has been substantially rebuilt around it, this is one of the few places where the original scale of the town is still legible.
+*Before you go:* [The Colony Hotel](https://colonyflorida.com/about/)
+
+## Atlantic Dunes Park
+
+A City beach park south of the main municipal beach, with a boardwalk and nature trail through the dunes, parking, restrooms, a pavilion and lifeguard information listed by the City. Check beach conditions, parking and hours before visiting.
+
+*Before you go:* [City of Delray Beach — Atlantic Dunes Park](https://www.delraybeachfl.gov/Home/Components/FacilityDirectory/FacilityDirectory/44/) · [Municipal beach information](https://www.delraybeachfl.gov/Home/Components/FacilityDirectory/FacilityDirectory/64/194)
+
+## Sandoway Discovery Center
+
+A nature center in a historic oceanfront home at 142 South Ocean Boulevard, with marine exhibits including a coral reef tank and sharks, and scheduled feeding and animal-encounter programs. Hours, admission and program times are on its site.
+
+*Before you go:* [Sandoway Discovery Center](https://sandoway.org/)
+
+## Wakodahatchee Wetlands
+
+Wakodahatchee Wetlands is a Palm Beach County Water Utilities wetland at 13270 Jog Road. The County describes it as a 50-acre constructed wetland with a three-quarter-mile boardwalk; more than 178 bird species have been identified there, along with turtles, alligators and other wildlife. Check the County page for current hours, maintenance closures and visitor information.
+
+*Before you go:* [Palm Beach County — Wakodahatchee Wetlands](https://discover.pbc.gov/waterutilities/Pages/Wetlands.aspx)
 
 ## Delray Oaks Natural Area
 
-A county natural area west of the downtown preserving remnant oak hammock and pine flatwoods — short trails, deep shade, and a genuinely different ecosystem from anything on the coast.
+Delray Oaks Natural Area is a 25-acre Palm Beach County natural area at 2021 SW 29th Street. It preserves a rare xeric hammock ecosystem and includes the paved 0.29-mile Live Oak Trail, the 0.20-mile Beautyberry Trail, wildlife viewing, parking and an observation platform. It is open sunrise to sunset; check the County page for current conditions.
 
-It's small, it's free, and it's usually empty. It's also the fastest reminder available that this coast was something other than golf courses and subdivisions within living memory.
+*Before you go:* [Palm Beach County — Delray Oaks Natural Area](https://discover.pbcgov.org/erm/NaturalAreas/Delray-Oaks.aspx)
 
-## The murals, properly
+## The Delray Art Trail
 
-Everyone notices there are murals in the arts district. Fewer people walk the whole set deliberately.
+For the murals and public art downtown, the Downtown Development Authority publishes the Delray Art Trail, a self-guided route through murals, sculptures, galleries and installations. It's easiest on foot, and cooler earlier in the day.
 
-Done properly — an hour, on foot, off the Avenue — it's a genuine open-air gallery with work that's better than the average civic mural program by a distance. Go on a weekday morning when you can actually stand in front of them.
+*Before you go:* [Delray Art Trail](https://downtowndelraybeach.com/go/delray-art-trail)
 
-## The pinball museum
+## Silverball Retro Arcade
 
-An entire building of restored machines spanning decades, playable, on the Avenue.
+Silverball, at 19 NE 3rd Avenue just off Atlantic Avenue, is a retro arcade and pub with playable vintage and modern pinball, video and arcade games. Check its site for current hours, admission, parking and renovation status.
 
-It has no business being as good as it is. It's the most reliably fun hour in the downtown for anyone who doesn't want another restaurant, and it's the one place on this list that works equally well at eleven at night.
+*Before you go:* [Silverball — Delray Beach](https://silverballmuseum.com/delray-beach/)
 
-## The quiet ends of the beach
+## A practical note: the Atlantic Avenue drawbridge
 
-The municipal beach is two miles long and the crowd is concentrated in the middle third.
+The East Atlantic Avenue drawbridge can affect east–west trips between downtown and the beach. It opens on a schedule set by federal regulation, and temporary changes can occur. Check current official navigation and road notices before relying on a specific opening time, especially during construction or temporary restrictions.
 
-Walk ten minutes north or south from the main access points and the density drops away sharply. Same water, same sand, and on a weekday morning in summer you'll have long stretches essentially to yourself. Residents know this. Visitors park in the middle and stay there.
+*Official sources:* [Drawbridge regulation (33 CFR 117.261)](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-J/part-117/subpart-B/section-117.261) · [U.S. Coast Guard Local Notices to Mariners](https://www.navcen.uscg.gov/local-notices-to-mariners)
 
-## The Intracoastal at dusk
+## Planning your visits
 
-Not a place so much as a habit. The waterfront near the downtown, in the last half-hour of light, with the boat traffic thinning and the bridge going up occasionally.
+Most of these are small, and several run on limited or scheduled hours, so check each official page before you go. Several are within walking distance of Atlantic Avenue; the natural areas and Wakodahatchee are farther west and easier by car.
 
-## The city cemetery
-
-An unlikely entry and a genuinely interesting one. The municipal cemetery near the downtown holds the graves of the pioneer families whose names are on the streets you drive daily, along with veterans of conflicts going back well over a century.
-
-It takes twenty minutes to walk and it does the same thing the house museums do — it makes the city's short, dense history concrete. Go on a cool morning.
-
-## The bridge tender's rhythm
-
-The Intracoastal drawbridge at the east end of the Avenue opens on a schedule, and learning it is a small but real quality-of-life upgrade for anyone living on the barrier side or heading to the beach regularly.
-
-More than that: standing on the approach while it lifts, with the traffic stopped and a sailboat working through, is one of those ordinary local moments that quietly explains why people put up with the parking. Check the current schedule when you arrive — it changes seasonally.
-
-Free, available daily, and one of the better arguments for living on this side of town.
-
-## Making the most of these
-
-The through-line is timing. Almost everything here is better early on a weekday, and several of them are transformed by going in summer when the seasonal population has gone.
-
-The other rule is that this city rewards walking off the main street. Delray's reputation is built on one avenue, and nearly everything on this list is within a few minutes of it — but not on it. The residents who enjoy this place most are the ones who worked that out early.
-
-Once you have, our [practical guide to operating here](/blog/local-guide-to-delray-beach-florida) covers the logistics side, and the [dining rundown](/blog/best-places-to-eat-drink-hang-out-in-delray-beach-florida) explains where residents actually eat once the novelty of the Avenue wears off.`,
+Once you've explored, our [practical guide to operating here](/blog/local-guide-to-delray-beach-florida) covers the logistics side, and the [dining rundown](/blog/best-places-to-eat-drink-hang-out-in-delray-beach-florida) covers where to eat.`,
     faqs: [
-      { q: "What is Delray Beach's most overlooked attraction?", a: "The Spady Cultural Heritage Museum and the surrounding West Settlers district northwest of downtown — the historic heart of the city's Black community, settled by families central to building Delray. It is a small, serious museum, and an hour there changes how you read the rest of the city." },
-      { q: "Where can I find a quiet part of Delray Beach?", a: "Atlantic Dunes Park south of the main municipal stretch has the same ocean with a fraction of the people, plus a short boardwalk through genuine coastal dune habitat. More generally, the beach is two miles long and the crowd concentrates in the middle third — walk ten minutes north or south and the density drops away." },
-      { q: "Is there anything to do in Delray Beach besides eat and drink?", a: "Quite a lot of it low-key: the Sandoway Discovery Center in a 1936 beachfront house, Cason Cottage and the historical society, Delray Oaks Natural Area west of downtown, the pinball museum on the Avenue, and the arts district murals walked deliberately rather than glanced at." },
-      { q: "What is Delray Oaks Natural Area?", a: "A small county natural area west of downtown preserving remnant oak hammock and pine flatwoods — short trails, deep shade and an ecosystem completely unlike anything on the coast. Free, usually empty, and the fastest reminder that this coast was something other than subdivisions within living memory." },
-      { q: "Is the Colony Hotel worth visiting if I am not staying there?", a: "Yes. The 1926 building is still operating and still recognisably itself — the lobby, the woodwork, the original scale of the town. In a downtown substantially rebuilt around it, it is one of very few places where you can still see what Delray was before the current era." },
-      { q: "When is the best time to visit these quieter spots?", a: "Early on a weekday, and ideally in summer. Almost everything on this list is better without the seasonal crowd, and several are transformed by it. The broader rule is that Delray rewards walking off the main street — nearly all of this sits within a few minutes of Atlantic Avenue but not on it." },
+      { q: "Where can I learn about Black history in Delray Beach?", a: "The Spady Cultural Heritage Museum at 170 NW 5th Avenue presents the Black history and heritage of Palm Beach County. It occupies the Spady House, built in 1926 by Solomon and Jessie Spady. Check the museum's website for current hours and visitor information." },
+      { q: "What facilities are available at Atlantic Dunes Park?", a: "The City lists a boardwalk and nature trail through the dunes, parking, restrooms, a pavilion and lifeguard information. Check the City's Atlantic Dunes Park page for beach conditions, parking and hours before visiting." },
+      { q: "What is Delray Oaks Natural Area?", a: "A 25-acre Palm Beach County natural area at 2021 SW 29th Street that preserves a rare xeric hammock ecosystem. It has the paved 0.29-mile Live Oak Trail, the 0.20-mile Beautyberry Trail, wildlife viewing, parking and an observation platform, and is open sunrise to sunset. Check the County page for current conditions." },
+      { q: "What is Wakodahatchee Wetlands?", a: "A Palm Beach County Water Utilities wetland at 13270 Jog Road. The County describes it as a 50-acre constructed wetland with a three-quarter-mile boardwalk, where more than 178 bird species have been identified. Check the County page for current hours, maintenance closures and visitor information." },
+      { q: "Where can I check current hours and admission for Sandoway?", a: "On the Sandoway Discovery Center's website, sandoway.org, which lists current hours, admission and program times for the nature center at 142 South Ocean Boulevard." },
+      { q: "How can I verify current conditions at the Atlantic Avenue drawbridge?", a: "The East Atlantic Avenue drawbridge opens on a schedule set by federal regulation (33 CFR 117.261), and temporary changes can occur. Check the current regulation and the U.S. Coast Guard's Local Notices to Mariners, along with current road notices, before relying on a specific opening time." },
     ],
     internalLinks: ["best-things-to-do-in-delray-beach-florida", "local-guide-to-delray-beach-florida", "best-places-to-eat-drink-hang-out-in-delray-beach-florida"],
-    funFact: "The Wakodahatchee Wetlands in Delray Beach is a 3-acre constructed wetland built by the water utility on reclaimed land — and it has become one of the premier birding destinations in the entire Eastern US. Over 180 species have been documented there, including rare wading birds that locals walk past daily on the boardwalk.",
+    funFact: "Wakodahatchee Wetlands is a Palm Beach County Water Utilities wetland at 13270 Jog Road. The County describes it as a 50-acre constructed wetland with a three-quarter-mile boardwalk; more than 178 bird species have been identified there. Check the County page for current hours, maintenance closures, and visitor information.",
     author: 'christine',
     published: true,
-    updated: '2026-06-04',
+    publishedDate: '2026-06-04',
+    updated: '2026-09-21',
   },
   {
     slug: 'delray-beach-vs-nearby-cities',
