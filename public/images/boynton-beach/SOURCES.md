@@ -102,6 +102,29 @@ text says only "near Boynton Beach". If John recognises the spot, tighten the al
 
 `heroImagePosition: '72% 50%'` keeps the jetty in the phone crop.
 
+## `green-cay-marsh-sun.webp` — hero, `who-should-move-to-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/UMthcrkhsIs |
+| Photographer | Jeffrey Eisen (@jeisen) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-…` file, not Unsplash+) |
+| Photographer's location tag | Green Cay Nature Center & Wetlands, Hagen Ranch Road, Boynton Beach, FL |
+| Published | 2024-01-06 |
+| Original | 6000×4000 JPEG, downloaded 2026-09-21 via the Unsplash download link |
+| Derivative | Crop `(0, 450, 6000, 3825)` → 16:9, resized to **2048×1152**, WebP q80 |
+
+What the frame shows: the sun over a marsh and open water, with a wooden boardwalk at the left
+edge and a tree line on the horizon. There are no people in the frame, deliberately: on a
+buyer-fit page a hero with people could read as a preferred buyer.
+
+⚠️ Green Cay is a **Palm Beach County** facility with a Boynton Beach address, not a City park.
+This is the third Green Cay frame in the Boynton set (#2 boardwalk and pavilion, #5 marsh and
+sun), which is a sign of how thin free Boynton stock is.
+
+Rejected for this slot: Cristy DeWitt's lifeguard-stand frame (`BYC5Hmpv524`). It is portrait
+1908×4032, and a 16:9 crop cuts the stand in half and falls below hero width.
+
 ## `valencia-bay-002` … `valencia-bay-006.jpeg` — unused
 
 Portrait 1536×2048 frames of a single age-restricted community. Provenance is not recorded
