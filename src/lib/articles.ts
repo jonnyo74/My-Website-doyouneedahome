@@ -6569,115 +6569,124 @@ For the practical side of living here, see our [local guide to Boynton Beach](/b
     cityName: 'Boynton Beach',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in Boynton Beach, Florida",
+    heroImage: '/images/boynton-beach/atlantic-beach-jetty.webp',
+    heroImageAlt: 'Atlantic waves breaking against a rock jetty beside a sandy, seaweed-strewn beach under a blue sky, near Boynton Beach, Florida',
+    heroImageCredit: 'Photo by Richard Sagredo / Unsplash',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '72% 50%',
+    seoTitle: "Best Things to Do in Boynton Beach, Florida: Water, Nature, Parks and More",
     metaTitle: "Best Things to Do in Boynton Beach, Florida",
-    metaDescription: "From the marina and Gulf Stream diving to Green Cay Wetlands and Town Square — a local guide to the best things to do in Boynton Beach, Florida.",
+    metaDescription: "The best things to do in Boynton Beach, Florida: Boynton Inlet and Ocean Inlet Park, diving and fishing trips, Green Cay, the beach, paddling, Town Square and golf.",
     primaryKeyword: "things to do in Boynton Beach Florida",
-    secondaryKeywords: ["Boynton Beach attractions", "what to do in Boynton Beach", "Green Cay Wetlands", "Boynton Harbor Marina"],
+    secondaryKeywords: ["Boynton Beach attractions", "what to do in Boynton Beach", "Green Cay Nature Center", "Ocean Inlet Park"],
     h1: "Best Things to Do in Boynton Beach, Florida",
-    body: `Boynton's recreation is genuinely strong and badly marketed. The city has the best offshore diving access in the region, one of the finest wetland boardwalks in Florida, and a beach most people don't realize it operates — and almost nobody outside the county associates it with any of them.
+    body: `The best things to do in Boynton Beach, Florida center on the water — Boynton Inlet gives quick access to the Atlantic — with wetland boardwalks to the west, a City-run beach park across the Intracoastal, and a downtown civic area with a children's museum and events. Several of the best-known spots sit just outside city limits, in Ocean Ridge or unincorporated Palm Beach County, and this guide says which is which.
 
-Here's what's actually worth your time.
+Hours, rules, fees and conditions change, so each section points to the official page to check before you go.
 
-## Dive the Gulf Stream reefs
+## Boynton Inlet and Ocean Inlet Park
 
-This is the headline, and it isn't a local exaggeration.
+Boynton Inlet sits between Manalapan and Ocean Ridge, connecting the Lake Worth Lagoon with the Atlantic. Palm Beach County's **Ocean Inlet Park**, on the inlet in Ocean Ridge, is the easiest way to see it up close.
 
-The Gulf Stream runs unusually close to shore along this stretch of coast, and the **Boynton Inlet** puts boats into the Atlantic quickly. The combination produces something divers travel for: warm, clear, fast-moving water over a reef system in reachable depths, a short run from the dock.
+The County lists a guarded beach area, a jetty open around the clock for fishing, canoe and kayak access, a playground, picnic shelters and a marina with slips.
 
-The signature experience is **drift diving**. You go in, the current carries you along the reef, and the boat follows your marker and picks you up downstream. There's no anchoring, no swimming against anything, and no fighting your way back to a fixed point. For divers used to working hard for a dive, it's close to a revelation.
+- **Best for:** watching boats run the inlet, shore fishing from the jetty, and a beach day with a playground nearby.
+- **Check before you go:** park hours and rules, and the marina's current status, on the County's page.
 
-Multiple operators run trips out of the marina, most on a two-tank schedule. Visibility is generally best in summer, though it's good year-round by most standards. Conditions vary with wind and sea state, and winter fronts will cancel days at a time.
+*Official resource:* [Ocean Inlet Park](https://discover.pbcgov.org/parks/locations/ocean-inlet.aspx)
 
-If you're a lapsed diver, this is the place that gets you back in the water. If you've never dived, this is an unusually good place to learn.
+## Diving and offshore trips
 
-## Fish, inshore and offshore
+The inlet puts boats from Boynton's east side into the Atlantic quickly, and dive and fishing charters operate in the area.
 
-The same geography that makes the diving good makes the fishing good. Short running time to deep water means half-day trips are worth taking, and the drop-off close to shore holds structure worth working.
+- **Best for:** certified divers, and anyone who wants to get offshore without owning a boat.
+- **What to know:** book with a certified, licensed operator, and let them decide whether conditions allow a trip.
 
-Inshore, the Intracoastal and the waters around the inlet fish well for snook, snapper, jacks and more, and the inlet itself is a well-known spot when conditions line up.
+## Fishing
 
-Charters run out of the marina for anything from a half-day inshore trip to serious offshore work. Regulations and seasons change — check current state and federal rules rather than relying on last year's knowledge.
+Fishing here ranges from the Intracoastal and the inlet to offshore charter trips. Ocean Inlet Park's jetty is open to anglers around the clock.
+
+- **Check before you go:** Florida's current saltwater fishing licenses, seasons, size and bag limits — they change, so check the Florida Fish and Wildlife Conservation Commission rather than relying on last year's rules.
+
+*Official resource:* [FWC recreational saltwater fishing](https://myfwc.com/fishing/saltwater/recreational/)
 
 ## Green Cay Nature Center and Wetlands
 
-West of the city, and one of the genuinely outstanding natural attractions in South Florida.
+Palm Beach County's **Green Cay Nature Center**, at 12800 Hagen Ranch Road with a Boynton Beach address, has a 1.5-mile elevated boardwalk through about 100 acres of constructed wetland, and a nature center with a lecture hall and live-animal exhibits. It's a County facility, not a City park.
 
-A boardwalk over restored wetland runs roughly a mile and a half through open water, marsh and hammock, with a nature center attached. The wildlife density is remarkable: herons, egrets, anhingas, ibis, gallinules, alligators, turtles, and a great deal more depending on season.
+- **Best for:** easy, flat walking, bird and wildlife watching, and families.
+- **Check before you go:** the boardwalk and nature center keep different hours; see the County's page.
 
-It is free. It is easy, flat walking. It is best at first light, when the birds are active and the boardwalk is nearly empty.
+*Official resource:* [Green Cay Nature Center](https://discover.pbcgov.org/parks/pages/greencay.aspx)
 
-Nesting season, roughly late winter into spring, is the standout stretch and draws serious photographers. Go early; by mid-morning in season the car park is full.
+## Wakodahatchee Wetlands
 
-## The beach
+Nearby, **Wakodahatchee Wetlands** — run by Palm Beach County Water Utilities at 13270 Jog Road, with a Delray Beach address — has a three-quarter-mile boardwalk over a 50-acre constructed wetland, where more than 178 bird species have been identified.
 
-The city's oceanfront park sits across the Intracoastal in Ocean Ridge — a detail worth knowing before you go, and covered practically in our [guide to operating here](/blog/local-guide-to-boynton-beach-florida).
+*Official resource:* [Wakodahatchee Wetlands](https://discover.pbcgov.org/waterutilities/pages/wetlands.aspx)
 
-What's there is a well-kept stretch of Atlantic beach with a dune line, boardwalk access, lifeguards in season, and a general absence of the commercial development that crowds beaches further south. It is a proper beach rather than a resort frontage.
+## The beach: Oceanfront Park
 
-Parking is the constraint. Residents and non-residents pay differently, spaces are limited, and on a good winter weekend it fills early. Go before ten or go in summer.
+The City of Boynton Beach's **Oceanfront Park** is at 6415 N. Ocean Boulevard in **Ocean Ridge**, across the Intracoastal. It's a separate park from Ocean Inlet Park, run by a different government — the City rather than the County — with its own parking and rules. The City lists paid parking there.
 
-## The inlet itself
+- **Check before you go:** current parking rules, rates and any resident programs on the City's page.
 
-Worth treating as a destination rather than just infrastructure.
+*Official resource:* [City of Boynton Beach — parking locations and fees](https://www.boynton-beach.org/378/Locations-Fees)
 
-The park at the inlet is one of the better places on this coast to simply watch water move — boats running the cut, anglers working the jetty, pelicans, and a genuine sense of the ocean being immediately present. It costs nothing and takes twenty minutes.
+## Paddling the mangroves
 
-It's also the single best way to understand why boaters pay a premium to live in this city.
+Kayaking and paddleboarding on the Intracoastal need no boat of your own — rent from a local outfitter, or launch where access is provided, such as Ocean Inlet Park's listed canoe and kayak access.
 
-## The civic campus and the events calendar
+- **Best for:** a slower look at the same water the charter boats run through, along the mangrove edges.
+- **Check before you go:** boating rules and manatee protection zones apply to paddlers too, and conditions change with wind and tide. Rent from and follow the guidance of a qualified outfitter.
 
-The rebuilt downtown civic district includes a library, an amphitheatre, open space, and a children's museum in a restored historic schoolhouse.
+*Official resources:* [FWC boating regulations](https://myfwc.com/boating/regulations/) · [Manatee protection zones](https://myfwc.com/wildlifehabitats/wildlife/manatee/protection-zones/)
 
-The amphitheatre carries a decent run of concerts and community events, particularly through the cooler months, and the city programs a steady calendar of festivals and markets. It's not the density of events you'd get in Delray or West Palm, but it's a real and improving civic center rather than a plan on a board.
+## Downtown and Town Square
+
+The City's Town Square area downtown includes the **Schoolhouse Children's Museum**, a cultural center, the City library and an amphitheater. The museum has hands-on exhibits across two floors, and the City runs concerts, festivals and community events through the year.
+
+- **Best for:** families, and an easy local outing.
+- **Check before you go:** the City's events calendar for what's on, and the museum's site for hours and admission.
+
+*Official resources:* [City of Boynton Beach events calendar](https://www.boynton-beach.org/calendar.aspx) · [Schoolhouse Children's Museum](https://www.schoolhousemuseum.org/)
 
 ## Golf
 
-West Boynton has a substantial concentration of golf, spanning private country clubs, semi-private clubs, and public play including a municipal course.
+The City operates **The Links at Boynton Beach**, with an 18-hole championship course and a 9-hole executive course, a practice area and a grill. West Boynton also has a number of private and semi-private club courses; access depends on each club's membership rules.
 
-For anyone whose weekly rhythm is built around a round, the sheer supply out here is one of the practical arguments for the western communities.
+*Official resource:* [The Links at Boynton Beach](https://www.boynton-beach.org/281/About-the-Links)
 
-## Getting on the water without a boat
+## Seasonal planning
 
-- **Charter and dive trips** from the marina — the easiest entry to everything this city is good at.
-- **Kayak and paddleboard** on the Intracoastal and in the protected mangrove stretches, best early before boat traffic builds.
-- **Shore fishing** at the inlet and along accessible seawalls where permitted.
-- **Boat tours** on the Intracoastal, which double as an efficient way to look at waterfront housing stock.
+From roughly November through April is season, with the most comfortable weather and a fuller events calendar. May through October is hot and humid, with frequent afternoon storms, so outdoor plans often work best early in the day.
 
-## Seasonal timing
-
-**Winter into spring:** best air temperatures, biggest crowds, wetlands nesting season at its peak, and more wind — which can limit offshore days.
-
-**Summer:** hot, humid, storming most afternoons, and generally the best underwater visibility of the year. Get out early, watch the sky, and enjoy an uncrowded beach car park.
-
-**Hurricane season** runs June through November, ## Paddling the mangroves
-
-Worth separating from the boating, because it needs nothing more than a rented kayak.
-
-The protected stretches of the Intracoastal and the mangrove edges near the marina are calm most mornings, shallow, and full of wading birds, small fish and the occasional manatee in the cooler months. It's a completely different perspective on the same water the charter boats run through at speed.
-
-Go at first light for the wind and the wildlife both, wear more sun protection than seems necessary, and tell someone your route — the mangrove edges look identical from the water.
-
-which in a boating city means a plan for the vessel as well as the house.
+The Atlantic hurricane season runs June 1 through November 30. Check marine and weather conditions before any time on the water, and follow [Palm Beach County Emergency Management](https://discover.pbcgov.org/publicsafety/dem/Pages/default.aspx) guidance when a storm is forecast.
 
 ## Where to start
 
-If you do one thing in your first month, make it a dive or a charter out of the inlet. If you do two, add Green Cay at sunrise.
+In your first month, try one of each:
 
-Those two experiences are what this city is actually for, and neither is what its reputation would lead you to expect. Once you've done them, the [quieter local spots](/blog/hidden-gems-in-boynton-beach-florida) are where it starts feeling like home.`,
+- **On the water:** book a dive or fishing charter with a certified operator, or spend an afternoon at Ocean Inlet Park watching the inlet.
+- **In nature:** walk the Green Cay boardwalk early in the day.
+- **An easy local outing:** check the City's events calendar for something at Town Square, or visit the Schoolhouse Children's Museum.
+
+Once you've done those, the [lesser-known local spots](/blog/hidden-gems-in-boynton-beach-florida) and our [guide to eating and drinking in Boynton Beach](/blog/best-places-to-eat-drink-hang-out-in-boynton-beach-florida) are the next reads. For the practical side of living here, see our [local guide to Boynton Beach](/blog/local-guide-to-boynton-beach-florida) and the [Boynton Beach community guide](/communities/boynton-beach).`,
     faqs: [
-      { q: "Why is Boynton Beach known for scuba diving?", a: "The Gulf Stream runs unusually close to shore here and the Boynton Inlet puts boats into the Atlantic quickly, so you get warm, clear, fast-moving water over reef at reachable depths a short run from the dock. The signature experience is drift diving — you enter, the current carries you along the reef, and the boat follows your marker and collects you downstream." },
-      { q: "What is Green Cay Wetlands?", a: "A roughly mile-and-a-half boardwalk over restored wetland west of the city, with a nature center attached and remarkable wildlife density — herons, egrets, anhingas, ibis, gallinules, alligators and turtles. It is free and flat, best at first light, and outstanding during nesting season from late winter into spring. Go early; the car park fills by mid-morning in season." },
-      { q: "Where is the Boynton Beach public beach?", a: "The city's oceanfront park is across the Intracoastal in the neighboring town of Ocean Ridge. It is a well-kept stretch of Atlantic beach with a dune line, boardwalk access and lifeguards in season, without the commercial development that crowds beaches further south. Parking is limited, residents and non-residents pay differently, and it fills early on good winter weekends." },
-      { q: "Is Boynton Beach good for fishing?", a: "Yes — the short running time to deep water means half-day offshore trips are genuinely worthwhile, and the drop-off close to shore holds good structure. Inshore, the Intracoastal and the waters around the inlet fish well, and the inlet itself is a known spot when conditions line up. Check current regulations rather than relying on last year's." },
-      { q: "Is there anything to do in downtown Boynton Beach?", a: "The rebuilt civic campus has a library, an amphitheatre, open space and a children's museum in a restored historic schoolhouse, with a steady calendar of concerts, festivals and markets through the cooler months. It is not the density of Delray or West Palm Beach, but it is a real and improving civic center rather than a plan on a board." },
-      { q: "What should I do first when I move to Boynton Beach?", a: "Take a dive or charter trip out of the inlet, then go to Green Cay at sunrise. Those two experiences are what this city is genuinely for, and neither is what its reputation would lead you to expect." },
+      { q: "What is Ocean Inlet Park?", a: "A Palm Beach County park on Boynton Inlet in Ocean Ridge. The County lists a guarded beach area, a jetty open around the clock for fishing, canoe and kayak access, a playground, picnic shelters and a marina with slips. Check the County's page for hours, rules and the marina's current status." },
+      { q: "Can you go diving from Boynton Beach?", a: "Yes. Boynton Inlet gives boats from Boynton's east side quick access to the Atlantic, and dive and fishing charters operate in the area. Book with a certified, licensed operator and let them decide whether conditions allow a trip." },
+      { q: "What is Green Cay Nature Center?", a: "A Palm Beach County facility at 12800 Hagen Ranch Road with a Boynton Beach address. It has a 1.5-mile elevated boardwalk through about 100 acres of constructed wetland and a nature center with live-animal exhibits. It's a County facility, not a City park; check the County's page for hours." },
+      { q: "Where is the beach in Boynton Beach?", a: "The City of Boynton Beach's Oceanfront Park is at 6415 N. Ocean Boulevard in Ocean Ridge, across the Intracoastal. It's separate from Palm Beach County's Ocean Inlet Park, with its own parking and rules; check the City's page for current parking rules and rates." },
+      { q: "Do I need a fishing license in Boynton Beach?", a: "Florida's saltwater fishing licenses, seasons, size and bag limits are set by the Florida Fish and Wildlife Conservation Commission and change over time. Check FWC's current recreational saltwater fishing rules before you fish." },
+      { q: "What should I do first in Boynton Beach?", a: "Try one of each: a dive or fishing charter with a certified operator, or an afternoon at Ocean Inlet Park; an early walk on the Green Cay boardwalk; and an easy local outing at Town Square or the Schoolhouse Children's Museum." },
     ],
-    internalLinks: ["hidden-gems-in-boynton-beach-florida", "best-places-to-eat-drink-hang-out-in-boynton-beach-florida", "local-guide-to-boynton-beach-florida"],
-    funFact: "Loggerhead Park and Oceanfront Park in Boynton Beach sit on some of the least-crowded public beach access in central Palm Beach County — fewer parking spaces than Delray Beach means lower crowds even on busy weekends. Locals treat it as a feature, not a bug.",
+    internalLinks: ["local-guide-to-boynton-beach-florida", "hidden-gems-in-boynton-beach-florida", "best-places-to-eat-drink-hang-out-in-boynton-beach-florida"],
+    funFact: "Oceanfront Park and Ocean Inlet Park are both in Ocean Ridge, but different governments run them — the City of Boynton Beach runs Oceanfront Park and Palm Beach County runs Ocean Inlet Park — so parking, rules and hours differ. Check the right page before you go.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-21',
   },
   {
     slug: 'who-should-move-to-boynton-beach-florida',

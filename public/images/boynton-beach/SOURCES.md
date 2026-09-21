@@ -80,6 +80,28 @@ the waterfront row in the phone crop.
 Why not a Boynton photo: as of 2026-09-21, Unsplash has no free Boynton-tagged aerial or
 residential shots (only beach, wildlife, Green Cay and the inlet frame used on #1).
 
+## `atlantic-beach-jetty.webp` — hero, `best-things-to-do-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/qJ0xuW43SZs |
+| Photographer | Richard Sagredo (@sagredophotography) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-…` file, not Unsplash+) |
+| Photographer's location tag | Boynton Beach, FL, USA |
+| Published | 2024-04-04 |
+| Original | 7863×4423 JPEG (already ~16:9), downloaded 2026-09-21 via the Unsplash download link |
+| Derivative | Resized to **2048×1152**, WebP q80 (~215 KB) |
+
+What the frame shows: long-exposure Atlantic waves breaking against a rock jetty beside a sandy,
+seaweed-strewn beach under a blue sky. There are no people in the frame.
+
+⚠️ **Exact spot unconfirmed.** The only location data is the photographer's "Boynton Beach"
+tag, and every Boynton-area ocean beach is in Ocean Ridge or another barrier town. The rocks
+*may* be the Boynton Inlet jetty at Ocean Inlet Park, but that isn't confirmed, so the alt
+text says only "near Boynton Beach". If John recognises the spot, tighten the alt text.
+
+`heroImagePosition: '72% 50%'` keeps the jetty in the phone crop.
+
 ## `valencia-bay-002` … `valencia-bay-006.jpeg` — unused
 
 Portrait 1536×2048 frames of a single age-restricted community. Provenance is not recorded
