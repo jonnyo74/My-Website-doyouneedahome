@@ -3572,7 +3572,7 @@ This is a shorter list of lesser-known places: local history, natural areas, and
 
 ## The Spady Cultural Heritage Museum
 
-The Spady Cultural Heritage Museum, at 170 NW 5th Avenue, presents the Black history and heritage of Palm Beach County. It occupies the Spady House, built in 1926 by Solomon and Jessie Spady; Solomon D. Spady was a longtime educator and school principal in Delray Beach.
+The Spady Cultural Heritage Museum, at 170 NW 5th Avenue, presents the Black history and heritage of Palm Beach County. It occupies the Spady House, the 1926 former home of Solomon D. Spady, a longtime educator and school principal in Delray Beach.
 
 The museum sits in the West Settlers area, which carries the story of Delray Beach's early African-American community and is an important part of the city's history.
 
@@ -3644,7 +3644,7 @@ Most of these are small, and several run on limited or scheduled hours, so check
 
 Once you've explored, our [practical guide to operating here](/blog/local-guide-to-delray-beach-florida) covers the logistics side, and the [dining rundown](/blog/best-places-to-eat-drink-hang-out-in-delray-beach-florida) covers where to eat.`,
     faqs: [
-      { q: "Where can I learn about Black history in Delray Beach?", a: "The Spady Cultural Heritage Museum at 170 NW 5th Avenue presents the Black history and heritage of Palm Beach County. It occupies the Spady House, built in 1926 by Solomon and Jessie Spady. Check the museum's website for current hours and visitor information." },
+      { q: "Where can I learn about Black history in Delray Beach?", a: "The Spady Cultural Heritage Museum at 170 NW 5th Avenue presents the Black history and heritage of Palm Beach County. It occupies the Spady House, the 1926 former home of educator Solomon D. Spady. Check the museum's website for current hours and visitor information." },
       { q: "What facilities are available at Atlantic Dunes Park?", a: "The City lists a boardwalk and nature trail through the dunes, parking, restrooms, a pavilion and lifeguard information. Check the City's Atlantic Dunes Park page for beach conditions, parking and hours before visiting." },
       { q: "What is Delray Oaks Natural Area?", a: "A 25-acre Palm Beach County natural area at 2021 SW 29th Street that preserves a rare xeric hammock ecosystem. It has the paved 0.29-mile Live Oak Trail, the 0.20-mile Beautyberry Trail, wildlife viewing, parking and an observation platform, and is open sunrise to sunset. Check the County page for current conditions." },
       { q: "What is Wakodahatchee Wetlands?", a: "A Palm Beach County Water Utilities wetland at 13270 Jog Road. The County describes it as a 50-acre constructed wetland with a three-quarter-mile boardwalk, where more than 178 bird species have been identified. Check the County page for current hours, maintenance closures and visitor information." },
@@ -3685,19 +3685,21 @@ Two ground rules apply to every comparison below.
 
 ## Comparison at a glance
 
-| Location | Jurisdiction to verify | Downtown and public beach | Property and community rules | Boating and inlets | Transit and commute | Official resource |
-|---|---|---|---|---|---|---|
-| Delray Beach | City or unincorporated county, by address | Downtown along Atlantic Avenue; City municipal beach | Historic districts; HOA and condo documents | No ocean inlet in the city | Tri-Rail Delray Beach Station; test routes | [City of Delray Beach](https://www.delraybeachfl.gov/) |
-| Boca Raton | City or unincorporated county, by address | Check the City's downtown and beach pages | HOA, condo and club documents | Verify route and bridges | Brightline station in Boca Raton; test routes | [City of Boca Raton](https://www.myboca.us/) |
-| Boynton Beach | City or unincorporated county, by address | Check the City's downtown and beach pages | HOA, condo and club documents | Boynton Inlet is between Manalapan and Ocean Ridge | Test routes at your hours | [City of Boynton Beach](https://www.boynton-beach.org/) |
-| Lake Worth Beach | City or unincorporated county, by address | Check the City's downtown and beach pages | Historic and HOA documents where applicable | Verify route and bridges | Test routes at your hours | [City of Lake Worth Beach](https://lakeworthbeachfl.gov/) |
-| West Palm Beach | City or unincorporated county, by address | Downtown; check City pages for public waterfront and beach access | Condo, HOA and historic documents | Verify route and bridges | Brightline station in West Palm Beach; test routes | [City of West Palm Beach](https://www.wpb.org/) |
-| Highland Beach | Town of Highland Beach | Check the Town's pages for beach access | Condo and HOA documents | Verify route and dock rights | Test routes at your hours | [Town of Highland Beach](https://www.highlandbeach.us/) |
-| Gulf Stream | Town of Gulf Stream | Check the Town's pages | Town rules and HOA documents | Verify route and dock rights | Test routes at your hours | [Town of Gulf Stream](https://www.gulf-stream.org/) |
-| Wellington | Village or unincorporated county, by address | Inland; no beach in the village | HOA, club and equestrian-property documents | Not a coastal location | Test routes at your hours | [Village of Wellington](https://www.wellingtonfl.gov/) |
-| Deerfield Beach | Broward County; city by address | Check the City's downtown and beach pages | HOA and condo documents | Verify route and bridges | Test routes at your hours | [City of Deerfield Beach](https://www.deerfield-beach.com/) |
-| Pompano Beach | Broward County; city by address | Check the City's downtown and beach pages | HOA and condo documents | Verify route and bridges | Test routes at your hours | [City of Pompano Beach](https://www.pompanobeachfl.gov/) |
-| Lighthouse Point | Broward County; city by address | Check the City's pages | HOA and dock documents | Verify route, bridges and dock rights | Test routes at your hours | [City of Lighthouse Point](https://www.lighthousepoint.com/) |
+| Location (official site) | Jurisdiction to verify | Boating and inlets |
+|---|---|---|
+| [Delray Beach](https://www.delraybeachfl.gov/) | City or unincorporated county, by address | No ocean inlet in the city |
+| [Boca Raton](https://www.myboca.us/) | City or unincorporated county, by address | Verify route and bridges |
+| [Boynton Beach](https://www.boynton-beach.org/) | City or unincorporated county, by address | Boynton Inlet is between Manalapan and Ocean Ridge |
+| [Lake Worth Beach](https://lakeworthbeachfl.gov/) | City or unincorporated county, by address | Verify route and bridges |
+| [West Palm Beach](https://www.wpb.org/) | City or unincorporated county, by address | Verify route and bridges |
+| [Highland Beach](https://www.highlandbeach.us/) | Town of Highland Beach | Verify route and dock rights |
+| [Gulf Stream](https://www.gulf-stream.org/) | Town of Gulf Stream | Verify route and dock rights |
+| [Wellington](https://www.wellingtonfl.gov/) | Village or unincorporated county, by address | Not a coastal location |
+| [Deerfield Beach](https://www.deerfield-beach.com/) | Broward County; city by address | Verify route and bridges |
+| [Pompano Beach](https://www.pompanobeachfl.gov/) | Broward County; city by address | Verify route and bridges |
+| [Lighthouse Point](https://www.lighthousepoint.com/) | Broward County; city by address | Verify route, bridges and dock rights |
+
+For every location, also check the official site for downtown and beach access, review the property's HOA, condo, club or historic documents, and test your regular routes at the hours you'd travel.
 
 ## Delray Beach and Boca Raton
 
