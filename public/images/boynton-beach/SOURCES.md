@@ -159,3 +159,24 @@ turns up first in "boynton inlet" searches, but it's already the #1 hero
 
 The sun sits left of centre (~38% of the width), so the article sets
 `heroImagePosition: '40% 50%'` to keep it in the phone crop.
+
+## `planned-community-street.webp` — hero, `cost-of-living-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/4T4AcGJvARQ |
+| Photographer | FilterGrade (@filtergrade) |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1555636222-…` file, not Unsplash+) |
+| Photographer's location tag | None |
+| Original | 5672×3755 JPEG, downloaded 2026-09-21 |
+| Derivative | Small address plaque on the right-hand house blurred (box `5260,2295–5405,2415`); crop `(0, 565, 5672, 3755)` → 16:9, resized to **2048×1152**, WebP q80 (~200 KB) |
+
+What the frame shows: a residential street of single-story stucco homes with clay-tile roofs,
+paver driveways, palms and hedges. No people, vehicles or legible addresses.
+
+⚠️ **Location unknown.** It is NOT presented as Boynton Beach: the article's visible
+`heroImageCaption` calls it a representative Florida planned-community street, and the alt text
+names no place. Chosen over a Sarasota waterfront frame because the brief excluded luxury-home
+imagery. Replace with John's own west-Boynton street shot (no house numbers) when available.
+
+The houses sit right of centre, so the article sets `heroImagePosition: '72% 50%'`.
