@@ -223,3 +223,24 @@ mid-rise condo towers, with a lagoon in the distance. No legible signage or peop
 County coast, tagged Boca Raton, south of Boynton. The alt text names no place.
 
 The beach line sits just right of centre, so the article sets `heroImagePosition: '60% 50%'`.
+
+## `florida-marina-sportfishing.webp` — hero, `best-places-to-eat-drink-hang-out-in-boynton-beach-florida`
+
+| | |
+|---|---|
+| Source | Unsplash — https://unsplash.com/photos/JeQLpw97924 |
+| Photographer | Mike Bergmann |
+| Licence | Unsplash License (standard `images.unsplash.com/photo-1788316695980-…` file, not Unsplash+) |
+| Photographer's location tag | Ponce Inlet, FL, USA — "Sport fishing boats docked on the river in Ponce Inlet" |
+| Original | 5897×3931 JPEG, downloaded 2026-09-21 |
+| Derivative | Business name and phone number on the tiki boat's banner blurred (box `1539,2457–2568,2784`); crop `(0, 614, 5897, 3931)` → 16:9, resized to **2048×1152**, WebP q80 |
+
+What the frame shows: sportfishing boats with tuna towers at a marina beside a small thatched-roof
+tiki boat, with palms and late-afternoon clouds. No people or legible business names remain.
+
+⚠️ **Not Boynton Beach.** It's Ponce Inlet, in Volusia County. The visible `heroImageCaption`
+says so and notes the blurred sign. Replace with John's own Boynton Harbor Marina shot (shot list
+item #10: waterfront dining area without dominant signage) when available. No free Unsplash
+frame of Boynton's marina dining exists.
+
+The main boat sits left of centre, so the article sets `heroImagePosition: '40% 50%'`.
