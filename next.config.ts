@@ -109,6 +109,37 @@ const nextConfig: NextConfig = {
       { source: '/new-communities/old-port-cove-real-estate', destination: '/communities/north-palm-beach', permanent: true },
       { source: '/new-communities/artistry-real-estate', destination: '/communities/palm-beach-gardens', permanent: true },
       { source: '/new-communities/jupiter-yacht-club-real-estate', destination: '/communities/jupiter', permanent: true },
+      // Solana Bay and Seaglass pages are being built — index until they ship
+      { source: '/new-communities/solana-bay-real-estate', destination: '/communities', permanent: true },
+      { source: '/new-communities/seaglass-real-estate', destination: '/communities', permanent: true },
+      // Catch-all for the rest of the old Ylopo community URLs (Valencia, Martinique,
+      // Tuscany, Windsor Park, ...). Must stay below the explicit renames above.
+      { source: '/new-communities/:slug-real-estate', destination: '/communities/:slug', permanent: true },
+      // Old city URLs with "-fl" in them, e.g. /communities/jupiter-fl-real-estate
+      { source: '/communities/:slug-fl-real-estate', destination: '/communities/:slug', permanent: true },
+
+      // ── Squarespace leftovers ──────────────────────────────────────────
+      { source: '/home', destination: '/', permanent: true },
+      { source: '/seller', destination: '/sell', permanent: true },
+      { source: '/presentations', destination: '/', permanent: true },
+      { source: '/formats', destination: '/', permanent: true },
+      { source: '/implementation', destination: '/', permanent: true },
+      { source: '/form/info', destination: '/contact', permanent: true },
+      // Old Ylopo search pages — /buy is the search entry point now
+      { source: '/search/:path*', destination: '/buy', permanent: true },
+      { source: '/heatmap', destination: '/buy', permanent: true },
+      { source: '/condos', destination: '/buy', permanent: true },
+      // Former agent profile pages
+      { source: '/team/:agent', destination: '/team', permanent: true },
+      { source: '/blog/find-your-dream-home-in-palm-beach-county-why-you-should-choose-doyouneedahome-com', destination: '/', permanent: true },
+      { source: '/blog/category/:category*', destination: '/blog', permanent: true },
+      // 2023 monthly market recaps were not carried over — the county report replaces them
+      { source: '/blog/a-closer-look-at-palm-beach-countys-:rest(.*)', destination: '/palm-beach-county-market-report', permanent: true },
+      { source: '/blog/exploring-the-dynamic-palm-beach-county-real-estate-market-:rest(.*)', destination: '/palm-beach-county-market-report', permanent: true },
+      { source: '/blog/palm-beach-county-condo-townhome-market-:rest(.*)', destination: '/palm-beach-county-market-report', permanent: true },
+      // Truncated slugs Google picked up from broken links
+      { source: '/blog/a-', destination: '/blog', permanent: true },
+      { source: '/blog/exploring-', destination: '/blog', permanent: true },
 
       // ── BLOG — old Squarespace date-based paths ────────────────────────
       // Two posts with matching relocation content in the new build:
@@ -123,6 +154,9 @@ const nextConfig: NextConfig = {
       { source: '/blog/2024/2/16/score-clients-with-these-top-rated-realtor-review-websites', destination: '/blog', permanent: true },
       { source: '/blog/2026/1/7/why-you-should-list-your-home-at-the-beginning-of-the-year', destination: '/blog', permanent: true },
       { source: '/blog/2025/2/23/celebrating-johns-achievement-elevating-real-estate-excellence', destination: '/blog', permanent: true },
+      { source: '/blog/2024/11/5/meet-the-do-homes-group', destination: '/team', permanent: true },
+      // Every other dated Squarespace post (/blog/2024/5/24/...) — none have a rewrite here
+      { source: '/blog/:year(\\d+)/:month(\\d+)/:day(\\d+)/:slug', destination: '/blog', permanent: true },
 
       // ── /communities/[city]-real-estate — remaining cities ────────────
       // Same old-Squarespace pattern as the block above, for the cities that
