@@ -27,6 +27,16 @@ The mix is deliberate: without the festival frames the gallery was entirely beac
 barrier island, and nothing showed the downtown that every article about this city spends
 its time on.
 
+## Blog article heroes
+
+Heroes are 16:9 crops at 2048×1152 WebP, cut from the full-quality originals in this
+folder, so the gallery files stay untouched. `heroImagePosition` on the article sets the
+phone crop. Credit on the page reads "Photo by John Oliver".
+
+| Article | Hero file | Cut from | Crop and position |
+|---|---|---|---|
+| #1 `what-its-really-like-living-in-lake-worth-beach-florida` | `casino-arcade-hero.webp` | `local-casino-arcade.jpg` (John's own) | Full width, rows 150–1500 of 1800; q80. `heroImagePosition: '28% 40%'` keeps the "Lake Worth Casino" parapet sign in frame on phones. No recognisable people in the frame. Added 2026-09-23. |
+
 ## Held back, not in the gallery
 
 Still in the folder at full quality, just not wired up:
@@ -37,6 +47,7 @@ Still in the folder at full quality, just not wired up:
   question rather than leaving it open.
 - `local-casino-arcade.jpg` — the Casino arcade straight on, café tables under the arches.
   A second angle on a building already covered by index 2.
+  Not in the gallery, but cropped for the #1 article hero (see above).
 - `local-bennys-acai-bowl.jpg` — açaí bowl at Benny's with the table card behind it.
   Portrait, and it crops badly in a landscape cell. Belongs inline in the dining article.
 - `local-street-painting-rose-panel.jpg` — an artist's pink-and-cyan rose panel against a
