@@ -1183,7 +1183,6 @@ export const cities: CommunityItem[] = [
       { destination: 'DJT Airport', time: '20 min' },
       { destination: 'Fort Lauderdale', time: '40 min' },
     ],
-    linkedNeighborhoods: ['lake-worth-gardens'],
     priceRanges: [
       { type: 'Historic Bungalows & Cottages', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, propertyTypes: ['house'] },
       { type: 'Barrier Island Condos', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo'] },
@@ -3894,21 +3893,6 @@ export const neighborhoods: CommunityItem[] = [
     quickFacts: [
       { label: 'Homes', value: 'Single-family homes' },
       { label: 'Amenities', value: 'Schools, shops, parks' },
-    ],
-  },
-
-  // ── LAKE WORTH BEACH ─────────────────────────────────────────
-  {
-    slug: 'lake-worth-gardens',
-    name: 'Lake Worth Gardens',
-    type: 'Neighborhood',
-    region: 'Lake Worth Beach',
-    description: 'A community with golf, waterfront views, and a friendly residential atmosphere.',
-    overview:
-      'Lake Worth Gardens offers an active community lifestyle and easy access to beaches, shopping, and the Lake Worth waterfront.',
-    quickFacts: [
-      { label: 'Homes', value: 'Single-family homes and villas' },
-      { label: 'Amenities', value: 'Golf, pool, lake views' },
     ],
   },
 
