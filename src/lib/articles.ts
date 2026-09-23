@@ -1630,7 +1630,7 @@ Evenings concentrate downtown and in the neighborhood pockets. The city has a re
 
 ## Getting around and out
 
-I-95 and Florida's Turnpike both run through, and **Palm Beach International Airport is unusually close** — roughly 10 to 15 minutes from downtown, which is one of the genuine practical luxuries of living here. Jupiter and the northern beach towns are 25 to 30 minutes up the coast; Delray and Boca are 25 to 40 minutes south.
+I-95 and Florida's Turnpike both run through. **The county's main airport is in West Palm Beach.** Its [official site](https://flydjt.org/) now lists it as President Donald J. Trump International Airport, formerly Palm Beach International, and describes it as 2.5 miles west of downtown West Palm Beach. Check the drive from your own address at the hours you'd travel. Jupiter and the northern beach towns are 25 to 30 minutes up the coast; Delray and Boca are 25 to 40 minutes south.
 
 Public transit beyond the Brightline is limited. Within downtown a free circulator serves the core, but for most of the city you're driving.
 
