@@ -1634,6 +1634,8 @@ I-95 and Florida's Turnpike both run through, and **Palm Beach International Air
 
 Public transit beyond the Brightline is limited. Within downtown a free circulator serves the core, but for most of the city you're driving.
 
+**On-demand rides.** [Circuit](https://www.ridecircuit.com/palmbeach) runs on-demand electric rides in West Palm Beach and Palm Beach, booked through the Circuit app. Its page lists destinations including downtown, CityPlace, the Tri-Rail and Brightline stations and Worth Avenue, and currently lists rides as free. These services change, so check the app for the current service area, hours and fare.
+
 ## A note on the two "Palm Beaches"
 
 Newcomers conflate them constantly, and it causes real confusion in a home search.
@@ -1661,7 +1663,8 @@ Weighing a downtown tower instead? That market runs on building-by-building spec
     funFact: "The Saturday GreenMarket on the West Palm waterfront has been running since 1994 and pulls 10,000+ people on a busy season morning. It's genuinely local — Florida-grown produce, local honey, artisan food — not a tourist farmers market. It's where residents actually shop.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-west-palm-beach-florida',
