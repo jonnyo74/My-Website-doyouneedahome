@@ -43,6 +43,7 @@ phone crop. Credit on the page reads "Photo by John Oliver".
 | #6 `pros-and-cons-of-living-in-lake-worth-beach-florida` | `casino-building-palms-hero.webp` | `local-casino-building-palms.jpg` (John's own) | rows 0–1350 of 1800; q80. `heroImagePosition: '50% 50%'`. Added 2026-09-23. |
 | #7 `cost-of-living-in-lake-worth-beach-florida` | `pier-morning-hero.webp` | `local-pier-morning-hero.jpg` (John's own) | rows 350–1700 of 1800; q80. `heroImagePosition: '70% 50%'`. Added 2026-09-23. |
 | #8 `hidden-gems-in-lake-worth-beach-florida` | `street-painting-carpenter-bee-hero.webp` | `local-street-painting-carpenter-bee.jpg` (John's own) | rows 592–1456 of 2048 (portrait source, upscaled); q80. `heroImagePosition: '40% 50%'`. Captioned as a festival frame. Added 2026-09-23. |
+| #9 `lake-worth-beach-vs-nearby-cities` | `beach-looking-north-hero.webp` | `local-beach-looking-north.jpg` (John's own) | rows 300–1650 of 1800; q80. `heroImagePosition: '45% 50%'`. Added 2026-09-23. |
 
 ## Held back, not in the gallery
 
