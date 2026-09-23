@@ -1183,7 +1183,7 @@ export const cities: CommunityItem[] = [
       { destination: 'PBI Airport', time: '20 min' },
       { destination: 'Fort Lauderdale', time: '40 min' },
     ],
-    linkedNeighborhoods: ['lake-worth-estates', 'poinciana-park', 'lake-worth-gardens'],
+    linkedNeighborhoods: ['lake-worth-gardens'],
     priceRanges: [
       { type: 'Historic Bungalows & Cottages', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, propertyTypes: ['house'] },
       { type: 'Barrier Island Condos', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo'] },
@@ -3898,32 +3898,6 @@ export const neighborhoods: CommunityItem[] = [
   },
 
   // ── LAKE WORTH BEACH ─────────────────────────────────────────
-  {
-    slug: 'lake-worth-estates',
-    name: 'Lake Worth Estates',
-    type: 'Neighborhood',
-    region: 'Lake Worth Beach',
-    description: 'A boutique gated community with luxury homes and a private country club setting.',
-    overview:
-      'Lake Worth Estates offers an intimate luxury setting with manicured grounds and top-tier amenities in the heart of Lake Worth Beach.',
-    quickFacts: [
-      { label: 'Homes', value: 'Gated estate homes' },
-      { label: 'Amenities', value: 'Country club, golf, dining' },
-    ],
-  },
-  {
-    slug: 'poinciana-park',
-    name: 'Poinciana Park',
-    type: 'Neighborhood',
-    region: 'Lake Worth Beach',
-    description: 'A coastal neighborhood with historic bungalows and eclectic local character near the beach.',
-    overview:
-      'Poinciana Park offers a charming, walkable neighborhood feel within easy reach of Lake Worth Beach and downtown attractions.',
-    quickFacts: [
-      { label: 'Homes', value: 'Bungalows, cottages, ranch homes' },
-      { label: 'Amenities', value: 'Beach proximity, local dining' },
-    ],
-  },
   {
     slug: 'lake-worth-gardens',
     name: 'Lake Worth Gardens',
