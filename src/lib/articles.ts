@@ -1816,7 +1816,12 @@ Visit in person, at more than one time of day, and independently verify anything
     primaryKeyword: "things to do in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach attractions", "what to do in West Palm Beach", "Norton Museum", "Clematis Street"],
     h1: "Best Things to Do in West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/waterfront-028.jpeg',
+    heroImage: '/images/west-palm-beach/meyer-amphitheatre-lawn-hero.webp',
+    heroImageAlt: "The Meyer Amphitheatre band shell and its open lawn on the downtown West Palm Beach waterfront, with palm trees and high-rise towers behind",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '10% 50%',
     body: `As the urban center of Palm Beach County, West Palm packs in more to do than anywhere nearby — and a surprising amount of it is either free or genuinely world-class.
 
 Here's what's actually worth your time.
