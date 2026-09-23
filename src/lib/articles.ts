@@ -2075,7 +2075,12 @@ Both are good lives. They're just not the same one, and West Palm is the only pl
     primaryKeyword: "pros and cons of living in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach pros and cons", "living in West Palm Beach downsides", "is West Palm Beach worth it"],
     h1: "Pros and Cons of Living in West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/waterfront-035.jpeg',
+    heroImage: '/images/west-palm-beach/bridge-lagoon-wake-hero.webp',
+    heroImageAlt: "An arched bridge with a Mediterranean-style tower crossing the Lake Worth Lagoon between West Palm Beach and Palm Beach island, seen from a boat with white wake in the foreground",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '30% 50%',
     showMarketTrends: true,
     body: `West Palm Beach makes a sharper trade than the towns around it. You get things no other city in Palm Beach County offers, and you accept problems none of them have.
 
