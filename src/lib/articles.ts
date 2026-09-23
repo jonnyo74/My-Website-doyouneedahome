@@ -2719,7 +2719,13 @@ Hours, menus, and ownership change constantly. Check directly before you go.`,
       'West Palm Beach historic homes for sale',
     ],
     h1: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (And Why Buyers Keep Discovering It)',
-    heroImage: '/images/west-palm-beach/west-palm-beach-003.jpeg',
+    heroImage: '/images/west-palm-beach/nora-railroad-ave-sign-hero.webp',
+    heroImageAlt: "A 'Nora, North Railroad Ave, Est 2025' stamp painted on an old brick wall in the Nora district of West Palm Beach",
+    heroImageCaption: "The Nora district, on North Railroad Avenue just south of Northwood.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '50% 50%',
     body: `This guide is about **buying a house in Northwood** — the bungalows, cottages, and early-twentieth-century homes that make up the neighborhood's residential core, and what it's actually like to own one.
 
 Northwood also has a condo and loft market, and that's covered in depth on our sister site: [CondoWPB.com's Northwood guide](https://www.condowpb.com/neighborhoods/northwood) goes through the buildings, the fees, and the unit-level detail. If a condo is what you're after, start there. This page is for the houses.
