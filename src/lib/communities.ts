@@ -3775,6 +3775,11 @@ export const neighborhoods: CommunityItem[] = [
       '/images/listings/8804-skyward-street/community-02-pool-deck.jpg',
       '/images/listings/8804-skyward-street/community-07-fitness-cardio.jpg',
     ],
+    // Verified 2026-09-23: returns only Lotus (33496) homes, then Ylopo's own
+    // "similar listings nearby" block below a "That's all for this search" line.
+    savedSearches: [
+      { label: 'All Lotus Homes for Sale', sublabel: 'Every active listing inside the gate', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][community]=Lotus&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL' },
+    ],
     lat: 26.425, lng: -80.185,
   },
   {
