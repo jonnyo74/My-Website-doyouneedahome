@@ -2207,7 +2207,13 @@ Whichever way you lean, do the street-level research and quote the insurance ear
     primaryKeyword: "cost of living in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach home prices", "is West Palm Beach expensive", "West Palm Beach FL cost of living"],
     h1: "Cost of Living in West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/waterfront-025.jpg',
+    heroImage: '/images/west-palm-beach/waterfront-aerial-lagoon-hero.webp',
+    heroImageAlt: "Aerial view over the downtown West Palm Beach waterfront: the waterfront park and marina, the Lake Worth Lagoon, and the Town of Palm Beach on the far shore",
+    heroImageCaption: "The far shore is the Town of Palm Beach, a separate municipality from West Palm Beach.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '50% 50%',
     showMarketTrends: true,
     body: `West Palm Beach offers the widest cost range of any city on this coast, and that flexibility is a genuine part of its appeal. You can spend at the top or find real value, inside the same city limits.
 
