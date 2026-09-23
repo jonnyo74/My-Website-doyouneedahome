@@ -1577,7 +1577,12 @@ You trade quiet and beachfront for energy, range, and the ability to leave the c
     primaryKeyword: "West Palm Beach local guide",
     secondaryKeywords: ["West Palm Beach insider tips", "things locals do in West Palm Beach", "moving to West Palm Beach guide"],
     h1: "A Local's Guide to West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/west-palm-beach-003.jpeg',
+    heroImage: '/images/west-palm-beach/circuit-shuttle-hero.webp',
+    heroImageAlt: "A white Circuit electric shuttle with the Circuit logo across its windshield, stopped at the curb on a West Palm Beach street",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '45% 50%',
     body: `West Palm rewards people who treat it like the actual city it is, which most newcomers don't for the first six months. They drive everywhere, park badly, and never figure out that the train goes somewhere useful.
 
 Here's the local playbook, condensed.
