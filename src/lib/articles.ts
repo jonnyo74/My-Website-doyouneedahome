@@ -1472,7 +1472,12 @@ Hours, menus, and ownership change. Check directly before you go.`,
     primaryKeyword: "living in West Palm Beach Florida",
     secondaryKeywords: ["moving to West Palm Beach FL", "West Palm Beach lifestyle", "is West Palm Beach a good place to live", "West Palm Beach relocation"],
     h1: "What It's Really Like Living in West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/waterfront-024.jpg',
+    heroImage: '/images/west-palm-beach/skyline-bridge-lagoon-hero.webp',
+    heroImageAlt: "Downtown West Palm Beach high-rises behind an arched bridge over the Lake Worth Lagoon, with boats tied up at a floating dock on calm blue water",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '40% 50%',
     body: `If the beach towns up the coast are about slowing down, West Palm Beach is about having somewhere to go. This is the urban heart of Palm Beach County — a real downtown, a waterfront skyline, arts institutions, a train station, and a pace that actually feels like a city rather than a very nice suburb.
 
 That's the whole proposition, and it's genuinely different from everywhere else we cover. Whether it's what you want is the only real question.
