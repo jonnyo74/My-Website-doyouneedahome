@@ -2589,7 +2589,12 @@ Drive the commute at the real hour. Spend a weekend evening in each town rather 
     primaryKeyword: "best restaurants in West Palm Beach Florida",
     secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach nightlife", "Clematis Street restaurants", "Grandview Public Market"],
     h1: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/waterfront-028.jpeg',
+    heroImage: '/images/west-palm-beach/nora-taqueria-patio-bar-hero.webp',
+    heroImageAlt: "The covered patio bar at Loco Taqueria in West Palm Beach's Nora district: an arched back bar lined with bottles and a curved counter with wooden stools and amber under-lighting",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '40% 50%',
     body: `This guide covers **neighborhood** dining in West Palm Beach — the places scattered through the historic districts, along Antique Row, and out in the residential parts of the city where people actually eat on a Tuesday.
 
 Downtown is a separate scene with its own logic, and our sister site covers it properly: [CondoWPB.com's downtown dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb) and its [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) go block by block on the Clematis and Rosemary Square scene. If you're planning a night out downtown, start there.
