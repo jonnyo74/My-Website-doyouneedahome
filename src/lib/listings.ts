@@ -334,7 +334,7 @@ export const listings: Listing[] = [
       'Lotus sits along Lyons Road in west Boca Raton, north of Clint Moore Road, with straightforward access to the Turnpike and I-95.',
       'Everyday shopping, dining, and medical offices are clustered along Glades Road and the Lyons/Yamato corridor, a short drive from the gate.',
       'Mizner Park, downtown Boca, and the Boca Raton beaches are roughly 20–25 minutes east.',
-      'Boca Raton Regional Hospital and Florida Atlantic University are both within the city, and Palm Beach International and Fort Lauderdale–Hollywood airports are each about 35–45 minutes out.',
+      'Boca Raton Regional Hospital and Florida Atlantic University are both within the city, and President Donald J. Trump International and Fort Lauderdale–Hollywood airports are each about 35–45 minutes out.',
     ],
 
     // Off the builder's Sumatra plan. The page already carries the standard

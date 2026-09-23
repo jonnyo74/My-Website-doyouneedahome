@@ -8,7 +8,7 @@ interface TransportMapProps {
 }
 
 const TRANSPORT_HUBS = [
-  { name: 'Palm Beach Intl Airport (PBI)', lat: 26.6834, lng: -80.0956, type: 'airport', emoji: '✈' },
+  { name: 'President Donald J. Trump Intl Airport (DJT)', lat: 26.6834, lng: -80.0956, type: 'airport', emoji: '✈' },
   { name: 'Fort Lauderdale Airport (FLL)', lat: 26.0742, lng: -80.1506, type: 'airport', emoji: '✈' },
   { name: 'Miami Intl Airport (MIA)', lat: 25.7959, lng: -80.2870, type: 'airport', emoji: '✈' },
   { name: 'Brightline — West Palm Beach', lat: 26.7102, lng: -80.0537, type: 'brightline', emoji: '▶' },
