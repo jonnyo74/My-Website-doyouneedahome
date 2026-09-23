@@ -41,6 +41,7 @@ phone crop. Credit on the page reads "Photo by John Oliver".
 | #4 `best-things-to-do-in-lake-worth-beach-florida` | `street-painting-sea-turtle-hero.webp` | `local-street-painting-sea-turtle-panel.jpg` (John's own) | rows 658–1522 of 2048 (portrait source, upscaled); q80. `heroImagePosition: '62% 50%'`. Captioned as a festival frame. Added 2026-09-23. |
 | #5 `who-should-move-to-lake-worth-beach-florida` | `street-painting-big-bear-hero.webp` | `local-street-painting-big-bear-panel.jpg` (John's own) | rows 600–1464 of 2048 (portrait source, upscaled); q80. `heroImagePosition: '45% 50%'`. Captioned as a festival frame. Added 2026-09-23. |
 | #6 `pros-and-cons-of-living-in-lake-worth-beach-florida` | `casino-building-palms-hero.webp` | `local-casino-building-palms.jpg` (John's own) | rows 0–1350 of 1800; q80. `heroImagePosition: '50% 50%'`. Added 2026-09-23. |
+| #7 `cost-of-living-in-lake-worth-beach-florida` | `pier-morning-hero.webp` | `local-pier-morning-hero.jpg` (John's own) | rows 350–1700 of 1800; q80. `heroImagePosition: '70% 50%'`. Added 2026-09-23. |
 
 ## Held back, not in the gallery
 
