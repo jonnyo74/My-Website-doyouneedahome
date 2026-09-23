@@ -1956,11 +1956,11 @@ For the rest of the city, see [what it's really like living in West Palm Beach](
     cityName: 'West Palm Beach',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in West Palm Beach, Florida",
+    seoTitle: "Best Things to Do in West Palm Beach, Florida: A Resident's Guide",
     metaTitle: "Best Things to Do in West Palm Beach, Florida",
-    metaDescription: "From the Norton Museum to Clematis Street, the waterfront, and Manatee Lagoon — a local guide to the best things to do in West Palm Beach, Florida.",
+    metaDescription: "Things to do in West Palm Beach, FL, by type: museums and performing arts, the waterfront, gardens and nature, classes, rail trips and nearby outings.",
     primaryKeyword: "things to do in West Palm Beach Florida",
-    secondaryKeywords: ["West Palm Beach attractions", "what to do in West Palm Beach", "Norton Museum", "Clematis Street"],
+    secondaryKeywords: ["best things to do in West Palm Beach", "West Palm Beach attractions", "Norton Museum of Art", "Kravis Center", "West Palm Beach waterfront events"],
     h1: "Best Things to Do in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/meyer-amphitheatre-lawn-hero.webp',
     heroImageAlt: "The Meyer Amphitheatre band shell and its open lawn on the downtown West Palm Beach waterfront, with palm trees and high-rise towers behind",
@@ -1968,123 +1968,97 @@ For the rest of the city, see [what it's really like living in West Palm Beach](
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '10% 50%',
-    body: `As the urban center of Palm Beach County, West Palm packs in more to do than anywhere nearby — and a surprising amount of it is either free or genuinely world-class.
+    body: `West Palm Beach combines a public waterfront downtown, cultural institutions, parks and preserves, and rail stations with regional service. This guide covers how residents and new arrivals can use them on an ordinary week, organized by type of activity rather than ranked.
 
-Here's what's actually worth your time.
+Hours, tickets, programming and parking change, so each section points to the official source for current details. For lower-profile places and local history, see [hidden gems](/blog/hidden-gems-in-west-palm-beach-florida). For restaurants and bars, see [where to eat, drink and hang out](/blog/best-places-to-eat-drink-hang-out-in-west-palm-beach-florida).
 
-## The Norton Museum of Art
+## Art and performing arts
 
-Start here. The Norton is a legitimately significant institution — a large permanent collection, and a major expansion designed by Norman Foster that substantially increased its gallery space.
+- **Norton Museum of Art**, 1450 South Dixie Highway. Founded in 1941 by Ralph Hubbard Norton and Elizabeth Calhoun Norton, its collection spans five curatorial departments: European, American, Asian, Contemporary and Photography. A Foster + Partners–designed transformation opened on February 9, 2019, adding 12,000 square feet of gallery space, classrooms, a 210-seat auditorium, and a sculpture garden and lawn. The museum lists free Saturday admission for West Palm Beach residents with ID.
+- **Kravis Center for the Performing Arts**, 701 Okeechobee Boulevard. It opened in November 1992, with Dreyfoos Hall, Persson Hall, the Rinker Playhouse and the Cohen Pavilion. It presents Broadway, classical, ballet, opera, jazz and theater.
+- **Palm Beach Dramaworks**, 201 Clematis Street. A nonprofit theater company downtown that also runs education programs.
+- **Ann Norton Sculpture Gardens**, 253 Barcelona Road. The sculptor's historic home and studio with gardens of palms and cycads, listed on the National Register of Historic Places. It lists Wednesday–Sunday hours from October through June.
+- **Richard and Pat Johnson Palm Beach County History Museum**, run by the Historical Society of Palm Beach County in the restored 1916 Courthouse at 300 North Dixie Highway.
 
-It is not a regional museum that punches above its weight. It's a serious art museum that happens to be in a mid-sized city, and for a lot of residents it's a primary reason they chose West Palm over the suburbs. Members go repeatedly rather than once.
+*Current programs and tickets:* [Norton](https://www.norton.org/) · [Kravis Center](https://www.kravis.org/) · [Palm Beach Dramaworks](https://www.palmbeachdramaworks.org/) · [Ann Norton Sculpture Gardens](https://www.ansg.org/) · [History Museum](https://pbchistory.org/plan-your-visit/)
 
-## The Kravis Center
+## The waterfront and public programming
 
-The county's principal performing arts venue, programming Broadway tours, concerts, dance, and classical seasons. It anchors the cultural calendar and it's the reason you don't have to drive to Fort Lauderdale or Miami for a show.
+The City's downtown waterfront faces the Lake Worth Lagoon, part of the Intracoastal Waterway, with Palm Beach island across the water. It's a lagoon edge, not an ocean beach. The public spaces include the Great Lawn at 100 North Clematis Street, the Meyer Amphitheatre at 104 Datura Street and the Lake Pavilion event venue at 101 South Flagler Drive.
 
-## Ann Norton Sculpture Gardens
+Recurring City programming there includes:
 
-The quiet counterweight to the big institutions, and the one most residents forget to recommend.
+- **The West Palm Beach GreenMarket**, the City's Saturday market in season. The 2025–26 season ran October 4 through May 30, 8:30 a.m. to 1:30 p.m.
+- **Clematis by Night**, a concert series on the Great Lawn on Thursday evenings, which the City lists as free.
+- **Sunday on the Waterfront**, concerts the City has held at the Meyer Amphitheatre.
+- **Holiday in Paradise**, the City's holiday program built around Sandi, a sculpted sand tree, from early December through New Year's Eve.
 
-A small, lush garden of monumental sculpture tucked near the waterfront, on the grounds of the sculptor's former home. It takes under an hour, it's rarely crowded, and it's one of the most genuinely peaceful places in the city.
+Series, dates and terms change, so check the [City's community events calendar](https://www.wpb.org/Residents/Community-Events) and the [Downtown Development Authority](https://downtownwpb.com/) before you go.
 
-## Manatee Lagoon
+## Gardens, nature and learning
 
-Free, and one of the best family outings on this coast. Manatees gather in the warm-water outflow during the cooler months, and there's an education center built around watching them.
+- **Grassy Waters Preserve.** The City's preserve in its western water catchment area, with a nature center at 8264 Northlake Boulevard, trails and a public program calendar. See the [City's Grassy Waters pages](https://www.wpb.org/grassywaters) for trail information and programs.
+- **Manatee Lagoon – An FPL Eco-Discovery Center**, 6000 North Flagler Drive, operated by Florida Power & Light. It lists free admission and parking, and its manatee season runs November 15 to March 31. The center itself says there's no guarantee you'll see a manatee. It's open daily in season, and closed Mondays from April 1 to November 14. Check [its visit page](https://visitmanateelagoon.com/visit/) before you go.
+- **Mounts Botanical Garden**, 531 North Military Trail, part of Palm Beach County's Cooperative Extension. Check [mounts.org](https://www.mounts.org/) for hours, admission and events.
+- **Palm Beach Zoo**, 1301 Summit Boulevard, with 23 acres of shaded paths and, it says, free parking. Tickets and hours are on [its site](https://www.palmbeachzoo.org/).
+- **Cox Science Center and Aquarium**, 4801 Dreher Trail North, formerly the South Florida Science Center. It lists year-round opening except Thanksgiving and Christmas. Tickets and hours are on [its site](https://www.coxsciencecenter.org/plan-your-visit).
+- **Mandel Public Library of West Palm Beach**, 411 Clematis Street, the City's library.
 
-It costs nothing, it's reliably good with children, and the manatees show up in real numbers when the weather turns. Go on a cold snap — counterintuitively, the colder the day, the better the viewing.
+## Making, classes and taking part
 
-## Walk the waterfront
+- **Armory Art Center**, 811 Park Place. It offers art classes for all ages and abilities, plus exhibitions, lectures and events. Its building was built in 1939 by the Works Progress Administration in the Art Deco style, and served as a National Guard armory until 1982. It opened as an art center in July 1987. Class schedules are at [armoryart.org](https://www.armoryart.org/).
+- **The Mandel Library's creative spaces**, including Art Studio 411 and a Technology & Innovation Center with digital art and 3D printing, plus programs for children and teens.
+- **Museum education.** The Norton's 2019 expansion added classrooms, and it runs public programs alongside its exhibitions. Check its calendar for classes, talks and workshops.
+- **Volunteering and programs at Grassy Waters.** The City lists volunteer opportunities and a public program calendar for the preserve.
 
-Flagler Drive along the Intracoastal is made for walking, with Palm Beach island across the water. It's the city's default exercise route, sunset walk, and out-of-town-guest activity.
+## Getting out on the water
 
-**Saturday morning is the GreenMarket**, running on the waterfront since 1994. Genuinely local rather than touristy, and one of the city's real weekly institutions.
+The lagoon is open to boating, paddling and fishing from many access points. Conditions and rules vary, so check current guidance from the relevant authority before you go, rather than assuming the water is calm or suitable on a given day.
 
-## Take the Brightline somewhere
+- **Peanut Island Park** is a Palm Beach County park on the Intracoastal near the Lake Worth Inlet, in Riviera Beach, not West Palm Beach. The county lists it as reached by boat only, open sunrise to sunset for day use, with reserved camping, and notes its swimming area is currently unguarded during the week. See the [county's Peanut Island page](https://discover.pbc.gov/parks/Locations/Peanut-Island.aspx).
+- **Ocean beaches** are across the bridges on Palm Beach island, which is mostly the separate Town of Palm Beach. Parking, access and lifeguard coverage are set by whoever runs each beach, so check the Town or the county before you go.
 
-The most underrated activity in the city, because it doesn't feel like an activity.
+## Regional access by rail
 
-Fort Lauderdale for lunch. Miami for a game or a museum. Orlando without the drive. The station is downtown, and using it converts a weekend from "what's on locally" to "where should we go."
+Brightline's downtown West Palm Beach station has service to Boca Raton, Fort Lauderdale, Aventura and Miami to the south, and Orlando to the north. Tri-Rail's West Palm Beach station at 203 South Tamarind Avenue connects to commuter service through Broward and Miami-Dade counties. Travel time depends on the train and the day, and schedules, fares and destinations change, so check [Brightline](https://www.gobrightline.com/) and [Tri-Rail](https://www.tri-rail.com/) when you plan.
 
-Residents who use the train regularly report it as one of the best things about living here. Residents who never try it don't know what they're missing.
+## Nearby outings outside West Palm Beach
 
-## Mounts Botanical Garden
+Some of the places most often paired with West Palm Beach sit in other jurisdictions:
 
-The county's oldest and largest botanical garden, off Military Trail — a quiet green retreat with themed collections and a regular event calendar. Low-key, well-maintained, and consistently overlooked.
+- **Palm Beach island.** Much of it is the Town of Palm Beach, a separate municipality across the lagoon, with its own rules and parking.
+- **Peanut Island Park**, above, is a county park in Riviera Beach.
+- **Other Palm Beach County parks and natural areas** are listed by [Palm Beach County Parks & Recreation](https://discover.pbc.gov/parks/), including their fees, hours and rules.
 
-## The beach, across the bridge
+## How to use the city in a normal month
 
-Palm Beach island's beaches are minutes away over the bridge. You don't live on them, but you can be on the sand faster than most people in most beach towns can find parking.
+A practical rotation looks like this:
 
-## The Armory Art Center
+1. **A waterfront outing.** A walk along the lagoon, a GreenMarket Saturday in season, or a Thursday Clematis by Night.
+2. **A museum or performance.** A Norton exhibition, or a show at the Kravis Center or Dramaworks, booked from the venue's own calendar.
+3. **A garden, class or creative session.** Grassy Waters, Mounts, a class at the Armory, or a library program.
+4. **A calendar check.** Once a month, scan the City and Downtown Development Authority calendars and each venue's own listings for what's coming.
+5. **A rail outing.** Pick a destination on the Brightline or Tri-Rail line and check that day's schedule and fares before you go.
 
-A working art school and gallery in a restored 1939 armory building, running classes, studios, and rotating exhibitions.
+## Plan around the season
 
-It's less visited than the Norton and serves a different purpose — this is where residents go to *make* things rather than look at them. For anyone who wants a creative outlet after relocating, it's one of the better and less obvious ways into the local scene.
+Venues and series set their own calendars. Some programs run seasonally, some take breaks, and outdoor plans depend on the weather. Hurricane season runs June 1 through November 30. Check each organizer's current schedule rather than assuming a program runs every week.
 
-## The Palm Beach Zoo and the science center
-
-Both sit in Dreher Park near downtown, and both are staples for anyone with children.
-
-The zoo is compact and well-kept rather than sprawling, which is genuinely an advantage with small kids — you can do the whole thing without anyone melting down. The adjacent science center covers a rainy afternoon reliably.
-
-Neither is a destination attraction on its own. Both earn their place in the weekend rotation once there are kids in the house.
-
-## Get out on the water
-
-Easy to overlook in a city defined by its downtown, but the Intracoastal runs right through it.
-
-Boat rentals, charters, and paddling are all accessible from the waterfront, and the Lake Worth Lagoon offers protected water that's considerably calmer than heading out an inlet. **Peanut Island**, reachable by boat or shuttle, has snorkeling, a swimming lagoon, and a Cold War-era presidential bunker — one of the better half-day outings in the county.
-
-For anyone who assumed a mainland city meant giving up the water, it doesn't.
-
-## Day trips within an hour
-
-The city's position and its train station make this unusually easy:
-
-- **Palm Beach island** — Worth Avenue, the Flagler Museum, and the beaches, minutes across the bridge.
-- **Jupiter** (about 30 minutes north) — the inlet, the lighthouse, and Riverbend Park.
-- **Delray Beach** (about 30 minutes south) — Atlantic Avenue's walkable downtown.
-- **Fort Lauderdale** (Brightline, well under an hour) — beaches, dining, and Las Olas without driving.
-- **Loxahatchee National Wildlife Refuge** (about 40 minutes west) — Everglades-system marsh, boardwalks, and airboat access.
-
-## Sports
-
-Spring training baseball is a short drive north, and the region hosts golf, polo in Wellington during season, and equestrian events that draw international fields. None of it is in West Palm proper, but all of it is close enough to be part of living here.
-
-## The events calendar
-
-West Palm runs events year-round, which is unusual for the region:
-
-- **Clematis by Night** — the long-running free weeknight live music series downtown.
-- **The holiday sand sculpture tree** on the waterfront, a genuine local institution.
-- **Fourth of July** on the waterfront, one of the year's biggest gatherings.
-- **Season programming** from roughly November through April across the arts venues.
-
-## Seasonal timing
-
-**November through April** is when everything runs and the weather is ideal. It's also busiest — book ahead for restaurants and expect company downtown.
-
-**May through October** is hot and humid with afternoon storms that build and clear quickly. Unlike the seasonal beach towns, the city keeps running; the museums, the train, and the restaurants are all still there, just less crowded.
-
-## The honest local advice
-
-Do the Norton properly at least once — not a quick walkthrough. Make the waterfront and the GreenMarket a habit rather than a visit. Take the train somewhere in your first month.
-
-And for a night out downtown, [CondoWPB.com](https://www.condowpb.com) maps the dining and entertainment scene block by block — worth a look before you pick a garage.`,
+For the rest of the city, see [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida) and the [local guide](/blog/local-guide-to-west-palm-beach-florida) for parking, transit and resources. For homes near any of these places, start from the [West Palm Beach community page](/communities/west-palm-beach) or the [relocation decision guide](/palm-beach-county-treasure-coast-relocation-guide).`,
     faqs: [
-      { q: "What are the best things to do in West Palm Beach?", a: "Visit the Norton Museum of Art, see a show at the Kravis Center, spend an hour at the Ann Norton Sculpture Gardens, watch manatees for free at Manatee Lagoon in the cooler months, walk the Flagler Drive waterfront, shop the Saturday GreenMarket, visit Mounts Botanical Garden, and take the Brightline to Fort Lauderdale, Miami, or Orlando." },
-      { q: "Is the Norton Museum of Art worth visiting?", a: "Yes — it's a genuinely significant institution rather than a regional museum, with a large permanent collection and a major Norman Foster-designed expansion that substantially increased gallery space. Many residents cite it as a primary reason they chose West Palm Beach over the suburbs." },
-      { q: "Where can you see manatees in West Palm Beach?", a: "Manatee Lagoon, which is free and built around a warm-water outflow where manatees gather during the cooler months. It includes an education center and is reliably good with children. Colder days produce better viewing." },
-      { q: "What free things are there to do in West Palm Beach?", a: "Manatee Lagoon, walking the Flagler Drive waterfront, browsing the Saturday GreenMarket, and Clematis by Night, the long-running free weeknight live music series downtown." },
-      { q: "Where can you take the Brightline from West Palm Beach?", a: "The downtown station connects to Fort Lauderdale, Miami, and Orlando, making all three feasible day trips without driving or paying to park. Residents who build it into their routine consistently rate it among the best aspects of living in the city." },
-      { q: "What is there to do in West Palm Beach in summer?", a: "Everything keeps running, unlike the seasonal beach towns. The museums, the Kravis Center, the Brightline, and the restaurants all operate through summer with smaller crowds. Plan outdoor activity for morning or evening around the afternoon storms." },
+      { q: "What are the main cultural venues in West Palm Beach?", a: "The Norton Museum of Art at 1450 South Dixie Highway, the Kravis Center for the Performing Arts at 701 Okeechobee Boulevard, Palm Beach Dramaworks at 201 Clematis Street, the Ann Norton Sculpture Gardens at 253 Barcelona Road, and the Richard and Pat Johnson Palm Beach County History Museum in the 1916 Courthouse. Each publishes its own current hours, tickets and programs." },
+      { q: "Is the Norton Museum free for West Palm Beach residents?", a: "The Norton lists free Saturday admission for West Palm Beach residents with valid ID. Terms can change, so check the museum's visit page before you go." },
+      { q: "When can you see manatees at Manatee Lagoon?", a: "Manatee Lagoon, operated by FPL at 6000 North Flagler Drive, lists its manatee season as November 15 to March 31, with free admission and parking. The center says there's no guarantee of seeing a manatee, since they're wild animals. Check its visit page for current hours." },
+      { q: "What recurring events does the City of West Palm Beach hold on the waterfront?", a: "The City lists the Saturday GreenMarket in season, Clematis by Night on Thursday evenings and Holiday in Paradise in December, and it has also held Sunday on the Waterfront concerts. Dates and details change, so use the City's community events calendar." },
+      { q: "Where can you take classes in West Palm Beach?", a: "The Armory Art Center at 811 Park Place offers art classes for all ages and abilities. The Mandel Public Library has creative spaces, including Art Studio 411 and a Technology & Innovation Center. Museums such as the Norton run public programs. Check each organization's current schedule." },
+      { q: "Is Peanut Island in West Palm Beach?", a: "No. Peanut Island Park is a Palm Beach County park on the Intracoastal near the Lake Worth Inlet, in Riviera Beach. The county lists it as reachable by boat only and open sunrise to sunset for day use. Check the county's park page for current access and swimming-area information." },
     ],
-    internalLinks: ["hidden-gems-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida"],
-    funFact: "The Norton Museum of Art in West Palm Beach has a permanent collection valued at over $1 billion and is one of the largest art museums in the Southeast US. The 2019 renovation by Lord Norman Foster tripled its gallery space — it's a genuinely world-class institution in a mid-size city.",
+    internalLinks: ["hidden-gems-in-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "what-its-really-like-living-in-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities"],
+    funFact: "The Armory Art Center's building has had two lives. The Works Progress Administration built it in 1939 as a National Guard armory, in the Art Deco style, and it served that purpose until 1982. It reopened as an art center in July 1987 and now runs classes for all ages and abilities, so you can take a class inside a piece of the city's history.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-09-23',
+    updated: '2026-09-23',
   },
   {
     slug: 'who-should-move-to-west-palm-beach-florida',
