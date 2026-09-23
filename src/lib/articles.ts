@@ -1633,9 +1633,11 @@ Evenings concentrate downtown and in the neighborhood pockets. The city has a re
 
 ## Getting around and out
 
-I-95 and Florida's Turnpike both run through, and **Palm Beach International Airport is unusually close** — roughly 10 to 15 minutes from downtown, which is one of the genuine practical luxuries of living here. Jupiter and the northern beach towns are 25 to 30 minutes up the coast; Delray and Boca are 25 to 40 minutes south.
+I-95 and Florida's Turnpike both run through. **The county's main airport is in West Palm Beach.** Its [official site](https://flydjt.org/) now lists it as President Donald J. Trump International Airport, formerly Palm Beach International, and describes it as 2.5 miles west of downtown West Palm Beach. Check the drive from your own address at the hours you'd travel. Jupiter and the northern beach towns are 25 to 30 minutes up the coast; Delray and Boca are 25 to 40 minutes south.
 
 Public transit beyond the Brightline is limited. Within downtown a free circulator serves the core, but for most of the city you're driving.
+
+**On-demand rides.** [Circuit](https://www.ridecircuit.com/palmbeach) runs on-demand electric rides in West Palm Beach and Palm Beach, booked through the Circuit app. Its page lists destinations including downtown, CityPlace, the Tri-Rail and Brightline stations and Worth Avenue, and currently lists rides as free. These services change, so check the app for the current service area, hours and fare.
 
 ## A note on the two "Palm Beaches"
 
@@ -1664,7 +1666,8 @@ Weighing a downtown tower instead? That market runs on building-by-building spec
     funFact: "The Saturday GreenMarket on the West Palm waterfront has been running since 1994 and pulls 10,000+ people on a busy season morning. It's genuinely local — Florida-grown produce, local honey, artisan food — not a tourist farmers market. It's where residents actually shop.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-west-palm-beach-florida',
@@ -2916,6 +2919,8 @@ The single most useful skill for living near downtown.
 
 **Park once.** The classic local move for an evening downtown: park in a garage, walk everywhere, and don't move the car until you leave. The core is compact enough that this usually works.
 
+**Or leave the car at home.** The City offers [Freebee](https://www.delraybeachfl.gov/our-city/getting-around/downtown-trolley), a free, on-demand electric ride service in and around downtown. The City describes the service area as most locations east of I-95 to A1A, between Gulfstream Boulevard and S.W. 10th Street. Request a ride in the Ride Freebee app, by phone, or by flagging down a driver, and check the City's page for current hours and the service area.
+
 **In season, have a plan.** On weekend evenings from roughly November through April, arriving without one is how you end up parked a long way from dinner.
 
 *Official resource:* [City of Delray Beach — find parking](https://www.delraybeachfl.gov/government/city-departments/public-works/parking/find-parking)
@@ -2996,7 +3001,7 @@ For the texture rather than the mechanics, read [what living here is actually li
     author: 'christine',
     published: true,
     publishedDate: '2026-06-01',
-    updated: '2026-09-21',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-delray-beach-florida',
@@ -4216,6 +4221,8 @@ A two-mile difference in where you buy can change your daily routine considerabl
 
 **Airports and rail.** Boca Raton has access to Palm Beach International Airport and Fort Lauderdale-Hollywood International Airport. Actual drive times vary substantially by origin, route, time of day, and traffic, so check them for your own address rather than relying on a single number. The [Boca Raton Tri-Rail station](https://www1.tri-rail.com/stations/boca-raton) at 680 Yamato Road provides regional commuter-rail access — check the live schedule and, just as importantly, your last-mile connection at both ends before counting on it.
 
+**On-demand rides.** Circuit's [BocaConnect](https://www.ridecircuit.com/boca-raton) service has offered on-demand electric rides in Boca Raton since June 2024, booked through the Circuit app. Its page lists destinations including Mizner Park, the Brightline station and the Boca Raton Museum of Art, and currently lists rides as free. Check the app for the current service area, hours and fare before relying on it for a regular trip.
+
 ## Seasonal weather and hurricane planning
 
 **Season runs roughly November through April**, when more residents and visitors are in town, restaurants are busier, and roads carry more traffic. It is also when the weather is at its most comfortable. Reservations matter more at popular places than they do in the quieter months.
@@ -4285,7 +4292,7 @@ If you want a hand working through any of that for a specific property, that is 
     author: 'christine',
     published: true,
     publishedDate: '2026-06-04',
-    updated: '2026-09-13',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-boca-raton-florida',
@@ -6502,6 +6509,7 @@ The rules and conditions that affect boaters change, so rely on the authorities 
 - **Tri-Rail:** Boynton Beach Station is at 2800 High Ridge Road. Station parking has its own registration rules — see [Tri-Rail's station page](https://www1.tri-rail.com/stations/boynton-beach).
 - **Brightline:** doesn't stop in Boynton Beach; the nearby stations are in Boca Raton and West Palm Beach. See [Brightline's station information](https://www.gobrightline.com/to-and-from-station).
 - **Airports:** [Palm Beach International](https://www.pbia.org/) and [Fort Lauderdale–Hollywood International](https://www.fll.net/). Compare routes and schedules for the trips you make.
+- **Circuit:** Circuit's [Coastal Cruiser](https://www.ridecircuit.com/boynton-beach) on-demand electric ride service has operated in Boynton Beach since March 2024, booked through the Circuit app. Its page lists destinations including Oceanfront Park, City Hall and the library, and Boynton Harbor Marina, and currently lists rides as free. Check the app for the current service area, hours and fare.
 - **I-95 and Florida's Turnpike:** both run north–south through the area. Drive your regular routes at the hours you'd use them, including in season, rather than relying on a quoted time.
 
 ## Hurricane season
@@ -6545,7 +6553,7 @@ For more, see our [Boynton Beach neighborhood guide](/blog/best-neighborhoods-in
     author: 'christine',
     published: true,
     publishedDate: '2026-06-01',
-    updated: '2026-09-21',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-boynton-beach-florida',
