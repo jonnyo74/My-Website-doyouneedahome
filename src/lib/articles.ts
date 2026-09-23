@@ -1763,124 +1763,192 @@ The rest of this series goes deeper: the [neighborhood guide](/blog/best-neighbo
     cityName: 'West Palm Beach',
     type: "Best Neighborhoods In",
     order: 3,
-    seoTitle: "Best Neighborhoods in West Palm Beach, Florida",
-    metaTitle: "Best Neighborhoods in West Palm Beach, Florida",
-    metaDescription: "From downtown condos to historic El Cid and up-and-coming SoSo — a local guide to the best neighborhoods in West Palm Beach, Florida, by lifestyle.",
+    seoTitle: "Best Neighborhoods in West Palm Beach, Florida: A House Buyer's Comparison",
+    metaTitle: "Best Neighborhoods in West Palm Beach, FL: House Guide",
+    metaDescription: "Compare West Palm Beach's house areas: El Cid, Flamingo Park, Grandview Heights, SoSo, Northwood and west of I-95, with historic status and what to check.",
     primaryKeyword: "best neighborhoods in West Palm Beach Florida",
-    secondaryKeywords: ["where to live in West Palm Beach", "El Cid", "Flamingo Park", "SoSo West Palm Beach", "downtown West Palm Beach"],
-    h1: "Best Neighborhoods in West Palm Beach, Florida",
+    secondaryKeywords: ["West Palm Beach historic districts", "El Cid West Palm Beach", "Flamingo Park West Palm Beach", "Grandview Heights West Palm Beach", "SoSo West Palm Beach"],
+    h1: "Best Neighborhoods in West Palm Beach, Florida: A Guide to the House Areas",
     heroImage: '/images/west-palm-beach/rooftop-view-city-hero.webp',
     heroImageAlt: "West Palm Beach seen from a rooftop: red-tiled roofs and low-rise blocks in the foreground, with office towers and mid-rise buildings stretching to the horizon under a blue sky",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '50% 50%',
-    body: `This guide covers West Palm Beach's **house** neighborhoods — the single-family and historic districts where you buy a home with a yard, a porch, and a roof of your own.
+    body: `West Palm Beach has downtown condominium towers, historic-house districts, waterfront homes, older residential streets and, farther west, different housing again. This guide covers the **house-oriented areas**: single-family homes, mostly in and around the City's historic districts.
 
-That's a deliberate scope. Downtown and Flagler Drive are a condo market with entirely different economics — association dues, reserve studies, building-specific risk — and our sister site [CondoWPB.com](https://www.condowpb.com) covers those buildings one by one. If a tower is what you're after, start there instead.
+Condo research is a different job. It turns on each building's budget, reserves, inspections and rules, so it belongs at the building level. Our sister site [CondoWPB.com](https://www.condowpb.com), which we also run, covers the downtown buildings one at a time.
 
-For everyone shopping for a house, here's how the city divides up.
+There's no universal "best" neighborhood. The right area depends on the house you want (its age, size, lot and condition), whether you're prepared for design review on exterior work, and the places you need to reach. This guide sets out what can be checked for each area, so you can compare them on those terms.
 
-## El Cid — the architectural showpiece
+## The areas at a glance
 
-Listed on the National Register of Historic Places, and home to some of the best Mediterranean Revival architecture in Florida outside Miami Beach. Tree canopy, brick streets in places, and proximity to the Intracoastal.
+Where each area is, and whether it's an official designation:
 
-**Objective characteristics:** historic district with design review, 1920s-era Mediterranean and Mission architecture, mature landscaping, larger lots than the bungalow districts, highest price tier among the historic neighborhoods, walkable to Antique Row and near downtown.
+| Area | Where | Designation |
+|---|---|---|
+| El Cid | South of downtown, on the lagoon | City district; National Register |
+| Flamingo Park | South of downtown, west of Dixie Hwy | City district; National Register |
+| Grandview Heights | Between Okeechobee Blvd and Park Pl | City district; National Register |
+| Prospect / Southland Park | On the lagoon, south of El Cid | City district; National Register |
+| Central Park | Along S. Olive Ave, north of Southern | City district; National Register |
+| SoSo | South of Southern Blvd | Informal label |
+| Northwood area | North of downtown | Several City districts |
+| West of I-95 | West of the interstate | No City districts |
 
-**Trade-offs:** historic district rules govern exterior changes, which is what preserves the character and also constrains renovation. Older systems throughout — confirm roof, plumbing, electrical, and window condition, all of which drive insurance.
+What the county's records show, and what to check first:
 
-## Flamingo Park — the bungalow district
+| Area | Houses on record | Check first |
+|---|---|---|
+| El Cid | 208; median built 1939 | Design review; flood zone |
+| Flamingo Park | 296; median built 1935 | Design review; additions |
+| Grandview Heights | 127; median built 1929 | Design review; parking |
+| Prospect / Southland Park | 324; median built 1940 | Design review; flood zone |
+| Central Park | 92; median built 1930 | Design review; parking |
+| SoSo | Varies by street | District status, if any |
+| Northwood area | See our Northwood guide | Which district applies |
+| West of I-95 | Varies by community | City or county; HOA |
 
-Vintage Florida at its most intact: 1920s bungalows and Mission-style cottages on tree-lined streets, in one of the city's designated historic districts, an easy walk or short ride from downtown.
+The counts are single-family parcels inside each City district, from the City's GIS data (see *How these numbers were made* below). "Designation" means the City's local historic district, which is what triggers design review, and the National Register listing, which is a separate federal recognition.
 
-**Objective characteristics:** smaller lots and smaller homes than El Cid, strong architectural consistency, historic district protections, active neighborhood association, genuinely walkable to downtown.
+## El Cid
 
-**Trade-offs:** bungalows are small by modern standards, and expanding one inside a historic district is a permitting question before it's a budget question. Ask first.
+**What's documented.** El Cid is a City of West Palm Beach historic district, and the National Park Service listed the El Cid Historic District on the National Register on August 31, 1995. It describes the district as roughly bounded by Flamingo Drive, South Flagler Drive, Dyer Road and South Dixie Highway. The listing records its architecture as late 19th- and 20th-century revivals, early 20th-century American movements and the modern movement, so the district isn't one single style.
 
-## Grandview Heights — walkable and central
+**Housing on record.** The City's parcel data shows 208 single-family parcels inside the local district. Their median recorded year built is 1939, and 63% were built before 1950. The median lot is about 9,400 square feet, the largest of the districts in this guide.
 
-A small historic pocket close to downtown and the Brightline, with vintage homes and a tight, well-defined footprint.
+**Location.** South of downtown, along South Flagler Drive and the lagoon. Properties near the water bring their own questions: flood zone, elevation, any seawall or dock, and insurance.
 
-**Objective characteristics:** among the most centrally located house neighborhoods, historic character, compact lots, exceptional walkability to downtown and the train.
+**Check before you tour.** Whether the house is a contributing structure, what design review would mean for the work you have in mind, the flood zone and elevation, and the age of the roof, windows and systems.
 
-**Trade-offs:** limited inventory because the neighborhood is small. You may wait for the right listing.
+## Flamingo Park
 
-## SoSo (South of Southern) — the renovation market
+**What's documented.** Flamingo Park is a City historic district. The National Park Service listed the Flamingo Park Historic Residential District on the National Register on July 14, 2000, roughly bounded by Park Place, Parker Avenue, Belvedere Road and Florida Avenue, and records its style as Mission/Spanish Revival.
 
-The city's most active value-add neighborhood. Historic and mid-century homes, many being updated, with a walkable feel and steady buyer interest.
+**Housing on record.** 296 single-family parcels, a median recorded year built of 1935, 70% built before 1950, and a median lot of about 6,300 square feet.
 
-**Objective characteristics:** mixed housing stock and vintages, wide range of condition from untouched to fully renovated, walkable pockets, proximity to the Intracoastal and to Southern Boulevard.
+**Location.** South of downtown and west of Dixie Highway. Adjacent to it, the City designated **Sunshine Park** as a separate historic district, with 115 single-family parcels and a median recorded year of 1928.
 
-**Trade-offs:** condition varies enormously property to property, which is the opportunity and the risk. Inspect hard, and budget for what you find rather than what's staged.
+**Check before you tour.** On a modest lot, an addition, garage or pool depends on setbacks, zoning and design review, so ask the City's historic-preservation staff early.
 
-## Northwood — character at a friendlier entry point
+## Grandview Heights
 
-North of downtown, artsy and independent, with character homes at generally more accessible pricing than the southern historic districts.
+**What's documented.** A City historic district. The National Park Service listed the Grandview Heights Historic District on July 8, 1999, and records its styles as Bungalow/Craftsman and Colonial Revival.
 
-**Objective characteristics:** historic bungalows and early-20th-century homes, wide price range, revitalization underway in parts, walkable village core nearby.
+**Housing on record.** 127 single-family parcels, a median recorded year built of 1929 (83% before 1950), and a median lot of about 5,800 square feet. The same data shows other housing mixed in: 84 small multifamily parcels (under five units), plus some townhouses and condominiums.
 
-**Trade-offs:** this is the clearest example of the city's block-to-block variation. Streets differ meaningfully within a short distance, so walk the specific block at different times of day. We go deeper in our [Northwood Village neighborhood guide](/blog/northwood-village-west-palm-beach-neighborhood-guide).
+**Location.** Between Okeechobee Boulevard and Park Place, west of downtown. Tri-Rail's Tamarind Avenue station and the downtown Brightline station are the rail stops to map from the specific address.
 
-## Palm Beach Lakes and the west — space and value
+**Check before you tour.** Off-street parking (driveway, alley access or street), design review for the work you plan, and how the nearby corridors work at the hours you'll be home.
 
-West of I-95, the city becomes conventional suburbia: larger single-family homes, bigger lots, newer construction, and the most accessible pricing in the city.
+## Prospect/Southland Park and Central Park
 
-**Objective characteristics:** post-1970s construction predominantly, larger lots, some HOA communities, easy I-95 and airport access, no walkability, generally better insurance profile due to newer building codes.
+**What's documented.** Both are City historic districts. The National Park Service lists the Central Park Historic District (listed July 28, 1999), roughly along South Olive Avenue from Monroe Drive to Southern Boulevard. The Prospect Park–Southland Park Historic District is also on the National Register (reference number 11000181).
 
-**Trade-offs:** you're driving for everything, and you give up the historic character that defines the rest of the city. In exchange you get more house, more parking, and typically lower carrying costs.
+**Housing on record.** Prospect/Southland Park has 324 single-family parcels, a median recorded year of 1940 and a median lot of about 8,000 square feet. Central Park has 92, with a median recorded year of 1930 and a median lot of about 5,100 square feet.
 
-## How to actually compare them
+**Location.** Prospect/Southland Park runs along the lagoon south of El Cid, and Central Park sits along the South Olive corridor just north of Southern Boulevard.
 
-## What "walkable" actually means here
+## SoSo (South of Southern)
 
-Worth being precise, because the word gets used loosely in listings.
+**What it is.** "SoSo" is real-estate shorthand for the area south of Southern Boulevard. It is **not** an official City neighborhood or district name, and sources draw its boundaries differently.
 
-In Grandview Heights and parts of Flamingo Park, walkable means you can genuinely reach restaurants, coffee, and the train on foot. In El Cid it means a pleasant walk to some things and a drive to others. West of I-95 it means nothing at all — that's a car neighborhood.
+**What's documented.** South of Southern, the City's historic-district map shows one local district, **Belair**, with 70 single-family parcels and a median recorded year of 1949. It also shows scattered individually designated sites. Most other streets south of Southern are not in a local historic district, so design review depends on the exact parcel.
 
-Ask what specifically you'd be walking to from a given address, and then try it once before you decide the label applies.
+**Check before you tour.** Confirm on the City's map whether the parcel is in Belair, individually designated, or neither. Then look at the flood zone, the permit history for any renovation, and the condition of the systems.
 
-## A note on inventory and pace
+## Northwood
 
-Two things about this market that catch buyers coming from newer suburbs.
+The Northwood area, north of downtown, holds several separate City historic districts: Old Northwood, Northwood Hills, Northwood Harbor, Northboro Park and West Northwood, with the Northwood Road commercial district alongside. Old Northwood (listed April 14, 1994) and Northboro Park (listed February 20, 2007) are also on the National Register.
 
-**The historic districts turn over slowly.** These are small, established neighborhoods where people stay for decades. In any given month the number of genuinely comparable listings may be very small, so buyers with specific requirements often wait rather than choose.
+On the City's parcel data, Northwood Hills is the largest of the districts, with 566 single-family parcels and a median recorded year built of 1949. Old Northwood has 315, with a median of 1937.
 
-**Condition varies more than price does.** Two houses on the same street at similar asking prices can be twenty years apart in roof age and a full renovation apart in systems. In a market of uniform new construction, price tracks quality fairly closely. Here it doesn't, which is exactly why the inspection matters more than the comps.
+Which district a house sits in matters for design review, so check the City's map for the specific parcel. Our [Northwood Village neighborhood guide](/blog/northwood-village-west-palm-beach-neighborhood-guide) covers the area in depth.
 
-In West Palm more than any other local city, the property matters more than the neighborhood name. For anything you're seriously considering:
+## West of I-95
 
-- **Walk the block at night and on a weekend.** Non-negotiable here.
-- **Roof age, plumbing, electrical, and windows** — the four items that most often decide whether a historic property is insurable at a sane price. Our [cost of living guide](/blog/cost-of-living-in-west-palm-beach-florida) explains how each one moves the number.
-- **Historic district status**, and exactly what exterior changes require review.
-- **FEMA flood zone** for the specific address — zones vary considerably across the city and flood coverage is separate from a standard policy.
-- **Property taxes recalculated for a new owner**, not the seller's capped bill.
-- **What's approved or under construction nearby**, particularly closer to downtown.
-- **Permit history** on any renovated property — unpermitted work is a real and recurring issue in older housing stock.
+The city continues west of Interstate 95, but the City's historic-district map shows no local historic districts there. The areas there include planned communities, some with homeowners' associations. They fall outside the district data below, so check the recorded year built on each parcel.
 
-## On schools
+It isn't one neighborhood, so treat each community separately. Two checks matter most here:
 
-Assignments vary considerably across West Palm Beach, and this is a city where reputation and reality can diverge by neighborhood. Grades and boundaries are reviewed and updated annually.
+- **City or county.** Many addresses west of I-95 that say "West Palm Beach" are in unincorporated Palm Beach County. On the Property Appraiser's record, a parcel control number starting with 74 is in the city, and one starting with 00 is unincorporated.
+- **HOA documents**, where there's an association: rules, fees, reserves, any assessments, and architectural review.
 
-**Verify current assignments directly with the School District of Palm Beach County** for the specific address before making it a deciding factor.
+## All the City's residential historic districts, by the numbers
 
-## Before you commit
+| District | Houses on record | Median year built |
+|---|---|---|
+| Northwood Hills | 566 | 1949 |
+| Prospect / Southland Park | 324 | 1940 |
+| Old Northwood | 315 | 1937 |
+| Flamingo Park | 296 | 1935 |
+| Northwood Harbor | 244 | 1948 |
+| El Cid | 208 | 1939 |
+| Northwest | 174 | 1962 |
+| Vedado-Hillcrest | 139 | 1950 |
+| Grandview Heights | 127 | 1929 |
+| Sunshine Park | 115 | 1928 |
+| Northboro Park | 94 | 1942 |
+| Central Park | 92 | 1930 |
+| Belair | 70 | 1949 |
+| Mango Promenade | 43 | 1923 |
+| West Northwood | 20 | 1938 |
 
-Communities here differ on objective characteristics: architectural period, lot size, historic district status, walkability, price tier, and construction age. The right one depends on your budget, your tolerance for older systems, and whether you want to walk places or park easily.
+**How these numbers were made.** We took the City of West Palm Beach's historic-district boundaries and its parcel layer, which carries Palm Beach County Property Appraiser attributes, from the City's GIS services on September 23, 2026. "Houses on record" counts parcels coded Single Family whose center falls inside each district, and the year is the county's recorded year built. The City's GIS layer holds 19 district boundaries (its historic-preservation page counts 18 local districts). The four not listed here (Clematis Street, Northwood Road, St. Ann's and the Dreyfoos School of the Arts) have no single-family parcels. These are counts of the housing stock, not market data. They say nothing about prices, sales or availability.
 
-Visit in person, at more than one time of day, and independently verify anything that matters to your decision.`,
+## How historic review works
+
+- **Local designation is what matters for permits.** The City maintains 18 locally designated historic districts and 46 individually designated sites. Exterior work on those properties is reviewed under the City's Historic Preservation Ordinance. Depending on the work, that's a staff-level approval, a minor Certificate of Appropriateness approved administratively, or a major one heard by the Historic Preservation Board.
+- **The National Register is separate.** According to the National Park Service, a National Register listing by itself places no restrictions on what a non-federal owner does with a property unless federal funding or permits are involved. State and local rules, like the City's, are what apply.
+- **Requirements depend on the property and the work.** Whether a house is contributing, and what you plan to change, both affect the review. Confirm the parcel's status and discuss your plans with the City's historic-preservation staff (Planner on Call, 561-822-1461) before you budget a roof, windows or an addition.
+
+## Walkability: test it from the address
+
+"Walkable" in a listing doesn't tell you much. Instead, map the places you'd actually go from the specific address, such as:
+
+- a grocery store and a pharmacy
+- a park or the waterfront
+- the Tri-Rail or Brightline station, or a West Palm MOVE or Palm Tran stop
+- work, school or anywhere else you'd go every week
+
+Then walk or ride the routes. Check the crossings on the major roads, the sidewalks and shade, where you'd park at each end, and how long it actually takes at the hours you'd go. Visit the property and the public areas around it at the times that match your routine, on a weekday and a weekend.
+
+## Property due diligence
+
+These are prompts for inspections and official checks, not legal, tax, insurance, construction or financial advice.
+
+- [ ] **Roof:** its age and type, and the permit for the last replacement.
+- [ ] **Electrical and plumbing:** the panel, the wiring, the supply and drain lines, and the sewer lateral, evaluated by licensed inspectors. Ask your insurer which reports it needs (four-point and wind-mitigation reports are common requests for older Florida homes).
+- [ ] **Windows and openings:** impact-rated glass or shutters, and any design-review limits on replacing them.
+- [ ] **Permits:** the City's permit history compared with the work the seller describes.
+- [ ] **Historic status:** the local district, whether the house is contributing, and what review your plans would need.
+- [ ] **Flood and elevation:** the FEMA flood zone, an elevation certificate if one exists, and insurance quotes during your inspection period.
+- [ ] **Parking and access:** a driveway, alley access, or street parking and any permit area.
+- [ ] **Taxes:** don't budget from the seller's bill. Exemptions and assessment limits generally don't carry over to a new owner, and the Property Appraiser's site has an estimator for your situation.
+- [ ] **Nearby development:** approved or pending projects near the property, from the City's planning records.
+- [ ] **Association documents,** where an HOA applies.
+
+## Schools
+
+School assignment follows the address. Check current attendance boundaries directly with the [School District of Palm Beach County](https://www.palmbeachschools.org/).
+
+## Next steps
+
+For the rest of the city, see [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida) and the [local guide](/blog/local-guide-to-west-palm-beach-florida). For costs, read the [cost of living guide](/blog/cost-of-living-in-west-palm-beach-florida), and to compare other towns, [West Palm Beach vs nearby cities](/blog/west-palm-beach-vs-nearby-cities). When you're ready to look at homes, start from the [West Palm Beach community page](/communities/west-palm-beach) or [search homes for sale](/buy).`,
     faqs: [
-      { q: "What are the best house neighborhoods in West Palm Beach?", a: "El Cid for Mediterranean Revival architecture and larger lots, Flamingo Park for intact 1920s bungalows, Grandview Heights for walkability to downtown and the train, SoSo for renovation opportunity, Northwood for character at a friendlier entry point, and Palm Beach Lakes and the west for space, newer construction, and value." },
-      { q: "What is El Cid known for?", a: "It's listed on the National Register of Historic Places and contains some of the finest Mediterranean Revival architecture in Florida outside Miami Beach, with mature tree canopy, larger lots than the bungalow districts, and proximity to the Intracoastal. Historic district rules govern exterior changes." },
-      { q: "Where can you find renovation opportunities in West Palm Beach?", a: "SoSo (South of Southern) is the city's most active value-add neighborhood, with historic and mid-century homes across a wide range of condition. Parts of Northwood also offer opportunity. Condition varies enormously property to property, so inspect thoroughly." },
-      { q: "What should I check before buying a historic home in West Palm Beach?", a: "Roof age, plumbing, electrical, and window condition — all of which drive insurance and can affect financing. Also confirm historic district status and what exterior changes require review, pull the FEMA flood zone for the address, and check permit history, since unpermitted work is a recurring issue in older stock." },
-      { q: "Is west West Palm Beach a good place to buy?", a: "West of I-95 offers the most accessible pricing in the city, larger lots, newer construction with generally better insurance profiles, and easy I-95 and airport access. The trade-off is no walkability and none of the historic character that defines the eastern neighborhoods." },
-      { q: "How do I check school zoning in West Palm Beach?", a: "Verify current assignments directly with the School District of Palm Beach County for the specific address. Assignments vary considerably across the city, reputation and reality can diverge by neighborhood, and boundaries and grades are reviewed annually." },
+      { q: "What are the main house neighborhoods in West Palm Beach?", a: "Most of the city's older single-family neighborhoods are in and around its local historic districts, including El Cid, Flamingo Park, Grandview Heights, Prospect/Southland Park, Central Park and the Northwood-area districts. SoSo, south of Southern Boulevard, is an informal label. West of I-95 are later communities, some with homeowners' associations. Which is best depends on the house, the lot, design-review tolerance and the places you need to reach." },
+      { q: "Is El Cid a historic district?", a: "Yes. El Cid is a City of West Palm Beach local historic district, and the National Park Service listed the El Cid Historic District on the National Register of Historic Places on August 31, 1995. Exterior work on properties in the local district is reviewed under the City's Historic Preservation Ordinance." },
+      { q: "Is SoSo an official neighborhood in West Palm Beach?", a: "No. SoSo, short for South of Southern, is real-estate shorthand for the area south of Southern Boulevard, and sources draw its boundaries differently. The City's map shows one local historic district there, Belair, plus scattered individually designated sites, so check the specific parcel." },
+      { q: "Does a National Register listing restrict what I can do to my house?", a: "Not by itself. The National Park Service says a National Register listing places no restrictions on a non-federal owner unless federal funding or permits are involved. In West Palm Beach, the City's local historic designation is what brings design review of exterior work, so check whether the parcel is locally designated." },
+      { q: "How does historic review work in West Palm Beach?", a: "For properties in the City's 18 local historic districts or its 46 individually designated sites, exterior work is reviewed under the Historic Preservation Ordinance. Depending on the work, that's a staff-level approval, a minor Certificate of Appropriateness approved administratively, or a major one heard by the Historic Preservation Board. Confirm the parcel's status and your plans with the City's historic-preservation staff." },
+      { q: "What should I check before buying an older house in West Palm Beach?", a: "The roof, electrical, plumbing, windows and openings, the City's permit history, historic status, the FEMA flood zone and elevation, insurance quotes, parking and access, a tax estimate as a new owner, and nearby approved development. Also review any HOA documents. These are prompts for inspections and official checks, not advice." },
     ],
-    internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "who-should-move-to-west-palm-beach-florida"],
-    funFact: "El Cid is listed on the National Register of Historic Places and contains some of the finest Mediterranean Revival architecture in Florida outside of Miami Beach. Several homes there were designed by Addison Mizner-era architects, and the neighborhood association actively maintains the historic character.",
+    internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities", "northwood-village-west-palm-beach-neighborhood-guide", "who-should-move-to-west-palm-beach-florida"],
+    funFact: "Two different lists get called \"historic\" here. The National Register of Historic Places is federal recognition, and on its own it doesn't restrict a private owner. The City's local historic districts are what bring design review of exterior work. Some neighborhoods, like El Cid and Flamingo Park, are on both, so before you plan a new roof or windows, check the City's map for the exact parcel.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-09-23',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-things-to-do-in-west-palm-beach-florida',
