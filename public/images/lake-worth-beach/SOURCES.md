@@ -36,6 +36,7 @@ phone crop. Credit on the page reads "Photo by John Oliver".
 | Article | Hero file | Cut from | Crop and position |
 |---|---|---|---|
 | #1 `what-its-really-like-living-in-lake-worth-beach-florida` | `casino-arcade-hero.webp` | `local-casino-arcade.jpg` (John's own) | Full width, rows 150–1500 of 1800; q80. `heroImagePosition: '28% 40%'` keeps the "Lake Worth Casino" parapet sign in frame on phones. No recognisable people in the frame. Added 2026-09-23. |
+| #2 `local-guide-to-lake-worth-beach-florida` | `lifeguard-tides-board-hero.webp` | `local-lifeguard-tides-board.jpg` (John's own) | rows 450–1800 of 1800; q80. `heroImagePosition: '20% 50%'`. Added 2026-09-23. |
 
 ## Held back, not in the gallery
 
