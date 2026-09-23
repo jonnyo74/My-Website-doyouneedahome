@@ -45,6 +45,8 @@ phone crop. Credit on the page reads "Photo by John Oliver".
 | #8 `hidden-gems-in-lake-worth-beach-florida` | `street-painting-carpenter-bee-hero.webp` | `local-street-painting-carpenter-bee.jpg` (John's own) | rows 592–1456 of 2048 (portrait source, upscaled); q80. `heroImagePosition: '40% 50%'`. Captioned as a festival frame. Added 2026-09-23. |
 | #9 `lake-worth-beach-vs-nearby-cities` | `beach-looking-north-hero.webp` | `local-beach-looking-north.jpg` (John's own) | rows 300–1650 of 1800; q80. `heroImagePosition: '45% 50%'`. Added 2026-09-23. |
 | #10 `best-places-to-eat-drink-hang-out-in-lake-worth-beach-florida` | `bennys-acai-bowl-hero.webp` | `local-bennys-acai-bowl.jpg` (John's own) | rows 120–1132 of 2400 (portrait source); q80. `heroImagePosition: '35% 50%'`. Added 2026-09-23. |
+| #10 split-hero panel | `bennys-acai-bowl-panel.webp` (1200×1500, 4:5) | `local-bennys-acai-bowl.jpg` (John's own) | rows 0–2250 of 2400, full width — the whole Benny's card, the full bowl and the board, so the subject reads without a tight crop. Desktop image of the opt-in `heroLayout: 'split'` + `heroTone: 'warm'` hero. The 16:9 file above stays the OG/JSON-LD image. Added 2026-09-23. |
+| #10 split-hero mobile | `bennys-acai-bowl-mobile.webp` (1200×800, 3:2) | `local-bennys-acai-bowl.jpg` (John's own) | rows 250–1450 of 2400 — "Benny's on the Beach" card plus the fruit and granola; the phone crop of the same hero. Added 2026-09-23. |
 
 ## Held back, not in the gallery
 

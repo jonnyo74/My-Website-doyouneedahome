@@ -47,6 +47,21 @@ const TONES = {
     author: 'text-slate-900',
     secondary: 'text-slate-900 decoration-slate-400 hover:decoration-slate-900',
   },
+  // The split hero's opt-in ivory panel (editorial.heroTone === 'warm'). Same
+  // as `light` except the eyebrow, which takes the true report gold; #7A6029
+  // holds 5.5:1 on the ivory background.
+  warm: {
+    nav: 'text-slate-600',
+    navLink: 'rounded hover:text-slate-900',
+    navCurrent: 'text-slate-700',
+    navCurrentLink: 'rounded text-slate-700 hover:text-slate-900',
+    eyebrow: 'text-report-gold-badge',
+    h1: 'text-slate-900',
+    deck: 'text-slate-700',
+    byline: 'border-report-gold-light text-slate-600',
+    author: 'text-slate-900',
+    secondary: 'text-slate-900 decoration-slate-400 hover:decoration-slate-900',
+  },
 } as const
 
 function HeroText({
@@ -167,8 +182,9 @@ export default function EditorialHero(props: Props) {
   )
 
   if (split) {
+    const warm = editorial.heroTone === 'warm'
     return (
-      <header className="border-b border-slate-200 bg-slate-50">
+      <header className={warm ? 'border-b border-report-gold-light/60 bg-[#FBF7EF]' : 'border-b border-slate-200 bg-slate-50'}>
         <div className="mx-auto grid max-w-7xl md:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] md:items-center md:gap-10 md:px-8 lg:gap-16">
           {/* Photo first in source so it leads on phones; the grid moves it
               right on wider screens. aspect-ratio reserves its box before it
@@ -179,7 +195,7 @@ export default function EditorialHero(props: Props) {
           </div>
           <div className="px-6 pb-9 pt-6 sm:px-8 md:order-1 md:px-0 md:py-12">
             <div className="max-w-xl">
-              <HeroText {...props} tone="light" />
+              <HeroText {...props} tone={warm ? 'warm' : 'light'} />
             </div>
           </div>
         </div>
