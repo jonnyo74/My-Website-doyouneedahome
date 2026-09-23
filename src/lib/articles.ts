@@ -2561,12 +2561,12 @@ Work through a few in your first few months, and go to Manatee Lagoon on the fir
     cityName: 'West Palm Beach',
     type: "City vs Nearby Cities",
     order: 9,
-    seoTitle: "West Palm Beach vs Nearby Cities: How to Choose",
-    metaTitle: "West Palm Beach vs Nearby Cities",
-    metaDescription: "West Palm Beach vs Palm Beach, Palm Beach Gardens, Lake Worth Beach and Jupiter — an honest comparison to help you choose the right place to live.",
+    seoTitle: "West Palm Beach vs Nearby Cities: Palm Beach, Palm Beach Gardens, Lake Worth Beach, Delray and Jupiter",
+    metaTitle: "West Palm Beach vs Nearby Cities: How to Compare",
+    metaDescription: "Compare West Palm Beach with Palm Beach, Palm Beach Gardens, Lake Worth Beach, Delray Beach and Jupiter: jurisdiction, water, housing, rail and what to check.",
     primaryKeyword: "West Palm Beach vs nearby cities",
-    secondaryKeywords: ["West Palm Beach vs Palm Beach", "West Palm Beach vs Palm Beach Gardens", "West Palm Beach vs Lake Worth"],
-    h1: "West Palm Beach vs Nearby Cities: How to Choose",
+    secondaryKeywords: ["West Palm Beach vs Palm Beach", "West Palm Beach vs Palm Beach Gardens", "West Palm Beach vs Lake Worth Beach", "West Palm Beach vs Delray Beach", "West Palm Beach vs Jupiter"],
+    h1: "West Palm Beach vs Nearby Cities: How to Compare",
     heroImage: '/images/west-palm-beach/lagoon-view-to-palm-beach-hero.webp',
     heroImageAlt: "Looking across the open water of the Lake Worth Lagoon from West Palm Beach toward the low, tree-lined shore of the Town of Palm Beach",
     heroImageCaption: "Across the water is the Town of Palm Beach, a separate town from West Palm Beach.",
@@ -2575,128 +2575,132 @@ Work through a few in your first few months, and go to Manatee Lagoon on the fir
     heroImageHeight: 1152,
     heroImagePosition: '50% 50%',
     showMarketTrends: true,
-    body: `West Palm Beach is the odd one out among its neighbors, and that actually makes these comparisons cleaner than most. Every other town on this stretch is some version of quiet and coastal. West Palm is the city.
+    body: `West Palm Beach is a mainland city on the Lake Worth Lagoon. It has a downtown with condominiums, historic-house districts, a wide range of other housing, and Brightline and Tri-Rail stations. The places it's most often compared with differ mainly in:
 
-Here's the honest rundown against each, and a framework at the end.
+- **Jurisdiction:** city, town or village, each with its own rules and services.
+- **Setting:** mainland or barrier island, on the lagoon or on the ocean.
+- **Housing form:** historic houses, condos, planned communities.
+- **Transportation:** which rail stations and roads you'd actually use.
+- **Ownership requirements:** design review, association documents and flood exposure.
 
-## West Palm Beach vs Palm Beach (the island)
+City labels only go so far. Two properties in the same town can differ more than two in different towns, so compare specific properties once you've narrowed the area. This guide sets out the verifiable differences, and what to test.
 
-They share a name and a bridge and almost nothing else.
+## West Palm Beach vs. Palm Beach
 
-**Palm Beach** is the county's highest-priced, lowest-density market — strict zoning, limited inventory, extraordinary privacy, and a level of pricing that puts it in a category of its own. It's also very quiet, and largely seasonal.
+**They are separate municipalities.** Palm Beach is the Town of Palm Beach, incorporated on April 17, 1911, on the barrier island across the Lake Worth Lagoon. It isn't a neighborhood of West Palm Beach. The two have separate governments, codes, services and property records.
 
-**West Palm Beach** is the mainland counterpart: denser, dramatically more affordable, walkable, and alive year-round.
+**Geography.** West Palm Beach's shoreline is the lagoon. The Town of Palm Beach sits on the island between the lagoon and the Atlantic. Three drawbridges connect them: the Flagler Memorial, Royal Park and Southern Boulevard bridges.
 
-**Choose the island if:** budget is not the constraint and you want privacy, prestige, and oceanfront.
+**Design review.** In the Town, projects on designated landmarks or historically significant buildings are reviewed by its Landmarks Preservation Commission. Other design review goes to its Architectural Commission (ARCOM), and variances and site plans go to the Town Council, according to the Town's planning pages. West Palm Beach has its own process: 18 local historic districts and 46 individually designated sites, reviewed under the City's Historic Preservation Ordinance.
 
-**Choose West Palm if:** you want amenities, value, walkability, and a city that functions in August.
+**Property research.** For either, check the parcel on the [Property Appraiser's site](https://www.pbcpao.gov/) to confirm the municipality, then read that municipality's rules for the work you plan.
 
-![Clock tower on Worth Avenue, Palm Beach island](/images/west-palm/west-palm-018.jpg "Worth Avenue on the island — a short drive across the bridge, and an entirely different market from the mainland city.")
+![Clock tower on Worth Avenue, Palm Beach island](/images/west-palm/west-palm-018.jpg "Worth Avenue in the Town of Palm Beach, across the lagoon: a separate municipality with its own rules.")
 
-## West Palm Beach vs Palm Beach Gardens
+## The primary comparison set
 
-The clearest lifestyle fork in the county.
+Where each place sits:
 
-**Palm Beach Gardens** is polished, planned, and gated — golf communities, major retail, the deepest healthcare concentration in the north county, and consistent architecture.
+| Place | Government | Setting and water |
+|---|---|---|
+| West Palm Beach | City | Mainland; lagoon shoreline |
+| Palm Beach | Town (1911) | Barrier island; ocean and lagoon |
+| Palm Beach Gardens | City (1959) | Mainland; a planned city |
+| Lake Worth Beach | City (1913) | Mainland, with a City beach on the island |
+| Delray Beach | City | Coastal, with an ocean beach |
+| Jupiter | Town (1925) | Coastal; ocean, inlet and river |
 
-**West Palm Beach** is urban, historic, layered, and walkable.
+Housing, public realm and rail:
 
-**Choose Palm Beach Gardens if:** you want quiet, gated living, golf, newer construction, and predictability.
+| Place | Housing and public realm | Rail station in town |
+|---|---|---|
+| West Palm Beach | Downtown condos; historic districts; varied houses | Brightline; Tri-Rail |
+| Palm Beach | Town landmark and design review | None |
+| Palm Beach Gardens | Planned communities; golf | None |
+| Lake Worth Beach | Mostly older houses; six historic districts | Tri-Rail |
+| Delray Beach | Downtown; local historic districts | Tri-Rail |
+| Jupiter | Varies by community | None |
 
-**Choose West Palm if:** you want a downtown, culture, character housing, and the train.
+What to check first:
 
-These two are the honest opposite ends of what Palm Beach County offers, and most buyers know within a day which one they are.
+| Place | Verify | Test in person |
+|---|---|---|
+| West Palm Beach | Parcel municipality; historic status | Routes, parking, bridges |
+| Palm Beach | Town review; beach access rules | Bridge routes; parking |
+| Palm Beach Gardens | HOA and club documents | Your commute at peak |
+| Lake Worth Beach | City vs. "Lake Worth" address | The bridge to the beach |
+| Delray Beach | Historic status; parking | Downtown and beach access |
+| Jupiter | Flood zone; community documents | Your routes at peak |
 
-## West Palm Beach vs Lake Worth Beach
+Sources: incorporation years from each municipality or the Historical Society of Palm Beach County; rail stations from Brightline's and Tri-Rail's station pages; Lake Worth Beach's six historic districts from the City's historic-preservation pages. Checked September 23, 2026.
 
-The closest comparison, and the one people get wrong most often.
+### Palm Beach Gardens
 
-**Lake Worth Beach** is smaller, funkier, and more bohemian, with a walkable downtown of its own, a strong arts identity, and genuine beach access. Pricing is often friendlier.
+A mainland city incorporated on June 20, 1959. The City's own history describes John D. MacArthur's 1959 plan to develop about 4,000 acres as a "garden city", and the PGA moving its offices there in 1965. There's no Brightline or Tri-Rail station in the city. For a specific property, the community's HOA and any club documents are central. Our [Palm Beach Gardens vs nearby cities](/blog/palm-beach-gardens-vs-nearby-cities) guide covers it from the other side.
 
-**West Palm** is bigger, with far more amenities, a deeper restaurant scene, major cultural institutions, and the rail station.
+### Lake Worth Beach
 
-**Choose Lake Worth Beach if:** you want eclectic character and actual beach access, and don't need big-city infrastructure.
+A smaller mainland city just south of West Palm Beach, incorporated as Lake Worth in 1913 and renamed Lake Worth Beach after a 2019 vote. It runs a City beach complex on the barrier island, has six local historic districts, and has a Tri-Rail station at 1703 Lake Worth Road. The "Lake Worth" mailing address also covers unincorporated county land, so confirm the parcel. See [Lake Worth Beach vs nearby cities](/blog/lake-worth-beach-vs-nearby-cities).
 
-**Choose West Palm if:** you want the full urban stack — museums, theater, rail, and the county's job base.
+### Delray Beach
 
-## West Palm Beach vs Jupiter
+A coastal city to the south, with an ocean beach, a downtown and local historic districts. It has a Tri-Rail station, and the City runs Freebee, an on-demand ride service in parts of the city. See [Delray Beach vs nearby cities](/blog/delray-beach-vs-nearby-cities).
 
-**Jupiter** is the laid-back beach town — the inlet, the lighthouse, boating, and a life organized around the water.
+### Jupiter
 
-**West Palm** is the city.
+A coastal town to the north, incorporated in 1925. The Historical Society of Palm Beach County describes it at the mouth of the Loxahatchee River, with the Atlantic to the east. It has no Brightline or Tri-Rail station. Housing varies widely by community, so compare the specific property and its documents. See [Jupiter vs nearby cities](/blog/jupiter-vs-nearby-cities).
 
-**Choose Jupiter if:** the ocean and boating are central to how you want to live.
+## Expanded regional comparisons
 
-**Choose West Palm if:** walkability, culture, and value matter more than proximity to sand.
+These aren't equivalents of the places above. They're other options people sometimes weigh.
 
-They're about 25 minutes apart, which is why plenty of West Palm residents treat Jupiter's beaches as their weekend option without living there.
+- **North Palm Beach** is a village, incorporated in 1956, north of West Palm Beach. It's separate from Palm Beach Gardens, with its own government and rules. See [North Palm Beach vs nearby cities](/blog/north-palm-beach-vs-nearby-cities).
+- **Tequesta** is a separate village, incorporated in 1957, at the county's north end. It's not part of Jupiter. See [Tequesta vs nearby cities](/blog/tequesta-vs-nearby-cities).
+- **Boca Raton** is a city in southern Palm Beach County with its own Brightline and Tri-Rail stations. See [Boca Raton vs nearby cities](/blog/boca-raton-vs-nearby-cities).
+- **Fort Lauderdale and Miami** are larger cities in Broward and Miami-Dade counties. Brightline and Tri-Rail both connect West Palm Beach to them, so check current schedules and fares if you'd travel between them.
 
-## West Palm Beach vs Delray Beach and Boca Raton
+## Match your priority to the research
 
-Heading south, **Delray Beach** offers a genuinely lively walkable downtown on Atlantic Avenue plus beach access, and it competes with West Palm directly on the walkable-and-fun axis at generally higher prices. **Boca Raton** is more corporate, more planned, and more affluent, with strong schools and a different feel entirely.
+- **If oceanfront versus mainland waterfront is central:** compare the exact property's location and the public beach access, parking and rules that apply, from the town or county that runs each beach.
+- **If downtown access matters:** test the actual route from the property, and compare the housing type you'd live in there.
+- **If historic housing matters:** compare each municipality's preservation rules, and the age, condition and renovation scope of the specific house.
+- **If newer construction, an HOA, golf, condo living or lot size matters:** compare the specific property and its community or condominium documents.
+- **If transit matters:** check current routes, schedules, fares, how you'd reach the station, and whether it fits your daily trips.
 
-**Choose Delray if:** you want walkable nightlife *and* the beach, and can pay for it.
+## How to compare costs
 
-**Choose Boca if:** you want polish, planning, and school zoning.
+Purchase price alone won't tell you what a property costs to own. For each address you're weighing, compare:
 
-**Choose West Palm if:** you want more housing range, more cultural infrastructure, the rail station, and better value per square foot than Delray's downtown.
+- **Property tax:** use the Property Appraiser's tax calculator with your price and exemption plans. Millage differs by municipality.
+- **Insurance and flood:** quotes for the address, the flood zone, and any elevation certificate.
+- **Association costs:** HOA or condo dues, reserves and any assessments, and club or membership obligations where they apply.
+- **Utilities, parking and maintenance:** from recent bills, the local rate schedules and the inspection.
+- **Commuting:** your actual routes and any transit fares or tolls.
 
-## West Palm Beach vs Fort Lauderdale and Miami
+Our [West Palm Beach cost of living guide](/blog/cost-of-living-in-west-palm-beach-florida) covers these in detail for the city, and [CondoWPB.com](https://www.condowpb.com), our sister site, covers downtown condo buildings one by one.
 
-Worth addressing, since buyers who want a city sometimes look further south.
+## Test before you decide
 
-Both are considerably bigger, denser, and more expensive, with more of everything — and correspondingly more traffic and cost. West Palm offers a meaningful share of the urban experience at a materially lower price point, with the Brightline making the bigger cities accessible without living in them.
+1. **Visit the actual property and the public routes around it** at times that match your routine.
+2. **Confirm the details**: jurisdiction, utilities, permits, flood and elevation, HOA or condo documents, historic status, parking, and which public services apply.
+3. **Check current conditions through official sources**: events, bridge openings, transit schedules and beach access.
+4. **Compare carrying costs property by property**, with qualified professionals where needed.
 
-That combination — small-city cost, big-city access — is the argument a lot of West Palm residents actually made when they chose here.
-
-## How to actually decide
-
-Rank these and let the ranking pick:
-
-1. **Urban energy, walkability, culture** — West Palm, decisively, within Palm Beach County.
-2. **Beachfront living** — Juno Beach, Jupiter, Singer Island, Delray.
-3. **Quiet, gated, golf** — Palm Beach Gardens.
-4. **Prestige and privacy** — Palm Beach island.
-5. **Eclectic character with beach access** — Lake Worth Beach.
-6. **Rail access** — West Palm, uniquely.
-7. **Historic housing at attainable prices** — West Palm, and it isn't close.
-
-## West Palm Beach vs North Palm Beach and Tequesta
-
-Further north, both are small, quiet, and water-oriented — North Palm Beach an Intracoastal village with a municipal golf course, Tequesta a leafy village on Jupiter's waterways.
-
-**Choose these if:** quiet and water access outrank amenities and culture.
-
-**Choose West Palm if:** you want a downtown, a job base, and something to do on a weeknight.
-
-The pattern: West Palm wins clearly on the urban axes and loses on the coastal ones. If the beach is your priority, another town on this list is a better fit. If a downtown is, nothing else nearby competes.
-
-## A note on comparing costs
-
-List price is a poor comparison across these towns because the structures differ so much.
-
-A downtown West Palm condo carries association dues, reserve exposure, and building-specific risk that a Palm Beach Gardens single-family home doesn't — and vice versa, that home may carry HOA dues and mandatory club membership. A historic West Palm bungalow carries older-systems risk that moves insurance substantially.
-
-Build the full monthly figure for a **specific address** in each town: taxes at a reset assessment, insurance actually quoted, association dues plus any pending assessment, and flood if the zone requires it.
-
-Comparing specific downtown buildings against each other is a different exercise again — [CondoWPB.com](https://www.condowpb.com) breaks those down on fees, reserves, and pricing.
-
-## Before you commit
-
-Drive the commute at the real hour. Spend a weekend evening in each town rather than an afternoon. And in West Palm specifically, walk the actual block — this is the one city on the list where the street matters more than the town.`,
+For more on West Palm Beach itself, see [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida), the [local guide](/blog/local-guide-to-west-palm-beach-florida), the [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) and the [pros and cons](/blog/pros-and-cons-of-living-in-west-palm-beach-florida). When you're ready to look at homes, start from the [West Palm Beach community page](/communities/west-palm-beach) or [search homes for sale](/buy).`,
     faqs: [
-      { q: "West Palm Beach or Palm Beach Gardens?", a: "They're the opposite ends of what the county offers. Palm Beach Gardens is polished, gated, golf-oriented suburbia with major retail and healthcare density. West Palm Beach is urban, historic, and walkable with a downtown, arts institutions, and the Brightline. Most buyers know within a day which one suits them." },
-      { q: "What is the difference between West Palm Beach and Palm Beach?", a: "They share a bridge and little else. Palm Beach island is the county's highest-priced, lowest-density market with strict zoning, limited inventory, and a largely seasonal population. West Palm Beach is the mainland city — denser, far more affordable, walkable, and active year-round." },
-      { q: "West Palm Beach or Lake Worth Beach?", a: "Lake Worth Beach is smaller and more bohemian with its own walkable downtown, a strong arts identity, genuine beach access, and often friendlier pricing. West Palm is larger with deeper dining, major cultural institutions, the rail station, and the county's largest job base." },
-      { q: "West Palm Beach or Delray Beach?", a: "Delray offers a lively walkable downtown on Atlantic Avenue plus beach access, competing directly with West Palm on walkability, generally at higher prices. West Palm offers more housing range, more cultural infrastructure, the Brightline, and better value per square foot." },
-      { q: "Should I live in West Palm Beach or Fort Lauderdale?", a: "Fort Lauderdale and Miami are bigger, denser, and more expensive with more of everything, plus more traffic. West Palm offers a meaningful share of the urban experience at a materially lower cost, and the Brightline makes both bigger cities accessible without living in them." },
-      { q: "How should I compare costs between West Palm Beach and nearby towns?", a: "Not by list price, because the cost structures differ. A downtown condo carries association dues and reserve exposure; a suburban home may carry HOA dues and club membership; a historic bungalow carries older-systems risk that moves insurance. Build the full monthly figure for a specific address in each town." },
+      { q: "Is Palm Beach part of West Palm Beach?", a: "No. Palm Beach is the Town of Palm Beach, incorporated in 1911, on the barrier island across the Lake Worth Lagoon. West Palm Beach is a separate mainland city. They have separate governments, codes and services, so check a property's municipality on the Property Appraiser's record." },
+      { q: "Which nearby places are on the ocean?", a: "The Town of Palm Beach is on the barrier island. Delray Beach and Jupiter are coastal. Lake Worth Beach is a mainland city that runs a City beach on the island. West Palm Beach's shoreline is the lagoon, with the ocean beaches across the bridges. Check the public access and rules for the specific beach you'd use." },
+      { q: "Which nearby places have a rail station?", a: "Per the operators' station pages, West Palm Beach has both Brightline and Tri-Rail stations, Boca Raton has both, and Lake Worth Beach and Delray Beach have Tri-Rail stations. Palm Beach, Palm Beach Gardens and Jupiter have no Brightline or Tri-Rail station. Check current schedules and fares." },
+      { q: "How do historic-review rules differ between West Palm Beach and Palm Beach?", a: "Each municipality has its own process. West Palm Beach reviews exterior work in its 18 local historic districts and 46 individually designated sites under its Historic Preservation Ordinance. In the Town of Palm Beach, landmarked properties go to the Landmarks Preservation Commission and other design review to the Architectural Commission. Confirm the rules for the specific parcel." },
+      { q: "How should I compare costs between West Palm Beach and nearby towns?", a: "Compare specific properties, not towns. Use the Property Appraiser's calculator for taxes (millage differs by municipality), get insurance and flood quotes for each address, and compare association dues, reserves, assessments, utilities, parking, maintenance and commuting costs." },
+      { q: "Are North Palm Beach and Tequesta the same as Palm Beach Gardens or Jupiter?", a: "No. North Palm Beach (1956) and Tequesta (1957) are separate villages with their own governments and rules, distinct from Palm Beach Gardens and Jupiter. Confirm a property's municipality before comparing." },
     ],
-    internalLinks: ["cost-of-living-in-west-palm-beach-florida", "pros-and-cons-of-living-in-west-palm-beach-florida", "what-its-really-like-living-in-west-palm-beach-florida"],
-    funFact: "West Palm Beach is the only city on the northern Palm Beach coast with a Brightline stop, a major performing arts center, a world-class art museum, and a walkable downtown — all in the same place. That urban infrastructure stack doesn't exist anywhere else between Miami and Orlando.",
+    internalLinks: ["cost-of-living-in-west-palm-beach-florida", "pros-and-cons-of-living-in-west-palm-beach-florida", "what-its-really-like-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "palm-beach-gardens-vs-nearby-cities", "lake-worth-beach-vs-nearby-cities"],
+    funFact: "Before comparing towns, look up the parcel. On the Palm Beach County Property Appraiser's record, the first two digits of the parcel control number identify the municipality (74 is the City of West Palm Beach, 00 is unincorporated county), so you'll know whose rules, services and tax millage actually apply.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-09-23',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-places-to-eat-drink-hang-out-in-west-palm-beach-florida',
