@@ -1952,7 +1952,12 @@ And for a night out downtown, [CondoWPB.com](https://www.condowpb.com) maps the 
     primaryKeyword: "who should move to West Palm Beach Florida",
     secondaryKeywords: ["is West Palm Beach right for me", "should I move to West Palm Beach", "who lives in West Palm Beach"],
     h1: "Who Should Move to West Palm Beach, Florida (And Who Shouldn't)",
-    heroImage: '/images/west-palm-beach/west-palm-beach-017.jpeg',
+    heroImage: '/images/west-palm-beach/waterfront-promenade-seawall-hero.webp',
+    heroImageAlt: "The paved waterfront promenade along the seawall on the Lake Worth Lagoon in West Palm Beach, with palms and lamp posts on one side and high-rise towers in the distance",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '65% 50%',
     body: `West Palm Beach is the county's only real city, and that makes the fit question unusually clear-cut. Most towns on this coast are variations on the same theme — quiet, coastal, suburban. West Palm is the alternative to all of them.
 
 Here's the honest sorting.
