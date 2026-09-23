@@ -2322,7 +2322,13 @@ The two things that determine whether your number works are **insurance on an ol
     primaryKeyword: "hidden gems in West Palm Beach Florida",
     secondaryKeywords: ["West Palm Beach secret spots", "free things to do in West Palm Beach", "Antique Row West Palm Beach"],
     h1: "Hidden Gems in West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/flagler-museum-2022-001.jpg',
+    heroImage: '/images/west-palm-beach/sunglasses-mural-hero.webp',
+    heroImageAlt: "A large black-and-white mural of a man in sunglasses, his lenses reflecting a colorful palm-lined skyline, painted on a pale blue wall in downtown West Palm Beach",
+    heroImageCaption: "Mural by Anthony Hernandez, downtown West Palm Beach.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '55% 50%',
     body: `West Palm's best stuff isn't on the main drag, and it isn't downtown. The city is old enough and layered enough to hide things in plain sight, and most residents take a couple of years to find them.
 
 Here's where locals actually go.
