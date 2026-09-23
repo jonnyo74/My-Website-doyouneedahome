@@ -100,7 +100,7 @@ export const cities: CommunityItem[] = [
     description: 'A vibrant waterfront city blending culture, history, nightlife, and coastal living — directly across the water from Palm Beach Island.',
     overview:
       'West Palm Beach is one of the most dynamic cities in South Florida — known for its Intracoastal waterfront, historic neighborhoods, entertainment districts, cultural venues, restaurants, festivals, and incredible walkability. It sits directly across the water from Palm Beach Island and offers big-city amenities — rail service, an international airport, major cultural venues, and a dense dining and nightlife district — without the Miami density.\n\nWest Palm Beach delivers urban living with coastal energy — a rare combination in Florida. Walkable streets, bike-friendly routes, a striking mix of historic and modern architecture, and a broad range of neighborhoods across nearly every price point. Lively, cultural, scenic, and centrally located.',
-    lifestyle: 'West Palm Beach is one of the easiest major cities to navigate in South Florida. Palm Beach Island is 3–5 minutes away, PBI Airport is 8–10 minutes, and the Brightline station is practically walkable. The waterfront green market draws buyers from across the county every Saturday. Clematis by Night, the Kravis Center, Norton Museum, the Boat Show — there is always something happening. Walkable urban living, a year-round arts and culture calendar, and the widest span of condo and historic-home price points in the county are what set WPB apart.',
+    lifestyle: 'West Palm Beach is one of the easiest major cities to navigate in South Florida. Palm Beach Island is 3–5 minutes away, DJT Airport is 8–10 minutes, and the Brightline station is practically walkable. The waterfront green market draws buyers from across the county every Saturday. Clematis by Night, the Kravis Center, Norton Museum, the Boat Show — there is always something happening. Walkable urban living, a year-round arts and culture calendar, and the widest span of condo and historic-home price points in the county are what set WPB apart.',
     localLoves: [
       'Flagler Drive waterfront — walking, biking, and some of the best sunset views in South Florida',
       'West Palm Beach Green Market — one of the top-rated farmers markets in the USA',
@@ -168,7 +168,7 @@ export const cities: CommunityItem[] = [
     ],
     commuteTimes: [
       { destination: 'Palm Beach Island', time: '3–5 min' },
-      { destination: 'PBI Airport', time: '8–10 min' },
+      { destination: 'DJT Airport', time: '8–10 min' },
       { destination: 'Brightline Station', time: '2–4 min' },
       { destination: 'Palm Beach Gardens', time: '15 min' },
       { destination: 'Boca Raton', time: '25 min' },
@@ -201,7 +201,7 @@ export const cities: CommunityItem[] = [
       '41+ condo buildings across all price points — from $200K downtown to $35M+ ultra-luxury on South Flagler',
       'Major new construction wave underway — Olara, Ritz-Carlton Residences, South Flagler House, Shorecrest and more',
       'Historic neighborhoods (El Cid, Flamingo Park, SoSo) rivaling the best in South Florida',
-      'PBI Airport 8–10 minutes — the easiest airport access of any city in the county',
+      'DJT Airport 8–10 minutes — the easiest airport access of any city in the county',
       'Kravis Center, Norton Museum, Clematis by Night — endless arts and culture year-round',
     ],
     keyLinks: [
@@ -219,8 +219,8 @@ export const cities: CommunityItem[] = [
     ],
     quickFacts: [
       { label: 'Market focus', value: 'Downtown condos, historic homes, waterfront estates, new luxury construction' },
-      { label: 'Key advantage', value: 'Brightline 2 min away, PBI Airport 8 min, Palm Beach Island 5 min' },
-      { label: 'Best for', value: 'Downtown high-rise condos, historic bungalow districts, Brightline rail and PBI access, Kravis Center and Norton Museum, walkable waterfront' },
+      { label: 'Key advantage', value: 'Brightline 2 min away, DJT Airport 8 min, Palm Beach Island 5 min' },
+      { label: 'Best for', value: 'Downtown high-rise condos, historic bungalow districts, Brightline rail and DJT airport access, Kravis Center and Norton Museum, walkable waterfront' },
       { label: 'Standout feature', value: '41+ condo buildings — from $200K downtown studios to $35M+ South Flagler penthouses' },
     ],
     hasMembershipCommunities: true,
@@ -309,7 +309,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Juno Beach', time: '15–18 min' },
       { destination: 'Jupiter', time: '10–12 min' },
       { destination: 'West Palm Beach', time: '20 min' },
-      { destination: 'PBI Airport', time: '20 min' },
+      { destination: 'DJT Airport', time: '20 min' },
       { destination: 'Brightline Station (WPB)', time: '18 min' },
       { destination: 'Miami', time: '1 hr 15 min' },
     ],
@@ -329,12 +329,12 @@ export const cities: CommunityItem[] = [
       'Suncoast High School offers STEM and IB programs',
       'PGA Boulevard corridor offers premier dining from casual to fine — Capital Grille to local favorites',
       'Minutes from Juno and Jupiter beaches — coastal access without barrier island pricing',
-      '20 minutes to Palm Beach International Airport and the Brightline station',
+      '20 minutes to President Donald J. Trump International Airport and the Brightline station',
     ],
     quickFacts: [
       { label: 'Market focus', value: 'Golf estates, gated communities, new construction, country club living' },
       { label: 'Key advantage', value: 'PGA Boulevard corridor, golf, and beaches nearby' },
-      { label: 'Best for', value: 'Golf and tennis club communities, gated master-planned neighborhoods, Gardens Mall and PBI airport access, wide price range' },
+      { label: 'Best for', value: 'Golf and tennis club communities, gated master-planned neighborhoods, Gardens Mall and DJT airport access, wide price range' },
       { label: 'Standout feature', value: 'Burns Road Community Center — Olympic pool, pickleball, fitness at resident rates' },
     ],
     keyLinks: [
@@ -378,7 +378,7 @@ export const cities: CommunityItem[] = [
     region: 'Northern Palm Beach County',
     description: 'A coastal town with oceanfront living, top private clubs, and a laid-back Florida lifestyle that attracts buyers from around the world.',
     overview:
-      'Welcome to Jupiter — where sunrise paddleboarding, wide beaches, and a small-town feel meet South Florida living. Located at the northern tip of Palm Beach County, Jupiter offers an easygoing coastal lifestyle with quick access to I-95, Palm Beach International Airport, the Brightline, and downtown West Palm Beach. Whether you\'re searching for a waterfront condo, gated golf community, new construction home, or a lock-and-leave townhome — Jupiter delivers a lifestyle that feels like vacation every day.\n\nJupiter is relaxed, outdoorsy, and community-focused — but with just the right amount of luxury. You\'ll see golf carts at dinner, paddleboards on Jeeps, kids biking to school, and neighbors who actually wave back. Housing runs from oceanfront condos to waterfront estates, gated golf communities, and acreage in Jupiter Farms. It\'s one of the most sought-after markets in all of Palm Beach County — and our team has the local knowledge to get you in.',
+      'Welcome to Jupiter — where sunrise paddleboarding, wide beaches, and a small-town feel meet South Florida living. Located at the northern tip of Palm Beach County, Jupiter offers an easygoing coastal lifestyle with quick access to I-95, President Donald J. Trump International Airport, the Brightline, and downtown West Palm Beach. Whether you\'re searching for a waterfront condo, gated golf community, new construction home, or a lock-and-leave townhome — Jupiter delivers a lifestyle that feels like vacation every day.\n\nJupiter is relaxed, outdoorsy, and community-focused — but with just the right amount of luxury. You\'ll see golf carts at dinner, paddleboards on Jeeps, kids biking to school, and neighbors who actually wave back. Housing runs from oceanfront condos to waterfront estates, gated golf communities, and acreage in Jupiter Farms. It\'s one of the most sought-after markets in all of Palm Beach County — and our team has the local knowledge to get you in.',
     lifestyle: 'Jupiter is one of those rare places where the lifestyle sells itself. The dog-friendly beach, the waterfront dining at Harbourside Place, the Saturday farmers markets, the golf cart nights in Abacoa — it\'s a community that draws people in and keeps them. The low building heights, beach access, and Loxahatchee River frontage are the features buyers cite most often, and a meaningful share of seasonal owners eventually convert to full-time residency. If you\'re looking for a place that feels like vacation but still feels like home, Jupiter is hard to beat.',
     localLoves: [
       'Dog-friendly Jupiter Beach and sunrise paddleboarding on the Intracoastal',
@@ -419,7 +419,7 @@ export const cities: CommunityItem[] = [
     ],
     commuteTimes: [
       { destination: 'West Palm Beach', time: '25 min' },
-      { destination: 'PBI Airport', time: '30 min' },
+      { destination: 'DJT Airport', time: '30 min' },
       { destination: 'Brightline Station', time: '22 min' },
       { destination: 'Miami', time: '1 hr 20 min' },
       { destination: 'Orlando', time: '2 hr 15 min' },
@@ -472,7 +472,7 @@ export const cities: CommunityItem[] = [
       'Jupiter Beach and Carlin Park are dog-friendly and draw year-round outdoor lifestyle buyers',
       'Abacoa offers walkable town-center living — shops, restaurants, and Roger Dean Stadium steps away',
       'New construction between $700K–$1.5M is strong, with resort amenities and HOA perks common',
-      '30 minutes to Palm Beach International Airport, 25 minutes to downtown West Palm Beach',
+      '30 minutes to President Donald J. Trump International Airport, 25 minutes to downtown West Palm Beach',
       'Jupiter Medical Center is one of the top-rated hospitals in Palm Beach County',
     ],
     popularNeighborhoods: ['Rialto', 'Abacoa', 'Egret Landing', 'Jonathan\'s Landing', 'Admiral\'s Cove', 'Jupiter Country Club', 'Sonoma Isles', 'Jupiter Inlet Colony', 'Jupiter Farms'],
@@ -598,7 +598,7 @@ export const cities: CommunityItem[] = [
     ],
     commuteTimes: [
       { destination: 'West Palm Beach', time: '20 min' },
-      { destination: 'PBI Airport', time: '25 min' },
+      { destination: 'DJT Airport', time: '25 min' },
       { destination: 'Florida Turnpike', time: '10 min' },
       { destination: 'Palm Beach Gardens', time: '30 min' },
       { destination: 'Boca Raton', time: '40 min' },
@@ -758,7 +758,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Fort Lauderdale', time: '30 min' },
       { destination: 'Fort Lauderdale Airport (FLL)', time: '35 min' },
       { destination: 'West Palm Beach', time: '40 min' },
-      { destination: 'PBI Airport', time: '40 min' },
+      { destination: 'DJT Airport', time: '40 min' },
       { destination: 'Miami', time: '50 min' },
       { destination: 'Tri-Rail (Boca Station)', time: '5 min' },
     ],
@@ -907,7 +907,7 @@ export const cities: CommunityItem[] = [
       { destination: 'West Palm Beach', time: '30 min' },
       { destination: 'Fort Lauderdale', time: '40 min' },
       { destination: 'Fort Lauderdale Airport (FLL)', time: '45 min' },
-      { destination: 'PBI Airport', time: '30 min' },
+      { destination: 'DJT Airport', time: '30 min' },
       { destination: 'Miami', time: '1 hr' },
     ],
     linkedNeighborhoods: ['ocean-side', 'delray-beach-harbor', 'seagate', 'shelborne', 'seven-bridges', 'delaire-country-club'],
@@ -1047,7 +1047,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Delray Beach', time: '10 min' },
       { destination: 'Boca Raton', time: '15 min' },
       { destination: 'West Palm Beach', time: '35 min' },
-      { destination: 'PBI Airport', time: '35 min' },
+      { destination: 'DJT Airport', time: '35 min' },
       { destination: 'Fort Lauderdale', time: '35 min' },
       { destination: 'Fort Lauderdale Airport (FLL)', time: '40 min' },
       { destination: 'Brightline (Boca Station)', time: '15 min' },
@@ -1180,10 +1180,9 @@ export const cities: CommunityItem[] = [
       { destination: 'West Palm Beach', time: '15 min' },
       { destination: 'Boynton Beach', time: '15 min' },
       { destination: 'Boca Raton', time: '25 min' },
-      { destination: 'PBI Airport', time: '20 min' },
+      { destination: 'DJT Airport', time: '20 min' },
       { destination: 'Fort Lauderdale', time: '40 min' },
     ],
-    linkedNeighborhoods: ['lake-worth-estates', 'poinciana-park', 'lake-worth-gardens'],
     priceRanges: [
       { type: 'Historic Bungalows & Cottages', range: '$400K – $750K', minPrice: 400000, maxPrice: 750000, propertyTypes: ['house'] },
       { type: 'Barrier Island Condos', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo'] },
@@ -1306,7 +1305,7 @@ export const cities: CommunityItem[] = [
     commuteTimes: [
       { destination: 'Wellington', time: '5 min' },
       { destination: 'West Palm Beach', time: '25 min' },
-      { destination: 'PBI Airport', time: '30 min' },
+      { destination: 'DJT Airport', time: '30 min' },
       { destination: 'Boca Raton', time: '40 min' },
       { destination: 'Palm Beach Gardens', time: '25 min' },
       { destination: 'Fort Lauderdale', time: '55 min' },
@@ -1438,7 +1437,7 @@ export const cities: CommunityItem[] = [
     ],
     commuteTimes: [
       { destination: 'West Palm Beach', time: '3–5 min' },
-      { destination: 'PBI Airport', time: '10–12 min' },
+      { destination: 'DJT Airport', time: '10–12 min' },
       { destination: 'Brightline Station (WPB)', time: '7–10 min' },
       { destination: 'Boca Raton', time: '40 min' },
       { destination: 'Fort Lauderdale Airport (FLL)', time: '55 min' },
@@ -1460,7 +1459,7 @@ export const cities: CommunityItem[] = [
       'Palm Beach Day Academy serves the island\'s families PK–8 — one of the most respected private schools in South Florida',
       'The island\'s 14-mile length and strict zoning ensure density never increases — scarcity is permanent and structural',
       'Off-market transactions are common at the highest price points — relationships and local knowledge determine access',
-      'PBI Airport is 10–12 minutes away — one of the easiest major-airport commutes of any ultra-luxury market in the country',
+      'DJT Airport is 10–12 minutes away — one of the easiest major-airport commutes of any ultra-luxury market in the country',
     ],
     keyLinks: [
       { label: 'Worth Avenue Association', url: 'https://www.worth-avenue.com', category: 'Shopping & Lifestyle' },
@@ -1634,7 +1633,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Royal Palm Beach', time: '10 min' },
       { destination: 'Wellington', time: '15 min' },
       { destination: 'West Palm Beach', time: '35 min' },
-      { destination: 'PBI Airport', time: '40 min' },
+      { destination: 'DJT Airport', time: '40 min' },
       { destination: 'Palm Beach Gardens', time: '35 min' },
       { destination: 'Fort Lauderdale', time: '60 min' },
     ],
@@ -1692,7 +1691,7 @@ export const cities: CommunityItem[] = [
     metaDescription: 'Juno Beach, FL real estate — oceanfront condos and island homes near the Loggerhead Marinelife Center, in one of Florida\'s most pristine, low-density beach towns.',
     overview:
       'Juno Beach is one of the best-kept secrets in Palm Beach County. This small incorporated town sits on a barrier island between Jupiter to the north and Singer Island to the south — quiet, residential, and defined by the kind of natural beauty that most of coastal Florida lost decades ago. The beaches here are wide, clean, and uncrowded. The sea turtle nesting season from May through October is one of the most extraordinary natural events on the entire Florida coast. The Loggerhead Marinelife Center — one of the leading sea turtle rehabilitation hospitals in the world — calls Juno Beach home, and residents take genuine pride in that identity.\n\nThe real estate market reflects the town\'s character: low-density, limited inventory, and strong demand from buyers who specifically want to escape the density of Jupiter, Palm Beach Gardens, and Singer Island without sacrificing access to them. Condos with ocean views, single-family homes on quiet streets within walking distance of the water, and rare oceanfront estate properties make up the market. What Juno Beach offers that its neighbors cannot — complete quiet, extraordinary nature, and a community identity built around the beach and the sea turtles rather than nightlife or commerce.',
-    lifestyle: 'Juno Beach is a small, low-density coastal town with uncrowded public beach access, oceanfront and Intracoastal condominiums, and no nightlife district. A large share of the housing stock is seasonal and second-home ownership. The social calendar here is organic — sunset walks, turtle walks in season, the Juno Beach Pier, morning coffee at a handful of local spots. It is a community that rewards the buyer who values quality over flash, and nature over nightlife. Everything else — Jupiter, Palm Beach Gardens, PBI Airport — is minutes away.',
+    lifestyle: 'Juno Beach is a small, low-density coastal town with uncrowded public beach access, oceanfront and Intracoastal condominiums, and no nightlife district. A large share of the housing stock is seasonal and second-home ownership. The social calendar here is organic — sunset walks, turtle walks in season, the Juno Beach Pier, morning coffee at a handful of local spots. It is a community that rewards the buyer who values quality over flash, and nature over nightlife. Everything else — Jupiter, Palm Beach Gardens, DJT Airport — is minutes away.',
     localLoves: [
       'Loggerhead Marinelife Center — world-class sea turtle hospital and research facility, open to the public year-round',
       'Sea turtle nesting season (May–October) — one of the most active loggerhead nesting beaches in the world',
@@ -1756,7 +1755,7 @@ export const cities: CommunityItem[] = [
     commuteTimes: [
       { destination: 'Jupiter', time: '8–10 min' },
       { destination: 'Palm Beach Gardens', time: '15 min' },
-      { destination: 'PBI Airport', time: '20 min' },
+      { destination: 'DJT Airport', time: '20 min' },
       { destination: 'West Palm Beach', time: '25 min' },
       { destination: 'Boca Raton', time: '40 min' },
       { destination: 'Fort Lauderdale Airport (FLL)', time: '55 min' },
@@ -1771,7 +1770,7 @@ export const cities: CommunityItem[] = [
       'Genuinely uncrowded beaches — low-density zoning and limited commercial development keep the town quiet in a way that simply cannot be replicated in larger markets',
       'John D. MacArthur Beach State Park delivers pristine natural beach and snorkeling minutes from residential Juno Beach',
       'Every major Palm Beach Gardens and Jupiter amenity is 10–15 minutes away — the quiet of Juno Beach does not mean giving up access',
-      'PBI Airport is 20 minutes — one of the best airport commutes of any barrier island address in the county',
+      'DJT Airport is 20 minutes — one of the best airport commutes of any barrier island address in the county',
       'Jupiter Medical Center — one of the top-rated hospitals in Palm Beach County — is 10 minutes north',
       'Inventory is structurally limited — Juno Beach is built out and the town has resisted higher density, so listings are relatively few',
       'Sea turtle nesting season (May–October) is a genuine community event — residents take turtle walks, volunteer at Loggerhead, and celebrate the nesting season as a defining part of island identity',
@@ -1822,7 +1821,7 @@ export const cities: CommunityItem[] = [
     description: 'A charming waterfront village with a private marina, renovated country club, Intracoastal dining, and a low-density old-Florida character that buyers increasingly can\'t find anywhere else in Palm Beach County.',
     overview:
       'North Palm Beach is one of the most underappreciated villages in Palm Beach County. Tucked between Palm Beach Gardens to the north and Riviera Beach to the south, it sits directly on the Intracoastal Waterway with its own village marina, a recently renovated country club, and a walkable waterfront core that feels genuinely different from the planned communities dominating the rest of the county.\n\nThe village was incorporated in 1956 and built with a deliberate character — low-density, waterfront-focused, and community-oriented. Those values are written into the zoning and the culture. The North Palm Beach Country Club reopened after a full renovation with a new Jack Nicklaus–designed Signature golf course, new clubhouse, and resort-style pool — one of the best municipal club facilities in South Florida at resident rates. The village marina on the Intracoastal gives residents direct boating access to the Atlantic in minutes. Waterfront dining along Prosperity Farms Road and US-1 puts some of the county\'s best casual restaurants within walking distance. For buyers who want authenticity over amenity packages, and water access without paying Jupiter Island prices, North Palm Beach consistently delivers.',
-    lifestyle: 'North Palm Beach is a village of mid-century neighborhoods, many of them without an HOA, where canal-front and Intracoastal frontage with dockage still trades below comparable Jupiter and Palm Beach Gardens pricing. The village owns and operates its own golf course and country club, turnover is low, and PBI Airport is roughly 15 minutes away. The village character here is genuine — it has not been engineered by a developer. That\'s rare, and buyers who discover it tend to stay.',
+    lifestyle: 'North Palm Beach is a village of mid-century neighborhoods, many of them without an HOA, where canal-front and Intracoastal frontage with dockage still trades below comparable Jupiter and Palm Beach Gardens pricing. The village owns and operates its own golf course and country club, turnover is low, and DJT Airport is roughly 15 minutes away. The village character here is genuine — it has not been engineered by a developer. That\'s rare, and buyers who discover it tend to stay.',
     localLoves: [
       'North Palm Beach Country Club — recently fully renovated with a Jack Nicklaus Signature course, new clubhouse, and resort pool at resident rates',
       'Village of North Palm Beach Marina — Intracoastal access with boat slips, launch ramp, and direct boating to the Atlantic inlet',
@@ -1887,7 +1886,7 @@ export const cities: CommunityItem[] = [
     commuteTimes: [
       { destination: 'Palm Beach Gardens', time: '10 min' },
       { destination: 'Jupiter', time: '15 min' },
-      { destination: 'PBI Airport', time: '15 min' },
+      { destination: 'DJT Airport', time: '15 min' },
       { destination: 'West Palm Beach', time: '20 min' },
       { destination: 'Juno Beach', time: '10 min' },
       { destination: 'Brightline Station (WPB)', time: '20 min' },
@@ -1904,7 +1903,7 @@ export const cities: CommunityItem[] = [
       'Village marina on the Intracoastal gives residents direct Atlantic Ocean access — one of the most practical boating setups in the county',
       'Low-density, incorporated village with 13,000 residents — zoning protects the character and no developer can change it',
       'Surrounded by Palm Beach Gardens and Jupiter school zones — access to the county\'s strongest public school pipeline',
-      'PBI Airport is 15 minutes — exceptional access for a waterfront address at this quality level',
+      'DJT Airport is 15 minutes — exceptional access for a waterfront address at this quality level',
       'Walkable waterfront dining and the village center create a genuine neighborhood feel that most South Florida communities cannot replicate',
       'MacArthur Beach State Park and Juno Beach are 10 minutes north — pristine natural beach access without paying Jupiter Island prices',
       'Turnover is relatively low, so inventory in the village can be limited at any given time',
@@ -2020,7 +2019,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Downtown Jupiter / Harborside Place', time: '3–5 min' },
       { destination: 'Jupiter Beach', time: '8 min' },
       { destination: 'Palm Beach Gardens', time: '20 min' },
-      { destination: 'PBI Airport', time: '30 min' },
+      { destination: 'DJT Airport', time: '30 min' },
       { destination: 'Stuart (Martin County)', time: '20 min' },
       { destination: 'West Palm Beach', time: '35 min' },
     ],
@@ -2137,7 +2136,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Stuart', time: '20 min' },
       { destination: 'Jupiter', time: '40 min' },
       { destination: 'West Palm Beach', time: '60 min' },
-      { destination: 'PBI Airport', time: '65 min' },
+      { destination: 'DJT Airport', time: '65 min' },
       { destination: 'Fort Pierce', time: '20 min' },
       { destination: 'Vero Beach', time: '40 min' },
     ],
@@ -2265,7 +2264,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Port St. Lucie', time: '20 min' },
       { destination: 'Jupiter', time: '30 min' },
       { destination: 'Palm Beach Gardens', time: '45 min' },
-      { destination: 'PBI Airport', time: '55 min' },
+      { destination: 'DJT Airport', time: '55 min' },
       { destination: 'West Palm Beach', time: '60 min' },
       { destination: 'Vero Beach', time: '30 min' },
     ],
@@ -2379,7 +2378,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Wellington', time: '15 min' },
       { destination: 'Royal Palm Beach', time: '10 min' },
       { destination: 'West Palm Beach', time: '35 min' },
-      { destination: 'PBI Airport', time: '40 min' },
+      { destination: 'DJT Airport', time: '40 min' },
       { destination: 'Boca Raton', time: '50 min' },
       { destination: 'Fort Lauderdale', time: '65 min' },
     ],
@@ -2425,7 +2424,7 @@ export const cities: CommunityItem[] = [
     region: 'Palm Beach County Barrier Island',
     description: 'A pristine Atlantic barrier island with high-rise oceanfront condos, uncrowded beaches, world-famous Blue Heron Bridge diving, and a quiet residential character sitting directly north of Palm Beach Gardens.',
     overview:
-      'Singer Island is the barrier island community that serious Palm Beach County buyers eventually discover — and rarely leave. Technically part of the City of Riviera Beach, this narrow strip of land between the Atlantic Ocean and the Lake Worth Lagoon (Intracoastal) has developed its own distinct identity: high-rise oceanfront condos with direct beach access, a quiet residential pace, and a natural environment that has been better preserved than most of the county\'s coastline.\n\nThe oceanfront here is lined with towers ranging from 1970s-era buildings to newer luxury high-rises — all with Atlantic views and direct beach access. The western (Intracoastal) side offers waterfront single-family homes and townhomes. Phil Foster Park and Blue Heron Bridge have made Singer Island internationally known among divers and snorkelers — the shallow reef under the bridge is rated one of the top shore diving sites in the world. John D. MacArthur Beach State Park, at the island\'s northern end, is one of Florida\'s finest undeveloped barrier island nature preserves, with pristine swimming, snorkeling, and kayaking.\n\nFor buyers seeking oceanfront living north of Palm Beach with a more residential pace — fewer tourists, lower density, and authentic beach community character — Singer Island is the answer. Palm Beach Gardens is minutes away across the bridges; PBI Airport is 20 minutes.',
+      'Singer Island is the barrier island community that serious Palm Beach County buyers eventually discover — and rarely leave. Technically part of the City of Riviera Beach, this narrow strip of land between the Atlantic Ocean and the Lake Worth Lagoon (Intracoastal) has developed its own distinct identity: high-rise oceanfront condos with direct beach access, a quiet residential pace, and a natural environment that has been better preserved than most of the county\'s coastline.\n\nThe oceanfront here is lined with towers ranging from 1970s-era buildings to newer luxury high-rises — all with Atlantic views and direct beach access. The western (Intracoastal) side offers waterfront single-family homes and townhomes. Phil Foster Park and Blue Heron Bridge have made Singer Island internationally known among divers and snorkelers — the shallow reef under the bridge is rated one of the top shore diving sites in the world. John D. MacArthur Beach State Park, at the island\'s northern end, is one of Florida\'s finest undeveloped barrier island nature preserves, with pristine swimming, snorkeling, and kayaking.\n\nFor buyers seeking oceanfront living north of Palm Beach with a more residential pace — fewer tourists, lower density, and authentic beach community character — Singer Island is the answer. Palm Beach Gardens is minutes away across the bridges; DJT Airport is 20 minutes.',
     lifestyle: 'Singer Island is a barrier island where the ocean is a daily feature rather than a weekend destination. Inventory is predominantly oceanfront and Intracoastal condominium towers, and buildable land on a barrier island is structurally scarce. The Blue Heron Bridge — regularly ranked among the best shore dives in the world — MacArthur Beach State Park, and Peanut Island are all within minutes. The social life is community-centered — beach walks, sunset gatherings at the waterfront parks, the Blue Heron Bridge dive scene, and easy access to Palm Beach Gardens\' restaurants and shopping. It is a quieter version of the island lifestyle than Palm Beach itself, but the ocean is just as blue.',
     localLoves: [
       'Blue Heron Bridge at Phil Foster Park — rated one of the top shore dive sites in the world, directly accessible from the island',
@@ -2485,7 +2484,7 @@ export const cities: CommunityItem[] = [
     ],
     commuteTimes: [
       { destination: 'Palm Beach Gardens', time: '15 min' },
-      { destination: 'PBI Airport', time: '20 min' },
+      { destination: 'DJT Airport', time: '20 min' },
       { destination: 'West Palm Beach', time: '20 min' },
       { destination: 'Juno Beach', time: '15 min' },
       { destination: 'Jupiter', time: '25 min' },
@@ -2501,7 +2500,7 @@ export const cities: CommunityItem[] = [
       'John D. MacArthur Beach State Park is one of the finest undeveloped barrier island nature preserves in Florida — 760 acres of pristine beach, mangroves, and reef',
       'Oceanfront condos with direct Atlantic beach access at price points significantly below Palm Beach Island and Boca Raton oceanfront',
       'Low-density island character — the northern half of the island borders state park land, ensuring the view and pace never changes',
-      'PBI Airport is 20 minutes away — one of the most accessible oceanfront addresses relative to the airport in Palm Beach County',
+      'DJT Airport is 20 minutes away — one of the most accessible oceanfront addresses relative to the airport in Palm Beach County',
       'Palm Beach Gardens\' full dining and retail corridor is 15 minutes across the Blue Heron Bridge',
       'Peanut Island Park and the Intracoastal provide exceptional boating, snorkeling, and fishing without leaving the immediate area',
       'One of the few oceanfront barrier islands in Palm Beach County where buyers can still find value — relative to Boca or Palm Beach, the gap remains significant',
@@ -2611,7 +2610,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Jupiter', time: '10 min' },
       { destination: 'Stuart', time: '25 min' },
       { destination: 'Palm Beach Gardens', time: '25 min' },
-      { destination: 'PBI Airport', time: '35 min' },
+      { destination: 'DJT Airport', time: '35 min' },
       { destination: 'Port St. Lucie', time: '35 min' },
       { destination: 'West Palm Beach', time: '45 min' },
     ],
@@ -2733,7 +2732,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Port St. Lucie', time: '20 min' },
       { destination: 'Jupiter', time: '35 min' },
       { destination: 'Palm Beach Gardens', time: '45 min' },
-      { destination: 'PBI Airport', time: '55 min' },
+      { destination: 'DJT Airport', time: '55 min' },
       { destination: 'Vero Beach', time: '40 min' },
     ],
     linkedNeighborhoods: [],
@@ -2749,7 +2748,7 @@ export const cities: CommunityItem[] = [
       'South Fork St. Lucie River access gives Palm City a boating lifestyle that most inland communities at this price point cannot offer',
       'Martin County\'s growth management regulations preserve the community\'s density and character — this is not a community that will densify over time',
       'Cleveland Clinic\'s two full-service hospitals in Stuart provide world-class healthcare 10–15 minutes from Palm City addresses',
-      'I-95 access at Exit 101 makes Palm City one of the most commutable of the Treasure Coast communities — 45 minutes to Palm Beach Gardens, 50 minutes to PBI',
+      'I-95 access at Exit 101 makes Palm City one of the most commutable of the Treasure Coast communities — 45 minutes to Palm Beach Gardens, 50 minutes to DJT airport',
       'Price points are 25–40% below comparable waterfront and golf communities in Palm Beach Gardens or Jupiter',
       'The South Fork provides direct navigation to the St. Lucie Inlet and Atlantic Ocean for serious boaters',
     ],
@@ -2827,7 +2826,7 @@ export const cities: CommunityItem[] = [
       },
       {
         q: "What is Port Salerno close to?",
-        a: "Stuart is about 10 minutes north and Jensen Beach about 15. Jupiter and Port St. Lucie are each roughly 30 minutes, Palm Beach Gardens about 45, and Palm Beach International Airport about 55 minutes south. The Hutchinson Island beaches, including Bathtub Beach, are about 20 minutes northeast.",
+        a: "Stuart is about 10 minutes north and Jensen Beach about 15. Jupiter and Port St. Lucie are each roughly 30 minutes, Palm Beach Gardens about 45, and President Donald J. Trump International Airport about 55 minutes south. The Hutchinson Island beaches, including Bathtub Beach, are about 20 minutes northeast.",
       },
       {
         q: "When was Port Salerno founded?",
@@ -2902,7 +2901,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Jupiter', time: '30 min' },
       { destination: 'Port St. Lucie', time: '30 min' },
       { destination: 'Palm Beach Gardens', time: '45 min' },
-      { destination: 'PBI Airport', time: '55 min' },
+      { destination: 'DJT Airport', time: '55 min' },
     ],
     linkedNeighborhoods: [],
     priceRanges: [
@@ -3033,7 +3032,7 @@ export const neighborhoods: CommunityItem[] = [
       'Homes historically hold value well due to location, school zoning, and community design',
       'Diverse home types from condos under $400K to golf-front estates over $1.4M',
       'Beacon Cove, Eisenhower Middle, and William T. Dwyer High serve the community',
-      '10 minutes to Jupiter Beach, 5 minutes to I-95, 25–30 minutes to PBI Airport',
+      '10 minutes to Jupiter Beach, 5 minutes to I-95, 25–30 minutes to DJT Airport',
     ],
     schoolOverview: 'Abacoa has both public and private school access and is zoned for its own dedicated school pipeline, which differs from the Jupiter High School zone. Buyers should confirm current attendance assignments with Palm Beach County Schools, as boundaries within Abacoa vary by address.',
     schoolList: [
@@ -3060,7 +3059,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Florida Turnpike', time: '10 min' },
       { destination: 'Downtown Jupiter', time: '8–10 min' },
       { destination: 'The Gardens Mall', time: '15 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     outdoorActivities: [
       'Abacoa Golf Club (public, recently redesigned)',
@@ -3092,7 +3091,7 @@ export const neighborhoods: CommunityItem[] = [
       'Only ~400 homes — one of the smallest and most exclusive incorporated towns in Florida',
       'The Jupiter Lighthouse sits at the edge of the Colony — one of the most iconic views in South Florida',
       'No commercial development — pure residential, no traffic, no noise',
-      'Minutes to Jupiter\'s restaurants, I-95, and PBI Airport',
+      'Minutes to Jupiter\'s restaurants, I-95, and DJT Airport',
     ],
     priceRanges: [
       { type: 'Oceanfront Condos', range: '$1M – $4M+', minPrice: 1000000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront_ocean'] },
@@ -3115,7 +3114,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Downtown Jupiter', time: '5 min' },
       { destination: 'I-95', time: '10 min' },
       { destination: 'Florida Turnpike', time: '15 min' },
-      { destination: 'PBI Airport', time: '30 min' },
+      { destination: 'DJT Airport', time: '30 min' },
       { destination: 'Palm Beach Gardens', time: '20 min' },
     ],
     lat: 26.9489, lng: -80.0701,
@@ -3166,7 +3165,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Harbourside Place / Jupiter Riverwalk', time: '12–15 min' },
       { destination: 'Jupiter Beach & Carlin Park', time: '15–20 min' },
       { destination: 'Downtown at the Gardens / Legacy Place', time: '15–20 min' },
-      { destination: 'PBI Airport', time: '30 min' },
+      { destination: 'DJT Airport', time: '30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -3279,7 +3278,7 @@ export const neighborhoods: CommunityItem[] = [
       'Five championship golf courses including the legendary Champion Course host of The Honda Classic',
       'Dozens of distinct neighborhoods within one gated community — something for every buyer profile',
       'Optional resort and club memberships — flexibility to participate in as much or as little of the lifestyle as you want',
-      'Minutes to PGA Boulevard dining, I-95, and Palm Beach International Airport',
+      'Minutes to PGA Boulevard dining, I-95, and President Donald J. Trump International Airport',
       'Strong year-round and seasonal rental demand from golf buyers and snowbirds',
     ],
     quickFacts: [
@@ -3292,7 +3291,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'PGA Blvd / Downtown Gardens', time: '< 10 min' },
       { destination: 'Florida Turnpike', time: '5 min' },
       { destination: 'I-95', time: '5–10 min' },
-      { destination: 'PBI Airport', time: '20–25 min' },
+      { destination: 'DJT Airport', time: '20–25 min' },
       { destination: 'Juno Beach', time: '15 min' },
       { destination: 'Jupiter', time: '20 min' },
     ],
@@ -3413,7 +3412,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'PGA Boulevard (Gardens)', time: '10 min' },
       { destination: 'I-95', time: '15 min' },
       { destination: 'Florida Turnpike', time: '10 min' },
-      { destination: 'PBI Airport', time: '25 min' },
+      { destination: 'DJT Airport', time: '25 min' },
       { destination: 'Jupiter Beach', time: '25 min' },
       { destination: 'The Gardens Mall', time: '15 min' },
     ],
@@ -3598,7 +3597,7 @@ export const neighborhoods: CommunityItem[] = [
     region: 'West Palm Beach',
     description: 'A convenient residential community with easy access to shopping, the airport, and city amenities.',
     overview:
-      'Palm Beach Lakes offers straightforward access to PBI Airport, I-95, and downtown West Palm Beach.',
+      'Palm Beach Lakes offers straightforward access to DJT Airport, I-95, and downtown West Palm Beach.',
     quickFacts: [
       { label: 'Homes', value: 'Single-family homes and townhomes' },
       { label: 'Amenities', value: 'Shopping, schools, dining, airport proximity' },
@@ -3897,47 +3896,6 @@ export const neighborhoods: CommunityItem[] = [
     ],
   },
 
-  // ── LAKE WORTH BEACH ─────────────────────────────────────────
-  {
-    slug: 'lake-worth-estates',
-    name: 'Lake Worth Estates',
-    type: 'Neighborhood',
-    region: 'Lake Worth Beach',
-    description: 'A boutique gated community with luxury homes and a private country club setting.',
-    overview:
-      'Lake Worth Estates offers an intimate luxury setting with manicured grounds and top-tier amenities in the heart of Lake Worth Beach.',
-    quickFacts: [
-      { label: 'Homes', value: 'Gated estate homes' },
-      { label: 'Amenities', value: 'Country club, golf, dining' },
-    ],
-  },
-  {
-    slug: 'poinciana-park',
-    name: 'Poinciana Park',
-    type: 'Neighborhood',
-    region: 'Lake Worth Beach',
-    description: 'A coastal neighborhood with historic bungalows and eclectic local character near the beach.',
-    overview:
-      'Poinciana Park offers a charming, walkable neighborhood feel within easy reach of Lake Worth Beach and downtown attractions.',
-    quickFacts: [
-      { label: 'Homes', value: 'Bungalows, cottages, ranch homes' },
-      { label: 'Amenities', value: 'Beach proximity, local dining' },
-    ],
-  },
-  {
-    slug: 'lake-worth-gardens',
-    name: 'Lake Worth Gardens',
-    type: 'Neighborhood',
-    region: 'Lake Worth Beach',
-    description: 'A community with golf, waterfront views, and a friendly residential atmosphere.',
-    overview:
-      'Lake Worth Gardens offers an active community lifestyle and easy access to beaches, shopping, and the Lake Worth waterfront.',
-    quickFacts: [
-      { label: 'Homes', value: 'Single-family homes and villas' },
-      { label: 'Amenities', value: 'Golf, pool, lake views' },
-    ],
-  },
-
   // ── ROYAL PALM BEACH ─────────────────────────────────────────
   {
     slug: 'pomelo-park',
@@ -4075,7 +4033,7 @@ export const neighborhoods: CommunityItem[] = [
     region: 'Jupiter',
     description: 'A purpose-built luxury golf destination centered on a Jack Nicklaus Signature course, with estate homes, courtyard residences, and resort-caliber club amenities in Jupiter.',
     overview:
-      'Trump National Golf Club Jupiter is a gated luxury residential community built around an 18-hole Jack Nicklaus Signature championship course. The development offers a curated range of home types — estate homes on large lots, courtyard homes designed for low-maintenance living, and golf residences with direct course views. Classic Mediterranean and refined contemporary architectural styles define the community, with generous spacing and privacy throughout. Club amenities include a full clubhouse with dining, resort-style pool and spa, tennis, fitness center, golf practice facilities, and a year-round member events calendar. Located in Jupiter with easy access to beaches, I-95, and Palm Beach International Airport.',
+      'Trump National Golf Club Jupiter is a gated luxury residential community built around an 18-hole Jack Nicklaus Signature championship course. The development offers a curated range of home types — estate homes on large lots, courtyard homes designed for low-maintenance living, and golf residences with direct course views. Classic Mediterranean and refined contemporary architectural styles define the community, with generous spacing and privacy throughout. Club amenities include a full clubhouse with dining, resort-style pool and spa, tennis, fitness center, golf practice facilities, and a year-round member events calendar. Located in Jupiter with easy access to beaches, I-95, and President Donald J. Trump International Airport.',
     quickFacts: [
       { label: 'Homes', value: 'Estate homes, courtyard homes, and golf residences' },
       { label: 'Amenities', value: 'Jack Nicklaus Signature golf, resort pool, spa, tennis, fitness, pro shop' },
@@ -4089,7 +4047,7 @@ export const neighborhoods: CommunityItem[] = [
       'Diverse home types: estate homes, courtyard homes, and golf-front residences',
       'Resort-style pool, spa, tennis, fitness center, and pro shop',
       'Full member events calendar and clubhouse dining',
-      'Minutes to Jupiter beaches, Abacoa dining, and Palm Beach International Airport',
+      'Minutes to Jupiter beaches, Abacoa dining, and President Donald J. Trump International Airport',
     ],
   },
   {
@@ -4100,7 +4058,7 @@ export const neighborhoods: CommunityItem[] = [
     ylopoLocation: 'The Bears Club', // the MLS drops the apostrophe
     description: 'Jack Nicklaus\'s premier private golf community — guard-gated, intentionally discreet, and home to some of Jupiter\'s most significant custom estate residences.',
     overview:
-      "The Bear's Club is an exclusive guard-gated residential golf community in Jupiter, designed by Jack Nicklaus and built around a championship-quality Signature course widely regarded as one of the premier private golf experiences in South Florida. The community is defined by its intentionally low-key, member-centric culture — generous lot sizes, thoughtful architectural diversity, mature landscaping, and a quiet atmosphere that has long attracted executives, entrepreneurs, and professional athletes who value privacy above all else. Custom estate residences offer expansive floor plans, high ceilings, private pools, and golf course, lake, or preserve views. Limited inventory and a long-term ownership culture make opportunities rare. Jupiter's beaches are 10 minutes away; Abacoa dining is 5 minutes; Palm Beach International Airport is about 25 minutes.",
+      "The Bear's Club is an exclusive guard-gated residential golf community in Jupiter, designed by Jack Nicklaus and built around a championship-quality Signature course widely regarded as one of the premier private golf experiences in South Florida. The community is defined by its intentionally low-key, member-centric culture — generous lot sizes, thoughtful architectural diversity, mature landscaping, and a quiet atmosphere that has long attracted executives, entrepreneurs, and professional athletes who value privacy above all else. Custom estate residences offer expansive floor plans, high ceilings, private pools, and golf course, lake, or preserve views. Limited inventory and a long-term ownership culture make opportunities rare. Jupiter's beaches are 10 minutes away; Abacoa dining is 5 minutes; President Donald J. Trump International Airport is about 25 minutes.",
     quickFacts: [
       { label: 'Homes', value: 'Custom estate residences on oversized lots with golf, lake, or preserve views' },
       { label: 'Amenities', value: 'Jack Nicklaus Signature golf, elegant clubhouse dining, practice facilities' },
@@ -4241,7 +4199,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
       { destination: 'Downtown At the Gardens / Alton', time: '15 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4286,7 +4244,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
       { destination: 'Downtown at the Gardens / Alton', time: '15 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4326,7 +4284,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: 'Walking distance' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4366,7 +4324,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: '5 min' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4406,7 +4364,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: 'Walking distance' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4446,7 +4404,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: 'Walking distance' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4486,7 +4444,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: '5 min' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4526,7 +4484,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: '5 min' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4570,7 +4528,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: '5 min' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4610,7 +4568,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: '5 min' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [
@@ -4651,7 +4609,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Abacoa Town Center', time: '5 min' },
       { destination: 'Jupiter Beach', time: '10–15 min' },
       { destination: 'I-95', time: '5 min' },
-      { destination: 'PBI Airport', time: '25–30 min' },
+      { destination: 'DJT Airport', time: '25–30 min' },
     ],
     schoolList: [
       { category: 'Public Schools', schools: [

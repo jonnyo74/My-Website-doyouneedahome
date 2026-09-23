@@ -276,7 +276,7 @@ Summer is the trade-off. June through September is hot, sticky, and humid, with 
 
 Jupiter is built around the car. You'll drive to the store, drive to the beach, drive to dinner. There's no subway here, and public transit is light.
 
-Traffic is real but manageable — nothing like Miami. The pinch points are **US-1** and **Indiantown Road** during season, when part-timers double the population. A 15-minute drive in August might take 30 in February. The bonus: Palm Beach International Airport is about 30–40 minutes south, so flying home to see family up north is easy.
+Traffic is real but manageable — nothing like Miami. The pinch points are **US-1** and **Indiantown Road** during season, when part-timers double the population. A 15-minute drive in August might take 30 in February. The bonus: President Donald J. Trump International Airport is about 30–40 minutes south, so flying home to see family up north is easy.
 
 ![Manatee in clear water near the Jupiter inlet](/images/jupiter/jupiter-009.jpg "Manatees move into the calmer water near the inlet and marinas as the water cools — an ordinary winter sight here, not a special occasion.")
 
@@ -329,7 +329,7 @@ The best way to know is to picture your own ordinary Tuesday here: morning walk 
       },
       {
         q: 'How far is Jupiter from the airport?',
-        a: 'Palm Beach International Airport is roughly a 30–40 minute drive south, making travel north to visit family simple.',
+        a: 'President Donald J. Trump International Airport is roughly a 30–40 minute drive south, making travel north to visit family simple.',
       },
     ],
     internalLinks: [
@@ -525,7 +525,7 @@ Residents solve this the obvious way: they use the accesses nearest their homes 
 
 If you're house-hunting here, it's worth noting which access you'd realistically walk to, because "close to the beach" and "close to somewhere you can park at the beach" aren't always the same address.
 
-Everything in town is minutes away, but almost nothing you need daily is *in* town. Realistic drive times: Donald Ross Village and Palm Beach Gardens under ten minutes, Jupiter about ten minutes north, Singer Island about ten minutes south, and Palm Beach International Airport roughly 25 minutes.
+Everything in town is minutes away, but almost nothing you need daily is *in* town. Realistic drive times: Donald Ross Village and Palm Beach Gardens under ten minutes, Jupiter about ten minutes north, Singer Island about ten minutes south, and President Donald J. Trump International Airport roughly 25 minutes.
 
 I-95 and Florida's Turnpike are both a short drive inland, which makes the town far better connected than its size suggests.
 
@@ -538,7 +538,7 @@ And accept early that your restaurants, your shopping, and most of your errands 
       { q: "What are the main roads in Juno Beach?", a: "Ocean Drive (A1A) runs along the beach connecting the residential stretches and oceanfront condos, and US-1 is the inland spine used to reach Jupiter to the north and Donald Ross Village and Palm Beach Gardens to the south. The beach, the Juno Beach Pier, and Loggerhead Park anchor the eastern side." },
       { q: "What are the turtle season rules in Juno Beach?", a: "From roughly March through October, beachfront properties switch to turtle-safe amber lighting so hatchlings aren't disoriented, beachgoers must fill in any holes they dig, marked nests must not be disturbed, and white light toward the water at night should be avoided. Residents take these seriously." },
       { q: "When is sea turtle nesting season in Juno Beach?", a: "Roughly March through October. The Loggerhead Marinelife Center runs seasonal programming during this period, including turtle walks, and nests are marked and protected along the beach." },
-      { q: "How far is Juno Beach from Palm Beach Gardens and Jupiter?", a: "Both are close — Donald Ross Village and Palm Beach Gardens are under ten minutes, Jupiter is about ten minutes north, and Singer Island about ten minutes south. Palm Beach International Airport is roughly 25 minutes, with I-95 and the Turnpike a short drive inland." },
+      { q: "How far is Juno Beach from Palm Beach Gardens and Jupiter?", a: "Both are close — Donald Ross Village and Palm Beach Gardens are under ten minutes, Jupiter is about ten minutes north, and Singer Island about ten minutes south. President Donald J. Trump International Airport is roughly 25 minutes, with I-95 and the Turnpike a short drive inland." },
       { q: "Is Juno Beach busy in season?", a: "It gets more activity from roughly November through April as part-time residents arrive, but 'busy' here still means something very different from Jupiter or Delray Beach. The beach sees more use without becoming crowded by South Florida standards." },
       { q: "How do you meet people in Juno Beach?", a: "The Loggerhead Marinelife Center is the main hub — volunteering, membership, and its calendar of releases and programs are how a lot of residents connect. The pier and the beach in the early morning are the other reliable places to become a familiar face." },
     ],
@@ -1657,7 +1657,7 @@ Weighing a downtown tower instead? That market runs on building-by-building spec
     faqs: [
       { q: "How is West Palm Beach laid out?", a: "Roughly four zones: downtown and the Flagler Drive waterfront (dense, walkable, where the offices are); the historic south including El Cid, Flamingo Park, Grandview Heights, and SoSo; Northwood and Antique Row to the north; and conventional suburbia west of I-95 toward Palm Beach Lakes." },
       { q: "Where do you park in downtown West Palm Beach?", a: "Use the garages. Street parking downtown in the evening — especially Thursday through Saturday and during season — turns over slowly and isn't worth circling for. Residents typically pick one structure and walk a couple of blocks." },
-      { q: "How far is West Palm Beach from the airport?", a: "Palm Beach International Airport is roughly 10 to 15 minutes from downtown, which is unusually close and one of the practical advantages of living in the city. I-95 and Florida's Turnpike both run through as well." },
+      { q: "How far is West Palm Beach from the airport?", a: "President Donald J. Trump International Airport is roughly 10 to 15 minutes from downtown, which is unusually close and one of the practical advantages of living in the city. I-95 and Florida's Turnpike both run through as well." },
       { q: "What is the West Palm Beach GreenMarket?", a: "A Saturday morning market on the waterfront that has run since 1994. It's genuinely local rather than a tourist farmers market, draws large crowds during season, and functions as the city's main shared weekly ritual." },
       { q: "Is there public transit in West Palm Beach?", a: "Limited beyond the Brightline intercity rail station downtown, though a free circulator serves the downtown core. For most of the city you'll drive. The Brightline itself makes Fort Lauderdale, Miami, and Orlando reachable without a car." },
       { q: "What should new residents of West Palm Beach do first?", a: "Ride the Brightline somewhere, go to the Saturday GreenMarket, and walk any prospective block after dark before buying. The city varies significantly street to street, so street-level research matters far more here than zip-code-level research." },
@@ -2730,7 +2730,7 @@ It's modest in scale. But being able to walk to coffee is a genuine part of the 
 
 ## Location and getting around
 
-North of downtown, which puts the city center within a short drive and the Brightline station accessible for trips to Fort Lauderdale, Miami, or Orlando. Palm Beach International Airport is close. The Palm Beach island beaches are a short drive across the bridge.
+North of downtown, which puts the city center within a short drive and the Brightline station accessible for trips to Fort Lauderdale, Miami, or Orlando. President Donald J. Trump International Airport is close. The Palm Beach island beaches are a short drive across the bridge.
 
 You will drive for most things, though less than in the suburbs.
 
@@ -2952,7 +2952,7 @@ In an emergency, call 911. For everything short of that, note your nearest emerg
 
 ## Getting out of town
 
-- **Palm Beach International** is the closest major airport and generally the easiest.
+- **President Donald J. Trump International Airport** is the closest major airport and generally the easiest.
 - **Fort Lauderdale–Hollywood** is further but opens more routes; worth the drive for the right fare.
 - **Tri-Rail**'s Delray Beach Station is at 345 S. Congress Avenue and has public commuter parking. The line runs the corridor between Miami and West Palm Beach, so it's useful if your destination is near another station.
 - **Brightline does not stop in Delray Beach.** The nearby station options are Boca Raton and West Palm Beach. Check schedules, fares, and station parking directly with Brightline before relying on either.
@@ -3336,7 +3336,7 @@ Before you commit, map the routine you'll actually have:
 
 **Rail.** Tri-Rail has a Delray Beach station; check its [station and schedule information](https://www1.tri-rail.com/stations/delray-beach) for your trip. Brightline does not currently stop in Delray Beach; the nearby stations are in Boca Raton and West Palm Beach — see Brightline's [station information](https://www.gobrightline.com/to-and-from-station) for locations and parking.
 
-**Airports.** Palm Beach International and Fort Lauderdale–Hollywood are both options. Compare the routes and schedules you'd actually fly, and the drive to each at your usual travel times.
+**Airports.** President Donald J. Trump International Airport and Fort Lauderdale–Hollywood are both options. Compare the routes and schedules you'd actually fly, and the drive to each at your usual travel times.
 
 ## Test more than one season
 
@@ -4219,7 +4219,7 @@ Which is why the single most useful thing you can do is not read someone's chara
 
 A two-mile difference in where you buy can change your daily routine considerably, and you will learn more from one Tuesday-morning drive than from any guide.
 
-**Airports and rail.** Boca Raton has access to Palm Beach International Airport and Fort Lauderdale-Hollywood International Airport. Actual drive times vary substantially by origin, route, time of day, and traffic, so check them for your own address rather than relying on a single number. The [Boca Raton Tri-Rail station](https://www1.tri-rail.com/stations/boca-raton) at 680 Yamato Road provides regional commuter-rail access — check the live schedule and, just as importantly, your last-mile connection at both ends before counting on it.
+**Airports and rail.** Boca Raton has access to President Donald J. Trump International Airport and Fort Lauderdale-Hollywood International Airport. Actual drive times vary substantially by origin, route, time of day, and traffic, so check them for your own address rather than relying on a single number. The [Boca Raton Tri-Rail station](https://www1.tri-rail.com/stations/boca-raton) at 680 Yamato Road provides regional commuter-rail access — check the live schedule and, just as importantly, your last-mile connection at both ends before counting on it.
 
 **On-demand rides.** Circuit's [BocaConnect](https://www.ridecircuit.com/boca-raton) service has offered on-demand electric rides in Boca Raton since June 2024, booked through the Circuit app. Its page lists destinations including Mizner Park, the Brightline station and the Boca Raton Museum of Art, and currently lists rides as free. Check the app for the current service area, hours and fare before relying on it for a regular trip.
 
@@ -4282,7 +4282,7 @@ If you want a hand working through any of that for a specific property, that is 
       { q: 'Is every Boca Raton address inside the City of Boca Raton?', a: 'No. The City has irregular boundaries and the broader Boca mailing area includes unincorporated Palm Beach County. Before buying, verify the exact address’s municipality, property-taxing authorities, utilities, police and fire coverage, zoning, HOA obligations, and school assignment. The City publishes a limits map for this, and resident-only benefits such as beach parking permits generally follow City residency.' },
       { q: 'Should I look in east or west Boca Raton?', a: 'Neither label is a price map. East is not universally pricier and the inland side is not broadly cheaper — waterfront homes, country-club communities, condominiums, and inland single-family neighborhoods all carry substantially different purchase prices and recurring costs on both sides of the highway. Compare specific properties with their dues and assessments included, and confirm which jurisdiction each sits in.' },
       { q: 'How bad is traffic on Glades Road in Boca Raton?', a: 'Glades Road is a major east-west commercial corridor connecting shopping, office space, the university, and highway access, so it carries a lot of different traffic at once. Conditions vary by route, hour, events, construction, and season. Rather than rely on a general characterization, test the routes you would use for work, school, airports, shopping, and healthcare at the times you would actually travel them.' },
-      { q: 'How far is Boca Raton from the airport?', a: 'Boca Raton has access to both Palm Beach International Airport and Fort Lauderdale-Hollywood International Airport, but actual drive times vary substantially by origin, route, time of day, and traffic, so check them from the specific address you are considering. The Boca Raton Tri-Rail station at 680 Yamato Road provides regional commuter-rail access; check the live schedule and your last-mile connection at both ends.' },
+      { q: 'How far is Boca Raton from the airport?', a: 'Boca Raton has access to both President Donald J. Trump International Airport and Fort Lauderdale-Hollywood International Airport, but actual drive times vary substantially by origin, route, time of day, and traffic, so check them from the specific address you are considering. The Boca Raton Tri-Rail station at 680 Yamato Road provides regional commuter-rail access; check the live schedule and your last-mile connection at both ends.' },
       { q: 'Do I have to join a club to live in Boca Raton?', a: 'No. Some communities include private clubs or organized amenities, and membership can be mandatory, optional, or unavailable depending on the community. Confirm initiation fees, dues, food-and-beverage minimums, transfer rules, waitlists, guest policies, and HOA obligations from the current club and association documents before making an offer. City beach parks, public events, FAU programming, parks, and downtown cultural venues are all available without a membership.' },
       { q: 'Where can I see nature around Boca Raton?', a: "Two different options run by two different governments. The City's beach parks — Spanish River, Red Reef, and South Beach — provide ocean access on the east side, with Gumbo Limbo Nature Center near Red Reef. West of the City, Palm Beach County operates Daggerwing Nature Center in Burt Aaronson South County Regional Park, where an accessible boardwalk passes through seasonal swamp habitat. Check each one's current hours and conditions before visiting." },
       { q: 'What is season like in Boca Raton?', a: "Season runs roughly November through April, when more residents and visitors are in town, restaurants are busier, roads carry more traffic, and the weather is at its most comfortable. Summer is hot and humid with afternoon thunderstorms, so check live forecasts and local alerts before outdoor plans. Hurricane season runs June through November — know your evacuation zone and flood status in advance through the City and County resources." },
@@ -4856,7 +4856,7 @@ Florida Atlantic University, a substantial corporate employment base, strong hea
 
 ### Two airports
 
-Palm Beach International to the north and Fort Lauderdale-Hollywood to the south, each roughly thirty minutes. For frequent travelers this is a real and underrated advantage.
+President Donald J. Trump International Airport to the north and Fort Lauderdale-Hollywood to the south, each roughly thirty minutes. For frequent travelers this is a real and underrated advantage.
 
 ### An unusually wide price range
 
@@ -6508,7 +6508,7 @@ The rules and conditions that affect boaters change, so rely on the authorities 
 
 - **Tri-Rail:** Boynton Beach Station is at 2800 High Ridge Road. Station parking has its own registration rules — see [Tri-Rail's station page](https://www1.tri-rail.com/stations/boynton-beach).
 - **Brightline:** doesn't stop in Boynton Beach; the nearby stations are in Boca Raton and West Palm Beach. See [Brightline's station information](https://www.gobrightline.com/to-and-from-station).
-- **Airports:** [Palm Beach International](https://www.pbia.org/) and [Fort Lauderdale–Hollywood International](https://www.fll.net/). Compare routes and schedules for the trips you make.
+- **Airports:** [President Donald J. Trump International Airport](https://flydjt.org/) and [Fort Lauderdale–Hollywood International](https://www.fll.net/). Compare routes and schedules for the trips you make.
 - **Circuit:** Circuit's [Coastal Cruiser](https://www.ridecircuit.com/boynton-beach) on-demand electric ride service has operated in Boynton Beach since March 2024, booked through the Circuit app. Its page lists destinations including Oceanfront Park, City Hall and the library, and Boynton Harbor Marina, and currently lists rides as free. Check the app for the current service area, hours and fare.
 - **I-95 and Florida's Turnpike:** both run north–south through the area. Drive your regular routes at the hours you'd use them, including in season, rather than relying on a quoted time.
 
@@ -6545,7 +6545,7 @@ For more, see our [Boynton Beach neighborhood guide](/blog/best-neighborhoods-in
       { q: "How do I get to the beach from Boynton Beach?", a: "The City of Boynton Beach's Oceanfront Park is at 6415 N. Ocean Boulevard in Ocean Ridge, across the Intracoastal. The City operates it and lists paid parking there; check the City's current parking page for rules, rates and any resident programs. Palm Beach County's Ocean Inlet Park, on the Boynton Inlet, also lists a guarded beach area." },
       { q: "Who provides water and sewer in Boynton Beach?", a: "It depends on the address. The City of Boynton Beach Utilities serves many addresses, including some outside city limits, and other addresses are on other providers. Confirm the provider for the parcel before closing, and see the City's applications for service." },
       { q: "What should boat owners in Boynton Beach check?", a: "Register the vessel through the Tax Collector, follow FWC boating regulations and manatee protection zones, check Intracoastal drawbridge rules in the federal regulation and the Coast Guard's Local Notices to Mariners, and confirm current marina and launch access. Boynton Inlet sits between Manalapan and Ocean Ridge." },
-      { q: "How do I get around from Boynton Beach?", a: "Tri-Rail's Boynton Beach Station is at 2800 High Ridge Road. Brightline doesn't stop in Boynton Beach; the nearby stations are in Boca Raton and West Palm Beach. Palm Beach International and Fort Lauderdale–Hollywood International are the nearby airports. I-95 and Florida's Turnpike both run through the area; test your regular routes at the hours you'd use them." },
+      { q: "How do I get around from Boynton Beach?", a: "Tri-Rail's Boynton Beach Station is at 2800 High Ridge Road. Brightline doesn't stop in Boynton Beach; the nearby stations are in Boca Raton and West Palm Beach. President Donald J. Trump International Airport and Fort Lauderdale–Hollywood International are the nearby airports. I-95 and Florida's Turnpike both run through the area; test your regular routes at the hours you'd use them." },
       { q: "How should I prepare for hurricane season in Boynton Beach?", a: "The Atlantic hurricane season runs June 1 through November 30. Look up your evacuation zone with Palm Beach County's Know Your Zone page, know the parcel's flood zone, build your plan and supply kit from Palm Beach County Emergency Management's current guidance, follow official evacuation orders, and arrange shutters or impact protection following current City, County, insurer and HOA requirements." },
     ],
     internalLinks: ["what-its-really-like-living-in-boynton-beach-florida", "best-neighborhoods-in-boynton-beach-florida", "cost-of-living-in-boynton-beach-florida"],
@@ -6875,7 +6875,7 @@ The western Boynton Beach mailing area includes both City of Boynton Beach neigh
 
 - **Tri-Rail:** Boynton Beach Station is at 2800 High Ridge Road; see [Tri-Rail's station page](https://www1.tri-rail.com/stations/boynton-beach) for parking rules.
 - **Brightline:** doesn't stop in Boynton Beach; the nearby stations are in Boca Raton and West Palm Beach. See [Brightline's station information](https://www.gobrightline.com/to-and-from-station).
-- **Airports:** Palm Beach International and Fort Lauderdale–Hollywood International.
+- **Airports:** President Donald J. Trump International Airport and Fort Lauderdale–Hollywood International.
 - **I-95 and Florida's Turnpike:** both run north–south through the area. Test your regular routes at the hours you'd use them rather than relying on a quoted time.
 
 ## What to test on a visit
@@ -10413,7 +10413,7 @@ Most working residents drive east most days, and the route you pick matters more
 
 For anything west — the rural county, the newer communities out that way — **Seminole Pratt Whitney Road** is the connector, reached from Southern Boulevard.
 
-Palm Beach International Airport is a straightforward run east on Okeechobee or Southern. Allow more than the map suggests during season.
+President Donald J. Trump International Airport is a straightforward run east on Okeechobee or Southern. Allow more than the map suggests during season.
 
 ## Where you actually go for things
 
@@ -10476,7 +10476,7 @@ Royal Palm Beach does not reveal itself slowly. It is a legible, practical villa
     faqs: [
       { q: "What are the main roads in Royal Palm Beach?", a: "Royal Palm Beach Boulevard runs north to south through the center of the village. Southern Boulevard (State Road 80) forms the southern edge, Okeechobee Boulevard runs parallel to the north, and State Road 7 (US 441) forms the eastern boundary and carries most of the shopping. Crestwood Boulevard is the useful internal alternative." },
       { q: "How do you get around Royal Palm Beach?", a: "By car. There is no practical public transport, so most households need a vehicle per driver. Journeys are short in distance but everything is a drive, which makes choosing a neighborhood near your daily routine more important than it would be in a walkable town." },
-      { q: "How long does it take to get to the beach or the airport from Royal Palm Beach?", a: "Both are a drive east on Southern or Okeechobee Boulevard. Allow roughly half an hour to the coast and somewhat less to Palm Beach International, adding time between January and April when seasonal traffic is heavier on the shared corridors." },
+      { q: "How long does it take to get to the beach or the airport from Royal Palm Beach?", a: "Both are a drive east on Southern or Okeechobee Boulevard. Allow roughly half an hour to the coast and somewhat less to President Donald J. Trump International Airport, adding time between January and April when seasonal traffic is heavier on the shared corridors." },
       { q: "How do residents sign up for village recreation programs?", a: "Through the village parks and recreation department, which runs sports leagues, seasonal camps, classes and community events on a published schedule with set registration periods. Residents generally pay a lower rate than non-residents, and places for the busy seasons fill quickly, so registering early is worthwhile." },
     ],
     internalLinks: ["what-its-really-like-living-in-royal-palm-beach-florida", "best-things-to-do-in-royal-palm-beach-florida", "hidden-gems-in-royal-palm-beach-florida"],
@@ -11538,7 +11538,7 @@ More important out here than in a suburb.
 
 - **A reliable vehicle is essential**, and most households need more than one.
 - **There is no transit.**
-- **Palm Beach International** is roughly forty minutes.
+- **President Donald J. Trump International Airport** is roughly forty minutes.
 - **The Turnpike and I-95** are reached via the main east–west boulevards.
 - Traffic builds eastbound in the morning and westbound in the evening on the main routes; leave margin.
 
@@ -13889,7 +13889,7 @@ Drive the actual route from the specific property at the hours you expect to tra
 
 The Stuart and Martin County economy runs on healthcare, marine industries, construction, education, government, retail, hospitality, professional services, aviation and small business. It does not offer the depth of a metropolitan county. Someone relocating without a job in hand or a reliable remote arrangement should investigate the local market for their specific profession first.
 
-Witham Field is Martin County's public-use airport in Stuart, and it serves general aviation rather than scheduled airlines: private and corporate aviation, flight training, maintenance, charters, and emergency and government flights. Residents flying commercially mostly use Palm Beach International. Test the drive from the actual property.
+Witham Field is Martin County's public-use airport in Stuart, and it serves general aviation rather than scheduled airlines: private and corporate aviation, flight training, maintenance, charters, and emergency and government flights. Residents flying commercially mostly use President Donald J. Trump International Airport. Test the drive from the actual property.
 
 Stuart and the wider county have hospitals, medical offices, urgent care and specialists, but the availability of a particular doctor, hospital service or insurance network has to be checked individually. Anyone with ongoing medical needs should confirm the distance to their preferred providers, hospital access, specialist availability, insurance participation, emergency routes and follow-up care. A small regional community will not offer every highly specialized service locally.
 
@@ -14060,7 +14060,7 @@ Until a station is funded, built and open, Stuart's regional connections are roa
 
 I-95 and Florida's Turnpike both run west of downtown and the coast. Drive time to an interchange depends on the neighborhood, the time of day, traffic, construction and which highway you want. Neither is "a few minutes" from every Stuart address.
 
-Palm Beach International is generally the closest major commercial airport, and the drive varies a great deal with the starting address, traffic and parking. Anyone who flies regularly should test the route from the actual property rather than trusting a generalized estimate. Depending on the destination, fare and schedule, residents also use Orlando, Fort Lauderdale, Miami and Melbourne; the best airport is often decided by the available flight rather than the mileage.
+President Donald J. Trump International Airport is generally the closest major commercial airport, and the drive varies a great deal with the starting address, traffic and parking. Anyone who flies regularly should test the route from the actual property rather than trusting a generalized estimate. Depending on the destination, fare and schedule, residents also use Orlando, Fort Lauderdale, Miami and Melbourne; the best airport is often decided by the available flight rather than the mileage.
 
 Witham Field is Martin County's public-use airport in Stuart itself. It handles private aviation, charters, flight training and aircraft services, not scheduled passenger flights. Handy if that is relevant to you, irrelevant if not.
 
@@ -14146,7 +14146,7 @@ Learn the water, learn the bridges and show up downtown. The rest of Stuart make
       { q: "What is Confusion Corner in Stuart?", a: "It is the downtown intersection around Colorado Avenue and Ocean Boulevard where several streets, a roundabout and the Florida East Coast Railway corridor meet at odd angles. It is signposted and locals navigate it without thinking; newcomers should slow down, follow the marked lane and watch for trains. It stops being confusing within a couple of weeks, and the Creek District arts area sits just south of it." },
       { q: "What do locals do in Stuart, Florida?", a: "Boating and fishing dominate, along with the downtown Riverwalk, the Lyric Theatre, Sunday’s Market on Main and Rock’n Riverwalk concerts, the Creek District, seasonal festivals, fishing tournaments and the boat show. Weekend sandbar gatherings on the flats are a social institution with their own rules. Beach days happen on Hutchinson Island." },
       { q: "What should boaters know before buying in Stuart?", a: "Air draft and bridge clearance matter more than dock length. Several bridges between the inland waterways and the St. Lucie Inlet are fixed, and the century-old railroad bridge at downtown gives only about 6.5 feet of clearance until its funded replacement is built. That determines what you can keep at a property and where you can take it. Verify clearances, depth and the route for your specific vessel, and learn the inlet before you run it." },
-      { q: "What is the nearest airport to Stuart, Florida?", a: "Palm Beach International is generally the closest major commercial airport, though the drive varies a lot with the starting address and traffic, so test it from the actual property. Orlando, Fort Lauderdale, Miami and Melbourne are all used depending on the flight. Witham Field in Stuart itself handles general aviation only." },
+      { q: "What is the nearest airport to Stuart, Florida?", a: "President Donald J. Trump International Airport is generally the closest major commercial airport, though the drive varies a lot with the starting address and traffic, so test it from the actual property. Orlando, Fort Lauderdale, Miami and Melbourne are all used depending on the flight. Witham Field in Stuart itself handles general aviation only." },
       { q: "When is the busy season in Stuart, Florida?", a: "Parts of winter and spring, when the seasonal population arrives, downtown is lively, tournaments and the boat show run, and traffic on US-1 is heavier. Summer into early fall is hot, quiet and stormy, with hurricane season from June 1 to November 30 and some businesses trimming hours. The change does not happen on fixed dates; crowds follow the weather, holidays and events." },
     ],
     internalLinks: ["what-its-really-like-living-in-stuart-florida", "best-things-to-do-in-stuart-florida", "hidden-gems-in-stuart-florida"],
@@ -14638,7 +14638,7 @@ Before choosing Stuart, run these tests.
 
 **Test the commute.** Drive it during the hours you expect to travel.
 
-**Test the airport.** Make the trip to Palm Beach International, or whichever airport you expect to use, and include parking.
+**Test the airport.** Make the trip to President Donald J. Trump International Airport, or whichever airport you expect to use, and include parking.
 
 **Test the neighborhood.** Visit in the morning, the evening, on a weekday and on a weekend.
 
@@ -14791,7 +14791,7 @@ Anyone relocating without a job already in hand should research current openings
 
 Stuart sits north of the employment, entertainment and transport centers of Palm Beach, Broward and Miami-Dade. Expect to drive for certain jobs, major concerts, professional sport, a wider restaurant range, specialized shopping, some medical specialists and most airline routes.
 
-Palm Beach International is generally the closest major commercial airport, though travel time varies considerably by neighborhood, traffic and parking, and West Palm Beach is commonly around an hour on an I-95-dependent route with limited alternatives. There is currently no operating Brightline station in Stuart. If you expect to use metropolitan amenities often, count how many of those drives a month you are really signing up for.
+President Donald J. Trump International Airport is generally the closest major commercial airport, though travel time varies considerably by neighborhood, traffic and parking, and West Palm Beach is commonly around an hour on an I-95-dependent route with limited alternatives. There is currently no operating Brightline station in Stuart. If you expect to use metropolitan amenities often, count how many of those drives a month you are really signing up for.
 
 ### Limited Large-Scale New Construction
 
@@ -14999,7 +14999,7 @@ One thing buyers miss: a completed report does not mean the work it identifies h
 
 **Utilities.** Electricity use climbs through the hot, humid months for cooling and moisture control, but the actual cost depends on square footage, insulation, windows, roof, air-conditioning efficiency, thermostat habits, pool equipment, occupancy, solar exposure and rates. Older homes are not automatically inefficient and new ones are not automatically cheap to run. Ask for recent utility records where available, remembering that another household's habits are not yours. Also confirm whether the property is on public water and sewer, well water, septic, an irrigation well, propane or association-provided utilities — septic maintenance, well equipment and future connection projects all cost money.
 
-**Transportation.** Much of the area is car-dependent, so count fuel, tolls, maintenance, insurance, parking, commute time, airport trips and any additional household vehicle. Anyone commuting regularly to Palm Beach County should drive the real route at real work-hour traffic and cost the month out properly. Palm Beach International is the nearest major commercial airport for most residents, though travel time varies by address. There is no operating Brightline station in Stuart, and a proposed future one should not be counted as a transportation benefit you are buying today.
+**Transportation.** Much of the area is car-dependent, so count fuel, tolls, maintenance, insurance, parking, commute time, airport trips and any additional household vehicle. Anyone commuting regularly to Palm Beach County should drive the real route at real work-hour traffic and cost the month out properly. President Donald J. Trump International Airport is the nearest major commercial airport for most residents, though travel time varies by address. There is no operating Brightline station in Stuart, and a proposed future one should not be counted as a transportation benefit you are buying today.
 
 **Groceries, shopping and dining.** These track household habits more than they track Stuart. The area has supermarkets, local businesses, shopping centers and restaurants, with a smaller selection than a large metropolitan county, and some households drive south periodically for specialty shopping, particular restaurants, entertainment or professional services. Dining activity does rise through winter and spring — but menu prices should not be described as universally higher in season without business-specific evidence. What changes more noticeably is availability, reservations and wait times, as our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-stuart-florida) describes.
 
@@ -15313,7 +15313,7 @@ One more caution, because it is repeated constantly: the driving distance betwee
 
 Crossing into Palm Beach County, and the comparison a great many buyers are really running.
 
-Jupiter is an incorporated town with roughly 3.4 miles of beaches, public beach accesses, the Jupiter Inlet, the Loxahatchee River, marinas, waterfront restaurants, parks, substantial retail and entertainment, closer access to Palm Beach County employment centers and, from many neighborhoods, shorter access to Palm Beach International. The Town's Riverwalk is a master-planned, multi-phase recreational corridor along the Intracoastal that, when complete, is intended to provide public access to about 2.5 miles of the Intracoastal Waterway and the Jupiter Inlet via an ADA-compliant multi-use trail.
+Jupiter is an incorporated town with roughly 3.4 miles of beaches, public beach accesses, the Jupiter Inlet, the Loxahatchee River, marinas, waterfront restaurants, parks, substantial retail and entertainment, closer access to Palm Beach County employment centers and, from many neighborhoods, shorter access to President Donald J. Trump International Airport. The Town's Riverwalk is a master-planned, multi-phase recreational corridor along the Intracoastal that, when complete, is intended to provide public access to about 2.5 miles of the Intracoastal Waterway and the Jupiter Inlet via an ADA-compliant multi-use trail.
 
 Stuart offers a smaller historic downtown, a traditional street grid, Riverwalk and public docks, St. Lucie River access, proximity to the St. Lucie Inlet, a smaller-city environment, Martin County services and taxation, and a different set of housing and waterfront choices.
 
@@ -15782,7 +15782,7 @@ June through November, and this matters more here than almost anywhere in the co
 
 ## Getting further afield
 
-- **Palm Beach International** is close — a genuine advantage.
+- **President Donald J. Trump International Airport** is close — a genuine advantage.
 - **Brightline** runs from West Palm Beach to Fort Lauderdale, Miami and Orlando.
 - **Tri-Rail** serves the county corridor from mainland stations.
 - **I-95 and the Turnpike** are reached via the Blue Heron crossing.
@@ -16098,7 +16098,7 @@ The island's location is better than its isolation suggests:
 - **Fort Lauderdale** is a real commute but manageable a couple of days a week.
 - **Miami** is not a realistic daily proposition.
 
-**Palm Beach International** is genuinely close, which matters disproportionately for seasonal owners and anyone who travels.
+**President Donald J. Trump International Airport** is genuinely close, which matters disproportionately for seasonal owners and anyone who travels.
 
 **Brightline** runs from West Palm Beach with fast service to Fort Lauderdale, Miami and Orlando.
 
@@ -16976,7 +16976,7 @@ These improvements make Old Palm City more pedestrian-friendly than it once was,
 
 ### I-95 and Florida's Turnpike
 
-Palm City provides relatively convenient access to both I-95 and Florida's Turnpike from many neighborhoods, and that is its genuine structural advantage. Most of Martin County is a drive from an interstate. Palm City is not. For residents who commute south, travel throughout the Treasure Coast, work in multiple locations, fly out of Palm Beach International often, or simply want alternatives for north-south travel, that saves real time every week, and it is the main reason people choose this side of the river.
+Palm City provides relatively convenient access to both I-95 and Florida's Turnpike from many neighborhoods, and that is its genuine structural advantage. Most of Martin County is a drive from an interstate. Palm City is not. For residents who commute south, travel throughout the Treasure Coast, work in multiple locations, fly out of President Donald J. Trump International Airport often, or simply want alternatives for north-south travel, that saves real time every week, and it is the main reason people choose this side of the river.
 
 Access still varies by address. A western property may be close to an interchange, while an eastern waterfront neighborhood may require more local driving before reaching either highway. Time the actual route from the property rather than assuming every Palm City address offers equally quick access.
 
@@ -17430,14 +17430,14 @@ Whether Palm City is the right fit depends on where you work, how much driving y
 
 ## Palm City May Be a Good Fit for Regional Commuters
 
-Highway access is Palm City's strongest practical advantage, and if you drive for a living, drive south regularly or fly often, it is the answer in Martin County. Both I-95 and Florida's Turnpike pass through or beside the community, which gives residents two alternatives for north-south travel. Most of the county does not have that. Stuart does not. Hobe Sound does not. It is useful for anyone who regularly travels to Stuart, Port St. Lucie, Jupiter, Palm Beach Gardens, West Palm Beach, Palm Beach International Airport or client and employment locations across the region.
+Highway access is Palm City's strongest practical advantage, and if you drive for a living, drive south regularly or fly often, it is the answer in Martin County. Both I-95 and Florida's Turnpike pass through or beside the community, which gives residents two alternatives for north-south travel. Most of the county does not have that. Stuart does not. Hobe Sound does not. It is useful for anyone who regularly travels to Stuart, Port St. Lucie, Jupiter, Palm Beach Gardens, West Palm Beach, President Donald J. Trump International Airport or client and employment locations across the region.
 
 Approximate drives, weekday, traffic behaving:
 
 - **Palm Beach Gardens or Jupiter:** commonly 30 to 45 minutes.
 - **West Palm Beach:** typically 45 minutes to an hour.
 - **Boca Raton:** an hour and a quarter or more.
-- **Palm Beach International:** generally around 45 minutes to an hour.
+- **President Donald J. Trump International Airport:** generally around 45 minutes to an hour.
 - **Fort Lauderdale or Miami:** possible, punishing daily.
 
 Those are meaningfully better than the equivalent from most Martin County addresses, and for a household with one commuter heading south it is the difference between workable and grinding. But convenience varies substantially by address. A home in western Palm City may be close to an interchange, while a property near the river or in Old Palm City needs additional local driving before reaching either highway, and traffic, crashes, construction and seasonal congestion move the numbers considerably. I-95 through this stretch has limited alternates, and one incident reshapes the whole morning.
@@ -17559,7 +17559,7 @@ If you read "quiet house, real land, on the interstate in minutes, and a proper 
 The decision should not rest on a generalized claim that Palm City offers the best commute, schools, taxes or housing value. It should rest on whether the specific address supports your actual daily life. Drive the routes, review the costs and explore more than one part of Palm City before deciding. Our [comparison guide](/blog/palm-city-vs-nearby-cities) works through the alternatives in detail.`,
     faqs: [
       { q: "Who should move to Palm City, Florida?", a: "It suits regional commuters, since both I-95 and the Turnpike are minutes from many neighborhoods; remote and hybrid workers, for whom the driving mostly disappears; buyers who want space, a garage and a yard; acreage and horse owners looking at Palm City Farms; golfers; households in the Martin County School District; and anyone content to drive across the bridge for dinner and entertainment." },
-      { q: "How long is the commute from Palm City to Palm Beach County?", a: "Approximately, on a weekday with traffic behaving: Palm Beach Gardens and Jupiter are commonly 30 to 45 minutes, West Palm Beach 45 minutes to an hour, Boca Raton an hour and a quarter or more, and Palm Beach International around 45 minutes to an hour. Those are better than from most Martin County addresses, but they vary substantially by neighborhood, I-95 has limited alternates, and a daily run to southern Palm Beach County or Broward can be possible without being sustainable. Drive your actual commute from the specific property, both directions, before buying." },
+      { q: "How long is the commute from Palm City to Palm Beach County?", a: "Approximately, on a weekday with traffic behaving: Palm Beach Gardens and Jupiter are commonly 30 to 45 minutes, West Palm Beach 45 minutes to an hour, Boca Raton an hour and a quarter or more, and President Donald J. Trump International Airport around 45 minutes to an hour. Those are better than from most Martin County addresses, but they vary substantially by neighborhood, I-95 has limited alternates, and a daily run to southern Palm Beach County or Broward can be possible without being sustainable. Drive your actual commute from the specific property, both directions, before buying." },
       { q: "Who should not move to Palm City?", a: "Buyers who want walkability or a downtown, anyone who wants an evening scene nearby, people who need a deep local professional job market, buyers who want beachfront or immediate ocean access, daily long-distance commuters to Broward or Miami, and anyone buying in the western half who would be bothered by years of Newfield construction." },
       { q: "Is Palm City good for horse owners?", a: "Yes. Palm City Farms offers ranchette parcels typically from around two acres to over ten, an established equestrian community, riding trails and boarding and training facilities, inside a well-run suburban county with fast interstate access. A Farms address does not guarantee a parcel legally supports horses, though — verify zoning, permitted animal density, accessory-building rules, well and septic, legal access and the agricultural tax classification, which is a separate question from zoning." },
       { q: "What schools serve Palm City, Florida?", a: "Palm City is served by the Martin County School District, a small district by Florida standards. An address does not by itself guarantee assignment to a particular school, and boundaries, enrollment and school-choice procedures can change between academic years, so verify the assignment for a specific property directly with the district rather than relying on a listing or a website." },
@@ -17594,7 +17594,7 @@ Whether that balance works depends on the property, the neighborhood and the way
 
 ### Convenient Access to Major Highways
 
-Access to I-95 and Florida's Turnpike is Palm City's strongest practical advantage, and nowhere else in the county has both. It matters for residents who commute elsewhere in Martin County, work in Palm Beach County, travel throughout South Florida, use Palm Beach International Airport, visit clients or job sites in several locations, or split the week between home and an office. It is the practical reason the community exists as a preference rather than a compromise, and our [who-should-move guide](/blog/who-should-move-to-palm-city-florida) has the drive times.
+Access to I-95 and Florida's Turnpike is Palm City's strongest practical advantage, and nowhere else in the county has both. It matters for residents who commute elsewhere in Martin County, work in Palm Beach County, travel throughout South Florida, use President Donald J. Trump International Airport, visit clients or job sites in several locations, or split the week between home and an office. It is the practical reason the community exists as a preference rather than a compromise, and our [who-should-move guide](/blog/who-should-move-to-palm-city-florida) has the drive times.
 
 Convenience varies by neighborhood, though. A western Palm City property may be close to an interchange, while a home near Old Palm City or the river needs additional local driving before reaching the highway. Time the actual route from the property in normal weekday traffic rather than relying on a general statement that both highways are only minutes away.
 
@@ -18737,7 +18737,7 @@ Jupiter is located to the south and offers larger shopping centers, a wide varie
 
 Stuart is located to the north and is home to Martin County's government offices, major medical facilities, additional shopping and a popular historic downtown district.
 
-Depending on the property's location and traffic, both communities are generally within a reasonable drive. Palm Beach International Airport is also commonly reachable in approximately 40 to 60 minutes.
+Depending on the property's location and traffic, both communities are generally within a reasonable drive. President Donald J. Trump International Airport is also commonly reachable in approximately 40 to 60 minutes.
 
 Many residents do not view this as an inconvenience. They enjoy living in a quieter community while having larger towns available in either direction.
 
@@ -18806,7 +18806,7 @@ The character of the community becomes much clearer once you see the places that
       { q: "Where is the center of Hobe Sound?", a: "Not on US-1. The historic commercial core sits a block east along Dixie Highway and Bridge Road — a small, low-slung district of independent shops, cafés and services that can be walked end to end in a few minutes. Drivers passing through on US-1 routinely miss it entirely." },
       { q: "Is Jupiter Island part of Hobe Sound?", a: "No. Jupiter Island is its own incorporated town on the barrier island, with its own government, police force and tax structure, and it is among the highest-priced residential addresses in the United States. Hobe Sound is unincorporated Martin County on the mainland with housing ranging from modest to substantial. They share a bridge and a postcode." },
       { q: "What are the rules during sea turtle season in Hobe Sound?", a: "From roughly March through October, lighting ordinances apply to beachfront and near-beach property, furniture generally cannot be left on the sand overnight, and marked nests must be left undisturbed. This stretch of coast is among the more active loggerhead nesting areas on the Atlantic. Compliance is enforced and retrofitting non-compliant lighting is a real expense — ask what applies to a specific address before buying." },
-      { q: "How far is Hobe Sound from Jupiter and Stuart?", a: "Roughly fifteen minutes in either direction — Jupiter to the south for large-format retail and a wider restaurant selection, Stuart to the north for the county seat, historic downtown and Martin County’s main medical facilities. I-95 and the Turnpike are reachable from the Bridge Road corridor, and Palm Beach International is generally under an hour." },
+      { q: "How far is Hobe Sound from Jupiter and Stuart?", a: "Roughly fifteen minutes in either direction — Jupiter to the south for large-format retail and a wider restaurant selection, Stuart to the north for the county seat, historic downtown and Martin County’s main medical facilities. I-95 and the Turnpike are reachable from the Bridge Road corridor, and President Donald J. Trump International Airport is generally under an hour." },
       { q: "What is the difference between Martin County and Palm Beach County here?", a: "The county line sits just south of Hobe Sound, so driving fifteen minutes to Jupiter crosses into Palm Beach County. That changes school district, county services, tax rate, permitting office and the growth rules governing nearby development. Buyers comparing Hobe Sound with Jupiter are comparing two counties, not two neighborhoods." },
       { q: "When is the best time to visit Hobe Sound before buying?", a: "Both seasons, if possible. November through April is busy, with heavier US-1 traffic, restaurant waits and seasonal residents in town, plus near-perfect weather. May through October is hot, quiet and stormy with some businesses reducing hours. Touring only in February or only in August gives a distorted picture in opposite directions." },
     ],
@@ -19294,7 +19294,7 @@ Travel times vary considerably by starting point, destination, traffic and seaso
 - Schools or childcare.
 - Medical providers.
 - Shopping and errands.
-- Palm Beach International Airport.
+- President Donald J. Trump International Airport.
 - Friends, family and recreational activities.
 
 Test an important commute during the actual time and day you expect to make it. A weekend drive may not accurately reflect weekday or seasonal conditions.
@@ -20697,7 +20697,7 @@ Note your nearest emergency entrance now rather than looking it up during an eme
 
 ## Getting in and out by air
 
-**Palm Beach International** is the practical major airport for most trips — roughly forty-five minutes to an hour south depending on traffic and where you're starting. **Orlando** and **Fort Lauderdale** open up more routes at the cost of a much longer drive.
+**President Donald J. Trump International Airport** is the practical major airport for most trips — roughly forty-five minutes to an hour south depending on traffic and where you're starting. **Orlando** and **Fort Lauderdale** open up more routes at the cost of a much longer drive.
 
 **Witham Field** in Stuart handles general aviation and is close by, which matters if you fly privately and is otherwise mostly relevant as a landmark.
 
@@ -20744,7 +20744,7 @@ For the texture of daily life rather than the mechanics of it, read [the history
     faqs: [
       { q: "What are the main roads in Port Salerno?", a: "US-1 runs north–south and carries most of the retail and services along with the route to Stuart. Cove Road and Salerno Road are the main east–west connectors between the residential areas, the harbor, and US-1. Kanner Highway heads west toward the Turnpike and I-95. The harbor sits east of US-1; most commerce sits on it." },
       { q: "Who provides services in Port Salerno if it has no city government?", a: "Martin County. The Sheriff's Office handles law enforcement, growth management handles permits, zoning, and code enforcement, and the Property Appraiser and Tax Collector handle records, homestead, and vehicle or vessel registration. There is no city hall and no separate municipal tax." },
-      { q: "Which airport should I use from Port Salerno?", a: "Palm Beach International is the practical choice for most trips, roughly forty-five minutes to an hour south depending on traffic. Orlando and Fort Lauderdale offer more routes at the cost of a much longer drive. Witham Field in Stuart is close by but handles general aviation rather than commercial service." },
+      { q: "Which airport should I use from Port Salerno?", a: "President Donald J. Trump International Airport is the practical choice for most trips, roughly forty-five minutes to an hour south depending on traffic. Orlando and Fort Lauderdale offer more routes at the cost of a much longer drive. Witham Field in Stuart is close by but handles general aviation rather than commercial service." },
       { q: "What should I know before launching a boat at the ramp here?", a: "Stage in the parking lot rather than on the ramp — plug in, straps off, gear aboard before you back down. The ramp gets busy on good weekends. Also register your vessel through the county Tax Collector, learn the marked manatee and idle-speed zones, and check tide and depth on your route if you draw more than a couple of feet." },
       { q: "How should I prepare for hurricane season in Port Salerno?", a: "Find your evacuation zone before the season starts, since low-lying areas near the water are called first. Have shutters or panels sorted before June, keep roughly two weeks of water, food, medication, and cash, and photograph the property annually for insurance. If you own a boat, arrange a haul-out or safe dockage plan early — slots fill fast once a storm is named." },
       { q: "What is the best time of year in Port Salerno?", a: "October through December is arguably the sweet spot — the heat has broken and the seasonal crowds have not yet arrived. January through April has excellent weather but the most traffic and the busiest water. July through September is hot, humid, and stormy, with afternoon convection that builds and clears quickly." },
@@ -22462,7 +22462,7 @@ None of this is a reason to avoid a house. It is a reason to know the answer bef
 
 ## Getting Around and Out
 
-Palm Beach International Airport is roughly an hour south depending on traffic; Orlando is about two hours north. I-95 and the Turnpike make both straightforward.
+President Donald J. Trump International Airport is roughly an hour south depending on traffic; Orlando is about two hours north. I-95 and the Turnpike make both straightforward.
 
 The Palm Beach County commute is the thing to be realistic about. It is a long haul, particularly in the morning. Plenty of residents do it happily. The ones who regret it are the ones who did not drive it before buying.
 
@@ -22475,7 +22475,7 @@ And pay attention to what is under construction near you. In a city changing thi
       { q: "What are the main districts of Port St. Lucie?", a: "St. Lucie West is the established hub with Clover Park and the densest retail. Tradition is the master-planned community with its own town square. PGA Village anchors golf to the south. The Port District is the riverfront redevelopment area along the St. Lucie River. The Walton Road and US-1 corridor is the planned stadium area. Beyond those, most of the city is a large residential grid." },
       { q: "What is the Port District in Port St. Lucie?", a: "The city's riverfront redevelopment area along the St. Lucie River, near Pioneer Park. It already has boardwalks, kayak launches, event space, and playgrounds, and it's where The Grove dining and entertainment district is being built — a significant change for a city that has historically turned away from its own river." },
       { q: "What are the main roads in Port St. Lucie?", a: "I-95 and Florida's Turnpike both run through the city, US-1 runs north-south on the east side, and the Crosstown Parkway is the key east-west connector. Because the city is so large, where you live determines your daily driving experience more than in most places." },
-      { q: "How far is Port St. Lucie from the airport?", a: "Palm Beach International Airport is roughly an hour south depending on traffic, and Orlando is about two hours north. I-95 and the Turnpike make both straightforward." },
+      { q: "How far is Port St. Lucie from the airport?", a: "President Donald J. Trump International Airport is roughly an hour south depending on traffic, and Orlando is about two hours north. I-95 and the Turnpike make both straightforward." },
       { q: "Is it hard to get around Port St. Lucie?", a: "It's not congested in the way a dense city is, but it's physically enormous and crossing it takes real time. Residents batch errands by district. Ongoing road construction as the city expands is a constant factor to build into your timing." },
       { q: "How far is Port St. Lucie from the beach?", a: "About 20–30 minutes east to the beaches at Fort Pierce or Hutchinson Island. The city itself is inland." },
     ],
@@ -23554,7 +23554,7 @@ Many buyers here are also looking south. **Palm Beach County is not one housing 
 
 The real comparison is usually between living closer to Palm Beach County jobs and amenities, or buying farther north for more house.
 
-A Palm Beach County community may suit buyers who want a shorter commute to a workplace there, closer access to Palm Beach International, a larger concentration of restaurants, shopping and entertainment, proximity to specific medical providers, or more coastal and urban housing options.
+A Palm Beach County community may suit buyers who want a shorter commute to a workplace there, closer access to President Donald J. Trump International Airport, a larger concentration of restaurants, shopping and entertainment, proximity to specific medical providers, or more coastal and urban housing options.
 
 **Port St. Lucie** may suit buyers who want a larger selection of suburban homes, extensive new construction, master-planned communities, more interior or yard space, and the ability to work locally or remotely.
 
@@ -24362,7 +24362,7 @@ Note your nearest emergency entrance now rather than looking it up during an eme
 
 ## Getting out of town
 
-- **Palm Beach International** is roughly half an hour south.
+- **President Donald J. Trump International Airport** is roughly half an hour south.
 - **Brightline** runs from West Palm Beach to Fort Lauderdale, Miami and Orlando.
 - **Tri-Rail** serves the county corridor from stations further south.
 - **I-95 and the Turnpike** are both easily reached.
@@ -24724,7 +24724,7 @@ Tequesta sits at the northern end of Palm Beach County, and that geography shape
 - **Stuart and Martin County** are close to the north — an easy commute against the main flow.
 - **Fort Lauderdale and Miami** are not realistic daily propositions from here.
 
-**Palm Beach International** is roughly half an hour south. **Brightline** runs from West Palm Beach with fast service to Fort Lauderdale, Miami and Orlando.
+**President Donald J. Trump International Airport** is roughly half an hour south. **Brightline** runs from West Palm Beach with fast service to Fort Lauderdale, Miami and Orlando.
 
 Drive your actual route in February, not July. Season changes the arithmetic on every road here.
 
@@ -25446,7 +25446,7 @@ Jupiter is built around the car. There's no meaningful public transit, and outsi
 
 The two pinch points are **Indiantown Road** and **US-1**, and both get significantly worse in season. Locals learn the parallel routes and the timing — avoid Indiantown between about 4 and 6, and give yourself extra margin from January through March. Alternate A1A along the beach when US-1 backs up.
 
-Palm Beach International Airport sits roughly thirty to forty minutes south, which makes flying north to see family straightforward. I-95 and Florida's Turnpike both run through, so getting anywhere else in South Florida is easy — just not always fast in season.
+President Donald J. Trump International Airport sits roughly thirty to forty minutes south, which makes flying north to see family straightforward. I-95 and Florida's Turnpike both run through, so getting anywhere else in South Florida is easy — just not always fast in season.
 
 ![Jupiter waterway at dusk](/images/jupiter/jupiter-waterway-dusk.jpg "Life here orbits the water — which is also why the town's rhythms revolve around getting outside early and staying out late.")
 
@@ -25505,7 +25505,7 @@ Lean toward the water and the outdoors, be patient in season, and take the turtl
       { q: "What is turtle season in Jupiter?", a: "Roughly March through October, when loggerhead, green, and leatherback turtles nest along the coast. Beachfront properties switch to amber turtle-friendly lighting so hatchlings aren't disoriented, marked nests are protected, and beachgoers are asked to fill in any holes they dig." },
       { q: "Do you need a car to live in Jupiter?", a: "Essentially yes. Public transit is limited and, outside of Abacoa and the Riverwalk, the town isn't walkable. Most residents drive for groceries, dinner, school, and the beach." },
       { q: "How bad is traffic in Jupiter, Florida?", a: "Manageable compared to South Florida metros, but real in season. Indiantown Road and US-1 are the pinch points, and a fifteen-minute summer drive can take thirty between January and March." },
-      { q: "How far is Jupiter from the airport?", a: "Palm Beach International Airport is roughly a 30–40 minute drive south, with I-95 and Florida's Turnpike both running through the area." },
+      { q: "How far is Jupiter from the airport?", a: "President Donald J. Trump International Airport is roughly a 30–40 minute drive south, with I-95 and Florida's Turnpike both running through the area." },
     ],
     internalLinks: ["what-its-really-like-living-in-jupiter-florida", "best-things-to-do-in-jupiter-florida", "hidden-gems-in-jupiter-florida"],
     funFact: "The Jupiter Inlet is one of the most productive fishing inlets on the entire East Coast — local captains will tell you the water color change where the clear ocean blue meets the darker Intracoastal green is visible from the air. That mixing zone is why the fishing is so good.",
@@ -26290,7 +26290,7 @@ Here's an honest comparison of Jupiter against each of its neighbors, and a fram
 
 **Choose Jupiter if:** you want the beach and the inlet in your daily life, prefer a town that feels less manicured, or want boating access.
 
-**Practical note:** Palm Beach Gardens is generally a shorter drive to PBI airport and to West Palm Beach.
+**Practical note:** Palm Beach Gardens is generally a shorter drive to DJT airport and to West Palm Beach.
 
 ![The Jupiter lighthouse across the inlet with docks and a tour boat](/images/jupiter/jupiter-021.jpg "Jupiter's inlet and lighthouse are the practical difference between it and its inland neighbors — the water is part of ordinary life, not a drive away.")
 
@@ -26334,7 +26334,7 @@ Head north into Martin County and the pace slows further. **Hobe Sound** is quie
 
 ## Jupiter vs Stuart
 
-**Stuart**, up in Martin County, is the value play. Your dollar goes noticeably further, there's a charming and genuinely walkable historic downtown, and the boating culture is serious. The trade-off is distance — you're further from Palm Beach County, PBI airport, and the density of options to the south.
+**Stuart**, up in Martin County, is the value play. Your dollar goes noticeably further, there's a charming and genuinely walkable historic downtown, and the boating culture is serious. The trade-off is distance — you're further from Palm Beach County, DJT airport, and the density of options to the south.
 
 **Choose Stuart if:** budget matters, you want a walkable downtown, and you're happy trading proximity for value and quiet.
 
@@ -26656,7 +26656,7 @@ For new residents it's genuinely the easiest low-effort way to start feeling con
 
 ## Getting around, and out
 
-I-95 and Florida's Turnpike are both immediately accessible, which makes the Gardens one of the easier places in the county to get in and out of. **Palm Beach International Airport is roughly 20 minutes south.** West Palm Beach's downtown, arts, and nightlife are about 25 minutes. The beaches are 15–20 minutes east.
+I-95 and Florida's Turnpike are both immediately accessible, which makes the Gardens one of the easier places in the county to get in and out of. **President Donald J. Trump International Airport is roughly 20 minutes south.** West Palm Beach's downtown, arts, and nightlife are about 25 minutes. The beaches are 15–20 minutes east.
 
 That combination — highway access, airport proximity, and short drives to both a real city and real beaches — is one of the most underrated practical arguments for living here.
 
@@ -26670,7 +26670,7 @@ After that, lean into what the town actually does well: the green market, the re
       { q: "Should I live in east or west Palm Beach Gardens?", a: "East is closer to the beaches and generally pricier per square foot. West offers more house and land for the money, more golf-community options, and newer construction in many cases, with a longer drive to the coast. Making this decision first eliminates half the search." },
       { q: "What is season like in Palm Beach Gardens?", a: "Season runs roughly November through April, when part-time residents arrive, restaurants fill, and PGA Boulevard traffic slows noticeably. The weather during those months is warm, dry, and sunny. Summer is hot, humid, quiet, and stormy." },
       { q: "What is the Palm Beach Gardens GreenMarket?", a: "An in-season Sunday market at the municipal complex with produce vendors, food, and music. It functions as much as a social gathering as a shopping trip and is one of the easiest ways for new residents to start meeting people." },
-      { q: "How far is Palm Beach Gardens from the airport and the beach?", a: "Palm Beach International Airport is roughly 20 minutes south, the beaches at Juno, Jupiter, and Singer Island are about 15–20 minutes east, and downtown West Palm Beach is around 25 minutes. Both I-95 and Florida's Turnpike are immediately accessible." },
+      { q: "How far is Palm Beach Gardens from the airport and the beach?", a: "President Donald J. Trump International Airport is roughly 20 minutes south, the beaches at Juno, Jupiter, and Singer Island are about 15–20 minutes east, and downtown West Palm Beach is around 25 minutes. Both I-95 and Florida's Turnpike are immediately accessible." },
       { q: "Do you need a club membership to have a social life in Palm Beach Gardens?", a: "No, though a lot of social life does run through the golf and country clubs. The Burns Road Community Center and the city's recreation programs offer a well-used alternative for residents who don't want a club membership." },
     ],
     internalLinks: ["what-its-really-like-living-in-palm-beach-gardens-florida", "best-things-to-do-in-palm-beach-gardens-florida", "hidden-gems-in-palm-beach-gardens-florida"],
@@ -27048,7 +27048,7 @@ Grades and boundaries change annually — verify current assignments with the di
 
 ### Everyday polish and convenience
 
-This is underrated until you've lived somewhere without it. Dense, well-maintained retail. Excellent healthcare within minutes. Wide roads and good signage. I-95 and the Turnpike immediately accessible, PBI Airport about 20 minutes south.
+This is underrated until you've lived somewhere without it. Dense, well-maintained retail. Excellent healthcare within minutes. Wide roads and good signage. I-95 and the Turnpike immediately accessible, DJT Airport about 20 minutes south.
 
 A lot of daily friction simply doesn't exist here, and that's worth real money to people whose time is constrained.
 
@@ -27389,7 +27389,7 @@ The most common comparison, and the one that comes down to a single question: **
 
 **Choose the Gardens if:** golf or club life is central, you want the best convenience and medical access in the north county, and 15–20 minutes to the sand is fine.
 
-**Practical note:** the Gardens is generally closer to PBI airport and has better highway access.
+**Practical note:** the Gardens is generally closer to DJT airport and has better highway access.
 
 ![Sportfishing boat running the waterway near Palm Beach Gardens](/images/palm-beach-gardens/pbg-006.jpg "The Gardens offers Intracoastal and marina access; the beach towns offer the ocean itself. That distinction drives most of these comparisons.")
 
@@ -27764,7 +27764,7 @@ Do this in your first month. In a village with no walkable center, it's the diff
 
 ## Getting out of town
 
-- **Palm Beach International** is close and easy — one of the village's quiet advantages.
+- **President Donald J. Trump International Airport** is close and easy — one of the village's quiet advantages.
 - **Brightline** runs from West Palm Beach, with fast service south to Fort Lauderdale and Miami and north to Orlando. Drive, park and ride is the local pattern.
 - **Tri-Rail** serves the county corridor from stations to the south.
 - **I-95 and the Turnpike** are both easily reached heading west.
@@ -27802,7 +27802,7 @@ For the feel of the place rather than the mechanics, read [what living here is a
       { q: "How do I join the North Palm Beach Country Club?", a: "The club is village-owned, with membership categories and rates set by the village, and residency generally affects what you pay. Categories typically span golf, social and racquet access. Rates change, so get the current schedule directly from the village or club — and ask about resident versus non-resident rates, waiting periods and guest privileges." },
       { q: "Am I in the Village of North Palm Beach or unincorporated county?", a: "Worth confirming, because the mailing address will not tell you and unincorporated pockets sit nearby. It changes your police service, your permitting authority and your municipal tax. The title work answers it definitively." },
       { q: "What do I need to know about keeping a boat in North Palm Beach?", a: "Establish dock depth at mean low water and fixed bridge clearances between you and the Intracoastal before you buy — that is the local mistake. Register the vessel through the county Tax Collector, use the public ramp at Anchorage Park, learn the marked manatee and idle-speed zones, and sort a storm plan for the vessel early." },
-      { q: "How do I get to the airport from North Palm Beach?", a: "Palm Beach International is close and easy, and it is one of the village's quiet advantages for anyone who travels. Brightline runs from West Palm Beach with fast service south to Fort Lauderdale and Miami and north to Orlando, and drive-park-ride is the common local pattern." },
+      { q: "How do I get to the airport from North Palm Beach?", a: "President Donald J. Trump International Airport is close and easy, and it is one of the village's quiet advantages for anyone who travels. Brightline runs from West Palm Beach with fast service south to Fort Lauderdale and Miami and north to Orlando, and drive-park-ride is the common local pattern." },
       { q: "How should I prepare for hurricane season in North Palm Beach?", a: "Find your evacuation zone before the season starts — the barrier island and low-lying waterfront go first, and canal property should not assume it is exempt. Sort shutters or impact protection before June, keep about two weeks of supplies, photograph the property annually for insurance, and know your parcel-specific flood zone." },
     ],
     internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
@@ -28106,7 +28106,7 @@ The location is one of the village's better arguments:
 - **Fort Lauderdale** is a real commute — doable a couple of days a week, wearing five.
 - **Miami** is not a realistic daily proposition from here.
 
-**Palm Beach International** is genuinely close, which matters more than people expect for anyone who travels for work. **Brightline** runs from West Palm Beach with fast service south to Fort Lauderdale and Miami and north to Orlando; **Tri-Rail** serves the county corridor from stations to the south.
+**President Donald J. Trump International Airport** is genuinely close, which matters more than people expect for anyone who travels for work. **Brightline** runs from West Palm Beach with fast service south to Fort Lauderdale and Miami and north to Orlando; **Tri-Rail** serves the county corridor from stations to the south.
 
 Drive your actual route in February rather than July. ## The seasonal-resident question
 
@@ -28140,7 +28140,7 @@ Before you shop, get concrete about the boat, the budget and the renovation appe
     faqs: [
       { q: "Who should move to North Palm Beach?", a: "Boaters who want dockage at the house, golfers and racquet players who want club access without a private membership process, renovators drawn to mid-century stock, lock-and-leave condo owners, and anyone who wants an established village rather than a master-planned subdivision. Retirees find the pace and the club suit well." },
       { q: "Who should not move to North Palm Beach?", a: "Anyone who wants to walk onto sand from their door — the village is on the mainland. Also anyone wanting a walkable downtown, new construction, nightlife or a food scene. All of those exist nearby, but not here, and buyers who assumed otherwise are the ones who end up disappointed." },
-      { q: "Can I commute from North Palm Beach?", a: "Palm Beach Gardens is minutes away and holds much of the area's office and medical employment — the commute nobody minds. West Palm Beach is a straightforward drive south. Fort Lauderdale is doable a couple of days a week and wearing five. Miami is not realistic daily. Palm Beach International is genuinely close." },
+      { q: "Can I commute from North Palm Beach?", a: "Palm Beach Gardens is minutes away and holds much of the area's office and medical employment — the commute nobody minds. West Palm Beach is a straightforward drive south. Fort Lauderdale is doable a couple of days a week and wearing five. Miami is not realistic daily. President Donald J. Trump International Airport is genuinely close." },
       { q: "Is North Palm Beach good for retirees?", a: "It suits them well — the pace, the village club, the water and the medical access in the surrounding area all line up. Some communities in the area are age-restricted and some are not, so confirm a community's status and its governing documents directly rather than inferring from who you see around." },
       { q: "What is the single most important thing to check before buying here?", a: "If you have a boat: fixed bridge clearances between the house and the Intracoastal, and dock depth at mean low water against your actual draft. It disqualifies specific streets for specific boats and it is the most common late discovery. If you do not have a boat: roof age, which drives both capital cost and insurability." },
       { q: "How do I know if North Palm Beach suits me?", a: "Play the village course and eat at the club afterwards on a weekday. If it reads as friendly and unpretentious and you can picture doing it weekly, you have found what makes the village work. If it reads as sleepy, believe that — you want more town than this has, and Palm Beach Gardens or Jupiter will suit you better." },

@@ -13,13 +13,13 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'palm-beach-gardens': {
-    christineQuote: "Palm Beach Gardens is my home market and I recommend it to buyers who want a master-planned lifestyle without sacrificing quality. A-rated school zones, golf and racquet club communities, and direct I-95 and PBI airport access — this market consistently delivers across all three.",
+    christineQuote: "Palm Beach Gardens is my home market and I recommend it to buyers who want a master-planned lifestyle without sacrificing quality. A-rated school zones, golf and racquet club communities, and direct I-95 and DJT airport access — this market consistently delivers across all three.",
     johnQuote: "Gardens is the right call for buyers who want choices. PGA National, BallenIsles, Avenir, Mirasol — you can find a $500K townhome or a $5M estate and both sit near A-rated school zones and world-class golf. I help buyers compare communities on the details that matter to them.",
   },
 
   'jupiter': {
     christineQuote: "Jupiter is ideal for buyers who want coastal living without the barrier island premium. The private clubs, the Jupiter Inlet, the walkable Abacoa town center — it's one of the most complete markets in Palm Beach County. I tell lifestyle buyers to start here.",
-    johnQuote: "Jupiter works especially well for buyers who want serious boating access. A-rated school zones, Harbourside Place, the Loxahatchee River, world-class private golf — and you're 25 minutes from PBI Airport. It's a hard market to beat once you spend a day here.",
+    johnQuote: "Jupiter works especially well for buyers who want serious boating access. A-rated school zones, Harbourside Place, the Loxahatchee River, world-class private golf — and you're 25 minutes from DJT Airport. It's a hard market to beat once you spend a day here.",
   },
 
   'wellington': {

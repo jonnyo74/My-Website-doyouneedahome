@@ -54,6 +54,12 @@ const nextConfig: NextConfig = {
       // Powder Pointe (Tequesta) could not be found as a real place and John
       // doesn't know of one. Its page was a one-line stub. Removed 2026-09-21.
       { source: '/communities/powder-pointe', destination: '/communities/tequesta', permanent: true },
+      // Lake Worth Estates, Poinciana Park and Lake Worth Gardens (Lake Worth Beach) could not be found
+      // as real places: neither is on the City's neighborhood map and John doesn't
+      // know of any of them. Their pages were generic stubs. Removed 2026-09-23.
+      { source: '/communities/lake-worth-estates', destination: '/communities/lake-worth-beach', permanent: true },
+      { source: '/communities/poinciana-park', destination: '/communities/lake-worth-beach', permanent: true },
+      { source: '/communities/lake-worth-gardens', destination: '/communities/lake-worth-beach', permanent: true },
 
       // ── TEAM ──────────────────────────────────────────────────────────
       // /team is canonical; /team-page is the old Squarespace duplicate
