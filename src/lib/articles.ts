@@ -26770,7 +26770,7 @@ After that, lean into what the town actually does well: the green market, the re
       { q: "Do you need a club membership to have a social life in Palm Beach Gardens?", a: "No, though a lot of social life does run through the golf and country clubs. The Burns Road Community Center and the city's recreation programs offer a well-used alternative for residents who don't want a club membership." },
     ],
     internalLinks: ["what-its-really-like-living-in-palm-beach-gardens-florida", "best-things-to-do-in-palm-beach-gardens-florida", "hidden-gems-in-palm-beach-gardens-florida"],
-    funFact: "PGA Boulevard is the commercial spine of Palm Beach Gardens, and the quality of retail concentration there is unusual for a city of 60,000 people — the Gardens Mall, Downtown at the Gardens, The Square, and PGA Commons all within a mile and a half. That density of well-maintained retail is one of the main reasons residents rarely need to drive far for anything.",
+    funFact: "PGA Boulevard is the commercial spine of Palm Beach Gardens, and the quality of retail concentration there is unusual for a city of 60,000 people — the Gardens Mall, Downtown at the Gardens and PGA Commons all within a mile and a half. That density of well-maintained retail is one of the main reasons residents rarely need to drive far for anything.",
     author: 'christine',
     published: true,
     updated: '2026-06-01',
