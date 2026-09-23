@@ -4216,6 +4216,8 @@ A two-mile difference in where you buy can change your daily routine considerabl
 
 **Airports and rail.** Boca Raton has access to Palm Beach International Airport and Fort Lauderdale-Hollywood International Airport. Actual drive times vary substantially by origin, route, time of day, and traffic, so check them for your own address rather than relying on a single number. The [Boca Raton Tri-Rail station](https://www1.tri-rail.com/stations/boca-raton) at 680 Yamato Road provides regional commuter-rail access — check the live schedule and, just as importantly, your last-mile connection at both ends before counting on it.
 
+**On-demand rides.** Circuit's [BocaConnect](https://www.ridecircuit.com/boca-raton) service has offered on-demand electric rides in Boca Raton since June 2024, booked through the Circuit app. Its page lists destinations including Mizner Park, the Brightline station and the Boca Raton Museum of Art, and currently lists rides as free. Check the app for the current service area, hours and fare before relying on it for a regular trip.
+
 ## Seasonal weather and hurricane planning
 
 **Season runs roughly November through April**, when more residents and visitors are in town, restaurants are busier, and roads carry more traffic. It is also when the weather is at its most comfortable. Reservations matter more at popular places than they do in the quieter months.
@@ -4285,7 +4287,7 @@ If you want a hand working through any of that for a specific property, that is 
     author: 'christine',
     published: true,
     publishedDate: '2026-06-04',
-    updated: '2026-09-13',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-boca-raton-florida',
