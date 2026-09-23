@@ -3711,8 +3711,9 @@ export const neighborhoods: CommunityItem[] = [
   // Lotus is west Boca (unincorporated Palm Beach County, Boca Raton mailing
   // address) on Lyons Road north of Clint Moore Road. Lotus Palm and Lotus Edge
   // are separate GL Homes communities with their own clubhouses; this page is
-  // the original Lotus only. Photos are the processed amenity frames from the
-  // 8804 Skyward Street shoot, shared with that listing page.
+  // the original Lotus only. Photos are John's own, in public/images/lotus/ —
+  // deliberately separate from the 8804 Skyward listing folder, which goes
+  // away when that listing sells. See that folder's SOURCES.md.
   {
     slug: 'lotus',
     name: 'Lotus',
@@ -3772,12 +3773,12 @@ export const neighborhoods: CommunityItem[] = [
       { q: 'What schools serve Lotus?', a: 'Lotus is served by the School District of Palm Beach County. Attendance boundaries change, so confirm the assigned schools for a specific address with the district before you buy.' },
     ],
     photos: [
-      '/images/listings/8804-skyward-street/lotus-entrance-monument.jpg',
-      '/images/listings/8804-skyward-street/community-01-resort-pool.jpg',
-      '/images/listings/8804-skyward-street/community-04-clubhouse-exterior.jpg',
-      '/images/listings/8804-skyward-street/community-05-sports-complex.jpg',
-      '/images/listings/8804-skyward-street/community-02-pool-deck.jpg',
-      '/images/listings/8804-skyward-street/community-07-fitness-cardio.jpg',
+      '/images/lotus/lotus-entrance-monument.jpg',
+      '/images/lotus/lotus-resort-pool.jpg',
+      '/images/lotus/lotus-clubhouse-exterior.jpg',
+      '/images/lotus/lotus-indoor-sports-court.jpg',
+      '/images/lotus/lotus-pool-deck.jpg',
+      '/images/lotus/lotus-fitness-cardio.jpg',
     ],
     // The listings widget ORs in the MLS name variants from lib/ylopoAliases.
     // This URL carries the same list, as community + subdivision locations.
