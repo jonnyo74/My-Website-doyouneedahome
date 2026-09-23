@@ -7988,116 +7988,165 @@ The Atlantic hurricane season runs June 1 through November 30. Official guidance
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '50% 50%',
-    seoTitle: "Best Neighborhoods in Lake Worth Beach, Florida",
-    metaTitle: "Best Neighborhoods in Lake Worth Beach, Florida",
-    metaDescription: "From historic bungalow districts to beachside living and downtown-adjacent streets — a local guide to the best neighborhoods in Lake Worth Beach, Florida.",
+    seoTitle: "Best Neighborhoods in Lake Worth Beach, FL: How the Areas Compare",
+    metaTitle: "Best Neighborhoods in Lake Worth Beach, FL: How They Compare",
+    metaDescription: "Lake Worth Beach neighborhoods compared on location, housing age and type, historic review and what to verify, using the City's own map and parcel data.",
     primaryKeyword: "best neighborhoods in Lake Worth Beach Florida",
-    secondaryKeywords: ["where to live in Lake Worth Beach", "Lake Worth Beach bungalows", "Lake Worth Beach historic districts"],
-    h1: "Best Neighborhoods in Lake Worth Beach, Florida",
-    body: `Lake Worth Beach is laid out on a compact grid, which makes it easier to navigate than most Florida cities and means the differences between neighborhoods come down to housing age, historic designation and distance from the water rather than to gates and amenities.
+    secondaryKeywords: ["where to live in Lake Worth Beach", "Lake Worth Beach historic districts", "Lake Worth Beach neighborhood map", "Lake Worth Beach older homes"],
+    h1: "Best Neighborhoods in Lake Worth Beach, Florida: How the Areas Compare",
+    body: `There's no single best neighborhood in Lake Worth Beach, and this guide won't pretend there is. The city is a compact, older grid, not a set of gated, master-planned subdivisions. Most neighborhood names here belong to neighborhood associations, not legal subdivisions, and several overlap the City's historic districts.
 
-Here's what's actually here.
+What actually separates one address from another is more concrete:
 
-## Getting oriented
+- **Location** relative to downtown, the Lake Worth Lagoon and the bridge to the beach.
+- **Housing age and type**, from 1920s single-family houses to condominiums and a few newer homes.
+- **Historic-district status**, which brings design review for exterior work.
+- **The lot**, meaning parking, driveway, access and what zoning allows.
+- **Parcel-specific resilience**: flood zone, elevation and insurance.
 
-The city runs from **I-95** on the west to the **Intracoastal** and the barrier island on the east, with **Lake Worth Road** and **Lake Avenue / Lucerne Avenue** as the main east–west routes and **Dixie Highway** and **Federal Highway (US-1)** running north–south.
+One warning before any of that: **a "Lake Worth" mailing address isn't proof a property is in the City of Lake Worth Beach.** The City's own parking page says a home can have a Lake Worth Beach mailing address without being inside the city. Confirm the jurisdiction first; the method is below.
 
-The **downtown** sits along Lake and Lucerne. **Bryant Park** is on the lagoon just east of it. The **Lake Avenue bridge** crosses to the beach, pier and casino building.
+For daily life, see [what it's really like living in Lake Worth Beach](/blog/what-its-really-like-living-in-lake-worth-beach-florida). For services and utilities, see the [local guide](/blog/local-guide-to-lake-worth-beach-florida). This page is about location and housing.
 
-Streets are numbered north and south from Lake Avenue, which makes addresses unusually easy to place.
+## Where the numbers come from
 
-## What the grid gives you
+The comparisons below use two City of Lake Worth Beach GIS layers, retrieved in September 2026:
 
-Worth naming, because it's the structural advantage underneath everything else here.
+- **Neighborhood boundaries.** The City maps 18 neighborhood areas, most tied to a neighborhood association. They're association areas, not zoning districts or legal subdivisions, and their edges can change.
+- **Parcel data.** For each parcel, the City's layer carries the property-use category and the year built, as recorded in county property records. Parcel counts include each condominium unit as its own parcel, so condo buildings inflate counts.
 
-The city was platted on a conventional street grid with short blocks, alleys behind many properties, and sidewalks throughout the older sections. That layout does several useful things at once: it makes walking practical, it spreads traffic instead of funnelling it, it gives most houses a rear service access, and it means you can reach the downtown from a great many streets without touching an arterial.
+Treat the figures as a description of the housing stock, not a valuation. There's no neighborhood-level price, appreciation or sales data here, because we don't have a sample large enough to support it.
 
-Almost nothing built in Florida after about 1960 works this way. It is the single biggest reason the city feels different from its neighbors, and it cannot be retrofitted anywhere else.
+## The areas at a glance
 
-## The historic districts
+| Area | Where | Housing (City data) |
+|---|---|---|
+| Downtown Jewel, Old Town | Dixie to Federal, Lake Ave to 6th Ave S | Mixed uses; single-family median 1930; mostly in districts |
+| Mango Groves, Parrot Cove | North of Lucerne, Dixie to the lagoon | Mostly single-family; medians 1942, 1948; mostly in districts |
+| Bryant Park, South Palm Park | South of Lake Ave, Federal to the lagoon | Condo and single-family; medians 1929, 1958; partly in a district |
+| Eden Place, College Park | North end, Dixie to the lagoon | Mostly single-family; median 1955; College Park partly in a district |
+| Pineapple Beach | Dixie to Federal, south of 6th Ave S | Mixed; median 1952; no district |
+| Tropical Ridge, Royal Poinciana, Memorial Park, Whispering Palms, Sunset Ridge | West of Dixie | Mostly single-family; medians 1954–1957; no district |
+| ROLO, Murray Hills, Commerce Park Village, Lake Cove, Vernon Heights | Far west | Mixed, with condo and HOA areas; Lake Cove median 2019 |
 
-Lake Worth Beach has several designated historic districts, and they hold the housing the city is known for.
+"Median" means the median year built for single-family parcels in that area, from the City's parcel layer. "In districts" refers to the City's six local historic districts.
 
-**What you get:** 1920s Florida vernacular cottages, Mission and Mediterranean Revival bungalows, wood-frame houses with deep porches, mature canopy, and a walkable grid. Many are within a few minutes of the downtown on foot.
+## Downtown: Downtown Jewel and Old Town
 
-**What designation means:** exterior changes — windows, roofing, additions, porches, sometimes fencing and paint — go through a historic preservation review process. This protects the streetscape you're buying into and genuinely constrains what you can do to your own house.
+The **Old Town** historic district is the commercial core along Lake and Lucerne Avenues. The **Downtown Jewel** neighborhood runs south of Lake Avenue to 6th Avenue South, between Dixie and Federal Highways. About 83% of Downtown Jewel's parcels are in a historic district, mostly Southeast Lucerne.
 
-*Check carefully:* get the specific rules for the specific district before planning any work. Approved materials for windows and roofing in a historic district can cost substantially more than standard replacements, and that difference belongs in your renovation budget rather than in a surprise.
+It's the most mixed area in the city by use: houses, small apartment buildings, condominiums and commercial property on neighboring lots. The single-family houses are among the oldest in the city.
 
-**Condition varies widely**, as it does anywhere with hundred-year-old housing. Some houses have been comprehensively restored; others retain original systems. This is a question about individual properties, not about streets.
+*Verify:* what's on the adjacent lots and how they're zoned, how parking works on the block, the district and any prior COA approvals, and, for a condo, the association's documents.
 
-## Downtown-adjacent
+## North of downtown: Mango Groves and Parrot Cove
 
-The blocks immediately around Lake and Lucerne, including some multi-family and mixed-use.
+**Mango Groves** runs north from Lucerne Avenue between Dixie and Federal. **Parrot Cove** runs from Federal Highway east to the Lakeside Drive and Golfview Road corridor near the lagoon. Both are largely inside historic districts: about 86% of Mango Groves' parcels (Northeast Lucerne) and about 89% of Parrot Cove's (Northeast Lucerne and Old Lucerne).
 
-You're buying walkability at its maximum — genuinely able to leave the car for a weekend, which almost nowhere else in the county offers at this price.
+The housing is mostly single-family, with multifamily and condo buildings mixed in, and more than half of the single-family houses predate 1950.
 
-*Check:* what's above and beside you, since downtown-adjacent means evening noise on some blocks; parking arrangements, which matter enormously here; and for any multi-family building, the usual association questions.
+*Verify:* the specific district and whether the building is flagged as contributing, the permit and COA history, and, for anything near the lagoon, whether the parcel is actually waterfront, meaning its survey, seawall and any dock rights. Don't assume the street name tells you.
 
-## The beachside
+## Lagoon side, south of Lake Avenue: Bryant Park and South Palm Park
 
-Across the Intracoastal on the barrier island, a small area near the pier and casino complex — condos and a limited number of houses.
+The **Bryant Park** neighborhood runs from Federal Highway east toward the lagoon, between Lake Avenue and 6th Avenue South, around the City park of the same name. By parcel count it's mostly condominium units, and its single-family houses have the oldest median year built of any mapped neighborhood: 1929. About 70% of its parcels are in a historic district, mostly South Palm Park.
 
-This is the highest price tier in the city and a different market from the mainland.
+The **South Palm Park** neighborhood continues south from about 6th Avenue South to the city's southern edge, east of Federal. It's single-family and condo. About half its parcels fall in the South Palm Park historic district, and the neighborhood's single-family median is later, 1958.
 
-*Check:* flood zone, elevation certificate, wind mitigation and a real insurance quote before you're committed, plus evacuation zone, which will be called early. For condos, the reserve study, milestone inspection status and assessment history.
+*Verify:* flood zone and elevation, which can differ from parcel to parcel near the lagoon; condo reserves and inspection status for any association building; and historic status, which splits this area roughly in half.
 
-## Around Bryant Park and the lagoon
+## North end: Eden Place and College Park
 
-The blocks near the waterfront park have a specific appeal: green space, water views on some streets, and a short walk to downtown.
+**Eden Place** and **College Park** sit at the north end of the city, from Dixie Highway east toward the lagoon. Both are overwhelmingly single-family, with a median year built of 1955.
 
-*Check:* flood zone, which varies along the lagoon edge, and elevation.
+Eden Place is outside the historic districts. The **College Park historic district** covers about a third of the College Park neighborhood. The City's summary puts its main growth in 1925–1928 and 1945–1949.
 
-## The western neighborhoods
+*Verify:* whether the specific house is inside the College Park district, since the neighborhood and the district aren't the same area, and roof, openings and flood details.
 
-Between downtown and I-95, the housing shifts toward mid-century block construction on a similar grid, generally at more attainable prices than the historic districts.
+## South of downtown and west of Dixie
 
-These streets offer the same walkable layout and proximity without the historic-district review process — which for a buyer planning significant renovation is a genuine practical advantage rather than a compromise.
+**Pineapple Beach**, between Dixie and Federal south of 6th Avenue South, and the neighborhoods west of Dixie (**Tropical Ridge, Royal Poinciana, Memorial Park, Whispering Palms and Sunset Ridge**) are almost entirely outside the historic districts. Their single-family medians run from 1952 to 1957, so much of the stock is mid-century, alongside condo and multifamily parcels.
 
-*Check:* roof age above almost everything else, since it drives both a capital cost and insurability. Then permit history, electrical panel type, plumbing material, and impact protection.
+For a buyer, the practical difference is review, not age. These houses are often several decades old too, but exterior changes don't go through historic-district design review. They still need the usual permits and zoning compliance.
 
-## What to verify anywhere in this city
+*Verify:* roof age and type, electrical panel, plumbing materials, window and door protection, and permit history. Mid-century doesn't mean updated.
 
-The housing stock is old enough that diligence matters more here than in newer communities:
+## The far west: including the city's newer homes
 
-- **Roof age and type**, which determines both cost and whether the house is insurable at a sensible price.
-- **Electrical panel** — certain older panel types complicate or prevent coverage.
-- **Plumbing material**, particularly in mid-century houses.
-- **Permit history**, since a century of alterations means work of varying provenance.
-- **Historic designation status** and what it requires.
-- **Flood zone and elevation certificate**, which vary meaningfully across a city that runs from the interstate to the ocean.
+The western neighborhoods include most of what's newer in Lake Worth Beach:
 
-## The "Lake Worth" address trap
+- **Lake Cove:** 59 single-family homes with a median year built of 2019, flagged by the City as having an HOA.
+- **Vernon Heights:** single-family homes with a median year built of 1992 (the middle half built 1987–2002), also with an HOA.
+- **Murray Hills:** almost entirely condominium parcels, with an HOA.
+- **ROLO:** mid-century single-family houses (median 1959) and condominium parcels.
+- **Commerce Park Village:** mostly condo, townhouse and commercial parcels.
 
-The most important thing to check on any listing here, and it catches buyers constantly.
+*Verify:* the HOA or condo documents, fees and rules, and the jurisdiction on the parcel record.
 
-**A "Lake Worth" postal address does not mean the City of Lake Worth Beach.** A large unincorporated area inland shares the postal designation and extends several miles west. The housing there is entirely different — suburban subdivisions and semi-rural parcels rather than a walkable historic grid — and so are the services, the utility provider and the municipal tax position.
+## The barrier island isn't a residential submarket here
 
-Neither is worse. They are simply not the same place, and a search filtered by city name will return both without distinguishing between them.
+Buyers often picture beachside homes. Within Lake Worth Beach city limits, the City's parcel data shows only municipal property on the barrier island: the beach, the Casino Building complex and its related parcels. There's no residential beachside neighborhood inside the city.
 
-**Check the actual location on a map**, and confirm from the title work whether the parcel is inside the city limits. If walkability and the beach are why you're looking here, this single check will save you a great deal of time.
+Residential buildings you can see up and down the coast from the City beach are in other municipalities, with their own rules, taxes and services. If a listing near the beach says "Lake Worth," check the parcel record.
 
-## Choosing
+## Historic districts: how review actually works
 
-1. **Historic house or not?** This is the biggest fork. Designation brings character and review; the western streets bring the same grid without the process.
-2. **How close to downtown?** Walkability is the city's signature asset and it drops off quickly past a certain radius.
-3. **Renovating?** Price it properly, including any historic-district material requirements. Our [cost breakdown](/blog/cost-of-living-in-lake-worth-beach-florida) covers what that runs to.
-4. **Beach or mainland?** The barrier island is a separate price tier with a separate insurance picture.
+According to the City's historic preservation division:
 
-Verify designation, flood zone, elevation, permit history and roof age for the specific parcel. In a city where houses have stood for a hundred years, the individual property tells you everything and the street tells you very little.`,
+- **The ordinance** was adopted in 1996, with design review overseen by the volunteer Historic Resources Preservation Board.
+- **What's designated:** six local historic districts and four individually significant structures, several recognized by the National Register of Historic Places.
+- **The COA:** a Certificate of Appropriateness is required before exterior work begins, and before a building permit can be issued, for a property in a historic district or an individually designated landmark. The City says most exterior improvements or alterations need one.
+- **Since July 1, 2026**, some projects no longer need a building permit under state law (HB 803), but they may still need a City zoning permit and, in a district, a COA.
+- **Talk to staff first:** the City recommends booking an appointment with its Historic Preservation Division before finalizing designs or buying construction materials.
+
+The City doesn't publish a single list of which materials are always required, and requirements depend on the property and the work. Before you budget a renovation, confirm the parcel's status on the City's [historic districts map](https://lakeworthbeachfl.gov/historic-districts). Ask for any prior COA approvals, describe the exterior work you have in mind, and get the guidance in writing.
+
+## Old-house due diligence
+
+These are prompts for your inspector, insurer, contractor and attorney, not advice in themselves.
+
+- **Permit history.** Pull the City's permit records. Ask the seller which work was permitted, and whether any additions, enclosures or conversions weren't.
+- **Roof.** Age, material and remaining life, and what your insurer requires.
+- **Electrical.** Panel type and capacity, and the wiring. Ask your inspector about anything an insurer may object to.
+- **Plumbing.** Supply and drain materials, and the condition of the sewer lateral.
+- **Windows and doors.** Whether openings are impact-rated or shuttered, and, in a district, what replacement would require.
+- **Flood and elevation.** The FEMA flood zone (the City also publishes a flood zone map), whether an elevation certificate exists, and a wind-mitigation report.
+- **Insurance timing.** Get a property-specific quote during the inspection period, not after it.
+- **Lot, parking and access.** The survey, setbacks, driveway or off-street space, and whether there's alley access. For a street-parking block, check whether residential permit parking applies.
+- **Historic status.** Whether the building is in a district, whether the City flags it as contributing, and any past COAs.
+
+## Checking the address: city or county
+
+A step-by-step method using official sources:
+
+1. **Search the parcel** on the [Palm Beach County Property Appraiser](https://www.pbcpao.gov/) site, and read the municipality on the record.
+2. **Cross-check the City's maps.** The City's [GIS map library](https://lakeworthbeachfl.gov/maps) includes ZIP code, neighborhood-association and historic-district maps with address search.
+3. **Don't rely on the utility or ZIP code.** The City's utility service area extends beyond city limits, and the City's beach-permit rules cover ZIP code 33460 plus only part of 33461.
+
+What changes with jurisdiction: local government, permitting and zoning, code enforcement, and eligibility for City resident programs such as beach parking permits. For taxes, compare the actual tax bills on the parcel records rather than a general rule.
+
+## Choosing: a practical framework
+
+- **Historic character or renovation flexibility?** If you want an early-twentieth-century house, you're likely looking in the Lucerne districts, Old Lucerne, South Palm Park or College Park, and you should budget time for design review. If you plan significant exterior changes, weigh the areas west of Dixie or outside the districts.
+- **Proximity or ownership cost?** Being close to downtown, the lagoon or the bridge doesn't settle the carrying cost of a particular house. Roof, openings, flood zone and insurance do.
+- **Mainland only.** Within the city, homes are on the mainland. If you want to live on the barrier island, you're looking at another municipality, with its own due diligence.
+- **The house over the label.** Neighborhood names describe association areas. The parcel, its designation and its condition decide what you're actually buying.
+
+Next: see what ownership costs in the [cost of living guide](/blog/cost-of-living-in-lake-worth-beach-florida), weigh the [pros and cons](/blog/pros-and-cons-of-living-in-lake-worth-beach-florida), compare [Lake Worth Beach with nearby cities](/blog/lake-worth-beach-vs-nearby-cities), or browse current listings on the [Lake Worth Beach community page](/communities/lake-worth-beach).`,
     faqs: [
-      { q: "What are the historic districts in Lake Worth Beach?", a: "The city has several designated districts holding the housing it is known for — 1920s Florida vernacular cottages, Mission and Mediterranean Revival bungalows, and wood-frame houses with deep porches on a walkable grid with mature canopy, many within a few minutes of downtown on foot." },
-      { q: "What does historic designation mean for my house?", a: "Exterior changes — windows, roofing, additions, porches, sometimes fencing and paint — go through a preservation review process. It protects the streetscape you are buying into and genuinely constrains what you can do. Approved materials can cost substantially more than standard replacements, so get the specific district rules before planning work." },
-      { q: "Where is the most affordable housing in Lake Worth Beach?", a: "Generally the neighborhoods between downtown and I-95, where the stock shifts toward mid-century block construction on the same grid. They offer the same walkable layout and proximity without the historic-district review process, which for anyone planning significant renovation is a practical advantage rather than a compromise." },
-      { q: "What should I check before buying an old house here?", a: "Roof age above everything else, since it drives both a capital cost and whether the house is insurable at a sensible price. Then electrical panel type, plumbing material, permit history across a century of alterations, historic designation status, and flood zone with an elevation certificate." },
-      { q: "Can I live on the beach side of Lake Worth Beach?", a: "Yes, in a small area across the Intracoastal near the pier and casino complex — condos and a limited number of houses. It is the highest price tier in the city and a different market from the mainland. Flood zone, elevation, wind mitigation and insurance are the first things to check, along with evacuation zone." },
-      { q: "Is Lake Worth Beach walkable enough to skip the car?", a: "In the downtown core and the blocks immediately around it, genuinely yes — you can leave the car for a weekend, which almost nowhere else in the county offers at this price. Walkability drops off fairly quickly past a certain radius, so proximity to Lake and Lucerne matters if that is what you are buying." },
+      { q: "What are the neighborhoods in Lake Worth Beach?", a: "The City maps 18 neighborhood areas, most tied to a neighborhood association: Bryant Park, College Park, Commerce Park Village, Downtown Jewel, Eden Place, Lake Cove, Mango Groves, Memorial Park, Murray Hills, Parrot Cove, Pineapple Beach, ROLO, Royal Poinciana, South Palm Park, Sunset Ridge, Tropical Ridge, Vernon Heights and Whispering Palms. They're association areas, not legal subdivisions." },
+      { q: "Which Lake Worth Beach neighborhoods are in historic districts?", a: "By the City's GIS data, most of Parrot Cove, Mango Groves and Downtown Jewel fall in the Lucerne or Old Town districts, and parts of Bryant Park, South Palm Park and College Park fall in the South Palm Park or College Park districts. Neighborhoods west of Dixie Highway are essentially outside them. Check the specific parcel on the City's historic districts map." },
+      { q: "Do I need approval to change the outside of a historic house in Lake Worth Beach?", a: "Often. The City says a Certificate of Appropriateness is required before exterior work begins, and before a building permit is issued, for property in a historic district or an individually designated landmark, and that most exterior improvements need one. Requirements depend on the property and the work, so meet with the City's Historic Preservation Division first." },
+      { q: "Can I buy a beachfront home in Lake Worth Beach?", a: "Not inside the city. The City's parcel data shows only municipal property, including the beach and Casino complex, on the barrier island within city limits. Nearby beachside residences are in other municipalities, so check the parcel record for jurisdiction." },
+      { q: "Are there newer homes in Lake Worth Beach?", a: "A few areas. In the City's parcel data, Lake Cove's single-family homes have a median year built of 2019 and Vernon Heights' 1992, and the City flags both as having an HOA. Most of the city's single-family housing is older; the citywide median year built is 1955." },
+      { q: "How do I confirm a Lake Worth address is in the city?", a: "Search the parcel on the Palm Beach County Property Appraiser's site and read the municipality on the record, then cross-check the City's GIS maps. Don't rely on a ZIP code or utility bill, since the City's utility service area extends beyond city limits." },
     ],
-    internalLinks: ["cost-of-living-in-lake-worth-beach-florida", "what-its-really-like-living-in-lake-worth-beach-florida", "who-should-move-to-lake-worth-beach-florida"],
-    funFact: "The Parrot Cove neighborhood in Lake Worth Beach sits right on the Lake Worth Lagoon with Intracoastal access and some of the most affordable waterfront single-family homes in central Palm Beach County. It's been discovered by boaters who priced themselves out of Delray Beach and Boca Raton.",
+    internalLinks: ["what-its-really-like-living-in-lake-worth-beach-florida", "local-guide-to-lake-worth-beach-florida", "cost-of-living-in-lake-worth-beach-florida", "pros-and-cons-of-living-in-lake-worth-beach-florida", "lake-worth-beach-vs-nearby-cities"],
+    funFact: "In the City's own parcel data, the median single-family home in Lake Worth Beach was built in 1955. By neighborhood, though, it ranges from 1929 in Bryant Park to 2019 in Lake Cove, a spread of ninety years within one small city. That's why the house matters more than the neighborhood name.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-things-to-do-in-lake-worth-beach-florida',
