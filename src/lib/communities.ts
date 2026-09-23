@@ -762,7 +762,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Miami', time: '50 min' },
       { destination: 'Tri-Rail (Boca Station)', time: '5 min' },
     ],
-    linkedNeighborhoods: ['broken-sound', 'boca-west', 'royal-palm-yacht-cc', 'woodfield-country-club'],
+    linkedNeighborhoods: ['broken-sound', 'boca-west', 'royal-palm-yacht-cc', 'woodfield-country-club', 'lotus'],
     photos: [
       '/public/Boca Raton/boca-mizner-park.jpg',
       '/public/Boca Raton/boca-oceanfront.jpg',
@@ -3614,12 +3614,12 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Seven Bridges',
     type: 'Neighborhood',
     region: 'Delray Beach',
-    description: 'A modern gated community with lakefront homes and resort-style amenities in a private country club setting.',
+    description: 'A modern gated community with lakefront homes and resort-style clubhouse amenities.',
     overview:
-      'Seven Bridges is known for elegant estates and a private club lifestyle with pools, dining, a fitness center, and a signature golf course.',
+      'Seven Bridges is known for elegant estates and a resort-style clubhouse with pools, dining, a fitness center and tennis. There is no golf course.',
     quickFacts: [
       { label: 'Homes', value: 'Luxury estates and executive homes' },
-      { label: 'Amenities', value: 'Golf, clubhouse, resort pool, tennis' },
+      { label: 'Amenities', value: 'Clubhouse, resort pool, fitness center, tennis (no golf)' },
     ],
   },
   // ── WELLINGTON ───────────────────────────────────────────────
@@ -3707,6 +3707,85 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Homes', value: 'Villas and estate homes' },
       { label: 'Amenities', value: 'Golf, pool, clubhouse, tennis' },
     ],
+  },
+  // Lotus is west Boca (unincorporated Palm Beach County, Boca Raton mailing
+  // address) on Lyons Road north of Clint Moore Road. Lotus Palm and Lotus Edge
+  // are separate GL Homes communities with their own clubhouses; this page is
+  // the original Lotus only. Photos are the processed amenity frames from the
+  // 8804 Skyward Street shoot, shared with that listing page.
+  {
+    slug: 'lotus',
+    name: 'Lotus',
+    type: 'Neighborhood',
+    region: 'Boca Raton',
+    description: 'A guard-gated GL Homes community of modern single-family homes in west Boca Raton, built around a resort-style clubhouse with no golf course.',
+    metaTitle: 'Lotus Boca Raton Homes for Sale | Guard-Gated GL Homes Community',
+    metaDescription: 'Lotus in west Boca Raton: about 800 modern GL Homes single-family homes on Lyons Road, a 24-hour manned gate, a 26,000 sq ft clubhouse, indoor sports court, tennis and pickleball, and no golf.',
+    overview:
+      'Lotus is a guard-gated community of roughly 800 single-family homes on Lyons Road in west Boca Raton, north of Clint Moore Road. GL Homes built it in a clean, modern style rather than the Mediterranean look of the older communities around it. New-construction sales here have finished, and Lotus now has a very active resale market. With two more Lotus communities under construction nearby, buyers get a real choice: wait for a new build, or buy something lightly broken in and move in now.\n\nThe draw is the amenity package. A clubhouse of about 26,000 square feet holds a restaurant, fitness center, game room, children\'s playroom and an air-conditioned indoor sports court, with resort and lap pools outside plus lighted clay tennis and pickleball courts. A full-time social director runs the calendar. There is no golf course, and the community is not age-restricted.',
+    placeNotes: [
+      {
+        heading: 'Lotus, Lotus Palm and Lotus Edge are three different communities',
+        body: 'GL Homes has used the Lotus name for three separate gated communities in west Boca Raton. Lotus is the original and is built out. Lotus Palm and Lotus Edge are the newer two, both being built nearby now, and each has its own gate, its own clubhouse and its own homeowners association. Homes in one do not get access to the others\' amenities. The MLS files them separately too, so when you search or compare prices, check which one a listing is actually in.',
+      },
+      {
+        heading: 'Why a search for "Lotus" misses homes in Lotus',
+        body: 'Listing agents type the subdivision name by hand, and Lotus homes are filed under a dozen versions of it. Some say Lotus. Many carry the recorded plat name instead, "Bridges Mizner PUD Bridges South Plat" followed by a number, and some of those are cut off partway through. A search for "Lotus" alone can miss a real share of what is for sale here, and a comparable-sales pull that only uses one name will undercount the market. The listings on this page and our Lotus search include every variant we have found, but when you are pricing a home, have your agent pull comps by address and plat, not by the word Lotus.',
+      },
+      {
+        heading: 'New build nearby, or lightly broken in here?',
+        body: 'This is the real decision most Lotus buyers face. A new build in Lotus Palm or Lotus Edge lets you pick the lot, the floor plan and the finishes, and you get everything under a builder warranty. The trade is time: you wait for construction, and you still owe the extras a builder price rarely includes, such as landscaping upgrades, window treatments, a pool and often the lake-lot premium. A resale in Lotus is the opposite trade. The home is finished, the pool and landscaping are usually already in, the clubhouse is open with the social calendar running, and you can see the actual lot and neighbors before you buy. You give up choosing every finish, so get a full inspection and ask what is left on the builder warranty. Because the Lotus resale market moves quickly, the best homes tend not to sit, so it pays to have a buying plan and a pre-approval ready before you tour.',
+      },
+      {
+        heading: 'A Boca Raton address, but not the City of Boca Raton',
+        body: 'Like most of the communities west of the Turnpike, Lotus sits in unincorporated Palm Beach County and uses a Boca Raton mailing address. That affects property taxes, which government provides services and which permitting rules apply. Confirm the jurisdiction for any specific home through the Palm Beach County Property Appraiser rather than relying on the address.',
+      },
+    ],
+    quickFacts: [
+      { label: 'Homes', value: 'About 800 modern single-family homes by GL Homes' },
+      { label: 'Market', value: 'Built out; very active resale market' },
+      { label: 'Security', value: 'Guard-gated, manned 24 hours' },
+      { label: 'Amenities', value: 'Clubhouse and restaurant, resort and lap pools, indoor sports court, fitness center, clay tennis, pickleball' },
+      { label: 'Golf', value: 'None' },
+      { label: 'Age restriction', value: 'None' },
+    ],
+    highlights: [
+      'Guard-gated with a manned gate around the clock',
+      'Very active resale market, with two newer Lotus communities being built nearby',
+      'Clubhouse of about 26,000 sq ft with a restaurant, fitness center, game room and playroom',
+      'Air-conditioned indoor sports court for basketball, pickleball and volleyball',
+      'Resort pool with cabanas, a separate lap pool and a splash pad',
+      'Lighted clay tennis courts and pickleball courts',
+      'Full-time social director running a monthly events calendar',
+      'Lawn maintenance for each home covered by the association',
+      'A few minutes south of Delray Marketplace on Lyons Road',
+    ],
+    lifestyle:
+      'Life in Lotus centers on the clubhouse. Because the association runs a full-time social director, there is a monthly calendar of fitness classes, coffee talks and food trucks without a volunteer board having to organize it. The air-conditioned indoor sports court keeps basketball and pickleball going through the summer heat and afternoon storms. Outside the gate, Delray Marketplace a few minutes north on Lyons Road covers groceries, dinner and movies, and the Turnpike and Glades Road reach the rest of Boca. Assessments cover more than a typical Boca Raton HOA fee does, including the gate, lawn care and the clubhouse, so compare the total monthly cost rather than the headline figure. Confirm current fees, any capital contribution due at closing and leasing rules with the association before you make an offer.',
+    faqs: [
+      { q: 'Does Lotus in Boca Raton have a golf course?', a: 'No. Lotus is built around a resort-style clubhouse, pools, an indoor sports court, tennis and pickleball rather than golf. There is no golf membership to buy into or pay dues on.' },
+      { q: 'Is Lotus Boca Raton a 55+ community?', a: 'No. Lotus is not age-restricted, and the amenities include a children\'s playroom, a splash pad and a playground alongside the adult fitness and racquet facilities.' },
+      { q: 'Is Lotus the same as Lotus Palm or Lotus Edge?', a: 'No. They are three separate GL Homes communities in west Boca Raton, each with its own gate, clubhouse and association. Amenities are not shared between them, and the MLS lists them separately. Lotus is built out and trades as resales; Lotus Palm and Lotus Edge are the two still being built nearby.' },
+      { q: 'Should I buy a resale in Lotus or wait for a new build in Lotus Palm or Lotus Edge?', a: 'It comes down to time versus choice. A new build lets you choose the lot, plan and finishes, with a builder warranty, but you wait for construction and usually add landscaping, window treatments and a pool on top of the base price. A Lotus resale is move-in ready, often with the pool and landscaping done, and the clubhouse and social calendar are already running. Lotus has a very active resale market, so good homes move quickly. Line up your pre-approval first.' },
+      { q: 'What does the Lotus HOA fee cover?', a: 'The assessment covers the manned gate, lawn maintenance for each home, common areas, the clubhouse and the social director\'s programming. Buyers also typically pay a capital contribution at closing. Amounts change, so confirm the current assessment, contribution and any pending special assessments with the association during your inspection period.' },
+      { q: 'Where is Lotus in Boca Raton?', a: 'On Lyons Road in west Boca Raton, north of Clint Moore Road, with Delray Marketplace a few minutes north. It is west of the Turnpike, in unincorporated Palm Beach County with a Boca Raton mailing address.' },
+      { q: 'What schools serve Lotus?', a: 'Lotus is served by the School District of Palm Beach County. Attendance boundaries change, so confirm the assigned schools for a specific address with the district before you buy.' },
+    ],
+    photos: [
+      '/images/listings/8804-skyward-street/lotus-entrance-monument.jpg',
+      '/images/listings/8804-skyward-street/community-01-resort-pool.jpg',
+      '/images/listings/8804-skyward-street/community-04-clubhouse-exterior.jpg',
+      '/images/listings/8804-skyward-street/community-05-sports-complex.jpg',
+      '/images/listings/8804-skyward-street/community-02-pool-deck.jpg',
+      '/images/listings/8804-skyward-street/community-07-fitness-cardio.jpg',
+    ],
+    // The listings widget ORs in the MLS name variants from lib/ylopoAliases.
+    // This URL carries the same list, as community + subdivision locations.
+    // Verified 2026-09-23 on search.doyouneedahome.com: the same 11 actives.
+    savedSearches: [
+      { label: 'All Lotus Homes for Sale', sublabel: 'Every active listing inside the gate', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][community]=Lotus&s[locations][0][city]=Boca%20Raton&s[locations][0][state]=FL&s[locations][1][subdivision]=Lotus&s[locations][1][city]=Boca%20Raton&s[locations][1][state]=FL&s[locations][2][community]=Lotus-Bridges%20Mizner%20Pud%20Bridges%20South&s[locations][2][city]=Boca%20Raton&s[locations][2][state]=FL&s[locations][3][subdivision]=Lotus-Bridges%20Mizner%20Pud%20Bridges%20South&s[locations][3][city]=Boca%20Raton&s[locations][3][state]=FL&s[locations][4][community]=Lotus-Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20On&s[locations][4][city]=Boca%20Raton&s[locations][4][state]=FL&s[locations][5][subdivision]=Lotus-Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20On&s[locations][5][city]=Boca%20Raton&s[locations][5][state]=FL&s[locations][6][community]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20On&s[locations][6][city]=Boca%20Raton&s[locations][6][state]=FL&s[locations][7][subdivision]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20On&s[locations][7][city]=Boca%20Raton&s[locations][7][state]=FL&s[locations][8][community]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20One&s[locations][8][city]=Boca%20Raton&s[locations][8][state]=FL&s[locations][9][subdivision]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20One&s[locations][9][city]=Boca%20Raton&s[locations][9][state]=FL&s[locations][10][community]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Three&s[locations][10][city]=Boca%20Raton&s[locations][10][state]=FL&s[locations][11][subdivision]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Three&s[locations][11][city]=Boca%20Raton&s[locations][11][state]=FL&s[locations][12][community]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Five&s[locations][12][city]=Boca%20Raton&s[locations][12][state]=FL&s[locations][13][subdivision]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Five&s[locations][13][city]=Boca%20Raton&s[locations][13][state]=FL&s[locations][14][community]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Six&s[locations][14][city]=Boca%20Raton&s[locations][14][state]=FL&s[locations][15][subdivision]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Six&s[locations][15][city]=Boca%20Raton&s[locations][15][state]=FL&s[locations][16][community]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Seven&s[locations][16][city]=Boca%20Raton&s[locations][16][state]=FL&s[locations][17][subdivision]=Bridges%20Mizner%20Pud%20Bridges%20South%20Plat%20Seven&s[locations][17][city]=Boca%20Raton&s[locations][17][state]=FL&s[locations][18][community]=Bridges%20Mizner%20Pud%20Bridges%20S&s[locations][18][city]=Boca%20Raton&s[locations][18][state]=FL&s[locations][19][subdivision]=Bridges%20Mizner%20Pud%20Bridges%20S&s[locations][19][city]=Boca%20Raton&s[locations][19][state]=FL&s[locations][20][community]=Bridges%20Mizner%20Pud%20Bridge&s[locations][20][city]=Boca%20Raton&s[locations][20][state]=FL&s[locations][21][subdivision]=Bridges%20Mizner%20Pud%20Bridge&s[locations][21][city]=Boca%20Raton&s[locations][21][state]=FL' },
+    ],
+    lat: 26.425, lng: -80.185,
   },
   {
     slug: 'delaire-country-club',
