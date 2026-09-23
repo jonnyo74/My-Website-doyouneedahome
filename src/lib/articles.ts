@@ -1691,7 +1691,12 @@ Weighing a downtown tower instead? That market runs on building-by-building spec
     primaryKeyword: "best neighborhoods in West Palm Beach Florida",
     secondaryKeywords: ["where to live in West Palm Beach", "El Cid", "Flamingo Park", "SoSo West Palm Beach", "downtown West Palm Beach"],
     h1: "Best Neighborhoods in West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/waterfront-030.jpeg',
+    heroImage: '/images/west-palm-beach/rooftop-view-city-hero.webp',
+    heroImageAlt: "West Palm Beach seen from a rooftop: red-tiled roofs and low-rise blocks in the foreground, with office towers and mid-rise buildings stretching to the horizon under a blue sky",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '50% 50%',
     body: `This guide covers West Palm Beach's **house** neighborhoods — the single-family and historic districts where you buy a home with a yard, a porch, and a roof of your own.
 
 That's a deliberate scope. Downtown and Flagler Drive are a condo market with entirely different economics — association dues, reserve studies, building-specific risk — and our sister site [CondoWPB.com](https://www.condowpb.com) covers those buildings one by one. If a tower is what you're after, start there instead.
