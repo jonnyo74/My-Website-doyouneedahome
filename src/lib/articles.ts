@@ -2916,6 +2916,8 @@ The single most useful skill for living near downtown.
 
 **Park once.** The classic local move for an evening downtown: park in a garage, walk everywhere, and don't move the car until you leave. The core is compact enough that this usually works.
 
+**Or leave the car at home.** The City offers [Freebee](https://www.delraybeachfl.gov/our-city/getting-around/downtown-trolley), a free, on-demand electric ride service in and around downtown. The City describes the service area as most locations east of I-95 to A1A, between Gulfstream Boulevard and S.W. 10th Street. Request a ride in the Ride Freebee app, by phone, or by flagging down a driver, and check the City's page for current hours and the service area.
+
 **In season, have a plan.** On weekend evenings from roughly November through April, arriving without one is how you end up parked a long way from dinner.
 
 *Official resource:* [City of Delray Beach — find parking](https://www.delraybeachfl.gov/government/city-departments/public-works/parking/find-parking)
@@ -2996,7 +2998,7 @@ For the texture rather than the mechanics, read [what living here is actually li
     author: 'christine',
     published: true,
     publishedDate: '2026-06-01',
-    updated: '2026-09-21',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-delray-beach-florida',
