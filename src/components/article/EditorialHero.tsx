@@ -62,6 +62,21 @@ const TONES = {
     author: 'text-slate-900',
     secondary: 'text-slate-900 decoration-slate-400 hover:decoration-slate-900',
   },
+  // The split hero's opt-in local-guide panel (editorial.heroTone === 'guide').
+  // Navy eyebrow instead of gold, so it reads as a field guide rather than a
+  // listing banner; navy-800 holds 11:1 on the near-white panel.
+  guide: {
+    nav: 'text-slate-600',
+    navLink: 'rounded hover:text-slate-900',
+    navCurrent: 'text-slate-700',
+    navCurrentLink: 'rounded text-slate-700 hover:text-slate-900',
+    eyebrow: 'text-navy-800',
+    h1: 'text-slate-900',
+    deck: 'text-slate-700',
+    byline: 'border-slate-300 text-slate-600',
+    author: 'text-slate-900',
+    secondary: 'text-slate-900 decoration-slate-400 hover:decoration-slate-900',
+  },
 } as const
 
 function HeroText({
@@ -88,9 +103,16 @@ function HeroText({
         )}
       </nav>
 
-      <p className={`mt-4 text-xs font-semibold uppercase tracking-[0.24em] md:mt-5 ${t.eyebrow}`}>
+      <p className={`mt-4 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] md:mt-5 ${t.eyebrow}`}>
+        {tone === 'guide' && (
+          // A map pin: the one visual cue that this is a place-finding guide.
+          <svg aria-hidden="true" viewBox="0 0 16 16" className="h-3.5 w-3.5 shrink-0" fill="currentColor">
+            <path d="M8 0a5.5 5.5 0 0 0-5.5 5.5C2.5 9.6 8 16 8 16s5.5-6.4 5.5-10.5A5.5 5.5 0 0 0 8 0Zm0 7.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5Z" />
+          </svg>
+        )}
         {editorial.eyebrow}
       </p>
+      {tone === 'guide' && <span aria-hidden="true" className="mt-4 block h-0.5 w-12 bg-report-gold" />}
       <h1 className={`mt-3 font-serif text-[1.875rem] font-semibold leading-[1.15] sm:text-4xl lg:text-[2.75rem] ${t.h1}`}>
         {h1}
       </h1>
@@ -180,6 +202,35 @@ export default function EditorialHero(props: Props) {
       />
     </picture>
   )
+
+  if (split && editorial.heroTone === 'guide') {
+    // Local-guide variant. Text leads on phones (the photo follows it at 3:2
+    // rather than shrinking into a strip above the headline), and the photo
+    // sits in a <figure> whose caption names the view and carries the credit,
+    // so nothing is laid over the image or the title.
+    return (
+      <header className="border-b border-slate-200 bg-slate-50 bg-[linear-gradient(to_right,rgb(15_34_51/0.045)_1px,transparent_1px),linear-gradient(to_bottom,rgb(15_34_51/0.045)_1px,transparent_1px)] bg-[size:28px_28px]">
+        <div className="mx-auto grid max-w-7xl md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] md:items-center md:gap-10 md:px-8 lg:gap-16">
+          <div className="px-6 pb-7 pt-6 sm:px-8 md:px-0 md:py-12">
+            <div className="max-w-xl">
+              <HeroText {...props} tone="guide" />
+            </div>
+          </div>
+          <figure className="px-6 pb-9 sm:px-8 md:my-10 md:px-0 lg:my-12">
+            <div className={`relative ${stacked} overflow-hidden rounded-sm bg-slate-200 shadow-sm md:aspect-[4/5] md:max-h-[640px]`}>
+              {picture}
+            </div>
+            {(editorial.panelCaption || image.credit) && (
+              <figcaption className="mt-2 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-xs leading-5 text-slate-600">
+                {editorial.panelCaption && <span>{editorial.panelCaption}</span>}
+                {image.credit && <span className="text-slate-500">{image.credit}</span>}
+              </figcaption>
+            )}
+          </figure>
+        </div>
+      </header>
+    )
+  }
 
   if (split) {
     const warm = editorial.heroTone === 'warm'

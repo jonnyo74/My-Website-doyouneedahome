@@ -143,8 +143,14 @@ export interface ArticleEditorial {
   // JSON-LD image, so it should be a landscape crop of the same photo.
   panelImage?: { src: string; width: number; height: number }
   // Split layout only: 'warm' swaps the slate panel for an ivory one with a
-  // gold eyebrow. Opt-in per article; every other hero keeps the default.
-  heroTone?: 'warm'
+  // gold eyebrow. 'guide' is the local-guide variant: a map-paper panel with a
+  // navy location eyebrow, text ahead of the photo on phones, and the photo
+  // captioned (credit included) beneath it rather than overlaid. Opt-in per
+  // article; every other hero keeps the default.
+  heroTone?: 'warm' | 'guide'
+  // Split layout only: a short line naming what the photo shows, set under
+  // the image. Used by the 'guide' tone so the view reads as orientation.
+  panelCaption?: string
   primaryCta: ArticleLink
   secondaryCta: ArticleLink
   quickFit?: {
@@ -1608,113 +1614,148 @@ When you're ready to look at homes, start from the [West Palm Beach community pa
     cityName: 'West Palm Beach',
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to West Palm Beach, Florida",
+    seoTitle: "A Local's Guide to West Palm Beach, Florida: Layout, Resources and Getting Around",
     metaTitle: "A Local's Guide to West Palm Beach, Florida",
-    metaDescription: "An insider guide to West Palm Beach, Florida — downtown, the waterfront, historic neighborhoods, the Brightline, and how to live like a local in the city.",
+    metaDescription: "A West Palm Beach local guide: how the city is laid out, who handles parking, permits, taxes and storm alerts, getting around, events and a move-in checklist.",
     primaryKeyword: "West Palm Beach local guide",
-    secondaryKeywords: ["West Palm Beach insider tips", "things locals do in West Palm Beach", "moving to West Palm Beach guide"],
+    secondaryKeywords: ["moving to West Palm Beach guide", "West Palm Beach parking", "West Palm Beach public transportation", "West Palm Beach vs Palm Beach"],
     h1: "A Local's Guide to West Palm Beach, Florida",
-    heroImage: '/images/west-palm-beach/circuit-shuttle-hero.webp',
-    heroImageAlt: "A white Circuit electric shuttle with the Circuit logo across its windshield, stopped at the curb on a West Palm Beach street",
+    heroImage: '/images/west-palm-beach/flagler-waterfront-marina-hero.webp',
+    heroImageAlt: "Flagler Drive and the downtown West Palm Beach waterfront seen from above: a green lawn, the waterfront road, a marina full of moored yachts on the Lake Worth Lagoon, and Palm Beach island on the far shore",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
-    heroImagePosition: '45% 50%',
-    body: `West Palm rewards people who treat it like the actual city it is, which most newcomers don't for the first six months. They drive everywhere, park badly, and never figure out that the train goes somewhere useful.
+    body: `West Palm Beach is a mainland city on the Lake Worth Lagoon. The separate Town of Palm Beach sits across the water on the island. The city is large, and daily life depends on the exact address: the housing type, how close it is to downtown, and the routes you'll actually use. The ZIP code alone won't tell you much.
 
-Here's the local playbook, condensed.
+This guide is the practical side of moving here: how the city is laid out, which office handles what, how parking and transportation work, where to find the event calendars, and what to check before closing and in your first months. For what it's like to live here day to day, read [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida).
 
-## Get your bearings
+## The two Palm Beaches
 
-The city organizes into four rough zones, and once you can picture them the rest follows.
+- **West Palm Beach** is the mainland city, and the county seat.
+- **Palm Beach** is the Town of Palm Beach, a separate municipality on the barrier island, with its own government, codes and services.
 
-**Downtown and the waterfront.** Clematis Street, CityPlace, and Flagler Drive along the Intracoastal. The dense, walkable, event-driven core, and where the office employment sits.
+They have separate governments, regulations and property markets. When you read a listing, a statistic or a rule, check which one it refers to. And because the "West Palm Beach" mailing address also covers unincorporated county land, check the parcel too: on the [Property Appraiser's](https://www.pbcpao.gov/) record, a parcel number starting with **74** is in the City of West Palm Beach, and **00** is unincorporated Palm Beach County.
 
-**The historic south.** El Cid, Flamingo Park, Grandview Heights, and SoSo (South of Southern) — tree-canopied streets, 1920s architecture, and the walkable-house market that gives this city its character.
+## Getting oriented
 
-**North of downtown.** Northwood and Antique Row along South Dixie's northern reach — artsy, independent, and still revitalizing in parts.
+**Downtown and the waterfront.** Downtown runs from the City's waterfront on Flagler Drive through the Clematis Street district to **CityPlace**, the mixed-use center on South Rosemary Avenue. The waterfront includes the Great Lawn at 100 North Clematis Street, where the City holds the GreenMarket and many free events. The three drawbridges to the island, the Flagler Memorial, Royal Park and Southern Boulevard bridges, open for boat traffic on schedules set by federal rules.
 
-**West.** Past I-95 toward Palm Beach Lakes and beyond, the city turns conventionally suburban: bigger lots, newer stock, easier parking, more accessible pricing, and a car for everything.
+**North of downtown.** The City's redevelopment agency describes **Northwood Village**, just over a mile north of downtown, around Broadway and Pinewood Avenue, as a design district with independent shops and restaurants. It's part of the agency's Northwood/Pleasant City redevelopment area. The City's historic-district map also names residential districts in this part of town, including Old Northwood and Northwood Hills.
 
-The bridges to Palm Beach island are your fifth reference point. Several open on a schedule for boat traffic, which quietly shapes which side of downtown people prefer.
+**South of downtown.** The City's map names historic districts including Grandview Heights, Flamingo Park, El Cid, Prospect/Southland Park and Central Park. Farther south, **Antique Row** is the name the antiques and design merchants use for their stretch of South Dixie Highway. It's a business district, not a City neighborhood. "SoSo," short for South of Southern (Boulevard), is real-estate shorthand, not an official City name, and its boundaries vary by source.
 
-## Parking, honestly
+**West of I-95.** The city continues west, taking in residential areas and, at its western end, Grassy Waters Preserve, the City's water catchment area. Out here the city boundary is irregular, and many addresses that say "West Palm Beach" are in unincorporated county, so check the parcel.
 
-The single most common newcomer complaint, and almost entirely solvable.
+**Confirm the name.** Neighborhood names in listings are often shorthand. When a name matters to you, whether it's a historic district, a homeowners' association or a City service area, check it against the City's maps or the parcel record. The [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) covers the areas in more depth.
 
-Downtown street parking in the evening — particularly Thursday through Saturday, and worse in season — is a losing game. **Learn the garages.** Residents park in the same structure every time and walk two blocks rather than circling for twenty minutes.
+## First resources to save
 
-CityPlace and the surrounding blocks have structured parking. Metered street spots exist but turn over slowly at peak times. If you're going out downtown on a Saturday night in February, decide your garage before you leave the house.
+| Need | Who | Link |
+|---|---|---|
+| Downtown parking | City of WPB | [Parking](https://www.wpb.org/Departments/Parking-Mobility-Administration) |
+| Permits, zoning, historic | City of WPB | [Permits](https://www.wpb.org/Departments/Development-Services) |
+| Water and sewer | City of WPB | [Utilities](https://www.wpb.org/Departments/Public-Utilities) |
+| Trash, recycling | City of WPB | [Solid waste](https://www.wpb.org/Departments/Public-Works/Solid-Waste) |
+| Parcels, homestead | County | [pbcpao.gov](https://www.pbcpao.gov/) |
+| Tax bill, license | County | [pbctax.gov](https://www.pbctax.gov/) |
+| Buses | Palm Tran | [palmtran.org](https://www.palmtran.org/) |
+| Regional rail | Operators | [Brightline](https://www.gobrightline.com/), [Tri-Rail](https://www.tri-rail.com/) |
+| Airport | DJT | [flydjt.org](https://www.flydjt.org/) |
+| Storm zones, alerts | County | [Know Your Zone](https://discover.pbc.gov/oem/Pages/Know-Your-Zone.aspx) |
+| Flood maps | FEMA | [Flood maps](https://msc.fema.gov/portal/home) |
+| City events | City of WPB | [Calendar](https://www.wpb.org/Residents/Community-Events) |
 
-## Use the train
+Many of these are address-specific. City departments serve addresses inside city limits, while unincorporated parcels are served by Palm Beach County. Utility providers, trash schedules and evacuation zones follow the exact address, so look up your own.
 
-The **Brightline** station is downtown, and it's the most underused asset in the city among people who live here.
+## Parking downtown
 
-Fort Lauderdale and Miami become genuine day trips — dinner, a game, an event — without driving I-95 or paying to park. Orlando is reachable without the four-hour drive. For anyone flying out of a different airport, it changes the calculation entirely.
+The City runs five downtown garages: Banyan Street (200 Banyan Boulevard), City Center (400 Banyan Boulevard), Clematis Street (500 Banyan Boulevard), Evernia Street (333 Evernia Street) and Sapodilla (645 Clematis Street), plus several surface lots. Clearance heights differ by garage, which matters for a tall vehicle. At the time of writing, the City's rate page lists:
 
-Residents who build it into their routine describe it as the thing that makes West Palm feel like a real city rather than a large town. Residents who never try it are, in effect, living in a nice suburb with good restaurants.
+- **Garages:** $1 for the first two hours, then $2 per half hour, with a $20 daily maximum. Weekends and holidays are $5 all day, except during special events, when rates can run up to $100.
+- **Meters:** $1.00 to $2.50 an hour depending on the zone, with time limits of two to six hours. Meters take cards, quarters, dollar coins and the ParkMobile app.
+- **Permits:** monthly garage permits, a downtown residential garage permit with proof of residency, and residential parking permits for some neighborhoods.
 
-## The rhythm of the week
+Rates are set by City Commission resolution and change, so check the [City's rates and payment page](https://www.wpb.org/Departments/Parking-Mobility-Administration/Rates-Payment) before you rely on them. If you're buying, ask what parking the property itself includes: a driveway, an assigned space, a garage permit or street parking, and whether the street is in a permit area.
 
-Mornings are quiet almost everywhere except downtown, which has an actual weekday commuter pulse — a genuine rarity in this region.
+## Getting around
 
-Evenings concentrate downtown and in the neighborhood pockets. The city has a real after-dark life, which is exactly why people either choose it or avoid it.
+- **Brightline.** Intercity rail from its downtown West Palm Beach station, with stations in Miami, Aventura, Fort Lauderdale, Boca Raton and Orlando.
+- **Tri-Rail.** South Florida's commuter rail. The West Palm Beach station is at 203 South Tamarind Avenue, with free commuter parking and Palm Tran bus connections.
+- **Palm Tran.** The county's bus system lists 29 routes and about 2,700 stops, with a trip planner on its site. Palm Tran Connection is its shared-ride paratransit service for eligible riders.
+- **West Palm MOVE.** The City's electric service, operated by Via, launched September 8, 2026. Its fixed route runs north–south between the Norton Museum of Art and Northwood Village for $1 a ride, and an app-booked on-demand service costs $2.
+- **Circuit.** An on-demand electric shuttle within the downtown service area, supported by the Downtown Development Authority. It's booked in the Circuit app, and the DDA lists fares averaging about $2, so check the app for the current fare and service area.
+- **The airport.** President Donald J. Trump International Airport (DJT) is at 1000 James L. Turnage Boulevard in West Palm Beach. Tri-Rail lists Palm Tran Route 2 as a connection from its station to the airport, free with a valid Tri-Rail fare.
+- **I-95 and Florida's Turnpike** both run through the city.
 
-**Saturday morning belongs to the GreenMarket** on the waterfront. It's been running since 1994, it's genuinely local rather than a tourist market, and on a good season morning it draws a serious crowd. It's the closest thing the city has to a shared weekly ritual and the easiest way for a new resident to start recognizing faces.
+Drive times depend on the address, the route, the hour and the season, so time your own trips. Whether transit fits your routine depends on where you live and where you need to go. Check each operator's current schedules before you plan around them, and time any island trip around the drawbridge openings.
 
-## The annual calendar
+## The year on the calendar
 
-- **Season, roughly November through April** — busier downtown, fuller restaurants, more traffic, better weather. Reservations start mattering.
-- **Clematis by Night**, the long-running free weeknight music series downtown.
-- **The holidays** bring the sand sculpture tree on the waterfront, which is a genuine local institution and much better than it sounds.
-- **Fourth of July** on the waterfront is one of the biggest gatherings of the year.
-- **Summer, May through October** — hot, humid, with afternoon storms that build and clear. Unlike the seasonal beach towns, the city doesn't hollow out; the office population and year-round residents keep it running.
+Programming changes from season to season, so use the official calendars: the [City's community events](https://www.wpb.org/Residents/Community-Events) and the [Downtown Development Authority](https://downtownwpb.com/). Recurring items the City lists include:
 
-## The unwritten rules
+- **The West Palm Beach GreenMarket**, the City's Saturday market on the waterfront. The 2025–26 season ran Saturdays from October 4 through May 30, 8:30 a.m. to 1:30 p.m., skipping a couple of Saturdays for City-wide events. Several City garages offer special rates during market hours.
+- **Clematis by Night**, a free concert series on the Great Lawn every Thursday from 6 to 9 p.m., with occasional breaks such as Thanksgiving.
+- **Holiday in Paradise**, the City's holiday program on the waterfront, built around Sandi, a sculpted sand tree. In 2025 it was lit on December 4 and ran through New Year's Eve.
+- **Hurricane season**, June 1 through November 30. Check your evacuation zone and sign up for county alerts before it starts (see the checklist below).
 
-- **Research at street level, not zip-code level.** This is the single most important thing about West Palm. The city varies block to block, and buyers who walk the actual street — at night, on a weekend — consistently do better than those who don't.
-- **Don't fight the bridges.** If one's up, it's a few minutes. Getting agitated marks you as new.
-- **Learn one garage and commit to it.**
-- **Hurricane prep is normal**, June through November. Know your zone and your flood status; both vary meaningfully across the city.
-- **The city is not the island.** Palm Beach is a separate municipality across the bridge with its own rules, taxes, and pace. Locals are precise about the distinction and you should be too.
+Large events change street access, crowds and garage rates. If you're buying near the waterfront or downtown, visit on an event day as well as an ordinary one.
 
-## Getting around and out
+## A move-in checklist
 
-I-95 and Florida's Turnpike both run through. **The county's main airport is in West Palm Beach.** Its [official site](https://flydjt.org/) now lists it as President Donald J. Trump International Airport, formerly Palm Beach International, and describes it as 2.5 miles west of downtown West Palm Beach. Check the drive from your own address at the hours you'd travel. Jupiter and the northern beach towns are 25 to 30 minutes up the coast; Delray and Boca are 25 to 40 minutes south.
+These are prompts for your own diligence, not legal, insurance, financial or emergency-management advice. Confirm each item with the relevant office or professional.
 
-Public transit beyond the Brightline is limited. Within downtown a free circulator serves the core, but for most of the city you're driving.
+**Before closing**
 
-**On-demand rides.** [Circuit](https://www.ridecircuit.com/palmbeach) runs on-demand electric rides in West Palm Beach and Palm Beach, booked through the Circuit app. Its page lists destinations including downtown, CityPlace, the Tri-Rail and Brightline stations and Worth Avenue, and currently lists rides as free. These services change, so check the app for the current service area, hours and fare.
+- [ ] Confirm jurisdiction on the parcel record: the City of West Palm Beach (74) or unincorporated county (00), and not the Town of Palm Beach.
+- [ ] Check historic status, and what design review would mean for your plans, with the City's Historic Preservation staff.
+- [ ] Pull the City permit history for past work, and ask what the insurer will require (four-point and wind-mitigation reports are common for older homes).
+- [ ] Look up the FEMA flood zone, ask about elevation, and get insurance quotes during the inspection period.
+- [ ] For a condo or HOA, read the documents, budget, reserves, rules, minutes and any assessments. The [condo buyer's checklist](/florida-condo-buyers-due-diligence-checklist) lists what to request.
+- [ ] Confirm the parking that comes with the property, and whether the street is in a permit area.
+- [ ] Test the routes you'll use (drive, walk, rail, bridges, parking) at the hours you'll use them.
 
-## A note on the two "Palm Beaches"
+**First month**
 
-Newcomers conflate them constantly, and it causes real confusion in a home search.
+- [ ] Set up water, sewer and trash with the provider for your address, and confirm your collection days.
+- [ ] Apply for homestead exemption with the Property Appraiser if the home is your primary residence and you qualify.
+- [ ] Book Tax Collector appointments for your driver license and vehicle registration.
+- [ ] Save the City's parking, events and service pages, and learn which garage or permit fits your routine.
 
-**Palm Beach** is the barrier island — a separate municipality with its own government, its own police, its own zoning, and among the highest property values in the state. **West Palm Beach** is the mainland city across the bridge.
+**Before hurricane season**
 
-They have different tax rates, different rules, and completely different markets. When you see a listing or a statistic, check which one it refers to, because the difference is not small.
+- [ ] Look up your evacuation zone on the county's [Know Your Zone](https://discover.pbc.gov/oem/Pages/Know-Your-Zone.aspx) page.
+- [ ] Sign up for the county's [AlertPBC](https://discover.pbc.gov/oem/Pages/Alert-PBC.aspx) notifications.
+- [ ] Review your windows and shutters, your insurance deductibles, and your plan if you need to leave.
 
 ## Settling in
 
-Pick your zone first — walkable-downtown, historic-house, artsy-north, or suburban-west — because those are four genuinely different lives inside one city.
-
-Then do the three things newcomers skip: ride the train somewhere, go to the GreenMarket, and walk your prospective block after dark before you buy. Those three cover more ground than any amount of online research.
-
-Weighing a downtown tower instead? That market runs on building-by-building specifics — dues, reserves, rules — and [CondoWPB.com](https://www.condowpb.com) covers them one at a time.`,
+The rest of this series goes deeper: the [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida), [things to do](/blog/best-things-to-do-in-west-palm-beach-florida), [hidden gems](/blog/hidden-gems-in-west-palm-beach-florida), the [cost of living](/blog/cost-of-living-in-west-palm-beach-florida) and [West Palm Beach vs nearby cities](/blog/west-palm-beach-vs-nearby-cities). When you're ready to look at homes, start from the [West Palm Beach community page](/communities/west-palm-beach) or [search homes for sale](/buy). For downtown condominium buildings, our sister site [CondoWPB.com](https://www.condowpb.com) covers them one by one.`,
     faqs: [
-      { q: "How is West Palm Beach laid out?", a: "Roughly four zones: downtown and the Flagler Drive waterfront (dense, walkable, where the offices are); the historic south including El Cid, Flamingo Park, Grandview Heights, and SoSo; Northwood and Antique Row to the north; and conventional suburbia west of I-95 toward Palm Beach Lakes." },
-      { q: "Where do you park in downtown West Palm Beach?", a: "Use the garages. Street parking downtown in the evening — especially Thursday through Saturday and during season — turns over slowly and isn't worth circling for. Residents typically pick one structure and walk a couple of blocks." },
-      { q: "How far is West Palm Beach from the airport?", a: "President Donald J. Trump International Airport is roughly 10 to 15 minutes from downtown, which is unusually close and one of the practical advantages of living in the city. I-95 and Florida's Turnpike both run through as well." },
-      { q: "What is the West Palm Beach GreenMarket?", a: "A Saturday morning market on the waterfront that has run since 1994. It's genuinely local rather than a tourist farmers market, draws large crowds during season, and functions as the city's main shared weekly ritual." },
-      { q: "Is there public transit in West Palm Beach?", a: "Limited beyond the Brightline intercity rail station downtown, though a free circulator serves the downtown core. For most of the city you'll drive. The Brightline itself makes Fort Lauderdale, Miami, and Orlando reachable without a car." },
-      { q: "What should new residents of West Palm Beach do first?", a: "Ride the Brightline somewhere, go to the Saturday GreenMarket, and walk any prospective block after dark before buying. The city varies significantly street to street, so street-level research matters far more here than zip-code-level research." },
+      { q: "Is West Palm Beach the same as Palm Beach?", a: "No. West Palm Beach is the mainland city and the county seat. Palm Beach is the Town of Palm Beach, a separate municipality on the barrier island across the Lake Worth Lagoon, with its own government, rules and services. They also have separate property markets, so check which one a listing or statistic refers to." },
+      { q: "How is West Palm Beach laid out?", a: "Downtown runs from the Flagler Drive waterfront through the Clematis Street district to CityPlace. Older neighborhoods, including the City's historic districts, sit north and south of downtown, with Northwood Village to the north and Antique Row along South Dixie Highway to the south. The city continues west of I-95. Many \"West Palm Beach\" mailing addresses are actually in unincorporated county, so confirm the parcel." },
+      { q: "Where do you park in downtown West Palm Beach?", a: "The City runs five downtown garages (Banyan Street, City Center, Clematis Street, Evernia Street and Sapodilla), several surface lots and on-street meters that accept the ParkMobile app. Rates are set by the City Commission and change, and special-event rates are higher, so check the City's rates and payment page before you go." },
+      { q: "What public transportation does West Palm Beach have?", a: "Brightline and Tri-Rail both serve the city by rail. Palm Tran runs countywide buses, the City's West Palm MOVE service offers a $1 fixed route and $2 on-demand rides, and Circuit runs on-demand shuttles in downtown. Coverage and schedules vary, so check each operator for your own trips." },
+      { q: "What is the airport in West Palm Beach?", a: "President Donald J. Trump International Airport (DJT), at 1000 James L. Turnage Boulevard in West Palm Beach, according to its official site, flydjt.org. Tri-Rail lists Palm Tran Route 2 as a connection from its West Palm Beach station to the airport." },
+      { q: "Where can I find West Palm Beach events?", a: "On the City's community events calendar and the Downtown Development Authority's site. Recurring City events include the Saturday GreenMarket in season, Clematis by Night on Thursday evenings, and the Holiday in Paradise program on the waterfront. Dates change, so check the calendar." },
     ],
-    internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
-    funFact: "The Saturday GreenMarket on the West Palm waterfront has been running since 1994 and pulls 10,000+ people on a busy season morning. It's genuinely local — Florida-grown produce, local honey, artisan food — not a tourist farmers market. It's where residents actually shop.",
+    internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "best-things-to-do-in-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities"],
+    funFact: "The City's downtown garages have a weekend rate: $5 all day on Saturdays, Sundays and holidays, except during special events, and several garages offer their own rates during GreenMarket hours. Before a busy downtown weekend, check the City's rates page and any event notice, since special-event pricing can be much higher.",
     author: 'christine',
     published: true,
-    publishedDate: '2026-06-01',
+    publishedDate: '2026-09-23',
     updated: '2026-09-23',
+    editorial: {
+      eyebrow: 'West Palm Beach · Local Guide',
+      deck: "How the city is laid out, which office handles what, and what to check before you buy or move, across the lagoon from the separate Town of Palm Beach.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/west-palm-beach/flagler-waterfront-marina-panel.webp', width: 1200, height: 1500 },
+      mobileImage: { src: '/images/west-palm-beach/flagler-waterfront-marina-mobile.webp', width: 1200, height: 800 },
+      panelCaption: "Flagler Drive and the downtown marina on the Lake Worth Lagoon, with Palm Beach island across the water.",
+      primaryCta: { label: 'Explore West Palm Beach', href: '/communities/west-palm-beach' },
+      secondaryCta: { label: 'See the neighborhood guide', href: '/blog/best-neighborhoods-in-west-palm-beach-florida' },
+      tableOfContents: true,
+    },
   },
   {
     slug: 'best-neighborhoods-in-west-palm-beach-florida',
