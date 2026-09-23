@@ -3889,6 +3889,115 @@ For the rest of what fills a week here, our [rundown of things worth doing](/blo
     publishedDate: '2026-06-01',
     updated: '2026-09-21',
   },
+  {
+    slug: 'delray-marketplace-west-delray-beach',
+    citySlug: 'delray-beach',
+    cityName: 'Delray Beach',
+    type: "Local Spotlight",
+    order: 11,
+    heroImage: '/public/Delray Beach/delray-marketplace-fountain-sign.jpg',
+    heroImageAlt: "The Delray Marketplace sign on its stone tower above the entrance fountain, with palms and storefronts behind",
+    heroImageWidth: 2048,
+    heroImageHeight: 1536,
+    seoTitle: "Delray Marketplace: West Delray's Town Square at Atlantic and Lyons",
+    metaTitle: "Delray Marketplace Guide | West Delray Beach, FL",
+    metaDescription: "A local's guide to Delray Marketplace at Atlantic Avenue and Lyons Road: Publix, Burt & Max's, Hooky movies and bowling, free Wednesday concerts, and why it matters for west Delray buyers.",
+    primaryKeyword: "Delray Marketplace",
+    secondaryKeywords: ["Delray Marketplace restaurants", "Hooky Delray Beach", "Delray Marketplace Music Fest", "west Delray shopping", "Lyons Road and Atlantic Avenue"],
+    h1: "Delray Marketplace: West Delray's Town Square",
+    body: `If you live in west Delray, you will end up at Delray Marketplace more often than you expect. Not because it is a destination, but because it quietly does the job a downtown does everywhere else: groceries, a haircut, dinner, a movie, somewhere to meet people that isn't anyone's house.
+
+It sits on the corner of **West Atlantic Avenue and Lyons Road**, roughly seven miles west of the downtown stretch of Atlantic Avenue most visitors mean when they say "Delray." Here's what it is, what it isn't, and why it matters if you're weighing a home out west.
+
+![The Delray Marketplace entrance sign and fountain at the center's roundabout, with the Batch Local Kitchen building behind](/public/Delray%20Beach/delray-marketplace-fountain-sign-2.jpg "The fountain roundabout at the main entrance.")
+
+## What Delray Marketplace actually is
+
+Delray Marketplace is an open-air lifestyle center of roughly **260,000 square feet**, owned by Kite Realty Group. Ground broke in February 2012 and it opened in early 2013, with the cinema-and-bowling anchor opening in February of that year. **Publix** is the grocery anchor, which is the tell that this was built to be used weekly, not visited once.
+
+The layout is the part people remember. Instead of a strip of storefronts facing a parking field, the shops are arranged around landscaped drives, a fountain roundabout at the entrance, a green with an amphitheater, and shaded walkways with benches. You still park and walk in, but once you're in, it feels more like a small town square than a shopping center.
+
+One thing to understand before you read the address: **a Delray Beach mailing address out here does not mean the City of Delray Beach.** The Marketplace and most of the gated communities around it sit in unincorporated Palm Beach County. That distinction affects taxes, services and permitting, and our [guide to what living in Delray is really like](/blog/what-its-really-like-living-in-delray-beach-florida) explains how to check it for any property.
+
+## What's there
+
+The directory runs to about fifty businesses, and it leans toward things you use rather than things you browse.
+
+![Storefronts along a curving brick drive at Delray Marketplace, with royal palms and lamp posts](/public/Delray%20Beach/delray-marketplace-storefront-drive.jpg "The main drive. Wide sidewalks, covered storefronts, and parking a short walk from every door.")
+
+**Everyday errands.** Publix, a Chase branch, the phone and cable stores, an eyewear shop and a dental office. The weekly grocery run doesn't involve a highway.
+
+**Fitness and wellness.** Orangetheory, a Pilates studio, StretchLab, a sauna studio, cryotherapy and a handful of salons, lash, nail and wax studios. For a lot of west Delray residents, the Marketplace is less a shopping trip and more where the morning routine happens.
+
+**Shopping.** Apparel and accessories (Chico's, White House Black Market, Loft, Soma and several independent boutiques), a furniture showroom, a candy store in IT'SUGAR, Hoffman's Chocolates, and a gallery. It is not a mall and doesn't try to compete with Boca's Town Center. Think of it as the stores you'd want within ten minutes, not the ones you'd drive an hour for.
+
+![The IT'SUGAR storefront at Delray Marketplace, a curved white building with columns and a bench in front](/public/Delray%20Beach/delray-marketplace-itsugar.jpg "IT'SUGAR's curved storefront on one of the corners.")
+
+## Where people eat
+
+The dining is the main reason the Marketplace works as a gathering place rather than an errand stop.
+
+**Burt & Max's** is one of the center's anchors, a sit-down restaurant with a big bar, a patio and the kind of menu that works for a weeknight dinner or a birthday. **Batch Gastropub** sits by the fountain with a large covered patio. Around them you'll find barbecue at Lucille's, tacos at Dos Amigos, sushi at Ganzo, Italian at Terra Fiamma, a breakfast spot in Skillets, Toastique for coffee and toast, frozen yogurt at Menchie's, and a donut-and-ice-cream shop.
+
+![Burt & Max's at Delray Marketplace, a Mediterranean-style building with a tower, red umbrellas on the patio and palms in front](/public/Delray%20Beach/delray-marketplace-burt-and-maxs.jpg "Burt & Max's, one of the anchors, with its patio out front.")
+
+What you give up compared with downtown is the independent restaurant density and the walk-to-the-beach energy. What you gain is a patio table without a reservation war and a parking space fifty feet from the door. If you want the full picture of how dining differs between east and west, the [Delray eat, drink and hang out guide](/blog/best-places-to-eat-drink-hang-out-in-delray-beach-florida) covers the downtown scene.
+
+![Yellow patio umbrellas over outdoor dining at Delray Marketplace, with shops and parking in front](/public/Delray%20Beach/delray-marketplace-patio-umbrellas.jpg "Umbrella-shaded outdoor seating along the restaurant frontage.")
+
+## Hooky: movies, bowling and a rainy-day plan
+
+The largest building in the center is the entertainment venue, now operating as **Hooky**. It combines IMAX and dine-in movie screens with recliner seating, bowling lanes, an arcade and a restaurant and bar.
+
+![The Hooky entertainment building at Delray Marketplace, with a banner reading Movies, Bowling, Food, Games, More and an IMAX sign](/public/Delray%20Beach/delray-marketplace-hooky.jpg "Hooky faces its own plaza, with palms, benches and shade in front.")
+
+It has changed hands a few times. It opened in February 2013 as Frank Theatres CineBowl & Grille, became Paragon, then EVO Entertainment in 2024, and Hooky took it over in the summer of 2025. The concept has stayed the same through every rename: dinner, a movie and a few frames of bowling without driving anywhere else.
+
+That matters more than it sounds. South Florida summers bring daily afternoon storms, and the alternatives usually mean a longer drive. Having an indoor evening five minutes from home is one of those amenities people don't list when they buy and end up using constantly.
+
+## Wednesday is the night
+
+The Marketplace runs a seasonal events calendar, and two recurring ones are worth knowing about.
+
+**Delray Marketplace Music Fest** takes over the amphitheater on **Wednesday evenings from 6 to 8 p.m.** during the cooler months (the 2026–27 series runs from October 7 through April 28). It's free and open to the public. You bring your own chair or blanket, and the bands cover oldies, classic rock, country and disco. It's the closest thing west Delray has to a neighborhood block party.
+
+**Yoga on the Green** runs on Wednesday mornings at 9:30 in the same amphitheater, also free, from late August through May. Bring a mat.
+
+Seasonal events like the Halloween trick-or-treat round out the calendar. Dates and formats change year to year, so check the center's own events page before you plan around one.
+
+![Batch Local Kitchen at Delray Marketplace, a two-story building with a black awning over a covered patio, framed by palms](/public/Delray%20Beach/delray-marketplace-batch.jpg "Batch Local Kitchen's covered patio faces a shaded plaza of palms and benches.")
+
+## Why it matters if you're buying out west
+
+West Delray is car-dependent, and nobody should pretend otherwise. There's no stretch of Lyons Road you'll walk to dinner along. What the Marketplace changes is **how far you have to drive for the ordinary parts of life.** Groceries, a workout, dinner out, a movie, a free concert: all within a few minutes instead of a twenty-minute run east.
+
+That's a real consideration when you're comparing communities. For the gated communities along Lyons Road, including [Seven Bridges](/communities/seven-bridges) in west Delray and [Lotus](/communities/lotus) a few miles south in west Boca, the Marketplace is the handiest everyday stop. When buyers ask what west Delray is like day to day, the honest answer is the clubhouse inside the gate plus the Marketplace just outside it.
+
+It also changes the downtown question. Plenty of people buy west for the space and value, then find that the Atlantic Avenue downtown becomes a monthly outing rather than a weekly one. Having a real gathering place nearby is a big part of why that trade feels fine rather than isolating. Our [Delray neighborhoods guide](/blog/best-neighborhoods-in-delray-beach-florida) walks through both sides of that choice.
+
+## A few practical notes
+
+- **Parking** is free surface parking spread around the center, so you're rarely far from the door you want.
+- **Getting there**: Atlantic Avenue and Lyons Road are the two access roads, and the Turnpike is close by for trips north or south.
+- **Tenants change.** Shopping centers turn over. The names above reflect the directory as of September 2026. Check the center's directory or call ahead before making a special trip.
+
+*This article is for general information. Store lineups, event schedules and hours change, so confirm details directly with the businesses and the center. For whether a specific property is in the City of Delray Beach or unincorporated Palm Beach County, check the Palm Beach County Property Appraiser's records rather than the mailing address.*
+`,
+    faqs: [
+      { q: "Where is Delray Marketplace?", a: "On the corner of West Atlantic Avenue and Lyons Road in west Delray, at 14851 Lyons Road. It is roughly seven miles west of downtown Delray Beach, with the Turnpike close by. It has a Delray Beach mailing address but sits in unincorporated Palm Beach County rather than the City of Delray Beach." },
+      { q: "What is at Delray Marketplace?", a: "About fifty businesses in an open-air layout: a Publix, restaurants including Burt & Max's and Batch Gastropub, fitness and wellness studios, salons, apparel boutiques, a Chase branch and the Hooky movie, bowling and arcade venue. The directory changes over time, so check the center's own listing for current tenants." },
+      { q: "Is there a movie theater at Delray Marketplace?", a: "Yes. The Hooky entertainment venue has IMAX and dine-in movie screens with recliners, plus bowling, an arcade and a restaurant and bar. It opened in 2013 as Frank Theatres CineBowl & Grille and has operated under several names since, most recently becoming Hooky in 2025." },
+      { q: "Does Delray Marketplace have free concerts?", a: "Yes. Delray Marketplace Music Fest runs in the amphitheater on Wednesday evenings from 6 to 8 p.m. through the cooler months, and it is free and open to the public. Bring a chair or blanket. There is also free Yoga on the Green on Wednesday mornings. Confirm current dates on the center's events page." },
+      { q: "Which communities are near Delray Marketplace?", a: "It serves the gated communities along Lyons Road and West Atlantic Avenue, including Seven Bridges in west Delray and Lotus a few miles south in west Boca Raton. For many residents out west it works as the everyday town center." },
+      { q: "Is Delray Marketplace the same as the Delray Beach Market?", a: "No. The Delray Beach Market is a food hall in downtown Delray near Atlantic Avenue. Delray Marketplace is a shopping and dining center about seven miles west at Atlantic Avenue and Lyons Road. The names are close enough that people mix them up." },
+    ],
+    internalLinks: ["what-its-really-like-living-in-delray-beach-florida", "best-neighborhoods-in-delray-beach-florida", "best-places-to-eat-drink-hang-out-in-delray-beach-florida"],
+    funFact: "The movie-and-bowling building at Delray Marketplace has had four names since it opened in February 2013: Frank Theatres CineBowl & Grille, Paragon, EVO Entertainment, and since the summer of 2025, Hooky. The recliners and the bowling lanes outlasted every sign change.",
+    author: 'john',
+    published: true,
+    publishedDate: '2026-09-23',
+    updated: '2026-09-23',
+  },
 
   // ===================== BOCA RATON =====================
   {

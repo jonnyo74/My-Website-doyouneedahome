@@ -762,7 +762,7 @@ export const cities: CommunityItem[] = [
       { destination: 'Miami', time: '50 min' },
       { destination: 'Tri-Rail (Boca Station)', time: '5 min' },
     ],
-    linkedNeighborhoods: ['broken-sound', 'boca-west', 'royal-palm-yacht-cc', 'woodfield-country-club'],
+    linkedNeighborhoods: ['broken-sound', 'boca-west', 'royal-palm-yacht-cc', 'woodfield-country-club', 'lotus'],
     photos: [
       '/public/Boca Raton/boca-mizner-park.jpg',
       '/public/Boca Raton/boca-oceanfront.jpg',
@@ -3614,12 +3614,12 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Seven Bridges',
     type: 'Neighborhood',
     region: 'Delray Beach',
-    description: 'A modern gated community with lakefront homes and resort-style amenities in a private country club setting.',
+    description: 'A modern gated community with lakefront homes and resort-style clubhouse amenities.',
     overview:
-      'Seven Bridges is known for elegant estates and a private club lifestyle with pools, dining, a fitness center, and a signature golf course.',
+      'Seven Bridges is known for elegant estates and a resort-style clubhouse with pools, dining, a fitness center and tennis. There is no golf course.',
     quickFacts: [
       { label: 'Homes', value: 'Luxury estates and executive homes' },
-      { label: 'Amenities', value: 'Golf, clubhouse, resort pool, tennis' },
+      { label: 'Amenities', value: 'Clubhouse, resort pool, fitness center, tennis (no golf)' },
     ],
   },
   // ── WELLINGTON ───────────────────────────────────────────────
@@ -3707,6 +3707,68 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Homes', value: 'Villas and estate homes' },
       { label: 'Amenities', value: 'Golf, pool, clubhouse, tennis' },
     ],
+  },
+  // Lotus is west Boca (unincorporated Palm Beach County, Boca Raton mailing
+  // address) on Lyons Road north of Clint Moore Road. Lotus Palm and Lotus Edge
+  // are separate GL Homes communities with their own clubhouses; this page is
+  // the original Lotus only. Photos are the processed amenity frames from the
+  // 8804 Skyward Street shoot, shared with that listing page.
+  {
+    slug: 'lotus',
+    name: 'Lotus',
+    type: 'Neighborhood',
+    region: 'Boca Raton',
+    description: 'A guard-gated GL Homes community of modern single-family homes in west Boca Raton, built around a resort-style clubhouse with no golf course.',
+    metaTitle: 'Lotus Boca Raton Homes for Sale | Guard-Gated GL Homes Community',
+    metaDescription: 'Lotus in west Boca Raton: about 800 modern GL Homes single-family homes on Lyons Road, a 24-hour manned gate, a 26,000 sq ft clubhouse, indoor sports court, tennis and pickleball, and no golf.',
+    overview:
+      'Lotus is a guard-gated community of roughly 800 single-family homes on Lyons Road in west Boca Raton, north of Clint Moore Road. GL Homes built it in a clean, modern style rather than the Mediterranean look of the older communities around it, and new-construction sales have finished, so homes now come to market as resales.\n\nThe draw is the amenity package. A clubhouse of about 26,000 square feet holds a restaurant, fitness center, game room, children\'s playroom and an air-conditioned indoor sports court, with resort and lap pools outside plus lighted clay tennis and pickleball courts. A full-time social director runs the calendar. There is no golf course, and the community is not age-restricted.',
+    placeNotes: [
+      {
+        heading: 'Lotus, Lotus Palm and Lotus Edge are three different communities',
+        body: 'GL Homes has used the Lotus name for three separate gated communities in west Boca Raton. Lotus is the original. Lotus Palm and Lotus Edge came later, and each has its own gate, its own clubhouse and its own homeowners association. Homes in one do not get access to the others\' amenities. The MLS files them separately too, so when you search or compare prices, check which one a listing is actually in.',
+      },
+      {
+        heading: 'A Boca Raton address, but not the City of Boca Raton',
+        body: 'Like most of the communities west of the Turnpike, Lotus sits in unincorporated Palm Beach County and uses a Boca Raton mailing address. That affects property taxes, which government provides services and which permitting rules apply. Confirm the jurisdiction for any specific home through the Palm Beach County Property Appraiser rather than relying on the address.',
+      },
+    ],
+    quickFacts: [
+      { label: 'Homes', value: 'About 800 modern single-family homes by GL Homes' },
+      { label: 'Security', value: 'Guard-gated, manned 24 hours' },
+      { label: 'Amenities', value: 'Clubhouse and restaurant, resort and lap pools, indoor sports court, fitness center, clay tennis, pickleball' },
+      { label: 'Golf', value: 'None' },
+      { label: 'Age restriction', value: 'None' },
+    ],
+    highlights: [
+      'Guard-gated with a manned gate around the clock',
+      'Clubhouse of about 26,000 sq ft with a restaurant, fitness center, game room and playroom',
+      'Air-conditioned indoor sports court for basketball, pickleball and volleyball',
+      'Resort pool with cabanas, a separate lap pool and a splash pad',
+      'Lighted clay tennis courts and pickleball courts',
+      'Full-time social director running a monthly events calendar',
+      'Lawn maintenance for each home covered by the association',
+      'A few minutes south of Delray Marketplace on Lyons Road',
+    ],
+    lifestyle:
+      'Life in Lotus centers on the clubhouse. Because the association runs a full-time social director, there is a monthly calendar of fitness classes, coffee talks and food trucks without a volunteer board having to organize it. The air-conditioned indoor sports court keeps basketball and pickleball going through the summer heat and afternoon storms. Outside the gate, Delray Marketplace a few minutes north on Lyons Road covers groceries, dinner and movies, and the Turnpike and Glades Road reach the rest of Boca. Assessments cover more than a typical Boca Raton HOA fee does, including the gate, lawn care and the clubhouse, so compare the total monthly cost rather than the headline figure. Confirm current fees, any capital contribution due at closing and leasing rules with the association before you make an offer.',
+    faqs: [
+      { q: 'Does Lotus in Boca Raton have a golf course?', a: 'No. Lotus is built around a resort-style clubhouse, pools, an indoor sports court, tennis and pickleball rather than golf. There is no golf membership to buy into or pay dues on.' },
+      { q: 'Is Lotus Boca Raton a 55+ community?', a: 'No. Lotus is not age-restricted, and the amenities include a children\'s playroom, a splash pad and a playground alongside the adult fitness and racquet facilities.' },
+      { q: 'Is Lotus the same as Lotus Palm or Lotus Edge?', a: 'No. They are three separate GL Homes communities in west Boca Raton, each with its own gate, clubhouse and association. Amenities are not shared between them, and the MLS lists them separately.' },
+      { q: 'What does the Lotus HOA fee cover?', a: 'The assessment covers the manned gate, lawn maintenance for each home, common areas, the clubhouse and the social director\'s programming. Buyers also typically pay a capital contribution at closing. Amounts change, so confirm the current assessment, contribution and any pending special assessments with the association during your inspection period.' },
+      { q: 'Where is Lotus in Boca Raton?', a: 'On Lyons Road in west Boca Raton, north of Clint Moore Road, with Delray Marketplace a few minutes north. It is west of the Turnpike, in unincorporated Palm Beach County with a Boca Raton mailing address.' },
+      { q: 'What schools serve Lotus?', a: 'Lotus is served by the School District of Palm Beach County. Attendance boundaries change, so confirm the assigned schools for a specific address with the district before you buy.' },
+    ],
+    photos: [
+      '/images/listings/8804-skyward-street/lotus-entrance-monument.jpg',
+      '/images/listings/8804-skyward-street/community-01-resort-pool.jpg',
+      '/images/listings/8804-skyward-street/community-04-clubhouse-exterior.jpg',
+      '/images/listings/8804-skyward-street/community-05-sports-complex.jpg',
+      '/images/listings/8804-skyward-street/community-02-pool-deck.jpg',
+      '/images/listings/8804-skyward-street/community-07-fitness-cardio.jpg',
+    ],
+    lat: 26.425, lng: -80.185,
   },
   {
     slug: 'delaire-country-club',
