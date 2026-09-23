@@ -142,6 +142,9 @@ export interface ArticleEditorial {
   // Tall desktop image for the split layout. heroImage stays the social and
   // JSON-LD image, so it should be a landscape crop of the same photo.
   panelImage?: { src: string; width: number; height: number }
+  // Split layout only: 'warm' swaps the slate panel for an ivory one with a
+  // gold eyebrow. Opt-in per article; every other hero keeps the default.
+  heroTone?: 'warm'
   primaryCta: ArticleLink
   secondaryCta: ArticleLink
   quickFit?: {
@@ -8892,113 +8895,261 @@ For Lake Worth Beach itself, read [what it's really like living there](/blog/wha
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '35% 50%',
-    seoTitle: "Best Places to Eat, Drink & Hang Out in Lake Worth Beach, Florida",
-    metaTitle: "Best Places to Eat & Drink in Lake Worth Beach, FL",
-    metaDescription: "Where to eat, drink, and hang out in Lake Worth Beach, Florida — the eclectic downtown Avenue, global flavors, the pier, and a lively local scene.",
+    editorial: {
+      eyebrow: 'Lake Worth Beach · Local Dining Guide',
+      deck: "Independent restaurants, coffee, bars and a beachside café, each checked against its own website, plus how to use them on an ordinary week.",
+      heroLayout: 'split',
+      heroTone: 'warm',
+      panelImage: { src: '/images/lake-worth-beach/bennys-acai-bowl-panel.webp', width: 1200, height: 1500 },
+      mobileImage: { src: '/images/lake-worth-beach/bennys-acai-bowl-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Lake Worth Beach', href: '/communities/lake-worth-beach' },
+      secondaryCta: { label: 'See things to do', href: '/blog/best-things-to-do-in-lake-worth-beach-florida' },
+      guide: {
+        heading: "Where to eat, drink and hang out",
+        intro: "Each place below was checked on its own website, and its address against the City's parcel data, on the review date shown. Listings are grouped by setting, not ranked, and restaurants open, close and change hours, so confirm current details before a visit.",
+        lastReviewed: '2026-09-23',
+        categories: [
+          {
+            id: "beachside",
+            title: "Beachside, at the Casino Building",
+            intro: "The City lists both of these as tenants of its Casino Building beach complex at 10 South Ocean Boulevard.",
+            places: [
+              {
+                name: "Benny's on the Beach",
+                body: "A beachside restaurant at the City's beach complex, with posted hours for its pier and OceanWalk locations. Its site lists weekly events, including weekend live music.",
+                bestFor: ["Breakfast", "Beachside", "Weekend music"],
+                area: "Casino Building beach complex",
+                note: "Its site takes reservations through OpenTable. Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Benny's on the Beach", href: "https://bennysonthebeach.com" },
+              },
+              {
+                name: "Mamma Mia's on the Beach",
+                body: "A fast-casual pizza shop at the beach complex serving New York-style pies, with online ordering.",
+                bestFor: ["A quick beach meal", "Pizza"],
+                area: "Casino Building beach complex",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Mamma Mia's on the Beach", href: "https://mammamiasotb.com" },
+              },
+            ],
+          },
+          {
+            id: "coffee-daytime",
+            title: "Coffee and daytime spots downtown",
+            intro: "Places for coffee, a daytime meal or a meetup, on or near Lake Avenue.",
+            places: [
+              {
+                name: "South Beach Coffee Co.",
+                body: "A neighborhood coffee shop on Lake Avenue serving brewed coffee and handcrafted drinks.",
+                bestFor: ["Coffee", "Morning meetup"],
+                area: "Downtown, 600 Lake Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "South Beach Coffee Co.", href: "https://southbeachcoffeeco.com" },
+              },
+              {
+                name: "Common Grounds Brew & Roastery",
+                body: "A coffee brewer and roaster with a Lake Worth location on South J Street.",
+                bestFor: ["Coffee", "Daytime"],
+                area: "Downtown, 12 South J Street",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Common Grounds Brew & Roastery", href: "https://www.commongroundsroastery.com" },
+              },
+              {
+                name: "Pelican Restaurant",
+                body: "A breakfast and lunch restaurant on Lake Avenue that describes its food as homemade comfort food.",
+                bestFor: ["Breakfast", "Lunch"],
+                area: "Downtown, 610 Lake Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Pelican Restaurant", href: "https://pelicanrestaurantlakeworth.com" },
+              },
+              {
+                name: "L-Dub Subs",
+                body: "Made-to-order sub sandwiches downtown, with pickup and delivery ordering on its site.",
+                bestFor: ["Quick lunch", "Takeout"],
+                area: "Downtown, 16 South J Street",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "L-Dub Subs", href: "https://ldubsubs.com" },
+              },
+            ],
+          },
+          {
+            id: "downtown-dinner",
+            title: "Downtown dinner and drinks",
+            intro: "Restaurants on Lake and Lucerne Avenues, described in their own terms.",
+            places: [
+              {
+                name: "Oceano",
+                body: "A coastal American restaurant on Lucerne Avenue, open for dinner, with a reservations page on its site.",
+                bestFor: ["Dinner", "Date night"],
+                area: "Downtown, 512 Lucerne Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Oceano", href: "https://oceanolwb.com" },
+              },
+              {
+                name: "Paradiso Ristorante",
+                body: "An Italian restaurant on Lucerne Avenue, open for lunch and dinner, that takes reservations.",
+                bestFor: ["Italian", "Dinner"],
+                area: "Downtown, 625 Lucerne Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Paradiso Ristorante", href: "https://paradisolakeworth.com" },
+              },
+              {
+                name: "Rustico Italiano",
+                body: "A chef-owned Italian restaurant on Lucerne Avenue, with posted dinner hours on select nights.",
+                bestFor: ["Italian", "Dinner"],
+                area: "Downtown, 701 Lucerne Avenue",
+                note: "Its posted hours cover only some evenings. Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Rustico Italiano", href: "https://rusticoitaliano.com" },
+              },
+              {
+                name: "Dave's Last Resort & Raw Bar",
+                body: "A Lake Avenue restaurant and raw bar serving oysters, clams, crabs, fresh fish, steaks, ribs and wings.",
+                bestFor: ["Seafood", "A casual evening"],
+                area: "Downtown, 632 Lake Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Dave's Last Resort & Raw Bar", href: "https://daveslastresort.com" },
+              },
+              {
+                name: "Lilo's Streetfood & Bar",
+                body: "A casual Lake Avenue spot combining street food and a bar, with online ordering.",
+                bestFor: ["Casual dinner", "Drinks"],
+                area: "Downtown, 701 Lake Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Lilo's Streetfood & Bar", href: "https://lilosstreetfoodandbar.com" },
+              },
+              {
+                name: "Hachi Asian Cuisine & Grill",
+                body: "An Asian restaurant and grill on Lake Avenue, with online ordering and phone reservations.",
+                bestFor: ["Asian", "Dinner"],
+                area: "Downtown, 809 Lake Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Hachi Asian Cuisine & Grill", href: "https://hachibynawa.com" },
+              },
+              {
+                name: "Kanto Asian Street Food",
+                body: "Asian street food rooted in Filipino cooking, with Thai and Vietnamese flavors, on Lake Avenue.",
+                bestFor: ["Casual", "Asian street food"],
+                area: "Downtown, 720 Lake Avenue",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Kanto Asian Street Food", href: "https://kantoasianstreetfood.com" },
+              },
+            ],
+          },
+          {
+            id: "music-bars",
+            title: "Live music and bars",
+            intro: "Venues that post a current event calendar. Programming changes week to week.",
+            places: [
+              {
+                name: "Propaganda",
+                body: "A downtown music venue on South J Street that posts upcoming shows on its site.",
+                bestFor: ["Live music", "Late evening"],
+                area: "Downtown, 6 South J Street",
+                note: "Check the venue's calendar for current shows, age policies and any ticketing.",
+                link: { label: "Propaganda", href: "https://www.propagandalw.com" },
+              },
+              {
+                name: "Off The Clock Listening Bar & Restaurant",
+                body: "A listening bar and restaurant on Lake Avenue that posts events and takes reservations.",
+                bestFor: ["Music", "Drinks", "Dinner"],
+                area: "Downtown, 921 Lake Avenue",
+                note: "Check its site for current events and hours.",
+                link: { label: "Off The Clock", href: "https://www.otceditions.com" },
+              },
+            ],
+          },
+          {
+            id: "bakeries",
+            title: "Bakeries and specialty food",
+            intro: "For pastries, bread and take-home food.",
+            places: [
+              {
+                name: "Vincent's French Bakery",
+                body: "A French bakery on Lucerne Avenue offering croissants, fruit tarts and French cakes.",
+                bestFor: ["Pastries", "Coffee stop"],
+                area: "Downtown, 516 Lucerne Avenue",
+                note: "Its site lists the Lake Worth location as closed Mondays. Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Vincent's French Bakery", href: "https://www.vincentsfrenchbakery.com" },
+              },
+              {
+                name: "Union Bakery",
+                body: "A Cuban bakery on North Dixie Highway serving breakfast and lunch, with online ordering.",
+                bestFor: ["Cuban bakery", "Breakfast"],
+                area: "North Dixie Highway, 2111 N. Dixie Hwy",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Union Bakery", href: "https://www.unionbakeryfl.com" },
+              },
+            ],
+          },
+          {
+            id: "dixie-corridor",
+            title: "Along Dixie Highway",
+            intro: "Restaurants on the Dixie Highway corridor that widen the range beyond downtown.",
+            places: [
+              {
+                name: "Flavor of India",
+                body: "An Indian restaurant on North Dixie Highway with a lunch buffet and online ordering.",
+                bestFor: ["Indian", "Lunch buffet"],
+                area: "North Dixie Highway, 1516 N. Dixie Hwy",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "Flavor of India", href: "https://www.flavorofindiafl.com" },
+              },
+              {
+                name: "The Dominican Spot",
+                body: "A Dominican restaurant on South Dixie Highway serving Dominican comfort food, with online ordering.",
+                bestFor: ["Dominican", "Casual"],
+                area: "South Dixie Highway, 109 S. Dixie Hwy",
+                note: "Check hours, menus and any reservation details on its own site before you go.",
+                link: { label: "The Dominican Spot", href: "https://thedominicanspotrestaurant.com" },
+              },
+            ],
+          },
+        ],
+      },
+    },
+    seoTitle: "Best Places to Eat, Drink & Hang Out in Lake Worth Beach, FL: A Verified Local Guide",
+    metaTitle: "Where to Eat, Drink & Hang Out in Lake Worth Beach, FL",
+    metaDescription: "Where to eat, drink and hang out in Lake Worth Beach, FL: beachside spots, downtown coffee, dinner, live music, bakeries and Dixie Highway, each verified.",
     primaryKeyword: "best restaurants in Lake Worth Beach Florida",
-    secondaryKeywords: ["where to eat in Lake Worth Beach", "Lake Worth Beach nightlife", "downtown Lake Worth Beach restaurants"],
+    secondaryKeywords: ["where to eat in Lake Worth Beach", "Lake Worth Beach restaurants", "downtown Lake Worth Beach restaurants", "Lake Worth Beach live music", "Lake Worth Beach coffee"],
     h1: "Best Places to Eat, Drink & Hang Out in Lake Worth Beach, Florida",
-    body: `Lake Worth Beach has, for its size, the most interesting food in Palm Beach County. That's not local boosterism — it's a direct consequence of who lives here.
+    body: `## Choose by moment
 
-A genuinely international population, low commercial rents by county standards, and a downtown built for small independent storefronts have produced a restaurant scene with more variety per block than towns several times its size, at prices that would be impossible a few miles north or south.
+- **A quick beachside meal:** the Casino Building complex, with Benny's on the Beach and Mamma Mia's on the Beach. Beach lots are metered, so budget for parking.
+- **Coffee or a daytime meetup:** the coffee shops and bakeries on and near Lake Avenue and Lucerne Avenue. Check their hours, since some close in the afternoon or on certain days.
+- **A downtown evening:** park once, walk Lake and Lucerne Avenues, and check whether your restaurant takes reservations.
+- **A meal near live music:** check the calendars of the venues above, and the City's events calendar, before you plan the night.
+- **Specialty food to take home:** the bakeries downtown and on Dixie Highway.
 
-## The downtown avenues
+## Practical notes
 
-**Lake Avenue** and **Lucerne Avenue** carry the bulk of it, and the density is the point: you can cover a dozen genuinely different kitchens on foot in ten minutes.
+- **Parking:** the City meters parking downtown, at the beach and in parks, and lists enforcement 24/7. As of September 2026, the Bohemian Parking Garage downtown is listed at $2.50 an hour on levels 1 and 2, and beach lots have a 2:00–6:00 a.m. tow zone. Check current rates on the City's [parking page](https://lakeworthbeachfl.gov/parking/parking-rates-and-permits).
+- **Events:** street events can close downtown blocks. For the 2026 Street Painting Festival, the City closed Lake and Lucerne Avenues to vehicles for the weekend. Check the City's [events calendar](https://lakeworthbeachfl.gov/calendar) before you drive in.
+- **Hours and reservations:** these vary by venue and season. Use each venue's own site, linked above.
+- **Turnover:** independent restaurants change. If a link above stops working, treat the listing as unconfirmed.
 
-What's there spans Latin American, Caribbean, Italian, Middle Eastern, Asian, vegetarian and vegan, alongside cocktail bars, breweries, coffee places and rooms with live music. Almost none of it is a chain.
+## How this list was put together
 
-**How to use it:** walk it before you decide. This is one of very few places in the county where wandering and choosing on the spot actually works, because the choices are within a block of each other and none requires a reservation strategy.
+We started from local sources, including the Lake Worth Beach CRA's dining listings. We then kept only places whose own website showed current operation (posted hours, live ordering, or dated events), and whose address falls within the City of Lake Worth Beach. We left out places we couldn't confirm, including some long-standing names whose websites were down, unfinished, or listed for sale. There are no rankings, ratings or paid placements here.
 
-## The Guatemalan and Central American food
+## Next steps
 
-Worth its own section, because it's the single most distinctive thing about eating here.
-
-Lake Worth Beach has a large, long-established Guatemalan Maya community, and the food that comes with it is the real article — not adapted, not simplified, and cooked for people who grew up with it.
-
-The same is true of the Central American and Caribbean cooking more broadly across the city, much of it in small rooms along the corridors rather than on the main avenues.
-
-**The method:** ignore the frontage entirely, ask neighbors, and be willing to eat somewhere with laminated menus and a television in the corner. This is where the best value and the most interesting food in the city both live.
-
-For residents who take the time, it's a genuine and ongoing pleasure that most of the county simply doesn't have access to.
-
-## The pier restaurant
-
-On the beach side, the restaurant at the pier is an institution — breakfast and lunch over the Atlantic, with the water directly beneath you.
-
-The food is honest rather than ambitious and the setting is exceptional. Sunrise breakfast there is the local ritual worth adopting early.
-
-## Breweries and bars
-
-The city supports several independent breweries and a bar scene that skews toward the unpretentious. Live music is genuinely part of it — venues and bars with stages run a calendar most weeks, which for a city this size is notable.
-
-The general character is come-as-you-are. There's no dress code culture here and no scene to keep up with, which a lot of residents cite as a relief after living elsewhere in the county.
-
-## Coffee and the daytime scene
-
-Independent coffee places downtown do a substantial amount of the city's social work — meetings, laptops, conversations, and the general business of a walkable downtown.
-
-They're also the fastest way into the community for anyone new. Turn up at the same one three times and you'll start recognising people.
-
-## Markets and provisioning
-
-Beyond restaurants, the city's international population supports a network of small grocers, bakeries and speciality shops that are genuinely useful if you cook.
-
-Central American and Caribbean ingredients, tortillerías, produce that doesn't appear in a chain supermarket, and butchers who will cut what you ask for — mostly along the corridors, mostly unmarked in any way that would catch your eye.
-
-For anyone who cooks seriously, this is a quiet advantage of the city that residents cite often and visitors never notice.
-
-## Practicalities
-
-- **Parking** downtown is the recurring frustration. Park once and walk — the district is compact enough that this always works, and it's the single most useful local habit.
-- **Season**, roughly November through April, fills the popular places, though rarely to the point of difficulty.
-- **Summer** is quiet and easy, with some places on reduced hours.
-- **Reservations** are rarely essential, which is part of the appeal.
-- **Cash** is worth carrying for some of the smaller family-run places.
-- **Turnover** happens in any independent restaurant market; check somewhere is trading before making a trip of it.
-
-## Breakfast, specifically
-
-Worth isolating because it's where the city's character is most concentrated and the prices are most striking.
-
-Between the pier restaurant on the ocean side, the independent coffee places downtown, and the small family-run rooms along the corridors doing Central American breakfasts, this is a genuinely good breakfast city — early, cheap, unhurried and varied.
-
-Residents tend to develop a rotation across all three types depending on the morning. It's a small pleasure and one of the things people cite when explaining why they stayed.
-
-## Beyond the city
-
-**West Palm Beach** is minutes north with a much larger scene, and **Delray Beach** south has a more polished one. Both are easy evenings out.
-
-But it's worth saying plainly: residents here don't generally leave the city for food. The variety at home is better than what a town this size has any right to, and the prices mean going out is a normal habit rather than an occasion.
-
-## Timing your week
-
-One habit that improves eating here considerably: go out on weeknights and early.
-
-The independents are small rooms with small kitchens, and on a busy Friday the same place that felt personal on a Tuesday is stretched. Midweek you get the owner's attention, a table without waiting, and frequently the better version of the same dish.
-
-In season this matters more. Residents who work it out stop competing with the weekend crowd and get a distinctly better city to eat in.
-
-## The honest summary
-
-If you want white tablecloths and a tasting menu, this isn't the city and the neighbors will serve you better.
-
-If you want to eat genuinely well, several times a week, across more cuisines than you'd find in most American cities twenty times the size, in walking distance, without booking — Lake Worth Beach is close to unmatched in the county, and it's the thing residents miss most if they leave.
-
-For the rest of what fills a week, our [rundown of things worth doing](/blog/best-things-to-do-in-lake-worth-beach-florida) covers the beach, the lagoon and the art.`,
+- **More to do:** our [things to do guide](/blog/best-things-to-do-in-lake-worth-beach-florida) and the [hidden gems guide](/blog/hidden-gems-in-lake-worth-beach-florida).
+- **Settling in:** the [local guide](/blog/local-guide-to-lake-worth-beach-florida) covers services, parking and transit.
+- **Deciding on a move:** read [what it's really like living in Lake Worth Beach](/blog/what-its-really-like-living-in-lake-worth-beach-florida), then browse current listings on the [Lake Worth Beach community page](/communities/lake-worth-beach).`,
     faqs: [
-      { q: "Is the food good in Lake Worth Beach?", a: "For its size, the most interesting in Palm Beach County — a direct consequence of a genuinely international population, low commercial rents by county standards, and a downtown built for small independent storefronts. You can cover a dozen genuinely different kitchens on foot in ten minutes, almost none of them chains." },
-      { q: "What food is Lake Worth Beach known for?", a: "Guatemalan and Central American cooking above all. The city has a large, long-established Guatemalan Maya community and the food is the real article — not adapted or simplified. The same is true of the Caribbean and Central American cooking more broadly, much of it in small rooms along the corridors rather than on the main avenues." },
-      { q: "How do I find the best restaurants in Lake Worth Beach?", a: "Ignore the frontage entirely, ask neighbors, and be willing to eat somewhere with laminated menus and a television in the corner. That is where the best value and the most interesting food both live. On the main avenues, simply walk and choose on the spot — one of very few places in the county where that works." },
-      { q: "Does Lake Worth Beach have nightlife?", a: "Genuine nightlife for its size — several independent breweries, a bar scene that skews unpretentious, and live music venues running a calendar most weeks. The character is come-as-you-are, with no dress code culture and no scene to keep up with, which many residents cite as a relief after living elsewhere in the county." },
-      { q: "Where should I eat at the beach in Lake Worth Beach?", a: "The restaurant on the pier is the institution — breakfast and lunch over the Atlantic with the water directly beneath you. The food is honest rather than ambitious and the setting is exceptional. Sunrise breakfast there is the local ritual worth adopting early." },
-      { q: "Do I need reservations in Lake Worth Beach?", a: "Rarely, which is part of the appeal. Season from November through April fills the popular places but seldom to the point of difficulty. Parking rather than tables is the recurring frustration — park once and walk, since the district is compact enough that this always works." },
+      { q: "Where can I eat at the beach in Lake Worth Beach?", a: "The City lists Benny's on the Beach and Mamma Mia's on the Beach as tenants of its Casino Building beach complex at 10 South Ocean Boulevard. Check each one's own site for current hours, and budget for metered beach parking." },
+      { q: "Is there live music in Lake Worth Beach?", a: "Several downtown venues post event calendars, including Propaganda on South J Street and Off The Clock Listening Bar & Restaurant on Lake Avenue, and Benny's on the Beach lists weekend live music. Programming changes, so check each venue's calendar." },
+      { q: "Where can I get coffee in downtown Lake Worth Beach?", a: "Options on and near Lake Avenue include South Beach Coffee Co. and Common Grounds Brew & Roastery, and Vincent's French Bakery on Lucerne Avenue. Hours vary, so check each one's own site." },
+      { q: "What kinds of food can I find in Lake Worth Beach?", a: "Among the places we verified: coastal American, Italian, seafood and raw bar, Asian grill, Filipino-rooted Asian street food, pizza, subs, a French bakery, a Cuban bakery, Indian and Dominican restaurants. The list is a sample, not a complete directory." },
+      { q: "Do I need reservations for restaurants in Lake Worth Beach?", a: "It depends on the venue and the night. Some list reservations on their sites, such as Oceano, Paradiso Ristorante, Off The Clock and Benny's on the Beach through OpenTable. Check the venue's own site before you go." },
+      { q: "How current is this dining list?", a: "Each place was checked against its own website on the review date shown on the page, and its address against the City's parcel data. Restaurants change, so confirm hours and details before a visit." },
     ],
-    internalLinks: ["best-things-to-do-in-lake-worth-beach-florida", "local-guide-to-lake-worth-beach-florida", "what-its-really-like-living-in-lake-worth-beach-florida"],
-    funFact: "Lake Worth Beach's dining scene skews heavily independent — there are virtually no chains on the Lake Avenue downtown corridor. The range of cuisines within a few blocks is unusual for a city this size: Haitian, Cuban, Jamaican, Venezuelan, and farm-to-table American kitchens.",
+    internalLinks: ["best-things-to-do-in-lake-worth-beach-florida", "hidden-gems-in-lake-worth-beach-florida", "local-guide-to-lake-worth-beach-florida", "what-its-really-like-living-in-lake-worth-beach-florida"],
+    funFact: "The beach restaurants sit inside a City-owned building. The City lists Benny's on the Beach and Mamma Mia's on the Beach among the shops and dining at its Casino Building complex, which it rebuilt and reopened in 2013. So a meal there is also a visit to one of the city's civic landmarks.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-23',
   },
 
   // ===================== WELLINGTON =====================
