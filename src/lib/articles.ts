@@ -2446,7 +2446,13 @@ Work through a few in your first few months, and go to Manatee Lagoon on the fir
     primaryKeyword: "West Palm Beach vs nearby cities",
     secondaryKeywords: ["West Palm Beach vs Palm Beach", "West Palm Beach vs Palm Beach Gardens", "West Palm Beach vs Lake Worth"],
     h1: "West Palm Beach vs Nearby Cities: How to Choose",
-    heroImage: '/images/west-palm-beach/waterfront-024.jpg',
+    heroImage: '/images/west-palm-beach/lagoon-view-to-palm-beach-hero.webp',
+    heroImageAlt: "Looking across the open water of the Lake Worth Lagoon from West Palm Beach toward the low, tree-lined shore of the Town of Palm Beach",
+    heroImageCaption: "Across the water is the Town of Palm Beach, a separate town from West Palm Beach.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '50% 50%',
     showMarketTrends: true,
     body: `West Palm Beach is the odd one out among its neighbors, and that actually makes these comparisons cleaner than most. Every other town on this stretch is some version of quiet and coastal. West Palm is the city.
 
