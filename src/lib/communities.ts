@@ -3722,11 +3722,15 @@ export const neighborhoods: CommunityItem[] = [
     metaTitle: 'Lotus Boca Raton Homes for Sale | Guard-Gated GL Homes Community',
     metaDescription: 'Lotus in west Boca Raton: about 800 modern GL Homes single-family homes on Lyons Road, a 24-hour manned gate, a 26,000 sq ft clubhouse, indoor sports court, tennis and pickleball, and no golf.',
     overview:
-      'Lotus is a guard-gated community of roughly 800 single-family homes on Lyons Road in west Boca Raton, north of Clint Moore Road. GL Homes built it in a clean, modern style rather than the Mediterranean look of the older communities around it, and new-construction sales have finished, so homes now come to market as resales.\n\nThe draw is the amenity package. A clubhouse of about 26,000 square feet holds a restaurant, fitness center, game room, children\'s playroom and an air-conditioned indoor sports court, with resort and lap pools outside plus lighted clay tennis and pickleball courts. A full-time social director runs the calendar. There is no golf course, and the community is not age-restricted.',
+      'Lotus is a guard-gated community of roughly 800 single-family homes on Lyons Road in west Boca Raton, north of Clint Moore Road. GL Homes built it in a clean, modern style rather than the Mediterranean look of the older communities around it. New-construction sales here have finished, and Lotus now has a very active resale market. With two more Lotus communities under construction nearby, buyers get a real choice: wait for a new build, or buy something lightly broken in and move in now.\n\nThe draw is the amenity package. A clubhouse of about 26,000 square feet holds a restaurant, fitness center, game room, children\'s playroom and an air-conditioned indoor sports court, with resort and lap pools outside plus lighted clay tennis and pickleball courts. A full-time social director runs the calendar. There is no golf course, and the community is not age-restricted.',
     placeNotes: [
       {
         heading: 'Lotus, Lotus Palm and Lotus Edge are three different communities',
-        body: 'GL Homes has used the Lotus name for three separate gated communities in west Boca Raton. Lotus is the original. Lotus Palm and Lotus Edge came later, and each has its own gate, its own clubhouse and its own homeowners association. Homes in one do not get access to the others\' amenities. The MLS files them separately too, so when you search or compare prices, check which one a listing is actually in.',
+        body: 'GL Homes has used the Lotus name for three separate gated communities in west Boca Raton. Lotus is the original and is built out. Lotus Palm and Lotus Edge are the newer two, both being built nearby now, and each has its own gate, its own clubhouse and its own homeowners association. Homes in one do not get access to the others\' amenities. The MLS files them separately too, so when you search or compare prices, check which one a listing is actually in.',
+      },
+      {
+        heading: 'New build nearby, or lightly broken in here?',
+        body: 'This is the real decision most Lotus buyers face. A new build in Lotus Palm or Lotus Edge lets you pick the lot, the floor plan and the finishes, and you get everything under a builder warranty. The trade is time: you wait for construction, and you still owe the extras a builder price rarely includes, such as landscaping upgrades, window treatments, a pool and often the lake-lot premium. A resale in Lotus is the opposite trade. The home is finished, the pool and landscaping are usually already in, the clubhouse is open with the social calendar running, and you can see the actual lot and neighbors before you buy. You give up choosing every finish, so get a full inspection and ask what is left on the builder warranty. Because the Lotus resale market moves quickly, the best homes tend not to sit, so it pays to have a buying plan and a pre-approval ready before you tour.',
       },
       {
         heading: 'A Boca Raton address, but not the City of Boca Raton',
@@ -3735,6 +3739,7 @@ export const neighborhoods: CommunityItem[] = [
     ],
     quickFacts: [
       { label: 'Homes', value: 'About 800 modern single-family homes by GL Homes' },
+      { label: 'Market', value: 'Built out; very active resale market' },
       { label: 'Security', value: 'Guard-gated, manned 24 hours' },
       { label: 'Amenities', value: 'Clubhouse and restaurant, resort and lap pools, indoor sports court, fitness center, clay tennis, pickleball' },
       { label: 'Golf', value: 'None' },
@@ -3742,6 +3747,7 @@ export const neighborhoods: CommunityItem[] = [
     ],
     highlights: [
       'Guard-gated with a manned gate around the clock',
+      'Very active resale market, with two newer Lotus communities being built nearby',
       'Clubhouse of about 26,000 sq ft with a restaurant, fitness center, game room and playroom',
       'Air-conditioned indoor sports court for basketball, pickleball and volleyball',
       'Resort pool with cabanas, a separate lap pool and a splash pad',
@@ -3755,7 +3761,8 @@ export const neighborhoods: CommunityItem[] = [
     faqs: [
       { q: 'Does Lotus in Boca Raton have a golf course?', a: 'No. Lotus is built around a resort-style clubhouse, pools, an indoor sports court, tennis and pickleball rather than golf. There is no golf membership to buy into or pay dues on.' },
       { q: 'Is Lotus Boca Raton a 55+ community?', a: 'No. Lotus is not age-restricted, and the amenities include a children\'s playroom, a splash pad and a playground alongside the adult fitness and racquet facilities.' },
-      { q: 'Is Lotus the same as Lotus Palm or Lotus Edge?', a: 'No. They are three separate GL Homes communities in west Boca Raton, each with its own gate, clubhouse and association. Amenities are not shared between them, and the MLS lists them separately.' },
+      { q: 'Is Lotus the same as Lotus Palm or Lotus Edge?', a: 'No. They are three separate GL Homes communities in west Boca Raton, each with its own gate, clubhouse and association. Amenities are not shared between them, and the MLS lists them separately. Lotus is built out and trades as resales; Lotus Palm and Lotus Edge are the two still being built nearby.' },
+      { q: 'Should I buy a resale in Lotus or wait for a new build in Lotus Palm or Lotus Edge?', a: 'It comes down to time versus choice. A new build lets you choose the lot, plan and finishes, with a builder warranty, but you wait for construction and usually add landscaping, window treatments and a pool on top of the base price. A Lotus resale is move-in ready, often with the pool and landscaping done, and the clubhouse and social calendar are already running. Lotus has a very active resale market, so good homes move quickly. Line up your pre-approval first.' },
       { q: 'What does the Lotus HOA fee cover?', a: 'The assessment covers the manned gate, lawn maintenance for each home, common areas, the clubhouse and the social director\'s programming. Buyers also typically pay a capital contribution at closing. Amounts change, so confirm the current assessment, contribution and any pending special assessments with the association during your inspection period.' },
       { q: 'Where is Lotus in Boca Raton?', a: 'On Lyons Road in west Boca Raton, north of Clint Moore Road, with Delray Marketplace a few minutes north. It is west of the Turnpike, in unincorporated Palm Beach County with a Boca Raton mailing address.' },
       { q: 'What schools serve Lotus?', a: 'Lotus is served by the School District of Palm Beach County. Attendance boundaries change, so confirm the assigned schools for a specific address with the district before you buy.' },
