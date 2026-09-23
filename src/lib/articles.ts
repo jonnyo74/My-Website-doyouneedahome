@@ -6504,6 +6504,7 @@ The rules and conditions that affect boaters change, so rely on the authorities 
 - **Tri-Rail:** Boynton Beach Station is at 2800 High Ridge Road. Station parking has its own registration rules — see [Tri-Rail's station page](https://www1.tri-rail.com/stations/boynton-beach).
 - **Brightline:** doesn't stop in Boynton Beach; the nearby stations are in Boca Raton and West Palm Beach. See [Brightline's station information](https://www.gobrightline.com/to-and-from-station).
 - **Airports:** [Palm Beach International](https://www.pbia.org/) and [Fort Lauderdale–Hollywood International](https://www.fll.net/). Compare routes and schedules for the trips you make.
+- **Circuit:** Circuit's [Coastal Cruiser](https://www.ridecircuit.com/boynton-beach) on-demand electric ride service has operated in Boynton Beach since March 2024, booked through the Circuit app. Its page lists destinations including Oceanfront Park, City Hall and the library, and Boynton Harbor Marina, and currently lists rides as free. Check the app for the current service area, hours and fare.
 - **I-95 and Florida's Turnpike:** both run north–south through the area. Drive your regular routes at the hours you'd use them, including in season, rather than relying on a quoted time.
 
 ## Hurricane season
@@ -6547,7 +6548,7 @@ For more, see our [Boynton Beach neighborhood guide](/blog/best-neighborhoods-in
     author: 'christine',
     published: true,
     publishedDate: '2026-06-01',
-    updated: '2026-09-21',
+    updated: '2026-09-23',
   },
   {
     slug: 'best-neighborhoods-in-boynton-beach-florida',
