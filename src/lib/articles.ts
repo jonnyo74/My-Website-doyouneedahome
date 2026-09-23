@@ -1501,7 +1501,7 @@ West Palm Beach is big and uneven in shape. The City's historic-district map sho
 | Along the lagoon | Condos and houses | Views, bridges, flood checks |
 | Farther west | Planned communities | Mostly by car |
 
-**Downtown** runs from the waterfront along Flagler Drive through the **Clematis Street** district to **CityPlace**, the mixed-use center on South Rosemary Avenue. CityPlace has also been called Rosemary Square and The Square. Its owner, Related Companies, switched back to CityPlace in May 2024, so older listings and maps may use any of the three names. Downtown living is mostly condominium and rental towers. It puts you close to the Kravis Center, the waterfront, the Mandel Public Library and Brightline, and it comes with garages, meters, event crowds and building rules. Our sister site [CondoWPB.com](https://www.condowpb.com) covers the downtown buildings one by one.
+**Downtown** runs from the waterfront along Flagler Drive through the **Clematis Street** district to **CityPlace**, the mixed-use center on South Rosemary Avenue. Downtown living is mostly condominium and rental towers. It puts you close to the Kravis Center, the waterfront, the Mandel Public Library and Brightline, and it comes with garages, meters, event crowds and building rules. Our sister site [CondoWPB.com](https://www.condowpb.com) covers the downtown buildings one by one.
 
 **The historic neighborhoods** sit north and south of downtown, in the eastern part of the city. The City's map names districts including Old Northwood, Northwood Hills, Grandview Heights, Flamingo Park, El Cid, Prospect/Southland Park and Central Park. Houses there are older, and exterior changes go through the City's design review. Our [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) goes area by area.
 
@@ -1596,7 +1596,7 @@ When you're ready to look at homes, start from the [West Palm Beach community pa
       { q: "How do I know if a West Palm Beach address is actually in the city?", a: "Look up the parcel on the Palm Beach County Property Appraiser's site. The first two digits of the parcel control number identify the municipality: 74 is the City of West Palm Beach and 00 is unincorporated Palm Beach County. The mailing address alone doesn't tell you." },
     ],
     internalLinks: ["best-neighborhoods-in-west-palm-beach-florida", "best-things-to-do-in-west-palm-beach-florida", "who-should-move-to-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities", "local-guide-to-west-palm-beach-florida"],
-    funFact: "Downtown's big mixed-use center has had three names in five years: CityPlace, then Rosemary Square, then The Square, and CityPlace again since May 2024. Older listings, maps and reviews may use any of them. When you tour, look the property up on the Property Appraiser's site: a parcel number starting with 74 means it's inside the City of West Palm Beach.",
+    funFact: "The quickest check I know on any \"West Palm Beach\" listing: look the property up on the Palm Beach County Property Appraiser's site. A parcel number starting with 74 means it's inside the City of West Palm Beach, and 00 means unincorporated county. If you'll cross to the island often, time the drive around the drawbridge openings too, at the hour you'd actually go.",
     author: 'john',
     published: true,
     publishedDate: '2026-09-23',
@@ -1628,7 +1628,7 @@ Here's the local playbook, condensed.
 
 The city organizes into four rough zones, and once you can picture them the rest follows.
 
-**Downtown and the waterfront.** Clematis Street, Rosemary Square, and Flagler Drive along the Intracoastal. The dense, walkable, event-driven core, and where the office employment sits.
+**Downtown and the waterfront.** Clematis Street, CityPlace, and Flagler Drive along the Intracoastal. The dense, walkable, event-driven core, and where the office employment sits.
 
 **The historic south.** El Cid, Flamingo Park, Grandview Heights, and SoSo (South of Southern) — tree-canopied streets, 1920s architecture, and the walkable-house market that gives this city its character.
 
@@ -1644,7 +1644,7 @@ The single most common newcomer complaint, and almost entirely solvable.
 
 Downtown street parking in the evening — particularly Thursday through Saturday, and worse in season — is a losing game. **Learn the garages.** Residents park in the same structure every time and walk two blocks rather than circling for twenty minutes.
 
-Rosemary Square and the surrounding blocks have structured parking. Metered street spots exist but turn over slowly at peak times. If you're going out downtown on a Saturday night in February, decide your garage before you leave the house.
+CityPlace and the surrounding blocks have structured parking. Metered street spots exist but turn over slowly at peak times. If you're going out downtown on a Saturday night in February, decide your garage before you leave the house.
 
 ## Use the train
 
@@ -2127,7 +2127,7 @@ Here's both sides in enough detail to actually decide.
 
 ### A real downtown
 
-Walkable, dense enough to matter, and alive after dark. Clematis Street and Rosemary Square carry dining, bars, and events; Flagler Drive gives you a waterfront to walk along.
+Walkable, dense enough to matter, and alive after dark. Clematis Street and CityPlace carry dining, bars, and events; Flagler Drive gives you a waterfront to walk along.
 
 In a region where most "downtowns" are shopping centers with valet, this is the genuine article, and it's the single strongest argument for the city.
 
@@ -2622,7 +2622,7 @@ Drive the commute at the real hour. Spend a weekend evening in each town rather 
     order: 10,
     seoTitle: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
     metaTitle: "Best Places to Eat & Drink in West Palm Beach, FL",
-    metaDescription: "Where to eat, drink, and hang out in West Palm Beach, Florida — from Clematis Street and Rosemary Square to Antique Row and a historic food hall.",
+    metaDescription: "Where to eat, drink, and hang out in West Palm Beach, Florida — from Clematis Street and CityPlace to Antique Row and a historic food hall.",
     primaryKeyword: "best restaurants in West Palm Beach Florida",
     secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach nightlife", "Clematis Street restaurants", "Grandview Public Market"],
     h1: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
@@ -2634,7 +2634,7 @@ Drive the commute at the real hour. Spend a weekend evening in each town rather 
     heroImagePosition: '40% 50%',
     body: `This guide covers **neighborhood** dining in West Palm Beach — the places scattered through the historic districts, along Antique Row, and out in the residential parts of the city where people actually eat on a Tuesday.
 
-Downtown is a separate scene with its own logic, and our sister site covers it properly: [CondoWPB.com's downtown dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb) and its [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) go block by block on the Clematis and Rosemary Square scene. If you're planning a night out downtown, start there.
+Downtown is a separate scene with its own logic, and our sister site covers it properly: [CondoWPB.com's downtown dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb) and its [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) go block by block on the Clematis and CityPlace scene. If you're planning a night out downtown, start there.
 
 For everything else, here's the local rundown.
 
@@ -2726,7 +2726,7 @@ Hours, menus, and ownership change constantly. Check directly before you go.`,
     faqs: [
       { q: "Where do locals eat in West Palm Beach?", a: "Away from downtown, residents rely on the independent restaurants scattered along Antique Row and South Dixie, the Grandview Public Market food hall near the train station, the independent spots in Northwood, and neighborhood restaurants embedded in the historic residential districts." },
       { q: "What is Grandview Public Market?", a: "A food hall in a historic building near the Brightline station, with independent stalls covering a wide range of food. It works well for groups that can't agree, is casual enough for a weeknight, and is a natural stop around a train trip." },
-      { q: "Where should I eat in downtown West Palm Beach?", a: "Downtown is its own scene centered on Clematis Street and Rosemary Square, and our sister site CondoWPB.com covers it block by block in its downtown dining and Clematis Street entertainment guides." },
+      { q: "Where should I eat in downtown West Palm Beach?", a: "Downtown is its own scene centered on Clematis Street and CityPlace, and our sister site CondoWPB.com covers it block by block in its downtown dining and Clematis Street entertainment guides." },
       { q: "Is it hard to park for dinner in West Palm Beach?", a: "Downtown, yes — especially Thursday through Saturday and during season, when using a garage is the practical answer. Neighborhood dining largely sidesteps the problem, which is a real reason many residents default to it." },
       { q: "Do you need reservations at West Palm Beach restaurants?", a: "During season, roughly November through April, yes at anywhere popular and especially on weekends. From May through October most places are walk-in friendly, and many residents consider summer dining one of the advantages of living here year-round." },
       { q: "What is the dining like in west West Palm Beach?", a: "Past I-95 it shifts toward chains, larger-format restaurants, and shopping-center dining — less character but easy parking and lower prices. It's what residents out that way use for weeknight meals." },
