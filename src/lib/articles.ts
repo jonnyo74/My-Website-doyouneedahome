@@ -2064,124 +2064,119 @@ For the rest of the city, see [what it's really like living in West Palm Beach](
     slug: 'who-should-move-to-west-palm-beach-florida',
     citySlug: 'west-palm-beach',
     cityName: 'West Palm Beach',
-    type: "Who Should Move To",
+    type: "Is It a Good Fit",
     order: 5,
-    seoTitle: "Who Should Move to West Palm Beach, Florida (And Who Shouldn't)",
-    metaTitle: "Who Should Move to West Palm Beach, FL",
-    metaDescription: "West Palm Beach isn't for everyone. An honest look at who thrives in the area's urban hub — and who would be happier in a quieter beach town.",
+    seoTitle: "Who Should Move to West Palm Beach, FL? A Fit Checklist for Buyers",
+    metaTitle: "Who Should Move to West Palm Beach, FL? A Fit Checklist",
+    metaDescription: "Is West Palm Beach a fit? Compare your priorities with its condos, historic houses, waterfront, rail and parking, and see what to verify on a property.",
     primaryKeyword: "who should move to West Palm Beach Florida",
-    secondaryKeywords: ["is West Palm Beach right for me", "should I move to West Palm Beach", "who lives in West Palm Beach"],
-    h1: "Who Should Move to West Palm Beach, Florida (And Who Shouldn't)",
+    secondaryKeywords: ["is West Palm Beach right for me", "should I move to West Palm Beach", "is West Palm Beach a good fit", "buying a home in West Palm Beach"],
+    h1: "Is West Palm Beach a Fit for You? A Buyer's Checklist",
     heroImage: '/images/west-palm-beach/waterfront-promenade-seawall-hero.webp',
     heroImageAlt: "The paved waterfront promenade along the seawall on the Lake Worth Lagoon in West Palm Beach, with palms and lamp posts on one side and high-rise towers in the distance",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '65% 50%',
-    body: `West Palm Beach is the county's only real city, and that makes the fit question unusually clear-cut. Most towns on this coast are variations on the same theme — quiet, coastal, suburban. West Palm is the alternative to all of them.
+    body: `West Palm Beach offers several kinds of housing in one city: downtown condominiums, historic houses, homes near the Lake Worth Lagoon, older residential streets and more conventional residential settings farther west.
 
-Here's the honest sorting.
+The useful question isn't who belongs here. It's whether the city's housing, transportation and ownership details match what you want from a home. This page is a planning tool for answering that. For the broad picture, start with [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida).
 
-## You'll love West Palm Beach if…
+## What the housing looks like
 
-### You actually want to use a city
+The City's parcel layer, which carries Palm Beach County Property Appraiser attributes, counts these parcels inside city limits (retrieved September 23, 2026):
 
-Not "want to be near one." Use one. Walk to dinner, catch a show, go to the museum on a Sunday, have a downtown that's alive on a Tuesday night.
+- **About 18,400 single-family homes.** Their median recorded year built is 1970. About 21% were built before 1950, and about 26% in 2000 or later.
+- **About 14,900 condominium units.** About 44% are in buildings with a recorded year of 2000 or later.
+- **About 5,100 townhouses**, plus small multifamily buildings.
 
-If that's how you want to live, West Palm is the only option in Palm Beach County that delivers it, and the nearest genuine alternatives are Fort Lauderdale and Miami — both considerably bigger, denser, and more expensive.
+Roughly 2,800 of the single-family homes sit inside the City's local historic districts, where exterior changes go through design review. The [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) breaks those districts down. These are counts of the housing stock, not market data, and they say nothing about prices or availability.
 
-### You want a car-light life
+## West Palm Beach may align with your priorities if…
 
-The **Brightline** station plus a walkable downtown makes genuine car-light living possible here in a way it simply isn't anywhere else on this coast. Some downtown residents run a single car for a household, or none at all.
+- **You value being close to downtown**, the waterfront public spaces, cultural institutions or regional rail.
+- **You want to compare condos, historic houses, waterfront property and other houses** within one city.
+- **You're willing to test the routes** (walking, driving, transit, bridges, parking and your daily routine) from a specific property before you commit.
+- **You're prepared for property-specific due diligence**: older systems, historic status, condo or HOA documents, insurance, flood and elevation, permits and maintenance.
 
-That's worth real money, and it's worth more than money if driving everywhere is something you were hoping to escape.
+## You may prefer a different housing or location pattern if…
 
-### You want historic character at an attainable price
+- **Living directly on the ocean is the central priority.** The city's shoreline is the lagoon, and the ocean beaches are across the bridges on the island.
+- **A newer, master-planned, gated or highly uniform development is essential.** Some exist within the city, but much of the eastern housing is older and varied.
+- **You need a specific lot size, parking arrangement, HOA structure, commute route or building type** that a given property may not provide.
+- **A quieter, lower-density setting is a strong preference.** That depends heavily on the exact location, so test it at the property.
 
-This is West Palm's quiet superpower. The city has genuine architectural history — Mediterranean Revival, 1920s bungalows, tree-canopied historic districts — and it is the only place locally where that kind of housing sits within walking distance of restaurants at a price a normal buyer can reach.
+None of this is a verdict on the city. It's about matching the property and the daily routine to what you want. Our [West Palm Beach vs nearby cities](/blog/west-palm-beach-vs-nearby-cities) guide compares other locations.
 
-If you'd rather have a 1925 bungalow with original detail than a 2019 build in a gated community, this is your town and there isn't a close second.
+## Your priorities, and what to verify
 
-### You want to buy a project
+| Priority | West Palm Beach context | What to verify |
+|---|---|---|
+| Downtown access | Condos and houses near venues | Walk and time your routes |
+| Beach vs. waterfront | Lagoon shoreline; ocean on the island | Your beach trip and parking |
+| Rail and regional trips | Brightline and Tri-Rail stations | Schedules, fares, station access |
+| Historic homes | 18 local historic districts | Parcel status; review needs |
+| Condo ownership | About 14,900 condo units | Inspections, reserves, rules |
+| Newer vs. older homes | Median house built 1970 | Year built, systems, permits |
+| Parking and events | Garages, meters, permits, events | The property's own parking |
+| Flood and insurance | Flood zones vary by parcel | Flood zone; insurance quotes |
 
-West Palm is one of the few markets locally where meaningful renovation upside still exists. SoSo, parts of Northwood, and pockets throughout the historic districts reward buyers willing to take on work.
+## Property-specific due diligence
 
-That's a real strategy here, and it's largely unavailable in the newer suburban towns where the housing stock is uniform and already finished.
+These are prompts for inspections and official checks, not legal, tax, insurance, construction or financial advice.
 
-### You work downtown
+- [ ] **Jurisdiction:** the City of West Palm Beach or unincorporated county. On the Property Appraiser's record, a parcel control number starting with 74 is in the city.
+- [ ] **Historic status:** whether the parcel is in a local district or individually designated, and what review your plans would need.
+- [ ] **Roof, electrical, plumbing and windows:** age and condition from licensed inspectors, and the reports your insurer asks for.
+- [ ] **Permits:** the City's permit history compared with the work the seller describes.
+- [ ] **Flood and elevation:** the FEMA flood zone, any elevation certificate, and insurance quotes during the inspection period.
+- [ ] **Parking and access:** a driveway, an assigned space, a garage permit or street parking.
+- [ ] **Condo or HOA documents:** budget, reserves, rules, minutes and any assessments. For a condo building of three or more habitable stories, ask for the milestone inspection and structural integrity reserve study, too. The [condo buyer's checklist](/florida-condo-buyers-due-diligence-checklist) lists what to request, and our sister site [CondoWPB.com](https://www.condowpb.com) covers the downtown buildings.
+- [ ] **For a waterfront property:** if a dock or boat access matters, check the dock's permits and condition, the water depth, and the clearances on the route you'd take.
 
-The county's largest office employment base is here, and the finance sector's expansion has added to it. If you work in West Palm, living in West Palm eliminates a commute that most people in this region simply accept.
+## Getting around: test your own routes
 
-### You want range
+- **Brightline** serves its downtown West Palm Beach station, with stations in Boca Raton, Fort Lauderdale, Aventura, Miami and Orlando.
+- **Tri-Rail**'s West Palm Beach station is at 203 South Tamarind Avenue.
+- **Palm Tran** runs the county's buses.
+- **West Palm MOVE**, the City's service operated by Via, runs a $1 fixed route between the Norton Museum of Art and Northwood Village, plus $2 on-demand rides.
+- **Circuit** offers on-demand rides within the downtown service area.
+- **Downtown parking** is set by the City (garages, meters and permits), and rates change.
+- **Three drawbridges** (Flagler Memorial, Royal Park and Southern Boulevard) connect to the island, and federal rules set when they open for boat traffic.
+- **President Donald J. Trump International Airport (DJT)** is in West Palm Beach.
 
-Downtown towers, historic districts, and conventional suburbia to the west all exist inside one city, spanning a genuinely wide range of price points. Most towns on this coast offer one housing type at one price band.
+Whether any of these fit depends on the address and the trips you make. Check each operator's current schedules, fares and service areas, and run your commute at the hours you'd actually travel. The [local guide](/blog/local-guide-to-west-palm-beach-florida) has current parking rates and official links.
 
-## You might want to look elsewhere if…
+## Property scenarios to think through
 
-### You want to live on the beach
+- **A condo near downtown.** Test the walk to the places you'd use and to the stations, and read the building's inspections, reserves, rules and parking arrangements.
+- **A house in a local historic district.** Confirm the district and whether the house is contributing, ask the City what review your plans would need, and inspect the older systems.
+- **A house near the lagoon.** Check the flood zone, elevation, any seawall or dock, the insurance quotes, and the bridge routes you'd use.
+- **A home in a planned community farther west.** Confirm city or county jurisdiction, read the association's documents, and drive your regular routes at peak hours.
 
-West Palm is on the Intracoastal, across the bridge from the sand. Juno Beach, Jupiter, and Singer Island put you on the ocean; this city doesn't.
+## Visit and evaluate: a checklist
 
-### You want quiet, gated suburbia
+1. **Visit the property and the public areas around it** at times that match your routine, including a weekday and a weekend.
+2. **Walk and drive the routes that matter**: work, groceries, the station, the waterfront, and a trip over the bridge if you'll make it often.
+3. **Confirm the details**: jurisdiction, building type, permits, parking, transit options, bridge timing, utilities, and any association requirements.
+4. **Review current market data and ownership costs** for the specific property. The [cost of living guide](/blog/cost-of-living-in-west-palm-beach-florida) explains the main components.
+5. **Weigh the trade-offs** in the [pros and cons of living in West Palm Beach](/blog/pros-and-cons-of-living-in-west-palm-beach-florida).
 
-Palm Beach Gardens does this better and it isn't close. Gated communities, golf, consistent architecture, and predictable streets are that town's entire product.
-
-### You want a small-town feel
-
-This is a city, with city traffic, city parking, and city noise. Tequesta, Juno Beach, and North Palm Beach offer the opposite.
-
-### You want brand-new construction in a master-planned community
-
-Much of West Palm's appeal is historic, which means older systems, older roofs, and renovation. For new construction in a planned setting, look at Palm Beach Gardens, Port St. Lucie, or Westlake.
-
-### You want uniformity
-
-The block-to-block variation that makes this city interesting also makes it demanding to buy in. If you want to know what you're getting from the zip code alone, West Palm will frustrate you.
-
-## A few specific situations
-
-**Remote workers and first-time buyers.** Probably the strongest fit in the county. Walkability, the train, a real restaurant scene, and pricing that's achievable relative to the beach towns.
-
-**Empty nesters downsizing from a big suburban house.** Very common here. Lock-and-leave downtown living with culture and dining on foot is a genuine draw — and if that's the direction you're heading, [CondoWPB.com](https://www.condowpb.com) is the deeper resource, since downtown buildings vary enormously in fees, reserves, and rules.
-
-**Buyers who want a historic house.** This is the market for it locally. Budget for older-home realities: roof age, plumbing, electrical, and windows all matter more here than in newer stock, and they drive insurance.
-
-**Families.** Workable, and the historic neighborhoods have real community, but school assignments vary considerably across the city and reputation is an unreliable guide. Our [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) covers how to check an address properly.
-
-**Retirees.** Good fit for the culturally active. Excellent hospital access, walkable districts, and no state income tax. Less good if you want quiet and a golf community, which the northern suburbs do better.
-
-**Boaters.** Better served than the mainland location suggests. The Intracoastal runs through the city, dockage exists along parts of the waterfront and in some residential areas, and the Lake Worth Inlet gives ocean access. Verify dockage, bridge clearance, and canal depth for any specific property.
-
-**Investors and renovators.** One of the few local markets with genuine value-add opportunity remaining. Check historic district rules before assuming you can alter an exterior.
-
-## A simple gut-check
-
-## What people miss from where they came from
-
-For transplants arriving from bigger cities, the honest list is short: **public transit beyond the Brightline** (there isn't much), **density of options** — West Palm has range but not the sheer count of a major metro — and **walkable groceries**, which work downtown and get harder elsewhere.
-
-For transplants arriving from the suburbs, it's usually the opposite: they miss **parking**, **quiet**, and **predictability**. Both groups tend to adjust within a year, but knowing which list is yours helps.
-
-Picture an ordinary Saturday a year from now.
-
-Walk to the GreenMarket, spend an hour at the Norton, lunch downtown, maybe the train to Miami for dinner, home without ever moving the car? That's West Palm, and if it sounds appealing you'll be very happy here.
-
-Quiet street, golf in the morning, drive to a nice dinner, home early, nothing on after nine? You want Palm Beach Gardens or one of the beach towns, and you'd find this city noisy and busy.
-
-Both are good lives. They're just not the same one, and West Palm is the only place locally offering the first.`,
+When you're ready to look at homes, start from the [West Palm Beach community page](/communities/west-palm-beach) or [search homes for sale](/buy).`,
     faqs: [
-      { q: "Who should move to West Palm Beach?", a: "People who genuinely want to use a city — walk to dinner, use the arts institutions, live somewhere with a night-time pulse. It also suits buyers wanting car-light living via the Brightline, historic architecture at attainable prices, renovation opportunity, or a short commute to the county's largest office employment base." },
-      { q: "Who should not move to West Palm Beach?", a: "People who want to live on the beach, want quiet gated suburbia, want a small-town feel, or want brand-new construction in a master-planned community. The block-to-block variation also frustrates buyers who want predictability from the zip code alone." },
-      { q: "Is West Palm Beach good for young professionals?", a: "It's arguably the strongest fit in Palm Beach County — a walkable downtown, the Brightline for travel without a car, a deep restaurant scene, and pricing that's achievable relative to the beach towns, plus the county's largest concentration of office employment." },
-      { q: "Is West Palm Beach good for families?", a: "It's workable, and the historic neighborhoods have genuine community, but school assignments vary considerably across the city. Verify current assignments directly with the School District of Palm Beach County for the specific address rather than relying on general reputation." },
-      { q: "Is West Palm Beach good for retirees?", a: "Good for culturally active retirees — walkable districts, strong arts institutions, excellent hospital access, and no state income tax. Less suitable for those wanting quiet and a golf community, which the northern suburbs handle better." },
-      { q: "Can you live in West Palm Beach without a car?", a: "More easily than anywhere else on this coast. The combination of a walkable downtown and the Brightline station makes car-light living genuinely feasible for downtown residents, though areas west of downtown are conventional suburbia and require driving." },
+      { q: "What types of housing are in West Palm Beach?", a: "The City's parcel data shows about 18,400 single-family homes, about 14,900 condominium units and about 5,100 townhouses inside city limits, plus small multifamily buildings. The single-family homes have a median recorded year built of 1970, and roughly 2,800 are in the City's local historic districts." },
+      { q: "Is West Palm Beach on the ocean?", a: "No. The city's shoreline faces the Lake Worth Lagoon, part of the Intracoastal Waterway. The ocean beaches are across the bridges on Palm Beach island, and each beach's operator sets its parking and access rules." },
+      { q: "Can I use rail from West Palm Beach?", a: "Yes. Brightline has a downtown station with service to Boca Raton, Fort Lauderdale, Aventura, Miami and Orlando, and Tri-Rail stops at 203 South Tamarind Avenue. Whether rail fits your routine depends on where you live and travel, so check current schedules and fares." },
+      { q: "What should I check before buying an older home in West Palm Beach?", a: "Historic-district status and any review your plans would need, the roof, electrical, plumbing and windows, the City's permit history, the FEMA flood zone and elevation, insurance quotes and parking. These are prompts for inspections and official checks, not advice." },
+      { q: "How do I know if a property is in a West Palm Beach historic district?", a: "Check the City's historic-preservation maps or ask its historic-preservation staff about the specific parcel. The City has 18 local historic districts and 46 individually designated sites, and local designation is what brings design review of exterior work." },
+      { q: "How can I tell if West Palm Beach fits my priorities?", a: "Compare what matters to you (housing type, downtown access, rail, beach access, parking and ownership responsibilities) with a specific property. Then visit at the times that match your routine, test your routes, and verify jurisdiction, permits and any association documents." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "what-its-really-like-living-in-west-palm-beach-florida"],
-    funFact: "West Palm Beach's 'Wall Street South' nickname is earning its keep — multiple major financial firms including Goldman Sachs and Blackstone have opened significant offices downtown since 2020. That office absorption has driven both downtown condo demand and a wave of new tower construction.",
+    internalLinks: ["what-its-really-like-living-in-west-palm-beach-florida", "pros-and-cons-of-living-in-west-palm-beach-florida", "cost-of-living-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "west-palm-beach-vs-nearby-cities"],
+    funFact: "Before you judge fit from a listing, check the parcel's recorded year built and property use on the Property Appraiser's record. Across the city, the recorded build years of single-family homes span more than a century, and the median is 1970. The age of a house often says more about what ownership will involve than its neighborhood name does.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-09-23',
+    updated: '2026-09-23',
   },
   {
     slug: 'pros-and-cons-of-living-in-west-palm-beach-florida',
