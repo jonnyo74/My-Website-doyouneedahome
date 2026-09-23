@@ -17092,6 +17092,8 @@ A Palm City Farms address does not guarantee that a parcel can legally support h
 
 Palm City has more golf than its size suggests. Hammock Creek Golf Club is a semi-private Jack Nicklaus Legacy Design that currently offers public tee times alongside membership programs, with access, rates and availability varying by season. Other communities are tied to clubs such as Palm Cove, now a private invitation-only club, and the Martin Downs-area courses, and their membership and access arrangements differ.
 
+![John Oliver lining up a drive on a tee box, with the fairway and a cart path stretching out ahead](/images/john-golf-tee.jpg "John Oliver on the tee. Plenty of our clients buy for the golf, and so do we.")
+
 Golfers should verify whether public play is available, whether membership is required, initiation fees, annual dues, capital charges, food-and-beverage minimums, guest privileges, tee-time policies and whether residential ownership includes club access. A home overlooking a golf course does not necessarily include the right to play it. The local claim is that a round here is easier to get and cheaper to play than the equivalent an hour south, and at Hammock Creek that is often true, but compare current rates and availability directly rather than assume it.
 
 ## Palm City May Work for Households With School-Age Children
@@ -26164,6 +26166,8 @@ That said, water access isn't absent — it's just a different kind. Several com
 ## Golf shapes the town even if you don't play
 
 You can't describe this place honestly without it. Palm Beach Gardens is one of the genuine golf capitals of the country — the PGA of America relocated its national headquarters here in 2023, which tells you most of what you need to know.
+
+![John Oliver at the top of his backswing on a tee box, with a cart path and oak trees under a blue sky](/images/john-golf-backswing.jpg "John Oliver, out on the course on a weekend morning.")
 
 What matters for a resident is subtler than the courses themselves. Golf shapes the calendar, the social structure, and a meaningful share of the real estate. A large portion of the housing stock sits inside golf-and-country-club communities, which means club membership, initiation fees, and dues are woven into the cost of living in a way they aren't in most towns.
 
