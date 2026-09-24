@@ -2709,122 +2709,436 @@ For more on West Palm Beach itself, see [what it's really like living in West Pa
     cityName: 'West Palm Beach',
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
-    metaTitle: "Best Places to Eat & Drink in West Palm Beach, FL",
-    metaDescription: "Where to eat, drink, and hang out in West Palm Beach, Florida — from Clematis Street and CityPlace to Antique Row and a historic food hall.",
+    seoTitle: "Best Places to Eat, Drink & Hang Out in West Palm Beach, FL: A Verified Local Guide",
+    metaTitle: "Where to Eat, Drink & Hang Out in West Palm Beach, FL",
+    metaDescription: "A verified guide to where to eat, drink and hang out in West Palm Beach, FL: downtown, Nora, Northwood, South Dixie, Antique Row, coffee and taprooms.",
     primaryKeyword: "best restaurants in West Palm Beach Florida",
-    secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach nightlife", "Clematis Street restaurants", "Grandview Public Market"],
+    secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach restaurants", "Northwood Village restaurants", "Antique Row restaurants West Palm Beach", "Nora District restaurants", "West Palm Beach nightlife"],
     h1: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/nora-taqueria-patio-bar-hero.webp',
-    heroImageAlt: "The covered patio bar at Loco Taqueria in West Palm Beach's Nora district: an arched back bar lined with bottles and a curved counter with wooden stools and amber under-lighting",
+    heroImageAlt: "The covered patio bar at Loco Taqueria & Oyster Bar in West Palm Beach's Nora District: an arched back bar lined with bottles and a curved counter with wooden stools and amber under-lighting",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '40% 50%',
-    body: `This guide covers **neighborhood** dining in West Palm Beach — the places scattered through the historic districts, along Antique Row, and out in the residential parts of the city where people actually eat on a Tuesday.
+    editorial: {
+      eyebrow: 'West Palm Beach · Local Dining Guide',
+      deck: "Restaurants, coffee, bars and markets across downtown, Nora, Northwood, South Dixie and Clare Avenue, grouped by occasion and each checked on its own website.",
+      heroLayout: 'split',
+      heroTone: 'warm',
+      panelImage: { src: '/images/west-palm-beach/nora-taqueria-patio-bar-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/west-palm-beach/nora-taqueria-patio-bar-mobile.webp', width: 1200, height: 800 },
+      mobileAspect: '16/9',
+      primaryCta: { label: 'Explore West Palm Beach', href: '/communities/west-palm-beach' },
+      secondaryCta: { label: 'See things to do', href: '/blog/best-things-to-do-in-west-palm-beach-florida' },
+      guide: {
+        heading: "Where to eat, drink and hang out",
+        intro: "West Palm Beach's restaurants and bars are spread across downtown, the Nora District, Northwood Village, South Dixie Highway, Clare Avenue and other corridors, so the useful question is what setting and occasion you want, not which area is best. These are editorially selected places, not a complete directory. Each was checked on its own website on the review date shown, and its address against the City of West Palm Beach's parcel data. Listings are grouped by area and occasion, not ranked. Hours, menus, reservations, accessibility, parking and events change, so confirm them with the venue before you go.",
+        lastReviewed: '2026-09-24',
+        categories: [
+          {
+            id: "downtown",
+            title: "Downtown: Clematis Street and CityPlace",
+            intro: "The Downtown Development Authority counts more than 70 restaurants downtown, so this is a short sample. The section after the listings links to fuller downtown coverage.",
+            places: [
+              {
+                name: "Pistache French Bistro",
+                body: "A French bistro at the east end of Clematis Street, near Flagler Drive, with posted hours for each meal period.",
+                bestFor: ["French", "Dinner"],
+                area: "Downtown, 101 N. Clematis Street",
+                note: "Its site listed summer hours, with Monday closures, through September 2026. It takes reservations through OpenTable. Check current hours on its own site.",
+                link: { label: "Pistache French Bistro", href: "https://www.pistachewpb.com" },
+              },
+              {
+                name: "Elisabetta's Ristorante",
+                body: "An Italian restaurant and bar on Banyan Boulevard serving handmade pasta. Its site lists a DJ on Friday and Saturday nights.",
+                bestFor: ["Italian", "Groups", "Weekend evening"],
+                area: "Downtown, 185 Banyan Boulevard",
+                note: "It takes reservations through OpenTable. Check hours and events on its own site before you go.",
+                link: { label: "Elisabetta's West Palm Beach", href: "https://www.elisabettas.com/wpb" },
+              },
+              {
+                name: "Harry's Bar & Restaurant",
+                body: "A steak and continental restaurant and bar at CityPlace, a sister to the New York original, with separate hours for the dining room and the bar.",
+                bestFor: ["Dinner", "Cocktails"],
+                area: "CityPlace, 384 S. Rosemary Avenue",
+                note: "It takes reservations through Resy or by phone. Check current hours on its own site.",
+                link: { label: "Harry's West Palm Beach", href: "https://www.harrysbarrestaurant.com/harrys-west-palm-beach" },
+              },
+              {
+                name: "The Rooftop Restaurant at RH West Palm",
+                body: "The restaurant on the roof of RH's gallery at CityPlace.",
+                bestFor: ["Lunch", "Rooftop setting"],
+                area: "CityPlace, 560 Okeechobee Boulevard",
+                note: "CityPlace's directory lists reservations through OpenTable. Check hours and reservations with RH before you go.",
+                link: { label: "The Rooftop Restaurant at RH West Palm", href: "https://rh.com/us/en/westpalm/restaurant" },
+              },
+              {
+                name: "Moody Tongue Sushi",
+                body: "An omakase sushi counter inside the Hilton West Palm Beach that pairs its courses with Moody Tongue beers. The MICHELIN Guide lists it.",
+                bestFor: ["Omakase", "Special occasion"],
+                area: "Downtown, 600 Okeechobee Boulevard",
+                note: "Seatings and menus are set in advance. Check times and reservations on its own site.",
+                link: { label: "Moody Tongue Sushi West Palm Beach", href: "https://www.moodytongue.com/location/moody-tongue-sushi-west-palm-beach/" },
+              },
+            ],
+          },
+          {
+            id: "coffee-daytime",
+            title: "Coffee, bakeries and daytime",
+            intro: "Places for coffee, a pastry or a daytime meeting, in several parts of the city. Some close by mid-afternoon.",
+            places: [
+              {
+                name: "Subculture Coffee",
+                body: "A coffee shop and roaster on Clematis Street with baked goods, including vegan options, and online ordering.",
+                bestFor: ["Coffee", "Morning meetup"],
+                area: "Downtown, 500 block of Clematis Street",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Subculture Coffee", href: "https://www.subculturecoffee.com" },
+              },
+              {
+                name: "Hive Bakery & Cafe",
+                body: "A bakery and café on South Dixie Highway serving breakfast and lunch, with later hours on some days.",
+                bestFor: ["Bakery", "Breakfast", "Lunch"],
+                area: "South Dixie Highway, 1603 S. Dixie Hwy.",
+                note: "Hours vary by day. Check its own site before you go.",
+                link: { label: "Hive Bakery & Cafe", href: "https://hivebakeryandcafe.com" },
+              },
+              {
+                name: "Common Grounds Brew & Roastery",
+                body: "A coffee roaster and café on South Dixie Highway, within the address range the Antique Row district publishes.",
+                bestFor: ["Coffee", "Daytime"],
+                area: "Antique Row, 3065 S. Dixie Hwy.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Common Grounds Brew & Roastery", href: "https://www.commongroundsroastery.com" },
+              },
+              {
+                name: "The Pumphouse Pouratorium",
+                body: "Pumphouse Coffee Roasters' café on Clare Avenue, where the coffee is roasted on site.",
+                bestFor: ["Coffee", "Roastery"],
+                area: "Clare Avenue, 1016 Clare Ave., Suite 5A",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Pumphouse Coffee Roasters café", href: "https://pumphousecoffee.com/pages/cafe" },
+              },
+            ],
+          },
+          {
+            id: "south-dixie-flamingo-park",
+            title: "South Dixie and Flamingo Park",
+            intro: "Restaurants on and just off South Dixie Highway south of downtown, before the Antique Row district begins.",
+            places: [
+              {
+                name: "Table 26°",
+                body: "A restaurant serving globally inspired American food for dinner, with a daily happy hour listed on its site.",
+                bestFor: ["Dinner", "Happy hour"],
+                area: "South Dixie Highway, 1700 S. Dixie Hwy.",
+                note: "It takes reservations online or by phone. Check hours on its own site.",
+                link: { label: "Table 26°", href: "https://www.table26palmbeach.com" },
+              },
+              {
+                name: "Grato",
+                body: "A restaurant with a wood-burning oven and a seasonal menu, open for dinner and Sunday brunch.",
+                bestFor: ["Dinner", "Sunday brunch"],
+                area: "South Dixie Highway, 1901 S. Dixie Hwy.",
+                note: "It takes reservations through OpenTable. Check hours on its own site.",
+                link: { label: "Grato", href: "https://gratowpb.com" },
+              },
+              {
+                name: "Emelina",
+                body: "A Cuban restaurant on Park Place, in the neighborhood its own site calls Flamingo Park. The 2026 MICHELIN Guide lists it with one star.",
+                bestFor: ["Cuban", "Special occasion"],
+                area: "Flamingo Park, 424 Park Place",
+                note: "Its site says bookings open on Tock at 9 a.m. on the 1st of each month, and that parking is on the street, with shared rides encouraged.",
+                link: { label: "Emelina", href: "https://emelinawpb.com" },
+              },
+              {
+                name: "Kitchen",
+                body: "A contemporary American brasserie on Belvedere Road, open for dinner on select nights.",
+                bestFor: ["Dinner", "Date night"],
+                area: "Belvedere Road, 319 Belvedere Rd., #2",
+                note: "It takes reservations through OpenTable. Its site also lists a separate Kitchen North in Palm Beach Gardens, so book the West Palm Beach location.",
+                link: { label: "Kitchen", href: "https://www.kitchenpb.com" },
+              },
+            ],
+          },
+          {
+            id: "antique-row-south",
+            title: "Antique Row and the south end",
+            intro: "Antique Row's own site places the district at 2700–3900 South Dixie Highway. Discover The Palm Beaches describes it as the stretch between Belvedere Road and Southern Boulevard, with more than 40 antique, art and design shops. The last three places here are farther south on the same highway.",
+            places: [
+              {
+                name: "Pink Steak",
+                body: "A steakhouse serving dinner and Sunday brunch, with a separate booking page for larger groups.",
+                bestFor: ["Steak", "Dinner", "Sunday brunch"],
+                area: "South Dixie Highway, 2777 S. Dixie Hwy.",
+                note: "It takes reservations through OpenTable. Check hours on its own site.",
+                link: { label: "Pink Steak", href: "https://www.pinksteak.com" },
+              },
+              {
+                name: "Howley's",
+                body: "A diner serving breakfast, lunch and dinner, with online ordering and late hours on weekends.",
+                bestFor: ["Diner", "Breakfast", "Late meal"],
+                area: "South Dixie Highway, 4700 S. Dixie Hwy.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Howley's", href: "https://sub-culture.org/howleys/" },
+              },
+              {
+                name: "Palm Beach Meats",
+                body: "An all-wagyu butcher shop and market with a fast-casual kitchen serving lunch and dinner. The 2026 MICHELIN Guide lists it as a Bib Gourmand.",
+                bestFor: ["Butcher", "Casual lunch", "Take-home"],
+                area: "South Dixie Highway, 4812 S. Dixie Hwy.",
+                note: "The butcher counter and kitchen keep different hours. Check both on its own site.",
+                link: { label: "Palm Beach Meats", href: "https://palmbeachmeats.com" },
+              },
+              {
+                name: "Havana",
+                body: "A family-run Cuban restaurant with a dining room and a walk-up window that its site lists as open 24 hours.",
+                bestFor: ["Cuban", "Casual meal", "Late night"],
+                area: "South Dixie Highway, 6801 S. Dixie Hwy.",
+                note: "The dining room keeps shorter hours than the window. Check its own site before you go.",
+                link: { label: "Havana", href: "https://www.havanacubanfood.com" },
+              },
+              {
+                name: "Aioli",
+                body: "A sourdough bakery and café serving breakfast and lunch, with prepared dinners to take home and bread classes listed on its site. The 2026 MICHELIN Guide lists it as a Bib Gourmand.",
+                bestFor: ["Bakery", "Breakfast", "Lunch"],
+                area: "South Dixie Highway, 7434 S. Dixie Hwy.",
+                note: "It's a counter-service café with online ordering. Check hours on its own site.",
+                link: { label: "Aioli", href: "https://aioliwpb.com" },
+              },
+            ],
+          },
+          {
+            id: "nora-district",
+            title: "Nora District, north of downtown",
+            intro: "A dining and retail district along North Railroad Avenue, north of downtown, with its own directory and parking page. Pastis and Indaco are listed as coming soon on their own sites, so they aren't included until they open.",
+            places: [
+              {
+                name: "Loco Taqueria & Oyster Bar",
+                body: "The West Palm Beach location of a Boston taco shop, serving tacos, oysters and cocktails. The photo at the top of this page is its patio bar.",
+                bestFor: ["Tacos", "Oysters", "Evening out"],
+                area: "Nora District, 840 N. Railroad Ave.",
+                note: "It takes reservations through OpenTable and Resy, and its site lists late hours on Fridays and Saturdays.",
+                link: { label: "Loco Taqueria West Palm Beach", href: "https://www.locotacoshops.com/location/west-palm-beach/" },
+              },
+              {
+                name: "Del Mar",
+                body: "A Mediterranean restaurant focused on seafood, open for dinner and weekend brunch.",
+                bestFor: ["Mediterranean", "Dinner", "Weekend brunch"],
+                area: "Nora District, 1015 N. Railroad Ave.",
+                note: "It takes reservations. Check hours on its own site; the district directory's hours may differ.",
+                link: { label: "Del Mar West Palm Beach", href: "https://www.delmarmediterranean.com/west-palm-beach/" },
+              },
+              {
+                name: "Sunday Motor Co.",
+                body: "An automotive-themed café serving coffee and food from morning to mid-afternoon, with pickup ordering.",
+                bestFor: ["Coffee", "Breakfast"],
+                area: "Nora District, 805 N. Railroad Ave.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Sunday Motor Co. café", href: "https://www.sundaymotorco.com/pages/cafe" },
+              },
+              {
+                name: "Celis Juice Bar",
+                body: "Juice, smoothie bowls, coffee and café food.",
+                bestFor: ["Juice", "Daytime"],
+                area: "Nora District, 895 N. Railroad Ave.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Celis Juice Bar at The Nora", href: "https://www.celisjuicebar.com/locations-the-nora/" },
+              },
+              {
+                name: "Van Leeuwen Ice Cream",
+                body: "A scoop shop serving dairy and vegan ice cream, open into the evening.",
+                bestFor: ["Dessert", "After dinner"],
+                area: "Nora District, 870 N. Railroad Ave.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Van Leeuwen scoop shops", href: "https://www.vanleeuwenicecream.com/scoop-shops/" },
+              },
+            ],
+          },
+          {
+            id: "northwood-village",
+            title: "Northwood Village",
+            intro: "Northwood Village's own site keeps a directory of the district's restaurants and shops. It also lists Nights in Northwood Village, a free event it describes as quarterly, so check there for the next date.",
+            places: [
+              {
+                name: "Café Centro",
+                body: "A restaurant on North Dixie Highway that describes itself as upscale casual dining, with a happy hour menu and live music and entertainment.",
+                bestFor: ["Dinner", "Live music", "Happy hour"],
+                area: "Northwood Village, 2409 N. Dixie Hwy.",
+                note: "It takes reservations by phone and through OpenTable. Check its site for current entertainment.",
+                link: { label: "Café Centro", href: "https://cafecentrowpb.com" },
+              },
+              {
+                name: "Mestizo Fusion Cuisine",
+                body: "A Peruvian-inspired restaurant on Northwood Road, open for lunch and dinner.",
+                bestFor: ["Peruvian", "Lunch", "Dinner"],
+                area: "Northwood Village, 511 Northwood Road",
+                note: "It takes reservations through OpenTable. Check hours on its own site.",
+                link: { label: "Mestizo Fusion Cuisine", href: "https://www.mestizofusion.com" },
+              },
+              {
+                name: "Palm Beach Lobsters & Seafood",
+                body: "A seafood restaurant that describes itself as fisherman-owned, serving lobster, stone crab and local seafood, with seafood sold to take home.",
+                bestFor: ["Seafood", "Take-home"],
+                area: "Northwood Village, 2501 N. Dixie Hwy.",
+                note: "Check hours and ordering on its own site.",
+                link: { label: "Palm Beach Lobsters & Seafood", href: "https://www.palmbeachlobsters.com" },
+              },
+            ],
+          },
+          {
+            id: "clare-avenue",
+            title: "Caroline Station and Clare Avenue",
+            intro: "Caroline Station, at 1401 Clare Avenue, describes itself as the heart of the Warehouse District. It is on the block that housed Grandview Public Market, which has closed. Its directory lists current tenants, and some are marked coming soon.",
+            places: [
+              {
+                name: "Isla & Co.",
+                body: "An Australian-inspired restaurant and brunch spot at Caroline Station.",
+                bestFor: ["Brunch", "Casual dinner"],
+                area: "Caroline Station, 1401 Clare Ave.",
+                note: "Caroline Station's directory lists its hours and weekly specials. Its own page points readers to Google Maps for current hours.",
+                link: { label: "Isla & Co. West Palm Beach", href: "https://www.isla-co.com/west-palm-beach" },
+              },
+              {
+                name: "Jon Wine The Tasting Room",
+                body: "A wine tasting room and bar whose calendar lists trivia, comedy and music nights.",
+                bestFor: ["Wine", "Evening out"],
+                area: "Clare Avenue, 1605 Clare Ave.",
+                note: "It's closed some weekdays. Check hours and events on its own site.",
+                link: { label: "Jon Wine The Tasting Room", href: "https://jonwinestastingroom.com" },
+              },
+            ],
+          },
+          {
+            id: "bars-music",
+            title: "Taprooms, bars and live music",
+            intro: "Places that post their own hours or events. Programming changes week to week.",
+            places: [
+              {
+                name: "Garden District Taproom",
+                body: "A self-pour craft beer taproom on Evernia Street downtown. Its events page lists jazz nights and other live music.",
+                bestFor: ["Craft beer", "Live music"],
+                area: "Downtown, 410 Evernia Street, Suite 119",
+                note: "Check its events page for the current calendar.",
+                link: { label: "Garden District Taproom", href: "https://www.gardendistrictwpb.com" },
+              },
+              {
+                name: "Civil Society Brewing Co.",
+                body: "A brewery with an outdoor beer garden and rotating food trucks, and a weekly trivia night on its calendar.",
+                bestFor: ["Brewery", "Outdoor seating", "Trivia"],
+                area: "Kanuga Drive, 425 Kanuga Dr.",
+                note: "Check hours and the food truck schedule on its own site.",
+                link: { label: "Civil Society Brewing West Palm Beach", href: "https://civilsocietybrewing.com/west-palm-beach/" },
+              },
+              {
+                name: "Hullabaloo",
+                body: "A gastropub on Clematis Street serving house-made Italian food, cocktails and craft beer, open late, with Sunday brunch.",
+                bestFor: ["Late evening", "Drinks", "Sunday brunch"],
+                area: "Downtown, 517 Clematis Street",
+                note: "Check hours and events on its own site.",
+                link: { label: "Hullabaloo", href: "https://sub-culture.org/hullabaloo/" },
+              },
+              {
+                name: "Lost Weekend",
+                body: "A bar and pool hall on Clematis Street with arcade games, open late.",
+                bestFor: ["Pool", "Late night"],
+                area: "Downtown, 526 Clematis Street",
+                note: "Check hours on its own site.",
+                link: { label: "Lost Weekend", href: "https://sub-culture.org/lost-weekend/" },
+              },
+              {
+                name: "Clematis by Night",
+                body: "The City's outdoor concert series, held on Thursday evenings from 6 to 9 on the Great Lawn at Centennial Square, with a different band or theme each week.",
+                bestFor: ["Outdoor live music", "Thursday evening"],
+                area: "Downtown waterfront, 100 N. Clematis Street",
+                note: "The City posts each week's lineup and skips some holidays, including Thanksgiving.",
+                link: { label: "City of West Palm Beach: Clematis by Night", href: "https://www.wpb.org/Residents/Community-Events/Events/Clematis-by-Night" },
+              },
+            ],
+          },
+          {
+            id: "markets",
+            title: "Markets and specialty food",
+            intro: "Places to buy food to take home. Aioli and Palm Beach Meats, listed above, also sell take-home food.",
+            places: [
+              {
+                name: "West Palm Beach GreenMarket",
+                body: "The City's Saturday market on the downtown waterfront. The City says the 2026–27 season returns on Saturday, October 3.",
+                bestFor: ["Saturday morning", "Produce", "Prepared food"],
+                area: "Downtown waterfront, 100 N. Clematis Street",
+                note: "Last season ran from 8:30 a.m. to 1:30 p.m. Check the City's page for this season's hours, parking and any closed dates.",
+                link: { label: "City of West Palm Beach: GreenMarket", href: "https://www.wpb.org/Residents/Community-Events/Events/WPB-GreenMarket" },
+              },
+              {
+                name: "Eataly West Palm Beach",
+                body: "An Italian marketplace at CityPlace with restaurants, counters and cafés, a market, and cooking classes.",
+                bestFor: ["Italian groceries", "Casual meal", "Cooking classes"],
+                area: "CityPlace, 580 Hibiscus Street",
+                note: "Check hours, classes and table bookings on its own site.",
+                link: { label: "Eataly West Palm Beach", href: "https://www.eataly.com/us_en/stores/west-palm-beach" },
+              },
+            ],
+          },
+        ],
+      },
+    },
+    body: `## Choose by occasion
 
-Downtown is a separate scene with its own logic, and our sister site covers it properly: [CondoWPB.com's downtown dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb) and its [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) go block by block on the Clematis and CityPlace scene. If you're planning a night out downtown, start there.
+- **Coffee or a daytime meeting:** the coffee and bakery listings, plus Sunday Motor Co. and Celis Juice Bar in the Nora District.
+- **A weeknight dinner near home:** start with the section for your part of the city: South Dixie, the Nora District, Northwood Village or Clare Avenue. Several places open only on certain nights, so check hours first.
+- **A downtown evening:** Clematis Street and CityPlace. The links below lead to fuller downtown coverage.
+- **Live music:** Clematis by Night on Thursdays, and the calendars of the taprooms and bars listed above.
+- **Food to take home:** the GreenMarket in season, Eataly, and the butcher and bakery counters on South Dixie Highway.
+- **Shopping-center dining:** Tanger Palm Beach, at 1751 Palm Beach Lakes Boulevard, lists its food and drink tenants in its [directory](https://www.tanger.com/palmbeach).
 
-For everything else, here's the local rundown.
+## Downtown in brief
 
-## Breweries and the drinking scene outside downtown
+The [Downtown Development Authority](https://downtownwpb.com/explore/dining/) says downtown is home to more than 70 restaurants, and it keeps a directory of them. Clematis Street runs west from the waterfront at Flagler Drive, and CityPlace, centered on South Rosemary Avenue, keeps its own [restaurant directory](https://www.cityplace.com/west-palm-beach-restaurants).
 
-The independent brewery and taproom scene has grown steadily and mostly sits *outside* the downtown core, tucked into light-industrial and transitional pockets around the city.
+For block-by-block downtown planning, our sister site CondoWPB.com covers [downtown restaurants](https://www.condowpb.com/lifestyle/dining-downtown-wpb), [Clematis Street entertainment](https://www.condowpb.com/lifestyle/clematis-street-entertainment) and the [Nora District](https://www.condowpb.com/lifestyle/nora-district-dining) in more depth.
 
-That's a deliberate distinction worth knowing: the downtown bar scene is nightlife, while the neighborhood taprooms skew earlier, quieter, and more conversational. They're also considerably easier to park at, which for a lot of residents settles the question.
+## Getting there and parking
 
-A handful have become genuine neighborhood anchors, functioning as informal community spaces rather than just places to drink.
+- **Downtown garages and meters:** the City runs several downtown garages and posts current rates, including weekend and event rates, on its [parking rates page](https://www.wpb.org/Departments/Parking-Mobility-Administration/Rates-Payment).
+- **West Palm MOVE:** the City's fixed route runs north and south between the Norton Museum of Art and Northwood Village, with stops at downtown/Clematis and CityPlace. As of September 2026, [West Palm MOVE](https://www.wpbmove.com/) lists rides at $1, about every 10 minutes, until 9 p.m. Monday through Saturday and 8 p.m. on Sunday. App-booked on-demand rides are $2. Check the schedule before you count on a ride home after dinner.
+- **Elsewhere:** the Nora District posts its own parking information on its [website](https://www.norawpb.com/). For other areas, check the venue's site or call ahead.
+- **Event nights:** Clematis by Night and the GreenMarket bring extra visitors downtown. The City posts parking details on its event pages.
 
-## How the districts differ
+## Hours, reservations and seasons
 
-Worth understanding before you go looking, because West Palm's neighborhood dining isn't one scene — it's several, and they don't feel alike.
+Hours, menus and booking systems vary from place to place. Several of the listings take reservations through OpenTable, Resy or Tock, and others are counter-service. Some post shorter summer schedules, and several open only on certain nights. Check the venue's own site, linked in each listing, before you go.
 
-**The southern historic districts** lean toward established, quieter restaurants with a regular clientele. Reliable rather than trend-driven, and the sort of place you become a regular at.
+## What changed, and what isn't listed yet
 
-**Northwood** skews smaller, newer, and more owner-operated, with more turnover and more personality per square foot.
+- **Grandview Public Market has closed.** Earlier versions of this guide listed the food hall on Clare Avenue. Its old web address no longer leads to the market, and the block now operates as [Caroline Station](https://carolinestation.com/).
+- **Nora District openings are staggered.** Pastis and Indaco are listed as coming soon on their own sites, so they aren't in the guide yet.
+- **Respectable Street**, the Clematis Street music club, advertises a grand reopening on October 30, 2026 on its own site.
 
-**The Grandview and train-station area** is the most mixed — a food hall alongside independents, and the most likely to work for a group with different tastes.
+## How this list was put together
 
-**West of I-95** is convenience dining: chains, larger rooms, easy parking, lower prices.
+We started from the Downtown Development Authority and CityPlace directories, the Northwood Village, Nora District, Antique Row and Caroline Station sites, and the MICHELIN Guide's West Palm Beach listings. We kept only places whose own website showed current operation: posted hours, live ordering or reservations, or dated 2026 menus or events. The one exception is Isla & Co., whose current hours come from the Caroline Station directory. We checked every address against the City of West Palm Beach's parcel data, and left out places we couldn't confirm, including restaurants whose websites were for sale, parked, or showed a closure notice. There are no rankings, ratings or paid placements here.
 
-Knowing which of these fits your normal Tuesday is more useful than any single restaurant recommendation, because it determines where you'll actually end up eating for the next several years.
+## Next steps
 
-## Coffee and the morning routine
-
-A real part of daily life in the walkable neighborhoods, and one of the genuine advantages of living east of I-95.
-
-Independent coffee shops are scattered through the historic districts and the village cores, and in Grandview Heights, Flamingo Park, and Northwood, walking to one is realistic rather than aspirational. For anyone coming from a city with a café culture, this is the part of West Palm that feels most familiar.
-
-West of the highway that changes entirely — it's drive-through territory, and the difference is one of the clearer everyday distinctions between the two halves of the city.
-
-## Antique Row and South Dixie
-
-The most characterful eating in the city, and the least publicized.
-
-Scattered among the antique dealers and design showrooms are independent restaurants that have been there for years — the kind of places with a regular crowd, no particular interest in trends, and staff who recognize repeat customers. It's a low-key, neighborhood-meal district rather than a destination strip.
-
-For residents of El Cid, SoSo, and the southern historic neighborhoods, this is the default.
-
-## Grandview Public Market
-
-A food hall in a historic building near the train station, with independent stalls covering a genuinely wide range.
-
-It solves the group-that-can't-agree problem better than anywhere else in the city, and it's casual enough for a weeknight. Its position near the Brightline station also makes it the natural first or last stop around a train trip.
-
-## Northwood
-
-North of downtown, the village core has independent, owner-operated spots with real character and a creative crowd — cafés, small restaurants, and a handful of places that have anchored the neighborhood's revitalization.
-
-It's a different feel from both downtown and the southern districts: smaller, scrappier, and more personal.
-
-## The neighborhood staples
-
-Beyond the named districts, West Palm has what most Florida cities don't: **actual neighborhood restaurants** embedded in residential areas rather than clustered in commercial strips. Corner spots, family-run places, and long-running local institutions are scattered through the historic districts and out west.
-
-These rarely make lists, they're the ones residents name when asked where they *actually* eat, and finding the two or three near your house is one of the small pleasures of settling in.
-
-## Out west
-
-Past I-95 the dining shifts toward the familiar — chains, larger-format restaurants, and shopping-center dining, with easy parking and lower prices.
-
-Less character, considerably less hassle. For a weeknight with kids or a quick meal that doesn't involve a garage, it's what residents out there use.
-
-## How season changes things
-
-**November through April** the whole city gets busier, and the popular spots need reservations they don't need in summer. Downtown parking gets meaningfully harder, which is part of why the neighborhood places fill up too — locals avoid the center.
-
-**May through October** everything relaxes. You can walk into most places, and residents often say summer dining is the quiet reward for living here year-round.
-
-## Practical local advice
-
-- **Neighborhood dining sidesteps the parking problem**, which is a real reason residents default to it. Being able to park on the street outside is worth more than it sounds.
-- **Reservations in season** at anywhere popular, especially weekends.
-- **Dress code is relaxed** nearly everywhere outside the higher-end downtown rooms.
-- **Lunch is easier than dinner** at the busier places during season.
-- **Hours shift between season and summer**, and some independents reduce hours in the slowest months. Check before you drive.
-
-## The bigger picture
-
-West Palm has the deepest and most varied food scene in the county — that's simply a function of being the only real city — but the version most guides describe is the downtown version.
-
-The neighborhood version is the one you'll actually live in: closer to home, easier to park, cheaper, and more consistent. Find your two or three regulars in the first few months and the city starts to feel like yours.
-
-One last practical note: the neighborhood scene turns over faster than the downtown one, because the rents are lower and the operators are smaller. That churn is why it stays interesting, and also why a recommendation more than a year old is worth verifying.
-
-Hours, menus, and ownership change constantly. Check directly before you go.`,
+- **More to do:** our [things to do guide](/blog/best-things-to-do-in-west-palm-beach-florida) and the [hidden gems guide](/blog/hidden-gems-in-west-palm-beach-florida).
+- **Settling in:** the [local guide](/blog/local-guide-to-west-palm-beach-florida) covers services, parking and transit, and the [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) covers the historic districts near these restaurants.
+- **Northwood:** our [Northwood Village guide](/blog/northwood-village-west-palm-beach-neighborhood-guide) looks at the neighborhood's homes.
+- **Deciding on a move:** read [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida), the [Palm Beach County relocation guide](/palm-beach-county-treasure-coast-relocation-guide), and current listings on the [West Palm Beach community page](/communities/west-palm-beach).`,
     faqs: [
-      { q: "Where do locals eat in West Palm Beach?", a: "Away from downtown, residents rely on the independent restaurants scattered along Antique Row and South Dixie, the Grandview Public Market food hall near the train station, the independent spots in Northwood, and neighborhood restaurants embedded in the historic residential districts." },
-      { q: "What is Grandview Public Market?", a: "A food hall in a historic building near the Brightline station, with independent stalls covering a wide range of food. It works well for groups that can't agree, is casual enough for a weeknight, and is a natural stop around a train trip." },
-      { q: "Where should I eat in downtown West Palm Beach?", a: "Downtown is its own scene centered on Clematis Street and CityPlace, and our sister site CondoWPB.com covers it block by block in its downtown dining and Clematis Street entertainment guides." },
-      { q: "Is it hard to park for dinner in West Palm Beach?", a: "Downtown, yes — especially Thursday through Saturday and during season, when using a garage is the practical answer. Neighborhood dining largely sidesteps the problem, which is a real reason many residents default to it." },
-      { q: "Do you need reservations at West Palm Beach restaurants?", a: "During season, roughly November through April, yes at anywhere popular and especially on weekends. From May through October most places are walk-in friendly, and many residents consider summer dining one of the advantages of living here year-round." },
-      { q: "What is the dining like in west West Palm Beach?", a: "Past I-95 it shifts toward chains, larger-format restaurants, and shopping-center dining — less character but easy parking and lower prices. It's what residents out that way use for weeknight meals." },
+      { q: "Where are the main dining areas in West Palm Beach?", a: "Downtown, on and around Clematis Street and at CityPlace, has more than 70 restaurants by the Downtown Development Authority's count. Other areas with several restaurants include the Nora District on North Railroad Avenue, Northwood Village, South Dixie Highway including Antique Row, and Caroline Station on Clare Avenue. Shopping centers such as Tanger Palm Beach on Palm Beach Lakes Boulevard list their own food and drink tenants." },
+      { q: "Where can I find detailed coverage of downtown restaurants?", a: "The Downtown Development Authority keeps a directory of downtown restaurants, and CityPlace keeps its own. Our sister site CondoWPB.com covers downtown restaurants, Clematis Street entertainment and the Nora District in more depth." },
+      { q: "Is Grandview Public Market still open?", a: "No. The food hall on Clare Avenue has closed. The block now operates as Caroline Station, which lists its current food and drink tenants on its website." },
+      { q: "Where can I hear live music in West Palm Beach?", a: "The City holds Clematis by Night, an outdoor concert series, on Thursday evenings from 6 to 9 on the Great Lawn at 100 N. Clematis Street. It posts each week's lineup and skips some holidays. Several bars and taprooms also post event calendars, including Garden District Taproom downtown." },
+      { q: "Do I need reservations at West Palm Beach restaurants?", a: "It depends on the venue. Many sit-down restaurants in this guide take reservations through OpenTable, Resy or Tock, and others are counter-service. Check the venue's own site, since booking systems and hours change." },
+      { q: "Does West Palm Beach have a farmers market?", a: "The City runs the West Palm Beach GreenMarket on Saturdays in season on the downtown waterfront at 100 N. Clematis Street. The City says the 2026–27 season returns on October 3, 2026. Check its page for hours, parking and closed dates." },
+      { q: "How current is this dining list?", a: "Each place was checked on its own website on the review date shown on the page, and its address against the City of West Palm Beach's parcel data. Restaurants open, close and change hours, so confirm details before a visit." },
     ],
-    internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
-    funFact: "Clematis Street has been West Palm's social spine since the 1920s — the name comes from the Clematis vine that once grew along the waterfront. The weekly Clematis by Night live-music series has run since 1994 and is one of the longest-running free outdoor music events in South Florida.",
+    internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "northwood-village-west-palm-beach-neighborhood-guide"],
+    funFact: "If you're heading out without a car, look at the City's new West Palm MOVE fixed route before you choose a restaurant. It runs between the Norton Museum of Art and Northwood Village, with stops at Clematis Street and CityPlace, for $1 a ride. The catch is the hours: as of September 2026 it stops at 9 p.m. Monday through Saturday and 8 p.m. on Sunday, so plan the ride home before you book a late table.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-09-24',
+    updated: '2026-09-24',
   },
 
   {
