@@ -2833,124 +2833,188 @@ Hours, menus, and ownership change constantly. Check directly before you go.`,
     cityName: 'West Palm Beach',
     type: 'Neighborhood Spotlight',
     order: 11,
-    seoTitle: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (2026 Guide)',
-    metaTitle: 'Northwood Village West Palm Beach Homes | Neighborhood Guide',
-    metaDescription: 'Northwood Village is West Palm Beach\'s most underrated neighborhood — arts scene, walkable restaurants, monthly street festivals, and real affordability. Here\'s why buyers keep discovering it.',
+    seoTitle: 'Northwood and Northwood Village, West Palm Beach: A House-Buyer Guide',
+    metaTitle: 'Northwood Village West Palm Beach Homes: House-Buyer Guide',
+    metaDescription: 'Northwood and Northwood Village in West Palm Beach for house buyers: the historic districts, housing stock by the numbers, review rules and a buyer checklist.',
     primaryKeyword: 'Northwood Village West Palm Beach homes',
     secondaryKeywords: [
+      'Northwood West Palm Beach homes',
       'Northwood Village WPB',
-      'West Palm Beach affordable neighborhoods',
-      'Nights in Northwood Village',
-      'WPB arts district homes',
+      'Old Northwood historic district',
+      'Northwood Hills West Palm Beach',
       'West Palm Beach historic homes for sale',
     ],
-    h1: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (And Why Buyers Keep Discovering It)',
-    heroImage: '/images/west-palm-beach/nora-railroad-ave-sign-hero.webp',
-    heroImageAlt: "A 'Nora, North Railroad Ave, Est 2025' stamp painted on an old brick wall in the Nora district of West Palm Beach",
-    heroImageCaption: "The Nora district, on North Railroad Avenue just south of Northwood.",
-    heroImageCredit: 'Photo by John Oliver',
-    heroImageWidth: 2048,
-    heroImageHeight: 1152,
-    heroImagePosition: '50% 50%',
-    body: `This guide is about **buying a house in Northwood** — the bungalows, cottages, and early-twentieth-century homes that make up the neighborhood's residential core, and what it's actually like to own one.
+    h1: 'Northwood and Northwood Village, West Palm Beach: A House-Buyer Guide',
+    body: `This guide is for researching a **house** in the Northwood area of West Palm Beach. It explains what the local names mean, what City records show about the housing stock, how historic review works, and what to check before you tour or make an offer. It doesn't rank the area or suggest who it suits.
 
-Northwood also has a condo and loft market, and that's covered in depth on our sister site: [CondoWPB.com's Northwood guide](https://www.condowpb.com/neighborhoods/northwood) goes through the buildings, the fees, and the unit-level detail. If a condo is what you're after, start there. This page is for the houses.
+For condominiums, our sister site [CondoWPB.com](https://www.condowpb.com/) covers West Palm Beach condo buildings. This page covers houses only.
 
-## What Northwood actually is
+## Northwood, Northwood Village and the Nora District
 
-A historic neighborhood north of downtown West Palm Beach, built out largely in the 1920s and 30s, with a small commercial village core surrounded by residential streets.
+These three names are often used loosely. They mean different things, and none of them is a legal description of a property.
 
-For decades it was overlooked. Over the past twenty years it has drawn artists, small-business owners, and buyers priced out of the southern historic districts, and the result is a neighborhood mid-transition — genuinely charming in stretches, still uneven in others, and considerably more affordable than El Cid or Flamingo Park.
+- **Northwood** is an informal name for the older residential area north of downtown. The City doesn't map a single "Northwood" neighborhood boundary. It does map local historic districts, and six of them are in this area: Old Northwood, Northwood Hills, Northwood Harbor, Northboro Park, West Northwood and Northwood Road. Many nearby houses sit outside all six.
+- **Northwood Village** is the commercial core around Northwood Road and nearby blocks of North Dixie Highway. The City's Community Redevelopment Agency (CRA) maps it as one of five subareas of its [Northwood/Pleasant City CRA District](https://www.wpb.org/Departments/Community-Redevelopment-Agency/NorthwoodPleasant-City), which the City says covers about 459 acres in the northern part of the city. The other four subareas are Pleasant City, the Broadway Corridor, the Currie Corridor and an industrial area.
+- **The Nora District** is a separately branded dining and retail district along North Railroad Avenue, north of downtown. In the City's GIS, its restaurant block at 840 N. Railroad Avenue falls inside the Downtown Development Authority boundary, and neither that block nor the Nora Hotel site at 1135 N. Railroad Avenue is in the Northwood/Pleasant City CRA District. It is about a mile south of Northwood Road in a straight line.
 
-That combination is the whole proposition. You're buying character and location at a discount, and accepting that the neighborhood isn't finished.
+To confirm where a specific house sits, use its parcel record and the City's maps, not a listing's neighborhood label.
 
-## The housing stock
+## Area summary
 
-This is the part that matters most for a buyer.
+| Topic | Records show | Check |
+|---|---|---|
+| Setting | North of downtown | Parcel map |
+| Houses | Mostly pre-1950 | Year built |
+| Review | 6 local districts | COA rules |
+| Shops | Northwood Road | Directory |
+| Transit | MOVE route | Schedule |
+| Water | Flagler Drive | Flood zone |
 
-**Mission and Mediterranean Revival cottages** from the 1920s, with barrel-tile roofs, arched openings, and original detail where it survived. **Frame vernacular bungalows** with porches and wood siding. A scattering of **mid-century infill** and a smaller number of newer builds on previously vacant lots.
+What each row means, and what to verify before touring or offering:
 
-**Objective characteristics:** small-to-modest lot sizes, homes generally under 2,000 square feet, original 1920s construction predominating, alley access on many blocks, mature street trees in the established sections, a wide condition range from untouched to fully restored.
+- **Setting:** the area sits north of downtown West Palm Beach. On the [Palm Beach County Property Appraiser](https://www.pbcpao.gov/) site, a parcel control number starting with **74** is in the City of West Palm Beach.
+- **Houses:** in each of the five residential historic districts, most single-family houses in the City's parcel data were built before 1950. The details are in the next section. Check the year built and the permit history for the specific house.
+- **Review:** exterior work on a property in a local historic district goes through the City's Certificate of Appropriateness (COA) process. What's reviewed, and by whom, depends on the property and the work.
+- **Shops:** the Northwood Road historic district is commercial. In the City's parcel data, 27 of its 40 parcels are classified as stores.
+- **Transit:** the City's West Palm MOVE fixed route runs between Northwood Village and the Norton Museum of Art.
+- **Water:** Northwood Harbor and Northboro Park include parcels on North Flagler Drive, the road along the Lake Worth Lagoon. Check the flood zone and elevation for the specific parcel.
 
-**What that means practically:** you are buying a house that is roughly a century old. Roof, plumbing, electrical, and windows are the four things that will determine both your insurance premium and your renovation budget, and they vary enormously property to property even on the same block.
+## The housing stock, by the numbers
 
-## The block-to-block reality
+The City's parcel layer carries the Property Appraiser's property-use class and year built. We counted single-family parcels whose centers fall inside each district, using data retrieved on September 23, 2026.
 
-Northwood is the clearest example of something true across West Palm Beach, and it deserves stating plainly: **quality and condition vary meaningfully within short distances here.**
+| District | Houses | Median built |
+|---|---|---|
+| Old Northwood | 316 | 1937 |
+| Northwood Hills | 568 | 1949 |
+| Northwood Harbor | 249 | 1948 |
+| Northboro Park | 95 | 1942 |
+| West Northwood | 20 | 1938 |
 
-Some streets are largely restored, with consistent upkeep and long-term owners. Others are mid-transition, with restored homes next to properties that haven't been touched in decades. That variation is precisely why the pricing is what it is.
+What else the same data shows:
 
-None of that is a reason to avoid the neighborhood. It is a reason to do something specific: **walk the actual block you're considering, at more than one time of day, including after dark and on a weekend.** Drive-by research and zip-code statistics are not adequate here. Buyers who do the walking consistently do well in Northwood; buyers who don't sometimes get a surprise.
+- **Construction years** across these five districts run from 1915 to 2025. The share of houses built before 1950 ranges from 52% in Northwood Hills to 71% in Old Northwood. Newer houses exist too: 14 single-family parcels in Northwood Hills and 7 in Old Northwood show a year built of 2000 or later.
+- **Lot sizes:** the median single-family lot runs from about 5,250 square feet in Northwood Harbor to about 6,700 in Old Northwood. In the three largest districts, the middle half of lots falls between roughly 5,100 and 7,600 square feet.
+- **Not only houses:** Northwood Harbor has 92 parcels classified as small multifamily (fewer than five units), about a quarter of its parcels. The Northwood Road district is commercial.
+- **Architectural styles:** the City's historic-structures layer labels each building's style. No single style is a majority in any residential district. Among contributing structures, the most common labels are Mission Revival (about a third in Old Northwood and in Northwood Hills), Minimal Traditional (about a third in Northwood Harbor) and Masonry Vernacular (the largest group in Northboro Park). Frame Vernacular, Mediterranean Revival, Bungalow and Ranch also appear.
 
-## Historic designation and what you can change
+These are district-level figures. They don't describe any single house. House size, alley access, lot shape and condition vary by property, so use the Property Appraiser record, a survey and an inspection for the one you're considering. Roof, plumbing, electrical, windows and past work are property-specific questions for your inspector and insurer, not something district data can predict.
 
-Parts of Northwood fall within historic designation, which affects what you may alter on a building's exterior — windows, roofing materials, additions, and in some cases paint.
+## Historic districts and what review covers
 
-This is a genuine double-edged item. It's what preserves the architectural character that makes the neighborhood worth buying into, and it's a real constraint if you arrive with renovation plans that assume you can do whatever you like.
+The City says it has 18 locally designated historic districts and 46 individually designated sites. Its [historic preservation program](https://www.wpb.org/Departments/Development-Services/Planning-Division/Historic-Preservation) reviews exterior work in them. In its historic-structures layer, the City classifies each building as contributing or noncontributing to its district. Some are still marked "to be determined."
 
-**Confirm the specific designation status of the specific property before you budget a renovation.** A plan that's straightforward on one block may require review three streets over.
+| District | Contributing | Non-contributing |
+|---|---|---|
+| Old Northwood | 465 | 100 |
+| Northwood Hills | 652 | 90 |
+| Northwood Harbor | 364 | 109 |
+| Northboro Park | 153 | 21 |
+| West Northwood | 20 | 13 |
+| Northwood Road | 27 | 11 |
 
-## Renovation, honestly
+These counts are existing structures in the City's layer that touch each district, excluding sheds and canopies, retrieved September 24, 2026. A single parcel can have more than one structure. Look up a specific property on the City's [Historic Property Search map](https://map.viewprogis.com/ecp/wpb-fl?widget=95e563c4-5dec-4eb5-8e83-bed85e3304f6).
 
-Northwood is one of the more active renovation markets in the city, and there's genuine value-add opportunity remaining. A few things buyers should go in knowing:
+What the City's own guidance says, as of September 2026:
 
-- **Permit history matters.** Unpermitted work is common in older stock and becomes your problem at resale. Pull the history.
-- **Insurance is the gating item.** Get real quotes during your inspection period. An older roof or certain vintage electrical and plumbing can make a property difficult to insure at a sane price, which affects financing.
-- **Original detail is worth preserving**, both for character and for value. Restored period homes here command a real premium over gut-renovated ones that lost their character.
-- **Budget for surprises.** Century-old houses reveal things. Buyers who leave a contingency do fine; buyers who spend their whole budget on the purchase struggle.
+- **A Certificate of Appropriateness is required for work that changes the exterior.** The City doesn't review interior remodeling, and it doesn't regulate paint colors.
+- **The level of review depends on the scope of work.** The City's COA approval matrix sorts work into permit review, staff review and Historic Preservation Board approval. Both contributing and noncontributing properties are reviewed, on all sides of the building.
+- **Additions:** the City's FAQ says additions visible from the front that are under 10% of the existing footprint, and those not visible from the front that are under 20%, generally need only staff review. Larger work can go to the Board, which meets on the fourth Tuesday of each month.
+- **Materials depend on the building's style.** For example, the City's guidance says a metal roof may suit a Craftsman, bungalow or frame vernacular house but not a Mission, Mediterranean or Ranch house. It also says vinyl windows and vinyl fences are generally not permitted in historic districts.
+- **Demolition** of a building in a historic district needs Board review, and the City says contributing buildings are generally not approved for demolition.
+- **Yards:** landscaping isn't subject to historic review, but fences, site walls, decks, patios, pergolas and sheds are reviewed by staff.
+- **Tax exemption:** the City describes an ad valorem exemption on qualifying improvements to historic properties for up to ten years. It must be applied for before work starts.
 
-## Who's been buying here
+Old Northwood and Northboro Park also have National Register of Historic Places district listings, whose boundaries may not match the local districts exactly. The [National Park Service](https://www.nps.gov/subjects/nationalregister/faqs.htm) explains that listing alone doesn't restrict what private owners do with their property using private funds. The City's local designation is what triggers local review.
 
-Useful context for judging where the neighborhood is heading.
+Before you budget exterior work, talk to the City's Planner on Call at (561) 822-1461 about the specific address and plan.
 
-The buyer mix has shifted noticeably over the past two decades — from almost entirely long-term local owners toward a blend that includes renovators, small-business owners, artists, and buyers priced out of the southern historic districts. A meaningful share are people who wanted El Cid or Flamingo Park and found Northwood offered comparable architecture for less.
+## How individual properties differ
 
-That inflow is what's driven the restoration activity, and it's also why condition varies so much: the neighborhood is partway through a change rather than finished with one.
+Two houses on the same street can differ in ways that matter for your purchase:
 
-## The village core
+- **Age and condition,** including which systems have been replaced and when.
+- **Historic status:** in a district or not, and contributing or noncontributing.
+- **Permitted work:** whether past changes show up in City permit records.
+- **Lot configuration:** size, shape, driveway and parking, and any alley.
+- **Adjacent land uses:** commercial streets, the Broadway corridor, the CRA's industrial subarea, and approved projects. The City's CRA says construction on The District at Northwood, a mixed-use project at the west end of Northwood Village, began in February 2024. The CRA says it will extend Broadway from Northwood Road to 23rd Street and realign Pinewood Avenue.
+- **Routes:** the streets, sidewalks and transit stops you would actually use.
 
-The small commercial stretch gives the neighborhood something most residential districts lack: somewhere to walk to. Independent cafés, galleries, and small restaurants, with a creative, owner-operated character that's distinct from both downtown and the southern historic districts.
+Visit the property, and the routes you'd use, at the times that match your own routine.
 
-It's modest in scale. But being able to walk to coffee is a genuine part of the appeal, and it's a large reason the neighborhood has held its momentum.
+## Northwood Village: what's there
 
-## Location and getting around
+The [Northwood Village website](https://northwoodvillage.com/), linked from the City's CRA pages, keeps a directory of the district's businesses. It groups them into shops (art and antiques, fashion, home décor, specialty), dining (bars and nightlife, global cuisine, cafés and sweets) and services (beauty and wellness, building and renovation, creative and design, professional services). It also has a parking and directions page.
 
-North of downtown, which puts the city center within a short drive and the Brightline station accessible for trips to Fort Lauderdale, Miami, or Orlando. President Donald J. Trump International Airport is close. The Palm Beach island beaches are a short drive across the bridge.
+Restaurants we checked on their own websites on September 24, 2026 include Café Centro and Palm Beach Lobsters & Seafood on North Dixie Highway and Mestizo Fusion Cuisine on Northwood Road. Our [West Palm Beach dining guide](/blog/best-places-to-eat-drink-hang-out-in-west-palm-beach-florida) lists them with details.
 
-You will drive for most things, though less than in the suburbs.
+The district's site describes Nights in Northwood Village as a free, quarterly event. Its 2026 posts cover editions in March and June, so check there for the next date.
 
-## Who Northwood suits
+Nearby on North Flagler Drive, the City has closed [Currie Park](https://www.wpb.org/Departments/Parks-Recreation/Parks-Facilities/Currie-Park) for a redevelopment project. Check the City's page for its current status.
 
-**Buyers who want historic character and can't reach El Cid or Flamingo Park pricing.** This is the main story, and it's a real opportunity.
+## Getting around
 
-**Renovators.** One of the few local markets with genuine work-to-be-done and upside remaining.
+- **West Palm MOVE:** the City's fixed route runs north and south between Northwood Village and the Norton Museum of Art, with stops at downtown/Clematis and CityPlace. As of September 2026, [West Palm MOVE](https://www.wpbmove.com/) lists rides at $1, about every 10 minutes, from 6 a.m. to 9 p.m. on weekdays, 8 a.m. to 9 p.m. on Saturday and 8 a.m. to 8 p.m. on Sunday. App-booked on-demand rides are $2.
+- **Distance to downtown:** Northwood Road is about 1.5 miles in a straight line from the east end of Clematis Street, measured between City parcel centers. Travel time depends on your route and the time of day.
+- **Other trips:** check the specific routes and schedules you'd rely on, including Palm Tran bus service, from the address you're considering.
 
-**People who want a neighborhood with an identity.** Northwood has a distinct creative character that the newer suburbs don't and can't manufacture.
+## Property and location priorities to evaluate
 
-**Less suited to:** buyers who want turnkey and predictable, want new construction, or aren't comfortable doing street-level diligence before committing.
+Instead of asking whether the area "fits," weigh the specific property against your own priorities:
 
-## Before you buy
+- How much historic review you're prepared to go through for the exterior changes you have in mind.
+- The age and condition of the house's major systems, and your budget and timeline for any work.
+- Lot size, parking and outdoor space.
+- Flood zone, elevation and insurance cost for the specific parcel.
+- What's next to the property now, and what's approved nearby.
+- How you'd reach work, errands and services, by car, on foot, or on transit.
 
-Walk the block at different times. Pull the permit history. Get insurance quoted on the specific property during your inspection period. Confirm historic designation status before planning any exterior work. And check the school assignment for the address rather than the neighborhood — it varies more than people expect across this part of the city.
+## Before-you-buy checklist
 
-Independently verify anything material to your decision, and see the property in person more than once.`,
+This is a list of due-diligence steps, not legal, tax, insurance, construction or investment advice. Consult the appropriate licensed professionals for your situation.
+
+1. **Confirm the parcel, jurisdiction and designation.** Look up the parcel on the [Property Appraiser](https://www.pbcpao.gov/) site (a number starting with 74 is the City of West Palm Beach), then check the City's Historic Property Search map for district and contributing status.
+2. **Review permits and inspection findings together.** The City's [Development Services records](https://www.wpb.org/Departments/Development-Services/Development-Services-Records) office holds permitting records and takes requests through its online portal. Compare what's on file with what your inspector finds.
+3. **Get insurance and flood information for the actual property.** Check the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) and the City's [flood information page](https://www.wpb.org/Departments/Development-Services/Flood-Information), and get insurance quotes during your inspection period.
+4. **Confirm parking, access, utilities and zoning,** and look for approved development nearby, including the CRA's project pages.
+5. **Review taxes** on the Property Appraiser record and with the [Tax Collector](https://www.pbctax.gov/). Taxes can change after a sale, so estimate your own bill instead of relying on the seller's.
+6. **Plan exterior work with the City first.** Ask the Planner on Call how your plans would be reviewed before you commit to a budget.
+7. **Check school assignment directly,** if it matters to you, with the School District of Palm Beach County's [Find My School](https://www.palmbeachschools.org/district-b8/find-my-school) address lookup. Boundaries can change.
+8. **Visit the property and the routes you'd use** at the times that match your routine.
+
+## Where the numbers come from
+
+Parcel counts, years built and lot sizes come from the City of West Palm Beach's parcel layer, which carries Property Appraiser data. District boundaries come from the City's historic district layer, and contributing status and style labels from its historic-structures layer. CRA subareas come from the City's CRA layers. All were retrieved September 23–24, 2026. Counts can shift as records are updated.
+
+## Related reading
+
+- The [West Palm Beach neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) compares the city's other historic districts.
+- [What it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida) covers the city as a whole.
+- The [local guide](/blog/local-guide-to-west-palm-beach-florida) covers services, parking and transit.
+- The [cost of living guide](/blog/cost-of-living-in-west-palm-beach-florida) covers taxes, utilities and insurance.
+- [West Palm Beach vs nearby cities](/blog/west-palm-beach-vs-nearby-cities) compares other towns.
+- Current listings are on the [West Palm Beach community page](/communities/west-palm-beach).`,
     faqs: [
-      { q: "Is Northwood a good place to buy a house in West Palm Beach?", a: "It offers historic character and proximity to downtown at pricing below El Cid and Flamingo Park, which is its main appeal. It's a neighborhood mid-transition, so condition and upkeep vary meaningfully block to block — walking the specific street at different times of day is essential before committing." },
-      { q: "What kind of homes are in Northwood?", a: "Mostly 1920s and 30s construction — Mission and Mediterranean Revival cottages with barrel-tile roofs and arched openings, and frame vernacular bungalows with porches. Lots are modest, homes are generally under 2,000 square feet, and there's some mid-century infill and newer building on formerly vacant lots." },
-      { q: "Is Northwood a historic district?", a: "Parts of Northwood carry historic designation, which affects what you may change on a building's exterior — windows, roofing materials, additions, and sometimes paint. Confirm the designation status of the specific property before budgeting any renovation, since requirements vary within the neighborhood." },
-      { q: "What should I check before buying a house in Northwood?", a: "Walk the block at multiple times of day including after dark, pull the property's permit history since unpermitted work is common in older stock, get insurance quoted during your inspection period, and confirm historic designation status before planning exterior work." },
-      { q: "Are there condos in Northwood?", a: "Yes, Northwood has a condo and loft market alongside its houses. Our sister site CondoWPB.com covers those buildings in depth, including fees and unit-level detail — this guide focuses on the single-family housing stock." },
-      { q: "Is Northwood walkable?", a: "The village core gives the neighborhood a small commercial stretch with independent cafés, galleries, and restaurants within walking distance of the residential streets, which is a genuine part of its appeal. For most other errands you'll drive, though less than in the suburbs." },
+      { q: "What is the difference between Northwood, Northwood Village and the Nora District?", a: "Northwood is an informal name for the older residential area north of downtown West Palm Beach. The City doesn't map it as one neighborhood, but it does map six local historic districts there. Northwood Village is the commercial core around Northwood Road, and one of five subareas of the City's Northwood/Pleasant City CRA District. The Nora District is a separate commercial district along North Railroad Avenue, about a mile to the south and outside that CRA district." },
+      { q: "What kinds of houses are in Northwood?", a: "In City parcel data for the five residential historic districts, most single-family houses were built before 1950, with median years built from 1937 to 1949 and some houses built since 2000. Median lots run from about 5,250 to 6,700 square feet. Mission Revival, Minimal Traditional and Masonry Vernacular are the most common style labels in the City's records, and no single style is a majority. Check the specific house's record, survey and inspection." },
+      { q: "Which parts of Northwood are historic districts?", a: "Six City historic districts are in the area: Old Northwood, Northwood Hills, Northwood Harbor, Northboro Park, West Northwood and Northwood Road. Old Northwood and Northboro Park also have National Register listings. Many nearby properties are outside all six, so check the specific address on the City's Historic Property Search map." },
+      { q: "Do I need City approval to change a house in a Northwood historic district?", a: "Exterior changes need a Certificate of Appropriateness. Depending on the scope, that means permit review, staff review or Historic Preservation Board approval. The City doesn't review interior remodeling or regulate paint colors. Material rules depend on the building's style, so talk to the City's Planner on Call at (561) 822-1461 about the specific plan." },
+      { q: "What transit serves Northwood Village?", a: "The City's West Palm MOVE fixed route runs between Northwood Village and the Norton Museum of Art, with stops at downtown/Clematis and CityPlace. As of September 2026, rides cost $1 and run about every 10 minutes, with shorter hours on weekends. Check wpbmove.com for current schedules." },
+      { q: "What should I check before buying a house in Northwood?", a: "Confirm the parcel's jurisdiction and historic status, review City permit records against your inspection, get flood and insurance information for the actual property, review taxes with the Property Appraiser and Tax Collector, confirm school assignment with the district if it matters to you, and visit the property and the routes you'd use at the times that match your routine." },
+      { q: "Where can I research condos in the Northwood area?", a: "This guide covers houses. Our sister site CondoWPB.com covers West Palm Beach condo buildings." },
     ],
     internalLinks: [
       'best-neighborhoods-in-west-palm-beach-florida',
       'what-its-really-like-living-in-west-palm-beach-florida',
       'local-guide-to-west-palm-beach-florida',
+      'cost-of-living-in-west-palm-beach-florida',
+      'west-palm-beach-vs-nearby-cities',
     ],
-    funFact: "Northwood Village's art scene grew organically in the 2000s when artists priced out of Wynwood in Miami started finding cheap studio space in the historic storefronts along North Dixie. The monthly Art Walk has run continuously since 2003 — predating the Wynwood Walls by several years.",
+    funFact: "Before you plan a renovation here, open the City's Historic Property Search map and click the building itself. The City marks each structure in its historic districts as contributing or noncontributing, and a contributing building is generally not approved for demolition. In Old Northwood, the City's layer lists 465 contributing structures and 100 noncontributing.",
     author: 'john',
     published: true,
-    updated: '2026-06-02',
+    publishedDate: '2026-09-24',
+    updated: '2026-09-24',
   },
 
   // ===================== DELRAY BEACH =====================
