@@ -131,3 +131,12 @@ untouched and the gallery wiring in `communities.ts` is unchanged.
 The festival frames show crowds and artists at a public event. They are editorial, in an article
 about that event, and no one is the subject of any frame. `local-oceanwalk-bennys-plaza.jpg` stays
 out, for the reason recorded above.
+
+### Second pass — 2026-09-24
+
+4:3 cuts of two portrait festival frames, for articles that had no in-body image:
+
+- `inline-festival-lake-avenue.jpg` — `local-street-painting-lake-avenue.jpg`, `extract({left:0, top:150, width:1536, height:1152})`. #6 pros and cons, downtown activity.
+- `inline-festival-sea-turtle.jpg` — `local-street-painting-sea-turtle-panel.jpg`, `extract({left:0, top:500, width:1536, height:1152})`. #5 who should move.
+
+Every frame in this folder is now in use somewhere. #2, #3, #7 and #9 still have no in-body image, because nothing owned fits them without repeating a frame. The shoot list under "Still needed" above is what would fill them.

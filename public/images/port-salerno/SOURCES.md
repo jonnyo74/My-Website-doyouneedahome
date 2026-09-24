@@ -265,3 +265,12 @@ every candidate had mountains on the horizon.
 - `local-pocket-river-view.jpg` (boatyard, travel lift) is now also inline in "The Working Waterfront"
   on `manatee-pocket-guide`. `local-manatee-pocket-hero.jpg` is now also inline in "The Manatee Pocket
   Mooring Field" on `rocky-point-stuart-florida`.
+
+### Second pass — 2026-09-24
+
+Two more frames from the `Jupiter Intracoastal` shoot, used as subject illustration only on `waterfront-homes-port-salerno-buyers-guide` and never captioned as Port Salerno:
+
+- `local-dock-pilings-waterway.jpg` (IMG_1289): "Measure the Depth at the Dock".
+- `local-boat-lift-seawall.jpg` (IMG_1299): "Verify Dock and Boat-Lift Permits".
+
+`local-manatees-inline.jpg` is now also in "The water" on `port-salerno-vs-stuart`.

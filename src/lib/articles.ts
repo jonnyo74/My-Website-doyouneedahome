@@ -3017,8 +3017,6 @@ Clients who only ever saw February often underestimate how long the summer is. T
 
 A lot of Florida towns claim an arts scene. Delray's is substantial enough to shape the calendar — a downtown arts district, working galleries and studios, a civic arts campus, murals, and a run of festivals and events that keeps something happening most weeks.
 
-![A two-story downtown building painted with a large pineapple mural in blue, pink and yellow](/public/Delray%20Beach/delray-beach-pineapple-mural.jpg "Murals are part of the streetscape downtown, not just the galleries.")
-
 There's also depth to the history that newcomers rarely see at first. The West Settlers area, west of Swinton Avenue, carries the story of Delray Beach's first African-American settlement, established in 1894. And south of Delray, in what is now northern Boca Raton, Japanese settlers founded the Yamato Colony in the early 1900s; its regional legacy is preserved today at the Morikami Museum and Japanese Gardens. Both are properly part of the area's story rather than footnotes to it, and the Morikami is covered in our [guide to what's worth doing](/blog/best-things-to-do-in-delray-beach-florida).
 
 ## The growth argument
@@ -3509,6 +3507,8 @@ This guide sets out the location characteristics, the property questions, and th
 
 "Delray Beach" on a listing isn't a single place. The western Delray mailing area includes both City of Delray Beach neighborhoods and unincorporated Palm Beach County communities, so "West Delray" is neither one jurisdiction nor the same thing as the City. Check the county's [municipal boundary maps](https://discover.pbcgov.org/pzb/Maps/Boundary-Maps.aspx) for the exact address.
 
+![A lavender three-story condominium building with white balconies and covered parking beneath](/public/Delray%20Beach/delray-beach-lavender-condo-inline.jpg "Smaller condominium buildings have their own budgets, reserves and rules to read before you commit.")
+
 Some communities in that area have age restrictions, club memberships, HOA or condominium fees, or other eligibility requirements. Before relying on an address, verify:
 
 - **Governing documents** — the declaration, bylaws, rules, and any eligibility or age-restriction provisions for that exact community.
@@ -3609,6 +3609,8 @@ So rather than two lists that cancel out, here's what you're buying, what you ma
 **A beach without a commercial strip.** About 1.5 miles of municipal beach, with no commercial strip on the sand and no high-rise wall behind it. Check the City's [beach information](https://www.delraybeachfl.gov/Home/Components/FacilityDirectory/FacilityDirectory/64/194) for current conditions, parking and hours.
 
 **Different property options in one area.** Property options can differ significantly between the coast, downtown-adjacent blocks, and the western Delray mailing area. Before relying on taxes, utilities, permitting, policing, school assignment, or community rules, verify the municipality and service providers for the exact address — some addresses with a Delray Beach mailing address are in unincorporated Palm Beach County. The county's [municipal boundary maps](https://discover.pbcgov.org/pzb/Maps/Boundary-Maps.aspx) and [list of municipalities](https://discover.pbcgov.org/pages/municipalities.aspx) are the places to start. School assignment depends on the address, so confirm it with the school district rather than a general area label.
+
+![A street of newer two-story coastal-style homes with white picket fences, brick driveways and street lamps](/public/Delray%20Beach/delray-beach-new-homes-street-inline.jpg "Newer coastal-style construction sits a short drive from older cottages and condos.")
 
 **Culture downtown.** An arts district, the historic Old School Square campus, murals, galleries, and a downtown events calendar; the Morikami Museum and Japanese Gardens is west of town.
 
@@ -3842,6 +3844,8 @@ Delray Oaks Natural Area is a 25-acre Palm Beach County natural area at 2021 SW 
 
 For the murals and public art downtown, the Downtown Development Authority publishes the Delray Art Trail, a self-guided route through murals, sculptures, galleries and installations. It's easiest on foot, and cooler earlier in the day.
 
+![A two-story downtown building painted with a large pineapple mural in blue, pink and yellow](/public/Delray%20Beach/delray-beach-pineapple-mural.jpg "One of the murals downtown. The Art Trail maps the rest.")
+
 *Before you go:* [Delray Art Trail](https://downtowndelraybeach.com/go/delray-art-trail)
 
 ## Silverball Retro Arcade
@@ -3943,6 +3947,8 @@ Boynton Beach is directly north of Delray.
 ## Western Delray and western Boynton mailing-area communities
 
 West of I-95, the Delray Beach and Boynton Beach mailing areas include both city neighborhoods and unincorporated Palm Beach County communities, many of them planned or gated communities along the same arterial roads.
+
+![The Hooky entertainment building at Delray Marketplace, with a marquee reading Movies, Bowling, Food, Games, More and an IMAX sign](/public/Delray%20Beach/delray-marketplace-hooky-marquee-inline.jpg "Delray Marketplace, in unincorporated Palm Beach County at Atlantic Avenue and Lyons Road.")
 
 Some communities have age-restriction or membership eligibility rules. Confirm the governing documents, eligibility requirements, fees, transfer terms, and service jurisdiction for the exact community.
 
@@ -8544,6 +8550,8 @@ The City also lists six local historic districts, where exterior changes go thro
 - **You'll do parcel-level homework** on historic-review status, flood exposure, insurance, roof age, permits, parking and utilities.
 - **Transit or walking matters to you**, and you'll test your own route and schedule. The city has a Tri-Rail station, and parts of it are close enough to downtown to walk.
 
+![A painted sea turtle panel on an easel at the Street Painting Festival, with a mural on the building behind it](/images/lake-worth-beach/inline-festival-sea-turtle.jpg "The arts calendar is part of daily life here, not a once-a-year visit.")
+
 ## You may prefer a different type of community if…
 
 - **A newer home, a builder's warranty and uniform systems** are high priorities. Newer single-family housing is a small share of the city's stock.
@@ -8684,6 +8692,8 @@ Flood exposure, wind exposure and insurance cost depend on the parcel, the build
 ## Downtown activity, parking and architectural variety
 
 These come up in every conversation about Lake Worth Beach. They're real, but they vary by block, so observe them yourself.
+
+![Crowds along Lake Avenue during the Street Painting Festival, chalk panels covering the closed street](/images/lake-worth-beach/inline-festival-lake-avenue.jpg "Downtown at full volume: Street Painting Festival weekend on Lake Avenue.")
 
 - **Evening activity.** Downtown has restaurants, bars and venues, and the City closes streets for events such as the Street Painting Festival. Visit the specific block on a weekend night, and check the City's events calendar for closures.
 - **Parking.** The City meters parking downtown, at the beach and in parks, with enforcement it lists as 24/7, and it has downtown residential permit spaces. Check the survey for off-street parking, and ask the Parking Division what applies on the block.
@@ -19011,6 +19021,8 @@ Never assume that a nearby home has the same setup.
 
 [Jonathan Dickinson State Park](/blog/best-things-to-do-in-hobe-sound-florida) is one of the defining features of the area. The park offers hiking, biking, camping, kayaking, wildlife viewing and access to the Loxahatchee River.
 
+![A covered pavilion on a wooden deck over the Indian River Lagoon at Peck Lake Park](/images/hobe-sound/local-peck-lake-pavilion-deck.jpg "The deck at Peck Lake Park, on the lagoon.")
+
 The nearby Nathaniel P. Reed Hobe Sound National Wildlife Refuge provides protected coastal habitat and public beach access, while additional preserves and natural areas can be found throughout northern Palm Beach and southern Martin counties.
 
 These natural surroundings are not simply attractions for visitors. They are a major reason many people choose to live in Hobe Sound.
@@ -19187,6 +19199,8 @@ Other considerations may include road access, drainage, flood zones, environment
 
 Mainland Hobe Sound has a limited selection of waterfront properties along canals and the Intracoastal Waterway.
 
+![Calm lagoon water edged by mangroves under a blue sky with cumulus clouds](/images/hobe-sound/local-peck-lake-lagoon-mangroves.jpg "The lagoon at Peck Lake, on the mainland side of the Intracoastal.")
+
 These homes may offer docks, water views and boating access, but buyers should not assume that every waterfront property provides the same boating experience.
 
 Important questions include:
@@ -19349,6 +19363,11 @@ Managed by The Nature Conservancy, the preserve protects a distinctive stretch o
 
 ![Undercut Anastasia limestone ledge above the Atlantic at Blowing Rocks Preserve, Jupiter Island, Florida](/images/hobe-sound/hobe-sound-blowing-rocks-003.jpg "The undercut limestone ledge at Blowing Rocks — the crevices and overhangs the Atlantic has cut into the Anastasia formation, best seen at lower tides.")
 
+::: gallery portrait
+![Pitted limestone forming a low arch over the sand as waves wash in at Blowing Rocks Preserve](/images/hobe-sound/local-blowing-rocks-arch.jpg "Holes and arches worn through the rock.")
+![A limestone outcrop at the waterline with surf breaking behind it at Blowing Rocks Preserve](/images/hobe-sound/local-blowing-rocks-surf.jpg "Surf working the outer edge of the shelf.")
+:::
+
 During certain high tides and ocean conditions, waves strike the limestone and force water upward through openings in the rocks. The display can be dramatic, but it is not guaranteed during every visit.
 
 At lower tides, visitors may get a better view of the limestone formations along the shoreline.
@@ -19392,6 +19411,8 @@ Conditions can change quickly, so local navigation information should be checked
 ## Walk the Boardwalk at Peck Lake Park
 
 If you do not have a boat, the mainland side of Peck Lake is still worth an hour. Peck Lake Park is a free Martin County park off Gomez Avenue where roughly a mile of boardwalk crosses pine flatwoods, baygall wetland, oak hammock and mangrove forest before opening onto a covered observation deck on the Indian River Lagoon.
+
+![A wooden boardwalk curving past mangroves toward covered pavilions at Peck Lake Park](/images/hobe-sound/local-peck-lake-boardwalk-pavilion.jpg "The boardwalk runs out to the pavilions on the water.")
 
 Manatees, dolphins and wading birds all work that stretch of water, and the far shoreline is protected land rather than houses. It is open sunrise to sunset, leashed dogs are welcome, and there are restrooms and picnic pavilions on site. [The full guide to the park](/blog/peck-lake-park-hobe-sound-florida) covers the trail, the deck and how to find the entrance.
 
@@ -20025,6 +20046,8 @@ Do not assume that a newer or better-built home insures cheaply. Replacement cos
 
 **Waterfront infrastructure**, if you buy it: seawall, dock, lift and their maintenance cycles. Seawall condition at purchase is a material fact and deserves an inspection as serious as a roof, from a marine contractor rather than a generalist. Add depth, bridge clearance and travel time to the inlet if the boat matters as much as the house.
 
+![A private dock and boat lift in front of a waterfront home across open water](/images/hobe-sound/local-dock-lift-waterfront.jpg "Docks, lifts and seawalls each carry their own maintenance cycle.")
+
 **Club and community obligations.** In the golf and club communities, membership may be optional, mandatory or tied to the deed, and a mandatory membership can far exceed HOA dues. At Atlantic Fields the club structure is integral to ownership rather than an add-on. Confirm in writing what a purchase includes and what it obligates: initiation, annual dues, capital contributions, food-and-beverage minimums, transfer rules and what happens if the club is sold or restructured.
 
 **Land-lease versus owned lot** in manufactured-home communities. This changes the transaction, the financing and the long-run cost profile completely, and it is the first question to ask rather than the last. A low purchase price on leased land is a different product from a low purchase price on an owned lot.
@@ -20093,6 +20116,8 @@ Here are a few worth finding.
 ## Peck Lake Park
 
 The free county park off Gomez Avenue, where roughly a mile of boardwalk runs through four habitats to a covered deck on the Intracoastal. It is the easiest thing on this list to do on a whim, and the one most people drive straight past — [it is worth a guide of its own](/blog/peck-lake-park-hobe-sound-florida).
+
+![A wooden boardwalk running straight through a shaded coastal hammock](/images/hobe-sound/local-peck-lake-hammock-boardwalk.jpg "The walk in to Peck Lake runs through shaded hammock.")
 
 The park borders environmentally sensitive land, so stay on the designated paths, leave plants and wildlife undisturbed, and carry out everything you bring in.
 
@@ -21634,6 +21659,8 @@ Have a local captain or marine professional review the route, and travel it in c
 
 "Deep water" is used loosely. What counts is the usable depth along the real route and at the dock when water levels are low, not the general depth of Manatee Pocket or the canal mouth.
 
+![A private wooden dock on pilings in front of a waterfront home with palms](/images/port-salerno/local-dock-pilings-waterway.jpg "What matters is the depth at the end of the dock at low water, not the view.")
+
 Establish depth at the dock, in the access canal and along the normal route; the tide and date of the measurement; the boat's draft; and the clearance you want under the keel.
 
 Depth changes with shoaling, storms, sediment movement, dredging, propeller wash, canal maintenance and season. A reading taken one afternoon is not a permanent guarantee.
@@ -21671,6 +21698,8 @@ Ask for findings in writing, including the limits of what could be observed. No 
 ## Verify Dock and Boat-Lift Permits
 
 Martin County requires permits to build docks and boat lifts, and pilings and seawalls need county approval too.
+
+![A boat on a lift beside a seawall in front of a waterfront home](/images/port-salerno/local-boat-lift-seawall.jpg "Dock, lift and seawall: three structures, and each one needs its own permit history.")
 
 State and federal authorization may also apply, depending on the waterway type, project size, environmental impact, submerged-land ownership, wetlands, seagrass, navigability, and whether the work qualifies for an exemption or general permit.
 
@@ -22105,6 +22134,8 @@ If walkability is your first priority rather than your third, that settles it.
 ## The water
 
 This flips the comparison.
+
+![Two manatees just under the surface in clear water](/images/port-salerno/local-manatees-inline.jpg "Manatees in the Pocket, one of the perks of a protected harbor.")
 
 Port Salerno sits on the **Manatee Pocket**, a protected harbor that opens toward the St. Lucie Inlet. For anyone whose life involves a boat, that proximity is the product. It's a working harbor with marinas, boatyards, marine trades, and [the last commercial fishing dock in Martin County](/blog/history-of-port-salerno-florida).
 
@@ -23480,6 +23511,8 @@ Review the current budget, recent financial statements, reserve information, ins
 
 Golf and country-club communities may carry expenses well beyond association dues. Membership may be mandatory or optional, separate from property ownership or tied to a particular residence, and split into different membership categories.
 
+![A long double row of palms lining the grass approach to the PGA Golf Club clubhouse](/images/port-st-lucie/local-pga-golf-club-allee.jpg "The palm allée at PGA Golf Club. Golf access and its cost vary by club and membership.")
+
 The costs to ask about: initiation fees, annual dues, food-and-beverage minimums, trail or cart fees, capital charges, guest fees and special club assessments.
 
 Confirm all club obligations in writing and determine whether membership terms can change after purchase. Where membership is required, club costs belong in the monthly and annual ownership estimate — not in a mental column marked discretionary.
@@ -23824,6 +23857,8 @@ Island ownership brings its own considerations: flood insurance, wind exposure, 
 
 Many buyers here are also looking south. **Palm Beach County is not one housing market** — Palm Beach Gardens, Jupiter, West Palm Beach and Royal Palm Beach offer very different lifestyles and property types, and should not be treated as interchangeable.
 
+![Aerial view over rows of single-family homes along a straight canal in Port St. Lucie at sunset](/images/listings/982-sw-worcester-lane/inline-aerial-grid-canal-2.jpg "The platted grid from the air: lot after lot, on a scale Palm Beach County no longer has. || Photo by Jatin Shah / MagiK Box")
+
 The real comparison is usually between living closer to Palm Beach County jobs and amenities, or buying farther north for more house.
 
 A Palm Beach County community may suit buyers who want a shorter commute to a workplace there, closer access to President Donald J. Trump International Airport, a larger concentration of restaurants, shopping and entertainment, proximity to specific medical providers, or more coastal and urban housing options.
@@ -24112,6 +24147,8 @@ General Development Corporation bought roughly 40,000 acres along the North Fork
 
 That grid is still there, and a great deal of it is still empty. The city filled in unevenly over sixty years: some streets are complete, others hold three houses and a dozen vacant lots between them. Those gaps are the inventory. It is why you can still buy a quarter-acre residential lot in a built city, on a paved road, and build on it.
 
+![Aerial view over Port St. Lucie homes and streets beside a wide canal at sunset](/images/listings/982-sw-worcester-lane/inline-aerial-grid-canal.jpg "The grid General Development laid out, seen from above. || Photo by Jatin Shah / MagiK Box")
+
 Palm Beach County cannot offer that at any scale, because it is substantially built out. What remains down there is infill priced accordingly, or acreage — which is a different product with different rules, covered in our [Loxahatchee guide](/blog/what-its-really-like-living-in-loxahatchee-florida).
 
 That difference is the whole reason this article exists, and it is worth being blunt about: the ability to do this is one of the few things Port St. Lucie can offer that the markets to the south structurally cannot.
@@ -24119,6 +24156,8 @@ That difference is the whole reason this article exists, and it is worth being b
 ## Most Spot Lots Are Not in an Association
 
 This is a large part of the appeal and it deserves saying early.
+
+![A fenced backyard lawn with a white metal-roofed patio cover over a paver patio behind a single-story home](/images/listings/982-sw-worcester-lane/inline-backyard-patio.jpg "No association: this owner added a patio cover and fenced the whole yard, subject only to City rules. || Photo by Jatin Shah / MagiK Box")
 
 Because the grid was platted decades before the master-planned era, most of it sits outside any homeowners association. In much of it there is no CDD either — the assessment that finances a community's infrastructure and lands on the tax bill, which our [neighborhood guide](/blog/best-neighborhoods-in-port-st-lucie-florida) covers in detail.
 
@@ -24166,6 +24205,8 @@ Two adjacent lots can answer those differently. Get the answers in writing from 
 ## The Lot Matters More Than the Builder
 
 If there is one thing to take from this page, it is this: the biggest decision you will make is where the lot is, not whose name goes on the house.
+
+![Aerial view of a single-family lot outlined in red, with the house, driveway and fenced backyard between neighboring homes](/images/listings/982-sw-worcester-lane/inline-aerial-lot.jpg "One standard lot, outlined: 10,000 square feet at 982 SW Worcester Lane, our September 2026 sale. || Photo by Jatin Shah / MagiK Box")
 
 Builders can be changed. Plans can be changed. Finishes can be changed. The parcel cannot. You are buying a location for the life of the property, and in a city still filling in unevenly that decision carries more weight than it would in a finished neighbourhood.
 
@@ -24423,6 +24464,13 @@ Building on your own lot is not automatically the better deal, and it is worth s
 Buying finished is usually the right call if you need to be in a house on a fixed date, if you cannot carry rent and construction interest at the same time, if you want to see the actual house before committing, or if the total of lot plus site work plus build lands above what comparable finished homes are selling for. That last one happens more often than buyers expect, and it is worth running honestly before you fall for a parcel.
 
 Building tends to win when you want a specific layout, when you want a house with no deferred maintenance and current building-code construction, when you have found a lot with characteristics you cannot buy finished — a particular street, a bigger parcel, no association — or when you have the time and the tolerance for a process with moving parts.
+
+::: gallery
+![A single-story powder-blue home with a two-car garage and a green front lawn](/images/listings/982-sw-worcester-lane/inline-exterior.jpg "A finished home on a standard lot: 982 SW Worcester Lane, built 2007, sold September 2026. || Photo by Jatin Shah / MagiK Box")
+![A bright living area with vaulted ceilings, arched windows and tile floors](/images/listings/982-sw-worcester-lane/inline-living.jpg "Buying finished means seeing the actual rooms first. || Photo by Jatin Shah / MagiK Box")
+![A white kitchen with an island, pendant lights and an adjoining dining area](/images/listings/982-sw-worcester-lane/inline-kitchen.jpg "Kitchen with an island, opening to the dining area. || Photo by Jatin Shah / MagiK Box")
+![A white metal patio cover with a ceiling fan over a paver patio in a fenced backyard](/images/listings/982-sw-worcester-lane/inline-patio-cover.jpg "The covered patio a previous owner added. || Photo by Jatin Shah / MagiK Box")
+:::
 
 ## Why We Search 2020 and Newer
 

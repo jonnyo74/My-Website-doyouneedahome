@@ -403,3 +403,8 @@ The processed-but-unused frames from the 2026-09-13 drop now run in articles:
 
 Still unused: `local-pga-members-only-post.jpg` (the #7 hero already shows the same sign) and
 `local-clover-park-1986-banners.jpg` (player likenesses, see above).
+
+### Second pass — 2026-09-24
+
+`local-pga-golf-club-allee.jpg` is now inline in "Golf and Private Club Costs" on `cost-of-living-in-port-st-lucie-florida`.
+The 982 SW Worcester Lane listing photos now also run inline in #9, #11 and #13; they are recorded in `../listings/982-sw-worcester-lane/SOURCES.md`.

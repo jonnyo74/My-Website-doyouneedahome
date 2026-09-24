@@ -194,3 +194,13 @@ none. Venue signage is incidental in our own documentary frames.
 filling the foreground); `Delray-beach--condo.JPEG` (legible unit number "101" and a tenant's
 business name at the door); `delray-beach-condo-3.JPEG` (a single private house with a mailbox).
 `delray-beach-atlantic-ave-sign.png` is an illustration, not a photograph.
+
+### Second pass — 2026-09-24
+
+| File | From | Used on |
+|---|---|---|
+| `delray-beach-lavender-condo-inline.jpg` | `Delray-beach.JPEG` | #5 who should move, property and community questions |
+| `delray-beach-new-homes-street-inline.jpg` | `delray-beach-modern-home.JPEG` (a street view, not a driveway) | #6 pros and cons, after the property-options paragraph |
+| `delray-marketplace-hooky-marquee-inline.jpg` | `delray-marketplace-hooky-marquee.jpg` | #9 vs nearby, western Delray section. Captioned as unincorporated county |
+
+`delray-beach-pineapple-mural.jpg` moved from #1 to the Art Trail section of #8, where it fits better, so no two Delray articles share it.

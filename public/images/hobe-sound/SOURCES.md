@@ -616,3 +616,14 @@ Christine's local guide actually wants.
 
 `local-hobe-sound-entry-sign.jpg` (already committed) is now also inline in #1 living-in, "A Quiet,
 Small-Town Setting".
+
+### Second pass — 2026-09-24
+
+| File | From | Used on |
+|---|---|---|
+| `local-peck-lake-pavilion-deck.jpg` | library `Hobe Sound/IMG_6642` | #2 local guide, nature section |
+| `local-peck-lake-lagoon-mangroves.jpg` | library `IMG_6637` (portrait), `extract({left:0, top:1200, width:4284, height:3213})` | #3 neighborhoods, mainland waterfront |
+| `local-peck-lake-boardwalk-pavilion.jpg` | library `IMG_6639` | #4 things to do, Peck Lake boardwalk |
+| `local-peck-lake-hammock-boardwalk.jpg` | library `IMG_6650` (sibling of 6649, which #11 uses) | #8 hidden gems, Peck Lake Park |
+| `local-blowing-rocks-arch.jpg`, `local-blowing-rocks-surf.jpg` | library `Jupiter/IMG_0124`, `IMG_0126`, 1050×1400 | #4 things to do, portrait gallery under the existing Blowing Rocks image. Blowing Rocks shoot, confirmed Martin County (see above) |
+| `local-dock-lift-waterfront.jpg` | `Jupiter Intracoastal/IMG_1300` | #7 cost of living, waterfront infrastructure. ⚠️ Jupiter stretch of the Intracoastal. Captioned by subject only |
