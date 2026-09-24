@@ -110,3 +110,24 @@ not what the street looks like the rest of the time. John plans to shoot it prop
 Outstanding: an ordinary-day streetscape down Lake Avenue, the Cottage District's Mission
 and frame-vernacular housing stock, and the lagoon and Intracoastal **from the Lake Worth
 Beach side** — the existing lagoon frames are all shot from Lantana looking back.
+
+## In-article photos and galleries — 2026-09-24
+
+Web-weight copies of John's own frames, cut from the full-quality files above. The originals are
+untouched and the gallery wiring in `communities.ts` is unchanged.
+
+| File | From | Size | Used on |
+|---|---|---|---|
+| `inline-beach-looking-north.jpg` | `local-beach-looking-north.jpg` | 1400×1050 | #1 living-in, getting to the beach |
+| `inline-pier-morning.jpg` | `local-pier-morning-hero.jpg` | 1400×1050 | #4 things to do, oceanfront gallery |
+| `inline-lifeguard-tides-board.jpg` | `local-lifeguard-tides-board.jpg` | 1400×1050 | same gallery |
+| `inline-casino-building.jpg` | `local-casino-building-palms.jpg` | 1400×1050 | #8 hidden gems, the Casino Building's longer story |
+| `inline-casino-arcade.jpg` | `local-casino-arcade.jpg` | 1400×1050 | #10 eat/drink, category image for "Beachside, at the Casino Building" |
+| `gallery-street-painting-lake-avenue.jpg` | `local-street-painting-lake-avenue.jpg` | 900×1200 | #4 things to do, festival gallery (portrait) |
+| `gallery-street-painting-carpenter-bee.jpg` | `local-street-painting-carpenter-bee.jpg` | 900×1200 | same |
+| `gallery-street-painting-big-bear.jpg` | `local-street-painting-big-bear-panel.jpg` | 900×1200 | same |
+| `gallery-street-painting-rose.jpg` | `local-street-painting-rose-panel.jpg` | 900×1200 | same |
+
+The festival frames show crowds and artists at a public event. They are editorial, in an article
+about that event, and no one is the subject of any frame. `local-oceanwalk-bennys-plaza.jpg` stays
+out, for the reason recorded above.

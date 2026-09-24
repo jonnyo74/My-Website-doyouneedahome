@@ -387,3 +387,19 @@ taken them, not on metadata.
 
 Not yet referenced by any article. They are available for the Port St. Lucie set whenever the
 Clover Park and PGA Village sections want more than the single frame each currently has.
+
+## In-article placements for the held-back frames — 2026-09-24
+
+The processed-but-unused frames from the 2026-09-13 drop now run in articles:
+
+| File | Used on |
+|---|---|
+| `local-clover-park-main-gate.jpg`, `local-clover-park-concourse.jpg` | #4 things to do, two-up gallery under the Mets-chair image |
+| `local-pga-golf-club-sign.jpg`, `local-pga-practice-range-bays.jpg` | #4 things to do, two-up gallery under the clock-tower image |
+| `local-clover-park-approach.jpg` | #5 who should move, "You Enjoy Parks, Recreation, Golf or Baseball" |
+| `local-pga-practice-range-wide.jpg` | #6 pros and cons, "Parks and Recreation" |
+| `local-clover-park-plaza.jpg` | #8 hidden gems, "St. Lucie Mets Baseball" |
+| `local-clover-park-entrance.jpg` | #10 eat/drink, "Spring Training and Baseball Season" |
+
+Still unused: `local-pga-members-only-post.jpg` (the #7 hero already shows the same sign) and
+`local-clover-park-1986-banners.jpg` (player likenesses, see above).

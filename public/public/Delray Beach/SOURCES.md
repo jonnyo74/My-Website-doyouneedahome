@@ -149,3 +149,48 @@ master library with the `IMG_64xx` files.
 
 Atlantic Avenue as a street rather than a restaurant frontage, the Intracoastal and the bridge,
 and the beach itself. The pre-existing `delray-beach-dining-*` files cover the eating strip.
+
+## In-article photos and galleries — 2026-09-24
+
+All John's own. The `-inline` files are 1400×1050 web-weight copies (q80 mozjpeg, 120–400KB) so
+article bodies don't load the 1–1.7MB originals. The originals are untouched.
+
+**New from the master library `Delray Beach/` folder** (IMG_5639–5659, 2048×1536, not previously
+in the repo; perceptual hash against this folder found no duplicates, closest distance 22):
+
+| File | From | Depicts | Used on |
+|---|---|---|---|
+| `delray-beach-downtown-welcome-banner.jpg` | `IMG_5647` | "Welcome to Downtown Delray Beach, The Village by the Sea" DDA pole banner | #1 living-in, downtown section |
+| `delray-beach-pineapple-mural.jpg` | `IMG_5654` | Pineapple mural on a two-story downtown building | #1 living-in, culture section |
+| `delray-beach-east-atlantic-ave-sign.jpg` | `IMG_5639` | E Atlantic Ave mast-arm sign under palms | #2 local guide, layout |
+| `delray-beach-downtown-meter-sign.jpg` | `IMG_5648` | Meter sign with posted fee hours beside a DDA banner | #2 local guide, parking. The caption does not quote hours or rates |
+| `delray-beach-downtown-wayfinding.jpg` | `IMG_5653` | Wayfinding: Old School Square, City Hall, Tennis Center | #2 local guide, city services |
+| `delray-beach-old-school-square-sign.jpg` | `IMG_5658` | Old School Square campus sign listing the Cornell Art Museum | #4 things to do. Caption says programming has changed and does not claim the museum is open |
+
+Unused from that folder: `IMG_5640` (tighter crop of the Atlantic sign), `IMG_5649` (Silverball
+arcade, a second angle on the #8 hero), `IMG_5659` (near-duplicate of 5658).
+
+**Web-weight copies of existing frames:**
+
+| File | From | Used on |
+|---|---|---|
+| `delray-beach-downtown-condos-inline.jpg` | `delray-beach-condo.JPEG` | #3 neighborhoods gallery, under the at-a-glance table |
+| `delray-beach-townhome-row-inline.jpg` | `delray-beach-condo-4.JPEG` | same gallery |
+| `delray-beach-downtown-corner-inline.jpg` | `delray-beach-condo-5.JPEG` | same gallery |
+| `delray-beach-pineapple-grove-arch-inline.jpg` | `delray-beach-pineapple-grove1.JPEG` | #3, Downtown and Pineapple Grove |
+| `delray-beach-condo-balconies-inline.jpg` | `delray-beach-condo-2.JPEG` | #7 cost of living, association obligations |
+| `delray-beach-sidewalk-dining-inline.jpg` | `delray-beach-dining-atlantic-ave-2.JPEG` | #10 eat/drink gallery, Atlantic Avenue |
+| `delray-beach-atlantic-patio-inline.jpg` | `delray-beach-dining-roccos-tacos.JPEG` | same gallery |
+| `delray-beach-side-street-dining-inline.jpg` | `delray-beach-dining-park tavern.JPEG` | #10 gallery, side streets |
+| `delray-beach-market-food-hall-inline.jpg` | `Delray-beach-dining-delray-market.JPEG` | same gallery |
+| `delray-marketplace-promenade-parking-inline.jpg` | `delray-marketplace-promenade-parking.jpg` | #11 marketplace, practical notes |
+
+The condo gallery is captioned by building type only. Nothing in the frames establishes which
+neighborhood they are in, so the gallery sits under the at-a-glance table rather than inside a
+named-district section. The #10 dining captions name no venue, matching the article, which names
+none. Venue signage is incidental in our own documentary frames.
+
+**Screened out:** `delray-beach-modern-home-3`/`-4` (a private driveway, with cars and a mailbox
+filling the foreground); `Delray-beach--condo.JPEG` (legible unit number "101" and a tenant's
+business name at the door); `delray-beach-condo-3.JPEG` (a single private house with a mailbox).
+`delray-beach-atlantic-ave-sign.png` is an illustration, not a photograph.
