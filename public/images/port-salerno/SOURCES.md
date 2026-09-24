@@ -254,3 +254,23 @@ subject here.** Nine Unsplash candidates were screened for this cluster and all 
 shots carried legible vessel names — the name is painted on the hull, which is intrinsic to
 the subject. Stock pineapple fields fail too; the crop is grown in tropical highlands and
 every candidate had mountains on the horizon.
+
+## In-article additions — 2026-09-24
+
+- **`local-seawall-waterfront.jpg`**: `Doyouneedphotos/Jupiter Intracoastal/IMG_1302`, resized 1400×1050.
+  A long concrete seawall in front of a waterfront house. ⚠️ **This is the Jupiter stretch of the
+  Intracoastal, not Port Salerno.** It comes from the same shoot as the Stuart `local-` files. It is used as
+  subject illustration only, in "Have the Seawall Evaluated" on `waterfront-homes-port-salerno-buyers-guide`,
+  and captioned by subject. Never caption it as Port Salerno.
+- `local-pocket-river-view.jpg` (boatyard, travel lift) is now also inline in "The Working Waterfront"
+  on `manatee-pocket-guide`. `local-manatee-pocket-hero.jpg` is now also inline in "The Manatee Pocket
+  Mooring Field" on `rocky-point-stuart-florida`.
+
+### Second pass — 2026-09-24
+
+Two more frames from the `Jupiter Intracoastal` shoot, used as subject illustration only on `waterfront-homes-port-salerno-buyers-guide` and never captioned as Port Salerno:
+
+- `local-dock-pilings-waterway.jpg` (IMG_1289): "Measure the Depth at the Dock".
+- `local-boat-lift-seawall.jpg` (IMG_1299): "Verify Dock and Boat-Lift Permits".
+
+`local-manatees-inline.jpg` is now also in "The water" on `port-salerno-vs-stuart`.

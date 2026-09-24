@@ -10,10 +10,28 @@ import { headingId } from '@/lib/headingId'
  * Images use markdown syntax on their own line, with an optional caption:
  *   ![alt text](/images/jupiter/jupiter-inlet.jpg)
  *   ![alt text](/images/jupiter/jupiter-inlet.jpg "Caption shown beneath")
+ *
+ * Several images can be grouped into a two-column gallery by fencing them:
+ *   ::: gallery            (or "::: gallery portrait" for 3:4 frames)
+ *   ![alt](/a.jpg "Caption")
+ *   ![alt](/b.jpg "Caption")
+ *   :::
+ * In a landscape gallery an odd final image spans both columns at 16:9.
  */
 
 // ![alt](src) or ![alt](src "caption") — the whole line, nothing else on it.
 const IMAGE_LINE = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$/
+const GALLERY_OPEN = /^:::\s*gallery(?:\s+(portrait))?$/
+
+type GalleryImage = { alt: string; src: string; caption?: string; credit?: string }
+
+// Caption may carry an optional photo credit after a ` || ` delimiter:
+//   ![alt](/img.jpg "Caption text || Photo by Jane Doe / Unsplash")
+// Captions without the delimiter are unaffected.
+function splitCaption(raw: string | undefined) {
+  const [caption, credit] = (raw ?? '').split(' || ')
+  return { caption: caption || undefined, credit: credit || undefined }
+}
 
 function renderEmphasis(text: string, keyBase: string): ReactNode[] {
   // Split on **bold** and *italic* segments. The alternation must try the
@@ -67,7 +85,43 @@ export default function Prose({ content, className = '' }: { content: string; cl
   let para: string[] = []
   let list: string[] = []
   let table: string[][] = []
+  let gallery: { portrait: boolean; images: GalleryImage[] } | null = null
   let key = 0
+
+  const flushGallery = () => {
+    if (!gallery) return
+    const { portrait, images } = gallery
+    gallery = null
+    if (!images.length) return
+    blocks.push(
+      <div key={`g${key++}`} className="mt-8 grid grid-cols-2 gap-3 sm:gap-4">
+        {images.map((img, i) => {
+          const wide = !portrait && images.length % 2 === 1 && i === images.length - 1
+          return (
+            <figure key={i} className={wide ? 'col-span-2' : undefined}>
+              <a href={img.src} target="_blank" rel="noopener" className="block">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  loading="lazy"
+                  className={`w-full rounded-xl border border-slate-200 object-cover shadow-card ${
+                    wide ? 'aspect-[16/9]' : portrait ? 'aspect-[3/4]' : 'aspect-[4/3]'
+                  }`}
+                />
+              </a>
+              {(img.caption || img.credit) && (
+                <figcaption className="mt-2 text-xs italic leading-5 text-slate-500 sm:text-sm sm:leading-6">
+                  {img.caption}
+                  {img.credit && <span className="mt-0.5 block not-italic">{img.credit}</span>}
+                </figcaption>
+              )}
+            </figure>
+          )
+        })}
+      </div>,
+    )
+  }
 
   const flushPara = () => {
     if (para.length) {
@@ -151,6 +205,20 @@ export default function Prose({ content, className = '' }: { content: string; cl
   for (const raw of lines) {
     const line = raw.trimEnd()
 
+    // Gallery fence: collect image lines until the closing ":::".
+    const open = line.match(GALLERY_OPEN)
+    if (open) {
+      flushPara(); flushList(); flushTable(); flushGallery()
+      gallery = { portrait: Boolean(open[1]), images: [] }
+      continue
+    }
+    if (gallery) {
+      if (line === ':::') { flushGallery(); continue }
+      const img = line.match(IMAGE_LINE)
+      if (img) gallery.images.push({ alt: img[1], src: img[2], ...splitCaption(img[3]) })
+      continue
+    }
+
     // Pipe tables: | Year | Event |  with a |---|---| separator row.
     if (/^\|.*\|$/.test(line)) {
       flushPara(); flushList()
@@ -164,11 +232,8 @@ export default function Prose({ content, className = '' }: { content: string; cl
     const image = line.match(IMAGE_LINE)
     if (image) {
       flushPara(); flushList()
-      // Caption may carry an optional photo credit after a ` || ` delimiter:
-      //   ![alt](/img.jpg "Caption text || Photo by Jane Doe / Unsplash")
-      // Captions without the delimiter are unaffected.
       const [, alt, src, rawCaption] = image
-      const [caption, credit] = (rawCaption ?? '').split(' || ')
+      const { caption, credit } = splitCaption(rawCaption)
       blocks.push(
         <figure key={`f${key++}`} className="mt-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -219,7 +284,7 @@ export default function Prose({ content, className = '' }: { content: string; cl
       para.push(line)
     }
   }
-  flushPara(); flushList(); flushTable()
+  flushPara(); flushList(); flushTable(); flushGallery()
 
   return <div className={className}>{blocks}</div>
 }

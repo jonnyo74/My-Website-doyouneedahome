@@ -605,3 +605,25 @@ the top item. See above.
 The banyan tunnel is **no longer on this list** — see above. What is still missing is the
 *other* end of Bridge Road: the shops between Dixie and the railway, which is the hero
 Christine's local guide actually wants.
+
+## In-article additions — 2026-09-24
+
+| File | From | Depicts | Used on |
+|---|---|---|---|
+| `local-jupiter-island-town-sign.jpg` | master library `Hobe Sound/IMG_4522` (2048×1536), resized 1400×1050 | "Town of Jupiter Island, Martin County Florida" sign among palms, from the same Bridge Road shoot as IMG_4523–4525 | #2 local guide, "Hobe Sound and Jupiter Island Are Not the Same". The caption makes no location claim beyond the town's own sign |
+| `local-blowing-rocks-overhang.jpg` | `hobe-sound-blowing-rocks-002.jpg` (IMG_0125), `extract({left:0, top:400, width:1536, height:1152})` → 1400×1050 | Eroded limestone overhang with surf breaking below | #1 living-in, Blowing Rocks Preserve section. Confirmed Blowing Rocks, so the caption names it |
+| `local-bridge-road-tunnel-inline.jpg` | `local-bridge-road-tunnel.jpg`, resized 1400×1050 | Bridge Road under the banyan canopy | #9 vs nearby, "Hobe Sound vs. Jupiter Island". Kept out of #5, whose hero is the same view |
+
+`local-hobe-sound-entry-sign.jpg` (already committed) is now also inline in #1 living-in, "A Quiet,
+Small-Town Setting".
+
+### Second pass — 2026-09-24
+
+| File | From | Used on |
+|---|---|---|
+| `local-peck-lake-pavilion-deck.jpg` | library `Hobe Sound/IMG_6642` | #2 local guide, nature section |
+| `local-peck-lake-lagoon-mangroves.jpg` | library `IMG_6637` (portrait), `extract({left:0, top:1200, width:4284, height:3213})` | #3 neighborhoods, mainland waterfront |
+| `local-peck-lake-boardwalk-pavilion.jpg` | library `IMG_6639` | #4 things to do, Peck Lake boardwalk |
+| `local-peck-lake-hammock-boardwalk.jpg` | library `IMG_6650` (sibling of 6649, which #11 uses) | #8 hidden gems, Peck Lake Park |
+| `local-blowing-rocks-arch.jpg`, `local-blowing-rocks-surf.jpg` | library `Jupiter/IMG_0124`, `IMG_0126`, 1050×1400 | #4 things to do, portrait gallery under the existing Blowing Rocks image. Blowing Rocks shoot, confirmed Martin County (see above) |
+| `local-dock-lift-waterfront.jpg` | `Jupiter Intracoastal/IMG_1300` | #7 cost of living, waterfront infrastructure. ⚠️ Jupiter stretch of the Intracoastal. Captioned by subject only |
