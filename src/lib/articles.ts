@@ -2437,11 +2437,11 @@ For the rest of the decision, see the [pros and cons of living in West Palm Beac
     cityName: 'West Palm Beach',
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems in West Palm Beach, Florida",
-    metaTitle: "13 Hidden Gems in West Palm Beach, FL (Beyond Clematis)",
-    metaDescription: "The West Palm Beach spots locals take a few years to find — Manatee Lagoon, Ann Norton's sculpture gardens, Antique Row, Mounts Botanical and nine more.",
+    seoTitle: "Hidden Gems in West Palm Beach, Florida: Lower-Profile Places and Local History",
+    metaTitle: "Hidden Gems in West Palm Beach, FL: Local History & Trails",
+    metaDescription: "Lower-profile places in West Palm Beach: the Sunset Lounge, Clear Lake and Apoxee trails, public art, Antique Row, historic streets and two nearby stops.",
     primaryKeyword: "hidden gems in West Palm Beach Florida",
-    secondaryKeywords: ["West Palm Beach secret spots", "free things to do in West Palm Beach", "Antique Row West Palm Beach"],
+    secondaryKeywords: ["West Palm Beach local history", "Sunset Lounge West Palm Beach", "Clear Lake Trail West Palm Beach", "Antique Row West Palm Beach"],
     h1: "Hidden Gems in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/sunglasses-mural-hero.webp',
     heroImageAlt: "A large black-and-white mural of a man in sunglasses, his lenses reflecting a colorful palm-lined skyline, painted on a pale blue wall in downtown West Palm Beach",
@@ -2450,110 +2450,111 @@ For the rest of the decision, see the [pros and cons of living in West Palm Beac
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '55% 50%',
-    body: `West Palm's best stuff isn't on the main drag, and it isn't downtown. The city is old enough and layered enough to hide things in plain sight, and most residents take a couple of years to find them.
+    body: `"Hidden gems" here means lower-profile public places, local history, public art and walking routes. None of them is secret or off-limits, and all of them are publicly accessible.
 
-Here's where locals actually go.
+The city's larger attractions, including the Norton Museum, the Kravis Center, the Ann Norton Sculpture Gardens, Manatee Lagoon, Mounts Botanical Garden and Grassy Waters Preserve's nature center, are covered in our [things-to-do guide](/blog/best-things-to-do-in-west-palm-beach-florida). For restaurants, see [where to eat, drink and hang out](/blog/best-places-to-eat-drink-hang-out-in-west-palm-beach-florida).
 
-## Manatee Lagoon
+Each entry below says where it is. Places outside city limits are grouped at the end and labelled **Nearby**. Hours, access and programs change, so check the official source before you go.
 
-Free, and genuinely one of the best things in the county.
+## In West Palm Beach
 
-Manatees gather in a warm-water outflow during the cooler months, and there's an education center built around watching them. It's reliably excellent with children and quietly good without them.
+### The Sunset Lounge and the Historic Northwest
 
-**Local tip that's counterintuitive:** go on a cold day. The colder the snap, the more manatees pile in. A warm February afternoon gets you an empty lagoon; a chilly morning gets you a crowd of them.
+**Where:** West Palm Beach, on 8th Street in the Historic Northwest neighborhood.
 
-## Ann Norton Sculpture Gardens
+**What it is.** The City describes the Sunset Lounge as one of the most significant venues in the South in the 1940s and 1950s. It hosted artists including Count Basie, Ella Fitzgerald and Louis Armstrong at a time when segregation kept many Black performers out of mainstream venues. The City's Community Redevelopment Agency, which owns the building, restored and expanded it, and marked the completion in December 2025. The building now has about 20,000 square feet, with a restaurant, bar, rooftop and event space. The surrounding Northwest Historic District is on the National Register of Historic Places, roughly bounded by Tamarind Avenue, 11th Street, Rosemary Avenue and 3rd Street, according to the National Park Service.
 
-The city's most peaceful place, and consistently forgotten by people who live ten minutes away.
+**Before you go:** programming and operations are still being set, so check the [City's Sunset Lounge page](https://www.wpb.org/Departments/Community-Redevelopment-Agency/Sunset-Lounge) for current events.
 
-A compact garden of monumental sculpture on the grounds of the sculptor's former home and studio, tucked near the waterfront. It takes well under an hour, it's rarely busy, and it's the closest thing West Palm has to a place designed for standing still.
+### The Clear Lake Trail
 
-## Antique Row
+**Where:** West Palm Beach, along the west side of Clear Lake between Okeechobee Boulevard and Palm Beach Lakes Boulevard.
 
-A long stretch of South Dixie Highway lined with antique dealers, design showrooms, and estate shops — one of the more concentrated design districts anywhere in the country.
+**What it is.** A City multi-use trail about 5,300 feet long and 8 feet wide, with a 700-foot boardwalk connecting it to Okeechobee Boulevard. The City says it opened to the public at the end of August 2024. It's a walking and cycling link along a lake that many people only see from the road.
 
-Interior designers make sourcing trips here from Miami and further afield, which tells you it's a genuine destination rather than a few dusty shops. For residents it's a browsing habit rather than an errand — you go with no particular plan and see what turns up.
+**Before you go:** see the [City's Clear Lake Trail page](https://www.wpb.org/Departments/Engineering/Ongoing-City-Projects/Clear-Lake-Trail-Project) for access points and any notices.
 
-Worth knowing even if you're not shopping: the district gives that stretch of the city its character, and there are good, low-key restaurants scattered through it.
+### The Apoxee Trail
 
-## Mounts Botanical Garden
+**Where:** West Palm Beach, part of the City's Grassy Waters Preserve. The entrance is at 3125 Jog Road, on the west side of Jog Road north of Okeechobee Boulevard.
 
-The county's oldest and largest botanical garden, off Military Trail and well west of where most residents spend their time.
+**What it is.** A 2.5-mile hiking trail in the City's western preserve, separate from the Grassy Waters nature center on Northlake Boulevard. The City describes a short paved loop from the parking area, with the rest on natural ground that is uneven and has exposed roots.
 
-Themed collections, mature plantings, a regular event and plant-sale calendar, and almost never a crowd. It's the kind of place people visit once, mean to return to, and then don't — which is exactly why it stays quiet.
+**Before you go:** the City lists hours of 7 a.m. to 6 p.m., hiking only (no bicycles or dogs), seasonal flooding and muddy areas, and no drinking water or shelters. Conditions change, so check the [City's Apoxee Trail page](https://www.wpb.org/Departments/Grassy-Waters-Preserve/Trail-Information/Apoxee-Trail).
 
-## The Flagler Museum
+### Public art around the city
 
-Whitehall, Henry Flagler's Gilded Age mansion, sits across the bridge on Palm Beach island. It's not technically West Palm, but it's minutes away and it explains more about why this whole region exists than anything on the mainland.
+**Where:** West Palm Beach, citywide.
 
-Flagler's railroad is the reason there's a city here at all. Going once reframes the entire area.
+**What it is.** The City's Art in Public Places program commissions permanent and temporary artworks in public places. It publishes a free digital guide on [Bloomberg Connects](https://guides.bloombergconnects.org/en-US/guide/westPalmBeachArtInPublicPlaces). One recent example is José Alvarez's *Surround Me with Your Love (May All Beings Be Happy and Free)* at The Urban at the Mandel Public Library, which the City unveiled on April 28, 2026 and lists through spring 2028. Private murals also appear on buildings downtown. The mural at the top of this page is signed by Anthony Hernandez.
 
-## The quieter waterfront stretches
+**Before you go:** temporary works come and go, so use the City's guide for what's up now, and view murals on private buildings from the public sidewalk.
 
-Everyone knows the downtown waterfront. Flagler Drive runs considerably further in both directions than most people walk, and the stretches away from the downtown core are markedly quieter — better for an actual walk, better for sunset, and free of the event crowds.
+### Antique Row
 
-Find the segment nearest you and it becomes your default. Residents get mildly proprietary about theirs.
+**Where:** West Palm Beach, along South Dixie Highway just south of downtown.
 
-## The Brightline station area
+**What it is.** A stretch of antique shops, galleries and design stores along South Dixie Highway. Discover The Palm Beaches, the county's tourism bureau, describes more than 40 of them, with pieces ranging from 17th-century furnishings to modern design. "Antique Row" is the name the merchants use for the corridor; it isn't a City neighborhood.
 
-Worth wandering even if you aren't catching a train. The blocks around the station have redeveloped noticeably, and the mix of historic buildings and newer infill makes it one of the more interesting short walks downtown.
+**Before you go:** shops set their own hours, so check with individual businesses.
 
-It's also the clearest place to see where the city is heading — the station has pulled investment toward it in a way that's visibly reshaping the surrounding streets.
+### Historic streets, from the sidewalk
 
-## Howard Park and the downtown green
+**Where:** West Palm Beach, in the City's local historic districts.
 
-A large park close to downtown that residents use constantly and visitors never notice — open lawn, shade, and a genuinely central location for something that isn't a sidewalk.
+**What it is.** The City maintains 18 locally designated historic districts, and several are also on the National Register. For example, the National Park Service lists the Old Northwood Historic District (listed in 1994), roughly bounded by Broadway, North Dixie Highway and 26th and 35th Streets, and the El Cid Historic District (listed in 1995), roughly bounded by Flamingo Drive, South Flagler Drive, Dyer Road and South Dixie Highway. Walking the public sidewalks is a way to see early 20th-century residential architecture across the city.
 
-In a downtown that skews toward pavement, having real green space within walking distance of it is worth more than it sounds, particularly if you have a dog or a small child.
+**Before you go:** these are residential streets, so stay on the public right-of-way and respect private property. The [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) lists the districts and what the City's data shows about them.
 
-## Currie Park and the northern waterfront
+### Howard Park
 
-North of downtown along Flagler, Currie Park gives you waterfront, a boat ramp, and open green space with considerably fewer people than the downtown promenade.
+**Where:** West Palm Beach, 1302 Parker Avenue.
 
-It's a working local park rather than a polished one, and that's the appeal — residents use it for fishing, launching, walking, and watching the water without any of the event-day crowding further south.
+**What it is.** A City park with a playground, sports fields and courts, walking paths and a community center. The Howard Park Tennis & Pickleball Center is at 1101 Lake Avenue.
 
-## The banyans and the street trees
+**Before you go:** the City says the park is scheduled to close for renovations in fall 2026, so check the [City's Howard Park page](https://www.wpb.org/Departments/Parks-Recreation/Parks-Facilities/Howard-Park-and-Community-Center) for its current status.
 
-Not a place, but worth learning to notice. West Palm's older neighborhoods carry a mature canopy that took a century to grow — banyans, live oaks, and royal palms lining streets that were laid out in the 1920s.
+### A note on Currie Park
 
-It's the single biggest reason the historic districts feel the way they do, and it's the thing residents miss most acutely if they move somewhere newer. Walking under it on a hot afternoon is a genuinely different experience from walking the same distance in a modern subdivision, and it's free.
+Currie Park, the City's waterfront park at 2400 North Flagler Drive, has been closed since September 2025 for a City redevelopment project, including its boat ramps and parking lot. The City's [Currie Park page](https://www.wpb.org/Departments/Parks-Recreation/Parks-Facilities/Currie-Park) links to the redesign and its progress.
 
-## The Kelsey City history in Lake Park
+## Nearby, outside city limits
 
-Just north of the city limits, Lake Park was originally laid out in the 1920s as Kelsey City — one of Florida's early planned communities, with a street grid and civic layout still legible today.
+### The Flagler Museum (Whitehall)
 
-It's a short drive and a quiet piece of local history that almost nobody visits deliberately. For anyone interested in how this stretch of coast actually developed, it's a useful counterpart to the Flagler story.
+**Where:** Nearby, in the Town of Palm Beach, across the lagoon. It is not in West Palm Beach.
 
-## Clear Lake and the western green space
+**What it is.** Henry Flagler's Gilded Age estate, completed in 1902. The museum says Whitehall is a National Historic Landmark, open to the public with self-guided tours, changing exhibitions and programs.
 
-Between downtown and the western neighborhoods sits more water and park than the map suggests. It's not dramatic, but for residents wanting a walk or a run that isn't the waterfront promenade, it's the local option and it's genuinely underused.
+**Before you go:** check hours and admission on the [Flagler Museum's site](https://www.flaglermuseum.org/). Parking and rules on the island are set by the Town.
 
-## The historic districts as a walk
+### Lake Park's Kelsey City history
 
-Not a destination so much as an activity. Walking El Cid, Flamingo Park, or Grandview Heights on a cool morning — looking at 1920s architecture under mature canopy — is one of the real pleasures of living here, and it costs nothing.
+**Where:** Nearby, in the Town of Lake Park, north of West Palm Beach. It is not in West Palm Beach.
 
-It's also, practically, the single best way to work out which neighborhood you actually want to buy in.
+**What it is.** According to the Historical Society of Palm Beach County, Harry Seymour Kelsey bought a large tract north of West Palm Beach in 1919. He hired the Olmsted Brothers and John Nolen to lay out a town, and the plan is believed to be Florida's first zoned community. It was established as the Town of Kelsey City in 1923 and renamed Lake Park in 1939. Its Town Hall is listed on the National Register.
 
-## Why these matter
+**Before you go:** see the [Historical Society's Kelsey City page](https://education.pbchistory.org/pbc_community/kelsey-city-lake-park/) for the history, and the Town of Lake Park for current visiting information.
 
-West Palm gets characterized by its downtown, and if that's all you see you'd conclude it's a small city with some restaurants and a museum.
+## Using this list
 
-The places on this list are the counterargument, and most of them are free. They're also how residents build a life here that doesn't depend on going out — which matters, because the downtown-centric version of this city gets expensive fast.
+A few of these can be combined in one outing. You could walk a historic district and then visit the Sunset Lounge in the Historic Northwest, take a Saturday on the Clear Lake Trail, or follow the City's public-art guide through downtown.
 
-Work through a few in your first few months, and go to Manatee Lagoon on the first genuinely cold morning of the winter.`,
+For the practical side of the city, see the [local guide](/blog/local-guide-to-west-palm-beach-florida) and [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida). When you're ready to look at homes, start from the [West Palm Beach community page](/communities/west-palm-beach) or the [relocation decision guide](/palm-beach-county-treasure-coast-relocation-guide).`,
     faqs: [
-      { q: "What are the hidden gems in West Palm Beach?", a: "Manatee Lagoon for free manatee viewing in the cooler months, the Ann Norton Sculpture Gardens, Antique Row on South Dixie Highway, Mounts Botanical Garden, the Grandview Public Market food hall, the quieter stretches of the Flagler Drive waterfront, and walking the historic districts." },
-      { q: "When is the best time to see manatees at Manatee Lagoon?", a: "On cold days during the cooler months. Manatees gather in the warm-water outflow, and the colder the snap the more of them arrive — a warm winter afternoon can produce an empty lagoon while a chilly morning produces a crowd. Admission is free." },
-      { q: "What is Antique Row in West Palm Beach?", a: "A long stretch of South Dixie Highway lined with antique dealers, design showrooms, and estate shops — one of the more concentrated design districts in the country. Interior designers travel there to source, and there are good low-key restaurants scattered through it." },
-      { q: "What is Mounts Botanical Garden?", a: "The county's oldest and largest botanical garden, located off Military Trail west of where most residents spend their time. It has themed collections, mature plantings, and a regular event and plant-sale calendar, and it's rarely crowded." },
-      { q: "What free things are there to do in West Palm Beach?", a: "Manatee Lagoon, walking the quieter stretches of the Flagler Drive waterfront, browsing Antique Row, and walking the historic districts of El Cid, Flamingo Park, and Grandview Heights to see the 1920s architecture." },
-      { q: "Is the Flagler Museum worth visiting?", a: "Yes. Whitehall, Henry Flagler's Gilded Age mansion, sits across the bridge on Palm Beach island minutes from downtown. Flagler's railroad is the reason the region developed at all, so visiting reframes the whole area's history." },
+      { q: "What are some lower-profile places to visit in West Palm Beach?", a: "Options within the city include the restored Sunset Lounge in the Historic Northwest, the Clear Lake Trail, the Apoxee Trail in Grassy Waters Preserve, the City's public art (with a free Bloomberg Connects guide), Antique Row on South Dixie Highway, and the sidewalks of the City's historic districts. Check each official source for current access and hours." },
+      { q: "What is the Sunset Lounge in West Palm Beach?", a: "A historic music venue on 8th Street in the Historic Northwest neighborhood. The City says it hosted artists including Count Basie, Ella Fitzgerald and Louis Armstrong in the 1940s and 1950s. The City's Community Redevelopment Agency owns it, and marked the completion of its restoration and expansion in December 2025." },
+      { q: "Where is the Clear Lake Trail?", a: "Along the west side of Clear Lake between Okeechobee Boulevard and Palm Beach Lakes Boulevard. The City describes a multi-use trail about 5,300 feet long with a 700-foot boardwalk to Okeechobee Boulevard, opened in August 2024." },
+      { q: "What is Antique Row in West Palm Beach?", a: "A stretch of antique shops, galleries and design stores along South Dixie Highway just south of downtown. Discover The Palm Beaches describes more than 40 of them. It's the merchants' name for the corridor, not a City neighborhood, and each shop sets its own hours." },
+      { q: "Is the Flagler Museum in West Palm Beach?", a: "No. The Flagler Museum (Whitehall, completed in 1902) is in the Town of Palm Beach, across the Lake Worth Lagoon from West Palm Beach. Check the museum's site for hours and admission." },
+      { q: "Is Currie Park open?", a: "The City closed Currie Park's boat ramps and parking lot in September 2025 for a redevelopment project, and its park page shows the park as closed for renovations. Check the City's Currie Park page for current status." },
     ],
-    internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida"],
-    funFact: "Antique Row on South Dixie Highway in West Palm Beach is one of the most concentrated antique and design districts in the US, stretching about 30 blocks with hundreds of dealers. Interior designers from Miami, New York, and beyond make sourcing trips there regularly — locals who haven't explored it are missing a legitimate destination.",
+    internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-west-palm-beach-florida", "best-neighborhoods-in-west-palm-beach-florida", "what-its-really-like-living-in-west-palm-beach-florida"],
+    funFact: "The City's public art has its own free guide on the Bloomberg Connects app, and entries can include audio commentary from the artists. It's the easiest way to find out what a sculpture or installation downtown is before you walk past it again. Temporary works rotate, so the guide shows what's up now.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-09-23',
+    updated: '2026-09-23',
   },
   {
     slug: 'west-palm-beach-vs-nearby-cities',
