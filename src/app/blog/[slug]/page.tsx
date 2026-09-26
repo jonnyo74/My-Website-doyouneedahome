@@ -18,6 +18,7 @@ import ComparisonGuide from '@/components/article/ComparisonGuide'
 import { ProjectStatusCard, ProjectTimeline, ProjectTracking } from '@/components/article/ProjectStatus'
 import ArticleChecklist from '@/components/article/ArticleChecklist'
 import { getCommunityBySlug } from '@/lib/communities'
+import { getYlopoCitySearch } from '@/lib/ylopoAliases'
 import Prose from '@/components/Prose'
 import CitySearchButtons from '@/components/CitySearchButtons'
 import MarketTrendsBlock from '@/components/MarketTrendsBlock'
@@ -162,6 +163,19 @@ export default async function ArticlePage({ params }: Props) {
         }
       : undefined
   const sections = editorial?.tableOfContents ? articleSections(article.body) : []
+  // Opening paragraphs and the rest, for articles that put the contents after
+  // their introduction. Only when the body isn't already split for the CTA.
+  const introAt = article.body.search(/^## /m)
+  const introSplit =
+    editorial?.tocAfterIntro && !bodyParts && introAt > 0
+      ? [article.body.slice(0, introAt), article.body.slice(introAt)]
+      : null
+  // Cities whose listings widget runs a hand-built house search (Singer Island)
+  // label it as houses, and point condo shoppers at the condo search.
+  const houseOnlyListings = Boolean(getYlopoCitySearch(article.cityName))
+  const condoSearch = houseOnlyListings
+    ? community?.savedSearches?.find((s) => s.label === 'Condos')
+    : undefined
   // The worksheet is its own section, so it gets a contents entry directly
   // before the section it's rendered in front of.
   if (editorial?.tool?.kind === 'carrying-cost-worksheet') {
@@ -333,10 +347,16 @@ export default async function ArticlePage({ params }: Props) {
         {editorial?.comparison && <ComparisonGuide comparison={editorial.comparison} />}
 
         <div className="relative">
-          {sections.length > 0 && <ArticleToc sections={sections} />}
+          {!introSplit && sections.length > 0 && <ArticleToc sections={sections} />}
 
           {/* Body — with an inline report CTA about a third of the way through */}
-          {bodyParts ? (
+          {introSplit ? (
+            <>
+              <BodyWithTool content={introSplit[0]} tool={editorial?.tool} />
+              {sections.length > 0 && <ArticleToc sections={sections} />}
+              <BodyWithTool content={introSplit[1]} tool={editorial?.tool} />
+            </>
+          ) : bodyParts ? (
             <>
               <BodyWithTool content={bodyParts[0]} tool={editorial?.tool} />
               <LeadMagnetCTA
@@ -429,9 +449,24 @@ export default async function ArticlePage({ params }: Props) {
         {/* Listings widget — single-family houses $500k+ for the article's city */}
         <div className="mt-12">
           <h2 className="font-serif text-2xl font-semibold text-slate-900">
-            Homes for Sale in {article.cityName}
+            {houseOnlyListings ? `${article.cityName} Single-Family Homes for Sale` : `Homes for Sale in ${article.cityName}`}
           </h2>
-          <p className="mt-2 text-sm text-slate-500">Single-family homes $500k+, updated daily.</p>
+          <p className="mt-2 text-sm text-slate-500">
+            Single-family homes $500k+, updated daily.
+            {condoSearch && (
+              <>
+                {' '}Shopping for a condo?{' '}
+                <a
+                  href={condoSearch.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-gold-600 transition hover:text-gold-700"
+                >
+                  Search {article.cityName} condos →
+                </a>
+              </>
+            )}
+          </p>
           <div className="mt-5">
             <YlopoResultsWidget
               city={article.cityName}

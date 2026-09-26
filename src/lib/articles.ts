@@ -161,6 +161,10 @@ export interface ArticleEditorial {
     elsewhere: string[]
   }
   tableOfContents?: boolean
+  // Renders the table of contents after the body's opening paragraphs (the
+  // text before the first "## " heading) instead of above them. Needs
+  // magnetPlacement, since the automatic inline CTA also splits the body.
+  tocAfterIntro?: boolean
   // Numbered "what actually moves the answer" module shown under the hero.
   keyFactors?: {
     heading: string
@@ -16227,24 +16231,58 @@ Ownership, names and hours change constantly here. Choose the district first, ch
     cityName: 'Singer Island',
     type: "What It's Really Like Living In",
     order: 1,
-    seoTitle: "What It's Really Like Living in Singer Island, Florida (Local Guide)",
-    metaTitle: "What It's Really Like Living on Singer Island, FL",
-    metaDescription: "A local look at living on Singer Island, Florida — oceanfront high-rise condo living, beautiful beaches, a resort lifestyle, and world-class diving and nature nearby.",
+    seoTitle: "What It's Really Like Living on Singer Island, Florida: Condos, Houses and the Trade-Offs",
+    metaTitle: "Living on Singer Island, FL: What It’s Really Like",
+    metaDescription: "Living on Singer Island, Florida: oceanfront condos, Palm Beach Shores homes, seasonal rhythms, bridge access, and the buyer checks that matter.",
     primaryKeyword: "living on Singer Island Florida",
-    secondaryKeywords: ["moving to Singer Island FL", "Singer Island condos", "is Singer Island a good place to live", "Singer Island lifestyle"],
+    secondaryKeywords: ["moving to Singer Island FL", "Singer Island condos", "Singer Island single-family homes", "is Singer Island a good place to live", "Singer Island vs Palm Beach Shores"],
     h1: "What It's Really Like Living on Singer Island, Florida",
-    heroImage: '/images/singer-island/waterfront-001.jpeg',
-    body: `Singer Island is a barrier island where most people live in the sky and a few hundred live in a village. Those are genuinely different lives on the same strip of sand, and working out which one you're actually shopping for is the whole exercise.
+    heroImage: '/images/singer-island/fisherman-statue-hero.webp',
+    heroImageAlt: "A white statue of a fisherman in a rain hat at a ship's wheel, among palms beside the Lake Worth Lagoon where the Blue Heron Bridge arrives on Singer Island",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '45% 50%',
+    editorial: {
+      eyebrow: 'Singer Island · Living Here',
+      deck: "Towers or houses, two towns, a seasonal rhythm and two ways off the island, plus what to check before you buy.",
+      heroLayout: 'split',
+      panelImage: { src: '/images/singer-island/fisherman-statue-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/singer-island/fisherman-statue-mobile.webp', width: 1200, height: 800 },
+      mobileAspect: '16/9',
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Compare the neighborhoods', href: '/blog/best-neighborhoods-in-singer-island-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: {
+        eyebrow: 'Buying a condo on Singer Island?',
+        text: "Work through the building's budget, reserves, insurance, assessments and rules before you commit.",
+        cta: { label: 'Open the condo due-diligence checklist', href: '/florida-condo-buyers-due-diligence-checklist' },
+      },
+    },
+    body: `Singer Island is a coastal community rather than one municipality. Much of it is in Riviera Beach, while Palm Beach Shores occupies the south end. For buyers, the first decision is usually not just ocean versus Intracoastal view; it is whether a condominium with shared governance and building-level costs, or a single-family house, matches daily life.
 
-There is no single "Singer Island" experience. There's a corridor of condo towers along the ocean, a state park at the north end, and a small incorporated town at the south end with houses and streets. What unites them is the Atlantic, the bridges, and not much else.
+Those are genuinely different lives on the same strip of sand. There's a corridor of condo towers along the ocean, streets of houses on the lagoon side and at the south end, and a state park just to the north. What unites them is the Atlantic, the bridges, and not much else.
 
 ## The two ways to live here
 
 **In a tower.** Your front door opens onto a corridor, your outdoor space is a balcony, your neighbors are above and below as well as beside you, and a board of fellow owners makes decisions affecting your costs and what you may do with your unit.
 
-For a great many residents this is exactly right. The building handles the exterior, the landscaping, the pool, the security and the structural insurance. You lock the door and leave for four months and nothing happens. For seasonal owners that's the entire proposition, and it's why so much of the island is owned that way.
+For a great many residents this is exactly right. The association looks after the exterior, the grounds, the pool and the common areas, and plenty of owners value being able to lock the door and travel. That convenience comes with the building's finances and rules attached, which is why the building deserves as much scrutiny as the unit.
 
-**In Palm Beach Shores.** The southern tip is a separate town of single-family homes on real streets, low-rise buildings, a marina, and a scale you can walk. Front door onto a street, a yard, a garage, and neighbors you see rather than share a lift with.
+**If you're looking at a condo, you're buying into the building too.** Insurance is the clearest example. The association's master policy covers what the association is responsible for, subject to its own deductibles. Your own HO-6 policy, and whether you carry loss-assessment coverage, are separate questions for your insurance agent; one doesn't answer the other. Before you commit, ask for:
+
+- The current budget and how reserves are funded
+- The master insurance declarations: what the policy covers and its deductibles
+- Any current or anticipated special assessments
+- Inspection, engineering and reserve-study records, where the building has them
+- Recent board minutes
+- The rules on rentals, pets, renovations and storm preparation
+
+Our [Singer Island condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) walks through each item. It's general information rather than legal or insurance advice; the association's documents, your attorney and your insurance agent are the authorities on a specific unit.
+
+**In a house.** Single-family houses sit in three places: Palm Beach Isles and Yacht Harbor, on the lagoon side of the Riviera Beach part of the island, and the Town of Palm Beach Shores at the south end. Front door onto a street, a yard, a garage, and neighbors you see rather than share a lift with. Many of these houses sit on canals or the lagoon, so the water can be out back rather than out front.
 
 The two arrangements produce different social lives, different costs and different daily rhythms. Our [housing guide](/blog/best-neighborhoods-in-singer-island-florida) treats them as the separate markets they are.
 
@@ -16252,75 +16290,82 @@ The two arrangements produce different social lives, different costs and differe
 
 It's worth stating plainly because it justifies everything else.
 
-Living directly on the Atlantic is materially different from living near it. The light changes all day. You hear surf. You watch weather arrive from a long way out. Sunrise happens in front of you, and in the cooler months you can watch it from bed. Residents who've had this for years still mention it unprompted.
+Living directly on the Atlantic is materially different from living near it. The light changes all day. You hear surf. You watch weather arrive from a long way out. Sunrise happens in front of you, and in the cooler months you can watch it from bed.
 
-The beach is wide and, along much of the island, quiet — towers concentrate people vertically rather than spreading them along the sand, and a good deal of the frontage is private to buildings.
+The beach is wide and, along much of the island, quiet. How easily you use it depends on where you live: practical beach access, parking and walkability vary by building and by public access point, so walk the route from the specific address rather than assuming it.
+
+## The places that make an ordinary week work
+
+- **Ocean Reef Park** (3860 N Ocean Drive) is Palm Beach County's beach park on the island: a lifeguarded stretch of beach, parking, restrooms, outdoor showers, picnic areas and a playground. See [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) for current hours and notices.
+- **John D. MacArthur Beach State Park**, just north of the island in North Palm Beach, is the natural counterweight: nature trails, a nature center, an estuary you can paddle, and a beach with no towers behind it. Snorkeling there depends on the day's conditions, so treat it as a bonus rather than a plan. See [Florida State Parks: John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) for hours, fees and alerts.
+
+What an ordinary week feels like depends on what fills it. A beach walk, dinner at one of the marinas in Palm Beach Shores, errands, and a day on the mainland each start from a different part of the island, so map the ones you'd actually do from the address you're considering.
 
 ## Two towns, one island
 
-An administrative detail with real consequences: most of the island lies within **Riviera Beach**, while the southern tip is its own municipality, **Palm Beach Shores**, with a separate government, police force and character.
+Singer Island is a place name, not a government. Most of the island lies within the **City of Riviera Beach**, while the south end is the **Town of Palm Beach Shores**, a separate municipality with its own town government and its own [police and building departments](https://palmbeachshoresfl.us/departments/).
 
-This affects your taxes, your services, your permitting authority and your code enforcement. Two addresses a mile apart can be in different cities. Confirm which rather than assuming from the island name.
+This affects your taxes, your services, your permitting authority and your code enforcement. Two addresses a mile apart can be in different municipalities, and listings often give the city as "Singer Island" or even "West Palm Beach", which are mailing names. Confirm the municipality on the [Property Appraiser's](https://pbcpao.gov/) record rather than the listing.
 
 ## The seasonal-ownership effect
 
-Something that shapes this island more than its geography does: a large share of the housing is owned by people who are not here most of the year.
+A meaningful share of the island's housing, especially in the towers, is owned by people who aren't here all year. How much varies substantially by building: some are largely full-time, others quiet down sharply after season.
 
-The practical consequences run in both directions. Buildings are quieter than their unit count suggests, parking is easier than it looks, and the beach in July belongs to a small number of people. Against that, a community where half the residents rotate is slower to form the kind of ties a mainland street develops over decades.
-
-Year-round residents here tend to describe the island as two communities occupying the same buildings at different times — and they're generally clear about preferring one of them.
+The consequences run both ways. A quiet building in summer can be a pleasure, and a community where many neighbors come and go can be slower to form the ties a mainland street develops. The way to find out is to look: visit in high season and again in summer, and ask the building manager about owner occupancy and rental patterns.
 
 ## What the island doesn't have
 
-- **No walkable downtown** in the tower corridor — no main street, no district of shops. Palm Beach Shores is the exception and it's small.
-- **Limited retail.** Groceries and essentials mean crossing a bridge.
-- **Very little single-family housing** outside the southern town.
+- **No walkable downtown** in the tower corridor: no main street, no district of shops. Palm Beach Shores is the exception, and it's small.
+- **Limited retail.** Most groceries and errands mean crossing a bridge.
+- **Houses in only a few places.** Outside Palm Beach Isles, Yacht Harbor and Palm Beach Shores, the island is almost all condominiums.
 - **No civic center** in the way a mainland town has one.
 
-What it has instead is proximity. West Palm Beach, Palm Beach and Palm Beach Gardens are all short drives, and residents treat the mainland as an extension of home.
+What it has instead is proximity. Riviera Beach, North Palm Beach, Palm Beach Gardens and West Palm Beach are all on the mainland nearby, and residents treat the mainland as an extension of home.
 
 ## What surprises people most
 
 Two things, consistently.
 
-The first is how much the building matters. Newcomers shop for a view and discover within a year that the character of their tower — how it's run, who lives there, how the finances look — shapes daily life far more than the direction the balcony faces.
+The first is how much the building matters. Newcomers shop for a view and discover within a year that the character of their tower (how it's run, who lives there, how the finances look) shapes daily life far more than the direction the balcony faces. For house buyers the equivalent is the lot: a waterfront house comes with a seawall and often a dock to maintain, and work on either needs permits.
 
-The second is the wind. An oceanfront balcony twelve floors up is a genuinely different environment from a beach: it's breezier than expected, most of the year, and it rearranges what you can grow, dry, or leave out. Nobody mentions this and everybody notices it.
+The second is the wind. An oceanfront balcony twelve floors up is a different environment from the beach below it: breezier than people expect, for much of the year, and it changes what you can grow, dry or leave out. Stand on a balcony on a windy afternoon before you buy.
 
 ## The rhythm of the year
 
-Season, roughly November through April, fills the island. Buildings that were half-empty in September come alive, the beach gets busier, the bridges back up at predictable hours.
+Season, roughly November through April, fills the island. Buildings that were quiet in September come alive, the beach gets busier, and traffic to and from the bridges builds.
 
-Summer empties it dramatically. Because so much ownership is seasonal, the towers genuinely quieten, the beach is close to yours alone on a weekday morning, and the pace drops.
+Summer is quieter. Because much of the ownership is seasonal, many buildings slow down, the beach can be close to empty on a weekday morning, and the pace drops.
 
-The swing is more pronounced than in most mainland communities. If you're buying to live here year-round, spend time here in August as well as February. The two versions of this island are different places and knowing you like both matters.
+If you're buying to live here year-round, spend time here in August as well as February. The two versions of this island are different places, and knowing you like both matters.
 
 ## Being on a barrier island
 
-**Getting on and off means a bridge.** Two routes: the Blue Heron Boulevard crossing to the west, and north along the barrier island to the PGA Boulevard crossing. Both are fine most of the time, and both are subject to openings and season traffic.
+**Getting on and off means a bridge.** There are two routes: west over the Blue Heron Bridge to Riviera Beach, or north on A1A past MacArthur Beach State Park to the mainland in North Palm Beach. How long a trip takes depends on season traffic, construction, drawbridge openings along some routes, and where you're going; having two ways off helps when one is slow.
 
-**Storm exposure is at its highest here.** Barrier-island property sits in the earliest evacuation zones called, and hurricane preparation is a serious annual exercise. Our [practical guide](/blog/local-guide-to-singer-island-florida) covers what that involves.
+**Hurricane planning is part of owning on the coast.** Evacuation instructions are address- and storm-specific, so check the address in [Palm Beach County's hurricane evacuation zone lookup](https://discover.pbc.gov/oem/Pages/Hurricane.aspx) (an external county site), understand the building's storm plan, and know what the association expects of absentee owners. In a house, the plan is yours: shutters or impact glass, and who secures the property if you're away. Our [practical guide](/blog/local-guide-to-singer-island-florida) covers more of how the island works.
 
 ## The honest bottom line
 
-Singer Island offers something scarce: direct oceanfront living at prices below the estate islands nearby, with a real city fifteen minutes away — and, in Palm Beach Shores, the rare chance to have that in an actual house.
+Singer Island suits buyers who put direct water access first, whether that's an oceanfront balcony or a dock behind a house, and who are comfortable with what comes with it: in a condo, a building's finances and governance; in a house, the upkeep of a waterfront lot.
 
-It asks you to accept a bridge between you and your groceries, serious storm exposure, and an island with very little town on it.
+It suits buyers less well if they need a traditional walkable downtown, want to run frequent errands without driving, or want a yard somewhere other than Palm Beach Isles, Yacht Harbor or Palm Beach Shores.
 
 If those trades sound acceptable, our [comparison with the alternatives](/blog/singer-island-vs-nearby-cities) shows what else the money buys, and the [weighed list of trade-offs](/blog/pros-and-cons-of-living-in-singer-island-florida) tests whether the drawbacks would wear on you.`,
     faqs: [
-      { q: "What is it like living on Singer Island?", a: "Most residents live in oceanfront condo towers rather than on streets, so your front door opens onto a corridor and your outdoor space is a balcony. The trade is direct Atlantic frontage, a building that handles exterior maintenance and insurance, and lock-and-leave convenience. There is no walkable downtown and limited retail — essentials mean crossing a bridge." },
-      { q: "Is Singer Island part of Riviera Beach?", a: "Most of it, yes. The southern tip is the separate town of Palm Beach Shores, which has its own government and police and a low-rise, single-family character. This affects taxes, services, permitting and code enforcement, so confirm which municipality an address sits in rather than assuming from the island name." },
-      { q: "How many bridges connect Singer Island to the mainland?", a: "Two. The Blue Heron Boulevard crossing runs west to Riviera Beach, and heading north along the barrier island brings you to the PGA Boulevard crossing toward Palm Beach Gardens. Both are subject to bridge openings and to season traffic, but having two genuinely helps." },
-      { q: "Does Singer Island empty out in summer?", a: "Noticeably, and more than most mainland communities, because so much ownership is seasonal. Buildings that are full in February are quiet by June, and the beach can be close to yours alone on a weekday morning. If you plan to live here year-round, visit in August as well as February before committing." },
-      { q: "Are there single-family homes on Singer Island?", a: "Very few, and almost all of them are in Palm Beach Shores at the southern end — a small, low-rise town with its own municipal government. The rest of the island is overwhelmingly condominium, which is the single biggest thing for buyers to understand before they start looking." },
-      { q: "Is Singer Island a good place to live full-time?", a: "It suits people who genuinely want oceanfront living and are comfortable with condo governance, high carrying costs and crossing a bridge for groceries. It suits people wanting a neighborhood, a yard or a walkable town considerably less. Spending time here in both February and August is the best test." },
+      { q: "What is it like living on Singer Island?", a: "It depends on whether you live in a condo tower or a house. Most homes on the island are condominiums along the ocean, where the association looks after the building and grounds and the building's finances and rules come with the unit. Houses are in Palm Beach Isles, Yacht Harbor and Palm Beach Shores. There is no traditional walkable downtown, and most errands mean crossing a bridge." },
+      { q: "Is Singer Island part of Riviera Beach?", a: "Singer Island is a geographic community, not a municipality. Most of it is in the City of Riviera Beach; the south end is the Town of Palm Beach Shores, with its own town government, police and building departments. Taxes, services, permitting and code enforcement follow the municipality, so confirm it on the Property Appraiser's record rather than the listing's city name." },
+      { q: "How do you get on and off Singer Island?", a: "Two routes: west over the Blue Heron Bridge to Riviera Beach, or north on A1A past John D. MacArthur Beach State Park to the mainland in North Palm Beach. Trip times depend on season traffic, construction, drawbridge openings along some routes, and where you're going." },
+      { q: "Does Singer Island empty out in summer?", a: "Many buildings are noticeably quieter in summer because a share of owners are seasonal, but occupancy varies substantially by building. Visit in high season and again in summer, and ask the building manager about owner occupancy and rental patterns." },
+      { q: "Are there single-family homes on Singer Island?", a: "Yes. Houses are in three places: Palm Beach Isles and Yacht Harbor, on the lagoon side of the Riviera Beach part of the island, and the Town of Palm Beach Shores at the south end. Many sit on canals or the lagoon. Outside those areas the island is almost all condominiums." },
+      { q: "What should a condo buyer check on Singer Island?", a: "The building as much as the unit: the budget and reserve funding, the master insurance declarations and deductibles, any current or anticipated special assessments, inspection and reserve-study records where they exist, recent board minutes, and the rules on rentals, pets, renovations and storm preparation. The association's master policy and your own HO-6 and loss-assessment coverage are separate questions for your insurance agent." },
+      { q: "Is Singer Island a good place to live full-time?", a: "It suits buyers who put direct water access first and are comfortable with a condo building's finances and governance, or with the upkeep of a waterfront house. It suits buyers less well if they need a walkable downtown, frequent errands without driving, or a yard outside Palm Beach Isles, Yacht Harbor and Palm Beach Shores. Visiting in both high season and summer is the best test." },
     ],
     internalLinks: ["best-neighborhoods-in-singer-island-florida", "singer-island-vs-nearby-cities", "pros-and-cons-of-living-in-singer-island-florida"],
-    funFact: "Singer Island is technically part of the City of Riviera Beach — but most residents identify with the island, not the mainland city. That distinction matters when you're researching neighborhoods: the island and the surrounding Riviera Beach mainland are very different places.",
+    funFact: "Singer Island is a place, not a city. Most of it is in Riviera Beach, the south end is the Town of Palm Beach Shores, and listings may show Singer Island or West Palm Beach as the city because those are mailing names. Before you compare taxes or permits on two addresses, check which municipality each one is actually in.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-26',
   },
   {
     slug: 'local-guide-to-singer-island-florida',
