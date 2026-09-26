@@ -39,6 +39,18 @@ export interface CommunityItem {
   // isn't earning clicks for a page's actual ranking queries (see Search Console data).
   metaTitle?: string
   metaDescription?: string
+  /** Replaces the default "{name} Real Estate" H1. */
+  heroHeading?: string
+  /** Replaces the default "Search {name} Listings" label on the hero button. */
+  heroSearchLabel?: string
+  /** Replaces the hero's "Talk to an Agent" button — e.g. an in-page anchor. */
+  heroSecondaryCta?: { label: string; href: string }
+  /**
+   * A search URL scoped to this community, used by every "search listings"
+   * button on the page instead of the parent-city search. Only set it when
+   * Ylopo resolves the name (see `ylopoLocation`).
+   */
+  listingsSearchUrl?: string
   overview: string
   /** Direct-answer explainer under the overview — see PlaceNote. */
   placeNotes?: PlaceNote[]
@@ -3471,12 +3483,63 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Mirasol',
     type: 'Neighborhood',
     region: 'Palm Beach Gardens',
-    description: 'An ultra-exclusive gated golf community with custom estate homes surrounding two championship courses.',
+    description: 'A gated residential country-club community with two championship golf courses and 23 neighborhoods, where every home carries a membership category that shapes your club access, your carrying costs and your resale appeal.',
+    // The membership guide, cost table and closing CTA live in
+    // src/components/communityGuide/MirasolGuide.tsx; facts there and here were
+    // checked against the club's site, its fee schedules and the City's
+    // FY2025 ACFR on 2026-09-26.
+    metaTitle: 'Mirasol Real Estate & Membership Guide | Palm Beach Gardens',
+    metaDescription: 'Mirasol, Palm Beach Gardens: two championship courses, membership tied to every home, reported fees and dues, amenities, and what to check before you offer.',
+    heroHeading: 'Mirasol Real Estate in Palm Beach Gardens',
+    heroSearchLabel: 'Search Mirasol Homes',
+    heroSecondaryCta: { label: 'Get the Current Membership Schedule', href: '#membership-schedule' },
+    // Ylopo files Mirasol as both a community and a subdivision (autocomplete, 2026-09-26).
+    listingsSearchUrl: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][community]=Mirasol&s[locations][0][city]=Palm%20Beach%20Gardens&s[locations][0][state]=FL&s[locations][1][subdivision]=Mirasol&s[locations][1][city]=Palm%20Beach%20Gardens&s[locations][1][state]=FL&s[minPrice]=400000',
     overview:
-      'Mirasol is one of the most prestigious gated communities in Palm Beach Gardens, featuring two Arthur Hills-designed championship golf courses and custom estates. It\'s a members-only private club community offering the pinnacle of Palm Beach County luxury living.',
+      'Mirasol is a gated, member-owned country-club community north of PGA Boulevard in Palm Beach Gardens, with about 1,170 homes in 23 neighborhoods on roughly 2,300 acres, around 850 of them habitat and preserve. It has 36 holes of championship golf: the Sunrise course by Tom Fazio and the Sunset course by Arthur Hills. Club membership comes with every home and is mandatory with ownership. The category a home carries (Golf, Sports or Social) decides what the owner can use at the club and what they pay it each year, which makes the membership as important to the purchase as the house itself.',
     quickFacts: [
-      { label: 'Homes', value: 'Custom luxury estates' },
-      { label: 'Amenities', value: 'Two championship golf courses, private club, tennis, spa' },
+      { label: 'Community type', value: 'Gated, member-owned residential country club' },
+      { label: 'Golf', value: '36 holes: Sunrise by Tom Fazio and Sunset by Arthur Hills' },
+      { label: 'Membership', value: 'Mandatory with ownership. Each home carries a Golf, Sports or Social category' },
+      { label: 'Size', value: 'About 1,170 homes in 23 neighborhoods on roughly 2,300 acres' },
+    ],
+    faqs: [
+      {
+        q: 'Is membership required at Mirasol?',
+        a: 'Yes. Membership comes with the home and is mandatory with ownership. Every Mirasol title owner pays the membership contribution, dues and assessments for the category that goes with their home.',
+      },
+      {
+        q: 'Does every Mirasol home come with Golf membership?',
+        a: 'No. Each home carries its own category: Golf, Sports or Social. Golf is the category buyers ask for most, and it has a waiting list, so confirm the category of the specific home with the club before you make an offer.',
+      },
+      {
+        q: 'What happens if I buy a home without the membership category I want?',
+        a: 'You cannot buy an upgrade at closing. You can join the club\'s waiting list to upgrade, but availability and timing are not guaranteed. If Golf matters to you, focus on homes that already carry it.',
+      },
+      {
+        q: 'Can I downgrade a Mirasol membership?',
+        a: 'A buyer purchasing a home with a higher membership category may choose to downgrade, subject to club rules. Confirm the current rules, and how a downgrade affects your fees, directly with the club.',
+      },
+      {
+        q: 'How does the Mirasol equity payment work?',
+        a: 'The contribution paid at closing, the Recreational Facilities Maintenance Contribution (RFMC), has been split into a non-refundable initiation portion and a defined equity portion. Under the 2023 schedule, non-tenured owners were eligible, under the club\'s bylaws, for a return of 80% of the equity portion when they sold. That is 80% of the equity portion, not 80% of the whole payment. Eligibility, timing and the current split must be confirmed with the club.',
+      },
+      {
+        q: 'What is separate from club dues?',
+        a: 'Village association and MMMA dues and assessments (billed through Lang Management), property taxes, any property-specific improvement-district charges, the club\'s one-time capital contribution, and club special assessments such as the monthly Facilities Enhancement Project assessment. Ask for all of them together when you compare homes.',
+      },
+      {
+        q: 'Are the new golf and pickleball facilities open?',
+        a: 'As of September 2026 we have not been able to confirm that either has opened. The City of Palm Beach Gardens\' latest report (May 2026) said construction was underway on the golf amenities building, with completion anticipated by fall 2026, and on the seven-court indoor pickleball building, anticipated by spring 2026. Ask us for the current status.',
+      },
+    ],
+    keyLinks: [
+      { label: 'Mirasol membership categories', url: 'https://mirasolcc.com/membership/', category: 'Mirasol Country Club' },
+      { label: 'Golf at Mirasol', url: 'https://mirasolcc.com/golf/', category: 'Mirasol Country Club' },
+      { label: 'Racquet sports', url: 'https://mirasolcc.com/racquet-sports/', category: 'Mirasol Country Club' },
+      { label: 'Health and wellness', url: 'https://mirasolcc.com/health-wellness/', category: 'Mirasol Country Club' },
+      { label: 'Sports Complex', url: 'https://mirasolcc.com/sports-complex/', category: 'Mirasol Country Club' },
+      { label: 'The community', url: 'https://mirasolcc.com/community/', category: 'Mirasol Country Club' },
     ],
     photos: [
       '/images/mirasol/mirasol-sign-lake-fountain.jpg',

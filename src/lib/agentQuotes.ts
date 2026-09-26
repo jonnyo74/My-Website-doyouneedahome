@@ -95,8 +95,8 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'mirasol': {
-    christineQuote: "Mirasol is for buyers at the top of the Palm Beach Gardens market — two Arthur Hills championship courses, custom estate homes, and a members-only club experience. I work this market with the discretion it requires.",
-    johnQuote: "Mirasol works for ultra-luxury buyers who want the best private golf address in Gardens. Inventory rarely comes to market and transactions move quietly. Buyers need an agent with real relationships inside this community — and that's exactly what I bring.",
+    christineQuote: "Mirasol is for buyers at the top of the Palm Beach Gardens market — two championship courses by Tom Fazio and Arthur Hills, and a member-owned club. I work this market with the discretion it requires.",
+    johnQuote: "At Mirasol the membership on the home matters as much as the house. Before we tour, I confirm whether a home carries Golf, Sports or Social, and walk buyers through the dues and the upgrade waiting list, so nobody falls for a house that doesn't fit how they want to use the club.",
   },
 
   'ibis': {

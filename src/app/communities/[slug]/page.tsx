@@ -20,6 +20,7 @@ import CommunityVideo from '@/components/CommunityVideo'
 import GreatSchoolsCard, { greatSchoolsCity } from '@/components/GreatSchoolsCard'
 import PaddleCommunityLink from '@/components/paddle/PaddleCommunityLink'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import { communityGuides } from '@/components/communityGuide'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
@@ -125,6 +126,13 @@ export default async function CommunityPage({ params }: Props) {
   // search only resolves real municipalities, not subdivision/community names
   // (e.g. searching city="Abacoa" returns zero results; it must be "Jupiter").
   const searchName = community.searchCity ?? parentCity?.name ?? community.name
+  // Every plain "search listings" button. Communities Ylopo can resolve by name
+  // supply their own scoped URL; the rest fall back to the parent-city search.
+  const listingsHref = community.listingsSearchUrl ?? searchUrl(searchName)
+  const guide = communityGuides[community.slug]
+  const heroHeading = community.heroHeading ?? `${community.name} Real Estate`
+  const heroSearchLabel = community.heroSearchLabel ?? `Search ${community.name} Listings`
+  const heroSecondary = community.heroSecondaryCta ?? { label: 'Talk to an Agent', href: '/contact' }
 
   // Mirrors the rendered FAQ block above. Emitted only when the community
   // actually has FAQs, so pages without them are unchanged.
@@ -189,25 +197,25 @@ export default async function CommunityPage({ params }: Props) {
                 {community.type} · {community.region}
               </p>
               <h1 className="mt-2 font-serif text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-                {community.name} Real Estate
+                {heroHeading}
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-white/80 sm:text-lg">
                 {community.description}
               </p>
               <div className="mt-7 flex flex-wrap gap-4">
                 <a
-                  href={searchUrl(searchName)}
+                  href={listingsHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
                 >
-                  Search {community.name} Listings →
+                  {heroSearchLabel} →
                 </a>
                 <Link
-                  href="/contact"
+                  href={heroSecondary.href}
                   className="inline-flex items-center rounded-full border border-white/40 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10"
                 >
-                  Talk to an Agent
+                  {heroSecondary.label}
                 </Link>
               </div>
             </div>
@@ -239,25 +247,25 @@ export default async function CommunityPage({ params }: Props) {
                   {community.type} · {community.region}
                 </p>
                 <h1 className="mt-3 font-serif text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl">
-                  {community.name} Real Estate
+                  {heroHeading}
                 </h1>
                 <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
                   {community.description}
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a
-                    href={searchUrl(searchName)}
+                    href={listingsHref}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gold-600"
                   >
-                    Search {community.name} Listings →
+                    {heroSearchLabel} →
                   </a>
                   <Link
-                    href="/contact"
+                    href={heroSecondary.href}
                     className="inline-flex items-center rounded-full border border-slate-300 px-7 py-3.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600"
                   >
-                    Talk to an Agent
+                    {heroSecondary.label}
                   </Link>
                 </div>
               </div>
@@ -273,7 +281,7 @@ export default async function CommunityPage({ params }: Props) {
                   </p>
                   <div className="mt-5 space-y-3">
                     <a
-                      href={searchUrl(searchName)}
+                      href={listingsHref}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -319,7 +327,7 @@ export default async function CommunityPage({ params }: Props) {
               </h2>
             </div>
             <a
-              href={searchUrl(searchName, { minPrice: 600000 })}
+              href={community.listingsSearchUrl ?? searchUrl(searchName, { minPrice: 600000 })}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-gold-600 transition hover:text-gold-700"
@@ -432,6 +440,9 @@ export default async function CommunityPage({ params }: Props) {
                   </div>
                 </div>
               )}
+
+              {/* Long-form buyer's guide, for the few communities that have one */}
+              {guide && <guide.Guide />}
 
               {/* Agent blurb — top */}
               <AgentBlurb
@@ -643,7 +654,7 @@ export default async function CommunityPage({ params }: Props) {
                     Ranges are approximate and reflect current market conditions. Contact us for a precise valuation.
                   </p>
                   <a
-                    href={searchUrl(searchName)}
+                    href={listingsHref}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-flex text-sm font-semibold text-gold-600 transition hover:text-gold-700"
@@ -896,7 +907,7 @@ export default async function CommunityPage({ params }: Props) {
               {/* FAQs — rendered plainly and mirrored into FAQPage JSON-LD
                   further down so the answers are eligible for rich results. */}
               {community.faqs && community.faqs.length > 0 && (
-                <div>
+                <div id="faqs" className="scroll-mt-28">
                   <h2 className="font-serif text-2xl font-semibold text-slate-900">
                     Frequently Asked Questions About {community.name}
                   </h2>
@@ -913,6 +924,8 @@ export default async function CommunityPage({ params }: Props) {
                   </dl>
                 </div>
               )}
+
+              {guide?.Closing && <guide.Closing searchHref={listingsHref} />}
 
               {/* Quick Facts */}
               <div>
@@ -1048,7 +1061,7 @@ export default async function CommunityPage({ params }: Props) {
                   </p>
                   <div className="mt-5 space-y-3">
                     <a
-                      href={searchUrl(searchName)}
+                      href={listingsHref}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -1134,7 +1147,7 @@ export default async function CommunityPage({ params }: Props) {
         <div className="mx-auto max-w-7xl rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
           <div className="space-y-3">
             <a
-              href={searchUrl(searchName)}
+              href={listingsHref}
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full items-center justify-center rounded-full bg-gold-500 px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-gold-600"
@@ -1166,7 +1179,7 @@ export default async function CommunityPage({ params }: Props) {
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href={searchUrl(searchName)}
+              href={listingsHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-gold-700 shadow transition hover:bg-blue-50"
