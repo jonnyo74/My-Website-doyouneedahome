@@ -37,3 +37,65 @@ export const YLOPO_ALIASES: Record<string, string[]> = {
 export function getYlopoAliases(name: string): string[] {
   return YLOPO_ALIASES[name] ?? []
 }
+
+export type YlopoLocation = Record<string, string>
+
+// Cities where a plain `{ city }` search returns the wrong homes, keyed by the
+// city name the widget is given. The widget swaps in these locations and
+// property types whenever it is called for that city with no neighborhood, so
+// the community page and every blog article for the city pick it up.
+//
+// Singer Island (2026-09-26): condowpb.com covers the island's condos and this
+// site covers its single-family homes, so the widget shows houses only. A plain
+// "Singer Island" city search is almost all condos (48 of 48 checked), and
+// Ylopo files most island houses under their West Palm Beach mailing city, by
+// neighborhood: Palm Beach Isles, Yacht Harbor, Pine Point, Sugar Sands and the
+// Palm Beach Shores plats. The union below returned 15 active houses, every one
+// on the island (Palm Beach Isles and Palm Beach Shores), and nothing from
+// mainland Riviera Beach. A bare Riviera Beach or West Palm Beach city search
+// would pull in the mainland, so never add one here.
+//
+// Property type must be 'house'. 'SFR' is silently ignored by the listings API.
+const WPB = 'West Palm Beach'
+const RB = 'Riviera Beach'
+
+export const YLOPO_CITY_SEARCHES: Record<string, { locations: YlopoLocation[]; propertyTypes: string[] }> = {
+  'Singer Island': {
+    propertyTypes: ['house'],
+    locations: [
+      { community: 'Palm Beach Isles', city: WPB, state: 'FL' },
+      { subdivision: 'Palm Beach Isles', city: WPB, state: 'FL' },
+      { subdivision: 'Palm Beach Isles 1', city: WPB, state: 'FL' },
+      { subdivision: 'Palm Beach Isles 2', city: WPB, state: 'FL' },
+      { community: 'Yacht Harbor Estates', city: WPB, state: 'FL' },
+      { subdivision: 'Yacht Harbor Est', city: WPB, state: 'FL' },
+      { subdivision: 'Yacht Harbor Manor', city: WPB, state: 'FL' },
+      { subdivision: 'Yacht Harbor Manor', city: RB, state: 'FL' },
+      { subdivision: 'Pine Point', city: WPB, state: 'FL' },
+      { community: 'Sugar Sands', city: WPB, state: 'FL' },
+      { subdivision: 'Sugar Sands', city: WPB, state: 'FL' },
+      { community: 'Sophia Seneca Estates', city: RB, state: 'FL' },
+      { community: 'South Singer Island', city: WPB, state: 'FL' },
+      { community: 'Palm Beach Shores', city: WPB, state: 'FL' },
+      { subdivision: 'Palm Beach Shores', city: WPB, state: 'FL' },
+      { subdivision: 'Palm Beach Shores', city: 'Palm Beach Shores', state: 'FL' },
+      { city: 'Palm Beach Shores', state: 'FL' },
+      { city: 'Singer Island', state: 'FL' },
+      { neighborhood: 'Singer Island', city: RB, state: 'FL' },
+    ],
+  },
+}
+
+export function getYlopoCitySearch(city: string) {
+  return YLOPO_CITY_SEARCHES[city]
+}
+
+// The same locations as search.doyouneedahome.com query params, for "view all"
+// links and saved-search buttons.
+export function ylopoLocationParams(locations: YlopoLocation[]): string {
+  return locations
+    .flatMap((loc, i) =>
+      Object.entries(loc).map(([k, v]) => `&s[locations][${i}][${k}]=${encodeURIComponent(v)}`),
+    )
+    .join('')
+}
