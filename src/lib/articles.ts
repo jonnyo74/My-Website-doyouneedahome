@@ -2709,122 +2709,436 @@ For more on West Palm Beach itself, see [what it's really like living in West Pa
     cityName: 'West Palm Beach',
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
-    metaTitle: "Best Places to Eat & Drink in West Palm Beach, FL",
-    metaDescription: "Where to eat, drink, and hang out in West Palm Beach, Florida — from Clematis Street and CityPlace to Antique Row and a historic food hall.",
+    seoTitle: "Best Places to Eat, Drink & Hang Out in West Palm Beach, FL: A Verified Local Guide",
+    metaTitle: "Where to Eat, Drink & Hang Out in West Palm Beach, FL",
+    metaDescription: "A verified guide to where to eat, drink and hang out in West Palm Beach, FL: downtown, Nora, Northwood, South Dixie, Antique Row, coffee and taprooms.",
     primaryKeyword: "best restaurants in West Palm Beach Florida",
-    secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach nightlife", "Clematis Street restaurants", "Grandview Public Market"],
+    secondaryKeywords: ["where to eat in West Palm Beach", "West Palm Beach restaurants", "Northwood Village restaurants", "Antique Row restaurants West Palm Beach", "Nora District restaurants", "West Palm Beach nightlife"],
     h1: "Best Places to Eat, Drink & Hang Out in West Palm Beach, Florida",
     heroImage: '/images/west-palm-beach/nora-taqueria-patio-bar-hero.webp',
-    heroImageAlt: "The covered patio bar at Loco Taqueria in West Palm Beach's Nora district: an arched back bar lined with bottles and a curved counter with wooden stools and amber under-lighting",
+    heroImageAlt: "The covered patio bar at Loco Taqueria & Oyster Bar in West Palm Beach's Nora District: an arched back bar lined with bottles and a curved counter with wooden stools and amber under-lighting",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '40% 50%',
-    body: `This guide covers **neighborhood** dining in West Palm Beach — the places scattered through the historic districts, along Antique Row, and out in the residential parts of the city where people actually eat on a Tuesday.
+    editorial: {
+      eyebrow: 'West Palm Beach · Local Dining Guide',
+      deck: "Restaurants, coffee, bars and markets across downtown, Nora, Northwood, South Dixie and Clare Avenue, grouped by occasion and each checked on its own website.",
+      heroLayout: 'split',
+      heroTone: 'warm',
+      panelImage: { src: '/images/west-palm-beach/nora-taqueria-patio-bar-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/west-palm-beach/nora-taqueria-patio-bar-mobile.webp', width: 1200, height: 800 },
+      mobileAspect: '16/9',
+      primaryCta: { label: 'Explore West Palm Beach', href: '/communities/west-palm-beach' },
+      secondaryCta: { label: 'See things to do', href: '/blog/best-things-to-do-in-west-palm-beach-florida' },
+      guide: {
+        heading: "Where to eat, drink and hang out",
+        intro: "West Palm Beach's restaurants and bars are spread across downtown, the Nora District, Northwood Village, South Dixie Highway, Clare Avenue and other corridors, so the useful question is what setting and occasion you want, not which area is best. These are editorially selected places, not a complete directory. Each was checked on its own website on the review date shown, and its address against the City of West Palm Beach's parcel data. Listings are grouped by area and occasion, not ranked. Hours, menus, reservations, accessibility, parking and events change, so confirm them with the venue before you go.",
+        lastReviewed: '2026-09-24',
+        categories: [
+          {
+            id: "downtown",
+            title: "Downtown: Clematis Street and CityPlace",
+            intro: "The Downtown Development Authority counts more than 70 restaurants downtown, so this is a short sample. The section after the listings links to fuller downtown coverage.",
+            places: [
+              {
+                name: "Pistache French Bistro",
+                body: "A French bistro at the east end of Clematis Street, near Flagler Drive, with posted hours for each meal period.",
+                bestFor: ["French", "Dinner"],
+                area: "Downtown, 101 N. Clematis Street",
+                note: "Its site listed summer hours, with Monday closures, through September 2026. It takes reservations through OpenTable. Check current hours on its own site.",
+                link: { label: "Pistache French Bistro", href: "https://www.pistachewpb.com" },
+              },
+              {
+                name: "Elisabetta's Ristorante",
+                body: "An Italian restaurant and bar on Banyan Boulevard serving handmade pasta. Its site lists a DJ on Friday and Saturday nights.",
+                bestFor: ["Italian", "Groups", "Weekend evening"],
+                area: "Downtown, 185 Banyan Boulevard",
+                note: "It takes reservations through OpenTable. Check hours and events on its own site before you go.",
+                link: { label: "Elisabetta's West Palm Beach", href: "https://www.elisabettas.com/wpb" },
+              },
+              {
+                name: "Harry's Bar & Restaurant",
+                body: "A steak and continental restaurant and bar at CityPlace, a sister to the New York original, with separate hours for the dining room and the bar.",
+                bestFor: ["Dinner", "Cocktails"],
+                area: "CityPlace, 384 S. Rosemary Avenue",
+                note: "It takes reservations through Resy or by phone. Check current hours on its own site.",
+                link: { label: "Harry's West Palm Beach", href: "https://www.harrysbarrestaurant.com/harrys-west-palm-beach" },
+              },
+              {
+                name: "The Rooftop Restaurant at RH West Palm",
+                body: "The restaurant on the roof of RH's gallery at CityPlace.",
+                bestFor: ["Lunch", "Rooftop setting"],
+                area: "CityPlace, 560 Okeechobee Boulevard",
+                note: "CityPlace's directory lists reservations through OpenTable. Check hours and reservations with RH before you go.",
+                link: { label: "The Rooftop Restaurant at RH West Palm", href: "https://rh.com/us/en/westpalm/restaurant" },
+              },
+              {
+                name: "Moody Tongue Sushi",
+                body: "An omakase sushi counter inside the Hilton West Palm Beach that pairs its courses with Moody Tongue beers. The MICHELIN Guide lists it.",
+                bestFor: ["Omakase", "Special occasion"],
+                area: "Downtown, 600 Okeechobee Boulevard",
+                note: "Seatings and menus are set in advance. Check times and reservations on its own site.",
+                link: { label: "Moody Tongue Sushi West Palm Beach", href: "https://www.moodytongue.com/location/moody-tongue-sushi-west-palm-beach/" },
+              },
+            ],
+          },
+          {
+            id: "coffee-daytime",
+            title: "Coffee, bakeries and daytime",
+            intro: "Places for coffee, a pastry or a daytime meeting, in several parts of the city. Some close by mid-afternoon.",
+            places: [
+              {
+                name: "Subculture Coffee",
+                body: "A coffee shop and roaster on Clematis Street with baked goods, including vegan options, and online ordering.",
+                bestFor: ["Coffee", "Morning meetup"],
+                area: "Downtown, 500 block of Clematis Street",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Subculture Coffee", href: "https://www.subculturecoffee.com" },
+              },
+              {
+                name: "Hive Bakery & Cafe",
+                body: "A bakery and café on South Dixie Highway serving breakfast and lunch, with later hours on some days.",
+                bestFor: ["Bakery", "Breakfast", "Lunch"],
+                area: "South Dixie Highway, 1603 S. Dixie Hwy.",
+                note: "Hours vary by day. Check its own site before you go.",
+                link: { label: "Hive Bakery & Cafe", href: "https://hivebakeryandcafe.com" },
+              },
+              {
+                name: "Common Grounds Brew & Roastery",
+                body: "A coffee roaster and café on South Dixie Highway, within the address range the Antique Row district publishes.",
+                bestFor: ["Coffee", "Daytime"],
+                area: "Antique Row, 3065 S. Dixie Hwy.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Common Grounds Brew & Roastery", href: "https://www.commongroundsroastery.com" },
+              },
+              {
+                name: "The Pumphouse Pouratorium",
+                body: "Pumphouse Coffee Roasters' café on Clare Avenue, where the coffee is roasted on site.",
+                bestFor: ["Coffee", "Roastery"],
+                area: "Clare Avenue, 1016 Clare Ave., Suite 5A",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Pumphouse Coffee Roasters café", href: "https://pumphousecoffee.com/pages/cafe" },
+              },
+            ],
+          },
+          {
+            id: "south-dixie-flamingo-park",
+            title: "South Dixie and Flamingo Park",
+            intro: "Restaurants on and just off South Dixie Highway south of downtown, before the Antique Row district begins.",
+            places: [
+              {
+                name: "Table 26°",
+                body: "A restaurant serving globally inspired American food for dinner, with a daily happy hour listed on its site.",
+                bestFor: ["Dinner", "Happy hour"],
+                area: "South Dixie Highway, 1700 S. Dixie Hwy.",
+                note: "It takes reservations online or by phone. Check hours on its own site.",
+                link: { label: "Table 26°", href: "https://www.table26palmbeach.com" },
+              },
+              {
+                name: "Grato",
+                body: "A restaurant with a wood-burning oven and a seasonal menu, open for dinner and Sunday brunch.",
+                bestFor: ["Dinner", "Sunday brunch"],
+                area: "South Dixie Highway, 1901 S. Dixie Hwy.",
+                note: "It takes reservations through OpenTable. Check hours on its own site.",
+                link: { label: "Grato", href: "https://gratowpb.com" },
+              },
+              {
+                name: "Emelina",
+                body: "A Cuban restaurant on Park Place, in the neighborhood its own site calls Flamingo Park. The 2026 MICHELIN Guide lists it with one star.",
+                bestFor: ["Cuban", "Special occasion"],
+                area: "Flamingo Park, 424 Park Place",
+                note: "Its site says bookings open on Tock at 9 a.m. on the 1st of each month, and that parking is on the street, with shared rides encouraged.",
+                link: { label: "Emelina", href: "https://emelinawpb.com" },
+              },
+              {
+                name: "Kitchen",
+                body: "A contemporary American brasserie on Belvedere Road, open for dinner on select nights.",
+                bestFor: ["Dinner", "Date night"],
+                area: "Belvedere Road, 319 Belvedere Rd., #2",
+                note: "It takes reservations through OpenTable. Its site also lists a separate Kitchen North in Palm Beach Gardens, so book the West Palm Beach location.",
+                link: { label: "Kitchen", href: "https://www.kitchenpb.com" },
+              },
+            ],
+          },
+          {
+            id: "antique-row-south",
+            title: "Antique Row and the south end",
+            intro: "Antique Row's own site places the district at 2700–3900 South Dixie Highway. Discover The Palm Beaches describes it as the stretch between Belvedere Road and Southern Boulevard, with more than 40 antique, art and design shops. The last three places here are farther south on the same highway.",
+            places: [
+              {
+                name: "Pink Steak",
+                body: "A steakhouse serving dinner and Sunday brunch, with a separate booking page for larger groups.",
+                bestFor: ["Steak", "Dinner", "Sunday brunch"],
+                area: "South Dixie Highway, 2777 S. Dixie Hwy.",
+                note: "It takes reservations through OpenTable. Check hours on its own site.",
+                link: { label: "Pink Steak", href: "https://www.pinksteak.com" },
+              },
+              {
+                name: "Howley's",
+                body: "A diner serving breakfast, lunch and dinner, with online ordering and late hours on weekends.",
+                bestFor: ["Diner", "Breakfast", "Late meal"],
+                area: "South Dixie Highway, 4700 S. Dixie Hwy.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Howley's", href: "https://sub-culture.org/howleys/" },
+              },
+              {
+                name: "Palm Beach Meats",
+                body: "An all-wagyu butcher shop and market with a fast-casual kitchen serving lunch and dinner. The 2026 MICHELIN Guide lists it as a Bib Gourmand.",
+                bestFor: ["Butcher", "Casual lunch", "Take-home"],
+                area: "South Dixie Highway, 4812 S. Dixie Hwy.",
+                note: "The butcher counter and kitchen keep different hours. Check both on its own site.",
+                link: { label: "Palm Beach Meats", href: "https://palmbeachmeats.com" },
+              },
+              {
+                name: "Havana",
+                body: "A family-run Cuban restaurant with a dining room and a walk-up window that its site lists as open 24 hours.",
+                bestFor: ["Cuban", "Casual meal", "Late night"],
+                area: "South Dixie Highway, 6801 S. Dixie Hwy.",
+                note: "The dining room keeps shorter hours than the window. Check its own site before you go.",
+                link: { label: "Havana", href: "https://www.havanacubanfood.com" },
+              },
+              {
+                name: "Aioli",
+                body: "A sourdough bakery and café serving breakfast and lunch, with prepared dinners to take home and bread classes listed on its site. The 2026 MICHELIN Guide lists it as a Bib Gourmand.",
+                bestFor: ["Bakery", "Breakfast", "Lunch"],
+                area: "South Dixie Highway, 7434 S. Dixie Hwy.",
+                note: "It's a counter-service café with online ordering. Check hours on its own site.",
+                link: { label: "Aioli", href: "https://aioliwpb.com" },
+              },
+            ],
+          },
+          {
+            id: "nora-district",
+            title: "Nora District, north of downtown",
+            intro: "A dining and retail district along North Railroad Avenue, north of downtown, with its own directory and parking page. Pastis and Indaco are listed as coming soon on their own sites, so they aren't included until they open.",
+            places: [
+              {
+                name: "Loco Taqueria & Oyster Bar",
+                body: "The West Palm Beach location of a Boston taco shop, serving tacos, oysters and cocktails. The photo at the top of this page is its patio bar.",
+                bestFor: ["Tacos", "Oysters", "Evening out"],
+                area: "Nora District, 840 N. Railroad Ave.",
+                note: "It takes reservations through OpenTable and Resy, and its site lists late hours on Fridays and Saturdays.",
+                link: { label: "Loco Taqueria West Palm Beach", href: "https://www.locotacoshops.com/location/west-palm-beach/" },
+              },
+              {
+                name: "Del Mar",
+                body: "A Mediterranean restaurant focused on seafood, open for dinner and weekend brunch.",
+                bestFor: ["Mediterranean", "Dinner", "Weekend brunch"],
+                area: "Nora District, 1015 N. Railroad Ave.",
+                note: "It takes reservations. Check hours on its own site; the district directory's hours may differ.",
+                link: { label: "Del Mar West Palm Beach", href: "https://www.delmarmediterranean.com/west-palm-beach/" },
+              },
+              {
+                name: "Sunday Motor Co.",
+                body: "An automotive-themed café serving coffee and food from morning to mid-afternoon, with pickup ordering.",
+                bestFor: ["Coffee", "Breakfast"],
+                area: "Nora District, 805 N. Railroad Ave.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Sunday Motor Co. café", href: "https://www.sundaymotorco.com/pages/cafe" },
+              },
+              {
+                name: "Celis Juice Bar",
+                body: "Juice, smoothie bowls, coffee and café food.",
+                bestFor: ["Juice", "Daytime"],
+                area: "Nora District, 895 N. Railroad Ave.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Celis Juice Bar at The Nora", href: "https://www.celisjuicebar.com/locations-the-nora/" },
+              },
+              {
+                name: "Van Leeuwen Ice Cream",
+                body: "A scoop shop serving dairy and vegan ice cream, open into the evening.",
+                bestFor: ["Dessert", "After dinner"],
+                area: "Nora District, 870 N. Railroad Ave.",
+                note: "Check hours on its own site before you go.",
+                link: { label: "Van Leeuwen scoop shops", href: "https://www.vanleeuwenicecream.com/scoop-shops/" },
+              },
+            ],
+          },
+          {
+            id: "northwood-village",
+            title: "Northwood Village",
+            intro: "Northwood Village's own site keeps a directory of the district's restaurants and shops. It also lists Nights in Northwood Village, a free event it describes as quarterly, so check there for the next date.",
+            places: [
+              {
+                name: "Café Centro",
+                body: "A restaurant on North Dixie Highway that describes itself as upscale casual dining, with a happy hour menu and live music and entertainment.",
+                bestFor: ["Dinner", "Live music", "Happy hour"],
+                area: "Northwood Village, 2409 N. Dixie Hwy.",
+                note: "It takes reservations by phone and through OpenTable. Check its site for current entertainment.",
+                link: { label: "Café Centro", href: "https://cafecentrowpb.com" },
+              },
+              {
+                name: "Mestizo Fusion Cuisine",
+                body: "A Peruvian-inspired restaurant on Northwood Road, open for lunch and dinner.",
+                bestFor: ["Peruvian", "Lunch", "Dinner"],
+                area: "Northwood Village, 511 Northwood Road",
+                note: "It takes reservations through OpenTable. Check hours on its own site.",
+                link: { label: "Mestizo Fusion Cuisine", href: "https://www.mestizofusion.com" },
+              },
+              {
+                name: "Palm Beach Lobsters & Seafood",
+                body: "A seafood restaurant that describes itself as fisherman-owned, serving lobster, stone crab and local seafood, with seafood sold to take home.",
+                bestFor: ["Seafood", "Take-home"],
+                area: "Northwood Village, 2501 N. Dixie Hwy.",
+                note: "Check hours and ordering on its own site.",
+                link: { label: "Palm Beach Lobsters & Seafood", href: "https://www.palmbeachlobsters.com" },
+              },
+            ],
+          },
+          {
+            id: "clare-avenue",
+            title: "Caroline Station and Clare Avenue",
+            intro: "Caroline Station, at 1401 Clare Avenue, describes itself as the heart of the Warehouse District. It is on the block that housed Grandview Public Market, which has closed. Its directory lists current tenants, and some are marked coming soon.",
+            places: [
+              {
+                name: "Isla & Co.",
+                body: "An Australian-inspired restaurant and brunch spot at Caroline Station.",
+                bestFor: ["Brunch", "Casual dinner"],
+                area: "Caroline Station, 1401 Clare Ave.",
+                note: "Caroline Station's directory lists its hours and weekly specials. Its own page points readers to Google Maps for current hours.",
+                link: { label: "Isla & Co. West Palm Beach", href: "https://www.isla-co.com/west-palm-beach" },
+              },
+              {
+                name: "Jon Wine The Tasting Room",
+                body: "A wine tasting room and bar whose calendar lists trivia, comedy and music nights.",
+                bestFor: ["Wine", "Evening out"],
+                area: "Clare Avenue, 1605 Clare Ave.",
+                note: "It's closed some weekdays. Check hours and events on its own site.",
+                link: { label: "Jon Wine The Tasting Room", href: "https://jonwinestastingroom.com" },
+              },
+            ],
+          },
+          {
+            id: "bars-music",
+            title: "Taprooms, bars and live music",
+            intro: "Places that post their own hours or events. Programming changes week to week.",
+            places: [
+              {
+                name: "Garden District Taproom",
+                body: "A self-pour craft beer taproom on Evernia Street downtown. Its events page lists jazz nights and other live music.",
+                bestFor: ["Craft beer", "Live music"],
+                area: "Downtown, 410 Evernia Street, Suite 119",
+                note: "Check its events page for the current calendar.",
+                link: { label: "Garden District Taproom", href: "https://www.gardendistrictwpb.com" },
+              },
+              {
+                name: "Civil Society Brewing Co.",
+                body: "A brewery with an outdoor beer garden and rotating food trucks, and a weekly trivia night on its calendar.",
+                bestFor: ["Brewery", "Outdoor seating", "Trivia"],
+                area: "Kanuga Drive, 425 Kanuga Dr.",
+                note: "Check hours and the food truck schedule on its own site.",
+                link: { label: "Civil Society Brewing West Palm Beach", href: "https://civilsocietybrewing.com/west-palm-beach/" },
+              },
+              {
+                name: "Hullabaloo",
+                body: "A gastropub on Clematis Street serving house-made Italian food, cocktails and craft beer, open late, with Sunday brunch.",
+                bestFor: ["Late evening", "Drinks", "Sunday brunch"],
+                area: "Downtown, 517 Clematis Street",
+                note: "Check hours and events on its own site.",
+                link: { label: "Hullabaloo", href: "https://sub-culture.org/hullabaloo/" },
+              },
+              {
+                name: "Lost Weekend",
+                body: "A bar and pool hall on Clematis Street with arcade games, open late.",
+                bestFor: ["Pool", "Late night"],
+                area: "Downtown, 526 Clematis Street",
+                note: "Check hours on its own site.",
+                link: { label: "Lost Weekend", href: "https://sub-culture.org/lost-weekend/" },
+              },
+              {
+                name: "Clematis by Night",
+                body: "The City's outdoor concert series, held on Thursday evenings from 6 to 9 on the Great Lawn at Centennial Square, with a different band or theme each week.",
+                bestFor: ["Outdoor live music", "Thursday evening"],
+                area: "Downtown waterfront, 100 N. Clematis Street",
+                note: "The City posts each week's lineup and skips some holidays, including Thanksgiving.",
+                link: { label: "City of West Palm Beach: Clematis by Night", href: "https://www.wpb.org/Residents/Community-Events/Events/Clematis-by-Night" },
+              },
+            ],
+          },
+          {
+            id: "markets",
+            title: "Markets and specialty food",
+            intro: "Places to buy food to take home. Aioli and Palm Beach Meats, listed above, also sell take-home food.",
+            places: [
+              {
+                name: "West Palm Beach GreenMarket",
+                body: "The City's Saturday market on the downtown waterfront. The City says the 2026–27 season returns on Saturday, October 3.",
+                bestFor: ["Saturday morning", "Produce", "Prepared food"],
+                area: "Downtown waterfront, 100 N. Clematis Street",
+                note: "Last season ran from 8:30 a.m. to 1:30 p.m. Check the City's page for this season's hours, parking and any closed dates.",
+                link: { label: "City of West Palm Beach: GreenMarket", href: "https://www.wpb.org/Residents/Community-Events/Events/WPB-GreenMarket" },
+              },
+              {
+                name: "Eataly West Palm Beach",
+                body: "An Italian marketplace at CityPlace with restaurants, counters and cafés, a market, and cooking classes.",
+                bestFor: ["Italian groceries", "Casual meal", "Cooking classes"],
+                area: "CityPlace, 580 Hibiscus Street",
+                note: "Check hours, classes and table bookings on its own site.",
+                link: { label: "Eataly West Palm Beach", href: "https://www.eataly.com/us_en/stores/west-palm-beach" },
+              },
+            ],
+          },
+        ],
+      },
+    },
+    body: `## Choose by occasion
 
-Downtown is a separate scene with its own logic, and our sister site covers it properly: [CondoWPB.com's downtown dining guide](https://www.condowpb.com/lifestyle/dining-downtown-wpb) and its [Clematis Street entertainment guide](https://www.condowpb.com/lifestyle/clematis-street-entertainment) go block by block on the Clematis and CityPlace scene. If you're planning a night out downtown, start there.
+- **Coffee or a daytime meeting:** the coffee and bakery listings, plus Sunday Motor Co. and Celis Juice Bar in the Nora District.
+- **A weeknight dinner near home:** start with the section for your part of the city: South Dixie, the Nora District, Northwood Village or Clare Avenue. Several places open only on certain nights, so check hours first.
+- **A downtown evening:** Clematis Street and CityPlace. The links below lead to fuller downtown coverage.
+- **Live music:** Clematis by Night on Thursdays, and the calendars of the taprooms and bars listed above.
+- **Food to take home:** the GreenMarket in season, Eataly, and the butcher and bakery counters on South Dixie Highway.
+- **Shopping-center dining:** Tanger Palm Beach, at 1751 Palm Beach Lakes Boulevard, lists its food and drink tenants in its [directory](https://www.tanger.com/palmbeach).
 
-For everything else, here's the local rundown.
+## Downtown in brief
 
-## Breweries and the drinking scene outside downtown
+The [Downtown Development Authority](https://downtownwpb.com/explore/dining/) says downtown is home to more than 70 restaurants, and it keeps a directory of them. Clematis Street runs west from the waterfront at Flagler Drive, and CityPlace, centered on South Rosemary Avenue, keeps its own [restaurant directory](https://www.cityplace.com/west-palm-beach-restaurants).
 
-The independent brewery and taproom scene has grown steadily and mostly sits *outside* the downtown core, tucked into light-industrial and transitional pockets around the city.
+For block-by-block downtown planning, our sister site CondoWPB.com covers [downtown restaurants](https://www.condowpb.com/lifestyle/dining-downtown-wpb), [Clematis Street entertainment](https://www.condowpb.com/lifestyle/clematis-street-entertainment) and the [Nora District](https://www.condowpb.com/lifestyle/nora-district-dining) in more depth.
 
-That's a deliberate distinction worth knowing: the downtown bar scene is nightlife, while the neighborhood taprooms skew earlier, quieter, and more conversational. They're also considerably easier to park at, which for a lot of residents settles the question.
+## Getting there and parking
 
-A handful have become genuine neighborhood anchors, functioning as informal community spaces rather than just places to drink.
+- **Downtown garages and meters:** the City runs several downtown garages and posts current rates, including weekend and event rates, on its [parking rates page](https://www.wpb.org/Departments/Parking-Mobility-Administration/Rates-Payment).
+- **West Palm MOVE:** the City's fixed route runs north and south between the Norton Museum of Art and Northwood Village, with stops at downtown/Clematis and CityPlace. As of September 2026, [West Palm MOVE](https://www.wpbmove.com/) lists rides at $1, about every 10 minutes, until 9 p.m. Monday through Saturday and 8 p.m. on Sunday. App-booked on-demand rides are $2. Check the schedule before you count on a ride home after dinner.
+- **Elsewhere:** the Nora District posts its own parking information on its [website](https://www.norawpb.com/). For other areas, check the venue's site or call ahead.
+- **Event nights:** Clematis by Night and the GreenMarket bring extra visitors downtown. The City posts parking details on its event pages.
 
-## How the districts differ
+## Hours, reservations and seasons
 
-Worth understanding before you go looking, because West Palm's neighborhood dining isn't one scene — it's several, and they don't feel alike.
+Hours, menus and booking systems vary from place to place. Several of the listings take reservations through OpenTable, Resy or Tock, and others are counter-service. Some post shorter summer schedules, and several open only on certain nights. Check the venue's own site, linked in each listing, before you go.
 
-**The southern historic districts** lean toward established, quieter restaurants with a regular clientele. Reliable rather than trend-driven, and the sort of place you become a regular at.
+## What changed, and what isn't listed yet
 
-**Northwood** skews smaller, newer, and more owner-operated, with more turnover and more personality per square foot.
+- **Grandview Public Market has closed.** Earlier versions of this guide listed the food hall on Clare Avenue. Its old web address no longer leads to the market, and the block now operates as [Caroline Station](https://carolinestation.com/).
+- **Nora District openings are staggered.** Pastis and Indaco are listed as coming soon on their own sites, so they aren't in the guide yet.
+- **Respectable Street**, the Clematis Street music club, advertises a grand reopening on October 30, 2026 on its own site.
 
-**The Grandview and train-station area** is the most mixed — a food hall alongside independents, and the most likely to work for a group with different tastes.
+## How this list was put together
 
-**West of I-95** is convenience dining: chains, larger rooms, easy parking, lower prices.
+We started from the Downtown Development Authority and CityPlace directories, the Northwood Village, Nora District, Antique Row and Caroline Station sites, and the MICHELIN Guide's West Palm Beach listings. We kept only places whose own website showed current operation: posted hours, live ordering or reservations, or dated 2026 menus or events. The one exception is Isla & Co., whose current hours come from the Caroline Station directory. We checked every address against the City of West Palm Beach's parcel data, and left out places we couldn't confirm, including restaurants whose websites were for sale, parked, or showed a closure notice. There are no rankings, ratings or paid placements here.
 
-Knowing which of these fits your normal Tuesday is more useful than any single restaurant recommendation, because it determines where you'll actually end up eating for the next several years.
+## Next steps
 
-## Coffee and the morning routine
-
-A real part of daily life in the walkable neighborhoods, and one of the genuine advantages of living east of I-95.
-
-Independent coffee shops are scattered through the historic districts and the village cores, and in Grandview Heights, Flamingo Park, and Northwood, walking to one is realistic rather than aspirational. For anyone coming from a city with a café culture, this is the part of West Palm that feels most familiar.
-
-West of the highway that changes entirely — it's drive-through territory, and the difference is one of the clearer everyday distinctions between the two halves of the city.
-
-## Antique Row and South Dixie
-
-The most characterful eating in the city, and the least publicized.
-
-Scattered among the antique dealers and design showrooms are independent restaurants that have been there for years — the kind of places with a regular crowd, no particular interest in trends, and staff who recognize repeat customers. It's a low-key, neighborhood-meal district rather than a destination strip.
-
-For residents of El Cid, SoSo, and the southern historic neighborhoods, this is the default.
-
-## Grandview Public Market
-
-A food hall in a historic building near the train station, with independent stalls covering a genuinely wide range.
-
-It solves the group-that-can't-agree problem better than anywhere else in the city, and it's casual enough for a weeknight. Its position near the Brightline station also makes it the natural first or last stop around a train trip.
-
-## Northwood
-
-North of downtown, the village core has independent, owner-operated spots with real character and a creative crowd — cafés, small restaurants, and a handful of places that have anchored the neighborhood's revitalization.
-
-It's a different feel from both downtown and the southern districts: smaller, scrappier, and more personal.
-
-## The neighborhood staples
-
-Beyond the named districts, West Palm has what most Florida cities don't: **actual neighborhood restaurants** embedded in residential areas rather than clustered in commercial strips. Corner spots, family-run places, and long-running local institutions are scattered through the historic districts and out west.
-
-These rarely make lists, they're the ones residents name when asked where they *actually* eat, and finding the two or three near your house is one of the small pleasures of settling in.
-
-## Out west
-
-Past I-95 the dining shifts toward the familiar — chains, larger-format restaurants, and shopping-center dining, with easy parking and lower prices.
-
-Less character, considerably less hassle. For a weeknight with kids or a quick meal that doesn't involve a garage, it's what residents out there use.
-
-## How season changes things
-
-**November through April** the whole city gets busier, and the popular spots need reservations they don't need in summer. Downtown parking gets meaningfully harder, which is part of why the neighborhood places fill up too — locals avoid the center.
-
-**May through October** everything relaxes. You can walk into most places, and residents often say summer dining is the quiet reward for living here year-round.
-
-## Practical local advice
-
-- **Neighborhood dining sidesteps the parking problem**, which is a real reason residents default to it. Being able to park on the street outside is worth more than it sounds.
-- **Reservations in season** at anywhere popular, especially weekends.
-- **Dress code is relaxed** nearly everywhere outside the higher-end downtown rooms.
-- **Lunch is easier than dinner** at the busier places during season.
-- **Hours shift between season and summer**, and some independents reduce hours in the slowest months. Check before you drive.
-
-## The bigger picture
-
-West Palm has the deepest and most varied food scene in the county — that's simply a function of being the only real city — but the version most guides describe is the downtown version.
-
-The neighborhood version is the one you'll actually live in: closer to home, easier to park, cheaper, and more consistent. Find your two or three regulars in the first few months and the city starts to feel like yours.
-
-One last practical note: the neighborhood scene turns over faster than the downtown one, because the rents are lower and the operators are smaller. That churn is why it stays interesting, and also why a recommendation more than a year old is worth verifying.
-
-Hours, menus, and ownership change constantly. Check directly before you go.`,
+- **More to do:** our [things to do guide](/blog/best-things-to-do-in-west-palm-beach-florida) and the [hidden gems guide](/blog/hidden-gems-in-west-palm-beach-florida).
+- **Settling in:** the [local guide](/blog/local-guide-to-west-palm-beach-florida) covers services, parking and transit, and the [neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) covers the historic districts near these restaurants.
+- **Northwood:** our [Northwood Village guide](/blog/northwood-village-west-palm-beach-neighborhood-guide) looks at the neighborhood's homes.
+- **Deciding on a move:** read [what it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida), the [Palm Beach County relocation guide](/palm-beach-county-treasure-coast-relocation-guide), and current listings on the [West Palm Beach community page](/communities/west-palm-beach).`,
     faqs: [
-      { q: "Where do locals eat in West Palm Beach?", a: "Away from downtown, residents rely on the independent restaurants scattered along Antique Row and South Dixie, the Grandview Public Market food hall near the train station, the independent spots in Northwood, and neighborhood restaurants embedded in the historic residential districts." },
-      { q: "What is Grandview Public Market?", a: "A food hall in a historic building near the Brightline station, with independent stalls covering a wide range of food. It works well for groups that can't agree, is casual enough for a weeknight, and is a natural stop around a train trip." },
-      { q: "Where should I eat in downtown West Palm Beach?", a: "Downtown is its own scene centered on Clematis Street and CityPlace, and our sister site CondoWPB.com covers it block by block in its downtown dining and Clematis Street entertainment guides." },
-      { q: "Is it hard to park for dinner in West Palm Beach?", a: "Downtown, yes — especially Thursday through Saturday and during season, when using a garage is the practical answer. Neighborhood dining largely sidesteps the problem, which is a real reason many residents default to it." },
-      { q: "Do you need reservations at West Palm Beach restaurants?", a: "During season, roughly November through April, yes at anywhere popular and especially on weekends. From May through October most places are walk-in friendly, and many residents consider summer dining one of the advantages of living here year-round." },
-      { q: "What is the dining like in west West Palm Beach?", a: "Past I-95 it shifts toward chains, larger-format restaurants, and shopping-center dining — less character but easy parking and lower prices. It's what residents out that way use for weeknight meals." },
+      { q: "Where are the main dining areas in West Palm Beach?", a: "Downtown, on and around Clematis Street and at CityPlace, has more than 70 restaurants by the Downtown Development Authority's count. Other areas with several restaurants include the Nora District on North Railroad Avenue, Northwood Village, South Dixie Highway including Antique Row, and Caroline Station on Clare Avenue. Shopping centers such as Tanger Palm Beach on Palm Beach Lakes Boulevard list their own food and drink tenants." },
+      { q: "Where can I find detailed coverage of downtown restaurants?", a: "The Downtown Development Authority keeps a directory of downtown restaurants, and CityPlace keeps its own. Our sister site CondoWPB.com covers downtown restaurants, Clematis Street entertainment and the Nora District in more depth." },
+      { q: "Is Grandview Public Market still open?", a: "No. The food hall on Clare Avenue has closed. The block now operates as Caroline Station, which lists its current food and drink tenants on its website." },
+      { q: "Where can I hear live music in West Palm Beach?", a: "The City holds Clematis by Night, an outdoor concert series, on Thursday evenings from 6 to 9 on the Great Lawn at 100 N. Clematis Street. It posts each week's lineup and skips some holidays. Several bars and taprooms also post event calendars, including Garden District Taproom downtown." },
+      { q: "Do I need reservations at West Palm Beach restaurants?", a: "It depends on the venue. Many sit-down restaurants in this guide take reservations through OpenTable, Resy or Tock, and others are counter-service. Check the venue's own site, since booking systems and hours change." },
+      { q: "Does West Palm Beach have a farmers market?", a: "The City runs the West Palm Beach GreenMarket on Saturdays in season on the downtown waterfront at 100 N. Clematis Street. The City says the 2026–27 season returns on October 3, 2026. Check its page for hours, parking and closed dates." },
+      { q: "How current is this dining list?", a: "Each place was checked on its own website on the review date shown on the page, and its address against the City of West Palm Beach's parcel data. Restaurants open, close and change hours, so confirm details before a visit." },
     ],
-    internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida"],
-    funFact: "Clematis Street has been West Palm's social spine since the 1920s — the name comes from the Clematis vine that once grew along the waterfront. The weekly Clematis by Night live-music series has run since 1994 and is one of the longest-running free outdoor music events in South Florida.",
+    internalLinks: ["best-things-to-do-in-west-palm-beach-florida", "hidden-gems-in-west-palm-beach-florida", "local-guide-to-west-palm-beach-florida", "northwood-village-west-palm-beach-neighborhood-guide"],
+    funFact: "If you're heading out without a car, look at the City's new West Palm MOVE fixed route before you choose a restaurant. It runs between the Norton Museum of Art and Northwood Village, with stops at Clematis Street and CityPlace, for $1 a ride. The catch is the hours: as of September 2026 it stops at 9 p.m. Monday through Saturday and 8 p.m. on Sunday, so plan the ride home before you book a late table.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-09-24',
+    updated: '2026-09-24',
   },
 
   {
@@ -2833,124 +3147,188 @@ Hours, menus, and ownership change constantly. Check directly before you go.`,
     cityName: 'West Palm Beach',
     type: 'Neighborhood Spotlight',
     order: 11,
-    seoTitle: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (2026 Guide)',
-    metaTitle: 'Northwood Village West Palm Beach Homes | Neighborhood Guide',
-    metaDescription: 'Northwood Village is West Palm Beach\'s most underrated neighborhood — arts scene, walkable restaurants, monthly street festivals, and real affordability. Here\'s why buyers keep discovering it.',
+    seoTitle: 'Northwood and Northwood Village, West Palm Beach: A House-Buyer Guide',
+    metaTitle: 'Northwood Village West Palm Beach Homes: House-Buyer Guide',
+    metaDescription: 'Northwood and Northwood Village in West Palm Beach for house buyers: the historic districts, housing stock by the numbers, review rules and a buyer checklist.',
     primaryKeyword: 'Northwood Village West Palm Beach homes',
     secondaryKeywords: [
+      'Northwood West Palm Beach homes',
       'Northwood Village WPB',
-      'West Palm Beach affordable neighborhoods',
-      'Nights in Northwood Village',
-      'WPB arts district homes',
+      'Old Northwood historic district',
+      'Northwood Hills West Palm Beach',
       'West Palm Beach historic homes for sale',
     ],
-    h1: 'Northwood Village: West Palm Beach\'s Most Underrated Neighborhood (And Why Buyers Keep Discovering It)',
-    heroImage: '/images/west-palm-beach/nora-railroad-ave-sign-hero.webp',
-    heroImageAlt: "A 'Nora, North Railroad Ave, Est 2025' stamp painted on an old brick wall in the Nora district of West Palm Beach",
-    heroImageCaption: "The Nora district, on North Railroad Avenue just south of Northwood.",
-    heroImageCredit: 'Photo by John Oliver',
-    heroImageWidth: 2048,
-    heroImageHeight: 1152,
-    heroImagePosition: '50% 50%',
-    body: `This guide is about **buying a house in Northwood** — the bungalows, cottages, and early-twentieth-century homes that make up the neighborhood's residential core, and what it's actually like to own one.
+    h1: 'Northwood and Northwood Village, West Palm Beach: A House-Buyer Guide',
+    body: `This guide is for researching a **house** in the Northwood area of West Palm Beach. It explains what the local names mean, what City records show about the housing stock, how historic review works, and what to check before you tour or make an offer. It doesn't rank the area or suggest who it suits.
 
-Northwood also has a condo and loft market, and that's covered in depth on our sister site: [CondoWPB.com's Northwood guide](https://www.condowpb.com/neighborhoods/northwood) goes through the buildings, the fees, and the unit-level detail. If a condo is what you're after, start there. This page is for the houses.
+For condominiums, our sister site [CondoWPB.com](https://www.condowpb.com/) covers West Palm Beach condo buildings. This page covers houses only.
 
-## What Northwood actually is
+## Northwood, Northwood Village and the Nora District
 
-A historic neighborhood north of downtown West Palm Beach, built out largely in the 1920s and 30s, with a small commercial village core surrounded by residential streets.
+These three names are often used loosely. They mean different things, and none of them is a legal description of a property.
 
-For decades it was overlooked. Over the past twenty years it has drawn artists, small-business owners, and buyers priced out of the southern historic districts, and the result is a neighborhood mid-transition — genuinely charming in stretches, still uneven in others, and considerably more affordable than El Cid or Flamingo Park.
+- **Northwood** is an informal name for the older residential area north of downtown. The City doesn't map a single "Northwood" neighborhood boundary. It does map local historic districts, and six of them are in this area: Old Northwood, Northwood Hills, Northwood Harbor, Northboro Park, West Northwood and Northwood Road. Many nearby houses sit outside all six.
+- **Northwood Village** is the commercial core around Northwood Road and nearby blocks of North Dixie Highway. The City's Community Redevelopment Agency (CRA) maps it as one of five subareas of its [Northwood/Pleasant City CRA District](https://www.wpb.org/Departments/Community-Redevelopment-Agency/NorthwoodPleasant-City), which the City says covers about 459 acres in the northern part of the city. The other four subareas are Pleasant City, the Broadway Corridor, the Currie Corridor and an industrial area.
+- **The Nora District** is a separately branded dining and retail district along North Railroad Avenue, north of downtown. In the City's GIS, its restaurant block at 840 N. Railroad Avenue falls inside the Downtown Development Authority boundary, and neither that block nor the Nora Hotel site at 1135 N. Railroad Avenue is in the Northwood/Pleasant City CRA District. It is about a mile south of Northwood Road in a straight line.
 
-That combination is the whole proposition. You're buying character and location at a discount, and accepting that the neighborhood isn't finished.
+To confirm where a specific house sits, use its parcel record and the City's maps, not a listing's neighborhood label.
 
-## The housing stock
+## Area summary
 
-This is the part that matters most for a buyer.
+| Topic | Records show | Check |
+|---|---|---|
+| Setting | North of downtown | Parcel map |
+| Houses | Mostly pre-1950 | Year built |
+| Review | 6 local districts | COA rules |
+| Shops | Northwood Road | Directory |
+| Transit | MOVE route | Schedule |
+| Water | Flagler Drive | Flood zone |
 
-**Mission and Mediterranean Revival cottages** from the 1920s, with barrel-tile roofs, arched openings, and original detail where it survived. **Frame vernacular bungalows** with porches and wood siding. A scattering of **mid-century infill** and a smaller number of newer builds on previously vacant lots.
+What each row means, and what to verify before touring or offering:
 
-**Objective characteristics:** small-to-modest lot sizes, homes generally under 2,000 square feet, original 1920s construction predominating, alley access on many blocks, mature street trees in the established sections, a wide condition range from untouched to fully restored.
+- **Setting:** the area sits north of downtown West Palm Beach. On the [Palm Beach County Property Appraiser](https://www.pbcpao.gov/) site, a parcel control number starting with **74** is in the City of West Palm Beach.
+- **Houses:** in each of the five residential historic districts, most single-family houses in the City's parcel data were built before 1950. The details are in the next section. Check the year built and the permit history for the specific house.
+- **Review:** exterior work on a property in a local historic district goes through the City's Certificate of Appropriateness (COA) process. What's reviewed, and by whom, depends on the property and the work.
+- **Shops:** the Northwood Road historic district is commercial. In the City's parcel data, 27 of its 40 parcels are classified as stores.
+- **Transit:** the City's West Palm MOVE fixed route runs between Northwood Village and the Norton Museum of Art.
+- **Water:** Northwood Harbor and Northboro Park include parcels on North Flagler Drive, the road along the Lake Worth Lagoon. Check the flood zone and elevation for the specific parcel.
 
-**What that means practically:** you are buying a house that is roughly a century old. Roof, plumbing, electrical, and windows are the four things that will determine both your insurance premium and your renovation budget, and they vary enormously property to property even on the same block.
+## The housing stock, by the numbers
 
-## The block-to-block reality
+The City's parcel layer carries the Property Appraiser's property-use class and year built. We counted single-family parcels whose centers fall inside each district, using data retrieved on September 23, 2026.
 
-Northwood is the clearest example of something true across West Palm Beach, and it deserves stating plainly: **quality and condition vary meaningfully within short distances here.**
+| District | Houses | Median built |
+|---|---|---|
+| Old Northwood | 316 | 1937 |
+| Northwood Hills | 568 | 1949 |
+| Northwood Harbor | 249 | 1948 |
+| Northboro Park | 95 | 1942 |
+| West Northwood | 20 | 1938 |
 
-Some streets are largely restored, with consistent upkeep and long-term owners. Others are mid-transition, with restored homes next to properties that haven't been touched in decades. That variation is precisely why the pricing is what it is.
+What else the same data shows:
 
-None of that is a reason to avoid the neighborhood. It is a reason to do something specific: **walk the actual block you're considering, at more than one time of day, including after dark and on a weekend.** Drive-by research and zip-code statistics are not adequate here. Buyers who do the walking consistently do well in Northwood; buyers who don't sometimes get a surprise.
+- **Construction years** across these five districts run from 1915 to 2025. The share of houses built before 1950 ranges from 52% in Northwood Hills to 71% in Old Northwood. Newer houses exist too: 14 single-family parcels in Northwood Hills and 7 in Old Northwood show a year built of 2000 or later.
+- **Lot sizes:** the median single-family lot runs from about 5,250 square feet in Northwood Harbor to about 6,700 in Old Northwood. In the three largest districts, the middle half of lots falls between roughly 5,100 and 7,600 square feet.
+- **Not only houses:** Northwood Harbor has 92 parcels classified as small multifamily (fewer than five units), about a quarter of its parcels. The Northwood Road district is commercial.
+- **Architectural styles:** the City's historic-structures layer labels each building's style. No single style is a majority in any residential district. Among contributing structures, the most common labels are Mission Revival (about a third in Old Northwood and in Northwood Hills), Minimal Traditional (about a third in Northwood Harbor) and Masonry Vernacular (the largest group in Northboro Park). Frame Vernacular, Mediterranean Revival, Bungalow and Ranch also appear.
 
-## Historic designation and what you can change
+These are district-level figures. They don't describe any single house. House size, alley access, lot shape and condition vary by property, so use the Property Appraiser record, a survey and an inspection for the one you're considering. Roof, plumbing, electrical, windows and past work are property-specific questions for your inspector and insurer, not something district data can predict.
 
-Parts of Northwood fall within historic designation, which affects what you may alter on a building's exterior — windows, roofing materials, additions, and in some cases paint.
+## Historic districts and what review covers
 
-This is a genuine double-edged item. It's what preserves the architectural character that makes the neighborhood worth buying into, and it's a real constraint if you arrive with renovation plans that assume you can do whatever you like.
+The City says it has 18 locally designated historic districts and 46 individually designated sites. Its [historic preservation program](https://www.wpb.org/Departments/Development-Services/Planning-Division/Historic-Preservation) reviews exterior work in them. In its historic-structures layer, the City classifies each building as contributing or noncontributing to its district. Some are still marked "to be determined."
 
-**Confirm the specific designation status of the specific property before you budget a renovation.** A plan that's straightforward on one block may require review three streets over.
+| District | Contributing | Non-contributing |
+|---|---|---|
+| Old Northwood | 465 | 100 |
+| Northwood Hills | 652 | 90 |
+| Northwood Harbor | 364 | 109 |
+| Northboro Park | 153 | 21 |
+| West Northwood | 20 | 13 |
+| Northwood Road | 27 | 11 |
 
-## Renovation, honestly
+These counts are existing structures in the City's layer that touch each district, excluding sheds and canopies, retrieved September 24, 2026. A single parcel can have more than one structure. Look up a specific property on the City's [Historic Property Search map](https://map.viewprogis.com/ecp/wpb-fl?widget=95e563c4-5dec-4eb5-8e83-bed85e3304f6).
 
-Northwood is one of the more active renovation markets in the city, and there's genuine value-add opportunity remaining. A few things buyers should go in knowing:
+What the City's own guidance says, as of September 2026:
 
-- **Permit history matters.** Unpermitted work is common in older stock and becomes your problem at resale. Pull the history.
-- **Insurance is the gating item.** Get real quotes during your inspection period. An older roof or certain vintage electrical and plumbing can make a property difficult to insure at a sane price, which affects financing.
-- **Original detail is worth preserving**, both for character and for value. Restored period homes here command a real premium over gut-renovated ones that lost their character.
-- **Budget for surprises.** Century-old houses reveal things. Buyers who leave a contingency do fine; buyers who spend their whole budget on the purchase struggle.
+- **A Certificate of Appropriateness is required for work that changes the exterior.** The City doesn't review interior remodeling, and it doesn't regulate paint colors.
+- **The level of review depends on the scope of work.** The City's COA approval matrix sorts work into permit review, staff review and Historic Preservation Board approval. Both contributing and noncontributing properties are reviewed, on all sides of the building.
+- **Additions:** the City's FAQ says additions visible from the front that are under 10% of the existing footprint, and those not visible from the front that are under 20%, generally need only staff review. Larger work can go to the Board, which meets on the fourth Tuesday of each month.
+- **Materials depend on the building's style.** For example, the City's guidance says a metal roof may suit a Craftsman, bungalow or frame vernacular house but not a Mission, Mediterranean or Ranch house. It also says vinyl windows and vinyl fences are generally not permitted in historic districts.
+- **Demolition** of a building in a historic district needs Board review, and the City says contributing buildings are generally not approved for demolition.
+- **Yards:** landscaping isn't subject to historic review, but fences, site walls, decks, patios, pergolas and sheds are reviewed by staff.
+- **Tax exemption:** the City describes an ad valorem exemption on qualifying improvements to historic properties for up to ten years. It must be applied for before work starts.
 
-## Who's been buying here
+Old Northwood and Northboro Park also have National Register of Historic Places district listings, whose boundaries may not match the local districts exactly. The [National Park Service](https://www.nps.gov/subjects/nationalregister/faqs.htm) explains that listing alone doesn't restrict what private owners do with their property using private funds. The City's local designation is what triggers local review.
 
-Useful context for judging where the neighborhood is heading.
+Before you budget exterior work, talk to the City's Planner on Call at (561) 822-1461 about the specific address and plan.
 
-The buyer mix has shifted noticeably over the past two decades — from almost entirely long-term local owners toward a blend that includes renovators, small-business owners, artists, and buyers priced out of the southern historic districts. A meaningful share are people who wanted El Cid or Flamingo Park and found Northwood offered comparable architecture for less.
+## How individual properties differ
 
-That inflow is what's driven the restoration activity, and it's also why condition varies so much: the neighborhood is partway through a change rather than finished with one.
+Two houses on the same street can differ in ways that matter for your purchase:
 
-## The village core
+- **Age and condition,** including which systems have been replaced and when.
+- **Historic status:** in a district or not, and contributing or noncontributing.
+- **Permitted work:** whether past changes show up in City permit records.
+- **Lot configuration:** size, shape, driveway and parking, and any alley.
+- **Adjacent land uses:** commercial streets, the Broadway corridor, the CRA's industrial subarea, and approved projects. The City's CRA says construction on The District at Northwood, a mixed-use project at the west end of Northwood Village, began in February 2024. The CRA says it will extend Broadway from Northwood Road to 23rd Street and realign Pinewood Avenue.
+- **Routes:** the streets, sidewalks and transit stops you would actually use.
 
-The small commercial stretch gives the neighborhood something most residential districts lack: somewhere to walk to. Independent cafés, galleries, and small restaurants, with a creative, owner-operated character that's distinct from both downtown and the southern historic districts.
+Visit the property, and the routes you'd use, at the times that match your own routine.
 
-It's modest in scale. But being able to walk to coffee is a genuine part of the appeal, and it's a large reason the neighborhood has held its momentum.
+## Northwood Village: what's there
 
-## Location and getting around
+The [Northwood Village website](https://northwoodvillage.com/), linked from the City's CRA pages, keeps a directory of the district's businesses. It groups them into shops (art and antiques, fashion, home décor, specialty), dining (bars and nightlife, global cuisine, cafés and sweets) and services (beauty and wellness, building and renovation, creative and design, professional services). It also has a parking and directions page.
 
-North of downtown, which puts the city center within a short drive and the Brightline station accessible for trips to Fort Lauderdale, Miami, or Orlando. President Donald J. Trump International Airport is close. The Palm Beach island beaches are a short drive across the bridge.
+Restaurants we checked on their own websites on September 24, 2026 include Café Centro and Palm Beach Lobsters & Seafood on North Dixie Highway and Mestizo Fusion Cuisine on Northwood Road. Our [West Palm Beach dining guide](/blog/best-places-to-eat-drink-hang-out-in-west-palm-beach-florida) lists them with details.
 
-You will drive for most things, though less than in the suburbs.
+The district's site describes Nights in Northwood Village as a free, quarterly event. Its 2026 posts cover editions in March and June, so check there for the next date.
 
-## Who Northwood suits
+Nearby on North Flagler Drive, the City has closed [Currie Park](https://www.wpb.org/Departments/Parks-Recreation/Parks-Facilities/Currie-Park) for a redevelopment project. Check the City's page for its current status.
 
-**Buyers who want historic character and can't reach El Cid or Flamingo Park pricing.** This is the main story, and it's a real opportunity.
+## Getting around
 
-**Renovators.** One of the few local markets with genuine work-to-be-done and upside remaining.
+- **West Palm MOVE:** the City's fixed route runs north and south between Northwood Village and the Norton Museum of Art, with stops at downtown/Clematis and CityPlace. As of September 2026, [West Palm MOVE](https://www.wpbmove.com/) lists rides at $1, about every 10 minutes, from 6 a.m. to 9 p.m. on weekdays, 8 a.m. to 9 p.m. on Saturday and 8 a.m. to 8 p.m. on Sunday. App-booked on-demand rides are $2.
+- **Distance to downtown:** Northwood Road is about 1.5 miles in a straight line from the east end of Clematis Street, measured between City parcel centers. Travel time depends on your route and the time of day.
+- **Other trips:** check the specific routes and schedules you'd rely on, including Palm Tran bus service, from the address you're considering.
 
-**People who want a neighborhood with an identity.** Northwood has a distinct creative character that the newer suburbs don't and can't manufacture.
+## Property and location priorities to evaluate
 
-**Less suited to:** buyers who want turnkey and predictable, want new construction, or aren't comfortable doing street-level diligence before committing.
+Instead of asking whether the area "fits," weigh the specific property against your own priorities:
 
-## Before you buy
+- How much historic review you're prepared to go through for the exterior changes you have in mind.
+- The age and condition of the house's major systems, and your budget and timeline for any work.
+- Lot size, parking and outdoor space.
+- Flood zone, elevation and insurance cost for the specific parcel.
+- What's next to the property now, and what's approved nearby.
+- How you'd reach work, errands and services, by car, on foot, or on transit.
 
-Walk the block at different times. Pull the permit history. Get insurance quoted on the specific property during your inspection period. Confirm historic designation status before planning any exterior work. And check the school assignment for the address rather than the neighborhood — it varies more than people expect across this part of the city.
+## Before-you-buy checklist
 
-Independently verify anything material to your decision, and see the property in person more than once.`,
+This is a list of due-diligence steps, not legal, tax, insurance, construction or investment advice. Consult the appropriate licensed professionals for your situation.
+
+1. **Confirm the parcel, jurisdiction and designation.** Look up the parcel on the [Property Appraiser](https://www.pbcpao.gov/) site (a number starting with 74 is the City of West Palm Beach), then check the City's Historic Property Search map for district and contributing status.
+2. **Review permits and inspection findings together.** The City's [Development Services records](https://www.wpb.org/Departments/Development-Services/Development-Services-Records) office holds permitting records and takes requests through its online portal. Compare what's on file with what your inspector finds.
+3. **Get insurance and flood information for the actual property.** Check the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) and the City's [flood information page](https://www.wpb.org/Departments/Development-Services/Flood-Information), and get insurance quotes during your inspection period.
+4. **Confirm parking, access, utilities and zoning,** and look for approved development nearby, including the CRA's project pages.
+5. **Review taxes** on the Property Appraiser record and with the [Tax Collector](https://www.pbctax.gov/). Taxes can change after a sale, so estimate your own bill instead of relying on the seller's.
+6. **Plan exterior work with the City first.** Ask the Planner on Call how your plans would be reviewed before you commit to a budget.
+7. **Check school assignment directly,** if it matters to you, with the School District of Palm Beach County's [Find My School](https://www.palmbeachschools.org/district-b8/find-my-school) address lookup. Boundaries can change.
+8. **Visit the property and the routes you'd use** at the times that match your routine.
+
+## Where the numbers come from
+
+Parcel counts, years built and lot sizes come from the City of West Palm Beach's parcel layer, which carries Property Appraiser data. District boundaries come from the City's historic district layer, and contributing status and style labels from its historic-structures layer. CRA subareas come from the City's CRA layers. All were retrieved September 23–24, 2026. Counts can shift as records are updated.
+
+## Related reading
+
+- The [West Palm Beach neighborhood guide](/blog/best-neighborhoods-in-west-palm-beach-florida) compares the city's other historic districts.
+- [What it's really like living in West Palm Beach](/blog/what-its-really-like-living-in-west-palm-beach-florida) covers the city as a whole.
+- The [local guide](/blog/local-guide-to-west-palm-beach-florida) covers services, parking and transit.
+- The [cost of living guide](/blog/cost-of-living-in-west-palm-beach-florida) covers taxes, utilities and insurance.
+- [West Palm Beach vs nearby cities](/blog/west-palm-beach-vs-nearby-cities) compares other towns.
+- Current listings are on the [West Palm Beach community page](/communities/west-palm-beach).`,
     faqs: [
-      { q: "Is Northwood a good place to buy a house in West Palm Beach?", a: "It offers historic character and proximity to downtown at pricing below El Cid and Flamingo Park, which is its main appeal. It's a neighborhood mid-transition, so condition and upkeep vary meaningfully block to block — walking the specific street at different times of day is essential before committing." },
-      { q: "What kind of homes are in Northwood?", a: "Mostly 1920s and 30s construction — Mission and Mediterranean Revival cottages with barrel-tile roofs and arched openings, and frame vernacular bungalows with porches. Lots are modest, homes are generally under 2,000 square feet, and there's some mid-century infill and newer building on formerly vacant lots." },
-      { q: "Is Northwood a historic district?", a: "Parts of Northwood carry historic designation, which affects what you may change on a building's exterior — windows, roofing materials, additions, and sometimes paint. Confirm the designation status of the specific property before budgeting any renovation, since requirements vary within the neighborhood." },
-      { q: "What should I check before buying a house in Northwood?", a: "Walk the block at multiple times of day including after dark, pull the property's permit history since unpermitted work is common in older stock, get insurance quoted during your inspection period, and confirm historic designation status before planning exterior work." },
-      { q: "Are there condos in Northwood?", a: "Yes, Northwood has a condo and loft market alongside its houses. Our sister site CondoWPB.com covers those buildings in depth, including fees and unit-level detail — this guide focuses on the single-family housing stock." },
-      { q: "Is Northwood walkable?", a: "The village core gives the neighborhood a small commercial stretch with independent cafés, galleries, and restaurants within walking distance of the residential streets, which is a genuine part of its appeal. For most other errands you'll drive, though less than in the suburbs." },
+      { q: "What is the difference between Northwood, Northwood Village and the Nora District?", a: "Northwood is an informal name for the older residential area north of downtown West Palm Beach. The City doesn't map it as one neighborhood, but it does map six local historic districts there. Northwood Village is the commercial core around Northwood Road, and one of five subareas of the City's Northwood/Pleasant City CRA District. The Nora District is a separate commercial district along North Railroad Avenue, about a mile to the south and outside that CRA district." },
+      { q: "What kinds of houses are in Northwood?", a: "In City parcel data for the five residential historic districts, most single-family houses were built before 1950, with median years built from 1937 to 1949 and some houses built since 2000. Median lots run from about 5,250 to 6,700 square feet. Mission Revival, Minimal Traditional and Masonry Vernacular are the most common style labels in the City's records, and no single style is a majority. Check the specific house's record, survey and inspection." },
+      { q: "Which parts of Northwood are historic districts?", a: "Six City historic districts are in the area: Old Northwood, Northwood Hills, Northwood Harbor, Northboro Park, West Northwood and Northwood Road. Old Northwood and Northboro Park also have National Register listings. Many nearby properties are outside all six, so check the specific address on the City's Historic Property Search map." },
+      { q: "Do I need City approval to change a house in a Northwood historic district?", a: "Exterior changes need a Certificate of Appropriateness. Depending on the scope, that means permit review, staff review or Historic Preservation Board approval. The City doesn't review interior remodeling or regulate paint colors. Material rules depend on the building's style, so talk to the City's Planner on Call at (561) 822-1461 about the specific plan." },
+      { q: "What transit serves Northwood Village?", a: "The City's West Palm MOVE fixed route runs between Northwood Village and the Norton Museum of Art, with stops at downtown/Clematis and CityPlace. As of September 2026, rides cost $1 and run about every 10 minutes, with shorter hours on weekends. Check wpbmove.com for current schedules." },
+      { q: "What should I check before buying a house in Northwood?", a: "Confirm the parcel's jurisdiction and historic status, review City permit records against your inspection, get flood and insurance information for the actual property, review taxes with the Property Appraiser and Tax Collector, confirm school assignment with the district if it matters to you, and visit the property and the routes you'd use at the times that match your routine." },
+      { q: "Where can I research condos in the Northwood area?", a: "This guide covers houses. Our sister site CondoWPB.com covers West Palm Beach condo buildings." },
     ],
     internalLinks: [
       'best-neighborhoods-in-west-palm-beach-florida',
       'what-its-really-like-living-in-west-palm-beach-florida',
       'local-guide-to-west-palm-beach-florida',
+      'cost-of-living-in-west-palm-beach-florida',
+      'west-palm-beach-vs-nearby-cities',
     ],
-    funFact: "Northwood Village's art scene grew organically in the 2000s when artists priced out of Wynwood in Miami started finding cheap studio space in the historic storefronts along North Dixie. The monthly Art Walk has run continuously since 2003 — predating the Wynwood Walls by several years.",
+    funFact: "Before you plan a renovation here, open the City's Historic Property Search map and click the building itself. The City marks each structure in its historic districts as contributing or noncontributing, and a contributing building is generally not approved for demolition. In Old Northwood, the City's layer lists 465 contributing structures and 100 noncontributing.",
     author: 'john',
     published: true,
-    updated: '2026-06-02',
+    publishedDate: '2026-09-24',
+    updated: '2026-09-24',
   },
 
   // ===================== DELRAY BEACH =====================
