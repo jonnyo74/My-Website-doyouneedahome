@@ -426,7 +426,7 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         )}
 
-        {/* Listings widget — SFR $500k+ for the article's city */}
+        {/* Listings widget — single-family houses $500k+ for the article's city */}
         <div className="mt-12">
           <h2 className="font-serif text-2xl font-semibold text-slate-900">
             Homes for Sale in {article.cityName}
@@ -436,7 +436,7 @@ export default async function ArticlePage({ params }: Props) {
             <YlopoResultsWidget
               city={article.cityName}
               minPrice={500000}
-              propertyTypes={['SFR']}
+              propertyTypes={['house']}
               limit={6}
             />
           </div>

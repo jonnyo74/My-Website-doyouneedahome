@@ -923,7 +923,7 @@ export default async function ListingPage({ params }: Props) {
                     city={listing.city}
                     neighborhood={listing.subdivision}
                     minPrice={400000}
-                    propertyTypes={['SFR']}
+                    propertyTypes={['house']}
                     limit={6}
                   />
                 </div>
