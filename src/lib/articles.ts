@@ -26931,6 +26931,8 @@ The newer, more walkable side of town, built out around the medical and biotech 
 
 The largest share of the city's identity and a large share of its housing — BallenIsles, Mirasol, PGA National, Frenchman's Creek and Reserve, Old Palm, Evergrene and others. Each is effectively its own small town with its own club, amenities, and social structure.
 
+![Fountain in a landscaped roundabout at Mirasol in Palm Beach Gardens](/images/mirasol/mirasol-fountain-roundabout.jpg "Mirasol's fountain roundabout. Common-area upkeep like this is paid for through the association, so it shows up in the carrying cost.")
+
 ### The western green
 
 Head west and the city changes character entirely: bigger lots, equestrian properties, and large tracts of preserve and natural area. It's quieter, greener, and a longer drive to everything, which is precisely the appeal for the people who live there.
@@ -27026,9 +27028,13 @@ The city's signature golf destination: multiple championship courses, a resort a
 
 **Trade-offs:** it's large and busy, and the PGA Tour event each winter brings a week of significant activity. Confirm exactly which membership tier attaches to the specific property you're considering — they differ.
 
+![PGA National sign wall framed by palms in Palm Beach Gardens](/images/pga-national/pga-national-sign-wide.jpg "One name, many housing types: PGA National runs from condos to estate homes, and the membership attached to each property varies.")
+
 ## Luxury golf and country club → BallenIsles, Mirasol and Old Palm
 
 The top-tier gated club communities. BallenIsles is notable for carrying three championship courses, which only a handful of South Florida communities do. Mirasol and Old Palm are the modern luxury benchmarks, with newer construction and extensive club facilities.
+
+![Mirasol sign wall beside a lake with a fountain in Palm Beach Gardens](/images/mirasol/mirasol-sign-lake-fountain.jpg "Mirasol, one of the Gardens' top-tier gated club communities. At this level the club obligation is part of the purchase, not an add-on.")
 
 **Objective characteristics:** highest price tiers, guard-gated, multiple courses, large clubhouses, substantial HOA dues, and in these communities **mandatory club membership with a one-time initiation fee** plus ongoing dues and food and beverage minimums.
 
@@ -27136,6 +27142,8 @@ Here's how a local would actually tell you to spend your time.
 This is the reason people come, and the range is wider than most visitors realize.
 
 **PGA National** is the marquee destination: multiple championship courses, a resort and spa, and the famous stretch of holes that hosts a PGA Tour event every winter. You don't need to be a member or a guest of the resort to appreciate what it does for the town.
+
+![PGA National stone sign wall in Palm Beach Gardens](/images/pga-national/pga-national-sign-closeup.jpg "PGA National, home of the Gardens' annual PGA Tour event.")
 
 **Sandhill Crane Golf Club** is the genuine local secret — a quality municipal course, open to anyone, at a fraction of private-club cost. For residents who don't belong to a club, this is the answer, and it's a legitimately good golf course rather than a compromise.
 
