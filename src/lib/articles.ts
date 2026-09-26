@@ -16340,7 +16340,7 @@ If you're buying to live here year-round, spend time here in August as well as F
 
 ## Being on a barrier island
 
-**Getting on and off means a bridge.** There are two routes: west over the Blue Heron Bridge to Riviera Beach, or north on A1A past MacArthur Beach State Park to the mainland in North Palm Beach. How long a trip takes depends on season traffic, construction, drawbridge openings along some routes, and where you're going; having two ways off helps when one is slow.
+**Getting on and off means a bridge.** There are two routes: west over the Blue Heron Bridge to Riviera Beach, or north on A1A past MacArthur Beach State Park to the PGA Boulevard bridge into Palm Beach Gardens. How long a trip takes depends on season traffic, construction, drawbridge openings along some routes, and where you're going; having two ways off helps when one is slow.
 
 **Hurricane planning is part of owning on the coast.** Evacuation instructions are address- and storm-specific, so check the address in [Palm Beach County's hurricane evacuation zone lookup](https://discover.pbc.gov/oem/Pages/Hurricane.aspx) (an external county site), understand the building's storm plan, and know what the association expects of absentee owners. In a house, the plan is yours: shutters or impact glass, and who secures the property if you're away. Our [practical guide](/blog/local-guide-to-singer-island-florida) covers more of how the island works.
 
@@ -16354,7 +16354,7 @@ If those trades sound acceptable, our [comparison with the alternatives](/blog/s
     faqs: [
       { q: "What is it like living on Singer Island?", a: "It depends on whether you live in a condo tower or a house. Most homes on the island are condominiums along the ocean, where the association looks after the building and grounds and the building's finances and rules come with the unit. Houses are in Palm Beach Isles, Yacht Harbor and Palm Beach Shores. There is no traditional walkable downtown, and most errands mean crossing a bridge." },
       { q: "Is Singer Island part of Riviera Beach?", a: "Singer Island is a geographic community, not a municipality. Most of it is in the City of Riviera Beach; the south end is the Town of Palm Beach Shores, with its own town government, police and building departments. Taxes, services, permitting and code enforcement follow the municipality, so confirm it on the Property Appraiser's record rather than the listing's city name." },
-      { q: "How do you get on and off Singer Island?", a: "Two routes: west over the Blue Heron Bridge to Riviera Beach, or north on A1A past John D. MacArthur Beach State Park to the mainland in North Palm Beach. Trip times depend on season traffic, construction, drawbridge openings along some routes, and where you're going." },
+      { q: "How do you get on and off Singer Island?", a: "Two routes: west over the Blue Heron Bridge to Riviera Beach, or north on A1A past John D. MacArthur Beach State Park to the PGA Boulevard bridge into Palm Beach Gardens. Trip times depend on season traffic, construction, drawbridge openings along some routes, and where you're going." },
       { q: "Does Singer Island empty out in summer?", a: "Many buildings are noticeably quieter in summer because a share of owners are seasonal, but occupancy varies substantially by building. Visit in high season and again in summer, and ask the building manager about owner occupancy and rental patterns." },
       { q: "Are there single-family homes on Singer Island?", a: "Yes. Houses are in three places: Palm Beach Isles and Yacht Harbor, on the lagoon side of the Riviera Beach part of the island, and the Town of Palm Beach Shores at the south end. Many sit on canals or the lagoon. Outside those areas the island is almost all condominiums." },
       { q: "What should a condo buyer check on Singer Island?", a: "The building as much as the unit: the budget and reserve funding, the master insurance declarations and deductibles, any current or anticipated special assessments, inspection and reserve-study records where they exist, recent board minutes, and the rules on rentals, pets, renovations and storm preparation. The association's master policy and your own HO-6 and loss-assessment coverage are separate questions for your insurance agent." },
@@ -16373,11 +16373,11 @@ If those trades sound acceptable, our [comparison with the alternatives](/blog/s
     cityName: 'Singer Island',
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to Singer Island, Florida",
-    metaTitle: "A Local's Guide to Singer Island, Florida",
-    metaDescription: "An insider guide to Singer Island, Florida — the beaches, MacArthur Beach State Park, Peanut Island, the marina, and how to live like a local on the island.",
+    seoTitle: "A Local Guide to Singer Island, Florida: Bridges, Beaches, Condo Rules and Hurricane Planning",
+    metaTitle: "A Local Guide to Singer Island, Florida",
+    metaDescription: "A practical Singer Island guide to bridges, public beach access, condo rules, hurricane planning, and the everyday logistics of coastal living.",
     primaryKeyword: "Singer Island local guide",
-    secondaryKeywords: ["Singer Island insider tips", "things locals do on Singer Island", "moving to Singer Island guide"],
+    secondaryKeywords: ["Singer Island bridges", "Singer Island public beach access", "Singer Island condo rules", "Singer Island hurricane planning", "moving to Singer Island guide"],
     h1: "A Local's Guide to Singer Island, Florida",
     heroImage: '/images/singer-island/blue-heron-bridge-phil-foster-hero.webp',
     heroImageAlt: "Looking east from the Blue Heron Bridge over Phil Foster Park and the Lake Worth Lagoon to the high-rises along Singer Island's ocean side",
@@ -16386,87 +16386,125 @@ If those trades sound acceptable, our [comparison with the alternatives](/blog/s
     heroImageHeight: 1152,
     heroImagePosition: '30% 50%',
     heroImageCaption: "Phil Foster Park, under the Blue Heron Bridge, with Singer Island beyond",
-    body: `The practical layer: how the island works, who governs what, how to get on and off, and the things new residents work out a month too late.
+    editorial: {
+      eyebrow: 'Singer Island · Local Guide',
+      deck: "Bridges, beaches, two municipalities, condo procedures and hurricane planning: how the island works day to day.",
+      mobileImage: { src: '/images/singer-island/blue-heron-bridge-phil-foster-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'What living here is like', href: '/blog/what-its-really-like-living-in-singer-island-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: {
+        eyebrow: 'Buying a condo on Singer Island?',
+        text: "Work through the building's documents, budget, reserves, insurance and rules before you commit.",
+        cta: { label: 'Open the condo due-diligence checklist', href: '/florida-condo-buyers-due-diligence-checklist' },
+      },
+    },
+    body: `The practical layer: how the island works, who governs what, how to get on and off, and the things new residents work out a month too late. For the feel of the place rather than the mechanics, start with [what living here is actually like](/blog/what-its-really-like-living-in-singer-island-florida); this is its practical companion.
 
 ## The layout
 
-Singer Island is simple. One road runs its length — **Ocean Drive**, becoming **A1A** — with the Atlantic east and the Intracoastal west.
+Singer Island is easy to read. One main road runs its length, with the Atlantic to the east and the Lake Worth Lagoon to the west.
 
-**The north end** holds the state park and its protected shoreline.
-**The middle** is the condominium corridor and the municipal beach.
-**The south end** is Palm Beach Shores, ending at the Lake Worth Inlet.
+- **The north end** borders John D. MacArthur Beach State Park, which is in North Palm Beach.
+- **The middle** holds the condominium corridor and the city beach at Ocean Walk, with the house streets of Palm Beach Isles and Yacht Harbor on the lagoon side.
+- **The south end** is the Town of Palm Beach Shores, ending at the Lake Worth Inlet.
 
 That's the whole island. You cannot get lost.
 
 ## Getting on and off
 
-Two crossings, and knowing both is essential:
+Singer Island has two practical mainland routes.
 
-**Blue Heron Boulevard** runs west from the middle of the island to Riviera Beach and connects to US-1, I-95 and the Turnpike. This is the main route for most errands and the one that carries the most traffic.
+**Blue Heron Boulevard** runs west from the middle of the island over the Blue Heron Bridge to Riviera Beach, toward US-1 and I-95. It's the route most errands use. The Blue Heron Bridge is a fixed bridge; it isn't on Palm Beach County's list of drawbridges.
 
-**North along the barrier island** brings you to the **PGA Boulevard** crossing, which puts you into Palm Beach Gardens. Longer for some destinations, and often the better choice when the southern route is busy.
+**North along A1A**, past MacArthur Beach State Park, the **PGA Boulevard** bridge leads into Palm Beach Gardens. That one is a drawbridge, and it opens for boat traffic.
 
-**Both are drawbridges and both open for marine traffic.** Openings run on published schedules that change seasonally. Learn the ones on your usual route — it's five minutes of research that saves genuine irritation, particularly when you're heading for a flight.
-
-Season traffic, roughly January through April, thickens both. Nothing here rivals a real city's congestion, but the difference between an August and a February crossing is enough to matter.
+Openings, temporary restrictions, construction and season traffic can all affect a trip. Check the current [bridge information from Palm Beach County's Engineering Department](https://discover.pbc.gov/engineering/pages/bridge-section.aspx) (external) before relying on a tight connection, such as a flight.
 
 ## Two municipalities
 
-This surprises people, so it's worth being explicit:
+This surprises people, so it's worth being explicit.
 
-**Most of the island is in the City of Riviera Beach.** Police, fire rescue, permits, zoning and code enforcement run through the city, and you pay its municipal millage.
+**Most of the island is in the City of Riviera Beach.** City police, fire rescue, permits, zoning and code enforcement apply, and you pay the city's millage.
 
-**The southern tip is Palm Beach Shores**, an independent town with its own government, police and rules.
+**The south end is the Town of Palm Beach Shores**, an independent town with its own government, its own [police and building departments](https://palmbeachshoresfl.us/departments/) and its own rules.
 
-Confirm which one your address is in before closing. It changes your tax bill, who you call, and who issues your permits. The title work answers it definitively.
+![Low-rise homes and palms beside the rock-lined Lake Worth Inlet at the south end of Singer Island](/images/singer-island/palm-beach-shores-inlet-homes.webp "The south end of the island is the Town of Palm Beach Shores: low-rise homes along the inlet. || Photo by John Oliver"){1400x1050}
 
-**County-level functions** — property records, homestead filing, vehicle and vessel registration, driver licensing — are Palm Beach County regardless, through the Property Appraiser and Tax Collector.
+Confirm the municipality, taxing authorities, permit jurisdiction, flood information and utility provider for the specific address before closing. Your closing team and the relevant public agencies can help verify the records that matter. Don't go by the city on a listing: many island listings show "Singer Island" or "West Palm Beach", which are mailing names.
+
+**County-level functions** (property records, homestead filing, vehicle and vessel registration, driver licensing) are Palm Beach County's regardless, through the Property Appraiser and Tax Collector.
 
 **Schools** are the School District of Palm Beach County. Verify attendance boundaries for the specific address directly with the district.
 
 ## Living in a building
 
-Most of the practical rules here come from your association rather than from a government:
+Most of the practical rules in a condo come from your association rather than from a government:
 
-- **Move-in procedures** are real. Most buildings require scheduling, a lift reservation, insurance certificates from movers and sometimes a deposit. Ask before your moving date, not after.
-- **Renovation rules** typically restrict work to certain months and hours, require approvals and specify flooring underlayment. In seasonal buildings, work is often barred entirely during high season.
-- **Parking** is generally deeded or assigned. Establish what conveys and what guests do.
+- **Move-in procedures** are real. Buildings commonly require scheduling, an elevator reservation, insurance certificates from movers and sometimes a deposit. Ask before your moving date, not after.
+- **Renovation rules** typically restrict work to certain hours, require approvals and may specify flooring underlayment. Some buildings limit work during high season.
+- **Parking** is generally deeded or assigned. Establish what conveys and where guests park.
 - **Pets, grills, balcony furniture, hurricane shutters and window treatments** are all commonly regulated. Read the rules.
-- **Rental restrictions** — minimum lease terms, approval requirements, caps on the number of rented units — vary hugely and matter for both flexibility and resale.
+- **Rental restrictions** (minimum lease terms, approval requirements, caps on rented units) vary widely and matter for both flexibility and resale.
 
-Get the full rules and the last three years of financials before closing. Our [neighborhood guide](/blog/best-neighborhoods-in-singer-island-florida) covers what to look for.
+Before you commit, request the governing documents, current budget and reserves, insurance information and deductibles, recent board minutes, pending or recent assessments, and the rules that affect your planned use of the unit. Our [Singer Island condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists what to ask for and why.
+
+**In a house**, most of these questions go to the municipality instead: permits for renovations, docks and seawalls, plus any property owners' association rules. Palm Beach Isles, for example, has a [property owners' association](https://www.palmbeachisles.org/).
 
 ## Setting up services
 
 - **Electric** is FPL.
-- **Water and sewer** come from the relevant municipal utility — confirm which, given the two-city situation.
-- **Waste** is usually handled at the building level for condos; houses in Palm Beach Shores follow that town's schedule.
+- **Water and sewer** providers depend on the address, so confirm which utility serves it.
+- **Waste** is usually handled at the building level for condos; houses follow their municipality's collection schedule.
 - **Internet** varies by building, and some have exclusive arrangements. Check what's actually available in your specific unit before assuming.
 
-## Hurricane season, seriously
+## Hurricane season
 
-June through November, and this matters more here than almost anywhere in the county.
+Hurricane planning is part of coastal ownership. Evacuation orders, bridge access and local conditions depend on the storm and the address, so check [Palm Beach County's hurricane evacuation zone lookup](https://discover.pbc.gov/oem/Pages/Hurricane.aspx) (external), understand the building's storm procedures, and make an off-island plan before a warning is issued.
 
-- **You are on a barrier island.** Expect to be in the first evacuation zones called, and expect to leave more often than mainland residents.
-- **Know your building's plan.** Most have procedures — shutter deployment, elevator shutdown, garage closure, when staff leave. Read it before June.
-- **Balconies must be cleared.** Furniture, plants and anything loose become projectiles. Buildings enforce this.
-- **Have somewhere to go**, and don't plan to decide during the warning. Bridges close when winds reach threshold, which can happen before you expect.
-- **Keep two weeks** of water, food, medication and cash.
-- **Photograph the unit annually** for insurance.
-- **If you own a boat**, arrange haul-out or safe dockage early. Slots fill fast once a storm is named.
+A plan worth writing down, adapted to your own address and building:
+
+- **Your association's policies** on shutters, balcony clearing, elevators, garage access, when staff leave, and how owners return. Read them before June.
+- **Where you'll go**, decided in advance rather than during a warning.
+- **Supplies** of water, food, medication and cash for the time you could be without services.
+- **Photos of your home or unit**, updated each year, for insurance.
+- **A boat plan**, if you own one: haul-out or storm dockage arranged early.
+- **In a house**, the shutters or impact glass are your job, along with someone who can secure the property if you're away.
 
 ## Beach and parking practicalities
 
-- **Building residents** generally have direct beach access, which is one of the practical advantages of living here.
-- **The municipal beach and the state park** are the main public access points, both with paid parking that fills early on good winter days.
-- **Turtle nesting season** brings lighting restrictions for beachfront property, and they are enforced.
+Public beach options on and near the island:
+
+- **Ocean Reef Park** (3860 N Ocean Drive), a Palm Beach County park with a lifeguarded beach, parking, restrooms and outdoor showers. [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx)
+- **Riviera Beach's city beach**, beside the Ocean Walk shops and restaurants (the former Ocean Mall). [Riviera Beach CRA: Ocean Walk](https://rbcra.com/ocean-walk/)
+- **John D. MacArthur Beach State Park**, just north of the island, for a more natural beach with trails, the lagoon and kayaking. [Florida State Parks: MacArthur Beach](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park)
+
+Parking, access rules, lifeguard coverage and conditions vary by location and can change, so check before you go. If you live in a beachfront building, ask how its own beach access works.
+
+![A sea turtle nest marked off with stakes and yellow tape on a Singer Island beach at sunset, with a high-rise behind](/images/singer-island/turtle-nest-beach.webp "A marked sea turtle nest on a Singer Island beach. || Photo by John Oliver"){1400x1050}
+
+**Turtle lighting.** On beachfront property, exterior lighting, balcony lighting and even visible interior light can be subject to turtle-protection requirements. Ask the association what rules apply to windows, balcony fixtures, shades and common areas. The Florida Fish and Wildlife Conservation Commission's [sea turtle lighting guidelines](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/lighting/) explain what's typically asked of beachfront owners, from low, shielded, long-wavelength fixtures to window tint that keeps interior light off the beach.
+
+## The water-side places locals actually use
+
+**Phil Foster Park and the Blue Heron Bridge.** A county park directly under the bridge, at 900 E. Blue Heron Boulevard, with a lifeguarded beach, boat ramps and a fishing pier. Its snorkel trail of limestone boulders and reef modules covers about two acres in 6 to 10 feet of water. Visibility and current change with the tide and the weather, so check conditions before you go in; it isn't an easy swim every day. [Palm Beach County: Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx)
+
+![The Blue Heron Bridge crossing the Lake Worth Lagoon on concrete piers, with high-rises in the distance](/images/singer-island/blue-heron-bridge-lagoon.webp "The Blue Heron Bridge over the Lake Worth Lagoon; Phil Foster Park sits beneath it. || Photo by John Oliver"){1400x1050}
+
+**Peanut Island.** An 80-acre county park in the Intracoastal near the Lake Worth Inlet, with a beach, a campground and a snorkeling lagoon. You reach it by private boat or by one of the independent water-taxi services, which aren't part of the county park system. Check water-taxi schedules, park notices and closures before you go. [Palm Beach County: Peanut Island](https://discover.pbc.gov/parks/Pages/PeanutIsland.aspx) · [How to get there](https://discover.pbc.gov/parks/PeanutIsland/Directions.aspx)
+
+**MacArthur Beach State Park.** The quieter nature-and-lagoon counterpoint to the condo corridor: trails through coastal hammock, a nature center, an estuary to paddle and a long, undeveloped beach.
+
+**Ocean Reef Park.** The easy option for an ordinary beach day, with parking and a lifeguarded stretch of sand.
 
 ## Getting further afield
 
-- **President Donald J. Trump International Airport** is close — a genuine advantage.
-- **Brightline** runs from West Palm Beach to Fort Lauderdale, Miami and Orlando.
+- **President Donald J. Trump International Airport** is on the mainland in West Palm Beach.
+- **Brightline** runs from West Palm Beach south to Boca Raton, Fort Lauderdale, Aventura and Miami, and north to Orlando.
 - **Tri-Rail** serves the county corridor from mainland stations.
-- **I-95 and the Turnpike** are reached via the Blue Heron crossing.
+- **I-95** is reached via Blue Heron Boulevard.
 
 ## Deliveries, contractors and the practical friction
 
@@ -16474,7 +16512,7 @@ Small things that catch new residents out on an island of buildings.
 
 **Deliveries** to a tower usually go to a front desk or a package room rather than your door, and large items may need scheduling. Confirm how your building handles it before ordering furniture.
 
-**Contractors** need building approval, insurance certificates and often a lift reservation, and many buildings restrict work to certain months. A simple renovation can take longer to authorise than to perform.
+**Contractors** need building approval, insurance certificates and often an elevator reservation. A simple renovation can take longer to authorize than to perform.
 
 **Guests and short stays** are governed by your association's rules, which vary widely. If family will visit regularly, check what's permitted before assuming.
 
@@ -16483,25 +16521,27 @@ None of this is difficult. It is all considerably more procedural than a house, 
 ## Fitting in
 
 - **Get involved in your building.** It's the island's real social structure and the fastest route into it.
-- **Learn the tides and the bridge schedules.** Both shape your week more than you'd expect.
+- **Learn the tides**, and the PGA Boulevard bridge's openings if it's on your route. Both shape a week more than you'd expect.
 - **Do a proper mainland shop** rather than trying to live off what's on the island.
-- **Go early.** Beach, water, errands — mornings are the window, especially in summer.
+- **Go early.** Beach, water, errands: mornings are the window, especially in summer.
 - **Verify address by address.** Municipality, flood and evacuation zone, association rules and utility provider all vary. Nothing about the island tells you what's true of the unit.
 
-For the feel of the place rather than the mechanics, read [what living here is actually like](/blog/what-its-really-like-living-in-singer-island-florida) — and the [quieter local finds](/blog/hidden-gems-in-singer-island-florida) are where the island stops being a resort and starts being home.`,
+For the quieter side of the island, the [local finds](/blog/hidden-gems-in-singer-island-florida) are where it stops being a resort and starts being home.`,
     faqs: [
-      { q: "How do you get on and off Singer Island?", a: "Two crossings. Blue Heron Boulevard runs west to Riviera Beach and connects to US-1, I-95 and the Turnpike — the main route for most errands. Heading north along the barrier island brings you to the PGA Boulevard crossing into Palm Beach Gardens. Both are drawbridges that open on published, seasonally changing schedules." },
-      { q: "Which city is Singer Island in?", a: "Two of them. Most of the island is in the City of Riviera Beach, and the southern tip is the separate Town of Palm Beach Shores. It changes your municipal tax, your police and fire service, and who issues your permits. Confirm which applies to your address before closing — the title work answers it definitively." },
-      { q: "What rules should I expect living in a Singer Island condo?", a: "Move-in scheduling with lift reservations and mover insurance certificates, renovation restrictions on months and hours with required approvals, assigned parking, and regulation of pets, grills, balcony furniture, shutters and window treatments. Rental restrictions vary hugely between buildings and affect both flexibility and resale." },
-      { q: "How should I prepare for hurricane season on Singer Island?", a: "Treat it seriously — barrier island property is in the first evacuation zones called and you will leave more often than mainland residents. Read your building's plan before June, clear balconies when told, have somewhere to go decided in advance since bridges close at threshold winds, and keep two weeks of supplies." },
-      { q: "Where can I park at the beach on Singer Island?", a: "Building residents generally have direct access, which is one of the practical advantages of living here. Public access is concentrated at the municipal beach and the state park, both with paid parking that fills early on good winter days." },
-      { q: "What do new Singer Island residents most often overlook?", a: "Bridge opening schedules and tide tables. Both shape a week here more than newcomers expect — bridges when you are trying to make a flight, tides for anything involving the water. Learning both is a few minutes of research that pays back constantly." },
+      { q: "How do you get on and off Singer Island?", a: "Two routes. Blue Heron Boulevard runs west over the Blue Heron Bridge, a fixed bridge, to Riviera Beach and I-95, and it's the route most errands use. North along A1A, past MacArthur Beach State Park, the PGA Boulevard drawbridge leads into Palm Beach Gardens. Openings, temporary restrictions, construction and season traffic can affect a trip, so check Palm Beach County's current bridge information before relying on a tight connection." },
+      { q: "Which city is Singer Island in?", a: "Two of them. Most of the island is in the City of Riviera Beach, and the south end is the separate Town of Palm Beach Shores, with its own government, police and building departments. Confirm the municipality, taxing authorities, permit jurisdiction, flood information and utility provider for the specific address before closing; your closing team and the relevant public agencies can help verify the records that matter." },
+      { q: "What rules should I expect living in a Singer Island condo?", a: "Move-in scheduling with elevator reservations and mover insurance certificates, renovation rules on hours and approvals, assigned or deeded parking, and rules on pets, grills, balcony furniture, shutters and window treatments. Rental restrictions vary widely between buildings. Before you commit, request the governing documents, current budget and reserves, insurance information and deductibles, recent board minutes, pending or recent assessments, and the rules that affect your planned use of the unit." },
+      { q: "How should I prepare for hurricane season on Singer Island?", a: "Hurricane planning is part of coastal ownership. Evacuation orders, bridge access and local conditions depend on the storm and the address, so check Palm Beach County's evacuation lookup, understand the building's storm procedures, and make an off-island plan before a warning is issued. Your association's policies cover shutters, balcony clearing, elevators, garage access, staff departure and return." },
+      { q: "Where can I go to the beach on Singer Island?", a: "Public options include Ocean Reef Park, a county park with a lifeguarded beach and parking; Riviera Beach's city beach beside the Ocean Walk shops; and John D. MacArthur Beach State Park just north of the island. Parking, access rules, lifeguard coverage and conditions vary by location and can change." },
+      { q: "Can you snorkel at the Blue Heron Bridge?", a: "Phil Foster Park, the county park under the bridge, has a snorkel trail of limestone boulders and reef modules covering about two acres in 6 to 10 feet of water. Visibility and current change with the tide and the weather, so check conditions before you go in." },
+      { q: "What do new Singer Island residents most often overlook?", a: "Tides, the PGA Boulevard drawbridge if it's on their route, and turtle lighting. On beachfront property, exterior, balcony and even visible interior light can be subject to turtle-protection requirements, so ask the association what applies to windows, balcony fixtures, shades and common areas." },
     ],
     internalLinks: ["what-its-really-like-living-in-singer-island-florida", "hidden-gems-in-singer-island-florida", "best-neighborhoods-in-singer-island-florida"],
-    funFact: "Singer Island has two bridges to the mainland — a south bridge to Riviera Beach and a north bridge to PGA Boulevard and Palm Beach Gardens — but the island still feels like an island. Locals plan their day around bridge traffic in season, and that rhythm genuinely shapes the culture of life out there.",
+    funFact: "Singer Island has two ways to the mainland: west over the Blue Heron Bridge to Riviera Beach, and north to the PGA Boulevard bridge and Palm Beach Gardens. But the island still feels like an island. Locals plan their day around bridge traffic in season, and that rhythm genuinely shapes the culture of life out there.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-26',
   },
   {
     slug: 'best-neighborhoods-in-singer-island-florida',

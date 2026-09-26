@@ -172,7 +172,8 @@ export default async function ArticlePage({ params }: Props) {
       : null
   // Cities whose listings widget runs a hand-built house search (Singer Island)
   // label it as houses, and point condo shoppers at the condo search.
-  const houseOnlyListings = Boolean(getYlopoCitySearch(article.cityName))
+  const citySearch = getYlopoCitySearch(article.cityName)
+  const houseOnlyListings = Boolean(citySearch)
   const condoSearch = houseOnlyListings
     ? community?.savedSearches?.find((s) => s.label === 'Condos')
     : undefined
@@ -452,7 +453,9 @@ export default async function ArticlePage({ params }: Props) {
             {houseOnlyListings ? `${article.cityName} Single-Family Homes for Sale` : `Homes for Sale in ${article.cityName}`}
           </h2>
           <p className="mt-2 text-sm text-slate-500">
-            Single-family homes $500k+, updated daily.
+            {citySearch?.areas
+              ? `Single-family homes $500k+ in ${citySearch.areas}, updated daily.`
+              : 'Single-family homes $500k+, updated daily.'}
             {condoSearch && (
               <>
                 {' '}Shopping for a condo?{' '}
