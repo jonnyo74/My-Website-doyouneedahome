@@ -1,3 +1,11 @@
+import { getYlopoCitySearch, ylopoLocationParams } from './ylopoAliases'
+
+// Singer Island's house search (see YLOPO_CITY_SEARCHES) as a search-site link.
+function singerIslandHomesUrl(minPrice = 400000) {
+  const search = getYlopoCitySearch('Singer Island')!
+  return `https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1${ylopoLocationParams(search.locations)}&s[propertyTypes][0]=house&s[minPrice]=${minPrice}`
+}
+
 export type CommunityType = 'City' | 'Neighborhood'
 
 export type CommunityVideoData = {
@@ -2532,11 +2540,13 @@ export const cities: CommunityItem[] = [
       '/images/singer-island/waterfront-001.jpeg',
     ],
     savedSearches: [
+      // Houses only: Singer Island condos belong to condowpb.com. The condo
+      // buttons stay until its Singer Island section exists, then point there.
+      { label: 'Single-Family Homes', sublabel: 'Palm Beach Isles, Yacht Harbor & Palm Beach Shores', url: singerIslandHomesUrl() },
+      { label: 'Homes $3M+', sublabel: 'Single-family, $3M and up', url: singerIslandHomesUrl(3000000) },
       { label: 'Condos', sublabel: 'All condo listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[minPrice]=400000' },
       { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
       { label: 'Waterfront Condos', sublabel: 'Intracoastal & inlet views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
-      { label: 'Waterfront Homes', sublabel: 'Single-family on the water', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
       { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Singer%20Island&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.7939, lng: -80.0427,

@@ -1,5 +1,5 @@
 // Script loading is handled by YlopoInit on the parent page — do not reload here.
-import { getYlopoAliases } from '@/lib/ylopoAliases'
+import { getYlopoAliases, getYlopoCitySearch } from '@/lib/ylopoAliases'
 
 interface Props {
   city: string
@@ -20,18 +20,22 @@ export default function YlopoResultsWidget({ city, neighborhood, minPrice = 6000
   //   portal.ylopo.com/api/1.0/autocomplete?q=<name>&partyWebsite=search.doyouneedahome.com
   // Some communities are filed under several names (see lib/ylopoAliases);
   // each alias gets the same three keys.
+  // A few cities need a hand-built search instead of `{ city }` (see
+  // YLOPO_CITY_SEARCHES); its property types replace the caller's.
+  const citySearch = neighborhood ? undefined : getYlopoCitySearch(city)
   const locations = neighborhood
     ? [neighborhood, ...getYlopoAliases(neighborhood)].flatMap((name) => [
         { community: name, city, state: 'FL' },
         { neighborhood: name, city, state: 'FL' },
         { subdivision: name, city, state: 'FL' },
       ])
-    : [{ city, state: 'FL' }]
+    : citySearch?.locations ?? [{ city, state: 'FL' }]
 
   // Site-wide floor — never show listings under $400K regardless of caller.
   const effectiveMinPrice = Math.max(minPrice, 400000)
   const search: Record<string, unknown> = { locations, limit, minPrice: effectiveMinPrice, sortBy: 'listdate' }
-  if (propertyTypes?.length) search.propertyTypes = propertyTypes
+  const types = citySearch?.propertyTypes ?? propertyTypes
+  if (types?.length) search.propertyTypes = types
 
   return (
     <div

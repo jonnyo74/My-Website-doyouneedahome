@@ -17,6 +17,7 @@ import YlopoInit from '@/components/YlopoInit'
 import TransportMapWrapper from '@/components/TransportMapWrapper'
 import CitySearchButtons from '@/components/CitySearchButtons'
 import CommunityVideo from '@/components/CommunityVideo'
+import { getYlopoCitySearch, ylopoLocationParams } from '@/lib/ylopoAliases'
 import GreatSchoolsCard, { greatSchoolsCity } from '@/components/GreatSchoolsCard'
 import PaddleCommunityLink from '@/components/paddle/PaddleCommunityLink'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
@@ -41,12 +42,19 @@ function searchUrl(city: string, opts: {
   propertyTypes?: string[]
 } = {}) {
   const c = encodeURIComponent(city)
-  let url = `${SEARCH_URL}/search?area=${c}&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=${c}&s[locations][0][state]=FL`
+  // Cities with a hand-built search (lib/ylopoAliases) use it for every link
+  // except condo searches, which keep the plain city search.
+  const citySearch = opts.propertyTypes?.includes('condo') ? undefined : getYlopoCitySearch(city)
+  const locations = citySearch
+    ? ylopoLocationParams(citySearch.locations)
+    : `&s[locations][0][city]=${c}&s[locations][0][state]=FL`
+  let url = `${SEARCH_URL}/search?area=${c}&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1${locations}`
   // Site-wide floor — never show listings under $400K.
   url += `&s[minPrice]=${Math.max(opts.minPrice ?? 0, 400000)}`
   if (opts.maxPrice) url += `&s[maxPrice]=${opts.maxPrice}`
   if (opts.amenities) opts.amenities.forEach((a, i) => { url += `&s[amenities][${i}]=${encodeURIComponent(a)}` })
-  if (opts.propertyTypes) opts.propertyTypes.forEach((t, i) => { url += `&s[propertyTypes][${i}]=${encodeURIComponent(t)}` })
+  const propertyTypes = citySearch?.propertyTypes ?? opts.propertyTypes
+  if (propertyTypes) propertyTypes.forEach((t, i) => { url += `&s[propertyTypes][${i}]=${encodeURIComponent(t)}` })
   return url
 }
 
