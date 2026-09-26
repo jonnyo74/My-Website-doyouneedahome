@@ -58,6 +58,7 @@ export type YlopoLocation = Record<string, string>
 // Property type must be 'house'. 'SFR' is silently ignored by the listings API.
 const WPB = 'West Palm Beach'
 const RB = 'Riviera Beach'
+const STUART = 'Stuart'
 
 export const YLOPO_CITY_SEARCHES: Record<string, { locations: YlopoLocation[]; propertyTypes: string[] }> = {
   'Singer Island': {
@@ -82,6 +83,34 @@ export const YLOPO_CITY_SEARCHES: Record<string, { locations: YlopoLocation[]; p
       { city: 'Palm Beach Shores', state: 'FL' },
       { city: 'Singer Island', state: 'FL' },
       { neighborhood: 'Singer Island', city: RB, state: 'FL' },
+    ],
+  },
+  // Port Salerno (2026-09-26): unincorporated, so Ylopo has no Port Salerno
+  // city and a `{ city }` search returns nothing at all. Its homes are filed
+  // under Stuart by subdivision or community. The 34997 ZIP is no substitute:
+  // it returned SW Riviera Road and SW Regency Road, miles west. Rocky Point is included on purpose
+  // (the Port Salerno blog series covers it); its homes are Stuart listings,
+  // so Stuart's plain city search still shows them too. The union below
+  // returned 10 active houses, 9 at $500k+, all between the Manatee Pocket,
+  // Major Way and Railway Avenue. The names that returned nothing that day
+  // (Port Salerno Village, Rocky Point Estates, Salerno Shores) are kept for
+  // future listings.
+  'Port Salerno': {
+    propertyTypes: ['house'],
+    locations: [
+      { community: 'Port Salerno', city: STUART, state: 'FL' },
+      { subdivision: 'Port Salerno', city: STUART, state: 'FL' },
+      { subdivision: 'Port Salerno E', city: STUART, state: 'FL' },
+      { community: 'Port Salerno Village', city: STUART, state: 'FL' },
+      { subdivision: 'Port Salerno Village', city: STUART, state: 'FL' },
+      { subdivision: 'Vista Salerno Revised', city: STUART, state: 'FL' },
+      { subdivision: 'Salerno Shores', city: STUART, state: 'FL' },
+      { community: 'Rocky Point', city: STUART, state: 'FL' },
+      { community: 'Rocky Point / Tall Pines', city: STUART, state: 'FL' },
+      { community: 'Rocky Point Estates', city: STUART, state: 'FL' },
+      { subdivision: 'Rocky Point', city: STUART, state: 'FL' },
+      { subdivision: 'Rocky Point Estates', city: STUART, state: 'FL' },
+      { subdivision: 'Rocky Point Highlands', city: STUART, state: 'FL' },
     ],
   },
 }
