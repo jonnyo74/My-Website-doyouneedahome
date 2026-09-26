@@ -16334,7 +16334,13 @@ If those trades sound acceptable, our [comparison with the alternatives](/blog/s
     primaryKeyword: "Singer Island local guide",
     secondaryKeywords: ["Singer Island insider tips", "things locals do on Singer Island", "moving to Singer Island guide"],
     h1: "A Local's Guide to Singer Island, Florida",
-    heroImage: '/images/singer-island/singer-island-0004.jpeg',
+    heroImage: '/images/singer-island/blue-heron-bridge-phil-foster-hero.webp',
+    heroImageAlt: "Looking east from the Blue Heron Bridge over Phil Foster Park and the Lake Worth Lagoon to the high-rises along Singer Island's ocean side",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '30% 50%',
+    heroImageCaption: "Phil Foster Park, under the Blue Heron Bridge, with Singer Island beyond",
     body: `The practical layer: how the island works, who governs what, how to get on and off, and the things new residents work out a month too late.
 
 ## The layout
@@ -16464,7 +16470,12 @@ For the feel of the place rather than the mechanics, read [what living here is a
     primaryKeyword: "best neighborhoods on Singer Island Florida",
     secondaryKeywords: ["where to live on Singer Island", "Singer Island oceanfront condos", "Palm Beach Shores"],
     h1: "Best Neighborhoods & Areas on Singer Island, Florida",
-    heroImage: '/images/singer-island/singer-island-0003.jpeg',
+    heroImage: '/images/singer-island/island-houses-aerial-hero.webp',
+    heroImageAlt: "Streets of single-family homes on Singer Island seen from a high-rise, with the Lake Worth Lagoon beyond",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '50% 50%',
     body: `Almost everything written about Singer Island housing is about towers. This isn't, because the more interesting question for a lot of buyers is the one nobody answers: **can you get a house on this island, and what is it actually like?**
 
 You can. There's exactly one place to do it, and it's a town most people drive through without registering.
@@ -16560,7 +16571,12 @@ Whatever you choose, verify flood zone, elevation, municipality, evacuation zone
     primaryKeyword: "things to do on Singer Island Florida",
     secondaryKeywords: ["Singer Island attractions", "what to do on Singer Island", "MacArthur Beach State Park", "Peanut Island"],
     h1: "Best Things to Do on Singer Island, Florida",
-    heroImage: '/images/singer-island/waterfront-003.jpeg',
+    heroImage: '/images/singer-island/inlet-sailboat-hero.webp',
+    heroImageAlt: "A sailboat heading through the Lake Worth Inlet at sunset, seen over the rocks at the south tip of Singer Island",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '55% 50%',
     body: `Singer Island's recreation is almost entirely aquatic, and one item on the list is genuinely world-class rather than merely good. For a barrier island a few miles long, the concentration is remarkable.
 
 ## Dive or snorkel the Blue Heron Bridge
@@ -16683,7 +16699,12 @@ Those three are what this island is genuinely for. Once you've done them, the [q
     primaryKeyword: "who should move to Singer Island Florida",
     secondaryKeywords: ["is Singer Island right for me", "should I move to Singer Island", "who lives on Singer Island"],
     h1: "Who Should Move to Singer Island, Florida (And Who Shouldn't)",
-    heroImage: '/images/singer-island/singer-island-0005.jpeg',
+    heroImage: '/images/singer-island/yellow-house-palms-hero.webp',
+    heroImageAlt: "A yellow two-story house with a white porch and palm trees on a Singer Island street",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '45% 50%',
     body: `Singer Island is one of the most self-selecting places in Palm Beach County. It does a specific thing extremely well and almost nothing else, which makes the fit question unusually clean.
 
 ## The people this island fits
@@ -16793,7 +16814,12 @@ The clearest way to test yourself: if the phrase "special assessment" makes you 
     primaryKeyword: "pros and cons of living on Singer Island Florida",
     secondaryKeywords: ["Singer Island pros and cons", "living on Singer Island downsides", "is Singer Island worth it"],
     h1: "Pros and Cons of Living on Singer Island, Florida",
-    heroImage: '/images/singer-island/waterfront-005.jpeg',
+    heroImage: '/images/singer-island/inlet-cargo-ship-sunset-hero.webp',
+    heroImageAlt: "A container ship passing through the Lake Worth Inlet at sunset, seen from the south tip of Singer Island",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '55% 50%',
     showMarketTrends: true,
     body: `Singer Island's advantages are concentrated and unusually hard to find elsewhere. Its drawbacks are structural and won't change. That combination makes it an easy place to assess honestly, provided nobody pretends the drawbacks are minor.
 
@@ -16900,7 +16926,12 @@ The good news is that this is knowable in advance. Rent for a month, read three 
     primaryKeyword: "cost of living on Singer Island Florida",
     secondaryKeywords: ["Singer Island condo prices", "is Singer Island expensive", "Singer Island HOA fees"],
     h1: "Cost of Living on Singer Island, Florida",
-    heroImage: '/images/singer-island/singer-island-0007.jpeg',
+    heroImage: '/images/singer-island/blue-ranch-house-hero.webp',
+    heroImageAlt: "A single-story blue house with a circular drive on a Singer Island street",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '60% 50%',
     showMarketTrends: true,
     body: `Singer Island is a place where the purchase price tells you unusually little about what it costs to live there. Barrier-island exposure, two municipalities and a housing stock split between ageing towers and a small single-family town all pull in different directions.
 
@@ -17008,7 +17039,12 @@ For houses, insurance and exposure are the story. For condominiums, the associat
     primaryKeyword: "hidden gems on Singer Island Florida",
     secondaryKeywords: ["Singer Island secret spots", "Blue Heron Bridge diving", "Peanut Island"],
     h1: "Hidden Gems on Singer Island, Florida",
-    heroImage: '/images/singer-island/waterfront-006.jpeg',
+    heroImage: '/images/singer-island/paver-path-inlet-park-hero.webp',
+    heroImageAlt: "A brick-paver path between hedges leading to a waterfront park and gazebo on Singer Island",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '35% 50%',
     body: `The island's famous attractions — the bridge dive, the state park, Peanut Island — are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-singer-island-florida).
 
 This is the other layer: the small, quiet, mostly free things that take residents a year or two to find, on an island where a great deal of what's good isn't advertised at all.
@@ -17126,7 +17162,12 @@ For the practical side of settling in, our [guide to operating here](/blog/local
     primaryKeyword: "Singer Island vs nearby cities",
     secondaryKeywords: ["Singer Island vs Jupiter", "Singer Island vs Juno Beach", "Singer Island vs Palm Beach"],
     h1: "Singer Island vs Nearby Cities: How to Choose",
-    heroImage: '/images/singer-island/waterfront-002.jpeg',
+    heroImage: '/images/singer-island/lagoon-view-island-skyline-hero.webp',
+    heroImageAlt: "Singer Island's high-rises and a point of waterfront homes seen across the Lake Worth Lagoon",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '65% 50%',
     showMarketTrends: true,
     body: `Singer Island competes with almost every coastal option in northern Palm Beach County, and it wins or loses on one variable: whether you want to live in a building on the ocean or a house near it.
 
@@ -17267,7 +17308,12 @@ One practical note: **confirm the municipality.** The island spans two, and it c
     primaryKeyword: "best restaurants on Singer Island Florida",
     secondaryKeywords: ["where to eat on Singer Island", "Sailfish Marina", "Singer Island waterfront dining"],
     h1: "Best Places to Eat, Drink & Hang Out on Singer Island, Florida",
-    heroImage: '/images/singer-island/singer-island-0002.jpeg',
+    heroImage: '/images/singer-island/sailfish-marina-docks-hero.webp',
+    heroImageAlt: "A Sailfish Marina Resort chair on the dock in Palm Beach Shores, with sportfishing boats in the marina behind",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '75% 50%',
     body: `The island's social center isn't in the tower corridor. It's at the southern tip, in **Palm Beach Shores**, and understanding that is the key to eating and drinking well here.
 
 The high-rise stretch has resort restaurants and a beach. Palm Beach Shores has a marina, a walkable few blocks, and the closest thing this island has to a town.
