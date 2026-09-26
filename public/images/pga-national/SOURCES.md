@@ -20,6 +20,15 @@ John dropped these into `public/public/PGA National/` as `PGA_National_Wide.jpg`
 `PGA_National_Closeup.jpg` and cleared them for the PGA National and Palm Beach Gardens
 pages. They are committed byte-for-byte, with no re-encode.
 
+**These are John's own photos, retouched.** Street lights and power poles in front of the
+sign made a clean shot impossible, so he generated these versions from his photo with the
+clutter removed. That explains the smooth, processed look and the missing camera
+metadata. If they ever get questioned, this is the answer: the source photo is his.
+
+Retouching is fine for a community sign. Do **not** take it as a precedent for listing
+photos. Removing permanent features such as poles, lines or neighboring structures from a
+photo of a property for sale misrepresents the property.
+
 - **Too small for the hero.** They are **768×576** with no camera metadata. That's fine
   for a gallery tile or an in-article image. Stretched across the 72vh full-width hero,
   they would look soft. The Bear Trap stays the hero, and a full-resolution re-export
