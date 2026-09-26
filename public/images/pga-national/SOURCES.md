@@ -6,9 +6,27 @@
 |---|---|---|
 | `pga-national-001.jpg` | The Bear Trap bronze bear and its marker stone, water and fairway behind | No people. The only signage is PGA National's own Bear Trap plaque |
 | `pga-national-006.jpg` | Two-storey condo building, tile roof, screened balconies, palms | No people, no branding |
+| `pga-national-sign-wide.jpg` | Stone "PGA NATIONAL" sign wall with crossed-club medallions, palms behind, road in front | No people. The only branding is the community's own sign |
+| `pga-national-sign-closeup.jpg` | The same style of sign wall, tighter framing | Same |
 
-These two are the entire `photos` array for `pga-national` in `src/lib/communities.ts`.
-Two photos renders the short gallery row rather than the bento grid — thin, but clean.
+The `photos` array for `pga-national` in `src/lib/communities.ts` is, in order: Bear Trap
+(hero), sign wide, condo building, sign close-up. The hero is the gallery's first image
+and is not repeated, so three gallery images still render as the short row, not the
+bento grid.
+
+### The two sign photos (added 2026-09-26)
+
+John dropped these into `public/public/PGA National/` as `PGA_National_Wide.jpg` and
+`PGA_National_Closeup.jpg` and cleared them for the PGA National and Palm Beach Gardens
+pages. They are committed byte-for-byte, with no re-encode.
+
+- **Too small for the hero.** They are **768×576** with no camera metadata. That's fine
+  for a gallery tile or an in-article image. Stretched across the 72vh full-width hero,
+  they would look soft. The Bear Trap stays the hero, and a full-resolution re-export
+  could replace it later.
+- **Placed in articles:** `pga-national-sign-wide.jpg` in *Best Neighborhoods in Palm Beach
+  Gardens* (the PGA National section) and `pga-national-sign-closeup.jpg` in *Best Things
+  to Do in Palm Beach Gardens* (the PGA National golf paragraph).
 
 ## Removed 2026-08-16 — Honda Classic spectator photos
 

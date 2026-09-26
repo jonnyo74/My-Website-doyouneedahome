@@ -3297,7 +3297,9 @@ export const neighborhoods: CommunityItem[] = [
     ],
     photos: [
       '/images/pga-national/pga-national-001.jpg',
+      '/images/pga-national/pga-national-sign-wide.jpg',
       '/images/pga-national/pga-national-006.jpg',
+      '/images/pga-national/pga-national-sign-closeup.jpg',
     ],
     schoolOverview: 'PGA National is zoned for Palm Beach Gardens public schools and falls within the Palm Beach Gardens Community High School attendance area. Buyers should verify current Florida Department of Education school grades and confirm boundaries with Palm Beach County Schools.',
     schoolList: [
@@ -3477,11 +3479,14 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Two championship golf courses, private club, tennis, spa' },
     ],
     photos: [
+      '/images/mirasol/mirasol-sign-lake-fountain.jpg',
+      '/images/mirasol/mirasol-fountain-roundabout.jpg',
+      '/images/mirasol/mirasol-sign-lake-storm.jpg',
       '/images/mirasol/mirasol-001.jpg',
       '/images/mirasol/mirasol-002.jpeg',
+      '/images/mirasol/mirasol-005.jpeg',
       '/images/mirasol/mirasol-003.jpeg',
       '/images/mirasol/mirasol-004.jpeg',
-      '/images/mirasol/mirasol-005.jpeg',
       '/images/mirasol/mirasol-006.jpeg',
     ],
   },
