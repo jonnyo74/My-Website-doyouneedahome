@@ -6,16 +6,17 @@ Each hero is a 16:9 crop, 2048×1152 WebP (q80), **copied** from John Oliver's o
 (`Website Folders/Doyouneedphotos/Singer Island/`; nothing there was moved). The library copies are
 1920×1440 with location data stripped, so location was checked by eye and confirmed with John on
 2026-09-26. The page credit reads "Photo by John Oliver". `heroImagePosition` on the article sets
-the phone crop. Each crop is full width, rows *top* to *top*+1080, upscaled from 1920 to 2048. #1 is
-not listed yet: it gets the fisherman statue (IMG_0662) as a split hero during its article audit.
+the phone crop. Each crop is full width, rows *top* to *top*+1080, upscaled from 1920 to 2048, except
+#1 (below).
 
 The files these replace stay in the folder: the Singer Island community page still uses several
 of them, and old social shares may point to others. Their origin is not recorded.
 
 | Article | Hero file | Cut from | Crop and position | Replaces | Notes |
 |---|---|---|---|---|---|
-| #2 `local-guide-to-singer-island-florida` | `blue-heron-bridge-phil-foster-hero.webp` | library `IMG_0660.JPEG` (1920×1440) | Rows 180–1260. `heroImagePosition: '30% 50%'`. Added 2026-09-26. | `singer-island-0004.jpeg` | From the Blue Heron Bridge looking east over Phil Foster Park to the island. Captioned, because Phil Foster Park is under the bridge, not on Singer Island. |
-| #3 `best-neighborhoods-in-singer-island-florida` | `island-houses-aerial-hero.webp` | library `IMG_0363.JPEG` (1920×1440) | Rows 250–1330. `heroImagePosition: '50% 50%'`. Added 2026-09-26. | `singer-island-0003.jpeg` | High-rise view over the island's single-family streets. |
+| #1 `what-its-really-like-living-in-singer-island-florida` | `fisherman-statue-hero.webp` (16:9 OG/JSON-LD), `fisherman-statue-panel.webp` (960×1200, desktop split panel), `fisherman-statue-mobile.webp` (1200×800, phones) | library `IMG_0662.JPEG` (1536×2048 portrait): the fisherman statue at the wheel where the Blue Heron Bridge arrives on the island (location per John) | Hero rows 640–1504, full width, upscaled to 2048. Panel cols 136–1365, rows 100–1636. Mobile rows 560–1584, full width. All three leave out a soda can in the mulch at row ~1690. `heroImagePosition: '45% 50%'`. Added 2026-09-26. | `waterfront-001.jpeg` | No official name or artist found for the statue, so it is described, not named. IMG_0663 was not used (a person in the background). |
+| #2 `local-guide-to-singer-island-florida` | `blue-heron-bridge-phil-foster-hero.webp`, plus `blue-heron-bridge-phil-foster-mobile.webp` (1200×800, rows 80–1360, added 2026-09-26 for the editorial hero) | library `IMG_0660.JPEG` (1920×1440) | Rows 180–1260. `heroImagePosition: '30% 50%'`. Added 2026-09-26. | `singer-island-0004.jpeg` | From the Blue Heron Bridge looking east over Phil Foster Park to the island. Captioned, because Phil Foster Park is under the bridge, not on Singer Island. |
+| #3 `best-neighborhoods-in-singer-island-florida` | `island-houses-aerial-hero.webp`, plus `island-houses-aerial-mobile.webp` (1200×800, rows 160–1440, added 2026-09-26 for the editorial hero) | library `IMG_0363.JPEG` (1920×1440) | Rows 250–1330. `heroImagePosition: '50% 50%'`. Added 2026-09-26. | `singer-island-0003.jpeg` | High-rise view over the island's single-family streets. |
 | #4 `best-things-to-do-in-singer-island-florida` | `inlet-sailboat-hero.webp` | library `IMG_2944.JPEG` (1920×1440) | Rows 250–1330. `heroImagePosition: '55% 50%'`. Added 2026-09-26. | `waterfront-003.jpeg` | Lake Worth Inlet from the rocks at the island's south tip. |
 | #5 `who-should-move-to-singer-island-florida` | `yellow-house-palms-hero.webp` | library `IMG_0665.JPEG` (1920×1440) | Rows 150–1230. `heroImagePosition: '45% 50%'`. Added 2026-09-26. | `singer-island-0005.jpeg` | Street view of a private house; John confirmed on 2026-09-26 that the house shots are on Singer Island / Palm Beach Shores and OK to use. No address given. |
 | #6 `pros-and-cons-of-living-in-singer-island-florida` | `inlet-cargo-ship-sunset-hero.webp` | library `IMG_2956.JPEG` (1920×1440) | Rows 150–1230. `heroImagePosition: '55% 50%'`. Added 2026-09-26. | `waterfront-005.jpeg` | A cargo ship in the Lake Worth Inlet, from the south tip. |
@@ -23,3 +24,16 @@ of them, and old social shares may point to others. Their origin is not recorded
 | #8 `hidden-gems-in-singer-island-florida` | `paver-path-inlet-park-hero.webp` | library `IMG_0673.JPEG` (1920×1440) | Rows 180–1260. `heroImagePosition: '35% 50%'`. Added 2026-09-26. | `waterfront-006.jpeg` | Paver path to a waterfront park and gazebo on the island. |
 | #9 `singer-island-vs-nearby-cities` | `lagoon-view-island-skyline-hero.webp` | library `IMG_5563.JPEG` (1920×1440) | Rows 250–1330. `heroImagePosition: '65% 50%'`. Added 2026-09-26. | `waterfront-002.jpeg` | The island seen across the Lake Worth Lagoon from a high-rise. |
 | #10 `best-places-to-eat-drink-hang-out-in-singer-island-florida` | `sailfish-marina-docks-hero.webp` | library `IMG_3130.jpg` (1920×1440) | Rows 360–1440. `heroImagePosition: '75% 50%'`. Added 2026-09-26. | `singer-island-0002.jpeg` | Sailfish Marina Resort (Palm Beach Shores). |
+
+## In-article images
+
+1400×1050 WebP (q80) copies from the same library, embedded with `{1400x1050}` so the page reserves their space. Location was checked by eye; captions only claim what the frame shows.
+
+| Article | File | Cut from | Crop | Caption / placement |
+|---|---|---|---|---|
+| #2 | `palm-beach-shores-inlet-homes.webp` | library `IMG_2943.JPEG` (1920×1440) | Full frame | "Two municipalities": low-rise homes along the inlet at the south end (Palm Beach Shores). Added 2026-09-26. |
+| #2 | `turtle-nest-beach.webp` | library `IMG_4811.JPEG` (1920×1440) | Full frame | "Beach and parking practicalities", before the turtle-lighting note: a marked sea turtle nest on a Singer Island beach. Added 2026-09-26. |
+| #2 | `blue-heron-bridge-lagoon.webp` | library `IMG_0657.JPEG` (1536×2048 portrait) | Rows 350–1502, full width | "The water-side places locals actually use": the Blue Heron Bridge over the lagoon; Phil Foster Park is beneath it. Added 2026-09-26. |
+| #3 | `palm-beach-shores-inlet-path.webp` | library `IMG_0675.JPEG` (1536×2048 portrait) | Rows 400–1552, full width | "Palm Beach Shores": a waterfront path past low-rise homes at the south end. Added 2026-09-26. |
+| #3 | `lagoon-side-houses-aerial.webp` | library `IMG_4606.JPEG` (1920×1440) | Full frame | "Palm Beach Isles and the Yacht Harbor communities": high-rise view west over the lagoon-side houses and canals. The caption doesn't name which community is in frame. Added 2026-09-26. |
+| #3 | `ocean-beach-tower-corridor.webp` | library `IMG_4813.JPEG` (1920×1440) | Full frame | "The condominium corridor": the ocean beach at dawn with the towers behind. Added 2026-09-26. |

@@ -17,10 +17,15 @@ import { headingId } from '@/lib/headingId'
  *   ![alt](/b.jpg "Caption")
  *   :::
  * In a landscape gallery an odd final image spans both columns at 16:9.
+ *
+ * A standalone image may add its pixel size after the closing parenthesis, so
+ * the browser reserves its space before it loads (no layout shift):
+ *   ![alt text](/images/a.webp "Caption"){1400x1050}
  */
 
-// ![alt](src) or ![alt](src "caption") — the whole line, nothing else on it.
-const IMAGE_LINE = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$/
+// ![alt](src) or ![alt](src "caption"), optionally followed by {WxH} — the
+// whole line, nothing else on it.
+const IMAGE_LINE = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)(?:\{(\d+)x(\d+)\})?$/
 const GALLERY_OPEN = /^:::\s*gallery(?:\s+(portrait))?$/
 
 type GalleryImage = { alt: string; src: string; caption?: string; credit?: string }
@@ -232,7 +237,7 @@ export default function Prose({ content, className = '' }: { content: string; cl
     const image = line.match(IMAGE_LINE)
     if (image) {
       flushPara(); flushList()
-      const [, alt, src, rawCaption] = image
+      const [, alt, src, rawCaption, width, height] = image
       const { caption, credit } = splitCaption(rawCaption)
       blocks.push(
         <figure key={`f${key++}`} className="mt-8">
@@ -240,8 +245,10 @@ export default function Prose({ content, className = '' }: { content: string; cl
           <img
             src={src}
             alt={alt}
+            width={width ? Number(width) : undefined}
+            height={height ? Number(height) : undefined}
             loading="lazy"
-            className="w-full rounded-2xl border border-slate-200 object-cover shadow-card"
+            className="h-auto w-full rounded-2xl border border-slate-200 object-cover shadow-card"
           />
           {(caption || credit) && (
             <figcaption className="mt-3 text-center text-sm italic leading-6 text-slate-500">

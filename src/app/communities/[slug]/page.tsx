@@ -331,7 +331,9 @@ export default async function CommunityPage({ params }: Props) {
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">Live MLS Data</p>
               <h2 className="mt-1 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
-                Homes for Sale in {community.name}
+                {isCity && getYlopoCitySearch(community.name)
+                  ? `${community.name} Single-Family Homes for Sale`
+                  : `Homes for Sale in ${community.name}`}
               </h2>
             </div>
             <a

@@ -60,9 +60,14 @@ const WPB = 'West Palm Beach'
 const RB = 'Riviera Beach'
 const STUART = 'Stuart'
 
-export const YLOPO_CITY_SEARCHES: Record<string, { locations: YlopoLocation[]; propertyTypes: string[] }> = {
+export const YLOPO_CITY_SEARCHES: Record<
+  string,
+  // `areas` names where the houses are, for the listings module's subheading.
+  { locations: YlopoLocation[]; propertyTypes: string[]; areas?: string }
+> = {
   'Singer Island': {
     propertyTypes: ['house'],
+    areas: 'Palm Beach Isles, Yacht Harbor and Palm Beach Shores',
     locations: [
       { community: 'Palm Beach Isles', city: WPB, state: 'FL' },
       { subdivision: 'Palm Beach Isles', city: WPB, state: 'FL' },

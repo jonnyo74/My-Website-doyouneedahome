@@ -2461,13 +2461,15 @@ export const cities: CommunityItem[] = [
       { name: 'Intracoastal / West Side', description: 'Waterfront single-family homes and townhomes on the Lake Worth Lagoon side — private docks, calm water, and sunset views across to Palm Beach Gardens.' },
       { name: 'MacArthur Park Area (North End)', description: 'The quietest stretch of the island, adjacent to the state park — lower-density condos, strong natural surroundings, and a nature-forward residential character.' },
     ],
+    // Checked 2026-09-26 on each venue's own site where it has one (Two Drunken
+    // Goats has none; its address is from directory listings). Replaces a list
+    // that was mostly off-island or closed: Spoto's (Palm Beach Gardens),
+    // E.R. Bradley's (West Palm), Edd's Place, Inlet Bar and Grill.
     dining: [
-      'Sailfish Marina Resort — waterfront dining at the marina on the Intracoastal, popular with the boating crowd',
-      'Spoto\'s Oyster Bar — Singer Island institution for fresh seafood and an authentic local atmosphere',
-      'E.R. Bradley\'s Saloon (WPB) — 15 min south via bridge, iconic waterfront Clematis bar',
-      'Palm Beach Gardens dining (15 min) — The Cooper, Spoto\'s, La Masseria, PGA Commons corridor',
-      'Edd\'s Place — Singer Island casual dining, local favorite for years',
-      'Inlet Bar and Grill — laid-back waterfront spot with solid seafood and a local vibe',
+      'Sailfish Restaurant & Tiki Bar at Sailfish Marina Resort (98 Lake Dr, Palm Beach Shores): waterfront seafood at the marina, with a Sunset Celebration along the seawall every Thursday',
+      'Buccaneer Waterfront Bar & Grill (142 Lake Dr, Palm Beach Shores): the 1956 Buccaneer marina, reopened as a steak and seafood grill with a two-level deck on the water; dinner daily',
+      'Johnny Longboats (2401 N Ocean Ave): seafood, sushi and Italian by the public beach, with breakfast on weekends',
+      'Two Drunken Goats Beach Cantina (2509 N Ocean Ave): beach bar and cantina in the Ocean Mall at the public beach',
     ],
     outdoorActivities: [
       'Blue Heron Bridge shore diving — world-class macro marine life viewing under the bridge at Phil Foster Park, any skill level',
