@@ -29917,6 +29917,81 @@ Insurance in Florida is still expensive, and a few rate cuts do not change that 
     publishedDate: '2026-09-28',
     updated: '2026-09-28',
   },
+  {
+    slug: 'miami-cost-of-living-vs-palm-beach-county',
+    citySlug: 'lake-worth-beach',
+    cityName: 'Lake Worth Beach',
+    type: 'Relocation',
+    order: 11,
+    heroImage: '/images/lake-worth-beach/pier-morning-hero.webp',
+    heroImageAlt: "The William O. Lockhart Municipal Pier in Lake Worth Beach stretching into the Atlantic, seen from the sand in the morning, with sunlight glittering on the water",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImagePosition: '70% 50%',
+    seoTitle: 'Miami Cost of Living vs Palm Beach County: Where Your Budget Goes Further',
+    metaTitle: 'Miami Cost of Living vs Palm Beach County | Where to Buy',
+    metaDescription: "Miami's metro now out-prices New York by one federal measure. What that number means, and where in Palm Beach County buyers leaving Miami find more for the money.",
+    primaryKeyword: 'Miami cost of living vs Palm Beach County',
+    secondaryKeywords: ['moving from Miami to Palm Beach County', 'Miami more expensive than New York', 'affordable places to live in Palm Beach County', 'Lake Worth Beach vs Miami', 'cost of living Palm Beach County'],
+    h1: 'Miami Now Costs More Than New York. Where Palm Beach County Still Makes Sense',
+    body: `By one federal measure, Miami's cost of living has now passed New York's. If you're pricing out a move from Miami-Dade or Broward, the headline probably matches what your rent or insurance bill has been telling you. Here's what the number actually says, why Palm Beach County doesn't get a pass, and where the value is if you're heading north.
+
+## What the number actually measures
+
+The figure comes from the U.S. Bureau of Economic Analysis's Regional Price Parities, which compare price levels across metro areas against a national average of 100. In the 2024 data, the Miami–Fort Lauderdale–West Palm Beach metro scored about 114.2 and the New York–Newark–Jersey City metro about 112.6. CBS12 reported it as the first time Miami's metro came out ahead.
+
+Two caveats before you plan a move around it:
+
+- **It's a metro-wide number, and Palm Beach County is part of that metro.** The BEA doesn't break it out by county, so the index doesn't say Palm Beach County is cheaper than Miami. It says the region as a whole is expensive.
+- **It measures prices, not the full cost of owning.** Regional Price Parities cover goods, services and rents. They leave out property taxes, homeowners insurance and flood insurance, which are the costs that decide what a Florida home really costs you each year.
+
+So the useful question isn't "Is Palm Beach County cheaper?" It's "Where in Palm Beach County does my budget buy more house, with carrying costs I can live with?"
+
+## Four places Miami buyers should look first
+
+These aren't the cheapest addresses in the county. They're places where a buyer leaving Miami usually gives up little of what they liked and keeps more of the budget.
+
+**[Lake Worth Beach](/communities/lake-worth-beach).** This is the closest thing in the county to the walkable, older-Miami feel people miss: a small downtown, a municipal beach and pier, and historic cottages east of Dixie. Many of those houses are old, so budget for inspections and updates. Our [Lake Worth Beach cost-of-living guide](/blog/cost-of-living-in-lake-worth-beach-florida) walks through City electric, taxes and insurance.
+
+**[Boynton Beach](/communities/boynton-beach).** The eastern side is where the redevelopment is happening, and the Intracoastal and I-95 make a drive south practical. West of I-95 you'll find more newer, gated and 55+ communities. See [what it costs to own in Boynton Beach](/blog/cost-of-living-in-boynton-beach-florida).
+
+**Greenacres.** Greenacres sits just west of Lake Worth Beach, in the middle of the county. It's mostly suburban single-family homes and generally gives you more house for the money than the coastal cities, but you'll drive for almost everything. We don't have a Greenacres guide yet, so ask us and we'll give you the local rundown.
+
+**[Royal Palm Beach](/communities/royal-palm-beach).** Coming from Kendall, Pembroke Pines or Miramar? Royal Palm Beach will feel familiar: bigger lots, lots of parks and a village-scale pace, with Southern Boulevard and the Turnpike for commuting. Start with our [Royal Palm Beach cost-of-living breakdown](/blog/cost-of-living-in-royal-palm-beach-florida).
+
+## Yes, the Atlantic side costs more. Here's how to buy smart
+
+A 24/7 Wall St. analysis, reported by WPTV, estimated that retiring comfortably takes about $550,000 in invested assets on Florida's Gulf Coast and about $1.15 million on the Atlantic side. Its estimate of yearly costs was about $78,000 on the Gulf Coast and $98,000 to $105,000 on the Atlantic side. The model assumed a three-bedroom home near the water, and most of the gap came from insurance and property taxes.
+
+That's one outlet's model, not a rule. But it shows where the money goes, and those are the places where a careful buyer can push back:
+
+- **Price insurance before you make an offer.** Roof age, wind-mitigation features and flood zone can change a premium by thousands. Get a quote on the specific address while you're shopping, not after you're under contract.
+- **Estimate your own tax bill, not the seller's.** Florida reassesses a home when it sells, so the seller's homestead-capped bill tells you very little about yours. The Property Appraiser's online calculator will estimate your bill from your purchase price.
+- **Read the association budget.** For a condo or an HOA community, the reserves and any upcoming assessments matter as much as the monthly fee.
+- **Pay only for the location you'll use.** Water views carry the biggest premium. If you want to be near the beach but don't need to see it, ten minutes inland can change the numbers a lot.
+
+## Talk it through before you list in Miami
+
+If you're selling in Miami-Dade or Broward to buy here, the order you do things in matters: the sale, the purchase and the insurance quote all need to line up. [Book a buyer consultation](/contact). Tell us your budget and what you'd miss most about Miami, and we'll show you where in Palm Beach County it fits.`,
+    faqs: [
+      {
+        q: 'Is Miami really more expensive than New York now?',
+        a: "By the Bureau of Economic Analysis's Regional Price Parities for 2024, the Miami–Fort Lauderdale–West Palm Beach metro scored about 114.2 against about 112.6 for the New York metro. That compares the two metro areas as a whole, not the cities themselves, and it measures prices and rents rather than taxes and insurance.",
+      },
+      {
+        q: 'Is Palm Beach County cheaper than Miami?',
+        a: "The federal index can't answer that, because Palm Beach County is part of the same Miami metro. Costs vary a lot by city and by property. Lake Worth Beach, Boynton Beach, Greenacres and Royal Palm Beach are where many buyers leaving Miami find more house for their budget.",
+      },
+      {
+        q: 'Why does the Atlantic coast cost more to retire on than the Gulf Coast?',
+        a: 'In the 24/7 Wall St. analysis WPTV reported, most of the gap came from insurance and property taxes on a home near the water. Pricing insurance on the exact address and estimating your own post-sale tax bill before you make an offer are the two best ways to control it.',
+      },
+    ],
+    internalLinks: ['cost-of-living-in-lake-worth-beach-florida', 'cost-of-living-in-boynton-beach-florida', 'cost-of-living-in-royal-palm-beach-florida', 'lake-worth-beach-vs-nearby-cities'],
+    author: 'john',
+    published: true,
+    publishedDate: '2026-09-28',
+    updated: '2026-09-28',
+  },
 ]
 
 // ---- helpers ----

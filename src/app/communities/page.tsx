@@ -42,6 +42,9 @@ export default function CommunitiesPage() {
             </div>
             <p className="text-sm text-slate-500">Each city page includes neighborhoods, pricing, and lifestyle details.</p>
           </div>
+          {/* TODO(boca-raton): add to the Boca Raton "What's new" roundup when that
+              pass happens — Carmine's Gourmet Market is coming to Boca Raton (Glades
+              station) in 2027. Source and exact site still to be verified. */}
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {cities.map((community) => (
               <CommunityCard key={community.slug} community={community} />
