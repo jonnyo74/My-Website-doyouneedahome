@@ -29638,6 +29638,13 @@ If you arrive expecting to find your regular restaurant, you'll be underwhelmed.
       'treasure coast mortgage rates',
     ],
     h1: 'Mortgage Rates Just Crossed 7%. Here Is What That Means for Buyers in Palm Beach County and the Treasure Coast.',
+    heroImage: '/images/market/stock-house-key-calculator.jpg',
+    heroImageAlt: 'A silver house key, a small red house model and a calculator on a dark surface',
+    heroImageCaption: 'Illustrative stock photo. The rate matters, but the monthly payment is the number you live with.',
+    heroImageCredit: 'Photo by Jakub Żerdzicki / Unsplash',
+    heroImagePosition: '85% 90%',
+    heroImageWidth: 2400,
+    heroImageHeight: 1350,
     body: `The average 30-year fixed mortgage rate crossed 7% last week for the first time in about 20 months. If you have been house hunting since spring, you have watched the same house get more expensive every week without the price changing at all.
 
 Here is what actually happened, what it does to the monthly payment on a typical home in each of the three counties we cover, and what you can still do about it.
