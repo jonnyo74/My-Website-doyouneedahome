@@ -23,6 +23,8 @@ import PaddleCommunityLink from '@/components/paddle/PaddleCommunityLink'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { communityGuides } from '@/components/communityGuide'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
+import WhatsNew from '@/components/WhatsNew'
+import { SITE_URL } from '@/lib/site'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -86,6 +88,7 @@ export async function generateMetadata({ params }: Props) {
         community,
         community.type === 'City' ? community.slug : getParentCity(slug)?.slug,
       ),
+      ...(community.dateModified && { 'last-modified': community.dateModified }),
     },
     openGraph: {
       images: [{ url: ogImage, width: 1200, height: 630, alt: `${community.name} real estate` }],
@@ -156,12 +159,30 @@ export default async function CommunityPage({ params }: Props) {
       }
     : null
 
+  // Freshness signal for pages that record when their content last changed.
+  const webPageSchema = community.dateModified
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/communities/${community.slug}`,
+        url: `${SITE_URL}/communities/${community.slug}`,
+        name: community.metaTitle ?? `${community.name} Real Estate | DO Homes Group`,
+        dateModified: community.dateModified,
+      }
+    : null
+
   return (
     <div className="min-h-screen bg-white">
       {faqSchema && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {webPageSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema).replace(/</g, '\\u003c') }}
         />
       )}
 
@@ -449,6 +470,11 @@ export default async function CommunityPage({ params }: Props) {
                     ))}
                   </div>
                 </div>
+              )}
+
+              {/* Dated local news with a buyer's read on each item */}
+              {community.whatsNew && community.whatsNew.length > 0 && (
+                <WhatsNew cityName={community.name} items={community.whatsNew} updated={community.dateModified} />
               )}
 
               {/* Long-form buyer's guide, for the few communities that have one */}

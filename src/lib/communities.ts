@@ -37,6 +37,21 @@ export type PlaceNote = {
   links?: Array<{ label: string; href: string }>
 }
 
+/**
+ * One entry in a city page's "What's new" roundup. `date` is the date the
+ * news was published or announced, not the day it was added here. Use
+ * 'YYYY-MM' when only the month is known rather than inventing a day.
+ */
+export type WhatsNewItem = {
+  date: string
+  headline: string
+  /** Two or three plain-English sentences on what it means for a buyer. */
+  take: string
+  source: { name: string; url?: string }
+  /** Optional follow-on page on this site. */
+  link?: { label: string; href: string }
+}
+
 export interface CommunityItem {
   slug: string
   name: string
@@ -109,6 +124,13 @@ export interface CommunityItem {
   lng?: number
   // Slugs of similar-priced communities within the same PUD/master-planned community
   similarNeighborhoods?: string[]
+  /** Dated local-news roundup, rendered by <WhatsNew /> — see WhatsNewItem. */
+  whatsNew?: WhatsNewItem[]
+  /**
+   * ISO date the page's content last changed. Emitted in metadata and as the
+   * WebPage dateModified in JSON-LD. Bump it whenever the entry is edited.
+   */
+  dateModified?: string
 }
 
 export const cities: CommunityItem[] = [
@@ -116,6 +138,52 @@ export const cities: CommunityItem[] = [
     slug: 'west-palm-beach',
     name: 'West Palm Beach',
     type: 'City',
+    dateModified: '2026-09-28',
+    whatsNew: [
+      {
+        date: '2026-09-14',
+        headline: 'West Palm Beach leads the U.S. in luxury home sales growth',
+        take: 'Luxury sales here rose 43.9% year over year in Redfin data for July, the biggest increase of any major U.S. metro. That money is squeezing entry-level downtown, so if you are shopping the lower end, look at Northwood, Flamingo Park and the south end for value.',
+        source: { name: 'The Real Deal', url: 'https://therealdeal.com/miami/2026/09/14/west-palm-beach-leads-the-country-in-luxury-home-sales/' },
+      },
+      {
+        date: '2026-09-10',
+        headline: 'Andreessen Horowitz leases a West Palm Beach office',
+        take: 'The venture firm a16z has leased space at CityPlace Tower, with an opening expected early next year. The "Wall Street South" relocation wave now includes venture capital, so expect more out-of-state buyers, many paying cash.',
+        source: { name: 'The Real Deal', url: 'https://therealdeal.com/miami/2026/09/10/andreessen-horowitz-leases-sofla-office-from-related-ross/' },
+      },
+      {
+        date: '2026-09-08',
+        headline: 'Downtown Master Plan update keeps the waterfront low and moves height to the center',
+        take: 'The draft keeps the waterfront at 5 stories, allows taller buildings in the downtown core through incentives, and lengthens workforce-housing affordability periods from 20 to 30 years. It was still moving through city boards at last report, so check its status before you count on a view or a skyline.',
+        source: { name: 'WLRN' },
+      },
+      {
+        date: '2026-09-04',
+        headline: 'West Palm Move electric shuttle launches',
+        take: 'The City\'s new electric shuttle connects Northwood, downtown and the Norton Museum area about every 8 to 10 minutes. The fixed route costs $1 and on-demand rides east of I-95 cost $2. Northwood just got a lot more car-optional.',
+        source: { name: 'City of West Palm Beach' },
+      },
+      {
+        date: '2026-08-04',
+        headline: 'The Club at Ibis starts a $63 million renovation',
+        take: 'Members approved a phased plan that adds a new spa, a larger fitness center, padel and pickleball courts, a casual restaurant, and a course renovation. It is a real amenity upgrade. Before you buy, ask how it is being paid for and whether dues or assessments are going up.',
+        source: { name: 'Club + Resort Business', url: 'https://clubandresortbusiness.com/south-floridas-the-club-at-ibis-moves-ahead-with-63m-capital-investment-plan/' },
+        link: { label: 'Ibis Golf & Country Club', href: '/communities/ibis' },
+      },
+      {
+        date: '2026-05-28',
+        headline: 'Emelina earns a Michelin star',
+        take: 'Downtown\'s Emelina became the first Cuban restaurant in North America to earn a Michelin star.',
+        source: { name: 'PR Newswire', url: 'https://www.prnewswire.com/news-releases/emelina-becomes-first-cuban-restaurant-to-earn-a-michelin-star-302794684.html' },
+      },
+      {
+        date: '2026-05-28',
+        headline: 'Jeff Greene proposes a 25-story Live Local tower at 120 S. Dixie',
+        take: 'The plan calls for 366 apartments, 148 of them workforce units for households earning up to 120% of area median income, about $104,000. These are rentals, not homes for sale. If you earn under that line and want to live downtown, the Live Local pipeline is your most realistic way in for now.',
+        source: { name: 'The Real Deal', url: 'https://therealdeal.com/miami/2026/05/28/jeff-greene-plans-live-local-act-project-in-west-palm-beach/' },
+      },
+    ],
     region: 'Palm Beach County',
     description: 'A vibrant waterfront city blending culture, history, nightlife, and coastal living — directly across the water from Palm Beach Island.',
     overview:
@@ -267,6 +335,16 @@ export const cities: CommunityItem[] = [
     slug: 'palm-beach-gardens',
     name: 'Palm Beach Gardens',
     type: 'City',
+    dateModified: '2026-09-28',
+    whatsNew: [
+      {
+        date: '2026-09-16',
+        headline: 'PGA National Resort adds a members-only golf club and new clubhouse',
+        take: 'The resort is redesigning a course as the private Triple Stick Golf Club, with a new clubhouse to follow. It is an amenity upgrade for PGA National homeowners. Before you buy, ask what membership costs, who can join, and whether it is tied to the house.',
+        source: { name: 'Club + Resort Business', url: 'https://clubandresortbusiness.com/pga-national-resort-introduces-members-only-triple-stick-golf-club/' },
+        link: { label: 'PGA National', href: '/communities/pga-national' },
+      },
+    ],
     region: 'Northern Palm Beach County',
     description: 'A master-planned city offering golf, shopping, gated and non-gated neighborhoods, and a range of housing types.',
     overview:
@@ -849,6 +927,15 @@ export const cities: CommunityItem[] = [
     slug: 'delray-beach',
     name: 'Delray Beach',
     type: 'City',
+    dateModified: '2026-09-28',
+    whatsNew: [
+      {
+        date: '2026-05',
+        headline: 'Delray Beach named Best Beach in Florida for the third year running',
+        take: 'USA TODAY 10Best readers voted Delray\'s municipal beach the best in Florida for 2024, 2025 and 2026.',
+        source: { name: 'USA TODAY 10Best, via Boca Raton Tribune', url: 'https://www.bocaratontribune.com/bocaratonnews/2026/05/delray-beach-named-best-beach-in-florida-by-usa-today-for-third-year-in-a-row/' },
+      },
+    ],
     region: 'Southern Palm Beach County',
     description: 'Named "Most Fun Small City in America" — a vibrant coastal town with two miles of white-sand beach, a celebrated Atlantic Avenue dining scene, and a real estate market that draws buyers from around the world.',
     overview:
@@ -993,6 +1080,15 @@ export const cities: CommunityItem[] = [
     slug: 'boynton-beach',
     name: 'Boynton Beach',
     type: 'City',
+    dateModified: '2026-09-28',
+    whatsNew: [
+      {
+        date: '2025-09-30',
+        headline: 'Boynton Beach CRA highlights its redevelopment work',
+        take: 'The CRA\'s projects include The Pierce, Heart of Boynton, the Cottage District, small-business grants and the free Coastal Cruiser. Eastern Boynton is the biggest redevelopment story in south county right now. If you buy early, you are buying into where the neighborhood is headed, not just what is there today.',
+        source: { name: 'Boynton Beach CRA', url: 'https://boyntonbeachcra.com/about-bbcra/annual-reports' },
+      },
+    ],
     region: 'Southern Palm Beach County',
     description: 'A fast-evolving coastal city with direct Atlantic inlet access, a redeveloping downtown, and a large number of 55+ communities.',
     overview:
@@ -1127,6 +1223,27 @@ export const cities: CommunityItem[] = [
     slug: 'lake-worth-beach',
     name: 'Lake Worth Beach',
     type: 'City',
+    dateModified: '2026-09-28',
+    whatsNew: [
+      {
+        date: '2026-09-20',
+        headline: 'Benny\'s on the Beach gets a 10-year lease extension on the pier',
+        take: 'Commissioners voted unanimously on Sept. 15 to extend the lease to 2043 and defended the deal against criticism. The casino and pier complex stays anchored for years to come, which is good news if you are looking at the cottages east of Dixie.',
+        source: { name: 'The Palm Beach Post' },
+      },
+      {
+        date: '2026-09-23',
+        headline: 'Tri-Rail fares rise 10% on Oct. 1',
+        take: 'It is the first Tri-Rail fare increase since 2019. If you plan to commute by train, add it to your monthly budget.',
+        source: { name: 'WFLX', url: 'https://www.wflx.com/2026/09/23/tri-rail-fares-set-increase-10-oct-1/' },
+      },
+      {
+        date: '2026-09-16',
+        headline: 'City releases its 2026–27 event calendar',
+        take: 'Little Scream Truck-or-Treat is Oct. 30. The Tree Lighting is Nov. 30 and the Holiday Parade is Dec. 5. Beach bonfires run on the first and third Fridays from Nov. 6 to Feb. 19, the Street Painting Festival is Feb. 27–28, Sunset on the Avenue has select dates from January to August, and the 4th of July is at Bryant Park. This is what "walkable small-town downtown" actually looks like week to week.',
+        source: { name: 'City of Lake Worth Beach', url: 'https://lakeworthbeachfl.gov/news/city-of-lake-worth-beach-announces-2026-2027-event-schedule/16-09-2026' },
+      },
+    ],
     region: 'Southern Palm Beach County',
     description: 'An artsy, walkable coastal city with a free public beach, a lively street festival culture, eclectic bungalows, and a creative energy unlike anywhere else in Palm Beach County.',
     metaTitle: 'Lake Worth Beach, FL Homes | 15 Minutes to West Palm Beach',
@@ -2335,6 +2452,16 @@ export const cities: CommunityItem[] = [
     slug: 'westlake',
     name: 'Westlake',
     type: 'City',
+    dateModified: '2026-09-28',
+    whatsNew: [
+      {
+        date: '2026-08',
+        headline: 'Westlake\'s new elementary school will have a golf-cart drop-off lane',
+        take: 'Golf carts are street-legal on designated Westlake roads, and the new school at Persimmon Boulevard and Green Lane, set to open in August 2027, will have a dedicated golf-cart drop-off lane. You will not find that lifestyle in Loxahatchee or The Acreage.',
+        source: { name: 'WPTV', url: 'https://www.wptv.com/news/local-news/our-community/wellington-royal-palm-beach-westlake/westlakes-golf-cart-culture-grows-as-city-expands-multimodal-transportation-options' },
+        link: { label: 'Compare Loxahatchee', href: '/communities/loxahatchee' },
+      },
+    ],
     region: 'Western Palm Beach County',
     description: 'Florida\'s newest incorporated city — a Minto master-planned community in western Palm Beach County with new construction homes, resort-style amenities, and price points that no longer exist closer to the coast.',
     overview:
