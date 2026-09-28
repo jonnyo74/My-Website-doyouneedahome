@@ -5,6 +5,8 @@ import type { Metadata } from 'next'
 import {
   getArticleBySlug,
   getArticlePaths,
+  isRegionalArticle,
+  REGIONAL_BLOG_TAB,
   marketTrendsCity,
   visibleArticles,
   type ArticleEditorial,
@@ -137,7 +139,17 @@ export default async function ArticlePage({ params }: Props) {
     .map((s) => visibleArticles().find((a) => a.slug === s))
     .filter((a): a is NonNullable<typeof a> => Boolean(a))
 
-  const trends = marketTrendsCity(article.cityName)
+  // Service-area articles (rates, insurance) have no city to pull trends or
+  // listings for, so those two blocks are skipped rather than run on a label.
+  const regional = isRegionalArticle(article)
+  // Breadcrumb target: the city page, or the blog tab that lists every
+  // service-area article.
+  const cityHref = community
+    ? `/communities/${community.slug}`
+    : regional
+      ? `/blog?region=${REGIONAL_BLOG_TAB}`
+      : undefined
+  const trends = regional ? null : marketTrendsCity(article.cityName)
   const url = `${SITE}/blog/${article.slug}`
   // One contextually chosen magnet for the whole page: Treasure Coast articles
   // get a Treasure Coast offer, relocation articles get the decision guide, and
@@ -251,7 +263,7 @@ export default async function ArticlePage({ params }: Props) {
           image={editorial.heroImage}
           breadcrumb={{
             cityName: article.cityName,
-            cityHref: community ? `/communities/${community.slug}` : undefined,
+            cityHref: cityHref,
           }}
           byline={{
             authorName: article.author ? AUTHORS[article.author].name : undefined,
@@ -301,8 +313,8 @@ export default async function ArticlePage({ params }: Props) {
                 <span aria-hidden="true">/</span>
                 <Link href="/blog" className="hover:text-white">Blog</Link>
                 <span aria-hidden="true">/</span>
-                {community ? (
-                  <Link href={`/communities/${community.slug}`} className="text-white/90 hover:text-white">
+                {cityHref ? (
+                  <Link href={cityHref} className="text-white/90 hover:text-white">
                     {article.cityName}
                   </Link>
                 ) : (
@@ -438,8 +450,14 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         ) : (
           <div className="mt-12 rounded-3xl border border-slate-200 bg-gradient-to-br from-sky-50 via-blue-50 to-white p-7 text-center sm:p-9">
-            <h2 className="font-serif text-2xl font-semibold text-slate-900">Thinking about {article.cityName}?</h2>
-            <p className="mt-3 text-slate-600">We're local experts — let's find the right home for your move.</p>
+            <h2 className="font-serif text-2xl font-semibold text-slate-900">
+              {regional ? 'Want the numbers for your own search?' : `Thinking about ${article.cityName}?`}
+            </h2>
+            <p className="mt-3 text-slate-600">
+              {regional
+                ? "Tell us the price range and the town — we'll walk you through the real monthly cost."
+                : "We're local experts — let's find the right home for your move."}
+            </p>
             <div className="mt-5 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href="https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[minPrice]=400000" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-full bg-gold-500 px-7 py-3 text-sm font-semibold text-white transition hover:bg-gold-600">Search Homes</a>
               <Link href="/contact" className="inline-flex items-center justify-center rounded-full border border-slate-300 px-7 py-3 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600">Talk to a Local Expert</Link>
@@ -448,6 +466,7 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         {/* Listings widget — single-family houses $500k+ for the article's city */}
+        {!regional && (
         <div className="mt-12">
           <h2 className="font-serif text-2xl font-semibold text-slate-900">
             {houseOnlyListings ? `${article.cityName} Single-Family Homes for Sale` : `Homes for Sale in ${article.cityName}`}
@@ -479,6 +498,7 @@ export default async function ArticlePage({ params }: Props) {
             />
           </div>
         </div>
+        )}
 
         {/* End-of-article lead-magnet CTA — or, on editorial pages that define
             one, a different next step, since the hero and the inline block
