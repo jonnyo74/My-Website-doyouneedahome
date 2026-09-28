@@ -2822,14 +2822,12 @@ export const cities: CommunityItem[] = [
         links: [
           { label: "Port Salerno vs Stuart", href: "/blog/port-salerno-vs-stuart" },
           { label: "Waterfront buyer's guide", href: "/blog/waterfront-homes-port-salerno-buyers-guide" },
-          { label: "What it's really like living here", href: "/blog/what-its-really-like-living-in-port-salerno-florida" },
         ],
       },
       {
         heading: "What Port Salerno is known for",
         body: "A working waterfront rather than a resort one. The Manatee Pocket is a genuine commercial and charter fishing harbor — boats that go out to earn a living, not to decorate a marina — and the restaurants, boatyards and galleries along the water grew up serving that fleet. Sandsprit Park sits near the mouth of the Pocket with boat ramps and shoreline fishing. The St. Lucie Inlet puts the Atlantic within a short run of the docks, which is why so much of the region's sport fishing fleet is based here. The Old Florida character is both the draw and the constraint: the housing stock skews to older cottages and canal homes, and the waterfront commercial strip has stayed stubbornly independent.",
         links: [
-          { label: "Best things to do in Port Salerno", href: "/blog/best-things-to-do-in-port-salerno-florida" },
           { label: "The Manatee Pocket guide", href: "/blog/manatee-pocket-guide" },
           { label: "History of Port Salerno", href: "/blog/history-of-port-salerno-florida" },
         ],
