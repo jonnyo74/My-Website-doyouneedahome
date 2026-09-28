@@ -29619,6 +29619,297 @@ If you arrive expecting to find your regular restaurant, you'll be underwhelmed.
     published: true,
     updated: '2026-06-01',
   },
+  {
+    slug: 'mortgage-rates-2026-palm-beach-county-buyer-guide',
+    citySlug: 'money-and-market',
+    cityName: 'Money & Market',
+    type: 'Market Update',
+    order: 1,
+    seoTitle: 'Mortgage Rates Just Crossed 7%: What It Means for Palm Beach County & Treasure Coast Buyers',
+    metaTitle: 'Mortgage Rates Top 7%: What It Means in Palm Beach County',
+    metaDescription:
+      'The 30-year rate hit 7.03% on September 24, 2026. The real payment math on a median Palm Beach, Martin and St. Lucie home, and what buyers can still negotiate.',
+    primaryKeyword: 'mortgage rates palm beach county',
+    secondaryKeywords: [
+      '30 year mortgage rate today',
+      'should I buy a house now florida',
+      'mortgage rates 7 percent',
+      'mortgage rate buydown florida',
+      'treasure coast mortgage rates',
+    ],
+    h1: 'Mortgage Rates Just Crossed 7%. Here Is What That Means for Buyers in Palm Beach County and the Treasure Coast.',
+    body: `The average 30-year fixed mortgage rate crossed 7% last week for the first time in about 20 months. If you have been house hunting since spring, you have watched the same house get more expensive every week without the price changing at all.
+
+Here is what actually happened, what it does to the monthly payment on a typical home in each of the three counties we cover, and what you can still do about it.
+
+## What happened
+
+Freddie Mac's weekly [Primary Mortgage Market Survey](https://www.freddiemac.com/pmms) put the average 30-year fixed rate at **7.03%** on September 24, 2026. That is up from 6.95% the week before and 6.30% a year ago. The 15-year fixed averaged 6.42%, up from 5.49% a year ago.
+
+A few things make this week notable:
+
+- It is the first reading above 7% since **January 16, 2025**, when the 30-year averaged 7.04%, according to Freddie Mac's data series on [FRED](https://fred.stlouisfed.org/series/MORTGAGE30US).
+- It is the **fifth straight weekly increase**. The run started at 6.65% in late August, and the biggest single jump came the week of September 17.
+- Both the 30-year and the 15-year rose in each of those five weeks.
+
+## Why rates went up
+
+Mortgage rates follow the 10-year Treasury yield far more closely than they follow the Federal Reserve, and the 10-year has had a rough year. It closed at 3.97% at the end of February and at **5.18% on September 24**, according to [Treasury data on FRED](https://fred.stlouisfed.org/series/DGS10).
+
+The main pressure has been inflation, and most of it has come from energy. As the [Associated Press reported](https://www.floridarealtors.org/news-media/news-articles/2026/09/mortgage-rates-climb-5th-straight-week), rates have climbed since U.S. and Israeli strikes on Iran in late February. Oil followed: [Brent crude](https://fred.stlouisfed.org/series/DCOILBRENTEU) went from about $71 a barrel at the end of February to a peak near $131 in mid-September. The [August consumer price report](https://www.bls.gov/news.release/cpi.nr0.htm) showed overall inflation at 3.4% over the year, with gasoline up 27.4%. The Bureau of Labor Statistics said gasoline alone accounted for more than a third of August's monthly increase.
+
+Then, on September 16, the Federal Reserve [raised its benchmark rate](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm) a quarter point to a range of 3.75% to 4.00%, its first increase since July 2023. The vote was unanimous, and the statement said simply that inflation remains elevated.
+
+## The real payment math
+
+Headlines talk about rates. What you actually live with is the payment. Here is principal and interest on the **median single-family sale price** in each county, from the [August 2026 county market reports](/palm-beach-county-market-report) (MIAMI REALTORS® and RWorld, based on Florida Realtors® data), with 20% down on a 30-year fixed loan.
+
+**Palm Beach County** — median $650,000, loan $520,000
+- At 6.30% (a year ago): about **$3,219 a month**
+- At 7.03% (now): about **$3,470 a month**
+- Difference: about $251 a month, or roughly $3,000 a year
+
+**Martin County** — median $656,900, loan $525,520
+- At 6.30%: about $3,253 a month
+- At 7.03%: about $3,507 a month
+- Difference: about $254 a month
+
+**St. Lucie County** — median $402,500, loan $322,000
+- At 6.30%: about $1,993 a month
+- At 7.03%: about $2,149 a month
+- Difference: about $156 a month
+
+Another way to see the same thing: the payment that bought a $650,000 house a year ago now buys a house of roughly $603,000 with the same 20% down. Over the full 30 years, the extra 0.73 points on that $520,000 loan adds up to about $90,000 more in interest.
+
+These figures are principal and interest only. Property taxes, homeowners insurance, flood insurance where it applies, and any HOA or condo fees come on top. Insurance is the one that surprises most buyers here. Our [guide to Palm Beach County home insurance rates](/blog/palm-beach-county-home-insurance-rates-2026) covers what is changing and what still sets the premium on a specific house.
+
+One more thing worth knowing: a $520,000 loan is well inside the 2026 [conforming loan limit](https://www.fhfa.gov/news/news-release/fhfa-announces-conforming-loan-limit-values-for-2026) of **$832,750**, which applies to a one-unit home in all three counties. Above that, you are into jumbo financing, which is priced differently. The 2026 FHA limit for a one-unit home is **$667,000** in Palm Beach County and **$603,750** in Martin and St. Lucie counties, per [HUD's lookup](https://entp.hud.gov/idapp/html/hicostlook.cfm).
+
+## Cash buyers and financed buyers are in different markets
+
+A lot of Palm Beach County does not feel mortgage rates directly. In August 2026, **465 of the 1,112 single-family homes that closed in Palm Beach County were bought with cash**, about 42%. For condos and townhomes it was 438 of 765, about 57%.
+
+The Treasure Coast leans the other way. In Martin County, 66 of 181 single-family closings were cash, about 36%. In St. Lucie County it was 112 of 444, about 25%. That means three out of four St. Lucie single-family buyers were financing, which makes St. Lucie the market in our area most exposed to rate moves.
+
+What that means for you as a financed buyer: in cash-heavy segments, you may be competing against people who do not care what rates are doing. In financed segments, a rate spike tends to thin out the buyer pool, which can give you more room to negotiate on price and terms.
+
+## Should you wait for rates to come down?
+
+Nobody can tell you where rates are going, and anyone who says they can is guessing. What we can tell you is what the professional forecasters expected before this latest jump.
+
+Fannie Mae's [September forecast](https://www.fanniemae.com/media/document/pdf/housing-forecast-092026) had the 30-year averaging 6.8% in the fourth quarter of 2026 and 6.7% through all of 2027. The Mortgage Bankers Association's [September forecast](https://www.mba.org/docs/default-source/research-and-forecasts/forecasts/2026/mortgage-finance-forecast-sep-2026.pdf) was similar: 6.8% into early 2027, easing to 6.7% by year end. Both were built before rates reached 7.03%, and neither expects a return to the low 6s any time soon.
+
+So the honest framing is not "wait for 5%." It is closer to this: if the right house comes along, the rate is one variable among several, and it is the one you can most easily change later. You can refinance a rate. You cannot refinance a purchase price, a flood zone, a lot or a commute. But refinancing costs money and depends on rates actually falling, so only buy at a payment you can carry at today's rate.
+
+## What you can negotiate instead
+
+When rates rise, the price is not the only lever. Several others can matter more to the monthly payment.
+
+**Seller-paid rate buydowns.** Instead of a price cut, the seller pays to lower your rate. A temporary 2-1 buydown, for example, cuts the rate by two points in year one and one point in year two before it settles at the note rate. On a $520,000 loan at 7.03%, that would bring the payment to about $2,801 in year one and $3,128 in year two, compared with $3,470. It costs the seller about $12,100 up front. A permanent buydown with discount points lowers the rate for the life of the loan. Which one is worth more depends on how long you expect to keep the loan, so run both with your lender.
+
+**Rate locks.** A rate lock holds your quoted rate for a set period while you close. When rates are rising week over week, the length of the lock and what it costs to extend it are worth asking about before you go under contract.
+
+**Builder incentives.** New-construction builders often use their own lender to offer a reduced rate or closing-cost credit. Compare the whole package, including the price, against an outside lender's offer. A lower rate on a higher price is not always the better deal.
+
+**Down payment assistance.** Florida Housing's [Hometown Heroes program](https://www.floridahousing.org/programs/homebuyer-overview-page/hometown-heroes) lists assistance of up to 5% of the first mortgage, between $10,000 and $35,000, as a 0% deferred second mortgage, with income and loan limits. Its other [homebuyer programs](https://www.floridahousing.org/programs/homebuyer-overview-page) are listed as current too. Funding comes in rounds and has run out before, so confirm availability with a participating lender before you count on it.
+
+## If you are selling
+
+Higher rates shrink what a financed buyer can pay each month. A buyer who was comfortable at $650,000 last September may be shopping closer to $600,000 today for the same payment. Offering a buydown credit instead of a price reduction can keep your sale price intact while solving the buyer's real problem, which is the monthly number. It is worth discussing with your agent before you cut the price.
+
+## What to do this week
+
+- Get a fresh pre-approval at today's rate. One from the summer may overstate what you qualify for.
+- Ask your lender to price the same loan three ways: at the note rate, with a 2-1 temporary buydown, and with one permanent discount point.
+- Get an insurance quote early, during your inspection period rather than after it. Quotes on the same house can vary widely between carriers.
+- Decide on the monthly payment you are comfortable with, then work backward to a price, not the other way around.
+
+*This article explains how mortgage rates and financing work and summarizes public data. It is not financial or lending advice. Rates, programs and loan limits change, and your own rate depends on your credit, loan type and down payment. Talk with a licensed mortgage professional before you make a decision.*`,
+    faqs: [
+      {
+        q: 'What is the current 30-year mortgage rate?',
+        a: "Freddie Mac's Primary Mortgage Market Survey put the average 30-year fixed rate at 7.03% on September 24, 2026, up from 6.95% the week before and 6.30% a year earlier. The 15-year fixed averaged 6.42%. Freddie Mac publishes a new figure every Thursday, and your own rate depends on your credit, loan type and down payment.",
+      },
+      {
+        q: 'When were mortgage rates last above 7%?',
+        a: 'Before September 24, 2026, the last week the 30-year fixed averaged above 7% was January 16, 2025, when it was 7.04%, according to Freddie Mac data. The September reading was also the fifth straight weekly increase.',
+      },
+      {
+        q: 'How much does a 7% rate add to the payment on a Palm Beach County home?',
+        a: "On the August 2026 Palm Beach County median single-family price of $650,000, with 20% down, principal and interest is about $3,470 a month at 7.03%, compared with about $3,219 at last year's 6.30%. That is roughly $251 a month more. Taxes, insurance and any HOA fees are extra.",
+      },
+      {
+        q: 'Why did mortgage rates go up in 2026?',
+        a: 'Mortgage rates track the 10-year Treasury yield, which rose from 3.97% at the end of February 2026 to 5.18% on September 24. Energy-driven inflation was the main pressure: August consumer prices were up 3.4% from a year earlier, with gasoline up 27.4%. The Federal Reserve also raised its benchmark rate by a quarter point on September 16, 2026.',
+      },
+      {
+        q: 'What is the 2026 conforming loan limit in Palm Beach County?',
+        a: 'The 2026 conforming loan limit for a one-unit home is $832,750 in Palm Beach, Martin and St. Lucie counties. The 2026 FHA limit for a one-unit home is $667,000 in Palm Beach County and $603,750 in Martin and St. Lucie counties.',
+      },
+      {
+        q: 'What is a 2-1 buydown?',
+        a: 'A temporary buydown in which someone, usually the seller or builder, pays up front to lower your rate by two percentage points in the first year and one point in the second, before it settles at the note rate for the rest of the loan. It lowers the early payments without changing the purchase price. A permanent buydown with discount points lowers the rate for the life of the loan instead.',
+      },
+    ],
+    internalLinks: [
+      'palm-beach-county-home-insurance-rates-2026',
+      'cost-of-living-in-west-palm-beach-florida',
+      'cost-of-living-in-stuart-florida',
+      'pros-and-cons-of-living-in-port-st-lucie-florida',
+    ],
+    funFact:
+      "Before you ask a seller for a price cut, ask your lender to price the same dollars as a seller-paid buydown. Compare the two monthly payments side by side. Sometimes the credit does more for the payment than the price cut would, and it lets the seller keep their sale price, which can make the offer easier to accept.",
+    author: 'john',
+    published: true,
+    publishedDate: '2026-09-28',
+    updated: '2026-09-28',
+  },
+  {
+    slug: 'palm-beach-county-home-insurance-rates-2026',
+    citySlug: 'money-and-market',
+    cityName: 'Money & Market',
+    type: 'Market Update',
+    order: 2,
+    seoTitle: 'Florida Home Insurance Rates Are Falling: What It Means in Palm Beach County (2026)',
+    metaTitle: 'Palm Beach County Home Insurance Rates Are Falling (2026)',
+    metaDescription:
+      'Florida approved four more homeowners rate cuts in September 2026. What changed, what a cut means on a real renewal, and what still sets the premium on a house.',
+    primaryKeyword: 'palm beach county home insurance rates',
+    secondaryKeywords: [
+      'florida homeowners insurance 2026',
+      'is florida home insurance going down',
+      'florida insurance rate decrease',
+      'wind mitigation inspection florida',
+      'citizens insurance palm beach county',
+    ],
+    h1: 'Home Insurance Rates Are Falling in Palm Beach County. Here Is What Actually Changed.',
+    heroImage: '/images/port-st-lucie/stock-aerial-rooftops.jpg',
+    heroImageAlt: 'Aerial view looking straight down on rows of tile-roofed houses either side of a residential street',
+    heroImageCaption: 'Illustrative stock photo of tile-roofed houses. Roof age and condition are among the first things an insurer asks about.',
+    heroImageCredit: 'Photo by Ameer Basheer / Unsplash',
+    body: `For three years, insurance was the number that killed deals in Palm Beach County. A buyer would fall for a house, get a quote on day four of inspections, and walk. Sellers with perfectly good homes sat on the market because the carrying cost scared people off before the price did.
+
+That is finally starting to turn, and September 2026 brought the clearest evidence yet. Here is what was announced, what it means on a real renewal, and what still decides the premium on the specific house you are looking at.
+
+## What was actually announced
+
+On **September 22, 2026**, Florida's Office of Insurance Regulation [approved rate decreases for four homeowners insurers](https://floir.gov/newsroom/archives/item-details/2026/09/22/commissioner-mike-yaworsky-approves-significant-rate-decreases-for-homeowners). All four apply when a policy renews:
+
+- **Vyrd Insurance Co.** — down 10.4%, about 26,751 policies
+- **One Alliance North America Insurance Co.** — down 10.4%, about 17,148 policies
+- **Safe Harbor Insurance Co.** — down 4.1%, about 10,501 policies
+- **Unique Insurance Co.** — down 3.2%, about 8,266 policies
+
+That is roughly 62,700 Florida policies getting a lower rate at renewal. In the same release, Insurance Commissioner Mike Yaworsky said he expects more aggressive rate cuts in the near future and going into 2027.
+
+The bigger picture is in the same release. Since January 2024, 48 companies have filed for a rate decrease and 53 more have asked for no change at all. The average homeowners rate request over the most recent 30 days was a **4.8% decrease**, compared with a 5.2% *increase* five years ago. OIR also cites S&P Global data showing Florida was the only state with an average homeowners rate decrease in 2025, down 0.92%, while the national average rose 5.5%.
+
+Separately, **Kin Insurance** [announced on September 14](https://www.prnewswire.com/news-releases/kin-lowers-south-florida-home-insurance-rates-by-more-than-20-302875935.html) that it is cutting rates by an average of more than 20% for new and existing policyholders in Palm Beach, Broward and Miami-Dade counties. That is the company's own announcement. It does not spell out which policy types are included or when each policyholder sees the change, so if you are insured with Kin, ask for your specific renewal figure rather than assuming the average.
+
+## Why the market turned
+
+The short version: lawsuits and reinsurance.
+
+Before the reforms, property claims in Florida were unusually likely to end up in court, and the cost of that litigation went straight into premiums. The Legislature passed a string of reforms between 2019 and 2024, with the two that mattered most being **SB 2-A** (December 2022), which ended the transfer of attorney's fees to third parties in property claims, and **HB 837** (March 2023), which repealed one-way attorney's fees. OIR's [July 2026 stability report](https://floir.gov/docs-sf/default-source/property-and-casualty/stability-unit-reports/july-2026-isu-report.pdf) credits those changes with a market that now looks very different:
+
+- Florida's domestic insurers posted a pooled combined ratio of 83% in 2025, which OIR calls the lowest in more than a decade. Under 100% means they paid out less in claims and expenses than they collected.
+- Preliminary data points to reinsurance costs falling at least 10% for 2026. Reinsurance is what Florida carriers buy to cover a major hurricane, and it is one of their largest costs.
+- 21 new companies have been approved to write residential property insurance in Florida since the reforms.
+
+That last point matters more than it sounds. More carriers competing for the same houses is what actually pushes prices down, and it is why the state-backed insurer of last resort is shrinking.
+
+## Citizens is a fraction of what it was
+
+Citizens Property Insurance had about 1.4 million policies in September 2023. As of September 18, 2026, it was down to about 255,000, according to Citizens president Tim Cerio at the September board meeting, as [reported by Florida Realtors](https://www.floridarealtors.org/news-media/news-articles/2026/09/florida-approves-more-home-insurance-rate-cuts). Most of those policies went to private carriers through takeouts and the state's clearinghouse.
+
+If the house you are buying is insured with Citizens today, that does not mean you will be. Florida law ([s. 627.351](https://www.flsenate.gov/Laws/Statutes/2025/627.351)) makes a primary residence ineligible for Citizens when a private insurer offers comparable coverage for no more than 20% above the Citizens premium. New applications also run through a [clearinghouse](https://www.flsenate.gov/Laws/Statutes/2025/627.3518) where private carriers get the first look. Cerio's advice to policyholders was blunt: they should shop it.
+
+## What a rate cut means on your actual bill
+
+This is where the headlines and the renewal notice part ways.
+
+A rate decrease is a change to that company's filed rate. It applies at renewal, to that company's policyholders, and it is an average across all of them. Your own renewal can still go up if your coverage amount rises with rebuilding costs, if your roof ages into a new bracket, or if your home's characteristics are re-rated.
+
+To put the size of this in context, OIR's July 2026 report puts the **average Palm Beach County homeowners premium, including wind, at $6,323**, against a statewide average of $3,736. Martin County's average is $5,899. Those are averages across every policy in the county, from a waterfront estate to a small inland house, so they are a scale reference, not a quote. On a $6,323 premium, a 10.4% cut would be about $658 a year. On a 4.1% cut, it would be about $260.
+
+That is real money, and it is moving in the right direction for the first time in years. It is not yet the kind of drop that changes which house you can afford.
+
+## What still sets the premium on a specific house
+
+The statewide trend sets the backdrop. The house sets the price. These are the things that move a quote most, and every one of them is something you can check before you make an offer.
+
+**The roof.** Under [s. 627.7011](https://www.flsenate.gov/laws/statutes/2025/627.7011), an insurer cannot refuse to write or renew a policy solely because of roof age if the roof is less than 15 years old. For a roof 15 years or older, the insurer has to let you get an inspection before demanding replacement, and it cannot refuse coverage if that inspection shows at least five years of useful life left. Roof age still affects price, though, so get the permit date early.
+
+**The wind mitigation report.** Florida insurers are required to offer discounts for features that reduce wind damage: roof-to-wall connections, roof deck attachment, secondary water resistance, opening protection like impact windows or shutters. Those are documented on the state's uniform mitigation form, [OIR-B1-1802](https://floir.gov/consumers/wind-mitigation-resources). A new edition took effect on April 1, 2026, and it now recognizes FORTIFIED roof certificates. A completed form is generally good for up to five years if nothing material changes. OIR does not publish a standard discount percentage, and the difference varies by carrier, so get quotes with and without it.
+
+**The four-point inspection.** On older homes, insurers usually want a four-point inspection covering roof, electrical, plumbing and HVAC. [Citizens requires one](https://www.citizensfla.com/inspections) on applications for homes more than 20 years old. Private carriers set their own thresholds.
+
+**Flood, which is a separate policy.** Standard homeowners insurance does not cover flood. If the home is in a FEMA Special Flood Hazard Area and has a mortgage, flood insurance will be required. Citizens has also been phasing in a [flood requirement](https://www.citizensfla.com/flood) for its policyholders by dwelling value, reaching $400,000 and up in 2026 and **every Citizens personal residential policy on January 1, 2027** (condo unit-owner policies and wind-excluded policies are exempt). FEMA's [Risk Rating 2.0](https://www.fema.gov/flood-insurance/risk-rating) now prices each property individually rather than by flood zone alone, so two houses on the same street can get very different flood quotes.
+
+## If you are buying a condo
+
+Condo buyers carry a unit-owner policy (HO-6) for the interior and their own belongings, and OIR's July 2026 report puts the Palm Beach County average at $2,311 including wind. The bigger insurance number for a condo is usually the association's master policy, which you pay through your dues and which can change sharply at the association's renewal. Our [condo buyer's due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) covers what to ask the association for. For building-by-building detail in West Palm Beach and Singer Island, see [CondoWPB.com](https://www.condowpb.com).
+
+## If your listing stalled over insurance
+
+If buyers walked from your house because of the insurance quote, the market may be more forgiving now than it was when you listed. It is worth doing three things:
+
+1. **Get a current wind mitigation report** and put it in the listing documents. If yours is more than a few years old, or if you have added impact windows or a new roof since, a new one may qualify a buyer for credits they cannot otherwise see.
+2. **Have the roof permit and any roof inspection ready.** It is the first thing every buyer's insurance agent will ask for.
+3. **Get a current quote yourself** from an independent agent, using your own mitigation report. Knowing the realistic number for your house lets you answer the question before a buyer's anxiety answers it for them.
+
+The state's [My Safe Florida Home](https://mysafeflhome.com) program offers free wind mitigation inspections and, for eligible homeowners, matching grants toward hardening. For the 2025-26 program year, grants were limited to low- and moderate-income households with priority for homeowners 60 and older, so check the program site for current eligibility and funding before counting on it.
+
+## What to do before you write an offer
+
+- Ask the listing agent for the wind mitigation report, the four-point inspection if the home is older, and the roof permit date.
+- Get at least two insurance quotes during your inspection period, not after it. An independent agent can shop several carriers at once.
+- Ask each quote to show wind and non-wind premiums separately, along with the hurricane deductible.
+- Check whether the home is in a flood zone and get a flood quote even if it is not required.
+- For a condo, get the association's current master policy declarations and the date it renews.
+
+Insurance in Florida is still expensive, and a few rate cuts do not change that overnight. What has changed is the direction. For the first time in years, the market is competing for your business again, which means shopping carefully actually pays off.
+
+*This article explains how Florida homeowners insurance works and summarizes public announcements. It is not insurance advice. Coverage, pricing and eligibility depend on the specific property and carrier. Get quotes from a licensed Florida insurance agent before you rely on any figure here.*`,
+    faqs: [
+      {
+        q: 'Are home insurance rates going down in Palm Beach County?',
+        a: "The trend is down, but slowly. On September 22, 2026 Florida's Office of Insurance Regulation approved renewal rate decreases of 3.2% to 10.4% for four homeowners insurers covering about 62,700 policies. The 30-day average homeowners rate request statewide was a 4.8% decrease. Kin Insurance separately announced average cuts of more than 20% for Palm Beach, Broward and Miami-Dade policyholders. Your own renewal depends on your carrier and your house.",
+      },
+      {
+        q: 'What is the average home insurance premium in Palm Beach County?',
+        a: "OIR's July 2026 Property Insurance Stability Report puts the average Palm Beach County homeowners premium at $6,323 including wind, and $3,175 excluding wind. The statewide average is $3,736 including wind. These are county-wide averages across all policies, not a quote for any specific home.",
+      },
+      {
+        q: 'Why were Florida home insurance rates so high?',
+        a: 'Mainly litigation and reinsurance costs. Property claims in Florida were unusually likely to end up in court, and those costs flowed into premiums. Reforms passed between 2019 and 2024, especially SB 2-A in 2022 and HB 837 in 2023, curbed attorney\'s-fee rules that drove the litigation. Since then, 21 new insurers have entered the market and reinsurance costs have eased.',
+      },
+      {
+        q: 'Does a wind mitigation inspection lower my insurance?',
+        a: 'Often, yes. Florida insurers must offer discounts for wind-resistant features documented on the uniform mitigation verification form (OIR-B1-1802), such as roof-to-wall straps, roof deck attachment, secondary water resistance and impact-rated openings. The size of the discount varies by carrier, so compare quotes with the report. A completed form is generally valid for up to five years if nothing material changes.',
+      },
+      {
+        q: 'Can an insurer refuse to cover a house because the roof is old?',
+        a: 'Not solely because of roof age if the roof is under 15 years old. For roofs 15 years or older, Florida law requires the insurer to allow an inspection before requiring replacement, and it cannot refuse coverage if the inspection shows at least five years of useful life remaining. Roof age can still affect the price.',
+      },
+      {
+        q: 'Do I need flood insurance if I have a Citizens policy?',
+        a: 'Increasingly, yes. Citizens has phased in a flood insurance requirement by dwelling value, reaching $400,000 and up in 2026, and it applies to all Citizens personal residential policies from January 1, 2027. Condo unit-owner policies and wind-excluded policies are exempt. Homes in a FEMA Special Flood Hazard Area already need flood coverage.',
+      },
+    ],
+    internalLinks: [
+      'mortgage-rates-2026-palm-beach-county-buyer-guide',
+      'cost-of-living-in-west-palm-beach-florida',
+      'cost-of-living-in-boca-raton-florida',
+      'cost-of-living-in-stuart-florida',
+    ],
+    funFact:
+      "The document that most often changes a buyer's insurance quote is one the seller usually already paid for: the wind mitigation report. Ask for it on day one, before you order a single inspection, and send it with every quote request.",
+    author: 'john',
+    published: true,
+    publishedDate: '2026-09-28',
+    updated: '2026-09-28',
+  },
 ]
 
 // ---- helpers ----
@@ -29670,6 +29961,21 @@ export function getRecentArticles(limit = 4): Article[] {
 // Group cities into regions for the blog index and (later) region hub pages.
 // New cities only need a line added here — no per-article tagging required.
 
+/**
+ * The `citySlug` for articles that cover the whole service area rather than one
+ * city — mortgage rates, insurance, market conditions. There is no community
+ * page behind it, so the article template drops its city-specific blocks
+ * (market trends, the city listings widget) for these.
+ */
+export const REGIONAL_CITY_SLUG = 'money-and-market'
+
+/** `?region=` value that opens the Money & Market tab on /blog (BlogRegionTabs slugifies the label). */
+export const REGIONAL_BLOG_TAB = 'money-market'
+
+export function isRegionalArticle(article: Pick<Article, 'citySlug'>): boolean {
+  return article.citySlug === REGIONAL_CITY_SLUG
+}
+
 export const CITY_REGIONS: Record<string, string> = {
   // North County
   'jupiter': 'North County',
@@ -29699,6 +30005,9 @@ export const CITY_REGIONS: Record<string, string> = {
   'port-salerno': 'Martin County',
   // St. Lucie County
   'port-st-lucie': 'St. Lucie County',
+  // Not a place: articles about rates, insurance and the market that apply to
+  // every city we cover. They get their own tab on the blog index.
+  [REGIONAL_CITY_SLUG]: 'Money & Market',
 }
 
 export const REGION_ORDER = [
@@ -29708,6 +30017,7 @@ export const REGION_ORDER = [
   'South County',
   'Martin County',
   'St. Lucie County',
+  'Money & Market',
 ]
 
 // ---- Ylopo market-trends coverage ----
@@ -29759,6 +30069,7 @@ export const REGION_GROUP: Record<string, string> = {
   'South County': 'Palm Beach County',
   'Martin County': 'Treasure Coast',
   'St. Lucie County': 'Treasure Coast',
+  'Money & Market': 'Palm Beach County & Treasure Coast',
 }
 
 export function groupForRegion(region: string): string {
