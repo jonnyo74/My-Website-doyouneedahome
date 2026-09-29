@@ -10022,10 +10022,14 @@ Go to a show in your first winter even if you have zero interest in horses. It's
     type: "Best Neighborhoods In",
     order: 3,
     seoTitle: "Best Neighborhoods in Wellington, Florida",
-    metaTitle: "Best Neighborhoods in Wellington, Florida",
-    metaDescription: "A local agent's guide to Wellington, Florida neighborhoods — how equestrian zoning separates the horse communities from everything else, and how the gated, golf and value tiers actually compare.",
+    // Search Console, Sept 2026: 247 impressions at position ~12 with 0.4% CTR.
+    // The queries lead with horses ("best neighborhoods for equestrian
+    // enthusiasts in Wellington"), so the title and snippet now name the
+    // equestrian neighborhoods instead of describing the article.
+    metaTitle: "Best Neighborhoods in Wellington, FL: Horse, Gated & Golf",
+    metaDescription: "Where horse buyers look in Wellington (Grand Prix Village, Saddle Trail, Palm Beach Point) and how Olympia, Versailles, Binks Forest and the value tier compare.",
     primaryKeyword: "best neighborhoods in Wellington Florida",
-    secondaryKeywords: ["where to live in Wellington", "Grand Prix Village", "Binks Forest", "Olympia Wellington"],
+    secondaryKeywords: ["where to live in Wellington", "equestrian neighborhoods in Wellington", "Grand Prix Village", "Binks Forest", "Olympia Wellington"],
     h1: "Best Neighborhoods in Wellington, Florida",
     heroImage: '/images/wellington/wellington-003.jpeg',
     body: `Wellington's neighborhoods don't sort by price the way most towns do. They sort by **what you're allowed to do on the land** — and once you understand that, the whole map makes sense.
@@ -10111,7 +10115,7 @@ Wellington rewards buyers who are specific. The village is genuinely good at sev
     funFact: "The premium on Wellington's equestrian parcels is really a premium on zoning. Inside the Equestrian Preserve overlay a lot can carry a barn, paddocks, an arena and trail access; an otherwise identical lot outside it cannot. Because the overlay's acreage is finite and politically contested, that entitlement behaves less like a feature and more like a scarce asset.",
     author: 'john',
     published: true,
-    updated: '2026-08-01',
+    updated: '2026-09-29',
   },
   {
     slug: 'best-things-to-do-in-wellington-florida',
@@ -22981,7 +22985,7 @@ Evaluate the actual address and the actual boating route — not the words "Mana
     metaTitle: "What It's Really Like Living in Port St. Lucie, FL",
     metaDescription: "A local look at living in Port St. Lucie, Florida — a large, affordable city with new homes, golf, Mets spring training, and lots of room to grow.",
     primaryKeyword: "living in Port St. Lucie Florida",
-    secondaryKeywords: ["moving to Port St. Lucie FL", "Port St. Lucie lifestyle", "is Port St. Lucie a good place to live", "PSL Florida"],
+    secondaryKeywords: ["moving to Port St. Lucie FL", "Port St. Lucie lifestyle", "PSL Florida"],
     h1: "What It's Really Like Living in Port St. Lucie, Florida",
     heroImage: '/images/port-st-lucie/stock-suburban-streetscape.jpg',
     heroImageCredit: 'Photo by FilterGrade / Unsplash',
@@ -23173,7 +23177,7 @@ The most important decision is which part of Port St. Lucie you choose. Evaluate
     faqs: [
       { q: "What is Port St. Lucie known for?", a: "Affordability and rapid growth. It's one of the largest and fastest-growing cities in Florida, known for new construction, master-planned communities like Tradition, PGA Village golf, New York Mets spring training at Clover Park, and the North Fork of the St. Lucie River aquatic preserve." },
       { q: "What new development is coming to Port St. Lucie?", a: "Several major projects are in flight: The Grove, a riverfront dining and entertainment district in the Port District; a professional soccer stadium planned at Walton Road and US-1 anchoring a wider entertainment district; a Buc-ee's coming to St. Lucie County; and continued build-out at Tradition plus substantial new retail. Timelines on projects this size move — verify current status." },
-      { q: "Is Port St. Lucie a good place to live?", a: "It suits buyers who want more house for the money, newer construction, and a city on an upward trajectory, and who can accept car dependence, no beach frontage, and ongoing construction. It suits people less well if they want the coast, walkable historic character, or a short Palm Beach County commute." },
+      { q: "What does living in Port St. Lucie trade off?", a: "It suits buyers who want more house for the money, newer construction, and a city on an upward trajectory, and who can accept car dependence, no beach frontage, and ongoing construction. It suits people less well if they want the coast, walkable historic character, or a short Palm Beach County commute." },
       { q: "Is Port St. Lucie on the beach?", a: "No. The city is inland, with the coast at Fort Pierce or Hutchinson Island a 20–30 minute drive east. This regularly surprises buyers who assume the Treasure Coast location means beachfront." },
       { q: "How fast is Port St. Lucie growing?", a: "Very fast. The city was incorporated on former ranch land in April 1961 with roughly 250 homes platted; the first census afterward, in 1970, counted 330 residents. It now reports more than 260,000 across about 120 square miles, which makes it the sixth-largest city in Florida and one of the fastest-growing large cities in American history by percentage. It has been functionally catching up with its own growth for two decades." },
       { q: "What are the downsides of living in Port St. Lucie?", a: "It's spread out and car-dependent, it's not on the beach, the commute to Palm Beach County job centers is long, newer areas can feel repetitive, and constant construction and road work are part of daily life while the city builds out." },
@@ -23182,7 +23186,7 @@ The most important decision is which part of Port St. Lucie you choose. Evaluate
     funFact: "Port St. Lucie was incorporated on former ranch land in April 1961, with about 250 homes platted and a population too small for the Census to count separately — the first census afterward, in 1970, recorded 330 residents. Today the city reports more than 260,000 people across roughly 120 square miles, which makes it the sixth-largest city in Florida. That rapid growth explains both the appeal and the challenges: buyers get a large and varied housing market, but the city is still adding roads, businesses, parks, entertainment and public facilities to serve a population that keeps arriving. So the important question is not really whether Port St. Lucie is right for you. It is which part of Port St. Lucie fits the way you actually expect to live.",
     author: 'john',
     published: true,
-    updated: '2026-08-09',
+    updated: '2026-09-29',
   },
   {
     slug: 'local-guide-to-port-st-lucie-florida',
@@ -23797,7 +23801,7 @@ The city works best for buyers who understand both sides of its growth: more cho
     metaTitle: "Is Port St. Lucie a Good Place to Live? Honest Pros & Cons",
     metaDescription: "Space, housing choice and new construction, weighed against sprawl, a car-dependent layout and a city that is not actually on the ocean.",
     primaryKeyword: "pros and cons of living in Port St. Lucie Florida",
-    secondaryKeywords: ["Port St. Lucie pros and cons", "living in PSL downsides", "is Port St. Lucie worth it"],
+    secondaryKeywords: ["Port St. Lucie pros and cons", "is Port St. Lucie a good place to live", "living in PSL downsides", "is Port St. Lucie worth it"],
     h1: "Pros and Cons of Living in Port St. Lucie, Florida",
     heroImage: '/images/port-st-lucie/local-clover-park-palms.jpg',
     body: `Port St. Lucie offers a clear set of trade-offs. You get a large housing inventory, extensive new construction, suburban space, parks and communities with modern amenities. In exchange you get a spread-out, car-dependent city still under active development, and one that is not on the Atlantic Ocean.
@@ -23948,6 +23952,7 @@ Two questions resolve most of the decision. Does the complete cost of the specif
 
 Answer both before you fall in love with the floor plan.`,
     faqs: [
+      { q: "Is Port St. Lucie a good place to live?", a: "For many buyers, yes — if the priority is more house and newer construction for the money, suburban space and a large parks network, and you can accept a car-dependent layout, no ocean frontage of its own, ongoing construction and a long drive to Palm Beach County jobs. It is a weaker fit if you want to walk to the beach or to a historic downtown. Before deciding, price the insurance, the new-owner property tax and any special-district assessment on the specific address." },
       { q: "What are the pros and cons of living in Port St. Lucie?", a: "Pros: a large and varied housing market, extensive new construction, suburban space, an extensive parks network, real access to the North Fork and Savannas Preserve, a choice between HOA and non-HOA living, and no state income tax. Cons: no beach of its own, a difficult commute south, special-district assessments in some communities, a spread-out car-dependent layout, amenities that still lag housing in places, and constant construction." },
       { q: "What is the biggest downside of living in Port St. Lucie?", a: "For most people it's one of two things: the city has no Atlantic shoreline of its own, so the beach is a genuine drive east rather than a quick hop; or the Palm Beach County commute, which brings traffic, tolls, fuel, vehicle wear and real time away from home. Either can erode the financial advantage of buying farther north." },
       { q: "Is Port St. Lucie worth it?", a: "It depends entirely on the specific property and your daily routine. The trade is space, newness and housing choice against driving, construction and distance from the coast. Two questions settle most of it: does the complete monthly cost of that address work for your budget, and does its location work for how you actually live?" },
@@ -23959,7 +23964,7 @@ Answer both before you fall in love with the floor plan.`,
     funFact: "Port St. Lucie has grown substantially, adding more than 50,000 residents between 2020 and 2025. The city now reports a population exceeding 260,000 and expects continued expansion over the next 10 to 15 years. That growth explains the continuing road projects, housing construction, new parks, commercial development and public-infrastructure investment. Treat those conditions as a trade-off rather than a promise: the opportunity is access to a large housing market and expanding amenities, and the cost is living with construction and continued change while the city builds the infrastructure to serve it.",
     author: 'christine',
     published: true,
-    updated: '2026-09-11',
+    updated: '2026-09-29',
   },
   {
     slug: 'cost-of-living-in-port-st-lucie-florida',
