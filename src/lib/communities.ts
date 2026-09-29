@@ -4327,8 +4327,8 @@ export const neighborhoods: CommunityItem[] = [
       '/public/Panther National/panther-national-05.png',
       '/public/Panther National/panther-national-06.png',
     ],
-    // AI-edited per John, 2026-09-29. See public/public/Panther National/SOURCES.md.
-    photoCredits: ['AI-retouched photo'],
+    // John's own photos, AI-edited (per John, 2026-09-29). See public/public/Panther National/SOURCES.md.
+    photoCredits: ['Photo by John Oliver, AI-retouched'],
     photoNote: 'Photos on this page were edited with AI tools and are illustrative. Tour the community before relying on them.',
   },
   {
