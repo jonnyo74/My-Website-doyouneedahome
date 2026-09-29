@@ -86,6 +86,13 @@ export interface CommunityItem {
   highlights?: string[]
   photos?: string[]
   photoCredits?: string[]  // parallel to photos — e.g. 'Photo by Jane Doe / Unsplash'
+  /**
+   * Disclosure printed under the gallery, for photos that need one beyond a
+   * credit — e.g. AI retouching. Never use it to excuse edits that remove
+   * permanent features from a property for sale; see
+   * public/images/pga-national/SOURCES.md.
+   */
+  photoNote?: string
   /** Our own YouTube tour for this community, rendered as a click-to-load facade. */
   video?: CommunityVideoData
   // Curated saved-search buttons (real saved URLs from search.doyouneedahome.com — never auto-generated)
@@ -4313,13 +4320,16 @@ export const neighborhoods: CommunityItem[] = [
       'Contact DO Homes Group for pre-market access and VIP homesite selection',
     ],
     photos: [
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_43_20 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_45_38 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_48_48 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_51_22 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_54_29 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_57_50 PM.png',
+      '/public/Panther National/panther-national-01.png',
+      '/public/Panther National/panther-national-02.png',
+      '/public/Panther National/panther-national-03.png',
+      '/public/Panther National/panther-national-04.png',
+      '/public/Panther National/panther-national-05.png',
+      '/public/Panther National/panther-national-06.png',
     ],
+    // John's own photos, AI-edited (per John, 2026-09-29). See public/public/Panther National/SOURCES.md.
+    photoCredits: ['Photo by John Oliver, AI-retouched'],
+    photoNote: 'Photos on this page were edited with AI tools and are illustrative. Tour the community before relying on them.',
   },
   {
     slug: 'prado',

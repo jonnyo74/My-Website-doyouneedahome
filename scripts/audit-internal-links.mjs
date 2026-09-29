@@ -55,7 +55,7 @@ const articles = blocks.map((raw, i) => {
   const rawLinks = block.match(/^    internalLinks: \[([\s\S]*?)\],$/m)?.[1] ?? ''
   const internalLinks = [...rawLinks.matchAll(/['"]([^'"]+)['"]/g)].map((m) => m[1])
 
-  return { slug, published: published === 'true', body, internalLinks }
+  return { slug, published: published === 'true', body, block, internalLinks }
 })
 
 // Coverage assertions: a silent parse gap must fail, not pass.
@@ -63,8 +63,10 @@ const slugCount = (articlesSrc.match(/^    slug: /gm) ?? []).length
 if (articles.length !== slugCount) {
   throw new Error(`parsed ${articles.length} articles but file declares ${slugCount}`)
 }
+// Links are counted across the whole entry, not just `body`: editorial modules
+// (comparison callouts, guides, closing steps) carry markdown links too.
 const parsedBodyLinks = articles.reduce(
-  (n, a) => n + [...a.body.matchAll(/\]\(\/blog\//g)].length,
+  (n, a) => n + [...a.block.matchAll(/\]\(\/blog\//g)].length,
   0,
 )
 const fileBodyLinks = (articlesSrc.match(/\]\(\/blog\//g) ?? []).length
@@ -93,9 +95,9 @@ const fail = (check, detail) => failures.push({ check, detail })
 // 1. Internal links resolve to an existing, published article.
 for (const a of articles) {
   const refs = [
-    ...[...a.body.matchAll(/\]\(\/blog\/([a-z0-9-]+)\)/g)].map((m) => ({
+    ...[...a.block.matchAll(/\]\(\/blog\/([a-z0-9-]+)[)#]/g)].map((m) => ({
       target: m[1],
-      where: 'body',
+      where: 'markdown link',
     })),
     ...a.internalLinks.map((target) => ({ target, where: 'internalLinks' })),
   ]
