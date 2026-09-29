@@ -4313,12 +4313,12 @@ export const neighborhoods: CommunityItem[] = [
       'Contact DO Homes Group for pre-market access and VIP homesite selection',
     ],
     photos: [
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_43_20 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_45_38 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_48_48 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_51_22 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_54_29 PM.png',
-      '/public/Panther National/ChatGPT Image Jan 22, 2026, 01_57_50 PM.png',
+      '/public/Panther National/panther-national-01.png',
+      '/public/Panther National/panther-national-02.png',
+      '/public/Panther National/panther-national-03.png',
+      '/public/Panther National/panther-national-04.png',
+      '/public/Panther National/panther-national-05.png',
+      '/public/Panther National/panther-national-06.png',
     ],
   },
   {
