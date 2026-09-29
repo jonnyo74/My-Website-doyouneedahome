@@ -586,6 +586,10 @@ export default async function CommunityPage({ params }: Props) {
                       </div>
                     ))}
                   </div>
+
+                  {community.photoNote && (
+                    <p className="mt-3 text-xs text-slate-500">{community.photoNote}</p>
+                  )}
                 </div>
               )}
 
