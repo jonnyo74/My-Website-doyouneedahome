@@ -155,6 +155,11 @@ export interface ArticleEditorial {
   secondaryCta: ArticleLink
   quickFit?: {
     heading?: string          // module label; defaults to 'The short version'
+    // 'cards' sets the two columns in bordered cards; the default is plain columns.
+    variant?: 'cards'
+    // Renders the module after the body's opening paragraphs rather than above
+    // them. Needs tocAfterIntro, which is what splits off the introduction.
+    afterIntro?: boolean
     fitHeading: string
     fit: string[]
     elsewhereHeading: string
@@ -221,6 +226,7 @@ export interface Article {
   faqs: Faq[]
   internalLinks?: string[]    // related article slugs
   showMarketTrends?: boolean  // render the Ylopo market-trends widget (cost/market articles)
+  marketTrendsCaption?: string // replaces the market-trends widget's default caption, e.g. to say what the data covers
   funFact?: string            // local expert insight shown with author headshot
   author?: 'john' | 'christine'
   published: boolean
@@ -16711,127 +16717,151 @@ Whatever you choose, verify flood zone, elevation, municipality, evacuation zone
     cityName: 'Singer Island',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do on Singer Island, Florida",
-    metaTitle: "Best Things to Do on Singer Island, Florida",
-    metaDescription: "From MacArthur Beach State Park and Peanut Island to the Blue Heron Bridge dive site — a local guide to the best things to do on Singer Island, Florida.",
+    seoTitle: "Best Things to Do on Singer Island, FL | Local Guide",
+    metaTitle: "Best Things to Do on Singer Island, FL | Local Guide",
+    metaDescription: "Discover Singer Island activities: Blue Heron Bridge snorkeling, public beaches, MacArthur Beach State Park, Peanut Island, paddling, and waterfront views.",
     primaryKeyword: "things to do on Singer Island Florida",
-    secondaryKeywords: ["Singer Island attractions", "what to do on Singer Island", "MacArthur Beach State Park", "Peanut Island"],
+    secondaryKeywords: ["Singer Island attractions", "what to do on Singer Island", "Blue Heron Bridge snorkeling", "MacArthur Beach State Park", "Peanut Island"],
     h1: "Best Things to Do on Singer Island, Florida",
     heroImage: '/images/singer-island/inlet-sailboat-hero.webp',
-    heroImageAlt: "A sailboat heading through the Lake Worth Inlet at sunset, seen over the rocks at the south tip of Singer Island",
+    heroImageAlt: "A sailboat heading through the Lake Worth Inlet at sunset, seen over the rocks at the south tip of Singer Island, with Palm Beach on the far shore",
+    heroImageCaption: "A sailboat in the Lake Worth Inlet at sunset, seen from the south tip of Singer Island",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '55% 50%',
-    body: `Singer Island's recreation is almost entirely aquatic, and one item on the list is genuinely world-class rather than merely good. For a barrier island a few miles long, the concentration is remarkable.
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Singer Island · Things to Do',
+      deck: "Snorkeling at the Blue Heron Bridge, public beaches, MacArthur Beach State Park, Peanut Island and the south-end waterfront, with where to check conditions before you go.",
+      mobileImage: { src: '/images/singer-island/inlet-sailboat-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Read the local guide', href: '/blog/local-guide-to-singer-island-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Most of what there is to do on Singer Island happens in or beside the water. This guide covers what each option involves, how to reach it, and which official page to check for current hours, notices and conditions.
 
-## Dive or snorkel the Blue Heron Bridge
+## Before you go
 
-This is the headline, and it isn't local exaggeration: the shore dive under the bridge at Phil Foster Park is regularly named among the best in the world.
+Conditions, hours and access change. These are the pages to check on the day:
 
-What makes it exceptional is the marine life density in very shallow, very accessible water. Seahorses, octopus, batfish, frogfish, rays, juvenile everything — the sort of creatures divers normally travel a long way and go deep for, in about fifteen feet of water you can walk into from a beach.
+- **Phil Foster Park and the snorkel trail:** [Palm Beach County: Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [snorkel trail guide (PDF)](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf).
+- **Beach conditions and water safety:** [Palm Beach County: About our beaches](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx).
+- **Ocean Reef Park:** [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx).
+- **MacArthur Beach State Park notices, hours and fees:** [Florida State Parks: John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park).
+- **Peanut Island notices and directions:** [Palm Beach County: Peanut Island](https://discover.pbc.gov/parks/Pages/PeanutIsland.aspx) and [how to get there](https://discover.pbc.gov/parks/PeanutIsland/Directions.aspx).
+- **Tropical weather, June through November:** [NOAA National Hurricane Center](https://www.nhc.noaa.gov/).
 
-**The critical detail is timing.** The site is only worth doing around high slack tide, when the incoming water is clear and the current has stopped. Outside that window visibility collapses and the current is genuinely dangerous. Check the tide tables, arrive early, and plan your dive around the water rather than your schedule.
+## Choose your kind of day
 
-There's a snorkel trail as well, so you don't need certification to see a good deal of it. If you do one thing after moving here, make it this.
+- **Water activity:** snorkeling or diving at Phil Foster Park, paddling, or an offshore charter.
+- **Beach and nature:** Ocean Reef Park, or the beach, estuary and trails at MacArthur Beach State Park.
+- **Boat-access outing:** Peanut Island, by private boat or an independent water taxi.
+- **Waterfront evening:** Palm Beach Shores, the marina and the inlet at the island's south end.
+
+Which one suits a given day depends on the weather, the water and what you're comfortable doing.
+
+## Snorkeling and diving at the Blue Heron Bridge
+
+Phil Foster Park is a Palm Beach County park directly beneath the Blue Heron Bridge, on the road between the mainland and the island. Phil Foster Park's Blue Heron Bridge area is internationally recognized by divers, underwater photographers, and snorkelers for its concentration of marine life. The county's marked snorkel trail spans roughly two acres in 6 to 10 feet of water.
+
+![Looking east from the Blue Heron Bridge over Phil Foster Park's seawall and the Lake Worth Lagoon to the high-rises of Singer Island](/images/singer-island/blue-heron-bridge-phil-foster-mobile.webp "Phil Foster Park, beneath the Blue Heron Bridge, with Singer Island beyond. || Photo by John Oliver"){1200x800}
+
+**Snorkeling** is how most visitors see it. It doesn't require certification, but it isn't suited to everyone: you'll be in open water that can have current, reduced visibility and boats nearby, so it suits confident swimmers who are comfortable with a mask and fins. The county's [snorkel trail guide](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf) shows the layout.
+
+**Diving** under the bridge is a separate activity, for certified divers planning within their own training and experience.
+
+> **Safety:** Conditions change with tide, wind, weather, visibility, boat traffic, and individual ability. Check current conditions, use the county's [safety guidance](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx), and do not enter the water beyond your training or comfort level.
 
 ## The beaches
 
-Wide Atlantic beach runs most of the island's length, and it's better than the tower skyline would lead you to expect.
+Singer Island has a long Atlantic beach. How you get onto it depends on where you're starting from.
 
-Public access is concentrated at a municipal beach and at the state park, with a good deal of the remaining frontage private to buildings. Residents of oceanfront condos generally have direct access, which is one of the practical advantages of living here.
+Oceanfront residents may have building-specific access, so if you live in a beachfront building, ask the association how it works. Everyone can use the public access points, including:
 
-The sand is broad, the water is clear on calm days, and outside season the beach is genuinely quiet on weekday mornings.
+- **Ocean Reef Park**, a Palm Beach County park in Riviera Beach with a guarded swimming area. [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx)
+- **Riviera Beach's municipal beach**, beside the Ocean Walk shops and restaurants. [Riviera Beach CRA: Ocean Walk](https://rbcra.com/ocean-walk/)
+- **John D. MacArthur Beach State Park**, at the island's north end.
+
+![A wide, empty Atlantic beach at dawn on Singer Island, with condominium towers set back from the sand](/images/singer-island/ocean-beach-tower-corridor.webp "The Atlantic beach at dawn, with the island's condominium towers behind it. || Photo by John Oliver"){1400x1050}
+
+Public access, parking, lifeguard coverage and conditions vary by location and can change. Use marked public access points, follow posted flags and current beach conditions, and don't rely on being able to walk continuously along the shoreline from one access point to another.
 
 ## John D. MacArthur Beach State Park
 
-The north end's natural anchor and one of the better state parks on this coast.
+The state park at the island's north end has an Atlantic beach, an estuary on the lagoon side, a nature center and trails. The estuary gives paddlers kayak and paddleboard access, and snorkeling off the beach is possible when conditions permit.
 
-A long boardwalk crosses the estuary to the beach — worth doing slowly rather than treating as a corridor, since the shallow water beneath holds rays, fish and wading birds. On the ocean side, rock outcrops offer genuinely good snorkelling when conditions allow. There's a nature center, kayak access to the lagoon, and a beach that stays uncrowded because parking is finite.
-
-It's also an active sea turtle nesting site, and the park runs turtle walks in season.
+Programs, facilities, hours and fees change, so check [the park's page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) for current notices, weather and programs before you go.
 
 ## Peanut Island
 
-A short boat ride from the south end, and one of the more unusual destinations in the county.
+Peanut Island is a Palm Beach County park in the lagoon near the Lake Worth Inlet, off the island's south end. It was built up from dredged material and now has a beach, a snorkeling lagoon and a campground; camping requires a reservation.
 
-The island is man-made — built from material dredged when the inlet was cut — and it now holds a calm snorkelling lagoon, beaches, a campground, and a Cold War-era bunker built as a presidential shelter, which can be toured.
+The Kennedy Bunker, a Cold War-era shelter built for President Kennedy, is currently closed until further notice.
 
-Getting there means a boat or the shuttle service that runs from the mainland. It's a genuine day out and it's the thing visitors most consistently enjoy.
+Access is by private boat or by independent water-taxi services, which aren't part of the county park system. Water conditions in the lagoon change with the tide, wind and weather like anywhere else. Check water-taxi schedules, park notices and conditions before you travel: [Palm Beach County: Peanut Island](https://discover.pbc.gov/parks/Pages/PeanutIsland.aspx) · [How to get there](https://discover.pbc.gov/parks/PeanutIsland/Directions.aspx)
 
-## Boating and fishing
+## Boating, fishing and port traffic
 
-The **Lake Worth Inlet** at the island's southern tip is one of the best inlets on this coast — deep, well-maintained and used by commercial shipping, which means it's kept navigable.
+Lake Worth Inlet and the nearby Port of Palm Beach make boating and working-waterfront activity visible parts of life at the island's south end. Conditions, channel information, weather, fishing, charter availability, and marina programming change, so boaters and visitors should verify current details directly with the relevant operator or authority.
 
-For anglers, that translates into fast access to the Gulf Stream, which runs close inshore here. Offshore fishing is genuinely good and the running time is short.
+![A paved waterfront path lined with palms and low-rise buildings in Palm Beach Shores, with open water to the right](/images/singer-island/palm-beach-shores-inlet-path.webp "A waterfront path past low-rise homes in Palm Beach Shores, at the island's south end. || Photo by John Oliver"){1400x1050}
 
-Options without your own boat: charters out of the marina at the south end, drift fishing trips, and dive boats running to the offshore reefs.
+Without your own boat, fishing and dive charters operate from marinas in the area. Anyone fishing should check Florida's [saltwater fishing regulations](https://myfwc.com/fishing/saltwater/recreational/), and boaters its [boating regulations](https://myfwc.com/boating/regulations/).
 
-## The Sailfish Marina
+From the south end you can also watch the inlet itself: sportfishing boats and sailboats share the channel with commercial vessels using the port. Traffic varies with the port's schedule; the [Port of Palm Beach](https://www.portofpalmbeach.com/121/General-Information) publishes general information about its operations.
 
-At the south end in Palm Beach Shores, and an institution rather than merely a marina.
+## Sailfish Marina
 
-There's a charter fleet, a dock you can walk, and a long-running ritual of feeding the fish that gather beneath it — free, oddly compelling, and best at sunset. It's the closest thing the island has to a gathering place, and it's covered further in our [guide to eating and drinking here](/blog/best-places-to-eat-drink-hang-out-in-singer-island-florida).
+Sailfish Marina is a Palm Beach Shores waterfront landmark with dining, a marina and charter activity. For current hours, charters and events, check with the marina directly. It's also covered in our [guide to eating and drinking here](/blog/best-places-to-eat-drink-hang-out-in-singer-island-florida).
 
 ## Paddling
 
-The lagoon at the state park is the standout: sheltered, shallow, and full of wildlife, with manatees regularly present in the cooler months.
+The estuary at MacArthur Beach State Park is sheltered water for kayaks and paddleboards, and manatees can sometimes be seen in the area.
 
-The Intracoastal side of the island offers more open paddling, best early before boat traffic builds.
+The Intracoastal side of the island is more open water shared with boats, so wind, current and wakes matter more. Check the forecast, wear a life jacket, and stay visible to boat traffic.
 
 ## Off the island
 
-Fifteen minutes gets you a great deal:
+The bridges put several nearby destinations within reach by car:
 
-- **West Palm Beach** for the downtown, the arts complex and the airport.
-- **Palm Beach** for Worth Avenue and the historic estates.
-- **Palm Beach Gardens** for the main retail concentration.
-- **Riviera Beach's marina district** on the mainland side, which has seen substantial public investment and hosts events and waterfront dining.
-
-## Walking the island
-
-Underrated, and the simplest thing on this list.
-
-The beach runs most of the island's length and is walkable end to end at low tide, which takes a couple of hours each way and passes almost every kind of frontage here — towers, the state park's undeveloped stretch, and the low-rise southern town.
-
-It's the fastest way to understand the island's geography, and residents who do it once early tend to make better decisions about where they want to be.
+- **West Palm Beach** for its downtown, arts venues and the airport.
+- **Palm Beach** for Worth Avenue and its historic estates.
+- **Palm Beach Gardens** for major shopping.
+- **Riviera Beach's Marina District** on the mainland side, with waterfront dining and events.
 
 ## Seasonal timing
 
-**Winter into spring** brings the best air temperatures and the biggest crowds, with more wind limiting offshore and dive days.
+**Winter into spring** usually brings cooler, drier weather and more visitors. Wind can limit offshore and in-water days.
 
-**Summer** is hot and stormy by afternoon but generally offers the calmest water and the best underwater visibility of the year. Mornings are the window.
+**Summer** is hot and humid, with afternoon storms common. Water conditions vary day to day, so check before you go in; mornings are often the more comfortable time to be outside.
 
-**Turtle nesting season** runs roughly March through October, which brings lighting restrictions for beachfront property and an obligation to leave nests alone.
+**Sea turtle nesting season** runs March 1 through October 31 on Palm Beach County beaches. Don't disturb nests or hatchlings, follow beach lighting rules (the Florida Fish and Wildlife Conservation Commission publishes [sea turtle lighting guidelines](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/lighting/)), and check current park and agency guidance.
 
-**Hurricane season** runs June through November and matters more on a barrier island than almost anywhere else.
-
-## Watching the port traffic
-
-An unusual thing to have on your doorstep, and genuinely worth an evening.
-
-The inlet at the southern end serves a working commercial port, so alongside the sport fishing boats and sailboats you get cargo ships, fuel barges and the occasional cruise vessel moving through a channel narrow enough to see the crew on deck.
-
-The scale is startling up close, and the contrast — a container ship passing a paddleboarder — is the sort of thing you only get where a working waterway runs through a residential island. Free, frequent, and better than it sounds.
+**Hurricane season** runs June through November. For residents and longer-stay visitors, it's a preparation consideration: know your [evacuation zone](https://discover.pbc.gov/oem/pages/know-your-zone.aspx) and follow official guidance if a storm threatens.
 
 ## Where to start
 
-Dive or snorkel the bridge on a high slack tide, then spend a morning at the state park, then get out to Peanut Island.
+If you're new to the island, start with the snorkel trail at Phil Foster Park on a day when conditions and your comfort level allow, then spend a morning at MacArthur Beach State Park, then plan a Peanut Island trip once you've checked access and conditions.
 
-Those three are what this island is genuinely for. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida) are where it starts to feel like home.`,
+After that, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida) are where it starts to feel like home, and our [local guide](/blog/local-guide-to-singer-island-florida) covers the practical side of island life.`,
     faqs: [
-      { q: "What is the Blue Heron Bridge dive site?", a: "A shore dive at Phil Foster Park regularly named among the best in the world, thanks to remarkable marine life density in about fifteen feet of very accessible water — seahorses, octopus, frogfish, rays and juvenile everything. There is a snorkel trail too, so certification is not required to see much of it." },
-      { q: "When should I dive the Blue Heron Bridge?", a: "Only around high slack tide, when incoming water is clear and the current has stopped. Outside that window visibility collapses and the current becomes genuinely dangerous. Check tide tables, arrive early, and plan the dive around the water rather than around your schedule." },
-      { q: "What is Peanut Island?", a: "A man-made island off the southern tip, built from material dredged when the inlet was cut. It now has a calm snorkelling lagoon, beaches, a campground and a Cold War-era bunker built as a presidential shelter that can be toured. You reach it by boat or by the shuttle from the mainland." },
-      { q: "Is the fishing good at Singer Island?", a: "Yes. The Lake Worth Inlet at the southern tip is deep and well-maintained because commercial shipping uses it, so it stays navigable, and the Gulf Stream runs close inshore. That means short running times to genuinely good offshore fishing. Charters and drift trips run from the marina if you do not have a boat." },
-      { q: "What is there to do at John D. MacArthur Beach State Park?", a: "A long boardwalk over the estuary with rays, fish and wading birds beneath it, rock outcrops offering good snorkelling when conditions allow, a nature center, kayak access to the lagoon, and an uncrowded beach. It is an active sea turtle nesting site and runs turtle walks in season." },
-      { q: "What should I do first after moving to Singer Island?", a: "Dive or snorkel the Blue Heron Bridge on a high slack tide, spend a morning at the state park, and get out to Peanut Island. Those three cover what the island is genuinely for, and none of them requires knowing anyone locally first." },
+      { q: "What is the Blue Heron Bridge snorkel and dive site?", a: "Phil Foster Park, a Palm Beach County park directly beneath the Blue Heron Bridge. Phil Foster Park's Blue Heron Bridge area is internationally recognized by divers, underwater photographers, and snorkelers for its concentration of marine life. The county's marked snorkel trail spans roughly two acres in 6 to 10 feet of water. Snorkeling doesn't require certification, but it isn't suited to everyone; diving is a separate activity, for certified divers planning within their own training and experience." },
+      { q: "How do I decide when to snorkel or dive at the Blue Heron Bridge?", a: "Conditions change with tide, wind, weather, visibility, boat traffic, and individual ability. Check current conditions, use the county's safety guidance, and do not enter the water beyond your training or comfort level." },
+      { q: "Where are the public beaches on Singer Island?", a: "Public access points include Ocean Reef Park, a Palm Beach County park in Riviera Beach with a guarded swimming area; Riviera Beach's municipal beach, beside the Ocean Walk shops and restaurants; and John D. MacArthur Beach State Park, at the island's north end. Oceanfront residents may have building-specific access. Public access, parking, lifeguard coverage and conditions vary by location and can change, so use marked public access points and follow posted flags and current beach conditions." },
+      { q: "What is there to do at John D. MacArthur Beach State Park?", a: "The park has an Atlantic beach, an estuary on the lagoon side, a nature center and trails. The estuary gives paddlers kayak and paddleboard access, and snorkeling off the beach is possible when conditions permit. Programs, facilities, hours and fees change, so check the park's page for current notices, weather and programs before you go." },
+      { q: "How do you get to Peanut Island, and can you visit the Kennedy Bunker?", a: "Access is by private boat or by independent water-taxi services, which aren't part of the county park system. The island has a beach, a snorkeling lagoon and a campground; camping requires a reservation. The Kennedy Bunker is currently closed until further notice. Check water-taxi schedules, park notices and conditions before you travel." },
+      { q: "What boating and fishing is there near Singer Island?", a: "Lake Worth Inlet and the nearby Port of Palm Beach make boating and working-waterfront activity visible parts of life at the island's south end, and fishing and dive charters operate from marinas in the area. Conditions, channel information, weather, fishing, charter availability, and marina programming change, so verify current details directly with the relevant operator or authority." },
+      { q: "What should I do first on Singer Island?", a: "Start with the snorkel trail at Phil Foster Park on a day when conditions and your comfort level allow, then spend a morning at MacArthur Beach State Park, then plan a Peanut Island trip once you've checked access and conditions." },
     ],
     internalLinks: ["hidden-gems-in-singer-island-florida", "best-places-to-eat-drink-hang-out-in-singer-island-florida", "local-guide-to-singer-island-florida"],
-    funFact: "The Blue Heron Bridge is consistently ranked in the top 10 shore-dive sites in the world — not Florida, the world. The secret is the tidal flow: dive it during slack tide around a full or new moon and the visibility is extraordinary. Most people driving past have no idea what's a few feet below them.",
+    funFact: "Plenty of people drive over the Blue Heron Bridge every day without knowing there's a county snorkel trail in the shallow water beside Phil Foster Park, just below the bridge. Before you go in, check conditions and the county's safety guidance, and go with a buddy.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'who-should-move-to-singer-island-florida',
@@ -16839,114 +16869,145 @@ Those three are what this island is genuinely for. Once you've done them, the [q
     cityName: 'Singer Island',
     type: "Who Should Move To",
     order: 5,
-    seoTitle: "Who Should Move to Singer Island, Florida (And Who Shouldn't)",
-    metaTitle: "Who Should Move to Singer Island, FL",
-    metaDescription: "Singer Island isn't for everyone. An honest look at who thrives in this oceanfront condo community — and who would be happier in a low-rise beach town.",
+    seoTitle: "Who Should Move to Singer Island, FL? An Honest Guide",
+    metaTitle: "Who Should Move to Singer Island, FL? An Honest Guide",
+    metaDescription: "An honest Singer Island fit guide: oceanfront living, second homes, condo ownership, housing costs, bridge access, and the trade-offs to consider.",
     primaryKeyword: "who should move to Singer Island Florida",
-    secondaryKeywords: ["is Singer Island right for me", "should I move to Singer Island", "who lives on Singer Island"],
-    h1: "Who Should Move to Singer Island, Florida (And Who Shouldn't)",
+    secondaryKeywords: ["is Singer Island right for me", "should I move to Singer Island", "Singer Island condo or house", "Singer Island second home"],
+    h1: "Is Singer Island Right for You? An Honest Fit Guide",
     heroImage: '/images/singer-island/yellow-house-palms-hero.webp',
     heroImageAlt: "A yellow two-story house with a white porch and palm trees on a Singer Island street",
+    heroImageCaption: "A single-family house on Singer Island",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '45% 50%',
-    body: `Singer Island is one of the most self-selecting places in Palm Beach County. It does a specific thing extremely well and almost nothing else, which makes the fit question unusually clean.
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Singer Island · Fit Guide',
+      deck: "Oceanfront living, second homes, condo ownership, housing costs and bridge access: the trade-offs to weigh before you buy.",
+      mobileImage: { src: '/images/singer-island/yellow-house-palms-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Houses or condos: the area guide', href: '/blog/best-neighborhoods-in-singer-island-florida' },
+      quickFit: {
+        heading: 'Singer Island fit at a glance',
+        variant: 'cards',
+        afterIntro: true,
+        fitHeading: 'You may value Singer Island if you prioritize:',
+        fit: [
+          'Direct beach or water access',
+          'Condo amenities and shared exterior maintenance',
+          'Building-specific due diligence and shared governance',
+          "A second-home or lock-and-leave format, after verifying the building's procedures",
+          'Boating, snorkeling, diving, or coastal recreation',
+          'Access to mainland destinations while accepting bridge-dependent travel',
+        ],
+        elsewhereHeading: 'Pause before buying if you need:',
+        elsewhere: [
+          'A traditional walkable downtown for everyday errands',
+          'Predictable housing costs without association or insurance exposure',
+          'Complete control over property changes and operations',
+          'Frequent urgent or time-critical trips without bridge dependency',
+          'A house, yard, or dock without a narrow and competitive search',
+        ],
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Singer Island does a few things well and asks for a few trade-offs that don't change. The useful question isn't who belongs here. It's whether the island's daily reality matches the way you want to live, own property, travel and manage housing costs.
 
-## The people this island fits
+## What the island offers
 
-**The buyer who genuinely wants to live on the ocean.** Not near it, not with a view of it — on it, with the beach downstairs and surf audible from the bedroom. If that's the actual requirement, the alternatives in this county are the estate islands at several times the price. This is the attainable version and there isn't really a substitute.
+**Living on the water, not near it.** If the requirement is the beach downstairs or the lagoon outside the window, the island's oceanfront condominiums and waterfront homes make that possible.
 
-*Verify:* which floor and which exposure. Height, direction and what's between you and the water change the experience enormously, and they change the price accordingly.
+*Verify:* which floor and which exposure. Height, direction and what's between you and the water change the experience, and they change the price.
 
-**The seasonal or second-home owner.** This is a large share of the island and the arrangement suits it perfectly. Lock the door in April, come back in November, and the building has handled everything.
+![A wide, empty Atlantic beach at dawn on Singer Island, with condominium towers set back from the sand](/images/singer-island/ocean-beach-tower-corridor.webp "The Atlantic beach at dawn, with the island's condominium towers behind it. || Photo by John Oliver"){1400x1050}
 
-*Verify:* the tax position. Homestead exemption and the assessment cap apply only to a primary residence, so a second home carries the full unmitigated bill — a detail our [cost breakdown](/blog/cost-of-living-in-singer-island-florida) treats seriously because it catches people out.
+**Condo amenities and shared exterior maintenance.** In a condominium, the association looks after the building, the grounds and the shared amenities. You pay for that through fees and, when needed, special assessments.
 
-**The diver.** The bridge dive alone justifies the postcode for a certain kind of person, and the offshore reefs and short inlet run compound it. Few places let you dive world-class sites this casually.
+**Seasonal or second-home ownership.** A condo can suit seasonal ownership when the association's operations, insurance, storm procedures, maintenance responsibilities, rental rules, and absentee-owner expectations match the buyer's plan. Verify those details before assuming a unit is truly lock-and-leave.
 
-**The boater and offshore angler.** The Lake Worth Inlet is deep, maintained and reliable, and the Gulf Stream is close. Running time to good water is short.
+*Verify:* the tax position. Florida homestead and Save Our Homes benefits are generally tied to a permanent residence. Confirm the tax treatment of the specific property with the [Palm Beach County Property Appraiser](https://pbcpao.gov/homestead-exemption.htm) or a qualified tax professional. The Florida Department of Revenue explains the [exemptions and the Save Our Homes limitation](https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx). Our [cost breakdown](/blog/cost-of-living-in-singer-island-florida) shows how this feeds into carrying costs.
 
-*Verify:* dockage, which is in demand and priced accordingly. Establish where the boat will actually live before you buy the unit.
+**Water recreation.** The [Blue Heron Bridge / Phil Foster area](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) is internationally recognized for marine life, while boating and fishing access depend on weather, tides, vessel, channel conditions, and current operator availability. Our [guide to things to do on the island](/blog/best-things-to-do-in-singer-island-florida) covers the options.
 
-**The downsizer.** People leaving a large house often find this ideal — no roof, no lawn, no pool to maintain, and an ocean instead. The transition from house to tower is easier when the view compensates.
+*Verify:* dockage, if a boat is part of the plan. Establish where the boat will live, what conveys or is available, and what it costs before you buy.
 
-**The buyer who wants a city close but not around them.** West Palm Beach is fifteen minutes away. You get its restaurants, arts, medicine and airport without living in it.
+**Mainland access, by bridge.** Mainland destinations are within reach without living on the mainland, but every trip starts with a bridge. The routes are covered below.
 
-## The people who tend to regret it
+## The trade-offs that are hardest to live with
 
-**Anyone who wants a house and a yard.** Outside Palm Beach Shores there's essentially nothing, and that market is small and expensive. Buyers who want a garden should look at the mainland and will get far more for the money.
+**A house and a yard.** Palm Beach Shores is one single-family option, but Singer Island also has limited home-oriented pockets commonly marketed as Palm Beach Isles and Yacht Harbor-area communities. Property type, dockage, municipality, and access vary by listing, so verify the specific address rather than relying on a broad area label. The search is narrow, so if a yard is the main requirement, compare mainland options too.
 
-**Anyone who dislikes being governed.** Condo living means a board, rules, fees you don't set, and decisions made collectively about your building. Some people find this restful. Others find it maddening, and they generally know which they are.
+**Shared governance.** Condo living means a board, rules, fees you don't set, and decisions made collectively about your building. Some buyers find that restful; others don't. Read the governing documents and recent minutes before you decide which you are.
 
-**The buyer who wants a walkable town.** There isn't one on the island. No main street, no shops to stroll, no restaurant row. Everything beyond the beach involves a bridge.
+**A walkable downtown.** The island is primarily residential and recreational, with no traditional walkable downtown. Expect to drive for many everyday errands.
 
-**The budget-constrained buyer.** The purchase price can look reachable and the carrying costs frequently aren't. Fees, both insurance layers and the real possibility of a special assessment are the actual cost of being here.
+**Predictable housing costs.** The purchase price is only part of the cost. In a condo, association fees, insurance and the possibility of special assessments are part of ownership. In a house, you carry the roof, wind and flood insurance, maintenance and, on the water, the seawall and dock yourself. Budget for both the known costs and the variable ones.
 
-**Anyone who needs quiet certainty about costs.** On an island of ageing towers, special assessments are a genuine feature of ownership. If an unexpected five-figure bill would be a crisis rather than an annoyance, this is the wrong market.
+## Getting on and off the island
 
-## Work and commuting
+Singer Island gives residents two bridge-dependent routes toward Riviera Beach/West Palm Beach and Palm Beach Gardens. The practical experience depends on the exact building, destination, bridge openings, road work, time of day, and season. Test the routes that matter to you in the conditions when you will actually use them.
 
-The island's location is better than its isolation suggests:
+![The Blue Heron Bridge crossing the Lake Worth Lagoon on concrete piers, with high-rises in the distance](/images/singer-island/blue-heron-bridge-lagoon.webp "The Blue Heron Bridge over the Lake Worth Lagoon, one of the island's two routes to the mainland. || Photo by John Oliver"){1400x1050}
 
-- **West Palm Beach** is the nearest major employment concentration and a short drive.
-- **Palm Beach Gardens** is reachable over the north bridge and holds substantial office and medical employment.
-- **Palm Beach** is minutes away across the inlet by road.
-- **Fort Lauderdale** is a real commute but manageable a couple of days a week.
-- **Miami** is not a realistic daily proposition.
-
-**President Donald J. Trump International Airport** is genuinely close, which matters disproportionately for seasonal owners and anyone who travels.
-
-**Brightline** runs from West Palm Beach with fast service to Fort Lauderdale, Miami and Orlando.
-
-The variable nobody accounts for is the bridge. Both crossings open for boat traffic and both back up in season. Build margin into anything time-critical, and drive your route in February before assuming July's timings hold.
+For longer trips, [Brightline](https://www.gobrightline.com/) passenger rail serves a station in West Palm Beach. Check its current routes and schedules if rail travel is part of your plan.
 
 ## The house-or-unit decision, restated
 
-If there's one thing to settle before viewing anything, it's this — because it determines which island you're actually buying into.
+If there's one thing to settle before viewing anything, it's this, because it determines which version of the island you're buying into.
 
-**A unit** gets you the ocean, the amenities and the freedom to leave for months, at the cost of governance, fees and a share in whatever the building eventually needs.
+**A unit** gets you the building's amenities and, in many buildings, oceanfront or water views, at the cost of shared governance, fees and a share in whatever the building needs.
 
-**A house in the southern town** gets you a street, a yard and control, at the cost of scarcity, higher exposure, and carrying every maintenance and insurance line yourself.
+**A house** gets you a street, a yard and more direct control, at the cost of a limited supply and carrying every maintenance and insurance line yourself.
 
-People who are genuinely undecided between the two usually want the house and are talking themselves into the unit on price. That's worth noticing before rather than after.
+| Condominium ownership | Single-family ownership |
+|---|---|
+| Shared building operations and governance | More direct property control |
+| Association budget, reserves, insurance, assessments, rules | Property-level roof, flood, wind, insurance, dock, maintenance checks |
+| Oceanfront and amenity access may be more available | Supply is limited and property characteristics vary sharply |
+| Review association documents before offering | Review inspections, permits, elevation, insurance, and property records |
+
+![High-rise view west over Singer Island's lagoon-side streets of single-family houses and canals, with condominium towers in the foreground and the Blue Heron Bridge in the distance](/images/singer-island/lagoon-side-houses-aerial.webp "Condominium towers and the lagoon-side house streets, seen from a high-rise. || Photo by John Oliver"){1400x1050}
+
+If you're undecided, notice whether price is the only thing pushing you toward one or the other. Our [area guide](/blog/best-neighborhoods-in-singer-island-florida) covers where each type sits on the island.
 
 ## The test worth running
 
-Rent a unit for a month, ideally in August.
+Spend real time in the exact area before you commit. If you can, rent there, and include the off-season as well as the busy months: the year-round island can feel different from the seasonal one.
 
-The seasonal version of this island is easy to love. The year-round version is hotter, quieter, and more dependent on your building than newcomers expect. A month in the off-season tells you whether you like the actual place or the holiday version of it.
+If you can't rent, visit the building on a weekday morning as well as a weekend, and ask for the association's recent budgets, financial statements, reserve information and board minutes before you get attached to a view.
 
-If you can't rent, at minimum: visit a building at nine on a weekday morning rather than on a Sunday afternoon, and ask the association for the last three years of financials before you get attached to a view.
+## Healthcare access and daily logistics
 
-## One more consideration: medical access
+The island itself is primarily residential and recreational. Anyone who prioritizes regular medical appointments, specialist access, caregiving, or time-sensitive travel should map the actual routes and providers relevant to their own needs before choosing a building.
 
-Worth raising because a meaningful share of buyers here are retirees or approaching retirement.
-
-The island itself has no hospital, so anything urgent means a bridge. That's a short drive under normal conditions and a genuine consideration during an evacuation or a bridge closure.
-
-The compensating fact is that West Palm Beach has a substantial concentration of hospitals and specialists within about fifteen minutes, which is better access than a great many Florida coastal communities offer. Worth confirming what your own situation requires before committing.
+![Singer Island's condominium skyline and lagoon-side homes seen across the Lake Worth Lagoon, with boats anchored off the shore](/images/singer-island/lagoon-view-island-skyline-hero.webp "Singer Island from across the Lake Worth Lagoon. || Photo by John Oliver"){2048x1152}
 
 ## The gut check
 
-Singer Island works for people whose priority is the ocean itself and who are comfortable with buildings, boards and bridges.
+Singer Island works well for buyers whose priority is direct access to the water and who are comfortable with the building, the association and the bridge that come with it.
 
-It works poorly for people who wanted a beach town, a house, predictable costs, or the ability to walk somewhere for coffee.
+It works less well for buyers who want a walkable downtown, a wide choice of houses, predictable costs, or complete control over their property.
 
-The clearest way to test yourself: if the phrase "special assessment" makes you want to read the financials, you'll be fine here. If it makes you want to change the subject, look at the mainland — our [comparison guide](/blog/singer-island-vs-nearby-cities) covers the alternatives properly.`,
+A practical test: if reading an association's budget, reserves and minutes sounds like reasonable homework, the condo side of the island may suit you. If it doesn't, look closely at the island's houses or at the mainland. Our [comparison guide](/blog/singer-island-vs-nearby-cities) covers the alternatives.`,
     faqs: [
-      { q: "Who should move to Singer Island?", a: "People who genuinely want to live on the ocean rather than near it, seasonal and second-home owners who value lock-and-leave simplicity, divers and offshore anglers, downsizers leaving a large house, and anyone who wants a city fifteen minutes away rather than around them." },
-      { q: "Who should avoid Singer Island?", a: "Anyone who wants a house and a yard, anyone who dislikes condo governance and boards, anyone who wants a walkable town, and anyone for whom an unexpected five-figure special assessment would be a crisis rather than an annoyance. On an island of ageing towers, assessments are a genuine feature of ownership." },
-      { q: "Is Singer Island good for a second home?", a: "Unusually well suited to it — lock the door in April, return in November, and the building has handled everything. The important caveat is tax: homestead exemption and the Save Our Homes assessment cap apply only to a primary residence, so a second home carries the full unmitigated bill." },
-      { q: "Can I commute to work from Singer Island?", a: "West Palm Beach is the nearest major employment concentration and a short drive, Palm Beach Gardens is reachable over the north bridge, and Palm Beach is minutes away. Fort Lauderdale is manageable a couple of days a week; Miami is not realistic daily. The variable nobody accounts for is bridge openings and season traffic." },
-      { q: "What is the best way to test whether Singer Island suits me?", a: "Rent a unit for a month, ideally in August. The seasonal version of the island is easy to love; the year-round version is hotter, quieter and more dependent on your building than newcomers expect. If you cannot rent, visit a building on a weekday morning and read three years of association financials." },
-      { q: "How do I know if condo living will suit me?", a: "A useful test: if the phrase \"special assessment\" makes you want to read the financials, you will probably be fine here. If it makes you want to change the subject, the mainland will suit you better — condo ownership means a board, rules and costs decided collectively about your building." },
+      { q: "Who is Singer Island a good fit for?", a: "Buyers who prioritize direct beach or water access; condo amenities and shared exterior maintenance; building-specific due diligence and shared governance; a second-home or lock-and-leave format, after verifying the building's procedures; boating, snorkeling, diving, or coastal recreation; and access to mainland destinations while accepting bridge-dependent travel." },
+      { q: "When should I pause before buying on Singer Island?", a: "If you need a traditional walkable downtown for everyday errands; predictable housing costs without association or insurance exposure; complete control over property changes and operations; frequent urgent or time-critical trips without bridge dependency; or a house, yard, or dock without a narrow and competitive search." },
+      { q: "Can you buy a house with a yard on Singer Island?", a: "Palm Beach Shores is one single-family option, but Singer Island also has limited home-oriented pockets commonly marketed as Palm Beach Isles and Yacht Harbor-area communities. Property type, dockage, municipality, and access vary by listing, so verify the specific address rather than relying on a broad area label." },
+      { q: "Is Singer Island good for a second home?", a: "A condo can suit seasonal ownership when the association's operations, insurance, storm procedures, maintenance responsibilities, rental rules, and absentee-owner expectations match the buyer's plan. Verify those details before assuming a unit is truly lock-and-leave. Florida homestead and Save Our Homes benefits are generally tied to a permanent residence. Confirm the tax treatment of the specific property with the Palm Beach County Property Appraiser or a qualified tax professional." },
+      { q: "How do you get to the mainland from Singer Island?", a: "Singer Island gives residents two bridge-dependent routes toward Riviera Beach/West Palm Beach and Palm Beach Gardens. The practical experience depends on the exact building, destination, bridge openings, road work, time of day, and season. Test the routes that matter to you in the conditions when you will actually use them." },
+      { q: "Should I buy a condo or a house on Singer Island?", a: "A condominium means shared building operations and governance, with the association's budget, reserves, insurance, assessments and rules to review before you offer, and oceanfront and amenity access may be more available. A house means more direct property control, with the roof, flood, wind, insurance, dock and maintenance checked at the property level, from a limited supply whose characteristics vary sharply." },
+      { q: "What is the best way to test whether Singer Island suits me?", a: "Spend real time in the exact area before you commit. If you can, rent there, and include the off-season as well as the busy months. If you can't rent, visit the building on a weekday morning as well as a weekend, and ask for the association's recent budgets, financial statements, reserve information and board minutes before you get attached to a view." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-singer-island-florida", "cost-of-living-in-singer-island-florida", "best-neighborhoods-in-singer-island-florida"],
-    funFact: "A large share of Singer Island residents are not full-time — many condos are snowbird homes or short-term rentals. That gives the island a resort energy year-round but means the community has a more transient character than a typical neighborhood. If you want deep roots, buy in Palm Beach Shores.",
+    funFact: "The most important Singer Island distinction is often not the address—it is the ownership model. A condo buyer should understand the association and building operations; a house buyer should understand property-level maintenance, insurance, elevation, and exposure. Spend time in the exact area and read the documents before deciding.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'pros-and-cons-of-living-in-singer-island-florida',
@@ -16954,111 +17015,150 @@ The clearest way to test yourself: if the phrase "special assessment" makes you 
     cityName: 'Singer Island',
     type: "Pros And Cons Of Living In",
     order: 6,
-    seoTitle: "Pros and Cons of Living on Singer Island, Florida",
-    metaTitle: "Pros and Cons of Living on Singer Island, FL",
-    metaDescription: "The honest pros and cons of living on Singer Island, Florida — oceanfront living and a resort lifestyle versus high HOA fees, insurance, and a single-bridge island.",
+    seoTitle: "Pros & Cons of Living on Singer Island, FL",
+    metaTitle: "Pros & Cons of Living on Singer Island, FL",
+    metaDescription: "An honest guide to Singer Island living: ocean access, condo ownership, practical costs, daily logistics, and what buyers should verify.",
     primaryKeyword: "pros and cons of living on Singer Island Florida",
-    secondaryKeywords: ["Singer Island pros and cons", "living on Singer Island downsides", "is Singer Island worth it"],
+    secondaryKeywords: ["Singer Island pros and cons", "living on Singer Island downsides", "is Singer Island worth it", "Singer Island condo due diligence"],
     h1: "Pros and Cons of Living on Singer Island, Florida",
     heroImage: '/images/singer-island/inlet-cargo-ship-sunset-hero.webp',
     heroImageAlt: "A container ship passing through the Lake Worth Inlet at sunset, seen from the south tip of Singer Island",
+    heroImageCaption: "A container ship in the Lake Worth Inlet at sunset, seen from the south tip of Singer Island",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '55% 50%',
     showMarketTrends: true,
-    body: `Singer Island's advantages are concentrated and unusually hard to find elsewhere. Its drawbacks are structural and won't change. That combination makes it an easy place to assess honestly, provided nobody pretends the drawbacks are minor.
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Singer Island · Pros and Cons',
+      deck: "Ocean access on one side; condominium ownership and barrier-island logistics on the other. What to weigh, and what to verify, before you buy.",
+      mobileImage: { src: '/images/singer-island/inlet-cargo-ship-sunset-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Cost of living on the island', href: '/blog/cost-of-living-in-singer-island-florida' },
+      quickFit: {
+        heading: 'Singer Island: the real trade-off',
+        variant: 'cards',
+        afterIntro: true,
+        fitHeading: 'What tends to feel worth it',
+        fit: [
+          'Everyday proximity to the beach and the water',
+          'A compact coastal setting',
+          'Condominium options with shared amenities, where the building offers them',
+        ],
+        elsewhereHeading: 'What requires active acceptance',
+        elsewhere: [
+          'Shared governance through an association',
+          'Building-specific financial exposure',
+          'Errands and commutes that mean driving, and crossing a bridge',
+          'Salt-air upkeep',
+          'Emergency and storm planning',
+        ],
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Singer Island can be exceptional for someone who wants the Atlantic to shape daily life: the beach before work, the water in view, the ocean as the backdrop to ordinary days.
 
-## What you're genuinely getting
+But the decision rarely turns on the view. It turns on the building's documents, the real cost of ownership, the daily logistics of a barrier island, and whether a condominium or a house is the right kind of home for you.
 
-**Direct oceanfront, at an attainable price.** In a county where the estate islands run to extraordinary numbers, this is the accessible way to actually live on the Atlantic. It is the island's whole case and it's a strong one.
+## What you are genuinely getting
 
-*How often it matters:* every single day, which is precisely why people accept the rest.
+**The beach and the water as part of daily life.** For many owners this is the whole point: the ocean close enough to use on an ordinary weekday, not just on vacation. How close, and what you see, depends on the building, the floor, the exposure and the home type, so judge the specific unit rather than the island.
 
-**Lock-and-leave.** No roof, no lawn, no pool, no exterior anything. For seasonal owners and for people who travel, this is transformative.
+![A high view south along Singer Island's beach, with turquoise water, a wide strip of sand and white condominium towers at the right](/images/singer-island/oceanfront-beach-high-view.webp "Singer Island's Atlantic beach, seen from one of the towers along it. || Photo by John Oliver"){1400x1050}
 
-**World-class water.** The bridge dive is genuinely among the best shore dives anywhere. The inlet is deep and reliable. The Gulf Stream is close. The state park is one of the better ones on this coast.
+**Water recreation close at hand.** Snorkeling at Phil Foster Park beneath the Blue Heron Bridge, paddling at John D. MacArthur Beach State Park, and boating from the island's south end are all nearby. Conditions, access and availability change with the weather and the water, so check before you go; our [guide to things to do on the island](/blog/best-things-to-do-in-singer-island-florida) links the official pages.
 
-**A real city, fifteen minutes away.** West Palm Beach's restaurants, medicine, arts and airport, without living in a city.
+**A compact setting.** The island is small enough to learn quickly, with the ocean on one side and the lagoon on the other. Some people find that simple; others find it confining.
 
-**Two ways off the island.** A detail that matters more than it sounds — Blue Heron Boulevard to the west and the northern route to the PGA Boulevard crossing. Single-access barrier islands are considerably more constrained.
+**Shared amenities, where a building has them.** Many condominiums offer pools, fitness rooms, beach access and staff, and the association maintains the building and grounds. That isn't the same as having no responsibility: you pay for it, and you share in the decisions and the costs.
 
-**No state income tax**, which matters disproportionately here given how much ownership is seasonal.
+## What you are genuinely taking on
 
-## What you're genuinely giving up
+**Shared governance.** In a condominium, a board decides on budgets, repairs, rules and projects, and every owner is bound by the declaration, bylaws and rules. Read them, and read recent board minutes, before you commit.
 
-**A neighborhood.** You get a building, not a street. No yard, no garage in the usual sense, no walking the dog past neighbors' houses.
+**Monthly costs that can change.** Association fees rise with insurance, maintenance and reserve funding. Florida requires milestone structural inspections for condominium buildings of three or more habitable stories under [section 553.899, Florida Statutes](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html), and repairs they identify, along with reserve requirements, can lead to higher fees or special assessments. Ask what a building has already done, what is pending, and what is planned.
 
-**Walkability.** There's no town on the island. Groceries, errands and most dining are over a bridge.
+![A white condominium tower beside the shore road on Singer Island, with the lagoon, the Blue Heron Bridge and the Port of Palm Beach cranes in the distance](/images/singer-island/condo-tower-lagoon-view.webp "A condominium tower on the island, looking across the lagoon to the mainland. || Photo by John Oliver"){1400x1050}
 
-**Control.** A board decides what happens to your building, what it costs, and what you may do with your unit. That's the deal.
+**Insurance layers.** In a condominium, the association's master policy covers the building and common areas, and your own unit-owner (HO-6) policy covers what the master policy doesn't. The Florida Department of Financial Services explains [how homeowner and condo coverage works](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview), including loss-assessment coverage. Where the boundary sits is set by the association's documents and policies, so confirm it for the exact unit.
 
-**Cost predictability.** Fees rise. Assessments happen. On ageing coastal towers this is normal rather than exceptional.
+**Conditions to investigate, not assume.** Salt air shortens maintenance intervals for cars, railings, hinges and air-conditioning equipment. Wind and surf noise, road noise, parking, storage and guest parking vary by building and by unit. Visit at different times of day, and ask what conveys with the unit.
 
-**Single-family housing.** Essentially unavailable outside Palm Beach Shores.
+**Driving and bridges.** The island is primarily residential and recreational, so most errands mean driving, and trips to the mainland cross a bridge. Bridge openings and traffic can affect daily routines. Check [Palm Beach County's bridge information](https://discover.pbc.gov/engineering/pages/bridge-section.aspx) and test the routes you'll actually use.
 
-**Sound carries differently than expected.** Oceanfront units get surf, which most residents find restful, and wind, which some don't. Units facing the road or a neighboring building's mechanical plant can be noticeably less peaceful than the view suggests. Visit at different times of day before deciding.
+**Storms and sea turtles.** Evacuation zones and flood exposure depend on the exact address, so look them up rather than relying on the island's name. Lighting that is visible from the beach can matter during sea turtle nesting season; requirements depend on the property, the association, the municipality and state guidance, so verify them for the exact home or building.
 
-**Salt gets into everything.** Cars, hinges, railings, electronics, air conditioning coils. Maintenance intervals on a barrier island are shorter than inland and the cumulative cost is real.
+## The due-diligence questions that matter before an offer
 
-## The ones that catch people out
+This is practical education, not legal, insurance, tax or engineering advice. Use qualified professionals for your own purchase. Our [condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists the documents to request and why.
 
-**Special assessments are a feature, not a failure.** Salt air and concrete high-rises mean major structural work on a cycle. Florida's milestone inspection and reserve requirements have accelerated the recognition of long-underfunded work, producing sharp fee rises and large assessments across the state. This is the single biggest financial risk of buying here, and it's entirely researchable in advance — our [cost breakdown](/blog/cost-of-living-in-singer-island-florida) lists exactly what to demand.
+| Ask for | Why it matters | Verify with |
+|---|---|---|
+| Current budget, fee history, reserve and structural integrity reserve study information where applicable, recent financial statements | Shows what ownership costs now and whether the building is funding future repairs | The association and its manager; your attorney |
+| Approved, pending and anticipated special assessments | Assessments can be a large, separate cost on top of the monthly fee | Association records and board minutes |
+| Milestone or structural inspection reports and repair status, where applicable | Shows the building's condition and what work is still to come | The association; [section 553.899](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html) |
+| Master-policy declarations, deductibles, your HO-6 needs and loss-assessment coverage | Defines what you insure yourself and what you could be assessed after a loss | Your insurance agent; the [Department of Financial Services overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview) |
+| Rental, pet, occupancy, parking, storage, renovation and board-approval rules | Determines how you can actually use, rent, change and sell the unit | The declaration, bylaws and rules |
+| Your routes for daily trips, commutes, flights and appointments | Bridge openings and traffic shape daily life | [County bridge information](https://discover.pbc.gov/engineering/pages/bridge-section.aspx); a test drive at your usual times |
+| Hurricane evacuation zone and flood zone for the exact address | Exposure varies by address, not by island | [Palm Beach County's Know Your Zone](https://discover.pbc.gov/oem/pages/know-your-zone.aspx); [FEMA's Flood Map Service Center](https://msc.fema.gov/portal/home) |
+| Beachfront lighting requirements, if the property is visible from the beach | Lighting rules can affect fixtures, windows and common areas | The association, the municipality and [FWC lighting guidance](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/lighting/) |
 
-**The two insurance layers.** What the association covers and what you must cover yourself is a boundary people don't examine until they have a claim.
+## The answer changes with the home type
 
-**Rental restrictions.** Minimum lease terms and approval processes vary hugely between buildings and materially affect both your flexibility and your resale market.
+| Home type | How ownership works | Check before an offer |
+|---|---|---|
+| Oceanfront and Intracoastal condominiums | You own a unit and share the building, grounds and costs through the association | Association documents, finances, inspections, insurance and rules |
+| Palm Beach Shores single-family homes | You own the house and lot, in a separate incorporated town with its own government | Roof, wind and flood insurance, elevation, permits and town rules |
+| Palm Beach Isles and Yacht Harbor single-family homes | You own the house and lot in these lagoon-side neighborhoods of Riviera Beach, some on the water | Dock and seawall condition, insurance, elevation, permits and property records |
 
-**Evacuation is a real, recurring event.** Barrier island property is in the first zones called. That means leaving more often than mainland residents, sometimes for storms that ultimately do little. Anyone with mobility constraints or pets should think this through properly rather than assuming it'll be fine.
+![A high view west over lagoon-side house streets, canals and boats at anchor on the lagoon, under a dramatic evening sky](/images/singer-island/lagoon-canal-homes-high-view.webp "Lagoon-side house streets and canals, seen from a Singer Island high-rise. || Photo by John Oliver"){1400x1050}
 
-**Turtle nesting affects beachfront property.** Lighting ordinances during nesting season are enforced, and retrofitting non-compliant lighting is a genuine cost that buyers rarely price in.
+None of these is better in the abstract. A condominium trades some control for shared maintenance and amenities; a house trades shared costs for direct responsibility. Single-family supply on the island is limited, and neighborhood names in listings vary, so confirm the municipality and the property records for each address.
 
-**Bridge openings.** Both crossings open for boat traffic. It's a minor irritation most of the time and an genuine problem when you're trying to make a flight.
+## Things that are neither a pro nor a con
 
-**Seasonal emptiness.** Buildings with heavy seasonal ownership are quiet from May to October. Some residents find that peaceful; others find it eerie, particularly in a tower where half the units are dark.
+Several features are matters of preference rather than quality.
 
-## The things that are simply neutral
+**Density.** A line of towers along the beach reads as a skyline to some people and a wall to others. How much of it you notice depends on the building and the unit.
 
-Several features get argued about that are really matters of temperament.
+**Seasonal rhythm.** Some buildings have more seasonal owners than others, so activity can change through the year. Ask the association about occupancy patterns in the building you're considering.
 
-**The density.** A wall of towers along a beach strikes some people as a skyline and others as a barrier. It is what makes oceanfront here attainable, and no version of this island exists without it.
+**Compact scale.** The island is small. Some find that easy and familiar; others find it confining.
 
-**The transience.** Heavy seasonal ownership means a community that partly empties and refills. Some residents like the rhythm; others find it unsettled.
+**A working inlet and port.** The Lake Worth Inlet at the island's south end serves the Port of Palm Beach, so cargo ships, tugs and sportfishing boats share the water. Some people find that a spectacle; others would rather not see industry from the balcony.
 
-**The scale.** You can drive the island end to end in a few minutes. That is either reassuringly simple or claustrophobic, and most people know which within a week.
+![Sailboats at anchor under a darkening sky, with the Port of Palm Beach cranes on the far shore and rocks in the foreground](/images/singer-island/inlet-anchorage-port-view.webp "Boats at anchor near the Lake Worth Inlet, with the Port of Palm Beach across the water. || Photo by John Oliver"){1400x1050}
 
-**The proximity to a working port.** Ships in the channel are a spectacle to some and an industrial intrusion to others.
+**Taxes in context.** Florida [does not impose a personal income tax](https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466). That doesn't offset property taxes, insurance or association costs, and it isn't personal tax advice; ask a tax professional how it applies to you.
 
-**Storage is tight.** Units rarely come with a garage or a shed, and beach and boating gear takes up more room than people expect. Ask what storage conveys before you buy, because retrofitting it is rarely possible.
+## How to decide before you buy
 
-## Weighing it up
+- [ ] Spend meaningful time near the actual building or home, at the times of day that matter to you.
+- [ ] Review the documents with qualified professionals.
+- [ ] Price insurance using the exact property and association information.
+- [ ] Test the routes you will actually use: the commute, the airport run, medical trips and errands.
+- [ ] Look up the exact address in [Palm Beach County's Know Your Zone](https://discover.pbc.gov/oem/pages/know-your-zone.aspx) and [FEMA's flood maps](https://msc.fema.gov/portal/home).
+- [ ] Rent first only where the building's actual rental rules allow it.
 
-The structure is unusually clean: **everything on the drawback list is the price of the single item at the top of the advantage list.**
-
-You cannot have attainable direct oceanfront without density, and density means condominiums. Condominiums mean boards, fees, shared decisions and assessments. Barrier islands mean bridges and evacuations. There is no version of this island that keeps the ocean and drops the rest.
-
-So the decision reduces to one question, honestly answered:
-
-**Is living directly on the Atlantic worth reorganizing your financial and domestic life around?**
-
-For people who've wanted it for years, the answer is usually obvious within a week of moving in, and the drawbacks become administrative background.
-
-For people who liked the idea and hadn't examined it, the fees and the bridge and the board meetings gradually become the whole experience, and they sell within a few years.
-
-The good news is that this is knowable in advance. Rent for a month, read three years of association financials, and visit in August. Anyone who does those three things and still wants it will be happy here — and our [profile-by-profile breakdown](/blog/who-should-move-to-singer-island-florida) is the fastest way to check yourself against the honest version.`,
+If you've done all six and still want to wake up on the Atlantic, Singer Island will likely reward you. If the documents, costs or logistics already feel like a burden, that's worth listening to before you buy, not after. Our [honest fit guide](/blog/who-should-move-to-singer-island-florida) and [cost of living breakdown](/blog/cost-of-living-in-singer-island-florida) go further.`,
     faqs: [
-      { q: "What is the biggest advantage of living on Singer Island?", a: "Direct oceanfront at an attainable price. In a county where the estate islands run to extraordinary numbers, this is the accessible way to actually live on the Atlantic rather than near it. That single fact is why residents accept everything else on the drawback list." },
-      { q: "What is the biggest risk of buying on Singer Island?", a: "Special assessments. Salt air and concrete high-rises mean major structural work on a cycle, and Florida's milestone inspection and reserve requirements have accelerated recognition of long-underfunded work, producing sharp fee rises and large assessments statewide. It is entirely researchable in advance, which is why the association's financials are the real purchase." },
-      { q: "How often do Singer Island residents have to evacuate?", a: "More often than mainland residents, because barrier island property sits in the first zones called — sometimes for storms that ultimately do little. Anyone with mobility constraints, pets or complex logistics should think this through properly rather than assuming it will be manageable." },
-      { q: "Do turtle nesting rules affect Singer Island property?", a: "Yes, for beachfront and near-beach property. Lighting ordinances during nesting season are enforced, and retrofitting non-compliant lighting is a genuine expense that buyers rarely price in. Ask specifically what applies to the building or address you are considering." },
-      { q: "Is Singer Island quiet in the summer?", a: "Very. Buildings with heavy seasonal ownership empty out from roughly May to October. Some residents find that peaceful and others find it eerie, particularly in a tower where half the units are dark. It is one of the main reasons to visit in August before buying." },
-      { q: "Should I buy on Singer Island?", a: "It reduces to one question: is living directly on the Atlantic worth reorganizing your financial and domestic life around? For people who have wanted that for years, the answer becomes obvious within a week. For people who liked the idea without examining it, the fees, bridges and board meetings gradually become the whole experience." },
+      { q: "What are the main advantages of living on Singer Island?", a: "The beach and the water as part of daily life, water recreation close at hand, a compact setting, and shared amenities where a building has them. How close the ocean is, and what you see, depends on the building, the floor, the exposure and the home type." },
+      { q: "What are the main drawbacks of living on Singer Island?", a: "Shared governance in a condominium, monthly costs that can change, layered insurance, salt-air upkeep, and daily logistics that mean driving and crossing a bridge. Noise, parking and storage vary by building and unit, so investigate them rather than assume." },
+      { q: "How does insurance work for a Singer Island condo?", a: "In a condominium, the association's master policy covers the building and common areas, and your own unit-owner (HO-6) policy covers what the master policy doesn't. Ask for the master-policy declarations and deductibles, and ask your agent about HO-6 and loss-assessment coverage. Where the boundary sits is set by the association's documents and policies, so confirm it for the exact unit." },
+      { q: "What should I ask a Singer Island condo association before making an offer?", a: "The current budget, fee history, reserve and structural integrity reserve study information where applicable, and recent financial statements; approved, pending and anticipated special assessments; milestone or structural inspection reports and repair status where applicable; master-policy declarations and deductibles; and the rental, pet, occupancy, parking, storage, renovation and board-approval rules. This is practical education, not legal, insurance, tax or engineering advice." },
+      { q: "How do I check hurricane evacuation and flood risk for a Singer Island address?", a: "Evacuation zones and flood exposure depend on the exact address, so look them up rather than relying on the island's name: use Palm Beach County's Know Your Zone lookup and FEMA's Flood Map Service Center." },
+      { q: "Do sea turtle lighting rules affect Singer Island property?", a: "They can. Lighting that is visible from the beach can matter during sea turtle nesting season; requirements depend on the property, the association, the municipality and state guidance, so verify them for the exact home or building." },
+      { q: "Does Florida have a state income tax?", a: "Florida does not impose a personal income tax. That doesn't offset property taxes, insurance or association costs, and it isn't personal tax advice; ask a tax professional how it applies to you." },
     ],
     internalLinks: ["who-should-move-to-singer-island-florida", "cost-of-living-in-singer-island-florida", "local-guide-to-singer-island-florida"],
-    funFact: "HOA fees on direct-oceanfront towers on Singer Island can run $1,500–$3,000+ per month in some buildings — which often surprises buyers focused only on the purchase price. Always model the true monthly cost including HOA, insurance, and taxes before falling in love with an oceanfront address.",
+    funFact: "Before you fall for an oceanfront view, model the real monthly cost: the association's current budget and fee, insurance quotes for the exact unit, property taxes, reserve contributions and any disclosed assessments. The purchase price is only one line of it.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'cost-of-living-in-singer-island-florida',
