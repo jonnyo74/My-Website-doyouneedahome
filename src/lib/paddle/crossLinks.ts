@@ -31,6 +31,8 @@ export const PADDLE_COMMUNITY_LINKS: Record<string, PaddleCommunityLinks> = {
   'palm-beach-gardens': { launches: true, communities: true, townMatch: 'Palm Beach Gardens' },
   'north-palm-beach': { launches: true, communities: true, townMatch: 'North Palm Beach' },
   'juno-beach': { launches: true, communities: true, townMatch: 'Juno Beach' },
+  // The Riverwalk runs along its marina; JYC's own row sits in the Jupiter table.
+  'jupiter-yacht-club': { launches: true, communities: true, townMatch: 'Jupiter' },
   // The Wild & Scenic run and Trapper Nelson launch from here. No communities.
   'hobe-sound': { launches: true, communities: false },
 }
