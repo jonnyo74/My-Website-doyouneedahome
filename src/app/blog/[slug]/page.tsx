@@ -430,9 +430,10 @@ export default async function ArticlePage({ params }: Props) {
               city={trends.city}
               heading={`${trends.city} Market Trends`}
               caption={
-                trends.substituted
+                article.marketTrendsCaption ??
+                (trends.substituted
                   ? `Live MLS data for ${trends.city} — the closest market with full single-family coverage. ${article.cityName} is not reported separately.`
-                  : 'Live data from the local MLS.'
+                  : 'Live data from the local MLS.')
               }
             />
           </div>

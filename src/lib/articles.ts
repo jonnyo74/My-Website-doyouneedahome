@@ -221,6 +221,7 @@ export interface Article {
   faqs: Faq[]
   internalLinks?: string[]    // related article slugs
   showMarketTrends?: boolean  // render the Ylopo market-trends widget (cost/market articles)
+  marketTrendsCaption?: string // replaces the market-trends widget's default caption, e.g. to say what the data covers
   funFact?: string            // local expert insight shown with author headshot
   author?: 'john' | 'christine'
   published: boolean
@@ -16711,127 +16712,151 @@ Whatever you choose, verify flood zone, elevation, municipality, evacuation zone
     cityName: 'Singer Island',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do on Singer Island, Florida",
-    metaTitle: "Best Things to Do on Singer Island, Florida",
-    metaDescription: "From MacArthur Beach State Park and Peanut Island to the Blue Heron Bridge dive site — a local guide to the best things to do on Singer Island, Florida.",
+    seoTitle: "Best Things to Do on Singer Island, FL | Local Guide",
+    metaTitle: "Best Things to Do on Singer Island, FL | Local Guide",
+    metaDescription: "Discover Singer Island activities: Blue Heron Bridge snorkeling, public beaches, MacArthur Beach State Park, Peanut Island, paddling, and waterfront views.",
     primaryKeyword: "things to do on Singer Island Florida",
-    secondaryKeywords: ["Singer Island attractions", "what to do on Singer Island", "MacArthur Beach State Park", "Peanut Island"],
+    secondaryKeywords: ["Singer Island attractions", "what to do on Singer Island", "Blue Heron Bridge snorkeling", "MacArthur Beach State Park", "Peanut Island"],
     h1: "Best Things to Do on Singer Island, Florida",
-    heroImage: '/images/singer-island/inlet-sailboat-hero.webp',
-    heroImageAlt: "A sailboat heading through the Lake Worth Inlet at sunset, seen over the rocks at the south tip of Singer Island",
+    heroImage: '/images/singer-island/sailfish-marina-docks-hero.webp',
+    heroImageAlt: "Sportfishing boats and sailboats in their slips at Sailfish Marina in Palm Beach Shores, with a Sailfish Marina Resort chair on the dock in the foreground",
+    heroImageCaption: "Sailfish Marina in Palm Beach Shores, at the south end of Singer Island",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
-    heroImagePosition: '55% 50%',
-    body: `Singer Island's recreation is almost entirely aquatic, and one item on the list is genuinely world-class rather than merely good. For a barrier island a few miles long, the concentration is remarkable.
+    heroImagePosition: '70% 50%',
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Singer Island · Things to Do',
+      deck: "Snorkeling at the Blue Heron Bridge, public beaches, MacArthur Beach State Park, Peanut Island and the south-end waterfront, with where to check conditions before you go.",
+      mobileImage: { src: '/images/singer-island/sailfish-marina-docks-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Read the local guide', href: '/blog/local-guide-to-singer-island-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Most of what there is to do on Singer Island happens in or beside the water. This guide covers what each option involves, how to reach it, and which official page to check for current hours, notices and conditions.
 
-## Dive or snorkel the Blue Heron Bridge
+## Before you go
 
-This is the headline, and it isn't local exaggeration: the shore dive under the bridge at Phil Foster Park is regularly named among the best in the world.
+Conditions, hours and access change. These are the pages to check on the day:
 
-What makes it exceptional is the marine life density in very shallow, very accessible water. Seahorses, octopus, batfish, frogfish, rays, juvenile everything — the sort of creatures divers normally travel a long way and go deep for, in about fifteen feet of water you can walk into from a beach.
+- **Phil Foster Park and the snorkel trail:** [Palm Beach County: Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [snorkel trail guide (PDF)](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf).
+- **Beach conditions and water safety:** [Palm Beach County: About our beaches](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx).
+- **Ocean Reef Park:** [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx).
+- **MacArthur Beach State Park notices, hours and fees:** [Florida State Parks: John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park).
+- **Peanut Island notices and directions:** [Palm Beach County: Peanut Island](https://discover.pbc.gov/parks/Pages/PeanutIsland.aspx) and [how to get there](https://discover.pbc.gov/parks/PeanutIsland/Directions.aspx).
+- **Tropical weather, June through November:** [NOAA National Hurricane Center](https://www.nhc.noaa.gov/).
 
-**The critical detail is timing.** The site is only worth doing around high slack tide, when the incoming water is clear and the current has stopped. Outside that window visibility collapses and the current is genuinely dangerous. Check the tide tables, arrive early, and plan your dive around the water rather than your schedule.
+## Choose your kind of day
 
-There's a snorkel trail as well, so you don't need certification to see a good deal of it. If you do one thing after moving here, make it this.
+- **Water activity:** snorkeling or diving at Phil Foster Park, paddling, or an offshore charter.
+- **Beach and nature:** Ocean Reef Park, or the beach, estuary and trails at MacArthur Beach State Park.
+- **Boat-access outing:** Peanut Island, by private boat or an independent water taxi.
+- **Waterfront evening:** Palm Beach Shores, the marina and the inlet at the island's south end.
+
+Which one suits a given day depends on the weather, the water and what you're comfortable doing.
+
+## Snorkeling and diving at the Blue Heron Bridge
+
+Phil Foster Park is a Palm Beach County park directly beneath the Blue Heron Bridge, on the road between the mainland and the island. Phil Foster Park's Blue Heron Bridge area is internationally recognized by divers, underwater photographers, and snorkelers for its concentration of marine life. The county's marked snorkel trail spans roughly two acres in 6 to 10 feet of water.
+
+![Looking east from the Blue Heron Bridge over Phil Foster Park's seawall and the Lake Worth Lagoon to the high-rises of Singer Island](/images/singer-island/blue-heron-bridge-phil-foster-mobile.webp "Phil Foster Park, beneath the Blue Heron Bridge, with Singer Island beyond. || Photo by John Oliver"){1200x800}
+
+**Snorkeling** is how most visitors see it. It doesn't require certification, but it isn't suited to everyone: you'll be in open water that can have current, reduced visibility and boats nearby, so it suits confident swimmers who are comfortable with a mask and fins. The county's [snorkel trail guide](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf) shows the layout.
+
+**Diving** under the bridge is a separate activity, for certified divers planning within their own training and experience.
+
+> **Safety:** Conditions change with tide, wind, weather, visibility, boat traffic, and individual ability. Check current conditions, use the county's [safety guidance](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx), and do not enter the water beyond your training or comfort level.
 
 ## The beaches
 
-Wide Atlantic beach runs most of the island's length, and it's better than the tower skyline would lead you to expect.
+Singer Island has a long Atlantic beach. How you get onto it depends on where you're starting from.
 
-Public access is concentrated at a municipal beach and at the state park, with a good deal of the remaining frontage private to buildings. Residents of oceanfront condos generally have direct access, which is one of the practical advantages of living here.
+Oceanfront residents may have building-specific access, so if you live in a beachfront building, ask the association how it works. Everyone can use the public access points, including:
 
-The sand is broad, the water is clear on calm days, and outside season the beach is genuinely quiet on weekday mornings.
+- **Ocean Reef Park**, a Palm Beach County park in Riviera Beach with a guarded swimming area. [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx)
+- **Riviera Beach's municipal beach**, beside the Ocean Walk shops and restaurants. [Riviera Beach CRA: Ocean Walk](https://rbcra.com/ocean-walk/)
+- **John D. MacArthur Beach State Park**, at the island's north end.
+
+![A wide, empty Atlantic beach at dawn on Singer Island, with condominium towers set back from the sand](/images/singer-island/ocean-beach-tower-corridor.webp "The Atlantic beach at dawn, with the island's condominium towers behind it. || Photo by John Oliver"){1400x1050}
+
+Public access, parking, lifeguard coverage and conditions vary by location and can change. Use marked public access points, follow posted flags and current beach conditions, and don't rely on being able to walk continuously along the shoreline from one access point to another.
 
 ## John D. MacArthur Beach State Park
 
-The north end's natural anchor and one of the better state parks on this coast.
+The state park at the island's north end has an Atlantic beach, an estuary on the lagoon side, a nature center and trails. The estuary gives paddlers kayak and paddleboard access, and snorkeling off the beach is possible when conditions permit.
 
-A long boardwalk crosses the estuary to the beach — worth doing slowly rather than treating as a corridor, since the shallow water beneath holds rays, fish and wading birds. On the ocean side, rock outcrops offer genuinely good snorkelling when conditions allow. There's a nature center, kayak access to the lagoon, and a beach that stays uncrowded because parking is finite.
-
-It's also an active sea turtle nesting site, and the park runs turtle walks in season.
+Programs, facilities, hours and fees change, so check [the park's page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) for current notices, weather and programs before you go.
 
 ## Peanut Island
 
-A short boat ride from the south end, and one of the more unusual destinations in the county.
+Peanut Island is a Palm Beach County park in the lagoon near the Lake Worth Inlet, off the island's south end. It was built up from dredged material and now has a beach, a snorkeling lagoon and a campground; camping requires a reservation.
 
-The island is man-made — built from material dredged when the inlet was cut — and it now holds a calm snorkelling lagoon, beaches, a campground, and a Cold War-era bunker built as a presidential shelter, which can be toured.
+The Kennedy Bunker, a Cold War-era shelter built for President Kennedy, is currently closed until further notice.
 
-Getting there means a boat or the shuttle service that runs from the mainland. It's a genuine day out and it's the thing visitors most consistently enjoy.
+Access is by private boat or by independent water-taxi services, which aren't part of the county park system. Water conditions in the lagoon change with the tide, wind and weather like anywhere else. Check water-taxi schedules, park notices and conditions before you travel: [Palm Beach County: Peanut Island](https://discover.pbc.gov/parks/Pages/PeanutIsland.aspx) · [How to get there](https://discover.pbc.gov/parks/PeanutIsland/Directions.aspx)
 
-## Boating and fishing
+## Boating, fishing and port traffic
 
-The **Lake Worth Inlet** at the island's southern tip is one of the best inlets on this coast — deep, well-maintained and used by commercial shipping, which means it's kept navigable.
+Lake Worth Inlet and the nearby Port of Palm Beach make boating and working-waterfront activity visible parts of life at the island's south end. Conditions, channel information, weather, fishing, charter availability, and marina programming change, so boaters and visitors should verify current details directly with the relevant operator or authority.
 
-For anglers, that translates into fast access to the Gulf Stream, which runs close inshore here. Offshore fishing is genuinely good and the running time is short.
+![A paved waterfront path lined with palms and low-rise buildings in Palm Beach Shores, with open water to the right](/images/singer-island/palm-beach-shores-inlet-path.webp "A waterfront path past low-rise homes in Palm Beach Shores, at the island's south end. || Photo by John Oliver"){1400x1050}
 
-Options without your own boat: charters out of the marina at the south end, drift fishing trips, and dive boats running to the offshore reefs.
+Without your own boat, fishing and dive charters operate from marinas in the area. Anyone fishing should check Florida's [saltwater fishing regulations](https://myfwc.com/fishing/saltwater/recreational/), and boaters its [boating regulations](https://myfwc.com/boating/regulations/).
 
-## The Sailfish Marina
+From the south end you can also watch the inlet itself: sportfishing boats and sailboats share the channel with commercial vessels using the port. Traffic varies with the port's schedule; the [Port of Palm Beach](https://www.portofpalmbeach.com/121/General-Information) publishes general information about its operations.
 
-At the south end in Palm Beach Shores, and an institution rather than merely a marina.
+## Sailfish Marina
 
-There's a charter fleet, a dock you can walk, and a long-running ritual of feeding the fish that gather beneath it — free, oddly compelling, and best at sunset. It's the closest thing the island has to a gathering place, and it's covered further in our [guide to eating and drinking here](/blog/best-places-to-eat-drink-hang-out-in-singer-island-florida).
+Sailfish Marina is a Palm Beach Shores waterfront landmark with dining, a marina and charter activity. For current hours, charters and events, check with the marina directly. It's also covered in our [guide to eating and drinking here](/blog/best-places-to-eat-drink-hang-out-in-singer-island-florida).
 
 ## Paddling
 
-The lagoon at the state park is the standout: sheltered, shallow, and full of wildlife, with manatees regularly present in the cooler months.
+The estuary at MacArthur Beach State Park is sheltered water for kayaks and paddleboards, and manatees can sometimes be seen in the area.
 
-The Intracoastal side of the island offers more open paddling, best early before boat traffic builds.
+The Intracoastal side of the island is more open water shared with boats, so wind, current and wakes matter more. Check the forecast, wear a life jacket, and stay visible to boat traffic.
 
 ## Off the island
 
-Fifteen minutes gets you a great deal:
+The bridges put several nearby destinations within reach by car:
 
-- **West Palm Beach** for the downtown, the arts complex and the airport.
-- **Palm Beach** for Worth Avenue and the historic estates.
-- **Palm Beach Gardens** for the main retail concentration.
-- **Riviera Beach's marina district** on the mainland side, which has seen substantial public investment and hosts events and waterfront dining.
-
-## Walking the island
-
-Underrated, and the simplest thing on this list.
-
-The beach runs most of the island's length and is walkable end to end at low tide, which takes a couple of hours each way and passes almost every kind of frontage here — towers, the state park's undeveloped stretch, and the low-rise southern town.
-
-It's the fastest way to understand the island's geography, and residents who do it once early tend to make better decisions about where they want to be.
+- **West Palm Beach** for its downtown, arts venues and the airport.
+- **Palm Beach** for Worth Avenue and its historic estates.
+- **Palm Beach Gardens** for major shopping.
+- **Riviera Beach's Marina District** on the mainland side, with waterfront dining and events.
 
 ## Seasonal timing
 
-**Winter into spring** brings the best air temperatures and the biggest crowds, with more wind limiting offshore and dive days.
+**Winter into spring** usually brings cooler, drier weather and more visitors. Wind can limit offshore and in-water days.
 
-**Summer** is hot and stormy by afternoon but generally offers the calmest water and the best underwater visibility of the year. Mornings are the window.
+**Summer** is hot and humid, with afternoon storms common. Water conditions vary day to day, so check before you go in; mornings are often the more comfortable time to be outside.
 
-**Turtle nesting season** runs roughly March through October, which brings lighting restrictions for beachfront property and an obligation to leave nests alone.
+**Sea turtle nesting season** runs March 1 through October 31 on Palm Beach County beaches. Don't disturb nests or hatchlings, follow beach lighting rules (the Florida Fish and Wildlife Conservation Commission publishes [sea turtle lighting guidelines](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/lighting/)), and check current park and agency guidance.
 
-**Hurricane season** runs June through November and matters more on a barrier island than almost anywhere else.
-
-## Watching the port traffic
-
-An unusual thing to have on your doorstep, and genuinely worth an evening.
-
-The inlet at the southern end serves a working commercial port, so alongside the sport fishing boats and sailboats you get cargo ships, fuel barges and the occasional cruise vessel moving through a channel narrow enough to see the crew on deck.
-
-The scale is startling up close, and the contrast — a container ship passing a paddleboarder — is the sort of thing you only get where a working waterway runs through a residential island. Free, frequent, and better than it sounds.
+**Hurricane season** runs June through November. For residents and longer-stay visitors, it's a preparation consideration: know your [evacuation zone](https://discover.pbc.gov/oem/pages/know-your-zone.aspx) and follow official guidance if a storm threatens.
 
 ## Where to start
 
-Dive or snorkel the bridge on a high slack tide, then spend a morning at the state park, then get out to Peanut Island.
+If you're new to the island, start with the snorkel trail at Phil Foster Park on a day when conditions and your comfort level allow, then spend a morning at MacArthur Beach State Park, then plan a Peanut Island trip once you've checked access and conditions.
 
-Those three are what this island is genuinely for. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida) are where it starts to feel like home.`,
+After that, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida) are where it starts to feel like home, and our [local guide](/blog/local-guide-to-singer-island-florida) covers the practical side of island life.`,
     faqs: [
-      { q: "What is the Blue Heron Bridge dive site?", a: "A shore dive at Phil Foster Park regularly named among the best in the world, thanks to remarkable marine life density in about fifteen feet of very accessible water — seahorses, octopus, frogfish, rays and juvenile everything. There is a snorkel trail too, so certification is not required to see much of it." },
-      { q: "When should I dive the Blue Heron Bridge?", a: "Only around high slack tide, when incoming water is clear and the current has stopped. Outside that window visibility collapses and the current becomes genuinely dangerous. Check tide tables, arrive early, and plan the dive around the water rather than around your schedule." },
-      { q: "What is Peanut Island?", a: "A man-made island off the southern tip, built from material dredged when the inlet was cut. It now has a calm snorkelling lagoon, beaches, a campground and a Cold War-era bunker built as a presidential shelter that can be toured. You reach it by boat or by the shuttle from the mainland." },
-      { q: "Is the fishing good at Singer Island?", a: "Yes. The Lake Worth Inlet at the southern tip is deep and well-maintained because commercial shipping uses it, so it stays navigable, and the Gulf Stream runs close inshore. That means short running times to genuinely good offshore fishing. Charters and drift trips run from the marina if you do not have a boat." },
-      { q: "What is there to do at John D. MacArthur Beach State Park?", a: "A long boardwalk over the estuary with rays, fish and wading birds beneath it, rock outcrops offering good snorkelling when conditions allow, a nature center, kayak access to the lagoon, and an uncrowded beach. It is an active sea turtle nesting site and runs turtle walks in season." },
-      { q: "What should I do first after moving to Singer Island?", a: "Dive or snorkel the Blue Heron Bridge on a high slack tide, spend a morning at the state park, and get out to Peanut Island. Those three cover what the island is genuinely for, and none of them requires knowing anyone locally first." },
+      { q: "What is the Blue Heron Bridge snorkel and dive site?", a: "Phil Foster Park, a Palm Beach County park directly beneath the Blue Heron Bridge. Phil Foster Park's Blue Heron Bridge area is internationally recognized by divers, underwater photographers, and snorkelers for its concentration of marine life. The county's marked snorkel trail spans roughly two acres in 6 to 10 feet of water. Snorkeling doesn't require certification, but it isn't suited to everyone; diving is a separate activity, for certified divers planning within their own training and experience." },
+      { q: "How do I decide when to snorkel or dive at the Blue Heron Bridge?", a: "Conditions change with tide, wind, weather, visibility, boat traffic, and individual ability. Check current conditions, use the county's safety guidance, and do not enter the water beyond your training or comfort level." },
+      { q: "Where are the public beaches on Singer Island?", a: "Public access points include Ocean Reef Park, a Palm Beach County park in Riviera Beach with a guarded swimming area; Riviera Beach's municipal beach, beside the Ocean Walk shops and restaurants; and John D. MacArthur Beach State Park, at the island's north end. Oceanfront residents may have building-specific access. Public access, parking, lifeguard coverage and conditions vary by location and can change, so use marked public access points and follow posted flags and current beach conditions." },
+      { q: "What is there to do at John D. MacArthur Beach State Park?", a: "The park has an Atlantic beach, an estuary on the lagoon side, a nature center and trails. The estuary gives paddlers kayak and paddleboard access, and snorkeling off the beach is possible when conditions permit. Programs, facilities, hours and fees change, so check the park's page for current notices, weather and programs before you go." },
+      { q: "How do you get to Peanut Island, and can you visit the Kennedy Bunker?", a: "Access is by private boat or by independent water-taxi services, which aren't part of the county park system. The island has a beach, a snorkeling lagoon and a campground; camping requires a reservation. The Kennedy Bunker is currently closed until further notice. Check water-taxi schedules, park notices and conditions before you travel." },
+      { q: "What boating and fishing is there near Singer Island?", a: "Lake Worth Inlet and the nearby Port of Palm Beach make boating and working-waterfront activity visible parts of life at the island's south end, and fishing and dive charters operate from marinas in the area. Conditions, channel information, weather, fishing, charter availability, and marina programming change, so verify current details directly with the relevant operator or authority." },
+      { q: "What should I do first on Singer Island?", a: "Start with the snorkel trail at Phil Foster Park on a day when conditions and your comfort level allow, then spend a morning at MacArthur Beach State Park, then plan a Peanut Island trip once you've checked access and conditions." },
     ],
     internalLinks: ["hidden-gems-in-singer-island-florida", "best-places-to-eat-drink-hang-out-in-singer-island-florida", "local-guide-to-singer-island-florida"],
-    funFact: "The Blue Heron Bridge is consistently ranked in the top 10 shore-dive sites in the world — not Florida, the world. The secret is the tidal flow: dive it during slack tide around a full or new moon and the visibility is extraordinary. Most people driving past have no idea what's a few feet below them.",
+    funFact: "Plenty of people drive over the Blue Heron Bridge every day without knowing there's a county snorkel trail in the shallow water beside Phil Foster Park, just below the bridge. Before you go in, check conditions and the county's safety guidance, and go with a buddy.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'who-should-move-to-singer-island-florida',
