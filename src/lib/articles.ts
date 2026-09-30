@@ -27354,6 +27354,266 @@ Hours, menus, and ownership change — check directly before you go.`,
     published: true,
     updated: '2026-06-01',
   },
+  {
+    slug: 'harbourside-place-jupiter-florida',
+    citySlug: 'jupiter',
+    cityName: 'Jupiter',
+    type: "Local Spotlight",
+    order: 11,
+    seoTitle: "Harbourside Place Jupiter: Dining, Events, Parking & Docking",
+    metaTitle: "Harbourside Place Jupiter, FL | A Local's Guide",
+    metaDescription: "A local's guide to Harbourside Place in Jupiter: the restaurants, the amphitheater and Sunday markets, how the parking and public day docks work, the 2026 sale, and what it means to live nearby.",
+    primaryKeyword: "Harbourside Place Jupiter",
+    secondaryKeywords: ["Harborside Place Jupiter", "Harbourside Place restaurants", "Harbourside Place parking", "Harbourside Place events", "Harbourside Place docking", "Wyndham Grand Jupiter"],
+    h1: "Harbourside Place: Jupiter's Walkable Waterfront",
+    heroImage: '/images/jupiter/IMG_6957.webp',
+    heroImageAlt: 'The Woods Jupiter restaurant at Harbourside Place, a cream building with arched arcades, palms and a landscaped bed in front',
+    heroImageWidth: 2400,
+    heroImageHeight: 1800,
+    heroImageCredit: 'Photo by John Oliver',
+    body: `Jupiter is a driving town. You drive to the beach, to the grocery store, to dinner. **Harbourside Place** is the one spot where that changes: you park once, and the restaurants, the water, the amphitheater and the Riverwalk are all a short walk from each other.
+
+It sits on the **northwest corner of Indiantown Road and US-1**, right on the Intracoastal. Here is what it is, how the parking and docking actually work, what changed in 2026, and what it means if you are thinking about living close by.
+
+## What Harbourside Place is
+
+Harbourside Place is a waterfront mixed-use district of more than 750,000 square feet at 200 N US Highway One. It opened in October 2014 with restaurants, shops, offices, a marina, an outdoor amphitheater at its north end, and the **Wyndham Grand Jupiter at Harbourside Place**, a 179-room hotel with a rooftop pool.
+
+It was developed by Nicholas Mastroianni II, and the roughly $150 million project was financed in part by about $99.5 million from 199 foreign investors through the federal EB-5 visa program. His company, Summit Ventures, still owns and runs most of it.
+
+![A hand-painted mural map of Jupiter showing the Loxahatchee River, the lighthouse, the inlet, the beaches and Harbourside Place](/images/jupiter/IMG_6961.webp "A hand-painted map of Jupiter, with Harbourside Place marked beside Indiantown Road and US-1. || Photo by John Oliver"){2400x1800}
+
+People spell it both ways. The official name is **Harbourside**, with the British "u", though you will see "Harborside" on signs, menus and maps all over town.
+
+## Where to eat
+
+Dining is the main reason people go. The official directory, as of September 2026, lists:
+
+- **The Woods Jupiter**, Tiger Woods' restaurant and bar
+- **Ruth's Chris Steak House**
+- **Tommy Bahama Restaurant & Bar**
+- **Calaveras Cantina**, Mexican
+- **Mana Greek Fusion**
+- **The Jupiter Grill**
+- **Pura Vida**, for a lighter lunch
+- **Subculture Coffee** and **Gelato & Co.** for the walk afterward
+
+![Pura Vida at Harbourside Place, with a striped awning and patio tables, and The Jupiter Grill behind it across the brick plaza](/images/jupiter/IMG_6958.webp "Pura Vida in front, The Jupiter Grill behind, and patio seating along the brick plaza. || Photo by John Oliver"){2400x1800}
+
+![Calaveras Cantina at Harbourside Place, a corner restaurant with a black awning advertising margaritas, tacos and craft cocktails](/images/jupiter/IMG_6960.webp "Calaveras Cantina, on a corner of the district. || Photo by John Oliver"){2400x1800}
+
+A short walk south along the Riverwalk, under the Indiantown Road bridge, **Dive Bar Restaurant** sits on the water at the Jupiter Yacht Club marina.
+
+Restaurants turn over, and several names that used to be here are gone. Check the directory or call before you make a special trip. For the rest of the town's dining, from the inlet to Abacoa, see our [guide to eating, drinking and hanging out in Jupiter](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida).
+
+## Events: the amphitheater, the markets and the holidays
+
+The **amphitheater** at the north end hosts live music, yoga and seasonal events. The schedule changes through the year, so the center's own events page is the place to check.
+
+![The Harbourside Place amphitheater stage under its teal canopy, with a lawn and blue Adirondack chairs in front and palms behind](/images/jupiter/IMG_6959.webp "The amphitheater at the north end, with the lawn and chairs out front. || Photo by John Oliver"){2400x1800}
+
+Sunday mornings cause the most confusion, because there are two markets:
+
+- **The Jupiter Green & Artisan Market** runs **Sundays from 10 a.m. to 2 p.m., year-round, rain or shine**. It is not inside Harbourside. It sets up at the Town's **Plaza Down Under**, under the Indiantown Road bridge, just south.
+- **The Market at Harbourside Place** is a separate Sunday waterfront market inside the district. It has run seasonally with changing hours, so check before you go.
+
+Since they are a two-minute walk apart, most people just do both.
+
+A few dates worth knowing:
+
+- **Jupiter HarbourFest** runs October 16–17, 2026. The Friday evening tasting is at Harbourside, and Saturday moves to the Plaza Down Under.
+- **The tree lighting and Santa's arrival** happen at Harbourside in late November. In 2025 it was the Saturday after Thanksgiving.
+- **The Palm Beach Holiday Boat Parade** comes up the Intracoastal in early December, and Harbourside and the Riverwalk are two of the best places in Jupiter to watch it.
+
+## Parking
+
+There are **two parking garages**. As of September 2026, the official rates are:
+
+- **The first two hours are free.**
+- The third hour costs $3.90, then $0.65 per 20 minutes.
+- There is a **$15 daily maximum**.
+
+Street parking inside the district is free when you can find it.
+
+On a Friday or Saturday night in season, or during an amphitheater event, the garages fill. Come early, or park at one of the Town's free Riverwalk lots and walk in.
+
+## Arriving by boat
+
+Harbourside has a **31-slip marina, and 10 of those slips are public**. Day docking runs from **8 a.m. to midnight**. It is one of the few places in Jupiter where you can tie up and walk straight into dinner. For current fees, time limits and availability, call the dockmaster at 561-602-2371 or check Dockwa before you head out.
+
+## What changed in 2026
+
+In February 2026, the Jupiter investment firm **Voloridge Investment Management bought part of Harbourside Place for $57.6 million**.
+
+- **What Voloridge bought:** the office, retail and restaurant buildings at 110 and 115 Front Street and 100 and 102 N Coastal Way, a parking garage, and vacant land. It announced plans for a new building focused on health and wellness.
+- **What stayed with Summit Ventures:** the hotel, the amphitheater and the remaining retail.
+- **Other announced plans:** a redesigned amphitheater, an expanded waterfront with better water access, and a major renovation of the hotel.
+
+No construction dates had been confirmed as of this writing. If you are buying nearby, it is worth following, both for what it adds and for the construction it will take to get there.
+
+## Living near Harbourside
+
+The closest homes are at **[Jupiter Yacht Club](/communities/jupiter-yacht-club)**, five mid-rise condominium buildings just south of the Indiantown Road bridge. The Riverwalk runs along their marina, and Harbourside is a short walk north. Very few addresses in northern Palm Beach County put a boat slip and a walk to dinner in the same place.
+
+The trade-off is the same thing that makes it appealing. Harbourside draws crowds on weekends and during events, the Riverwalk is public, and US-1 and Indiantown Road are two of Jupiter's busiest roads. If you are looking at a home nearby, visit on a Friday night and a Sunday morning, not only a quiet weekday afternoon.
+
+For the walk itself, where it starts, where to park and what is still being built, see our [guide to the Jupiter Riverwalk](/blog/jupiter-riverwalk-florida). For the bigger picture of the town, start with [what it's really like living in Jupiter](/blog/what-its-really-like-living-in-jupiter-florida).
+
+*This article is for general information. Restaurants, event schedules, parking rates and docking rules change, so confirm details with Harbourside Place and the businesses directly.*
+`,
+    faqs: [
+      { q: "Where is Harbourside Place in Jupiter?", a: "At 200 N US Highway One, on the northwest corner of Indiantown Road and US-1, on the Intracoastal Waterway. The Jupiter Riverwalk runs along its waterfront, and the Plaza Down Under and Jupiter Yacht Club are just south under the Indiantown Road bridge." },
+      { q: "Is parking free at Harbourside Place?", a: "The first two hours in the two garages are free. After that it was $3.90 for the third hour, then $0.65 per 20 minutes, with a $15 daily maximum, as of September 2026. Street parking in the district is free. Check the official parking page for current rates." },
+      { q: "Can you dock a boat at Harbourside Place?", a: "Yes. The marina has 31 slips, 10 of them public, with day docking from 8 a.m. to midnight. Call the dockmaster or check Dockwa for current fees, time limits and availability." },
+      { q: "What restaurants are at Harbourside Place?", a: "As of September 2026 the official directory lists The Woods Jupiter, Ruth's Chris Steak House, Tommy Bahama Restaurant & Bar, Calaveras Cantina, Mana Greek Fusion, The Jupiter Grill, Pura Vida, Subculture Coffee and Gelato & Co. Tenants change, so check the directory before a special trip." },
+      { q: "Is the Jupiter Green & Artisan Market at Harbourside Place?", a: "Not quite. It runs Sundays from 10 a.m. to 2 p.m. at the Town's Plaza Down Under, under the Indiantown Road bridge just south of Harbourside. Harbourside runs its own separate Sunday market, seasonally. The two are a short walk apart." },
+      { q: "Who owns Harbourside Place?", a: "Developer Nicholas Mastroianni II's company, Summit Ventures, owns most of it, including the hotel and amphitheater. In February 2026, Voloridge Investment Management bought several office, retail and restaurant buildings, a garage and vacant land there for $57.6 million." },
+      { q: "Is it Harbourside Place or Harborside Place?", a: "The official name is Harbourside Place, with a 'u'. 'Harborside' is a common spelling around town and means the same place." },
+    ],
+    internalLinks: ["jupiter-riverwalk-florida", "best-places-to-eat-drink-hang-out-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
+    funFact: "Harbourside Place was financed in part by 199 foreign investors, who put in about $99.5 million through the federal EB-5 program, which offers a path to a U.S. green card in exchange for investment that creates American jobs. A good chunk of Jupiter's favorite night out was paid for by people hoping to move here.",
+    author: 'john',
+    published: true,
+    publishedDate: '2026-09-30',
+    updated: '2026-09-30',
+  },
+  {
+    slug: 'jupiter-riverwalk-florida',
+    citySlug: 'jupiter',
+    cityName: 'Jupiter',
+    type: "Park Guide",
+    order: 12,
+    seoTitle: "The Jupiter Riverwalk: Where It Runs, Where to Park, Dogs, Bikes & Events",
+    metaTitle: "Jupiter Riverwalk Guide | Parking, Dogs, Bikes & Events",
+    metaDescription: "A local's guide to the Jupiter Riverwalk: where the path runs along the Intracoastal, free parking, dogs and bikes, paddling and fishing, the Plaza Down Under events, and what is still being built.",
+    primaryKeyword: "Jupiter Riverwalk",
+    secondaryKeywords: ["Jupiter Riverwalk parking", "Jupiter Riverwalk map", "Jupiter Riverwalk dogs", "Plaza Down Under Jupiter", "Jupiter Riverwalk restaurants", "Riverwalk Jupiter FL"],
+    h1: "The Jupiter Riverwalk: A Local's Guide",
+    heroImage: '/images/jupiter/IMG_6966.webp',
+    heroImageAlt: 'The Jupiter Riverwalk boardwalk running out over the Intracoastal Waterway, with green railings, mid-rise condominiums on the shore and a blue sky',
+    heroImageWidth: 2400,
+    heroImageHeight: 1800,
+    heroImageCredit: 'Photo by John Oliver',
+    body: `The **Jupiter Riverwalk** is the Town of Jupiter's public path along the Intracoastal. It is the best free thing in town: a waterfront walk past marinas, restaurants and the Indiantown Road bridge, with dinner at one end and a sunset on the water the whole way.
+
+Here is where it runs, where to park, what you can bring, what happens on it, and what is still being built.
+
+## What the Riverwalk is
+
+The Riverwalk is a Town-built public path along the **eastern shore of the Intracoastal Waterway**. When it is finished, the Town plans about **2.5 miles** of continuous public waterfront, from the **Jupiter Ridge Natural Area** in the south up to the **Jupiter Inlet**.
+
+![The Riverwalk boardwalk curving out over the Intracoastal on concrete piers, with mangroves and a mid-rise building on the shore](/images/jupiter/IMG_6969.webp "Part of the Riverwalk runs out over the water on piers, well clear of the shoreline. || Photo by John Oliver"){2400x1800}
+
+It has been built in phases, and it is not one unbroken path yet. Along the finished sections you get:
+
+- a wide path, up to 15 feet in places, shared by walkers and bikes
+- lighting and observation areas
+- public docks and fishing spots
+- public restrooms and parking
+
+The Town's [Riverwalk map](https://www.jupiter.fl.us/234/Riverwalk-Map-Points-of-Interest) shows the current route and points of interest.
+
+## The stretch most people walk
+
+The busiest section runs through the heart of it, around the **Indiantown Road bridge**:
+
+- **Jupiter Yacht Club.** Just south of the bridge, the path runs along the Jupiter Yacht Club marina, where the Town lists public day slips and public parking. **Dive Bar Restaurant** sits on the water here.
+- **The Plaza Down Under.** Under the east span of the Indiantown Road bridge is the Town's event plaza, formerly called the Riverwalk Events Plaza. It is shaded, breezy and home to the Sunday market.
+- **Harbourside Place.** North of the bridge, the path runs along the waterfront at Harbourside Place, with its restaurants, hotel, marina and amphitheater. Our [Harbourside Place guide](/blog/harbourside-place-jupiter-florida) covers it in detail.
+
+![A brick promenade with white railings along a marina basin, with a yacht in the foreground and Mediterranean-style condominium buildings behind](/images/jupiter/IMG_6962.webp "The brick promenade along the marina at Jupiter Yacht Club. || Photo by John Oliver"){2400x1800}
+
+From there, the Riverwalk continues north toward **Burt Reynolds Park**, the US-1 bridge and the inlet. Walking from the Yacht Club to Harbourside and back is an easy after-dinner loop.
+
+## Where to park
+
+The Town lists **free public parking** at several Riverwalk access points, including:
+
+- **Jupiter Yacht Club** (Riverwalk public spaces)
+- **The Plaza Down Under**, which does not open before 8:30 a.m.
+- **Jupiter Ridge Natural Area**, at the south end
+- **Jupiter Inlet Lighthouse & Museum** and the **DuBois Pioneer Home**, toward the inlet
+
+The Harbourside Place garages are another option: the first two hours are free.
+
+On weekend evenings in season and during events, the closest lots fill first. Park a little farther out and walk in.
+
+## Dogs, bikes and the rules
+
+- **Dogs are welcome on a leash.** Bring bags and clean up after them.
+- **Bikes are allowed on the path**, but some sections, including the crossing near the lagoon bridge, ask riders to walk their bikes. Follow the posted signs, and slow down around the restaurant stretch, where it gets crowded.
+- **Hours:** the path is lit along its finished sections, but individual parks and lots keep their own hours. Check the posted signs, especially at the Plaza Down Under lot.
+
+## Paddling, fishing and the water
+
+The Riverwalk has public docks and fishing spots along the way. Follow the posted rules and Florida fishing license requirements.
+
+**Burt Reynolds Park**, at the north end of this stretch, has boat ramps on its west side and a beach for launching kayaks and paddleboards on its east side.
+
+One correction worth making, because it comes up a lot: you will hear that Jupiter Yacht Club has its own kayak launch. It does not. The water access people mean is the Town's public Riverwalk, which runs through the property and is open to everyone. For every public launch in the area, see our [guide to kayak launches in Jupiter and Tequesta](/kayak-launches-jupiter-tequesta).
+
+## What happens on the Riverwalk
+
+The **Plaza Down Under** is the Town's event space. The main recurring and upcoming events:
+
+- **The Jupiter Green & Artisan Market** runs every **Sunday from 10 a.m. to 2 p.m., year-round, rain or shine**, with produce, food, plants and local makers. It is under the bridge, not inside Harbourside, though the two are a short walk apart.
+- **Jupiter HarbourFest** runs October 16–17, 2026, starting with a Friday tasting at Harbourside and moving to the Plaza Down Under on Saturday.
+- **Hay Jupiter**, a Town country-music festival, was held at the plaza in April 2026.
+- **The Palm Beach Holiday Boat Parade** comes up the Intracoastal in early December, and the Riverwalk is one of the best places in town to watch it.
+
+The Town posts its schedule on its [Events on the Riverwalk](https://www.jupiter.fl.us/230/Events-on-the-Riverwalk) page.
+
+## Where to eat along it
+
+The restaurants on the path itself are the **Harbourside Place** lineup (The Woods Jupiter, Ruth's Chris, Tommy Bahama and more) and **Dive Bar Restaurant** at the Jupiter Yacht Club marina.
+
+Some of Jupiter's best-known waterfront spots, like Guanabanas and the restaurants around the inlet, are close by but not on the Riverwalk. Our [Jupiter dining guide](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida) covers them.
+
+## What is still being built
+
+The Riverwalk is still being finished. Town budget documents program work on the remaining pieces, including:
+
+- a connector of about 650 feet over land and 550 feet over the water, with a kayak launch and shade structures, scheduled for construction in 2026
+- a "living shoreline" at the base of the Plaza Down Under
+- a gap near the Pelican Club, where the owner has granted the rights needed to complete the path
+- a Riverwalk connection built into the **Love Street** project near the inlet
+
+Timelines move, so treat these as plans, not promises. The Town's Riverwalk pages have the current status.
+
+## When to go
+
+- **Early morning** is the quietest. You get the water mostly to yourself, and in summer it is the only comfortable time for a long walk.
+- **Around sunset** is the busiest and the best: the light over the Intracoastal, the restaurants filling up, the boats heading in.
+- **From June through September**, bring water and plan for heat and afternoon storms. Much of the path has little shade.
+
+## Living on the Riverwalk
+
+![Two mid-rise condominium buildings in yellow and cream with terracotta roofs, seen across the water beyond a line of mangroves](/images/jupiter/IMG_6968.webp "Mid-rise condominiums across the water from the Riverwalk, behind a fringe of mangroves. || Photo by John Oliver"){2400x1800}
+
+For a few homes, the Riverwalk is part of the address. **[Jupiter Yacht Club](/communities/jupiter-yacht-club)** is five condominium buildings with a 79-slip marina, and the path runs right along the water there, with Harbourside a short walk north. It is the rare Jupiter address where a morning walk, a boat slip and dinner out all start at your door.
+
+The trade-off is that a public path means public activity: walkers, cyclists and event crowds, right below your windows. If you are considering a home along it, visit at the busiest times, not just the quiet ones.
+
+To see where the Riverwalk fits in the rest of town, start with [what it's really like living in Jupiter](/blog/what-its-really-like-living-in-jupiter-florida).
+
+*This article is for general information. The Riverwalk is still being completed, and parking, hours, event schedules and rules change. Confirm details with the Town of Jupiter before you plan around them.*
+`,
+    faqs: [
+      { q: "How long is the Jupiter Riverwalk?", a: "The Town of Jupiter plans about 2.5 miles of public waterfront when it is complete, along the eastern shore of the Intracoastal from the Jupiter Ridge Natural Area north to the Jupiter Inlet. It has been built in phases, and some connecting pieces are still being completed." },
+      { q: "Where do you park for the Jupiter Riverwalk?", a: "The Town lists free public parking at several access points, including Jupiter Yacht Club, the Plaza Down Under under the Indiantown Road bridge (not open before 8:30 a.m.), Jupiter Ridge Natural Area, and near the Jupiter Inlet Lighthouse & Museum. The Harbourside Place garages are free for the first two hours." },
+      { q: "Are dogs allowed on the Jupiter Riverwalk?", a: "Yes, on a leash, and owners must clean up after them." },
+      { q: "Can you ride a bike on the Jupiter Riverwalk?", a: "Yes, on most of it. Some sections ask cyclists to dismount and walk, so follow the posted signs, and slow down in the busy restaurant stretch around Harbourside Place." },
+      { q: "What is the Plaza Down Under in Jupiter?", a: "The Town's event plaza on the Riverwalk, under the east span of the Indiantown Road bridge. It was formerly called the Riverwalk Events Plaza. It hosts the Sunday Green & Artisan Market and Town events like Jupiter HarbourFest." },
+      { q: "What restaurants are on the Jupiter Riverwalk?", a: "The restaurants at Harbourside Place, including The Woods Jupiter, Ruth's Chris and Tommy Bahama, plus Dive Bar Restaurant at the Jupiter Yacht Club marina. Other well-known waterfront spots such as Guanabanas are nearby but not on the Riverwalk itself." },
+      { q: "Can you launch a kayak from the Jupiter Riverwalk?", a: "Burt Reynolds Park, at the north end of the central stretch, has a beach for launching kayaks and paddleboards plus boat ramps. The Town's plans for the remaining Riverwalk work also include a new kayak launch. Jupiter Yacht Club does not have a private launch; the water access there is the public Riverwalk." },
+    ],
+    internalLinks: ["harbourside-place-jupiter-florida", "best-things-to-do-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
+    funFact: "The Riverwalk's event space is named for exactly where it is: the Plaza Down Under sits beneath the east span of the Indiantown Road bridge. The bridge overhead keeps the Sunday market shaded and dry, which is how it gets away with running rain or shine, every week of the year.",
+    author: 'john',
+    published: true,
+    publishedDate: '2026-09-30',
+    updated: '2026-09-30',
+  },
 
   // ===================== PALM BEACH GARDENS =====================
   {

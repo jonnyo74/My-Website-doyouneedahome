@@ -713,7 +713,7 @@ export const paddleCommunities: PaddleCommunity[] = [
     quote:
       'All Slips at Jupiter Yacht Club Marina are individually owned with some available for sale or rent by the owners',
     detail:
-      '79 slips up to 65 feet, one mile from the Jupiter Inlet with no fixed bridge. A superb boating address.',
+      '79 slips up to 65 feet, about two miles from the Jupiter Inlet through two drawbridges and no fixed bridge. A superb boating address.',
     flag:
       'The paddleboard and kayak launching widely attributed to JYC is on the Town of Jupiter’s public Riverwalk, which runs through the property. It is public, not a community amenity, and not exclusive to residents. Correct this one out loud — it comes up constantly.',
     sources: [
