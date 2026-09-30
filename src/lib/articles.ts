@@ -125,6 +125,25 @@ export interface ArticleChecklistData {
   cta?: ArticleLink
 }
 
+export interface ComparisonMatrixData {
+  heading: string
+  intro?: string
+  // Card field labels, in display order. The last is highlighted.
+  labels: { priorities: string; questions: string; daily: string; singer: string }
+  rows: Array<{
+    name: string
+    // Short context line under the name, e.g. the municipality.
+    tag?: string
+    // Internal path to the place's community page, where one exists.
+    href?: string
+    priorities: string
+    questions: string
+    daily: string
+    singer: string
+  }>
+  note?: string
+}
+
 export interface ArticleEditorial {
   eyebrow: string
   deck: string                // shown in the hero, so the body must not repeat it
@@ -178,7 +197,14 @@ export interface ArticleEditorial {
     heading: string
     intro?: string
     items: Array<{ title: string; text: string }>
+    // Renders the module after the body's opening paragraphs rather than above
+    // them. Needs tocAfterIntro, which is what splits off the introduction.
+    afterIntro?: boolean
   }
+  // A qualitative comparison of several places, one card per place, shown
+  // between the contents and the body (it gets its own contents entry). Every
+  // field is a prompt or a neutral description: no prices, scores or rankings.
+  matrix?: ComparisonMatrixData
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: { kind: 'carrying-cost-worksheet'; beforeSection: string }
@@ -17469,145 +17495,223 @@ The island rewards the same things everywhere: checking conditions, knowing the 
     cityName: 'Singer Island',
     type: "City vs Nearby Cities",
     order: 9,
-    seoTitle: "Singer Island vs Nearby Cities: How to Choose",
-    metaTitle: "Singer Island vs Nearby Cities",
-    metaDescription: "Singer Island vs Jupiter, Juno Beach, Palm Beach, and West Palm Beach — an honest comparison to help you choose the right beach community for your move.",
+    seoTitle: "Singer Island vs. Nearby Communities | How to Choose",
+    metaTitle: "Singer Island vs. Nearby Communities | How to Choose",
+    metaDescription: "Compare Singer Island with nearby Palm Beach County communities by home type, daily rhythm, water access, and ownership considerations.",
     primaryKeyword: "Singer Island vs nearby cities",
-    secondaryKeywords: ["Singer Island vs Jupiter", "Singer Island vs Juno Beach", "Singer Island vs Palm Beach"],
+    secondaryKeywords: ["Singer Island vs Jupiter", "Singer Island vs Juno Beach", "Singer Island vs Palm Beach", "Singer Island vs West Palm Beach", "Singer Island vs North Palm Beach"],
     h1: "Singer Island vs Nearby Cities: How to Choose",
     heroImage: '/images/singer-island/lagoon-view-island-skyline-hero.webp',
-    heroImageAlt: "Singer Island's high-rises and a point of waterfront homes seen across the Lake Worth Lagoon",
+    heroImageAlt: "Singer Island's high-rises and a point of waterfront homes seen across the Lake Worth Lagoon, with boats at anchor",
+    heroImageCaption: "Singer Island's skyline and waterfront homes, seen across the Lake Worth Lagoon",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '65% 50%',
     showMarketTrends: true,
-    body: `Singer Island competes with almost every coastal option in northern Palm Beach County, and it wins or loses on one variable: whether you want to live in a building on the ocean or a house near it.
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Singer Island · Comparison',
+      deck: "Nearby communities with different home types, daily rhythms, water access and ownership models. Compare them by your non-negotiables, not by who wins.",
+      mobileImage: { src: '/images/singer-island/lagoon-view-island-skyline-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Is Singer Island right for you?', href: '/blog/who-should-move-to-singer-island-florida' },
+      keyFactors: {
+        heading: 'Start with your non-negotiables',
+        intro: 'Six questions to answer before comparing places. They are prompts, not a score.',
+        afterIntro: true,
+        items: [
+          { title: 'Do I want the beach to be part of daily life, or simply nearby?', text: 'How often you actually use the beach changes which places are worth comparing.' },
+          { title: 'Do I want a condominium, townhome, or single-family home?', text: 'The home type decides the ownership model, and with it the costs and responsibilities.' },
+          { title: 'Do I want ocean, Intracoastal, inlet, marina, or yard access?', text: 'Each kind of water or outdoor access comes with its own properties and questions.' },
+          { title: 'Do I value urban walkability, quiet residential scale, or a mix?', text: 'Daily rhythm varies by neighborhood and even by address.' },
+          { title: 'How much shared building governance and maintenance am I comfortable with?', text: 'Associations share the work and the decisions; houses leave both to you.' },
+          { title: 'What commute, airport, errands, school, medical, or family routes must work for me?', text: 'Test the routes that matter from the specific property, at the times you would travel.' },
+        ],
+      },
+      matrix: {
+        heading: 'Compare the areas',
+        intro: 'A starting point for your shortlist. Each area has a range of homes; what matters is the specific property you would buy.',
+        labels: {
+          priorities: 'Best explored by buyers prioritizing',
+          questions: 'Typical home and ownership questions',
+          daily: 'Daily-life questions to test in person',
+          singer: 'What Singer Island changes',
+        },
+        rows: [
+          {
+            name: 'Singer Island oceanfront and Intracoastal condominiums',
+            tag: 'Mostly City of Riviera Beach; confirm by parcel',
+            href: '/communities/singer-island',
+            priorities: 'The beach or the lagoon as part of daily life, and building amenities',
+            questions: "The specific building's budget, reserves, inspections, insurance, assessments and rules",
+            daily: 'How beach access works from the building; parking, storage and guest rules; routes over the bridges',
+            singer: "Most of the island's homes are condominium units, so comparisons start at the building level.",
+          },
+          {
+            name: 'Palm Beach Shores',
+            tag: 'Town of Palm Beach Shores, at the south end of the island',
+            priorities: 'A house or low-rise home in a small town near the inlet',
+            questions: "Roof, wind and flood insurance, elevation and permits under town rules; for condominiums, the association's documents",
+            daily: "Street feel, parking, and how the town's beach and waterfront work for residents",
+            singer: "It's on the island but a separate incorporated town, so its own government, rules and services apply.",
+          },
+          {
+            name: 'Palm Beach Isles and Yacht Harbor',
+            tag: 'City of Riviera Beach, on the lagoon side of the island',
+            priorities: 'A single-family house on the island',
+            questions: 'Dock and seawall condition where applicable, insurance, elevation, any HOA, and property records',
+            daily: 'How you reach the beach from the street; boat routes if a dock matters; bridge routes',
+            singer: 'Houses here are limited in number and vary widely; verify each listing rather than the neighborhood label.',
+          },
+          {
+            name: 'Jupiter',
+            tag: 'Town of Jupiter',
+            href: '/communities/jupiter',
+            priorities: 'A mix of home types, the Jupiter Inlet and the Loxahatchee River, and town-center areas',
+            questions: 'Condominium, townhome or single-family; association or HOA documents; insurance and flood exposure by property',
+            daily: 'Beach access from the specific neighborhood; errands and dining nearby; commute and airport routes',
+            singer: "Singer Island concentrates its oceanfront living in condominium towers; compare the home types you'd actually buy.",
+          },
+          {
+            name: 'Juno Beach',
+            tag: 'Town of Juno Beach',
+            href: '/communities/juno-beach',
+            priorities: 'A small beach town with a range of home types',
+            questions: 'Condominium or single-family ownership, association documents where applicable, insurance and flood exposure',
+            daily: 'Beach access from the property, errands and services nearby, routes to work and the airport',
+            singer: 'Both keep the beach close; compare building type, density and ownership model property by property.',
+          },
+          {
+            name: 'Palm Beach',
+            tag: 'Town of Palm Beach, across the Lake Worth Inlet',
+            href: '/communities/palm-beach',
+            priorities: 'Condominiums, single-family houses and estates on the barrier island south of the inlet',
+            questions: 'Association documents where applicable, insurance, and town rules and permitting',
+            daily: 'Beach access, shopping and dining near the specific address, and routes on and off the island',
+            singer: "The inlet separates the two islands and no bridge crosses it, so trips between them go by way of the mainland.",
+          },
+          {
+            name: 'West Palm Beach',
+            tag: 'City of West Palm Beach',
+            href: '/communities/west-palm-beach',
+            priorities: 'Urban life: a downtown, cultural venues, the waterfront and a Brightline station',
+            questions: 'Downtown condominiums or neighborhood single-family homes; association documents; insurance',
+            daily: "Walkability at the exact address, parking and noise, and how often you'd drive to the beach",
+            singer: 'Singer Island is primarily residential and recreational; many errands mean driving.',
+          },
+          {
+            name: 'Palm Beach Gardens',
+            tag: 'City of Palm Beach Gardens',
+            href: '/communities/palm-beach-gardens',
+            priorities: 'Planned communities, golf communities and a range of home sizes',
+            questions: 'HOA rules and fees, any club membership requirements, insurance',
+            daily: 'Routes to the beach at the times you would go; errands, schools and services near the address',
+            singer: "The island's homes sit between the ocean and the lagoon; decide how often you want the beach and the water.",
+          },
+          {
+            name: 'North Palm Beach',
+            tag: 'Village of North Palm Beach',
+            href: '/communities/north-palm-beach',
+            priorities: 'Single-family neighborhoods, some on the water',
+            questions: 'Dock rights and seawall condition where applicable, insurance, flood exposure and village rules',
+            daily: 'Routes to the beach, errands and work; boat routes if a dock matters',
+            singer: "John D. MacArthur Beach State Park, at the island's north end, is in North Palm Beach; the island's own homes are mostly condominiums.",
+          },
+          {
+            name: 'Riviera Beach mainland',
+            tag: 'City of Riviera Beach, on the mainland',
+            priorities: "Mainland neighborhoods of the same city, including its marina district",
+            questions: 'Property condition, insurance and flood exposure; for boaters, the specific dock, depth and route',
+            daily: 'Street-by-street feel, and routes to the beach and to work',
+            singer: 'Same city government as most of the island, on the mainland side of the lagoon.',
+          },
+        ],
+        note: 'No prices, rankings or drive times: compare current listings, and drive the exact routes, for the properties you would actually consider.',
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: {
+        eyebrow: 'Comparing areas?',
+        text: "Tell us what your non-negotiables are, and we'll help you compare the right areas and properties.",
+        cta: { label: 'Talk with our team', href: '/contact' },
+      },
+    },
+    body: `Communities that sit close together on a map can offer very different lives. A short stretch of water can separate an oceanfront condominium tower from a single-family street, a walkable downtown from a quiet residential island, and one town government from another.
 
-Here's the honest comparison against each realistic alternative.
+Singer Island is one option in that set. It's the right choice for some buyers and not for others, and the way to find out is to compare places by what you need, not by which one supposedly wins.
 
-## vs Jupiter
+## If direct ocean access is the first priority
 
-The most common comparison, and the two are close to opposites.
+Singer Island, Juno Beach, Jupiter and Palm Beach all put the Atlantic close by, in different forms.
 
-Jupiter is a low-rise beach town with genuine character, single-family neighborhoods, its own inlet, a waterfront dining scene and a strong identity. It's also spread out, and its oceanfront is largely low-density and expensive.
+- **Housing forms differ.** On Singer Island, much of the oceanfront living is in condominium towers. Nearby beach communities offer their own mix of condominiums, townhomes and single-family homes.
+- **Density and building type shape daily life.** A tower with shared amenities and a low-rise building or a house on a street feel different even a few blocks from the same beach.
+- **Beach access is property-specific.** Some buildings have their own access; elsewhere you may walk or drive to a public access point. Check how it works from the exact address.
+- **The ownership model changes the questions.** A condominium means association governance and shared costs; a house means you carry the property yourself.
 
-Singer Island is vertical, compact, and puts you directly on the sand for less than Jupiter oceanfront costs.
+Compare current inventory property by property. The same budget can mean very different homes in different places.
 
-**Choose Jupiter if:** you want a house, a town and a community with a center.
-**Choose Singer Island if:** you want the Atlantic outside the window and don't need a town. Our [look at daily life here](/blog/what-its-really-like-living-in-singer-island-florida) is honest about what that means.
+![A high view along Singer Island's beach, with turquoise water, a wide strip of sand and condominium towers in the foreground](/images/singer-island/oceanfront-towers-beach-high-view.webp "Singer Island's oceanfront towers and beach, from a high-rise. || Photo by John Oliver"){1400x1050}
 
-## vs Juno Beach
+## If a house, yard or dockage is the first priority
 
-North, and the quiet alternative.
+On the island, single-family options include Palm Beach Shores at the south end and the lagoon-side neighborhoods commonly marketed as Palm Beach Isles and Yacht Harbor. On the mainland nearby, North Palm Beach, Palm Beach Gardens and the Riviera Beach mainland offer their own single-family neighborhoods.
 
-Juno Beach is small, low-rise, residential and deliberately restrained — a beach town that has resisted density, with an unusually well-preserved shoreline. It's also limited in housing supply and expensive for what you get in square footage.
+![A white two-story house with dark shutters, an arched entry and a two-car garage, behind palms on Singer Island](/images/singer-island/island-house-two-story-garage.webp "A single-family house on Singer Island. || Photo by John Oliver"){1400x1050}
 
-**Choose Juno Beach if:** you want low-rise quiet and can find the right property.
-**Choose Singer Island if:** you want more choice, more building amenity, and a genuine city closer.
+Whether a home has a dock, a garage, a yard, an HOA, waterfront rights or practical boat access depends on the specific property, not the area. For boaters, the dock, the water depth, any fixed bridges on the route and the distance to the inlet all vary by address.
 
-## vs Palm Beach
+![Boats crossing the lagoon at dusk toward a marina and low-rise buildings on the island, seen from the Blue Heron Bridge](/images/singer-island/lagoon-dusk-island-marina.webp "The lagoon at dusk, looking toward the island from the Blue Heron Bridge. || Photo by John Oliver"){1400x1050}
 
-Directly across the inlet, and a different financial universe.
+## If urban life and walkability are the first priority
 
-Palm Beach is low-density estate living at the highest prices in the region, with Worth Avenue, the historic architecture and the cachet that comes with the address.
+Singer Island has a more residential, coastal rhythm. It has some shops and restaurants, including at Ocean Walk, but most everyday errands mean driving.
 
-Singer Island offers oceanfront living at a fraction of that, from a building rather than an estate.
+West Palm Beach has a downtown with restaurants, cultural venues and a waterfront, and [Brightline](https://www.gobrightline.com/) serves a station there. Jupiter has town-center areas with dining and shopping. How walkable daily life is, in any of them, depends on the exact address, so walk the blocks around a property before assuming.
 
-**Choose Palm Beach if:** the budget genuinely allows and the address matters.
-**Choose Singer Island if:** you'd rather own the ocean view than the postcode.
+## If ownership simplicity and carrying costs are the first priority
 
-## vs Palm Beach Shores
+No place is automatically predictable or risky. The costs follow the property:
 
-Worth separating, because it's on the same island.
+- **Condominium costs** depend on the exact association: its budget, reserves, insurance and capital needs. Our [condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists what to request.
+- **Single-family costs** depend on the exact property: insurance, flood and wind exposure, maintenance, the roof and systems, and any HOA.
+- **For every buyer**, calculate projected taxes, insurance, dues, maintenance and assessment exposure for the exact property. Our [cost of living guide](/blog/cost-of-living-in-singer-island-florida) walks through how.
 
-The southern tip is its own municipality of single-family homes and low-rise buildings, with a marina and a small-town scale. If you want a house *and* the island, this is the only real answer — and it's a small, competitive market.
+## Bridges, routes and municipal lines
 
-**Choose Palm Beach Shores if:** a house on the island is the requirement.
-**Choose the tower corridor if:** you want the view, the amenities and the lock-and-leave.
+Singer Island's routes to the mainland cross bridges, and bridge openings and traffic can affect a trip. Treat them as part of route planning: check [Palm Beach County's bridge information](https://discover.pbc.gov/engineering/pages/bridge-section.aspx) and drive the routes that matter to you at the times you'd travel.
 
-## vs West Palm Beach
+Municipal lines matter too. Most of the island is in the City of Riviera Beach and the south end is the Town of Palm Beach Shores, and nearby areas each have their own governments. Taxes, services and permitting follow the exact parcel, so confirm them with the [Palm Beach County Property Appraiser](https://www.pbcpao.gov/), the county's [list of municipalities](https://discover.pbc.gov/pages/municipalities.aspx) and its [boundary maps](https://discover.pbc.gov/pzb/Maps/Boundary-Maps.aspx), not the Singer Island label.
 
-The mainland city fifteen minutes away, and increasingly a genuine competitor rather than just a neighbor.
+## How to compare these places without guessing
 
-West Palm has a real downtown, a waterfront, an arts complex, a growing condo market with its own towers, employment, and Brightline. What it doesn't have is beach — you drive to it.
+1. Build a shortlist based on home type and lifestyle requirements.
+2. Tour the specific type of home you would realistically buy in each area.
+3. Drive the exact daily routes at the relevant times.
+4. Compare projected taxes, insurance, dues and maintenance by property, not by city label.
+5. Verify municipal jurisdiction, services and permitting from the parcel.
+6. Review condominium documents where applicable.
+7. Revisit the finalist area at a different time of day and, when possible, in a different season.
 
-**Choose West Palm Beach if:** you want urban life, walkability and a shorter commute.
-**Choose Singer Island if:** the beach is the point and the city is the amenity.
+![Palm trees silhouetted against an orange sky at dusk on an empty Singer Island beach, with a tower at the right](/images/singer-island/public-beach-palms-dusk.webp "A Singer Island public beach at dusk. || Photo by John Oliver"){1400x1050}
 
-## vs Palm Beach Gardens
-
-North over the second bridge, and the suburban alternative.
-
-Palm Beach Gardens offers newer housing, gated communities, golf, the area's main retail concentration and considerably more house per dollar. It's inland, master-planned and polished.
-
-**Choose Palm Beach Gardens if:** space, newness and amenities lead.
-**Choose Singer Island if:** you'd trade all of that for the Atlantic.
-
-## vs North Palm Beach
-
-The quiet Intracoastal village on the mainland to the north.
-
-North Palm Beach offers single-family homes with dockage, a village-owned country club and a settled community — at prices below island oceanfront.
-
-**Choose North Palm Beach if:** you want a house, a boat behind it and a neighborhood.
-**Choose Singer Island if:** you want the ocean and are content in a building.
-
-## vs Juno Beach and Jupiter Island
-
-Both north, both low-rise, and both worth naming for buyers who want oceanfront without density.
-
-Juno Beach has a well-preserved shoreline and a deliberately restrained scale. Jupiter Island, further north, is among the most expensive residential addresses in the country and effectively a separate market.
-
-**Choose either if:** low-rise oceanfront is the requirement and the budget stretches.
-**Choose Singer Island if:** you want the same ocean at a considerably more attainable number.
-
-## vs the Riviera Beach mainland
-
-Directly across the water, and worth addressing properly rather than in passing.
-
-The mainland side is considerably less expensive than the island, and its marina district has seen substantial public investment in recent years, adding waterfront dining, event space and public access. There's genuine single-family housing at price points the island can't approach, and the same inlet access for boaters.
-
-**Choose the mainland if:** you want a house, a boat and a materially lower entry price, and you're content to drive to the beach.
-**Choose the island if:** oceanfront itself is the requirement.
-
-## vs Palm Beach Gardens' waterfront communities
-
-Worth naming because buyers wanting water without island living often end up comparing these directly.
-
-The Intracoastal-facing communities on the mainland to the north offer dockage, newer housing, gated amenities and considerably more space per dollar than anything on the island — without a bridge, without barrier-island insurance, and without condo governance.
-
-What they cannot offer is the Atlantic outside the window.
-
-**Choose the mainland waterfront if:** you want a boat, a house and predictable costs.
-**Choose the island if:** ocean frontage is the actual requirement rather than water generally.
-
-## How to decide
-
-Rank these honestly before touring anything:
-
-1. **Living directly on the ocean.** If first, Singer Island is the value answer in this county and the list is short.
-2. **A house with a yard.** If first, the island is out — mainland, or Palm Beach Shores at a price.
-3. **A walkable town.** Jupiter, downtown West Palm Beach, or elsewhere entirely.
-4. **Predictable carrying costs.** Anything but an ageing coastal condo.
-5. **Space per dollar.** Palm Beach Gardens or west.
-
-The pattern along this coast is that oceanfront and single-family rarely combine below the very top of the market. Singer Island's entire proposition is that it solves the first at the cost of the second, and our [cost breakdown](/blog/cost-of-living-in-singer-island-florida) is honest about what that solution actually costs to carry.
-
-One practical note: **confirm the municipality.** The island spans two, and it changes your taxes, services and permitting. Verify rather than assuming from the island name.`,
+If Singer Island makes your shortlist, our [community guide](/communities/singer-island) and [honest fit guide](/blog/who-should-move-to-singer-island-florida) go deeper.`,
     faqs: [
-      { q: "Singer Island or Jupiter?", a: "They are close to opposites. Jupiter is a low-rise beach town with real character, single-family neighborhoods, its own inlet and a waterfront dining scene. Singer Island is vertical and compact and puts you directly on the sand for less than Jupiter oceanfront costs. Choose Jupiter for a house and a town, Singer Island for the Atlantic outside the window." },
-      { q: "Is Singer Island cheaper than Palm Beach?", a: "Considerably. Palm Beach is low-density estate living at the highest prices in the region, with Worth Avenue and the cachet of the address. Singer Island offers oceanfront living at a fraction of that, from a building rather than an estate. Choose Palm Beach if the budget allows and the address matters." },
-      { q: "Should I look at the Riviera Beach mainland instead?", a: "Worth considering seriously. The mainland is considerably less expensive, its marina district has had substantial public investment adding waterfront dining and public access, and there is genuine single-family housing at price points the island cannot approach — with the same inlet access for boaters. The trade is driving to the beach." },
-      { q: "How does Singer Island compare to North Palm Beach?", a: "North Palm Beach is a quiet Intracoastal village on the mainland with single-family homes, dockage behind many of them, a village-owned country club and a settled community, at prices below island oceanfront. Choose it for a house, a boat and a neighborhood; choose the island if you want the ocean and are content in a building." },
-      { q: "Is West Palm Beach a real alternative to Singer Island?", a: "Increasingly yes. It has a genuine downtown, a waterfront, an arts complex, a growing condo market with its own towers, employment and Brightline. What it lacks is beach — you drive to it. Choose West Palm for urban life and walkability, the island if the beach is the point and the city is the amenity." },
-      { q: "What is the deciding question between these places?", a: "Whether you want to live in a building on the ocean or a house near it. Along this coast oceanfront and single-family rarely combine below the very top of the market, and Singer Island's entire proposition is solving the first at the cost of the second." },
+      { q: "How should I compare Singer Island with Jupiter or Juno Beach?", a: "Compare the specific homes you would actually buy. On Singer Island, much of the oceanfront living is in condominium towers; nearby beach communities offer their own mix of condominiums, townhomes and single-family homes. Beach access, density, building type and the ownership model all differ by property, so compare current inventory property by property." },
+      { q: "Is Palm Beach Shores the only single-family option on Singer Island?", a: "No. On the island, single-family options include Palm Beach Shores at the south end and the lagoon-side neighborhoods commonly marketed as Palm Beach Isles and Yacht Harbor. Whether a home has a dock, a garage, a yard, an HOA, waterfront rights or practical boat access depends on the specific property." },
+      { q: "Should I compare condominium costs or homeownership costs by city?", a: "No. Condominium costs depend on the exact association: its budget, reserves, insurance and capital needs. Single-family costs depend on the exact property: insurance, flood and wind exposure, maintenance, the roof and systems, and any HOA. Calculate projected taxes, insurance, dues, maintenance and assessment exposure for the exact property." },
+      { q: "How do bridge and commute considerations affect a Singer Island search?", a: "Singer Island's routes to the mainland cross bridges, and bridge openings and traffic can affect a trip. Check Palm Beach County's bridge information and drive the routes that matter to you at the times you'd travel." },
+      { q: "What should I verify before comparing nearby communities?", a: "Build a shortlist based on home type and lifestyle requirements, tour the specific type of home you would realistically buy in each area, drive the exact daily routes at the relevant times, compare projected taxes, insurance, dues and maintenance by property, verify municipal jurisdiction from the parcel, review condominium documents where applicable, and revisit the finalist area at a different time of day and, when possible, in a different season." },
+      { q: "Does municipal jurisdiction matter when choosing a Singer Island property?", a: "Yes. Most of the island is in the City of Riviera Beach and the south end is the Town of Palm Beach Shores, and nearby areas each have their own governments. Taxes, services and permitting follow the exact parcel, so confirm them with the Palm Beach County Property Appraiser and the county's municipal and boundary information, not the Singer Island label." },
     ],
     internalLinks: ["who-should-move-to-singer-island-florida", "what-its-really-like-living-in-singer-island-florida", "cost-of-living-in-singer-island-florida"],
-    funFact: "Singer Island sits directly across from Palm Beach — one of the wealthiest barrier islands in the world. About a mile of the Lake Worth Lagoon separates them. That proximity is part of what gives Singer Island its appeal: comparable ocean views and water access at a fraction of the cost.",
-    author: 'christine',
+    funFact: "Singer Island and its neighbors are close on a map, but closeness doesn't make homes equivalent. Across the water, the ownership model, the building or the lot, the municipality and the insurance picture can all change, so compare specific properties, not place names.",
+    author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'best-places-to-eat-drink-hang-out-in-singer-island-florida',
