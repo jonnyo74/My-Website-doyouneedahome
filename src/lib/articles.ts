@@ -197,8 +197,9 @@ export interface ArticleEditorial {
   // with copy and print affordances.
   checklist?: ArticleChecklistData
   // "after-expert-note" moves the lead-magnet CTA out of the reading flow to sit
-  // under the Local Expert Note, and drops the end-of-article repeat.
-  magnetPlacement?: 'after-expert-note'
+  // under the Local Expert Note, and drops the end-of-article repeat. "none"
+  // leaves the report CTA off the page entirely (the closing step, if any, stays).
+  magnetPlacement?: 'after-expert-note' | 'none'
   // Stands in for the end-of-article lead-magnet CTA, which otherwise repeats
   // the inline offer word for word a few screens later.
   closingStep?: { eyebrow: string; text: string; cta: ArticleLink }
@@ -17355,122 +17356,109 @@ This article can't tell you whether a property fits your budget. It can tell you
     cityName: 'Singer Island',
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems on Singer Island, Florida",
-    metaTitle: "Hidden Gems on Singer Island, Florida",
-    metaDescription: "Beyond the beach — local hidden gems on Singer Island, Florida, from the Blue Heron Bridge dive site to Peanut Island and the MacArthur lagoon.",
+    seoTitle: "Hidden Gems on Singer Island, FL | Local Guide",
+    metaTitle: "Hidden Gems on Singer Island, FL | Local Guide",
+    metaDescription: "A local-minded guide to quieter Singer Island moments and nearby public places, with practical access, safety, and seasonal details.",
     primaryKeyword: "hidden gems on Singer Island Florida",
-    secondaryKeywords: ["Singer Island secret spots", "Blue Heron Bridge diving", "Peanut Island"],
+    secondaryKeywords: ["Singer Island local guide", "Munyon Island", "MacArthur Beach State Park", "Phil Foster Park", "Singer Island sea turtle walks"],
     h1: "Hidden Gems on Singer Island, Florida",
-    heroImage: '/images/singer-island/paver-path-inlet-park-hero.webp',
-    heroImageAlt: "A brick-paver path between hedges leading to a waterfront park and gazebo on Singer Island",
+    heroImage: '/images/singer-island/beach-dusk-lifeguard-stand-hero.webp',
+    heroImageAlt: "A Singer Island beach at dusk under an orange sky, with a lifeguard stand, a teal-roofed beach pavilion and condominium towers at the right",
+    heroImageCaption: "A Singer Island public beach at dusk",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
-    heroImagePosition: '35% 50%',
-    body: `The island's famous attractions — the bridge dive, the state park, Peanut Island — are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-singer-island-florida).
+    heroImagePosition: '55% 50%',
+    editorial: {
+      eyebrow: 'Singer Island · Local Guide',
+      deck: "The less-obvious ways to enjoy Singer Island and the public places nearby, when you know the access, the timing, the conditions and the rules.",
+      mobileImage: { src: '/images/singer-island/beach-dusk-lifeguard-stand-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'The best-known things to do', href: '/blog/best-things-to-do-in-singer-island-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Scouting visit',
+        text: 'Planning a Singer Island scouting visit? Explore the community guide or talk with our team about a specific building.',
+        cta: { label: 'Explore the community guide', href: '/communities/singer-island' },
+      },
+    },
+    body: `The island's best-known attractions are covered in [our guide to things to do on Singer Island](/blog/best-things-to-do-in-singer-island-florida). This is the quieter layer: places and routines that reward a resident or repeat visitor who understands the access, the conditions and the timing.
 
-This is the other layer: the small, quiet, mostly free things that take residents a year or two to find, on an island where a great deal of what's good isn't advertised at all.
+None of it is secret, and none of it comes with a promise of solitude. Some of these places are on the island and some are nearby; some are free, some charge park admission, and some depend entirely on the weather and the water. Each one below says which.
 
-## The tide tables, as a way of life
+**Before you go**
 
-Not a place, and the most useful thing on this page.
+- [ ] Check official park notices, hours, parking and admission.
+- [ ] Check the weather, water conditions and beach-warning flags.
+- [ ] Respect public and private access boundaries.
+- [ ] Treat wildlife viewing as observation, not interaction.
 
-Nearly everything worth doing in the water here is tide-dependent, and residents who learn the rhythm get a completely different island from those who don't. The bridge dive works only around high slack. The snorkelling at the state park's rock outcrops depends on swell and tide together. Shore fishing turns on moving water.
+## Water days that depend on conditions
 
-Get a tide app, learn what your favorite spots want, and plan around the water rather than the weekend. It's the single biggest difference between visiting this island and living on it.
+**Phil Foster Park and the Blue Heron Bridge.** *Nearby, in Riviera Beach, not on Singer Island.* A Palm Beach County park beneath the Blue Heron Bridge, on the causeway between the mainland and the island. The county's [snorkel trail guide](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf) describes the Blue Heron Bridge area as internationally recognized for its marine life, and the marked snorkel trail spans roughly two acres in 6 to 10 feet of water. Current, visibility, entry and exit points, boat traffic and tide timing all matter here, and they change; go with a buddy, and use a divers-down flag, which Florida law requires for divers and snorkelers. Check [Palm Beach County's Phil Foster Park page](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [beach safety information](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx) before you go in.
 
-## Munyon Island
+![Looking down from the Blue Heron Bridge onto Phil Foster Park's seawall, trees and pavilions, with the lagoon and Singer Island's towers beyond](/images/singer-island/phil-foster-park-from-bridge.webp "Phil Foster Park, nearby in Riviera Beach, from the Blue Heron Bridge. || Photo by John Oliver"){1400x1050}
 
-Inside the state park's lagoon sits a small island with a genuinely odd history — the site of an early-twentieth-century hotel venture that came and went, now a quiet spot reachable by kayak.
+**Ocean Reef Park.** *On Singer Island.* A Palm Beach County park in Riviera Beach where the county notes snorkeling is available within the lifeguard-protected swimming area. Conditions vary day to day; check the flags and [the park's page](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) first.
 
-Paddle out from the park, land where permitted, and you'll have a piece of the Intracoastal essentially to yourself. Manatees are common in the cooler months in the surrounding shallows.
+Neither is an every-day activity. The same spot can be excellent one morning and unsuitable the next, so plan around current conditions rather than the calendar.
 
-## Turtle walks in season
+## A quiet lagoon day: Munyon Island
 
-The state park and local organizations run guided night walks during nesting season, and they're one of the more genuinely memorable things available on this coast.
+*Nearby, in the lagoon off John D. MacArthur Beach State Park; boat access only.* [Munyon Island](https://www.floridastateparks.org/learn/munyon-island) is part of the MacArthur Beach State Park experience. The official park information describes a day-use boat dock on the island's west shore, beside the Intracoastal Waterway, with nature trails and picnic pavilions, and notes there are no restrooms.
 
-You go out after dark with a guide, wait, and — if you're fortunate — watch a loggerhead haul out and nest. Places are limited and they book up, so plan ahead rather than deciding on the night.
+Paddlers can reach it from the park's estuary. The park's [kayaking information](https://www.floridastateparks.org/learn/kayaking-macarthur-beach) describes paddling under the Burnt Bridge into the lagoon to visit the island, and kayak and paddleboard rentals are offered through the park's [paddling concession](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/high-point-paddle-adventures). Check the park and outfitter information for launches, rentals, weather, hours and current rules before you set out. Wildlife such as wading birds, and sometimes manatees, may be seen, depending on conditions; keep a respectful distance.
 
-It also makes the beachfront lighting rules feel less like bureaucracy and more like the reason the turtles still come.
+![A high view north-west over the lagoon off Singer Island's north end, with small mangrove islands, a shoreline road and big cumulus clouds](/images/singer-island/north-lagoon-mangrove-islands.webp "The lagoon off the island's north end, from a high-rise. || Photo by John Oliver"){1400x1050}
 
-## The other side of Phil Foster Park
+## MacArthur Beach beyond the obvious
 
-Everyone knows the park for the dive site. Fewer use it for anything else.
+*At the island's north end, in North Palm Beach; park admission applies.* [John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) is the natural counterpoint to the tower corridor. According to the park's [experiences and amenities page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/experiences-amenities), it has a nature center with exhibits, nature trails through coastal hammock, an estuary for paddling, and the park's beach.
 
-There's a beach, a fishing area, picnic space, and a genuinely good view of boat traffic moving through the intracoastal cut under the bridge. On an afternoon when the tide's wrong for diving, it's still a pleasant hour.
+Go in the morning and take your time on the estuary side, where wading birds may be feeding in the shallows. Check the park's [hours and fees](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/hours-fees) and current notices before you go; don't assume lifeguards are on duty, and use the park's own entrances and trails rather than walking in along the beach from outside it. Programs change through the year, and the park's citizen-support group, the [Friends of MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/friends-macarthur-beach-state-park), publicizes its events.
 
-## The inlet at the south end
+**If you look for shells.** After rough weather has settled, check the current flags and forecast, stay out of the water unless conditions are safe, and treat it as careful observation. State park resources are protected. Florida State Parks allows [empty seashells, sea glass and shark teeth](https://www.floridastateparks.org/plan-your-visit/faqs?f%5B0%5D=question_type%3A86) to be collected between the water line and the toe of the dunes in coastal parks with beaches; living shells and live sand dollars stay where they are, and so do driftwood, plants, animals, artifacts and park property.
 
-Standing near the Lake Worth Inlet and watching what comes through it is an underrated local pleasure.
+## Guided wildlife opportunities
 
-This is a working inlet — commercial ships reach the port here, alongside sport fishing boats, sailboats and the occasional very large yacht. The mix is unusual, the scale of the ships up close is startling, and it costs nothing.
+Sea turtles nest on this coast from March through October, and permitted public turtle walks and hatchling programs are scheduled opportunities, not guaranteed sightings. FWC lists [permitted sea turtle viewing programs](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/where-to-view/) and [program contacts](https://myfwc.com/research/wildlife/sea-turtles/florida/contact/); check the current listings and the park's events for what's operating this season.
 
-## The north-end beach
+On a guided walk, follow the guide's directions: no touching, no flashlights and no flash photography, and no interfering with a turtle or hatchling. Don't wait on the beach at night on your own to look for turtles. Florida State Parks explains [why lights disturb nesting turtles and hatchlings](https://www.floridastateparks.org/learn/sea-turtle-nesting).
 
-Away from the towers, the state park stretch is the most natural beach on the island: dune vegetation, no buildings behind it, and a fraction of the people.
+## Sunset over the lagoon
 
-It requires paying park admission and walking a boardwalk, which is precisely why it stays quiet.
+The island faces the ocean, so sunrise is easy to find. For sunset over the water, look west across the lagoon.
 
-## Sunset on the west side
+**Phil Foster Park.** *Nearby, in Riviera Beach.* The county park beneath the Blue Heron Bridge sits in the lagoon with open water around it. Check [the park's hours](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) before planning an evening visit. What you'll see changes with the season, the weather and the boat traffic.
 
-The island faces east, so residents get sunrise. What newcomers take a while to work out is that the Intracoastal side delivers the other half.
+![Sailboats at anchor in the lagoon at sunset under an orange sky, seen from the Blue Heron Bridge, with port cranes on the far horizon](/images/singer-island/blue-heron-bridge-anchorage-sunset.webp "The lagoon anchorage at sunset, from the Blue Heron Bridge, near the island. || Photo by John Oliver"){1400x1050}
 
-Anywhere with a western outlook — a balcony, the marina, a park bench on the lagoon side — gives you the sunset over the waterway, with boats coming home. A good many residents living in ocean-facing units never think to turn around.
+The Lake Worth Inlet at the island's south end serves the Port of Palm Beach, and parts of the waterfront there are private or restricted. Enjoy it from public places only.
 
-## The building networks
+## The habits that make repeat visits better
 
-Filed under hidden gems because it genuinely is one, and it's invisible from outside.
+- Try weekday mornings and quieter periods for the parks and beaches.
+- If you already have legitimate access to a building, ask the manager, the association or residents what activities and groups exist.
+- Check community, park, volunteer and environmental-program calendars.
+- Visit in different seasons to understand a building's rhythm and the beach's.
 
-Each tower has its own informal social world — regular groups at the pool, card games, walking groups, people who look after each other's units. Joining it is as simple as turning up and introducing yourself, and it's by far the fastest route into island life.
+![A view north along the beach from a condominium balcony, with dune walkovers crossing the vegetation and towers along the shore](/images/singer-island/beach-dune-walkovers-balcony.webp "Dune walkovers along the beach, from a condominium balcony. || Photo by John Oliver"){1400x1050}
 
-Newcomers who treat their building as an apartment block stay strangers. Those who treat it as a small village settle in within weeks.
-
-## The fishing pier culture nearby
-
-Not on the island, but close enough to count and genuinely local.
-
-The public piers and jetty access on this stretch of coast draw a regular crowd who fish them in all weather and know the water better than almost anyone. Turning up, watching, and asking a question or two is the fastest education available on what's running and when.
-
-It's free, it's welcoming to anyone who isn't in the way, and it's a side of coastal life that condo living otherwise keeps you well away from.
-
-## The off-season
-
-Not a place, but the thing longtime residents value most.
-
-From May through October the seasonal owners leave, the beach empties, parking becomes trivial and the whole island slows down. It's hot — genuinely unpleasant by August — but for those months it belongs to the people who actually live here.
-
-## The state park after a blow
-
-Local knowledge worth having: the day or two after a good east swell, the beach at the north end is transformed.
-
-Shells, sea glass, driftwood and the occasional genuinely interesting find get pushed up, and because the park limits parking, you're often working an empty stretch. Beachcombers time their visits by the weather rather than the calendar.
-
-The same conditions that make it good for walking make the water unsuitable for snorkelling, so treat it as a different activity rather than a disappointing version of the usual one.
-
-## The morning walk to the state park
-
-From the northern buildings, the beach walk up to the park boundary is a genuinely good hour — dune vegetation on one side, open ocean on the other, and progressively fewer people the further you go.
-
-Do it at sunrise and you'll pass almost nobody. It's the closest thing the island has to a daily ritual worth keeping.
-
-## Making the most of these
-
-The pattern is timing: early mornings, weekdays, and the off-season, plus an eye on the tide. Almost everything above is better under those conditions and several are transformed by them.
-
-The other rule is that this island rewards the patient. It doesn't present itself, there's no visitor center pointing at the good parts, and most of what's good is either underwater or inside a building. Give it a season.
-
-For the practical side of settling in, our [guide to operating here](/blog/local-guide-to-singer-island-florida) covers the logistics.`,
+The island rewards the same things everywhere: checking conditions, knowing the rules, and coming back. For the practical side of settling in, see our [local guide to Singer Island](/blog/local-guide-to-singer-island-florida), and for the bigger picture, the [Singer Island community guide](/communities/singer-island).`,
     faqs: [
-      { q: "What is Singer Island's best-kept secret?", a: "Learning the tide tables. Nearly everything worth doing in the water here is tide-dependent — the bridge dive works only around high slack, the snorkelling depends on swell and tide together, and shore fishing turns on moving water. Residents who learn the rhythm get a completely different island from those who do not." },
-      { q: "What is Munyon Island?", a: "A small island inside the state park lagoon with an odd history — the site of an early-twentieth-century hotel venture that came and went. It is reachable by kayak from the park, and the surrounding shallows commonly hold manatees in the cooler months. Paddle out and you will have a piece of the Intracoastal essentially to yourself." },
-      { q: "Can I see sea turtles on Singer Island?", a: "The state park and local organizations run guided night walks during nesting season, where you go out after dark with a guide and, if fortunate, watch a loggerhead haul out and nest. Places are limited and book up, so plan ahead. It also makes the beachfront lighting rules feel like a reason rather than a rule." },
-      { q: "Where can I watch the sunset on Singer Island?", a: "Anywhere with a western outlook — a balcony, the marina, or a bench on the lagoon side. The island faces east so residents get sunrise, and a good many people in ocean-facing units never think to turn around. The sunset over the Intracoastal, with boats coming home, is the other half of living here." },
-      { q: "How do I meet people on Singer Island?", a: "Through your own building. Each tower has an informal social world — pool groups, card games, walking groups, people who look after each other's units — and joining it is as simple as turning up and introducing yourself. Newcomers who treat their building as an apartment block stay strangers." },
-      { q: "When is the best time of year on Singer Island?", a: "Longtime residents tend to say May through October, when the seasonal owners leave, the beach empties, parking becomes trivial and the island slows. It is genuinely unpleasant by August, but for those months the place belongs to the people who actually live there." },
+      { q: "What are quieter ways to explore Singer Island?", a: "Try weekday mornings and quieter periods for the parks and beaches; a water day at Phil Foster Park or Ocean Reef Park when conditions allow; a boat or paddle trip to Munyon Island; the nature center, trails and estuary at John D. MacArthur Beach State Park; and a guided turtle program in season. Check official notices, hours, admission and current conditions before you go." },
+      { q: "How can I visit Munyon Island?", a: "Munyon Island is accessible only by boat. The official park information describes a day-use boat dock on the island's west shore, with nature trails and picnic pavilions, and no restrooms. Paddlers can reach it from MacArthur Beach State Park's estuary. Check the park and outfitter information for launches, rentals, weather, hours and current rules before you set out." },
+      { q: "Is Phil Foster Park on Singer Island?", a: "No. Phil Foster Park is a Palm Beach County park in Riviera Beach, beneath the Blue Heron Bridge, on the causeway between the mainland and the island." },
+      { q: "How do I find current sea-turtle programs?", a: "Permitted public turtle walks and hatchling programs are scheduled opportunities, not guaranteed sightings. FWC lists permitted sea turtle viewing programs and program contacts; check the current listings and the park's events for what's operating this season." },
+      { q: "What can I collect at a Florida State Park beach?", a: "Florida State Parks allows empty seashells, sea glass and shark teeth to be collected between the water line and the toe of the dunes in coastal parks with beaches. Living shells and live sand dollars stay where they are, and so do driftwood, plants, animals, artifacts and park property." },
+      { q: "Where can I watch a Singer Island sunset from public access?", a: "Look west across the lagoon. Phil Foster Park, the county park beneath the Blue Heron Bridge in Riviera Beach, sits in the lagoon with open water around it. Check the park's hours before planning an evening visit." },
     ],
     internalLinks: ["best-things-to-do-in-singer-island-florida", "local-guide-to-singer-island-florida", "best-places-to-eat-drink-hang-out-in-singer-island-florida"],
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'singer-island-vs-nearby-cities',
