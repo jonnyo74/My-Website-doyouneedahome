@@ -17719,120 +17719,174 @@ If Singer Island makes your shortlist, our [community guide](/communities/singer
     cityName: 'Singer Island',
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out on Singer Island, Florida",
-    metaTitle: "Best Restaurants & Bars on Singer Island, FL (2026 Guide)",
-    metaDescription: "The best restaurants and bars on Singer Island, FL — waterfront seafood at Sailfish Marina, beachfront dining, and West Palm Beach nightlife just over the bridge.",
-    primaryKeyword: "best restaurants on Singer Island Florida",
-    secondaryKeywords: ["where to eat on Singer Island", "Sailfish Marina", "Singer Island waterfront dining"],
-    h1: "Best Places to Eat, Drink & Hang Out on Singer Island, Florida",
+    seoTitle: "Where to Eat, Drink & Hang Out on Singer Island, FL | Local Guide",
+    metaTitle: "Where to Eat, Drink & Hang Out on Singer Island, FL | Local Guide",
+    metaDescription: "Seven Singer Island places to eat and drink, from the Palm Beach Shores marina end to Ocean Avenue by the public beach, with official links and what to check.",
+    primaryKeyword: "where to eat on Singer Island Florida",
+    secondaryKeywords: ["Singer Island restaurants", "Palm Beach Shores restaurants", "Sailfish Marina restaurant", "Buccaneer Waterfront Bar & Grill", "ONA Coastal Cuisine"],
+    h1: "Where to Eat, Drink & Hang Out on Singer Island, Florida",
     heroImage: '/images/singer-island/sailfish-marina-docks-hero.webp',
     heroImageAlt: "A Sailfish Marina Resort chair on the dock in Palm Beach Shores, with sportfishing boats in the marina behind",
+    heroImageCaption: "Sailfish Marina Resort's docks in Palm Beach Shores, at the island's south end",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '75% 50%',
-    body: `The island's social center isn't in the tower corridor. It's at the southern tip, in **Palm Beach Shores**, and understanding that is the key to eating and drinking well here.
+    editorial: {
+      eyebrow: 'Singer Island · Local Guide',
+      deck: "Seven places to eat, drink and meet up, from the marina end of Palm Beach Shores to Ocean Avenue by the public beach, with what each is best for and what to check first.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/singer-island/sailfish-marina-docks-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/singer-island/sailfish-marina-docks-mobile.webp', width: 1200, height: 800 },
+      panelCaption: "Sailfish Marina Resort's docks in Palm Beach Shores, at the island's south end.",
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Things to do on Singer Island', href: '/blog/best-things-to-do-in-singer-island-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      matrix: {
+        heading: 'The seven places',
+        intro: "Grouped by where they are: the two Palm Beach Shores venues on Lake Drive, the resort restaurant on the oceanfront, then the four on Ocean Avenue by Riviera Beach Municipal Beach.",
+        labels: { priorities: 'Why go', questions: 'Where', daily: 'Good to know', singer: 'Check first' },
+        rows: [
+          {
+            name: 'The Buccaneer Waterfront Bar & Grill',
+            tag: 'Best for: a waterfront dinner in Palm Beach Shores',
+            href: 'https://www.buccgrill.com/',
+            priorities: "Chef Paul Niedermann leads the kitchen; the restaurant says he was the season 9 winner of Hell's Kitchen on Fox. It describes itself as a steak and seafood restaurant, on the water.",
+            questions: '142 Lake Drive, Palm Beach Shores, at the south end of the island.',
+            daily: 'Palm Beach Shores is its own town, separate from Riviera Beach, and Sailfish Marina is on the same street.',
+            singer: 'Current menus, hours and events on the official site.',
+          },
+          {
+            name: 'Sailfish Marina',
+            tag: 'Best for: breakfast, lunch or dinner with the boats in view',
+            href: 'https://sailfishmarina.com/restaurant/',
+            priorities: 'A waterfront restaurant at a working marina. The resort says it serves breakfast, lunch and dinner with views of the boats.',
+            questions: '98 Lake Drive, Palm Beach Shores, on the lagoon side of the south end.',
+            daily: 'The restaurant is part of Sailfish Marina Resort, which also runs the marina and lodging.',
+            singer: 'Hours, menus and events on the official restaurant page; they change with the season.',
+          },
+          {
+            name: 'ONA Coastal Cuisine',
+            tag: 'Best for: a sit-down dinner at an oceanfront resort',
+            href: 'https://www.onacoastalcuisine.com/contact-location',
+            priorities: 'The restaurant describes contemporary coastal cooking with local ingredients and subtle Mediterranean influences. It says it is open to the public, not only to hotel guests.',
+            questions: 'Inside the Palm Beach Marriott Singer Island Beach Resort & Spa.',
+            daily: 'The restaurant lists on-site valet parking.',
+            singer: "Hours and how to book on the official site. The restaurant is public; don't assume the resort's pool or beach services are.",
+          },
+          {
+            name: 'Johnny Longboats',
+            tag: 'Best for: a casual seafood meal by the public beach',
+            href: 'https://www.johnnylongboats.com/',
+            priorities: 'A flip-flop-friendly spot, in its own words, with a seafood-led menu (its signature is Grouper in a Bag) plus burgers and pasta.',
+            questions: '2401 N Ocean Ave, by Riviera Beach Municipal Beach.',
+            daily: 'Named, its site says, for a lagoon fisherman who ferried people to safety in the 1928 hurricane.',
+            singer: 'Current hours and menus on the official site.',
+          },
+          {
+            name: 'Ocean Ave Bar & Kitchen',
+            tag: 'Best for: cocktails and seafood after the beach',
+            href: 'https://www.oceanavebarandkitchen.com/',
+            priorities: 'The restaurant describes South Florida seafood, chef-crafted dishes, creative cocktails and zero-proof mocktails.',
+            questions: '2551 N Ocean Ave, on the same stretch by the public beach.',
+            daily: 'Its site lists lunch, dinner, dessert and cocktail menus.',
+            singer: 'Current hours on the official site.',
+          },
+          {
+            name: "Castaway's Sports Bar & Grill",
+            tag: 'Best for: watching a game with pizza and craft beer',
+            href: 'https://castawayslife.com/',
+            priorities: 'A family-owned sports bar, in its own words, with a long craft-beer tap list and a menu of pizza, sandwiches and seafood.',
+            questions: '2415 N Ocean Ave, on the same stretch by the public beach.',
+            daily: 'It describes itself as family friendly.',
+            singer: 'Hours and the events calendar on the official site.',
+          },
+          {
+            name: 'Two Drunken Goats',
+            tag: 'Best for: a casual beach-bar stop',
+            priorities: 'A casual bar and restaurant on the Ocean Avenue strip, for a drink or a bite after the beach.',
+            questions: 'Ocean Avenue, by Riviera Beach Municipal Beach.',
+            daily: "We couldn't verify an official website, so this card stays brief.",
+            singer: 'Confirm current hours and menu with the restaurant before you go.',
+          },
+        ],
+        note: "Venue names link to each venue's official website. Hours, menus, events and specials change, so check there before you plan around them.",
+      },
+      closingStep: {
+        eyebrow: 'Living here',
+        text: 'Thinking about living near the places you would go every week? Explore the Singer Island community guide or talk with our team about a specific building or street.',
+        cta: { label: 'Explore the community guide', href: '/communities/singer-island' },
+      },
+    },
+    body: `Singer Island isn't a restaurant row. Most of the island is condominium towers, hotels and homes, and its public restaurants gather in a few places: the marina end of **Palm Beach Shores** at the south tip, the stretch of **Ocean Avenue** beside Riviera Beach Municipal Beach, and resort dining rooms on the oceanfront. When residents want more choice, many of them cross to the mainland.
 
-The high-rise stretch has resort restaurants and a beach. Palm Beach Shores has a marina, a walkable few blocks, and the closest thing this island has to a town.
+This guide covers seven places across those three areas. Each card says what the place is best for, where it is and what to check before you go. The official site is the final word on hours, menus and events.
 
-## Palm Beach Shores as the island's town
+**Pick your plan**
 
-Worth framing properly, because it changes how you use the island.
+| If you want | Start with |
+|---|---|
+| A waterfront dinner with a chef-led steak and seafood menu | The Buccaneer Waterfront Bar & Grill, Palm Beach Shores |
+| Breakfast, lunch or dinner with the boats in view | Sailfish Marina, Palm Beach Shores |
+| A sit-down dinner inside an oceanfront resort | ONA Coastal Cuisine, Palm Beach Marriott Singer Island |
+| A casual seafood meal by the public beach | Johnny Longboats, Ocean Avenue |
+| Cocktails, mocktails and seafood after the beach | Ocean Ave Bar & Kitchen, Ocean Avenue |
+| A game on TV, with pizza and craft beer | Castaway's Sports Bar & Grill, Ocean Avenue |
+| A casual beach-bar stop | Two Drunken Goats, Ocean Avenue |
 
-The southern town is small enough to walk end to end, and it holds the marina, several restaurants, and a scale that lets you leave the car. For residents of the condo corridor, "going out" often means driving fifteen minutes south rather than fifteen minutes over a bridge — and it's usually the better call.
+## Build your Singer Island night
 
-The character is old Florida rather than resort Florida: unpretentious, weathered, and built around boats rather than around tourism.
+Three pairings, each kept to one part of the island.
 
-## The Sailfish Marina
+### A marina evening in Palm Beach Shores
 
-The institution, and the reason Palm Beach Shores functions as the island's gathering place.
+Sailfish Marina (98 Lake Drive) and The Buccaneer (142 Lake Drive) are both on Lake Drive in Palm Beach Shores. Start with a drink or an early bite at Sailfish Marina with the marina in view, then have dinner at The Buccaneer, or the other way round.
 
-You eat outside on the water with the charter fleet tied up alongside and traffic moving through the inlet. The food is straightforward seafood done properly rather than ambitiously, and the setting does the heavy lifting — which on a good evening is exactly right.
+![A fishing boat heading in through the Lake Worth Inlet at dusk, with a teal-roofed gazebo and palms at right and port cranes on the horizon](/images/singer-island/inlet-fishing-boat-dusk.webp "The Lake Worth Inlet at dusk, from the island's south tip. || Photo by John Oliver"){1400x788}
 
-**The ritual worth knowing:** fish gather under the dock lights and get fed. It's free, faintly absurd, genuinely enjoyable, and best at sunset.
+### A beach day that runs into dinner
 
-It's also the most reliable place on the island to run into people you know, which in a community without a conventional town square counts for a great deal.
+Johnny Longboats, Castaway's, Two Drunken Goats and Ocean Ave Bar & Kitchen are on the same stretch of Ocean Avenue, by Riviera Beach Municipal Beach. Spend the afternoon at the beach, then pick by mood: seafood at Johnny Longboats, cocktails at Ocean Ave, the game at Castaway's or a casual stop at Two Drunken Goats. Check the beach's posted rules and warning flags before you swim.
 
-## The rest of Palm Beach Shores
+![A public beach at dusk under an orange sky, with a teal-roofed pavilion at left and condominium towers at right](/images/singer-island/public-beach-pavilion-dusk.webp "A Singer Island public beach at dusk. || Photo by John Oliver"){1400x1050}
 
-Beyond the marina, the town supports a modest number of casual places — breakfast spots, a bar or two, unfussy rooms that run on regulars rather than on passing trade.
+### A resort dinner on the oceanfront
 
-These are where you become a familiar face, and they're the reason people who live in the south end feel more like they live in a town than people in the towers do. Ask locally; the good ones don't advertise.
+Make ONA Coastal Cuisine, inside the Palm Beach Marriott Singer Island Beach Resort & Spa, the destination. The restaurant says it is open to the public, with on-site valet parking. If you aren't staying at the hotel, the restaurant is your reason to be there; leave the pool and beach services to hotel guests unless the resort tells you otherwise.
 
-## The resort and oceanfront restaurants
+![Four towers seen from the beach at sunset, with a pavilion roof in the gap between them](/images/singer-island/beach-towers-sunset.webp "Towers along Singer Island's oceanfront, from the beach at sunset. || Photo by John Oliver"){1400x1050}
 
-Along the beach in the condominium stretch, several hotels and larger buildings run restaurants open to the public, from poolside casual to more serious dining rooms.
+## Before you go
 
-**The honest assessment:** you're paying for the location, and the location is genuinely worth something — eating with the Atlantic right there is not nothing. The cooking ranges from good to unremarkable and prices reflect the setting rather than the kitchen.
+- [ ] Check the venue's official site, or call, for current hours; they can change with the season.
+- [ ] Ask about reservations or waitlists if your timing matters.
+- [ ] Look up parking before you go and follow posted signs; each town and property sets its own rules.
+- [ ] At a resort or a tower, the restaurant may be public while the pool, cabanas and beach service are for guests or residents. Ask; don't assume.
+- [ ] Don't plan around an event, a special or a live-music night without confirming it's on.
+- [ ] If you're drinking, arrange a ride home.
 
-Excellent for a sunset drink, for visitors, and for nights you don't want to travel. Rarely where residents go for the food itself.
+![An oceanfront condominium tower seen from above, with its pool and tennis courts beside the beach and the ocean at right](/images/singer-island/condo-tower-pool-beach-high-view.webp "An oceanfront tower's pool and courts, from above. Amenities like these are for residents or guests. || Photo by John Oliver"){1400x1050}
 
-## Over the bridge
+## More than seven
 
-Where residents genuinely eat when they want range.
-
-**West Palm Beach** is fifteen minutes away with a real city's food scene — the downtown, the districts around it, and everything from serious dining rooms to neighborhood places.
-
-**Palm Beach** is comparably close, with a more formal scene.
-
-**Palm Beach Gardens**, north over the second crossing, has the area's main concentration of restaurants and shopping.
-
-**Riviera Beach's mainland marina district** sits directly across the water and has seen substantial public investment, adding waterfront dining and event space.
-
-The practical consequence: enormous choice, all of it requiring a car and a bridge. Residents decide earlier in the day rather than wandering out to see what appeals.
-
-## Provisioning
-
-This shapes daily life more than restaurants do.
-
-Grocery shopping on the island is limited, so most residents do a proper shop on the mainland and keep the island for essentials. People develop a weekly rhythm combined with other errands rather than shopping daily.
-
-For anyone with a decent kitchen and an ocean view, cooking at home is a genuinely attractive alternative, and a good deal of island life organises around that.
-
-## The sunset problem, and its solution
-
-An island facing east has an obvious gap: the good evening light happens behind you.
-
-The fix is knowing which places look west. The marina at the southern end, anything on the Intracoastal side, and the mainland waterfront directly across all deliver sunset over the water with boats coming home.
-
-Residents work this out eventually. It's worth knowing in your first week rather than your second year.
-
-## Practicalities
-
-- **Season**, roughly November through April, fills the waterfront places. Reservations are worth having.
-- **Summer** is quiet, with some places on reduced hours.
-- **Bridge timing** matters more than distance — a crossing opening at the wrong moment turns fifteen minutes into thirty.
-- **Parking** at the marina fills on good evenings.
-- **Turnover** is real in resort-adjacent dining; check somewhere is trading before planning around it.
-
-## Eating on the water
-
-A category of its own here, and one of the genuine pleasures of the island.
-
-With an inlet, a charter fleet and a marina at the south end, there's reliable access to fish that came off a boat the same day — both at the counters and, if you fish yourself, straight from the cooler. Residents who cook tend to build their week around what came in rather than around a menu.
-
-For anyone with a boat, the other version is better still: running out, anchoring somewhere sheltered, and eating aboard. A fair amount of the island's best eating happens nowhere near a restaurant.
-
-## Where it actually comes together
-
-If you live in the towers, your social life runs largely through your building — pool decks, lobbies, and the informal networks inside a place where a few hundred people share an address.
-
-If you live in Palm Beach Shores, it runs through the town: the marina, the handful of local places, and the fact that you can walk to them.
-
-That difference is one of the more genuine distinctions between the two ways of living on this island, and it's covered further in our [housing guide](/blog/best-neighborhoods-in-singer-island-florida). Neither is better. But anyone choosing between a tower and a house here should understand that they're choosing between two different social arrangements, not just two building types.`,
+This isn't a complete list. There are other cafés, bars and resort restaurants on and near the island, and places open and close. For the practical side of living here, see our [local guide to Singer Island](/blog/local-guide-to-singer-island-florida), [things to do](/blog/best-things-to-do-in-singer-island-florida) and [hidden gems](/blog/hidden-gems-in-singer-island-florida), or start from the [Singer Island community guide](/communities/singer-island).`,
     faqs: [
-      { q: "Where is the best place to eat on Singer Island?", a: "The Sailfish Marina in Palm Beach Shores at the southern tip — outdoor waterfront dining with the charter fleet alongside and traffic moving through the inlet. Straightforward seafood done properly, with the setting doing the heavy lifting. It is also the most reliable place on the island to run into people you know." },
-      { q: "What is there to do in Palm Beach Shores?", a: "It functions as the island's town — small enough to walk end to end, with a marina, several restaurants and a handful of casual local places that run on regulars. The character is old Florida rather than resort Florida: unpretentious, weathered and built around boats rather than tourism." },
-      { q: "Are the oceanfront resort restaurants worth it?", a: "For the setting, often yes — eating with the Atlantic right there is genuinely worth something, and they are excellent for a sunset drink or when you do not want to travel. But the cooking ranges from good to unremarkable and prices reflect the location rather than the kitchen, so residents rarely go for the food itself." },
-      { q: "Where do Singer Island residents shop for groceries?", a: "Mostly on the mainland. Grocery shopping on the island is limited, so people do a proper shop across a bridge and keep the island for essentials, developing a weekly rhythm combined with other errands rather than shopping daily." },
-      { q: "Is the social life different in Palm Beach Shores than in the condo towers?", a: "Genuinely, and it is one of the more real distinctions on the island. Tower residents socialise largely through their building — pool decks, lobbies and informal networks. Palm Beach Shores residents socialise through the town, because they can walk to it. Choosing between a tower and a house here means choosing between two social arrangements." },
-      { q: "How far are restaurants off the island?", a: "Roughly fifteen minutes to West Palm Beach or Palm Beach, and a similar time north to Palm Beach Gardens. Bridge timing matters more than distance — a crossing opening at the wrong moment turns fifteen minutes into thirty, so leave margin when it matters." },
+      { q: "Where are the restaurants on Singer Island?", a: "They gather in a few places: the marina end of Palm Beach Shores at the south tip, where Sailfish Marina and The Buccaneer are on Lake Drive; the stretch of Ocean Avenue by Riviera Beach Municipal Beach, with Johnny Longboats, Castaway's, Two Drunken Goats and Ocean Ave Bar & Kitchen; and resort restaurants on the oceanfront, such as ONA Coastal Cuisine." },
+      { q: "Is ONA Coastal Cuisine open to the public?", a: "Yes. ONA Coastal Cuisine is inside the Palm Beach Marriott Singer Island Beach Resort & Spa, and the restaurant says it is open to the public, with on-site valet parking. The restaurant being public doesn't mean the resort's pool or beach services are, so ask before assuming." },
+      { q: "Is Palm Beach Shores part of Singer Island?", a: "Palm Beach Shores is a separate town at the south end of the island, with its own government. Sailfish Marina (98 Lake Drive) and The Buccaneer (142 Lake Drive) are both there." },
+      { q: "Who is the chef at The Buccaneer?", a: "Chef Paul Niedermann leads the kitchen at The Buccaneer Waterfront Bar & Grill in Palm Beach Shores. The restaurant says he was the season 9 winner of Hell's Kitchen on Fox." },
+      { q: "Do Singer Island restaurants take reservations?", a: "Policies vary by venue and can change. Check each venue's official site or call ahead, especially if your timing matters." },
+      { q: "Where can I watch a game on Singer Island?", a: "Castaway's Sports Bar & Grill, at 2415 N Ocean Ave by Riviera Beach Municipal Beach, describes itself as a family-owned sports bar with a long craft-beer tap list. Check its official site for hours and events." },
     ],
-    internalLinks: ["best-things-to-do-in-singer-island-florida", "best-neighborhoods-in-singer-island-florida", "local-guide-to-singer-island-florida"],
-    funFact: "The Sailfish Marina's daily fish feeding has been going on for decades — it started informally when marina workers began tossing scraps off the dock and the fish learned the routine. Now it's a scheduled daily event that draws locals and visitors alike. The fish know what time it is.",
-    author: 'john',
+    internalLinks: ["local-guide-to-singer-island-florida", "best-things-to-do-in-singer-island-florida", "hidden-gems-in-singer-island-florida"],
+    funFact: "Two of these seven, Sailfish Marina and The Buccaneer, are in the Town of Palm Beach Shores, a separate municipality at the island's south end; the Ocean Avenue restaurants have Riviera Beach addresses. It matters when you look up parking rules or event notices, because each town sets its own.",
+    author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
 
   // ===================== PALM CITY =====================
