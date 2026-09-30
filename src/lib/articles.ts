@@ -17847,7 +17847,7 @@ Sailfish Marina (98 Lake Drive) and The Buccaneer (142 Lake Drive) are both on L
 
 At Sailfish Marina, pick up frozen shrimp or bait in the gift shop and toss it to the jacks and other fish off the dock. It's one of John's favorite things to do there. Pelicans will show up for their share, so toss it low and close to the dock and hold off while they're hovering: Florida prohibits feeding pelicans, and the Florida Fish and Wildlife Conservation Commission explains [why it harms them](https://myfwc.com/conservation/you-conserve/wildlife/feeding/).
 
-Make a day of it before dinner. The marina is home to a fleet of sportfishing charter boats, and its water taxi runs out to Peanut Island and on a 90-minute narrated tour. Check the marina's [water taxi](https://sailfishmarina.com/water-taxi/) and [charter fleet](https://sailfishmarina.com/charter-fleet/) pages for current schedules, prices and booking.
+Make a day of it before dinner. The marina is home to a fleet of sportfishing charter boats, and its water taxi runs out to Peanut Island and on a 90-minute narrated tour. John has taken the tour several times, and the guides are full of stories about the island of Palm Beach, the Lake Worth Lagoon, the Rybovich marina, Peanut Island and Singer Island itself. Check the marina's [water taxi](https://sailfishmarina.com/water-taxi/) and [charter fleet](https://sailfishmarina.com/charter-fleet/) pages for current schedules, prices and booking.
 
 ![A fishing boat heading in through the Lake Worth Inlet at dusk, with a teal-roofed gazebo and palms at right and port cranes on the horizon](/images/singer-island/inlet-fishing-boat-dusk.webp "The Lake Worth Inlet at dusk, from the island's south tip. || Photo by John Oliver"){1400x788}
 
