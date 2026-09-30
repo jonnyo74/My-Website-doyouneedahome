@@ -17411,11 +17411,13 @@ Neither is an every-day activity. The same spot can be excellent one morning and
 
 Paddlers can reach it from the park's estuary. The park's [kayaking information](https://www.floridastateparks.org/learn/kayaking-macarthur-beach) describes paddling under the Burnt Bridge into the lagoon to visit the island, and kayak and paddleboard rentals are offered through the park's [paddling concession](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/high-point-paddle-adventures). Check the park and outfitter information for launches, rentals, weather, hours and current rules before you set out. Wildlife such as wading birds, and sometimes manatees, may be seen, depending on conditions; keep a respectful distance.
 
-![A high view north-west over the lagoon off Singer Island's north end, with small mangrove islands, a shoreline road and big cumulus clouds](/images/singer-island/north-lagoon-mangrove-islands.webp "The lagoon off the island's north end, from a high-rise. || Photo by John Oliver"){1400x1050}
+![A high view over Singer Island's lagoon-side house streets to the lagoon, with Munyon Island, a long wooded island, in the distance](/images/singer-island/munyon-island-lagoon-distance.webp "Munyon Island, in the distance across the lagoon, from a Singer Island high-rise. || Photo by John Oliver"){1400x788}
 
 ## MacArthur Beach beyond the obvious
 
 *At the island's north end, in North Palm Beach; park admission applies.* [John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) is the natural counterpoint to the tower corridor. According to the park's [experiences and amenities page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/experiences-amenities), it has a nature center with exhibits, nature trails through coastal hammock, an estuary for paddling, and the park's beach.
+
+![A high view north-west over the lagoon off Singer Island's north end, with small mangrove islands, a shoreline road and big cumulus clouds](/images/singer-island/north-lagoon-mangrove-islands.webp "The lagoon off the island's north end, from a high-rise. || Photo by John Oliver"){1400x1050}
 
 Go in the morning and take your time on the estuary side, where wading birds may be feeding in the shallows. Check the park's [hours and fees](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/hours-fees) and current notices before you go; don't assume lifeguards are on duty, and use the park's own entrances and trails rather than walking in along the beach from outside it. Programs change through the year, and the park's citizen-support group, the [Friends of MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/friends-macarthur-beach-state-park), publicizes its events.
 
