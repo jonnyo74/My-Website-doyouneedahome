@@ -182,6 +182,9 @@ export default async function ArticlePage({ params }: Props) {
     editorial?.tocAfterIntro && !bodyParts && introAt > 0
       ? [article.body.slice(0, introAt), article.body.slice(introAt)]
       : null
+  // The quick-fit module can sit between the introduction and the contents,
+  // but only when the introduction was actually split off.
+  const quickFitAfterIntro = Boolean(editorial?.quickFit?.afterIntro && introSplit)
   // Cities whose listings widget runs a hand-built house search (Singer Island)
   // label it as houses, and point condo shoppers at the condo search.
   const citySearch = getYlopoCitySearch(article.cityName)
@@ -355,7 +358,7 @@ export default async function ArticlePage({ params }: Props) {
 
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
         {editorial?.keyFactors && <KeyFactors data={editorial.keyFactors} />}
-        {editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
+        {editorial?.quickFit && !quickFitAfterIntro && <QuickFit data={editorial.quickFit} />}
         {editorial?.guide && <DiscoveryGuide guide={editorial.guide} />}
         {editorial?.comparison && <ComparisonGuide comparison={editorial.comparison} />}
 
@@ -366,6 +369,7 @@ export default async function ArticlePage({ params }: Props) {
           {introSplit ? (
             <>
               <BodyWithTool content={introSplit[0]} tool={editorial?.tool} />
+              {quickFitAfterIntro && editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
               {sections.length > 0 && <ArticleToc sections={sections} />}
               <BodyWithTool content={introSplit[1]} tool={editorial?.tool} />
             </>

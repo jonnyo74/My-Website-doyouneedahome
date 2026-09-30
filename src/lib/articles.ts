@@ -155,6 +155,11 @@ export interface ArticleEditorial {
   secondaryCta: ArticleLink
   quickFit?: {
     heading?: string          // module label; defaults to 'The short version'
+    // 'cards' sets the two columns in bordered cards; the default is plain columns.
+    variant?: 'cards'
+    // Renders the module after the body's opening paragraphs rather than above
+    // them. Needs tocAfterIntro, which is what splits off the introduction.
+    afterIntro?: boolean
     fitHeading: string
     fit: string[]
     elsewhereHeading: string
@@ -16864,114 +16869,145 @@ After that, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida
     cityName: 'Singer Island',
     type: "Who Should Move To",
     order: 5,
-    seoTitle: "Who Should Move to Singer Island, Florida (And Who Shouldn't)",
-    metaTitle: "Who Should Move to Singer Island, FL",
-    metaDescription: "Singer Island isn't for everyone. An honest look at who thrives in this oceanfront condo community — and who would be happier in a low-rise beach town.",
+    seoTitle: "Who Should Move to Singer Island, FL? An Honest Guide",
+    metaTitle: "Who Should Move to Singer Island, FL? An Honest Guide",
+    metaDescription: "An honest Singer Island fit guide: oceanfront living, second homes, condo ownership, housing costs, bridge access, and the trade-offs to consider.",
     primaryKeyword: "who should move to Singer Island Florida",
-    secondaryKeywords: ["is Singer Island right for me", "should I move to Singer Island", "who lives on Singer Island"],
+    secondaryKeywords: ["is Singer Island right for me", "should I move to Singer Island", "Singer Island condo or house", "Singer Island second home"],
     h1: "Who Should Move to Singer Island, Florida (And Who Shouldn't)",
     heroImage: '/images/singer-island/yellow-house-palms-hero.webp',
     heroImageAlt: "A yellow two-story house with a white porch and palm trees on a Singer Island street",
+    heroImageCaption: "A single-family house on Singer Island",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '45% 50%',
-    body: `Singer Island is one of the most self-selecting places in Palm Beach County. It does a specific thing extremely well and almost nothing else, which makes the fit question unusually clean.
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Singer Island · Fit Guide',
+      deck: "Oceanfront living, second homes, condo ownership, housing costs and bridge access: the trade-offs to weigh before you buy.",
+      mobileImage: { src: '/images/singer-island/yellow-house-palms-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Houses or condos: the area guide', href: '/blog/best-neighborhoods-in-singer-island-florida' },
+      quickFit: {
+        heading: 'Singer Island fit at a glance',
+        variant: 'cards',
+        afterIntro: true,
+        fitHeading: 'You may value Singer Island if you prioritize:',
+        fit: [
+          'Direct beach or water access',
+          'Condo amenities and shared exterior maintenance',
+          'Building-specific due diligence and shared governance',
+          "A second-home or lock-and-leave format, after verifying the building's procedures",
+          'Boating, snorkeling, diving, or coastal recreation',
+          'Access to mainland destinations while accepting bridge-dependent travel',
+        ],
+        elsewhereHeading: 'Pause before buying if you need:',
+        elsewhere: [
+          'A traditional walkable downtown for everyday errands',
+          'Predictable housing costs without association or insurance exposure',
+          'Complete control over property changes and operations',
+          'Frequent urgent or time-critical trips without bridge dependency',
+          'A house, yard, or dock without a narrow and competitive search',
+        ],
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Singer Island does a few things well and asks for a few trade-offs that don't change. The useful question isn't who belongs here. It's whether the island's daily reality matches the way you want to live, own property, travel and manage housing costs.
 
-## The people this island fits
+## What the island offers
 
-**The buyer who genuinely wants to live on the ocean.** Not near it, not with a view of it — on it, with the beach downstairs and surf audible from the bedroom. If that's the actual requirement, the alternatives in this county are the estate islands at several times the price. This is the attainable version and there isn't really a substitute.
+**Living on the water, not near it.** If the requirement is the beach downstairs or the lagoon outside the window, the island's oceanfront condominiums and waterfront homes make that possible.
 
-*Verify:* which floor and which exposure. Height, direction and what's between you and the water change the experience enormously, and they change the price accordingly.
+*Verify:* which floor and which exposure. Height, direction and what's between you and the water change the experience, and they change the price.
 
-**The seasonal or second-home owner.** This is a large share of the island and the arrangement suits it perfectly. Lock the door in April, come back in November, and the building has handled everything.
+![A wide, empty Atlantic beach at dawn on Singer Island, with condominium towers set back from the sand](/images/singer-island/ocean-beach-tower-corridor.webp "The Atlantic beach at dawn, with the island's condominium towers behind it. || Photo by John Oliver"){1400x1050}
 
-*Verify:* the tax position. Homestead exemption and the assessment cap apply only to a primary residence, so a second home carries the full unmitigated bill — a detail our [cost breakdown](/blog/cost-of-living-in-singer-island-florida) treats seriously because it catches people out.
+**Condo amenities and shared exterior maintenance.** In a condominium, the association looks after the building, the grounds and the shared amenities. You pay for that through fees and, when needed, special assessments.
 
-**The diver.** The bridge dive alone justifies the postcode for a certain kind of person, and the offshore reefs and short inlet run compound it. Few places let you dive world-class sites this casually.
+**Seasonal or second-home ownership.** A condo can suit seasonal ownership when the association's operations, insurance, storm procedures, maintenance responsibilities, rental rules, and absentee-owner expectations match the buyer's plan. Verify those details before assuming a unit is truly lock-and-leave.
 
-**The boater and offshore angler.** The Lake Worth Inlet is deep, maintained and reliable, and the Gulf Stream is close. Running time to good water is short.
+*Verify:* the tax position. Florida homestead and Save Our Homes benefits are generally tied to a permanent residence. Confirm the tax treatment of the specific property with the [Palm Beach County Property Appraiser](https://pbcpao.gov/homestead-exemption.htm) or a qualified tax professional. The Florida Department of Revenue explains the [exemptions and the Save Our Homes limitation](https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx). Our [cost breakdown](/blog/cost-of-living-in-singer-island-florida) shows how this feeds into carrying costs.
 
-*Verify:* dockage, which is in demand and priced accordingly. Establish where the boat will actually live before you buy the unit.
+**Water recreation.** The [Blue Heron Bridge / Phil Foster area](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) is internationally recognized for marine life, while boating and fishing access depend on weather, tides, vessel, channel conditions, and current operator availability. Our [guide to things to do on the island](/blog/best-things-to-do-in-singer-island-florida) covers the options.
 
-**The downsizer.** People leaving a large house often find this ideal — no roof, no lawn, no pool to maintain, and an ocean instead. The transition from house to tower is easier when the view compensates.
+*Verify:* dockage, if a boat is part of the plan. Establish where the boat will live, what conveys or is available, and what it costs before you buy.
 
-**The buyer who wants a city close but not around them.** West Palm Beach is fifteen minutes away. You get its restaurants, arts, medicine and airport without living in it.
+**Mainland access, by bridge.** Mainland destinations are within reach without living on the mainland, but every trip starts with a bridge. The routes are covered below.
 
-## The people who tend to regret it
+## The trade-offs that are hardest to live with
 
-**Anyone who wants a house and a yard.** Outside Palm Beach Shores there's essentially nothing, and that market is small and expensive. Buyers who want a garden should look at the mainland and will get far more for the money.
+**A house and a yard.** Palm Beach Shores is one single-family option, but Singer Island also has limited home-oriented pockets commonly marketed as Palm Beach Isles and Yacht Harbor-area communities. Property type, dockage, municipality, and access vary by listing, so verify the specific address rather than relying on a broad area label. The search is narrow, so if a yard is the main requirement, compare mainland options too.
 
-**Anyone who dislikes being governed.** Condo living means a board, rules, fees you don't set, and decisions made collectively about your building. Some people find this restful. Others find it maddening, and they generally know which they are.
+**Shared governance.** Condo living means a board, rules, fees you don't set, and decisions made collectively about your building. Some buyers find that restful; others don't. Read the governing documents and recent minutes before you decide which you are.
 
-**The buyer who wants a walkable town.** There isn't one on the island. No main street, no shops to stroll, no restaurant row. Everything beyond the beach involves a bridge.
+**A walkable downtown.** The island is primarily residential and recreational, with no traditional walkable downtown. Expect to drive for many everyday errands.
 
-**The budget-constrained buyer.** The purchase price can look reachable and the carrying costs frequently aren't. Fees, both insurance layers and the real possibility of a special assessment are the actual cost of being here.
+**Predictable housing costs.** The purchase price is only part of the cost. In a condo, association fees, insurance and the possibility of special assessments are part of ownership. In a house, you carry the roof, wind and flood insurance, maintenance and, on the water, the seawall and dock yourself. Budget for both the known costs and the variable ones.
 
-**Anyone who needs quiet certainty about costs.** On an island of ageing towers, special assessments are a genuine feature of ownership. If an unexpected five-figure bill would be a crisis rather than an annoyance, this is the wrong market.
+## Getting on and off the island
 
-## Work and commuting
+Singer Island gives residents two bridge-dependent routes toward Riviera Beach/West Palm Beach and Palm Beach Gardens. The practical experience depends on the exact building, destination, bridge openings, road work, time of day, and season. Test the routes that matter to you in the conditions when you will actually use them.
 
-The island's location is better than its isolation suggests:
+![The Blue Heron Bridge crossing the Lake Worth Lagoon on concrete piers, with high-rises in the distance](/images/singer-island/blue-heron-bridge-lagoon.webp "The Blue Heron Bridge over the Lake Worth Lagoon, one of the island's two routes to the mainland. || Photo by John Oliver"){1400x1050}
 
-- **West Palm Beach** is the nearest major employment concentration and a short drive.
-- **Palm Beach Gardens** is reachable over the north bridge and holds substantial office and medical employment.
-- **Palm Beach** is minutes away across the inlet by road.
-- **Fort Lauderdale** is a real commute but manageable a couple of days a week.
-- **Miami** is not a realistic daily proposition.
-
-**President Donald J. Trump International Airport** is genuinely close, which matters disproportionately for seasonal owners and anyone who travels.
-
-**Brightline** runs from West Palm Beach with fast service to Fort Lauderdale, Miami and Orlando.
-
-The variable nobody accounts for is the bridge. Both crossings open for boat traffic and both back up in season. Build margin into anything time-critical, and drive your route in February before assuming July's timings hold.
+For longer trips, [Brightline](https://www.gobrightline.com/) passenger rail serves a station in West Palm Beach. Check its current routes and schedules if rail travel is part of your plan.
 
 ## The house-or-unit decision, restated
 
-If there's one thing to settle before viewing anything, it's this — because it determines which island you're actually buying into.
+If there's one thing to settle before viewing anything, it's this, because it determines which version of the island you're buying into.
 
-**A unit** gets you the ocean, the amenities and the freedom to leave for months, at the cost of governance, fees and a share in whatever the building eventually needs.
+**A unit** gets you the building's amenities and, in many buildings, oceanfront or water views, at the cost of shared governance, fees and a share in whatever the building needs.
 
-**A house in the southern town** gets you a street, a yard and control, at the cost of scarcity, higher exposure, and carrying every maintenance and insurance line yourself.
+**A house** gets you a street, a yard and more direct control, at the cost of a limited supply and carrying every maintenance and insurance line yourself.
 
-People who are genuinely undecided between the two usually want the house and are talking themselves into the unit on price. That's worth noticing before rather than after.
+| Condominium ownership | Single-family ownership |
+|---|---|
+| Shared building operations and governance | More direct property control |
+| Association budget, reserves, insurance, assessments, rules | Property-level roof, flood, wind, insurance, dock, maintenance checks |
+| Oceanfront and amenity access may be more available | Supply is limited and property characteristics vary sharply |
+| Review association documents before offering | Review inspections, permits, elevation, insurance, and property records |
+
+![High-rise view west over Singer Island's lagoon-side streets of single-family houses and canals, with condominium towers in the foreground and the Blue Heron Bridge in the distance](/images/singer-island/lagoon-side-houses-aerial.webp "Condominium towers and the lagoon-side house streets, seen from a high-rise. || Photo by John Oliver"){1400x1050}
+
+If you're undecided, notice whether price is the only thing pushing you toward one or the other. Our [area guide](/blog/best-neighborhoods-in-singer-island-florida) covers where each type sits on the island.
 
 ## The test worth running
 
-Rent a unit for a month, ideally in August.
+Spend real time in the exact area before you commit. If you can, rent there, and include the off-season as well as the busy months: the year-round island can feel different from the seasonal one.
 
-The seasonal version of this island is easy to love. The year-round version is hotter, quieter, and more dependent on your building than newcomers expect. A month in the off-season tells you whether you like the actual place or the holiday version of it.
+If you can't rent, visit the building on a weekday morning as well as a weekend, and ask for the association's recent budgets, financial statements, reserve information and board minutes before you get attached to a view.
 
-If you can't rent, at minimum: visit a building at nine on a weekday morning rather than on a Sunday afternoon, and ask the association for the last three years of financials before you get attached to a view.
+## Healthcare access and daily logistics
 
-## One more consideration: medical access
+The island itself is primarily residential and recreational. Anyone who prioritizes regular medical appointments, specialist access, caregiving, or time-sensitive travel should map the actual routes and providers relevant to their own needs before choosing a building.
 
-Worth raising because a meaningful share of buyers here are retirees or approaching retirement.
-
-The island itself has no hospital, so anything urgent means a bridge. That's a short drive under normal conditions and a genuine consideration during an evacuation or a bridge closure.
-
-The compensating fact is that West Palm Beach has a substantial concentration of hospitals and specialists within about fifteen minutes, which is better access than a great many Florida coastal communities offer. Worth confirming what your own situation requires before committing.
+![Singer Island's condominium skyline and lagoon-side homes seen across the Lake Worth Lagoon, with boats anchored off the shore](/images/singer-island/lagoon-view-island-skyline-hero.webp "Singer Island from across the Lake Worth Lagoon. || Photo by John Oliver"){2048x1152}
 
 ## The gut check
 
-Singer Island works for people whose priority is the ocean itself and who are comfortable with buildings, boards and bridges.
+Singer Island works well for buyers whose priority is direct access to the water and who are comfortable with the building, the association and the bridge that come with it.
 
-It works poorly for people who wanted a beach town, a house, predictable costs, or the ability to walk somewhere for coffee.
+It works less well for buyers who want a walkable downtown, a wide choice of houses, predictable costs, or complete control over their property.
 
-The clearest way to test yourself: if the phrase "special assessment" makes you want to read the financials, you'll be fine here. If it makes you want to change the subject, look at the mainland — our [comparison guide](/blog/singer-island-vs-nearby-cities) covers the alternatives properly.`,
+A practical test: if reading an association's budget, reserves and minutes sounds like reasonable homework, the condo side of the island may suit you. If it doesn't, look closely at the island's houses or at the mainland. Our [comparison guide](/blog/singer-island-vs-nearby-cities) covers the alternatives.`,
     faqs: [
-      { q: "Who should move to Singer Island?", a: "People who genuinely want to live on the ocean rather than near it, seasonal and second-home owners who value lock-and-leave simplicity, divers and offshore anglers, downsizers leaving a large house, and anyone who wants a city fifteen minutes away rather than around them." },
-      { q: "Who should avoid Singer Island?", a: "Anyone who wants a house and a yard, anyone who dislikes condo governance and boards, anyone who wants a walkable town, and anyone for whom an unexpected five-figure special assessment would be a crisis rather than an annoyance. On an island of ageing towers, assessments are a genuine feature of ownership." },
-      { q: "Is Singer Island good for a second home?", a: "Unusually well suited to it — lock the door in April, return in November, and the building has handled everything. The important caveat is tax: homestead exemption and the Save Our Homes assessment cap apply only to a primary residence, so a second home carries the full unmitigated bill." },
-      { q: "Can I commute to work from Singer Island?", a: "West Palm Beach is the nearest major employment concentration and a short drive, Palm Beach Gardens is reachable over the north bridge, and Palm Beach is minutes away. Fort Lauderdale is manageable a couple of days a week; Miami is not realistic daily. The variable nobody accounts for is bridge openings and season traffic." },
-      { q: "What is the best way to test whether Singer Island suits me?", a: "Rent a unit for a month, ideally in August. The seasonal version of the island is easy to love; the year-round version is hotter, quieter and more dependent on your building than newcomers expect. If you cannot rent, visit a building on a weekday morning and read three years of association financials." },
-      { q: "How do I know if condo living will suit me?", a: "A useful test: if the phrase \"special assessment\" makes you want to read the financials, you will probably be fine here. If it makes you want to change the subject, the mainland will suit you better — condo ownership means a board, rules and costs decided collectively about your building." },
+      { q: "Who is Singer Island a good fit for?", a: "Buyers who prioritize direct beach or water access; condo amenities and shared exterior maintenance; building-specific due diligence and shared governance; a second-home or lock-and-leave format, after verifying the building's procedures; boating, snorkeling, diving, or coastal recreation; and access to mainland destinations while accepting bridge-dependent travel." },
+      { q: "When should I pause before buying on Singer Island?", a: "If you need a traditional walkable downtown for everyday errands; predictable housing costs without association or insurance exposure; complete control over property changes and operations; frequent urgent or time-critical trips without bridge dependency; or a house, yard, or dock without a narrow and competitive search." },
+      { q: "Can you buy a house with a yard on Singer Island?", a: "Palm Beach Shores is one single-family option, but Singer Island also has limited home-oriented pockets commonly marketed as Palm Beach Isles and Yacht Harbor-area communities. Property type, dockage, municipality, and access vary by listing, so verify the specific address rather than relying on a broad area label." },
+      { q: "Is Singer Island good for a second home?", a: "A condo can suit seasonal ownership when the association's operations, insurance, storm procedures, maintenance responsibilities, rental rules, and absentee-owner expectations match the buyer's plan. Verify those details before assuming a unit is truly lock-and-leave. Florida homestead and Save Our Homes benefits are generally tied to a permanent residence. Confirm the tax treatment of the specific property with the Palm Beach County Property Appraiser or a qualified tax professional." },
+      { q: "How do you get to the mainland from Singer Island?", a: "Singer Island gives residents two bridge-dependent routes toward Riviera Beach/West Palm Beach and Palm Beach Gardens. The practical experience depends on the exact building, destination, bridge openings, road work, time of day, and season. Test the routes that matter to you in the conditions when you will actually use them." },
+      { q: "Should I buy a condo or a house on Singer Island?", a: "A condominium means shared building operations and governance, with the association's budget, reserves, insurance, assessments and rules to review before you offer, and oceanfront and amenity access may be more available. A house means more direct property control, with the roof, flood, wind, insurance, dock and maintenance checked at the property level, from a limited supply whose characteristics vary sharply." },
+      { q: "What is the best way to test whether Singer Island suits me?", a: "Spend real time in the exact area before you commit. If you can, rent there, and include the off-season as well as the busy months. If you can't rent, visit the building on a weekday morning as well as a weekend, and ask for the association's recent budgets, financial statements, reserve information and board minutes before you get attached to a view." },
     ],
     internalLinks: ["pros-and-cons-of-living-in-singer-island-florida", "cost-of-living-in-singer-island-florida", "best-neighborhoods-in-singer-island-florida"],
-    funFact: "A large share of Singer Island residents are not full-time — many condos are snowbird homes or short-term rentals. That gives the island a resort energy year-round but means the community has a more transient character than a typical neighborhood. If you want deep roots, buy in Palm Beach Shores.",
+    funFact: "The most important Singer Island distinction is often not the address—it is the ownership model. A condo buyer should understand the association and building operations; a house buyer should understand property-level maintenance, insurance, elevation, and exposure. Spend time in the exact area and read the documents before deciding.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'pros-and-cons-of-living-in-singer-island-florida',
