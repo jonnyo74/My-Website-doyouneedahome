@@ -19,6 +19,43 @@ function formatDate(iso: string) {
   })
 }
 
+/** Newest items shown up front; the rest fold away so the section stays short on phones. */
+const VISIBLE = 3
+
+function NewsItem({ item }: { item: WhatsNewItem }) {
+  return (
+    <li className="rounded-2xl border border-slate-200 bg-white p-6">
+      <time dateTime={item.date} className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
+        {formatDate(item.date)}
+      </time>
+      <h3 className="mt-2 font-serif text-lg font-semibold text-slate-900">{item.headline}</h3>
+      <p className="mt-2 leading-7 text-slate-600">{item.take}</p>
+      <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+        <span className="text-slate-500">
+          Source:{' '}
+          {item.source.url ? (
+            <a
+              href={item.source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-gold-600 transition hover:text-gold-700"
+            >
+              {item.source.name}
+            </a>
+          ) : (
+            <span className="font-medium text-slate-700">{item.source.name}</span>
+          )}
+        </span>
+        {item.link && (
+          <Link href={item.link.href} className="font-semibold text-gold-600 transition hover:text-gold-700">
+            {item.link.label} →
+          </Link>
+        )}
+      </div>
+    </li>
+  )
+}
+
 export default function WhatsNew({
   cityName,
   items,
@@ -31,6 +68,8 @@ export default function WhatsNew({
 }) {
   if (items.length === 0) return null
   const sorted = [...items].sort((a, b) => b.date.localeCompare(a.date))
+  const shown = sorted.slice(0, VISIBLE)
+  const older = sorted.slice(VISIBLE)
 
   return (
     <section aria-labelledby="whats-new-heading">
@@ -43,38 +82,25 @@ export default function WhatsNew({
         {updated && <> Last updated <time dateTime={updated}>{formatDate(updated)}</time>.</>}
       </p>
       <ol className="mt-6 space-y-4">
-        {sorted.map((item) => (
-          <li key={`${item.date}-${item.headline}`} className="rounded-2xl border border-slate-200 bg-white p-6">
-            <time dateTime={item.date} className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
-              {formatDate(item.date)}
-            </time>
-            <h3 className="mt-2 font-serif text-lg font-semibold text-slate-900">{item.headline}</h3>
-            <p className="mt-2 leading-7 text-slate-600">{item.take}</p>
-            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-              <span className="text-slate-500">
-                Source:{' '}
-                {item.source.url ? (
-                  <a
-                    href={item.source.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium text-gold-600 transition hover:text-gold-700"
-                  >
-                    {item.source.name}
-                  </a>
-                ) : (
-                  <span className="font-medium text-slate-700">{item.source.name}</span>
-                )}
-              </span>
-              {item.link && (
-                <Link href={item.link.href} className="font-semibold text-gold-600 transition hover:text-gold-700">
-                  {item.link.label} →
-                </Link>
-              )}
-            </div>
-          </li>
+        {shown.map((item) => (
+          <NewsItem key={`${item.date}-${item.headline}`} item={item} />
         ))}
       </ol>
+      {/* Native disclosure: no JavaScript, and the folded items stay in the HTML for search. */}
+      {older.length > 0 && (
+        <details className="group mt-4">
+          <summary className="inline-flex cursor-pointer list-none items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-gold-500 hover:text-gold-600 [&::-webkit-details-marker]:hidden">
+            <span className="group-open:hidden">More {cityName} news ({older.length})</span>
+            <span className="hidden group-open:inline">Show less</span>
+            <span aria-hidden="true" className="transition group-open:rotate-180">▾</span>
+          </summary>
+          <ol start={VISIBLE + 1} className="mt-4 space-y-4">
+            {older.map((item) => (
+              <NewsItem key={`${item.date}-${item.headline}`} item={item} />
+            ))}
+          </ol>
+        </details>
+      )}
     </section>
   )
 }
