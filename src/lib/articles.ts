@@ -16874,7 +16874,7 @@ After that, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida
     metaDescription: "An honest Singer Island fit guide: oceanfront living, second homes, condo ownership, housing costs, bridge access, and the trade-offs to consider.",
     primaryKeyword: "who should move to Singer Island Florida",
     secondaryKeywords: ["is Singer Island right for me", "should I move to Singer Island", "Singer Island condo or house", "Singer Island second home"],
-    h1: "Who Should Move to Singer Island, Florida (And Who Shouldn't)",
+    h1: "Is Singer Island Right for You? An Honest Fit Guide",
     heroImage: '/images/singer-island/yellow-house-palms-hero.webp',
     heroImageAlt: "A yellow two-story house with a white porch and palm trees on a Singer Island street",
     heroImageCaption: "A single-family house on Singer Island",
