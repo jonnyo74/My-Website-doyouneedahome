@@ -7,9 +7,11 @@ type QuickFitData = NonNullable<ArticleEditorial['quickFit']>
 // its own, so edit the record, not this file, if the wording needs to change.
 export default function QuickFit({ data }: { data: QuickFitData }) {
   const cards = data.variant === 'cards'
+  const neutral = Boolean(data.third)
   const columns = [
-    { heading: data.fitHeading, items: data.fit, mark: '+' },
-    { heading: data.elsewhereHeading, items: data.elsewhere, mark: '–' },
+    { heading: data.fitHeading, items: data.fit, mark: neutral ? '•' : '+' },
+    { heading: data.elsewhereHeading, items: data.elsewhere, mark: neutral ? '•' : '–' },
+    ...(data.third ? [{ heading: data.third.heading, items: data.third.items, mark: '•' }] : []),
   ]
   return (
     <section
@@ -19,7 +21,13 @@ export default function QuickFit({ data }: { data: QuickFitData }) {
       <h2 id="quick-fit-heading" className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">
         {data.heading ?? 'The short version'}
       </h2>
-      <div className={cards ? 'mt-4 grid gap-4 md:grid-cols-2 md:gap-5' : 'mt-5 grid gap-8 md:grid-cols-2 md:gap-10'}>
+      <div
+        className={
+          cards
+            ? `mt-4 grid gap-4 md:gap-5 ${neutral ? 'md:grid-cols-3' : 'md:grid-cols-2'}`
+            : 'mt-5 grid gap-8 md:grid-cols-2 md:gap-10'
+        }
+      >
         {columns.map((col) => (
           <div
             key={col.heading}
