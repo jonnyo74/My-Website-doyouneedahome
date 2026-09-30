@@ -160,6 +160,9 @@ export interface ArticleEditorial {
     // Renders the module after the body's opening paragraphs rather than above
     // them. Needs tocAfterIntro, which is what splits off the introduction.
     afterIntro?: boolean
+    // An optional third group. With it, the module reads as a neutral list of
+    // groups (plain bullets, three columns) rather than a fit/elsewhere pair.
+    third?: { heading: string; items: string[] }
     fitHeading: string
     fit: string[]
     elsewhereHeading: string
@@ -194,8 +197,9 @@ export interface ArticleEditorial {
   // with copy and print affordances.
   checklist?: ArticleChecklistData
   // "after-expert-note" moves the lead-magnet CTA out of the reading flow to sit
-  // under the Local Expert Note, and drops the end-of-article repeat.
-  magnetPlacement?: 'after-expert-note'
+  // under the Local Expert Note, and drops the end-of-article repeat. "none"
+  // leaves the report CTA off the page entirely (the closing step, if any, stays).
+  magnetPlacement?: 'after-expert-note' | 'none'
   // Stands in for the end-of-article lead-magnet CTA, which otherwise repeats
   // the inline offer word for word a few screens later.
   closingStep?: { eyebrow: string; text: string; cta: ArticleLink }
@@ -17166,112 +17170,185 @@ If you've done all six and still want to wake up on the Atlantic, Singer Island 
     cityName: 'Singer Island',
     type: "Cost Of Living In",
     order: 7,
-    seoTitle: "Cost of Living on Singer Island, Florida",
-    metaTitle: "Cost of Living on Singer Island, Florida",
-    metaDescription: "What it costs to live on Singer Island, Florida — oceanfront condo prices, HOA fees, and insurance, plus more attainable options on this beach barrier island.",
+    seoTitle: "Cost of Living on Singer Island, FL | What to Budget",
+    metaTitle: "Cost of Living on Singer Island, FL | What to Budget",
+    metaDescription: "What it actually costs to own on Singer Island: projected taxes, insurance, condo fees, reserves, utilities, and second-home planning.",
     primaryKeyword: "cost of living on Singer Island Florida",
-    secondaryKeywords: ["Singer Island condo prices", "is Singer Island expensive", "Singer Island HOA fees"],
+    secondaryKeywords: ["Singer Island ownership costs", "Singer Island condo fees", "Singer Island property taxes", "Singer Island insurance", "Singer Island second home costs"],
     h1: "Cost of Living on Singer Island, Florida",
-    heroImage: '/images/singer-island/blue-ranch-house-hero.webp',
-    heroImageAlt: "A single-story blue house with a circular drive on a Singer Island street",
+    heroImage: '/images/singer-island/island-towers-inlet-view-hero.webp',
+    heroImageAlt: "A high view south over Singer Island's condominium towers and house streets to the lagoon, with Peanut Island and boats at anchor beyond",
+    heroImageCaption: "Singer Island's towers and house streets, looking south to the lagoon and Peanut Island",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     heroImagePosition: '60% 50%',
     showMarketTrends: true,
-    body: `Singer Island is a place where the purchase price tells you unusually little about what it costs to live there. Barrier-island exposure, two municipalities and a housing stock split between ageing towers and a small single-family town all pull in different directions.
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Singer Island · Cost of Ownership',
+      deck: "Taxes, insurance, condominium fees and reserves, upkeep and second-home planning: what to budget beyond the listing price, and how to find the numbers for a specific property.",
+      mobileImage: { src: '/images/singer-island/island-towers-inlet-view-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'Pros and cons of island living', href: '/blog/pros-and-cons-of-living-in-singer-island-florida' },
+      quickFit: {
+        heading: 'Your Singer Island ownership number',
+        variant: 'cards',
+        afterIntro: true,
+        fitHeading: 'One-time and closing costs to estimate',
+        fit: [
+          'Down payment and financing costs',
+          'Closing costs and title work',
+          'Inspections, surveys and appraisal',
+          'Any association application or transfer fees',
+        ],
+        elsewhereHeading: 'Recurring monthly or annual costs',
+        elsewhere: [
+          'Mortgage payment',
+          'Property taxes and any non-ad valorem assessments',
+          'Insurance: homeowners or HO-6, wind and flood as applicable',
+          'Condominium or association fees',
+          'Utilities not included in a fee',
+          'Maintenance and reserve allowances',
+        ],
+        third: {
+          heading: 'Building- or property-specific costs that can change',
+          items: [
+            'Special assessments, approved or proposed',
+            'Fee increases tied to insurance, repairs or reserves',
+            'Insurance deductibles after a loss',
+            'Parking, storage or amenity charges',
+            'Dock, marina and boat costs, if boating matters',
+          ],
+        },
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `On Singer Island, the purchase price tells you surprisingly little about what it costs to own. The real number is the total cost of ownership: taxes, insurance, association fees and reserves, upkeep, and the costs that can change after you buy.
 
-Here's what actually drives the number.
+That number depends on the exact property: condominium or house, which municipality, which building, and how you plan to use it. What follows is a framework for finding it. Which items apply, and how much each costs, varies by property.
 
-## Housing, in two very different markets
+## Housing: compare ownership models, not markets
 
-**Single-family in Palm Beach Shores** is the scarce product — a small town on finite land, priced as coastal houses rather than as units. Supply is thin and competitive, and the carrying costs are all yours: wind, flood, roof, maintenance, and the full exposure of a lot near an inlet mouth.
+Singer Island's homes fall into a few ownership models, and each carries different costs to investigate.
 
-**Condominiums** make up the rest of the island, spanning newer luxury oceanfront through established mid-tier buildings to older blocks and Intracoastal-side units. Relative to the estate islands nearby, direct oceanfront here is genuinely more attainable — that's the island's core value argument and it holds.
+| Home type | Cost categories to investigate |
+|---|---|
+| Oceanfront and Intracoastal condominiums | Association fee and what it covers, reserves and structural integrity reserve study where applicable, special assessments, the master policy and your HO-6 policy, parking and storage |
+| Palm Beach Shores single-family homes | Property taxes in a separate incorporated town, homeowners, wind and flood insurance, roof and openings, exterior maintenance, permits under town rules |
+| Palm Beach Isles and Yacht Harbor single-family homes | Property taxes in Riviera Beach, homeowners, wind and flood insurance, roof and openings, and on waterfront lots, dock and seawall condition |
 
-The two markets behave differently enough that averaging them produces a meaningless number. Our [housing guide](/blog/best-neighborhoods-in-singer-island-florida) separates them properly.
+Listings don't always use these names, so confirm the municipality and property records for the exact address. Our [area guide](/blog/best-neighborhoods-in-singer-island-florida) covers where each type sits on the island.
 
-## Insurance — the dominant variable
+## Property taxes: why the listing's number may not be yours
 
-On a barrier island this is frequently the line item that decides what you can actually afford.
+The tax figure on a listing reflects the property's current assessment and the current owner's exemptions. It is not automatically your future bill.
 
-**For a house in Palm Beach Shores**, you carry everything: windstorm, flood, and general hazard, on some of the most exposed residential land in the county. The drivers are elevation, roof age and type, construction, impact protection and distance from open water. An elevation certificate can change the flood number materially.
+**A sale changes the assessment.** After a change of ownership, Florida reassesses the property at just value as of the following January 1, and the prior owner's exemptions and Save Our Homes benefit do not carry over. The Florida Department of Revenue's [guide for new homeowners (PT-107)](https://floridarevenue.com/property/Documents/pt107.pdf) explains how this works.
 
-Get real quotes on the specific address before you're under contract. On this island that advice isn't boilerplate — it routinely changes which houses are viable.
+**Homestead depends on you, not the location.** The homestead exemption and the Save Our Homes assessment limitation depend on whether the property is your permanent residence and whether you apply, not on where it is. The Department of Revenue summarizes [the exemptions and Save Our Homes](https://floridarevenue.com/property/pages/Taxpayers_Exemptions.aspx).
 
-**For a condominium**, insurance arrives in two layers: the association's master policy on the structure, which forms a large part of your monthly fee, and your own policy covering the interior, contents and liability. Where one ends and the other begins is a boundary worth establishing before closing rather than after a loss.
+**Portability is individual.** If you are giving up a prior Florida homestead, you may be able to transfer some of its Save Our Homes benefit. Whether you qualify, and how much transfers, depends on your situation; verify it with the [Palm Beach County Property Appraiser](https://pbcpao.gov/portability.htm).
 
-## Property taxes
+**The parcel sets the rates.** Local millage and non-ad valorem assessments depend on the exact parcel and jurisdiction: most of the island is in the City of Riviera Beach, and the south end is the Town of Palm Beach Shores. The Tax Collector's [Tax Planner & Services Guide](https://www.pbctax.gov/wp-content/uploads/2026/01/TPSG-2026-FNL-comprssed-1.pdf) explains the bill and its deadlines.
 
-Florida has **no state income tax**, which matters here given how much ownership is seasonal or second-home.
+Estimate your projected taxes from the exact parcel with the Property Appraiser or a qualified tax professional.
 
-The island sits in Palm Beach County but in **one of two municipalities** — most of it Riviera Beach, the southern tip Palm Beach Shores — and the municipal millage differs. Confirm which applies.
+## Insurance: quote the exact property early
 
-Two mechanics matter more than the rate:
+Insurance depends on the property, the ownership type, how you'll use it, and the carrier's underwriting, so quote the exact address as early as practical.
 
-**The listing's tax figure isn't yours.** It reflects the seller's assessed value, potentially capped for years. On a change of ownership the property is reassessed at market value and the bill can rise substantially.
+![The Lake Worth Inlet at dusk from the sandy shore by the seawall, with the lit Port of Palm Beach cranes on the horizon](/images/singer-island/inlet-dusk-port-cranes.webp "The Lake Worth Inlet at dusk, at the island's south end. || Photo by John Oliver"){1400x1050}
 
-**Homestead Exemption and Save Our Homes apply only to a primary residence.** This matters more on Singer Island than almost anywhere, because so much of the market is second homes and seasonal ownership — and none of that qualifies. Without homestead there's no assessment cap either, so budget the full unmitigated bill.
+**Single-family homes.** You insure the structure yourself: homeowners and wind coverage, deductibles, and any flood coverage. Underwriting typically looks at the roof, opening protection, construction, occupancy and use, and the property's own location and elevation.
 
-Verify current rates and exemptions with the Palm Beach County Property Appraiser and Tax Collector.
+**Condominiums.** The association's master policy covers the building and common areas as its documents define them, and its premium and deductibles feed into the association's budget. Your own unit-owner (HO-6) policy covers what the master policy doesn't, typically your interior, personal property and liability, and can include loss-assessment coverage for your share of a loss to common property. The Florida Department of Financial Services explains [homeowner and condo coverage](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview).
 
-## If you're buying a condominium
+**Flood.** Standard homeowners policies don't cover flood damage. Flood coverage is bought separately or added by endorsement, depending on the policy; the Department of Financial Services' [flood insurance overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/flood-insurance-overview) explains the options.
 
-The association's finances matter more than the unit, and the detail is genuinely specialized.
+Ask for quotes tied to the exact address, the ownership type, how you'll occupy the property and, for a condo, the association's master-policy information.
 
-Florida now requires milestone structural inspections for older condominium buildings and structural integrity reserve studies, with limits on waiving reserve funding. Across the state this has produced sharply higher fees and, in many buildings, substantial special assessments as long-underfunded work got recognized at once. On an island of ageing oceanfront towers in salt air, that's a live issue rather than a theoretical one.
+## For a condominium, the documents drive the number
 
-At minimum, get the milestone inspection status and findings, the reserve study and whether reserves are fully funded, the assessment history and anything contemplated, several years of financial statements, the master insurance policy, any pending litigation, and the rental rules.
+In a condominium, your costs depend on the association as much as on the unit. Florida requires milestone structural inspections for certain condominium buildings of three or more habitable stories under [section 553.899](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html), and structural integrity reserve studies for certain associations under [section 718.112](https://leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0718%2FSections%2F0718.112.html). Which requirements apply to a building, and when, depends on its height, age and other factors, and the rules have been amended more than once; ask the association and qualified professionals rather than assuming.
 
-**For building-by-building analysis, use a resource built for it.** Our sister site [CondoWPB.com](https://www.condowpb.com) covers condominium buying in that depth — which buildings have completed their inspections, how reserves are tracking, and what the numbers actually mean. It's the better tool for that side of the decision, and this page won't pretend to substitute for it.
+![A white condominium tower on Singer Island beside the beach, with its tennis court and pool below and the lagoon and mangroves to the left](/images/singer-island/condo-tower-amenities-beach.webp "A condominium tower and its shared amenities, seen from a neighboring tower. || Photo by John Oliver"){1400x1050}
 
-## Everyday costs
+| Request | What it can reveal | Who should review it |
+|---|---|---|
+| Current budget and fee history | What ownership costs now and how fast it has been rising | You and your attorney |
+| Reserve schedules, and the structural integrity reserve study where applicable | Whether the building is funding future repairs | Your attorney; an engineer or reserve specialist if needed |
+| Milestone inspection status and reports, where applicable | The building's condition and any required repairs | Your attorney; an engineer |
+| Completed, pending and planned repairs | Projects that may affect fees or assessments | Your attorney; an engineer |
+| Special-assessment history and proposals | Costs that can arrive on top of the monthly fee | You and your attorney |
+| Master-policy declarations and deductibles | What the association insures and what you may be assessed after a loss | Your insurance agent |
+| Rental, pet, occupancy, parking and storage rules | How you can use the unit, and what costs extra | You and your attorney |
+| Litigation disclosures | Disputes that may affect finances or financing | Your attorney |
+| Board minutes and the governing documents | Decisions under discussion and the rules you'll be bound by | You and your attorney |
 
-- **Utilities** track the Florida average, with cooling the summer spike. Some buildings include certain utilities — check.
-- **Water and sewer** come through the relevant municipal utility; confirm which given the two-city split.
-- **Groceries and errands** mean crossing a bridge, so factor the driving into how you actually live.
-- **Dockage**, if a boat is part of the plan, is in demand near the inlet and priced accordingly — before maintenance, fuel and haul-out.
-- **Dining** locally is limited and skews to resort pricing, so most residents eat off-island regularly. Our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-singer-island-florida) is honest about that.
-- **Hurricane preparation** is a genuine recurring cost here: shutters or impact glass, and the practical expense of evacuating more often than mainland residents do.
+Our [condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) sets out what to request and why, so you can ask for all of it at once.
 
-## The second-home arithmetic
+## For a house, the responsibility is less shared
 
-Worth isolating, because so much of this island is bought as a second home and the numbers work differently.
+In a house, the costs a condominium association would share fall to you. Budget for the exterior, the roof, openings and shutters or impact protection, air conditioning, landscaping, utilities, and the insurance deductibles you'd carry after a loss, as well as any flood considerations for the property.
 
-Without homestead you lose both the exemption and the assessment cap, so your taxable value tracks the market with no ceiling. Insurance is the same or higher, since an unoccupied property is a different risk. Association fees and any assessment arrive whether you're in residence or not. And the maintenance a house needs doesn't pause because you're elsewhere — which is a substantial part of why so many seasonal owners choose units over houses.
+![A white single-story house with a gravel circular drive and palms, with the lagoon and boats at anchor visible beyond](/images/singer-island/lagoon-side-house-drive.webp "A single-family home on the island's lagoon side. || Photo by John Oliver"){1400x1050}
 
-None of this makes a second home here a poor decision. It does mean the annual cost of ownership is a materially larger multiple of the purchase price than a primary-residence buyer would model, and it should be worked out before rather than after.
+On the water, add the dock, the seawall and any boat lift, with their inspection and maintenance. How much each costs depends on the property's age, construction, condition and exposure, so price the specific house with inspectors and contractors rather than relying on a general figure.
 
-## Running your real number
+## Everyday and optional costs: confirm before you buy
 
-1. **Establish which municipality** the address is in.
-2. **Ask what the taxes will be for you** — reassessed, and with no homestead if it's a second home.
-3. **Get real insurance quotes**, including flood, with the elevation certificate in hand.
-4. **For a house:** price the roof and the wind mitigation position.
-   **For a unit:** get the association's full financial picture, and read it.
-5. **Add fees to the mortgage** and look at that combined figure, because that's the payment.
-6. **Then** compare against [the alternatives nearby](/blog/singer-island-vs-nearby-cities).
+- Which utilities, services, parking, storage and amenities does a condominium fee include?
+- What remains the owner's responsibility?
+- What will your actual commute, errands, groceries, dining and airport trips cost in time and fuel?
+- If boating matters, what are the property-specific dock, marina, maintenance and insurance costs?
+- What storm-preparation equipment and planning are already in place for this exact home or building?
 
-## The bottom line
+Evacuation zones depend on the exact address; check [Palm Beach County's Know Your Zone](https://discover.pbc.gov/oem/pages/know-your-zone.aspx) and follow current official guidance.
 
-Living on the ocean here costs less to buy than the comparable alternatives in this county. It does not necessarily cost less to own.
+## Second-home ownership
 
-For houses, insurance and exposure are the story. For condominiums, the association's financial position is the story — and it's worth researching with a tool built for the job.
+If this will be a second home, model these specifically:
 
-*Figures, rates and rules change. Verify tax, exemption and portability specifics with the Palm Beach County Property Appraiser and Tax Collector, insurance and flood costs with a licensed agent, flood zone and elevation with the relevant authority, and all association obligations, inspection status and reserve funding with the association's own documents.*`,
+- **Projected property tax**, without assuming the seller's homestead status carries over, since a second home is not your permanent residence.
+- **Occupancy and use** as you'll represent them to insurers.
+- **Association fees and assessments**, which continue while you're away.
+- **Management and maintenance** for a home that sits unoccupied part of the year.
+- **Rental income** only where the building's governing documents actually permit rentals, and on their terms.
+
+Whether a condominium or a house suits a second home depends on the property and how you plan to use it.
+
+![Boats at anchor in the lagoon at sunset, with a sportfishing boat heading out in the foreground and the Port of Palm Beach cranes on the horizon](/images/singer-island/lagoon-anchorage-sunset.webp "The lagoon anchorage at sunset. || Photo by John Oliver"){1400x1050}
+
+## Run your real number
+
+1. Identify the exact property type and jurisdiction.
+2. Estimate projected taxes using the exact parcel and qualified local guidance.
+3. Obtain insurance quotes tied to the exact address and ownership plan.
+4. Read all relevant condominium documents, or price the house's maintenance honestly.
+5. Add recurring fees, realistic utilities, and reserve and maintenance allowances.
+6. Separate regular expenses from event risk, such as deductibles, major repairs or assessments.
+7. Review the numbers with appropriate tax, insurance, lending, legal and inspection professionals.
+
+This article can't tell you whether a property fits your budget. It can tell you what to calculate, and once you have those numbers, the decision gets much clearer. When you're ready to compare, see [how Singer Island compares with nearby cities](/blog/singer-island-vs-nearby-cities).
+
+*This is general information, not tax, insurance, legal or financial advice. Rates, rules and requirements change; verify them for the exact property with the Palm Beach County Property Appraiser and Tax Collector, a licensed insurance agent, the association's documents, and qualified professionals.*`,
     faqs: [
-      { q: "Is Singer Island expensive to live on?", a: "It contains two very different markets. Single-family in Palm Beach Shores is scarce and priced as coastal houses, with all carrying costs yours. Condominiums span newer luxury through older blocks, and direct oceanfront here is genuinely more attainable than the estate islands nearby. Averaging the two produces a meaningless number." },
-      { q: "What is the biggest cost driver on Singer Island?", a: "Insurance, on a barrier island. For a house in Palm Beach Shores you carry windstorm, flood and hazard on some of the most exposed residential land in the county, and the premium routinely decides which houses are viable. For a condo it arrives in two layers — the association master policy and your own." },
-      { q: "Do I get a homestead exemption on Singer Island?", a: "Only if it is your primary residence, and that matters more here than almost anywhere because so much of the market is second homes and seasonal ownership. Without homestead there is also no Save Our Homes assessment cap, so budget for the full unmitigated bill." },
-      { q: "What should I know about condo fees on Singer Island?", a: "Florida now requires milestone structural inspections and reserve studies for older buildings, with limits on waiving reserve funding, and that has driven fees and special assessments up sharply. On an island of ageing oceanfront towers in salt air this is live rather than theoretical. For building-by-building analysis, CondoWPB.com is the better resource." },
-      { q: "Which municipality am I in on Singer Island?", a: "One of two — most of the island is Riviera Beach and the southern tip is Palm Beach Shores — and the municipal millage differs. It also changes your services and permitting authority. Confirm it from the title work rather than assuming from the island name." },
-      { q: "What costs do buyers underestimate here?", a: "Hurricane preparation as a recurring expense, dockage near the inlet if a boat is part of the plan, and the driving involved in groceries and dining since both mean crossing a bridge. For second-home buyers, the absence of homestead and the assessment cap is the most common unpleasant surprise." },
+      { q: "What should I include in my Singer Island ownership budget?", a: "One-time and closing costs, such as financing, closing costs, inspections and any association application fees; recurring costs, such as the mortgage payment, property taxes and any non-ad valorem assessments, insurance, condominium or association fees, utilities not included in a fee, and maintenance and reserve allowances; and property-specific costs that can change, such as special assessments, fee increases, insurance deductibles, parking or storage charges, and dock or boat costs. Which items apply, and how much each costs, varies by property." },
+      { q: "Will the listing's property-tax figure be my future tax bill?", a: "Not necessarily. The tax figure on a listing reflects the property's current assessment and the current owner's exemptions. After a change of ownership, Florida reassesses the property at just value as of the following January 1, and the prior owner's exemptions and Save Our Homes benefit do not carry over. Estimate your projected taxes from the exact parcel with the Property Appraiser or a qualified tax professional." },
+      { q: "Does a condo fee include all insurance and utilities?", a: "Not usually all of them. The association's master policy covers the building and common areas as its documents define them, and your own unit-owner (HO-6) policy covers what the master policy doesn't. Which utilities, services, parking, storage and amenities a fee includes varies by building, so confirm them in the association's budget and documents." },
+      { q: "Can a second home qualify for Florida homestead benefits?", a: "The homestead exemption and the Save Our Homes assessment limitation depend on whether the property is your permanent residence and whether you apply, not on where it is. A second home is not your permanent residence, so model its projected taxes without assuming the seller's homestead status carries over." },
+      { q: "Which condominium documents should I review before making an offer?", a: "The current budget and fee history; reserve schedules and, where applicable, the structural integrity reserve study; milestone inspection status and reports where applicable; completed, pending and planned repairs; special-assessment history and proposals; master-policy declarations and deductibles; rental, pet, occupancy, parking and storage rules; litigation disclosures; and board minutes and the governing documents. Review them with your attorney and, where needed, an engineer and your insurance agent." },
+      { q: "Is flood damage covered by a standard homeowners policy?", a: "No. Standard homeowners policies don't cover flood damage. Flood coverage is bought separately or added by endorsement, depending on the policy." },
     ],
     internalLinks: ["best-neighborhoods-in-singer-island-florida", "pros-and-cons-of-living-in-singer-island-florida", "singer-island-vs-nearby-cities"],
-    funFact: "Peanut Island has one of the more unusual claims to fame in Palm Beach County — it contains a concrete bunker built in 1961 for President Kennedy to use in the event of a nuclear attack during the Cuban Missile Crisis. He used Palm Beach as a winter base; the bunker was a Cold War precaution.",
+    funFact: "Before you fall for a unit's view, get three things: the association's current budget, the master-policy insurance declarations, and every approved or proposed special assessment. Those tell you what the view will actually cost to own.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'hidden-gems-in-singer-island-florida',
@@ -17279,122 +17356,112 @@ For houses, insurance and exposure are the story. For condominiums, the associat
     cityName: 'Singer Island',
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems on Singer Island, Florida",
-    metaTitle: "Hidden Gems on Singer Island, Florida",
-    metaDescription: "Beyond the beach — local hidden gems on Singer Island, Florida, from the Blue Heron Bridge dive site to Peanut Island and the MacArthur lagoon.",
+    seoTitle: "Hidden Gems on Singer Island, FL | Local Guide",
+    metaTitle: "Hidden Gems on Singer Island, FL | Local Guide",
+    metaDescription: "A local-minded guide to quieter Singer Island moments and nearby public places, with practical access, safety, and seasonal details.",
     primaryKeyword: "hidden gems on Singer Island Florida",
-    secondaryKeywords: ["Singer Island secret spots", "Blue Heron Bridge diving", "Peanut Island"],
+    secondaryKeywords: ["Singer Island local guide", "Munyon Island", "MacArthur Beach State Park", "Phil Foster Park", "Singer Island sea turtle walks"],
     h1: "Hidden Gems on Singer Island, Florida",
-    heroImage: '/images/singer-island/paver-path-inlet-park-hero.webp',
-    heroImageAlt: "A brick-paver path between hedges leading to a waterfront park and gazebo on Singer Island",
+    heroImage: '/images/singer-island/beach-dusk-lifeguard-stand-hero.webp',
+    heroImageAlt: "A Singer Island beach at dusk under an orange sky, with a lifeguard stand, a teal-roofed beach pavilion and condominium towers at the right",
+    heroImageCaption: "A Singer Island public beach at dusk",
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
-    heroImagePosition: '35% 50%',
-    body: `The island's famous attractions — the bridge dive, the state park, Peanut Island — are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-singer-island-florida).
+    heroImagePosition: '55% 50%',
+    editorial: {
+      eyebrow: 'Singer Island · Local Guide',
+      deck: "The less-obvious ways to enjoy Singer Island and the public places nearby, when you know the access, the timing, the conditions and the rules.",
+      mobileImage: { src: '/images/singer-island/beach-dusk-lifeguard-stand-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Singer Island', href: '/communities/singer-island' },
+      secondaryCta: { label: 'The best-known things to do', href: '/blog/best-things-to-do-in-singer-island-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Scouting visit',
+        text: 'Planning a Singer Island scouting visit? Explore the community guide or talk with our team about a specific building.',
+        cta: { label: 'Explore the community guide', href: '/communities/singer-island' },
+      },
+    },
+    body: `The island's best-known attractions are covered in [our guide to things to do on Singer Island](/blog/best-things-to-do-in-singer-island-florida). This is the quieter layer: places and routines that reward a resident or repeat visitor who understands the access, the conditions and the timing.
 
-This is the other layer: the small, quiet, mostly free things that take residents a year or two to find, on an island where a great deal of what's good isn't advertised at all.
+None of it is secret, and none of it comes with a promise of solitude. Some of these places are on the island and some are nearby; some are free, some charge park admission, and some depend entirely on the weather and the water. Each one below says which.
 
-## The tide tables, as a way of life
+**Before you go**
 
-Not a place, and the most useful thing on this page.
+- [ ] Check official park notices, hours, parking and admission.
+- [ ] Check the weather, water conditions and beach-warning flags.
+- [ ] Respect public and private access boundaries.
+- [ ] Treat wildlife viewing as observation, not interaction.
 
-Nearly everything worth doing in the water here is tide-dependent, and residents who learn the rhythm get a completely different island from those who don't. The bridge dive works only around high slack. The snorkelling at the state park's rock outcrops depends on swell and tide together. Shore fishing turns on moving water.
+## Water days that depend on conditions
 
-Get a tide app, learn what your favorite spots want, and plan around the water rather than the weekend. It's the single biggest difference between visiting this island and living on it.
+**Phil Foster Park and the Blue Heron Bridge.** *Nearby, in Riviera Beach, not on Singer Island.* A Palm Beach County park beneath the Blue Heron Bridge, on the causeway between the mainland and the island. The county's [snorkel trail guide](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf) describes the Blue Heron Bridge area as internationally recognized for its marine life, and the marked snorkel trail spans roughly two acres in 6 to 10 feet of water. Current, visibility, entry and exit points, boat traffic and tide timing all matter here, and they change; go with a buddy, and use a divers-down flag, which Florida law requires for divers and snorkelers. Check [Palm Beach County's Phil Foster Park page](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [beach safety information](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx) before you go in.
 
-## Munyon Island
+![Looking down from the Blue Heron Bridge onto Phil Foster Park's seawall, trees and pavilions, with the lagoon and Singer Island's towers beyond](/images/singer-island/phil-foster-park-from-bridge.webp "Phil Foster Park, nearby in Riviera Beach, from the Blue Heron Bridge. || Photo by John Oliver"){1400x1050}
 
-Inside the state park's lagoon sits a small island with a genuinely odd history — the site of an early-twentieth-century hotel venture that came and went, now a quiet spot reachable by kayak.
+**Ocean Reef Park.** *On Singer Island.* A Palm Beach County park in Riviera Beach where the county notes snorkeling is available within the lifeguard-protected swimming area. Conditions vary day to day; check the flags and [the park's page](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) first.
 
-Paddle out from the park, land where permitted, and you'll have a piece of the Intracoastal essentially to yourself. Manatees are common in the cooler months in the surrounding shallows.
+Neither is an every-day activity. The same spot can be excellent one morning and unsuitable the next, so plan around current conditions rather than the calendar.
 
-## Turtle walks in season
+## A quiet lagoon day: Munyon Island
 
-The state park and local organizations run guided night walks during nesting season, and they're one of the more genuinely memorable things available on this coast.
+*Nearby, in the lagoon off John D. MacArthur Beach State Park; boat access only.* [Munyon Island](https://www.floridastateparks.org/learn/munyon-island) is part of the MacArthur Beach State Park experience. The official park information describes a day-use boat dock on the island's west shore, beside the Intracoastal Waterway, with nature trails and picnic pavilions, and notes there are no restrooms.
 
-You go out after dark with a guide, wait, and — if you're fortunate — watch a loggerhead haul out and nest. Places are limited and they book up, so plan ahead rather than deciding on the night.
+Paddlers can reach it from the park's estuary. The park's [kayaking information](https://www.floridastateparks.org/learn/kayaking-macarthur-beach) describes paddling under the Burnt Bridge into the lagoon to visit the island, and kayak and paddleboard rentals are offered through the park's [paddling concession](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/high-point-paddle-adventures). Check the park and outfitter information for launches, rentals, weather, hours and current rules before you set out. Wildlife such as wading birds, and sometimes manatees, may be seen, depending on conditions; keep a respectful distance.
 
-It also makes the beachfront lighting rules feel less like bureaucracy and more like the reason the turtles still come.
+![A high view over Singer Island's lagoon-side house streets to the lagoon, with Munyon Island, a long wooded island, in the distance](/images/singer-island/munyon-island-lagoon-distance.webp "Munyon Island, in the distance across the lagoon, from a Singer Island high-rise. || Photo by John Oliver"){1400x788}
 
-## The other side of Phil Foster Park
+## MacArthur Beach beyond the obvious
 
-Everyone knows the park for the dive site. Fewer use it for anything else.
+*At the island's north end, in North Palm Beach; park admission applies.* [John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) is the natural counterpoint to the tower corridor. According to the park's [experiences and amenities page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/experiences-amenities), it has a nature center with exhibits, nature trails through coastal hammock, an estuary for paddling, and the park's beach.
 
-There's a beach, a fishing area, picnic space, and a genuinely good view of boat traffic moving through the intracoastal cut under the bridge. On an afternoon when the tide's wrong for diving, it's still a pleasant hour.
+![A high view north-west over the lagoon off Singer Island's north end, with small mangrove islands, a shoreline road and big cumulus clouds](/images/singer-island/north-lagoon-mangrove-islands.webp "The lagoon off the island's north end, from a high-rise. || Photo by John Oliver"){1400x1050}
 
-## The inlet at the south end
+Go in the morning and take your time on the estuary side, where wading birds may be feeding in the shallows. Check the park's [hours and fees](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/hours-fees) and current notices before you go; don't assume lifeguards are on duty, and use the park's own entrances and trails rather than walking in along the beach from outside it. Programs change through the year, and the park's citizen-support group, the [Friends of MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/friends-macarthur-beach-state-park), publicizes its events.
 
-Standing near the Lake Worth Inlet and watching what comes through it is an underrated local pleasure.
+**If you look for shells.** After rough weather has settled, check the current flags and forecast, stay out of the water unless conditions are safe, and treat it as careful observation. State park resources are protected. Florida State Parks allows [empty seashells, sea glass and shark teeth](https://www.floridastateparks.org/plan-your-visit/faqs?f%5B0%5D=question_type%3A86) to be collected between the water line and the toe of the dunes in coastal parks with beaches; living shells and live sand dollars stay where they are, and so do driftwood, plants, animals, artifacts and park property.
 
-This is a working inlet — commercial ships reach the port here, alongside sport fishing boats, sailboats and the occasional very large yacht. The mix is unusual, the scale of the ships up close is startling, and it costs nothing.
+## Guided wildlife opportunities
 
-## The north-end beach
+Sea turtles nest on this coast from March through October, and permitted public turtle walks and hatchling programs are scheduled opportunities, not guaranteed sightings. FWC lists [permitted sea turtle viewing programs](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/where-to-view/) and [program contacts](https://myfwc.com/research/wildlife/sea-turtles/florida/contact/); check the current listings and the park's events for what's operating this season.
 
-Away from the towers, the state park stretch is the most natural beach on the island: dune vegetation, no buildings behind it, and a fraction of the people.
+On a guided walk, follow the guide's directions: no touching, no flashlights and no flash photography, and no interfering with a turtle or hatchling. Don't wait on the beach at night on your own to look for turtles. Florida State Parks explains [why lights disturb nesting turtles and hatchlings](https://www.floridastateparks.org/learn/sea-turtle-nesting).
 
-It requires paying park admission and walking a boardwalk, which is precisely why it stays quiet.
+## Sunset over the lagoon
 
-## Sunset on the west side
+The island faces the ocean, so sunrise is easy to find. For sunset over the water, look west across the lagoon.
 
-The island faces east, so residents get sunrise. What newcomers take a while to work out is that the Intracoastal side delivers the other half.
+**Phil Foster Park.** *Nearby, in Riviera Beach.* The county park beneath the Blue Heron Bridge sits in the lagoon with open water around it. Check [the park's hours](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) before planning an evening visit. What you'll see changes with the season, the weather and the boat traffic.
 
-Anywhere with a western outlook — a balcony, the marina, a park bench on the lagoon side — gives you the sunset over the waterway, with boats coming home. A good many residents living in ocean-facing units never think to turn around.
+![Sailboats at anchor in the lagoon at sunset under an orange sky, seen from the Blue Heron Bridge, with port cranes on the far horizon](/images/singer-island/blue-heron-bridge-anchorage-sunset.webp "The lagoon anchorage at sunset, from the Blue Heron Bridge, near the island. || Photo by John Oliver"){1400x1050}
 
-## The building networks
+The Lake Worth Inlet at the island's south end serves the Port of Palm Beach, and parts of the waterfront there are private or restricted. Enjoy it from public places only.
 
-Filed under hidden gems because it genuinely is one, and it's invisible from outside.
+## The habits that make repeat visits better
 
-Each tower has its own informal social world — regular groups at the pool, card games, walking groups, people who look after each other's units. Joining it is as simple as turning up and introducing yourself, and it's by far the fastest route into island life.
+- Try weekday mornings and quieter periods for the parks and beaches.
+- If you already have legitimate access to a building, ask the manager, the association or residents what activities and groups exist.
+- Check community, park, volunteer and environmental-program calendars.
+- Visit in different seasons to understand a building's rhythm and the beach's.
 
-Newcomers who treat their building as an apartment block stay strangers. Those who treat it as a small village settle in within weeks.
+![A view north along the beach from a condominium balcony, with dune walkovers crossing the vegetation and towers along the shore](/images/singer-island/beach-dune-walkovers-balcony.webp "Dune walkovers along the beach, from a condominium balcony. || Photo by John Oliver"){1400x1050}
 
-## The fishing pier culture nearby
-
-Not on the island, but close enough to count and genuinely local.
-
-The public piers and jetty access on this stretch of coast draw a regular crowd who fish them in all weather and know the water better than almost anyone. Turning up, watching, and asking a question or two is the fastest education available on what's running and when.
-
-It's free, it's welcoming to anyone who isn't in the way, and it's a side of coastal life that condo living otherwise keeps you well away from.
-
-## The off-season
-
-Not a place, but the thing longtime residents value most.
-
-From May through October the seasonal owners leave, the beach empties, parking becomes trivial and the whole island slows down. It's hot — genuinely unpleasant by August — but for those months it belongs to the people who actually live here.
-
-## The state park after a blow
-
-Local knowledge worth having: the day or two after a good east swell, the beach at the north end is transformed.
-
-Shells, sea glass, driftwood and the occasional genuinely interesting find get pushed up, and because the park limits parking, you're often working an empty stretch. Beachcombers time their visits by the weather rather than the calendar.
-
-The same conditions that make it good for walking make the water unsuitable for snorkelling, so treat it as a different activity rather than a disappointing version of the usual one.
-
-## The morning walk to the state park
-
-From the northern buildings, the beach walk up to the park boundary is a genuinely good hour — dune vegetation on one side, open ocean on the other, and progressively fewer people the further you go.
-
-Do it at sunrise and you'll pass almost nobody. It's the closest thing the island has to a daily ritual worth keeping.
-
-## Making the most of these
-
-The pattern is timing: early mornings, weekdays, and the off-season, plus an eye on the tide. Almost everything above is better under those conditions and several are transformed by them.
-
-The other rule is that this island rewards the patient. It doesn't present itself, there's no visitor center pointing at the good parts, and most of what's good is either underwater or inside a building. Give it a season.
-
-For the practical side of settling in, our [guide to operating here](/blog/local-guide-to-singer-island-florida) covers the logistics.`,
+The island rewards the same things everywhere: checking conditions, knowing the rules, and coming back. For the practical side of settling in, see our [local guide to Singer Island](/blog/local-guide-to-singer-island-florida), and for the bigger picture, the [Singer Island community guide](/communities/singer-island).`,
     faqs: [
-      { q: "What is Singer Island's best-kept secret?", a: "Learning the tide tables. Nearly everything worth doing in the water here is tide-dependent — the bridge dive works only around high slack, the snorkelling depends on swell and tide together, and shore fishing turns on moving water. Residents who learn the rhythm get a completely different island from those who do not." },
-      { q: "What is Munyon Island?", a: "A small island inside the state park lagoon with an odd history — the site of an early-twentieth-century hotel venture that came and went. It is reachable by kayak from the park, and the surrounding shallows commonly hold manatees in the cooler months. Paddle out and you will have a piece of the Intracoastal essentially to yourself." },
-      { q: "Can I see sea turtles on Singer Island?", a: "The state park and local organizations run guided night walks during nesting season, where you go out after dark with a guide and, if fortunate, watch a loggerhead haul out and nest. Places are limited and book up, so plan ahead. It also makes the beachfront lighting rules feel like a reason rather than a rule." },
-      { q: "Where can I watch the sunset on Singer Island?", a: "Anywhere with a western outlook — a balcony, the marina, or a bench on the lagoon side. The island faces east so residents get sunrise, and a good many people in ocean-facing units never think to turn around. The sunset over the Intracoastal, with boats coming home, is the other half of living here." },
-      { q: "How do I meet people on Singer Island?", a: "Through your own building. Each tower has an informal social world — pool groups, card games, walking groups, people who look after each other's units — and joining it is as simple as turning up and introducing yourself. Newcomers who treat their building as an apartment block stay strangers." },
-      { q: "When is the best time of year on Singer Island?", a: "Longtime residents tend to say May through October, when the seasonal owners leave, the beach empties, parking becomes trivial and the island slows. It is genuinely unpleasant by August, but for those months the place belongs to the people who actually live there." },
+      { q: "What are quieter ways to explore Singer Island?", a: "Try weekday mornings and quieter periods for the parks and beaches; a water day at Phil Foster Park or Ocean Reef Park when conditions allow; a boat or paddle trip to Munyon Island; the nature center, trails and estuary at John D. MacArthur Beach State Park; and a guided turtle program in season. Check official notices, hours, admission and current conditions before you go." },
+      { q: "How can I visit Munyon Island?", a: "Munyon Island is accessible only by boat. The official park information describes a day-use boat dock on the island's west shore, with nature trails and picnic pavilions, and no restrooms. Paddlers can reach it from MacArthur Beach State Park's estuary. Check the park and outfitter information for launches, rentals, weather, hours and current rules before you set out." },
+      { q: "Is Phil Foster Park on Singer Island?", a: "No. Phil Foster Park is a Palm Beach County park in Riviera Beach, beneath the Blue Heron Bridge, on the causeway between the mainland and the island." },
+      { q: "How do I find current sea-turtle programs?", a: "Permitted public turtle walks and hatchling programs are scheduled opportunities, not guaranteed sightings. FWC lists permitted sea turtle viewing programs and program contacts; check the current listings and the park's events for what's operating this season." },
+      { q: "What can I collect at a Florida State Park beach?", a: "Florida State Parks allows empty seashells, sea glass and shark teeth to be collected between the water line and the toe of the dunes in coastal parks with beaches. Living shells and live sand dollars stay where they are, and so do driftwood, plants, animals, artifacts and park property." },
+      { q: "Where can I watch a Singer Island sunset from public access?", a: "Look west across the lagoon. Phil Foster Park, the county park beneath the Blue Heron Bridge in Riviera Beach, sits in the lagoon with open water around it. Check the park's hours before planning an evening visit." },
     ],
     internalLinks: ["best-things-to-do-in-singer-island-florida", "local-guide-to-singer-island-florida", "best-places-to-eat-drink-hang-out-in-singer-island-florida"],
+    author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-09-30',
   },
   {
     slug: 'singer-island-vs-nearby-cities',
