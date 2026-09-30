@@ -17,7 +17,7 @@ of them, and old social shares may point to others. Their origin is not recorded
 | #1 `what-its-really-like-living-in-singer-island-florida` | `fisherman-statue-hero.webp` (16:9 OG/JSON-LD), `fisherman-statue-panel.webp` (960×1200, desktop split panel), `fisherman-statue-mobile.webp` (1200×800, phones) | library `IMG_0662.JPEG` (1536×2048 portrait): the fisherman statue at the wheel where the Blue Heron Bridge arrives on the island (location per John) | Hero rows 640–1504, full width, upscaled to 2048. Panel cols 136–1365, rows 100–1636. Mobile rows 560–1584, full width. All three leave out a soda can in the mulch at row ~1690. `heroImagePosition: '45% 50%'`. Added 2026-09-26. | `waterfront-001.jpeg` | No official name or artist found for the statue, so it is described, not named. IMG_0663 was not used (a person in the background). |
 | #2 `local-guide-to-singer-island-florida` | `blue-heron-bridge-phil-foster-hero.webp`, plus `blue-heron-bridge-phil-foster-mobile.webp` (1200×800, rows 80–1360, added 2026-09-26 for the editorial hero) | library `IMG_0660.JPEG` (1920×1440) | Rows 180–1260. `heroImagePosition: '30% 50%'`. Added 2026-09-26. | `singer-island-0004.jpeg` | From the Blue Heron Bridge looking east over Phil Foster Park to the island. Captioned, because Phil Foster Park is under the bridge, not on Singer Island. |
 | #3 `best-neighborhoods-in-singer-island-florida` | `island-houses-aerial-hero.webp`, plus `island-houses-aerial-mobile.webp` (1200×800, rows 160–1440, added 2026-09-26 for the editorial hero) | library `IMG_0363.JPEG` (1920×1440) | Rows 250–1330. `heroImagePosition: '50% 50%'`. Added 2026-09-26. | `singer-island-0003.jpeg` | High-rise view over the island's single-family streets. |
-| #4 `best-things-to-do-in-singer-island-florida` | `sailfish-marina-docks-hero.webp` (shared with #10), plus `sailfish-marina-docks-mobile.webp` (1200×800, cut from the hero file at cols 300–2028, all rows, for the editorial hero; added 2026-09-30) | library `IMG_3130.jpg` (1920×1440) | As #10. `heroImagePosition: '70% 50%'`. Replaced 2026-09-30. | `inlet-sailboat-hero.webp` | Sailfish Marina, Palm Beach Shores; the marina's own signage is in frame. The previous hero, `inlet-sailboat-hero.webp` (library `IMG_2944`), was removed from this article on 2026-09-30 because John identified it as a Jupiter photo. The file stays in the folder but is no longer used anywhere. See the note below. |
+| #4 `best-things-to-do-in-singer-island-florida` | `sailfish-marina-docks-hero.webp` (shared with #10), plus `sailfish-marina-docks-mobile.webp` (1200×800, cut from the hero file at cols 300–2028, all rows, for the editorial hero; added 2026-09-30) | library `IMG_3130.jpg` (1920×1440) | As #10. `heroImagePosition: '70% 50%'`. Replaced 2026-09-30. | `inlet-sailboat-hero.webp` | Sailfish Marina, Palm Beach Shores; the marina's own signage is in frame. The previous hero, `inlet-sailboat-hero.webp` (library `IMG_2944`), was removed from this article on 2026-09-30 when it was thought to be a Jupiter photo; John later confirmed it is the Lake Worth Inlet from the south tip (see below). The file stays in the folder, currently unused. |
 | #5 `who-should-move-to-singer-island-florida` | `yellow-house-palms-hero.webp`, plus `yellow-house-palms-mobile.webp` (1200×800, cut from the hero file at cols 160–1888, all rows, for the editorial hero; added 2026-09-30) | library `IMG_0665.JPEG` (1920×1440) | Rows 150–1230. `heroImagePosition: '45% 50%'`. Added 2026-09-26. | `singer-island-0005.jpeg` | Street view of a private house; John confirmed on 2026-09-26 that the house shots are on Singer Island / Palm Beach Shores and OK to use. No address given. |
 | #6 `pros-and-cons-of-living-in-singer-island-florida` | `inlet-cargo-ship-sunset-hero.webp`, plus `inlet-cargo-ship-sunset-mobile.webp` (1200×800, cut from the hero file at cols 100–1828, all rows, for the editorial hero; added 2026-09-30) | library `IMG_2956.JPEG` (1920×1440) | Rows 150–1230. `heroImagePosition: '55% 50%'`. Added 2026-09-26. | `waterfront-005.jpeg` | A cargo ship in the Lake Worth Inlet, from the south tip. |
 | #7 `cost-of-living-in-singer-island-florida` | `blue-ranch-house-hero.webp` | library `IMG_0667.JPEG` (1920×1440) | Rows 120–1200. `heroImagePosition: '60% 50%'`. Added 2026-09-26. | `singer-island-0007.jpeg` | Street view of a private house (same confirmation as #5). No address given. |
@@ -52,19 +52,17 @@ of them, and old social shares may point to others. Their origin is not recorded
 #4's MacArthur Beach State Park section has no photo: none in this folder has a verified MacArthur location.
 `singer-island-0008.jpeg` is a private condo beach walkover (a Tiara Condo Association sign is in frame), not the park.
 
-## Open question: the `IMG_2943`–`IMG_2956` evening
+## Resolved: the `IMG_2943`–`IMG_2980` evening
 
-On 2026-09-30 John identified `inlet-sailboat-hero.webp` (`IMG_2944`) as a Jupiter photo. Two other files appear to come from
-the same sunset session: `palm-beach-shores-inlet-homes.webp` (`IMG_2943`, used in #2) and `inlet-cargo-ship-sunset-hero.webp`
-(`IMG_2956`, the #6 hero). The cargo-ship frame shows the Port of Palm Beach cranes, so it is the Lake Worth Inlet, and its far
-shore shows the same white house with green-tinted windows as the sailboat frame. Check the originals' location data before
-relying on any of the three. #4 uses none of them.
+John confirmed on 2026-09-30 that this session was shot at the Lake Worth Inlet from the south tip of Singer Island, and
+that the far shore is Palm Beach. The same day he had described `IMG_2944` (`inlet-sailboat-hero.webp`) as a Jupiter
+photo; that was a mix-up, and the file is a valid Singer Island image. `IMG_2943` (#2), `IMG_2944` (formerly #4's hero)
+and `IMG_2956` (#6's hero) are all location-verified. Frames from the same shore show the Port of Palm Beach cranes
+(`IMG_2956`, `IMG_2484`, `IMG_2497`), and `IMG_2477` shows the same far-shore house as `IMG_2944`.
 
 ## Library catalogue notes (2026-09-30)
 
 The full OneDrive folder (`DO Homes Group Master/Website Folders/Doyouneedphotos/Singer Island`, ~230 files plus an
 `Other Building` subfolder) was catalogued by eye on 2026-09-30. Being in the folder is not proof of location:
-`IMG_0153` shows the Jupiter Inlet Lighthouse. `IMG_2477` (tug in the inlet channel) shows the same far-shore house as
-`IMG_2944` and `IMG_2956`, and `IMG_2484`/`IMG_2497` from the same shore show the port cranes, which points the sailboat
-evening to the Lake Worth Inlet. `yellow-house-palms-hero.webp` (#5) shows a partial house-number sign ("20…") near its
+`IMG_0153` shows the Jupiter Inlet Lighthouse. The `IMG_2939`–`IMG_2980` inlet evening is resolved above. `yellow-house-palms-hero.webp` (#5) shows a partial house-number sign ("20…") near its
 left edge, and so does its phone crop; blur or crop it before relying on it.
