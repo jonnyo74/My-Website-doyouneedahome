@@ -17765,8 +17765,8 @@ If Singer Island makes your shortlist, our [community guide](/communities/singer
             href: 'https://sailfishmarina.com/restaurant/',
             priorities: 'A waterfront restaurant at a working marina. The resort says it serves breakfast, lunch and dinner with views of the boats.',
             questions: '98 Lake Drive, Palm Beach Shores, on the lagoon side of the south end.',
-            daily: 'The restaurant is part of Sailfish Marina Resort, which also runs the marina and lodging.',
-            singer: 'Hours, menus and events on the official restaurant page; they change with the season.',
+            daily: 'The gift shop sells frozen shrimp and bait to toss to the jacks and other fish off the dock. The marina is also home to a sportfishing charter fleet and a water taxi that runs to Peanut Island and on a 90-minute narrated tour.',
+            singer: 'Hours, menus and events on the official restaurant page, and water taxi and charter schedules on the marina site; they change with the season.',
           },
           {
             name: 'ONA Coastal Cuisine',
@@ -17845,6 +17845,10 @@ Three pairings, each kept to one part of the island.
 
 Sailfish Marina (98 Lake Drive) and The Buccaneer (142 Lake Drive) are both on Lake Drive in Palm Beach Shores. Start with a drink or an early bite at Sailfish Marina with the marina in view, then have dinner at The Buccaneer, or the other way round.
 
+At Sailfish Marina, pick up frozen shrimp or bait in the gift shop and toss it to the jacks and other fish off the dock. It's one of John's favorite things to do there. Pelicans will show up for their share, so toss it low and close to the dock and hold off while they're hovering: Florida prohibits feeding pelicans, and the Florida Fish and Wildlife Conservation Commission explains [why it harms them](https://myfwc.com/conservation/you-conserve/wildlife/feeding/).
+
+Make a day of it before dinner. The marina is home to a fleet of sportfishing charter boats, and its water taxi runs out to Peanut Island and on a 90-minute narrated tour. Check the marina's [water taxi](https://sailfishmarina.com/water-taxi/) and [charter fleet](https://sailfishmarina.com/charter-fleet/) pages for current schedules, prices and booking.
+
 ![A fishing boat heading in through the Lake Worth Inlet at dusk, with a teal-roofed gazebo and palms at right and port cranes on the horizon](/images/singer-island/inlet-fishing-boat-dusk.webp "The Lake Worth Inlet at dusk, from the island's south tip. || Photo by John Oliver"){1400x788}
 
 ### A beach day that runs into dinner
@@ -17877,6 +17881,8 @@ This isn't a complete list. There are other cafés, bars and resort restaurants 
       { q: "Where are the restaurants on Singer Island?", a: "They gather in a few places: the marina end of Palm Beach Shores at the south tip, where Sailfish Marina and The Buccaneer are on Lake Drive; the stretch of Ocean Avenue by Riviera Beach Municipal Beach, with Johnny Longboats, Castaway's, Two Drunken Goats and Ocean Ave Bar & Kitchen; and resort restaurants on the oceanfront, such as ONA Coastal Cuisine." },
       { q: "Is ONA Coastal Cuisine open to the public?", a: "Yes. ONA Coastal Cuisine is inside the Palm Beach Marriott Singer Island Beach Resort & Spa, and the restaurant says it is open to the public, with on-site valet parking. The restaurant being public doesn't mean the resort's pool or beach services are, so ask before assuming." },
       { q: "Is Palm Beach Shores part of Singer Island?", a: "Palm Beach Shores is a separate town at the south end of the island, with its own government. Sailfish Marina (98 Lake Drive) and The Buccaneer (142 Lake Drive) are both there." },
+      { q: "Can you feed the fish at Sailfish Marina?", a: "Yes. The gift shop sells frozen shrimp and bait that you can toss to the jacks and other fish off the dock. Toss it low and close to the dock, and hold off while pelicans are hovering: Florida prohibits feeding pelicans." },
+      { q: "Can you get to Peanut Island from Sailfish Marina?", a: "Yes. Sailfish Marina's water taxi runs to Peanut Island, and it also offers a 90-minute narrated tour. Check the marina's water taxi page for current schedules, prices and booking." },
       { q: "Who is the chef at The Buccaneer?", a: "Chef Paul Niedermann leads the kitchen at The Buccaneer Waterfront Bar & Grill in Palm Beach Shores. The restaurant says he was the season 9 winner of Hell's Kitchen on Fox." },
       { q: "Do Singer Island restaurants take reservations?", a: "Policies vary by venue and can change. Check each venue's official site or call ahead, especially if your timing matters." },
       { q: "Where can I watch a game on Singer Island?", a: "Castaway's Sports Bar & Grill, at 2415 N Ocean Ave by Riviera Beach Municipal Beach, describes itself as a family-owned sports bar with a long craft-beer tap list. Check its official site for hours and events." },
