@@ -17458,6 +17458,7 @@ The island rewards the same things everywhere: checking conditions, knowing the 
       { q: "Where can I watch a Singer Island sunset from public access?", a: "Look west across the lagoon. Phil Foster Park, the county park beneath the Blue Heron Bridge in Riviera Beach, sits in the lagoon with open water around it. Check the park's hours before planning an evening visit." },
     ],
     internalLinks: ["best-things-to-do-in-singer-island-florida", "local-guide-to-singer-island-florida", "best-places-to-eat-drink-hang-out-in-singer-island-florida"],
+    author: 'christine',
     published: true,
     publishedDate: '2026-06-01',
     updated: '2026-09-30',
