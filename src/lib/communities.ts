@@ -4243,12 +4243,12 @@ export const neighborhoods: CommunityItem[] = [
     name: 'Jupiter Yacht Club',
     type: 'Neighborhood',
     region: 'Jupiter',
-    description: 'Five mid-rise condominium buildings and a separately owned 79-slip marina on the Intracoastal in Jupiter, with the public Riverwalk running along the water and Harbourside Place a short walk north.',
+    description: 'Five mid-rise condominium buildings and a separately owned marina of about 80 slips on the Intracoastal in Jupiter, with the public Riverwalk running along the water and Harbourside Place a short walk north.',
     metaTitle: 'Jupiter Yacht Club Condos & Boat Slips | Jupiter, FL',
-    metaDescription: 'Jupiter Yacht Club: five Intracoastal condo buildings on US-1, a 79-slip marina where slips are bought separately, drawbridge-only access to the inlet, and Harbourside Place on foot. What to check before you buy.',
+    metaDescription: 'Jupiter Yacht Club: five Intracoastal condo buildings on US-1, a marina of about 80 slips bought separately, drawbridge-only access to the inlet, and Harbourside Place on foot. What to check before you buy.',
     heroHeading: 'Jupiter Yacht Club Condos & Boat Slips',
     overview:
-      'Jupiter Yacht Club is a gated waterfront condominium community on the Intracoastal Waterway, on the east side of US-1 just south of the Indiantown Road bridge. It is five mid-rise buildings, the Pointe, the Admiral, the Mariner, the Commodore and the Anchorage, built between about 2002 and 2006 and standing six to seven stories. Residences are large for a condo: mostly two to four bedrooms, from roughly 2,000 to more than 3,500 square feet under air, many with wide Intracoastal views. The buildings are not interchangeable. The Pointe, the original building, has two-story penthouses on top and ground-floor residences with a private staircase from the patio down to the marina.\n\nTwo things set it apart from every other condo in Jupiter. The first is the marina: 79 boat slips on the property, sold as their own condominium units, so a slip is a separate purchase from a residence. The second is location. The Town of Jupiter\'s public Riverwalk runs along the marina, and Harbourside Place, with its restaurants, hotel and amphitheater, is a short walk north under the bridge. Café des Artistes, a French bakery and bistro, and Dive Bar Restaurant sit right on the marina, and the ocean beaches are a few minutes away by car. Very few addresses in northern Palm Beach County let you keep a boat below your building and walk to dinner.',
+      'Jupiter Yacht Club is a gated waterfront condominium community on the Intracoastal Waterway, on the east side of US-1 just south of the Indiantown Road bridge. It is five mid-rise buildings, the Pointe, the Admiral, the Mariner, the Commodore and the Anchorage, built between about 2002 and 2006 and standing six to seven stories. Residences are large for a condo: mostly two to four bedrooms, from roughly 2,000 to more than 3,500 square feet under air, many with wide Intracoastal views. The buildings are not interchangeable. The Pointe, the original building, has two-story penthouses on top and ground-floor residences with a private staircase from the patio down to the marina.\n\nTwo things set it apart from every other condo in Jupiter. The first is the marina: about 80 boat slips on the property, sold as their own condominium units, so a slip is a separate purchase from a residence. The second is location. The Town of Jupiter\'s public Riverwalk runs along the marina, and Harbourside Place, with its restaurants, hotel and amphitheater, is a short walk north under the bridge. Café des Artistes, a French bakery and bistro, and Dive Bar Restaurant sit right on the marina, and the ocean beaches are a few minutes away by car. Very few addresses in northern Palm Beach County let you keep a boat below your building and walk to dinner.',
     placeNotes: [
       {
         heading: 'The Pointe: penthouses upstairs, stairs to the marina downstairs',
@@ -4256,7 +4256,7 @@ export const neighborhoods: CommunityItem[] = [
       },
       {
         heading: 'A slip is a separate purchase from a condo',
-        body: 'The Jupiter Yacht Club marina is its own condominium, and its 79 slips are individually owned units. Buying a residence does not come with a slip, and owning a slip does not require owning a residence. Slips change hands on the MLS like any other property, and some owners rent theirs out. If a boat is the reason you are looking here, price the slip and the residence as two transactions, and check the slip\'s length, beam, depth and dock position against your boat before you commit to either. Waterway Guide lists the largest vessel at 65 feet and about 5 feet of depth at mean low water.',
+        body: 'The Jupiter Yacht Club marina is its own condominium, and its slips are individually owned units. Published counts differ: Waterway Guide lists 79 slips, while the Town of Jupiter\'s Riverwalk page says 89, so ask the marina association for the current number. Buying a residence does not come with a slip, and owning a slip does not require owning a residence. Slips change hands on the MLS like any other property, and some owners rent theirs out. If a boat is the reason you are looking here, price the slip and the residence as two transactions, and check the slip\'s length, beam, depth and dock position against your boat before you commit to either. Waterway Guide lists the largest vessel at 65 feet and about 5 feet of depth at mean low water.',
         links: [{ label: 'Communities with kayak launches and slips', href: '/communities-with-kayak-launches' }],
       },
       {
@@ -4277,18 +4277,18 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Homes', value: 'Five condo buildings: the Pointe, Admiral, Mariner, Commodore and Anchorage' },
       { label: 'Built', value: 'About 2002 to 2006, six and seven stories' },
       { label: 'Residences', value: 'Mostly 2 to 4 bedrooms, roughly 2,000 to 3,500+ sq ft' },
-      { label: 'Marina', value: '79 individually owned slips, up to 65 ft' },
+      { label: 'Marina', value: 'About 80 individually owned slips, up to 65 ft' },
       { label: 'Ocean access', value: 'About 2 miles to the Jupiter Inlet through two drawbridges; no fixed bridge' },
       { label: 'Walk to', value: 'Harbourside Place, the Riverwalk, the Plaza Down Under, Café des Artistes and Dive Bar' },
       { label: 'Beach', value: 'A few minutes by car to the ocean beaches' },
       { label: 'Security', value: 'Gated' },
     ],
     priceRanges: [
-      { type: 'Condo Residences', range: '$1.2M – $2.5M', propertyTypes: ['condo'] },
+      { type: 'Condo Residences', range: '$1.2M – $2.6M', propertyTypes: ['condo'] },
       { type: 'Boat Slips (marina condo)', range: '$250K – $325K asking' },
     ],
     highlights: [
-      'Intracoastal frontage with a 79-slip marina on the property',
+      'Intracoastal frontage with a marina of about 80 slips on the property',
       'No fixed bridge between the marina and the Jupiter Inlet',
       'Large condo floor plans, mostly two to four bedrooms and 2,000+ sq ft',
       'The Pointe: two-story penthouses and ground-floor residences with private stairs down to the marina',
@@ -4324,7 +4324,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'I-95 at Indiantown Road', time: '10–15 min' },
     ],
     faqs: [
-      { q: 'Does buying a condo at Jupiter Yacht Club come with a boat slip?', a: 'No. The marina is a separate condominium and its 79 slips are individually owned, so a slip is its own purchase. You also do not need to own a residence to own a slip. Slips come up for sale on the MLS, and some owners rent theirs.' },
+      { q: 'Does buying a condo at Jupiter Yacht Club come with a boat slip?', a: 'No. The marina is a separate condominium and its slips, about 80 of them, are individually owned, so a slip is its own purchase. You also do not need to own a residence to own a slip. Slips come up for sale on the MLS, and some owners rent theirs.' },
       { q: 'Are there fixed bridges between Jupiter Yacht Club and the ocean?', a: 'No. The route to the Jupiter Inlet, about two miles north, passes under the Indiantown Road and US-1 bridges, and both are drawbridges. The Indiantown Road bridge opens on the hour and half hour; the rebuilt US-1 bridge opens on demand. Confirm current bridge schedules before relying on them.' },
       { q: 'How big a boat fits at Jupiter Yacht Club?', a: 'Waterway Guide lists the largest vessel at 65 feet, with about 5 feet of depth at mean low water. Slips vary in length and beam, so check the specific slip against your boat before you buy or rent it.' },
       { q: 'Is Jupiter Yacht Club a 55+ community?', a: 'None of the listings or public sources we reviewed describe it as age-restricted. Confirm with the association documents for the specific building before you buy.' },

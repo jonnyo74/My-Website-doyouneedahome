@@ -27540,7 +27540,7 @@ The busiest section runs through the heart of it, around the **Indiantown Road b
 - **The Plaza Down Under.** Under the east span of the Indiantown Road bridge is the Town's event plaza, formerly called the Riverwalk Events Plaza. It is shaded, breezy and home to the Sunday market.
 - **Harbourside Place.** North of the bridge, the path runs along the waterfront at Harbourside Place, with its restaurants, hotel, marina and amphitheater. Our [Harbourside Place guide](/blog/harbourside-place-jupiter-florida) covers it in detail.
 
-![A brick promenade with white railings along a marina basin, with a yacht in the foreground and Mediterranean-style condominium buildings behind](/images/jupiter/IMG_6962.webp "The brick promenade along the marina at Jupiter Yacht Club. || Photo by John Oliver"){2400x1800}
+![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and Mediterranean-style condominium buildings behind](/images/jupiter/IMG_6962.webp "A brick promenade along one of the marinas on the Riverwalk. || Photo by John Oliver"){2400x1800}
 
 From there, the Riverwalk continues north toward **Burt Reynolds Park**, the US-1 bridge and the inlet. Walking from the Yacht Club to Harbourside and back is an easy after-dinner loop.
 
@@ -27609,7 +27609,7 @@ Timelines move, so treat these as plans, not promises. The Town's Riverwalk page
 
 ![Two mid-rise condominium buildings in yellow and cream with terracotta roofs, seen across the water beyond a line of mangroves](/images/jupiter/IMG_6968.webp "Mid-rise condominiums across the water from the Riverwalk, behind a fringe of mangroves. || Photo by John Oliver"){2400x1800}
 
-For a few homes, the Riverwalk is part of the address. **[Jupiter Yacht Club](/communities/jupiter-yacht-club)** is five condominium buildings with a 79-slip marina, and the path runs right along the water there, with Harbourside a short walk north. In the Pointe, the original building, the ground-floor residences even have private stairs from the patio down to the marina. It is the rare Jupiter address where a morning walk, a boat slip and dinner out all start at your door, and the beach is a few minutes' drive.
+For a few homes, the Riverwalk is part of the address. **[Jupiter Yacht Club](/communities/jupiter-yacht-club)** is five condominium buildings with a marina of about 80 slips, and the path runs right along the water there, with Harbourside a short walk north. In the Pointe, the original building, the ground-floor residences even have private stairs from the patio down to the marina. It is the rare Jupiter address where a morning walk, a boat slip and dinner out all start at your door, and the beach is a few minutes' drive.
 
 The trade-off is that a public path means public activity: walkers, cyclists and event crowds, right below your windows. If you are considering a home along it, visit at the busiest times, not just the quiet ones.
 
