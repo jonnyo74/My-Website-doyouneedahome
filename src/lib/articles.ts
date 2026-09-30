@@ -27421,7 +27421,7 @@ Dining is the main reason people go. The official directory, as of September 202
 
 ![Calaveras Cantina at Harbourside Place, a corner restaurant with a black awning advertising margaritas, tacos and craft cocktails](/images/jupiter/IMG_6960.webp "Calaveras Cantina, on a corner of the district. || Photo by John Oliver"){2400x1800}
 
-A short walk south along the Riverwalk, under the Indiantown Road bridge, **Dive Bar Restaurant** sits on the water at the Jupiter Yacht Club marina.
+A short walk south along the Riverwalk, under the Indiantown Road bridge, two more sit on the water at the Jupiter Yacht Club marina: **Café des Artistes**, a French bakery and bistro, and **Dive Bar Restaurant**.
 
 Restaurants turn over, and several names that used to be here are gone. Check the directory or call before you make a special trip. For the rest of the town's dining, from the inlet to Abacoa, see our [guide to eating, drinking and hanging out in Jupiter](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida).
 
@@ -27536,7 +27536,7 @@ The Town's [Riverwalk map](https://www.jupiter.fl.us/234/Riverwalk-Map-Points-of
 
 The busiest section runs through the heart of it, around the **Indiantown Road bridge**:
 
-- **Jupiter Yacht Club.** Just south of the bridge, the path runs along the Jupiter Yacht Club marina, where the Town lists public day slips and public parking. **Dive Bar Restaurant** sits on the water here.
+- **Jupiter Yacht Club.** Just south of the bridge, the path runs along the Jupiter Yacht Club marina, where the Town lists public day slips and public parking. **Café des Artistes**, a French bakery and bistro, and **Dive Bar Restaurant** both sit on the water here.
 - **The Plaza Down Under.** Under the east span of the Indiantown Road bridge is the Town's event plaza, formerly called the Riverwalk Events Plaza. It is shaded, breezy and home to the Sunday market.
 - **Harbourside Place.** North of the bridge, the path runs along the waterfront at Harbourside Place, with its restaurants, hotel, marina and amphitheater. Our [Harbourside Place guide](/blog/harbourside-place-jupiter-florida) covers it in detail.
 
@@ -27584,7 +27584,7 @@ The Town posts its schedule on its [Events on the Riverwalk](https://www.jupiter
 
 ## Where to eat along it
 
-The restaurants on the path itself are the **Harbourside Place** lineup (The Woods Jupiter, Ruth's Chris, Tommy Bahama and more) and **Dive Bar Restaurant** at the Jupiter Yacht Club marina.
+The restaurants on the path itself are the **Harbourside Place** lineup (The Woods Jupiter, Ruth's Chris, Tommy Bahama and more), plus **Café des Artistes** and **Dive Bar Restaurant** at the Jupiter Yacht Club marina. Café des Artistes is a French bakery and bistro, so it is the breakfast stop for a morning walk.
 
 Some of Jupiter's best-known waterfront spots, like Guanabanas and the restaurants around the inlet, are close by but not on the Riverwalk. Our [Jupiter dining guide](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida) covers them.
 
@@ -27609,7 +27609,7 @@ Timelines move, so treat these as plans, not promises. The Town's Riverwalk page
 
 ![Two mid-rise condominium buildings in yellow and cream with terracotta roofs, seen across the water beyond a line of mangroves](/images/jupiter/IMG_6968.webp "Mid-rise condominiums across the water from the Riverwalk, behind a fringe of mangroves. || Photo by John Oliver"){2400x1800}
 
-For a few homes, the Riverwalk is part of the address. **[Jupiter Yacht Club](/communities/jupiter-yacht-club)** is five condominium buildings with a 79-slip marina, and the path runs right along the water there, with Harbourside a short walk north. It is the rare Jupiter address where a morning walk, a boat slip and dinner out all start at your door.
+For a few homes, the Riverwalk is part of the address. **[Jupiter Yacht Club](/communities/jupiter-yacht-club)** is five condominium buildings with a 79-slip marina, and the path runs right along the water there, with Harbourside a short walk north. In the Pointe, the original building, the ground-floor residences even have private stairs from the patio down to the marina. It is the rare Jupiter address where a morning walk, a boat slip and dinner out all start at your door, and the beach is a few minutes' drive.
 
 The trade-off is that a public path means public activity: walkers, cyclists and event crowds, right below your windows. If you are considering a home along it, visit at the busiest times, not just the quiet ones.
 
@@ -27623,7 +27623,7 @@ To see where the Riverwalk fits in the rest of town, start with [what it's reall
       { q: "Are dogs allowed on the Jupiter Riverwalk?", a: "Yes, on a leash, and owners must clean up after them." },
       { q: "Can you ride a bike on the Jupiter Riverwalk?", a: "Yes, on most of it. Some sections ask cyclists to dismount and walk, so follow the posted signs, and slow down in the busy restaurant stretch around Harbourside Place." },
       { q: "What is the Plaza Down Under in Jupiter?", a: "The Town's event plaza on the Riverwalk, under the east span of the Indiantown Road bridge. It was formerly called the Riverwalk Events Plaza. It hosts the Sunday Green & Artisan Market and Town events like Jupiter HarbourFest." },
-      { q: "What restaurants are on the Jupiter Riverwalk?", a: "The restaurants at Harbourside Place, including The Woods Jupiter, Ruth's Chris and Tommy Bahama, plus Dive Bar Restaurant at the Jupiter Yacht Club marina. Other well-known waterfront spots such as Guanabanas are nearby but not on the Riverwalk itself." },
+      { q: "What restaurants are on the Jupiter Riverwalk?", a: "The restaurants at Harbourside Place, including The Woods Jupiter, Ruth's Chris and Tommy Bahama, plus Café des Artistes, a French bakery and bistro, and Dive Bar Restaurant at the Jupiter Yacht Club marina. Other well-known waterfront spots such as Guanabanas are nearby but not on the Riverwalk itself." },
       { q: "Can you launch a kayak from the Jupiter Riverwalk?", a: "Burt Reynolds Park, at the north end of the central stretch, has a beach for launching kayaks and paddleboards plus boat ramps. The Town's plans for the remaining Riverwalk work also include a new kayak launch. Jupiter Yacht Club does not have a private launch; the water access there is the public Riverwalk." },
     ],
     internalLinks: ["harbourside-place-jupiter-florida", "best-things-to-do-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],

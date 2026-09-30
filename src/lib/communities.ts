@@ -4248,8 +4248,12 @@ export const neighborhoods: CommunityItem[] = [
     metaDescription: 'Jupiter Yacht Club: five Intracoastal condo buildings on US-1, a 79-slip marina where slips are bought separately, drawbridge-only access to the inlet, and Harbourside Place on foot. What to check before you buy.',
     heroHeading: 'Jupiter Yacht Club Condos & Boat Slips',
     overview:
-      'Jupiter Yacht Club is a gated waterfront condominium community on the Intracoastal Waterway, on the east side of US-1 just south of the Indiantown Road bridge. It is five mid-rise buildings, the Pointe, the Admiral, the Mariner, the Commodore and the Anchorage, built between about 2002 and 2006 and standing six to seven stories. Residences are large for a condo: mostly two to four bedrooms, from roughly 2,000 to more than 3,500 square feet under air, many with wide Intracoastal views.\n\nTwo things set it apart from every other condo in Jupiter. The first is the marina: 79 boat slips on the property, sold as their own condominium units, so a slip is a separate purchase from a residence. The second is location. The Town of Jupiter\'s public Riverwalk runs along the marina, and Harbourside Place, with its restaurants, hotel and amphitheater, is a short walk north under the bridge. Very few addresses in northern Palm Beach County let you keep a boat below your building and walk to dinner.',
+      'Jupiter Yacht Club is a gated waterfront condominium community on the Intracoastal Waterway, on the east side of US-1 just south of the Indiantown Road bridge. It is five mid-rise buildings, the Pointe, the Admiral, the Mariner, the Commodore and the Anchorage, built between about 2002 and 2006 and standing six to seven stories. Residences are large for a condo: mostly two to four bedrooms, from roughly 2,000 to more than 3,500 square feet under air, many with wide Intracoastal views. The buildings are not interchangeable. The Pointe, the original building, has two-story penthouses on top and ground-floor residences with a private staircase from the patio down to the marina.\n\nTwo things set it apart from every other condo in Jupiter. The first is the marina: 79 boat slips on the property, sold as their own condominium units, so a slip is a separate purchase from a residence. The second is location. The Town of Jupiter\'s public Riverwalk runs along the marina, and Harbourside Place, with its restaurants, hotel and amphitheater, is a short walk north under the bridge. Café des Artistes, a French bakery and bistro, and Dive Bar Restaurant sit right on the marina, and the ocean beaches are a few minutes away by car. Very few addresses in northern Palm Beach County let you keep a boat below your building and walk to dinner.',
     placeNotes: [
+      {
+        heading: 'The Pointe: penthouses upstairs, stairs to the marina downstairs',
+        body: 'The Pointe, at 340 S US-1, is the original Jupiter Yacht Club building, finished around 2002, and it has two layouts you will not find in the other four. At the top are two-story penthouses. At the bottom, the ground-floor residences have a private staircase from the patio straight down to the marina, so if you also own or rent a slip nearby, your boat can be a few steps from your back door. That combination is rare in a Jupiter condo and it prices accordingly. Because slips are sold separately, a ground-floor unit does not come with the slip below it: ask which slips are closest, whether any are for sale or rent, and what they would cost before you pay for the stairs.',
+      },
       {
         heading: 'A slip is a separate purchase from a condo',
         body: 'The Jupiter Yacht Club marina is its own condominium, and its 79 slips are individually owned units. Buying a residence does not come with a slip, and owning a slip does not require owning a residence. Slips change hands on the MLS like any other property, and some owners rent theirs out. If a boat is the reason you are looking here, price the slip and the residence as two transactions, and check the slip\'s length, beam, depth and dock position against your boat before you commit to either. Waterway Guide lists the largest vessel at 65 feet and about 5 feet of depth at mean low water.',
@@ -4275,7 +4279,8 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Residences', value: 'Mostly 2 to 4 bedrooms, roughly 2,000 to 3,500+ sq ft' },
       { label: 'Marina', value: '79 individually owned slips, up to 65 ft' },
       { label: 'Ocean access', value: 'About 2 miles to the Jupiter Inlet through two drawbridges; no fixed bridge' },
-      { label: 'Walk to', value: 'Harbourside Place, the Riverwalk, the Plaza Down Under' },
+      { label: 'Walk to', value: 'Harbourside Place, the Riverwalk, the Plaza Down Under, Café des Artistes and Dive Bar' },
+      { label: 'Beach', value: 'A few minutes by car to the ocean beaches' },
       { label: 'Security', value: 'Gated' },
     ],
     priceRanges: [
@@ -4286,21 +4291,26 @@ export const neighborhoods: CommunityItem[] = [
       'Intracoastal frontage with a 79-slip marina on the property',
       'No fixed bridge between the marina and the Jupiter Inlet',
       'Large condo floor plans, mostly two to four bedrooms and 2,000+ sq ft',
+      'The Pointe: two-story penthouses and ground-floor residences with private stairs down to the marina',
       'Parking under the buildings, pools, fitness rooms and social rooms',
-      'The public Riverwalk runs along the marina, with Dive Bar Restaurant on the water',
+      'The public Riverwalk runs along the marina, with Café des Artistes and Dive Bar Restaurant on the water',
+      'A few minutes by car to the ocean beaches',
       'Harbourside Place restaurants, hotel and amphitheater a short walk north',
       'Burt Reynolds Park boat ramps and the Jupiter Inlet a short drive or ride north',
     ],
     lifestyle:
-      'Daily life here runs along the water. The Riverwalk gives you a morning walk that starts at your building, the marina is below the windows, and dinner at Harbourside Place is a walk under the Indiantown Road bridge rather than a drive. On Sundays the Green & Artisan Market sets up at the Plaza Down Under under the same bridge. The trade-off for that convenience is activity: the Riverwalk is public, Harbourside draws crowds on weekends and during events, and US-1 is a busy road. Before you buy, visit on a Friday night and a Sunday morning, not only a quiet weekday, and pick a building and a side of the building with that in mind.',
+      'Daily life here runs along the water. The Riverwalk gives you a morning walk that starts at your building, coffee and a pastry at Café des Artistes are a short stroll along the marina, and dinner or an event at Harbourside Place is a walk under the Indiantown Road bridge rather than a drive. On Sundays the Green & Artisan Market sets up at the Plaza Down Under under the same bridge. The trade-off for that convenience is activity: the Riverwalk is public, Harbourside draws crowds on weekends and during events, and US-1 is a busy road. Before you buy, visit on a Friday night and a Sunday morning, not only a quiet weekday, and pick a building and a side of the building with that in mind.',
     localLoves: [
-      'Walking to dinner at Harbourside Place',
+      'Walking to dinner or an event at Harbourside Place along the Riverwalk',
+      'Breakfast at Café des Artistes and a drink at Dive Bar, both on the marina',
+      'A few minutes to the beach',
       'Morning walks on the Riverwalk from the front door',
       'Sunday Green & Artisan Market under the Indiantown Road bridge',
       'Watching the December holiday boat parade from the water',
     ],
     dining: [
       'Harbourside Place — The Woods Jupiter, Ruth\'s Chris, Tommy Bahama Restaurant, Calaveras Cantina and more, a short walk north',
+      'Café des Artistes — French bakery and bistro on the Jupiter Yacht Club marina, breakfast through dinner',
       'Dive Bar Restaurant — on the water at the Jupiter Yacht Club marina, on the Riverwalk',
     ],
     outdoorActivities: [
@@ -4319,6 +4329,8 @@ export const neighborhoods: CommunityItem[] = [
       { q: 'How big a boat fits at Jupiter Yacht Club?', a: 'Waterway Guide lists the largest vessel at 65 feet, with about 5 feet of depth at mean low water. Slips vary in length and beam, so check the specific slip against your boat before you buy or rent it.' },
       { q: 'Is Jupiter Yacht Club a 55+ community?', a: 'None of the listings or public sources we reviewed describe it as age-restricted. Confirm with the association documents for the specific building before you buy.' },
       { q: 'Does Jupiter Yacht Club have a kayak launch?', a: 'Not as a condo amenity. The Town of Jupiter\'s public Riverwalk runs along the marina, with public day slips and public parking. It is open to everyone and is not a private feature of the community.' },
+      { q: 'Which Jupiter Yacht Club building has penthouses and marina access from the unit?', a: 'The Pointe, the original building at 340 S US-1. It has two-story penthouses on top, and its ground-floor residences have a private staircase from the patio down to the marina. Slips are sold separately, so confirm which slip you could buy or rent near a given unit.' },
+      { q: 'What restaurants are at Jupiter Yacht Club?', a: 'Two sit right on the marina along the Riverwalk: Café des Artistes, a French bakery and bistro, and Dive Bar Restaurant. Harbourside Place and its restaurants are a short walk north under the Indiantown Road bridge.' },
       { q: 'Can you walk to Harbourside Place from Jupiter Yacht Club?', a: 'Yes. Harbourside Place is just north of the Indiantown Road bridge, a short walk along the Riverwalk and under the bridge, past the Plaza Down Under.' },
       { q: 'What should I ask for before buying at Jupiter Yacht Club?', a: 'The budgets for every association you will belong to (your building\'s, the master association\'s and the marina\'s if you buy a slip), the building\'s milestone inspection and structural integrity reserve study, any current or proposed special assessments, pet and leasing rules, and the flood zone and insurance for the specific unit.' },
     ],
