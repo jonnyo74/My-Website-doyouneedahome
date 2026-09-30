@@ -64,5 +64,5 @@ and `IMG_2956` (#6's hero) are all location-verified. Frames from the same shore
 
 The full OneDrive folder (`DO Homes Group Master/Website Folders/Doyouneedphotos/Singer Island`, ~230 files plus an
 `Other Building` subfolder) was catalogued by eye on 2026-09-30. Being in the folder is not proof of location:
-`IMG_0153` shows the Jupiter Inlet Lighthouse. The `IMG_2939`–`IMG_2980` inlet evening is resolved above. `yellow-house-palms-hero.webp` (#5) shows a partial house-number sign ("20…") near its
+`IMG_0153` shows the Jupiter Inlet Lighthouse. The `IMG_2939`–`IMG_2980` inlet evening is resolved above. `yellow-house-palms-hero.webp` (#5) showed a partial house-number sign near its
 left edge; on 2026-09-30 it was blurred (feathered patch over cols ~140–250, rows ~720–860) in both the hero file and its phone crop. The library original is untouched.
