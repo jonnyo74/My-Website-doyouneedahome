@@ -14,6 +14,7 @@ import {
 import { WORKSHEET_HEADING, WORKSHEET_HEADING_ID } from '@/lib/carryingCost'
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import KeyFactors from '@/components/article/KeyFactors'
+import ComparisonMatrix, { matrixHeadingId } from '@/components/article/ComparisonMatrix'
 import DiscoveryGuide from '@/components/article/DiscoveryGuide'
 import ComparisonShortlist from '@/components/article/ComparisonShortlist'
 import ComparisonGuide from '@/components/article/ComparisonGuide'
@@ -185,6 +186,12 @@ export default async function ArticlePage({ params }: Props) {
   // The quick-fit module can sit between the introduction and the contents,
   // but only when the introduction was actually split off.
   const quickFitAfterIntro = Boolean(editorial?.quickFit?.afterIntro && introSplit)
+  const keyFactorsAfterIntro = Boolean(editorial?.keyFactors?.afterIntro && introSplit)
+  // The comparison matrix sits between the contents and the body, so it leads
+  // the contents list.
+  if (editorial?.matrix && introSplit) {
+    sections.unshift({ id: matrixHeadingId(editorial.matrix), label: editorial.matrix.heading })
+  }
   // Cities whose listings widget runs a hand-built house search (Singer Island)
   // label it as houses, and point condo shoppers at the condo search.
   const citySearch = getYlopoCitySearch(article.cityName)
@@ -357,7 +364,8 @@ export default async function ArticlePage({ params }: Props) {
       {editorial?.civicProject && <ProjectStatusCard status={editorial.civicProject.status} />}
 
       <div className="mx-auto max-w-3xl px-6 py-12 sm:px-8">
-        {editorial?.keyFactors && <KeyFactors data={editorial.keyFactors} />}
+        {editorial?.keyFactors && !keyFactorsAfterIntro && <KeyFactors data={editorial.keyFactors} />}
+        {editorial?.matrix && !introSplit && <ComparisonMatrix data={editorial.matrix} />}
         {editorial?.quickFit && !quickFitAfterIntro && <QuickFit data={editorial.quickFit} />}
         {editorial?.guide && <DiscoveryGuide guide={editorial.guide} />}
         {editorial?.comparison && <ComparisonGuide comparison={editorial.comparison} />}
@@ -370,7 +378,13 @@ export default async function ArticlePage({ params }: Props) {
             <>
               <BodyWithTool content={introSplit[0]} tool={editorial?.tool} />
               {quickFitAfterIntro && editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
+              {keyFactorsAfterIntro && editorial?.keyFactors && (
+                <div className="mt-10">
+                  <KeyFactors data={editorial.keyFactors} />
+                </div>
+              )}
               {sections.length > 0 && <ArticleToc sections={sections} />}
+              {editorial?.matrix && <ComparisonMatrix data={editorial.matrix} />}
               <BodyWithTool content={introSplit[1]} tool={editorial?.tool} />
             </>
           ) : bodyParts ? (
