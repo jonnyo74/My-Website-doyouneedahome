@@ -688,9 +688,9 @@ Start with the five places above, walk the historic loop once, and learn the tur
     order: 3,
     seoTitle: 'Juno Beach Neighborhoods & Areas | How to Choose',
     metaTitle: 'Juno Beach Neighborhoods & Areas | How to Choose',
-    metaDescription: "How to compare homes inside the Town of Juno Beach: condominium buildings, single-family streets and smaller multifamily, with what to verify for each.",
+    metaDescription: "Compare homes inside the Town of Juno Beach: oceanfront condos, Intracoastal communities, single-family streets and smaller multifamily, and what to verify.",
     primaryKeyword: 'Juno Beach neighborhoods',
-    secondaryKeywords: ['where to live in Juno Beach', 'Juno Beach condos', 'Juno Beach single-family homes', 'Juno Beach zoning'],
+    secondaryKeywords: ['where to live in Juno Beach', 'Juno Beach condos', 'Oak Harbour Juno Beach', 'Bay Colony Juno Beach', 'Uno Lago Juno Beach', 'Juno Beach single-family homes'],
     h1: 'Juno Beach Neighborhoods and Areas: How to Choose',
     heroImage: '/images/juno-beach/pelican-lake-sunset-hero.webp',
     heroImageAlt: 'Pelican Lake in Juno Beach at sunset under an orange and pink sky, with a fountain at left and homes along the far shore',
@@ -709,7 +709,7 @@ Start with the five places above, walk the historic loop once, and learn the tur
       magnetPlacement: 'none',
       matrix: {
         heading: 'Choose your Juno Beach fit',
-        intro: "Four housing patterns inside the Town of Juno Beach, following the residential districts on the Town's zoning map. These are categories, not official neighborhood names.",
+        intro: "Five housing patterns inside the Town of Juno Beach, following the residential districts on the Town's zoning map and the communities on it. These are categories, not official neighborhood names.",
         labels: { priorities: 'Home type', questions: 'Ownership and governance', daily: 'Beach or water access', singer: 'Ask first' },
         rows: [
           {
@@ -727,6 +727,14 @@ Start with the five places above, walk the historic loop once, and learn the tur
             questions: 'A condominium association, with the added systems a taller building carries, such as elevators.',
             daily: 'Depends on the building and its position; check the documents and the nearest public access.',
             singer: 'Whether statutory milestone-inspection and structural integrity reserve study requirements apply, and their status.',
+          },
+          {
+            name: 'Intracoastal and lakeside communities',
+            tag: 'Such as Oak Harbour, Bay Colony and Uno Lago',
+            priorities: 'Condominiums, and in Oak Harbour also townhomes and single-family homes, away from the oceanfront: on the Intracoastal at Oak Harbour and Bay Colony, and around a lake at Uno Lago.',
+            questions: "One or more associations, sometimes a master association plus a condominium association; confirm which documents govern the home.",
+            daily: 'Water views or lake frontage rather than the beach. Any boat slip or dock rights come from the documents, not the view.',
+            singer: 'Whether a slip conveys or is leased; for condominiums, the building\'s inspection and reserve-study status; and the route to public beach access.',
           },
           {
             name: 'Single-family residential streets',
@@ -775,6 +783,14 @@ The Town's [Planning & Zoning](https://www.juno-beach.fl.us/1221/Planning-Zoning
 
 **What to verify.** Which requirements apply to the building and where it stands on them.
 
+### Intracoastal and lakeside communities
+
+**What's known.** Not every Juno Beach home faces the ocean. Three communities on the Intracoastal and lake side of town appear on the Town's official zoning and address maps: Oak Harbour, a gated Intracoastal community with condominiums, townhomes and single-family homes and its own marina; Bay Colony, condominium buildings on the Intracoastal; and Uno Lago, a condominium community built around a lake.
+
+**What differs.** The water you live beside. The Intracoastal brings boating and marina questions; a lake brings views and frontage but not navigable access. Both are a drive or a walk from public beach access rather than on the sand.
+
+**What to verify.** If a listing mentions a boat slip or dock, whether it conveys with the home, is leased or is assigned by the association, and on what terms, plus water depth and the route and clearances to the inlets. For condominiums, whether milestone-inspection and reserve-study requirements apply to the building. And which association, or associations, govern the home.
+
 ### Single-family residential streets
 
 **What's known.** The Town zones its single-family land in five districts, RS-1 through RS-5. When the town's new streets were laid out, the Juno Beach Garden Club named them after classical mythology, with names such as Mars, Venus and Olympus.
@@ -819,7 +835,7 @@ In Juno Beach, choosing a condominium is choosing a building. Before you commit,
 
 "Waterfront" can mean the ocean, the Intracoastal, a canal or a lake, and those are different things. [Pelican Lake](https://www.juno-beach.fl.us/1322/Pelican-Lake), for example, was created when a marsh was dredged; lake frontage isn't the same as navigable boating access.
 
-If a property inside the town is marketed with boating or dock access, verify:
+If a property inside the town is marketed with boating or dock access, such as a condominium on the Intracoastal, verify:
 
 - **Title and conveyance:** does the dock, slip or water access belong to the property, or to an association?
 - **Permits** for any dock, lift or seawall.
@@ -848,8 +864,8 @@ Juno Beach is small enough that you can see all of its housing patterns in a day
 
 For more, see the [Juno Beach community guide](/communities/juno-beach), [what it's really like living in Juno Beach](/blog/what-its-really-like-living-in-juno-beach-florida), our [local's guide](/blog/local-guide-to-juno-beach-florida) and the [cost of living in Juno Beach](/blog/cost-of-living-in-juno-beach-florida).`,
     faqs: [
-      { q: "How many distinct residential areas are in Juno Beach?", a: "The Town doesn't publish a list of official neighborhoods. Its zoning divides residential land into single-family districts (RS-1 through RS-5), a duplex district, multiple-family districts and a high-density district. In practice that gives four housing patterns: oceanfront and near-ocean condominium buildings, taller condominium buildings, single-family streets, and duplexes, townhouses and smaller multifamily." },
-      { q: "Does Juno Beach have both condos and single-family homes?", a: "Yes. Condominiums have been part of the town since The Greenbrier in 1966, and The Tower became the first 12-story condominium in 1972. The Town also has five single-family zoning districts, plus duplex and multiple-family districts." },
+      { q: "How many distinct residential areas are in Juno Beach?", a: "The Town doesn't publish a list of official neighborhoods. Its zoning divides residential land into single-family districts (RS-1 through RS-5), a duplex district, multiple-family districts and a high-density district. In practice that gives five housing patterns: oceanfront and near-ocean condominium buildings, taller condominium buildings, Intracoastal and lakeside communities such as Oak Harbour, Bay Colony and Uno Lago, single-family streets, and duplexes, townhouses and smaller multifamily." },
+      { q: "Does Juno Beach have both condos and single-family homes?", a: "Yes. Condominiums have been part of the town since The Greenbrier in 1966, and The Tower became the first 12-story condominium in 1972. Not all of them are on the ocean: Oak Harbour and Bay Colony are on the Intracoastal, and Uno Lago is built around a lake. The Town has five single-family zoning districts, and communities such as Oak Harbour also include single-family homes. The Town's zoning also includes duplex and multiple-family districts." },
       { q: "What should I verify before buying a Juno Beach condo?", a: "The governing documents, budget, reserves, special assessments, recent board minutes, maintenance history and the association's insurance. Florida law requires periodic milestone inspections and structural integrity reserve studies for certain buildings three stories or more in height; whether and when they apply is building-specific. The association's master policy is also different from your own unit-owner policy, deductibles and loss-assessment exposure." },
       { q: "What does waterfront mean in a Juno Beach listing?", a: "It can mean the ocean, the Intracoastal, a canal or a lake, and each is different. Verify title and conveyance of any dock or access, permits, water depth, bridge clearance, seawall condition and maintenance responsibility for the specific parcel. Don't assume an area has navigable access because some homes on it do." },
       { q: "How do I verify whether a property is inside the Town of Juno Beach?", a: "Look up the parcel on the Palm Beach County Property Appraiser's site, which shows its municipality, and check its zoning with the Town of Juno Beach. A Juno Beach mailing address or ZIP code isn't proof that a property is inside the Town." },
