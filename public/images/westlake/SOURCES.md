@@ -19,11 +19,12 @@ Because of that, alt text says "a Minto model home in Westlake", credits carry t
 
 ## Blog article heroes
 
-Articles #2 (local guide), #4 (things to do), #8 (hidden gems), #9 (vs nearby cities) and #10 (eat, drink, hang out) are about the city, not the houses, so model-home interiors would misrepresent them. They have no hero until real community photos exist.
+Articles #4 (things to do), #8 (hidden gems), #9 (vs nearby cities) and #10 (eat, drink, hang out) are about the city, not the houses, so model-home interiors would misrepresent them. They have no hero until real community photos exist. #2 (local guide) got an exterior lakeside hero in its 2026-10-01 rebuild; see its row below.
 
 | Article | Hero file | Cut from | Crop | Why it fits |
 |---|---|---|---|---|
 | #1 `what-its-really-like-living-in-westlake-florida` | `model-pool-lake-construction-hero.webp` (16:9 OG/JSON-LD), plus `model-pool-lake-construction-mobile.webp` (1200×800, editorial hero on phones, added 2026-10-01) | `westlake-049.jpg` | Hero rows 120–1272. Mobile rows 80–1445, resized to 1200×800. | Retained in the 2026-10-01 rebuild after a library search found no verified Westlake streetscape, park or civic photo. The pool is the subject; the site work across the lake is dated by the hero caption ("photographed in 2018"). |
+| #2 `local-guide-to-westlake-florida` | `lakeside-patio-fence-hero.webp` (16:9 OG/JSON-LD), `lakeside-patio-fence-panel.webp` (960×1200, split 'guide' panel) and `lakeside-patio-fence-mobile.webp` (1200×800). Added 2026-10-01. | `westlake-024.jpg` | Hero rows 200–1352. Panel cols 560–1789, all rows, resized to 960×1200. Mobile rows 120–1485, resized to 1200×800. | A library search (Westlake folder, Doyouneedphotos) found no Westlake streetscape, civic, utility or amenity photo. This exterior frame shows a lake, a fence and a neighboring house rather than a staged interior, and the panel caption names it as a 2018 Minto model. The same frame is gallery image 1 on the community page. |
 | #3 `best-neighborhoods-in-westlake-florida` | `model-home-garages-hero.webp` | `westlake-019.jpg` | Rows 260–1412 | A model-home exterior for an article about builder collections. A small builder sign in the yard is not legible. |
 | #5 `who-should-move-to-westlake-florida` | `model-patio-lake-palms-hero.webp` | `westlake-070.jpg` | Rows 260–1412 | Covered patio, lawn and lake: the indoor-outdoor lifestyle the article weighs. |
 | #6 `pros-and-cons-of-living-in-westlake-florida` | `model-lanai-pool-construction-hero.webp` | `westlake-051.jpg` | Rows 180–1332 | Shows the pro (pool and lake view) and the con (heavy equipment and site work across the water) in one frame. |
