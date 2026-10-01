@@ -13789,6 +13789,15 @@ That doesn't mean a home here carries no district charges. The city's [lien sear
 - **Planned streetscapes and maintained common areas.** Landscaping and shared spaces are part of the plan and the association budgets.
 - **Choice.** Different home types, builders and phases, so you can compare options inside one city.
 
+::: gallery
+![A two-story foyer with a staircase and metal railing, arched transom windows and double front doors in a Minto model home in Westlake](/images/westlake/model-two-story-foyer.webp "A two-story foyer in a Minto model home in Westlake. || Photo by John Oliver, 2018")
+![A bedroom with a gray upholstered bed, bench and paired lamps, and windows looking out to a fenced yard and a lake, in a Minto model home in Westlake](/images/westlake/model-bedroom-gray-lake-view.webp "A model bedroom with a lake view. || Photo by John Oliver, 2018")
+![A screened pool and spa on a light stone deck with lounge chairs, palms and a lake beyond at dusk, at a Minto model home in Westlake](/images/westlake/model-screened-pool-lake-dusk.webp "A screened pool and spa at a Minto model. || Photo by John Oliver, 2018")
+![A white kitchen with a stainless refrigerator, an island with blue upholstered chairs and a gold pendant light in a Minto model home in Westlake](/images/westlake/model-kitchen-white-blue-chairs.webp "A staged model kitchen. || Photo by John Oliver, 2018")
+:::
+
+These are staged Minto models photographed in 2018. Furnishings are staged and many features are options; plans, pricing and what's included come from the builder's current materials and contract.
+
 **What to weigh against that:**
 
 - **Construction nearby.** How much you see and hear depends on the phase and the lot. A finished street can sit next to a parcel that hasn't been built yet.
@@ -14097,6 +14106,15 @@ When you compare single-family homes, new or resale, look at:
 - [ ] For new construction, the builder contract, warranty and inspection rights.
 - [ ] Which nearby roads, commercial uses, schools or amenities exist now and which are only planned.
 
+::: gallery
+![A bedroom with a four-poster metal canopy bed, a black patterned accent wall, a dark sofa and windows on two sides in a Minto model home in Westlake](/images/westlake/model-bedroom-canopy.webp "A model bedroom. Layouts and room sizes vary by plan. || Photo by John Oliver, 2018")
+![A bathroom with a tub and patterned shower curtain, a granite vanity and a potted plant in a Minto model home in Westlake](/images/westlake/model-bath-tub-vanity.webp "A secondary bath in a Minto model. || Photo by John Oliver, 2018")
+![A laundry room with front-loading washer and dryer, white cabinets, a utility sink and a granite-topped island in a Minto model home in Westlake](/images/westlake/model-laundry-room.webp "A laundry room in a Minto model. || Photo by John Oliver, 2018")
+![A walk-in shower with a glass enclosure, gray wall tile and a high frosted window in a Minto model home in Westlake](/images/westlake/model-shower-glass.webp "A primary shower in a Minto model. || Photo by John Oliver, 2018")
+:::
+
+These staged Minto models were photographed in 2018, and we don't have a record of which collection each belongs to. Compare the plan, features and options for the specific home you're considering.
+
 An empty parcel next to a lot isn't permanently protected, and it isn't guaranteed to be developed either. Check the city's [approved development orders](https://www.westlakegov.com/community/page/approved-development-orders) and the survey and title documents rather than relying only on what a sales office tells you.
 
 ### Larger single-family and estate homes
@@ -14378,116 +14396,142 @@ For more, read the [Westlake local guide](/blog/local-guide-to-westlake-florida)
     cityName: 'Westlake',
     type: "Who Should Move To",
     order: 5,
-    seoTitle: "Who Should Move to Westlake, Florida (And Who Shouldn't)",
-    metaTitle: "Who Should Move to Westlake, FL",
-    metaDescription: "Westlake isn't for everyone. An honest look at who thrives in this brand-new master-planned city — and who would be happier in an established town.",
-    primaryKeyword: "who should move to Westlake Florida",
-    secondaryKeywords: ["is Westlake right for me", "should I move to Westlake", "who lives in Westlake"],
-    h1: "Who Should Move to Westlake, Florida (And Who Shouldn't)",
+    seoTitle: 'Who Should Consider Moving to Westlake, Florida?',
+    metaTitle: 'Who Should Consider Moving to Westlake, Florida?',
+    metaDescription:
+      "A practical guide to Westlake's newer homes, association structure, evolving development, western location, and the property-specific costs buyers should verify.",
+    primaryKeyword: 'should I move to Westlake Florida',
+    secondaryKeywords: ['is Westlake right for me', 'moving to Westlake FL', 'Westlake HOA and SID costs', 'Westlake commute', 'Westlake new construction'],
+    h1: 'Who Should Consider Moving to Westlake, Florida?',
     heroImage: '/images/westlake/model-patio-lake-palms-hero.webp',
-    heroImageAlt: 'A covered patio at a Minto model home in Westlake opening onto a lawn with palms and a lake, with a screened pool at left',
+    heroImageAlt: 'A covered patio with white outdoor furniture at a Minto model home in Westlake, opening onto a lawn with three palms and a lake, with a screened pool at left and houses across the water',
+    heroImageCaption: "A Minto model home's covered patio in Westlake, photographed in 2018. Lots, views, pools and outdoor space vary from home to home.",
     heroImageCredit: 'Photo by John Oliver, 2018',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
-    body: `Westlake is one of the easier places in the county to assess, because what it offers is unusually explicit: a new house, real amenities, a western location and a fee structure. Whether that fits is mostly a matter of arithmetic and honesty about driving.
+    editorial: {
+      eyebrow: 'Westlake · Is It a Fit?',
+      deck: 'A priorities-first way to decide whether Westlake belongs on your shortlist: the home, the association, the location, the growth around you and the full cost.',
+      mobileImage: { src: '/images/westlake/model-patio-lake-palms-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Westlake', href: '/communities/westlake' },
+      secondaryCta: { label: 'Westlake neighborhoods', href: '/blog/best-neighborhoods-in-westlake-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Westlake may appeal to buyers seeking newer homes and a master-planned environment in western Palm Beach County. The key question is whether its location, association structure, evolving development, and property-specific costs align with your day-to-day priorities.
 
-## The people this city fits
+This guide is organized around those priorities, not around who a buyer is. Each section ends with what to verify for the exact home, route and association documents.
 
-**Anyone who genuinely wants new construction.** Not "prefers newer" — wants new: warranty coverage, modern systems, current building code, contemporary layouts, and nothing to renovate. If you've spent a year looking at older houses and finding roofs, panels and repipes behind every one of them, the relief here is substantial.
+## When Westlake may align with your priorities
 
-*Verify:* builder, collection, what's standard versus upgrade, and lot position, which is the thing you cannot change later.
+### 1. Newer-home priorities
 
-**Households that will use the amenities.** The recreation complex is a large part of what you're paying for through the association, and it's excellent. Households that use it weekly get genuine value; those that never go are funding someone else's swimming.
+A buyer prioritizing a newer home may value current floor plans, newer systems, and the chance to choose a home, lot or finish package from a builder. Resales in Westlake are also relatively young homes.
 
-**Buyers who want space they can't afford east.** The western location buys square footage and lot size that the same money cannot approach on the coast. For anyone whose requirement is a bigger house, this is a rational trade.
+That doesn't mean every home comes with a warranty, never needs repairs, or matches a model. Verify:
 
-**Remote workers.** If the commute disappears, the single biggest drawback of the western county goes with it, and what remains is a new house at a lower price with recreation attached. Confirm internet service, which in a new master-planned community is generally good — but verify for the specific address.
+- [ ] The builder and the exact purchase contract.
+- [ ] The warranty documents, if any, and what they cover.
+- [ ] Which features are included and which are upgrades.
+- [ ] Your inspection rights, and an independent inspection.
+- [ ] The roof and the protection for windows and doors on the actual home.
+- [ ] The exact lot, its orientation, and what's around it.
 
-**People who want a community rather than a neighborhood.** A city where everyone arrived recently has an unusual social openness: nobody has established cliques, everybody is new, and people are actively looking to meet each other. For anyone relocating without local connections, that's genuinely easier than moving into a settled town.
+::: gallery
+![A white kitchen with a long quartz island, metal bar stools, a drum pendant light and stainless wall ovens in a Minto model home in Westlake](/images/westlake/model-kitchen-white-island.webp "A staged kitchen in a Minto model home in Westlake. || Photo by John Oliver, 2018")
+![A living room with gray sofas looking toward a tiled entry hall and double front doors in a Minto model home in Westlake](/images/westlake/model-entry-living-room.webp "A living room and entry hall in a Minto model home. || Photo by John Oliver, 2018")
+![An open kitchen with dark wood cabinets, an island with orange stools, a dining table and a sitting area in a Minto model home in Westlake](/images/westlake/model-open-kitchen-living.webp "An open kitchen, dining and living layout in a Minto model. || Photo by John Oliver, 2018")
+![A walk-in closet with dark wood cabinetry, hanging rods and open shelving in a Minto model home in Westlake](/images/westlake/model-walk-in-closet.webp "A walk-in closet in a Minto model home. || Photo by John Oliver, 2018")
+:::
 
-**Buyers relocating from out of state.** Westlake is unusually legible to someone unfamiliar with the region — the product is clear, the fees are disclosed, and there's no century of local knowledge required to avoid a bad street.
+These are staged models photographed in 2018. Furnishings are staged and many finishes are options; current plans and pricing come from the builder.
 
-## The people who tend to regret it
+### 2. Amenity and association preferences
 
-**Anyone who needs the coast.** It's a real drive, and doing it regularly wears people down. Buyers who plan to be at the beach every weekend should be honest about whether they actually will be.
+A buyer who expects to use community amenities should compare the association structure behind them, because access and obligations aren't the same for every home. The Adventure Park, for example, is described in a 2023 [agreement between the city and the Westlake Residences Master Homeowners Association](https://www.westlakegov.com/sites/default/files/fileattachments/ordinance/7697/resolution_2023-09_-_authorizing_execution_for_the_non-exclusive_permissive_use_agreement.pdf) as one of that association's common areas, so access is set by the association.
 
-**Anyone who wants character.** No mature trees, no historic buildings, no accumulated quirk. By design.
+Compare, for each home:
 
-**Anyone who wants a walkable downtown now.** Commercial development is phased. Today, the answer is a drive.
+- [ ] The master association and any neighborhood or sub-association.
+- [ ] Amenity access rules, guest policies and operating hours.
+- [ ] What the association maintains and what the owner maintains.
+- [ ] Fees, budgets, reserves, application requirements and restrictions.
 
-**Buyers who dislike associations and rules.** A master-planned community has both, comprehensively — architectural standards, landscaping requirements, parking rules. If that's the thing you're trying to escape, [Loxahatchee is twenty minutes away](/blog/who-should-move-to-loxahatchee-florida) with almost none of it.
+### 3. Location, errands and commuting
 
-**Anyone who won't do the fee arithmetic.** The district assessment and HOA are real and permanent. Buyers who ignore them are the ones who feel misled later, and it's entirely avoidable.
+Westlake is in western Palm Beach County, and how well it works depends on the trips you actually make. We don't publish drive times; test the routes that matter to you, at the times you'd travel:
 
-**Anyone who cannot tolerate living beside construction** for a period. In a city still building, that's the current condition.
+- Work.
+- School or childcare.
+- Groceries and medical appointments.
+- The airport.
+- Recreation.
+- Visiting friends or relatives.
+- Regular trips to the beach or downtown.
 
-## What to verify before committing
+If you'd use public transit, check [Palm Tran's maps, schedules and trip planner](https://www.palmtran.org/maps-schedules/) for current routes, stops and frequency from the exact address, and ask Palm Tran about paratransit eligibility through Palm Tran Connection if it applies. Service changes over time, so check a realistic door-to-door trip rather than a route map alone.
 
-Three things worth confirming rather than assuming, all of which vary by property:
+### 4. Growth and development tolerance
 
-**Internet service and provider options**, since some communities have arrangements limiting choice, and remote work depends on it entirely.
+Parts of Westlake are still changing: construction, commercial development, roads, landscaping and the parcels around a home may all be evolving. How much that affects a given home depends on its section, lot and surroundings. Before you buy:
 
-**What is entitled on adjacent parcels**, in writing. This is the single most preventable disappointment in a community mid-build.
+- [ ] Visit on different days and at different times.
+- [ ] Look at adjacent lots and undeveloped parcels.
+- [ ] Review the city's [approved development orders](https://www.westlakegov.com/community/page/approved-development-orders).
+- [ ] Check for road, retail, school, utility or construction proposals nearby.
+- [ ] Keep in mind that approved projects, construction timing and final designs can change.
 
-**The full monthly carrying cost** — mortgage, association fee and district assessment — for the specific address, including whether the assessment's debt portion has been prepaid.
+![A curving pool with a stone ball fountain behind a black metal fence at a Minto model home in Westlake, with a lake and a row of single-story homes beyond under a cloudy sky](/images/westlake/model-pool-lake-homes.webp "A Minto model home in Westlake in 2018, with homes across the lake. What surrounds a home now depends on its section and what's been built or approved since. || Photo by John Oliver, 2018"){1400x1050}
 
-None takes long. All three prevent the complaints that show up most often from buyers a year in.
+### 5. Full cost and ownership obligations
 
-## Work and commuting
+Westlake's infrastructure is operated by the [Seminole Improvement District](https://seminoleimprovementdistrict.com/) (SID). The city's [history](https://www.westlakegov.com/community/page/history-incorporation-westlake) says the developer paid for the roads, water, sewer and drainage systems and turned them over to the SID, rather than financing them through bonds the way many community development districts do. Owners still pay SID assessments on the tax bill, and costs differ by village and parcel. Collect, for each home:
 
-The honest picture:
+- [ ] The current property tax bill.
+- [ ] SID charges for the exact parcel, confirmed through a property assessment and lien search (see the SID's [guidelines](https://www.seminoleimprovementdistrict.com/files/documents/SID%20-%20Assessment%20and%20Lien%20Search%20Request%20Guidelines%202021-07-13.pdf)).
+- [ ] Master and neighborhood association fees.
+- [ ] Association rules, reserves, budget, estoppel certificate, application and transfer fees, and rental restrictions.
+- [ ] Utility costs.
+- [ ] An insurance quote and a flood-zone review.
+- [ ] For new construction, the builder contract and warranty documents.
+- [ ] Title work, the survey, seller disclosures and any pending assessments.
 
-- **Royal Palm Beach and Wellington** are close, with employment, services and medical care.
-- **West Palm Beach** is a genuine commute — feasible, not trivial, and worse in season.
-- **The coast** is a long drive.
-- **Working from home** is what makes this location work best, and a substantial share of residents do.
+Our [cost of living guide](/blog/cost-of-living-in-westlake-florida) explains each item. This is due diligence, not legal, tax or financial advice.
 
-There's no transit out here. Plan for reliable vehicles and, realistically, one per working adult.
+## When another location may better match your priorities
 
-Drive your actual route at your actual hour before committing. Southern Boulevard and the eastbound corridors build in the morning.
+- **An established downtown or walkable daily errands.** Compare locations where that infrastructure already exists.
+- **Frequent beach access.** Test the actual route and how often you'd make it before choosing a western location.
+- **Mature landscaping or a long-established streetscape.** Compare older communities.
+- **Minimal association governance.** Review Westlake's association rules carefully and compare alternatives property by property; parts of nearby [Loxahatchee](/blog/who-should-move-to-loxahatchee-florida), for example, offer a different, more rural setting, but rules vary by property there too.
+- **No potential future construction nearby.** Verify adjacent parcels and construction plans before you buy.
 
-## The test worth running
+None of these makes another place better. They're different priorities, and our [Westlake vs nearby cities](/blog/westlake-vs-nearby-cities) guide compares the options.
 
-Visit twice: once on a weekend afternoon when the amenity complex is busy, and once on a weekday morning.
+## Five questions to answer before you make Westlake your shortlist
 
-The weekend visit shows you the community at its best and tells you whether the social model appeals. The weekday morning shows you the construction, the traffic heading east, and what the place is like when everyone is at work.
+1. Does the exact home's layout, lot and association structure fit my needs?
+2. Have I tested my real weekly routes at the relevant times?
+3. Have I reviewed the actual tax, SID, association, utility, insurance and closing costs?
+4. Do I understand what is built, approved and potentially changing around the home?
+5. Have I compared new construction and resale using the same all-in criteria?
 
-If both feel fine, you've understood the city. If the weekday version feels isolated, take that seriously — it's most of your week.
-
-## The stage-of-life question
-
-Worth thinking about honestly, because the community's amenities and layout suit some situations better than others.
-
-**Households with children at home** are the most obvious fit — the recreation complex, the internal walkability and the newness of everything all work in that direction, and a substantial share of the community reflects it.
-
-**Remote workers and dual-income households** commuting in different directions do well, since the western location is roughly equidistant from several employment centers rather than optimised for one.
-
-**Downsizers** find the attached and townhome collections genuinely suitable — new, low-maintenance, with amenities and no roof to worry about.
-
-**Retirees** should think carefully about two things: whether the community's rhythm suits them, since it skews toward younger households, and how far the medical specialists they need actually are. The established communities east have better access on that front.
-
-Nothing here is prescriptive. But it is worth spending a Saturday at the amenity complex to see whether the community's center of gravity matches your own.
-
-## The gut check
-
-Westlake works for people who want a new house with amenities for less than the eastern communities charge, who will use what they're paying for, and who are honest about the driving.
-
-It works poorly for people who wanted character, walkability or the beach, and for anyone who didn't read the fee schedule.
-
-Before you shop, get the full monthly number. The [cost breakdown](/blog/cost-of-living-in-westlake-florida) and the [housing guide](/blog/best-neighborhoods-in-westlake-florida) are where to start.`,
+For more, read [what living in Westlake is really like](/blog/what-its-really-like-living-in-westlake-florida), the [Westlake local guide](/blog/local-guide-to-westlake-florida), the [neighborhoods and home collections](/blog/best-neighborhoods-in-westlake-florida) and the [pros and cons](/blog/pros-and-cons-of-living-in-westlake-florida).`,
     faqs: [
-      { q: "Who should move to Westlake?", a: "Anyone who genuinely wants new construction with warranty coverage and nothing to renovate; households that will actually use the amenity complex they are paying for; buyers who want square footage the coast cannot match; remote workers, since the commute is the main drawback; and people relocating from out of state, since the product and fees are unusually legible." },
-      { q: "Who should avoid Westlake?", a: "Anyone who needs the coast regularly, since it is a real drive. Anyone who wants character, mature trees or a walkable downtown today. Buyers who dislike association rules and architectural standards. And anyone unwilling to do the arithmetic on the district assessment and HOA, since those are real, permanent and disclosed." },
-      { q: "Can I commute from Westlake?", a: "Royal Palm Beach and Wellington are close with employment and services. West Palm Beach is a genuine commute — feasible but not trivial, and worse in season. The coast is a long drive. Working from home is what makes this location work best, and a substantial share of residents do exactly that." },
-      { q: "Is Westlake good for someone relocating from out of state?", a: "Unusually so. The product is clear, the fees are disclosed, and there is no century of local knowledge required to avoid a bad street. The social openness helps too — everyone arrived recently, nobody has established cliques, and people are actively looking to meet each other." },
-      { q: "What is the best way to decide if Westlake suits me?", a: "Visit twice — a weekend afternoon when the amenity complex is busy, and a weekday morning. The weekend shows the community at its best and whether the social model appeals; the weekday shows the construction, the traffic heading east and what the place is like when everyone is at work. That second visit is most of your week." },
-      { q: "Should I choose Westlake or Loxahatchee?", a: "They are opposites. Westlake is a new house in a managed community with amenities, rules and fees. Loxahatchee is acreage with almost no rules, no fees and infrastructure you maintain yourself. If escaping an association is what you want, Loxahatchee is twenty minutes away; if you want a warranty and a pool, Westlake is the answer." },
+      { q: 'What priorities may make Westlake worth considering?', a: "Westlake may be worth considering if you prioritize a newer home and the chance to choose among builders, plans and lots; planned community amenities governed by an association; a western Palm Beach County location that works for your regular routes; and you are comfortable researching what is built and approved around a specific home." },
+      { q: 'What should buyers verify about HOA and SID-related costs?', a: "The current property tax bill; the Seminole Improvement District charges for the exact parcel, confirmed through an assessment and lien search; master and neighborhood association fees, rules, reserves, budgets, estoppel, application and transfer fees, and rental restrictions; utility costs; insurance and flood-zone review; and, for new construction, the builder contract and warranty. Costs vary by village and parcel." },
+      { q: 'How should I evaluate commuting and daily logistics from Westlake?', a: "Test your real trips at the times you would make them: work, school or childcare, groceries, medical appointments, the airport, recreation and visits. If you would use transit, check Palm Tran's maps, schedules and trip planner for current routes and frequency from the exact address, and ask about Palm Tran Connection if paratransit applies." },
+      { q: 'What should I know about construction and future development?', a: "Parts of Westlake are still evolving, and the effect on a given home depends on its section, lot and surroundings. Visit at different times, look at adjacent and undeveloped parcels, and review the city's approved development orders. Approved projects, timing and final designs can change." },
+      { q: 'Are Westlake amenities available to every resident and visitor?', a: "Not necessarily. Amenity access is set by the association that owns or manages each facility. The Adventure Park, for example, is a common area of the Westlake Residences Master Homeowners Association. Check the association documents for the specific home for eligibility, guest rules and hours." },
+      { q: 'How can I compare Westlake with another western Palm Beach County location?', a: "Compare the same things for each home: housing type and condition, association rules and fees, the property tax bill and any special-district charges, insurance, utilities, your real routes, and what is built or approved nearby. Our Westlake vs nearby cities guide sets out the differences between the areas." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-westlake-florida", "cost-of-living-in-westlake-florida", "best-neighborhoods-in-westlake-florida"],
-    funFact: "Westlake was master-planned from scratch around its amenities — the lot sizes, floor plans, and the Adventure Park were designed together rather than added to an existing town. The Westlake Elementary School was built before the community was even half-populated, which signals exactly who the developers were targeting.",
+    internalLinks: ['what-its-really-like-living-in-westlake-florida', 'local-guide-to-westlake-florida', 'best-neighborhoods-in-westlake-florida', 'cost-of-living-in-westlake-florida', 'pros-and-cons-of-living-in-westlake-florida', 'westlake-vs-nearby-cities'],
+    funFact: 'Westlake buyers get the best result when they compare the exact home—not only the model or marketing. Review the lot, nearby approved development, HOA documents, SID-related charges, insurance, utility setup, and day-to-day routes before deciding.',
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'pros-and-cons-of-living-in-westlake-florida',
@@ -14495,111 +14539,150 @@ Before you shop, get the full monthly number. The [cost breakdown](/blog/cost-of
     cityName: 'Westlake',
     type: "Pros And Cons Of Living In",
     order: 6,
-    seoTitle: "Pros and Cons of Living in Westlake, Florida",
-    metaTitle: "Pros and Cons of Living in Westlake, FL",
-    metaDescription: "The honest pros and cons of living in Westlake, Florida — brand-new homes and resort amenities versus a still-building, western, no-downtown-yet reality.",
-    primaryKeyword: "pros and cons of living in Westlake Florida",
-    secondaryKeywords: ["Westlake pros and cons", "living in Westlake downsides", "is Westlake worth it"],
-    h1: "Pros and Cons of Living in Westlake, Florida",
+    seoTitle: 'Pros and Cons of Living in Westlake, Florida',
+    metaTitle: 'Pros and Cons of Living in Westlake, Florida',
+    metaDescription:
+      "A balanced guide to Westlake's newer homes, amenities, association rules, growth, location, and the property-specific costs buyers should verify.",
+    primaryKeyword: 'pros and cons of living in Westlake Florida',
+    secondaryKeywords: ['Westlake pros and cons', 'living in Westlake downsides', 'Westlake HOA rules', 'Westlake new construction taxes', 'Westlake SID'],
+    h1: 'Pros and Cons of Living in Westlake, Florida',
     heroImage: '/images/westlake/model-lanai-pool-construction-hero.webp',
-    heroImageAlt: 'A screened lanai and pool at a Minto model home in Westlake, with excavators and stacked pipe visible on cleared land across the lake',
+    heroImageAlt: 'A screened lanai with a pool, paver deck and a dark outdoor table at a Minto model home in Westlake, looking across a lake to cleared land with excavators and stacked pipe',
+    heroImageCaption: "A Minto model home's screened lanai in Westlake, photographed in 2018, with site work across the lake at the time. What surrounds a home today depends on its section and current approvals.",
     heroImageCredit: 'Photo by John Oliver, 2018',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
-    showMarketTrends: true,
-    body: `Westlake's trade-offs are unusually clear, which makes it easier to evaluate than most places. Nearly everything comes down to two facts: everything is new, and it's out west.
+    editorial: {
+      eyebrow: 'Westlake · Pros and Cons',
+      deck: 'The real advantages and tradeoffs of newer homes, amenities, association rules, growth and a western location, and what to verify for the specific home.',
+      mobileImage: { src: '/images/westlake/model-lanai-pool-construction-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Westlake', href: '/communities/westlake' },
+      secondaryCta: { label: 'Westlake cost of living', href: '/blog/cost-of-living-in-westlake-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Most of Westlake's pros and cons are conditional. Whether a newer home, an amenity, the location or nearby growth works in your favor depends on the specific home, its association, and the routes you drive every week. This guide sets out each factor, its potential advantage and tradeoff, and what to verify.
 
-## What you're genuinely getting
+## The decision matrix
 
-**New construction, properly.** Warranty coverage, modern systems, current building code, contemporary layouts, and nothing that needs replacing. In a county where most housing carries a roof, a panel or a repipe in its near future, that's worth real money.
+| Factor | Potential advantage | Potential tradeoff | What to verify |
+|---|---|---|---|
+| Newer homes | Newer layouts and systems may reduce immediate renovation needs. | Warranty, features, construction quality and maintenance obligations vary by home and contract. | Builder, contract, inspection rights, warranty, roof and windows, upgrades. |
+| Amenities | Community facilities may matter to buyers who plan to use them. | Access, guest rules, operating hours, fees and closures can vary. | The association documents and the actual amenity rules. |
+| Western location | May fit buyers whose routes and priorities work from western Palm Beach County. | Driving needs can be significant, depending on destination and timing. | Test your actual routes. |
+| Growth | New retail, homes, infrastructure and services may arrive over time. | Nearby construction and future development can affect daily experience. | City development orders and adjacent parcels. |
+| Ownership cost | The documents make costs reviewable before you buy. | The total cost is broader than the list or base price. | Tax bill, SID charges, association fees, insurance, utilities, disclosures. |
 
-*How often it matters:* constantly, and invisibly — it's the problems you don't have.
+## Potential advantages
 
-**Better insurability.** Current code, modern roofing and wind mitigation features generally price considerably better than older stock, which for many buyers offsets a meaningful part of the fees.
+### Newer-home considerations
 
-**Genuine amenities.** The recreation complex is well beyond a standard community pool, and it functions as the social center in a way that matters more in a new city than an established one.
+Newer homes may offer newer layouts, systems, and construction materials. Buyers should still inspect the exact home, review the builder's contract and warranty documents, confirm what is included, and obtain insurance and maintenance information for that property.
 
-**Space for the money.** Square footage and lot size that the same budget cannot approach closer to the coast.
+### Insurance
 
-**An unusually open community.** Everyone arrived recently, nobody has settled into cliques, and people are actively looking to meet neighbors. For anyone relocating without local connections, that's a real advantage.
+Florida's Department of Financial Services explains in its [homeowners insurance overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview) that premiums reflect factors such as a home's location, construction, age, rebuilding cost and the coverage you choose, and that policyholders may have an inspection to determine [wind mitigation credits](https://www.myfloridacfo.com/division/consumers/storm/mitigation-notices-inspections-and-forms).
 
-**A clear, disclosed product.** No hidden history, no century of local quirks, no bad block to discover after closing.
+Some construction and mitigation features may affect available insurance credits, but buyers should obtain an address-specific quote and confirm coverage, deductible, wind-mitigation documentation, flood exposure, and insurer requirements before relying on savings. Flood damage generally isn't covered by a homeowners policy; see the state's [flood insurance guidance](https://www.myfloridacfo.com/division/ica/fullcoverage/flood).
 
-**No state income tax.**
+### Amenities
 
-**Established local knowledge.** In an older town, neighbors can tell you which street floods and which contractor to avoid. Here, everyone is finding out together — which is friendly, and occasionally means nobody knows the answer.
+Westlake has significant community facilities, including the Adventure Park, which Minto completed in 2023 with pools, play areas, courts, a lodge and event space. Access isn't universal: a 2023 [city–HOA agreement](https://www.westlakegov.com/sites/default/files/fileattachments/ordinance/7697/resolution_2023-09_-_authorizing_execution_for_the_non-exclusive_permissive_use_agreement.pdf) describes the Adventure Park as a common area of the Westlake Residences Master Homeowners Association. For the exact home, verify whether it has access, which association rules apply, guest policies, operating hours and the ongoing obligations.
 
-## What you're genuinely giving up
+### Housing options and space
 
-**Character.** No mature trees, no old buildings, no accumulated texture. This is the most common complaint and it's structural — it resolves only with decades.
+Westlake offers a mix of townhomes, detached homes, and larger estate-home options. Compare current inventory, lot dimensions, home size, location, taxes, association obligations, and insurance—not only list price—against alternatives. Our [neighborhoods and home collections guide](/blog/best-neighborhoods-in-westlake-florida) lists the sections.
 
-**Proximity.** The coast is a long drive and the city is a genuine commute.
+## Potential tradeoffs
 
-**A finished town.** Commercial development arrives in phases, so shopping and dining are partly elsewhere for now.
+### Maturity and character
 
-**Freedom from rules.** Architectural standards, landscaping requirements and association governance are comprehensive.
+Westlake's landscaping, streetscape, retail mix, and built environment are newer than long-established Palm Beach County communities. Buyers seeking mature canopy, historic architecture, or an established downtown should compare locations in person.
 
-**Shade.** Worth naming separately because residents feel it. Young landscaping means genuinely hot streets in summer, and it will be years before that changes.
+### Location and daily logistics
 
-**Resale into an active sales center.** While the builder is still selling new homes in the community, your resale competes with brand-new inventory carrying incentives you cannot match. It is not a reason to avoid buying, but it is worth knowing if you might sell within a few years.
+How the western location works depends on your routine. Test your regular routes at realistic times: work, errands, school, health appointments, the airport, recreation, the beach, and visits to friends or family. We don't publish drive times or traffic patterns.
 
-## The ones that catch people out
+### Retail and commercial development
 
-**The fee structure is the big one.** The district assessment and the HOA together represent a substantial permanent monthly cost, and a buyer comparing sticker prices against fee-free older housing is not comparing like with like. It's disclosed, it's knowable, and it still catches people — our [cost breakdown](/blog/cost-of-living-in-westlake-florida) explains exactly what to ask for.
+Separate what's open from what's planned. A Publix-anchored shopping center, Westlake Plaza, opened on Seminole Pratt Whitney Road in 2023. Other projects, such as a Walmart whose plans the City Council approved in April 2026, are approved but not open. The city's [approved development orders](https://www.westlakegov.com/community/page/approved-development-orders) page lists current approvals; check whether a project is open before counting on it.
 
-**The second tax bill.** New construction may first be assessed on land only, so the following year's bill can rise sharply. Ask what a fully assessed bill looks like.
+### Association rules
 
-**What gets built next to you.** In a community mid-buildout, an empty parcel is not a view. Get written confirmation of what's planned adjacent to any lot you're considering — this is the single most preventable disappointment here.
+Association rules can govern exterior changes, landscaping, parking, rentals, guests, and amenity use. Rules and enforcement practices vary by master and neighborhood association. Read the exact governing documents before buying.
 
-**Upgrade pricing.** The base price and the house you actually want can differ substantially, and builder upgrades are frequently more expensive than the same work done afterwards. Some things, though, are far cheaper during construction. Know which is which before you sit down at the design center.
+### Shade and outdoor comfort
 
-**Construction beside you** continues until the phase around you is done, with the noise, dust and traffic that involves.
+Walk the street and lot at the time of day you expect to use outdoor space. Look at the orientation, existing trees and canopy, pavement, how exposed the pool or patio is, and what landscaping is planned.
 
-**Utility arrangements are unusual.** Water and wastewater come from a special-purpose district instead of a city department. Confirm the provider and rates.
+::: gallery
+![A curving backyard pool with young palms, a white stone patio and lounge chairs at a Minto model home in Westlake, with a lake and new homes in the distance](/images/westlake/model-pool-young-palms.webp "A model-home pool area in 2018, with newly planted palms. Landscaping matures over time and varies by home. || Photo by John Oliver, 2018")
+![A covered patio with white outdoor chairs at a Minto model home in Westlake, looking onto a lawn with three palms, shrubs and a lake](/images/westlake/model-patio-young-palms-lake.webp "A model-home patio and yard in 2018. Check the shade and sun exposure of the specific lot. || Photo by John Oliver, 2018")
+:::
 
-## The things that are simply neutral
+### New and resale inventory
 
-Several features get argued about that are really matters of temperament.
+New and resale inventory can coexist in a growing community. Buyers considering a shorter ownership horizon should compare current competing inventory, builder incentives, seller costs, and local market conditions with a qualified professional.
 
-**The uniformity.** A single master plan produces visual consistency. Restful and tidy to some; monotonous to others, particularly anyone coming from an older neighborhood.
+## What to verify early
 
-**The newness of the community itself.** Everyone arrived recently, so there is no established social order — liberating if you are new, thin if you wanted deep roots.
+- [ ] The current tax bill, assessed value, homestead status and an estimate of your property taxes.
+- [ ] SID charges for the exact parcel.
+- [ ] Master and neighborhood association fees, rules, budgets, reserves, applications, transfer fees and rental restrictions.
+- [ ] An insurance quote, wind-mitigation documentation, a flood-zone review, deductibles and coverage limits.
+- [ ] Utilities and service setup.
+- [ ] Adjacent parcels, development orders, easements, drainage, roads, utility equipment and current construction.
+- [ ] For new construction, the builder contract, deposits, upgrade pricing, inspection rights, warranty, completion terms and disclosures.
+- [ ] The actual lot's orientation, sun exposure, privacy and outdoor use.
 
-**The rules.** Architectural standards keep the place looking maintained and stop your neighbor doing something you would hate. They also stop you.
+### How the costs are structured
 
-**The growth.** More neighbors, more traffic, more amenities and more services, all arriving over the next decade. Progress or crowding, depending on your view.
+Westlake's infrastructure is operated by the [Seminole Improvement District](https://seminoleimprovementdistrict.com/) (SID). The city's [history](https://www.westlakegov.com/community/page/history-incorporation-westlake) says the developer paid for the roads, water, sewer and drainage systems and turned them over to the SID, rather than financing them through bonds the way many community development districts do. Owners still pay SID assessments on the tax bill, and costs vary by property: property taxes, SID charges, master and neighborhood association dues, the city's solid waste assessment, utilities, insurance and any parcel-specific obligations. Confirm SID charges through a property assessment and lien search (see the SID's [guidelines](https://www.seminoleimprovementdistrict.com/files/documents/SID%20-%20Assessment%20and%20Lien%20Search%20Request%20Guidelines%202021-07-13.pdf)). Our [cost of living guide](/blog/cost-of-living-in-westlake-florida) explains each item.
 
-**The distance from the coast.** For some households the beach is a weekly requirement; for others it is a few times a year. Be honest about which you are, since it is the difference between a minor drawback and a significant one.
+### Property taxes on new construction
 
-## Weighing it up
+The [Property Appraiser](https://pbcpao.gov/departments/residential.htm) values property as of January 1. Improvements that are substantially completed are assessed as of January 1 of the first tax year after completion, and a change in ownership can also affect later assessments and taxable value. So a newly built home's first bill may not reflect the finished house, and the seller's bill on a resale may not reflect what you'll pay. Check the exact parcel on the Property Appraiser's site rather than relying on a generic estimate.
 
-The structure is exceptionally clean: **you're trading location and character for newness and amenities, and paying for the infrastructure that made the newness possible.**
+### Builder upgrades
 
-The fees exist because someone had to build roads, drainage and utilities on former agricultural land, and those costs get repaid by the people who live on it. The lack of character exists because the place is eight years old. The distance exists because that's where land was available at a price that made any of this possible.
+Compare builder upgrade pricing, timing, warranties, financing, and the practical cost of retrofitting after closing. Some options may be easier to install during construction; others may be more appropriate to price independently.
 
-None of it is a flaw in the execution. All of it is inherent to building a new city.
+### Construction nearby
 
-So the decision comes down to two questions:
+Look at the adjacent parcels and review the city's official development orders. A builder or sales office can't promise a construction timeline or a permanent view, so check what's built, approved and undeveloped around the specific lot.
 
-1. **Do you want a new house badly enough to accept the location?** If yes, this is among the better ways to get one in Palm Beach County.
-2. **Have you actually added up the monthly cost?** Mortgage plus HOA plus district assessment, compared honestly against the alternatives.
+## Factors that depend on your preferences
 
-Buyers who answer both clearly do well here and tend to stay. Buyers who fell for a model home and did the arithmetic afterwards are the ones with complaints — and every one of those complaints was available in a document before they signed.
+- **Uniform design.** A master-planned look can appeal to some buyers and not others.
+- **Association governance.** Rules can be useful or restrictive, depending on what you want to do with your home.
+- **Growth.** A growing area can bring new options and nearby change at the same time.
+- **Location.** The tradeoffs depend on your actual routines.
 
-Our [profile-by-profile breakdown](/blog/who-should-move-to-westlake-florida) tests the first question, and the [practical guide](/blog/local-guide-to-westlake-florida) covers what daily life here actually involves.`,
+## Your decision checklist
+
+1. Does the exact home, lot and association fit what you need?
+2. Have you tested your regular routes at realistic times?
+3. Have you collected the tax bill, SID charges, association documents, insurance quote and utility costs?
+4. Do you know what's built, approved and undeveloped around the home?
+5. Have you compared new construction and resale on the same all-in basis?
+
+For more, read the [Westlake local guide](/blog/local-guide-to-westlake-florida), [who should consider Westlake](/blog/who-should-move-to-westlake-florida) and [Westlake vs nearby cities](/blog/westlake-vs-nearby-cities).`,
     faqs: [
-      { q: "What are the advantages of living in Westlake?", a: "New construction with warranty coverage and nothing needing replacement; better insurability from current code and modern wind mitigation; a recreation complex well beyond a standard community pool; square footage the same budget cannot approach nearer the coast; and an unusually open community where everyone arrived recently." },
-      { q: "What are the drawbacks of Westlake?", a: "No character — no mature trees, old buildings or accumulated texture, which resolves only with decades. A long drive to the coast and a genuine commute to West Palm Beach. Commercial development still arriving in phases. Comprehensive association rules. And limited shade, which residents genuinely feel in summer." },
-      { q: "What most often catches Westlake buyers out?", a: "The fee structure. The district assessment and HOA together are a substantial permanent monthly cost, and comparing a sticker price against fee-free older housing is not comparing like with like. After that, the second-year tax bill once the house itself is assessed, and what gets built on the empty parcel next door." },
-      { q: "Should I buy builder upgrades in Westlake?", a: "Selectively. Base price and the house you actually want can differ substantially, and builder upgrades are frequently more expensive than the same work done afterwards — but some things are far cheaper during construction, particularly anything structural or behind walls. Know which is which before you sit down at the design center." },
-      { q: "Will there be construction next to my Westlake house?", a: "Quite possibly, until the phase around you is finished, with the noise, dust and traffic that involves. More importantly, an empty parcel is not a permanent view in a community mid-buildout — get written confirmation of what is planned on every adjacent parcel before buying." },
-      { q: "Is Westlake worth it?", a: "It comes down to two questions: do you want a new house badly enough to accept the western location, and have you actually added up mortgage plus HOA plus district assessment against the alternatives? Buyers who answer both clearly do well and tend to stay. Those who fell for a model home and did the arithmetic afterwards are the ones with complaints." },
+      { q: 'What are the potential advantages of living in Westlake?', a: "Newer homes with newer layouts and systems; community facilities such as the Adventure Park, where the specific home has access; a range of townhomes, detached homes and larger estate-home options; a western Palm Beach County location that may suit your routes; and ownership costs you can review in documents before buying. Each depends on the specific home." },
+      { q: 'What tradeoffs should buyers consider?', a: "Landscaping and the built environment are newer than in long-established communities; driving needs depend on your routes; some retail and services are approved or planned rather than open; association rules govern exterior changes, parking, rentals and amenities; and nearby construction can affect daily life in some areas." },
+      { q: 'What should I verify about SID, taxes, HOA fees, and insurance?', a: "The current tax bill and the Seminole Improvement District charges for the exact parcel, confirmed through an assessment and lien search; master and neighborhood association fees, rules, budgets and reserves; and an address-specific insurance quote with wind-mitigation documentation, deductibles, coverage limits and a flood-zone review. Costs vary by property." },
+      { q: 'How can new construction affect a Westlake tax bill?', a: "Property is valued as of January 1. Improvements are assessed as of January 1 of the first tax year after they're substantially completed, and a change in ownership can affect later assessments. A new home's first bill may not reflect the finished house, so check the exact parcel with the Palm Beach County Property Appraiser." },
+      { q: 'How do I evaluate construction near a potential home?', a: "Visit at different times, look at adjacent and undeveloped parcels, and review the City of Westlake's approved development orders. No builder or sales office can promise a construction timeline or a permanent view, so check official records for what's approved." },
+      { q: 'Are builder upgrades worth it?', a: "It depends on the item. Compare builder upgrade pricing, timing, warranties and financing with the practical cost of retrofitting after closing. Some options are easier to install during construction; others may be worth pricing independently." },
+      { q: 'Is Westlake a fit for my day-to-day location needs?', a: "Test it. Drive your regular routes at realistic times: work, errands, school, health appointments, the airport, recreation, the beach and visits. Whether the western location works depends on those trips, not on a typical drive time." },
     ],
-    internalLinks: ["who-should-move-to-westlake-florida", "cost-of-living-in-westlake-florida", "local-guide-to-westlake-florida"],
-    funFact: "Westlake residents pay both a CDD (Community Development District) fee on top of standard property taxes — this covers the infrastructure bonds used to build the roads, utilities, and parks. The CDD is common in new Florida master-planned communities and can add several thousand dollars annually to the true ownership cost.",
+    internalLinks: ['cost-of-living-in-westlake-florida', 'local-guide-to-westlake-florida', 'best-neighborhoods-in-westlake-florida', 'who-should-move-to-westlake-florida', 'westlake-vs-nearby-cities'],
+    funFact: 'Westlake ownership costs should be reviewed property by property. Before making an offer, compare the current tax bill, SID-related charges, master and neighborhood HOA obligations, insurance quote, utility costs, and any pending assessments or closing requirements.',
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'cost-of-living-in-westlake-florida',
@@ -14632,8 +14715,8 @@ Our [profile-by-profile breakdown](/blog/who-should-move-to-westlake-florida) te
         afterIntro: true,
         items: [
           { title: 'The property tax bill', text: "City, county, school and other millage, plus non-ad valorem assessments from the Seminole Improvement District and the city's residential solid waste assessment. The amounts depend on the parcel." },
-          { title: 'Reassessment and new-construction timing', text: "A purchase resets the assessed value, and a newly built home's first bill may reflect only the land. Budget for the fully assessed bill, not the seller's or the first one you see." },
-          { title: 'Master and neighborhood HOA dues', text: 'Many homes belong to a master association and a neighborhood association. Fees, reserves and rules differ by neighborhood.' },
+          { title: 'Reassessment and new-construction timing', text: "A change in ownership can remove the seller's exemptions and assessment limits, and a new home's first bill may reflect only the land or a partly finished house. Don't budget from the seller's bill or the first one you see." },
+          { title: 'Association dues', text: 'Some homes may have a master association, a neighborhood association, or both. Verify every association tied to the specific property, and its fees, reserves and rules.' },
           { title: 'Insurance', text: 'Homeowners, wind and flood quotes depend on the property, its features and its flood zone. Get real quotes for the address.' },
           { title: 'Utilities and driving', text: 'SID water, wastewater and reuse water, FPL electricity, internet, and the miles you drive for work, errands and appointments.' },
         ],
@@ -14646,6 +14729,8 @@ Our [profile-by-profile breakdown](/blog/who-should-move-to-westlake-florida) te
     body: `What a Westlake home costs to own depends on the address. The purchase price is one part. The rest is the property tax bill and the assessments on it, association dues, insurance, utilities and the driving your routine requires. None of these is the same for every home, so this guide explains each one and how to get the real figures before you commit.
 
 We don't publish price ranges, fee averages or appreciation figures here. Ask the builders and your agent for current pricing and recent sales of comparable homes.
+
+Recent closed-sale medians have moved modestly in some Westlake segments. Because the number of sales can be small and the mix of new construction and resale homes changes, a single month is not a reliable citywide price trend. Request current comparable closed sales for the specific home type and neighborhood.
 
 ## What's on a Westlake property tax bill
 
@@ -14661,80 +14746,84 @@ A Westlake tax bill has two kinds of charges, both collected by the [Palm Beach 
 
 Many Florida master-planned communities finance infrastructure through a community development district that issues bonds repaid by homeowners. The City of Westlake's [history](https://www.westlakegov.com/community/page/history-incorporation-westlake) describes a different arrangement: the developer paid for the roads, landscaping, water, sewer, stormwater and reuse-water systems and turned them over to the SID to operate and maintain.
 
-That doesn't make the SID line on a tax bill zero. Owners still pay SID assessments. Get the amount for the specific parcel from the current bill and a lien search, and ask in writing about any other assessment or obligation tied to the property.
+That doesn't make the SID line on a tax bill zero, and SID charges aren't a "CDD fee." Owners still pay SID assessments, and the charges aren't necessarily identical from one home to the next. For the exact parcel, confirm the non-ad valorem line items on the current bill, any remaining assessment obligations, how they're handled at payoff or transfer, and the lien information, through a property assessment and lien search (see the SID's [assessment and lien search guidelines](https://www.seminoleimprovementdistrict.com/files/documents/SID%20-%20Assessment%20and%20Lien%20Search%20Request%20Guidelines%202021-07-13.pdf) and its [Who to Call](https://www.seminoleimprovementdistrict.com/index.php/who-to-call) page). Ask in writing about any other assessment or obligation tied to the property.
 
 ## The reassessment and new-construction timing
 
-**The seller's tax figure isn't yours.** Florida caps how much the assessed value of a homestead can rise each year (Save Our Homes), and non-homestead property has its own cap. When a home sells, the assessed value generally resets toward market value for the next tax year, so a seller's bill can understate what you'll pay. The [Property Appraiser](https://pbcpao.gov/faq.htm) explains the caps and the reset.
+**The seller's tax figure isn't yours.** Florida limits how much the assessed value of a homestead can rise each year (Save Our Homes), and non-homestead property has its own limit. A change in ownership can remove the prior owner's exemptions and assessment limitations, and the Property Appraiser may reassess the home toward its just (market) value, so a seller's bill can understate what you'll pay. Estimate your taxes using your intended purchase price, your likely ownership date and whether you'll be eligible for homestead. The [Property Appraiser's residential page](https://pbcpao.gov/departments/residential.htm) and [FAQ](https://pbcpao.gov/faq.htm) explain how property is valued, and the [Tax Collector](https://www.pbctax.gov/taxes/property-tax/) explains the bill.
 
-**New construction has a timing wrinkle.** Property is valued as of January 1. If a house isn't substantially complete on that date, the next bill may reflect only the land, and the following year's bill, with the finished house assessed, can be much higher. Ask what a fully assessed bill on a comparable finished home looks like.
+**New construction has a timing wrinkle.** Property is valued based on its condition as of January 1. Depending on how far along a house is on that date, the next bill may reflect land value or a partially completed improvement, and a later bill may reflect the finished home. Ask what a fully assessed bill on a comparable finished home looks like rather than budgeting from the first bill.
 
 **Homestead exemption** applies only to a permanent residence you own and occupy on January 1, with a filing deadline of March 1; see the Property Appraiser's [homestead page](https://pbcpao.gov/homestead-exemption.htm). If you're moving from another Florida homestead, ask the Property Appraiser about portability.
 
 ## Association dues
 
-Many Westlake homes belong to a master association and a neighborhood or sub-association, each with its own budget and fee. Before you commit, get:
+Some homes may have a master association, a neighborhood association, or both; verify every association tied to the specific property. Before you commit, get:
 
 - The current fee for every association the home belongs to, and how often each is billed.
-- The budgets, reserve information and any recent or planned special assessments.
-- Transfer, application and capital contribution fees due at closing.
-- The rules on rentals, parking, pets, exterior changes and amenity access.
+- The budgets, reserve information where available, and any pending or planned special assessments.
+- Application, transfer and capital contribution fees due at closing.
+- The rules, including rental and pet restrictions, parking, exterior changes and amenity access.
 - The estoppel certificate, which states what's owed as of closing.
 
 ## Insurance
 
 Premiums depend on the specific property: its construction and roof, how its windows and doors are protected, its wind mitigation features, its flood zone and the coverage you choose. Ask whether a wind mitigation inspection applies, and get real quotes for the address before you commit.
 
-Flood damage generally isn't covered by a homeowners policy; flood insurance is a separate policy. Check the property's flood zone and what your lender requires. Florida's Department of Financial Services has a [homeowners insurance overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview).
+A newer home isn't necessarily cheaper to insure; the quote for the specific property is what counts. Flood coverage is generally separate from a standard homeowners policy. Evaluate it for the property, considering the flood zone, elevation, your lender's requirements, the coverage you choose and the deductible; see the state's [flood insurance information](https://www.myfloridacfo.com/division/ica/fullcoverage/flood) and its [homeowners insurance overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview).
 
 ## Utilities
 
 - **Water, wastewater and reuse water** come from the SID. Starting service involves an online application, a start-up fee and a deposit; see the SID's [utility FAQ](https://sid.myutilitydirect.com/customerportal/home/faq/) for current amounts.
-- **Electricity** is from [FPL](https://www.fpl.com/). Summer air conditioning usually drives the highest bills; ask the seller or builder for typical usage if it's available.
+- **Electricity** is from [FPL](https://www.fpl.com/); confirm service for the address. Usage depends on the home and the household, so ask the seller for recent bills if they're available rather than relying on an average.
 - **Internet** options and prices vary by address, so check providers for the specific home.
 
 Our [Westlake local guide](/blog/local-guide-to-westlake-florida) covers setting up each service.
 
 ## Everyday costs
 
-- **Driving.** Westlake is in western Palm Beach County, and most residents drive for work, errands, medical care and dining. Count your real mileage for the routes you'd use.
-- **Groceries and errands.** A Publix-anchored shopping center opened on Seminole Pratt Whitney Road in 2023; more retail has been approved, and approval isn't the same as open. Many errands still mean a drive.
+- **Driving.** Westlake is in western Palm Beach County. Count the real mileage for the routes your own routine requires: work, errands, medical care and dining.
+- **Groceries and errands.** A Publix-anchored shopping center opened on Seminole Pratt Whitney Road in 2023. Other retail has been approved, and approval isn't the same as open; the city lists approvals on its [development orders](https://www.westlakegov.com/community/page/approved-development-orders) page.
 - **Maintenance.** Even a new home needs lawn, pest control, pool service if there's a pool, and filters and routine upkeep. Some of this may be covered by an association; check what yours includes.
 
 ## New construction or resale: what changes
 
+::: gallery
+![A white kitchen island with a decorative tray and a framed feature sheet in an acrylic stand, in a Minto model home in Westlake](/images/westlake/model-kitchen-feature-sheet.webp "A model kitchen with a feature sheet on the island. Compare what's included with the contract for the home you'd buy. || Photo by John Oliver, 2018")
+![A white kitchen with a long quartz island, metal bar stools, a drum pendant light and stainless wall ovens in a Minto model home in Westlake](/images/westlake/model-kitchen-white-island.webp "Models often show options and upgrades. || Photo by John Oliver, 2018")
+:::
+
 | | Buying new from a builder | Buying a resale |
 |---|---|---|
-| Price | Base price plus options, upgrades and lot premiums, if any. | The negotiated price. |
-| Closing costs | Set out in the builder contract; read who pays what. | Negotiated between buyer and seller. |
-| Warranty | Whatever the builder contract specifies. | Any remaining builder warranty, if transferable, or none. |
-| Taxes | The first bill may be land only; budget for the fully assessed bill. | The bill resets after the sale; the seller's exemptions don't carry over. |
-| Condition | New systems and finishes. | Check roof age, systems and maintenance history with an inspection. |
+| Price | Base price, lot premium, structural options, design selections, lender incentives and closing costs can all vary. | The negotiated purchase price, which can be affected by inspection findings, condition and seller concessions. |
+| Warranty | Verify the builder's specific warranty documents; don't assume coverage. | Any remaining builder warranty, if it transfers; verify the terms. |
+| Taxes | The first bill may reflect land or a partly finished house; budget for a fully assessed bill. | The seller's exemptions and assessment limitations don't automatically transfer to you. |
+| Inspection | Arrange an independent inspection of a completed or near-complete home. | Arrange an independent inspection, including the roof, systems and maintenance history. |
 
 ## Running your own number
 
-- [ ] Get the current tax bill for the parcel, and estimate the bill at a reset assessment without the seller's exemptions.
+- [ ] Get the current tax bill for the parcel, and estimate your own bill using your intended purchase price, likely ownership date and homestead eligibility, without the seller's exemptions.
 - [ ] For new construction, ask what a fully assessed bill on a comparable finished home looks like.
-- [ ] Confirm the SID and solid waste assessments on the bill, and request a property assessment and lien search through your title company.
-- [ ] Get every association's fee, budget, reserves and closing fees, and the estoppel certificate.
+- [ ] Confirm the SID and solid waste line items on the bill, any remaining assessment obligations, and the lien information, through a property assessment and lien search requested by your title company.
+- [ ] Get every association's fee, budget, rules, reserve information, closing fees and pending assessments, and the estoppel certificate.
 - [ ] Get homeowners, wind and flood insurance quotes for the address.
 - [ ] Add utilities, maintenance and driving.
-- [ ] Add it up as a monthly figure, together with your mortgage payment, and compare that across the homes on your list.
+- [ ] Add it up as a monthly figure, together with your mortgage payment, and check it against the actual closing disclosures before you commit.
 
 This is a budgeting checklist, not legal, tax, insurance or financial advice. Confirm each item with the Property Appraiser, the Tax Collector, the associations, a licensed insurance agent and your lender.
 
 ## The bottom line
 
-Westlake's costs are knowable in advance: the tax bill and its assessments, the association documents, insurance quotes and utility setup are all available for a specific address. Collect them before you compare homes, and compare the monthly total, not the sticker price.
+Westlake's costs can be reviewed in advance: the tax bill and its assessments, the association documents, insurance quotes, utility setup and the closing disclosures are all available for a specific address. Collect them before you compare homes, and compare the monthly total, not the sticker price.
 
 For more, read [what living in Westlake is really like](/blog/what-its-really-like-living-in-westlake-florida), the [neighborhood and home-collection guide](/blog/best-neighborhoods-in-westlake-florida), the [pros and cons](/blog/pros-and-cons-of-living-in-westlake-florida) and [Westlake vs nearby cities](/blog/westlake-vs-nearby-cities).`,
     faqs: [
       { q: 'What is on a Westlake property tax bill?', a: "Ad valorem taxes from the county, school district, City of Westlake and other taxing authorities, plus non-ad valorem assessments. Those include Seminole Improvement District (SID) assessments and the city's residential solid waste assessment. The amounts depend on the parcel, so check the current bill for the specific address." },
-      { q: 'Does Westlake have a CDD?', a: "Westlake's infrastructure is operated and maintained by the Seminole Improvement District, a special district whose boundaries match the city's. According to the city, the developer paid for the roads, water, sewer, stormwater and reuse-water systems and turned them over to the SID, rather than financing them with bonds the way many CDD communities do. Owners still pay SID assessments on their tax bills, so get the amount for the exact parcel." },
-      { q: 'Why might the taxes on a new Westlake home go up in the second year?', a: "Property is valued as of January 1. If a new house isn't substantially complete on that date, the next bill may reflect only the land, and the following year's bill, with the finished house assessed, can be much higher. A purchase also resets the assessed value, so the seller's bill isn't a guide to yours." },
-      { q: 'What HOA fees should I expect in Westlake?', a: "It varies by neighborhood. Many homes belong to a master association and a neighborhood association, each with its own fee. Ask for every association's current fee, budget, reserves, closing fees and rules, and the estoppel certificate, for the exact address." },
-      { q: 'Is homeowners insurance cheaper in Westlake?', a: "It depends on the property, not the city. Premiums reflect the home's construction, roof, opening protection, wind mitigation features, flood zone and the coverage chosen. Flood is usually a separate policy. Get real quotes for the specific address." },
-      { q: 'How do I estimate the monthly cost of a specific Westlake home?', a: 'Add the mortgage payment to the property tax bill at a reset assessment (including SID and solid waste assessments), every association fee, homeowners, wind and flood insurance, utilities, maintenance and driving. Compare that monthly total across the homes you are considering. This is a budgeting approach, not financial advice.' },
+      { q: 'Does Westlake have a CDD?', a: "Westlake's infrastructure is operated and maintained by the Seminole Improvement District (SID), a special district whose boundaries match the city's, not a typical community development district. According to the city, the developer paid for the roads, water, sewer, stormwater and reuse-water systems and turned them over to the SID. Owners still pay SID assessments, which appear on the tax bill as non-ad valorem charges. Check the tax bill and a parcel-specific assessment and lien search for the exact home." },
+      { q: 'Why might taxes change after purchase?', a: "A change in ownership can remove the seller's exemptions and assessment limitations, and the Property Appraiser may reassess the home toward its market value. Property is also valued based on its condition on January 1, so a new home's first bill may reflect land or a partly finished house. Estimate your taxes using your purchase price, ownership date and homestead eligibility." },
+      { q: 'What HOA fees should I expect in Westlake?', a: "It varies. Some homes may have a master association, a neighborhood association, or both. Ask for every association's current fee, budget, rules, reserve information, closing fees and pending assessments, and the estoppel certificate, for the exact address." },
+      { q: 'Is insurance cheaper on a newer home?', a: "Not necessarily. Premiums reflect the specific home's construction, roof, opening protection, wind mitigation features, flood exposure and the coverage and deductibles chosen. Flood coverage is generally separate from a homeowners policy. Get property-specific quotes before you rely on any savings." },
+      { q: 'What should I review before buying?', a: "The current tax bill and your own estimate; the SID and solid waste line items and a parcel-specific assessment and lien search; every association's fees, rules, budget and estoppel certificate; homeowners, wind and flood insurance quotes; utility setup; and the actual closing figures. This is a budgeting checklist, not legal, tax or financial advice." },
     ],
     internalLinks: ['local-guide-to-westlake-florida', 'what-its-really-like-living-in-westlake-florida', 'best-neighborhoods-in-westlake-florida', 'pros-and-cons-of-living-in-westlake-florida', 'westlake-vs-nearby-cities'],
     funFact: "According to the City of Westlake, the developer paid for Westlake's roads, water, sewer, stormwater and reuse-water systems and turned them over to the Seminole Improvement District, rather than financing them with bonds repaid by homeowners. Owners still pay SID assessments on their tax bills, so check the amount for the specific parcel before you buy.",
@@ -14749,124 +14838,91 @@ For more, read [what living in Westlake is really like](/blog/what-its-really-li
     cityName: 'Westlake',
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems in and Around Westlake, Florida",
-    metaTitle: "Hidden Gems Around Westlake, Florida",
-    metaDescription: "Westlake is brand-new, so its gems are its amenities and the nature nearby — from the Adventure Park to the Loxahatchee refuge and dark western skies.",
-    primaryKeyword: "hidden gems in Westlake Florida",
-    secondaryKeywords: ["Westlake secret spots", "things near Westlake", "Westlake Adventure Park"],
-    h1: "Hidden Gems in and Around Westlake, Florida",
-    body: `A city eight years old doesn't have decades-old secrets. What it has is a set of advantages residents discover slowly — several of which have nothing to do with the community itself and everything to do with where it sits.
+    seoTitle: 'Hidden Gems in and Around Westlake, Florida',
+    metaTitle: 'Hidden Gems in and Around Westlake, Florida',
+    metaDescription:
+      "Public nature areas, wildlife refuges, equestrian events and city events in and around Westlake, Florida, with what to check about permits, passes and access before you go.",
+    primaryKeyword: 'hidden gems in Westlake Florida',
+    secondaryKeywords: ['J.W. Corbett Wildlife Management Area', 'Hungryland Boardwalk', 'Loxahatchee National Wildlife Refuge', 'Wellington International spectators', 'Westlake city events'],
+    h1: 'Hidden Gems in and Around Westlake, Florida',
+    heroImage: '/images/westlake/model-lanai-lake-dusk-hero.webp',
+    heroImageAlt: 'A screened pool and spa with a light stone deck and two lounge chairs at a Minto model home in Westlake, looking past palms to a lake and a row of houses under an evening sky',
+    heroImageCredit: 'Photo by John Oliver, 2018',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Westlake · Hidden Gems',
+      deck: 'A short list of public nature areas, refuge trails, equestrian events and city events in and around Westlake, with what to check before you go.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/westlake/model-lanai-lake-dusk-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/westlake/model-lanai-lake-dusk-mobile.webp', width: 1200, height: 800 },
+      panelCaption: "A lake at dusk from a Minto model home's screened pool in Westlake, 2018. The places in this guide are public destinations; this private model isn't one of them.",
+      primaryCta: { label: 'Explore Westlake', href: '/communities/westlake' },
+      secondaryCta: { label: 'The Westlake local guide', href: '/blog/local-guide-to-westlake-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+    },
+    body: `Westlake was incorporated in 2016 and is still developing, so many of its most useful finds are a mix of city events, public outdoor areas, and western Palm Beach County destinations. Not everything here is inside city limits, and we label each one.
 
-The headline amenities are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-westlake-florida). These are the rest.
+Westlake's in-community amenities are covered in our guide to [things to do in and around Westlake](/blog/best-things-to-do-in-westlake-florida). This page is a shorter list of public places and events worth knowing about.
 
-## The community groups
+## J.W. Corbett Wildlife Management Area
 
-The fastest route into a new city, and easy to miss.
+The Florida Fish and Wildlife Conservation Commission manages [J.W. Corbett Wildlife Management Area](https://myfwc.com/recreation/lead/j-w-corbett/things-to-do/), a large public wildlife area in western Palm Beach County. Two boardwalks are the most concrete reasons to go:
 
-Because everyone arrived recently, the community's informal networks — neighborhood groups, interest clubs, the pages where people post about contractors, lost pets and things for sale — are unusually active and unusually welcoming.
+- **The Bald Cypress Boardwalk and Trail**, a 1.2-mile walk through cypress swamp, pine flatwoods and hardwood hammock. FWC describes it as far from the hunting area and open year-round.
+- **The Hungryland Boardwalk**, which FWC also describes as well removed from hunting zones and open year-round. FWC's directions reach it through the area's south entrance on Seminole Pratt Whitney Road.
 
-They're where you'll find a plumber who actually turns up, hear about an event before it's advertised, and meet people without an introduction. Ask a neighbor which are worth joining in your first week.
+**Before you visit,** check FWC's [planning page](https://myfwc.com/recreation/lead/j-w-corbett/planning-your-visit/). FWC requires a daily-use permit to enter unless you hold a Wildlife Management Area permit, and hunting seasons, area rules and closures apply. Check the current map, rules and hunt calendar, and stay on designated trails. Wildlife sightings aren't guaranteed.
 
-## The western sky
+## Arthur R. Marshall Loxahatchee National Wildlife Refuge
 
-The genuine standout, and the thing residents mention most once they've been here a while.
+The [refuge](https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee/visit-us) protects part of the northern Everglades, and its visitor center is at 10216 Lee Road in Boynton Beach. It's a nearby wildlife outing, not part of Westlake.
 
-Out this far from the coastal light, the night sky is dramatically better than anywhere east. On a clear dry-season evening you can see a serious number of stars from your own street — and from the darker edges of the area, considerably more.
+The U.S. Fish and Wildlife Service lists [wildlife watching](https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee/visit-us/activities/wildlife-watching) among the refuge's activities, along with designated trails, refuge programs, and fishing and paddling in designated areas. The Cypress Swamp Boardwalk behind the visitor center has been listed as closed, so check whether it's open before you plan around it.
 
-Sunsets run the full width of an open horizon, and summer storm systems building over the Everglades are genuinely spectacular from a distance.
+**Before you visit,** check the refuge's pages for entrance passes, hours, trail rules and closures, weather and seasonal conditions. Watch wildlife from a distance: don't approach, feed or pursue animals.
 
-It costs nothing and it's available most evenings. Newcomers from the coast notice it within a week and never quite get over it.
+## Wellington International, for non-riders
 
-## The refuge, twenty minutes west
+You don't need a horse to watch show jumping. During the [Winter Equestrian Festival](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/), Wellington International, in Wellington, hosts competition that spectators can attend. Its [spectator FAQs](https://www.wellingtoninternational.com/winter-equestrian-festival/wef-spectator-faqs/) have listed free general admission and free parking for daytime shows, with paid parking for some evening events; treat that as current only when the official page says so.
 
-Covered properly in [the neighboring area's guide](/blog/best-things-to-do-in-loxahatchee-florida), but it belongs here as the thing Westlake residents most consistently underuse.
+Check the live schedule for the season's dates, plus spectator rules, admission, parking and event-specific details, before you go.
 
-Living in a brand-new house on a paved street with a resort pool, twenty minutes from genuine Everglades wilderness with alligators and roseate spoonbills, is an odd and rather wonderful combination. Most residents go once and mean to go back.
+## Westlake's civic-event calendar
 
-Go at dawn in the dry season. It is a completely different world from the one you drove out of.
+The City of Westlake hosts public events during the year. Its [special events page](https://www.westlakegov.com/community/page/special-events) has featured events such as an Independence Day celebration (FourthFest), SpringFest and a holiday market, alongside smaller community meetings. Offerings, dates and locations change, so check the page for what's currently scheduled.
 
-## Being early, as an actual advantage
+## Fishing: only where access is public and legal
 
-Not a place, and worth naming because it's temporary.
+Don't assume a canal or lake bank is open to the public. Many are private, restricted or part of drainage infrastructure. Fish only where access is confirmed, such as designated areas at J.W. Corbett, which has stocked ponds, or designated areas at the refuge, and follow each site's rules.
 
-Right now, the community is small enough that people know each other, the amenity complex is rarely crowded, and there's genuine influence available to anyone who turns up — to the association, to community groups, to how things get organized.
+You'll generally need a Florida fishing license unless you're exempt; check FWC's [license guide](https://myfwc.com/license/recreational/do-i-need-one/) and the current [freshwater regulations](https://myfwc.com/fishing/freshwater/regulations/) before you go.
 
-In fifteen years none of that will be true. Residents who engage now are shaping what the place becomes, which is a genuinely unusual opportunity and one that closes on its own.
+## Before you go
 
-## The equestrian world next door
+- [ ] Check the official page for hours, access, parking, permit or pass requirements, closures, hunt days and event schedules.
+- [ ] Check the weather and heat, and plan around storms.
+- [ ] Stay on designated public paths and access points.
+- [ ] Respect wildlife, and stay off private property and restricted areas.
+- [ ] Bring water, sun protection and what you need for the conditions.
 
-Immediately surrounding the city is one of the densest concentrations of horse property in the country, and neighboring Wellington hosts an internationally significant winter season.
-
-You don't need a horse to benefit. Shows, events and clinics run through the winter, many free or inexpensive to watch, and the standard is genuinely world-class. It's ten minutes away and most Westlake residents have never been.
-
-## The canal fishing
-
-The western county's canal network runs throughout the surrounding area and holds bass and panfish, fishable from banks with minimal equipment.
-
-It's uncrowded because it isn't a destination, and it's the sort of thing you can do for an hour on a weekday evening.
-
-## The roadside stands
-
-Through the cooler months, seasonal produce stands appear along the western roads — informal, cash-based, unadvertised, and genuinely good.
-
-What's available changes week to week, and produce picked that morning a few miles away is not something a supermarket matches. Buy when you see them; they're gone the following week.
-
-## The quiet, at the edges
-
-Within the community, the soundscape is ordinary suburban. But the city sits against open land, and the edges are genuinely quiet in a way that surprises people.
-
-Walk to a perimeter at dusk and what you'll hear is insects, birds and wind. That contrast — a few minutes from a pool complex full of children — is one of the more distinctive things about living here.
-
-## The trails at the community edges
-
-Where the paths run out to the perimeter, the character changes — fewer people, more open ground, and views across land that hasn't been developed.
-
-They're the closest thing to a country walk available without driving, and they're busiest near the amenity complex and essentially empty at the far ends. Early morning is the window, and it's the easiest daily habit to pick up here.
-
-## Watching it get built
-
-An unusual pleasure, and residents do report it.
-
-Seeing streets extend, buildings go up, businesses open and a city assemble itself in real time is genuinely interesting to watch, particularly for anyone who has only ever lived in finished places.
-
-It won't last. Enjoy it while it's happening rather than counting the days until it stops.
-
-## The morning light on the open land
-
-Small, free, and specific to sitting where this city sits.
-
-At the western and northern edges, where the community meets open ground, the early light across former grove and pasture land is genuinely lovely — mist in the cooler months, birds working the ditches, and a horizon with nothing on it.
-
-It takes ten minutes and a willingness to be outside before seven. In a community where most people's mornings are a garage and a commute, it's the easiest thing on this list to miss.
-
-## The neighbors' expertise
-
-An unusual feature of a new community: everyone moved recently, from somewhere else, and a remarkable range of backgrounds ends up on the same street.
-
-Because nobody has established social territory, people talk. Residents report finding tradespeople, advice, help and friendships through their own street far more readily than they did in established neighborhoods where the patterns were already set.
-
-It is temporary — communities settle — and it counts as a genuine advantage of arriving early.
-
-## Making the most of these
-
-The pattern here is that Westlake's best features mostly aren't in Westlake. The community provides the house and the recreation; the surroundings provide the sky, the wilderness, the horses and the quiet.
-
-Residents who treat the western county as their actual neighborhood — rather than treating the community as an island with a long drive attached — get considerably more out of living here.
-
-For the practical side of settling in, our [guide to operating here](/blog/local-guide-to-westlake-florida) covers the logistics.`,
+For the practical side of living here, see the [Westlake local guide](/blog/local-guide-to-westlake-florida).`,
     faqs: [
-      { q: "What is the best thing about Westlake that nobody mentions?", a: "The western sky. Out this far from coastal light the night sky is dramatically better than anywhere east, sunsets run the full width of an open horizon, and summer storm systems building over the Everglades are spectacular from a distance. Newcomers from the coast notice within a week and never quite get over it." },
-      { q: "What do Westlake residents underuse most?", a: "The wildlife refuge twenty minutes west. Living in a new house with a resort pool that close to genuine Everglades wilderness with alligators and roseate spoonbills is an odd and rather wonderful combination — and most residents go once and mean to go back. Go at dawn in the dry season." },
-      { q: "Is there an advantage to buying in Westlake early?", a: "A temporary one worth naming. The community is currently small enough that people know each other, the amenity complex is rarely crowded, and there is genuine influence available to anyone who engages with the association and community groups. In fifteen years none of that will be true." },
-      { q: "Can I enjoy the equestrian scene without a horse?", a: "Easily. Immediately around the city is one of the densest concentrations of horse property in the country, and neighboring Wellington hosts an internationally significant winter season with shows, events and clinics — many free or inexpensive to watch, at a genuinely world-class standard, ten minutes away." },
-      { q: "Is Westlake quiet?", a: "Within the community the soundscape is ordinary suburban, but the city sits against open land and the edges are genuinely quiet in a way that surprises people. Walk to a perimeter at dusk and you will hear insects, birds and wind — a few minutes from a pool complex full of children." },
-      { q: "How do I get the most out of living in Westlake?", a: "Treat the western county as your actual neighborhood rather than treating the community as an island with a long drive attached. Westlake's best features mostly are not in Westlake — the community provides the house and recreation; the surroundings provide the sky, the wilderness, the horses and the quiet." },
+      { q: 'What outdoor areas near Westlake should I check before visiting?', a: "Two public options are J.W. Corbett Wildlife Management Area, managed by the Florida Fish and Wildlife Conservation Commission, with the Bald Cypress and Hungryland boardwalks, and the Arthur R. Marshall Loxahatchee National Wildlife Refuge, whose visitor center is at 10216 Lee Road in Boynton Beach. Check each official page for hours, permits or passes, closures and rules before you go." },
+      { q: 'Do I need a permit or pass for J.W. Corbett Wildlife Management Area?', a: "FWC requires a daily-use permit to enter J.W. Corbett unless you have a Wildlife Management Area permit. Hunting seasons, area rules and closures also apply, so check FWC's planning page, map and hunt calendar before your visit." },
+      { q: 'Can visitors attend equestrian events in Wellington without owning a horse?', a: "Yes. Spectators can attend the Winter Equestrian Festival at Wellington International. Its spectator FAQs have listed free general admission and free daytime parking, with paid parking for some evening events. Check the official schedule and FAQs for current dates, admission and parking." },
+      { q: 'Where can I find current Westlake public events?', a: "On the City of Westlake's special events page, which has featured events such as FourthFest, SpringFest and a holiday market. Dates and offerings change, so check the page for what's currently scheduled." },
+      { q: 'Is canal fishing around Westlake automatically public access?', a: "No. Many canal and lake banks are private, restricted or part of drainage infrastructure. Use only confirmed public access points, such as designated areas at J.W. Corbett or the refuge, and follow FWC licensing and freshwater regulations." },
     ],
-    internalLinks: ["best-things-to-do-in-westlake-florida", "local-guide-to-westlake-florida", "best-places-to-eat-drink-hang-out-in-westlake-florida"],
-    funFact: "Westlake's trail network connects to the broader western Palm Beach County trail system and the Acreage equestrian paths — residents can ride bikes into genuinely rural landscape within minutes of their front door. Most homebuyers only discover this after move-in when a neighbor mentions it.",
+    internalLinks: ['best-things-to-do-in-westlake-florida', 'local-guide-to-westlake-florida', 'best-places-to-eat-drink-hang-out-in-westlake-florida'],
+    funFact: "J.W. Corbett Wildlife Management Area's Hungryland Boardwalk is reached through the area's south entrance on Seminole Pratt Whitney Road, according to FWC's directions. Check FWC's planning page for the daily-use permit, hunt dates and closures before you go.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'westlake-vs-nearby-cities',
