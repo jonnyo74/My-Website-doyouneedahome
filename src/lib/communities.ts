@@ -2568,7 +2568,15 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Hammock Cove', 'Meadow Cove', 'Tamarind Cove'],
     photos: [
+      '/images/westlake/community-pool-lake-hero.webp',
+      '/images/westlake/model-patio-fire-table-lake.webp',
+      '/images/westlake/model-screened-pool-spa-lake.webp',
+      '/images/westlake/model-kitchen-dark-cabinets.webp',
+      '/images/westlake/model-pool-palms-lake.webp',
+      '/images/westlake/model-primary-bedroom-lake-view.webp',
     ],
+    photoCredits: ['Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver'],
+    photoNote: 'Photos show furnished builder model homes in Westlake. Furnishings, finishes and upgrades are staged, and floor plans and builders change as new phases open, so confirm what is offered today before relying on them.',
     lat: 26.7042, lng: -80.3423,
   },
   {

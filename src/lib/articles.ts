@@ -13740,6 +13740,11 @@ For the rest of what fills a week here, our [guide to what's worth doing](/blog/
     primaryKeyword: "living in Westlake Florida",
     secondaryKeywords: ["moving to Westlake FL", "Westlake Florida homes", "is Westlake a good place to live", "Westlake Minto"],
     h1: "What It's Really Like Living in Westlake, Florida",
+    heroImage: '/images/westlake/model-pool-lake-construction-hero.webp',
+    heroImageAlt: 'A screened pool and paver deck at a Westlake model home, looking across a lake to new houses and open land still being graded',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
     body: `Westlake is the newest city in Palm Beach County, incorporated in 2016, and buying here means something genuinely different from buying anywhere else in the region: you are purchasing into a place that is still being built.
 
 Not "recently built." Being built — with construction traffic, unfinished phases, a commercial center still arriving, and a population that grows every month. That single fact shapes everything good and everything difficult about living here.
@@ -13966,6 +13971,11 @@ For the feel of the place rather than the mechanics, read [what living here is a
     primaryKeyword: "best neighborhoods in Westlake Florida",
     secondaryKeywords: ["Westlake home collections", "Westlake new homes", "Westlake townhomes", "Westlake single-family homes"],
     h1: "Best Neighborhoods & Home Collections in Westlake, Florida",
+    heroImage: '/images/westlake/model-home-garages-hero.webp',
+    heroImageAlt: 'A gray single-story Westlake model home with board-and-batten siding, two white carriage-style garage doors and a paver driveway',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
     body: `Westlake doesn't have neighborhoods in the conventional sense. It has **builder collections and villages** within a single master plan, and choosing between them is a different exercise from choosing between established neighborhoods.
 
 The questions that matter here are builder, phase, floor plan, lot position and fee structure — not history, character or which street has the better trees.
@@ -14198,6 +14208,11 @@ Those two experiences frame what living here actually is: a planned community wi
     primaryKeyword: "who should move to Westlake Florida",
     secondaryKeywords: ["is Westlake right for me", "should I move to Westlake", "who lives in Westlake"],
     h1: "Who Should Move to Westlake, Florida (And Who Shouldn't)",
+    heroImage: '/images/westlake/model-patio-lake-palms-hero.webp',
+    heroImageAlt: 'A covered patio at a Westlake model home opening onto a lawn with palms and a lake, with a screened pool at left',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
     body: `Westlake is one of the easier places in the county to assess, because what it offers is unusually explicit: a new house, real amenities, a western location and a fee structure. Whether that fits is mostly a matter of arithmetic and honesty about driving.
 
 ## The people this city fits
@@ -14310,6 +14325,11 @@ Before you shop, get the full monthly number. The [cost breakdown](/blog/cost-of
     primaryKeyword: "pros and cons of living in Westlake Florida",
     secondaryKeywords: ["Westlake pros and cons", "living in Westlake downsides", "is Westlake worth it"],
     h1: "Pros and Cons of Living in Westlake, Florida",
+    heroImage: '/images/westlake/model-lanai-pool-construction-hero.webp',
+    heroImageAlt: 'A screened lanai and pool at a Westlake model home, with excavators and stacked pipe visible on cleared land across the lake',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
     showMarketTrends: true,
     body: `Westlake's trade-offs are unusually clear, which makes it easier to evaluate than most places. Nearly everything comes down to two facts: everything is new, and it's out west.
 
@@ -14417,6 +14437,11 @@ Our [profile-by-profile breakdown](/blog/who-should-move-to-westlake-florida) te
     primaryKeyword: "cost of living in Westlake Florida",
     secondaryKeywords: ["Westlake home prices", "Westlake CDD fees", "is Westlake affordable"],
     h1: "Cost of Living in Westlake, Florida",
+    heroImage: '/images/westlake/model-kitchen-gray-cabinets-hero.webp',
+    heroImageAlt: 'A staged kitchen in a Westlake model home with gray raised-panel cabinets, a patterned tile backsplash and marble-look counters',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
     showMarketTrends: true,
     body: `Westlake has the most misunderstood cost structure of any community in Palm Beach County, and it's entirely because of one thing: **the monthly cost of owning here is not well represented by the purchase price.**
 
