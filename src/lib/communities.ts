@@ -2568,7 +2568,15 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: false,
     popularNeighborhoods: ['Hammock Cove', 'Meadow Cove', 'Tamarind Cove'],
     photos: [
+      '/images/westlake/community-pool-lake-hero.webp',
+      '/images/westlake/model-patio-fire-table-lake.webp',
+      '/images/westlake/model-screened-pool-spa-lake.webp',
+      '/images/westlake/model-kitchen-dark-cabinets.webp',
+      '/images/westlake/model-pool-palms-lake.webp',
+      '/images/westlake/model-primary-bedroom-lake-view.webp',
     ],
+    photoCredits: ['Photo by John Oliver, 2018', 'Photo by John Oliver, 2018', 'Photo by John Oliver, 2018', 'Photo by John Oliver, 2018', 'Photo by John Oliver, 2018', 'Photo by John Oliver, 2018'],
+    photoNote: 'Photos show furnished Minto model homes in Westlake, taken in 2018 while early phases were under construction. Furnishings and upgrades are staged; confirm current floor plans, options and pricing with the builder.',
     lat: 26.7042, lng: -80.3423,
   },
   {
