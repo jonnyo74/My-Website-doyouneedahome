@@ -1,10 +1,10 @@
 # Westlake images: sources
 
-Photos are **copied** from John Oliver's own photo library (OneDrive `DO Homes Group Master/Website Folders/doyouneedahome.com/public/public/Westlake/`, 78 photos named `westlake-001.jpg` to `westlake-078.jpg`, all 2048×1536; nothing there was moved, renamed or changed). The originals are not committed to the repo. The library copies carry no EXIF data, so the shoot date and the builder of each model are not recorded. The page credit reads "Photo by John Oliver". Derivatives are WebP (q80): heroes are 2048×1152 crops, gallery images 1400×1050, all added 2026-10-01.
+Photos are **copied** from John Oliver's own photo library (OneDrive `DO Homes Group Master/Website Folders/doyouneedahome.com/public/public/Westlake/`, 78 photos named `westlake-001.jpg` to `westlake-078.jpg`, all 2048×1536; nothing there was moved, renamed or changed). The originals are not committed to the repo. The library copies carry no EXIF data. John confirmed on 2026-10-01 that the set was shot in **2020** and that every model is a **Minto** model home. The page credit reads "Photo by John Oliver, 2020". Derivatives are WebP (q80): heroes are 2048×1152 crops, gallery images 1400×1050, all added 2026-10-01.
 
-**What the set shows.** Every frame is a furnished, staged builder **model home**: kitchens, bedrooms, baths, pools, lanais, patios and one exterior (two frames of the same house). Westlake signage appears in frame in several shots (model feature placards on kitchen islands, an "alternate master bath" sign in `westlake-060` and `-061`, and "Westlake, Florida's New City" on a TV). Legible placards name the **Azalea** (`westlake-044`), **Persimmon** (`westlake-054`, `-055`) and **Schefflera** (`westlake-069`) models. Several lake views show active site work across the water (excavators, stacked pipe, graded land), so the photos date from an earlier build-out phase, not the city as it looks today. There are **no** photos of the Adventure Park, the town center, streets, schools or shops.
+**What the set shows.** Every frame is a furnished, staged **Minto model home** (per John): kitchens, bedrooms, baths, pools, lanais, patios and one exterior (two frames of the same house). Westlake signage appears in frame in several shots (model feature placards on kitchen islands, an "alternate master bath" sign in `westlake-060` and `-061`, and "Westlake, Florida's New City" on a TV). Legible placards name the **Azalea** (`westlake-044`), **Persimmon** (`westlake-054`, `-055`) and **Schefflera** (`westlake-069`) models. Several lake views show active site work across the water (excavators, stacked pipe, graded land), which fits the 2020 date: an early build-out phase, not the city as it looks today. There are **no** photos of the Adventure Park, the town center, streets, schools or shops.
 
-Because of that, captions and alt text say "a Westlake model home" and make no claim about current floor plans, pricing, builders or availability. The community page carries a `photoNote` saying the same.
+Because of that, alt text says "a Minto model home in Westlake", credits carry the year, and nothing claims current floor plans, pricing or availability. The community page's `photoNote` says the photos are 2020 Minto models taken while early phases were under construction.
 
 ## Community page (`/communities/westlake`)
 
@@ -41,5 +41,4 @@ Articles #2 (local guide), #4 (things to do), #8 (hidden gems), #9 (vs nearby ci
 
 ## To confirm with John
 
-- Roughly when the set was shot, so a caption can date it if needed.
-- That the credit "Photo by John Oliver" is right for all 78.
+- That he took all 78 himself, so the credit is right.

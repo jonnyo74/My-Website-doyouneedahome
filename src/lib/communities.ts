@@ -2575,8 +2575,8 @@ export const cities: CommunityItem[] = [
       '/images/westlake/model-pool-palms-lake.webp',
       '/images/westlake/model-primary-bedroom-lake-view.webp',
     ],
-    photoCredits: ['Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver', 'Photo by John Oliver'],
-    photoNote: 'Photos show furnished builder model homes in Westlake. Furnishings, finishes and upgrades are staged, and floor plans and builders change as new phases open, so confirm what is offered today before relying on them.',
+    photoCredits: ['Photo by John Oliver, 2020', 'Photo by John Oliver, 2020', 'Photo by John Oliver, 2020', 'Photo by John Oliver, 2020', 'Photo by John Oliver, 2020', 'Photo by John Oliver, 2020'],
+    photoNote: 'Photos show furnished Minto model homes in Westlake, taken in 2020 while early phases were still under construction. Furnishings, finishes and upgrades are staged, and floor plans and builders change as new phases open, so confirm what is offered today before relying on them.',
     lat: 26.7042, lng: -80.3423,
   },
   {
