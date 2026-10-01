@@ -1,6 +1,6 @@
 # Westlake images: sources
 
-Photos are **copied** from John Oliver's own photo library (OneDrive `DO Homes Group Master/Website Folders/doyouneedahome.com/public/public/Westlake/`, 78 photos named `westlake-001.jpg` to `westlake-078.jpg`, all 2048×1536; nothing there was moved, renamed or changed). The originals are not committed to the repo. The library copies carry no EXIF data. John confirmed on 2026-10-01 that the set was shot in **2020** and that every model is a **Minto** model home. The page credit reads "Photo by John Oliver, 2020". Derivatives are WebP (q80): heroes are 2048×1152 crops, gallery images 1400×1050, all added 2026-10-01.
+Photos are **copied** from John Oliver's own photo library (OneDrive `DO Homes Group Master/Website Folders/doyouneedahome.com/public/public/Westlake/`, 78 photos named `westlake-001.jpg` to `westlake-078.jpg`, all 2048×1536; nothing there was moved, renamed or changed). The originals are not committed to the repo. The library copies carry no EXIF data. John confirmed on 2026-10-01 that he shot all 78 himself, in **2020**, and that every model is a **Minto** model home. The page credit reads "Photo by John Oliver, 2020". Derivatives are WebP (q80): heroes are 2048×1152 crops, gallery images 1400×1050, all added 2026-10-01.
 
 **What the set shows.** Every frame is a furnished, staged **Minto model home** (per John): kitchens, bedrooms, baths, pools, lanais, patios and one exterior (two frames of the same house). Westlake signage appears in frame in several shots (model feature placards on kitchen islands, an "alternate master bath" sign in `westlake-060` and `-061`, and "Westlake, Florida's New City" on a TV). Legible placards name the **Azalea** (`westlake-044`), **Persimmon** (`westlake-054`, `-055`) and **Schefflera** (`westlake-069`) models. Several lake views show active site work across the water (excavators, stacked pipe, graded land), which fits the 2020 date: an early build-out phase, not the city as it looks today. There are **no** photos of the Adventure Park, the town center, streets, schools or shops.
 
@@ -38,7 +38,3 @@ Articles #2 (local guide), #4 (things to do), #8 (hidden gems), #9 (vs nearby ci
 | `westlake-074` to `westlake-076` | The TV shows the Westlake "Florida's New City" logo full-frame, which reads as developer marketing. |
 | `westlake-040`, `westlake-045`, `westlake-046`, `westlake-056` | Themed children's or teen bedrooms (Marlins room, "No Wake Zone" room, fashion-sketch room). Left out of a city page so the imagery doesn't signal who the community is "for" (fair housing, familial status; see `FAIR-HOUSING-AUDIT.md`, which flagged Westlake specifically). |
 | Remaining frames | Near-duplicate exposures of the frames above, or interiors (baths, closets, bar, gym) that don't fit a page yet. They're available for a future model-home or new-construction article. |
-
-## To confirm with John
-
-- That he took all 78 himself, so the credit is right.
