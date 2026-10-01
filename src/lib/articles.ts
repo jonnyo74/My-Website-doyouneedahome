@@ -887,7 +887,7 @@ For more, see the [Juno Beach community guide](/communities/juno-beach), [what i
     metaTitle: 'Best Things to Do in Juno Beach, FL | Pier, Turtles & Dunes',
     metaDescription: "Things to do in Juno Beach: Loggerhead Marinelife Center, the pier, the beach, Juno Dunes and the Town's history walk, plus Jupiter's lighthouse nearby.",
     primaryKeyword: 'things to do in Juno Beach Florida',
-    secondaryKeywords: ['Juno Beach attractions', 'Loggerhead Marinelife Center', 'Juno Beach Pier', 'Juno Dunes Natural Area', 'Jupiter Inlet Lighthouse'],
+    secondaryKeywords: ['Juno Beach attractions', 'Loggerhead Marinelife Center', 'Juno Beach Pier', 'Juno Dunes Natural Area', 'Aviation Museum on the Beach', 'Jupiter Inlet Lighthouse'],
     h1: 'Best Things to Do in Juno Beach, Florida',
     heroImage: '/images/juno-beach/jupiter-inlet-lighthouse-hero.webp',
     heroImageAlt: 'The red Jupiter Inlet Lighthouse in Jupiter, on a wooded rise across the water from a marina full of boats, under big white clouds',
@@ -909,7 +909,7 @@ For more, see the [Juno Beach community guide](/communities/juno-beach), [what i
       magnetPlacement: 'none',
       matrix: {
         heading: 'Choose your Juno Beach day',
-        intro: 'Five things to do in Juno Beach, and one nearby in Jupiter. Each name links to the official source to check before you go.',
+        intro: 'Six things to do in Juno Beach, plus the lighthouse in nearby Jupiter; more nearby trips are below. Each name links to the official source to check before you go.',
         labels: { priorities: 'What it is', questions: 'Where', daily: 'Good for', singer: 'Check first' },
         rows: [
           {
@@ -956,6 +956,15 @@ For more, see the [Juno Beach community guide](/communities/juno-beach), [what i
             questions: 'Around town; the Town publishes a printable map.',
             daily: 'An easy walk or bike ride with stories behind the places.',
             singer: 'The printable map, or the audio version on the mobile app.',
+          },
+          {
+            name: 'Aviation history',
+            tag: 'In Juno Beach',
+            href: 'https://aviationmuseumonthebeach.com/',
+            priorities: 'The Aviation Museum on the Beach: more than 1,000 commercial model airplanes and aviation memorabilia.',
+            questions: '790 Juno Ocean Walk, Suite 402.',
+            daily: 'An indoor hour, and a break from the sun or a rainy afternoon.',
+            singer: 'Current hours and admission on the museum site, or call ahead.',
           },
           {
             name: 'Lighthouse visit',
@@ -1023,13 +1032,21 @@ Our [local's guide](/blog/local-guide-to-juno-beach-florida) covers the stops in
 
 ![The Town of Juno Beach sign among palms at sunset, its marquee advertising a Celestial Railroad talk](/images/juno-beach/town-sign-celestial-railroad.webp "The Town of Juno Beach sign at sunset. || Photo by John Oliver"){1400x1050}
 
+## Aviation Museum on the Beach
+
+Juno Beach also has a museum you might not expect. The [Aviation Museum on the Beach](https://aviationmuseumonthebeach.com/), at 790 Juno Ocean Walk, displays more than 1,000 commercial model airplanes along with aviation memorabilia, and also offers a private event space. Check its site for current hours before you go.
+
 ## Nearby, but worth the short trip
 
 **The Jupiter Inlet Lighthouse & Museum, in Jupiter.** The lighthouse in this article's main photo isn't in Juno Beach; it's in neighboring Jupiter. The [Jupiter Inlet Lighthouse & Museum](https://www.jupiterlighthouse.org/) offers climbs of the landmark 1860 lighthouse in Lighthouse Park, along with museum exhibits and tours. Check its site for hours, tickets and climbing requirements, which include a minimum height for children.
 
+**John D. MacArthur Beach State Park, in North Palm Beach.** [MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/experiences-amenities) combines a beach, coastal and tropical hammock, mangroves, and an estuary you can explore by rented kayak or paddleboard. Its nature center has exhibits on the park's natural communities. Check the park's [hours and fees](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/hours-fees) before you go.
+
+**Jonathan Dickinson State Park, in Hobe Sound.** Florida State Parks calls [Jonathan Dickinson](https://www.floridastateparks.org/park/Jonathan-Dickinson) the largest state park in Southeast Florida. It has the Loxahatchee River for paddling and boating, biking, hiking and equestrian trails, and Hobe Mountain, an ancient sand dune that rises 86 feet above sea level. Ranger-guided tours visit Trapper Nelson's 1930s homestead on the river; check the park's site for current tours and schedules.
+
 **Boating.** If you'd rather be on the water, Palm Beach County's [boating page](https://discover.pbc.gov/parks/amenities/boating.aspx) lists its public boat ramps and boating facilities.
 
-How long either takes to reach depends on where you start and the traffic.
+How long any of these takes to reach depends on where you start and the traffic.
 
 ## Before you go
 
@@ -1046,6 +1063,8 @@ For more, see the [Juno Beach community guide](/communities/juno-beach), our [lo
       { q: "What is Juno Dunes Natural Area?", a: "A 569-acre Palm Beach County natural area that runs from the Atlantic to the Intracoastal Waterway. The oceanfront tract sits atop an ancient dune; the west tract has hiking trails, a boardwalk through a sawgrass wetland and an observation tower, with tidal channels for kayaks and canoes. It's open sunrise to sunset." },
       { q: "Where can I check Juno Beach swimming conditions?", a: "Look at the flag at the lifeguard tower, and check Palm Beach County's beach conditions page. The county's beach safety page explains the flags, from green for low hazard to double red for water closed, plus purple for dangerous marine life." },
       { q: "Is the Jupiter Inlet Lighthouse in Juno Beach?", a: "No. The Jupiter Inlet Lighthouse & Museum is in Lighthouse Park in neighboring Jupiter. It's a nearby trip from Juno Beach, offering climbs of the 1860 lighthouse plus museum exhibits; check its site for hours and tickets." },
+      { q: "What else is there to do near Juno Beach?", a: "Nearby options include the Jupiter Inlet Lighthouse & Museum in Jupiter, John D. MacArthur Beach State Park in North Palm Beach, with its beach, nature center and estuary paddling, and Jonathan Dickinson State Park in Hobe Sound, with the Loxahatchee River, trails and Hobe Mountain. Check each one's official site for hours, fees and tours." },
+      { q: "Is there a museum in Juno Beach?", a: "Yes. The Aviation Museum on the Beach, at 790 Juno Ocean Walk, displays more than 1,000 commercial model airplanes and aviation memorabilia. Check its website for current hours." },
       { q: "How do I find Juno Beach's historic self-guided tour?", a: "The Town of Juno Beach publishes the Discover Juno Beach tour on its website, with interpretive plaques around town, a printable map and an audio version on a mobile app." },
     ],
     internalLinks: ['local-guide-to-juno-beach-florida', 'hidden-gems-in-juno-beach-florida', 'best-places-to-eat-drink-hang-out-in-juno-beach-florida'],
