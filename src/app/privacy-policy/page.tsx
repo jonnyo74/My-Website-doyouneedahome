@@ -188,7 +188,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="mb-3 font-serif text-2xl font-semibold text-slate-900">Contact</h2>
             <p>
               Questions about this policy or how your information is handled can be directed to DO
-              Homes Group, 9123 North Military Trail, Suite 104, Palm Beach Gardens, FL 33410, or
+              Homes Group, 4658 Northlake Boulevard, Suite 103, Palm Beach Gardens, FL 33418, or
               via the contact information above. DO Homes Group operates under Premier Brokers
               International.
             </p>

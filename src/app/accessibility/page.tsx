@@ -149,9 +149,9 @@ export default function AccessibilityPage() {
                 </a>
               </p>
               <p className="pt-2">
-                9123 North Military Trail, Suite 104
+                4658 Northlake Boulevard, Suite 103
                 <br />
-                Palm Beach Gardens, FL 33410
+                Palm Beach Gardens, FL 33418
               </p>
             </address>
           </div>
