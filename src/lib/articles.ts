@@ -1845,9 +1845,10 @@ There's no universal winner. Juno Beach may fit a buyer looking for its particul
     primaryKeyword: 'best restaurants in Juno Beach Florida',
     secondaryKeywords: ['where to eat in Juno Beach', "Captain Charlie's Original Reef Grill", "Ke'e Grill Juno Beach", 'Juno Beach Cafe', 'Thirsty Turtle Juno Beach', 'Sushi Jo Juno Beach', "Matty's Gelato Factory"],
     h1: 'Best Places to Eat, Drink & Hang Out in Juno Beach, Florida',
-    heroImage: '/images/juno-beach/pelican-lake-patio-lights-hero.webp',
-    heroImageAlt: 'Picnic tables on a brick patio beside Pelican Lake at dusk, with palm trunks wrapped in string lights and the lake fountain beyond',
-    heroImageCredit: 'Photo by John Oliver',
+    // Illustrative stock photo, not a Juno Beach venue (no verified restaurant photo yet).
+    heroImage: '/images/juno-beach/stock-cafe-table-hero.webp',
+    heroImageAlt: 'An outdoor café table with two coffee cups, finished breakfast plates and a table-number stand, between rattan bistro chairs in front of a green hedge',
+    heroImageCredit: 'Photo by Philip Flores / Unsplash',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
     editorial: {
@@ -1855,9 +1856,9 @@ There's no universal winner. Juno Beach may fit a buyer looking for its particul
       deck: 'Breakfast, seafood, sushi, casual drinks and gelato in Juno Beach, each checked on its own website, plus easy ways to pair a meal with the beach.',
       heroLayout: 'split',
       heroTone: 'guide',
-      panelImage: { src: '/images/juno-beach/pelican-lake-patio-lights-panel.webp', width: 960, height: 1200 },
-      mobileImage: { src: '/images/juno-beach/pelican-lake-patio-lights-mobile.webp', width: 1200, height: 800 },
-      panelCaption: 'A public patio by Pelican Lake at the Juno Beach Town Center, at dusk.',
+      panelImage: { src: '/images/juno-beach/stock-cafe-table-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/juno-beach/stock-cafe-table-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'Illustrative stock photo, not a Juno Beach restaurant.',
       primaryCta: { label: 'Explore Juno Beach', href: '/communities/juno-beach' },
       secondaryCta: { label: 'Things to do in Juno Beach', href: '/blog/best-things-to-do-in-juno-beach-florida' },
       // A dining guide: no report offer in or after the body.
@@ -1971,7 +1972,7 @@ A meal here pairs easily with time outside:
 - **The beach.** Palm Beach County's [Juno Beach Park](https://discover.pbc.gov/parks/Locations/Juno-Beach.aspx), open sunrise to sunset, has a guarded swimming area, parking, restrooms and showers. Check the county's [beach conditions](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) before swimming.
 - **The pier.** The [Juno Beach Pier](https://marinelife.org/juno-beach-pier/) isn't free: Loggerhead Marinelife Center, which manages it, lists a spectator fee and a separate fishing fee, and its hours change by season. Refurbishment began on June 1, 2026, so check the pier page for current hours and closures.
 - **Loggerhead Marinelife Center,** across U.S. 1 from Plaza La Mer, for a visit before or after gelato. Check the [Center's site](https://marinelife.org/) for current hours and programs.
-- **Pelican Lake** at the Town Center, where the patio in the photo at the top of this page sits beside the lake.
+- **Pelican Lake** at the Town Center, which has a lakeside path and a patio with picnic tables.
 
 Our [Juno Beach local guide](/blog/local-guide-to-juno-beach-florida) covers the beach and pier in more detail, and the [hidden gems guide](/blog/hidden-gems-in-juno-beach-florida) adds Juno Dunes and the town's self-guided history tour.
 
