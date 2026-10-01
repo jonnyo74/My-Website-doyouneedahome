@@ -15071,9 +15071,16 @@ For more on Westlake itself, read [what living in Westlake is really like](/blog
     primaryKeyword: "restaurants near Westlake FL",
     secondaryKeywords: ["best restaurants in Westlake Florida", "Westlake FL coffee", "where to eat near Westlake", "Westlake FL bars and hangout spots"],
     h1: "Best Restaurants Near Westlake, FL: Where to Eat, Drink & Hang Out",
-    // No hero: the photo library has no Westlake dining, storefront or
-    // commercial-corridor image, and the 2018 model-home set would misrepresent
-    // the subject (see public/images/westlake/SOURCES.md).
+    // Stock hero, at John's request (2026-10-01): the photo library has no
+    // Westlake dining, storefront or corridor image. The caption marks it as
+    // illustrative. Replace it with a team photo of a listed venue when one exists.
+    heroImage: '/images/westlake/stock-plated-dinner-hero.webp',
+    heroImageAlt: 'A plated fish starter on a white plate at a restaurant table, with glasses of white wine and a bread basket',
+    heroImageCaption: 'Illustrative stock photo, not a Westlake restaurant.',
+    heroImageCredit: 'Photo by Jay Wennington / Unsplash',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    heroImagePosition: '55% 50%',
     // Venues were checked against each business's own site or brand location
     // page. Re-check every link before changing the "Last verified" date.
     body: `Westlake now has several practical places for coffee, casual meals, takeout, pizza, and quick dining, with more options nearby in Loxahatchee, Royal Palm Beach, and Wellington. This guide separates verified current locations from planned development so you can decide where to go without relying on stale lists.
