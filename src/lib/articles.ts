@@ -14146,118 +14146,194 @@ For schools, verify attendance boundaries for the specific address directly with
     cityName: 'Westlake',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in Westlake, Florida",
-    metaTitle: "Best Things to Do in Westlake, Florida",
-    metaDescription: "From the Westlake Adventure Park to nearby nature and the wider western county — a local guide to the best things to do in and around Westlake, Florida.",
-    primaryKeyword: "things to do in Westlake Florida",
-    secondaryKeywords: ["Westlake attractions", "what to do in Westlake", "Westlake Adventure Park"],
-    h1: "Best Things to Do in Westlake, Florida",
-    body: `Westlake's recreation splits cleanly in two: what the community provides inside its own boundaries, and the western county's outdoors just beyond them. For a new city, the combination is stronger than you'd expect.
+    seoTitle: 'Best Things to Do in and Around Westlake, Florida',
+    metaTitle: 'Best Things to Do in and Around Westlake, Florida',
+    metaDescription:
+      'A practical guide to Westlake amenities, city events, nearby parks, wildlife, equestrian events, and western Palm Beach County day trips.',
+    primaryKeyword: 'things to do in Westlake Florida',
+    secondaryKeywords: ['Westlake Adventure Park access', 'Westlake city events', 'things to do near Westlake FL', 'Loxahatchee National Wildlife Refuge', 'Lion Country Safari', 'Okeeheelee Park'],
+    h1: 'Best Things to Do in and Around Westlake, Florida',
+    heroImage: '/images/westlake/model-pool-palms-lake-hero.webp',
+    heroImageAlt: 'A curving backyard swimming pool with a stone ball fountain and red-leafed plants at a Minto model home in Westlake, with two palms, a black metal fence, a lake and single-story homes beyond under a cloudy sky',
+    heroImageCredit: 'Photo by John Oliver, 2018',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Westlake · Things to Do',
+      deck: 'Resident amenities, public city events, and parks, wildlife and equestrian outings in western Palm Beach County, each labeled by where it is and who can use it.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/westlake/model-pool-palms-lake-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/westlake/model-pool-palms-lake-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A private backyard pool at a Minto model home in Westlake, 2018. It is not the Adventure Park.',
+      primaryCta: { label: 'Explore Westlake', href: '/communities/westlake' },
+      secondaryCta: { label: 'The Westlake local guide', href: '/blog/local-guide-to-westlake-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      matrix: {
+        heading: 'Choose your outing',
+        intro: 'Each option is labeled by where it is and who can use it. Names link to the official source to check before you go.',
+        labels: { priorities: 'What it is', questions: 'Where and who', daily: 'Good for', singer: 'Check first' },
+        rows: [
+          {
+            name: 'Adventure Park',
+            tag: 'In Westlake · community amenity',
+            href: 'https://www.minto.com/usa/new-homes/news/Minto-completes-final-phase-construction-of-its-22-Million-Adventure-Park-in-Westlake~0_2307.html',
+            priorities: 'A community amenity center with pools, play areas, courts, a lodge and event space.',
+            questions: 'Common area of the Westlake Residences Master Homeowners Association; access is set by the association.',
+            daily: 'Residents with access, and their guests where the rules allow.',
+            singer: 'Eligibility, guest rules, hours, access cards and closures in the association documents.',
+          },
+          {
+            name: 'City events and meetings',
+            tag: 'In Westlake · public',
+            href: 'https://www.westlakegov.com/calendar',
+            priorities: 'City-hosted events and public meetings.',
+            questions: 'Locations vary by event.',
+            daily: 'Community events and civic meetings.',
+            singer: 'Dates, locations, admission and programming on the city calendar.',
+          },
+          {
+            name: 'Commons Park',
+            tag: 'Nearby · Royal Palm Beach · public',
+            href: 'https://www.royalpalmbeachfl.gov/554/Commons-Park-Sporting-Center',
+            priorities: 'A village park with paved trails, a canoe and kayak launch, a splash fountain, dog parks, disc golf and fishing docks.',
+            questions: '11600 Poinciana Boulevard, Royal Palm Beach.',
+            daily: 'Walks, a picnic, paddling or a dog outing.',
+            singer: 'Hours, rental rules, water access and event schedules.',
+          },
+          {
+            name: 'Lion Country Safari',
+            tag: 'Nearby · Loxahatchee · ticketed',
+            href: 'https://www.lioncountrysafari.com/plan-your-visit',
+            priorities: 'A drive-through safari and a walk-through park.',
+            questions: '2003 Lion Country Safari Road, Loxahatchee.',
+            daily: 'A day out with animals.',
+            singer: 'Hours, admission, vehicle rules, weather policy and which attractions are open.',
+          },
+          {
+            name: 'Winter Equestrian Festival',
+            tag: 'Nearby · Wellington · seasonal',
+            href: 'https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/',
+            priorities: 'Show-jumping competition at Wellington International.',
+            questions: 'Wellington International, in Wellington.',
+            daily: 'Watching top-level show jumping.',
+            singer: 'Season dates, admission, evening events, seating and parking.',
+          },
+          {
+            name: 'Loxahatchee National Wildlife Refuge',
+            tag: 'Worth the drive · federal refuge',
+            href: 'https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee',
+            priorities: 'A national wildlife refuge in the northern Everglades.',
+            questions: 'Visitor center at 10216 Lee Road, Boynton Beach.',
+            daily: 'Trails and wildlife viewing where open.',
+            singer: 'Entrance fee, trail closures, water levels and rules for the area you plan to visit.',
+          },
+          {
+            name: 'Okeeheelee Park',
+            tag: 'Worth the drive · county park',
+            href: 'https://discover.pbc.gov/parks/Locations/Okeeheelee.aspx',
+            priorities: 'A large county park with a nature center, trails, disc golf, a dog park, fishing, BMX and equestrian facilities.',
+            questions: 'On Forest Hill Boulevard, west of West Palm Beach.',
+            daily: 'Choosing one activity and planning around it.',
+            singer: 'Hours, fees, permits and reservations for the specific activity.',
+          },
+        ],
+        note: 'Hours, fees, access rules and conditions change. The linked official pages are the source of truth.',
+      },
+    },
+    body: `Westlake's recreation is a mix of resident amenities, city-run public events, and western Palm Beach County destinations. The best option depends on whether you want a quick local outing, an HOA-access amenity, or a regional day trip.
 
-## The Adventure Park
+This guide labels each option by where it is and who can use it. Places in Royal Palm Beach, Loxahatchee, Wellington and elsewhere are nearby, not in Westlake, and we don't publish drive times; check the route from your own starting point.
 
-The centrepiece, and genuinely unusual as a community amenity.
+## In Westlake
 
-A resort-scale complex with a large pool, water slides, a splash pad, a climbing wall, open lawn and event space — considerably more than the standard clubhouse-and-pool arrangement most master-planned communities offer.
+### Adventure Park: check access first
 
-**How residents use it:** it functions as the city's social center rather than as an occasional treat. People go weekly or more, and it's where the community's events happen. In a place where nobody has lived very long, that's doing important work — it's how neighbors become acquaintances.
+**What it includes.** Minto says it [completed the final phase](https://www.minto.com/usa/new-homes/news/Minto-completes-final-phase-construction-of-its-22-Million-Adventure-Park-in-Westlake~0_2307.html) of the $22 million Westlake Adventure Park in 2023. Its announcement lists a lagoon pool with a tower slide, a splash pad, an adult lap pool, a lodge with an event lawn, a covered concert pavilion, a food truck court, a BMX pump park, bocce courts, a playground, a dog park and lighted basketball courts. Facilities can change, so treat that list as the developer's description at completion, not a current guarantee.
 
-Access comes with residency through the association. Confirm what's included, what hours apply and what guest arrangements look like.
+**Who may use it.** The Adventure Park isn't a public city park. A 2023 [agreement between the city and the Westlake Residences Master Homeowners Association](https://www.westlakegov.com/sites/default/files/fileattachments/ordinance/7697/resolution_2023-09_-_authorizing_execution_for_the_non-exclusive_permissive_use_agreement.pdf) describes the Adventure Park Amenity Center as one of the association's common areas, and lets the city use the lodge for certain meetings. Access is set by the association.
 
-## The trails and green space
+**What buyers and renters should verify** in the association documents for a specific home:
 
-The master plan weaves paths, green corridors and gathering spaces through the residential villages, which makes walking, running and cycling within the community straightforward and safe.
+- [ ] Whether the home's association membership includes Adventure Park access.
+- [ ] Guest policies, and any guest fees or limits.
+- [ ] Hours, access cards or registration, and how renters gain access.
+- [ ] Rules for each facility, such as pool and court rules.
+- [ ] How the association announces closures, maintenance and programming.
 
-The honest caveat: the landscaping is young. Shade is limited, and it will be years before the tree canopy amounts to much. Early morning and evening are the practical windows, particularly in summer.
+Guest policies, hours, access cards, closures and programming can change, so check the current rules rather than relying on a listing or a past visit.
 
-## The community events calendar
+### Check Westlake's current event calendar
 
-A new city has to manufacture the things an old one accumulates, and Westlake programs accordingly — seasonal events, holiday activities, food trucks, markets and gatherings at the amenity complex.
+The city hosts events and holds public meetings during the year, but dates, locations and programming change. The [City of Westlake calendar](https://www.westlakegov.com/calendar) is the place to see what's actually scheduled, along with any admission or registration details. We don't list specific events here, because a past event isn't a promise of a future one.
 
-For newcomers this is the fastest route into the community. Turn up to two or three and you'll start recognising people, which in a city this new is how the social fabric actually forms.
+### Walking, running and cycling
 
-## The Everglades edge, close by
+Conditions vary by neighborhood. Sidewalks, private and public roads, construction activity, shade, traffic and the route itself all differ from one part of Westlake to another, so walk, run or ride your intended route before you buy, at the time of day you'd use it. Your association can tell you about paths and rules within your neighborhood.
 
-This is Westlake's underrated asset and the thing most residents discover late.
+## Nearby in western Palm Beach County
 
-The **Arthur R. Marshall Loxahatchee National Wildlife Refuge** — the northern Everglades — is a manageable drive west, with a cypress boardwalk, marsh trails along the impoundment dikes, outstanding birding and paddling through sawgrass. Our neighboring guide covers it properly in [the Loxahatchee area's things-to-do](/blog/best-things-to-do-in-loxahatchee-florida).
+### Commons Park, Royal Palm Beach
 
-For a household living in a brand-new house on a paved street, having genuine wilderness twenty minutes away is a real and slightly surreal contrast.
+The Village of Royal Palm Beach's [Commons Park](https://www.royalpalmbeachfl.gov/554/Commons-Park-Sporting-Center), at 11600 Poinciana Boulevard, is a public park with paved trails around a lake, a canoe and kayak launch, an interactive splash fountain, dog parks, disc golf courses, fishing docks, playgrounds and picnic pavilions. Check the village's page for hours, rental rules, water access and event schedules before you go.
 
-## The western county's other outdoors
+### Lion Country Safari, Loxahatchee
 
-- **The natural areas and preserves** scattered through the western county, offering trails and birding with almost no crowds.
-- **Canal fishing** throughout the surrounding area.
-- **Equestrian country** immediately around the city, where riding, shows and events run through the winter season.
+[Lion Country Safari](https://www.lioncountrysafari.com/plan-your-visit), at 2003 Lion Country Safari Road in Loxahatchee, combines a drive-through safari in your own vehicle with a walk-through park. It's a ticketed attraction with vehicle rules: soft-top and open vehicles aren't allowed through the preserve. Check current hours, admission, weather policies, which attractions are open and accessibility on its Plan Your Visit page.
 
-## Royal Palm Beach and Wellington
+### Winter Equestrian Festival, Wellington
 
-East, and where a good deal of the recreation happens for now:
+The [Winter Equestrian Festival](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) brings show-jumping competition to Wellington International each winter season. Wellington International has listed daytime general admission as free on competition days; check its event schedule for the current season's dates, and confirm evening events, reserved seating, parking and any ticketed competitions separately.
 
-- **Royal Palm Beach's** large community park, with a lake swim area, trails, a dog park and an amphitheatre — covered in [that village's guide](/blog/best-things-to-do-in-royal-palm-beach-florida).
-- **Wellington's** equestrian showgrounds and polo, which are genuinely world-class in winter and free or cheap to watch.
-- **Shopping, cinemas and the wider recreation** infrastructure of the established western county.
+## Worth the drive
 
-## Golf in the western county
+### Arthur R. Marshall Loxahatchee National Wildlife Refuge
 
-Not in the city itself, but the surrounding area holds a substantial concentration of courses spanning public, semi-private and private play, several within a short drive.
+The [refuge](https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee) protects part of the northern Everglades. It's a regional outing, not part of Westlake.
 
-For anyone whose week is organized around a round, the supply out here is one of the quieter practical arguments for the western county — generally less expensive and easier to get on than the coastal clubs.
+**Before you go:**
 
-## Further afield
+- [ ] The visitor center is at **10216 Lee Road, Boynton Beach**. Use that address rather than general directions.
+- [ ] The refuge is a federal fee area; check the current entrance fee and pass options.
+- [ ] Check the refuge's alerts for trail conditions, closures, water levels and detours. The refuge has posted closures, including the Cypress Swamp Boardwalk, so don't plan around a trail until you've confirmed it's open.
+- [ ] Check pet rules, and the rules for activities such as paddling, fishing and biking. Access and regulations vary by area of the refuge.
+- [ ] Wildlife sightings and trail conditions aren't guaranteed; bring water and sun protection.
 
-- **The coast**, for beaches, though it's a real drive.
-- **Downtown West Palm Beach**, for the arts complex and city amenities.
-- **Okeeheelee Park**, east, with extensive recreation and water sports.
+### Okeeheelee Park
 
-## Cycling and running the community
+[Okeeheelee Park](https://discover.pbc.gov/parks/Locations/Okeeheelee.aspx) is a large Palm Beach County park on Forest Hill Boulevard with many separate facilities. Pick one activity and plan around it:
 
-One genuine benefit of a new master plan: the internal roads and paths were designed with pedestrians and cyclists in mind, which is unusual in Florida.
+- **The Okeeheelee Nature Center** and its trails.
+- **Walking and cycling paths.**
+- **Disc golf** and a **dog park**.
+- **Fishing**, and boat access where permitted.
+- **Equestrian facilities and trails**.
+- **The BMX track**.
+- **Water-ski facilities**, which aren't open-access; skiing there requires arrangements set by the county or its operators.
 
-Wide sidewalks, connected paths, low internal traffic speeds and no through routes make the community genuinely usable for running, cycling and walking a dog — safer than most established suburbs, where footways were an afterthought.
+Several activities need permits, fees, reservations, equipment or a provider's arrangements, so check the county page for the one you want before you go.
 
-The constraint is shade and heat rather than safety. Early morning and after sunset are the practical windows for much of the year, and the loop options within the community are limited enough that some residents drive out to the western roads for longer distances.
+## Planning any outing
 
-## Watching the equestrian season
+Check the forecast, the heat index and the lightning risk, and look at the official page for closures or event changes before you leave. Bring water, and plan outdoor time around the conditions on the day.
 
-Ten minutes away, one of the world's significant winter equestrian circuits runs from roughly January through April.
-
-A great deal of it is free or inexpensive to watch, the standard is genuinely world-class, and it is one of the more remarkable things happening near this part of the county. Most Westlake residents have never been, which is a shame — it costs almost nothing and puts on a proper spectacle.
-
-## Seasonal timing
-
-**November through April** is the reward: comfortable temperatures, fewer mosquitoes, the best window for the refuge and the outdoors, and the community events calendar at full strength.
-
-**Summer** is hot, humid and stormy by afternoon, with mosquitoes a genuine factor this far west. The pool complex earns its keep in these months, and outdoor activity happens early.
-
-## The pool as year-round infrastructure
-
-Worth framing properly, because northern buyers underestimate it.
-
-In this part of Florida a good pool complex isn't a summer amenity — it's usable most of the year and genuinely essential from May through September, when outdoor activity that isn't in water becomes unpleasant by mid-morning.
-
-Households that use it treat it as the main reason the association fee makes sense. Households that don't tend to be the ones questioning the fee.
-
-It's worth being honest with yourself about which you'll be before buying into an amenity-led community, because the recreation is a substantial part of what you're paying for.
-
-## Where to start
-
-Use the amenity complex in your first week — it's how you'll meet people — and then drive out to the refuge on the first cool morning.
-
-Those two experiences frame what living here actually is: a planned community with genuine recreation built in, on the edge of one of the largest wild landscapes in the eastern United States. Once you've done both, the [quieter local finds](/blog/hidden-gems-in-westlake-florida) are where the area starts to feel like home.`,
+For more, read the [Westlake local guide](/blog/local-guide-to-westlake-florida), [hidden gems in and around Westlake](/blog/hidden-gems-in-westlake-florida), [places to eat, drink and hang out](/blog/best-places-to-eat-drink-hang-out-in-westlake-florida) and [what living in Westlake is really like](/blog/what-its-really-like-living-in-westlake-florida).`,
     faqs: [
-      { q: "What is there to do in Westlake?", a: "The community's Adventure Park is the centrepiece — a resort-scale complex with a large pool, water slides, splash pad, climbing wall and event space that functions as the city's social center. Beyond it, trails and green space within the community, a programmed events calendar, and the western county's outdoors just beyond the boundary." },
-      { q: "Is the Adventure Park included with a Westlake home?", a: "Access comes with residency through the association. Confirm exactly what is included, what hours apply and what the guest arrangements are, since these are association matters rather than city ones and the details are worth having in writing before you buy." },
-      { q: "Are there trails in Westlake?", a: "The master plan weaves paths, green corridors and gathering spaces through the residential villages, making walking, running and cycling straightforward and safe. The honest caveat is that landscaping is young — shade is limited and will be for years, so early morning and evening are the practical windows in summer." },
-      { q: "How close is Westlake to the Everglades?", a: "The Arthur R. Marshall Loxahatchee National Wildlife Refuge is a manageable drive west, with a cypress boardwalk, marsh trails, outstanding birding and paddling through sawgrass. For a household in a brand-new house on a paved street, having genuine wilderness twenty minutes away is a real and slightly surreal contrast." },
-      { q: "What do Westlake residents do for recreation outside the community?", a: "Royal Palm Beach's large community park with its lake swim area, trails and amphitheatre; Wellington's equestrian showgrounds and polo, which are world-class in winter and cheap or free to watch; the western county's natural areas and canal fishing; and the coast when the drive is worth it." },
-      { q: "What should a new Westlake resident do first?", a: "Use the amenity complex in the first week, because it is how you meet people in a city where nobody has lived very long. Then drive out to the wildlife refuge on the first cool morning. Those two frame what living here actually is." },
+      { q: 'What is there to do inside Westlake?', a: "Inside Westlake there are city-hosted events and public meetings, listed on the city's calendar, and the Adventure Park, a community amenity center whose access is set by the Westlake Residences Master Homeowners Association. Walking and cycling conditions vary by neighborhood, so try your own route. Many larger outings, such as parks, wildlife areas and equestrian events, are nearby in western Palm Beach County rather than in the city." },
+      { q: 'Is Adventure Park open to the public?', a: "No. A 2023 agreement between the City of Westlake and the Westlake Residences Master Homeowners Association describes the Adventure Park Amenity Center as an association common area, and access is set by the association. Buyers and renters should check the association documents for eligibility, guest rules, hours and access cards for the specific home." },
+      { q: 'Where can Westlake residents find current events?', a: "On the City of Westlake's official calendar, which lists city events and public meetings with their dates and locations. Community association events are announced through the association's own communications. Dates and programming change, so check before you go." },
+      { q: 'What nearby outdoor destinations are worth considering?', a: "Nearby options include Commons Park in Royal Palm Beach, with trails, a kayak launch, a splash fountain, dog parks and disc golf, and Lion Country Safari in Loxahatchee. Larger regional outings include the Arthur R. Marshall Loxahatchee National Wildlife Refuge and Okeeheelee Park. Check each official page for hours, fees and closures." },
+      { q: 'Can I visit the Loxahatchee National Wildlife Refuge?', a: "Yes. The visitor center is at 10216 Lee Road in Boynton Beach, and the refuge is a federal fee area. Trails, water levels and closures change, and the refuge has posted closures including the Cypress Swamp Boardwalk, so check the U.S. Fish and Wildlife Service page for current conditions, fees and rules for the area you plan to visit." },
+      { q: 'What should I verify before planning a Wellington or Okeeheelee outing?', a: "For the Winter Equestrian Festival in Wellington, check Wellington International's event schedule for the season's dates, admission, evening events, seating and parking. For Okeeheelee Park, check the county's page for hours, fees, permits and reservations for the specific activity, since several, including water skiing, aren't open-access." },
     ],
-    internalLinks: ["hidden-gems-in-westlake-florida", "best-places-to-eat-drink-hang-out-in-westlake-florida", "local-guide-to-westlake-florida"],
-    funFact: "Westlake's amphitheater and adventure park opened before most of the homes were finished — the developer prioritized amenities first to seed community culture before residents arrived. That sequence is unusual and it worked: Westlake has an unusually active events calendar for a city that's barely a decade old.",
+    internalLinks: ['local-guide-to-westlake-florida', 'hidden-gems-in-westlake-florida', 'best-places-to-eat-drink-hang-out-in-westlake-florida', 'what-its-really-like-living-in-westlake-florida'],
+    funFact: "A 2023 agreement between the City of Westlake and the master homeowners association allows the city to use the Adventure Park's lodge for certain meetings, while the Adventure Park itself remains an association common area. If amenity access matters to you, read the association documents for the specific home before you buy.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'who-should-move-to-westlake-florida',
