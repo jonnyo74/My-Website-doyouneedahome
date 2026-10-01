@@ -14715,8 +14715,8 @@ For more, read the [Westlake local guide](/blog/local-guide-to-westlake-florida)
         afterIntro: true,
         items: [
           { title: 'The property tax bill', text: "City, county, school and other millage, plus non-ad valorem assessments from the Seminole Improvement District and the city's residential solid waste assessment. The amounts depend on the parcel." },
-          { title: 'Reassessment and new-construction timing', text: "A purchase resets the assessed value, and a newly built home's first bill may reflect only the land. Budget for the fully assessed bill, not the seller's or the first one you see." },
-          { title: 'Master and neighborhood HOA dues', text: 'Many homes belong to a master association and a neighborhood association. Fees, reserves and rules differ by neighborhood.' },
+          { title: 'Reassessment and new-construction timing', text: "A change in ownership can remove the seller's exemptions and assessment limits, and a new home's first bill may reflect only the land or a partly finished house. Don't budget from the seller's bill or the first one you see." },
+          { title: 'Association dues', text: 'Some homes may have a master association, a neighborhood association, or both. Verify every association tied to the specific property, and its fees, reserves and rules.' },
           { title: 'Insurance', text: 'Homeowners, wind and flood quotes depend on the property, its features and its flood zone. Get real quotes for the address.' },
           { title: 'Utilities and driving', text: 'SID water, wastewater and reuse water, FPL electricity, internet, and the miles you drive for work, errands and appointments.' },
         ],
@@ -14729,6 +14729,8 @@ For more, read the [Westlake local guide](/blog/local-guide-to-westlake-florida)
     body: `What a Westlake home costs to own depends on the address. The purchase price is one part. The rest is the property tax bill and the assessments on it, association dues, insurance, utilities and the driving your routine requires. None of these is the same for every home, so this guide explains each one and how to get the real figures before you commit.
 
 We don't publish price ranges, fee averages or appreciation figures here. Ask the builders and your agent for current pricing and recent sales of comparable homes.
+
+Recent closed-sale medians have moved modestly in some Westlake segments. Because the number of sales can be small and the mix of new construction and resale homes changes, a single month is not a reliable citywide price trend. Request current comparable closed sales for the specific home type and neighborhood.
 
 ## What's on a Westlake property tax bill
 
@@ -14744,44 +14746,44 @@ A Westlake tax bill has two kinds of charges, both collected by the [Palm Beach 
 
 Many Florida master-planned communities finance infrastructure through a community development district that issues bonds repaid by homeowners. The City of Westlake's [history](https://www.westlakegov.com/community/page/history-incorporation-westlake) describes a different arrangement: the developer paid for the roads, landscaping, water, sewer, stormwater and reuse-water systems and turned them over to the SID to operate and maintain.
 
-That doesn't make the SID line on a tax bill zero. Owners still pay SID assessments. Get the amount for the specific parcel from the current bill and a lien search, and ask in writing about any other assessment or obligation tied to the property.
+That doesn't make the SID line on a tax bill zero, and SID charges aren't a "CDD fee." Owners still pay SID assessments, and the charges aren't necessarily identical from one home to the next. For the exact parcel, confirm the non-ad valorem line items on the current bill, any remaining assessment obligations, how they're handled at payoff or transfer, and the lien information, through a property assessment and lien search (see the SID's [assessment and lien search guidelines](https://www.seminoleimprovementdistrict.com/files/documents/SID%20-%20Assessment%20and%20Lien%20Search%20Request%20Guidelines%202021-07-13.pdf) and its [Who to Call](https://www.seminoleimprovementdistrict.com/index.php/who-to-call) page). Ask in writing about any other assessment or obligation tied to the property.
 
 ## The reassessment and new-construction timing
 
-**The seller's tax figure isn't yours.** Florida caps how much the assessed value of a homestead can rise each year (Save Our Homes), and non-homestead property has its own cap. When a home sells, the assessed value generally resets toward market value for the next tax year, so a seller's bill can understate what you'll pay. The [Property Appraiser](https://pbcpao.gov/faq.htm) explains the caps and the reset.
+**The seller's tax figure isn't yours.** Florida limits how much the assessed value of a homestead can rise each year (Save Our Homes), and non-homestead property has its own limit. A change in ownership can remove the prior owner's exemptions and assessment limitations, and the Property Appraiser may reassess the home toward its just (market) value, so a seller's bill can understate what you'll pay. Estimate your taxes using your intended purchase price, your likely ownership date and whether you'll be eligible for homestead. The [Property Appraiser's residential page](https://pbcpao.gov/departments/residential.htm) and [FAQ](https://pbcpao.gov/faq.htm) explain how property is valued, and the [Tax Collector](https://www.pbctax.gov/taxes/property-tax/) explains the bill.
 
-**New construction has a timing wrinkle.** Property is valued as of January 1. If a house isn't substantially complete on that date, the next bill may reflect only the land, and the following year's bill, with the finished house assessed, can be much higher. Ask what a fully assessed bill on a comparable finished home looks like.
+**New construction has a timing wrinkle.** Property is valued based on its condition as of January 1. Depending on how far along a house is on that date, the next bill may reflect land value or a partially completed improvement, and a later bill may reflect the finished home. Ask what a fully assessed bill on a comparable finished home looks like rather than budgeting from the first bill.
 
 **Homestead exemption** applies only to a permanent residence you own and occupy on January 1, with a filing deadline of March 1; see the Property Appraiser's [homestead page](https://pbcpao.gov/homestead-exemption.htm). If you're moving from another Florida homestead, ask the Property Appraiser about portability.
 
 ## Association dues
 
-Many Westlake homes belong to a master association and a neighborhood or sub-association, each with its own budget and fee. Before you commit, get:
+Some homes may have a master association, a neighborhood association, or both; verify every association tied to the specific property. Before you commit, get:
 
 - The current fee for every association the home belongs to, and how often each is billed.
-- The budgets, reserve information and any recent or planned special assessments.
-- Transfer, application and capital contribution fees due at closing.
-- The rules on rentals, parking, pets, exterior changes and amenity access.
+- The budgets, reserve information where available, and any pending or planned special assessments.
+- Application, transfer and capital contribution fees due at closing.
+- The rules, including rental and pet restrictions, parking, exterior changes and amenity access.
 - The estoppel certificate, which states what's owed as of closing.
 
 ## Insurance
 
 Premiums depend on the specific property: its construction and roof, how its windows and doors are protected, its wind mitigation features, its flood zone and the coverage you choose. Ask whether a wind mitigation inspection applies, and get real quotes for the address before you commit.
 
-Flood damage generally isn't covered by a homeowners policy; flood insurance is a separate policy. Check the property's flood zone and what your lender requires. Florida's Department of Financial Services has a [homeowners insurance overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview).
+A newer home isn't necessarily cheaper to insure; the quote for the specific property is what counts. Flood coverage is generally separate from a standard homeowners policy. Evaluate it for the property, considering the flood zone, elevation, your lender's requirements, the coverage you choose and the deductible; see the state's [flood insurance information](https://www.myfloridacfo.com/division/ica/fullcoverage/flood) and its [homeowners insurance overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview).
 
 ## Utilities
 
 - **Water, wastewater and reuse water** come from the SID. Starting service involves an online application, a start-up fee and a deposit; see the SID's [utility FAQ](https://sid.myutilitydirect.com/customerportal/home/faq/) for current amounts.
-- **Electricity** is from [FPL](https://www.fpl.com/). Summer air conditioning usually drives the highest bills; ask the seller or builder for typical usage if it's available.
+- **Electricity** is from [FPL](https://www.fpl.com/); confirm service for the address. Usage depends on the home and the household, so ask the seller for recent bills if they're available rather than relying on an average.
 - **Internet** options and prices vary by address, so check providers for the specific home.
 
 Our [Westlake local guide](/blog/local-guide-to-westlake-florida) covers setting up each service.
 
 ## Everyday costs
 
-- **Driving.** Westlake is in western Palm Beach County, and most residents drive for work, errands, medical care and dining. Count your real mileage for the routes you'd use.
-- **Groceries and errands.** A Publix-anchored shopping center opened on Seminole Pratt Whitney Road in 2023; more retail has been approved, and approval isn't the same as open. Many errands still mean a drive.
+- **Driving.** Westlake is in western Palm Beach County. Count the real mileage for the routes your own routine requires: work, errands, medical care and dining.
+- **Groceries and errands.** A Publix-anchored shopping center opened on Seminole Pratt Whitney Road in 2023. Other retail has been approved, and approval isn't the same as open; the city lists approvals on its [development orders](https://www.westlakegov.com/community/page/approved-development-orders) page.
 - **Maintenance.** Even a new home needs lawn, pest control, pool service if there's a pool, and filters and routine upkeep. Some of this may be covered by an association; check what yours includes.
 
 ## New construction or resale: what changes
@@ -14793,36 +14795,35 @@ Our [Westlake local guide](/blog/local-guide-to-westlake-florida) covers setting
 
 | | Buying new from a builder | Buying a resale |
 |---|---|---|
-| Price | Base price plus options, upgrades and lot premiums, if any. | The negotiated price. |
-| Closing costs | Set out in the builder contract; read who pays what. | Negotiated between buyer and seller. |
-| Warranty | Whatever the builder contract specifies. | Any remaining builder warranty, if transferable, or none. |
-| Taxes | The first bill may be land only; budget for the fully assessed bill. | The bill resets after the sale; the seller's exemptions don't carry over. |
-| Condition | New systems and finishes. | Check roof age, systems and maintenance history with an inspection. |
+| Price | Base price, lot premium, structural options, design selections, lender incentives and closing costs can all vary. | The negotiated purchase price, which can be affected by inspection findings, condition and seller concessions. |
+| Warranty | Verify the builder's specific warranty documents; don't assume coverage. | Any remaining builder warranty, if it transfers; verify the terms. |
+| Taxes | The first bill may reflect land or a partly finished house; budget for a fully assessed bill. | The seller's exemptions and assessment limitations don't automatically transfer to you. |
+| Inspection | Arrange an independent inspection of a completed or near-complete home. | Arrange an independent inspection, including the roof, systems and maintenance history. |
 
 ## Running your own number
 
-- [ ] Get the current tax bill for the parcel, and estimate the bill at a reset assessment without the seller's exemptions.
+- [ ] Get the current tax bill for the parcel, and estimate your own bill using your intended purchase price, likely ownership date and homestead eligibility, without the seller's exemptions.
 - [ ] For new construction, ask what a fully assessed bill on a comparable finished home looks like.
-- [ ] Confirm the SID and solid waste assessments on the bill, and request a property assessment and lien search through your title company.
-- [ ] Get every association's fee, budget, reserves and closing fees, and the estoppel certificate.
+- [ ] Confirm the SID and solid waste line items on the bill, any remaining assessment obligations, and the lien information, through a property assessment and lien search requested by your title company.
+- [ ] Get every association's fee, budget, rules, reserve information, closing fees and pending assessments, and the estoppel certificate.
 - [ ] Get homeowners, wind and flood insurance quotes for the address.
 - [ ] Add utilities, maintenance and driving.
-- [ ] Add it up as a monthly figure, together with your mortgage payment, and compare that across the homes on your list.
+- [ ] Add it up as a monthly figure, together with your mortgage payment, and check it against the actual closing disclosures before you commit.
 
 This is a budgeting checklist, not legal, tax, insurance or financial advice. Confirm each item with the Property Appraiser, the Tax Collector, the associations, a licensed insurance agent and your lender.
 
 ## The bottom line
 
-Westlake's costs are knowable in advance: the tax bill and its assessments, the association documents, insurance quotes and utility setup are all available for a specific address. Collect them before you compare homes, and compare the monthly total, not the sticker price.
+Westlake's costs can be reviewed in advance: the tax bill and its assessments, the association documents, insurance quotes, utility setup and the closing disclosures are all available for a specific address. Collect them before you compare homes, and compare the monthly total, not the sticker price.
 
 For more, read [what living in Westlake is really like](/blog/what-its-really-like-living-in-westlake-florida), the [neighborhood and home-collection guide](/blog/best-neighborhoods-in-westlake-florida), the [pros and cons](/blog/pros-and-cons-of-living-in-westlake-florida) and [Westlake vs nearby cities](/blog/westlake-vs-nearby-cities).`,
     faqs: [
       { q: 'What is on a Westlake property tax bill?', a: "Ad valorem taxes from the county, school district, City of Westlake and other taxing authorities, plus non-ad valorem assessments. Those include Seminole Improvement District (SID) assessments and the city's residential solid waste assessment. The amounts depend on the parcel, so check the current bill for the specific address." },
-      { q: 'Does Westlake have a CDD?', a: "Westlake's infrastructure is operated and maintained by the Seminole Improvement District, a special district whose boundaries match the city's. According to the city, the developer paid for the roads, water, sewer, stormwater and reuse-water systems and turned them over to the SID, rather than financing them with bonds the way many CDD communities do. Owners still pay SID assessments on their tax bills, so get the amount for the exact parcel." },
-      { q: 'Why might the taxes on a new Westlake home go up in the second year?', a: "Property is valued as of January 1. If a new house isn't substantially complete on that date, the next bill may reflect only the land, and the following year's bill, with the finished house assessed, can be much higher. A purchase also resets the assessed value, so the seller's bill isn't a guide to yours." },
-      { q: 'What HOA fees should I expect in Westlake?', a: "It varies by neighborhood. Many homes belong to a master association and a neighborhood association, each with its own fee. Ask for every association's current fee, budget, reserves, closing fees and rules, and the estoppel certificate, for the exact address." },
-      { q: 'Is homeowners insurance cheaper in Westlake?', a: "It depends on the property, not the city. Premiums reflect the home's construction, roof, opening protection, wind mitigation features, flood zone and the coverage chosen. Flood is usually a separate policy. Get real quotes for the specific address." },
-      { q: 'How do I estimate the monthly cost of a specific Westlake home?', a: 'Add the mortgage payment to the property tax bill at a reset assessment (including SID and solid waste assessments), every association fee, homeowners, wind and flood insurance, utilities, maintenance and driving. Compare that monthly total across the homes you are considering. This is a budgeting approach, not financial advice.' },
+      { q: 'Does Westlake have a CDD?', a: "Westlake's infrastructure is operated and maintained by the Seminole Improvement District (SID), a special district whose boundaries match the city's, not a typical community development district. According to the city, the developer paid for the roads, water, sewer, stormwater and reuse-water systems and turned them over to the SID. Owners still pay SID assessments, which appear on the tax bill as non-ad valorem charges. Check the tax bill and a parcel-specific assessment and lien search for the exact home." },
+      { q: 'Why might taxes change after purchase?', a: "A change in ownership can remove the seller's exemptions and assessment limitations, and the Property Appraiser may reassess the home toward its market value. Property is also valued based on its condition on January 1, so a new home's first bill may reflect land or a partly finished house. Estimate your taxes using your purchase price, ownership date and homestead eligibility." },
+      { q: 'What HOA fees should I expect in Westlake?', a: "It varies. Some homes may have a master association, a neighborhood association, or both. Ask for every association's current fee, budget, rules, reserve information, closing fees and pending assessments, and the estoppel certificate, for the exact address." },
+      { q: 'Is insurance cheaper on a newer home?', a: "Not necessarily. Premiums reflect the specific home's construction, roof, opening protection, wind mitigation features, flood exposure and the coverage and deductibles chosen. Flood coverage is generally separate from a homeowners policy. Get property-specific quotes before you rely on any savings." },
+      { q: 'What should I review before buying?', a: "The current tax bill and your own estimate; the SID and solid waste line items and a parcel-specific assessment and lien search; every association's fees, rules, budget and estoppel certificate; homeowners, wind and flood insurance quotes; utility setup; and the actual closing figures. This is a budgeting checklist, not legal, tax or financial advice." },
     ],
     internalLinks: ['local-guide-to-westlake-florida', 'what-its-really-like-living-in-westlake-florida', 'best-neighborhoods-in-westlake-florida', 'pros-and-cons-of-living-in-westlake-florida', 'westlake-vs-nearby-cities'],
     funFact: "According to the City of Westlake, the developer paid for Westlake's roads, water, sewer, stormwater and reuse-water systems and turned them over to the Seminole Improvement District, rather than financing them with bonds repaid by homeowners. Owners still pay SID assessments on their tax bills, so check the amount for the specific parcel before you buy.",
