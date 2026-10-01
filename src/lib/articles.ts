@@ -14838,124 +14838,91 @@ For more, read [what living in Westlake is really like](/blog/what-its-really-li
     cityName: 'Westlake',
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems in and Around Westlake, Florida",
-    metaTitle: "Hidden Gems Around Westlake, Florida",
-    metaDescription: "Westlake is brand-new, so its gems are its amenities and the nature nearby — from the Adventure Park to the Loxahatchee refuge and dark western skies.",
-    primaryKeyword: "hidden gems in Westlake Florida",
-    secondaryKeywords: ["Westlake secret spots", "things near Westlake", "Westlake Adventure Park"],
-    h1: "Hidden Gems in and Around Westlake, Florida",
-    body: `A city eight years old doesn't have decades-old secrets. What it has is a set of advantages residents discover slowly — several of which have nothing to do with the community itself and everything to do with where it sits.
+    seoTitle: 'Hidden Gems in and Around Westlake, Florida',
+    metaTitle: 'Hidden Gems in and Around Westlake, Florida',
+    metaDescription:
+      "Public nature areas, wildlife refuges, equestrian events and city events in and around Westlake, Florida, with what to check about permits, passes and access before you go.",
+    primaryKeyword: 'hidden gems in Westlake Florida',
+    secondaryKeywords: ['J.W. Corbett Wildlife Management Area', 'Hungryland Boardwalk', 'Loxahatchee National Wildlife Refuge', 'Wellington International spectators', 'Westlake city events'],
+    h1: 'Hidden Gems in and Around Westlake, Florida',
+    heroImage: '/images/westlake/model-lanai-lake-dusk-hero.webp',
+    heroImageAlt: 'A screened pool and spa with a light stone deck and two lounge chairs at a Minto model home in Westlake, looking past palms to a lake and a row of houses under an evening sky',
+    heroImageCredit: 'Photo by John Oliver, 2018',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Westlake · Hidden Gems',
+      deck: 'A short list of public nature areas, refuge trails, equestrian events and city events in and around Westlake, with what to check before you go.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/westlake/model-lanai-lake-dusk-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/westlake/model-lanai-lake-dusk-mobile.webp', width: 1200, height: 800 },
+      panelCaption: "A lake at dusk from a Minto model home's screened pool in Westlake, 2018. The places in this guide are public destinations; this private model isn't one of them.",
+      primaryCta: { label: 'Explore Westlake', href: '/communities/westlake' },
+      secondaryCta: { label: 'The Westlake local guide', href: '/blog/local-guide-to-westlake-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+    },
+    body: `Westlake was incorporated in 2016 and is still developing, so many of its most useful finds are a mix of city events, public outdoor areas, and western Palm Beach County destinations. Not everything here is inside city limits, and we label each one.
 
-The headline amenities are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-westlake-florida). These are the rest.
+Westlake's in-community amenities are covered in our guide to [things to do in and around Westlake](/blog/best-things-to-do-in-westlake-florida). This page is a shorter list of public places and events worth knowing about.
 
-## The community groups
+## J.W. Corbett Wildlife Management Area
 
-The fastest route into a new city, and easy to miss.
+The Florida Fish and Wildlife Conservation Commission manages [J.W. Corbett Wildlife Management Area](https://myfwc.com/recreation/lead/j-w-corbett/things-to-do/), a large public wildlife area in western Palm Beach County. Two boardwalks are the most concrete reasons to go:
 
-Because everyone arrived recently, the community's informal networks — neighborhood groups, interest clubs, the pages where people post about contractors, lost pets and things for sale — are unusually active and unusually welcoming.
+- **The Bald Cypress Boardwalk and Trail**, a 1.2-mile walk through cypress swamp, pine flatwoods and hardwood hammock. FWC describes it as far from the hunting area and open year-round.
+- **The Hungryland Boardwalk**, which FWC also describes as well removed from hunting zones and open year-round. FWC's directions reach it through the area's south entrance on Seminole Pratt Whitney Road.
 
-They're where you'll find a plumber who actually turns up, hear about an event before it's advertised, and meet people without an introduction. Ask a neighbor which are worth joining in your first week.
+**Before you visit,** check FWC's [planning page](https://myfwc.com/recreation/lead/j-w-corbett/planning-your-visit/). FWC requires a daily-use permit to enter unless you hold a Wildlife Management Area permit, and hunting seasons, area rules and closures apply. Check the current map, rules and hunt calendar, and stay on designated trails. Wildlife sightings aren't guaranteed.
 
-## The western sky
+## Arthur R. Marshall Loxahatchee National Wildlife Refuge
 
-The genuine standout, and the thing residents mention most once they've been here a while.
+The [refuge](https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee/visit-us) protects part of the northern Everglades, and its visitor center is at 10216 Lee Road in Boynton Beach. It's a nearby wildlife outing, not part of Westlake.
 
-Out this far from the coastal light, the night sky is dramatically better than anywhere east. On a clear dry-season evening you can see a serious number of stars from your own street — and from the darker edges of the area, considerably more.
+The U.S. Fish and Wildlife Service lists [wildlife watching](https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee/visit-us/activities/wildlife-watching) among the refuge's activities, along with designated trails, refuge programs, and fishing and paddling in designated areas. The Cypress Swamp Boardwalk behind the visitor center has been listed as closed, so check whether it's open before you plan around it.
 
-Sunsets run the full width of an open horizon, and summer storm systems building over the Everglades are genuinely spectacular from a distance.
+**Before you visit,** check the refuge's pages for entrance passes, hours, trail rules and closures, weather and seasonal conditions. Watch wildlife from a distance: don't approach, feed or pursue animals.
 
-It costs nothing and it's available most evenings. Newcomers from the coast notice it within a week and never quite get over it.
+## Wellington International, for non-riders
 
-## The refuge, twenty minutes west
+You don't need a horse to watch show jumping. During the [Winter Equestrian Festival](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/), Wellington International, in Wellington, hosts competition that spectators can attend. Its [spectator FAQs](https://www.wellingtoninternational.com/winter-equestrian-festival/wef-spectator-faqs/) have listed free general admission and free parking for daytime shows, with paid parking for some evening events; treat that as current only when the official page says so.
 
-Covered properly in [the neighboring area's guide](/blog/best-things-to-do-in-loxahatchee-florida), but it belongs here as the thing Westlake residents most consistently underuse.
+Check the live schedule for the season's dates, plus spectator rules, admission, parking and event-specific details, before you go.
 
-Living in a brand-new house on a paved street with a resort pool, twenty minutes from genuine Everglades wilderness with alligators and roseate spoonbills, is an odd and rather wonderful combination. Most residents go once and mean to go back.
+## Westlake's civic-event calendar
 
-Go at dawn in the dry season. It is a completely different world from the one you drove out of.
+The City of Westlake hosts public events during the year. Its [special events page](https://www.westlakegov.com/community/page/special-events) has featured events such as an Independence Day celebration (FourthFest), SpringFest and a holiday market, alongside smaller community meetings. Offerings, dates and locations change, so check the page for what's currently scheduled.
 
-## Being early, as an actual advantage
+## Fishing: only where access is public and legal
 
-Not a place, and worth naming because it's temporary.
+Don't assume a canal or lake bank is open to the public. Many are private, restricted or part of drainage infrastructure. Fish only where access is confirmed, such as designated areas at J.W. Corbett, which has stocked ponds, or designated areas at the refuge, and follow each site's rules.
 
-Right now, the community is small enough that people know each other, the amenity complex is rarely crowded, and there's genuine influence available to anyone who turns up — to the association, to community groups, to how things get organized.
+You'll generally need a Florida fishing license unless you're exempt; check FWC's [license guide](https://myfwc.com/license/recreational/do-i-need-one/) and the current [freshwater regulations](https://myfwc.com/fishing/freshwater/regulations/) before you go.
 
-In fifteen years none of that will be true. Residents who engage now are shaping what the place becomes, which is a genuinely unusual opportunity and one that closes on its own.
+## Before you go
 
-## The equestrian world next door
+- [ ] Check the official page for hours, access, parking, permit or pass requirements, closures, hunt days and event schedules.
+- [ ] Check the weather and heat, and plan around storms.
+- [ ] Stay on designated public paths and access points.
+- [ ] Respect wildlife, and stay off private property and restricted areas.
+- [ ] Bring water, sun protection and what you need for the conditions.
 
-Immediately surrounding the city is one of the densest concentrations of horse property in the country, and neighboring Wellington hosts an internationally significant winter season.
-
-You don't need a horse to benefit. Shows, events and clinics run through the winter, many free or inexpensive to watch, and the standard is genuinely world-class. It's ten minutes away and most Westlake residents have never been.
-
-## The canal fishing
-
-The western county's canal network runs throughout the surrounding area and holds bass and panfish, fishable from banks with minimal equipment.
-
-It's uncrowded because it isn't a destination, and it's the sort of thing you can do for an hour on a weekday evening.
-
-## The roadside stands
-
-Through the cooler months, seasonal produce stands appear along the western roads — informal, cash-based, unadvertised, and genuinely good.
-
-What's available changes week to week, and produce picked that morning a few miles away is not something a supermarket matches. Buy when you see them; they're gone the following week.
-
-## The quiet, at the edges
-
-Within the community, the soundscape is ordinary suburban. But the city sits against open land, and the edges are genuinely quiet in a way that surprises people.
-
-Walk to a perimeter at dusk and what you'll hear is insects, birds and wind. That contrast — a few minutes from a pool complex full of children — is one of the more distinctive things about living here.
-
-## The trails at the community edges
-
-Where the paths run out to the perimeter, the character changes — fewer people, more open ground, and views across land that hasn't been developed.
-
-They're the closest thing to a country walk available without driving, and they're busiest near the amenity complex and essentially empty at the far ends. Early morning is the window, and it's the easiest daily habit to pick up here.
-
-## Watching it get built
-
-An unusual pleasure, and residents do report it.
-
-Seeing streets extend, buildings go up, businesses open and a city assemble itself in real time is genuinely interesting to watch, particularly for anyone who has only ever lived in finished places.
-
-It won't last. Enjoy it while it's happening rather than counting the days until it stops.
-
-## The morning light on the open land
-
-Small, free, and specific to sitting where this city sits.
-
-At the western and northern edges, where the community meets open ground, the early light across former grove and pasture land is genuinely lovely — mist in the cooler months, birds working the ditches, and a horizon with nothing on it.
-
-It takes ten minutes and a willingness to be outside before seven. In a community where most people's mornings are a garage and a commute, it's the easiest thing on this list to miss.
-
-## The neighbors' expertise
-
-An unusual feature of a new community: everyone moved recently, from somewhere else, and a remarkable range of backgrounds ends up on the same street.
-
-Because nobody has established social territory, people talk. Residents report finding tradespeople, advice, help and friendships through their own street far more readily than they did in established neighborhoods where the patterns were already set.
-
-It is temporary — communities settle — and it counts as a genuine advantage of arriving early.
-
-## Making the most of these
-
-The pattern here is that Westlake's best features mostly aren't in Westlake. The community provides the house and the recreation; the surroundings provide the sky, the wilderness, the horses and the quiet.
-
-Residents who treat the western county as their actual neighborhood — rather than treating the community as an island with a long drive attached — get considerably more out of living here.
-
-For the practical side of settling in, our [guide to operating here](/blog/local-guide-to-westlake-florida) covers the logistics.`,
+For the practical side of living here, see the [Westlake local guide](/blog/local-guide-to-westlake-florida).`,
     faqs: [
-      { q: "What is the best thing about Westlake that nobody mentions?", a: "The western sky. Out this far from coastal light the night sky is dramatically better than anywhere east, sunsets run the full width of an open horizon, and summer storm systems building over the Everglades are spectacular from a distance. Newcomers from the coast notice within a week and never quite get over it." },
-      { q: "What do Westlake residents underuse most?", a: "The wildlife refuge twenty minutes west. Living in a new house with a resort pool that close to genuine Everglades wilderness with alligators and roseate spoonbills is an odd and rather wonderful combination — and most residents go once and mean to go back. Go at dawn in the dry season." },
-      { q: "Is there an advantage to buying in Westlake early?", a: "A temporary one worth naming. The community is currently small enough that people know each other, the amenity complex is rarely crowded, and there is genuine influence available to anyone who engages with the association and community groups. In fifteen years none of that will be true." },
-      { q: "Can I enjoy the equestrian scene without a horse?", a: "Easily. Immediately around the city is one of the densest concentrations of horse property in the country, and neighboring Wellington hosts an internationally significant winter season with shows, events and clinics — many free or inexpensive to watch, at a genuinely world-class standard, ten minutes away." },
-      { q: "Is Westlake quiet?", a: "Within the community the soundscape is ordinary suburban, but the city sits against open land and the edges are genuinely quiet in a way that surprises people. Walk to a perimeter at dusk and you will hear insects, birds and wind — a few minutes from a pool complex full of children." },
-      { q: "How do I get the most out of living in Westlake?", a: "Treat the western county as your actual neighborhood rather than treating the community as an island with a long drive attached. Westlake's best features mostly are not in Westlake — the community provides the house and recreation; the surroundings provide the sky, the wilderness, the horses and the quiet." },
+      { q: 'What outdoor areas near Westlake should I check before visiting?', a: "Two public options are J.W. Corbett Wildlife Management Area, managed by the Florida Fish and Wildlife Conservation Commission, with the Bald Cypress and Hungryland boardwalks, and the Arthur R. Marshall Loxahatchee National Wildlife Refuge, whose visitor center is at 10216 Lee Road in Boynton Beach. Check each official page for hours, permits or passes, closures and rules before you go." },
+      { q: 'Do I need a permit or pass for J.W. Corbett Wildlife Management Area?', a: "FWC requires a daily-use permit to enter J.W. Corbett unless you have a Wildlife Management Area permit. Hunting seasons, area rules and closures also apply, so check FWC's planning page, map and hunt calendar before your visit." },
+      { q: 'Can visitors attend equestrian events in Wellington without owning a horse?', a: "Yes. Spectators can attend the Winter Equestrian Festival at Wellington International. Its spectator FAQs have listed free general admission and free daytime parking, with paid parking for some evening events. Check the official schedule and FAQs for current dates, admission and parking." },
+      { q: 'Where can I find current Westlake public events?', a: "On the City of Westlake's special events page, which has featured events such as FourthFest, SpringFest and a holiday market. Dates and offerings change, so check the page for what's currently scheduled." },
+      { q: 'Is canal fishing around Westlake automatically public access?', a: "No. Many canal and lake banks are private, restricted or part of drainage infrastructure. Use only confirmed public access points, such as designated areas at J.W. Corbett or the refuge, and follow FWC licensing and freshwater regulations." },
     ],
-    internalLinks: ["best-things-to-do-in-westlake-florida", "local-guide-to-westlake-florida", "best-places-to-eat-drink-hang-out-in-westlake-florida"],
-    funFact: "Westlake's trail network connects to the broader western Palm Beach County trail system and the Acreage equestrian paths — residents can ride bikes into genuinely rural landscape within minutes of their front door. Most homebuyers only discover this after move-in when a neighbor mentions it.",
+    internalLinks: ['best-things-to-do-in-westlake-florida', 'local-guide-to-westlake-florida', 'best-places-to-eat-drink-hang-out-in-westlake-florida'],
+    funFact: "J.W. Corbett Wildlife Management Area's Hungryland Boardwalk is reached through the area's south entrance on Seminole Pratt Whitney Road, according to FWC's directions. Check FWC's planning page for the daily-use permit, hunt dates and closures before you go.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'westlake-vs-nearby-cities',
