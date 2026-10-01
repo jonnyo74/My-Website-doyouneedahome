@@ -541,102 +541,144 @@ For more, see the [Juno Beach community guide](/communities/juno-beach), our [lo
     cityName: 'Juno Beach',
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to Juno Beach, Florida",
-    metaTitle: "A Local's Guide to Juno Beach, Florida",
-    metaDescription: 'An insider guide to Juno Beach, Florida — the pier, the turtles, the uncrowded beaches, and how to live like a local in this tiny barrier-island town.',
+    seoTitle: "A Local's Guide to Juno Beach, FL | Pier, Parks & History",
+    metaTitle: "A Local's Guide to Juno Beach, FL | Pier, Parks & History",
+    metaDescription: 'Get oriented in Juno Beach, FL: the pier, Juno Beach Park, Loggerhead Marinelife Center, Juno Dunes, Pelican Lake, the historic tour and sea-turtle etiquette.',
     primaryKeyword: 'Juno Beach local guide',
-    secondaryKeywords: ['Juno Beach insider tips', 'things locals do in Juno Beach', 'moving to Juno Beach guide'],
+    secondaryKeywords: ['Juno Beach Pier', 'Juno Dunes Natural Area', 'Juno Beach historic tour', 'Juno Beach sea turtle rules', 'Pelican Lake Juno Beach'],
     h1: "A Local's Guide to Juno Beach, Florida",
-    heroImage: '/images/juno-beach/juno-beach-021.jpg',
-    body: `Juno Beach is small enough that you can learn the geography in an afternoon. Living here like a local takes slightly longer, mostly because a few of the rules aren't posted anywhere.
+    heroImage: '/images/juno-beach/dune-crossover-hero.webp',
+    heroImageAlt: 'A wooden dune crossover with handrails leading through sea grape to a turquoise ocean under a blue sky',
+    heroImageCaption: 'A dune crossover through sea grape to the beach in Juno Beach',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Juno Beach · Local Guide',
+      deck: 'The pier, the parks, the dunes and the history: what to use, notice and check in Juno Beach, whether you live here or are thinking about it.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/juno-beach/dune-crossover-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/juno-beach/dune-crossover-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A dune crossover through sea grape to the beach in Juno Beach.',
+      primaryCta: { label: 'Explore Juno Beach', href: '/communities/juno-beach' },
+      secondaryCta: { label: 'What living here is like', href: '/blog/what-its-really-like-living-in-juno-beach-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Thinking about making Juno Beach home? Explore the community guide, or talk with our team about a specific property and the checks above.',
+        cta: { label: 'Explore the Juno Beach guide', href: '/communities/juno-beach' },
+      },
+    },
+    body: `**Juno Beach is small, but not empty.** In a town of about 2 square miles you'll find a county beach park with a 990-foot pier, a sea turtle hospital, a 569-acre natural area that runs from the ocean to the Intracoastal, a lake at the Town Center, and a self-guided historic tour.
 
-## Get your bearings
+This guide is about what to use, notice and check. For the bigger picture of the town, its history and its housing, read [what it's really like living in Juno Beach](/blog/what-its-really-like-living-in-juno-beach-florida).
 
-The town runs north-south along the ocean, and there are really only two roads that matter.
+## Get oriented in five places
 
-**Ocean Drive (A1A)** hugs the beach and connects the residential stretches, the beach accesses, and the oceanfront condos. **US-1** is the inland spine and how you get anywhere else — north to Jupiter, south to Donald Ross Village and Palm Beach Gardens.
+### Juno Beach Park and the pier
 
-The eastern side is anchored by three things within a few minutes of each other: the beach, the **Juno Beach Pier**, and **Loggerhead Park**. Homes and condos fill in around them. That's genuinely the whole town.
+[Juno Beach Park](https://discover.pbc.gov/parks/Locations/Juno-Beach.aspx) is a Palm Beach County park at 14775 U.S. Highway 1, open sunrise to sunset, with parking, restrooms, outdoor showers and a guarded stretch of beach. The 990-foot [Juno Beach Pier](https://marinelife.org/juno-beach-pier/) is part of the park and is managed by Loggerhead Marinelife Center. See the planning panel below before you go.
 
-You will not get lost here. What takes adjusting to is how much of your ordinary week happens outside the town limits.
+![The Juno Beach Pier and its mint-green pier house over the Atlantic, with beachgoers on the sand and dune grass in the foreground](/images/juno-beach/juno-beach-pier-beach.webp "The Juno Beach Pier and the beach beside it. || Photo by John Oliver"){1400x1050}
 
-## Turtle season, and why it's not optional
+### Loggerhead Marinelife Center
 
-This is the practical thing newcomers most need to understand.
+[Loggerhead Marinelife Center](https://marinelife.org/) is a nonprofit sea turtle research, rehabilitation, education and conservation center in Loggerhead Park, another county park. It runs a sea turtle hospital and offers tours and programs. Check [Plan Your Visit](https://marinelife.org/plan-your-visit/) for current hours, admission and what's on.
 
-From roughly **March through October**, loggerhead, green, and leatherback turtles nest along this beach. It's one of the most significant nesting areas anywhere, and the town takes it seriously in ways that carry real obligations for residents:
+### Juno Dunes Natural Area
 
-- **Beachfront properties switch to turtle-safe amber lighting.** Lights aren't turned off — they're changed, so hatchlings aren't disoriented and drawn away from the ocean. If you buy near the beach, this applies to you.
-- **Fill in any holes you dig.** Hatchlings fall into them and can't get out.
-- **Never disturb a marked nest**, and keep dogs and beach furniture clear of them.
-- **Avoid white light toward the water at night** during nesting season.
+The county's [Juno Dunes Natural Area](https://discover.pbc.gov/erm/NaturalAreas/Juno-Dunes.aspx) covers 569 acres and lets you travel from the Atlantic Ocean to the Intracoastal Waterway. It has two main parts:
 
-Locals genuinely enforce this socially. It's not a rule people quietly ignore — it's closer to a shared civic commitment, and violating it will get you noticed.
+- **The oceanfront tract** sits atop an ancient sand dune, with a view over the area.
+- **The west tract** has several miles of trails: the paved Sawgrass Trail (0.21 miles), the sandy Scrub Oak Trail (1.8 miles, to the Intracoastal) and the sandy Scrub Hickory Trail (2.1 miles). There's also a boardwalk through a sawgrass wetland, an observation tower, and floating docks for boaters.
 
-## The daily rhythm
+It's open sunrise to sunset, every day, for hiking and bird watching. Wear real shoes for the sandy trails, bring water, and stay on the marked paths.
 
-Mornings belong to the beach and the pier. Sunrise walkers, anglers working the end of the pier, dolphin-spotters, and — in season — fresh turtle tracks visible on the sand below.
+### The Town Center and Pelican Lake
 
-The **Loggerhead Marinelife Center** functions as the community's heart. It's free to visit, locals drop in regularly, and its calendar of releases and programs is one of the few things that reliably draws a crowd in this town.
+The Town Center sits on [Pelican Lake](https://www.juno-beach.fl.us/1322/Pelican-Lake), which the Town says was created as part of plans to dredge a marsh and develop the area as a tourist destination. The Town's history places the original fishing pier at the end of Mercury Road, today's Town Center.
 
-Evenings are quiet. For dinner or anything resembling a night out, you'll drive minutes south to Donald Ross Village or over to Palm Beach Gardens.
+![A brick patio with octagonal picnic tables and string-lit palms beside Pelican Lake at dusk, with a fountain on the water](/images/juno-beach/pelican-lake-patio-dusk.webp "Pelican Lake at the Town Center, at dusk. || Photo by John Oliver"){1400x1050}
 
-![Lakeside gazebo at sunset near Juno Beach, Florida](/images/juno-beach/juno-beach-002.jpg "Sunset here is a low-key civic institution — a walk, a bench, and not much of a plan.")
+### Ocean Drive and the historic corridor
 
-## The local calendar
+Ocean Drive (A1A) runs along the beach past homes and condominium buildings. It's also where much of the town's history played out. The motels, a tunnel, and the shift from motels to condominiums are all stops on the Town's tour, below.
 
-**Season, roughly November through April**, brings part-time residents and noticeably more activity, though "busy" in Juno Beach still means something very different from Jupiter or Delray. Restaurants nearby fill up and the beach gets more use, but it never becomes crowded by South Florida standards.
+## Take the historic Juno loop
 
-**Turtle nesting season, March through October**, overlaps and brings the lighting rules, marked nests, and the Center's seasonal programming — including turtle walks, which are a genuinely special local experience worth doing at least once.
+The Town of Juno Beach publishes a self-guided [Discover Juno Beach tour](https://www.juno-beach.fl.us/1223/Discover-Juno-Beach-Tour), with interpretive plaques around town, a [printable map](https://www.juno-beach.fl.us/DocumentCenter/View/420/Printable-Map-85-x-11) and an audio version on a mobile app. A few of the stops:
 
-**Summer, May through October**, is hot, humid, and very quiet. Afternoon storms build and clear. The beach effectively belongs to residents.
+- **The Juno Beach Camp historic site.** In 1933 Oscar and Hulda Erikson opened rustic cabins on the dunes overlooking the ocean, the Juno Beach Tourist Camp.
+- **The Motel Era: 1945–1970s**, at Loggerhead Park. By the 1960s the town had as many as 17 oceanfront motels.
+- **The original Juno Beach Fishing Pier.** The 500-foot pier was built at the end of Mercury Road, today's Town Center, in the 1940s. A storm destroyed it in 1984, and Palm Beach County opened a new Juno Beach Pier to take its place.
+- **Pelican Lake**, with plaques at its north and south ends.
+- **From Motels to Condos**, at the Greenbrier Condominium, the town's first condominium.
 
-**Green markets and seasonal events** in the neighboring towns fill out the cooler months, and residents treat Jupiter's and Palm Beach Gardens' calendars as effectively their own.
+The tour also covers the Celestial Railroad, the 1889 rail line whose terminus gave Juno its name. Some stops are next to private property, so view them from public areas.
 
-**Holiday boat parade season** on the Intracoastal is a local fixture, and one of the few evenings a year when the area feels genuinely festive.
+## Turtle country: what residents and visitors should actually know
 
-![Lighted boat parade and fireworks on the Intracoastal at dusk](/images/juno-beach/juno-beach-036.jpg "The Intracoastal boat parade is one of the few nights a year the area does anything loud — and residents turn out for it.")
+Sea turtle nesting season and turtle programs aren't the same thing. Loggerhead Marinelife Center monitors the beach for nesting from March through October, but walks, releases and other programs are scheduled separately, if at all, so check the center's calendar rather than assuming one is on.
 
-## The unwritten rules
+On the beach, the Florida Fish and Wildlife Conservation Commission's [guidance](https://myfwc.com/news/all-news/shorebirds-turtles-825/) comes down to a few habits:
 
-- **Keep the beach pristine.** Take what you brought. The town's pride is its shoreline and people are quietly vigilant about it.
-- **The pier is shared space.** Anglers have the end of it. Walk around, not through.
-- **Don't expect the town to entertain you.** Residents plan around Jupiter and Palm Beach Gardens as a matter of routine, and treating those as extensions of your town is how people make this work.
-- **Support the Center.** Volunteering or membership is one of the main ways people plug into the community here.
-- **Hurricane prep is normal.** June through November, know your zone and keep supplies. Exposed barrier-island position makes this more relevant than it is inland.
+- **Give wildlife space.** Leave marked nests alone, and keep well back from nesting shorebirds; FWC suggests at least 300 feet.
+- **Fill in holes** you dig before you leave.
+- **Take everything with you,** including trash, toys and beach furniture, before sunset.
+- **Keep it dark at night.** Avoid flashlights, phone lights and flash photography on the beach after dark.
+- **Report problems.** For an injured, sick, dead or harassed sea turtle, or a disturbed nest, call FWC's Wildlife Alert line at 888-404-FWCC (3922).
 
-## Getting around
+**A note for near-beach homeowners.** The Town's Sea Turtle Protection Zone covers properties within 600 feet landward of the mean high-water line. Inside it, the Town requires a [sea turtle lighting permit](https://www.juno-beach.fl.us/DocumentCenter/View/616/Sea-Turtle-Lighting-Permit-Application---Exterior-Light-Fixtures---Fillable?bidId=) for new or replacement exterior lighting, and for windows and doors with a line of sight to the beach. Whether it applies depends on the address and the project, so check with the Town before you finalize plans.
 
-## Parking, and the one thing that actually gets contested
+## The pier and beach: plan before you go
 
-In a town with no traffic and no downtown, beach parking is the only genuinely competitive resource — and mostly only at the pier, on weekends, in season.
+Pier access, fees, hours and construction all change. As of October 1, 2026, Loggerhead Marinelife Center's pier page lists **separate spectator and fishing fees**, **hours that change by season**, and a **refurbishment that began June 1, 2026**.
 
-Residents solve this the obvious way: they use the accesses nearest their homes and avoid the pier lot entirely on a Saturday. Some accesses have very limited spaces, which is precisely why they stay quiet.
+| What to check | Where |
+|---|---|
+| Whether the pier is open, and any construction closures | [Juno Beach Pier](https://marinelife.org/juno-beach-pier/) (Loggerhead Marinelife Center) |
+| Spectator and fishing fees, and current hours | [Juno Beach Pier](https://marinelife.org/juno-beach-pier/) |
+| Park hours, parking and lifeguarded areas | [Juno Beach Park](https://discover.pbc.gov/parks/Locations/Juno-Beach.aspx) (Palm Beach County) |
+| Surf, flags and conditions on the day | The posted flags and lifeguards at the beach |
 
-If you're house-hunting here, it's worth noting which access you'd realistically walk to, because "close to the beach" and "close to somewhere you can park at the beach" aren't always the same address.
+![A thatched chickee shelter with benches under a sea grape tree at a beach access, with the ocean beyond and a Palm Beach County Parks sign](/images/juno-beach/county-beach-access-chickee.webp "A shaded overlook at a Palm Beach County beach access in Juno Beach. || Photo by John Oliver"){1400x1050}
 
-Everything in town is minutes away, but almost nothing you need daily is *in* town. Realistic drive times: Donald Ross Village and Palm Beach Gardens under ten minutes, Jupiter about ten minutes north, Singer Island about ten minutes south, and President Donald J. Trump International Airport roughly 25 minutes.
+## The local rhythm without the clichés
 
-I-95 and Florida's Turnpike are both a short drive inland, which makes the town far better connected than its size suggests.
+- **Seasons.** Winter tends to bring part-time residents and more activity; summer brings heat, humidity and afternoon storms.
+- **Storms.** Hurricane season runs June 1 through November 30. Know your evacuation zone before you need it.
+- **Beach conditions.** Surf, currents and seaweed vary day to day. Check the flags, and remember that the seaweed, or wrack, is part of the beach's ecology; the Town [explains its rules](https://www.juno-beach.fl.us/1314/RakingSeaweed-Beach-Information).
+- **Errands and evenings.** Nearby Jupiter and Palm Beach Gardens add a much wider choice of dining, shopping and events. How long it takes to get there depends on where you live and when you go.
+
+## Before you make Juno Beach home
+
+- [ ] Confirm public beach access and parking from the specific property, not just "near the beach."
+- [ ] Get property-specific quotes for homeowners or condo unit-owner coverage, wind and flood; flood is usually a separate policy.
+- [ ] Check whether the address is in the Sea Turtle Protection Zone and what lighting or window rules would apply to work you plan.
+- [ ] For a condominium, review the documents, budget, reserves, inspections and the association's insurance.
+- [ ] Look up the address's evacuation zone and emergency information.
+
+This is a checklist, not legal, insurance or financial advice. Confirm each item with the right professional.
 
 ## Settling in
 
-Lean into the quiet — it's what you paid for. Find your stretch of sand, build a pier-walk habit, learn the turtle rules before nesting season rather than during it, and get involved with the Marinelife Center if you want to meet people.
-
-And accept early that your restaurants, your shopping, and most of your errands live in the next town over. Residents who make peace with that love it here. Residents who keep expecting Juno Beach to be bigger than it is tend not to stay.`,
+Start with the five places above, walk the historic loop once, and learn the turtle habits before nesting season. For more, see the [Juno Beach community guide](/communities/juno-beach), [things to do in Juno Beach](/blog/best-things-to-do-in-juno-beach-florida), [hidden gems](/blog/hidden-gems-in-juno-beach-florida) and [Juno Beach neighborhoods](/blog/best-neighborhoods-in-juno-beach-florida).`,
     faqs: [
-      { q: "What are the main roads in Juno Beach?", a: "Ocean Drive (A1A) runs along the beach connecting the residential stretches and oceanfront condos, and US-1 is the inland spine used to reach Jupiter to the north and Donald Ross Village and Palm Beach Gardens to the south. The beach, the Juno Beach Pier, and Loggerhead Park anchor the eastern side." },
-      { q: "What are the turtle season rules in Juno Beach?", a: "From roughly March through October, beachfront properties switch to turtle-safe amber lighting so hatchlings aren't disoriented, beachgoers must fill in any holes they dig, marked nests must not be disturbed, and white light toward the water at night should be avoided. Residents take these seriously." },
-      { q: "When is sea turtle nesting season in Juno Beach?", a: "Roughly March through October. The Loggerhead Marinelife Center runs seasonal programming during this period, including turtle walks, and nests are marked and protected along the beach." },
-      { q: "How far is Juno Beach from Palm Beach Gardens and Jupiter?", a: "Both are close — Donald Ross Village and Palm Beach Gardens are under ten minutes, Jupiter is about ten minutes north, and Singer Island about ten minutes south. President Donald J. Trump International Airport is roughly 25 minutes, with I-95 and the Turnpike a short drive inland." },
-      { q: "Is Juno Beach busy in season?", a: "It gets more activity from roughly November through April as part-time residents arrive, but 'busy' here still means something very different from Jupiter or Delray Beach. The beach sees more use without becoming crowded by South Florida standards." },
-      { q: "How do you meet people in Juno Beach?", a: "The Loggerhead Marinelife Center is the main hub — volunteering, membership, and its calendar of releases and programs are how a lot of residents connect. The pier and the beach in the early morning are the other reliable places to become a familiar face." },
+      { q: "What is the Juno Beach Pier and how do I check current access?", a: "It's a 990-foot pier at Juno Beach Park, a Palm Beach County park, managed by Loggerhead Marinelife Center. Access, fees, hours and construction change; a refurbishment began June 1, 2026. Check the center's Juno Beach Pier page before you go." },
+      { q: "What is the Juno Dunes Natural Area?", a: "A 569-acre county natural area in Juno Beach that runs from the Atlantic Ocean to the Intracoastal Waterway. The oceanfront tract sits atop an ancient dune, and the west tract has several miles of trails, a boardwalk through a sawgrass wetland, an observation tower and floating docks. It's open sunrise to sunset." },
+      { q: "What are the sea-turtle etiquette rules in Juno Beach?", a: "Leave marked nests alone and give wildlife space, fill in holes you dig, take trash, toys and beach furniture with you before sunset, and avoid flashlights, phone lights and flash photography on the beach after dark. Report an injured, dead or harassed sea turtle, or a disturbed nest, to FWC's Wildlife Alert line at 888-404-FWCC (3922)." },
+      { q: "Is there a self-guided historic tour in Juno Beach?", a: "Yes. The Town of Juno Beach publishes the Discover Juno Beach tour, with interpretive plaques, a printable map and an audio version on a mobile app. Stops include the Juno Beach Camp historic site, the motel era, the original fishing pier, Pelican Lake and the shift from motels to condominiums." },
+      { q: "What should a near-beach homeowner verify before exterior work?", a: "Whether the property is in the Town's Sea Turtle Protection Zone, which covers properties within 600 feet landward of the mean high-water line. Inside it, new or replacement exterior lighting, and windows and doors with a line of sight to the beach, need a Town sea turtle lighting permit. Check with the Town before you finalize plans." },
     ],
     internalLinks: ['what-its-really-like-living-in-juno-beach-florida', 'best-things-to-do-in-juno-beach-florida', 'hidden-gems-in-juno-beach-florida'],
-    funFact: "The Juno Beach Pier was originally built in 1939 and has been rebuilt several times after hurricane damage. The current pier stretches about 990 feet and is one of the few places in Palm Beach County where you can walk straight out over the Atlantic for free.",
+    funFact: "Juno Beach's first fishing pier wasn't where today's pier is. The 500-foot pier was built in the 1940s at the end of Mercury Road, where the Town Center is now. A storm destroyed it in 1984, and Palm Beach County opened a new Juno Beach Pier to take its place.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'best-neighborhoods-in-juno-beach-florida',
