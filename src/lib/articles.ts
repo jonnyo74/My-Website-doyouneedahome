@@ -255,6 +255,9 @@ export interface Article {
   body: string                // markdown-lite
   faqs: Faq[]
   internalLinks?: string[]    // related article slugs
+  // false keeps the automatic mid-body report CTA off an article that has no
+  // editorial block (so no magnetPlacement); the end-of-article one stays.
+  inlineMagnet?: boolean
   showMarketTrends?: boolean  // render the Ylopo market-trends widget (cost/market articles)
   marketTrendsCaption?: string // replaces the market-trends widget's default caption, e.g. to say what the data covers
   funFact?: string            // local expert insight shown with author headshot
@@ -15062,123 +15065,150 @@ For more on Westlake itself, read [what living in Westlake is really like](/blog
     cityName: 'Westlake',
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out in and Around Westlake, Florida",
-    metaTitle: "Best Restaurants Near Westlake, FL: What's Actually Open",
-    metaDescription: "Westlake's own dining scene is still small. What's open now, what's coming to the town center, and the best nearby options in Royal Palm Beach and Wellington.",
-    primaryKeyword: "best restaurants in Westlake Florida",
-    secondaryKeywords: ["where to eat near Westlake", "Westlake dining", "Westlake Adventure Park"],
-    h1: "Best Places to Eat, Drink & Hang Out in and Around Westlake, Florida",
-    body: `Being straightforward: Westlake's own dining scene is in its early stages, because the city is. Commercial development arrives in phases as the population supports it, and restaurants follow rooftops rather than leading them.
+    seoTitle: "Best Restaurants Near Westlake, FL: Where to Eat, Drink & Hang Out",
+    metaTitle: "Best Restaurants Near Westlake, FL: What's Open Now",
+    metaDescription: "Find verified restaurants, coffee, casual meals, pizza, drinks, and nearby hangout spots around Westlake, Florida—plus what is open now and where to go for more options.",
+    primaryKeyword: "restaurants near Westlake FL",
+    secondaryKeywords: ["best restaurants in Westlake Florida", "Westlake FL coffee", "where to eat near Westlake", "Westlake FL bars and hangout spots"],
+    h1: "Best Restaurants Near Westlake, FL: Where to Eat, Drink & Hang Out",
+    // No hero: the photo library has no Westlake dining, storefront or
+    // commercial-corridor image, and the 2018 model-home set would misrepresent
+    // the subject (see public/images/westlake/SOURCES.md).
+    // Venues were checked against each business's own site or brand location
+    // page. Re-check every link before changing the "Last verified" date.
+    body: `Westlake now has several practical places for coffee, casual meals, takeout, pizza, and quick dining, with more options nearby in Loxahatchee, Royal Palm Beach, and Wellington. This guide separates verified current locations from planned development so you can decide where to go without relying on stale lists.
 
-What exists is growing, what's nearby is genuinely good, and the social life here doesn't run through restaurants anyway. Here's the honest picture.
+**Last verified: October 1, 2026.** Each venue below was checked against its own website or brand location page on that date. Hours, menus and services change, so confirm on the official page before you go. Planned and "coming soon" businesses are left out until they open.
 
-## What's in the city
+## At a glance
 
-Commercial development along the main corridor has been arriving steadily, and the city now has everyday essentials that early residents didn't — which changes daily life considerably more than a restaurant would.
+- [Coffee and breakfast](/blog/best-places-to-eat-drink-hang-out-in-westlake-florida#coffee-breakfast-and-daytime)
+- [Casual meals and takeout](/blog/best-places-to-eat-drink-hang-out-in-westlake-florida#casual-meals-and-takeout)
+- [Pizza, dinner, and drinks](/blog/best-places-to-eat-drink-hang-out-in-westlake-florida#pizza-dinner-and-drinks)
+- [Nearby places to hang out](/blog/best-places-to-eat-drink-hang-out-in-westlake-florida#worth-the-short-trip-near-westlake)
+- [City events and food trucks](/blog/best-places-to-eat-drink-hang-out-in-westlake-florida#city-events-and-food-trucks)
+- [What Westlake still does not have](/blog/best-places-to-eat-drink-hang-out-in-westlake-florida#what-westlake-still-does-not-have)
 
-For a community at this stage, the important question isn't how many restaurants there are. It's whether you can buy groceries without a long drive, and increasingly the answer is yes.
+**Westlake** means the business lists a Westlake address. **Westlake-area** means it sits on Persimmon Boulevard by the city's commercial corner but lists a Loxahatchee mailing address, so we don't call it "in Westlake."
 
-Expect this to keep changing. Anything written about Westlake's commercial offering has a short shelf life, so check what's currently open rather than relying on any published account, including this one.
+## Coffee, breakfast and daytime
 
-## The amenity complex is the social center
+### Carmela Coffee
+- **Category:** Coffee café
+- **Address:** 16881 Persimmon Blvd., Suite 1400 (Westlake-area; Loxahatchee mailing address)
+- **What it offers:** Espresso drinks and brewed and cold-brew coffee, with a café food menu.
+- **Official page:** [Carmela Coffee locations](https://www.carmelacoffee.com/locations)
 
-This is the honest answer to "where do people hang out," and it's genuinely different from an established town.
+### Fusion Fresh
+- **Category:** Breakfast and made-to-order meals
+- **Address:** 4670 Seminole Pratt Whitney Rd. (Westlake)
+- **What it offers:** Made-to-order breakfast, lunch and dinner, with an outdoor patio or food to go.
+- **Official page:** [Fusion Fresh](https://www.fusionfresh.com/)
 
-The community's recreation complex, with its pool, event lawn and programmed calendar, is where residents actually gather. Food trucks, seasonal events, holiday activities and casual poolside afternoons do the work that a main street does elsewhere.
+### 3Natives Westlake
+- **Category:** Açaí bowls, smoothies and juices
+- **Address:** 4901 Seminole Pratt Whitney Rd., Suite 100 (Westlake)
+- **What it offers:** Açaí bowls, smoothies, cold-pressed juices, wraps and salads.
+- **Official page:** [3Natives Westlake](https://3natives.com/store_locations/3natives-westlake/)
 
-For newcomers this matters practically: if you're waiting to meet neighbors at a local restaurant, you'll wait. Go to the amenity complex instead.
+## Casual meals and takeout
 
-## Royal Palm Beach
+Several of these are in the Shoppes of Westlake Landings, at the southwest corner of Seminole Pratt Whitney Road and Persimmon Boulevard.
 
-The nearest real concentration of dining, a manageable drive east, and better than its suburban reputation suggests.
+### Chipotle Mexican Grill
+- **Category:** Fast casual, Mexican
+- **Address:** 4951 Seminole Pratt Whitney Rd. (Westlake)
+- **What it offers:** Burritos, bowls, tacos and salads.
+- **Official page:** [Chipotle Westlake](https://locations.chipotle.com/fl/westlake/4951-seminole-pratt-whitney-rd)
 
-The main corridors hold a wide, affordable and genuinely varied set of restaurants — casual American, Latin American, Caribbean, Asian and more, mostly independent, mostly in plazas that give away nothing from the road. It's covered properly in [that village's own dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida).
+### The Habit Burger & Grill
+- **Category:** Burgers
+- **Address:** 4901 Seminole Pratt Whitney Rd., Suite 1000 (Westlake)
+- **What it offers:** Chargrilled burgers, sandwiches and salads.
+- **Official page:** [Habit Burger Westlake](https://www.habitburger.com/locations/westlake-seminole/)
 
-For most Westlake households this is where dinner out actually happens.
+### Chicken Salad Chick
+- **Category:** Fast casual, sandwiches and salads
+- **Address:** 16881 Persimmon Blvd. West (Westlake-area; Loxahatchee mailing address)
+- **What it offers:** Chicken salad by the scoop or on sandwiches, with sides, soups and desserts.
+- **Official page:** [Chicken Salad Chick, Persimmon Blvd.](https://www.chickensaladchick.com/locations/fl/loxahatchee/16881-persimmon-blvd-west/)
 
-## Wellington
+### Taco Bell
+- **Category:** Quick service, drive-thru
+- **Address:** 4751 Seminole Pratt Whitney Rd. (Westlake)
+- **What it offers:** Tacos, burritos, quesadillas and nachos.
+- **Official page:** [Taco Bell Westlake](https://locations.tacobell.com/fl/westlake/4751-seminole-pratt-whitney-rd.html)
 
-Slightly further, with more range including the area around the mall and a scene that expands noticeably during the winter equestrian season, when the town fills with people from across the country.
+### KFC
+- **Category:** Quick service, chicken
+- **Address:** 4775 Seminole Pratt Whitney Rd. (Westlake)
+- **What it offers:** Fried chicken, chicken sandwiches and family meals.
+- **Official page:** [KFC Westlake](https://locations.kfc.com/fl/city-of-westlake/4775-seminole-pratt-whitney-rd)
 
-It's the natural choice for a nicer evening out.
+## Pizza, dinner and drinks
 
-## Further east
+### Il Pomodoro
+- **Category:** Italian restaurant
+- **Address:** 5030 Seminole Pratt Whitney Rd. (Westlake)
+- **What it offers:** Pasta, pizza and seafood. Its online ordering menu lists beer and wine; it is a restaurant, not a bar.
+- **Official page:** [Il Pomodoro](https://ilpomodororistorante.net/contact)
 
-**West Palm Beach** and the coastal towns have everything, at the cost of a genuine drive. Realistically an occasion rather than a weeknight.
+### Marco's Pizza
+- **Category:** Pizza
+- **Address:** 16841 Persimmon Blvd. (Westlake-area; Loxahatchee mailing address)
+- **What it offers:** Specialty and build-your-own pizzas.
+- **Official page:** [Marco's Pizza, Persimmon Blvd.](https://www.marcos.com/our-locations/restaurants/fl/loxahatchee/marcos-pizza-persimmon-blvd-loxahatchee-1/)
 
-## Coffee and the daytime problem
+## Worth the Short Trip: Near Westlake
 
-A small gap worth naming for anyone working from home.
+These list Loxahatchee addresses, not Westlake ones.
 
-Established towns have independent coffee places that double as informal offices. A new city largely doesn't yet, which means the choice is your own kitchen or a drive.
+### Gator's Shack
+- **Category:** Bar and grille
+- **Address:** 5088 Seminole Pratt Whitney Rd. (Loxahatchee)
+- **What it offers:** A family-owned country bar and grille.
+- **Official page:** [Gator's Shack](https://gatorsshack.com/)
 
-For remote workers used to changing scenery during the day, this is a genuine adjustment, and it's worth knowing before you assume you'll pop out for a working coffee. Several residents solve it by driving east once or twice a week and treating it as a deliberate outing rather than a spontaneous one.
+### Lewis Prime Grill
+- **Category:** Steakhouse
+- **Address:** 7040 Seminole Pratt Whitney Rd. (Loxahatchee)
+- **What it offers:** A dinner menu with a cocktail and wine list.
+- **Official page:** [Lewis Prime Grill contact page](https://www.lewisprimegrill.com/contactus)
 
-## Provisioning and the practical rhythm
+For a wider choice, see our guides to [eating and drinking in Royal Palm Beach](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida) and [eating and drinking in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
 
-More relevant to daily life than restaurants.
+## City events and food trucks
 
-**Batch your trips.** Residents combine the grocery run, other errands and any dining out into a single journey east rather than several. It's the single habit that makes living out here comfortable rather than tedious.
+Westlake's public-event calendar can include food trucks, markets, and seasonal programming. Check the current city calendar before making plans because vendors, dates, locations, and access change.
 
-**Delivery coverage** has improved as the population has grown but still varies. Check for your specific address rather than assuming.
+- [City of Westlake special events](https://www.westlakegov.com/community/page/special-events)
 
-**Cooking at home** is the default here, helped by new kitchens and the fact that going out requires planning. Households that lean into it spend considerably less and mind the distance less.
+Recent city announcements for FourthFest, SpringFest and the Holiday Pop-Up Market listed food trucks among the attractions. Some city events are held at the Westlake Adventure Park, a community amenity whose everyday facilities have their own access rules for residents and guests. Outside a public event, check eligibility before you plan a visit.
 
-## The winter effect from Wellington
+## What Westlake still does not have
 
-Worth knowing because it changes the area's rhythm for a third of the year.
+- **No established walkable downtown restaurant district.** The places above are in roadside plazas along Seminole Pratt Whitney Road and Persimmon Boulevard, not along a main street.
+- **No verified, dedicated nightlife corridor.** Il Pomodoro serves beer and wine with dinner, and the nearest bar-and-grille options in this guide have Loxahatchee addresses.
+- **More variety is in nearby communities.** Royal Palm Beach and Wellington have far larger dining scenes.
 
-From roughly January through April, neighboring Wellington fills with people arriving for the equestrian season — competitors, staff, owners and spectators from across the country and beyond.
+A site plan or city approval is not an opening. If you want to see what has been approved, the city posts its [approved development orders](https://www.westlakegov.com/community/page/approved-development-orders); this guide adds a business only once it is open.
 
-The practical effects reach Westlake: the roads east get busier, the better restaurants in Wellington need booking, and the whole western county feels more populated.
-
-For residents it's mostly positive — more happening, more choice — but build it into your expectations of traffic and table availability during those months.
-
-## Practicalities
-
-- **Season** matters little in the city itself, though Wellington east gets substantially busier from January through April.
-- **Summer** is quiet everywhere out here.
-- **Reservations** are worth having for Wellington in season, rarely needed otherwise.
-- **Parking** is easy everywhere in the western county, which after the coast is a genuine relief.
-
-## Cooking, and the new-kitchen advantage
-
-With dining out requiring a drive, most meals here happen at home — and the housing stock is unusually well suited to it.
-
-New construction means current kitchens: proper counter space, modern appliances, islands built for people to sit at, and pantry storage that older Florida houses rarely have. Outdoor space is generally designed for cooking too.
-
-Households that lean into this eat well and spend considerably less than they would somewhere with restaurants on the doorstep. It is also, in a community where everyone is new, the most natural way to get to know neighbors — inviting people round happens more here than in places where there is somewhere to meet instead.
-
-## Food trucks and the events calendar
-
-A practical detail that matters more than it sounds: the community programs food trucks and catered events at the amenity complex regularly.
-
-For a city without a restaurant district, that fills a genuine gap — it puts prepared food and a social occasion in the same place, within walking distance for many residents, without anyone driving anywhere.
-
-Check the community calendar rather than assuming. The schedule changes and it is one of the better things on it.
-
-## The honest summary
-
-If a walkable restaurant district is what you want, Westlake is the wrong city today and will be for some years. That's not a flaw — it's a stage.
-
-What you get instead is a house you can afford, recreation built into the community, and a fifteen-to-twenty-minute drive to a genuinely varied and affordable set of restaurants that most people underestimate.
-
-Residents who accept that rhythm — cook most nights, batch the trips east, use the amenity complex for the social side — find it works well. Those who expected to walk somewhere for dinner are measuring the city against something it was never designed to be.
-
-For the rest of what fills a week here, our [guide to what's worth doing](/blog/best-things-to-do-in-westlake-florida) covers the recreation and the western county's outdoors.`,
+For the rest of the week, our [guide to things to do in and around Westlake](/blog/best-things-to-do-in-westlake-florida) covers parks, events and the outdoors nearby.`,
     faqs: [
-      { q: "Are there restaurants in Westlake?", a: "The city's own dining is in its early stages because commercial development arrives in phases as the population supports it, and restaurants follow rooftops rather than leading them. Everyday essentials have arrived, which changes daily life more than a restaurant would. Check what is currently open, since anything written about it dates quickly." },
-      { q: "Where do Westlake residents go out to eat?", a: "Mostly Royal Palm Beach, a manageable drive east, whose main corridors hold a wide, affordable and genuinely varied set of mostly independent restaurants. Wellington is slightly further with more range and a scene that expands during the winter equestrian season. West Palm Beach and the coast are an occasion rather than a weeknight." },
-      { q: "Where do people socialise in Westlake?", a: "The community amenity complex, which is genuinely the social center — pool, event lawn, food trucks, seasonal events and a programmed calendar doing the work a main street does elsewhere. If you are waiting to meet neighbors at a local restaurant you will wait; go to the complex instead." },
-      { q: "Can you get groceries in Westlake?", a: "Increasingly yes, as commercial development along the main corridor has arrived steadily — and for a community at this stage that matters considerably more than restaurant count. The established corridors east fill any remaining gaps. Delivery coverage has improved with the population but still varies by address." },
-      { q: "How do residents handle the driving from Westlake?", a: "By batching. The grocery run, other errands and any dining out get combined into a single trip east rather than several separate ones, which is the habit that makes living out here comfortable rather than tedious. Cooking at home is the default, helped by new kitchens and the planning that going out requires." },
-      { q: "Will Westlake get more restaurants?", a: "Commercial development is phased to arrive as the population supports it, so the offering has been expanding and should continue to. Anything published about it — including this page — has a short shelf life, so verify what is currently trading rather than relying on a written account." },
+      { q: "Are there restaurants in Westlake, Florida?", a: "Yes. As of the last-verified date on this page, businesses listing Westlake addresses include Chipotle, The Habit Burger & Grill, Taco Bell, KFC, 3Natives, Fusion Fresh and Il Pomodoro. Carmela Coffee, Chicken Salad Chick and Marco's Pizza sit on Persimmon Boulevard nearby with Loxahatchee mailing addresses. Westlake does not have a walkable downtown restaurant district." },
+      { q: "Where can I get coffee or breakfast near Westlake?", a: "Carmela Coffee on Persimmon Boulevard (a Loxahatchee mailing address) is a coffee café. Fusion Fresh on Seminole Pratt Whitney Road serves made-to-order breakfast, lunch and dinner, and 3Natives Westlake serves açaí bowls, smoothies and juices. Check each official page for current hours." },
+      { q: "What are the current casual dining options in Westlake?", a: "Chipotle, The Habit Burger & Grill, Taco Bell, KFC and 3Natives list Westlake addresses on Seminole Pratt Whitney Road, and Chicken Salad Chick is on Persimmon Boulevard nearby. The list on this page shows the date it was last checked against each business's own site." },
+      { q: "Is there a bar or nightlife district in Westlake?", a: "No. We have not verified a dedicated bar or nightlife corridor in Westlake. Il Pomodoro's online menu lists beer and wine, but it is a restaurant, not a bar. Gator's Shack, a bar and grille, and Lewis Prime Grill, a steakhouse with a cocktail and wine list, both list Loxahatchee addresses." },
+      { q: "Where should I go near Westlake for dinner and drinks?", a: "In Westlake, Il Pomodoro serves Italian food with beer and wine. Nearby, Gator's Shack and Lewis Prime Grill list Loxahatchee addresses on Seminole Pratt Whitney Road. For a much wider choice, see our Royal Palm Beach and Wellington dining guides." },
+      { q: "How often does this restaurant list get updated?", a: "The list is checked against each business's own website or brand location page, and the date of the last check is shown at the top of the guide. We update it when we re-check, not on a fixed schedule, so if the date is old, confirm a venue on its official page before you go. Planned and coming-soon businesses are added only once they open." },
     ],
-    internalLinks: ["best-things-to-do-in-westlake-florida", "local-guide-to-westlake-florida", "what-its-really-like-living-in-westlake-florida"],
-    funFact: "Westlake's town center retail is still actively filling — the city was designed with more commercial space than exists today, intentionally leaving room for the dining and retail scene to grow as the population does. Early residents are essentially choosing which businesses get established in a blank canvas, which is an unusual civic dynamic.",
+    internalLinks: ["best-things-to-do-in-westlake-florida", "hidden-gems-in-westlake-florida", "westlake-vs-nearby-cities", "local-guide-to-westlake-florida"],
+    // One report CTA, at the end: the mid-body repeat would sit inside the directory.
+    inlineMagnet: false,
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
 
   // ===================== STUART =====================

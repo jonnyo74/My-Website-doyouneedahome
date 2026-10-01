@@ -19,7 +19,7 @@ Because of that, alt text says "a Minto model home in Westlake", credits carry t
 
 ## Blog article heroes
 
-Article #10 (eat, drink, hang out) is about the city, not the houses, so model-home interiors would misrepresent it. It has no hero until real community photos exist. #2 (local guide), #4 (things to do), #8 (hidden gems) and #9 (vs nearby communities) got exterior heroes in their 2026-10-01 rebuilds; see their rows below.
+Article #10 (eat, drink, hang out) is about the city, not the houses, so model-home interiors would misrepresent it. Its 2026-10-01 rebuild (now a dining directory) searched the Westlake folder, OneDrive and Google Drive again and found no dining, storefront, commercial-corridor or public-event photo, so it still has no hero. Add one only from a team photo of a listed venue's exterior or the Seminole Pratt Whitney Road / Persimmon Boulevard plazas. #2 (local guide), #4 (things to do), #8 (hidden gems) and #9 (vs nearby communities) got exterior heroes in their 2026-10-01 rebuilds; see their rows below.
 
 | Article | Hero file | Cut from | Crop | Why it fits |
 |---|---|---|---|---|

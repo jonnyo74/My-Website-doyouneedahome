@@ -158,7 +158,10 @@ export default async function ArticlePage({ params }: Props) {
   const magnetSelection = selectMagnetForArticle(article)
   // An article that places its magnet CTA explicitly never also gets the
   // automatic mid-body one.
-  const bodyParts = article.editorial?.magnetPlacement ? null : splitBodyForInlineCta(article.body)
+  const bodyParts =
+    article.editorial?.magnetPlacement || article.inlineMagnet === false
+      ? null
+      : splitBodyForInlineCta(article.body)
 
   // Editorial layout is opt-in per article, and needs the wide hero's
   // intrinsic size to art-direct it — without that, fall back to the standard hero.
