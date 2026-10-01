@@ -1525,115 +1525,109 @@ Juno Beach can carry meaningful ownership-cost tradeoffs, but the right answer c
     cityName: 'Juno Beach',
     type: 'Hidden Gems In',
     order: 8,
-    seoTitle: 'Hidden Gems in Juno Beach, Florida',
-    metaTitle: 'Hidden Gems in Juno Beach, Florida',
-    metaDescription: 'Beyond the pier — local hidden gems in Juno Beach, Florida, from quiet natural areas to the best sunrise spots and sea-turtle experiences.',
+    seoTitle: 'Hidden Gems in Juno Beach, FL: Local Finds Beyond the Pier',
+    metaTitle: 'Hidden Gems in Juno Beach, FL: Local Finds Beyond the Pier',
+    metaDescription: 'Discover local Juno Beach experiences beyond the pier, including natural areas, town history, water access, conservation, and practical visitor tips.',
     primaryKeyword: 'hidden gems in Juno Beach Florida',
-    secondaryKeywords: ['Juno Beach secret spots', 'free things to do in Juno Beach', 'Juno Dunes Natural Area'],
+    secondaryKeywords: ['Discover Juno Beach Tour', 'Juno Dunes Natural Area', 'Juno Park boat ramp', 'things to do in Juno Beach besides the beach'],
     h1: 'Hidden Gems in Juno Beach, Florida',
-    heroImage: '/images/juno-beach/juno-beach-085.jpg',
-    body: `Juno Beach is small enough that "hidden" is relative — you can drive the whole town in five minutes. But the difference between the visitor's version and the resident's version is real, and it mostly comes down to timing and knowing which access to use.
+    heroImage: '/images/juno-beach/town-center-lawn-sunset-hero.webp',
+    heroImageAlt: 'Palm trees and a lawn crossed by curving paths at the Juno Beach Town Center at sunset, with benches and path lights at left',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Juno Beach · Local Finds',
+      deck: 'A self-guided history tour, two sides of Juno Dunes, conservation at Loggerhead Marinelife Center and a public boat ramp on the Intracoastal: the local experiences visitors often miss, and what to check before you go.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/juno-beach/town-center-lawn-sunset-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/juno-beach/town-center-lawn-sunset-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'The lawn and palms at the Juno Beach Town Center, at sunset.',
+      primaryCta: { label: 'Explore Juno Beach', href: '/communities/juno-beach' },
+      secondaryCta: { label: 'Things to do in Juno Beach', href: '/blog/best-things-to-do-in-juno-beach-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      // A local guide: no report offer in or after the body.
+      magnetPlacement: 'none',
+    },
+    body: `**In Juno Beach, "hidden" means overlooked, not secret.** The town is compact, and its best finds aren't private spots or local-only shortcuts. They're public places and programs that many visitors simply miss: a self-guided history tour, a natural area that runs from the ocean to the Intracoastal, a working conservation center, and a county boat ramp.
 
-Here's what locals actually use. Nearly all of it is free.
+The other local skill is knowing where to check current conditions, hours and fees before you go, because beaches, programs and construction schedules change. Here's where to start.
 
-## The quiet beach accesses away from the pier
+## Discover Juno Beach: the self-guided history and landmarks tour
 
-The single most useful piece of local knowledge in this town.
+The Town's [Discover Juno Beach Tour](https://www.juno-beach.fl.us/1223/Discover-Juno-Beach-Tour) is a self-guided route through 23 historical landmarks and sites, from the pier and Loggerhead Park to Juno Dunes Natural Area and the Celestial Railroad historical marker. You can follow it with the Town's [printable map](https://www.juno-beach.fl.us/DocumentCenter/View/420/Printable-Map-85-x-11) or through the PocketSights mobile app.
 
-Everyone parks at the pier. But the beach accesses are strung all the way along the town, and the ones at the north and south ends are consistently emptier — often dramatically so midweek.
+It's a way to see the town beyond the shoreline, and the Town's own materials tell each site's story, so use them rather than secondhand history. For background before you go, see [what it's really like living in Juno Beach](/blog/what-its-really-like-living-in-juno-beach-florida).
 
-Find the one nearest you and it becomes your beach. Residents get quietly territorial about their access, which tells you it's worth doing.
+![A fountain sprays in Pelican Lake under a pink and orange sunset, with palms along the shore](/images/juno-beach/pelican-lake-fountain-sunset.webp "Pelican Lake at the Juno Beach Town Center, at sunset. || Photo by John Oliver"){1400x1050}
 
-![Beach access boardwalk at sunrise in Juno Beach, Florida](/images/juno-beach/juno-beach-037.jpg "The accesses away from the pier are where residents actually go — short boardwalks, no parking structure, and usually nobody else.")
+At the Town Center, [Pelican Lake](https://www.juno-beach.fl.us/1322/Pelican-Lake) has a lakeside path, benches and a gazebo, a different view from the ocean side of town.
 
-## Sunrise on the pier
+## Juno Dunes Natural Area: two sides of the landscape
 
-Not hidden as a location, but a completely different experience depending on the hour. At dawn the pier belongs to anglers, walkers, and dolphins, with the sun coming straight up out of the Atlantic. By mid-morning it's a different place entirely.
+[Juno Dunes Natural Area](https://discover.pbc.gov/erm/NaturalAreas/Juno-Dunes.aspx) is a 569-acre county natural area that connects Atlantic and Intracoastal settings. It's open sunrise to sunset, and it has two tracts:
 
-This is the thing longtime residents mention first when asked what they love about living here, and it costs nothing.
+- **The oceanfront tract** (14200 U.S. Highway 1) sits on an ancient sand dune. A paved, accessible trail leads to a covered observation platform, and sandy hiking trails lead to the Atlantic. Parking is at Loggerhead Park, where there are restrooms.
+- **The west tract** (14501 U.S. Highway 1) has its own parking lot and several trails: the paved Sawgrass Trail (0.21 miles), the sandy Scrub Oak Trail (1.8 miles, to the Intracoastal) and the sandy Scrub Hickory Trail (2.1 miles), plus a boardwalk through a sawgrass wetland, an observation tower over a basin marsh, and floating docks for boaters arriving from the Intracoastal.
 
-## Sea turtle releases
+Stay on marked trails, follow posted rules, bring water and sun protection, and leave the area as you found it.
 
-When the Loggerhead Marinelife Center returns a rehabilitated turtle to the ocean, it's an event — and a genuinely only-in-Juno one. Locals turn out and treat it like a neighborhood gathering.
+## Loggerhead Marinelife Center: conservation in real time
 
-Each released turtle gets a name, a tracking tag, and a page in the Center's release records. Watching one make the last few yards to the water is the kind of thing that converts a new resident into someone who volunteers here.
+[Loggerhead Marinelife Center](https://marinelife.org/) is a nonprofit sea turtle research, rehabilitation, education and conservation center in Loggerhead Park. It rewards repeat visits, because what you see depends on the patients in care and the programs running at the time.
 
-Release timing depends on the turtles rather than the calendar — follow the Center for announcements.
+Two things are worth knowing:
 
-## Juno Dunes Natural Area
+- **Releases depend on nature and safety.** When the Center returns a rehabilitated turtle to the ocean, it may announce a public release, but there's no fixed schedule. Follow the Center's announcements rather than planning a trip around one.
+- **Hatchling programs are seasonal, with no guarantee.** The Center describes its [hatchling release program](https://marinelife.org/sea-turtle-hatchling-release-in-florida/) as dependent on how many nests are excavated and how many hatchlings are found, so hatchlings aren't guaranteed on a given night. It sets its own age, walking and no-photography rules.
 
-Two trails, one through coastal scrub and one toward the dunes, protecting one of the last intact coastal scrub habitats in Palm Beach County. Gopher tortoises and scrub jays live in it.
+Check the Center's site for current visiting hours, programs and volunteer opportunities. On the beach, keep your distance from nesting sea turtles and marked nests; our [Juno Beach local guide](/blog/local-guide-to-juno-beach-florida) covers turtle-season etiquette.
 
-Most people driving A1A have no idea it's there. It's free, it's almost never busy, and it's a genuinely different landscape from the beach a few hundred yards east.
+## Juno Beach Park and the pier: practical local use
 
-## Loggerhead Park's quieter corners
+The pier is a landmark, not a secret, but plenty of visitors don't know how [Juno Beach Park](https://discover.pbc.gov/parks/Locations/Juno-Beach.aspx) works. The county park, at 14775 U.S. Highway 1, is open sunrise to sunset and has a guarded swimming area, parking, picnic shelters, restrooms, outdoor showers and the 990-foot pier. Fishing is allowed from the pier but not in guarded swimming areas.
 
-Beyond the turtle center, the surrounding park has walking paths and shaded picnic spots that visitors walk straight past on their way to the tanks. It's the town's main non-beach green space and it's underused.
+![The Juno Beach Pier and pier house over the Atlantic, seen past sea grape on the dune](/images/juno-beach/juno-beach-pier-sea-grape.webp "The Juno Beach Pier and pier house. || Photo by John Oliver"){640x640}
 
-## The lakes and inland green space
+The [Juno Beach Pier](https://marinelife.org/juno-beach-pier/) is a county facility managed by Loggerhead Marinelife Center. It isn't free: the Center lists a daily spectator fee and a separate fishing fee, and its hours change by season. Refurbishment work began on June 1, 2026 and is being done in sections, so check the pier page for current hours, fees and closures before you go.
 
-A short drive inland from the beach, the area's lakeside parks and walking paths offer sunset views that are entirely different in character from the ocean side — calmer water, better light on the palms, and almost no one around.
+Before swimming, check Palm Beach County's [beach conditions](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) and the flags at the lifeguard tower, and follow lifeguard instructions. Conditions change; official information beats a glance at the water.
 
-Residents who only ever go east miss this completely.
+## Juno Park and the Intracoastal: a water-access alternative
 
-![Lakeside gazebo at sunset near Juno Beach, Florida](/images/juno-beach/juno-beach-002.jpg "Sunset is on the west side. A lot of residents never think to turn around.")
+On the Intracoastal side, Palm Beach County's [Juno Park](https://discover.pbc.gov/parks/Locations/Juno.aspx), at 2090 Juno Road, has a public boat ramp. The county lists ramp hours as sunrise to sunset, with no overnight parking, and boat-trailer parking needs a daily or annual permit ([county boating information](https://discover.pbc.gov/parks/amenities/boating.aspx)).
 
-## The Intracoastal boat parade
+It's a starting point for people with their own appropriate boats and equipment. Check current access, site rules, weather and safety requirements before you launch.
 
-A seasonal fixture rather than a place. When the lighted boat parade runs the Intracoastal, the whole area turns out — bridges up, boats lit, and the one evening a year when this determinedly quiet stretch of coast does something genuinely festive.
+## A small museum many visitors miss
 
-![Lighted boat parade and fireworks on the Intracoastal at dusk](/images/juno-beach/juno-beach-036.jpg "One night a year, the quietest stretch of coast in the county puts on a show.")
+The [Aviation Museum on the Beach](https://aviationmuseumonthebeach.com/), at 790 Juno Ocean Walk, displays more than 1,000 commercial model airplanes along with aviation memorabilia. Check its site for current hours before you go. For more ideas, see our guide to [things to do in Juno Beach](/blog/best-things-to-do-in-juno-beach-florida).
 
-## The pier at night
+## Before you go
 
-Different town after dark. The pier lights draw fish, which draws anglers, and the whole atmosphere shifts from the morning walking crowd to something quieter and more focused.
-
-Even if you never fish, it's worth walking out once after sunset. On a clear night with the beach dark behind you — because of the turtle lighting ordinances — the sky over the Atlantic is considerably better than you'd expect this close to a metro area.
-
-## Shelling and the aftermath of a blow
-
-Not something anyone advertises, but a real local habit. After a stretch of onshore wind or a passing storm, the beach here can turn up genuinely good shelling — and because the beach is lightly used, it doesn't get picked over within an hour the way busier stretches do.
-
-Residents check the beach the morning after weather for exactly this reason. It's a small pleasure, it's free, and it's the kind of thing you only learn by living somewhere.
-
-## Watching the sea state from the pier
-
-Surfers and anglers both use the pier to read conditions before committing to anything. If you're new to living on the ocean, standing at the rail for ten minutes and watching how the water is actually behaving is the fastest education available — swell direction, current, where the sandbars have moved since the last storm.
-
-It becomes second nature within a year, and it's genuinely useful if you plan to swim, fish, or paddle here regularly.
-
-## Beach walking at low tide
-
-A small thing that changes the experience entirely. At low tide the hard-packed sand widens substantially and you can walk for a long way in either direction without leaving the firm strip.
-
-Locals check the tide chart before a morning walk the way people elsewhere check the weather. Do it once and you'll understand why.
-
-## Volunteering at the Marinelife Center
-
-The least obvious entry on this list and probably the most valuable for a new resident.
-
-In a town of roughly 3,700 people with no downtown and no nightlife, the Center is the main civic institution. Volunteering there is the most reliable way to actually meet people, and it plugs you into the thing the town most cares about.
-
-If you move here and want a community rather than just a mailing address, this is the shortest path to one.
-
-## Why these matter
-
-Juno Beach doesn't reveal itself to visitors. Drive through and you'll see a nice beach, a pier, and some condos, and you'll wonder what the premium is for.
-
-The things on this list are the answer — and they're the reason people who move here for the quiet end up staying for the community. Work through a few of them in your first few months, and go at dawn at least once.`,
+- [ ] **Check current beach conditions and flags** with Palm Beach County before swimming.
+- [ ] **Check the pier's hours, fees and construction notices** with Loggerhead Marinelife Center.
+- [ ] **Use official trail and park information** for Juno Dunes, Juno Beach Park and Juno Park.
+- [ ] **Confirm program availability directly with Loggerhead Marinelife Center.**
+- [ ] **Follow posted wildlife, parking and access rules.**
+- [ ] **Bring water and sun protection.**
+- [ ] **Leave natural areas and beaches as you found them.**`,
     faqs: [
-      { q: "What are the hidden gems in Juno Beach?", a: "The quiet beach accesses away from the pier, sunrise on the Juno Beach Pier, sea turtle releases at the Loggerhead Marinelife Center, the trails at Juno Dunes Natural Area, the quieter corners of Loggerhead Park, inland lakeside parks for sunset, and the seasonal Intracoastal boat parade." },
-      { q: "Where is the least crowded beach in Juno Beach?", a: "The accesses at the north and south ends of Ocean Drive, away from the pier where most people park. They're short boardwalks through sea grape and are consistently emptier, often dramatically so on a weekday." },
-      { q: "Can you watch a sea turtle release in Juno Beach?", a: "Yes. When the Loggerhead Marinelife Center returns a rehabilitated turtle to the ocean, locals turn out for it. Timing depends on the turtles rather than a schedule, so follow the Center for announcements. Each released turtle is named, tagged, and logged." },
-      { q: "What are free things to do in Juno Beach?", a: "Most of the best of it — the beaches and their access boardwalks, walking the pier, the Loggerhead Marinelife Center itself, the trails at Juno Dunes Natural Area, and Loggerhead Park's paths and picnic areas." },
-      { q: "How do you meet people in Juno Beach?", a: "Volunteering at the Loggerhead Marinelife Center is the most reliable route. In a town of roughly 3,700 people with no downtown or nightlife, the Center is the main civic institution and the thing the community most organizes around." },
-      { q: "Is there anything to do in Juno Beach besides the beach?", a: "Juno Dunes Natural Area has trails through rare coastal scrub, Loggerhead Park has paths and picnic areas, the Marinelife Center runs year-round programming, and inland lakeside parks offer a different setting for sunset. Beyond that, Jupiter and Palm Beach Gardens are both about ten minutes away." },
+      { q: "What are some lesser-known things to do in Juno Beach?", a: "The Town's self-guided Discover Juno Beach Tour of 23 historical landmarks and sites, the oceanfront and west tracts of Juno Dunes Natural Area, Loggerhead Marinelife Center, Pelican Lake at the Town Center, the Juno Park boat ramp on the Intracoastal, and the Aviation Museum on the Beach. Check current hours, conditions and rules before you go." },
+      { q: "Is the Juno Beach Pier free?", a: "No. Loggerhead Marinelife Center, which manages the county-owned pier, lists a daily spectator fee and a separate fishing fee, and the pier's hours change by season. Refurbishment work began on June 1, 2026, so check the pier page for current hours, fees and closures." },
+      { q: "Can I see a sea turtle release in Juno Beach?", a: "Possibly, but it isn't guaranteed. Releases of rehabilitated turtles depend on nature and safety and have no fixed schedule, and hatchling programs are seasonal and depend on nest excavations. Follow Loggerhead Marinelife Center's current announcements." },
+      { q: "When is Juno Dunes Natural Area open?", a: "Sunrise to sunset. It has two tracts: an oceanfront tract with an observation platform and trails to the beach, parking at Loggerhead Park, and a west tract with its own parking lot, several trails, a sawgrass boardwalk, an observation tower and floating docks on the Intracoastal." },
+      { q: "Where can I launch a boat in Juno Beach?", a: "Palm Beach County's Juno Park, at 2090 Juno Road, has a public boat ramp. The county lists ramp hours as sunrise to sunset with no overnight parking, and boat-trailer parking needs a daily or annual permit. Check current access, site rules, weather and safety requirements before launching." },
+      { q: "How do I check beach conditions in Juno Beach?", a: "Use Palm Beach County's beach conditions page and the flags at the lifeguard tower, and follow lifeguard instructions. Juno Beach Park has a guarded swimming area; check the county's park page for current details." },
     ],
-    internalLinks: ['best-things-to-do-in-juno-beach-florida', 'local-guide-to-juno-beach-florida', 'what-its-really-like-living-in-juno-beach-florida'],
-    funFact: "Juno Dunes Natural Area protects one of the last intact coastal scrub habitats in Palm Beach County — a rare Florida ecosystem that's home to gopher tortoises and scrub jays. Most people driving down A1A have no idea there are marked trails a few steps off the road.",
+    internalLinks: ['best-things-to-do-in-juno-beach-florida', 'local-guide-to-juno-beach-florida', 'who-should-move-to-juno-beach-florida'],
+    funFact: "Today's Town Center sits at the end of what was Mercury Road, where Juno Beach's original 500-foot fishing pier was built in the 1940s. A storm destroyed that pier in 1984. The Town's Discover Juno Beach Tour is a good way to find spots like this, where the town's history isn't obvious from the street.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'juno-beach-vs-nearby-cities',
