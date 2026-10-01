@@ -241,8 +241,8 @@ export default function TeamPage() {
               </p>
               <div className="space-y-1 text-sm text-slate-600">
                 <p>Premier Brokers International</p>
-                <p>9123 North Military Trail, Suite 104</p>
-                <p>Palm Beach Gardens, FL 33410</p>
+                <p>4658 Northlake Boulevard, Suite 103</p>
+                <p>Palm Beach Gardens, FL 33418</p>
                 <a
                   href="tel:+15617837733"
                   aria-label="Call Premier Brokers International at (561) 783-7733"

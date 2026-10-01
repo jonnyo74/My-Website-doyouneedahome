@@ -206,8 +206,8 @@ export default async function AgentValuationPage({ params }: Props) {
           <div className="mt-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-card">
             <p className="text-sm leading-7 text-slate-600">{agent.bio}</p>
             <p className="mt-4 text-xs text-slate-500">
-              Florida license #{agent.license} · Premier Brokers International, 9123 North Military
-              Trail, Suite 104, Palm Beach Gardens, FL 33410
+              Florida license #{agent.license} · Premier Brokers International, 4658 Northlake
+              Boulevard, Suite 103, Palm Beach Gardens, FL 33418
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               <Link

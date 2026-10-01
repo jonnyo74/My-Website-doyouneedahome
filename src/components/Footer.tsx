@@ -45,8 +45,8 @@ export default function Footer() {
               <p className="text-sm text-slate-400">Christine Dekant &amp; John Oliver</p>
             </div>
             <div className="space-y-2 text-sm">
-              <p>9123 North Military Trail Suite 104</p>
-              <p>Palm Beach Gardens, FL 33410</p>
+              <p>4658 Northlake Boulevard, Suite 103</p>
+              <p>Palm Beach Gardens, FL 33418</p>
               <a href="tel:+15617837733" className="block pt-1 transition hover:text-white">
                 (561) 783-7733
               </a>

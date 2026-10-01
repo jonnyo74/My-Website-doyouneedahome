@@ -660,7 +660,7 @@ export default function SkywardStreetPage() {
                   <p className="mt-1 text-sm text-[#f5f2eb]/70">
                     Premier Brokers International
                     <br />
-                    9123 N. Military Trail, Suite 104, Palm Beach Gardens, FL 33410
+                    4658 Northlake Blvd., Suite 103, Palm Beach Gardens, FL 33418
                   </p>
                   <div className="mt-4 flex flex-wrap gap-x-8 gap-y-2 text-sm">
                     <a href="tel:+15617863630" className="text-[#93c4cb] underline-offset-4 transition hover:text-[#f5f2eb] hover:underline">
@@ -740,8 +740,8 @@ export default function SkywardStreetPage() {
             <span className="sky-num">$2,799,999</span>
           </p>
           <p className="mt-3 text-sm text-[#f5f2eb]/70">
-            Listed by John Oliver · Premier Brokers International · 9123 N. Military Trail, Suite
-            104, Palm Beach Gardens, FL 33410 · (561) 786-3630
+            Listed by John Oliver · Premier Brokers International · 4658 Northlake Blvd., Suite
+            103, Palm Beach Gardens, FL 33418 · (561) 786-3630
           </p>
           <div className="mt-8 max-w-4xl space-y-3 border-t border-[#f5f2eb]/15 pt-6 text-xs leading-6 text-[#f5f2eb]/50">
             <p>

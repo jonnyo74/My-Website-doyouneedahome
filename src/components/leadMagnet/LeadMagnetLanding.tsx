@@ -57,10 +57,10 @@ export default function LeadMagnetLanding({
     email: 'info@doyouneedahome.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '9123 North Military Trail, Suite 104',
+      streetAddress: '4658 Northlake Boulevard, Suite 103',
       addressLocality: 'Palm Beach Gardens',
       addressRegion: 'FL',
-      postalCode: '33410',
+      postalCode: '33418',
       addressCountry: 'US',
     },
     areaServed: 'Palm Beach County, Martin County and St. Lucie County, FL',

@@ -82,9 +82,9 @@ export default function ContactPage() {
                 <p className="font-semibold text-slate-900">DO Homes Group</p>
                 <p className="mt-1 text-sm text-slate-500">Premier Brokers International</p>
                 <div className="mt-5 space-y-1.5 text-sm text-slate-600">
-                  <p>9123 North Military Trail</p>
-                  <p>Suite 104</p>
-                  <p>Palm Beach Gardens, FL 33410</p>
+                  <p>4658 Northlake Boulevard</p>
+                  <p>Suite 103</p>
+                  <p>Palm Beach Gardens, FL 33418</p>
                 </div>
                 <a
                   href="tel:+15617837733"
