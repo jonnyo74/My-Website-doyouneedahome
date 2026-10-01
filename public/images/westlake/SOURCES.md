@@ -19,7 +19,7 @@ Because of that, alt text says "a Minto model home in Westlake", credits carry t
 
 ## Blog article heroes
 
-Article #10 (eat, drink, hang out) are about the city, not the houses, so model-home interiors would misrepresent them. They have no hero until real community photos exist. #2 (local guide), #4 (things to do) and #8 (hidden gems) got exterior heroes in their 2026-10-01 rebuilds; see their rows below.
+Article #10 (eat, drink, hang out) is about the city, not the houses, so model-home interiors would misrepresent it. It has no hero until real community photos exist. #2 (local guide), #4 (things to do), #8 (hidden gems) and #9 (vs nearby communities) got exterior heroes in their 2026-10-01 rebuilds; see their rows below.
 
 | Article | Hero file | Cut from | Crop | Why it fits |
 |---|---|---|---|---|
