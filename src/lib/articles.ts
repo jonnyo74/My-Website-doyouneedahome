@@ -1359,106 +1359,165 @@ Juno Beach can be compelling if beach access and a compact coastal setting are n
     cityName: 'Juno Beach',
     type: 'Cost Of Living In',
     order: 7,
-    seoTitle: 'Cost of Living in Juno Beach, Florida',
-    metaTitle: 'Cost of Living in Juno Beach, Florida',
-    metaDescription: 'What it costs to live in Juno Beach, Florida — housing, taxes, and insurance in this pricey barrier-island beach town, with the local market context.',
+    seoTitle: 'Cost of Living in Juno Beach, FL: What to Budget Before You Buy',
+    metaTitle: 'Cost of Living in Juno Beach, FL: What to Budget Before You Buy',
+    metaDescription: 'Plan a Juno Beach budget beyond the purchase price: property taxes, insurance, condo costs, utilities, maintenance, and address-level due diligence.',
     primaryKeyword: 'cost of living in Juno Beach Florida',
-    secondaryKeywords: ['Juno Beach home prices', 'is Juno Beach expensive', 'Juno Beach FL cost of living'],
+    secondaryKeywords: ['Juno Beach property taxes', 'Juno Beach insurance costs', 'Juno Beach condo costs', 'Juno Beach homeownership budget'],
     h1: 'Cost of Living in Juno Beach, Florida',
-    heroImage: '/images/juno-beach/juno-beach-010.jpg',
-    showMarketTrends: true,
-    body: `Juno Beach runs above the national average and above most of Palm Beach County. It's a small, barrier-island beach town with capped supply, and the cost reflects exactly that.
+    heroImage: '/images/juno-beach/beach-access-chickee-hero.webp',
+    heroImageAlt: 'A thatched chickee with benches at a beach access, shaded by sea grape branches, looking out over a railing to turquoise ocean, with a Palm Beach County parks sign at right',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    marketTrendsCaption: 'Live MLS list-price data only: asking prices, not closed sales.',
+    editorial: {
+      eyebrow: 'Juno Beach · Ownership Costs',
+      deck: 'Property taxes, insurance, condo obligations, maintenance and household spending: how to build a budget for a specific Juno Beach address, and what to verify before you make an offer.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/juno-beach/beach-access-chickee-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/juno-beach/beach-access-chickee-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A chickee at a Palm Beach County beach access in Juno Beach.',
+      primaryCta: { label: 'Explore Juno Beach', href: '/communities/juno-beach' },
+      secondaryCta: { label: 'Juno Beach neighborhoods and areas', href: '/blog/best-neighborhoods-in-juno-beach-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      // One report offer, after the budget guidance: no mid-body interruption
+      // and no repeat near the FAQs.
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `**There's no single Juno Beach cost-of-living number worth trusting.** What you'll actually spend depends mostly on the property and building you choose: a condominium in an older oceanfront building, a newer one, and a single-family home a few streets away can carry very different costs at a similar price.
 
-The useful thing to understand here isn't that it's expensive — it's *why*, and which specific line items behave differently from an inland purchase.
+The purchase price is only the first line. Property taxes, insurance, association obligations, maintenance, utilities and your own household spending each need their own review, and most of them can be checked for a specific address before you make an offer. Here's how to build that budget.
 
-## Housing, and the supply problem
+## Your budget map
 
-Housing is the dominant cost, and Juno Beach has a structural constraint most towns don't.
+| Cost category | What changes it | What to verify before an offer |
+|---|---|---|
+| Purchase price and financing | Property type, condition, location, loan terms | Comparable active listings and recent sales; your lender's terms |
+| Property taxes | Assessed value, exemptions, millage, non-ad valorem assessments | The Property Appraiser's tax estimate for the exact address |
+| Homeowners, wind and flood coverage | Building, roof, mitigation, flood exposure, insurer, policy | Binding quotes, deductibles, exclusions and lender requirements |
+| Condo or HOA costs | What the association covers, its budget, reserves and insurance | Budget, financials, reserves, inspections, minutes and assessments |
+| Maintenance and building condition | Age, systems, roof, exposure to salt and sun | Inspection findings and maintenance or permit history |
+| Utilities and services | The home's systems, occupancy, usage, what the association includes | Which utilities and services are included, and recent bills if available |
+| Lifestyle and travel | Your household's habits | Your own routes and routines |
 
-The town is roughly two square miles. It's on a barrier island, so it cannot expand outward. And **strict height limits mean it cannot expand upward either.** Supply is effectively fixed by policy on land that was already finite.
+## Housing: compare the right properties
 
-That's the mechanism behind the pricing. Oceanfront and beach-adjacent property commands a premium anywhere, but here it's compounded by a housing stock that isn't going to grow.
+Juno Beach is small and coastal, so the homes that fit a particular buyer at any given time can be a short list. That doesn't mean supply is fixed. The Town's zoning ranges from single-family districts to multifamily and residential-high districts, and the Town says its residential-high district allows buildings of up to 12 stories and 130 feet ([Town of Juno Beach](https://www.juno-beach.fl.us/1272/Live-Local-Act)). Its [history](https://www.juno-beach.fl.us/DocumentCenter/View/451/Jb-History?bidId=) notes that The Tower, built in 1972, was the town's first 12-story condominium.
 
-For current figures, check the **live market trends further down this page** — that pulls from the local MLS and won't go stale the way a number in an article would.
+Rather than compare price per square foot across towns, compare complete carrying costs across the homes you'd actually buy. Line them up by:
 
-What's more useful directionally: the same dollar figure that buys an oceanfront condo here would often buy more square footage in Jupiter or on Singer Island, or a considerably larger inland property in Palm Beach Gardens. **The premium is for the uncrowded beach and the low density, not for space.** Buyers who understand that going in are rarely disappointed. Buyers comparing price per square foot across towns usually conclude Juno Beach looks bad on paper, and they're right — that's not what they're buying.
+- **Property type:** condominium, townhome, single-family or other.
+- **Building age and condition,** including the roof and major systems.
+- **Proximity to the ocean or other water,** and the exposure that comes with it.
+- **Included services,** such as insurance, water, cable or exterior maintenance.
+- **Association structure:** one association, several, or none.
+- **Maintenance exposure:** what you'd be responsible for yourself.
+- **Exact location and day-to-day access,** including parking and beach access from that address.
 
-![Beach access boardwalk at sunrise in Juno Beach, Florida](/images/juno-beach/juno-beach-037.jpg "What the premium actually buys: a beach that stays uncrowded, protected by policy rather than by luck.")
+Our guide to [Juno Beach neighborhoods and areas](/blog/best-neighborhoods-in-juno-beach-florida) explains how the in-town areas differ.
 
-## Insurance — budget harder than you think
+## Property taxes: calculate, don't inherit the listing number
 
-This is the line item most likely to surprise you, and on a barrier island it deserves more attention than almost anywhere else in the county.
+The tax figure on a listing usually reflects the current owner's bill, based on their assessed value and exemptions. It may not represent what you'll pay.
 
-Coastal and oceanfront exposure drives homeowners premiums, and they've risen sharply across Florida in recent years. Two things to understand:
+In plain English, a Palm Beach County tax bill works like this ([Property Appraiser](https://pbcpao.gov/trim/tax-calculated.htm)):
 
-**Premiums vary enormously between comparable properties.** Roof age and material, wind mitigation features like impact glass and shutters, construction year relative to the post-1994 and post-2002 building codes, distance to the water, and claims history all move the number substantially. A **wind mitigation inspection** is inexpensive and frequently pays for itself many times over.
+- **Assessed value.** The Property Appraiser values property as of January 1 ([residential appraisal](https://pbcpao.gov/departments/residential.htm)). Assessed value is that value after any assessment limitation; the Property Appraiser says increases are capped at 3% a year for homesteaded properties and 10% for non-homesteaded properties.
+- **Exemptions** reduce assessed value to taxable value.
+- **Millage** is the tax rate: dollars per $1,000 of taxable value, set by the taxing authorities.
+- **Non-ad valorem assessments** are charges for services that aren't based on the property's value.
 
-**Flood insurance is separate and is not covered by a standard homeowners policy.** On a barrier island this is not a theoretical concern. Pull the FEMA flood zone for the specific address before you get attached to it, and understand what your lender will require.
+The practical step: run the Property Appraiser's [property tax calculator](https://pbcpao.gov/Property/TaxCalculator) for the exact address. It asks for your purchase price and whether you intend to homestead the property, and gives you an estimate to budget against instead of the seller's bill.
 
-Get real quotes **during your inspection period**, not after. An older roof can make a property difficult to insure at any reasonable price, which affects financing and shrinks your buyer pool at resale.
+### Homestead and portability
 
-## Condo association costs — the other big variable
+If the home will be your permanent residence, the [homestead exemption](https://pbcpao.gov/homestead-exemption.htm) may reduce its taxable value and bring the Save Our Homes cap on annual assessment increases. In Palm Beach County, applicants must be eligible as of January 1 and file by March 1 of the year the benefit applies; the Property Appraiser describes a separate late-file process. Eligibility depends on your circumstances.
 
-Juno Beach is condo-heavy, particularly near the water, which makes association health a central part of your cost picture rather than a detail.
+If you're moving from a Florida homestead, [portability](https://pbcpao.gov/portability.htm) may let you transfer all or part of your accumulated Save Our Homes benefit, up to $500,000, to a new homestead, subject to timing and eligibility rules. It needs its own application.
 
-- **Monthly dues** vary widely by what's included — some cover only common areas, others bundle insurance, cable, water, and exterior maintenance.
-- **The building's master insurance policy** is a large driver of dues in coastal buildings, and it has been rising.
-- **Reserve funding.** Since Florida tightened structural reserve requirements for older buildings, some associations have raised dues significantly or levied special assessments to catch up.
+Florida doesn't impose a personal income tax, according to the [Florida Department of Revenue](https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466). None of this is tax advice: your overall tax situation needs a qualified tax professional.
 
-**Read the reserve study and the last two years of meeting minutes before you commit.** This is not optional homework in a coastal condo market. A well-funded association with higher dues is frequently a better financial position than a cheap one facing a deferred assessment.
+## Insurance and flood: get address-level answers
 
-## The tax picture
+Coverage, pricing, deductibles, availability and lender requirements vary with the property, the insurer, the policy, roof and construction features, flood exposure, claims history and your own circumstances. Standard homeowners policies generally don't cover flood damage; flood coverage is usually a separate policy, though some insurers offer it as an endorsement ([Florida Department of Financial Services](https://myfloridacfo.com/division/ica/fullcoverage/flood)).
 
-**Florida has no state income tax.** For retirees drawing down retirement accounts, remote workers, and anyone relocating from a higher-tax state, that's a recurring annual benefit that offsets a meaningful share of the housing cost. It's the most common reason buyers tell us the math worked.
+During due diligence:
 
-On property taxes, one quirk catches nearly every out-of-state buyer: **the tax figure on a listing usually reflects the current owner's bill**, which may be protected by caps that don't transfer to you. Assessed value generally resets toward market value in the year after a sale. Budget against a reset assessment rather than the seller's historical number.
+- [ ] **Get property-specific quotes** for homeowners, wind and flood coverage.
+- [ ] **Ask about exclusions, deductibles,** wind or hurricane provisions and flood options.
+- [ ] **Confirm your lender's requirements** in writing.
+- [ ] **Review the roof's age, permits and any wind-mitigation documentation,** and ask whether documented features would affect your quote.
+- [ ] **Ask for claims and maintenance information** where it's available.
+- [ ] **Check the Town's [flood hazard information](https://www.juno-beach.fl.us/flood-hurricane/page/flood-hazard-information),** which includes flood map determinations.
+- [ ] **Talk to licensed insurance professionals** before you commit.
 
-If the home will be your **primary residence**, filing for Homestead Exemption reduces taxable value and triggers the Save Our Homes cap limiting annual increases. There's a filing deadline early in the year after purchase, and missing it costs a full year. Non-homestead property — second homes and investments, both common here — is capped less generously, without the cap applying to school district levies.
+## Condo and HOA costs: inspect the building, not just the dues
 
-Moving within Florida? **Portability** may let you carry a substantial share of an accumulated Save Our Homes benefit to a new homestead. Separate form, separate timing rules, routinely left unclaimed.
+Monthly dues tell you what the association charges today, not what the building needs. Two buildings with similar dues can be in very different financial and physical shape. As applicable, review:
 
-Exemption amounts, caps, deadlines, and millage rates are set by the county, the town, and the school board, and they change. Verify with the Palm Beach County Property Appraiser and Tax Collector, and consult a CPA about your situation.
+- The **current budget and financial statements.**
+- **Reserve information,** and structural integrity reserve materials where they're required.
+- **Inspection reports** and planned or recent **repair projects.**
+- The **master insurance summary,** its deductibles, and what the unit owner must insure.
+- The **governing documents.**
+- Recent **meeting minutes.**
+- Any **pending, recent or disclosed special assessments.**
+- Building-specific **maintenance, litigation and financing** considerations.
 
-## Everyday costs
+Florida law sets reserve and structural integrity reserve study requirements for condominium associations, and which ones apply depends on the building ([section 718.112, Florida Statutes](https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0718/Sections/0718.112.html)). Review the documents with qualified advisers. Our [Florida condo buyer's due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists what to request.
 
-Utilities and groceries track close to the Florida average. Electric is the swing cost — summer air conditioning does most of the damage from roughly June through September.
+## Ongoing household costs
 
-Dining is where the town's geography shows up in your budget. With very limited in-town options, most of your restaurant spending happens in Palm Beach Gardens or Jupiter, which also means you're driving to it. Lawn and pest service are standing monthly costs; things grow year-round and salt air is hard on everything.
+![Turquoise surf washing up a shell-scattered beach in Juno Beach](/images/juno-beach/shoreline-surf-close.webp "The shoreline in Juno Beach. || Photo by John Oliver"){1400x1050}
 
-Salt exposure deserves a mention of its own — near the water, HVAC units, fixtures, screens, and exterior finishes degrade faster than they would inland. Budget for shorter replacement cycles.
+Some costs belong to the address; others belong to your household.
 
-## Running your own number
+- **Utilities and services** depend on the home's systems, occupancy and usage, and on what an association already includes.
+- **Maintenance.** Near the water, salt air and sun can be hard on exterior finishes, screens, fixtures and outdoor equipment. Ask your inspector what they see, review the maintenance history, and plan a maintenance reserve.
+- **Dining, commuting, recreation and travel** are household choices, not fixed Juno Beach costs.
 
-Build the full monthly figure for a **specific address**:
+## Build a realistic monthly and annual budget
 
-- Mortgage principal and interest
-- Property taxes **at a reset assessment**, homestead applied if primary
-- Homeowners insurance, actually quoted
-- **Flood insurance** — assume you need it until you've confirmed otherwise
-- HOA or condo dues, **plus any pending or recent special assessment**
-- Electric, water, internet
-- Lawn and pest service
+**Address-specific**
 
-Then set that against what you're leaving behind, including the state income tax you'll stop paying.
+- [ ] Principal and interest
+- [ ] Property tax estimate for the exact address
+- [ ] Insurance quotes, and the deductibles you'd carry
+- [ ] HOA or condo dues
+- [ ] Known assessments, and any reserve or repair exposure
+- [ ] Utilities an association doesn't include
+- [ ] A maintenance reserve
+
+**Household-specific**
+
+- Food and dining
+- Transportation
+- Travel
+- Services
+- Recreation and discretionary spending
+
+Then compare the full carrying cost across your actual candidate homes, not just the list price or the price per square foot.
 
 ## The bottom line
 
-Juno Beach is a premium small town, and the premium is real. What you're buying is a capped-supply, low-density, genuinely uncrowded beach — offset meaningfully by no state income tax and by a location that puts far larger towns within ten to fifteen minutes.
-
-Weigh housing, insurance, and condo association health carefully. Those three, not the mortgage, are what determine whether this town works for your budget.`,
+Juno Beach can carry meaningful ownership-cost tradeoffs, but the right answer comes from the individual property and building, your financing, the insurance you can get, your tax eligibility and how you live. Leave with a verification plan, not a general verdict. Our look at the [pros and cons of living in Juno Beach](/blog/pros-and-cons-of-living-in-juno-beach-florida) covers the tradeoffs beyond cost.`,
     faqs: [
-      { q: "Is Juno Beach, Florida expensive?", a: "Yes, above both the national average and most of Palm Beach County. The town is roughly two square miles on a barrier island with strict height limits, so housing supply is effectively fixed by policy. Insurance and condo association costs are the other two major line items." },
-      { q: "Why is Juno Beach so expensive?", a: "Supply is structurally capped. The town can't expand outward because it's on a barrier island, and it can't expand upward because of strict height restrictions. The premium buys an uncrowded, low-density beach rather than square footage — the same money often buys more space in Jupiter, Singer Island, or Palm Beach Gardens." },
-      { q: "How much is insurance in Juno Beach?", a: "It's a significant coastal cost and varies enormously between comparable properties based on roof age, wind mitigation features, construction year, distance to the water, and claims history. Flood insurance is separate from a standard homeowners policy and should be assumed necessary on a barrier island until confirmed otherwise. Get quotes during your inspection period." },
-      { q: "What should I check before buying a condo in Juno Beach?", a: "The reserve study, the association's funding level, the building's master insurance policy, the last two years of meeting minutes, and any pending special assessment. Florida tightened structural reserve requirements for older buildings, and some coastal associations have raised dues substantially or levied assessments as a result." },
-      { q: "Will my property taxes match what's on the listing?", a: "Usually not. The figure shown typically reflects the current owner's bill, which may be protected by caps that don't transfer to a new buyer. Assessed value generally resets toward market value in the year after a sale. Budget against a reset assessment and verify with the Palm Beach County Property Appraiser." },
-      { q: "Does Juno Beach have a state income tax?", a: "No — Florida has no state income tax, which is a recurring annual benefit for retirees, remote workers, and anyone relocating from a higher-tax state, and it offsets a meaningful share of the higher housing cost." },
+      { q: "Is Juno Beach expensive to live in?", a: "There's no single citywide number worth relying on. Costs depend mostly on the property and building: the price, property taxes, insurance, association obligations, maintenance and utilities, plus your own household spending. Compare the full carrying cost of the specific homes you're considering." },
+      { q: "How do I estimate property taxes for a Juno Beach home?", a: "Run the Palm Beach County Property Appraiser's property tax calculator for the exact address. It asks for your purchase price and whether you intend to homestead the property. Tax bills depend on assessed value, exemptions, millage rates and non-ad valorem assessments." },
+      { q: "Will my property taxes match the listing?", a: "Not necessarily. A listing's tax figure usually reflects the current owner's assessed value and exemptions, which may not represent your future bill. Use the Property Appraiser's calculator instead of the seller's bill." },
+      { q: "Do I need flood insurance in Juno Beach?", a: "It depends on the property and your circumstances. Standard homeowners policies generally don't cover flood damage, and flood coverage is usually a separate policy or, with some insurers, an endorsement. Get property-specific quotes and confirm your lender's requirements during due diligence." },
+      { q: "What should I review before buying a condo in Juno Beach?", a: "As applicable: the current budget and financial statements, reserve information and any required structural integrity reserve materials, inspection reports and repair projects, the master insurance summary and deductibles, the governing documents, meeting minutes, and any pending, recent or disclosed special assessments. Review them with qualified advisers." },
+      { q: "When do I file for homestead in Palm Beach County?", a: "Applicants must be eligible as of January 1 and file by March 1 of the year the benefit applies, according to the Property Appraiser, which also describes a late-file process. Eligibility depends on your circumstances. Florida doesn't impose a personal income tax, but your overall tax situation needs a qualified tax professional." },
     ],
-    internalLinks: ['pros-and-cons-of-living-in-juno-beach-florida', 'best-neighborhoods-in-juno-beach-florida', 'juno-beach-vs-nearby-cities'],
-    funFact: "The clearest way to understand Juno Beach pricing is to compare what the same budget buys elsewhere: in Jupiter, Singer Island, or inland Palm Beach Gardens it typically buys noticeably more square footage. The premium here is for the uncrowded beach and the low-density, small-town atmosphere — not for space. Check the live market trends on this page for current figures.",
+    internalLinks: ['what-its-really-like-living-in-juno-beach-florida', 'pros-and-cons-of-living-in-juno-beach-florida', 'who-should-move-to-juno-beach-florida'],
+    funFact: "When you're pricing flood coverage on a Juno Beach home, ask whether an elevation certificate exists for the property. The Town keeps copies of elevation certificates at the Town Center that may be available on request, and it provides flood map determinations too.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'hidden-gems-in-juno-beach-florida',
