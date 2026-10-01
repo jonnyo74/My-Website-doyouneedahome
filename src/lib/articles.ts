@@ -1839,100 +1839,159 @@ There's no universal winner. Juno Beach may fit a buyer looking for its particul
     cityName: 'Juno Beach',
     type: 'Best Places To Eat, Drink & Hang Out In',
     order: 10,
-    seoTitle: 'Best Places to Eat, Drink & Hang Out in Juno Beach, Florida',
-    metaTitle: 'Best Places to Eat & Drink in Juno Beach, FL',
-    metaDescription: 'Where to eat, drink, and hang out in and around Juno Beach, Florida — local seafood favorites, casual breakfast spots, and nearby dining.',
+    seoTitle: 'Best Places to Eat, Drink & Hang Out in Juno Beach, FL',
+    metaTitle: 'Best Places to Eat, Drink & Hang Out in Juno Beach, FL',
+    metaDescription: 'A practical local guide to breakfast, seafood, sushi, casual drinks, gelato, and low-key hangouts in Juno Beach, Florida.',
     primaryKeyword: 'best restaurants in Juno Beach Florida',
-    secondaryKeywords: ['where to eat in Juno Beach', 'Juno Beach seafood', "Captain Charlie's Reef Grill"],
+    secondaryKeywords: ['where to eat in Juno Beach', "Captain Charlie's Original Reef Grill", "Ke'e Grill Juno Beach", 'Juno Beach Cafe', 'Thirsty Turtle Juno Beach', 'Sushi Jo Juno Beach', "Matty's Gelato Factory"],
     h1: 'Best Places to Eat, Drink & Hang Out in Juno Beach, Florida',
-    heroImage: '/images/juno-beach/juno-beach-027.jpg',
-    body: `Juno Beach's dining scene is small, and there's no point pretending otherwise. What the town has is a couple of genuine local institutions and a location that puts far more within ten minutes.
+    heroImage: '/images/juno-beach/pelican-lake-patio-lights-hero.webp',
+    heroImageAlt: 'Picnic tables on a brick patio beside Pelican Lake at dusk, with palm trunks wrapped in string lights and the lake fountain beyond',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Juno Beach · Local Dining Guide',
+      deck: 'Breakfast, seafood, sushi, casual drinks and gelato in Juno Beach, each checked on its own website, plus easy ways to pair a meal with the beach.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/juno-beach/pelican-lake-patio-lights-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/juno-beach/pelican-lake-patio-lights-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A public patio by Pelican Lake at the Juno Beach Town Center, at dusk.',
+      primaryCta: { label: 'Explore Juno Beach', href: '/communities/juno-beach' },
+      secondaryCta: { label: 'Things to do in Juno Beach', href: '/blog/best-things-to-do-in-juno-beach-florida' },
+      // A dining guide: no report offer in or after the body.
+      magnetPlacement: 'none',
+      guide: {
+        heading: 'Where to eat, drink and hang out',
+        intro: "Eating out in Juno Beach is compact and practical rather than a big restaurant district. Most of the places below sit along U.S. 1 or at Plaza La Mer, and between them they cover breakfast, seafood, sushi, a casual sports-bar meal and dessert. This is an editorial selection, not a complete list of the town's restaurants, and it isn't ranked. Each place was checked on its own website on the review date shown; addresses are as the venues list them. Hours, menus, reservations and events change, so confirm them with the venue before you go.",
+        lastReviewed: '2026-10-01',
+        categories: [
+          {
+            id: 'breakfast-daytime',
+            title: 'Breakfast and daytime',
+            places: [
+              {
+                name: 'Juno Beach Cafe',
+                body: 'A breakfast-and-lunch café on U.S. 1. Its site says breakfast is served all day, and it closes in the early afternoon, which makes it a daytime stop rather than a dinner one.',
+                bestFor: ['Breakfast', 'Lunch'],
+                area: '13967 U.S. 1',
+                note: 'Check current hours on its own site before you go.',
+                link: { label: 'Juno Beach Cafe', href: 'https://junobeachcafe.com/' },
+              },
+            ],
+          },
+          {
+            id: 'seafood-dinner',
+            title: 'Seafood and dinner',
+            intro: 'Two sit-down options with different styles. Neither is the only choice, so check menus against what you want.',
+            places: [
+              {
+                name: "Captain Charlie's Original Reef Grill",
+                body: "A seafood restaurant serving lunch and dinner, with fresh local fish and an open kitchen. According to the restaurant, Ross and Mary Beth Matheson opened it in 1989.",
+                bestFor: ['Seafood', 'Lunch', 'Dinner'],
+                area: '12846 U.S. 1',
+                note: 'Its site says it does not take reservations; parties of eight or more are asked to call ahead. Check current hours on its site.',
+                link: { label: "Captain Charlie's Original Reef Grill", href: 'https://www.captaincharliesreefgrillfl.com/' },
+              },
+              {
+                name: "Ke'e Grill",
+                body: 'A dinner restaurant on U.S. 1 whose OpenTable listing describes a focus on seafood, steaks and chops.',
+                bestFor: ['Dinner', 'Seafood'],
+                area: '14020 U.S. 1',
+                note: 'It takes bookings through OpenTable. Check current hours and the menu on its own site.',
+                link: { label: "Ke'e Grill", href: 'https://www.keegrilljunobeach.com/' },
+              },
+            ],
+          },
+          {
+            id: 'casual-drinks',
+            title: 'Casual drinks, game days and social meals',
+            places: [
+              {
+                name: 'Thirsty Turtle Seagrill',
+                body: 'A casual restaurant and sports bar serving seafood, burgers, wings and craft beer, with more than a dozen TVs for games. It works for a relaxed meal as well as a game night.',
+                bestFor: ['Casual meal', 'Watching games', 'Groups'],
+                area: '13981 U.S. 1',
+                note: "Its entertainment calendar lists live music by location, with Juno Beach events marked. Check the calendar and current hours before you go.",
+                link: { label: 'Thirsty Turtle Seagrill Juno Beach', href: 'https://thirstyturtlefl.com/juno-beach/' },
+              },
+            ],
+          },
+          {
+            id: 'sushi',
+            title: 'Sushi and lighter dinners',
+            places: [
+              {
+                name: 'Sushi Jo',
+                body: "The Juno Beach location of a sushi restaurant group with several locations. Its site posts lunch and dinner menus and a sake menu.",
+                bestFor: ['Sushi', 'Lunch', 'Dinner'],
+                area: '14261 U.S. 1',
+                note: 'Check current hours and menus on its own site.',
+                link: { label: 'Sushi Jo Juno Beach', href: 'https://www.sushijo.com/juno-beach' },
+              },
+            ],
+          },
+          {
+            id: 'dessert',
+            title: 'Dessert and after dinner',
+            places: [
+              {
+                name: "Matty's Gelato Factory",
+                body: "A gelato shop at Plaza La Mer, on the corner of Donald Ross Road and U.S. 1, across from Loggerhead Marinelife Center. According to the shop, its gelato is made in Stuart and served there and in Juno Beach.",
+                bestFor: ['Gelato', 'After dinner'],
+                area: 'Plaza La Mer, 867 Donald Ross Road',
+                note: 'Flavors change. Ask the shop directly about ingredients and allergens, and check current hours on its site.',
+                link: { label: "Matty's Gelato Factory", href: 'https://mattysgelatofactory.com/' },
+              },
+            ],
+          },
+        ],
+      },
+    },
+    body: `## Plan your visit
 
-Here's the honest local rundown — what's actually in town, and where residents go the rest of the time.
+| Venue | A good fit for | Confirm before you go |
+|---|---|---|
+| [Juno Beach Cafe](https://junobeachcafe.com/) | Breakfast and lunch | Hours |
+| [Captain Charlie's Original Reef Grill](https://www.captaincharliesreefgrillfl.com/) | Seafood lunch or dinner | Hours; no reservations, large parties call |
+| [Ke'e Grill](https://www.keegrilljunobeach.com/) | Dinner | Hours and booking |
+| [Thirsty Turtle Seagrill](https://thirstyturtlefl.com/juno-beach/) | Casual meal, games | Hours and entertainment calendar |
+| [Sushi Jo](https://www.sushijo.com/juno-beach) | Sushi | Hours and menus |
+| [Matty's Gelato Factory](https://mattysgelatofactory.com/) | Gelato | Hours, flavors and allergens |
 
-## The local legends
+Hours can shift with the season, and some places change them for holidays or events. Each venue's own site is the place to check.
 
-These are the names a Juno Beach resident will give you first.
+## Where to hang out beyond a table
 
-**Captain Charlie's Reef Grill** is the answer to "where should I eat?" more often than anywhere else. A no-frills seafood place that in-the-know diners drive from other towns for. It has been in the same spot since 1984 and the menu has conspicuously not chased trends — straightforward fresh seafood done properly.
+![The Juno Beach Pier and its pier house, with beachgoers on the sand below](/images/juno-beach/juno-beach-pier-beach.webp "The Juno Beach Pier and the beach at Juno Beach Park. || Photo by John Oliver"){1400x1050}
 
-That kind of longevity in a Florida beach town is genuinely rare, and locals treat it as evidence the food is worth the loyalty. Expect a wait; it does not take the hint about expanding.
+A meal here pairs easily with time outside:
 
-**Kee Grill** is the other institution — serious seafood in a warm, upscale-casual room. It's the go-to for a special night out that doesn't require driving anywhere, which in this town is a meaningful category.
+- **The beach.** Palm Beach County's [Juno Beach Park](https://discover.pbc.gov/parks/Locations/Juno-Beach.aspx), open sunrise to sunset, has a guarded swimming area, parking, restrooms and showers. Check the county's [beach conditions](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) before swimming.
+- **The pier.** The [Juno Beach Pier](https://marinelife.org/juno-beach-pier/) isn't free: Loggerhead Marinelife Center, which manages it, lists a spectator fee and a separate fishing fee, and its hours change by season. Refurbishment began on June 1, 2026, so check the pier page for current hours and closures.
+- **Loggerhead Marinelife Center,** across U.S. 1 from Plaza La Mer, for a visit before or after gelato. Check the [Center's site](https://marinelife.org/) for current hours and programs.
+- **Pelican Lake** at the Town Center, where the patio in the photo at the top of this page sits beside the lake.
 
-**Juno Beach Cafe** handles the other end: a classic casual breakfast-and-lunch spot, the kind of place where the same people are there at the same time every week.
+Our [Juno Beach local guide](/blog/local-guide-to-juno-beach-florida) covers the beach and pier in more detail, and the [hidden gems guide](/blog/hidden-gems-in-juno-beach-florida) adds Juno Dunes and the town's self-guided history tour.
 
-**Plaza La Mer** is the small local center with a mix of shops and eateries — convenient for everyday needs without leaving town.
+## Nearby options
 
-That is, more or less, the complete list. It's a short one, and that's the point.
-
-## Where residents actually eat the rest of the time
-
-This is the part most guides skip, and it's the honest picture of dining life here.
-
-**Donald Ross Village**, just south, is the closest cluster of additional options and the default for a quick weeknight decision.
-
-**Palm Beach Gardens** — under ten minutes inland — opens up substantially more: Downtown at the Gardens for a casual evening with a movie attached, PGA Commons for independent restaurants and patio dining, plus the full range along the PGA corridor.
-
-**Jupiter**, about ten minutes north, is where you go for anything involving a water view. The inlet restaurants and the Riverwalk offer waterfront dining that Juno Beach, despite being an oceanfront town, doesn't really have.
-
-That last point is worth sitting with. **Juno Beach is on the ocean but has almost no ocean-view dining** — the town's low-rise, residential character means the beach is lined with homes and condos rather than restaurants. If waterfront dinners are part of your picture of beach-town life, you'll be driving to Jupiter for them.
-
-![Lighted boat parade and fireworks on the Intracoastal at dusk](/images/juno-beach/juno-beach-036.jpg "The boat parade is one of the rare nights the area's social life happens outdoors and in public.")
-
-## Coffee and the morning routine
-
-In a town where the social day happens early, where you get coffee matters more than where you get dinner.
-
-There's no dense café scene within the town limits, so the pattern most residents fall into is coffee at home or from one of the handful of local spots, taken down to the beach or out onto the pier. That's genuinely the ritual here — a cup, the sand, and the sunrise, most days of the week.
-
-For anyone coming from a city with a real café culture, this is one of the more noticeable adjustments. You're not going to sit and work from a coffee shop here. You'll drive to Palm Beach Gardens or Jupiter for that, or you'll rebuild the habit around the beach instead. Most residents end up doing the second thing, and end up preferring it.
-
-## Groceries and everyday provisioning
-
-Worth mentioning because it's a real part of daily life in a town this small. There's no full-scale supermarket within the town limits, so the weekly grocery run happens in Palm Beach Gardens or along the US-1 corridor toward Jupiter.
-
-Most residents settle into a routine built around one store and batch their trips. It's a minor thing, but it's the kind of minor thing that shapes how a small town actually feels to live in — and it catches people who assumed "beach town" meant "walkable town."
-
-## Where it actually comes together
-
-The real hangout in Juno Beach isn't a restaurant. It's the **beach and the pier.**
-
-Sunrise coffee on the sand. A walk out over the water. A sunset stroll on the quiet accesses away from the pier. Then a casual meal somewhere nearby or a drive to the next town over.
-
-That's the town's whole social rhythm, and residents who love it here structured their lives around it deliberately. The social life happens outdoors and early, not indoors and late.
-
-## Practical local advice
-
-- **Reservations matter in season** at Kee Grill and anywhere similar, roughly November through April. Captain Charlie's runs on waiting regardless.
-- **Dress code is minimal** essentially everywhere. This is a flip-flops town.
-- **Lunch is the underrated meal**, particularly in season when evening tables are harder.
-- **Summer is the local advantage.** From May through October the nearby restaurants relax considerably and you can walk into most places.
-- **Plan on driving.** Building your dining life around Palm Beach Gardens and Jupiter isn't a failure of the town — it's how residents actually live here.
-- **Hours shift between season and summer**, and some places reduce hours in the slowest months. Check before you drive.
-
-## The bottom line
-
-Captain Charlie's and Kee Grill are genuinely worth the reputation, and having two restaurants of that quality in a town of 3,700 people is more than the population should support.
-
-Beyond them, treat Donald Ross Village, Palm Beach Gardens, and Jupiter as your actual dining options — because they are, and they're all closer than the drive to dinner in most suburbs.
-
-The framing that makes this town work: you don't have a small dining scene, you have a very quiet neighborhood inside a large and varied one. Residents who think of it that way eat extremely well here. Residents who keep waiting for Juno Beach itself to develop a restaurant row will be waiting indefinitely, because the same low-density policies that protect the beach also ensure the commercial strip stays exactly the size it is.
-
-Hours, menus, and ownership change. Check directly before you go.`,
+Juno Beach's neighbors are separate municipalities with more restaurants and shopping within their own limits, including the Town of Jupiter, the Village of North Palm Beach and the City of Palm Beach Gardens. How convenient they feel depends on where you start and when you go, so check your own route. For more ideas in town, see our guide to [things to do in Juno Beach](/blog/best-things-to-do-in-juno-beach-florida).`,
     faqs: [
-      { q: "What are the best restaurants in Juno Beach, Florida?", a: "Captain Charlie's Reef Grill is the local favorite — a no-frills seafood spot in the same location since 1984. Kee Grill is the upscale-casual seafood institution, and Juno Beach Cafe handles casual breakfast and lunch. Plaza La Mer has additional shops and eateries. Hours and menus change, so check directly before going." },
-      { q: "Does Juno Beach have waterfront restaurants?", a: "Almost none, despite being an oceanfront town. Its low-rise residential character means the beach is lined with homes and condos rather than restaurants. For waterfront dining, most residents drive about ten minutes north to Jupiter's inlet and Riverwalk restaurants." },
-      { q: "Where do Juno Beach residents go out to eat?", a: "Beyond the few local spots, most dining happens in Donald Ross Village just south, Palm Beach Gardens under ten minutes inland with Downtown at the Gardens and PGA Commons, and Jupiter about ten minutes north for waterfront options." },
-      { q: "What is Captain Charlie's Reef Grill?", a: "A long-running, no-frills seafood restaurant that has been in the same Juno Beach location since 1984 and is usually the first name locals give when asked where to eat. It's known for straightforward fresh seafood rather than trend-chasing, and waits are common." },
-      { q: "Do you need reservations at Juno Beach restaurants?", a: "In season, roughly November through April, yes for Kee Grill and similar. Captain Charlie's operates on waiting regardless of season. From May through October the nearby restaurants relax considerably and most are walk-in friendly." },
-      { q: "Is there nightlife in Juno Beach?", a: "No. The town is residential and quiet by design, and the social rhythm happens outdoors and early — sunrise on the pier, sunset on the beach — rather than indoors and late. For nightlife, residents drive to Jupiter or West Palm Beach." },
+      { q: "Where can I eat in Juno Beach?", a: "Options include Juno Beach Cafe for breakfast and lunch, Captain Charlie's Original Reef Grill and Ke'e Grill for seafood and dinner, Thirsty Turtle Seagrill for a casual meal or a game, Sushi Jo for sushi, and Matty's Gelato Factory at Plaza La Mer for dessert. It isn't a complete list; check each venue's site for current hours." },
+      { q: "When did Captain Charlie's Reef Grill open?", a: "In 1989, according to the restaurant, which is now called Captain Charlie's Original Reef Grill. Its site says it doesn't take reservations, and parties of eight or more are asked to call ahead." },
+      { q: "Does Ke'e Grill take reservations?", a: "It takes bookings through OpenTable. Check current hours and booking details on its own site before you go." },
+      { q: "Where can I watch a game in Juno Beach?", a: "Thirsty Turtle Seagrill on U.S. 1 is a casual restaurant and sports bar with more than a dozen TVs. Its entertainment calendar lists live music by location, so check it and the current hours before you go." },
+      { q: "Where is Matty's Gelato Factory in Juno Beach?", a: "At Plaza La Mer, 867 Donald Ross Road, on the corner of Donald Ross Road and U.S. 1, across from Loggerhead Marinelife Center. Flavors change, so ask the shop directly about ingredients and allergens." },
+      { q: "Is the Juno Beach Pier free?", a: "No. Loggerhead Marinelife Center, which manages the county-owned pier, lists a spectator fee and a separate fishing fee, and the pier's hours change by season. Refurbishment began on June 1, 2026, so check the pier page for current hours and closures." },
     ],
-    internalLinks: ['best-things-to-do-in-juno-beach-florida', 'local-guide-to-juno-beach-florida', 'hidden-gems-in-juno-beach-florida'],
-    funFact: "Captain Charlie's Reef Grill has been at the same spot since 1984, and the menu hasn't chased trends — it's straightforward fresh seafood done right. That kind of longevity in a Florida beach town is genuinely rare, and locals treat it as proof the food is worth the loyalty.",
+    internalLinks: ['local-guide-to-juno-beach-florida', 'best-things-to-do-in-juno-beach-florida', 'hidden-gems-in-juno-beach-florida'],
+    funFact: "Captain Charlie's Original Reef Grill opened in 1989, according to the restaurant: Ross and Mary Beth Matheson started it two years after moving to the area from Toronto. It's a reminder to check a restaurant's own site for its history, not secondhand lists.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
 
   // ===================== WEST PALM BEACH =====================
