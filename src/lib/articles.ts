@@ -14028,117 +14028,154 @@ For more, read [what living in Westlake is really like](/blog/what-its-really-li
     cityName: 'Westlake',
     type: "Best Neighborhoods In",
     order: 3,
-    seoTitle: "Best Neighborhoods & Home Collections in Westlake, Florida",
-    metaTitle: "Best Neighborhoods in Westlake, Florida",
-    metaDescription: "A local guide to Westlake, Florida's new-home villages and collections — from townhomes to single-family homes — and how to choose the right one.",
-    primaryKeyword: "best neighborhoods in Westlake Florida",
-    secondaryKeywords: ["Westlake home collections", "Westlake new homes", "Westlake townhomes", "Westlake single-family homes"],
-    h1: "Best Neighborhoods & Home Collections in Westlake, Florida",
+    seoTitle: 'Westlake, Florida Neighborhoods & Home Collections',
+    metaTitle: 'Westlake, Florida Neighborhoods & Home Collections',
+    metaDescription:
+      "Compare Westlake's townhomes, single-family villages, estate-home options, age-qualified housing, HOA questions, and new-build versus resale considerations.",
+    primaryKeyword: 'Westlake Florida neighborhoods',
+    secondaryKeywords: ['Westlake home collections', 'The Terraces Westlake townhomes', 'The Woodlands Westlake', 'The Pines Westlake', 'Cresswind Palm Beach', 'Westlake new construction vs resale'],
+    h1: 'Westlake, Florida Neighborhoods & Home Collections',
     heroImage: '/images/westlake/model-home-garages-hero.webp',
-    heroImageAlt: 'A gray single-story Minto model home in Westlake with board-and-batten siding, two white carriage-style garage doors and a paver driveway',
+    heroImageAlt: 'A gray single-story Minto model home in Westlake with board-and-batten siding, two white carriage-style garage doors and a paver driveway under a cloudy sky',
+    heroImageCaption: 'A Minto model home in Westlake, photographed in 2018. Models show one plan and its options; current collections, plans and pricing come from the builder.',
     heroImageCredit: 'Photo by John Oliver, 2018',
     heroImageWidth: 2048,
     heroImageHeight: 1152,
-    body: `Westlake doesn't have neighborhoods in the conventional sense. It has **builder collections and villages** within a single master plan, and choosing between them is a different exercise from choosing between established neighborhoods.
+    editorial: {
+      eyebrow: 'Westlake · Neighborhoods',
+      deck: "Westlake's named villages and home collections, what kind of housing each offers, and what to check about the association, the lot and the contract for a specific home.",
+      mobileImage: { src: '/images/westlake/model-home-garages-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Westlake', href: '/communities/westlake' },
+      secondaryCta: { label: 'Westlake cost of living', href: '/blog/cost-of-living-in-westlake-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+    },
+    body: `Westlake is organized through named villages, home collections, and development phases within a broader master plan. The right comparison is less about historic neighborhood character and more about housing type, builder or resale history, association structure, amenity access, location within the city, and what is approved nearby.
 
-The questions that matter here are builder, phase, floor plan, lot position and fee structure — not history, character or which street has the better trees.
+Conditions aren't uniform across the city. Street layout, landscaping, sidewalks, private-road arrangements, distance to amenities and nearby construction all differ by section, phase and lot, so compare specific homes rather than the city as a whole.
 
-## How the city is organized
+## Westlake's villages and collections
 
-Westlake is laid out as a series of residential villages arranged around the central amenity complex and connected by internal roads, with green space and trails woven through, and commercial development planned along the main corridor.
+The table below lists names we could confirm through the City of Westlake or the builders. The city publishes its master plan and subdivision maps on its [Projects, Progress & Maps](https://www.westlakegov.com/community/page/projects-progress-maps) page, and Minto lists its current offerings on its [Westlake collections](https://www.minto.com/usa/florida/new-homes/Westlake/collections.html) page. Availability changes quickly, so treat the status column as a starting point and confirm it with the builder or the MLS.
 
-**Access** is via **Seminole Pratt Whitney Road**, which connects south to Southern Boulevard and north toward Northlake Boulevard.
+| Section | Housing type | Builder or resale context | Status to confirm | What to verify |
+|---|---|---|---|---|
+| **The Terraces** | Two-story townhomes; Minto's Courtyard Collection has three- and four-bedroom plans with two-car garages | Minto. The city approved Phase I in 2023 ([Resolution 2023-18](https://www.westlakegov.com/sites/default/files/fileattachments/ordinance/7769/resolution_2023-18_-_approving_the_terraces_of_westlake-phase_i.pdf)), and Minto [opened the final phase](https://www.minto.com/usa/new-homes/news/minto-communities-opens-final-phase-of-townhome-neighborhood-at-westlake~0_2874.html) in 2025 | New and resale | Association fees and what they maintain, guest parking, shared walls, outdoor space, rental rules |
+| **The Pines** | Single-family homes from Minto's Cypress and Indigo collections | Minto | Check current homesites and resales | Lot and view, association documents, nearby development |
+| **The Woodlands** | Gated; single-family homes (Indigo Collection) and estate homes (Atlantic Collection) | Minto ([sales announcement](https://www.minto.com/usa/new-homes/news/minto-opens-sales-for-the-woodlands-of-westlake-a-new-single-family-neighborhood-with-waterfront-homes~0_2313.html)) | Check current homesites and resales | Gate and access rules, association fees, lot and water-view specifics |
+| **The Estates** | Larger single-family homes; Minto described it as Westlake's [first luxury home neighborhood](https://www.minto.com/usa/new-homes/news/Sales-Begin-for-Westlake-s-First-Luxury-Home-Neighborhood~0_1902.html) | Minto; final plat for Pod T, Estates of Westlake, approved in 2020 | Check current resales and any remaining homesites | Association documents, lot size and position, structural options |
+| **The Hammocks** | Earlier neighborhood | Minto's first Westlake neighborhood | Check current resale listings | Association documents, home and roof condition, tax history |
+| **The Meadows** | Single-family homes | Minto | Check current resale listings | The same as The Hammocks |
+| **The Groves** | Gated; single-family homes | Minto; [final plat for Phase II](https://www.westlakegov.com/ordinances/approving-final-plat-groves-westlake-phase-ii) approved in 2020 | Check current resale listings | Gate rules, association documents, lot and lake specifics |
+| **The Orchards** | Check the plat and listings | Minto; [sales were set to begin in September 2021](https://gotowncrier.com/2021/09/minto-set-to-launch-sales-for-its-fifth-neighborhood-in-westlake/) | Check current listings | Association documents and lot specifics |
+| **Sky Cove and Sky Cove South** | Check the plat and listings | The city approved plats including [Sky Cove South Phase 1A](https://www.westlakegov.com/ordinances/approving-final-plat-skycove-phase-1a); not a current Minto collection | Check current listings | The builder, the association and its fees |
+| **Cresswind Palm Beach** | Gated, age-qualified 55+ single-family community | [Kolter Homes](https://www.kolterhomes.com/new-homes/westlake-florida-active-adult-cresswind-palm-beach/homes/) | Check current inventory and resales | Age eligibility, its own association and amenities, fees, guest and resale rules |
 
-Because the plan is unified, the differences between areas are mostly about product type and how far you are from the amenity center — not about the fundamental character of the streets.
+Builder names, statuses and collections change. If a section you're considering isn't listed here, check the city's subdivision map, the plat and the association before relying on a name from a listing.
 
-## The attached and townhome collections
+### Cresswind Palm Beach
 
-The most attainable entry to the city — townhomes and attached products, generally smaller, with less exterior maintenance and often closer to the amenities.
+Kolter Homes markets Cresswind Palm Beach as a 55+ active adult community. Before you consider a home there, confirm the current age-eligibility requirements in the association's governing documents, along with the association's fees, rules, guest policies and resale restrictions. Cresswind has its own amenities; don't assume access to Cresswind amenities from elsewhere in Westlake, or to the Adventure Park from Cresswind, without checking the documents for the specific home.
 
-**Who they suit:** first-time buyers, downsizers, and anyone who wants the community and the recreation without a large lot to look after.
+## Comparing home formats
 
-*Check:* what the association maintains versus what you do, party wall arrangements, and parking provision including for guests.
+### Townhomes and attached homes
 
-## The single-family collections
+A townhome can offer a different arrangement from a detached home: shared walls, a smaller outdoor space, association maintenance of some exterior items, and different parking. For buyers seeking a lower-maintenance format, check exactly what the association maintains, the guest-parking rules, any rental restrictions and the reserves, because these differ by community.
 
-The core of the city, spanning a genuine range of sizes, layouts and price points from modest to substantial.
+### Detached single-family homes
 
-*Check, and this is where new-build diligence differs from resale:*
+When you compare single-family homes, new or resale, look at:
 
-- **Which builder and which collection**, since specification, standard finishes and construction quality vary between them.
-- **What is standard versus an upgrade.** The base price and the price of the house you actually want can differ substantially, and upgrades made through the builder are generally more expensive than doing the work later — though not always, and some things are far cheaper done during construction.
-- **Lot position.** What backs onto your lot matters enormously and permanently: water, preserve, another house, a road, or a future phase.
-- **What is entitled next to you.** In a community still building, an empty parcel is not a permanent view. Ask what is planned for every adjacent parcel and get it in writing rather than relying on a sales-office assurance.
-- **Phase and timing.** Earlier phases are finished and their surroundings are known; later phases mean living beside construction for longer, sometimes at a lower price.
+- [ ] The floor plan and elevation.
+- [ ] Which features are included and which are upgrades.
+- [ ] Lot width, depth and orientation.
+- [ ] Drainage and easements.
+- [ ] Current and future development on adjacent parcels.
+- [ ] Association rules.
+- [ ] For new construction, the builder contract, warranty and inspection rights.
+- [ ] Which nearby roads, commercial uses, schools or amenities exist now and which are only planned.
 
-## The premium collections
+An empty parcel next to a lot isn't permanently protected, and it isn't guaranteed to be developed either. Check the city's [approved development orders](https://www.westlakegov.com/community/page/approved-development-orders) and the survey and title documents rather than relying only on what a sales office tells you.
 
-Larger floor plans, bigger lots and higher specification.
+### Larger single-family and estate homes
 
-*Check:* the same as above, plus whether the premium buys things that hold value — lot position, square footage, structural options — rather than finishes that date.
+In sections such as The Woodlands (Atlantic Collection) and The Estates, compare the lot, the floor plan, storage, bedroom count, structural options, garage configuration, association rules and the all-in monthly cost of ownership.
 
-## What to walk before you sign
+## Before you compare monthly costs
 
-On new construction the lot does more work than the house, because the house is a known quantity from a plan and the land is not.
+Westlake's infrastructure is operated by the Seminole Improvement District (SID), not a typical bond-financed community development district. The city's [history](https://www.westlakegov.com/community/page/history-incorporation-westlake) says the developer paid for the roads, water, sewer and drainage systems and turned them over to the [SID](https://seminoleimprovementdistrict.com/); owners still pay SID assessments on the tax bill. Costs vary by home, so collect these for each address:
 
-**Walk the actual lot**, not the model's. Stand where the back of the house will be and look at what you'll be looking at for the next twenty years.
+- [ ] The current property tax bill.
+- [ ] SID charges for the exact parcel, confirmed through a property assessment and lien search (see the SID's [guidelines](https://www.seminoleimprovementdistrict.com/files/documents/SID%20-%20Assessment%20and%20Lien%20Search%20Request%20Guidelines%202021-07-13.pdf)).
+- [ ] Master and neighborhood association fees.
+- [ ] Association budgets, rules, reserves, application and transfer fees, and rental restrictions.
+- [ ] An insurance quote and a flood-zone review.
+- [ ] Utility costs.
+- [ ] For new construction, the builder contract and warranty documents.
+- [ ] The estoppel certificate, seller disclosures, title work and any pending assessments.
 
-**Check the orientation.** Which way the rear faces determines afternoon sun on your patio and the cooling load on that side of the house. In Florida this is not a minor detail.
+Our [cost of living guide](/blog/cost-of-living-in-westlake-florida) explains each item. This is due diligence, not legal, tax or financial advice.
 
-**Look at grade and drainage.** Where water goes in heavy rain, whether your lot sits above or below neighbors, and where the swales run.
+## Choosing a new-construction lot
 
-**Note what's adjacent** — an amenity, a road, a preserve, a lift station, a future phase. Get the answer in writing.
+- [ ] Visit the exact lot and the surrounding streets at more than one time of day.
+- [ ] Review the survey, drainage, swales, easements, utility equipment and road access.
+- [ ] Check which way the rear and sides face, and how sun falls on them at different times.
+- [ ] Identify the adjacent parcels that are built, approved or still undeveloped.
+- [ ] Review the city's development orders and planning materials.
+- [ ] Ask the builder for written documentation, and check it against official city and county records.
+- [ ] Look at completed homes and current construction in the same section where you can.
 
-Ten minutes standing on the dirt is worth more than an hour in a decorated model.
+## New construction or resale
 
-## Resale versus new build
+Neither is automatically the better value. Compare the same priorities and the all-in cost for the specific homes you're considering.
 
-Worth its own section, because Westlake now has both.
+**New construction may involve:**
 
-**Buying new** gets you warranty coverage, current code, choice of finishes and no prior owner. It also means a wait, upgrade decisions, and typically a higher price per square foot than a comparable resale in the same community.
+- The builder's contract and timeline terms.
+- Selection and upgrade decisions.
+- Construction activity nearby.
+- Warranty documents and inspection rights.
+- Promotional pricing or incentives that can change.
 
-**Buying resale** in the city means seeing the actual house, the actual lot and the actual neighbors, often with landscaping established and window treatments and other extras already paid for. And you can find out what the fees genuinely run to from someone who has been paying them.
+**Resale may involve:**
 
-For a lot of buyers the resale is the better value, and it's worth looking at both rather than defaulting to the sales center.
+- An existing lot, landscaping and completed surroundings you can see.
+- A tax, utility, association and maintenance history to review.
+- A different condition, and insurance, repair or renovation needs, depending on the home.
 
-## Reading a builder contract
+## Builder contracts and inspections
 
-New-build purchases work differently from resale, and the contract is where the differences live.
+- Read the exact purchase contract and addenda, including the construction schedule, deposit and refund terms, selection deadlines, warranty documents and dispute provisions.
+- Confirm which inspections the contract permits, and when.
+- Consider independent professional advice, such as an attorney or inspector, appropriate to your circumstances.
 
-**Timelines move.** Completion dates in a builder contract are typically estimates with substantial latitude, and delays are normal rather than exceptional. Plan your housing arrangements with slack, and understand what the contract actually obliges the builder to do if a date slips.
+## Schools
 
-**Deposits and what happens to them** vary. Know what is refundable, under what circumstances, and what you forfeit if you withdraw.
+Verify attendance boundaries for the specific address with the [School District of Palm Beach County](https://www.palmbeachschools.org/). A community's location doesn't determine its school assignment, and boundaries can change.
 
-**The warranty** is not one thing — it is usually tiered, with different periods for workmanship, systems and structure. Get the actual document rather than a summary, and diarise the dates.
+## The bottom line
 
-**The walk-through matters.** Your inspection before closing is the moment to identify defects, and it is worth hiring an independent inspector rather than relying solely on the builder's own process.
+Compare Westlake homes section by section and address by address: the housing type, the association and its rules, the lot and what's planned around it, and the full monthly cost. The listings module below shows single-family homes priced at $500,000 and up; ask us about townhomes and other homes, which it doesn't include.
 
-**Design center pricing** is where budgets move fastest. Decide your ceiling before you go, and remember that some upgrades are far cheaper during construction while others are cheaper afterwards.
-
-## Choosing
-
-1. **What can you carry monthly?** Mortgage plus association plus district assessment is the real number, and it should lead the conversation. Our [cost breakdown](/blog/cost-of-living-in-westlake-florida) works through it.
-2. **How much do you care about lot position?** It is the one thing you cannot change later.
-3. **How close to the amenity center?** Walking distance is a genuine benefit for households that will use it daily and irrelevant for those that won't.
-4. **New or resale?** Compare both properly.
-5. **How much construction can you live beside?** Later phases are cheaper and noisier for longer.
-
-Whatever you choose, get the district assessment amount and remaining term, the association budget and rules, the full upgrade pricing, and written confirmation of what is planned on adjacent parcels.
-
-For schools, verify attendance boundaries for the specific address directly with the Palm Beach County school district. In a growing area, boundaries and school capacity both change, and no sales office is the authority on this.`,
+For more, read [what living in Westlake is really like](/blog/what-its-really-like-living-in-westlake-florida), the [Westlake local guide](/blog/local-guide-to-westlake-florida), the [pros and cons](/blog/pros-and-cons-of-living-in-westlake-florida), [who should move to Westlake](/blog/who-should-move-to-westlake-florida), [Westlake vs nearby cities](/blog/westlake-vs-nearby-cities) and the [Westlake community guide](/communities/westlake).`,
     faqs: [
-      { q: "How are Westlake neighborhoods organized?", a: "As builder collections and villages within a single master plan, arranged around the central amenity complex. Because the plan is unified, differences between areas are mostly about product type and distance from the amenities rather than the fundamental character of the streets." },
-      { q: "What should I check when buying new construction in Westlake?", a: "Which builder and collection, since specification and quality vary; what is standard versus an upgrade, since base price and the house you actually want can differ substantially; lot position, which you cannot change later; what is entitled on every adjacent parcel, in writing; and which phase, since later ones mean longer beside construction." },
-      { q: "Is a Westlake resale better value than a new build?", a: "Often. Resale lets you see the actual house, lot and neighbors, usually with landscaping established and extras already paid for, and you can learn what the fees genuinely run to from someone paying them. New construction gets you warranty, current code and finish choice, typically at a higher price per square foot." },
-      { q: "Does lot position matter in Westlake?", a: "More than almost anything else, because it is the one thing you cannot change later. What backs onto your lot — water, preserve, another house, a road, or a future phase — shapes the property permanently. In a community still building, an empty parcel is not a permanent view." },
-      { q: "What is the most attainable housing in Westlake?", a: "The attached and townhome collections, which are generally smaller with less exterior maintenance and often sit closer to the amenities. They suit first-time buyers, downsizers, and anyone who wants the community and recreation without a large lot to look after." },
-      { q: "What schools serve Westlake?", a: "The area falls within the Palm Beach County school district. Verify attendance boundaries for the specific address directly with the district — in a growing area both boundaries and school capacity change, and a sales office is not the authority on this." },
+      { q: "How are Westlake's residential villages organized?", a: "Westlake is organized into named villages, home collections and development phases within a master plan, such as The Terraces, The Pines, The Woodlands, The Estates, The Hammocks, The Meadows, The Groves and Cresswind Palm Beach. The city publishes its master plan and subdivision maps, and each section can have its own association, rules and fees." },
+      { q: 'Which Westlake sections offer townhomes, detached homes, or larger estate-home options?', a: "The Terraces offers Minto townhomes. The Pines offers single-family homes from Minto's Cypress and Indigo collections. The Woodlands offers single-family homes (Indigo Collection) and estate homes (Atlantic Collection), and The Estates was Minto's first luxury home neighborhood. Earlier sections, such as The Meadows and The Groves, are single-family. Availability changes, so check with the builder or the MLS." },
+      { q: 'Is Cresswind Palm Beach age-qualified?', a: "Yes. Kolter Homes markets Cresswind Palm Beach as a 55+ active adult community. Confirm the current age-eligibility requirements, fees, guest rules, amenity access and resale restrictions in the association's governing documents for the specific home." },
+      { q: 'What should buyers verify about HOA and SID-related costs?', a: "The current property tax bill; the Seminole Improvement District charges for the exact parcel, confirmed through an assessment and lien search; master and neighborhood association fees, budgets, reserves, transfer fees and rental rules; insurance and flood-zone review; utilities; the estoppel certificate; and, for new construction, the builder contract and warranty. Costs vary by home." },
+      { q: 'What should I inspect before choosing a new-construction lot?', a: "Visit the lot and surrounding streets at more than one time of day; review the survey, drainage, swales, easements, utility equipment and road access; check the orientation; identify built, approved and undeveloped adjacent parcels; check the city's development orders; and get written documentation from the builder, checked against official records." },
+      { q: 'How should I compare new construction and resale in Westlake?', a: "Neither is automatically the better value. New construction involves a builder contract, selections, possible nearby construction and contract-specific warranties. Resale offers a finished lot and surroundings and a cost history to review, with condition and repair needs that vary. Compare the all-in cost and your priorities for the specific homes." },
+      { q: 'How do I verify school boundaries for a specific address?', a: "Check the address directly with the School District of Palm Beach County. A community's location doesn't determine its school assignment, and boundaries can change." },
     ],
-    internalLinks: ["cost-of-living-in-westlake-florida", "what-its-really-like-living-in-westlake-florida", "who-should-move-to-westlake-florida"],
-    funFact: "Westlake's neighborhoods are organized by builder and product type within a single master plan — Artistry, Hammocks, Meadows, and others each have their own entry points and architectural character. The distinction matters because HOA fees, included amenities, and community feel vary by section even within the same city.",
+    internalLinks: ['what-its-really-like-living-in-westlake-florida', 'local-guide-to-westlake-florida', 'cost-of-living-in-westlake-florida', 'pros-and-cons-of-living-in-westlake-florida', 'who-should-move-to-westlake-florida', 'westlake-vs-nearby-cities'],
+    funFact: "Westlake's sections span several builders and formats: Minto neighborhoods from The Hammocks, its first, to the townhomes at The Terraces and the gated Woodlands, plus Kolter's age-qualified Cresswind Palm Beach. Each section can have its own association, rules and fees, so compare the documents for the specific home, not just the city.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'best-things-to-do-in-westlake-florida',
