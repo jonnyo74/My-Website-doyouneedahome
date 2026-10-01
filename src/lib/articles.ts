@@ -686,107 +686,180 @@ Start with the five places above, walk the historic loop once, and learn the tur
     cityName: 'Juno Beach',
     type: 'Best Neighborhoods In',
     order: 3,
-    seoTitle: 'Best Neighborhoods in Juno Beach, Florida',
-    metaTitle: 'Best Neighborhoods in Juno Beach, Florida',
-    metaDescription: 'From oceanfront condos to waterfront Juno Isles to gated Seminole Landing — a local guide to the best neighborhoods in Juno Beach, Florida, by lifestyle.',
-    primaryKeyword: 'best neighborhoods in Juno Beach Florida',
-    secondaryKeywords: ['where to live in Juno Beach', 'Juno Isles', 'Seminole Landing', 'Juno Beach condos'],
-    h1: 'Best Neighborhoods in Juno Beach, Florida',
-    heroImage: '/images/juno-beach/juno-beach-022.jpg',
-    body: `Juno Beach is roughly two square miles, so "which neighborhood" is a smaller question here than in most towns. But the ways to live here are genuinely distinct, and they carry very different costs, obligations, and daily experiences.
+    seoTitle: 'Juno Beach Neighborhoods & Areas | How to Choose',
+    metaTitle: 'Juno Beach Neighborhoods & Areas | How to Choose',
+    metaDescription: "How to compare homes inside the Town of Juno Beach: condominium buildings, single-family streets and smaller multifamily, with what to verify for each.",
+    primaryKeyword: 'Juno Beach neighborhoods',
+    secondaryKeywords: ['where to live in Juno Beach', 'Juno Beach condos', 'Juno Beach single-family homes', 'Juno Beach zoning'],
+    h1: 'Juno Beach Neighborhoods and Areas: How to Choose',
+    heroImage: '/images/juno-beach/pelican-lake-sunset-hero.webp',
+    heroImageAlt: 'Pelican Lake in Juno Beach at sunset under an orange and pink sky, with a fountain at left and homes along the far shore',
+    heroImageCaption: 'Pelican Lake at sunset, with homes along the far shore',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Juno Beach · Areas Guide',
+      deck: 'A small town calls for a different kind of neighborhood guide: compare housing types, ownership structures and beach access, then verify the address.',
+      mobileImage: { src: '/images/juno-beach/pelican-lake-sunset-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Juno Beach', href: '/communities/juno-beach' },
+      secondaryCta: { label: 'What living here is like', href: '/blog/what-its-really-like-living-in-juno-beach-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      matrix: {
+        heading: 'Choose your Juno Beach fit',
+        intro: "Four housing patterns inside the Town of Juno Beach, following the residential districts on the Town's zoning map. These are categories, not official neighborhood names.",
+        labels: { priorities: 'Home type', questions: 'Ownership and governance', daily: 'Beach or water access', singer: 'Ask first' },
+        rows: [
+          {
+            name: 'Oceanfront and near-ocean condominium buildings',
+            tag: 'Along Ocean Drive (A1A)',
+            priorities: 'Condominium units in buildings from several eras; the first, The Greenbrier, dates to 1966.',
+            questions: "A condominium association, governed by the building's declaration, budget, reserves, rules and master insurance policy.",
+            daily: 'Views and beach adjacency vary by building and unit. Any beach-area rights come from the condominium documents, not the listing.',
+            singer: "The building's age, inspection and reserve-study status, recent assessments and the association's insurance.",
+          },
+          {
+            name: 'Taller condominium buildings',
+            tag: 'Including the area the Town annexed to the north',
+            priorities: 'Multi-story condominiums; The Tower, in 1972, was the first 12-story condominium.',
+            questions: 'A condominium association, with the added systems a taller building carries, such as elevators.',
+            daily: 'Depends on the building and its position; check the documents and the nearest public access.',
+            singer: 'Whether statutory milestone-inspection and structural integrity reserve study requirements apply, and their status.',
+          },
+          {
+            name: 'Single-family residential streets',
+            tag: 'Zoned RS-1 through RS-5',
+            priorities: 'Detached houses on individual lots, including the streets the Juno Beach Garden Club named after classical mythology.',
+            questions: 'Usually owner-maintained; some properties may carry an HOA or recorded covenants. Check the title and any association documents.',
+            daily: 'Depends on the address: how far the nearest public beach access is, and where you can park.',
+            singer: 'Flood zone, elevation, roof age, wind mitigation and permit history.',
+          },
+          {
+            name: 'Duplexes, townhouses and smaller multifamily',
+            tag: 'Zoned R-DUP, RM or RH',
+            priorities: 'Two-family homes, townhouses and multifamily buildings, as the zoning allows.',
+            questions: 'A condominium, an HOA or no association, depending on how the property was created. Find out which.',
+            daily: 'Varies by property; confirm it from the specific address.',
+            singer: 'Who insures and maintains the roof, exterior and grounds, and what the owner pays for.',
+          },
+        ],
+        note: "Zoning districts are from the Town's Planning & Zoning department; its zoning map shows where each applies. Confirm any property's municipality and zoning with the Town and the Property Appraiser.",
+      },
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Comparing specific Juno Beach properties? Start with the community guide, or talk with our team about the address and the checks above.',
+        cta: { label: 'Explore the Juno Beach guide', href: '/communities/juno-beach' },
+      },
+    },
+    body: `**Juno Beach has areas, not a maze of subdivisions.** The town covers about 2 square miles. In a place this size, the useful comparison isn't between neighborhood names. It's between housing types, ownership structures, beach access and maintenance exposure.
 
-Here they are organized by objective characteristics — property type, price tier, water access, and association structure — rather than by who lives in them.
+The Town's [Planning & Zoning](https://www.juno-beach.fl.us/1221/Planning-Zoning) department divides residential land into single-family districts (RS-1 through RS-5), a duplex district (R-DUP), multiple-family districts (RM-1, RM-2, RMT and RM-00) and a high-density district (RH). Those districts, and the town's history, are a better guide than any list of "best" neighborhoods.
 
-## Oceanfront and beach-adjacent condos → Ocean Drive
+## Area by area
 
-The classic Juno Beach choice, and the largest share of the town's housing near the water. Walk-to-the-sand living with ocean views, HOA-maintained exteriors, and genuine lock-and-leave simplicity.
+### Oceanfront and near-ocean condominium buildings
 
-**Objective characteristics:** condo-dominant, low-rise by ordinance rather than by chance, oceanfront and ocean-view price tiers, HOA-maintained exteriors, highest insurance exposure in town, wide variation in building age.
+**What's known.** By the 1960s the oceanfront had as many as 17 motels. The first condominium, The Greenbrier, arrived in 1966, and over the following decades the oceanfront turned over from motels to residential buildings, according to the Town's [history](https://www.juno-beach.fl.us/DocumentCenter/View/451/Jb-History?bidId=).
 
-**Trade-offs:** this is where due diligence matters most in Juno Beach. Building age drives everything — the master insurance policy, the reserve position, and whether an assessment is coming. Read the reserve study, the funding level, and the last two years of meeting minutes before you commit. A building with higher dues and full reserves is frequently a better financial position than a cheaper one with deferred work ahead of it.
+**What differs.** Building age, construction, height, number of units, amenities, rules and finances. Two buildings next to each other can be very different purchases.
 
-![Beach access boardwalk at sunrise in Juno Beach, Florida](/images/juno-beach/juno-beach-037.jpg "Proximity to the sand is the product here — which is also why insurance and association health drive the real cost.")
+**What to verify.** The documents, budget, reserves, inspections, insurance and any assessments, building by building. See the condo section below.
 
-## Waterfront and boating → Juno Isles
+### Taller condominium buildings
 
-Single-family homes on canals with Intracoastal access — the option for buyers who want a dock and a yard rather than a balcony and a view.
+**What's known.** In the 1960s the Town annexed property to the north and zoned it more liberally, with hotels in mind. The Tower, in 1972, was the first 12-story condominium. Taller buildings are part of Juno Beach, not an exception to it.
 
-**Objective characteristics:** single-family, canal frontage with Intracoastal access, dockage in much of it, larger lots than the beachside condos, generally lower density, established construction.
+**What differs.** Height brings more building systems to maintain, and in Florida, condominium buildings of three habitable stories or more face specific statutory inspection and reserve requirements.
 
-**Trade-offs:** verify the boating specifics for the individual property rather than the neighborhood. Canal depth, bridge clearance between you and the inlet, seawall condition, and whether dockage conveys all vary property to property, and seawall replacement in particular is expensive. You're also on the Intracoastal side rather than the ocean side, which is a different lifestyle — better for boats, a short drive to the sand.
+**What to verify.** Which requirements apply to the building and where it stands on them.
 
-## Guard-gated and low density → Seminole Landing
+### Single-family residential streets
 
-A guard-gated community near the Lost Tree area — very low density, heavy landscape screening, and high-end coastal homes on large lots.
+**What's known.** The Town zones its single-family land in five districts, RS-1 through RS-5. When the town's new streets were laid out, the Juno Beach Garden Club named them after classical mythology, with names such as Mars, Venus and Olympus.
 
-**Objective characteristics:** lowest density in the area, largest lots, guard-gated with controlled access, highest price tier, architectural review, limited inventory.
+**What differs.** Lot size, age and construction, elevation, and the distance and route to the nearest public beach access.
 
-**Trade-offs:** limited inventory means you're often waiting for the right property rather than choosing among several. Confirm HOA obligations and any club or amenity structure in writing.
+**What to verify.** Flood zone and elevation, roof age, wind mitigation, permit history, and whether an HOA or recorded covenants apply.
 
-## A note on what "waterfront" means here
+![A bench beside Pelican Lake at dusk under string-lit palms, with a fountain on the water and trees along the far shore](/images/juno-beach/pelican-lake-bench-dusk.webp "Pelican Lake at the Town Center, at dusk. || Photo by John Oliver"){1400x1050}
 
-Worth clarifying, because the word does a lot of work in listings and means two very different things in this town.
+### Duplexes, townhouses and smaller multifamily
 
-**Ocean side** means the Atlantic — beach access, ocean views, the highest insurance exposure, and mostly condos. You walk to sand.
+**What's known.** The Town's zoning includes a duplex district and several multiple-family districts. The high-density RH district permits a variety of dwelling types, including single-family, two-family, multifamily and townhouses.
 
-**Intracoastal side** means canals and the waterway — dockage, boating access to the inlet, single-family homes with yards, and a short drive rather than a walk to the beach.
+**What differs.** How the property was created. A townhouse can be a condominium, part of an HOA, or fee-simple with no association, and that decides who maintains and insures what.
 
-Both are "waterfront." They produce completely different daily lives and carry different insurance and maintenance profiles. Decide which one you actually want before you start touring, because it narrows the search immediately.
+**What to verify.** The ownership structure, the governing documents if any, and who is responsible for the roof, exterior and grounds.
 
-## Beachside single-family and townhomes
+## Oceanfront is not one product
 
-Established homes and townhomes a short walk or bike from the sand, away from the oceanfront line. For a lot of buyers this is the most practical way into the Juno Beach lifestyle.
+Listings use "oceanfront," "ocean view" and "steps to the beach" loosely. They describe different things:
 
-**Objective characteristics:** mix of single-family and townhomes, most attainable price tier in town, modest or no HOA in some pockets, walk or bike to the beach without oceanfront exposure, mostly older construction.
+- **A building with ocean views.** The view is from the unit. It says nothing about beach rights, access or ownership obligations.
+- **A property near public beach access.** Palm Beach County runs [Juno Beach Park](https://discover.pbc.gov/parks/Locations/Juno-Beach.aspx), home of the pier, and Loggerhead Park. Public access is open to everyone, under the county's rules.
+- **A property with its own beach-area access.** Any private access, and the rules and costs that come with it, are set by the property's documents, not by its distance to the sand.
 
-**Trade-offs:** roof and AC age matter enormously at these build years, and both drive insurance and can affect financing. Price replacements into your offer. The upside is meaningful — you get the town's core appeal, walkable beach access, without the oceanfront insurance profile or condo association exposure.
+An ocean-facing listing doesn't guarantee private beach use, public access from the door, dock rights, or lower ownership obligations. Near-ocean properties may also fall inside the Town's Sea Turtle Protection Zone, which affects exterior lighting and some window work.
 
-![Lakeside gazebo at sunset near Juno Beach, Florida](/images/juno-beach/juno-beach-002.jpg "Not everything here is oceanfront — the inland and beachside pockets are where most of the town's attainable housing sits.")
+![The Atlantic breaking on a shelly beach in Juno Beach under a clear sky](/images/juno-beach/juno-shoreline-surf.webp "The Atlantic shoreline in Juno Beach. || Photo by John Oliver"){1400x1050}
 
-## How to actually compare them
+## Condo due diligence belongs in the neighborhood decision
 
-In a town this small, the neighborhood name matters less than the specific property's cost structure. For anything you're seriously considering, pin down:
+In Juno Beach, choosing a condominium is choosing a building. Before you commit, review:
 
-- **HOA or condo dues**, and precisely what they include
-- **For condos: the reserve study, funding level, master insurance policy, and any pending special assessment** — the single most important item on this list
-- **FEMA flood zone** for the specific address and what your lender will require
-- **Roof age and wind mitigation features**, which swing insurance premiums by thousands
-- **Property taxes recalculated for a new owner**, not the seller's capped bill
-- **For waterfront: seawall condition, dock permits, canal depth, and bridge clearance**
-- ## Inventory is the real constraint
+- **The governing documents:** the declaration, bylaws and rules, including rental, pet and renovation rules.
+- **The money:** the budget, reserves, any special assessments, and the last couple of years of board minutes, where coming costs tend to surface first.
+- **Maintenance history:** what's been repaired or replaced, and what's planned.
+- **Inspections and reserve studies.** Under Florida law, condominium and cooperative buildings three stories or more in height must have periodic [milestone inspections](https://leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html), and residential condominium associations must complete a [structural integrity reserve study](https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0718/Sections/0718.112.html) at least every 10 years for buildings three habitable stories or higher. Timing and applicability are building-specific; this article doesn't diagnose any building.
+- **Insurance:** the association's master policy isn't the same as your unit-owner (HO-6) policy, your contents coverage, your deductibles, or your exposure to a loss assessment. The state's [homeowners insurance overview](https://www.myfloridacfo.com/division/consumers/understanding-insurance/homeownersinsuranceoverview) explains the policy types.
 
-Worth setting expectations on before you start looking. A two-square-mile town with height limits produces very little turnover, and in any given month the number of active listings can be genuinely small.
+## Waterfront and boating: verify the parcel, not the label
 
-That has two consequences. Buyers with narrow requirements — a specific configuration, a single-family home with a yard, a particular building — often wait months rather than choosing among options. And when the right property does list, it tends not to sit.
+"Waterfront" can mean the ocean, the Intracoastal, a canal or a lake, and those are different things. [Pelican Lake](https://www.juno-beach.fl.us/1322/Pelican-Lake), for example, was created when a marsh was dredged; lake frontage isn't the same as navigable boating access.
 
-Being pre-approved, clear on your non-negotiables, and ready to move quickly matters more here than it does in a larger market where another comparable listing is a week away.
+If a property inside the town is marketed with boating or dock access, verify:
 
-**Salt exposure** — near the water, HVAC, fixtures, screens, and finishes wear faster, so factor shorter replacement cycles
+- **Title and conveyance:** does the dock, slip or water access belong to the property, or to an association?
+- **Permits** for any dock, lift or seawall.
+- **Water depth** at the dock and along the route out.
+- **Bridge clearance** between the property and open water.
+- **Seawall condition** and who is responsible for maintaining it.
+- **Access:** what the route to the Intracoastal or the ocean actually is.
 
-## On schools
+Don't assume a street or area has navigable access or dockage because some homes on it do.
 
-Some buyers start here with school zoning in mind. Assignments for a small barrier-island town can be less intuitive than people expect, and boundaries and school grades are reviewed and updated annually.
+## The address beats the label
 
-**Verify current assignments directly with the School District of Palm Beach County** for the specific address rather than relying on a listing or an article, including ours.
+- [ ] **Municipality and zoning.** Confirm the parcel is inside the Town of Juno Beach on the [Palm Beach County Property Appraiser](https://pbcpao.gov/) site and check its zoning with the Town. A "Juno Beach" mailing address or ZIP code isn't proof.
+- [ ] **Property type and association.** Condominium, HOA, or none, and the documents that go with it.
+- [ ] **Beach and water access.** What's public, what's private, and what the documents actually grant.
+- [ ] **Flood, wind and insurance.** Property-specific quotes, the FEMA flood zone, and wind mitigation.
+- [ ] **Condition.** Roof, exterior, seawall, drainage and any deferred maintenance.
+- [ ] **Schools.** Verify assignments for the specific address directly with the School District of Palm Beach County.
+- [ ] **Evacuation and access.** Look up the address's evacuation zone and plan your route.
 
-## Before you commit
+This is a checklist, not legal, insurance or financial advice. Confirm each item with the right professional.
 
-Spend a weekday morning and a weekend evening in whatever pocket you're considering. Walk the actual route to the beach access you'd use. If you're looking at a condo, go read the minutes — genuinely, sit down with two years of them, because that's where an assessment shows up before it shows up in your budget.
+## The bottom line
 
-Communities here differ on objective characteristics: property type, price tier, lot size, water access, association structure, and position relative to the ocean. The right one depends on your budget, your goals, and whether you want a dock, a balcony, or a yard. Visit in person and independently verify anything that matters to your decision.`,
+Juno Beach is small enough that you can see all of its housing patterns in a day. Pick the pattern that fits how you want to live, then let the specific address, its documents and its condition make the decision.
+
+For more, see the [Juno Beach community guide](/communities/juno-beach), [what it's really like living in Juno Beach](/blog/what-its-really-like-living-in-juno-beach-florida), our [local's guide](/blog/local-guide-to-juno-beach-florida) and the [cost of living in Juno Beach](/blog/cost-of-living-in-juno-beach-florida).`,
     faqs: [
-      { q: "What are the best neighborhoods in Juno Beach?", a: "The town is small, but the distinct options are oceanfront and beach-adjacent condos along Ocean Drive, single-family canal homes with Intracoastal access in Juno Isles, guard-gated low-density living in Seminole Landing, and established beachside single-family homes and townhomes a short walk from the sand." },
-      { q: "Where can you keep a boat in Juno Beach?", a: "Juno Isles is the main option — single-family homes on canals with Intracoastal access and dockage in much of the neighborhood. Verify canal depth, bridge clearance to the inlet, seawall condition, and whether dockage conveys for the specific property." },
-      { q: "What should I check before buying a condo in Juno Beach?", a: "The reserve study, the association's funding level, the building's master insurance policy, the last two years of meeting minutes, and any pending special assessment. Building age drives all of it. A building with higher dues and full reserves is often a better position than a cheaper one with deferred work ahead." },
-      { q: "Is there affordable housing in Juno Beach?", a: "Relatively speaking, the established beachside single-family homes and townhomes set back from the oceanfront line are the most attainable way into the town. They avoid oceanfront insurance exposure and condo association risk, though roof and AC age matter a great deal at those build years." },
-      { q: "What is Seminole Landing?", a: "A guard-gated community near the Lost Tree area characterized by very low density, large lots, heavy landscape screening, and high-end coastal homes. Inventory is limited, so buyers often wait for the right property rather than choosing among several." },
-      { q: "How do I check school zoning in Juno Beach?", a: "Verify current assignments directly with the School District of Palm Beach County for the specific address. Assignments for a small barrier-island town can be less intuitive than expected, and boundaries and grades are reviewed and updated annually." },
+      { q: "How many distinct residential areas are in Juno Beach?", a: "The Town doesn't publish a list of official neighborhoods. Its zoning divides residential land into single-family districts (RS-1 through RS-5), a duplex district, multiple-family districts and a high-density district. In practice that gives four housing patterns: oceanfront and near-ocean condominium buildings, taller condominium buildings, single-family streets, and duplexes, townhouses and smaller multifamily." },
+      { q: "Does Juno Beach have both condos and single-family homes?", a: "Yes. Condominiums have been part of the town since The Greenbrier in 1966, and The Tower became the first 12-story condominium in 1972. The Town also has five single-family zoning districts, plus duplex and multiple-family districts." },
+      { q: "What should I verify before buying a Juno Beach condo?", a: "The governing documents, budget, reserves, special assessments, recent board minutes, maintenance history and the association's insurance. Florida law requires periodic milestone inspections and structural integrity reserve studies for certain buildings three stories or more in height; whether and when they apply is building-specific. The association's master policy is also different from your own unit-owner policy, deductibles and loss-assessment exposure." },
+      { q: "What does waterfront mean in a Juno Beach listing?", a: "It can mean the ocean, the Intracoastal, a canal or a lake, and each is different. Verify title and conveyance of any dock or access, permits, water depth, bridge clearance, seawall condition and maintenance responsibility for the specific parcel. Don't assume an area has navigable access because some homes on it do." },
+      { q: "How do I verify whether a property is inside the Town of Juno Beach?", a: "Look up the parcel on the Palm Beach County Property Appraiser's site, which shows its municipality, and check its zoning with the Town of Juno Beach. A Juno Beach mailing address or ZIP code isn't proof that a property is inside the Town." },
     ],
-    internalLinks: ['what-its-really-like-living-in-juno-beach-florida', 'cost-of-living-in-juno-beach-florida', 'who-should-move-to-juno-beach-florida'],
-    funFact: "Juno Beach has no incorporated downtown and strict height restrictions that have kept high-rises away — most oceanfront buildings cap out well below what you'd see in Singer Island or Boca. That's a deliberate policy decision, and it's why the town still feels like a beach town rather than a resort strip.",
+    internalLinks: ['what-its-really-like-living-in-juno-beach-florida', 'local-guide-to-juno-beach-florida', 'cost-of-living-in-juno-beach-florida'],
+    funFact: "The most reliable neighborhood map of Juno Beach is the Town's zoning map. It splits residential land into single-family districts (RS-1 through RS-5), a duplex district, multiple-family districts and a high-density district, which tells you more about what a street can hold than any marketing name.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-01',
   },
   {
     slug: 'best-things-to-do-in-juno-beach-florida',

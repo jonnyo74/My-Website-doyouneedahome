@@ -5,7 +5,7 @@ Photos are **copied** from John Oliver's own photo library (`Website Folders/Doy
 is visible in each frame and on John's confirmation. The page credit reads "Photo by John Oliver". Derivatives are WebP
 (q80): heroes 2048×1152 with a 1200×800 phone crop, in-article images 1400×1050, embedded with explicit dimensions.
 
-The older numbered files in this folder (`juno-beach-0xx.jpg`/`.jpeg`) have no recorded origin. Other Juno Beach
+The older numbered files in this folder (`juno-beach-0xx.jpg`/`.jpeg`) have no recorded origin. `juno-beach-022.*` is North Palm Beach (per John, 2026-10-01) and `juno-beach-037.*` (rope-rail boardwalk) matches nothing in the library, so neither is used on rebuilt Juno Beach pages. `juno-beach-002.jpg` is an edited copy of the Pelican Lake gazebo frame (`IMG_8948`). Other Juno Beach
 articles and the community page still use them.
 
 ## Blog article heroes
@@ -14,6 +14,7 @@ articles and the community page still use them.
 |---|---|---|---|---|---|
 | #1 `what-its-really-like-living-in-juno-beach-florida` | `juno-beach-pier-dune-hero.webp` (16:9 OG/JSON-LD), plus `juno-beach-pier-dune-mobile.webp` (1200×800) | library `IMG_3145.jpg` (1920×1440) | Hero rows 250–1330, full width, upscaled to 2048. Mobile cols 240–1920, rows 220–1340. Added 2026-10-01. | `juno-beach-009.jpg` (file kept) | The Juno Beach Pier and pier house from the dune (verified in frame). Beachgoers are small and not identifiable. |
 | #2 `local-guide-to-juno-beach-florida` | `dune-crossover-hero.webp` (16:9 OG/JSON-LD), `dune-crossover-panel.webp` (960×1200, desktop split panel) and `dune-crossover-mobile.webp` (1200×800) | library `IMG_6146.JPEG` (1920×1440) | Hero rows 120–1200, full width, upscaled to 2048. Panel cols 384–1536, all rows. Mobile rows 80–1360, full width. Split 'guide' hero, so no text sits over the photo. Added 2026-10-01. | `juno-beach-021.jpg` (file kept) | The same frame as the old hero (`juno-beach-021.*` is a copy of `IMG_6146`), rebuilt from the original. Location confirmed by John on 2026-10-01. Also used in #1 as `dune-crossover-sea-grape.webp`. |
+| #3 `best-neighborhoods-in-juno-beach-florida` | `pelican-lake-sunset-hero.webp` (16:9 OG/JSON-LD), plus `pelican-lake-sunset-mobile.webp` (1200×800) | library `IMG_8945.JPEG` (1920×1440) | Hero rows 120–1200, full width, upscaled to 2048. Mobile rows 80–1360, full width. Added 2026-10-01. | `juno-beach-022.jpg` (file kept; John identified it as North Palm Beach, so it must not be used for Juno Beach) | Pelican Lake at sunset with homes on the far shore; John confirmed Pelican Lake on 2026-10-01. Homes are distant and not identifiable. |
 
 ## In-article images
 
@@ -26,6 +27,8 @@ articles and the community page still use them.
 | #2 | `juno-beach-pier-beach.webp` | library `IMG_3145.jpg` (1920×1440, also the #1 hero) | Cols 480–1920, rows 330–1410, resized to 1400×1050 | "Juno Beach Park and the pier": the pier and pier house with the beach (verified in frame). A tighter crop than the #1 hero. Added 2026-10-01. |
 | #2 | `pelican-lake-patio-dusk.webp` | library `IMG_3017.JPEG` (1920×1440) | Full frame, resized | "The Town Center and Pelican Lake": a patio with picnic tables and string-lit palms by the lake at dusk. John confirmed on 2026-10-01 that the lake is Pelican Lake at the Town Center. Added 2026-10-01. |
 | #2 | `county-beach-access-chickee.webp` | library `IMG_4623.JPEG` (1920×1440) | Full frame, resized | "The pier and beach: plan before you go": a chickee at a beach access with a Palm Beach County Parks sign (county, verified in frame; Juno Beach confirmed by John 2026-10-01). The caption doesn't name the park. Added 2026-10-01. |
+| #3 | `pelican-lake-bench-dusk.webp` | library `IMG_3018.JPEG` (1920×1440) | Full frame, resized | "Single-family residential streets": a bench by Pelican Lake at the Town Center at dusk (John, 2026-10-01). Added 2026-10-01. |
+| #3 | `juno-shoreline-surf.webp` | library `IMG_5202.JPEG` (1920×1440) | Full frame, resized | "Oceanfront is not one product": the Atlantic shoreline. Location confirmed by John on 2026-10-01; no access point is named. Added 2026-10-01. |
 
 ## Library notes (2026-10-01)
 
