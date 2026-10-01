@@ -28,7 +28,7 @@ Articles #4 (things to do), #8 (hidden gems), #9 (vs nearby cities) and #10 (eat
 | #3 `best-neighborhoods-in-westlake-florida` | `model-home-garages-hero.webp` | `westlake-019.jpg` | Rows 260–1412 | A model-home exterior for an article about builder collections. A small builder sign in the yard is not legible. |
 | #5 `who-should-move-to-westlake-florida` | `model-patio-lake-palms-hero.webp` | `westlake-070.jpg` | Rows 260–1412 | Covered patio, lawn and lake: the indoor-outdoor lifestyle the article weighs. |
 | #6 `pros-and-cons-of-living-in-westlake-florida` | `model-lanai-pool-construction-hero.webp` | `westlake-051.jpg` | Rows 180–1332 | Shows the pro (pool and lake view) and the con (heavy equipment and site work across the water) in one frame. |
-| #7 `cost-of-living-in-westlake-florida` | `model-kitchen-gray-cabinets-hero.webp` | `westlake-021.jpg` | Rows 300–1452 | A new-construction kitchen for an article that is mostly about new-build costs. |
+| #7 `cost-of-living-in-westlake-florida` | `model-kitchen-gray-cabinets-hero.webp`, plus `model-kitchen-gray-cabinets-mobile.webp` (1200×800, rows 171–1536, added 2026-10-01 for the editorial hero) | `westlake-021.jpg` | Rows 300–1452 | A new-construction kitchen for an article that is mostly about new-build costs. |
 
 ## Not used, and why
 
