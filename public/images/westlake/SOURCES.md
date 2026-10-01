@@ -28,7 +28,7 @@ Articles #8 (hidden gems), #9 (vs nearby cities) and #10 (eat, drink, hang out) 
 | #3 `best-neighborhoods-in-westlake-florida` | `model-home-garages-hero.webp`, plus `model-home-garages-mobile.webp` (1200×800, rows 171–1536, added 2026-10-01 for the editorial hero; the caption dates it to 2018 and says models show one plan) | `westlake-019.jpg` | Rows 260–1412 | A model-home exterior for an article about builder collections. A small builder sign in the yard is not legible. |
 | #4 `best-things-to-do-in-westlake-florida` | `model-pool-palms-lake-hero.webp` (16:9 OG/JSON-LD), `model-pool-palms-lake-panel.webp` (960×1200, split 'guide' panel) and `model-pool-palms-lake-mobile.webp` (1200×800). Added 2026-10-01. | `westlake-017.jpg` (also the full-frame gallery image `model-pool-palms-lake.webp`) | Hero rows 150–1302. Panel cols 640–1869, all rows. Mobile rows 100–1465. | No Adventure Park, civic-event or streetscape photo exists in the library. The panel caption says it's a private model-home pool, not the Adventure Park, so the hero can't be read as the amenity or as a regional destination. |
 | #5 `who-should-move-to-westlake-florida` | `model-patio-lake-palms-hero.webp`, plus `model-patio-lake-palms-mobile.webp` (1200×800, rows 171–1536, added 2026-10-01; caption dates it and says lots and outdoor space vary) | `westlake-070.jpg` | Rows 260–1412 | Covered patio, lawn and lake: the indoor-outdoor lifestyle the article weighs. |
-| #6 `pros-and-cons-of-living-in-westlake-florida` | `model-lanai-pool-construction-hero.webp` | `westlake-051.jpg` | Rows 180–1332 | Shows the pro (pool and lake view) and the con (heavy equipment and site work across the water) in one frame. |
+| #6 `pros-and-cons-of-living-in-westlake-florida` | `model-lanai-pool-construction-hero.webp`, plus `model-lanai-pool-construction-mobile.webp` (1200×800, rows 120–1485, added 2026-10-01; the caption dates the site work to 2018) | `westlake-051.jpg` | Rows 180–1332 | Shows the pro (pool and lake view) and the con (heavy equipment and site work across the water) in one frame. |
 | #7 `cost-of-living-in-westlake-florida` | `model-kitchen-gray-cabinets-hero.webp`, plus `model-kitchen-gray-cabinets-mobile.webp` (1200×800, rows 171–1536, added 2026-10-01 for the editorial hero) | `westlake-021.jpg` | Rows 300–1452 | A new-construction kitchen for an article that is mostly about new-build costs. |
 
 ## In-article galleries (added 2026-10-01)
@@ -51,6 +51,8 @@ All are full frames resized to 1400×1050 WebP (q78), rendered in the article's 
 | `model-laundry-room.webp` | `westlake-030.jpg` | #3 |
 | `model-shower-glass.webp` | `westlake-060.jpg` | #3 (the wall sign isn't legible at this size) |
 | `model-kitchen-feature-sheet.webp` | `westlake-054.jpg` | #7 (a model feature sheet on the island; text not legible at this size) |
+| `model-pool-young-palms.webp` | `westlake-018.jpg` | #6 (shade and outdoor comfort; caption dates the young landscaping to 2018) |
+| `model-patio-young-palms-lake.webp` | `westlake-071.jpg` | #6 |
 
 Skipped for galleries: `westlake-035` (a person is visible on the TV) and every frame listed below.
 
