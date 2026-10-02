@@ -28629,112 +28629,150 @@ A full budget for one property is more useful than any citywide cost-of-living a
     cityName: 'Jupiter',
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems in Jupiter, Florida (Local Secret Spots)",
-    metaTitle: "Hidden Gems in Jupiter, Florida",
-    metaDescription: "The local spots newcomers miss — hidden gems in Jupiter, Florida, from Coral Cove's snorkeling reef to quiet preserves and secret sunset spots.",
-    primaryKeyword: "hidden gems in Jupiter Florida",
-    secondaryKeywords: ["Jupiter Florida secret spots", "free things to do in Jupiter", "local favorites Jupiter FL"],
-    h1: "Hidden Gems in Jupiter, Florida",
-    heroImage: '/images/jupiter/jupiter-inlet.jpg',
-    body: `Everybody finds the lighthouse and the dog beach in week one. Those are the headliners, and they earn it. But the Jupiter that actually makes people stay reveals itself slowly — in small parks nobody photographs, a reef you can swim to from the sand, and a boardwalk that dead-ends at the most underrated sunset in town.
+    seoTitle: 'Hidden Gems in Jupiter, Florida: Lesser-Known Parks, Trails & Waterfront Stops',
+    metaTitle: 'Hidden Gems in Jupiter, Florida: Lesser-Known Parks, Trails & Waterfront Stops',
+    metaDescription:
+      'Explore lesser-known public places in and near Jupiter, Florida, with practical notes on access, trail conditions, wildlife, history, and official resources.',
+    primaryKeyword: 'hidden gems in Jupiter Florida',
+    secondaryKeywords: [
+      'Jupiter Florida parks and trails',
+      'Jupiter Ridge Natural Area',
+      'Sawfish Bay Park Jupiter',
+      'Riverbend Park Jupiter',
+      'things to do near Jupiter Florida',
+    ],
+    h1: 'Hidden Gems in Jupiter, Florida',
+    heroImage: '/images/jupiter/jupiter-sea-grape-path-hero.webp',
+    heroImageAlt: 'A sandy footpath between tall sea grape hedges opening onto the blue water of the Jupiter Inlet, with the red Jupiter Inlet Lighthouse small on the far shore under a partly cloudy sky',
+    heroImageCaption: 'A sea grape path to the water near the Jupiter Inlet, the lighthouse on the far shore.',
+    heroImageCredit: 'Photo by John Oliver, 2021',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Jupiter · Field Guide',
+      deck: 'Eight public places in and near Jupiter that are worth a closer look: where each one is, what it is for, what to verify before you go, and the official page to check.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/jupiter/jupiter-sea-grape-path-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/jupiter/jupiter-sea-grape-path-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A sea grape path to the water near the Jupiter Inlet.',
+      primaryCta: { label: 'Explore Jupiter', href: '/communities/jupiter' },
+      secondaryCta: { label: 'Best things to do in Jupiter', href: '/blog/best-things-to-do-in-jupiter-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Thinking about living near one of these places? The community guide covers the areas around them, and we can talk through what a specific address is close to.',
+        cta: { label: 'Explore living in Jupiter', href: '/communities/jupiter' },
+      },
+    },
+    body: `The lighthouse, the dog beach and the Riverwalk are the places everyone finds first, and the [things to do guide](/blog/best-things-to-do-in-jupiter-florida) covers them. This is the second list: public parks, natural areas, trails and waterfront stops that are often overlooked and worth a closer look, in Jupiter and just beyond it.
 
-Here's the list locals actually use. Most of it is free.
+Each entry says where the place actually is and which government or organization runs it, since "Jupiter" on a map can mean the Town of Jupiter, unincorporated Palm Beach County with a Jupiter address, or a neighbor like Tequesta or Jupiter Island. Each one also says what to verify before you go, with the official page to check. What this guide does not do is promise conditions: hours, trail closures, parking, surf, water clarity, wildlife and weather change, and the official page on the day beats anything written here.
 
-## Coral Cove Park — snorkeling without a boat
+## Jupiter Ridge Natural Area
 
-Just north on the barrier island, Coral Cove has something genuinely rare on this coast: a shallow limestone and rock reef sitting right off the beach, close enough to swim to in a few minutes. At high tide with calm water, it fills with fish and the visibility can be excellent.
+**Where:** On US-1 in Jupiter, on the Intracoastal Waterway. A Palm Beach County natural area, managed by the County's Environmental Resources Management department.
 
-**Local tip:** go at high tide, and check conditions before you commit. When the surf is up, the same rocks that make it special make it a bad idea. Bring water shoes — the rock is sharp.
+**What it is for:** Walking marked trails through more than 270 acres of scrub, flatwoods, marsh and mangrove, one of the rarer habitat mixes on this coast. The County lists a short paved trail and two longer sandy trails, a boardwalk, a wildlife observation platform over the tidal channels of Old Lake Worth Creek, and interpretive kiosks. A segment of the Town's Riverwalk runs along the north end, with a pedestrian gate from the Riverwalk corridor, and an unimproved landing on the west side, known as Ski Beach, gives canoe and kayak access to the Intracoastal.
 
-## Jupiter Ridge Natural Area — the preserve nobody visits
+**Verify before you go:** Hours, which trails are open and the condition of the sandy trails after rain, all on the County's [Jupiter Ridge](https://discover.pbc.gov/erm/NaturalAreas/Jupiter-Ridge.aspx) page. Shade is limited on the scrub trails.
 
-A quiet preserve with trails through coastal scrub, one of Florida's rarer and more threatened habitats, plus a hidden overlook of the Intracoastal. It sits right off a busy road and is almost always empty.
+## DuBois Pioneer Home at DuBois Park
 
-It's not dramatic. It's just genuinely peaceful, five minutes from town, and free. Go early — there's limited shade and it gets hot fast.
+**Where:** DuBois Park, on DuBois Road at the Jupiter Inlet, in Jupiter. The park is a Palm Beach County park; the Town lists the home among its Riverwalk points of interest.
 
-![Shaded beach boardwalk through sea grape trees in Jupiter, Florida](/images/jupiter/jupiter-003.jpg "The best beach access points in Jupiter are the ones you have to know about — shaded, quiet, and no parking lot in sight.")
+**What it is for:** History. The Town identifies the DuBois Pioneer Home as an 1898 house, one of the oldest in Palm Beach County, standing on the inlet where the pioneer-era settlement was. It is open for docent-led tours, and the park around it has the lagoon, the inlet shoreline and picnic areas.
 
-## The DuBois Pioneer Home
+**Verify before you go:** The tour schedule and whether the home is open on the day, on the Town's [Riverwalk points of interest](https://jupiter.fl.us/234/Riverwalk-Map-Points-of-Interest) page. Park hours and parking are the County's.
 
-Tucked inside Dubois Park, this small historic home sits on top of an ancient shell mound left by the Jeaga people, with the inlet right there. It tells the story of pioneer-era Jupiter in about twenty minutes.
+## Sawfish Bay Park
 
-Most families go to Dubois Park for the calm lagoon and never walk the extra hundred yards. Worth doing once, especially with kids who've hit their limit on the beach.
+**Where:** 1133 North Alternate A1A, Jupiter, on the Intracoastal Waterway. A Town of Jupiter park.
 
-## Sawfish Bay Park — the sunset locals don't advertise
+**What it is for:** A public waterfront boardwalk along the waterway, a fishing pier with fish-cleaning stations, a canoe and kayak launch, picnic pavilions and restrooms, on a small site with the lighthouse in view across the water. It is a fishing and launch spot first and a place to walk the water's edge second.
 
-A small, easy-to-miss park with a boardwalk over the water near the river. No crowds, no parking hassle, and a genuinely beautiful sunset. Longtime residents are mildly protective of it, which tells you what you need to know.
+**Verify before you go:** Parking is in designated spaces only, and the Town does not permit alcohol or dogs in the park. Hours and current rules are on the Town's [Sawfish Bay Park](https://jupiter.fl.us/facilities/facility/details/Sawfish-Bay-Park-15) page. Nothing here promises a sunset, a quiet evening or an open space in the lot.
 
-## Blowing Rocks Preserve
+## Riverbend Park
 
-A short hop north onto Jupiter Island. When winter surf hits the limestone shoreline just right, water shoots up through holes in the rock in plumes. It looks nothing like any other beach in the area — dark rock instead of white sand, dramatic instead of gentle.
+**Where:** 9060 Indiantown Road, west of the Turnpike, with a Jupiter address in unincorporated Palm Beach County. A Palm Beach County park.
 
-**Local tip:** it's tide- and surf-dependent. Go at high tide during winter when there's swell, or you'll see interesting rocks and no show. Parking is limited and it's a Nature Conservancy preserve, so there's a modest admission.
+**What it is for:** Hiking, bicycling, horseback riding and paddling on the Loxahatchee River, Florida's first federally designated Wild and Scenic River. The County describes nearly ten miles of hiking and biking trails, seven miles of equestrian trails and about five miles of canoe and kayak waterways, with private canoes and kayaks launching from Picnic Island. The park also holds the Loxahatchee River Battlefield, the site of two Second Seminole War battles in January 1838, with docent-led battlefield tours listed on the County's page.
 
-## The sandbar at the inlet
+**Verify before you go:** Trail conditions, water levels on the river, rental availability, the tour schedule and park rules, all on the County's [Riverbend Park](https://discover.pbc.gov/parks/pages/riverbend.aspx) page. Wildlife, including alligators, lives in the park; keep your distance and follow posted guidance.
 
-Not a place you'll find on a map — it's a shallow spot near the inlet where boats anchor on warm weekends and people wade around visiting each other. It functions as the town's outdoor living room.
+## The River Center at Burt Reynolds Park
 
-You don't need your own boat. You need one friend with a boat, and in Jupiter that's a solvable problem within a few months.
+**Where:** 805 North US-1, Jupiter, inside Burt Reynolds Park between the Intracoastal and the Oxbow. The park is a Palm Beach County park with boat ramps; the Town lists the River Center among its Riverwalk points of interest.
 
-![Manatee in clear water near the Jupiter inlet](/images/jupiter/jupiter-009.jpg "Manatees show up near the inlet and the marinas in the cooler months — one of the genuine perks of living on this water.")
+**What it is for:** An educational stop. The River Center has live aquatic tanks, interactive exhibits and touch tanks that explain the Loxahatchee River system from its headwaters to the inlet. The park around it is public waterfront with boat access, a place to watch the Intracoastal from the shore.
 
-## Manatees near the inlet in the cooler months
-
-Not a location so much as a season. As the water cools, manatees move into the warmer, calmer water near the inlet and the marinas. You can often spot them from a dock or a seawall without any special effort.
-
-Give them room, don't feed them, and don't chase them with a paddleboard — they're protected, and locals will let you know.
-
-## Riverbend Park's back trails
-
-Most people paddle the main run of the Loxahatchee and call it a day. The quieter side trails — on foot or on a bike — get you into cypress and palm hammock that feels genuinely untouched. There's Seminole War history marked along the way, and long stretches where you won't see another person.
-
-## Burt Reynolds Park
-
-A modest waterfront park that most people drive past. It's a good place to sit and watch boats work through the Intracoastal, and it's where a lot of residents end up when they want twenty quiet minutes without a plan.
-
-## Green markets in season
-
-During the cooler months, local green markets function as much as a social institution as a place to buy produce. It's where you run into neighbors, and for new residents it's one of the easiest low-effort ways to start feeling connected to the town.
+**Verify before you go:** The River Center's hours and any program schedule, from the Town's [Riverwalk points of interest](https://jupiter.fl.us/234/Riverwalk-Map-Points-of-Interest) page, and the County's rules and ramp fees for the park itself.
 
 ## Jupiter Inlet Lighthouse Outstanding Natural Area
 
-Most people climb the lighthouse and leave. The surrounding natural area has trails through coastal hammock and along the water that almost nobody walks, with views back across the inlet that you won't get from the tower.
+**Where:** Around the lighthouse on the north side of the Jupiter Inlet, in Jupiter. The natural area is federal land managed by the Bureau of Land Management; the lighthouse and museum are operated separately by the Loxahatchee River Historical Society.
 
-It's a good pairing — do the climb, then spend another half hour on the trails while everyone else drives off.
+**What it is for:** Walking the public trails and grounds, which are a different visit from the lighthouse climb. The BLM describes the trails and natural areas as open dawn to dusk daily: the area north of South Beach Road has a small parking lot, a kiosk, a hardened trail and boardwalk and an observation deck, and the areas south of the road are reached by trail from that lot. The Historical Society leads guided walks of the southern areas on a monthly schedule.
 
-## The Jupiter Inlet jetty at dawn
+**Verify before you go:** Trail access and closures on the BLM's [Outstanding Natural Area](https://www.blm.gov/programs/national-conservation-lands/eastern-states/jupiter-inlet-lighthouse) page, and lighthouse climb hours, tickets and weather cancellations on the [Jupiter Inlet Lighthouse & Museum](https://www.jupiterlighthouse.org/plan/hours-ticket-prices-directions-include-special-notices/) page before relying on a specific time.
 
-Not a secret exactly, but a different experience depending on when you go. At sunrise the jetty is quiet, the light is good, and it's mostly anglers and a few walkers. Later in the day it's a completely different, much busier place.
-
-If you're new here and trying to understand why people love this town, an early morning on the jetty does more work than any article can.
+## Scenes from Jupiter's public waterfronts and trails
 
 ::: gallery
-![A sandy footpath between tall sea grape hedges opening onto blue water, with the Jupiter Inlet Lighthouse small on the far shore under a partly cloudy sky](/images/jupiter/jupiter-sea-grape-path-lighthouse.webp "A sea grape path to the water near the inlet. || Photo by John Oliver, 2021")
+![A wooden beach crossover boardwalk with metal handrails leading between sea grape hedges to a turquoise ocean under a clear sky in Jupiter](/images/jupiter/jupiter-beach-boardwalk-sea-grape.webp "A dune crossover to the beach near Marcinski Road. || Photo by John Oliver, 2022")
 ![A brick pedestrian walkway between coconut palms leading to a railing on the water, with the Jupiter Inlet Lighthouse across the inlet](/images/jupiter/jupiter-love-street-walkway-lighthouse.webp "A public walkway on the inlet, the lighthouse across the water. || Photo by John Oliver, 2022")
 ![Sea grape branches over a sandy shoreline and blue water, with houses and the Jupiter Inlet Lighthouse on the far shore](/images/jupiter/jupiter-inlet-shoreline-lighthouse.webp "A shoreline across the water from the lighthouse. || Photo by John Oliver, 2022")
 ![The Jupiter Inlet Lighthouse on its wooded point at dusk under a bank of clouds, seen across the water past a line of dock pilings](/images/jupiter/jupiter-lighthouse-dock-dusk.webp "The lighthouse across the water at dusk. || Photo by John Oliver, 2022")
 ![A sea grape dune with a few palms at dusk beside an empty stretch of sand on Jupiter's beach, a handful of people far down the shore](/images/jupiter/jupiter-beach-dune-dusk.webp "The dune at dusk, near Marcinski Road. || Photo by John Oliver, 2022")
-![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds over the beach near Marcinski Road. || Photo by John Oliver, 2022")
+![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds building over the beach near Marcinski Road. || Photo by John Oliver, 2022")
 :::
 
-## Why these matter more than the headliners
+## Coral Cove Park, Tequesta (nearby)
 
-The lighthouse is worth climbing. The dog beach is worth the ritual. But the places on this list are the ones that turn a new arrival into a resident — they're free or cheap, they're off the tourist circuit, and they're the honest answer when a friend asks what it's actually like to live here.
+**Where:** 1600 Beach Road, Tequesta, on the barrier island north of the Jupiter Inlet. Not in Jupiter. A Palm Beach County park, open sunrise to sunset.
 
-Work through a few of them in your first few months. They're also the fastest way to figure out which part of town you want to live in, which is a decision most people make on far less information than this.`,
+**What it is for:** An ocean beach with a guarded swimming area, picnic areas, a playground, restrooms and showers. Palm Beach County lists Coral Cove among its snorkeling locations, within the lifeguard-protected swimming area.
+
+**Verify before you go:** The County's daily beach conditions, the lifeguard status and the flag flying from the tower when you arrive, the surf, any posted warnings, and your own ability in open water. The County's [Coral Cove](https://discover.pbc.gov/parks/Locations/Coral-Cove.aspx), [beach conditions](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) and [about our beaches](https://discover.pbc.gov/parks/aquatics/about-our-beaches.aspx) pages are the sources. This page makes no claim about visibility or what you will see, and the rocky shoreline is not a place to enter the water outside the guarded area.
+
+## Blowing Rocks Preserve, Jupiter Island (nearby)
+
+**Where:** 574 South Beach Road on Jupiter Island, in Hobe Sound, Martin County. Not in Jupiter. A Nature Conservancy preserve.
+
+**What it is for:** The largest outcropping of Anastasia limestone on the East Coast, with short trails, interpretive signs and a rocky shoreline unlike the sand beaches to the south. Under the right tide and surf, waves surging against the limestone can force spray through the rock, which is where the name comes from. On a calm day you will see the rock formations and the beach without the spray.
+
+**Verify before you go:** Current hours, entry conditions, holiday closures and parking, on the Conservancy's [Blowing Rocks Preserve](https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/blowing-rocks-preserve/) page. The preserve lists set opening hours with a last-entry time, and it is also a sea turtle nesting beach with its own seasonal rules.
+
+## A note on wildlife
+
+Manatees, dolphins, wading birds and sea turtles use the inlet, the river and the Intracoastal, and any of them may be in view from a dock, a boardwalk or a shoreline on this list. Sightings are never guaranteed. If you do see wildlife, observe from a distance, and do not touch, feed, pursue or disturb it. Manatees are protected, and the Florida Fish and Wildlife Conservation Commission's [manatee viewing guidelines](https://myfwc.com/education/wildlife/manatee/viewing-guidelines/) say it plainly: if the animal changes its behavior because of you, you are too close.
+
+## Before you go, every time
+
+- [ ] Check the official page linked above for hours, closures and rules on the day.
+- [ ] For a beach, check the County's daily conditions and the flag at the tower.
+- [ ] Obey posted signs, weather advisories and any closure, on trails and on the water alike.
+- [ ] Carry water and sun protection; shade is limited on the scrub and dune trails.
+- [ ] Park only where the site allows, and expect lots to fill.
+
+Six of these eight are in Jupiter or carry a Jupiter address; Coral Cove and Blowing Rocks are neighbors worth the short drive. For the areas around them, see the [neighborhood guide](/blog/best-neighborhoods-in-jupiter-florida); for how the town fits together, the [local guide](/blog/local-guide-to-jupiter-florida); and for what living here is like day to day, [what living in Jupiter is really like](/blog/what-its-really-like-living-in-jupiter-florida).`,
     faqs: [
-      { q: "What are the hidden gems in Jupiter, Florida?", a: "Coral Cove Park's shore-accessible snorkeling reef, Jupiter Ridge Natural Area, the DuBois Pioneer Home in Dubois Park, Sawfish Bay Park's boardwalk sunset, Blowing Rocks Preserve just north on Jupiter Island, the inlet sandbar, and the quieter back trails at Riverbend Park." },
-      { q: "Where can you snorkel from the beach in Jupiter?", a: "Coral Cove Park on the barrier island has a shallow rock reef close enough to swim to from the sand. Go at high tide with calm conditions, wear water shoes, and skip it when the surf is up." },
-      { q: "What are free things to do in Jupiter, Florida?", a: "Most of the best of it — the beaches including the dog stretch, Jupiter Ridge Natural Area, Sawfish Bay Park, Burt Reynolds Park, the Riverwalk boardwalk, and green markets in the cooler months." },
-      { q: "Where can you see manatees in Jupiter?", a: "Manatees commonly move into the warmer, calmer water near the inlet and the marinas during the cooler months, and can often be seen from docks and seawalls. They're protected — give them space and don't feed or follow them." },
-      { q: "Is Blowing Rocks Preserve worth visiting?", a: "Yes, but time it. The limestone shoreline sends plumes of water into the air when winter surf hits at high tide. Outside those conditions you'll see an interesting rock shoreline without the show. Parking is limited and there's a modest admission." },
-      { q: "What is the sandbar in Jupiter?", a: "A shallow area near the inlet where boats anchor on warm weekends and people wade and socialize. It functions as an informal gathering spot for much of the town and isn't marked as a destination on maps." },
+      { q: 'What are some lesser-known public places in Jupiter, Florida?', a: 'Jupiter Ridge Natural Area, the DuBois Pioneer Home at DuBois Park, Sawfish Bay Park, Riverbend Park, the River Center at Burt Reynolds Park, and the trails of the Jupiter Inlet Lighthouse Outstanding Natural Area. Each has an official page with hours, rules and conditions to check before visiting.' },
+      { q: 'Which hidden-gem stops are in Jupiter versus nearby?', a: 'Jupiter Ridge, DuBois Park, Sawfish Bay Park, Burt Reynolds Park and the lighthouse natural area are in Jupiter; Riverbend Park carries a Jupiter address in unincorporated Palm Beach County. Coral Cove Park is in Tequesta, and Blowing Rocks Preserve is on Jupiter Island in Hobe Sound, Martin County.' },
+      { q: 'Where can I find current beach and water conditions near Jupiter?', a: "Palm Beach County Parks publishes daily beach conditions and lifeguard information for its beaches, including Coral Cove, and flies condition flags from the lifeguard towers. Check the County's beach conditions page before you go and the flag and conditions board when you arrive." },
+      { q: 'What should I know before visiting Jupiter Ridge Natural Area?', a: "It is a Palm Beach County natural area on US-1 in Jupiter with a short paved trail, two longer sandy trails, a boardwalk and an observation platform. Shade is limited, trail conditions change after rain, and hours and access are set by the County's Environmental Resources Management department, so check its page first." },
+      { q: 'Can I see manatees near Jupiter?', a: 'Manatees use the inlet, the river and the Intracoastal, and they are sometimes visible from docks and shorelines, but sightings are never guaranteed. If you see one, observe from a distance and do not touch, feed, pursue or disturb it. The Florida Fish and Wildlife Conservation Commission publishes viewing guidelines.' },
+      { q: 'What should I verify before visiting Coral Cove or Blowing Rocks Preserve?', a: "For Coral Cove in Tequesta, the County's daily beach conditions, lifeguard status, surf and warnings, and your own ability; snorkeling is listed within the guarded swimming area. For Blowing Rocks on Jupiter Island, the preserve's current hours, last-entry time, closures and parking on The Nature Conservancy's page. Neither is in Jupiter." },
     ],
-    internalLinks: ["best-things-to-do-in-jupiter-florida", "local-guide-to-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
-    funFact: "Riverbend Park in Jupiter is 685 acres of Florida wilderness that feels like the backcountry — canoe trails, equestrian paths, and alligator sightings — yet it's minutes from a Publix. Most newcomers drive past it for years before someone finally takes them.",
+    internalLinks: ['best-things-to-do-in-jupiter-florida', 'local-guide-to-jupiter-florida', 'what-its-really-like-living-in-jupiter-florida', 'jupiter-beach-access-guide'],
+    funFact: "Riverbend Park's Loxahatchee River Battlefield is the site of two Second Seminole War battles fought in January 1838, and Palm Beach County lists docent-led battlefield tours on the park's page. Check the schedule there before you plan around one.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-02',
   },
   {
     slug: 'jupiter-vs-nearby-cities',
