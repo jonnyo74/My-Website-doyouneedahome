@@ -40,6 +40,8 @@
 | jupiter-crossover-panel.webp | same original | 960 × 1200 | same | 4:5 crop | Desktop hero panel, same article |
 | jupiter-crossover-mobile.webp | same original | 1200 × 800 | same | 3:2 crop | Phone hero, same article |
 | jupiter-beach-dusk-north.webp | jupiter-2022-136.jpeg (Killers), EXIF 2022-08-06 19:52, GPS 26°54′14″N 80°03′37″W (same beach) | 1050 × 1400 | John Oliver's own photo, added 2026-10-02, EXIF stripped | The beach looking north at dusk, people on the sand, dune at left, condo towers far up the shore | Inline, same article |
+| jupiter-area-beaches-4x5.png | DO Homes Group graphic made in Claude Design from the Town of Jupiter's Jupiter Area Beaches map (DocumentCenter 29369), added by John 2026-10-02 | 1080 × 1350 | Own graphic; data is the Town's public map, credited in the footer | Branded redraw: crossovers #22 to #72 by Town, County or private, ADA crossovers #24, #31, #45, #48, lifeguard areas, free parking, dog corridor #26 to #57, legend, Town guidelines | Download link, `jupiter-beach-access-guide` |
+| jupiter-area-beaches-16x9.png | same | 1600 × 900 | same | Landscape layout of the same graphic | Inline figure and download link, same article |
 
 Location was checked by eye from signage where a sign is in frame. The batch was described by John as Harbourside, the Riverwalk and Jupiter Yacht Club, but he could not confirm which marina shots are JYC rather than Harbourside's marina, so no inline caption names JYC. The JYC page gallery carries no captions; captions only name a place where the frame or John's brief supports it. Added to pages 2026-09-30.
 

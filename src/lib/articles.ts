@@ -29168,6 +29168,10 @@ This guide turns that map into something you can use from the car: which crossov
 
 ## How the numbering works
 
+![A DO Homes Group map of Jupiter area beaches drawn from the Town of Jupiter's map: numbered crossovers #22 to #72 along the coast from Juno Beach Park to the Jupiter Inlet, color-coded by Town, County or private, with the four ADA-accessible crossovers, lifeguard areas, free parking, the dog beach corridor from #26 to #57, a legend and the Town's beach guidelines](/images/jupiter/jupiter-area-beaches-16x9.png "Our redraw of the Town of Jupiter's Jupiter Area Beaches map. Positions are approximate; the Town's map is the authority. || Source: Town of Jupiter, Jupiter Area Beaches map"){1600x900}
+
+Want it on your phone? Save the [portrait version](/images/jupiter/jupiter-area-beaches-4x5.png) for the beach, or the [wide version](/images/jupiter/jupiter-area-beaches-16x9.png) for a desktop.
+
 The crossover numbers run south to north. #22 is at Juno Beach Park, which is in the Town of Juno Beach, a separate municipality. Ocean Cay Park on Marcinski Road sits in the mid-20s. The lot between #27 and #28 is a Town lot on A1A. Carlin Park holds the upper 50s and low 60s. Jupiter Beach Park and DuBois Park, on the south side of the inlet, are in the high 60s and low 70s.
 
 Who maintains a crossover decides who fixes it and whose rules apply on the walkway. The Town's [Dune Crossover Information page](https://www.jupiter.fl.us/1975/Dune-Crossover-Information) lists which numbers are Town, which are County and which are private. The sand below the mean high water line is public either way.
