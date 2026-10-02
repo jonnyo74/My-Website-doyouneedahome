@@ -207,7 +207,7 @@ export interface ArticleEditorial {
   matrix?: ComparisonMatrixData
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
-  tool?: { kind: 'carrying-cost-worksheet'; beforeSection: string }
+  tool?: { kind: 'carrying-cost-worksheet' | 'jupiter-beach-access-map'; beforeSection: string }
   // Structured discovery guide rendered above the body: a jump-link nav, then
   // one H2 per category and one H3 per place. Places carry optional practical
   // notes and official links, so no current-condition detail has to live in prose.
@@ -29156,6 +29156,8 @@ To see where the Riverwalk fits in the rest of town, start with [what it's reall
       tableOfContents: true,
       tocAfterIntro: true,
       magnetPlacement: 'none',
+      // The interactive access map, spliced in ahead of the numbering section.
+      tool: { kind: 'jupiter-beach-access-map', beforeSection: 'How the numbering works' },
       closingStep: {
         eyebrow: 'Next step',
         text: 'Shopping for a home near a particular crossover? The community page has current Jupiter listings, and we can tell you which access points are closest to any address.',
@@ -29197,7 +29199,7 @@ The Town's [parking FAQ](https://www.jupiter.fl.us/Faq.aspx?QID=420) is short: p
 | Ocean Cay Park | Palm Beach County | 2188 Marcinski Road | Yes | Restrooms, showers, pavilions, playground. South end of the dog corridor is just north of here. |
 | A1A lot between #27 and #28 | Town of Jupiter | S. A1A | No | A lot, not a park. No restrooms. |
 | Carlin Park | Palm Beach County | 400 S. A1A, amphitheater at 750 S. A1A | Yes | Restrooms, showers, courts, cafe, pavilions. North end of the dog corridor. Beach wheelchairs via the lifeguard. |
-| Jupiter Beach Park | Palm Beach County | 1375 Jupiter Beach Road | Yes | South side of the inlet. Jetty, restrooms, showers, grills. ADA beach mat. |
+| Jupiter Beach Park | Palm Beach County | 2462 Jupiter Beach Road (entrance) | Yes | South side of the inlet. Jetty, restrooms, showers, grills. ADA beach mat. |
 | DuBois Park | Palm Beach County | 19075 DuBois Road | Yes, lagoon side | Lagoon and Intracoastal frontage rather than open ocean. Guard hours differ from the ocean parks. |
 
 Street parking on A1A fills on the same days the lots do. The Town's FAQ is the authority on where it is allowed; signs on the road are the authority on the day.
