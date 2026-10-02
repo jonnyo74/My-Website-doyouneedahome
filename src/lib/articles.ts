@@ -27528,135 +27528,174 @@ That's a better everyday arrangement than most small towns manage, and it's a la
     cityName: 'Jupiter',
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to Jupiter, Florida (Insider Tips for New Residents)",
-    metaTitle: "A Local's Guide to Jupiter, Florida | Insider Tips",
-    metaDescription: "An insider's guide to Jupiter, Florida — where locals actually eat, play, and unwind, plus seasonal tips and how to settle in like you've lived here for years.",
-    primaryKeyword: "Jupiter Florida local guide",
-    secondaryKeywords: ["Jupiter Florida insider tips", "things locals do in Jupiter FL", "moving to Jupiter Florida guide"],
+    seoTitle: 'A Local Guide to Jupiter, Florida: Parks & Daily Life',
+    metaTitle: 'A Local Guide to Jupiter, Florida: Parks & Daily Life',
+    metaDescription:
+      'Plan day-to-day life in Jupiter, Florida: municipal boundaries, parks and water access, transit, services, seasonal planning, and property-level due diligence.',
+    primaryKeyword: 'Jupiter Florida local guide',
+    secondaryKeywords: ['moving to Jupiter Florida guide', 'Jupiter Florida parks and beaches', 'Town of Jupiter services', 'Jupiter Florida new resident checklist'],
     h1: "A Local's Guide to Jupiter, Florida",
-    heroImage: '/images/jupiter/jupiter-waterfront-dining.jpg',
-    body: `Anybody can visit Jupiter. They climb the lighthouse, grab a fish sandwich, post a sunset, and go home. That's the tourist version. Living here is different — it's knowing which beach lot fills first, when to avoid Indiantown Road, why everyone suddenly cares about sea turtles in June, and which grocery store to skip entirely in February.
+    heroImage: '/images/jupiter/riverwalk-boardwalk-hero.webp',
+    heroImageAlt: 'The Jupiter Riverwalk boardwalk curving out over the Intracoastal Waterway on concrete piers, with mangroves and a mid-rise condominium building behind under a blue sky with scattered clouds',
+    heroImageCredit: 'Photo by John Oliver, 2026',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Jupiter · Local Guide',
+      deck: 'How Jupiter is organized, where the public waterfront is, how to get around, what the seasons change, and what to set up in the first 90 days.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/jupiter/riverwalk-boardwalk-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/jupiter/riverwalk-boardwalk-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'The Riverwalk boardwalk over the Intracoastal Waterway in Jupiter.',
+      primaryCta: { label: 'Explore Jupiter', href: '/communities/jupiter' },
+      secondaryCta: { label: 'What living in Jupiter is really like', href: '/blog/what-its-really-like-living-in-jupiter-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Looking at a specific Jupiter address? Start with the community guide and current listings, or ask us about the property and the checklist above.',
+        cta: { label: 'Explore Jupiter homes', href: '/communities/jupiter' },
+      },
+    },
+    body: `Jupiter is easier to live in once you know how it is put together. "Jupiter" can mean the incorporated Town of Jupiter, a mailing address that reaches well beyond the Town, or nearby places that are separate municipalities or unincorporated Palm Beach County. The exact property address decides which government you deal with, which rules apply, who provides water and sewer, and what the flood and evacuation details are.
 
-This is the orientation we give clients after they close, condensed. It's the stuff that takes most people a year to figure out on their own.
+This guide is the orientation we give people after a move: how the area is organized, where the public waterfront and parks are, how getting around works, what the seasons change, and what to set up in the first 90 days. Where a detail changes over time, it links to the official source rather than freezing it into the page.
 
-## Get your bearings — the four Jupiters
+## Orient yourself: boundaries versus search areas
 
-Jupiter confuses newcomers because it doesn't have one center. It has four distinct areas, and once you can picture them, the whole town clicks into place.
+Two different maps matter. One is the legal map of who governs an address. The other is the informal map people use when they search for a home. Keep them separate.
 
-### The Inlet and the beaches
+### The legal map
 
-The eastern edge, and the postcard version of town. The lighthouse, the dog beach, the waterfront restaurants, and the boat traffic moving through the inlet. This is where you'll take every visitor who comes to see you, and where you'll still end up on your own Sunday mornings years later.
+| Place | What it is | What it means for an address |
+|---|---|---|
+| Town of Jupiter | An incorporated municipality with its own council, police department, planning and zoning, building permits and code enforcement. | Town rules, Town permits and Town police. The Town's [FAQ](https://www.jupiter.fl.us/1855/FAQ) puts it plainly: you are an incorporated resident if you pay taxes to the Town, and attending Jupiter schools or having Jupiter water does not make you one. |
+| Jupiter Farms and other unincorporated areas | Unincorporated Palm Beach County. The Town's FAQ names Jupiter Farms and Jonathan's Landing as examples. | County zoning, County permits, County code enforcement and the Palm Beach County Sheriff's Office. A Jupiter mailing address does not change that. |
+| Village of Tequesta | A separate municipality north of the Town. | Its own council, police, zoning and permitting. |
+| Town of Jupiter Inlet Colony | A separate small municipality on the south side of the inlet. | Its own government and its own beach rules. |
 
-### Abacoa
+To settle which one a parcel is in, use the Town's [2025 Zoning Map](https://www.jupiter.fl.us/DocumentCenter/View/17996/2025-Zoning-Map), the County's [boundary maps](https://discover.pbc.gov/pzb/Maps/Boundary-Maps.aspx), or the parcel's record at the Palm Beach County Property Appraiser, which lists its taxing authorities. Juno Beach to the south is a separate town as well, and Jupiter Island across the inlet is in Martin County.
 
-The newer master-planned section, built around a walkable town center with restaurants, a baseball stadium, and a college campus. It's the most built-up, most social part of Jupiter, and the closest thing the town has to a place where you can park once and walk all evening.
+### The search map
 
-### The river and the west side
+When people shop for a home, they tend to think in areas rather than jurisdictions. These are descriptions, not boundaries, and each one can straddle more than one government:
 
-Head inland and it gets quieter and greener fast — toward the Loxahatchee River, Riverbend Park, and eventually the acreage of Jupiter Farms. This is where Jupiter stops feeling coastal and starts feeling like old Florida.
+- **The coast and the inlet.** Oceanfront and near-ocean homes along State Road A1A, and the neighborhoods around the inlet and the lower Loxahatchee River. This area includes parts of the Town, Jupiter Inlet Colony and Tequesta.
+- **Abacoa.** A master-planned district in the Town built around a town center, a baseball stadium and a university campus, with its own associations and rules.
+- **The western and nature-oriented areas.** Toward Riverbend Park and the Northwest Fork of the river, and on to the larger lots of Jupiter Farms, which is unincorporated county.
+- **The US-1 and Indiantown Road corridors.** The two main roads most errands run along. They are corridors, not neighborhoods, and homes near them fall under whichever government the parcel is in.
 
-### US-1 and Indiantown Road
+## Public waterfront, parks and outdoor access
 
-Not a neighborhood — the two roads everything hangs off. US-1 runs north-south along the coast; Indiantown Road runs east-west and is how you get from the beach to the highway. Learn these two and you will never be lost in this town again.
+Much of Jupiter's waterfront is public, and most of it is run by Palm Beach County Parks rather than the Town. These are the anchors, with the official page for each so you can check current hours, closures and rules before you go:
 
-![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "The inlet is Jupiter's front door — and the part of town you'll show every visitor you ever have.")
+- **[Riverbend Park](https://discover.pbc.gov/parks/pages/riverbend.aspx)**, 9060 Indiantown Road. A 644-acre County park on the Loxahatchee River with hiking, biking, equestrian and paddling trails. The County notes its canoe trails are navigable in normal to high water and close in drought.
+- **[Burt Reynolds Park](https://discover.pbc.gov/parks/Locations/Burt-Reynolds.aspx)**, 805 U.S. Highway 1. A County park on the Intracoastal with boat ramps, day-use slips, a kayak and paddleboard launch, picnic areas and a playground. A trailer parking permit is required.
+- **The inlet and lighthouse area.** [DuBois Park](https://discover.pbc.gov/parks/locations/dubois.aspx) on the south side of the inlet has lagoon and Intracoastal frontage, a guarded swimming area and a ramp for non-motorized boats. [Jupiter Beach Park](https://discover.pbc.gov/parks/Locations/Jupiter-Beach.aspx) sits beside it on the ocean. Across the water, the [Jupiter Inlet Lighthouse Outstanding Natural Area](https://www.blm.gov/visit/jupiter-inlet-lighthouse-outstanding-natural-area) has trails and the lighthouse museum.
+- **The Riverwalk.** The Town's [Riverwalk](https://jupiter.fl.us/227/Riverwalk) is a multi-phase public trail along the eastern shore of the Intracoastal. Sections are open; the Town describes the completed network as approximately 2.5 miles. Our [Riverwalk guide](/blog/jupiter-riverwalk-florida) walks the open parts.
+- **Ocean beach access.** The Town's [Beaches page](https://www.jupiter.fl.us/465/Beaches) and the County parks along A1A, including [Carlin Park](https://discover.pbc.gov/parks/Locations/Carlin.aspx?ui=h) and [Ocean Cay Park](https://discover.pbc.gov/parks/Locations/Ocean-Cay.aspx), are the public ways onto the sand, along with numbered dune crossovers.
 
-## Two seasons, two completely different towns
+**The dog beach is a designated corridor, not every beach.** The Town's [Dogs on the Beach](https://jupiter.fl.us/437/Dogs-on-the-Beach) page sets the rules: dogs are allowed between dune crossover marker #26, north of Ocean Cay Park, and marker #57, south of Carlin Park, under voice control, leashed between the car and the sand, out of lifeguarded swimming areas, and cleaned up after. Outside that corridor, and on beaches belonging to Jupiter Inlet Colony and Juno Beach, different rules apply.
 
-Jupiter doesn't have four seasons. It has two, and they change how the town functions.
+What this page does not promise: parking, lifeguard coverage, water or surf conditions, wildlife sightings, or whether a ramp or trail is open on a given day. Each official page above is the place to check.
 
-**November through April** is the reason people move here — warm, dry, sunny, and genuinely close to perfect. It's also crowded. Snowbirds and part-timers arrive, the population swells, restaurants start needing reservations, and Roger Dean Stadium fills up for spring training. Your fifteen-minute drive becomes thirty.
+::: gallery
+![A wooden beach crossover boardwalk with metal handrails leading between sea grape hedges to a turquoise ocean under a clear sky in Jupiter](/images/jupiter/jupiter-beach-boardwalk-sea-grape.webp "A dune crossover to the beach near Marcinski Road. || Photo by John Oliver, 2022")
+![Two brown pelicans on a concrete dock and a third in flight over green water, with the Jupiter Inlet Lighthouse on its wooded point across the water](/images/jupiter/jupiter-inlet-dock-pelicans-lighthouse.webp "A dock across the water from the lighthouse. || Photo by John Oliver, 2022")
+:::
 
-**May through October** is hot, humid, and quiet. The part-timers head north, the beaches feel like yours again, and you can walk into any restaurant on a Friday night. Afternoon storms build, dump hard for twenty or thirty minutes, and clear. Locals plan around them without thinking about it.
+## Getting around and planning routes
 
-Most people who love living here will tell you privately that summer is their favorite season — not because the weather is better, but because the town belongs to residents again.
+A car is practical for many errands in Jupiter. Groceries, medical offices, the beach, marinas and schools tend to sit on different corridors, and most households drive between them. That is not the same as having no transit: [Palm Tran Route 10](https://www.palmtran.org/maps-schedules/bus-routes/) runs between Jupiter and Palm Beach Gardens, and whether it fits a routine depends on the exact address and the current schedule, which Palm Tran changes from time to time.
 
-## A perfect local day
+Two things shape routes here more than in most towns:
 
-Coffee and the dog on the sand before the heat sets in. A paddle on the river or errands knocked out early — manatees show up near the inlet in the cooler months. A casual lunch somewhere with a water view and no dress code. The afternoon storm rolls through and clears. Then sunset, which is treated as genuinely important here. You'll have a favorite spot within a month and you'll get territorial about it.
+- **Drawbridges.** The Town's [North County Draw Bridge Schedule](https://www.jupiter.fl.us/1869/North-County-Draw-Bridge-Schedule) lists how each bridge opens. At the time of writing it shows the Indiantown Road bridge opening on the hour and half hour and the US-1 bridge opening on demand, but the page is the authority, not this article.
+- **Roadwork.** Bridge and road projects come and go. The Town's [Notify Me](https://www.jupiter.fl.us/787/Notify-Me) lists include a construction and road-closure bulletin, and the Town's homepage carries current notices.
 
-## The unwritten rules
+We don't publish rush-hour windows, airport drive times or alternate-route advice, because they go stale and depend on where you start. Drive your own routes at the hours you would use them before you commit to an address.
 
-Every town has these. Jupiter's are worth knowing before you accidentally break one.
+## Seasonal, beach and turtle planning
 
-- **Turtle-friendly lighting is not optional.** During nesting season, roughly spring through fall, beachfront properties switch to special amber bulbs so hatchlings aren't disoriented and drawn away from the ocean. Lights aren't turned off — they're changed. If you buy near the beach, this will apply to you, and the town takes it seriously.
-- **Let people merge.** Jupiter isn't a honking town. Aggressive driving marks you as new faster than anything else.
-- **The sandbar is a social institution.** On warm weekends, boats anchor at the inlet sandbar and half the town wades around visiting each other. Owning a boat is optional; knowing someone who does is the actual entry requirement.
-- **Hurricane prep is a group activity.** When something's in the forecast, you stock up early and you check on your neighbors. People notice who does and who doesn't.
-- **Sunset is a commitment.** If someone says "we're going to watch the sunset," that's a plan, not a passing remark.
+Jupiter's year has a busier cooler season and a hotter, wetter summer, and a few fixed dates worth knowing:
 
-## Getting around without losing your mind
+- **Sea turtle nesting season is March 1 through October 31** in Palm Beach County, per the Town's [Beach FAQ](https://jupiter.fl.us/2032/Beach-FAQ). Leatherbacks, loggerheads and greens nest on Jupiter and Juno beaches. Marked nests are off limits.
+- **Beachfront lighting rules are property-specific.** The Town's FAQ points to Palm Beach County Environmental Resources Management as the regulator of coastal lighting, and the [FWC's sea turtle lighting guidance](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/lighting/) explains the principles: keep lights low, long-wavelength and shielded, and tint windows that face the beach. Whether a particular home has to change fixtures, and which fixtures, depends on its location and the applicable Town, County and state rules. Check those before changing exterior lighting or beachfront vegetation.
+- **Hurricane season runs June 1 through November 30.** Preparation is covered below.
 
-Jupiter is built around the car. There's no meaningful public transit, and outside Abacoa and the Riverwalk, walkability is limited. Plan on driving for essentially everything.
+Crowds, restaurant availability, weather and storm impacts are not things a guide can forecast. Plan around the dates above and the official sources, not around predictions.
 
-The two pinch points are **Indiantown Road** and **US-1**, and both get significantly worse in season. Locals learn the parallel routes and the timing — avoid Indiantown between about 4 and 6, and give yourself extra margin from January through March. Alternate A1A along the beach when US-1 backs up.
+## Services and the first 90 days after a move
 
-President Donald J. Trump International Airport sits roughly thirty to forty minutes south, which makes flying north to see family straightforward. I-95 and Florida's Turnpike both run through, so getting anywhere else in South Florida is easy — just not always fast in season.
+This is the part that saves money and headaches. Work through it address by address, because almost every item depends on where the property sits.
 
-![Jupiter waterway at dusk](/images/jupiter/jupiter-waterway-dusk.jpg "Life here orbits the water — which is also why the town's rhythms revolve around getting outside early and staying out late.")
+- [ ] **Confirm the municipality and the service providers for the address.** The Town's [New Resident Guide](https://www.jupiter.fl.us/910/New-Residents) lists who provides what inside the Town: electricity from Florida Power & Light, water and stormwater from Town of Jupiter Utilities, sewer from the Loxahatchee River District, and natural gas from TECO or Florida Public Utilities. Garbage, recycling and yard waste inside the Town are billed on the water bill. Outside the Town, the providers can differ.
+- [ ] **Check the water utility's service area.** Town of Jupiter Utilities serves beyond the Town limits, into Juno Beach and unincorporated parts of Palm Beach and Martin counties, per its [utilities page](https://jupiter.fl.us/259/Water-Stormwater-Utilities). Having Jupiter water does not make an address part of the Town, and some Jupiter-area homes are on wells or septic rather than municipal service.
+- [ ] **Confirm flood, evacuation and insurance details for the parcel.** The flood zone, base flood elevation, whether an elevation certificate is on file, the County evacuation zone, and written wind and flood quotes. The Town's [storm hub](https://jupiter.fl.us/235/Emergency-Preparedness-Storm-Recovery-Hu) and [flood information pages](https://www.jupiter.fl.us/377/Flood-Zones-Insurance-Information) explain how to look each one up.
+- [ ] **File for homestead exemption if the home is your permanent residence.** Per the [Palm Beach County Property Appraiser](https://pbcpao.gov/homestead-exemption.htm), eligibility is measured as of January 1 and the normal filing deadline is March 1 of the year the benefit applies. You can file online.
+- [ ] **Treat a wind-mitigation inspection as insurance diligence.** It documents the roof, openings and attachments for your insurer. Whether it changes a premium depends on the home and the carrier, so don't count on a credit until the quote shows one.
+- [ ] **Build a storm plan.** Know the evacuation zone, where shutters or impact protection are, what the association does before a storm, and sign up for the Town's [Notify Me](https://www.jupiter.fl.us/787/Notify-Me) alerts and County emergency notifications.
+- [ ] **For waterfront and coastal homes, add the water-specific items.** Elevation and flood risk for the structure, the condition and permits of any dock, lift or seawall, who approves repairs, salt-air maintenance, and exactly what conveys with the deed. Our [living in Jupiter guide](/blog/what-its-really-like-living-in-jupiter-florida) has a fuller due-diligence section.
 
-## Turtle season, explained
+Costs for all of this vary by home, and our [Jupiter cost of living guide](/blog/cost-of-living-in-jupiter-florida) walks through the lines on a Jupiter tax and insurance bill.
 
-From roughly March through October, loggerhead, green, and leatherback turtles nest along this stretch of coast — one of the most significant nesting areas in the country. You'll see marked nests roped off on the beach. Don't disturb them, don't shine white light toward the water at night, and fill in any holes you dig before you leave, because hatchlings fall into them.
+## Keeping up with Jupiter
 
-Locals genuinely care about this. It's not a tourist-brochure thing here — it's a point of civic pride, and it shapes local ordinances, lighting rules, and even construction timing near the beach.
+Rather than a calendar that goes out of date, use the sources that update themselves:
 
-## Where locals actually spend their time
+- **Town events and recreation.** The Town's [Special Events page](https://www.jupiter.fl.us/224/Special-Events) and its Parks and Recreation calendar list what is scheduled and how to register.
+- **County park programming.** Riverbend, Burt Reynolds and the beach parks post programs and closures on their County pages, linked above.
+- **Baseball.** [Roger Dean Chevrolet Stadium](https://www.mlb.com/roger-dean-chevrolet-stadium/schedule) publishes the spring training and minor-league schedule each season.
+- **Town notices.** [Notify Me](https://www.jupiter.fl.us/787/Notify-Me) sends Town news, utility and trash updates, and construction bulletins by email or text.
+- **The broader picture.** For how the areas compare, read [best neighborhoods in Jupiter](/blog/best-neighborhoods-in-jupiter-florida), [Jupiter vs nearby cities](/blog/jupiter-vs-nearby-cities), and, for restaurants and bars, the [eat, drink and hang out guide](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida).
 
-Beyond the famous spots, day-to-day life here orbits smaller things. Green markets in season. The Sunday morning beach walk. Kids' games and events at Abacoa. A show at the Maltz Jupiter Theatre, which punches far above what a town this size should support. A quiet hour at Burt Reynolds Park watching boats. Riverbend Park when you want to feel like you've left civilization without driving an hour.
+## The short version
 
-What you won't find is a mall-and-nightlife culture. Life here points outdoors and toward the water. People who thrive lean into that; people who fight it tend not to stay.
-
-## Where you'll actually shop and run errands
-
-Jupiter has everything you need day to day, but it's spread along the two main roads rather than concentrated in one place. Grocery stores, pharmacies, and the big-box essentials cluster along Indiantown Road and US-1, and most residents settle into a routine of one or two stores near their side of town.
-
-For serious shopping, the Gardens Mall and the surrounding retail corridor in Palm Beach Gardens is fifteen to twenty minutes south, and that's where most Jupiter residents go for department stores and anything specialized. Downtown West Palm Beach is about half an hour for a bigger night out or a concert.
-
-The practical takeaway: you won't be short of anything, but you will be driving to it, and the drive gets longer in season. Locals compensate by batching errands and going early.
-
-## The Jupiter calendar
-
-A few rhythms worth knowing, because they shape the whole year:
-
-- **January–March:** peak season. Population swells, restaurants need reservations, contractors and services book out weeks ahead, and traffic is at its worst. Beautiful weather, busy town.
-- **February–March:** spring training at Roger Dean Stadium brings a noticeable bump in visitors to the Abacoa area.
-- **March–October:** sea turtle nesting season, with lighting rules and marked nests along the beach.
-- **June–November:** hurricane season. Most of it is uneventful, but preparation is normal life — supplies, a plan, and paying attention when something forms.
-- **May–September:** the hot, quiet stretch. Part-timers head north, restaurants open up, and the beaches feel like they belong to residents again.
-- **Green market season** runs during the cooler months and is a genuine weekend ritual for a lot of households.
-
-If you're timing a move, arriving in the fall gives you the gentlest introduction — you get settled before the crowds and you experience the best weather while you're still figuring the town out.
-
-## Your first ninety days
-
-A short, practical list for new residents:
-
-- **File for Homestead Exemption** if this is your primary residence — there's a deadline early in the year after you buy, and missing it costs you a full year of savings.
-- **Get a wind mitigation inspection** if you didn't get one during the purchase. It frequently pays for itself in insurance credits.
-- **Find your hurricane plan before June.** Know your evacuation zone, your supply list, and what your shutters or impact glass actually require of you.
-- **Set up lawn and pest service.** Things grow year-round here and bugs never fully stop.
-- **Get on the water once in the first month.** Rent a kayak or a paddleboard if you don't have a boat. It's the fastest way to understand why anyone lives here.
-
-## Becoming a local
-
-There's a moment, usually somewhere in the first year, when you stop navigating by GPS and start navigating by landmarks. When you know which beach lot fills first on a Saturday. When you have opinions about the best sunset spot and you'll defend them.
-
-Lean toward the water and the outdoors, be patient in season, and take the turtles seriously. Within a few months you stop feeling like someone who moved to Jupiter and start feeling like someone who lives here.`,
+Find out which government the address answers to. Learn where the public waterfront and parks are and check their pages before you go. Expect to drive for many errands, and plan around bridges and roadwork using the Town's live sources. Know the turtle season and the hurricane season dates. Then work the 90-day checklist, one address at a time. Jupiter rewards people who do that homework, because so much of what makes it good to live in is tied to the specific place you choose.`,
     faqs: [
-      { q: "What should I know before moving to Jupiter, Florida?", a: "That it's built around the car, that the town has two very different seasons, and that daily life orbits the water and the outdoors rather than shopping or nightlife. Practically: file for Homestead Exemption if it's your primary residence, get a wind mitigation inspection, and have a hurricane plan before June." },
-      { q: "What are the main areas of Jupiter?", a: "Roughly four — the Inlet and beaches on the eastern edge, Abacoa's walkable town center, the quieter river and west side toward Riverbend Park and Jupiter Farms, and the two main roads, US-1 and Indiantown Road, that everything connects to." },
-      { q: "What is season like in Jupiter, Florida?", a: "From roughly November through April the weather is warm, dry, and sunny, but the population swells with part-time residents. Restaurants need reservations and traffic on US-1 and Indiantown Road slows noticeably. Summer is hotter and much quieter." },
-      { q: "What is turtle season in Jupiter?", a: "Roughly March through October, when loggerhead, green, and leatherback turtles nest along the coast. Beachfront properties switch to amber turtle-friendly lighting so hatchlings aren't disoriented, marked nests are protected, and beachgoers are asked to fill in any holes they dig." },
-      { q: "Do you need a car to live in Jupiter?", a: "Essentially yes. Public transit is limited and, outside of Abacoa and the Riverwalk, the town isn't walkable. Most residents drive for groceries, dinner, school, and the beach." },
-      { q: "How bad is traffic in Jupiter, Florida?", a: "Manageable compared to South Florida metros, but real in season. Indiantown Road and US-1 are the pinch points, and a fifteen-minute summer drive can take thirty between January and March." },
-      { q: "How far is Jupiter from the airport?", a: "President Donald J. Trump International Airport is roughly a 30–40 minute drive south, with I-95 and Florida's Turnpike both running through the area." },
+      {
+        q: 'Does a Jupiter mailing address mean the home is in the Town of Jupiter?',
+        a: "No. The Jupiter postal area includes the Town of Jupiter, unincorporated Palm Beach County such as Jupiter Farms and Jonathan's Landing, and separate municipalities such as Tequesta and Jupiter Inlet Colony. The Town's own FAQ says you are an incorporated resident only if you pay taxes to the Town; having Jupiter water or attending Jupiter schools does not qualify. Check the Town zoning map, the County boundary maps or the Property Appraiser record for the parcel.",
+      },
+      {
+        q: 'Where is the public waterfront in Jupiter?',
+        a: 'Mostly in Palm Beach County parks: Riverbend Park on the Loxahatchee River, Burt Reynolds Park on the Intracoastal with boat ramps and a paddle launch, DuBois Park and Jupiter Beach Park at the inlet, and Carlin Park and Ocean Cay Park on the ocean. The Town maintains the Riverwalk along the Intracoastal and the public beach crossovers. Each official page lists current hours, rules and closures.',
+      },
+      {
+        q: 'Can I bring my dog to the beach in Jupiter?',
+        a: 'Only within the designated corridor, from dune crossover marker #26 north of Ocean Cay Park to marker #57 south of Carlin Park, under voice control, leashed between the car and the sand, out of lifeguarded swimming areas, and cleaned up after. It is not every Jupiter beach, and beaches in Jupiter Inlet Colony and Juno Beach have their own rules. The Town of Jupiter publishes the current rules.',
+      },
+      {
+        q: 'Is there public transit in Jupiter?',
+        a: 'Yes. Palm Tran Route 10 serves Jupiter and Palm Beach Gardens. Whether it works for a particular routine depends on the exact address and the current schedule, which Palm Tran publishes and updates. A car is still practical for many errands, since destinations are spread along several corridors.',
+      },
+      {
+        q: 'When is sea turtle nesting season in Jupiter?',
+        a: 'March 1 through October 31 in Palm Beach County, per the Town of Jupiter. Leatherback, loggerhead and green turtles nest on Jupiter and Juno beaches. Beachfront lighting rules are set by location and property, with Palm Beach County Environmental Resources Management as the regulator and FWC guidance on low, long-wavelength, shielded lighting, so check the applicable rules before changing exterior lights or beach vegetation.',
+      },
+      {
+        q: 'What should I set up in the first 90 days after moving to Jupiter?',
+        a: 'Confirm the municipality and service providers for the address; confirm water, sewer, sanitation, flood zone, evacuation zone and insurance details for that parcel; file for homestead exemption if it is your permanent residence, since eligibility is measured as of January 1 and the normal deadline is March 1; treat a wind-mitigation inspection as insurance diligence rather than guaranteed savings; build a storm plan and sign up for Town and County alerts; and, for waterfront homes, add elevation, dock, seawall and permit checks.',
+      },
+      {
+        q: 'How do I keep up with events and notices in Jupiter?',
+        a: "Use the Town's Special Events page and Parks and Recreation calendar, the County park pages for Riverbend, Burt Reynolds and the beach parks, the Roger Dean Chevrolet Stadium schedule, and the Town's Notify Me email and text lists for news, utility and trash updates and construction bulletins.",
+      },
     ],
-    internalLinks: ["what-its-really-like-living-in-jupiter-florida", "best-things-to-do-in-jupiter-florida", "hidden-gems-in-jupiter-florida"],
-    funFact: "The Jupiter Inlet is one of the most productive fishing inlets on the entire East Coast — local captains will tell you the water color change where the clear ocean blue meets the darker Intracoastal green is visible from the air. That mixing zone is why the fishing is so good.",
+    internalLinks: [
+      'what-its-really-like-living-in-jupiter-florida',
+      'best-neighborhoods-in-jupiter-florida',
+      'cost-of-living-in-jupiter-florida',
+      'best-places-to-eat-drink-hang-out-in-jupiter-florida',
+      'jupiter-vs-nearby-cities',
+    ],
+    funFact: "The two drawbridges most Jupiter routes cross don't open the same way. The Town's bridge schedule lists the Indiantown Road bridge opening on the hour and half hour, while the US-1 bridge opens on demand for boat traffic. If a route depends on one of them, that difference is worth knowing before you time a commute around it.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-02',
   },
   {
     slug: 'best-neighborhoods-in-jupiter-florida',
