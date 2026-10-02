@@ -12,7 +12,9 @@ import {
   type ArticleEditorial,
 } from '@/lib/articles'
 import { WORKSHEET_HEADING, WORKSHEET_HEADING_ID } from '@/lib/carryingCost'
+import { MAP_HEADING, MAP_HEADING_ID } from '@/lib/jupiterBeachAccess'
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
+import JupiterBeachAccessBlock from '@/components/article/JupiterBeachAccessBlock'
 import KeyFactors from '@/components/article/KeyFactors'
 import ComparisonMatrix, { matrixHeadingId } from '@/components/article/ComparisonMatrix'
 import DiscoveryGuide from '@/components/article/DiscoveryGuide'
@@ -49,6 +51,17 @@ const PHONE = { display: '(561) 786-3630', href: 'tel:+15617863630' }
 
 type Props = { params: Promise<{ slug: string }> }
 
+// Each tool kind renders its own component and owns one ## heading, which the
+// table of contents lists directly before the section the tool precedes.
+type ToolKind = NonNullable<ArticleEditorial['tool']>['kind']
+const TOOL_HEADINGS: Record<ToolKind, { id: string; label: string }> = {
+  'carrying-cost-worksheet': { id: WORKSHEET_HEADING_ID, label: WORKSHEET_HEADING },
+  'jupiter-beach-access-map': { id: MAP_HEADING_ID, label: MAP_HEADING },
+}
+function ToolBlock({ kind }: { kind: ToolKind }) {
+  return kind === 'carrying-cost-worksheet' ? <CarryingCostWorksheet /> : <JupiterBeachAccessBlock />
+}
+
 // Renders one slice of the article body. When the article defines an
 // interactive tool and its target "## " heading falls inside this slice, the
 // tool is spliced in directly before that heading; otherwise it's plain Prose.
@@ -61,7 +74,7 @@ function BodyWithTool({ content, tool }: { content: string; tool?: ArticleEditor
   return (
     <>
       <Prose content={lines.slice(0, at).join('\n')} />
-      <CarryingCostWorksheet />
+      <ToolBlock kind={tool.kind} />
       <Prose content={lines.slice(at).join('\n')} />
     </>
   )
@@ -202,11 +215,11 @@ export default async function ArticlePage({ params }: Props) {
   const condoSearch = houseOnlyListings
     ? community?.savedSearches?.find((s) => s.label === 'Condos')
     : undefined
-  // The worksheet is its own section, so it gets a contents entry directly
-  // before the section it's rendered in front of.
-  if (editorial?.tool?.kind === 'carrying-cost-worksheet') {
+  // A tool is its own section, so it gets a contents entry directly before
+  // the section it's rendered in front of.
+  if (editorial?.tool) {
     const at = sections.findIndex((s) => s.label === editorial.tool?.beforeSection)
-    if (at >= 0) sections.splice(at, 0, { id: WORKSHEET_HEADING_ID, label: WORKSHEET_HEADING })
+    if (at >= 0) sections.splice(at, 0, TOOL_HEADINGS[editorial.tool.kind])
   }
 
   // ---- JSON-LD structured data ----
