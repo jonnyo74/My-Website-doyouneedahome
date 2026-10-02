@@ -36,6 +36,10 @@
 | jupiter-inlet-tour-boat-hero.webp | jupiter-021.jpg (Killers; the repo copy is byte-identical), EXIF 2019-12-02; the 2019 GPS is unreliable (DOP 65), location rests on the lighthouse and the "Jupiter, FL" hull marking in frame | 2048 × 1152 | John Oliver's own photo, added 2026-10-02, EXIF stripped | The lighthouse on the far shore, a two-deck tour boat at a pier, floating dock in the foreground. 16:9 crop | OG / JSON-LD image, `best-things-to-do-in-jupiter-florida` |
 | jupiter-inlet-tour-boat-panel.webp | same original | 960 × 1200 | same | 4:5 crop, lighthouse and boat both kept | Desktop hero panel, same article |
 | jupiter-inlet-tour-boat-mobile.webp | same original | 1200 × 800 | same | 3:2 crop | Phone hero, same article |
+| jupiter-crossover-hero.webp | jupiter-2022-127.jpeg (Killers), EXIF 2022-08-06, GPS 26°54′14″N 80°03′38″W (the beach near Marcinski Road) | 2048 × 1152 | John Oliver's own photo, added 2026-10-02, EXIF stripped | 16:9 crop of the sea grape crossover to the ocean, the same frame as jupiter-beach-boardwalk-sea-grape.webp | OG / JSON-LD image, `jupiter-beach-access-guide` |
+| jupiter-crossover-panel.webp | same original | 960 × 1200 | same | 4:5 crop | Desktop hero panel, same article |
+| jupiter-crossover-mobile.webp | same original | 1200 × 800 | same | 3:2 crop | Phone hero, same article |
+| jupiter-beach-dusk-north.webp | jupiter-2022-136.jpeg (Killers), EXIF 2022-08-06 19:52, GPS 26°54′14″N 80°03′37″W (same beach) | 1050 × 1400 | John Oliver's own photo, added 2026-10-02, EXIF stripped | The beach looking north at dusk, people on the sand, dune at left, condo towers far up the shore | Inline, same article |
 
 Location was checked by eye from signage where a sign is in frame. The batch was described by John as Harbourside, the Riverwalk and Jupiter Yacht Club, but he could not confirm which marina shots are JYC rather than Harbourside's marina, so no inline caption names JYC. The JYC page gallery carries no captions; captions only name a place where the frame or John's brief supports it. Added to pages 2026-09-30.
 

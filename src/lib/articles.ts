@@ -29125,6 +29125,156 @@ To see where the Riverwalk fits in the rest of town, start with [what it's reall
     publishedDate: '2026-09-30',
     updated: '2026-09-30',
   },
+  {
+    slug: 'jupiter-beach-access-guide',
+    citySlug: 'jupiter',
+    cityName: 'Jupiter',
+    type: 'Beach Guide',
+    order: 13,
+    seoTitle: 'Jupiter Beach Access Guide: Every Crossover, Lot and ADA Ramp',
+    metaTitle: 'Jupiter Beach Access Guide: Every Crossover, Lot and ADA Ramp',
+    metaDescription:
+      "How to get onto Jupiter's 3.4 miles of beach: the 56 numbered dune crossovers, the four ADA-accessible ones, free parking lots, guarded areas, the dog corridor and the rules on the sand.",
+    primaryKeyword: 'Jupiter beach access',
+    secondaryKeywords: ['Jupiter beach crossovers', 'Jupiter ADA beach access', 'Jupiter beach parking', 'Jupiter beach map', 'Jupiter dog beach crossover 26 57'],
+    h1: 'Jupiter Beach Access Guide: Every Crossover, Lot and ADA Ramp',
+    heroImage: '/images/jupiter/jupiter-crossover-hero.webp',
+    heroImageAlt: 'A wooden dune crossover boardwalk with metal handrails leading between sea grape hedges toward a turquoise ocean under a clear blue sky in Jupiter',
+    heroImageCredit: 'Photo by John Oliver, 2022',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Jupiter · Beach Guide',
+      deck: "Everyone in Jupiter has a favorite way onto the sand. Here are all 56 of them, the four with ADA ramps, where the free lots are, who guards what, and the rules once you're there.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/jupiter/jupiter-crossover-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/jupiter/jupiter-crossover-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A dune crossover through sea grape to the beach near Marcinski Road, inside the dog beach corridor.',
+      primaryCta: { label: 'Explore Jupiter', href: '/communities/jupiter' },
+      secondaryCta: { label: 'Best things to do in Jupiter', href: '/blog/best-things-to-do-in-jupiter-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Shopping for a home near a particular crossover? The community page has current Jupiter listings, and we can tell you which access points are closest to any address.',
+        cta: { label: 'Search Jupiter homes', href: '/communities/jupiter' },
+      },
+    },
+    body: `Jupiter's ocean beach runs about 3.4 miles, and almost all of it is reached the same way: a numbered wooden crossover through the dune. The Town of Jupiter's [Beaches page](https://www.jupiter.fl.us/465/Beaches) counts 56 of them. The Town maintains 22, Palm Beach County maintains 27, and seven are private. The Town's [Jupiter Area Beaches map](https://jupiter.fl.us/DocumentCenter/View/29369/Jupiter-Beaches-Map--with-ADA-crossovers) numbers them from #22 at the Juno Beach line north to #72 at the inlet, colors each one by who maintains it, and marks the four that are ADA accessible.
+
+This guide turns that map into something you can use from the car: which crossovers have ramps, where the free lots are, where the lifeguards are, where the dog corridor starts and ends, and what the rules are once your feet hit sand. Beach conditions change daily, so the last section is a short list of the official pages to check before you go.
+
+## How the numbering works
+
+The crossover numbers run south to north. #22 is at Juno Beach Park, which is in the Town of Juno Beach, a separate municipality. Ocean Cay Park on Marcinski Road sits in the mid-20s. The lot between #27 and #28 is a Town lot on A1A. Carlin Park holds the upper 50s and low 60s. Jupiter Beach Park and DuBois Park, on the south side of the inlet, are in the high 60s and low 70s.
+
+Who maintains a crossover decides who fixes it and whose rules apply on the walkway. The Town's [Dune Crossover Information page](https://www.jupiter.fl.us/1975/Dune-Crossover-Information) lists which numbers are Town, which are County and which are private. The sand below the mean high water line is public either way.
+
+## The four ADA-accessible crossovers
+
+The Town's Beaches page and the map agree: ADA-accessible beach access is at crossovers **#24, #31, #45 and #48**. The Dune Crossover Information page notes that #31, #45 and #48 were demolished and rebuilt to meet ADA requirements, so three of the four are the newest structures on the beach.
+
+Two County parks add equipment to that:
+
+- **Carlin Park** has beach surf wheelchairs. The County's [Carlin Park page](https://discover.pbc.gov/parks/Locations/Carlin.aspx?ui=h) says to contact a lifeguard on arrival to arrange one.
+- **Jupiter Beach Park** has an ADA beach mat, per the County's [Jupiter Beach Park page](https://discover.pbc.gov/parks/Locations/Jupiter-Beach.aspx).
+
+A ramp gets you across the dune. Whether the sand beyond it is passable on a given day depends on tide, erosion and recent storms, so call the park or check the conditions page before counting on it.
+
+## Where to park, free
+
+The Town's [parking FAQ](https://www.jupiter.fl.us/Faq.aspx?QID=420) is short: parking is free at all of Jupiter's beach parks, and roadside parking is free along the S. A1A corridor. The lots, south to north:
+
+| Lot | Run by | Address | Guarded beach | Notes |
+|---|---|---|---|---|
+| Juno Beach Park | Palm Beach County, in the Town of Juno Beach | 14775 U.S. Highway 1, Juno Beach | Yes | Crossover #22. Pier, restrooms, showers. Juno Beach rules apply. |
+| Ocean Cay Park | Palm Beach County | 2188 Marcinski Road | Yes | Restrooms, showers, pavilions, playground. South end of the dog corridor is just north of here. |
+| A1A lot between #27 and #28 | Town of Jupiter | S. A1A | No | A lot, not a park. No restrooms. |
+| Carlin Park | Palm Beach County | 400 S. A1A, amphitheater at 750 S. A1A | Yes | Restrooms, showers, courts, cafe, pavilions. North end of the dog corridor. Beach wheelchairs via the lifeguard. |
+| Jupiter Beach Park | Palm Beach County | 1375 Jupiter Beach Road | Yes | South side of the inlet. Jetty, restrooms, showers, grills. ADA beach mat. |
+| DuBois Park | Palm Beach County | 19075 DuBois Road | Yes, lagoon side | Lagoon and Intracoastal frontage rather than open ocean. Guard hours differ from the ocean parks. |
+
+Street parking on A1A fills on the same days the lots do. The Town's FAQ is the authority on where it is allowed; signs on the road are the authority on the day.
+
+::: gallery
+![A sea grape dune with a few palms at dusk beside an empty stretch of sand on Jupiter's beach, a handful of people far down the shore](/images/jupiter/jupiter-beach-dune-dusk.webp "The dune at dusk, near Marcinski Road. || Photo by John Oliver, 2022")
+![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds over the beach inside the dog corridor. || Photo by John Oliver, 2022")
+:::
+
+## Where the lifeguards are
+
+Palm Beach County Ocean Rescue guards the swimming areas at DuBois Park, Jupiter Beach Park, Carlin Park, Ocean Cay Park and Juno Beach Park. Everything between those parks is unguarded. The County's [about our beaches](https://discover.pbc.gov/parks/aquatics/about-our-beaches.aspx) page gives the guard hours, with exceptions at DuBois, and explains the flags on the towers: green for low hazard, yellow for medium, red for high, double red for water closed, purple for dangerous marine life. The [beach conditions page](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) is the daily report.
+
+Dogs, surfing and fishing are not allowed inside the guarded swimming areas.
+
+## The dog corridor: crossovers #26 to #57
+
+The map's purple band is the designated dog-friendly beach, from crossover #26 at the south end, just north of Ocean Cay Park, to #57 at the Carlin Park property line. The Town's [Dogs on the Beach](https://jupiter.fl.us/437/Dogs-on-the-Beach) page carries the rules: dogs under control, on a leash or obedient to voice command, cleaned up after, with tags and proof of rabies vaccination, and not creating a nuisance. Dogs are not permitted in the lifeguarded areas at either end except ADA service animals. Our [things to do guide](/blog/best-things-to-do-in-jupiter-florida) covers the corridor in more detail.
+
+![The beach looking north at dusk near Marcinski Road in Jupiter, a few people on the sand, sea grape dune at left and condominium towers far up the shore](/images/jupiter/jupiter-beach-dusk-north.webp "Looking north from the beach near Marcinski Road at dusk. || Photo by John Oliver, 2022"){1050x1400}
+
+## Rules on the sand
+
+The Town prints its beach guidelines on the map itself, and its code backs them up:
+
+- No glass bottles or glass containers on the beach or in recreational areas. The Town cites Code Section 14-76.
+- No lodging, meaning camping, living or staying for a long period, on the beach or in recreational areas between 12:00 a.m. and 6:00 a.m.
+- No leaving or abandoning property or items on the beach or in recreational areas.
+- No littering; the map notes a fine.
+- Sea turtle nesting season is March 1 through October 31. Marked nests are off limits, and the Town's [Beach FAQ](https://jupiter.fl.us/2032/Beach-FAQ) explains the lighting rules that apply near the beach.
+
+Beaches inside Jupiter Inlet Colony, across the inlet, and in Juno Beach belong to those towns and run on their own rules.
+
+## Before you go
+
+- **The map:** the Town's [Jupiter Area Beaches map with ADA crossovers](https://jupiter.fl.us/DocumentCenter/View/29369/Jupiter-Beaches-Map--with-ADA-crossovers).
+- **Crossover status and ownership:** the [Dune Crossover Information](https://www.jupiter.fl.us/1975/Dune-Crossover-Information) page. Crossovers close for repairs and dune work; this is where the Town posts it.
+- **Conditions and flags:** the County's [beach conditions](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) page.
+- **Parking:** the Town's [parking FAQ](https://www.jupiter.fl.us/Faq.aspx?QID=420).
+- **Dogs:** the Town's [Dogs on the Beach](https://jupiter.fl.us/437/Dogs-on-the-Beach) page.
+- **Storms and closures:** the Town's [storm hub](https://jupiter.fl.us/235/Emergency-Preparedness-Storm-Recovery-Hu) and [Notify Me](https://www.jupiter.fl.us/787/Notify-Me) alerts.
+
+For the rest of the town, read [what living in Jupiter is really like](/blog/what-its-really-like-living-in-jupiter-florida), the [local guide](/blog/local-guide-to-jupiter-florida) and the [best things to do](/blog/best-things-to-do-in-jupiter-florida).`,
+    faqs: [
+      {
+        q: 'How many beach crossovers does Jupiter have?',
+        a: "The Town of Jupiter counts 56 dune crossovers along about 3.4 miles of beach. The Town maintains 22, Palm Beach County maintains 27 and seven are private. The Town's Jupiter Area Beaches map numbers them from #22 at the Juno Beach line to #72 at the inlet.",
+      },
+      {
+        q: 'Which Jupiter beach crossovers are ADA accessible?',
+        a: "Crossovers #24, #31, #45 and #48, per the Town of Jupiter's Beaches page and its beaches map. The Town rebuilt #31, #45 and #48 to meet ADA requirements. Carlin Park offers beach surf wheelchairs through the lifeguard, and Jupiter Beach Park has an ADA beach mat, both per Palm Beach County Parks.",
+      },
+      {
+        q: 'Where can I park for free at the beach in Jupiter?',
+        a: "The Town's FAQ says parking is free at all of its beach parks and along the S. A1A corridor. The lots are at Ocean Cay Park, a Town lot between crossovers #27 and #28, Carlin Park, Jupiter Beach Park and DuBois Park, plus Juno Beach Park in the neighboring Town of Juno Beach.",
+      },
+      {
+        q: 'Which Jupiter beaches have lifeguards?',
+        a: 'Palm Beach County Ocean Rescue guards the swimming areas at DuBois Park, Jupiter Beach Park, Carlin Park, Ocean Cay Park and Juno Beach Park. The stretches between the parks are unguarded. Check the flag on the tower and the County beach conditions page before swimming.',
+      },
+      {
+        q: 'Where does the Jupiter dog beach start and end?',
+        a: 'At crossover #26, just north of Ocean Cay Park on Marcinski Road, running north to crossover #57 at the Carlin Park property line, about 2.5 miles. Dogs must be under control, cleaned up after and kept out of the lifeguarded areas except ADA service animals. The Town of Jupiter publishes the full rules.',
+      },
+      {
+        q: 'What are the rules on Jupiter beaches?',
+        a: 'No glass containers, no camping or lodging on the beach between 12:00 a.m. and 6:00 a.m., no abandoned property, no littering, and no dogs, surfing or fishing inside guarded swimming areas. Sea turtle nesting season runs March 1 through October 31, and marked nests are off limits. Juno Beach and Jupiter Inlet Colony beaches have their own rules.',
+      },
+    ],
+    internalLinks: [
+      'best-things-to-do-in-jupiter-florida',
+      'what-its-really-like-living-in-jupiter-florida',
+      'local-guide-to-jupiter-florida',
+      'jupiter-riverwalk-florida',
+    ],
+    funFact: "The crossover numbers aren't a Jupiter invention. They count up from #22 at the Juno Beach line to #72 at the inlet, so the number on the post tells you roughly how far north you are, and which park you'll hit next if you keep walking.",
+    author: 'john',
+    published: true,
+    publishedDate: '2026-10-02',
+    updated: '2026-10-02',
+  },
 
   // ===================== PALM BEACH GARDENS =====================
   {
