@@ -11,14 +11,13 @@ import { headingId } from './headingId'
  *     the dog corridor's end markers) comes from the Town of Jupiter and Palm
  *     Beach County Parks pages linked on each record.
  *
- *   - WHERE a point sits (lat/lng) is the weak link. The park and lot
- *     positions below were placed by the editor from the published addresses
- *     without a geocoder, so each carries `positionVerified: false` and a
- *     `positionSource` saying exactly how it was placed. The one exception is
- *     DuBois Park, whose coordinates were already on record in
- *     src/lib/paddle/launches.ts against the County's park page. Re-geocode
- *     every unverified position from its address before relying on it at
- *     street level; the map caption tells readers positions are approximate.
+ *   - WHERE a point sits (lat/lng). The six park and lot positions were
+ *     confirmed on 2026-10-02 by John Oliver, who centred a Google Maps view
+ *     on each lot; the coordinates come from those views and each record's
+ *     `positionSource` says so. The dog corridor's two end points are placed
+ *     from Town landmarks (Marcinski Road, the Carlin Park line) and stay
+ *     `positionVerified: false`. The map caption tells readers positions are
+ *     approximate.
  *
  * Numbered crossovers are placed ONLY when a verifiable source gives their
  * position. None does at the time of writing (the Town's GIS layer and the
@@ -138,11 +137,11 @@ export const ACCESS_POINTS: AccessPoint[] = [
     href: SOURCES.countyOceanCay,
     note: 'Guarded beach. The dog corridor begins at crossover #26, at Marcinski Road.',
     position: {
-      lat: 26.9037,
-      lng: -80.0623,
+      lat: 26.89555,
+      lng: -80.06197,
       positionSource:
-        'Placed by the editor at Marcinski Road and A1A from the County address, without a geocoder. A 2022 photo in public/images/jupiter/SOURCES.md carries an EXIF fix of 26°54′14″N 80°03′38″W on the beach near Marcinski Road, which agrees in latitude. Re-geocode 2188 Marcinski Road.',
-      positionVerified: false,
+        'Confirmed by John Oliver on 2026-10-02: a Google Maps view centred on the Ocean Cay Park lot (URL centre 26.895554,-80.061965). The park sits just north of the Juno Beach Park pier, across the town line; an earlier placement 900 m north was wrong.',
+      positionVerified: true,
     },
     source: `Name, address and guarded status: ${SOURCES.countyOceanCay}. Listed as a free lot: ${SOURCES.townParkingFaq}.`,
   },
@@ -151,16 +150,16 @@ export const ACCESS_POINTS: AccessPoint[] = [
     layer: 'parks',
     name: 'Town lot between crossovers #27 and #28',
     operator: 'Town of Jupiter',
-    address: 'S. State Road A1A, Jupiter, FL 33477 (no street number published)',
+    address: '3610 S. State Road A1A (Jimmy Buffett Memorial Highway), Jupiter, FL 33477',
     href: SOURCES.townParkingFaq,
     alsoHref: SOURCES.townBeaches,
     note: 'A parking lot, not a park. Named on the Town Beaches page and parking FAQ as a free lot.',
     position: {
-      lat: 26.9065,
-      lng: -80.0632,
+      lat: 26.8996,
+      lng: -80.0637,
       positionSource:
-        'Derived: the Town says crossover #26 is at Marcinski Road and the lot sits between #27 and #28, so it is placed a short distance north of Marcinski Road on A1A. No address exists to geocode; confirm against the Town map before relying on it.',
-      positionVerified: false,
+        'Confirmed by John Oliver on 2026-10-02: a Google Maps view centred on the lot, which Google lists as "Parking lot, 3610 Jimmy Buffett Mem Hwy" (URL centre 26.8996061,-80.06…; the longitude was cut off in the screenshot and is read from the view, so it may be off by a few dozen metres). The lot sits west of A1A behind the Bluffs, about 400 m north of Marcinski Road.',
+      positionVerified: true,
     },
     source: `Existence and operator: ${SOURCES.townBeaches} and ${SOURCES.townParkingFaq}.`,
   },
@@ -173,11 +172,11 @@ export const ACCESS_POINTS: AccessPoint[] = [
     href: SOURCES.countyCarlin,
     note: 'Guarded beach. Beach surf wheelchair available through the lifeguard, per the County. The dog corridor ends at crossover #57 at the Carlin Park property line.',
     position: {
-      lat: 26.9203,
-      lng: -80.0688,
+      lat: 26.9292,
+      lng: -80.0718,
       positionSource:
-        'Placed by the editor at the 400 S. A1A entrance from the County address, without a geocoder. Re-geocode 400 S. State Road A1A, Jupiter.',
-      positionVerified: false,
+        'Confirmed by John Oliver on 2026-10-02: a Google Maps view centred on Carlin Park (URL centre 26.9283357,-80.0724639); the pin is set on the main beach lot just north of that centre. An earlier placement 1 km south was wrong.',
+      positionVerified: true,
     },
     source: `Name, address, guarded status and beach wheelchair: ${SOURCES.countyCarlin}. Listed as a free lot: ${SOURCES.townParkingFaq}.`,
   },
@@ -190,11 +189,11 @@ export const ACCESS_POINTS: AccessPoint[] = [
     href: SOURCES.countyJupiterBeach,
     note: 'South side of the Jupiter Inlet. Guarded beach. ADA beach mat, per the County.',
     position: {
-      lat: 26.9428,
-      lng: -80.073,
+      lat: 26.941,
+      lng: -80.0742,
       positionSource:
-        'Placed by the editor at the east end of Jupiter Beach Road, south of the inlet, without a geocoder. Re-geocode 2462 Jupiter Beach Road.',
-      positionVerified: false,
+        'Confirmed by John Oliver on 2026-10-02: a Google Maps view centred on Jupiter Beach Park (URL centre 26.9402251,-80.0742234); the pin is set on the Ocean Trail Way lot just north of that centre.',
+      positionVerified: true,
     },
     source: `Name, entrance address, guarded status and beach mat: ${SOURCES.countyJupiterBeach}. Listed as a free lot: ${SOURCES.townParkingFaq}.`,
   },
@@ -207,10 +206,10 @@ export const ACCESS_POINTS: AccessPoint[] = [
     href: SOURCES.countyDuBois,
     note: 'Lagoon and Intracoastal frontage on the inlet rather than open ocean. Guarded swimming area on the lagoon side.',
     position: {
-      lat: 26.94238,
-      lng: -80.07638,
+      lat: 26.943,
+      lng: -80.0779,
       positionSource:
-        'Coordinates already on record in src/lib/paddle/launches.ts (coordsPublished: true) against the County park page.',
+        'Confirmed by John Oliver on 2026-10-02: a Google Maps view centred on the DuBois Road entrance (URL centre 26.94238,-80.0789549); the pin is set on the lot between DuBois Road and the lagoon. src/lib/paddle/launches.ts carries 26.94238,-80.07638 for the same park, 150 m east inside the park.',
       positionVerified: true,
     },
     source: `Name, address and guarded status: ${SOURCES.countyDuBois}. Listed as a free lot: ${SOURCES.townParkingFaq}.`,
@@ -269,17 +268,17 @@ export const DOG_CORRIDOR: DogCorridor = {
   to: 'Crossover #57 at the Carlin Park property line',
   path: [
     {
-      lat: 26.9039,
-      lng: -80.0606,
+      lat: 26.8965,
+      lng: -80.0603,
       positionSource:
-        'South end: the beach at Marcinski Road. Taken from the EXIF fix on a 2022 photo recorded in public/images/jupiter/SOURCES.md as "the beach near Marcinski Road". The Town places #26 at Marcinski Road.',
+        'South end: the beach at Marcinski Road, read from the Ocean Cay Park view John Oliver confirmed on 2026-10-02 (Marcinski Road meets A1A about 75 m north of the park lot; the beach is about 180 m east). The Town places #26 at Marcinski Road.',
       positionVerified: false,
     },
     {
-      lat: 26.916,
-      lng: -80.0665,
+      lat: 26.9245,
+      lng: -80.07,
       positionSource:
-        'North end: the Carlin Park south property line, placed by the editor south of the 400 S. A1A entrance without a parcel map. Confirm against the Town map.',
+        'North end: the Carlin Park south property line, placed on the beach about 500 m south of the confirmed Carlin Park lot without a parcel map. Confirm against the Town map or a view of the dog-beach sign at the Carlin line.',
       positionVerified: false,
     },
   ],
@@ -299,5 +298,5 @@ export const NUMBERING_NOTES =
   "The Town's Dune Crossover Information page lists #31 to #35 as private crossovers while also counting #31 among Town crossovers and #32 to #35 among County crossovers. This map leaves that numbering as the Town publishes it."
 
 /** Initial view: the whole Jupiter beach from the Juno Beach line to the inlet. */
-export const MAP_CENTRE = { lat: 26.918, lng: -80.066 }
+export const MAP_CENTRE = { lat: 26.918, lng: -80.069 }
 export const MAP_ZOOM = 13
