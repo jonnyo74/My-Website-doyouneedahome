@@ -27942,112 +27942,205 @@ For the wider picture, read [what living in Jupiter is really like](/blog/what-i
     cityName: 'Jupiter',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "15 Best Things to Do in Jupiter, Florida (From a Local)",
-    metaTitle: "Best Things to Do in Jupiter, Florida | Local Guide",
-    metaDescription: "From climbing the lighthouse to kayaking the Loxahatchee and dining on the water — a local's guide to the best things to do in Jupiter, Florida, year-round.",
-    primaryKeyword: "things to do in Jupiter Florida",
-    secondaryKeywords: ["what to do in Jupiter FL", "Jupiter Florida attractions", "Jupiter FL beaches and parks"],
-    h1: "Best Things to Do in Jupiter, Florida",
-    heroImage: '/images/jupiter/jupiter-inlet.jpg',
-    body: `Some towns you visit for one big attraction. Jupiter isn't like that. The "thing to do" here is be outside — on the water, on the sand, under the palms — and the best days are the ones you don't plan much.
+    seoTitle: 'Best Things to Do in Jupiter, Florida: Parks, Water & Events',
+    metaTitle: 'Best Things to Do in Jupiter, Florida: Parks, Water & Events',
+    metaDescription:
+      'Plan Jupiter, Florida outings with public parks, beaches, river access, wildlife, the lighthouse, and current event resources.',
+    primaryKeyword: 'things to do in Jupiter Florida',
+    secondaryKeywords: ['what to do in Jupiter FL', 'Jupiter Florida parks and beaches', 'Jupiter Inlet Lighthouse visit', 'Jupiter dog beach', 'Riverbend Park Jupiter'],
+    h1: 'Best Things to Do in Jupiter, Florida',
+    heroImage: '/images/jupiter/jupiter-inlet-tour-boat-hero.webp',
+    heroImageAlt: 'The red Jupiter Inlet Lighthouse above trees on the far shore, a white two-deck tour boat tied to a wooden pier at right, and a floating dock in the foreground on turquoise water under a blue sky with clouds',
+    heroImageCredit: 'Photo by John Oliver, 2019',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Jupiter · Things to Do',
+      deck: 'The lighthouse, the beaches, the river and the parks are public, and so are the schedules. Here is how to plan each outing and where to check conditions before you go.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/jupiter/jupiter-inlet-tour-boat-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/jupiter/jupiter-inlet-tour-boat-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'The Jupiter Inlet Lighthouse across the water from a dock in Jupiter, with a tour boat at the pier.',
+      primaryCta: { label: 'Explore Jupiter', href: '/communities/jupiter' },
+      secondaryCta: { label: "A local's guide to Jupiter", href: '/blog/local-guide-to-jupiter-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      matrix: {
+        heading: 'Beach day: choose by purpose',
+        intro: "Jupiter's beaches are run by the Town, Palm Beach County and neighboring towns, and they are not interchangeable. Pick by what you want to do, then check the County's daily conditions page before you leave.",
+        labels: {
+          priorities: 'Where, and who runs it',
+          questions: "What's there",
+          daily: 'Rules to know',
+          singer: 'Check before you go',
+        },
+        rows: [
+          {
+            name: 'Jupiter Dog Beach corridor',
+            tag: 'Town of Jupiter rules; County parks at each end',
+            priorities: 'A designated 2.5-mile stretch from dune crossover marker #26, north of Ocean Cay Park on Marcinski Road, to marker #57 at the Carlin Park property line.',
+            questions: 'Open beach reached by numbered crossovers. Restrooms and showers are at Ocean Cay Park and Carlin Park, not along the corridor.',
+            daily: 'Dogs under voice control, leashed between the car and the sand, and never in lifeguarded swimming areas except ADA service animals. Pick up after your dog; Friends of Jupiter Beach stocks bag stations.',
+            singer: "The Town's Dogs on the Beach page for current rules, and the County conditions page for surf and flags that day.",
+          },
+          {
+            name: 'DuBois Park',
+            tag: 'Palm Beach County park, south side of the inlet',
+            priorities: '19075 DuBois Road, on the lagoon and Intracoastal side of the inlet.',
+            questions: 'Lagoon and Intracoastal frontage, a guarded swimming area, a snorkeling area, a ramp for non-motorized boats, a jetty and picnic areas. The 1898 DuBois Pioneer Home stands on the shell mound inside the park.',
+            daily: 'Swim in the designated guarded area. Guard hours at DuBois differ from other County beaches, and conditions change with tide, weather and boat traffic.',
+            singer: "The County's DuBois page for hours and guard coverage, and the conditions page for the flag flying that day.",
+          },
+          {
+            name: 'Carlin Park',
+            tag: 'Palm Beach County park, 400 S. State Road A1A',
+            priorities: 'Oceanfront, at the north end of the dog beach corridor.',
+            questions: 'Guarded beach frontage, the Seabreeze Amphitheater, tennis and pickleball courts, bocce, an exercise course, picnic pavilions, playgrounds and a cafe.',
+            daily: 'Dogs are not allowed in the lifeguarded area. Amphitheater events are scheduled by the County and change season to season.',
+            singer: "The County's Carlin Park page for hours, the Carlin Park After Dark page for the concert schedule, and the conditions page.",
+          },
+          {
+            name: 'Coral Cove Park',
+            tag: 'In Tequesta, not Jupiter; Palm Beach County park',
+            priorities: '1600 Beach Road, Tequesta, on the barrier island north of the inlet. A separate municipality from the Town of Jupiter.',
+            questions: 'Guarded ocean beach frontage, unguarded frontage to the south reached by crossovers, Intracoastal frontage for fishing, picnic areas, a playground and showers.',
+            daily: 'Swim in the guarded area. Rock, surf, currents, visibility and your own ability all vary; the County does not rate it for snorkeling, and neither do we.',
+            singer: "The County's Coral Cove page and the conditions page. The park lists a daily conditions phone line too.",
+          },
+        ],
+        note: 'Palm Beach County Ocean Rescue flies colored condition flags at guarded towers: green for low hazard, yellow for medium, red for high, double red for water closed, purple for dangerous marine life. A flag is the day-of answer; this page is not.',
+      },
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Thinking about living near all of this? Our local guide covers boundaries, services and the first 90 days, and the community page has current Jupiter listings.',
+        cta: { label: "Read the local's guide to Jupiter", href: '/blog/local-guide-to-jupiter-florida' },
+      },
+    },
+    body: `Jupiter's best public experiences are built around the inlet, the beaches, the Loxahatchee River, a set of County and Town parks, a working 1860 lighthouse, and a steady calendar of theatre, baseball and Town events. None of it is a secret, and none of it depends on knowing a local. What it does depend on is checking the official source for conditions, hours and rules on the day you go, which is why every entry below links to one.
 
-Still, there's a short list worth working through, whether you're visiting for a weekend or you just moved in and want to feel oriented fast. Here's how a local would tell you to spend your time.
+Use the contents list to jump to the kind of outing you want: the lighthouse and history, a beach day, the dog beach, the river or a paddle, nature and wildlife, a waterfront walk, or a game, a show or a Town event. For restaurants and bars, see our separate [eat, drink and hang out guide](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida).
 
-## Climb the Jupiter Inlet Lighthouse
+## Lighthouse and history
 
-Start with the icon. The red-brick tower has been standing since the 1860s, and from the top you get the inlet, the Loxahatchee River, and the Atlantic stretching out past the horizon. There's a small museum at the base covering the area's history.
+The Jupiter Inlet Lighthouse was first lit on July 10, 1860, and it is still an active aid to navigation. The [Jupiter Inlet Lighthouse and Museum](https://www.jupiterlighthouse.org/plan/hours-ticket-prices-directions-include-special-notices/), run by the Loxahatchee River Historical Society at 500 Captain Armour's Way, offers climbing tours, a museum in the restored World War II naval housing building, and guided programs. Hours, ticket prices, climbing requirements such as the minimum height for children, and closures for weather or daily safety limits are on that page and change, so read it before you drive over.
 
-For newcomers this is genuinely the most useful two hours you can spend — you see how all four parts of town fit together in a single look, and the geography stops being confusing.
+![The full red brick tower of the Jupiter Inlet Lighthouse seen from its grounds, with saw palmetto, a brick path and cumulus clouds](/images/jupiter/jupiter-lighthouse-grounds-palms.webp "The tower from the grounds of the Outstanding Natural Area. || Photo by John Oliver, 2022"){1050x1400}
 
-## Hit the beaches — and know which one to pick
+The tower stands inside the Bureau of Land Management's [Jupiter Inlet Lighthouse Outstanding Natural Area](https://www.blm.gov/visit/jupiter-inlet-lighthouse-outstanding-natural-area), a 120-acre site at the meeting of the Loxahatchee River and the Indian River Lagoon, with a hardened trail and boardwalk through coastal habitats and a shoreline beach. The BLM lists it open dawn to dusk; access to specific areas can be restricted for restoration or events, and that page is where to check.
 
-Jupiter's beaches are not interchangeable, and locals sort them by purpose:
+Across the inlet, the [DuBois Pioneer Home](https://discover.pbcgov.org/parks/Locations/DuBoisPioneer.aspx), built in 1898 on a prehistoric shell mound inside DuBois Park, is listed with the mound on the National Register of Historic Places. The County schedules tours of the house; the park is open daily.
 
-- **Jupiter Beach** is famously dog-friendly, with a long stretch where dogs run off-leash along the shore. Mornings are the ritual.
-- **Dubois Park** sits on a calm lagoon, so small children can splash without dealing with surf. It also holds the DuBois Pioneer Home, a historic house on a shell mound.
-- **Carlin Park** stacks the most into one stop — beach, tennis and pickleball courts, bocce, and the Seabreeze Amphitheater, where free concerts happen under the stars.
-- **Coral Cove Park**, just north on the barrier island, has a shallow rock reef right off the sand — one of the few genuinely easy snorkeling spots in the area at high tide.
+## Dog beach: the exact corridor
 
-![Jet ski near the Jupiter lighthouse](/images/jupiter/jupiter-jet-ski-lighthouse.jpg "The inlet is the center of gravity for everything on the water here — boats, paddleboards, and the sandbar crowd on weekends.")
+Not every Jupiter beach allows dogs. The Town's [Dogs on the Beach](https://jupiter.fl.us/437/Dogs-on-the-Beach) page and the County's [Jupiter Dog Beach](https://discover.pbc.gov/parks/Pages/Jupiter-Dog-Beach.aspx) page define a designated 2.5-mile corridor from dune crossover marker #26, north of Ocean Cay Park at 2188 Marcinski Road, to marker #57 at the Carlin Park property line.
 
-## Get on the water
+- Dogs may be off leash within the corridor, under voice control and supervised, and leashed between the car and the sand.
+- Dogs are not permitted in lifeguarded swimming areas, except ADA service animals.
+- Owners clean up after their dogs. Friends of Jupiter Beach provides bags at the crossovers.
+- Beaches in Jupiter Inlet Colony and Juno Beach belong to those towns and run on their own rules.
 
-This is the one that matters most. Rent a kayak or paddleboard on the Loxahatchee River and you're immediately into mangroves, wading birds, and — in the cooler months — manatees. There's a decent chance you'll see a gator sunning on the bank, at a comfortable distance.
+![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds over the beach near Marcinski Road, inside the dog beach corridor. || Photo by John Oliver, 2022"){1400x1050}
 
-If you have access to a boat, the inlet and its sandbar are where the entire town plays on a warm weekend. Boats anchor, people wade, and it turns into a floating social event that no map will tell you about.
+Rules, access points and closures can change. The Town's [Beaches page](https://jupiter.fl.us/465/Beaches) lists the crossovers and who maintains each, and the County's [beach conditions page](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) is the day-of check.
 
-## Go wild at Riverbend Park
+## River or paddle: Riverbend, the Waterway Trail and public launches
 
-Paddle, bike, or hike through old, untamed Florida — cypress, cabbage palms, quiet water, and miles of off-road trails, plus Seminole War history marked along the way. It's minutes from town and feels like an hour away.
+Two different rivers show up under one name. The federally designated Wild and Scenic reach of the Loxahatchee is a specific section of the Northwest Fork, upstream from the Town's waterfront. The lower river through Jupiter is tidal, shared with boat traffic, and joins the Intracoastal and the inlet. Plan for the one you are actually paddling.
 
-Most visitors do the main paddling run. The quieter back trails are where it really pays off.
+**[Riverbend Park](https://discover.pbc.gov/parks/pages/riverbend.aspx)**, 9060 Indiantown Road, is a 644-acre County park on the Northwest Fork with hiking, biking, equestrian and paddling trails. Its [rules page](https://discover.pbc.gov/parks/Riverbend/RulesRegulations.aspx) matters: no pets other than ADA service animals, no motorized vehicles on the trails, and tents or canopies only with prior approval. The County notes that the canoe trails are navigable in normal to high water and close in drought, so check the park page and the water level before you load the kayak.
 
-## Busch Wildlife Sanctuary
+**The [Jupiter Waterway Trail](https://jupiter.fl.us/459/Jupiter-Waterway-Trail)** is the Town's network of paddling routes connecting the river, the Intracoastal and the inlet, with a downloadable launch-site map. Public launches the Town lists include [Burt Reynolds Park](https://discover.pbc.gov/parks/Locations/Burt-Reynolds.aspx) on U.S. 1, [Sawfish Bay Park](https://www.jupiter.fl.us/facilities/facility/details/Sawfish-Bay-Park-15) on Alternate A1A, and Waterway Park on Indiantown Road. Boat ramps, trailer permits and ramp rules are on the Town's [Boating and Ramps](https://www.jupiter.fl.us/463/BoatingRamps) page.
 
-A local institution, and the reliable answer when you have kids and a rainy morning. It's a rescue and rehabilitation center where you walk shaded trails past Florida panthers, bald eagles, owls, bobcats, and alligators — animals that can't be returned to the wild. Genuinely good, and a favorite with residents rather than a tourist trap.
+What this section won't do is tell you the water will be calm, the tide will cooperate, a rental will be available or wildlife will show up. Tides, wind, boat wakes and currents near the inlet are real, and every launch page above is the place to check conditions and rules first.
 
-Behind the trails is a working wildlife hospital that treats thousands of injured, sick, and orphaned animals every year — many of them hit by cars, tangled in fishing line, or displaced by storms — with release back into the wild as the goal. You can support it by symbolically adopting one of the resident ambassador animals, volunteering on site, or donating at [buschwildlife.org](https://buschwildlife.org).
+![Two brown pelicans on a concrete dock and a third in flight over green water, with the Jupiter Inlet Lighthouse on its wooded point across the water](/images/jupiter/jupiter-inlet-dock-pelicans-lighthouse.webp "A dock across the water from the lighthouse. || Photo by John Oliver, 2022"){1400x1050}
 
-## Eat, drink, and watch the sun go down
+## Nature and wildlife
 
-Sunset is treated as an event in Jupiter, and most of the social life is waterfront. **Guanabanas** is the iconic one — open-air, under banyan trees and string lights, on the Intracoastal. **Square Grouper** and **U-Tiki Beach** put you right on the inlet with boats drifting past. For a walkable evening rather than a single destination, head for **Harbourside Place** and the **Jupiter Riverwalk** — full rundown in our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida).
+**[Busch Wildlife Sanctuary](https://www.buschwildlife.org/plan-your-visit)** is a wildlife hospital and nature center at 17855 Rocky Pines Road, in the Jupiter Farms area of unincorporated Palm Beach County. Its grounds hold trails and habitats for animals that cannot be released, and its visit page carries current hours, programs, what to bring and admission information, all of which change.
 
-Time any of it for sunset. That's not a tip so much as the local default.
+**The [River Center](https://loxahatcheeriver.org/venue/river-center/)**, on the east side of Burt Reynolds Park, is the Loxahatchee River District's environmental education center, with exhibits and aquariums about the river and its watershed. Programs and open hours are on its page.
 
-![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "Plan outdoor time for mornings and evenings in summer — the middle of the day belongs to the heat.")
+**[Jupiter Ridge Natural Area](https://discover.pbc.gov/erm/NaturalAreas/Jupiter-Ridge.aspx)**, 1800 South U.S. 1, is a County natural area of more than 270 acres of scrub, flatwoods, marsh and mangrove with three short trails and an observation platform over the tidal channels, open sunrise to sunset.
 
-## Catch a game or a show
+Sea turtles nest on Jupiter's beaches from March 1 through October 31, the season Palm Beach County and the Town use. Marked nests are off limits. The [FWC's sea turtle lighting guidance](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/lighting/) explains the principles for beachfront light; which rules apply to a particular property is set by location and by the Town, County and state, not by this page. Seeing a nest or a hatchling is never guaranteed.
 
-**Roger Dean Chevrolet Stadium** in Abacoa hosts Major League spring training, and it's a genuinely great small-park experience — close to the field, easy parking, and a completely different feel from a regular-season game in a big stadium.
+## Waterfront walk: the Riverwalk, in its current state
 
-The **Maltz Jupiter Theatre** punches dramatically above its weight, staging Broadway-caliber productions in a town this size. Locals treat it as one of the real cultural assets of the area.
+The Town's [Riverwalk](https://jupiter.fl.us/227/Riverwalk) is a multi-phase public corridor along the eastern shore of the Intracoastal, south of the inlet. The Town says it will provide approximately 2.5 miles of public access upon completion. Sections are open and in use; others are still planned, so do not count on one continuous path from a restaurant to a park.
 
-For golf, public and semi-private options including Abacoa Golf Club welcome players at every level, so you don't need a club membership to play well here.
+![The Jupiter Riverwalk boardwalk curving out over the Intracoastal Waterway on concrete piers, with mangroves and a mid-rise condominium building behind under a blue sky](/images/jupiter/IMG_6969.webp "An open section of the Riverwalk boardwalk over the Intracoastal. || Photo by John Oliver, 2026"){2400x1800}
 
-## The free list
+The Town's [Riverwalk map and points of interest](https://www.jupiter.fl.us/234/Riverwalk-Map-Points-of-Interest) and [public access](https://www.jupiter.fl.us/233/Public-Access) pages show the entry points and parking, which include Jupiter Ridge Natural Area at the south end, the Plaza Down Under beneath the Indiantown Road bridge, and Harbourside Place. Our [Riverwalk guide](/blog/jupiter-riverwalk-florida) walks the open sections, and the [Harbourside Place guide](/blog/harbourside-place-jupiter-florida) covers the entertainment district beside it.
 
-Some of the best of Jupiter costs nothing:
+## Stadium, theatre and current public events
 
-- **The beaches**, all of them, including the dog stretch.
-- **Jupiter Ridge Natural Area** — trails through rare coastal scrub with a quiet Intracoastal overlook, and almost always empty.
-- **Sawfish Bay Park** — a small park with a boardwalk over the river and an underrated sunset.
-- **The Jupiter Riverwalk** — a boardwalk along the water connecting restaurants and parks.
-- **Burt Reynolds Park** — a quiet hour watching boats move through.
-- **Free concerts at the Seabreeze Amphitheater** in Carlin Park during the cooler months.
-- **Green markets** in season, which function as much as a social event as a shopping trip.
+Schedules change every season, so this section links rather than lists:
 
-## Day trips within an hour
+- **[Roger Dean Chevrolet Stadium](https://www.mlb.com/roger-dean-chevrolet-stadium/ballpark)** in Abacoa hosts Major League spring training and minor-league baseball. The current schedule, tickets and parking are on the stadium's site.
+- **[Maltz Jupiter Theatre](https://www.jupitertheatre.org/)**, the Town's regional theatre, publishes its season, single tickets and calendar on its site.
+- **[Carlin Park After Dark](https://discover.pbc.gov/parks/amphitheaters/Pages/Carlin-Park-After-Dark.aspx)** is the County's free live-music series at the Seabreeze Amphitheater in Carlin Park. Dates are posted by the County each season.
+- **[Town of Jupiter special events](https://www.jupiter.fl.us/224/Special-Events)** and the Town [calendar](https://www.jupiter.fl.us/calendar.aspx) list community events and how to register.
 
-When you want a change of scenery:
+## Before you go
 
-- **Blowing Rocks Preserve** (about 15 minutes north) — a limestone shoreline where winter surf shoots saltwater into the air through the rock. Unlike any other beach in the area.
-- **Peanut Island** (about 25 minutes south) — a snorkeling and boating island in the Lake Worth Inlet with a Cold War-era presidential bunker.
-- **Downtown Stuart** (about 35 minutes north) — a walkable historic downtown with a serious boating culture and a slower pace.
-- **Downtown West Palm Beach and the Norton Museum of Art** (about 30 minutes south) — the area's real urban core, plus the best art museum in the county.
-- **Loxahatchee River upstream by kayak** — technically not a day trip, but the upper stretch feels like a different state entirely.
+One place for the links you will actually use on the day:
 
-## Seasonal timing that actually matters
+- **Beach conditions and flags:** the County's [beach conditions page](https://discover.pbc.gov/parks/Locations/Beach-Conditions.aspx) and its [about our beaches](https://discover.pbc.gov/parks/aquatics/about-our-beaches.aspx) guide to guard hours and flag colors.
+- **Beach access and dog rules:** the Town's [Beaches](https://jupiter.fl.us/465/Beaches) and [Dogs on the Beach](https://jupiter.fl.us/437/Dogs-on-the-Beach) pages.
+- **Lighthouse visits:** the [hours, tickets and notices](https://www.jupiterlighthouse.org/plan/hours-ticket-prices-directions-include-special-notices/) page.
+- **Riverbend and the water:** the [Riverbend](https://discover.pbc.gov/parks/pages/riverbend.aspx) page, the [Waterway Trail](https://jupiter.fl.us/459/Jupiter-Waterway-Trail) and the Town's [ramps](https://www.jupiter.fl.us/463/BoatingRamps) page.
+- **Schedules:** [Roger Dean](https://www.mlb.com/roger-dean-chevrolet-stadium/ballpark), the [Maltz](https://www.jupitertheatre.org/), [Carlin Park After Dark](https://discover.pbc.gov/parks/amphitheaters/Pages/Carlin-Park-After-Dark.aspx) and the Town [calendar](https://www.jupiter.fl.us/calendar.aspx).
+- **Weather, closures and storms:** the Town's [storm hub](https://jupiter.fl.us/235/Emergency-Preparedness-Storm-Recovery-Hu) and [Notify Me](https://www.jupiter.fl.us/787/Notify-Me) alerts, plus each venue's own page for closures.
 
-- **Winter (Nov–Apr):** everything is open, the weather is ideal, and everything is crowded. Book restaurants ahead and expect company at the beach.
-- **Summer (May–Oct):** plan outdoor activity for early morning or evening, and always keep an indoor backup — the wildlife sanctuary or the theater — in your pocket for the afternoon storm.
-- **Turtle nesting season (roughly Mar–Oct):** you'll see marked nests on the beach. Don't disturb them, avoid white light toward the water at night, and fill in any holes you dig.
+## Nearby, clearly labeled
 
-## The honest local advice
+These are outside the Town of Jupiter. We give no travel times; each is in a different municipality with its own rules and its own page.
 
-Do the lighthouse once, do the beaches constantly, and get on the water as early in your time here as you can. Everything else on this list is good — but the water is the reason the town exists, and it's the part that turns a visit into a decision to stay.`,
+- **[Blowing Rocks Preserve](https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/blowing-rocks-preserve/)**, Hobe Sound, on Jupiter Island in Martin County. A Nature Conservancy preserve with a limestone shoreline and short trails. Hours, parking limits and closures are on its page.
+- **[Loggerhead Marinelife Center](https://marinelife.org/)**, Juno Beach. A sea turtle hospital and education center with exhibits and guided tours, on its own schedule.
+- **[Jonathan Dickinson State Park](https://www.floridastateparks.org/parks-and-trails/jonathan-dickinson-state-park)**, Hobe Sound, Martin County. The largest state park in southeast Florida, with trails, paddling on the river and ranger programs. Fees and hours are on the state parks site.
+
+For more Jupiter, read [what living in Jupiter is really like](/blog/what-its-really-like-living-in-jupiter-florida), the [local guide](/blog/local-guide-to-jupiter-florida) and our [hidden gems](/blog/hidden-gems-in-jupiter-florida).`,
     faqs: [
-      { q: "What are the best things to do in Jupiter, Florida?", a: "Climb the Jupiter Inlet Lighthouse, spend time at the dog-friendly Jupiter Beach and the calm lagoon at Dubois Park, kayak or paddleboard the Loxahatchee River, explore Riverbend Park, visit Busch Wildlife Sanctuary, catch spring training at Roger Dean Stadium or a show at the Maltz Jupiter Theatre, and watch the sunset from a waterfront restaurant." },
-      { q: "Is there a dog beach in Jupiter, Florida?", a: "Yes. Jupiter Beach has a long dog-friendly stretch where dogs are allowed off-leash along the shore, and walking the dog on the sand in the morning is a daily ritual for many residents." },
-      { q: "Where can you snorkel in Jupiter?", a: "Coral Cove Park, just north on the barrier island, has a shallow rock reef right off the beach — one of the easiest shore-snorkeling spots in the area, best at high tide." },
-      { q: "What is there to do in Jupiter when it rains?", a: "Busch Wildlife Sanctuary, the Maltz Jupiter Theatre, and the lighthouse museum are the usual answers. In summer, afternoon storms typically pass within twenty to thirty minutes, so many residents simply wait them out." },
-      { q: "Which MLB teams have spring training in Jupiter?", a: "Roger Dean Chevrolet Stadium in Abacoa hosts Major League spring training, with two teams sharing the complex. Schedules change year to year — check the stadium directly for the current season." },
-      { q: "What is there to do on the water in Jupiter?", a: "Kayaking and paddleboarding the Loxahatchee River, boating through the inlet, and gathering at the inlet sandbar on weekends. Manatees are commonly seen near the inlet in the cooler months." },
+      {
+        q: "Where is Jupiter's designated dog-friendly beach area?",
+        a: 'A 2.5-mile corridor from dune crossover marker #26, north of Ocean Cay Park at 2188 Marcinski Road, to marker #57 at the Carlin Park property line. Dogs may be off leash there under voice control, leashed to and from the car, and never in lifeguarded swimming areas except ADA service animals. It is not every Jupiter beach, and beaches in Jupiter Inlet Colony and Juno Beach have their own rules. The Town of Jupiter publishes the current rules.',
+      },
+      {
+        q: 'How do I check current beach conditions and guard status?',
+        a: "Use Palm Beach County Parks' beach conditions page, which covers the County-guarded beaches in Jupiter, and look at the flag on the lifeguard tower when you arrive: green is low hazard, yellow medium, red high, double red means the water is closed, and purple warns of dangerous marine life. Guard hours differ at DuBois Park, so check its page too.",
+      },
+      {
+        q: 'What should I know before visiting the Jupiter Inlet Lighthouse?',
+        a: "Check the Lighthouse and Museum's hours, tickets and notices page first. Climbing has requirements, including a minimum height for children and the ability to climb unassisted, and the site can close or limit climbs for weather and daily safety limits. The lighthouse sits inside the BLM's Outstanding Natural Area, whose trails are open dawn to dusk and can be restricted for restoration or events.",
+      },
+      {
+        q: 'Is Coral Cove located in Jupiter?',
+        a: 'No. Coral Cove Park is at 1600 Beach Road in Tequesta, a separate municipality north of the inlet, and it is run by Palm Beach County Parks. It has guarded and unguarded beach frontage and Intracoastal frontage. Conditions, currents, rock and visibility vary, so check the County conditions page and swim in the guarded area.',
+      },
+      {
+        q: 'What should I check before paddling at Riverbend?',
+        a: "The park's page for hours and whether the canoe trails are open, since the County closes them in low water; the rules page, which allows no pets other than ADA service animals and no motorized vehicles on the trails; and the weather. For the lower river and the Intracoastal, use the Town's Waterway Trail map and launch pages, and plan around tide, wind, boat traffic and currents near the inlet.",
+      },
+      {
+        q: 'Where can I find current stadium, theatre and Town event schedules?',
+        a: "Roger Dean Chevrolet Stadium's site for spring training and minor-league baseball, the Maltz Jupiter Theatre's site for its season and tickets, Palm Beach County's Carlin Park After Dark page for the free concert series, and the Town of Jupiter's special events page and calendar for community events. Dates, prices and availability change, so this guide links to them rather than listing them.",
+      },
     ],
-    internalLinks: ["hidden-gems-in-jupiter-florida", "local-guide-to-jupiter-florida", "best-places-to-eat-drink-hang-out-in-jupiter-florida"],
-    funFact: "Roger Dean Chevrolet Stadium is the only spring training facility in Florida that hosts two Major League teams simultaneously — the Miami Marlins and St. Louis Cardinals both train there. Locals buy seats for $12 and sit 15 rows from the field watching All-Stars warm up.",
+    internalLinks: [
+      'what-its-really-like-living-in-jupiter-florida',
+      'local-guide-to-jupiter-florida',
+      'hidden-gems-in-jupiter-florida',
+      'best-places-to-eat-drink-hang-out-in-jupiter-florida',
+    ],
+    funFact: 'The DuBois Pioneer Home in DuBois Park stands on a prehistoric shell mound that the County describes as purposefully built, not a trash heap, and once more than 600 feet long and 20 feet high. The house and the mound are listed together on the National Register of Historic Places as the Jupiter Inlet Historic and Archeological Site.',
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-02',
   },
   {
     slug: 'who-should-move-to-jupiter-florida',
