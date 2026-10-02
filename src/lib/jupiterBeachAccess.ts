@@ -121,11 +121,11 @@ export const ACCESS_POINTS: AccessPoint[] = [
     href: SOURCES.countyJunoBeach,
     note: 'Town of Juno Beach, not Jupiter. Pier and guarded beach. Free lot per the Town of Jupiter parking FAQ.',
     position: {
-      lat: 26.8797,
-      lng: -80.0532,
+      lat: 26.89336,
+      lng: -80.06003,
       positionSource:
-        'Placed by the editor at the Juno Beach Pier from the County address, without a geocoder. Re-geocode 14775 U.S. Highway 1, Juno Beach.',
-      positionVerified: false,
+        'Confirmed by John Oliver on 2026-10-02: a Google Maps view centred on the Juno Beach Park lot and pier (URL centre 26.8933571,-80.0600297). An earlier placement a mile south at Atlantic Blvd was wrong.',
+      positionVerified: true,
     },
     source: `Name, address and guarded status: ${SOURCES.countyJunoBeach}. Listed as a free lot: ${SOURCES.townParkingFaq}.`,
   },
@@ -299,5 +299,5 @@ export const NUMBERING_NOTES =
   "The Town's Dune Crossover Information page lists #31 to #35 as private crossovers while also counting #31 among Town crossovers and #32 to #35 among County crossovers. This map leaves that numbering as the Town publishes it."
 
 /** Initial view: the whole Jupiter beach from the Juno Beach line to the inlet. */
-export const MAP_CENTRE = { lat: 26.912, lng: -80.064 }
+export const MAP_CENTRE = { lat: 26.918, lng: -80.066 }
 export const MAP_ZOOM = 13
