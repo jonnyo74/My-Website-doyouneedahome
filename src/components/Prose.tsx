@@ -104,7 +104,7 @@ export default function Prose({ content, className = '' }: { content: string; cl
           const wide = !portrait && images.length % 2 === 1 && i === images.length - 1
           return (
             <figure key={i} className={wide ? 'col-span-2' : undefined}>
-              <a href={img.src} target="_blank" rel="noopener" className="block">
+              <a href={img.src} target="_blank" rel="noopener" className="block rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-500">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={img.src}
