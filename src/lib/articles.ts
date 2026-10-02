@@ -29076,111 +29076,143 @@ Whichever places are on your list, the decision is made at one address in each, 
     cityName: 'Jupiter',
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out in Jupiter, Florida",
-    metaTitle: "Best Places to Eat & Drink in Jupiter, FL",
-    metaDescription: "Where to eat, drink, and hang out in Jupiter, Florida — iconic waterfront restaurants, local institutions, and the best sunset spots, from a local.",
-    primaryKeyword: "best restaurants in Jupiter Florida",
-    secondaryKeywords: ["where to eat in Jupiter FL", "Jupiter waterfront restaurants", "Guanabanas Jupiter"],
-    h1: "Best Places to Eat, Drink & Hang Out in Jupiter, Florida",
-    heroImage: '/images/jupiter/jupiter-waterfront-dining.jpg',
-    body: `In Jupiter, where you eat is half the lifestyle. The best meals here come with a water view, a breeze, and no particular hurry — and the town's social life is organized around the waterfront rather than a downtown strip.
+    seoTitle: 'Best Places to Eat, Drink & Hang Out in Jupiter, Florida',
+    metaTitle: 'Best Places to Eat, Drink & Hang Out in Jupiter, Florida',
+    metaDescription:
+      'A practical Jupiter dining guide to waterfront restaurants, Love Street, Harbourside, casual seafood, coffee, breakfast, and current operator details.',
+    primaryKeyword: 'best restaurants in Jupiter Florida',
+    secondaryKeywords: [
+      'where to eat in Jupiter FL',
+      'Jupiter waterfront restaurants',
+      'Love Street Jupiter restaurants',
+      'Harbourside Place restaurants',
+      'Jupiter Florida dining guide',
+    ],
+    h1: 'Best Places to Eat, Drink & Hang Out in Jupiter, Florida',
+    heroImage: '/images/jupiter/jupiter-lighthouse-string-lights-hero.webp',
+    heroImageAlt: 'The red Jupiter Inlet Lighthouse above its wooded point, seen from a waterfront deck across the inlet between two palm trunks, with a string of cafe lights overhead',
+    heroImageCaption: 'The lighthouse from a waterfront deck across the Jupiter Inlet.',
+    heroImageCredit: 'Photo by John Oliver, 2022',
+    heroImageWidth: 1960,
+    heroImageHeight: 1102,
+    editorial: {
+      eyebrow: 'Jupiter · Eat and Drink',
+      deck: 'Jupiter eats in districts, not a downtown. Where the waterfront, Harbourside, Love Street, Abacoa and Indiantown Road spots are, what each one is, and the official link to check before you go.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/jupiter/jupiter-lighthouse-string-lights-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/jupiter/jupiter-lighthouse-string-lights-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'The lighthouse from a waterfront deck across the Jupiter Inlet.',
+      primaryCta: { label: 'Explore Jupiter', href: '/communities/jupiter' },
+      secondaryCta: { label: 'Best things to do in Jupiter', href: '/blog/best-things-to-do-in-jupiter-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Thinking about living near one of these districts? The community guide covers the areas around them, and we can talk through what a specific address is close to.',
+        cta: { label: 'Explore living in Jupiter', href: '/communities/jupiter' },
+      },
+    },
+    body: `Jupiter does not have one traditional downtown where the restaurants line up. Its food and drink are spread across several distinct areas: Love Street and the Jupiter Inlet; Harbourside Place and the Riverwalk; the A1A corridor through Inlet Village, with its casual seafood; Abacoa; and Indiantown Road and inland Jupiter. Knowing which district you are heading to matters more than any single name on the list.
 
-Here's the local rundown, organized by what you're actually trying to do.
+This guide is built on what each operator says about itself, with its official link. Hours, events, reservations, parking, dockage, menus, age policies and pet rules change, so use the link before you go rather than the sentence here. It makes no claims about waits, crowds, views or what any place is like on a given night. For the rest of a day out, see the [things to do guide](/blog/best-things-to-do-in-jupiter-florida); for the parks and trails, the [hidden gems guide](/blog/hidden-gems-in-jupiter-florida).
 
-## On the water — the classics
+## Love Street and the Jupiter Inlet
 
-These are the places you'll take every visitor, and the ones you'll keep going back to anyway.
+The cluster at the inlet, where Love Street meets A1A, is the waterfront that most visitors picture. Four operators anchor it.
 
-- **Guanabanas** — the iconic one. Open-air, built under banyan trees strung with lights, right on the Intracoastal. It's equal parts restaurant, bar, and Jupiter institution. Expect a wait in season; it doesn't really do quiet.
-- **Square Grouper** — a genuine tiki bar on the inlet, famous for sunsets, live music, and drinks with your feet more or less in the sand. More about the setting and the crowd than the menu, and nobody's pretending otherwise.
-- **U-Tiki Beach** — waterfront dining right at the inlet with boats moving past constantly. Works well for groups and for seafood, and it's one of the better spots to watch the water traffic.
+**[Guanabanas](https://www.guanabanas.com/)**, 960 North Highway A1A. Describes itself as a fully open-air waterfront restaurant and bar under tiki huts and banyan trees, with a live-music calendar published on its site. Opened in 2004.
 
-**Local tip:** all three are sunset destinations, which means everyone else has the same idea. Arrive early, or go on a weeknight, or accept the wait as part of the experience.
+**[U-Tiki Beach](https://www.utikibeach.com/)**, 1095 North Highway A1A. A waterfront restaurant and bar at Jupiter Inlet Marina, with a menu that runs from local seafood to sushi. Nothing here promises a table on the water, a view or a slip; the restaurant's and the marina's own pages carry current hours, reservations and access.
 
-![Jupiter waterway at dusk](/images/jupiter/jupiter-waterway-dusk.jpg "Sunset isn't a bonus at these places — it's the entire reason the reservation exists.")
+**[Square Grouper Tiki Bar](https://squaregrouper.net/contact/)**, 1111 Love Street. A tiki bar on the inlet, and the access rule is the thing to know before you plan around it: the Jupiter Inlet location is 21 and over, with no one under 21 admitted, children included, and a valid government photo ID required. It is not a stop for a family outing. Check its page for the current rule on pets; service animals are handled as the law requires. The venue describes itself as first come, first served.
 
-## A nicer night out
+**[Lucky Shuck](https://www.luckyshuckjupiter.com/)**, 1116 Love Street. An oyster bar and taphouse with a raw bar, local seafood and a long draft list, in a building styled after an early-twentieth-century wharf, with indoor and outdoor space on the inlet where the Riverwalk meets Love Street.
 
-- **1000 North** — polished waterfront dining, the default answer for an anniversary or a client dinner. Reservations strongly recommended, especially in season.
-- **The Woods Jupiter** — upscale food with a lively bar scene, a good option when half your table wants a real dinner and the other half wants to watch a game.
+| Venue | What it is | District | Verify before going |
+|---|---|---|---|
+| Guanabanas | Open-air waterfront restaurant and bar with live music | Inlet / A1A | Current hours, music calendar, seating |
+| U-Tiki Beach | Waterfront restaurant and bar at Jupiter Inlet Marina | Inlet / A1A | Current hours, reservations, marina access |
+| Square Grouper | 21-and-over tiki bar | Love Street / Inlet | Age policy, pet policy, live music, hours |
+| Lucky Shuck | Oyster bar, seafood and taphouse | Love Street / Riverwalk | Current menu, reservations, hours |
 
-## Local institutions and casual eats
+## Harbourside Place and the Riverwalk
 
-This is where residents actually eat on a Tuesday.
+Harbourside Place, at 200 North US-1, is a compact waterfront development on the Intracoastal where a meal can be combined with a walk on the Town's [Riverwalk](https://jupiter.fl.us/227/Riverwalk), a look at the amphitheater calendar, or a Town event at the Plaza Down Under, listed on the Town's [Riverwalk events](https://www.jupiter.fl.us/230/Events-on-the-Riverwalk) page. It is one of several places in Jupiter to walk between dinner and the water, not the only one, and parking is whatever the development posts on the day.
 
-- **Little Moir's Food Shack** — a beloved, unpretentious local favorite known for fresh, creative seafood. It's in a strip plaza, it doesn't look like much, and it has a devoted following for good reason.
-- **Dune Dog Cafe** — quirky, picnic-table casual, all-ages, and a longtime local hang. Exactly what you want after a morning at the beach.
-- **Schooners** — laid-back waterfront tiki atmosphere with a local crowd and no pretense.
+The source of truth for who is open there is Harbourside's own [eat and drink directory](https://harboursideplace.com/eat-and-drink/). At the time of this edit it lists, among others:
 
-## Coffee, breakfast, and sweets
+- **[The Woods Jupiter](https://harboursideplace.com/profiles/the-woods-jupiter/)**, a restaurant and bar the directory describes as a sports and dining club.
+- **[Tommy Bahama Restaurant](https://harboursideplace.com/tommy-bahama-restaurant/)**, a restaurant and bar along the Riverwalk brick streets.
+- **[Calaveras Cantina](https://harboursideplace.com/eat-and-drink/)**, a Mexican cantina on the marina side.
+- **[The Jupiter Grill](https://harboursideplace.com/profiles/jupiter-grill/)**, a coastal steakhouse with steak and seafood.
+- **[Pura Vida](https://harboursideplace.com/pura-vida/)**, an all-day cafe.
+- **[Mana Greek Fusion](https://harboursideplace.com/eat-and-drink/)**, Greek and Mediterranean.
+- **[Subculture Coffee](https://harboursideplace.com/eat-and-drink/)**, a coffee roaster and cafe.
 
-- **Jupiter Donut Factory** — the local legend. Worth the morning stop, worth the line, and the thing visiting friends will ask you about afterward.
-- **Green markets** in the cooler months double as a breakfast-and-coffee social event, which is how a lot of residents start a weekend.
+The directory changes as tenants come and go; it, not this list, is current. Harbourside also runs [The Market at Harbourside Place](https://harboursideplace.com/market/) on a published schedule of Sundays, with vendors and food; the dates on its page are the ones to trust. Our [Harbourside Place guide](/blog/harbourside-place-jupiter-florida) and [Riverwalk guide](/blog/jupiter-riverwalk-florida) cover both in more depth.
 
-## Where it all comes together
+## Casual Jupiter institutions and seafood
 
-**Harbourside Place** and the **Jupiter Riverwalk** give you the closest thing Jupiter has to a walkable evening — restaurants, live music, and a boardwalk along the water, with the ability to park once and wander. It's where a lot of first dates, family nights, and out-of-town-guest evenings end up.
+Three long-running casual operators, each with its own site:
 
-**Abacoa's town center** is the other walkable pocket, with a cluster of restaurants and bars near the stadium. On game nights it's busy and genuinely fun; on quiet nights it's an easy, low-key dinner.
+**[Little Moir's Food Shack](https://littlemoirsfoodshack.com/)**, 103 South US-1, Suite D3, in a plaza south of Indiantown Road. A seafood restaurant with craft beverages, in business in Jupiter for decades, with its own events calendar.
 
-![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "Almost none of Jupiter's social life happens indoors — which is the whole point, and also why season changes everything.")
+**[Schooners](https://schoonersjupiter.com/)**, 1001 North Highway A1A. A seafood restaurant on the A1A corridor near the inlet, with menus and directions on its site.
+
+**[Dune Dog Cafe](https://dunedog.com/contact)**, 775 North Alternate A1A. The original location, open since 1994, with open-air decks on the road; a casual stop with a second location in Stuart.
+
+None of the three is described here as easy to get into on a given day or as the one place anyone eats. Each site carries current hours.
+
+## Abacoa, Indiantown Road, breakfast and coffee
+
+Away from the water, three operators worth knowing, each verified on its own site:
+
+**[Leftovers Cafe](https://leftoverscafe.com/)**, 451 University Boulevard, in Abacoa. A cafe and restaurant open there since 2008, with a live-music schedule on its site.
+
+**[Little Moir's Sweet Fish](https://www.littlemoirssweetfish.com/)**, 6390 West Indiantown Road. The western sibling of the Food Shack, with its menu on its site.
+
+**[Jupiter Donuts](https://jupiterdonuts.com/page/locations)**, 141 Center Street. The original location of a donut shop that now has several, just west of the railroad tracks; a morning stop, with hours on its locations page.
+
+Abacoa's town center and the Indiantown Road corridor carry much of the area's everyday variety beyond these three. Rather than freeze a list of chains and newer openings into this page, look at what is current on the ground.
+
+## Jupiter dining districts and waterfront walks
 
 ::: gallery
 ![The Woods Jupiter restaurant front at Harbourside Place, with its sign over the entrance](/images/jupiter/harbourside-woods.webp "The Woods Jupiter, Harbourside Place. || Photo by John Oliver")
 ![Pura Vida at Harbourside Place, with a striped awning and patio tables, and The Jupiter Grill behind it](/images/jupiter/harbourside-pura-vida.webp "Pura Vida and The Jupiter Grill, Harbourside Place. || Photo by John Oliver")
 ![Calaveras Cantina at Harbourside Place, a corner restaurant with a black awning](/images/jupiter/harbourside-calaveras.webp "Calaveras Cantina, Harbourside Place. || Photo by John Oliver")
-![The red Jupiter Inlet Lighthouse above a wooded point, framed by two palm trunks and a string of cafe lights, with boats tied up at a dock below](/images/jupiter/jupiter-lighthouse-string-lights.webp "The lighthouse from a waterfront deck across the inlet. || Photo by John Oliver, 2022")
 ![The Harbourside Place amphitheater stage under its teal canopy, with a lawn and blue Adirondack chairs in front](/images/jupiter/harbourside-amphitheater.webp "The amphitheater lawn at Harbourside Place. || Photo by John Oliver")
 ![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk. || Photo by John Oliver")
+![A brick pedestrian walkway between coconut palms leading to a railing on the water, with the Jupiter Inlet Lighthouse across the inlet](/images/jupiter/jupiter-love-street-walkway-lighthouse.webp "A public walkway on the inlet at Love Street, the lighthouse across the water. || Photo by John Oliver, 2022")
 :::
 
-## How the seasons change all of this
+## Before you go
 
-This matters more than any individual recommendation.
+- [ ] **Confirm hours, menus, reservations, live music and special events** with the operator, on the links above.
+- [ ] **Confirm the age policy before choosing a bar.** Square Grouper's Jupiter Inlet location is 21 and over.
+- [ ] **Ask the operator or the marina directly about boat access and dockage.** Nothing on this page implies that a venue offers it.
+- [ ] **Check each venue's pet policy** rather than assuming a patio allows dogs.
+- [ ] **Use the Town's and the venue's current guidance for parking and public events**, including the Town's [Riverwalk events](https://www.jupiter.fl.us/230/Events-on-the-Riverwalk) page.
+- [ ] **Arrange a designated driver or a rideshare** when alcohol is part of the plan.
+- [ ] **Check the weather and any closures** before planning an outdoor visit; most of the waterfront seating is open-air.
 
-**January through March**, the waterfront restaurants are genuinely busy. Reservations become necessary at places that don't normally need them, waits run long, and parking near the inlet gets competitive. Residents adapt by eating out on weeknights and staying home on weekends.
-
-**May through September**, the same restaurants are relaxed. You can walk into most places, sunset seating opens up, and the town feels like it belongs to the people who live here. Many locals will tell you summer dining is the best-kept secret of living in Jupiter.
-
-## Beyond the waterfront
-
-It would be easy to think Jupiter is only tiki bars and water views. A few things worth knowing once the novelty of eating outdoors wears off:
-
-- **Abacoa and the Indiantown Road corridor** carry most of the everyday variety — sushi, Italian, Mexican, Thai, breweries, and the chains when you want something predictable.
-- **The brewery and taproom scene** has grown steadily and skews casual and local rather than destination-driven.
-- **Palm Beach Gardens is fifteen minutes south** and adds a substantially larger range of restaurants, which matters if you eat out often.
-- **West Palm Beach, about half an hour away**, is where you go for a genuinely big night out or a wider fine-dining selection.
-
-The honest framing: Jupiter has quality and setting in abundance. It has less sheer volume than a bigger city, and residents who eat out constantly tend to range south fairly often.
-
-## Practical local advice
-
-- **Boat-up access** exists at several waterfront spots, and arriving by water is a legitimately common way to go to dinner here.
-- **Dress code is minimal** almost everywhere. This is a flip-flops town, with the exception of the nicer dinner spots.
-- **Sunset timing shifts** significantly through the year — check it rather than guessing, especially if the sunset is the point.
-- **Dog-friendly patios** are common given the beach culture, but call ahead rather than assuming.
-- **Parking near the inlet** is the real constraint on busy evenings, not the wait for a table. Go early or be prepared to walk a few blocks.
-- **Live music** is common at the waterfront spots, particularly on weekend afternoons and evenings — great if that's what you came for, less so if you wanted a conversation.
-- **Happy hour** is genuinely worth planning around at the waterfront places, since it often overlaps with the best light of the day.
-
-## The bottom line
-
-You could eat well in Jupiter for a year without ever going somewhere without a water view, and plenty of residents essentially do. The pattern most people settle into: the classics when friends visit, Little Moir's or Dune Dog on a normal weeknight, the Riverwalk when you want to walk somewhere, and a standing sunset spot you get quietly territorial about.
-
-Hours, menus, and ownership change — check directly before you go.`,
+For how the districts sit in the town, read the [local guide](/blog/local-guide-to-jupiter-florida); for the day-to-day texture, [what living in Jupiter is really like](/blog/what-its-really-like-living-in-jupiter-florida).`,
     faqs: [
-      { q: "What are the best restaurants in Jupiter, Florida?", a: "The waterfront classics are Guanabanas, Square Grouper, and U-Tiki Beach. For a nicer night out, 1000 North and The Woods Jupiter. For local favorites, Little Moir's Food Shack, Dune Dog Cafe, and Schooners. Hours and menus change, so check directly before going." },
-      { q: "Where is the best sunset spot for dinner in Jupiter?", a: "Square Grouper and U-Tiki Beach at the inlet are the best known, along with Guanabanas on the Intracoastal. All three get busy at sunset, especially January through March — arrive early or go on a weeknight." },
-      { q: "Is there anywhere walkable to eat in Jupiter?", a: "Harbourside Place and the Jupiter Riverwalk are the main walkable stretch, with restaurants, live music, and a waterfront boardwalk. Abacoa's town center near the stadium is the other walkable cluster." },
-      { q: "Can you get to Jupiter restaurants by boat?", a: "Yes — several waterfront restaurants offer boat-up access, and arriving by water is a common way to go to dinner locally. Availability and dockage rules vary, so check with the restaurant." },
-      { q: "Do you need reservations at Jupiter restaurants?", a: "In season, roughly January through March, yes at the popular waterfront spots and anywhere upscale. From May through September most places are walk-in friendly, which many residents consider the best part of summer here." },
-      { q: "What is Jupiter Donut Factory?", a: "A well-known local donut shop that has become something of an institution — typically a morning stop, often with a line, and one of the things residents recommend to visiting friends." },
+      { q: 'Where are the main dining districts in Jupiter, Florida?', a: 'Love Street and the Jupiter Inlet, Harbourside Place and the Riverwalk, the A1A corridor through Inlet Village with its casual seafood, Abacoa, and Indiantown Road and inland Jupiter. There is no single traditional downtown; each district has its own cluster of operators.' },
+      { q: 'Which Jupiter waterfront venues should I check directly before going?', a: 'Guanabanas, U-Tiki Beach, Square Grouper and Lucky Shuck at the inlet, and the Harbourside Place restaurants on the Intracoastal. Each publishes its own hours, events, reservation and access details, and those pages are current where this guide is not.' },
+      { q: 'Is Square Grouper in Jupiter open to guests under 21?', a: 'No. The Square Grouper Tiki Bar at Jupiter Inlet states on its site that guests must be 21 or over, with no one under 21 admitted, children included, and a valid government photo ID required. Check its page directly for its current pet policy.' },
+      { q: 'Where can I find casual seafood in Jupiter?', a: "Little Moir's Food Shack on South US-1, Schooners on North A1A near the inlet, Dune Dog Cafe on North Alternate A1A, Lucky Shuck on Love Street, and Little Moir's Sweet Fish on West Indiantown Road, each with its own official site for current hours and menus." },
+      { q: 'What restaurants and cafes are at Harbourside Place?', a: "Harbourside's own eat-and-drink directory is the current list. At the time of this edit it includes The Woods Jupiter, Tommy Bahama Restaurant, Calaveras Cantina, The Jupiter Grill, Pura Vida, Mana Greek Fusion and Subculture Coffee, among others. Tenants change, so check the directory." },
+      { q: 'How should I verify hours, reservations, boat access, and live music?', a: "On each operator's official site, linked in this guide, and by asking the operator or marina directly about dockage. Live-music calendars are published by Guanabanas, Little Moir's Food Shack and Leftovers Cafe on their own sites; Town events on the Riverwalk are on the Town of Jupiter's events page." },
     ],
-    internalLinks: ["best-things-to-do-in-jupiter-florida", "local-guide-to-jupiter-florida", "hidden-gems-in-jupiter-florida"],
-    funFact: "Guanabanas has been a Jupiter institution since 2005 and has turned down multiple offers to franchise or expand. The owners built it as a one-of-a-kind open-air jungle spot on the Intracoastal and have kept it exactly that way — which is why it still feels like a real local place rather than a chain.",
+    internalLinks: ['best-things-to-do-in-jupiter-florida', 'local-guide-to-jupiter-florida', 'hidden-gems-in-jupiter-florida', 'harbourside-place-jupiter-florida', 'jupiter-riverwalk-florida'],
+    funFact: 'Restaurant hours, menus, seating policies, events and access can change. Use the official links in this guide before going.',
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-02',
   },
   {
     slug: 'harbourside-place-jupiter-florida',
