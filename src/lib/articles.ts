@@ -28470,154 +28470,158 @@ Jupiter's trade-offs are address-specific. The question worth answering is not w
     cityName: 'Jupiter',
     type: "Cost Of Living In",
     order: 7,
-    seoTitle: "Cost of Living in Jupiter, Florida (What to Really Expect)",
-    metaTitle: "Cost of Living in Jupiter, Florida",
-    metaDescription: "What it really costs to live in Jupiter, Florida — housing, taxes, insurance, and everyday expenses in one of Palm Beach County's most desirable towns.",
-    primaryKeyword: "cost of living in Jupiter Florida",
-    secondaryKeywords: ["Jupiter Florida home prices", "is Jupiter Florida expensive", "Jupiter FL cost of living"],
-    h1: "Cost of Living in Jupiter, Florida",
-    heroImage: '/images/jupiter/jupiter-luxury-home.jpg',
+    seoTitle: 'Cost of Living in Jupiter, Florida: A Property-by-Property Guide',
+    metaTitle: 'Cost of Living in Jupiter, Florida: A Property-by-Property Guide',
+    metaDescription:
+      'How to estimate the cost of living in Jupiter, Florida, including housing, property taxes, insurance, association fees, utilities, and property-specific ownership costs.',
+    primaryKeyword: 'cost of living in Jupiter Florida',
+    secondaryKeywords: [
+      'Jupiter Florida cost of living',
+      'Jupiter FL property taxes',
+      'Jupiter Florida homeowners insurance',
+      'Jupiter HOA fees',
+      'cost of owning a home in Jupiter Florida',
+    ],
+    h1: 'Cost of Living in Jupiter, Florida',
+    heroImage: '/images/jupiter/riverwalk-condos-mangroves-hero.webp',
+    heroImageAlt: 'Two mid-rise condominium buildings in yellow and cream with terracotta roofs on the far shore of the Intracoastal Waterway in Jupiter, seen across the water beyond a line of mangroves under a blue sky',
+    heroImageCaption: 'Condominium buildings across the water from the Jupiter Riverwalk. One of several housing contexts in the Jupiter mailing area.',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
     showMarketTrends: true,
-    body: `Let's be honest up front: Jupiter is not a budget town. It's one of the more desirable addresses in Palm Beach County, and the price tag reflects that. But "expensive" isn't the whole story, and the sticker number on a listing is one of the least useful things you can look at.
+    marketTrendsCaption: 'Live list-market data from the local MLS. It shows current conditions, not what one property costs to own.',
+    editorial: {
+      eyebrow: 'Jupiter · Cost of Living',
+      deck: 'A listing price and an old tax bill do not add up to an ownership budget. How to build the real number for one Jupiter address, line by line, from current quotes and public records.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/jupiter/riverwalk-condos-mangroves-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/jupiter/riverwalk-condos-mangroves-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'Condominium buildings across the water from the Jupiter Riverwalk.',
+      primaryCta: { label: 'Explore Jupiter', href: '/communities/jupiter' },
+      secondaryCta: { label: 'Pros and cons of living in Jupiter', href: '/blog/pros-and-cons-of-living-in-jupiter-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Have a Jupiter address in mind? Send it over and we will walk the checklist above against that property with you, line by line.',
+        cta: { label: 'Explore Jupiter homes', href: '/communities/jupiter' },
+      },
+    },
+    body: `The useful question is not what Jupiter costs. It is what one specific address costs to own. A listing price tells you the purchase; the seller's old tax bill tells you what the seller paid; neither one is your budget. The same Jupiter mailing address can lead to very different ownership costs depending on which jurisdiction the parcel is in, the property type, the association and any club attached to it, waterfront exposure, the building's condition, the roof and systems, the insurance quotes those produce, and how water, sewer and power reach the house.
 
-What actually determines whether Jupiter works for your budget is the stack underneath the mortgage — property taxes that reset the year after you buy, insurance that varies by thousands between two houses on the same street, and association fees that range from trivial to larger than a car payment. Most people relocating here get surprised by at least one of those. This is the walkthrough we give clients so they don't.
+This guide is a method, not a set of numbers. Every section says what to pull for the property you are considering and where the official source is. Nothing here is tax, insurance, legal, lending or investment advice; the licensed professionals named along the way are. For how the area is organized, read the [neighborhood guide](/blog/best-neighborhoods-in-jupiter-florida); for the trade-offs, read the [pros and cons](/blog/pros-and-cons-of-living-in-jupiter-florida).
 
-## Housing — the line item that decides everything
+## Housing: categories, not price promises
 
-Housing is where Jupiter costs the most, and it's the number that drives every other number on this page. Prices are pushed up by three things that aren't going away: there's very little developable land left, the town has held the line on building heights so nobody's adding density, and demand from out-of-state buyers has been steady for years.
+Jupiter's housing comes in several contexts, and each carries its own diligence. What follows is what may matter for each, not which costs more and not who buys it.
 
-Rather than quote a median that'll be stale by the time you read it, look at the **live market trends further down this page** — that pulls from the local MLS. What's more useful here is understanding the tiers, because "the median" hides an enormous spread.
+- **Condominium or townhouse.** The association's budget, reserves, assessments and rules shape the monthly figure as much as the mortgage does. Insurance responsibility is split between the association's policy and yours, and the split is in the documents.
+- **Inland single-family home.** The roof, the openings, the systems and any association come first. Some have no association at all; some have one with limited scope.
+- **Association or club community.** Dues and what they include, any mandatory club membership with its own joining cost and dues, and the rules that govern rentals, exterior changes and vehicles.
+- **Waterfront, river, inlet, canal or marina-adjacent property.** Everything above, plus the seawall, dock and lift, their permits, the depth and clearances on the route a boat would take, and what legally conveys with the deed.
+- **Acreage-style or unincorporated-area property.** Jurisdiction, well and septic where they apply, and the maintenance a larger lot carries.
 
-### The rough tiers of Jupiter housing
+The live market trends further down this page come from the local MLS and show current list-market conditions. They are not a substitute for a property-specific budget, and this page does not quote a median for the same reason: the spread inside Jupiter is wider than any single figure.
 
-- **Condos and townhomes.** The entry point into Jupiter, and the only tier where you'll find anything near a Palm Beach County average. Trade-off: association fees are higher and you'll want to look hard at the reserve study.
-- **Inland single-family.** The bulk of Jupiter's housing — established neighborhoods west of US-1, most built from the 1980s onward, many with modest or no HOA.
-- **Gated and country-club communities.** Add a monthly HOA and, in many cases, a mandatory club membership with an initiation fee. This is the tier where the "quiet number" below bites hardest.
-- **Waterfront and Intracoastal.** Ocean access, dockage, and the highest insurance exposure. A different market entirely, largely driven by cash buyers.
+## Property taxes: use the calculator, not the listing
 
-![Oceanfront condo building in Jupiter, Florida](/images/jupiter/jupiter-oceanfront-condo.jpg "Condos and townhomes are Jupiter's entry point — but association fees and reserve funding deserve as much scrutiny as the purchase price.")
+A listing's prior tax bill reflects that parcel's current assessment and whatever exemptions its current owner holds. It may not predict a future owner's bill.
 
-## The tax picture — better than you think, and more complicated
+The Palm Beach County Property Appraiser publishes a [property tax calculator](https://pbcpao.gov/Property/TaxCalculator) for exactly this. Search for the property, open the calculator from its record, enter the price you are contemplating and whether you intend to homestead it, and it returns an estimate built on current millage. Run it before you write an offer. The Appraiser's [residential appraisal](https://pbcpao.gov/departments/residential.htm) page explains how residential property is valued.
 
-Here's where Florida gives back: **there's no state income tax.** For retirees drawing down retirement accounts, remote workers, and anyone relocating from New York, New Jersey, Connecticut, or Illinois, that single fact can offset a lot of higher housing cost. It's the most common reason our clients say the math worked.
+Three terms you will meet, each eligibility-based:
 
-But property taxes deserve more attention than most buyers give them, because Florida's system has a quirk that catches nearly every out-of-state buyer.
+- **Homestead exemption.** An owner who makes the property a permanent residence may be eligible for an exemption that reduces its taxable value. The Florida Department of Revenue's [exemptions overview](https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx) describes it, and the application deadline is March 1.
+- **Save Our Homes.** After a homestead is established, annual increases in the assessed value are limited by Florida law. It applies to eligible homestead property, and it begins with your ownership, not the seller's.
+- **Portability.** An eligible owner moving from one Florida homestead to another may be able to transfer some or all of the accumulated assessment difference, within the time limits the Department of Revenue sets out in its [portability guidance](https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1641&IsDlg=1).
 
-### The tax bill you see is not the tax bill you'll pay
+Whether any of these applies to you, by how much, and on what timeline is a question for the Property Appraiser and a qualified tax professional. This page predicts no savings.
 
-When you're browsing listings, the property tax figure shown usually reflects **the current owner's** bill. If they've owned the home for fifteen years, that number is protected by caps that do not transfer to you. In the year after a sale, the assessed value resets toward market value — and the bill can jump substantially.
+## Insurance, flood and mitigation: a document checklist
 
-Always underwrite your budget against a reset assessment, not the seller's historical bill. The Palm Beach County Property Appraiser publishes an estimator for exactly this, and it's worth ten minutes before you write an offer.
+Insurance pricing and availability are set by insurers for one property at a time. Instead of generalizing, gather the documents that let an insurer and a licensed agent quote the exact house:
 
-### Homestead Exemption and Save Our Homes
+- [ ] **A written homeowners quote for the exact property**, obtained during the inspection period.
+- [ ] **A flood quote, and a review of whether coverage is required or appropriate.** Flood coverage is generally a separate policy from a standard homeowners policy. Whether a lender requires it, and whether it suits the property, depends on the property, the lender, the policy and professional advice. Look the parcel up at the [FEMA Map Service Center](https://msc.fema.gov/portal/home).
+- [ ] **Roof age, condition, permits and maintenance records.**
+- [ ] **Wind-mitigation documentation where it exists.** Qualifying features may affect the discounts an insurer offers. Citizens Property Insurance's [inspections page](https://www.citizensfla.com/inspections) describes the wind-mitigation inspection and notes that one is generally valid for up to five years if the structure has not materially changed.
+- [ ] **Four-point inspection requirements as set by the insurer you select.** The same Citizens page describes its own requirement for older homes; other carriers set their own.
+- [ ] **Flood zone, elevation and evacuation information.** The Town's [flood, evacuation and insurance page](https://www.jupiter.fl.us/377/Flood-Zones-Evacuation-Insurance-Informa) is the local starting point.
+- [ ] **Deductibles, exclusions and coverage limits**, reviewed with a licensed insurance professional.
 
-If the home will be your **primary residence**, you can file for Homestead Exemption, which reduces your taxable value. Filing also triggers the **Save Our Homes** cap, which limits how much your assessed value can rise each year regardless of what the market does. Over a long hold, that cap is genuinely valuable — it's a big part of why longtime Florida residents have such low bills.
+No carrier, approval, coverage amount or premium is promised here. The quote for the house is the only number that counts.
 
-Two things worth knowing:
+## Association, condominium, club and CDD obligations
 
-- **There's a deadline.** Homestead applications are due to the county early in the year following your purchase. Missing it costs you a full year of savings.
-- **Non-homestead property is capped too, but less generously**, and the cap doesn't apply to school district levies. Second homes and investment properties carry a meaningfully different tax profile than primary residences.
+Read before you offer. These are the documents that turn "the dues" into a real monthly figure:
 
-### Portability, if you're already a Florida owner
+- [ ] **The current association or condominium budget and fee schedule.**
+- [ ] **What the dues include and exclude**, line by line.
+- [ ] **Reserve funding, and any current or pending assessments.**
+- [ ] **Insurance responsibility and how deductibles are allocated** between the association and the owner.
+- [ ] **Rules on rentals, pets, parking, exterior changes, docks, boats and generators.**
+- [ ] **Club obligations**, only where the community's own documents identify them: whether membership is mandatory, what it costs to join and keep, and what happens on resale.
+- [ ] **Any Community Development District assessment**, only where it appears on the parcel's tax record.
 
-If you're moving within Florida and selling a homesteaded property, **portability** lets you carry a substantial portion of your accumulated Save Our Homes benefit to your new Jupiter homestead. Buyers relocating from elsewhere in the state routinely leave this on the table simply because nobody told them. There's a separate form, and it has its own timing rules.
+Not every Jupiter community has a club or a district, and the documents for the one you are considering are the only ones that count. Questions about what an association is required to do are for an attorney.
 
-Exemption amounts, caps, deadlines, and millage rates are set by the county, the municipality, and the school board, and they change. Verify current figures with the Palm Beach County Property Appraiser and Tax Collector, and talk to a CPA about your specific situation.
-
-## Insurance — the cost that surprises people most
-
-Like all of coastal Florida, **homeowners insurance is a significant line item** here, and it has risen sharply in recent years. This is the expense most likely to blow up an otherwise sound budget, and it's the one buyers investigate last. Reverse that order.
-
-The critical thing to understand: **premiums vary enormously between comparable houses.** Two similar homes on the same block can quote thousands apart. What drives the spread:
-
-- **Roof age and material.** The single biggest factor. An older roof can make a home difficult to insure at any reasonable price, and some carriers decline outright past a certain age.
-- **Wind mitigation features.** Impact windows, hurricane shutters, roof-to-wall connections, and a secondary water barrier all earn credits. A **wind mitigation inspection** is inexpensive and frequently pays for itself many times over — get one.
-- **Construction type and year built.** Homes built to the post-1994 and post-2002 Florida building codes generally insure better.
-- **Distance to the coast** and the specific wind-borne debris region.
-- **Claims history**, both yours and the property's.
-
-### Flood insurance is separate — and not optional the way people assume
-
-Flood is **not** covered by a standard homeowners policy. Whether you're required to carry it depends on the FEMA flood zone and your lender, but plenty of Jupiter homes outside high-risk zones still carry it voluntarily, and rates outside those zones are often reasonable. Pull the flood zone for any specific address before you get attached to it.
-
-### What to actually do
-
-Get real quotes **during your inspection period**, not after. Ask your agent for the property's prior insurance history and any open claims. If the private market won't write it, Citizens Property Insurance is the state-backed option of last resort, but it comes with its own rules and assessment risk. Coverage terms, availability, and pricing change frequently — verify everything with a licensed Florida insurance agent for the specific property.
-
-## HOA, CDD, and club fees — the quiet monthly number
-
-This is the number that quietly reshapes budgets. Depending on the community, monthly obligations can range from nothing at all to more than a car payment.
-
-- **HOA dues** vary widely by what's included — some cover only common-area landscaping, others bundle cable, internet, exterior maintenance, and guarded gates.
-- **Mandatory club membership.** In several Jupiter-area country-club communities, membership isn't optional. There's typically a one-time initiation fee plus ongoing dues and minimums. Ask early — this surprises people badly.
-- **CDD assessments.** Some newer developments carry a Community Development District bond that appears on the tax bill, separate from HOA dues.
-- **Condo reserves and assessments.** Since Florida tightened its structural reserve requirements for older condo buildings, some associations have raised dues or levied special assessments. Read the reserve study and the last two years of meeting minutes. This is not optional homework.
-
-## Everyday costs
-
-Utilities and groceries run close to the Florida average. Electric is your swing cost — summer air conditioning is the whole ballgame, and a poorly insulated house with an aging AC unit will show up on your bill from June through September. Water and sewer are modest.
-
-![Waterfront dining in Jupiter, Florida](/images/jupiter/jupiter-waterfront-dining.jpg "Waterfront dining is a real part of the Jupiter lifestyle — and a real part of the monthly budget, especially in season.")
-
-Dining out trends higher than the state average, particularly at the waterfront spots that make up so much of the social life here. In-season, expect both higher prices and longer waits. Locals adapt by eating out on weeknights and treating January through March as the season to cook at home.
-
-You'll own a car and pay for gas and auto insurance — Florida auto premiums run above the national average — but you're not dealing with a toll-heavy big-metro commute, and most daily errands stay within a fifteen-minute radius.
-
-## The costs nobody warns you about
-
-A few line items specific to living here that rarely make it into a cost-of-living calculator:
-
-- **Lawn and pest service.** Things grow year-round and bugs never really stop. Most households budget for both as a standing monthly cost.
-- **Hurricane prep.** Shutters or impact glass if the home doesn't have them, plus a generator if you want one. Mostly one-time, but real.
-- **Boat ownership.** Not a requirement, but a genuine temptation here. Dockage, storage, maintenance, and insurance add up quickly.
-- **AC replacement.** Units work hard in this climate and don't last as long as they would up north. If the system is aging, price the replacement into your offer.
-- **Seasonal price drift.** Contractors, restaurants, and services are busier and pricier from January through March.
+## Jupiter housing and waterfront context
 
 ::: gallery
 ![Two-story houses with docks and a moored boat on the water in Jupiter at sunset, with the Jupiter Inlet Lighthouse behind the rooftops](/images/jupiter/jupiter-lighthouse-waterfront-homes.webp "Houses along the water near the inlet, the lighthouse behind them. || Photo by John Oliver, 2021")
-![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk. || Photo by John Oliver")
-![Two mid-rise condominium buildings in yellow and cream with terracotta roofs, seen across the water beyond a line of mangroves](/images/jupiter/riverwalk-condos-mangroves.webp "Condominiums across the water from the Riverwalk. || Photo by John Oliver")
+![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk, condominiums behind. || Photo by John Oliver")
+![The Jupiter Inlet seen from the top of the lighthouse: houses and docks on the north bank, green grounds in the foreground, the Atlantic beyond and condominium towers south of the inlet](/images/jupiter/jupiter-inlet-aerial-inline.webp "Houses, docks and condominium towers around the inlet, from the lighthouse gallery. || Photo by John Oliver, 2022")
 ![A sea grape dune with a few palms at dusk beside an empty stretch of sand on Jupiter's beach, a handful of people far down the shore](/images/jupiter/jupiter-beach-dune-dusk.webp "The dune at dusk, near Marcinski Road. || Photo by John Oliver, 2022")
-![The Jupiter Riverwalk boardwalk over the Intracoastal Waterway, with condominium buildings along the shore](/images/jupiter/riverwalk-boardwalk-intracoastal.webp "The Riverwalk over the Intracoastal. || Photo by John Oliver")
-![Sea grape branches over a sandy shoreline and blue water, with houses and the Jupiter Inlet Lighthouse on the far shore](/images/jupiter/jupiter-inlet-shoreline-lighthouse.webp "A shoreline across the water from the lighthouse. || Photo by John Oliver, 2022")
+![The Jupiter Riverwalk boardwalk over the Intracoastal Waterway, with condominium buildings along the shore](/images/jupiter/riverwalk-boardwalk-intracoastal.webp "The Riverwalk over the Intracoastal, condominiums along the shore. || Photo by John Oliver")
+![Sea grape branches over a sandy shoreline and blue water, with houses and the Jupiter Inlet Lighthouse on the far shore](/images/jupiter/jupiter-inlet-shoreline-lighthouse.webp "Houses on the far shore across from the lighthouse. || Photo by John Oliver, 2022")
 :::
 
-## Running your own number
+## Utilities, maintenance and lifestyle spending
 
-Before you decide whether Jupiter works, build the full monthly figure for a **specific address**, not a general one:
+Treat this as a worksheet, not a page of averages. Every line is verified for the specific address, from prior bills, the providers, the inspection reports and your own choices.
 
-- Mortgage principal and interest
-- Property taxes **at a reset assessment**, with homestead applied if it's your primary residence
-- Homeowners insurance, quoted for real
-- Flood insurance, if applicable
-- HOA or condo dues, plus any club membership and initiation
-- CDD assessment, if any
-- Electric, water, internet
-- Lawn, pest, and pool service
+| Cost category | Verify for the specific address |
+|---|---|
+| Electricity | Prior bills if available, system age, insulation, pool or spa equipment |
+| Water, sewer or septic | Provider, current charges, service arrangement, septic maintenance history |
+| Internet | Providers and service availability at the exact address |
+| Landscaping, pool, pest | Existing contracts, lot size, equipment, and personal choices |
+| Waterfront maintenance | Dock, seawall, lift, salt exposure, permits, and inspection findings |
+| Vehicle and commuting | Actual routes, bridges, parking, tolls, fuel, and insurance choices |
+| Optional recreation | Boat storage, dockage, club dues, dining, memberships, and other personal choices |
 
-Then set that against what you're leaving behind — including the state income tax you'll stop paying. For a lot of our clients relocating from the Northeast, that last line changes the answer entirely.
+Water and sewer deserve one extra line. In the Jupiter area, water may come from the Town's [utility](https://www.jupiter.fl.us/259/Water-Stormwater-Utilities) or another provider, wastewater is handled by the Loxahatchee River District for much of the area, and some parcels rely on a well, a septic system or both. The seller's bills and the providers settle which applies.
 
-## The bottom line
+## Running the number before an offer
 
-Jupiter costs more than the U.S. average, and most of the gap is housing and insurance. What offsets it is real: no state income tax, a homestead cap that rewards staying put, and a town whose values have held up through several cycles because they genuinely aren't building more of it.
+A property-specific checklist:
 
-The people who feel good about the cost here are the ones who ran the whole number before they moved — taxes at reset, insurance quoted, association fees confirmed — instead of the mortgage payment alone. Do that math honestly and you'll know quickly whether this is your town.`,
+- [ ] **Purchase price and financing terms** from a licensed lender.
+- [ ] **A Property Appraiser estimate** from the tax calculator, using your expected ownership and homestead scenario.
+- [ ] **Homeowners and flood quotes**, in writing, for the exact property.
+- [ ] **Association, condominium, club and CDD documents**, with any known assessments.
+- [ ] **Utility and maintenance records** where available.
+- [ ] **Inspection findings**, including roof, air conditioning, plumbing and electrical, and the seawall, dock and lift where they apply.
+- [ ] **Professional review** of any tax, insurance, legal or lending question.
+
+A full budget for one property is more useful than any citywide cost-of-living average. Build it for the address, then compare it with the same budget for another address, here or in a [neighboring town](/blog/jupiter-vs-nearby-cities). For how the trade-offs feel day to day, read [what living in Jupiter is really like](/blog/what-its-really-like-living-in-jupiter-florida).`,
     faqs: [
-      { q: "How expensive is it to live in Jupiter, Florida?", a: "Above the national average, driven mainly by housing and insurance, though no state income tax and stable home values help offset it. The full monthly figure depends heavily on the specific property — taxes, insurance, and association fees vary widely between comparable homes." },
-      { q: "What is the median home price in Jupiter?", a: "It's well above the national average and varies widely by area and home type — check the live market trends on this page for the current figure. The median hides a large spread between condos, inland single-family homes, country-club communities, and waterfront." },
-      { q: "Does Jupiter have a state income tax?", a: "No — Florida has no state income tax, a major draw for retirees, remote workers, and those relocating from higher-tax states." },
-      { q: "Why is home insurance high in Jupiter?", a: "Coastal location drives homeowners and wind/flood insurance costs across South Florida, and rates have risen in recent years. Premiums vary substantially by roof age, wind mitigation features, construction year, and distance to the coast — so get quotes during your inspection period rather than after." },
-      { q: "Will my property taxes match what's listed on the home?", a: "Usually not. The tax figure shown on a listing typically reflects the current owner's bill, which may be protected by caps that don't transfer to a new buyer. Assessed value generally resets toward market value in the year after a sale, so budget against a reset assessment and verify with the Palm Beach County Property Appraiser." },
-      { q: "What is the Homestead Exemption and how does it help?", a: "If the home is your primary residence, filing for Homestead Exemption reduces your taxable value and triggers the Save Our Homes cap, which limits annual increases in assessed value. There's a filing deadline early in the year after purchase, and amounts and rules are set by the state and county — verify current figures with the county." },
-      { q: "Do I need flood insurance in Jupiter?", a: "It depends on the property's FEMA flood zone and your lender's requirements. Flood is never covered by a standard homeowners policy. Many owners outside high-risk zones carry it voluntarily, often at reasonable rates. Pull the flood zone for the specific address before making an offer." },
-      { q: "What are HOA and club fees like in Jupiter?", a: "They range from nothing to more than a car payment depending on the community. Some country-club communities require mandatory membership with a one-time initiation fee plus ongoing dues, and some newer developments carry a CDD assessment on the tax bill. Confirm all of it in writing before going under contract." },
-      { q: "Is Jupiter worth the higher cost of living?", a: "For most who move here, yes — they feel they're paying for the lifestyle, the water access, and a town that holds its value. The buyers who feel best about it are the ones who calculated taxes at reset, quoted insurance, and confirmed association fees before moving, rather than looking at the mortgage payment alone." },
+      { q: 'What costs should I include when budgeting for a home in Jupiter?', a: 'The purchase financing, a property-tax estimate from the Palm Beach County Property Appraiser calculator for your ownership scenario, written homeowners and flood quotes for the exact property, association, condominium, club and any CDD obligations, utilities, maintenance including any seawall, dock or lift, and the inspection findings. Build it for one address rather than from a citywide average.' },
+      { q: "Can a listing's current property-tax bill predict my future bill?", a: "Not reliably. The bill reflects the current owner's assessment and exemptions. The Palm Beach County Property Appraiser's tax calculator estimates a bill from the price you are contemplating and whether you intend to homestead; confirm the result and your eligibility with the Appraiser and a qualified tax professional." },
+      { q: 'How do Homestead Exemption and Save Our Homes work?', a: 'An owner who makes a property a permanent residence may be eligible for a homestead exemption that reduces its taxable value, with an application deadline of March 1. Once a homestead is established, Save Our Homes limits annual increases in assessed value under Florida law. Eligibility, amounts and timing are set by the state and county; the Florida Department of Revenue and the Property Appraiser are the sources.' },
+      { q: 'Is flood coverage included in a standard homeowners policy?', a: 'Generally not. Flood coverage is usually a separate policy. Whether it is required depends on the property and the lender, and whether it is appropriate is a question for a licensed insurance professional. The FEMA Map Service Center gives the flood zone for the parcel.' },
+      { q: 'What association and condo documents should I review before making an offer?', a: 'The current budget and fee schedule, what the dues include and exclude, reserve funding and any current or pending assessments, insurance responsibility and deductible allocation, the rules on rentals, pets, parking, exterior changes, docks, boats and generators, any club obligations the documents identify, and any CDD assessment on the parcel record.' },
+      { q: 'When should I request insurance quotes for a Jupiter property?', a: 'During the inspection period, for the exact property, with the roof, wind-mitigation and four-point documentation the insurer asks for. Written quotes in hand before the contingency expires let you decide on real numbers rather than estimates.' },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-jupiter-florida", "best-neighborhoods-in-jupiter-florida", "jupiter-vs-nearby-cities"],
-    funFact: "Jupiter's median home price has roughly doubled since 2019, but it still runs below comparable beach towns in Miami-Dade and Broward. The no-state-income-tax math is especially meaningful for buyers relocating from New York, New Jersey, or Connecticut — the savings can offset several years of higher housing costs.",
+    internalLinks: ['pros-and-cons-of-living-in-jupiter-florida', 'best-neighborhoods-in-jupiter-florida', 'jupiter-vs-nearby-cities', 'what-its-really-like-living-in-jupiter-florida'],
+    funFact: "The Palm Beach County Property Appraiser's tax calculator sits at the bottom of every property record. Enter the price you have in mind and whether you would homestead it, and you have a current estimate for that parcel before you write the offer.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-02',
   },
   {
     slug: 'hidden-gems-in-jupiter-florida',
