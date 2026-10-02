@@ -27603,7 +27603,11 @@ What this page does not promise: parking, lifeguard coverage, water or surf cond
 
 ::: gallery
 ![A wooden beach crossover boardwalk with metal handrails leading between sea grape hedges to a turquoise ocean under a clear sky in Jupiter](/images/jupiter/jupiter-beach-boardwalk-sea-grape.webp "A dune crossover to the beach near Marcinski Road. || Photo by John Oliver, 2022")
-![Two brown pelicans on a concrete dock and a third in flight over green water, with the Jupiter Inlet Lighthouse on its wooded point across the water](/images/jupiter/jupiter-inlet-dock-pelicans-lighthouse.webp "A dock across the water from the lighthouse. || Photo by John Oliver, 2022")
+![Two brown pelicans on a concrete dock and a third in flight over green water, with the Jupiter Inlet Lighthouse on its wooded point across the water](/images/jupiter/jupiter-inlet-dock-pelicans-lighthouse.webp "Pelicans on a dock across the water from the lighthouse. || Photo by John Oliver, 2022")
+![A sandy footpath between tall sea grape hedges opening onto blue water, with the Jupiter Inlet Lighthouse small on the far shore under a partly cloudy sky](/images/jupiter/jupiter-sea-grape-path-lighthouse.webp "A sea grape path to the water near the inlet. || Photo by John Oliver, 2021")
+![The Harbourside Place amphitheater stage under its teal canopy, with a lawn and blue Adirondack chairs in front](/images/jupiter/harbourside-amphitheater.webp "The amphitheater lawn at Harbourside Place. || Photo by John Oliver")
+![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk. || Photo by John Oliver")
+![The Jupiter Inlet Lighthouse on its wooded point at dusk under a bank of clouds, seen across the water past a line of dock pilings](/images/jupiter/jupiter-lighthouse-dock-dusk.webp "The lighthouse across the water at dusk. || Photo by John Oliver, 2022")
 :::
 
 ## Getting around and planning routes
@@ -27880,6 +27884,15 @@ Jupiter Farms is not inside the Town of Jupiter. It is unincorporated Palm Beach
 
 The County's [Jupiter Farms Neighborhood Plan](https://discover.pbc.gov/pzb/planning/Publications/Jupiter%20Farms%20Neighborhood%20Plan.pdf) describes a low-density rural-residential area whose future land use designation, Rural Residential 10, requires newly created lots to be at least 10 acres, and where single-family homes are approved with wells and septic systems rather than central utilities. What that means for a specific parcel is a matter of that parcel: its County zoning, which agricultural or equestrian uses are allowed, whether any association exists, the condition and permits of the well and septic system, any agricultural classification on the tax roll, and the flood zone and drainage for the lot. Do not generalize from one Farms property to the next.
 
+::: gallery
+![Two-story houses with docks and a moored boat on the water in Jupiter at sunset, with the Jupiter Inlet Lighthouse behind the rooftops](/images/jupiter/jupiter-lighthouse-waterfront-homes.webp "Houses along the water near the inlet, the lighthouse behind them. || Photo by John Oliver, 2021")
+![Two mid-rise condominium buildings in yellow and cream with terracotta roofs, seen across the water beyond a line of mangroves](/images/jupiter/riverwalk-condos-mangroves.webp "Condominiums across the water from the Riverwalk. || Photo by John Oliver")
+![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk. || Photo by John Oliver")
+![The Jupiter Riverwalk boardwalk over the Intracoastal Waterway, with condominium buildings along the shore](/images/jupiter/riverwalk-boardwalk-intracoastal.webp "The Riverwalk over the Intracoastal. || Photo by John Oliver")
+![A brick pedestrian walkway between coconut palms leading to a railing on the water, with the Jupiter Inlet Lighthouse across the inlet](/images/jupiter/jupiter-love-street-walkway-lighthouse.webp "A public walkway on the inlet, the lighthouse across the water. || Photo by John Oliver, 2022")
+![A sea grape dune with a few palms at dusk beside an empty stretch of sand on Jupiter's beach, a handful of people far down the shore](/images/jupiter/jupiter-beach-dune-dusk.webp "The dune at dusk, near Marcinski Road. || Photo by John Oliver, 2022")
+:::
+
 ## Before you compare homes: the checklist
 
 This is where the decision is actually made. Work it for every home that reaches your shortlist, and treat it as due diligence, not advice; the association, the municipality, your insurer, lender, inspector, attorney and tax professional are the ones who can answer for a specific property.
@@ -28084,6 +28097,15 @@ Schedules change every season, so this section links rather than lists:
 - **[Carlin Park After Dark](https://discover.pbc.gov/parks/amphitheaters/Pages/Carlin-Park-After-Dark.aspx)** is the County's free live-music series at the Seabreeze Amphitheater in Carlin Park. Dates are posted by the County each season.
 - **[Town of Jupiter special events](https://www.jupiter.fl.us/224/Special-Events)** and the Town [calendar](https://www.jupiter.fl.us/calendar.aspx) list community events and how to register.
 
+::: gallery
+![The red Jupiter Inlet Lighthouse above a wooded point, framed by two palm trunks and a string of cafe lights, with boats tied up at a dock below](/images/jupiter/jupiter-lighthouse-string-lights.webp "The lighthouse from a waterfront deck across the inlet. || Photo by John Oliver, 2022")
+![The Jupiter Inlet Lighthouse on its wooded point at dusk under a bank of clouds, seen across the water past a line of dock pilings](/images/jupiter/jupiter-lighthouse-dock-dusk.webp "The lighthouse across the water at dusk. || Photo by John Oliver, 2022")
+![A wooden beach crossover boardwalk with metal handrails leading between sea grape hedges to a turquoise ocean under a clear sky in Jupiter](/images/jupiter/jupiter-beach-boardwalk-sea-grape.webp "A dune crossover to the beach near Marcinski Road. || Photo by John Oliver, 2022")
+![A sandy footpath between tall sea grape hedges opening onto blue water, with the Jupiter Inlet Lighthouse small on the far shore under a partly cloudy sky](/images/jupiter/jupiter-sea-grape-path-lighthouse.webp "A sea grape path to the water near the inlet. || Photo by John Oliver, 2021")
+![The Jupiter Riverwalk boardwalk over the Intracoastal Waterway, with condominium buildings along the shore](/images/jupiter/riverwalk-boardwalk-intracoastal.webp "The Riverwalk over the Intracoastal. || Photo by John Oliver")
+![The Harbourside Place amphitheater stage under its teal canopy, with a lawn and blue Adirondack chairs in front](/images/jupiter/harbourside-amphitheater.webp "The amphitheater lawn at Harbourside Place. || Photo by John Oliver")
+:::
+
 ## Before you go
 
 One place for the links you will actually use on the day:
@@ -28146,124 +28168,161 @@ For more Jupiter, read [what living in Jupiter is really like](/blog/what-its-re
     slug: 'who-should-move-to-jupiter-florida',
     citySlug: 'jupiter',
     cityName: 'Jupiter',
-    type: "Who Should Move To",
+    type: "Is It a Good Fit",
     order: 5,
-    seoTitle: "Who Should Move to Jupiter, Florida — And Who Shouldn't (Honest Guide)",
-    metaTitle: "Who Should Move to Jupiter, FL (And Who Shouldn't)",
-    metaDescription: "Jupiter, Florida isn't for everyone. An honest look at who thrives here — and who'd be happier somewhere else — before you make the move.",
-    primaryKeyword: "who should move to Jupiter Florida",
-    secondaryKeywords: ["is Jupiter Florida right for me", "should I move to Jupiter FL", "who lives in Jupiter Florida"],
-    h1: "Who Should Move to Jupiter, Florida (And Who Shouldn't)",
-    heroImage: '/images/jupiter/jupiter-waterway-dusk.jpg',
-    body: `Most "move here!" articles only tell you the good stuff. This one is going to be straight with you, because the worst outcome isn't skipping Jupiter — it's moving here, buying a house, and realizing eighteen months in that it doesn't fit the life you actually want.
-
-Jupiter is a genuinely great fit for a specific kind of person, and a poor fit for others. Here's how to tell which one you are.
-
-## You'll love Jupiter if…
-
-### You're happiest near the water
-
-This is the big one, and it's not close. A beach, a boat, a paddleboard, a sunset over the Intracoastal — the entire town orbits the water, and its social life, its geography, and its weekend rhythms all assume you want to be near it. People who use the water here are consistently the happiest residents we work with.
-
-### You want warm winters and you're done with snow
-
-October through May is warm, dry, and sunny. If you're coming from a place with real winters, that first January tends to be the moment the whole move makes sense. Seasonal gloom simply stops being part of your year.
-
-### You work remotely
-
-Jupiter is a strong remote-work town — good connectivity, a lifestyle built around being outside, and the ability to trade a gray commute for a porch and a beach at lunch. A large share of the people relocating here now are doing exactly this.
-
-### You golf or boat — ideally both
-
-Few places pack in this much of both within a short drive. Public and semi-private golf is accessible without a club membership, and the inlet gives you real ocean access.
-
-### You're relocating from a high-tax state
-
-Florida has no state income tax, and for buyers arriving from a high-tax state it's frequently the line item that makes the whole move pencil out. What that's actually worth against Jupiter's housing premium is broken down in our [cost of living guide](/blog/cost-of-living-in-jupiter-florida).
-
-![Waterfront dock in Jupiter, Florida](/images/jupiter/jupiter-pelican-dock.jpg "If your ideal weekend involves water, Jupiter is built for you. If it involves a walkable city, it isn't.")
-
-### Healthcare access matters to you
-
-Jupiter Medical Center and several specialty campuses are minutes away. For buyers over 55 this often ranks higher in the final decision than anything about the beach.
-
-### You want a slower pace
-
-Neighbors wave. The barista learns your order. Nobody is in a hurry. If that reads as appealing rather than boring, that's a strong signal.
-
-## You might want to look elsewhere if…
-
-### You need city energy and real nightlife
-
-Jupiter rolls up early. The waterfront restaurant scene is excellent through dinner and sunset, but the area's genuine late-night scene is in West Palm Beach, twenty-five minutes south. If you'd be driving there most weekends, consider living closer to it.
-
-### You want a walkable, car-free life
-
-Outside Abacoa's town center and the Riverwalk, this is a driving town with minimal public transit. Groceries, dinner, school, the beach — all drives. This is the trade-off that most often wears on people who moved here from cities.
-
-### You're on a tight budget
-
-Jupiter is one of the pricier towns in Palm Beach County, and the carrying cost extends well past the mortgage — insurance, a property tax bill that won't match the seller's, and in many communities HOA dues or mandatory club membership. Neighboring towns and the Treasure Coast offer more room in the budget.
-
-### Heat and humidity genuinely bother you
-
-June through September is hot and humid. Locals shift outdoor life to mornings and evenings and largely stop noticing, but if heat makes you miserable, four months of it every year is a lot to sign up for.
-
-### You need a dense corporate job market
-
-Jupiter skews toward lifestyle, remote work, retirement, small business, and a research and biotech presence. If you need a downtown job market, you'll be commuting south or working remotely.
-
-![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "The honest test: does an ordinary Tuesday here sound like relief, or like boredom?")
-
-## A few specific situations
-
-**Retirees and near-retirees.** Strong fit. Warm winters, single-level homes and lock-and-leave condos, golf and boating, walkable waterfront districts, and hospital access. Pay close attention to insurance costs and condo reserve funding.
-
-**Families relocating.** School zoning is a common reason people choose Jupiter, and it's worth confirming rather than assuming — our [neighborhood guide](/blog/best-neighborhoods-in-jupiter-florida) covers how to check it properly.
-
-**Remote workers in their 30s and 40s.** Probably the fastest-growing group moving here, and Abacoa in particular tends to suit people who want some walkability and social density alongside the water.
-
-**Second-home and seasonal buyers.** Very common here, but understand that non-homestead property carries a different tax profile than a primary residence, without the same caps. Talk to a CPA before you structure the purchase.
-
-## What people miss most from where they came from
-
-Worth knowing before you go, because these come up repeatedly with clients a year in:
-
-- **Walkability.** Far and away the most common. People coming from cities or older Northeast towns miss being able to walk somewhere without planning it.
-- **Real seasons.** A surprising number of transplants miss fall specifically — not winter, just the two good weeks of it.
-- **Density of options.** More restaurants, more culture, more everything within a short radius. Jupiter has quality; it doesn't have volume.
-- **Old friendships.** The move is easier socially than most people expect, since so many residents came from somewhere else, but it's still a rebuild.
-
-None of these are dealbreakers for most people. They're just the things nobody warns you about, and knowing them in advance takes the sting out.
-
-## How long the adjustment takes
-
-Most people we work with describe roughly the same arc. The first few months are pure novelty. Somewhere around month six the practical stuff — insurance renewals, the first big electric bill, learning the traffic — makes it feel like an actual place rather than a vacation. By the end of the first full year, including a summer, you know.
-
-The single best predictor of whether someone stays happy: whether they actually got out on the water in the first few months. The people who bought the kayak, joined the fishing charter, or made friends with a boat owner tend to build a life around the thing that makes this town distinctive. The people who intended to and never did are the ones who start wondering what they're paying for.
-
-## A simple gut-check
-
-Forget the brochure version. Picture an ordinary Tuesday a year from now.
-
-Morning walk on the beach with the dog, work from a shady porch, dinner on the water, sunset that you actually stop for? You're a Jupiter person, and you'll probably be happy here for a long time.
-
-Buzzing downtown, walking to a train, dinner at ten, something happening at midnight? You'll be happier somewhere with more urban energy, and there's no shame in that — it's a preference, not a verdict.
-
-There's no wrong answer here. There's only the right fit, and the cost of getting it wrong is high enough to be honest with yourself before you buy. If you're genuinely torn, rent for a season first, and make sure one of the months you're here is August.`,
-    faqs: [
-      { q: "Who should move to Jupiter, Florida?", a: "People who are drawn to the water, want warm winters, work remotely or are retired, golf or boat, and prefer a slower pace. It's also a common choice for buyers relocating from high-tax states, since Florida has no state income tax." },
-      { q: "Who should not move to Jupiter, Florida?", a: "People who want a walkable, car-free life, need real nightlife and city energy, are on a tight budget, can't tolerate hot humid summers, or need a dense downtown job market. Those aren't flaws in the town — they're just things Jupiter doesn't offer." },
-      { q: "Is Jupiter, Florida good for retirees?", a: "It's a common choice. Warm winters, single-level homes and lock-and-leave condo options, golf and boating, walkable waterfront districts, and Jupiter Medical Center nearby are the features most often cited. Insurance costs and condo reserve funding deserve close attention." },
-      { q: "Is Jupiter, Florida good for remote workers?", a: "Yes — it's one of the fastest-growing groups moving here. Good connectivity, an outdoor-oriented lifestyle, and no state income tax make it attractive, and Abacoa in particular suits people who want some walkability alongside the water." },
-      { q: "Should I rent before buying in Jupiter?", a: "If you're torn, it's worth it — and make sure one of the months you're here is August. The town feels genuinely different in February and August, and experiencing both is the fastest way to know whether it fits." },
-      { q: "Is Jupiter a good place for families?", a: "Jupiter-area school zoning is a common reason people choose the town, along with parks, beaches, and youth sports. Boundaries and school grades are reviewed and updated annually, so verify current assignments directly with the School District of Palm Beach County." },
+    seoTitle: 'Thinking About Moving to Jupiter, Florida? A Practical Fit Guide',
+    metaTitle: 'Thinking About Moving to Jupiter, Florida? A Practical Fit Guide',
+    metaDescription:
+      'Use this practical guide to evaluate day-to-day life in Jupiter, Florida: location, transportation, waterfront access, ownership responsibilities, services, and property-specific due diligence.',
+    primaryKeyword: 'moving to Jupiter Florida',
+    secondaryKeywords: [
+      'is Jupiter Florida right for me',
+      'should I move to Jupiter FL',
+      'living in Jupiter Florida day to day',
+      'buying a home in Jupiter Florida',
+      'Jupiter Florida fit guide',
     ],
-    internalLinks: ["pros-and-cons-of-living-in-jupiter-florida", "cost-of-living-in-jupiter-florida", "what-its-really-like-living-in-jupiter-florida"],
-    funFact: "Several of Jupiter's A-rated elementary schools sit in neighborhoods that are also competitively priced compared to the barrier-island towns just south. That combination is rare on the Palm Beach coast. School grades and boundaries change annually — verify with the district.",
+    h1: 'Is Jupiter, Florida a Practical Fit for Your Day-to-Day Priorities?',
+    heroImage: '/images/jupiter/jupiter-lighthouse-waterfront-homes-hero.webp',
+    heroImageAlt: 'Two-story houses with docks and a moored boat on the water in Jupiter at sunset, coconut palms on either side and the red Jupiter Inlet Lighthouse rising behind the rooftops under pink clouds',
+    heroImageCaption: 'Houses along the water near the Jupiter Inlet, the lighthouse behind them, at sunset.',
+    heroImageCredit: 'Photo by John Oliver, 2021',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Jupiter · Fit Guide',
+      deck: 'Jupiter is not one experience. This is how to test whether one exact address works for the routes, water access, rules and costs that matter to you.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/jupiter/jupiter-lighthouse-waterfront-homes-panel.webp', width: 1200, height: 1500 },
+      mobileImage: { src: '/images/jupiter/jupiter-lighthouse-waterfront-homes-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'Houses on the water near the Jupiter Inlet, with the lighthouse behind them.',
+      primaryCta: { label: 'Explore Jupiter', href: '/communities/jupiter' },
+      secondaryCta: { label: 'What living in Jupiter is really like', href: '/blog/what-its-really-like-living-in-jupiter-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Weighing a specific Jupiter address? Send it to us. We will walk the checklist above against that property with you, and the community guide covers the area itself.',
+        cta: { label: 'Explore Jupiter homes', href: '/communities/jupiter' },
+      },
+    },
+    body: `"Jupiter" covers more ground than the Town of Jupiter, and the day-to-day experience of living here changes with the exact address: which government runs it, who supplies the water, how far the public beach or the river is, which bridges sit on your routes, and what the deed and the association ask of you. No article can answer whether Jupiter works for you. A specific property, tested against your own priorities, can.
+
+This guide is that test. It covers the address itself, a priorities table, a route-testing exercise, the differences between kinds of water access, the ownership homework that matters here, and a neutral way to compare Jupiter with another location. For the texture of life here, read [what living in Jupiter is really like](/blog/what-its-really-like-living-in-jupiter-florida). For the areas themselves, use the [neighborhood guide](/blog/best-neighborhoods-in-jupiter-florida).
+
+## Start with the address, not the mailing label
+
+A Jupiter mailing address can sit inside the Town of Jupiter, the Village of Tequesta, the Town of Jupiter Inlet Colony, or unincorporated Palm Beach County, which includes Jupiter Farms. Each is a different government with its own code, permitting, police coverage, taxes and beach rules, and a listing's "Jupiter" tells you none of that.
+
+Verify it at the parcel level before you compare anything else:
+
+- **Municipality.** The Palm Beach County Property Appraiser's record for the parcel names the municipality and the taxing authorities. The Town's [FAQ](https://www.jupiter.fl.us/1855/FAQ) and its [zoning map](https://www.jupiter.fl.us/DocumentCenter/View/17996/2025-Zoning-Map) show what the Town itself covers and how it zones the land inside its limits.
+- **Water and sewer.** The Town's [Water and Stormwater Utilities](https://www.jupiter.fl.us/259/Water-Stormwater-Utilities) department serves customers inside and beyond the Town limits, wastewater in much of the area is handled by the Loxahatchee River District, and some addresses, particularly in Jupiter Farms, rely on a well, a septic system, or both. The seller's bills and the providers themselves settle which applies.
+- **Permitting and rules.** Fences, docks, generators, exterior changes, rentals and tree removal are governed by whichever jurisdiction the parcel is in, and then by any association on top of it.
+- **Services.** Trash, recycling, code enforcement and police response come from the jurisdiction, not the mailing label.
+
+The [neighborhood guide](/blog/best-neighborhoods-in-jupiter-florida) sorts the areas by jurisdiction and lists the questions to ask in each.
+
+## A practical-priorities table
+
+Use it as a worksheet. The middle column is what to look at in Jupiter; the right column is why one address can answer it differently from the next.
+
+| Priority to evaluate | What to verify in Jupiter | Why the exact address changes the answer |
+|---|---|---|
+| Beach, river, inlet and park access | The crossover, park or launch you would use, its parking and its rules | They sit in different parts of the area, some across a bridge, some under another town's rules |
+| Daily routes by car, and transit | Your work, school, medical, grocery and airport routes at your hours; current Palm Tran service | Bridges, the river and the main roads shape each route differently by which side the home is on |
+| Walking and biking | Sidewalks, bike lanes or a path from that street to the places you would go | Some streets reach a walkable center or the Riverwalk; others have no sidewalk or sit across a highway |
+| Home type, association or club | Condominium, townhouse, association, club community or unrestricted lot, and the documents that come with it | Two homes a street apart can carry different dues, reserves, rules and, in some communities, a mandatory club |
+| Internet and services | Service at that address, confirmed with the providers | Availability is address-level; a neighbor's service is not proof of yours |
+| Medical, grocery, airport and errands | Jupiter Medical Center is in the Town; Palm Beach International Airport is in West Palm Beach; test the routes you would use | Traffic, bridges and the season change a route week to week, so nobody's minute count is something to buy on |
+| Storm, flood, insurance and evacuation | The parcel's FEMA flood zone, the County's evacuation zone, and written wind and flood quotes | Zone, elevation and the insurer's view of that one roof and those openings are parcel-specific |
+
+Where to check each row:
+
+- **Beach and dog rules:** the [beach access guide](/blog/jupiter-beach-access-guide) lists the numbered crossovers; the Town's [Dogs on the Beach](https://www.jupiter.fl.us/437/Dogs-on-the-Beach) page sets the dog corridor.
+- **Transit:** [Palm Tran](https://www.palmtran.org/maps-schedules/bus-routes/) publishes current routes and schedules; Route 10 runs between Jupiter and Palm Beach Gardens.
+- **Internet:** the FCC's [National Broadband Map](https://broadbandmap.fcc.gov) shows what providers report at an address; the providers confirm it.
+- **Flood, evacuation and insurance:** the Town's [flood, evacuation and insurance page](https://www.jupiter.fl.us/377/Flood-Zones-Evacuation-Insurance-Informa) and [storm hub](https://www.jupiter.fl.us/235/Emergency-Preparedness-Storm-Recovery-Hu), and the [FEMA Map Service Center](https://msc.fema.gov/portal/home) for the parcel.
+
+## A realistic weekday in Jupiter
+
+Skip the anecdotes about how a day here feels; nobody's weekday is the same as yours. Run yours instead, from the address you are considering, before you write an offer.
+
+- **Drive the actual routes, at the actual times.** Work or the place you work from, school if that applies, the marina or launch, the grocery store, the doctor, the airport. Do the morning and the evening version.
+- **Check the bridges on those routes.** The Town publishes the [North County drawbridge schedule](https://www.jupiter.fl.us/1869/North-County-Draw-Bridge-Schedule). If a route crosses a drawbridge, drive it when the bridge is likely to open.
+- **Visit the places you would use, when you would use them.** The beach crossover nearest the home on a weekend morning, the [Riverwalk](https://www.jupiter.fl.us/227/Riverwalk) after work, the park you would walk the dog in, and the streets around the property on a weeknight and a weekend.
+- **Try the walk or the ride.** If you expect to walk or bike to anything, do it once from the front door.
+- **Do it in two seasons if you can.** Winter traffic and summer heat change what the same routes and the same beach feel like.
+
+The point of the exercise is not to confirm a lifestyle. It is to find out whether this address supports the routines you already keep.
+
+## Jupiter, in everyday scenes
+
+::: gallery
+![A wooden beach crossover boardwalk with metal handrails leading between sea grape hedges to a turquoise ocean under a clear sky in Jupiter](/images/jupiter/jupiter-beach-boardwalk-sea-grape.webp "A dune crossover to the beach near Marcinski Road. || Photo by John Oliver, 2022")
+![Sea grape branches over a sandy shoreline and blue water, with houses and the Jupiter Inlet Lighthouse on the far shore](/images/jupiter/jupiter-inlet-shoreline-lighthouse.webp "A shoreline across the water from the lighthouse. || Photo by John Oliver, 2022")
+![The Jupiter Riverwalk boardwalk curving out over the Intracoastal Waterway on concrete piers, with mangroves and a mid-rise building behind](/images/jupiter/riverwalk-boardwalk-piers.webp "The Riverwalk boardwalk over the Intracoastal. || Photo by John Oliver")
+![Two brown pelicans on a concrete dock and a third in flight over green water, with the Jupiter Inlet Lighthouse on its wooded point across the water](/images/jupiter/jupiter-inlet-dock-pelicans-lighthouse.webp "Pelicans on a dock across the water from the lighthouse. || Photo by John Oliver, 2022")
+![A sandy footpath between tall sea grape hedges opening onto blue water, with the Jupiter Inlet Lighthouse small on the far shore under a partly cloudy sky](/images/jupiter/jupiter-sea-grape-path-lighthouse.webp "A sea grape path to the water near the inlet. || Photo by John Oliver, 2021")
+![The Jupiter Inlet Lighthouse on its wooded point at dusk under a bank of clouds, seen across the water past a line of dock pilings](/images/jupiter/jupiter-lighthouse-dock-dusk.webp "The lighthouse across the water at dusk. || Photo by John Oliver, 2022")
+:::
+
+## Water access is real, and it is not interchangeable
+
+Jupiter has the ocean, the inlet, the Intracoastal Waterway, the Loxahatchee River, canals, marinas and public parks on the water. "Near the water" in a listing can mean any of them, and they are not substitutes for one another.
+
+- **Near the beach** means a public crossover you can reach, with whatever parking it has. It does not mean a private path or a guaranteed spot on a busy day.
+- **Inlet or Intracoastal** property sits on tidal water with boat traffic, bridges and wake rules. A view across it is not the same as a dock on it.
+- **River** property on the Loxahatchee can be on wide open water or a narrow, shallow, winding stretch with its own rules. Which stretch matters more than the word "river."
+- **Canal** property may or may not offer navigable access to open water, and depth, fixed-bridge clearance and seawall condition decide what a boat can do from it.
+- **A marina slip** is a separate asset with its own lease, dues, waiting list or ownership terms, and it may not come with the home.
+- **A public park on the water** gives you the launch, the dock or the shoreline without owning any of it, and that is enough for many people.
+
+What none of this page promises: a water view, dock rights, navigability, clearance, boat storage, parking, or conditions on a given day. Each is a property-specific question answered by a survey, permits, the association, the marina and your own visit.
+
+## The ownership homework that matters
+
+Prompts for inspections and official checks. This is not legal, tax, insurance, construction or financial advice; licensed professionals and the official sources below are.
+
+- [ ] **Municipality and utility provider:** confirm the jurisdiction on the Property Appraiser's record, then confirm water, sewer or septic, and stormwater with the providers.
+- [ ] **FEMA flood zone and evacuation planning:** look the parcel up at the [FEMA Map Service Center](https://msc.fema.gov/portal/home), ask for any elevation certificate, and read the Town's [flood and evacuation page](https://www.jupiter.fl.us/377/Flood-Zones-Evacuation-Insurance-Informa) for how zones and evacuation orders work here.
+- [ ] **Written wind and flood insurance quotes:** obtained during the inspection period, with the inspections the insurers ask for. Flood coverage is a separate policy from homeowners insurance.
+- [ ] **Roof, openings, and any seawall, dock or lift:** age, condition and permit history from licensed inspectors, matched against the work the seller describes.
+- [ ] **Association documents:** budget, reserves, assessments, rules on rentals, pets, parking, docks and exterior changes, and recent minutes. For a condominium building of three or more habitable stories, ask for the milestone inspection and the structural integrity reserve study.
+- [ ] **Club obligations:** only where a specific property or community carries them. Confirm whether membership is mandatory, what it costs to join and keep, and what happens on resale.
+- [ ] **Property tax and homestead questions:** the Palm Beach County Property Appraiser explains the [homestead exemption](https://pbcpao.gov/homestead-exemption.htm) and how assessments work; a licensed professional applies it to your situation. The seller's current bill is not a forecast of yours.
+
+## How to compare Jupiter with another location
+
+Comparisons go wrong when they compare reputations. Compare the same list of specifics instead, for an actual address in each place:
+
+- **City-center density and public transit.** How close the home is to a center, and what transit actually serves it today.
+- **Access to outdoor and waterfront amenities.** Which beach, park, trail or launch you would use, and how you would get there.
+- **Address-level ownership obligations.** Jurisdiction, association, club, insurance and flood exposure for that parcel.
+- **Your routes and your services.** Work, medical, school if it applies, family, airport, driven at your hours.
+- **Seasonal weather and storm preparation.** Hurricane season runs June 1 through November 30, and your comfort with the planning that comes with it belongs in the comparison.
+
+Our [Jupiter vs nearby cities](/blog/jupiter-vs-nearby-cities) guide walks the neighboring towns through the same lens, and the [cost of living guide](/blog/cost-of-living-in-jupiter-florida) covers the carrying costs to compare.
+
+## Bottom line
+
+Jupiter is not one experience. It is a collection of jurisdictions, kinds of water, housing types and daily routes that happen to share a name. The useful question is never about the kind of person you are. It is whether one exact address works for your priorities, and whether you have done the diligence that address requires before you commit to it.`,
+    faqs: [
+      { q: 'What should I evaluate before moving to Jupiter, Florida?', a: 'Start with the exact address: which jurisdiction it is in, who provides water and sewer, its FEMA flood zone and evacuation zone, and what the deed, association or club requires. Then test your own daily routes from that address, and confirm which public beach, river or park access you would actually use.' },
+      { q: 'Is a car practical for daily life in Jupiter?', a: 'A car is practical for many trips in Jupiter. Palm Tran Route 10 serves Jupiter and Palm Beach Gardens, and routes and schedules change, so verify current service with Palm Tran. Whether a given address supports walking or biking depends on its streets and what is within reach of them.' },
+      { q: 'How do I confirm whether an address is inside the Town of Jupiter?', a: 'Look the parcel up on the Palm Beach County Property Appraiser website; the record names the municipality. The Town of Jupiter also publishes a zoning map and an FAQ page describing its boundaries. A Jupiter mailing address can fall in the Town, Tequesta, Jupiter Inlet Colony or unincorporated Palm Beach County.' },
+      { q: 'What should I verify before buying near the beach, river, inlet, or Intracoastal?', a: 'The kind of water and what it actually permits: public access and parking for a beach property, dock permits, depth and bridge clearances for boating, seawall condition, the flood zone and elevation, and written wind and flood insurance quotes. A view, a dock, navigability and conditions are each separate questions.' },
+      { q: 'How do hurricane season and flood zones affect home shopping in Jupiter?', a: 'Hurricane season runs June 1 through November 30. Every parcel has a FEMA flood zone and a county evacuation zone, and both affect insurance, lender requirements and your storm plan. Look the parcel up at the FEMA Map Service Center, read the Town of Jupiter flood and evacuation page, and get insurance quotes before the inspection period ends.' },
+      { q: "Should I compare a property's daily routes before making an offer?", a: 'Yes. Drive the routes you would keep, at the hours you would keep them, including any drawbridge on the way, and visit the beach, park or Riverwalk you would use when you would use it. Routes are the part of a move that no listing describes.' },
+    ],
+    internalLinks: ['what-its-really-like-living-in-jupiter-florida', 'best-neighborhoods-in-jupiter-florida', 'jupiter-vs-nearby-cities', 'cost-of-living-in-jupiter-florida'],
+    funFact: 'The Town of Jupiter publishes the North County drawbridge schedule. If a route you would drive every day crosses one of those bridges, drive it at the posted opening times before you decide the address works, not after.',
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-02',
   },
   {
     slug: 'pros-and-cons-of-living-in-jupiter-florida',
@@ -28352,6 +28411,15 @@ An underrated one. From January through March, contractors, landscapers, pool se
 ### Homeowners insurance can dictate which houses you can even buy
 
 Worth separating from general cost, because it changes your search rather than just your budget. If a home has an older roof, some carriers will decline to write it at all, which means financing becomes difficult and your buyer pool at resale shrinks. Plenty of otherwise appealing houses get eliminated on this basis. Get a quote during your inspection period, not after.
+
+::: gallery
+![The Jupiter Inlet Lighthouse on its wooded point at dusk under a bank of clouds, seen across the water past a line of dock pilings](/images/jupiter/jupiter-lighthouse-dock-dusk.webp "The lighthouse across the water at dusk. || Photo by John Oliver, 2022")
+![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds over the beach near Marcinski Road. || Photo by John Oliver, 2022")
+![A brick pedestrian walkway between coconut palms leading to a railing on the water, with the Jupiter Inlet Lighthouse across the inlet](/images/jupiter/jupiter-love-street-walkway-lighthouse.webp "A public walkway on the inlet, the lighthouse across the water. || Photo by John Oliver, 2022")
+![Two mid-rise condominium buildings in yellow and cream with terracotta roofs, seen across the water beyond a line of mangroves](/images/jupiter/riverwalk-condos-mangroves.webp "Condominiums across the water from the Riverwalk. || Photo by John Oliver")
+![The red Jupiter Inlet Lighthouse above a wooded point, framed by two palm trunks and a string of cafe lights, with boats tied up at a dock below](/images/jupiter/jupiter-lighthouse-string-lights.webp "The lighthouse from a waterfront deck across the inlet. || Photo by John Oliver, 2022")
+![The Jupiter Riverwalk boardwalk over the Intracoastal Waterway, with condominium buildings along the shore](/images/jupiter/riverwalk-boardwalk-intracoastal.webp "The Riverwalk over the Intracoastal. || Photo by John Oliver")
+:::
 
 ## Things that surprise new residents
 
@@ -28506,6 +28574,15 @@ A few line items specific to living here that rarely make it into a cost-of-livi
 - **AC replacement.** Units work hard in this climate and don't last as long as they would up north. If the system is aging, price the replacement into your offer.
 - **Seasonal price drift.** Contractors, restaurants, and services are busier and pricier from January through March.
 
+::: gallery
+![Two-story houses with docks and a moored boat on the water in Jupiter at sunset, with the Jupiter Inlet Lighthouse behind the rooftops](/images/jupiter/jupiter-lighthouse-waterfront-homes.webp "Houses along the water near the inlet, the lighthouse behind them. || Photo by John Oliver, 2021")
+![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk. || Photo by John Oliver")
+![Two mid-rise condominium buildings in yellow and cream with terracotta roofs, seen across the water beyond a line of mangroves](/images/jupiter/riverwalk-condos-mangroves.webp "Condominiums across the water from the Riverwalk. || Photo by John Oliver")
+![A sea grape dune with a few palms at dusk beside an empty stretch of sand on Jupiter's beach, a handful of people far down the shore](/images/jupiter/jupiter-beach-dune-dusk.webp "The dune at dusk, near Marcinski Road. || Photo by John Oliver, 2022")
+![The Jupiter Riverwalk boardwalk over the Intracoastal Waterway, with condominium buildings along the shore](/images/jupiter/riverwalk-boardwalk-intracoastal.webp "The Riverwalk over the Intracoastal. || Photo by John Oliver")
+![Sea grape branches over a sandy shoreline and blue water, with houses and the Jupiter Inlet Lighthouse on the far shore](/images/jupiter/jupiter-inlet-shoreline-lighthouse.webp "A shoreline across the water from the lighthouse. || Photo by John Oliver, 2022")
+:::
+
 ## Running your own number
 
 Before you decide whether Jupiter works, build the full monthly figure for a **specific address**, not a general one:
@@ -28628,6 +28705,15 @@ Not a secret exactly, but a different experience depending on when you go. At su
 
 If you're new here and trying to understand why people love this town, an early morning on the jetty does more work than any article can.
 
+::: gallery
+![A sandy footpath between tall sea grape hedges opening onto blue water, with the Jupiter Inlet Lighthouse small on the far shore under a partly cloudy sky](/images/jupiter/jupiter-sea-grape-path-lighthouse.webp "A sea grape path to the water near the inlet. || Photo by John Oliver, 2021")
+![A brick pedestrian walkway between coconut palms leading to a railing on the water, with the Jupiter Inlet Lighthouse across the inlet](/images/jupiter/jupiter-love-street-walkway-lighthouse.webp "A public walkway on the inlet, the lighthouse across the water. || Photo by John Oliver, 2022")
+![Sea grape branches over a sandy shoreline and blue water, with houses and the Jupiter Inlet Lighthouse on the far shore](/images/jupiter/jupiter-inlet-shoreline-lighthouse.webp "A shoreline across the water from the lighthouse. || Photo by John Oliver, 2022")
+![The Jupiter Inlet Lighthouse on its wooded point at dusk under a bank of clouds, seen across the water past a line of dock pilings](/images/jupiter/jupiter-lighthouse-dock-dusk.webp "The lighthouse across the water at dusk. || Photo by John Oliver, 2022")
+![A sea grape dune with a few palms at dusk beside an empty stretch of sand on Jupiter's beach, a handful of people far down the shore](/images/jupiter/jupiter-beach-dune-dusk.webp "The dune at dusk, near Marcinski Road. || Photo by John Oliver, 2022")
+![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds over the beach near Marcinski Road. || Photo by John Oliver, 2022")
+:::
+
 ## Why these matter more than the headliners
 
 The lighthouse is worth climbing. The dog beach is worth the ritual. But the places on this list are the ones that turn a new arrival into a resident — they're free or cheap, they're off the tourist circuit, and they're the honest answer when a friend asks what it's actually like to live here.
@@ -28725,6 +28811,15 @@ Head north into Martin County and the pace slows further. **Hobe Sound** is quie
 
 **Choose Jupiter if:** you want to stay closer to the action and to Palm Beach County services.
 
+::: gallery
+![The Jupiter Inlet seen from the top of the lighthouse: houses and docks on the north bank, green grounds in the foreground, the Atlantic beyond and condominium towers south of the inlet](/images/jupiter/jupiter-inlet-aerial-inline.webp "The inlet from the lighthouse gallery, looking east. || Photo by John Oliver, 2022")
+![The Jupiter Riverwalk boardwalk over the Intracoastal Waterway, with condominium buildings along the shore](/images/jupiter/riverwalk-boardwalk-intracoastal.webp "The Riverwalk over the Intracoastal. || Photo by John Oliver")
+![A wooden beach crossover boardwalk with metal handrails leading between sea grape hedges to a turquoise ocean under a clear sky in Jupiter](/images/jupiter/jupiter-beach-boardwalk-sea-grape.webp "A dune crossover to the beach near Marcinski Road. || Photo by John Oliver, 2022")
+![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk. || Photo by John Oliver")
+![The red Jupiter Inlet Lighthouse above a wooded point, framed by two palm trunks and a string of cafe lights, with boats tied up at a dock below](/images/jupiter/jupiter-lighthouse-string-lights.webp "The lighthouse from a waterfront deck across the inlet. || Photo by John Oliver, 2022")
+![Two-story houses with docks and a moored boat on the water in Jupiter at sunset, with the Jupiter Inlet Lighthouse behind the rooftops](/images/jupiter/jupiter-lighthouse-waterfront-homes.webp "Houses along the water near the inlet, the lighthouse behind them. || Photo by John Oliver, 2021")
+:::
+
 ## How to actually decide
 
 Rank these five in order of what matters to you, then let the ranking pick the town:
@@ -28817,6 +28912,15 @@ This is where residents actually eat on a Tuesday.
 
 ![Palm trees along the Jupiter inlet](/images/jupiter/jupiter-inlet-palms.jpg "Almost none of Jupiter's social life happens indoors — which is the whole point, and also why season changes everything.")
 
+::: gallery
+![The Woods Jupiter restaurant front at Harbourside Place, with its sign over the entrance](/images/jupiter/harbourside-woods.webp "The Woods Jupiter, Harbourside Place. || Photo by John Oliver")
+![Pura Vida at Harbourside Place, with a striped awning and patio tables, and The Jupiter Grill behind it](/images/jupiter/harbourside-pura-vida.webp "Pura Vida and The Jupiter Grill, Harbourside Place. || Photo by John Oliver")
+![Calaveras Cantina at Harbourside Place, a corner restaurant with a black awning](/images/jupiter/harbourside-calaveras.webp "Calaveras Cantina, Harbourside Place. || Photo by John Oliver")
+![The red Jupiter Inlet Lighthouse above a wooded point, framed by two palm trunks and a string of cafe lights, with boats tied up at a dock below](/images/jupiter/jupiter-lighthouse-string-lights.webp "The lighthouse from a waterfront deck across the inlet. || Photo by John Oliver, 2022")
+![The Harbourside Place amphitheater stage under its teal canopy, with a lawn and blue Adirondack chairs in front](/images/jupiter/harbourside-amphitheater.webp "The amphitheater lawn at Harbourside Place. || Photo by John Oliver")
+![A brick promenade with white railings along a marina basin on the Jupiter Riverwalk, with a yacht in the foreground and condominium buildings behind](/images/jupiter/riverwalk-marina-promenade.webp "A marina basin along the Riverwalk. || Photo by John Oliver")
+:::
+
 ## How the seasons change all of this
 
 This matters more than any individual recommendation.
@@ -28892,9 +28996,14 @@ Harbourside Place is a waterfront mixed-use district of more than 750,000 square
 
 It was developed by Nicholas Mastroianni II, and the roughly $150 million project was financed in part by about $99.5 million from 199 foreign investors through the federal EB-5 visa program. His company, Summit Ventures, still owns and runs most of it.
 
-![A hand-painted mural map of Jupiter showing the Loxahatchee River, the lighthouse, the inlet, the beaches and Harbourside Place](/images/jupiter/IMG_6961.webp "A hand-painted map of Jupiter, with Harbourside Place marked beside Indiantown Road and US-1. || Photo by John Oliver"){2400x1800}
-
 People spell it both ways. The official name is **Harbourside**, with the British "u", though you will see "Harborside" on signs, menus and maps all over town.
+
+::: gallery
+![A hand-painted mural map of Jupiter showing the Loxahatchee River, the lighthouse, the inlet, the beaches and Harbourside Place](/images/jupiter/IMG_6961.webp "A hand-painted map of Jupiter, with Harbourside Place marked beside Indiantown Road and US-1. || Photo by John Oliver")
+![Pura Vida at Harbourside Place, with a striped awning and patio tables, and The Jupiter Grill behind it across the brick plaza](/images/jupiter/IMG_6958.webp "Pura Vida in front, The Jupiter Grill behind, and patio seating along the brick plaza. || Photo by John Oliver")
+![Calaveras Cantina at Harbourside Place, a corner restaurant with a black awning advertising margaritas, tacos and craft cocktails](/images/jupiter/IMG_6960.webp "Calaveras Cantina, on a corner of the district. || Photo by John Oliver")
+![The Harbourside Place amphitheater stage under its teal canopy, with a lawn and blue Adirondack chairs in front and palms behind](/images/jupiter/IMG_6959.webp "The amphitheater at the north end, with the lawn and chairs out front. || Photo by John Oliver")
+:::
 
 ## Where to eat
 
@@ -28909,10 +29018,6 @@ Dining is the main reason people go. The official directory, as of September 202
 - **Pura Vida**, for a lighter lunch
 - **Subculture Coffee** and **Gelato & Co.** for the walk afterward
 
-![Pura Vida at Harbourside Place, with a striped awning and patio tables, and The Jupiter Grill behind it across the brick plaza](/images/jupiter/IMG_6958.webp "Pura Vida in front, The Jupiter Grill behind, and patio seating along the brick plaza. || Photo by John Oliver"){2400x1800}
-
-![Calaveras Cantina at Harbourside Place, a corner restaurant with a black awning advertising margaritas, tacos and craft cocktails](/images/jupiter/IMG_6960.webp "Calaveras Cantina, on a corner of the district. || Photo by John Oliver"){2400x1800}
-
 A short walk south along the Riverwalk, under the Indiantown Road bridge, two more sit on the water at the Jupiter Yacht Club marina: **Café des Artistes**, a French bakery and bistro, and **Dive Bar Restaurant**.
 
 Restaurants turn over, and several names that used to be here are gone. Check the directory or call before you make a special trip. For the rest of the town's dining, from the inlet to Abacoa, see our [guide to eating, drinking and hanging out in Jupiter](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida).
@@ -28920,8 +29025,6 @@ Restaurants turn over, and several names that used to be here are gone. Check th
 ## Events: the amphitheater, the markets and the holidays
 
 The **amphitheater** at the north end hosts live music, yoga and seasonal events. The schedule changes through the year, so the center's own events page is the place to check.
-
-![The Harbourside Place amphitheater stage under its teal canopy, with a lawn and blue Adirondack chairs in front and palms behind](/images/jupiter/IMG_6959.webp "The amphitheater at the north end, with the lawn and chairs out front. || Photo by John Oliver"){2400x1800}
 
 Sunday mornings cause the most confusion, because there are two markets:
 
@@ -29074,6 +29177,13 @@ The **Plaza Down Under** is the Town's event space. The main recurring and upcom
 
 The Town posts its schedule on its [Events on the Riverwalk](https://www.jupiter.fl.us/230/Events-on-the-Riverwalk) page.
 
+::: gallery
+![A marina basin on the Jupiter Riverwalk with boats in their slips and a Mediterranean-style mid-rise building on the right](/images/jupiter/riverwalk-marina-midrise.webp "Slips along the Riverwalk. || Photo by John Oliver")
+![A private motor yacht in a slip along the Jupiter Riverwalk, with a condominium building behind](/images/jupiter/riverwalk-marina-yacht-slip.webp "A yacht in its slip along the Riverwalk. || Photo by John Oliver")
+![Sportfishing boats in a marina along the Jupiter Riverwalk, with a Mediterranean-style mid-rise behind](/images/jupiter/riverwalk-marina-sportfish.webp "Sportfishing boats in a marina along the Riverwalk. || Photo by John Oliver")
+![The bow of a yacht at a dock beside a brick walkway on the Jupiter Riverwalk](/images/jupiter/riverwalk-marina-yacht-bow.webp "A dock and brick walkway along the Riverwalk. || Photo by John Oliver")
+:::
+
 ## Where to eat along it
 
 The restaurants on the path itself are the **Harbourside Place** lineup (The Woods Jupiter, Ruth's Chris, Tommy Bahama and more), plus **Café des Artistes** and **Dive Bar Restaurant** at the Jupiter Yacht Club marina. Café des Artistes is a French bakery and bistro, so it is the breakfast stop for a morning walk.
@@ -29206,7 +29316,9 @@ Street parking on A1A fills on the same days the lots do. The Town's FAQ is the 
 
 ::: gallery
 ![A sea grape dune with a few palms at dusk beside an empty stretch of sand on Jupiter's beach, a handful of people far down the shore](/images/jupiter/jupiter-beach-dune-dusk.webp "The dune at dusk, near Marcinski Road. || Photo by John Oliver, 2022")
-![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds over the beach inside the dog corridor. || Photo by John Oliver, 2022")
+![Towering cumulus clouds lit by late sun over the ocean and an empty stretch of sand in Jupiter, with a small dog at the water's edge in the distance](/images/jupiter/jupiter-beach-storm-clouds.webp "Late-day clouds over the beach near Marcinski Road. || Photo by John Oliver, 2022")
+![A wooden boardwalk running through a shaded tunnel of sea grape toward bright turquoise water](/images/jupiter/jupiter-crossover-sea-grape-tunnel.webp "A sea grape crossover to the beach in Jupiter. || Photo by John Oliver")
+![The Jupiter Inlet seen from the top of the lighthouse: houses and docks on the north bank, green grounds in the foreground, the Atlantic beyond and condominium towers south of the inlet](/images/jupiter/jupiter-inlet-aerial-inline.webp "The inlet from the lighthouse gallery, looking east. || Photo by John Oliver, 2022")
 :::
 
 ## Where the lifeguards are
