@@ -29130,12 +29130,15 @@ The cluster at the inlet, where Love Street meets A1A, is the waterfront that mo
 
 **[Lucky Shuck](https://www.luckyshuckjupiter.com/)**, 1116 Love Street. An oyster bar and taphouse with a raw bar, local seafood and a long draft list, in a building styled after an early-twentieth-century wharf, with indoor and outdoor space on the inlet where the Riverwalk meets Love Street.
 
+A short distance north of the river, **[Blackbird Modern Asian](https://www.blackbirdmodernasian.com/location/blackbird/)**, 1511 North Old Dixie Highway, is a dinner restaurant serving pan-Asian food. The operator describes a dining room on three levels around a bronze Buddha sculpture and an outdoor mezzanine bar with a view toward the lighthouse, takes online reservations for small parties and asks larger parties to use its request form. It is not on Love Street, but it belongs in the same evening.
+
 | Venue | What it is | District | Verify before going |
 |---|---|---|---|
 | Guanabanas | Open-air waterfront restaurant and bar with live music | Inlet / A1A | Current hours, music calendar, seating |
 | U-Tiki Beach | Waterfront restaurant and bar at Jupiter Inlet Marina | Inlet / A1A | Current hours, reservations, marina access |
 | Square Grouper | 21-and-over tiki bar | Love Street / Inlet | Age policy, pet policy, live music, hours |
 | Lucky Shuck | Oyster bar, seafood and taphouse | Love Street / Riverwalk | Current menu, reservations, hours |
+| Blackbird Modern Asian | Pan-Asian dinner restaurant with an outdoor mezzanine bar | North Old Dixie Highway, north of the river | Current hours, reservations, party size |
 
 ## Harbourside Place and the Riverwalk
 
@@ -29201,7 +29204,7 @@ Abacoa's town center and the Indiantown Road corridor carry much of the area's e
 For how the districts sit in the town, read the [local guide](/blog/local-guide-to-jupiter-florida); for the day-to-day texture, [what living in Jupiter is really like](/blog/what-its-really-like-living-in-jupiter-florida).`,
     faqs: [
       { q: 'Where are the main dining districts in Jupiter, Florida?', a: 'Love Street and the Jupiter Inlet, Harbourside Place and the Riverwalk, the A1A corridor through Inlet Village with its casual seafood, Abacoa, and Indiantown Road and inland Jupiter. There is no single traditional downtown; each district has its own cluster of operators.' },
-      { q: 'Which Jupiter waterfront venues should I check directly before going?', a: 'Guanabanas, U-Tiki Beach, Square Grouper and Lucky Shuck at the inlet, and the Harbourside Place restaurants on the Intracoastal. Each publishes its own hours, events, reservation and access details, and those pages are current where this guide is not.' },
+      { q: 'Which Jupiter waterfront venues should I check directly before going?', a: 'Guanabanas, U-Tiki Beach, Square Grouper and Lucky Shuck at the inlet, Blackbird Modern Asian on North Old Dixie Highway, and the Harbourside Place restaurants on the Intracoastal. Each publishes its own hours, events, reservation and access details, and those pages are current where this guide is not.' },
       { q: 'Is Square Grouper in Jupiter open to guests under 21?', a: 'No. The Square Grouper Tiki Bar at Jupiter Inlet states on its site that guests must be 21 or over, with no one under 21 admitted, children included, and a valid government photo ID required. Check its page directly for its current pet policy.' },
       { q: 'Where can I find casual seafood in Jupiter?', a: "Little Moir's Food Shack on South US-1, Schooners on North A1A near the inlet, Dune Dog Cafe on North Alternate A1A, Lucky Shuck on Love Street, and Little Moir's Sweet Fish on West Indiantown Road, each with its own official site for current hours and menus." },
       { q: 'What restaurants and cafes are at Harbourside Place?', a: "Harbourside's own eat-and-drink directory is the current list. At the time of this edit it includes The Woods Jupiter, Tommy Bahama Restaurant, Calaveras Cantina, The Jupiter Grill, Pura Vida, Mana Greek Fusion and Subculture Coffee, among others. Tenants change, so check the directory." },
