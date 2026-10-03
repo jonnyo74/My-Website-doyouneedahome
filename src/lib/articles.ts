@@ -30110,116 +30110,183 @@ Read the map in this order: find the City line for any address you are serious a
     cityName: 'Palm Beach Gardens',
     type: "Best Neighborhoods In",
     order: 3,
-    seoTitle: "Best Neighborhoods in Palm Beach Gardens, Florida",
-    metaTitle: "Best Neighborhoods in Palm Beach Gardens, Florida",
-    metaDescription: "From luxury golf at BallenIsles and Mirasol to walkable Alton and waterfront Frenchman's Creek — a local guide to the best neighborhoods in Palm Beach Gardens.",
-    primaryKeyword: "best neighborhoods in Palm Beach Gardens Florida",
-    secondaryKeywords: ["where to live in Palm Beach Gardens", "BallenIsles", "Mirasol", "Alton Palm Beach Gardens"],
-    h1: "Best Neighborhoods in Palm Beach Gardens, Florida",
-    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-003.jpg',
-    body: `There's no single "best" neighborhood in Palm Beach Gardens — only the best one for what you need from a home. Golf access, dockage, walkability, acreage, and lock-and-leave convenience each point to a completely different part of the city.
+    seoTitle: 'Best Neighborhoods in Palm Beach Gardens, Florida: Compare the Communities',
+    metaTitle: 'Best Neighborhoods in Palm Beach Gardens, Florida: Compare the Communities',
+    metaDescription:
+      "Compare Palm Beach Gardens communities by what they are, not by rank: club and non-club gated communities, Frenchman's Creek's deep-water homes, Alton, large-lot Steeplechase, and the obligations to verify for one property.",
+    primaryKeyword: 'best neighborhoods in Palm Beach Gardens Florida',
+    secondaryKeywords: [
+      'Palm Beach Gardens communities compared',
+      'Palm Beach Gardens golf communities',
+      'gated communities in Palm Beach Gardens without golf',
+      'where to live in Palm Beach Gardens',
+      'Palm Beach Gardens club membership',
+    ],
+    h1: 'Best Neighborhoods in Palm Beach Gardens, Florida',
+    heroImage: '/images/palm-beach-gardens/gardens-mirasol-lake-storm-hero.webp',
+    heroImageAlt: 'The Mirasol sign wall beside a lake with a jet fountain under a bank of dark storm clouds, with a lawn in the foreground and oaks and palms behind, in Palm Beach Gardens',
+    heroImageCaption: 'A lake and sign wall at Mirasol under storm clouds. One of the planned communities inside the City of Palm Beach Gardens.',
+    heroImageCredit: 'Photo by John Oliver, 2026',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Palm Beach Gardens · Neighborhoods',
+      deck: 'There is no best neighborhood here, only the one whose structure matches what you need. How the communities differ on golf, club obligation, water, lot size and housing type, and what to verify before you compare prices.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/palm-beach-gardens/gardens-mirasol-lake-storm-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/palm-beach-gardens/gardens-mirasol-lake-storm-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A lake and fountain at Mirasol, inside the City of Palm Beach Gardens.',
+      primaryCta: { label: 'Explore Palm Beach Gardens', href: '/communities/palm-beach-gardens' },
+      secondaryCta: { label: 'Palm Beach Gardens cost of living', href: '/blog/cost-of-living-in-palm-beach-gardens-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Building a Palm Beach Gardens shortlist? Send us the communities you are weighing and we will pull the association, club and district obligations for each before you compare prices.',
+        cta: { label: 'Explore Palm Beach Gardens homes', href: '/communities/palm-beach-gardens' },
+      },
+    },
+    body: `There is no single best neighborhood in Palm Beach Gardens, and anyone who tells you otherwise is describing their own priorities. Golf with a mandatory club, a gate without a club, a deep-water dock, a new master-planned street grid, an acre lot, or an older subdivision with a modest association each point to a different part of the City, and each comes with a different set of obligations attached to the deed.
 
-So rather than rank them, here they are organized by the objective characteristics buyers actually shop for: property type, price tier, lot size, water and golf access, and — critically in this city — association and club structure.
+So this guide does not rank. It sorts the communities by the characteristics buyers actually shop for, uses each community's own site for what it is, and ends with the checklist that turns a neighborhood name into a number you can compare. For how the City is laid out, read the [local guide](/blog/local-guide-to-palm-beach-gardens-florida); for what the obligations do to a monthly budget, the [cost of living guide](/blog/cost-of-living-in-palm-beach-gardens-florida).
 
-## Resort golf → PGA National
+## First, which Palm Beach Gardens
 
-The city's signature golf destination: multiple championship courses, a resort and spa, and a wide range of housing from condos through estate homes. It's also the most accessible entry point into golf-community living in the Gardens, because the range of price points is unusually broad for a club community.
+A Palm Beach Gardens mailing address does not mean the property is inside the City of Palm Beach Gardens. The City's [FAQ](https://pbgfl.com/Faq.aspx?QID=134) gives the test: look the parcel up at the [Palm Beach County Property Appraiser](https://www.pbcpao.gov/), and the municipality field settles it. Everything in the sections below carries a City address; where a community sits outside the City line, it says so.
 
-**Objective characteristics:** multiple courses, resort and spa amenities, very wide range of property types and price tiers, established build years, extensive HOA structure.
+## Golf and country club communities, each on its own terms
 
-**Trade-offs:** it's large and busy, and the PGA Tour event each winter brings a week of significant activity. Confirm exactly which membership tier attaches to the specific property you're considering — they differ.
+The largest share of the City's housing sits inside club communities, and the thing to understand first is that their structures differ. Each entry below uses the club's own site, and none of it replaces the documents for a specific home.
 
-![PGA National sign wall framed by palms in Palm Beach Gardens](/images/pga-national/pga-national-sign-wide.jpg "One name, many housing types: PGA National runs from condos to estate homes, and the membership attached to each property varies.")
+**[PGA National](/communities/pga-national).** The villages around the resort's courses on PGA Boulevard. The [PGA National Members Club](https://www.pgamembersclub.com/) lists five courses, the Champion, the Palmer, the Fazio, the Match and the Staple short course, 79 holes in all, and the Champion Course hosts the PGA TOUR's Cognizant Classic each spring. Housing runs from condominiums and townhomes to estate lots across many sub-associations. The club says its memberships are available to residents and non-residents alike, so owning a home there does not by itself obligate you to a club. What it does obligate you to is the property owners association and whichever sub-association governs the village, and those are separate from the club. Confirm all three for the specific address.
 
-## Luxury golf and country club → BallenIsles, Mirasol and Old Palm
+**[BallenIsles](/communities/ballen-isles).** A country club community with three courses, the East by Dick Wilson, the North by Joe Lee and the South redesigned by Rees Jones. Its [history page](https://www.ballenisles.org/about-the-club/history) is the real thing: the club opened as PGA National Golf Club, the home of the PGA of America, hosted the 1971 PGA Championship, became JDM Country Club in 1973 when the MacArthur agreement expired, and took the BallenIsles name in 1988. The club describes itself as a [mandatory-membership community](https://www.ballenisles.org/membership) with several membership levels, and its [real estate page](https://www.ballenisles.org/real-estate) lists nearly 1,600 residences in 33 neighborhoods, from patio homes, golf villas and courtyard homes to condominiums and estate homes.
 
-The top-tier gated club communities. BallenIsles is notable for carrying three championship courses, which only a handful of South Florida communities do. Mirasol and Old Palm are the modern luxury benchmarks, with newer construction and extensive club facilities.
+**[Mirasol](/communities/mirasol).** A gated country club community with two courses, the Sunrise by Tom Fazio and the Sunset by Arthur Hills. [The Country Club at Mirasol](https://mirasolcc.com/membership/) says membership is mandatory with home ownership and is held by the title owner, in golf, sports and social categories, and that the membership category correlates with the home. Its advice to review the categories before the home search is worth taking literally.
 
-![Mirasol sign wall beside a lake with a fountain in Palm Beach Gardens](/images/mirasol/mirasol-sign-lake-fountain.jpg "Mirasol, one of the Gardens' top-tier gated club communities. At this level the club obligation is part of the purchase, not an add-on.")
+**Frenchman's Reserve.** An inland golf community on Hood Road with an 18-hole Arnold Palmer Signature course, a clubhouse, clay tennis courts, pickleball, a pool, fitness and a spa, per the [club's site](https://www.frenchmansreservecc.com/public/amenities). The club offers equity memberships in two forms, full golf and social/sport; its [membership FAQ](https://www.frenchmansreservecc.com/public/membership/membership-faqs) explains which attaches to a purchase. It is not a waterfront or dockage community, whatever an older version of this page implied.
 
-**Objective characteristics:** highest price tiers, guard-gated, multiple courses, large clubhouses, substantial HOA dues, and in these communities **mandatory club membership with a one-time initiation fee** plus ongoing dues and food and beverage minimums.
+**Old Palm.** A private golf community off PGA Boulevard west of the Turnpike, built around a Raymond Floyd course, with four neighborhoods of estate homes on quarter-acre to half-acre and larger sites, per [Old Palm's site](https://www.oldpalmgolfclub.com/neighborhoods). Its [membership page](https://www.oldpalmgolfclub.com/equity-membership) says equity membership is extended to each property owner, capped at 330 memberships, with most of the equity fee returned when a membership is sold. Current amounts are on that page and change; the structure is what matters here.
 
-**Trade-offs:** the monthly carrying cost extends well past the mortgage, and clubs periodically fund renovations through capital assessments on members. Get the full written obligation before going under contract.
+What these have in common is that the club obligation is part of the purchase in most of them and separate from it in at least one. What they do not have in common is the amount, the category, the equity or initiation structure, the capital assessments, any food minimum, or the transfer rules on resale. The comparison section below lists what to pull for each.
 
-![Golf fairway with sculpted bunkering in Palm Beach Gardens](/images/palm-beach-gardens/palm-beach-gardens-008.jpg "In much of the Gardens the course came first and the neighborhood was built around it — which is why club structure matters as much as the house.")
+## Deep-water access: Frenchman's Creek, and only the homes that have it
 
-## Waterfront and yacht access → Frenchman's Creek and Frenchman's Reserve
+[Frenchman's Creek Beach & Country Club](https://www.frenchmanscreek.com/), 13495 Tournament Drive, is the City's golf community with water. Its own site says 95 of its homes have waterfront views with deep-water boat docks and direct access to the Intracoastal Waterway, that the full-service Loggerhead Club and Marina is adjacent and reachable through the deep-water canals, and that the community's private Beach Club sits on oceanfront property in Juno Beach, acquired in 1986. It has two 18-hole courses, and [membership is required of residents](https://www.frenchmanscreek.com/membership), with an equity fee at purchase and annual club and association dues.
 
-Golf combined with marina and Intracoastal access, plus a serious club lifestyle. This is where you look if you want both a course and a boat without leaving the Gardens.
+Ninety-five is the number to hold onto. Most homes in Frenchman's Creek are not on the water, so a dock is a property question, never a community assumption. For any waterfront home, in Frenchman's Creek or anywhere in the City, verify:
 
-**Objective characteristics:** high price tier, dockage and Intracoastal access, golf, guard-gated, full club structure with mandatory membership in parts.
+- [ ] Whether the dock or slip is deeded and conveys with the home, or is leased or assigned.
+- [ ] The permitted vessel dimensions for that dock, under the association's rules and any permit.
+- [ ] Canal depth at low tide and fixed-bridge clearance on the route to the Intracoastal and the inlet.
+- [ ] The condition and permits of the dock, any lift and the seawall, inspected by someone who does that for a living.
+- [ ] The association's rules on boats, trailers and dock modifications.
 
-**Trade-offs:** verify dockage specifics for the individual property — slip size, whether it conveys, bridge clearance, and canal depth all vary and all matter.
+## Gated without a golf club: Evergrene
 
-![Sportfishing boat running the waterway near Palm Beach Gardens](/images/palm-beach-gardens/pbg-006.jpg "Dockage narrows a Gardens search quickly — slip size, bridge clearance, and whether the slip conveys are property-specific questions.")
+[Evergrene](https://www.evergrene.com/), 650 Evergrene Parkway, is the useful comparison for anyone who wants a gate and amenities without a golf obligation. Its site describes a gated community of townhomes and single-family homes built around lakes and upland preserve, with more than half its land in preserves, buffers, green space and water, and a history as the first residential development to become an Audubon International Gold Signature Sanctuary. The community's clubhouse carries the pool, fitness, courts and social space; there is no golf course inside the gates. The obligation is the association, with its dues and rules, rather than a club.
 
-## Lakes and preserve → Evergrene
+## Newer master-planned housing: Alton
 
-A gated community built around lakes and preserve land, Audubon-certified, with resort-style amenities. Notably, it delivers amenity-rich community living **without** the golf club obligation, which makes it a common landing spot for buyers who want the gated lifestyle but not the club cost.
+[Alton](/communities/alton), south of Donald Ross Road and east of I-95, is the City's newest large neighborhood. City records describe it as a 681-acre planned community development with residential neighborhoods, a Town Center District and a Biotech District, and its builder, Kolter Homes, describes a walkable street layout with townhomes and single-family homes, parks, courts and a resident club, with [Alton Town Center](https://www.altontowncenter.com/location-and-contact), 5320 Donald Ross Road, at its edge. The housing is recent, which is a fact about construction date, not a promise about insurance pricing; the insurer prices the roof, the openings and the parcel, and the quote is the only number that counts.
 
-**Objective characteristics:** gated, lake and preserve frontage, resort amenities, no golf course, moderate-to-higher HOA dues, mostly early-2000s construction.
+Whether a specific Alton parcel carries a non-ad valorem assessment is answered by its tax record, not by this page. The Property Appraiser explains [non-ad valorem assessments](https://pbcpao.gov/non-ad-valorem.htm), and each parcel's Notice of Proposed Property Taxes lists any that apply.
 
-## Walkable and newer → Alton
+[Avenir](/communities/avenir), along Northlake Boulevard west of the Turnpike, is the City's other large new development, still being built, with [Panther National](/communities/panther-national) as its golf club component. Obligations there vary neighborhood by neighborhood.
 
-The newer, denser side of town near the medical and biotech corridor — a mixed-use neighborhood with its own town center, parks, and the most genuinely walkable environment in the city.
+## Large lots inside the City: Steeplechase
 
-**Objective characteristics:** newest construction in the Gardens, current building codes with impact glass typically standard, mixed housing types including townhomes, walkable town center, HOA, some parcels carry CDD assessments.
+Steeplechase, south of Northlake Boulevard and east of the Turnpike, is the City's large-lot example: a gated subdivision of custom homes on large sites, with a property owners association and no clubhouse or club. It is unambiguously inside the City. The City created the [Steeplechase Neighborhood Improvement District](https://www.pbgfl.gov/928/Steeplechase-Neighborhood-Improvement-Di) on July 6, 1989 by ordinance, as a safe neighborhood improvement district under Florida law; its board is the same as the property owners association's, and its service is the private road and gated security for the community. Lot size, permitted uses, utilities and the association's rules are verified for the specific parcel; do not assume that a large lot means horses, a workshop or a second structure are allowed.
 
-**Trade-offs:** you're further from the coast, and newer construction commands a premium. Check whether a CDD bond attaches to the parcel — it appears on the tax bill separately from HOA dues and can run for decades. The upside is meaningful: post-2002 code construction generally insures better, which matters more than most buyers realize.
+**Caloosa is not inside the City.** Palm Beach County's planning records classify Caloosa as an unincorporated rural neighborhood with agricultural-residential zoning and equestrian use, and the County, not the City, governs it. It carries a Palm Beach Gardens mailing address, which is exactly why it belongs in this paragraph: if your search widens to acreage and horses, Caloosa and the other unincorporated subdivisions with Gardens mail are County property, with County zoning, County permitting, the Sheriff's Office, and often wells and septic. Run the Property Appraiser test before assuming City services or City rules.
 
-## Acreage and equestrian → Caloosa and Steeplechase
+## Established subdivisions with no club
 
-Head west for large lots, room for workshops and equipment, and in Caloosa's case an equestrian orientation with trails and horse-keeping permitted.
+Between the club communities and the corridors sit the City's older single-family subdivisions, many near PGA Boulevard and Military Trail, some gated and some not, with associations that range from modest to none. They are the simplest structures in the City: a house, a lot, perhaps an association, no club and no district. The diligence is about the house. Roof age and condition set the insurance conversation and often the lender's; the air conditioning, plumbing and electrical set the replacement-cost conversation. Price the inspection findings into the offer rather than discovering them after it.
 
-**Objective characteristics:** largest lot sizes in the city, low density, equestrian uses permitted in parts, minimal HOA in some pockets, well and septic in places rather than municipal utilities.
+## Scenes from the communities
 
-**Trade-offs:** a genuine drive to retail and the beach. Verify well, septic, permitted uses, and any agricultural classification for the specific parcel before assuming what you can build or keep.
+::: gallery
+![The stone PGA National sign wall with crossed-club medallions, palms behind it and a road in front, in Palm Beach Gardens](/images/palm-beach-gardens/gardens-pga-national-sign.webp "PGA National, where club membership is separate from home ownership. Street lights and poles were removed from the frame. || Photo by John Oliver, retouched")
+![A two-storey condominium building with a barrel-tile roof and screened balconies behind a row of palms and a lawn at PGA National in Palm Beach Gardens](/images/palm-beach-gardens/gardens-pga-national-condos.webp "A condominium building inside PGA National, one of several housing types there. || Photo by John Oliver")
+![A jet fountain in a lake beside the Mirasol sign wall in Palm Beach Gardens, with clipped hedges and a lawn in the foreground and oaks and palms behind](/images/palm-beach-gardens/gardens-mirasol-lake-fountain.webp "Mirasol, where the club membership is held by the title owner. || Photo by John Oliver, 2026")
+![A tiered white fountain in a landscaped roundabout with red and yellow coleus beds, date palms and oaks, and a striped lawn in the foreground, at Mirasol in Palm Beach Gardens](/images/palm-beach-gardens/gardens-mirasol-roundabout-fountain.webp "A roundabout inside Mirasol. Common-area upkeep like this is paid through the association, separately from the club. || Photo by John Oliver, 2026")
+![A bronze statue of a standing bear beside a lake and fairway on the Champion Course at PGA National in Palm Beach Gardens under a clear blue sky](/images/palm-beach-gardens/gardens-pga-national-bear-trap.webp "The Bear Trap bear on the Champion Course at PGA National. || Photo by John Oliver")
+:::
 
-## Established value → Garden Oaks and older PGA-area neighborhoods
+## How to compare them
 
-Central, convenient, established single-family neighborhoods at the most accessible price points in the city, many with modest or no HOA.
+In this City more than most, the community name matters less than the obligation attached to the specific property. Pull these for every home on the shortlist, from the documents and the public record, and compare the totals rather than the list prices. None of this is legal, tax or insurance advice; the licensed professionals and official sources named are.
 
-**Objective characteristics:** mostly 1960s–1980s construction, smaller lots, low or no HOA, municipal utilities, no golf or water access, highly convenient to PGA Boulevard.
+- [ ] **Association dues, and any sub-association dues**, with the budget showing what they include and exclude.
+- [ ] **Whether club membership is mandatory with ownership**, from the club's documents, and which category attaches to this home.
+- [ ] **The club's initiation or equity structure**, including what is refundable and when.
+- [ ] **Annual club dues, capital dues and any pending or recent assessments.**
+- [ ] **Any food and beverage minimum**, where the club has one.
+- [ ] **Transfer and resale rules** for the membership, and what happens to the equity on sale.
+- [ ] **Non-ad valorem assessments on the parcel**, including any community development district, from the parcel's [Notice of Proposed Property Taxes](https://pbcpao.gov/non-ad-valorem.htm).
+- [ ] **Property taxes estimated for your ownership**, using the Property Appraiser's calculator, not the seller's current bill.
+- [ ] **The FEMA flood zone** for the parcel, from the [FEMA Map Service Center](https://msc.fema.gov/portal/home), and whether the lender requires flood coverage.
+- [ ] **Roof age and condition, and opening protection**, with a wind-mitigation inspection where the insurer asks for one.
+- [ ] **Utilities**: who provides water, sewer or septic, and electricity, confirmed with the providers.
+- [ ] **Dock and water rights**, where relevant, per the waterfront list above.
+- [ ] **For a condominium of three or more habitable stories**, the milestone inspection and the structural integrity reserve study, plus the reserve funding and any special assessment.
+- [ ] **The municipality**, from the Property Appraiser record.
 
-**Trade-offs:** roof age and AC age matter enormously at these build years, and both drive insurance and can drive financing. Price the replacements into your offer.
-
-## How to actually compare them
-
-In this city more than most, the neighborhood name matters less than the obligation attached to the specific property. For anything you're seriously considering, pin down:
-
-- **HOA dues** and exactly what they include
-- **Whether club membership is mandatory**, the initiation amount, ongoing dues, and any food and beverage minimum
-- **Recent and pending capital assessments** at the club
-- **CDD assessment**, if the parcel carries one
-- **FEMA flood zone** for the address, and whether your lender requires coverage
-- **Roof age and wind mitigation features** — these swing insurance by thousands
-- **Property taxes recalculated for a new owner**, since the listing figure usually reflects the seller's capped bill
-- **For condos:** the reserve study, funding level, and any pending special assessment
-
-## On school zoning
-
-Many buyers start their search here based on schools. Palm Beach Gardens campuses have historically graded well in Florida's annual school grading system, and it's a frequent reason people choose the city.
-
-Grades and boundaries are reviewed and updated every year, and a home's assignment is not always what a listing or an article claims. **Verify current assignments directly with the School District of Palm Beach County** for the specific address before you make it a deciding factor.
+School assignments and attendance boundaries change. If a specific school matters to your household, verify the current assignment for the exact address with the [School District of Palm Beach County](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps) rather than relying on a listing or this page.
 
 ## Before you commit
 
-Spend a weekday and a weekend evening in any community you're serious about, and drive the commute you'll actually drive at the hour you'll actually drive it — in season if you can manage it.
-
-Communities differ on objective characteristics: price tier, property type, lot size, water and golf access, association and club structure, and location. The right one depends entirely on your budget, your goals, and how you want to spend an ordinary Saturday. Visit in person and independently verify anything that matters to your decision.`,
+Spend a weekday and a weekend evening in any community you are serious about, and drive the routes you would actually drive at the hours you would drive them. Then compare the communities on what they are: golf or not, club or not, mandatory or optional, water or not, new or established, acre or lot, City or County. The right one depends on your budget, your routines and what you want from an ordinary Saturday. The [pros and cons](/blog/pros-and-cons-of-living-in-palm-beach-gardens-florida), the [practical fit guide](/blog/who-should-move-to-palm-beach-gardens-florida) and [Palm Beach Gardens vs nearby cities](/blog/palm-beach-gardens-vs-nearby-cities) take the decision from there.`,
     faqs: [
-      { q: "What are the best neighborhoods in Palm Beach Gardens?", a: "It depends what you're shopping for. PGA National offers resort golf across a wide price range; BallenIsles, Mirasol and Old Palm are the top-tier club communities; Frenchman's Creek and Reserve add marina access; Evergrene offers gated amenities without a golf club obligation; Alton is the newest and most walkable; Caloosa and Steeplechase offer acreage; and Garden Oaks and older PGA-area neighborhoods are the most accessible price points." },
-      { q: "Which Palm Beach Gardens communities require club membership?", a: "Several of the top-tier golf communities have mandatory membership, typically involving a one-time initiation fee plus ongoing dues and food and beverage minimums, separate from HOA dues. Clubs may also levy capital assessments for renovations. Confirm the full obligation in writing before going under contract." },
-      { q: "Is there a gated community in Palm Beach Gardens without golf fees?", a: "Evergrene is the most commonly cited — a gated, Audubon-certified community built around lakes and preserve land with resort-style amenities but no golf course, which avoids the club obligation attached to most Gardens golf communities." },
-      { q: "What is Alton in Palm Beach Gardens?", a: "The newer, denser, mixed-use side of the city near the medical and biotech corridor, with its own town center and the most walkable environment in the Gardens. Construction is the newest in the city, typically built to current codes with impact glass, though some parcels carry a CDD assessment on the tax bill." },
-      { q: "Where can you keep horses in Palm Beach Gardens?", a: "Caloosa is the equestrian-oriented community, with large lots, trails, and horse-keeping permitted in much of it. Steeplechase also offers large lots. Verify permitted uses, well and septic, and any agricultural classification for the specific parcel." },
-      { q: "How do I check school zoning in Palm Beach Gardens?", a: "Verify current assignments directly with the School District of Palm Beach County for the specific address. Boundaries and school grades are reviewed and updated annually, so listing information and articles may be out of date." },
+      {
+        q: 'Which Palm Beach Gardens communities have golf?',
+        a: "PGA National, with five courses under the PGA National Members Club; BallenIsles, with three; Mirasol, with two; Frenchman's Creek, with two; Frenchman's Reserve, with an Arnold Palmer Signature course; Old Palm, with a Raymond Floyd course; and Panther National within Avenir. The City also owns the public Sandhill Crane Golf Club. Each club's membership structure is different and is set out on its own site.",
+      },
+      {
+        q: 'Which Palm Beach Gardens communities do not require a golf club membership?',
+        a: 'Evergrene is a gated community of townhomes and single-family homes around lakes and preserve with a clubhouse and no golf course. Alton is a newer master-planned neighborhood with a resident club and no golf. Steeplechase is a gated large-lot subdivision inside the City with a property owners association and no clubhouse. At PGA National, the club says memberships are available to residents and non-residents, so ownership does not itself require one. Confirm the terms for the specific home from its documents.',
+      },
+      {
+        q: "Does Frenchman's Creek have deep-water access?",
+        a: "Some of it does. Frenchman's Creek says on its own site that 95 of its homes have waterfront views with deep-water boat docks and direct access to the Intracoastal Waterway, and that the Loggerhead Club and Marina is adjacent through the canals. Most homes in the community are not on the water, so whether a dock conveys, what vessel it allows and what the route to open water clears are property-specific questions.",
+      },
+      {
+        q: "Is Frenchman's Reserve waterfront?",
+        a: "No. Frenchman's Reserve is an inland golf country club community on Hood Road with an Arnold Palmer Signature course, a clubhouse, tennis, pickleball, a pool, fitness and a spa. It does not offer marina, dockage or deep-water access. It is a different community from Frenchman's Creek.",
+      },
+      {
+        q: 'Is Caloosa inside the City of Palm Beach Gardens?',
+        a: 'No. Palm Beach County planning records classify Caloosa as an unincorporated rural neighborhood with agricultural-residential zoning and equestrian use. It carries a Palm Beach Gardens mailing address but is governed by the County, not the City. The Property Appraiser record for any parcel shows its municipality.',
+      },
+      {
+        q: 'What should I verify before buying in a Palm Beach Gardens country club community?',
+        a: "Whether membership is mandatory with ownership and which category attaches to the home; the initiation or equity structure and what is refundable; annual club dues, capital dues and any assessments; any food and beverage minimum; the transfer and resale rules; and, separately, the association and sub-association dues and what they include. Pull all of it from the club's and association's documents before comparing purchase prices.",
+      },
+      {
+        q: 'Which areas of Palm Beach Gardens offer newer or mixed-use housing?',
+        a: 'Alton, south of Donald Ross Road and east of I-95, a 681-acre planned community development with townhomes and single-family homes, a resident club and Alton Town Center at its edge; and Avenir, along Northlake Boulevard west of the Turnpike, still being built. Construction date is a fact about the house, not a promise about insurance pricing; get the quote for the exact property.',
+      },
+      {
+        q: 'How do I verify HOA, club and CDD obligations for a specific property?',
+        a: "Association and club obligations come from their own documents: the budget, fee schedule, rules and, for a club, the membership plan. Non-ad valorem assessments, including any community development district, appear on the parcel's Notice of Proposed Property Taxes from the Palm Beach County Property Appraiser and on the November tax bill. Estimate your own property taxes with the Appraiser's calculator rather than reading the seller's bill.",
+      },
     ],
-    internalLinks: ["what-its-really-like-living-in-palm-beach-gardens-florida", "cost-of-living-in-palm-beach-gardens-florida", "who-should-move-to-palm-beach-gardens-florida"],
-    funFact: "BallenIsles Country Club in Palm Beach Gardens is a private club community with three championship golf courses — only a handful of communities in South Florida offer more than two. The HOA and membership fees are real but the golf access and infrastructure are proportionally impressive.",
+    internalLinks: [
+      'what-its-really-like-living-in-palm-beach-gardens-florida',
+      'local-guide-to-palm-beach-gardens-florida',
+      'cost-of-living-in-palm-beach-gardens-florida',
+      'pros-and-cons-of-living-in-palm-beach-gardens-florida',
+      'who-should-move-to-palm-beach-gardens-florida',
+      'palm-beach-gardens-vs-nearby-cities',
+    ],
+    funFact: "Two houses a mile apart in Palm Beach Gardens can list at the same price and cost very different amounts to own, because one carries a mandatory club with an equity fee, annual dues and capital assessments and the other carries an association and nothing else. Get the full written obligation for each, from the club and the association, before you compare the purchase prices. The list price is the start of the number, not the number.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-03',
   },
   {
     slug: 'best-things-to-do-in-palm-beach-gardens-florida',
