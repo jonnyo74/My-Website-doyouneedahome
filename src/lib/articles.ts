@@ -30055,7 +30055,7 @@ Then decide the second question: club or no club. It shapes the monthly cost mor
 - **The beach is outside the City.** The Atlantic beaches are in Juno Beach, Jupiter and on Singer Island, each under its own rules. The [living in Palm Beach Gardens guide](/blog/what-its-really-like-living-in-palm-beach-gardens-florida) covers what that means day to day.
 - **Association and club obligations are verified per property**, from the documents, not from a listing summary.
 - **Storm planning uses official sources**: the City's hurricane page, Palm Beach County's emergency management, and the [FEMA Map Service Center](https://msc.fema.gov/portal/home) for the parcel's flood zone.
-- **PGA Boulevard is the orientation line**, with the Turnpike at Exit 109 and I-95 as the two north-south highways. The commercial airport for the county, [President Donald J. Trump International Airport](https://www.pbia.org/articles/post/president-donald-j-trump-international-airport-name-change-takes-effect/), formerly Palm Beach International Airport, is south of the City in West Palm Beach, as is downtown West Palm Beach. We do not publish drive times to either.
+- **PGA Boulevard is the orientation line**, with the Turnpike at Exit 109 and I-95 as the two north-south highways. The commercial airport for the county, Palm Beach International Airport (PBI), [renamed President Donald J. Trump International Airport in 2026](https://www.pbia.org/articles/post/president-donald-j-trump-international-airport-name-change-takes-effect/), is south of the City in West Palm Beach, as is downtown West Palm Beach. We do not publish drive times to either.
 
 ## Where to go from here
 
@@ -30087,7 +30087,7 @@ Read the map in this order: find the City line for any address you are serious a
       },
       {
         q: "How do I-95 and Florida's Turnpike relate to Palm Beach Gardens?",
-        a: "Both cross the City north to south and both have PGA Boulevard interchanges: the Turnpike at Exit 109, with a park-and-ride lot, and I-95 about a mile west of the Gardens Mall. The airport, President Donald J. Trump International Airport, formerly Palm Beach International, and downtown West Palm Beach are south of the City. We do not publish drive times.",
+        a: "Both cross the City north to south and both have PGA Boulevard interchanges: the Turnpike at Exit 109, with a park-and-ride lot, and I-95 about a mile west of the Gardens Mall. Palm Beach International Airport, renamed President Donald J. Trump International Airport in 2026, and downtown West Palm Beach are south of the City. We do not publish drive times.",
       },
     ],
     internalLinks: [
