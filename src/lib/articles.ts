@@ -29651,89 +29651,237 @@ For the rest of the town, read [what living in Jupiter is really like](/blog/wha
     cityName: 'Palm Beach Gardens',
     type: "What It's Really Like Living In",
     order: 1,
-    seoTitle: "What It's Really Like Living in Palm Beach Gardens, Florida (Local Guide)",
-    metaTitle: "What It's Really Like Living in Palm Beach Gardens, FL",
-    metaDescription: "A local look at living in Palm Beach Gardens, Florida — a planned city of golf, A-rated schools, high-end shopping, and refined, convenient living near the beach.",
-    primaryKeyword: "living in Palm Beach Gardens Florida",
-    secondaryKeywords: ["moving to Palm Beach Gardens FL", "Palm Beach Gardens lifestyle", "is Palm Beach Gardens a good place to live", "PGA National"],
+    seoTitle: "What It's Really Like Living in Palm Beach Gardens, Florida",
+    metaTitle: "What It's Really Like Living in Palm Beach Gardens, Florida",
+    metaDescription:
+      'Living in Palm Beach Gardens, Florida: a city drawn on paper in 1959, City limits vs. Gardens mailing addresses, the beach question, golf and club obligations, getting around, storm season and what to verify for one address.',
+    primaryKeyword: 'living in Palm Beach Gardens Florida',
+    secondaryKeywords: [
+      'moving to Palm Beach Gardens FL',
+      'City of Palm Beach Gardens limits',
+      'is Palm Beach Gardens a good place to live',
+      'Palm Beach Gardens golf communities',
+      'Palm Beach Gardens lifestyle',
+    ],
     h1: "What It's Really Like Living in Palm Beach Gardens, Florida",
-    heroImage: '/images/palm-beach-gardens/palm-beach-gardens-001.jpg',
-    body: `Pull into Palm Beach Gardens and the first thing you notice is how intentional it all feels. Wide, tree-lined boulevards. Manicured medians. Golf courses tucked behind quiet gates. Mature shade trees that were clearly there before the road was.
+    heroImage: '/images/palm-beach-gardens/gardens-mirasol-lake-fountain-hero.webp',
+    heroImageAlt: 'A jet fountain in a lake beside the Mirasol sign wall in Palm Beach Gardens, with clipped hedges and a lawn in the foreground and oaks and palms behind under a blue sky with scattered clouds',
+    heroImageCaption: 'A lake, a fountain and a sign wall at Mirasol, one of the planned communities inside the City of Palm Beach Gardens.',
+    heroImageCredit: 'Photo by John Oliver, 2026',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    editorial: {
+      eyebrow: 'Palm Beach Gardens · Local Guide',
+      deck: 'The city was drawn on paper before it was built, and it still shows. What that planning gives you, what it costs, and what changes with the exact address.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/palm-beach-gardens/gardens-mirasol-lake-fountain-panel.webp', width: 960, height: 1200 },
+      mobileImage: { src: '/images/palm-beach-gardens/gardens-mirasol-lake-fountain-mobile.webp', width: 1200, height: 800 },
+      panelCaption: 'A lake and fountain at Mirasol, inside the City of Palm Beach Gardens.',
+      primaryCta: { label: 'Explore Palm Beach Gardens', href: '/communities/palm-beach-gardens' },
+      secondaryCta: { label: 'Palm Beach Gardens cost of living', href: '/blog/cost-of-living-in-palm-beach-gardens-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      keyFactors: {
+        heading: 'Five things that change the answer',
+        intro: 'Palm Beach Gardens is not one lifestyle. These are the variables that separate one address from the next.',
+        afterIntro: true,
+        items: [
+          { title: 'Whether the parcel is inside the City', text: 'A Palm Beach Gardens mailing address can sit in the City, in unincorporated Palm Beach County, or near the line with North Palm Beach, Juno Beach, Jupiter or Lake Park. Taxes, permitting, police, code enforcement and utilities follow the parcel, not the mail.' },
+          { title: 'The community, and what comes with it', text: 'Most of the City is built as planned communities. Gated or not, with a mandatory club or without, with a Community Development District or without, each one sets its own dues, rules and approvals.' },
+          { title: 'Your relationship with the beach', text: 'The City does not front the Atlantic. The ocean is east of it, in Juno Beach, Jupiter and on Singer Island, and a routine that depends on the beach is a routine that depends on the drive.' },
+          { title: 'Your real routes', text: 'Work, school, groceries, the club, medical and the airport, driven at the hours you would actually drive them, on the corridors the City is organized around.' },
+          { title: 'Storm and flood exposure for that parcel', text: 'Inland does not mean exempt. The flood zone, the evacuation zone, and wind and flood quotes are property-specific.' },
+        ],
+      },
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Weighing a specific Palm Beach Gardens address? Start with the community guide, or talk with us about the property and the questions above.',
+        cta: { label: 'Explore living in Palm Beach Gardens', href: '/communities/palm-beach-gardens' },
+      },
+    },
+    body: `Turn off Interstate 95 onto PGA Boulevard and the first thing you notice is that nothing looks accidental. The medians are planted. The trees along the road are older than the buildings behind them. The neighborhoods sit back behind landscaped entrances rather than fronting the street, and the shopping is gathered into a few large centers instead of strung along every block. Palm Beach Gardens feels intentional because it was planned that way, and sixty-odd years on, the plan still governs how the place looks.
 
-This isn't a town that grew by accident. It was drawn on paper first, and sixty-odd years later you can still read the original intent in every streetscape. If Jupiter is the laid-back beach town up the road, the Gardens is its more deliberate cousin — and whether that reads as "polished" or "sterile" is the single best predictor of whether you'll be happy here.
+That is the city's real identity, and it cuts both ways. The same planning that makes daily life orderly also means the City is inland, organized around a car, and built largely as a set of communities with their own rules and costs. Whether that reads as composed or as constrained depends on what you want from a home. This guide covers what living here actually feels like, what the planning gives you and takes away, and what to verify for one specific address before you commit to it.
 
-## A city that was literally platted by one man
+## A city that was drawn before it was built
 
-In March 1959, an insurance magnate named **John D. MacArthur** announced plans to build a community for 55,000 people on roughly 4,000 acres of northern Palm Beach County scrubland he'd bought cheaply after the war. He didn't just fund it — he shaped it. He instructed that streets be routed *around* mature trees rather than through them, and he pushed a "garden city" philosophy of plentiful waterways, rolling terrain, and heavy landscaping.
+The founding is written on a marker in the City, and it is worth quoting rather than paraphrasing. On March 20, 1959, John D. MacArthur, an insurance magnate and landowner, announced plans to develop approximately 4,000 acres and provide homes for 55,000 people in a new community. He envisioned streets lined with trees and flowers, a community with plentiful waterways, rolling terrain and mature pine and shade trees, and he instructed that streets and construction go around trees that had been growing there for years. The marker calls this the "garden city" philosophy, and the City of Palm Beach Gardens dates its growth from 1959.
 
-![Historical marker for John D. MacArthur, founder of Palm Beach Gardens](/images/palm-beach-gardens/pbg-004.jpg "The city's founding is not distant history here — MacArthur platted Palm Beach Gardens in 1959 and the 'garden city' philosophy still governs how it looks.")
+The best-known expression of that philosophy is a pair of banyan trees. Per the [historical marker on MacArthur Boulevard](https://www.hmdb.org/m.asp?m=97049) just north of Northlake Boulevard, MacArthur bought an 80-year-old banyan in Lake Park that was slated for destruction and had it moved there in 1960, and a second, smaller one the following year. The tree is on the City's shield.
 
-That's not trivia. It's why the tree canopy is unusually mature for a Florida city of this age, why the medians are planted rather than paved, and why the whole place feels more composed than the sprawl you'd expect. The MacArthur Foundation still holds conservation easements on thousands of acres nearby, which is a large part of why the western edge of town is preserve rather than rooftops.
+The plan was exceeded. The 2020 Census counted 59,182 people inside the City, and the Census Bureau's July 1, 2025 estimate is 63,883, on 58.71 square miles of land, per its [QuickFacts page](https://www.census.gov/quickfacts/fact/table/palmbeachgardenscityflorida/PST045225). That land area is a surprise to most people, because the City is much larger than the part you see from PGA Boulevard. It runs well west of Florida's Turnpike, and the western part is mostly open: Palm Beach County's [Loxahatchee Slough Natural Area](https://discover.pbc.gov/erm/NaturalAreas/Loxahatchee-Slough.aspx), 13,025 acres north and south of PGA Boulevard and the County's largest natural area, the City-owned [Sandhill Crane Golf Club](https://www.pbgfl.com/506/Golf), and the [Avenir](/communities/avenir) development along Northlake Boulevard, which is still being built.
 
-## What the town actually feels like day to day
+One correction to what is often repeated, including on an earlier version of this page. The preserved land on the City's western side is County-owned natural area, not conservation easements held by the MacArthur Foundation. The Foundation's [own history](https://www.macfound.org/about/our-history/about-the-macarthurs) says MacArthur's Florida real estate holdings were liquidated after his death in 1978, and its Palm Beach County land gifts went to John D. MacArthur Beach State Park, which is in North Palm Beach, and to the Florida Atlantic University campus at Abacoa, which is in Jupiter.
 
-Refined, but not stuffy. You'll see people in golf clothes at the grocery store at two in the afternoon and nobody thinks anything of it.
+## "Palm Beach Gardens" on the mail is not the same as the City
 
-**Golf carts are real transportation.** Inside many communities, the cart is how you get to the club, the courts, a neighbor's house. Some neighborhoods have cart paths connecting to retail. It's one of the genuinely distinctive things about living here, and it surprises people from out of state.
+A Palm Beach Gardens mailing address does not tell you who governs the property. The City's own [FAQ](https://pbgfl.com/Faq.aspx?QID=134) gives the test: look the address up at the Palm Beach County Property Appraiser, and if the municipality field says Palm Beach Gardens, the parcel is inside the City. If it says something else, it is not, whatever the mail says.
 
-The pace is easy. Errands are quick because the retail is dense and well-maintained. Healthcare is close. The roads are wide and the signage is good. A lot of daily life here is quietly frictionless in a way that's hard to appreciate until you've lived somewhere it isn't.
+| If the address is in | Who runs it | What that changes |
+|---|---|---|
+| The City of Palm Beach Gardens | The City: its own council, police department, fire rescue, planning and zoning, building permits and code enforcement. | City zoning, permitting, police, code rules and City ordinances apply. |
+| Unincorporated Palm Beach County with Gardens mail | Palm Beach County: the Sheriff's Office, County zoning, County building and County code enforcement. | County rules, County taxes and County services, not the City's. |
+| North Palm Beach, Lake Park, Juno Beach or Jupiter | Each is a separate municipality on the County's [list of 39](https://discover.pbc.gov/pages/municipalities.aspx). | Its own government, police, permitting and rules. All four border the Gardens mailing area. |
 
-What you trade for that is edge. There's no gritty arts district, no century-old downtown, no block that feels accidental. The Gardens is consistent by design, and consistency is the product.
+Three ways to settle it for a parcel: the [Palm Beach County Property Appraiser](https://www.pbcpao.gov/) record, the County's [boundary maps](https://discover.pbc.gov/pzb/Maps/Boundary-Maps.aspx), and the City's [GIS Division](https://www.pbgfl.com/172/GIS-Division), which publishes the zoning and future land use maps.
 
-## The beach question — the honest catch
+Water and sewer do not follow the City line either. [Seacoast Utility Authority](https://www.sua.com/about-us/) serves the City, North Palm Beach, Lake Park, Juno Beach and parts of unincorporated Palm Beach County, so a Seacoast bill does not prove a City address, and some properties in the Gardens area are on wells or septic. Confirm the provider for the address rather than assuming it.
 
-Here's the thing that catches out-of-state buyers more than anything else on this page: **Palm Beach Gardens is not on the ocean.**
+## What the development pattern feels like day to day
 
-People picture a Florida beach lifestyle, buy inland, and only fully absorb the geography after move-in. The city's lakes, preserves, and golf courses are genuinely beautiful. They are not the Atlantic.
+The City is organized around a few wide corridors, and almost everything you do runs along them: PGA Boulevard, Northlake Boulevard, Donald Ross Road and Military Trail, with Interstate 95 and Florida's Turnpike both crossing the City north to south. Between the corridors, the housing is built as communities, most with a single landscaped entrance, many with a gate, and each with its own association. You do not drive through a Palm Beach Gardens neighborhood on the way to somewhere else; you drive to its entrance.
 
-The practical reality is better than it sounds. **Juno Beach is roughly 15 minutes east. Jupiter's beaches and Singer Island's MacArthur Beach State Park are about 15–20.** For most residents that's a perfectly reasonable trade — you get a refined, convenient, well-served home base and the sand is a short drive rather than out the window.
+The retail is gathered the same way. [The Gardens Mall](https://www.thegardensmall.com/visiting/), 3101 PGA Boulevard, opened in 1988 and describes itself as a 1.4 million square foot regional center. [Downtown at the Gardens](https://downtownatthegardens.com/contact/), 11701 Lake Victoria Gardens Avenue, is an open-air center of shops and restaurants beside it. [PGA Commons](https://pgacommons.com/) sits on the south side of PGA Boulevard between Interstate 95 and the Turnpike, with restaurants, galleries, offices and apartments. [Alton Town Center](https://www.altontowncenter.com/location-and-contact), 5320 Donald Ross Road, serves the north side of the City. Each is a destination you drive to and then walk around. The [eat, drink and hang out guide](/blog/best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida) covers the restaurants district by district.
 
-But be honest with yourself about the difference between "the beach is fifteen minutes away" and "I live at the beach." They produce very different lives. People who wanted the second one and bought the first tend to know within a year.
+The City runs a lot of the public side of daily life itself. The [Recreation Department](https://www.pbgfl.com/recreation) operates the Burns Road Community Center at 4404 Burns Road, the aquatic complex beside it, and the tennis and pickleball center on 117th Court North. The [Gardens GreenMarket](https://www.pbgfl.com/GreenMarket) runs on Sundays in season at the City Hall campus, 10500 North Military Trail; the City's page carries the current season's dates. [Palm Beach Gardens Medical Center](https://www.pbgmc.com/about/about-pbgmc), 3360 Burns Road, is a 199-bed acute care hospital inside the City.
 
-![Sportfishing boat running the waterway near Palm Beach Gardens](/images/palm-beach-gardens/pbg-006.jpg "Water access here means the Intracoastal and marina communities rather than oceanfront — a meaningful distinction for boaters and beachgoers alike.")
+What the pattern does not give you is a traditional downtown: no main street that grew up over a century, no block that feels improvised, no walk from a front door to a corner store in most of the City. The consistency is the product. Some people find it restful and some find it flat, and it is worth knowing which you are before you buy.
 
-That said, water access isn't absent — it's just a different kind. Several communities on the eastern side connect to the Intracoastal with dockage, and the boating culture is real for the people who buy into it.
+## Planned landscapes in Palm Beach Gardens
 
-## Golf shapes the town even if you don't play
+::: gallery
+![The stone PGA National sign wall with crossed-club medallions, palms behind it and a road in front, in Palm Beach Gardens](/images/palm-beach-gardens/gardens-pga-national-sign.webp "The PGA National sign wall. Street lights and poles were removed from the frame. || Photo by John Oliver, retouched")
+![A tiered white fountain in a landscaped roundabout with red and yellow coleus beds, date palms and oaks, and a striped lawn in the foreground, at Mirasol in Palm Beach Gardens](/images/palm-beach-gardens/gardens-mirasol-roundabout-fountain.webp "A roundabout fountain inside Mirasol. || Photo by John Oliver, 2026")
+![The Mirasol sign wall beside a lake with a jet fountain under a bank of dark storm clouds, lawn in the foreground, in Palm Beach Gardens](/images/palm-beach-gardens/gardens-mirasol-lake-storm.webp "The same lake and sign wall at Mirasol under afternoon storm clouds. || Photo by John Oliver, 2026")
+![A black cast-metal historical marker headed John D. MacArthur 1897 to 1978 under a live oak at dusk in Palm Beach Gardens, its inscription describing the March 20, 1959 announcement of a community for 55,000 people on approximately 4,000 acres](/images/palm-beach-gardens/macarthur-marker.webp "The John D. MacArthur marker in Palm Beach Gardens. Its inscription is the source for the founding section above. || Photo by John Oliver, 2023")
+:::
 
-You can't describe this place honestly without it. Palm Beach Gardens is one of the genuine golf capitals of the country — the PGA of America relocated its national headquarters here in 2023, which tells you most of what you need to know.
+## The beach question, plainly
 
-What matters for a resident is subtler than the courses themselves. Golf shapes the calendar, the social structure, and a meaningful share of the real estate. A large portion of the housing stock sits inside golf-and-country-club communities, which means club membership, initiation fees, and dues are woven into the cost of living in a way they aren't in most towns.
+The City of Palm Beach Gardens does not front the Atlantic Ocean. The beaches are east of it: in the Town of Juno Beach, in the Town of Jupiter, and on Singer Island, where [John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) sits at 10900 Jack Nicklaus Drive, North Palm Beach. Each of those is a separate municipality or a state or County park with its own rules, parking and conditions.
 
-If you play, this is close to the best place in America to do it. If you don't, you should still understand the structure, because it affects what you'll pay.
+This is the point that catches the most people. They picture a Florida beach life, buy in the Gardens because the house, the community or the golf is right, and discover that the beach is a trip rather than a walk. For many people that trade is exactly right: a home base that is quiet, organized and well served, with the sand reachable when they want it. For someone who wants to be on the beach every morning, it is the wrong town, and no amount of landscaping changes that. Be honest with yourself about the difference between "the beach is east of here" and "I live at the beach." They produce different lives.
 
-## Who tends to be happy here
+We don't publish drive times to the beach, because the answer depends on where in 58 square miles you start, which road you take, the season and the hour. Drive it yourself, from the address you are considering, on a weekend morning in season.
 
-The people who settle in best are usually the ones who wanted exactly what the Gardens offers rather than a compromise: golf or club life, easy high-end convenience, strong school zoning, good healthcare access, and a town that's well-run and predictable.
+Water inside the City is a different kind. Many communities are built around lakes, some of them large. The County's Loxahatchee Slough kayak launch at 8311 PGA Boulevard puts a paddle trail at the western edge of town. The Intracoastal Waterway and its marinas lie to the east, mostly in the neighboring towns. If a dock or a boat is part of the plan, the [neighborhoods guide](/blog/best-neighborhoods-in-palm-beach-gardens-florida) sorts out which addresses can offer it and which cannot.
 
-The people who struggle wanted something with more texture — walkability, an urban core, nightlife past ten, or an eclectic neighborhood with some history to it. Those are all reasonable things to want, and the Gardens doesn't really have them. West Palm Beach is twenty-five minutes south and has all four.
+## Golf shapes the city, described accurately
 
-## The trade-offs, plainly
+You cannot describe Palm Beach Gardens honestly without golf, and you cannot describe the golf honestly without a correction. An earlier version of this page said the PGA of America moved its national headquarters to the City in 2023. The opposite happened. The PGA of America had been headquartered in Palm Beach Gardens, [announced in December 2018](https://www.pga.com/archive/news/pga/pga-of-america-relocating-headquarters-frisco-part-of-innovative-public-private-partnership) that it would relocate to Frisco, Texas, and [opened its new headquarters there on August 22, 2022](https://www.pga.com/story/pga-frisco-is-officially-open-for-business).
 
-- **It costs more than average**, and in many communities the association and club obligations add a substantial monthly number on top of the mortgage.
-- **You will drive.** Outside Alton and a few pockets, this is a car town — golf carts handle the inside of communities, not the town itself.
-- **PGA Boulevard in season is genuinely slow**, roughly January through March.
-- **It's planned, not quirky.** That's the point, and it's also the most common complaint.
-- **Summers are hot and humid**, like everywhere in the region, with afternoon storms that build and clear.
+What the City legitimately hosts is still substantial. [PGA National Resort](https://www.pgaresort.com/golf/courses/champion) is inside the City, and its Champion Course, originally designed by Tom and George Fazio and later redesigned by Jack Nicklaus, is the home of the PGA TOUR's [Cognizant Classic in The Palm Beaches](https://www.pgatour.com/article/news/the-first-look/2026/02/23/the-first-look-cognizant-classic-in-the-palm-beaches-pga-national-course-field-preview-storylines), the tournament long known as the Honda Classic. The TOUR has played it at PGA National since 2007, and the Bear Trap, holes 15 through 17, is the stretch the broadcasts are built around. Our [PGA National community guide](/communities/pga-national) covers the villages around the courses.
+
+For a resident, the courses matter less than the structure they create. A large share of the City's housing sits inside golf and country club communities: PGA National, [Mirasol](/communities/mirasol), [BallenIsles](/communities/ballen-isles) and others. In some of them, club membership is mandatory with the purchase; in others it is optional; in a few, the club and the association are separate entities with separate bills. Joining costs, annual dues, food minimums and what happens to a membership on resale are set community by community, and they are the single biggest reason two similar houses a mile apart can cost very different amounts to own. The [cost of living guide](/blog/cost-of-living-in-palm-beach-gardens-florida) walks through those lines.
+
+If you do not play, there is still public golf: the City's own [Sandhill Crane Golf Club](https://www.pbgfl.com/506/Golf), 9500 Sandhill Crane Drive, with a par-3 course beside it. But you should still understand the club structure before you buy, because in many communities you will pay for it whether you play or not.
+
+**Golf carts** are part of the picture, with a rule attached. Inside many communities, the cart is how people get to the club, the courts and a neighbor's house, on private streets the community controls. On public roads, Florida law allows golf carts only where the City or County has designated and signed a street for them, per [section 316.212, Florida Statutes](https://www.flsenate.gov/laws/statutes/2025/316.212), and a local ordinance can be stricter. Whether you can cart to the store from a given address is a question for that community's documents and the City, not an assumption.
+
+## Getting around
+
+A car is practical for most of daily life in the City. Home, work, school, the club, groceries, medical and the beach tend to sit on different corridors, and the corridors are built for driving. That is not the same as having no transit. [Palm Tran](https://www.palmtran.org/maps-schedules/bus-routes/) runs Route 1 along US-1, Route 20 along Northlake Boulevard to downtown West Palm Beach, Route 33 to the Gardens Mall, and Route 10 between the City and Jupiter; whether any of them fits a routine depends on the exact address and the current schedule, which Palm Tran changes from time to time.
+
+There are more walkable pockets, and they are specific. [Alton](/communities/alton), on Donald Ross Road, was designed by its builder around walkable streets and a retail center. Downtown at the Gardens and PGA Commons are places to park once and walk. But these are pockets inside a car-oriented city, not the city's character, and a listing that says "walkable" deserves a walk from the front door before you believe it.
+
+We don't publish drive times, including seasonal comparisons or a number for the airport, because they depend on where you start, the route and the hour. Test your actual routes at the times you would use them:
+
+- The commute, both directions, on a weekday, including the Interstate 95 and Turnpike interchanges you would rely on.
+- School drop-off and pickup, if that applies.
+- The club, the course or the courts you would use most.
+- Groceries, pharmacy and everyday errands.
+- Your doctors and any regular appointments.
+- The beach you would actually go to, on a weekend morning in season.
+- The airport. The commercial airport for the county is [President Donald J. Trump International Airport](https://flydjt.org/articles/post/president-donald-j-trump-international-airport-name-change-takes-effect/) in West Palm Beach, renamed in 2026.
+
+## Storm season and the flood map
+
+Inland is not the same as exempt. Hurricane season runs June 1 through November 30, per the [Florida Division of Emergency Management](https://www.floridadisaster.org/planprepare/preparing-for-hurricane-season/), and storms that never make a direct landfall still bring days of rain, wind damage, extended power loss and, in some years, evacuation orders for parts of the county. The City's [Hurricane Readiness page](https://pbgfl.com/282/Hurricane-Information) carries its resident guide and the utility partners' information.
+
+Flood exposure is set parcel by parcel, not by the ZIP code. The City notes that FEMA's current flood maps for Palm Beach Gardens [took effect October 5, 2017](https://pbgfl.com/CivicAlerts.aspx?AID=359&ARC=669); look the parcel up at the [FEMA Map Service Center](https://msc.fema.gov/portal/home), ask whether an elevation certificate exists for the structure, and get written wind and flood quotes before the inspection period ends. A lake lot in a planned community is still a lot beside water, and the insurer will price it as the parcel, not as the city.
+
+## The rules that come with the deed
+
+Because so much of the City is built as communities, the documents matter more here than in most towns. Before you offer, read:
+
+- [ ] **The association documents**: budget, reserves, current and pending assessments, and the rules on rentals, pets, parking, exterior changes, generators and golf carts.
+- [ ] **The club documents**, where a club exists: whether membership is mandatory, what it costs to join and keep, and what happens on resale.
+- [ ] **Any Community Development District assessment** on the parcel's tax record. Some communities carry one and most older ones do not. The tax bill says which.
+- [ ] **For a condominium of three or more habitable stories**, the milestone inspection and the structural integrity reserve study.
+- [ ] **The municipality and the utility provider**, confirmed as above, and whether the home is on municipal sewer or septic.
+- [ ] **The homestead picture.** If the home will be your permanent residence, the [Palm Beach County Property Appraiser](https://pbcpao.gov/homestead-exemption.htm) explains the exemption and its March 1 deadline. The seller's tax bill is not a forecast of yours.
+
+## The trade-offs, address by address
+
+Every city has trade-offs. Palm Beach Gardens' are specific, and most attach to the community rather than to the city:
+
+- **Ownership cost varies widely.** Association dues, club obligations, any district assessment, insurance and the home's condition move the number far more than the city name does.
+- **A car is practical for most routines**, and the handful of walkable pockets are the exception that proves it.
+- **The beach is a trip, not a feature of the address.** Juno Beach, Jupiter and Singer Island are east of the City, each under its own rules.
+- **The planning is the character.** You get order, landscaping and consistency. You do not get a historic downtown, an improvised block or much variety from one street to the next.
+- **Storm, flood and insurance diligence is part of ownership here**, lake lots included.
+- **Community, club and district obligations are not interchangeable.** A condo near PGA Boulevard, a house in a non-gated subdivision, a club community with a mandatory membership and a new build in Avenir are four different lives with the same mailing address.
+
+Whether those trade-offs are worth it is your call, for your priorities and one specific property. The [pros and cons guide](/blog/pros-and-cons-of-living-in-palm-beach-gardens-florida) takes each one further.
+
+## Which built environment fits, and which may not
+
+**Palm Beach Gardens may be worth a close look if you're prioritizing:**
+
+- A planned community with a landscaped entrance, an association and predictable surroundings, and you have read what the documents require.
+- Golf or club life as part of the routine, or at least an understanding of what the club structure costs where you buy.
+- A home base near the PGA Boulevard retail and medical centers, with the beach as an outing rather than a daily walk.
+- A car-based routine on wide corridors, with a walkable pocket as a bonus rather than a requirement.
+
+**You may want to compare other areas if you need:**
+
+- The ocean, the Intracoastal or a marina within a walk of the front door.
+- A traditional downtown with a grid you can live in on foot.
+- A home with no association, club or district in the picture at all.
+- Variety and improvisation in the streetscape over consistency.
+
+Neither list is better than the other. They describe built environments, not people, and our [practical fit guide](/blog/who-should-move-to-palm-beach-gardens-florida) and [Palm Beach Gardens vs nearby cities](/blog/palm-beach-gardens-vs-nearby-cities) compare the alternatives.
 
 ## The bottom line
 
-Palm Beach Gardens is one of the most polished, best-organized places to live in Florida, and the quality of the everyday experience — the roads, the retail, the healthcare, the landscaping — is legitimately hard to match.
+Palm Beach Gardens delivers what its founder's marker promised: a city of planted streets, waterways and communities set back behind trees, run deliberately, with the retail and the hospital gathered where you can reach them. It also delivers the consequences of that plan: a car, an association, often a club, and a beach that belongs to the next town over. Get the specifics for one property, from the municipality to the club documents to the flood map, and the rest of the picture tends to take care of itself.
 
-The honest test is whether "composed and convenient" sounds like relief or like boredom. If you want the beach out your door or a downtown you can walk to at midnight, look east or south. If you want a town that works properly and leaves you time for the golf course, this is arguably the best version of that in the state.`,
+For more, read the [Palm Beach Gardens community guide](/communities/palm-beach-gardens), the [local guide](/blog/local-guide-to-palm-beach-gardens-florida), the [neighborhoods guide](/blog/best-neighborhoods-in-palm-beach-gardens-florida) and the [cost of living guide](/blog/cost-of-living-in-palm-beach-gardens-florida).`,
     faqs: [
-      { q: "What is Palm Beach Gardens, Florida known for?", a: "Golf above all — it's one of the country's golf capitals and the PGA of America relocated its national headquarters there in 2023. It's also known for being master-planned, with wide tree-lined boulevards and heavy landscaping, and for dense upscale retail and healthcare along PGA Boulevard." },
-      { q: "Is Palm Beach Gardens on the beach?", a: "No. The city is inland. Juno Beach is roughly 15 minutes east, and Jupiter's beaches and Singer Island's MacArthur Beach State Park are about 15–20 minutes. Buyers picturing an oceanfront lifestyle should understand this distinction before committing." },
-      { q: "Who founded Palm Beach Gardens?", a: "Insurance magnate John D. MacArthur announced plans in March 1959 to develop roughly 4,000 acres for a community of 55,000 people. He directed that streets be routed around existing mature trees, and that 'garden city' philosophy still shapes how the city looks." },
-      { q: "Are golf carts used as transportation in Palm Beach Gardens?", a: "Within many communities, yes — carts are commonly used to reach the club, courts, and neighbors, and some neighborhoods have cart connectivity to retail. The broader town, however, is built around the car." },
-      { q: "Is Palm Beach Gardens a good place to live?", a: "It suits people who want golf or club life, upscale convenience, strong school zoning, and good healthcare access in a well-run, predictable town. It suits people less well if they want walkability, nightlife, an urban core, or eclectic character." },
-      { q: "What are the downsides of living in Palm Beach Gardens?", a: "Higher costs, with association and club obligations adding a substantial monthly figure in many communities; near-total car dependence; slow traffic on PGA Boulevard in season; a planned rather than quirky character; and hot, humid summers." },
+      {
+        q: 'Does a Palm Beach Gardens mailing address mean the home is inside the City?',
+        a: "No. The mailing area reaches into unincorporated Palm Beach County and borders North Palm Beach, Lake Park, Juno Beach and Jupiter, which are separate municipalities. The City's own test is the Palm Beach County Property Appraiser record: if the municipality field says Palm Beach Gardens, the parcel is in the City. Taxes, permitting, police and code enforcement follow that answer, not the mail.",
+      },
+      {
+        q: 'Is Palm Beach Gardens on the beach?',
+        a: 'No. The City does not front the Atlantic Ocean. The beaches are east of it, in the Town of Juno Beach, the Town of Jupiter, and on Singer Island, where John D. MacArthur Beach State Park sits in North Palm Beach. We do not publish drive times; test the trip from the address you are considering, on a weekend morning in season.',
+      },
+      {
+        q: 'Who founded Palm Beach Gardens?',
+        a: "John D. MacArthur. Per the historical marker in the City, he announced plans on March 20, 1959 to develop approximately 4,000 acres with homes for 55,000 people, and instructed that streets and construction go around existing trees. The City dates its growth from 1959. The 2020 Census counted 59,182 residents, and the Census Bureau's July 1, 2025 estimate is 63,883.",
+      },
+      {
+        q: 'Is the PGA of America headquartered in Palm Beach Gardens?',
+        a: 'Not anymore. The PGA of America was headquartered in the City, announced in December 2018 that it would move to Frisco, Texas, and opened its new headquarters there on August 22, 2022. PGA National Resort remains inside the City, and its Champion Course hosts the PGA TOUR\'s Cognizant Classic in The Palm Beaches, formerly the Honda Classic, played there since 2007.',
+      },
+      {
+        q: 'Can I drive a golf cart on the streets in Palm Beach Gardens?',
+        a: 'Inside many communities, on private streets, yes, under that community\'s rules. On public roads, Florida law allows golf carts only where the City or County has designated and signed a street for them, and a local ordinance can be stricter. Check the community documents and the City before counting on it.',
+      },
+      {
+        q: 'Is Palm Beach Gardens car-dependent?',
+        a: 'A car is practical for most routines, since home, work, the club, groceries, medical and the beach tend to sit on different corridors. Palm Tran runs Route 1 on US-1, Route 20 on Northlake Boulevard, Route 33 to the Gardens Mall and Route 10 to Jupiter; whether one fits depends on the exact address and the current schedule. Alton, Downtown at the Gardens and PGA Commons are walkable pockets inside a car-oriented city.',
+      },
+      {
+        q: 'What should I verify before buying in a Palm Beach Gardens community?',
+        a: 'The association budget, reserves, assessments and rules; whether a club membership is mandatory and what it costs to join, keep and resell; any Community Development District assessment on the tax record; the milestone inspection and reserve study for a condominium of three or more habitable stories; the municipality and utility provider; the FEMA flood zone and written wind and flood quotes; and the homestead picture for your own ownership.',
+      },
     ],
-    internalLinks: ["best-neighborhoods-in-palm-beach-gardens-florida", "best-things-to-do-in-palm-beach-gardens-florida", "who-should-move-to-palm-beach-gardens-florida"],
-    funFact: "Palm Beach Gardens was incorporated in 1959 on land donated by John D. MacArthur, who bought much of northern Palm Beach County for pennies on the dollar after World War II. MacArthur literally platted the city and named it — and the MacArthur Foundation still holds conservation easements on thousands of acres in the area.",
+    internalLinks: [
+      'local-guide-to-palm-beach-gardens-florida',
+      'best-neighborhoods-in-palm-beach-gardens-florida',
+      'cost-of-living-in-palm-beach-gardens-florida',
+      'pros-and-cons-of-living-in-palm-beach-gardens-florida',
+      'who-should-move-to-palm-beach-gardens-florida',
+      'palm-beach-gardens-vs-nearby-cities',
+    ],
+    funFact: "The founding marker says MacArthur planned homes for 55,000 people on about 4,000 acres. The City has since grown to 58.71 square miles of land, the 2020 Census counted 59,182 residents, and the 2025 estimate is 63,883. The plan was beaten on population and dwarfed on land, much of it the open country west of the Turnpike.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-03',
   },
   {
     slug: 'local-guide-to-palm-beach-gardens-florida',
