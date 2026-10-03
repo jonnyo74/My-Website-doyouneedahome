@@ -29707,7 +29707,7 @@ That is the city's real identity, and it cuts both ways. The same planning that 
 
 ## A city that was drawn before it was built
 
-The founding is written on a marker in the City, and it is worth quoting rather than paraphrasing. On March 20, 1959, John D. MacArthur, an insurance magnate and landowner, announced plans to develop approximately 4,000 acres and provide homes for 55,000 people in a new community. He envisioned streets lined with trees and flowers, a community with plentiful waterways, rolling terrain and mature pine and shade trees, and he instructed that streets and construction go around trees that had been growing there for years. The marker calls this the "garden city" philosophy, and the City of Palm Beach Gardens dates its growth from 1959.
+The founding is written on a marker at the City Hall campus on North Military Trail, and it is worth quoting rather than paraphrasing. On March 20, 1959, John D. MacArthur, an insurance magnate and landowner, announced plans to develop approximately 4,000 acres and provide homes for 55,000 people in a new community. He envisioned streets lined with trees and flowers, a community with plentiful waterways, rolling terrain and mature pine and shade trees, and he instructed that streets and construction go around trees that had been growing there for years. The marker calls this the "garden city" philosophy, and the City of Palm Beach Gardens dates its growth from 1959.
 
 The best-known expression of that philosophy is a pair of banyan trees. Per the [historical marker on MacArthur Boulevard](https://www.hmdb.org/m.asp?m=97049) just north of Northlake Boulevard, MacArthur bought an 80-year-old banyan in Lake Park that was slated for destruction and had it moved there in 1960, and a second, smaller one the following year. The tree is on the City's shield.
 
@@ -29745,7 +29745,9 @@ What the pattern does not give you is a traditional downtown: no main street tha
 ![The stone PGA National sign wall with crossed-club medallions, palms behind it and a road in front, in Palm Beach Gardens](/images/palm-beach-gardens/gardens-pga-national-sign.webp "The PGA National sign wall. Street lights and poles were removed from the frame. || Photo by John Oliver, retouched")
 ![A tiered white fountain in a landscaped roundabout with red and yellow coleus beds, date palms and oaks, and a striped lawn in the foreground, at Mirasol in Palm Beach Gardens](/images/palm-beach-gardens/gardens-mirasol-roundabout-fountain.webp "A roundabout fountain inside Mirasol. || Photo by John Oliver, 2026")
 ![The Mirasol sign wall beside a lake with a jet fountain under a bank of dark storm clouds, lawn in the foreground, in Palm Beach Gardens](/images/palm-beach-gardens/gardens-mirasol-lake-storm.webp "The same lake and sign wall at Mirasol under afternoon storm clouds. || Photo by John Oliver, 2026")
-![A black cast-metal historical marker headed John D. MacArthur 1897 to 1978 under a live oak at dusk in Palm Beach Gardens, its inscription describing the March 20, 1959 announcement of a community for 55,000 people on approximately 4,000 acres](/images/palm-beach-gardens/macarthur-marker.webp "The John D. MacArthur marker in Palm Beach Gardens. Its inscription is the source for the founding section above. || Photo by John Oliver, 2023")
+![A bronze statue of a standing bear, mouth open, beside a lake and fairway on the Champion Course at PGA National in Palm Beach Gardens under a clear blue sky](/images/palm-beach-gardens/gardens-pga-national-bear-trap.webp "The Bear Trap bear on the Champion Course at PGA National. || Photo by John Oliver")
+![A two-storey condominium building with a barrel-tile roof and screened balconies behind a row of palms and a lawn at PGA National in Palm Beach Gardens](/images/palm-beach-gardens/gardens-pga-national-condos.webp "A condominium building inside PGA National. || Photo by John Oliver")
+![A black cast-metal historical marker headed John D. MacArthur 1897 to 1978 under a live oak at dusk in Palm Beach Gardens, its inscription describing the March 20, 1959 announcement of a community for 55,000 people on approximately 4,000 acres](/images/palm-beach-gardens/macarthur-marker.webp "The John D. MacArthur marker at the City Hall campus on North Military Trail. Its inscription is the source for the founding section above. || Photo by John Oliver, 2023")
 :::
 
 ## The beach question, plainly
@@ -29850,7 +29852,7 @@ For more, read the [Palm Beach Gardens community guide](/communities/palm-beach-
       },
       {
         q: 'Who founded Palm Beach Gardens?',
-        a: "John D. MacArthur. Per the historical marker in the City, he announced plans on March 20, 1959 to develop approximately 4,000 acres with homes for 55,000 people, and instructed that streets and construction go around existing trees. The City dates its growth from 1959. The 2020 Census counted 59,182 residents, and the Census Bureau's July 1, 2025 estimate is 63,883.",
+        a: "John D. MacArthur. Per the historical marker at the City Hall campus, he announced plans on March 20, 1959 to develop approximately 4,000 acres with homes for 55,000 people, and instructed that streets and construction go around existing trees. The City dates its growth from 1959. The 2020 Census counted 59,182 residents, and the Census Bureau's July 1, 2025 estimate is 63,883.",
       },
       {
         q: 'Is the PGA of America headquartered in Palm Beach Gardens?',
