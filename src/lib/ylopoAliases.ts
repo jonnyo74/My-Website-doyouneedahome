@@ -37,12 +37,17 @@ export const YLOPO_ALIASES: Record<string, string[]> = {
   // Gardens, but actives are also filed under a village name and the recorded
   // plat parcels. "Mirabella At Mirasol" / "Mirasol - Mirabella" are left out on
   // purpose: Mirabella is a separate gated community next door, not part of the
-  // Country Club at Mirasol. The autocomplete returns ten rows, so other
-  // "Mirasol Par N" plats may exist; query "Mirasol Par" to enumerate them.
+  // Country Club at Mirasol. The plat list is the union of q=Mirasol and
+  // q="Mirasol Par" on 2026-10-03; the autocomplete caps at ten rows, so a plat
+  // it did not surface may still exist.
   Mirasol: [
     'Mirasol-Playa Rienta',
     'Mirasol Par 8',
     'Mirasol Par 12',
+    'Mirasol Par 14',
+    'Mirasol Par 16',
+    'Mirasol Par 20',
+    'Mirasol Par 23',
   ],
 }
 
