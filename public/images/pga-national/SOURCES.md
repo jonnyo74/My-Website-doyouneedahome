@@ -37,6 +37,13 @@ photo of a property for sale misrepresents the property.
   Gardens* (the PGA National section) and `pga-national-sign-closeup.jpg` in *Best Things
   to Do in Palm Beach Gardens* (the PGA National golf paragraph).
 
+### Authorship (added 2026-10-03)
+
+John confirmed on 2026-10-03 that `pga-national-001.jpg` (the Bear Trap bear) and
+`pga-national-006.jpg` (the condo building) are his own photos. No capture date is
+recorded, so they are credited "Photo by John Oliver" without a year. Both are
+reused, re-cropped, in `../palm-beach-gardens/` for the living-in article.
+
 ## Removed 2026-08-16 — Honda Classic spectator photos
 
 Eleven files were deleted from the repo on John's instruction. Six lived here as
