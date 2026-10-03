@@ -30294,101 +30294,179 @@ Spend a weekday and a weekend evening in any community you are serious about, an
     cityName: 'Palm Beach Gardens',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in Palm Beach Gardens, Florida",
-    metaTitle: "Best Things to Do in Palm Beach Gardens, Florida",
-    metaDescription: "From world-class golf and the Gardens Mall to nature preserves and the beach nearby — a local guide to the best things to do in Palm Beach Gardens, Florida.",
-    primaryKeyword: "things to do in Palm Beach Gardens Florida",
-    secondaryKeywords: ["Palm Beach Gardens attractions", "what to do in Palm Beach Gardens", "PGA National golf", "Downtown at the Gardens"],
-    h1: "Best Things to Do in Palm Beach Gardens, Florida",
-    heroImage: '/images/palm-beach-gardens/pbg-003.jpg',
-    body: `The Gardens is built for the good life rather than for sightseeing. There's no single headline attraction — what there is instead is an unusually high floor. Golf, green space, excellent shopping, serious racquet facilities, and the beach a short drive east.
-
-Here's how a local would actually tell you to spend your time.
-
-## Play golf — at basically any budget
-
-This is the reason people come, and the range is wider than most visitors realize.
-
-**PGA National** is the marquee destination: multiple championship courses, a resort and spa, and the famous stretch of holes that hosts a PGA Tour event every winter. You don't need to be a member or a guest of the resort to appreciate what it does for the town.
-
-![PGA National stone sign wall in Palm Beach Gardens](/images/pga-national/pga-national-sign-closeup.jpg "PGA National, home of the Gardens' annual PGA Tour event.")
-
-**Sandhill Crane Golf Club** is the genuine local secret — a quality municipal course, open to anyone, at a fraction of private-club cost. For residents who don't belong to a club, this is the answer, and it's a legitimately good golf course rather than a compromise.
-
-Beyond those, private clubs are spread across the city, most attached to residential communities.
-
-![Golf hole with water hazard and bunkers in Palm Beach Gardens](/images/palm-beach-gardens/palm-beach-gardens-006.jpg "The range is the point — championship resort golf and a well-regarded municipal course exist within a few miles of each other.")
-
-**Watching** is its own activity here. The PGA Tour event each winter turns the town into a golf destination for a week, and it's one of the real perks of the address if you enjoy the sport.
-
-## Shop and dine the easy way
-
-The **Gardens Mall** is one of the most upscale centers in South Florida, and it functions as a genuine destination rather than just a place to buy things — it's also the standard rainy-afternoon and too-hot-outside fallback.
-
-**Downtown at the Gardens** is the more social option: open-air dining, a movie theater, a vintage carousel, and a regular events calendar. It's where a lot of casual evenings and family outings end up.
-
-**PGA Commons** rounds it out with a walkable strip of independent restaurants and cafés along PGA Boulevard.
-
-## Get outside in the preserves
-
-The western side of the city holds serious natural area, and it's the part of the Gardens visitors never see. **Loxahatchee Slough Natural Area**, **Frenchman's Forest**, and the boardwalk and kayak launch at **Sandhill Crane Access Park** all offer trails, birdwatching, and genuine quiet within city limits.
-
-These are covered in more depth in our [hidden gems guide](/blog/hidden-gems-in-palm-beach-gardens-florida), but the short version is that the green space here is far better than the city's manicured reputation suggests.
-
-## Catch an event
-
-The city runs a fuller events calendar than most people expect. Downtown at the Gardens hosts regular concerts, markets, and seasonal events, and the amphitheater and municipal complex handle city-run programming through the cooler months.
-
-The **PGA Tour event at PGA National** each winter is the big one, drawing crowds and turning the town into a golf destination for a week. Beyond that, the city's parks and recreation department runs a steady stream of community programming — much of it free, most of it aimed at residents rather than visitors, and easy to miss unless you're looking at the city calendar.
-
-For anyone new here, the city calendar is genuinely worth checking monthly. It's where a lot of the town's community life is organized, and it's the least publicized thing about the place.
-
-## Racquet sports
-
-The Gardens takes this seriously. **Burns Road Community Center** is the public hub, with one of the better public tennis and pickleball facilities in the area, plus a pool and fitness center. Most club communities also have extensive racquet programs, and pickleball in particular has become a major social driver locally.
-
-If you're relocating and want a way to meet people that doesn't require a club membership, the public racquet scene is one of the most effective options in the city.
-
-## Hit the beach — 15 to 20 minutes east
-
-No ocean in the Gardens itself, but Juno Beach, Jupiter's beaches, and **MacArthur Beach State Park** on Singer Island are all a short drive. MacArthur Beach in particular is worth the trip — a state park with a boardwalk over the estuary, a nature center, and one of the least crowded stretches of sand in the county.
-
-## Day trips within an hour
-
-- **Downtown West Palm Beach and the Norton Museum of Art** (about 25–30 minutes) — the area's urban core and the best art museum in the county.
-- **Jupiter Inlet Lighthouse** (about 20 minutes north) — climb it once for the view.
-- **Riverbend Park** in Jupiter (about 20 minutes) — paddling, biking, and old Florida landscape.
-- **Peanut Island** (about 25 minutes) — snorkeling and boating in the Lake Worth Inlet.
-- **Downtown Stuart** (about 45 minutes north) — a walkable historic downtown and a slower pace.
-
-## The Sunday GreenMarket
-
-In season, the GreenMarket at the municipal complex is the closest thing the city has to a shared weekly ritual — produce, prepared food, and music. It's a genuinely good way to spend a Sunday morning and the easiest way for new residents to start recognizing faces.
-
-## Seasonal timing
-
-**November through April** is when everything is open, the weather is ideal, and the town is busiest. Book restaurants ahead and expect company.
-
-**May through October** is hot and quiet. Plan outdoor activity for early morning or evening, and keep an indoor backup — the mall, a movie at Downtown at the Gardens, a spa afternoon — ready for the afternoon storm, which typically builds and clears within half an hour.
-
-## The honest local advice
-
-If you're visiting: play Sandhill Crane, eat at PGA Commons, spend an afternoon at MacArthur Beach, and walk one of the western preserves. That's a better picture of the actual Gardens than the mall and a resort course.
-
-If you've just moved here: get on the public racquet courts or into the GreenMarket routine in your first month. The town's social infrastructure is real, but unlike a beach town it doesn't just happen to you — you have to step into it.`,
-    faqs: [
-      { q: "What are the best things to do in Palm Beach Gardens?", a: "Play golf at PGA National or the municipal Sandhill Crane Golf Club, shop the Gardens Mall, spend an evening at Downtown at the Gardens or PGA Commons, walk the western preserves like Loxahatchee Slough and Frenchman's Forest, use the tennis and pickleball facilities at Burns Road Community Center, and drive 15–20 minutes east to the beach." },
-      { q: "Can you play golf in Palm Beach Gardens without a club membership?", a: "Yes. Sandhill Crane Golf Club is a quality municipal course open to anyone at a fraction of private-club cost, and PGA National's resort courses are accessible without residential membership. Many private clubs are attached to residential communities." },
-      { q: "What is there to do in Palm Beach Gardens when it rains?", a: "The Gardens Mall, a movie at Downtown at the Gardens, or a spa afternoon are the standard fallbacks. In summer, afternoon storms typically build and clear within about half an hour, so many residents simply wait them out." },
-      { q: "Where is the closest beach to Palm Beach Gardens?", a: "Juno Beach is roughly 15 minutes east. Jupiter's beaches and MacArthur Beach State Park on Singer Island are about 15–20 minutes. MacArthur Beach is a state park with a boardwalk over the estuary and a nature center." },
-      { q: "Is there pickleball in Palm Beach Gardens?", a: "Yes, and it's a significant local social driver. Burns Road Community Center has one of the better public tennis and pickleball facilities in the area, and most club communities run extensive racquet programs." },
-      { q: "Does Palm Beach Gardens host a PGA Tour event?", a: "Yes — PGA National hosts a PGA Tour event each winter, and the PGA of America relocated its national headquarters to the city in 2023. Schedules change year to year, so check with the venue for current dates." },
+    seoTitle: 'Best Things to Do in Palm Beach Gardens, Florida',
+    metaTitle: 'Best Things to Do in Palm Beach Gardens, Florida',
+    metaDescription:
+      "Things to do in Palm Beach Gardens, Florida: the City's public golf course, its Tennis & Pickleball Center and aquatic complex, the Gardens GreenMarket, PGA National and the Cognizant Classic, the shopping districts, County natural areas, and the beach towns east of the City.",
+    primaryKeyword: 'things to do in Palm Beach Gardens Florida',
+    secondaryKeywords: [
+      'what to do in Palm Beach Gardens',
+      'Palm Beach Gardens activities',
+      'Sandhill Crane Golf Club',
+      'Palm Beach Gardens Tennis and Pickleball Center',
+      'Gardens GreenMarket',
     ],
-    internalLinks: ["hidden-gems-in-palm-beach-gardens-florida", "local-guide-to-palm-beach-gardens-florida", "best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida"],
-    funFact: "The PGA of America moved its headquarters to Palm Beach Gardens in 2023 — the national governing body of golf is now literally based in the city. That move was the culmination of a deliberate courtship by the city and reflects how central golf is to the local economy and identity.",
+    h1: 'Best Things to Do in Palm Beach Gardens, Florida',
+    heroImage: '/images/palm-beach-gardens/gardens-bear-trap-hero.webp',
+    heroImageAlt: 'The bronze Bear Trap bear statue beside a lake and fairway on the Champion Course at PGA National in Palm Beach Gardens under a clear blue sky',
+    heroImageCaption: 'The Bear Trap bear on the Champion Course at PGA National, the course that hosts the Cognizant Classic in The Palm Beaches.',
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 1024,
+    heroImageHeight: 576,
+    editorial: {
+      eyebrow: 'Palm Beach Gardens · Things to Do',
+      deck: 'No single headline attraction. What the City has instead is public golf, a municipal racquet center, an aquatic complex, a Sunday market, a PGA TOUR stop, three shopping districts, County natural areas, and the beach towns next door.',
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: '/images/palm-beach-gardens/gardens-bear-trap-panel.webp', width: 1024, height: 1280 },
+      mobileImage: { src: '/images/palm-beach-gardens/gardens-bear-trap-mobile.webp', width: 1024, height: 683 },
+      panelCaption: 'The Bear Trap bear on the Champion Course at PGA National.',
+      primaryCta: { label: 'Explore Palm Beach Gardens', href: '/communities/palm-beach-gardens' },
+      secondaryCta: { label: 'Where to eat and drink in Palm Beach Gardens', href: '/blog/best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'none',
+      closingStep: {
+        eyebrow: 'Next step',
+        text: 'Thinking about living near any of this? The community guide covers the areas, and we can talk through what a specific address is close to.',
+        cta: { label: 'Explore living in Palm Beach Gardens', href: '/communities/palm-beach-gardens' },
+      },
+    },
+    body: `Palm Beach Gardens is not a sightseeing city. There is no lighthouse, no pier, no historic main street to walk. What there is instead is a set of things you can do, most of them run by the City itself or by the resort and the shopping centers along PGA Boulevard: a public golf course and a par-3, a municipal racquet center, an aquatic complex, a Sunday market, a PGA TOUR event each spring, three shopping districts, and thousands of acres of County natural area on the western side. The ocean is not one of them, and this guide says so plainly.
+
+It is organized in two parts. First, what is physically inside the City of Palm Beach Gardens, verified on the City's or the venue's own site. Then what is worth the trip outside it, with the municipality named for each, because North County geography is confusing and a guide should make it less so. Hours, fees, schedules and conditions change; every entry links to the page that carries the current version.
+
+## Golf inside the City
+
+**[Sandhill Crane Golf Club](https://www.pbgfl.gov/506/Golf)**, 9500 Sandhill Crane Drive, is owned and operated by the City of Palm Beach Gardens and open to the public. The City's pages describe two courses: a par-72 [championship course](https://www.pbgfl.gov/1330/Championship-Course-at-Sandhill-Crane-Go), redesigned by Dusenberry Design in 2013 and playing to 6,500 yards through pines, palms and marsh west of the Turnpike, and [The Nest](https://www.pbgfl.gov/1331/The-Nest-Par-3), a Nicklaus Design par-3 that opened in the summer of 2023. [Tee times](https://www.pbgfl.gov/266/Tee-Times) are booked through the City, and the Dancing Crane restaurant at the clubhouse is open to the public. It is the answer to the question most people ask first: you do not need to belong to a club to play golf in this City.
+
+**[PGA National](/communities/pga-national)** is the other half of the picture, with a different access rule. The [PGA National Members Club](https://www.pgamembersclub.com/) lists five courses, the Champion, the Palmer, the Fazio, the Match and the Staple short course, 79 holes in all. The resort's own [FAQ](https://www.pgaresort.com/about/faq) says course access is reserved for resort guests and members, based on availability, and it publishes stay-and-play packages for guests. So the way in without a membership is a resort stay, not a walk-up tee time, and the resort's pages carry what is available on a given date.
+
+**Watching golf** is its own activity here. The Champion Course hosts the PGA TOUR's [Cognizant Classic in The Palm Beaches](https://www.pgatour.com/article/news/the-first-look/2026/02/23/the-first-look-cognizant-classic-in-the-palm-beaches-pga-national-course-field-preview-storylines), the event long known as the Honda Classic, played at PGA National since 2007. The TOUR publishes each year's dates and the sponsor name can change; the course and the Bear Trap, holes 15 through 17, are the constants.
+
+One correction, because it was on this page before. The PGA of America is not headquartered in Palm Beach Gardens. It was, and it [opened its new headquarters in Frisco, Texas, on August 22, 2022](https://www.pga.com/story/pga-frisco-is-officially-open-for-business). The City's real golf history is older and runs through [BallenIsles](/communities/ballen-isles), whose [history page](https://www.ballenisles.org/about-the-club/history) records that the club opened as PGA National Golf Club, hosted the 1971 PGA Championship, the first major played in Florida, became JDM Country Club in 1973 and took its current name in 1988.
+
+## Racquet sports, swimming and the City's recreation campus
+
+The City runs three separate facilities here, and they are not the same building.
+
+**[The Tennis & Pickleball Center](https://www.pbgfl.gov/356/Tennis-Pickleball-Center)**, 5110 117th Court North, is the dedicated racquet facility: 20 Har-Tru clay tennis courts, 10 pickleball courts and 4 hard tennis courts, all lighted, with a pro shop, a cafe, year-round programming for all ages and abilities, and USTA leagues and tournaments for able-bodied and wheelchair players. The City notes it won the USTA's 2025 National Outstanding Facility Award, and a previous one in 2014. Court fees, lessons and league sign-ups are on the City's pages. Next door, the [Gardens North County District Park](https://www.pbgfl.gov/1024/The-Gardens-North-County-District-Park), 5101 117th Court North, opened in 2019 on 82 acres with seven lighted multipurpose fields.
+
+**[The Aquatic Complex](https://www.pbgfl.gov/600/Aquatics)**, 4420 Burns Road, has a 25-yard competition pool, a main pool with lap lanes, a beach entry, a dive well and climbing walls, and a splash zone with slides. Lap swimming, open swim and lessons run on a published schedule with resident and non-resident rates.
+
+**[Burns Road Community Center](https://www.pbgfl.gov/1413/Recreation)**, 4404 Burns Road, beside the pool, carries the gymnasiums, fitness classes, youth and adult programs, and indoor open-gym sessions that include pickleball, basketball and volleyball on a seasonal schedule. The [Recreation Department](https://www.pbgfl.com/recreation) lists everything it runs, and the schedules change by season.
+
+## The Gardens GreenMarket and the City calendar
+
+**[The Gardens GreenMarket](https://www.pbgfl.com/GreenMarket)** is a City-run Sunday market at the City Hall Municipal Campus, 10500 North Military Trail, with produce, prepared food, flowers, crafts and live entertainment. It operates seasonally; the City's page carries the current season's dates, hours and any cancellations, and this guide deliberately does not.
+
+The City also keeps an active [events calendar](https://www.pbgfl.gov/events) and a [recreation calendar](https://www.pbgfl.com/recreation) that cover seasonal events, concerts, camps and programs. Rather than list what is on this month, check those pages. The City's [Art in Public Places](https://www.pbgfl.gov/431/Art-in-Public-Places) program, which requires larger non-residential developments to put one percent of construction cost into public art or into the City's art fund, is why sculpture turns up at shopping centers and office parks; the City has published a [scavenger hunt](https://www.pbgfl.gov/1509/Art-in-Public-Places-Scavenger-Hunt) for finding it.
+
+## The shopping and dining districts
+
+Three centers on or just off PGA Boulevard do most of the City's shopping, dining and evening-out work, and each is a place to park once and walk:
+
+- **[The Gardens Mall](https://www.thegardensmall.com/visiting/)**, 3101 PGA Boulevard. An enclosed regional mall, open since 1988, with more than 150 stores and restaurants by its own count.
+- **[Downtown at the Gardens](https://downtownatthegardens.com/contact/)**, 11701 Lake Victoria Gardens Avenue. An open-air center of shops and restaurants beside the mall.
+- **[PGA Commons](https://pgacommons.com/)**, on the south side of PGA Boulevard between I-95 and the Turnpike. A mixed-use strip of restaurants, galleries, offices and apartments.
+
+[Alton Town Center](https://www.altontowncenter.com/location-and-contact), 5320 Donald Ross Road, serves the north side of the City the same way. The restaurants themselves are covered, venue by venue, in the [eat, drink and hang out guide](/blog/best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida).
+
+## Natural areas on the City's western and eastern edges
+
+The open land that surrounds the City is mostly Palm Beach County's, run by its Environmental Resources Management department, and each site carries a Palm Beach Gardens address.
+
+- **[Loxahatchee Slough Natural Area](https://discover.pbc.gov/erm/NaturalAreas/Loxahatchee-Slough.aspx)**, 13,025 acres north and south of PGA Boulevard west of the Turnpike, is the County's largest natural area and the headwaters of the Loxahatchee River. The main entrance is at 11855 Beeline Highway, with a paved trail, an observation platform and natural-surface trails to a fishing pier and tower.
+- **[Karen T. Marcus Sandhill Crane Access Park](https://discover.pbc.gov/erm/NaturalAreas/Loxahatchee-Slough.aspx)**, 8175 PGA Boulevard, is the Slough's eastern gateway, with an observation tower and the Jeaga Wildways multi-use trail along the C-18 Canal. The **kayak and canoe launch** at 8311 PGA Boulevard puts paddlers on a two-mile one-way trail through the natural area.
+- **[Frenchman's Forest Natural Area](https://discover.pbc.gov/erm/NaturalAreas/Frenchmans-Forest.aspx)**, 12201 Prosperity Farms Road, on the City's eastern side, is 172 acres with a paved 0.4-mile trail, three sandy trails, a boardwalk through cypress swamp and an observation platform over tidal swamp, open sunrise to sunset.
+
+Two cautions. Hours, trail closures and water levels are on each County page, and these are natural areas rather than parks: no lifeguards, no concessions, and the Slough's paddle trail depends on water conditions. And a Palm Beach Gardens address on a County site does not settle whether the parcel is inside the City line; for an activities guide it does not need to, since the County runs them either way. The [hidden gems guide](/blog/hidden-gems-in-palm-beach-gardens-florida) goes further into each.
+
+## Scenes from Palm Beach Gardens
+
+::: gallery
+![The stone PGA National sign wall with crossed-club medallions, palms behind it and a road in front, in Palm Beach Gardens](/images/palm-beach-gardens/gardens-pga-national-sign.webp "The PGA National sign wall on PGA Boulevard. Street lights and poles were removed from the frame. || Photo by John Oliver, retouched")
+![A two-storey condominium building with a barrel-tile roof and screened balconies behind a row of palms and a lawn at PGA National in Palm Beach Gardens](/images/palm-beach-gardens/gardens-pga-national-condos.webp "Inside PGA National, whose courses are open to resort guests and members. || Photo by John Oliver")
+![A black cast-metal historical marker headed John D. MacArthur 1897 to 1978 under a live oak at dusk in Palm Beach Gardens, its inscription describing the March 20, 1959 announcement of a community for 55,000 people on approximately 4,000 acres](/images/palm-beach-gardens/macarthur-marker.webp "The MacArthur marker at the City Hall campus on North Military Trail, where the Gardens GreenMarket runs in season. || Photo by John Oliver, 2023")
+![A jet fountain in a lake beside the Mirasol sign wall in Palm Beach Gardens, with clipped hedges and a lawn in the foreground and oaks and palms behind](/images/palm-beach-gardens/gardens-mirasol-lake-fountain.webp "A lake and fountain at Mirasol, one of the City's planned communities. || Photo by John Oliver, 2026")
+![A tiered white fountain in a landscaped roundabout with red and yellow coleus beds, date palms and oaks, and a striped lawn in the foreground, at Mirasol in Palm Beach Gardens](/images/palm-beach-gardens/gardens-mirasol-roundabout-fountain.webp "A roundabout inside Mirasol. || Photo by John Oliver, 2026")
+:::
+
+## The ocean is outside the City
+
+Palm Beach Gardens does not front the Atlantic. Every beach a resident uses is in another municipality, and the honest guide names them:
+
+- **Juno Beach**, the Town east of the City. [Juno Beach Park](https://discover.pbc.gov/parks/Locations/Juno-Beach.aspx), 14775 US Highway One, is a Palm Beach County park with guarded swimming, a surfing area and the County's pedestrian fishing pier, which [Loggerhead Marinelife Center](https://marinelife.org/plan-your-visit/), 14200 US Highway 1, manages. The Center itself is a sea turtle hospital with free admission and guided tours.
+- **Jupiter**, the Town to the north, with County parks on its oceanfront and the dog-beach corridor. Our [Jupiter beach access guide](/blog/jupiter-beach-access-guide) lists the crossovers.
+- **Singer Island**, where [John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park) sits at 10900 Jack Nicklaus Drive, North Palm Beach, with a boardwalk over the estuary and a nature center. It is a state park in North Palm Beach, not a Gardens park, whatever its name suggests.
+
+We don't publish drive times to any of them. They depend on where in the City you start, the road, the season and the hour.
+
+## Worth the trip beyond Palm Beach Gardens
+
+Each of these is outside the City, in the municipality named, and each is run by someone whose page carries the current hours and conditions:
+
+- **Jupiter Inlet Lighthouse**, Jupiter. The 1860 tower inside the BLM's [Outstanding Natural Area](https://www.blm.gov/visit/jupiter-inlet-lighthouse-outstanding-natural-area), with climbing tours run by the [Loxahatchee River Historical Society](https://www.jupiterlighthouse.org/explore/history/lighthouse-history/). Our [Jupiter things to do guide](/blog/best-things-to-do-in-jupiter-florida) covers it.
+- **Riverbend Park**, Jupiter. A 644-acre [County park](https://discover.pbc.gov/parks/pages/riverbend.aspx) on the Loxahatchee River at 9060 Indiantown Road, with hiking, biking, equestrian and paddling trails, connected to the Sandhill Crane Access Park by the Bluegill Trail.
+- **Peanut Island**, in the Intracoastal near the Lake Worth Inlet, off Riviera Beach. An 80-acre [County park](https://discover.pbc.gov/parks/Locations/Peanut-Island.aspx) reached by boat or water taxi, with a guarded snorkeling lagoon and permit-only campsites.
+- **The Norton Museum of Art and downtown West Palm Beach**, south of the City. The [Norton](https://www.norton.org/visit/hours-admission) is at 1450 South Dixie Highway, West Palm Beach.
+
+## Before you go
+
+- [ ] **Check the weather and any official alerts** before an outdoor plan. South Florida's wet season runs May 15 through October 15 per the [National Weather Service](https://www.weather.gov/mfl/summer_season), hurricane season June 1 through November 30 per the [Florida Division of Emergency Management](https://www.floridadisaster.org/planprepare/preparing-for-hurricane-season/), and heat is a planning factor for most of the year.
+- [ ] **Confirm the schedule.** The GreenMarket, pool hours, open-gym sessions and much of the City's programming are seasonal, and the Cognizant Classic's dates move year to year.
+- [ ] **Confirm access.** PGA National's courses are for resort guests and members; Sandhill Crane is public. The Slough's paddle trail depends on water levels.
+- [ ] **Bring the right expectations to a natural area**: no lifeguards, no concessions, sunrise to sunset.
+- [ ] **Remember where the City ends.** The beach, the lighthouse, the river park and the museum are each in another municipality.
+
+## If you only have one day in Palm Beach Gardens
+
+Morning on the City's championship course or The Nest at Sandhill Crane, or on the clay at the Tennis & Pickleball Center. Midday at one of the three PGA Boulevard centers. Afternoon on the Jeaga Wildways trail from the Sandhill Crane Access Park, or on the boardwalk at Frenchman's Forest. On a Sunday in season, start at the GreenMarket instead. If it is tournament week, the Champion Course replaces all of it.
+
+If you want the ocean, you leave the City and head east, to Juno Beach, to Jupiter or to Singer Island. That is the one thing this guide cannot put inside Palm Beach Gardens, and it is the thing to know before you move here. For the rest of the picture, read [what living in Palm Beach Gardens is really like](/blog/what-its-really-like-living-in-palm-beach-gardens-florida) and the [local guide](/blog/local-guide-to-palm-beach-gardens-florida).`,
+    faqs: [
+      {
+        q: 'What are some things to do inside Palm Beach Gardens?',
+        a: "Play the City-owned Sandhill Crane Golf Club or its par-3, The Nest; use the City's Tennis & Pickleball Center, Aquatic Complex and Burns Road Community Center; shop and eat at the Gardens Mall, Downtown at the Gardens and PGA Commons; visit the Gardens GreenMarket in season at the City Hall campus; watch the Cognizant Classic at PGA National each spring; and walk or paddle the County natural areas at Loxahatchee Slough, the Sandhill Crane Access Park and Frenchman's Forest.",
+      },
+      {
+        q: 'Can you play golf in Palm Beach Gardens without living in a private club?',
+        a: 'Yes. Sandhill Crane Golf Club, 9500 Sandhill Crane Drive, is owned and operated by the City of Palm Beach Gardens and open to the public, with a par-72 championship course and the Nicklaus Design par-3 that opened in 2023. PGA National is different: its resort says course access is reserved for resort guests and members, so the route in without a membership is a resort stay.',
+      },
+      {
+        q: 'Does Palm Beach Gardens have public tennis and pickleball courts?',
+        a: "Yes. The City's Tennis & Pickleball Center at 5110 117th Court North has 20 Har-Tru clay tennis courts, 10 pickleball courts and 4 hard courts, all lighted, with year-round programs and USTA leagues and tournaments. The City says it won the USTA's 2025 National Outstanding Facility Award. Burns Road Community Center also runs seasonal indoor open-gym pickleball sessions; it is a separate facility.",
+      },
+      {
+        q: 'Is Palm Beach Gardens on the beach?',
+        a: 'No. The City does not front the Atlantic Ocean. The nearest beaches are in the Town of Juno Beach, including Juno Beach Park and its County pier; in the Town of Jupiter; and on Singer Island at John D. MacArthur Beach State Park, which is in North Palm Beach. We do not publish drive times.',
+      },
+      {
+        q: 'Where is The Gardens GreenMarket?',
+        a: "At the City Hall Municipal Campus, 10500 North Military Trail, Palm Beach Gardens. It is a City-run Sunday market with produce, prepared food, flowers, crafts and live entertainment, and it operates seasonally. The City's GreenMarket page carries the current season's dates and hours.",
+      },
+      {
+        q: 'Does Palm Beach Gardens host a PGA TOUR event?',
+        a: "Yes. The Champion Course at PGA National hosts the Cognizant Classic in The Palm Beaches each spring, the event formerly known as the Honda Classic and played there since 2007. The PGA TOUR publishes each year's dates. The PGA of America itself is no longer headquartered in the City; it opened its new headquarters in Frisco, Texas, in August 2022.",
+      },
+      {
+        q: 'Which nearby outdoor attractions are outside the City?',
+        a: 'Juno Beach Park, the Juno Beach pier and Loggerhead Marinelife Center are in Juno Beach. The Jupiter Inlet Lighthouse and Riverbend Park are in Jupiter. John D. MacArthur Beach State Park is in North Palm Beach on Singer Island. Peanut Island is a County park in the Intracoastal off Riviera Beach. The Norton Museum of Art is in West Palm Beach. Loxahatchee Slough, the Sandhill Crane Access Park and Frenchman\'s Forest are County natural areas with Palm Beach Gardens addresses.',
+      },
+    ],
+    internalLinks: [
+      'hidden-gems-in-palm-beach-gardens-florida',
+      'best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida',
+      'local-guide-to-palm-beach-gardens-florida',
+      'what-its-really-like-living-in-palm-beach-gardens-florida',
+      'best-neighborhoods-in-palm-beach-gardens-florida',
+      'best-things-to-do-in-jupiter-florida',
+    ],
+    funFact: "Palm Beach Gardens has public golf and tournament golf a few miles apart, and they run on different rules. Sandhill Crane Golf Club is owned by the City and takes public tee times; PGA National's five courses, including the Champion Course that hosts the Cognizant Classic, are for resort guests and members. The City's golf history starts at BallenIsles, which opened as PGA National Golf Club and hosted the 1971 PGA Championship, the first major played in Florida.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-03',
   },
   {
     slug: 'who-should-move-to-palm-beach-gardens-florida',
