@@ -12,11 +12,12 @@ export function matrixHeadingId(data: ComparisonMatrixData) {
 
 export default function ComparisonMatrix({ data }: { data: ComparisonMatrixData }) {
   const id = matrixHeadingId(data)
-  const fields = [
+  const fields: Array<{ key: 'jurisdiction' | 'priorities' | 'questions' | 'daily'; label: string }> = [
+    ...(data.labels.jurisdiction ? [{ key: 'jurisdiction' as const, label: data.labels.jurisdiction }] : []),
     { key: 'priorities', label: data.labels.priorities },
     { key: 'questions', label: data.labels.questions },
     { key: 'daily', label: data.labels.daily },
-  ] as const
+  ]
   return (
     <section aria-labelledby={id} className="mt-10">
       <h2 id={id} className="scroll-mt-28 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
@@ -40,12 +41,14 @@ export default function ComparisonMatrix({ data }: { data: ComparisonMatrixData 
             </h3>
             {row.tag && <p className="mt-0.5 text-xs leading-5 text-slate-500">{row.tag}</p>}
             <dl className="mt-4 space-y-3 text-sm leading-6">
-              {fields.map((f) => (
-                <div key={f.key}>
-                  <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-600">{f.label}</dt>
-                  <dd className="mt-0.5 text-slate-700">{row[f.key]}</dd>
-                </div>
-              ))}
+              {fields.map((f) =>
+                row[f.key] ? (
+                  <div key={f.key}>
+                    <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-600">{f.label}</dt>
+                    <dd className="mt-0.5 text-slate-700">{row[f.key]}</dd>
+                  </div>
+                ) : null,
+              )}
               <div className="rounded-lg bg-gold-50 px-3 py-2.5">
                 <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-gold-700">{data.labels.singer}</dt>
                 <dd className="mt-0.5 text-slate-700">{row.singer}</dd>
