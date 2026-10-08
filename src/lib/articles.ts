@@ -10559,8 +10559,8 @@ For walking, the Village says it has maintained more than 100 miles of public an
 Two venues drive the winter calendar. Wellington International hosts the Winter Equestrian Festival, and its [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) lists the 2027 festival running from early January into early April. The venue states that daytime general admission is free, with parking and reserved seating set separately ([visitor page](https://wellingtoninternational.com/visitors/)). The National Polo Center – Wellington has announced its 2027 season as running from late December into early May ([nationalpolocenter.com](https://www.nationalpolocenter.com/)).
 
 ::: gallery
-![A rider on a white horse at speed during a polo match, with a hedge in the foreground and a grandstand behind](/images/wellington/wellington-006.jpeg "Mid-match action from the sideline. The venue is not named here. || Photo by John Oliver, 2022")
-![Riders in front of a covered grandstand on a polo field, seen from under a roofline](/images/wellington/wellington-008.jpeg "Riders in front of the grandstand during a winter match. || Photo by John Oliver, 2022")
+![A rider on a white horse at speed ahead of other riders during a polo match, with a covered grandstand and palm trees behind](/images/wellington/polo-action-a.webp "Mid-match action from the sideline. || Photo by John Oliver, 2022")
+![Riders on brown horses contesting the ball in front of a covered grandstand on a polo field](/images/wellington/polo-action-c.webp "Riders contest the ball in front of the grandstand. || Photo by John Oliver, 2022")
 :::
 
 For residents, the season is felt in traffic, restaurant demand and local events more than in daily routines. How much depends on how close the address is to the venues and which days you travel, so test your routes during an event week and a quiet one. Dates change each season; confirm with the venues.
@@ -11018,10 +11018,10 @@ Wellington International hosts the Winter Equestrian Festival, which runs for se
 The National Polo Center – Wellington publishes its winter season at [nationalpolocenter.com](https://www.nationalpolocenter.com/). Its 2027 season is announced as running from late December into early May, with public admission, box seats, tailgate tents and a Sunday brunch among the ticket options it sells. Ticketing and dates are the venue's to set, and have changed between announcements in the past.
 
 ::: gallery
-![Riders on horseback strung across a grass polo field in front of a covered grandstand with palm trees](/images/wellington/wellington-003.jpeg "A polo match from the spectator side of the field. The venue is not named here. || Photo by John Oliver, 2022")
-![A rider on a white horse at speed during a polo match, with a hedge in the foreground and a grandstand behind](/images/wellington/wellington-006.jpeg "Mid-match action from the sideline. || Photo by John Oliver, 2022")
-![Two riders contesting the ball on a polo field, seen from under a roofline, with a grandstand in the background](/images/wellington/wellington-007.jpeg "Two riders contest the ball. || Photo by John Oliver, 2022")
-![Riders in front of a covered grandstand on a polo field, seen from under a roofline](/images/wellington/wellington-008.jpeg "Riders in front of the grandstand. || Photo by John Oliver, 2022")
+![Riders on horseback strung across a polo field in front of a covered grandstand with palm trees](/images/wellington/polo-action-d.webp "Riders spread across the field during a winter match. || Photo by John Oliver, 2022")
+![A rider on a white horse at speed ahead of other riders during a polo match, with a covered grandstand and palm trees behind](/images/wellington/polo-action-a.webp "Mid-match action from the sideline. || Photo by John Oliver, 2022")
+![A white horse and riders contesting the ball with a covered grandstand and palm trees behind](/images/wellington/polo-action-b.webp "Riders and horses close to the ball. || Photo by John Oliver, 2022")
+![Riders on brown horses contesting the ball in front of a covered grandstand on a polo field](/images/wellington/polo-action-c.webp "Riders contest the ball in front of the grandstand. || Photo by John Oliver, 2022")
 :::
 
 ## The Wellington Amphitheater and Village events
