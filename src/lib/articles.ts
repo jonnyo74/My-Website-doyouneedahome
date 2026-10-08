@@ -10652,6 +10652,7 @@ If it helps, we can organize an address-by-address checklist from your answers. 
 - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
 - [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)
 - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
 - [Wellington vs Nearby Areas](/blog/wellington-vs-nearby-cities)
 - [Palm Beach County and Treasure Coast relocation guide](/palm-beach-county-treasure-coast-relocation-guide)`,
@@ -11078,6 +11079,7 @@ Check the claims about new development carefully. Related Ross announced in Augu
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
 - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
 - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
 - [Wellington vs Nearby Areas](/blog/wellington-vs-nearby-cities)
 - [Palm Beach County and Treasure Coast relocation guide](/palm-beach-county-treasure-coast-relocation-guide)`,
@@ -11532,6 +11534,7 @@ Do not compare these places on a ranking. Compare the property in each against y
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
 - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
 - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)
 - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)`,
     faqs: [
@@ -11762,6 +11765,7 @@ In each pair, the cheaper listing can be the more expensive home to own, or the 
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
 - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
 - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
 - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)`,
     faqs: [
@@ -11994,6 +11998,7 @@ Only matched figures are compared. Redfin city pages reported these median sale 
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
 - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
 - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
 - [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)`,
     faqs: [
@@ -12045,20 +12050,22 @@ Only matched figures are compared. Redfin city pages reported these median sale 
     cityName: "Wellington",
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems in Wellington, Florida: Preserves, Trails & Public Recreation",
-    metaTitle: "Hidden Gems in Wellington, FL: Preserves, Trails & Parks",
-    metaDescription: "Public places in Wellington, FL worth a closer look: the Environmental Preserve, Peaceful Waters, bridle trails, the Amphitheater and parks, with sources.",
+    seoTitle: "Hidden Gems in Wellington, Florida: Boardwalks, Preserves, Playgrounds & Quiet Public Spaces",
+    metaTitle: "Hidden Gems in Wellington, FL: Boardwalks, Preserves & Parks",
+    metaDescription: "Hidden gems in Wellington, FL: the Peaceful Waters boardwalk, Environmental Preserve tower, Tiger Shark Cove, dog park and more, plus what to check first.",
     primaryKeyword: "hidden gems in Wellington Florida",
     secondaryKeywords: [
+      "Peaceful Waters Sanctuary Wellington",
       "Wellington Environmental Preserve",
-      "Peaceful Waters Sanctuary",
-      "Wellington nature preserve",
-      "Wellington parks"
+      "Tiger Shark Cove Wellington",
+      "Wellington Dog Park",
+      "free things to do in Wellington FL",
+      "Wellington nature boardwalk"
     ],
     h1: "Hidden Gems in Wellington, Florida",
     heroImage: "/images/wellington/polo-field-gems-hero.webp",
     heroImageAlt: "A wide polo field with riders and horses at the far side under a blue sky, with a covered grandstand and palm trees",
-    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCaption: "A polo match seen from the spectator side of the field. Wellington's famous events get the attention. This guide is about the quieter public places we do not yet have our own photographs of.",
     heroImageCredit: "Photo by John Oliver, 2022",
     heroImageWidth: 1600,
     heroImageHeight: 900,
@@ -12066,7 +12073,7 @@ Only matched figures are compared. Redfin city pages reported these median sale 
     marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
     editorial: {
       eyebrow: "Wellington · Hidden Gems",
-      deck: "Public preserves, trails and Village recreation worth a closer look, with the Village page to check for access, hours and rules.",
+      deck: "The overlooked public places in Wellington: a wetland boardwalk, a preserve with an observation tower, a shark-and-submarine playground, a dog park and quieter parks, with what to check before you go.",
       heroLayout: "split",
       heroTone: "guide",
       panelImage: {
@@ -12079,87 +12086,150 @@ Only matched figures are compared. Redfin city pages reported these median sale 
         width: 1200,
         height: 800
       },
-      panelCaption: "A polo match seen from the spectator side of the field.",
       primaryCta: {
         label: "Explore Wellington",
         href: "/communities/wellington"
       },
       secondaryCta: {
-        label: "Best things to do in Wellington",
-        href: "/blog/best-things-to-do-in-wellington-florida"
+        label: "Jump to the discovery outing",
+        href: "#a-self-guided-wellington-discovery-outing"
       },
       tableOfContents: true,
       tocAfterIntro: true,
       magnetPlacement: "none",
       closingStep: {
         eyebrow: "Next step",
-        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        text: "Discovering Wellington beyond the show grounds? Explore Wellington neighborhoods, compare homes and see how parks, preserves and local amenities fit your preferred location. No sign-up needed.",
         cta: {
           label: "Talk with us",
           href: "/contact"
         }
       }
     },
-    body: `"Hidden gems" here means public places and practical resources that are easy to overlook, not private knowledge. Every place below is run by the Village, and each section links to the Village's own page, because access, hours and conditions change. Nothing here promises what you will see or how busy a place will be.
+    body: `**The hidden gems in Wellington, Florida** are mostly public places that sit in plain sight: a 30-acre wetland park with an elevated boardwalk inside Village Park, a large preserve with a six-story observation tower, an ocean-themed playground with a submarine and a pirate ship, a fenced dog park and a handful of smaller parks. "Hidden" here means overlooked, not secret and not private. Every place below is public and run by the Village, and the guide says where to confirm access, because hours, closures and rules change. It also says what we could not verify, and it does not guarantee any wildlife sighting. For the headline attractions and events, see [best things to do in Wellington](/blog/best-things-to-do-in-wellington-florida). Facts were last checked against Village pages on October 8, 2026.
 
-## Wellington Environmental Preserve at Section 24
-
-The Village describes the preserve as a 410-acre rainwater storage area with nature trails and learning areas. It lists an observation tower, six stories high, and a boardwalk among its features, with seven designated learning areas reached by a paved path and boardwalk. Older Village and Acme material gives a smaller acreage of 365; the larger figure reflects an expansion by a 45-acre parcel acquired in December 2021. The Village's [preserve page](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57) is the source for access, hours and rules.
-
-It is also working infrastructure. It was built in partnership with the South Florida Water Management District and routes stormwater runoff through a constructed preserve before it moves on, which is why the Village describes it as both a preserve and a stormwater facility. The Village describes a 3.6-mile perimeter equestrian trail as an extension of its bridle trail system.
+| Hidden gem | Why visit | Access | Check before you go |
+|---|---|---|---|
+| [Peaceful Waters Sanctuary](https://www.wellingtonfl.gov/facilities/facility/details/Peaceful-Waters-Sanctuary-56) | An elevated wetland boardwalk and trails | No admission fee, closes at dusk | The monthly maintenance closure, no dogs or bicycles |
+| [Wellington Environmental Preserve](https://www.wellingtonfl.gov/facilities/facility/details/Wellington-Environmental-Preserve-Sectio-57) | Learning areas, a butterfly garden and a six-story tower | No admission fee | Hours, rules and the address |
+| [Tiger Shark Cove](https://www.wellingtonfl.gov/facilities/facility/details/Tiger-Shark-Cove-44) | An ocean-themed playground | Sunrise to sunset, per the Village | Hours and closures |
+| [Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23) | An acre of barrier-free play | Open daily, per a 2023 notice | Current hours and closures |
+| [Wellington Dog Park](https://www.wellingtonfl.gov/facilities/facility/details/Wellington-Dog-Park-9) | A fenced off-leash park split by dog size | Dawn to dusk | The Thursday maintenance closure and dog rules |
+| [Bridle trails](https://www.wellingtonfl.gov/582/Equestrian-Trails) | Part of Wellington's equestrian landscape | Some public, some private | Which trail is public |
 
 ## Peaceful Waters Sanctuary
 
-The Village lists Peaceful Waters Sanctuary among its [nature preserves](https://www.wellingtonfl.gov/649/Nature-Preserves), and its [facility page](https://www.wellingtonfl.gov/facilities/facility/details/Peaceful-Waters-Sanctuary-56) is the source for what the site offers and the rules that apply. This page does not describe its features beyond what the Village publishes, because they are the Village's to set.
+This is the one most residents drive past. The Village describes [Peaceful Waters Sanctuary](https://www.wellingtonfl.gov/facilities/facility/details/Peaceful-Waters-Sanctuary-56) as a 30-acre wetlands park inside the Village Park Athletic Complex, with about 1,500 feet of elevated nature boardwalks and one mile of walking trails. It is planted with native South Florida plants and serves as wildlife habitat, which is why the Village points visitors to birdwatching and nature photography. It sits inside an active athletic complex, so a short walk can take you from the fields to a wetland boardwalk.
 
-## The bridle trail network
+How it differs from the larger Environmental Preserve: Peaceful Waters is smaller, wetland-focused and inside an active park, so it suits a short walk. The tower and the butterfly garden are listed at the preserve below, which suits a longer outing.
 
-The Village states that since 1999 it has maintained more than 100 miles of public and private bridle trails ([FAQ](https://www.wellingtonfl.gov/FAQ.aspx?QID=175)), and its [Equestrian Trails page](https://www.wellingtonfl.gov/582/Equestrian-Trails) lists the named trails. Whether a trail is open to walkers or cyclists, and where, is set by the Village and the easement owner. Read the posted rules and give riders room.
+**What to know before you go**
+- There is no admission fee, and the Village says it closes daily at dusk.
+- The Village's facility page lists a monthly maintenance closure on the second Tuesday of each month from 7 a.m. to noon. We could not confirm that this schedule is still current, so check before you plan around it.
+- The Village's rules list prohibits dogs (except service animals), bicycles, fishing and feeding wildlife, swimming, rollerblades, scooters and skateboards, jogging on the boardwalk and littering.
+- Alligators live on the grounds, and it is against the law to feed, harass or entice them. Keep your distance, stay on the boardwalk and do not expect a particular sighting.
+- Village pages differ on details. One Acme Improvement District page calls it a 26-acre wetland, and the address appears as 11676 and 11700 Pierson Road. Use the Village Park address to find it, and confirm on a map.
 
-## Wellington Amphitheater and Thursday nights
+## Wellington Environmental Preserve at Section 24
 
-The [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) is at 12100 Forest Hill Boulevard, next to a barrier-free playground. The [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series combines live music with food trucks and a market; the Village's calendar lists the current line-up. Check it the week you go, because events are moved or canceled.
+The [Wellington Environmental Preserve](https://www.wellingtonfl.gov/facilities/facility/details/Wellington-Environmental-Preserve-Sectio-57) is the Village's larger public natural area. The Village describes interior uplands and native landscaping that you see from a paved pedestrian path and a boardwalk, with seven designated learning areas. A large decorative trellis and a six-story observation tower sit at two of them. The Village also lists a butterfly garden, restrooms and an equestrian trail, and no admission fee.
 
-## Village parks and programs
+Think of it as a place to walk slowly and read the signs. The tower is the draw for a longer view, and the learning areas explain the habitats. It is also a working stormwater facility, which is part of why it exists, but you do not need that to enjoy a walk.
 
-The Village's [parks and recreation page](https://www.wellingtonfl.gov/2289/Parks-Recreation) lists its parks, facilities and programs, and its [events page](https://www.wellingtonfl.gov/392/Events) lists what is on. Hours, registration and rules are the Village's to set.
+**What to expect and what to bring.** Bring water, sun protection and insect repellent, and wear walking shoes. Binoculars or a camera are optional. Birdwatching and photography are reasonable things to try, but no one can promise what you will see.
 
-## Before you go
+**What we could not verify, and a conflict to know about**
+- **Acreage.** The facility page says 410 acres, while older Village pages say 365. The Village says an adjacent 45-acre parcel acquired in December 2021 expanded the preserve to 410 ([Acme page](https://acme.wellingtonfl.gov/wellington-environmental-preserve-expansion)), so the larger figure is the current one.
+- **Address.** The facility page lists 3491 Flying Cow Ranch Road, while the Village's expansion notice gives 3501. Check a map before you drive.
+- **Hours and rules.** We found no posted regular hours or rules for this preserve. The dog and bicycle rules at Peaceful Waters do not necessarily apply here, and the Village's e-bike enforcement notice does not say whether the preserve's own paths count, so confirm with the Village.
 
-- Check the Village page for the place, for current hours, closures and rules.
-- Follow posted trail rules and stay on marked routes.
-- Do not disturb wildlife or equipment, and give riders and horses room.
-- Plan around the weather. The Village notes that afternoon thunderstorms are common in the warm months.
+## Tiger Shark Cove
+
+[Tiger Shark Cove](https://www.wellingtonfl.gov/facilities/facility/details/Tiger-Shark-Cove-44), at 13800 Greenbriar Boulevard, is easy to underrate as a neighborhood playground. The Village lists an ocean-themed playground with a large tiger-shark play sculpture, a submarine with portholes, a sunken pirate ship, a Crab Shack, obstacle courses, a sand castle, swing sets, shaded areas and soft rubberized flooring. It also has restrooms and water stations and three pavilions. The Village says pavilions are first come, first served Monday through Friday and need a rental on weekends. The athletic side has softball fields, batting cages and a concession stand. The Village lists sunrise-to-sunset hours, though that page may be dated, so confirm them.
+
+## Scott's Place
+
+[Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23), a barrier-free playground at 12190 Forest Hill Boulevard beside the amphitheater, is a full acre of play equipment that the Village describes as designed to meet the needs of all children, with swings, slides, sensory items, shade and ramps. It is a neighborhood playground, not a specialty attraction. A 2023 Village notice listed Monday-to-Saturday and Sunday hours, and the playground has closed for maintenance and construction before, so check the Village's current notices. We found no splash pad.
+
+## Village Park beyond the ball fields
+
+[Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45), at 11700 Pierson Road, is where Peaceful Waters sits. The Village lists a 2.5-mile walking trail with exercise stations, athletic fields and courts, a playground and a skate park, with hours of 8 a.m. to 10 p.m. weekdays and 8 a.m. to 8 p.m. on weekends. The trail is a good way to extend a Peaceful Waters visit.
+
+## Wellington Dog Park and Greenbriar Park
+
+The [Wellington Dog Park](https://www.wellingtonfl.gov/facilities/facility/details/Wellington-Dog-Park-9), at 2975 Greenbriar Boulevard, is a fenced, off-leash area divided into sections for small, medium and large dogs, with shade pavilions, walking paths, wash stations, water fountains and waste stations. It is open dawn to dusk and, per the Village, closes until 3 p.m. on Thursdays for maintenance. The Village's rules include licensed and vaccinated dogs, handlers 16 or older, no more than three dogs per handler, no puppies under four months, no aggressive dogs, no food, toys or glass, and owners cleaning up. [Greenbriar Park](https://www.wellingtonfl.gov/facilities/facility/details/Greenbriar-Park-8), which contains it, has multipurpose fields, volleyball courts, a playground and six pickleball courts open on a first-come basis, and pickleball courts do not allow dogs except service animals.
+
+## Pine Valley Preserve: not yet recommended
+
+The Village lists [Pine Valley Preserve](https://www.wellingtonfl.gov/facilities/facility/details/Pine-Valley-Preserve-20) with a pavilion at 1465 Birkdale Drive, and an Acme document gives a different address. We found no hours, parking or visitor rules, so we are not recommending a visit. Call the Village before you go, and see its [nature preserves page](https://www.wellingtonfl.gov/649/Nature-Preserves) and [preserve maintenance page](https://www.wellingtonfl.gov/609/Preserve-Maintenance).
+
+## The bridle trails: a feature of the landscape, not an open invitation
+
+The Village says it has maintained more than 100 miles of public and private bridle trails since 1999 ([FAQ](https://www.wellingtonfl.gov/FAQ.aspx?QID=175)), and the number includes roadway, canal and easement routes. Other pages cite smaller figures that appear to count different things. The point for a visitor is that a large part of the network is private easements and farm access that is not for general use. Do not enter private equestrian property. Check the Village's [Equestrian Trails page](https://www.wellingtonfl.gov/582/Equestrian-Trails) and map for the public trails, give horses and riders room, and note that motorized micromobility devices, including e-bikes, are prohibited on public bridle trails ([ordinance page](https://www.wellingtonfl.gov/2415/Micromobility-Devices-in-Wellington)). Whether pedestrians may use a given trail is a question for that trail's rules, so do not assume.
+
+## The amphitheater on a Thursday night
+
+The [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) is more than a concert lawn. The Village's [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series combines live music, food trucks and a market, and it lists other community programming on its [events page](https://www.wellingtonfl.gov/392/Events). We do not list dates, because the line-up changes and events move or cancel, so check the calendar the week you go.
+
+## A Self-Guided Wellington Discovery Outing
+
+This is a suggested route, not a promise of access. Confirm that each place is open first, and use a map to check the order, since we do not give drive times.
+
+1. **Peaceful Waters Sanctuary** ([map](https://www.google.com/maps/search/?api=1&query=11700%20Pierson%20Road%2C%20Wellington%2C%20FL%2033414)). Walk the boardwalk and trails early, and avoid the maintenance closure.
+2. **Village Park.** Take the walking trail if you want more distance.
+3. **Tiger Shark Cove or the Wellington Dog Park** ([map](https://www.google.com/maps/search/?api=1&query=13800%20Greenbriar%20Boulevard%2C%20Wellington%2C%20FL%2033414)). Choose by who is coming along. Check a map, since we have not verified how close they are to Village Park.
+4. **The Environmental Preserve** ([map](https://www.google.com/maps/search/?api=1&query=3491%20Flying%20Cow%20Ranch%20Road%2C%20Wellington%2C%20FL%2033414)), as a separate excursion rather than a fourth stop.
+
+**If it rains or a place is closed:** the County's [Wellington Branch library](https://www.pbclibrary.org/locations/wellington/) and the [Mall at Wellington Green](https://shopwellingtongreen.com/dining/) are indoor options, and the [activities guide](/blog/best-things-to-do-in-wellington-florida) has more.
+
+## Using these places when you compare homes
+
+Public parks and preserves are part of how a location lives, but the proximity of a home to one is not a promise about what you will find there. When you compare Wellington properties, visit the nearby public spaces at the hours you would use them, confirm their rules and closures with the Village, and weigh them with the routes, association rules and costs covered in the [pros and cons](/blog/pros-and-cons-of-living-in-wellington-florida), [cost of living](/blog/cost-of-living-in-wellington-florida) and [relocation fit](/blog/who-should-move-to-wellington-florida) guides.
+
+> **Discovering Wellington beyond the show grounds?** Explore Wellington neighborhoods, compare homes and see how parks, preserves and local amenities fit your preferred location. [Browse Wellington homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000), see the [Wellington community page](/communities/wellington), read the [neighborhood guide](/blog/best-neighborhoods-in-wellington-florida) or [talk with us](/contact). No sign-up needed.
 
 ## Continue exploring Wellington
 
 - [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
-- [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
+- [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+- [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
 - [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
     faqs: [
       {
-        q: "What is the Wellington Environmental Preserve?",
-        a: "The Village describes it as a 410-acre rainwater storage area with nature trails, learning areas, a boardwalk and a six-story observation tower. It was built in partnership with the South Florida Water Management District. Check the Village's preserve page for access, hours and rules."
+        q: "What are the hidden gems in Wellington, Florida?",
+        a: "Overlooked public places run by the Village: Peaceful Waters Sanctuary and its wetland boardwalk, the Wellington Environmental Preserve with its observation tower, Tiger Shark Cove's ocean-themed playground, the fenced Wellington Dog Park and quieter parks. Hours and rules change, so confirm with the Village."
       },
       {
-        q: "What is Peaceful Waters Sanctuary?",
-        a: "A nature preserve listed by the Village of Wellington. The Village's facility page is the source for what the site offers and the rules that apply."
+        q: "Is Peaceful Waters Sanctuary free?",
+        a: "The Village lists no admission fee for Peaceful Waters Sanctuary. It closes daily at dusk, and its facility page lists a monthly maintenance closure on the second Tuesday from 7 a.m. to noon, which you should confirm is still current."
       },
       {
-        q: "Can I walk on Wellington bridle trails?",
-        a: "It depends on the trail and the easement. The Village maintains named trails and sets the rules for them, so check its Equestrian Trails page and posted signs, and give riders room."
+        q: "Where is Peaceful Waters Sanctuary?",
+        a: "Inside the Village Park Athletic Complex, at Village Park on Pierson Road (11700 Pierson Road per the Village Park page; some Village pages give 11676). The Village describes a 30-acre wetland park with about 1,500 feet of elevated boardwalk and a mile of trails."
       },
       {
-        q: "Where are Wellington events held?",
-        a: "Many are held at the Wellington Amphitheater at 12100 Forest Hill Boulevard, including the Thursday Nights in Wellington series. The Village's events page has the current calendar."
+        q: "What can visitors see at the Wellington Environmental Preserve?",
+        a: "Native landscaping and interior uplands viewed from a paved path and boardwalk, seven learning areas, a decorative trellis, a six-story observation tower, a butterfly garden and restrooms, with no admission fee per the Village. Wildlife sightings are never guaranteed, and the Village's page lists 410 acres."
       },
       {
-        q: "Where do I confirm current access and hours for a Wellington preserve?",
-        a: "On the Village's page for that facility at wellingtonfl.gov, or by calling the Village."
+        q: "Are Wellington's bridle trails open to the public?",
+        a: "Some are and some are not. The Village's network includes public and private trails, so check its Equestrian Trails page and map, do not enter private property and follow posted signs. E-bikes and other motorized micromobility devices are prohibited on public bridle trails."
+      },
+      {
+        q: "What are some lesser-known Wellington parks?",
+        a: "Tiger Shark Cove, with an ocean-themed playground; Scott's Place, a barrier-free playground; Greenbriar Park and the Wellington Dog Park; and Village Park's walking trail. The Village's Parks and Playgrounds page lists more."
+      },
+      {
+        q: "Are there free nature walks in Wellington?",
+        a: "Yes. The Village lists no admission fee for Peaceful Waters Sanctuary or the Wellington Environmental Preserve. Check each Village page for hours, closures and rules, since they are different at each place."
+      },
+      {
+        q: "Where can visitors find Wellington community events?",
+        a: "On the Village's events page at wellingtonfl.gov/392/Events, including the Thursday Nights in Wellington series at the Wellington Amphitheater."
       }
     ],
-    funFact: "The Wellington Environmental Preserve grew from 365 to 410 acres when the Village and the Acme Improvement District acquired a 45-acre adjacent parcel in December 2021. The six-story observation tower and boardwalk sit inside what is also a working stormwater facility.",
+    funFact: "The quietest public spaces near a property are easy to miss on a drive-by, and their rules differ from place to place. When you compare Wellington homes, visit the nearby parks and preserves at the hours you would use them, and confirm their access, closures and rules with the Village. What a listing calls an amenity is not always what the public space allows.",
     author: "christine",
     published: true,
     updated: "2026-10-08"
