@@ -10688,20 +10688,21 @@ If it helps, we can organize an address-by-address checklist from your answers. 
     cityName: "Wellington",
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to Wellington, Florida: Orientation, Trails & Event Seasons",
-    metaTitle: "A Local's Guide to Wellington, Florida: Orientation, Trails & Seasons",
-    metaDescription: "Get oriented in Wellington, FL: main roads, the bridle trail network, winter event seasons and where to confirm dates and rules from official sources.",
+    seoTitle: "A Local's Guide to Wellington, Florida: Roads, Landmarks, Parks & Event Seasons",
+    metaTitle: "Local's Guide to Wellington, FL: Roads, Landmarks & Seasons",
+    metaDescription: "Get to know Wellington, FL: main roads, civic and retail centers, parks, equestrian venues, bridle trail rules, event seasons and a self-guided tour.",
     primaryKeyword: "Wellington Florida local guide",
     secondaryKeywords: [
-      "Wellington FL guide",
-      "Wellington bridle trails",
-      "Wellington equestrian season",
-      "getting around Wellington"
+      "Wellington FL main roads",
+      "getting around Wellington Florida",
+      "Wellington equestrian venues",
+      "Wellington Florida parks",
+      "first visit to Wellington FL"
     ],
     h1: "A Local's Guide to Wellington, Florida",
     heroImage: "/images/wellington/polo-field-guide-hero.webp",
     heroImageAlt: "Riders strung across a grass polo field in front of a covered grandstand and palm trees under a blue sky",
-    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCaption: "A winter polo match seen from the spectator side of the field. Polo and show jumping shape Wellington's winter calendar.",
     heroImageCredit: "Photo by John Oliver, 2022",
     heroImageWidth: 1600,
     heroImageHeight: 900,
@@ -10709,7 +10710,7 @@ If it helps, we can organize an address-by-address checklist from your answers. 
     marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
     editorial: {
       eyebrow: "Wellington · Local Guide",
-      deck: "How to get oriented in the Village: the main roads, the bridle trail network, the winter event calendar, and where the official information lives.",
+      deck: "How to get your bearings in Wellington: the main roads, civic and retail centers, parks and preserves, equestrian venues, bridle trail rules, event seasons, and a self-guided first-visit tour.",
       heroLayout: "split",
       heroTone: "guide",
       panelImage: {
@@ -10722,86 +10723,149 @@ If it helps, we can organize an address-by-address checklist from your answers. 
         width: 1200,
         height: 800
       },
-      panelCaption: "A polo match seen from the spectator side of the field.",
       primaryCta: {
         label: "Explore Wellington",
         href: "/communities/wellington"
       },
       secondaryCta: {
-        label: "Best things to do in Wellington",
-        href: "/blog/best-things-to-do-in-wellington-florida"
+        label: "Jump to the self-guided tour",
+        href: "#a-self-guided-tour-to-get-to-know-wellington"
       },
       tableOfContents: true,
       tocAfterIntro: true,
       magnetPlacement: "none",
       closingStep: {
         eyebrow: "Next step",
-        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        text: "Exploring Wellington before buying a home? Understanding the roads, neighborhoods and daily routines is an important part of choosing the right property. DO Homes Group can help you compare locations and plan a practical Wellington home search. No sign-up needed.",
         cta: {
           label: "Talk with us",
           href: "/contact"
         }
       }
     },
-    body: `Wellington is easy to navigate and easy to misread. The Village is spread out, most trips are by car, and the winter event calendar changes how some roads and venues are used. This guide gives an orientation and points to the sources that decide the details. It avoids drive times and rankings, because both depend on the hour, the season and the address.
+    body: `**Wellington, Florida** is an inland village in western Palm Beach County, organized along a few main roads. Forest Hill Boulevard runs east-west and holds the Village's civic campus, the amphitheater and the Mall at Wellington Green. State Road 7 (US 441) runs north-south along the eastern side. South Shore Boulevard and the roads off it lead into the equestrian area in the west and south, where Wellington International and the National Polo Center sit. This guide is for getting your bearings: where things are, how the roads connect them, what is public, and how the winter event season changes the calendar. It does not rank neighborhoods or weigh whether Wellington suits you, which is the job of [what it's really like living in Wellington](/blog/what-its-really-like-living-in-wellington-florida). Facts were last checked against official sources on October 8, 2026.
 
-For the bigger picture, read [what living in Wellington is like](/blog/what-its-really-like-living-in-wellington-florida); for places to go, [best things to do](/blog/best-things-to-do-in-wellington-florida).
+## How Wellington is laid out
 
-## Orienting yourself
+Wellington is spread out, and most trips are by car. The east-west roads that cross it lead toward the coast, which lies to the east. A few north-south roads connect the commercial edge to the residential and equestrian areas. The table lists the roads you will hear most, with what the Village or another official source places on or near each.
 
-Forest Hill Boulevard is the Village's main east-west road, and the Village's civic campus and the [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater), at 12100 Forest Hill Boulevard, sit on it. The Mall at Wellington Green is at 10300 W. Forest Hill Boulevard. State Road 7 runs along the eastern side of the Village. The equestrian community is in the western and southern parts of the Village, in the Equestrian Preserve Area that the Village describes in its [overlay FAQ](https://www.wellingtonfl.gov/Faq.aspx?QID=142).
+| Road | Where it fits | Landmarks and notes |
+|---|---|---|
+| Forest Hill Boulevard | The main east-west road through the Village | Village Hall (12300), the Town Center (12150), the Amphitheater, the Patriot Memorial (12198), the Mall at Wellington Green (10300 W.) and Wellington Regional Medical Center (10101) are on it |
+| State Road 7 / US 441 | North-south along the Village's eastern side | The Village describes its major commercial centers, including Wellington Green, along this corridor |
+| South Shore Boulevard | A north-south spine road | Meets Forest Hill Boulevard at the Veterans Memorial (11848 Forest Hill). Equestrian Village is at 13500 South Shore |
+| Lake Worth Road | An east-west road | Palm Tran Route 62 runs along it between the Mall at Wellington Green and Lake Worth Beach Park |
+| Southern Boulevard (State Road 80) | East-west road on the south side of the Village | County records place properties on Southern Boulevard south of the Village core |
+| Big Blue Trace | A north-south collector road | The Village lists it among its main thoroughfares. Its wide paths carry bike and pedestrian traffic |
+| Greenview Shores Boulevard | North-south, serving the Greenview Shores area | Greenview Shores Park is at 2163 Greenview Shores Boulevard |
+| Pierson Road | A road in the equestrian area | Village Park (11700 Pierson) and Wellington International's administrative offices (14440) are on it |
 
-Treat that as a starting map, not a description of any address. A property's setting, its association and its zoning are separate questions, answered by the parcel record.
+Sources: the Village's [parks and facilities pages](https://www.wellingtonfl.gov/200/Parks-Facilities), the [Wellington Green and State Road 7 page](https://www.wellingtonfl.gov/2125/Wellington-Green-State-Road-7), the Acme Improvement District's [roadways page](https://acme.wellingtonfl.gov/roadways) and Palm Tran. Roads are named here only where an official source places them. For exact positions, use an interactive map, and for any address, check the route yourself.
 
-## The bridle trail network
+## Getting around, and getting to the coast
 
-The Village states that since 1999 it has established and maintained more than 100 miles of public and private bridle trails, including roadway easements, canal rights-of-way and bridle path easements ([Village FAQ](https://www.wellingtonfl.gov/FAQ.aspx?QID=175)). Other Village pages give smaller figures: its equestrian pages cite more than 57 miles, and the page for the Wellington Environmental Preserve describes its 3.6-mile perimeter trail as an extension of an approximately 65-mile system. The figures differ because they appear to count different things, so this guide uses none of them as a precise number.
+Most residents and visitors drive. Palm Tran is the County's bus system. It lists [Route 46](https://www.palmtran.org/maps-schedules/bus-routes/) running along Forest Hill Boulevard from the Mall at Wellington Green toward US 1, and Route 62 running along Lake Worth Road between the mall and Lake Worth Beach Park. Palm Tran has announced service adjustments from September 20, 2026, so check its current schedules before relying on either.
 
-For the named trails and who maintains them, use the Village's [Equestrian Trails page](https://www.wellingtonfl.gov/582/Equestrian-Trails). Whether a trail is open to walkers or cyclists, and where, is set by the Village and by the owner of the easement. Read the posted rules before you go, and give riders the room and the quiet they need.
+This guide gives no drive times. They depend on the route, the hour and the season, and any figure would go stale. If you are weighing a coastal trip or a commute, drive it on a weekday and on a weekend, in winter and in summer. The [Palm Beach County and Treasure Coast relocation guide](/palm-beach-county-treasure-coast-relocation-guide) and the [Palm Beach County market report](/palm-beach-county-market-report) cover the wider region.
 
-## Two event seasons
+## The civic campus and the Town Center
 
-- **Wellington International** hosts the Winter Equestrian Festival. Its [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) is the source for dates. The [visitor page](https://wellingtoninternational.com/visitors/) and the [Saturday Night Lights page](https://www.wellingtoninternational.com/winter-equestrian-festival/saturday-night-lights/) describe admission and parking, which the venue sets season by season.
-- **The National Polo Center – Wellington** publishes its own season schedule and ticket options at [nationalpolocenter.com](https://www.nationalpolocenter.com/).
+Most public life centers on a stretch of Forest Hill Boulevard. [Village Hall](https://www.wellingtonfl.gov/facilities/facility/details/villagehall-55) is at 12300 Forest Hill Boulevard, and council meetings are held there. The Town Center, with the [Community Center](https://www.wellingtonfl.gov/facilities/facility/details/Community-Center-31), is at 12150. Nearby are the Wellington Amphitheater at 12100, [Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23) at 12190 and the [Patriot Memorial](https://www.wellingtonfl.gov/facilities/facility/details/Patriot-Memorial-46) at 12198, which includes a steel beam recovered from the World Trade Center. The [Veterans Memorial](https://www.wellingtonfl.gov/facilities/facility/details/Veterans-Memorial-47) is at 11848, at the South Shore Boulevard intersection.
 
-Both are scheduled events at private venues, and details change. Check them the week you plan to go. Do not plan from last season's admission or parking terms.
+This is the best place to see how the Village organizes itself, and it is the first stop on the tour below.
 
-## Everyday places
+## Parks, preserves and public places
 
-The Village runs its own parks and recreation program, with facilities and programs listed on its [parks and recreation page](https://www.wellingtonfl.gov/2289/Parks-Recreation). Its [events page](https://www.wellingtonfl.gov/392/Events) and the [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series are the places to confirm what is on. For dining and shopping along the main roads, see [where to eat and hang out](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
+All of these are run by the Village unless noted. Hours, fees and rules change, so use each Village page before you go. This section is for orientation. For ideas on what to do, see [best things to do in Wellington](/blog/best-things-to-do-in-wellington-florida) and the [hidden gems guide](/blog/hidden-gems-in-wellington-florida).
 
-## Using the Village's own information
+- **[Wellington Environmental Preserve at Section 24](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57).** At 3491 Flying Cow Ranch Road, per the Village. The Village lists no admission fee, a butterfly garden, walking trails, learning areas, an observation tower, restrooms and an equestrian trail. It is also a stormwater facility. It is the largest public natural area in the Village.
+- **[Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45).** At 11700 Pierson Road. The Village lists a 2.5-mile walking trail with exercise stations, athletic fields and courts, a playground and a skate park, and the Parks and Recreation offices are here. It is one of the Village's main athletic complexes.
+- **[Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater).** At 12100 Forest Hill Boulevard, in the Town Center. The Village hosts concerts and events here, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington). Check the Village calendar for what is on.
+- **[Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23).** A barrier-free playground at 12190 Forest Hill Boulevard, beside the amphitheater, per the Village.
+- **[Tiger Shark Cove](https://www.wellingtonfl.gov/facilities/facility/details/Tiger-Shark-Cove-44).** At 13800 Greenbriar Boulevard. The Village lists a playground, softball fields, restrooms and pavilions, open sunrise to sunset on its page, though that page may be dated, so confirm.
+- **[The Mall at Wellington Green](https://shopwellingtongreen.com/dining/).** At 10300 W. Forest Hill Boulevard, near State Road 7. The Village has a page on the [Wellington Green and State Road 7 area](https://www.wellingtonfl.gov/2125/Wellington-Green-State-Road-7). The mall publishes a directory of stores and restaurants.
+- **Nature preserves.** The Village's [nature preserves page](https://www.wellingtonfl.gov/649/Nature-Preserves) lists Peaceful Waters Sanctuary and others.
 
-Planning, zoning, flood and drainage questions each have a Village contact, listed on its site. The [flood information page](https://www.wellingtonfl.gov/690/Flood-Information) and the [flood zone determination](https://www.wellingtonfl.gov/531/Flood-Zone-Determination) service are the starting points for a specific address.
+## The equestrian side of Wellington
+
+The Village says its equestrian community occupies about 9,000 acres in the western and southern parts of Wellington, called the Equestrian Preserve Area, and that the overlay zoning district regulating it was adopted in 2003 ([Village FAQ](https://www.wellingtonfl.gov/Faq.aspx?QID=142)). Most of the area's equestrian life runs along South Shore Boulevard and Pierson Road.
+
+**Venues you can visit.** Wellington International is the show-jumping venue, with its visitor entrance at 3400 Equestrian Club Drive. Equestrian Village, at 13500 South Shore Boulevard, hosts dressage. Wellington International's [visitor page](https://wellingtoninternational.com/visitors/) and [venues page](https://www.wellingtoninternational.com/venues/) give current details. The National Polo Center – Wellington publishes its schedule and tickets at [nationalpolocenter.com](https://www.nationalpolocenter.com/); use its [FAQ](https://www.nationalpolocenter.com/frequently-asked-questions) for the address, parking and match-day guidance, since the venue's address appears differently on different pages.
+
+**Public and private are different.** The venues above welcome visitors during their events, on their terms. Barns, farms and most trails on private easements are not public attractions. The Village's trail network includes both public and private bridle-path easements, so never assume a trail or a property is open to you.
+
+**Bridle trails.** The Village says it has maintained more than 100 miles of public and private bridle trails since 1999 ([FAQ](https://www.wellingtonfl.gov/FAQ.aspx?QID=175)). Other Village pages give smaller figures, which appear to count different parts of the network, so use the Village's [Equestrian Trails page](https://www.wellingtonfl.gov/582/Equestrian-Trails) for the named trails and its trail map instead of a mileage number. A few practical rules:
+
+- Check the Village map before you go to see which trails are public.
+- Give horses and riders room, keep your voice calm, and follow posted signs.
+- Motorized micromobility devices, including e-bikes, are prohibited on public bridle trails under the Village's [micromobility ordinance](https://www.wellingtonfl.gov/2415/Micromobility-Devices-in-Wellington), which describes the rule as protecting riders and horses.
+- For anything the Village has not published, call its Equestrian Trails office, listed on the trails page.
+
+## The winter calendar
+
+Two venues drive the season. Dates change each year, so the years below are labeled and the official calendars are the record.
+
+- **Winter Equestrian Festival.** Wellington International's [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) listed the 2027 festival running from early January into early April, as of October 8, 2026.
+- **Saturday Night Lights.** The venue describes [Saturday Night Lights](https://www.wellingtoninternational.com/winter-equestrian-festival/saturday-night-lights/) as a weekly evening event during the festival, with free general admission and charged parking, and says free off-site parking with a shuttle has been offered from Equestrian Village. Terms are set each season.
+- **Polo.** The National Polo Center announced its 2027 season as running from late December into early May. Its FAQ says weekday matches have been free, so confirm for the date you plan to go.
+- **Village events.** The Village lists its events on the [events page](https://www.wellingtonfl.gov/392/Events).
+
+Event days can change traffic on South Shore Boulevard, Pierson Road and Forest Hill Boulevard and busy nearby restaurants. How much depends on the day and where you are, so check the venue calendar, leave extra time and confirm admission and parking on the official page before you travel.
+
+## A Self-Guided Tour to Get to Know Wellington
+
+This tour is for a first visit. It uses public places with official pages, listed in a logical order rather than a timed one. Open an interactive map first and confirm the order and distances for the day you go, because traffic and event days change them. Hours are the Village's and the venues' to set.
+
+1. **Town Center and Village Hall** ([map](https://www.google.com/maps/search/?api=1&query=12150%20Forest%20Hill%20Boulevard%2C%20Wellington%2C%20FL%2033414)). Start at the Town Center to see how the Village is organized. Look at the Patriot Memorial and the surrounding green space. *What it shows:* the civic core on Forest Hill Boulevard.
+2. **Wellington Amphitheater and Scott's Place** ([map](https://www.google.com/maps/search/?api=1&query=12100%20Forest%20Hill%20Boulevard%2C%20Wellington%2C%20FL%2033414)). Next to the Town Center, this is where the Village holds its public events. *What it shows:* how the Village gathers its community.
+3. **Village Park** ([map](https://www.google.com/maps/search/?api=1&query=11700%20Pierson%20Road%2C%20Wellington%2C%20FL%2033414)). The main athletic complex, on Pierson Road. *What it shows:* the Village's recreation system and the beginning of the equestrian side of town.
+4. **An equestrian venue, during an event** ([map](https://www.google.com/maps/search/?api=1&query=3400%20Equestrian%20Club%20Drive%2C%20Wellington%2C%20FL%2033414)). Wellington International welcomes visitors during its season, and the National Polo Center sells admission on its own terms. *What it shows:* why the Village is shaped the way it is. Out of season, drive past on South Shore Boulevard and Pierson Road and look at the area from the road. Do not enter private property.
+5. **The Mall at Wellington Green and State Road 7** ([map](https://www.google.com/maps/search/?api=1&query=10300%20W%20Forest%20Hill%20Boulevard%2C%20Wellington%2C%20FL%2033414)). *What it shows:* the commercial corridor on the eastern side and how it connects to the rest of the county.
+6. **Wellington Environmental Preserve** ([map](https://www.google.com/maps/search/?api=1&query=3491%20Flying%20Cow%20Ranch%20Road%2C%20Wellington%2C%20FL%2033414)). End with a walk, if conditions allow. *What it shows:* the Village's natural and drainage side, and its connection to the trail network.
+
+If you are visiting as a prospective buyer, drive between the stops yourself, at the hour you would normally drive, and notice how the roads feel on a weekday and during an event week.
+
+> **Exploring Wellington before buying a home?** Understanding the roads, neighborhoods and daily routines is an important part of choosing the right property. DO Homes Group can help you compare locations and plan a practical Wellington home search. [Browse Wellington homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000), see the [Wellington community page](/communities/wellington) or [talk with us](/contact). No sign-up needed.
 
 ## Continue exploring Wellington
 
-- [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
-- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
-- [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)`,
+- [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida) for the lifestyle and the decision.
+- [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida) for how to compare communities.
+- [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida) for events and activities.
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida) for public preserves and trails.
+- [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
+- [Wellington vs Nearby Areas](/blog/wellington-vs-nearby-cities).`,
     faqs: [
       {
-        q: "How many miles of bridle trails does Wellington have?",
-        a: "The Village states in its FAQ that it has maintained more than 100 miles of public and private bridle trails since 1999. Other Village pages cite more than 57 miles and an approximately 65-mile system, apparently counting different things, so check the Village's Equestrian Trails page for the trail you care about."
+        q: "What are Wellington's main roads?",
+        a: "Forest Hill Boulevard is the main east-west road and holds the Village's civic campus, the amphitheater and the Mall at Wellington Green. State Road 7 (US 441) runs north-south along the eastern side. South Shore Boulevard, Big Blue Trace and Greenview Shores Boulevard run north-south, and Lake Worth Road and Southern Boulevard (State Road 80) run east-west toward the south side. Use a current map for exact positions."
       },
       {
-        q: "Where do I find dates for the Winter Equestrian Festival?",
-        a: "On Wellington International's event calendar at wellingtoninternational.com. Its 2027 listing begins in early January. Admission and parking are set by the venue each season, so confirm them before you go."
+        q: "How do you get around Wellington?",
+        a: "Most residents and visitors drive, since the Village is spread out. Palm Tran lists Route 46 along Forest Hill Boulevard and Route 62 along Lake Worth Road from the Mall at Wellington Green. Check Palm Tran's current schedules, which were adjusted from September 20, 2026."
       },
       {
-        q: "Where is polo played in Wellington?",
-        a: "The National Polo Center – Wellington publishes its season schedule and ticket options at nationalpolocenter.com. Its 2027 season is announced as running from late December into early May, subject to the venue's schedule."
+        q: "Where are Wellington's major equestrian venues?",
+        a: "Wellington International's visitor entrance is at 3400 Equestrian Club Drive, Equestrian Village is at 13500 South Shore Boulevard, and the National Polo Center – Wellington publishes its address and directions at nationalpolocenter.com. Most of the area's equestrian activity is in the western and southern parts of the Village."
       },
       {
-        q: "What are the main roads in Wellington?",
-        a: "Forest Hill Boulevard runs east-west through the Village and State Road 7 runs along its eastern side. Use a current map and test any route at the hours you would drive it."
+        q: "Can visitors use Wellington's bridle trails?",
+        a: "Some are public and some are private. The Village's trail network includes both public and private bridle-path easements, so check the Village's Equestrian Trails page and map before you go and follow posted signs. The Village prohibits motorized micromobility devices, including e-bikes, on public bridle trails."
       },
       {
-        q: "Where can I find Wellington events?",
-        a: "The Village publishes its events at wellingtonfl.gov/392/Events, including the Thursday Nights in Wellington series at the Wellington Amphitheater."
+        q: "What public places should first-time visitors explore?",
+        a: "The Town Center and Village Hall on Forest Hill Boulevard, the Wellington Amphitheater and Scott's Place, Village Park on Pierson Road, the Mall at Wellington Green and the Wellington Environmental Preserve at 3491 Flying Cow Ranch Road. The guide's self-guided tour links to each one."
+      },
+      {
+        q: "When is Wellington's equestrian season?",
+        a: "As of October 8, 2026, Wellington International listed its 2027 Winter Equestrian Festival from early January into early April, and the National Polo Center announced its 2027 season as late December into early May. Dates change each year, so confirm with the venues."
+      },
+      {
+        q: "Where can visitors find current Wellington events?",
+        a: "The Village of Wellington lists its events at wellingtonfl.gov/392/Events. Wellington International and the National Polo Center publish their own calendars at wellingtoninternational.com and nationalpolocenter.com."
       }
     ],
-    funFact: "The Village of Wellington's own pages give different figures for the bridle trail network: more than 100 miles in one FAQ, more than 57 in its equestrian pages, and a 3.6-mile preserve loop described as part of an approximately 65-mile system. The numbers appear to count different things, which is why this guide points to the trail list rather than quoting one.",
+    funFact: "Wellington's civic life sits in one short stretch of Forest Hill Boulevard: Village Hall at 12300, the Town Center at 12150, the amphitheater at 12100 and the Veterans Memorial at 11848, at the South Shore Boulevard intersection. If you only have an hour to understand how the Village is organized, start there, then drive south on South Shore Boulevard to see where the equestrian area begins.",
     author: "christine",
     published: true,
     updated: "2026-10-08"
