@@ -20,7 +20,7 @@ function asPlainText(data: ArticleChecklistData): string {
   return lines.join('\n')
 }
 
-export default function ArticleChecklist({ data }: { data: ArticleChecklistData }) {
+export default function ArticleChecklist({ data, embedded = false }: { data: ArticleChecklistData; embedded?: boolean }) {
   const [copied, setCopied] = useState(false)
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -60,9 +60,13 @@ export default function ArticleChecklist({ data }: { data: ArticleChecklistData 
   return (
     <section
       aria-labelledby="article-checklist"
-      className="border-b border-slate-200 bg-white print:border-0"
+      className={
+        embedded
+          ? 'rounded-2xl border border-slate-200 bg-white print:border-0'
+          : 'border-b border-slate-200 bg-white print:border-0'
+      }
     >
-      <div className="mx-auto max-w-3xl px-6 py-10 sm:px-8">
+      <div className={embedded ? 'px-6 py-8 sm:px-8' : 'mx-auto max-w-3xl px-6 py-10 sm:px-8'}>
         <h2
           id="article-checklist"
           className="scroll-mt-28 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl"
