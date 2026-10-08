@@ -348,6 +348,11 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
   // -- Shared link ---------------------------------------------------------
   // `history.replaceState` rather than the router, so keeping the URL in step
   // with the controls never re-renders the tree in the middle of a drag.
+  //
+  // Debounced and guarded: Safari allows roughly 100 replaceState calls per 30
+  // seconds and THROWS a SecurityError past that. An uncaught throw inside an
+  // effect unmounts the whole tree, so a fast slider sweep on an iPhone used to
+  // blank the page. The URL only needs to be right once the drag settles.
   useEffect(() => {
     if (!property) return
     const params = new URLSearchParams({
@@ -357,7 +362,15 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
       date: toDateInputValue(date),
       t: String(Math.round(activeMinutes)),
     })
-    window.history.replaceState(null, '', `?${params.toString()}`)
+    const timer = setTimeout(() => {
+      try {
+        window.history.replaceState(null, '', `?${params.toString()}`)
+      } catch {
+        // Rate-limited or blocked (sandboxed frame). The shared link is a
+        // convenience; losing one update must never take the tool down.
+      }
+    }, 400)
+    return () => clearTimeout(timer)
   }, [property, date, activeMinutes])
 
   // -- Derived geometry ----------------------------------------------------
@@ -483,7 +496,7 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
             </div>
           </div>
 
-          <div className="relative order-1 h-[40vh] min-h-[300px] overflow-hidden rounded-2xl border border-slate-200 shadow-card lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:h-[calc(100vh-11rem)] lg:min-h-[560px]">
+          <div className="relative order-1 h-[40dvh] min-h-[300px] max-lg:landscape:min-h-[200px] overflow-hidden rounded-2xl border border-slate-200 shadow-card lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:h-[calc(100vh-11rem)] lg:min-h-[560px]">
             <SunShadeMap
               centre={centre}
               address={property?.address ?? 'Palm Beach County'}

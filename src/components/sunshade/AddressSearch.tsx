@@ -51,6 +51,7 @@ export default function AddressSearch({
   const [activeIndex, setActiveIndex] = useState(-1)
 
   const rootRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
   const abortRef = useRef<AbortController | null>(null)
   /** Set while a selection is being applied, so the effect below does not
    *  immediately re-query for the text we just put in the box. */
@@ -109,6 +110,9 @@ export default function AddressSearch({
       setValue(suggestion.label)
       setOpen(false)
       setActiveIndex(-1)
+      // Drops the on-screen keyboard, which otherwise stays up over the map
+      // and slider on a phone.
+      inputRef.current?.blur()
       onSelect(suggestion)
     },
     [onSelect]
@@ -150,6 +154,7 @@ export default function AddressSearch({
         onSubmit={(e) => {
           e.preventDefault()
           setOpen(false)
+          inputRef.current?.blur()
           const query = value.trim()
           if (query.length >= 4) onSearch(query)
         }}
@@ -163,6 +168,7 @@ export default function AddressSearch({
         </label>
         <div className="flex gap-2">
           <input
+            ref={inputRef}
             id={inputId}
             type="text"
             role="combobox"
