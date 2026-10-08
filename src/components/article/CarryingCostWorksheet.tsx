@@ -5,6 +5,8 @@ import {
   calculateWorksheet,
   formatUsd,
   LOAN_TERMS,
+  WELLINGTON_WORKSHEET_HEADING,
+  WELLINGTON_WORKSHEET_HEADING_ID,
   WORKSHEET_HEADING,
   WORKSHEET_HEADING_ID,
   type FieldKey,
@@ -29,6 +31,10 @@ const DEFAULTS: WorksheetInputs = {
   monthlyClub: '',
   monthlyUpkeep: '',
 }
+
+// The Wellington variant adds the lines a drainage-district town needs: recurring
+// non-ad valorem assessments, transportation and any other recurring costs.
+const EXTENDED_DEFAULTS = { annualAssessments: '', monthlyTransport: '', monthlyOther: '' }
 
 type Unit = '$' | '%'
 interface FieldDef {
@@ -68,8 +74,28 @@ const GROUPS: Array<{ legend: string; fields: FieldDef[] }> = [
 const inputBase =
   'block w-full rounded-lg border bg-white py-2.5 text-base text-slate-900 placeholder:text-slate-400 transition focus:border-gold-500'
 
-export default function CarryingCostWorksheet() {
-  const [inputs, setInputs] = useState<WorksheetInputs>(DEFAULTS)
+const EXTENDED_FIELDS: Record<string, FieldDef[]> = {
+  'Taxes and insurance': [
+    {
+      key: 'annualAssessments',
+      label: 'Annual non-ad valorem assessments',
+      unit: '$',
+      hint: 'Drainage district or other assessments, from the tax bill or the district',
+    },
+  ],
+  'Community and running costs': [
+    { key: 'monthlyTransport', label: 'Monthly transportation', unit: '$', hint: 'Fuel, tolls, auto insurance and upkeep, from your own routes' },
+    { key: 'monthlyOther', label: 'Other monthly recurring costs', unit: '$', hint: 'Lawn, pool, pest, equestrian or other services you plan to pay for' },
+  ],
+}
+
+export default function CarryingCostWorksheet({ variant = 'default' }: { variant?: 'default' | 'wellington' }) {
+  const wellington = variant === 'wellington'
+  const initial: WorksheetInputs = wellington ? { ...DEFAULTS, ...EXTENDED_DEFAULTS } : DEFAULTS
+  const groups = wellington
+    ? GROUPS.map((g) => ({ ...g, fields: [...g.fields, ...(EXTENDED_FIELDS[g.legend] ?? [])] }))
+    : GROUPS
+  const [inputs, setInputs] = useState<WorksheetInputs>(initial)
   // Errors only show once a field has been left, so typing "6." doesn't flash
   // an error mid-keystroke.
   const [touched, setTouched] = useState<Partial<Record<FieldKey, boolean>>>({})
@@ -78,13 +104,14 @@ export default function CarryingCostWorksheet() {
 
   const set = (key: FieldKey, value: string) => setInputs((prev) => ({ ...prev, [key]: value }))
   const id = (key: string) => `${uid}-${key}`
-  const headingId = WORKSHEET_HEADING_ID
+  const headingId = wellington ? WELLINGTON_WORKSHEET_HEADING_ID : WORKSHEET_HEADING_ID
+  const heading = wellington ? WELLINGTON_WORKSHEET_HEADING : WORKSHEET_HEADING
 
   return (
     <section aria-labelledby={headingId} className="mt-12 border-y border-slate-200 py-10">
       <p className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">Planning worksheet</p>
       <h2 id={headingId} className="mt-2 scroll-mt-28 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl">
-        {WORKSHEET_HEADING}
+        {heading}
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
         Enter the figures you have for one specific property. Anything you leave blank is simply left out of the
@@ -92,7 +119,7 @@ export default function CarryingCostWorksheet() {
       </p>
 
       <form noValidate onSubmit={(e) => e.preventDefault()} className="mt-8 space-y-8">
-        {GROUPS.map((group) => (
+        {groups.map((group) => (
           <fieldset key={group.legend}>
             <legend className="text-sm font-semibold text-slate-900">{group.legend}</legend>
             <div className="mt-3 grid gap-x-5 gap-y-4 sm:grid-cols-2">
@@ -201,7 +228,7 @@ export default function CarryingCostWorksheet() {
           <tfoot>
             <tr>
               <th scope="row" className="pt-4 pr-4 text-base font-semibold text-slate-900">
-                Estimated monthly total
+                {wellington ? 'Estimated total monthly budget' : 'Estimated monthly total'}
                 <span className="block text-xs font-normal text-slate-500">
                   {result.counted === 0 ? 'Enter figures above to build a total' : `${result.counted} of ${result.lines.length} lines included`}
                 </span>
@@ -210,6 +237,26 @@ export default function CarryingCostWorksheet() {
                 {formatUsd(result.total)}
               </td>
             </tr>
+            {wellington && (
+              <>
+                <tr>
+                  <th scope="row" className="pt-3 pr-4 text-sm font-normal text-slate-700">
+                    Of which, the home itself (housing lines only)
+                  </th>
+                  <td className="pt-3 text-right align-top text-sm font-medium tabular-nums text-slate-900">
+                    {formatUsd(result.housingTotal)}
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="pt-3 pr-4 text-sm font-normal text-slate-700">
+                    Estimated annual recurring cost (monthly total × 12)
+                  </th>
+                  <td className="pt-3 text-right align-top text-sm font-medium tabular-nums text-slate-900">
+                    {formatUsd(result.total * 12)}
+                  </td>
+                </tr>
+              </>
+            )}
           </tfoot>
         </table>
 
@@ -222,7 +269,7 @@ export default function CarryingCostWorksheet() {
         <button
           type="button"
           onClick={() => {
-            setInputs(DEFAULTS)
+            setInputs(initial)
             setTouched({})
           }}
           className="mt-4 rounded text-sm font-semibold text-gold-600 underline decoration-gold-300 underline-offset-4 transition hover:text-gold-700"

@@ -11,7 +11,12 @@ import {
   visibleArticles,
   type ArticleEditorial,
 } from '@/lib/articles'
-import { WORKSHEET_HEADING, WORKSHEET_HEADING_ID } from '@/lib/carryingCost'
+import {
+  WELLINGTON_WORKSHEET_HEADING,
+  WELLINGTON_WORKSHEET_HEADING_ID,
+  WORKSHEET_HEADING,
+  WORKSHEET_HEADING_ID,
+} from '@/lib/carryingCost'
 import { MAP_HEADING, MAP_HEADING_ID } from '@/lib/jupiterBeachAccess'
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import JupiterBeachAccessBlock from '@/components/article/JupiterBeachAccessBlock'
@@ -56,10 +61,13 @@ type Props = { params: Promise<{ slug: string }> }
 type ToolKind = NonNullable<ArticleEditorial['tool']>['kind']
 const TOOL_HEADINGS: Record<ToolKind, { id: string; label: string }> = {
   'carrying-cost-worksheet': { id: WORKSHEET_HEADING_ID, label: WORKSHEET_HEADING },
+  'wellington-cost-worksheet': { id: WELLINGTON_WORKSHEET_HEADING_ID, label: WELLINGTON_WORKSHEET_HEADING },
   'jupiter-beach-access-map': { id: MAP_HEADING_ID, label: MAP_HEADING },
 }
 function ToolBlock({ kind }: { kind: ToolKind }) {
-  return kind === 'carrying-cost-worksheet' ? <CarryingCostWorksheet /> : <JupiterBeachAccessBlock />
+  if (kind === 'carrying-cost-worksheet') return <CarryingCostWorksheet />
+  if (kind === 'wellington-cost-worksheet') return <CarryingCostWorksheet variant="wellington" />
+  return <JupiterBeachAccessBlock />
 }
 
 // Renders one slice of the article body. When the article defines an
