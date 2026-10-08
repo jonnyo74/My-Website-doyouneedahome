@@ -2,7 +2,7 @@
 
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { metresPerDegree } from '@/lib/sunshade/geo'
 import type { BuildingFootprint, LngLat, PoolFootprint, SolarPosition } from '@/lib/sunshade/types'
 import type { MultiPolygon } from 'geojson'
@@ -78,6 +78,11 @@ export default function SunShadeMap({
   // re-running that effect would destroy and rebuild the whole map on every
   // parent render. The ref is seeded at mount and kept current in an effect
   // rather than during render, which React forbids.
+  // Panning is off on phones until the first tap (see map init), which nothing
+  // on screen used to explain. The hint stays until that tap happens.
+  const [panHint, setPanHint] = useState(
+    () => typeof window !== 'undefined' && L.Browser.mobile
+  )
   const onMoveRef = useRef(onMoveProperty)
   useEffect(() => {
     onMoveRef.current = onMoveProperty
@@ -152,7 +157,10 @@ export default function SunShadeMap({
     // Mobile gets a one-finger drag once the user opts in by touching the map,
     // so the first scroll past the map still scrolls the page.
     if (L.Browser.mobile) {
-      map.once('click', () => map.dragging.enable())
+      map.once('click', () => {
+        map.dragging.enable()
+        setPanHint(false)
+      })
     }
 
     parcelRef.current = L.polygon([], {
@@ -195,11 +203,15 @@ export default function SunShadeMap({
       interactive: false,
     }).addTo(map)
 
+    // The visible dot stays small so it does not hide the roof, but the
+    // draggable element is a 44px square (the minimum comfortable touch
+    // target) with the dot centred in it. A bare 14px marker was close to
+    // impossible to grab with a fingertip.
     const icon = L.divIcon({
-      html: '<div style="background:#1A79B8;width:14px;height:14px;border-radius:50%;border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.5)"></div>',
+      html: '<div style="width:44px;height:44px;display:flex;align-items:center;justify-content:center"><div style="background:#1A79B8;width:14px;height:14px;border-radius:50%;border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.5)"></div></div>',
       className: '',
-      iconSize: [14, 14],
-      iconAnchor: [7, 7],
+      iconSize: [44, 44],
+      iconAnchor: [22, 22],
     })
 
     markerRef.current = L.marker([centre.lat, centre.lng], {
@@ -271,11 +283,18 @@ export default function SunShadeMap({
   }, [centre, sun])
 
   return (
-    <div
-      ref={containerRef}
-      role="application"
-      aria-label={`Aerial map of ${address} showing estimated building shadows and the sun's direction`}
-      className="h-full w-full"
-    />
+    <div className="relative h-full w-full">
+      <div
+        ref={containerRef}
+        role="application"
+        aria-label={`Aerial map of ${address} showing estimated building shadows and the sun's direction`}
+        className="h-full w-full"
+      />
+      {panHint && (
+        <p className="pointer-events-none absolute bottom-3 left-1/2 z-[500] -translate-x-1/2 whitespace-nowrap rounded-full bg-navy-950/80 px-3 py-1.5 text-xs font-semibold text-white shadow">
+          Tap the map to move it · drag the blue pin to the roof
+        </p>
+      )}
+    </div>
   )
 }
