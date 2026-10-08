@@ -7,6 +7,10 @@ export const WORKSHEET_HEADING = 'Estimate your monthly Boca carrying cost'
 /** Matches headingId(WORKSHEET_HEADING), so the table of contents can link to it. */
 export const WORKSHEET_HEADING_ID = 'estimate-your-monthly-boca-carrying-cost'
 
+/** The Wellington variant adds assessments, transportation and other recurring costs. */
+export const WELLINGTON_WORKSHEET_HEADING = 'Estimate your monthly Wellington ownership cost'
+export const WELLINGTON_WORKSHEET_HEADING_ID = 'estimate-your-monthly-wellington-ownership-cost'
+
 export type FieldKey =
   | 'purchasePrice'
   | 'downPaymentPct'
@@ -18,9 +22,14 @@ export type FieldKey =
   | 'monthlyHoa'
   | 'monthlyClub'
   | 'monthlyUpkeep'
+  | ExtendedFieldKey
 
-/** Raw text as typed. Blank means "not entered", never zero. */
-export type WorksheetInputs = Record<FieldKey, string>
+/** Only present in the extended (Wellington) worksheet. */
+export type ExtendedFieldKey = 'annualAssessments' | 'monthlyTransport' | 'monthlyOther'
+
+/** Raw text as typed. Blank means "not entered", never zero. The extended keys are optional. */
+export type WorksheetInputs = Record<Exclude<FieldKey, ExtendedFieldKey>, string> &
+  Partial<Record<ExtendedFieldKey, string>>
 
 export const LOAN_TERMS = [30, 20, 15, 10] as const
 
@@ -37,6 +46,9 @@ const LIMITS: Record<FieldKey, { min: number; max: number; label: string }> = {
   monthlyHoa: { min: 0, max: 500_000, label: 'Monthly HOA' },
   monthlyClub: { min: 0, max: 500_000, label: 'Monthly club dues' },
   monthlyUpkeep: { min: 0, max: 500_000, label: 'Monthly utilities and maintenance' },
+  annualAssessments: { min: 0, max: 5_000_000, label: 'Annual non-ad valorem assessments' },
+  monthlyTransport: { min: 0, max: 500_000, label: 'Monthly transportation' },
+  monthlyOther: { min: 0, max: 500_000, label: 'Other monthly recurring costs' },
 }
 
 /**
@@ -53,8 +65,8 @@ export function parseAmount(raw: string): number | null {
 }
 
 /** An error message for one field, or null when it is blank or valid. */
-export function validateField(key: FieldKey, raw: string): string | null {
-  const value = parseAmount(raw)
+export function validateField(key: FieldKey, raw: string | undefined): string | null {
+  const value = parseAmount(raw ?? '')
   if (value === null) return null
   const { min, max, label } = LIMITS[key]
   if (Number.isNaN(value)) return `${label} must be a number.`
@@ -76,7 +88,19 @@ export function monthlyPrincipalAndInterest(loan: number, annualRatePct: number,
 }
 
 export interface WorksheetLine {
-  key: 'principalInterest' | 'propertyTax' | 'insurance' | 'flood' | 'hoa' | 'club' | 'upkeep'
+  key:
+    | 'principalInterest'
+    | 'propertyTax'
+    | 'insurance'
+    | 'flood'
+    | 'hoa'
+    | 'club'
+    | 'upkeep'
+    | 'assessments'
+    | 'transport'
+    | 'other'
+  /** True for the lines that make up the cost of the home itself, as opposed to additional costs. */
+  housing: boolean
   label: string
   /** null when the reader hasn't supplied what this line needs. */
   monthly: number | null
@@ -88,6 +112,8 @@ export interface WorksheetResult {
   lines: WorksheetLine[]
   /** Sum of the lines that could be calculated. */
   total: number
+  /** Sum of the housing lines only (everything except transportation and other costs). */
+  housingTotal: number
   /** How many lines are included in the total. */
   counted: number
   loanAmount: number | null
@@ -105,8 +131,11 @@ export function calculateWorksheet(inputs: WorksheetInputs): WorksheetResult {
       errors[key] = error
       return null
     }
-    return parseAmount(inputs[key])
+    return parseAmount(inputs[key] ?? '')
   }
+  // The extended lines appear only when the worksheet supplies those inputs, so the
+  // original worksheet's results are unchanged.
+  const extended = inputs.annualAssessments !== undefined
 
   const price = value('purchasePrice')
   const downPct = value('downPaymentPct')
@@ -119,6 +148,7 @@ export function calculateWorksheet(inputs: WorksheetInputs): WorksheetResult {
     loanAmount = price * (1 - downPct / 100)
     principalInterest = {
       key: 'principalInterest',
+      housing: true,
       label: 'Mortgage principal and interest',
       monthly: monthlyPrincipalAndInterest(loanAmount, rate, term),
       detail: `${usd(loanAmount)} loan at ${rate}% over ${term} years`,
@@ -136,6 +166,7 @@ export function calculateWorksheet(inputs: WorksheetInputs): WorksheetResult {
     ].filter(Boolean)
     principalInterest = {
       key: 'principalInterest',
+      housing: true,
       label: 'Mortgage principal and interest',
       monthly: null,
       detail: `Needs ${missing.join(', ')}`,
@@ -146,33 +177,50 @@ export function calculateWorksheet(inputs: WorksheetInputs): WorksheetResult {
   const annualInsurance = value('annualInsurance')
   const monthly = (key: FieldKey) => value(key)
 
+  const line = (
+    key: WorksheetLine['key'],
+    label: string,
+    housing: boolean,
+    monthlyValue: number | null,
+    detail: string,
+  ): WorksheetLine => ({ key, housing, label, monthly: monthlyValue, detail })
+
+  const assessmentsAnnual = extended ? value('annualAssessments') : null
   const lines: WorksheetLine[] = [
     principalInterest,
-    {
-      key: 'propertyTax',
-      label: 'Property tax',
-      monthly: annualTax === null ? null : annualTax / 12,
-      detail: annualTax === null ? 'Not entered' : `${usd(annualTax)} a year ÷ 12`,
-    },
-    {
-      key: 'insurance',
-      label: 'Homeowners insurance',
-      monthly: annualInsurance === null ? null : annualInsurance / 12,
-      detail: annualInsurance === null ? 'Not entered' : `${usd(annualInsurance)} a year ÷ 12`,
-    },
-    { key: 'flood', label: 'Flood insurance', monthly: monthly('monthlyFlood'), detail: 'Monthly, as entered' },
-    { key: 'hoa', label: 'HOA dues', monthly: monthly('monthlyHoa'), detail: 'Monthly, as entered' },
-    { key: 'club', label: 'Club dues', monthly: monthly('monthlyClub'), detail: 'Monthly, as entered' },
-    { key: 'upkeep', label: 'Utilities and maintenance', monthly: monthly('monthlyUpkeep'), detail: 'Monthly, as entered' },
+    line('propertyTax', 'Property tax', true, annualTax === null ? null : annualTax / 12, annualTax === null ? 'Not entered' : `${usd(annualTax)} a year ÷ 12`),
+    line('insurance', 'Homeowners insurance', true, annualInsurance === null ? null : annualInsurance / 12, annualInsurance === null ? 'Not entered' : `${usd(annualInsurance)} a year ÷ 12`),
+    line('flood', 'Flood insurance', true, monthly('monthlyFlood'), 'Monthly, as entered'),
+    line('hoa', 'HOA dues', true, monthly('monthlyHoa'), 'Monthly, as entered'),
+    ...(extended
+      ? [
+          line(
+            'assessments',
+            'Non-ad valorem assessments',
+            true,
+            assessmentsAnnual === null ? null : assessmentsAnnual / 12,
+            assessmentsAnnual === null ? 'Not entered' : `${usd(assessmentsAnnual)} a year ÷ 12`,
+          ),
+        ]
+      : []),
+    line('club', 'Club dues', true, monthly('monthlyClub'), 'Monthly, as entered'),
+    line('upkeep', 'Utilities and maintenance', true, monthly('monthlyUpkeep'), 'Monthly, as entered'),
+    ...(extended
+      ? [
+          line('transport', 'Transportation', false, monthly('monthlyTransport'), 'Monthly, as entered'),
+          line('other', 'Other recurring costs', false, monthly('monthlyOther'), 'Monthly, as entered'),
+        ]
+      : []),
   ]
-  for (const line of lines) {
-    if (line.monthly === null && line.detail === 'Monthly, as entered') line.detail = 'Not entered'
+  for (const l of lines) {
+    if (l.monthly === null && l.detail === 'Monthly, as entered') l.detail = 'Not entered'
   }
 
   const counted = lines.filter((l) => l.monthly !== null)
   return {
     lines,
     total: counted.reduce((sum, l) => sum + (l.monthly ?? 0), 0),
+    housingTotal: counted.filter((l) => l.housing).reduce((sum, l) => sum + (l.monthly ?? 0), 0),
     counted: counted.length,
     loanAmount,
     errors,
