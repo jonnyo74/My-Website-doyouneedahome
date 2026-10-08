@@ -118,9 +118,10 @@ const nextConfig: NextConfig = {
       // Solana Bay and Seaglass pages are being built — index until they ship
       { source: '/new-communities/solana-bay-real-estate', destination: '/communities', permanent: true },
       { source: '/new-communities/seaglass-real-estate', destination: '/communities', permanent: true },
-      // Catch-all for the rest of the old Ylopo community URLs (Valencia, Martinique,
-      // Tuscany, Windsor Park, ...). Must stay below the explicit renames above.
-      { source: '/new-communities/:slug-real-estate', destination: '/communities/:slug', permanent: true },
+      // The rest of the old Ylopo community URLs (Valencia, Martinique, Evergrene, ...)
+      // are handled by src/app/new-communities/[slug]/page.tsx, which redirects to the
+      // community page when one exists and to /communities when it doesn't. A blind
+      // pattern redirect here sent unbuilt slugs to /communities/<slug> and a 404.
       // Old city URLs with "-fl" in them, e.g. /communities/jupiter-fl-real-estate
       { source: '/communities/:slug-fl-real-estate', destination: '/communities/:slug', permanent: true },
 
