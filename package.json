@@ -8,9 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "audit:links": "node scripts/audit-internal-links.mjs",
-    "audit:pbg-images": "node scripts/audit-pbg-images.mjs",
-    "prebuild": "node scripts/audit-pbg-images.mjs",
-    "test": "node --test scripts/pbg-image-guard.test.mjs"
+    "audit:images": "node scripts/audit-city-images.mjs",
+    "audit:pbg-images": "node scripts/audit-city-images.mjs",
+    "prebuild": "node scripts/audit-city-images.mjs",
+    "test": "node --test scripts/pbg-image-guard.test.mjs scripts/wellington-image-guard.test.mjs"
   },
   "dependencies": {
     "@turf/area": "^7.4.0",

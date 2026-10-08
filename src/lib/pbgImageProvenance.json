@@ -1,5 +1,5 @@
 {
-  "_readme": "Provenance for every image a Palm Beach Gardens blog article may reference. An image renders on a Palm Beach Gardens article only if its locality is exactly \"Palm Beach Gardens\" and it has a source and a verification note. File names prove nothing. Enforced by scripts/audit-pbg-images.mjs (runs before every build) and tested by scripts/pbg-image-guard.test.mjs. To add a photo: add it here first, with where it was taken and how that was established.",
+  "_readme": "Provenance for every image a Palm Beach Gardens blog article may reference. An image renders on a Palm Beach Gardens article only if its locality is exactly \"Palm Beach Gardens\" and it has a source and a verification note. File names prove nothing. Enforced by scripts/audit-city-images.mjs (runs before every build) and tested by scripts/pbg-image-guard.test.mjs. To add a photo: add it here first, with where it was taken and how that was established.",
   "allowedLocality": "Palm Beach Gardens",
   "images": [
     {

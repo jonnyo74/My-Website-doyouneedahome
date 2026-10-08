@@ -10456,1123 +10456,1504 @@ We started from local sources, including the Lake Worth Beach CRA's dining listi
 
   // ===================== WELLINGTON =====================
   {
-    slug: 'what-its-really-like-living-in-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "what-its-really-like-living-in-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "What It's Really Like Living In",
     order: 1,
-    seoTitle: "What It's Really Like Living in Wellington, Florida (Local Guide)",
-    metaTitle: "What It's Really Like Living in Wellington, FL",
-    metaDescription: "An honest local look at living in Wellington, Florida — how the 9,000-acre Equestrian Preserve shapes the village, what the recent rezoning fight means for buyers, and the everyday trade-offs of inland life.",
+    seoTitle: "What It's Really Like Living in Wellington, Florida: Layout, Preserve & Buyer Facts",
+    metaTitle: "Living in Wellington, Florida: Layout, Preserve Zoning & Buyer Facts",
+    metaDescription: "A source-linked look at living in Wellington, Florida: how the Equestrian Preserve Area works as zoning, how drainage and flood information is handled, and what to verify for one address.",
     primaryKeyword: "living in Wellington Florida",
-    secondaryKeywords: ["moving to Wellington FL", "Wellington lifestyle", "is Wellington a good place to live", "Wellington Florida relocation"],
-    h1: "What It's Really Like Living in Wellington, Florida",
-    heroImage: '/images/wellington/wellington-001.jpeg',
-    body: `Most guides to Wellington open the same way: horses, gated communities, school ratings, thirty minutes from the beach. All of that is true and none of it tells you what it's actually like to live here right now.
-
-Here's the part that matters. Wellington is a village of roughly 60,000 people that also happens to host one of the largest sporting events on earth for three months a year. Those two identities have coexisted for four decades under a specific set of land-use rules — and over the last couple of years, the village has been in an open, sometimes bitter argument about whether those rules should change.
-
-If you're buying here, that argument is not background noise. It's the single most useful thing to understand.
-
-## Two Wellingtons, sharing an address
-
-Drive Forest Hill Boulevard on a Tuesday in July and Wellington reads as capable, unremarkable suburban Florida: wide roads, mature landscaping, lakes behind the houses, a regional mall, a hospital, ball fields, a lot of gates.
-
-Turn south and west toward South Shore Boulevard and the texture changes within a mile. The lots get bigger, then much bigger. Fence lines replace privacy hedges. You start seeing paddocks, barns, arenas, and a sand trail running parallel to the pavement with hoofprints in it. In winter you'll wait behind a horse trailer at a light.
-
-Same village, same tax bill, entirely different premise. Wellington's whole character comes from the fact that the second version was deliberately protected from becoming the first.
-
-## The Preserve is a zoning rule, not a park
-
-This is the concept newcomers most often get wrong, and it's worth being precise about.
-
-The **Equestrian Preserve Area** is roughly **9,000 acres** across the western and southern portions of the village — an overlay zoning district, adopted in 2001 and rooted in the comprehensive plan the village wrote in 2000. It isn't conservation land and it isn't public open space. It's a rule about what can be built and at what density, wrapped around land that is mostly privately owned.
-
-Inside it you get show grounds, polo fields, barns, ranches, bridle trails, and low-density housing. What you don't get is the density that would otherwise be economically inevitable this close to a metro area of six million people.
-
-Residents have defended it more than once. In **2016, Wellington voters approved restrictions** limiting hotels, motels, condominiums and apartments inside the Preserve and making it procedurally harder to shrink its boundaries. That vote is why what happened next was such a fight.
-
-## What changed, and why people are still angry about it
-
-Beginning around 2023, **Wellington Lifestyle Partners** — a development group led by CEO Douglas McMahon — sought approval to convert roughly **96 acres of Preserve land** into a private golf club and luxury housing, paired with building new and larger show grounds elsewhere in the village.
-
-The Village Council approved the plan in 2024. It did not go quietly. Opponents organized a campaign to recall the mayor and council members, and residents packed hearings arguing that carving 96 acres out of a 9,000-acre overlay sets a precedent that makes the next request easier, and the one after that easier still. Supporters argued the opposite: that the show grounds needed reinvestment to stay competitive with rival winter circuits, and that the deal delivered it. As part of the package, a **59-acre former golf course** is to go to the village as a public park.
-
-![Riders and horses at speed on a Wellington polo field](/images/wellington/wellington-006.jpeg "Wellington's equestrian economy is not a hobby sector — it's the thing the village's land-use rules were written to protect.")
-
-Reasonable neighbors here still disagree about it, and you will meet both sides within your first month. What isn't in dispute is the practical takeaway for a buyer: **the boundary of the Preserve is no longer treated as permanent by everyone**, and additional development requests on Preserve parcels have followed. If you are buying specifically for the rural, horse-adjacent feel of a particular street, look up what's entitled nearby before you sign — not what exists today. Village planning staff and the council agenda archive are public, and this is exactly what they're for.
-
-## The show grounds are getting bigger, too
-
-The other half of the same story is expansion. **Wellington International** — the main show grounds, formerly known as the Palm Beach International Equestrian Center — is adding roughly **98 acres** as *Wellington International South*, bringing its footprint to about **215 acres**. The new venue is slated for a soft launch in **fall 2026** with a full competition season in **2027**.
-
-For most residents this is a traffic-and-timing story more than a lifestyle one. For anyone in the horse economy — trainers, grooms, farriers, vets, feed suppliers, the whole ecosystem — it's the difference between the circuit growing here or growing somewhere else.
-
-Timelines on projects this size move. Treat every date above as a plan rather than a promise, and verify current status with the village before making a decision that depends on it.
-
-## What doesn't change
-
-Underneath the politics, the day-to-day case for Wellington is stable and it's a good one.
-
-**Green space is structural, not decorative.** Because of how the village was planned, parks, lakes, canals and preserve acreage are woven through the layout rather than tacked onto the edge. Wellington also runs its own municipal recreation program — ball fields, pools, courts, community centers and the Wellington Amphitheater, which puts on free concerts and movie nights most of the year.
-
-**Housing is mostly master-planned and gated.** Single-family homes and townhomes in organized communities with amenity centers, plus the equestrian properties out west. Our [neighborhood guide](/blog/best-neighborhoods-in-wellington-florida) breaks down how those tiers actually differ.
-
-**Schools are Palm Beach County School District.** Wellington is generally well regarded for its schools and has magnet options, but grades and attendance boundaries are reassigned periodically. Verify the current zoning for a specific address with the district rather than trusting a listing, an article, or a neighbor.
-
-## The trade-offs, honestly
-
-- **It's inland.** The ocean is about half an hour away by car. Wellington is not a beach town and never pretends to be.
-- **It's car-first.** The village is spread out and designed around driving. There's no walkable downtown core.
-- **Winter is a different village.** From roughly January through March the equestrian season reshapes traffic, restaurant waits and the general population. Our [local's guide](/blog/local-guide-to-wellington-florida) covers how to plan around the calendar.
-- **HOAs are the norm.** Most of the residential village runs through them, with rules about vehicles, fences, paint and short-term rentals.
-- **Growth pressure is real on the east side.** State Road 7 is where the village's new retail, dining and housing are landing — covered in our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
-- **It's Florida.** Heat, hurricane season, and insurance costs are part of the math regardless of what you buy.
-
-## The adjustment nobody warns you about
-
-Wellington runs on two calendars, and transplants underestimate how much that structures the year.
-
-From January into spring, the village is busy, international, and expensive to eat in. Restaurants near the show grounds fill with people who flew in for the season. Roads that were empty in September have trailers on them. There's an energy to it that residents genuinely enjoy — you can watch world-class sport twenty minutes from your kitchen.
-
-From May through October, most of that leaves. Wellington gets quiet, hot, green and slow. Reservations stop mattering. The trails are yours.
-
-Some people love the rhythm and structure their year around it. Others find the off-season stretch flat and wish for more going on. Knowing which one you are is worth more than any statistic about the village.
-
-## Who Wellington actually suits
-
-The people happiest here wanted space, organized suburban infrastructure, and access to something genuinely world-class — and were willing to give up the beach and walkability to get it. Horse people are the obvious case, but a large share of residents have never sat on a horse and simply like living in a village where 9,000 acres can't be turned into townhouses.
-
-The people who struggle wanted the coast, wanted to walk to dinner, or wanted a short commute to downtown West Palm Beach or Boca Raton. Wellington offers none of those, and no amount of amenity compensates for it.
-
-## The bottom line
-
-For years the honest summary of Wellington was "beautiful, green, horse-mad, and slightly frozen in amber." The first three still hold. The fourth stopped being true in 2024.
-
-Buy here because you want the space, the trails, the recreation system and the seasonal spectacle — and go in knowing that the village is actively deciding how much of its Preserve it intends to keep, and that the answer will shape values on the western side for a long time.`,
-    faqs: [
-      { q: "What is Wellington, Florida known for?", a: "Wellington is best known as a winter equestrian destination — Wellington International hosts the Winter Equestrian Festival and the National Polo Center hosts the winter polo season. Beyond the horses, it's a master-planned village of roughly 60,000 people with extensive parks, an amphitheater, gated residential communities, and about 9,000 acres governed by the Equestrian Preserve Area overlay." },
-      { q: "What is Wellington's Equestrian Preserve Area?", a: "It is a roughly 9,000-acre overlay zoning district across the western and southern parts of the village, adopted in 2001, that limits density and protects equestrian uses on mostly privately owned land. It is a land-use rule rather than a public park or conservation area. In 2016 voters approved restrictions on hotels, motels, condominiums and apartments inside it and made boundary reductions harder." },
-      { q: "What is the Wellington Equestrian Preserve development controversy?", a: "Wellington Lifestyle Partners sought approval to convert roughly 96 acres of Preserve land into a private golf club and luxury housing while building new show grounds elsewhere. The Village Council approved it in 2024 over sustained opposition that included a campaign to recall the mayor and council members. A 59-acre former golf course is to be conveyed to the village as a public park. Additional development requests on Preserve parcels have followed — verify current status with the village." },
-      { q: "Is Wellington a good place to live if you do not own horses?", a: "Many residents have no involvement in the horse world at all. They live in Wellington for the master-planned layout, the parks and recreation system, the Palm Beach County school options, and the low-density feel the Equestrian Preserve helps preserve village-wide. The main trade-offs — inland location, car dependence, and winter-season traffic — apply whether or not you ride." },
-      { q: "Is Wellington on the beach?", a: "No. Wellington is an inland village roughly a 30-minute drive from the Atlantic coast. Buyers trade beach proximity for larger lots, green space, and the equestrian setting." },
-      { q: "What are the downsides of living in Wellington?", a: "It is inland with no beach access, spread out and car-dependent with no walkable downtown, noticeably busier and pricier during the January-through-March equestrian season, and largely governed by HOAs. Summers are hot and quiet, and Florida heat, hurricane season and insurance costs apply as everywhere in the region." },
+    secondaryKeywords: [
+      "moving to Wellington FL",
+      "Wellington Equestrian Preserve",
+      "is Wellington a good place to live",
+      "Wellington Florida relocation"
     ],
-    internalLinks: ["best-neighborhoods-in-wellington-florida", "best-things-to-do-in-wellington-florida", "who-should-move-to-wellington-florida"],
-    funFact: "Wellington's Equestrian Preserve Area covers roughly 9,000 acres — an overlay zoning district adopted in 2001 that caps density on privately owned land. In 2016 residents voted to restrict hotels, condos and apartments inside it. That single land-use decision, more than any amenity, is why the western half of the village still looks the way it does.",
-    author: 'john',
+    h1: "What It's Really Like Living in Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-living-hero.webp",
+    heroImageAlt: "Riders on horseback crossing a grass polo field in front of a covered grandstand with palm trees under a clear blue sky",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Living Here",
+      deck: "How Wellington is organized, what the Equestrian Preserve Area is and is not, how drainage and flood information works, and the questions worth answering for one address before you decide.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-living-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-living-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Best neighborhoods in Wellington",
+        href: "/blog/best-neighborhoods-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `Wellington is a Village in western Palm Beach County. The Census Bureau counted [61,637 residents in 2020](https://www.census.gov/quickfacts/wellingtonvillageflorida). It is also the center of a winter equestrian calendar that gives the Village its public identity. This guide is about what that combination means when you are deciding where to live, and about which of the things you will hear are matters of public record and which are not.
+  
+  It does not rank Wellington, describe the people who live here, or promise what a day in the Village looks like. It points to the official sources and names the questions that have to be answered one address at a time. For the geography, see the [local guide](/blog/local-guide-to-wellington-florida); for the costs, the [cost of living guide](/blog/cost-of-living-in-wellington-florida).
+  
+  ## The Village is more than one kind of setting
+  
+  Wellington includes planned residential neighborhoods, commercial areas along its main roads, parks and civic facilities, and a large area in the west and south that is governed by a special zoning district for equestrian use. A listing that says "Wellington" tells you the municipality. It does not tell you which of those settings the property sits in, and the rules differ between them.
+  
+  The practical consequence is simple. Two parcels a short distance apart can carry different zoning, different association documents, different drainage arrangements and different expectations about what may be kept or built on the land. Verify the parcel, not the town.
+  
+  ## The Equestrian Preserve Area is a zoning district, not a park
+  
+  The Village states that its equestrian community occupies about 9,000 acres in the western and southern portions of Wellington, the Equestrian Preserve Area. Development there is regulated by the Equestrian Overlay Zoning District, which the Village says its Council adopted in 2003 to protect the community's character. The Village's [overlay FAQ](https://www.wellingtonfl.gov/Faq.aspx?QID=142) is the source.
+  
+  A zoning overlay is a rule about how land may be used. It does not by itself make land public, open to visitors or permanently unchanged. Ownership, permitted uses and any pending land-use applications are parcel-level facts. The Village also keeps an advisory [Equestrian Preserve Committee](https://www.wellingtonfl.gov/331/Equestrian-Preserve-Committee) of seven residents who live in the Preserve Area or are involved in equestrian activities or businesses, which advises on land-use decisions that affect it.
+  
+  Land-use applications affecting land in and around the Preserve have been filed with the Village, and their narratives are published in its Document Center under names such as "The Wellington North" and "The Wellington South". This page does not summarize their contents or status, because those change. If an address you are considering is in or near the Preserve Area, read the current planning record and council agendas on the Village's website before you rely on what surrounds it today.
+  
+  ## Drainage is organized differently here
+  
+  Much of Wellington's drainage is handled by the Acme Improvement District. The District describes itself as a dependent special district created by the Florida Legislature in 1953, covering more than 32 square miles that include parts of unincorporated Palm Beach County, with responsibility for drainage and water-management infrastructure. It is funded through non-ad valorem assessments, which are not based on property value. The District's [explanation page](https://acme.wellingtonfl.gov/what-is-the-acme-improvement-district) has the details.
+  
+  For a buyer this means a drainage-related charge can sit outside the property-tax millage. Ask how the assessment appears for the specific parcel, and what the District's current plans are for the canals and basins that serve it.
+  
+  ## Flood and storm information
+  
+  The Village states that the primary causes of flooding in the community are tropical systems and afternoon thunderstorms, and that flooding can occur outside the mapped flood zones. It will issue a [flood zone determination](https://www.wellingtonfl.gov/531/Flood-Zone-Determination) for a property inside the Village at no cost on request, and its [flood information page](https://www.wellingtonfl.gov/690/Flood-Information) lists the maps and the contact for drainage questions.
+  
+  Use those alongside the FEMA Flood Map Service Center for the zone, an elevation certificate where one exists, and written insurance quotes obtained during the inspection period. A wind and flood quote is a property fact, not a Village fact.
+  
+  ## The calendar changes some days, not the whole year
+  
+  The winter equestrian season is part of the Village's public life. Wellington International's [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) lists its 2027 festival schedule, and the [National Polo Center](https://www.nationalpolocenter.com/) publishes its own. Event days can change traffic on nearby roads. How much that matters depends on where the address is and when you travel, so test the route you would actually use during an event week rather than relying on a generalization.
+  
+  ## Schools
+  
+  Attendance zones are set by the Palm Beach County School District and are reassigned from time to time. Use the District's [elementary](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps), [middle](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/middle-school-attendance-boundary-maps) and [high school](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/high-school-attendance-boundary-maps) attendance maps, or its Find My School tool, with the property address. A listing, an article or a neighbor is not the record.
+  
+  ## What to verify for one address
+  
+  - The parcel's zoning and whether any overlay applies, from the Village.
+  - Every association that governs it, with budgets, reserves, rules and pending assessments.
+  - Whether an Acme Improvement District assessment applies and how it is billed.
+  - The flood zone, elevation information and written insurance quotes.
+  - The route to the places you go most, driven at the hours you would drive.
+  
+  ## Continue exploring Wellington
+  
+  - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
+  - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+  - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
+  - [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)`,
+    faqs: [
+      {
+        q: "What is the Equestrian Preserve Area in Wellington?",
+        a: "The Village of Wellington describes it as about 9,000 acres in the western and southern parts of the Village, regulated by the Equestrian Overlay Zoning District that the Council adopted in 2003. It is a zoning district, not a public park, so ownership and permitted uses have to be checked for each parcel. The Village's overlay FAQ is at wellingtonfl.gov/Faq.aspx?QID=142."
+      },
+      {
+        q: "Is Wellington on the beach?",
+        a: "No. Wellington is an inland Village in western Palm Beach County. If a coastal address matters to you, compare it with coastal municipalities by parcel rather than by a generalized drive time."
+      },
+      {
+        q: "Who handles drainage in Wellington?",
+        a: "Much of it is handled by the Acme Improvement District, a dependent special district of the Village created in 1953. It funds drainage and related infrastructure through non-ad valorem assessments, which are not based on property value. Ask how any assessment appears for the parcel you are considering."
+      },
+      {
+        q: "How do I check the flood zone for a Wellington property?",
+        a: "The Village issues a flood zone determination at no cost for a property inside its limits, and the FEMA Flood Map Service Center shows the mapped zone. The Village also notes that flooding can occur outside mapped zones, so use written insurance quotes and the elevation information for the specific property."
+      },
+      {
+        q: "How do I find the schools for a Wellington address?",
+        a: "Use the Palm Beach County School District's Find My School tool or its attendance zone maps with the exact address. Zones are reassigned from time to time and some schools use choice admission instead of an attendance zone, so confirm with the District."
+      }
+    ],
+    funFact: "Wellington's Equestrian Overlay Zoning District, adopted by the Village Council in 2003, applies to about 9,000 acres in the west and south of the Village. It is a land-use rule rather than a park, which is why the Village's own pages are the place to confirm what applies to a given parcel.",
+    author: "john",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'local-guide-to-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "local-guide-to-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to Wellington, Florida",
-    metaTitle: "A Local's Guide to Wellington, Florida",
-    metaDescription: "An insider's guide to Wellington, Florida — how to read the village layout, the 100-plus-mile bridle trail system, the two-season calendar, and the local etiquette nobody tells newcomers about.",
+    seoTitle: "A Local's Guide to Wellington, Florida: Orientation, Trails & Event Seasons",
+    metaTitle: "A Local's Guide to Wellington, Florida: Orientation, Trails & Seasons",
+    metaDescription: "How to get oriented in Wellington, Florida: the main roads, the bridle trail network and what the Village says about it, the two event seasons, and how to plan around them using official sources.",
     primaryKeyword: "Wellington Florida local guide",
-    secondaryKeywords: ["Wellington insider tips", "things locals do in Wellington", "moving to Wellington guide"],
-    h1: "A Local's Guide to Wellington, Florida",
-    heroImage: '/images/wellington/wellington-005.jpeg',
-    body: `Wellington is not hard to navigate, but it is easy to misread. Newcomers tend to arrive, see a mall and a lot of gates, and conclude they've moved to a generic western suburb. Then February arrives and a helicopter lands two streets over.
-
-This is the orientation I'd give a friend on their first weekend here.
-
-## Read the village in three bands
-
-Forget the street grid for a second and think in bands running roughly northeast to southwest.
-
-**The State Road 7 corridor (east edge).** This is where Wellington does its commerce. The regional mall, Wellington Regional Medical Center, big-box retail, most chain dining, and the village's newest construction. If you work east or need an airport, you'll be on this road constantly.
-
-**The residential middle.** The bulk of the village: master-planned, mostly gated communities laid out around lakes and golf courses, threaded with parks. **Forest Hill Boulevard** is the spine — the village hall, library, amphitheater and community center cluster near its middle, along with the main athletic complexes.
-
-**The equestrian southwest.** South Shore Boulevard, Pierson Road, and the roads off them. Show grounds, polo fields, barns, farms, and sand trails. Lot sizes jump. This band exists because of the Equestrian Preserve overlay, which our [living-here guide](/blog/what-its-really-like-living-in-wellington-florida) gets into in detail.
-
-Learn which band you're in and Wellington stops feeling confusing.
-
-## The trail system is the thing to actually learn
-
-Wellington has **more than 100 miles of public and private bridle trails** woven throughout its equestrian community — a connected sand-and-grass network running along roadway easements, canal rights-of-way, and public and private bridle-path easements across the village.
-
-You will see smaller figures quoted, and they are not wrong so much as narrower. The Village counts portions of the network differently depending on the document: some materials cite 57-plus miles, and the Environmental Preserve page describes its own 3.6-mile loop as an extension of an approximately 65-mile system. The 100-plus figure is the one the Village's current equestrian materials use for the whole network, public and private together.
-
-If you have horses, this is functionally infrastructure: it's how you get from a barn to a ring to a show without a trailer.
-
-If you don't, it's the most underrated amenity in town. The trails are open to pedestrians and, in most sections, cyclists. You can walk for an hour on soft ground under trees without crossing a major road — something that is genuinely rare in suburban South Florida.
-
-Two pieces of etiquette that matter, because locals will notice:
-
-- **Horses have right of way, always.** Step to the side, stand still, and speak normally so the horse hears a human voice rather than being startled by a silent shape.
-- **Don't ride a bike up behind a horse.** Slow down, call out early, pass wide on the side the rider indicates.
-
-## The calendar is the local operating system
-
-Wellington effectively has two years layered on top of each other.
-
-### Winter season, roughly January through March
-
-The **Winter Equestrian Festival** at Wellington International runs about 13 weeks — the 2026 edition ran January 7 through March 29. It's the largest annual equestrian competition in the world, drawing riders from more than 40 countries.
-
-The winter **polo** season at the **National Polo Center – Wellington** runs longer, generally from late December into early May. Note the name: this venue was the International Polo Club Palm Beach until the U.S. Polo Association rebranded it in 2022. Locals and older articles still use the old name interchangeably, which confuses newcomers looking it up.
-
-Practical effects on ordinary life: heavier traffic on South Shore and Pierson, restaurant waits that didn't exist in October, more rental turnover in the neighborhoods near the show grounds, and a substantial temporary population that arrives with the horses.
-
-### Off-season, roughly May through October
-
-Hot, wet, quiet, and considerably cheaper. Afternoon storms are close to daily in high summer and usually pass. This is when locals do the things that are miserable in a crowd.
-
-## Going to a show without feeling like an intruder
-
-The single most common newcomer mistake is assuming the equestrian venues are private and not for them. Largely, they aren't.
-
-At Wellington International, **general admission to the Winter Equestrian Festival is free** — the 2026 season ran Wednesday through Sunday, 8 a.m. to 5 p.m. The marquee **Saturday Night Lights** evening events are also free to attend, with parking around $22 per car; free off-site parking with a shuttle has been offered from the Equestrian Village facility on South Shore Boulevard.
-
-You can walk in on a Thursday morning, buy a coffee, and watch international-level show jumping from a few feet away for the price of nothing. For what to actually watch once you're inside, see our [things-to-do guide](/blog/best-things-to-do-in-wellington-florida).
-
-Confirm current admission, hours and parking before you go — these details are set season by season.
-
-## The unwritten rules
-
-**Share the road with trailers.** A loaded horse trailer cannot stop quickly and cannot be cut off safely. Leave the space.
-
-**Slow down on the horse roads.** South Shore, Pierson, and the smaller equestrian lanes have riders on the shoulder. Locals drive them noticeably slower than the posted limit and it isn't timidity.
-
-**Don't feed anything over a fence.** The horse in that paddock is very likely a six-figure animal on a controlled diet.
-
-**Social life runs through your community, your kids' activities, or your barn.** There's no town square where everyone runs into each other. If you move here and wait to be found, you'll wait a while. Join something in the first month.
-
-**Learn the season before you commit to a routine.** The restaurant with no wait in November is a 45-minute wait in February.
-
-## Where locals actually go
-
-Beyond the marquee venues, the everyday pattern looks like this:
-
-- **The Wellington Amphitheater** for free concerts, movie nights and seasonal events — the closest thing the village has to a communal front porch.
-- **The village parks and athletic complexes** for youth sports, which is a genuine organizing force in local social life.
-- **The nature preserves** on the west side, which stay quiet even in season and are covered in our [hidden gems guide](/blog/hidden-gems-in-wellington-florida).
-- **The State Road 7 corridor** for practical errands, the regional mall and most chain dining.
-- **Out of the village** for a night out with real range — downtown West Palm Beach is roughly 30 to 40 minutes east depending on traffic.
-
-## Settling in
-
-Pick your Wellington deliberately. Buyers who choose the residential middle for the recreation and the schools are happy. Buyers who choose the equestrian southwest for the space and the trails are happy. Buyers who split the difference — hoping for a horse-country feel at a mall-adjacent price and commute — are the ones who end up frustrated.
-
-Go to a show in your first winter even if you have zero interest in horses. It's free, it's fifteen minutes away, and it's the fastest way to understand why the village is shaped the way it is.`,
-    faqs: [
-      { q: "What do locals actually do in Wellington?", a: "Everyday life centers on the village recreation system — athletic complexes, aquatics, parks and youth sports — plus free events at the Wellington Amphitheater and the bridle trail network. In winter, locals attend the equestrian festival and polo, much of which is free or low-cost to spectate. Nightlife with real range generally means driving east toward West Palm Beach." },
-      { q: "How many miles of bridle trails does Wellington have?", a: "The Village's current equestrian materials cite more than 100 miles of public and private bridle trails throughout Wellington, running along roadway easements, canal rights-of-way and bridle-path easements. Smaller figures circulate because the Village counts portions of the network differently in different documents — some materials cite 57-plus miles, and the Environmental Preserve page describes its 3.6-mile loop as an extension of an approximately 65-mile system. The trails are used by riders but are also open to pedestrians and, in most sections, cyclists, which makes them one of the better walking amenities in the village." },
-      { q: "When is equestrian season in Wellington, Florida?", a: "The Winter Equestrian Festival at Wellington International runs about 13 weeks in the new year — the 2026 season ran January 7 through March 29. The polo season at the National Polo Center runs longer, generally from late December into early May. Expect heavier traffic and busier restaurants through that window." },
-      { q: "Is the Winter Equestrian Festival free to attend?", a: "General admission has been free in recent seasons, with the 2026 festival open Wednesday through Sunday from 8 a.m. to 5 p.m. The Saturday Night Lights events are also free to attend, with parking around $22 per car and a free off-site parking shuttle offered from the Equestrian Village facility. Admission, hours and parking are set season by season — confirm before you go." },
-      { q: "What are the main roads in Wellington?", a: "Forest Hill Boulevard is the main east-west spine through the residential village, and State Road 7 (US-441) is the commercial corridor along the eastern edge. South Shore Boulevard and Pierson Road are the primary routes through the equestrian southwest, where drivers should expect horse trailers and riders on the shoulder." },
-      { q: "Is Wellington walkable?", a: "Not in the conventional sense — there is no walkable downtown and the village is designed around driving. However, the 100-plus-mile bridle trail network and the extensive park system make it unusually good for walking recreationally, as opposed to walking to errands." },
+    secondaryKeywords: [
+      "Wellington FL guide",
+      "Wellington bridle trails",
+      "Wellington equestrian season",
+      "getting around Wellington"
     ],
-    internalLinks: ["what-its-really-like-living-in-wellington-florida", "best-things-to-do-in-wellington-florida", "hidden-gems-in-wellington-florida"],
-    funFact: "The venue most people still call the International Polo Club was renamed the National Polo Center - Wellington after the U.S. Polo Association took it over in 2022. If you are searching for tickets or schedules and getting confusing results, that rebrand is usually why — plenty of listings and older articles still use the former name.",
-    author: 'christine',
+    h1: "A Local's Guide to Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-guide-hero.webp",
+    heroImageAlt: "Riders strung across a grass polo field in front of a covered grandstand and palm trees under a blue sky",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Local Guide",
+      deck: "How to get oriented in the Village: the main roads, the bridle trail network, the winter event calendar, and where the official information lives.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-guide-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-guide-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Best things to do in Wellington",
+        href: "/blog/best-things-to-do-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `Wellington is easy to navigate and easy to misread. The Village is spread out, most trips are by car, and the winter event calendar changes how some roads and venues are used. This guide gives an orientation and points to the sources that decide the details. It avoids drive times and rankings, because both depend on the hour, the season and the address.
+  
+  For the bigger picture, read [what living in Wellington is like](/blog/what-its-really-like-living-in-wellington-florida); for places to go, [best things to do](/blog/best-things-to-do-in-wellington-florida).
+  
+  ## Orienting yourself
+  
+  Forest Hill Boulevard is the Village's main east-west road, and the Village's civic campus and the [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater), at 12100 Forest Hill Boulevard, sit on it. The Mall at Wellington Green is at 10300 W. Forest Hill Boulevard. State Road 7 runs along the eastern side of the Village. The equestrian community is in the western and southern parts of the Village, in the Equestrian Preserve Area that the Village describes in its [overlay FAQ](https://www.wellingtonfl.gov/Faq.aspx?QID=142).
+  
+  Treat that as a starting map, not a description of any address. A property's setting, its association and its zoning are separate questions, answered by the parcel record.
+  
+  ## The bridle trail network
+  
+  The Village states that since 1999 it has established and maintained more than 100 miles of public and private bridle trails, including roadway easements, canal rights-of-way and bridle path easements ([Village FAQ](https://www.wellingtonfl.gov/FAQ.aspx?QID=175)). Other Village pages give smaller figures: its equestrian pages cite more than 57 miles, and the page for the Wellington Environmental Preserve describes its 3.6-mile perimeter trail as an extension of an approximately 65-mile system. The figures differ because they appear to count different things, so this guide uses none of them as a precise number.
+  
+  For the named trails and who maintains them, use the Village's [Equestrian Trails page](https://www.wellingtonfl.gov/582/Equestrian-Trails). Whether a trail is open to walkers or cyclists, and where, is set by the Village and by the owner of the easement. Read the posted rules before you go, and give riders the room and the quiet they need.
+  
+  ## Two event seasons
+  
+  - **Wellington International** hosts the Winter Equestrian Festival. Its [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) is the source for dates. The [visitor page](https://wellingtoninternational.com/visitors/) and the [Saturday Night Lights page](https://www.wellingtoninternational.com/winter-equestrian-festival/saturday-night-lights/) describe admission and parking, which the venue sets season by season.
+  - **The National Polo Center – Wellington** publishes its own season schedule and ticket options at [nationalpolocenter.com](https://www.nationalpolocenter.com/).
+  
+  Both are scheduled events at private venues, and details change. Check them the week you plan to go. Do not plan from last season's admission or parking terms.
+  
+  ## Everyday places
+  
+  The Village runs its own parks and recreation program, with facilities and programs listed on its [parks and recreation page](https://www.wellingtonfl.gov/2289/Parks-Recreation). Its [events page](https://www.wellingtonfl.gov/392/Events) and the [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series are the places to confirm what is on. For dining and shopping along the main roads, see [where to eat and hang out](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
+  
+  ## Using the Village's own information
+  
+  Planning, zoning, flood and drainage questions each have a Village contact, listed on its site. The [flood information page](https://www.wellingtonfl.gov/690/Flood-Information) and the [flood zone determination](https://www.wellingtonfl.gov/531/Flood-Zone-Determination) service are the starting points for a specific address.
+  
+  ## Continue exploring Wellington
+  
+  - [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
+  - [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
+  - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)`,
+    faqs: [
+      {
+        q: "How many miles of bridle trails does Wellington have?",
+        a: "The Village states in its FAQ that it has maintained more than 100 miles of public and private bridle trails since 1999. Other Village pages cite more than 57 miles and an approximately 65-mile system, apparently counting different things, so check the Village's Equestrian Trails page for the trail you care about."
+      },
+      {
+        q: "Where do I find dates for the Winter Equestrian Festival?",
+        a: "On Wellington International's event calendar at wellingtoninternational.com. Its 2027 listing begins in early January. Admission and parking are set by the venue each season, so confirm them before you go."
+      },
+      {
+        q: "Where is polo played in Wellington?",
+        a: "The National Polo Center – Wellington publishes its season schedule and ticket options at nationalpolocenter.com. Its 2027 season is announced as running from late December into early May, subject to the venue's schedule."
+      },
+      {
+        q: "What are the main roads in Wellington?",
+        a: "Forest Hill Boulevard runs east-west through the Village and State Road 7 runs along its eastern side. Use a current map and test any route at the hours you would drive it."
+      },
+      {
+        q: "Where can I find Wellington events?",
+        a: "The Village publishes its events at wellingtonfl.gov/392/Events, including the Thursday Nights in Wellington series at the Wellington Amphitheater."
+      }
+    ],
+    funFact: "The Village of Wellington's own pages give different figures for the bridle trail network: more than 100 miles in one FAQ, more than 57 in its equestrian pages, and a 3.6-mile preserve loop described as part of an approximately 65-mile system. The numbers appear to count different things, which is why this guide points to the trail list rather than quoting one.",
+    author: "christine",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'best-neighborhoods-in-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "best-neighborhoods-in-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "Best Neighborhoods In",
     order: 3,
-    seoTitle: "Best Neighborhoods in Wellington, Florida",
-    // Search Console, Sept 2026: 247 impressions at position ~12 with 0.4% CTR.
-    // The queries lead with horses ("best neighborhoods for equestrian
-    // enthusiasts in Wellington"), so the title and snippet now name the
-    // equestrian neighborhoods instead of describing the article.
-    metaTitle: "Best Neighborhoods in Wellington, FL: Horse, Gated & Golf",
-    metaDescription: "Where horse buyers look in Wellington (Grand Prix Village, Saddle Trail, Palm Beach Point) and how Olympia, Versailles, Binks Forest and the value tier compare.",
-    primaryKeyword: "best neighborhoods in Wellington Florida",
-    secondaryKeywords: ["where to live in Wellington", "equestrian neighborhoods in Wellington", "Grand Prix Village", "Binks Forest", "Olympia Wellington"],
-    h1: "Best Neighborhoods in Wellington, Florida",
-    heroImage: '/images/wellington/wellington-003.jpeg',
-    body: `Wellington's neighborhoods don't sort by price the way most towns do. They sort by **what you're allowed to do on the land** — and once you understand that, the whole map makes sense.
-
-There are effectively two housing markets inside one village, and they respond to different forces.
-
-## Why equestrian zoning is the dividing line
-
-In most of Palm Beach County, a five-acre lot is a five-acre lot. In Wellington, a five-acre lot inside the Equestrian Preserve overlay with the right approvals can carry a barn, paddocks, a riding arena, and direct access to the trail network. The one next door without those entitlements can't.
-
-That difference is not cosmetic. It's the reason equestrian parcels trade in a separate market at a substantial premium, and it's why the recent rezoning fight over Preserve acreage mattered so much to values — see our [living-here guide](/blog/what-its-really-like-living-in-wellington-florida) for what happened there.
-
-The practical rule for buyers: **never assume horse use transfers with the land.** Verify the zoning, the approved uses, the number of animals permitted, and any HOA overlay for the specific parcel before you write an offer. This is a question for the village and your own professionals, not for a listing description.
-
-## The equestrian tier
-
-**Grand Prix Village.** Farms built for the sport, adjacent to the show grounds, with barns, arenas and trail access. This is the top of the market and it behaves like commercial sporting property as much as residential real estate — buyers are frequently international and frequently buying a business asset.
-
-**Saddle Trail Park.** Closer-in, established, and prized for the ability to hack to the show grounds rather than trailer. Older housing stock on larger lots; many properties have been rebuilt or heavily renovated.
-
-**Palm Beach Point.** Larger acreage, further out, quieter. Favored by people who want a working farm setup with room rather than proximity to the ring.
-
-**Palm Beach Polo and Country Club.** A large gated community that mixes polo fields, golf, and a wide range of housing — from condominiums and patio homes to substantial estates. Worth knowing because it's the one place in the village where an entry-level buyer and an eight-figure buyer can share a gate. Amenity access and club membership are separate from the real estate; ask exactly what conveys.
-
-**Little Ranches, Rustic Ranches, and the smaller equestrian pockets.** Lower-profile acreage neighborhoods with horse rights, generally more affordable than the marquee names and the realistic entry point for a working horse family.
-
-## The gated master-planned tier
-
-This is where most of Wellington actually lives.
-
-**Olympia.** One of the larger newer communities on the east side near State Road 7, with a substantial amenity center, pool complex, and a mix of single-family sizes. Convenient to the commercial corridor.
-
-**Versailles.** Gated, with larger homes on smaller lots and a strong amenity package. Known for its architecture being consistent to the point of uniformity, which buyers either like or don't.
-
-**The Isles at Wellington.** Lake-heavy layout, well located centrally, with a mid-range price point and a lot of water views for the money.
-
-**Black Diamond, Buena Vida, Emerald Forest and similar.** The village has a deep bench of mid-size gated communities in this band. They differ mostly in age of construction, HOA dues, and whether the amenity center is a real facility or a pool and a room.
-
-## The golf and larger-lot tier
-
-**Binks Forest.** Established, wooded, larger lots, built around a golf course, and less uniform than the newer gated communities. Popular with buyers who want space and mature landscaping without equestrian pricing.
-
-**Wellington National.** Golf-course community with a country-club structure and a mix of housing types.
-
-In both cases, confirm whether golf membership is mandatory, optional, or tied to the deed — that answer changes the monthly carrying cost more than the price difference between two similar houses.
-
-## The value tier
-
-Wellington's reputation for expense comes from its horse farms, and it distorts what people expect.
-
-The village has a broad supply of non-gated and lightly-gated single-family neighborhoods, townhome communities, and older subdivisions from the village's earlier build-out phases. These are the homes that make Wellington reachable for buyers who work here — and they sit in the same village recreation system and the same school district as everything else.
-
-If your search has been returning nothing but seven-figure farms, your filters are wrong, not the market.
-
-## New construction
-
-Two things worth watching on the east side:
-
-- **Lotis Wellington**, the mixed-use project on State Road 7, includes a residential component alongside its retail and office space.
-- **K-Park**, roughly 70 acres of village-owned land on State Road 7 south of Stribling Way, was rezoned in February 2026 for a mixed-use development including residences, a hotel, retail and dining.
-
-Both are covered in more detail — including the parts that have gone sideways — in our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida). Verify current status before factoring either into a purchase decision.
-
-## How to actually choose
-
-Answer these four questions in order and the map narrows fast:
-
-1. **Do you need horse rights?** If yes, you're in the equestrian tier and the zoning verification above is your first task, not your last. If no, skip that entire market and stop paying attention to its prices.
-2. **How much HOA structure do you want?** Wellington runs from no HOA to highly prescriptive. Read the actual documents — vehicle rules, fence rules, rental restrictions and reserve funding vary enormously between two communities that look identical from the road.
-3. **East side or west side?** East means shorter drives to shopping, the hospital and the highway. West means quieter, greener, closer to the trails and preserves, and further from everything commercial.
-4. **What's the carrying cost, not the price?** HOA dues, club or golf membership, and equestrian upkeep can differ by thousands a month between two houses at the same list price. Our [cost of living guide](/blog/cost-of-living-in-wellington-florida) walks through the full picture.
-
-Wellington rewards buyers who are specific. The village is genuinely good at several different lifestyles, and mediocre at pretending to be one it isn't.`,
-    faqs: [
-      { q: "What is the best neighborhood in Wellington, Florida?", a: "It depends entirely on whether you need equestrian zoning. Horse buyers generally look at Grand Prix Village, Saddle Trail Park, Palm Beach Point, or the smaller ranch pockets. Buyers who do not need horse rights are usually better served by the gated master-planned communities such as Olympia, Versailles and the Isles at Wellington, or the larger-lot golf neighborhoods like Binks Forest." },
-      { q: "Where do equestrians live in Wellington?", a: "Primarily in the western and southern parts of the village inside the Equestrian Preserve overlay — Grand Prix Village and Saddle Trail Park for proximity to the show grounds, Palm Beach Point for larger acreage, and smaller neighborhoods such as Little Ranches and Rustic Ranches for more attainable horse property. Horse use depends on the specific parcel zoning and any HOA rules, which must be verified individually." },
-      { q: "Are there affordable neighborhoods in Wellington?", a: "Yes. Wellington has a broad supply of non-gated single-family neighborhoods, townhome communities and older subdivisions well below the prices its equestrian estates suggest. They sit in the same village recreation system and the same school district as the higher-priced communities." },
-      { q: "Does buying land in Wellington mean I can keep horses on it?", a: "No — horse use depends on the parcel being inside the Equestrian Preserve overlay with the appropriate approvals, and on any HOA restrictions that apply. Permitted animal counts and structures vary. Verify zoning and approved uses with the village for the specific address before making an offer." },
-      { q: "What is Palm Beach Polo and Country Club?", a: "A large gated community in Wellington that combines polo fields, golf and a wide range of housing, from condominiums and patio homes to large estates. Club membership and amenity access are generally separate from the real estate purchase, so buyers should confirm exactly what conveys with a given property." },
-      { q: "Is there new construction in Wellington?", a: "Yes, concentrated along the State Road 7 corridor on the east side. The Lotis Wellington mixed-use project includes a residential component, and roughly 70 acres of village-owned land known as K-Park, south of Stribling Way, was rezoned in February 2026 for a mixed-use development including residences, a hotel, retail and dining. Both are in progress — verify current status." },
+    seoTitle: "Neighborhoods in Wellington, Florida: How to Compare Them by Structure, Not Rank",
+    metaTitle: "Wellington, FL Neighborhoods: How to Compare Them by Structure",
+    metaDescription: "How to compare Wellington, Florida neighborhoods by zoning, association structure, drainage and parcel type instead of a ranking, with the official sources for each check.",
+    primaryKeyword: "neighborhoods in Wellington Florida",
+    secondaryKeywords: [
+      "Wellington FL neighborhoods",
+      "Wellington equestrian neighborhoods",
+      "Wellington HOA communities",
+      "where to live in Wellington"
     ],
-    internalLinks: ["what-its-really-like-living-in-wellington-florida", "cost-of-living-in-wellington-florida", "who-should-move-to-wellington-florida"],
-    funFact: "The premium on Wellington's equestrian parcels is really a premium on zoning. Inside the Equestrian Preserve overlay a lot can carry a barn, paddocks, an arena and trail access; an otherwise identical lot outside it cannot. Because the overlay's acreage is finite and politically contested, that entitlement behaves less like a feature and more like a scarce asset.",
-    author: 'john',
+    h1: "Best Neighborhoods in Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-neighborhoods-hero.webp",
+    heroImageAlt: "A row of riders and horses crossing a grass field in front of a grandstand with a tiled roof and palm trees",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Neighborhoods",
+      deck: "A structure-first way to compare Wellington neighborhoods: zoning, association documents, drainage and parcel type, with the official sources for each check.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-neighborhoods-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-neighborhoods-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Cost of living in Wellington",
+        href: "/blog/cost-of-living-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `Nobody can honestly name the best neighborhood in Wellington for a reader they have not met, and this page does not try. It does something more useful: it explains the structural differences that make two Wellington neighborhoods behave differently, so you can compare any two of them on the same footing. It names no ranked list, because a ranking would be a preference dressed as a fact.
+  
+  ## Start with what the land is allowed to be
+  
+  Zoning decides what may be built, kept or operated on a parcel. In Wellington, a large area in the west and south is governed by the Equestrian Overlay Zoning District, which the Village says covers about 9,000 acres and was adopted in 2003 ([Village FAQ](https://www.wellingtonfl.gov/Faq.aspx?QID=142)). Parcels outside it are governed by other districts.
+  
+  The consequence is one rule worth memorizing: **never assume that a use available on one parcel transfers to another.** Whether animals, structures or business uses are permitted is a question for the Village's land development regulations and for the specific address, answered in writing, not by a listing.
+  
+  ## The structures you will meet
+  
+  Describe a neighborhood by its structure and the comparison becomes concrete.
+  
+  | Structure | What to verify |
+  |---|---|
+  | Community with a mandatory association | Declaration, bylaws, rules, budget, reserves, special assessments, rental and vehicle rules |
+  | Community with a master association above a neighborhood association | Both sets of documents, and which charges each one levies |
+  | Parcel in the Equestrian Preserve Area | Overlay zoning, permitted uses and structures, any association or easement terms |
+  | Condominium or attached community | Building documents, reserve study, insurance summary, any milestone inspection findings |
+  | Parcel with no association | Maintenance responsibility for roads, drainage and common areas, from the public record |
+  
+  None of these is better than another. Each is a different bundle of rules, costs and responsibilities.
+  
+  ## Drainage and flood are part of the neighborhood
+  
+  The Acme Improvement District, described on its [explanation page](https://acme.wellingtonfl.gov/what-is-the-acme-improvement-district), handles drainage infrastructure for much of the Village and funds it through non-ad valorem assessments. Whether and how an assessment applies depends on the parcel. The Village's [flood zone determination](https://www.wellingtonfl.gov/531/Flood-Zone-Determination) service is the first check for flood designation, and [its flood information](https://www.wellingtonfl.gov/690/Flood-Information) explains that flooding can occur outside mapped zones.
+  
+  ## Compare on the same eight questions
+  
+  For any two neighborhoods, get the same answers in writing:
+  
+  1. Which municipality, utilities and service providers apply to the parcel?
+  2. What is the zoning, and does an overlay apply?
+  3. Which associations apply, and what do they charge?
+  4. Are there pending or recent special assessments?
+  5. How is drainage handled, and does an Acme assessment apply?
+  6. What are the flood zone, elevation information and insurance quotes?
+  7. Which rules govern rentals, vehicles, fences, pets and exterior changes?
+  8. What is the route to the places you go most, driven at the hours you would drive?
+  
+  ## Recent and proposed development
+  
+  The Village's Document Center and council agendas carry current development applications. Check them for any address you are considering rather than relying on a general impression, including for land in or near the Preserve Area.
+  
+  ## Schools
+  
+  Attendance zones are set by the Palm Beach County School District and are reassigned. Use its [attendance maps](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps) or Find My School with the exact address.
+  
+  ## Continue exploring Wellington
+  
+  - [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
+  - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
+  - [Wellington vs Nearby Areas](/blog/wellington-vs-nearby-cities)`,
+    faqs: [
+      {
+        q: "What is the best neighborhood in Wellington, Florida?",
+        a: "There is no single answer, and this guide does not rank neighborhoods. Compare them by zoning, association structure, drainage, flood information and daily routes, and get the answers for the specific address in writing."
+      },
+      {
+        q: "Does buying land in Wellington let me keep horses on it?",
+        a: "Not automatically. Permitted uses depend on the parcel's zoning, including whether the Equestrian Overlay Zoning District applies, and on any association rules. Confirm with the Village for the specific address before making an offer."
+      },
+      {
+        q: "What is the Acme Improvement District?",
+        a: "A dependent special district of the Village of Wellington, created in 1953, that handles drainage and related infrastructure and is funded through non-ad valorem assessments that are not based on property value. Ask how any assessment applies to the parcel."
+      },
+      {
+        q: "How do I check for new development near a Wellington address?",
+        a: "Read the Village's planning pages, Document Center and council agendas at wellingtonfl.gov for applications near the parcel."
+      },
+      {
+        q: "Where do I find the school zoned for a Wellington address?",
+        a: "Use the Palm Beach County School District's Find My School tool or its attendance maps with the exact address, and confirm with the District."
+      }
+    ],
+    funFact: "Wellington's Acme Improvement District, a dependent special district created in 1953, bills drainage-related charges as non-ad valorem assessments that are not based on a property's value. That is why two houses of very different value can carry similar drainage charges, and why the parcel record matters.",
+    author: "john",
     published: true,
-    updated: '2026-09-29',
+    updated: "2026-10-08"
   },
   {
-    slug: 'best-things-to-do-in-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "best-things-to-do-in-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in Wellington, Florida",
-    metaTitle: "Best Things to Do in Wellington, FL: Polo, Show Jumping & More",
-    metaDescription: "The best things to do in Wellington, Florida — free show jumping at the Winter Equestrian Festival, Saturday Night Lights, polo at the National Polo Center, the amphitheater, and what to do in the off-season.",
+    seoTitle: "Things to Do in Wellington, Florida: Events, Parks, Trails & Where to Confirm Details",
+    metaTitle: "Things to Do in Wellington, FL: Events, Parks & Trails",
+    metaDescription: "Things to do in Wellington, Florida, with the official page to check for each: the Winter Equestrian Festival, polo at the National Polo Center, the Wellington Amphitheater, parks and nature preserves.",
     primaryKeyword: "things to do in Wellington Florida",
-    secondaryKeywords: ["Wellington attractions", "what to do in Wellington FL", "Winter Equestrian Festival", "International Polo Club"],
-    h1: "Best Things to Do in Wellington, Florida",
-    heroImage: '/images/wellington/wellington-007.jpeg',
-    body: `Wellington's problem isn't a shortage of things to do. It's that the best things here are world-class, mostly free, and almost entirely invisible to people who assume they need an invitation.
-
-Here's what's actually worth your time, and how to do it without feeling out of place.
-
-## Watch show jumping for free
-
-The **Winter Equestrian Festival** at Wellington International is the largest annual equestrian competition in the world, running about 13 weeks in the new year — the 2026 season ran January 7 through March 29 — and drawing riders from more than 40 countries.
-
-The part newcomers don't believe: **general admission is free.** In the 2026 season the grounds were open to the public Wednesday through Sunday, 8 a.m. to 5 p.m.
-
-What that gets you is a working sporting venue rather than a stadium experience. Multiple rings run simultaneously. You can stand at the rail a few feet from a horse clearing a fence taller than you are, wander between competitions, get food, and leave when you like. Nobody checks whether you belong.
-
-If you go once, go on a weekday morning. It's quieter, the warm-up rings are active, and you can actually see how the sport works rather than watching from a distance in a crowd.
-
-## Saturday Night Lights
-
-The marquee evening events are the exception to the weekday advice — and they're the single best introduction to why this village is the way it is.
-
-Under the lights, with the top classes running and a full crowd, it stops feeling like a horse show and starts feeling like a proper sporting event. Attendance has been free, with parking around $22 per car; free off-site parking with a shuttle has been offered from the Equestrian Village facility on South Shore Boulevard.
-
-Go early. Parking, food lines and the good rail positions all reward it.
-
-Admission, hours and parking are set season by season — confirm current details before you drive over.
-
-## Polo at the National Polo Center
-
-The winter polo season at the **National Polo Center – Wellington** runs longer than the show-jumping calendar, generally from late December into early May, and includes major U.S. tournaments.
-
-Note the name if you're searching for tickets: this venue was the International Polo Club Palm Beach until the U.S. Polo Association rebranded it in 2022, and plenty of listings still use the old name.
-
-Polo is a ticketed, more structured experience than the show grounds, with a range of options from general seating to full hospitality. The tradition worth knowing about is **divot stomping** — at halftime, spectators walk onto the field and press back the turf the horses have torn up. It's real, it's participatory, and it's the most fun anyone has ever had doing groundskeeping in nice shoes.
-
-![Polo ponies and riders in front of the grandstand](/images/wellington/wellington-008.jpeg "The grandstand side of a winter polo match — a spectator sport in Wellington rather than a private one.")
-
-## Dressage, which is the other half of the season
-
-Show jumping gets the attention, but the winter circuit also includes a substantial **dressage** calendar centered on the Equestrian Village facility on South Shore Boulevard.
-
-It's a completely different spectator experience — quiet, precise, and closer to figure skating than to racing. If jumping didn't land for you, try dressage before deciding the horse thing isn't your thing. A lot of people find it's the one they actually enjoy watching.
-
-## The Wellington Amphitheater
-
-Year-round, this is the village's cultural center of gravity: free concerts, movie nights, seasonal festivals and community events, on a lawn, most weeks.
-
-It is not glamorous and that's rather the point. Bring a chair, bring dinner, and you've got the closest thing Wellington has to a town square.
-
-## The village recreation system
-
-Wellington runs an unusually deep public recreation program for its size — ball fields and athletic complexes, an aquatics facility, courts, community centers, and a large inventory of neighborhood parks.
-
-If you have kids in sports, this system will structure a meaningful part of your calendar and a meaningful part of your social life. It's also the answer to "what do people do here in July," which is: they're at the fields at 8 a.m. before it gets unbearable.
-
-## The trails
-
-The village's bridle trail network runs more than 100 miles, public and private together, and it's open to walkers and, in most sections, cyclists — not just riders. An hour on soft ground under trees, without crossing a major road, is a genuinely uncommon thing in suburban South Florida. Our [local's guide](/blog/local-guide-to-wellington-florida) covers trail etiquette, which is worth reading before your first walk.
-
-## Nature, quietly
-
-The village's preserves are excellent and stay uncrowded even in high season — including a 410-acre restored wetland with a six-story observation tower that most residents have never climbed. They get their own treatment in our [hidden gems guide](/blog/hidden-gems-in-wellington-florida).
-
-## The shopping corridor
-
-The regional mall on State Road 7 and the retail around it handle the practical end of life here — shopping, chain dining, movies, errands. It's also where the village's newest development is landing, which our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida) gets into.
-
-## What to do in the off-season
-
-From May through October the marquee events are gone and the village empties out. The move is to flip your schedule rather than leave town:
-
-- **Get outside early.** Preserves, trails and parks before 9 a.m. are pleasant; at 2 p.m. in August they are not.
-- **Use the water.** The aquatics complex and community pools are what summer is for.
-- **Take the indoor afternoon.** Storms roll through most summer afternoons and usually pass within an hour or two.
-- **Go east.** The beaches are about 30 minutes away and considerably less crowded on a summer weekday than in season.
-- **Enjoy the quiet.** Restaurants that need reservations in February will seat you immediately in September. Locals genuinely look forward to this.
-
-## A first weekend, planned
-
-If you're visiting or newly arrived in winter and want one good weekend:
-
-**Friday evening** — the amphitheater if something is on, otherwise dinner along the State Road 7 corridor, which our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida) maps out.
-
-**Saturday morning** — the preserves, early. Tower first, boardwalk after, back in the car before the heat.
-
-**Saturday evening** — Saturday Night Lights at the show grounds. Arrive well before the featured class.
-
-**Sunday afternoon** — polo. Stay for the divot stomp.
-
-That itinerary costs very little, covers both of Wellington's identities, and takes about as long as looking at four houses.
-
-## If you only do one thing
-
-Go to the show grounds on a free admission day, walk to a rail, and watch for twenty minutes. Whether or not you care about horses, it explains more about Wellington than any amount of driving around looking at neighborhoods will.`,
-    faqs: [
-      { q: "What is there to do in Wellington, Florida?", a: "Watch show jumping at the Winter Equestrian Festival and polo at the National Polo Center during the winter season, attend free concerts and movie nights at the Wellington Amphitheater, use the village athletic and aquatics complexes, walk the more than 100 miles of bridle trails, and visit the nature preserves. The Mall at Wellington Green and the State Road 7 corridor cover shopping and chain dining." },
-      { q: "Can you watch the Winter Equestrian Festival for free?", a: "Yes. General admission has been free in recent seasons — the 2026 festival was open Wednesday through Sunday from 8 a.m. to 5 p.m. The Saturday Night Lights evening events have also been free to attend, with parking around $22 per car and a free shuttle offered from off-site parking at the Equestrian Village facility. Confirm current details before going, as they are set each season." },
-      { q: "What is the National Polo Center in Wellington?", a: "It is the main polo venue in Wellington, hosting a winter season that generally runs from late December into early May and includes major U.S. tournaments. It was known as the International Polo Club Palm Beach until the U.S. Polo Association rebranded it in 2022, which is why older listings and articles use the former name." },
-      { q: "What is divot stomping at a polo match?", a: "At halftime, spectators are invited onto the field to press back the pieces of turf torn up by the horses. It is a long-standing polo tradition, it is genuinely participatory, and it is one of the more enjoyable things a first-time polo spectator can do." },
-      { q: "What is there to do in Wellington in the summer?", a: "The marquee equestrian events run in winter, so summer shifts to the village recreation system, the aquatics complex, early-morning walks on the trails and preserves, amphitheater events, and day trips to the coast about 30 minutes east. Afternoon thunderstorms are common and usually pass within an hour or two." },
-      { q: "Is Wellington worth visiting if you are not into horses?", a: "Yes, and the equestrian venues are still the recommendation. The show grounds are free to enter and function as an open sporting venue rather than a private club, so they are worth an hour regardless of interest. Beyond that, the amphitheater, preserves, trails and recreation facilities stand on their own." },
+    secondaryKeywords: [
+      "Wellington FL events",
+      "Winter Equestrian Festival",
+      "Wellington Amphitheater",
+      "polo Wellington"
     ],
-    internalLinks: ["hidden-gems-in-wellington-florida", "local-guide-to-wellington-florida", "best-places-to-eat-drink-hang-out-in-wellington-florida"],
-    funFact: "The Winter Equestrian Festival is a genuinely large economic event, not a local fair. A study prepared for the Palm Beach County Sports Commission with Florida Atlantic University and Stronge Properties put the 2025 festival at $538.2 million in economic impact for the county and about 4,869 jobs supported — ahead of the Miami Grand Prix, and multiples of what MLB spring training brings the region.",
-    author: 'christine',
+    h1: "Best Things to Do in Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-things-hero.webp",
+    heroImageAlt: "A rider on a white horse and others contesting the ball on a grass polo field in front of a grandstand",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Things to Do",
+      deck: "What Wellington offers, with the official page to check for dates, admission and rules for each, because those change every season.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-things-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-things-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Hidden gems in Wellington",
+        href: "/blog/hidden-gems-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `Wellington has a larger events calendar than a Village of its size usually does, plus parks, preserves and trails run by the Village itself. This page lists the main options and names where the current details live. It does not quote prices, hours or admission terms, because the venues set them season by season.
+  
+  ## Show jumping at Wellington International
+  
+  Wellington International hosts the Winter Equestrian Festival, which runs for several weeks in the new year. The venue's [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) is the source for dates; its 2027 listing begins in early January and runs into early April. The venue states that daytime general admission is free, and its [Saturday Night Lights page](https://www.wellingtoninternational.com/winter-equestrian-festival/saturday-night-lights/) describes the evening events. Parking and any reserved seating are separate and set by the venue, so check its [visitor page](https://wellingtoninternational.com/visitors/) before you go.
+  
+  ## Polo at the National Polo Center
+  
+  The National Polo Center – Wellington publishes its winter season at [nationalpolocenter.com](https://www.nationalpolocenter.com/). Its 2027 season is announced as running from late December into early May, with public admission, box seats, tailgate tents and a Sunday brunch among the ticket options it sells. Ticketing and dates are the venue's to set, and have changed between announcements in the past.
+  
+  ::: gallery
+  ![Riders on horseback strung across a grass polo field in front of a covered grandstand with palm trees](/images/wellington/wellington-003.jpeg "A polo match from the spectator side of the field. The venue is not named here. || Photo by John Oliver, 2022")
+  ![A rider on a white horse at speed during a polo match, with a hedge in the foreground and a grandstand behind](/images/wellington/wellington-006.jpeg "Mid-match action from the sideline. || Photo by John Oliver, 2022")
+  ![Two riders contesting the ball on a polo field, seen from under a roofline, with a grandstand in the background](/images/wellington/wellington-007.jpeg "Two riders contest the ball. || Photo by John Oliver, 2022")
+  ![Riders in front of a covered grandstand on a polo field, seen from under a roofline](/images/wellington/wellington-008.jpeg "Riders in front of the grandstand. || Photo by John Oliver, 2022")
+  :::
+  
+  ## The Wellington Amphitheater and Village events
+  
+  The Village operates the [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) at 12100 Forest Hill Boulevard and publishes its events on the Village [events page](https://www.wellingtonfl.gov/392/Events). The recurring [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series pairs live music with food trucks and a market, and the Village's calendar lists the current line-up and any cancellations. Admission to many Village events is free, but check each listing.
+  
+  ## Parks and recreation
+  
+  The Village's [parks and recreation page](https://www.wellingtonfl.gov/2289/Parks-Recreation) lists its parks, athletic facilities and programs. Hours, reservations and registration are the Village's to set and they change.
+  
+  ## Nature preserves
+  
+  The Village lists its [nature preserves](https://www.wellingtonfl.gov/649/Nature-Preserves) on one page. The largest is the Wellington Environmental Preserve at Section 24, which has its own entry below and in the [hidden gems guide](/blog/hidden-gems-in-wellington-florida).
+  
+  ## Shopping and dining
+  
+  The Mall at Wellington Green publishes a [dining directory](https://shopwellingtongreen.com/dining/). The full picture is in [where to eat, drink and hang out](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
+  
+  ## Plan around the calendar
+  
+  Event weeks can change traffic on nearby roads and the wait at nearby restaurants. How much depends on the day and the address. Check the venue calendars and test your route at the hour you will travel.
+  
+  ## Continue exploring Wellington
+  
+  - [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
+  - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
+  - [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
+    faqs: [
+      {
+        q: "Is the Winter Equestrian Festival free to attend?",
+        a: "Wellington International states that daytime general admission is free, and that general admission to Saturday Night Lights is free too, with parking and reserved seating charged separately. Terms are set by the venue each season, so confirm them on its visitor page before you go."
+      },
+      {
+        q: "When is polo season at the National Polo Center?",
+        a: "The National Polo Center – Wellington has announced its 2027 season as running from late December into early May. Dates and tickets are set by the venue and published at nationalpolocenter.com."
+      },
+      {
+        q: "Where is the Wellington Amphitheater?",
+        a: "At 12100 Forest Hill Boulevard, next to Scott's Place playground. The Village publishes its schedule at wellingtonfl.gov, including the Thursday Nights in Wellington series."
+      },
+      {
+        q: "What outdoor places can I visit in Wellington?",
+        a: "The Village lists its nature preserves, including the Wellington Environmental Preserve at Section 24 and Peaceful Waters Sanctuary, and its parks on its Parks and Recreation pages. Check the Village for current hours and rules."
+      },
+      {
+        q: "Where can I find a current list of Wellington events?",
+        a: "The Village's events page at wellingtonfl.gov/392/Events, plus the calendars of Wellington International and the National Polo Center for their own events."
+      }
+    ],
+    funFact: "Wellington International's 2027 Winter Equestrian Festival calendar begins in early January and runs into early April, longer than the three-month window many older articles describe. The venue's own event calendar is the current record.",
+    author: "christine",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'who-should-move-to-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "who-should-move-to-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "Who Should Move To",
     order: 5,
-    seoTitle: "Who Should Move to Wellington, Florida (And Who Shouldn't)",
-    metaTitle: "Who Should Move to Wellington, FL",
-    metaDescription: "An honest look at who fits in Wellington, Florida and who doesn't — including the horse-owner math on boarding versus keeping horses at home, and the commute reality from an inland village.",
-    primaryKeyword: "who should move to Wellington Florida",
-    secondaryKeywords: ["is Wellington right for me", "should I move to Wellington", "who lives in Wellington"],
-    h1: "Who Should Move to Wellington, Florida (And Who Shouldn't)",
-    heroImage: '/images/wellington/wellington-006.jpeg',
-    body: `Wellington is a specific place with a specific shape, and it does not try to be all things to all buyers. That's a strength if you're the right fit and a genuine problem if you aren't.
-
-This is the honest version of who thrives here.
-
-## If you have horses, start with this decision
-
-The most consequential question for an equestrian buyer isn't which neighborhood. It's **whether you keep horses at home or board them** — and it changes the entire search.
-
-**Keeping them at home** means buying a parcel that actually carries horse entitlements, and taking on a small agricultural operation: barn maintenance, footing, fencing, pasture, water, manure management, staffing or your own labor twice a day, every day. The property costs more up front because the zoning entitlement is scarce, as our [neighborhood guide](/blog/best-neighborhoods-in-wellington-florida) explains, and the operating costs are ongoing regardless of whether you ride that week.
-
-**Boarding** means you can live anywhere in the village — including the ordinary gated communities at ordinary prices — and pay a monthly fee for someone else to run the operation. For a rider with one or two horses and a job, this is very often the better arrangement, and it's what a lot of people who move here for the horses actually end up doing after a year.
-
-There is no universally right answer. There is a right answer for your number of horses, your discipline, your schedule and your tolerance for being responsible for animals at 6 a.m. Work it out before you shop, because it determines whether your budget needs to cover a farm or a house.
-
-## You'll likely thrive here if you:
-
-**Want space and green without going rural.** Wellington gives you larger lots, mature landscaping, lakes, parks and preserve land while keeping a hospital, a regional mall and full retail within fifteen minutes. That balance is harder to find than it sounds.
-
-**Are involved in the horse world at any level.** Rider, owner, trainer, groom, vet, farrier, supplier — Wellington is the center of the winter circuit in North America, and the professional ecosystem is here. Nowhere else in the country offers this concentration.
-
-**Want organized, master-planned suburbia.** If you like knowing that the landscaping will be maintained, the roads will be decent and the parks will be programmed, this village delivers reliably.
-
-**Have kids in sports.** The village recreation system is deep and it functions as the social infrastructure of the place.
-
-**Want more house per dollar than the coast.** Moving inland is the standard trade in Palm Beach County, and Wellington is one of the better-amenitized places to make it.
-
-**Like the seasonal rhythm.** Some people love that the year has a shape — a busy, international winter and a quiet green summer. If that appeals, it's a real feature.
-
-## You should probably look elsewhere if you:
-
-**Need the beach.** The coast is roughly a 30-minute drive. That's fine for a Saturday and wearing for a daily habit. Beach people should buy east and accept the price difference.
-
-**Want to walk to dinner.** There's no walkable downtown core. Wellington is a driving village, full stop.
-
-**Want nightlife.** The village is quiet after dinner most of the year. Downtown West Palm Beach is 30 to 40 minutes east, which is fine occasionally and tiring weekly.
-
-**Don't want an HOA.** Most of residential Wellington runs through one, with real rules about vehicles, fences, exterior changes and rentals.
-
-**Need a short commute to a coastal job center.** See below, because this is the one people underestimate.
-
-## Run the commute before you fall in love with a house
-
-Wellington sits west of the Florida Turnpike and well west of I-95. Every eastbound trip starts with the same few congested corridors, and in equestrian season the local roads add to it.
-
-Rough shape of the drives, without traffic being kind:
-
-- **Downtown West Palm Beach:** commonly 30 to 40 minutes.
-- **Palm Beach Gardens or Jupiter:** typically 40 minutes or more.
-- **Boca Raton:** often 45 minutes to an hour.
-- **Fort Lauderdale or Miami:** a serious daily commitment, not a casual commute.
-
-None of that is unusual for a western suburb, and plenty of people do it happily. But drive it yourself, at the hour you would actually drive it, on a weekday — not on a Sunday afternoon when you're house hunting and the roads are empty. This single exercise prevents more buyer's remorse in the western communities than any other piece of advice.
-
-## Rent a season before you buy one
-
-This is the single best piece of advice for anyone relocating here from out of state, and almost nobody takes it.
-
-Wellington has an active seasonal rental market, driven by the winter circuit — a meaningful share of housing near the show grounds turns over for the January-to-spring window, and equestrian professionals rent it every year. That market cuts both ways for a newcomer. It means short-term inventory genuinely exists. It also means the good options are spoken for early, often the previous spring, and that annual leases in some neighborhoods compete with seasonal pricing.
-
-If you can, live here through one winter and one August before committing. Those two months are the extremes, and they're the ones that determine whether you'll be happy. A December visit tells you almost nothing — the weather is perfect and the crowds haven't arrived.
-
-## If you're relocating with horses
-
-Two practical notes that catch out-of-state buyers.
-
-**Boarding availability follows the season.** Stalls near the competition venues tighten well before the circuit starts. If you're arriving for winter, you are competing for space with people who booked it a year out. Sort the horses' housing before you sort your own.
-
-**Interstate transport has paperwork.** Health documentation and testing requirements apply to moving horses across state lines, and they have timing windows. Work with your veterinarian and your shipper well ahead of the move rather than in the final fortnight, and confirm current Florida requirements — they change.
-
-## Wellington versus the obvious alternatives
-
-If the fit isn't quite right, the near neighbors solve different problems: Royal Palm Beach for value, Loxahatchee and The Acreage for acreage and fewer rules, Palm Beach Gardens for coastal convenience. Our [comparison guide](/blog/wellington-vs-nearby-cities) works through the trade-offs in detail.
-
-## The gut check
-
-If reading "9,000 acres of protected low-density land, more than 100 miles of trails, a deep parks system, and a world sporting event down the road" made you lean forward — Wellington is a bullseye, and few places compete with it.
-
-If what you actually pictured was walking to a coffee shop with the ocean two blocks away, no amount of Wellington's strengths will fix that. Buy the coast, buy less of it, and be happier.`,
-    faqs: [
-      { q: "Who should move to Wellington, Florida?", a: "Wellington suits buyers who want larger lots, green space and organized master-planned suburbia while keeping full retail and a hospital nearby; anyone involved in the horse world at any level; households with kids in sports, given the depth of the village recreation system; and buyers trading coastal proximity for more house per dollar." },
-      { q: "Should I board my horse or keep it at home in Wellington?", a: "Keeping horses at home requires buying inside the Equestrian Preserve overlay with appropriate approvals, and running what amounts to a small agricultural operation with daily labor and ongoing costs. Boarding lets you live anywhere in the village, including ordinary gated communities at ordinary prices, and pay a monthly fee instead. For riders with one or two horses and a job, boarding is frequently the more practical arrangement." },
-      { q: "How long is the commute from Wellington to West Palm Beach?", a: "Downtown West Palm Beach is commonly a 30 to 40 minute drive. Palm Beach Gardens or Jupiter typically run 40 minutes or more, and Boca Raton often 45 minutes to an hour. Wellington sits west of the Turnpike, so eastbound trips funnel through a few busy corridors. Drive your actual commute at your actual hour on a weekday before buying." },
-      { q: "Who should not move to Wellington?", a: "Buyers who want to be near the beach, want a walkable downtown, want nightlife, want to avoid HOAs, or need a short commute to a coastal job center are generally better served elsewhere. Wellington is inland, car-dependent, quiet at night for most of the year, and largely governed by homeowner associations." },
-      { q: "Do you have to own horses to enjoy living in Wellington?", a: "No. A large share of residents have no involvement in the horse world and live in Wellington for the master-planned layout, parks and recreation system, school options and low-density feel. The equestrian venues are largely open to the public, so residents can enjoy the season as spectators without participating in the sport." },
-      { q: "Is Wellington a good place for people who work from home?", a: "It fits remote work well, because the main drawback for most buyers — the eastbound commute — largely disappears. Remote workers get the space, green and recreation without paying the daily cost in drive time, though the inland location and lack of a walkable core still apply." },
+    seoTitle: "Is Wellington, Florida Right for You? Five Decisions Before You Shop",
+    metaTitle: "Is Wellington, FL Right for You? Five Decisions Before You Shop",
+    metaDescription: "Five property-level decisions that determine whether Wellington, Florida fits your plans: the use of the land, association structure, drainage, the route you will drive, and your tolerance for event seasons.",
+    primaryKeyword: "is Wellington Florida right for me",
+    secondaryKeywords: [
+      "should I move to Wellington FL",
+      "Wellington Florida relocation",
+      "Wellington equestrian property",
+      "moving to Wellington"
     ],
-    internalLinks: ["pros-and-cons-of-living-in-wellington-florida", "cost-of-living-in-wellington-florida", "what-its-really-like-living-in-wellington-florida"],
-    funFact: "Plenty of people move to Wellington for the horses and then discover the real decision was boarding versus keeping them at home. Boarding frees you to buy an ordinary house in an ordinary neighborhood at an ordinary price, because you are no longer paying for scarce equestrian zoning — which is why some of the village’s most involved riders live in standard gated communities.",
-    author: 'john',
+    h1: "Is Wellington, Florida Right for You? Five Decisions Before You Shop",
+    heroImage: "/images/wellington/polo-field-who-hero.webp",
+    heroImageAlt: "A rider on a grey horse at speed on a grass polo field with a hedge in the foreground and a grandstand behind",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Is It Right for You",
+      deck: "Five decisions about the property, the land and the daily routes that determine whether Wellington fits your plans, instead of a profile of who lives here.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-who-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-who-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Pros and cons of living in Wellington",
+        href: "/blog/pros-and-cons-of-living-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `Whether Wellington suits you depends on what you want from a property and how you intend to use it, not on who you are. This page therefore frames the question as five decisions about the home, the land and the routes you will drive. Make them before you start touring, and the search narrows quickly.
+  
+  ## 1. Do you need the land to allow a particular use?
+  
+  If you plan to keep animals, build an arena or barn, run an equestrian operation or even add a large outbuilding, the first fact to establish is what the parcel's zoning permits. About 9,000 acres in the west and south of the Village are in the Equestrian Preserve Area, regulated by the Equestrian Overlay Zoning District ([Village FAQ](https://www.wellingtonfl.gov/Faq.aspx?QID=142)). Whether a given use is allowed on a given parcel is a question for the Village's land development regulations, answered for the address in writing.
+  
+  If you do not need any special use, you can ignore the overlay and compare ordinary residential parcels on their own terms.
+  
+  ## 2. Will you keep animals at home or elsewhere?
+  
+  For those with animals the plan changes the search. Keeping them at home means a parcel with the right entitlements and a continuing operating commitment: footing, fencing, water, waste handling, labor. The Village's best-practice requirements for livestock waste, for example, call for covered, containerized storage. Boarding lets the home search ignore those entitlements and moves the cost into a monthly arrangement with a facility. Neither is correct in general. Decide before you shop.
+  
+  ## 3. How much association structure do you want?
+  
+  Many Wellington communities have associations, and others do not. The difference is rules, fees and shared responsibilities. For any property, read the declaration, rules, budget, reserve information, recent minutes and any pending assessments before you compare it with a neighbor.
+  
+  ## 4. What does drainage and flood exposure look like for this parcel?
+  
+  The Acme Improvement District handles drainage infrastructure for much of the Village and bills non-ad valorem assessments ([District page](https://acme.wellingtonfl.gov/what-is-the-acme-improvement-district)). The Village issues a [flood zone determination](https://www.wellingtonfl.gov/531/Flood-Zone-Determination) at no cost for a property inside its limits and notes that flooding can occur outside mapped zones ([flood information](https://www.wellingtonfl.gov/690/Flood-Information)). Insurance is a separate, address-specific quote.
+  
+  ## 5. Will you drive it, and when?
+  
+  Wellington is spread out, and most trips are by car. Whether the route to work, medical appointments, the airport or a coastal destination suits you is something to test yourself at the hours you would travel, including during an event week. The Village's inland location is a fact; what it costs you in time is an experiment you run, not a number a guide can supply.
+  
+  ## Seasons and events
+  
+  Wellington International and the National Polo Center schedule events in winter and spring ([calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/), [polo season](https://www.nationalpolocenter.com/)). Some people enjoy being near them and others prefer to avoid event-day roads. Visit during an event week and a quiet one, and decide with what you saw.
+  
+  ## Schools
+  
+  Check attendance zones with the School District's [Find My School tool and maps](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps) for the exact address, since zones are reassigned.
+  
+  ## A better way to use this list
+  
+  Write down your answers to the five decisions, then use them to filter. If you prefer, we can help organize a parcel-by-parcel checklist from them. See the [pros and cons](/blog/pros-and-cons-of-living-in-wellington-florida) and the [neighborhood comparison](/blog/best-neighborhoods-in-wellington-florida) for the next step.`,
+    faqs: [
+      {
+        q: "Is Wellington, Florida right for me?",
+        a: "That depends on what you need from the property: the permitted use of the land, the association structure, drainage and flood information, and the routes you will drive. This guide gives five decisions to make before you shop instead of a profile of who lives there."
+      },
+      {
+        q: "Should I keep horses at home or board them in Wellington?",
+        a: "It depends on the parcel's zoning and on the continuing work and cost of keeping animals at home. Boarding removes the need for a parcel with equestrian entitlements. Decide before you shop, because it changes which properties are candidates."
+      },
+      {
+        q: "How do I find out what a Wellington parcel allows?",
+        a: "Ask the Village for the parcel's zoning and permitted uses in writing, and read the Equestrian Overlay Zoning District in the Village's land development regulations if the parcel is in the Equestrian Preserve Area."
+      },
+      {
+        q: "How do I test whether the commute works?",
+        a: "Drive the actual route at the hours you would travel, on a weekday and during an event week, rather than relying on a distance or a generalized time."
+      },
+      {
+        q: "Where do I find the school for a Wellington address?",
+        a: "Use the Palm Beach County School District's Find My School tool or attendance zone maps with the exact address."
+      }
+    ],
+    funFact: "The Village of Wellington issues a flood zone determination at no cost for a property inside its limits, and its flood pages note that flooding can occur outside mapped zones. It is one of the cheapest and most useful checks a buyer can request, and it is easy to skip.",
+    author: "john",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'pros-and-cons-of-living-in-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "pros-and-cons-of-living-in-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "Pros And Cons Of Living In",
     order: 6,
-    seoTitle: "Pros and Cons of Living in Wellington, Florida",
-    metaTitle: "Pros and Cons of Living in Wellington, FL",
-    metaDescription: "The honest pros and cons of living in Wellington, Florida — green space, recreation and equestrian access versus an inland, car-dependent, HOA-heavy village with a busy winter season.",
+    seoTitle: "Wellington, Florida: Practical Pros, Trade-Offs & Buyer Due Diligence",
+    metaTitle: "Wellington, Florida: Practical Pros, Trade-Offs & Buyer Due Diligence",
+    metaDescription: "The pros and cons of living in Wellington, Florida, read as a buyer: zoning and the Equestrian Preserve, drainage assessments, association documents, event seasons, flood information and what to verify for one address.",
     primaryKeyword: "pros and cons of living in Wellington Florida",
-    secondaryKeywords: ["Wellington pros and cons", "living in Wellington downsides", "is Wellington worth it"],
-    h1: "Pros and Cons of Living in Wellington, Florida",
-    heroImage: '/images/wellington/wellington-002.jpeg',
-    showMarketTrends: true,
-    body: `Every town's marketing sounds the same. What separates places is the trade-offs they ask you to accept, and Wellington asks for a specific set.
-
-Here's the ledger, without the brochure language.
-
-## The Pros
-
-### Low density is structural, not accidental
-
-Roughly 9,000 acres on the western and southern sides sit under an overlay that caps density and protects equestrian and agricultural uses. Whatever your view of the recent rezoning fight — covered in our [living-here guide](/blog/what-its-really-like-living-in-wellington-florida) — the practical effect village-wide is a lot of green and a lot of sky in a county where that's increasingly scarce.
-
-### The recreation system is genuinely deep
-
-Ball fields, an aquatics facility, courts, community centers, an amphitheater programming free events most weeks, and a large inventory of neighborhood parks. For a village of this size, the public amenity offering is well above average, and it's funded and maintained rather than aspirational.
-
-### A trail network you can actually use
-
-The village's bridle trails — more than 100 miles of them, public and private — are open to walkers and, in most sections, cyclists, not only riders. A connected soft-surface network you can use for an hour without crossing a major road is rare in suburban South Florida.
-
-### It's a village, and that shows
-
-Wellington runs its own municipal government rather than being an unincorporated pocket of the county. In practice that means local control over land use, a council you can actually turn up and speak to, and services that are noticeably responsive by South Florida standards. The flip side is that the arguments are local too, which is why the Preserve fight was as loud as it was.
-
-### Real services inside the village
-
-Wellington Regional Medical Center, full supermarket and big-box retail, a regional mall, and a public library sit inside the village boundaries. In much of western Palm Beach County, some of those are a drive away.
-
-### World-class sport, mostly free
-
-The Winter Equestrian Festival and the polo season put international competition fifteen minutes from most Wellington addresses, and much of it is free or inexpensive to attend. See our [things-to-do guide](/blog/best-things-to-do-in-wellington-florida) for how to go.
-
-### Schools and services
-
-Wellington is served by the Palm Beach County School District and has magnet options; it also has a hospital, full retail and a regional mall inside the village rather than a drive away. School grades and attendance boundaries are reassigned periodically — verify the current zoning for a specific address with the district.
-
-### More house per dollar than the coast
-
-Moving inland buys space. Wellington is among the better-amenitized places in the county to make that trade, and it has genuine range — from townhomes to eight-figure farms.
-
-### No state income tax
-
-Florida's headline financial advantage applies here as everywhere in the state.
-
-## The Cons
-
-### It's inland, and that's permanent
-
-The coast is about half an hour away by car. No amount of amenity changes the fact that you do not live near the ocean. For a lot of buyers who moved to Florida specifically for the water, this is the dealbreaker, and it should be identified early.
-
-### Car dependence is total
-
-There's no walkable downtown, no meaningful transit, and errands are drives. Households usually need one vehicle per driving adult.
-
-### You're a long way from the interstate
-
-Wellington sits west of the Florida Turnpike and well west of I-95. Every trip north, south or to the airport begins with the same few eastbound corridors, and they are not fast at rush hour. Our [who-should-move guide](/blog/who-should-move-to-wellington-florida) has the drive times, and the advice there is worth repeating: test your commute on a weekday before you buy, not on a Sunday.
-
-### The winter season reshapes the village
-
-From roughly January through March, traffic on the southern and western roads gets heavy, restaurants near the show grounds fill, and the population swells with a temporary seasonal community. Most residents enjoy it. Some find three months of it wearing, particularly if their commute crosses the equestrian corridor.
-
-### HOAs are close to unavoidable
-
-Most of residential Wellington is governed by an association. Dues vary widely, and so do the rules — on vehicles, fences, exterior changes, landscaping and rentals. Read the documents, including the reserve funding, before you're committed.
-
-### Insurance is a real line item
-
-This is Florida. Windstorm exposure applies inland as well as on the coast, and roof age, construction type and wind-mitigation features drive the premium spread more than the address does. Being away from the ocean can help on flood risk in some areas, but flood zones vary parcel by parcel and Wellington's canal-and-lake layout means you should check the specific property rather than assume. Get an actual quote during your inspection period, not an estimate afterward.
-
-### Construction and change on the east side
-
-The State Road 7 corridor is where the village's growth is landing — new retail, new housing, and a large mixed-use project on village-owned land approved in early 2026. That means amenities arriving and it means road work and disruption while they do. Our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida) tracks what's actually opening.
-
-### The off-season is quiet
-
-May through October is hot, wet and slow. Whether that reads as peaceful or as flat depends entirely on temperament, and people rarely know which camp they're in until they've lived through one.
-
-### The equestrian market is its own animal
-
-If you're buying a horse property, you're buying into a market driven by international demand, a scarce zoning entitlement, and the ongoing political question of how much Preserve land stays preserved. That's a different risk profile from buying a house in a gated community, and it warrants different diligence.
-
-## How the trade actually nets out
-
-Wellington asks you to give up the ocean, walkability and nightlife. In exchange it gives you space, trees, trails, a serious parks system, and proximity to something the rest of the world flies in to see.
-
-For buyers who wanted a quiet, green, well-run suburban village and would rather watch show jumping than go clubbing, that's a straightforwardly good deal — and the reason people who move here tend to stay.
-
-For buyers who wanted Florida to mean salt air and a short walk to the water, it isn't a close call, and the honest advice is to look east.
-
-**Verify the specifics that matter to you** — school zoning, flood zone, HOA documents, insurance quotes and any entitlements near a property you care about — with the district, the village and your own licensed professionals before you commit.`,
-    faqs: [
-      { q: "What are the pros of living in Wellington, Florida?", a: "Structurally low density thanks to the roughly 9,000-acre Equestrian Preserve overlay, an unusually deep public recreation system, more than 100 miles of bridle trails open to walkers and cyclists, world-class equestrian sport that is largely free to attend, Palm Beach County School District options plus a hospital and full retail inside the village, more house per dollar than the coast, and no state income tax." },
-      { q: "What are the downsides of living in Wellington?", a: "It is inland with the coast about 30 minutes away, entirely car-dependent with no walkable downtown, noticeably busier from January through March during the equestrian season, and largely governed by HOAs. Insurance is a meaningful cost, the State Road 7 corridor is under active construction, and the summer off-season is hot and quiet." },
-      { q: "Does equestrian season affect daily life in Wellington?", a: "Yes. From roughly January through March, traffic on the southern and western roads gets heavier, restaurants near the show grounds fill up, and the village takes on a substantial temporary seasonal population. Most residents enjoy the energy, but commuters crossing the equestrian corridor feel it daily." },
-      { q: "Is flood insurance required in Wellington?", a: "It depends on the specific parcel. Being inland can reduce flood exposure compared with coastal properties, but Wellington is laid out around canals and lakes and flood zones vary property by property. Windstorm coverage applies regardless of distance from the ocean, and roof age, construction type and wind-mitigation features drive premiums significantly. Get a real quote during your inspection period." },
-      { q: "Is Wellington worth it?", a: "For buyers who want space, green, a strong recreation system and access to world-class equestrian sport, and who can accept an inland, car-dependent village with HOAs, it is a strong fit. For buyers who moved to Florida for the ocean, walkability or nightlife, the inland location is a poor trade regardless of the amenities." },
-      { q: "Is Wellington cheaper than coastal Palm Beach County?", a: "Generally yes for comparable homes — moving inland is the standard way to buy more space in Palm Beach County. The exception is the equestrian market, where scarce horse-permitted zoning drives prices well above what the same land would command without it." },
+    secondaryKeywords: [
+      "Wellington Florida pros and cons",
+      "living in Wellington downsides",
+      "is Wellington worth it",
+      "moving to Wellington FL what to know"
     ],
-    internalLinks: ["cost-of-living-in-wellington-florida", "who-should-move-to-wellington-florida", "wellington-vs-nearby-cities"],
-    funFact: "Insurance in Wellington surprises buyers who assume inland means cheap. Windstorm exposure does not stop at the coast, and premiums here track roof age, construction type and wind-mitigation credits far more than distance from the ocean. Two similar houses on the same street can quote thousands apart based on the roof alone — which is why the quote belongs in your inspection period, not after closing.",
-    author: 'christine',
+    h1: "Pros and Cons of Living in Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-proscons-hero.webp",
+    heroImageAlt: "A long line of riders and horses on a grass polo field in front of a grandstand with palm trees behind",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Pros and Cons",
+      deck: "A practical look at zoning, drainage, association documents, event seasons and flood information, and the property-specific questions worth answering before you buy.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-proscons-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-proscons-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Jump to the buyer checklist",
+        href: "#article-checklist"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      checklist: {
+        heading: "Questions to answer before you fall in love with the house",
+        intro: "Wellington is not one product. The same eight questions, asked of two different addresses, often produce two different answers. Get them in writing, from the governing documents and the public record rather than from a listing.",
+        items: [
+          {
+            label: "What is the full annual carrying cost beyond principal and interest?",
+            detail: "Property taxes as they will be assessed for you, any non-ad valorem assessment such as a drainage charge, homeowners and flood quotes, association dues, utilities and the maintenance this house needs."
+          },
+          {
+            label: "Which zoning district and which overlay apply to this parcel?",
+            detail: "Ask the Village in writing, especially if the parcel is in or near the Equestrian Preserve Area or if you plan animals, outbuildings or any business use."
+          },
+          {
+            label: "Which associations govern it, and what do their documents say?",
+            detail: "Declaration, bylaws, rules, budget, reserve study, recent minutes, pending or recent special assessments and litigation."
+          },
+          {
+            label: "Does an Acme Improvement District assessment apply, and how is it billed?",
+            detail: "The District funds drainage infrastructure through non-ad valorem assessments. Ask for the current charge and any planned projects."
+          },
+          {
+            label: "What are the flood zone, elevation information and insurance quotes?",
+            detail: "Request the Village flood zone determination and obtain written wind and flood quotes during the inspection period. Flooding can occur outside mapped zones."
+          },
+          {
+            label: "What do the roof, openings, drainage and lot grading look like?",
+            detail: "Roof age and permit history, wind-mitigation documentation, how the lot drains, and any canal, lake or swale easement."
+          },
+          {
+            label: "What does the route feel like at the hours I will actually use it?",
+            detail: "Work, errands, medical appointments, the airport and the coast, driven on a weekday and during an event week."
+          },
+          {
+            label: "Which rental, vehicle, fence, pet and exterior rules affect my plans?",
+            detail: "Minimum lease terms and approvals, trailer, truck and boat rules, architectural review and guest access."
+          }
+        ],
+        note: "This list is a starting point, not legal, tax or insurance advice. Confirm each answer with the appropriate licensed professional."
+      },
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `Wellington offers a mix of planned residential neighborhoods, commercial areas and a large equestrian zoning district, with parks and event venues that are part of the Village's public life. Those options come with different rules, costs and daily routes. A pro for one buyer is a con for another, so this page is not a verdict. It is a working list of what the Village genuinely offers, what it can cost in money, driving and diligence, and the questions that decide whether a particular address fits.
+  
+  For the lay of the land, read [what living in Wellington is like](/blog/what-its-really-like-living-in-wellington-florida); for the structure of the neighborhoods, the [neighborhood guide](/blog/best-neighborhoods-in-wellington-florida).
+  
+  ## What Wellington genuinely offers
+  
+  ### A defined equestrian zoning district
+  
+  The Village describes the Equestrian Preserve Area as about 9,000 acres in the west and south, regulated by an overlay zoning district adopted in 2003 ([Village FAQ](https://www.wellingtonfl.gov/Faq.aspx?QID=142)). For a buyer who needs that use, it is a rare and clearly defined thing. For one who does not, it is context.
+  
+  ### Public parks, preserves and civic programming
+  
+  The Village runs a [parks and recreation program](https://www.wellingtonfl.gov/2289/Parks-Recreation), operates the [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater), and lists its [nature preserves](https://www.wellingtonfl.gov/649/Nature-Preserves) on one page. The Wellington Environmental Preserve at Section 24 is described by the Village as a 410-acre rainwater storage area with trails, a boardwalk and an observation tower.
+  
+  ### Scheduled events close to home
+  
+  Wellington International and the National Polo Center schedule events in winter and spring ([calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/), [polo season](https://www.nationalpolocenter.com/)). For some residents that is a draw. See the trade-offs below.
+  
+  ### A defined drainage and flood information trail
+  
+  The Village provides a [flood zone determination](https://www.wellingtonfl.gov/531/Flood-Zone-Determination) at no cost and explains its drainage in its [flood information](https://www.wellingtonfl.gov/690/Flood-Information). The Acme Improvement District, the Village's dependent drainage district, explains its role on its [website](https://acme.wellingtonfl.gov/what-is-the-acme-improvement-district). That is a record you can read before you buy.
+  
+  ## What it tends to cost in money, driving and diligence
+  
+  ### Layered obligations
+  
+  A Wellington address can carry an association assessment, a master-association assessment, a non-ad valorem drainage assessment and the regular property tax. Whether each applies depends on the parcel. The Acme District explains that its assessments are not based on a property's value.
+  
+  ### A car-oriented layout
+  
+  Wellington is spread out, and most trips are by car. Test the route you would drive, at the hours you would drive it, on a weekday and during an event week. No generalized time is given here.
+  
+  ### Event weeks
+  
+  Events can change traffic and crowding on nearby roads. How much depends on where the address is and when you travel.
+  
+  ### Flood and storm exposure
+  
+  The Village states that tropical systems and afternoon thunderstorms are the main causes of flooding, and that flooding can occur outside mapped zones. Treat flood and wind insurance quotes as a required part of the decision.
+  
+  ### Land-use change
+  
+  The Village's Document Center and agendas carry development applications, including land in and near the Preserve Area. Read the current record rather than assuming what surrounds a property is fixed.
+  
+  ## What is not here
+  
+  This page does not rank Wellington, quote prices or commute times, or describe the people who live in it. It does not tell you what a school is like; use the District's [attendance maps](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps) and its Find My School tool for the exact address.
+  
+  ## Continue exploring Wellington
+  
+  - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
+  - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
+  - [Wellington vs Nearby Areas](/blog/wellington-vs-nearby-cities)`,
+    faqs: [
+      {
+        q: "What are the downsides of living in Wellington, Florida?",
+        a: "Which trade-offs matter depends on the property and the buyer. Common ones to check are layered association and drainage assessments, a car-oriented layout, event-week traffic, flood and storm exposure, and pending land-use applications near the address. The buyer checklist on this page lists the questions to answer in writing."
+      },
+      {
+        q: "Does Wellington have extra assessments beyond property tax?",
+        a: "Some parcels do. The Acme Improvement District funds drainage infrastructure through non-ad valorem assessments that are not based on property value, and many communities have association assessments. Ask for the current charges for the specific parcel."
+      },
+      {
+        q: "How do I check flood risk for a Wellington property?",
+        a: "Request the Village's free flood zone determination, check the FEMA Flood Map Service Center, and get written flood and wind quotes. The Village notes that flooding can occur outside mapped zones."
+      },
+      {
+        q: "Is Wellington walkable?",
+        a: "The Village is spread out and most trips are by car. Walkability varies by address, so test the specific location at the hours you would use it."
+      },
+      {
+        q: "Where do I find the schools for a Wellington address?",
+        a: "Use the Palm Beach County School District's Find My School tool or attendance maps with the exact address."
+      }
+    ],
+    funFact: "The Wellington Environmental Preserve at Section 24 is described by the Village as a 410-acre rainwater storage area with trails, a boardwalk and an observation tower. It is a stormwater facility and a public preserve at once, which says a lot about how the Village thinks about water.",
+    author: "christine",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'cost-of-living-in-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "cost-of-living-in-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "Cost Of Living In",
     order: 7,
-    seoTitle: "Cost of Living in Wellington, Florida",
-    metaTitle: "Cost of Living in Wellington, Florida",
-    metaDescription: "What it really costs to live in Wellington, Florida — the property tax reset that catches new buyers, hurricane deductibles, HOA versus club dues, and the true carrying cost of a horse property.",
+    seoTitle: "Cost of Living in Wellington, Florida: A Property-Level Worksheet",
+    metaTitle: "Cost of Living in Wellington, FL: A Property-Level Worksheet",
+    metaDescription: "How to build the real cost of owning a Wellington, Florida home: taxes from the Property Appraiser, drainage and association assessments, insurance quotes, flood information and a worksheet to fill in for one address.",
     primaryKeyword: "cost of living in Wellington Florida",
-    secondaryKeywords: ["Wellington home prices", "is Wellington expensive", "Wellington FL cost of living"],
-    h1: "Cost of Living in Wellington, Florida",
-    heroImage: '/images/wellington/wellington-004.jpeg',
-    showMarketTrends: true,
-    body: `Wellington's cost of living is unusually hard to summarize because the village contains two different economies. A townhome and a working horse farm share a zip code, a school district and very little else.
-
-So rather than quoting averages that will be wrong for you, here's how the costs actually work — the mechanics that determine your number.
-
-Current prices move constantly. Use the market data on this page for where the market is today, and use the rest of this guide for the structure underneath it.
-
-## The property tax reset is the number one budget surprise
-
-This catches more new Florida buyers than anything else, and it has nothing to do with Wellington specifically.
-
-**Florida's Homestead Exemption** reduces the taxable value of a primary residence. More importantly, the **Save Our Homes** cap then limits how much that assessed value can rise each year while you own it — regardless of what the market does.
-
-Over a long ownership, that cap can hold a seller's assessed value far below actual market value. Their tax bill reflects decades of capped increases.
-
-**When the property sells, the cap resets.** The new assessment is based on current market value, and your tax bill can be dramatically higher than the one the seller was paying.
-
-The practical consequences:
-
-- **Never budget from the seller's current tax bill.** It is not what you will pay. Estimate from the purchase price and the current millage rates instead.
-- **File for Homestead** on your primary residence — the deadline is early in the year following your purchase, and missing it costs you a full year.
-- **Ask about portability** if you already own a homesteaded Florida property. You may be able to carry a portion of your accumulated Save Our Homes benefit to the new home, which can be worth a great deal. There are limits and deadlines.
-
-Verify current exemption amounts, caps, millage rates and deadlines with the **Palm Beach County Property Appraiser** and Tax Collector for the specific parcel. None of this is advice about your situation.
-
-## Insurance: understand your deductible, not just your premium
-
-Buyers shop premiums and ignore the structure, which is backwards.
-
-Florida policies typically carry a **separate hurricane deductible expressed as a percentage of the dwelling coverage** rather than a flat dollar amount. On a home insured for a meaningful sum, that percentage can represent a very large out-of-pocket figure before coverage responds. Two policies with similar premiums can carry completely different exposure.
-
-Two things worth doing:
-
-- **Get a wind mitigation inspection.** Documented features — roof-to-wall connections, opening protection, roof deck attachment, roof shape — can produce meaningful credits. This is one of the few places where a few hundred dollars reliably pays for itself.
-- **Treat roof age as a pricing input, not a maintenance detail.** An older roof narrows your carrier options and widens your premium, sometimes severely. Establish the roof's age and condition before your inspection period ends.
-
-Our [pros and cons guide](/blog/pros-and-cons-of-living-in-wellington-florida) covers where insurance sits among the village's other trade-offs.
-
-## Monthly obligations beyond the mortgage
-
-This is where two homes at the same list price stop being comparable.
-
-**HOA dues.** Most of residential Wellington is governed by an association. Dues range from modest in older non-gated neighborhoods to substantial in gated communities with staffed amenity centers. Ask what the dues actually fund, whether reserves are adequately funded, and whether any special assessment is pending or contemplated.
-
-**Club and golf membership.** In the golf and country-club communities, membership may be optional, mandatory, or tied to the deed. A mandatory membership can exceed the HOA dues several times over. Confirm this in writing before you're emotionally committed to a house.
-
-**Community Development District assessments.** Where they apply, a CDD assessment appears on the tax bill, is separate from HOA dues, and transfers with the property. Not every Wellington community has one, but you should ask rather than assume.
-
-## The real cost of a horse property
-
-If you're buying equestrian, the house is often the smaller half of the budget.
-
-**Acquisition.** Land that carries horse entitlements trades at a substantial premium over otherwise similar acreage, because that permission is scarce and cannot simply be created — the reasoning is in our [neighborhood guide](/blog/best-neighborhoods-in-wellington-florida).
-
-**Ongoing operating costs**, which run whether or not you ride:
-
-- **Feed and hay**, with quality hay generally shipped in from out of state.
-- **Bedding and manure removal**, which is a real recurring line item and a regulated one.
-- **Farrier**, on a cycle of roughly every five to eight weeks per horse.
-- **Routine veterinary care**, plus the emergency fund you hope not to use.
-- **Labor.** Either you're doing it twice a day, every day, or you're paying someone who is.
-- **Footing and arena maintenance**, which degrades and needs replenishment.
-- **Fencing, barn and equipment upkeep**, on acreage, in a climate that is hard on everything.
-- **Water and irrigation** for pasture, which in the dry season is not trivial.
-
-**Insurance is different too.** Farm and equine liability coverage is a separate conversation from a homeowner's policy, and barns, arenas and equipment need their own treatment.
-
-The alternative is boarding, which converts nearly all of the above into one monthly figure and lets you buy a normal house. Our [who-should-move guide](/blog/who-should-move-to-wellington-florida) walks through that decision properly.
-
-## Everyday costs
-
-**Utilities.** Summer cooling is the dominant seasonal cost, and larger homes on larger lots cost more to condition and irrigate. Nothing unusual for the region, but budget for the summer peak rather than the annual average.
-
-**Fuel.** This is a car-dependent, inland village. If anyone in the household commutes east daily, fuel and vehicle wear are a genuine line item, and worth calculating rather than estimating.
-
-**Groceries and everyday retail** track the regional norm, with full supermarket and big-box options along the State Road 7 corridor.
-
-**Dining** swings seasonally. The village is affordable and casual most of the year and gets noticeably pricier around the show grounds in winter — see our [eating and drinking guide](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
-
-## No state income tax
-
-Florida has no state income tax, which is a meaningful part of why the overall math works for people relocating from higher-tax states. It does not offset a tax bill you budgeted wrong, and it does not offset an insurance deductible you didn't read.
-
-## The bottom line
-
-Wellington can be an attainable village or an expensive one, and the difference is mostly a matter of which market you shop rather than how good a negotiator you are.
-
-Whichever you choose, build your monthly number from the **reset tax estimate, a real insurance quote, and the full association and club obligations** — not from the seller's current costs. Buyers who do that are rarely surprised. Buyers who don't, frequently are.
-
-*Figures and rules change. Verify tax, exemption and assessment specifics with the Palm Beach County Property Appraiser and Tax Collector, insurance costs with a licensed agent, and association obligations with the community's governing documents.*`,
-    faqs: [
-      { q: "Is Wellington, Florida expensive to live in?", a: "It has an unusually wide range. Equestrian properties inside the Preserve overlay are among the priciest in the region because horse-permitted zoning is scarce, while the village also has townhomes and non-gated single-family neighborhoods that are attainable by Palm Beach County standards. Which market you shop matters more than any village-wide average." },
-      { q: "Why did my property taxes go up so much after buying in Florida?", a: "Because the Save Our Homes assessment cap resets on sale. A long-time owner may have had assessed value held far below market value, so their tax bill reflects decades of capped increases. When the property transfers, it is reassessed at current market value. Budget from the purchase price and current millage rates, not from the seller’s tax bill." },
-      { q: "What is portability on Florida property taxes?", a: "If you already own a homesteaded Florida property, portability may let you transfer a portion of your accumulated Save Our Homes benefit to your next Florida homestead, reducing the assessed value on the new home. Limits and deadlines apply — verify with the Palm Beach County Property Appraiser for your situation." },
-      { q: "What does it cost to keep horses at home in Wellington?", a: "Beyond the acquisition premium for horse-permitted zoning, ongoing costs include feed and hay, bedding and manure removal, farrier work roughly every five to eight weeks per horse, routine and emergency veterinary care, labor twice daily, arena footing maintenance, fencing and barn upkeep, and pasture irrigation. Farm and equine liability insurance is separate from a homeowner policy. Boarding converts most of this into a single monthly fee." },
-      { q: "What is a hurricane deductible in Florida?", a: "Florida policies typically apply a separate hurricane deductible calculated as a percentage of the dwelling coverage rather than a flat dollar amount, which can represent a large out-of-pocket figure before coverage responds. Two policies with similar premiums can carry very different exposure, so compare the deductible structure, not just the premium." },
-      { q: "Do Wellington communities have HOA or CDD fees?", a: "Most of residential Wellington is governed by an HOA, with dues ranging from modest in older non-gated neighborhoods to substantial in gated communities with staffed amenities. Some golf and country-club communities carry mandatory membership costs on top. Where a Community Development District applies, its assessment appears on the tax bill separately from HOA dues and transfers with the property — ask rather than assume." },
+    secondaryKeywords: [
+      "Wellington FL property taxes",
+      "Wellington HOA fees",
+      "Acme Improvement District assessment",
+      "Wellington flood insurance"
     ],
-    internalLinks: ["pros-and-cons-of-living-in-wellington-florida", "best-neighborhoods-in-wellington-florida", "wellington-vs-nearby-cities"],
-    funFact: "The most expensive mistake buyers make in Wellington has nothing to do with the horses. It is budgeting from the seller's property tax bill. Florida's Save Our Homes cap can hold a long-time owner's assessed value far below market — and that cap resets when the home sells, so the new bill can look nothing like the old one. Estimate from your purchase price, and ask about portability if you already own a Florida homestead.",
-    author: 'john',
+    h1: "Cost of Living in Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-cost-hero.webp",
+    heroImageAlt: "Two polo riders and horses on a grass field in front of a covered grandstand and palm trees",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Cost of Living",
+      deck: "How to build the real cost of one Wellington address from its tax record, its assessments, its insurance quotes and its documents, with no averages to mislead you.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-cost-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-cost-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Pros and cons of living in Wellington",
+        href: "/blog/pros-and-cons-of-living-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `There is no single cost of living in Wellington. A figure for the Village would blend condominiums, planned-community homes and large equestrian parcels, and describe none of them. This page therefore gives no averages. It shows where each cost comes from, names the official source for it, and gives a worksheet to fill in for one address.
+  
+  ## Property taxes: the parcel record, not the listing
+  
+  The tax figure on a listing reflects the current owner's assessed value, exemptions and that year's millage. It is a historical fact about the seller's bill and not a reliable forecast of yours. Use the Palm Beach County Property Appraiser's [tax calculator](https://pbcpao.gov/Property/TaxCalculator) with the price you intend to pay and your expected homestead status, and read the Appraiser's [residential guide](https://pbcpao.gov/departments/residential.htm). The Florida Department of Revenue's [exemptions overview](https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx) and [Save Our Homes brochure](https://floridarevenue.com/property/Documents/pt112.pdf) explain the homestead exemption, the assessment limitation and portability, including the March 1 filing deadline. Eligibility and rules change, so this page is not the record and is not tax advice.
+  
+  ## Non-ad valorem assessments
+  
+  Some Wellington parcels also carry assessments that are not based on value. The Acme Improvement District, a dependent special district of the Village, funds drainage and related infrastructure this way ([District page](https://acme.wellingtonfl.gov/what-is-the-acme-improvement-district)). Whether and how an assessment applies, and any planned projects that may change it, are parcel-level questions. Ask for the current charge in writing.
+  
+  ## Association costs
+  
+  Many communities have associations, and some have more than one. Request, for every association that applies:
+  
+  - [ ] The current fee schedule and what it covers
+  - [ ] The budget and the most recent reserve study
+  - [ ] The declaration, bylaws and rules, with any amendments
+  - [ ] The last twelve months of meeting minutes
+  - [ ] Pending or recently approved special assessments
+  - [ ] An insurance responsibility summary: what the association insures and what the owner must
+  - [ ] Rental and use restrictions as they stand today
+  - [ ] Written confirmation of required fees at closing
+  
+  For a condominium building of three or more habitable stories, add the milestone inspection report and the structural integrity reserve study.
+  
+  ## Insurance is a property question
+  
+  Insurers price one property at a time, so gather written quotes for the exact address during the inspection period. Ask about roof age and permit history, opening protection and wind-mitigation documentation, prior claims, flood coverage and how deductibles are structured. Citizens Property Insurance explains what a [wind-mitigation inspection](https://www.citizensfla.com/wind-mitigation-inspections) documents. The [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) gives the mapped flood zone, and the Village issues a [flood zone determination](https://www.wellingtonfl.gov/531/Flood-Zone-Determination) at no cost for a property inside its limits. The Village also notes that flooding can occur outside mapped zones ([flood information](https://www.wellingtonfl.gov/690/Flood-Information)).
+  
+  ## Equestrian and land costs
+  
+  For a parcel with equestrian use, operating costs are real and owner-specific: footing, fencing, water, waste handling, labor and feed or boarding. The Village's best practices for livestock waste, for instance, call for covered, containerized storage. No amount is given here because any figure would be wrong for your operation.
+  
+  ## Utilities, maintenance and mobility
+  
+  Confirm the provider that serves the parcel, request usage history where appropriate, and have the inspector report the age and condition of the air conditioning, roof and drainage. Calculate vehicle, parking and toll costs from your own routes. Wellington is car-oriented and spread out, so test the route you would drive.
+  
+  ## The worksheet
+  
+  | Cost category | What to verify for this property |
+  |---|---|
+  | Purchase and financing | Price, loan structure and closing costs, from a licensed lender |
+  | Property taxes | The parcel record and a Property Appraiser estimate for your price and homestead scenario |
+  | Non-ad valorem assessments | Acme Improvement District or other assessment on the parcel, from the record |
+  | Insurance | Written quotes, deductibles, wind and flood needs for the exact address |
+  | Association costs | Dues, reserves and pending or recent assessments, for each association |
+  | Land operations | Any equestrian, pasture, pool or outbuilding costs, as you will operate them |
+  | Utilities | Provider, usage history where available, equipment age and condition |
+  | Mobility | Commute, tolls, parking and access rules from your own routes |
+  | One-time items | Inspections, immediate repairs, transfer fees and setup costs |
+  
+  ## The bottom line
+  
+  The useful question is not what Wellington costs. It is what this specific property will cost to buy, insure, maintain, govern and use the way you plan to live, and the only reliable answer comes from its documents and quotes.
+  
+  ## Continue exploring Wellington
+  
+  - [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)
+  - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
+  - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)`,
+    faqs: [
+      {
+        q: "How do I estimate property taxes on a Wellington home?",
+        a: "Do not use the listing's tax figure, which reflects the current owner's assessment and exemptions. Use the Palm Beach County Property Appraiser's tax calculator with your price and homestead scenario, and confirm eligibility with the Appraiser and the Florida Department of Revenue."
+      },
+      {
+        q: "What is the Acme Improvement District assessment?",
+        a: "A non-ad valorem assessment by the Village's dependent drainage district, created in 1953, that funds drainage and related infrastructure and is not based on property value. Ask how it applies to the parcel."
+      },
+      {
+        q: "Are HOA fees required in Wellington?",
+        a: "Not for every property. Many communities have associations and some have more than one, while other parcels have none. Request the documents for each association that applies."
+      },
+      {
+        q: "How much does flood and wind insurance cost in Wellington?",
+        a: "There is no single figure. Insurers price each property individually, so obtain written quotes for the exact address during the inspection period, along with the flood zone and elevation information."
+      },
+      {
+        q: "Is Wellington expensive?",
+        a: "It depends entirely on the property type, its association and assessments, and how you use the land. Build the cost worksheet for one address from its documents instead of relying on a village-wide figure."
+      }
+    ],
+    funFact: "In Wellington, a drainage charge from the Acme Improvement District is a non-ad valorem assessment, so it is not based on a property's value. Two houses of very different price can carry a similar drainage charge, which is one more reason the parcel record beats any average.",
+    author: "john",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'hidden-gems-in-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "hidden-gems-in-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems in Wellington, Florida",
-    metaTitle: "Hidden Gems in Wellington, Florida",
-    metaDescription: "Wellington, Florida's best-kept secrets — a 410-acre restored wetland with a six-story observation tower, the Peaceful Waters boardwalk, and the quiet-season perks locals actually look forward to.",
+    seoTitle: "Hidden Gems in Wellington, Florida: Preserves, Trails & Public Recreation",
+    metaTitle: "Hidden Gems in Wellington, FL: Preserves, Trails & Parks",
+    metaDescription: "A source-linked guide to Wellington, Florida public places worth a closer look: the Wellington Environmental Preserve, Peaceful Waters Sanctuary, the bridle trails, the Amphitheater and Village parks.",
     primaryKeyword: "hidden gems in Wellington Florida",
-    secondaryKeywords: ["Wellington secret spots", "free things to do in Wellington", "Wellington Environmental Preserve"],
-    h1: "Hidden Gems in Wellington, Florida",
-    heroImage: '/images/wellington/wellington-008.jpeg',
-    body: `Wellington's famous attractions are famous for good reason. But the things residents actually recommend to friends tend to be quieter, free, and a few miles west of where visitors look.
-
-## The Wellington Environmental Preserve
-
-Officially the **Wellington Environmental Preserve at the Marjory Stoneman Douglas Everglades Habitat**, and locally just "Section 24," this is the best thing in the village that most people have never visited.
-
-It's roughly **410 acres**, built as a rainwater storage area through a partnership between the village and the South Florida Water Management District — which is a wonderfully unglamorous origin for a place this beautiful. Stormwater infrastructure that happens to be restored Everglades habitat.
-
-What you'll find:
-
-- A **six-story observation tower** at the southwestern end, where the pedestrian and equestrian trails meet. From the top you get an uninterrupted view over wetland and sawgrass — no buildings, no road noise, just weather and horizon. On a clear morning it is genuinely startling that you're twenty minutes from a mall.
-- A **paved pedestrian path and boardwalk** running through interior uplands and native landscaping, with **seven designated learning areas** along the way.
-- A **3.6-mile perimeter equestrian trail**, which connects into the village's wider bridle trail network.
-- Wading birds, raptors, alligators in the water bodies, and the general Everglades cast.
-
-It's free. Go at sunrise — the light is better, the wildlife is active, and by ten in the morning in summer you will regret having waited.
-
-The preserve was named a Florida planning "Great Place" by public vote in 2023, which is a slightly bureaucratic honor for somewhere this pleasant.
-
-## Peaceful Waters Sanctuary
-
-A wetlands sanctuary tucked inside a village park on the west side, with boardwalk and trail access through marsh and sawgrass.
-
-It's smaller and more intimate than Section 24, and it's the better choice if you want forty-five minutes rather than a morning. Birders do well here — herons, egrets, ibis, anhingas, and a good deal more if you're patient and quiet.
-
-The remarkable part is the location. This is not on the edge of town; it's surrounded by ordinary suburban Wellington. Thousands of people drive past the entrance weekly without registering that it's there.
-
-## The birding is better than people expect, and it has a season
-
-Worth knowing if you're going to make a habit of the preserves: wading birds concentrate in the **dry season**, roughly winter into spring, when receding water traps fish in shrinking pools and the herons, egrets, storks and spoonbills follow them. That's when a morning at either site goes from pleasant to genuinely impressive.
-
-In the wet season the water spreads out, the birds disperse with it, and the same boardwalk is quieter. Still lovely, just less concentrated.
-
-Bring binoculars. The tower plus binoculars in February is one of the better free hours available in Palm Beach County.
-
-## The trail network as a walking amenity
-
-Everyone knows Wellington has bridle trails. Fewer non-riders realize they're allowed on them.
-
-More than 100 miles of connected soft-surface trail run along canals, easements and community edges throughout the village, open to pedestrians and, in most sections, cyclists. You can put together a long walk on forgiving ground, mostly shaded, without crossing a major road.
-
-The practical trick is finding the access points, which are not signposted like a trailhead — most connections come off community edges, canal maintenance roads and road easements rather than a parking lot. Section 24's perimeter trail is the easiest place to start precisely because it has actual parking.
-
-Read our [local's guide](/blog/local-guide-to-wellington-florida) for the etiquette first — horses have right of way, and how you behave around them matters.
-
-## A free morning at the show grounds
-
-The other thing residents underuse: during the winter season, general admission to the Winter Equestrian Festival has been free, and a weekday morning at the grounds is a genuinely lovely and completely uncrowded way to spend two hours.
-
-Most people assume it's a ticketed event they're not dressed for. It isn't. Our [things-to-do guide](/blog/best-things-to-do-in-wellington-florida) covers how to approach it — and confirm current admission details before you go, since they're set each season.
-
-## Amphitheater nights
-
-Free concerts and movie screenings on a lawn, most weeks of the year, at the **Wellington Amphitheater.** No ticket, no fuss, bring a chair.
-
-It's the least sophisticated recommendation on this list and one of the most consistently good.
-
-## The off-season itself
-
-The genuine local secret is May through October.
-
-The seasonal population has gone home. Restaurants that needed a reservation in February will seat you immediately. The trails are empty. The preserves are yours. The village is green in a way it simply isn't in the dry season, and the afternoon storms — dramatic, brief, and reliably over by dinner — are one of the better free shows in Florida.
-
-It's hot. Genuinely hot. But residents who have been here a few years will tell you that the quiet stretch is when Wellington is most itself, and they're not being polite about it.
-
-## What isn't a hidden gem, despite getting recommended as one
-
-Two honest corrections, because you'll be told otherwise.
-
-**The mall is not a secret.** It comes up in every list of things to do in Wellington and it is a regional shopping mall. It's useful. It isn't a discovery.
-
-**Sunday polo is not obscure either.** It's a marquee ticketed event that thousands of people attend, and it's covered properly in our [things-to-do guide](/blog/best-things-to-do-in-wellington-florida). Worth doing, but nobody's going to be impressed you found it.
-
-The genuinely under-visited things in this village are the two preserves and the trail network, and they're under-visited because they're quiet, free and unadvertised — which is exactly why they stay good.
-
-## Getting the most out of these
-
-**Go early.** This applies to every outdoor recommendation above, and it applies double in summer.
-
-**Bring water and repellent.** Wetlands are wetlands.
-
-**Check hours and access before you drive over.** Preserve access can change with water management operations, weather and maintenance.
-
-**Don't skip the tower.** Of everything on this list, the view from the top of Section 24 is the one that changes how people think about where they live.`,
-    faqs: [
-      { q: "What are the hidden gems in Wellington, Florida?", a: "The Wellington Environmental Preserve at the Marjory Stoneman Douglas Everglades Habitat, known locally as Section 24, with its six-story observation tower and boardwalk; the Peaceful Waters Sanctuary wetlands boardwalk; the village bridle trail network, which is open to walkers; free weekday mornings at the winter show grounds; and free concerts and movies at the Wellington Amphitheater." },
-      { q: "What is the Wellington Environmental Preserve?", a: "A roughly 410-acre restored Everglades habitat and rainwater storage area built through a partnership between the village and the South Florida Water Management District. It includes a six-story observation tower, a paved pedestrian path and boardwalk with seven learning areas, and a 3.6-mile perimeter equestrian trail connecting to the wider village trail network. Admission is free." },
-      { q: "Can you climb the observation tower at the Wellington preserve?", a: "Yes. The six-story tower sits at the southwestern end of the preserve where the pedestrian and equestrian trails meet, and it offers an open view across the wetlands and sawgrass. Sunrise is the best time to go, both for the light and for wildlife activity. Check current access and hours before visiting, as preserve access can change with water management operations and weather." },
-      { q: "What free things are there to do in Wellington?", a: "Visiting the Wellington Environmental Preserve and Peaceful Waters Sanctuary, walking the bridle trail network, attending free concerts and movie nights at the Wellington Amphitheater, and general admission to the Winter Equestrian Festival during the winter season, which has been free in recent years." },
-      { q: "Where can you see wildlife in Wellington, Florida?", a: "The Wellington Environmental Preserve and Peaceful Waters Sanctuary are the two main spots, with wading birds including herons, egrets, ibis and anhingas, plus raptors and alligators in the water bodies. Early morning is by far the most productive time to visit." },
-      { q: "Is Wellington worth visiting in the summer?", a: "The equestrian events run in winter, so summer is quieter — which many residents consider the best time to enjoy the preserves, trails and restaurants without crowds or waits. It is hot and afternoon thunderstorms are common, so outdoor activity generally works best early in the morning." },
+    secondaryKeywords: [
+      "Wellington Environmental Preserve",
+      "Peaceful Waters Sanctuary",
+      "Wellington nature preserve",
+      "Wellington parks"
     ],
-    internalLinks: ["best-things-to-do-in-wellington-florida", "local-guide-to-wellington-florida", "what-its-really-like-living-in-wellington-florida"],
-    funFact: "The Wellington Environmental Preserve is technically stormwater infrastructure. Its roughly 410 acres were built with the South Florida Water Management District as a rainwater storage area — and the result is restored Everglades habitat with a six-story observation tower and a 3.6-mile equestrian trail around the perimeter. Public works projects rarely end up on anyone's list of favorite places.",
-    author: 'christine',
+    h1: "Hidden Gems in Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-gems-hero.webp",
+    heroImageAlt: "A wide polo field with riders and horses at the far side under a blue sky, with a covered grandstand and palm trees",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Hidden Gems",
+      deck: "Public preserves, trails and Village recreation worth a closer look, with the Village page to check for access, hours and rules.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-gems-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-gems-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Best things to do in Wellington",
+        href: "/blog/best-things-to-do-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `"Hidden gems" here means public places and practical resources that are easy to overlook, not private knowledge. Every place below is run by the Village, and each section links to the Village's own page, because access, hours and conditions change. Nothing here promises what you will see or how busy a place will be.
+  
+  ## Wellington Environmental Preserve at Section 24
+  
+  The Village describes the preserve as a 410-acre rainwater storage area with nature trails and learning areas. It lists an observation tower, six stories high, and a boardwalk among its features, with seven designated learning areas reached by a paved path and boardwalk. Older Village and Acme material gives a smaller acreage of 365; the larger figure reflects an expansion by a 45-acre parcel acquired in December 2021. The Village's [preserve page](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57) is the source for access, hours and rules.
+  
+  It is also working infrastructure. It was built in partnership with the South Florida Water Management District and routes stormwater runoff through a constructed preserve before it moves on, which is why the Village describes it as both a preserve and a stormwater facility. The Village describes a 3.6-mile perimeter equestrian trail as an extension of its bridle trail system.
+  
+  ## Peaceful Waters Sanctuary
+  
+  The Village lists Peaceful Waters Sanctuary among its [nature preserves](https://www.wellingtonfl.gov/649/Nature-Preserves), and its [facility page](https://www.wellingtonfl.gov/facilities/facility/details/Peaceful-Waters-Sanctuary-56) is the source for what the site offers and the rules that apply. This page does not describe its features beyond what the Village publishes, because they are the Village's to set.
+  
+  ## The bridle trail network
+  
+  The Village states that since 1999 it has maintained more than 100 miles of public and private bridle trails ([FAQ](https://www.wellingtonfl.gov/FAQ.aspx?QID=175)), and its [Equestrian Trails page](https://www.wellingtonfl.gov/582/Equestrian-Trails) lists the named trails. Whether a trail is open to walkers or cyclists, and where, is set by the Village and the easement owner. Read the posted rules and give riders room.
+  
+  ## Wellington Amphitheater and Thursday nights
+  
+  The [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) is at 12100 Forest Hill Boulevard, next to a barrier-free playground. The [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series combines live music with food trucks and a market; the Village's calendar lists the current line-up. Check it the week you go, because events are moved or canceled.
+  
+  ## Village parks and programs
+  
+  The Village's [parks and recreation page](https://www.wellingtonfl.gov/2289/Parks-Recreation) lists its parks, facilities and programs, and its [events page](https://www.wellingtonfl.gov/392/Events) lists what is on. Hours, registration and rules are the Village's to set.
+  
+  ## Before you go
+  
+  - Check the Village page for the place, for current hours, closures and rules.
+  - Follow posted trail rules and stay on marked routes.
+  - Do not disturb wildlife or equipment, and give riders and horses room.
+  - Plan around the weather. The Village notes that afternoon thunderstorms are common in the warm months.
+  
+  ## Continue exploring Wellington
+  
+  - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+  - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
+  - [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
+    faqs: [
+      {
+        q: "What is the Wellington Environmental Preserve?",
+        a: "The Village describes it as a 410-acre rainwater storage area with nature trails, learning areas, a boardwalk and a six-story observation tower. It was built in partnership with the South Florida Water Management District. Check the Village's preserve page for access, hours and rules."
+      },
+      {
+        q: "What is Peaceful Waters Sanctuary?",
+        a: "A nature preserve listed by the Village of Wellington. The Village's facility page is the source for what the site offers and the rules that apply."
+      },
+      {
+        q: "Can I walk on Wellington bridle trails?",
+        a: "It depends on the trail and the easement. The Village maintains named trails and sets the rules for them, so check its Equestrian Trails page and posted signs, and give riders room."
+      },
+      {
+        q: "Where are Wellington events held?",
+        a: "Many are held at the Wellington Amphitheater at 12100 Forest Hill Boulevard, including the Thursday Nights in Wellington series. The Village's events page has the current calendar."
+      },
+      {
+        q: "Where do I confirm current access and hours for a Wellington preserve?",
+        a: "On the Village's page for that facility at wellingtonfl.gov, or by calling the Village."
+      }
+    ],
+    funFact: "The Wellington Environmental Preserve grew from 365 to 410 acres when the Village and the Acme Improvement District acquired a 45-acre adjacent parcel in December 2021. The six-story observation tower and boardwalk sit inside what is also a working stormwater facility.",
+    author: "christine",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'wellington-vs-nearby-cities',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "wellington-vs-nearby-cities",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "City vs Nearby Cities",
     order: 9,
-    seoTitle: "Wellington vs Nearby Cities: How to Choose",
-    metaTitle: "Wellington vs Nearby Cities",
-    metaDescription: "Wellington vs Royal Palm Beach, Loxahatchee, Westlake, Palm Beach Gardens and Boca Raton — an honest comparison of the western Palm Beach County communities and who each one actually suits.",
+    seoTitle: "Wellington vs Nearby Areas: Jurisdiction, Property Type & What to Verify",
+    metaTitle: "Wellington vs Nearby Areas: A Property-Level Comparison",
+    metaDescription: "A comparison framework for Wellington, Royal Palm Beach, Loxahatchee Groves, The Acreage and West Palm Beach, focused on jurisdiction, parcel type, documents, drainage and daily routes.",
     primaryKeyword: "Wellington vs nearby cities",
-    secondaryKeywords: ["Wellington vs Royal Palm Beach", "Wellington vs Palm Beach Gardens", "Wellington vs Loxahatchee"],
-    h1: "Wellington vs Nearby Cities: How to Choose",
-    heroImage: '/images/wellington/wellington-001.jpeg',
-    showMarketTrends: true,
-    body: `Almost nobody shops Wellington alone. Buyers looking here are usually weighing it against two or three western Palm Beach County communities that look similar on a map and behave quite differently in practice.
-
-Here's the honest comparison, organized around what actually separates them.
-
-## First, the thing they all share
-
-Every community below is inland. All of them are roughly 25 to 40 minutes from the ocean, all of them are car-dependent, and none has a walkable downtown of any consequence.
-
-If the beach or walkability is your priority, this entire comparison is the wrong shelf and you should be looking east at Jupiter, Palm Beach Gardens' coastal side, Delray Beach or Boca Raton. Say so now and save yourself six weekends.
-
-## Wellington vs Royal Palm Beach
-
-These two share a border and get confused constantly, which is understandable and misleading.
-
-**Royal Palm Beach** is the more affordable of the two, with a comparable master-planned suburban layout, a solid village park system of its own, and easy access to the same State Road 7 retail corridor. It has no equestrian identity to speak of.
-
-**Wellington** costs more, and what you're paying for is the roughly 9,000-acre Equestrian Preserve overlay that keeps the western half low-density, the deeper recreation system, and proximity to the winter equestrian circuit.
-
-**Choose Royal Palm Beach** if you want the same general lifestyle for less money and have no interest in horses.
-**Choose Wellington** if the green space, trail network and equestrian access are worth the difference to you.
-
-Honestly, for a buyer with no connection to the horse world and a firm budget, Royal Palm Beach deserves a serious look. It's the closest substitute Wellington has.
-
-## Wellington vs Loxahatchee and The Acreage
-
-This is the comparison people get most wrong, because both have horses.
-
-**Loxahatchee and The Acreage** are genuinely rural in feel — large lots measured in acres, few sidewalks, well and septic in many areas, minimal HOA structure, and a live-and-let-live attitude toward what you keep on your land. It's the affordable way to have acreage and animals in Palm Beach County.
-
-**Wellington** is the opposite temperament: master-planned, gated, maintained, regulated, and organized around a professional sport rather than a rural lifestyle.
-
-**Choose Loxahatchee or The Acreage** if you want land, privacy and few rules, and you're comfortable with well water, longer drives to everything, and doing your own maintenance.
-**Choose Wellington** if you want infrastructure, amenities, trail connectivity to competition venues, and the professional equestrian ecosystem.
-
-The distinction in one line: Loxahatchee is where you keep horses. Wellington is where you compete them.
-
-## Wellington vs Westlake
-
-**Westlake** is Palm Beach County's newest city — effectively a from-scratch master-planned community, which means new construction, warranties, modern layouts, and amenities built as part of the plan.
-
-The trade is that it's newer than its own tree canopy, further out, and still filling in. What Wellington has that Westlake can't manufacture is forty years of mature landscaping, an established recreation system, and a reason to exist beyond housing.
-
-**Choose Westlake** if you want a new-build home with a builder warranty and don't mind being early.
-**Choose Wellington** if you want somewhere established, with shade.
-
-## Wellington vs Palm Beach Gardens
-
-This is the classic inland-versus-coastal trade in this part of the county.
-
-**Palm Beach Gardens** is closer to the ocean, has a stronger dining and shopping scene, a well-known golf identity, and better access to I-95 and the airport. It generally costs more for comparable space.
-
-**Wellington** gives you more house and land per dollar, more green, and the equestrian world — at the cost of being meaningfully further from the coast and the interstate.
-
-**Choose Palm Beach Gardens** if coastal proximity, dining and commute access matter most.
-**Choose Wellington** if space, green and horses matter most.
-
-## Wellington vs Ocala
-
-This is the comparison serious horse people actually run, and it never appears in local real estate content because it involves leaving the county entirely.
-
-**Ocala and Marion County**, in north-central Florida, is the other great American horse region — historically thoroughbred country, with rolling terrain, limestone soil, considerably cheaper land, and a year-round equine economy. If your goal is maximum acreage per dollar and a working operation, Ocala wins on the numbers and it isn't close.
-
-**Wellington's** case is entirely about the winter circuit. Hunter-jumper, dressage and polo competition at the highest level happens here, in season, within trailering distance of your barn — along with the trainers, vets, farriers and buyers who follow it.
-
-**Choose Ocala** if you're breeding, training at scale, or want land.
-**Choose Wellington** if you're competing on the winter circuit and proximity to the ring is the point.
-
-Some people do both, which is exactly why you'll meet Wellington residents who disappear every May.
-
-## Wellington vs Boca Raton
-
-Not really a close comparison, but people run it anyway.
-
-**Boca Raton** is a larger, denser, coastal city with a substantial downtown, extensive dining, a major university, and beach access. It's urban in a way no western community is.
-
-**Wellington** is a quiet village with more than 100 miles of horse trails.
-
-They serve almost opposite preferences. If you're genuinely torn between these two, the useful question isn't which is better — it's whether you want to live in a city or a village, because that's the actual decision.
-
-## The short version
-
-- **Best value with a similar lifestyle:** Royal Palm Beach.
-- **Best for land, privacy and fewer rules:** Loxahatchee or The Acreage.
-- **Best for brand-new construction:** Westlake.
-- **Best for coastal access and dining:** Palm Beach Gardens.
-- **Best for city living:** Boca Raton.
-- **Best for acreage and a year-round horse operation:** Ocala.
-- **Best for equestrian sport, green space and an established recreation system:** Wellington.
-
-## How to actually decide
-
-Rank three things honestly: **budget, distance to the ocean, and how much structure you want** — HOA rules, maintained amenities, planned everything.
-
-Wellington scores high on structure and amenity, middling on budget, and low on ocean access. If that profile matches your priorities, it's hard to beat in this part of the county. If it doesn't, one of its neighbors almost certainly fits better, and there's no prize for buying the more famous name.
-
-Our [pros and cons guide](/blog/pros-and-cons-of-living-in-wellington-florida) goes deeper on Wellington's specific trade-offs, and the [cost of living guide](/blog/cost-of-living-in-wellington-florida) covers the carrying costs that comparisons like this one tend to leave out.`,
-    faqs: [
-      { q: "Wellington or Royal Palm Beach — which is better?", a: "Royal Palm Beach is generally more affordable with a comparable master-planned suburban layout, its own park system and the same retail corridor, but no equestrian identity. Wellington costs more and delivers the roughly 9,000-acre Equestrian Preserve overlay, a deeper recreation system and access to the winter equestrian circuit. For a buyer with no interest in horses and a firm budget, Royal Palm Beach is the closest substitute." },
-      { q: "Wellington vs Loxahatchee — what is the difference?", a: "Loxahatchee and The Acreage are genuinely rural, with acreage lots, minimal HOA structure, well and septic in many areas, and a relaxed approach to what you keep on your land. Wellington is master-planned, gated, maintained and regulated, and organized around professional equestrian sport. Loxahatchee is where you keep horses; Wellington is where you compete them." },
-      { q: "Wellington vs Palm Beach Gardens?", a: "Palm Beach Gardens is closer to the ocean with a stronger dining and shopping scene, a golf identity and better interstate and airport access, generally at a higher price for comparable space. Wellington offers more house and land per dollar, more green space and the equestrian world, at the cost of being further from the coast and I-95." },
-      { q: "How does Wellington compare to Westlake?", a: "Westlake is Palm Beach County’s newest city, essentially a from-scratch master-planned community offering new construction, builder warranties and modern layouts, but it is still filling in and has little mature landscaping. Wellington is established, shaded and has a developed recreation system and identity beyond housing." },
-      { q: "Which western Palm Beach County community is the best value?", a: "Royal Palm Beach generally offers the closest lifestyle to Wellington at a lower price point, while Loxahatchee and The Acreage offer the most land per dollar in exchange for fewer services and longer drives. Which represents better value depends on whether you are buying amenities or acreage." },
-      { q: "Is Wellington closer to the beach than Royal Palm Beach or Loxahatchee?", a: "All of these communities are inland and roughly 25 to 40 minutes from the Atlantic coast depending on the specific address and traffic. None of them offers meaningful beach proximity, so buyers who prioritize the ocean should be looking at coastal communities instead." },
+    secondaryKeywords: [
+      "Wellington vs Royal Palm Beach",
+      "Wellington vs Loxahatchee",
+      "Wellington vs The Acreage",
+      "compare western Palm Beach County"
     ],
-    internalLinks: ["cost-of-living-in-wellington-florida", "pros-and-cons-of-living-in-wellington-florida", "what-its-really-like-living-in-wellington-florida"],
-    funFact: "Wellington and Royal Palm Beach share a border, a retail corridor and a general suburban layout — and price differently mostly because of a zoning overlay. Wellington has roughly 9,000 acres under equestrian protection that caps density across its western half. Royal Palm Beach does not, which is a large part of why the same house often costs less there.",
-    author: 'john',
+    h1: "Wellington vs Nearby Areas: What to Verify, Not Who Wins",
+    heroImage: "/images/wellington/polo-field-vs-hero.webp",
+    heroImageAlt: "Riders at speed along the far side of a grass polo field in front of a grandstand under a clear sky",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Compare Nearby Areas",
+      deck: "A practical framework for comparing Wellington with Royal Palm Beach, Loxahatchee Groves, The Acreage and West Palm Beach by jurisdiction, parcel type, documents, drainage and daily routes.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-vs-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-vs-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Cost of living in Wellington",
+        href: "/blog/cost-of-living-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      matrix: {
+        heading: "Nearby Areas Side by Side: What to Verify, Not Who Wins",
+        intro: "The same questions asked of each place. The cells describe what to confirm for a specific property. They do not rank the areas, and no cell is a claim about every address in it.",
+        labels: {
+          jurisdiction: "Jurisdiction to confirm",
+          priorities: "Housing and parcel context",
+          questions: "Drainage and land questions to verify",
+          daily: "Daily-logistics questions to test",
+          singer: "Property-specific diligence"
+        },
+        rows: [
+          {
+            name: "Wellington",
+            tag: "Village of Wellington, Palm Beach County",
+            href: "/communities/wellington",
+            jurisdiction: "Verify municipal boundaries, utilities and service providers for the parcel. A Wellington mailing address does not settle it.",
+            priorities: "Planned neighborhoods, attached communities and parcels in the Equestrian Preserve Area differ in zoning, association structure and permitted use. Compare by address.",
+            questions: "Much of the Village is served by the Acme Improvement District, which funds drainage through non-ad valorem assessments. Confirm whether one applies and how it is billed.",
+            daily: "Test the actual route at the relevant hours, including an event week, and confirm gate and guest-entry procedures where a community has them.",
+            singer: "Request zoning confirmation from the Village, association documents and assessments, flood zone determination and written insurance quotes."
+          },
+          {
+            name: "Royal Palm Beach",
+            tag: "Village of Royal Palm Beach, Palm Beach County",
+            href: "/communities/royal-palm-beach",
+            jurisdiction: "Verify municipal boundaries and service providers. Wellington, Royal Palm Beach and unincorporated areas are separate jurisdictions near one another.",
+            priorities: "Compare detached, attached and community-governed options by address, and confirm association documents and maintenance responsibility.",
+            questions: "Drainage districts and canal easements vary by parcel. Confirm which district serves the property and whether any assessment applies.",
+            daily: "Test the actual route at the relevant hours rather than relying on a distance.",
+            singer: "Review flood, insurance, roof and drainage information, association documents and assessments."
+          },
+          {
+            name: "Loxahatchee Groves",
+            tag: "Town of Loxahatchee Groves, Palm Beach County",
+            href: "/communities/loxahatchee",
+            jurisdiction: "Verify whether the parcel is inside the Town or in an adjoining jurisdiction. Municipal and unincorporated areas sit close together here.",
+            priorities: "Parcel size and use vary widely. Compare lot size, zoning, permitted animals and structures, road type and any association by address.",
+            questions: "Roads, canals and drainage easements are parcel-specific. Confirm who maintains them and what the survey shows.",
+            daily: "Test the actual route at the relevant hours, and confirm whether the road to the property is paved, public or private.",
+            singer: "Request zoning confirmation in writing, drainage and easement information, flood and insurance quotes, and any permits for improvements."
+          },
+          {
+            name: "The Acreage — a community name; confirm the parcel’s jurisdiction",
+            tag: "Not a municipality",
+            jurisdiction: "Confirm which government, drainage or improvement district and service providers apply to the parcel. A community name does not settle it.",
+            priorities: "Larger parcels and varied road types are common. Compare lot size, zoning, permitted uses and any association by address.",
+            questions: "Confirm drainage responsibility, road maintenance and whether any special assessment applies.",
+            daily: "Test the actual route at the relevant hours, including road conditions and any gated or private segments.",
+            singer: "Request zoning, drainage, assessment and survey information in writing, plus flood and insurance quotes."
+          },
+          {
+            name: "West Palm Beach",
+            tag: "City of West Palm Beach, Palm Beach County",
+            href: "/communities/west-palm-beach",
+            jurisdiction: "Verify municipal boundaries and service providers, including whether the parcel sits inside a historic or special district with its own rules.",
+            priorities: "Single-family, townhome, condominium and mixed-use buildings all exist in the City. Compare by building and address, and confirm association documents.",
+            questions: "Intracoastal frontage, lakes and public parks exist in different parts of the City. Confirm what is public, what is private and what a listing describes.",
+            daily: "Test the actual route at the relevant hours, and check parking, permit rules and transit availability for the address.",
+            singer: "Review building documents, reserve and assessment information, parking and rental rules, and flood and insurance information."
+          }
+        ],
+        note: "The Acreage is labelled as it is because it is a community name, not a municipality. Nothing in the matrix is a ranking, and a cell describes questions to ask, not a fact about every address in the area."
+      },
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `A town name is a starting point, not a property description. Nearby places can differ in municipal authority, parcel size, association rules, drainage arrangements, flood exposure and daily routes, and those differences have to be verified for each property. This comparison does not tell you which place is better. It lays out the same questions side by side.
+  
+  Settle these first, because they decide which column matters:
+  
+  - the property type you prefer
+  - the ownership and association structure you are willing to take on
+  - what you need the land to allow
+  - your daily destinations and the routes to them
+  - how much maintenance and drainage responsibility you accept
+  
+  ## Jurisdiction comes first
+  
+  In western Palm Beach County, several municipalities and unincorporated areas sit close together, and a mailing address can span more than one. Confirm the municipality and the service providers from the parcel record and the County's boundary maps before comparing it with an address in another place.
+  
+  ## Drainage and land questions
+  
+  Drainage arrangements differ. In Wellington, much of the Village is served by the Acme Improvement District, which funds drainage through non-ad valorem assessments ([District page](https://acme.wellingtonfl.gov/what-is-the-acme-improvement-district)). Other places have their own districts and arrangements. For any property, ask who maintains the canals and swales that serve it and whether any assessment applies.
+  
+  ## Daily routes
+  
+  Whichever place you compare, drive the route you would use, at the hours you would use it, on a weekday. In Wellington, include an event week ([calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/)).
+  
+  ## Schools
+  
+  Attendance zones are set by the Palm Beach County School District and apply by address, not by town. Use its [attendance maps](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps) or Find My School tool.
+  
+  ## Continue exploring Wellington
+  
+  - [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
+  - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
+  - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)`,
+    faqs: [
+      {
+        q: "How do I compare Wellington with nearby areas?",
+        a: "Compare them on the same questions for a specific property: jurisdiction, parcel type and zoning, association documents, drainage arrangements, flood information and the route you would drive. This guide lays those questions out side by side and does not rank the places."
+      },
+      {
+        q: "Is The Acreage a city?",
+        a: "No. The Acreage is a community name, not a municipality. Confirm which government and drainage or improvement district serves a parcel from the parcel record."
+      },
+      {
+        q: "Do nearby places have the same drainage setup as Wellington?",
+        a: "Not necessarily. Much of Wellington is served by the Acme Improvement District, and other places have their own districts and arrangements. Ask who maintains the drainage for the property and whether an assessment applies."
+      },
+      {
+        q: "How do I find which school serves an address?",
+        a: "Use the Palm Beach County School District's Find My School tool or attendance maps with the exact address, since zones apply by address, not by town."
+      },
+      {
+        q: "How do I confirm the municipality of a western Palm Beach County address?",
+        a: "Check the parcel record and the County's boundary maps, since mailing addresses can span several jurisdictions."
+      }
+    ],
+    funFact: "In western Palm Beach County, a mailing address can sit in one municipality, in a neighboring one or in unincorporated territory with its own drainage district. Which government and which district serve a parcel is a record to read, not an assumption to make.",
+    author: "john",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
   {
-    slug: 'best-places-to-eat-drink-hang-out-in-wellington-florida',
-    citySlug: 'wellington',
-    cityName: 'Wellington',
+    slug: "best-places-to-eat-drink-hang-out-in-wellington-florida",
+    citySlug: "wellington",
+    cityName: "Wellington",
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out in Wellington, Florida",
-    metaTitle: "Where to Eat, Drink & Hang Out in Wellington, FL",
-    metaDescription: "Where to eat, drink and hang out in Wellington, Florida — the State Road 7 corridor, what's actually opening at Lotis and K-Park, the mall's uncertain future, and how the season changes everything.",
-    primaryKeyword: "best restaurants in Wellington Florida",
-    secondaryKeywords: ["where to eat in Wellington FL", "Wellington dining", "Wellington Green restaurants"],
-    h1: "Best Places to Eat, Drink & Hang Out in Wellington, Florida",
-    heroImage: '/images/wellington/wellington-005.jpeg',
-    body: `Wellington's dining scene is the part of the village most obviously in transition. For years the honest summary was "chains on State Road 7, and something better during horse season." That's still substantially true — but three large projects are actively reshaping where residents will eat over the next few years, and two of them have been messier than the renderings suggested.
-
-Here's where to go now, and what's actually happening.
-
-## The State Road 7 corridor is where the village eats
-
-Nearly all of Wellington's everyday dining sits along its eastern commercial edge, clustered around the Mall at Wellington Green and the surrounding retail. Expect the familiar national names, plus a solid layer of independent kitchens — pizza, sushi, Latin American, Italian, delis and casual American — tucked into the plazas between them.
-
-The plazas are where the good independents hide. The mall-adjacent chains are what you'll find first. It's worth actively looking past the pad sites.
-
-## The mall itself is an open question
-
-The Mall at Wellington Green anchors the corridor and its future is genuinely unsettled.
-
-Nordstrom closed in 2019 and its box has sat empty since. Macy's, Dillard's and JCPenney remain. In 2026, **Bainbridge Companies proposed converting roughly 18 acres at the vacant Nordstrom site into a 620-unit apartment complex** across three towers with a parking structure, demolishing the existing building. As of mid-2026 the proposal had not been approved and no timeline had been set.
-
-The context behind it: the mall's assessed valuation fell dramatically — reported as dropping from around $245 million to roughly $74 million in 2024 — and local planning analysis has suggested the mall's roughly 97-acre interior needs on the order of 1,500 residential units to keep the remaining retail viable.
-
-That's the honest read. The mall isn't dying tomorrow, but the model that built it is under real strain, and the proposed fix is housing. If you're buying nearby, that's worth knowing.
-
-## Lotis Wellington: partly open, partly stalled
-
-**Lotis Wellington** sits on the west side of State Road 7 north of Wellington Regional Medical Center, and it was pitched as the village's answer to a proper mixed-use district.
-
-**What's real:** roughly 16,500 square feet of office and 35,000 square feet of retail across five buildings have been completed, along with a day care, and Lennar's 172-home residential component has moved forward. **Cooper's Hawk Winery & Restaurant** and **Lazy Dog Restaurant & Bar** have been the headline food tenants.
-
-**What hasn't happened:** the 372-apartment phase and the medical office phase remain unbuilt. **PopStroke**, the mini-golf-and-food concept meant to anchor the entertainment side, pulled out. And in 2026 the project descended into litigation between its developers, with two lawsuits and liens reported to exceed $5 million in allegedly unpaid bills to subcontractors and a prospective restaurant tenant.
-
-The completed portions are open and function fine. The rest is genuinely uncertain, and anyone factoring the full build-out into a purchase decision should verify current status rather than trusting a site plan.
-
-## K-Park: the big one, just starting
-
-The most consequential project is the newest. **K-Park** is roughly **70 acres of village-owned land** on State Road 7 just south of Stribling Way. Wellington agreed to sell it, and in **February 2026 the Village Council approved the rezoning** for a large mixed-use development by West Palm Beach-based **Related Ross**, planned to include retail, dining, a hotel and residences. Developers indicated they expected to begin construction within about 60 days of approval.
-
-If it delivers as approved, this is the closest Wellington will have come to a genuine dining and gathering district rather than a strip of pad sites — the thing residents have wanted for two decades. It is also, as of now, mostly a set of approvals. Treat the timeline as a plan.
-
-## The barn-adjacent scene
-
-There's a parallel food economy out west that most residents never touch: the cafés, coffee windows and casual counters that serve the equestrian world near the show grounds and along the horse roads.
-
-These places run on a rider's schedule, which means early. They're busy at seven in the morning and thinning out by ten, and in season they're where a fair amount of the sport's actual business gets discussed. If you want to understand the other Wellington without buying a ticket to anything, sit in one on a February weekday.
-
-Off-season, several of them scale back or close entirely, which tells you exactly who they're for.
-
-## What Wellington doesn't have
-
-Being straight about the gaps, because they're the reason people drive east:
-
-- **No walkable restaurant district.** Every meal is a drive and a parking lot.
-- **Very little late-night.** Kitchens close early most of the year.
-- **A thin independent bar and brewery scene** relative to Palm Beach County generally.
-- **Limited high-end dining outside the season.** The good stuff arrives with the horses and leaves with them.
-
-None of this is a criticism of the village so much as a description of what a low-density, master-planned place supports. It's also precisely the gap the K-Park approval is aimed at.
-
-## The winter season changes everything
-
-From roughly January through March, the area near the show grounds becomes a different dining market. Restaurants fill with an international crowd in town for the equestrian circuit, seasonal and pop-up concepts appear, prices firm up, and reservations start mattering at places that never needed them in October.
-
-It's the most interesting the village's food scene gets all year, and it is not aimed at everyday residents. Locals tend to have two lists: where they go in season, and where they go the rest of the year.
-
-The corresponding perk is the off-season. From May onward you can walk into almost anywhere. Our [local's guide](/blog/local-guide-to-wellington-florida) covers how the two-season calendar shapes the rest of daily life.
-
-## Where people actually hang out
-
-Wellington's social life isn't really organized around bars, and expecting otherwise leads to disappointment.
-
-- **The Wellington Amphitheater** — free concerts and movie nights, most weeks, all year. This is the village's default gathering place.
-- **The show grounds and polo** — in season, these are the social events. Our [things-to-do guide](/blog/best-things-to-do-in-wellington-florida) covers attending.
-- **The parks and athletic complexes** — youth sports is a genuine social organizing structure here.
-- **Community amenity centers** — a lot of the village's socializing happens inside the gates, at the neighborhood pool or clubhouse.
-- **East, for a real night out** — downtown West Palm Beach is 30 to 40 minutes away and is where residents go when they want range.
-
-## The honest summary
-
-Wellington is not a dining destination and doesn't claim to be. It's a comfortable, casual, chain-heavy scene most of the year that gets briefly excellent in winter, with good independents for anyone willing to look past the obvious.
-
-That may change. Between the K-Park approval, the mall's residential proposal, and whatever Lotis eventually becomes, the village's east side will look meaningfully different in five years. Just don't buy a house on the strength of a rendering — verify what's approved, what's funded and what's actually under construction.`,
-    faqs: [
-      { q: "Where is the best dining in Wellington, Florida?", a: "Most of the village’s dining sits along the State Road 7 corridor on the eastern edge, clustered around the Mall at Wellington Green. Expect national chains alongside a solid layer of independent kitchens tucked into the surrounding plazas. During the January-through-March equestrian season, the area near the show grounds becomes considerably more upscale and busy." },
-      { q: "What new restaurants and development are coming to Wellington?", a: "Lotis Wellington on State Road 7 has opened retail and office space with Cooper’s Hawk and Lazy Dog as headline food tenants, though its apartment and medical office phases remain unbuilt and the project has been affected by developer litigation and liens reported above $5 million. Separately, roughly 70 acres of village-owned land known as K-Park was rezoned in February 2026 for a mixed-use development by Related Ross including retail, dining, a hotel and residences. Verify current status before relying on either." },
-      { q: "What is happening to the Mall at Wellington Green?", a: "Nordstrom closed in 2019 and the box has remained vacant, with Macy’s, Dillard’s and JCPenney still operating. In 2026 Bainbridge Companies proposed replacing roughly 18 acres at the Nordstrom site with a 620-unit apartment complex, which had not been approved as of mid-2026. The mall’s assessed valuation reportedly fell from around $245 million to about $74 million in 2024, and planning analysis has suggested the site needs roughly 1,500 residential units to keep its remaining retail viable." },
-      { q: "Does Wellington have nightlife?", a: "Not in a conventional sense. The village is quiet at night for most of the year, and social life organizes around the Wellington Amphitheater, the parks and athletic complexes, community amenity centers, and the equestrian venues in season. Residents who want range typically drive 30 to 40 minutes east to downtown West Palm Beach." },
-      { q: "Does the dining scene change during equestrian season in Wellington?", a: "Substantially. From roughly January through March the restaurants near the show grounds fill with an international crowd in town for the circuit, seasonal and pop-up concepts appear, prices firm up and reservations begin to matter. From May onward the village empties out and walk-in seating is generally available anywhere." },
-      { q: "Is Wellington a good place for casual, everyday dining?", a: "Yes. The everyday scene is comfortable and casual, with a broad mix of counter-service and sit-down options along the State Road 7 corridor, and it is affordable outside the winter season. It is not a destination dining market, but it covers ordinary needs well." },
+    seoTitle: "Where to Eat, Drink & Hang Out in Wellington, Florida: Verified Places & Where to Check",
+    metaTitle: "Where to Eat & Hang Out in Wellington, FL: Verified Places",
+    metaDescription: "Where to eat, drink and hang out in Wellington, Florida: the Village Thursday-night series, the Mall at Wellington Green dining directory, polo-day brunch options and the official pages to check.",
+    primaryKeyword: "places to eat in Wellington Florida",
+    secondaryKeywords: [
+      "Wellington FL restaurants",
+      "Thursday Nights in Wellington",
+      "Wellington Green dining",
+      "where to eat Wellington"
     ],
-    internalLinks: ["best-things-to-do-in-wellington-florida", "local-guide-to-wellington-florida", "hidden-gems-in-wellington-florida"],
-    funFact: "The Mall at Wellington Green's assessed valuation reportedly fell from around $245 million to roughly $74 million in 2024, and a 2026 proposal would replace the long-vacant Nordstrom with 620 apartments. Local planning analysis has suggested the mall's 97-acre interior needs on the order of 1,500 homes to keep its remaining retail viable — the clearest sign that Wellington's commercial edge is about to be rebuilt as a place people live.",
-    author: 'christine',
+    h1: "Best Places to Eat, Drink and Hang Out in Wellington, Florida",
+    heroImage: "/images/wellington/polo-field-eat-hero.webp",
+    heroImageAlt: "A close view of riders on a polo field with the grandstand, tents and palm trees behind them",
+    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCredit: "Photo by John Oliver, 2022",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
+    editorial: {
+      eyebrow: "Wellington · Eat, Drink & Hang Out",
+      deck: "Where Wellington residents and visitors gather to eat, with the operator or Village page to confirm menus, hours and what is on.",
+      heroLayout: "split",
+      heroTone: "guide",
+      panelImage: {
+        src: "/images/wellington/polo-field-eat-panel.webp",
+        width: 960,
+        height: 1200
+      },
+      mobileImage: {
+        src: "/images/wellington/polo-field-eat-mobile.webp",
+        width: 1200,
+        height: 800
+      },
+      panelCaption: "A polo match seen from the spectator side of the field.",
+      primaryCta: {
+        label: "Explore Wellington",
+        href: "/communities/wellington"
+      },
+      secondaryCta: {
+        label: "Best things to do in Wellington",
+        href: "/blog/best-things-to-do-in-wellington-florida"
+      },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: "none",
+      guide: {
+        heading: "Where to eat, drink and hang out",
+        intro: "Wellington does not have one downtown restaurant strip. Dining is spread across a few commercial areas and event settings, so the most useful way to plan is by setting. This list is short on purpose: every entry is described only from the operator or the Village, and each links to the page to confirm current details.",
+        lastReviewed: "2026-10-08",
+        categories: [
+          {
+            id: "village-events",
+            title: "Village events: food trucks and music",
+            intro: "The Village runs the Wellington Amphitheater at 12100 Forest Hill Boulevard and publishes what is on. Events move and are sometimes canceled, so check the calendar before you go.",
+            places: [
+              {
+                name: "Thursday Nights in Wellington",
+                body: "A weekly series at the Wellington Amphitheater that combines live music, food trucks and a market. The Village describes a rotating line-up of gourmet food trucks, so the vendors change from week to week.",
+                bestFor: [
+                  "Casual dinner",
+                  "Food trucks",
+                  "Live music"
+                ],
+                area: "Wellington Amphitheater, 12100 Forest Hill Boulevard",
+                note: "Check the Village page for the current schedule, hours, parking and any cancellations.",
+                link: {
+                  label: "Thursday Nights in Wellington",
+                  href: "https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington"
+                }
+              }
+            ]
+          },
+          {
+            id: "mall",
+            title: "The Mall at Wellington Green",
+            intro: "The mall publishes a dining directory that is the place to confirm the current tenant list. It describes both sit-down restaurants and a food court.",
+            places: [
+              {
+                name: "Mall dining directory",
+                body: "The mall lists its restaurants, eateries and food court on one page, and its interactive map shows locations inside the mall.",
+                bestFor: [
+                  "Sit-down meals",
+                  "Quick bites",
+                  "Food court"
+                ],
+                area: "The Mall at Wellington Green, 10300 W. Forest Hill Boulevard",
+                note: "Tenants change. Use the directory for the current list and hours.",
+                link: {
+                  label: "Restaurants & Eateries at Wellington Green",
+                  href: "https://shopwellingtongreen.com/dining/"
+                }
+              },
+              {
+                name: "California Pizza Kitchen",
+                body: "Listed in the mall directory with its own page on the mall site.",
+                bestFor: [
+                  "Pizza",
+                  "Casual dine-in"
+                ],
+                area: "The Mall at Wellington Green",
+                note: "Check the venue for current hours and reservations.",
+                link: {
+                  label: "California Pizza Kitchen at Wellington Green",
+                  href: "https://shopwellingtongreen.com/store/california-pizza-kitchen/"
+                }
+              }
+            ]
+          },
+          {
+            id: "season",
+            title: "In season: polo and show jumping",
+            intro: "Both venues sell food and hospitality as part of their events, set by the operators. Dining there is part of an event ticket or a visit, so confirm what is included.",
+            places: [
+              {
+                name: "National Polo Center – Wellington",
+                body: "The venue sells public admission, box seats, tailgate tents and a Sunday brunch as part of its winter season, according to its announcement of the 2027 schedule.",
+                bestFor: [
+                  "Sunday brunch",
+                  "Tailgate",
+                  "Spectator events"
+                ],
+                area: "National Polo Center – Wellington",
+                note: "Ticketing, dates and offerings are the venue’s to set. Confirm before buying.",
+                link: {
+                  label: "nationalpolocenter.com",
+                  href: "https://www.nationalpolocenter.com/"
+                }
+              },
+              {
+                name: "Wellington International",
+                body: "The venue hosts the Winter Equestrian Festival and Saturday Night Lights. Its visitor page covers admission, parking and what to expect on site.",
+                bestFor: [
+                  "Event-day meals",
+                  "Spectator events"
+                ],
+                area: "Wellington International",
+                note: "Admission, parking and on-site offerings are set by the venue each season.",
+                link: {
+                  label: "Plan your visit",
+                  href: "https://wellingtoninternational.com/visitors/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      closingStep: {
+        eyebrow: "Next step",
+        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        cta: {
+          label: "Talk with us",
+          href: "/contact"
+        }
+      }
+    },
+    body: `Wellington's dining is a patchwork. The Village hosts a weekly food-truck evening, the mall holds a directory of restaurants and a food court, and the two main event venues sell food and hospitality as part of their seasons. There is no walkable downtown strip, and nobody should pick a place from a guide that is a year old. So this page is deliberately a short list of places described only from the operator or the Village, each linked to the page that has the current menu, hours and schedule.
+  
+  This page does not rank restaurants, quote prices or describe the clientele. It also does not list venues it has not verified. If you want a place added, we will confirm it against the operator's own page first.
+  
+  ## How to plan a meal here
+  
+  - **Check the date.** Village events and venue seasons change. Use the linked page for the week you are going.
+  - **Plan the route.** Wellington is spread out and mostly car-oriented. In event weeks, test the route at the hour you will drive it ([calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/)).
+  - **Confirm hours and reservations with the operator.** Tenants and hours change.
+  - **Ask about dietary and accessibility needs with the venue**, not a guide.
+  
+  ## What is changing
+  
+  Development and tenant changes at the mall and along State Road 7 are tracked in the Village's planning record and in the mall's own directory. This page does not predict them.
+  
+  ## Continue exploring Wellington
+  
+  - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+  - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
+  - [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)`,
+    faqs: [
+      {
+        q: "Where is the best dining in Wellington, Florida?",
+        a: "This guide does not rank restaurants. It lists settings where dining is described by the operator or the Village: the Thursday Nights in Wellington series, the Mall at Wellington Green dining directory and the event venues. Each links to the page to confirm current menus and hours."
+      },
+      {
+        q: "Is there food at Thursday Nights in Wellington?",
+        a: "Yes. The Village describes a weekly series at the Wellington Amphitheater that combines live music, a market and a rotating line-up of food trucks. Confirm the current schedule on the Village page."
+      },
+      {
+        q: "Where can I see the restaurants at the Mall at Wellington Green?",
+        a: "The mall publishes a dining directory at shopwellingtongreen.com/dining and an interactive map. Tenants change, so check it for the current list."
+      },
+      {
+        q: "Does the National Polo Center serve food?",
+        a: "The venue's announcement of its 2027 season lists a Sunday brunch among its ticket options, along with box seats and tailgate tents. Confirm offerings and dates with the venue."
+      },
+      {
+        q: "Does Wellington have a walkable downtown?",
+        a: "Not in the conventional sense. The Village is spread out and most trips are by car, so plan the route for the hour you will travel."
+      }
+    ],
+    funFact: "The Village describes Thursday Nights in Wellington as a weekly evening at the Wellington Amphitheater with live music, a market and a rotating line-up of gourmet food trucks. The vendors change from week to week, which is why this guide links the schedule instead of naming trucks.",
+    author: "christine",
     published: true,
-    updated: '2026-08-01',
+    updated: "2026-10-08"
   },
 
   // ===================== ROYAL PALM BEACH =====================
