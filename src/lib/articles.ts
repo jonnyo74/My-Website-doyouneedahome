@@ -11068,6 +11068,7 @@ Check the claims about new development carefully. Related Ross announced in Augu
 - [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
 - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
+- [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
 - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
 - [Wellington vs Nearby Areas](/blog/wellington-vs-nearby-cities)
 - [Palm Beach County and Treasure Coast relocation guide](/palm-beach-county-treasure-coast-relocation-guide)`,
@@ -11120,20 +11121,22 @@ Check the claims about new development carefully. Related Ross announced in Augu
     cityName: "Wellington",
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Things to Do in Wellington, Florida: Events, Parks, Trails & Where to Confirm Details",
-    metaTitle: "Things to Do in Wellington, FL: Events, Parks & Trails",
-    metaDescription: "Things to do in Wellington, FL, with the official page to check for each: Winter Equestrian Festival, polo, the Amphitheater, parks and nature preserves.",
+    seoTitle: "Best Things to Do in Wellington, Florida: Horse Shows, Polo, Parks & Weekend Plans",
+    metaTitle: "Things to Do in Wellington, FL: Horse Shows, Polo & Parks",
+    metaDescription: "Things to do in Wellington, FL: free horse shows, Saturday Night Lights, polo, dressage, parks, the Environmental Preserve and winter and summer weekend plans.",
     primaryKeyword: "things to do in Wellington Florida",
     secondaryKeywords: [
       "Wellington FL events",
-      "Winter Equestrian Festival",
+      "Winter Equestrian Festival visitor guide",
+      "Saturday Night Lights Wellington",
+      "polo in Wellington",
       "Wellington Amphitheater",
-      "polo Wellington"
+      "what to do in Wellington in summer"
     ],
     h1: "Best Things to Do in Wellington, Florida",
     heroImage: "/images/wellington/polo-field-things-hero.webp",
     heroImageAlt: "A rider on a white horse and others contesting the ball on a grass polo field in front of a grandstand",
-    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageCaption: "A polo match seen from the spectator side of the field. Show jumping, dressage and polo are the winter headliners, but Wellington's parks, preserve and events run year-round.",
     heroImageCredit: "Photo by John Oliver, 2022",
     heroImageWidth: 1600,
     heroImageHeight: 900,
@@ -11141,7 +11144,7 @@ Check the claims about new development carefully. Related Ross announced in Augu
     marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
     editorial: {
       eyebrow: "Wellington · Things to Do",
-      deck: "What Wellington offers, with the official page to check for dates, admission and rules for each, because those change every season.",
+      deck: "What to do in Wellington, Florida: free horse shows, Saturday Night Lights, polo and dressage, the Village parks and preserve, and two weekend plans, each with the official page to check before you go.",
       heroLayout: "split",
       heroTone: "guide",
       panelImage: {
@@ -11154,36 +11157,76 @@ Check the claims about new development carefully. Related Ross announced in Augu
         width: 1200,
         height: 800
       },
-      panelCaption: "A polo match seen from the spectator side of the field.",
       primaryCta: {
         label: "Explore Wellington",
         href: "/communities/wellington"
       },
       secondaryCta: {
-        label: "Hidden gems in Wellington",
-        href: "/blog/hidden-gems-in-wellington-florida"
+        label: "Jump to the weekend plans",
+        href: "#a-winter-weekend-in-wellington"
       },
       tableOfContents: true,
       tocAfterIntro: true,
       magnetPlacement: "none",
       closingStep: {
         eyebrow: "Next step",
-        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        text: "Love what Wellington has to offer? Explore living here. Compare neighborhoods, review available properties and get local guidance on HOA restrictions, equestrian properties and ownership considerations. No sign-up needed.",
         cta: {
           label: "Talk with us",
           href: "/contact"
         }
       }
     },
-    body: `Wellington has a larger events calendar than a Village of its size usually does, plus parks, preserves and trails run by the Village itself. This page lists the main options and names where the current details live. It does not quote prices, hours or admission terms, because the venues set them season by season.
+    body: `**The best things to do in Wellington, Florida** start with its horse sports: free show jumping and dressage at Wellington International, Saturday Night Lights, and winter polo at the National Polo Center. Beyond the horses, the Village runs the Wellington Amphitheater, a large public preserve, parks, an aquatics center and a calendar of community events, and the Mall at Wellington Green covers shopping and dining. Wellington's problem is not a shortage of things to do. It is that the best ones are world-class, often free, and invisible to people who assume they need an invitation. Here is what is worth your time, how to do it without feeling out of place, and where to check before you go. Dates, prices and rules below were last checked against official sources on October 8, 2026, and they change by season.
 
-## Show jumping at Wellington International
+## Wellington activities at a glance
 
-Wellington International hosts the Winter Equestrian Festival, which runs for several weeks in the new year. The venue's [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) is the source for dates; its 2027 listing begins in early January and runs into early April. The venue states that daytime general admission is free, and its [Saturday Night Lights page](https://www.wellingtoninternational.com/winter-equestrian-festival/saturday-night-lights/) describes the evening events. Parking and any reserved seating are separate and set by the venue, so check its [visitor page](https://wellingtoninternational.com/visitors/) before you go.
+| Activity | When | Cost |
+|---|---|---|
+| [Winter Equestrian Festival](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) (show jumping) | January to early April, 2027 listing | Free general admission, paid parking, limited seating |
+| [Saturday Night Lights](https://www.wellingtoninternational.com/winter-equestrian-festival/saturday-night-lights/) | Saturday evenings during the festival | Free general admission, paid or free-shuttle parking |
+| [Dressage and Friday Night Stars](https://www.wellingtoninternational.com/global-dressage-festival/friday-night-stars/) | January to March at Equestrian Village | Free general admission, though some nights are ticketed |
+| [Polo at the National Polo Center](https://www.nationalpolocenter.com/) | Late December to early May, 2027 season | Ticketed, some matches free |
+| [Annual Series horse shows](https://www.wellingtoninternational.com/all-events/) | April to December | Free admission, per the venue |
+| [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) events | Year-round | Many free, check each listing |
+| [Wellington Environmental Preserve](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57) | Year-round, daylight | No admission fee, per the Village |
+| [Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45) and [parks](https://www.wellingtonfl.gov/312/Parks-Playgrounds) | Year-round | Free to enter, with some paid programs |
+| [Aquatics Center](https://www.wellingtonfl.gov/230/Aquatics-Center) | Year-round | Paid admission, see [fees](https://www.wellingtonfl.gov/631/Admission-Passes) |
+| [Mall at Wellington Green](https://shopwellingtongreen.com/dining/) | Year-round | Free to enter |
+
+The cost column describes what the venue or Village says about admission, not the price of food, parking or programs. Each link is the page to confirm current details.
+
+## Watch show jumping at Wellington International
+
+The Winter Equestrian Festival runs for roughly twelve weeks. Wellington International's [event calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/) listed the 2027 festival from early January into early April, as of October 8, 2026. The venue says admission to its horse shows is free and no tickets are required, and in recent seasons it has described daytime visiting from Wednesday through Sunday.
+
+What you get is a working sporting venue instead of a stadium. Several rings can run at once, and you can stand at the rail, wander between competitions, get food and leave when you like. Nobody checks whether you belong.
+
+**Ordinary days and marquee nights.** A normal competition day is relaxed, with the warm-up rings active and room to move. Marquee evenings are different. Saturday Night Lights and the big Grand Prix nights draw crowds, limit seating and may change parking or ticket terms. The venue flags a few events as ticketed, so check the specific week's page.
+
+**First-timer tips.**
+- Go on a weekday morning to see how the sport works. The venue's [visitor page](https://wellingtoninternational.com/visitors/) and [Plan Your Visit page](https://www.wellingtoninternational.com/plan-your-visit/) have directions, parking and rules.
+- Wear comfortable walking shoes and bring sun protection. The venue has not published a dress code that we could find.
+- Be quiet near rings, keep your distance from horses and ask before approaching any horse. Keep pets leashed, per the venue.
+- Parking for general days and evenings is charged at some points and free at others. The venue's Friday and Saturday evening on-site parking was listed at $25 per car as of October 8, 2026, and its Equestrian Village lot has been offered free with a shuttle. Treat any price as the venue's current figure, not a promise.
+
+## Saturday Night Lights
+
+This is the marquee evening, and the best introduction to why the Village is shaped the way it is. Under the lights, with top classes and a full crowd, it stops feeling like a horse show and starts feeling like a proper sporting event.
+
+The venue describes general admission to [Saturday Night Lights](https://www.wellingtoninternational.com/winter-equestrian-festival/saturday-night-lights/) as free, with gates opening at 6 p.m. and competition starting at 7 p.m. during the January to April run. Seating in the International Arena is limited and first come, first served, so arrive early. The venue lists free parking at Equestrian Village (13500 South Shore Boulevard) with a free shuttle as its preferred option, and paid parking on site. Outside food and drink are not allowed, security removes items used to reserve seats, and food vendors and restaurants are on site. Gate times, parking and seating change by week, so use the event page for the night you choose.
+
+## Dressage, the other half of the season
+
+Show jumping gets the attention, but the winter circuit also has a large dressage calendar. The Adequan Global Dressage Festival runs January to March at Equestrian Village, 13500 South Shore Boulevard, and its [event schedule](https://www.wellingtoninternational.com/plan-your-visit/global-dressage-festival/event-schedule/) lists the weeks. Select Friday evenings feature [Friday Night Stars](https://www.wellingtoninternational.com/global-dressage-festival/friday-night-stars/), a Grand Prix Freestyle where riders perform to music they chose. The venue describes general admission as free, but it has also ticketed individual nights, so check the specific Friday.
+
+Dressage is a different spectator experience. In jumping you watch for clear rounds and speed. In dressage, riders perform set movements that judges score for precision and harmony, so it is quiet, exact and closer to figure skating than to racing. If jumping didn't land for you, try dressage before deciding the horse thing isn't for you.
 
 ## Polo at the National Polo Center
 
-The National Polo Center – Wellington publishes its winter season at [nationalpolocenter.com](https://www.nationalpolocenter.com/). Its 2027 season is announced as running from late December into early May, with public admission, box seats, tailgate tents and a Sunday brunch among the ticket options it sells. Ticketing and dates are the venue's to set, and have changed between announcements in the past.
+The National Polo Center – Wellington publishes its schedule at [nationalpolocenter.com](https://www.nationalpolocenter.com/), and its 2027 season is announced as running from late December into early May. Ticket options on its [ticket page](https://www.nationalpolocenter.com/tickets) have included general admission, box seats, tailgate tents and a Sunday brunch, and its [FAQ](https://www.nationalpolocenter.com/frequently-asked-questions) has said weekday matches have been free. Prices change by match and season, so the venue's page is the record, and the venue is outdoors with no covered seating.
+
+The spectator experience is more structured than the show grounds. A match is fast and physical, and you watch from the sideline, a box, a tailgate or the brunch pavilion. The tradition worth knowing is **divot stomping**. At halftime, spectators walk onto the field and press back the turf the horses have torn up. The venue notes that wedges are better than slim heels for it, and recommends comfortable footwear for grass and sand.
 
 ::: gallery
 ![Riders on horseback strung across a polo field in front of a covered grandstand with palm trees](/images/wellington/polo-action-d.webp "Riders spread across the field during a winter match. || Photo by John Oliver, 2022")
@@ -11192,55 +11235,109 @@ The National Polo Center – Wellington publishes its winter season at [national
 ![Riders on brown horses contesting the ball in front of a covered grandstand on a polo field](/images/wellington/polo-action-c.webp "Riders contest the ball in front of the grandstand. || Photo by John Oliver, 2022")
 :::
 
-## The Wellington Amphitheater and Village events
+## Horses don't leave in May
 
-The Village operates the [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) at 12100 Forest Hill Boulevard and publishes its events on the Village [events page](https://www.wellingtonfl.gov/392/Events). The recurring [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series pairs live music with food trucks and a market, and the Village's calendar lists the current line-up and any cancellations. Admission to many Village events is free, but check each listing.
+The big circuits run in winter, but Wellington's equestrian calendar does not stop. Wellington International lists an Annual Series of horse shows from April through December, with Spring, Summer, Fall and Holiday series. From May through October many of them move to Equestrian Village, including its grass derby field, and holiday events return to the main grounds in late November. The venue's [all events page](https://www.wellingtoninternational.com/all-events/) lists what is on, and admission to its horse shows is described as free. These shows are smaller and quieter than the winter peak, which makes them a good way to see the sport up close.
 
-## Parks and recreation
+For scale, a study commissioned by the Palm Beach County Sports Commission estimated the 2025 festival's economic impact at $538.2 million, with the authors' [report](https://media.wellingtoninternational.com/media/ws0dv1tb/economic-impact-of-the-2025-wef-7-27-2025.pdf) as the source. Wellington International's own release cited $536.2 million for the same event, so the gap is worth knowing. Economic impact counts spending by competitors, owners, trainers and spectators and its ripple effects, so it is not the same as what visitors spend.
 
-The Village's [parks and recreation page](https://www.wellingtonfl.gov/2289/Parks-Recreation) lists its parks, athletic facilities and programs. Hours, reservations and registration are the Village's to set and they change.
+## Beyond the horses
 
-## Nature preserves
+You don't need any interest in horses to fill a weekend here. The Village runs most of it, and its pages are the place to confirm hours and rules.
 
-The Village lists its [nature preserves](https://www.wellingtonfl.gov/649/Nature-Preserves) on one page. The largest is the Wellington Environmental Preserve at Section 24, which has its own entry below and in the [hidden gems guide](/blog/hidden-gems-in-wellington-florida).
+- **[Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater)** at 12100 Forest Hill Boulevard hosts concerts and community events, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) with live music and food trucks. Use the Village's [events page](https://www.wellingtonfl.gov/392/Events) for the current line-up, which this guide deliberately doesn't list.
+- **[Wellington Environmental Preserve at Section 24](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57)**, at 3491 Flying Cow Ranch Road, is a 410-acre public preserve with walking trails, a boardwalk, learning areas and a six-story observation tower, and the Village lists no admission fee. Check the Village page for hours and conditions. Our [hidden gems guide](/blog/hidden-gems-in-wellington-florida) covers this and the Village's other lesser-known places.
+- **[Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45)**, at 11700 Pierson Road, has a 2.5-mile walking trail, athletic fields and courts, a playground and a skate park. [Tiger Shark Cove](https://www.wellingtonfl.gov/facilities/facility/details/Tiger-Shark-Cove-44) and [Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23), a barrier-free playground beside the amphitheater, are other family stops, and the Village's [parks list](https://www.wellingtonfl.gov/312/Parks-Playgrounds) has the rest.
+- **[Aquatics Center](https://www.wellingtonfl.gov/230/Aquatics-Center)**. The Village operates a public pool facility with a competition pool and a recreation pool, with paid daily admission and passes ([fees](https://www.wellingtonfl.gov/631/Admission-Passes)). Hours and prices have changed between pages, so confirm by phone or on the Village page.
+- **Trails.** The Village says it maintains more than 100 miles of public and private bridle trails, and some are private. Check the Village's [Equestrian Trails page](https://www.wellingtonfl.gov/582/Equestrian-Trails) and map before you go, treat any trail you are not sure about as off limits, and note that the Village prohibits motorized micromobility devices, including e-bikes, on public bridle trails ([ordinance page](https://www.wellingtonfl.gov/2415/Micromobility-Devices-in-Wellington)). The [local guide](/blog/local-guide-to-wellington-florida) covers trail rules.
+- **[Mall at Wellington Green](https://shopwellingtongreen.com/dining/)** for shopping and dining, and [where to eat, drink and hang out](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida) for the rest.
 
-## Shopping and dining
+## A Winter Weekend in Wellington
 
-The Mall at Wellington Green publishes a [dining directory](https://shopwellingtongreen.com/dining/). The full picture is in [where to eat, drink and hang out](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
+Every stop depends on that week's schedule, so confirm before you commit. Use a map for your own routes, because event days change them.
 
-## Plan around the calendar
+- **Friday evening.** Check the Village's events page for the amphitheater. If it is a Friday Night Stars week at Equestrian Village, that is a dressage evening, though the venue ticketed some nights. Otherwise, dinner along the State Road 7 corridor ([guide](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)).
+- **Saturday morning.** The Wellington Environmental Preserve, early. Tower and boardwalk first, back before the day warms up.
+- **Saturday afternoon.** Wellington International, if it is a festival week. Walk to a rail and watch.
+- **Saturday evening.** Saturday Night Lights, if scheduled. Arrive well before the featured class, and consider the free off-site lot and shuttle.
+- **Sunday.** Polo at the National Polo Center, if a match is scheduled. Check the box office for tickets, wear shoes you can stomp divots in, and stay for halftime.
 
-Event weeks can change traffic on nearby roads and the wait at nearby restaurants. How much depends on the day and the address. Check the venue calendars and test your route at the hour you will travel.
+## A Summer Weekend in Wellington
+
+Summer is hot and storms are common in the afternoon, so plan around the weather instead of against it. None of this is guaranteed, so check each page.
+
+- **Friday evening.** Look at the Village's events page for the amphitheater, and the mall for an indoor dinner.
+- **Saturday morning.** The Environmental Preserve or Village Park trail, early. Bring water and check conditions first.
+- **Saturday midday.** The [Aquatics Center](https://www.wellingtonfl.gov/230/Aquatics-Center), or an indoor option such as the mall. Confirm hours first.
+- **Sunday.** A horse show at Equestrian Village, if the Annual Series has one scheduled. The venue describes admission as free. Go early and keep the rest of the day flexible.
+
+## Where these places are
+
+All addresses are from the Village or venue pages. Open a map first, and confirm distances for the day you go.
+
+| Place | Address | Map |
+|---|---|---|
+| Wellington Amphitheater | 12100 Forest Hill Boulevard | [Map](https://www.google.com/maps/search/?api=1&query=12100%20Forest%20Hill%20Boulevard%2C%20Wellington%2C%20FL%2033414) |
+| Village Park | 11700 Pierson Road | [Map](https://www.google.com/maps/search/?api=1&query=11700%20Pierson%20Road%2C%20Wellington%2C%20FL%2033414) |
+| Wellington Environmental Preserve | 3491 Flying Cow Ranch Road | [Map](https://www.google.com/maps/search/?api=1&query=3491%20Flying%20Cow%20Ranch%20Road%2C%20Wellington%2C%20FL%2033414) |
+| Wellington International (visitor entrance) | 3400 Equestrian Club Drive | [Map](https://www.google.com/maps/search/?api=1&query=3400%20Equestrian%20Club%20Drive%2C%20Wellington%2C%20FL%2033414) |
+| Equestrian Village | 13500 South Shore Boulevard | [Map](https://www.google.com/maps/search/?api=1&query=13500%20South%20Shore%20Boulevard%2C%20Wellington%2C%20FL%2033414) |
+| Mall at Wellington Green | 10300 W. Forest Hill Boulevard | [Map](https://www.google.com/maps/search/?api=1&query=10300%20W%20Forest%20Hill%20Boulevard%2C%20Wellington%2C%20FL%2033414) |
+
+The National Polo Center lists its address and directions on its [FAQ](https://www.nationalpolocenter.com/frequently-asked-questions). Private farms, barns and trails are not public attractions and are not on this list.
+
+## If you only do one thing
+
+Go to the show grounds on a free-admission day, walk to a rail, and watch for twenty minutes. Whether or not you care about horses, it explains more about Wellington than any amount of driving around looking at neighborhoods will.
+
+> **Love what Wellington has to offer? Explore living here.** Wellington's recreation, equestrian culture and community amenities are part of what you are buying into. Compare the [neighborhoods](/blog/best-neighborhoods-in-wellington-florida), read [what living here is like](/blog/what-its-really-like-living-in-wellington-florida), see the [Wellington community page](/communities/wellington), [browse Wellington homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000) or [talk with us](/contact). No sign-up needed.
 
 ## Continue exploring Wellington
 
 - [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
-- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
+- [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
     faqs: [
       {
-        q: "Is the Winter Equestrian Festival free to attend?",
-        a: "Wellington International states that daytime general admission is free, and that general admission to Saturday Night Lights is free too, with parking and reserved seating charged separately. Terms are set by the venue each season, so confirm them on its visitor page before you go."
+        q: "What are the best things to do in Wellington, Florida?",
+        a: "Watch free show jumping and dressage at Wellington International, go to Saturday Night Lights, see polo at the National Polo Center, and visit the Wellington Amphitheater, the Wellington Environmental Preserve, Village Park, the Aquatics Center and the Mall at Wellington Green. Dates, admission and rules change by season, so use the official pages."
       },
       {
-        q: "When is polo season at the National Polo Center?",
-        a: "The National Polo Center – Wellington has announced its 2027 season as running from late December into early May. Dates and tickets are set by the venue and published at nationalpolocenter.com."
+        q: "What can you do in Wellington for free?",
+        a: "Wellington International says admission to its horse shows is free, the Environmental Preserve has no admission fee per the Village, many Village events at the amphitheater are free, and the parks are free to enter. Parking, food, programs and some evening events can cost money, so check each page."
       },
       {
-        q: "Where is the Wellington Amphitheater?",
-        a: "At 12100 Forest Hill Boulevard, next to Scott's Place playground. The Village publishes its schedule at wellingtonfl.gov, including the Thursday Nights in Wellington series."
+        q: "Can visitors watch horse shows in Wellington?",
+        a: "Yes. Wellington International says its horse shows are free to attend with no tickets required, with seating limited. The Winter Equestrian Festival is listed from early January into early April for 2027, and the Annual Series runs April through December."
       },
       {
-        q: "What outdoor places can I visit in Wellington?",
-        a: "The Village lists its nature preserves, including the Wellington Environmental Preserve at Section 24 and Peaceful Waters Sanctuary, and its parks on its Parks and Recreation pages. Check the Village for current hours and rules."
+        q: "Is Saturday Night Lights free?",
+        a: "Wellington International describes general admission as free, with limited seating. Parking is charged on site, and free parking with a shuttle has been offered at Equestrian Village. Terms change by week, so check the event page."
       },
       {
-        q: "Where can I find a current list of Wellington events?",
-        a: "The Village's events page at wellingtonfl.gov/392/Events, plus the calendars of Wellington International and the National Polo Center for their own events."
+        q: "Where can you watch polo in Wellington?",
+        a: "At the National Polo Center – Wellington, whose 2027 season is announced as late December into early May. Tickets, box seats, tailgates and brunch are sold on its website, and its FAQ has said weekday matches have been free."
+      },
+      {
+        q: "What can you do in Wellington without being interested in horses?",
+        a: "Events at the Wellington Amphitheater, the Environmental Preserve, Village Park and its trail, the Aquatics Center, the Mall at Wellington Green and the Village's community events."
+      },
+      {
+        q: "What is there to do in Wellington during summer?",
+        a: "Early-morning outdoor time at the preserve or Village Park, the Aquatics Center, indoor options such as the mall, Village events and the Annual Series horse shows, many at Equestrian Village. Afternoon storms are common in the warm months, so plan for them and check conditions."
+      },
+      {
+        q: "Is the Wellington Environmental Preserve open to the public?",
+        a: "Yes. The Village lists the Wellington Environmental Preserve at Section 24, at 3491 Flying Cow Ranch Road, with no admission fee, trails, a boardwalk, learning areas and an observation tower. Check the Village page for current hours and conditions."
+      },
+      {
+        q: "Are Wellington's bridle trails open to pedestrians?",
+        a: "Not all of them. The Village's network includes both public and private trails, so check its Equestrian Trails page and map and follow posted signs. Motorized micromobility devices, including e-bikes, are prohibited on public bridle trails."
       }
     ],
-    funFact: "Wellington International's 2027 Winter Equestrian Festival calendar begins in early January and runs into early April, longer than the three-month window many older articles describe. The venue's own event calendar is the current record.",
+    funFact: "The easiest way to introduce someone new to equestrian sport is a daytime visit on a competition day: free general admission, a rail to stand at, and no commitment. Save the marquee evenings, which have limited seating and different parking, and the ticketed polo experiences, for a second visit once they know what they are watching.",
     author: "christine",
     published: true,
     updated: "2026-10-08"
