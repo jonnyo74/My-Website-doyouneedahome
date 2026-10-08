@@ -31573,14 +31573,6 @@ The best comparison is not "Which city wins?" It is "Which specific property has
                 note: 'Check the venue for current menus, hours, reservations and events.',
                 link: { label: 'PGA Commons dining directory', href: 'https://pgacommons.com/dining/' },
               },
-              {
-                name: 'Prezzo',
-                body: 'An Italian trattoria. PGA Commons describes a wood-burning oven that produces its pizzas, with indoor and alfresco dining.',
-                bestFor: ['Italian', 'Wood-fired pizza'],
-                area: 'PGA Commons, 4520 PGA Boulevard, Suite 100',
-                note: 'Check the venue for current menus, hours, reservations and events, and confirm it is open before you go.',
-                link: { label: 'Prezzo at PGA Commons', href: 'https://pgacommons.com/prezzo/' },
-              },
             ],
           },
           {
@@ -31589,12 +31581,12 @@ The best comparison is not "Which city wins?" It is "Which specific property has
             intro: 'A short list of restaurants in the central part of the city. It is a selection, not a directory, and each address is as the venue lists it.',
             places: [
               {
-                name: 'Stage Kitchen & Bar',
-                body: 'A restaurant with an official Palm Beach Gardens location. Its site describes a small-plates menu inspired by culinary influences from around the world.',
-                bestFor: ['Small plates', 'Globally influenced menu'],
-                area: '2000 PGA Boulevard, Suite 5502',
-                note: 'Check the venue for current menus, hours, reservations and events.',
-                link: { label: 'Stage Kitchen & Bar, PGA', href: 'https://www.stagekitchenandbar.com/location/stage-pga/' },
+                name: 'Prezzo',
+                body: 'An Italian trattoria relocating from PGA Commons to the former Stage Kitchen & Bar space on PGA Boulevard.',
+                bestFor: ['Italian'],
+                area: '2000 PGA Boulevard, the former Stage Kitchen & Bar space',
+                note: 'Check its website for the opening date and current address before you go.',
+                link: { label: 'Prezzo', href: 'https://www.eatprezzo.com/' },
               },
               {
                 name: "Christopher's Kitchen",
@@ -31719,7 +31711,7 @@ Palm Beach Gardens dining is best explored by district and occasion: PGA Commons
 - [Palm Beach Gardens vs Nearby Areas](/blog/palm-beach-gardens-vs-nearby-cities)`,
     faqs: [
       { q: 'Where are the main dining districts in Palm Beach Gardens?', a: "Dining and public gathering options are spread across several areas rather than one restaurant strip: PGA Commons on PGA Boulevard, the PGA Boulevard, Midtown, Donald Ross Road and Military Trail area, PGA National Resort, and Downtown at the Gardens. Each district publishes its own directory or dining page, which is the source for what is open." },
-      { q: 'What restaurants are currently at PGA Commons?', a: "PGA Commons publishes a dining directory at pgacommons.com/dining. It describes The Cooper Craft Kitchen & Bar, Spoto's Fish & Oyster, Rocco's Tacos & Tequila Bar, Kabuki Sushi Thai Tapas, Prosecco Café and Prezzo, and lists other dining tenants as well. Tenants change, so confirm the current list in the directory." },
+      { q: 'What restaurants are currently at PGA Commons?', a: "PGA Commons publishes a dining directory at pgacommons.com/dining. It describes The Cooper Craft Kitchen & Bar, Spoto's Fish & Oyster, Rocco's Tacos & Tequila Bar, Kabuki Sushi Thai Tapas and Prosecco Café, and lists other dining tenants as well. Tenants change, so confirm the current list in the directory." },
       { q: 'Where can I find current Palm Beach Gardens GreenMarket information?', a: "The Gardens GreenMarket is held at the City Hall Municipal Campus, 10500 North Military Trail. The City's GreenMarket page at pbgfl.gov/278/GreenMarket/GreenMarket is the source for current dates, vendors, rules and hours, and the City's events calendar at pbgfl.com/events lists other public events." },
       { q: 'How should I check current restaurant hours and reservation policies?', a: "Use the restaurant's own page, which each listing on this page links to, and confirm that it is the Palm Beach Gardens location. Hours, menus, reservations and events change, so do not rely on an older article, a map listing or a search-result snippet, and check parking, accessibility and patio policies there if they matter to you." },
     ],
