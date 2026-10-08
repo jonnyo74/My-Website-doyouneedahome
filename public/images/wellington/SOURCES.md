@@ -57,3 +57,15 @@ The article set covers far more than polo, and there is currently no imagery for
 Because every existing file is the same subject, inline photos have deliberately been
 limited to the articles where polo is genuinely the topic. Adding any of the above would
 let the rest of the set carry images too.
+
+## Crops added for the October 2026 rebuild
+
+`polo-field-<key>-hero|panel|mobile.webp` are crops of the eight frames above (hero 1600x900,
+panel 960x1200, mobile 1200x800), one set per article. Each is recorded in
+`src/lib/wellingtonImageProvenance.json`, which `npm run audit:images` enforces before every build.
+
+**Every entry is marked provisional.** The venue is still unconfirmed, so no caption or alt text
+names one. When John confirms which shoot this was, update the `verification` text in the manifest
+and clear the `provisional` flag. Until then the audit prints a PROVISIONAL line on every run.
+The photos show polo only, so the heroes on non-polo topics are captioned as illustrating the
+equestrian setting, not the topic.
