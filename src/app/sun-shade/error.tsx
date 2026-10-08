@@ -26,6 +26,14 @@ export default function SunShadeError({
       <p className="mt-2 text-slate-600">
         Nothing is wrong with your address or link. Reload the tool and try again.
       </p>
+      <details className="mt-4 text-left text-xs text-slate-500">
+        <summary className="cursor-pointer text-center">Error details</summary>
+        <pre className="mt-2 whitespace-pre-wrap break-words rounded-lg bg-slate-100 p-3">
+          {error.name}: {error.message}
+          {error.digest ? `\nDigest: ${error.digest}` : ''}
+          {`\n${(error.stack ?? '').split('\n').slice(1, 5).join('\n')}`}
+        </pre>
+      </details>
       <button
         type="button"
         onClick={() => unstable_retry()}

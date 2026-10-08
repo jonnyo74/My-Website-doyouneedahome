@@ -404,16 +404,22 @@ export default function SunShadeApp({ initial }: { initial: SunShadeInitialState
   // Deferred so React can drop stale shadow work mid-drag: the readouts and the
   // slider handle stay on the live value and never wait for the geometry.
   const deferredSun = useDeferredValue(sun)
-  const shadows = useMemo(
-    () =>
-      buildShadowGeometry(
+  const shadows = useMemo(() => {
+    // A throw here happens during render, so one malformed footprint would take
+    // the whole page down mid-drag. Dropping the shadows for that frame is the
+    // lesser failure.
+    try {
+      return buildShadowGeometry(
         shadowCasters,
         (b) => heights.get(b.id)?.heightM ?? 0,
         deferredSun.azimuthDeg,
         deferredSun.elevationDeg
-      ),
-    [shadowCasters, heights, deferredSun]
-  )
+      )
+    } catch (err) {
+      console.error('Shadow geometry failed', err)
+      return null
+    }
+  }, [shadowCasters, heights, deferredSun])
 
   const exposure = useMemo(() => {
     if (!property || buildings.length === 0) return null
