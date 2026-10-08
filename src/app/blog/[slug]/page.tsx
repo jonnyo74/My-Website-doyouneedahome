@@ -374,7 +374,9 @@ export default async function ArticlePage({ params }: Props) {
       {editorial?.comparison && <ComparisonShortlist comparison={editorial.comparison} />}
 
       {/* Due-diligence articles lead with the thing a buyer should act on. */}
-      {editorial?.checklist && <ArticleChecklist data={editorial.checklist} />}
+      {editorial?.checklist && editorial.checklistPlacement !== 'after-body' && (
+        <ArticleChecklist data={editorial.checklist} />
+      )}
 
       {/* Civic projects lead with how mature the project actually is. */}
       {editorial?.civicProject && <ProjectStatusCard status={editorial.civicProject.status} />}
@@ -418,6 +420,13 @@ export default async function ArticlePage({ params }: Props) {
             <BodyWithTool content={article.body} tool={editorial?.tool} />
           )}
         </div>
+
+        {/* A checklist placed after the body, so the reader gets the substance first. */}
+        {editorial?.checklist && editorial.checklistPlacement === 'after-body' && (
+          <div className="mt-12">
+            <ArticleChecklist data={editorial.checklist} embedded />
+          </div>
+        )}
 
         {/* Sourced milestones, then where to watch for the next one. */}
         {editorial?.civicProject && (
