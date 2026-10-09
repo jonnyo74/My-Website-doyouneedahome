@@ -27,7 +27,7 @@ test('the manifest covers every file in the folder and is well formed', () => {
 })
 
 test('every manifest image is flagged provisional until the venue is confirmed', () => {
-  assert.ok(manifest.images.every((e) => e.provisional === true))
+  assert.ok(manifest.images.filter((e) => !e.stock).every((e) => e.provisional === true))
   assert.match(manifest.images[0].verification, /Provisional/)
 })
 
@@ -67,4 +67,18 @@ test('no Wellington article names a polo venue in a caption or alt text', () => 
   const block = src.slice(start, end)
   const captions = [...block.matchAll(/!\[[^\]]*\]\([^)]*\)/g)].map((m) => m[0]).join('\n')
   assert.doesNotMatch(captions, /National Polo Center|International Polo Club|Grand Champions|Palm Beach Polo/i)
+})
+
+test('illustrative stock is allowed only with a credit and licence, and wrong places still fail', () => {
+  const ok = { path: '/images/wellington/s.webp', stock: true, locality: 'Illustrative stock (not a Wellington place)', credit: 'Photo by A / Unsplash', license: 'Unsplash License', source: 's', verification: 'v', width: 1, height: 1 }
+  assert.equal(rejection(ok, manifest.allowedLocality), null)
+  assert.match(rejection({ ...ok, credit: '' }, manifest.allowedLocality), /no photographer credit/)
+  assert.match(rejection({ ...ok, license: '' }, manifest.allowedLocality), /no licence/)
+  assert.match(rejection({ ...ok, stock: false }, manifest.allowedLocality), /not Wellington/)
+})
+
+test('stock images in the Wellington manifest are credited Unsplash photos and are not provisional venue claims', () => {
+  const stock = manifest.images.filter((e) => e.stock)
+  assert.ok(stock.length >= 2)
+  assert.ok(stock.every((e) => /Unsplash/.test(e.credit) && /Unsplash License/.test(e.license)))
 })

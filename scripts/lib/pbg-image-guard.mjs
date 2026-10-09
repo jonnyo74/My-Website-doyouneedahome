@@ -62,6 +62,15 @@ function entryFor(manifest, p) {
 /** Why a manifest entry cannot be used on a Palm Beach Gardens page, or null if it can. */
 export function rejection(entry, locality = ALLOWED_LOCALITY) {
   if (!entry) return 'has no entry in the image provenance manifest'
+  // Illustrative stock: allowed only as a labeled illustration, never as a place. It must carry a
+  // credit, a licence, a source and a verification note, and it is never counted as the city.
+  if (entry.stock === true) {
+    if (!entry.credit || !String(entry.credit).trim()) return 'is stock but has no photographer credit'
+    if (!entry.license || !String(entry.license).trim()) return 'is stock but has no licence'
+    if (!entry.source || !String(entry.source).trim()) return 'has no source note'
+    if (!entry.verification || !String(entry.verification).trim()) return 'has no verification note'
+    return null
+  }
   if (entry.locality !== locality) {
     return `is recorded as ${entry.locality}, not ${locality}${entry.rejectReason ? ` (${entry.rejectReason})` : ''}`
   }
@@ -150,7 +159,10 @@ export function checkManifest(manifest, filesInFolder) {
     seen.add(e.path)
     if (!e.locality) problems.push(`${e.path} has no locality`)
     if (!Number.isInteger(e.width) || !Number.isInteger(e.height)) problems.push(`${e.path} has no dimensions`)
-    if (e.locality === manifest.allowedLocality && (!e.source || !e.verification || !e.landmark)) {
+    if (e.stock === true && (!e.credit || !e.license || !e.source || !e.verification)) {
+      problems.push(`${e.path} is stock but lacks a credit, licence, source or verification note`)
+    }
+    if (!e.stock && e.locality === manifest.allowedLocality && (!e.source || !e.verification || !e.landmark)) {
       problems.push(`${e.path} is marked ${manifest.allowedLocality} but lacks a landmark, source or verification note`)
     }
   }
