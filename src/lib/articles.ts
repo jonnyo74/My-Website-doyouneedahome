@@ -12512,7 +12512,7 @@ These are hypothetical examples. They are not real transactions or recommendatio
     h1: "Best Places to Eat, Drink & Hang Out in Wellington, Florida",
     heroImage: "/images/wellington/polo-field-eat-hero.webp",
     heroImageAlt: "A polo match on a wide grass field in front of a grandstand with palm trees under a clear sky, part of the equestrian setting that shapes Wellington's dining calendar",
-    heroImageCaption: "A polo match seen from the spectator side of the field. We do not have our own photographs of the restaurants below, so this guide uses none. The photo shows the equestrian setting that shapes part of Wellington's dining calendar.",
+    heroImageCaption: "A polo match seen from the spectator side of the field. We do not have our own photographs of the restaurants below, and the two food photos in this guide are labeled stock. This photo shows the equestrian setting that shapes part of Wellington's dining calendar.",
     heroImageCredit: "Photo by John Oliver, 2022",
     heroImageWidth: 1600,
     heroImageHeight: 900,
@@ -12585,6 +12585,8 @@ Wellington has no walkable downtown nightlife district, so the plan is simple: p
 ## Best Restaurants for a Nice Dinner
 
 These are the sit-down options for an anniversary, a client dinner or a night when you want a table and a wine list.
+
+![A plated fish course with microgreens beside bread and wine glasses on a set restaurant table](/images/wellington/stock-plated-dinner.webp "Illustrative stock photo, not a Wellington restaurant. || Photo by Jay Wennington / Unsplash")
 
 ### Kaluz
 
@@ -12683,6 +12685,8 @@ Flanigan's calls its restaurants family-run restaurants and sports bars and prom
 ## Breakfast, Brunch and Coffee
 
 For coffee before a showing or a weekday breakfast, these four cover most of the Forest Hill Boulevard and State Road 7 side of town.
+
+![Two coffee cups on an outdoor cafe table with rattan chairs and a hedge behind](/images/wellington/stock-cafe-table.webp "Illustrative stock photo, not a Wellington cafe. || Photo by Philip Flores / Unsplash")
 
 ### First Watch
 
