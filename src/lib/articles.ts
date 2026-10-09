@@ -10530,7 +10530,7 @@ We started from local sources, including the Lake Worth Beach CRA's dining listi
 
 The Village runs much of its public life. Its Town Center on Forest Hill Boulevard brings together the [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater), the community center near Lake Wellington and [Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23), a barrier-free playground at 12190 Forest Hill Boulevard. The Village's [parks and playgrounds page](https://www.wellingtonfl.gov/312/Parks-Playgrounds) lists its neighborhood parks, a dog park and a skate park, and its [Aquatics Complex](https://www.wellingtonfl.gov/playing/recreation/aquatics) is a public pool facility with a competition pool and a recreation pool.
 
-On many Thursday evenings the Village holds [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) at the amphitheater, with live music, food trucks and a market. Its [events page](https://www.wellingtonfl.gov/392/Events) lists what is on. Schedules move, so check the page the week you plan to go.
+On many Thursday evenings the Village holds [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) at the amphitheater, with live music, food trucks and a market. Its [events page](https://www.wellingtonfl.gov/392/Events) lists what is on. Schedules move, so check the page the week you plan to go.
 
 Wellington is spread out, and most residents will drive for errands, work and school runs. That is a design fact, not a verdict. If walkability matters to you, test the specific address rather than the Village as a whole.
 
@@ -10789,7 +10789,7 @@ All of these are run by the Village unless noted. Hours, fees and rules change, 
 
 - **[Wellington Environmental Preserve at Section 24](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57).** At 3491 Flying Cow Ranch Road, per the Village. The Village lists no admission fee, a butterfly garden, walking trails, learning areas, an observation tower, restrooms and an equestrian trail. It is also a stormwater facility. It is the largest public natural area in the Village.
 - **[Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45).** At 11700 Pierson Road. The Village lists a 2.5-mile walking trail with exercise stations, athletic fields and courts, a playground and a skate park, and the Parks and Recreation offices are here. It is one of the Village's main athletic complexes.
-- **[Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater).** At 12100 Forest Hill Boulevard, in the Town Center. The Village hosts concerts and events here, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington). Check the Village calendar for what is on.
+- **[Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater).** At 12100 Forest Hill Boulevard, in the Town Center. The Village hosts concerts and events here, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington). Check the Village calendar for what is on.
 - **[Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23).** A barrier-free playground at 12190 Forest Hill Boulevard, beside the amphitheater, per the Village.
 - **[Tiger Shark Cove](https://www.wellingtonfl.gov/facilities/facility/details/Tiger-Shark-Cove-44).** At 13800 Greenbriar Boulevard. The Village lists a playground, softball fields, restrooms and pavilions, open sunrise to sunset on its page, though that page may be dated, so confirm.
 - **[The Mall at Wellington Green](https://shopwellingtongreen.com/dining/).** At 10300 W. Forest Hill Boulevard, near State Road 7. The Village has a page on the [Wellington Green and State Road 7 area](https://www.wellingtonfl.gov/2125/Wellington-Green-State-Road-7). The mall publishes a directory of stores and restaurants.
@@ -11082,7 +11082,8 @@ Check the claims about new development carefully. Related Ross announced in Augu
 - [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
 - [Wellington vs Nearby Areas](/blog/wellington-vs-nearby-cities)
-- [Palm Beach County and Treasure Coast relocation guide](/palm-beach-county-treasure-coast-relocation-guide)`,
+- [Palm Beach County and Treasure Coast relocation guide](/palm-beach-county-treasure-coast-relocation-guide)
+- [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
     faqs: [
       {
         q: "What are the best neighborhoods in Wellington, Florida?",
@@ -11256,7 +11257,7 @@ For scale, a study commissioned by the Palm Beach County Sports Commission estim
 
 You don't need any interest in horses to fill a weekend here. The Village runs most of it, and its pages are the place to confirm hours and rules.
 
-- **[Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater)** at 12100 Forest Hill Boulevard hosts concerts and community events, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) with live music and food trucks. Use the Village's [events page](https://www.wellingtonfl.gov/392/Events) for the current line-up, which this guide deliberately doesn't list.
+- **[Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater)** at 12100 Forest Hill Boulevard hosts concerts and community events, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) with live music and food trucks. Use the Village's [events page](https://www.wellingtonfl.gov/392/Events) for the current line-up, which this guide deliberately doesn't list.
 - **[Wellington Environmental Preserve at Section 24](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57)**, at 3491 Flying Cow Ranch Road, is a 410-acre public preserve with walking trails, a boardwalk, learning areas and a six-story observation tower, and the Village lists no admission fee. Check the Village page for hours and conditions. Our [hidden gems guide](/blog/hidden-gems-in-wellington-florida) covers this and the Village's other lesser-known places.
 - **[Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45)**, at 11700 Pierson Road, has a 2.5-mile walking trail, athletic fields and courts, a playground and a skate park. [Tiger Shark Cove](https://www.wellingtonfl.gov/facilities/facility/details/Tiger-Shark-Cove-44) and [Scott's Place](https://www.wellingtonfl.gov/facilities/facility/details/Scotts-Place-BarrierFree-Playground-23), a barrier-free playground beside the amphitheater, are other family stops, and the Village's [parks list](https://www.wellingtonfl.gov/312/Parks-Playgrounds) has the rest.
 - **[Aquatics Center](https://www.wellingtonfl.gov/230/Aquatics-Center)**. The Village operates a public pool facility with a competition pool and a recreation pool, with paid daily admission and passes ([fees](https://www.wellingtonfl.gov/631/Admission-Passes)). Hours and prices have changed between pages, so confirm by phone or on the Village page.
@@ -11537,7 +11538,8 @@ Do not compare these places on a ranking. Compare the property in each against y
 - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
 - [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)
-- [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)`,
+- [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
+- [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
     faqs: [
       {
         q: "Is Wellington, Florida a good place to live?",
@@ -11709,7 +11711,7 @@ These venues are why the Village's land-use rules look the way they do, and they
 
 ### Pro: public parks and recreation
 
-The Village runs a public recreation system. The [Wellington Environmental Preserve at Section 24](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57) is a 410-acre public preserve with trails, a boardwalk and an observation tower, and the Village lists no admission fee. [Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45) has a 2.5-mile walking trail, athletic fields and courts, and a skate park. The [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) hosts community events, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington), and the Village's [Aquatics Center](https://www.wellingtonfl.gov/230/Aquatics-Center) is a public pool facility. Hours, fees and rules are the Village's to set, so use its pages. The practical value is that much of this is public and local, not tied to a membership.
+The Village runs a public recreation system. The [Wellington Environmental Preserve at Section 24](https://www.wellingtonfl.gov/facilities/facility/details/wellingtonenvironmentalpreservesection24-57) is a 410-acre public preserve with trails, a boardwalk and an observation tower, and the Village lists no admission fee. [Village Park](https://www.wellingtonfl.gov/facilities/facility/details/Village-Park-Athletics-Complex-45) has a 2.5-mile walking trail, athletic fields and courts, and a skate park. The [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) hosts community events, including [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington), and the Village's [Aquatics Center](https://www.wellingtonfl.gov/230/Aquatics-Center) is a public pool facility. Hours, fees and rules are the Village's to set, so use its pages. The practical value is that much of this is public and local, not tied to a membership.
 
 ### Pro: shopping and everyday services
 
@@ -12002,7 +12004,8 @@ Only matched figures are compared. Redfin city pages reported these median sale 
 - [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
 - [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
 - [Is Wellington Right for You?](/blog/who-should-move-to-wellington-florida)
-- [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)`,
+- [Pros and Cons of Living in Wellington](/blog/pros-and-cons-of-living-in-wellington-florida)
+- [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
     faqs: [
       {
         q: "What is the cost of living in Wellington, Florida?",
@@ -12171,7 +12174,7 @@ The Village says it has maintained more than 100 miles of public and private bri
 
 ## The amphitheater on a Thursday night
 
-The [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) is more than a concert lawn. The Village's [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington) series combines live music, food trucks and a market, and it lists other community programming on its [events page](https://www.wellingtonfl.gov/392/Events). We do not list dates, because the line-up changes and events move or cancel, so check the calendar the week you go.
+The [Wellington Amphitheater](https://www.wellingtonfl.gov/603/Amphitheater) is more than a concert lawn. The Village's [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) series combines live music, food trucks and a market, and it lists other community programming on its [events page](https://www.wellingtonfl.gov/392/Events). We do not list dates, because the line-up changes and events move or cancel, so check the calendar the week you go.
 
 ## A Self-Guided Wellington Discovery Outing
 
@@ -12446,7 +12449,8 @@ These are hypothetical examples. They are not real transactions or recommendatio
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
 - [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)
 - [Cost of Living in Wellington](/blog/cost-of-living-in-wellington-florida)
-- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)`,
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
+- [Where to Eat, Drink and Hang Out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida)`,
     faqs: [
       {
         q: "How does Wellington compare with Royal Palm Beach?",
@@ -12492,20 +12496,23 @@ These are hypothetical examples. They are not real transactions or recommendatio
     cityName: "Wellington",
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Where to Eat, Drink & Hang Out in Wellington, Florida: Verified Places & Where to Check",
-    metaTitle: "Where to Eat & Hang Out in Wellington, FL: Verified Places",
-    metaDescription: "Where to eat and hang out in Wellington, FL: Thursday Nights, the Wellington Green dining directory and event-venue options, with pages to confirm.",
-    primaryKeyword: "places to eat in Wellington Florida",
+    seoTitle: "Best Restaurants, Bars & Cafés in Wellington, FL | Local Guide",
+    metaTitle: "Best Restaurants, Bars & Cafés in Wellington, FL",
+    metaDescription: "Explore Wellington, FL restaurants, cafés, taverns and local hangouts. Find places for dinner, brunch, drinks and live music, plus dining tips.",
+    primaryKeyword: "best restaurants in Wellington FL",
     secondaryKeywords: [
       "Wellington FL restaurants",
-      "Thursday Nights in Wellington",
-      "Wellington Green dining",
-      "where to eat Wellington"
+      "where to eat in Wellington Florida",
+      "Wellington FL bars",
+      "Wellington FL coffee shops",
+      "Thursday Nights in Wellington food trucks",
+      "restaurants near Wellington Green",
+      "brunch in Wellington FL"
     ],
-    h1: "Best Places to Eat, Drink and Hang Out in Wellington, Florida",
+    h1: "Best Places to Eat, Drink & Hang Out in Wellington, Florida",
     heroImage: "/images/wellington/polo-field-eat-hero.webp",
-    heroImageAlt: "A close view of riders on a polo field with the grandstand, tents and palm trees behind them",
-    heroImageCaption: "A polo match seen from the spectator side of the field. The photograph illustrates the equestrian setting this article discusses; it does not show the topic itself.",
+    heroImageAlt: "A polo match on a wide grass field in front of a grandstand with palm trees under a clear sky, part of the equestrian setting that shapes Wellington's dining calendar",
+    heroImageCaption: "A polo match seen from the spectator side of the field. We do not have our own photographs of the restaurants below, so this guide uses none. The photo shows the equestrian setting that shapes part of Wellington's dining calendar.",
     heroImageCredit: "Photo by John Oliver, 2022",
     heroImageWidth: 1600,
     heroImageHeight: 900,
@@ -12513,7 +12520,7 @@ These are hypothetical examples. They are not real transactions or recommendatio
     marketTrendsCaption: "Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.",
     editorial: {
       eyebrow: "Wellington · Eat, Drink & Hang Out",
-      deck: "Where Wellington residents and visitors gather to eat, with the operator or Village page to confirm menus, hours and what is on.",
+      deck: "Seventeen Wellington restaurants, cafés and taverns, checked against their own pages: where to go for dinner, brunch, coffee, drinks and live music, and how dining works around the equestrian venues.",
       heroLayout: "split",
       heroTone: "guide",
       panelImage: {
@@ -12526,175 +12533,340 @@ These are hypothetical examples. They are not real transactions or recommendatio
         width: 1200,
         height: 800
       },
-      panelCaption: "A polo match seen from the spectator side of the field.",
       primaryCta: {
         label: "Explore Wellington",
         href: "/communities/wellington"
       },
       secondaryCta: {
-        label: "Best things to do in Wellington",
-        href: "/blog/best-things-to-do-in-wellington-florida"
+        label: "Where should you go?",
+        href: "#where-should-you-go-a-wellington-dining-cheat-sheet"
       },
       tableOfContents: true,
       tocAfterIntro: true,
       magnetPlacement: "none",
-      guide: {
-        heading: "Where to eat, drink and hang out",
-        intro: "Wellington does not have one downtown restaurant strip. Dining is spread across a few commercial areas and event settings, so the most useful way to plan is by setting. This list is short on purpose: every entry is described only from the operator or the Village, and each links to the page to confirm current details.",
-        lastReviewed: "2026-10-08",
-        categories: [
-          {
-            id: "village-events",
-            title: "Village events: food trucks and music",
-            intro: "The Village runs the Wellington Amphitheater at 12100 Forest Hill Boulevard and publishes what is on. Events move and are sometimes canceled, so check the calendar before you go.",
-            places: [
-              {
-                name: "Thursday Nights in Wellington",
-                body: "A weekly series at the Wellington Amphitheater that combines live music, food trucks and a market. The Village describes a rotating line-up of gourmet food trucks, so the vendors change from week to week.",
-                bestFor: [
-                  "Casual dinner",
-                  "Food trucks",
-                  "Live music"
-                ],
-                area: "Wellington Amphitheater, 12100 Forest Hill Boulevard",
-                note: "Check the Village page for the current schedule, hours, parking and any cancellations.",
-                link: {
-                  label: "Thursday Nights in Wellington",
-                  href: "https://www.wellingtonfl.gov/2224/Thursday-Nights-in-Wellington"
-                }
-              }
-            ]
-          },
-          {
-            id: "mall",
-            title: "The Mall at Wellington Green",
-            intro: "The mall publishes a dining directory that is the place to confirm the current tenant list. It describes both sit-down restaurants and a food court.",
-            places: [
-              {
-                name: "Mall dining directory",
-                body: "The mall lists its restaurants, eateries and food court on one page, and its interactive map shows locations inside the mall.",
-                bestFor: [
-                  "Sit-down meals",
-                  "Quick bites",
-                  "Food court"
-                ],
-                area: "The Mall at Wellington Green, 10300 W. Forest Hill Boulevard",
-                note: "Tenants change. Use the directory for the current list and hours.",
-                link: {
-                  label: "Restaurants & Eateries at Wellington Green",
-                  href: "https://shopwellingtongreen.com/dining/"
-                }
-              },
-              {
-                name: "California Pizza Kitchen",
-                body: "Listed in the mall directory with its own page on the mall site.",
-                bestFor: [
-                  "Pizza",
-                  "Casual dine-in"
-                ],
-                area: "The Mall at Wellington Green",
-                note: "Check the venue for current hours and reservations.",
-                link: {
-                  label: "California Pizza Kitchen at Wellington Green",
-                  href: "https://shopwellingtongreen.com/store/california-pizza-kitchen/"
-                }
-              }
-            ]
-          },
-          {
-            id: "season",
-            title: "In season: polo and show jumping",
-            intro: "Both venues sell food and hospitality as part of their events, set by the operators. Dining there is part of an event ticket or a visit, so confirm what is included.",
-            places: [
-              {
-                name: "National Polo Center – Wellington",
-                body: "The venue sells public admission, box seats, tailgate tents and a Sunday brunch as part of its winter season, according to its announcement of the 2027 schedule.",
-                bestFor: [
-                  "Sunday brunch",
-                  "Tailgate",
-                  "Spectator events"
-                ],
-                area: "National Polo Center – Wellington",
-                note: "Ticketing, dates and offerings are the venue’s to set. Confirm before buying.",
-                link: {
-                  label: "nationalpolocenter.com",
-                  href: "https://www.nationalpolocenter.com/"
-                }
-              },
-              {
-                name: "Wellington International",
-                body: "The venue hosts the Winter Equestrian Festival and Saturday Night Lights. Its visitor page covers admission, parking and what to expect on site.",
-                bestFor: [
-                  "Event-day meals",
-                  "Spectator events"
-                ],
-                area: "Wellington International",
-                note: "Admission, parking and on-site offerings are set by the venue each season.",
-                link: {
-                  label: "Plan your visit",
-                  href: "https://wellingtoninternational.com/visitors/"
-                }
-              }
-            ]
-          }
-        ]
-      },
       closingStep: {
         eyebrow: "Next step",
-        text: "Want help comparing a Wellington address with the zoning, documents and daily routes that matter to you? We can help you organize a practical area tour.",
+        text: "Love Wellington's dining and local hangouts? Explore living here. DO Homes Group can help you compare Wellington neighborhoods, explore available homes and understand which locations offer convenient access to the restaurants, shops and amenities that matter to you. No sign-up needed.",
         cta: {
           label: "Talk with us",
           href: "/contact"
         }
       }
     },
-    body: `Wellington's dining is a patchwork. The Village hosts a weekly food-truck evening, the mall holds a directory of restaurants and a food court, and the two main event venues sell food and hospitality as part of their seasons. There is no walkable downtown strip, and nobody should pick a place from a guide that is a year old. So this page is deliberately a short list of places described only from the operator or the Village, each linked to the page that has the current menu, hours and schedule.
+    body: `**The best places to eat in Wellington, Florida** depend on the occasion, and they are spread along Forest Hill Boulevard, Wellington Trace, State Road 7 and South Shore Boulevard, not packed into one downtown. For a nice dinner, start with [Kaluz](https://www.kaluzrestaurant.com/kaluz-wellington/), [Oli's Fashion Cuisine](https://www.olisfashioncuisine.com/), [A la Cruz (Alacruz Grill)](https://alacruzgrill.com/) for Argentine steak, [DeVine Bistro](https://devinebistro.com/) or [Cooper's Hawk Winery & Restaurant](https://chwinery.com/locations/wellington-fl). For casual, there is fresh pasta at [Agliolio](https://agliolio.com/), wood-fired pizza at [Sicilian Oven](https://www.sicilianoven.com/locations/wellington), burgers at [Lindburgers](https://www.lindburgers.com/locations/wellington/), Greek at [Spiro's Taverna](https://spirostaverna.com/spiroswellington) and a sports bar at [Flanigan's](https://www.flanigans.net/location/wellington/). For coffee and breakfast, try [Carmela Coffee](https://www.carmelacoffee.com/locations), [First Watch](https://firstwatch.com/locations/wellington), [Keke's Breakfast Cafe](https://www.kekes.com/locations/kekes-wellington) or [Taylor Made Cafe](https://www.taylormadecafe.com/cafe-menus.html). For a drink with weekend live music, [Kickback Neighborhood Tavern](https://kickbacktavern.com/) is the neighborhood tavern, and on Thursday evenings the Village's [food truck and music night](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) is the community hangout.
 
-This page does not rank restaurants, quote prices or describe the clientele. It also does not list venues it has not verified. If you want a place added, we will confirm it against the operator's own page first.
+Wellington has no walkable downtown nightlife district, so the plan is simple: pick the corridor, then the place. The densest cluster is around the Mall at Wellington Green. Jump to [dinner](#best-restaurants-for-a-nice-dinner), [casual](#casual-dining-and-local-favorites), [coffee and breakfast](#breakfast-brunch-and-coffee), [drinks](#where-to-grab-drinks-and-hang-out), [international](#sushi-and-international-dining), [equestrian season](#dining-during-equestrian-season), [food trucks](#food-trucks-and-community-events) or the [cheat sheet](#where-should-you-go-a-wellington-dining-cheat-sheet).
 
-## How to plan a meal here
+## Wellington Dining at a Glance
 
-- **Check the date.** Village events and venue seasons change. Use the linked page for the week you are going.
-- **Plan the route.** Wellington is spread out and mostly car-oriented. In event weeks, test the route at the hour you will drive it ([calendar](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/)).
-- **Confirm hours and reservations with the operator.** Tenants and hours change.
-- **Ask about dietary and accessibility needs with the venue**, not a guide.
+| Place | Best for | Area |
+|---|---|---|
+| [Kaluz](https://www.kaluzrestaurant.com/kaluz-wellington/) | Sit-down dinner, patio | Wellington Green Drive |
+| [Oli's Fashion Cuisine](https://www.olisfashioncuisine.com/) | Special occasions, weekend brunch | Forest Hill Boulevard |
+| [A la Cruz (Alacruz Grill)](https://alacruzgrill.com/) | Steak, wine dinners, weekend lunch | West Forest Hill Boulevard |
+| [DeVine Bistro](https://devinebistro.com/) | Dinner, early happy hour | South State Road 7 |
+| [Cooper's Hawk Winery & Restaurant](https://chwinery.com/locations/wellington-fl) | Dinner, weekend brunch | South State Road 7 |
+| [Agliolio](https://agliolio.com/) | Pasta night, wine | Forest Hill Blvd and State Road 7 |
+| [Sicilian Oven](https://www.sicilianoven.com/locations/wellington) | Pizza and a family-style meal | Forest Hill Boulevard |
+| [Lindburgers](https://www.lindburgers.com/locations/wellington/) | Burgers, afternoon happy hour | Wellington Trace |
+| [Spiro's Taverna](https://spirostaverna.com/spiroswellington) | Gyros, breakfast through dinner | South Shore Boulevard |
+| [Flanigan's](https://www.flanigans.net/location/wellington/) | Watching a game, late nights | South State Road 7 |
+| [First Watch](https://firstwatch.com/locations/wellington) | Weekday breakfast | South State Road 7 |
+| [Keke's Breakfast Cafe](https://www.kekes.com/locations/kekes-wellington) | Sit-down breakfast, takeout | Forest Hill Boulevard |
+| [Carmela Coffee](https://www.carmelacoffee.com/locations) | Coffee before a showing | Forest Hill Boulevard |
+| [Taylor Made Cafe](https://www.taylormadecafe.com/cafe-menus.html) | Quick breakfast or lunch | South Shore Boulevard |
+| [Kickback Neighborhood Tavern](https://kickbacktavern.com/) | Drinks, weekend live music | West Forest Hill Boulevard |
+| [Lemongrass Asian Bistro](https://lemongrassasianbistro.com/wellington) | Sushi, pad Thai, lunch | Forest Hill Boulevard |
+| [Raja Indian Cuisine & Bar](https://rajawellington.com/) | Lunch buffet, patio bar | West Forest Hill Boulevard |
+| [Thursday Nights](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) | Food trucks, live music | Amphitheater |
 
-## What is changing
+**How we chose.** Each place had to be open on its own page as of October 9, 2026, have a Wellington address, and offer something distinct on this list. This is an occasion-by-occasion guide, not a ranking or an award, and we have not reviewed the food. Names link to the operator's page, and we left out places we could not confirm that way.
 
-Development and tenant changes at the mall and along State Road 7 are tracked in the Village's planning record and in the mall's own directory. This page does not predict them.
+## Best Restaurants for a Nice Dinner
+
+These are the sit-down options for an anniversary, a client dinner or a night when you want a table and a wine list.
+
+### Kaluz
+
+Kaluz is a dinner restaurant by the mall. Its Wellington page lists separate lunch, dinner, wine and happy hour menus, with lunch on weekdays and the full dinner menu through the weekend. It has a patio.
+
+- **Cuisine and area:** Contemporary American. Wellington Green Drive, by the mall.
+- **Best for:** Sit-down dinner, patio.
+- **Good to know:** Its reservation page says reservations are indoor only, parties of four or fewer book online, larger parties up to ten call, and the patio is first come, first served. Kaluz has waterfront locations elsewhere. We make no waterfront claim for Wellington.
+- **Official site:** [kaluzrestaurant.com](https://www.kaluzrestaurant.com/kaluz-wellington/)
+
+### Oli's Fashion Cuisine
+
+Oli's describes itself as a fine dining restaurant and serves lunch and dinner daily, with a separate brunch menu. Its weekend hours start earlier than weekdays.
+
+- **Cuisine and area:** Fine dining. Forest Hill Boulevard, Suite 20.
+- **Best for:** Special occasions, weekend brunch.
+- **Good to know:** Book through its reservations link or by phone. It shares a plaza address with Sicilian Oven.
+- **Official site:** [olisfashioncuisine.com](https://www.olisfashioncuisine.com/)
+
+### A la Cruz (Alacruz Grill)
+
+The only Argentine asado restaurant on this list. Its site presents open-fire cooking as the point, with separate lunch (weekends) and dinner menus and a wine-dinner series.
+
+- **Cuisine and area:** Argentine steakhouse. West Forest Hill Boulevard, Suites 24/25.
+- **Best for:** Steak, wine dinners, weekend lunch.
+- **Good to know:** Its site takes reservations by phone or email rather than an online booking tool. Its lunch menu notes an automatic gratuity for large parties.
+- **Official site:** [alacruzgrill.com](https://alacruzgrill.com/)
+
+### DeVine Bistro
+
+A bistro with a dinner menu of seafood, steak, pasta, chicken and pork, plus a nightly early happy hour listed on its site.
+
+- **Cuisine and area:** American bistro. South State Road 7, Suite 300, in front of the mall.
+- **Best for:** Dinner, early happy hour.
+- **Good to know:** The site lists dinner Tuesday through Saturday and closed Sunday and Monday. Reservations are by phone.
+- **Official site:** [devinebistro.com](https://devinebistro.com/)
+
+### Cooper's Hawk Winery & Restaurant
+
+A winery restaurant on State Road 7 near the mall. Its Wellington page lists a Saturday and Sunday brunch.
+
+- **Cuisine and area:** Winery restaurant. South State Road 7.
+- **Best for:** Dinner, weekend brunch.
+- **Good to know:** Reservations go through OpenTable from its location page.
+- **Official site:** [chwinery.com](https://chwinery.com/locations/wellington-fl)
+
+## Casual Dining and Local Favorites
+
+Everyday restaurants for a weeknight, a family meal or a game.
+
+### Agliolio
+
+Built around fresh semolina pasta, with a build-your-own pasta section and sauces, a wheat-free pasta option, wine, cocktails and desserts.
+
+- **Cuisine and area:** Fresh pasta, Italian. West Forest Hill Boulevard at Wellington Trace, and South State Road 7.
+- **Best for:** Pasta night, wine.
+- **Good to know:** It has two Wellington locations, 12793 West Forest Hill Boulevard and 2803 South State Road 7, which we count as one recommendation. Pick whichever is nearer.
+- **Official site:** [agliolio.com](https://agliolio.com/) · [Wellington Trace location](http://www.agliolio.com/locations)
+
+### Sicilian Oven
+
+A wood-fired pizza and Italian restaurant, part of a South Florida group, with an online waitlist and online ordering listed on its site.
+
+- **Cuisine and area:** Wood-fired pizza, Italian. Forest Hill Boulevard.
+- **Best for:** Pizza and a family-style meal.
+- **Good to know:** Its Wellington page gives 10610 Forest Hill Boulevard.
+- **Official site:** [sicilianoven.com](https://www.sicilianoven.com/locations/wellington)
+
+### Lindburgers
+
+A burger restaurant whose Wellington page lists 50 gourmet burger selections, bar bites and a daily afternoon happy hour.
+
+- **Cuisine and area:** Burgers. Wellington Trace.
+- **Best for:** Burgers, afternoon happy hour.
+- **Good to know:** Promotions such as happy hour and kids-eat-free days change, so check its page.
+- **Official site:** [lindburgers.com](https://www.lindburgers.com/locations/wellington/)
+
+### Spiro's Taverna
+
+A Greek-American menu with gyros, platters, moussaka and meze, serving breakfast, lunch and dinner. It is also the Greek option here.
+
+- **Cuisine and area:** Greek-American. South Shore Boulevard, Suite 900.
+- **Best for:** Gyros, breakfast through dinner.
+- **Good to know:** Its Wellington address is 12020 South Shore Boulevard, #900. We did not find hours on its site.
+- **Official site:** [spirostaverna.com](https://spirostaverna.com/spiroswellington)
+
+### Flanigan's
+
+Flanigan's calls its restaurants family-run restaurants and sports bars and promotes its game-day happy hour. Its Wellington page lists outdoor seating and long hours every day.
+
+- **Cuisine and area:** American, seafood, ribs. South State Road 7.
+- **Best for:** Watching a game, late nights.
+- **Good to know:** At 2335 South State Road 7, the same stretch of State Road 7 as DeVine Bistro and First Watch.
+- **Official site:** [flanigans.net](https://www.flanigans.net/location/wellington/)
+
+## Breakfast, Brunch and Coffee
+
+For coffee before a showing or a weekday breakfast, these four cover most of the Forest Hill Boulevard and State Road 7 side of town.
+
+### First Watch
+
+Daytime-only breakfast, brunch and lunch.
+
+- **Cuisine and area:** Breakfast, brunch, lunch. South State Road 7, Suite 1100.
+- **Best for:** Weekday breakfast.
+- **Good to know:** It runs a waitlist by phone or online, which helps on weekends.
+- **Official site:** [firstwatch.com](https://firstwatch.com/locations/wellington)
+
+### Keke's Breakfast Cafe
+
+A breakfast cafe with daytime hours and online ordering for takeout or delivery.
+
+- **Cuisine and area:** Breakfast. Forest Hill Boulevard, Suite 190.
+- **Best for:** Sit-down breakfast, takeout.
+- **Good to know:** Open daytime hours daily per its page.
+- **Official site:** [kekes.com](https://www.kekes.com/locations/kekes-wellington)
+
+### Carmela Coffee
+
+Opened in Wellington in 2024. Its menu lists coffee drinks, avocado toast, breakfast sandwiches, shakshuka and a bagel with lox.
+
+- **Cuisine and area:** Coffee, breakfast. Forest Hill Boulevard, Suite 60.
+- **Best for:** Coffee before a showing.
+- **Good to know:** Menu items and prices can differ by location.
+- **Official site:** [carmelacoffee.com](https://www.carmelacoffee.com/locations)
+
+### Taylor Made Cafe
+
+A takeout-oriented cafe on South Shore Boulevard whose menus cover breakfast, lunch, veggie blends and protein shakes.
+
+- **Cuisine and area:** Cafe, breakfast, lunch. South Shore Boulevard, Village Place, Suite 105.
+- **Best for:** Quick breakfast or lunch.
+- **Good to know:** Its site lists the address as 12160 South Shore Boulevard, between Forest Hill and Big Blue Trace. Call for the daily specials.
+- **Official site:** [taylormadecafe.com](https://www.taylormadecafe.com/cafe-menus.html)
+
+For a weekend brunch with a table, [Oli's Fashion Cuisine](https://www.olisfashioncuisine.com/) and [Cooper's Hawk Winery & Restaurant](https://chwinery.com/locations/wellington-fl) list one, and [A la Cruz (Alacruz Grill)](https://alacruzgrill.com/) serves weekend lunch. In season, the National Polo Center sells a ticketed Sunday brunch (see equestrian dining below).
+
+## Where to Grab Drinks and Hang Out
+
+Wellington's hangouts are restaurants with real bars and a couple of community events, not a nightlife strip. Here is where people actually gather.
+
+### Kickback Neighborhood Tavern
+
+A neighborhood tavern. Its site describes elevated comfort food, craft beer and hand-crafted cocktails, a full menu through the day, live music on weekends, and positions the tavern as a stop before shows at the amphitheater.
+
+- **Cuisine and area:** Tavern food, craft beer, cocktails. West Forest Hill Boulevard.
+- **Best for:** Drinks, weekend live music.
+- **Good to know:** At 12771 West Forest Hill Boulevard. A Wellington magazine feature describes a covered, dog-friendly patio. We did not find a current music calendar, so check the site for who is playing.
+- **Official site:** [kickbacktavern.com](https://kickbacktavern.com/)
+
+**Other places to sit at a bar or patio:**
+
+- [Flanigan's](https://www.flanigans.net/location/wellington/) promotes its game-day happy hour and has outdoor seating.
+- [Lindburgers](https://www.lindburgers.com/locations/wellington/) lists a daily afternoon happy hour, and [DeVine Bistro](https://devinebistro.com/) lists an early-evening one.
+- [Raja Indian Cuisine & Bar](https://rajawellington.com/) lists a patio bar and lounge with later hours.
+- [Thursday Nights](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) at the amphitheater is the biggest weekly gathering of the week (see below).
+
+## Sushi and International Dining
+
+Beyond Italian and American, Wellington has Asian, Indian and Greek restaurants worth knowing.
+
+### Lemongrass Asian Bistro
+
+Its Wellington page lists nigiri, sashimi and signature rolls alongside Thai dishes such as pad Thai and curries and wok dishes. It is also in the mall directory.
+
+- **Cuisine and area:** Sushi, Thai, pan-Asian. Forest Hill Boulevard, near the mall.
+- **Best for:** Sushi, pad Thai, lunch.
+- **Good to know:** At 10312 Forest Hill Boulevard.
+- **Official site:** [lemongrassasianbistro.com](https://lemongrassasianbistro.com/wellington)
+
+### Raja Indian Cuisine & Bar
+
+Its site lists a daily lunch buffet, à la carte dinner and a patio bar and lounge with later hours.
+
+- **Cuisine and area:** Indian. West Forest Hill Boulevard, Suite 20.
+- **Best for:** Lunch buffet, patio bar.
+- **Good to know:** At 12794 West Forest Hill Boulevard. Parts of its site still carry pre-opening copy, so call (561) 318-5383 to confirm current hours.
+- **Official site:** [rajawellington.com](https://rajawellington.com/)
+
+[Spiro's Taverna](https://spirostaverna.com/spiroswellington) covers Greek, listed above under casual dining.
+
+## Dining During Equestrian Season
+
+Event dining and everyday restaurants are different things, and the venues set their own rules.
+
+- **Wellington International** says admission to its horse shows is free, with paid parking, and that free parking and a shuttle are offered at Equestrian Village for Saturday Night Lights. Its [visitor page](https://www.wellingtoninternational.com/plan-your-visit/) lists food vendors on site and says no outside food or drink is allowed. Its Gallery and Wellington Club are paid table reservations that include a buffet, and its [International Club](https://wellingtoninternational.com/hospitality) is a members-only pavilion, so none of those are open to a walk-in. For a sit-down meal, the visitor page points to Wellington's restaurants.
+- **National Polo Center** sells tickets for box seats, tailgate tents and a Sunday brunch in the Pavilion. Brunch tables are bought online in full, and the [FAQ](https://www.nationalpolocenter.com/frequently-asked-questions) says the venue is outdoors. See its [site](https://www.nationalpolocenter.com/) for the 2027 season, where tickets are due to go on sale in November.
+- **Seasonal demand.** The Winter Equestrian Festival calendar runs in the winter ([schedule](https://www.wellingtoninternational.com/plan-your-visit/winter-equestrian-festival/event-schedule/)), and show days can bring traffic and busier restaurants. We found no published data on restaurant prices or wait times in season, so we do not claim them. For a specific night, reserve a table where the restaurant takes reservations.
+
+## Food Trucks and Community Events
+
+The Village's [Thursday Nights in Wellington](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) runs weekly at the Wellington Amphitheater, 12100 Forest Hill Boulevard, with food trucks and market vendors from 5 to 9 p.m. and live music starting at 6:30 p.m. A Village sponsorship page describes about 18 food trucks and more than 35 vendors and says the series runs year-round. The trucks change each week, and some Thursdays are special events. Check the [events calendar](https://www.wellingtonfl.gov/392/Events) for the band and the lineup, and the Village page for parking and weather notices.
+
+The Village's [Lakeside Market](https://www.wellingtonfl.gov/834/Lakeside-Market-at-Wellington-Town-Cente) is a weekly Thursday market at the same amphitheater from September through May, per its sponsorship page, held alongside the food truck series. We could not find a posted 2026 season, so confirm the dates on the calendar. For more of the Village calendar, see [Things to Do](/blog/best-things-to-do-in-wellington-florida).
+
+## Dining Around Wellington Green
+
+The densest cluster of named restaurants sits around the Mall at Wellington Green, where Forest Hill Boulevard meets State Road 7.
+
+- **State Road 7, south of Forest Hill:** [Cooper's Hawk Winery & Restaurant](https://chwinery.com/locations/wellington-fl), [DeVine Bistro](https://devinebistro.com/), [Flanigan's](https://www.flanigans.net/location/wellington/), [First Watch](https://firstwatch.com/locations/wellington) and the State Road 7 [Agliolio](https://agliolio.com/).
+- **Forest Hill Boulevard, near the mall:** [Kaluz](https://www.kaluzrestaurant.com/kaluz-wellington/), [Oli's Fashion Cuisine](https://www.olisfashioncuisine.com/), [Sicilian Oven](https://www.sicilianoven.com/locations/wellington), [Keke's Breakfast Cafe](https://www.kekes.com/locations/kekes-wellington), [Carmela Coffee](https://www.carmelacoffee.com/locations) and [Lemongrass Asian Bistro](https://lemongrassasianbistro.com/wellington).
+- **Inside the mall:** the [mall directory](https://shopwellingtongreen.com/dining/) lists its sit-down restaurants and food court, such as California Pizza Kitchen and Kelly's Cajun Grill. Tenants change, so use the directory for the current list.
+
+**Other corridors.** Further west on Forest Hill Boulevard and on Wellington Trace you find [Kickback Neighborhood Tavern](https://kickbacktavern.com/), [Raja Indian Cuisine & Bar](https://rajawellington.com/), [A la Cruz (Alacruz Grill)](https://alacruzgrill.com/), the Wellington Trace [Agliolio](http://www.agliolio.com/locations) and [Lindburgers](https://www.lindburgers.com/locations/wellington/). South Shore Boulevard, which leads toward Equestrian Village, has [Spiro's Taverna](https://spirostaverna.com/spiroswellington) and [Taylor Made Cafe](https://www.taylormadecafe.com/cafe-menus.html). All of these addresses are listed under Wellington. We did not map each parcel to the Village boundary, so use the Village's map to confirm if it matters to you.
+
+## Where Should You Go? A Wellington Dining Cheat Sheet
+
+| If you are | Start with |
+|---|---|
+| Getting coffee before exploring Wellington | [Carmela Coffee](https://www.carmelacoffee.com/locations) or [Taylor Made Cafe](https://www.taylormadecafe.com/cafe-menus.html) |
+| Grabbing lunch between property showings | [Sicilian Oven](https://www.sicilianoven.com/locations/wellington), [Spiro's Taverna](https://spirostaverna.com/spiroswellington), [Lemongrass Asian Bistro](https://lemongrassasianbistro.com/wellington) or [First Watch](https://firstwatch.com/locations/wellington) |
+| Having dinner after a horse show | [Flanigan's](https://www.flanigans.net/location/wellington/) or [Kickback Neighborhood Tavern](https://kickbacktavern.com/) for a late bite, or [A la Cruz (Alacruz Grill)](https://alacruzgrill.com/) for steak |
+| Having a relaxed evening with friends | [Kickback Neighborhood Tavern](https://kickbacktavern.com/), [Raja Indian Cuisine & Bar](https://rajawellington.com/) (patio) or [Lindburgers](https://www.lindburgers.com/locations/wellington/) |
+| Celebrating a special occasion | [Kaluz](https://www.kaluzrestaurant.com/kaluz-wellington/), [Oli's Fashion Cuisine](https://www.olisfashioncuisine.com/), [A la Cruz (Alacruz Grill)](https://alacruzgrill.com/) or [DeVine Bistro](https://devinebistro.com/) |
+| Watching a game | [Flanigan's](https://www.flanigans.net/location/wellington/) |
+| Grabbing a quick bite near the mall | [Lemongrass Asian Bistro](https://lemongrassasianbistro.com/wellington), [Keke's Breakfast Cafe](https://www.kekes.com/locations/kekes-wellington) or the [mall's food court](https://shopwellingtongreen.com/dining/) |
+| Looking for a weekend brunch | [Oli's Fashion Cuisine](https://www.olisfashioncuisine.com/) or [Cooper's Hawk Winery & Restaurant](https://chwinery.com/locations/wellington-fl) |
+| Looking for a free family evening | [Thursday Nights](https://www.wellingtonfl.gov/2183/Thursday-Nights-in-Wellington) |
+
+## How Wellington Dining Differs from Downtown West Palm Beach
+
+Downtown West Palm Beach has a walkable restaurant district, and Clematis Street is a [Great Street](https://planning.org/greatplaces/streets/2014/clematisstreet.htm) in the American Planning Association's program. Wellington's restaurants sit in shopping plazas along main roads, with the amphitheater as the weekly gathering place, and most trips are by car. Neither is better. They are different ways to eat out. Our [West Palm Beach dining guide](/blog/best-places-to-eat-drink-hang-out-in-west-palm-beach-florida) covers the city, and [Wellington vs Nearby Cities](/blog/wellington-vs-nearby-cities) compares the places as a whole.
+
+## What Wellington's Dining Scene Tells You About Living Here
+
+Where you live in Wellington decides how often you will use these places. Homes near Forest Hill Boulevard and State Road 7 sit closest to the dining above, and homes in the equestrian area are farther from it. That is a question of location, not quality, and it depends on the street. Our [neighborhood guide](/blog/best-neighborhoods-in-wellington-florida) goes area by area, [Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida) covers daily life, and the [Local's Guide](/blog/local-guide-to-wellington-florida) covers the Village as a whole.
+
+> **Love Wellington's dining and local hangouts? Explore living here.** DO Homes Group can help you compare Wellington neighborhoods, explore available homes and understand which locations offer convenient access to the restaurants, shops and amenities that matter to you. [Browse Wellington homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000), see the [Wellington community page](/communities/wellington) or [talk with us](/contact). No sign-up needed.
+
+## How This Guide Was Checked
+
+We checked each of the 17 places against its own page, or the Village's, on October 9, 2026, and linked it. We have not dined at every place, and nothing here is a rating, a price or a recommendation of a dish. Hours and menus are left to the restaurants' pages. One entry (Raja Indian Cuisine & Bar) is flagged for a follow-up because its site carries outdated copy. Businesses open, close and move, so if a place has changed, [tell us](/contact) and we will check it and update the page. There is no automated monitor on these links.
 
 ## Continue exploring Wellington
 
 - [What It's Really Like Living in Wellington](/blog/what-its-really-like-living-in-wellington-florida)
-- [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
 - [A Local's Guide to Wellington](/blog/local-guide-to-wellington-florida)
-- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)`,
+- [Best Things to Do in Wellington](/blog/best-things-to-do-in-wellington-florida)
+- [Hidden Gems in Wellington](/blog/hidden-gems-in-wellington-florida)
+- [Best Neighborhoods in Wellington](/blog/best-neighborhoods-in-wellington-florida)`,
     faqs: [
       {
-        q: "Where is the best dining in Wellington, Florida?",
-        a: "This guide does not rank restaurants. It lists settings where dining is described by the operator or the Village: the Thursday Nights in Wellington series, the Mall at Wellington Green dining directory and the event venues. Each links to the page to confirm current menus and hours."
+        q: "What are the best restaurants in Wellington, Florida?",
+        a: "It depends on the occasion. For dinner, Kaluz, Oli's Fashion Cuisine, A la Cruz, DeVine Bistro and Cooper's Hawk. For casual meals, Agliolio, Sicilian Oven, Lindburgers, Spiro's Taverna and Flanigan's. This guide lists 17 places checked against their own pages and does not rank them."
       },
       {
-        q: "Is there food at Thursday Nights in Wellington?",
-        a: "Yes. The Village describes a weekly series at the Wellington Amphitheater that combines live music, a market and a rotating line-up of food trucks. Confirm the current schedule on the Village page."
+        q: "Where can you get a nice dinner in Wellington?",
+        a: "Kaluz on Wellington Green Drive, Oli's Fashion Cuisine and A la Cruz on Forest Hill Boulevard, DeVine Bistro on State Road 7 and Cooper's Hawk on State Road 7. Kaluz takes indoor reservations only, A la Cruz takes them by phone or email, and DeVine is by phone."
       },
       {
-        q: "Where can I see the restaurants at the Mall at Wellington Green?",
-        a: "The mall publishes a dining directory at shopwellingtongreen.com/dining and an interactive map. Tenants change, so check it for the current list."
+        q: "What are good casual restaurants in Wellington?",
+        a: "Agliolio for fresh pasta, Sicilian Oven for wood-fired pizza, Lindburgers for burgers, Spiro's Taverna for Greek-American food and Flanigan's for a sports-bar setting. Agliolio has two Wellington locations."
       },
       {
-        q: "Does the National Polo Center serve food?",
-        a: "The venue's announcement of its 2027 season lists a Sunday brunch among its ticket options, along with box seats and tailgate tents. Confirm offerings and dates with the venue."
+        q: "Where can you get coffee in Wellington?",
+        a: "Carmela Coffee on Forest Hill Boulevard opened in Wellington in 2024, and Taylor Made Cafe on South Shore Boulevard has a cafe menu. First Watch and Keke's are breakfast restaurants."
       },
       {
-        q: "Does Wellington have a walkable downtown?",
-        a: "Not in the conventional sense. The Village is spread out and most trips are by car, so plan the route for the hour you will travel."
+        q: "Where can you grab drinks in Wellington?",
+        a: "Kickback Neighborhood Tavern on West Forest Hill Boulevard has craft beer, cocktails and weekend live music. Flanigan's, Lindburgers, DeVine Bistro and Raja Indian Cuisine & Bar list bar or happy hour offerings, and Thursday Nights at the amphitheater is the weekly community gathering."
+      },
+      {
+        q: "Are there restaurants near Wellington's equestrian venues?",
+        a: "Event dining at the venues is food vendors and paid hospitality, set by each venue. Sit-down restaurants are mostly around the Mall at Wellington Green and along Forest Hill Boulevard, with Spiro's Taverna and Taylor Made Cafe on South Shore Boulevard, which leads toward Equestrian Village."
+      },
+      {
+        q: "Does Wellington have a downtown dining district?",
+        a: "No. Restaurants are spread along Forest Hill Boulevard, Wellington Trace, State Road 7 and South Shore Boulevard. Downtown West Palm Beach has a walkable district if that is what you want."
+      },
+      {
+        q: "Where can you find food trucks in Wellington?",
+        a: "At Thursday Nights in Wellington at the Wellington Amphitheater, 12100 Forest Hill Boulevard, where the Village lists food trucks and vendors from 5 to 9 p.m. and live music from 6:30 p.m. The trucks vary each week, so check the Village calendar."
+      },
+      {
+        q: "What restaurants are near the Mall at Wellington Green?",
+        a: "Cooper's Hawk, DeVine Bistro, Flanigan's, First Watch and Agliolio on State Road 7, and Kaluz, Oli's, Sicilian Oven, Keke's, Carmela Coffee and Lemongrass on Forest Hill Boulevard, plus the mall's own restaurants and food court."
       }
     ],
-    funFact: "The Village describes Thursday Nights in Wellington as a weekly evening at the Wellington Amphitheater with live music, a market and a rotating line-up of gourmet food trucks. The vendors change from week to week, which is why this guide links the schedule instead of naming trucks.",
+    funFact: "Events at the equestrian venues can change how busy the roads and restaurants are on some days, but we found no published data on seasonal restaurant prices or wait times, so this guide does not make that claim. If a particular dinner matters, reserve it for the specific night where the restaurant takes reservations.",
     author: "christine",
     published: true,
-    updated: "2026-10-08"
+    updated: "2026-10-09"
   },
 
   // ===================== ROYAL PALM BEACH =====================
