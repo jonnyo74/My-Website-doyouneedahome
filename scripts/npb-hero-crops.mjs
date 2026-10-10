@@ -28,7 +28,7 @@ export const CROPS = {
   who: { src: 'marina', hero: [1000, 1500, 2024, 1138], panel: [1200, 1000, 1600, 2000], mobile: [900, 1500, 2124, 1416] },
   proscons: { src: 'waterPool', hero: [600, 420, 1448, 815], panel: [750, 100, 1100, 1375], mobile: [500, 350, 1548, 1032] },
   cost: { src: 'clubhouse', hero: [300, 820, 2400, 1350], panel: [600, 650, 1700, 2125], mobile: [200, 650, 2600, 1733] },
-  gems: { src: 'golfBridge', hero: [500, 850, 1800, 1012], panel: [700, 100, 1400, 1750], mobile: [400, 600, 1900, 1267] },
+  gems: { src: 'waterPool', hero: [0, 480, 1400, 787], panel: [0, 200, 960, 1200], mobile: [0, 420, 1500, 1000] },
   vs: { src: 'marina', hero: [0, 1050, 1700, 956], panel: [0, 1000, 1500, 1875], mobile: [0, 1000, 1800, 1200] },
   eat: { src: 'marina', hero: [1000, 1000, 2024, 1138], panel: [1224, 700, 1800, 2250], mobile: [1000, 900, 2024, 1349] },
 }
