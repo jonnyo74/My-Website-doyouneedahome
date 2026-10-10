@@ -33407,11 +33407,11 @@ Addresses, amenities and access rules come from the Village of North Palm Beach,
     cityName: 'North Palm Beach',
     type: "Best Neighborhoods In",
     order: 3,
-    seoTitle: "Best Neighborhoods in North Palm Beach, Florida",
-    metaTitle: "Best Neighborhoods in North Palm Beach, Florida",
-    metaDescription: "From ultra-exclusive Lost Tree Village to Old Port Cove condos and canal-front boating homes — a local guide to the best neighborhoods in North Palm Beach.",
-    primaryKeyword: "best neighborhoods in North Palm Beach Florida",
-    secondaryKeywords: ["where to live in North Palm Beach", "Lost Tree Village", "Old Port Cove", "North Palm Beach waterfront"],
+    seoTitle: "Best North Palm Beach Neighborhoods: Waterfront, Golf & Condos",
+    metaTitle: "Best North Palm Beach Neighborhoods: Waterfront, Golf & Condos",
+    metaDescription: "Compare North Palm Beach neighborhoods, canal-front homes, Intracoastal condos and golf-course areas, with practical tips for buyers.",
+    primaryKeyword: "best neighborhoods in North Palm Beach FL",
+    secondaryKeywords: ["North Palm Beach neighborhoods","Old Port Cove North Palm Beach","North Palm Beach canal front homes","North Palm Beach waterfront condos","Lost Tree Village North Palm Beach","North Palm Beach golf course homes"],
     h1: "Best Neighborhoods in North Palm Beach, Florida",
     heroImage: "/images/north-palm-beach/npb-neighborhoods-hero.webp",
     heroImageAlt: "A waterfront pool deck beside a wide waterway with a distant skyline",
@@ -33419,113 +33419,178 @@ Addresses, amenities and access rules come from the Village of North Palm Beach,
     heroImageCredit: "Photo: DO Homes Group",
     heroImageWidth: 1600,
     heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: 'Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.',
     editorial: {
       eyebrow: "North Palm Beach · Neighborhoods",
-      deck: "The neighborhoods and housing types of North Palm Beach, and what to check before you commit to a street.",
+      deck: "How the Village of North Palm Beach breaks down by community and property type, which named communities are inside the Village and which only share its mailing address, and what to verify on each.",
       heroLayout: 'split',
       heroTone: 'guide',
       panelImage: { src: "/images/north-palm-beach/npb-neighborhoods-panel.webp", width: 960, height: 1200 },
       mobileImage: { src: "/images/north-palm-beach/npb-neighborhoods-mobile.webp", width: 1200, height: 800 },
       primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
-      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+      secondaryCta: {"label":"What \"waterfront\" means here","href":"#what-waterfront-really-means-here"},
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: { eyebrow: 'Next step', text: "Comparing North Palm Beach neighborhoods? Explore available homes, compare waterfront, golf and inland properties, and ask DO Homes Group to help you confirm the municipality, dockage and association details for the ones you like. No sign-up needed.", cta: { label: 'Talk with us', href: '/contact' } },
     },
-    body: `For a village of this size, North Palm Beach contains a remarkable spread — from guard-gated waterfront estates to modest mid-century houses on interior streets, sometimes within a mile of each other.
+    body: `**The best neighborhood in North Palm Beach depends on which kind of home you are comparing, and on whether the address is inside the Village at all.** The Village of North Palm Beach has Intracoastal condominium towers around a marina, single-family homes on canals, older homes on regular interior streets and houses near the Village-owned country club. Several well-known communities carry a North Palm Beach mailing address without being confirmed inside the Village, so this guide separates the ones we could confirm from the ones to check. We do not rank neighborhoods by price. We found no matched, dated sales data that would support a ranking, and a condominium and a canal-front house are different products.
 
-Here's what's actually here, and what to check before committing to any of it.
+## North Palm Beach Neighborhoods at a Glance
 
-## Getting oriented
+| Area or community | Housing and water | Confirm first |
+|---|---|---|
+| Old Port Cove | Gated condo towers and low-rises beside a marina | Association, reserves, slip terms |
+| Canal-front streets | Single-family homes on canals. Dockage varies | Route, bridges, depth, seawall |
+| Country Club area | Homes near the Village-owned club | Which lots adjoin the course |
+| Interior streets | Older single-family homes on regular lots | Roof, systems, insurance, flood zone |
+| Lost Tree Village, Harbour Isles | Gated communities with a North Palm Beach address | Which city (not confirmed here) |
+| Hidden Key, Portage Landing | County areas the Village has studied annexing | County or Village rules |
 
-The village sits between **US-1 (Federal Highway)** and the **Intracoastal Waterway**, with **Northlake Boulevard** forming the southern edge and **PGA Boulevard** running past the northern end. **Prosperity Farms Road** runs north–south through the western side, and **Alternate A1A** carries traffic further west.
+## First, Understand the Village Boundaries
 
-The **North Palm Beach Waterway** — sometimes called the Earman River — cuts through the village and, with the canal system feeding it, is the reason so many interior streets have dockage.
+A neighborhood name and a mailing address do not tell you the municipality. The Village publishes an official [zoning map](https://www.village-npb.org/DocumentCenter/View/49/North-Palm-Beach-Zoning-Map-PDF), Palm Beach County publishes a [municipal boundary layer](https://discover.pbc.gov/pzb/Maps/Boundary-Maps.aspx), and the County's [zoning FAQ](https://discover.pbc.gov/pzb/FAQPages/Zoning.aspx) says a parcel number starting with 00 is unincorporated. Palm Beach Gardens borders the Village to the north, and Northlake Boulevard marks much of the line with Lake Park ([overview](https://en.wikipedia.org/wiki/Northlake_Boulevard)).
 
-The general rule: the closer to the Intracoastal, the higher the price; the deeper into the interior, the more attainable and the older.
+The Village itself shows how fuzzy this is. A November 2023 [council agenda](https://www.village-npb.org/AgendaCenter/ViewFile/Agenda/_11152023-971) describes annexation work on nearby unincorporated areas, including Portage Landing (North and South) and Hidden Key, and a separate ordinance covering Pirate's Cove and adjacent properties on Canal Road and Easy Street. We did not confirm the outcome of any of them. The practical rule is the same everywhere: before you compare two homes, confirm the municipality of each on the parcel record. It sets your zoning, permits, services and recreation rates. For the broader map, see our [local guide](/blog/local-guide-to-north-palm-beach-florida).
 
-## Lost Tree Village — the top of the market
+## Named Residential Communities
 
-A guard-gated waterfront community at the northern end of the village with its own club, deep-water dockage and the highest prices in North Palm Beach by a wide margin.
+### Old Port Cove (inside the Village)
 
-It's private, heavily landscaped, and a genuinely different market from the rest of the village — buyers here are generally comparing it to Jupiter Island or the Palm Beach estate section rather than to the streets a mile south.
+Old Port Cove is a gated Intracoastal community of condominium towers and low-rise buildings on and near Lakeshore Drive, with a marina. Listings describe buildings from about 1971 to 1982 and a staffed gate. It is inside the Village: the Village's Planning Commission has handled certificate-of-appropriateness requests from its tower associations ([2019 agenda](https://www.village-npb.org/AgendaCenter/ViewFile/Agenda/_12032019-451)) and a 2021 amendment for the Old Port Cove South Marina planned development ([minutes](http://village-npb.org/AgendaCenter/ViewFile/Minutes/_07132021-610)).
 
-*Check:* club membership structure and obligations, which are separate from the HOA and material.
+**It is a condominium and marina community, not a street of single-family canal homes.** Owners hold units in separate buildings that have their own condominium associations, budgets and rules, and a commercial marina operates beside them ([Safe Harbor Old Port Cove](https://safeharbor.com/locations/safe-harbor-old-port-cove/) lists slips for vessels of 30 to 200 feet). Owning a unit does not automatically include a boat slip. Whether a slip is deeded, licensed or leased from the marina, and what it costs, depends on the building and the arrangement, so ask for it in writing. Fees, views, amenities and rental rules vary by building, so we publish no figures. See the condominium section below for diligence.
 
-## Old Port Cove and the Intracoastal condo communities
+### Lost Tree Village and Harbour Isles (confirm the municipality)
 
-Gated waterfront communities on the Intracoastal with condo towers, a marina and water views — popular with boaters and with lock-and-leave owners who spend part of the year elsewhere.
+Both are gated communities widely marketed with North Palm Beach addresses. **We could not confirm from public sources whether either lies inside the Village limits, and we will not guess.** Check the parcel on the Property Appraiser site and the County's boundary layer.
 
-The appeal is straightforward: water views, dockage, security, and no exterior maintenance.
+- **Lost Tree Village** is off Jack Nicklaus Drive (A1A). The member-owned [Lost Tree Club](https://www.losttreeclub.com/map) (11520 Lost Tree Way) was founded in 1961. Club membership is a separate application and decision, so do not assume a home purchase includes it, and ask the club for current terms. We make no claim that it is the highest-priced area, because we found no dated comparable sales to support one. Boaters should also know that bridge-opening rules can change: a May 2026 Village board [meeting](https://www.village-npb.org/AgendaCenter/ViewFile/Minutes/_05192026-1340) recorded public comment on Coast Guard restrictions for the PGA Boulevard bridge.
+- **Harbour Isles** is described in listings as a gated Intracoastal community of roughly 100 homes with a 33410 ZIP code. A ZIP code is not a jurisdiction.
 
-*Check this one carefully.* For any older coastal condo building in Florida, get the reserve study, the assessment history, and the structural inspection status. State requirements around inspections and reserve funding have driven fees and special assessments up sharply across older buildings, and a low monthly fee on an under-reserved building is a warning sign rather than a bargain. Also confirm exactly what dockage conveys, whether a slip is deeded or licensed, and what it costs annually.
+### Unincorporated areas near the Village
 
-## The canal-front streets — the heart of the village
+Hidden Key and Portage Landing are examples of areas that sit near the Village and may carry its mailing address but were still being studied for annexation in 2023 (see above). Treat any address in an area like these as unincorporated until the parcel record says otherwise.
 
-This is what most people mean when they talk about buying in North Palm Beach: single-family houses on the canal system with dockage behind them and access out to the Intracoastal and then south to the inlet.
+## Canal-Front Residential Areas
 
-Prices span a wide range depending on water frontage, whether the access is direct or requires passing under a fixed bridge, and the condition of the house.
+These are single-family streets on the Village's canals, such as the North Palm Beach Canal and Earman River system. The description is geographic: there is no single official "canal-front neighborhood." What varies is the water. Some lots reach the Intracoastal with no bridge in the way, and others sit behind fixed bridges that limit boat height. The Coast Guard has published notices on fixed bridges such as [Lighthouse Drive](https://www.navcen.uscg.gov/sites/default/files/pdf/bridges/publicNotices/D07_PN06-26_LighthouseDrive_NPalmBeachCanal_FL.pdf), listing a vertical clearance of about 15 feet, so a tall boat may not pass. Confirm the actual route, water depth at low tide, seawall condition and ownership, and dock permits. The Village's [seawall and dock ordinance](https://village-npb.org/DocumentCenter/View/6015/Ordinance-2019-07-Seawall-and-Dock-Regulations) is the starting point for what a dock or seawall project requires, and our [living guide](/blog/what-its-really-like-living-in-north-palm-beach-florida) explains the terms. We give no travel times.
 
-*Check, in this order:*
-- **Depth at your dock at mean low water**, against the draft of the boat you actually own.
-- **Fixed bridge clearances** on the route between you and the Intracoastal. This is the single most common unpleasant surprise here — a house can be on beautiful water and still not accommodate your vessel.
-- **Seawall condition, age and ownership.** A seawall approaching the end of its life is a five-figure problem minimum.
-- **Flood zone and elevation certificate**, and an actual insurance quote before you're emotionally committed.
+## Country Club and Golf-Course Areas
 
-## The golf-course streets
+The Village-owned [North Palm Beach Country Club](https://www.village-npb.org/453/North-Palm-Beach-Country-Club) at 951 US-1 has a Nicklaus-redesigned public golf course. Homes near the course may adjoin it, but we could not identify official subdivisions from public sources, so treat this as a geographic description. Check which hole a lot backs onto, where tees and netting sit, and whether an association adds rules. Owning a home does not confer club membership: golf membership is currently sold out with a waitlist, and tennis and pool memberships have resident and nonresident categories ([Village membership page](https://www.village-npb.org/493/Memberships)). The course stays open to the public, so membership is not required to play.
 
-Homes along the village club's course, with fairway views and easy access to the golf, tennis and pool.
+## Established Interior Residential Streets
 
-*Check:* which holes you back onto and where the tee boxes sit, netting or the absence of it, and whether the association imposes anything on top of the optional village club membership.
+The Village was developed from the mid-1950s, so many interior streets hold older single-family homes on regular lots. This is also a geographic description, not an official neighborhood. The Village's R-1 district requires a minimum lot of 7,500 square feet and 75 feet of width, with two stories and 30 feet maximum, per its [R-1 handout](https://village-npb.org/DocumentCenter/View/2399/Single-Family-Homeowner-Handout---R-1), though older lots may differ and 2022 rules added limits on second-story additions. Frontage on Lighthouse Drive or Prosperity Farms Road carries a landscaping requirement. If you plan to renovate or add on, ask the Village's [Community Development Department](https://www.village-npb.org/151/Community-Development-Department) what the code allows on that lot.
 
-## The interior village streets
+**Older does not mean deficient.** Ask about the roof's age and material, impact protection, electrical panel and plumbing materials, the HVAC age, permit history for additions, flood zone and insurance availability. A seller's disclosure and a licensed inspection answer these better than any rule of thumb, and we publish no repair estimates.
 
-The largest share of the housing and the most attainable way into the village — mid-century single-family homes on regular lots, many renovated, many not.
+## Intracoastal Condominium Communities
 
-This is where value lives here. It's also where the diligence matters most.
+Condominiums are the other main housing type, and the due diligence differs from a house. State rules (Chapter 718 and [section 553.899, Florida Statutes](https://www.flsenate.gov/Laws/Statutes/2025/553.899)) require milestone structural inspections and structural integrity reserve studies for many buildings of three or more stories, but the schedule depends on the building: a milestone inspection is generally due by the end of the year a building turns 30, and a local enforcement agency can require it at 25 years for coastal conditions. Statewide rules also change, so use the [DBPR inspections page](https://condos.myfloridalicense.com/inspections/) and the building's own records. Do not assume two buildings share a schedule.
 
-*Check:* roof age above almost everything else, since it drives a near-term capital cost and the insurability of the house simultaneously. Then permit history for past work, electrical panel type and age, plumbing material, and whether any addition was permitted. Impact windows or shutters materially affect both insurance and comfort.
+Before you buy any condominium, request: the latest milestone inspection and structural integrity reserve study if the building requires them; the budget, reserve balances and assessment history; any pending or planned special assessments; the master insurance policy and deductible; minutes about litigation; and the rental rules and any marina or slip terms. Our [condominium due diligence checklist](/florida-condo-buyers-due-diligence-checklist) walks through each. Search [waterfront condominiums](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000) after you know which building fits.
 
-## The eastern sliver
+## What Waterfront Really Means Here
 
-A portion of the village sits east of the Intracoastal, and it's a small, quiet, expensive pocket with a different character from the mainland streets.
+The word covers different products. They are not interchangeable, and they do not price the same.
 
-## A note on what "waterfront" means here
+| What a listing may mean | What it really is | What to confirm |
+|---|---|---|
+| Intracoastal frontage | The lot or building fronts the main waterway | Depth, dock rights, permits, flood zone |
+| Canal frontage | The lot borders a canal | Seawall condition and ownership; route out |
+| Protected marina access | A marina basin serves the community | Who runs the marina and the rules |
+| Deeded or licensed slip | A specific slip comes with the unit or is leased | The document that conveys it, and the cost |
+| Water view without dockage | You see water but cannot dock | Nothing about boating access |
+| Fixed-bridge route | A bridge limits boat height | Clearance against your boat |
+| No-fixed-bridge route | An open route to the Intracoastal | Depth and bridge schedules |
+| Boat-lift eligibility | A lift may or may not be permitted | Dock code and permits |
 
-The word covers at least four different products in this village, and they price very differently.
+No listing can promise ocean access. Verify the actual route, bridge clearances, tidal depth against your boat's draft, dock permits, who owns and maintains the seawall, insurance and the [flood zone](https://www.village-npb.org/868/National-Flood-Insurance-Program).
 
-**Direct Intracoastal frontage** is the top tier — open water views, deep access, no fixed bridges in the way, and the highest prices outside Lost Tree.
+## How to Compare Neighborhoods Before Buying
 
-**Direct canal access with no fixed bridge** is the sweet spot for most boaters: dockage and an unobstructed run out, generally at a meaningful discount to Intracoastal frontage.
+Answer these in order, and the shortlist shrinks quickly:
 
-**Canal access behind a fixed bridge** looks identical in photographs and is worth substantially less to anyone with a boat of any height. It can be excellent value for a buyer with a small center console, or none at all.
+1. **Single-family home, condominium or townhome?**
+2. **Is a dock required, or is a water view enough?**
+3. **Does your boat need a route with no fixed bridge?**
+4. **Are you comfortable with condominium assessments or club obligations?**
+5. **Are you willing to renovate an older property?**
+6. **Which municipality do you want?** Confirm it on the parcel.
+7. **What are the realistic insurance and maintenance costs?** Get written quotes.
+8. **Which daily amenities matter most?** Parks, the club, errands and your work route.
 
-**Water view without dockage** — a lot backing onto water you can't put a boat on. Pleasant, and not what most buyers here think they're paying for.
+Compare homes of the same type. A median that mixes condominiums and waterfront houses says nothing about either. For costs, see the [cost of living guide](/blog/cost-of-living-in-north-palm-beach-florida).
 
-Establish which one a listing actually is before you get attached to it. The word gets used for all four.
+## Common Buyer Mistakes to Avoid
 
-*Check:* wind exposure and insurance above all, plus evacuation zone, which will be among the first called.
+- Treating a mailing address as proof of the municipality.
+- Assuming a condominium includes a boat slip.
+- Assuming a canal means a clear route to the ocean.
+- Comparing a condominium's price to a waterfront house as if they were the same product.
+- Skipping the building's reserve and inspection records.
+- Counting on a club membership that comes with the home.
+- Waiting until after the offer to get an insurance quote.
 
-## Choosing
+> **Looking at North Palm Beach neighborhoods?** Explore [available homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000), compare [waterfront properties](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000) or [condominiums](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000), see the [community page](/communities/north-palm-beach) or [ask DO Homes Group](/contact). Our searches follow the listing's city field, and a North Palm Beach listing is not automatically inside the Village, so we help you confirm the municipality. No sign-up needed.
 
-Work through these in order and the map narrows quickly:
+## How We Checked This Guide
 
-1. **Boat or no boat?** With a boat, the canal streets are the point of this village — but the bridge clearance question decides which ones.
-2. **House or lock-and-leave?** The Intracoastal condo communities exist precisely for the second answer.
-3. **Renovating or not?** The interior streets reward buyers with a renovation appetite and punish those without one.
-4. **What can you actually carry?** Insurance on older stock and condo assessments on older buildings are the two costs that most often break a budget here — our [cost breakdown](/blog/cost-of-living-in-north-palm-beach-florida) works through both.
+Facts come from the Village of North Palm Beach, Palm Beach County, the Florida Statutes and DBPR, the Coast Guard and the clubs' own pages, reviewed October 10, 2026. We could not access the Village's boundary map or County parcel data from our research environment, which is why Lost Tree Village and Harbour Isles are flagged for you to confirm. We publish no association fees or price rankings. Spot an error? [Tell us](/contact).
 
-Whatever you land on, verify flood zone, elevation, permit history, dock and seawall responsibility, and association obligations for the specific parcel. In a village with this much variation in age and condition, the street tells you very little about the house.`,
+## Continue exploring North Palm Beach
+
+- [What It's Really Like Living in North Palm Beach](/blog/what-its-really-like-living-in-north-palm-beach-florida)
+- [A Local's Guide to North Palm Beach](/blog/local-guide-to-north-palm-beach-florida)
+- [Cost of Living in North Palm Beach](/blog/cost-of-living-in-north-palm-beach-florida)
+- [Pros and Cons of Living in North Palm Beach](/blog/pros-and-cons-of-living-in-north-palm-beach-florida)
+- [North Palm Beach vs Nearby Cities](/blog/north-palm-beach-vs-nearby-cities)`,
     faqs: [
-      { q: "What is the best neighborhood in North Palm Beach?", a: "It depends what you are buying for. The canal-front streets are the heart of the village and the reason most boaters come. Old Port Cove and the Intracoastal condo communities suit lock-and-leave owners. Lost Tree Village is the top of the market. The interior mid-century streets are where the value is if you have a renovation appetite." },
-      { q: "What should I check before buying a canal-front home here?", a: "Depth at your dock at mean low water against your actual boat draft, and fixed bridge clearances between you and the Intracoastal — that second one is the most common unpleasant surprise, since a house can be on beautiful water and still not fit your vessel. Then seawall condition, age and ownership, flood zone, and a real insurance quote." },
-      { q: "Are the condos in North Palm Beach a good buy?", a: "They suit boaters and lock-and-leave owners well, offering water views, dockage and no exterior maintenance. The essential diligence is the reserve study, assessment history and structural inspection status — Florida requirements have pushed fees and special assessments up sharply on older coastal buildings. Also confirm whether a slip is deeded or licensed and what it costs annually." },
-      { q: "Is Lost Tree Village part of North Palm Beach?", a: "Yes — it is a guard-gated waterfront community at the northern end of the village with its own club and deep-water dockage, and it carries the highest prices here by a wide margin. Buyers generally compare it to Jupiter Island or the Palm Beach estate section rather than to the streets a mile south." },
-      { q: "Where is the most affordable place to buy in North Palm Beach?", a: "The interior village streets, which hold the largest share of the housing — mid-century single-family homes on regular lots. That is where the value is, and also where diligence matters most. Roof age is the thing to check first, since it drives both a near-term capital cost and whether the house can be insured sensibly." },
-      { q: "Does North Palm Beach have property east of the Intracoastal?", a: "A portion of the village does sit east of the waterway — a small, quiet, expensive pocket with a different character from the mainland streets. Wind exposure and insurance are the dominant considerations there, along with evacuation zone, which will be among the first called." },
+      {
+            "q": "What are the best neighborhoods in North Palm Beach?",
+            "a": "It depends on the property type. Old Port Cove suits buyers who want an Intracoastal condominium beside a marina. Canal-front streets suit buyers who want a single-family home with dockage, though routes vary. Interior streets hold older single-family homes, and homes near the Village-owned country club suit those who want golf nearby. We do not rank them by price."
+      },
+      {
+            "q": "Which North Palm Beach areas have waterfront homes?",
+            "a": "Old Port Cove (condominiums on the Intracoastal), the canal-front streets (single-family homes) and some other Intracoastal properties. Waterfront can mean a view, canal frontage, a dock or navigable access, which are different, so confirm which one a listing offers."
+      },
+      {
+            "q": "Where can you find canal-front homes in North Palm Beach?",
+            "a": "On the Village's canal system, including the North Palm Beach Canal and the Earman River area. There is no single official canal-front neighborhood, so check each address for its route to the Intracoastal, fixed bridges, depth and seawall."
+      },
+      {
+            "q": "What is Old Port Cove?",
+            "a": "A gated Intracoastal community of condominium towers and low-rises with a marina, inside the Village of North Palm Beach. Each building has its own association, fees and rules, and owning a unit does not automatically include a boat slip."
+      },
+      {
+            "q": "Is Lost Tree Village within the Village of North Palm Beach?",
+            "a": "It is marketed with a North Palm Beach address, but we could not confirm from public sources whether it lies inside the Village limits. Check the parcel on the Property Appraiser site and the County's municipal boundary layer. Its member-owned club is a separate membership decision."
+      },
+      {
+            "q": "Are there golf-course homes in North Palm Beach?",
+            "a": "Some homes are near or adjoin the Village-owned North Palm Beach Country Club course. Ownership does not include membership, and the golf course is open to the public. Check the specific lot's position and any association rules."
+      },
+      {
+            "q": "What should buyers know about older North Palm Beach condos?",
+            "a": "Ask for the building's milestone inspection and structural integrity reserve study if required, its budget, reserves, assessment history and master insurance. State rules and schedules depend on the building, so verify each one. Our condo checklist walks through the documents."
+      },
+      {
+            "q": "Are all North Palm Beach addresses inside Village limits?",
+            "a": "No. Some communities and unincorporated areas carry a North Palm Beach mailing address without being in the Village. Confirm the municipality on the parcel record or the County boundary layer."
+      },
+      {
+            "q": "How do fixed bridges affect waterfront properties?",
+            "a": "A fixed bridge limits the height of a boat that can pass, so two homes on the same canal system can offer different boating access. Check the clearance on your route against your boat, and do not assume access to the ocean."
+      }
     ],
-    internalLinks: ["cost-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida"],
-    funFact: "Old Port Cove in North Palm Beach is a marina community where the seawall footage is what drives value — boats docked behind the house, Intracoastal access, and a protected marina within walking distance. It's one of the most convenient boating communities in Palm Beach County at prices that still trail Jupiter and Palm Beach Gardens.",
+    internalLinks: ["cost-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities"],
+    funFact: "In North Palm Beach, two properties with similar water views can offer completely different boating access, ownership costs and association obligations. Verify the actual dockage, the bridge route, the building's requirements and the municipal location before you compare prices.",
     author: 'john',
     published: true,
-    updated: '2026-06-03',
+    updated: '2026-10-10',
   },
   {
     slug: 'best-things-to-do-in-north-palm-beach-florida',
@@ -33659,7 +33724,7 @@ Those three cover what this village is actually for, and none of them requires y
       { q: "How far is North Palm Beach from the beach?", a: "Fifteen minutes or less to several good options, since the village sits on the mainland rather than the barrier island. That is why the absence of oceanfront bothers residents considerably less than it bothers people reading listings." },
       { q: "What should a new resident do first in North Palm Beach?", a: "Join the village club within the first month — it compresses a year of meeting people into a few weeks, which matters in a village with no walkable downtown. Then play the course, take a boat out through the inlet, and spend a morning at the state park." },
     ],
-    internalLinks: ["hidden-gems-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
+    internalLinks: ["hidden-gems-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
     funFact: "The North Palm Beach Country Club golf course was redesigned by Jack Nicklaus in 1994 and remains one of the few Nicklaus-designed courses accessible to the public without a private club membership. Green fees run a fraction of comparable private-club access anywhere in the county.",
     author: 'christine',
     published: true,
@@ -33902,7 +33967,7 @@ Get those two right and North Palm Beach is an easy place to be happy. Our [prof
       { q: "Is an older house in North Palm Beach a good idea?", a: "It can be one of the better value propositions on this coast if you have the appetite — the lots and street layouts are better than what is being built now. The essential checks are roof age, which drives both capital cost and insurability, plus permit history, electrical and plumbing. Get insurance quoted before you buy." },
       { q: "Would I be better off in Jupiter or Palm Beach Gardens?", a: "If you want a walkable center, new construction and a restaurant scene, then yes — but you will pay accordingly. A version of North Palm Beach with those things would cost what Jupiter costs and would be Jupiter. The village trades those for value, water access and an unusually strong civic core." },
     ],
-    internalLinks: ["who-should-move-to-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
+    internalLinks: ["who-should-move-to-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
     funFact: "North Palm Beach is on the Intracoastal Waterway, not the ocean — the nearest beach is a short drive to Singer Island or Juno Beach. Boaters don't feel this trade-off at all since their access is on the water daily; buyers who picture an oceanfront lifestyle need to plan the drive.",
     author: 'christine',
     published: true,
@@ -34162,7 +34227,7 @@ For the practical side of settling in, our [guide to operating here](/blog/local
       { q: "Is the boardwalk at the state park worth doing?", a: "Arguably more than the beach it leads to. It is a long crossing over shallow water and mangrove with wading birds, rays and fish beneath you, and most visitors treat it as a corridor rather than a destination. Go early, go at low tide, and take your time." },
       { q: "How do I discover the good parts of North Palm Beach?", a: "By wandering, asking neighbors, and getting on the water. The village does not advertise itself even to residents — there is no visitor center and its own attention goes to the club and the park. Go early, go on weekdays, and be willing to stop somewhere that looks like nothing much." },
     ],
-    internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
+    internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
     funFact: "The North Palm Beach marina at Old Port Cove has a working boat yard and live-aboard community that gives the area an authentic maritime character you don't find in newer marina communities. Early morning at the docks smells like salt, diesel, and bait — exactly what boaters who are tired of resort marina aesthetics are looking for.",
     author: 'christine',
     published: true,
@@ -34315,7 +34380,7 @@ One practical note: **check whether an address is inside the village or in uninc
       { q: "Is Lake Park a cheaper alternative to North Palm Beach?", a: "Yes — it sits immediately south, is smaller and less established, and is considerably cheaper, with its own marina and a waterfront slowly attracting attention. It is earlier in its trajectory. Choose Lake Park if the budget is tight and you are comfortable somewhere still finding itself; North Palm Beach for the settled version." },
       { q: "What is the key question when comparing these towns?", a: "Whether you want dockage at the house or beach at your door. Along this stretch the two rarely come together below the very top of the market, and North Palm Beach sits firmly on the dockage side. Knowing which you actually want before you tour saves months." },
     ],
-    internalLinks: ["who-should-move-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida"],
+    internalLinks: ["who-should-move-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
     funFact: "North Palm Beach's village charter limits future annexation and major development — it is structurally designed to stay small. That governance structure is a genuine differentiator from Palm Beach Gardens and unincorporated areas nearby, where zoning changes can transform neighborhoods much more quickly.",
     author: 'john',
     published: true,
@@ -34441,7 +34506,7 @@ If you arrive expecting to find your regular restaurant, you'll be underwhelmed.
       { q: "How do I find the good local restaurants here?", a: "Ignore the frontage and ask neighbors. The village's better independents are in unremarkable plazas along the corridor and are not the ones with the best signage. They survive because the same people come every week, which is also why service tends to be familiar rather than polished." },
       { q: "Do I need reservations in North Palm Beach?", a: "Rarely within the village, even in season. They are worth making for anything in Palm Beach Gardens or Jupiter from roughly November through April. Parking locally is easy year-round, which after almost anywhere else in the county is a genuine relief." },
     ],
-    internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
+    internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
     funFact: "The North Palm Beach Country Club restaurant is open to the public and has views of the Intracoastal from the dining room — it's genuinely one of the better-situated casual dining spots in the village. Locals who don't golf go specifically for the water views and the fact that it's never as crowded as the comparable waterfront spots in Jupiter or Palm Beach Gardens.",
     author: 'christine',
     published: true,
