@@ -33682,7 +33682,7 @@ The [Community Center](https://www.village-npb.org/535/Community-Center) at 1200
 
 ## Play the North Palm Beach Country Club Golf Course
 
-The [North Palm Beach Country Club](https://northpalmbeachcc.com/) at 951 US-1 is owned by the Village and open to the public. The course was built in 1926 as the Palm Beach Winter Club to a design by Seth Raynor, and the Village bought the club in 1962, per published course histories. Nicklaus Design redid it in 2006, and a later renovation was also led by Nicklaus Design ([Nicklaus Design](https://nicklausdesign.com/course/npbcc/)). We could not confirm the 1994 redesign date this guide used to claim, so it has been removed.
+The [North Palm Beach Country Club](https://northpalmbeachcc.com/) at 951 US-1 is owned by the Village and open to the public. The course was built in 1926 as the Palm Beach Winter Club to a design by Seth Raynor, and the Village bought the club in 1962, per published course histories. Nicklaus Design redid it in 2006, and a later renovation was also led by Nicklaus Design ([Nicklaus Design](https://nicklausdesign.com/course/npbcc/)).
 
 - **Golf:** public play is offered, and golf memberships are currently sold out with a waitlist, per the Village. Residents get resident rates with a resident card. See the [club](https://northpalmbeachcc.com/) for tee times and current rates. We make no price comparison with other courses.
 - **Tennis:** a ten-court lighted Har-Tru [Tennis Center](https://www.village-npb.org/265/Tennis-Center) with lessons and clinics. Memberships have separate resident and nonresident categories.
