@@ -33270,7 +33270,7 @@ The Village's [recreation facilities page](https://www.village-npb.org/274/Recre
 
 ### Osborne Park
 
-[Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5) at 705 Prosperity Farms Road is the active-recreation park: lighted baseball fields, outdoor basketball and handball courts, racquetball courts, batting cages and three lighted [pickleball courts](https://www.village-npb.org/263/Pickleball) installed in 2024, plus a volunteer-run [community garden](http://www.village-npb.org/850/Community-Garden). The Village's [newsletter page](https://www.village-npb.org/389/Village-Newsletter) is where park improvements and access changes are announced.
+[Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5) at 705 Prosperity Farms Road (some Village pages list 715) is the active-recreation park: lighted baseball fields, outdoor basketball and handball courts, racquetball courts, batting cages and three lighted [pickleball courts](https://www.village-npb.org/263/Pickleball) installed in 2024, plus a volunteer-run [community garden](http://www.village-npb.org/850/Community-Garden). The Village's [newsletter page](https://www.village-npb.org/389/Village-Newsletter) is where park improvements and access changes are announced.
 
 ## The North Palm Beach Country Club
 
@@ -33368,7 +33368,7 @@ Addresses, amenities and access rules come from the Village of North Palm Beach,
       },
       {
             "q": "What are the best parks in North Palm Beach?",
-            "a": "Anchorage Park (603 Anchorage Drive) is the largest, with piers, a kayak launch, courts and a trail. Lakeside Park (805 Lakeside Drive) has beach access and a playground, and Osborne Park (705 Prosperity Farms Road) has lighted fields, pickleball and a community garden."
+            "a": "Anchorage Park (603 Anchorage Drive) is the largest, with piers, a kayak launch, courts and a trail. Lakeside Park (805 Lakeside Drive) has beach access and a playground, and Osborne Park (705 Prosperity Farms Road (some Village pages list 715)) has lighted fields, pickleball and a community garden."
       },
       {
             "q": "Can nonresidents visit Anchorage Park?",
@@ -33676,7 +33676,7 @@ The Village's [Parks & Recreation](https://www.village-npb.org/1081/Parks-Recrea
 
 ## Play Sports at Osborne Park and the Community Center
 
-[Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5) at 705 Prosperity Farms Road is the active-recreation park. The Village lists lighted baseball fields, outdoor basketball and handball courts, racquetball courts, batting cages and three lighted [pickleball courts](https://www.village-npb.org/263/Pickleball) installed in 2024, plus a volunteer-run [community garden](http://www.village-npb.org/850/Community-Garden). Some fields and courts are used for programs and reservations, so confirm availability before you bring a group.
+[Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5) at 705 Prosperity Farms Road (some Village pages list 715) is the active-recreation park. The Village lists lighted baseball fields, outdoor basketball and handball courts, racquetball courts, batting cages and three lighted [pickleball courts](https://www.village-npb.org/263/Pickleball) installed in 2024, plus a volunteer-run [community garden](http://www.village-npb.org/850/Community-Garden). Some fields and courts are used for programs and reservations, so confirm availability before you bring a group.
 
 The [Community Center](https://www.village-npb.org/535/Community-Center) at 1200 Prosperity Farms Road is the indoor option. It has a gym, open gym sessions for basketball and pickleball ([schedule and fees](https://www.village-npb.org/849/Open-Gym), which differ for residents and nonresidents, with no pre-registration listed), youth basketball, camps during school breaks and room rentals. Recent [classes and programs](https://www.village-npb.org/223/Classes-Programs) have included gymnastics, futsal, youth volleyball and youth basketball, and the Village's [athletics page](https://www.village-npb.org/253/Athletics) lists leagues. Listings change by season, so treat any class named here as an example, not a promise.
 
@@ -33794,7 +33794,7 @@ For more of the Village, see the [hidden gems guide](/blog/hidden-gems-in-north-
       },
       {
             "q": "What parks are in North Palm Beach?",
-            "a": "The Village lists Anchorage Park (603 Anchorage Drive), Lakeside Park, Osborne Park (705 Prosperity Farms Road) and Veterans Memorial Park, along with the Community Center and the Country Club. Confirm each address on the Village's facility pages."
+            "a": "The Village lists Anchorage Park (603 Anchorage Drive), Lakeside Park, Osborne Park (705 Prosperity Farms Road (some Village pages list 715)) and Veterans Memorial Park, along with the Community Center and the Country Club. Confirm each address on the Village's facility pages."
       },
       {
             "q": "Are there beaches in the Village of North Palm Beach?",
@@ -34912,7 +34912,7 @@ See also: [what living here is like](/blog/what-its-really-like-living-in-north-
             "a": "They determine your property-tax levy, permitting and zoning rules, code enforcement, services and recreation eligibility. A mailing address does not always match the municipality, so confirm it on the Property Appraiser record or the municipality's map."
       }
     ],
-    internalLinks: ["who-should-move-to-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "jupiter-vs-nearby-cities", "palm-beach-gardens-vs-nearby-cities", "singer-island-vs-nearby-cities", "juno-beach-vs-nearby-cities", "tequesta-vs-nearby-cities"],
+    internalLinks: ["who-should-move-to-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "jupiter-vs-nearby-cities", "palm-beach-gardens-vs-nearby-cities", "singer-island-vs-nearby-cities", "juno-beach-vs-nearby-cities", "tequesta-vs-nearby-cities", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida"],
     funFact: "Comparing North Palm Beach with nearby communities works best at the property level. Weigh waterfront configuration, bridge clearance, housing age, association obligations and municipal jurisdiction, not just the name on the mailing address.",
     author: 'john',
     published: true,
@@ -34924,11 +34924,11 @@ See also: [what living here is like](/blog/what-its-really-like-living-in-north-
     cityName: 'North Palm Beach',
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
-    seoTitle: "Best Places to Eat, Drink & Hang Out in North Palm Beach, Florida",
-    metaTitle: "Best Places to Eat & Drink in North Palm Beach, FL",
-    metaDescription: "Where to eat, drink, and hang out in North Palm Beach, Florida — waterfront dining, the village country club, and the bigger scenes minutes away.",
+    seoTitle: "Best Restaurants & Bars in North Palm Beach, FL | Local Guide",
+    metaTitle: "Best Restaurants & Bars in North Palm Beach, FL | Local Guide",
+    metaDescription: "Discover North Palm Beach restaurants, waterfront dining, seafood cafés, local pubs, breweries and breakfast spots, with practical tips for visiting.",
     primaryKeyword: "best restaurants in North Palm Beach Florida",
-    secondaryKeywords: ["where to eat in North Palm Beach", "North Palm Beach waterfront dining", "North Palm Beach Country Club restaurant"],
+    secondaryKeywords: ["where to eat in North Palm Beach","North Palm Beach waterfront dining","North Palm Beach Country Club restaurant","North Palm Beach bars","North Palm Beach brewery"],
     h1: "Best Places to Eat, Drink & Hang Out in North Palm Beach, Florida",
     heroImage: "/images/north-palm-beach/npb-eat-hero.webp",
     heroImageAlt: "Sailboats at anchor on a wide waterway with a distant tree line and coastline",
@@ -34936,113 +34936,181 @@ See also: [what living here is like](/blog/what-its-really-like-living-in-north-
     heroImageCredit: "Photo: DO Homes Group",
     heroImageWidth: 1600,
     heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: 'Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.',
     editorial: {
-      eyebrow: "North Palm Beach · Eat, Drink & Hang Out",
-      deck: "Where to eat, drink and spend time in and around North Palm Beach.",
+      eyebrow: "North Palm Beach · Eat & Drink",
+      deck: "Named restaurants, pubs, a brewery, breakfast spots and seafood, with addresses, what to expect and the access rules that matter.",
       heroLayout: 'split',
       heroTone: 'guide',
       panelImage: { src: "/images/north-palm-beach/npb-eat-panel.webp", width: 960, height: 1200 },
       mobileImage: { src: "/images/north-palm-beach/npb-eat-mobile.webp", width: 1200, height: 800 },
       primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
-      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+      secondaryCta: {"label":"Restaurants at a glance","href":"#north-palm-beach-restaurants-at-a-glance"},
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: { eyebrow: 'Next step', text: "Love the North Palm Beach lifestyle? Explore homes near the Village's waterfront, parks, restaurants and recreation facilities, and let DO Homes Group help you compare neighborhoods and available properties. No sign-up needed.", cta: { label: 'Talk with us', href: '/contact' } },
     },
-    body: `Being honest up front: North Palm Beach is not a dining destination and doesn't try to be. A village of thirteen thousand cannot support a restaurant scene, and the ones that survive here do it on regulars rather than on discovery.
+    body: `**You can eat and drink well in North Palm Beach: there are waterfront restaurants, a brewery, long-running pubs, a seafood market with a café, breakfast spots and public dining at the Village-owned Country Club.** What the area does not have is a large, walkable restaurant-and-nightlife district, so most evenings are a drive to a specific place, not a stroll between several. This guide names real venues with addresses and what to expect, labels the ones with access rules, and points to bigger dining districts nearby. Addresses and descriptions come from the venues' own or published listings as of October 10, 2026. **Hours, menus, happy hours and fees change, so check each venue before you go.**
 
-What the village does have is a handful of genuinely good local institutions, a waterfront club restaurant open to the public, and a location that puts two much larger food scenes within a short drive. Used properly, that's a better everyday arrangement than it sounds.
+**A note on municipality.** Every business below has a North Palm Beach (33408) address, but a mailing address is not a municipal boundary, and US-1 and Northlake Boulevard run through more than one municipality. We could not check the County's parcel layer for each, so we say "North Palm Beach address" and mark only the Village-owned Country Club as inside the Village. If the municipality matters to you, check the [zoning map](https://www.village-npb.org/DocumentCenter/View/49/North-Palm-Beach-Zoning-Map-PDF) or the [Property Appraiser](https://pbcpao.gov).
 
-## The club restaurant
+## North Palm Beach Restaurants at a Glance
 
-The village club's waterfront dining room is the closest thing North Palm Beach has to a town restaurant, and — like the rest of the club — it isn't restricted to members.
+| Place | Best for | Note |
+|---|---|---|
+| Frigate's | Waterfront, seafood | Outdoor seating |
+| Belle's (Old Port Cove) | Marina dining | Check access first |
+| The Clubhouse | Seafood, bistro | Public, Village club |
+| The Grill Room | Casual, course views | Public, Village club |
+| Brass Ring Pub | Burgers, sports | Long-running pub |
+| Stormhouse Brewing | Craft beer | Check events |
+| Cod & Capers | Seafood, take-home | Market and café |
+| Sara's Kitchen | Breakfast | US-1 |
+| Hobo's Gourmet Kitchen | Breakfast | Check hours |
+| Zeera Indian | Indian, halal | Licensed |
+| La Bamba | Mexican, Spanish | US-1 |
+| Bucks, Venezia | Pizza | Northlake Blvd |
 
-The appeal is the setting and the reliability rather than ambition: a relaxed room on the water, a menu that doesn't overreach, and a good chance of running into people you know. For a casual lunch after golf or an unhurried dinner without driving anywhere, it's the default.
+## Best Waterfront Restaurants
 
-It's also the easiest place in the village to meet people if you're new, precisely because everyone passes through eventually.
+### Frigate's Waterfront Bar & Grill
+**Where:** 400 US-1 (North Palm Beach address). **What it is:** a casual waterfront spot with outdoor seating and a tiki-style bar. The Palm Beaches tourism site describes a menu with sushi, oysters and peel-and-eat shrimp, and the restaurant's ordering page calls it a Florida-Caribbean menu ([order page](https://www.toasttab.com/local/order/frigates-npb/r-4d1ef02a-eb92-4b4d-b007-d2538fa7d16f), [tourism guide](https://www.thepalmbeaches.com/blog/north-area-food-gems-palm-beaches)). **Check first:** hours differ between listings, a third-party blog lists a weekday happy hour, and we could not confirm a boat-dock policy, so call before you arrive by boat and do not assume dock space. Look at the posted menu for any service charge before you order.
 
-## The breakfast question
+### Belle's at Safe Harbor Old Port Cove: check access before you go
+**Where:** 116 Lakeshore Drive, at the Safe Harbor Old Port Cove marina, which is inside a residential community ([marina page](https://safeharbor.com/locations/safe-harbor-old-port-cove/) lists the restaurant). A third-party listing gives Thursday to Saturday evening hours. **Access:** we could not verify whether walk-in guests may enter, and a recent public review describes a visitor being turned away at the gate. Treat that as a reason to confirm, not as a permanent rule. Call the marina or restaurant for the guest process, and do not drive through a private gate or onto restricted docks. If a guest-authorization step is required, follow it. A separate Belle's To-Go food truck has been listed at the North Palm Beach Marina on Marina Drive, so do not confuse the two.
 
-A small thing that matters more than it should when you're new somewhere.
+## Dining at North Palm Beach Country Club
 
-The village and the corridor immediately around it have a handful of long-running breakfast places — unglamorous, busy early, and staffed by people who will know your order within a month. In a town without a downtown, these end up doing a fair amount of the social work.
+The Village owns the [Country Club](https://www.village-npb.org/1112/About-Us) (951 US-1), and it says the club is open to the public seven days a week. Food and beverage are run by Lessing's Hospitality Group.
 
-Find yours in the first few weeks. It's the cheapest and fastest way to start feeling like you live here rather than like you moved here.
+- **[The Clubhouse](https://northpalmbeachcc.com/the-clubhouse/):** the full-service restaurant, described as a coastal-style room with a menu of local catches and bistro dishes. It is open to the public.
+- **[The Grill Room](https://northpalmbeachcc.com/the-grill-room/):** the casual option. The Village says it has sweeping **golf-course views and sunsets**.
 
-## Cooking what you catch
+**Correcting an old claim.** This guide previously called the club restaurant waterfront dining. We found no evidence of Intracoastal views, and the Village ties the views to the golf course, so we describe them that way. The club's [dining page](https://northpalmbeachcc.com/dining/) has current menus and hours, which differ between the Village's pages and the club's. Not every club facility has the same access rules, since tennis and pool use membership categories, and the club is one place to eat among several, not the only gathering place.
 
-An underrated part of eating here, and one that suits the village's character better than any restaurant does.
+## Best Local Pubs, Breweries and Hangouts
 
-With dockage behind a good many houses and an inlet within reach, a meaningful share of the fish eaten in this village arrives by boat rather than by van. Residents who fish tend to develop a rotation — what's running, who has a surplus, who owes whom a fillet.
+### Brass Ring Pub
+**Where:** 200 US-1. A long-running dive-style pub (opened in 1986, per its listing) known for burgers and wings, with sports on TV, pool and music. The Palm Beaches tourism site calls it a dive bar known for handwritten messages on its booths, and the Palm Beach Post has named its burgers among the county's best, which we attribute rather than rank ([WPTV feature](https://www.wptv.com/lifestyle/hidden-gems/brass-ring-pub)). **Check first:** happy-hour times differ between reports, and we could not confirm current hours.
 
-For anyone who doesn't fish, the practical route is the seafood counters along the corridor and in the surrounding towns, which are generally good and considerably better value than restaurant pricing on the same species.
+### Stormhouse Brewing
+**Where:** 1201 US-1, Unit 15, in the Crystal Cove Commons plaza, (561) 323-4172. A local brewery taproom with gastropub-style food, per a tourism visitors' guide, and a listed participant in The Palm Beaches Restaurant Week ([listing](https://www.restaurantji.com/fl/north-palm-beach/stormhouse-brewing-/comments/)). Reviewers mention trivia and other events, but we could not confirm any recurring schedule, so check its calendar or call before you plan around one.
 
-It's also the honest answer to the thin dining scene: a lot of the best eating here happens at home, on a back porch, looking at the water the fish came out of.
+## Best Seafood and Casual Lunch
 
-## The US-1 and Northlake corridor
+### Cod & Capers Seafood Marketplace and Café
+**Where:** 1201 US-1, Suite 47, in the same plaza. A fish market and sit-down café, founded in 1984 according to Food Network's listing ([online menu](https://www.toasttab.com/local/order/cod-capers-cafe/r-bc561ed0-cbc4-43d7-88eb-eab78c6df8f8), [listing](https://www.foodnetwork.com/restaurants/fl/north-palm-beach/cod-and-capers-seafood-restaurant)). You can eat on site or buy fresh seafood to cook at home, and one reviewer suggests going early because the market can sell out. We cannot say where any fish was caught: ask the counter about origin. The menu lists items such as crab cake, conch fritters and grouper sandwiches, and a listing mentions a Wednesday lobster promotion, so confirm both.
 
-The village's everyday eating happens along these two roads, and the pattern is worth understanding: mostly independent, mostly long-established, mostly unremarkable from the outside.
+## Best Breakfast and Coffee
 
-There's seafood, casual American, pizza, breakfast places, and a scattering of international cooking — the kind of restaurants that survive a decade because the same people come every week. Service tends to be familiar rather than polished, and prices are noticeably gentler than a few miles north or east.
+### Sara's Kitchen
+**Where:** 420 US-1. The Palm Beaches tourism site calls it a tried-and-true North Palm Beach mainstay for breakfast ([guide](https://www.thepalmbeaches.com/blog/north-area-food-gems-palm-beaches)). Check hours before you go.
 
-**The method here is the same as anywhere with a strip-plaza food scene:** ignore the frontage, ask neighbors, and be willing to try somewhere that looks like nothing. The village's better independents are not the ones with the best signage.
+### Hobo's Gourmet Kitchen
+**Where:** 421 Northlake Boulevard, per a food-service listing. A local blog describes omelets, pancakes and French toast. We found no current hours, so confirm before you go.
 
-## The marina and waterfront options
+**On coffee.** We could not verify a named independent coffee shop with a confirmed North Palm Beach address, so we name none. Several of the places above serve breakfast, and our [Palm Beach Gardens and Jupiter dining guides](/blog/best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida) cover the larger coffee scenes nearby.
 
-The Intracoastal communities and the marina area offer a small number of places to eat with a genuine water view and boats moving past.
+## Pizza, Italian and International Restaurants
 
-These are pleasant rather than exceptional, and that's the right expectation. You're paying for the setting, which on a good evening is entirely worth it.
+- **Zeera Indian Cuisine**, 1201 US-1, Suite 38. Indian food, listed as fully halal and licensed to serve alcohol, and featured on PBS's *Check Please! South Florida* ([PBS](https://www.pbs.org/video/zeera-indian-cuisine-n2fgax)).
+- **La Bamba Mexican & Spanish Restaurant**, 730 US-1, per a business directory ([listing](https://directory.yext.com/en/la-bamba-mexican-spanish-restaurant-972897440)). Confirm with the restaurant.
+- **Bucks Coal Fired Pizza**, 900 Northlake Boulevard, per its ordering listing, and a regional reader-poll favorite ([order page](https://www.toasttab.com/local/order/bucks-coal-fired)).
+- **Venezia Pizza and Restaurant**, 513 Northlake Boulevard, from one aggregator listing, so confirm the address ([listing](https://overlookmaps.com/places/venezia-pizza-and-restaurant-north-palm-beach-5530784798314341)).
+- **Leonardi's Pizza**, listed at 11575 US-1, well north of the Village's own US-1 facilities, so treat it as a nearby option ([The Infatuation](https://www.theinfatuation.com/miami/reviews/leonardis-pizza)).
 
-## What the village doesn't have
+## Does North Palm Beach Have Nightlife?
 
-Worth stating plainly so nobody is disappointed:
+It has neighborhood nightlife, not an entertainment district. A pub, a brewery taproom, a waterfront bar and a clubhouse bar are places to go in the evening, and some have events, but they are scattered along US-1 and Northlake Boulevard rather than within one walkable few blocks. If a concentrated, walkable evening scene matters to you, see the districts below. We make no claim about how late any place runs.
 
-- **No restaurant row.** There's no street to stroll and choose from.
-- **No nightlife.** A couple of bars, no scene, and nothing that runs late.
-- **Limited variety.** If you want a specific cuisine on a specific night, you're driving.
-- **Few destination kitchens.** Ambitious cooking in this area happens elsewhere.
+## Dining Just Outside Village Limits
 
-None of this bothers most residents, because of what's next.
+These are in other municipalities, with their own guides:
+- **[Palm Beach Gardens](/blog/best-places-to-eat-drink-hang-out-in-palm-beach-gardens-florida)** for a wide range of restaurants across several districts.
+- **[Jupiter](/blog/best-places-to-eat-drink-hang-out-in-jupiter-florida)**, including [Harbourside Place](/blog/harbourside-place-jupiter-florida), for waterfront dining and a more concentrated evening scene.
+- **[Juno Beach](/blog/best-places-to-eat-drink-hang-out-in-juno-beach-florida)** and **[Singer Island](/blog/best-places-to-eat-drink-hang-out-in-singer-island-florida)** for beach-area dining.
 
-## The five-minute solution
+We give no drive times, which change with traffic and bridges.
 
-North Palm Beach's dining answer is geographic rather than local.
+## Where to Go Based on the Occasion
 
-**Palm Beach Gardens**, immediately north, has the area's main concentration — a large shopping and dining district, a second walkable outdoor center, chains and independents, and considerably more range than the village could ever support. For most residents this is where dinner actually happens.
+- **Lunch by the water:** Frigate's, with the boat-dock caveat above.
+- **Burgers and sports:** Brass Ring Pub.
+- **Craft beer with friends:** Stormhouse Brewing.
+- **Breakfast:** Sara's Kitchen or Hobo's Gourmet Kitchen.
+- **Fresh seafood to cook at home:** Cod & Capers.
+- **A relaxed dinner with golf-course views:** the Country Club's Grill Room or The Clubhouse.
+- **Indian, Mexican or pizza:** Zeera, La Bamba, Bucks or Venezia.
+- **A bigger night out:** the nearby districts above.
 
-**Jupiter**, a bit further north, has a genuine waterfront dining scene and is the natural choice for a nicer evening out.
+## Practical Dining Tips
 
-**West Palm Beach**, south, brings a real city's food scene, including the downtown and the neighborhoods around it.
+- **Confirm hours and menus.** We link current sources and do not print prices or happy-hour schedules.
+- **Reservations and parking.** We found no reliable policy for most venues, so call ahead for groups and busy evenings, especially in winter and spring.
+- **Marina and club access.** Old Port Cove is inside a residential community, so confirm the guest process. The Country Club is public for golf and dining, but its other facilities use their own rules.
+- **Arriving by boat.** Do not assume dock space at any restaurant. Ask first.
+- **Service charges.** Check each menu for any automatic service charge.
 
-**Juno Beach and Singer Island**, east, add casual beachside options.
+> **Love the North Palm Beach lifestyle?** Explore homes near the Village's waterfront, parks, restaurants and recreation facilities, and DO Homes Group can help you compare neighborhoods and available properties. Explore [available homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000), compare [waterfront properties](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000) or [ask us](/contact). We do not imply any property is walking distance to a restaurant without checking the address, and our searches follow the listing's city field, so a North Palm Beach listing is not automatically inside the Village. No sign-up needed.
 
-The practical consequence: residents here have more choice than the village suggests and less spontaneity, because everything involves a car. People adapt by deciding earlier in the day rather than wandering out and seeing what appeals.
-
-## Practicalities
-
-- **Reservations** are rarely needed locally and are worth making for anything in Palm Beach Gardens or Jupiter during season.
-- **Parking** is easy everywhere in the village, which after almost anywhere else in the county is a genuine relief.
-- **Season** fills the local independents from roughly November through April, but never to the point of difficulty.
-- **Summer** is quiet, with some places on reduced hours.
-- **Turnover** is real in the corridor restaurants; check somewhere is still trading before planning an evening around it.
-
-## Where it actually comes together
-
-The village's social life doesn't center on restaurants at all. It centers on the club and the water.
-
-Most of the eating and drinking that matters here happens after golf, after pickleball, at the pool, or on a boat — with the food being incidental to the company. That's an unusual arrangement in Florida and it's the thing newcomers take longest to understand.
-
-If you arrive expecting to find your regular restaurant, you'll be underwhelmed. If you arrive expecting to find your regular people and eat wherever they happen to be, the village works exactly as intended. Our [rundown of what's worth doing](/blog/best-things-to-do-in-north-palm-beach-florida) covers where that actually happens.`,
+For more, see our [local guide](/blog/local-guide-to-north-palm-beach-florida), [things to do](/blog/best-things-to-do-in-north-palm-beach-florida), [hidden gems](/blog/hidden-gems-in-north-palm-beach-florida) and [what living here is like](/blog/what-its-really-like-living-in-north-palm-beach-florida).`,
     faqs: [
-      { q: "Does North Palm Beach have good restaurants?", a: "It has a handful of good local institutions rather than a scene — a village of thirteen thousand cannot support one. The club's waterfront dining room is the default, and the US-1 and Northlake corridor holds long-established independents that survive on regulars. For range, residents drive to Palm Beach Gardens, Jupiter or West Palm Beach." },
-      { q: "Can non-members eat at the North Palm Beach Country Club restaurant?", a: "Yes. Like the rest of the village-owned club, the waterfront dining room is not restricted to members. It is a relaxed room on the water with a menu that does not overreach, and it is the easiest place in the village to meet people if you are new, since everyone passes through eventually." },
-      { q: "Is there nightlife in North Palm Beach?", a: "Effectively none — a couple of bars, no scene, nothing that runs late. Most residents consider that a feature rather than a problem, and anyone wanting a night out drives to Palm Beach Gardens, Jupiter or downtown West Palm Beach, all within a short drive." },
-      { q: "Where do North Palm Beach residents actually eat?", a: "A mix: the club after golf or pickleball, the long-standing independents along US-1 and Northlake for everyday meals, and Palm Beach Gardens for most proper dinners out. The village's social life centers on the club and the water rather than on restaurants, so food is often incidental to the company." },
-      { q: "How do I find the good local restaurants here?", a: "Ignore the frontage and ask neighbors. The village's better independents are in unremarkable plazas along the corridor and are not the ones with the best signage. They survive because the same people come every week, which is also why service tends to be familiar rather than polished." },
-      { q: "Do I need reservations in North Palm Beach?", a: "Rarely within the village, even in season. They are worth making for anything in Palm Beach Gardens or Jupiter from roughly November through April. Parking locally is easy year-round, which after almost anywhere else in the county is a genuine relief." },
+      {
+            "q": "What are the best restaurants in North Palm Beach?",
+            "a": "Frigate's Waterfront Bar & Grill for waterfront seafood, Brass Ring Pub for burgers and sports, Cod & Capers for a seafood market and café, Stormhouse Brewing for craft beer, Zeera Indian Cuisine, and the Country Club's Clubhouse and Grill Room. We do not rank them, because we use no scoring method."
+      },
+      {
+            "q": "Where can I eat on the waterfront?",
+            "a": "Frigate's Waterfront Bar & Grill at 400 US-1 describes waterfront dining with outdoor seating. Belle's at Safe Harbor Old Port Cove is at a marina inside a residential community, so confirm guest access first. Do not assume dock space at either."
+      },
+      {
+            "q": "What are the best casual bars?",
+            "a": "Brass Ring Pub is a long-running pub with sports and burgers, and Stormhouse Brewing is a brewery taproom. Frigate's has a tiki-style bar. Check each for current hours and events."
+      },
+      {
+            "q": "Are there breweries in North Palm Beach?",
+            "a": "Stormhouse Brewing is listed at 1201 US-1, Unit 15, with gastropub-style food. Check its calendar for events, since we could not confirm a recurring schedule."
+      },
+      {
+            "q": "Where can I get breakfast or coffee?",
+            "a": "Sara's Kitchen (420 US-1) and Hobo's Gourmet Kitchen (421 Northlake Boulevard) are listed for breakfast. We could not verify a named independent coffee shop, so we name none."
+      },
+      {
+            "q": "Is the North Palm Beach Country Club restaurant open to the public?",
+            "a": "Yes. The Village says the club is open to the public seven days a week, and The Clubhouse and the Grill Room are public dining spaces run by Lessing's Hospitality Group. Other club facilities have their own rules."
+      },
+      {
+            "q": "Does The Clubhouse overlook the Intracoastal?",
+            "a": "We found no evidence that it does. The Village describes the Grill Room's views as golf course and sunsets, and the Clubhouse as a coastal-style setting. Do not plan on Intracoastal views."
+      },
+      {
+            "q": "Can visitors eat at Old Port Cove?",
+            "a": "Belle's at Safe Harbor Old Port Cove is listed at 116 Lakeshore Drive, but we could not verify walk-in access and a public review reports a visitor turned away at the gate. Contact the marina for the guest process, and do not enter private gates or docks."
+      },
+      {
+            "q": "Are there seafood markets with cafés?",
+            "a": "Cod & Capers Seafood Marketplace and Café (1201 US-1, Suite 47) is a fish market with a sit-down café. Ask the counter where a given fish was caught."
+      },
+      {
+            "q": "Does North Palm Beach have nightlife?",
+            "a": "It has pubs, a brewery and bars, but not a large walkable nightlife district. For a concentrated evening scene, look at Palm Beach Gardens, Jupiter and the beach areas nearby."
+      },
+      {
+            "q": "Where can I find more dining options nearby?",
+            "a": "Our dining guides for Palm Beach Gardens, Jupiter, Juno Beach and Singer Island cover the neighboring municipalities, each with its own districts."
+      },
+      {
+            "q": "Do I need reservations?",
+            "a": "We found no reliable policy for most venues, so call ahead for groups and busy evenings. The Country Club's dining pages are the place to check its reservation options."
+      }
     ],
-    internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida"],
-    funFact: "The North Palm Beach Country Club restaurant is open to the public and has views of the Intracoastal from the dining room — it's genuinely one of the better-situated casual dining spots in the village. Locals who don't golf go specifically for the water views and the fact that it's never as crowded as the comparable waterfront spots in Jupiter or Palm Beach Gardens.",
+    internalLinks: ["local-guide-to-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities"],
+    funFact: "North Palm Beach has a useful mix of waterfront restaurants, casual pubs, cafés and neighborhood dining. The key is knowing which establishments are inside the Village, which are nearby, and whether waterfront or marina venues have special access requirements.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-10',
   },
   {
     slug: 'mortgage-rates-2026-palm-beach-county-buyer-guide',
