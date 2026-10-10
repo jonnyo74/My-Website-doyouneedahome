@@ -34567,7 +34567,7 @@ Skip the generic "visit Anchorage Park". These are the overlooked features of [A
 
 Public ways to be at the water in the Village are limited, so be specific: the **Anchorage Park fishing piers** (above), the **kayak launch** if you own a kayak, and **Lakeside Park's waterside edge**. We have not verified a public waterfront promenade or overlook elsewhere in the Village, and we do not recommend driving residential canal streets for sightseeing: those are people's homes, and visitors can block driveways and add traffic. Private docks and marinas are not for visitors.
 
-**A note on Old Port Cove.** It is a residential community with a separate commercial marina ([Safe Harbor Old Port Cove](https://safeharbor.com/locations/safe-harbor-old-port-cove/) lists public slips and an on-site restaurant). We could not verify whether visitors may walk onto the grounds, so we do not list it as a place to explore. If you want to visit the marina or restaurant, contact the operator and follow its access rules. For what Old Port Cove is as a place to live, see our [neighborhoods guide](/blog/best-neighborhoods-in-north-palm-beach-florida).
+**A note on Old Port Cove.** It is a residential community with a separate commercial marina ([Safe Harbor Old Port Cove](https://safeharbor.com/locations/safe-harbor-old-port-cove/) is the marina operator). The grounds and the restaurant inside are for residents, not visitors, so we do not list Old Port Cove as a place to explore. If you want to rent a slip, contact the operator and follow its access rules. For what Old Port Cove is as a place to live, see our [neighborhoods guide](/blog/best-neighborhoods-in-north-palm-beach-florida).
 
 ## Under-the-Radar Parks and Recreation
 
@@ -34961,7 +34961,6 @@ See also: [what living here is like](/blog/what-its-really-like-living-in-north-
 | Place | Best for | Note |
 |---|---|---|
 | Frigate's | Waterfront, seafood | Outdoor seating |
-| Belle's (Old Port Cove) | Marina dining | Check access first |
 | The Clubhouse | Seafood, bistro | Public, Village club |
 | The Grill Room | Casual, course views | Public, Village club |
 | Brass Ring Pub | Burgers, sports | Long-running pub |
@@ -34977,9 +34976,6 @@ See also: [what living here is like](/blog/what-its-really-like-living-in-north-
 
 ### Frigate's Waterfront Bar & Grill
 **Where:** 400 US-1 (North Palm Beach address). **What it is:** a casual waterfront spot with outdoor seating and a tiki-style bar. The Palm Beaches tourism site describes a menu with sushi, oysters and peel-and-eat shrimp, and the restaurant's ordering page calls it a Florida-Caribbean menu ([order page](https://www.toasttab.com/local/order/frigates-npb/r-4d1ef02a-eb92-4b4d-b007-d2538fa7d16f), [tourism guide](https://www.thepalmbeaches.com/blog/north-area-food-gems-palm-beaches)). **Check first:** hours differ between listings, a third-party blog lists a weekday happy hour, and we could not confirm a boat-dock policy, so call before you arrive by boat and do not assume dock space. Look at the posted menu for any service charge before you order.
-
-### Belle's at Safe Harbor Old Port Cove: check access before you go
-**Where:** 116 Lakeshore Drive, at the Safe Harbor Old Port Cove marina, which is inside a residential community ([marina page](https://safeharbor.com/locations/safe-harbor-old-port-cove/) lists the restaurant). A third-party listing gives Thursday to Saturday evening hours. **Access:** we could not verify whether walk-in guests may enter, and a recent public review describes a visitor being turned away at the gate. Treat that as a reason to confirm, not as a permanent rule. Call the marina or restaurant for the guest process, and do not drive through a private gate or onto restricted docks. If a guest-authorization step is required, follow it. A separate Belle's To-Go food truck has been listed at the North Palm Beach Marina on Marina Drive, so do not confuse the two.
 
 ## Dining at North Palm Beach Country Club
 
@@ -35049,7 +35045,7 @@ We give no drive times, which change with traffic and bridges.
 
 - **Confirm hours and menus.** We link current sources and do not print prices or happy-hour schedules.
 - **Reservations and parking.** We found no reliable policy for most venues, so call ahead for groups and busy evenings, especially in winter and spring.
-- **Marina and club access.** Old Port Cove is inside a residential community, so confirm the guest process. The Country Club is public for golf and dining, but its other facilities use their own rules.
+- **Club access.** The Country Club is public for golf and dining, but its other facilities use their own rules. Old Port Cove is a residential community, not a visitor destination.
 - **Arriving by boat.** Do not assume dock space at any restaurant. Ask first.
 - **Service charges.** Check each menu for any automatic service charge.
 
@@ -35063,7 +35059,7 @@ For more, see our [local guide](/blog/local-guide-to-north-palm-beach-florida), 
       },
       {
             "q": "Where can I eat on the waterfront?",
-            "a": "Frigate's Waterfront Bar & Grill at 400 US-1 describes waterfront dining with outdoor seating. Belle's at Safe Harbor Old Port Cove is at a marina inside a residential community, so confirm guest access first. Do not assume dock space at either."
+            "a": "Frigate's Waterfront Bar & Grill at 400 US-1 describes waterfront dining with outdoor seating. Do not assume dock space, so ask before you arrive by boat."
       },
       {
             "q": "What are the best casual bars?",
@@ -35087,7 +35083,7 @@ For more, see our [local guide](/blog/local-guide-to-north-palm-beach-florida), 
       },
       {
             "q": "Can visitors eat at Old Port Cove?",
-            "a": "Belle's at Safe Harbor Old Port Cove is listed at 116 Lakeshore Drive, but we could not verify walk-in access and a public review reports a visitor turned away at the gate. Contact the marina for the guest process, and do not enter private gates or docks."
+            "a": "No. The restaurant at Old Port Cove is inside a residential community and is for the people who live there, so we do not recommend it as a place to eat. For waterfront dining open to the public, see Frigate's Waterfront Bar & Grill, and do not enter private gates or docks."
       },
       {
             "q": "Are there seafood markets with cafés?",
