@@ -12,6 +12,8 @@ import {
   type ArticleEditorial,
 } from '@/lib/articles'
 import {
+  NPB_WORKSHEET_HEADING,
+  NPB_WORKSHEET_HEADING_ID,
   WELLINGTON_WORKSHEET_HEADING,
   WELLINGTON_WORKSHEET_HEADING_ID,
   WORKSHEET_HEADING,
@@ -62,11 +64,13 @@ type ToolKind = NonNullable<ArticleEditorial['tool']>['kind']
 const TOOL_HEADINGS: Record<ToolKind, { id: string; label: string }> = {
   'carrying-cost-worksheet': { id: WORKSHEET_HEADING_ID, label: WORKSHEET_HEADING },
   'wellington-cost-worksheet': { id: WELLINGTON_WORKSHEET_HEADING_ID, label: WELLINGTON_WORKSHEET_HEADING },
+  'north-palm-beach-cost-worksheet': { id: NPB_WORKSHEET_HEADING_ID, label: NPB_WORKSHEET_HEADING },
   'jupiter-beach-access-map': { id: MAP_HEADING_ID, label: MAP_HEADING },
 }
 function ToolBlock({ kind }: { kind: ToolKind }) {
   if (kind === 'carrying-cost-worksheet') return <CarryingCostWorksheet />
   if (kind === 'wellington-cost-worksheet') return <CarryingCostWorksheet variant="wellington" />
+  if (kind === 'north-palm-beach-cost-worksheet') return <CarryingCostWorksheet variant="north-palm-beach" />
   return <JupiterBeachAccessBlock />
 }
 
