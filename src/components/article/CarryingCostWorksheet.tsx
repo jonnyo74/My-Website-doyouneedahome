@@ -5,6 +5,8 @@ import {
   calculateWorksheet,
   formatUsd,
   LOAN_TERMS,
+  NPB_WORKSHEET_HEADING,
+  NPB_WORKSHEET_HEADING_ID,
   WELLINGTON_WORKSHEET_HEADING,
   WELLINGTON_WORKSHEET_HEADING_ID,
   WORKSHEET_HEADING,
@@ -89,11 +91,21 @@ const EXTENDED_FIELDS: Record<string, FieldDef[]> = {
   ],
 }
 
-export default function CarryingCostWorksheet({ variant = 'default' }: { variant?: 'default' | 'wellington' }) {
-  const wellington = variant === 'wellington'
+// North Palm Beach keeps the extended lines but words the hints for waterfront ownership.
+const NPB_HINTS: Partial<Record<FieldKey, string>> = {
+  annualAssessments: 'Non-ad valorem assessments from the tax bill, if any',
+  monthlyTransport: 'Fuel, tolls, auto insurance and upkeep, from your own routes',
+  monthlyOther: 'Dock and seawall reserve, lawn, pool, pest, and any boat costs you plan to carry',
+}
+
+export default function CarryingCostWorksheet({ variant = 'default' }: { variant?: 'default' | 'wellington' | 'north-palm-beach' }) {
+  const npb = variant === 'north-palm-beach'
+  const wellington = variant === 'wellington' || npb // both use the extended fields and totals
   const initial: WorksheetInputs = wellington ? { ...DEFAULTS, ...EXTENDED_DEFAULTS } : DEFAULTS
+  const withHints = (fields: FieldDef[]) =>
+    npb ? fields.map((f) => (NPB_HINTS[f.key] ? { ...f, hint: NPB_HINTS[f.key] } : f)) : fields
   const groups = wellington
-    ? GROUPS.map((g) => ({ ...g, fields: [...g.fields, ...(EXTENDED_FIELDS[g.legend] ?? [])] }))
+    ? GROUPS.map((g) => ({ ...g, fields: withHints([...g.fields, ...(EXTENDED_FIELDS[g.legend] ?? [])]) }))
     : GROUPS
   const [inputs, setInputs] = useState<WorksheetInputs>(initial)
   // Errors only show once a field has been left, so typing "6." doesn't flash
@@ -104,8 +116,8 @@ export default function CarryingCostWorksheet({ variant = 'default' }: { variant
 
   const set = (key: FieldKey, value: string) => setInputs((prev) => ({ ...prev, [key]: value }))
   const id = (key: string) => `${uid}-${key}`
-  const headingId = wellington ? WELLINGTON_WORKSHEET_HEADING_ID : WORKSHEET_HEADING_ID
-  const heading = wellington ? WELLINGTON_WORKSHEET_HEADING : WORKSHEET_HEADING
+  const headingId = npb ? NPB_WORKSHEET_HEADING_ID : wellington ? WELLINGTON_WORKSHEET_HEADING_ID : WORKSHEET_HEADING_ID
+  const heading = npb ? NPB_WORKSHEET_HEADING : wellington ? WELLINGTON_WORKSHEET_HEADING : WORKSHEET_HEADING
 
   return (
     <section aria-labelledby={headingId} className="mt-12 border-y border-slate-200 py-10">

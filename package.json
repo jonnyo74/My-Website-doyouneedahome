@@ -11,7 +11,7 @@
     "audit:images": "node scripts/audit-city-images.mjs",
     "audit:pbg-images": "node scripts/audit-city-images.mjs",
     "prebuild": "node scripts/audit-city-images.mjs",
-    "test": "node --test scripts/pbg-image-guard.test.mjs scripts/wellington-image-guard.test.mjs scripts/npb-image-guard.test.mjs scripts/carrying-cost.test.mjs scripts/content-integrity.test.mjs"
+    "test": "node --test scripts/pbg-image-guard.test.mjs scripts/wellington-image-guard.test.mjs scripts/npb-image-guard.test.mjs scripts/carrying-cost.test.mjs scripts/content-integrity.test.mjs scripts/npb-cost-scenarios.test.mjs"
   },
   "dependencies": {
     "@turf/area": "^7.4.0",

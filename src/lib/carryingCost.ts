@@ -7,6 +7,10 @@ export const WORKSHEET_HEADING = 'Estimate your monthly Boca carrying cost'
 /** Matches headingId(WORKSHEET_HEADING), so the table of contents can link to it. */
 export const WORKSHEET_HEADING_ID = 'estimate-your-monthly-boca-carrying-cost'
 
+/** The North Palm Beach variant uses the extended fields with waterfront-oriented hints. */
+export const NPB_WORKSHEET_HEADING = 'Estimate your monthly North Palm Beach ownership cost'
+export const NPB_WORKSHEET_HEADING_ID = 'estimate-your-monthly-north-palm-beach-ownership-cost'
+
 /** The Wellington variant adds assessments, transportation and other recurring costs. */
 export const WELLINGTON_WORKSHEET_HEADING = 'Estimate your monthly Wellington ownership cost'
 export const WELLINGTON_WORKSHEET_HEADING_ID = 'estimate-your-monthly-wellington-ownership-cost'

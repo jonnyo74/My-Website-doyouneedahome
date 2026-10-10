@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'jupiter-beach-access-map'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -33395,7 +33395,7 @@ Addresses, amenities and access rules come from the Village of North Palm Beach,
             "a": "They are separate municipalities. North Palm Beach is a small waterfront village with its own police, fire rescue, parks and a municipal country club. Palm Beach Gardens is a larger city to the north with its own government and services. A North Palm Beach postal address does not mean a Village address."
       }
     ],
-    internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida"],
+    internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida"],
     funFact: "Before you choose a North Palm Beach home, confirm the municipal jurisdiction, which amenities you will actually use (some are resident-only), what the waterfront permits and requires, and any association obligations. The North Palm Beach Country Club is Village-owned, but the Village's own budget documents show a mix of club revenue and General Fund support, so it is not accurate to call it simply tax-funded.",
     author: 'christine',
     published: true,
@@ -34258,11 +34258,11 @@ See also: [what it's like living here](/blog/what-its-really-like-living-in-nort
     cityName: 'North Palm Beach',
     type: "Cost Of Living In",
     order: 7,
-    seoTitle: "Cost of Living in North Palm Beach, Florida",
-    metaTitle: "Cost of Living in North Palm Beach, Florida",
-    metaDescription: "What it costs to live in North Palm Beach, Florida — often better waterfront value than its neighbors, with housing, taxes, and insurance explained.",
+    seoTitle: "Cost of Living in North Palm Beach, FL: 2026 Homeowner Guide",
+    metaTitle: "Cost of Living in North Palm Beach, FL: 2026 Homeowner Guide",
+    metaDescription: "Explore North Palm Beach living costs, including home prices, property taxes, insurance, condo fees, utilities and sample monthly ownership budgets.",
     primaryKeyword: "cost of living in North Palm Beach Florida",
-    secondaryKeywords: ["North Palm Beach home prices", "is North Palm Beach affordable", "North Palm Beach FL cost of living"],
+    secondaryKeywords: ["North Palm Beach property taxes","North Palm Beach homeowners insurance","cost to own a home in North Palm Beach","North Palm Beach condo fees","North Palm Beach waterfront ownership costs"],
     h1: "Cost of Living in North Palm Beach, Florida",
     heroImage: "/images/north-palm-beach/npb-cost-hero.webp",
     heroImageAlt: "A white clubhouse with a columned entrance and a blue roof behind a lawn and landscaped drive",
@@ -34270,112 +34270,223 @@ See also: [what it's like living here](/blog/what-its-really-like-living-in-nort
     heroImageCredit: "Photo: DO Homes Group",
     heroImageWidth: 1600,
     heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: 'Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.',
     editorial: {
       eyebrow: "North Palm Beach · Cost of Living",
-      deck: "What it costs to live in and own a home in North Palm Beach.",
+      deck: "What it costs to buy and own a home in the Village of North Palm Beach: taxes, insurance, association fees, waterfront upkeep, and three illustrative monthly budgets with every assumption labeled.",
       heroLayout: 'split',
       heroTone: 'guide',
       panelImage: { src: "/images/north-palm-beach/npb-cost-panel.webp", width: 960, height: 1200 },
       mobileImage: { src: "/images/north-palm-beach/npb-cost-mobile.webp", width: 1200, height: 800 },
       primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
-      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+      secondaryCta: {"label":"Three sample budgets","href":"#three-illustrative-north-palm-beach-ownership-budgets"},
+      tableOfContents: true,
+      tocAfterIntro: true,
+      tool: { kind: 'north-palm-beach-cost-worksheet', beforeSection: 'Your Total Cost of Ownership Checklist' },
+      magnetPlacement: 'after-expert-note',
+      closingStep: { eyebrow: 'Next step', text: "Want to know what a North Palm Beach home will actually cost you? DO Homes Group can help you compare available properties, association information and ownership considerations while you obtain verified tax, insurance and financing estimates from the appropriate professionals. No sign-up needed.", cta: { label: 'Talk with us', href: '/contact' } },
     },
-    showMarketTrends: true,
-    body: `North Palm Beach's reputation is that it's the affordable way to live on the water in this part of the county. That's broadly accurate on purchase price and considerably less accurate on what it costs to own.
+    body: `**In North Palm Beach, the largest ownership costs are usually the mortgage, homeowners and flood insurance, property taxes and association fees, and each varies sharply by property.** There is no single "cost of living" number for the Village. This guide gives you the official figures that exist, a method for estimating the rest, and three clearly labeled illustrative budgets (an interior home, a waterfront home and a condominium) that show how the pieces add up. Figures are dated, and anything we could not verify is marked as a hypothetical assumption or left for you to get from the right professional. For lifestyle, see our [living guide](/blog/what-its-really-like-living-in-north-palm-beach-florida), and for tradeoffs see the [pros and cons](/blog/pros-and-cons-of-living-in-north-palm-beach-florida).
 
-Here's what actually drives the number, and what to verify before you commit.
+## North Palm Beach Cost of Living at a Glance
 
-## Housing
+| Cost | What we can say | Label |
+|---|---|---|
+| Village tax rate | 7.4000 mills, FY 2027 | Verified |
+| Total tax rate | Parcel-specific | Variable |
+| Mortgage rate | 7.40%, Oct 8, 2026 | Observation |
+| Home insurance | Address quote needed | Variable |
+| Flood insurance | Zone-dependent | Variable |
+| Condo dues | Building-specific | Variable |
+| Seawall, dock | Property-specific | Variable |
+| Club dues | Optional, see club | Variable |
 
-The village spans an unusually wide range for its size, and where you land determines nearly everything else.
+**Labels used throughout:** *Verified* is a current figure from an official source. *Observation* is a dated market figure. *Hypothetical* is an assumption we chose for illustration. *Variable* depends on the property and must be verified. Everything here is as of October 10, 2026, and none of it is tax, insurance, lending or legal advice.
 
-**The interior mid-century streets** are the entry point and the reason the village has a value reputation. You get a solid house on a real lot in an established village, generally below what comparable proximity to the water costs in the towns north and east.
+## What Homes Cost in North Palm Beach
 
-**The canal-front streets** climb with water frontage, access quality and condition. The premium is real but remains below equivalent frontage in Jupiter or on the barrier island.
+Prices differ by property type: interior single-family homes, canal-front homes, direct Intracoastal homes, condominiums, townhomes and renovated or newer properties are different markets. Address matters too, because a North Palm Beach mailing address is not automatically inside the incorporated Village ([neighborhoods guide](/blog/best-neighborhoods-in-north-palm-beach-florida)), and municipal taxes and rules differ outside it.
 
-**The Intracoastal condo communities** vary enormously with building age, view and dockage.
+For context, Miami REALTORS' [Q1 2026 local market metrics](https://www.miamirealtors.com/wp-content/uploads/bsk-pdf-manager/2026/04/City_Palm-Beach-County_Single-Family-Homes_2026-Q1_Local-Residential-Market-Metrics.pdf) report a Village single-family median closed price of $794,750 on 28 closed sales, down 27.1% from a year earlier. That is one quarter with a small sample, so it can swing widely, and we could not reproduce it from our own MLS pull. We found no comparable Village condominium median. Do not read one quarter as a typical price. This guide's budgets use round hypothetical prices, not medians, and ask us for current closed sales for the type of home you want.
 
-**Lost Tree Village** is a separate market entirely and doesn't inform the rest.
+**On price comparisons.** We removed the claim that waterfront homes here cost 20 to 30 percent less than comparable Jupiter homes. We have not run a like-for-like closed-sale comparison controlling for sale date, frontage, bridges, dockage, lot, size, age, condition and flood exposure, so we make no percentage claim. Waterfront prices vary with navigability, location, condition and the market, not with a town's name. See our [nearby-city comparison](/blog/north-palm-beach-vs-nearby-cities).
 
-The important caveat: the purchase price advantage on older stock is partly a discount on the building. Some of it comes back as capital expenditure, and some as insurance. Budget for both. Our [neighborhood guide](/blog/best-neighborhoods-in-north-palm-beach-florida) covers what to inspect.
+## What a Monthly Mortgage Payment Might Look Like
 
-## Property taxes
+The [Freddie Mac Primary Mortgage Market Survey](https://www.freddiemac.com/pmms) reported a 30-year fixed average of 7.40% in its October 8, 2026 release (up from 7.28% the week before). That is a national weekly average (a market observation), not a rate you will be offered. The budgets below *assume* 7.40%, a 30-year term and 20 percent down for illustration only. They are not loan offers or pre-approvals.
 
-Florida has **no state income tax**, which is material for retirees and higher earners alike.
+Principal and interest follow the standard amortization formula, M = L × r ÷ (1 − (1 + r)^−n), where L is the loan, r the monthly rate and n the number of payments (at a 0% rate the payment is simply L ÷ n). On a $600,000 loan at 7.40% over 30 years, that is $4,154 a month. Your rate depends on credit, down payment, loan type and points. With less than 20 percent down, expect mortgage insurance. Loans above conforming limits are jumbo loans with their own terms. Closing costs and escrows are separate, so ask a lender for a Loan Estimate.
 
-North Palm Beach is an incorporated village in **Palm Beach County**, so your bill combines county, village, school district and special district millage. Being incorporated means a municipal levy that unincorporated addresses nearby don't pay — in exchange for village police, public works and the club infrastructure.
+## Understanding North Palm Beach Property Taxes
 
-Two mechanics matter more than the rate:
+Florida property tax is **taxable value × total millage ÷ 1,000**, summed across every taxing authority that applies to the parcel, plus any non-ad valorem assessments. Terms to know:
+- **Just value** is the market value the Property Appraiser assigns.
+- **Assessed value** is just value after any cap, such as Save Our Homes for homesteads.
+- **Taxable value** is assessed value after exemptions. Different authorities can use different taxable values because some exemptions do not apply to every levy.
+- **Non-ad valorem assessments** are flat or formula charges on the bill, separate from millage.
 
-**The listing's tax figure is not yours.** It reflects the seller's assessed value, potentially capped for years. On a change of ownership the property is reassessed at market value and the new bill can be substantially higher. Ask what the taxes will be *for you*.
+**The Village's rate.** The Village's adopted FY 2027 budget keeps the municipal operating millage at **7.4000 mills**, the same as the prior year. The Village Council approved it September 24, 2026 ([Village budget page](https://engage.zencity.io/north-palm-beach-fl/en-US/projects/fy-2027-budget), [budgets](https://village-npb.org/834/ANNUAL-BUDGETS-FY-2022-2027)). FY 2027 runs October 1, 2026 to September 30, 2027. That is the Village's fiscal year, not the tax year: the rate is levied on the 2026 tax roll, and bills are typically issued in November. **This is the Village levy alone, not your total rate.** The Palm Beach County Property Appraiser publishes each taxing authority's rate ([rate sheets](https://pbcpao.gov/pdf/taxroll/2026_Proposed_Rollback_025_Final_Millage_Rates.pdf)), and a parcel's TRIM notice and tax bill show its actual total. We did not find an authoritative combined total for the Village, so we do not state one. The Property Appraiser's 2026 proposed-rate sheet also lists a new neighborhood improvement district for North Palm Beach, so confirm whether any district applies to a parcel.
 
-**Homestead Exemption and Save Our Homes** apply to primary residences — an exemption off assessed value plus a cap on annual assessment increases while you hold. Portability may let you carry accrued savings from a prior Florida homestead. None of it applies to a second home or an investment property.
+### A worked example (hypothetical)
 
-Verify current rates, exemptions and portability with the Palm Beach County Property Appraiser and Tax Collector.
+This example uses a hypothetical 750,000 market value, a **hypothetical** total of 18.0 mills (Village 7.4000 plus 10.6 mills assumed for all other authorities) and ignores exemptions and assessments to keep the arithmetic clear.
 
-## Insurance — the number that decides things
+| Line | Longtime owner | New buyer |
+|---|---|---|
+| Taxable value | $375,000 | $750,000 |
+| Village at 7.4000 | $2,775 | $5,550 |
+| Total at 18.0 | $6,750 | $13,500 |
 
-On the village's older housing stock, insurance is frequently the line item that determines which houses are actually viable.
+Village portion = taxable value × 7.4 ÷ 1,000 (for the buyer, 750,000 × 7.4 ÷ 1,000 = $5,550). The total is the same formula at the full rate. The Village's share is a minority of the whole bill, which is why the Village rate alone understates what you will pay.
 
-The drivers:
+## Seller Taxes Versus Buyer Taxes
 
-- **Roof age and type.** Usually the single largest variable here, and on mid-century houses often the deciding one. An older roof can make a property difficult to insure at any sensible price, which is why so many village homes have been re-roofed recently.
-- **Wind mitigation features.** Impact glass, shutters, roof-to-wall connections and a current wind mitigation inspection move the premium meaningfully.
-- **Distance from the water and elevation.** Canal-front and Intracoastal property prices differently from interior streets.
-- **Electrical and plumbing.** Certain panel types and older plumbing materials can complicate coverage independently of the roof.
+This is the point that most often surprises buyers. **The seller's tax bill reflects the seller's situation, not yours.** A long-time homestead owner's assessed value may be capped, so their bill can be well below what the same home would be taxed on a new assessment. Florida law can reassess a property after a change of ownership, so a buyer's bill can be much higher than the seller's. Whether you qualify for **homestead** is not automatic: generally the home must be your permanent residence as of January 1 and you must apply by March 1 ([Property Appraiser](https://pbcpao.gov/homestead-exemption.htm)). **Portability** can let some owners carry over part of a Save Our Homes benefit, subject to eligibility and rules. Do not use the seller's bill as your forecast. Ask for an address-specific estimate, check the Property Appraiser's records and talk to the [Tax Collector](https://www.pbctax.gov/taxes/property-tax/) or a tax professional. We do not predict any property's future assessment.
 
-**Flood is a separate policy** and it matters on the canal streets. Flood zone is parcel-specific, and an elevation certificate can change the number materially.
+## Homeowners and Flood Insurance
 
-Get real quotes on the specific address before you're under contract, not after inspection.
+Treat these as two separate costs, and get **address-specific quotes** from licensed insurance professionals before you make an offer. We publish no typical premium. The Florida [Office of Insurance Regulation](https://floir.gov/) is the state's regulator.
 
-## The club, and other recurring costs
+**Homeowners (wind) insurance** is shaped by many underwriting factors, not one: roof age, type and condition, wind-mitigation features (impact windows, shutters, roof-to-wall connections), electrical and plumbing systems, construction characteristics, prior claims, the insurer's own rules, coverage limits and deductibles. Roof age is often important, but it is not the only variable.
 
-**Village club membership is optional**, which is worth stating plainly because it's often assumed to be mandatory. It's a genuine ongoing cost if you take it, set by the village rather than by a private board, and generally well below what comparable private club access costs nearby. For most residents it's the best value in the village; for someone who doesn't play golf or racquet sports, it's an expense to skip.
+**Flood insurance** is separate and is not included in a homeowners policy. It depends on the property's **currently effective FEMA flood zone**, elevation and mitigation, and may come through the NFIP or a private insurer, with coverage limits and deductibles. Lenders require it for mortgaged properties in Special Flood Hazard Areas. Not every waterfront property is in the same zone, and an inland home is not risk-free. The Village's [flood zone page](https://village-npb.org/711/Flood-Zones) says about 1,400 Village properties are proposed to be re-designated into a Special Flood Hazard Area, while the County lists updated maps as effective December 20, 2024. We could not reconcile the two, so check the currently effective designation by address on [FEMA's map service](https://msc.fema.gov/portal/home), ask whether an **elevation certificate** exists, and do not treat a proposed map as effective. See also the Village's [flood insurance page](https://www.village-npb.org/868/National-Flood-Insurance-Program).
 
-**Condo and HOA fees** vary widely. For any older coastal building, get the reserve study, the assessment history and the structural inspection status. Florida's reserve funding requirements have driven fees and special assessments up sharply, and this is the most common way a condo purchase here goes wrong financially.
+## Condo and HOA Fees
 
-**Dockage** — whether a slip is deeded, licensed or rented, and what it costs annually — should be established before closing, not after.
+Monthly dues are only the visible part. A condominium's total cost can include **master insurance** that flows into dues, building maintenance, **reserve funding**, **special assessments**, association debt, pending capital projects, your own unit insurance, rental restrictions and any marina arrangements. Florida requires **milestone inspections** for older buildings (generally by the year a building turns 30, or 25 where a local agency requires it) and **structural integrity reserve studies** for buildings of three stories or more ([s. 553.899](https://www.flsenate.gov/Laws/Statutes/2025/553.899), [s. 718.112](https://www.flsenate.gov/Laws/Statutes/2026/0718.112)). Not every building is subject to the same requirements, and not every older condo has rising fees. A low fee is not automatically a warning sign, and a high one is not automatically bad. Judge the fee against the **budget, reserve balance, financial statements, insurance and planned capital work**. Request those documents before you buy. See our [condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) and the state's [DBPR inspection records](https://condos.myfloridalicense.com/inspections/). A slip is not automatically included with a unit.
 
-**Boat ownership generally** is the budget people underestimate: maintenance, bottom work, fuel, insurance and haul-out. If the boat is why you're moving here, price the whole thing.
+## Waterfront Homes and Boat Ownership
 
-## Everyday costs
+Separate what belongs to the *property* from what only arises if you own a *boat*.
 
-- **Utilities** track the Florida average, with summer cooling the spike. Older, less efficient houses cost noticeably more to run.
-- **Water and sewer** come through the regional utility serving this area rather than the village itself — confirm the provider and rates for the address.
-- **Groceries and fuel** are near the state average, with the main shopping concentration a few minutes north.
-- **Dining** locally is limited, so a meaningful share of eating out happens in Palm Beach Gardens or West Palm Beach. Factor the driving.
-- **Commuting** costs whatever your route costs; the airport and the interstate are both close.
+**Property costs:** dock inspection and repair, seawall inspection and maintenance, permits, boat-lift installation where eligible, flood and wind insurance and storm preparation. The Village regulates docks and seawalls ([ordinance 2019-07](http://village-npb.org/DocumentCenter/View/6015/Ordinance-2019-07-Seawall-and-Dock-Regulations)), and the [Building Division](https://www.village-npb.org/149/Building-Division) can explain permits. We publish no minimum seawall or dock cost: costs vary with length, condition, construction method, access and permits, so get an inspection and property-specific contractor estimates. Not every waterfront home has a private dock.
 
-## Running your real number
+**Boat costs (optional):** marina or slip fees (see [resident-only Anchorage Park storage](https://village-npb.org/559/Marina-BoatRV-Storage) versus commercial marinas), boat insurance, vessel maintenance, bottom cleaning, fuel, storage, haul-out and storm preparation.
 
-Before you make an offer:
+Verify **navigability and bridge access separately from cost**: a waterfront price does not tell you whether your boat fits under a fixed bridge or in the water at low tide. See our [pros and cons](/blog/pros-and-cons-of-living-in-north-palm-beach-florida) and [buyer-fit guide](/blog/who-should-move-to-north-palm-beach-florida).
 
-1. **Ask what the taxes will be on the reassessed value.**
-2. **Get an actual insurance quote**, including flood, for that address.
-3. **Price the roof.** If it's near end of life, that's a capital cost and an insurance problem simultaneously.
-4. **For a condo, get the reserves, assessments and inspection status.** For a canal house, establish dock depth, bridge clearance and seawall responsibility.
-5. **Then** compare against the [neighboring towns](/blog/north-palm-beach-vs-nearby-cities), which is where the value case is actually made or lost.
+## Utilities and Everyday Living Expenses
 
-## The bottom line
+Water and sewer in the area come from Seacoast Utility Authority, not the Village; its [rate schedule](https://www.sua.com/wp-content/uploads/2026/08/10-1-2026-RATE-SCHEDULE.pdf) is the source for current rates, which are indexed and change. Electric service, internet availability and solid-waste charges depend on the address, so confirm the providers and any charges on the tax bill. We publish no North Palm Beach grocery, fuel or dining averages because we have no local data, and broader regional benchmarks do not describe the Village. Your bills will turn on home size, occupancy, efficiency, air-conditioning use, pool equipment, EV charging and water consumption. Transportation is a car-based cost for most households (see [walkability](/blog/pros-and-cons-of-living-in-north-palm-beach-florida)).
 
-North Palm Beach genuinely is more attainable than Jupiter, Palm Beach Gardens or the barrier island for comparable access to the water. The saving is real and it's the main reason people buy here.
+## Maintenance and Capital Improvements
 
-But it lives almost entirely in the purchase price. Insurance on older houses, assessments on older condos, and the maintenance load on mid-century stock are all above what a newer community would carry. Buyers who model the total cost do well here. Buyers who compare sticker prices get surprised.
+Recurring costs and long-term capital costs are different. Plan for both:
 
-*Figures, rates and rules change. Verify tax, exemption and portability specifics with the Palm Beach County Property Appraiser and Tax Collector, insurance and flood costs with a licensed agent, flood zone and elevation with the relevant authority, and all association, club and dockage obligations with the governing documents.*`,
+- **Big-ticket items with finite lives:** roof, HVAC, water heater, plumbing, electrical, impact windows or shutters, pool equipment, exterior paint, driveway.
+- **Waterfront extras:** dock and seawall.
+- **Recurring:** landscaping, pest, pool service and routine repairs.
+
+A common planning heuristic is to reserve about 1 percent of a home's value per year for maintenance. That is a general rule of thumb, not a North Palm Beach statistic, and older and waterfront homes may need a more detailed, property-specific plan based on the inspection. The budgets below use 1 percent for the interior home and 1.5 percent for the waterfront home as **hypothetical** reserves.
+
+## Three Illustrative North Palm Beach Ownership Budgets
+
+These are hypothetical. They are **not** local averages, medians or quotes. Common assumptions: 7.40% 30-year fixed (a market observation used as an assumption), 20% down ($150,000 / $300,000 / $100,000), and a hypothetical total tax rate of 18.0 mills on the purchase price with no exemptions. Insurance, utilities, dues and reserves are placeholder inputs for you to replace with your own quotes. Boat costs are excluded from all three.
+
+| Monthly | A Home | B Water | C Condo |
+|---|---|---|---|
+| Price | $750K | $1.5M | $500K |
+| P and I | $4,154 | $8,309 | $2,770 |
+| Tax | $1,125 | $2,250 | $750 |
+| Policy | $500 | $1,000 | $150 |
+| Flood | $0 | $333 | $0 |
+| Dues | $0 | $0 | $900 |
+| Utilities | $450 | $650 | $250 |
+| Upkeep | $625 | $1,875 | $200 |
+| Reserve | $0 | $500 | $250 |
+| **Monthly** | **$6,854** | **$14,917** | **$5,270** |
+| Annual | $82,251 | $179,003 | $63,234 |
+
+**Row guide.** Price is hypothetical. P and I is principal and interest at the assumed rate. Tax uses the hypothetical total millage. Policy is homeowners insurance (unit insurance for the condo), and policy, flood, dues and utilities are placeholders. Upkeep is the maintenance reserve (1% and 1.5% of price for A and B, a smaller placeholder for the condo). Reserve is the dock and seawall reserve (B) or a special-assessment contingency (C).
+
+**How to read them.** *A (interior):* the loan is $600,000, and the Village's own share of the tax is $5,550 a year. *B (waterfront):* a $1,200,000 loan is likely a jumbo loan, flood insurance is shown as a placeholder (it may be $0 or much more by zone), and the reserve line stands in for the dock and seawall, which could be higher or lower. *C (condo):* dues, unit insurance and a special-assessment contingency are placeholders, and a slip is not assumed. Principal repayment is part of cash outflow but builds equity, so cash outflow is not the same as economic cost. The three totals use the same formula as the worksheet below, and we checked them two independent ways.
+
+### Full-time versus seasonal
+
+Neither type of owner is automatically better off in a condo or a house. Compare maintenance while you are away, association services and security, storm preparation, landscaping and pool care, property management, vacancy checks, travel, insurance and **homestead**: a second home generally does not qualify, and not every full-time owner does either. Check the [Property Appraiser's eligibility rules](https://pbcpao.gov/homestead-exemption.htm) and ask a tax professional about your case.
+
+### Club costs
+
+Country Club membership is not required to own here. The Village-owned [club](https://northpalmbeachcc.com/) offers public golf, and golf memberships are currently sold out with a waitlist, per the Village, while tennis and pool memberships have separate resident and nonresident categories (see [memberships](https://www.village-npb.org/493/Memberships) and [pricing](https://www.village-npb.org/472/Membership-Pricing)). We hardcode no prices because they change, and we make no comparison with private clubs.
+
+## How North Palm Beach Compares With Nearby Communities
+
+We make no universal price hierarchy. Ownership cost depends on housing age, waterfront type, flood and wind exposure, association obligations and the specific property, and neighboring communities differ on all of them. Compare specific properties with the same method as above. See the [nearby-city comparison](/blog/north-palm-beach-vs-nearby-cities).
+
+## Your Total Cost of Ownership Checklist
+
+1. Verify the purchase price and financing assumptions.
+2. Estimate taxes after reassessment.
+3. Obtain homeowners and flood insurance quotes.
+4. Review association fees, reserves and assessments.
+5. Inspect major systems and estimate capital needs.
+6. Verify dockage, seawalls and navigation if applicable.
+7. Add utilities and recurring services.
+8. Calculate the monthly and annual total.
+9. Compare properties using the same methodology.
+10. Consult qualified tax, insurance and lending professionals.
+
+Confirm the property is inside the incorporated Village on the [zoning map](https://www.village-npb.org/DocumentCenter/View/49/North-Palm-Beach-Zoning-Map-PDF) or the County's records first, because the Village's millage and services apply only there.
+
+> **Want to know what a North Palm Beach home will actually cost you?** DO Homes Group can help you compare available properties, association information and ownership considerations while you obtain verified tax, insurance and financing estimates from the appropriate professionals. Explore [available homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000), [waterfront properties](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000) or [waterfront condominiums](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000), or [ask us](/contact). Our MLS searches follow the listing's city field, and a North Palm Beach listing is not automatically inside the Village, so we help you confirm the municipality. No sign-up needed.
+
+*Figures, rates and rules change. This guide is general education, not tax, insurance, legal or financial advice. Verify tax and exemptions with the Palm Beach County Property Appraiser and Tax Collector, insurance and flood costs with a licensed professional, flood zone and elevation with the relevant authority, and all association, club and dockage obligations with the governing documents.*`,
     faqs: [
-      { q: "Is North Palm Beach affordable?", a: "More attainable than Jupiter, Palm Beach Gardens or the barrier island for comparable water access, and that saving is the main reason people buy here. But it lives almost entirely in the purchase price — insurance on older houses, assessments on older condos and the maintenance load on mid-century stock all run above a newer community." },
-      { q: "Is North Palm Beach Country Club membership mandatory?", a: "No, and it is often wrongly assumed to be. Membership is optional, set by the village rather than a private board, and generally well below comparable private club access nearby. For most residents it is the best value in the village; for someone who does not play golf or racquet sports, it is an expense to skip." },
-      { q: "Why is insurance such a big deal in North Palm Beach?", a: "Because of the age of the housing. Roof age is usually the single largest variable and on mid-century houses often the deciding one — an older roof can make a property difficult to insure at any sensible price. Electrical panel type and plumbing material can complicate coverage independently. Flood is separate and matters on the canal streets." },
-      { q: "Do I pay extra taxes for living in the Village of North Palm Beach?", a: "Being incorporated means a municipal levy that unincorporated addresses nearby do not pay, on top of county, school district and special district millage. In exchange you get village police, village public works and the club infrastructure. Verify current rates with the Palm Beach County Property Appraiser and Tax Collector." },
-      { q: "What is the most common financial mistake buying a condo here?", a: "Skipping the reserve study. Florida's structural inspection and reserve funding requirements have driven fees and special assessments up sharply on older coastal buildings, and a low monthly fee on an under-reserved building is a warning rather than a bargain. Also confirm whether dockage is deeded, licensed or rented, and its annual cost." },
-      { q: "What costs do buyers underestimate in North Palm Beach?", a: "Boat ownership beyond the slip — maintenance, bottom work, fuel, insurance and haul-out. After that, the capital expenditure on mid-century houses, and the driving involved in eating out, since the village has limited dining and much of it happens in Palm Beach Gardens or West Palm Beach." },
+      {
+            "q": "How much does it cost to live in North Palm Beach?",
+            "a": "It depends on the property. The biggest variables are the mortgage, insurance, property taxes and association fees. This guide gives three hypothetical monthly budgets and a worksheet, but they are not local averages. Replace the placeholders with your own quotes."
+      },
+      {
+            "q": "What is the average home price in North Palm Beach?",
+            "a": "We do not publish an average. Miami REALTORS' Q1 2026 report lists a Village single-family median of $794,750 on 28 closed sales, which is one small quarterly sample. Prices vary widely by property type, waterfront configuration and condition."
+      },
+      {
+            "q": "How are property taxes calculated?",
+            "a": "Taxable value times the total millage rate divided by 1,000, summed across each taxing authority, plus any non-ad valorem assessments. Exemptions can change the taxable value that different authorities use."
+      },
+      {
+            "q": "Will my taxes increase after buying a home?",
+            "a": "They can. A change of ownership can trigger reassessment under Florida law, and the seller's bill may reflect a capped assessment. Ask for an address-specific estimate and do not use the seller's bill as your forecast."
+      },
+      {
+            "q": "What is the Village's property-tax rate?",
+            "a": "The Village's adopted FY 2027 operating millage is 7.4000 mills, the same as the prior year, approved on September 24, 2026. That is the Village levy alone. Your total rate adds county, school and other authorities, and appears on the parcel's tax bill."
+      },
+      {
+            "q": "How much is homeowners insurance?",
+            "a": "It varies by property. Roof age and type, wind mitigation, systems, claims history, coverage and deductibles all matter. We publish no typical premium, so get address-specific quotes from licensed professionals."
+      },
+      {
+            "q": "Is flood insurance required?",
+            "a": "Lenders generally require it for mortgaged properties in Special Flood Hazard Areas, and it is separate from homeowners insurance. Check the currently effective FEMA zone for the address, because proposed maps are not effective maps."
+      },
+      {
+            "q": "How much are condominium fees?",
+            "a": "They are building-specific, and a unit's total cost also reflects reserves, assessments, master insurance and capital plans. Request the budget and financial statements. A low fee is not automatically a warning sign."
+      },
+      {
+            "q": "Is North Palm Beach cheaper than Jupiter?",
+            "a": "We make no universal claim. Prices depend on property type, waterfront configuration, condition and timing, so compare specific properties and recent closed sales."
+      },
+      {
+            "q": "What costs come with a waterfront home?",
+            "a": "Flood and wind insurance, seawall and dock inspection and repair, permits, storm preparation and, if you own a boat, slip, insurance, maintenance and fuel. We publish no minimum seawall cost; get property-specific estimates."
+      },
+      {
+            "q": "Is Country Club membership mandatory?",
+            "a": "No. Public golf is offered, and golf memberships are currently sold out with a waitlist. Tennis and pool memberships have resident and nonresident categories. Check the club for current terms."
+      },
+      {
+            "q": "How much should I budget for home maintenance?",
+            "a": "A common planning heuristic is about 1 percent of a home's value a year, which is a general rule of thumb, not a Village statistic. Older and waterfront homes may need a more detailed plan based on an inspection."
+      }
     ],
-    internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "what-its-really-like-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida"],
-    funFact: "North Palm Beach waterfront single-family homes typically run 20–30% below comparable Intracoastal properties in Jupiter just to the north. The gap has persisted for a decade despite North Palm's equal water access and better municipal amenities — largely because Jupiter's brand recognition is stronger with out-of-state buyers.",
+    internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "best-things-to-do-in-north-palm-beach-florida"],
+    funFact: "The purchase price is only the beginning of the North Palm Beach ownership equation. Two homes with similar asking prices can have dramatically different total costs once insurance, property taxes, association obligations, renovation needs and waterfront maintenance are included.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-10',
   },
   {
     slug: 'hidden-gems-in-north-palm-beach-florida',
