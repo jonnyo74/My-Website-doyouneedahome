@@ -33027,97 +33027,165 @@ Palm Beach Gardens dining is best explored by district and occasion: PGA Commons
     cityName: 'North Palm Beach',
     type: "What It's Really Like Living In",
     order: 1,
-    seoTitle: "What It's Really Like Living in North Palm Beach, Florida (Local Guide)",
-    metaTitle: "What It's Really Like Living in North Palm Beach, FL",
-    metaDescription: "A local look at living in North Palm Beach, Florida — a waterfront village with boating in its blood, a Jack Nicklaus municipal golf course, and real community feel.",
+    seoTitle: "Living in North Palm Beach, FL: Lifestyle, Homes & Waterfront",
+    metaTitle: "Living in North Palm Beach, FL: Lifestyle, Homes & Waterfront",
+    metaDescription: "Discover what living in North Palm Beach, FL is really like, from waterfront homes and boating to the Village Country Club, neighborhoods and daily life.",
     primaryKeyword: "living in North Palm Beach Florida",
-    secondaryKeywords: ["moving to North Palm Beach FL", "North Palm Beach lifestyle", "is North Palm Beach a good place to live", "North Palm Beach village"],
+    secondaryKeywords: ["what is North Palm Beach FL like","North Palm Beach village","North Palm Beach Country Club","North Palm Beach waterfront homes","moving to North Palm Beach FL","is North Palm Beach a good place to live"],
     h1: "What It's Really Like Living in North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-001.jpg',
-    body: `North Palm Beach is a village of roughly thirteen thousand people that runs its own police department, its own public works, and — unusually — its own country club with a golf course carrying a Jack Nicklaus redesign credit.
+    heroImage: "/images/north-palm-beach/npb-living-hero.webp",
+    heroImageAlt: "An elevated view of a marina with moored yachts along the docks and a wide waterway under a blue sky",
+    heroImageCaption: "A marina on the waterway, seen from above. The photograph illustrates the waterfront setting this guide discusses. It is not a listing.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: 'Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.',
+    editorial: {
+      eyebrow: "North Palm Beach · Living Here",
+      deck: "What everyday life is like in the Village of North Palm Beach: Village services, waterfront and canals, the Village-owned Country Club, parks, older homes and the tradeoffs that come with them.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-living-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-living-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: {"label":"Waterfront, explained","href":"#waterfront-living-is-central-but-not-every-home-is-waterfront"},
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: { eyebrow: 'Next step', text: "Thinking about living in North Palm Beach? Explore available homes, compare waterfront and non-waterfront properties, or ask DO Homes Group to help you narrow your search. No sign-up needed.", cta: { label: 'Talk with us', href: '/contact' } },
+    },
+    body: `**Living in North Palm Beach** means living in a small incorporated village on the water in northern Palm Beach County. The Village describes itself as a residential community of about 13,000 year-round residents, rising to roughly 15,000 in winter ([Village budget summary](https://www.village-npb.org/DocumentCenter/View/12749/FY25-Budget-in-Brief)). It runs its own police department, fire rescue, public works and parks, and it owns a country club. Canals and the Intracoastal Waterway shape the map, much of the housing is older and established, and there is no traditional downtown: everyday errands run along US-1 and Northlake Boulevard, with Palm Beach Gardens to the north and West Palm Beach to the south.
 
-That last fact tells you more about this place than any description of the housing stock. It is a small town that decided to behave like a bigger one, and the result is a community with a genuine civic center in a part of Florida where most places have a shopping plaza instead.
+That is the short answer. The details that matter for a home search are which part of the Village you are in, what kind of water you are actually on, and how old the house is.
 
-## What "village" actually means here
+## A Small Incorporated Village With Its Own Identity
 
-The word gets used loosely in Florida real estate. Here it's literal: North Palm Beach is an incorporated village with its own government, and it is small enough that the same faces turn up at the club, the marina, the park and the village hall.
+North Palm Beach was incorporated on August 13, 1956, under Chapter 31481, Laws of Florida, Extraordinary Session 1956, according to the Village's own financial documents. The land behind it was assembled earlier. [Palm Beach County's history page](https://education.pbchistory.org/pbc_community/north-palm-beach/) says John D. MacArthur bought roughly 2,600 acres in 1954, and that the contractors who developed the Village, the Ross brothers, dredged extensively to create waterfront lots. The same source says the Village was named the year's best planned community by the National Association of Home Builders. The developers shaped the street grid, the canals and the lots. The landowner's role was the purchase.
 
-The practical effects are real. Services are local rather than county-run, which generally means faster and more personal. The council is accessible in a way a city commission isn't. And decisions about the village get made by people who live in it and will see you at the pool.
+**What the Village does itself.** Its [departments page](https://www.village-npb.org/148/Departments) lists a police department, a fire rescue department (both at 560 US Highway 1), public works, a community development department that handles building, planning and zoning, parks and recreation, a library and the country club. Water and sewer are not Village services. They come from [Seacoast Utility Authority](https://village-npb.org/m/faq?cat=20), a regional utility whose board is appointed by the jurisdictions it serves. We make no claim that Village services are faster or better than county ones. The practical point is simple: permits, zoning, parks and the club are handled at Village Hall, not by the County.
 
-The flip side is scale. Thirteen thousand people cannot support a restaurant scene, a nightlife district, or much retail beyond the essentials. What the village has instead is proximity — Palm Beach Gardens is minutes north, West Palm Beach a short drive south — and residents treat those as extensions of home rather than as trips.
+### Check the Village line before you fall for an address
 
-## The club is the town square
+A North Palm Beach mailing address does not always mean a Village address. Northlake Boulevard marks much of the line with the Town of Lake Park to the south ([overview](https://en.wikipedia.org/wiki/Northlake_Boulevard)), and Palm Beach Gardens borders it to the north. Parcels in unincorporated areas can carry a North Palm Beach postal address. Palm Beach County's [zoning FAQ](https://discover.pbc.gov/pzb/FAQPages/Zoning.aspx) explains that a parcel number starting with 00 is unincorporated, and the County publishes a [municipal boundary map](https://discover.pbc.gov/pzb/Maps/Boundary-Maps.aspx). Confirm the jurisdiction of any address, marina or shopping center before you rely on Village rules, rates or services.
 
-Most communities with a country club have one that excludes most of the community. North Palm Beach owns its own, and residents can join at rates set by the village rather than by a membership committee.
+## Waterfront Living Is Central — But Not Every Home Is Waterfront
 
-This changes the social structure of the place. Golf, tennis, pickleball, the pool and a waterfront restaurant all sit in one municipally owned spot, which means the club functions as a civic gathering place rather than a private enclave. Newcomers who join tend to meet people quickly. Newcomers who don't tend to take considerably longer.
+Water organizes this Village, but the word covers very different things. These terms are not interchangeable:
 
-That's worth knowing before you move. In a village this size, with no walkable downtown to bump into people in, the club does a lot of the work that a main street does elsewhere.
+| Term | What it means | What to confirm |
+|---|---|---|
+| Water view | You can see a canal, lake or the Intracoastal | A view is not access to the water |
+| Canal frontage | The lot borders a canal | The seawall's condition and who maintains it |
+| Dockable waterfront | A dock exists or could be permitted | Dock and seawall permits, and canal rules |
+| Navigable access | A boat can get from the dock to open water | Water depth and the clearance of every fixed bridge on the route |
+| Ocean access | A route reaches an inlet and the Atlantic | The whole route to Lake Worth Inlet. No listing can promise it |
 
-## Water is the organizing fact
+**Fixed bridges decide what "access" means.** Coast Guard public notices show why. A [July 1, 2026 notice](https://www.navcen.uscg.gov/sites/default/files/pdf/bridges/publicNotices/D07_PN06-26_LighthouseDrive_NPalmBeachCanal_FL.pdf) describes the Village's plan to replace the fixed Lighthouse Drive bridge over the North Palm Beach Canal with a new fixed free-span bridge, listing vertical clearance of about 15 feet and a horizontal opening growing from 22.5 to 49.5 feet. A [2022 notice](https://www.navcen.uscg.gov/sites/default/files/pdf/bridges/publicNotices/D07PN07-22_ProsperityFarmsRoadBridge_EarmanRiverFlorida.pdf) for the Prosperity Farms Road bridge over the Earman River lists a current vertical clearance of 8.6 feet. Both describe proposed work and use specific datums, so check the notices and the current status. The point for a buyer is that a tall mast or flybridge may not fit under every bridge, and a canal home's route depends on which waterway it sits on.
 
-Canals run through the residential streets, a great many houses have dockage behind them, and the Intracoastal forms the eastern edge of the village.
+**Ocean access also depends on the whole route.** The Intracoastal runs toward Lake Worth (Palm Beach) Inlet to the south. A marina such as [Safe Harbor Old Port Cove](https://www.waterwayguide.com/marina/safe-harbor-old-port-cove) on Lakeshore Drive describes its channel as about four miles north of that inlet. That is a marina's description, not a promise about any canal home. We give no travel times, because they depend on your boat, the tides and the bridge schedule.
 
-## The MacArthur inheritance
+**Intracoastal waterfront is not oceanfront.** Beach access means a trip, for example to [John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park), a state park with a North Palm Beach address on Jack Nicklaus Drive. The state sets its hours and entrance fee, and it is not a Village facility.
 
-Worth knowing, because it explains the shape of the place.
+**Waterfront ownership comes with obligations.** The Village says docks, seawalls and pools generally need permits ([Village FAQ](http://www.village-npb.org/m/faq?cat=23)), and its [Building Division](https://www.village-npb.org/149/Building-Division) issues flood zone determinations and elevation certificates. Ask for the flood zone, the seawall inspection history, dock permits, a wind-mitigation report and written insurance quotes. The [Village's flood insurance page](https://www.village-npb.org/868/National-Flood-Insurance-Program) is the place to start on flood questions.
 
-Much of this stretch of northern Palm Beach County was assembled and developed in the mid-twentieth century under the ownership of a single insurance magnate whose land holdings ran from here well into what became Palm Beach Gardens. The village was platted and built out in that era, on that land, to that era's ideas about how a suburb should work.
+## The North Palm Beach Country Club
 
-That's why the streets are laid out the way they are, why the lots are the size they are, and why the village ended up with a golf course and a marina at its center rather than a shopping district. It was designed as a place to live rather than a place to trade.
+The [North Palm Beach Country Club](https://www.village-npb.org/453/North-Palm-Beach-Country-Club) is owned by the Village and open to the public year-round. Its golf course was redesigned by Nicklaus Design in 2006, with Jack Nicklaus donating his design services, and a new clubhouse followed in 2018. The Village lists a lighted Har-Tru tennis center, a renovated pool and The Clubhouse restaurant, run by Lessing's Hospitality Group and open to the public.
 
-It also explains the abrupt shift in character crossing into Palm Beach Gardens: same original landowner, twenty years later, entirely different planning philosophy.
+**Membership is not the same as access.** Golf membership is currently sold out, with a waitlist, but the course stays open to public play, and residents can get a resident card for lower rates. Tennis and pool memberships have separate resident and nonresident categories, and the Village's [membership classifications](https://www.village-npb.org/705/Membership-Classifications) explain the proof of residency it requires. Prices change each fiscal year, so use the Village's [membership page](https://www.village-npb.org/493/Memberships) rather than a figure in an article. A membership is one way to meet people, not a requirement for a social life here. We did not find pickleball listed at the club. The public courts at Anchorage Park do list it.
 
-The important detail for anyone buying with a boat in mind: ocean access runs south through the Lake Worth Inlet, which is a genuine, reliable, well-maintained cut. This is not a village where you look at the water and drive somewhere else to use it.
+## Parks, Recreation and Everyday Outdoor Life
 
-The result is that boating here is ordinary rather than aspirational. People run out for an afternoon, come back, and think nothing of it — and the social life of the village organises around that as much as around the club.
+The Village's [recreation facilities page](https://www.village-npb.org/274/Recreation-Facilities) is the reference. The anchor is [Anchorage Park](https://www.village-npb.org/533/Anchorage-Park) at 603 Anchorage Drive, 21.5 acres with a baseball field, two tennis and pickleball courts, four sand volleyball courts, a fitness trail, a dog park and a playground. It also has a boat ramp and wet storage, and both are resident-only: the ramp requires a Village permit. Other Village facilities include the Community Center on Prosperity Farms Road, Osborne Park with lighted fields and courts, and Lakeside Park with beach access and a playground. Facility rentals have lower rates for residents. Unlike the county or Palm Beach Gardens parks nearby, these are Village facilities with Village rules, so check the page before you plan around one.
 
-## The housing is mostly mid-century, and that matters
+## Homes, Streets and Neighborhood Character
 
-Much of the village was built out from the late 1950s onward, and a large share of the housing stock dates from that era.
+The Village was developed from the mid-1950s on, so much of the housing is older. A property record shows each home's year built on the [Palm Beach County Property Appraiser](https://pbcpao.gov) site, which is a better guide than an assumption about the whole Village. You will find single-family homes on interior streets, waterfront and canal-front houses, condominium buildings, townhomes and marina communities, and the mix can change within a short drive. Our [neighborhood guide](/blog/best-neighborhoods-in-north-palm-beach-florida) goes area by area.
 
-What that gives you: sensible lot sizes, mature landscaping, streets that were laid out before cul-de-sac subdivisions became the default, and a scale of house that feels human rather than enormous.
+**Older does not mean deficient.** Many homes have been updated well. The questions that matter are the same for any older property: the age of the roof, whether openings have impact protection, the electrical and plumbing systems, insurance availability, flood zone, seawall condition for waterfront homes, and for condominiums, the association's reserves and any assessments. Treat these as questions to put to the seller and the inspector, not as a verdict.
 
-What it costs you: roofs, windows, plumbing, electrical and insurance. A great many of these houses have been renovated, some spectacularly. Others have not. The variation within a single street can be substantial, and the diligence burden on a buyer is higher here than in newer construction.
+**A dated look at the market.** Census QuickFacts reports a [median owner-occupied home value of $513,000](https://www.census.gov/quickfacts/northpalmbeachvillageflorida) for the Village (2020–2024 survey estimates) and a 74.5 percent owner-occupied rate. Redfin's city page showed a [median sale price of about $540,892](https://www.redfin.com/city/12721/FL/North-Palm-Beach/housing-market) for August 2026. They measure different things, and a median says nothing about a particular street or house. For ownership costs, see the [cost of living guide](/blog/cost-of-living-in-north-palm-beach-florida).
 
-Anyone shopping here should treat the renovation question as central rather than incidental — our [neighborhood guide](/blog/best-neighborhoods-in-north-palm-beach-florida) goes through what to check.
+## Shopping, Dining and Getting Around
 
-## The year here
+Errands cluster along US-1 and Northlake Boulevard, the Village's main commercial corridor, which it shares with Lake Park. The old Twin City Mall site at Northlake and US-1, shared by the two municipalities, has been redeveloped as a Publix-anchored shopping center. The Village describes itself as about nine miles north of West Palm Beach, and Palm Beach Gardens' retail and medical centers are close to the north. The Village is also replacing the Lighthouse Drive bridge, and its [project page](https://engage.zencity.io/north-palm-beach-fl/en/projects/lighthouse-drive-bridge-replacement-project) has the timing. We give no commute times: test your own route at your own hours. For restaurants and hangouts, see our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-north-palm-beach-florida), and for events and outings, the [things to do guide](/blog/best-things-to-do-in-north-palm-beach-florida).
 
-Season runs roughly November through April. The village fills, the club gets busy, the ramp queues, and the roads thicken — though far less dramatically than in the cities south of here, because nobody is coming to North Palm Beach as a destination.
+## What Changes With the Seasons?
 
-Summer is hot, wet, and quiet. Afternoon storms build most days. The water is warm enough to be unremarkable and the boat traffic thins out.
+The Village's own figures show the seasonal swing: about 13,000 year-round residents, about 15,000 in winter. Beyond that we found no published data on traffic, boat-ramp wait times or crowding, so we make no comparative claims. The ramp is resident-permit only, which limits one kind of crowding. Summer is hot and wet, and Atlantic hurricane season runs June 1 to November 30, which is why flood zone, wind mitigation and insurance belong in every offer.
 
-The seasonal swing is gentler than in most of the county, and that's a genuine feature. This is not a town that empties or that gets overrun. It mostly just carries on.
+## The Tradeoffs of Living Here
 
-## Who ends up staying
+**What many buyers value:** waterfront housing options; an established residential setting; Village-run recreation and a municipal country club; and Palm Beach Gardens and West Palm Beach close by.
 
-The pattern is consistent: people who bought here for the water, the club, or the scale tend to stay a long time. Turnover is low, and a meaningful share of residents have been here for decades.
+**What to weigh:** older systems in older homes; waterfront maintenance and permitting; insurance and flood costs; limited traditional downtown life; most errands by car; bridge and depth limits on boating; and association or condominium obligations that vary by building. None of these is universal, and each depends on the specific property. The [pros and cons guide](/blog/pros-and-cons-of-living-in-north-palm-beach-florida) weighs them in detail.
 
-People who struggle are usually the ones who wanted a beach town and discovered they'd bought an Intracoastal one, or who wanted a walkable center and found the club instead.
+## Is North Palm Beach a Good Fit for Your Home Search?
 
-Neither of those is a flaw in the village. They're just mismatches, and both are avoidable by looking honestly at what's actually here.
+Settle these before you tour:
 
-## The honest bottom line
+1. **What kind of water do you need?** A view, a dock or a boat route are different searches.
+2. **What boat, and what route?** Check fixed-bridge clearance and depth for your vessel.
+3. **How old a house are you comfortable with?** Budget for the roof, systems and insurance.
+4. **House, townhome or condominium?** Condominiums add association documents and reserves.
+5. **What will you use weekly?** Anchorage Park, the club, US-1 errands and your work route are all different points on the map.
+6. **Which address?** Confirm it is in the Village, then compare properties on the same type.
 
-North Palm Beach is a small, established, water-oriented village with an unusually strong civic core and housing that is mostly older than it looks in photographs.
+Our [who should move guide](/blog/who-should-move-to-north-palm-beach-florida) and [nearby cities comparison](/blog/north-palm-beach-vs-nearby-cities) work through the fit question, and the [Local's Guide](/blog/local-guide-to-north-palm-beach-florida) and [hidden gems](/blog/hidden-gems-in-north-palm-beach-florida) cover the Village once you are settled.
 
-It offers boating and golf at prices below the towns immediately north and east, in exchange for scale, newness, and an ocean you have to drive to.
+> **Thinking about living in North Palm Beach?** Explore [available homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000), compare [waterfront properties](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000), see the [North Palm Beach community page](/communities/north-palm-beach) or [ask DO Homes Group](/contact) to help you narrow your search. No sign-up needed.
 
-If that trade sounds right, our [comparison with the neighboring towns](/blog/north-palm-beach-vs-nearby-cities) shows exactly what the saving buys — and the [weighed list of trade-offs](/blog/pros-and-cons-of-living-in-north-palm-beach-florida) is the fastest test of whether the drawbacks would bother you.`,
+## How We Checked This Guide
+
+Facts come from the Village of North Palm Beach, Palm Beach County, the U.S. Coast Guard, the Florida State Parks system, the Census Bureau and Redfin, and we reviewed them on October 10, 2026. Fees, hours and memberships change, so we link the source instead of quoting prices. If you spot an error, [tell us](/contact).
+
+## Continue exploring North Palm Beach
+
+- [A Local's Guide to North Palm Beach](/blog/local-guide-to-north-palm-beach-florida)
+- [Best Neighborhoods in North Palm Beach](/blog/best-neighborhoods-in-north-palm-beach-florida)
+- [Cost of Living in North Palm Beach](/blog/cost-of-living-in-north-palm-beach-florida)
+- [Pros and Cons of Living in North Palm Beach](/blog/pros-and-cons-of-living-in-north-palm-beach-florida)
+- [North Palm Beach vs Nearby Cities](/blog/north-palm-beach-vs-nearby-cities)`,
     faqs: [
-      { q: "What is North Palm Beach like to live in?", a: "It is a small incorporated village of around thirteen thousand people with its own police department, public works and country club. Water organises daily life — canals run through the residential streets and many houses have dockage. The scale means no nightlife or significant retail, but Palm Beach Gardens and West Palm Beach are both a short drive." },
-      { q: "Is the North Palm Beach Country Club really open to residents?", a: "Yes — the village owns it, and residents can join at rates set by the village rather than by a membership committee. Golf, tennis, pickleball, a pool and a waterfront restaurant all sit in one municipally owned spot. In a village with no walkable downtown, it does much of the social work a main street does elsewhere." },
-      { q: "Can you get to the ocean by boat from North Palm Beach?", a: "Yes, running south through the Lake Worth Inlet, which is a reliable and well-maintained cut. That makes boating here ordinary rather than aspirational — people run out for an afternoon and think nothing of it. It is a meaningful advantage over coastal towns further south that have no inlet of their own." },
-      { q: "Is the housing in North Palm Beach old?", a: "Much of it, yes. The village largely built out from the late 1950s onward, so a large share of the stock is mid-century. That brings sensible lot sizes and mature landscaping, but also roofs, windows, plumbing, electrical and insurance considerations. Many houses have been renovated and many have not, sometimes on the same street." },
-      { q: "Does North Palm Beach get crowded in season?", a: "Less than most of the county. The village fills from roughly November through April, the club gets busy and the boat ramp queues, but nobody visits North Palm Beach as a destination, so the swing is gentle. Summer is hot, wet and quiet. The town mostly just carries on." },
-      { q: "Who is happiest living in North Palm Beach?", a: "People who came for the water, the club or the small scale — turnover is low and many residents have been here decades. The ones who struggle usually wanted a beach town and discovered they had bought an Intracoastal one, or wanted a walkable center and found the country club instead." },
+      {
+            "q": "What is it like to live in North Palm Beach, Florida?",
+            "a": "North Palm Beach is a small incorporated village of about 13,000 year-round residents, per the Village. Canals and the Intracoastal shape daily life, much of the housing is older, and the Village runs its own police, fire rescue, public works, parks and a municipal country club. It has no traditional downtown, so errands run along US-1 and Northlake Boulevard."
+      },
+      {
+            "q": "What services does the Village of North Palm Beach provide?",
+            "a": "Its departments include police, fire rescue, public works, building and zoning, parks and recreation, a library and the country club. Water and sewer come from Seacoast Utility Authority, not the Village."
+      },
+      {
+            "q": "Is the North Palm Beach Country Club open to the public?",
+            "a": "Yes. The Village owns it and the golf course is open to public play, though golf membership is currently sold out. Tennis and pool memberships have resident and nonresident categories, and The Clubhouse restaurant is open to the public. Check the Village's membership page for current details."
+      },
+      {
+            "q": "Can every canal home in North Palm Beach reach the ocean by boat?",
+            "a": "No. Access depends on the canal, water depth, the boat's size and the clearance of fixed bridges on the route toward Lake Worth Inlet. Verify the route for your boat, and do not assume a canal or dock means ocean access."
+      },
+      {
+            "q": "Is North Palm Beach on the ocean?",
+            "a": "The Village's waterfront is mostly canals, lakes and the Intracoastal Waterway. Ocean beaches, such as John D. MacArthur Beach State Park, are a separate trip, so verify any listing that says oceanfront."
+      },
+      {
+            "q": "Are homes in North Palm Beach old?",
+            "a": "The Village was developed from the mid-1950s on, so many homes are older, though many have been updated. Check each home's year built on the Property Appraiser site, then ask about the roof, impact protection, electrical and plumbing systems, flood zone and insurance."
+      },
+      {
+            "q": "Is a North Palm Beach mailing address always inside the Village?",
+            "a": "No. Some unincorporated parcels carry a North Palm Beach address, and Palm Beach Gardens and Lake Park border the Village. Check the municipality using Palm Beach County's boundary map or the parcel number before you rely on Village rules."
+      },
+      {
+            "q": "Does North Palm Beach get busier in winter?",
+            "a": "The Village reports about 13,000 year-round residents and about 15,000 in winter. We found no published data on traffic or crowding beyond that."
+      }
     ],
-    internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "pros-and-cons-of-living-in-north-palm-beach-florida"],
-    funFact: "North Palm Beach was incorporated in 1956 by residents who wanted to protect their Intracoastal neighborhood from annexation by the City of West Palm Beach. That founding impulse — independence and preservation over growth — has shaped the village character ever since.",
+    internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida"],
+    funFact: "When you compare North Palm Beach properties, the biggest differences usually come down to the specific street, the age of the home, the kind of water access, any association obligations and how close the address is to the amenities you will actually use. Two homes in the same Village can behave very differently, so compare the same property type and verify each one.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-10',
   },
   {
     slug: 'local-guide-to-north-palm-beach-florida',
@@ -33131,7 +33199,22 @@ If that trade sounds right, our [comparison with the neighboring towns](/blog/no
     primaryKeyword: "North Palm Beach local guide",
     secondaryKeywords: ["North Palm Beach insider tips", "things locals do in North Palm Beach", "moving to North Palm Beach guide"],
     h1: "A Local's Guide to North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-002.jpg',
+    heroImage: "/images/north-palm-beach/npb-guide-hero.webp",
+    heroImageAlt: "A white clubhouse with a columned entrance, a flagpole and two royal palms behind a landscaped drive",
+    heroImageCaption: "A clubhouse and landscaped drive. The photograph illustrates the Village setting this guide discusses. It is not a listing.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Local Guide",
+      deck: "A local's guide to getting settled and finding your way around the Village of North Palm Beach.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-guide-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-guide-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     body: `The practical layer: how the village is laid out, who handles what, and the things new residents work out a month too late.
 
 ## The layout
@@ -33240,7 +33323,22 @@ For the feel of the place rather than the mechanics, read [what living here is a
     primaryKeyword: "best neighborhoods in North Palm Beach Florida",
     secondaryKeywords: ["where to live in North Palm Beach", "Lost Tree Village", "Old Port Cove", "North Palm Beach waterfront"],
     h1: "Best Neighborhoods in North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-003.jpg',
+    heroImage: "/images/north-palm-beach/npb-neighborhoods-hero.webp",
+    heroImageAlt: "A waterfront pool deck beside a wide waterway with a distant skyline",
+    heroImageCaption: "A waterfront pool deck. The photograph illustrates the waterfront setting this guide discusses. It is not a listing.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Neighborhoods",
+      deck: "The neighborhoods and housing types of North Palm Beach, and what to check before you commit to a street.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-neighborhoods-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-neighborhoods-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     body: `For a village of this size, North Palm Beach contains a remarkable spread — from guard-gated waterfront estates to modest mid-century houses on interior streets, sometimes within a mile of each other.
 
 Here's what's actually here, and what to check before committing to any of it.
@@ -33351,7 +33449,22 @@ Whatever you land on, verify flood zone, elevation, permit history, dock and sea
     primaryKeyword: "things to do in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach attractions", "what to do in North Palm Beach", "North Palm Beach Country Club", "Anchorage Park"],
     h1: "Best Things to Do in North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-004.jpg',
+    heroImage: "/images/north-palm-beach/npb-things-hero.webp",
+    heroImageAlt: "A golf green and sand bunker with a drawbridge tower and palms behind",
+    heroImageCaption: "A golf green and bunker with a drawbridge tower behind. The photograph illustrates the recreation this guide discusses.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Things to Do",
+      deck: "Things to do in and around North Palm Beach, from the Village-owned country club to parks and the water.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-things-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-things-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     body: `A village of thirteen thousand shouldn't have this much to do. North Palm Beach gets away with it by owning its own recreation and by sitting within a few minutes of some of the better water access in Palm Beach County.
 
 Here's what's genuinely worth your time.
@@ -33456,7 +33569,7 @@ Those three cover what this village is actually for, and none of them requires y
       { q: "How far is North Palm Beach from the beach?", a: "Fifteen minutes or less to several good options, since the village sits on the mainland rather than the barrier island. That is why the absence of oceanfront bothers residents considerably less than it bothers people reading listings." },
       { q: "What should a new resident do first in North Palm Beach?", a: "Join the village club within the first month — it compresses a year of meeting people into a few weeks, which matters in a village with no walkable downtown. Then play the course, take a boat out through the inlet, and spend a morning at the state park." },
     ],
-    internalLinks: ["hidden-gems-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida"],
+    internalLinks: ["hidden-gems-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
     funFact: "The North Palm Beach Country Club golf course was redesigned by Jack Nicklaus in 1994 and remains one of the few Nicklaus-designed courses accessible to the public without a private club membership. Green fees run a fraction of comparable private-club access anywhere in the county.",
     author: 'christine',
     published: true,
@@ -33474,7 +33587,22 @@ Those three cover what this village is actually for, and none of them requires y
     primaryKeyword: "who should move to North Palm Beach Florida",
     secondaryKeywords: ["is North Palm Beach right for me", "should I move to North Palm Beach", "who lives in North Palm Beach"],
     h1: "Who Should Move to North Palm Beach, Florida (And Who Shouldn't)",
-    heroImage: '/images/north-palm-beach/north-palm-005.jpg',
+    heroImage: "/images/north-palm-beach/npb-who-hero.webp",
+    heroImageAlt: "Moored yachts and sport-fishing boats along marina docks seen from above",
+    heroImageCaption: "Boats along marina docks, seen from above. The photograph illustrates the boating setting this guide discusses.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Is It a Fit?",
+      deck: "Who North Palm Beach fits well, and who may be happier somewhere else.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-who-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-who-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     body: `North Palm Beach suits a fairly specific set of people extremely well and everyone else moderately. Working out which group you're in before you buy is the whole exercise.
 
 Here are the profiles, the mismatches, and the practical realities that decide it.
@@ -33562,7 +33690,7 @@ Before you shop, get concrete about the boat, the budget and the renovation appe
       { q: "What is the single most important thing to check before buying here?", a: "If you have a boat: fixed bridge clearances between the house and the Intracoastal, and dock depth at mean low water against your actual draft. It disqualifies specific streets for specific boats and it is the most common late discovery. If you do not have a boat: roof age, which drives both capital cost and insurability." },
       { q: "How do I know if North Palm Beach suits me?", a: "Play the village course and eat at the club afterwards on a weekday. If it reads as friendly and unpretentious and you can picture doing it weekly, you have found what makes the village work. If it reads as sleepy, believe that — you want more town than this has, and Palm Beach Gardens or Jupiter will suit you better." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
+    internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
     funFact: "North Palm Beach has one of the highest owner-occupancy rates and lowest turnover rates of any municipality in central Palm Beach County — a function of its small size and stable residential character. Long-term residents consistently cite that stability as a top reason they haven't left. Buyers researching crime statistics should consult the North Palm Beach Police Department and FDLE Uniform Crime Reports.",
     author: 'john',
     published: true,
@@ -33580,7 +33708,22 @@ Before you shop, get concrete about the boat, the budget and the renovation appe
     primaryKeyword: "pros and cons of living in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach pros and cons", "living in North Palm Beach downsides", "is North Palm Beach worth it"],
     h1: "Pros and Cons of Living in North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-006.jpg',
+    heroImage: "/images/north-palm-beach/npb-proscons-hero.webp",
+    heroImageAlt: "A pool and dock beside a waterway with a sport-fishing boat and a waterfront house",
+    heroImageCaption: "A pool, dock and waterfront house. The photograph illustrates the waterfront setting this guide discusses. It is not a listing.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Pros and Cons",
+      deck: "The pros and cons of living in North Palm Beach, weighed side by side.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-proscons-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-proscons-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     showMarketTrends: true,
     body: `North Palm Beach is unusual in that most of its drawbacks are simply consequences of its size, and most of its advantages are things a village that size shouldn't have.
 
@@ -33669,7 +33812,7 @@ Get those two right and North Palm Beach is an easy place to be happy. Our [prof
       { q: "Is an older house in North Palm Beach a good idea?", a: "It can be one of the better value propositions on this coast if you have the appetite — the lots and street layouts are better than what is being built now. The essential checks are roof age, which drives both capital cost and insurability, plus permit history, electrical and plumbing. Get insurance quoted before you buy." },
       { q: "Would I be better off in Jupiter or Palm Beach Gardens?", a: "If you want a walkable center, new construction and a restaurant scene, then yes — but you will pay accordingly. A version of North Palm Beach with those things would cost what Jupiter costs and would be Jupiter. The village trades those for value, water access and an unusually strong civic core." },
     ],
-    internalLinks: ["who-should-move-to-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida"],
+    internalLinks: ["who-should-move-to-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
     funFact: "North Palm Beach is on the Intracoastal Waterway, not the ocean — the nearest beach is a short drive to Singer Island or Juno Beach. Boaters don't feel this trade-off at all since their access is on the water daily; buyers who picture an oceanfront lifestyle need to plan the drive.",
     author: 'christine',
     published: true,
@@ -33687,7 +33830,22 @@ Get those two right and North Palm Beach is an easy place to be happy. Our [prof
     primaryKeyword: "cost of living in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach home prices", "is North Palm Beach affordable", "North Palm Beach FL cost of living"],
     h1: "Cost of Living in North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-007.jpg',
+    heroImage: "/images/north-palm-beach/npb-cost-hero.webp",
+    heroImageAlt: "A white clubhouse with a columned entrance and a blue roof behind a lawn and landscaped drive",
+    heroImageCaption: "A clubhouse and landscaped drive. The photograph illustrates the Village setting this guide discusses. It is not a listing.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Cost of Living",
+      deck: "What it costs to live in and own a home in North Palm Beach.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-cost-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-cost-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     showMarketTrends: true,
     body: `North Palm Beach's reputation is that it's the affordable way to live on the water in this part of the county. That's broadly accurate on purchase price and considerably less accurate on what it costs to own.
 
@@ -33779,7 +33937,7 @@ But it lives almost entirely in the purchase price. Insurance on older houses, a
       { q: "What is the most common financial mistake buying a condo here?", a: "Skipping the reserve study. Florida's structural inspection and reserve funding requirements have driven fees and special assessments up sharply on older coastal buildings, and a low monthly fee on an under-reserved building is a warning rather than a bargain. Also confirm whether dockage is deeded, licensed or rented, and its annual cost." },
       { q: "What costs do buyers underestimate in North Palm Beach?", a: "Boat ownership beyond the slip — maintenance, bottom work, fuel, insurance and haul-out. After that, the capital expenditure on mid-century houses, and the driving involved in eating out, since the village has limited dining and much of it happens in Palm Beach Gardens or West Palm Beach." },
     ],
-    internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities"],
+    internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "what-its-really-like-living-in-north-palm-beach-florida"],
     funFact: "North Palm Beach waterfront single-family homes typically run 20–30% below comparable Intracoastal properties in Jupiter just to the north. The gap has persisted for a decade despite North Palm's equal water access and better municipal amenities — largely because Jupiter's brand recognition is stronger with out-of-state buyers.",
     author: 'john',
     published: true,
@@ -33797,7 +33955,22 @@ But it lives almost entirely in the purchase price. Insurance on older houses, a
     primaryKeyword: "hidden gems in North Palm Beach Florida",
     secondaryKeywords: ["North Palm Beach secret spots", "free things to do in North Palm Beach", "MacArthur Beach State Park"],
     h1: "Hidden Gems in North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-008.jpeg',
+    heroImage: "/images/north-palm-beach/npb-gems-hero.webp",
+    heroImageAlt: "A sand bunker on a golf course with a green and flag beyond",
+    heroImageCaption: "A bunker and green on a golf course. The photograph illustrates the recreation this guide discusses.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Hidden Gems",
+      deck: "Lesser-known places and local details in North Palm Beach.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-gems-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-gems-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     body: `The village's headline assets — the club, the boating, the state park across the water — are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-north-palm-beach-florida).
 
 This is the smaller stuff: the places and habits residents accumulate over a year or two, most of them free, none of them on any list.
@@ -33899,7 +34072,7 @@ For the practical side of settling in, our [guide to operating here](/blog/local
       { q: "Is the boardwalk at the state park worth doing?", a: "Arguably more than the beach it leads to. It is a long crossing over shallow water and mangrove with wading birds, rays and fish beneath you, and most visitors treat it as a corridor rather than a destination. Go early, go at low tide, and take your time." },
       { q: "How do I discover the good parts of North Palm Beach?", a: "By wandering, asking neighbors, and getting on the water. The village does not advertise itself even to residents — there is no visitor center and its own attention goes to the club and the park. Go early, go on weekdays, and be willing to stop somewhere that looks like nothing much." },
     ],
-    internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida"],
+    internalLinks: ["best-things-to-do-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
     funFact: "The North Palm Beach marina at Old Port Cove has a working boat yard and live-aboard community that gives the area an authentic maritime character you don't find in newer marina communities. Early morning at the docks smells like salt, diesel, and bait — exactly what boaters who are tired of resort marina aesthetics are looking for.",
     author: 'christine',
     published: true,
@@ -33917,7 +34090,22 @@ For the practical side of settling in, our [guide to operating here](/blog/local
     primaryKeyword: "North Palm Beach vs nearby cities",
     secondaryKeywords: ["North Palm Beach vs Palm Beach Gardens", "North Palm Beach vs Jupiter", "North Palm Beach vs Singer Island"],
     h1: "North Palm Beach vs Nearby Cities: How to Choose",
-    heroImage: '/images/north-palm-beach/north-palm-001.jpg',
+    heroImage: "/images/north-palm-beach/npb-vs-hero.webp",
+    heroImageAlt: "A high-rise beside a marina and a wide waterway, seen from above",
+    heroImageCaption: "A tower beside a marina and waterway, seen from above. The photograph illustrates the waterfront setting this guide discusses.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Compare Nearby Areas",
+      deck: "How North Palm Beach compares with the places around it, and how to choose.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-vs-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-vs-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     showMarketTrends: true,
     body: `North Palm Beach is rarely the first place a buyer looks. It's usually the place they find after pricing Jupiter, discovering what Palm Beach Gardens costs, or realising a Singer Island condo isn't the life they wanted.
 
@@ -34055,7 +34243,22 @@ One practical note: **check whether an address is inside the village or in uninc
     primaryKeyword: "best restaurants in North Palm Beach Florida",
     secondaryKeywords: ["where to eat in North Palm Beach", "North Palm Beach waterfront dining", "North Palm Beach Country Club restaurant"],
     h1: "Best Places to Eat, Drink & Hang Out in North Palm Beach, Florida",
-    heroImage: '/images/north-palm-beach/north-palm-002.jpg',
+    heroImage: "/images/north-palm-beach/npb-eat-hero.webp",
+    heroImageAlt: "Sailboats at anchor on a wide waterway with a distant tree line and coastline",
+    heroImageCaption: "Sailboats on a wide waterway. The photograph illustrates the waterfront setting this guide discusses.",
+    heroImageCredit: "Photo: DO Homes Group",
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    editorial: {
+      eyebrow: "North Palm Beach · Eat, Drink & Hang Out",
+      deck: "Where to eat, drink and spend time in and around North Palm Beach.",
+      heroLayout: 'split',
+      heroTone: 'guide',
+      panelImage: { src: "/images/north-palm-beach/npb-eat-panel.webp", width: 960, height: 1200 },
+      mobileImage: { src: "/images/north-palm-beach/npb-eat-mobile.webp", width: 1200, height: 800 },
+      primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
+      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+    },
     body: `Being honest up front: North Palm Beach is not a dining destination and doesn't try to be. A village of thirteen thousand cannot support a restaurant scene, and the ones that survive here do it on regulars rather than on discovery.
 
 What the village does have is a handful of genuinely good local institutions, a waterfront club restaurant open to the public, and a location that puts two much larger food scenes within a short drive. Used properly, that's a better everyday arrangement than it sounds.
