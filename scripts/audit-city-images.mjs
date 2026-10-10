@@ -30,6 +30,14 @@ export const CITIES = [
     publicFolder: '/images/wellington',
     debt: [],
   },
+  {
+    label: 'North Palm Beach',
+    citySlug: 'north-palm-beach',
+    manifest: 'src/lib/northPalmBeachImageProvenance.json',
+    folder: 'public/images/north-palm-beach',
+    publicFolder: '/images/north-palm-beach',
+    debt: [],
+  },
 ]
 
 let sharp = null
