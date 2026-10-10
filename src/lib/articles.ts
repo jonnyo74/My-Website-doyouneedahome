@@ -33181,7 +33181,7 @@ Facts come from the Village of North Palm Beach, Palm Beach County, the U.S. Coa
             "a": "The Village reports about 13,000 year-round residents and about 15,000 in winter. We found no published data on traffic or crowding beyond that."
       }
     ],
-    internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida"],
+    internalLinks: ["best-neighborhoods-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida"],
     funFact: "When you compare North Palm Beach properties, the biggest differences usually come down to the specific street, the age of the home, the kind of water access, any association obligations and how close the address is to the amenities you will actually use. Two homes in the same Village can behave very differently, so compare the same property type and verify each one.",
     author: 'john',
     published: true,
@@ -33586,7 +33586,7 @@ Facts come from the Village of North Palm Beach, Palm Beach County, the Florida 
             "a": "A fixed bridge limits the height of a boat that can pass, so two homes on the same canal system can offer different boating access. Check the clearance on your route against your boat, and do not assume access to the ocean."
       }
     ],
-    internalLinks: ["cost-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities"],
+    internalLinks: ["cost-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "pros-and-cons-of-living-in-north-palm-beach-florida", "north-palm-beach-vs-nearby-cities", "best-things-to-do-in-north-palm-beach-florida"],
     funFact: "In North Palm Beach, two properties with similar water views can offer completely different boating access, ownership costs and association obligations. Verify the actual dockage, the bridge route, the building's requirements and the municipal location before you compare prices.",
     author: 'john',
     published: true,
@@ -33598,137 +33598,222 @@ Facts come from the Village of North Palm Beach, Palm Beach County, the Florida 
     cityName: 'North Palm Beach',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in North Palm Beach, Florida",
-    metaTitle: "Best Things to Do in North Palm Beach, Florida",
-    metaDescription: "From a public Jack Nicklaus golf course to boating, Anchorage Park, and nearby beaches — a local guide to the best things to do in North Palm Beach, Florida.",
+    seoTitle: "Best Things to Do in North Palm Beach, FL: Parks, Golf & Water",
+    metaTitle: "Best Things to Do in North Palm Beach, FL: Parks, Golf & Water",
+    metaDescription: "Explore the best things to do in North Palm Beach, Florida, including Anchorage Park, golf, boating, recreation, nearby beaches and local events.",
     primaryKeyword: "things to do in North Palm Beach Florida",
-    secondaryKeywords: ["North Palm Beach attractions", "what to do in North Palm Beach", "North Palm Beach Country Club", "Anchorage Park"],
+    secondaryKeywords: ["North Palm Beach attractions","what to do in North Palm Beach","North Palm Beach Country Club","Anchorage Park North Palm Beach","North Palm Beach parks","kayaking North Palm Beach"],
     h1: "Best Things to Do in North Palm Beach, Florida",
     heroImage: "/images/north-palm-beach/npb-things-hero.webp",
     heroImageAlt: "A golf green and sand bunker with a drawbridge tower and palms behind",
-    heroImageCaption: "A golf green and bunker with a drawbridge tower behind. The photograph illustrates the recreation this guide discusses.",
+    heroImageCaption: "A golf green and bunker with a drawbridge tower behind. Golf is one of many activities this guide covers. The photograph is not a listing.",
     heroImageCredit: "Photo: DO Homes Group",
     heroImageWidth: 1600,
     heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: 'Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.',
     editorial: {
       eyebrow: "North Palm Beach · Things to Do",
-      deck: "Things to do in and around North Palm Beach, from the Village-owned country club to parks and the water.",
+      deck: "Parks, golf, courts, the water, the library and nearby beaches, with a plain note on who can use what.",
       heroLayout: 'split',
       heroTone: 'guide',
       panelImage: { src: "/images/north-palm-beach/npb-things-panel.webp", width: 960, height: 1200 },
       mobileImage: { src: "/images/north-palm-beach/npb-things-mobile.webp", width: 1200, height: 800 },
       primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
-      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+      secondaryCta: {"label":"Activities at a glance","href":"#north-palm-beach-activities-at-a-glance"},
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: { eyebrow: 'Next step', text: "Thinking about living near these parks, courts and waterways? Explore available homes, compare waterfront and inland properties, and ask DO Homes Group to help you confirm the municipality and any resident-only access rules for the addresses you like. No sign-up needed.", cta: { label: 'Talk with us', href: '/contact' } },
     },
-    body: `A village of thirteen thousand shouldn't have this much to do. North Palm Beach gets away with it by owning its own recreation and by sitting within a few minutes of some of the better water access in Palm Beach County.
+    body: `**The best things to do in North Palm Beach are mostly municipal: Anchorage Park, Lakeside Park, Osborne Park, the Community Center, the library and the Village-owned Country Club, plus nearby beaches and nature areas outside the Village.** Access rules differ from place to place. Some facilities are open to everyone, some charge residents and nonresidents different rates, and the boat ramp is for permit holders. This guide separates what is **inside the Village** from what is **nearby**, so you can plan a day without turning up somewhere you cannot use. For the neighborhood-by-neighborhood picture, see our [living guide](/blog/what-its-really-like-living-in-north-palm-beach-florida) and [local guide](/blog/local-guide-to-north-palm-beach-florida).
 
-Here's what's genuinely worth your time.
+## North Palm Beach Activities at a Glance
 
-## The village country club
+| Activity and place | Best for | Access |
+|---|---|---|
+| Golf, Country Club (Village) | Golfers | Public play |
+| Anchorage Park (Village) | Piers, trail, courts | Park open to all |
+| Anchorage kayak launch (Village) | Paddlers | No permit |
+| Anchorage boat ramp (Village) | Trailered boats | Residents with decal |
+| Lakeside Park (Village) | Play, volleyball | Open to all |
+| Osborne Park (Village) | Courts, fields | Public park |
+| Community Center (Village) | Gym, classes | Fees vary |
+| Library (Village) | Books, programs | Open to all |
+| MacArthur Beach (Nearby) | Beach, trails | State park, fee |
 
-The centrepiece, and genuinely unusual: a municipally owned club with a golf course carrying a Jack Nicklaus redesign credit, plus tennis, pickleball, a pool and a waterfront restaurant.
+Official pages: [Parks & Recreation](https://www.village-npb.org/1081/Parks-Recreation), [Anchorage Park](https://www.village-npb.org/533/Anchorage-Park), [Lakeside Park](https://www.village-npb.org/facilities/facility/details/Lakeside-Park-4), [Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5), [Community Center](https://www.village-npb.org/535/Community-Center), [library](https://www.village-npb.org/1079/Library), [Country Club](https://northpalmbeachcc.com/) and [MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park). We do not list admission prices or hours here because they change; each page has the current ones.
 
-**The golf** is the headline. A Nicklaus-credited course you can play without a private membership is rare anywhere, and rarer still in a county with this concentration of exclusive clubs. Residents join at village rates; the course is also open beyond the membership, so you can play before you commit to living here — which is worth doing.
+## Things to Do Inside the Village
 
-**The racquet sports** are busier than newcomers expect. Pickleball in particular has become a genuine social engine in the village, with a regular crowd and a low barrier to entry.
+The Village's [Parks & Recreation](https://www.village-npb.org/1081/Parks-Recreation) department runs the parks, the Community Center, youth and adult programs and special events, and its [facility list](https://www.village-npb.org/274/Recreation-Facilities) is the best single starting point. Four things set North Palm Beach apart from a typical suburb: the Village owns its golf course, its parks sit on or beside the water, its events happen in its own parks, and its library is a destination of its own. None of it requires owning a boat or belonging to a club.
 
-**The pool and the restaurant** round it out, and the whole complex functions as the village's social center rather than as an amenity you occasionally visit.
+## Explore Anchorage Park
 
-If you're moving here, join in your first month. It compresses a year of meeting people into a few weeks.
+[Anchorage Park](https://www.village-npb.org/533/Anchorage-Park) at 603 Anchorage Drive is the Village's largest park, about 21.5 acres. The Village lists:
 
-## Get on the water
+- two fishing piers and a fitness trail
+- tennis and pickleball courts, and sand volleyball courts
+- a baseball field
+- a children's playground
+- large-breed and small-breed [dog parks](https://www.village-npb.org/FAQ.aspx?QID=192), which the Village confirms are off-leash
+- one large and several small pavilions
+- a walk-up kayak and paddleboard launch and day docks
 
-Boating is the other half of village life, and the geography is good: canals through the neighborhoods, the Intracoastal on the eastern edge, and a straightforward run south to the **Lake Worth Inlet** for the ocean.
+**Who can use what.** The park itself is open to the public. The piers, trail, courts, dog parks and the kayak launch do not need a permit, per the Village. The **trailered boat ramp does**: launching a trailer boat requires a permit decal, and the Village issues it to residents and qualifying business owners with proof of residency, a driver's license and a matching trailer registration ([Village FAQ](https://www.village-npb.org/Faq.aspx?QID=189), [decal page](https://village-npb.org/559/Marina-BoatRV-Storage)). Wet and dry boat storage is restricted to residents, with waiting lists, and a resident does not automatically get a space. **If you live outside the Village, this is not your launch.** Use a public ramp elsewhere and check its rules.
 
-The practical options:
+**Fishing.** Fishing from the piers is a typical use. Florida has its own saltwater license rules, so check the [FWC license page](https://myfwc.com/license/) before you go.
 
-- **Your own boat**, if you bought a canal house — the reason many people are here at all.
-- **The public ramp at Anchorage Park**, the village's launching point.
-- **Paddling the canals and the North Palm Beach Waterway**, which are calm most mornings and a completely different experience from the powered version.
-- **Fishing**, inshore in the Intracoastal or offshore through the inlet.
-- **The sandbars and anchorages** north and south, which are where a good share of the village's weekend social life actually happens.
+**Construction notice.** The Village has posted work at the park starting October 12, 2026, tied to a Seacoast Utility Authority force-main project, with the west-side fishing pier and the large pavilion closed meanwhile and the tennis courts and east-side pier open. The Village expects the park portion to finish by the end of October. Check the park page for the current status before a visit.
 
-## Anchorage Park
+**The marina is not a visitor attraction.** The Village's marina at Anchorage Park is a launch and storage facility for permit holders and residents. We found no public dining or visitor docks there. For transient slips, commercial operators such as [Safe Harbor North Palm Beach](https://safeharbor.com/locations/safe-harbor-north-palm-beach) set their own rules.
 
-The village's main park and its practical waterfront hub: a boat ramp, ball fields, playground, open space, and the venue for a good deal of the community's event calendar.
+## Visit Lakeside Park
 
-It is not scenic in the way a state park is. It is genuinely useful, well used, and one of the places you'll end up most often if you live here.
+[Lakeside Park](https://www.village-npb.org/facilities/facility/details/Lakeside-Park-4) is the waterside-and-play park, not a boating one. The Village lists beach access, a playground, swings, pull-up bars, a sand volleyball court, a basketball court and a tiki-hut picnic shelter that is open to public use and cannot be reserved privately. The Village lists it as open sunrise to sunset, with the parking gate opening on a posted schedule. Its facility page gives 805 Lakeside Drive while an older page gives 680, so use the Village's [park page](https://www.village-npb.org/532/Lakeside-Park) and your map app to confirm.
 
-## The beaches, minutes away
+**Why choose it over Anchorage Park?** Choose Lakeside Park for a short playground-and-picnic stop by the water, without courts, piers or boat traffic. Choose Anchorage Park when you want a trail, piers, the dog parks or a paddle. Check the Village page for swimming rules before you plan around the water, because we found no lifeguard or swim-area detail.
 
-North Palm Beach is on the mainland, so the beach is a short drive rather than a walk — but the options are good.
+## Play Sports at Osborne Park and the Community Center
 
-**John D. MacArthur Beach State Park** on Singer Island is the standout: a barrier-island park with a long boardwalk over the estuary, genuinely good snorkelling on the rocks when conditions allow, nature trails, and a beach that stays uncrowded because it charges admission and has finite parking. It's among the better state parks on this coast.
+[Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5) at 705 Prosperity Farms Road is the active-recreation park. The Village lists lighted baseball fields, outdoor basketball and handball courts, racquetball courts, batting cages and three lighted [pickleball courts](https://www.village-npb.org/263/Pickleball) installed in 2024, plus a volunteer-run [community garden](http://www.village-npb.org/850/Community-Garden). Some fields and courts are used for programs and reservations, so confirm availability before you bring a group.
 
-**Juno Beach** to the north offers a pier, easy access and a low-key atmosphere. **Singer Island** proper has broader public beach and more amenities.
+The [Community Center](https://www.village-npb.org/535/Community-Center) at 1200 Prosperity Farms Road is the indoor option. It has a gym, open gym sessions for basketball and pickleball ([schedule and fees](https://www.village-npb.org/849/Open-Gym), which differ for residents and nonresidents, with no pre-registration listed), youth basketball, camps during school breaks and room rentals. Recent [classes and programs](https://www.village-npb.org/223/Classes-Programs) have included gymnastics, futsal, youth volleyball and youth basketball, and the Village's [athletics page](https://www.village-npb.org/253/Athletics) lists leagues. Listings change by season, so treat any class named here as an example, not a promise.
 
-None of these is more than fifteen minutes away, which is why the village's lack of oceanfront bothers residents less than it bothers people reading listings.
+## Play the North Palm Beach Country Club Golf Course
 
-## Golf beyond the village
+The [North Palm Beach Country Club](https://northpalmbeachcc.com/) at 951 US-1 is owned by the Village and open to the public. The course was built in 1926 as the Palm Beach Winter Club to a design by Seth Raynor, and the Village bought the club in 1962, per published course histories. Nicklaus Design redid it in 2006, and a later renovation was also led by Nicklaus Design ([Nicklaus Design](https://nicklausdesign.com/course/npbcc/)). We could not confirm the 1994 redesign date this guide used to claim, so it has been removed.
 
-This corner of the county is unusually dense with golf. Beyond the village club, the surrounding area holds a substantial concentration of courses spanning public, semi-private and private play.
+- **Golf:** public play is offered, and golf memberships are currently sold out with a waitlist, per the Village. Residents get resident rates with a resident card. See the [club](https://northpalmbeachcc.com/) for tee times and current rates. We make no price comparison with other courses.
+- **Tennis:** a ten-court lighted Har-Tru [Tennis Center](https://www.village-npb.org/265/Tennis-Center) with lessons and clinics. Memberships have separate resident and nonresident categories.
+- **Pool:** a 50-meter [pool](https://www.village-npb.org/278/Pool) with membership categories. Call before you plan a visit, because hours, classes and day access vary.
+- **Pickleball:** we found no pickleball at the club. The public courts are at Anchorage Park, Osborne Park and the Community Center.
+- **Dining:** the club's [dining page](https://northpalmbeachcc.com/dining/) lists a Grill Room, a Snack Shack and a Clubhouse restaurant open to the public. We did not confirm water views from the restaurant, so do not plan a meal around them.
 
-For anyone whose week is built around a round, the supply within a short drive is one of the practical arguments for living here.
+You do not need a membership to enjoy North Palm Beach or to meet people, and the club is one option among several. See our [living guide](/blog/what-its-really-like-living-in-north-palm-beach-florida) for how residents actually use it.
 
-## Nature and quiet
+## Get on the Water
 
-- **The state park's estuary boardwalk**, which is a different experience from its beach and worth the walk on its own.
-- **Paddling the mangrove edges** in the protected water nearby, best early.
-- **The natural areas** west and north of the village, which preserve remnant pine flatwoods and scrub.
+North Palm Beach sits on the Intracoastal Waterway, the Earman River and a network of canals. These are different things, so separate them:
 
-## Within a short drive
+| Water activity | Who it is for | Notes |
+|---|---|---|
+| Kayak or paddleboard | Anyone | Anchorage Park launch, no permit |
+| Trailered boat launch | Residents with decal | Anchorage Park ramp |
+| Private dock | Property owners | Depends on the home |
+| Marina slip | Anyone who rents | Operator sets terms |
 
-The village is small, so knowing what's nearby matters:
+- **Paddling.** The Anchorage Park launch is the clearest public put-in in the Village. Do not assume other canals have public access, because most canal frontage is private. Conditions change with tide, wind and boat wakes, so check the forecast and stay out of channels.
+- **Boating.** A home's route to open water depends on its canal, the depth and the **fixed bridges** along the way. Ocean access runs toward Lake Worth Inlet, and no listing can promise it. We give no travel times. See our [neighborhoods guide](/blog/best-neighborhoods-in-north-palm-beach-florida) for what to verify on a waterfront home.
+- **Safety basics.** Check tides and weather, watch wakes near docks, and keep clear of marked channels and manatee zones. The [FWC](https://myfwc.com/) publishes boating rules and manatee zones.
+- **Sandbars and anchoring.** We do not name sandbars. Whether and where you may anchor depends on state law and local rules, and Florida restricts anchoring that creates a navigational hazard or sits close to marinas and launch facilities ([s. 327.4109](https://www.flsenate.gov/laws/statutes/2023/327.4109)). Tidal conditions and protected areas vary, so ask local boaters and check current rules before your first attempt. Anchoring and rafting up are not a Village program, and you do not need a boat to take part in Village life.
 
-- **Palm Beach Gardens**, minutes north, for the main retail concentration, dining range and cinema.
-- **West Palm Beach**, a short drive south, for the arts complex, the downtown, and the airport.
-- **Jupiter**, north, for a beach town with a genuine waterfront dining scene.
-- **Peanut Island and the inlet area**, south by boat, for snorkelling and a well-known anchorage.
+## Join a Class or Community Event
 
-## Seasonal timing
+The Village lists its recurring [classes and programs](https://www.village-npb.org/223/Classes-Programs) and posts one-time events on the [calendar](https://www.village-npb.org/Calendar.aspx) and the [special events page](https://www.village-npb.org/230/Special-Events). As of October 10, 2026, the Village listed:
 
-**Winter into spring** is the best weather and the busiest club calendar, with more wind limiting some offshore days.
+- **Boo Village** on October 17, 2026, 5 to 8 p.m. at the Community Center, a family event with golf-cart trick-or-treating, food trucks and a movie on the field
+- a dog costume contest at Anchorage Park on October 31
+- the **Tree Lighting Ceremony** on December 2, 2026, 7 p.m. at Veterans Memorial Park, 303 Anchorage Drive
+- **Santa's Trolley Rides** on December 18, 2026 at Veterans Memorial Park
 
-**Summer** is hot and stormy by afternoon — get on the water early, which is good advice here year-round. The upside is empty ramps and easy tee times.
+The Village also holds recurring or seasonal events such as Beats & Eats (live music and food trucks), Garden Fest, an Earth Day event and a Heritage Festival. We found no current date for several of them, so check the [special events page](https://www.village-npb.org/230/Special-Events). These are annual or seasonal, not weekly. Dates change, so confirm before you go.
 
-**Hurricane season** runs June through November, ## The sandbar culture
+## Explore the North Palm Beach Library
 
-Worth understanding before your first summer here, because it's a large part of how the village socialises on the water.
+The [North Palm Beach Library](https://www.village-npb.org/1079/Library) at 303 Anchorage Drive is an indoor option that is a destination for programs, not only for borrowing. The Village lists children's story times (including toddler and Spanish-language sessions, some needing registration), an adult book discussion group, author talks and lectures, and the Friends of the Library book sale. See the [adult services](https://www.village-npb.org/272/Adult-Services), [youth services](https://www.village-npb.org/195/Childrens-Services) and [author talks](https://www.village-npb.org/1055/Author-Talks-Guest-Speakers-at-the-Libra) pages for what is on now, and call (561) 841-3383 to confirm hours and registration. Library card eligibility differs for residents and nonresidents, so ask at the desk.
 
-The shallows and sandbars along this stretch of the Intracoastal become gathering points on good weekends — boats anchored in a line, people standing in waist-deep water, coolers, dogs, and a great deal of conversation between strangers.
+## Nearby Beaches and Nature Destinations
 
-It's informal, it's free, and it's one of the easier ways to meet people if you have a boat and don't play golf. The etiquette is straightforward: anchor with room, keep the music at a level that doesn't dominate, watch your wake coming in and out, and take everything home with you.
+North Palm Beach is on the mainland and has no Atlantic beach. The places below are **outside the Village** unless noted, with their own owners and rules. We give no drive times, which change with traffic, bridges and season.
 
-Conditions and access change with tide, so ask locally before your first attempt rather than following someone else's track.
+- **[John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park)**, 10900 Jack Nicklaus Drive, is a state park with a nature center, trails and an entrance fee; see the [hours and fees page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/hours-fees). It carries a North Palm Beach mailing address, but it is a state facility. We could not confirm from the state's pages whether the land lies inside the Village.
+- **Singer Island** has county beach parks, including [Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) and [Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx), which are outside the Village. Phil Foster requires a permit for boat-trailer parking; check each page for parking and fees.
+- **Juno Beach** is a separate town to the north. The county's [Juno Beach Pier](https://www.pbcgov.org/parks/Locations/JunoBeach-Pier.aspx) page lists the pier, which Loggerhead Marinelife Center manages, and its bait and tackle shop. Check the page for current closures and hours.
+- **[Peanut Island](https://discover.pbc.gov/parks/Locations/Peanut-Island.aspx)** is a Palm Beach County park in the Lake Worth Lagoon, reached by boat or by independently operated water taxis. It has a snorkeling lagoon and a reservation-only campground, and day use runs sunrise to sunset.
 
-which in a boating village means a plan for the vessel as well as the house.
+## What Should You Do in North Palm Beach?
 
-## Where to start
+| If you want | Start here |
+|---|---|
+| A free afternoon | Anchorage Park trail and piers |
+| A morning by the water | Lakeside Park or the kayak launch |
+| A golf outing | Country Club, public play |
+| An active day | Osborne Park and courts |
+| A rainy day | Library or Community Center |
+| A day with a dog | Anchorage Park dog parks |
+| A beach weekend | MacArthur Beach, Singer Island |
+| A day with no boat | Parks, library, club grill |
 
-Play the village course, then take a boat out through the inlet, then spend a morning at the state park.
+Every option above is open to visitors on the terms listed in this guide. Check each page for fees and closures.
 
-## The tennis and the courts culture
+## Sample Half-Day and Full-Day Plans
 
-Worth separating from the golf, because the two draw different crowds and the racquet side is the one newcomers underestimate.
+**Half-day in the Village.** We give no clock times, since they depend on the season.
+1. Start at the library (303 Anchorage Drive) when it opens, and check the program list.
+2. Walk the fitness trail and piers at Anchorage Park, next door at 603 Anchorage Drive (mind the construction notice).
+3. Drive to Lakeside Park for a picnic by the water.
+4. Optionally, stop for a meal at the Country Club's public Grill Room, or see our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-north-palm-beach-florida).
 
-The village club runs tennis and pickleball alongside the course, and both have established regular groups that play on a predictable rhythm through the week. The standard ranges from genuinely competitive down to social, and there's room at every level.
+**Full day in and around North Palm Beach.**
+1. Morning at MacArthur Beach State Park (state fee and hours apply).
+2. Return to the Village for the Community Center's open gym or Osborne Park.
+3. Finish at Anchorage Park or the Country Club. Stay on public facilities and public streets. Neighborhoods are where people live, not attractions.
 
-For anyone arriving without a network, this is the lowest-friction entry point the village offers — lower than golf, which costs more and takes longer, and lower than boating, which requires owning one.
+## Seasonal Considerations
 
-Those three cover what this village is actually for, and none of them requires you to already know anyone. Once you've done them, the [quieter local spots](/blog/hidden-gems-in-north-palm-beach-florida) are where it starts to feel like home.`,
+Winter and spring are the busiest months for events, clubs and parks. Summer afternoons bring heat and storms, so plan outdoor time early. **Hurricane season runs from June through November.** For boat owners, preparing means securing or relocating the vessel as well as preparing the home, so settle a plan before a storm is forecast. Check the Village's alerts for park closures after weather.
+
+> **Looking at North Palm Beach?** Explore [available homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000), compare [waterfront properties](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000), see the [community page](/communities/north-palm-beach) or [ask DO Homes Group](/contact). Our MLS searches follow the listing's city field, and a North Palm Beach listing is not automatically inside the Village, so we help you confirm the municipality. No sign-up needed.
+
+For more of the Village, see the [hidden gems guide](/blog/hidden-gems-in-north-palm-beach-florida), the [dining guide](/blog/best-places-to-eat-drink-hang-out-in-north-palm-beach-florida) and our [guide to who the Village suits](/blog/who-should-move-to-north-palm-beach-florida).`,
     faqs: [
-      { q: "Can anyone play the North Palm Beach Country Club golf course?", a: "Yes — the village owns it, residents join at village rates, and the course is open beyond the membership, so you can play before committing to living here. A Nicklaus-credited course playable without a private membership is rare anywhere and rarer still in a county with this many exclusive clubs." },
-      { q: "What is the best beach near North Palm Beach?", a: "John D. MacArthur Beach State Park on Singer Island — a barrier-island park with a long boardwalk over the estuary, genuinely good snorkelling on the rocks when conditions allow, nature trails and a beach that stays uncrowded thanks to admission and finite parking. Juno Beach and Singer Island proper are the other easy options." },
-      { q: "Where can I launch a boat in North Palm Beach?", a: "Anchorage Park is the village's public ramp and its practical waterfront hub, with ball fields, a playground and much of the community event calendar alongside. From there it is a straightforward run out to the Intracoastal and south to the Lake Worth Inlet for the ocean." },
-      { q: "Is there anything to do in North Palm Beach besides golf and boating?", a: "The village club also runs tennis, pickleball and a pool, and pickleball in particular has become a real social engine with a low barrier to entry. Beyond that, the state park estuary boardwalk, paddling the canals and mangrove edges, and the natural areas west and north of the village." },
-      { q: "How far is North Palm Beach from the beach?", a: "Fifteen minutes or less to several good options, since the village sits on the mainland rather than the barrier island. That is why the absence of oceanfront bothers residents considerably less than it bothers people reading listings." },
-      { q: "What should a new resident do first in North Palm Beach?", a: "Join the village club within the first month — it compresses a year of meeting people into a few weeks, which matters in a village with no walkable downtown. Then play the course, take a boat out through the inlet, and spend a morning at the state park." },
+      {
+            "q": "What are the best things to do in North Palm Beach?",
+            "a": "Walk the trail and fishing piers at Anchorage Park, play the Village-owned Country Club golf course, use the courts at Osborne Park and the Community Center, visit Lakeside Park, take a class or borrow from the library, and paddle from the Anchorage Park kayak launch. Beaches and nature areas such as MacArthur Beach State Park are nearby, outside the Village."
+      },
+      {
+            "q": "What can you do for free in North Palm Beach?",
+            "a": "The Village lists Anchorage Park, Lakeside Park and Osborne Park as public parks, the Anchorage Park kayak launch needs no permit, and the library is open to the public. Events such as Boo Village are posted on the Village calendar. Some activities, including open gym, courts used for programs and golf, charge fees."
+      },
+      {
+            "q": "Is North Palm Beach Country Club open to the public?",
+            "a": "Yes for golf. The Village owns the club, and the golf course offers public play, though golf memberships are currently sold out. The Tennis Center and pool use membership categories with separate resident and nonresident terms, so check the club for day access. We found no pickleball at the club."
+      },
+      {
+            "q": "Can visitors use Anchorage Park?",
+            "a": "Yes. The Village lists the park, its piers, trail, courts, dog parks and kayak launch without a permit requirement. The trailered boat ramp and boat storage are the exceptions, which are restricted. Check the park page for construction notices."
+      },
+      {
+            "q": "Can nonresidents launch boats at Anchorage Park?",
+            "a": "No, not at the trailered ramp. The Village requires a permit decal that it issues to residents and qualifying business owners with proof of residency. The walk-up kayak and paddleboard launch does not need a permit."
+      },
+      {
+            "q": "Where can you kayak in North Palm Beach?",
+            "a": "The clearest public put-in is the Anchorage Park kayak and paddleboard launch. Most canals are bordered by private property, so do not assume public access. Check tides, wind and boat traffic first."
+      },
+      {
+            "q": "What parks are in North Palm Beach?",
+            "a": "The Village lists Anchorage Park (603 Anchorage Drive), Lakeside Park, Osborne Park (705 Prosperity Farms Road) and Veterans Memorial Park, along with the Community Center and the Country Club. Confirm each address on the Village's facility pages."
+      },
+      {
+            "q": "Are there beaches in the Village of North Palm Beach?",
+            "a": "No Atlantic beach is in the Village, which is on the mainland. Lakeside Park lists beach access on the waterway. Ocean beaches are nearby on Singer Island, at Juno Beach and at MacArthur Beach State Park, each with its own rules."
+      },
+      {
+            "q": "What can you do in North Palm Beach without a boat?",
+            "a": "Use the parks, trail, courts, dog parks and kayak launch, join a class, visit the library, play golf, eat at the public Grill Room, or take a short trip to a beach. A boat is not needed for any of these."
+      },
+      {
+            "q": "What indoor activities are available?",
+            "a": "The library has story times, a book discussion group and author talks. The Community Center has a gym with open gym sessions and classes. The Country Club has a Grill Room and a Clubhouse restaurant open to the public. Check current schedules and registration with each."
+      }
     ],
-    internalLinks: ["hidden-gems-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
-    funFact: "The North Palm Beach Country Club golf course was redesigned by Jack Nicklaus in 1994 and remains one of the few Nicklaus-designed courses accessible to the public without a private club membership. Green fees run a fraction of comparable private-club access anywhere in the county.",
+    internalLinks: ["hidden-gems-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida"],
+    funFact: "North Palm Beach pairs municipal recreation with waterfront amenities, but the access rules differ by facility. Public parks, Country Club programs, resident-only boat facilities and nearby beaches each work on their own terms, so check each before you plan around it.",
     author: 'christine',
     published: true,
-    updated: '2026-06-03',
+    updated: '2026-10-10',
   },
   {
     slug: 'who-should-move-to-north-palm-beach-florida',
@@ -33845,7 +33930,7 @@ Before you shop, get concrete about the boat, the budget and the renovation appe
       { q: "What is the single most important thing to check before buying here?", a: "If you have a boat: fixed bridge clearances between the house and the Intracoastal, and dock depth at mean low water against your actual draft. It disqualifies specific streets for specific boats and it is the most common late discovery. If you do not have a boat: roof age, which drives both capital cost and insurability." },
       { q: "How do I know if North Palm Beach suits me?", a: "Play the village course and eat at the club afterwards on a weekday. If it reads as friendly and unpretentious and you can picture doing it weekly, you have found what makes the village work. If it reads as sleepy, believe that — you want more town than this has, and Palm Beach Gardens or Jupiter will suit you better." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida"],
+    internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida"],
     funFact: "North Palm Beach has one of the highest owner-occupancy rates and lowest turnover rates of any municipality in central Palm Beach County — a function of its small size and stable residential character. Long-term residents consistently cite that stability as a top reason they haven't left. Buyers researching crime statistics should consult the North Palm Beach Police Department and FDLE Uniform Crime Reports.",
     author: 'john',
     published: true,
