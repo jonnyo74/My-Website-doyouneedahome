@@ -33193,11 +33193,11 @@ Facts come from the Village of North Palm Beach, Palm Beach County, the U.S. Coa
     cityName: 'North Palm Beach',
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to North Palm Beach, Florida",
-    metaTitle: "A Local's Guide to North Palm Beach, Florida",
-    metaDescription: "An insider guide to North Palm Beach, Florida — the village country club, the marina, the waterfront neighborhoods, and how to live like a local.",
+    seoTitle: "North Palm Beach Local Guide: Parks, Boating & Village Life",
+    metaTitle: "North Palm Beach Local Guide: Parks, Boating & Village Life",
+    metaDescription: "Explore the Village of North Palm Beach with a local guide to parks, boating, the Country Club, shopping, beaches and everyday amenities.",
     primaryKeyword: "North Palm Beach local guide",
-    secondaryKeywords: ["North Palm Beach insider tips", "things locals do in North Palm Beach", "moving to North Palm Beach guide"],
+    secondaryKeywords: ["North Palm Beach parks","Anchorage Park North Palm Beach","North Palm Beach Country Club public","North Palm Beach boat ramp","where is North Palm Beach FL","North Palm Beach library"],
     h1: "A Local's Guide to North Palm Beach, Florida",
     heroImage: "/images/north-palm-beach/npb-guide-hero.webp",
     heroImageAlt: "A white clubhouse with a columned entrance, a flagpole and two royal palms behind a landscaped drive",
@@ -33205,111 +33205,201 @@ Facts come from the Village of North Palm Beach, Palm Beach County, the U.S. Coa
     heroImageCredit: "Photo: DO Homes Group",
     heroImageWidth: 1600,
     heroImageHeight: 900,
+    showMarketTrends: true,
+    marketTrendsCaption: 'Live list-market data from the local MLS, shown as the data provider publishes it. It describes current market conditions, not what any one property costs to own.',
     editorial: {
       eyebrow: "North Palm Beach · Local Guide",
-      deck: "A local's guide to getting settled and finding your way around the Village of North Palm Beach.",
+      deck: "A practical orientation to the Village of North Palm Beach: where it sits, the roads and landmarks, the public parks, the Country Club, boating, errands, the beaches nearby and what to sort out when you arrive.",
       heroLayout: 'split',
       heroTone: 'guide',
       panelImage: { src: "/images/north-palm-beach/npb-guide-panel.webp", width: 960, height: 1200 },
       mobileImage: { src: "/images/north-palm-beach/npb-guide-mobile.webp", width: 1200, height: 800 },
       primaryCta: { label: 'Explore North Palm Beach', href: '/communities/north-palm-beach' },
-      secondaryCta: { label: "What it's really like living here", href: '/blog/what-its-really-like-living-in-north-palm-beach-florida' },
+      secondaryCta: {"label":"A self-guided route","href":"#a-practical-north-palm-beach-exploration-route"},
+      tableOfContents: true,
+      tocAfterIntro: true,
+      magnetPlacement: 'after-expert-note',
+      closingStep: { eyebrow: 'Next step', text: "Getting to know the Village of North Palm Beach? Explore available homes, compare waterfront and inland properties, and let DO Homes Group help you understand which locations match your preferred amenities and lifestyle. No sign-up needed.", cta: { label: 'Talk with us', href: '/contact' } },
     },
-    body: `The practical layer: how the village is laid out, who handles what, and the things new residents work out a month too late.
+    body: `**The Village of North Palm Beach** is a small incorporated village on the Lake Worth Lagoon and Intracoastal Waterway in northern Palm Beach County, about nine miles north of West Palm Beach by the Village's own description. Its public life runs along a handful of streets: US-1 (Village Hall and the Country Club), Anchorage Drive (the library and Anchorage Park), Prosperity Farms Road (the Community Center and Osborne Park) and Lakeside Drive (Lakeside Park). This guide is the orientation: where things are, what the public can use, which facilities are resident-only, and where the Village ends. For the feel of the place and the housing tradeoffs, read [what living here is like](/blog/what-its-really-like-living-in-north-palm-beach-florida).
 
-## The layout
+## First, Know Where the Village Actually Is
 
-North Palm Beach is small enough to learn in an afternoon.
+Do not picture a simple strip between US-1 and the water. The Village has its own boundary, and it does not match the North Palm Beach postal area. Its neighbors are Palm Beach Gardens to the north, the Town of Lake Park along much of Northlake Boulevard to the south ([overview](https://en.wikipedia.org/wiki/Northlake_Boulevard)), and unincorporated Palm Beach County pockets that can carry a North Palm Beach mailing address.
 
-**US-1 (Federal Highway)** runs north–south and carries most of the village's commercial life. **Northlake Boulevard** forms the southern boundary and is the main east–west route toward the beach and inland. **PGA Boulevard** runs past the northern end toward Palm Beach Gardens. **Prosperity Farms Road** is the quieter north–south alternative on the western side, and **Alternate A1A** carries traffic further west toward I-95 and the Turnpike.
+| If the address is in… | Then… |
+|---|---|
+| The Village | Village rules, permits, parks and rates apply |
+| Palm Beach Gardens or Lake Park | That city's rules apply, even with a North Palm Beach mailing address |
+| Unincorporated county | The County handles zoning and permits |
 
-The **Intracoastal Waterway** is the eastern edge. The **North Palm Beach Waterway** cuts through the village, and the canal system feeding it is why so many streets have dockage.
+Check any address three ways: the Village's [code compliance zone map](https://www.village-npb.org/DocumentCenter/View/6174/Code-Compliance-Zone-Map), which labels the Village boundary, the Intracoastal and the Earman River Canal; the County's [municipal boundary layer](https://discover.pbc.gov/pzb/Maps/Boundary-Maps.aspx); and the parcel number, since the County's [zoning FAQ](https://discover.pbc.gov/pzb/FAQPages/Zoning.aspx) says a number starting with 00 is unincorporated. This matters for homes, marinas and shopping centers alike. A business or park with a North Palm Beach address is not automatically a Village facility.
 
-The mental model: commerce on US-1, water everywhere east of it, the club and the park in the middle, and everything else a short drive north or south.
+## Getting Your Bearings: The Roads and Landmarks
 
-## Village services — and what's not village
+Use the street names the Village's own facilities carry:
 
-This is the part that surprises people, because North Palm Beach does more for itself than most places its size:
+- **US-1 (Federal Highway)** is the main commercial road. [Village Hall](https://www.village-npb.org/148/Departments) is at 501 US-1, the police and fire rescue buildings at 560 US-1, the Building Division at 701 US-1, and the Country Club at 951 US-1.
+- **Northlake Boulevard** is the east-west corridor that meets US-1 and, along much of its length, marks the line with Lake Park.
+- **Anchorage Drive** holds the library (303) and Anchorage Park (603).
+- **Prosperity Farms Road** holds Osborne Park (705) and the Community Center (1200). The road also crosses the Earman River on a low bridge that the County has proposed to replace (2022 Coast Guard notice).
+- **Lakeside Drive** is the address of Lakeside Park, and **Lakeshore Drive** is where the Safe Harbor Old Port Cove marina sits (116).
+- **Lighthouse Drive** crosses the North Palm Beach Canal on a fixed bridge the Village plans to replace ([project page](https://engage.zencity.io/north-palm-beach-fl/en/projects/lighthouse-drive-bridge-replacement-project)).
 
-- **Police** is a village department, not the Sheriff's Office.
-- **Public works, parks and the country club** are all village-run.
-- **Permits, zoning and code enforcement** go through the village. Start early on anything structural — and note that dock, seawall and any in-water work usually pulls in state and federal review as well, with timelines to match.
-- **Fire rescue** is provided at the county level for this area.
-- **Water and sewer** come from the regional utility authority serving northern Palm Beach County rather than from the village. Confirm the provider and set up service before closing.
-- **Property records, homestead filing and tax matters** are Palm Beach County — the Property Appraiser and Tax Collector.
-- **Vehicle and vessel registration** and **driver licensing** are county Tax Collector functions.
-- **Schools** are the School District of Palm Beach County. Attendance boundaries, magnet and choice programs each have their own rules and deadlines — verify boundaries for the specific address with the district directly rather than trusting a listing.
+The Intracoastal Waterway and Lake Worth Lagoon are the big water. The Earman River and the North Palm Beach Canal are the other named waterways. For a boater, bridge clearance on these waterways is a real constraint (see the [living guide](/blog/what-its-really-like-living-in-north-palm-beach-florida) for the details).
 
-**Check whether your address is actually in the village.** Unincorporated pockets sit nearby, and the mailing address won't tell you. It changes your police service, your permitting authority and your municipal tax.
+## Understanding North Palm Beach's Different Areas
 
-## Joining the club
+Think in four settings rather than neighborhoods. Our [neighborhood guide](/blog/best-neighborhoods-in-north-palm-beach-florida) compares them. **Established residential streets** are the interior blocks, many from the decades after the Village's 1956 incorporation. **Waterfront and canal streets** put homes on the lagoon, the Intracoastal or a canal, and that does not mean the same water access for each. **The US-1 corridor** is where commercial and civic uses concentrate, so check what sits next to any address. **Marina communities** such as those around Old Port Cove sit on Lakeshore Drive. These are patterns, not guarantees: each street has to be checked.
 
-Worth its own section, because it's the single most useful thing a new resident can do and the mechanics aren't obvious.
+## Parks and Outdoor Recreation
 
-The club is village-owned, membership categories and rates are set by the village, and residency generally affects what you pay. Categories typically span golf, social and racquet-sport access at different levels.
+The Village's [recreation facilities page](https://www.village-npb.org/274/Recreation-Facilities) lists the parks. Three are worth knowing by name.
 
-Rates and categories change, so get the current schedule directly from the village or the club rather than relying on anything published elsewhere — including this page. Ask specifically about resident versus non-resident rates, what each category includes, whether there's a waiting period, and what guest privileges look like.
+### Anchorage Park
 
-Do this in your first month. In a village with no walkable center, it's the difference between knowing people and not.
+[Anchorage Park](https://www.village-npb.org/533/Anchorage-Park) at 603 Anchorage Drive is the Village's largest, about 21.5 acres. The Village lists a baseball field, two tennis and pickleball courts, four sand volleyball courts, a fitness trail, large and small dog parks, two fishing piers, a kayak and paddleboard launch, a children's playground with sail shade and a zip line, and one large and eight small pavilions.
 
-## If you own a boat
+**What is public and what is resident-only.** Visiting the park, the piers and the kayak launch does not require a permit, per the Village. The boat ramp does: launching a trailered boat requires a permit decal, available to residents with proof of residency, a driver's license and a vehicle registration ([Village FAQ](https://www.village-npb.org/Faq.aspx?QID=189)). The dry and wet boat storage is for residents only, and there is a waiting list for every size, which you must be a resident to join ([Marina and Boat Storage](https://www.village-npb.org/559/Marina-BoatRV-Storage)). A resident does not automatically get a slip.
 
-- **Register the vessel** through the county Tax Collector and keep documentation current.
-- **Establish dock depth at mean low water** and **fixed bridge clearances** between you and the Intracoastal before you buy, not after. This is the local mistake.
-- **Anchorage Park** has the village's public ramp. Stage in the lot rather than on the ramp — plug in, straps off, gear aboard before backing down.
-- **Ocean access** runs south through the Lake Worth Inlet.
-- **Learn the manatee and idle-speed zones**, which are marked, enforced, and carry substantial fines.
-- **Know the seawall situation** on your property — ownership, condition and age.
-- **Have a storm plan for the vessel.** Haul-out slots and safe dockage fill fast once a storm is named.
+**Construction notice.** The Village has posted work at Anchorage Park starting October 12 and expected to finish by the end of October, with the west-side fishing pier and large pavilion closed meanwhile. Check the park page before you visit.
 
-## Getting out of town
+### Lakeside Park
 
-- **President Donald J. Trump International Airport** is close and easy — one of the village's quiet advantages.
-- **Brightline** runs from West Palm Beach, with fast service south to Fort Lauderdale and Miami and north to Orlando. Drive, park and ride is the local pattern.
-- **Tri-Rail** serves the county corridor from stations to the south.
-- **I-95 and the Turnpike** are both easily reached heading west.
+[Lakeside Park](https://www.village-npb.org/facilities/facility/details/Lakeside-Park-4) is the waterside-and-play park, not a boating one. The Village lists beach access, a playground, swings, pull-up bars, a sand volleyball court, a basketball court and a tiki-hut picnic shelter, which is open for public use and cannot be rented privately. It is open from sunrise to sunset, and the parking lot gate opens on a posted schedule. Its facility page gives 805 Lakeside Drive, while an older page says 680, so confirm with your map app. Compared with Anchorage Park, it has no boat ramp or storage.
 
-## Hurricane season
+### Osborne Park
 
-June through November, peaking late summer into early autumn.
+[Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5) at 705 Prosperity Farms Road is the active-recreation park: lighted baseball fields, outdoor basketball and handball courts, racquetball courts, batting cages and three lighted [pickleball courts](https://www.village-npb.org/263/Pickleball) installed in 2024, plus a volunteer-run [community garden](http://www.village-npb.org/850/Community-Garden). The Village's [newsletter page](https://www.village-npb.org/389/Village-Newsletter) is where park improvements and access changes are announced.
 
-- **Find your evacuation zone before the season starts.** The barrier island and low-lying waterfront go first, and canal property should not assume it's exempt.
-- **Sort shutters or impact protection before June**, including who installs them if you can't.
-- **Keep about two weeks** of water, food, medication and cash. Fuel and ice vanish before a storm and stay gone after.
-- **Photograph the property annually** for insurance — ten minutes, and the most useful thing you can do for a future claim.
-- **Know your flood zone**, which is parcel-specific.
+## The North Palm Beach Country Club
 
-## The seasonal calendar
+The [North Palm Beach Country Club](https://northpalmbeachcc.com/) at 951 US-1 is owned by the Village and open to the public. It is not a private club, though not every amenity is open on the same terms to everyone. The golf course was redesigned by Nicklaus Design (a 2006 project), is open for public play seven days a week, and golf membership is currently sold out with a waitlist. The ten-court lighted Har-Tru [Tennis Center](https://www.village-npb.org/265/Tennis-Center) and the pool have memberships with separate resident and nonresident categories. The Grill Room serves the public daily, and the club's [dining page](https://northpalmbeachcc.com/dining/) has the current menus and hours. We found no pickleball at the club. The public courts are at Anchorage Park, Osborne Park and the Community Center.
 
-**November through April** is season: best weather, busiest club calendar, fuller roads, and a queue at the ramp. Gentler here than in the cities south, because nobody visits the village as a destination.
+**On funding.** The Village budgets the club as an enterprise fund, and its own documents describe transfers from the General Fund to the club and a $1.7 million General Fund advance for the 2018 golf renovation. So the club is neither simply self-supporting nor simply tax-funded. See the Village's [budget summary](https://www.village-npb.org/DocumentCenter/View/12749/FY25-Budget-in-Brief) for current figures. Using it is optional. It is one amenity among many, and the [living guide](/blog/what-its-really-like-living-in-north-palm-beach-florida) covers its social role.
 
-**May and June** bring heat and the start of storm season as seasonal residents leave.
+## Boating, Marinas and Waterfront Access
 
-**July through September** is hot, humid and stormy most afternoons. Quiet, easy, and the months residents quietly enjoy.
+Four different things get called "marina" or "boat access", and they are not interchangeable.
 
-**October** is the turn and arguably the best month — heat breaking, crowds not yet back.
+| Option | Who it is for | Notes |
+|---|---|---|
+| Anchorage Park kayak launch and day docks | Anyone | No permit, per the Village |
+| Anchorage Park boat ramp | Residents with a decal | Proof of residency required |
+| Anchorage Park wet and dry storage | Village residents only | Waiting list for all sizes |
+| Commercial marinas | Anyone who rents a slip | Operators set rates and rules |
 
-## Fitting in
+Commercial marinas are private businesses, not Village services. [Safe Harbor North Palm Beach](https://safeharbor.com/locations/safe-harbor-north-palm-beach) lists transient slips for vessels of 20 to 120 feet, and [Safe Harbor Old Port Cove](https://safeharbor.com/locations/safe-harbor-old-port-cove/) lists transient slips for 30 to 200 feet. Both set their own rates and policies. A private dock behind a canal-front house is another category again, and a home's route to open water depends on its canal, depth and fixed-bridge clearances. Ocean access runs toward Lake Worth (Palm Beach) Inlet, and no listing can promise it. We give no travel times. For the detail on bridges and clearances, see the [living guide](/blog/what-its-really-like-living-in-north-palm-beach-florida), and for dock and seawall permits start with the Village's [Building Division](https://www.village-npb.org/149/Building-Division).
 
-- **Join the club, or find the water.** One or the other. The village's social life runs through both and doesn't have a third channel.
-- **Go early.** Boating, exercise, errands. By midday in summer the outdoors is unpleasant.
-- **Expect to drive** for dining, shopping and the beach — and treat Palm Beach Gardens as an extension of the village rather than a trip.
-- **Verify address by address.** Village versus unincorporated, flood and evacuation zone, utility provider, dock and seawall responsibility, school boundary — all vary within short distances. Nothing about the street tells you what's true of the parcel.
+## Shopping, Dining and Everyday Errands
 
-For the feel of the place rather than the mechanics, read [what living here is actually like](/blog/what-its-really-like-living-in-north-palm-beach-florida) — and the [quieter local spots](/blog/hidden-gems-in-north-palm-beach-florida) are where the village starts to feel like yours.`,
+Errands cluster on US-1 and Northlake Boulevard, a corridor the Village shares with Lake Park. A Publix-anchored shopping center sits at Northlake and US-1, on or near the line, so check the address if the municipality matters. Palm Beach Gardens to the north and West Palm Beach to the south supply the larger-scale shopping and services. We make no walkability claim: most households drive for errands, and the right test is your own route at your own hours. For restaurants and bars, see the [dining guide](/blog/best-places-to-eat-drink-hang-out-in-north-palm-beach-florida) rather than this one.
+
+## Beaches and Nearby Coastal Recreation
+
+North Palm Beach is a waterfront Village, but its water is the Intracoastal, the lagoon and canals. The Atlantic beaches are a separate trip, and the Singer Island ones are outside the Village.
+
+- **[John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park)** at 10900 Jack Nicklaus Drive is run by the state, with posted hours (8 a.m. to sundown daily), per-vehicle entrance fees and a nature center. It carries a North Palm Beach mailing address, but it is a state park under state rules, not a Village facility. We could not confirm from the state's pages whether the parcel lies inside the Village limits, so check the County's boundary layer if that matters to you.
+- **Singer Island** has county beach parks, including [Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) at 3860 North Ocean Drive and [Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) at 900 East Blue Heron Boulevard. Both list sunrise-to-sunset beach hours, and Phil Foster requires a permit for boat-trailer parking. Check each page for parking and fees.
+
+We give no drive times, which change with traffic, bridges and season. Test the route you would actually take.
+
+## Community Resources and Local Events
+
+- **[Village Hall](https://www.village-npb.org/148/Departments)** (501 US-1) handles the Village's administrative services.
+- **The [North Palm Beach Library](https://www.village-npb.org/1079/Library)** (303 Anchorage Drive) is a Village library with story times, lectures and other programs. Residents of the Village can get a library card, and the Village's [card page](http://www.village-npb.org/FAQ.aspx?QID=203) explains eligibility for others.
+- **The [Community Center](https://www.village-npb.org/535/Community-Center)** (1200 Prosperity Farms Road) has a gym, open gym and a pickleball program, and room rentals, often with different resident and nonresident rates.
+- **Events** are posted on the Village's [calendar](https://www.village-npb.org/Calendar.aspx) and [special events page](https://www.village-npb.org/230/Special-Events). As of October 10, 2026, listings included the free Boo Village family event at the Community Center on October 17 and a dog costume contest at Anchorage Park on October 31. Dates change, so confirm on the calendar.
+
+## A Practical North Palm Beach Exploration Route
+
+A half-day orientation using public places only, in street order. We give no times, since they depend on your day and the season.
+
+1. **US-1 corridor.** Start at Village Hall (501 US-1) to see the commercial spine, then pass the Country Club at 951 US-1. The Grill Room is open to the public if you want a stop.
+2. **Anchorage Drive.** The library (303) and Anchorage Park (603) are on the same street. Walk the fitness trail or the piers (check the construction notice), and look at the kayak launch.
+3. **Lakeside Drive.** Lakeside Park (805) shows the Village's lagoon side without the boating.
+4. **Optional: Prosperity Farms Road.** Osborne Park (705) and the Community Center (1200).
+
+**If it rains:** the library, the Community Center's gym, the Grill Room and a visit to the [Village's calendar](https://www.village-npb.org/Calendar.aspx) for indoor events. Stay on public streets and facilities. Neighborhoods are where people live, not attractions.
+
+## Local Quick-Reference Table
+
+| Place and address | What it offers | Access |
+|---|---|---|
+| [Anchorage Park](https://www.village-npb.org/533/Anchorage-Park), 603 Anchorage Dr | Piers, kayak launch, courts, playground, trail, dog parks | Park open to all. Boat ramp needs a resident permit. Storage is resident-only |
+| [Lakeside Park](https://www.village-npb.org/facilities/facility/details/Lakeside-Park-4), 805 Lakeside Dr | Beach access, playground, volleyball, picnic shelter | Open to the public, sunrise to sunset |
+| [Osborne Park](https://www.village-npb.org/facilities/facility/details/Osborne-Park-5), 705 Prosperity Farms Rd | Lighted fields and courts, pickleball, community garden | Public park. Rentals and some programs vary |
+| [Community Center](https://www.village-npb.org/535/Community-Center), 1200 Prosperity Farms Rd | Gym, open gym, pickleball program, rooms | Open to all. Resident and nonresident rates |
+| [Library](https://www.village-npb.org/1079/Library), 303 Anchorage Dr | Books, programs, story times | Open to all. Card rules vary by residency |
+| [Country Club](https://northpalmbeachcc.com/), 951 US-1 | Golf, tennis, pool, dining | Village-owned. Golf is open to the public, memberships vary by amenity and residency |
+| [Safe Harbor marinas](https://safeharbor.com/locations/safe-harbor-old-port-cove/), Lakeshore Dr area | Transient and long-term slips | Commercial. The operator sets rates and rules |
+
+## Getting Settled: What Newcomers Should Know
+
+- **Confirm the jurisdiction first.** Village, Palm Beach Gardens, Lake Park or unincorporated county. It sets your rules, permits and recreation rates.
+- **Utilities.** Water and sewer come from Seacoast Utility Authority, not the Village ([Village FAQ](https://village-npb.org/m/faq?cat=20)).
+- **Permits.** The [Building Division](https://www.village-npb.org/149/Building-Division) handles flood zone determinations and permits for docks, seawalls, pools and fences.
+- **Flood and storms.** Check the parcel's flood zone and evacuation zone, and see the Village's [flood insurance page](https://www.village-npb.org/868/National-Flood-Insurance-Program). Property records and taxes are the County's, through the [Property Appraiser](https://pbcpao.gov).
+- **Schools** follow the address, so use the School District of Palm Beach County's boundary tools for the exact parcel.
+- **Resident-only access.** The boat ramp and storage need proof of residency, so ask before you count on them.
+- **You do not have to join anything.** The club, the parks and the library each work on their own terms, and a social life here does not depend on one of them.
+
+> **Getting to know the Village of North Palm Beach?** Explore [available homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000), compare [waterfront properties](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=North%20Palm%20Beach&s[locations][0][state]=FL&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000), see the [community page](/communities/north-palm-beach) or [ask DO Homes Group](/contact). Our MLS searches follow the listing's city field, and a North Palm Beach listing is not automatically inside the Village, so we help you confirm the municipality. No sign-up needed.
+
+## How We Checked This Guide
+
+Addresses, amenities and access rules come from the Village of North Palm Beach, Palm Beach County and Florida State Parks, reviewed October 10, 2026. Hours, fees and closures change, so we link the source. Spot an error? [Tell us](/contact).
+
+## Continue exploring North Palm Beach
+
+- [What It's Really Like Living in North Palm Beach](/blog/what-its-really-like-living-in-north-palm-beach-florida)
+- [Best Things to Do in North Palm Beach](/blog/best-things-to-do-in-north-palm-beach-florida)
+- [Hidden Gems in North Palm Beach](/blog/hidden-gems-in-north-palm-beach-florida)
+- [Best Neighborhoods in North Palm Beach](/blog/best-neighborhoods-in-north-palm-beach-florida)
+- [Where to Eat, Drink and Hang Out in North Palm Beach](/blog/best-places-to-eat-drink-hang-out-in-north-palm-beach-florida)`,
     faqs: [
-      { q: "Does North Palm Beach have its own police department?", a: "Yes — police, public works, parks and the country club are all village-run, which is unusual for a community of around thirteen thousand. Fire rescue is provided at county level, and water and sewer come from the regional utility authority rather than the village. Permits, zoning and code enforcement go through the village." },
-      { q: "How do I join the North Palm Beach Country Club?", a: "The club is village-owned, with membership categories and rates set by the village, and residency generally affects what you pay. Categories typically span golf, social and racquet access. Rates change, so get the current schedule directly from the village or club — and ask about resident versus non-resident rates, waiting periods and guest privileges." },
-      { q: "Am I in the Village of North Palm Beach or unincorporated county?", a: "Worth confirming, because the mailing address will not tell you and unincorporated pockets sit nearby. It changes your police service, your permitting authority and your municipal tax. The title work answers it definitively." },
-      { q: "What do I need to know about keeping a boat in North Palm Beach?", a: "Establish dock depth at mean low water and fixed bridge clearances between you and the Intracoastal before you buy — that is the local mistake. Register the vessel through the county Tax Collector, use the public ramp at Anchorage Park, learn the marked manatee and idle-speed zones, and sort a storm plan for the vessel early." },
-      { q: "How do I get to the airport from North Palm Beach?", a: "President Donald J. Trump International Airport is close and easy, and it is one of the village's quiet advantages for anyone who travels. Brightline runs from West Palm Beach with fast service south to Fort Lauderdale and Miami and north to Orlando, and drive-park-ride is the common local pattern." },
-      { q: "How should I prepare for hurricane season in North Palm Beach?", a: "Find your evacuation zone before the season starts — the barrier island and low-lying waterfront go first, and canal property should not assume it is exempt. Sort shutters or impact protection before June, keep about two weeks of supplies, photograph the property annually for insurance, and know your parcel-specific flood zone." },
+      {
+            "q": "Where is the Village of North Palm Beach?",
+            "a": "It is an incorporated village in northern Palm Beach County on the Lake Worth Lagoon and Intracoastal Waterway, about nine miles north of West Palm Beach by the Village's own description. Palm Beach Gardens is to the north and the Town of Lake Park is along much of Northlake Boulevard to the south. Its boundary does not match the postal area, so check the Village's zone map or the County's boundary layer."
+      },
+      {
+            "q": "What is North Palm Beach known for?",
+            "a": "Its waterways and marinas, a Village-owned country club with a Nicklaus-redesigned golf course, and a Village-run set of parks and services. It is a residential community rather than a tourist destination."
+      },
+      {
+            "q": "What are the best parks in North Palm Beach?",
+            "a": "Anchorage Park (603 Anchorage Drive) is the largest, with piers, a kayak launch, courts and a trail. Lakeside Park (805 Lakeside Drive) has beach access and a playground, and Osborne Park (705 Prosperity Farms Road) has lighted fields, pickleball and a community garden."
+      },
+      {
+            "q": "Can nonresidents visit Anchorage Park?",
+            "a": "The Village lists the park, its piers and its kayak launch without a permit requirement. The boat ramp needs a resident permit decal, and the boat storage is resident-only. Check the Village's Anchorage Park page for current notices, including construction closures."
+      },
+      {
+            "q": "Who can use the Anchorage Park boat ramp?",
+            "a": "Launching a trailered boat requires a permit decal, which the Village issues to residents with proof of residency, a driver's license and a vehicle registration. The kayak launch and day docks do not require a permit."
+      },
+      {
+            "q": "Is the North Palm Beach Country Club public?",
+            "a": "It is owned by the Village, not a private club, and the golf course and Grill Room are open to the public. Golf membership is currently sold out, and tennis and pool memberships have resident and nonresident categories. It is run as an enterprise fund that has also received General Fund transfers."
+      },
+      {
+            "q": "Does North Palm Beach have ocean beaches?",
+            "a": "Not within the Village. Its water is the Intracoastal, the lagoon and canals. Nearby ocean beaches include John D. MacArthur Beach State Park and the county beach parks on Singer Island, which have their own hours, fees and parking rules."
+      },
+      {
+            "q": "Is North Palm Beach walkable?",
+            "a": "We found no source measuring walkability. Errands cluster along US-1 and Northlake Boulevard, and most households drive for them. Test the specific address on foot at the hours you would walk."
+      },
+      {
+            "q": "What is the difference between North Palm Beach and Palm Beach Gardens?",
+            "a": "They are separate municipalities. North Palm Beach is a small waterfront village with its own police, fire rescue, parks and a municipal country club. Palm Beach Gardens is a larger city to the north with its own government and services. A North Palm Beach postal address does not mean a Village address."
+      }
     ],
-    internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida"],
-    funFact: "The North Palm Beach Country Club is a municipal facility — owned by the village, not a private club — with a Jack Nicklaus-redesigned golf course, a pool, tennis courts, and a waterfront restaurant open to the public. It's one of the most valuable public amenities in Palm Beach County and is funded by village taxes.",
+    internalLinks: ["what-its-really-like-living-in-north-palm-beach-florida", "best-things-to-do-in-north-palm-beach-florida", "hidden-gems-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-north-palm-beach-florida"],
+    funFact: "Before you choose a North Palm Beach home, confirm the municipal jurisdiction, which amenities you will actually use (some are resident-only), what the waterfront permits and requires, and any association obligations. The North Palm Beach Country Club is Village-owned, but the Village's own budget documents show a mix of club revenue and General Fund support, so it is not accurate to call it simply tax-funded.",
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-10',
   },
   {
     slug: 'best-neighborhoods-in-north-palm-beach-florida',
@@ -33431,7 +33521,7 @@ Whatever you land on, verify flood zone, elevation, permit history, dock and sea
       { q: "Where is the most affordable place to buy in North Palm Beach?", a: "The interior village streets, which hold the largest share of the housing — mid-century single-family homes on regular lots. That is where the value is, and also where diligence matters most. Roof age is the thing to check first, since it drives both a near-term capital cost and whether the house can be insured sensibly." },
       { q: "Does North Palm Beach have property east of the Intracoastal?", a: "A portion of the village does sit east of the waterway — a small, quiet, expensive pocket with a different character from the mainland streets. Wind exposure and insurance are the dominant considerations there, along with evacuation zone, which will be among the first called." },
     ],
-    internalLinks: ["cost-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida"],
+    internalLinks: ["cost-of-living-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "who-should-move-to-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida"],
     funFact: "Old Port Cove in North Palm Beach is a marina community where the seawall footage is what drives value — boats docked behind the house, Intracoastal access, and a protected marina within walking distance. It's one of the most convenient boating communities in Palm Beach County at prices that still trail Jupiter and Palm Beach Gardens.",
     author: 'john',
     published: true,
@@ -33690,7 +33780,7 @@ Before you shop, get concrete about the boat, the budget and the renovation appe
       { q: "What is the single most important thing to check before buying here?", a: "If you have a boat: fixed bridge clearances between the house and the Intracoastal, and dock depth at mean low water against your actual draft. It disqualifies specific streets for specific boats and it is the most common late discovery. If you do not have a boat: roof age, which drives both capital cost and insurability." },
       { q: "How do I know if North Palm Beach suits me?", a: "Play the village course and eat at the club afterwards on a weekday. If it reads as friendly and unpretentious and you can picture doing it weekly, you have found what makes the village work. If it reads as sleepy, believe that — you want more town than this has, and Palm Beach Gardens or Jupiter will suit you better." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida"],
+    internalLinks: ["pros-and-cons-of-living-in-north-palm-beach-florida", "cost-of-living-in-north-palm-beach-florida", "best-neighborhoods-in-north-palm-beach-florida", "what-its-really-like-living-in-north-palm-beach-florida", "local-guide-to-north-palm-beach-florida"],
     funFact: "North Palm Beach has one of the highest owner-occupancy rates and lowest turnover rates of any municipality in central Palm Beach County — a function of its small size and stable residential character. Long-term residents consistently cite that stability as a top reason they haven't left. Buyers researching crime statistics should consult the North Palm Beach Police Department and FDLE Uniform Crime Reports.",
     author: 'john',
     published: true,
