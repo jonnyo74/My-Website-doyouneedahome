@@ -693,6 +693,20 @@ export default async function CommunityPage({ params }: Props) {
                   <p className="mt-3 text-xs text-slate-500">
                     Ranges are approximate and reflect current market conditions. Contact us for a precise valuation.
                   </p>
+                  {community.priceNote && (
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
+                      {community.priceNote.lead}
+                      <a
+                        href={community.priceNote.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-gold-600 underline underline-offset-2 transition hover:text-gold-700"
+                      >
+                        {community.priceNote.linkText}
+                      </a>
+                      {community.priceNote.tail}
+                    </p>
+                  )}
                   <a
                     href={listingsHref}
                     target="_blank"

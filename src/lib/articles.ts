@@ -18725,7 +18725,7 @@ Most of the practical rules in a condo come from your association rather than fr
 - **Pets, grills, balcony furniture, hurricane shutters and window treatments** are all commonly regulated. Read the rules.
 - **Rental restrictions** (minimum lease terms, approval requirements, caps on rented units) vary widely and matter for both flexibility and resale.
 
-Before you commit, request the governing documents, current budget and reserves, insurance information and deductibles, recent board minutes, pending or recent assessments, and the rules that affect your planned use of the unit. Our [Singer Island condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists what to ask for and why.
+Before you commit, request the governing documents, current budget and reserves, insurance information and deductibles, recent board minutes, pending or recent assessments, and the rules that affect your planned use of the unit. Our [Singer Island condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists what to ask for and why. For a fuller picture of [what it costs to own a Singer Island condo](https://www.condowpb.com/singer-island-condos/buyer-resources/true-cost-of-ownership), CondoWPB.com goes through the pieces.
 
 **In a house**, most of these questions go to the municipality instead: permits for renovations, docks and seawalls, plus any property owners' association rules. Palm Beach Isles, for example, has a [property owners' association](https://www.palmbeachisles.org/).
 
@@ -18917,7 +18917,7 @@ Orientation, view, direct beach access, amenities, building condition and associ
 
 ![Condominium towers along Singer Island's ocean beach at dawn, with the surf on the right](/images/singer-island/ocean-beach-tower-corridor.webp "The oceanfront condominium corridor, seen from the beach. || Photo by John Oliver"){1400x1050}
 
-Our [Singer Island condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) sets out what to request from an association. For a deeper building-level comparison, our sister site [CondoWPB.com](https://www.condowpb.com) covers condominium buying in detail.
+Our [Singer Island condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) sets out what to request from an association. For a deeper building-level comparison, our sister site CondoWPB.com covers [condo diligence by building and ownership priorities](https://www.condowpb.com/singer-island-condos/buyer-resources), from reserves and inspections to insurance and assessments.
 
 ## The north end
 
@@ -19031,7 +19031,7 @@ Phil Foster Park is a Palm Beach County park directly beneath the Blue Heron Bri
 
 Singer Island has a long Atlantic beach. How you get onto it depends on where you're starting from.
 
-Oceanfront residents may have building-specific access, so if you live in a beachfront building, ask the association how it works. Everyone can use the public access points, including:
+Oceanfront residents may have building-specific access, so if you live in a beachfront building, ask the association how it works. For the shoreline questions behind owning there, see CondoWPB.com's [guide to beach erosion, seawalls and coastal risk](https://www.condowpb.com/singer-island-condos/buyer-resources/beach-erosion-seawalls-coastal-risk). Everyone can use the public access points, including:
 
 - **Ocean Reef Park**, a Palm Beach County park in Riviera Beach with a guarded swimming area. [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx)
 - **Riviera Beach's municipal beach**, beside the Ocean Walk shops and restaurants. [Riviera Beach CRA: Ocean Walk](https://rbcra.com/ocean-walk/)
@@ -19211,7 +19211,7 @@ For longer trips, [Brightline](https://www.gobrightline.com/) passenger rail ser
 
 If there's one thing to settle before viewing anything, it's this, because it determines which version of the island you're buying into.
 
-**A unit** gets you the building's amenities and, in many buildings, oceanfront or water views, at the cost of shared governance, fees and a share in whatever the building needs.
+**A unit** gets you the building's amenities and, in many buildings, oceanfront or water views, at the cost of shared governance, fees and a share in whatever the building needs. For older oceanfront towers in particular, CondoWPB.com's [Singer Island older-oceanfront buyer guide](https://www.condowpb.com/singer-island-condos/buyer-resources/older-oceanfront-condo-buyer-guide) goes through the building-level questions.
 
 **A house** gets you a street, a yard and more direct control, at the cost of a limited supply and carrying every maintenance and insurance line yourself.
 
@@ -19357,6 +19357,8 @@ This is practical education, not legal, insurance, tax or engineering advice. Us
 | Your routes for daily trips, commutes, flights and appointments | Bridge openings and traffic shape daily life | [County bridge information](https://discover.pbc.gov/engineering/pages/bridge-section.aspx); a test drive at your usual times |
 | Hurricane evacuation zone and flood zone for the exact address | Exposure varies by address, not by island | [Palm Beach County's Know Your Zone](https://discover.pbc.gov/oem/pages/know-your-zone.aspx); [FEMA's Flood Map Service Center](https://msc.fema.gov/portal/home) |
 | Beachfront lighting requirements, if the property is visible from the beach | Lighting rules can affect fixtures, windows and common areas | The association, the municipality and [FWC lighting guidance](https://myfwc.com/wildlifehabitats/wildlife/sea-turtle/lighting/) |
+
+For how to read a building's milestone inspection once you have it, see CondoWPB's [Singer Island milestone-inspection buyer guide](https://www.condowpb.com/singer-island-condos/buyer-resources/milestone-inspections).
 
 ## The answer changes with the home type
 
@@ -19520,7 +19522,7 @@ Ask for quotes tied to the exact address, the ownership type, how you'll occupy 
 
 ## For a condominium, the documents drive the number
 
-In a condominium, your costs depend on the association as much as on the unit. Florida requires milestone structural inspections for certain condominium buildings of three or more habitable stories under [section 553.899](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html), and structural integrity reserve studies for certain associations under [section 718.112](https://leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0718%2FSections%2F0718.112.html). Which requirements apply to a building, and when, depends on its height, age and other factors, and the rules have been amended more than once; ask the association and qualified professionals rather than assuming.
+In a condominium, your costs depend on the association as much as on the unit. Florida requires milestone structural inspections for certain condominium buildings of three or more habitable stories under [section 553.899](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html), and structural integrity reserve studies for certain associations under [section 718.112](https://leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0718%2FSections%2F0718.112.html). Which requirements apply to a building, and when, depends on its height, age and other factors, and the rules have been amended more than once; ask the association and qualified professionals rather than assuming. The condo-specific side of the household budget is laid out in [the condo-specific ownership-cost framework](https://www.condowpb.com/singer-island-condos/buyer-resources/true-cost-of-ownership) on CondoWPB.com.
 
 ![A white condominium tower on Singer Island beside the beach, with its tennis court and pool below and the lagoon and mangroves to the left](/images/singer-island/condo-tower-amenities-beach.webp "A condominium tower and its shared amenities, seen from a neighboring tower. || Photo by John Oliver"){1400x1050}
 
@@ -19897,7 +19899,7 @@ West Palm Beach has a downtown with restaurants, cultural venues and a waterfron
 
 No place is automatically predictable or risky. The costs follow the property:
 
-- **Condominium costs** depend on the exact association: its budget, reserves, insurance and capital needs. Our [condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists what to request.
+- **Condominium costs** depend on the exact association: its budget, reserves, insurance and capital needs. Our [condo due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) lists what to request, and CondoWPB.com's [Singer Island condo HOA fees explained](https://www.condowpb.com/singer-island-condos/buyer-resources/condo-hoa-fees-explained) shows how to compare what a fee buys.
 - **Single-family costs** depend on the exact property: insurance, flood and wind exposure, maintenance, the roof and systems, and any HOA.
 - **For every buyer**, calculate projected taxes, insurance, dues, maintenance and assessment exposure for the exact property. Our [cost of living guide](/blog/cost-of-living-in-singer-island-florida) walks through how.
 
@@ -35183,7 +35185,7 @@ One more thing worth knowing: a $520,000 loan is well inside the 2026 [conformin
 
 ## Cash buyers and financed buyers are in different markets
 
-A lot of Palm Beach County does not feel mortgage rates directly. In August 2026, **465 of the 1,112 single-family homes that closed in Palm Beach County were bought with cash**, about 42%. For condos and townhomes it was 438 of 765, about 57%.
+A lot of Palm Beach County does not feel mortgage rates directly. In August 2026, **465 of the 1,112 single-family homes that closed in Palm Beach County were bought with cash**, about 42%. For condos and townhomes it was 438 of 765, about 57%. A financed condo purchase also involves a review of the building itself, which CondoWPB.com explains in [why a lender reviews the condo project as well as the buyer](https://www.condowpb.com/singer-island-condos/buyer-resources/condo-financing-eligibility).
 
 The Treasure Coast leans the other way. In Martin County, 66 of 181 single-family closings were cash, about 36%. In St. Lucie County it was 112 of 444, about 25%. That means three out of four St. Lucie single-family buyers were financing, which makes St. Lucie the market in our area most exposed to rate moves.
 
@@ -35344,7 +35346,7 @@ The statewide trend sets the backdrop. The house sets the price. These are the t
 
 ## If you are buying a condo
 
-Condo buyers carry a unit-owner policy (HO-6) for the interior and their own belongings, and OIR's July 2026 report puts the Palm Beach County average at $2,311 including wind. The bigger insurance number for a condo is usually the association's master policy, which you pay through your dues and which can change sharply at the association's renewal. Our [condo buyer's due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) covers what to ask the association for. For building-by-building detail in West Palm Beach and Singer Island, see [CondoWPB.com](https://www.condowpb.com).
+Condo buyers carry a unit-owner policy (HO-6) for the interior and their own belongings, and OIR's July 2026 report puts the Palm Beach County average at $2,311 including wind. The bigger insurance number for a condo is usually the association's master policy, which you pay through your dues and which can change sharply at the association's renewal. Our [condo buyer's due-diligence checklist](/florida-condo-buyers-due-diligence-checklist) covers what to ask the association for. For building-by-building detail in West Palm Beach, see [CondoWPB.com](https://www.condowpb.com); for Singer Island, see its [oceanfront condo insurance questions on Singer Island](https://www.condowpb.com/singer-island-condos/buyer-resources/oceanfront-condo-insurance).
 
 ## If your listing stalled over insurance
 

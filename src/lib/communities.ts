@@ -82,6 +82,8 @@ export interface CommunityItem {
   quickFacts: Array<{ label: string; value: string }>
   linkedNeighborhoods?: string[]
   priceRanges?: Array<{ type: string; range: string; minPrice?: number; maxPrice?: number; amenities?: string[]; propertyTypes?: string[] }>
+  /** Optional one-line editorial note under the price ranges, with one contextual link. */
+  priceNote?: { lead: string; linkText: string; tail: string; href: string }
   hasMembershipCommunities?: boolean
   highlights?: string[]
   photos?: string[]
@@ -2659,6 +2661,12 @@ export const cities: CommunityItem[] = [
       { type: 'Oceanfront Condos (Luxury Tower)', range: '$700K – $3M+', minPrice: 700000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront_ocean'] },
       { type: 'Intracoastal Single-Family & Townhomes', range: '$700K – $2.5M+', minPrice: 700000, propertyTypes: ['house', 'townhouse'] },
     ],
+    priceNote: {
+      lead: 'Weighing a tower against a house? CondoWPB.com, our sister site, covers ',
+      linkText: 'researching condo buildings and the buying process',
+      tail: ' for Singer Island.',
+      href: 'https://www.condowpb.com/singer-island-condos',
+    },
     highlights: [
       'Blue Heron Bridge at Phil Foster Park — rated one of the top shore dive sites in the entire world, accessible by foot from the island',
       'John D. MacArthur Beach State Park is one of the finest undeveloped barrier island nature preserves in Florida — 760 acres of pristine beach, mangroves, and reef',
