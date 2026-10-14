@@ -28,7 +28,7 @@ Status: **no images installed.** RPB articles have no `heroImage`, so the blog p
 
 ## Blog #2 — A Local's Guide to Royal Palm Beach
 
-Status: text-only. No hero or supporting images are installed on this article.
+Status: illustrative stock hero only (a street-view crop of the FilterGrade photo, credited and captioned as not showing a specific Royal Palm Beach location). No supporting images are installed on this article.
 
 | Slot | Size | Subject | Placement |
 | --- | --- | --- | --- |
