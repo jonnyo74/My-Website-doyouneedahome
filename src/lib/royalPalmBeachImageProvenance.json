@@ -1,0 +1,54 @@
+{
+  "_readme": "Provenance for every image a Royal Palm Beach blog article may reference. There is no verified Royal Palm Beach photography yet. Every image here is illustrative stock chosen by subject, not by place, and must be captioned as illustrative and never described as a Royal Palm Beach location. Enforced by scripts/audit-city-images.mjs (runs before every build).",
+  "allowedLocality": "Royal Palm Beach",
+  "images": [
+    {
+      "path": "/images/royal-palm-beach/stock-street-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "Illustrative stock (not a Royal Palm Beach place)",
+      "stock": true,
+      "credit": "Photo by FilterGrade / Unsplash",
+      "source": "\"Suburban street with houses and palms\" by FilterGrade, https://unsplash.com/photos/suburban-street-with-houses-and-palms-4T4AcGJvARQ; original 5672x3755 (no location tag on the Unsplash page), cropped to 16:9 and resized to 1600x900",
+      "verification": "Stock photograph chosen by subject, not by place. The Unsplash page carries no location tag, so it is not claimed as Royal Palm Beach or any named street. Used only as a labeled illustration. No faces, plates or house numbers legible.",
+      "license": "Unsplash License (https://unsplash.com/license)",
+      "shows": "A residential street lined with tile-roof single-story homes, palms and lawns under a blue sky"
+    },
+    {
+      "path": "/images/royal-palm-beach/stock-neighborhood-aerial.webp",
+      "width": 1200,
+      "height": 800,
+      "locality": "Illustrative stock (Deerfield Beach, FL; not a Royal Palm Beach place)",
+      "stock": true,
+      "credit": "Photo by Lesia / Unsplash",
+      "source": "\"Aerial view of green trees and brown concrete building\" by Lesia, https://unsplash.com/photos/aerial-view-of-green-trees-and-brown-concrete-building-olFlnjzapjk; Unsplash location tag Deerfield Beach, FL; original 4000x3000, cropped to 3:2 and resized to 1200x800",
+      "verification": "Stock photograph tagged Deerfield Beach, FL on Unsplash. It does not show Royal Palm Beach and is captioned as an illustrative South Florida neighborhood. Used only as a labeled illustration. Parked cars are visible from above; no plates legible.",
+      "license": "Unsplash License (https://unsplash.com/license)",
+      "shows": "A top-down view of a South Florida residential street with tile-roof homes, palms and parked cars"
+    },
+    {
+      "path": "/images/royal-palm-beach/stock-neighborhood-aerial-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "Illustrative stock (Deerfield Beach, FL; not a Royal Palm Beach place)",
+      "stock": true,
+      "credit": "Photo by Lesia / Unsplash",
+      "source": "\"Aerial view of green trees and brown concrete building\" by Lesia, https://unsplash.com/photos/aerial-view-of-green-trees-and-brown-concrete-building-olFlnjzapjk; Unsplash location tag Deerfield Beach, FL; original 4000x3000, 16:9 crop of the upper-middle of the frame, resized to 1600x900",
+      "verification": "Stock photograph tagged Deerfield Beach, FL on Unsplash. It does not show Royal Palm Beach and is captioned as an illustrative South Florida neighborhood. Used only as a labeled illustration. Parked cars visible from above; no plates legible.",
+      "license": "Unsplash License (https://unsplash.com/license)",
+      "shows": "A top-down view of a South Florida residential street with tile-roof homes, palms, lawns and parked cars"
+    },
+    {
+      "path": "/images/royal-palm-beach/stock-street-homes.webp",
+      "width": 1200,
+      "height": 800,
+      "locality": "Illustrative stock (not a Royal Palm Beach place)",
+      "stock": true,
+      "credit": "Photo by FilterGrade / Unsplash",
+      "source": "\"Suburban street with houses and palms\" by FilterGrade, https://unsplash.com/photos/suburban-street-with-houses-and-palms-4T4AcGJvARQ; original 5672x3755 (no location tag), 3:2 crop of the right-hand homes, resized to 1200x800",
+      "verification": "Stock photograph chosen by subject, not by place. The Unsplash page carries no location tag, so it is not claimed as Royal Palm Beach or any named street. Used only as a labeled illustration. No faces, plates or house numbers legible.",
+      "license": "Unsplash License (https://unsplash.com/license)",
+      "shows": "Tile-roof homes with garages, palms and paver driveways under a blue sky"
+    }
+  ]
+}

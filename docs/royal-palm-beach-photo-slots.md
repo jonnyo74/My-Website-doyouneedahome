@@ -40,3 +40,9 @@ Status: text-only. No hero or supporting images are installed on this article.
 An accurate map graphic is optional and only if it can be checked against the Village's own map.
 
 The same source policy applies as blog #1. The illustrative stock images already in `public/images/royal-palm-beach/` (street, neighborhood aerial) are credited and captioned as not showing a Royal Palm Beach location; reusing them here as a second hero would repeat the same image across the cluster, so this article stays text-only until original Village photography exists.
+
+## Blog #3 — Best Neighborhoods in Royal Palm Beach: How to Choose
+
+Status: illustrative stock only. Hero is a 16:9 crop of the neighborhood aerial; one supporting image (detached homes) sits under "The Main Royal Palm Beach Housing Patterns". Both are credited to the photographers on Unsplash and captioned as not showing a specific Royal Palm Beach location.
+
+Still open (needs original or properly licensed Royal Palm Beach photography): a park-adjacent or lake-edge scene, a golf-adjacent or amenity-community setting that can be verified as such, an established residential street, and an optional comparison graphic. The article names only Madison Green, so any community-setting image must be verified for that community.

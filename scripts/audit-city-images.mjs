@@ -38,6 +38,24 @@ export const CITIES = [
     publicFolder: '/images/north-palm-beach',
     debt: [],
   },
+  {
+    label: 'Royal Palm Beach',
+    citySlug: 'royal-palm-beach',
+    manifest: 'src/lib/royalPalmBeachImageProvenance.json',
+    folder: 'public/images/royal-palm-beach',
+    publicFolder: '/images/royal-palm-beach',
+    // Articles not yet rebuilt with a hero image. This list may only shrink.
+    debt: [
+      'local-guide-to-royal-palm-beach-florida',
+      'best-things-to-do-in-royal-palm-beach-florida',
+      'who-should-move-to-royal-palm-beach-florida',
+      'pros-and-cons-of-living-in-royal-palm-beach-florida',
+      'cost-of-living-in-royal-palm-beach-florida',
+      'hidden-gems-in-royal-palm-beach-florida',
+      'royal-palm-beach-vs-nearby-cities',
+      'best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida',
+    ],
+  },
 ]
 
 let sharp = null
