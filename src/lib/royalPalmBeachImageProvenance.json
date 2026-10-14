@@ -121,6 +121,18 @@
       "verification": "Stock photograph tagged Deerfield Beach, FL on Unsplash. It does not show Royal Palm Beach, a natural area, a park, or any residence, and is captioned as an illustrative South Florida scene. Used only as a labeled illustration. No vehicles, people or houses in the crop.",
       "license": "Unsplash License (https://unsplash.com/license)",
       "shows": "A top-down view of mature trees and lawn beside a curving street"
+    },
+    {
+      "path": "/images/royal-palm-beach/stock-street-compare-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "Illustrative stock (not a Royal Palm Beach place)",
+      "stock": true,
+      "credit": "Photo by FilterGrade / Unsplash",
+      "source": "\"Suburban street with houses and palms\" by FilterGrade, https://unsplash.com/photos/suburban-street-with-houses-and-palms-4T4AcGJvARQ; original 5672x3755 (no location tag), 16:9 crop of the lower-left street view, resized to 1600x900",
+      "verification": "Stock photograph chosen by subject, not by place. The Unsplash page carries no location tag, so it is not claimed as Royal Palm Beach or any named community or street. Used only as a labeled illustration. No faces, plates or house numbers legible.",
+      "license": "Unsplash License (https://unsplash.com/license)",
+      "shows": "A residential street with a curb, lawns, palms and tile-roof homes under a blue sky"
     }
   ]
 }

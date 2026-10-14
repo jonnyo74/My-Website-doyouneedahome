@@ -46,7 +46,6 @@ export const CITIES = [
     publicFolder: '/images/royal-palm-beach',
     // Articles not yet rebuilt with a hero image. This list may only shrink.
     debt: [
-      'royal-palm-beach-vs-nearby-cities',
       'best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida',
     ],
   },
