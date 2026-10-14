@@ -47,7 +47,6 @@ export const CITIES = [
     // Articles not yet rebuilt with a hero image. This list may only shrink.
     debt: [
       'local-guide-to-royal-palm-beach-florida',
-      'best-neighborhoods-in-royal-palm-beach-florida',
       'best-things-to-do-in-royal-palm-beach-florida',
       'who-should-move-to-royal-palm-beach-florida',
       'pros-and-cons-of-living-in-royal-palm-beach-florida',
