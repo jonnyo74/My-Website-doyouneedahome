@@ -46,7 +46,6 @@ export const CITIES = [
     publicFolder: '/images/royal-palm-beach',
     // Articles not yet rebuilt with a hero image. This list may only shrink.
     debt: [
-      'pros-and-cons-of-living-in-royal-palm-beach-florida',
       'cost-of-living-in-royal-palm-beach-florida',
       'hidden-gems-in-royal-palm-beach-florida',
       'royal-palm-beach-vs-nearby-cities',

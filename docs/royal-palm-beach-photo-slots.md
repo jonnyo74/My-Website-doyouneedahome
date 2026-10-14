@@ -58,3 +58,9 @@ Needed (original or properly licensed Royal Palm Beach photography): a Commons P
 Status: illustrative stock hero only (a crop of the FilterGrade street photo showing homes and a driveway, credited and captioned as not showing a specific Royal Palm Beach location). No supporting images yet.
 
 Needed (original or properly licensed Royal Palm Beach photography): a Village park or lake-edge scene for the hero, a residential street verified as inside the Village, a public-space or recreation detail, and optionally a visual version of the priorities table.
+
+## Blog #6 — The Real Pros and Cons of Living in Royal Palm Beach
+
+Status: illustrative stock hero only (a crop of the Lesia aerial showing rooftops and yards, credited and captioned as not showing a specific Royal Palm Beach location). The decision matrix and the exact-address checklist are built as on-page tables and lists, not images.
+
+Needed (original or properly licensed Royal Palm Beach photography): a recognizable public setting such as Commons Park for the hero, a verified public-recreation image, and an optional streetscape that can be verified as inside the Village. An orientation map graphic is only worth adding if it can be checked against the Village's own map.
