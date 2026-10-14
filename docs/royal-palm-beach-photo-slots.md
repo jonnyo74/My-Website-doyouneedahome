@@ -82,3 +82,9 @@ Needed (original photography or written permission): a hero of Royal Palm Beach 
 Status: illustrative stock hero only (a street-view crop of the FilterGrade photo, credited and captioned as not showing a specific Royal Palm Beach location or any named community). The comparison table and five-test checklist are on-page content; community cards and a regional map are not built.
 
 Needed: original or properly licensed public-place photography for each named community, only where it accurately shows that community (Royal Palm Beach, Wellington, Westlake, West Palm Beach, Palm Beach Gardens); an optional neutral regional orientation map that labels municipal versus unincorporated areas without implying time or distance and without ranking. No private homes, association amenities or listing addresses.
+
+## Blog #10 — Where to Eat, Drink & Hang Out in Royal Palm Beach
+
+Status: illustrative stock hero only (a trees-and-street crop of the Lesia aerial, with no homes in frame, credited and captioned as not showing Royal Palm Beach, a restaurant, a market or an event). No generic restaurant, food or cocktail stock is used, by design.
+
+Needed: original photography or documented permission for the Green Market and Village food events; venue or food photography only from a named business that has given permission and only after that venue is verified. The venue index is currently empty because no venue met the verification standard (see the article's maintenance note); add entries as they are verified, each with an official link and a last-verified date. A neutral "where to look" corridor graphic with no drive times is optional.
