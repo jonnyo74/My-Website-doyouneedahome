@@ -581,6 +581,7 @@ export const cities: CommunityItem[] = [
       'New construction between $700K–$1.5M is strong, with resort amenities and HOA perks common',
       '30 minutes to President Donald J. Trump International Airport, 25 minutes to downtown West Palm Beach',
       'Jupiter Medical Center is one of the top-rated hospitals in Palm Beach County',
+      'Jupiter Fire Rescue, the town\'s new independent fire department, officially began serving the community on October 1, 2026',
     ],
     popularNeighborhoods: ['Rialto', 'Abacoa', 'Egret Landing', 'Jonathan\'s Landing', 'Admiral\'s Cove', 'Jupiter Country Club', 'Sonoma Isles', 'Jupiter Inlet Colony', 'Jupiter Farms'],
     keyLinks: [
