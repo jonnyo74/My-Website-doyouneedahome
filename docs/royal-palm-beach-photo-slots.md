@@ -70,3 +70,9 @@ Needed (original or properly licensed Royal Palm Beach photography): a recogniza
 Status: illustrative stock hero only (a crop of the Lesia aerial showing rooftops and a street, credited and captioned as not showing a specific Royal Palm Beach location, a listing or an address). The cost framework table, worksheet and checklist are on-page content.
 
 Needed (original or properly licensed Royal Palm Beach photography): a genuine Village public setting for the hero, an established streetscape that does not show a private home's address, and optionally an orientation map that is checked against the Village's own map.
+
+## Blog #8 — Hidden Gems in Royal Palm Beach
+
+Status: illustrative stock hero only (a trees-and-lawn crop of the Lesia aerial, with no homes, people or vehicles visible, credited and captioned as not showing a specific Royal Palm Beach location). It is not a photo of Royal Palm Beach Pines, Commons Park or the library.
+
+Needed (original photography or written permission): a hero of Royal Palm Beach Pines Natural Area (trail or observation platform), a Commons Park timing-tip image, and a library or public-resource image taken with permission. Do not show private residences, association amenities or unverified shoreline access. County and library imagery needs documented permission; a self-taken trail photo avoids that. A "check before you go" graphic is optional.
