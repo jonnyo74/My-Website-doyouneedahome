@@ -1,0 +1,27 @@
+# Royal Palm Beach photography slots
+
+Status: **no images installed.** RPB articles have no `heroImage`, so the blog page renders the standard text layout. No substitute or stock photography is in the repo.
+
+## Blog #1 — What It's Really Like Living in Royal Palm Beach
+
+| Slot | Size | Subject | Placement |
+| --- | --- | --- | --- |
+| Hero | 1600x900 (16:9) | Wide, daytime view of a Village park, lake or a residential street | Full-width above the opening |
+| Park | 960x1200 (4:5) | Commons Park lake, trail or pavilion | Beside "Parks Are Part of the Lifestyle" |
+| Street | 1200x800 | Residential street scene, no identifiable people, plates or house numbers | "Housing Feels Different Block by Block" |
+| Weekend | 1200x800 | Event or recreation scene, no identifiable faces | "Weekends and Recreation" |
+
+3–5 supporting visuals in total.
+
+## Source policy
+
+- Photos taken by John / DO Homes Group in the Village (preferred), or licensed images that genuinely show Royal Palm Beach.
+- Generic stock (including Unsplash) is allowed only if it is not captioned, alt-texted or placed as if it shows Royal Palm Beach. Use decorative alt text, no place names, and never in a slot that implies a specific park or street.
+- Every image needs an entry in a new manifest (`src/lib/royalPalmBeachImageProvenance.json`) with source, license, photographer and URL, and a city entry in `scripts/audit-city-images.mjs`, before it is wired to `heroImage`.
+- No people's faces, license plates or house numbers without a release.
+
+## To wire up once assets exist
+
+1. Add files to `public/images/royal-palm-beach/`.
+2. Add manifest entries and the guard config.
+3. Set `heroImage`, width and height on the article; the page builds the editorial layout from them.
