@@ -76,3 +76,9 @@ Needed (original or properly licensed Royal Palm Beach photography): a genuine V
 Status: illustrative stock hero only (a trees-and-lawn crop of the Lesia aerial, with no homes, people or vehicles visible, credited and captioned as not showing a specific Royal Palm Beach location). It is not a photo of Royal Palm Beach Pines, Commons Park or the library.
 
 Needed (original photography or written permission): a hero of Royal Palm Beach Pines Natural Area (trail or observation platform), a Commons Park timing-tip image, and a library or public-resource image taken with permission. Do not show private residences, association amenities or unverified shoreline access. County and library imagery needs documented permission; a self-taken trail photo avoids that. A "check before you go" graphic is optional.
+
+## Blog #9 — Royal Palm Beach vs. Nearby Communities
+
+Status: illustrative stock hero only (a street-view crop of the FilterGrade photo, credited and captioned as not showing a specific Royal Palm Beach location or any named community). The comparison table and five-test checklist are on-page content; community cards and a regional map are not built.
+
+Needed: original or properly licensed public-place photography for each named community, only where it accurately shows that community (Royal Palm Beach, Wellington, Westlake, West Palm Beach, Palm Beach Gardens); an optional neutral regional orientation map that labels municipal versus unincorporated areas without implying time or distance and without ranking. No private homes, association amenities or listing addresses.
