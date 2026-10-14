@@ -25,3 +25,18 @@ Status: **no images installed.** RPB articles have no `heroImage`, so the blog p
 1. Add files to `public/images/royal-palm-beach/`.
 2. Add manifest entries and the guard config.
 3. Set `heroImage`, width and height on the article; the page builds the editorial layout from them.
+
+## Blog #2 — A Local's Guide to Royal Palm Beach
+
+Status: text-only. No hero or supporting images are installed on this article.
+
+| Slot | Size | Subject | Placement |
+| --- | --- | --- | --- |
+| Hero | 1600x900 (16:9) | Park path, lake edge or public recreation setting in the Village | Full-width above the opening |
+| Park | 1200x800 | Commons Park trail, pavilion or lake | "The Everyday Map" |
+| Streetscape | 1200x800 | A main road or residential street, no identifiable people, plates or house numbers | "Get Your Bearings" |
+| Public space | 1200x800 | Pavilion, trailhead or Village public-space detail | "Community Calendar and Getting Involved" |
+
+An accurate map graphic is optional and only if it can be checked against the Village's own map.
+
+The same source policy applies as blog #1. The illustrative stock images already in `public/images/royal-palm-beach/` (street, neighborhood aerial) are credited and captioned as not showing a Royal Palm Beach location; reusing them here as a second hero would repeat the same image across the cluster, so this article stays text-only until original Village photography exists.
