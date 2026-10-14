@@ -7,6 +7,7 @@ import CommunityCard from '@/components/CommunityCard'
 import ListingCard from '@/components/ListingCard'
 import RecentlySold from '@/components/RecentlySold'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import { SITE_URL } from '@/lib/site'
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -34,20 +35,50 @@ const stripPhotos = [
   { src: '/images/juno-beach/juno-beach-025.jpg', label: 'Juno Beach', slug: 'juno-beach' },
 ]
 
+// Same business facts the lead-magnet landing pages already publish, and the
+// same office number the footer shows. Emitted once, on the home page.
+const agencySchema = {
+  '@context': 'https://schema.org',
+  '@type': 'RealEstateAgent',
+  '@id': `${SITE_URL}/#agency`,
+  name: 'DO Homes Group',
+  url: SITE_URL,
+  telephone: '+1-561-783-7733',
+  email: 'info@doyouneedahome.com',
+  image: `${SITE_URL}/images/og-image.jpg`,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '4658 Northlake Boulevard, Suite 103',
+    addressLocality: 'Palm Beach Gardens',
+    addressRegion: 'FL',
+    postalCode: '33418',
+    addressCountry: 'US',
+  },
+  areaServed: 'Palm Beach County, Martin County and St. Lucie County, FL',
+  parentOrganization: { '@type': 'Organization', name: 'Premier Brokers International' },
+}
+
 export default function Home() {
   const activeListings = getActiveListings()
   const recentlySold = getRecentlySoldListings()
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(agencySchema) }}
+      />
       {/* ── Hero ──────────────────────────────────────────────────── */}
       <section className="relative min-h-[88vh] overflow-hidden bg-slate-900">
         {/* Background photo */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src="/images/olara/olara-hero.jpg"
           alt="Palm Beach County luxury real estate"
-          className="absolute inset-0 h-full w-full object-cover opacity-85"
+          fill
+          sizes="100vw"
+          loading="eager"
+          fetchPriority="high"
+          className="object-cover opacity-85"
         />
         {/* Gradient overlay — lighter so rendering shows through */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-black/10" />
@@ -198,8 +229,8 @@ export default function Home() {
               href={`/communities/${stripPhotos[0].slug}`}
               className="group relative col-span-1 row-span-2 overflow-hidden rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-600"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={stripPhotos[0].src} alt={stripPhotos[0].label} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+              {/* next/image, not <img>: the Ibis source is a 13.9 MB PNG. */}
+              <Image src={stripPhotos[0].src} alt={stripPhotos[0].label} fill sizes="(min-width: 1280px) 420px, 33vw" className="object-cover transition duration-700 group-hover:scale-105" />
               <span className="absolute bottom-3 left-4 text-xs font-semibold text-white drop-shadow">{stripPhotos[0].label}</span>
             </Link>
             {stripPhotos.slice(1).map((p) => (
@@ -208,8 +239,7 @@ export default function Home() {
                 href={`/communities/${p.slug}`}
                 className="group relative overflow-hidden rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-600"
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={p.src} alt={p.label} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+                <Image src={p.src} alt={p.label} fill sizes="(min-width: 1280px) 420px, 33vw" className="object-cover transition duration-700 group-hover:scale-105" />
                 <span className="absolute bottom-2 left-3 text-xs font-semibold text-white drop-shadow">{p.label}</span>
               </Link>
             ))}
@@ -222,8 +252,7 @@ export default function Home() {
                 href={`/communities/${p.slug}`}
                 className="relative aspect-[4/3] overflow-hidden rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-600"
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={p.src} alt={p.label} className="h-full w-full object-cover" />
+                <Image src={p.src} alt={p.label} fill sizes="50vw" className="object-cover" />
                 <span className="absolute bottom-2 left-3 text-xs font-semibold text-white drop-shadow">{p.label}</span>
               </Link>
             ))}
