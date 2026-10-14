@@ -13832,132 +13832,162 @@ Last reviewed October 14, 2026. Sources accessed October 14, 2026. Hours, projec
     updated: '2026-10-14',
   },
   {
-    slug: 'cost-of-living-in-royal-palm-beach-florida',
+    slug: "cost-of-living-in-royal-palm-beach-florida",
     citySlug: 'royal-palm-beach',
     cityName: 'Royal Palm Beach',
     type: "Cost Of Living In",
     order: 7,
-    seoTitle: "Cost of Living in Royal Palm Beach, Florida",
-    metaTitle: "Cost of Living in Royal Palm Beach, Florida",
-    metaDescription: "What it costs to live in Royal Palm Beach, Florida — one of the area's more affordable family villages, with housing, taxes, and insurance explained.",
+    seoTitle: "Cost of Living in Royal Palm Beach, Florida: What to Budget For",
+    metaTitle: "Cost of Living in Royal Palm Beach, FL | Buyer Budget Guide",
+    metaDescription: "A practical framework for estimating the cost of living in Royal Palm Beach, Florida, including property taxes, insurance, utilities, transportation, and property-specific ownership costs.",
     primaryKeyword: "cost of living in Royal Palm Beach Florida",
-    secondaryKeywords: ["Royal Palm Beach home prices", "is Royal Palm Beach affordable", "Royal Palm Beach FL cost of living"],
-    h1: "Cost of Living in Royal Palm Beach, Florida",
+    secondaryKeywords: ["Royal Palm Beach cost of living","Royal Palm Beach property taxes","budgeting for a home in Royal Palm Beach","monthly cost of owning in Royal Palm Beach"],
+    h1: "Cost of Living in Royal Palm Beach, Florida: What to Budget For",
+    heroImage: '/images/royal-palm-beach/stock-aerial-lots-hero.webp',
+    heroImageAlt: 'Top-down view of residential rooftops, driveways and a neighborhood street',
+    heroImageCaption: 'Illustrative aerial photo of a South Florida residential neighborhood. It does not show a specific Royal Palm Beach location.',
+    heroImageCredit: 'Photo by Lesia / Unsplash',
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
     showMarketTrends: true,
-    body: `Royal Palm Beach is a value proposition, and the value is real — but it does not sit entirely where buyers expect. The purchase price is only part of it, the tax structure is genuinely unusual, and the age of the housing stock creates a cost line most people leave out.
+    inlineMagnet: false,
+    body: `A home's asking price is only one part of what it costs to live there each month. Taxes, insurance, utilities, upkeep, travel and any recurring community charge all sit on top of the payment, and they differ from one property to the next, even inside the same Village.
 
-Here is the full picture.
+That is why this guide does not give you a Royal Palm Beach number. There is no reliable universal one. What it offers instead is a framework for building a real number for an exact property: which categories to include, why each one varies and where to verify it. It is an editorial framework, not financial, legal, tax, insurance, inspection or association advice, and nothing here is a quote or a promise that the Village costs a fixed amount.
 
-## Housing
+## Start With the Property, Not an Average
 
-**The price positioning.** The village sits below the coastal towns and below its immediate neighbor to the south for broadly comparable suburban housing. That gap is the reason most buyers look here in the first place.
+When people ask about the cost of living, they usually mean the combined monthly cost of housing, taxes, insurance, utilities, transportation, maintenance and any property-specific recurring obligations. Averages blur that picture. Two homes on different streets can have very different monthly costs for reasons an average hides: how the home is financed, whether a homestead exemption applies, what an insurer quotes, which provider serves the address, what condition the home is in and what recurring charges attach to it.
 
-**Era drives price more than location does.** A 1970s single-story house in an original neighborhood, a 1990s two-story with a small association, and a 2000s house behind a gate occupy three distinct price bands within a village you can drive across in ten minutes. What you are paying for is the decade, the lot and the fee structure.
+So we do not offer sample dollar figures. Any number we printed would be someone else's number, and it would age quickly. The useful move is to replace each category below with a real figure for the property you are considering.
 
-**What the money buys.** More square footage and considerably more land than the same figure achieves closer to the water. That is the trade, and it is a straightforward one.
+## The Recurring Categories to Budget For
 
-## Property taxes, which work unusually here
+| Category | Why it varies | How to verify |
+|---|---|---|
+| Housing payment or rent | Price, financing, terms | Lender, landlord or advisor |
+| Property taxes | Taxable value, exemptions, rates | County Property Appraiser |
+| Property and flood insurance | Property, carrier, coverage, market | Licensed insurance agent quotes |
+| Utilities and services | Address, provider, household use | Provider for the exact address |
+| Maintenance and planning | Condition, improvements, age, systems | Licensed inspector, trades |
+| Transportation and routine | Address, destinations, schedule | Test your real routes |
+| Community charges, if any | Vary by exact property | Appropriate current sources |
 
-**Florida levies no state income tax.** That is a state-level feature and it applies wherever you buy.
+The rest of this section explains each row.
 
-**The village's own rate is the unusual part.** Royal Palm Beach sold its water and wastewater utility to the county in the mid-2000s, and the proceeds have allowed the village to operate on a municipal property tax rate far below what a place of its size would normally require. For several years in that period it levied none at all.
+### Housing payment or rent
 
-**But the municipal line is one of several.** Your bill also carries the county levy, the school board levy, and various special taxing districts. Those are set by other authorities and are not affected by the village's position, so the total is nothing like as low as the municipal rate alone might suggest. It remains a genuine saving relative to a municipality funding itself conventionally — it is simply a smaller share of the bill than people assume.
+Your actual payment depends on your financing or lease terms, so get it from your lender, your landlord or a qualified housing professional. We make no affordability claims and do not suggest what anyone can or should spend.
 
-**The Homestead Exemption and Save Our Homes** apply to a primary residence, with the assessment cap limiting annual increases while you hold the property. Portability may allow you to carry a benefit from a previous Florida homestead.
+### Property taxes
 
-**The listing's tax figure is not yours.** On a change of ownership the property is reassessed at market value, and a long-held homesteaded property can show a tax figure that bears no relationship to what you will pay. This catches buyers here regularly, because so much of the stock has been held for a long time.
+A listing's tax bill is a record of the past, not a prediction of what a new owner will pay. We explain why in the next section and link to the county's calculator, because this is the category where a quick estimate for the exact parcel is available from an official source.
 
-Verify current rates, exemptions and portability with the Palm Beach County Property Appraiser and Tax Collector rather than relying on a listing.
+### Property insurance and flood insurance
 
-## No district assessments in the established village
+Coverage, availability, deductibles, exclusions and premiums depend on the exact property, the buyer, the carrier, the coverage you choose and the current market. We do not describe any report, system, material or roof age as determining the result, and we do not predict outcomes. Get actual quotes from a properly licensed insurance professional before you decide, and ask specifically about flood coverage. You can look up the property's flood zone on the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/search).
 
-Worth stating plainly because it is a real difference from the newer alternatives nearby.
+### Utilities and services
 
-The established parts of the village carry no community development district assessment. Newer master-planned communities in the western county are frequently funded through such districts, which issue bonds for infrastructure and repay them through an assessment collected with the tax bill, typically for decades. That is a substantial monthly figure that does not appear in a sticker-price comparison — the mechanics are set out in our [Westlake cost breakdown](/blog/cost-of-living-in-westlake-florida).
+Utility providers, consumption and billing vary by address and household use. We do not name a universal provider. Palm Beach County has many water utilities, and the county's [water utilities help page](https://discover.pbcgov.org/waterutilities/Pages/Help-and-FAQs.aspx) explains how to confirm which one serves an address. Ask the same of the electric, internet, trash and any other services you would use.
 
-Comparing a village resale against a newer build without accounting for it will mislead you badly.
+One item worth labeling accurately: the Solid Waste Authority describes a non-ad valorem assessment that appears on the county tax bill, explained on its [financial information page](https://www.swa.org/244/Financial-Information). That is a countywide assessment line, not a total waste cost for any household, so confirm what applies to the property.
 
-## Association dues
+### Maintenance and capital planning
 
-These vary more within the village than any other cost.
+A property's condition, improvements, age and systems shape the maintenance you may face. We do not say every established home needs the same reserve, needs work or costs more than new construction, because they do not. A licensed inspector and appropriate trade professionals can evaluate the specific home, and their findings are a better basis for a maintenance plan than a general rule.
 
-**Gated communities and townhome developments** carry the highest dues, covering gate operation, community pools and amenity centers, landscaping of common areas and, in attached housing, often exterior elements.
+### Transportation and routine
 
-**Many original neighborhoods** have modest voluntary dues or none whatsoever. Over twenty years of ownership that difference is substantial money, and it belongs in the comparison alongside the purchase price.
+Royal Palm Beach is generally vehicle-oriented, but what travel costs you depends on the exact address, your schedule, your destinations, your vehicles and the transit options available at the time. We do not prescribe how many vehicles a household needs and we do not invent annual costs. Drive your real routes at the hours you would use them, and check current transit information for the trips you would make. Our [local guide](/blog/local-guide-to-royal-palm-beach-florida) explains how.
 
-**What to establish before committing:** what the dues actually cover, the state of the reserves, whether a special assessment is pending or likely, any rental restrictions, and what the estoppel letter will cost at closing. An under-funded association with healthy-looking monthly dues is worse than a well-funded one charging more.
+### Association or community charges, where applicable
 
-## Insurance, which is the largest variable
+Recurring charges, services, rules and other obligations vary by property and should be independently confirmed through the appropriate current sources and qualified professionals.
 
-For most buyers here this is the line that moves most, and it should be quoted before you go under contract rather than after.
+## Property Taxes: Use the Current Property, Not the Seller's History
 
-**Roof age dominates everything.** Insurers price on it heavily and some decline older roofs outright. On housing stock of this age, establishing roof age from permit records is the single most valuable piece of diligence you can do.
+This is the category where a little checking pays off the most.
 
-**The four-point inspection and the wind mitigation report** are the two documents that determine pricing on an older property. The four-point covers roof, electrical, plumbing and heating and cooling; the wind mitigation report can produce meaningful credits for roof attachment, shape and opening protection.
+A Palm Beach County property-tax bill can contain two kinds of items: ad valorem taxes, which are based on taxable value multiplied by millage rates set by the taxing authorities, and non-ad valorem assessments, which are charges for particular services or purposes placed on the bill. The county's explanation of [how tax bills are calculated](https://pbcpao.gov/trim/tax-calculated.htm) and the Tax Collector's [property tax guide](https://www.pbctax.gov/wp-content/uploads/2026/01/TPSG-2026-FNL-comprssed-1.pdf) describe both.
 
-**Older systems complicate placement.** Certain electrical panel brands from the period, and original plumbing materials, can restrict which carriers will write the risk at all.
+What to do:
+- **Use the Property Appraiser's calculator for the exact parcel.** On the Palm Beach County Property Appraiser's site, you can look up a property and use its [property tax calculator](https://pbcpao.gov/calc-property-tax.htm), entering your intended purchase price and whether you intend to claim a homestead exemption. See the Property Appraiser's [residential page](https://pbcpao.gov/departments/residential.htm) for the office's guidance.
+- **Do not assume the seller's bill carries over.** Florida's assessment rules can change a property's assessed value after a sale, and exemptions that applied to the seller may not apply to you. That is why the seller's history is not automatically your future bill.
+- **Treat homestead and portability as eligibility-based programs.** Homestead is an exemption with ownership and residency requirements, and portability lets some owners carry over a benefit from a previous homestead. Neither is a universal benefit for buyers, and we do not promise eligibility. The Florida Department of Revenue's [homestead and exemption information](https://floridarevenue.com/property/pages/Taxpayers_Exemptions.aspx) is the official starting point, and the Property Appraiser handles applications.
+- **Rates change.** The Village, the county and other taxing authorities set their own millage rates, and those can change year to year. The Village publishes its adopted budget and millage materials, including a [Budget Year 2026 page](https://www.royalpalmbeachfl.gov/531/Budget-Year-2026). We do not quote a rate here. If you want the current Village rate, read it from that source and check that you are looking at the current year.
+- **The municipal line is one component.** A Village's own millage is only one part of a total property-tax bill. Other taxing authorities and any non-ad valorem assessments make up the rest.
 
-**Impact windows or shutters** affect pricing as well as your storm preparation.
+We do not explain the Village's tax history or claim its taxes are low or high. For a buyer, the question is what the exact parcel will be billed, and the calculator and the current tax bill are where to look.
 
-**The Florida market has moved considerably** in recent years. Treat any premium figure quoted to you by a previous owner as historical rather than predictive.
+## Building a Real Monthly Number
 
-**Flood is separate and is not automatic.** Being inland does not mean being out of a flood zone — the village is threaded with lakes and canals, and zones are determined property by property. Get the flood zone and, where relevant, an elevation certificate.
+Here is a simple, non-calculator worksheet. Replace each line with a figure you have verified for the exact property:
 
-## The older-house reserve
+- Monthly housing payment or rent
+- plus estimated monthly property taxes
+- plus estimated monthly insurance
+- plus estimated utilities and services
+- plus property-specific maintenance planning
+- plus transportation and routine costs
+- plus any applicable recurring community charge
+- equals a more realistic monthly planning number
 
-The line item buyers most often omit, and on stock of this age it is not optional.
+We populate nothing here with generic dollar figures, on purpose. A planning number built from verified inputs is more useful than a published average, and it is yours to adjust. This worksheet is an editorial framework, not financial advice and not a quote. Check it with your lender and other qualified professionals.
 
-Roof replacement, air conditioning replacement, water heater, potential re-piping, electrical panel upgrade and window or shutter protection are all foreseeable expenditures on a house built decades ago. Individually none is catastrophic. Together, spread across the years you will own the property, they represent a meaningful annual figure.
+> **Exploring Royal Palm Beach?** The [Royal Palm Beach community page](/communities/royal-palm-beach) gathers the guide series, and you can [browse Royal Palm Beach homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL) when you are ready. Our search follows each listing's city field, so a Royal Palm Beach listing is not automatically inside the Village.
 
-Annualise them. A buyer who sets aside a realistic monthly sum treats these as maintenance; a buyer who does not experiences them as emergencies, usually financed expensively.
+## A Royal Palm Beach-Specific Way to Compare Homes
 
-This is the single biggest difference between the true cost of an established village house and a new build, and it substantially narrows the apparent price advantage. It does not eliminate it — but the honest comparison is nothing like the sticker one.
+Compare homes on the same all-in framework, not on asking price, square footage or a historic tax bill alone. Two homes with the same list price can land at different monthly numbers, and the difference is usually in the categories above.
 
-## Utilities and everyday costs
+Some practical ways to do it:
+- **Run each home through the worksheet** with verified numbers, and compare the totals.
+- **Add the routine.** A home that suits your weekly routes may change your transportation line, and a home near the parks and amenities you use may change what you spend elsewhere. Our [local guide](/blog/local-guide-to-royal-palm-beach-florida) and [things-to-do guide](/blog/best-things-to-do-in-royal-palm-beach-florida) cover the routine and the recreation side, and the [dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida) covers places to eat.
+- **Check the project and planning context.** If a nearby project could affect the property, the Village's [maps and project tracking](https://www.royalpalmbeachfl.gov/452/Maps) are a place to look.
+- **Check the exact-address facts** that are not about money, including school assignment with the School District of Palm Beach County through its [attendance boundary maps](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/high-school-attendance-boundary-maps). We do not rate schools.
+- **Compare places, too.** If you are weighing the Village against a neighbor, our [comparison with nearby cities](/blog/royal-palm-beach-vs-nearby-cities) sets them side by side, and the same worksheet works for either.
 
-- **Water and wastewater** come from the Palm Beach County utilities department.
-- **Electricity** is Florida Power and Light, and summer cooling is the dominant seasonal cost, particularly in an older house with older windows and insulation.
-- **Solid waste** is handled through a county authority assessment collected with the tax bill.
-- **Groceries** track close to the state average, with full supermarket competition along the corridors.
-- **Dining** runs affordable and casual, which suits the budget — our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida) covers where.
-- **Recreation** is close to free for residents, which for an active household genuinely offsets other lines. Our [recreation round-up](/blog/best-things-to-do-in-royal-palm-beach-florida) lists what is included.
+For the weighed view of what the Village does well and where its trade-offs are, read the [pros and cons](/blog/pros-and-cons-of-living-in-royal-palm-beach-florida). For how the Village feels day to day, see [what it is really like to live in Royal Palm Beach](/blog/what-its-really-like-living-in-royal-palm-beach-florida). To compare areas and housing patterns, see the [neighborhood guide](/blog/best-neighborhoods-in-royal-palm-beach-florida), and to test your own routine, the [practical-fit guide](/blog/who-should-move-to-royal-palm-beach-florida).
 
-## Driving
+## What to Confirm for an Exact Property
 
-Real money, and permanent.
+- Review the current tax bill and relevant public records for the exact parcel, rather than assuming the absence or presence of any assessment from a community label.
+- Use the Property Appraiser's calculator with your intended purchase price and homestead situation.
+- Get insurance quotes, including flood, from a licensed professional for the exact property.
+- Confirm the water, electric, internet and waste arrangements for the address.
+- Have the home inspected, and plan maintenance with the findings.
+- Test the routes and travel costs for your own routine.
 
-There is no transit alternative here, so a household needs a vehicle per driver, and everything from the supermarket to the school run is a car journey. Fuel, insurance, maintenance and depreciation across two vehicles is a substantial annual figure, and the time is a cost of its own.
+## Bottom Line
 
-Model it honestly. It is one of the ways an inland location quietly recovers some of what it saved you on the purchase.
+The cost question is not whether Royal Palm Beach is universally cheap or expensive. It is whether the exact property's payment, tax estimate, insurance quotes, recurring costs and day-to-day routine fit your budget. A real number comes from verified inputs for one address, and the framework above is how to build it.
 
-## Running your real number
+We make no guarantees about listings, prices, taxes, insurance, financing or lifestyle outcomes, and this guide is not financial, legal, tax or insurance advice.
 
-1. **Get the roof age from permit records**, then get an insurance quote on that specific property.
-2. **Calculate the tax as reassessed**, not as the seller currently pays it.
-3. **Get the association budget and reserve study** where one exists, or confirm in writing that no association applies.
-4. **Annualise the systems reserve** — roof, cooling, plumbing, electrical.
-5. **Add the driving**, in fuel and in time.
-6. **Then compare** against [what the alternatives cost](/blog/royal-palm-beach-vs-nearby-cities), including their fees.
+> **Exploring Royal Palm Beach?** Visit the [Royal Palm Beach community page](/communities/royal-palm-beach) or [browse Royal Palm Beach homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL). No sign-up needed.
 
-## The bottom line
+## Sources and Last Reviewed
 
-Royal Palm Beach is genuinely less expensive to buy into and, in many neighborhoods, genuinely less expensive to carry month to month, thanks to low municipal overheads, absent or modest association dues, and no district assessment.
+Last reviewed October 14, 2026. Sources accessed October 14, 2026. Rates, fees, rules and programs change, so confirm them directly.
 
-Against that, the housing is old enough that maintenance and insurance are live considerations rather than distant ones, and driving is unavoidable. Buyers who model all of it do very well here. Buyers who compare asking prices alone get an education in their first year.
-
-*Rates, exemptions and rules change. Verify tax, homestead and portability specifics with the Palm Beach County Property Appraiser and Tax Collector, insurance and flood requirements with a licensed agent, and association obligations with the association itself.*`,
+- Palm Beach County Property Appraiser: [residential guidance](https://pbcpao.gov/departments/residential.htm), [property tax calculator](https://pbcpao.gov/calc-property-tax.htm) and [how tax bills are calculated](https://pbcpao.gov/trim/tax-calculated.htm)
+- Palm Beach County Tax Collector: [property tax guide](https://www.pbctax.gov/wp-content/uploads/2026/01/TPSG-2026-FNL-comprssed-1.pdf)
+- Florida Department of Revenue: [homestead and exemption information](https://floridarevenue.com/property/pages/Taxpayers_Exemptions.aspx)
+- Village of Royal Palm Beach: [Budget Year 2026](https://www.royalpalmbeachfl.gov/531/Budget-Year-2026) and [Maps](https://www.royalpalmbeachfl.gov/452/Maps)
+- Palm Beach County: [Water Utilities help and FAQs](https://discover.pbcgov.org/waterutilities/Pages/Help-and-FAQs.aspx); Solid Waste Authority: [financial information](https://www.swa.org/244/Financial-Information)
+- [FEMA Flood Map Service Center](https://msc.fema.gov/portal/search); School District of Palm Beach County: [attendance boundary maps](https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/high-school-attendance-boundary-maps)`,
     faqs: [
-      { q: "Is Royal Palm Beach affordable compared with the rest of Palm Beach County?", a: "Generally yes for comparable suburban housing. Purchase prices sit below the coastal towns and below neighboring Wellington, and many older neighborhoods carry modest association dues or none, which lowers the monthly cost as well as the purchase price." },
-      { q: "Why is the village property tax rate in Royal Palm Beach so low?", a: "The village sold its water and wastewater utility to Palm Beach County in the mid-2000s, and the proceeds have allowed it to operate on a municipal rate far below what a village of its size would normally levy. The municipal line is only one part of a bill that also carries county, school board and special district levies, so the total is not correspondingly low." },
-      { q: "Do homes in Royal Palm Beach have CDD assessments?", a: "The established parts of the village do not. Community development district assessments are a feature of newer master-planned communities elsewhere in the western county, where they fund infrastructure through bonds repaid over decades. Leaving them out of a comparison between a village resale and a newer build will distort it significantly." },
-      { q: "What drives home insurance costs in Royal Palm Beach?", a: "Roof age above all, since insurers price on it heavily and some decline older roofs. The four-point inspection and the wind mitigation report determine pricing on an older property, and older electrical panels or original plumbing can limit which carriers will write the policy. Flood coverage is separate and is determined property by property." },
+      { q: "What costs should I include when budgeting for Royal Palm Beach?", a: "Include your housing payment or rent, property taxes, property and flood insurance, utilities and services, maintenance planning, transportation and routine costs, and any recurring community charge that applies to the exact property. Each varies by property, so verify each one." },
+      { q: "How can I estimate property taxes for a Royal Palm Beach home?", a: "Look up the property on the Palm Beach County Property Appraiser's site and use its property tax calculator with your intended purchase price and homestead situation. Rates can change, so check the current year." },
+      { q: "Does the seller's tax bill predict what a buyer will pay?", a: "Not automatically. Assessed value can change after a sale and the seller's exemptions may not apply to a new owner, so use the calculator and the current tax bill for the exact parcel." },
+      { q: "Which costs should be confirmed for an exact property?", a: "Confirm property taxes, insurance quotes including flood, the utility and service providers for the address, maintenance needs through a licensed inspector, your transportation routine and any recurring community charge, through the appropriate current sources." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-royal-palm-beach-florida", "best-neighborhoods-in-royal-palm-beach-florida", "royal-palm-beach-vs-nearby-cities"],
-    funFact: "Royal Palm Beach consistently offers 20–30% more house for the money compared to eastern Palm Beach County zip codes at the same price point. For first-time buyers and families stretching their budget, that difference between a 3-bedroom and a 4-bedroom — or a pool versus no pool — is the whole conversation.",
+    internalLinks: ["what-its-really-like-living-in-royal-palm-beach-florida","local-guide-to-royal-palm-beach-florida","best-neighborhoods-in-royal-palm-beach-florida","best-things-to-do-in-royal-palm-beach-florida","who-should-move-to-royal-palm-beach-florida","pros-and-cons-of-living-in-royal-palm-beach-florida","royal-palm-beach-vs-nearby-cities","best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida","hidden-gems-in-royal-palm-beach-florida"],
+    funFact: "A cost-of-living number is only useful when it is built from verified inputs for one property. Replace each category with a real figure, such as a county tax estimate, an insurance quote and a utility confirmation, before comparing homes.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-14',
   },
   {
     slug: 'hidden-gems-in-royal-palm-beach-florida',

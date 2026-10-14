@@ -64,3 +64,9 @@ Needed (original or properly licensed Royal Palm Beach photography): a Village p
 Status: illustrative stock hero only (a crop of the Lesia aerial showing rooftops and yards, credited and captioned as not showing a specific Royal Palm Beach location). The decision matrix and the exact-address checklist are built as on-page tables and lists, not images.
 
 Needed (original or properly licensed Royal Palm Beach photography): a recognizable public setting such as Commons Park for the hero, a verified public-recreation image, and an optional streetscape that can be verified as inside the Village. An orientation map graphic is only worth adding if it can be checked against the Village's own map.
+
+## Blog #7 — Cost of Living in Royal Palm Beach: What to Budget For
+
+Status: illustrative stock hero only (a crop of the Lesia aerial showing rooftops and a street, credited and captioned as not showing a specific Royal Palm Beach location, a listing or an address). The cost framework table, worksheet and checklist are on-page content.
+
+Needed (original or properly licensed Royal Palm Beach photography): a genuine Village public setting for the hero, an established streetscape that does not show a private home's address, and optionally an orientation map that is checked against the Village's own map.
