@@ -91,6 +91,7 @@ export async function generateMetadata({ params }: Props) {
       ...(community.dateModified && { 'last-modified': community.dateModified }),
     },
     openGraph: {
+      url: `${SITE_URL}/communities/${slug}`,
       images: [{ url: ogImage, width: 1200, height: 630, alt: `${community.name} real estate` }],
     },
     twitter: {
@@ -159,6 +160,18 @@ export default async function CommunityPage({ params }: Props) {
       }
     : null
 
+  // Mirrors the visible breadcrumb nav (Home / Communities / parent city / page).
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { name: 'Home', item: SITE_URL },
+      { name: 'Communities', item: `${SITE_URL}/communities` },
+      ...(parentCity ? [{ name: parentCity.name, item: `${SITE_URL}/communities/${parentCity.slug}` }] : []),
+      { name: community.name, item: `${SITE_URL}/communities/${community.slug}` },
+    ].map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, ...crumb })),
+  }
+
   // Freshness signal for pages that record when their content last changed.
   const webPageSchema = community.dateModified
     ? {
@@ -179,6 +192,10 @@ export default async function CommunityPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') }}
+      />
       {webPageSchema && (
         <script
           type="application/ld+json"
@@ -190,11 +207,16 @@ export default async function CommunityPage({ params }: Props) {
       {hasPhotos ? (
         <section className="relative h-[72vh] min-h-[520px] overflow-hidden">
           {/* Hero image */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          {/* The LCP element. A raw <img> served the original upload (up to 13.9 MB
+              on Ibis, 3.7 MB on Boca Raton); next/image resizes it to the viewer. */}
+          <Image
             src={community.photos![0]}
             alt={`${community.name} real estate`}
-            className="h-full w-full object-cover"
+            fill
+            sizes="100vw"
+            loading="eager"
+            fetchPriority="high"
+            className="object-cover"
           />
           {/* Overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
@@ -537,20 +559,22 @@ export default async function CommunityPage({ params }: Props) {
                   {galleryPhotos.length >= 4 && (
                     <div className="hidden overflow-hidden rounded-2xl md:grid md:h-[460px] md:grid-cols-3 md:grid-rows-2 md:gap-1.5">
                       <div className="relative col-span-1 row-span-2 overflow-hidden">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
+                        <Image
                           src={galleryPhotos[0]}
                           alt={`${community.name} 1`}
-                          className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                          fill
+                          sizes="(min-width: 1280px) 420px, 33vw"
+                          className="object-cover transition duration-500 hover:scale-105"
                         />
                       </div>
                       {galleryPhotos.slice(1, 5).map((src, i) => (
                         <div key={i} className="relative overflow-hidden">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
+                          <Image
                             src={src}
                             alt={`${community.name} ${i + 2}`}
-                            className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                            fill
+                            sizes="(min-width: 1280px) 420px, 33vw"
+                            className="object-cover transition duration-500 hover:scale-105"
                           />
                         </div>
                       ))}
@@ -562,11 +586,12 @@ export default async function CommunityPage({ params }: Props) {
                     <div className="hidden gap-1.5 overflow-hidden rounded-2xl md:flex md:h-[340px]">
                       {galleryPhotos.map((src, i) => (
                         <div key={i} className="relative flex-1 overflow-hidden">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
+                          <Image
                             src={src}
                             alt={`${community.name} ${i + 1}`}
-                            className="h-full w-full object-cover transition duration-500 hover:scale-105"
+                            fill
+                            sizes="(min-width: 1280px) 420px, 33vw"
+                            className="object-cover transition duration-500 hover:scale-105"
                           />
                         </div>
                       ))}
@@ -577,11 +602,12 @@ export default async function CommunityPage({ params }: Props) {
                   <div className="grid grid-cols-2 gap-1.5 overflow-hidden rounded-2xl md:hidden">
                     {galleryPhotos.slice(0, 4).map((src, i) => (
                       <div key={i} className="relative aspect-[4/3] overflow-hidden">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
+                        <Image
                           src={src}
                           alt={`${community.name} ${i + 1}`}
-                          className="h-full w-full object-cover"
+                          fill
+                          sizes="50vw"
+                          className="object-cover"
                         />
                       </div>
                     ))}

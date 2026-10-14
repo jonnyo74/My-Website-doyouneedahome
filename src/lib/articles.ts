@@ -2458,7 +2458,7 @@ Where each area is, and whether it's an official designation:
 
 | Area | Where | Designation |
 |---|---|---|
-| El Cid | South of downtown, on the lagoon | City district; National Register |
+| [El Cid](/communities/el-cid) | South of downtown, on the lagoon | City district; National Register |
 | Flamingo Park | South of downtown, west of Dixie Hwy | City district; National Register |
 | Grandview Heights | Between Okeechobee Blvd and Park Pl | City district; National Register |
 | Prospect / Southland Park | On the lagoon, south of El Cid | City district; National Register |
@@ -11069,7 +11069,7 @@ Neighborhood facts are not parcel facts. For the specific property, get these in
 
 ## New construction in Wellington
 
-Check the claims about new development carefully. Related Ross announced in August 2026 that it had [closed on the land for Village Landing](https://www.relatedross.com/press-releases/2026-08-31/related-ross-closes-land-acquisition-village-landing-wellington), a planned mixed-use project at Stribling Way and State Road 7 on the site the Village previously called K-Park, and said it anticipated a fall groundbreaking. Its [May 2026 announcement](https://www.relatedross.com/press-releases/2026-05-12/related-ross-introduces-village-landing-71-acre-mixed-use-destination) describes retail, dining, office, hospitality and residential uses. We could not verify a unit count or a delivery date from official sources, and we could not verify the current status of the project earlier materials called Lotis Wellington. A land purchase or a zoning approval is not a completed building, and there is no inventory to buy. Read the Village's planning record for current status, and see our [new communities page](/new-communities).
+Check the claims about new development carefully. Related Ross announced in August 2026 that it had [closed on the land for Village Landing](https://www.relatedross.com/press-releases/2026-08-31/related-ross-closes-land-acquisition-village-landing-wellington), a planned mixed-use project at Stribling Way and State Road 7 on the site the Village previously called K-Park, and said it anticipated a fall groundbreaking. Its [May 2026 announcement](https://www.relatedross.com/press-releases/2026-05-12/related-ross-introduces-village-landing-71-acre-mixed-use-destination) describes retail, dining, office, hospitality and residential uses. We could not verify a unit count or a delivery date from official sources, and we could not verify the current status of the project earlier materials called Lotis Wellington. A land purchase or a zoning approval is not a completed building, and there is no inventory to buy. Read the Village's planning record for current status, and see our [communities page](/communities).
 
 > **Not sure which Wellington neighborhood fits your home search?** DO Homes Group can help you compare property types, HOA requirements, equestrian considerations, amenities and available listings across Wellington. [Browse Wellington homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Wellington&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[minPrice]=400000), see the [Wellington community page](/communities/wellington) or [talk with us](/contact). No sign-up needed.
 
@@ -32411,7 +32411,7 @@ The City runs its own parks, recreation facilities and a calendar of public even
 
 ### Golf is a major local variable
 
-The Cognizant Classic in The Palm Beaches, a PGA TOUR event, is played at PGA National's Champion Course in Palm Beach Gardens; the [tournament's official page](https://www.pgatour.com/tournaments/2026/cognizant-classic-in-the-palm-beaches/R2026010/overview) carries the current dates and details. Golf courses and club communities are a visible part of the city's built environment, and that matters to a buyer in practical ways: which communities carry club obligations, who may use which amenities, what the rules are, and what it all costs. Treat golf here as a diligence category, not a lifestyle promise. A fairway view and a right to play are separate things, and neither is implied by an address.
+The Cognizant Classic in The Palm Beaches, a PGA TOUR event, is played at [PGA National](/communities/pga-national)'s Champion Course in Palm Beach Gardens; the [tournament's official page](https://www.pgatour.com/tournaments/2026/cognizant-classic-in-the-palm-beaches/R2026010/overview) carries the current dates and details. Golf courses and club communities are a visible part of the city's built environment, and that matters to a buyer in practical ways: which communities carry club obligations, who may use which amenities, what the rules are, and what it all costs. Treat golf here as a diligence category, not a lifestyle promise. A fairway view and a right to play are separate things, and neither is implied by an address.
 
 ### Road-network and commercial access can be convenient for some addresses
 

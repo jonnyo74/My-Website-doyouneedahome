@@ -40,14 +40,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+  // lastModified is emitted only where the record carries a real edit date;
+  // a fabricated "now" on every URL would teach Google to ignore the field.
   const cityPages: MetadataRoute.Sitemap = cities.map((c) => ({
     url: `${BASE}/communities/${c.slug}`,
+    ...(c.dateModified && { lastModified: c.dateModified }),
     changeFrequency: 'weekly',
     priority: 0.85,
   }))
 
   const neighborhoodPages: MetadataRoute.Sitemap = neighborhoods.map((n) => ({
     url: `${BASE}/communities/${n.slug}`,
+    ...(n.dateModified && { lastModified: n.dateModified }),
     changeFrequency: 'weekly',
     priority: 0.75,
   }))
@@ -57,6 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((a) => a.published)
     .map((a) => ({
       url: `${BASE}/blog/${a.slug}`,
+      lastModified: a.updated,
       changeFrequency: 'monthly',
       priority: 0.7,
     }))
