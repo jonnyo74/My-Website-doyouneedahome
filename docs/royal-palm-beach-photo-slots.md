@@ -46,3 +46,9 @@ The same source policy applies as blog #1. The illustrative stock images already
 Status: illustrative stock only. Hero is a 16:9 crop of the neighborhood aerial; one supporting image (detached homes) sits under "The Main Royal Palm Beach Housing Patterns". Both are credited to the photographers on Unsplash and captioned as not showing a specific Royal Palm Beach location.
 
 Still open (needs original or properly licensed Royal Palm Beach photography): a park-adjacent or lake-edge scene, a golf-adjacent or amenity-community setting that can be verified as such, an established residential street, and an optional comparison graphic. The article names only Madison Green, so any community-setting image must be verified for that community.
+
+## Blog #4 — Best Things to Do in Royal Palm Beach
+
+Status: illustrative stock hero only (a crop of the Lesia aerial showing trees and lawn beside a neighborhood street, credited and captioned as not showing a specific Royal Palm Beach location). It is not a park photo, and this is the article that most needs real photography.
+
+Needed (original or properly licensed Royal Palm Beach photography): a Commons Park hero (lake edge, path or pavilion), a Village program or community-event setting, a second Village park (for example Veterans Park or Preservation Park), and a nearby-outing image that is clearly labeled with its real location (for example a county park or natural area). An accurate local-and-nearby activity map is optional.
