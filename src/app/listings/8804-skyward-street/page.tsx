@@ -10,6 +10,7 @@ import Reveal from './Reveal'
 import SellerCta from './SellerCta'
 import ShowingRequestForm from './ShowingRequestForm'
 import StickyBar from './StickyBar'
+import VideoTour from './VideoTour'
 import './skyward.css'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -305,6 +306,22 @@ export default function SkywardStreetPage() {
 
         <div className="absolute bottom-0 left-1/2 hidden -translate-x-1/2 flex-col items-center pb-4 sm:flex" aria-hidden="true">
           <span className="sky-cue-line" />
+        </div>
+      </section>
+
+      {/* ── Video tour ────────────────────────────────────────────────────── */}
+      <section className="px-5 pt-20 sm:px-8 sm:pt-28">
+        <div className="mx-auto max-w-6xl">
+          <SectionHeading label="Video Tour" title="Video Tour of 8804 Skyward Street">
+            <p className="sky-lede mt-6 max-w-3xl">
+              A walk through the house, the pool, and the water behind it.
+            </p>
+          </SectionHeading>
+          <Reveal>
+            <div className="mt-10">
+              <VideoTour />
+            </div>
+          </Reveal>
         </div>
       </section>
 
