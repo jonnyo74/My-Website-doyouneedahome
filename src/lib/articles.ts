@@ -13367,127 +13367,162 @@ Last reviewed October 14, 2026. Neighborhood facts, amenities and community rule
     updated: '2026-10-14',
   },
   {
-    slug: 'best-things-to-do-in-royal-palm-beach-florida',
+    slug: "best-things-to-do-in-royal-palm-beach-florida",
     citySlug: 'royal-palm-beach',
     cityName: 'Royal Palm Beach',
     type: "Best Things To Do In",
     order: 4,
     seoTitle: "Best Things to Do in Royal Palm Beach, Florida",
-    metaTitle: "Best Things to Do in Royal Palm Beach, Florida",
-    metaDescription: "From Commons Park's lake and trails to nearby nature preserves and Wellington's attractions — a local guide to the best things to do in Royal Palm Beach.",
-    primaryKeyword: "things to do in Royal Palm Beach Florida",
-    secondaryKeywords: ["Royal Palm Beach attractions", "what to do in Royal Palm Beach", "Royal Palm Beach Commons Park"],
+    metaTitle: "Best Things to Do in Royal Palm Beach, FL: Parks, Programs & Nearby Outings",
+    metaDescription: "The best things to do in Royal Palm Beach, Florida, sorted into what is inside the Village, what is nearby and what takes a planned outing. Parks, recreation and current official links.",
+    primaryKeyword: "best things to do in Royal Palm Beach Florida",
+    secondaryKeywords: ["things to do in Royal Palm Beach","Royal Palm Beach parks","Commons Park Royal Palm Beach","what to do near Royal Palm Beach"],
     h1: "Best Things to Do in Royal Palm Beach, Florida",
-    body: `Recreation is what Royal Palm Beach is genuinely good at. The village has invested in parks and programming to a degree that is unusual for a municipality of its size, and for residents that is a large part of the value proposition.
+    heroImage: '/images/royal-palm-beach/stock-green-space-hero.webp',
+    heroImageAlt: 'Top-down view of mature trees and lawn beside a curving residential street',
+    heroImageCaption: 'Illustrative aerial photo of trees and lawn beside a South Florida neighborhood street. It does not show a park or a specific Royal Palm Beach location.',
+    heroImageCredit: 'Photo by Lesia / Unsplash',
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    body: `Royal Palm Beach is a residential Village, not a beach town and not a walkable entertainment district. Its strongest everyday activities are parks, recreation, Village programming and planned trips to places nearby. If you are looking for a boardwalk, a nightlife strip or a downtown to wander, you will be driving somewhere else for that.
 
-## Royal Palm Beach Commons Park
+What the Village does well is ordinary outdoor time. It maintains a park system, runs its own recreation programs and keeps a public calendar of events. That makes it a practical home base, and it makes some weekends easy and others more planned.
 
-The centerpiece, and the reason people from neighboring communities drive in.
+This guide separates three kinds of outings so you always know what you are choosing. First, things physically inside the Village of Royal Palm Beach. Second, nearby activities outside the Village, with the municipality or operator named. Third, longer regional outings. We do not blur those categories, because the difference changes who runs the place, how you check hours and how much planning it takes.
 
-**The lake and the swim area.** A freshwater lake with a sandy beach-style swimming area, which is an uncommon thing to find inland and the feature most visitors are surprised by.
+We do not list hours, fees, ticket prices, event dates or drive times. They change, and an out-of-date number sends you to a closed gate. For restaurants and nightlife, see our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida). For navigating Village services, see the [local guide](/blog/local-guide-to-royal-palm-beach-florida). For what daily life feels like, read [what it is really like to live in Royal Palm Beach](/blog/what-its-really-like-living-in-royal-palm-beach-florida).
 
-**The splash pad.** Zero-depth water play, which through a Florida summer is one of the more useful things a village can own.
+## The Quick Answer: Local, Nearby, and Planned Outing
 
-**The dog park.** Separated runs, well used, and the most reliable place in the village to meet neighbors whether or not you intended to.
+| Type of outing | Examples | What to verify |
+|---|---|---|
+| Inside Royal Palm Beach | Village parks, recreation, community programming | Current schedule, reservation and access rules |
+| Nearby western county | County parks and regional attractions | Operator, hours, weather, reservations |
+| Longer regional outing | Cultural, beach or downtown destinations | Municipality, parking, timing, current conditions |
 
-**Trails.** Paved paths for walking, running, cycling and pushchairs, looping through the park and around the water.
+If you remember one thing, make it the right-hand column. Before any outing, find out who runs it and check that operator's own page that day.
 
-**Fishing.** Shoreline access on the lake, with the usual Florida freshwater licensing rules applying to adults.
+## Commons Park and Everyday Outdoor Time
 
-**Playgrounds and picnic pavilions.** Covered pavilions available to reserve, plus open lawn, restrooms and substantial parking.
+[Royal Palm Beach Commons Park](https://www.royalpalmbeachfl.gov/554/Commons-Park-Sporting-Center) at 11600 Poinciana Boulevard is the Village's central everyday option. The Village describes a park centered on a 19-acre lake, with roughly three miles of paved walking, jogging and bike trails, picnic pavilions with grills, some with fishing docks, sand volleyball courts, playscapes, an interactive splash fountain and a canoe and kayak launch. It also lists a golf training center with a driving range and practice greens.
 
-**The amphitheater.** An outdoor performance venue that anchors the village event calendar.
+Why it matters is simple. It is a free-to-reach public space close to many homes, with enough variety that a short visit can be a walk, a picnic or something for a child to burn energy on. For many households the park is a regular habit, not a destination.
 
-**Practical notes:** parking is generous but fills for large events, the swim area and splash pad are busiest on weekend afternoons, and between June and September the sensible plan is to arrive early. Bring shade and water regardless of the season.
+A few honest notes. The Village's own amenity lists differ slightly from page to page, so treat the list above as a description, not a guarantee. We do not know the current hours, fees or reservation rules, and they can change, so check the official page before you go. Water features, trails and pavilions can close for weather or maintenance. If you plan a gathering, ask the Village about pavilion reservations rather than assuming one is available.
 
-## The rest of the park system
+A park this size also invites a routine. Some households walk the paths after dinner, others book a pavilion for a birthday, and others use it as the place to let children run while they sit in the shade. None of those needs a ticket or a plan, which is the quiet advantage of a public park near home.
 
-Commons Park gets the attention, but the village runs a broader network.
+For the best experience, visit at the time you would actually go. A weekday morning, a late afternoon and a weekend can feel completely different, and midday summer heat shapes when people use the park.
 
-**Veterans Park** and the neighborhood parks spread across the village provide playgrounds, open space and courts within a short drive of most homes.
+## Village Recreation and Community Programming
 
-**Sports facilities.** Ball fields, courts and practice space support the village leagues, and they are busy on weekday evenings through the seasons.
+The Village runs recreation as a department, not an afterthought. Its Parks & Recreation pages describe programs, facilities and events, and its [Programs and Activities page](https://royalpalmbeachfl.gov/429/Programs-and-Activities) lists offerings such as fitness and martial arts classes and a range of senior programs, including a book club, chair yoga and tai chi. Programs change, so use the page for what is current instead of relying on our summary.
 
-Between them the smaller parks do a lot of quiet work, and for many households the neighborhood park five minutes away gets used more often than the flagship.
+The Village also keeps tools for registering, reserving and staying informed. Its [Apply, Register, Subscribe and Pay page](https://www.royalpalmbeachfl.gov/community/page/apply-register-subscribe-pay) lists recreation program registration, park pavilion rentals and Village alerts. Some online features require creating an account, and options can change.
 
-## The recreation program
+Practical steps:
 
-The village parks and recreation department runs a proper year-round schedule: youth sports leagues, adult leagues, seasonal camps, fitness and enrichment classes, and community programming for a range of ages including dedicated older-adult activities.
+1. **Start with the Village calendar.** The [official calendar](https://www.royalpalmbeachfl.gov/m/Calendar) is the authoritative source for events, and we send you there instead of printing dates.
+2. **Subscribe to Village alerts and email notifications** so you hear about closures and programs from the source.
+3. **Create an account early** if you expect to register for programs.
+4. **Check eligibility and access for each program.** Not every event suits every visitor, and some require registration or fees.
 
-This is a genuine advantage of living inside the municipality, and residents typically register at a lower rate than non-residents. How registration and facility booking actually work is covered in our [local guide](/blog/local-guide-to-royal-palm-beach-florida).
+The Village has historically programmed community events at its parks. Past pages have described concert nights, festivals and a weekly market. We do not list them as current, because schedules change. Treat them as examples of the kind of thing the Village offers, and confirm what is on now. Also see [A Local's Guide to Royal Palm Beach](/blog/local-guide-to-royal-palm-beach-florida) for how to use these tools.
 
-## The event calendar
+## Other Village Parks and Quieter Outdoor Options
 
-The amphitheater and the surrounding lawn host the village's public program through the year — outdoor concerts, film nights, seasonal festivals and holiday events. Much of it is free to attend.
+Commons Park is not the whole system. The Village's [parks directory](https://www.royalpalmbeachfl.gov/434/3982/Park-Locations-Amenities) lists a number of parks, and they are not interchangeable. Amenities, size and character differ, so we only describe the ones we could verify.
 
-The cooler months carry the heavier schedule for obvious reasons, and the winter and spring calendar is where most of the larger gatherings sit. Check the published village calendar rather than relying on hearing about things second hand.
+**Veterans Park.** The Village's [Veterans Park page](https://www.royalpalmbeachfl.gov/552/Veterans-Park) places it at 1036 Royal Palm Beach Boulevard, a smaller park. The Village lists amphitheaters, picnic pavilions, a toddler play area and a waterfall. [Seeds Café](https://www.royalpalmbeachfl.gov/425/Seeds-Cafe-at-Veterans-Park) operates at the park, and its hours differ between Village pages, so check before you go.
 
-## Golf
+**Preservation Park.** The Village's [Preservation Park page](https://www.royalpalmbeachfl.gov/555/Preservation-Park) lists 100 Sweet Bay Lane, with pickleball courts, a skate arena, soccer and football fields and basketball courts. Hours differ slightly between Village pages.
 
-**Madison Green** offers public golf within the village itself, built as the centerpiece of the surrounding community but open beyond it.
+**Neighborhood parks.** The directory also lists Camellia Park, Pine Road Park, Todd A. Robiner Park, Homeplace Park, H.L. Johnson Park, Crestwood Park North and others. We have not verified amenities for each, so we do not describe them. Check the directory, or visit.
 
-The wider western county has a substantial concentration of golf, both public and private, within a short drive, so residents who play seriously have considerably more than one option.
+Which of these is closest to a given home can matter more to a household's routine than the headline park. If park proximity is a priority, measure it from the exact address. Our [neighborhood guide](/blog/best-neighborhoods-in-royal-palm-beach-florida) explains how to compare, and the [hidden gems guide](/blog/hidden-gems-in-royal-palm-beach-florida) covers quieter finds.
 
-## Nature close by
+> **Exploring Royal Palm Beach?** Tell us what matters most about your home, neighborhood setting, daily routine and move timing, and we can help narrow the available options. [Contact us](/contact) or [see Royal Palm Beach homes](https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL). Our search follows each listing's city field, so a Royal Palm Beach listing is not automatically inside the Village. No sign-up needed.
 
-**Royal Palm Beach Pines Natural Area** sits on the northern side of the village — a county-managed natural area of pine flatwoods and wet prairie with trail access. It is quiet, free, and covered in more detail in our [guide to the village's quieter corners](/blog/hidden-gems-in-royal-palm-beach-florida).
+## Nearby Nature, Parks, and Animal Experiences
 
-**Loxahatchee Slough Natural Area**, west of the village, is a substantial wetland preserve with trails and serious birdlife.
+Everything in this section is outside the Village. We name the operator and location for each, because they run on their own rules.
 
-**Okeeheelee Park**, east along Forest Hill, is a large county park with lakes, trails, a nature center and water sports.
+**Okeeheelee Park (Palm Beach County Parks and Recreation).** A county regional park with an address on Forest Hill Boulevard in West Palm Beach. The county lists amenities such as a bicycle path, a disc golf course, pickleball courts, a boat launch and canoe and kayak access, and the park includes the Okeeheelee Nature Center. Individual areas have their own hours and some programs require reservations, and the county notes closures and construction from time to time. Use the [county park page](https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx) and the [ADA park map](https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf) for the current picture.
 
-Between them these three cover most of what an outdoor household would want without leaving the western county.
+**Royal Palm Beach Pines Natural Area (Palm Beach County Environmental Resources Management).** A county-managed natural area with hiking trails and an observation platform. The county lists entrances on Nature's Way and 40th Street North and sunrise-to-sunset access, and it restricts horse use to a designated trail with a permit. Despite the name, it is a county site, so use the [county page](https://discover.pbcgov.org/erm/NaturalAreas/Royal-Palm-Beach-Pines.aspx) for access, trail conditions and rules.
 
-## Within a short drive
+**Loxahatchee Slough Natural Area (Palm Beach County ERM).** A large county preserve whose main entrance the county lists in Palm Beach Gardens. That puts it in the longer-outing category for most Royal Palm Beach households. The county notes that trails can be very wet in summer and fall. See the [county page](https://discover.pbcgov.org/erm/NaturalAreas/Loxahatchee-Slough.aspx). For a closer look at the area, our [Palm Beach Gardens guide](/blog/best-things-to-do-in-palm-beach-gardens-florida) covers that side of the county.
 
-**Wellington**, immediately south, hosts an internationally significant winter equestrian season alongside its own park system and shopping — worth planning around, and covered in [Wellington's own guide](/blog/best-things-to-do-in-wellington-florida).
+**Lion Country Safari (private operator, Loxahatchee).** A ticketed drive-through safari and walkable park at an address in Loxahatchee, outside the Village. Admission, hours and the rules for what you may bring are set by the operator and change, so use its [visitor information page](https://www.lioncountrysafari.com/plan-your-visit). Our [Loxahatchee guide](/blog/best-things-to-do-in-loxahatchee-florida) covers other things to do in that area.
 
-**Lion Country Safari**, west on Southern Boulevard, is a drive-through wildlife park and the most obvious day out in the immediate area.
+For all of these: weather, water levels, trail conditions, reservations and admission can change, so check the operator that day. We make no claim about parking or crowds, and we give no drive times.
 
-**The coast** is roughly half an hour east, which makes a beach day a planned outing rather than a spontaneous one.
+## Golf, Sports, and Active Recreation
 
-**Downtown West Palm Beach** carries the museums, the performing arts venue, the waterfront and the restaurant density, and is the standard destination for an evening that the village cannot provide — the detail is in [that city's guide](/blog/best-things-to-do-in-west-palm-beach-florida).
+Active recreation in and around the Village falls into different categories, and the differences matter.
 
-**The rural western county** offers a genuinely different landscape within twenty minutes, from the [Loxahatchee area](/blog/best-things-to-do-in-loxahatchee-florida) out to the Everglades edge.
+**Village-run recreation.** Programs and facilities run by the Village, such as the sports fields and courts listed on its park pages, work through the Village's own registration and reservation rules.
 
-## Organized sport, month by month
+**Golf.** The Village includes the Madison Green area, which contains a golf course. Golf-directory sites describe it as a public course, but we could not confirm its current access rules from an official operator page. Do not assume a golf course or club is open to the public, and do not assume a membership or reservation is not required. Contact the operator directly. Courses, clubs and practice facilities nearby may be public, private, semi-private or membership-based, and the terms change.
 
-The village leagues follow a predictable annual rhythm, and knowing it helps newcomers arrive at the right moment rather than a season late.
+**County facilities.** Okeeheelee Park lists sports and active amenities, run by the county under its own rules, and Palm Beach County Parks and Recreation is the operator to check.
 
-**Autumn** brings the football and soccer seasons, which fill the fields on weekday evenings and Saturday mornings and are the busiest period of the sporting year.
+**Commons Park's golf training center.** The Village's Commons Park page lists a golf training center with a driving range and practice greens. Confirm access and fees with the Village.
 
-**Winter** shifts toward basketball and the indoor and court-based activities, helped considerably by the weather being at its most pleasant.
+Programs, leagues and classes add one more layer. Many are offered in seasons with registration periods, and eligibility, fees and age ranges are set by whoever runs them. If a particular activity is central to how you want to live, find the operator's page and read the current terms before you build a plan around it.
 
-**Spring** is baseball and softball, running through into the early part of the hot season.
+Whatever the activity, ask three questions before you plan around it: Who operates it? Is it open to you? What are the current conditions of access?
 
-**Summer** is camps and swimming, structured around the heat rather than fighting it, with most activity scheduled early or late in the day.
+## When You Want More Than the Village Offers
 
-**Adult leagues** run alongside throughout, generally in the evenings, and are one of the more effective ways for people new to the area to meet anyone.
+Royal Palm Beach does not have a beach, a major downtown entertainment district or a large cultural scene inside its limits, and it does not try to. When you want those, you are choosing a destination in a different municipality.
 
-Places in the more popular age groups go quickly once sign-up opens, so it is worth knowing the dates in advance rather than discovering them afterwards.
+- **Beaches** are on the Atlantic coast, in towns such as Juno Beach and Jupiter. See our [Juno Beach](/blog/best-things-to-do-in-juno-beach-florida) and [Jupiter](/blog/best-things-to-do-in-jupiter-florida) guides.
+- **Downtown dining, arts and waterfront** are in West Palm Beach. See our [West Palm Beach guide](/blog/best-things-to-do-in-west-palm-beach-florida).
+- **Equestrian, shopping and community events** next door are in Wellington, a separate Village with its own calendar. See our [Wellington guide](/blog/best-things-to-do-in-wellington-florida).
 
-## Doing it by season
+Each of these has its own parking, timing and conditions, and we give no travel times. Test the trip at the time you would actually take it. If you are weighing whether Royal Palm Beach is the right base for the outings you want, our [comparison with nearby cities](/blog/royal-palm-beach-vs-nearby-cities) puts it next to its neighbors.
 
-**October through April** is when this all works best. The parks are comfortable at any hour, the event calendar is full, and outdoor sport is pleasant rather than punishing.
+## Plan a Better Weekend
 
-**May through September** requires adjustment rather than surrender. Early mornings and evenings for anything active, the splash pad and the swim area for the middle of the day, and an eye on the afternoon storm, which arrives most days and usually passes.
+These are patterns, not promises. Confirm availability before you go.
 
-## The practical summary
+**A local park and recreation day.** Start with a walk or a bike ride at a Village park. Check the Village calendar for anything on that day. Add a pavilion or a visit to a second park if you want variety. Stay close to home and keep the plan loose.
 
-For an outdoor-minded household, Royal Palm Beach delivers well above its size. The park system is real, the programming is consistent, and most of what you will use week to week is free or close to it — which, as our [cost breakdown](/blog/cost-of-living-in-royal-palm-beach-florida) notes, is not a trivial contribution to the household budget.
+**A nearby outdoor outing.** Pick one county or regional site, such as a county park or natural area, and check the operator's page for conditions. Go early in warm months, bring water and shade, and have a backup in case trails or facilities are closed.
 
-For anyone whose leisure runs to restaurants, galleries and nightlife, the village is a base rather than a destination, and the [dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida) is honest about where that ceiling sits.`,
+**A regional outing.** Choose one destination in another municipality, such as a coastal town or downtown West Palm Beach. Check parking and timing in advance, plan around crowds and weather, and decide how long you are willing to travel and when you will head home.
+
+Keep a short list of backups too. Weather in this part of Florida can turn quickly, trails can be wet and a closure can change a plan, so a second option that is close to home makes a weekend feel easier. Write down the operator's page for each place on your list so you can check conditions in a minute.
+
+A good weekend does not need all three. A household that likes its local parks may do the first most weeks and the others a few times a year. If you want to see how these patterns would fit a specific home, the [pros and cons](/blog/pros-and-cons-of-living-in-royal-palm-beach-florida) and [cost of living guide](/blog/cost-of-living-in-royal-palm-beach-florida) are the next reads, and [who should move to Royal Palm Beach](/blog/who-should-move-to-royal-palm-beach-florida) helps you test the fit.
+
+## Bottom Line
+
+Royal Palm Beach works best as a practical home base with real everyday recreation: parks, programs and community events run by the Village. Larger outings, whether to a county preserve, a safari park or the coast, take intentional planning, and each has its own operator and its own rules.
+
+Use the Village's official calendar and alerts, check the operator before any outing and visit the parks yourself. The [community page](/communities/royal-palm-beach) gathers the rest of the series. We make no guarantees about activity access, schedules, listings, schools or lifestyle outcomes.
+
+> **Exploring Royal Palm Beach?** Tell us what matters most about your home, neighborhood setting, daily routine and move timing, and we can help narrow the available options. [Talk with us](/contact). No sign-up needed.
+
+## Sources and Last Reviewed
+
+Last reviewed October 14, 2026. Hours, fees, events and conditions change, so confirm them with each operator.
+
+- Village of Royal Palm Beach: [Calendar](https://www.royalpalmbeachfl.gov/m/Calendar), [Apply, Register, Subscribe and Pay](https://www.royalpalmbeachfl.gov/community/page/apply-register-subscribe-pay), [Park Locations & Amenities](https://www.royalpalmbeachfl.gov/434/3982/Park-Locations-Amenities), [Commons Park](https://www.royalpalmbeachfl.gov/554/Commons-Park-Sporting-Center), [Veterans Park](https://www.royalpalmbeachfl.gov/552/Veterans-Park), [Preservation Park](https://www.royalpalmbeachfl.gov/555/Preservation-Park) and [Programs and Activities](https://royalpalmbeachfl.gov/429/Programs-and-Activities)
+- Palm Beach County: [Okeeheelee Park](https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx), [Royal Palm Beach Pines Natural Area](https://discover.pbcgov.org/erm/NaturalAreas/Royal-Palm-Beach-Pines.aspx) and [Loxahatchee Slough Natural Area](https://discover.pbcgov.org/erm/NaturalAreas/Loxahatchee-Slough.aspx)
+- [Lion Country Safari visitor information](https://www.lioncountrysafari.com/plan-your-visit)`,
     faqs: [
-      { q: "What is there to do in Royal Palm Beach?", a: "Royal Palm Beach Commons Park is the main draw, with a lake and sandy swimming area, a splash pad, a dog park, paved trails, shoreline fishing, playgrounds, picnic pavilions and an amphitheater. Beyond it the village runs a network of neighborhood parks and sports facilities, a year-round recreation program, public golf at Madison Green, and nearby natural areas." },
-      { q: "Can you swim at Royal Palm Beach Commons Park?", a: "Yes. The park has a freshwater lake with a sandy beach-style swimming area, plus a separate splash pad for water play. Both are busiest on weekend afternoons, and arriving early is sensible through the summer months." },
-      { q: "Are there nature trails near Royal Palm Beach?", a: "Yes. Royal Palm Beach Pines Natural Area sits on the north side of the village, Loxahatchee Slough Natural Area is a larger wetland preserve to the west, and Okeeheelee Park is a substantial county park to the east with lakes, trails and a nature center." },
-      { q: "Does Royal Palm Beach hold community events?", a: "Yes. The amphitheater and surrounding lawn at Commons Park host the village event program through the year, including outdoor concerts, film nights, seasonal festivals and holiday events, much of it free. The calendar is heavier through the cooler months and is published by the village." },
+      { q: "Is there a beach in Royal Palm Beach?", a: "No. Royal Palm Beach is an inland residential Village. Beaches are on the Atlantic coast, in other municipalities such as Juno Beach and Jupiter, and each trip is a planned outing." },
+      { q: "What is the main park in Royal Palm Beach?", a: "Royal Palm Beach Commons Park at 11600 Poinciana Boulevard is the Village's central park. The Village describes a 19-acre lake, about three miles of paved trails, pavilions, volleyball courts, playscapes, a splash fountain and a canoe and kayak launch. Check the Village page for current hours and rules." },
+      { q: "Are Okeeheelee Park and Lion Country Safari in Royal Palm Beach?", a: "No. Okeeheelee Park is a Palm Beach County park with a West Palm Beach address, and Lion Country Safari is a privately operated attraction with a Loxahatchee address. Check each operator for hours, admission and conditions." },
+      { q: "Where can I find current Royal Palm Beach events?", a: "Use the Village of Royal Palm Beach's official calendar, and subscribe to Village alerts and notifications. We do not list event dates because schedules change." },
     ],
-    internalLinks: ["hidden-gems-in-royal-palm-beach-florida", "local-guide-to-royal-palm-beach-florida", "best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida"],
-    funFact: "The Acreage Equestrian Trail network connects through western Palm Beach County and is accessible from multiple Royal Palm Beach trailheads — giving riders and hikers access to miles of unpaved natural paths that feel nothing like suburban South Florida. It's largely unknown to residents east of 441.",
-    author: 'christine',
+    internalLinks: ["what-its-really-like-living-in-royal-palm-beach-florida","local-guide-to-royal-palm-beach-florida","best-neighborhoods-in-royal-palm-beach-florida","who-should-move-to-royal-palm-beach-florida","pros-and-cons-of-living-in-royal-palm-beach-florida","cost-of-living-in-royal-palm-beach-florida","hidden-gems-in-royal-palm-beach-florida","royal-palm-beach-vs-nearby-cities","best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida","best-things-to-do-in-wellington-florida","best-things-to-do-in-west-palm-beach-florida","best-things-to-do-in-loxahatchee-florida","best-things-to-do-in-palm-beach-gardens-florida","best-things-to-do-in-jupiter-florida","best-things-to-do-in-juno-beach-florida"],
+    funFact: "Before any outing, ask who operates it and check that operator's own page that day. A Village park, a county preserve and a private attraction each set their own hours, fees and conditions.",
+    author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-14',
   },
   {
     slug: 'who-should-move-to-royal-palm-beach-florida',
