@@ -52,3 +52,9 @@ Still open (needs original or properly licensed Royal Palm Beach photography): a
 Status: illustrative stock hero only (a crop of the Lesia aerial showing trees and lawn beside a neighborhood street, credited and captioned as not showing a specific Royal Palm Beach location). It is not a park photo, and this is the article that most needs real photography.
 
 Needed (original or properly licensed Royal Palm Beach photography): a Commons Park hero (lake edge, path or pavilion), a Village program or community-event setting, a second Village park (for example Veterans Park or Preservation Park), and a nearby-outing image that is clearly labeled with its real location (for example a county park or natural area). An accurate local-and-nearby activity map is optional.
+
+## Blog #5 — Is Royal Palm Beach a Practical Fit for Your Day-to-Day Priorities?
+
+Status: illustrative stock hero only (a crop of the FilterGrade street photo showing homes and a driveway, credited and captioned as not showing a specific Royal Palm Beach location). No supporting images yet.
+
+Needed (original or properly licensed Royal Palm Beach photography): a Village park or lake-edge scene for the hero, a residential street verified as inside the Village, a public-space or recreation detail, and optionally a visual version of the priorities table.
