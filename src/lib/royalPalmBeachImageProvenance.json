@@ -109,6 +109,18 @@
       "verification": "Stock photograph tagged Deerfield Beach, FL on Unsplash. It does not show Royal Palm Beach, a listing or an identifiable address, and is captioned as an illustrative South Florida neighborhood. Used only as a labeled illustration. Parked cars visible from above; no plates legible.",
       "license": "Unsplash License (https://unsplash.com/license)",
       "shows": "A top-down view of residential rooftops, driveways and a street"
+    },
+    {
+      "path": "/images/royal-palm-beach/stock-trees-lawn-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "Illustrative stock (Deerfield Beach, FL; not a Royal Palm Beach place)",
+      "stock": true,
+      "credit": "Photo by Lesia / Unsplash",
+      "source": "\"Aerial view of green trees and brown concrete building\" by Lesia, https://unsplash.com/photos/aerial-view-of-green-trees-and-brown-concrete-building-olFlnjzapjk; Unsplash location tag Deerfield Beach, FL; original 4000x3000, 16:9 crop of the lower-right (trees, lawn and a curving street), resized to 1600x900",
+      "verification": "Stock photograph tagged Deerfield Beach, FL on Unsplash. It does not show Royal Palm Beach, a natural area, a park, or any residence, and is captioned as an illustrative South Florida scene. Used only as a labeled illustration. No vehicles, people or houses in the crop.",
+      "license": "Unsplash License (https://unsplash.com/license)",
+      "shows": "A top-down view of mature trees and lawn beside a curving street"
     }
   ]
 }
