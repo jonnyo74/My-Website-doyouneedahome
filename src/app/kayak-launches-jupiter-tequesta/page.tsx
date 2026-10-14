@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     title: 'Public Kayak Launches in Jupiter & Tequesta',
     description:
       'Where you can actually drop a kayak on the Loxahatchee River system — mapped, rated for skill, and read through a homebuyer’s lens.',
+    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group — Palm Beach County Real Estate' }],
   },
 }
 

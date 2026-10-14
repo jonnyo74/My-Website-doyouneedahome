@@ -125,6 +125,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!a) return { title: 'Article not found' }
   const url = `${SITE}/blog/${a.slug}`
   const image = a.heroImage ? absoluteImage(a.heroImage) : undefined
+  // openGraph/twitter set here replace the root layout's objects wholesale
+  // (Next merges metadata shallowly), so an article with no hero would ship
+  // with no share image at all. Fall back to the sitewide card instead.
+  const fallbackImage = `${SITE}/images/og-image.jpg`
   return {
     title: a.metaTitle,
     description: a.metaDescription,
@@ -142,7 +146,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       modifiedTime: a.updated,
       images: image
         ? [{ url: image, width: a.heroImageWidth, height: a.heroImageHeight, alt: a.heroImageAlt ?? a.h1 }]
-        : undefined,
+        : [{ url: fallbackImage, width: 1200, height: 630, alt: 'DO Homes Group — Palm Beach County Real Estate' }],
     },
     // Without this the card falls back to the sitewide og-image.jpg from the
     // root layout, so every article shares one generic social preview.
@@ -150,7 +154,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: a.metaTitle,
       description: a.metaDescription,
-      images: image ? [{ url: image, alt: a.heroImageAlt ?? a.h1 }] : undefined,
+      images: image ? [{ url: image, alt: a.heroImageAlt ?? a.h1 }] : [{ url: fallbackImage }],
     },
   }
 }

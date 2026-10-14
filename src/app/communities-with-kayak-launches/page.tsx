@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     title: 'Communities With Their Own Kayak Launch',
     description:
       'Resident water access from Jupiter to North Palm Beach, graded by whether you can actually use it.',
+    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group — Palm Beach County Real Estate' }],
   },
 }
 

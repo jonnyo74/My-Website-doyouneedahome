@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Florida Sun & Shade Analyzer',
     description: 'See how sunlight moves across a property before you buy.',
+    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group — Palm Beach County Real Estate' }],
   },
 }
 
