@@ -127,6 +127,17 @@ const SINGLE_FAMILY_RE =
 const CONDO_DILIGENCE_RE =
   /due[-\s]diligence|\bhoa\b|homeowners? association|condo association|\bassociation\b|special assessment|\bassessments?\b|\breserves?\b|milestone inspection|structural integrity|estoppel|buyer'?s guide|\bbuying a condo\b|condo buyer|high[-\s]?rise|oceanfront condo|condo building|condo fees|rental restriction/gi
 
+/**
+ * Lifestyle signals on a neighborhood page: water, golf, clubs, 55+, horses.
+ * The county market report has no figures for any of these; the Relocation
+ * Decision Guide compares areas on exactly these questions (water access, golf,
+ * private clubs, 55+), so a neighborhood page built around one gets the guide.
+ * Applied to neighborhoods only — a city page is a market-level question and
+ * keeps the county report.
+ */
+const LIFESTYLE_RE =
+  /waterfront|oceanfront|intracoastal|riverfront|golf|country club|yacht|marina|boat slip|equestrian|\bpolo\b|\b55\+/i
+
 function countMatches(re: RegExp, text: string): number {
   re.lastIndex = 0
   return (text.match(re) ?? []).length
@@ -190,9 +201,18 @@ export function selectMagnetForCommunity(
   const priceRangeText = (community.priceRanges ?? [])
     .map((pr) => `${pr.type} ${(pr.propertyTypes ?? []).join(' ')}`)
     .join(' ')
-  return selectMagnetFromText(
+  const selected = selectMagnetFromText(
     `${nameAndTitle} ${community.description ?? ''} ${priceRangeText}`,
   )
+  // Only the generic fallback is overridden: relocation and condo-checklist
+  // matches above are already the more specific answer.
+  if (
+    selected === 'palm-beach-county-market-report' &&
+    LIFESTYLE_RE.test(`${nameAndTitle} ${priceRangeText}`)
+  ) {
+    return 'relocation-decision-guide'
+  }
+  return selected
 }
 
 /**

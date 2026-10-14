@@ -18,6 +18,9 @@ export interface LeadMagnetCTAProps {
   pageCategory: string
   /** Overrides the magnet's own CTA button label */
   buttonLabel?: string
+  /** Page-specific headline/description; the magnet's own copy is the default. */
+  headline?: string
+  description?: string
   className?: string
 }
 
@@ -51,6 +54,8 @@ export default function LeadMagnetCTA({
   variant,
   pageCategory,
   buttonLabel,
+  headline: headlineOverride,
+  description: descriptionOverride,
   className = '',
 }: LeadMagnetCTAProps) {
   const [open, setOpen] = useState(false)
@@ -106,8 +111,10 @@ export default function LeadMagnetCTA({
 
   // The only multi-magnet selection is the Martin + Palm Beach County pair.
   const eyebrow = magnet?.ctaEyebrow ?? 'Free County Market Reports'
-  const headline = magnet?.ctaHeadline ?? 'Get the Martin County or Palm Beach County Market Report'
+  const headline =
+    headlineOverride ?? magnet?.ctaHeadline ?? 'Get the Martin County or Palm Beach County Market Report'
   const description =
+    descriptionOverride ??
     magnet?.ctaDescription ??
     'Prices, inventory, months of supply and days to contract for single-family homes and condos/townhomes, county by county — pick either report as a free instant PDF.'
   const label = buttonLabel ?? magnet?.ctaButtonLabel ?? 'Download the Free Report'

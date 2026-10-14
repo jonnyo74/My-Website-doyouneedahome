@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | DO Homes Group',
@@ -38,6 +39,20 @@ export default function ContactPage() {
             We're available every day and respond the same day. Call, email, or stop by our Palm
             Beach Gardens office.
           </p>
+        </div>
+      </section>
+
+      {/* Message form — the landing spot for every "Contact Us" and next-step link */}
+      <section id="contact-form" className="scroll-mt-24 bg-white px-6 pt-16 sm:px-8">
+        <div className="mx-auto max-w-5xl">
+          <div className="max-w-xl rounded-3xl border border-slate-200 bg-white p-7 shadow-card sm:p-9">
+            <h2 className="font-serif text-2xl font-semibold text-slate-900">Send Us a Message</h2>
+            <p className="mt-2 mb-6 text-sm leading-6 text-slate-600">
+              Tell us the area or building you have in mind and we will reply, usually the same day.
+              Prefer to talk? The numbers are just below.
+            </p>
+            <ContactForm />
+          </div>
         </div>
       </section>
 
