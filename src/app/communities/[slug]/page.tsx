@@ -133,6 +133,15 @@ export default async function CommunityPage({ params }: Props) {
   // Treasure Coast offer rather than Palm Beach County report language; a
   // neighborhood inherits its parent city's geography.
   const magnetSelection = selectMagnetForCommunity(community, articleCity?.slug ?? community.slug)
+  // A city page offering the county report says so, instead of promising
+  // "what homes sold for" in a town the report has no figures for.
+  const countyReportCopy =
+    isCity && magnetSelection === 'palm-beach-county-market-report'
+      ? {
+          headline: `The Palm Beach County Numbers Behind ${community.name}`,
+          description: `Single-family and condo medians, days to contract and months of supply for the whole county — the baseline we start from before pulling ${community.name} sales with you. Free instant PDF.`,
+        }
+      : {}
   // For neighborhoods, search by parent city not the neighborhood name — Ylopo's
   // search only resolves real municipalities, not subdivision/community names
   // (e.g. searching city="Abacoa" returns zero results; it must be "Jupiter").
@@ -920,6 +929,7 @@ export default async function CommunityPage({ params }: Props) {
                   after the substance of the page, not before it. */}
               <LeadMagnetCTA
                 selection={magnetSelection}
+                {...countyReportCopy}
                 variant="inline"
                 pageCategory="community"
                 className="lg:hidden"
@@ -1150,6 +1160,7 @@ export default async function CommunityPage({ params }: Props) {
                 {/* Lead-magnet card */}
                 <LeadMagnetCTA
                   selection={magnetSelection}
+                  {...countyReportCopy}
                   variant="sidebar"
                   pageCategory="community"
                 />

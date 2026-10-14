@@ -262,7 +262,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       description:
         'County numbers blend very different communities. Tell us the area or building you care about and we will pull the recent closed sales and active competition there.',
       label: 'Request Neighborhood Numbers',
-      href: '/contact',
+      href: '/contact?from=palm-beach-county-market-report#contact-form',
     },
     related: ['relocation-decision-guide', 'condo-due-diligence'],
     published: true,
@@ -374,7 +374,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       description:
         'The fastest next step is a conversation. Tell us the two or three areas you narrowed it down to and we will tell you what the guide could not.',
       label: 'Schedule a Relocation Consultation',
-      href: '/contact',
+      href: '/contact?from=relocation-decision-guide#contact-form',
     },
     published: true,
   },
@@ -484,7 +484,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       description:
         'Send us the building you are considering. We will tell you what we know about it, and what we would ask the association first.',
       label: 'Ask a Condo-Building Question',
-      href: '/contact',
+      href: '/contact?from=condo-due-diligence#contact-form',
     },
     published: true,
   },
@@ -602,7 +602,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       description:
         'County medians are a starting point. Tell us the neighborhood and property type and we will look at recent sales and active competition there with you.',
       label: 'Start a Strategy Conversation',
-      href: '/contact',
+      href: '/contact?from=martin-county-market-report#contact-form',
     },
     related: ['relocation-decision-guide', 'condo-due-diligence'],
     published: true,
@@ -713,7 +713,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       description:
         'County figures only go so far. Tell us the neighborhood or building and we will map out a plan around recent sales there and your timing.',
       label: 'Request a Neighborhood Game Plan',
-      href: '/contact',
+      href: '/contact?from=st-lucie-county-market-report#contact-form',
     },
     related: ['relocation-decision-guide', 'condo-due-diligence'],
     published: true,

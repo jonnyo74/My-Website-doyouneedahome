@@ -184,6 +184,11 @@ export default function LeadMagnetForm({
       if (!data.ok) throw new Error('Lead submission rejected')
 
       setStatus('success')
+      // Confirmed by the server (FUB accepted the lead) — the only event that
+      // should be marked a GA4 key event. lead_magnet_submit fires before the
+      // response and counts attempts, not leads.
+      trackEvent('lead_magnet_success', analyticsParams)
+      trackEvent('generate_lead', { ...analyticsParams, form_type: 'lead_magnet', phone_provided: !!values.phone.trim() })
       if (data.downloadUrl) {
         setDownloadUrl(data.downloadUrl)
         triggerDownload(data.downloadUrl)

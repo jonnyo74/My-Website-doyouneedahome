@@ -6,6 +6,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import SiteChrome from '@/components/SiteChrome'
 import SiteLeadMagnets from '@/components/leadMagnet/SiteLeadMagnets'
+import ContactClickTracker from '@/components/ContactClickTracker'
 import ThirdPartyFrameTitles from '@/components/ThirdPartyFrameTitles'
 import { SITE_URL } from '@/lib/site'
 import './globals.css'
@@ -77,6 +78,7 @@ export default function RootLayout({
           <Footer />
         </SiteChrome>
         <SiteLeadMagnets />
+        <ContactClickTracker />
         <ThirdPartyFrameTitles />
         <Analytics />
       </body>
