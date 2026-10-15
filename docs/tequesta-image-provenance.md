@@ -65,3 +65,11 @@ Sources are `IMG_4361`, `IMG_4363`, `IMG_4364`, `IMG_4365` and `IMG_4366` from `
 | `public/images/tequesta/tequesta-fit-self-sorting-graphic.webp` (1200x800) | Original DYNA graphic | Blog #5 "Tequesta Fit" self-sorting graphic; not a ranking |
 
 The shaded-street and marina illustrations were removed from Blogs #1 to #3 and are now unused. The silhouettes show distant, unidentifiable people on paddleboards and buildings are not named.
+
+## Tequesta Blog #6 (Pros and Cons)
+
+| File | Source | Use |
+| --- | --- | --- |
+| `public/images/tequesta/tequesta-sunset-water-dusk-hero.webp` (1920x1080) | `IMG_4360.JPEG`, 16:9 crop, John Oliver's own photo from the Jupiter folder (same sunset session as Blog #4) | Hero and OG image |
+
+Originals have no EXIF, so "Tequesta" rests on John's description of the folder.
