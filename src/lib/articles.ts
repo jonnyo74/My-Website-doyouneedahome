@@ -28028,6 +28028,7 @@ Tequesta is a small place with real variety. The right part of it depends on you
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 1920,
     heroImageHeight: 1080,
+    heroImagePosition: '59% 50%',
     inlineMagnet: false,
     body: `*An outdoors-first local guide to sunset water, Coral Cove, river mornings, and the wild Florida just beyond the Village.*
 
@@ -28165,6 +28166,7 @@ If you are wondering what that looks like day to day, start with [what it is rea
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 1920,
     heroImageHeight: 1080,
+    heroImagePosition: '68% 50%',
     inlineMagnet: false,
     body: `*For people who want a quiet, green home base with water nearby—and do not need their neighborhood to entertain them every night.*
 
@@ -28270,6 +28272,7 @@ Tequesta is not trying to compete with a big downtown or a resort strip. Its val
     heroImageCredit: 'Photo by John Oliver',
     heroImageWidth: 1920,
     heroImageHeight: 1080,
+    heroImagePosition: '71% 50%',
     inlineMagnet: false,
     showMarketTrends: true,
     body: `Tequesta is easy to like and harder to evaluate, because most of what people love about it comes with a trade-off attached. The quiet comes with a smaller commercial footprint. The mature trees come with older homes. The water comes with responsibilities that depend entirely on which house you are looking at.
