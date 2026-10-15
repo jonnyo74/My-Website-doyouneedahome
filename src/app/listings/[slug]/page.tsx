@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import { bedsLabel, bedsUnit, getListingBySlug, getListingPaths, priceDisplay, showsOpenHouse, showsPriceReduced, statusBadgeClasses, type ListingAgentInfo } from '@/lib/listings'
 import { getCommunityBySlug } from '@/lib/communities'
 import OpenHouseBanner from './OpenHouseBanner'
+import ListingVideo from './ListingVideo'
 import YlopoInit from '@/components/YlopoInit'
 import ListingSunShade from '@/components/ListingSunShade'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
@@ -408,6 +409,16 @@ export default async function ListingPage({ params }: Props) {
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 lg:grid-cols-[1fr_320px] lg:items-start">
             <div className="space-y-14">
+
+              {/* Video tour */}
+              {listing.videoId && (
+                <div>
+                  <h2 className="mb-4 font-serif text-2xl font-semibold text-slate-900">
+                    Video Tour of {listing.address}
+                  </h2>
+                  <ListingVideo videoId={listing.videoId} address={listing.address} slug={listing.slug} />
+                </div>
+              )}
 
               {/* Photo gallery / placeholder */}
               <div>
