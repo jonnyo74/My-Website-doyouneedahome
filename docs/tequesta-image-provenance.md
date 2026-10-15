@@ -48,3 +48,20 @@ Unlike Blogs #1 to #3, this article uses real photographs from John Oliver's own
 | `public/images/jupiter/jupiter-lighthouse-dock-dusk.webp` | Existing Jupiter library photo (see `public/images/jupiter/SOURCES.md`) | Lighthouse card | Captioned as the Jupiter Inlet Lighthouse in Jupiter |
 
 Not used: `coral-cove-002.jpeg` (branded tent and table, Miami Dolphins logos) and `coral-cove-003.jpeg` (an adult and a young child).
+
+## Tequesta Blog #5 (Who Should Move) and photo swap in Blogs #1 to #3
+
+The stylized illustrations in Blogs #1 to #3 (palm silhouettes, shaded street, marina dock, lower-river hero) read as uncanny, so they were replaced with John Oliver's own photos wherever they appeared inline, and the Blog #1 hero was swapped. The Blog #2 and #3 hero illustrations, the schematic and orientation maps, and the condo-corridor illustration remain.
+
+Sources are `IMG_4361`, `IMG_4363`, `IMG_4364`, `IMG_4365` and `IMG_4366` from `DO Homes Group Master/Website Folders/Doyouneedphotos/Jupiter`, the same sunset session as the Blog #4 photos. Originals have no EXIF, so "Tequesta" rests on John's description of the folder.
+
+| File | Source | Use |
+| --- | --- | --- |
+| `public/images/tequesta/tequesta-calm-water-sunset-hero.webp` (1920x1080) | `IMG_4364`, 16:9 crop | Blog #1 hero and OG image |
+| `public/images/tequesta/tequesta-sunset-paddleboard-wide.webp` (1200x800) | `IMG_4361`, crop | Blog #1 inline (replaces marina illustration) |
+| `public/images/tequesta/tequesta-sunset-paddleboard-dusk.webp` (1200x800) | `IMG_4363`, crop | Blog #2 inline (replaces marina illustration) |
+| `public/images/tequesta/tequesta-palm-shoreline-sunset-hero.webp` (1920x1080) | `IMG_4366`, 16:9 crop | Blog #5 hero and OG image |
+| `public/images/tequesta/tequesta-palm-shoreline-sunset.webp` (1200x800) | `IMG_4365`, crop | Blog #5 supporting image |
+| `public/images/tequesta/tequesta-fit-self-sorting-graphic.webp` (1200x800) | Original DYNA graphic | Blog #5 "Tequesta Fit" self-sorting graphic; not a ranking |
+
+The shaded-street and marina illustrations were removed from Blogs #1 to #3 and are now unused. The silhouettes show distant, unidentifiable people on paddleboards and buildings are not named.
