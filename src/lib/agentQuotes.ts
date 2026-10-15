@@ -48,8 +48,8 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'royal-palm-beach': {
-    christineQuote: "Royal Palm Beach is the right call for buyers who want school access, community parks, and larger lots — without coastal pricing. It's a market I recommend confidently to buyers who prioritize square footage and amenities over a coastal ZIP code.",
-    johnQuote: "RPB works best for buyers who want more space for their money. Larger homes, A-rated school zones, community parks, easy Turnpike access — and you're still close to Wellington and the equestrian scene. Real value in a strong market.",
+    christineQuote: "Royal Palm Beach is the right call for buyers who want community parks, usable space and a real house — without coastal pricing. It's a market I recommend confidently to buyers who prioritize square footage and parks over a coastal ZIP code.",
+    johnQuote: "RPB works best for buyers who want more space for their money. Detached homes, a long list of community parks, a choice of very different communities — and you're right next door to Wellington and the equestrian scene.",
   },
 
   'palm-beach': {

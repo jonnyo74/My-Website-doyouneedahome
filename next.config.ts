@@ -32,6 +32,14 @@ const nextConfig: NextConfig = {
       { source: '/palm-beach-county-condo-townhome-market-report', destination: '/palm-beach-county-market-report', permanent: true },
       { source: '/treasure-coast-real-estate-market-report', destination: '/martin-county-market-report', permanent: true },
 
+      // ── UNVERIFIED ROYAL PALM BEACH COMMUNITY PAGES ───────────────────
+      // These four never matched a recorded Royal Palm Beach subdivision and were
+      // removed in October 2026. Old links go to the real hub.
+      { source: '/communities/pomelo-park', destination: '/communities/royal-palm-beach', permanent: true },
+      { source: '/communities/seneca-lakes', destination: '/communities/royal-palm-beach', permanent: true },
+      { source: '/communities/oakbrook', destination: '/communities/royal-palm-beach', permanent: true },
+      { source: '/communities/lake-clarence', destination: '/communities/royal-palm-beach', permanent: true },
+
       // ── BLOG CONSOLIDATION ────────────────────────────────────────────
       // Port Salerno carries 10 articles. The hidden-gems article was rewritten
       // into the history cornerstone at a new slug; this preserves that URL.

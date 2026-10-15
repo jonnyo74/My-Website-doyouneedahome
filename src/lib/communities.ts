@@ -1384,112 +1384,150 @@ export const cities: CommunityItem[] = [
     name: 'Royal Palm Beach',
     type: 'City',
     region: 'Western Palm Beach County',
-    description: 'A mature master-planned village with extensive parks and a range of single-family homes, set between Wellington and the coast.',
+    description: "A more attainable Palm Beach County village for buyers who want a house, usable space and parks, in communities that range from established 1970s streets to a gated Lennar neighborhood.",
+    metaTitle: "Royal Palm Beach, FL Homes and Communities | DO Homes Group",
+    metaDescription: "Royal Palm Beach, FL real estate: The Willows, La Mancha, Counterpoint Estates, the Crestwood Boulevard communities, Madison Green, PortoSol, BellaSera and more.",
     overview:
-      'Royal Palm Beach is one of Palm Beach County\'s most established planned villages — grown over five decades into a well-organized, amenity-rich destination for buyers who prioritize school access, parks, lot size, and value over coastal proximity. With a population of roughly 38,000, it is large enough to offer every convenience but maintains a genuine neighborhood character that newer planned communities often struggle to replicate.\n\nThe housing stock spans mid-century originals through 1990s and early 2000s tract homes, with pockets of estate-sized properties and a growing number of thoughtfully renovated homes as buyers relocate from more expensive markets. Royal Palm Beach Common Park — 73 acres with a lake, trails, splash pad, sports courts, and a community center — is one of the best public parks in the western county. Wellington is directly next door, putting the International Polo Club, equestrian venues, and some of South Florida\'s most distinctive lifestyle events within a 5-minute drive. For buyers who want an established neighborhood, school access, and meaningful square footage at a price the coastal markets cannot touch, Royal Palm Beach is a perennial answer.',
-    lifestyle: 'Royal Palm Beach offers larger lots and master-planned neighborhoods at a lower cost of living and a lower price per square foot than the coastal corridor, in a central-west location with services close at hand. Day-to-day life centers on parks, community pools, recreation leagues, extensive lake frontage, and weekend trips to Wellington\'s polo matches or Lion Country Safari. It is not a glamorous market — it is a practical one, built for full-time residency.',
+      "Royal Palm Beach is a more attainable Palm Beach County choice for buyers who want a house, usable space, parks and established suburban life without coastal pricing. Its strength is value and range. The Village was incorporated in 1959, covers about 11 square miles, and runs 20 parks, and the Census Bureau puts its median owner-occupied home value for 2020 to 2024 at $437,700, against $599,400 in neighboring Wellington. That is a Village-wide median, and the housing inside it is not one thing.\n\nThe Village breaks down into three kinds of place. Established central communities, The Willows, La Mancha and Counterpoint Estates, grew up around Royal Palm Beach and Okeechobee Boulevards beginning in the 1970s. A corridor of distinct communities runs along Crestwood Boulevard on the west side, from the long-standing Crestwood neighborhood to Madison Green, Saratoga at Royal Palm and BellaSera, a gated Lennar community at the north end. And newer planned communities, PortoSol and Bella Terra among them, were built in the 2000s and 2010s. Crestwood Boulevard is a road, not a neighborhood, so each community along it is its own place.\n\nRoyal Palm Beach is inland and car-oriented, and it has no beach, no walkable downtown and no nightlife district. What it has is Commons Park, a 19-acre lake with about three miles of paved trail, a Saturday Green Market at Village Hall, the county's 772-acre Pines Natural Area just north, and Wellington next door.",
+    placeNotes: [
+      {
+        heading: 'How Royal Palm Beach breaks down',
+        body: "The Village is not one housing experience. Think of it as three groups: established central communities near Royal Palm Beach and Okeechobee Boulevards, a set of separate communities along Crestwood Boulevard, and newer planned communities built from the 2000s forward. The same Village holds 1970s street grids, early-2000s planned neighborhoods and a gated community that opened its first homes in December 2018.",
+        links: [{ label: 'Best neighborhoods in Royal Palm Beach', href: '/blog/best-neighborhoods-in-royal-palm-beach-florida' }],
+      },
+      {
+        heading: 'Established central communities',
+        body: "The Willows, La Mancha and Counterpoint Estates sit in the middle of the Village, near Village Hall, Veterans Park and the Saturday Green Market. County parcel records show homes in The Willows from the early 1970s and in La Mancha and Counterpoint Estates from the mid-1970s through the early 1990s. Each has parks on its own streets.",
+      },
+      {
+        heading: 'The Crestwood Boulevard corridor',
+        body: "Crestwood Boulevard runs north from Southern Boulevard along the Village's west side. The communities along it are separate places: the established Crestwood neighborhood, Madison Green beside Madison Green Country Club, Saratoga at Royal Palm, and BellaSera at 980 Crestwood Boulevard North, which Lennar announced as a gated, master-planned community. BellaSera is Lennar's name for the plat the county records as Crestwood North.",
+      },
+      {
+        heading: 'Planned communities',
+        body: "PortoSol, near State Road 7 north of Okeechobee Boulevard, dates from roughly 2008 to 2015. Bella Terra and Anthony Groves, whose street is Victoria Grove Boulevard, are early-2000s communities in the southeast along Southern Boulevard. Lakeside Landing, north of Okeechobee Boulevard, is new construction.",
+      },
+    ],
+    lifestyle: "Royal Palm Beach is a parks-and-driveways village: mornings on the Commons Park loop, Saturdays at the Green Market, pizza or a steak at a neighborhood restaurant, and a car for every errand. It offers space and range that coastal Palm Beach County rarely does, and it asks you to accept an inland, car-based routine in exchange.",
     localLoves: [
-      'Royal Palm Beach Commons Park — 73 acres with lake fishing, trails, splash pad, sports fields, dog park, and community center',
-      'Wellington\'s International Polo Club — weekly polo matches January–April, open to the public and locals, 5 minutes away',
-      'Lion Country Safari — open-drive safari and water park, unique in South Florida',
-      'Acreage communities nearby for buyers wanting a little land and no HOA',
-      'Seminole Palms Park — additional active recreation with playgrounds and courts',
-      'Okeeheelee Park (West Palm) — 1,700+ acres of trails, disc golf, wakeboarding, and lakes 15 minutes east',
-      'Shopping centers along Royal Palm Beach Boulevard — Publix, Target, and major retail within the community',
-      'Close proximity to the Everglades agricultural areas — farm stands and rural character 10 minutes west',
+      "Commons Park & Sporting Center at 11600 Poinciana Boulevard: a 19-acre lake, about three miles of paved trail, a kayak launch, a splash fountain, two disc golf courses and a dog park",
+      "The Saturday Green Market at Village Hall, in season, run by a private events company",
+      "Veterans Park beside Village Hall, with a waterfall, an amphitheater and a cafe",
+      "The county's 772-acre Royal Palm Beach Pines Natural Area, with four hiking trails, open sunrise to sunset",
+      "Preservation Park, 82.7 acres, with pickleball courts and a skate arena",
+      "Four Village dog parks: Commons Park, Homeplace Park, Pine Road Park and Todd A. Robiner Park"
     ],
     subNeighborhoods: [
-      { name: 'Woodland Lakes', description: 'One of Royal Palm Beach\'s most established communities — larger single-family homes with lake views, mature landscaping, and a strong neighborhood identity.' },
-      { name: 'Oakbrook', description: 'A well-regarded mid-size community with newer construction and convenient access to the Commons Park and shopping corridors.' },
-      { name: 'Emerald Dunes Area', description: 'Homes near the Emerald Dunes Golf Club — a former public championship course with some of the most generously sized lots in the village.' },
-      { name: 'Lake Estates / Lake Placid', description: 'Lakefront and lake-view homes at some of Royal Palm Beach\'s most competitive price points — among the more accessible entry points in the village.' },
+      {
+        "name": "The Willows",
+        "description": "Central Village around Royal Palm Beach and Okeechobee Boulevards, with bird-named streets. County records show homes from the early 1970s."
+      },
+      {
+        "name": "La Mancha",
+        "description": "North of Okeechobee Boulevard, along La Mancha Avenue, with Spanish-named streets. Todd A. Robiner Park is on La Mancha Avenue."
+      },
+      {
+        "name": "Counterpoint Estates",
+        "description": "South-central Village between Southern and Okeechobee Boulevards, platted in fourteen sections from 1977 to 1993, with operetta-named streets."
+      },
+      {
+        "name": "Crestwood (Units 1-4)",
+        "description": "The long-standing neighborhood on the middle stretch of Crestwood Boulevard, with county records from the early 1980s into the 2000s."
+      },
+      {
+        "name": "Madison Green",
+        "description": "A planned community from the early 2000s around the Okeechobee, Crestwood and Saratoga Boulevard area. Madison Green Country Club is at 2001 Crestwood Boulevard North."
+      },
+      {
+        "name": "Saratoga at Royal Palm",
+        "description": "Around Saratoga Boulevard on the west side, platted in five sections, with homes from the late 1980s into the early 2000s."
+      },
+      {
+        "name": "BellaSera",
+        "description": "Lennar's gated, master-planned community at 980 Crestwood Boulevard North, recorded by the county as Crestwood North. The Village's planning records show 385 single-family homes on about 154 acres."
+      },
+      {
+        "name": "PortoSol",
+        "description": "About 500 single-family homes near State Road 7, north of Okeechobee Boulevard, built from roughly 2008 to 2015. Minto Communities is the developer."
+      },
+      {
+        "name": "Anthony Groves (Victoria Grove)",
+        "description": "Early-2000s homes along Southern Boulevard in the southeast Village. The recorded plat is Anthony Groves and the street is Victoria Grove Boulevard."
+      },
+      {
+        "name": "Bella Terra",
+        "description": "An early-2000s planned community in the southeast, around Venice Boulevard and Tuscany Drive."
+      }
     ],
     dining: [
-      'Duffy\'s Sports Grill — popular local sports bar and family dining with consistent quality',
-      'Flanigan\'s Seafood Bar and Grill — South Florida institution, casual and reliable for seafood and ribs',
-      'TooJay\'s Gourmet Deli — beloved South Florida deli staple with a village location',
-      'Outback Steakhouse and major chains — full dining corridor along Royal Palm Beach Boulevard',
-      'Wellington Green mall dining — The Capital Grille, Bonefish Grill, and multiple options 10 minutes away',
-      'Lion & Eagle Pub — popular local British pub with weekly trivia and community events',
+      "Brass Ring Pub, 10998 Okeechobee Boulevard: a pub and sports bar with darts, a pool table and a jukebox",
+      "Domenic's & Vinnie's, 11452 Okeechobee Boulevard: Connecticut-style pizza and scratch-made Italian, with a full bar",
+      "The Original Mario The Baker, 1007 N State Road 7: traditional Neapolitan dishes and pizza",
+      "Asador Patagonia, 675 Royal Palm Beach Boulevard: an Argentinian steakhouse open since 2013, with charcoal cooking and a waterfront tiki bar",
+      "Peppermint Thai & Sushi, 11328 Okeechobee Boulevard: a family-owned Thai and Japanese kitchen",
+      "Masala Mantra, 11051 Southern Boulevard: Indian street food with modern twists and cocktails"
     ],
     outdoorActivities: [
-      'Royal Palm Beach Commons Park — fishing, trails, splash pad, disc golf, dog park, and sports fields',
-      'Acreage Conservation Area — trails and open land bordering the western edge of the community',
-      'Okeeheelee Park — disc golf, wakeboarding cable park, trails, and nature center 15 min east',
-      'Wellington Environmental Preserve — 679 acres of wetlands and uplands with equestrian and hiking trails',
-      'Lion Country Safari — drive-through African wildlife preserve and RV resort, 10 min west',
-      'International Polo Club (Wellington) — open polo matches January–April, 5 min south',
-      'Seminole Palms Park — sports courts, picnic areas, and playgrounds',
-      'SandHill Crane Golf Club — the only public golf course in Palm Beach Gardens, 15 min east',
+      "Commons Park & Sporting Center: lake loop, kayak launch, splash fountain, disc golf and a dog park",
+      "Royal Palm Beach Pines Natural Area (Palm Beach County): 772 acres of pine flatwoods with four hiking trails",
+      "Preservation Park: pickleball, a skate arena and a soccer complex",
+      "Homeplace Park: kayak launch, fishing dock and dog park",
+      "Lindsay Ewing Park: the Village's cricket fields",
+      "Madison Green Country Club: golf, open to the public per its own site",
+      "Calypso Bay Waterpark, inside the county's Seminole Palms Park: a seasonal waterpark"
     ],
-    schoolOverview: 'Royal Palm Beach is served by Palm Beach County public schools, with the H.L. Watkins Middle and Royal Palm Beach High school pyramid serving most of the community. The area combines school access with larger, newer homes at a lower price per square foot than the coastal corridor. Buyers should verify current Florida Department of Education grades and attendance boundaries with the district.',
-    schoolList: [
-      {
-        category: 'Public Schools',
-        schools: [
-          { name: 'Royal Palm Beach Elementary School', url: 'https://www.palmbeachschools.org/rpb' },
-          { name: 'Elbridge Gale Elementary School', url: 'https://www.palmbeachschools.org/ege' },
-          { name: 'H.L. Watkins Middle School', url: 'https://www.palmbeachschools.org/hlw' },
-          { name: 'Royal Palm Beach High School', url: 'https://www.palmbeachschools.org/rpbh' },
-          { name: 'Wellington High School (nearby)', url: 'https://www.palmbeachschools.org/whs' },
-        ],
-      },
-      {
-        category: 'Private & Charter Schools',
-        schools: [
-          { name: 'Lox Club Christian School', url: 'https://www.loxclubchristian.org' },
-          { name: 'The King\'s Academy (West Palm Beach)', url: 'https://www.tka.net' },
-          { name: 'Grandview Preparatory School (Boca)', url: 'https://www.grandviewprep.net' },
-        ],
-      },
-    ],
-    hospitals: [
-      { name: 'Wellington Regional Medical Center', url: 'https://www.wellingtonregional.com', note: 'Full-service hospital — 10 minutes south in Wellington' },
-      { name: 'JFK Medical Center', url: 'https://www.jfkmc.com', note: 'Full-service — 20 minutes east in Atlantis' },
-      { name: 'Palm Beach Gardens Medical Center', url: 'https://www.pbgmc.com', note: 'Full-service — 25 minutes northeast' },
-    ],
-    commuteTimes: [
-      { destination: 'Wellington', time: '5 min' },
-      { destination: 'West Palm Beach', time: '25 min' },
-      { destination: 'DJT Airport', time: '30 min' },
-      { destination: 'Boca Raton', time: '40 min' },
-      { destination: 'Palm Beach Gardens', time: '25 min' },
-      { destination: 'Fort Lauderdale', time: '55 min' },
-    ],
-    linkedNeighborhoods: ['pomelo-park', 'seneca-lakes', 'oakbrook', 'lake-clarence'],
-    priceRanges: [
-      { type: 'Single-Family Starter Homes', range: '$400K – $650K', minPrice: 400000, maxPrice: 650000, propertyTypes: ['house'] },
-      { type: 'Move-Up Single-Family', range: '$600K – $950K', minPrice: 600000, maxPrice: 950000, propertyTypes: ['house'] },
-      { type: 'Larger Lots & Updated Homes', range: '$850K – $1.5M', minPrice: 850000, propertyTypes: ['house'] },
-    ],
-    highlights: [
-      'Royal Palm Beach Commons Park is one of the finest 73-acre public parks in western Palm Beach County — lake, trails, splash pad, dog park, and sports fields',
-      'Wellington is literally next door — International Polo Club matches, equestrian events, and the Wellington lifestyle for 5 minutes of driving',
-      'Strong Palm Beach County schools in a community where families stay — consistent buyer demand and low turnover',
-      'More home for the price than any coastal community in the county — lot sizes, square footage, and newer construction at a fraction of coastal cost',
-      'Lion Country Safari is 10 minutes west — one of South Florida\'s most unique family attractions',
-      'No beach premium, no tourist traffic, no seasonal crowds — a year-round residential community built for living',
-      'The western county location puts buyers inside the Florida Turnpike corridor for commutes to Boca, Fort Lauderdale, and Miami',
-      'Growing renovation market as buyers from higher-cost Florida markets discover the value gap',
-    ],
+    popularNeighborhoods: ['The Willows', 'La Mancha', 'Counterpoint Estates', 'Madison Green', 'PortoSol', 'BellaSera'],
     keyLinks: [
-      { label: 'Royal Palm Beach Commons Park', url: 'https://www.royalpalmbeach.com/parks', category: 'Parks & Recreation' },
-      { label: 'International Polo Club Palm Beach', url: 'https://www.internationalpoloclub.com', category: 'Sports & Entertainment' },
-      { label: 'Lion Country Safari', url: 'https://www.lioncountrysafari.com', category: 'Attractions & Recreation' },
-      { label: 'Wellington Environmental Preserve', url: 'https://discover.pbcgov.org/parks/pages/Wellington.aspx', category: 'Parks & Nature' },
-      { label: 'Okeeheelee Park', url: 'https://discover.pbcgov.org/parks/pages/Okeeheelee.aspx', category: 'Parks & Recreation' },
-      { label: 'Wellington Regional Medical Center', url: 'https://www.wellingtonregional.com', category: 'Healthcare' },
-      { label: 'Royal Palm Beach High School', url: 'https://www.palmbeachschools.org/rpbh', category: 'Education' },
-      { label: 'Village of Royal Palm Beach', url: 'https://www.royalpalmbeach.com', category: 'City Resources' },
+      {
+        "label": "Village of Royal Palm Beach",
+        "url": "https://www.royalpalmbeachfl.gov",
+        "category": "City Resources"
+      },
+      {
+        "label": "Village calendar",
+        "url": "https://www.royalpalmbeachfl.gov/calendar.aspx",
+        "category": "City Resources"
+      },
+      {
+        "label": "Village parks directory",
+        "url": "https://www.royalpalmbeachfl.gov/434/3982/Park-Locations-Amenities",
+        "category": "Parks & Recreation"
+      },
+      {
+        "label": "Commons Park & Sporting Center",
+        "url": "https://www.royalpalmbeachfl.gov/554/Commons-Park-Sporting-Center",
+        "category": "Parks & Recreation"
+      },
+      {
+        "label": "Royal Palm Beach Pines Natural Area",
+        "url": "https://discover.pbc.gov/erm/NaturalAreas/Royal-Palm-Beach-Pines.aspx",
+        "category": "Parks & Nature"
+      },
+      {
+        "label": "Royal Palm Beach Green Market",
+        "url": "https://www.rpbgreenmarket.com/",
+        "category": "Markets & Events"
+      },
+      {
+        "label": "Palm Beach County Property Appraiser",
+        "url": "https://pbcpao.gov",
+        "category": "Property Records"
+      }
     ],
     quickFacts: [
-      { label: 'Market focus', value: 'Family single-family homes, planned community neighborhoods, value-driven relocators' },
-      { label: 'Key advantage', value: 'Larger lots and extensive public parks, with Wellington next door' },
-      { label: 'Best for', value: 'Larger lots and master-planned neighborhoods, extensive lake frontage and parks, central-west location, lower price per square foot than the coast' },
-      { label: 'Standout feature', value: 'Wellington\'s International Polo Club is about 5 minutes away' },
+      { label: 'Type', value: 'Village, incorporated 1959' },
+      { label: 'Housing', value: 'Detached houses in established, corridor and planned communities, plus some attached housing' },
+      { label: 'Parks', value: '20 Village parks, plus county natural areas nearby' },
+      { label: 'Character', value: 'Inland, car-oriented, park-centered' },
+    ],
+    highlights: [
+      "A more attainable Palm Beach County choice: the Census median owner-occupied home value for 2020 to 2024 is $437,700, against $599,400 in Wellington",
+      "Three kinds of community: established central streets, the Crestwood Boulevard corridor, and newer planned communities",
+      "Twenty Village parks, with a 19-acre lake loop at Commons Park",
+      "A county pine preserve, a Saturday market and Wellington next door",
+      "Not coastal, not walkable and not a nightlife district, by design"
     ],
     hasMembershipCommunities: false,
-    popularNeighborhoods: ['Woodland Lakes', 'Oakbrook', 'Emerald Dunes Area', 'Lake Estates', 'Seneca Lakes'],
     photos: [
     ],
     savedSearches: [
@@ -1501,6 +1539,7 @@ export const cities: CommunityItem[] = [
       { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Royal%20Palm%20Beach&s[locations][0][state]=FL&s[minPrice]=400000' },
     ],
     lat: 26.7076, lng: -80.2262,
+    dateModified: '2026-10-15',
   },
   {
     slug: 'palm-beach',
@@ -4123,61 +4162,6 @@ export const neighborhoods: CommunityItem[] = [
       { label: 'Amenities', value: 'Schools, shops, parks' },
     ],
   },
-
-  // ── ROYAL PALM BEACH ─────────────────────────────────────────
-  {
-    slug: 'pomelo-park',
-    name: 'Pomelo Park',
-    type: 'Neighborhood',
-    region: 'Royal Palm Beach',
-    description: 'A gated neighborhood with modern homes, neighborhood parks, and walkable community amenities.',
-    overview:
-      'Pomelo Park offers open green space, a clubhouse, and a regular neighborhood events calendar.',
-    quickFacts: [
-      { label: 'Homes', value: 'Modern single-family homes' },
-      { label: 'Amenities', value: 'Park, clubhouse, pool' },
-    ],
-  },
-  {
-    slug: 'seneca-lakes',
-    name: 'Seneca Lakes',
-    type: 'Neighborhood',
-    region: 'Royal Palm Beach',
-    description: 'A gated lakeside community with newer homes and resort-style amenities in western Palm Beach County.',
-    overview:
-      'Seneca Lakes is a newer, amenity-rich gated community with lakefront lots and scenic water views in Royal Palm Beach.',
-    quickFacts: [
-      { label: 'Homes', value: 'Single-family homes and townhomes' },
-      { label: 'Amenities', value: 'Fitness center, pool, playgrounds' },
-    ],
-  },
-  {
-    slug: 'oakbrook',
-    name: 'Oakbrook',
-    type: 'Neighborhood',
-    region: 'Royal Palm Beach',
-    description: 'A planned community with modern single-family homes, parks, and convenient western county access.',
-    overview:
-      'Oakbrook offers newer homes, school access within the Royal Palm Beach pyramid, and a convenient location near shopping and major roads.',
-    quickFacts: [
-      { label: 'Homes', value: 'Newer single-family homes' },
-      { label: 'Amenities', value: 'Parks, retail, schools nearby' },
-    ],
-  },
-  {
-    slug: 'lake-clarence',
-    name: 'Lake Clarence',
-    type: 'Neighborhood',
-    region: 'Royal Palm Beach',
-    description: 'A gated lakeside community with modern homes, a community pool, and lakefront lots.',
-    overview:
-      'Lake Clarence offers a newer community with generous home designs, lakefront lots, and scenic water views.',
-    quickFacts: [
-      { label: 'Homes', value: 'Lakeside homes and single-family residences' },
-      { label: 'Amenities', value: 'Pool, playgrounds, community spaces' },
-    ],
-  },
-
 
   // ── JUPITER COUNTRY CLUBS ────────────────────────────────────
   {
