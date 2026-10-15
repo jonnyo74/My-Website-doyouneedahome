@@ -1465,7 +1465,6 @@ export const cities: CommunityItem[] = [
       "The Original Mario The Baker, 1007 N State Road 7: traditional Neapolitan dishes and pizza",
       "Asador Patagonia, 675 Royal Palm Beach Boulevard: an Argentinian steakhouse open since 2013, with charcoal cooking and a waterfront tiki bar",
       "Peppermint Thai & Sushi, 11328 Okeechobee Boulevard: a family-owned Thai and Japanese kitchen",
-      "Masala Mantra, 11051 Southern Boulevard: Indian street food with modern twists and cocktails"
     ],
     outdoorActivities: [
       "Commons Park & Sporting Center: lake loop, kayak launch, splash fountain, disc golf and a dog park",
