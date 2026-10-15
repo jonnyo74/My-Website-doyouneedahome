@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ docTitle }}</title>
+<meta name="author" content="Christine Dekant & John Oliver | {{ team }}">
+<meta name="description" content="{{ dataMonth }} {{ county }} single-family and condo/townhome market statistics">
+<meta name="keywords" content="{{ county }} real estate, market report, {{ dataMonth }}, single-family homes, condos, townhomes">
+<link rel="stylesheet" href="template/report.css">
+</head>
+<body>
+{% set sfh = s.sfh %}{% set condo = s.condo %}{% set ns = namespace(n=1) %}
+{% macro runhead(section) -%}
+<div class="runhead"><span><b>{{ team }}</b> &nbsp;·&nbsp; {{ title }}</span><span>{{ section }}</span></div>
+{%- endmacro %}
+{% macro foot(n) -%}
+<div class="foot"><span>{{ team }} | {{ brokerage }} &nbsp;·&nbsp; <a href="{{ siteUrl }}">{{ siteLabel }}</a> &nbsp;·&nbsp; <a href="tel:{{ phoneTel }}">{{ phone }}</a></span><span class="pg">{{ dataMonth }} &nbsp;|&nbsp; {{ n }}</span></div>
+{%- endmacro %}
+
+<!-- ═══════════ 1 · COVER ═══════════ -->
+<section class="page cover">
+  <div class="glow"></div>
+  <div class="inner">
+    <div class="logo-card"><img src="assets/img/do-homes-group-logo.svg" alt="DO Homes Group"></div>
+    <img class="pbi-white" src="assets/img/premier-brokers-international-logo-white.svg" alt="Premier Brokers International">
+
+    <div class="title-block">
+      <div class="kicker">County Market Report</div>
+      <h1>{{ county }}<br>Market Report</h1>
+      <div class="gold-rule"></div>
+      <div class="results">{{ resultsLabel }}</div>
+      <div class="scope">Single-family homes and condos/townhomes, compared with {{ priorMonth }}</div>
+    </div>
+
+    <div class="team">
+      <div class="team-label">Prepared by {{ team }}</div>
+      <div class="agents">
+        {% for a in agents %}
+        <div class="agent"><img src="{{ a.photo }}" alt="{{ a.name }}">
+          <div><div class="n">{{ a.name }}</div><div class="c">{{ a.credentials }}</div></div></div>
+        {% endfor %}
+      </div>
+      <div class="brokerage"><span><b>{{ team }}</b> | {{ brokerage }}</span><span><a href="{{ link_url }}">{{ siteLabel }}</a> &nbsp;·&nbsp; <a href="tel:{{ phoneTel }}">{{ phone }}</a></span></div>
+    </div>
+  </div>
+  <div class="band"></div>
+</section>
+
+<!-- ═══════════ AT A GLANCE ═══════════ -->
+{% if "glance" in pages %}{% set ns.n = ns.n + 1 %}
+<section class="page">
+  {{ runhead("At a glance") }}
+  <div class="eyebrow">At a glance · {{ dataMonth }}</div>
+  <h1>The Market in 60 Seconds</h1>
+  <p class="lede">{{ copy.glanceLede }}</p>
+
+  <div class="seg-grid">
+    {% for seg in [sfh, condo] %}
+    <div class="seg-card">
+      <div class="hd"><span class="t">{{ seg.label }}</span><span class="ms">vs. {{ priorMonth }}</span></div>
+      <div class="tiles">
+        {% for k in ["medianPrice", "closedSales", "inventory", "monthsSupply"] %}{% set m = seg.m[k] %}
+        <div class="tile">
+          <div class="lab">{{ m.label }}</div>
+          <div class="val">{{ m | metric }}</div>
+          <div class="chg"><b>{{ m.pct | arrow }} {{ m.pct | signed }}</b> <span>from {{ m | metric_prior }}</span></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="chart-block">
+    <div class="top"><h2>Months of supply</h2>
+      <div class="legend"><span><i class="cur"></i>{{ dataMonth }}</span><span><i class="pri"></i>{{ priorMonth }}</span><span><i class="ref"></i>6 months</span></div></div>
+    {{ supply_chart }}
+    <div class="chart-note">Months of supply = active inventory ÷ recent monthly sales pace. Lower means tighter supply. Roughly 6 months is widely used as a general reference point for a balanced market.</div>
+  </div>
+
+  {% if copy.standsOut is defined %}
+  <div class="stands">
+    <h2>What stands out</h2>
+    <ol>{% for p in copy.standsOut %}<li>{{ p }}</li>{% endfor %}</ol>
+  </div>
+  {% endif %}
+  {% if copy.verdicts is defined %}
+  <div class="verdicts">
+    {% for v in copy.verdicts %}
+    <div class="verdict"><div class="k">{{ v.label }}</div><div class="v">{{ v.value }}</div><div class="w">{{ v.verdict }}</div><div class="n">{{ v.note }}</div></div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {{ foot(ns.n) }}
+</section>
+{% endif %}
+
+<!-- ═══════════ THE NUMBERS ═══════════ -->
+{% if "numbers" in pages %}{% set ns.n = ns.n + 1 %}
+<section class="page">
+  {{ runhead("The numbers") }}
+  <div class="eyebrow">Year over year</div>
+  <h1>The Numbers</h1>
+  <p class="lede">{{ copy.numbersLede }}</p>
+
+  {% for seg in [sfh, condo] %}
+  <table class="data">
+    <caption>{{ seg.label }}</caption>
+    <thead><tr><th>Metric</th><th>{{ dataMonth }}</th><th>{{ priorMonth }}</th><th>% Change</th></tr></thead>
+    <tbody>
+      {% for k in ["closedSales","paidInCash","medianPrice","olpReceived","daysToContract","inventory","monthsSupply"] %}{% set m = seg.m[k] %}
+      <tr><td>{{ m.label }}</td><td class="cur">{{ m | metric }}</td><td class="pri">{{ m | metric_prior }}</td>
+          <td class="chg"><span class="ar">{{ m.pct | arrow }}</span>{{ m.pct | signed }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endfor %}
+
+  <div class="cash-row">
+    <div class="cash"><div class="big">{{ cash.sfh }}%</div>
+      <div class="txt"><b>of single-family closings were cash</b><span class="calc">Calculated: {{ sfh.m.paidInCash.current | int }} paid in cash ÷ {{ sfh.m.closedSales.current | int }} closed sales</span></div></div>
+    <div class="cash"><div class="big">{{ cash.condo }}%</div>
+      <div class="txt"><b>of condo/townhome closings were cash</b><span class="calc">Calculated: {{ condo.m.paidInCash.current | int }} paid in cash ÷ {{ condo.m.closedSales.current | int }} closed sales</span></div></div>
+  </div>
+
+  <div class="meth">
+    <p>“% Change” is the relative year-over-year change as reported. For original list price received it is the change in the percentage itself ({{ sfh.m.olpReceived.prior | dec1 }}% to {{ sfh.m.olpReceived.current | dec1 }}% = {{ sfh.m.olpReceived.pct | signed }}), not percentage points. Arrows show direction only.</p>
+    <p>{{ source }}</p>
+  </div>
+  {{ foot(ns.n) }}
+</section>
+{% endif %}
+
+<!-- ═══════════ WHAT THE NUMBERS SAY ═══════════ -->
+{% if "insights" in pages %}{% set ns.n = ns.n + 1 %}
+<section class="page">
+  {{ runhead(copy.insights.heading) }}
+  <div class="eyebrow">Interpretation</div>
+  <h1>{{ copy.insights.heading }}</h1>
+  <p class="lede">{{ copy.insights.lede }}</p>
+  <div class="insights">
+    {% for c in copy.insights.cards %}
+    <div class="insight">
+      <div class="stat {{ c.statClass | default('') }}"><div class="v">{{ c.stat }}</div><div class="l">{{ c.statLabel }}</div></div>
+      <div class="body"><div class="h">{{ c.title }}</div><div class="b">{{ c.body }}</div></div>
+    </div>
+    {% endfor %}
+  </div>
+  {% if copy.insights.localLine is defined %}<p class="local-line">{{ copy.insights.localLine }}</p>{% endif %}
+  {{ foot(ns.n) }}
+</section>
+{% endif %}
+
+<!-- ═══════════ BUYERS / SELLERS (separate pages) ═══════════ -->
+{% macro guide_page(section, heading, block, n, audience) %}
+<section class="page">
+  {{ runhead(section) }}
+  <div class="eyebrow">{{ section }}</div>
+  <h1>{{ heading }}</h1>
+  <p class="lede">{{ block.lede }}</p>
+  <div class="guide-cols">
+    {% for seg, pts in [(s.sfh, block.sfh), (s.condo, block.condo)] %}
+    <div class="guide">
+      <div class="gh"><span class="t">{{ seg.label }}</span></div>
+      <div class="stats">
+        <div class="stat"><div class="v">{{ seg.m.monthsSupply.current | dec1 }}</div><div class="l">Months of supply</div></div>
+        <div class="stat"><div class="v">{{ seg.m.daysToContract.current }}</div><div class="l">Median days to contract</div></div>
+        <div class="stat"><div class="v">{{ seg.m.olpReceived.current | dec1 }}%</div><div class="l">Of original list price</div></div>
+      </div>
+      {% for h, b in pts %}<div class="point"><div class="h">{{ h }}</div><div class="b">{{ b }}</div></div>{% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  {% if block.checklist is defined %}<div class="checklist">
+    <div class="t">{{ audience }} checklist</div>
+    <ul>{% for c in block.checklist %}<li>{{ c }}</li>{% endfor %}</ul>
+  </div>{% endif %}
+  <div class="not-advice">Based only on the county-level figures in this report. Not a prediction, appraisal, or investment advice; conditions vary by neighborhood, building and price point.</div>
+  {{ foot(n) }}
+</section>
+{% endmacro %}
+{% if "buyers" in pages %}{% set ns.n = ns.n + 1 %}{{ guide_page("For buyers", "What This Means for Buyers", copy.buyers, ns.n, "Buyer") }}{% endif %}
+
+{% if "sellers" in pages %}{% set ns.n = ns.n + 1 %}{{ guide_page("For sellers", "What This Means for Sellers", copy.sellers, ns.n, "Seller") }}{% endif %}
+
+<!-- ═══════════ BUYERS + SELLERS (one page, two separate sections) ═══════════ -->
+{% if "buyers_sellers" in pages %}{% set ns.n = ns.n + 1 %}
+<section class="page">
+  {{ runhead("For buyers & sellers") }}
+  <div class="eyebrow">Practical guidance</div>
+  <h1>For Buyers &amp; For Sellers</h1>
+  <p class="lede">{{ copy.guidanceLede }}</p>
+  <div class="bs-cols">
+    {% for aud, block in [("For Buyers", copy.buyers), ("For Sellers", copy.sellers)] %}
+    <div class="bs">
+      <div class="bs-hd">{{ aud }}</div>
+      {% for seg, pts in [(s.sfh, block.sfh), (s.condo, block.condo)] %}
+      <div class="bs-seg">
+        <div class="bs-seg-t">{{ seg.label }}<span>{{ seg.m.monthsSupply.current | dec1 }} mo supply · {{ seg.m.daysToContract.current }} days · {{ seg.m.olpReceived.current | dec1 }}% of list</span></div>
+        {% for h, b in pts %}<div class="point"><div class="h">{{ h }}</div><div class="b">{{ b }}</div></div>{% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="not-advice">Based only on the county-level figures in this report. Not a prediction, appraisal, or investment advice; conditions vary by neighborhood, building and price point.</div>
+  {{ foot(ns.n) }}
+</section>
+{% endif %}
+
+<!-- ═══════════ CTA ═══════════ -->
+<section class="page cta">
+  <div class="top">
+    <div class="glow"></div>
+    <div class="kicker">{{ cta.kicker }}</div>
+    <h1 class="{{ cta.headlineClass | default('') }}">{{ cta.headline }}</h1>
+    <div class="gold-rule"></div>
+    <p class="lede">{{ copy.ctaLede }}</p>
+    <a class="btn" href="{{ link_url }}">{{ cta.button }}</a>
+    <a class="phone" href="tel:{{ phoneTel }}">{{ phone }}</a>
+    {% if qr_src %}
+    <a class="qr" href="{{ qr_url }}"><img src="{{ qr_src }}" alt="QR code to {{ siteLabel }}/contact"><div class="cap">{{ cta.qrCaption }}</div></a>
+    {% endif %}
+  </div>
+  <div class="bottom">
+    <div class="agents">
+      {% for a in agents %}
+      <div class="agent"><img src="{{ a.photo }}" alt="{{ a.name }}">
+        <div><div class="n">{{ a.name }}</div><div class="c">{{ a.credentials }}</div>
+          <div class="d">{{ team }}<br>{{ brokerage }}<br><a href="tel:{{ phoneTel }}">{{ phone }}</a></div></div></div>
+      {% endfor %}
+    </div>
+    <div class="brand-row">
+      <img class="dh" src="assets/img/do-homes-group-logo.svg" alt="DO Homes Group">
+      <div class="mid"><b>{{ team }} | {{ brokerage }}</b><br><a href="{{ link_url }}">{{ siteLabel }}</a> &nbsp;·&nbsp; <a href="tel:{{ phoneTel }}">{{ phone }}</a></div>
+      <img class="pbi" src="assets/img/premier-brokers-international-logo.png" alt="Premier Brokers International">
+    </div>
+    <div class="legal">
+      <div class="src">{{ source }}</div>
+      {{ copy.disclaimer }}
+    </div>
+  </div>
+  <div class="band"></div>
+</section>
+</body>
+</html>

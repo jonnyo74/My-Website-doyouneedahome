@@ -1,0 +1,61 @@
+{
+  "_note": "Month-specific copy. Strings are Jinja templates rendered against the market data file, so numbers are pulled from data rather than typed. Review every sentence when the data changes — the judgments (e.g. 'seller-leaning') are not automatic.",
+
+  "glanceLede": "Single-family homes and condos/townhomes are behaving like two different markets. Here is {{ dataMonth }} against {{ priorMonth }}, side by side.",
+
+  "standsOut": [
+    "<strong>Single-family supply at {{ s.sfh.m.monthsSupply.current | dec1 }} months is seller-leaning.</strong> Well-priced homes are moving faster, with median days to contract down to {{ s.sfh.m.daysToContract.current }} from {{ s.sfh.m.daysToContract.prior }}, even though closed sales slipped {{ s.sfh.m.closedSales.pct | abspct }}.",
+    "<strong>Condos and townhomes offer more negotiating room at {{ s.condo.m.monthsSupply.current | dec1 }} months of supply,</strong> but active inventory is down sharply, {{ s.condo.m.inventory.pct | abspct }} year over year, so that room is narrower than it was in {{ priorMonth }}.",
+    "<strong>Cash remains meaningful:</strong> {{ cash.sfh }}% of single-family closings and {{ cash.condo }}% of condo/townhome closings were paid in cash (calculated from the reported counts)."
+  ],
+
+  "numbersLede": "Every figure below is as reported for Palm Beach County. Percent change is year over year, {{ dataMonth }} versus {{ priorMonth }}.",
+
+  "buyers": {
+    "lede": "The data points to a firmer single-family market and a condo/townhome market that still leaves room to negotiate, though less than a year ago. How you prepare depends on which one you are shopping.",
+    "sfh": [
+      ["Expect less to choose from.", "Active single-family inventory is {{ s.sfh.m.inventory.current | int }}, down {{ s.sfh.m.inventory.pct | abspct }} from {{ s.sfh.m.inventory.prior | int }} a year ago. Set up alerts early and tour new listings promptly."],
+      ["Be ready before you find the one.", "Median days to contract is {{ s.sfh.m.daysToContract.current }}. Have a current pre-approval (or proof of funds), and decide in advance what matters most in inspection and appraisal terms."],
+      ["Expect a gap between list price and sale price.", "The typical sale closed at {{ s.sfh.m.olpReceived.current | dec1 }}% of its original list price. Use recent closed sales, not asking prices, to judge where an offer should start."],
+      ["You may be competing with cash.", "{{ cash.sfh }}% of single-family closings were cash (calculated). Financed buyers can compete on clean terms: solid pre-approval, reasonable timelines and a meaningful deposit."]
+    ],
+    "condo": [
+      ["You generally have more time and more leverage.", "At {{ s.condo.m.monthsSupply.current | dec1 }} months of supply and {{ s.condo.m.daysToContract.current }} median days to contract, there is usually room to ask for a price adjustment, credits or repairs."],
+      ["That leverage is shrinking.", "Supply fell from {{ s.condo.m.monthsSupply.prior | dec1 }} to {{ s.condo.m.monthsSupply.current | dec1 }} months and inventory dropped {{ s.condo.m.inventory.pct | abspct }}. The best-priced units in well-run buildings may not wait."],
+      ["Use the time for due diligence.", "Review the association budget, reserves, recent and planned assessments, and inspection records before you commit. The price is only part of the cost of a condo."],
+      ["Financing needs an early check.", "{{ cash.condo }}% of condo/townhome closings were cash (calculated). If you are financing, confirm early that your lender will lend in the specific building."]
+    ],
+    "checklist": [
+      "Pre-approval or proof of funds in hand",
+      "Alerts set for the exact areas and property types you want",
+      "Offer strategy based on closed comparables, not list prices",
+      "For condos: association documents requested before you are under contract, or reviewed within your inspection period"
+    ]
+  },
+
+  "sellers": {
+    "lede": "Buyers are still paying below original list price in both segments, which makes the first price you choose one of the most important decisions you make.",
+    "sfh": [
+      ["Supply favors you. Pricing decides the outcome.", "At {{ s.sfh.m.monthsSupply.current | dec1 }} months of supply, well-priced homes are going under contract in a median {{ s.sfh.m.daysToContract.current }} days. That speed tends to reward homes priced to recent closed sales."],
+      ["Price from closed sales, not list prices.", "The typical sale closed at {{ s.sfh.m.olpReceived.current | dec1 }}% of its original list price. Last year's prices and a neighbor's asking price are weak guides. A price that starts too high often has to come down later, after the listing has lost its first wave of attention."],
+      ["Prepare for a well-qualified buyer.", "{{ cash.sfh }}% of single-family closings were cash (calculated). Having disclosures, permits and recent service records ready makes it easier for any buyer, cash or financed, to move quickly."],
+      ["Presentation still matters.", "Fewer closed sales ({{ s.sfh.m.closedSales.current | int }} vs. {{ s.sfh.m.closedSales.prior | int }}) means each buyer is choosing carefully. Repairs, cleaning and professional photography help your home compete."]
+    ],
+    "condo": [
+      ["Plan for negotiation and a longer runway.", "At {{ s.condo.m.monthsSupply.current | dec1 }} months of supply and {{ s.condo.m.daysToContract.current }} median days to contract, most buyers will expect room to negotiate. Build that into your pricing and timeline."],
+      ["A higher median does not close the list-price gap.", "Supply is down from {{ s.condo.m.monthsSupply.prior | dec1 }} months and the median price rose {{ s.condo.m.medianPrice.pct | abspct }} to {{ s.condo.m.medianPrice.current | usd }}, yet the typical sale still closed at {{ s.condo.m.olpReceived.current | dec1 }}% of original list price."],
+      ["Have building paperwork ready on day one.", "Budget, reserves, assessment history, insurance and inspection status are what serious condo buyers ask about first. Gathering them early prevents delays after you accept an offer."],
+      ["Cash buyers are a large share of this market.", "{{ cash.condo }}% of condo/townhome closings were cash (calculated). Clear terms and a straightforward closing timeline appeal to these buyers."]
+    ],
+    "checklist": [
+      "Pricing based on recent closed sales for your property type and area",
+      "Pre-listing repairs, cleaning and professional photography",
+      "Disclosures, permits and service records organized",
+      "For condos: association documents and assessment details gathered"
+    ]
+  },
+
+  "ctaLede": "County numbers blend dozens of very different communities. Your street, building or neighborhood can be moving differently. We'll pull the recent closed sales, active competition and pricing for the area you care about, with no obligation.",
+
+  "disclaimer": "This report describes past market activity in Palm Beach County for the months shown. It is not an appraisal, a prediction of future prices, or financial, legal or investment advice. County-level medians do not reflect the value of any specific property. Cash-share percentages were calculated by DO Homes Group from the reported closed-sales and paid-in-cash counts. Information is believed reliable but not guaranteed. If your property is currently listed with a real estate broker, this is not intended as a solicitation of that listing."
+}
