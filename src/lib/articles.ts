@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -28545,129 +28545,291 @@ Retirees weighing the cost often point to Florida's lack of a state income tax. 
     updated: '2026-10-16',
   },
   {
-    slug: 'hidden-gems-in-tequesta-florida',
+    slug: "hidden-gems-in-tequesta-florida",
     citySlug: 'tequesta',
     cityName: 'Tequesta',
     type: "Hidden Gems In",
     order: 8,
-    seoTitle: "Hidden Gems in Tequesta, Florida",
-    metaTitle: "Hidden Gems in Tequesta, Florida",
-    metaDescription: "Beyond the village — local hidden gems in Tequesta, Florida, from Coral Cove's snorkeling reef to quiet Loxahatchee River paddling and leafy parks.",
+    seoTitle: "Hidden Gems in Tequesta, Florida: Local Favorites | DYNA",
+    metaTitle: "Hidden Gems in Tequesta, Florida: Local Favorites | DYNA",
+    metaDescription: "Local favorites in and around Tequesta, Florida: arts, coffee, quiet parks, waterfront spots and nearby natural areas, with what to know before you go.",
     primaryKeyword: "hidden gems in Tequesta Florida",
-    secondaryKeywords: ["Tequesta secret spots", "Coral Cove Park snorkeling", "free things to do in Tequesta"],
-    h1: "Hidden Gems in Tequesta, Florida",
-    body: `The well-known things around here — the river, Coral Cove, Jupiter's beaches — are covered in [our guide to what's worth doing](/blog/best-things-to-do-in-tequesta-florida).
+    secondaryKeywords: ["secret spots in Tequesta","Tequesta local favorites","unique things to do in Tequesta","Tequesta hidden beaches","Tequesta art galleries","quiet parks near Tequesta"],
+    h1: "Hidden Gems in Tequesta, Florida: Local Favorites Worth Discovering",
+    heroImage: '/images/jupiter/jupiter-lighthouse-dock-dusk-hero.webp',
+    heroImageAlt: "The Jupiter Inlet Lighthouse on its point at dusk, across the water at the mouth of the Loxahatchee River",
+    heroImageCaption: "The Jupiter Inlet Lighthouse at dusk, at the mouth of the Loxahatchee River in Jupiter, near Tequesta.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 1200,
+    heroImageHeight: 675,
+    inlineMagnet: false,
+    bodyTool: { kind: 'tequesta-gems-explorer', beforeSection: 'Arts, Boutiques, and Village Discoveries' },
+    body: `The places worth knowing in Tequesta are rarely the loud ones. They are an exhibition hall on Tequesta Drive, a bench in a small village park, a stretch of beach where the rock shows when the tide is right, and a river that turns wilder the further upstream you go. None of it is secret, exactly. It just rewards a little attention to timing.
 
-This is the quieter layer: the small local knowledge that takes a year or two to accumulate, in a village that has never advertised itself to anyone.
+One thing to sort out first, because it trips people up: "Tequesta" on a map or an address is not always the incorporated Village of Tequesta. Some places here have a Tequesta address but sit in Martin County. Others are in Jupiter, Juno Beach or on Jupiter Island. We label each one, and we say plainly when a place is outside the Village. The big-name sights are covered in our [guide to the best things to do in Tequesta](/blog/best-things-to-do-in-tequesta-florida), and the restaurants in our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-tequesta-florida). This page is the quieter layer.
 
-## The northwest fork
+Hours, fees and access change, and some of what we found came from older listings. Every entry says what to confirm before you go.
 
-Most people paddle the stretch of the Loxahatchee they can see from a bridge. Considerably fewer keep going.
+## Quick-Reference Hidden Gems Table
 
-Upstream, the river narrows and the character changes completely — cypress closing overhead, tannic water, birdlife, and a landscape that looks nothing like the coast twenty minutes behind you. It's the part that earned the federal designation, and on a weekday morning you can have long stretches to yourself.
+| Place | Area | Best for |
+| --- | --- | --- |
+| Lighthouse ArtCenter Gallery | Village | Arts |
+| Lighthouse ArtCenter School of Art | Village | Arts |
+| Perk Coffee House | Village | Food and drink |
+| Hog Snappers Shack & Sushi | Village | Food and drink |
+| Tequesta Brewing Company | Village | Food and drink |
+| Remembrance Park | Village | Quiet park |
+| Constitution Park | Village | Quiet park |
+| Coral Cove Park | Tequesta, County park | Quiet park |
+| Blue Pointe Bar & Grill | Tequesta address, Martin Co. | Waterfront |
+| Tiki 52 | Tequesta address, Martin Co. | Waterfront |
+| Blowing Rocks Preserve | Jupiter Island | Short trip |
+| Jupiter Inlet Lighthouse Outstanding Natural Area | Jupiter | Short trip |
+| Juno Dunes Natural Area | Juno Beach | Short trip |
+| Riverbend Park | Jupiter | Short trip |
+| Hobe Mountain (JDSP) | Martin County | Short trip |
 
-It takes commitment: a longer paddle, an early start, and attention to the tide, since you'll want the current working with you at least one way. Worth every bit of it.
+## Arts, Boutiques, and Village Discoveries
 
-## Coral Cove at low tide
+The village center runs along Tequesta Drive, with Gallery Square North at the corner of Tequesta Drive and Seabrook Road. It is small, and it is genuinely local. There are independent shops in the area, but we have not verified individual boutique names or hours, so we have not listed any. Check current listings or just walk it.
 
-Everyone goes to Coral Cove. Almost nobody times it.
+### Lighthouse ArtCenter Gallery
 
-At low tide, the limestone outcropping exposes pools and ledges that hold small fish, urchins and crabs, and the whole shoreline becomes a rock-pooling exercise rather than a swim. It's a completely different visit from the same place at high water.
+A nonprofit art museum and gallery founded in 1964, with changing exhibitions in a village-scale setting. It is the cultural anchor of the Tequesta Drive arts corner.
 
-Check the tide chart, go on a calm morning, and wear something on your feet — the rock is sharp and slick in equal measure.
+- **Where:** 373 Tequesta Drive, in Gallery Square North (Village of Tequesta)
+- **Best time:** Check the exhibition calendar before you go, since shows change through the year.
+- **Access:** Sources disagree on hours and admission, and the most recent listings we found were several years old, so confirm both with the ArtCenter. It sits about half a mile west of US-1.
+- **Local tip:** Pair it with a coffee a short walk away on the same street, and ask at the front desk what is currently on view.
+- **Confirm first:** Current hours, admission and exhibitions.
 
-## Blowing Rocks Preserve
+Source: [Lighthouse ArtCenter](https://www.lighthousearts.org/about-us)
 
-North on Jupiter Island, and genuinely dramatic when conditions are right.
+### Lighthouse ArtCenter School of Art
 
-Winter swell forces water up through the limestone and it erupts in plumes — sometimes very high. It only works with a decent east swell at high tide, so most visitors arrive on a calm day and see interesting rocks rather than a spectacle.
+Classes for children and adults at beginner through professional levels, in subjects including ceramics, drawing, painting, jewelry, photography and sculpture.
 
-Watch the forecast and go when there's weather offshore. That's the whole trick, and almost nobody knows it.
+- **Where:** 395 Seabrook Road, a separate building from the gallery (Village of Tequesta)
+- **Best time:** Class schedules change by term, so look at the current listings rather than planning around a fixed day.
+- **Access:** The school is a different address from the gallery, so make sure your directions point to Seabrook Road.
+- **Local tip:** If you are new to Tequesta, a class is one of the quickest ways to meet people who live here year-round.
+- **Confirm first:** Current class offerings and registration.
 
-## The old bridge fishing
+Source: [Lighthouse ArtCenter](https://www.lighthousearts.org/about-us)
 
-Along the river and the Intracoastal, the bridge approaches and seawall access points draw a regular local crowd who fish them in most weathers.
+## Independent Cafés and Food Favorites
 
-It requires no boat, no membership and very little equipment — a Florida saltwater license and some patience. It's also the fastest way to get local knowledge about the water, since the people out there know exactly what's running and when.
+These are independent places that residents mention, not a restaurant ranking. We checked what we could and flagged what we could not.
 
-## The village parks nobody uses
+### Perk Coffee House
 
-Constitution, Tequesta and Bert Winters parks get local traffic and essentially no visitors.
+An independent coffee shop in the village center, reported to host live music on its patio on Sunday mornings.
 
-They're small and unglamorous, which is exactly the appeal: somewhere to walk, sit by the water, or put a kayak in without organizing an outing. In a village without a town square, they do a fair amount of the work.
+- **Where:** 384 Tequesta Drive, Gallery Square area (Village of Tequesta)
+- **Best time:** Mornings, and Sunday mornings if the patio music is running.
+- **Access:** Reported hours differ between sources, so call ahead or check before you drive over.
+- **Local tip:** Go before the ArtCenter. It is a pleasant way to start a Tequesta Drive walk.
+- **Confirm first:** Current hours and whether Sunday music is running.
 
-## The early-morning river light
+Source: [Local coffee guide (AOL)](https://www.aol.com/news/want-coffee-tequesta-check-seven-092048511.html)
 
-Distinct from the sunsets, and arguably better.
+### Hog Snappers Shack & Sushi
 
-In the hour after dawn the river runs flat and the light comes low across the water through the trees, with mist rising in the cooler months. Wading birds work the edges and there is almost no boat traffic.
+A long-running local restaurant known for sushi and seafood in a casual, kid-friendly setting, with a Tequesta roll that reviewers single out.
 
-It requires only that you get up. Most residents never do, and the ones who do tend to make a habit of it.
+- **Where:** 279 US-1, Tequesta (Village of Tequesta)
+- **Best time:** Dinner, with hours that vary by source.
+- **Access:** On the US-1 corridor. Confirm hours before you go.
+- **Local tip:** Ask what the kitchen recommends, since the menu runs from sushi to American favorites.
+- **Confirm first:** Current hours and menu.
 
-## Riverfront sunsets
+Source: [Restaurant listing](https://www.restaurantji.com/fl/tequesta/hog-snappers-shack-and-sushi-teq-/)
 
-Not a place so much as a habit, and the one residents mention most.
+### Tequesta Brewing Company
 
-The last half-hour of light along the river and the Intracoastal — from a park, a dock, or a boat idling home — is when this area is at its best. Water going gold, boats coming back, and almost nobody around.
+A local microbrewery with a tasting room and growler fills.
 
-Free, available most evenings, and the clearest argument for living on this side of the county.
+- **Where:** 287 S US Highway 1, Tequesta (Village of Tequesta)
+- **Best time:** Afternoons and evenings. A directory lists noon openings, but we could not confirm current hours.
+- **Access:** On US-1. Check the brewery’s site for hours and current taps.
+- **Local tip:** Bring a clean growler if you want to take something home.
+- **Confirm first:** That the taproom is open and its current hours.
 
-## Jonathan Dickinson, just north
+Source: [Tequesta Brewing Company](https://www.brewbound.com/breweries/tequesta-brewing-co)
 
-A short drive into Martin County gets you one of the best state parks in Florida — extensive trails, genuine scrub habitat, camping, a river tour, and the highest natural point in South Florida.
+## Quiet Parks and Nature Spots
 
-It's large enough to absorb visitors, so even on a busy weekend the interior is quiet. Cooler months only for the hiking, and take more water than seems necessary.
+### Remembrance Park
 
-## The village's name, and what was here first
+A quiet passive park of roughly an acre and three-quarters, with two shade pavilions, a butterfly garden and interpretive markers.
 
-Worth knowing because it explains something.
+- **Where:** A Village of Tequesta park. See the Village page for the address. (Village of Tequesta)
+- **Best time:** The Village lists weekday and Saturday hours on its park page, so check them before you go.
+- **Access:** A small permeable-paver parking lot, according to the Village.
+- **Local tip:** Come for a slow ten minutes, not a workout. It is built for sitting and reading the markers.
+- **Confirm first:** Current hours.
 
-The village takes its name from the **Tequesta**, a people who lived in southeast Florida for thousands of years before European contact. This river mouth and the surrounding coast were inhabited long before anything currently standing.
+Source: [Village of Tequesta](https://tequesta.org/1536/Remembrance-Park)
 
-Understanding that reframes the place — the Loxahatchee wasn't discovered by anyone, and its protection is a recent chapter in a much longer story. The area's museums and the state park interpret this properly, and it's worth an afternoon.
+### Constitution Park
 
-## Manatee season on the river
+The Village’s community park, where it has held events such as concerts and Tequesta Fest, with a playground and pavilions.
 
-Through the cooler months, manatees move into the river system, and seeing them from a dock or a kayak is an ordinary occurrence rather than an event.
+- **Where:** A Village of Tequesta park near Seabrook Road (Village of Tequesta)
+- **Best time:** Check the Village community calendar for events, since the park can close for event setup.
+- **Access:** Pavilion reservations go through the Village, so ask before planning a group.
+- **Local tip:** If an event is on, check the Village page first. Some events charge nonresidents.
+- **Confirm first:** Current events and park access.
 
-They're federally protected. Keep distance, never feed them, don't pursue them on a paddleboard, and observe the speed zones — which exist precisely because this is where the animals are.
+Source: [Village of Tequesta Parks and Recreation](https://www.tequesta.org/102/Parks-and-Recreation)
 
-## The sandbar and the boat-up spots
+### Coral Cove Park
 
-For residents with a boat, a layer of local knowledge that takes a season to acquire.
+A Palm Beach County park with Atlantic beach and Intracoastal frontage in one place. Rock formations just offshore are what visitors come to see, and the County lists it as a snorkeling location.
 
-The river system and the Intracoastal nearby have shallows and anchorages that fill on good weekends — informal gatherings where boats raft up, people stand in waist-deep water, and half the conversation is with strangers.
+- **Where:** 1600 Beach Road, Tequesta (Tequesta (County park))
+- **Best time:** Check the County’s beach conditions the day you go. Surf and conditions change a lot.
+- **Access:** The County lists parking, restrooms, showers, picnic areas and a playground. Its page describes guarded beach frontage plus a longer unguarded stretch reached by dune crossovers south of the park. Saltwater fishing is allowed, but not inside the guarded swimming area.
+- **Local tip:** If you want a lifeguard, stay in the guarded section and follow the flags. Wear shoes you can walk in near rocks.
+- **Confirm first:** Beach conditions and lifeguard coverage on the day.
 
-They're not marked and they're not advertised. You learn them by being out there, by following the boats, and by asking at the ramp. The etiquette is simple: anchor with room, keep the volume reasonable, mind your wake coming in, and take everything home.
+Source: [Palm Beach County Parks](https://discover.pbc.gov/parks/Locations/Coral-Cove.aspx)
 
-## The osprey and the wading birds
+![Surf breaking over rock outcrops along the sand at Coral Cove Park](/images/tequesta/coral-cove-rocks-surf.webp "Rock outcrops along the sand and surf at Coral Cove Park on a day with surf. Photo: John Oliver. Conditions change, so check the official beach conditions before you go."){1120x630}
 
-An everyday pleasure that residents stop noticing and visitors never forget.
+**Shore fishing at Coral Cove.** The County's page lists saltwater fishing at the park, outside the guarded swimming area. In Florida, residents fishing saltwater from shore generally need a free resident shoreline license unless they are exempt, and nonresidents need a nonresident saltwater license. Anglers under 16 are exempt, and residents 65 and older are exempt with proof of age and residency. Confirm current rules and exemptions with [Florida Fish and Wildlife](https://myfwc.com/) before you cast.
 
-Osprey nest conspicuously along the river and the Intracoastal, hunting in plain sight, and the wading birds work the shallows at low tide within a few feet of docks and kayaks.
+## Waterfront Secrets and Seasonal Experiences
 
-It costs nothing, requires no plan, and is one of the clearest illustrations of what the river's protected status actually delivers.
+Water is the reason many people end up in Tequesta, and the best way to meet it is often from a patio. These two sit on the Intracoastal and use Tequesta addresses, but their addresses point to Martin County, which is a useful reminder that a Tequesta address is not always the Village.
 
-## Making the most of these
+### Blue Pointe Bar & Grill
 
-The pattern is timing: early mornings, weekdays, the right tide, and — for Blowing Rocks — the right swell. Almost everything here is transformed by getting the conditions right and disappointing without them.
+A waterfront bar and grill on the Intracoastal with covered outdoor seating, a pool in the middle of the seating area, and regular live music reported.
 
-The other rule is that this village doesn't present itself. There's no visitor center, no listings page, and the good things are mostly ordinary places at particular moments. Give it a season.
+- **Where:** 18701 SE Federal Highway, Tequesta mailing address (Martin County address style) (Tequesta address, Martin County)
+- **Best time:** Late afternoon into evening for water views. Reported hours run roughly midday to 9 or 10 p.m.
+- **Access:** A casual spot where families are common. Confirm hours and music before you go.
+- **Local tip:** This is a good example of a Tequesta address that is not the incorporated Village. It is listed in Martin County’s visitor directory.
+- **Confirm first:** Current hours, music schedule and municipal location.
 
-For the practical side of settling in, our [guide to operating here](/blog/local-guide-to-tequesta-florida) covers the logistics.`,
+Source: [Discover Martin directory](https://discovermartin.com/directory/blue-pointe-bar-and-grill/)
+
+### Tiki 52
+
+An open-air, palapa-style bar overlooking the marina and the Intracoastal, with live music reported.
+
+- **Where:** 18487 SE Federal Highway, Tequesta mailing address (Martin County address style) (Tequesta address, Martin County)
+- **Best time:** Late afternoon into evening. Reviews mention that it can be busy.
+- **Access:** Contact numbers differ between listings, so confirm hours before you drive over.
+- **Local tip:** Like Blue Pointe, its address points to Martin County, so do not assume it is inside the Village.
+- **Confirm first:** Current hours, contact details and municipal location.
+
+Source: [Waterfront guide (AOL)](https://www.aol.com/articles/best-restaurants-water-tequesta-jupiter-144816669.html)
+
+**Manatees and wildlife.** Manatees are protected, and Florida Fish and Wildlife's guidance is simple: look, but do not touch, feed or offer them water, and give them room. See FWC's [manatee viewing guidelines](https://myfwc.com/education/wildlife/manatee/viewing-guidelines/) and its [guidance for paddlers](https://myfwc.com/education/wildlife/manatee/for-paddlers/). Boaters should follow posted manatee protection zones.
+
+**A note on the water near Cato's Bridge.** Cato's Bridge is a small drawbridge in Jupiter over the Intracoastal, and the stretch known as the Jupiter Narrows is busy, with boats, paddlers, jet skis and swimmers sharing a narrow channel. FWC has proposed a slow-speed zone there, and we could not confirm whether it has been adopted, so check FWC for current rules. Do not navigate unfamiliar shallow water by following other boats. If you want to paddle, use a known public launch and check conditions first. Our [kayak launch map](/kayak-launches-jupiter-tequesta) lists public access points, and the page on [communities with their own kayak launch](/communities-with-kayak-launches) is a different route to the water.
+
+## Nearby Gems Worth the Short Trip
+
+These are outside the Village of Tequesta, and we label them that way. All are within reach for a morning or afternoon.
+
+### Blowing Rocks Preserve
+
+A Nature Conservancy preserve where limestone shoreline meets the Atlantic. Water can spray up through the rock when high tide and a rough sea line up.
+
+- **Where:** 574 South Beach Road, Jupiter Island (Martin County) (Jupiter Island, Martin County)
+- **Best time:** The spray is a high-tide, rough-sea effect and is most common in winter. A guide suggests low tide for walking and swimming below the rocks. Weekdays in cooler months tend to be quieter.
+- **Access:** The Nature Conservancy lists daily hours with last entry shortly before closing and a handful of holiday closures. Parking is free, street parking is not allowed, and there are no lifeguards. Fee details differ across sources.
+- **Local tip:** Watch the surf forecast. A calm day shows you interesting rock, while rough water shows you the spectacle.
+- **Confirm first:** Current hours, admission and conditions.
+
+Source: [The Nature Conservancy](https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/blowing-rocks-preserve/)
+
+### Jupiter Inlet Lighthouse Outstanding Natural Area
+
+A federally designated natural area of about 120 acres where the Indian River Lagoon meets the Loxahatchee River, with scrub, hammock and mangrove habitat and a lagoon overlook.
+
+- **Where:** At Jupiter Inlet, with trails on both sides of Beach Road (see the lighthouse site) (Jupiter)
+- **Best time:** Open daily from dawn to dusk, per the site’s description.
+- **Access:** The north side has a small parking lot, a kiosk, a trail and boardwalk, and an observation deck. Part of the area is closed for Coast Guard operations.
+- **Local tip:** Stay on the marked trail, and check the lighthouse site for tour dates rather than assuming one.
+- **Confirm first:** Current trail access and closures.
+
+Source: [Jupiter Inlet Lighthouse](https://www.jupiterlighthouse.org/explore/outstanding-natural-area/)
+
+### Juno Dunes Natural Area
+
+A county natural area of scrub, dunes and wetland running from the ocean side to the Intracoastal, with an observation platform and boardwalk trails.
+
+- **Where:** Oceanfront tract entered through Loggerhead Park; west tract entered west of US-1 (Juno Beach)
+- **Best time:** Sunrise to sunset daily, per the County.
+- **Access:** The oceanfront tract has parking, restrooms and drinking water at Loggerhead Park. The west tract has a boardwalk and floating docks for boaters.
+- **Local tip:** Bring water and sun protection, and check conditions before you go.
+- **Confirm first:** Current trail conditions and hours.
+
+Source: [Palm Beach County Natural Areas](https://discover.pbc.gov/erm/naturalareas/juno-dunes.aspx)
+
+### Riverbend Park
+
+The County park where the Northwest Fork of the Loxahatchee, the federally designated Wild & Scenic reach, begins, with paddling, hiking, biking and equestrian trails.
+
+- **Where:** 9060 W. Indiantown Road, Jupiter (Jupiter)
+- **Best time:** Cooler months and early starts are the comfortable choice in Florida heat. Check conditions first.
+- **Access:** The County lists the park as about 680 acres with roughly 10 miles of hiking and biking trails, 7 of equestrian trails and 5 of canoe and kayak trails. Rentals and conditions change, so confirm current operator information.
+- **Local tip:** This is the Wild & Scenic Northwest Fork. Tequesta’s own water is the lower river and the Intracoastal, which are different.
+- **Confirm first:** Rentals, trail conditions and water levels.
+
+Source: [Palm Beach County Parks](https://discover.pbc.gov/parks/pages/riverbend.aspx)
+
+### Hobe Mountain, Jonathan Dickinson State Park
+
+A sand dune that Florida State Parks gives as 86 feet above sea level, with an observation tower adding about 27 feet. Sources vary by a few feet on the elevation.
+
+- **Where:** Jonathan Dickinson State Park, Hobe Sound (Martin County) (Martin County)
+- **Best time:** Cooler months and clear mornings for the view.
+- **Access:** A short boardwalk climbs through the scrub. The park reports that concessions such as rentals and tours are currently unavailable, so bring your own gear.
+- **Local tip:** Do not plan around a boat tour to historic sites without confirming with the park first.
+- **Confirm first:** Current services, fees and tower access.
+
+Source: [Florida State Parks](https://www.floridastateparks.org/parks-and-trails/jonathan-dickinson-state-park)
+
+## A Half-Day Local Itinerary
+
+This is a sketch, not a schedule. Hours and conditions vary, so confirm each stop first.
+- **Start with coffee on Tequesta Drive** at Perk Coffee House, then walk to the Lighthouse ArtCenter Gallery in Gallery Square North.
+- **Take a slow ten minutes at Remembrance Park,** which is built for sitting and reading.
+- **Drive out Beach Road to Coral Cove Park** if beach conditions suit, for a walk along the sand and the rocks.
+- **Finish on the water** at a patio on the Intracoastal in the late afternoon, such as Blue Pointe or Tiki 52, remembering that both are Tequesta-addressed places in Martin County.
+
+## What These Discoveries Reveal About Tequesta Living
+
+A few things stand out once you map the list. The village center is small and walkable in spirit, with an arts campus and a few independent places rather than a big downtown. The water is woven into ordinary evenings. And "Tequesta" is a regional idea as much as a municipality: the village, the Tequesta-addressed places in Martin County, and the parks and preserves of Jupiter, Juno Beach and Jupiter Island form one lived-in area that residents move through without thinking about the borders.
+
+The name itself points to older history. The village is named for the Tequesta people, who lived in southeast Florida long before today's towns. The Palm Beach County History account notes that the Village was incorporated in 1957, centered on the Tequesta Country Club, and that local sources differ on details of how the name was chosen, so treat the popular retellings with care. See the [Palm Beach County History site](https://education.pbchistory.org/?p=29219).
+
+## Neighborhood and Real Estate Connections
+
+Where a place sits affects how it fits into daily life. Homes near the village center are close to Tequesta Drive, while Beach Road and the Intracoastal corridor are closer to Coral Cove and the waterfront, and homes in Martin County or Jupiter have a different set of nearby options. Our [neighborhood guide](/blog/best-neighborhoods-in-tequesta-florida) covers the range, [what it is really like to live in Tequesta](/blog/what-its-really-like-living-in-tequesta-florida) covers the day-to-day, and the [pros and cons of living in Tequesta](/blog/pros-and-cons-of-living-in-tequesta-florida) lays out the trade-offs. If a specific home matters to you, our [Sun & Shade Analyzer](/sun-shade) shows how sunlight falls on a property, and the [local guide to Tequesta](/blog/local-guide-to-tequesta-florida) covers practical Village basics.
+
+> **Love These Local Spots? Explore Living in Tequesta.** DO Homes Group helps buyers understand the neighborhoods behind the lifestyle, including which parts of Tequesta put you closest to the places you care about. [Explore Tequesta Homes](/communities/tequesta), [Compare Tequesta Neighborhoods](/blog/best-neighborhoods-in-tequesta-florida), or [Ask a Local Real Estate Question](/contact).
+
+*Hours, fees, access and operating status change, and some sources we used were older listings. This guide is for general information, is not an endorsement of any business, and was checked on October 15, 2026. Confirm details with the operator or agency before you go.*`,
     faqs: [
-      { q: "What is Tequesta's best-kept secret?", a: "The northwest fork of the Loxahatchee. Most people paddle the stretch visible from a bridge; upstream the river narrows completely — cypress closing overhead, tannic water, and a landscape nothing like the coast twenty minutes behind you. It is the part that earned the federal designation, and on a weekday you can have it to yourself." },
-      { q: "When should I visit Coral Cove Park?", a: "At low tide on a calm morning, which almost nobody times. The limestone exposes pools and ledges holding small fish, urchins and crabs, turning the whole shoreline into a rock-pooling exercise rather than a swim. Wear something on your feet — the rock is sharp and slick in equal measure." },
-      { q: "How do I see Blowing Rocks actually blowing?", a: "Go when there is a decent east swell at high tide. Winter weather offshore is what forces water up through the limestone in plumes, sometimes very high. Most visitors arrive on a calm day and see interesting rocks instead. Watching the forecast is the whole trick and almost nobody does it." },
-      { q: "Where does the name Tequesta come from?", a: "From the Tequesta, a people who lived in southeast Florida for thousands of years before European contact. This river mouth and the surrounding coast were inhabited long before anything currently standing — which reframes the place, since the Loxahatchee was not discovered by anyone and its protection is a recent chapter." },
-      { q: "Can I see manatees in Tequesta?", a: "Through the cooler months they move into the river system, and seeing them from a dock or kayak is ordinary rather than an event. They are federally protected — keep distance, never feed them, do not pursue them on a paddleboard, and observe the speed zones, which exist precisely because this is where the animals are." },
-      { q: "Is Jonathan Dickinson State Park worth the drive?", a: "Very much so — extensive trails, genuine scrub habitat, camping, a river tour and the highest natural point in South Florida, a short drive north into Martin County. It is large enough to absorb visitors, so even on a busy weekend the interior stays quiet. Cooler months for hiking, and take more water than seems necessary." },
+      { q: "What are the hidden gems in Tequesta, Florida?", a: "Local favorites include the Lighthouse ArtCenter on Tequesta Drive, independent cafés and restaurants, small Village parks such as Remembrance Park, Coral Cove Park on Beach Road, and nearby natural areas like Blowing Rocks Preserve, Riverbend Park and Hobe Mountain. Some are outside the Village, and this guide labels each one." },
+      { q: "Where is Blowing Rocks Preserve?", a: "On Jupiter Island in Martin County, north of Tequesta. It is a Nature Conservancy preserve, so it is not inside the Village. The Conservancy lists daily hours, free parking, and no lifeguards. Check its page for current hours, admission and conditions." },
+      { q: "Is Coral Cove Park in Tequesta?", a: "Yes. Coral Cove Park is a Palm Beach County park at 1600 Beach Road in Tequesta. The County lists beach and Intracoastal frontage, parking, restrooms, showers and a snorkeling listing. Check beach conditions and follow lifeguard guidance before you go." },
+      { q: "Are Blue Pointe and Tiki 52 in the Village of Tequesta?", a: "They use Tequesta mailing addresses, but their SE Federal Highway addresses point to Martin County rather than the incorporated Village. Confirm the municipality for any specific parcel, and confirm hours before visiting." },
+      { q: "Do I need a fishing license to fish from shore in Florida?", a: "Generally yes. Residents fishing saltwater from shore need a free resident shoreline license unless exempt, and nonresidents need a nonresident saltwater license. Exemptions include anglers under 16 and residents 65 and older with proof. Confirm current rules with Florida Fish and Wildlife." },
+      { q: "Can I see manatees near Tequesta?", a: "They can be seen in local waters at times, but sightings are never guaranteed. Florida Fish and Wildlife asks people to look without touching, feeding or giving water, and boaters should follow posted manatee protection zones." },
+      { q: "Where does the name Tequesta come from?", a: "The village is named for the Tequesta people, who lived in southeast Florida. The Palm Beach County History site says the Village was incorporated in 1957 around the Tequesta Country Club and that accounts of how the name was chosen differ in detail." },
     ],
-    internalLinks: ["best-things-to-do-in-tequesta-florida", "local-guide-to-tequesta-florida", "best-places-to-eat-drink-hang-out-in-tequesta-florida"],
-    funFact: "Tequesta sits exactly on the Palm Beach County / Martin County line — the county line actually runs through the village. Some Tequesta addresses are in Martin County, others in Palm Beach County, with different tax rates and county services depending on which side your house is on.",
+    internalLinks: ["best-things-to-do-in-tequesta-florida","best-places-to-eat-drink-hang-out-in-tequesta-florida","best-neighborhoods-in-tequesta-florida","what-its-really-like-living-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","local-guide-to-tequesta-florida"],
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'tequesta-vs-nearby-cities',

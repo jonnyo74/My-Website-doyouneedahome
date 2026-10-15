@@ -24,6 +24,7 @@ import { OWNERSHIP_HEADING, OWNERSHIP_HEADING_ID } from '@/lib/tequestaOwnership
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import JupiterBeachAccessBlock from '@/components/article/JupiterBeachAccessBlock'
 import TequestaOwnershipCalculator from '@/components/article/TequestaOwnershipCalculator'
+import TequestaGemsExplorer, { GEMS_EXPLORER_HEADING, GEMS_EXPLORER_HEADING_ID } from '@/components/article/TequestaGemsExplorer'
 import KeyFactors from '@/components/article/KeyFactors'
 import ComparisonMatrix, { matrixHeadingId } from '@/components/article/ComparisonMatrix'
 import DiscoveryGuide from '@/components/article/DiscoveryGuide'
@@ -69,12 +70,14 @@ const TOOL_HEADINGS: Record<ToolKind, { id: string; label: string }> = {
   'north-palm-beach-cost-worksheet': { id: NPB_WORKSHEET_HEADING_ID, label: NPB_WORKSHEET_HEADING },
   'jupiter-beach-access-map': { id: MAP_HEADING_ID, label: MAP_HEADING },
   'tequesta-ownership-calculator': { id: OWNERSHIP_HEADING_ID, label: OWNERSHIP_HEADING },
+  'tequesta-gems-explorer': { id: GEMS_EXPLORER_HEADING_ID, label: GEMS_EXPLORER_HEADING },
 }
 function ToolBlock({ kind }: { kind: ToolKind }) {
   if (kind === 'carrying-cost-worksheet') return <CarryingCostWorksheet />
   if (kind === 'wellington-cost-worksheet') return <CarryingCostWorksheet variant="wellington" />
   if (kind === 'north-palm-beach-cost-worksheet') return <CarryingCostWorksheet variant="north-palm-beach" />
   if (kind === 'tequesta-ownership-calculator') return <TequestaOwnershipCalculator />
+  if (kind === 'tequesta-gems-explorer') return <TequestaGemsExplorer />
   return <JupiterBeachAccessBlock />
 }
 
