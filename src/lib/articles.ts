@@ -13032,7 +13032,7 @@ Okeechobee Boulevard runs across the middle of the Village and connects it to St
 
 ## Southern Boulevard: the southern edge
 
-Southern Boulevard runs along the Village's south side and is its link to Wellington. The Village's shopping along it includes Crestwood Square near Crestwood Boulevard, Southern Palm Crossing, where Masala Mantra is at 11051, and the Village Shoppes at 10101. Cypress Key sits at the northwest corner of Cypress Head Avenue and Southern Boulevard. Palm Tran's Route 40 serves the US 441 and Southern Boulevard corridor.
+Southern Boulevard runs along the Village's south side and is its link to Wellington. The Village's shopping along it includes Crestwood Square near Crestwood Boulevard, Southern Palm Crossing and the Village Shoppes at 10101. Cypress Key sits at the northwest corner of Cypress Head Avenue and Southern Boulevard. Palm Tran's Route 40 serves the US 441 and Southern Boulevard corridor.
 
 **Use it for:** Wellington access, the south-side shopping centers, and communities such as Anthony Groves and Bella Terra.
 
@@ -13965,7 +13965,6 @@ Here is how to use it, grouped by what you want.
 | Classic pizza and Italian, loud and friendly | The Original Mario The Baker |
 | A proper dinner | Asador Patagonia |
 | Thai, Japanese or sushi | Peppermint Thai & Sushi |
-| Indian food and a cocktail | Masala Mantra |
 | A Saturday-morning stroll with coffee and a baked good | The Green Market at Village Hall |
 
 ## The breakfast run
@@ -13994,25 +13993,22 @@ The Village has two pizza places that could not be more different, and they are 
 
 **Asador Patagonia, 675 Royal Palm Beach Boulevard.** The Village's deliberate night out. It is an Argentinian steakhouse that has been open since 2013, cooking on charcoal, with a waterfront dining area and a tiki bar. Its own menu highlights include empanadas and grilled meats. This is where you take a birthday, an anniversary or visitors who want to see a different side of the Village. Reserve through the restaurant's site.
 
-## Thai, Japanese and Indian
+## Thai and Japanese
 
 **Peppermint Thai & Sushi, 11328 Okeechobee Boulevard.** A family-owned, independent Thai and Japanese kitchen. Its own menu covers Thai dishes, sushi and poke, so it works for a table with split opinions.
 
-**Masala Mantra, 11051 Southern Boulevard.** An Indian restaurant in Southern Palm Crossing that describes its food as traditional street food with modern twists, with cocktails to match. It opened in March 2024 and is family-owned.
 
 ## When you want a drink
 
 - **Brass Ring Pub** for a beer and the game.
 - **Asador Patagonia** for a drink at the waterfront tiki bar before or after dinner.
 - **Domenic's & Vinnie's** for a drink with pizza, since it has a full bar.
-- **Masala Mantra** for a cocktail with dinner.
 
 ## Where they are, by road
 
 - **Okeechobee Boulevard:** Brass Ring Pub (10998), Peppermint Thai & Sushi (11328), Domenic's & Vinnie's (11452).
 - **Royal Palm Beach Boulevard:** Asador Patagonia (675), Jupiter Donuts (1115), Seeds Cafe at Veterans Park (1036).
 - **State Road 7:** The Original Mario The Baker (1007 North).
-- **Southern Boulevard:** Masala Mantra (11051, in Southern Palm Crossing).
 
 That map is also a plan. Okeechobee Boulevard is the one road where you can pick between three kitchens without getting back on the highway.
 
