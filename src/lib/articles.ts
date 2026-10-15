@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -259,6 +259,9 @@ export interface Article {
   // CSS object-position for the full-bleed hero, e.g. '68% 50%'. The hero crops hard
   // on phones, so set this when the subject sits off-centre. Defaults to centre.
   heroImagePosition?: string
+  // Interactive tool for articles that don't use the editorial layout. Same shape as
+  // editorial.tool: rendered directly before the ## section named by beforeSection.
+  bodyTool?: NonNullable<ArticleEditorial['tool']>
   heroImageWidth?: number    // intrinsic px — emitted as og:image:width so crawlers can size the card
   heroImageHeight?: number   // intrinsic px — emitted as og:image:height
   heroImageCredit?: string   // e.g. 'Photo by Jane Doe / Unsplash'
@@ -28383,125 +28386,163 @@ For paddling and water access beyond a single property, see [communities with th
     updated: '2026-10-16',
   },
   {
-    slug: 'cost-of-living-in-tequesta-florida',
+    slug: "cost-of-living-in-tequesta-florida",
     citySlug: 'tequesta',
     cityName: 'Tequesta',
     type: "Cost Of Living In",
     order: 7,
-    seoTitle: "Cost of Living in Tequesta, Florida",
-    metaTitle: "Cost of Living in Tequesta, Florida",
-    metaDescription: "What it costs to live in Tequesta, Florida — an upscale village near Jupiter, with housing, taxes, and insurance explained.",
+    seoTitle: "Cost of Living in Tequesta, FL: Homebuyer’s Guide | DYNA",
+    metaTitle: "Cost of Living in Tequesta, FL: Homebuyer’s Guide | DYNA",
+    metaDescription: "What it costs to own a home in Tequesta, Florida: property taxes, insurance, utilities, associations and waterfront costs, plus a monthly cost calculator.",
     primaryKeyword: "cost of living in Tequesta Florida",
-    secondaryKeywords: ["Tequesta home prices", "is Tequesta expensive", "Tequesta FL cost of living"],
-    h1: "Cost of Living in Tequesta, Florida",
+    secondaryKeywords: ["Tequesta property taxes","Tequesta homeowners insurance","Tequesta monthly living expenses","is Tequesta expensive","Tequesta vs Jupiter cost of living"],
+    h1: "Cost of Living in Tequesta, Florida: A Complete Homebuyer’s Guide",
+    heroImage: '/images/tequesta/tequesta-sunset-glow-paddleboard-hero.webp',
+    heroImageAlt: "A paddleboarder silhouetted against a golden sunset on the Intracoastal in Tequesta",
+    heroImageCaption: "Sunset on the Intracoastal in Tequesta.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    heroImagePosition: '98% 50%',
+    inlineMagnet: false,
     showMarketTrends: true,
-    body: `Tequesta prices like what it is: a small, low-density, heavily planted village with a protected river along its edge, in one of the more desirable corners of Palm Beach County. Scarcity does most of the work.
+    bodyTool: { kind: 'tequesta-ownership-calculator', beforeSection: 'Property Taxes in Tequesta: The Palm Beach–Martin County Distinction' },
+    body: `Most of what makes a Tequesta home expensive or affordable has little to do with the mortgage rate. It comes down to which county the parcel sits in, how old the roof is, what flood and wind insurance costs for that address, what comes attached to the home, and whether the house touches the water. This guide walks through each of those, shows where the real numbers come from, and includes a calculator so you can run your own.
 
-Here's what actually drives the number and what to verify.
+Everything numeric below is sourced and dated. Where a current figure could not be verified, the page says so and points to the official source rather than guessing. This is a cost guide, not a lifestyle guide. For fit, see [who should move to Tequesta](/blog/who-should-move-to-tequesta-florida), and for trade-offs, the [pros and cons of living in Tequesta](/blog/pros-and-cons-of-living-in-tequesta-florida).
 
-## Housing
+## Is Tequesta Expensive? The Quick Answer
 
-Prices here generally track Jupiter and occasionally sit a little below it, which is the village's quiet value argument — similar area, similar access, slightly friendlier numbers.
+Tequesta is priced for scarcity and for a setting many people want: a small village with limited room to grow, mature greenery, and water close by. For many buyers it is not an inexpensive place to own, but "expensive" depends on which Tequesta you mean. A village-core home, a Beach Road condominium and a riverfront house with a dock live in different cost worlds.
 
-**The riverfront and Intracoastal streets** are the top tier, priced on frontage, dock access and quality of water rather than square footage alone.
+Two things are worth saying plainly. First, we cannot tell you Tequesta is cheaper or more expensive than Jupiter as a rule, because it varies by parcel and the numbers that decide it (millage, insurance, association costs, condition) are property-specific. Second, the surprises usually are not the purchase price. They are insurance on an older home, a tax bill that resets after you buy, and the age of the roof and systems.
 
-**Tequesta Country Club** carries its own premium, and club obligations sit on top of the purchase price.
+## What Does It Actually Cost to Own a Home in Tequesta?
 
-**The village-core streets** are where most transactions happen and where the attainable entry is. Housing is largely mid-century, and condition varies enormously — which means the price you see and the price you end up paying can diverge.
+Think of ownership as four layers:
+- **The purchase and the loan:** price, down payment, interest rate and any mortgage insurance.
+- **Recurring government costs:** property taxes, plus village water and stormwater charges.
+- **Risk costs:** homeowners and windstorm insurance, and flood insurance where it applies.
+- **Property-specific costs:** association fees or club dues where they exist, utilities, maintenance, and any waterfront upkeep.
 
-**The newer gated communities** price for newness and lower maintenance obligation.
+The calculator below adds these together for one property. The sections after it explain where each input comes from.
 
-The structural point: this is a small village with essentially no room to grow. Inventory is thin, and that supports prices in a way a larger market wouldn't.
+## Current Tequesta Home Prices and Housing Options
 
-## Property taxes — and the county question first
+We are not publishing a median price here. A single median would blur very different housing types, and any number we printed would go stale. The live local MLS market trends and the property search lower on this page are the current source for prices and inventory.
 
-Before anything else: **establish which county the property is in.**
+What matters for cost is the type of home:
+- **Village-core, older single-family homes.** Established streets and mature trees. Condition varies widely, so the roof, electrical, plumbing and windows often matter more than the asking price.
+- **Riverside and Intracoastal homes.** Priced on frontage, water and structures, with higher insurance and upkeep considerations. Our [neighborhood guide](/blog/best-neighborhoods-in-tequesta-florida) covers the range.
+- **Tequesta Country Club area.** A golf-oriented community inside the Village. Living in a country club neighborhood does not automatically mean joining the club. What applies to a given home is specific to that home.
+- **Gated communities.** Costs and structures differ by community. Some communities marketed under a Tequesta name, such as Turtle Creek and River Ridge, use Tequesta or Jupiter mailing names, and listings disagree about county and municipality. Confirm for the parcel.
+- **Condominiums and townhomes.** Often along the Beach Road and Intracoastal corridor, with their own association structures.
 
-The village abuts the Martin County boundary, and some Tequesta-addressed properties fall on the far side of it. That changes your millage, your property appraiser, your school district and your county services. It's a first-order question, not a detail.
+## Property Taxes in Tequesta: The Palm Beach–Martin County Distinction
 
-Florida has **no state income tax**, which is material for retirees and higher earners.
+Start with the parcel's county. A Tequesta postal address and the incorporated Village of Tequesta are not always the same. Some properties with Tequesta in the address sit in Martin County, which changes the Property Appraiser, the taxing authorities and the millage. The [Palm Beach County Property Appraiser](https://pbcpao.gov/) and the [Martin County Property Appraiser](https://www.pamartinfl.gov/) each publish parcel records and millage data.
 
-Two mechanics matter more than the rate:
+**Millage is a total, not a single rate.** Your bill adds the rates of every taxing authority for the parcel's tax district. For the Village of Tequesta's own operating rate, the Palm Beach County Property Appraiser's 2025 table lists 6.4595 mills (the rate the Village adopted in Resolution 18-25 for the fiscal year ending September 30, 2026), and its 2026 proposed-rate file shows the same figure as a proposal. That is only the Village's share. County, school and other district rates are added to reach the total, so use the Property Appraiser's [millage tables](https://pbcpao.gov/trim/hearings.htm) for the exact parcel. We have not printed an all-in Tequesta total because it depends on the tax district.
 
-**The listing's tax figure isn't yours.** It reflects the seller's assessed value, potentially capped for years. On a change of ownership the property is reassessed at market value, and the new bill can be substantially higher.
+**Your bill is not the seller's bill.** Florida's Save Our Homes cap limits annual growth in assessed value for a homesteaded property, and the Palm Beach County Property Appraiser notes it applies while the property stays homesteaded and until it sells. After a sale, the property is reassessed and a new owner earns the cap going forward, so the seller's tax figure on a listing is a poor guide to your first bill.
 
-**Homestead Exemption and Save Our Homes** apply to a primary residence — an exemption off assessed value plus a cap on annual increases. Portability may let you carry accrued savings from a prior Florida homestead. None of it applies to a second home.
+**Homestead and portability.** Under current law, a homesteaded primary residence receives an exemption on the first $25,000 of assessed value from all taxes, with an additional exemption on value above $50,000 that does not apply to school taxes. The deadline to apply is March 1, and you must own and live in the home by January 1. Portability can let you carry part of an earned Save Our Homes benefit to a new Florida homestead within the time Florida law allows. A second home does not receive the homestead exemption.
 
-Verify current rates, exemptions and portability with the relevant county's Property Appraiser and Tax Collector — and make sure you're asking the right county.
+**A pending change.** As of October 15, 2026, a constitutional amendment on the November 3, 2026 ballot would raise the non-school homestead exemption and lower the cap on non-homestead assessment increases from 10% to 5%, and it needs 60% voter approval. A [summary is here](https://www.jmco.com/articles/government/florida-property-tax-amendment-2026-ballot/). If you are reading after the election, check the result and the effective date with the Property Appraiser before relying on current-law figures. Florida also has no state personal income tax, per the [Florida Department of Revenue](https://floridarevenue.com/).
 
-## Insurance
+## Homeowners, Windstorm, and Flood Insurance
 
-A serious cost here, and the variable that most often decides which houses work.
-
-The drivers:
-
-- **Roof age and type.** On Tequesta's substantially mid-century stock this is frequently the deciding factor. An older roof can make a house difficult to insure at any sensible price.
-- **Wind mitigation.** Impact glass, shutters, roof-to-wall connections and a current inspection move the premium meaningfully.
-- **Proximity to the water and elevation.** Riverfront and near-coastal property prices very differently from inland village streets.
+For many Tequesta buyers, insurance is the cost that decides which houses work. We cannot print a typical premium, because it depends on the specific home, and any average would mislead. What drives the number is more useful:
+- **Roof age and type.** On older homes this can decide whether a house is straightforward to insure.
+- **Wind mitigation.** Impact glass, shutters, roof-to-wall connections and a current inspection can affect a quote.
+- **Location and elevation.** Closer to the river or Intracoastal can price differently from higher ground.
 - **Year built and construction type.**
 
-**Flood is separate**, and it matters on the river. Flood zone is parcel-specific and an elevation certificate can change the number materially.
+**Flood insurance is separate and parcel-specific.** Palm Beach County explains that your flood zone and your evacuation zone are different things. Check the FEMA [flood map service center](https://msc.fema.gov/portal/home) for flood zone and the County's [Know Your Zone tool](https://discover.pbc.gov/publicsafety/dem/pages/know-your-zone.aspx) for evacuation. Get quotes from a licensed insurance agent for the specific address before you are committed.
 
-Get real quotes on the specific address before you're under contract.
+## HOA Fees, Country Club Memberships, and Special Assessments
 
-## Club and association obligations
+Some Tequesta homes are in associations, and some are not. Many homes in the older village pockets are not governed by a mandatory association, though that should be confirmed for each property. Where an association exists, it can add recurring fees and, at times, assessments for major projects.
 
-**Tequesta Country Club** membership arrangements vary by property, and this is the single most common source of budget surprise in the village. Establish whether membership is mandatory with the house, what the buy-in is, what annual dues and any minimums come to, and whether the membership is equity or non-equity.
+Country clubs are a separate question. In a country club neighborhood, owning a home does not automatically require club membership, and what applies to a particular home is specific to that home. We are not quoting dues, fees or buy-ins here, because they vary and change, and we would rather not give you a number that is wrong for your property.
 
-For the gated communities, get the HOA budget, reserve study and assessment history.
+What we can do is help you work out what applies to a specific home before you make an offer. The calculator has separate lines for association fees and club dues so you can see how they change the monthly picture, and you can set either to zero.
 
-The general principle: two similar houses can differ by a substantial annual figure depending entirely on what comes attached to them.
+## Water, Electricity, Internet, and Other Utilities
 
-## Everyday costs
+**Water.** The Village operates its own water utility. The Village's [Water Service Rates](https://www.tequesta.org/1330/Water-Service-Rates) page says water rates, fees and charges are set to increase on October 1, 2026, and that the Council adopted a rate increase and a capital recovery charge in July. Per that page as we retrieved it on October 15, 2026, the capital recovery charge is described as about $10 per month on an average resident's bill, spread over 20 years. Treat that as a summary and confirm the current schedule, including base charges and usage tiers, on the Village page, because we could not verify a final rate table. Village water may not extend to every address with a Tequesta mailing address, so confirm the provider for the specific home.
 
-- **Water** comes from the village's own utility for much of Tequesta, which is unusual and worth confirming for the address.
-- **Electric** is FPL.
-- **Utilities generally** track the Florida average, with summer cooling the spike. Older, less efficient houses cost noticeably more to run.
-- **Groceries and most shopping** happen in Jupiter, so factor the driving into how you actually live. It's a few minutes, not a burden, but it's constant.
-- **Dining** locally is limited, so a meaningful share of eating out happens next door — our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-tequesta-florida) is honest about the range.
-- **Boat ownership**, if that's why you're here, is the budget people underestimate: dockage or maintenance, fuel, insurance and haul-out.
+**Stormwater.** The Village adopted stormwater fees for the fiscal year ending September 30, 2026, a 5% increase from the prior year per Resolution 13-25. The per-unit amount is on the Village's [stormwater page](https://www.tequesta.org/1295/Stormwater).
 
-## The renovation budget nobody plans
+**Electricity.** Electric service is typically provided by [FPL](https://www.fpl.com), with rates regulated by the Florida Public Service Commission. Cooling drives the summer bill, and older or less efficient homes can cost more to run.
 
-On housing stock this age, the capital expenditure isn't optional and it isn't small.
+**Internet and everything else.** Providers and prices vary by address. We have not printed an average.
 
-The items that come up repeatedly: roof replacement, impact windows and doors, electrical panel upgrades, repiping, air conditioning, and — on riverfront property — seawall and dock work. Several of these interact with insurance, which means deferring them costs money twice.
+## Groceries, Dining, Transportation, and Everyday Spending
 
-A house that needs three of those at once can absorb a substantial sum in the first two years of ownership, and that's before anything cosmetic.
+Everyday spending in Tequesta looks like spending in the rest of northern Palm Beach County, and we are not going to invent a grocery or dining figure. What is useful is the shape of it. Tequesta Drive and the US-1 corridor handle everyday services and some dining, and many residents drive to Jupiter for a larger menu of shopping and restaurants, so driving is a real part of the budget. Fuel, tolls and vehicle costs depend on your own routes, and they are an input you should estimate for yourself. For a sense of the local scene, see our [dining guide](/blog/best-places-to-eat-drink-hang-out-in-tequesta-florida).
 
-**How to handle it:** get a thorough inspection, price the major systems specifically rather than accepting a general estimate, and treat the total as part of the purchase price when comparing properties. A more expensive house with a new roof, new windows and updated systems is frequently the cheaper purchase.
+## Renovation and Long-Term Maintenance Costs
 
-Buyers who model this properly do well in Tequesta. Buyers who compare asking prices and assume the rest will keep are the ones who get caught.
+On older housing stock, capital spending is not optional and it is not small. The items that come up repeatedly are roof replacement, impact windows and doors, electrical panel upgrades, repiping, air conditioning, and, on waterfront property, seawall and dock work. Several of these interact with insurance, so deferring them can cost money twice.
 
-## Running your real number
+How to handle it: get a thorough inspection by a licensed professional, price the major systems specifically rather than accepting a general estimate, and treat the total as part of the purchase price when comparing homes. A more expensive house with a newer roof and updated systems can be the less costly purchase. We are not claiming that newer or gated homes automatically have lower maintenance costs. Condition, not just age or community type, is what to check.
 
-1. **Confirm the county.** Everything downstream depends on it.
-2. **Ask what the taxes will be for you**, on the reassessed value.
-3. **Get real insurance quotes**, including flood, for the specific address.
-4. **Price the roof.** Near end of life means a capital cost and an insurance problem at once.
-5. **Get every club and association obligation in writing.**
-6. **Then** compare against [the neighboring towns](/blog/tequesta-vs-nearby-cities).
+The calculator separates a one-time renovation budget, which counts as upfront cash, from an ongoing maintenance reserve, which counts as a monthly cost.
 
-## The bottom line
+## The Additional Cost of Waterfront and Boating Lifestyles
 
-Tequesta is priced for scarcity and for a location that a lot of people want. It's not cheap, and it's frequently a little friendlier than Jupiter for something comparable.
+Waterfront adds a layer that inland homes do not have: structures to maintain, permitting for work on them, and often higher insurance considerations. A seawall or dock is something you own and maintain, and work on one typically goes through Village permitting. The Village Building Department publishes submittal requirements for [seawall permits](https://www.tequesta.org/DocumentCenter/View/13004/Seawall-Permit-Submittal-Requirements---ADA) and [dock and boat lift permits](https://tequesta.org/DocumentCenter/View/13002/Dock-Boat-Lift-Permit-Submittal-Requirements-ADA), and some work can also involve state or federal review.
 
-The costs that surprise people aren't the mortgage. They're insurance on older houses, club obligations attached to the property, and the discovery that the county line changed the tax bill they'd modelled.
+Boat ownership is its own budget: slip or dock upkeep, fuel, insurance, maintenance and haul-out. If water access is a priority, our list of [communities with their own kayak launch](/communities-with-kayak-launches) shows another route to the water that does not involve owning a dock.
 
-*Figures, rates and rules change. Verify tax, exemption and portability specifics with the relevant county's Property Appraiser and Tax Collector, insurance and flood costs with a licensed agent, flood zone and elevation with the relevant authority, and all club and association obligations with the governing documents.*`,
+## Tequesta vs. Jupiter: Cost Comparison
+
+We are not going to claim one town is cheaper. The numbers that decide it are specific to the parcel. A fair comparison looks at the same cost categories in each place:
+
+| Cost factor | How it can differ | What to check |
+| --- | --- | --- |
+| Property taxes | Different taxing districts and millage | The parcel's total millage |
+| County | Palm Beach or Martin, by parcel | Property Appraiser records |
+| Water and services | Different providers and charges | The address's utility provider |
+| Insurance | Roof, elevation, location | Quotes for the address |
+| Association costs | Vary by community | What applies to the home |
+| Rail and noise | Differ by location | Visit at different hours |
+
+For a broader look, see [Tequesta versus nearby cities](/blog/tequesta-vs-nearby-cities), and for how moving between Palm Beach County and the Treasure Coast changes the picture, our [relocation guide](/palm-beach-county-treasure-coast-relocation-guide).
+
+## Full-Time Residents vs. Seasonal Homeowners
+
+Ownership costs shift depending on how you use the home. A full-time resident can qualify for the homestead exemption and the Save Our Homes cap. A second or seasonal home does not receive the homestead exemption, and non-homestead assessment increases are currently capped at 10% per year, a figure the November 2026 ballot amendment would change if approved. Seasonal owners also carry costs while away, including insurance conditions for vacant periods, upkeep, storm preparation and utilities.
+
+Retirees weighing the cost often point to Florida's lack of a state income tax. It does not offset insurance, property taxes or maintenance, so run the full picture, including the calculator, before assuming it does.
+
+## Seven Financial Checks Before Buying
+
+- **Which county and tax district the parcel is in.** Use the Property Appraiser records, not the mailing address.
+- **What the tax bill will be on the reassessed value,** not the seller's bill, and how any pending changes could affect it.
+- **Insurance quotes for the specific address,** for both wind and flood, from a licensed agent.
+- **The age and condition of the roof and major systems,** judged by a licensed inspector.
+- **What comes with the home community-wise.** Whether there is an association or a club connection, and what that means for this home, is property-specific. Ask us.
+- **Village utility and stormwater charges,** including the October 1, 2026 water rate changes.
+- **Your upfront cash,** including down payment, closing costs and any renovation, plus a reserve for the first year.
+
+> **Know the Real Cost Before You Buy in Tequesta.** DO Homes Group helps buyers investigate taxes, insurance, community structures, property condition and long-term ownership costs on a specific Tequesta home before an offer. [Explore Tequesta Homes](/communities/tequesta) or [Ask About Ownership Costs](/contact). You can also check a home's light and heat with our [Sun & Shade Analyzer](/sun-shade).
+
+*Figures, rates and rules change. This guide is for general information and is not tax, legal, insurance or financial advice. Verify tax, exemption and portability specifics with the relevant county's Property Appraiser, insurance and flood costs with a licensed agent, flood zone and elevation with the relevant authority, and utility charges with the Village. Facts on this page were checked on October 15, 2026.*`,
     faqs: [
-      { q: "Is Tequesta expensive?", a: "It prices for scarcity — a small, low-density village with essentially no room to grow, on a protected river in a desirable corner of the county. Prices generally track Jupiter and occasionally sit a little below it, which is the village's quiet value argument: similar area and access, slightly friendlier numbers." },
-      { q: "What is the first thing to check on a Tequesta property?", a: "Which county it is in. Tequesta sits at the Palm Beach–Martin line and some Tequesta-addressed properties are in Martin County, which changes your millage, property appraiser, school district and county services. Everything downstream in your budget depends on getting that right." },
-      { q: "How much is insurance in Tequesta?", a: "Variable enough that a general figure is useless, and it is often the variable that decides which houses work. Roof age is frequently the deciding factor on the village's mid-century stock, followed by wind mitigation features, proximity to water and elevation. Flood is separate and matters on the river." },
-      { q: "What are the club fees at Tequesta Country Club?", a: "They vary by property, which is exactly why it is the most common source of budget surprise in the village. Establish whether membership is mandatory with the house, the buy-in, annual dues and any minimums, and whether the membership is equity or non-equity. Two similar houses can differ substantially on this alone." },
-      { q: "Who provides water in Tequesta?", a: "The village operates its own water utility serving much of Tequesta, which is unusual for a community this size. Electric is FPL. Confirm the provider for the specific address, since coverage does not extend uniformly across everything with a Tequesta postal address." },
-      { q: "What costs do Tequesta buyers underestimate?", a: "Three things: insurance on older houses, club obligations that come attached to a specific property rather than to the village, and the tax consequence of the county line. The mortgage is rarely the surprise." },
+      { q: "Is Tequesta, Florida expensive?", a: "It is priced for scarcity and a desirable setting, but the answer depends on the type of home and the specific parcel. Village-core, riverfront, condominium and country-club-area homes carry different costs. We do not state that Tequesta is always cheaper or more expensive than Jupiter." },
+      { q: "What are property taxes like in Tequesta?", a: "They depend on the parcel. The bill is the parcel’s taxable value times the total millage of every taxing authority for its tax district. The Village’s own operating rate is one part of that total. Check the Property Appraiser for the exact parcel, and note that some Tequesta-addressed properties are in Martin County." },
+      { q: "Will my property taxes be the same as the seller’s?", a: "Often not. Florida’s Save Our Homes cap applies while a property stays homesteaded and until it sells, so a new owner should not assume the seller’s tax bill carries over. A pending November 2026 ballot amendment could also change exemption and cap rules if approved." },
+      { q: "What does homeowners insurance cost in Tequesta?", a: "It varies too much to quote an average. Roof age, wind mitigation, construction type, location and elevation all matter, and flood insurance is separate and parcel-specific. Get quotes from a licensed agent for the specific address." },
+      { q: "Do all Tequesta homes have HOA fees or club dues?", a: "No. Some homes are in associations and many in older village pockets are not governed by a mandatory one, and owning a home in a country club neighborhood does not automatically mean joining the club. What applies is specific to the home, so confirm it before you make an offer." },
+      { q: "How much are Tequesta water and utility costs?", a: "The Village runs its own water utility, and its rates and charges are set to change October 1, 2026, including a capital recovery charge. See the Village’s Water Service Rates page for the current schedule. Electricity is typically from FPL, and cooling drives the summer bill." },
+      { q: "Is Tequesta cheaper than Jupiter?", a: "It depends on the specific properties. Taxing districts, county, insurance, association costs and condition all differ by parcel, so compare actual homes rather than assuming one town is cheaper." },
     ],
-    internalLinks: ["best-neighborhoods-in-tequesta-florida", "pros-and-cons-of-living-in-tequesta-florida", "tequesta-vs-nearby-cities"],
-    funFact: "Tequesta homes often appraise within a few percent of comparable Jupiter homes — the school-zone overlap and water access are equivalent. The slight discount that sometimes appears comes down entirely to name recognition: buyers from out of state search for 'Jupiter' and don't know to look in Tequesta.",
+    internalLinks: ["best-neighborhoods-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities","who-should-move-to-tequesta-florida","local-guide-to-tequesta-florida","best-places-to-eat-drink-hang-out-in-tequesta-florida"],
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'hidden-gems-in-tequesta-florida',

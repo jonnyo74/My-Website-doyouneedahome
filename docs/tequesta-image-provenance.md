@@ -73,3 +73,11 @@ The shaded-street and marina illustrations were removed from Blogs #1 to #3 and 
 | `public/images/tequesta/tequesta-sunset-water-dusk-hero.webp` (1920x1080) | `IMG_4360.JPEG`, 16:9 crop, John Oliver's own photo from the Jupiter folder (same sunset session as Blog #4) | Hero and OG image |
 
 Originals have no EXIF, so "Tequesta" rests on John's description of the folder.
+
+## Tequesta Blog #7 (Cost of Living)
+
+| File | Source | Use |
+| --- | --- | --- |
+| `public/images/tequesta/tequesta-sunset-glow-paddleboard-hero.webp` (1920x1080) | `IMG_4356.JPEG`, 16:9 crop, John Oliver's own photo from the Jupiter folder (same sunset session as Blogs #4 to #6) | Hero and OG image; `heroImagePosition` 98% so the paddleboarder is centered on phones |
+
+Originals have no EXIF, so "Tequesta" rests on John's description of the folder.
