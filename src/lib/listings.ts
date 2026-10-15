@@ -167,6 +167,8 @@ export interface Listing {
   financingTermsAccepted?: string[]
 
   virtualTourUrl?: string
+  // YouTube video ID for a click-to-play video tour above the photo gallery.
+  videoId?: string
   heroPhoto?: ListingPhoto
   // Pre-cropped 1200x630 image for social/link previews (Facebook, LinkedIn, etc.)
   // — falls back to heroPhoto if not set, but that risks an odd crop since hero
@@ -681,6 +683,7 @@ export const listings: Listing[] = [
     financingTermsAccepted: ['Cash', 'Conventional', 'FHA', 'VA Loan'],
 
     virtualTourUrl: 'https://www.propertypanorama.com/6145-SE-Audubon-Lane-Hobe-Sound-FL-33455/unbranded',
+    videoId: 'aI05W92hSfs',
 
     heroPhoto: {
       src: '/images/listings/6145-se-audubon-lane/01-exterior-front-twilight.jpg',
