@@ -27759,7 +27759,7 @@ Tequesta is a water-oriented village. It sits near where the lower Loxahatchee R
 A few things are worth being precise about:
 - **The lower river is not the "Wild and Scenic" river.** The federally designated Wild and Scenic stretch of the Loxahatchee River is the Northwest Fork, far upstream, which runs between Jonathan Dickinson State Park and Riverbend Park. Tequesta's waterfront is the lower river and the estuary near the inlet, which is a working, boating-oriented stretch of water.
 - **Water access is address-specific.** Whether a particular home has a dock, a view or boat access depends on the property. Do not assume any of it from the village's reputation.
-- **Paddling is its own pleasure.** If a paddle at sunrise sounds appealing, see our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta).
+- **Paddling is its own pleasure.** If a paddle at sunrise sounds appealing, see our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta). Our [outdoors guide to Tequesta](/blog/best-things-to-do-in-tequesta-florida) covers sunset water, Coral Cove and the wild river upstream.
 
 The practical truth is that much of daily life here is village-and-river oriented, not a walkable beach district. The beach is a drive, and the water you see most is the river and the Intracoastal.
 
@@ -27819,7 +27819,7 @@ The best way to find out whether it fits is to spend ordinary time there: drive 
       { q: "Is Tequesta a good fit for boaters and water lovers?", a: "It may be, because the village is oriented toward the lower Loxahatchee River, the Intracoastal Waterway and the Jupiter Inlet. Water access, docks and views vary by property, so verify them for the specific home rather than assuming them." },
       { q: "What should buyers know before choosing Tequesta?", a: "Expect a quieter, village-scale setting with limited local commerce, and plan on driving into Jupiter for many errands and dining choices. Confirm the municipality for any specific address, and verify water access, condition and costs property by property." },
     ],
-    internalLinks: ["best-neighborhoods-in-tequesta-florida","local-guide-to-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities"],
+    internalLinks: ["best-neighborhoods-in-tequesta-florida","local-guide-to-tequesta-florida","best-things-to-do-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities"],
     author: 'john',
     published: true,
     updated: '2026-10-15',
@@ -27878,7 +27878,7 @@ We keep this short on purpose. For current contacts and department details, use 
 
 ## If Water Is Part of Why You Are Looking
 
-For many people the water is the reason Tequesta is on the list. The lower Loxahatchee River, the inlet and the Intracoastal Waterway are close, and paddling, boating and waterfront life are part of the village's character. If paddling appeals, our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta) is a good place to start.
+For many people the water is the reason Tequesta is on the list. The lower Loxahatchee River, the inlet and the Intracoastal Waterway are close, and paddling, boating and waterfront life are part of the village's character. If paddling appeals, our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta) is a good place to start, and our [outdoors guide to Tequesta](/blog/best-things-to-do-in-tequesta-florida) covers Coral Cove, sunset water and the wild river upstream.
 
 ![Boats tied beside a wooden dock on calm water](/images/tequesta/marina-dock-illustration.webp "Editorial illustration of dock-and-boat life on the lower river. It is not a photograph of a specific Tequesta marina."){1200x800}
 
@@ -27913,7 +27913,7 @@ For more on choosing where to look, see our [Tequesta neighborhood guide](/blog/
       { q: "What is daily life in Tequesta like?", a: "Village-scale and residential, with mature streets, parks and the water close by. Everyday errands and services are nearby, and Jupiter is a normal part of the orbit for broader dining, shopping, health care and activity." },
       { q: "What should boaters consider when looking at Tequesta homes?", a: "Waterfront access varies by property. Dock setup, water depth, the route to the inlet, bridges, permits and weather planning all depend on the property and the boat, so confirm them with appropriate professionals and official sources. This guide does not give navigation advice." },
     ],
-    internalLinks: ["what-its-really-like-living-in-tequesta-florida","best-neighborhoods-in-tequesta-florida","hidden-gems-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities"],
+    internalLinks: ["what-its-really-like-living-in-tequesta-florida","best-neighborhoods-in-tequesta-florida","best-things-to-do-in-tequesta-florida","hidden-gems-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities"],
     author: 'christine',
     published: true,
     updated: '2026-10-16',
@@ -27955,7 +27955,7 @@ The two overlap, but they are not the same. When a listing says Tequesta, confir
 
 The river-oriented part of Tequesta is its own lifestyle. Streets such as Riverside Drive are tied to the lower Loxahatchee River, and the appeal is a mature, established feel with the water close by. Homes here tend to range from classic older houses to substantial rebuilds, and the area suits people who prioritize water, privacy and an older Tequesta character.
 
-Two honest notes. First, being near the river is not the same as having a dock, deep-water access or any particular route to the inlet, and those vary by property. Second, "river-oriented" describes a setting, not a promise about any one home. If water is central to your plan, our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta) shows another way to enjoy the river, and the [pros and cons of living in Tequesta](/blog/pros-and-cons-of-living-in-tequesta-florida) lays out the trade-offs.
+Two honest notes. First, being near the river is not the same as having a dock, deep-water access or any particular route to the inlet, and those vary by property. Second, "river-oriented" describes a setting, not a promise about any one home. If water is central to your plan, our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta) shows another way to enjoy the river, our [outdoors guide to Tequesta](/blog/best-things-to-do-in-tequesta-florida) covers the wider outdoors picture, and the [pros and cons of living in Tequesta](/blog/pros-and-cons-of-living-in-tequesta-florida) lays out the trade-offs.
 
 ![Small boats and a sailboat beside a wooden dock on calm water](/images/tequesta/marina-dock-illustration.webp "Editorial illustration of dock-and-boat life on the lower river. It is not a photograph of a specific Tequesta property."){1200x800}
 
@@ -28013,140 +28013,147 @@ Tequesta is a small place with real variety. The right part of it depends on you
       { q: "Are there condo options in Tequesta?", a: "Yes. The Village describes a mix of single-family neighborhoods and condominium communities, and the Beach Road corridor near the Intracoastal includes multifamily buildings. Confirm each building's jurisdiction and details individually." },
       { q: "What is the difference between Village Tequesta and a Tequesta mailing address?", a: "The incorporated Village of Tequesta is the actual municipality. A Tequesta mailing address or ZIP code can also cover homes that sit outside Village limits or in another jurisdiction, so confirm the municipality for the specific property." },
     ],
-    internalLinks: ["what-its-really-like-living-in-tequesta-florida","local-guide-to-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities"],
+    internalLinks: ["what-its-really-like-living-in-tequesta-florida","local-guide-to-tequesta-florida","best-things-to-do-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities"],
     author: 'john',
     published: true,
     updated: '2026-10-16',
   },
   {
-    slug: 'best-things-to-do-in-tequesta-florida',
+    slug: "best-things-to-do-in-tequesta-florida",
     citySlug: 'tequesta',
     cityName: 'Tequesta',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in Tequesta, Florida",
-    metaTitle: "Best Things to Do in Tequesta, FL (Mostly Free, Mostly Water)",
-    metaDescription: "Snorkel the limestone ledges off the sand at Coral Cove, paddle the Wild and Scenic Loxahatchee, then find the rest within ten minutes of the village.",
+    seoTitle: "Best Outdoor Things to Do in Tequesta, Florida | DYNA",
+    metaTitle: "Best Outdoor Things to Do in Tequesta, Florida | DYNA",
+    metaDescription: "A local outdoor guide to Tequesta, Florida—sunset paddleboarding, Coral Cove, the lower Loxahatchee, Riverbend, trails, and nearby wild Florida.",
     primaryKeyword: "things to do in Tequesta Florida",
-    secondaryKeywords: ["Tequesta attractions", "what to do in Tequesta", "Coral Cove Park", "Loxahatchee River"],
+    secondaryKeywords: ["Tequesta outdoors","Coral Cove Park","Riverbend Park","paddleboarding Tequesta","Loxahatchee River"],
     h1: "Best Things to Do in Tequesta, Florida",
-    body: `Tequesta's recreation is mostly water, mostly free, and mostly within ten minutes of the village. For somewhere this small it punches well above its size — largely because of what surrounds it.
+    heroImage: '/images/tequesta/tequesta-intracoastal-sunset-paddleboard-hero.webp',
+    heroImageAlt: "A paddleboarder at sunset along Tequesta’s Intracoastal edge",
+    heroImageCaption: "Sunset on the Intracoastal in Tequesta. This is the village’s own water, not the Wild & Scenic Northwest Fork upstream.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    inlineMagnet: false,
+    body: `*An outdoors-first local guide to sunset water, Coral Cove, river mornings, and the wild Florida just beyond the Village.*
 
-## Paddle the Loxahatchee River
+Tequesta is not a place that demands an itinerary. It is a place where an ordinary evening can mean a paddleboard at sunset, a bridge view, or water close enough to shape the day. The outdoors here are not packed into one attraction district. They are layered, and you choose the layer that fits the hour.
 
-The single best thing to do here, and the reason the village exists where it does.
+This guide is outdoors-first and deliberately honest about geography. Some of what follows is in Tequesta. Some is a short trip away, and we label it that way. Hours, fees, rentals, closures and conditions change, so every section points to the official source and none of it is a schedule.
 
-The Loxahatchee carries a federal **Wild and Scenic** designation, and the upper reaches genuinely look like pre-development Florida: cypress, live oak, dense overhang, and water that goes from brackish to fresh as you move upstream. It's one of very few rivers in the state that has been protected to this degree.
+## Tequesta's Outdoor Rhythm
 
-**How to do it:** launch a kayak or paddleboard from access points around the village and Jupiter, and go early. Mornings are calm, wildlife is active, and the boat traffic hasn't built. Manatees are common in the cooler months, and alligators are present in the fresher upper stretches — which is normal, and a reason to keep dogs out of the water up there.
+Think of Tequesta's outdoor life in four layers:
+- **Village water and shoreline life.** The Intracoastal Waterway and the lower Loxahatchee River are part of everyday scenery here, especially around sunset.
+- **Barrier-island beach time.** Coral Cove Park, out on Beach Road, gives you Atlantic beach and Intracoastal frontage in one County park.
+- **Nearby trails and wild Florida.** Riverbend Park, Juno Dunes, the Jupiter Inlet Lighthouse natural area and Jonathan Dickinson State Park sit just outside the Village.
+- **Small public spaces.** Village parks that are less about visiting and more about how people live.
 
-Paddling upstream toward the northwest fork gets progressively wilder and quieter. It's a genuinely different landscape from the coastal Florida five minutes away.
+![An orientation graphic titled Tequesta's Outdoor Radius, showing Tequesta Water Life along the Intracoastal and lower river, Coral Cove, Jupiter Inlet, Juno Dunes, Riverbend Park, Jonathan Dickinson State Park and the Wild and Scenic Northwest Fork](/images/tequesta/tequesta-outdoor-radius-orientation.webp "An orientation graphic, not a legal boundary map. Positions are simplified and not to scale. The green line is the Wild and Scenic Northwest Fork, which is upstream and is not Tequesta's lower river."){1200x800}
 
-## Snorkel Coral Cove Park
+## Sunset on the Intracoastal: Water Close to Home
 
-East on Jupiter Island, and one of the best easy snorkelling spots in the county.
+The light is the reason. Toward the end of the day the Intracoastal turns the color of the sky, the shoreline goes dark against it, and anything on the water becomes a silhouette. A paddleboarder out on flat water at that hour is about as Tequesta as a photograph gets.
 
-What makes it work is the limestone outcropping running along the shoreline — the same Anastasia formation that produces the dramatic rock at Blowing Rocks further north. Here it sits in shallow water close in, creating pools, ledges and structure that hold fish without requiring a boat or a long swim.
+What makes it work is scale. Water is part of daily life here, but it does not make the Village feel like a resort. You see it from a dock, a bridge or a street that ends at the shore, and you can be on it without planning a trip. That is a different feeling from living in a place where the water is a destination.
 
-**Conditions matter enormously.** On a calm day it's clear and easy; on a day with any swell it's murky and the rocks become a hazard. Check the forecast, go at the right tide, and wear something on your feet.
+![A paddleboarder silhouetted against a golden sunset on the Intracoastal in Tequesta](/images/tequesta/tequesta-intracoastal-sunset-paddleboard-close.webp "A paddleboarder at sunset on the Intracoastal near Tequesta. Photo: John Oliver."){1200x800}
 
-There's also beach, a playground, picnic areas and parking, which makes it a straightforward outing rather than an expedition.
+If you want to get on the water yourself, our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta) is the place to start. Paddlers should check current local conditions and rules before launching. We leave routes, clearances and boating safety to the official sources.
 
-## The village parks
+This is Tequesta's own water: the Intracoastal and the lower Loxahatchee River. It is **not** the federally designated Wild & Scenic reach, which is upstream. More on that below.
 
-Small, well maintained and mostly used by residents:
+## Coral Cove Park: Beach, Rock and Snorkeling
 
-- **Constitution Park** for open space, courts and community events.
-- **Tequesta Park** with fields and trails.
-- **Bert Winters Park** for waterfront access on the Intracoastal side and a launch point for paddling.
+Coral Cove Park is a Palm Beach County park on Beach Road in Tequesta, and it is the Village's beach day. The County lists parking, beach frontage, Intracoastal frontage, picnic areas, a playground, restrooms and showers. It is also listed by the County as a snorkeling location, and visitors describe rock formations just offshore as the draw.
 
-None is a destination. All of them are useful, and together they're a large part of why the village feels liveable at its size.
+The setting is what makes it distinctive: Atlantic beach on one side and Intracoastal frontage on the other, on the same barrier-island strip. That combination makes it a practical beach day rather than an all-day expedition. You can arrive, walk the sand, swim or snorkel if conditions allow, and be done without a plan.
 
-## The county-line advantage for days out
+![Surf breaking over rock outcrops along the sand at Coral Cove Park](/images/tequesta/coral-cove-rocks-surf.webp "Rock outcrops along the sand and surf at Coral Cove Park on a day with surf. Photo: John Oliver. Conditions change, so check the official beach conditions before you go."){1120x630}
 
-A quiet benefit of sitting where the village sits: you have easy access to two counties' worth of outdoor recreation.
+### Before You Go
+- Check the [official County beach conditions page](https://discover.pbc.gov/parks/Aquatics/Beach-Conditions.aspx) before you leave, and again when you arrive.
+- Follow lifeguard guidance and beach flags.
+- Respect wildlife and the shoreline.
 
-South and west, Palm Beach County's parks, natural areas and beaches. North, Martin County's state parks, preserves and quieter shoreline. Both are within a short drive, and they are managed by different agencies with different fee structures, hours and character.
+Details and current amenities are on the County's [Coral Cove Park page](https://discover.pbc.gov/parks/Locations/Coral-Cove.aspx), and the County's [snorkeling page](https://discover.pbc.gov/parks/Amenities/Snorkeling.aspx) lists snorkeling locations.
 
-Residents who work this out early get considerably more variety than either county alone would offer.
+## The Real Wild & Scenic Day: Riverbend and the Northwest Fork
 
-## Golf
+If you want wild Florida, this is the day to plan. And it is worth getting the geography exactly right.
 
-**Tequesta Country Club** anchors the village's golf, and the surrounding area — Jupiter, Palm Beach Gardens and Hobe Sound — holds one of the densest concentrations of courses in Florida.
+The federally designated Wild & Scenic reach of the Loxahatchee River is the **Northwest Fork**, upstream from the lower river. Riverbend Park is where that experience begins. U.S. Fish & Wildlife Service describes the [Loxahatchee as a Wild & Scenic River](https://www.fws.gov/rivers/river/loxahatchee), and Palm Beach County's [Riverbend Park page](https://discover.pbc.gov/parks/pages/riverbend.aspx) describes the park, which is in Jupiter.
 
-For anyone whose week is organized around a round, the supply within a short drive is substantial.
+Per the County, Riverbend offers:
+- Paddling on the river
+- Hiking and biking trails
+- Equestrian trails
+- Cypress, wetlands and an Old Florida landscape
 
-## Fishing and boating
+This is a different world from the Intracoastal at sunset: a cypress canopy, slower water and a wilder feel. Rentals, launch availability, trail conditions and water levels change, so confirm current operator information with the County before you go.
 
-Access to the river system and out through the **Jupiter Inlet** puts you into the Atlantic reasonably quickly, and the Gulf Stream runs close inshore along this stretch.
+## The Outdoor Radius Around Tequesta
 
-Inshore, the river and Intracoastal fish well. Offshore is a short run once you're through the inlet. Charters operate out of Jupiter for anyone without a boat.
+These three places are nearby, not inside Tequesta. All three are worth the short trip, and all three have official pages that will tell you what is open today.
 
-## Jupiter, minutes south
+### Juno Dunes Natural Area
+A County natural area of scrub, dunes and trails, running from the ocean side to the Intracoastal. The County describes an oceanfront tract and a west tract with observation views, and the west tract has Intracoastal access. [County page](https://discover.pbc.gov/erm/naturalareas/juno-dunes.aspx)
 
-The village treats Jupiter as an extension of itself, and for recreation that's where a good deal happens:
+### Jupiter Inlet Lighthouse Outstanding Natural Area
+A federally designated natural area where the Indian River Lagoon meets the Loxahatchee River, with trails, native habitat and the lighthouse as context. Parts of the area may be closed, so check before you go. [Official page](https://www.jupiterlighthouse.org/explore/outstanding-natural-area/)
 
-- **The Jupiter Inlet Lighthouse**, which you can climb, with a small museum and genuinely good views.
-- **The beaches**, including the well-known dog-friendly stretch.
-- **The Riverwalk** along the Loxahatchee, with waterfront dining.
-- **Roger Dean Chevrolet Stadium** for spring training and minor league baseball.
+![The Jupiter Inlet Lighthouse on its point at dusk, seen across the water past dock pilings](/images/jupiter/jupiter-lighthouse-dock-dusk.webp "The Jupiter Inlet Lighthouse at dusk, in Jupiter. Photo: John Oliver."){1400x1050}
 
-## A little further
+### Jonathan Dickinson State Park
+Larger-scale hiking, paddling, biking, scrub and river exploration. Concessions such as rentals and tours have been reported unavailable, so confirm current services with the park. [State park page](https://www.floridastateparks.org/parks-and-trails/jonathan-dickinson-state-park)
 
-- **Blowing Rocks Preserve**, north on Jupiter Island, where winter swell forces water through limestone in plumes.
-- **Jonathan Dickinson State Park**, north in Martin County, for serious hiking, camping, paddling and the best remaining scrub habitat in the region.
-- **Riverbend Park**, west, with extensive trails and its own paddling on the upper river.
+Bert Winters Park is also nearby, but it is a Juno Beach launch, not a Tequesta park. We mention it here so it is not mistaken for one.
 
-## Cycling and running the village
+## The Village's Smaller Outdoor Rhythm
 
-Underrated and one of the practical benefits of low density.
+These are not tourist attractions. They are what make Tequesta feel lived in: public spaces that people use on an ordinary day.
 
-The village's residential streets are quiet, shaded and largely free of through traffic, which makes them genuinely pleasant for running, cycling or walking a dog — a rarity in a part of Florida where most neighborhoods are ringed by arterials.
+- **Constitution Park.** The Village's main park for community events. The Village's calendar has listed events there, and the park has a playground and pavilions.
+- **Remembrance Park.** A small passive park, roughly an acre and three-quarters, with shade pavilions, a butterfly garden and interpretive markers.
 
-Longer rides head north on the coastal road toward Hobe Sound, where the traffic thins further and the scenery improves, or west toward the trail networks around the upper river.
+For current programs, events and park details, use the Village's [Parks and Recreation page](https://www.tequesta.org/102/Parks-and-Recreation), its [community calendar](https://www.tequesta.org/198/Community-Calendar) and its [Remembrance Park page](https://tequesta.org/1536/Remembrance-Park).
 
-Early morning, as with everything here, is the window.
+## Three Ways to Spend a Day Outside
 
-## Tennis, pickleball and the club sports
+**Sunset Water Day.** Paddleboarding on the Intracoastal, a look at the water from the Village side, and a low-key evening. Start with our [kayak launch guide](/kayak-launches-jupiter-tequesta). For a bite afterward, see [where to eat and drink in Tequesta](/blog/best-places-to-eat-drink-hang-out-in-tequesta-florida).
 
-Beyond golf, the country club and the village's park facilities support the racquet sports that do a good deal of the area's social work.
+**Beach and Limestone Morning.** Coral Cove Park, a beach walk and, if conditions suit, some snorkeling, then a simple stop at a Village park or nearby natural area.
 
-Pickleball in particular has taken hold across this corner of the county, and it's one of the easier ways into a community if you're new and don't play golf. The barrier to entry is minimal and the regulars are generally welcoming.
+**Wild Florida Day.** Riverbend Park or Jonathan Dickinson State Park for trails, paddling and a bigger nature experience. Plan around the weather and current operator information.
 
-## Seasonal timing
+We do not promise drive times, parking, water conditions, hours or business availability for any of these. Check the official pages first.
 
-**Winter into spring** brings the best air temperatures, the calmest ocean days for snorkelling, and the biggest crowds — modest by county standards.
+## Seasonal Rhythm
 
-**Summer** is hot and stormy by afternoon. Get on the water early; the paddling is excellent and the river is at its most sheltered.
+- **Cooler months:** beach walks, trails, outdoor events and comfortable mornings.
+- **Warmer months:** start early, plan around weather, and prioritize water.
+- **Year-round:** check official conditions, closures and safety guidance before heading out.
 
-**Manatee season**, roughly the cooler months, brings animals into the river and warrants extra care with speed zones and paddling distance.
+## The Bottom Line
 
-## Community events
+Tequesta's best outdoor life is not one headline attraction. It is the ability to choose between sunset water, a beach-and-limestone morning, a small Village park, and real wild Florida without losing the Village rhythm.
 
-Small, frequent, and the main thing that makes a village of this size feel like a community rather than a subdivision.
+If you are wondering what that looks like day to day, start with [what it is really like to live in Tequesta](/blog/what-its-really-like-living-in-tequesta-florida), the [local guide to Tequesta](/blog/local-guide-to-tequesta-florida) and our look at [hidden gems in Tequesta](/blog/hidden-gems-in-tequesta-florida).
 
-The village runs a steady program through the cooler months centred on its parks — markets, concerts, holiday events, and the sort of gathering where turning up twice makes you a familiar face. None of it is a destination, which is precisely the point.
-
-Check the village's own calendar rather than regional listings sites, which largely ignore communities this small.
-
-## Where to start
-
-Paddle the river at sunrise, then snorkel Coral Cove on the first calm day.
-
-Those two are what this village is actually for, and neither costs much. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-tequesta-florida) are where it starts to feel like home.`,
+> **Thinking about Tequesta?** [See the Tequesta community guide and homes](/communities/tequesta), or talk with our team about which part of the village fits your routine.`,
     faqs: [
-      { q: "What is the best thing to do in Tequesta?", a: "Paddle the Loxahatchee River at sunrise. It carries a federal Wild and Scenic designation and the upper reaches genuinely look like pre-development Florida — cypress, live oak, dense overhang, and water turning from brackish to fresh as you go upstream. Mornings are calm, wildlife is active and boat traffic has not built." },
-      { q: "Is Coral Cove Park good for snorkelling?", a: "One of the best easy spots in the county, thanks to a limestone outcropping in shallow water close to shore that creates pools, ledges and structure holding fish. Conditions matter enormously — clear and easy on a calm day, murky and hazardous with any swell. Check the forecast, go at the right tide and wear something on your feet." },
-      { q: "Can you see manatees in Tequesta?", a: "Commonly, in the cooler months, when they move into the Loxahatchee River system. That is also when extra care with speed zones and paddling distance matters most. Alligators are present in the fresher upper stretches of the river, which is normal and a good reason to keep dogs out of the water up there." },
-      { q: "What parks does Tequesta have?", a: "Constitution Park for open space, courts and community events; Tequesta Park with fields and trails; and Bert Winters Park for Intracoastal waterfront access and a paddling launch. None is a destination, all are useful, and together they are a large part of why the village feels liveable at its size." },
-      { q: "Can you get to the ocean by boat from Tequesta?", a: "Yes, out through the Jupiter Inlet, which puts you into the Atlantic reasonably quickly, with the Gulf Stream running close inshore along this stretch. Inshore, the river and Intracoastal fish well. Charters operate out of Jupiter for anyone without their own boat." },
-      { q: "What is there to do near Tequesta?", a: "Jupiter is minutes south with the inlet lighthouse, beaches, the Riverwalk and Roger Dean Stadium. Further out, Blowing Rocks Preserve north on Jupiter Island, Jonathan Dickinson State Park in Martin County for hiking and camping, and Riverbend Park to the west with trails and upper-river paddling." },
+      { q: "What are the best outdoor things to do in Tequesta?", a: "Tequesta’s outdoors are layered: sunset paddling and shoreline life on the Intracoastal, Coral Cove Park on Beach Road, small Village parks such as Constitution Park and Remembrance Park, and nearby wild Florida at Riverbend Park, Juno Dunes, the Jupiter Inlet Lighthouse natural area and Jonathan Dickinson State Park. Check each official source for current hours and conditions." },
+      { q: "Is Coral Cove Park good for snorkeling?", a: "Palm Beach County lists Coral Cove Park as a snorkeling location, and visitors describe rock formations just offshore. Conditions vary, so check the County’s official beach conditions, follow lifeguard guidance and beach flags, and respect wildlife and the shoreline." },
+      { q: "Where can I paddle near Tequesta?", a: "For calm-water paddling on the Intracoastal and lower river, see our guide to kayak launches around Jupiter and Tequesta. For the wilder Wild & Scenic Northwest Fork, Riverbend Park is where that experience begins. Confirm current launch availability and rental information with the operator before you go." },
+      { q: "Is the Loxahatchee River in Tequesta Wild & Scenic?", a: "The federally designated Wild & Scenic reach is the Northwest Fork upstream, around Riverbend Park and Jonathan Dickinson State Park. Tequesta’s own water is the lower Loxahatchee River and the Intracoastal, which are not part of that designated reach." },
+      { q: "What parks and trails are near Tequesta?", a: "Nearby options include Riverbend Park, Juno Dunes Natural Area, the Jupiter Inlet Lighthouse Outstanding Natural Area and Jonathan Dickinson State Park. They are outside the Village, and each has an official page with current access and closures." },
     ],
-    internalLinks: ["hidden-gems-in-tequesta-florida", "best-places-to-eat-drink-hang-out-in-tequesta-florida", "local-guide-to-tequesta-florida"],
-    funFact: "Coral Cove Park sits at the northern edge of Jupiter Island, where a natural limestone reef runs parallel to the beach just offshore. It's only accessible on foot or by bike — no large parking lot — which keeps the crowds low even in peak season. Locals who know about it guard the secret carefully.",
-    author: 'christine',
+    internalLinks: ["what-its-really-like-living-in-tequesta-florida","local-guide-to-tequesta-florida","hidden-gems-in-tequesta-florida","best-places-to-eat-drink-hang-out-in-tequesta-florida"],
+    author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'who-should-move-to-tequesta-florida',
