@@ -34,12 +34,30 @@ const inputCls =
   'w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-500 transition focus:border-report-gold-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-report-gold-dark'
 const labelCls = 'mb-1.5 block text-xs font-medium text-slate-600'
 
+export interface ContactFormProps {
+  /** Where the form lives — recorded in the CRM note and the analytics events. */
+  ctaPlacement?: 'contact-page' | 'community-inline'
+  /** Page the visitor is asking about (a community name); recorded in the CRM. */
+  pageName?: string
+  /** Prefix that keeps element ids unique when the form is on a page that has another one. */
+  idPrefix?: string
+  messagePlaceholder?: string
+  className?: string
+}
+
 /**
- * General "send us a message" form for /contact. Name and email are the only
- * required fields — same soft ask as the lead-magnet form. Posts to
- * /api/contact-requests, which sends it to Follow Up Boss.
+ * Short "send us a message" form. Name and email are the only required fields —
+ * the same soft ask as the lead-magnet form. Used on /contact and, with
+ * `ctaPlacement="community-inline"`, near the top of every community page.
+ * Posts to /api/contact-requests, which sends it to Follow Up Boss.
  */
-export default function ContactForm() {
+export default function ContactForm({
+  ctaPlacement = 'contact-page',
+  pageName,
+  idPrefix = 'contact',
+  messagePlaceholder = 'The area or building you are looking at, your timing, or a question.',
+  className = '',
+}: ContactFormProps) {
   const [values, setValues] = useState<FormValues>(EMPTY)
   const [phoneConsent, setPhoneConsent] = useState(false)
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({})
@@ -47,7 +65,12 @@ export default function ContactForm() {
   const startedRef = useRef(false)
   const submittingRef = useRef(false)
 
-  const analyticsParams = { form_type: 'contact', cta_location: 'contact-page' }
+  const analyticsParams = {
+    form_type: 'contact',
+    cta_location: ctaPlacement,
+    page_name: pageName,
+  }
+  const id = (field: string) => `${idPrefix}-${field}`
 
   const update = (field: keyof FormValues, value: string) =>
     setValues((prev) => ({ ...prev, [field]: value }))
@@ -64,7 +87,7 @@ export default function ContactForm() {
     setErrors(nextErrors)
     const firstError = Object.keys(nextErrors)[0]
     if (firstError) {
-      document.getElementById(`contact-${firstError}`)?.focus()
+      document.getElementById(id(firstError))?.focus()
       return
     }
     if (submittingRef.current) return
@@ -83,6 +106,8 @@ export default function ContactForm() {
           phone: values.phone.trim(),
           message: values.message.trim(),
           honeypot: values.honeypot,
+          ctaPlacement,
+          pageName,
           sourcePageUrl: window.location.href,
           submittedAt: new Date().toISOString(),
           utmSource,
@@ -112,7 +137,7 @@ export default function ContactForm() {
 
   if (status === 'success') {
     return (
-      <div role="status" aria-live="polite" className="py-4 text-center">
+      <div role="status" aria-live="polite" className={`py-4 text-center ${className}`}>
         <h3 className="font-serif text-xl font-semibold text-slate-900">
           Thanks, {values.name.trim().split(/\s+/)[0]}. We have your message.
         </h3>
@@ -124,15 +149,15 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-4">
+    <form onSubmit={handleSubmit} noValidate className={`space-y-4 ${className}`}>
       {/* Honeypot — hidden from sighted users, left open for bots */}
       <div
         aria-hidden="true"
         style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, overflow: 'hidden' }}
       >
-        <label htmlFor="contact-company">Company</label>
+        <label htmlFor={id('company')}>Company</label>
         <input
-          id="contact-company"
+          id={id('company')}
           name="company"
           type="text"
           tabIndex={-1}
@@ -143,11 +168,11 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="contact-name" className={labelCls}>
+        <label htmlFor={id('name')} className={labelCls}>
           Name *
         </label>
         <input
-          id="contact-name"
+          id={id('name')}
           name="name"
           type="text"
           required
@@ -156,22 +181,22 @@ export default function ContactForm() {
           onFocus={handleFocus}
           onChange={(e) => update('name', e.target.value)}
           aria-invalid={!!errors.name}
-          aria-describedby={errors.name ? 'contact-name-error' : undefined}
+          aria-describedby={errors.name ? id('name-error') : undefined}
           className={inputCls}
         />
         {errors.name && (
-          <p id="contact-name-error" role="alert" className="mt-1 text-xs text-red-600">
+          <p id={id('name-error')} role="alert" className="mt-1 text-xs text-red-600">
             {errors.name}
           </p>
         )}
       </div>
 
       <div>
-        <label htmlFor="contact-email" className={labelCls}>
+        <label htmlFor={id('email')} className={labelCls}>
           Email Address *
         </label>
         <input
-          id="contact-email"
+          id={id('email')}
           name="email"
           type="email"
           required
@@ -180,23 +205,23 @@ export default function ContactForm() {
           onFocus={handleFocus}
           onChange={(e) => update('email', e.target.value)}
           aria-invalid={!!errors.email}
-          aria-describedby={errors.email ? 'contact-email-error' : undefined}
+          aria-describedby={errors.email ? id('email-error') : undefined}
           className={inputCls}
           placeholder="you@example.com"
         />
         {errors.email && (
-          <p id="contact-email-error" role="alert" className="mt-1 text-xs text-red-600">
+          <p id={id('email-error')} role="alert" className="mt-1 text-xs text-red-600">
             {errors.email}
           </p>
         )}
       </div>
 
       <div>
-        <label htmlFor="contact-phone" className={labelCls}>
+        <label htmlFor={id('phone')} className={labelCls}>
           Phone Number <span className="text-slate-500">(Optional)</span>
         </label>
         <input
-          id="contact-phone"
+          id={id('phone')}
           name="phone"
           type="tel"
           autoComplete="tel"
@@ -204,31 +229,31 @@ export default function ContactForm() {
           onFocus={handleFocus}
           onChange={(e) => update('phone', e.target.value)}
           aria-invalid={!!errors.phone}
-          aria-describedby={errors.phone ? 'contact-phone-error' : undefined}
+          aria-describedby={errors.phone ? id('phone-error') : undefined}
           className={inputCls}
           placeholder="(561) 555-0100"
         />
         {errors.phone && (
-          <p id="contact-phone-error" role="alert" className="mt-1 text-xs text-red-600">
+          <p id={id('phone-error')} role="alert" className="mt-1 text-xs text-red-600">
             {errors.phone}
           </p>
         )}
       </div>
 
       <div>
-        <label htmlFor="contact-message" className={labelCls}>
+        <label htmlFor={id('message')} className={labelCls}>
           How can we help? <span className="text-slate-500">(Optional)</span>
         </label>
         <textarea
-          id="contact-message"
+          id={id('message')}
           name="message"
-          rows={4}
+          rows={3}
           maxLength={2000}
           value={values.message}
           onFocus={handleFocus}
           onChange={(e) => update('message', e.target.value)}
           className={inputCls}
-          placeholder="The area or building you are looking at, your timing, or a question."
+          placeholder={messagePlaceholder}
         />
       </div>
 
