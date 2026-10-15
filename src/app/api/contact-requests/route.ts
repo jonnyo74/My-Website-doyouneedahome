@@ -5,6 +5,8 @@ import {
   isValidEmail,
   isValidMessage,
   isValidName,
+  isValidPageName,
+  isValidPlacement,
   isValidOptionalPhone,
   splitName,
   type ContactRequestSubmission,
@@ -31,6 +33,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
   }
   if (!isValidOptionalPhone(phone) || !isValidMessage(body.message)) {
+    return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
+  }
+  if (!isValidPlacement(body.ctaPlacement) || !isValidPageName(body.pageName)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
   }
 

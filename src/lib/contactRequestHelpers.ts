@@ -12,12 +12,26 @@ export { isValidEmail, isValidName, splitName }
 
 export const MAX_MESSAGE_LENGTH = 2000
 
+export const CONTACT_PLACEMENTS = ['contact-page', 'community-inline'] as const
+
+export function isValidPlacement(p: string | undefined): boolean {
+  return p === undefined || (CONTACT_PLACEMENTS as readonly string[]).includes(p)
+}
+
+export function isValidPageName(name: string | undefined): boolean {
+  return name === undefined || (typeof name === 'string' && name.length <= 100)
+}
+
 export interface ContactRequestSubmission {
   name?: string
   email?: string
   phone?: string
   message?: string
   honeypot?: string
+  /** Where the form lives. Only the values in CONTACT_PLACEMENTS are honored. */
+  ctaPlacement?: string
+  /** Community the visitor was reading when they asked. */
+  pageName?: string
   /** Full URL of /contact at submit time — carries `?from=<magnet key>` when the
    *  visitor arrived from a lead-magnet "next step" link. */
   sourcePageUrl?: string
@@ -64,7 +78,7 @@ export function buildContactTags(sub: ContactRequestSubmission): string[] {
   const magnet = magnetFromSourceUrl(sub.sourcePageUrl)
   const tags = [
     'Website Inquiry',
-    'Contact Form',
+    sub.ctaPlacement === 'community-inline' ? 'Community Inquiry' : 'Contact Form',
     // A plain label, not the magnet's own crmTag: that tag is what FUB
     // automations key on for a fresh download, and this person is past that.
     magnet ? `Came From: ${magnet.shortTitle}` : null,
@@ -77,7 +91,10 @@ export function buildContactTags(sub: ContactRequestSubmission): string[] {
 export function buildContactNote(sub: ContactRequestSubmission): string {
   const magnet = magnetFromSourceUrl(sub.sourcePageUrl)
   const lines = [
-    'Sent a message through the contact form on doyouneedahome.com.',
+    sub.ctaPlacement === 'community-inline' && sub.pageName
+      ? `Asked a question from the ${sub.pageName} community page on doyouneedahome.com.`
+      : 'Sent a message through the contact form on doyouneedahome.com.',
+    sub.ctaPlacement ? `CTA placement: ${sub.ctaPlacement}.` : null,
     magnet ? `Arrived from the "${magnet.title}" download's next-step link.` : null,
     sub.message?.trim() ? `Message: ${sub.message.trim()}` : 'No message was included.',
     // Said here because the record names no agent. Never say "call" when the

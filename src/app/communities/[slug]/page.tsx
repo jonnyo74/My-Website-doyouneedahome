@@ -20,6 +20,7 @@ import CommunityVideo from '@/components/CommunityVideo'
 import { getYlopoCitySearch, ylopoLocationParams } from '@/lib/ylopoAliases'
 import GreatSchoolsCard, { greatSchoolsCity } from '@/components/GreatSchoolsCard'
 import PaddleCommunityLink from '@/components/paddle/PaddleCommunityLink'
+import ContactForm from '@/components/ContactForm'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { communityGuides } from '@/components/communityGuide'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
@@ -375,6 +376,36 @@ export default async function CommunityPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* ── Ask about this community ───────────────────────────────── */}
+      {/* A plain way to ask a question without choosing a download. Sits right
+          after the hero so a phone visitor meets it before the long page. */}
+      <section className="px-6 pt-10 sm:px-8" aria-labelledby="community-inquiry-heading">
+        <div className="mx-auto grid max-w-7xl gap-8 rounded-3xl border border-slate-200 bg-white p-7 shadow-card sm:p-9 lg:grid-cols-[1fr_minmax(0,28rem)] lg:items-start">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-gold-600">
+              Ask Us
+            </p>
+            <h2
+              id="community-inquiry-heading"
+              className="mt-2 font-serif text-2xl font-semibold text-slate-900 sm:text-3xl"
+            >
+              Questions About {community.name}?
+            </h2>
+            <p className="mt-3 text-sm leading-7 text-slate-600 sm:text-base">
+              Tell us what you are weighing and we will reply, usually the same day: recent sales,
+              what is for sale now, HOA and club details, or whether {community.name} fits at all.
+              No account, no obligation.
+            </p>
+          </div>
+          <ContactForm
+            ctaPlacement="community-inline"
+            pageName={community.name}
+            idPrefix="community-inquiry"
+            messagePlaceholder={`What would you like to know about ${community.name}?`}
+          />
+        </div>
+      </section>
 
       {/* ── Live Listings ─────────────────────────────────────────── */}
       <section className="px-6 pt-14 pb-2 sm:px-8">
