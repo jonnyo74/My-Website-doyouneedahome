@@ -7,13 +7,8 @@
 //
 //   node scripts/generate-report-covers.mjs
 //
-// The two Palm Beach County market-report PDFs are NOT produced here — those
-// are prepared monthly from MLS data and dropped into private/reports/ by hand.
-//
-// The Treasure Coast report IS generated here, but only once every statistic in
-// src/content/treasure-coast-market.json is filled from a real MLS snapshot —
-// the guard below refuses to write a PDF containing nulls, so it doubles as the
-// completeness check when a new month's figures are entered.
+// The county market-report PDFs are NOT produced here — they are built by the
+// kit in scripts/pbc-county-report/.
 
 import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
@@ -34,11 +29,6 @@ const relocation = JSON.parse(
 const condo = JSON.parse(
   await import('node:fs/promises').then((fs) =>
     fs.readFile('src/content/condo-due-diligence.json', 'utf8'),
-  ),
-)
-const treasureCoast = JSON.parse(
-  await import('node:fs/promises').then((fs) =>
-    fs.readFile('src/content/treasure-coast-market.json', 'utf8'),
   ),
 )
 
@@ -290,142 +280,6 @@ function buildCondoChecklist() {
   return doc
 }
 
-// ── 3. Treasure Coast Market Report (blocked until data exists) ──────────────
-
-function buildTreasureCoastReport() {
-  const missing = []
-  for (const county of treasureCoast.counties) {
-    for (const type of county.propertyTypes) {
-      for (const metric of type.metrics) {
-        if (metric.value === null) missing.push(`${county.name} / ${type.label} / ${metric.label}`)
-      }
-    }
-  }
-  if (treasureCoast.dataStatus === 'awaiting-data' || missing.length) {
-    console.log(
-      `\nSKIPPED  Treasure Coast Real Estate Market Report\n` +
-        `         ${missing.length} statistic${missing.length === 1 ? '' : 's'} still unfilled in ` +
-        `src/content/treasure-coast-market.json.\n` +
-        `         Nothing is generated until every value is a verified figure - see the\n` +
-        `         "requiredData" checklist in that file.`,
-    )
-    return null
-  }
-
-  const edition = treasureCoast.edition
-  const dataMonth = treasureCoast.dataMonth
-  const attribution = `${dataMonth} Martin County and St. Lucie County market data (${treasureCoast.source}).`
-
-  const doc = new PdfDoc({
-    title: `Treasure Coast Real Estate Market Report - ${edition}`,
-    author: AUTHOR,
-    subject: 'Martin County and St. Lucie County residential market report',
-    runningHeader: `Treasure Coast Real Estate Market Report | ${edition} | Martin & St. Lucie Counties`,
-  })
-
-  const headline = (countyKey, typeKey, metricKey) =>
-    treasureCoast.counties
-      .find((c) => c.key === countyKey)
-      .propertyTypes.find((t) => t.key === typeKey)
-      .metrics.find((m) => m.key === metricKey)
-
-  doc.cover({
-    eyebrow: `${edition} Edition | Martin & St. Lucie Counties`,
-    title: 'Treasure Coast Real Estate Market Report',
-    subtitle:
-      'Stuart, Palm City, Hobe Sound, Port Salerno and Port St. Lucie sit in a different county ' +
-      'and a different market from Palm Beach County. This report covers them on their own terms.',
-    statLines: [
-      `Martin County single family median ${headline('martin', 'single-family', 'medianSalePrice').value}`,
-      `St. Lucie County single family median ${headline('st-lucie', 'single-family', 'medianSalePrice').value}`,
-      `${dataMonth} data, both counties, single family and condo`,
-    ],
-    byline: 'Christine Dekant & John Oliver, REALTORS(R)',
-    footnote: BRAND_FOOTNOTE,
-  })
-
-  doc.newPage()
-  doc.eyebrow('How to read this report')
-  doc.heading('Two Counties, Reported Separately')
-  doc.paragraph(
-    'Every figure in this report is ' +
-      attribution +
-      ' Each county gets its own section, and within it single family homes and ' +
-      'townhouses/condos are reported separately, because they are not moving together this ' +
-      'month. Year-over-year percentages compare against the same month in 2025.',
-  )
-  doc.paragraph(
-    'A balanced market is roughly 5.5 months of supply. Below that, conditions favour sellers; ' +
-      'above it, buyers. That single number is the fastest read on any of the four segments here.',
-  )
-  doc.panel(
-    [
-      'Condo and townhouse medians in both counties rest on small samples this month - 77 ' +
-        'closings in Martin County and 82 in St. Lucie. Which buildings and price tiers happen ' +
-        'to trade can move a median on its own at that volume, so read those medians alongside ' +
-        'inventory, months of supply and percent of original list price received rather than as ' +
-        'a standalone signal of value.',
-    ],
-    { title: 'A note on the condo numbers' },
-  )
-
-  for (const county of treasureCoast.counties) {
-    doc.newPage()
-    doc.eyebrow(`${dataMonth} data`)
-    doc.heading(county.name, { size: 26 })
-    doc.paragraph(`Includes ${county.cities.join(', ')}.`)
-    doc.rule()
-    for (const type of county.propertyTypes) {
-      doc.ensure(150)
-      doc.subheading(type.label)
-      for (const metric of type.metrics) {
-        doc.labelledRow(
-          metric.label,
-          metric.yearOverYear
-            ? `${metric.value}   (${metric.yearOverYear} year over year)`
-            : `${metric.value}`,
-        )
-      }
-      doc.spacer(10)
-    }
-  }
-
-  for (const slot of treasureCoast.narrativeSlots) {
-    if (!slot.value) continue
-    doc.ensure(190)
-    doc.spacer(4)
-    doc.heading(slot.label, { size: 17, gap: 8 })
-    doc.paragraph(slot.value)
-  }
-
-  doc.newPage()
-  doc.eyebrow('Next step')
-  doc.heading('The Numbers Are the Starting Point')
-  doc.paragraph(
-    'A county median tells you where the market is. It does not tell you what your street, your ' +
-      'building or your price band is doing, and on the Treasure Coast those diverge more than ' +
-      'the county figures suggest. Send us the town and the property type you are focused on and ' +
-      'we will send back the comparable sales that actually apply to you.',
-  )
-  doc.panel(
-    [
-      'Christine Dekant & John Oliver, REALTORS(R)',
-      'DO Homes Group at Premier Brokers International',
-      '(561) 783-7733 | info@doyouneedahome.com | doyouneedahome.com',
-    ],
-    { title: 'Talk to us' },
-  )
-  doc.paragraph(
-    'Statistics in this report are ' +
-      attribution +
-      ' Market data describes past closings and is not a prediction or an appraisal of any ' +
-      'specific property. Equal Housing Opportunity.',
-    { size: 8, color: COLORS.slateLight },
-  )
-
-  return doc
-}
-
 // ── Write everything ─────────────────────────────────────────────────────────
 
 const builds = [
@@ -436,10 +290,6 @@ const builds = [
   {
     fileName: 'florida-condo-buyers-due-diligence-checklist-2026.pdf',
     build: buildCondoChecklist,
-  },
-  {
-    fileName: 'treasure-coast-real-estate-market-report.pdf',
-    build: buildTreasureCoastReport,
   },
 ]
 

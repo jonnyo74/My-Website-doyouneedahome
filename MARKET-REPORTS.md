@@ -1,26 +1,41 @@
 # Lead-Magnet System
 
-Every downloadable offer on the site — the two monthly Palm Beach County market
-reports and the evergreen guides — runs through one system. A visitor clicks any
-CTA, fills a short form (first name, email, optional phone, buying/selling
-interest), the lead goes to Follow Up Boss, and the PDF downloads immediately in
-the same browser session. Area and timeline are asked afterwards, as an optional
-second step, so the initial form stays short.
+Every downloadable offer on the site — the three county market reports and the
+two evergreen guides — runs through one system. A visitor clicks any CTA, fills
+a short form (first name, email, optional phone, buying/selling interest), the
+lead goes to Follow Up Boss, and the PDF downloads immediately in the same
+browser session. Area and timeline are asked afterwards, as an optional second
+step, so the initial form stays short.
 
 ## The magnets
 
 | Key | Title | Route | Kind | Published |
 | --- | --- | --- | --- | --- |
-| `single-family` | Palm Beach County Single Family Home Market Report | `/palm-beach-county-single-family-home-market-report` | monthly report | yes |
-| `condo-townhome` | Palm Beach County Condo & Townhome Market Report | `/palm-beach-county-condo-townhome-market-report` | monthly report | yes |
+| `palm-beach-county-market-report` | Palm Beach County Market Report | `/palm-beach-county-market-report` | county report | yes |
+| `martin-county-market-report` | Martin County Market Report | `/martin-county-market-report` | county report | yes |
+| `st-lucie-county-market-report` | St. Lucie County Market Report | `/st-lucie-county-market-report` | county report | yes |
 | `relocation-decision-guide` | Palm Beach County vs. the Treasure Coast: 2026 Relocation Decision Guide | `/palm-beach-county-treasure-coast-relocation-guide` | evergreen guide | yes |
 | `condo-due-diligence` | Florida Condo Buyer's Due-Diligence and Red-Flag Checklist | `/florida-condo-buyers-due-diligence-checklist` | evergreen guide | yes |
-| `treasure-coast-market-report` | Treasure Coast Real Estate Market Report | `/treasure-coast-real-estate-market-report` | monthly report | yes |
 
 `published: false` takes a magnet completely out of circulation: never routed
 onto a page, absent from the sitemap, landing page 404s in production (it still
 renders in `next dev` so the flow can be tested), download route 404s, and
 `/api/leads` rejects submissions naming it.
+
+### Retired (September 2026)
+
+The three July-data reports were removed outright — registry entries, landing
+pages, PDFs, covers, content files and generators — when the August county
+reports replaced them. Their URLs 301-redirect in `next.config.ts`:
+
+| Old route | Redirects to |
+| --- | --- |
+| `/palm-beach-county-single-family-home-market-report` | `/palm-beach-county-market-report` |
+| `/palm-beach-county-condo-townhome-market-report` | `/palm-beach-county-market-report` |
+| `/treasure-coast-real-estate-market-report` | `/martin-county-market-report` |
+
+Their keys (`single-family`, `condo-townhome`, `treasure-coast-market-report`)
+no longer validate, so the download API 404s and `/api/leads` returns 400 for them.
 
 ## How it fits together
 
@@ -30,12 +45,14 @@ renders in `next dev` so the flow can be tested), download route 404s, and
 | **Contextual routing** (which magnet a page gets) | `src/lib/leadMagnetRouting.ts` |
 | Per-magnet download suppression (localStorage) | `src/lib/leadMagnetState.ts` |
 | Guide content, shared by the website and the PDF generator | `src/content/*.json` |
+| County report data, shared by the PDF kit and the landing-page tables | `scripts/pbc-county-report/data/*-market-*.json` |
 | PDFs (never publicly served) | `private/reports/*.pdf` |
+| County report PDF kit | `scripts/pbc-county-report/` (`build.py`, see its README) |
 | Guide PDF generator | `scripts/generate-guide-pdfs.mjs` + `scripts/lib/pdf.mjs` |
 | Cover images (page 1 of each PDF) | `public/images/reports/*.webp` via `scripts/generate-report-covers.mjs` |
 | Lead API → Follow Up Boss | `src/app/api/leads/route.ts` + `src/lib/leadHelpers.ts` |
 | Token-gated PDF download | `src/app/api/reports/[reportType]/route.ts` |
-| Modal, form, CTAs, sticky bar, exit intent, next-step CTA | `src/components/leadMagnet/*` |
+| Modal, form, CTAs, sticky bar, exit intent, next-step CTA, county tables | `src/components/leadMagnet/*` |
 | Shared landing-page template | `src/components/leadMagnet/LeadMagnetLanding.tsx` |
 
 ## Contextual routing
@@ -43,20 +60,31 @@ renders in `next dev` so the flow can be tested), download route 404s, and
 One page gets **one** primary offer. `src/lib/leadMagnetRouting.ts` is the only
 place that decides which, in this priority order:
 
-1. **Treasure Coast geography** (Stuart, Palm City, Hobe Sound, Port Salerno,
-   Port St. Lucie) → Treasure Coast Market Report. If that report is ever
-   unpublished again it falls back to the **Relocation Decision Guide**. A Palm
-   Beach County report is never offered on these pages — different county,
-   different MLS.
+0. **Jupiter Island** (the one named exception) → the Martin County and Palm
+   Beach County reports side by side, as a picker (`martin-and-palm-beach-county`,
+   the only multi-magnet selection). The town is in Martin County, but
+   `communities.ts` files it as a Jupiter neighborhood.
+1. **Treasure Coast geography** → that county's own report.
+   - **Martin County** (Stuart, Palm City, Hobe Sound, Port Salerno) → Martin
+     County Market Report.
+   - **St. Lucie County** (Port St. Lucie) → St. Lucie County Market Report.
+
+   A Martin page never gets the St. Lucie report or the reverse, and neither
+   ever gets the Palm Beach County report. If a county report is unpublished,
+   its pages fall back to the **Relocation Decision Guide**, as does any
+   `region: 'Treasure Coast'` community whose slug is in neither county list.
+   The city lists live in `MARTIN_COUNTY_CITY_SLUGS` /
+   `ST_LUCIE_COUNTY_CITY_SLUGS` and mirror `CITY_REGIONS` in `articles.ts`.
+   The pathname fallback matches a slug only as a whole hyphen- or
+   slash-delimited run, so it can't fire on a longer slug that happens to
+   contain it.
 2. **Relocation intent** (cost of living, city-vs-city, pros and cons, who
    should move here, "living in", moving/relocating) → Relocation Decision Guide.
 3. **Condo due-diligence intent** — condo/townhome content that is also about
    the *building* (high-rise, oceanfront condo, HOA, association, assessments,
    reserves, milestone inspection, buyer's guide) → Condo Due-Diligence Checklist.
-4. **General Palm Beach County single-family** → Single Family Market Report.
-5. **General Palm Beach County condo** → Condo & Townhome Market Report.
-6. Genuinely ambiguous Palm Beach County pages → `pbc-both`, the two-report
-   picker. This is the only multi-magnet value in the system.
+4. **Everything else** → Palm Beach County Market Report, which covers both
+   property types. The homepage, `/sell` and `/communities` offer it directly.
 
 Community and blog routes publish their decision as
 `<meta name="lead-magnet-selection">`, and the sitewide sticky bar and
@@ -71,13 +99,13 @@ own landing page.
 ## Suppression and the next step
 
 `localStorage: dhg-lead-magnet-downloads` holds a `{ magnetKey: edition }` map.
-Suppression is **per magnet and per edition** — taking the single-family report
-no longer silences the relocation guide, and next month's edition of a report is
-a fresh offer. The pre-registry `dhg-report-downloaded` flag is migrated on read.
+Suppression is **per magnet and per edition** — taking one county report does
+not silence the relocation guide, and next month's edition of a report is a
+fresh offer.
 
 Once a visitor holds the magnet a placement would offer, the placement renders
-that magnet's `nextStep` from the registry instead (request a shortlist, ask a
-condo-building question, schedule a relocation consultation), and the
+that magnet's `nextStep` from the registry instead (request neighborhood numbers,
+start a strategy conversation, schedule a relocation consultation), and the
 exit-intent modal stands down.
 
 ## Environment variables
@@ -89,17 +117,24 @@ exit-intent modal stands down.
 | `FUB_TEAM_ASSIGNED_TO` | Optional | Exact FUB display name to assign `/sell` pricing-review leads to. Unset = Follow Up Boss's own lead distribution decides. |
 
 Set these in Vercel → Project → Settings → Environment Variables (and in
-`.env.local` for local testing).
+`.env.local` for local testing). `.env.local` carries the live FUB key: to test
+the form locally without creating real leads, start `next dev` with
+`FUB_API_KEY=` already set to an empty string in the process environment — Next
+never overrides a variable that is already defined.
 
 ## CRM tags applied
 
-- `Lead Magnet - PBC Single Family Market Report`
-- `Lead Magnet - PBC Condo Market Report`
+- `Lead Magnet - Palm Beach County Market Report`
+- `Lead Magnet - Martin County Market Report`
+- `Lead Magnet - St. Lucie County Market Report`
 - `Lead Magnet - Relocation Decision Guide`
 - `Lead Magnet - Florida Condo Due Diligence`
-- `Lead Magnet - Treasure Coast Market Report`
 - Plus `Interest: Buying` / `Selling` / `Buying and selling` / `Just researching`
 - Plus, from the optional second step, `Area: …` and `Timeline: …`
+
+No longer applied (retired September 2026): `Lead Magnet - PBC Single Family
+Market Report`, `Lead Magnet - PBC Condo Market Report`,
+`Lead Magnet - Treasure Coast Market Report`.
 
 Seller valuation leads carry `Seller Lead`, `Home Valuation Request`, and either
 `Agent: John Oliver` / `Agent: Christine Dekant` (from `/sell/[agent]`) or
@@ -119,49 +154,37 @@ Events: `lead_magnet_view`, `lead_magnet_click`, `lead_magnet_modal_open`,
 Params: `magnet_key`, `magnet_id`, `magnet_kind`, `magnet_edition`,
 `cta_location`, `page_category`, `page_url`. `report_type` and `report_edition`
 are still emitted as aliases of `magnet_key` / `magnet_edition` so GA4 reports
-built on the original two-report schema keep working. Device type comes from
-GA4's built-in dimensions. First-touch UTM attribution is captured in
-`sessionStorage` by `src/lib/utm.ts` and survives navigation before conversion.
+built on the original schema keep working. Device type comes from GA4's built-in
+dimensions. First-touch UTM attribution is captured in `sessionStorage` by
+`src/lib/utm.ts` and survives navigation before conversion.
 
 Never pass name, email, or phone as an event param.
 
-## Monthly update — Palm Beach County reports
+## Monthly update — county reports
 
-Both PDFs are generated from the repo (they used to be prepared by hand
-outside it), so a monthly update is a data edit plus two commands.
+All three county PDFs are built by the kit in `scripts/pbc-county-report/`
+(`build.py`, see its README). The edition month and the data month are the same
+month.
 
-1. **Edit `src/content/pbc-market.json`** — set `edition`, `dataMonth`,
-   `priorMonth` and `source`, then update each report's `tiles`, `rows` and
-   narrative fields from the BeachesMLS Market Snapshot.
-   - **Recompute the year-over-year percentages from the raw values rather than
-     copying them off the graphic.** The snapshots sometimes print a decrease
-     without its minus sign, and occasionally drop the percent sign entirely.
-   - Cash share is derived (paid in cash / closed sales); the snapshot only
-     gives the counts.
-2. **Edit `src/lib/leadMagnets.ts`** — bump `REPORT_EDITION` /
-   `REPORT_DATA_MONTH`, each report's `id` and `fileName`, and refresh
-   `keyStats`, `summary`, `takeaways` and the month references in
-   `coverAlt`, `metaDescription` and the FAQ answers.
-3. Run:
-   ```bash
-   node scripts/generate-pbc-reports.mjs
-   node scripts/generate-report-covers.mjs
-   ```
-   The cover script derives its filenames from `pbc-market.json`, so there is no
-   filename to keep in sync by hand.
-4. Delete last month's PDFs from `private/reports/` (optional), commit, deploy.
+1. Build the new PDFs with the kit and drop them into `private/reports/`.
+   - **Recompute the year-over-year percentages and cash shares from the raw
+     values** rather than copying them off the source graphic.
+2. **Edit `src/lib/leadMagnets.ts`** — bump `COUNTY_REPORT_EDITION`,
+   `COUNTY_REPORT_DATA_MONTH` and `COUNTY_REPORT_SOURCE`, each entry's `id` and
+   `fileName`, and refresh `keyStats`, `summary`, `takeaways`, `metaDescription`
+   and the FAQ answers from the new data files. Re-read every sentence: past
+   activity only, and small condo samples must never read as a blanket change in
+   values.
+3. Point the data imports in `src/app/palm-beach-county-market-report/page.tsx`,
+   `src/app/martin-county-market-report/page.tsx` and
+   `src/app/st-lucie-county-market-report/page.tsx` at the new month's files
+   (the tables render from them). Commit those data files — the build needs them.
+4. Update the three file paths in `scripts/generate-report-covers.mjs`, then run
+   `node scripts/generate-report-covers.mjs`.
+5. Delete last month's PDFs from `private/reports/`, commit, deploy.
 
-Bumping `edition` automatically re-offers the report to visitors who downloaded
-the previous one.
-
-### PDF generation
-
-All five PDFs are built by `scripts/lib/pdf.mjs`, a small dependency-free
-writer. It embeds Liberation Sans (SIL Open Font License, shipped inside
-`pdfjs-dist`) so the files render identically in every reader — without an
-embedded face, a reader that substitutes draws narrow glyphs on Helvetica's
-advances and the tracking looks visibly wrong, including in the build-time
-rasteriser that produces the cover images.
+Bumping the edition automatically re-offers the report to visitors who
+downloaded the previous one.
 
 ## Updating a guide
 
@@ -176,46 +199,22 @@ node scripts/generate-report-covers.mjs
 Counts printed on the guide landing pages ("14 areas compared", "15 checklist
 sections") are derived from those files at build time, so they update themselves.
 
-## Monthly update — Treasure Coast report
-
-Unlike the Palm Beach County reports, this PDF is generated from the repo, so
-there is no external file to prepare. First edition: August 2026, from the
-BeachesMLS July 2026 Market Snapshots for Martin and St. Lucie counties.
-
-1. **Edit `src/content/treasure-coast-market.json`** — update `dataStatus`,
-   `edition`, `dataMonth`, `source`, every metric `value` / `yearOverYear`, and
-   the six `narrativeSlots`.
-   - **Recompute the year-over-year percentages from the raw 2026/2025 values
-     rather than copying them off the graphic.** The BeachesMLS snapshots print
-     some decreases without a minus sign (July 2026: Martin condo median days to
-     contract read `24.7%` for a *drop* from 93 to 70) and occasionally drop the
-     percent sign entirely (St. Lucie single-family inventory read `-8.2`).
-   - Cash share is derived (paid-in-cash ÷ closed sales); the snapshot only
-     gives the counts.
-2. **Edit `src/lib/leadMagnets.ts`** — bump `TREASURE_COAST_EDITION`,
-   `TREASURE_COAST_DATA_MONTH` and the entry's `id`, and refresh `keyStats`,
-   `summary` and `takeaways`.
-3. ```bash
-   node scripts/generate-guide-pdfs.mjs
-   node scripts/generate-report-covers.mjs
-   ```
-   The generator refuses to write a PDF while any metric is `null`, so it also
-   serves as the check that step 1 is complete.
-
-`published` is derived from `dataStatus`: setting it back to `awaiting-data`
-withdraws the report completely — the landing page returns to 404-in-production,
-it leaves the sitemap, and all five Treasure Coast towns fall back to the
-Relocation Decision Guide rather than being offered Palm Beach County numbers.
+Both guide PDFs are built by `scripts/lib/pdf.mjs`, a small dependency-free
+writer. It embeds Liberation Sans (SIL Open Font License, shipped inside
+`pdfjs-dist`) so the files render identically in every reader — without an
+embedded face, a reader that substitutes draws narrow glyphs on Helvetica's
+advances and the tracking looks visibly wrong, including in the build-time
+rasteriser that produces the cover images.
 
 ## Adding a new magnet
 
 1. Add a JSON content file under `src/content/` if it needs body content.
 2. Add a record to `leadMagnets` in `src/lib/leadMagnets.ts`.
 3. Add a route file that renders `<LeadMagnetLanding magnet={...} />`.
-4. Add a build function to `scripts/generate-guide-pdfs.mjs` and an entry to
-   `scripts/generate-report-covers.mjs`.
+4. Add a build function to `scripts/generate-guide-pdfs.mjs` (or build it with
+   the county kit) and an entry to `scripts/generate-report-covers.mjs`.
 5. Give it a routing rule in `src/lib/leadMagnetRouting.ts` if it should be
    selected automatically.
 
-The sitemap, footer link list, "also free" rails, download API and CRM payload
-all read from the registry — none of them need editing.
+The sitemap, "also free" rails, download API and CRM payload all read from the
+registry. The footer link list in `src/components/Footer.tsx` is hand-maintained.

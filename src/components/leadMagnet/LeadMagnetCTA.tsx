@@ -10,7 +10,7 @@ import LeadMagnetModal from './LeadMagnetModal'
 import NextStepCTA from './NextStepCTA'
 
 export interface LeadMagnetCTAProps {
-  /** Which magnet to promote — 'pbc-both' opens a two-report picker. */
+  /** Which magnet to promote — a multi-magnet selection opens a two-report picker. */
   selection: LeadMagnetSelection
   variant: 'inline' | 'sidebar' | 'end-of-article'
   /** Page bucket for analytics/CRM, e.g. 'community', 'blog', 'buy' */
@@ -103,12 +103,12 @@ export default function LeadMagnetCTA({
     )
   }
 
-  const eyebrow = magnet?.ctaEyebrow ?? 'Free Palm Beach County Market Reports'
-  const headline =
-    magnet?.ctaHeadline ?? 'Get a Free Palm Beach County Market Report'
+  // The only multi-magnet selection is the Martin + Palm Beach County pair.
+  const eyebrow = magnet?.ctaEyebrow ?? 'Free County Market Reports'
+  const headline = magnet?.ctaHeadline ?? 'Get the Martin County or Palm Beach County Market Report'
   const description =
     magnet?.ctaDescription ??
-    'Local prices, inventory, and negotiating conditions for single family homes, condos, and townhomes — free instant PDF downloads.'
+    'Prices, inventory, months of supply and days to contract for single-family homes and condos/townhomes, county by county — pick either report as a free instant PDF.'
   const label = buttonLabel ?? magnet?.ctaButtonLabel ?? 'Download the Free Report'
 
   const modal = (

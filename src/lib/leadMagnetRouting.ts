@@ -6,19 +6,27 @@
 // exit-intent modal can never disagree with each other.
 //
 // Priority, highest first:
-//   1. Treasure Coast geography  → Treasure Coast Market Report
-//      (falls back to the Relocation Decision Guide while that report is
-//      unpublished — a Palm Beach County report is never offered here, because
-//      it describes a different county and a different MLS.)
+//   1. Treasure Coast geography  → that county's own market report
+//      Martin County    (Stuart, Palm City, Hobe Sound, Port Salerno)
+//                       → Martin County Market Report
+//      St. Lucie County (Port St. Lucie)
+//                       → St. Lucie County Market Report
+//      A county report that is unpublished falls back to the Relocation
+//      Decision Guide. A Martin page never gets the St. Lucie report or the
+//      reverse, and neither ever gets a Palm Beach County report — each
+//      describes a different county.
 //   2. Relocation intent          → Relocation Decision Guide
 //      (cost of living, city-vs-city, pros and cons, who should move here,
 //      moving/relocating content.)
 //   3. Condo due-diligence intent → Florida Condo Due-Diligence Checklist
 //      (condo/townhome content that is also about the building: high-rise,
 //      oceanfront condo, HOA, association, assessments, buying a condo.)
-//   4. General PBC single-family  → PBC Single Family Home Market Report
-//   5. General PBC condo          → PBC Condo & Townhome Market Report
-//   Ambiguous Palm Beach County   → 'pbc-both' (the two county reports, picker)
+//   4. Everything else            → Palm Beach County Market Report
+//      (one report covers both property types.)
+//
+// One named exception sits above all of these: Jupiter Island is a Martin County
+// town that communities.ts files as a Jupiter neighborhood, so its page offers
+// both the Martin County and the Palm Beach County report, as a picker.
 //
 // Kept literal and dependency-free on purpose: the sitewide client component
 // imports it, and pulling the article or community datasets in would ship the
@@ -28,41 +36,75 @@
 import { leadMagnets, type LeadMagnetSelection } from '@/lib/leadMagnets'
 
 // ── Geography ────────────────────────────────────────────────────────────────
-// Mirrors the 'Treasure Coast' entries in REGION_GROUP / CITY_REGIONS in
-// articles.ts and the region: 'Treasure Coast' communities in communities.ts.
-// If a Treasure Coast city is added there, add its slug here too.
+// Mirrors CITY_REGIONS in articles.ts ('Martin County' / 'St. Lucie County')
+// and the region: 'Treasure Coast' communities in communities.ts. If a Treasure
+// Coast city is added there, add its slug to the right county here too — a
+// region: 'Treasure Coast' community whose slug is in neither list gets the
+// Relocation Decision Guide rather than a guessed county.
 
-const TREASURE_COAST_CITY_SLUGS = [
-  'stuart',
-  'palm-city',
-  'hobe-sound',
-  'port-salerno',
-  'port-st-lucie',
-] as const
+const MARTIN_COUNTY_CITY_SLUGS = ['stuart', 'palm-city', 'hobe-sound', 'port-salerno'] as const
 
-/** True when this city sits in Martin or St. Lucie county, not Palm Beach. */
-export function isTreasureCoastCity(citySlug: string | undefined): boolean {
-  return !!citySlug && TREASURE_COAST_CITY_SLUGS.some((slug) => slug === citySlug)
+const ST_LUCIE_COUNTY_CITY_SLUGS = ['port-st-lucie'] as const
+
+type TreasureCoastCounty = 'martin' | 'st-lucie'
+
+/** Which Treasure Coast county a city slug belongs to, if any. */
+function treasureCoastCountyForCity(
+  citySlug: string | undefined,
+): TreasureCoastCounty | undefined {
+  if (!citySlug) return undefined
+  if (MARTIN_COUNTY_CITY_SLUGS.some((slug) => slug === citySlug)) return 'martin'
+  if (ST_LUCIE_COUNTY_CITY_SLUGS.some((slug) => slug === citySlug)) return 'st-lucie'
+  return undefined
+}
+
+/**
+ * The slug as a whole hyphen/slash-delimited run of the path, so 'palm-city'
+ * matches /communities/palm-city and /blog/cost-of-living-in-palm-city-florida
+ * but not a longer, unrelated slug that merely contains those letters.
+ */
+function pathContainsSlug(pathname: string, slug: string): boolean {
+  return new RegExp(`(^|[/-])${slug}([/-]|$)`).test(pathname)
 }
 
 /**
  * Path-based equivalent for the sitewide sticky bar and exit-intent offer,
  * which only know the pathname. Blog and community URLs both embed the city
  * slug (/blog/cost-of-living-in-stuart-florida, /communities/hobe-sound).
+ * Martin is checked first; no current URL names a city from both counties.
  */
-export function isTreasureCoastPath(pathname: string): boolean {
-  return TREASURE_COAST_CITY_SLUGS.some((slug) => pathname.includes(slug))
+function treasureCoastCountyForPath(pathname: string): TreasureCoastCounty | undefined {
+  if (MARTIN_COUNTY_CITY_SLUGS.some((slug) => pathContainsSlug(pathname, slug))) return 'martin'
+  if (ST_LUCIE_COUNTY_CITY_SLUGS.some((slug) => pathContainsSlug(pathname, slug))) return 'st-lucie'
+  return undefined
+}
+
+/** Jupiter Island: Martin County geography, filed under Jupiter. */
+const TWO_COUNTY_COMMUNITY_SLUGS = ['jupiter-island'] as const
+
+function isTwoCountyCommunity(slug: string | undefined): boolean {
+  return !!slug && TWO_COUNTY_COMMUNITY_SLUGS.some((s) => s === slug)
+}
+
+function twoCountyMagnet(): LeadMagnetSelection {
+  return leadMagnets['martin-county-market-report'].published
+    ? 'martin-and-palm-beach-county'
+    : 'palm-beach-county-market-report'
 }
 
 /**
- * What a Treasure Coast page gets. Once the Treasure Coast report has verified
- * Martin / St. Lucie data and `published` flips to true, every Treasure Coast
- * page switches to it automatically — nothing else has to change.
+ * What a Treasure Coast page gets: its own county's report. If that report is
+ * ever unpublished, the page falls back to the Relocation Decision Guide — never
+ * to the other county's report, and never to a Palm Beach County report.
  */
-function treasureCoastMagnet(): LeadMagnetSelection {
-  return leadMagnets['treasure-coast-market-report'].published
-    ? 'treasure-coast-market-report'
-    : 'relocation-decision-guide'
+function countyMagnet(county: TreasureCoastCounty | undefined): LeadMagnetSelection {
+  const key =
+    county === 'martin'
+      ? 'martin-county-market-report'
+      : county === 'st-lucie'
+        ? 'st-lucie-county-market-report'
+        : undefined
+  return key && leadMagnets[key].published ? key : 'relocation-decision-guide'
 }
 
 // ── Intent signals ───────────────────────────────────────────────────────────
@@ -78,9 +120,9 @@ const SINGLE_FAMILY_RE =
 
 /**
  * Condo content that is about the *building* rather than the neighborhood.
- * This is what separates rule 3 (due-diligence checklist) from rule 5 (condo
- * market report): "condos in Delray Beach" is a market question, "buying a
- * high-rise oceanfront condo" is a building question.
+ * This is what separates rule 3 (due-diligence checklist) from rule 4 (market
+ * report): "condos in Delray Beach" is a market question, "buying a high-rise
+ * oceanfront condo" is a building question.
  */
 const CONDO_DILIGENCE_RE =
   /due[-\s]diligence|\bhoa\b|homeowners? association|condo association|\bassociation\b|special assessment|\bassessments?\b|\breserves?\b|milestone inspection|structural integrity|estoppel|buyer'?s guide|\bbuying a condo\b|condo buyer|high[-\s]?rise|oceanfront condo|condo building|condo fees|rental restriction/gi
@@ -91,10 +133,10 @@ function countMatches(re: RegExp, text: string): number {
 }
 
 /**
- * Classify arbitrary Palm Beach County page text into one of the county
- * offers. A property-type side must clearly dominate (the other absent, or at
- * least 3x the signals) — otherwise both county reports are offered and the
- * visitor picks.
+ * Classify arbitrary Palm Beach County page text. The due-diligence checklist
+ * needs condo signals to clearly dominate (no single-family signals, or at
+ * least 3x as many) plus a building-level signal; everything that is neither
+ * that nor relocation content gets the Palm Beach County Market Report.
  */
 export function selectMagnetFromText(text: string): LeadMagnetSelection {
   // "real estate" would otherwise count as an "estate" (single-family) signal.
@@ -110,12 +152,7 @@ export function selectMagnetFromText(text: string): LeadMagnetSelection {
     return 'condo-due-diligence'
   }
 
-  if (condo === 0 && sfh === 0) return 'pbc-both'
-  if (sfh === 0) return 'condo-townhome'
-  if (condo === 0) return 'single-family'
-  if (condo >= sfh * 3) return 'condo-townhome'
-  if (sfh >= condo * 3) return 'single-family'
-  return 'pbc-both'
+  return 'palm-beach-county-market-report'
 }
 
 // ── Entry points ─────────────────────────────────────────────────────────────
@@ -139,11 +176,11 @@ export function selectMagnetForCommunity(
   community: CommunityLike,
   citySlug?: string,
 ): LeadMagnetSelection {
-  if (
-    community.region === 'Treasure Coast' ||
-    isTreasureCoastCity(citySlug ?? community.slug)
-  ) {
-    return treasureCoastMagnet()
+  if (isTwoCountyCommunity(community.slug)) return twoCountyMagnet()
+
+  const county = treasureCoastCountyForCity(citySlug ?? community.slug)
+  if (county || community.region === 'Treasure Coast') {
+    return countyMagnet(county)
   }
 
   const nameAndTitle = `${community.name} ${community.metaTitle ?? ''}`
@@ -172,7 +209,8 @@ export function selectMagnetForArticle(article: {
   secondaryKeywords?: string[]
   metaTitle?: string
 }): LeadMagnetSelection {
-  if (isTreasureCoastCity(article.citySlug)) return treasureCoastMagnet()
+  const county = treasureCoastCountyForCity(article.citySlug)
+  if (county) return countyMagnet(county)
   return selectMagnetFromText(
     [
       article.h1,
@@ -186,7 +224,11 @@ export function selectMagnetForArticle(article: {
 
 /** URL-based fallback used by the sitewide sticky CTA and exit-intent offer. */
 export function selectMagnetForPath(pathname: string): LeadMagnetSelection {
-  if (isTreasureCoastPath(pathname)) return treasureCoastMagnet()
+  if (TWO_COUNTY_COMMUNITY_SLUGS.some((slug) => pathname === `/communities/${slug}`)) {
+    return twoCountyMagnet()
+  }
+  const county = treasureCoastCountyForPath(pathname)
+  if (county) return countyMagnet(county)
   return selectMagnetFromText(pathname.replace(/[-/]/g, ' '))
 }
 
