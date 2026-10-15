@@ -27825,139 +27825,98 @@ The best way to find out whether it fits is to spend ordinary time there: drive 
     updated: '2026-10-15',
   },
   {
-    slug: 'local-guide-to-tequesta-florida',
+    slug: "local-guide-to-tequesta-florida",
     citySlug: 'tequesta',
     cityName: 'Tequesta',
     type: "A Local's Guide To",
     order: 2,
-    seoTitle: "A Local's Guide to Tequesta, Florida",
-    metaTitle: "A Local's Guide to Tequesta, Florida",
-    metaDescription: "An insider guide to Tequesta, Florida — the village downtown, the river, the parks, and how to live like a local in this quiet upscale town north of Jupiter.",
+    seoTitle: "Tequesta, Florida Local Guide: What Newcomers Should Know | DYNA",
+    metaTitle: "Tequesta, Florida Local Guide: What Newcomers Should Know | DYNA",
+    metaDescription: "A practical local guide to Tequesta, Florida—how the village fits beside Jupiter, where daily life happens, local services, water access, and what newcomers should know.",
     primaryKeyword: "Tequesta local guide",
-    secondaryKeywords: ["Tequesta insider tips", "things locals do in Tequesta", "moving to Tequesta guide"],
-    h1: "A Local's Guide to Tequesta, Florida",
-    body: `The practical layer: how the village is laid out, who handles what, the county-line trap, and the things new residents work out a month too late.
+    secondaryKeywords: ["Tequesta newcomer guide","moving to Tequesta guide","Tequesta village services","Tequesta and Jupiter"],
+    h1: "A Local’s Guide to Tequesta, Florida",
+    heroImage: '/images/tequesta/village-street-water-illustration-hero.webp',
+    heroImageAlt: 'Stylized editorial illustration of a shaded village street arched by mature trees, opening toward calm water with a low bridge and a sailboat in the distance',
+    heroImageCaption: 'Editorial illustration of a shaded village street opening toward the water. It is not a photograph of Tequesta.',
+    heroImageCredit: 'Illustration by DYNA',
+    heroImageWidth: 1600,
+    heroImageHeight: 900,
+    inlineMagnet: false,
+    body: `Tequesta is small enough to learn quickly, and that is half the charm. This guide is the practical companion to [what it is really like to live in Tequesta](/blog/what-its-really-like-living-in-tequesta-florida): how the village is laid out, how it fits beside Jupiter, which Village services touch your week, how the water works into daily life, and how to get your bearings in your first month.
 
-## The layout
+## Get Oriented in Five Minutes
 
-Tequesta is small enough to learn in twenty minutes.
+Start with the map in your head. Tequesta Drive is the village spine, the main road you will come to know first. US-1, also called Federal Highway, is the main north–south connector, carrying you south toward Jupiter and north toward Martin County. County Line Road forms the northern edge of the village, which is simply where Palm Beach County meets Martin County.
 
-**Tequesta Drive** runs east–west through the village and holds the small commercial center. **US-1 (Federal Highway)** is the main north–south route, carrying you south toward Jupiter and north toward Hobe Sound. **County Line Road** marks the northern boundary. **Island Way** and **Beach Road** run east toward Jupiter Island and the ocean.
+The Village of Tequesta is in Palm Beach County, and Martin County borders it to the north. South of the village, across the lower Loxahatchee River, is Jupiter. East, across the Intracoastal Waterway, is Jupiter Island, the barrier island that stretches north toward Martin County. The river runs out to the Atlantic through Jupiter Inlet.
 
-The **Loxahatchee River** wraps the southern and eastern sides. Bridges south take you into Jupiter; bridges east take you to the barrier island.
+![A simple schematic of Tequesta with Tequesta Drive, US-1, County Line Road, the lower Loxahatchee River, Jupiter, Jupiter Island and Jupiter Inlet](/images/tequesta/tequesta-orientation-schematic.webp "A schematic for orientation. It is not to scale, positions are simplified, and it implies no distances or travel times."){1200x800}
 
-**I-95 and the Turnpike** are both a short drive west via the main connectors.
+One small habit worth forming: when a listing uses a Tequesta mailing address, confirm the exact municipal and county jurisdiction for that specific property, especially for homes outside Village limits or near the Martin County boundary. A mailing address and a municipal line do not always match.
 
-## The county line — check this first
+## What Daily Life Actually Looks Like
 
-The single most important administrative fact about this village.
+Daily life here is village-scale. Everyday errands and services are close, and many people find the day moves at a gentler pace than in a larger town. Streets are residential and mature, with canopy that shades a morning walk, and the water is part of the backdrop even when you cannot see it.
 
-Tequesta sits at the **Palm Beach–Martin county line**, and some properties with a Tequesta mailing address are in **Martin County**. The postal address does not tell you. The street may not tell you. Neighboring houses can differ.
+![A shaded street arched by oaks and palms, with sunlight dappling the road](/images/tequesta/shaded-street-illustration.webp "Editorial illustration of mature-canopy streets. It is not a photograph of a specific Tequesta street."){1200x800}
 
-What changes:
+Jupiter is part of the normal orbit. Many residents head across the river for broader dining and shopping, health care and activity, and treat it as a close-by extension of the day rather than a trip. That is the trade-off of living somewhere intentionally small: the village gives you quiet streets and a contained feel, and Jupiter fills in the rest. For a candid look at what that means for fit, see our [pros and cons of living in Tequesta](/blog/pros-and-cons-of-living-in-tequesta-florida).
 
-- **School district** — Palm Beach County or Martin County, entirely different systems, boundaries and choice programs.
-- **Property appraiser and tax collector**, and therefore your millage and your bill.
-- **County services**, including sheriff's coverage in unincorporated areas.
-- **Building and permitting authority** for anything outside village jurisdiction.
+Village parks and community programming round out the picture. The Village's own site is the place to check what is offered now, and our [guide to quieter local finds](/blog/hidden-gems-in-tequesta-florida) covers the smaller places worth knowing.
 
-The title work answers it definitively. Ask before you get attached to a house, not at closing.
+## Village Services That Actually Affect Your Week
 
-## Village services
+Tequesta is an incorporated village, and it runs several services itself. The ones you will notice most:
+- **Police.** Tequesta has its own police department.
+- **Fire rescue.** Tequesta has its own Fire Rescue department.
+- **Water.** The Village operates a water utility. Whether a particular address is served by it is worth confirming, and the Village's [water utilities page](https://www.tequesta.org/116/Water-Utilities) is the place to ask.
+- **Public works and waste collection.** The Village's public works pages explain collection and related services.
+- **Permits and exterior work.** Building, permitting and exterior projects go through the correct jurisdiction for the property, so confirm which one applies before you start.
 
-Tequesta is an incorporated village and does more for itself than most communities its size:
+We keep this short on purpose. For current contacts and department details, use the Village's [staff directory](https://www.tequesta.org/m/directory) and the [Village website](https://www.tequesta.org/), because phone numbers and procedures change.
 
-- **Police** is a village department.
-- **Water** comes from the village's own utility across much of Tequesta — unusual, and worth confirming for the specific address.
-- **Permits, zoning and code enforcement** run through the village. The village takes its character seriously, so start early on exterior work. Anything touching a dock, seawall or the river usually pulls in state and federal review as well, and those timelines are long.
-- **Fire rescue** is provided at county level.
-- **Electric** is FPL.
-- **Waste collection** runs on a village schedule with separate bulk and vegetative rules.
+## If Water Is Part of Why You Are Looking
 
-**County-level functions** — property records, homestead filing, vehicle and vessel registration, driver licensing — go through the relevant county, which brings us back to establishing which one you're in.
+For many people the water is the reason Tequesta is on the list. The lower Loxahatchee River, the inlet and the Intracoastal Waterway are close, and paddling, boating and waterfront life are part of the village's character. If paddling appeals, our guide to [kayak launches around Jupiter and Tequesta](/kayak-launches-jupiter-tequesta) is a good place to start.
 
-## Schools
+![Boats tied beside a wooden dock on calm water](/images/tequesta/marina-dock-illustration.webp "Editorial illustration of dock-and-boat life on the lower river. It is not a photograph of a specific Tequesta marina."){1200x800}
 
-Verify attendance boundaries for the specific address, directly with the relevant district, before making any assumption.
+The practical reality is that waterfront access varies from property to property. Dock setup, water depth, the route to the inlet, bridges along the way, permits and weather planning all depend on the specific property and the boat you plan to keep. Serious boaters should confirm the facts that matter for their intended boat and route with the appropriate professionals and official sources. We do not offer navigation advice here.
 
-Boundaries change. Magnet, choice and lottery programs have their own rules and deadlines. Listings and third-party sites are frequently out of date, and given the county-line situation here they may be pointing at the wrong district entirely.
+A note on terminology: the federally designated Wild and Scenic stretch of the Loxahatchee River is the Northwest Fork, far upstream. Tequesta's waterfront is the lower river and the estuary near the inlet.
 
-## Health care
+> **Storm season, calmly.** Evacuation orders and zones are address-specific and issued by authorities, and they are not something a guide can tell you. Palm Beach County's [Know Your Zone page](https://discover.pbc.gov/publicsafety/dem/pages/know-your-zone.aspx) and [hurricane resources](https://discover.pbc.gov/publicsafety/dem/pages/hurricane.aspx) are the official starting points, and you can check a property's flood zone on the [FEMA flood map service](https://msc.fema.gov). Save those links once, and check the Village's site for local notices.
 
-There's a hospital in Jupiter, minutes south, and a substantial concentration of specialists throughout the northern Palm Beach County corridor. Martin County facilities are close to the north.
+## Your First Month in Tequesta
 
-Note your nearest emergency entrance now rather than looking it up during an emergency.
+Six or seven small steps are enough.
+1. **Learn the village layout.** Drive Tequesta Drive, US-1 and the edges so the map in your head matches the real one.
+2. **Set up the right local services for your address.** Confirm which utilities and services apply to the property, starting with the Village's pages.
+3. **Explore Village parks and community programming.** Check the Village's site for what is available.
+4. **Save the official emergency-information resources.** Keep the county and Village links somewhere easy to find.
+5. **Understand the property's specific municipal jurisdiction.** Confirm it, so you know whose pages and permits apply.
+6. **Build Jupiter into your normal errand and dining radius.** Treat it as part of your routine, not a special trip.
+7. **Get outside early during warmer months.** Mornings are the pleasant part of a Florida summer day.
 
-## If you own a boat
+## The Practical Bottom Line
 
-- **Register the vessel** through the relevant county Tax Collector.
-- **Establish dock depth at mean low water** and **fixed bridge clearances** on your route to the Jupiter Inlet before you buy. The river system shoals in places and this is the local mistake.
-- **Learn the manatee and idle-speed zones**, which are extensive on this river, actively enforced, and carry substantial penalties.
-- **Understand the conservation constraints** on the river generally — this is a protected waterway and it's regulated accordingly.
-- **Have a storm plan for the vessel.** Haul-out slots fill fast once a storm is named.
+Tequesta is easiest to enjoy when you embrace the small-village rhythm and see Jupiter as close-by support, not as a separate expedition. Learn the layout, know whose services you are using, treat the water and storm season with practical respect, and the village tends to feel like yours quickly.
 
-## Getting out of town
+For more on choosing where to look, see our [Tequesta neighborhood guide](/blog/best-neighborhoods-in-tequesta-florida), and for how Tequesta stacks up against its neighbors, the [comparison with nearby communities](/blog/tequesta-vs-nearby-cities).
 
-- **President Donald J. Trump International Airport** is roughly half an hour south.
-- **Brightline** runs from West Palm Beach to Fort Lauderdale, Miami and Orlando.
-- **Tri-Rail** serves the county corridor from stations further south.
-- **I-95 and the Turnpike** are both easily reached.
-
-## Hurricane season
-
-June through November, peaking late summer into early autumn.
-
-- **Find your evacuation zone before the season starts.** Low-lying riverfront and anything near the barrier island go early, and buyers routinely assume river property is safer than it is.
-- **Sort shutters or impact protection before June.**
-- **Keep about two weeks** of water, food, medication and cash.
-- **Photograph the property annually** for insurance.
-- **Know your flood zone**, which is parcel-specific.
-- **Tree canopy is a mixed blessing** in a storm. Mature trees near the house should be assessed and maintained.
-
-## The seasonal calendar
-
-**November through April:** best weather, fullest roads, Jupiter noticeably busier. Still modest by county standards.
-
-**May and June:** heat arrives, storm season begins.
-
-**July through September:** hot, humid, storming most afternoons. Quiet, and the best paddling if you go early.
-
-**October:** the turn, and arguably the best month here.
-
-## Practical first-month checklist
-
-Things worth doing early that new residents routinely leave too late:
-
-- **Confirm the county on your deed**, and register to vote and update your license with the right one.
-- **File for homestead exemption** if this is your primary residence — there's a deadline and missing it costs a year.
-- **Set up village water** and confirm whether your address is on it.
-- **Find your evacuation zone and flood zone** and write them down somewhere you'll find them in a hurry.
-- **Get a tide app** if you're anywhere near the water; it will shape more of your week than you expect.
-- **Introduce yourself at the village hall** — in a community this size that's genuinely useful rather than quaint.
-- **Learn the two routes south into Jupiter** and which one works at which hour.
-- **Check whether your property has any club obligation attached to it** if you bought near the country club, and what it actually requires.
-
-## Fitting in
-
-- **Go early.** Water, exercise, errands. By midday in summer the outdoors is unpleasant.
-- **Treat Jupiter as part of your town.** Residents who resist driving three minutes for groceries make the village harder than it needs to be.
-- **Respect the river.** The conservation culture here is genuine, and speed zones and access rules matter to people.
-- **Verify address by address.** County, village versus unincorporated, flood and evacuation zone, utility provider, school boundary, and any club obligation all vary within short distances.
-
-For the feel of the place rather than the mechanics, read [what living here is actually like](/blog/what-its-really-like-living-in-tequesta-florida) — and the [quieter local finds](/blog/hidden-gems-in-tequesta-florida) are where the village starts to feel like yours.`,
+> **Thinking about Tequesta?** [See the Tequesta community guide and homes](/communities/tequesta), or talk with a local Tequesta expert on our team about how the village fits your daily routine.`,
     faqs: [
-      { q: "Is Tequesta in Palm Beach County or Martin County?", a: "Mostly Palm Beach County, but the county line runs right by the village and some Tequesta-addressed properties are in Martin County. The postal address does not tell you and neighboring houses can differ. It changes your school district, tax bill, county services and permitting authority — the title work answers it definitively." },
-      { q: "Does Tequesta have its own police and water?", a: "Yes — police is a village department and the village operates its own water utility across much of Tequesta, which is unusual for a community of this size. Permits, zoning and code enforcement also run through the village. Fire rescue is provided at county level and electric is FPL." },
-      { q: "How do I check schools for a Tequesta address?", a: "Establish which county the property is in first, then verify attendance boundaries directly with that district. Boundaries change, magnet and choice programs have their own rules and deadlines, and third-party sites are frequently out of date — and given the county-line situation may be pointing at the wrong district entirely." },
-      { q: "What should I know before keeping a boat in Tequesta?", a: "Establish dock depth at mean low water and fixed bridge clearances on your route to the Jupiter Inlet before buying — the river system shoals in places and this is the local mistake. Learn the manatee and idle-speed zones, which are extensive and actively enforced, and understand that this is a protected waterway regulated accordingly." },
-      { q: "How should I prepare for hurricane season in Tequesta?", a: "Find your evacuation zone before the season starts — low-lying riverfront goes early and buyers routinely assume river property is safer than it is. Sort shutters or impact protection before June, keep about two weeks of supplies, photograph the property annually, and have mature trees near the house assessed and maintained." },
-      { q: "What is the best month in Tequesta?", a: "October, arguably — the heat breaking and the seasonal crowds not yet back. November through April has the best weather and the fullest roads, though still modest by county standards. July through September is hot and stormy but quiet, and the paddling is excellent if you go early." },
+      { q: "Is Tequesta separate from Jupiter?", a: "Yes. Tequesta is its own incorporated village, just north of Jupiter across the lower Loxahatchee River. Many residents use both in daily life, but they are separate municipalities." },
+      { q: "Is Tequesta in Palm Beach County?", a: "Yes. The Village of Tequesta is in Palm Beach County, and Martin County borders it to the north. When a listing uses a Tequesta mailing address, confirm the exact municipal and county jurisdiction for that specific property, especially for homes outside Village limits or near the Martin County boundary." },
+      { q: "Does Tequesta have its own police and fire rescue?", a: "Yes. The Village of Tequesta has its own police department and its own Fire Rescue department. Use the Village website for current contact details." },
+      { q: "What is daily life in Tequesta like?", a: "Village-scale and residential, with mature streets, parks and the water close by. Everyday errands and services are nearby, and Jupiter is a normal part of the orbit for broader dining, shopping, health care and activity." },
+      { q: "What should boaters consider when looking at Tequesta homes?", a: "Waterfront access varies by property. Dock setup, water depth, the route to the inlet, bridges, permits and weather planning all depend on the property and the boat, so confirm them with appropriate professionals and official sources. This guide does not give navigation advice." },
     ],
-    internalLinks: ["what-its-really-like-living-in-tequesta-florida", "hidden-gems-in-tequesta-florida", "best-neighborhoods-in-tequesta-florida"],
-    funFact: "Tequesta and Jupiter share school buses and the same schools, but are separate municipalities with different governments and tax rates. The practical daily life is so integrated that new residents often take months to realize they're technically in a different town than their kids' school.",
+    internalLinks: ["what-its-really-like-living-in-tequesta-florida","best-neighborhoods-in-tequesta-florida","hidden-gems-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","tequesta-vs-nearby-cities"],
     author: 'christine',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'best-neighborhoods-in-tequesta-florida',
