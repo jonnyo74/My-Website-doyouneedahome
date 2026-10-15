@@ -81,3 +81,12 @@ Originals have no EXIF, so "Tequesta" rests on John's description of the folder.
 | `public/images/tequesta/tequesta-sunset-glow-paddleboard-hero.webp` (1920x1080) | `IMG_4356.JPEG`, 16:9 crop, John Oliver's own photo from the Jupiter folder (same sunset session as Blogs #4 to #6) | Hero and OG image; `heroImagePosition` 98% so the paddleboarder is centered on phones |
 
 Originals have no EXIF, so "Tequesta" rests on John's description of the folder.
+
+## Tequesta Blog #8 (Hidden Gems)
+
+| File | Source | Use |
+| --- | --- | --- |
+| `public/images/jupiter/jupiter-lighthouse-dock-dusk-hero.webp` (1200x675) | John Oliver's own photo, documented in `public/images/jupiter/SOURCES.md` | Hero and OG image. Shows the Jupiter Inlet Lighthouse at the mouth of the Loxahatchee River, captioned as Jupiter, near Tequesta |
+| `public/images/tequesta/coral-cove-rocks-surf.webp` | See Blog #4 | Coral Cove entry |
+
+The destination data lives in `src/lib/tequestaGems.ts` and carries no coordinates. The destination finder is a filterable directory with name-and-address directions links, not a pin map.
