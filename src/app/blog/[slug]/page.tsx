@@ -20,8 +20,10 @@ import {
   WORKSHEET_HEADING_ID,
 } from '@/lib/carryingCost'
 import { MAP_HEADING, MAP_HEADING_ID } from '@/lib/jupiterBeachAccess'
+import { OWNERSHIP_HEADING, OWNERSHIP_HEADING_ID } from '@/lib/tequestaOwnership'
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import JupiterBeachAccessBlock from '@/components/article/JupiterBeachAccessBlock'
+import TequestaOwnershipCalculator from '@/components/article/TequestaOwnershipCalculator'
 import KeyFactors from '@/components/article/KeyFactors'
 import ComparisonMatrix, { matrixHeadingId } from '@/components/article/ComparisonMatrix'
 import DiscoveryGuide from '@/components/article/DiscoveryGuide'
@@ -66,11 +68,13 @@ const TOOL_HEADINGS: Record<ToolKind, { id: string; label: string }> = {
   'wellington-cost-worksheet': { id: WELLINGTON_WORKSHEET_HEADING_ID, label: WELLINGTON_WORKSHEET_HEADING },
   'north-palm-beach-cost-worksheet': { id: NPB_WORKSHEET_HEADING_ID, label: NPB_WORKSHEET_HEADING },
   'jupiter-beach-access-map': { id: MAP_HEADING_ID, label: MAP_HEADING },
+  'tequesta-ownership-calculator': { id: OWNERSHIP_HEADING_ID, label: OWNERSHIP_HEADING },
 }
 function ToolBlock({ kind }: { kind: ToolKind }) {
   if (kind === 'carrying-cost-worksheet') return <CarryingCostWorksheet />
   if (kind === 'wellington-cost-worksheet') return <CarryingCostWorksheet variant="wellington" />
   if (kind === 'north-palm-beach-cost-worksheet') return <CarryingCostWorksheet variant="north-palm-beach" />
+  if (kind === 'tequesta-ownership-calculator') return <TequestaOwnershipCalculator />
   return <JupiterBeachAccessBlock />
 }
 
@@ -207,6 +211,8 @@ export default async function ArticlePage({ params }: Props) {
           },
         }
       : undefined
+  // The editorial layout carries its own tool; other articles can declare one at the top level.
+  const bodyTool = editorial?.tool ?? article.bodyTool
   const sections = editorial?.tableOfContents ? articleSections(article.body) : []
   // Opening paragraphs and the rest, for articles that put the contents after
   // their introduction. Only when the body isn't already split for the CTA.
@@ -410,7 +416,7 @@ export default async function ArticlePage({ params }: Props) {
           {/* Body — with an inline report CTA about a third of the way through */}
           {introSplit ? (
             <>
-              <BodyWithTool content={introSplit[0]} tool={editorial?.tool} />
+              <BodyWithTool content={introSplit[0]} tool={bodyTool} />
               {quickFitAfterIntro && editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
               {keyFactorsAfterIntro && editorial?.keyFactors && (
                 <div className="mt-10">
@@ -419,21 +425,21 @@ export default async function ArticlePage({ params }: Props) {
               )}
               {sections.length > 0 && <ArticleToc sections={sections} />}
               {editorial?.matrix && <ComparisonMatrix data={editorial.matrix} />}
-              <BodyWithTool content={introSplit[1]} tool={editorial?.tool} />
+              <BodyWithTool content={introSplit[1]} tool={bodyTool} />
             </>
           ) : bodyParts ? (
             <>
-              <BodyWithTool content={bodyParts[0]} tool={editorial?.tool} />
+              <BodyWithTool content={bodyParts[0]} tool={bodyTool} />
               <LeadMagnetCTA
                 selection={magnetSelection}
                 variant="inline"
                 pageCategory="blog"
                 className="mt-10"
               />
-              <BodyWithTool content={bodyParts[1]} tool={editorial?.tool} />
+              <BodyWithTool content={bodyParts[1]} tool={bodyTool} />
             </>
           ) : (
-            <BodyWithTool content={article.body} tool={editorial?.tool} />
+            <BodyWithTool content={article.body} tool={bodyTool} />
           )}
         </div>
 
