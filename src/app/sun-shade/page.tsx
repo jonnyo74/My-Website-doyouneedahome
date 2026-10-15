@@ -1,6 +1,17 @@
 import type { Metadata } from 'next'
 import SunShadeApp, { type SunShadeInitialState } from '@/components/sunshade/SunShadeApp'
+import CommunityVideo from '@/components/CommunityVideo'
+import type { CommunityVideoData } from '@/lib/communities'
 import { DISCLAIMER } from '@/lib/sunshade/config'
+
+const SUN_SHADE_VIDEO: CommunityVideoData = {
+  id: 's_hwnz0lfSg',
+  title: 'Florida Home Buyers: Is the Pool in Sun or Shade? Check Before You Offer',
+  durationSeconds: 31,
+  uploadDate: '2026-10-15',
+  description:
+    'A 30-second walkthrough of the Florida Sun & Shade Analyzer: check how much sun a pool, patio or backyard gets before you make an offer.',
+}
 
 export const metadata: Metadata = {
   title: 'Florida Sun & Shade Analyzer | DO Homes Group',
@@ -58,6 +69,15 @@ export default async function SunShadePage({
   return (
     <>
       <SunShadeApp initial={initial} />
+      <div className="bg-slate-50 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <CommunityVideo
+            video={SUN_SHADE_VIDEO}
+            communityName="the Sun & Shade Analyzer"
+            eyebrow="See How It Works"
+          />
+        </div>
+      </div>
       {/* The disclaimer is repeated outside the client component so it is in
           the server-rendered HTML — it must be readable even if the map's
           JavaScript never loads. */}
