@@ -28,7 +28,7 @@ export const SATURDAY_ROUTES: SaturdayRoute[] = [
   {
     key: 'trail-morning',
     title: 'A bigger trail morning',
-    vibe: 'Pine flatwoods, wet prairie and long loops, a short drive north of Loxahatchee.',
+    vibe: 'Pine flatwoods, wet prairie and long loops, in county preserves north of Loxahatchee.',
     where: 'Hungryland Slough Natural Area or Loxahatchee Slough Natural Area',
     good: 'Hungryland Slough has a 3.75-mile loop that is hiking only.',
     section: 'Hungryland Slough Natural Area',
