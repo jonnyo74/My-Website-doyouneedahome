@@ -14894,7 +14894,6 @@ For the everyday picture, read [what it is really like to live in Loxahatchee](/
       { q: "Is Loxahatchee good value for someone who wants more space?", a: "It can be, when the household will use the space. The value shows up as room to use, room to breathe and room to choose, which are lifestyle values rather than guaranteed financial returns. If the appeal is only more property for the money, a closer-in suburban community may fit better." },
     ],
     internalLinks: ["best-neighborhoods-in-loxahatchee-florida","who-should-move-to-loxahatchee-florida","pros-and-cons-of-living-in-loxahatchee-florida","loxahatchee-vs-nearby-cities","what-its-really-like-living-in-loxahatchee-florida"],
-    funFact: "Palm Beach County's property tax bill is mailed by the Tax Collector each fall, after the Property Appraiser sends a Notice of Proposed Taxes (the TRIM notice) in August, so the numbers behind your bill are visible well before it arrives.",
     author: 'john',
     published: true,
     publishedDate: '2026-06-01',
