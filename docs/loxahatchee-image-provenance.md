@@ -8,6 +8,10 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | `loxahatchee-country-road-golden-hour-mobile.webp` | 1200x800 crop of the same artwork for phones | Same |
 | `loxahatchee-what-would-you-do-with-an-acre.webp` | "What would you do with an acre?" editorial graphic | Original artwork. Illustrative only, not a site plan. |
 | `loxahatchee-orientation-graphic.webp` | Orientation sketch: The Acreage, Loxahatchee Groves, Westlake, Royal Palm Beach, Wellington | Original artwork. Not a legal, municipal or survey boundary map. |
+| `loxahatchee-road-canal-grid-aerial-hero.webp` / `-mobile.webp` | Blog #2 hero: stylised aerial view of a rural road-and-canal grid in golden light | Original vector artwork. Not an aerial photograph. |
+| `loxahatchee-how-it-works-graphic.webp` | "How Loxahatchee Works" orientation graphic | Original artwork. Not a legal boundary map. |
+| `loxahatchee-gate-and-pasture-illustration.webp` | Gate, fence and pasture scene (blog #2) | Original artwork. No people, animals or vehicles. |
+| `loxahatchee-country-rhythm-strip.webp` | "Country Rhythm" five-icon strip (blog #2) | Original artwork. |
 
 ## To replace the hero with a photograph
 
