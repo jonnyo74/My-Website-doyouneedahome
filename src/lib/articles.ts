@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'inline-magnet'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'inline-magnet'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -286,6 +286,7 @@ export interface Article {
     // Keeps only the community's saved searches named in `from`, optionally relabelled.
     searches?: Array<{ from: string; label?: string; sublabel?: string }>
     searchHeading?: { eyebrow: string; heading: string }
+    conversionBlock?: false   // hides the whole "Explore homes" search/CTA block
   }
   updated: string             // ISO date — last modified
 }
