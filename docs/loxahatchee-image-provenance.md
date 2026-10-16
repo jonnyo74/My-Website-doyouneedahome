@@ -18,6 +18,8 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | `loxahatchee-wide-land-and-sky-illustration.webp` | Wide pasture and sky (blog #3) | Original artwork. |
 | `loxahatchee-choose-your-loxahatchee-graphic.webp` | "Choose Your Loxahatchee" orientation graphic | Original artwork. Not a legal boundary map. |
 | `loxahatchee-street-by-street-contrasts.webp` | Five street-by-street contrasts (blog #3) | Original artwork. |
+| `refuge-c-impoundments-sunset-usfws-hero.webp` / `-mobile.webp` | Blog #4 hero: sunset over the C-Impoundments, Arthur R. Marshall Loxahatchee National Wildlife Refuge | Real photograph by Veronica Kelly, U.S. Fish & Wildlife Service, 4 Nov 2020. Downloaded from fws.gov (refuge visit page banner). US government work, public domain. |
+| `refuge-canoe-trail-usfws.webp` | Refuge canoe trail photo (blog #4) | Real photograph by Veronica Kelly / U.S. Fish & Wildlife Service, from the refuge's fws.gov banner images. Public domain. |
 
 ## To replace the hero with a photograph
 

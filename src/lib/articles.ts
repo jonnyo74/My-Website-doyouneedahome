@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'inline-magnet'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'inline-magnet'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -286,6 +286,7 @@ export interface Article {
     // Keeps only the community's saved searches named in `from`, optionally relabelled.
     searches?: Array<{ from: string; label?: string; sublabel?: string }>
     searchHeading?: { eyebrow: string; heading: string }
+    conversionBlock?: false   // hides the whole "Explore homes" search/CTA block
   }
   updated: string             // ISO date — last modified
 }
@@ -14452,120 +14453,119 @@ If you are still weighing it, the [pros and cons](/blog/pros-and-cons-of-living-
     cityName: 'Loxahatchee',
     type: "Best Things To Do In",
     order: 4,
-    seoTitle: "Best Things to Do in Loxahatchee, Florida",
-    metaTitle: "Best Things to Do in Loxahatchee, Florida",
-    metaDescription: "From the Loxahatchee National Wildlife Refuge to horseback trails and the Everglades — a local guide to the best things to do in Loxahatchee, Florida.",
+    seoTitle: "Best Things to Do in Loxahatchee, Florida: Trails, Horses & Country Weekends",
+    metaTitle: "Best Things to Do in Loxahatchee, Florida: Trails, Horses & Country Weekends",
+    metaDescription: "Trails, pine flatwoods, horse country and open sky: how a country weekend really works in Loxahatchee, Florida, from Acreage Pines to the Everglades edge.",
     primaryKeyword: "things to do in Loxahatchee Florida",
-    secondaryKeywords: ["Loxahatchee attractions", "what to do in Loxahatchee", "Loxahatchee National Wildlife Refuge", "Everglades Loxahatchee"],
+    secondaryKeywords: ["Acreage Pines Natural Area","Loxahatchee Groves Park","Loxahatchee trails","Loxahatchee horse country","Loxahatchee outdoors"],
     h1: "Best Things to Do in Loxahatchee, Florida",
-    body: `Loxahatchee's recreation is outdoor, uncrowded and mostly free. The headline is one of the more significant natural areas in Florida sitting directly on the western boundary.
+    heroImage: '/images/loxahatchee/refuge-c-impoundments-sunset-usfws-hero.webp',
+    heroImageAlt: "Golden sunset over the wetland impoundments of Arthur R. Marshall Loxahatchee National Wildlife Refuge, with big clouds and a wide, flat horizon",
+    heroImageCaption: "Sunset over the C-Impoundments at Arthur R. Marshall Loxahatchee National Wildlife Refuge, whose 20 Mile Bend access is in Loxahatchee. Photo: Veronica Kelly / U.S. Fish & Wildlife Service.",
+    heroImageCredit: 'Veronica Kelly / USFWS',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    inlineMagnet: false,
+    pageModules: {
+      marketTrends: false,
+      listings: false,
+      conversionBlock: false,
+    },
+    editorial: {
+      eyebrow: 'Loxahatchee · Country weekends',
+      deck: "Trails, horse country, open sky, and a Saturday you build yourself.",
+      mobileImage: { src: '/images/loxahatchee/refuge-c-impoundments-sunset-usfws-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'See acreage living in Loxahatchee', href: '/communities/loxahatchee' },
+      secondaryCta: { label: 'Read: what it is really like to live here', href: '/blog/what-its-really-like-living-in-loxahatchee-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      tool: { kind: 'lox-saturday', beforeSection: 'Start Local: Acreage Pines Natural Area' },
+      closingStep: { eyebrow: 'See it for yourself', text: 'If a trail morning, a gate and a wide sky sound like your kind of weekend, take a look at what acreage living in Loxahatchee looks like.', cta: { label: 'See acreage living in Loxahatchee', href: '/communities/loxahatchee' } },
+    },
+    body: `Nobody comes to Loxahatchee for a main street. There isn't one. What there is: a boardwalk where herons work the edge of a wetland, a sandy path through slash pine and saw palmetto, a county park where the horse trailers pull in before the heat does, and a flat horizon that does its best work at sunset. The things to do here are built around land, the outdoors and a slower country rhythm.
 
-## The Loxahatchee National Wildlife Refuge
+That is the whole idea. Entertainment is not packed into a downtown. You choose your own version of a country Saturday: a trail morning, some time around horses, a stop at a local park, a project on the property, or a long look at the sky from your own back acre.
 
-The **Arthur R. Marshall Loxahatchee National Wildlife Refuge** protects a large expanse of the northern Everglades, and it's the reason to live on this side of the county for a lot of residents.
+## Start Local: Acreage Pines Natural Area
 
-**The cypress boardwalk** is a short loop through genuine cypress swamp — shaded, quiet, and completely different from anything on the coast. It's the easiest introduction and it's excellent.
+If you only do one thing in Loxahatchee itself, make it this one. Acreage Pines Natural Area preserves 124 acres of wetlands and pine lands at the west end of Acreage Pines Community Park, at 6405 140th Ave. N. Palm Beach County keeps it open from sunrise to sunset, every day of the year.
 
-**The marsh trail** runs the impoundment dikes, giving open views across sawgrass and water. Birding here is genuinely outstanding — wading birds, raptors, migratory species in season — and alligators are routine. Dawn is the time.
+It has two moods, and you can have both in one visit.
+- **The boardwalk.** A walk over the wetland puts you close to wading birds, cypress trees, dragonflies, herons and egrets hunting, and the endangered giant wild pine airplant.
+- **The pines.** A sandy hiking trail winds through slash pines and saw palmettos, with common nighthawks putting on acrobatic displays overhead. There is also a paved nature trail for an easier walk.
 
-**Paddling** through the marsh and canals is the fullest way to experience it: sawgrass at eye level, birds lifting off ahead of you, and silence.
+The county lists it as part of the Florida Greenways and Trails System. It is a walking destination: the county's list of natural areas open to horseback riding names other sites, so bring boots here and save the saddle for the next section. The [county's Acreage Pines page](https://discover.pbc.gov/erm/NaturalAreas/Acreage-Pines.aspx) has the current details.
 
-Practical notes: there's an entrance fee, mosquitoes are serious in the warm months, take far more water than you think, and go early. Summer afternoons are genuinely unpleasant and storms build fast.
+## Loxahatchee Groves Park and the Horse-Country Rhythm
 
-## Riding
+Horse country is a mood out here more than a promise. Trailers hitched to pickups, open land, a neighbor leading a horse along a fence line, feed and hay running through the weekend errands. Not everyone rides, and not every property has a barn, but the rhythm is part of the landscape.
 
-With horse properties throughout the area and trail access in places, riding is a daily activity rather than an outing for a substantial number of residents.
+The place to see it in a public setting is Loxahatchee Groves Park, at 13901 Southern Boulevard, between E Road and F Road on the north side of the road. It covers about 29 acres and is open sunrise to sunset, every day. The park has:
+- **A one-mile equestrian trail**, with parking areas large enough for horse trailers and their towing vehicles.
+- **Open green space** and a picnic area with grills, single-table pavilions and reservable group pavilions.
+- **A playground** for ages 5 to 12, a 10-station exercise course (0.47 mile), a softball field and restrooms.
 
-For anyone who keeps horses, the practical appeal is enormous — you ride from your own barn rather than driving to board. Trail networks and connections vary by area, and it's worth establishing what access a specific property actually has before buying.
+It works for a family afternoon whether or not anyone in the car owns a horse. The [county parks page](https://discover.pbc.gov/parks/Locations/Loxahatchee-Groves.aspx) lists the amenities and group rentals. For longer rides, the county's [equestrian trails guide](https://discover.pbc.gov/erm/Pages/Equestrian-Trails.aspx) lists the natural areas and parks where riding is allowed, along with the trail rules. If you want the food side of a country day, our [guide to eating and drinking around Loxahatchee](/blog/best-places-to-eat-drink-hang-out-in-loxahatchee-florida) covers it.
 
-## Fishing and paddling the canals
+## The Bigger Wild Places Nearby
 
-The canal network threading the area holds bass, panfish and more, and it's fishable from banks and small boats.
+Three much larger outings sit beyond Loxahatchee's own roads. They are different places with different entrances, so it helps to keep them straight.
 
-It's low-key, uncrowded and free, and it's the sort of thing residents do on an ordinary evening rather than planning around.
+| Place | The experience | Where it is |
+| --- | --- | --- |
+| Refuge, 20 Mile Bend | Levee trails and canal fishing | In Loxahatchee |
+| Refuge, Lee Road | Boardwalk and visitor center | Boynton Beach |
+| Hungryland Slough | Pine flatwoods hiking | Off Seminole Pratt Whitney Road |
+| Loxahatchee Slough | Big trails and a kayak launch | Palm Beach Gardens |
 
-## Stargazing
+### Arthur R. Marshall Loxahatchee National Wildlife Refuge
 
-Genuinely worth listing. Out here there's minimal light pollution — no streetlights on most roads, no commercial glare, and open horizons.
+The refuge is a major Everglades destination in Palm Beach County, and it has several separate access points. It is not a neighbor to Loxahatchee's back fence, and its activities depend on which entrance you use.
 
-On a clear night in the dry season the difference from the coast is dramatic. It costs nothing, requires no equipment, and it's one of the things people mention when explaining why they moved west.
+![A canoe bow on a still, reflective canal lined with sawgrass under big cumulus clouds at Arthur R. Marshall Loxahatchee National Wildlife Refuge](/images/loxahatchee/refuge-canoe-trail-usfws.webp "The refuge's canoe trail. Photo: Veronica Kelly / U.S. Fish & Wildlife Service."){1600x1200}
 
-## Your own land
+The **20 Mile Bend Area** is the Loxahatchee-side access, reached from Southern Boulevard. It is open year-round and is known for fishing and for levee trails used for hiking, biking and dog walking. Fishing is from the bank, a pier, or a boat launched into the perimeter canal.
 
-This sounds like filler and isn't. For a large share of residents, the primary recreation is the property: gardens, animals, workshops, projects, and the space to do them in.
+The boardwalk is elsewhere. The **Headquarters Area on Lee Road in Boynton Beach** is home to the visitor center, the 0.4-mile Cypress Swamp Boardwalk and a 5.5-mile canoe trail. Hiking, biking, paddling, fishing and horseback riding are each allowed only in designated places on the refuge, so check the [refuge's official visitor page](https://www.fws.gov/refuge/arthur-r-marshall-loxahatchee/visit-us) for current conditions at the entrance you plan to use.
 
-An acre absorbs a remarkable amount of activity, and people who move here for that reason spend most weekends on it happily.
+### Hungryland Slough Natural Area
 
-## Airboats and the Everglades edge
+This is a 3,004-acre county preserve north of Loxahatchee, with parking off Seminole Pratt Whitney Road, three miles north of Northlake Boulevard. It protects eight native Florida ecosystems, including mesic flatwoods, hydric hammock and wet prairie. The South Loop Trail is 3.75 miles and hiking only, and the preserve also carries part of the Florida Trail's Ocean to Lake Hiking Trail. A separate multiuse trail, the Pântano Trail, runs 3.4 miles. Open sunrise to sunset every day. See the [county page](https://discover.pbc.gov/erm/NaturalAreas/Hungryland-Slough.aspx).
 
-Available a short drive west and south, and worth doing once even if it sounds touristy.
+### Loxahatchee Slough Natural Area
 
-Airboat operators run from points along the Everglades edge, and the experience of moving across open sawgrass at speed is genuinely unlike anything else. Going with a good operator, early in the day, gets you wildlife rather than just a ride.
+Palm Beach County's largest natural area, at 13,025 acres, sits in Palm Beach Gardens along PGA Boulevard and is the headwaters of the Loxahatchee Wild and Scenic River. The main entrance at 11855 Beeline Highway has a paved hiking trail, a covered observation platform, restrooms, and natural-surface trails to a fishing pier and an observation tower. There is also a kayak and canoe launch at 8311 PGA Boulevard. It is a drive from Loxahatchee, not part of it, and the [county page](https://discover.pbc.gov/erm/NaturalAreas/Loxahatchee-Slough.aspx) lists each access point.
 
-For residents it doubles as the fastest way to show visiting family what the western county actually borders.
+> **Outdoors, respectfully.** Each preserve sets its own rules for who may hike, ride, bike, paddle or fish where, so check the county or refuge page before you go.
 
-## Nearby
+## The Part Visitors Miss: Your Own Land Can Be the Plan
 
-The rest of the western county is a manageable drive:
+Ask people who live out here what they do on a weekend and a lot of the answers happen at home. A vegetable bed that finally got built. A fence line walked at the end of the day. Fruit trees. A workshop project that has been waiting all week. An afternoon with the gate open and nothing on the calendar. A long sunset from a porch with no roofline in the way.
 
-- **Royal Palm Beach**, east, for its large community park with a lake swim area, trails and an amphitheatre — covered in [that village's own guide](/blog/best-things-to-do-in-royal-palm-beach-florida).
-- **Wellington**, southeast, for the equestrian showgrounds, polo, and the environmental preserve.
-- **The western natural areas** including the Loxahatchee Slough, for more trails and birding.
-- **Okeeheelee Park**, further east, with extensive recreation and water sports.
-- **The coast**, roughly forty minutes, when you want the ocean.
+Room to breathe is the amenity, and what you can actually do with it depends on the property, its zoning and its rules. Gardens, projects, animals, fires and the rest are possibilities on some properties and not on others. [What it is really like to live in Loxahatchee](/blog/what-its-really-like-living-in-loxahatchee-florida) is the longer version of that story, and our [Loxahatchee local guide](/blog/local-guide-to-loxahatchee-florida) covers how the area works day to day.
 
-## Cycling and running the grid
+## Who Will Love This, and Who May Not
 
-The section-line roads are flat, straight and lightly trafficked away from the main corridors, which makes them genuinely usable for distance riding and running.
+Loxahatchee is excellent for people who choose acreage and a rural rhythm on purpose. If a quiet trail morning, a county park with horse trailers in the lot and a long evening outside sounds like a good week, you will probably feel at home. The [best areas to live in Loxahatchee](/blog/best-neighborhoods-in-loxahatchee-florida) shows where that life tends to happen.
 
-The appeal is uninterrupted mileage: you can go a long way without a junction, a traffic light or a crowd. The drawback is sun — there is very little shade, and no water unless you carry it.
+It is not the right fit for someone who wants walkable nightlife, a packed downtown, or a lot to do within a few blocks. That is not a flaw. It is a different kind of place, and knowing which kind you want saves a lot of time.
 
-Early morning in the dry season is the window, and high-visibility clothing matters on roads where vehicles move quickly.
+## See What Acreage Living in Loxahatchee Looks Like
 
-## Birding from your own property
-
-Worth mentioning separately from the refuge, because it happens without going anywhere.
-
-Sandhill cranes, hawks, owls, herons working the canals, and a substantial migratory presence in the cooler months all use this landscape. Residents who put out water and leave part of the lot unmown see a remarkable amount without leaving the porch.
-
-It is, for many people here, the single most pleasant part of owning land.
-
-## Seasonal timing
-
-**The dry season, roughly November through April**, is when everything outdoors here is at its best: comfortable temperatures, far fewer mosquitoes, excellent birding as migratory species arrive, and the refuge at its most rewarding.
-
-**Summer** is hot, humid and stormy, with mosquitoes a genuine limiting factor away from the coast's breeze. Early mornings only, and watch the sky.
-
-**Burn season and agricultural activity** are part of the landscape here — smoke from controlled burns and field work is normal and occasionally noticeable.
-
-## Hunting, shooting and the outdoor sports
-
-Part of the culture out here and worth naming honestly, since it surprises people arriving from the coast.
-
-The proximity to large tracts of public and conservation land means hunting is part of the seasonal rhythm for a number of residents, under state regulation and in designated areas only. Sporting clays and range facilities exist in the wider western county.
-
-For residents who don't participate, the practical relevance is mainly seasonal: you will hear it occasionally, particularly in the cooler months, and it is a normal part of the landscape here.
-
-As with everything on private land out here, what is permitted on your own parcel is a zoning and county-ordinance question worth establishing rather than assuming.
-
-## Where to start
-
-Walk the cypress boardwalk, then come back another morning and walk the marsh trail at dawn.
-
-Those two will tell you whether the western county is somewhere you want to be — because the refuge is the single thing this area offers that nowhere else in Palm Beach County can. Once you've done them, the [quieter local finds](/blog/hidden-gems-in-loxahatchee-florida) are where it starts to feel like home.`,
+If your ideal weekend starts with a trail, a gate and a wide sky, take a look at the [Loxahatchee community page](/communities/loxahatchee). For the quirkier side of the area, our [hidden gems in Loxahatchee](/blog/hidden-gems-in-loxahatchee-florida) is the next read.`,
     faqs: [
-      { q: "What is the Loxahatchee National Wildlife Refuge?", a: "The Arthur R. Marshall refuge protects a large expanse of the northern Everglades on the western boundary of the area. It has a short cypress boardwalk loop through genuine swamp, a marsh trail along the impoundment dikes with outstanding birding, and paddling routes through sawgrass and canals. There is an entrance fee." },
-      { q: "When is the best time to visit the refuge?", a: "Dawn, in the dry season from roughly November through April — comfortable temperatures, far fewer mosquitoes, and excellent birding as migratory species arrive. Summer afternoons are genuinely unpleasant, storms build fast, and mosquitoes are serious. Take far more water than you think you need." },
-      { q: "Can I ride horses in Loxahatchee?", a: "For many residents it is a daily activity rather than an outing, since you ride from your own barn rather than driving to board. Trail networks and connections vary by area, so establish what access a specific property actually has before buying rather than assuming the area-wide picture applies." },
-      { q: "Is the stargazing good in Loxahatchee?", a: "Genuinely — minimal light pollution, no streetlights on most roads, no commercial glare and open horizons. On a clear dry-season night the difference from the coast is dramatic. It costs nothing, needs no equipment, and it is one of the things residents cite when explaining why they moved west." },
-      { q: "What is there to do in Loxahatchee besides the refuge?", a: "Riding, fishing and paddling the canal network, stargazing, and — for a large share of residents — the property itself, since an acre absorbs a remarkable amount of gardening, animals, workshops and projects. Royal Palm Beach, Wellington and the western natural areas are all a manageable drive east." },
-      { q: "Are mosquitoes bad in Loxahatchee?", a: "In the warm months, yes, and considerably more than on the coast where there is more breeze. They are a genuine limiting factor on summer outdoor activity away from the water. The dry season from November through April is dramatically better and is when residents do most of their outdoor recreation." },
+      { q: "What are the best outdoor things to do in Loxahatchee?", a: "Start with Acreage Pines Natural Area in Loxahatchee, which has a boardwalk, a paved nature trail and a sandy hiking trail. Loxahatchee Groves Park has a one-mile equestrian trail, picnic areas and a playground. For bigger outings, the Arthur R. Marshall Loxahatchee National Wildlife Refuge, Hungryland Slough and Loxahatchee Slough are all a drive away." },
+      { q: "Where can I walk or hike near Loxahatchee?", a: "Acreage Pines Natural Area, at 6405 140th Ave. N., is open sunrise to sunset every day. Hungryland Slough Natural Area, north of Loxahatchee off Seminole Pratt Whitney Road, has a 3.75-mile hiking-only loop. Loxahatchee Slough Natural Area in Palm Beach Gardens has a paved hiking trail and longer natural-surface trails." },
+      { q: "Are there equestrian-friendly places to ride nearby?", a: "Loxahatchee Groves Park, at 13901 Southern Boulevard, has a one-mile equestrian trail and parking sized for horse trailers. Palm Beach County also lists specific equestrian trails in Loxahatchee Slough Natural Area and other natural areas. Each site has its own trail rules, so check the county's equestrian trails page before you go." },
+      { q: "Is the Loxahatchee National Wildlife Refuge actually in Loxahatchee?", a: "Only partly. The refuge has several separate access points. The 20 Mile Bend Area is in Loxahatchee, reached from Southern Boulevard. The visitor center and the Cypress Swamp Boardwalk are on Lee Road in Boynton Beach, and the Hillsboro Area is in Parkland." },
+      { q: "What makes weekends in Loxahatchee different from the rest of Palm Beach County?", a: "There is no downtown to go to. Weekends are built around land: a trail morning, time with horses, a park stop, projects at home, and a wide sunset. It suits people who choose acreage and a rural rhythm on purpose." },
     ],
-    internalLinks: ["hidden-gems-in-loxahatchee-florida", "best-places-to-eat-drink-hang-out-in-loxahatchee-florida", "local-guide-to-loxahatchee-florida"],
-    funFact: "The Loxahatchee National Wildlife Refuge — Arthur R. Marshall — covers 145,000 acres of protected Everglades-system wetlands on Loxahatchee's eastern border. Early morning canoe launches from the refuge put you in Florida wilderness that feels unchanged from 200 years ago, 30 minutes from a Target.",
-    author: 'christine',
+    internalLinks: ["what-its-really-like-living-in-loxahatchee-florida","local-guide-to-loxahatchee-florida","best-neighborhoods-in-loxahatchee-florida","hidden-gems-in-loxahatchee-florida","best-places-to-eat-drink-hang-out-in-loxahatchee-florida"],
+    funFact: "Acreage Pines Natural Area sits right next to Acreage Community Park in Loxahatchee, so a playground stop and a boardwalk walk can share one trip. The boardwalk is the best spot to look for wading birds hunting the wetland edge.",
+    author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'who-should-move-to-loxahatchee-florida',
