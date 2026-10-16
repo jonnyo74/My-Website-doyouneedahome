@@ -9,7 +9,7 @@ import {
   REGIONAL_BLOG_TAB,
   marketTrendsCity,
   visibleArticles,
-  type ArticleEditorial,
+  type ArticleToolSpec,
 } from '@/lib/articles'
 import {
   NPB_WORKSHEET_HEADING,
@@ -48,6 +48,7 @@ import EditorialHero from '@/components/article/EditorialHero'
 import LoxFreedomTest, { FREEDOM_HEADING, FREEDOM_HEADING_ID } from '@/components/article/LoxFreedomTest'
 import LoxChooser, { CHOOSER_HEADING, CHOOSER_HEADING_ID } from '@/components/article/LoxChooser'
 import LoxFitCard, { FIT_HEADING, FIT_HEADING_ID } from '@/components/article/LoxFitCard'
+import { LoxCostEquation, LoxValueCards, EQUATION_HEADING, EQUATION_HEADING_ID, VALUE_HEADING, VALUE_HEADING_ID } from '@/components/article/LoxCostModules'
 import LoxTradeCard, { TRADE_HEADING, TRADE_HEADING_ID } from '@/components/article/LoxTradeCard'
 import LoxSaturdayChooser, { SATURDAY_HEADING, SATURDAY_HEADING_ID } from '@/components/article/LoxSaturdayChooser'
 import QuickFit from '@/components/article/QuickFit'
@@ -70,7 +71,7 @@ type Props = { params: Promise<{ slug: string }> }
 
 // Each tool kind renders its own component and owns one ## heading, which the
 // table of contents lists directly before the section the tool precedes.
-type ArticleTool = NonNullable<ArticleEditorial['tool']>
+type ArticleTool = ArticleToolSpec
 type ToolKind = ArticleTool['kind']
 const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = {
   'carrying-cost-worksheet': { id: WORKSHEET_HEADING_ID, label: WORKSHEET_HEADING },
@@ -87,6 +88,8 @@ const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = 
   'lox-saturday': { id: SATURDAY_HEADING_ID, label: SATURDAY_HEADING },
   'lox-fit': { id: FIT_HEADING_ID, label: FIT_HEADING },
   'lox-trade': { id: TRADE_HEADING_ID, label: TRADE_HEADING },
+  'lox-cost-equation': { id: EQUATION_HEADING_ID, label: EQUATION_HEADING },
+  'lox-value': { id: VALUE_HEADING_ID, label: VALUE_HEADING },
 }
 function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode }) {
   // Lets an article place its relocation-guide offer at a decision point instead of the automatic spot.
@@ -104,6 +107,8 @@ function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode 
   if (kind === 'lox-saturday') return <LoxSaturdayChooser />
   if (kind === 'lox-fit') return <LoxFitCard />
   if (kind === 'lox-trade') return <LoxTradeCard />
+  if (kind === 'lox-cost-equation') return <LoxCostEquation />
+  if (kind === 'lox-value') return <LoxValueCards />
   return <JupiterBeachAccessBlock />
 }
 
@@ -284,8 +289,10 @@ export default async function ArticlePage({ params }: Props) {
   // A tool is its own section, so it gets a contents entry directly before
   // the section it's rendered in front of.
   if (editorial?.tool) {
-    const at = sections.findIndex((s) => s.label === editorial.tool?.beforeSection)
-    if (at >= 0) { const heading = TOOL_HEADINGS[editorial.tool.kind]; if (heading) sections.splice(at, 0, heading) }
+    for (const t of Array.isArray(editorial.tool) ? editorial.tool : [editorial.tool]) {
+      const at = sections.findIndex((s) => s.label === t.beforeSection)
+      if (at >= 0) { const heading = TOOL_HEADINGS[t.kind]; if (heading) sections.splice(at, 0, heading) }
+    }
   }
 
   // ---- JSON-LD structured data ----
