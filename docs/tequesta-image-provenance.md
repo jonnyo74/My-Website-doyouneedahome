@@ -98,3 +98,11 @@ The destination data lives in `src/lib/tequestaGems.ts` and carries no coordinat
 | `public/images/jupiter/jupiter-inlet-aerial-hero.webp` (2048x1152) | John Oliver's own photo, documented in `public/images/jupiter/SOURCES.md` | Hero and OG image. The Jupiter Inlet from the lighthouse gallery, captioned as Jupiter |
 
 The comparison matrix and the priority selector read `src/lib/nearbyCommunities.ts`, which is qualitative only: no prices, drive times or rankings.
+
+## Tequesta Blog #10 (Eat, Drink & Hang Out)
+
+| File | Source | Use |
+| --- | --- | --- |
+| `public/images/tequesta/tequesta-intracoastal-sunset-evening-hero.webp` (1920x1080) | `IMG_4357.JPEG`, 16:9 crop, John Oliver's own photo from the Jupiter folder (same sunset session as Blogs #4 to #7) | Hero and OG image; `heroImagePosition` 99% so the paddleboarder is centered on phones. Captioned as the Intracoastal in Tequesta, explicitly not a photo of a restaurant |
+
+No authorized photograph of Blue Pointe, Tiki 52 or any other restaurant exists in the project, so none is used. Replace the hero with a real, permissioned venue photo when one is available.
