@@ -90,3 +90,11 @@ Originals have no EXIF, so "Tequesta" rests on John's description of the folder.
 | `public/images/tequesta/coral-cove-rocks-surf.webp` | See Blog #4 | Coral Cove entry |
 
 The destination data lives in `src/lib/tequestaGems.ts` and carries no coordinates. The destination finder is a filterable directory with name-and-address directions links, not a pin map.
+
+## Tequesta Blog #9 (Tequesta vs Nearby Communities)
+
+| File | Source | Use |
+| --- | --- | --- |
+| `public/images/jupiter/jupiter-inlet-aerial-hero.webp` (2048x1152) | John Oliver's own photo, documented in `public/images/jupiter/SOURCES.md` | Hero and OG image. The Jupiter Inlet from the lighthouse gallery, captioned as Jupiter |
+
+The comparison matrix and the priority selector read `src/lib/nearbyCommunities.ts`, which is qualitative only: no prices, drive times or rankings.

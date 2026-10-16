@@ -24,6 +24,7 @@ import { OWNERSHIP_HEADING, OWNERSHIP_HEADING_ID } from '@/lib/tequestaOwnership
 import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import JupiterBeachAccessBlock from '@/components/article/JupiterBeachAccessBlock'
 import TequestaOwnershipCalculator from '@/components/article/TequestaOwnershipCalculator'
+import { CompareMatrix, FitSelector, MATRIX_HEADING, MATRIX_HEADING_ID, SELECTOR_HEADING, SELECTOR_HEADING_ID } from '@/components/article/TequestaCompareTools'
 import TequestaGemsExplorer, { GEMS_EXPLORER_HEADING, GEMS_EXPLORER_HEADING_ID } from '@/components/article/TequestaGemsExplorer'
 import KeyFactors from '@/components/article/KeyFactors'
 import ComparisonMatrix, { matrixHeadingId } from '@/components/article/ComparisonMatrix'
@@ -63,21 +64,28 @@ type Props = { params: Promise<{ slug: string }> }
 
 // Each tool kind renders its own component and owns one ## heading, which the
 // table of contents lists directly before the section the tool precedes.
-type ToolKind = NonNullable<ArticleEditorial['tool']>['kind']
-const TOOL_HEADINGS: Record<ToolKind, { id: string; label: string }> = {
+type ArticleTool = NonNullable<ArticleEditorial['tool']>
+type ToolKind = ArticleTool['kind']
+const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = {
   'carrying-cost-worksheet': { id: WORKSHEET_HEADING_ID, label: WORKSHEET_HEADING },
   'wellington-cost-worksheet': { id: WELLINGTON_WORKSHEET_HEADING_ID, label: WELLINGTON_WORKSHEET_HEADING },
   'north-palm-beach-cost-worksheet': { id: NPB_WORKSHEET_HEADING_ID, label: NPB_WORKSHEET_HEADING },
   'jupiter-beach-access-map': { id: MAP_HEADING_ID, label: MAP_HEADING },
   'tequesta-ownership-calculator': { id: OWNERSHIP_HEADING_ID, label: OWNERSHIP_HEADING },
   'tequesta-gems-explorer': { id: GEMS_EXPLORER_HEADING_ID, label: GEMS_EXPLORER_HEADING },
+  'tequesta-compare-matrix': { id: MATRIX_HEADING_ID, label: MATRIX_HEADING },
+  'tequesta-fit-selector': { id: SELECTOR_HEADING_ID, label: SELECTOR_HEADING },
 }
-function ToolBlock({ kind }: { kind: ToolKind }) {
+function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode }) {
+  // Lets an article place its relocation-guide offer at a decision point instead of the automatic spot.
+  if (kind === 'inline-magnet') return <>{magnet}</>
   if (kind === 'carrying-cost-worksheet') return <CarryingCostWorksheet />
   if (kind === 'wellington-cost-worksheet') return <CarryingCostWorksheet variant="wellington" />
   if (kind === 'north-palm-beach-cost-worksheet') return <CarryingCostWorksheet variant="north-palm-beach" />
   if (kind === 'tequesta-ownership-calculator') return <TequestaOwnershipCalculator />
   if (kind === 'tequesta-gems-explorer') return <TequestaGemsExplorer />
+  if (kind === 'tequesta-compare-matrix') return <CompareMatrix />
+  if (kind === 'tequesta-fit-selector') return <FitSelector />
   return <JupiterBeachAccessBlock />
 }
 
@@ -85,18 +93,24 @@ function ToolBlock({ kind }: { kind: ToolKind }) {
 // interactive tool and its target "## " heading falls inside this slice, the
 // tool is spliced in directly before that heading; otherwise it's plain Prose.
 // The inline magnet CTA splits the body in two, so either half may hold it.
-function BodyWithTool({ content, tool }: { content: string; tool?: ArticleEditorial['tool'] }) {
-  if (!tool) return <Prose content={content} />
+function BodyWithTool({ content, tool, magnet }: { content: string; tool?: ArticleTool | ArticleTool[]; magnet?: React.ReactNode }) {
+  const tools = Array.isArray(tool) ? tool : tool ? [tool] : []
+  if (tools.length === 0) return <Prose content={content} />
   const lines = content.split('\n')
-  const at = lines.findIndex((line) => line.trimEnd() === `## ${tool.beforeSection}`)
-  if (at < 0) return <Prose content={content} />
-  return (
-    <>
-      <Prose content={lines.slice(0, at).join('\n')} />
-      <ToolBlock kind={tool.kind} />
-      <Prose content={lines.slice(at).join('\n')} />
-    </>
-  )
+  const hits = tools
+    .map((t) => ({ t, at: lines.findIndex((line) => line.trimEnd() === `## ${t.beforeSection}`) }))
+    .filter((h) => h.at >= 0)
+    .sort((a, b) => a.at - b.at)
+  if (hits.length === 0) return <Prose content={content} />
+  const parts: React.ReactNode[] = []
+  let from = 0
+  hits.forEach((h, i) => {
+    parts.push(<Prose key={`p${i}`} content={lines.slice(from, h.at).join('\n')} />)
+    parts.push(<ToolBlock key={`t${i}`} kind={h.t.kind} magnet={magnet} />)
+    from = h.at
+  })
+  parts.push(<Prose key="pend" content={lines.slice(from).join('\n')} />)
+  return <>{parts}</>
 }
 
 // Split an article body at the "## " heading nearest ~30% through the content
@@ -192,6 +206,7 @@ export default async function ArticlePage({ params }: Props) {
   // get a Treasure Coast offer, relocation articles get the decision guide, and
   // condo-building articles get the due-diligence checklist.
   const magnetSelection = selectMagnetForArticle(article)
+  const placedMagnet = <LeadMagnetCTA selection={magnetSelection} variant="inline" pageCategory="blog" className="mt-10" />
   // An article that places its magnet CTA explicitly never also gets the
   // automatic mid-body one.
   const bodyParts =
@@ -244,7 +259,7 @@ export default async function ArticlePage({ params }: Props) {
   // the section it's rendered in front of.
   if (editorial?.tool) {
     const at = sections.findIndex((s) => s.label === editorial.tool?.beforeSection)
-    if (at >= 0) sections.splice(at, 0, TOOL_HEADINGS[editorial.tool.kind])
+    if (at >= 0) { const heading = TOOL_HEADINGS[editorial.tool.kind]; if (heading) sections.splice(at, 0, heading) }
   }
 
   // ---- JSON-LD structured data ----
@@ -419,7 +434,7 @@ export default async function ArticlePage({ params }: Props) {
           {/* Body — with an inline report CTA about a third of the way through */}
           {introSplit ? (
             <>
-              <BodyWithTool content={introSplit[0]} tool={bodyTool} />
+              <BodyWithTool content={introSplit[0]} tool={bodyTool} magnet={placedMagnet} />
               {quickFitAfterIntro && editorial?.quickFit && <QuickFit data={editorial.quickFit} />}
               {keyFactorsAfterIntro && editorial?.keyFactors && (
                 <div className="mt-10">
@@ -428,21 +443,21 @@ export default async function ArticlePage({ params }: Props) {
               )}
               {sections.length > 0 && <ArticleToc sections={sections} />}
               {editorial?.matrix && <ComparisonMatrix data={editorial.matrix} />}
-              <BodyWithTool content={introSplit[1]} tool={bodyTool} />
+              <BodyWithTool content={introSplit[1]} tool={bodyTool} magnet={placedMagnet} />
             </>
           ) : bodyParts ? (
             <>
-              <BodyWithTool content={bodyParts[0]} tool={bodyTool} />
+              <BodyWithTool content={bodyParts[0]} tool={bodyTool} magnet={placedMagnet} />
               <LeadMagnetCTA
                 selection={magnetSelection}
                 variant="inline"
                 pageCategory="blog"
                 className="mt-10"
               />
-              <BodyWithTool content={bodyParts[1]} tool={bodyTool} />
+              <BodyWithTool content={bodyParts[1]} tool={bodyTool} magnet={placedMagnet} />
             </>
           ) : (
-            <BodyWithTool content={article.body} tool={bodyTool} />
+            <BodyWithTool content={article.body} tool={bodyTool} magnet={placedMagnet} />
           )}
         </div>
 

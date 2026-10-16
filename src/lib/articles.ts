@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'inline-magnet'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -261,7 +261,7 @@ export interface Article {
   heroImagePosition?: string
   // Interactive tool for articles that don't use the editorial layout. Same shape as
   // editorial.tool: rendered directly before the ## section named by beforeSection.
-  bodyTool?: NonNullable<ArticleEditorial['tool']>
+  bodyTool?: NonNullable<ArticleEditorial['tool']> | Array<NonNullable<ArticleEditorial['tool']>>
   heroImageWidth?: number    // intrinsic px — emitted as og:image:width so crawlers can size the card
   heroImageHeight?: number   // intrinsic px — emitted as og:image:height
   heroImageCredit?: string   // e.g. 'Photo by Jane Doe / Unsplash'
@@ -28832,130 +28832,139 @@ Where a place sits affects how it fits into daily life. Homes near the village c
     updated: '2026-10-16',
   },
   {
-    slug: 'tequesta-vs-nearby-cities',
+    slug: "tequesta-vs-nearby-cities",
     citySlug: 'tequesta',
     cityName: 'Tequesta',
     type: "City vs Nearby Cities",
     order: 9,
-    seoTitle: "Tequesta vs Nearby Cities: How to Choose",
-    metaTitle: "Tequesta vs Nearby Cities",
-    metaDescription: "Tequesta vs Jupiter, Hobe Sound, and Juno Beach — an honest comparison to help you choose the right northern community for your move.",
+    seoTitle: "Tequesta vs Jupiter, Hobe Sound & Nearby Communities | DYNA",
+    metaTitle: "Tequesta vs Jupiter, Hobe Sound & Nearby Communities | DYNA",
+    metaDescription: "Compare Tequesta with Jupiter, Hobe Sound, Juno Beach, Palm Beach Gardens and more, plus what to verify on county, taxes and insurance before you buy.",
     primaryKeyword: "Tequesta vs nearby cities",
-    secondaryKeywords: ["Tequesta vs Jupiter", "Tequesta vs Hobe Sound", "Tequesta vs Juno Beach"],
-    h1: "Tequesta vs Nearby Cities: How to Choose",
+    secondaryKeywords: ["Tequesta vs Jupiter","Tequesta vs Hobe Sound","Tequesta vs Juno Beach","Tequesta vs Palm Beach Gardens","best places to live near Tequesta","Tequesta Florida comparison"],
+    h1: "Tequesta vs. Jupiter, Hobe Sound & Nearby Communities: Where Should You Live?",
+    heroImage: '/images/jupiter/jupiter-inlet-aerial-hero.webp',
+    heroImageAlt: "The Jupiter Inlet seen from the lighthouse gallery, with docks and houses along the water and the Atlantic beyond",
+    heroImageCaption: "The Jupiter Inlet from the lighthouse gallery in Jupiter.",
+    heroImageCredit: 'Photo by John Oliver',
+    heroImageWidth: 2048,
+    heroImageHeight: 1152,
+    inlineMagnet: false,
     showMarketTrends: true,
-    body: `Almost everyone shopping Tequesta is also shopping Jupiter, and a good number are looking north into Martin County as well. The towns are close enough to share a weather forecast and different enough that the choice matters.
-
-## vs Jupiter
-
-The comparison that decides it for most buyers, since the two are minutes apart and share the river.
-
-Jupiter is substantially larger, with real beaches, the inlet and lighthouse, a waterfront dining scene, significant employment, a hospital, and a strong town identity. It's also busier, more built-up, and generally a little more expensive for something comparable.
-
-Tequesta is quieter, greener, lower-density and smaller, with a village government and essentially none of Jupiter's commercial life.
-
-Here's the thing that resolves it: **you get Jupiter either way.** Living in Tequesta doesn't cut you off from any of it — the beaches, restaurants and shops are three minutes away. What changes is what's outside your own front door.
-
-**Choose Jupiter if:** you want the town around you rather than nearby.
-**Choose Tequesta if:** you want quiet at home and are happy to drive for everything else. Our [look at daily life here](/blog/what-its-really-like-living-in-tequesta-florida) is honest about what that means.
-
-## vs Hobe Sound
-
-North, over the county line into Martin County, and the closest thing to Tequesta in temperament.
-
-Hobe Sound is also small, also quiet, also water-adjacent — but oriented around conservation land and beach rather than around a river, with a much wider range of price points and a genuinely different feel. Martin County's growth rules have kept it low-rise in a way that even Tequesta hasn't fully matched.
-
-**Choose Hobe Sound if:** you want state park and preserve land at the door, a broader price range, and Martin County's slower pace.
-**Choose Tequesta if:** you want the river, and Palm Beach County's services and proximity.
-
-## vs Juno Beach
-
-South, small, and the low-rise beach alternative.
-
-Juno Beach is a genuinely restrained coastal town with a well-preserved shoreline and oceanfront access. It's also limited in supply and expensive relative to house size.
-
-**Choose Juno Beach if:** walking to the ocean is the requirement.
-**Choose Tequesta if:** the river and the trees matter more than the sand.
-
-## vs Palm Beach Gardens
-
-South, larger, and the amenity-rich alternative.
-
-Palm Beach Gardens offers newer housing, gated communities, golf, the area's main retail concentration, substantial employment and considerably more house per dollar in many segments. It's polished, master-planned and inland.
-
-**Choose Palm Beach Gardens if:** newness, space and amenities lead.
-**Choose Tequesta if:** you'd trade all of that for canopy, quiet and a protected river.
-
-## vs Jupiter Inlet Colony and Jupiter Island
-
-The small barrier-island communities east, and a different financial universe.
-
-Both are exclusive in the literal sense — small, heavily residential, tightly controlled and extremely expensive. Jupiter Island in particular ranks among the most expensive residential addresses in the country.
-
-**Choose those if:** the budget genuinely allows and oceanfront privacy is the requirement.
-**Choose Tequesta if:** you'd rather own a boat and a house than an address.
-
-## vs Stuart and Palm City
-
-Further north in Martin County, and the value direction.
-
-Both offer more house and land for the money, a slower pace, and Martin County's strict growth management. Stuart has a genuine historic downtown that Tequesta cannot match. The trade is distance from Palm Beach County's employment and amenities.
-
-**Choose north if:** value and space lead, and you'll verify what the county change means for you.
-**Choose Tequesta if:** you want to stay within easy reach of the Gardens and West Palm Beach.
-
-## vs the western Palm Beach Gardens communities
-
-Worth naming because buyers wanting more space often end up looking inland.
-
-The gated communities west offer newer construction, larger houses, community amenities and lower prices per square foot. What they can't offer is a river, mature canopy, or a village of six thousand people.
-
-**Choose west if:** house size and newness lead.
-**Choose Tequesta if:** the setting is the point.
-
-## vs Jupiter Farms and the western areas
-
-Worth naming because buyers wanting land often look west rather than north or south.
-
-Jupiter Farms and the semi-rural areas west of the highway offer acreage, room for horses and workshops, and considerably more land per dollar than anything in the village. The trade is a genuine drive to everything, well and septic rather than utilities in many cases, and no walkable anything.
-
-**Choose west if:** land and privacy lead, and you're equipped for a more self-sufficient setup.
-**Choose Tequesta if:** you want a village with services and a river rather than acreage.
-
-## vs staying put and renovating
-
-An option worth naming, because a fair number of people shopping this village already live in the area.
-
-Given how much of Tequesta's value sits in lots, canopy and location rather than in the houses themselves, buying a dated house here and renovating it is a common and often sensible path — frequently better value than paying the premium for someone else's finished renovation.
-
-**Consider that if:** you have the appetite and the timeline. Our [cost breakdown](/blog/cost-of-living-in-tequesta-florida) covers what the work actually runs to.
-
-## How to decide
-
-Rank these honestly before touring:
-
-1. **Quiet at home.** If first, Tequesta and Hobe Sound lead.
-2. **A town around you.** Jupiter, or Palm Beach Gardens.
-3. **Ocean at your door.** Juno Beach, or the island communities at a price.
-4. **Space per dollar.** West, or north into Martin County.
-5. **A protected river with dockage.** Tequesta, essentially alone.
-
-The pattern here is that this corner of the county offers several genuinely good small towns within ten minutes of each other, and the differences are about texture rather than quality. Most buyers can be happy in more than one — the exercise is working out which texture you actually want.
-
-One practical note: **confirm the county.** The Palm Beach–Martin line runs through this area and changes your school district, tax bill and services. Verify rather than assuming from a mailing address, and see our [cost breakdown](/blog/cost-of-living-in-tequesta-florida) for why it matters to the budget.`,
-    faqs: [
-      { q: "Tequesta or Jupiter?", a: "You get Jupiter either way — living in Tequesta does not cut you off from its beaches, restaurants or shops, which are three minutes away. What changes is what sits outside your own front door. Choose Jupiter if you want the town around you, Tequesta if you want quiet at home and are happy to drive." },
-      { q: "How does Hobe Sound compare to Tequesta?", a: "It is the closest thing to Tequesta in temperament — small, quiet and water-adjacent — but oriented around conservation land and beach rather than a river, with a wider range of price points and Martin County's slower pace and stricter growth rules. Choose Hobe Sound for preserve land, Tequesta for the river and Palm Beach County proximity." },
-      { q: "Is Palm Beach Gardens a better choice than Tequesta?", a: "It depends what you value. Palm Beach Gardens offers newer housing, gated communities, golf, the main retail concentration, substantial employment and more house per dollar in many segments. Tequesta trades all of that for mature canopy, genuine quiet and a protected river." },
-      { q: "What about Jupiter Island or Jupiter Inlet Colony?", a: "Both are small, heavily residential, tightly controlled and extremely expensive, with Jupiter Island ranking among the priciest residential addresses in the country. Choose them if the budget genuinely allows and oceanfront privacy is the requirement; choose Tequesta if you would rather own a boat and a house than an address." },
-      { q: "Should I look north into Martin County instead?", a: "Stuart and Palm City offer more house and land for the money, a slower pace and Martin County's strict growth management, and Stuart has a historic downtown Tequesta cannot match. The trade is distance from Palm Beach County employment and amenities — and a county change that affects schools, taxes and services." },
-      { q: "What is the key difference between the towns up here?", a: "Texture rather than quality. This corner of the county has several genuinely good small towns within ten minutes of each other, and most buyers could be happy in more than one. The exercise is working out whether you want quiet at home, a town around you, ocean at the door, or space per dollar." },
+    bodyTool: [
+      { kind: 'tequesta-compare-matrix', beforeSection: 'Tequesta vs. Jupiter' },
+      { kind: 'tequesta-fit-selector', beforeSection: 'Five Things to Verify Before Choosing' },
+      { kind: 'inline-magnet', beforeSection: 'Five Things to Verify Before Choosing' },
     ],
-    internalLinks: ["who-should-move-to-tequesta-florida", "what-its-really-like-living-in-tequesta-florida", "cost-of-living-in-tequesta-florida"],
-    funFact: "The Loxahatchee River Battlefield Park in Tequesta marks the site of the 1838 Battle of Loxahatchee during the Second Seminole War — a significant engagement that's almost completely unknown outside Florida history circles. It's a quiet, preserved site right in the village that most residents drive past without knowing what happened there.",
+    body: `Anyone shopping Tequesta is probably shopping its neighbors too, and the neighbors are not the same kind of place. Tequesta is an incorporated village. Jupiter is a town, Palm Beach Gardens is a city, Hobe Sound is not a municipality at all, and some of the names buyers use, such as Jupiter Island and Jupiter Inlet Colony, are separate towns that are easy to confuse. That structure matters because it decides who provides services, who issues permits and which county's records apply.
+
+This page is a decision guide, not a set of city profiles. It compares by what changes your search, and it ends with what to verify on a specific home. We do not print prices, drive times or rankings, because they depend on the property and change over time.
+
+## Quick Answer: How Tequesta Compares
+
+- **Tequesta** is a small Palm Beach County village with its own police, fire rescue and water utility, a modest center on Tequesta Drive, and housing that ranges from older single-family homes to Beach Road condominiums.
+- **Jupiter** is a larger town next door with a bigger commercial base and more variety.
+- **Hobe Sound** is an unincorporated Martin County community, so a move north usually means a county change.
+- **Juno Beach** is a small oceanfront town where condominiums are central.
+- **Palm Beach Gardens** is a larger city of master-planned communities, many with golf and associations.
+- **Jupiter Inlet Colony and Jupiter Island** are separate, small barrier-island towns in different counties.
+- **Stuart and Palm City** sit further north in Martin County, around the St. Lucie River.
+- **Jupiter Farms and the western communities** are the larger-lot, unincorporated option inland.
+
+Which fits depends on your priorities. The matrix and the selector below help you sort them.
+
+## Tequesta vs. Jupiter
+
+These two share a river and a border, and many buyers treat them as one search. The practical difference is scale and structure. Jupiter is a larger town with beaches along the Atlantic, the inlet, a bigger restaurant and retail base, and walkable districts such as Harbourside Place and the Riverwalk. Tequesta is a village with a smaller center, and it runs its own water utility.
+
+The common assumption is that one is cheaper than the other. We would not state that as a rule. Taxing districts, insurance, condition and association costs vary by parcel, so compare two actual homes, not two town names. For the village's cost drivers, see our [cost of living in Tequesta](/blog/cost-of-living-in-tequesta-florida) guide.
+
+Tequesta is not without commerce. Tequesta Drive has the Lighthouse ArtCenter, independent cafés and the Gallery Square area, and the US-1 corridor adds restaurants and services. It is simply smaller, and many residents drive to Jupiter for a larger menu. For more, see the [Jupiter community guide](/communities/jupiter) and [Jupiter vs. nearby cities](/blog/jupiter-vs-nearby-cities).
+
+## Tequesta vs. Hobe Sound
+
+The key fact is geographic: Hobe Sound is an unincorporated community in Martin County, not a town or city. That has real consequences. County services, the Property Appraiser and the tax districts are Martin County's, not Palm Beach County's, and a property may or may not fall inside a municipality. The Town of Jupiter Island is a separate town next to it, and Hobe Sound Public Beach is in that town, not in unincorporated Hobe Sound.
+
+The question to ask is less "which is better" than "which county and which jurisdiction is this parcel in?" Hobe Sound also sits beside conservation and park land, including Jonathan Dickinson State Park, which changes the setting compared with Tequesta's river-and-Intracoastal frame. See the [Hobe Sound community guide](/communities/hobe-sound) and [Hobe Sound vs. nearby cities](/blog/hobe-sound-vs-nearby-cities).
+
+## Tequesta vs. Juno Beach
+
+Juno Beach is a small town on the ocean between Palm Beach Gardens and Jupiter, with a public fishing pier and a strong beach orientation. Condominiums are central to its housing, including many on the ocean side. The trade-off is less about scenery than about ownership: oceanfront condominiums bring association structures, coastal insurance and evacuation considerations that are specific to the building.
+
+Tequesta offers a wider mix of formats, with beach access that depends heavily on location. If walking to the Atlantic is a requirement, check each Tequesta property's location against Beach Road, since the Village includes that corridor. See the [Juno Beach community guide](/communities/juno-beach) and [Juno Beach vs. nearby cities](/blog/juno-beach-vs-nearby-cities).
+
+## Tequesta vs. Palm Beach Gardens
+
+Palm Beach Gardens is a city of many master-planned and gated communities, including PGA National and several golf communities, plus a concentrated shopping and dining district at Downtown at the Gardens. Housing there is organized into communities, each with its own association and often its own club arrangements.
+
+The honest comparison is about format and structure. In a master-planned community, rules, amenities and costs are set at the community level. In Tequesta, structures vary property to property. We would not say one gives you more house for the money. That depends on the specific home, so compare actual listings. See the [Palm Beach Gardens community guide](/communities/palm-beach-gardens) and [Palm Beach Gardens vs. nearby cities](/blog/palm-beach-gardens-vs-nearby-cities).
+
+## Tequesta vs. Jupiter Inlet Colony
+
+Jupiter Inlet Colony is a very small incorporated town in Palm Beach County, beside Jupiter Inlet, and it is separate from both Jupiter and Jupiter Island. Because it is so small, there is little to compare in terms of services or commerce: its residents rely on neighboring towns for most daily needs. For a buyer the lesson is mostly one of labels. A listing that says "Jupiter Inlet Colony," "Jupiter" or "Jupiter Island" can be three different jurisdictions in two counties, so confirm which one a property is actually in.
+
+## Tequesta vs. Jupiter Island
+
+The Town of Jupiter Island is in Martin County, on the barrier island, beginning at the county line and running north. It is not Jupiter Inlet Colony, which is in Palm Beach County, and it is not Hobe Sound, which is the neighboring unincorporated community. It shares a ZIP code with much of Hobe Sound, which is one reason the names get tangled.
+
+For a Tequesta buyer, the comparison comes down to county and coastline: Jupiter Island is a small oceanfront-and-Intracoastal town in a different county, with coastal exposure and waterfront structures that are property-specific. Verify the municipality and county before comparing anything else.
+
+## Tequesta vs. Stuart and Palm City
+
+Stuart is a city and the Martin County seat, with a historic downtown, around the St. Lucie River. Palm City is an unincorporated community beside it, not a municipality. Both are in Martin County, so a move from Tequesta changes the county records, Property Appraiser and service providers, and it moves your daily center of gravity north.
+
+The comparison is largely about setting: the St. Lucie River and a walkable historic downtown in Stuart, versus Tequesta's Intracoastal and lower Loxahatchee frame. Verify county-specific items rather than assuming they match. See the [Stuart community guide](/communities/stuart), the [Palm City community guide](/communities/palm-city), and [Stuart vs. nearby cities](/blog/stuart-vs-nearby-cities).
+
+## Tequesta vs. Jupiter Farms and Western Communities
+
+Jupiter Farms is unincorporated Palm Beach County, west of I-95 along Indiantown Road, and public sources describe lots of roughly one to five acres, with horses common and a county park with a riding arena. Most of the area is described as having no HOA, though some subareas have restrictions, so verify by parcel.
+
+This is a different way of living from a village: more land, more driving, and utilities that vary by parcel. Confirm water and sewer service rather than assuming it. If acreage is the goal, a village lot will not deliver it. If walkable services and water access are the goal, acreage will not.
+
+## Comparing Actual Homeownership Costs
+
+We are not printing a cost ranking, because the numbers that decide it are property-specific. Compare the same categories on each home you are considering:
+- **Taxes.** The bill is taxable value times the total millage of every taxing authority in the parcel's tax district. County and municipality change both the district and the Property Appraiser.
+- **Insurance.** Roof, construction, location and elevation drive wind and flood quotes. Flood zone and evacuation zone are different things.
+- **Associations and condominiums.** Structures, fees and what they cover differ by community and by building. Ask us what applies to a specific home before you make an offer.
+- **Waterfront structures.** Seawalls and docks are maintained by the owner, and municipalities permit them differently.
+- **Renovation.** Whether renovating an older home beats buying a finished one depends on the scope, permits and quotes for that house. We do not assume either is the better value.
+
+Our [cost-of-living guide](/blog/cost-of-living-in-tequesta-florida) includes a calculator you can run with your own figures.
+
+## Five Things to Verify Before Choosing
+
+**1. The municipality and the county, from official records.** Use the [Palm Beach County Property Appraiser](https://pbcpao.gov/) or the [Martin County Property Appraiser](https://www.pamartinfl.gov/), not the mailing address. A Tequesta, Jupiter or Hobe Sound address does not tell you the jurisdiction.
+
+**2. The tax bill after purchase.** A new owner is reassessed, and the Save Our Homes cap applies to a homesteaded property going forward. Homestead and portability depend on your situation, and a constitutional amendment on the November 3, 2026 ballot would change exemption and cap rules if approved, so check the result and the Property Appraiser's current rules.
+
+**3. Insurance, flood and evacuation.** Get quotes for the specific address, and check the FEMA [flood map service center](https://msc.fema.gov/portal/home) and the County's [Know Your Zone tool](https://discover.pbc.gov/publicsafety/dem/pages/know-your-zone.aspx) separately.
+
+**4. What comes with the home.** Whether a property sits in an association, a condominium or has any club connection, and what that means for it, is property-specific. Ask us before you make an offer.
+
+**5. The practical details.** Confirm the water and sewer provider, any waterfront structures and permits (the Village of Tequesta publishes its own seawall and dock checklists, and other municipalities have different rules), and school assignment with the relevant district, either [Palm Beach County](https://www.palmbeachschools.org) or [Martin County](https://www.martinschools.org), if schools matter to you. Then drive the real routes at the times you would actually drive them.
+
+For the sun and shade on a particular lot, try our [Sun & Shade Analyzer](/sun-shade), and for water access without owning a dock, see [communities with their own kayak launch](/communities-with-kayak-launches).
+
+## Where to Go From Here
+
+If you are narrowing between the village and its neighbors, our [neighborhood guide to Tequesta](/blog/best-neighborhoods-in-tequesta-florida) shows the housing variety inside the village, and the [pros and cons of living in Tequesta](/blog/pros-and-cons-of-living-in-tequesta-florida) lays out the trade-offs. Moving between Palm Beach County and the Treasure Coast has its own decisions, which our [relocation decision guide](/palm-beach-county-treasure-coast-relocation-guide) covers.
+
+> **Not Sure Which North County Community Fits You?** DO Homes Group helps buyers compare actual properties across the village, neighboring municipalities and Martin County, so you can see the real differences before you choose. [Compare Available Homes](/communities/tequesta) or [Ask a Local Buying Question](/contact).
+
+*Boundaries, rules and costs change. This guide is for general information, is not tax, legal, insurance or financial advice, and was checked on October 16, 2026. Verify jurisdiction and county, tax, exemption and portability specifics with the relevant Property Appraiser, and insurance and flood details with a licensed agent.*`,
+    faqs: [
+      { q: "Tequesta or Jupiter: which is better?", a: "Neither is better in general. Jupiter is a larger town with a bigger commercial base, and Tequesta is a smaller village with its own services. Costs and conditions vary by parcel, so compare specific homes rather than assuming one town is cheaper." },
+      { q: "How does Hobe Sound compare to Tequesta?", a: "Hobe Sound is an unincorporated community in Martin County, not a municipality, so county records, the Property Appraiser and services differ from Palm Beach County. The separate Town of Jupiter Island is next to it. Confirm the jurisdiction for any property." },
+      { q: "What is the difference between Jupiter Island and Jupiter Inlet Colony?", a: "They are separate towns in different counties. Jupiter Island is in Martin County, and Jupiter Inlet Colony is a very small town in Palm Beach County beside Jupiter Inlet. Neither is the same as Jupiter or Hobe Sound." },
+      { q: "Is a Tequesta address always in the Village of Tequesta?", a: "No. A Tequesta mailing address and the incorporated Village boundary are not necessarily the same, and some properties are in Martin County. Check the Property Appraiser records for the parcel." },
+      { q: "How does Palm Beach Gardens compare to Tequesta?", a: "Palm Beach Gardens is a larger city of many master-planned and golf communities with community-level associations, while Tequesta is a smaller village where structures vary by property. Compare actual listings rather than assuming one gives more for the money." },
+      { q: "What should I verify before choosing between these communities?", a: "The municipality and county from official records, the tax bill after purchase, insurance and flood and evacuation zones, what comes with the home, and practical items such as utilities, waterfront structures, school assignment and the real driving route." },
+    ],
+    internalLinks: ["who-should-move-to-tequesta-florida","what-its-really-like-living-in-tequesta-florida","cost-of-living-in-tequesta-florida","pros-and-cons-of-living-in-tequesta-florida","best-neighborhoods-in-tequesta-florida","jupiter-vs-nearby-cities","juno-beach-vs-nearby-cities","palm-beach-gardens-vs-nearby-cities","hobe-sound-vs-nearby-cities"],
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'best-places-to-eat-drink-hang-out-in-tequesta-florida',
