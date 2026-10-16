@@ -23,6 +23,8 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | `loxahatchee-working-land-tractor-field-usda-hero.webp` / `-mobile.webp` | Blog #5 hero: tractor behind a wire fence beside planted rows and tilled soil, Loxahatchee Groves | Real photograph, USDA/FPAC photo by Preston Keres, 26 Feb 2021 (NRCS visit to a 15-acre farm in Loxahatchee Groves). US government work, public domain. From Wikimedia Commons category "Loxahatchee Groves, Florida" (originally USDA Flickr). |
 | `loxahatchee-farm-crop-rows-usda.webp` | Planted crop rows on the same farm (blog #5) | Real photograph, USDA/FPAC, Preston Keres. Public domain. |
 | `loxahatchee-farm-path-coral-bean-usda.webp` | Mown path and red-flowering shrub on the same farm (blog #5) | Real photograph, USDA/FPAC, Preston Keres. Public domain. |
+| `loxahatchee-pasture-horse-egrets-hero.webp` / `-mobile.webp` | Blog #6 hero: gray horse grazing with cattle egrets, post-and-wire fence, live oaks | Real photograph by Dawn McDonald, Unsplash (https://unsplash.com/photos/a-white-horse-eating-grass-in-a-field-emDEx338gP4), supplied by John via OneDrive `Doyouneedphotos/Loxahatchee`. Unsplash licence. **Not verified as taken in Loxahatchee**; captioned "Illustrative". Cropped only. |
+| `loxahatchee-sand-road-pines.webp` | Sand road through tall pines (blog #6) | Real photograph by Matthew Williams, Unsplash (https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-forest-2qgUrwb0z6c), supplied by John. Unsplash licence. **Not verified as taken in Loxahatchee**; captioned "Illustrative". Cropped, with a light colour correction to reduce the magenta sky cast. |
 
 ## To replace the hero with a photograph
 
