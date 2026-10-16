@@ -46,6 +46,7 @@ import DeferredContactCta from '@/components/DeferredContactCta'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import EditorialHero from '@/components/article/EditorialHero'
 import LoxFreedomTest, { FREEDOM_HEADING, FREEDOM_HEADING_ID } from '@/components/article/LoxFreedomTest'
+import LoxChooser, { CHOOSER_HEADING, CHOOSER_HEADING_ID } from '@/components/article/LoxChooser'
 import QuickFit from '@/components/article/QuickFit'
 import ArticleToc from '@/components/article/ArticleToc'
 import { selectMagnetForArticle } from '@/lib/leadMagnetRouting'
@@ -79,6 +80,7 @@ const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = 
   'tequesta-compare-matrix': { id: MATRIX_HEADING_ID, label: MATRIX_HEADING },
   'tequesta-fit-selector': { id: SELECTOR_HEADING_ID, label: SELECTOR_HEADING },
   'lox-freedom-test': { id: FREEDOM_HEADING_ID, label: FREEDOM_HEADING },
+  'lox-chooser': { id: CHOOSER_HEADING_ID, label: CHOOSER_HEADING },
 }
 function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode }) {
   // Lets an article place its relocation-guide offer at a decision point instead of the automatic spot.
@@ -92,6 +94,7 @@ function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode 
   if (kind === 'tequesta-compare-matrix') return <CompareMatrix />
   if (kind === 'tequesta-fit-selector') return <FitSelector />
   if (kind === 'lox-freedom-test') return <LoxFreedomTest />
+  if (kind === 'lox-chooser') return <LoxChooser />
   return <JupiterBeachAccessBlock />
 }
 

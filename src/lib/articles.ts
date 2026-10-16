@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'inline-magnet'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'inline-magnet'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -14336,113 +14336,115 @@ Once you see the pattern, the rest is detail: which Loxahatchee you mean, which 
     cityName: 'Loxahatchee',
     type: "Best Neighborhoods In",
     order: 3,
-    seoTitle: "Best Areas to Live in Loxahatchee, Florida",
-    metaTitle: "Best Areas to Live in Loxahatchee, Florida",
-    metaDescription: "From The Acreage's big lots to agricultural Loxahatchee Groves and equestrian pockets — a local guide to the best areas to live in Loxahatchee, Florida.",
+    seoTitle: "Best Areas to Live in Loxahatchee, Florida | DYNA",
+    metaTitle: "Best Areas to Live in Loxahatchee, Florida | DYNA",
+    metaDescription: "Explore the real ways to live in Loxahatchee, Florida—from The Acreage and Loxahatchee Groves to equestrian pockets, larger rural parcels, and acreage lifestyles.",
     primaryKeyword: "best neighborhoods in Loxahatchee Florida",
-    secondaryKeywords: ["where to live in Loxahatchee", "The Acreage", "Loxahatchee Groves", "Loxahatchee equestrian"],
+    secondaryKeywords: ["where to live in Loxahatchee","The Acreage","Loxahatchee Groves","Loxahatchee equestrian"],
     h1: "Best Areas to Live in Loxahatchee, Florida",
-    body: `Loxahatchee doesn't have neighborhoods in the usual sense. It has areas with different zoning, different lot sizes and different rules, and the differences between them matter more than a subdivision name ever would.
+    heroImage: '/images/loxahatchee/loxahatchee-areas-guide-hero.webp',
+    heroImageAlt: "Illustration of a shell-rock country road at golden hour between white rail fences, with pasture, slash pines, palmettos and a distant barn",
+    heroImageCaption: "Editorial illustration of a rural road, pasture and rail fence at golden hour. It is artwork, not a photograph.",
+    heroImageCredit: 'Illustration by DO Homes Group',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    inlineMagnet: false,
+    pageModules: {
+      marketTrends: false,
+      listings: false,
+      searches: [{ from: 'Single-Family Homes', label: 'Loxahatchee homes for sale', sublabel: 'Browse single-family homes in Loxahatchee' }],
+      searchHeading: { eyebrow: 'When you are ready to look', heading: 'Explore Loxahatchee Acreage Homes' },
+    },
+    editorial: {
+      eyebrow: 'Loxahatchee · Where to live',
+      deck: "A local guide to acreage life—from The Acreage and Loxahatchee Groves to equestrian pockets, bigger land, dirt roads, and the rural rhythm that changes from one parcel to the next.",
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-areas-guide-hero-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Loxahatchee acreage homes', href: '/communities/loxahatchee' },
+      secondaryCta: { label: 'See the Loxahatchee local guide', href: '/blog/local-guide-to-loxahatchee-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      tool: { kind: 'lox-chooser', beforeSection: 'What Changes Street by Street' },
+      closingStep: { eyebrow: 'Talk it through', text: 'Tell us how much land and how much structure you want. We will help you match that to the part of Loxahatchee, and the kind of property, that fits.', cta: { label: 'Talk with a local acreage specialist', href: '/contact' } },
+    },
+    body: `A reader looking for a place to live in Loxahatchee is not simply choosing a subdivision. They are choosing how much land, structure, access, privacy and rural character they want around them. That is why this guide is organized around real places and property patterns, not a list of tidy neighborhoods.
 
-Here's what's actually out here.
+## Loxahatchee Does Not Have One Neighborhood Map
 
-## Getting oriented
+Most of the area is best understood through a handful of real places and a handful of property patterns: the broad, largely unincorporated Acreage; the incorporated Town of Loxahatchee Groves; larger rural and agricultural parcels; and a few named equestrian pockets. They overlap, they sit near one another, and they can feel completely different on a single drive.
 
-The area sits in western Palm Beach County, reached via **Southern Boulevard**, **Okeechobee Boulevard** and **Northlake Boulevard**, with **Seminole Pratt Whitney Road** running north–south as the main internal artery.
+![An orientation graphic titled Choose Your Loxahatchee, showing The Acreage, Loxahatchee Groves, larger rural properties, equestrian pockets, and the nearby hubs of Royal Palm Beach and Wellington](/images/loxahatchee/loxahatchee-choose-your-loxahatchee-graphic.webp "Choose Your Loxahatchee. An orientation graphic, not a legal boundary map. Positions are approximate."){1400x1000}
 
-The layout is a grid of section-line roads with canals along many of them. Addresses can be hard to find and satellite navigation is not always reliable out here.
-
-The **Loxahatchee National Wildlife Refuge** forms the western boundary.
+If you want the bigger picture first, our [local guide to Loxahatchee](/blog/local-guide-to-loxahatchee-florida) explains how the area works, and the [lifestyle guide](/blog/what-its-really-like-living-in-loxahatchee-florida) covers how it feels. This page is about where in it you might fit.
 
 ## The Acreage
 
-The largest area by far, and what most people mean when they say Loxahatchee.
+The Acreage is what most people mean when they say Loxahatchee. It is a broad, largely unincorporated, county-governed area laid out on a grid of roads and canals, and it is where much of the area's acreage living happens.
 
-Unincorporated Palm Beach County, laid out as a grid of predominantly **1.15-acre homesites**, with single-family houses ranging from modest 1980s builds to substantial custom homes. Zoning generally permits horses and livestock at limited density.
+Many older Acreage properties are built around acre-plus lots and a less managed rural rhythm, but exact lot size, zoning, road character, utilities, and restrictions vary by property.
 
-**No HOA on most of it**, which is the central appeal and the central risk: nobody tells you what to do, and nobody tells your neighbor either.
+What you tend to find is a mix. Mature homes sit near rebuilds, and both sit near rawer parcels that have not been touched in years. The overall feel is generally less managed than a master-planned community, and the appeal is the room that creates: privacy, project space, animals where permitted, gardens, equipment and a lot of outdoor living.
 
-*What to check:*
-- **Well and septic** — age, condition, water quality test, drain field location and condition. Get the well tested; water chemistry varies significantly across the area.
-- **Drainage and elevation** on the specific parcel, and how it performs in a wet summer rather than in March.
-- **Road surface and maintenance responsibility** for your access.
-- **Zoning and what it actually permits** for animals, structures and any home business.
-- **Permit history** for outbuildings, barns and additions, which are frequently unpermitted out here.
-- **Flood zone**, which varies parcel to parcel.
+![A mature, tree-lined country lane in golden light, with a rail fence and a shell-rock road](/images/loxahatchee/loxahatchee-mature-acreage-lane-illustration.webp "A mature lane. Illustration, not a photograph."){1600x900}
 
-## Loxahatchee Groves
+The honest detail is that one road can feel completely different from the next. One may be shaded by mature trees with homes close to the road, and the next may be open land with wide views and long driveways. Do not assume that an address tells you which kind you are getting.
 
-An **incorporated town**, and legally a different thing from The Acreage — its own government, its own rules and its own character.
+## Town of Loxahatchee Groves
 
-The parcels are generally larger, the zoning is genuinely agricultural, and the town has deliberately preserved a rural, low-regulation, low-density identity. Nurseries, groves, equestrian properties and working land are normal here.
+Loxahatchee Groves is its own incorporated town, with its own Town Council and its own Water Control District. It is not simply another label for The Acreage, and that difference is part of its appeal.
 
-*What to check:* the town's specific ordinances, which differ from county rules and which the town takes seriously; agricultural classification status on the parcel and what maintaining it requires; and the same well, septic, drainage and access questions as anywhere out here.
+The identity is agrarian and equestrian. Think groves, nurseries and working-land texture, rural roads, and a mix of parcel sizes and property types. For readers who want rural character with a stronger local sense of place, the town offers something the broader area does not: a distinct municipal identity of its own.
 
-## The equestrian parcels
+Whether a particular property is inside the town is worth confirming for the exact address. Services, rules and how things are handled can differ from the surrounding area, so the mailing address alone does not settle it.
 
-Scattered across both areas, properties set up for horses — barns, paddocks, arenas, and in places bridle access to trails.
+## Equestrian Pockets: The Names You Will Hear
 
-This is the practical alternative to Wellington for anyone who wants to keep horses at home rather than boarding them, at a fraction of the land cost.
+Three names come up again and again when people talk about horse properties in the area: Deer Run, White Fences and Fox Trail. Listing descriptions are consistent on the big picture. These are multi-acre horse properties set up with barns, paddocks and riding in mind.
 
-*What to check:* the number of animals the zoning permits, water supply adequacy for stock, manure management arrangements, footing and drainage in paddocks, and trail or road access if you intend to ride out.
+The details are less settled. Descriptions differ between sources, including exactly where each one sits and which jurisdiction it falls in, and we have not confirmed boundaries from an official map. Treat these as names to ask about, not a verified map.
+- **Deer Run.** Described in listings as a gated equestrian community in the Loxahatchee area, with lots commonly described at roughly five acres and up and riding easements mentioned.
+- **White Fences.** Described in listings as a gated equestrian community in western Loxahatchee, with larger lots that are often five acres or more.
+- **Fox Trail.** Described in listings as a non-gated area of roughly five-acre equestrian lots, which tends to feel more independent than a more organized pocket.
 
-## Manufactured and modular housing
+![A red barn, a white paddock fence, a round pen, hay bales and a horse trailer under a warm sky](/images/loxahatchee/loxahatchee-equestrian-barn-paddock-illustration.webp "Equestrian texture: barn, paddock, round pen and trailer. Illustration, not a photograph."){1600x900}
 
-A meaningful share of the housing out here is manufactured or modular, and it's worth understanding rather than dismissing.
+That spread is the real choice. Some buyers want a more defined horse-property pocket, and others prefer an independent parcel with no setting around it at all. Wellington's equestrian world is the nearby reference point for both, and these pockets are the alternative for people who want their horses at home on larger land. What riding access, amenities or shared arrangements exist at any specific property is something to confirm for that property.
 
-**The appeal** is straightforward: it puts a house on an acre for substantially less than site-built construction, which is how a good many people got onto land here in the first place.
+## Bigger Land and Working-Rural Properties
 
-**The considerations** are real. Financing works differently and not every lender participates. Insurance is a separate market with its own requirements, and older units can be difficult to cover. Age matters enormously — construction standards changed significantly over the decades, and pre-1994 units in particular face restrictions on financing, insurance and, in some cases, whether they can be moved or replaced.
+Some buyers are looking beyond a traditional one-acre homesite. Larger tracts open up a different set of possibilities: barns, nurseries, agricultural texture, horse setups, workshops, storage, and room for more than one household.
 
-**What to check:** the year of manufacture, whether it is tied down to current standards, the condition of the roof and the underside, whether it sits on a permitted foundation, and what your lender and insurer will actually accept before you go under contract.
+![Wide Florida sky over open pasture, canal and pine stands](/images/loxahatchee/loxahatchee-wide-land-and-sky-illustration.webp "Wider land and a bigger sky. Illustration, not a photograph."){1600x900}
 
-## The western edges
+The useful question is the difference between "I want acreage" and "I have a real use for acreage." The first is a feeling and the second is a plan, and the second is the one that makes big land worth it. A buyer with a plan tends to be happier, and a buyer without one tends to find that the land asks more than it gives.
 
-Closest to the refuge, and the quietest, most nature-immersed land out here.
+None of this is a promise. Whether any use is allowed on a given parcel depends on the property, its zoning and its jurisdiction.
 
-The trade is distance from everything — a longer drive to the corridor, to schools, to services — in exchange for genuine isolation and the refuge essentially as a back boundary.
+## What Changes Street by Street
 
-*What to check:* everything above, plus honestly assessing the drive time at the hours you'd actually be driving.
+Rural location matters at a micro level, and it shows up in small ways.
 
-## What to look for on the land itself
+![Five contrasts found within a few roads of each other: paved or unpaved, canopy or open land, one acre or a bigger tract, near errands or tucked away, polished or raw](/images/loxahatchee/loxahatchee-street-by-street-contrasts.webp "What changes street by street. Five contrasts you can find a few roads apart."){1400x640}
 
-Beyond the house, the parcel is doing a lot of the work in your purchase, and it's worth walking it properly.
+In Loxahatchee, the parcel matters as much as the house. Two properties on the same road can offer very different land, systems, access, and possibilities. Our [local guide](/blog/local-guide-to-loxahatchee-florida) shows how to get your bearings, and the [cost of living breakdown](/blog/cost-of-living-in-loxahatchee-florida) covers what the ongoing picture can look like.
 
-**Trees and clearing.** A fully cleared acre is easier to use and hotter; a wooded one is cooler and more work. Mature native trees are an asset; a lot choked with invasive growth is a project.
+## The Bottom Line
 
-**Existing structures.** Barns, sheds, workshops and pole buildings add real value if they were permitted and are sound — and real liability if they weren't. Check both.
+The best part of Loxahatchee is that it does not force one lifestyle. A buyer can choose a one-acre country home, an equestrian setup, a working rural parcel, or a more structured horse-property pocket, all while staying connected to western Palm Beach County.
 
-**Fencing.** Perimeter fencing is expensive to install and its condition tells you a great deal about how the property has been kept.
-
-**Grade and fill.** Whether the building pad and driveway were properly raised affects drainage permanently and is difficult to fix later.
-
-**Access.** How you get in, whether the driveway crosses a culvert, and whether that culvert is sized correctly for the swale.
-
-Walk the boundaries. On an acre-plus parcel you learn more in twenty minutes outside than in an hour in the house.
-
-## Choosing
-
-1. **What are you keeping on the land?** Horses, livestock, vehicles, a business — the zoning answers differ between The Acreage and Loxahatchee Groves, and this decides where you look.
-2. **Incorporated or unincorporated?** The town has its own rules; the county area has county rules. Neither is more permissive across the board.
-3. **How far out?** Every mile west is quieter and adds to every trip.
-4. **What infrastructure can you take on?** Well, septic, drainage, private road — some parcels carry more of this than others.
-
-Verify zoning, permitted uses, well and septic condition, drainage, flood zone, permit history and access responsibility for the specific parcel. Out here, two properties on the same road can differ enormously — and unlike a subdivision, there's no association standard to fall back on.
-
-For schools, note that the area spans multiple attendance zones. Verify boundaries for the specific address directly with the county district; they change, and choice programs have their own deadlines.`,
+If you are still weighing it, the [pros and cons](/blog/pros-and-cons-of-living-in-loxahatchee-florida) are the fastest test, [who should move here](/blog/who-should-move-to-loxahatchee-florida) is the honest filter, and [comparing Loxahatchee with its neighbors](/blog/loxahatchee-vs-nearby-cities) shows what else the same search can buy. The [Loxahatchee community guide](/communities/loxahatchee) is a good place to start narrowing down.`,
     faqs: [
-      { q: "What is The Acreage?", a: "The largest part of the Loxahatchee area and what most people mean by the name — unincorporated Palm Beach County laid out as a grid of predominantly 1.15-acre homesites, with houses ranging from modest 1980s builds to substantial custom homes. Zoning generally permits horses and livestock at limited density, and most of it has no HOA." },
-      { q: "How is Loxahatchee Groves different from The Acreage?", a: "It is an incorporated town with its own government, ordinances and character, and legally a different thing. Parcels are generally larger, the zoning is genuinely agricultural, and the town has deliberately preserved a rural, low-regulation identity where nurseries, groves and working land are normal." },
-      { q: "What should I check before buying land in Loxahatchee?", a: "Well and septic age, condition and water quality; drainage and elevation on the specific parcel and how it performs in a wet summer; road surface and maintenance responsibility; zoning and what it actually permits for animals, structures and any home business; permit history for outbuildings; and flood zone." },
-      { q: "Can I keep horses in Loxahatchee?", a: "Yes, which is a large part of the appeal — it is the practical alternative to Wellington for keeping horses at home rather than boarding, at a fraction of the land cost. Check the number of animals the zoning permits, water supply adequacy for stock, manure management, paddock drainage, and trail access if you intend to ride out." },
-      { q: "Is there an HOA in Loxahatchee?", a: "Most of The Acreage has none, which is the central appeal and the central risk — nobody tells you what to do, and nobody tells your neighbor either. Some pockets and newer developments do have associations, so confirm for the specific parcel rather than assuming the area-wide answer applies." },
-      { q: "What schools serve Loxahatchee?", a: "The area spans multiple attendance zones within the Palm Beach County school district. Verify boundaries for the specific address directly with the district rather than relying on a listing — boundaries change, and magnet and choice programs have their own rules and deadlines." },
+      { q: "What are the main areas of Loxahatchee?", a: "The Acreage, a broad and largely unincorporated rural area; the incorporated Town of Loxahatchee Groves; larger rural and agricultural parcels; and a few named equestrian pockets. They overlap and sit near one another, so confirm which one a specific address falls in." },
+      { q: "What is the difference between The Acreage and Loxahatchee Groves?", a: "The Acreage is largely unincorporated and governed by the county, while Loxahatchee Groves is an incorporated town with its own Town Council and Water Control District. They share a rural feel, but they are different jurisdictions, and the town has a more distinct local identity." },
+      { q: "Are there equestrian communities in Loxahatchee?", a: "Yes. Names such as Deer Run, White Fences and Fox Trail are commonly described in listings as equestrian areas with multi-acre lots. Sources differ on exact locations and character, so confirm where a specific property sits and what is allowed on it before relying on a name." },
+      { q: "Is Loxahatchee good for larger acreage properties?", a: "It can be, for buyers with a real use for the land, such as barns, horses, workshops or agriculture. What is possible on any parcel depends on its zoning, jurisdiction and permits, so the plan has to fit the specific property." },
+      { q: "How do I choose the right part of Loxahatchee?", a: "Start with how much land, structure, access and privacy you want, not with a subdivision name. Independent acreage, the Groves, an equestrian pocket and bigger working-rural land each suit different priorities, and the exact property matters as much as the area." },
     ],
-    internalLinks: ["cost-of-living-in-loxahatchee-florida", "what-its-really-like-living-in-loxahatchee-florida", "who-should-move-to-loxahatchee-florida"],
-    funFact: "Loxahatchee Groves is a separate municipality from The Acreage — it incorporated in 2006 specifically to gain more local control over land use and development density. Buyers who care about preventing future subdivision and protecting the rural character should understand this distinction before choosing a parcel.",
+    internalLinks: ["what-its-really-like-living-in-loxahatchee-florida","local-guide-to-loxahatchee-florida","who-should-move-to-loxahatchee-florida","pros-and-cons-of-living-in-loxahatchee-florida","cost-of-living-in-loxahatchee-florida","loxahatchee-vs-nearby-cities"],
+    funFact: "The Town of Loxahatchee Groves was incorporated in 2006, which is why it is its own town with its own Town Council rather than just another label for the broader Acreage area. Many people who say they live in Loxahatchee live outside the town, so the name on the mailing address is only the start of the story.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'best-things-to-do-in-loxahatchee-florida',
