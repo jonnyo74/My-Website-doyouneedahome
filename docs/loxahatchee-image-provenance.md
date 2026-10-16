@@ -25,6 +25,7 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | `loxahatchee-farm-path-coral-bean-usda.webp` | Mown path and red-flowering shrub on the same farm (blog #5) | Real photograph, USDA/FPAC, Preston Keres. Public domain. |
 | `loxahatchee-pasture-horse-egrets-hero.webp` / `-mobile.webp` | Blog #6 hero: gray horse grazing with cattle egrets, post-and-wire fence, live oaks | Real photograph by Dawn McDonald, Unsplash (https://unsplash.com/photos/a-white-horse-eating-grass-in-a-field-emDEx338gP4), supplied by John via OneDrive `Doyouneedphotos/Loxahatchee`. Unsplash licence. **Not verified as taken in Loxahatchee**; captioned "Illustrative". Cropped only. |
 | `loxahatchee-sand-road-pines.webp` | Sand road through tall pines (blog #6) | Real photograph by Matthew Williams, Unsplash (https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-forest-2qgUrwb0z6c), supplied by John. Unsplash licence. **Not verified as taken in Loxahatchee**; captioned "Illustrative". Cropped, with a light colour correction to reduce the magenta sky cast. |
+| `loxahatchee-cost-sand-road-hero.webp` / `-mobile.webp` | Blog #7 hero: sand road through tall pines | Same Matthew Williams / Unsplash photograph as `loxahatchee-sand-road-pines.webp` (blog #6 inline), supplied by John via OneDrive. Unsplash licence. **Not verified as taken in Loxahatchee**; captioned "Illustrative". Re-cropped and lightly colour-corrected. A real acreage-home-at-dusk photo was not available. |
 
 ## To replace the hero with a photograph
 

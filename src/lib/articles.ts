@@ -147,6 +147,11 @@ export interface ComparisonMatrixData {
   note?: string
 }
 
+export interface ArticleToolSpec {
+  kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'lox-fit' | 'lox-trade' | 'lox-cost-equation' | 'lox-value' | 'inline-magnet'
+  beforeSection: string
+}
+
 export interface ArticleEditorial {
   eyebrow: string
   deck: string                // shown in the hero, so the body must not repeat it
@@ -210,10 +215,7 @@ export interface ArticleEditorial {
   matrix?: ComparisonMatrixData
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
-  tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'lox-fit' | 'lox-trade' | 'inline-magnet'
-    beforeSection: string
-  }
+  tool?: ArticleToolSpec | ArticleToolSpec[]
   // Structured discovery guide rendered above the body: a jump-link nav, then
   // one H2 per category and one H3 per place. Places carry optional practical
   // notes and official links, so no current-condition detail has to live in prose.
@@ -261,7 +263,7 @@ export interface Article {
   heroImagePosition?: string
   // Interactive tool for articles that don't use the editorial layout. Same shape as
   // editorial.tool: rendered directly before the ## section named by beforeSection.
-  bodyTool?: NonNullable<ArticleEditorial['tool']> | Array<NonNullable<ArticleEditorial['tool']>>
+  bodyTool?: ArticleToolSpec | ArticleToolSpec[]
   heroImageWidth?: number    // intrinsic px — emitted as og:image:width so crawlers can size the card
   heroImageHeight?: number   // intrinsic px — emitted as og:image:height
   heroImageCredit?: string   // e.g. 'Photo by Jane Doe / Unsplash'
@@ -14793,125 +14795,109 @@ The practical setup varies by property, so the right home should match the life 
     cityName: 'Loxahatchee',
     type: "Cost Of Living In",
     order: 7,
-    seoTitle: "Cost of Living in Loxahatchee, Florida",
-    metaTitle: "Cost of Living in Loxahatchee, Florida",
-    metaDescription: "What it costs to live in Loxahatchee, Florida — strong value per acre, plus the real costs of rural living like well, septic, and longer commutes.",
+    seoTitle: "Cost of Living in Loxahatchee, Florida: What Acreage Life Really Costs",
+    metaTitle: "Cost of Living in Loxahatchee, Florida: What Acreage Life Really Costs",
+    metaDescription: "A clear look at Loxahatchee’s housing, taxes, utilities, transportation, and acreage-lifestyle costs—without fake averages or generic buyer advice.",
     primaryKeyword: "cost of living in Loxahatchee Florida",
-    secondaryKeywords: ["Loxahatchee home prices", "The Acreage home prices", "is Loxahatchee affordable"],
-    h1: "Cost of Living in Loxahatchee, Florida",
-    showMarketTrends: true,
-    body: `Loxahatchee's cost structure is genuinely different from anywhere else in Palm Beach County, and comparing it on price per square foot will mislead you in both directions.
+    secondaryKeywords: ["what acreage life costs","is Loxahatchee expensive","Loxahatchee property taxes","Loxahatchee home costs","living in Loxahatchee budget"],
+    h1: "Cost of Living in Loxahatchee, Florida: What Acreage Life Really Costs",
+    heroImage: '/images/loxahatchee/loxahatchee-cost-sand-road-hero.webp',
+    heroImageAlt: "A pale sand road running straight between tall pines and green palmetto undergrowth beneath a cloud-streaked sky, with the road narrowing into the distance",
+    heroImageCaption: "Illustrative: a sand road through Florida pines. Photo: Matthew Williams / Unsplash.",
+    heroImageCredit: 'Matthew Williams / Unsplash',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    inlineMagnet: false,
+    pageModules: {
+      marketTrends: false,
+      listings: false,
+      conversionBlock: false,
+    },
+    editorial: {
+      eyebrow: 'Loxahatchee · The ownership equation',
+      deck: "No single cost of living, just a different ownership equation: what changes with the property, how space shapes a household budget, and where the value shows up.",
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-cost-sand-road-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore what acreage living in Loxahatchee looks like', href: '/communities/loxahatchee' },
+      secondaryCta: { label: 'Read: the pros and cons of living here', href: '/blog/pros-and-cons-of-living-in-loxahatchee-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      tool: [
+        { kind: 'lox-cost-equation', beforeSection: 'Pay for the Life, Not Only the Square Footage' },
+        { kind: 'lox-value', beforeSection: 'How Loxahatchee Compares With a Closer-In Suburb' },
+      ],
+      closingStep: { eyebrow: 'See it for yourself', text: 'If the equation makes sense for the way you want to live, take a look at what acreage living in Loxahatchee looks like.', cta: { label: 'Explore what acreage living in Loxahatchee looks like', href: '/communities/loxahatchee' } },
+    },
+    body: `A Loxahatchee home cannot be understood only through list price or price per square foot. The value proposition is land and breathing room, while the real monthly picture depends on how the household uses that space.
 
-You get land for money that buys a small yard closer to the coast. You also take on infrastructure and driving costs that a suburban buyer never thinks about. Here's the full picture.
+That is why this page does not offer one average monthly bill or a single "cost of living" figure. Homes here vary widely in age, size, condition, location and setup, so any one number would flatter some households and mislead others. What follows is more useful: the equation behind the cost, the categories that move it, and the lifestyle question that gives the numbers meaning.
 
-## Housing and land
+Loxahatchee does not have one cost of living. It has a different ownership equation. Buyers may choose to spend more of their budget and their life on space, land, privacy and a home-centered routine, and less on proximity, compact convenience or a standardized suburban setup.
 
-**The land is the product.** Acre-plus parcels at prices that would buy a modest lot in a coastal town, which is the entire value argument and it's a real one.
+## Pay for the Life, Not Only the Square Footage
 
-**The houses vary enormously** — 1980s and 1990s builds, substantial custom homes, manufactured housing, and equestrian properties with barns and outbuildings. Two parcels of identical size can differ wildly in what's on them and what condition it's in.
+Price per square foot measures the house. In Loxahatchee, much of the value sits outside the walls: a larger yard, an acreage setting, privacy, usable outdoor space and, in some cases, room for outbuildings. Two homes of the same size can offer very different daily lives, and the one that looks pricier per square foot may be the one whose yard gets used every day.
 
-**Demand has risen** substantially as buyers have sought space, and prices have moved accordingly. The area is no longer the bargain it was a decade ago, though it remains the cheapest way to own real acreage within reach of the coast.
+Because homes vary so much, we do not publish an average price or a price range for the area here. A single figure would hide more than it shows. Our guide to the [best areas in Loxahatchee](/blog/best-neighborhoods-in-loxahatchee-florida) is a better way to see how different parts of the community feel.
 
-## The rural infrastructure costs
+## The Monthly Picture Depends on the Property You Choose
 
-This is the section that separates informed buyers from disappointed ones.
+No two Loxahatchee households have the same monthly picture, because it follows the home and the way it is used. Four categories do most of the work.
 
-**Well.** A private well means a pump, a pressure tank and usually filtration or treatment. Pumps fail. Water chemistry out here varies and some properties need substantial treatment systems for iron, sulphur or hardness. Test the water before you buy, not after.
+### Taxes and assessments
 
-**Septic.** A drain field has a finite life and replacement is a significant expense. Get the system inspected — not just pumped — and establish its age and the drain field's condition and location.
+In Palm Beach County, property tax starts with taxable value, which is the assessed value less any exemptions that apply. That figure is multiplied by the millage rate set by each taxing authority covering the property, which produces the ad valorem tax. Non-ad valorem assessments are then added, and the total is the annual property tax amount.
 
-**Drainage.** Some parcels need work: swales, culverts, fill. Standing water is common after heavy rain and it's worth seeing a property, or at least asking neighbors, about how it performs in a wet August.
+Because the taxing authorities and assessments differ by location and by property, the result belongs to the individual parcel, not to the area as a whole. Source: [Palm Beach County Tax Collector, Property Taxes](https://www.pbctax.gov/taxes/property-tax/), checked October 16, 2026.
 
-**Roads.** Where access is unpaved or privately maintained, establish who is responsible and what it costs.
+### Utilities and home systems
 
-**Propane**, where there's no natural gas, is an ongoing cost for cooking, heating water or a generator.
+Providers and home-system setups vary by address. Some homes may have different water, wastewater, fuel or equipment arrangements than others. The useful point is not that one setup is better or worse. It is that the utility picture is part of each home's overall ownership profile, and it shows up differently from one home to the next.
 
-**A generator** is close to standard out here, because restoration after a storm takes longer at the end of a rural line than in a dense suburb.
+### Insurance and protection
 
-## Property taxes
+Property age, roof, building type, coverage choices, location and each insurer's appetite can all influence what insurance costs. Those factors apply to homes everywhere. In Loxahatchee, as elsewhere, the cost follows the specific home and the coverage chosen.
 
-Florida has **no state income tax**.
+### Transportation and routines
 
-Most of the area is **unincorporated Palm Beach County**, which means no municipal levy — a genuine saving relative to living in an incorporated city. **Loxahatchee Groves is incorporated** and does levy its own, in exchange for town services.
+A less dense lifestyle often makes personal transportation and trip planning a more visible part of a household budget. Fuel, vehicle upkeep and time are all worth thinking about as part of the routine. How much they matter depends on where a household goes and how often.
 
-**Agricultural classification** is worth understanding if a parcel has it or could qualify. It can substantially reduce the assessed value of land in bona fide agricultural use, but it comes with requirements that must be genuinely met and maintained, and losing it can trigger consequences. Discuss it with the Property Appraiser rather than assuming a listing's claim.
+## What Will the Space Replace, or Make Possible?
 
-**Homestead Exemption and Save Our Homes** apply to a primary residence, with possible portability from a prior Florida homestead.
+This is the cost question most buyers miss. The space is not only something you pay for. It may stand in for things a household used to spend on elsewhere, and it may make possible things that never fit before:
 
-**The listing's tax figure isn't yours** — on a change of ownership the property is reassessed at market value.
+- More time at home.
+- Outdoor entertaining.
+- Gardening or hands-on hobbies.
+- A quieter weekend rhythm.
+- Room for interests that do not fit a compact suburban lot.
+- A home that feels like a destination rather than a place to sleep between errands.
 
-Verify everything with the Palm Beach County Property Appraiser and Tax Collector.
+The right buyer is not simply paying for land. They are choosing a different allocation of money, time and attention. Which uses a particular property supports is specific to that property, so think of the list above as a lifestyle prompt, not a promise.
 
-## Insurance
+If you are still deciding whether this life suits you, start with our guide on [who should move to Loxahatchee](/blog/who-should-move-to-loxahatchee-florida). For the honest other side of the ledger, read the [pros and cons of living in Loxahatchee](/blog/pros-and-cons-of-living-in-loxahatchee-florida).
 
-Distinct considerations out here.
+## How Loxahatchee Compares With a Closer-In Suburb
 
-- **Roof age and type**, as everywhere in Florida, is the dominant variable.
-- **Older and manufactured housing** can be considerably harder to insure, and manufactured homes have their own market and requirements.
-- **Outbuildings, barns and workshops** may need separate coverage. Confirm what's included rather than assuming.
-- **Distance to a fire station and hydrant availability** affect rates out here in ways they don't in a suburb. Ask specifically.
-- **Flood** is parcel-specific and matters given the drainage picture. Get the elevation certificate.
-- **Liability** deserves thought if you keep horses or livestock, or if anyone rides on your property.
+- Loxahatchee can make more sense for someone who wants space and a country rhythm.
+- A closer-in suburban community can make more sense for someone who values quick errands, walkable access or a more compact routine.
 
-## Driving — the cost nobody budgets
+Neither one wins. They spend the same household budget in different places. For a side-by-side look at the surrounding towns, see [Loxahatchee versus nearby cities](/blog/loxahatchee-vs-nearby-cities).
 
-This is real money and it compounds.
+## Keep Exploring Loxahatchee
 
-Everything is a drive: groceries, work, school, medical appointments, dining. For a household making several trips east daily, fuel and vehicle wear add up to a meaningful annual figure, and vehicles here accumulate mileage fast.
-
-There's no transit alternative. Factor it honestly, and factor the time as well — our [comparison guide](/blog/loxahatchee-vs-nearby-cities) is direct about what the drive costs relative to the neighboring communities.
-
-## Everyday costs
-
-- **Electric** is FPL.
-- **HOA fees are absent** on most of The Acreage, which is a genuine ongoing saving relative to a gated community.
-- **Groceries** track the state average but require planning — you don't pop out for one item.
-- **Equipment.** A tractor, a mower capable of an acre, tools and a trailer are normal rather than optional, and they represent real capital.
-- **Animal costs**, if that's why you're here, are their own budget: feed, farrier, vet, bedding.
-
-## Financing and appraisal, which work differently here
-
-Worth knowing before you shop, because rural property does not behave like a suburban purchase.
-
-**Comparable sales are harder.** With parcels varying in size, structures, condition and zoning, appraisals out here are less formulaic and can come in unexpectedly. Build some tolerance into your offer strategy.
-
-**Unpermitted structures complicate things.** A barn or addition without permits can affect appraised value, insurability and the lender's willingness, and it becomes your problem at resale.
-
-**Some lenders treat acreage, manufactured housing or agricultural classification differently**, with different products and requirements. Talk to a lender familiar with western county property rather than assuming a standard approval transfers.
-
-**Well and septic may require specific inspections** for certain loan types. Ask early so it doesn't derail a timeline.
-
-None of this is prohibitive. All of it takes longer than a suburban closing, and buyers who plan for that avoid a lot of stress.
-
-## Running your real number
-
-1. **Test the well and inspect the septic** — not just pump it.
-2. **See the drainage** or ask neighbors how the parcel performs in heavy rain.
-3. **Get insurance quotes** including outbuildings, with fire-station distance disclosed.
-4. **Establish road maintenance responsibility.**
-5. **Add the driving** — fuel, wear, and time — as a genuine annual line.
-6. **Then** compare against [what the same money buys nearby](/blog/loxahatchee-vs-nearby-cities).
-
-## The bottom line
-
-Loxahatchee is the cheapest acreage within reach of the South Florida coast, and for people who use land it's outstanding value.
-
-The savings on the purchase are partly offset by infrastructure you maintain yourself and driving you can't avoid. Buyers who model both do very well here. Buyers who compare price per square foot to a suburb get an unpleasant education in their first year.
-
-*Figures, rates and rules change. Verify tax, exemption, portability and agricultural classification specifics with the Palm Beach County Property Appraiser and Tax Collector, insurance with a licensed agent, flood zone and elevation with the relevant authority, and zoning and permitted uses with the county or town.*`,
+For the everyday picture, read [what it is really like to live in Loxahatchee](/blog/what-its-really-like-living-in-loxahatchee-florida).`,
     faqs: [
-      { q: "Is Loxahatchee cheap?", a: "It is the cheapest way to own real acreage within reach of the South Florida coast — acre-plus parcels for money that would buy a modest lot in a coastal town. But price per square foot is a misleading comparison, because you take on infrastructure you maintain yourself and driving you cannot avoid." },
-      { q: "What are the hidden costs of living in Loxahatchee?", a: "Well and septic maintenance and eventual replacement, drainage work on some parcels, private road maintenance where applicable, propane where there is no natural gas, a generator which is close to standard, and the driving — fuel, vehicle wear and time — since everything is a trip east with no transit alternative." },
-      { q: "How does insurance work out here?", a: "Roof age dominates as everywhere, but there are extra factors: older and manufactured housing can be considerably harder to insure, outbuildings and barns may need separate coverage, and distance to a fire station and hydrant availability affect rates in ways they do not in a suburb. Liability deserves thought if you keep animals." },
-      { q: "What is agricultural classification and does it help?", a: "It can substantially reduce the assessed value of land in bona fide agricultural use, but it carries requirements that must be genuinely met and maintained, and losing it can trigger consequences. Discuss it with the Property Appraiser directly rather than relying on a listing's claim about a parcel." },
-      { q: "Do I pay municipal taxes in Loxahatchee?", a: "Most of the area is unincorporated Palm Beach County, so there is no municipal levy — a genuine saving relative to an incorporated city. Loxahatchee Groves is incorporated and does levy its own in exchange for town services, so establish which side of that line a parcel sits on." },
-      { q: "Should I test the well before buying?", a: "Always, before rather than after. Water chemistry varies significantly across the area and some properties need substantial treatment systems for iron, sulphur or hardness. Have the septic system properly inspected too — not merely pumped — and establish the drain field's age, condition and location." },
+      { q: "Is Loxahatchee expensive to live in?", a: "It depends on the household and the home. Loxahatchee does not have one cost of living: costs follow the specific property, how its space is used and how the household moves through the week. This guide deliberately avoids an average monthly figure because one number would mislead." },
+      { q: "Why can price per square foot be misleading in Loxahatchee?", a: "Price per square foot measures the house, but much of Loxahatchee's value sits outside the walls: the yard, privacy, usable outdoor space and, in some cases, room for outbuildings. Two homes of the same size can offer very different daily lives." },
+      { q: "What costs vary most from one Loxahatchee property to another?", a: "Taxes and assessments, utilities and home systems, insurance and upkeep all follow the specific home. In Palm Beach County, property tax is based on taxable value, applicable exemptions, the millage rates set by each taxing authority, plus non-ad valorem assessments, so it is specific to each parcel. Transportation habits matter too." },
+      { q: "How does acreage change a household's monthly budget?", a: "Acreage tends to shift where money, time and attention go rather than adding one fixed amount: more toward the home, the land and what the household does with it, and sometimes less toward things the space replaces. Upkeep and transportation habits are the categories worth thinking about, and the effect depends on the household." },
+      { q: "Is Loxahatchee good value for someone who wants more space?", a: "It can be, when the household will use the space. The value shows up as room to use, room to breathe and room to choose, which are lifestyle values rather than guaranteed financial returns. If the appeal is only more property for the money, a closer-in suburban community may fit better." },
     ],
-    internalLinks: ["best-neighborhoods-in-loxahatchee-florida", "pros-and-cons-of-living-in-loxahatchee-florida", "loxahatchee-vs-nearby-cities"],
-    funFact: "Loxahatchee offers some of the only 1–5 acre residential parcels in Palm Beach County under $600K — a type of property that simply doesn't exist in the eastern half of the county at any price. For buyers who want land, horses, and a workshop, this is the last market in the county where it's still accessible.",
+    internalLinks: ["best-neighborhoods-in-loxahatchee-florida","who-should-move-to-loxahatchee-florida","pros-and-cons-of-living-in-loxahatchee-florida","loxahatchee-vs-nearby-cities","what-its-really-like-living-in-loxahatchee-florida"],
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'hidden-gems-in-loxahatchee-florida',
