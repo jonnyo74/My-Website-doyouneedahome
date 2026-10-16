@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'inline-magnet'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'inline-magnet'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -278,6 +278,15 @@ export interface Article {
   published: boolean
   publishedDate?: string      // original publication date; defaults to `updated` when absent
   editorial?: ArticleEditorial
+  // Switches off the generic lower-page modules an article doesn't want, and
+  // narrows the saved-search cards to the ones that fit it. Absent = unchanged.
+  pageModules?: {
+    marketTrends?: false      // hides the Ylopo market-trends block
+    listings?: false          // hides the "Homes for Sale in <city>" widget
+    // Keeps only the community's saved searches named in `from`, optionally relabelled.
+    searches?: Array<{ from: string; label?: string; sublabel?: string }>
+    searchHeading?: { eyebrow: string; heading: string }
+  }
   updated: string             // ISO date — last modified
 }
 
@@ -14047,102 +14056,139 @@ If you are weighing whether the Village's daily rhythm suits you, read [what it 
     cityName: 'Loxahatchee',
     type: "What It's Really Like Living In",
     order: 1,
-    seoTitle: "What It's Really Like Living in Loxahatchee, Florida (Local Guide)",
-    metaTitle: "What It's Really Like Living in Loxahatchee, FL",
-    metaDescription: "A local look at living in Loxahatchee, Florida — rural country living on big acreage lots, with room for horses, privacy, freedom, and the Everglades next door.",
+    seoTitle: "Living in Loxahatchee, Florida: Acreage, Freedom & Rural Life | DYNA",
+    metaTitle: "Living in Loxahatchee, Florida: Acreage, Freedom & Rural Life | DYNA",
+    metaDescription: "What is it really like living in Loxahatchee, Florida? A candid local guide to acreage, dirt roads, horses, open sky, rural freedom, and the tradeoffs that come with it.",
     primaryKeyword: "living in Loxahatchee Florida",
-    secondaryKeywords: ["moving to Loxahatchee FL", "The Acreage Florida", "Loxahatchee Groves", "is Loxahatchee a good place to live"],
-    h1: "What It's Really Like Living in Loxahatchee, Florida",
-    body: `Loxahatchee is where Palm Beach County stops being suburban. Out past the last shopping plaza, the lots go from a tenth of an acre to a full one or more, the sidewalks end, and the land opens up toward the Everglades.
+    secondaryKeywords: ["moving to Loxahatchee FL","Loxahatchee acreage","The Acreage Florida","Loxahatchee Groves","is Loxahatchee a good place to live"],
+    h1: "What It’s Really Like Living in Loxahatchee, Florida",
+    heroImage: '/images/loxahatchee/loxahatchee-country-road-golden-hour-hero.webp',
+    heroImageAlt: "Illustration of a shell-rock country road at golden hour, with slash pines, palmettos, a rail fence and a canal under a wide South Florida sky",
+    heroImageCaption: "Editorial illustration of a rural Loxahatchee-area road at golden hour. It is artwork, not a photograph.",
+    heroImageCredit: 'Illustration by DO Homes Group',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    inlineMagnet: false,
+    pageModules: {
+      marketTrends: false,
+      listings: false,
+      searches: [{ from: 'Single-Family Homes', label: 'Loxahatchee homes for sale', sublabel: 'Browse single-family homes in Loxahatchee' }],
+      searchHeading: { eyebrow: 'When you are ready to look', heading: 'Explore Loxahatchee Acreage Homes' },
+    },
+    editorial: {
+      eyebrow: 'Loxahatchee · Acreage living',
+      deck: "Acreage, dirt roads, open sky, and the freedom to live a little less managed—without leaving Palm Beach County behind.",
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-country-road-golden-hour-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore Loxahatchee acreage homes', href: '/communities/loxahatchee' },
+      secondaryCta: { label: 'See the Loxahatchee community guide', href: '/blog/local-guide-to-loxahatchee-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      tool: { kind: 'lox-freedom-test', beforeSection: 'The Bottom Line' },
+      closingStep: { eyebrow: 'Talk it through', text: 'Tell us what you would want to do with the land. We will help you check what the specific parcel, jurisdiction and rules actually allow.', cta: { label: 'Talk with a local acreage specialist', href: '/contact' } },
+    },
+    body: `Somewhere west of the last big shopping plaza, Palm Beach County changes its mind about what a street should be. The sidewalks give out first. Then the curbs. The shoulders widen, the pavement sometimes stops, and the horizon, which has been negotiating with rooflines all day, finally gets some room.
 
-It is not a town. That's the first thing to understand. "Loxahatchee" covers a large area of western Palm Beach County including **The Acreage** — a vast unincorporated grid of acre-plus homesites — and the incorporated **Town of Loxahatchee Groves**, along with a scattering of surrounding rural land. There's no downtown, no center, and no single government covering all of it.
+The sky gets bigger. That is the first thing most people say about it. Then you notice the rest: pickups with trailers hitched behind them, nursery fields, canal lines running dead straight toward a tree line, and on some roads a pasture where the neighbor's horses stand like they own the place. Away from the main roads, evenings tend to be quieter than they are near the coast. Weekends sound like mowers, generators and somebody else's saw.
 
-What there is instead is space, and a way of living that space makes possible.
+This is Loxahatchee, or at least the part of it people mean when they say the word. It is not a town with a main street, and it is not a nicer-looking suburb. It is a place where a lot of people have decided that room matters more than convenience, and then found out what that decision costs and what it gives back. This guide is about both sides of that trade.
 
-## What an acre actually changes
+## What an Acre Actually Changes
 
-The difference between a suburban lot and an acre isn't a matter of degree. It's a different relationship with your own property.
+An acre is not a bigger lawn. It changes the relationship between a person and their property.
 
-You can keep horses. You can have chickens. You can park a boat, an RV, a trailer and a work truck without asking anyone. You can build a workshop, run a small business from a barn, plant fruit trees, or leave half of it wild. Your neighbors are far enough away that what they do largely doesn't affect you, and vice versa.
+Loxahatchee attracts people looking for room for animals, equipment, projects, and a less managed way of living. What is possible depends on the exact parcel, zoning, jurisdiction, permits, and any property-specific restrictions.
 
-For people who've spent years in communities where the association governs paint colors and parking, the release is substantial and it's the main thing residents talk about.
+Within that, here is what room can mean in practice:
+- **Space to spread out.** Gardens, fruit trees, equipment, a hobby structure, a workshop, vehicles, or simply distance from the next roof.
+- **Fewer uniform neighborhood rules.** In many rural pockets, though not all of them, there is less of the one-size-fits-all feeling you get in a managed subdivision.
+- **Room for projects.** The kind that never fit comfortably on a subdivision lot.
+- **Privacy.** More of it, and a lot more sky.
 
-## Country, but not remote
+![An illustrated acre divided into five zones: animals, workshop and projects, garden and trees, trailer and equipment, and privacy and open sky](/images/loxahatchee/loxahatchee-what-would-you-do-with-an-acre.webp "What would you do with an acre? An illustration of one way to picture it, not a plan for any parcel."){1400x1000}
 
-It genuinely feels rural — dirt roads in places, canals along the section lines, agriculture and nurseries, and horses in view most days.
+Here is the central point. Freedom is not zero responsibility. It means a buyer has to want the work, the systems and the decisions that come with having room. Nobody else is going to mow the back half, fix the gate, or decide what goes where. For the right person that is the whole appeal. For the wrong person it is a second job.
 
-But it isn't isolated. **Royal Palm Beach** and **Wellington** are a drive east with full shopping, services and medical care, and downtown West Palm Beach and the coast are reachable when you want them. The **Arthur R. Marshall Loxahatchee National Wildlife Refuge** — the northern Everglades — sits on the western edge, which is a genuinely remarkable thing to have as a boundary.
+## Loxahatchee Is Not One Place
 
-The trade is that everything is a drive. Not a long one to the essentials, but a drive, every time, for everything.
+The word does a lot of work. One "Loxahatchee" listing can feel completely different from another, and part of the reason is that the name covers several different things.
 
-## The infrastructure is different, and this matters most
+![An orientation sketch showing The Acreage, Loxahatchee Groves, Westlake and the nearby hubs of Royal Palm Beach and Wellington inside a surrounding rural search area](/images/loxahatchee/loxahatchee-orientation-graphic.webp "An orientation graphic, not a legal, municipal or survey boundary map. Shapes and positions are approximate."){1400x1000}
 
-This is where buyers get caught, so it deserves plain language.
+- **The Acreage.** A broad, largely unincorporated rural area in western Palm Beach County, commonly grouped together with Loxahatchee in home searches. This is the part most people picture.
+- **The Town of Loxahatchee Groves.** A separate, incorporated municipality with its own Town Council and its own Water Control District. It is a town in its own right, not a neighborhood of the Acreage.
+- **Rural properties with a Loxahatchee address.** Some share the mailing address or the market identity without sharing the same jurisdiction. The address on the envelope does not tell you which government applies.
+- **Newer, more managed pockets nearby.** Westlake, for example, is a newer master-planned city next door, and it feels like a different kind of place from the roads around it.
 
-**A great many properties out here are on private well and septic** rather than municipal water and sewer. That means a well pump, a pressure tank, filtration, and a drain field, all of which are yours to maintain, repair and eventually replace.
+Which jurisdiction a property sits in affects who handles the road, the drainage and the permits. Confirm it for the specific address instead of assuming from the mailing address.
 
-**Drainage is a real consideration.** This land was drained for agriculture and it depends on a canal system. Some parcels sit lower than others, and standing water after heavy rain is a genuine feature of the area rather than an anomaly.
+## Dirt Roads, Canals and a Practical Rural Rhythm
 
-**Some roads are unpaved**, and road maintenance arrangements vary.
+Country living has a rhythm, and you feel it in the small things.
 
-None of this is a reason not to buy here. All of it is a reason to inspect carefully and budget honestly — our [neighborhood guide](/blog/best-neighborhoods-in-loxahatchee-florida) and [cost breakdown](/blog/cost-of-living-in-loxahatchee-florida) cover what to check and what it runs to.
+Roads can be paved, unpaved or maintained differently from one area to the next, so a street that is smooth in one place can be rutted a mile away. Canals and drainage are part of the landscape rather than an afterthought, and you learn to read the water the way you read the weather.
 
-## What the area is actually made of
+Everything is a drive. Groceries, restaurants, services, schools and most errands mean getting in the car, and that is the trade for the wider sky at home. It is a short enough drive that the area is useful, and long enough that you plan your loops instead of making them on a whim.
 
-A bit of history explains the layout, because the grid out here is not an accident.
+Weather, mosquitoes, tree maintenance, gates and equipment are more visible parts of life here than they are in a managed community. That is not doom. It is just a different kind of Saturday, and some people would not trade it.
 
-This land was drained and platted in the mid-twentieth century, subdivided into a vast grid of similar-sized homesites and sold largely as speculative parcels. Development came slowly and unevenly over decades, which is why you find a 1985 ranch beside a 2019 custom build beside an empty acre on the same road.
+## The Wild Part Is Close
 
-That history explains several things a newcomer notices: why the roads run dead straight for miles, why the canals follow every section line, why there is no town center anywhere, and why nothing is uniform. Nobody planned a community here. They platted land and let people build.
+The natural side of this area is part of why people stay. A few places worth knowing, each one a destination to check before you go rather than something at your back fence:
+- **Acreage Pines Natural Area.** A 124-acre county preserve of wetlands and pine lands at the west end of Acreage Pines Community Park, with hiking trails, a boardwalk and an observation platform.
+- **Hungryland Slough Natural Area.** A county natural area of roughly 3,000 acres of wet pinelands, wet meadows and marsh, reached by a loop trail.
+- **Loxahatchee Slough Natural Area.** Palm Beach County's largest natural area, at roughly 13,000 acres, and one of the few where the county lists designated horseback trails.
+- **Arthur R. Marshall Loxahatchee National Wildlife Refuge.** A major Everglades destination of about 145,000 acres, with its visitor center on Lee Road in Boynton Beach. It is a trip, not a neighbor.
 
-The upside is that the area has no manufactured character to maintain and no association enforcing one. The downside is that it also has none of the infrastructure a planned community would have arrived with.
+Rules differ by site and change, including who may ride, bike or bring a pet. Check the current county or refuge information before you plan a visit. Not every natural area allows horses, and nothing here should be read as a promise of where you can ride.
 
-## The self-reliance is the point
+## Country Living Means Property-Specific Systems
 
-People out here fix things. That's not a stereotype — it's a practical necessity and a cultural feature.
+Here is the honest version of the infrastructure question, kept short. Many rural properties may use private wells and septic systems, some are served differently, and drainage arrangements vary from one parcel to the next. Roads, gates and canal access follow the same pattern.
 
-When the well pump fails, when a tree comes down across the drive, when the septic needs attention, the response is generally to sort it rather than to call a management company. Residents own tools, know a guy, and help each other.
+So the useful question is not whether Loxahatchee is well and septic. It is what serves this particular property, and who maintains the road in front of it. That varies house by house. Our [Loxahatchee local guide](/blog/local-guide-to-loxahatchee-florida) shows how to get your bearings, and the [cost of living breakdown](/blog/cost-of-living-in-loxahatchee-florida) covers what the ongoing picture can look like.
 
-If that sounds appealing, you'll fit. If it sounds exhausting, that's worth taking seriously, because it isn't optional.
+## The People Who Thrive Here
 
-## The sky
+The people who do best out here share a way of looking at it more than a list of possessions.
+- **The horse or animal person.** Wants room and daylight for animals, and understands that the rules for any parcel have to be confirmed first.
+- **The builder, maker, gardener or collector.** Has projects that outgrew a subdivision lot and wants space that matches them.
+- **The family that wants room.** For kids, dogs, equipment and an outdoor life, with the understanding that someone has to look after it.
+- **The person tired of being managed.** Wants fewer uniform rules and is comfortable with the variety that comes with them.
+- **The one who sees a Saturday project as freedom.** Not punishment. A day on the property is the point.
+- **The buyer who wants privacy and land more than a walkable downtown.** And has made peace with the drive.
 
-An underrated feature that residents mention constantly: out here you can see the sky.
+None of this means every household out here has horses, trucks or a side-by-side. Plenty do not. What they share is that they wanted the space on purpose.
 
-No streetlights on most roads, no buildings, and enough distance from the coast's light that the stars are genuinely visible. Sunsets run the full width of the horizon over open land. It's the sort of thing that sounds like a small pleasure and turns out to be a daily one.
+## Who May Prefer Somewhere Else
 
-## The rhythm of the year
+Said plainly and kindly, this is probably not the right fit for:
+- Readers who need walkable errands or a lively town center.
+- Buyers who want new infrastructure and low-maintenance convenience.
+- People who dislike driving for nearly everything.
+- People who want a highly uniform neighborhood.
+- Readers attracted to "an acre" only because it sounds cheap.
 
-Summer is hot, wet and green, with afternoon storms and mosquitoes that are a genuine factor out here in a way they aren't on the coast. Dry season, roughly November through April, is the reward — comfortable, clear, and the time when the horses, the trails and the refuge are at their best.
+An acre you never use can become a lot of mowing, maintenance and distance. If that sounds more like a burden than a hobby, a place closer in, with sidewalks and a short list of errands, is not a lesser choice. It is just a better match.
 
-The seasonal population swing barely exists here. This is a place where people live year-round.
+## The Bottom Line
 
-## Who ends up staying
+Loxahatchee is not the cheaper version of a suburb. It is a different lifestyle altogether: country space, real sky, room to build a life around your own projects, and enough friction to make sure you truly want it.
 
-The people who thrive are the ones who came for the land and use it — riders, growers, builders, people with animals or projects or a business that needs space.
-
-The people who struggle are generally those who came for the price per square foot, discovered the driving, and found that an acre you don't use is just a lawn you have to mow.
-
-## The honest bottom line
-
-Loxahatchee offers something almost impossible to find within reach of the South Florida coast: real land, real freedom, and a genuine rural setting, at a price that reflects being forty minutes from the ocean rather than four.
-
-What it asks is that you drive for everything, maintain your own infrastructure, and actually want the space rather than the idea of it.
-
-If that fits, our [comparison with the neighboring communities](/blog/loxahatchee-vs-nearby-cities) shows what else the money buys, and the [weighed list of trade-offs](/blog/pros-and-cons-of-living-in-loxahatchee-florida) is the fastest test of whether the realities would wear on you.`,
+If it fits, [compare the neighboring towns](/blog/loxahatchee-vs-nearby-cities) and [look at the areas side by side](/blog/best-neighborhoods-in-loxahatchee-florida). If you are still weighing it, the [pros and cons](/blog/pros-and-cons-of-living-in-loxahatchee-florida) are the fastest test. The [Loxahatchee community guide](/communities/loxahatchee) pulls the rest together.`,
     faqs: [
-      { q: "Is Loxahatchee a town?", a: "Not exactly. \"Loxahatchee\" covers a large area of western Palm Beach County including The Acreage — a vast unincorporated grid of acre-plus homesites — and the incorporated Town of Loxahatchee Groves, plus surrounding rural land. There is no downtown, no center, and no single government covering all of it." },
-      { q: "What is it like living on an acre in Loxahatchee?", a: "It is a different relationship with your property rather than just more of it. You can keep horses or chickens, park a boat, RV and work truck without asking anyone, build a workshop, plant fruit trees or leave half of it wild. Neighbors are far enough away that what they do largely does not affect you." },
-      { q: "Do Loxahatchee homes have well and septic?", a: "A great many do rather than municipal water and sewer, which means a well pump, pressure tank, filtration and drain field that are all yours to maintain, repair and eventually replace. It is not a reason to avoid the area, but it is a reason to inspect carefully and budget honestly." },
-      { q: "Does Loxahatchee flood?", a: "Drainage is a genuine consideration. This land was drained for agriculture and depends on a canal system, some parcels sit lower than others, and standing water after heavy rain is a feature of the area rather than an anomaly. Check the specific parcel rather than the general neighborhood." },
-      { q: "How far is Loxahatchee from everything?", a: "Royal Palm Beach and Wellington are a drive east with full shopping, services and medical care, and the coast is roughly forty minutes. It genuinely feels rural — dirt roads in places, canals, agriculture, horses in view — without being isolated. The trade is that everything is a drive, every time." },
-      { q: "Who is happiest living in Loxahatchee?", a: "People who came for the land and actually use it — riders, growers, builders, anyone with animals, projects or a business needing space. Those who struggle generally came for the price per square foot, discovered the driving, and found that an acre you do not use is just a lawn you have to mow." },
+      { q: "Is Loxahatchee a town?", a: "Not as a single place. “Loxahatchee” is a name used for a broad, largely unincorporated rural area in western Palm Beach County, commonly grouped with The Acreage in home searches, and for many mailing addresses. The Town of Loxahatchee Groves is a separate incorporated municipality with its own Town Council and Water Control District. Confirm the jurisdiction for any specific property." },
+      { q: "What is it like living on acreage in Loxahatchee?", a: "It changes your relationship with your property. People come for room for animals, equipment, projects and a less managed way of living, along with privacy and a larger sky. It also asks more of you, including maintenance, driving for most errands and decisions that a managed community would make for you." },
+      { q: "Can you have horses or chickens in Loxahatchee?", a: "Some properties can, but it depends on the exact parcel, zoning, jurisdiction, permits and any property-specific restrictions. Do not assume. Confirm what is allowed for the specific address with the county or the town before you plan around it." },
+      { q: "Are Loxahatchee homes on well and septic?", a: "Many rural properties may use private wells and septic systems, while others are served differently, and drainage arrangements vary too. What serves the individual property differs house by house, so ask what serves the one you are considering and who maintains the road in front of it." },
+      { q: "Is Loxahatchee rural or remote?", a: "Rural, but not cut off. It sits within Palm Beach County and close to service hubs such as Royal Palm Beach and Wellington. The trade is that nearly everything, from groceries to restaurants to services, means driving." },
+      { q: "Who is happiest living in Loxahatchee?", a: "People who want the land and will use it: those with animals, projects, gardens, equipment or a strong preference for privacy and open sky, and who see the upkeep as part of the appeal. Buyers who were drawn only by the idea of an acre, then found the driving and maintenance a burden, tend to be happiest elsewhere." },
     ],
-    internalLinks: ["best-neighborhoods-in-loxahatchee-florida", "loxahatchee-vs-nearby-cities", "pros-and-cons-of-living-in-loxahatchee-florida"],
-    funFact: "Loxahatchee Groves and The Acreage are unincorporated Palm Beach County communities — there is no city hall, no city commission, no city taxes. Residents pay county rates only, which is part of why property taxes run lower here than in incorporated municipalities nearby.",
+    internalLinks: ["local-guide-to-loxahatchee-florida","best-neighborhoods-in-loxahatchee-florida","pros-and-cons-of-living-in-loxahatchee-florida","cost-of-living-in-loxahatchee-florida","loxahatchee-vs-nearby-cities"],
+    funFact: "An acre is 43,560 square feet, about three-quarters of a football field once you count the end zones. That is plenty of room, which is exactly why it pays to check how much of a given parcel is actually usable.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'local-guide-to-loxahatchee-florida',
