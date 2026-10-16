@@ -211,7 +211,7 @@ export interface ArticleEditorial {
   // An interactive tool rendered inside the body, directly before the ## section
   // whose heading text matches beforeSection. Client-side only.
   tool?: {
-    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'inline-magnet'
+    kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'lox-fit' | 'inline-magnet'
     beforeSection: string
   }
   // Structured discovery guide rendered above the body: a jump-link nav, then
@@ -14573,109 +14573,106 @@ If your ideal weekend starts with a trail, a gate and a wide sky, take a look at
     cityName: 'Loxahatchee',
     type: "Who Should Move To",
     order: 5,
-    seoTitle: "Who Should Move to Loxahatchee, Florida (And Who Shouldn't)",
-    metaTitle: "Who Should Move to Loxahatchee, FL",
-    metaDescription: "Loxahatchee isn't for everyone. An honest look at who thrives in this rural, big-lot country community — and who would be miserable out west.",
+    seoTitle: "Who Should Move to Loxahatchee, Florida? A Real Lifestyle Fit Guide",
+    metaTitle: "Who Should Move to Loxahatchee, FL? A Lifestyle Fit Guide",
+    metaDescription: "Is Loxahatchee right for you? A lifestyle-fit guide to acreage living: country rhythm, privacy, horses, projects, open space and who may prefer elsewhere.",
     primaryKeyword: "who should move to Loxahatchee Florida",
-    secondaryKeywords: ["is Loxahatchee right for me", "should I move to Loxahatchee", "who lives in Loxahatchee"],
-    h1: "Who Should Move to Loxahatchee, Florida (And Who Shouldn't)",
-    body: `Loxahatchee is the most polarising place in Palm Beach County. People who belong here love it with real intensity; people who don't are usually gone within three years.
+    secondaryKeywords: ["is Loxahatchee right for me","should I move to Loxahatchee","Loxahatchee lifestyle","living on acreage in Loxahatchee","Loxahatchee horse country"],
+    h1: "Who Should Move to Loxahatchee, Florida? A Real Lifestyle Fit Guide",
+    heroImage: '/images/loxahatchee/loxahatchee-working-land-tractor-field-usda-hero.webp',
+    heroImageAlt: "Orange tractor parked behind a wire fence beside planted rows and freshly tilled soil on a working farm in Loxahatchee Groves, with tall pines and a big cloudy sky behind",
+    heroImageCaption: "A working farm in Loxahatchee Groves, photographed on a USDA conservation visit in February 2021. Photo: Preston Keres / USDA.",
+    heroImageCredit: 'Preston Keres / USDA',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    inlineMagnet: false,
+    pageModules: {
+      marketTrends: false,
+      listings: false,
+      conversionBlock: false,
+    },
+    editorial: {
+      eyebrow: 'Loxahatchee · Lifestyle fit',
+      deck: "Room, horses, projects, privacy and a country rhythm: who thrives in acreage life, and who may want something else.",
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-working-land-tractor-field-usda-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore homes and acreage in Loxahatchee', href: '/communities/loxahatchee' },
+      secondaryCta: { label: 'Read: what it is really like to live here', href: '/blog/what-its-really-like-living-in-loxahatchee-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      tool: { kind: 'lox-fit', beforeSection: 'Keep Exploring Loxahatchee' },
+      closingStep: { eyebrow: 'See it for yourself', text: 'If the life you want gets bigger with room to live it, take a look at what homes and acreage in Loxahatchee look like.', cta: { label: 'Explore homes and acreage in Loxahatchee', href: '/communities/loxahatchee' } },
+    },
+    body: `Most buyers in Palm Beach County are really choosing between two things: close to everything, or room for the things that matter. Loxahatchee is the second choice, made on purpose. There is no main street here and no built-in social calendar. What you get is space: a long driveway, open sky, and enough ground to build a life around instead of just living inside it.
 
-The good news is that the fit is unusually predictable. Here's how to tell.
+This guide is a fit check, not a verdict. If the profiles below sound like you, Loxahatchee deserves a serious look.
 
-## The people this area fits
+## You May Be a Loxahatchee Person If...
 
-**Anyone with horses.** This is the clearest case. Keeping horses at home rather than boarding them changes the economics and the daily experience completely, and Loxahatchee is the practical place to do it within reach of the coast — including for people who compete in Wellington but can't justify Wellington land prices.
+### Your home life spills outdoors
 
-*Verify:* zoning and permitted animal density, water supply for stock, paddock drainage, manure management, and trail or road access if you want to ride out.
+The best part of your day happens past the back door: coffee outside, a project in the yard, a dog with room to run, a fire pit after dark. You want the outdoors to be part of the home, not just a view of it.
 
-**People with animals more generally.** Chickens, goats, dogs that need to run, rescue operations, small livestock. The zoning permits what a suburb forbids.
+### You are horse-country curious, or already committed
 
-**Makers, builders and people with equipment.** Workshops, boats, RVs, trailers, project cars, a business that needs a yard. If you've been renting storage or fighting an association, the relief here is immediate and substantial.
+Some people arrive with horses. Others simply like living where horse country is part of the scenery, with rail fences, open pasture and a rural rhythm. Both fit here. If you are already in it, you know the right property matters more than the right address.
 
-**People who want genuine privacy.** Not "quiet street" privacy — actual distance, where you can be outside without being observed and nobody's window faces yours.
+### You have projects that do not fit a subdivision
 
-**The self-reliant.** People who own tools, fix things, and would rather handle a problem than call a manager. This isn't a preference out here; it's the operating model.
+A garden that keeps growing. A workshop. A hobby that needs real elbow room. Maybe a plan that has outgrown a lot line and a patio. You are looking for ground where a project can breathe.
 
-**Growers and gardeners.** The land, the sun and the space make it genuinely productive.
+### You would take room over polish
 
-**Buyers priced out of land elsewhere.** An acre here costs what a small lot costs closer in. For people who specifically want land, nothing else in the county competes.
+A manicured entrance and matching streetscape are not what you are shopping for. You would rather have mature trees, distance from the road and a home that looks like someone actually lives in it.
 
-## The people who tend to be miserable
+### You are building a life around land, not just a bigger house
 
-Being blunt saves everyone time.
+Your question is not only how many bedrooms there are. It is what you could do with the ground. The house still matters, but the yard, the trees and the sky decide whether the place fits.
 
-**Anyone who wants convenience.** Everything is a drive. Groceries, school, work, dinner, the doctor. Multiple times a day, in traffic that builds heading east in the morning.
+### You are comfortable with a quieter, car-centered rhythm
 
-**Anyone who doesn't want to maintain infrastructure.** Well pumps fail. Drain fields age. Drainage needs attention. If you want a building manager or an association to handle things, this is precisely the wrong place.
+Daily life here runs on driving, and people who love Loxahatchee have usually made peace with that. Some even treat the drive home as the moment the day slows down. If you would rather leave the car parked most days, keep reading, because the next section is for you.
 
-**Anyone who needs walkability or transit.** There is none. Not limited — none.
+![Rows of planted vegetables on a working farm in Loxahatchee Groves, with pines and a blue sky beyond](/images/loxahatchee/loxahatchee-farm-crop-rows-usda.webp "Planted rows on a working farm in Loxahatchee Groves, photographed on a USDA conservation visit in February 2021. Photo: Preston Keres / USDA."){1600x1067}
 
-**Anyone bothered by what neighbors do.** No HOA cuts both ways. Your neighbor may keep roosters, run equipment at seven in the morning, park a fleet of vehicles, or let a paddock go to weeds. You have very limited recourse, and the freedom you came for is the same freedom they have.
+## Who May Be Happier Somewhere Else?
 
-**Anyone who wants an acre for the idea of it.** An acre you don't use is a large lawn and a large mowing bill. The people who thrive here use their land.
+Fit works both ways. Loxahatchee may feel like a stretch if you:
 
-**Anyone with a demanding coastal commute.** The drive east is real and it lengthens in season. Doing it daily to the coast wears people down.
+- want to walk to coffee, dinner or a downtown on an ordinary day
+- prefer a lock-and-leave home that needs very little attention
+- like uniform streetscapes and amenities built into the neighborhood
+- want acreage mainly as a status symbol rather than something you will use
 
-## The households this suits least obviously
+None of that is a flaw in you or in Loxahatchee. Palm Beach County has plenty of places built for exactly those preferences, and knowing early saves a lot of time. Our [pros and cons of living in Loxahatchee](/blog/pros-and-cons-of-living-in-loxahatchee-florida) is a good second read if you are on the fence.
 
-Two groups that rarely consider the area and probably should.
+## What a Good Loxahatchee Saturday Feels Like
 
-**People who work from home permanently.** If the commute disappears, the single biggest drawback of living out here disappears with it, and what remains is land, quiet and price. Confirm internet at the address first, but for genuinely remote workers the arithmetic changes completely.
+Slow start. Coffee outside. Something to do with your hands. Maybe a trail morning, an hour at a park with an equestrian trail, or a long afternoon on a project at home, finished with nothing but sky.
 
-**People with hobbies that need space.** Woodworking, car restoration, welding, ceramics, music practice, dog training, model aviation. Anything that needs a building, makes noise, or generates mess is difficult in a suburb and straightforward here.
+Nobody schedules that for you here. You build it. Our guide to the [best things to do in Loxahatchee](/blog/best-things-to-do-in-loxahatchee-florida) covers the trails and parks that fill a country weekend.
 
-Both groups tend to arrive having looked at conventional suburbs first and found nothing that fit.
+![A mown path between plantings and a red-flowering shrub on a farm in Loxahatchee Groves](/images/loxahatchee/loxahatchee-farm-path-coral-bean-usda.webp "A mown path through a working farm in Loxahatchee Groves. Photo: Preston Keres / USDA."){1600x1067}
 
-## Work and commuting
+## The Right Kind of Freedom
 
-The honest picture:
+The freedom people come here for is real, but it belongs to the parcel, not the zip code, so what you can do on any one property is a conversation to have about that property.
 
-- **Royal Palm Beach and Wellington** are the nearest real employment and services, and a manageable drive.
-- **West Palm Beach** is a genuine commute — feasible daily and not trivial, particularly in season.
-- **The coast** is roughly forty minutes without traffic, and more with it.
-- **Working from home** is the single thing that makes this area work best, and a substantial share of residents do. Confirm internet service at the specific address — availability varies considerably out here and it's a serious question rather than a formality.
+## Keep Exploring Loxahatchee
 
-There is no transit. Plan on a reliable vehicle and, realistically, more than one per working adult.
-
-## The test worth running
-
-Drive out on a wet August afternoon.
-
-Not in March, when the weather is perfect and the land looks its best. In August, when it's hot, the mosquitoes are out, a storm is building, and the roads are holding water.
-
-If you look at that and still want an acre, you'll be happy here. If it makes you want a sidewalk, that's genuine information, and Royal Palm Beach or Westlake are twenty minutes east doing the suburban version properly.
-
-The complementary test: talk to a neighbor on the road you're considering. Out here people will tell you about the drainage, the water quality and the road maintenance, and that conversation is worth more than any inspection report.
-
-## Renting or trialling first
-
-More practical here than people assume, and worth considering given how polarising the area is.
-
-There is a rental market out here, including houses on acreage, and living on a well and septic through one wet summer teaches you more than any amount of research. You will learn whether the driving wears on you, whether the mosquitoes bother you, whether you actually use the space, and whether the quiet reads as peace or isolation.
-
-If renting isn't practical, the next best thing is to spend real time on a specific road at different hours — early morning, a weekday afternoon, and after dark — before committing. Out here, the road matters more than the house.
-
-## The gut check
-
-Loxahatchee works for people who want land and will use it, who can maintain their own systems, and who genuinely prefer distance to convenience.
-
-It works badly for everyone else, and the failure mode is expensive — buying an acre, discovering the driving and the septic and the mowing, and selling at a loss into a market of buyers who are asking better questions than you did.
-
-Before you shop, be honest about the maintenance appetite and the driving. The [neighborhood guide](/blog/best-neighborhoods-in-loxahatchee-florida) and the [cost breakdown](/blog/cost-of-living-in-loxahatchee-florida) are where to start.`,
+If the fit feels right, the next step is the ground itself. Start with [what it is really like to live in Loxahatchee](/blog/what-its-really-like-living-in-loxahatchee-florida), then see how the [areas differ from one another](/blog/best-neighborhoods-in-loxahatchee-florida) and how the [local landscape works](/blog/local-guide-to-loxahatchee-florida).`,
     faqs: [
-      { q: "Who should move to Loxahatchee?", a: "Anyone with horses or other animals, since the zoning permits what a suburb forbids and keeping them at home changes the economics completely. Also makers and builders needing workshops and yard space, people who want genuine privacy rather than a quiet street, the self-reliant, growers, and buyers who specifically want land." },
-      { q: "Who should avoid Loxahatchee?", a: "Anyone who wants convenience, since everything is a drive several times a day. Anyone unwilling to maintain wells, septic systems and drainage. Anyone needing walkability or transit, of which there is none. And anyone bothered by what neighbors do, since no HOA cuts both ways." },
-      { q: "What is the downside of having no HOA?", a: "Your neighbor has exactly the freedom you have. They may keep roosters, run equipment early, park a fleet of vehicles or let a paddock go to weeds, and you have very limited recourse. Buyers who want the freedom but expect their neighbors to behave suburban are the ones who end up unhappy." },
-      { q: "Can I commute from Loxahatchee?", a: "Royal Palm Beach and Wellington are a manageable drive. West Palm Beach is a genuine commute, feasible daily but not trivial, particularly in season. The coast is roughly forty minutes without traffic. Working from home is what makes the area work best — confirm internet service at the specific address, since availability varies." },
-      { q: "How do I know if Loxahatchee is right for me?", a: "Drive out on a wet August afternoon rather than in March — when it is hot, the mosquitoes are out, a storm is building and the roads are holding water. If you still want an acre, you will be happy here. Then talk to a neighbor on the road about drainage, water quality and road maintenance." },
-      { q: "Is an acre worth it if I do not have animals?", a: "Only if you will use it. An acre you do not use is a large lawn and a large mowing bill, plus the driving and the infrastructure that came with it. The residents who thrive here are the ones with a reason for the space — animals, a workshop, a garden, equipment, or a business that needs a yard." },
+      { q: "Who tends to love living in Loxahatchee?", a: "People who want room and will use it: an outdoor-centered home life, personal projects, horses or other country pursuits, privacy, and a quieter rhythm. They tend to choose space over walkability and a country rhythm over a dense neighborhood one." },
+      { q: "Is Loxahatchee a good fit for horse and acreage lifestyles?", a: "Horse country is a big part of Loxahatchee's identity, and acreage gives hobbies, gardens and projects real room. Which parcels suit a specific plan varies from property to property, so the right property matters more than the right address. Our guide to the best areas in Loxahatchee shows how the different parts of the community feel." },
+      { q: "Is Loxahatchee private and quiet?", a: "Larger parcels generally mean more distance between homes and more open sky than a typical subdivision. How private or quiet a particular property feels still depends on the road and the parcel, so it is worth spending time on the road itself." },
+      { q: "Who may prefer a different community?", a: "People who want to walk to a downtown on an ordinary day, who prefer a lock-and-leave home, who like uniform streetscapes with neighborhood amenities built in, or who want acreage mainly as a status symbol may be happier elsewhere in Palm Beach County. That is a difference in preference, not a flaw in Loxahatchee." },
+      { q: "What makes Loxahatchee different from a typical suburb?", a: "There is no main street or built-in social calendar. Life is organized around land, projects and the outdoors, and daily routines are car-centered. In exchange for a little more distance, residents tend to get more space and more freedom to shape their own weekends." },
     ],
-    internalLinks: ["pros-and-cons-of-living-in-loxahatchee-florida", "cost-of-living-in-loxahatchee-florida", "best-neighborhoods-in-loxahatchee-florida"],
-    funFact: "Loxahatchee and The Acreage attract a specific buyer: someone who wants a minimum of one acre, the ability to keep animals, and space from neighbors — and who is willing to drive 20–30 minutes for most errands to get it. The buyers who struggle here are the ones who underestimate how much that driving adds up.",
+    internalLinks: ["what-its-really-like-living-in-loxahatchee-florida","local-guide-to-loxahatchee-florida","best-neighborhoods-in-loxahatchee-florida","best-things-to-do-in-loxahatchee-florida","pros-and-cons-of-living-in-loxahatchee-florida"],
+    funFact: "Loxahatchee Groves is an incorporated town, while much of The Acreage is unincorporated, so two places that feel alike on a country drive can sit under different local governments.",
     author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-16',
   },
   {
     slug: 'pros-and-cons-of-living-in-loxahatchee-florida',

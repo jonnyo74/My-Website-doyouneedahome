@@ -47,6 +47,7 @@ import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import EditorialHero from '@/components/article/EditorialHero'
 import LoxFreedomTest, { FREEDOM_HEADING, FREEDOM_HEADING_ID } from '@/components/article/LoxFreedomTest'
 import LoxChooser, { CHOOSER_HEADING, CHOOSER_HEADING_ID } from '@/components/article/LoxChooser'
+import LoxFitCard, { FIT_HEADING, FIT_HEADING_ID } from '@/components/article/LoxFitCard'
 import LoxSaturdayChooser, { SATURDAY_HEADING, SATURDAY_HEADING_ID } from '@/components/article/LoxSaturdayChooser'
 import QuickFit from '@/components/article/QuickFit'
 import ArticleToc from '@/components/article/ArticleToc'
@@ -83,6 +84,7 @@ const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = 
   'lox-freedom-test': { id: FREEDOM_HEADING_ID, label: FREEDOM_HEADING },
   'lox-chooser': { id: CHOOSER_HEADING_ID, label: CHOOSER_HEADING },
   'lox-saturday': { id: SATURDAY_HEADING_ID, label: SATURDAY_HEADING },
+  'lox-fit': { id: FIT_HEADING_ID, label: FIT_HEADING },
 }
 function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode }) {
   // Lets an article place its relocation-guide offer at a decision point instead of the automatic spot.
@@ -98,6 +100,7 @@ function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode 
   if (kind === 'lox-freedom-test') return <LoxFreedomTest />
   if (kind === 'lox-chooser') return <LoxChooser />
   if (kind === 'lox-saturday') return <LoxSaturdayChooser />
+  if (kind === 'lox-fit') return <LoxFitCard />
   return <JupiterBeachAccessBlock />
 }
 
