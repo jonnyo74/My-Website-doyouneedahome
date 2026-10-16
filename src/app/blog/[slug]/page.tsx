@@ -25,6 +25,7 @@ import CarryingCostWorksheet from '@/components/article/CarryingCostWorksheet'
 import JupiterBeachAccessBlock from '@/components/article/JupiterBeachAccessBlock'
 import TequestaOwnershipCalculator from '@/components/article/TequestaOwnershipCalculator'
 import { CompareMatrix, FitSelector, MATRIX_HEADING, MATRIX_HEADING_ID, SELECTOR_HEADING, SELECTOR_HEADING_ID } from '@/components/article/TequestaCompareTools'
+import TequestaDiningExplorer, { DINING_EXPLORER_HEADING, DINING_EXPLORER_HEADING_ID } from '@/components/article/TequestaDiningExplorer'
 import TequestaGemsExplorer, { GEMS_EXPLORER_HEADING, GEMS_EXPLORER_HEADING_ID } from '@/components/article/TequestaGemsExplorer'
 import KeyFactors from '@/components/article/KeyFactors'
 import ComparisonMatrix, { matrixHeadingId } from '@/components/article/ComparisonMatrix'
@@ -73,6 +74,7 @@ const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = 
   'jupiter-beach-access-map': { id: MAP_HEADING_ID, label: MAP_HEADING },
   'tequesta-ownership-calculator': { id: OWNERSHIP_HEADING_ID, label: OWNERSHIP_HEADING },
   'tequesta-gems-explorer': { id: GEMS_EXPLORER_HEADING_ID, label: GEMS_EXPLORER_HEADING },
+  'tequesta-dining-explorer': { id: DINING_EXPLORER_HEADING_ID, label: DINING_EXPLORER_HEADING },
   'tequesta-compare-matrix': { id: MATRIX_HEADING_ID, label: MATRIX_HEADING },
   'tequesta-fit-selector': { id: SELECTOR_HEADING_ID, label: SELECTOR_HEADING },
 }
@@ -84,6 +86,7 @@ function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode 
   if (kind === 'north-palm-beach-cost-worksheet') return <CarryingCostWorksheet variant="north-palm-beach" />
   if (kind === 'tequesta-ownership-calculator') return <TequestaOwnershipCalculator />
   if (kind === 'tequesta-gems-explorer') return <TequestaGemsExplorer />
+  if (kind === 'tequesta-dining-explorer') return <TequestaDiningExplorer />
   if (kind === 'tequesta-compare-matrix') return <CompareMatrix />
   if (kind === 'tequesta-fit-selector') return <FitSelector />
   return <JupiterBeachAccessBlock />
