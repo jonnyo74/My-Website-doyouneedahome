@@ -148,7 +148,7 @@ export interface ComparisonMatrixData {
 }
 
 export interface ArticleToolSpec {
-  kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'lox-fit' | 'lox-trade' | 'lox-cost-equation' | 'lox-value' | 'lox-gem-test' | 'lox-acreage-glance' | 'lox-five-lives' | 'lox-three-questions' | 'inline-magnet'
+  kind: 'carrying-cost-worksheet' | 'wellington-cost-worksheet' | 'north-palm-beach-cost-worksheet' | 'jupiter-beach-access-map' | 'tequesta-ownership-calculator' | 'tequesta-gems-explorer' | 'tequesta-dining-explorer' | 'tequesta-compare-matrix' | 'tequesta-fit-selector' | 'lox-freedom-test' | 'lox-chooser' | 'lox-saturday' | 'lox-fit' | 'lox-trade' | 'lox-cost-equation' | 'lox-value' | 'lox-gem-test' | 'lox-acreage-glance' | 'lox-five-lives' | 'lox-three-questions' | 'lox-night' | 'lox-regulars' | 'inline-magnet'
   beforeSection: string
 }
 
@@ -15109,123 +15109,110 @@ That is the whole method. The right place is the one that makes everyday life fe
     type: "Best Places To Eat, Drink & Hang Out In",
     order: 10,
     seoTitle: "Best Places to Eat, Drink & Hang Out in Loxahatchee, Florida",
-    metaTitle: "Best Places to Eat & Drink in Loxahatchee, FL",
-    metaDescription: "Where to eat, drink, and hang out in and around Loxahatchee, Florida — country-casual local spots plus the bigger scenes in Wellington and Royal Palm Beach.",
-    primaryKeyword: "best restaurants in Loxahatchee Florida",
-    secondaryKeywords: ["where to eat in Loxahatchee", "Loxahatchee dining", "The Acreage restaurants"],
+    metaTitle: "Best Places to Eat, Drink & Hang Out in Loxahatchee, Florida",
+    metaDescription: "A local guide to Loxahatchee’s casual restaurants, pizza nights, live-music hangouts, and the nearby dining scenes worth knowing in Royal Palm Beach and Wellington.",
+    primaryKeyword: "best places to eat drink and hang out in Loxahatchee Florida",
+    secondaryKeywords: ["Loxahatchee restaurants","Loxahatchee pizza","Loxahatchee live music","Loxahatchee bars","where to eat in Loxahatchee"],
     h1: "Best Places to Eat, Drink & Hang Out in Loxahatchee, Florida",
-    body: `Being direct: Loxahatchee does not have a dining scene, and it isn't going to get one. Low density, no downtown and a population spread across acre lots don't support restaurants.
+    heroImage: "/images/loxahatchee/loxahatchee-food-pizza-and-beer-hero.webp",
+    heroImageAlt: "A pepperoni pizza cut into slices on a wooden board beside a frosted mug of golden beer on a rustic restaurant table, softly lit by a window",
+    heroImageCaption: "Illustrative: pizza and a beer on a rustic table, not a photo of any business in this guide. Photo: Nenad Stojkovic, CC BY 2.0, via Wikimedia Commons (cropped).",
+    heroImageCredit: 'Nenad Stojkovic (CC BY 2.0)',
+    heroImageWidth: 1920,
+    heroImageHeight: 1080,
+    inlineMagnet: false,
+    pageModules: {
+      marketTrends: false,
+      listings: false,
+      conversionBlock: false,
+    },
+    editorial: {
+      eyebrow: 'Loxahatchee · Food and hangouts',
+      deck: "Pizza nights, live music and a few familiar rooms: how Loxahatchee does casual, and where to go nearby when the plan calls for more.",
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-food-pizza-and-beer-mobile.webp', width: 1200, height: 800 },
+      primaryCta: { label: 'Explore the Loxahatchee lifestyle', href: '/communities/loxahatchee' },
+      secondaryCta: { label: 'Read: things to do in Loxahatchee', href: '/blog/best-things-to-do-in-loxahatchee-florida' },
+      tableOfContents: true,
+      tocAfterIntro: true,
+      tool: [
+        { kind: 'lox-night', beforeSection: 'Jabrewski\'s Pizza Company' },
+        { kind: 'lox-regulars', beforeSection: 'Where Loxahatchee Goes When Dinner Is the Whole Plan' },
+      ],
+      closingStep: { eyebrow: 'See it for yourself', text: 'If a reliable pizza place and a local music night sound like your kind of week, take a look at the Loxahatchee lifestyle.', cta: { label: 'Explore the Loxahatchee lifestyle', href: '/communities/loxahatchee' } },
+    },
+    body: `Loxahatchee is not where someone goes to collect twenty different restaurants in a two-block radius. It is where people find their reliable pizza place, their local music night, their casual dinner stop, and a few familiar rooms where faces start becoming familiar.
 
-What it has is a handful of genuine local places, a short drive to real range, and a social culture that mostly happens on private property. Once you understand that last part, the picture makes sense.
+The point is not scarcity. The point is a different social rhythm: fewer choices, returned to more often. This guide names a short list of real places that give Loxahatchee its casual, local, country-social evenings, then points you to Royal Palm Beach and Wellington for the nights that call for more. Three local regulars each have a different job, and each has its own official website, which is where to check current menus, hours and events before you go.
 
-## What's actually out here
+## Jabrewski's Pizza Company
 
-Along the main roads — particularly the **Seminole Pratt Whitney** corridor and the commercial pockets where the area meets the more developed county to the east — there's a scattering of casual local restaurants, pizza places, convenience stops, feed and hardware, and a country bar or two.
+Neighborhood pizza and cold beer at 7070 Seminole Pratt Whitney Road. According to its own site, Jabrewski's is family owned, opened its original shop in Loxahatchee in 2015, and describes itself as a neighborhood pizza shop built around good food and good company.
 
-These places survive on regulars, and they function as the closest thing the area has to gathering points. If you live out here, you'll have one you go to, and you'll be recognized there within a month.
+**Best for:** a family pizza night, takeout, meeting friends for a beer, or an easy weeknight meal.
 
-Don't expect range or ambition. Expect honest food, reasonable prices, and people who know each other.
+**Before you go:** the [official Jabrewski's site](https://www.jabrewskispizzaco.com/) lists the menu, hours and online ordering.
 
-## Timing the trip
+## Boonies Sports Bar & Grill
 
-A small habit that makes the driving considerably less annoying.
+The local choice when the plan is music, not a quiet sit-down dinner. At 14555 Southern Boulevard in Loxahatchee Groves, Boonies describes live rock bands and DJs, with food and drinks, and its site lists regular karaoke, bingo and poker nights.
 
-Residents batch: the grocery run, the feed store, the hardware, dinner and anything else east all happen on one trip rather than four. Sunday afternoon and weekday mid-morning are the easy windows; weekday evenings heading east are the worst.
+**Best for:** a lively night out, a live band or DJ, karaoke, or a game night with friends.
 
-It sounds obvious and it takes most newcomers a few months to actually adopt.
+**Before you go:** the [official Boonies website](https://www.booniesfl.com/) posts the current band and DJ calendar and weekly specials. Schedules change, so check it before heading out.
 
-## The drive east
+## Ray's Hideaway Restaurant & Bar
 
-For anything beyond that, residents drive, and the options are genuinely good:
+A laid-back restaurant and bar at 12041 Southern Boulevard in Loxahatchee. Ray's describes itself as a local spot for food, drinks and theme nights, with a full bar and weekly entertainment that includes karaoke and trivia.
 
-**Royal Palm Beach** has the nearest real concentration along its main corridors — a wide, affordable and notably varied set of restaurants, covered in [that village's own dining guide](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida).
+**Best for:** a casual lunch or dinner, drinks with friends, or a relaxed later night.
 
-**Wellington**, southeast, adds more range including the area around the mall, and gets busier and more interesting during the winter equestrian season.
+**Before you go:** the [official Ray's Hideaway site](https://rayshideawayfl.com/) has the menu, and its [events page](https://rayshideawayfl.com/events/) lists current theme nights.
 
-**Westlake**, closer, is developing its own commercial center as the city builds out.
+## Where Loxahatchee Goes When Dinner Is the Whole Plan
 
-**West Palm Beach and the coast** are there when the occasion warrants the drive.
+Some nights call for more choice: a group with different tastes, a family dinner, a longer sit-down evening. For those, two nearby communities are the natural next step.
 
-The practical consequence is that spontaneity doesn't really work. You decide earlier in the day, you combine the trip with other errands, and you accept that dinner out is a small expedition rather than a whim.
+### Royal Palm Beach
 
-## Provisioning is the bigger deal
+The most natural nearby option for a broader casual-dining rotation, a family dinner, or a group that cannot agree. Our guide to the [best places to eat, drink and hang out in Royal Palm Beach](/blog/best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida) is the place to start.
 
-More important than restaurants for daily life out here.
+### Wellington
 
-**You don't pop out for one item.** The grocery run is a planned trip east, and residents keep deeper pantries and larger freezers than suburban households do. Chest freezers are close to standard.
+An option when the night calls for a fuller village atmosphere, an evening built around Wellington's equestrian culture, or a more occasion-driven dinner. See our guide to the [best places to eat, drink and hang out in Wellington](/blog/best-places-to-eat-drink-hang-out-in-wellington-florida).
 
-**Feed and farm supply** matter if you keep animals, and there are local sources — one of the practical advantages of the area over a suburb.
+## What Hanging Out Really Looks Like Here
 
-**Delivery coverage varies** by address and is worth checking rather than assuming, particularly for anything perishable.
+Hanging out in Loxahatchee is mostly small and repeatable:
 
-**Growing your own** is genuinely practical here in a way it isn't on a suburban lot, and a fair number of residents keep gardens, fruit trees and chickens that meaningfully reduce what they need to buy.
+- Local live music and recurring event calendars, like the ones Boonies and Ray's post on their own sites.
+- Casual restaurants where people linger over a meal, a beer or a second round.
+- County parks with green space and picnic areas, such as Loxahatchee Groves Park. Our guide to the [best things to do in Loxahatchee](/blog/best-things-to-do-in-loxahatchee-florida) covers the trails and parks, and the [hidden gems in Loxahatchee](/blog/hidden-gems-in-loxahatchee-florida) covers the quieter side.
 
-## Where the social life actually happens
+For some households, the home itself is the hangout, which is part of the lifestyle that draws people to the area.
 
-This is the part that surprises people, and it's the honest answer to "where do people hang out."
+## A Small Planning Note
 
-**On each other's property.** Barbecues, bonfires, barn gatherings, and helping each other with projects. The social fabric here is built around neighbors with land, and it happens at home rather than in a commercial venue.
+A little planning helps in a lower-density area: check a venue's current hours or event calendar before heading out, especially for live music and late-night plans.
 
-**Around animals.** Riding together, at the feed store, at shows and events. If you keep horses, you'll have a social circle within weeks.
+## The Right Expectation
 
-**At community events**, which are periodic rather than constant, and worth finding early.
+Loxahatchee's food scene is not about endless choice. It is about finding a few places that become part of the weekly rhythm, then knowing where nearby to go when the occasion calls for more. That is a strength, not an apology.
 
-The implication for a newcomer: you won't meet people by going out, because there's nowhere to go out to. You'll meet them by being outside on your own land, by needing something and asking, and by turning up when someone else needs a hand.
-
-That's slower than a walkable downtown and, according to residents who've done both, considerably more durable.
-
-## The winter equestrian season effect
-
-One seasonal shift worth knowing about, because it changes the area's rhythm.
-
-From roughly January through April, the equestrian world in neighboring Wellington swells enormously with competitors, grooms, trainers and support staff arriving for the season — a substantial number of whom live out here.
-
-The practical effects: the roads east get busier, the feed stores get busier, rental demand rises sharply, and the restaurants in Wellington fill with people who have driven in from all over the western county.
-
-For residents it is mostly a positive — more going on, more people about — but it is worth building into your expectations of traffic and availability during those months.
-
-## Practicalities
-
-- **Hours are limited** at local places, and some close early. Check before driving.
-- **Cash** is worth carrying at smaller establishments.
-- **Season** barely affects things out here, though Wellington to the southeast gets substantially busier in winter.
-- **Summer** is quiet, and the mosquitoes make outdoor evening gatherings a different proposition than in the dry season.
-
-## Cooking, and why it matters more here
-
-With the driving involved in eating out, most meals happen at home — and the area is unusually well set up for that.
-
-**Space to cook and store.** Bigger kitchens, room for a second freezer, and space for a smoker or an outdoor kitchen that a suburban lot cannot accommodate.
-
-**Growing and raising.** Gardens, fruit trees and chickens are genuinely practical here, and a fair number of households produce a meaningful share of what they eat.
-
-**Local sourcing.** Seasonal roadside stands, produce from neighbors with more than they need, and the informal exchange that happens where people grow things.
-
-Residents who lean into this eat better than they would in a suburb with more restaurants, and spend considerably less doing it.
-
-## The honest summary
-
-If restaurants matter to you, this is the wrong area, and Royal Palm Beach or Wellington will serve you far better for a fraction of the driving.
-
-If your ideal evening involves your own porch, a fire, and people who arrived in trucks — Loxahatchee delivers that better than anywhere else in the county, and the fifteen-minute drive for a proper meal stops registering within a month.
-
-For the rest of what fills a week here, our [guide to what's worth doing](/blog/best-things-to-do-in-loxahatchee-florida) covers the refuge and the outdoors.`,
+If you are still getting to know the area, start with [what it is really like to live in Loxahatchee](/blog/what-its-really-like-living-in-loxahatchee-florida), then our [local guide to Loxahatchee](/blog/local-guide-to-loxahatchee-florida).`,
     faqs: [
-      { q: "Are there restaurants in Loxahatchee?", a: "A handful of casual local places along the main roads — pizza, convenience stops, a country bar or two — that survive on regulars and function as the closest thing to gathering points. Do not expect range or ambition. For anything more, residents drive east to Royal Palm Beach or Wellington." },
-      { q: "Where do Loxahatchee residents go out to eat?", a: "Royal Palm Beach has the nearest real concentration along its main corridors, wide and affordable and notably varied. Wellington adds more range and gets busier during the winter equestrian season. Westlake is developing its own commercial center. Spontaneity does not really work — you decide earlier and combine the trip with errands." },
-      { q: "How do people shop for groceries in Loxahatchee?", a: "As a planned trip east rather than a quick errand — you do not pop out for one item. Residents keep deeper pantries and larger freezers than suburban households, and chest freezers are close to standard. Delivery coverage varies by address and is worth checking rather than assuming." },
-      { q: "Where do people socialise in Loxahatchee?", a: "On each other's property — barbecues, bonfires, barn gatherings and helping with projects. The social fabric is built around neighbors with land and happens at home rather than in commercial venues. If you keep horses you will have a social circle within weeks through riding, the feed store and events." },
-      { q: "How do I meet people if I move to Loxahatchee?", a: "Not by going out, because there is nowhere to go out to. You meet people by being outside on your own land, by needing something and asking, and by turning up when someone else needs a hand. It is slower than a walkable downtown and, according to residents who have done both, considerably more durable." },
-      { q: "Can I grow my own food in Loxahatchee?", a: "Genuinely practical here in a way it is not on a suburban lot. A fair number of residents keep gardens, fruit trees and chickens that meaningfully reduce what they need to buy, and local feed and farm supply is available — one of the practical advantages of the area over a suburb." },
+      { q: "Where do locals eat in Loxahatchee?", a: "Three places with their own official websites are a good start: Jabrewski's Pizza Company for neighborhood pizza and beer, Ray's Hideaway Restaurant & Bar for a casual restaurant-and-bar meal, and Boonies Sports Bar & Grill for food, drinks and live music. Check each site for current menus, hours and events." },
+      { q: "Is there a local bar or live-music scene in Loxahatchee?", a: "Yes, a casual one. Boonies Sports Bar & Grill, in Loxahatchee Groves, describes live bands and DJs, karaoke, bingo and poker on its official website, and Ray's Hideaway lists weekly theme nights such as karaoke and trivia. Both post their calendars on their own sites, so check before heading out." },
+      { q: "Where can I go for a casual pizza night in Loxahatchee?", a: "Jabrewski's Pizza Company, at 7070 Seminole Pratt Whitney Road, describes itself as a family-owned neighborhood pizza shop that opened in Loxahatchee in 2015, with handcrafted pizzas and cold beer. Its official site lists the menu, hours and online ordering." },
+      { q: "Where should I go nearby for a bigger dinner night?", a: "Royal Palm Beach is the most natural nearby option for a broader casual-dining rotation or a group with different tastes, and Wellington suits a night that calls for a fuller village atmosphere or a more occasion-driven dinner. Our Royal Palm Beach and Wellington food-and-hangout guides are the place to start." },
+      { q: "Is Loxahatchee a good place for casual dining and social nights out?", a: "It is a good fit if you like casual, repeatable places over a long list of choices. Loxahatchee's food-and-hangout rhythm is built around a few local regulars for pizza, live music and relaxed dinners and drinks, with nearby communities available when the occasion calls for more." },
+      { q: "How do I find current live-music or event schedules in Loxahatchee?", a: "Go to the venue's own website. Boonies posts its band and DJ calendar and weekly specials on its official site, and Ray's Hideaway has an events page listing its current theme nights. Schedules change, so check before heading out, especially for live music and late-night plans." },
     ],
-    internalLinks: ["best-things-to-do-in-loxahatchee-florida", "local-guide-to-loxahatchee-florida", "what-its-really-like-living-in-loxahatchee-florida"],
-    funFact: "Loxahatchee's dining is almost entirely along Southern Boulevard and Okeechobee Boulevard — unpretentious local spots that serve the agricultural and working-class communities that built this area. The BBQ and Latin food in particular punches well above what the zip code suggests.",
-    author: 'christine',
+    internalLinks: ["what-its-really-like-living-in-loxahatchee-florida","local-guide-to-loxahatchee-florida","best-things-to-do-in-loxahatchee-florida","hidden-gems-in-loxahatchee-florida","best-places-to-eat-drink-hang-out-in-royal-palm-beach-florida","best-places-to-eat-drink-hang-out-in-wellington-florida"],
+    author: 'john',
     published: true,
-    updated: '2026-06-01',
+    publishedDate: '2026-06-01',
+    updated: '2026-10-16',
   },
-
-  // ===================== WESTLAKE =====================
   {
     slug: 'what-its-really-like-living-in-westlake-florida',
     citySlug: 'westlake',

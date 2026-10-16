@@ -41,3 +41,9 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | --- | --- | --- |
 | `loxahatchee-vs-nearby-hero.webp` / `-mobile.webp` | Blog #9 hero: gray horse and cattle egrets in a pasture | Same Dawn McDonald / Unsplash photograph used in blogs #6 and #8, supplied by John via OneDrive. Unsplash licence. **Not verified as taken in Loxahatchee**; captioned "Illustrative". Re-cropped. |
 | `loxahatchee-western-pbc-rhythm-map.webp` | "Choose Your Western Palm Beach County Rhythm" schematic | Original DO Homes Group artwork. Positions are approximate, derived from U.S. Census Bureau 2023 Gazetteer internal points for Wellington village, Royal Palm Beach village, Westlake city, Jupiter Farms CDP, The Acreage CDP and Loxahatchee Groves town. The gap to Jupiter Farms is compressed. Not a boundary map. |
+
+## Blog #10 additions
+
+| File | What it is | Source |
+| --- | --- | --- |
+| `loxahatchee-food-pizza-and-beer-hero.webp` / `-mobile.webp` | Blog #10 hero: pepperoni pizza and a beer mug on a rustic table | "Beer and pizza on display in a restaurant on a rustic table with focus on the glass of beer" by Nenad Stojkovic, CC BY 2.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Beer_and_pizza_on_display_in_a_restaurant_on_a_rustic_table_with_focus_on_the_glass_of_beer.jpg; original Flickr 49446114228). Cropped only. **Not a photo of any business in the guide, nor of Loxahatchee**; captioned "Illustrative". Attribution is shown in the page caption and credit line. |
