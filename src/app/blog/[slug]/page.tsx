@@ -49,6 +49,7 @@ import LoxFreedomTest, { FREEDOM_HEADING, FREEDOM_HEADING_ID } from '@/component
 import LoxChooser, { CHOOSER_HEADING, CHOOSER_HEADING_ID } from '@/components/article/LoxChooser'
 import LoxFitCard, { FIT_HEADING, FIT_HEADING_ID } from '@/components/article/LoxFitCard'
 import { LoxCostEquation, LoxValueCards, EQUATION_HEADING, EQUATION_HEADING_ID, VALUE_HEADING, VALUE_HEADING_ID } from '@/components/article/LoxCostModules'
+import { LoxGemTest, LoxAcreagePinesGlance, GEM_TEST_HEADING, GEM_TEST_HEADING_ID, GLANCE_HEADING, GLANCE_HEADING_ID } from '@/components/article/LoxGemModules'
 import LoxTradeCard, { TRADE_HEADING, TRADE_HEADING_ID } from '@/components/article/LoxTradeCard'
 import LoxSaturdayChooser, { SATURDAY_HEADING, SATURDAY_HEADING_ID } from '@/components/article/LoxSaturdayChooser'
 import QuickFit from '@/components/article/QuickFit'
@@ -90,6 +91,8 @@ const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = 
   'lox-trade': { id: TRADE_HEADING_ID, label: TRADE_HEADING },
   'lox-cost-equation': { id: EQUATION_HEADING_ID, label: EQUATION_HEADING },
   'lox-value': { id: VALUE_HEADING_ID, label: VALUE_HEADING },
+  'lox-gem-test': { id: GEM_TEST_HEADING_ID, label: GEM_TEST_HEADING },
+  'lox-acreage-glance': { id: GLANCE_HEADING_ID, label: GLANCE_HEADING },
 }
 function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode }) {
   // Lets an article place its relocation-guide offer at a decision point instead of the automatic spot.
@@ -109,6 +112,8 @@ function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode 
   if (kind === 'lox-trade') return <LoxTradeCard />
   if (kind === 'lox-cost-equation') return <LoxCostEquation />
   if (kind === 'lox-value') return <LoxValueCards />
+  if (kind === 'lox-gem-test') return <LoxGemTest />
+  if (kind === 'lox-acreage-glance') return <LoxAcreagePinesGlance />
   return <JupiterBeachAccessBlock />
 }
 
