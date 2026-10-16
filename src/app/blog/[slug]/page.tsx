@@ -51,6 +51,7 @@ import LoxFitCard, { FIT_HEADING, FIT_HEADING_ID } from '@/components/article/Lo
 import { LoxCostEquation, LoxValueCards, EQUATION_HEADING, EQUATION_HEADING_ID, VALUE_HEADING, VALUE_HEADING_ID } from '@/components/article/LoxCostModules'
 import { LoxGemTest, LoxAcreagePinesGlance, GEM_TEST_HEADING, GEM_TEST_HEADING_ID, GLANCE_HEADING, GLANCE_HEADING_ID } from '@/components/article/LoxGemModules'
 import { LoxFiveLives, LoxThreeQuestions, LIVES_HEADING, LIVES_HEADING_ID, QUESTIONS_HEADING, QUESTIONS_HEADING_ID } from '@/components/article/LoxCompareModules'
+import LoxNightChooser, { LoxRegularsGlance, REGULARS_HEADING, REGULARS_HEADING_ID, NIGHT_HEADING, NIGHT_HEADING_ID } from '@/components/article/LoxNightChooser'
 import LoxTradeCard, { TRADE_HEADING, TRADE_HEADING_ID } from '@/components/article/LoxTradeCard'
 import LoxSaturdayChooser, { SATURDAY_HEADING, SATURDAY_HEADING_ID } from '@/components/article/LoxSaturdayChooser'
 import QuickFit from '@/components/article/QuickFit'
@@ -96,6 +97,8 @@ const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = 
   'lox-acreage-glance': { id: GLANCE_HEADING_ID, label: GLANCE_HEADING },
   'lox-five-lives': { id: LIVES_HEADING_ID, label: LIVES_HEADING },
   'lox-three-questions': { id: QUESTIONS_HEADING_ID, label: QUESTIONS_HEADING },
+  'lox-night': { id: NIGHT_HEADING_ID, label: NIGHT_HEADING },
+  'lox-regulars': { id: REGULARS_HEADING_ID, label: REGULARS_HEADING },
 }
 function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode }) {
   // Lets an article place its relocation-guide offer at a decision point instead of the automatic spot.
@@ -119,6 +122,8 @@ function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode 
   if (kind === 'lox-acreage-glance') return <LoxAcreagePinesGlance />
   if (kind === 'lox-five-lives') return <LoxFiveLives />
   if (kind === 'lox-three-questions') return <LoxThreeQuestions />
+  if (kind === 'lox-night') return <LoxNightChooser />
+  if (kind === 'lox-regulars') return <LoxRegularsGlance />
   return <JupiterBeachAccessBlock />
 }
 
