@@ -45,6 +45,7 @@ import YlopoInit from '@/components/YlopoInit'
 import DeferredContactCta from '@/components/DeferredContactCta'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import EditorialHero from '@/components/article/EditorialHero'
+import LoxFreedomTest, { FREEDOM_HEADING, FREEDOM_HEADING_ID } from '@/components/article/LoxFreedomTest'
 import QuickFit from '@/components/article/QuickFit'
 import ArticleToc from '@/components/article/ArticleToc'
 import { selectMagnetForArticle } from '@/lib/leadMagnetRouting'
@@ -77,6 +78,7 @@ const TOOL_HEADINGS: Partial<Record<ToolKind, { id: string; label: string }>> = 
   'tequesta-dining-explorer': { id: DINING_EXPLORER_HEADING_ID, label: DINING_EXPLORER_HEADING },
   'tequesta-compare-matrix': { id: MATRIX_HEADING_ID, label: MATRIX_HEADING },
   'tequesta-fit-selector': { id: SELECTOR_HEADING_ID, label: SELECTOR_HEADING },
+  'lox-freedom-test': { id: FREEDOM_HEADING_ID, label: FREEDOM_HEADING },
 }
 function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode }) {
   // Lets an article place its relocation-guide offer at a decision point instead of the automatic spot.
@@ -89,6 +91,7 @@ function ToolBlock({ kind, magnet }: { kind: ToolKind; magnet?: React.ReactNode 
   if (kind === 'tequesta-dining-explorer') return <TequestaDiningExplorer />
   if (kind === 'tequesta-compare-matrix') return <CompareMatrix />
   if (kind === 'tequesta-fit-selector') return <FitSelector />
+  if (kind === 'lox-freedom-test') return <LoxFreedomTest />
   return <JupiterBeachAccessBlock />
 }
 
@@ -203,7 +206,8 @@ export default async function ArticlePage({ params }: Props) {
     : regional
       ? `/blog?region=${REGIONAL_BLOG_TAB}`
       : undefined
-  const trends = regional ? null : marketTrendsCity(article.cityName)
+  const modules = article.pageModules
+  const trends = regional || modules?.marketTrends === false ? null : marketTrendsCity(article.cityName)
   const url = `${SITE}/blog/${article.slug}`
   // One contextually chosen magnet for the whole page: Treasure Coast articles
   // get a Treasure Coast offer, relocation articles get the decision guide, and
@@ -255,6 +259,13 @@ export default async function ArticlePage({ params }: Props) {
   // label it as houses, and point condo shoppers at the condo search.
   const citySearch = getYlopoCitySearch(article.cityName)
   const houseOnlyListings = Boolean(citySearch)
+  // An article can keep only the saved searches that fit it (and relabel them).
+  const savedSearches = modules?.searches
+    ? (community?.savedSearches ?? []).flatMap((s) => {
+        const keep = modules.searches?.find((m) => m.from === s.label)
+        return keep ? [{ ...s, label: keep.label ?? s.label, sublabel: keep.sublabel ?? s.sublabel }] : []
+      })
+    : community?.savedSearches
   const condoSearch = houseOnlyListings
     ? community?.savedSearches?.find((s) => s.label === 'Condos')
     : undefined
@@ -526,12 +537,12 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         {/* Conversion block — search buttons */}
-        {community?.savedSearches?.length ? (
+        {savedSearches?.length ? (
           <div className="mt-12">
             <CitySearchButtons
-              eyebrow="Ready to look?"
-              heading={`Explore Homes in ${article.cityName}`}
-              searches={community.savedSearches}
+              eyebrow={modules?.searchHeading?.eyebrow ?? 'Ready to look?'}
+              heading={modules?.searchHeading?.heading ?? `Explore Homes in ${article.cityName}`}
+              searches={savedSearches}
               phone={PHONE}
             />
           </div>
@@ -553,7 +564,7 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         {/* Listings widget — single-family houses $500k+ for the article's city */}
-        {!regional && (
+        {!regional && modules?.listings !== false && (
         <div className="mt-12">
           <h2 className="font-serif text-2xl font-semibold text-slate-900">
             {houseOnlyListings ? `${article.cityName} Single-Family Homes for Sale` : `Homes for Sale in ${article.cityName}`}

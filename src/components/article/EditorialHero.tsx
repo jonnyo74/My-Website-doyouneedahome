@@ -255,7 +255,7 @@ export default function EditorialHero(props: Props) {
   }
 
   return (
-    <header className="relative bg-navy-950 md:aspect-[16/9] md:min-h-[600px] lg:aspect-[2.2/1] lg:max-h-[780px]">
+    <header className="relative w-full bg-navy-950 md:aspect-[16/9] md:min-h-[600px] lg:aspect-[2.2/1] lg:max-h-[780px]">
       {/* The box reserves its height from aspect-ratio before the image
           arrives, so nothing below shifts when it paints. */}
       <div className={`relative ${stacked} overflow-hidden md:absolute md:inset-0 md:aspect-auto`}>
