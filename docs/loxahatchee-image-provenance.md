@@ -47,3 +47,20 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | File | What it is | Source |
 | --- | --- | --- |
 | `loxahatchee-food-pizza-and-beer-hero.webp` / `-mobile.webp` | Blog #10 hero: pepperoni pizza and a beer mug on a rustic table | "Beer and pizza on display in a restaurant on a rustic table with focus on the glass of beer" by Nenad Stojkovic, CC BY 2.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Beer_and_pizza_on_display_in_a_restaurant_on_a_rustic_table_with_focus_on_the_glass_of_beer.jpg; original Flickr 49446114228). Cropped only. **Not a photo of any business in the guide, nor of Loxahatchee**; captioned "Illustrative". Attribution is shown in the page caption and credit line. |
+
+## Illustrations removed (blogs #1-#3)
+
+On request, the scene illustrations and illustrated heroes for blogs #1-#3 were replaced with real photographs (see the rows above and these additions) and deleted:
+country-road golden-hour hero/mobile, road-and-canal grid aerial hero/mobile, areas-guide hero/mobile, gate-and-pasture, mature acreage lane, equestrian barn and paddock, wide land and sky, and the "what would you do with an acre" illustration.
+
+The text-bearing orientation diagrams are kept: `loxahatchee-orientation-graphic`, `loxahatchee-how-it-works-graphic`, `loxahatchee-country-rhythm-strip`, `loxahatchee-choose-your-loxahatchee-graphic` and `loxahatchee-street-by-street-contrasts`. They are information graphics, not scenes, and are labeled as approximate, not boundary maps.
+
+| File | Used in | Source |
+| --- | --- | --- |
+| `loxahatchee-living-sand-road-hero.webp` / `-mobile.webp` | Blog #1 hero | Matthew Williams / Unsplash, supplied by John via OneDrive. Not verified as taken in Loxahatchee; captioned "Illustrative". Cropped, lightly colour-corrected. |
+| `loxahatchee-living-farm-tractor.webp` | Blog #1 inline | USDA/FPAC photo by Preston Keres, 26 Feb 2021, farm in Loxahatchee Groves. Public domain. |
+| `loxahatchee-guide-farm-rows-hero.webp` / `-mobile.webp` | Blog #2 hero | USDA/FPAC photo by Preston Keres, same shoot. Public domain. |
+| `loxahatchee-guide-farm-path.webp` | Blog #2 inline | USDA/FPAC photo by Preston Keres, same shoot. Public domain. |
+| `loxahatchee-areas-pasture-hero.webp` / `-mobile.webp` | Blog #3 hero | Dawn McDonald / Unsplash, supplied by John. Not verified as taken in Loxahatchee; captioned "Illustrative". |
+| `loxahatchee-areas-sand-lane.webp` | Blog #3 inline | Matthew Williams / Unsplash (same source as blog #1 hero, different crop). Captioned "Illustrative". |
+| `loxahatchee-areas-open-fields.webp` | Blog #3 inline | USDA/FPAC photo by Preston Keres, same shoot. Public domain. |

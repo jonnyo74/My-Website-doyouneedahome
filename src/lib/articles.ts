@@ -14065,10 +14065,10 @@ If you are weighing whether the Village's daily rhythm suits you, read [what it 
     primaryKeyword: "living in Loxahatchee Florida",
     secondaryKeywords: ["moving to Loxahatchee FL","Loxahatchee acreage","The Acreage Florida","Loxahatchee Groves","is Loxahatchee a good place to live"],
     h1: "What It’s Really Like Living in Loxahatchee, Florida",
-    heroImage: '/images/loxahatchee/loxahatchee-country-road-golden-hour-hero.webp',
-    heroImageAlt: "Illustration of a shell-rock country road at golden hour, with slash pines, palmettos, a rail fence and a canal under a wide South Florida sky",
-    heroImageCaption: "Editorial illustration of a rural Loxahatchee-area road at golden hour. It is artwork, not a photograph.",
-    heroImageCredit: 'Illustration by DO Homes Group',
+    heroImage: '/images/loxahatchee/loxahatchee-living-sand-road-hero.webp',
+    heroImageAlt: "A pale sand road running straight between tall pines and green palmetto undergrowth beneath a cloud-streaked sky",
+    heroImageCaption: "Illustrative: a sand road through Florida pines. Photo: Matthew Williams / Unsplash.",
+    heroImageCredit: 'Matthew Williams / Unsplash',
     heroImageWidth: 1920,
     heroImageHeight: 1080,
     inlineMagnet: false,
@@ -14081,7 +14081,7 @@ If you are weighing whether the Village's daily rhythm suits you, read [what it 
     editorial: {
       eyebrow: 'Loxahatchee · Acreage living',
       deck: "Acreage, dirt roads, open sky, and the freedom to live a little less managed—without leaving Palm Beach County behind.",
-      mobileImage: { src: '/images/loxahatchee/loxahatchee-country-road-golden-hour-mobile.webp', width: 1200, height: 800 },
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-living-sand-road-mobile.webp', width: 1200, height: 800 },
       primaryCta: { label: 'Explore Loxahatchee acreage homes', href: '/communities/loxahatchee' },
       secondaryCta: { label: 'See the Loxahatchee community guide', href: '/blog/local-guide-to-loxahatchee-florida' },
       tableOfContents: true,
@@ -14107,7 +14107,7 @@ Within that, here is what room can mean in practice:
 - **Room for projects.** The kind that never fit comfortably on a subdivision lot.
 - **Privacy.** More of it, and a lot more sky.
 
-![An illustrated acre divided into five zones: animals, workshop and projects, garden and trees, trailer and equipment, and privacy and open sky](/images/loxahatchee/loxahatchee-what-would-you-do-with-an-acre.webp "What would you do with an acre? An illustration of one way to picture it, not a plan for any parcel."){1400x1000}
+![An orange tractor behind a wire fence beside planted rows and tilled soil on a working farm, with pines and a cloudy sky behind](/images/loxahatchee/loxahatchee-living-farm-tractor.webp "A working farm in Loxahatchee Groves, photographed on a USDA conservation visit in February 2021. Photo: Preston Keres / USDA."){1600x1067}
 
 Here is the central point. Freedom is not zero responsibility. It means a buyer has to want the work, the systems and the decisions that come with having room. Nobody else is going to mow the back half, fix the gate, or decide what goes where. For the right person that is the whole appeal. For the wrong person it is a second job.
 
@@ -14205,10 +14205,10 @@ If it fits, [compare the neighboring towns](/blog/loxahatchee-vs-nearby-cities) 
     primaryKeyword: "Loxahatchee local guide",
     secondaryKeywords: ["Loxahatchee Florida guide","The Acreage vs Loxahatchee Groves","living on acreage Loxahatchee","Loxahatchee roads and canals"],
     h1: "A Local’s Guide to Loxahatchee, Florida",
-    heroImage: '/images/loxahatchee/loxahatchee-road-canal-grid-aerial-hero.webp',
-    heroImageAlt: "Illustration of the Loxahatchee road-and-canal grid seen from above in golden light, with shell-rock roads, orange-lit canals, large parcels, tree clusters and paddocks",
-    heroImageCaption: "Editorial illustration of a rural road-and-canal grid in golden light. It is artwork, not an aerial photograph.",
-    heroImageCredit: 'Illustration by DO Homes Group',
+    heroImage: '/images/loxahatchee/loxahatchee-guide-farm-rows-hero.webp',
+    heroImageAlt: "Rows of planted vegetables stretching toward a line of pines and a small farm shed beneath a big blue sky with scattered clouds, on a working farm in Loxahatchee Groves",
+    heroImageCaption: "A working farm in Loxahatchee Groves, photographed on a USDA conservation visit in February 2021. Photo: Preston Keres / USDA.",
+    heroImageCredit: 'Preston Keres / USDA',
     heroImageWidth: 1920,
     heroImageHeight: 1080,
     inlineMagnet: false,
@@ -14221,7 +14221,7 @@ If it fits, [compare the neighboring towns](/blog/loxahatchee-vs-nearby-cities) 
     editorial: {
       eyebrow: 'Loxahatchee · Local guide',
       deck: "How acreage country works day to day—from the road grid and rural rhythm to the services, systems, and freedom that make Loxahatchee different.",
-      mobileImage: { src: '/images/loxahatchee/loxahatchee-road-canal-grid-aerial-mobile.webp', width: 1200, height: 800 },
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-guide-farm-rows-mobile.webp', width: 1200, height: 800 },
       primaryCta: { label: 'Explore Loxahatchee acreage homes', href: '/communities/loxahatchee' },
       secondaryCta: { label: 'Read: what it is really like to live here', href: '/blog/what-its-really-like-living-in-loxahatchee-florida' },
       tableOfContents: true,
@@ -14291,7 +14291,7 @@ Horses and equestrian life are part of the culture, helped by the equestrian wor
 
 The sky does a lot of the work. Open horizons, rain you can see coming, and quieter, darker evenings than you get near the coast. Canals, pines and palmettos fill in the rest.
 
-![Illustration of a rail gate and open pasture under a wide sky, with slash pines and palmettos beyond](/images/loxahatchee/loxahatchee-gate-and-pasture-illustration.webp "A gate, a pasture and a lot of sky. Illustration, not a photograph."){1600x900}
+![A mown green path beside a red-flowering plant on a working farm, with palms and a farm building softly blurred behind](/images/loxahatchee/loxahatchee-guide-farm-path.webp "A mown path on a working farm in Loxahatchee Groves. Photo: Preston Keres / USDA."){1600x1067}
 
 Where the public can get outside, the county's natural areas are a good starting point. Acreage Pines Natural Area, at the west end of Acreage Pines Community Park, is a county-run preserve with hiking trails and a boardwalk. Check Palm Beach County Environmental Resources Management for current access, hours and rules before you go, since they differ by site and change.
 
@@ -14345,10 +14345,10 @@ Once you see the pattern, the rest is detail: which Loxahatchee you mean, which 
     primaryKeyword: "best neighborhoods in Loxahatchee Florida",
     secondaryKeywords: ["where to live in Loxahatchee","The Acreage","Loxahatchee Groves","Loxahatchee equestrian"],
     h1: "Best Areas to Live in Loxahatchee, Florida",
-    heroImage: '/images/loxahatchee/loxahatchee-areas-guide-hero.webp',
-    heroImageAlt: "Illustration of a shell-rock country road at golden hour between white rail fences, with pasture, slash pines, palmettos and a distant barn",
-    heroImageCaption: "Editorial illustration of a rural road, pasture and rail fence at golden hour. It is artwork, not a photograph.",
-    heroImageCredit: 'Illustration by DO Homes Group',
+    heroImage: '/images/loxahatchee/loxahatchee-areas-pasture-hero.webp',
+    heroImageAlt: "A gray horse grazing in a green Florida pasture beside two white cattle egrets, with a post-and-wire fence and live oaks hung with Spanish moss under a soft, cloudy sky",
+    heroImageCaption: "Illustrative: a Florida pasture and its egrets. Photo: Dawn McDonald / Unsplash.",
+    heroImageCredit: 'Dawn McDonald / Unsplash',
     heroImageWidth: 1920,
     heroImageHeight: 1080,
     inlineMagnet: false,
@@ -14361,7 +14361,7 @@ Once you see the pattern, the rest is detail: which Loxahatchee you mean, which 
     editorial: {
       eyebrow: 'Loxahatchee · Where to live',
       deck: "A local guide to acreage life—from The Acreage and Loxahatchee Groves to equestrian pockets, bigger land, dirt roads, and the rural rhythm that changes from one parcel to the next.",
-      mobileImage: { src: '/images/loxahatchee/loxahatchee-areas-guide-hero-mobile.webp', width: 1200, height: 800 },
+      mobileImage: { src: '/images/loxahatchee/loxahatchee-areas-pasture-mobile.webp', width: 1200, height: 800 },
       primaryCta: { label: 'Explore Loxahatchee acreage homes', href: '/communities/loxahatchee' },
       secondaryCta: { label: 'See the Loxahatchee local guide', href: '/blog/local-guide-to-loxahatchee-florida' },
       tableOfContents: true,
@@ -14387,7 +14387,7 @@ Many older Acreage properties are built around acre-plus lots and a less managed
 
 What you tend to find is a mix. Mature homes sit near rebuilds, and both sit near rawer parcels that have not been touched in years. The overall feel is generally less managed than a master-planned community, and the appeal is the room that creates: privacy, project space, animals where permitted, gardens, equipment and a lot of outdoor living.
 
-![A mature, tree-lined country lane in golden light, with a rail fence and a shell-rock road](/images/loxahatchee/loxahatchee-mature-acreage-lane-illustration.webp "A mature lane. Illustration, not a photograph."){1600x900}
+![A sand lane running between tall pines and green undergrowth under a cloud-streaked sky](/images/loxahatchee/loxahatchee-areas-sand-lane.webp "Illustrative: a lane through Florida pines. Photo: Matthew Williams / Unsplash."){1600x1067}
 
 The honest detail is that one road can feel completely different from the next. One may be shaded by mature trees with homes close to the road, and the next may be open land with wide views and long driveways. Do not assume that an address tells you which kind you are getting.
 
@@ -14408,15 +14408,13 @@ The details are less settled. Descriptions differ between sources, including exa
 - **White Fences.** Described in listings as a gated equestrian community in western Loxahatchee, with larger lots that are often five acres or more.
 - **Fox Trail.** Described in listings as a non-gated area of roughly five-acre equestrian lots, which tends to feel more independent than a more organized pocket.
 
-![A red barn, a white paddock fence, a round pen, hay bales and a horse trailer under a warm sky](/images/loxahatchee/loxahatchee-equestrian-barn-paddock-illustration.webp "Equestrian texture: barn, paddock, round pen and trailer. Illustration, not a photograph."){1600x900}
-
 That spread is the real choice. Some buyers want a more defined horse-property pocket, and others prefer an independent parcel with no setting around it at all. Wellington's equestrian world is the nearby reference point for both, and these pockets are the alternative for people who want their horses at home on larger land. What riding access, amenities or shared arrangements exist at any specific property is something to confirm for that property.
 
 ## Bigger Land and Working-Rural Properties
 
 Some buyers are looking beyond a traditional one-acre homesite. Larger tracts open up a different set of possibilities: barns, nurseries, agricultural texture, horse setups, workshops, storage, and room for more than one household.
 
-![Wide Florida sky over open pasture, canal and pine stands](/images/loxahatchee/loxahatchee-wide-land-and-sky-illustration.webp "Wider land and a bigger sky. Illustration, not a photograph."){1600x900}
+![Rows of planted vegetables under a big blue sky with scattered clouds, with pines and a small farm shed beyond](/images/loxahatchee/loxahatchee-areas-open-fields.webp "Open ground on a working farm in Loxahatchee Groves. Photo: Preston Keres / USDA."){1600x1067}
 
 The useful question is the difference between "I want acreage" and "I have a real use for acreage." The first is a feeling and the second is a plan, and the second is the one that makes big land worth it. A buyer with a plan tends to be happier, and a buyer without one tends to find that the land asks more than it gives.
 
