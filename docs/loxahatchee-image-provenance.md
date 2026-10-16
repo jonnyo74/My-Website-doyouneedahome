@@ -12,6 +12,12 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | `loxahatchee-how-it-works-graphic.webp` | "How Loxahatchee Works" orientation graphic | Original artwork. Not a legal boundary map. |
 | `loxahatchee-gate-and-pasture-illustration.webp` | Gate, fence and pasture scene (blog #2) | Original artwork. No people, animals or vehicles. |
 | `loxahatchee-country-rhythm-strip.webp` | "Country Rhythm" five-icon strip (blog #2) | Original artwork. |
+| `loxahatchee-areas-guide-hero.webp` / `-mobile.webp` | Blog #3 hero: shell-rock road between white rail fences, pasture, pines and a distant barn at golden hour | Original vector artwork. Not a photograph. |
+| `loxahatchee-mature-acreage-lane-illustration.webp` | Mature tree-lined lane (blog #3) | Original artwork. |
+| `loxahatchee-equestrian-barn-paddock-illustration.webp` | Barn, paddock, round pen, hay and trailer (blog #3) | Original artwork. No people or animals. |
+| `loxahatchee-wide-land-and-sky-illustration.webp` | Wide pasture and sky (blog #3) | Original artwork. |
+| `loxahatchee-choose-your-loxahatchee-graphic.webp` | "Choose Your Loxahatchee" orientation graphic | Original artwork. Not a legal boundary map. |
+| `loxahatchee-street-by-street-contrasts.webp` | Five street-by-street contrasts (blog #3) | Original artwork. |
 
 ## To replace the hero with a photograph
 
