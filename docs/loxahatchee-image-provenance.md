@@ -20,6 +20,9 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 | `loxahatchee-street-by-street-contrasts.webp` | Five street-by-street contrasts (blog #3) | Original artwork. |
 | `refuge-c-impoundments-sunset-usfws-hero.webp` / `-mobile.webp` | Blog #4 hero: sunset over the C-Impoundments, Arthur R. Marshall Loxahatchee National Wildlife Refuge | Real photograph by Veronica Kelly, U.S. Fish & Wildlife Service, 4 Nov 2020. Downloaded from fws.gov (refuge visit page banner). US government work, public domain. |
 | `refuge-canoe-trail-usfws.webp` | Refuge canoe trail photo (blog #4) | Real photograph by Veronica Kelly / U.S. Fish & Wildlife Service, from the refuge's fws.gov banner images. Public domain. |
+| `loxahatchee-working-land-tractor-field-usda-hero.webp` / `-mobile.webp` | Blog #5 hero: tractor behind a wire fence beside planted rows and tilled soil, Loxahatchee Groves | Real photograph, USDA/FPAC photo by Preston Keres, 26 Feb 2021 (NRCS visit to a 15-acre farm in Loxahatchee Groves). US government work, public domain. From Wikimedia Commons category "Loxahatchee Groves, Florida" (originally USDA Flickr). |
+| `loxahatchee-farm-crop-rows-usda.webp` | Planted crop rows on the same farm (blog #5) | Real photograph, USDA/FPAC, Preston Keres. Public domain. |
+| `loxahatchee-farm-path-coral-bean-usda.webp` | Mown path and red-flowering shrub on the same farm (blog #5) | Real photograph, USDA/FPAC, Preston Keres. Public domain. |
 
 ## To replace the hero with a photograph
 
