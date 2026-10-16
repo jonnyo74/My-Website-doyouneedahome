@@ -34,3 +34,10 @@ Status: Loxahatchee blog #1 ships with an **editorial illustration** hero, not a
 2. Add a row above with photographer, licence or written permission, and date.
 3. Update `heroImage`, `heroImageAlt`, `heroImageCaption`, `heroImageCredit`, `heroImageWidth`, `heroImageHeight` and `editorial.mobileImage` on the article.
 4. Never use stock cowboy, desert, mountain, Texas-ranch or generic Everglades airboat imagery.
+
+## Blog #9 additions
+
+| File | What it is | Source |
+| --- | --- | --- |
+| `loxahatchee-vs-nearby-hero.webp` / `-mobile.webp` | Blog #9 hero: gray horse and cattle egrets in a pasture | Same Dawn McDonald / Unsplash photograph used in blogs #6 and #8, supplied by John via OneDrive. Unsplash licence. **Not verified as taken in Loxahatchee**; captioned "Illustrative". Re-cropped. |
+| `loxahatchee-western-pbc-rhythm-map.webp` | "Choose Your Western Palm Beach County Rhythm" schematic | Original DO Homes Group artwork. Positions are approximate, derived from U.S. Census Bureau 2023 Gazetteer internal points for Wellington village, Royal Palm Beach village, Westlake city, Jupiter Farms CDP, The Acreage CDP and Loxahatchee Groves town. The gap to Jupiter Farms is compressed. Not a boundary map. |
