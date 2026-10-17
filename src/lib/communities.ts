@@ -3219,16 +3219,17 @@ export const neighborhoods: CommunityItem[] = [
       'Abacoa Golf Club — public course, recently redesigned',
     ],
     subNeighborhoods: [
-      { name: 'Mallory Creek', description: 'Key West-style homes with metal roofs and wide sidewalks, on one of Abacoa\'s more established streets.' },
-      { name: 'Newhaven', description: 'Larger single-family homes with highly sought-after school zoning.' },
-      { name: 'Osceola Woods', description: 'Townhomes and single-family homes in a quiet, park-adjacent setting.' },
-      { name: 'Antigua', description: 'Single-family homes with lake views and mature landscaping.' },
-      { name: 'Canterbury Place', description: 'Townhomes and condos near Abacoa Golf Club. An affordable entry point into the community.' },
-      { name: 'Windsor Park', description: 'Single-family homes and townhomes with mature trees and a well-established neighborhood feel.' },
-      { name: 'Valencia', description: 'Mediterranean-style condos and townhomes located near the heart of Abacoa.' },
-      { name: 'Martinique', description: 'Modern townhomes offering a low-maintenance lifestyle near Abacoa Town Center.' },
-      { name: 'Dakota / Tuscany', description: 'Smaller enclaves featuring a mix of townhomes and detached homes.' },
-      { name: 'Charleston Court', description: 'A small townhome enclave offering a quiet setting with convenient access throughout Abacoa.' },
+      { name: 'Mallory Creek', description: 'About 580 Key West–inspired DiVosta homes, townhomes and single-family, with a clubhouse and two heated pools.' },
+      { name: 'Newhaven', description: 'Abacoa’s first neighborhood, begun in 1998: about 500 homes on tree-lined streets, with two clubhouses and pools.' },
+      { name: 'Antigua', description: 'About 280 live/work townhomes by Main Street, with a clubhouse, resort-style pool and central green.' },
+      { name: 'Windsor Park', description: 'Abacoa’s newest village: about 380 single-family homes and townhomes built roughly 2013–2018.' },
+      { name: 'Valencia', description: 'About 137 custom Mediterranean single-family homes, 3–6 bedrooms, many with pools.' },
+      { name: 'Martinique', description: 'Caribbean-style townhomes and single-family homes around a Village Green with a heated pool.' },
+      { name: 'Canterbury Place', description: '144 single-family homes and 173 townhomes around a lake, in a Tuscan and French country style.' },
+      { name: 'Charleston Court', description: 'Victorian-style three-bedroom townhomes overlooking Abacoa Golf Club.' },
+      { name: 'Osceola Woods', description: 'About 146 three-story townhomes near Downtown Abacoa, backing onto a nature preserve.' },
+      { name: 'Tuscany', description: 'A Mediterranean-style village of 453 single-family homes and townhomes built around 2004.' },
+      { name: 'Dakota Drive', description: 'A street through several villages; many of its townhomes are part of Canterbury Place.' },
     ],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo', 'townhouse'] },
@@ -4508,7 +4509,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'Key West and Charleston-inspired homes with front porches and alley-loaded garages, on a sidewalk-lined street within Abacoa.',
+    description: "A Key West–inspired DiVosta village of about 580 homes, townhomes and single-family, with a clubhouse and two heated pools.",
     overview: 'Mallory Creek is one of the most beloved communities within Abacoa, known for its traditional architecture, tree-lined streets, and strong sense of community. Homes feature wide porches, alley-loaded garages, and timeless Key West & Charleston-inspired design that feels warm, established, and inviting.\n\nIt\'s a neighborhood where people walk, ride bikes, know their neighbors, and actually use their front porches — something that\'s increasingly rare in South Florida. This is one of the most "community-first" neighborhoods in Abacoa, with a relaxed, residential feel that attracts long-term homeowners.',
     lifestyle: 'Quiet, friendly, and established — porch culture and evening walks are the norm. Mallory Creek is characterized by front-porch home designs, sidewalk-lined streets, and varied elevations rather than repeated floor plans. Turnover here is lower than in many Abacoa sections.',
     highlights: [
@@ -4553,7 +4554,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'One of Abacoa\'s most established and sought-after neighborhoods — wider streets, mature landscaping, and larger 3–5 bedroom homes with highly sought-after school zoning.',
+    description: "Abacoa’s first neighborhood: about 500 homes begun in 1998, tree-lined streets, two clubhouses and two pools.",
     overview: 'Newhaven is one of Abacoa\'s most established and sought-after single-family home neighborhoods, known for wider streets, mature landscaping, and larger home layouts. Homes are primarily detached single-family residences with 3–5 bedroom floor plans, two-story designs, open living areas, and many with updated interiors. Select properties have private pools.\n\nThe community offers the largest floor plans and widest lots within Abacoa, with lower turnover than most sections and the full New Urbanist streetscape.',
     lifestyle: 'Established, with larger floor plans. Newhaven offers the character of Abacoa with more square footage — sidewalk-lined streets, proximity to Abacoa Community Park, and easy access to Town Center without being right on top of it.',
     highlights: [
@@ -4594,7 +4595,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'Townhomes and live/work residences near the heart of Abacoa Town Center — walkable, flexible layouts, and a community pool steps from dining and Roger Dean Stadium.',
+    description: "Antigua at Town Center: about 280 live/work townhomes by Main Street, with a clubhouse, resort-style pool and central green.",
     overview: 'Antigua is a centrally located neighborhood within Abacoa offering a mix of townhomes and select live/work residences in a walkable, community-focused setting. Known for its proximity to Abacoa Town Center, flexible layouts, and urban-style design, Antigua appeals to buyers who value convenience, walkability, and low-maintenance living.\n\nTypical floor plans offer 2–3 bedrooms, open living and dining spaces, balconies or front porches on select units, private garages, and guest parking. Ground-floor layouts are ideal for home offices or small business use.',
     lifestyle: 'Social, convenient, and connected — Antigua sits within walking distance of Abacoa\'s dining, shops, and community events, with a high share of full-time occupancy. Community amenities include a pool, sidewalks, and HOA-managed exterior maintenance.',
     highlights: [
@@ -4634,7 +4635,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'Courtyard-style single-family homes with rear-entry garages, front porches, and private courtyards — a relaxed, neighborly atmosphere in a well-established Abacoa setting.',
+    description: "Abacoa’s newest village: about 380 DiVosta-built single-family homes and townhomes, 3–5 bedrooms, with a clubhouse, pool and fire pit.",
     overview: 'Windsor Park is a residential neighborhood within Abacoa featuring single-family courtyard-style homes, tree-lined streets, and a strong sense of community. The neighborhood emphasizes rear-entry garages and front-facing porches, reflecting Abacoa\'s original New Urbanist town design. Homes were built in the early-to-mid 2000s with 3–4 bedroom floor plans, private courtyards or backyard spaces, and traditional Abacoa architectural style.\n\nThe vibe is relaxed and neighborly, with sidewalks, porches, and green spaces encouraging a connected community atmosphere.',
     lifestyle: 'An established neighborhood of single-family homes with private outdoor space. The neighborhood\'s mature trees and rear-entry garage design keep streetscapes clean and pedestrian-friendly.',
     highlights: [
@@ -4674,7 +4675,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'Mediterranean-style condos and townhomes in one of Abacoa\'s most central locations — steps to Town Center, and low-maintenance living.',
+    description: "Abacoa’s custom-home village: about 137 Mediterranean single-family estates, 3–6 bedrooms, many with private pools.",
     overview: 'Valencia is one of Abacoa\'s most centrally located neighborhoods, known for its condos and townhomes, Mediterranean-style architecture, and proximity to Abacoa Town Center. It offers a true "in-the-middle-of-it-all" lifestyle, appealing to residents who value walkability, convenience, and a low-maintenance way of living.\n\nFloor plans offer 1–3 bedrooms with open living areas, balconies or patios on select units, and assigned parking. Valencia is often considered one of the most accessible ways to live in Abacoa, making it attractive to first-time buyers, seasonal residents, and investors. Inventory tends to move quickly due to location and demand.',
     lifestyle: 'Social, convenient, and connected — with less emphasis on private yards and more focus on proximity and ease. Valencia offers low-maintenance, HOA-managed living steps from dining and community events, with easy I-95 access for commuters.',
     highlights: [
@@ -4714,7 +4715,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'Low-maintenance condominium living in one of Abacoa\'s most walkable locations — 1–2 bedroom layouts, community pool, clubhouse, and a true lock-and-leave lifestyle.',
+    description: "A Caribbean-style Abacoa village of townhomes and single-family homes, with a Village Green, heated pool and Civic Center.",
     overview: 'Martinique at Abacoa offers low-maintenance condominium living in one of Abacoa\'s most walkable and convenient locations. Most units were constructed in the early-to-mid 2000s as part of the original Abacoa development. Typical layouts include 1–2 bedroom configurations with open living areas and functional, easy-to-maintain designs. Many units feature private balconies, in-unit laundry, and assigned parking.\n\nCommunity amenities include a swimming pool, clubhouse, well-maintained common areas, and sidewalk-lined streets. Martinique is especially popular with buyers who prefer simplicity — a social, convenient lifestyle without the upkeep.',
     lifestyle: 'A true lock-and-leave lifestyle. Martinique draws seasonal residents, downsizers, professionals, and buyers who want walkable access to shopping, dining, and community events without the maintenance of a single-family home.',
     highlights: [
@@ -4754,7 +4755,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'A practical, no-nonsense entry point into Abacoa — condos and townhomes near Abacoa Golf Club with a community pool and HOA-managed upkeep.',
+    description: "A lake-view village of 144 single-family homes and 173 townhomes in a Tuscan and French country style, with a pool and clubhouse.",
     overview: 'Canterbury Place is a well-established neighborhood within Abacoa offering a mix of condominiums and townhomes with an easy, lock-and-leave lifestyle. Known for its affordability, central location near Abacoa Golf Club, and community amenities, Canterbury Place appeals to buyers who want Abacoa living without the price point of larger single-family home neighborhoods.\n\nTypical 2–3 bedroom layouts offer open living spaces, balconies or patios on select units, and assigned parking. Canterbury Place typically represents one of the more accessible entry points into Abacoa — popular with first-time buyers, downsizers, and seasonal owners. Well-priced units tend to move quickly.',
     lifestyle: 'Calm and residential with a strong emphasis on convenience and ease. Canterbury Place is a practical, no-nonsense choice for full-time residents, seasonal owners, and value-focused buyers who still want the Abacoa address and school zoning.',
     highlights: [
@@ -4794,7 +4795,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'Three-story townhomes with attached garages in a quiet, park-adjacent setting — generous square footage, a beautiful community pool, and a tucked-away feel inside Abacoa.',
+    description: "About 146 three-story townhomes near Downtown Abacoa, with a clubhouse, pool and nature preserve behind them.",
     overview: 'Osceola Woods is a quiet residential neighborhood within Abacoa consisting of well-designed three-story townhomes, offering a more private and low-maintenance lifestyle compared to some of Abacoa\'s busier sections. With a smaller footprint and fewer residences, the community feels peaceful while still being centrally located in Jupiter.\n\nThree-story layouts feature attached garages, multiple living areas across levels, open living spaces on main floors, and private balconies or patios on select units. Floor plans generally offer generous square footage for townhome living, making them popular with full-time residents and seasonal buyers alike. One standout feature is its beautiful community pool. Inventory is limited due to the neighborhood\'s smaller size.',
     lifestyle: 'Tucked-away with less through-traffic and a quieter day-to-day atmosphere. Osceola Woods offers lower-maintenance homes with HOA-managed grounds and one of the higher full-time occupancy rates within Abacoa.',
     highlights: [
@@ -4838,7 +4839,7 @@ export const neighborhoods: CommunityItem[] = [
     // the Abacoa townhomes in Jupiter; the other is newer single-family east of
     // the Turnpike on Atlantic in Delray. Ylopo only carries the Delray one, so
     // this page's listings block stays empty until they add ours.
-    description: 'Modern 2–3 story townhomes with clean coastal design, private garages, and approachable pricing — one of Abacoa\'s most accessible entries into Jupiter\'s competitive real estate market.',
+    description: "Dakota Drive runs through several Abacoa villages. Many of its townhomes are listed under Canterbury Place.",
     overview: 'Dakota is a modern townhome community within Abacoa featuring contemporary architecture and practical floor plans. The community emphasizes modern townhome living with a clean, coastal style and an easy, low-maintenance lifestyle. Most homes are 2–3 story with 2–3 bedroom configurations, open living and dining layouts, modern kitchens, private garages, balconies or small outdoor spaces on select models, and HOA-managed exterior and landscaping.\n\nDakota offers approachable pricing compared to larger Abacoa neighborhoods and is described as providing an accessible entry into Jupiter\'s competitive real estate market. Community amenities include a swimming pool, sidewalks, tree-lined streets, green spaces, and guest parking.',
     lifestyle: 'Low-maintenance and practical with coastal-modern curb appeal. Dakota offers Abacoa\'s most accessible price points, compact low-maintenance floor plans, and HOA-managed exteriors.',
     highlights: [
@@ -4878,7 +4879,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'Mediterranean-inspired mix of townhomes and single-family homes with front porches, low HOA fees, community pool, and a peaceful pet-friendly atmosphere.',
+    description: "A Mediterranean-style DiVosta village of 453 single-family homes and townhomes, with a clubhouse, pool and playground.",
     overview: 'Tuscany is a Mediterranean-inspired neighborhood within Abacoa featuring a mix of townhomes and single-family homes built in the mid-2000s. The development emphasizes low-maintenance living in one of Abacoa\'s most peaceful neighborhoods. Floor plans offer 2–4 bedrooms with open living areas, natural light, front porches, shaded sidewalks, private garages, and low HOA fees with exterior maintenance included.\n\nCommunity amenities include a swimming pool, clubhouse, green spaces, and sidewalks. The neighborhood design is pet-friendly. Tuscany offers entry-level and mid-range pricing, 2–4 bedroom layouts, and low-maintenance HOA-managed living.',
     lifestyle: 'Peaceful and community-oriented — Tuscany attracts buyers who want Abacoa character without the higher price point of the larger single-family sections. The Mediterranean aesthetic and front porch culture keep the neighborhood social and connected.',
     highlights: [
@@ -4918,7 +4919,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: 'A small, quiet townhome enclave that\'s often overlooked — which makes it especially appealing. Close to Abacoa Golf Club, lock-and-leave ready, and priced below larger Abacoa sections.',
+    description: "Victorian-style three-bedroom townhomes overlooking Abacoa Golf Club, a short walk to Downtown Abacoa and Roger Dean Stadium.",
     overview: 'Charleston Court is a small, quiet townhome community within Abacoa, offering a tucked-away residential feel while still being centrally located. The neighborhood is often overlooked due to its size, which makes it especially appealing to buyers seeking Abacoa living without higher density, constant turnover, or inflated price points.\n\nTypical homes are two- and three-bedroom townhomes built in the early 2000s with attached garages, open living areas with flexible layouts, and practical designs suited for full-time residents or seasonal owners. Charleston Court is a low-maintenance, lock-and-leave neighborhood where function, location, and livability take priority.',
     lifestyle: 'Quiet and residential — Charleston Court draws townhome seekers who prefer a smaller, lower-traffic setting, full-time residents wanting a calmer corner of Abacoa, seasonal owners looking for easy upkeep, and buyers priced out of larger single-family sections.',
     highlights: [

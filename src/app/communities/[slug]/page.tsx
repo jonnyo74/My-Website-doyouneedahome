@@ -26,6 +26,7 @@ import { communityGuides } from '@/components/communityGuide'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
 import AbacoaLanding from '@/components/AbacoaLanding'
 import AbacoaVillageLanding from '@/components/AbacoaVillageLanding'
+import { VILLAGES } from '@/lib/abacoaVillages'
 import WhatsNew from '@/components/WhatsNew'
 import { SITE_URL } from '@/lib/site'
 
@@ -77,6 +78,17 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params
   const community = getCommunityBySlug(slug)
   if (!community) return { title: 'Community not found' }
+  if (VILLAGES[slug]) {
+    const v = VILLAGES[slug]
+    const img = '/images/abacoa/abacoa-og.jpg'
+    return {
+      title: v.metaTitle,
+      description: v.metaDescription,
+      alternates: { canonical: `/communities/${slug}` },
+      openGraph: { title: v.metaTitle, description: v.metaDescription, url: `/communities/${slug}`, images: [{ url: img, width: 1200, height: 630, alt: 'Palm-lined main street in Abacoa Town Center at sunset' }] },
+      twitter: { card: 'summary_large_image' as const, title: v.metaTitle, description: v.metaDescription, images: [img] },
+    }
+  }
   if (slug === 'abacoa') {
     const img = '/images/abacoa/abacoa-og.jpg'
     const title = 'Abacoa Homes for Sale | Jupiter FL Villages & Town Center | DO Homes Group'
@@ -125,8 +137,7 @@ export default async function CommunityPage({ params }: Props) {
   if (!community) notFound()
 
   if (slug === 'abacoa') return <AbacoaLanding />
-  // Pilot of the new village template; the other ten villages move over once it's approved.
-  if (slug === 'mallory-creek') return <AbacoaVillageLanding slug={slug} />
+  if (VILLAGES[slug]) return <AbacoaVillageLanding slug={slug} />
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []

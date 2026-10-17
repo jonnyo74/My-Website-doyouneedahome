@@ -48,6 +48,20 @@ const CHECKLIST = [
   { t: 'Application requirements', d: 'Approval steps, fees, and timelines change. Ask the association for the current application, not last year’s.' },
 ]
 
+const HISTORY: { when: string; what: string }[] = [
+  { when: 'The land', what: 'Abacoa is a master-planned, mixed-use community of about 2,055 acres, built on land once owned by the John D. and Catherine T. MacArthur Foundation.' },
+  { when: '1995', what: 'The master plan was drawn by a team that included Calthorpe Associates, Duany Plater-Zyberk & Company and Moule & Polyzoides, following Traditional Neighborhood Development principles: a walkable town center, front-porch streets and a mix of housing types. The development’s regional-impact approval came in June of that year.' },
+  { when: '1996', what: 'The Abacoa Development Company was formed as a partnership between Cypress Realty and the MacArthur Foundation, and DiVosta took on the residential building.' },
+  { when: '1997–1998', what: 'Infrastructure construction began in January 1997. Newhaven, built by DiVosta, was the first neighborhood, with its first homes completed in 1998.' },
+  { when: 'The Town Center', what: 'The plan put a spring-training ballpark, now Roger Dean Chevrolet Stadium, in the Town Center, with Florida Atlantic University’s Jupiter campus across from it. Windsor Park, the last village, was built roughly 2013–2018.' },
+]
+const HISTORY_SOURCES = [
+  { label: 'Wikipedia', url: 'https://www.wikipedia.org/wiki/Abacoa' },
+  { label: 'CNU Florida project database', url: 'https://florida.cnu.org/a_2005_database_of_new_urbanist_projects_in_florida' },
+  { label: 'Palm Beach County History Museum', url: 'https://education.pbchistory.org/downtown-abacoa/' },
+  { label: 'Newhaven HOA', url: 'https://newhavenabacoa.sites.townsq.io/' },
+]
+
 const crumbs = [
   { name: 'Home', url: 'https://www.doyouneedahome.com/' },
   { name: 'Communities', url: 'https://www.doyouneedahome.com/communities' },
@@ -170,6 +184,32 @@ export default function AbacoaLanding() {
           </div>
         </section>
       )}
+
+      {/* ── History, sourced ─────────────────────────────────── */}
+      <section className="px-6 py-16 sm:px-8 sm:py-20" aria-labelledby="abacoa-history">
+        <div className="mx-auto max-w-4xl">
+          <p className={eyebrow}>How it came to be</p>
+          <h2 id="abacoa-history" className={h2}>A short history of Abacoa</h2>
+          <ol className="mt-8 space-y-6 border-l-2 border-report-gold pl-6">
+            {HISTORY.map((h) => (
+              <li key={h.when}>
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-report-gold-text">{h.when}</p>
+                <p className="mt-1 leading-8 text-slate-600">{h.what}</p>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-8 text-xs leading-6 text-slate-500">
+            Sources:{' '}
+            {HISTORY_SOURCES.map((src, i) => (
+              <span key={src.url}>
+                <a href={src.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-slate-700">{src.label}</a>
+                {i < HISTORY_SOURCES.length - 1 ? ', ' : '.'}
+              </span>
+            ))}{' '}
+            Sources differ on some dates, so we have left out dates they don’t agree on.
+          </p>
+        </div>
+      </section>
 
       {/* ── Gallery ──────────────────────────────────────────── */}
       {ABACOA_PHOTOS.length > 0 && (
