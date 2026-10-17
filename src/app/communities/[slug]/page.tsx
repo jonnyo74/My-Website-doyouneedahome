@@ -25,6 +25,7 @@ import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { communityGuides } from '@/components/communityGuide'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
 import AbacoaLanding from '@/components/AbacoaLanding'
+import AbacoaVillageLanding from '@/components/AbacoaVillageLanding'
 import WhatsNew from '@/components/WhatsNew'
 import { SITE_URL } from '@/lib/site'
 
@@ -124,6 +125,8 @@ export default async function CommunityPage({ params }: Props) {
   if (!community) notFound()
 
   if (slug === 'abacoa') return <AbacoaLanding />
+  // Pilot of the new village template; the other ten villages move over once it's approved.
+  if (slug === 'mallory-creek') return <AbacoaVillageLanding slug={slug} />
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []
