@@ -18,6 +18,9 @@
 // (the Delray Beach half of the Bridges Mizner PUD) out of Lotus.
 
 export const YLOPO_ALIASES: Record<string, string[]> = {
+  // Checked 2026-10-17: the plain name returned 1 active, the union returns 2.
+  // The other Abacoa villages gain nothing from their "At Abacoa" variants.
+  Newhaven: ['Newhaven At Abacoa', 'Newhaven 7a', 'Newhaven 7a At Abacoa', 'Newhaven 7b Ph 2'],
   // Verified 2026-09-23: the union returns exactly the 11 actives in John's
   // export, all 33496.
   Lotus: [
