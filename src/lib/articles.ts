@@ -5390,6 +5390,13 @@ So let's talk like neighbors about how the place actually works, and about the t
 
 This is the single most misunderstood thing about the market here, and getting it wrong costs people money.
 
+::: gallery
+![Aerial view of South Florida barrier-island coastline with beachfront high-rise condos, Intracoastal Waterway, and turquoise Atlantic](/images/boca-raton/boca-gal-00-the-boca-raton-coastline-from-above-the-atlantic.webp "The Boca Raton coastline from above: the Atlantic beach, the Intracoastal Waterway and beachfront high-rises. || Photo: Discover The Palm Beaches")
+![Aerial panorama of a coastal South Florida downtown corridor with Atlantic Ocean horizon](/images/boca-raton/boca-gal-06-downtown-boca-raton-from-above-looking-east-towa.webp "Downtown Boca Raton from above, looking east toward the Atlantic. || Photo: Discover The Palm Beaches")
+![Beach view framed by coconut palms with boardwalk and lifeguard tower](/images/boca-raton/boca-gal-15-a-beach-boardwalk-lined-with-coconut-palms-with-.webp "A beach boardwalk lined with coconut palms, with a lifeguard tower beyond. || Photo: Discover The Palm Beaches")
+![Beach boardwalk with coconut palms and ocean view](/images/boca-raton/boca-gal-20-a-beach-boardwalk-with-coconut-palms-and-an-ocea.webp "A beach boardwalk with coconut palms and an ocean view. || Photo: Discover The Palm Beaches")
+:::
+
 **"East Boca" and "West Boca" are informal real-estate terms, not official municipal districts.** The City of Boca Raton has irregular boundaries, and the broader Boca mailing area includes unincorporated Palm Beach County. A "Boca Raton, FL" address does not, by itself, tell you that a property is inside the city.
 
 That distinction is not cosmetic. Before you buy, verify for the exact address:
@@ -5535,6 +5542,13 @@ If you want help working through any of it on a specific address, that's exactly
 
 East Boca generally refers to the coastal and downtown side of the area: the beach parks, the A1A corridor, **Mizner Park**, Royal Palm Place, and the older neighborhoods around them. The inland side includes neighborhoods both inside the City and in unincorporated Palm Beach County, and it is where most of the gated and golf communities sit. **Florida Atlantic University** anchors the middle of the city, with a mix of housing, university facilities, and office space around it.
 
+::: gallery
+![Aerial of barrier-island coastline with Intracoastal Waterway, coastal hammock, sandy beach and high-rise condo towers](/images/boca-raton/boca-gal-02-a-barrier-island-between-the-intracoastal-waterw.webp "A barrier island between the Intracoastal Waterway and the Atlantic, with coastal hammock. || Photo: Discover The Palm Beaches")
+![Waterfront promenade park with young palms, brick-paver walkway and Intracoastal views](/images/boca-raton/boca-gal-18-a-waterfront-promenade-park-with-young-palms-and.webp "A waterfront promenade park with young palms and a brick-paver walkway beside the Intracoastal. || Photo: Discover The Palm Beaches")
+![Mediterranean Revival civic building with gold dome cupola, framed by royal palms](/images/boca-raton/boca-gal-25-the-boca-raton-historical-society-building-a-med.webp "The Boca Raton Historical Society building, a Mediterranean Revival civic building with a gold-domed cupola. || Photo: Discover The Palm Beaches")
+![Elevated observation deck view over coastal mangrove canopy to Intracoastal Waterway](/images/boca-raton/boca-gal-38-the-view-from-an-elevated-observation-deck-over-.webp "The view from an elevated observation deck over the mangrove canopy to the Intracoastal.")
+:::
+
 **Town Center at Boca Raton sits on the Glades Road corridor between I-95 and the Turnpike** — not west of the Turnpike, which is a common mix-up and one worth getting right if you are judging a commute by where the mall is.
 
 What I would not do is treat those labels as a price map. East is not universally pricier and the inland side is not broadly cheaper. Waterfront homes, country-club communities, condominiums, and inland single-family neighborhoods all carry substantially different purchase prices *and* different recurring costs, and you will find a wide range on both sides of the highway. Price the specific property, dues and assessments included.
@@ -5673,6 +5687,13 @@ If you want a hand working through any of that for a specific property, that is 
     body: `Boca Raton includes waterfront, historic, condominium, and private-club communities, while the commonly used term "West Boca" can cover addresses in both the City of Boca Raton and unincorporated Palm Beach County. Rather than naming one universal "best" neighborhood, it is more useful to compare the property type, location, association obligations, and address-specific due diligence that fit what you are looking for.
 
 What follows is a guide to **representative neighborhood and community types**, not an exhaustive ranking and not a list of every community in the area. Every figure that matters — dues, membership terms, insurance, taxes, water access — is property-specific and has to be verified in writing for the individual address.
+
+::: gallery
+![Aerial view of oceanfront resort and condo towers along a South Florida barrier-island coastline with inlet jetty](/images/boca-raton/boca-gal-14-oceanfront-towers-along-the-barrier-island-seen-.webp "Oceanfront towers along the barrier island, seen from above. || Photo: Discover The Palm Beaches")
+![Aerial of oceanfront high-rise condos between the Intracoastal Waterway and Atlantic coastline](/images/boca-raton/boca-gal-04-oceanfront-high-rise-condos-between-the-intracoa.webp "Oceanfront high-rise condos between the Intracoastal Waterway and the Atlantic. || Photo: Discover The Palm Beaches")
+![Mediterranean Revival shopping plaza with ochre bell tower, royal palms and bougainvillea](/images/boca-raton/boca-gal-30-a-mediterranean-revival-shopping-plaza-with-a-be.webp "A Mediterranean Revival shopping plaza with a bell tower and royal palms. || Photo: Discover The Palm Beaches")
+![Aerial view of Atlantic coastline with beach, golf course, and distant high-rise skyline](/images/boca-raton/boca-gal-07-the-atlantic-coastline-with-its-beach-a-golf-cou.webp "The Atlantic coastline with its beach, a golf course and distant high-rises. || Photo: Discover The Palm Beaches")
+:::
 
 ## Private waterfront communities: Royal Palm Yacht & Country Club and The Sanctuary
 
@@ -5830,6 +5851,13 @@ Two are worth opening before any trip at all: the City's [beach parks and curren
 ## Mizner Park: shops, dining, museum, and amphitheater
 
 Mizner Park is the open-air center of downtown — shops, restaurants, and cafés arranged along a central green, built to be walked rather than parked in front of.
+
+::: gallery
+![Outdoor concert in a Mediterranean-style town center plaza at dusk](/images/boca-raton/boca-gal-27-an-outdoor-concert-in-the-mizner-park-plaza-at-d.webp "An outdoor concert in the Mizner Park plaza at dusk. || Photo: Discover The Palm Beaches")
+![Illuminated vintage-style carousel at twilight](/images/boca-raton/boca-gal-28-a-carousel-lit-up-at-twilight-at-sugar-sand-park.webp "A carousel lit up at twilight at Sugar Sand Park. || Photo: Discover The Palm Beaches")
+![Beach access boardwalk with palm trees and lifeguard tower overlooking turquoise Atlantic](/images/boca-raton/boca-gal-09-a-beach-access-boardwalk-with-palm-trees-and-a-l.webp "A beach access boardwalk with palm trees and a lifeguard tower. || Photo: Discover The Palm Beaches")
+![Public beach with lifeguard tower and dune vegetation under dramatic sky](/images/boca-raton/boca-gal-26-spanish-river-park-s-atlantic-side-beach-with-a-.webp "Spanish River Park's Atlantic-side beach, with a lifeguard tower and dune vegetation. || Photo: Discover The Palm Beaches")
+:::
 
 Two institutions anchor it. The **Boca Raton Museum of Art** sits at the north end at 501 Plaza Real, with a permanent collection, rotating exhibitions, and an art school on the same creative campus. The **Mizner Park Amphitheater** beside it carries concerts, City events, and festival programming through the year.
 
@@ -6019,6 +6047,13 @@ If you're weighing Boca as somewhere to live rather than visit, our [Boca Raton 
 
 This is one of the strongest single arguments for the city. Boca offers an unusually wide range — public, magnet, charter, and a substantial private school corridor — within a relatively compact area.
 
+::: gallery
+![Aerial view of a barrier-island beach with turquoise surf, dune vegetation, and the Intracoastal waterway](/images/boca-raton/boca-gal-08-a-barrier-island-beach-with-turquoise-surf-and-d.webp "A barrier-island beach with turquoise surf and dune vegetation, from above. || Photo: Discover The Palm Beaches")
+![Beach boardwalk walkover leading to a sunny public beach with palm trees and turquoise Atlantic](/images/boca-raton/boca-gal-10-a-boardwalk-walkover-leading-to-a-sunny-public-b.webp "A boardwalk walkover leading to a sunny public beach. || Photo: Discover The Palm Beaches")
+![Leatherback sea turtle hatchling crawling toward the ocean on a beach at dusk](/images/boca-raton/boca-gal-32-a-leatherback-sea-turtle-hatchling-crawling-towa.webp "A leatherback sea turtle hatchling crawling toward the ocean at dusk. || Photo: Discover The Palm Beaches")
+![Wooden lifeguard tower #9 on a sandy beach with green metal roof](/images/boca-raton/boca-gal-21-a-wooden-lifeguard-tower-on-a-sandy-beach.webp "A wooden lifeguard tower on a sandy beach. || Photo: Discover The Palm Beaches")
+:::
+
 For buyers relocating from somewhere with one realistic option, having genuine choice is a meaningful difference. Verify current assignments with the School District of Palm Beach County for any specific address, since boundaries and grades are reviewed annually.
 
 ### You want club life
@@ -6195,6 +6230,13 @@ Neither is better. But the cost of getting it wrong is high enough to be honest 
 
 The strongest single argument. Public, magnet, charter, and a large private school corridor, all within a relatively compact area. For households used to having one realistic option, genuine choice is a substantial difference.
 
+::: gallery
+![Aerial of barrier island between Intracoastal Waterway and Atlantic Ocean with coastal highway and high-rise condos](/images/boca-raton/boca-gal-03-a-barrier-island-between-the-intracoastal-waterw.webp "A barrier island between the Intracoastal Waterway and the Atlantic Ocean, from above. || Photo: Discover The Palm Beaches")
+![Top-down aerial of a sandy beach, dune vegetation, and turquoise surf](/images/boca-raton/boca-gal-12-a-sandy-beach-with-dune-vegetation-and-turquoise.webp "A sandy beach with dune vegetation and turquoise surf, shot from directly above. || Photo: Discover The Palm Beaches")
+![Rocky limestone outcrop in turquoise surf with gentle shore break](/images/boca-raton/boca-gal-16-a-rocky-limestone-outcrop-in-turquoise-surf.webp "A rocky limestone outcrop in turquoise surf. || Photo: Discover The Palm Beaches")
+![Aerial view of a Florida beach with turquoise surf, rock outcrop, and beachgoers under blue umbrellas](/images/boca-raton/boca-gal-13-a-florida-beach-with-turquoise-surf-a-rock-outcr.webp "A Florida beach with turquoise surf, a rock outcrop and beachgoers, from above. || Photo: Discover The Palm Beaches")
+:::
+
 Grades and boundaries are reviewed annually — verify current assignments with the district for any specific address.
 
 ### Planning and upkeep
@@ -6356,6 +6398,13 @@ For anyone wanting funky, walkable, or genuinely affordable, the cons will domin
     body: `## Housing — and the east/west gap
 
 Coastal and east Boca command a substantial premium: older housing, architectural character, walkability, and proximity to the beach parks and Mizner Park.
+
+::: gallery
+![Rocky outcrop in turquoise Atlantic surf with sandy beach foreground](/images/boca-raton/boca-gal-22-a-rocky-outcrop-in-the-atlantic-surf-with-a-sand.webp "A rocky outcrop in the Atlantic surf with a sandy beach in the foreground. || Photo: Discover The Palm Beaches")
+![Top-down drone view of a sandy beach with turquoise surf and dune-vegetation boardwalk](/images/boca-raton/boca-gal-11-a-sandy-beach-with-turquoise-surf-and-dune-veget.webp "A sandy beach with turquoise surf and dune-vegetation boardwalks, shot from directly above. || Photo: Discover The Palm Beaches")
+![Polished stainless-steel abstract sculpture on manicured lawn with modernist campus building and reflecting pond](/images/boca-raton/boca-gal-33-a-polished-stainless-steel-sculpture-on-a-manicu.webp "A polished stainless-steel sculpture on a manicured lawn. || Photo: Discover The Palm Beaches")
+![Large coastal-wildlife tile mosaic mural on a building wall](/images/boca-raton/boca-gal-36-a-large-coastal-wildlife-tile-mosaic-mural-on-a-.webp "A large coastal-wildlife tile mosaic mural on a building wall. || Photo: Discover The Palm Beaches")
+:::
 
 **West Boca is a different market entirely.** Gated golf communities and the large concentration of age-restricted 55+ communities out there offer meaningfully more attainable pricing, often with newer construction and more square footage.
 
@@ -6653,6 +6702,12 @@ Three stops, all from this guide — one of each kind.
 ## Why these matter
 
 Boca gets dismissed as a shopping city with good weather. The dismissal is understandable from the main roads and completely wrong.
+
+::: gallery
+![Lakeside lawn with live oaks, fountain, and outdoor market tents](/images/boca-raton/boca-gal-37-a-lakeside-lawn-with-live-oaks-and-a-fountain.webp "A lakeside lawn with live oaks and a fountain. || Photo: Discover The Palm Beaches")
+![Boca Raton city sign monument framed by royal palms with motion-blurred traffic in foreground](/images/boca-raton/boca-gal-24-a-boca-raton-city-sign-framed-by-royal-palms.webp "A Boca Raton city sign framed by royal palms. || Photo: Discover The Palm Beaches")
+![Aerial of barrier-island coastline with Atlantic beach, golf course, Intracoastal Waterway and waterfront estates](/images/boca-raton/boca-gal-01-a-barrier-island-with-an-atlantic-beach-a-golf-c.webp "A barrier island with an Atlantic beach, a golf course and the Intracoastal Waterway, from above. || Photo: Discover The Palm Beaches")
+:::
 
 The places on this list — a lagoon-side park with tunnels to the beach, a hammock boardwalk and a wetland boardwalk, a reef trail you can reach from the sand, a real art museum, and a university with an open calendar — are what make the city livable rather than just comfortable.
 
@@ -7100,6 +7155,11 @@ That east/west split mirrors the city's housing split almost exactly, and which 
 ## Living here changes how you eat out
 
 Worth naming, because it changes the math for a large share of Boca residents.
+
+::: gallery
+![Illuminated stone fountain in a Mediterranean-style outdoor shopping plaza at dusk](/images/boca-raton/boca-gal-23-an-illuminated-stone-fountain-in-a-mediterranean.webp "An illuminated stone fountain in a Mediterranean-style outdoor plaza at dusk. || Photo: Discover The Palm Beaches")
+![Evening outdoor dining at a restaurant with neon 'KAPOW!' sign and red patio umbrellas](/images/boca-raton/boca-gal-29-evening-outdoor-dining-with-red-patio-umbrellas.webp "Evening outdoor dining with red patio umbrellas. || Photo: Discover The Palm Beaches")
+:::
 
 > If you buy into a golf-and-country-club community, you likely have a food and beverage minimum — an annual amount you're required to spend at club dining. A meaningful part of your restaurant budget is committed before you choose anywhere else.
 
