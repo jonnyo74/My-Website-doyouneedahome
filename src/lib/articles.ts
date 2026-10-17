@@ -34126,6 +34126,13 @@ The [North Palm Beach Library](https://www.village-npb.org/1079/Library) at 303 
 
 North Palm Beach is on the mainland and has no Atlantic beach. The places below are **outside the Village** unless noted, with their own owners and rules. We give no drive times, which change with traffic, bridges and season.
 
+::: gallery
+![Aerial view of a narrow barrier island with a mangrove-covered lagoon, a long sandy beach and turquoise Atlantic surf beside the Intracoastal Waterway](/images/north-palm-beach/macarthur-beach-aerial-shoreline.webp "An aerial view of John D. MacArthur Beach State Park, listed with a North Palm Beach mailing address. || Photo: Discover The Palm Beaches")
+![Aerial view of turquoise Atlantic surf along an undeveloped barrier-island beach with the Intracoastal Waterway behind it](/images/north-palm-beach/macarthur-beach-aerial-surf.webp "The park's Atlantic shoreline from above. || Photo: Discover The Palm Beaches")
+![A wooden boardwalk leading through coastal dunes to the Atlantic shoreline](/images/north-palm-beach/macarthur-beach-boardwalk-dunes.webp "A boardwalk through the dunes to the beach. || Photo: Discover The Palm Beaches")
+![A long wooden boardwalk pier over a coastal lagoon lined with mangroves](/images/north-palm-beach/macarthur-beach-lagoon-pier.webp "A boardwalk over the lagoon's mangroves. || Photo: Discover The Palm Beaches")
+:::
+
 - **[John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park)**, 10900 Jack Nicklaus Drive, is a state park with a nature center, trails and an entrance fee; see the [hours and fees page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/hours-fees). It carries a North Palm Beach mailing address, but it is a state facility. We could not confirm from the state's pages whether the land lies inside the Village.
 - **Singer Island** has county beach parks, including [Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) and [Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx), which are outside the Village. Phil Foster requires a permit for boat-trailer parking; check each page for parking and fees.
 - **Juno Beach** is a separate town to the north. The county's [Juno Beach Pier](https://www.pbcgov.org/parks/Locations/JunoBeach-Pier.aspx) page lists the pier, which Loggerhead Marinelife Center manages, and its bait and tackle shop. Check the page for current closures and hours.
