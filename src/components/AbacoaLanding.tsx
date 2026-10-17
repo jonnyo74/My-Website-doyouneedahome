@@ -7,6 +7,7 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import YlopoInit from '@/components/YlopoInit'
 import AbacoaListings from '@/components/AbacoaListings'
 import AbacoaRetrieved from '@/components/AbacoaRetrieved'
+import GreatSchoolsCard from '@/components/GreatSchoolsCard'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 // Ylopo can only resolve real municipalities in the city filter, so the Abacoa
@@ -293,6 +294,9 @@ export default function AbacoaLanding() {
                   </ul>
                 </div>
               )}
+            </div>
+            <div className="mt-6">
+              <GreatSchoolsCard citySlug="jupiter" cityName="Abacoa" />
             </div>
             <p className="mt-6 text-xs leading-6 text-slate-500">
               School assignments and boundaries change. Confirm the current zone for any address with Palm Beach County Schools.
