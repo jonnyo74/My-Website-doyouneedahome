@@ -65,6 +65,8 @@ export default function AbacoaLanding() {
   const villages = VILLAGE_SLUGS.map((s) => getCommunityBySlug(s)).filter(
     (c): c is NonNullable<typeof c> => Boolean(c),
   )
+  const abacoa = getCommunityBySlug('abacoa')
+  const story = abacoa?.overview.split('\n\n') ?? []
   const trends = marketTrendsCity('Jupiter')
   const guides = getArticlesByCity('jupiter').slice(0, 4)
   const breadcrumbSchema = {
@@ -138,6 +140,36 @@ export default function AbacoaLanding() {
         </div>
       </section>
 
+      {/* ── The story + what it's like ───────────────────────── */}
+      {abacoa && (
+        <section className="bg-slate-50 px-6 py-16 sm:px-8 sm:py-20" aria-labelledby="abacoa-story">
+          <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
+            <div>
+              <p className={eyebrow}>The story</p>
+              <h2 id="abacoa-story" className={h2}>A town built to feel like a town</h2>
+              <div className="mt-5 space-y-4 leading-8 text-slate-600">
+                {story.map((para) => (<p key={para.slice(0, 24)}>{para}</p>))}
+              </div>
+            </div>
+            <div>
+              <p className={eyebrow}>Living here</p>
+              <h2 className={h2}>What it’s like to live in Abacoa</h2>
+              {abacoa.lifestyle && <p className="mt-5 leading-8 text-slate-600">{abacoa.lifestyle}</p>}
+              {abacoa.localLoves && (
+                <ul className="mt-6 space-y-3">
+                  {abacoa.localLoves.map((item) => (
+                    <li key={item} className="flex items-start gap-3 text-sm leading-7 text-slate-700">
+                      <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-report-gold" aria-hidden="true" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ── Gallery ──────────────────────────────────────────── */}
       {ABACOA_PHOTOS.length > 0 && (
         <section className="bg-slate-50 px-6 py-16 sm:px-8 sm:py-20" aria-labelledby="abacoa-gallery">
@@ -210,6 +242,64 @@ export default function AbacoaLanding() {
           </ul>
         </div>
       </section>
+
+      {/* ── Schools, getting around, outdoors ────────────────── */}
+      {abacoa && (
+        <section className="px-6 py-16 sm:px-8 sm:py-20" aria-labelledby="abacoa-practical">
+          <div className="mx-auto max-w-7xl">
+            <p className={eyebrow}>The practical side</p>
+            <h2 id="abacoa-practical" className={h2}>Schools, commute and outdoors</h2>
+            <div className="mt-10 grid gap-6 lg:grid-cols-3">
+              {abacoa.schoolList && (
+                <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
+                  <h3 className="font-serif text-xl font-semibold text-slate-900">Schools</h3>
+                  {abacoa.schoolOverview && <p className="mt-3 text-sm leading-7 text-slate-600">{abacoa.schoolOverview}</p>}
+                  <div className="mt-4 space-y-4">
+                    {abacoa.schoolList.map((g) => (
+                      <div key={g.category}>
+                        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-report-gold-text">{g.category}</p>
+                        <ul className="mt-2 space-y-1 text-sm text-slate-700">
+                          {g.schools.map((sc) => (<li key={sc.name}>{sc.name}</li>))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {abacoa.commuteTimes && (
+                <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
+                  <h3 className="font-serif text-xl font-semibold text-slate-900">Getting around</h3>
+                  <dl className="mt-4 divide-y divide-slate-100">
+                    {abacoa.commuteTimes.map((c) => (
+                      <div key={c.destination} className="flex items-baseline justify-between gap-4 py-2.5 text-sm">
+                        <dt className="text-slate-600">{c.destination}</dt>
+                        <dd className="font-semibold text-slate-900">{c.time}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                  <p className="mt-3 text-xs text-slate-500">Approximate drive times; they vary with traffic and village.</p>
+                </div>
+              )}
+              {abacoa.outdoorActivities && (
+                <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
+                  <h3 className="font-serif text-xl font-semibold text-slate-900">Parks and outdoors</h3>
+                  <ul className="mt-4 space-y-2.5 text-sm leading-7 text-slate-600">
+                    {abacoa.outdoorActivities.map((o) => (
+                      <li key={o} className="flex items-start gap-3">
+                        <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-report-gold" aria-hidden="true" />
+                        {o}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+            <p className="mt-6 text-xs leading-6 text-slate-500">
+              School assignments and boundaries change. Confirm the current zone for any address with Palm Beach County Schools.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* ── Agent tip ────────────────────────────────────────── */}
       <section className="bg-navy-950 px-6 py-16 text-white sm:px-8 sm:py-20" aria-labelledby="abacoa-tip">
