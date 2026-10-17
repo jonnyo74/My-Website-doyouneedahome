@@ -2186,6 +2186,13 @@ This guide is for deciding whether to live here. It covers what the city is and 
 
 West Palm Beach is big and uneven in shape. The City's historic-district map shows its districts clustered east of Interstate 95, in the older part of the city near the lagoon. The city limits run south to the West Palm Beach Canal and extend far to the west, taking in Grassy Waters Preserve, the city's water catchment area. In between, the boundary is irregular. Here's how the main settings compare at a glance.
 
+::: gallery
+![Aerial view of a waterfront downtown skyline with a superyacht marina and palm-lined waterfront park](/images/west-palm-beach/wpb-downtown-west-palm-beach-and-its-waterfront-mari.webp "Downtown West Palm Beach and its waterfront marina, seen from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Waterfront skyline at golden hour with mangrove islands and drawbridge](/images/west-palm-beach/wpb-the-downtown-skyline-from-the-intracoastal-at-go.webp "The downtown skyline from the Intracoastal at golden hour. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Mediterranean Revival plaza with clock tower, fountain, palms and sculptural tree](/images/west-palm-beach/wpb-an-open-air-plaza-with-a-clock-tower-and-fountai.webp "An open-air plaza with a clock tower and fountain downtown.")
+![Sunset over marina with moored sportfishing yachts](/images/west-palm-beach/wpb-sunset-over-a-marina-on-the-intracoastal.webp "Sunset over a marina on the Intracoastal.")
+:::
+
 | Setting | Typical housing | Day to day |
 |---|---|---|
 | Downtown core | Condos, apartments | Walk to venues; garages, meters |
@@ -2353,6 +2360,13 @@ They have separate governments, regulations and property markets. When you read 
 
 Many of these are address-specific. City departments serve addresses inside city limits, while unincorporated parcels are served by Palm Beach County. Utility providers, trash schedules and evacuation zones follow the exact address, so look up your own.
 
+::: gallery
+![Aerial view of a waterfront boulevard, marina and downtown high-rise skyline](/images/west-palm-beach/wpb-a-waterfront-boulevard-marina-and-the-downtown-s.webp "A waterfront boulevard, marina and the downtown skyline from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Pedestrian-friendly mixed-use shopping street at sunset, lined with royal palms](/images/west-palm-beach/wpb-a-palm-lined-pedestrian-street-at-sunset.webp "A palm-lined pedestrian street at sunset.")
+![Mixed-use plaza at dusk with interactive fountain, palm trees, and a multi-story building with ground-floor restaurants](/images/west-palm-beach/wpb-centennial-park-and-the-plaza-on-clematis-street.webp "Centennial Park and the plaza on Clematis Street at dusk. || Photo: Discover The Palm Beaches")
+![Wind-swept palm trees framing the Intracoastal Waterway with a bridge, yachts and waterfront towers](/images/west-palm-beach/wpb-palm-trees-along-the-intracoastal-waterway-with-.webp "Palm trees along the Intracoastal Waterway with a bridge in the distance.")
+:::
+
 ## Parking downtown
 
 The City runs five downtown garages: Banyan Street (200 Banyan Boulevard), City Center (400 Banyan Boulevard), Clematis Street (500 Banyan Boulevard), Evernia Street (333 Evernia Street) and Sapodilla (645 Clematis Street), plus several surface lots. Clearance heights differ by garage, which matters for a tall vehicle. At the time of writing, the City's rate page lists:
@@ -2470,6 +2484,13 @@ There's no universal "best" neighborhood. The right area depends on the house yo
 ## The areas at a glance
 
 Where each area is, and whether it's an official designation:
+
+::: gallery
+![Waterfront two-story estate with Georgian/British West Indies styling, viewed from the water](/images/west-palm-beach/wpb-a-waterfront-home-with-georgian-style-detailing-.webp "A waterfront home with Georgian-style detailing, seen from the water.")
+![Waterfront estate with red-tile roofs, private dock and royal palms viewed from the water](/images/west-palm-beach/wpb-a-waterfront-home-with-red-tile-roofs-and-a-priv.webp "A waterfront home with red-tile roofs and a private dock.")
+![Waterfront two-story British West Indies-style estate with private dock and cabana](/images/west-palm-beach/wpb-a-two-story-waterfront-home-with-a-private-dock-.webp "A two-story waterfront home with a private dock and cabana.")
+![Classic white wooden motor yacht moored on the Intracoastal with waterfront estates behind](/images/west-palm-beach/wpb-a-classic-wooden-motor-yacht-moored-on-the-intra.webp "A classic wooden motor yacht moored on the Intracoastal with waterfront homes behind it.")
+:::
 
 | Area | Where | Designation |
 |---|---|---|
@@ -2672,6 +2693,13 @@ Hours, tickets, programming and parking change, so each section points to the of
 
 The City's downtown waterfront faces the Lake Worth Lagoon, part of the Intracoastal Waterway, with Palm Beach island across the water. It's a lagoon edge, not an ocean beach. The public spaces include the Great Lawn at 100 North Clematis Street, the Meyer Amphitheatre at 104 Datura Street and the Lake Pavilion event venue at 101 South Flagler Drive.
 
+::: gallery
+![Twilight exterior of a two-story waterfront eco-discovery center with illuminated signage](/images/west-palm-beach/wpb-manatee-lagoon-at-twilight-a-waterfront-discover.webp "Manatee Lagoon at twilight, a waterfront discovery center. || Photo: Discover The Palm Beaches")
+![Neoclassical white mansion with colonnade, terra-cotta tile roof, framed by tall royal palms and a central lawn walkway](/images/west-palm-beach/wpb-the-flagler-museum-s-exterior-a-neoclassical-man.webp "The Flagler Museum's exterior: a Neoclassical mansion with a tile roof and royal palms.")
+![Smiling woman browsing fresh produce at an outdoor farmers market](/images/west-palm-beach/wpb-shoppers-browsing-produce-at-an-outdoor-farmers-.webp "Shoppers browsing produce at an outdoor farmers market. || Photo: Discover The Palm Beaches")
+![Twilight aerial of a Mediterranean Revival-style civic building with clock tower, palm-lined plaza, and illuminated fountain in a downtown district](/images/west-palm-beach/wpb-the-square-s-clock-tower-civic-building-at-twili.webp "The Square's clock-tower civic building at twilight, from above. || Photo: The Square / Discover The Palm Beaches")
+:::
+
 Recurring City programming there includes:
 
 - **The West Palm Beach GreenMarket**, the City's Saturday market in season. The 2025–26 season ran October 4 through May 30, 8:30 a.m. to 1:30 p.m.
@@ -2771,6 +2799,13 @@ The useful question isn't who belongs here. It's whether the city's housing, tra
 ## What the housing looks like
 
 The City's parcel layer, which carries Palm Beach County Property Appraiser attributes, counts these parcels inside city limits (retrieved September 23, 2026):
+
+::: gallery
+![Aerial dusk view of a waterfront downtown district with a mid-rise Mediterranean-style office building, restaurant terrace, marina and high-rise skyline](/images/west-palm-beach/wpb-an-aerial-view-of-the-waterfront-downtown-distri.webp "An aerial view of the waterfront downtown district at dusk. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Waterfront skyline with moored sailboats at golden hour](/images/west-palm-beach/wpb-moored-sailboats-along-the-downtown-waterfront-a.webp "Moored sailboats along the downtown waterfront at golden hour. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Row of sportfishing and motor yachts docked in a marina at dusk](/images/west-palm-beach/wpb-motor-yachts-docked-in-a-marina-at-dusk.webp "Motor yachts docked in a marina at dusk.")
+![Panoramic waterfront lawn with palm trees and distant city skyline across the Intracoastal](/images/west-palm-beach/wpb-a-waterfront-lawn-and-palms-across-the-intracoas.webp "A waterfront lawn and palms across the Intracoastal from the downtown skyline.")
+:::
 
 - **About 18,400 single-family homes.** Their median recorded year built is 1970. About 21% were built before 1950, and about 26% in 2000 or later.
 - **About 14,900 condominium units.** About 44% are in buildings with a recorded year of 2000 or later.
@@ -2908,6 +2943,13 @@ This page pairs each advantage with its trade-off and the check that settles it 
 
 Downtown puts the waterfront, the Kravis Center, the Mandel Public Library, CityPlace and the Brightline station close together. The same area carries event crowds, street changes and garage demand. The City's rate page lists garage rates of $5 all day on weekends and holidays, but up to $100 during special events. Parking, traffic and noise depend on the exact block and the time, so visit the property and its surrounding streets at the hours that match your routine, including an event day if you're near the waterfront.
 
+::: gallery
+![Aerial view of a downtown waterfront skyline and superyacht marina at golden hour](/images/west-palm-beach/wpb-downtown-s-marina-and-waterfront-skyline-at-gold.webp "Downtown's marina and waterfront skyline at golden hour, from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Large dark-hulled superyacht docked in a marina at sunset with high-rise towers behind](/images/west-palm-beach/wpb-a-large-yacht-docked-in-a-marina-at-sunset-with-.webp "A large yacht docked in a marina at sunset with high-rise towers behind.")
+![Interactive jet fountain plaza with palm trees and white mixed-use buildings](/images/west-palm-beach/wpb-an-interactive-jet-fountain-in-a-plaza-with-palm.webp "An interactive jet fountain in a plaza with palm trees. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Sailing yacht at anchor on the Intracoastal at sunset with twin high-rise towers on the skyline](/images/west-palm-beach/wpb-a-sailing-yacht-at-anchor-on-the-intracoastal-at.webp "A sailing yacht at anchor on the Intracoastal at sunset.")
+:::
+
 ### The waterfront and the ocean
 
 The city sits on the mainland, across the Lake Worth Lagoon (part of the Intracoastal Waterway) from Palm Beach island. The waterfront is a lagoon edge, and the ocean beaches are on the island, reached over one of three drawbridges and run by other jurisdictions with their own parking rules. Whether that's a plus or a minus depends on how often you'd go and from where. Time the trip from the specific address.
@@ -3023,6 +3065,13 @@ A downtown condominium, an older house in a historic district, a waterfront prop
 | Move-in and setup | Deposits, moving, closing | Estimates from lender, title, mover |
 
 Some of these depend mainly on the property (its condition, flood zone and association), and some on you (your exemptions, your usage, your trips and your loan).
+
+::: gallery
+![Elevated sunrise view of a waterfront downtown with marina, palm-lined promenade, and mid-rise towers](/images/west-palm-beach/wpb-a-sunrise-view-of-downtown-west-palm-beach-with-.webp "A sunrise view of downtown West Palm Beach with its marina and palm-lined promenade. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Elevated view of a Mediterranean-style outdoor shopping plaza with lawn, fountain, and palm trees](/images/west-palm-beach/wpb-a-mediterranean-style-outdoor-shopping-plaza-wit.webp "A Mediterranean-style outdoor shopping plaza with a lawn and fountain, seen from above. || Photo: Discover The Palm Beaches")
+![Sunset over a yacht-filled marina channel with waterfront residences](/images/west-palm-beach/wpb-sunset-over-a-marina-channel-with-waterfront-res.webp "Sunset over a marina channel with waterfront residences.")
+![Striped deck chairs on a sunny lawn facing a splash-pad fountain at an outdoor shopping plaza](/images/west-palm-beach/wpb-striped-deck-chairs-on-a-sunny-lawn-facing-a-spl.webp "Striped deck chairs on a sunny lawn facing a splash-pad fountain. || Photo: Discover The Palm Beaches")
+:::
 
 ## Property taxes: the seller's bill isn't your bill
 
@@ -3204,6 +3253,13 @@ Each entry below says where it is. Places outside city limits are grouped at the
 
 Currie Park, the City's waterfront park at 2400 North Flagler Drive, has been closed since September 2025 for a City redevelopment project, including its boat ramps and parking lot. The City's [Currie Park page](https://www.wpb.org/Departments/Parks-Recreation/Parks-Facilities/Currie-Park) links to the redesign and its progress.
 
+::: gallery
+![Illuminated glowing tree in a crowded outdoor plaza at night](/images/west-palm-beach/wpb-a-glowing-tree-in-a-crowded-outdoor-plaza-at-nig.webp "A glowing tree in a crowded outdoor plaza at night. || Photo: Discover The Palm Beaches")
+![Row of sportfishing boats docked at a marina under a deep blue sky](/images/west-palm-beach/wpb-sportfishing-boats-docked-at-a-marina-under-a-de.webp "Sportfishing boats docked at a marina under a deep blue sky. || Photo: Discover The Palm Beaches")
+![Cafe interior with wooden shelving, terracotta mosaic tile, mint banquette and olive stools in dramatic sunlight](/images/west-palm-beach/wpb-a-cafe-interior-with-terracotta-mosaic-tile-and-.webp "A cafe interior with terracotta mosaic tile and a mint banquette. || Photo: Spencer Ramirez, Elevated Media / Discover The Palm Beaches")
+![Pizza restaurant storefront at dusk with warm glowing interior and curved wooden bench in foreground](/images/west-palm-beach/wpb-a-pizza-restaurant-storefront-at-dusk-with-a-war.webp "A pizza restaurant storefront at dusk with a warm glowing interior. || Photo: Spencer Ramirez, Elevated Media / Discover The Palm Beaches")
+:::
+
 ## Nearby, outside city limits
 
 ### The Flagler Museum (Whitehall)
@@ -3287,6 +3343,13 @@ City labels only go so far. Two properties in the same town can differ more than
 ## The primary comparison set
 
 Where each place sits:
+
+::: gallery
+![Aerial dusk view of a mixed-use downtown district with a lit open-air dining pavilion, string-lit plaza, and mid-rise hotel/residential buildings](/images/west-palm-beach/wpb-an-aerial-dusk-view-of-a-mixed-use-downtown-dist.webp "An aerial dusk view of a mixed-use downtown district with a lit open-air dining pavilion. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Aerial view of a waterfront downtown skyline, intracoastal waterway and yacht marina at golden hour](/images/west-palm-beach/wpb-the-downtown-waterfront-skyline-intracoastal-wat.webp "The downtown waterfront skyline, Intracoastal Waterway and yacht marina from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Luxury yachts moored at a downtown marina under a dramatic blue sky](/images/west-palm-beach/wpb-luxury-yachts-moored-at-a-downtown-marina-under-.webp "Luxury yachts moored at a downtown marina under a blue sky.")
+![Boat show / marina with yachts against a downtown high-rise skyline under an altocumulus sky](/images/west-palm-beach/wpb-a-boat-show-at-the-marina-with-yachts-against-th.webp "A boat show at the marina with yachts against the downtown skyline.")
+:::
 
 | Place | Government | Setting and water |
 |---|---|---|
@@ -3780,6 +3843,13 @@ For more on West Palm Beach itself, see [what it's really like living in West Pa
 ## Downtown in brief
 
 The [Downtown Development Authority](https://downtownwpb.com/explore/dining/) says downtown is home to more than 70 restaurants, and it keeps a directory of them. Clematis Street runs west from the waterfront at Flagler Drive, and CityPlace, centered on South Rosemary Avenue, keeps its own [restaurant directory](https://www.cityplace.com/west-palm-beach-restaurants).
+
+::: gallery
+![Mediterranean Revival plaza with clock tower, terracotta roofs, and outdoor café patio framed by palms](/images/west-palm-beach/wpb-a-mediterranean-revival-plaza-with-a-clock-tower.webp "A Mediterranean Revival plaza with a clock tower and outdoor cafe patios.")
+![Open-air shopping plaza courtyard with marble fountain plaza, palm trees, and sculptural tree centerpiece](/images/west-palm-beach/wpb-an-open-air-plaza-courtyard-with-a-marble-founta.webp "An open-air plaza courtyard with a marble fountain, palm trees and sculpture. || Photo: Discover The Palm Beaches")
+![Open-air Mediterranean Revival plaza with interactive fountain, clock tower building, and outdoor cafe seating at golden hour](/images/west-palm-beach/wpb-an-open-air-plaza-with-an-interactive-fountain-a.webp "An open-air plaza with an interactive fountain and a clock-tower building. || Photo: Discover The Palm Beaches")
+![Elevated view of a Mediterranean-style outdoor shopping plaza with central lawn, fountain, and palm-lined courtyard](/images/west-palm-beach/wpb-an-elevated-view-of-an-outdoor-shopping-plaza-wi.webp "An elevated view of an outdoor shopping plaza with a central lawn and fountain. || Photo: Discover The Palm Beaches")
+:::
 
 For block-by-block downtown planning, our sister site CondoWPB.com covers [downtown restaurants](https://www.condowpb.com/lifestyle/dining-downtown-wpb), [Clematis Street entertainment](https://www.condowpb.com/lifestyle/clematis-street-entertainment) and the [Nora District](https://www.condowpb.com/lifestyle/nora-district-dining) in more depth.
 
