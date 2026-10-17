@@ -447,6 +447,8 @@ export default async function CommunityPage({ params }: Props) {
           <YlopoResultsWidget
             city={isCity ? community.name : (parentCity?.name ?? community.searchCity ?? community.name)}
             neighborhood={!isCity ? (community.ylopoLocation ?? community.name) : undefined}
+            // Abacoa's townhome villages sell under the widget's $600K default, so it hid them.
+            minPrice={ABACOA_VILLAGES.has(community.slug) ? 400000 : undefined}
           />
 
           {community.savedSearches && community.savedSearches.length > 0 && (
