@@ -7,6 +7,7 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import YlopoInit from '@/components/YlopoInit'
 import AbacoaListings from '@/components/AbacoaListings'
 import AbacoaRetrieved from '@/components/AbacoaRetrieved'
+import GreatSchoolsCard from '@/components/GreatSchoolsCard'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 // Ylopo can only resolve real municipalities in the city filter, so the Abacoa
@@ -254,14 +255,6 @@ export default function AbacoaLanding() {
                 <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
                   <h3 className="font-serif text-xl font-semibold text-slate-900">Schools</h3>
                   {abacoa.schoolOverview && <p className="mt-3 text-sm leading-7 text-slate-600">{abacoa.schoolOverview}</p>}
-                  <a
-                    href="https://www.greatschools.org/florida/jupiter/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-3 inline-flex text-sm font-semibold text-gold-600 underline-offset-4 hover:text-gold-700 hover:underline"
-                  >
-                    See ratings and reviews on GreatSchools<span className="sr-only"> for Jupiter schools</span> →
-                  </a>
                   <div className="mt-4 space-y-4">
                     {abacoa.schoolList.map((g) => (
                       <div key={g.category}>
@@ -302,8 +295,11 @@ export default function AbacoaLanding() {
                 </div>
               )}
             </div>
+            <div className="mt-6">
+              <GreatSchoolsCard citySlug="jupiter" cityName="Abacoa" />
+            </div>
             <p className="mt-6 text-xs leading-6 text-slate-500">
-              School data and ratings provided by GreatSchools.org. School assignments and boundaries change. Confirm the current zone for any address with Palm Beach County Schools.
+              School assignments and boundaries change. Confirm the current zone for any address with Palm Beach County Schools.
             </p>
           </div>
         </section>
