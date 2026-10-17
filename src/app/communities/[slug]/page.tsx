@@ -24,6 +24,7 @@ import ContactForm from '@/components/ContactForm'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { communityGuides } from '@/components/communityGuide'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
+import AbacoaLanding from '@/components/AbacoaLanding'
 import WhatsNew from '@/components/WhatsNew'
 import { SITE_URL } from '@/lib/site'
 
@@ -75,6 +76,18 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params
   const community = getCommunityBySlug(slug)
   if (!community) return { title: 'Community not found' }
+  if (slug === 'abacoa') {
+    const img = '/images/abacoa/abacoa-og.jpg'
+    const title = 'Abacoa Homes for Sale | Jupiter FL Villages & Town Center | DO Homes Group'
+    const description = 'Explore Abacoa, Jupiter’s walkable master-planned community: 11 villages, live listings, how the associations work, and a local agent tip for buyers and sellers.'
+    return {
+      title,
+      description,
+      alternates: { canonical: '/communities/abacoa' },
+      openGraph: { title, description, url: '/communities/abacoa', images: [{ url: img, width: 1200, height: 630, alt: 'Palm-lined main street in Abacoa Town Center at sunset' }] },
+      twitter: { card: 'summary_large_image' as const, title, description, images: [img] },
+    }
+  }
   const ogImage = community.photos?.[0]
     ? encodeURI(community.photos[0])
     : '/images/og-image.jpg'
@@ -109,6 +122,8 @@ export default async function CommunityPage({ params }: Props) {
   // Unknown slugs must be a real HTTP 404, not a 200 "not found" page — a
   // soft-404 here would let Google index an unbounded /communities/* space.
   if (!community) notFound()
+
+  if (slug === 'abacoa') return <AbacoaLanding />
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []
