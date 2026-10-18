@@ -457,6 +457,54 @@
       "license": "Owned by DO Homes Group (site photograph library); photographer credit to be confirmed by John Oliver",
       "shows": "A crop of the source photograph chosen for the \"who\" article",
       "provisional": true
+    },
+    {
+      "path": "/images/north-palm-beach/macarthur-beach-aerial-shoreline.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "North Palm Beach",
+      "landmark": "An aerial view of a narrow barrier island with a mangrove-covered lagoon, a long sandy beach and turquoise Atlantic surf beside the Intracoastal Waterway",
+      "source": "macarthur-beach-aerial-shoreline.webp: web-sized copy of a Discover The Palm Beaches photograph supplied to DO Homes Group, filed by Discover The Palm Beaches under 'North Palm Beach - John D McArthur State Park'. Used only in the Nearby Beaches and Nature Destinations section of the things-to-do article.",
+      "verification": "Provisional: Discover The Palm Beaches labels the photo as John D. MacArthur Beach State Park under North Palm Beach, and the article text says the park carries a North Palm Beach mailing address but that its position relative to the Village is not confirmed. The caption names the park and nothing more specific. Confirm before treating the page as final.",
+      "license": "Used with permission from Discover The Palm Beaches; credit line 'Photo: Discover The Palm Beaches' shown on the photo. Website use only (not for social media or posters).",
+      "shows": "An aerial view of a narrow barrier island with a mangrove-covered lagoon, a long sandy beach and turquoise Atlantic surf beside the Intracoastal Waterway",
+      "provisional": true
+    },
+    {
+      "path": "/images/north-palm-beach/macarthur-beach-aerial-surf.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "North Palm Beach",
+      "landmark": "An aerial view of turquoise Atlantic surf along an undeveloped barrier-island beach with the Intracoastal Waterway behind it",
+      "source": "macarthur-beach-aerial-surf.webp: web-sized copy of a Discover The Palm Beaches photograph supplied to DO Homes Group, filed by Discover The Palm Beaches under 'North Palm Beach - John D McArthur State Park'. Used only in the Nearby Beaches and Nature Destinations section of the things-to-do article.",
+      "verification": "Provisional: Discover The Palm Beaches labels the photo as John D. MacArthur Beach State Park under North Palm Beach, and the article text says the park carries a North Palm Beach mailing address but that its position relative to the Village is not confirmed. The caption names the park and nothing more specific. Confirm before treating the page as final.",
+      "license": "Used with permission from Discover The Palm Beaches; credit line 'Photo: Discover The Palm Beaches' shown on the photo. Website use only (not for social media or posters).",
+      "shows": "An aerial view of turquoise Atlantic surf along an undeveloped barrier-island beach with the Intracoastal Waterway behind it",
+      "provisional": true
+    },
+    {
+      "path": "/images/north-palm-beach/macarthur-beach-boardwalk-dunes.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "North Palm Beach",
+      "landmark": "A wooden boardwalk leading through coastal dunes to the Atlantic shoreline",
+      "source": "macarthur-beach-boardwalk-dunes.webp: web-sized copy of a Discover The Palm Beaches photograph supplied to DO Homes Group, filed by Discover The Palm Beaches under 'North Palm Beach - John D McArthur State Park'. Used only in the Nearby Beaches and Nature Destinations section of the things-to-do article.",
+      "verification": "Provisional: Discover The Palm Beaches labels the photo as John D. MacArthur Beach State Park under North Palm Beach, and the article text says the park carries a North Palm Beach mailing address but that its position relative to the Village is not confirmed. The caption names the park and nothing more specific. Confirm before treating the page as final.",
+      "license": "Used with permission from Discover The Palm Beaches; credit line 'Photo: Discover The Palm Beaches' shown on the photo. Website use only (not for social media or posters).",
+      "shows": "A wooden boardwalk leading through coastal dunes to the Atlantic shoreline",
+      "provisional": true
+    },
+    {
+      "path": "/images/north-palm-beach/macarthur-beach-lagoon-pier.webp",
+      "width": 1600,
+      "height": 900,
+      "locality": "North Palm Beach",
+      "landmark": "A long wooden boardwalk pier over a coastal lagoon lined with mangroves",
+      "source": "macarthur-beach-lagoon-pier.webp: web-sized copy of a Discover The Palm Beaches photograph supplied to DO Homes Group, filed by Discover The Palm Beaches under 'North Palm Beach - John D McArthur State Park'. Used only in the Nearby Beaches and Nature Destinations section of the things-to-do article.",
+      "verification": "Provisional: Discover The Palm Beaches labels the photo as John D. MacArthur Beach State Park under North Palm Beach, and the article text says the park carries a North Palm Beach mailing address but that its position relative to the Village is not confirmed. The caption names the park and nothing more specific. Confirm before treating the page as final.",
+      "license": "Used with permission from Discover The Palm Beaches; credit line 'Photo: Discover The Palm Beaches' shown on the photo. Website use only (not for social media or posters).",
+      "shows": "A long wooden boardwalk pier over a coastal lagoon lined with mangroves",
+      "provisional": true
     }
   ]
 }

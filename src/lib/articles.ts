@@ -2186,6 +2186,13 @@ This guide is for deciding whether to live here. It covers what the city is and 
 
 West Palm Beach is big and uneven in shape. The City's historic-district map shows its districts clustered east of Interstate 95, in the older part of the city near the lagoon. The city limits run south to the West Palm Beach Canal and extend far to the west, taking in Grassy Waters Preserve, the city's water catchment area. In between, the boundary is irregular. Here's how the main settings compare at a glance.
 
+::: gallery
+![Aerial view of a waterfront downtown skyline with a superyacht marina and palm-lined waterfront park](/images/west-palm-beach/wpb-downtown-west-palm-beach-and-its-waterfront-mari.webp "Downtown West Palm Beach and its waterfront marina, seen from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Waterfront skyline at golden hour with mangrove islands and drawbridge](/images/west-palm-beach/wpb-the-downtown-skyline-from-the-intracoastal-at-go.webp "The downtown skyline from the Intracoastal at golden hour. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Mediterranean Revival plaza with clock tower, fountain, palms and sculptural tree](/images/west-palm-beach/wpb-an-open-air-plaza-with-a-clock-tower-and-fountai.webp "An open-air plaza with a clock tower and fountain downtown.")
+![Sunset over marina with moored sportfishing yachts](/images/west-palm-beach/wpb-sunset-over-a-marina-on-the-intracoastal.webp "Sunset over a marina on the Intracoastal.")
+:::
+
 | Setting | Typical housing | Day to day |
 |---|---|---|
 | Downtown core | Condos, apartments | Walk to venues; garages, meters |
@@ -2353,6 +2360,13 @@ They have separate governments, regulations and property markets. When you read 
 
 Many of these are address-specific. City departments serve addresses inside city limits, while unincorporated parcels are served by Palm Beach County. Utility providers, trash schedules and evacuation zones follow the exact address, so look up your own.
 
+::: gallery
+![Aerial view of a waterfront boulevard, marina and downtown high-rise skyline](/images/west-palm-beach/wpb-a-waterfront-boulevard-marina-and-the-downtown-s.webp "A waterfront boulevard, marina and the downtown skyline from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Pedestrian-friendly mixed-use shopping street at sunset, lined with royal palms](/images/west-palm-beach/wpb-a-palm-lined-pedestrian-street-at-sunset.webp "A palm-lined pedestrian street at sunset.")
+![Mixed-use plaza at dusk with interactive fountain, palm trees, and a multi-story building with ground-floor restaurants](/images/west-palm-beach/wpb-centennial-park-and-the-plaza-on-clematis-street.webp "Centennial Park and the plaza on Clematis Street at dusk. || Photo: Discover The Palm Beaches")
+![Wind-swept palm trees framing the Intracoastal Waterway with a bridge, yachts and waterfront towers](/images/west-palm-beach/wpb-palm-trees-along-the-intracoastal-waterway-with-.webp "Palm trees along the Intracoastal Waterway with a bridge in the distance.")
+:::
+
 ## Parking downtown
 
 The City runs five downtown garages: Banyan Street (200 Banyan Boulevard), City Center (400 Banyan Boulevard), Clematis Street (500 Banyan Boulevard), Evernia Street (333 Evernia Street) and Sapodilla (645 Clematis Street), plus several surface lots. Clearance heights differ by garage, which matters for a tall vehicle. At the time of writing, the City's rate page lists:
@@ -2470,6 +2484,13 @@ There's no universal "best" neighborhood. The right area depends on the house yo
 ## The areas at a glance
 
 Where each area is, and whether it's an official designation:
+
+::: gallery
+![Waterfront two-story estate with Georgian/British West Indies styling, viewed from the water](/images/west-palm-beach/wpb-a-waterfront-home-with-georgian-style-detailing-.webp "A waterfront home with Georgian-style detailing, seen from the water.")
+![Waterfront estate with red-tile roofs, private dock and royal palms viewed from the water](/images/west-palm-beach/wpb-a-waterfront-home-with-red-tile-roofs-and-a-priv.webp "A waterfront home with red-tile roofs and a private dock.")
+![Waterfront two-story British West Indies-style estate with private dock and cabana](/images/west-palm-beach/wpb-a-two-story-waterfront-home-with-a-private-dock-.webp "A two-story waterfront home with a private dock and cabana.")
+![Classic white wooden motor yacht moored on the Intracoastal with waterfront estates behind](/images/west-palm-beach/wpb-a-classic-wooden-motor-yacht-moored-on-the-intra.webp "A classic wooden motor yacht moored on the Intracoastal with waterfront homes behind it.")
+:::
 
 | Area | Where | Designation |
 |---|---|---|
@@ -2672,6 +2693,13 @@ Hours, tickets, programming and parking change, so each section points to the of
 
 The City's downtown waterfront faces the Lake Worth Lagoon, part of the Intracoastal Waterway, with Palm Beach island across the water. It's a lagoon edge, not an ocean beach. The public spaces include the Great Lawn at 100 North Clematis Street, the Meyer Amphitheatre at 104 Datura Street and the Lake Pavilion event venue at 101 South Flagler Drive.
 
+::: gallery
+![Twilight exterior of a two-story waterfront eco-discovery center with illuminated signage](/images/west-palm-beach/wpb-manatee-lagoon-at-twilight-a-waterfront-discover.webp "Manatee Lagoon at twilight, a waterfront discovery center. || Photo: Discover The Palm Beaches")
+![Neoclassical white mansion with colonnade, terra-cotta tile roof, framed by tall royal palms and a central lawn walkway](/images/west-palm-beach/wpb-the-flagler-museum-s-exterior-a-neoclassical-man.webp "The Flagler Museum's exterior: a Neoclassical mansion with a tile roof and royal palms.")
+![Smiling woman browsing fresh produce at an outdoor farmers market](/images/west-palm-beach/wpb-shoppers-browsing-produce-at-an-outdoor-farmers-.webp "Shoppers browsing produce at an outdoor farmers market. || Photo: Discover The Palm Beaches")
+![Twilight aerial of a Mediterranean Revival-style civic building with clock tower, palm-lined plaza, and illuminated fountain in a downtown district](/images/west-palm-beach/wpb-the-square-s-clock-tower-civic-building-at-twili.webp "The Square's clock-tower civic building at twilight, from above. || Photo: The Square / Discover The Palm Beaches")
+:::
+
 Recurring City programming there includes:
 
 - **The West Palm Beach GreenMarket**, the City's Saturday market in season. The 2025–26 season ran October 4 through May 30, 8:30 a.m. to 1:30 p.m.
@@ -2771,6 +2799,13 @@ The useful question isn't who belongs here. It's whether the city's housing, tra
 ## What the housing looks like
 
 The City's parcel layer, which carries Palm Beach County Property Appraiser attributes, counts these parcels inside city limits (retrieved September 23, 2026):
+
+::: gallery
+![Aerial dusk view of a waterfront downtown district with a mid-rise Mediterranean-style office building, restaurant terrace, marina and high-rise skyline](/images/west-palm-beach/wpb-an-aerial-view-of-the-waterfront-downtown-distri.webp "An aerial view of the waterfront downtown district at dusk. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Waterfront skyline with moored sailboats at golden hour](/images/west-palm-beach/wpb-moored-sailboats-along-the-downtown-waterfront-a.webp "Moored sailboats along the downtown waterfront at golden hour. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Row of sportfishing and motor yachts docked in a marina at dusk](/images/west-palm-beach/wpb-motor-yachts-docked-in-a-marina-at-dusk.webp "Motor yachts docked in a marina at dusk.")
+![Panoramic waterfront lawn with palm trees and distant city skyline across the Intracoastal](/images/west-palm-beach/wpb-a-waterfront-lawn-and-palms-across-the-intracoas.webp "A waterfront lawn and palms across the Intracoastal from the downtown skyline.")
+:::
 
 - **About 18,400 single-family homes.** Their median recorded year built is 1970. About 21% were built before 1950, and about 26% in 2000 or later.
 - **About 14,900 condominium units.** About 44% are in buildings with a recorded year of 2000 or later.
@@ -2908,6 +2943,13 @@ This page pairs each advantage with its trade-off and the check that settles it 
 
 Downtown puts the waterfront, the Kravis Center, the Mandel Public Library, CityPlace and the Brightline station close together. The same area carries event crowds, street changes and garage demand. The City's rate page lists garage rates of $5 all day on weekends and holidays, but up to $100 during special events. Parking, traffic and noise depend on the exact block and the time, so visit the property and its surrounding streets at the hours that match your routine, including an event day if you're near the waterfront.
 
+::: gallery
+![Aerial view of a downtown waterfront skyline and superyacht marina at golden hour](/images/west-palm-beach/wpb-downtown-s-marina-and-waterfront-skyline-at-gold.webp "Downtown's marina and waterfront skyline at golden hour, from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Large dark-hulled superyacht docked in a marina at sunset with high-rise towers behind](/images/west-palm-beach/wpb-a-large-yacht-docked-in-a-marina-at-sunset-with-.webp "A large yacht docked in a marina at sunset with high-rise towers behind.")
+![Interactive jet fountain plaza with palm trees and white mixed-use buildings](/images/west-palm-beach/wpb-an-interactive-jet-fountain-in-a-plaza-with-palm.webp "An interactive jet fountain in a plaza with palm trees. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Sailing yacht at anchor on the Intracoastal at sunset with twin high-rise towers on the skyline](/images/west-palm-beach/wpb-a-sailing-yacht-at-anchor-on-the-intracoastal-at.webp "A sailing yacht at anchor on the Intracoastal at sunset.")
+:::
+
 ### The waterfront and the ocean
 
 The city sits on the mainland, across the Lake Worth Lagoon (part of the Intracoastal Waterway) from Palm Beach island. The waterfront is a lagoon edge, and the ocean beaches are on the island, reached over one of three drawbridges and run by other jurisdictions with their own parking rules. Whether that's a plus or a minus depends on how often you'd go and from where. Time the trip from the specific address.
@@ -3023,6 +3065,13 @@ A downtown condominium, an older house in a historic district, a waterfront prop
 | Move-in and setup | Deposits, moving, closing | Estimates from lender, title, mover |
 
 Some of these depend mainly on the property (its condition, flood zone and association), and some on you (your exemptions, your usage, your trips and your loan).
+
+::: gallery
+![Elevated sunrise view of a waterfront downtown with marina, palm-lined promenade, and mid-rise towers](/images/west-palm-beach/wpb-a-sunrise-view-of-downtown-west-palm-beach-with-.webp "A sunrise view of downtown West Palm Beach with its marina and palm-lined promenade. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Elevated view of a Mediterranean-style outdoor shopping plaza with lawn, fountain, and palm trees](/images/west-palm-beach/wpb-a-mediterranean-style-outdoor-shopping-plaza-wit.webp "A Mediterranean-style outdoor shopping plaza with a lawn and fountain, seen from above. || Photo: Discover The Palm Beaches")
+![Sunset over a yacht-filled marina channel with waterfront residences](/images/west-palm-beach/wpb-sunset-over-a-marina-channel-with-waterfront-res.webp "Sunset over a marina channel with waterfront residences.")
+![Striped deck chairs on a sunny lawn facing a splash-pad fountain at an outdoor shopping plaza](/images/west-palm-beach/wpb-striped-deck-chairs-on-a-sunny-lawn-facing-a-spl.webp "Striped deck chairs on a sunny lawn facing a splash-pad fountain. || Photo: Discover The Palm Beaches")
+:::
 
 ## Property taxes: the seller's bill isn't your bill
 
@@ -3204,6 +3253,13 @@ Each entry below says where it is. Places outside city limits are grouped at the
 
 Currie Park, the City's waterfront park at 2400 North Flagler Drive, has been closed since September 2025 for a City redevelopment project, including its boat ramps and parking lot. The City's [Currie Park page](https://www.wpb.org/Departments/Parks-Recreation/Parks-Facilities/Currie-Park) links to the redesign and its progress.
 
+::: gallery
+![Illuminated glowing tree in a crowded outdoor plaza at night](/images/west-palm-beach/wpb-a-glowing-tree-in-a-crowded-outdoor-plaza-at-nig.webp "A glowing tree in a crowded outdoor plaza at night. || Photo: Discover The Palm Beaches")
+![Row of sportfishing boats docked at a marina under a deep blue sky](/images/west-palm-beach/wpb-sportfishing-boats-docked-at-a-marina-under-a-de.webp "Sportfishing boats docked at a marina under a deep blue sky. || Photo: Discover The Palm Beaches")
+![Cafe interior with wooden shelving, terracotta mosaic tile, mint banquette and olive stools in dramatic sunlight](/images/west-palm-beach/wpb-a-cafe-interior-with-terracotta-mosaic-tile-and-.webp "A cafe interior with terracotta mosaic tile and a mint banquette. || Photo: Spencer Ramirez, Elevated Media / Discover The Palm Beaches")
+![Pizza restaurant storefront at dusk with warm glowing interior and curved wooden bench in foreground](/images/west-palm-beach/wpb-a-pizza-restaurant-storefront-at-dusk-with-a-war.webp "A pizza restaurant storefront at dusk with a warm glowing interior. || Photo: Spencer Ramirez, Elevated Media / Discover The Palm Beaches")
+:::
+
 ## Nearby, outside city limits
 
 ### The Flagler Museum (Whitehall)
@@ -3287,6 +3343,13 @@ City labels only go so far. Two properties in the same town can differ more than
 ## The primary comparison set
 
 Where each place sits:
+
+::: gallery
+![Aerial dusk view of a mixed-use downtown district with a lit open-air dining pavilion, string-lit plaza, and mid-rise hotel/residential buildings](/images/west-palm-beach/wpb-an-aerial-dusk-view-of-a-mixed-use-downtown-dist.webp "An aerial dusk view of a mixed-use downtown district with a lit open-air dining pavilion. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Aerial view of a waterfront downtown skyline, intracoastal waterway and yacht marina at golden hour](/images/west-palm-beach/wpb-the-downtown-waterfront-skyline-intracoastal-wat.webp "The downtown waterfront skyline, Intracoastal Waterway and yacht marina from above. || Photo: Leo Diaz / Discover The Palm Beaches")
+![Luxury yachts moored at a downtown marina under a dramatic blue sky](/images/west-palm-beach/wpb-luxury-yachts-moored-at-a-downtown-marina-under-.webp "Luxury yachts moored at a downtown marina under a blue sky.")
+![Boat show / marina with yachts against a downtown high-rise skyline under an altocumulus sky](/images/west-palm-beach/wpb-a-boat-show-at-the-marina-with-yachts-against-th.webp "A boat show at the marina with yachts against the downtown skyline.")
+:::
 
 | Place | Government | Setting and water |
 |---|---|---|
@@ -3780,6 +3843,13 @@ For more on West Palm Beach itself, see [what it's really like living in West Pa
 ## Downtown in brief
 
 The [Downtown Development Authority](https://downtownwpb.com/explore/dining/) says downtown is home to more than 70 restaurants, and it keeps a directory of them. Clematis Street runs west from the waterfront at Flagler Drive, and CityPlace, centered on South Rosemary Avenue, keeps its own [restaurant directory](https://www.cityplace.com/west-palm-beach-restaurants).
+
+::: gallery
+![Mediterranean Revival plaza with clock tower, terracotta roofs, and outdoor café patio framed by palms](/images/west-palm-beach/wpb-a-mediterranean-revival-plaza-with-a-clock-tower.webp "A Mediterranean Revival plaza with a clock tower and outdoor cafe patios.")
+![Open-air shopping plaza courtyard with marble fountain plaza, palm trees, and sculptural tree centerpiece](/images/west-palm-beach/wpb-an-open-air-plaza-courtyard-with-a-marble-founta.webp "An open-air plaza courtyard with a marble fountain, palm trees and sculpture. || Photo: Discover The Palm Beaches")
+![Open-air Mediterranean Revival plaza with interactive fountain, clock tower building, and outdoor cafe seating at golden hour](/images/west-palm-beach/wpb-an-open-air-plaza-with-an-interactive-fountain-a.webp "An open-air plaza with an interactive fountain and a clock-tower building. || Photo: Discover The Palm Beaches")
+![Elevated view of a Mediterranean-style outdoor shopping plaza with central lawn, fountain, and palm-lined courtyard](/images/west-palm-beach/wpb-an-elevated-view-of-an-outdoor-shopping-plaza-wi.webp "An elevated view of an outdoor shopping plaza with a central lawn and fountain. || Photo: Discover The Palm Beaches")
+:::
 
 For block-by-block downtown planning, our sister site CondoWPB.com covers [downtown restaurants](https://www.condowpb.com/lifestyle/dining-downtown-wpb), [Clematis Street entertainment](https://www.condowpb.com/lifestyle/clematis-street-entertainment) and the [Nora District](https://www.condowpb.com/lifestyle/nora-district-dining) in more depth.
 
@@ -5320,6 +5390,13 @@ So let's talk like neighbors about how the place actually works, and about the t
 
 This is the single most misunderstood thing about the market here, and getting it wrong costs people money.
 
+::: gallery
+![Aerial view of South Florida barrier-island coastline with beachfront high-rise condos, Intracoastal Waterway, and turquoise Atlantic](/images/boca-raton/boca-gal-00-the-boca-raton-coastline-from-above-the-atlantic.webp "The Boca Raton coastline from above: the Atlantic beach, the Intracoastal Waterway and beachfront high-rises. || Photo: Discover The Palm Beaches")
+![Aerial panorama of a coastal South Florida downtown corridor with Atlantic Ocean horizon](/images/boca-raton/boca-gal-06-downtown-boca-raton-from-above-looking-east-towa.webp "Downtown Boca Raton from above, looking east toward the Atlantic. || Photo: Discover The Palm Beaches")
+![Beach view framed by coconut palms with boardwalk and lifeguard tower](/images/boca-raton/boca-gal-15-a-beach-boardwalk-lined-with-coconut-palms-with-.webp "A beach boardwalk lined with coconut palms, with a lifeguard tower beyond. || Photo: Discover The Palm Beaches")
+![Beach boardwalk with coconut palms and ocean view](/images/boca-raton/boca-gal-20-a-beach-boardwalk-with-coconut-palms-and-an-ocea.webp "A beach boardwalk with coconut palms and an ocean view. || Photo: Discover The Palm Beaches")
+:::
+
 **"East Boca" and "West Boca" are informal real-estate terms, not official municipal districts.** The City of Boca Raton has irregular boundaries, and the broader Boca mailing area includes unincorporated Palm Beach County. A "Boca Raton, FL" address does not, by itself, tell you that a property is inside the city.
 
 That distinction is not cosmetic. Before you buy, verify for the exact address:
@@ -5465,6 +5542,13 @@ If you want help working through any of it on a specific address, that's exactly
 
 East Boca generally refers to the coastal and downtown side of the area: the beach parks, the A1A corridor, **Mizner Park**, Royal Palm Place, and the older neighborhoods around them. The inland side includes neighborhoods both inside the City and in unincorporated Palm Beach County, and it is where most of the gated and golf communities sit. **Florida Atlantic University** anchors the middle of the city, with a mix of housing, university facilities, and office space around it.
 
+::: gallery
+![Aerial of barrier-island coastline with Intracoastal Waterway, coastal hammock, sandy beach and high-rise condo towers](/images/boca-raton/boca-gal-02-a-barrier-island-between-the-intracoastal-waterw.webp "A barrier island between the Intracoastal Waterway and the Atlantic, with coastal hammock. || Photo: Discover The Palm Beaches")
+![Waterfront promenade park with young palms, brick-paver walkway and Intracoastal views](/images/boca-raton/boca-gal-18-a-waterfront-promenade-park-with-young-palms-and.webp "A waterfront promenade park with young palms and a brick-paver walkway beside the Intracoastal. || Photo: Discover The Palm Beaches")
+![Mediterranean Revival civic building with gold dome cupola, framed by royal palms](/images/boca-raton/boca-gal-25-the-boca-raton-historical-society-building-a-med.webp "The Boca Raton Historical Society building, a Mediterranean Revival civic building with a gold-domed cupola. || Photo: Discover The Palm Beaches")
+![Elevated observation deck view over coastal mangrove canopy to Intracoastal Waterway](/images/boca-raton/boca-gal-38-the-view-from-an-elevated-observation-deck-over-.webp "The view from an elevated observation deck over the mangrove canopy to the Intracoastal.")
+:::
+
 **Town Center at Boca Raton sits on the Glades Road corridor between I-95 and the Turnpike** — not west of the Turnpike, which is a common mix-up and one worth getting right if you are judging a commute by where the mall is.
 
 What I would not do is treat those labels as a price map. East is not universally pricier and the inland side is not broadly cheaper. Waterfront homes, country-club communities, condominiums, and inland single-family neighborhoods all carry substantially different purchase prices *and* different recurring costs, and you will find a wide range on both sides of the highway. Price the specific property, dues and assessments included.
@@ -5603,6 +5687,13 @@ If you want a hand working through any of that for a specific property, that is 
     body: `Boca Raton includes waterfront, historic, condominium, and private-club communities, while the commonly used term "West Boca" can cover addresses in both the City of Boca Raton and unincorporated Palm Beach County. Rather than naming one universal "best" neighborhood, it is more useful to compare the property type, location, association obligations, and address-specific due diligence that fit what you are looking for.
 
 What follows is a guide to **representative neighborhood and community types**, not an exhaustive ranking and not a list of every community in the area. Every figure that matters — dues, membership terms, insurance, taxes, water access — is property-specific and has to be verified in writing for the individual address.
+
+::: gallery
+![Aerial view of oceanfront resort and condo towers along a South Florida barrier-island coastline with inlet jetty](/images/boca-raton/boca-gal-14-oceanfront-towers-along-the-barrier-island-seen-.webp "Oceanfront towers along the barrier island, seen from above. || Photo: Discover The Palm Beaches")
+![Aerial of oceanfront high-rise condos between the Intracoastal Waterway and Atlantic coastline](/images/boca-raton/boca-gal-04-oceanfront-high-rise-condos-between-the-intracoa.webp "Oceanfront high-rise condos between the Intracoastal Waterway and the Atlantic. || Photo: Discover The Palm Beaches")
+![Mediterranean Revival shopping plaza with ochre bell tower, royal palms and bougainvillea](/images/boca-raton/boca-gal-30-a-mediterranean-revival-shopping-plaza-with-a-be.webp "A Mediterranean Revival shopping plaza with a bell tower and royal palms. || Photo: Discover The Palm Beaches")
+![Aerial view of Atlantic coastline with beach, golf course, and distant high-rise skyline](/images/boca-raton/boca-gal-07-the-atlantic-coastline-with-its-beach-a-golf-cou.webp "The Atlantic coastline with its beach, a golf course and distant high-rises. || Photo: Discover The Palm Beaches")
+:::
 
 ## Private waterfront communities: Royal Palm Yacht & Country Club and The Sanctuary
 
@@ -5760,6 +5851,13 @@ Two are worth opening before any trip at all: the City's [beach parks and curren
 ## Mizner Park: shops, dining, museum, and amphitheater
 
 Mizner Park is the open-air center of downtown — shops, restaurants, and cafés arranged along a central green, built to be walked rather than parked in front of.
+
+::: gallery
+![Outdoor concert in a Mediterranean-style town center plaza at dusk](/images/boca-raton/boca-gal-27-an-outdoor-concert-in-the-mizner-park-plaza-at-d.webp "An outdoor concert in the Mizner Park plaza at dusk. || Photo: Discover The Palm Beaches")
+![Illuminated vintage-style carousel at twilight](/images/boca-raton/boca-gal-28-a-carousel-lit-up-at-twilight-at-sugar-sand-park.webp "A carousel lit up at twilight at Sugar Sand Park. || Photo: Discover The Palm Beaches")
+![Beach access boardwalk with palm trees and lifeguard tower overlooking turquoise Atlantic](/images/boca-raton/boca-gal-09-a-beach-access-boardwalk-with-palm-trees-and-a-l.webp "A beach access boardwalk with palm trees and a lifeguard tower. || Photo: Discover The Palm Beaches")
+![Public beach with lifeguard tower and dune vegetation under dramatic sky](/images/boca-raton/boca-gal-26-spanish-river-park-s-atlantic-side-beach-with-a-.webp "Spanish River Park's Atlantic-side beach, with a lifeguard tower and dune vegetation. || Photo: Discover The Palm Beaches")
+:::
 
 Two institutions anchor it. The **Boca Raton Museum of Art** sits at the north end at 501 Plaza Real, with a permanent collection, rotating exhibitions, and an art school on the same creative campus. The **Mizner Park Amphitheater** beside it carries concerts, City events, and festival programming through the year.
 
@@ -5949,6 +6047,13 @@ If you're weighing Boca as somewhere to live rather than visit, our [Boca Raton 
 
 This is one of the strongest single arguments for the city. Boca offers an unusually wide range — public, magnet, charter, and a substantial private school corridor — within a relatively compact area.
 
+::: gallery
+![Aerial view of a barrier-island beach with turquoise surf, dune vegetation, and the Intracoastal waterway](/images/boca-raton/boca-gal-08-a-barrier-island-beach-with-turquoise-surf-and-d.webp "A barrier-island beach with turquoise surf and dune vegetation, from above. || Photo: Discover The Palm Beaches")
+![Beach boardwalk walkover leading to a sunny public beach with palm trees and turquoise Atlantic](/images/boca-raton/boca-gal-10-a-boardwalk-walkover-leading-to-a-sunny-public-b.webp "A boardwalk walkover leading to a sunny public beach. || Photo: Discover The Palm Beaches")
+![Leatherback sea turtle hatchling crawling toward the ocean on a beach at dusk](/images/boca-raton/boca-gal-32-a-leatherback-sea-turtle-hatchling-crawling-towa.webp "A leatherback sea turtle hatchling crawling toward the ocean at dusk. || Photo: Discover The Palm Beaches")
+![Wooden lifeguard tower #9 on a sandy beach with green metal roof](/images/boca-raton/boca-gal-21-a-wooden-lifeguard-tower-on-a-sandy-beach.webp "A wooden lifeguard tower on a sandy beach. || Photo: Discover The Palm Beaches")
+:::
+
 For buyers relocating from somewhere with one realistic option, having genuine choice is a meaningful difference. Verify current assignments with the School District of Palm Beach County for any specific address, since boundaries and grades are reviewed annually.
 
 ### You want club life
@@ -6125,6 +6230,13 @@ Neither is better. But the cost of getting it wrong is high enough to be honest 
 
 The strongest single argument. Public, magnet, charter, and a large private school corridor, all within a relatively compact area. For households used to having one realistic option, genuine choice is a substantial difference.
 
+::: gallery
+![Aerial of barrier island between Intracoastal Waterway and Atlantic Ocean with coastal highway and high-rise condos](/images/boca-raton/boca-gal-03-a-barrier-island-between-the-intracoastal-waterw.webp "A barrier island between the Intracoastal Waterway and the Atlantic Ocean, from above. || Photo: Discover The Palm Beaches")
+![Top-down aerial of a sandy beach, dune vegetation, and turquoise surf](/images/boca-raton/boca-gal-12-a-sandy-beach-with-dune-vegetation-and-turquoise.webp "A sandy beach with dune vegetation and turquoise surf, shot from directly above. || Photo: Discover The Palm Beaches")
+![Rocky limestone outcrop in turquoise surf with gentle shore break](/images/boca-raton/boca-gal-16-a-rocky-limestone-outcrop-in-turquoise-surf.webp "A rocky limestone outcrop in turquoise surf. || Photo: Discover The Palm Beaches")
+![Aerial view of a Florida beach with turquoise surf, rock outcrop, and beachgoers under blue umbrellas](/images/boca-raton/boca-gal-13-a-florida-beach-with-turquoise-surf-a-rock-outcr.webp "A Florida beach with turquoise surf, a rock outcrop and beachgoers, from above. || Photo: Discover The Palm Beaches")
+:::
+
 Grades and boundaries are reviewed annually — verify current assignments with the district for any specific address.
 
 ### Planning and upkeep
@@ -6286,6 +6398,13 @@ For anyone wanting funky, walkable, or genuinely affordable, the cons will domin
     body: `## Housing — and the east/west gap
 
 Coastal and east Boca command a substantial premium: older housing, architectural character, walkability, and proximity to the beach parks and Mizner Park.
+
+::: gallery
+![Rocky outcrop in turquoise Atlantic surf with sandy beach foreground](/images/boca-raton/boca-gal-22-a-rocky-outcrop-in-the-atlantic-surf-with-a-sand.webp "A rocky outcrop in the Atlantic surf with a sandy beach in the foreground. || Photo: Discover The Palm Beaches")
+![Top-down drone view of a sandy beach with turquoise surf and dune-vegetation boardwalk](/images/boca-raton/boca-gal-11-a-sandy-beach-with-turquoise-surf-and-dune-veget.webp "A sandy beach with turquoise surf and dune-vegetation boardwalks, shot from directly above. || Photo: Discover The Palm Beaches")
+![Polished stainless-steel abstract sculpture on manicured lawn with modernist campus building and reflecting pond](/images/boca-raton/boca-gal-33-a-polished-stainless-steel-sculpture-on-a-manicu.webp "A polished stainless-steel sculpture on a manicured lawn. || Photo: Discover The Palm Beaches")
+![Large coastal-wildlife tile mosaic mural on a building wall](/images/boca-raton/boca-gal-36-a-large-coastal-wildlife-tile-mosaic-mural-on-a-.webp "A large coastal-wildlife tile mosaic mural on a building wall. || Photo: Discover The Palm Beaches")
+:::
 
 **West Boca is a different market entirely.** Gated golf communities and the large concentration of age-restricted 55+ communities out there offer meaningfully more attainable pricing, often with newer construction and more square footage.
 
@@ -6583,6 +6702,12 @@ Three stops, all from this guide — one of each kind.
 ## Why these matter
 
 Boca gets dismissed as a shopping city with good weather. The dismissal is understandable from the main roads and completely wrong.
+
+::: gallery
+![Lakeside lawn with live oaks, fountain, and outdoor market tents](/images/boca-raton/boca-gal-37-a-lakeside-lawn-with-live-oaks-and-a-fountain.webp "A lakeside lawn with live oaks and a fountain. || Photo: Discover The Palm Beaches")
+![Boca Raton city sign monument framed by royal palms with motion-blurred traffic in foreground](/images/boca-raton/boca-gal-24-a-boca-raton-city-sign-framed-by-royal-palms.webp "A Boca Raton city sign framed by royal palms. || Photo: Discover The Palm Beaches")
+![Aerial of barrier-island coastline with Atlantic beach, golf course, Intracoastal Waterway and waterfront estates](/images/boca-raton/boca-gal-01-a-barrier-island-with-an-atlantic-beach-a-golf-c.webp "A barrier island with an Atlantic beach, a golf course and the Intracoastal Waterway, from above. || Photo: Discover The Palm Beaches")
+:::
 
 The places on this list — a lagoon-side park with tunnels to the beach, a hammock boardwalk and a wetland boardwalk, a reef trail you can reach from the sand, a real art museum, and a university with an open calendar — are what make the city livable rather than just comfortable.
 
@@ -7030,6 +7155,11 @@ That east/west split mirrors the city's housing split almost exactly, and which 
 ## Living here changes how you eat out
 
 Worth naming, because it changes the math for a large share of Boca residents.
+
+::: gallery
+![Illuminated stone fountain in a Mediterranean-style outdoor shopping plaza at dusk](/images/boca-raton/boca-gal-23-an-illuminated-stone-fountain-in-a-mediterranean.webp "An illuminated stone fountain in a Mediterranean-style outdoor plaza at dusk. || Photo: Discover The Palm Beaches")
+![Evening outdoor dining at a restaurant with neon 'KAPOW!' sign and red patio umbrellas](/images/boca-raton/boca-gal-29-evening-outdoor-dining-with-red-patio-umbrellas.webp "Evening outdoor dining with red patio umbrellas. || Photo: Discover The Palm Beaches")
+:::
 
 > If you buy into a golf-and-country-club community, you likely have a food and beverage minimum — an annual amount you're required to spend at club dining. A meaningful part of your restaurant budget is committed before you choose anywhere else.
 
@@ -18598,6 +18728,13 @@ Those are genuinely different lives on the same strip of sand. There's a corrido
 
 For a great many residents this is exactly right. The association looks after the exterior, the grounds, the pool and the common areas, and plenty of owners value being able to lock the door and travel. That convenience comes with the building's finances and rules attached, which is why the building deserves as much scrutiny as the unit.
 
+::: gallery
+![Aerial view of a wide white-sand beach with blue umbrellas and high-rise condo towers along the Atlantic shoreline](/images/singer-island/si-gal-03-singer-island-s-beach-from-above-with-oceanf.webp "Singer Island's beach from above, with oceanfront high-rise condominiums. || Photo: Discover The Palm Beaches")
+![Sunrise over the Atlantic from a wooden beach boardwalk with rope railings](/images/singer-island/si-gal-16-sunrise-from-a-beach-boardwalk-with-rope-rai.webp "Sunrise from a beach boardwalk with rope railings.")
+![High-rise aerial view of waterfront residential neighborhood and intracoastal at sunset](/images/singer-island/si-gal-14-the-waterfront-neighborhoods-and-the-intraco.webp "The waterfront neighborhoods and the Intracoastal Waterway from a high-rise.")
+![Rainbow at golden hour over intracoastal waterway and port from a high-rise vantage](/images/singer-island/si-gal-36-a-rainbow-at-golden-hour-over-the-intracoast.webp "A rainbow at golden hour over the Intracoastal Waterway.")
+:::
+
 **If you're looking at a condo, you're buying into the building too.** Insurance is the clearest example. The association's master policy covers what the association is responsible for, subject to its own deductibles. Your own HO-6 policy, and whether you carry loss-assessment coverage, are separate questions for your insurance agent; one doesn't answer the other. Before you commit, ask for:
 
 - The current budget and how reserves are funded
@@ -18733,6 +18870,13 @@ If those trades sound acceptable, our [comparison with the alternatives](/blog/s
 ## The layout
 
 Singer Island is easy to read. One main road runs its length, with the Atlantic to the east and the Lake Worth Lagoon to the west.
+
+::: gallery
+![Aerial view of oceanfront high-rise condominium towers along a barrier-island beach with turquoise Atlantic water](/images/singer-island/si-gal-00-oceanfront-high-rise-condominiums-along-the-.webp "Oceanfront high-rise condominiums along the barrier island, from above. || Photo: Discover The Palm Beaches")
+![Beach boardwalk path flanked by coconut palms leading to ocean, with lifeguard tower](/images/singer-island/si-gal-19-a-beach-boardwalk-lined-with-coconut-palms-l.webp "A beach boardwalk lined with coconut palms leading to the ocean.")
+![Marina with moored boats and red lighthouse across the inlet](/images/singer-island/si-gal-12-a-marina-and-a-red-lighthouse-across-the-inl.webp "A marina and a red lighthouse across the inlet.")
+![Elevated view of a wide intracoastal lagoon with mangrove shoreline, coastal road, and lush tropical landscaping beneath dramatic cumulus clouds](/images/singer-island/si-gal-41-an-elevated-view-of-a-wide-intracoastal-lago.webp "An elevated view of a wide Intracoastal lagoon with a mangrove shoreline.")
+:::
 
 - **The north end** borders John D. MacArthur Beach State Park, which is in North Palm Beach.
 - **The middle** holds the condominium corridor and the city beach at Ocean Walk, with the house streets of Palm Beach Isles and Yacht Harbor on the lagoon side.
@@ -18908,6 +19052,13 @@ For the quieter side of the island, the [local finds](/blog/hidden-gems-in-singe
 
 The decision usually starts with a handful of questions:
 
+::: gallery
+![Oceanfront high-rise condominium tower with pool, tennis court, and beach](/images/singer-island/si-gal-20-an-oceanfront-high-rise-condominium-with-a-p.webp "An oceanfront high-rise condominium with a pool, tennis court and beach.")
+![Curved white oceanfront high-rise condominium tower overlooking the Atlantic coastline and beach](/images/singer-island/si-gal-27-a-curved-white-oceanfront-high-rise-overlook.webp "A curved white oceanfront high-rise overlooking the Atlantic.")
+![High-rise condo towers overlooking a waterway, inlet, and coastal neighborhood from an elevated balcony vantage](/images/singer-island/si-gal-59-high-rise-condominium-towers-overlooking-a-w.webp "High-rise condominium towers overlooking a waterway, the inlet and a coastal neighborhood.")
+![High-floor balcony view of oceanfront condo towers and Atlantic beach](/images/singer-island/si-gal-58-a-high-floor-balcony-view-of-oceanfront-cond.webp "A high-floor balcony view of oceanfront condominium towers and the beach.")
+:::
+
 - **Single-family house or condominium?**
 - **Oceanfront, or the Intracoastal and canal side?**
 - **Direct beach access, or a boat and a dock?**
@@ -19049,6 +19200,13 @@ Whatever you choose, verify flood zone, elevation, municipality, evacuation zone
 ## Before you go
 
 Conditions, hours and access change. These are the pages to check on the day:
+
+::: gallery
+![Wooden beach boardwalk through sea grape dunes at sunrise](/images/singer-island/si-gal-08-a-wooden-beach-boardwalk-through-sea-grape-d.webp "A wooden beach boardwalk through sea grape dunes at sunrise.")
+![Manatee swimming in clear turquoise marina water with yachts and a palm-lined island behind](/images/singer-island/si-gal-39-a-manatee-swimming-in-clear-marina-water.webp "A manatee swimming in clear marina water.")
+![Yellow two-story waterfront eco-discovery center at dusk with white columns and railed boardwalk](/images/singer-island/si-gal-51-manatee-lagoon-a-waterfront-discovery-center.webp "Manatee Lagoon, a waterfront discovery center, at dusk. || Photo: Discover The Palm Beaches")
+![Beach access sand path through sea grape dune vegetation](/images/singer-island/si-gal-49-a-beach-access-path-through-sea-grape-dune-v.webp "A beach access path through sea grape dune vegetation. || Photo: Discover The Palm Beaches")
+:::
 
 - **Phil Foster Park and the snorkel trail:** [Palm Beach County: Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [snorkel trail guide (PDF)](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf).
 - **Beach conditions and water safety:** [Palm Beach County: About our beaches](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx).
@@ -19254,6 +19412,13 @@ After that, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida
 
 Singer Island gives residents two bridge-dependent routes toward Riviera Beach/West Palm Beach and Palm Beach Gardens. The practical experience depends on the exact building, destination, bridge openings, road work, time of day, and season. Test the routes that matter to you in the conditions when you will actually use them.
 
+::: gallery
+![Wide sandy beach with oceanfront high-rise condominium towers under a dramatic cloudy sky](/images/singer-island/si-gal-85-a-wide-sandy-beach-with-oceanfront-high-rise.webp "A wide sandy beach with oceanfront high-rise condominium towers under a dramatic sky.")
+![Elevated oceanfront view of a white high-rise condo tower, pool, tennis court, palms, and Atlantic beach](/images/singer-island/si-gal-21-an-elevated-oceanfront-view-of-a-white-high-.webp "An elevated oceanfront view of a white high-rise condominium with a pool, tennis court and beach.")
+![Twilight ocean view between two high-rise condo towers with beach and dune vegetation](/images/singer-island/si-gal-74-a-twilight-ocean-view-between-two-high-rise-.webp "A twilight ocean view between two high-rise towers, with beach and dune vegetation.")
+![Empty Atlantic beach with rolling surf and towering cumulus clouds under deep blue sky](/images/singer-island/si-gal-75-an-empty-atlantic-beach-with-rolling-surf-un.webp "An empty Atlantic beach with rolling surf under towering clouds.")
+:::
+
 ![The Blue Heron Bridge crossing the Lake Worth Lagoon on concrete piers, with high-rises in the distance](/images/singer-island/blue-heron-bridge-lagoon.webp "The Blue Heron Bridge over the Lake Worth Lagoon, one of the island's two routes to the mainland. || Photo by John Oliver"){1400x1050}
 
 For longer trips, [Brightline](https://www.gobrightline.com/) passenger rail serves a station in West Palm Beach. Check its current routes and schedules if rail travel is part of your plan.
@@ -19365,6 +19530,13 @@ A practical test: if reading an association's budget, reserves and minutes sound
     body: `Singer Island can be exceptional for someone who wants the Atlantic to shape daily life: the beach before work, the water in view, the ocean as the backdrop to ordinary days.
 
 But the decision rarely turns on the view. It turns on the building's documents, the real cost of ownership, the daily logistics of a barrier island, and whether a condominium or a house is the right kind of home for you.
+
+::: gallery
+![Blue beach umbrella and two striped lounge chairs on an empty sandy beach](/images/singer-island/si-gal-18-a-blue-beach-umbrella-and-two-striped-lounge.webp "A blue beach umbrella and two striped lounge chairs on an empty sandy beach.")
+![Ocean shoreline at sunrise/sunset with rocky outcrop and breaking waves](/images/singer-island/si-gal-37-a-rocky-outcrop-and-breaking-waves-along-the.webp "A rocky outcrop and breaking waves along the shoreline.")
+![Sunrise sky over calm Atlantic Ocean from the beach](/images/singer-island/si-gal-65-a-sunrise-sky-over-a-calm-atlantic-ocean.webp "A sunrise sky over a calm Atlantic Ocean.")
+![Sunrise over the open ocean with scattered low clouds on the horizon](/images/singer-island/si-gal-53-sunrise-over-the-open-ocean-with-scattered-l.webp "Sunrise over the open ocean with scattered low clouds.")
+:::
 
 ## What you are genuinely getting
 
@@ -19530,6 +19702,13 @@ If you've done all six and still want to wake up on the Atlantic, Singer Island 
     body: `On Singer Island, the purchase price tells you surprisingly little about what it costs to own. The real number is the total cost of ownership: taxes, insurance, association fees and reserves, upkeep, and the costs that can change after you buy.
 
 That number depends on the exact property: condominium or house, which municipality, which building, and how you plan to use it. What follows is a framework for finding it. Which items apply, and how much each costs, varies by property.
+
+::: gallery
+![Elevated oceanfront view of turquoise Atlantic, sandy beach, palm tree and condo tower edge](/images/singer-island/si-gal-54-an-elevated-oceanfront-view-of-the-turquoise.webp "An elevated oceanfront view of the turquoise Atlantic, the beach and a palm tree.")
+![Elevated oceanfront view of Atlantic Ocean, sandy beach and surf line from a high-rise balcony](/images/singer-island/si-gal-24-an-oceanfront-view-of-the-atlantic-the-sandy.webp "An oceanfront view of the Atlantic, the sandy beach and the surf line from a high floor.")
+![Elevated oceanfront view of Atlantic coastline from high-rise balcony](/images/singer-island/si-gal-62-an-elevated-view-of-the-atlantic-coastline-f.webp "An elevated view of the Atlantic coastline from a high-rise balcony.")
+![Oceanfront high-rise condo tower with beach and turquoise Atlantic from an elevated balcony view](/images/singer-island/si-gal-63-an-oceanfront-high-rise-condominium-with-the.webp "An oceanfront high-rise condominium with the beach and turquoise Atlantic.")
+:::
 
 ## Housing: compare ownership models, not markets
 
@@ -19705,6 +19884,13 @@ None of it is secret, and none of it comes with a promise of solitude. Some of t
 **Ocean Reef Park.** *On Singer Island.* A Palm Beach County park in Riviera Beach where the county notes snorkeling is available within the lifeguard-protected swimming area. Conditions vary day to day; check the flags and [the park's page](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) first.
 
 Neither is an every-day activity. The same spot can be excellent one morning and unsuitable the next, so plan around current conditions rather than the calendar.
+
+::: gallery
+![Manatee swimming in clear turquoise marina water with yachts and palm-lined island in background](/images/singer-island/si-gal-40-a-manatee-swimming-in-clear-turquoise-marina.webp "A manatee swimming in clear turquoise marina water.")
+![Visitors watching manatees from an elevated viewing deck](/images/singer-island/si-gal-89-visitors-watching-manatees-from-an-elevated-.webp "Visitors watching manatees from an elevated viewing deck. || Photo: Discover The Palm Beaches")
+![Sailboat passing a modern waterfront estate at golden hour](/images/singer-island/si-gal-17-a-sailboat-passing-a-modern-waterfront-home-.webp "A sailboat passing a modern waterfront home at golden hour.")
+![Sportfishing yacht running an inlet past a rock jetty at golden hour, with a modern waterfront estate on the far shore](/images/singer-island/si-gal-88-a-sportfishing-boat-running-the-inlet-past-a.webp "A sportfishing boat running the inlet past a rock jetty at golden hour.")
+:::
 
 ## A quiet lagoon day: Munyon Island
 
@@ -19921,6 +20107,13 @@ Singer Island is one option in that set. It's the right choice for some buyers a
 
 Singer Island, Juno Beach, Jupiter and Palm Beach all put the Atlantic close by, in different forms.
 
+::: gallery
+![Aerial view of a coastal barrier-island community with high-rise condos, marina and anchored sailboats](/images/singer-island/si-gal-02-a-coastal-barrier-island-community-with-high.webp "A coastal barrier-island community with high-rise condominiums and a marina, from above. || Photo: Discover The Palm Beaches")
+![Aerial view of a barrier-island beach with oceanfront high-rise condominium towers](/images/singer-island/si-gal-04-a-barrier-island-beach-with-oceanfront-high-.webp "A barrier-island beach with oceanfront high-rise condominiums, from above. || Photo: Discover The Palm Beaches")
+![Elevated view over Intracoastal Waterway with anchored sailboats, marina docks and tropical waterfront](/images/singer-island/si-gal-31-an-elevated-view-over-the-intracoastal-water.webp "An elevated view over the Intracoastal Waterway with anchored sailboats and marina docks.")
+![Elevated view over a sparkling Intracoastal-style waterway with moored sailboats, a motor yacht leaving a wake, and a low barrier island with homes on the far shore](/images/singer-island/si-gal-66-a-sparkling-intracoastal-style-waterway-with.webp "A sparkling Intracoastal-style waterway with moored sailboats.")
+:::
+
 - **Housing forms differ.** On Singer Island, much of the oceanfront living is in condominium towers. Nearby beach communities offer their own mix of condominiums, townhomes and single-family homes.
 - **Density and building type shape daily life.** A tower with shared amenities and a low-rise building or a house on a street feel different even a few blocks from the same beach.
 - **Beach access is property-specific.** Some buildings have their own access; elsewhere you may walk or drive to a public access point. Check how it works from the exact address.
@@ -20115,6 +20308,13 @@ This guide covers seven places across those three areas. Each card says what the
 ## Build your Singer Island night
 
 Three pairings, each kept to one part of the island.
+
+::: gallery
+![Vivid orange sunset over waterway seen from a high-rise balcony](/images/singer-island/si-gal-35-a-vivid-orange-sunset-over-the-waterway-from.webp "A vivid orange sunset over the waterway from a high-rise balcony.")
+![Vivid orange sunset over an intracoastal waterway with marina and bridge](/images/singer-island/si-gal-77-an-orange-sunset-over-the-intracoastal-with-.webp "An orange sunset over the Intracoastal with a marina and bridge.")
+![Marina at sunset with docked sport-fishing boats on lifts](/images/singer-island/si-gal-38-a-marina-at-sunset-with-sportfishing-boats-o.webp "A marina at sunset with sportfishing boats on lifts.")
+![Sunset over a marina/waterway seen from a bridge walkway](/images/singer-island/si-gal-55-sunset-over-a-marina-and-waterway-from-a-bri.webp "Sunset over a marina and waterway from a bridge walkway.")
+:::
 
 ### A marina evening in Palm Beach Shores
 
@@ -34125,6 +34325,13 @@ The [North Palm Beach Library](https://www.village-npb.org/1079/Library) at 303 
 ## Nearby Beaches and Nature Destinations
 
 North Palm Beach is on the mainland and has no Atlantic beach. The places below are **outside the Village** unless noted, with their own owners and rules. We give no drive times, which change with traffic, bridges and season.
+
+::: gallery
+![Aerial view of a narrow barrier island with a mangrove-covered lagoon, a long sandy beach and turquoise Atlantic surf beside the Intracoastal Waterway](/images/north-palm-beach/macarthur-beach-aerial-shoreline.webp "An aerial view of John D. MacArthur Beach State Park, listed with a North Palm Beach mailing address. || Photo: Discover The Palm Beaches")
+![Aerial view of turquoise Atlantic surf along an undeveloped barrier-island beach with the Intracoastal Waterway behind it](/images/north-palm-beach/macarthur-beach-aerial-surf.webp "The park's Atlantic shoreline from above. || Photo: Discover The Palm Beaches")
+![A wooden boardwalk leading through coastal dunes to the Atlantic shoreline](/images/north-palm-beach/macarthur-beach-boardwalk-dunes.webp "A boardwalk through the dunes to the beach. || Photo: Discover The Palm Beaches")
+![A long wooden boardwalk pier over a coastal lagoon lined with mangroves](/images/north-palm-beach/macarthur-beach-lagoon-pier.webp "A boardwalk over the lagoon's mangroves. || Photo: Discover The Palm Beaches")
+:::
 
 - **[John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park)**, 10900 Jack Nicklaus Drive, is a state park with a nature center, trails and an entrance fee; see the [hours and fees page](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park/hours-fees). It carries a North Palm Beach mailing address, but it is a state facility. We could not confirm from the state's pages whether the land lies inside the Village.
 - **Singer Island** has county beach parks, including [Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) and [Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx), which are outside the Village. Phil Foster requires a permit for boat-trailer parking; check each page for parking and fees.
