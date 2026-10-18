@@ -18874,7 +18874,7 @@ Singer Island is easy to read. One main road runs its length, with the Atlantic 
 ::: gallery
 ![Aerial view of oceanfront high-rise condominium towers along a barrier-island beach with turquoise Atlantic water](/images/singer-island/si-gal-00-oceanfront-high-rise-condominiums-along-the-.webp "Oceanfront high-rise condominiums along the barrier island, from above. || Photo: Discover The Palm Beaches")
 ![Beach boardwalk path flanked by coconut palms leading to ocean, with lifeguard tower](/images/singer-island/si-gal-19-a-beach-boardwalk-lined-with-coconut-palms-l.webp "A beach boardwalk lined with coconut palms leading to the ocean.")
-![Marina with moored boats and red lighthouse across the inlet](/images/singer-island/si-gal-12-a-marina-and-a-red-lighthouse-across-the-inl.webp "A marina and a red lighthouse across the inlet.")
+![Superyachts docked at sunset with sunburst behind clouds](/images/singer-island/si-gal-25-superyachts-docked-at-a-marina-at-sunset.webp "Superyachts docked at a marina at sunset.")
 ![Elevated view of a wide intracoastal lagoon with mangrove shoreline, coastal road, and lush tropical landscaping beneath dramatic cumulus clouds](/images/singer-island/si-gal-41-an-elevated-view-of-a-wide-intracoastal-lago.webp "An elevated view of a wide Intracoastal lagoon with a mangrove shoreline.")
 :::
 
