@@ -150,28 +150,6 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
         </div>
       </section>
 
-      {/* Market */}
-      {trends && (
-        <section className="bg-slate-50 px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-market">
-          <div className="mx-auto max-w-7xl">
-            <p className={eyebrow}>Market context</p>
-            <h2 id="village-market" className={h2}>Jupiter market context</h2>
-            <p className="mt-3 max-w-3xl text-slate-600">
-              This feed reports Jupiter as a whole, not {v.name}. Use it for direction, then compare
-              recent sales inside the village. <span className="font-semibold text-slate-700"><AbacoaRetrieved /></span>.
-            </p>
-            <div className="mt-6 min-w-0">
-              <MarketTrendsBlock
-                city={trends.city}
-                heading="Jupiter, FL market trends"
-                caption="Live Ylopo market data for Jupiter, FL. Individual villages are not reported separately."
-                frameClassName="mt-4"
-              />
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* About */}
       <section className="px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-about">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
@@ -199,6 +177,28 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
           </div>
         </div>
       </section>
+
+      {/* Market */}
+      {trends && (
+        <section className="bg-slate-50 px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-market">
+          <div className="mx-auto max-w-7xl">
+            <p className={eyebrow}>Market context</p>
+            <h2 id="village-market" className={h2}>Jupiter market context</h2>
+            <p className="mt-3 max-w-3xl text-slate-600">
+              This feed reports Jupiter as a whole, not {v.name}. Use it for direction, then compare
+              recent sales inside the village. <span className="font-semibold text-slate-700"><AbacoaRetrieved /></span>.
+            </p>
+            <div className="mt-6 min-w-0">
+              <MarketTrendsBlock
+                city={trends.city}
+                heading="Jupiter, FL market trends"
+                caption="Live Ylopo market data for Jupiter, FL. Individual villages are not reported separately."
+                frameClassName="mt-4"
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Gallery: only when the village has its own photos */}
       {gallery.length > 0 && (
