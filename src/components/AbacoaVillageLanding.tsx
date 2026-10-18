@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { getCommunityBySlug, type CommunityItem } from '@/lib/communities'
+import { getCommunityBySlug } from '@/lib/communities'
+import { VILLAGES } from '@/lib/abacoaVillages'
 import { marketTrendsCity } from '@/lib/articles'
 import MarketTrendsBlock from '@/components/MarketTrendsBlock'
 import YlopoResultsWidget from '@/components/YlopoResultsWidget'
@@ -35,44 +36,12 @@ const btnPrimary =
 const btnGhostDark =
   'inline-flex items-center justify-center rounded-full border border-white/50 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10'
 
-/** Questions answered only from data the village already carries. */
-function buildFaqs(v: CommunityItem): { q: string; a: string }[] {
-  if (v.faqs?.length) return v.faqs
-  const out: { q: string; a: string }[] = []
-  const style = v.quickFacts.find((f) => /home style/i.test(f.label))
-  const beds = v.quickFacts.find((f) => /bedrooms/i.test(f.label))
-  if (style) {
-    out.push({
-      q: `What kinds of homes are in ${v.name}?`,
-      a: `${style.value}.${beds ? ` ${beds.value}.` : ''}`,
-    })
-  }
-  const walk = v.commuteTimes?.find((c) => /town center/i.test(c.destination))
-  if (walk) {
-    out.push({
-      q: `How close is ${v.name} to Abacoa Town Center?`,
-      a: `${walk.time}. Actual distance depends on the address, so we suggest walking the route before you buy.`,
-    })
-  }
-  const schools = v.schoolList?.find((g) => /public/i.test(g.category))
-  if (schools) {
-    out.push({
-      q: `What public schools serve ${v.name}?`,
-      a: `${schools.schools.map((s) => s.name).join(', ')}. School assignments change, so confirm the current zone for any address with Palm Beach County Schools.`,
-    })
-  }
-  out.push({
-    q: `What should I ask about the HOA in ${v.name}?`,
-    a: `${v.name} is part of Abacoa, so ask for both the master association and the village association documents: dues, rental and pet rules, parking, reserves and any assessments.`,
-  })
-  return out
-}
-
 export default function AbacoaVillageLanding({ slug }: { slug: string }) {
   const v = getCommunityBySlug(slug)
-  if (!v) return null
+  const c = VILLAGES[slug]
+  if (!v || !c) return null
   const trends = marketTrendsCity('Jupiter')
-  const location = v.ylopoLocation ?? v.name
+  const location = c.listingsLocation ?? v.ylopoLocation ?? v.name
   const searchUrl =
     `${SEARCH_URL}/search?area=Jupiter&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1` +
     `&s[locations][0][neighborhood]=${encodeURIComponent(location)}&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[minPrice]=400000`
@@ -81,11 +50,12 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
     ? { src: v.photos![0], alt: `${v.name}, an Abacoa village in Jupiter, Florida`, caption: '' }
     : FALLBACK_HERO
   const gallery = (v.photos ?? []).slice(1)
-  const faqs = buildFaqs(v)
-  const siblings = (v.similarNeighborhoods ?? [])
+  const faqs = c.faqs
+  const siblings = c.related
     .map((s) => getCommunityBySlug(s))
-    .filter((c): c is CommunityItem => Boolean(c))
-  const paras = v.overview.split('\n\n')
+    .filter((x): x is NonNullable<typeof x> => Boolean(x))
+  const h1 = c.heading ?? `${v.name} Homes for Sale`
+  const listingsName = c.listingsLocation ?? v.name
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -133,11 +103,11 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
             An Abacoa village · Jupiter, Florida
           </p>
           <h1 className="mt-3 font-serif text-5xl font-semibold leading-[1.05] text-white sm:text-6xl">
-            {v.name} Homes for Sale
+            {h1}
           </h1>
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-white/90">{v.description}</p>
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-white/90">{c.tagline}</p>
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:gap-4">
-            <a href="#listings" className={btnPrimary}>See {v.name} listings</a>
+            <a href="#listings" className={btnPrimary}>See {listingsName} listings</a>
             <Link href="/contact" className={btnGhostDark}>Speak with a local expert</Link>
           </div>
           {hero.caption && <p className="mt-5 text-xs text-white/75">Photo: {hero.caption}</p>}
@@ -150,7 +120,7 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
           <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
             <div>
               <p className={eyebrow}>Live MLS feed</p>
-              <h2 className={h2}>Homes for sale in {v.name}</h2>
+              <h2 className={h2}>{c.listingsHeading ?? `Homes for sale in ${v.name}`}</h2>
             </div>
             <a
               href={searchUrl}
@@ -158,13 +128,14 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
               rel="noopener noreferrer"
               className="text-sm font-semibold text-gold-600 underline-offset-4 hover:text-gold-700 hover:underline"
             >
-              Open the full {v.name} search →
+              Open the full {listingsName} search →
             </a>
           </div>
           <YlopoInit city="Jupiter" />
           <AbacoaListings searchUrl={searchUrl}>
             <YlopoResultsWidget city="Jupiter" neighborhood={location} minPrice={400000} limit={6} />
           </AbacoaListings>
+          {c.listingsNote && <p className="mt-3 text-sm text-slate-600">{c.listingsNote}</p>}
           <p className="mt-4 text-sm text-slate-600">
             Not seeing the right home? Browse{' '}
             <Link href="/communities/abacoa" className="font-semibold text-gold-600 hover:text-gold-700">
@@ -208,16 +179,16 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
             <p className={eyebrow}>About the village</p>
             <h2 id="village-about" className={h2}>About {v.name}</h2>
             <div className="mt-5 space-y-4 leading-8 text-slate-600">
-              {paras.map((p) => (<p key={p.slice(0, 24)}>{p}</p>))}
+              {c.story.map((p) => (<p key={p.slice(0, 24)}>{p}</p>))}
             </div>
           </div>
           <div>
             <p className={eyebrow}>Living here</p>
             <h2 className={h2}>What it’s like to live in {v.name}</h2>
-            {v.lifestyle && <p className="mt-5 leading-8 text-slate-600">{v.lifestyle}</p>}
-            {v.highlights && (
+            <p className="mt-5 leading-8 text-slate-600">{c.living}</p>
+            {c.highlights.length > 0 && (
               <ul className="mt-6 space-y-3">
-                {v.highlights.map((h) => (
+                {c.highlights.map((h) => (
                   <li key={h} className="flex items-start gap-3 text-sm leading-7 text-slate-700">
                     <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-report-gold" aria-hidden="true" />
                     {h}
@@ -251,60 +222,38 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
           <p className={eyebrow}>At a glance</p>
           <h2 id="village-glance" className={h2}>{v.name} at a glance</h2>
           <dl className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {v.quickFacts.map((f) => (
+            {c.facts.map((f) => (
               <div key={f.label} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-card">
                 <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-report-gold-text">{f.label}</dt>
                 <dd className="mt-2 text-sm leading-7 text-slate-700">{f.value}</dd>
               </div>
             ))}
           </dl>
-          {v.priceRanges && v.priceRanges.length > 0 && (
-            <p className="mt-5 text-sm text-slate-600">
-              Typical range:{' '}
-              {v.priceRanges.map((p) => `${p.type}, ${p.range}`).join('; ')}. Ranges are approximate and
-              change with the market, so ask us for a current valuation.
-            </p>
-          )}
         </div>
       </section>
 
-      {/* Schools + commute */}
+      {/* Location + schools */}
       <section className="bg-slate-50 px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-practical">
         <div className="mx-auto max-w-7xl">
           <p className={eyebrow}>The practical side</p>
-          <h2 id="village-practical" className={h2}>Schools and getting around</h2>
+          <h2 id="village-practical" className={h2}>Where it sits and schools</h2>
           <div className="mt-8 grid gap-6 lg:grid-cols-2">
-            {v.commuteTimes && (
-              <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
-                <h3 className="font-serif text-xl font-semibold text-slate-900">Getting around</h3>
-                <dl className="mt-4 divide-y divide-slate-100">
-                  {v.commuteTimes.map((c) => (
-                    <div key={c.destination} className="flex items-baseline justify-between gap-4 py-2.5 text-sm">
-                      <dt className="text-slate-600">{c.destination}</dt>
-                      <dd className="font-semibold text-slate-900">{c.time}</dd>
-                    </div>
-                  ))}
-                </dl>
-                <p className="mt-3 text-xs text-slate-500">Approximate; varies with traffic and address.</p>
-              </div>
-            )}
-            {v.schoolList && (
-              <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
-                <h3 className="font-serif text-xl font-semibold text-slate-900">Schools</h3>
-                <div className="mt-4 space-y-4">
-                  {v.schoolList.map((g) => (
-                    <div key={g.category}>
-                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-report-gold-text">{g.category}</p>
-                      <ul className="mt-2 space-y-1 text-sm text-slate-700">
-                        {g.schools.map((s) => (<li key={s.name}>{s.name}</li>))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+            <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
+              <h3 className="font-serif text-xl font-semibold text-slate-900">Where it sits</h3>
+              <ul className="mt-4 space-y-2.5 text-sm leading-7 text-slate-600">
+                {c.location.map((l) => (
+                  <li key={l} className="flex items-start gap-3">
+                    <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-report-gold" aria-hidden="true" />
+                    {l}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-4 text-xs text-slate-500">
+                Distances to Town Center, the beaches and I-95 vary by address, so we measure them for you on a tour.
+              </p>
+            </div>
+            <GreatSchoolsCard citySlug="jupiter" cityName={v.name} />
           </div>
-          <div className="mt-6"><GreatSchoolsCard citySlug="jupiter" cityName={v.name} /></div>
           <p className="mt-4 text-xs leading-6 text-slate-500">
             School assignments and boundaries change. Confirm the current zone for any address with Palm Beach County Schools.
           </p>
@@ -316,16 +265,13 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
         <div className="mx-auto max-w-7xl">
           <p className={eyebrow}>Associations</p>
           <h2 id="village-hoa" className={h2}>Before you buy in {v.name}</h2>
-          <p className="mt-3 max-w-3xl leading-8 text-slate-600">
-            Abacoa is a master-planned community of villages, and a village can have its own association
-            on top of the master one. We don’t quote fees or rules here because they differ by village
-            and change. Ask for these for the exact address:
-          </p>
+          <p className="mt-3 max-w-3xl leading-8 text-slate-600">{c.association}</p>
+          <p className="mt-4 text-sm font-semibold text-slate-900">Checklist for any address:</p>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">
-            {CHECKLIST.map((c) => (
-              <li key={c} className="flex items-start gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm leading-7 text-slate-700 shadow-card">
+            {CHECKLIST.map((item) => (
+              <li key={item} className="flex items-start gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm leading-7 text-slate-700 shadow-card">
                 <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-report-gold" aria-hidden="true" />
-                {c}
+                {item}
               </li>
             ))}
           </ul>
@@ -383,8 +329,9 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 py-10">
           <p className="text-xs leading-6 text-slate-500">
-            Community details on this page, including association rules, fees, amenities and school
-            assignments, change often and are for information only. Verify anything that matters to
+            Details on this page were compiled in October 2026 from the Abacoa Property Owners’ Assembly and
+            public listings; builders and build years are listing-derived. Association rules, fees, amenities and
+            school assignments change often and are for information only. Verify anything that matters to
             your decision directly with the association, the school district and the City of Jupiter.
             DO Homes Group at Premier Brokers International is committed to Equal Housing Opportunity.
           </p>
