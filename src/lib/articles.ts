@@ -18728,6 +18728,13 @@ Those are genuinely different lives on the same strip of sand. There's a corrido
 
 For a great many residents this is exactly right. The association looks after the exterior, the grounds, the pool and the common areas, and plenty of owners value being able to lock the door and travel. That convenience comes with the building's finances and rules attached, which is why the building deserves as much scrutiny as the unit.
 
+::: gallery
+![Aerial view of a wide white-sand beach with blue umbrellas and high-rise condo towers along the Atlantic shoreline](/images/singer-island/si-gal-03-singer-island-s-beach-from-above-with-oceanf.webp "Singer Island's beach from above, with oceanfront high-rise condominiums. || Photo: Discover The Palm Beaches")
+![Sunrise over the Atlantic from a wooden beach boardwalk with rope railings](/images/singer-island/si-gal-16-sunrise-from-a-beach-boardwalk-with-rope-rai.webp "Sunrise from a beach boardwalk with rope railings.")
+![High-rise aerial view of waterfront residential neighborhood and intracoastal at sunset](/images/singer-island/si-gal-14-the-waterfront-neighborhoods-and-the-intraco.webp "The waterfront neighborhoods and the Intracoastal Waterway from a high-rise.")
+![Rainbow at golden hour over intracoastal waterway and port from a high-rise vantage](/images/singer-island/si-gal-36-a-rainbow-at-golden-hour-over-the-intracoast.webp "A rainbow at golden hour over the Intracoastal Waterway.")
+:::
+
 **If you're looking at a condo, you're buying into the building too.** Insurance is the clearest example. The association's master policy covers what the association is responsible for, subject to its own deductibles. Your own HO-6 policy, and whether you carry loss-assessment coverage, are separate questions for your insurance agent; one doesn't answer the other. Before you commit, ask for:
 
 - The current budget and how reserves are funded
@@ -18863,6 +18870,13 @@ If those trades sound acceptable, our [comparison with the alternatives](/blog/s
 ## The layout
 
 Singer Island is easy to read. One main road runs its length, with the Atlantic to the east and the Lake Worth Lagoon to the west.
+
+::: gallery
+![Aerial view of oceanfront high-rise condominium towers along a barrier-island beach with turquoise Atlantic water](/images/singer-island/si-gal-00-oceanfront-high-rise-condominiums-along-the-.webp "Oceanfront high-rise condominiums along the barrier island, from above. || Photo: Discover The Palm Beaches")
+![Beach boardwalk path flanked by coconut palms leading to ocean, with lifeguard tower](/images/singer-island/si-gal-19-a-beach-boardwalk-lined-with-coconut-palms-l.webp "A beach boardwalk lined with coconut palms leading to the ocean.")
+![Marina with moored boats and red lighthouse across the inlet](/images/singer-island/si-gal-12-a-marina-and-a-red-lighthouse-across-the-inl.webp "A marina and a red lighthouse across the inlet.")
+![Elevated view of a wide intracoastal lagoon with mangrove shoreline, coastal road, and lush tropical landscaping beneath dramatic cumulus clouds](/images/singer-island/si-gal-41-an-elevated-view-of-a-wide-intracoastal-lago.webp "An elevated view of a wide Intracoastal lagoon with a mangrove shoreline.")
+:::
 
 - **The north end** borders John D. MacArthur Beach State Park, which is in North Palm Beach.
 - **The middle** holds the condominium corridor and the city beach at Ocean Walk, with the house streets of Palm Beach Isles and Yacht Harbor on the lagoon side.
@@ -19038,6 +19052,13 @@ For the quieter side of the island, the [local finds](/blog/hidden-gems-in-singe
 
 The decision usually starts with a handful of questions:
 
+::: gallery
+![Oceanfront high-rise condominium tower with pool, tennis court, and beach](/images/singer-island/si-gal-20-an-oceanfront-high-rise-condominium-with-a-p.webp "An oceanfront high-rise condominium with a pool, tennis court and beach.")
+![Curved white oceanfront high-rise condominium tower overlooking the Atlantic coastline and beach](/images/singer-island/si-gal-27-a-curved-white-oceanfront-high-rise-overlook.webp "A curved white oceanfront high-rise overlooking the Atlantic.")
+![High-rise condo towers overlooking a waterway, inlet, and coastal neighborhood from an elevated balcony vantage](/images/singer-island/si-gal-59-high-rise-condominium-towers-overlooking-a-w.webp "High-rise condominium towers overlooking a waterway, the inlet and a coastal neighborhood.")
+![High-floor balcony view of oceanfront condo towers and Atlantic beach](/images/singer-island/si-gal-58-a-high-floor-balcony-view-of-oceanfront-cond.webp "A high-floor balcony view of oceanfront condominium towers and the beach.")
+:::
+
 - **Single-family house or condominium?**
 - **Oceanfront, or the Intracoastal and canal side?**
 - **Direct beach access, or a boat and a dock?**
@@ -19179,6 +19200,13 @@ Whatever you choose, verify flood zone, elevation, municipality, evacuation zone
 ## Before you go
 
 Conditions, hours and access change. These are the pages to check on the day:
+
+::: gallery
+![Wooden beach boardwalk through sea grape dunes at sunrise](/images/singer-island/si-gal-08-a-wooden-beach-boardwalk-through-sea-grape-d.webp "A wooden beach boardwalk through sea grape dunes at sunrise.")
+![Manatee swimming in clear turquoise marina water with yachts and a palm-lined island behind](/images/singer-island/si-gal-39-a-manatee-swimming-in-clear-marina-water.webp "A manatee swimming in clear marina water.")
+![Yellow two-story waterfront eco-discovery center at dusk with white columns and railed boardwalk](/images/singer-island/si-gal-51-manatee-lagoon-a-waterfront-discovery-center.webp "Manatee Lagoon, a waterfront discovery center, at dusk. || Photo: Discover The Palm Beaches")
+![Beach access sand path through sea grape dune vegetation](/images/singer-island/si-gal-49-a-beach-access-path-through-sea-grape-dune-v.webp "A beach access path through sea grape dune vegetation. || Photo: Discover The Palm Beaches")
+:::
 
 - **Phil Foster Park and the snorkel trail:** [Palm Beach County: Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [snorkel trail guide (PDF)](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf).
 - **Beach conditions and water safety:** [Palm Beach County: About our beaches](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx).
@@ -19384,6 +19412,13 @@ After that, the [quieter local finds](/blog/hidden-gems-in-singer-island-florida
 
 Singer Island gives residents two bridge-dependent routes toward Riviera Beach/West Palm Beach and Palm Beach Gardens. The practical experience depends on the exact building, destination, bridge openings, road work, time of day, and season. Test the routes that matter to you in the conditions when you will actually use them.
 
+::: gallery
+![Wide sandy beach with oceanfront high-rise condominium towers under a dramatic cloudy sky](/images/singer-island/si-gal-85-a-wide-sandy-beach-with-oceanfront-high-rise.webp "A wide sandy beach with oceanfront high-rise condominium towers under a dramatic sky.")
+![Elevated oceanfront view of a white high-rise condo tower, pool, tennis court, palms, and Atlantic beach](/images/singer-island/si-gal-21-an-elevated-oceanfront-view-of-a-white-high-.webp "An elevated oceanfront view of a white high-rise condominium with a pool, tennis court and beach.")
+![Twilight ocean view between two high-rise condo towers with beach and dune vegetation](/images/singer-island/si-gal-74-a-twilight-ocean-view-between-two-high-rise-.webp "A twilight ocean view between two high-rise towers, with beach and dune vegetation.")
+![Empty Atlantic beach with rolling surf and towering cumulus clouds under deep blue sky](/images/singer-island/si-gal-75-an-empty-atlantic-beach-with-rolling-surf-un.webp "An empty Atlantic beach with rolling surf under towering clouds.")
+:::
+
 ![The Blue Heron Bridge crossing the Lake Worth Lagoon on concrete piers, with high-rises in the distance](/images/singer-island/blue-heron-bridge-lagoon.webp "The Blue Heron Bridge over the Lake Worth Lagoon, one of the island's two routes to the mainland. || Photo by John Oliver"){1400x1050}
 
 For longer trips, [Brightline](https://www.gobrightline.com/) passenger rail serves a station in West Palm Beach. Check its current routes and schedules if rail travel is part of your plan.
@@ -19495,6 +19530,13 @@ A practical test: if reading an association's budget, reserves and minutes sound
     body: `Singer Island can be exceptional for someone who wants the Atlantic to shape daily life: the beach before work, the water in view, the ocean as the backdrop to ordinary days.
 
 But the decision rarely turns on the view. It turns on the building's documents, the real cost of ownership, the daily logistics of a barrier island, and whether a condominium or a house is the right kind of home for you.
+
+::: gallery
+![Blue beach umbrella and two striped lounge chairs on an empty sandy beach](/images/singer-island/si-gal-18-a-blue-beach-umbrella-and-two-striped-lounge.webp "A blue beach umbrella and two striped lounge chairs on an empty sandy beach.")
+![Ocean shoreline at sunrise/sunset with rocky outcrop and breaking waves](/images/singer-island/si-gal-37-a-rocky-outcrop-and-breaking-waves-along-the.webp "A rocky outcrop and breaking waves along the shoreline.")
+![Sunrise sky over calm Atlantic Ocean from the beach](/images/singer-island/si-gal-65-a-sunrise-sky-over-a-calm-atlantic-ocean.webp "A sunrise sky over a calm Atlantic Ocean.")
+![Sunrise over the open ocean with scattered low clouds on the horizon](/images/singer-island/si-gal-53-sunrise-over-the-open-ocean-with-scattered-l.webp "Sunrise over the open ocean with scattered low clouds.")
+:::
 
 ## What you are genuinely getting
 
@@ -19660,6 +19702,13 @@ If you've done all six and still want to wake up on the Atlantic, Singer Island 
     body: `On Singer Island, the purchase price tells you surprisingly little about what it costs to own. The real number is the total cost of ownership: taxes, insurance, association fees and reserves, upkeep, and the costs that can change after you buy.
 
 That number depends on the exact property: condominium or house, which municipality, which building, and how you plan to use it. What follows is a framework for finding it. Which items apply, and how much each costs, varies by property.
+
+::: gallery
+![Elevated oceanfront view of turquoise Atlantic, sandy beach, palm tree and condo tower edge](/images/singer-island/si-gal-54-an-elevated-oceanfront-view-of-the-turquoise.webp "An elevated oceanfront view of the turquoise Atlantic, the beach and a palm tree.")
+![Elevated oceanfront view of Atlantic Ocean, sandy beach and surf line from a high-rise balcony](/images/singer-island/si-gal-24-an-oceanfront-view-of-the-atlantic-the-sandy.webp "An oceanfront view of the Atlantic, the sandy beach and the surf line from a high floor.")
+![Elevated oceanfront view of Atlantic coastline from high-rise balcony](/images/singer-island/si-gal-62-an-elevated-view-of-the-atlantic-coastline-f.webp "An elevated view of the Atlantic coastline from a high-rise balcony.")
+![Oceanfront high-rise condo tower with beach and turquoise Atlantic from an elevated balcony view](/images/singer-island/si-gal-63-an-oceanfront-high-rise-condominium-with-the.webp "An oceanfront high-rise condominium with the beach and turquoise Atlantic.")
+:::
 
 ## Housing: compare ownership models, not markets
 
@@ -19835,6 +19884,13 @@ None of it is secret, and none of it comes with a promise of solitude. Some of t
 **Ocean Reef Park.** *On Singer Island.* A Palm Beach County park in Riviera Beach where the county notes snorkeling is available within the lifeguard-protected swimming area. Conditions vary day to day; check the flags and [the park's page](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx) first.
 
 Neither is an every-day activity. The same spot can be excellent one morning and unsuitable the next, so plan around current conditions rather than the calendar.
+
+::: gallery
+![Manatee swimming in clear turquoise marina water with yachts and palm-lined island in background](/images/singer-island/si-gal-40-a-manatee-swimming-in-clear-turquoise-marina.webp "A manatee swimming in clear turquoise marina water.")
+![Visitors watching manatees from an elevated viewing deck](/images/singer-island/si-gal-89-visitors-watching-manatees-from-an-elevated-.webp "Visitors watching manatees from an elevated viewing deck. || Photo: Discover The Palm Beaches")
+![Sailboat passing a modern waterfront estate at golden hour](/images/singer-island/si-gal-17-a-sailboat-passing-a-modern-waterfront-home-.webp "A sailboat passing a modern waterfront home at golden hour.")
+![Sportfishing yacht running an inlet past a rock jetty at golden hour, with a modern waterfront estate on the far shore](/images/singer-island/si-gal-88-a-sportfishing-boat-running-the-inlet-past-a.webp "A sportfishing boat running the inlet past a rock jetty at golden hour.")
+:::
 
 ## A quiet lagoon day: Munyon Island
 
@@ -20051,6 +20107,13 @@ Singer Island is one option in that set. It's the right choice for some buyers a
 
 Singer Island, Juno Beach, Jupiter and Palm Beach all put the Atlantic close by, in different forms.
 
+::: gallery
+![Aerial view of a coastal barrier-island community with high-rise condos, marina and anchored sailboats](/images/singer-island/si-gal-02-a-coastal-barrier-island-community-with-high.webp "A coastal barrier-island community with high-rise condominiums and a marina, from above. || Photo: Discover The Palm Beaches")
+![Aerial view of a barrier-island beach with oceanfront high-rise condominium towers](/images/singer-island/si-gal-04-a-barrier-island-beach-with-oceanfront-high-.webp "A barrier-island beach with oceanfront high-rise condominiums, from above. || Photo: Discover The Palm Beaches")
+![Elevated view over Intracoastal Waterway with anchored sailboats, marina docks and tropical waterfront](/images/singer-island/si-gal-31-an-elevated-view-over-the-intracoastal-water.webp "An elevated view over the Intracoastal Waterway with anchored sailboats and marina docks.")
+![Elevated view over a sparkling Intracoastal-style waterway with moored sailboats, a motor yacht leaving a wake, and a low barrier island with homes on the far shore](/images/singer-island/si-gal-66-a-sparkling-intracoastal-style-waterway-with.webp "A sparkling Intracoastal-style waterway with moored sailboats.")
+:::
+
 - **Housing forms differ.** On Singer Island, much of the oceanfront living is in condominium towers. Nearby beach communities offer their own mix of condominiums, townhomes and single-family homes.
 - **Density and building type shape daily life.** A tower with shared amenities and a low-rise building or a house on a street feel different even a few blocks from the same beach.
 - **Beach access is property-specific.** Some buildings have their own access; elsewhere you may walk or drive to a public access point. Check how it works from the exact address.
@@ -20245,6 +20308,13 @@ This guide covers seven places across those three areas. Each card says what the
 ## Build your Singer Island night
 
 Three pairings, each kept to one part of the island.
+
+::: gallery
+![Vivid orange sunset over waterway seen from a high-rise balcony](/images/singer-island/si-gal-35-a-vivid-orange-sunset-over-the-waterway-from.webp "A vivid orange sunset over the waterway from a high-rise balcony.")
+![Vivid orange sunset over an intracoastal waterway with marina and bridge](/images/singer-island/si-gal-77-an-orange-sunset-over-the-intracoastal-with-.webp "An orange sunset over the Intracoastal with a marina and bridge.")
+![Marina at sunset with docked sport-fishing boats on lifts](/images/singer-island/si-gal-38-a-marina-at-sunset-with-sportfishing-boats-o.webp "A marina at sunset with sportfishing boats on lifts.")
+![Sunset over a marina/waterway seen from a bridge walkway](/images/singer-island/si-gal-55-sunset-over-a-marina-and-waterway-from-a-bri.webp "Sunset over a marina and waterway from a bridge walkway.")
+:::
 
 ### A marina evening in Palm Beach Shores
 
