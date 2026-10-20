@@ -19208,7 +19208,7 @@ Conditions, hours and access change. These are the pages to check on the day:
 ![Beach access sand path through sea grape dune vegetation](/images/singer-island/si-gal-49-a-beach-access-path-through-sea-grape-dune-v.webp "A beach access path through sea grape dune vegetation. || Photo: Discover The Palm Beaches")
 :::
 
-- **Phil Foster Park and the snorkel trail:** [Palm Beach County: Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [snorkel trail guide (PDF)](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf).
+- **Phil Foster Park and the snorkel trail:** [Palm Beach County: Phil Foster Park](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx).
 - **Beach conditions and water safety:** [Palm Beach County: About our beaches](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx).
 - **Ocean Reef Park:** [Palm Beach County: Ocean Reef Park](https://discover.pbc.gov/parks/Locations/Ocean-Reef.aspx).
 - **MacArthur Beach State Park notices, hours and fees:** [Florida State Parks: John D. MacArthur Beach State Park](https://www.floridastateparks.org/parks-and-trails/john-d-macarthur-beach-state-park).
@@ -19230,7 +19230,7 @@ Phil Foster Park is a Palm Beach County park directly beneath the Blue Heron Bri
 
 ![Looking east from the Blue Heron Bridge over Phil Foster Park's seawall and the Lake Worth Lagoon to the high-rises of Singer Island](/images/singer-island/blue-heron-bridge-phil-foster-mobile.webp "Phil Foster Park, beneath the Blue Heron Bridge, with Singer Island beyond. || Photo by John Oliver"){1200x800}
 
-**Snorkeling** is how most visitors see it. It doesn't require certification, but it isn't suited to everyone: you'll be in open water that can have current, reduced visibility and boats nearby, so it suits confident swimmers who are comfortable with a mask and fins. The county's [snorkel trail guide](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf) shows the layout.
+**Snorkeling** is how most visitors see it. It doesn't require certification, but it isn't suited to everyone: you'll be in open water that can have current, reduced visibility and boats nearby, so it suits confident swimmers who are comfortable with a mask and fins. The county's [Phil Foster Park page](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) describes the trail.
 
 **Diving** under the bridge is a separate activity, for certified divers planning within their own training and experience.
 
@@ -19877,7 +19877,7 @@ None of it is secret, and none of it comes with a promise of solitude. Some of t
 
 ## Water days that depend on conditions
 
-**Phil Foster Park and the Blue Heron Bridge.** *Nearby, in Riviera Beach, not on Singer Island.* A Palm Beach County park beneath the Blue Heron Bridge, on the causeway between the mainland and the island. The county's [snorkel trail guide](https://discover.pbc.gov/parks/PDF/philfostersnorkeltrail.pdf) describes the Blue Heron Bridge area as internationally recognized for its marine life, and the marked snorkel trail spans roughly two acres in 6 to 10 feet of water. Current, visibility, entry and exit points, boat traffic and tide timing all matter here, and they change; go with a buddy, and use a divers-down flag, which Florida law requires for divers and snorkelers. Check [Palm Beach County's Phil Foster Park page](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [beach safety information](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx) before you go in.
+**Phil Foster Park and the Blue Heron Bridge.** *Nearby, in Riviera Beach, not on Singer Island.* A Palm Beach County park beneath the Blue Heron Bridge, on the causeway between the mainland and the island. The county's [Phil Foster Park page](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) describes the Blue Heron Bridge area as internationally recognized for its marine life, and the marked snorkel trail spans roughly two acres in 6 to 10 feet of water. Current, visibility, entry and exit points, boat traffic and tide timing all matter here, and they change; go with a buddy, and use a divers-down flag, which Florida law requires for divers and snorkelers. Check [Palm Beach County's Phil Foster Park page](https://discover.pbc.gov/parks/Locations/Phil-Foster.aspx) and the county's [beach safety information](https://discover.pbc.gov/parks/Aquatics/About-Our-Beaches.aspx) before you go in.
 
 ![Looking down from the Blue Heron Bridge onto Phil Foster Park's seawall, trees and pavilions, with the lagoon and Singer Island's towers beyond](/images/singer-island/phil-foster-park-from-bridge.webp "Phil Foster Park, nearby in Riviera Beach, from the Blue Heron Bridge. || Photo by John Oliver"){1400x1050}
 
