@@ -5,11 +5,26 @@
 //  1. each blog post in the manifest renders every gallery photo inside a <figure> with the credit
 //  2. its hero (if any) renders the credit as visible text
 //  3. no DTPB image appears on any other page (city, community, listing, other posts)
+//  4. those posts carry no commercial blocks: no report offer, market trends, listings
+//     widget, search/CTA block or contact-card hook (DTPB terms: no commercial gain)
 
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 
 const data = JSON.parse(readFileSync('src/lib/discoverPhotos.json', 'utf8'))
+
+// Text/markup that only the commercial blocks produce (the sitewide header's "Search Homes"
+// link is chrome, so it is deliberately not listed).
+const BANNED_ON_DTPB_POSTS = [
+  '/images/reports/', // report-offer cover art
+  'Send Me the Numbers',
+  'Market Trends',
+  'Homes for Sale in',
+  'Single-Family Homes for Sale',
+  'Explore Homes in',
+  'Thinking about',
+  'Want the numbers for your own search',
+]
 const ROOT = '.next/server/app'
 if (!existsSync(ROOT)) {
   console.error('FAIL - no build output found. Run `npm run build` first.')
@@ -43,6 +58,11 @@ for (const file of htmlFiles) {
 
   checkedPosts++
   const visible = raw.replace(/<script[\s\S]*?<\/script>/g, '')
+
+  // 4. no commercial blocks on a post that carries DTPB photos
+  for (const marker of BANNED_ON_DTPB_POSTS) {
+    if (visible.includes(marker)) problems.push(`${slug}: commercial block still rendered (found "${marker}")`)
+  }
   const figures = visible.match(/<figure[\s\S]*?<\/figure>/g) ?? []
   const withDiscover = figures.filter((f) => f.includes('/images/discover/'))
 

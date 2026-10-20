@@ -464,8 +464,9 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* Single Ylopo script initializer — fires once on mount, picks up all widget divs */}
       <YlopoInit city={article.cityName} />
-      {/* Keeps the FUB contact card off the opening copy until the reader scrolls. */}
-      <DeferredContactCta />
+      {/* Keeps the FUB contact card off the opening copy until the reader scrolls — and off
+          entirely on posts that carry Discover The Palm Beaches photos. */}
+      <DeferredContactCta hide={article.noCommercialBlocks} />
 
       {/* Comparison articles open with a full-width shortlist, wider than the reading column. */}
       {editorial?.comparison && <ComparisonShortlist comparison={editorial.comparison} />}
@@ -659,7 +660,7 @@ export default async function ArticlePage({ params }: Props) {
               {editorial.closingStep.cta.label}
             </Link>
           </div>
-        ) : editorial?.magnetPlacement ? null : (
+        ) : editorial?.magnetPlacement || article.noCommercialBlocks ? null : (
           <div className="mt-12">
             <LeadMagnetCTA
               selection={magnetSelection}
