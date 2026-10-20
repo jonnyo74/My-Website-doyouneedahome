@@ -10,12 +10,20 @@
 // The credit line is attribution only. It must never suggest affiliation with, or
 // endorsement by, DTPB, a venue or a photographer. Usage is limited to blog posts that
 // promote The Palm Beaches (their Brandfolder terms: promotion of the destination,
-// no commercial resale, no paid ads) -- do not wire these into city, community,
-// listing or any IDX page.
+// no commercial gain or revenue-generating use, no paid ads) -- do not wire these into
+// city, community, listing or any IDX page.
+//
+// For the same reason, a post that carries these photos is rendered without its commercial
+// blocks: no report offer (mid-body or end of article), no market-trends widget, no
+// listings widget, no search/CTA block, and (via leadMagnetRouting + DeferredContactCta)
+// no sticky offer bar, exit-intent offer or contact card. See `noCommercialBlocks`.
 
 import data from './discoverPhotos.json'
 import type { Article } from './articles'
 import { SITE_URL } from './site'
+
+/** An article rendered with DTPB photos. The page reads `noCommercialBlocks` to drop lead-capture UI. */
+export type DiscoverArticle = Article & { noCommercialBlocks?: true }
 
 type Photo = { src: string; width: number; height: number; alt: string; caption: string; credit: string; source: string }
 type Hero = Photo & { mobile?: { src: string; width: number; height: number } }
@@ -51,13 +59,42 @@ function insertGalleries(slug: string, body: string, placements: Gallery[]): str
   return lines.join('\n')
 }
 
-/** Returns the article with its DTPB hero and/or galleries applied. Unlisted slugs pass through untouched. */
-export function withDiscoverPhotos(article: Article | undefined): Article | undefined {
+/** Slugs of every post that carries DTPB photos. */
+export function discoverSlugs(): string[] {
+  return [...new Set([...Object.keys(galleries), ...Object.keys(heroPlacements)])]
+}
+
+// Editorial posts can place a report offer through a tool of kind 'inline-magnet', or after
+// the expert note via magnetPlacement. 'none' switches both off (and the end-of-article offer
+// that an editorial post would otherwise get). The closing "next step" prompt goes too.
+function withoutOffers(editorial: NonNullable<Article['editorial']>): NonNullable<Article['editorial']> {
+  const next = { ...editorial, magnetPlacement: 'none' as const }
+  delete next.closingStep // the "talk with our team" next-step block is a sales prompt
+  const tool = editorial.tool
+  if (tool) {
+    const kept = (Array.isArray(tool) ? tool : [tool]).filter((t) => t.kind !== 'inline-magnet')
+    if (kept.length === 0) delete next.tool
+    else next.tool = Array.isArray(tool) ? kept : kept[0]
+  }
+  return next
+}
+
+/**
+ * Returns the article with its DTPB hero and/or galleries applied, and with its commercial
+ * blocks switched off. Unlisted slugs pass through untouched.
+ */
+export function withDiscoverPhotos(article: Article | undefined): DiscoverArticle | undefined {
   if (!article) return article
   const heroId = heroPlacements[article.slug]
   const gal = galleries[article.slug]
   if (!heroId && !gal) return article
-  let out: Article = { ...article }
+  let out: DiscoverArticle = {
+    ...article,
+    noCommercialBlocks: true,
+    inlineMagnet: false,
+    pageModules: { ...article.pageModules, marketTrends: false, listings: false, conversionBlock: false },
+    editorial: article.editorial ? withoutOffers(article.editorial) : undefined,
+  }
   if (heroId) {
     const h = heroes[heroId]
     if (!h || !h.credit) throw new Error(`discoverPhotos: hero "${heroId}" is missing or has no credit`)

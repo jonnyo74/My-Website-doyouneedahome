@@ -34,6 +34,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { leadMagnets, type LeadMagnetSelection } from '@/lib/leadMagnets'
+import { DISCOVER_POST_PATHS } from '@/lib/discoverPaths'
 
 // ── Geography ────────────────────────────────────────────────────────────────
 // Mirrors CITY_REGIONS in articles.ts ('Martin County' / 'St. Lucie County')
@@ -263,6 +264,8 @@ const EXCLUDED_PATH_PREFIXES = [
   // market-report interruption would undercut a $2.8M conversion page.
   '/listings/8804-skyward-street',
   ...Object.values(leadMagnets).map((m) => m.landingPage),
+  // Blog posts that carry Discover The Palm Beaches photos: no sticky bar or exit-intent offer.
+  ...DISCOVER_POST_PATHS,
 ]
 
 /** True on pages the sitewide sticky bar and exit-intent offer must skip. */

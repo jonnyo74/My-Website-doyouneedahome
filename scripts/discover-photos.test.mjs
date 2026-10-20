@@ -116,3 +116,21 @@ test('the photos are not referenced from city, community or listing data', () =>
   }
   assert.ok(!articlesSrc.includes('/images/discover/'), 'articles.ts should not hard-wire DTPB photos; use the manifest')
 })
+
+test('sitewide offer exclusion list matches the manifest', () => {
+  const paths = [...readFileSync('src/lib/discoverPaths.ts', 'utf8').matchAll(/'(\/blog\/[^']+)'/g)].map((m) => m[1]).sort()
+  const expected = [...new Set([...Object.keys(data.galleries), ...Object.keys(data.heroPlacements)])].map((s) => `/blog/${s}`).sort()
+  assert.deepEqual(paths, expected)
+  const routing = readFileSync('src/lib/leadMagnetRouting.ts', 'utf8')
+  assert.match(routing, /\.\.\.DISCOVER_POST_PATHS/, 'leadMagnetRouting no longer excludes the DTPB posts')
+})
+
+test('the blog page drops commercial blocks on DTPB posts', () => {
+  const page = readFileSync('src/app/blog/[slug]/page.tsx', 'utf8')
+  assert.match(page, /article\.noCommercialBlocks/, 'page does not read noCommercialBlocks')
+  assert.match(page, /DeferredContactCta hide=\{article\.noCommercialBlocks\}/)
+  const lib = readFileSync('src/lib/discoverPhotos.ts', 'utf8')
+  for (const needle of ['inlineMagnet: false', 'marketTrends: false', 'listings: false', 'conversionBlock: false', "magnetPlacement: 'none'", 'delete next.closingStep']) {
+    assert.ok(lib.includes(needle), `discoverPhotos.ts no longer sets ${needle}`)
+  }
+})

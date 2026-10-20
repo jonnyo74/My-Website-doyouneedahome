@@ -205,3 +205,7 @@ label:has(> input.sr-only:focus-visible) {
     visibility: hidden !important;
   }
 }
+/* Removed outright (all widths) on posts that carry Discover The Palm Beaches photos. */
+html[data-cta-hide] iframe[name="widgetCta"] {
+  display: none !important;
+}
