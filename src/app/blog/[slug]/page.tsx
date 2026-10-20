@@ -60,6 +60,7 @@ import { selectMagnetForArticle } from '@/lib/leadMagnetRouting'
 import { articleSections } from '@/lib/headingId'
 import { AUTHORS } from '@/lib/authors'
 import { SITE_URL } from '@/lib/site'
+import { withDiscoverPhotos } from '@/lib/discoverPhotos'
 
 const SITE = SITE_URL
 
@@ -180,7 +181,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
-  const a = getArticleBySlug(slug)
+  const a = withDiscoverPhotos(getArticleBySlug(slug))
   if (!a) return { title: 'Article not found' }
   const url = `${SITE}/blog/${a.slug}`
   const image = a.heroImage ? absoluteImage(a.heroImage) : undefined
@@ -220,7 +221,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ArticlePage({ params }: Props) {
   const { slug } = await params
-  const article = getArticleBySlug(slug)
+  const article = withDiscoverPhotos(getArticleBySlug(slug))
   if (!article) notFound()
 
   const community = getCommunityBySlug(article.citySlug)
@@ -418,7 +419,15 @@ export default async function ArticlePage({ params }: Props) {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
           {article.heroImageCredit && (
-            <span className="absolute bottom-2 right-3 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/80">{article.heroImageCredit}</span>
+            <span
+              className={
+                article.heroImageCredit.includes('Discover The Palm Beaches')
+                  ? 'absolute bottom-2 right-3 rounded bg-black/70 px-2 py-1 text-xs font-medium text-white sm:text-sm'
+                  : 'absolute bottom-2 right-3 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/80'
+              }
+            >
+              {article.heroImageCredit}
+            </span>
           )}
           <div className="absolute inset-0 flex flex-col justify-end px-6 pb-10 sm:px-8">
             <div className="mx-auto w-full max-w-3xl">
