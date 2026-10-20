@@ -5,6 +5,7 @@ import { listings } from '@/lib/listings'
 import { agents } from '@/lib/agents'
 import { publishedLeadMagnets } from '@/lib/leadMagnets'
 import { SITE_URL } from '@/lib/site'
+import { discoverImageUrls } from '@/lib/discoverPhotos'
 
 const BASE = SITE_URL
 
@@ -59,12 +60,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Only published (live) blog articles belong in the sitemap.
   const blogPages: MetadataRoute.Sitemap = articles
     .filter((a) => a.published)
-    .map((a) => ({
-      url: `${BASE}/blog/${a.slug}`,
-      lastModified: a.updated,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    }))
+    .map((a) => {
+      // Image sitemap entries only for posts that carry the DTPB photos.
+      const images = discoverImageUrls(a.slug)
+      return {
+        url: `${BASE}/blog/${a.slug}`,
+        lastModified: a.updated,
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+        ...(images.length > 0 && { images }),
+      }
+    })
 
   // Per-agent valuation landing pages — high priority, they're the seller entry point.
   const agentPages: MetadataRoute.Sitemap = agents.map((a) => ({

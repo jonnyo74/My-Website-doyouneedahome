@@ -153,8 +153,17 @@ function HeroText({
 
 function Credit({ credit }: { credit?: string }) {
   if (!credit) return null
+  // Discover The Palm Beaches asks for visible attribution, so its credit is set larger
+  // than the site's small corner chips.
+  const dtpb = credit.includes('Discover The Palm Beaches')
   return (
-    <span className="absolute bottom-2 right-3 rounded bg-black/60 px-1.5 py-0.5 text-[10px] text-white/90">
+    <span
+      className={
+        dtpb
+          ? 'absolute bottom-2 right-3 rounded bg-black/70 px-2 py-1 text-xs font-medium text-white sm:text-sm'
+          : 'absolute bottom-2 right-3 rounded bg-black/60 px-1.5 py-0.5 text-[10px] text-white/90'
+      }
+    >
       {credit}
     </span>
   )

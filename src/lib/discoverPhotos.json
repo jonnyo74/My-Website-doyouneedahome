@@ -1,0 +1,750 @@
+{
+  "credit": "Photo courtesy of Discover The Palm Beaches",
+  "photos": {
+    "boca-red-reef-barrier": {
+      "src": "/images/discover/boca-raton/boca-red-reef-barrier.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a narrow barrier-island strip with a road, coastal vegetation and condominium buildings between the Atlantic Ocean and the Intracoastal Waterway",
+      "caption": "A stretch of coast near Red Reef Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Red Reef Park Boca Raton-4.JPG"
+    },
+    "boca-gumbo-limbo-boardwalk": {
+      "src": "/images/discover/boca-raton/boca-gumbo-limbo-boardwalk.webp",
+      "width": 1400,
+      "height": 933,
+      "alt": "A wooden boardwalk curving through shaded coastal hammock under a large tree, with palms on both sides",
+      "caption": "The boardwalk at Gumbo Limbo Nature Center.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Gumbo Limbo Nature Center-Boardwalk.JPG"
+    },
+    "boca-jacobs-outlook": {
+      "src": "/images/discover/boca-raton/boca-jacobs-outlook.webp",
+      "width": 1400,
+      "height": 1050,
+      "alt": "View over the tree canopy toward open water from a railing at the Jacob's Outlook tower",
+      "caption": "The view from Jacob's Outlook at Gumbo Limbo Nature Center.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Boca Raton-View from Jacobs Outlook 3.JPG"
+    },
+    "boca-mizner-park": {
+      "src": "/images/discover/boca-raton/boca-mizner-park.webp",
+      "width": 1200,
+      "height": 773,
+      "alt": "A fountain and landscaped plaza framed by an arch, with pink and peach buildings, palm trees and a blue sky",
+      "caption": "Mizner Park, Boca Raton.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Mizner Park  Boca Raton.jpg.jpg"
+    },
+    "boca-red-reef-palms": {
+      "src": "/images/discover/boca-raton/boca-red-reef-palms.webp",
+      "width": 1400,
+      "height": 1050,
+      "alt": "Palm trees leaning over a beachside boardwalk with the Atlantic Ocean beyond and a lifeguard tower at the far right",
+      "caption": "The beach at Red Reef Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Boca Raton-Red Reef Park Beach.png"
+    },
+    "boca-red-reef-lifeguard": {
+      "src": "/images/discover/boca-raton/boca-red-reef-lifeguard.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A wooden lifeguard tower on the sand, with beach umbrellas and beachgoers in the distance",
+      "caption": "A lifeguard tower at Red Reef Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Red Reef Park Boca Raton-15.jpg"
+    },
+    "boca-gumbo-limbo-seahorse": {
+      "src": "/images/discover/boca-raton/boca-gumbo-limbo-seahorse.webp",
+      "width": 1400,
+      "height": 2100,
+      "alt": "A lined seahorse in profile against dark blue water",
+      "caption": "A lined seahorse at Gumbo Limbo Nature Center.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Gumbo Limbo Nature Center-Lined Seahorse  (2).JPG"
+    },
+    "boca-gumbo-limbo-balloonfish": {
+      "src": "/images/discover/boca-raton/boca-gumbo-limbo-balloonfish.webp",
+      "width": 1400,
+      "height": 933,
+      "alt": "A close-up of a small spotted balloonfish with large eyes",
+      "caption": "A balloonfish at Gumbo Limbo Nature Center.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Gumbo Limbo Nature Center-Balloonfish.JPG"
+    },
+    "boca-sugar-sand-carousel": {
+      "src": "/images/discover/boca-raton/boca-sugar-sand-carousel.webp",
+      "width": 1400,
+      "height": 933,
+      "alt": "A lit carousel with a pointed roof against an orange and pink dusk sky",
+      "caption": "The carousel at Sugar Sand Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Boca Raton-Carousel - Sugar Sand Park.jpg"
+    },
+    "boca-sugar-sand-mural": {
+      "src": "/images/discover/boca-raton/boca-sugar-sand-mural.webp",
+      "width": 1400,
+      "height": 933,
+      "alt": "A tiled mural of birds, fish and sea creatures on a wall above tropical plants",
+      "caption": "Public artwork at Sugar Sand Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Boca Raton-Artwork at Sugar Sand Park.jpg"
+    },
+    "boca-red-reef-rocks": {
+      "src": "/images/discover/boca-raton/boca-red-reef-rocks.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Waves washing over a rocky ledge near the shore under a clear blue sky",
+      "caption": "Rocks near the shoreline at Red Reef Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Red Reef Park Boca Raton-17.jpg"
+    },
+    "boca-red-reef-aerial-9": {
+      "src": "/images/discover/boca-raton/boca-red-reef-aerial-9.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a sandy beach with a few people and breaking waves along a green coastal strip",
+      "caption": "Red Reef Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Red Reef Park Boca Raton-9.JPG"
+    },
+    "delray-public-beach-aerial-2": {
+      "src": "/images/discover/delray-beach/delray-public-beach-aerial-2.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a long sand beach and turquoise surf with low buildings and trees behind the shoreline",
+      "caption": "Delray Public Beach, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Delray Public Beach - Drone 02.JPG"
+    },
+    "delray-lifeguard-tower": {
+      "src": "/images/discover/delray-beach/delray-lifeguard-tower.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A colorful lifeguard tower on the sand with a surfboard at its base and palm trees behind",
+      "caption": "A lifeguard tower at Delray Public Beach.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Delray Public Beach - Ground 02.jpg"
+    },
+    "delray-dune-path": {
+      "src": "/images/discover/delray-beach/delray-dune-path.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A sandy path between rope fences and dune grass leading toward the ocean",
+      "caption": "A dune walkover at Delray Public Beach.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Delray Public Beach - Ground 01.jpg"
+    },
+    "delray-morikami": {
+      "src": "/images/discover/delray-beach/delray-morikami.webp",
+      "width": 1400,
+      "height": 1144,
+      "alt": "A small wooden garden pavilion with a tiled roof among trees, with a stone lantern beside a gravel path",
+      "caption": "The Morikami Museum and Japanese Gardens.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Morikami Museum and Japanese Gardens.jpg"
+    },
+    "delray-aerial-shoreline": {
+      "src": "/images/discover/delray-beach/delray-aerial-shoreline.webp",
+      "width": 1400,
+      "height": 930,
+      "alt": "Aerial view of a long Delray Beach shoreline with rows of blue beach umbrellas and the town behind it",
+      "caption": "The Delray Beach shoreline, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Aerial Photos Delray Beach.jpg"
+    },
+    "delray-public-beach-aerial-3": {
+      "src": "/images/discover/delray-beach/delray-public-beach-aerial-3.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of the Delray Beach shoreline with waves breaking on the sand and neighborhoods behind the beach",
+      "caption": "Delray Public Beach, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Delray Public Beach - Drone 03.JPG"
+    },
+    "delray-pineapple-mural": {
+      "src": "/images/discover/delray-beach/delray-pineapple-mural.webp",
+      "width": 1400,
+      "height": 853,
+      "alt": "A mural of a large yellow pineapple on a pink wall",
+      "caption": "A pineapple mural in Pineapple Grove.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Delray Beach Pineapple Grove 20153.jpg"
+    },
+    "delray-public-beach-aerial-1": {
+      "src": "/images/discover/delray-beach/delray-public-beach-aerial-1.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of the Delray Beach shoreline with a long sand beach and town streets behind it",
+      "caption": "The Delray Beach shoreline, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Delray Public Beach - Drone 01.JPG"
+    },
+    "delray-public-beach-aerial-4": {
+      "src": "/images/discover/delray-beach/delray-public-beach-aerial-4.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a road running beside dune vegetation, a sand beach and turquoise water",
+      "caption": "Delray Beach, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Delray Public Beach - Drone 04.JPG"
+    },
+    "juno-pier-aerial-2": {
+      "src": "/images/discover/juno-beach/juno-pier-aerial-2.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a long pier extending over turquoise water from a sand beach, with buildings behind the shoreline",
+      "caption": "Juno Beach Park and its pier, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Drone 02.JPG"
+    },
+    "juno-pier-aerial-3": {
+      "src": "/images/discover/juno-beach/juno-pier-aerial-3.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a pier extending from a sand beach into turquoise water, seen from an angle along the pier",
+      "caption": "Juno Beach Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Drone 03.JPG"
+    },
+    "juno-pier-from-dune": {
+      "src": "/images/discover/juno-beach/juno-pier-from-dune.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A pier with a pavilion at its end extending into the ocean, seen from the beach with sea grape in the foreground",
+      "caption": "The pier at Juno Beach Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Ground 02.jpg"
+    },
+    "juno-lifeguard-tower": {
+      "src": "/images/discover/juno-beach/juno-lifeguard-tower.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A wooden lifeguard tower with a flag and orange rescue buoys among dune vegetation",
+      "caption": "A lifeguard tower at Juno Beach Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Ground 06.jpg"
+    },
+    "juno-dune-stairs": {
+      "src": "/images/discover/juno-beach/juno-dune-stairs.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Wooden stairs and railings leading down a dune to a sand beach, with a pier in the distance",
+      "caption": "The walkway down to the beach at Juno Beach Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Ground 01.jpg"
+    },
+    "juno-beneath-pier": {
+      "src": "/images/discover/juno-beach/juno-beneath-pier.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Looking along the wooden railing and pilings of a pier above breaking waves",
+      "caption": "Beneath the Juno Beach Pier.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Ground 05.jpg"
+    },
+    "juno-shoreline-aerial-6": {
+      "src": "/images/discover/juno-beach/juno-shoreline-aerial-6.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a sand beach and breaking waves with residential buildings behind the shoreline",
+      "caption": "The Juno Beach shoreline, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Drone 06.JPG"
+    },
+    "juno-pier-aerial-7": {
+      "src": "/images/discover/juno-beach/juno-pier-aerial-7.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a beach with a pier extending into the water in the distance",
+      "caption": "Juno Beach Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Drone 07.JPG"
+    },
+    "juno-shoreline-aerial-8": {
+      "src": "/images/discover/juno-beach/juno-shoreline-aerial-8.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a long sand beach and turquoise water curving along the coast",
+      "caption": "The coast at Juno Beach, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Drone 08.JPG"
+    },
+    "juno-beach-surf": {
+      "src": "/images/discover/juno-beach/juno-beach-surf.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Surf washing onto a wide sand beach under a clear blue sky",
+      "caption": "The beach at Juno Beach Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Juno Beach Park - Ground 03.jpg"
+    },
+    "npb-macarthur-aerial-1": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-aerial-1.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a long boardwalk crossing a lagoon toward a sandy beach and the ocean",
+      "caption": "The boardwalk and beach at John D. MacArthur Beach State Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Drone 01.JPG"
+    },
+    "npb-macarthur-aerial-3": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-aerial-3.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a narrow strip of green coastal vegetation between turquoise ocean surf and a lagoon",
+      "caption": "John D. MacArthur Beach State Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Drone 03.JPG"
+    },
+    "npb-macarthur-boardwalk": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-boardwalk.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A long wooden boardwalk with railings stretching out over a lagoon",
+      "caption": "The boardwalk at John D. MacArthur Beach State Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Ground 01.jpg"
+    },
+    "npb-macarthur-aerial-2": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-aerial-2.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a sand beach and breaking waves beside a lagoon, with a boardwalk crossing the water",
+      "caption": "John D. MacArthur Beach State Park and its shoreline, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Drone 02.JPG"
+    },
+    "npb-macarthur-walkover": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-walkover.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A wooden boardwalk running toward a dune and the beach, with railings on both sides",
+      "caption": "The boardwalk to the beach at John D. MacArthur Beach State Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Ground 03.jpg"
+    },
+    "npb-macarthur-aerial-4": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-aerial-4.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view along a vegetated strip of land with the ocean on one side, a lagoon on the other and high-rise buildings in the distance",
+      "caption": "John D. MacArthur Beach State Park and the shoreline beyond, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Drone 04.JPG"
+    },
+    "npb-macarthur-trail": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-trail.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A sandy trail passing under leaning tree branches in dense coastal vegetation",
+      "caption": "A trail at John D. MacArthur Beach State Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Ground 02.jpg"
+    },
+    "npb-macarthur-aerial-5": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-aerial-5.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a long sand beach with turquoise surf beside a lagoon",
+      "caption": "John D. MacArthur Beach State Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Drone 05.JPG"
+    },
+    "npb-macarthur-aerial-6": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-aerial-6.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of the shoreline with turquoise surf, a sand beach and a lagoon behind it",
+      "caption": "The shoreline at John D. MacArthur Beach State Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Drone 06.JPG"
+    },
+    "npb-macarthur-aerial-7": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-aerial-7.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a narrow beach strip with turquoise surf and a boardwalk crossing the lagoon behind it",
+      "caption": "John D. MacArthur Beach State Park, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Drone 07.JPG"
+    },
+    "npb-macarthur-boardwalk-4": {
+      "src": "/images/discover/north-palm-beach/npb-macarthur-boardwalk-4.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A wooden boardwalk with railings leading across sand toward the beach",
+      "caption": "A boardwalk at John D. MacArthur Beach State Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "North Palm Beach - John D McArthur State Park - Ground 04.jpg"
+    },
+    "riviera-ocean-reef-aerial-3": {
+      "src": "/images/discover/riviera-beach/riviera-ocean-reef-aerial-3.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "Aerial view of a sand beach with high-rise condominium buildings along the shore and turquoise water",
+      "caption": "Ocean Reef Park in Riviera Beach, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Riviera Beach - Ocean Reef Park - Drone 03.JPG"
+    },
+    "riviera-ocean-reef-path": {
+      "src": "/images/discover/riviera-beach/riviera-ocean-reef-path.webp",
+      "width": 1400,
+      "height": 788,
+      "alt": "A sandy path with wooden rails leading through sea grape toward the beach",
+      "caption": "A beach access path at Ocean Reef Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Riviera Beach - Ocean Reef Park - Ground 01.jpg"
+    },
+    "riviera-peanut-island": {
+      "src": "/images/discover/riviera-beach/riviera-peanut-island.webp",
+      "width": 1400,
+      "height": 786,
+      "alt": "Aerial view of a marina dock with moored boats in turquoise water, with a bridge and shoreline beyond",
+      "caption": "Peanut Island, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Peanut Island25.jpg"
+    },
+    "riviera-blue-heron-aerial": {
+      "src": "/images/discover/riviera-beach/riviera-blue-heron-aerial.webp",
+      "width": 1400,
+      "height": 786,
+      "alt": "Aerial view of a low bridge crossing a channel beside a small island, with boats at anchor and high-rise buildings along the shore",
+      "caption": "The Blue Heron Bridge area, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Blue_Heron_Bridge_Aerial_01.jpg.jpg"
+    },
+    "riviera-phil-foster-aerial": {
+      "src": "/images/discover/riviera-beach/riviera-phil-foster-aerial.webp",
+      "width": 1400,
+      "height": 786,
+      "alt": "Aerial view of Phil Foster Park beside the Blue Heron Bridge, with boats at anchor in the surrounding water",
+      "caption": "Phil Foster Park and the Blue Heron Bridge, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Blue Heron Bridge  Phil Foster Park08 (1).jpg"
+    },
+    "jupiter-harbourside": {
+      "src": "/images/discover/jupiter/jupiter-harbourside.webp",
+      "width": 1400,
+      "height": 806,
+      "alt": "Waterfront buildings lit at dusk beside a dock with small boats on the water",
+      "caption": "Harbourside Place, Jupiter.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Harbourside Place.jpg"
+    },
+    "jupiter-lighthouse-inlet": {
+      "src": "/images/discover/jupiter/jupiter-lighthouse-inlet.webp",
+      "width": 1400,
+      "height": 931,
+      "alt": "The red Jupiter Inlet Lighthouse on a green point above the inlet, with two small boats passing on the water",
+      "caption": "Jupiter Inlet Lighthouse.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Jupiter Inlet Lighthouse  Museum.jpg"
+    },
+    "jupiter-lighthouse-trees": {
+      "src": "/images/discover/jupiter/jupiter-lighthouse-trees.webp",
+      "width": 1400,
+      "height": 930,
+      "alt": "The red Jupiter Inlet Lighthouse rising above trees beside blue-green water under a blue sky",
+      "caption": "Jupiter Inlet Lighthouse and the inlet.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Jupiter Inlet Lighthouse  Museum (6).jpg"
+    },
+    "lake-worth-pier-aerial-12": {
+      "src": "/images/discover/lake-worth-beach/lake-worth-pier-aerial-12.webp",
+      "width": 1400,
+      "height": 786,
+      "alt": "Aerial view of a long pier extending into the Atlantic from the Lake Worth Beach shoreline, with a bridge and the Intracoastal Waterway behind it",
+      "caption": "The Lake Worth Beach pier, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Lake Worth Pier12.jpg"
+    },
+    "lake-worth-shoreline-aerial-8": {
+      "src": "/images/discover/lake-worth-beach/lake-worth-shoreline-aerial-8.webp",
+      "width": 1400,
+      "height": 786,
+      "alt": "Aerial view of a beachfront district with a red-tile-roofed building, a wide beach and turquoise water",
+      "caption": "The Lake Worth Beach shoreline, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Lake Worth Pier08.jpg"
+    },
+    "lake-worth-beach-umbrella": {
+      "src": "/images/discover/lake-worth-beach/lake-worth-beach-umbrella.webp",
+      "width": 1400,
+      "height": 713,
+      "alt": "An umbrella and beach chairs on a quiet stretch of sand, with sea oats in the foreground and the ocean behind",
+      "caption": "The beach at Lake Worth Beach.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Lake Worth Beach2.jpg"
+    }
+  },
+  "heroes": {
+    "boca-downtown-aerial": {
+      "src": "/images/discover/boca-raton/boca-downtown-aerial-wide.webp",
+      "width": 2400,
+      "height": 1200,
+      "alt": "Aerial view looking east over downtown Boca Raton, with mid-rise buildings, streets and tree cover and the ocean at the horizon",
+      "caption": "Downtown Boca Raton from the air, looking east toward the Atlantic.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Boca Raton-Aerial Downtown   Palmetto - Facing East.png"
+    },
+    "boca-red-reef-aerial": {
+      "src": "/images/discover/boca-raton/boca-red-reef-aerial-wide.webp",
+      "width": 2400,
+      "height": 1200,
+      "alt": "Aerial view of the Atlantic shoreline at Red Reef Park in Boca Raton, with a long sand beach, breaking waves and a green coastal strip with a golf course behind it",
+      "caption": "Red Reef Park, Boca Raton, from above.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Red Reef Park Boca Raton-2.JPG"
+    },
+    "boca-spanish-river-atlantic": {
+      "src": "/images/discover/boca-raton/boca-spanish-river-atlantic-wide.webp",
+      "width": 2400,
+      "height": 1200,
+      "alt": "The Atlantic side of Spanish River Park in Boca Raton, with dune grasses in the foreground, a sand beach and a few distant beachgoers under a partly cloudy sky",
+      "caption": "The Atlantic side of Spanish River Park.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Boca Raton-Spanish River Park - Atlantic Side.jpg",
+      "mobile": {
+        "src": "/images/discover/boca-raton/boca-spanish-river-atlantic-mobile.webp",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    "boca-mizner-evening": {
+      "src": "/images/discover/boca-raton/boca-mizner-evening-wide.webp",
+      "width": 2400,
+      "height": 1200,
+      "alt": "Dusk at Mizner Park in Boca Raton, with a lit fountain in the foreground and illuminated buildings and palm trees beyond",
+      "caption": "Mizner Park in the evening.",
+      "credit": "Photo courtesy of Discover The Palm Beaches",
+      "source": "Downtown Boca Raton Evening in Mizner Park.jpg",
+      "mobile": {
+        "src": "/images/discover/boca-raton/boca-mizner-evening-mobile.webp",
+        "width": 1200,
+        "height": 800
+      }
+    }
+  },
+  "galleries": {
+    "local-guide-to-boca-raton-florida": [
+      {
+        "afterSection": "Beach parks and nearby nature destinations",
+        "photos": [
+          "boca-red-reef-barrier",
+          "boca-gumbo-limbo-boardwalk",
+          "boca-jacobs-outlook"
+        ]
+      }
+    ],
+    "best-things-to-do-in-boca-raton-florida": [
+      {
+        "afterSection": "Mizner Park: shops, dining, museum",
+        "photos": [
+          "boca-mizner-park"
+        ]
+      },
+      {
+        "afterSection": "Beach parks: Red Reef, Spanish River",
+        "photos": [
+          "boca-red-reef-palms",
+          "boca-red-reef-lifeguard"
+        ]
+      },
+      {
+        "afterSection": "Gumbo Limbo Nature Center",
+        "photos": [
+          "boca-gumbo-limbo-seahorse",
+          "boca-gumbo-limbo-balloonfish"
+        ]
+      },
+      {
+        "afterSection": "Sugar Sand Park and the Children",
+        "photos": [
+          "boca-sugar-sand-carousel",
+          "boca-sugar-sand-mural"
+        ]
+      }
+    ],
+    "hidden-gems-in-boca-raton-florida": [
+      {
+        "afterSection": "Why these matter",
+        "photos": [
+          "boca-red-reef-rocks",
+          "boca-red-reef-aerial-9"
+        ]
+      }
+    ],
+    "best-things-to-do-in-delray-beach-florida": [
+      {
+        "afterSection": "The beach",
+        "photos": [
+          "delray-public-beach-aerial-2",
+          "delray-lifeguard-tower",
+          "delray-dune-path"
+        ]
+      },
+      {
+        "afterSection": "The Morikami Museum and Japanese Gardens",
+        "photos": [
+          "delray-morikami"
+        ]
+      }
+    ],
+    "local-guide-to-delray-beach-florida": [
+      {
+        "afterSection": "The layout, in about a minute",
+        "photos": [
+          "delray-aerial-shoreline",
+          "delray-public-beach-aerial-3"
+        ]
+      }
+    ],
+    "best-places-to-eat-drink-hang-out-in-delray-beach-florida": [
+      {
+        "afterSection": "Pineapple Grove and the side streets",
+        "photos": [
+          "delray-pineapple-mural"
+        ]
+      },
+      {
+        "afterSection": "Near the beach",
+        "photos": [
+          "delray-public-beach-aerial-1",
+          "delray-public-beach-aerial-4"
+        ]
+      }
+    ],
+    "best-things-to-do-in-juno-beach-florida": [
+      {
+        "afterSection": "Juno Beach Park and the Juno Beach Pier",
+        "photos": [
+          "juno-pier-aerial-2",
+          "juno-pier-aerial-3",
+          "juno-pier-from-dune",
+          "juno-lifeguard-tower"
+        ]
+      }
+    ],
+    "local-guide-to-juno-beach-florida": [
+      {
+        "afterSection": "The pier and beach: plan before you go",
+        "photos": [
+          "juno-dune-stairs",
+          "juno-beneath-pier",
+          "juno-shoreline-aerial-6"
+        ]
+      }
+    ],
+    "hidden-gems-in-juno-beach-florida": [
+      {
+        "afterSection": "Juno Beach Park and the pier: practical",
+        "photos": [
+          "juno-pier-aerial-7",
+          "juno-shoreline-aerial-8",
+          "juno-beach-surf"
+        ]
+      }
+    ],
+    "best-things-to-do-in-north-palm-beach-florida": [
+      {
+        "afterSection": "Nearby Beaches and Nature Destinations",
+        "photos": [
+          "npb-macarthur-aerial-1",
+          "npb-macarthur-aerial-3",
+          "npb-macarthur-boardwalk"
+        ]
+      }
+    ],
+    "local-guide-to-north-palm-beach-florida": [
+      {
+        "afterSection": "Beaches and Nearby Coastal Recreation",
+        "photos": [
+          "npb-macarthur-aerial-2",
+          "npb-macarthur-walkover"
+        ]
+      }
+    ],
+    "hidden-gems-in-north-palm-beach-florida": [
+      {
+        "afterSection": "Nearby Hidden Gems Worth the Short Trip",
+        "photos": [
+          "npb-macarthur-aerial-4",
+          "npb-macarthur-trail"
+        ]
+      }
+    ],
+    "best-things-to-do-in-singer-island-florida": [
+      {
+        "afterSection": "Snorkeling and diving at the Blue Heron Bridge",
+        "photos": [
+          "riviera-blue-heron-aerial",
+          "riviera-phil-foster-aerial"
+        ]
+      },
+      {
+        "afterSection": "The beaches",
+        "photos": [
+          "riviera-ocean-reef-aerial-3",
+          "riviera-ocean-reef-path"
+        ]
+      },
+      {
+        "afterSection": "John D. MacArthur Beach State Park",
+        "photos": [
+          "npb-macarthur-aerial-5",
+          "npb-macarthur-boardwalk-4"
+        ]
+      },
+      {
+        "afterSection": "Peanut Island",
+        "photos": [
+          "riviera-peanut-island"
+        ]
+      }
+    ],
+    "hidden-gems-in-singer-island-florida": [
+      {
+        "afterSection": "MacArthur Beach beyond the obvious",
+        "photos": [
+          "npb-macarthur-aerial-6",
+          "npb-macarthur-aerial-7"
+        ]
+      }
+    ],
+    "best-things-to-do-in-jupiter-florida": [
+      {
+        "afterSection": "Lighthouse and history",
+        "photos": [
+          "jupiter-lighthouse-inlet",
+          "jupiter-lighthouse-trees"
+        ]
+      }
+    ],
+    "best-places-to-eat-drink-hang-out-in-jupiter-florida": [
+      {
+        "afterSection": "Harbourside Place and the Riverwalk",
+        "photos": [
+          "jupiter-harbourside"
+        ]
+      }
+    ],
+    "best-things-to-do-in-lake-worth-beach-florida": [
+      {
+        "afterSection": "The oceanfront: beach, pier and the Casino",
+        "photos": [
+          "lake-worth-pier-aerial-12",
+          "lake-worth-shoreline-aerial-8",
+          "lake-worth-beach-umbrella"
+        ]
+      }
+    ]
+  },
+  "heroPlacements": {
+    "local-guide-to-boca-raton-florida": "boca-downtown-aerial",
+    "best-things-to-do-in-boca-raton-florida": "boca-red-reef-aerial",
+    "hidden-gems-in-boca-raton-florida": "boca-spanish-river-atlantic",
+    "best-places-to-eat-drink-hang-out-in-boca-raton-florida": "boca-mizner-evening"
+  }
+}
