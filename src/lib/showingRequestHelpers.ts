@@ -14,7 +14,7 @@ export const SHOWING_LISTINGS = {
     city: 'Boca Raton',
     state: 'FL',
     zip: '33496',
-    price: 2799999,
+    price: 2750000,
     crmTag: 'Listing: 8804 Skyward Street',
   },
 } as const

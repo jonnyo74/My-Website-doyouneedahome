@@ -212,7 +212,7 @@ const CHRISTINE: ListingAgentInfo = {
 
 export const listings: Listing[] = [
   // ─────────────────────────────────────────────────────────────────────────
-  // Now Active at $2,799,999 (Aug 2026). This entry feeds the listing cards,
+  // Now Active at $2,750,000 (Aug 2026). This entry feeds the listing cards,
   // sitemap, and internal links — the page itself is the standalone microsite
   // at src/app/listings/8804-skyward-street/, which shadows the [slug] route.
   // Price, taxes, HOA, and lot figures below are John-verified for the active
@@ -232,7 +232,7 @@ export const listings: Listing[] = [
     lng: -80.184635,
     subdivision: 'Lotus',
 
-    price: 2799999,
+    price: 2750000,
 
     propertyType: 'Single-Family Residence',
     beds: 5,
@@ -507,7 +507,7 @@ export const listings: Listing[] = [
 
     metaTitle: '8804 Skyward Street — Lakefront in Lotus | Boca Raton, FL',
     metaDescription:
-      'Waterfront in Lotus, Boca Raton — a 2021 Sumatra Select with 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool, impact glass and a whole-house generator. $2,799,999.',
+      'Waterfront in Lotus, Boca Raton — a 2021 Sumatra Select with 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool, impact glass and a whole-house generator. $2,750,000.',
   },
   {
     slug: '6145-se-audubon-lane',
