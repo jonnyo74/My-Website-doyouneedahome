@@ -30,7 +30,7 @@ export default function StickyBar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
         <p className="min-w-0 truncate font-serif text-sm text-[#f5f2eb] sm:text-base">
           8804 Skyward Street
-          <span className="sky-num ml-3 hidden text-[#f5f2eb]/60 sm:inline">$2,799,999</span>
+          <span className="sky-num ml-3 hidden text-[#f5f2eb]/60 sm:inline">$2,750,000</span>
         </p>
         <a
           href="#showing"

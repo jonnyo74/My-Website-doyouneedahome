@@ -29,7 +29,7 @@ const URL_PATH = '/listings/8804-skyward-street'
 const OG_IMAGE = '/images/listings/8804-skyward-street/og-skyward-active.jpg'
 const TITLE = '8804 Skyward Street — Lakefront in Lotus | Boca Raton, FL'
 const DESCRIPTION =
-  'A 2021-built waterfront Sumatra Select in guard-gated Lotus: 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool on a marble deck, impact glass throughout, and a whole-house generator. Offered at $2,799,999.'
+  'A 2021-built waterfront Sumatra Select in guard-gated Lotus: 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool on a marble deck, impact glass throughout, and a whole-house generator. Offered at $2,750,000.'
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -232,7 +232,7 @@ export default function SkywardStreetPage() {
     },
     offers: {
       '@type': 'Offer',
-      price: 2799999,
+      price: 2750000,
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
       url,
@@ -284,7 +284,7 @@ export default function SkywardStreetPage() {
             Lotus &middot; Boca Raton, Florida &middot; Active on BeachesMLS
           </p>
           <h1 className="sky-display sky-h1 mt-4 text-[#f5f2eb]">8804 Skyward Street</h1>
-          <p className="sky-num mt-5 font-serif text-3xl text-[#f5f2eb] sm:text-4xl">$2,799,999</p>
+          <p className="sky-num mt-5 font-serif text-3xl text-[#f5f2eb] sm:text-4xl">$2,750,000</p>
 
           <dl className="sky-num mt-8 flex flex-wrap items-center gap-x-0 gap-y-3 text-[#f5f2eb]">
             {[
@@ -587,7 +587,7 @@ export default function SkywardStreetPage() {
               <div className="border border-[#16140f] p-7 sm:p-8">
                 <h3 className="sky-label">The Numbers</h3>
                 <dl className="mt-4">
-                  <NumberRow label="Price" value="$2,799,999" />
+                  <NumberRow label="Price" value="$2,750,000" />
                   <NumberRow label="Status" value="Active" note="BeachesMLS" />
                   <NumberRow label="Living Area" value="4,932 sq ft" note="under air" />
                   <NumberRow label="Total" value="6,263 sq ft" note="incl. garage, porches & two-story volume" />
@@ -754,7 +754,7 @@ export default function SkywardStreetPage() {
         <div className="mx-auto max-w-6xl">
           <p className="font-serif text-lg text-[#f5f2eb]">
             8804 Skyward Street, Boca Raton, FL 33496 <span className="text-[#f5f2eb]/50">·</span>{' '}
-            <span className="sky-num">$2,799,999</span>
+            <span className="sky-num">$2,750,000</span>
           </p>
           <p className="mt-3 text-sm text-[#f5f2eb]/70">
             Listed by John Oliver · Premier Brokers International · 4658 Northlake Blvd., Suite
