@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import { leadMagnets } from '@/lib/leadMagnets'
 import LeadMagnetLanding from '@/components/leadMagnet/LeadMagnetLanding'
 import CountyMarketTables from '@/components/leadMagnet/CountyMarketTables'
-// The same August 2026 data and narrative files the PDF is built from.
-import stLucieMarket from '../../../scripts/pbc-county-report/data/st-lucie-market-2026-08.json'
-import stLucieNarrative from '../../../scripts/pbc-county-report/data/st-lucie-narrative-2026-08.json'
+// The same September 2026 data and narrative files the PDF is built from.
+import stLucieMarket from '../../../scripts/pbc-county-report/data/st-lucie-market-2026-09.json'
+import stLucieNarrative from '../../../scripts/pbc-county-report/data/st-lucie-narrative-2026-09.json'
 
 const magnet = leadMagnets['st-lucie-county-market-report']
 

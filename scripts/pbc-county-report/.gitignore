@@ -1,0 +1,4 @@
+build/
+previews/
+outputs/
+__pycache__/
