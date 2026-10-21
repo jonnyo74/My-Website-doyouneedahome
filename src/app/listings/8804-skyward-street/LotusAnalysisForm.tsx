@@ -125,6 +125,11 @@ export default function LotusAnalysisForm({
       if (!data.ok) throw new Error('Property analysis request rejected')
       setStatus('success')
       trackEvent('seller_form_submit', analytics)
+      trackEvent('seller_form_success', {
+        ...analytics,
+        page_path: window.location.pathname,
+        source: 'lotus_analysis',
+      })
       onSuccess?.()
     } catch (err) {
       console.error('Property analysis request error:', err)

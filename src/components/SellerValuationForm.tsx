@@ -140,6 +140,14 @@ export default function SellerValuationForm({
       const data = (await res.json()) as { ok?: boolean }
       if (!data.ok) throw new Error('Seller lead rejected')
       setStatus('success')
+      // Server confirmed (res.ok && data.ok). submittingRef blocks re-entry, so
+      // this fires once per successful submit. No PII in params.
+      const pagePath = window.location.pathname
+      trackEvent('seller_form_success', {
+        ...analyticsParams,
+        page_path: pagePath,
+        source: pagePath === '/sell' ? 'sell_page' : pagePath.replace(/^\//, ''),
+      })
     } catch (err) {
       console.error('Valuation request error:', err)
       setStatus('error')

@@ -184,6 +184,13 @@ export default function LeadMagnetForm({
       const data = (await res.json()) as { ok?: boolean; downloadUrl?: string }
       if (!data.ok) throw new Error('Lead submission rejected')
 
+      // Server confirmed (res.ok && data.ok). submittingRef blocks re-entry, so
+      // this fires once per successful submit. No PII in params.
+      trackEvent('lead_magnet_form_success', {
+        ...analyticsParams,
+        lead_magnet_name: magnet.key,
+        page_path: window.location.pathname,
+      })
       setStatus('success')
       if (data.downloadUrl) {
         setDownloadUrl(data.downloadUrl)
