@@ -258,3 +258,18 @@ table.data td.chg .ar { font-weight: 600; margin-right: 3px; }
 .insight .stat.two .v .row + .row { margin-top: 5px; }
 .insight .stat.two .v .sub { margin: 1px 0 0; }
 .insight .stat.two .l { margin-top: 7px; }
+
+/* Interpretation page: keep six cards plus the local-line footnote on one page
+   when the copy runs long (Sept 2026 Martin / St. Lucie condo cards). */
+.insights { gap: 8px; }
+.insight .body { padding: 10px 18px 10px 0; }
+.insight .stat { padding: 10px 14px; }
+.local-line { margin-top: 10px; padding-top: 8px; }
+.insight .body { padding: 9px 18px 9px 0; }
+.insight .body .h { margin-bottom: 3px; }
+.insight .body .b { font-size: 9.4pt; line-height: 1.42; }
+.insight .stat { padding: 9px 14px; }
+.insights { gap: 6px; }
+.insight .body { padding: 8px 18px 8px 0; }
+.insight .stat { padding: 8px 14px; }
+.local-line { margin-top: 8px; }
