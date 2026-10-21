@@ -16,15 +16,15 @@ import path from 'node:path'
 const REPORTS = [
   // The three county reports are built by scripts/pbc-county-report/build.py.
   {
-    file: 'private/reports/palm-beach-county-market-report-august-2026.pdf',
+    file: 'private/reports/palm-beach-county-market-report-september-2026.pdf',
     coverSlug: 'palm-beach-county-cover',
   },
   {
-    file: 'private/reports/martin-county-market-report-august-2026.pdf',
+    file: 'private/reports/martin-county-market-report-september-2026.pdf',
     coverSlug: 'martin-county-cover',
   },
   {
-    file: 'private/reports/st-lucie-county-market-report-august-2026.pdf',
+    file: 'private/reports/st-lucie-county-market-report-september-2026.pdf',
     coverSlug: 'st-lucie-county-cover',
   },
   // The guides are built by scripts/generate-guide-pdfs.mjs.

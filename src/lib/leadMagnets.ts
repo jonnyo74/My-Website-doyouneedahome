@@ -128,12 +128,12 @@ export const GUIDE_EDITION = '2026 Edition'
  * Publication month of the three county market reports (Palm Beach, Martin,
  * St. Lucie). The edition month and the data month are the same month.
  */
-export const COUNTY_REPORT_EDITION = 'August 2026'
+export const COUNTY_REPORT_EDITION = 'September 2026'
 /** The month the county report statistics actually cover. */
-export const COUNTY_REPORT_DATA_MONTH = 'August 2026'
+export const COUNTY_REPORT_DATA_MONTH = 'September 2026'
 /** Source line printed in all three county report PDFs. */
 export const COUNTY_REPORT_SOURCE =
-  'MIAMI REALTORS® + RWorld, based on Florida Realtors® data, August 2026'
+  'BeachesMLS (Broward, Palm Beaches & St. Lucie Realtors®), September 2026'
 
 // Counts printed on the guide landing pages and covers are derived from the
 // content files so they can never drift out of sync with what is actually in
@@ -151,31 +151,31 @@ const CONDO_QUESTION_COUNT =
 
 export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
   // ───────────────────────────────────────────────────────────────────────────
-  // Built by scripts/pbc-county-report/ from data/pbc-market-2026-08.json, which
+  // Built by scripts/pbc-county-report/ from data/pbc-market-2026-09.json, which
   // the landing-page tables also read. Replaces the two July-data Palm Beach
   // County reports (single-family and condo-townhome) — both property types are
   // in this one PDF. Past activity only: no predictions, no valuation claims.
   'palm-beach-county-market-report': {
     key: 'palm-beach-county-market-report',
-    id: 'palm-beach-county-market-report-2026-08',
+    id: 'palm-beach-county-market-report-2026-09',
     kind: 'market-report',
     title: 'Palm Beach County Market Report',
     shortTitle: 'Palm Beach County Market Report',
     category: 'Palm Beach County',
     edition: COUNTY_REPORT_EDITION,
     dataMonth: COUNTY_REPORT_DATA_MONTH,
-    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} Palm Beach County market data (MIAMI REALTORS® + RWorld, based on Florida Realtors® data)`,
-    fileName: 'palm-beach-county-market-report-august-2026.pdf',
+    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} Palm Beach County market data (BeachesMLS)`,
+    fileName: 'palm-beach-county-market-report-september-2026.pdf',
     coverImage: '/images/reports/palm-beach-county-cover.webp',
     coverImageLarge: '/images/reports/palm-beach-county-cover-lg.webp',
     coverAlt:
-      'Cover of the Palm Beach County Market Report, August 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
+      'Cover of the Palm Beach County Market Report, September 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
     crmTag: 'Lead Magnet - Palm Beach County Market Report',
     landingPage: '/palm-beach-county-market-report',
     ctaEyebrow: `Free — ${COUNTY_REPORT_DATA_MONTH} Palm Beach County Numbers`,
     ctaHeadline: 'What Palm Beach County Homes Actually Sold For',
     ctaDescription:
-      `In ${COUNTY_REPORT_DATA_MONTH}, the typical house sold for $650,000 and went under contract in 40 days, at 94.8% of asking. Condos are a different market: 6.7 months of supply and 69 days. See both, and what each means for your offer or your asking price.`,
+      `In ${COUNTY_REPORT_DATA_MONTH}, the typical house sold for $656,000 and went under contract in 43 days, at 94.7% of asking. Condos are a different market: 6.8 months of supply and 53 days. See both, and what each means for your offer or your asking price.`,
     ctaButtonLabel: 'Send Me the Numbers',
     benefits: [
       `What houses and condos actually sold for in ${COUNTY_REPORT_DATA_MONTH}, and how fast`,
@@ -183,33 +183,33 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       'How much is for sale now versus a year ago, so you can see who has the upper hand',
     ],
     keyStats: [
-      { value: '$650,000', label: 'Single-Family Median', sub: '+3.2% year over year' },
-      { value: '3.5', label: 'Single-Family Months of Supply', sub: 'down from 5.2' },
-      { value: '$300,000', label: 'Condo/Townhome Median', sub: '+5.3% year over year' },
-      { value: '6.7', label: 'Condo/Townhome Months of Supply', sub: 'down from 9.0' },
+      { value: '$656,000', label: 'Single-Family Median', sub: '+6.7% year over year' },
+      { value: '3.6', label: 'Single-Family Months of Supply', sub: 'down from 5.0' },
+      { value: '$310,000', label: 'Condo/Townhome Median', sub: '+3.3% year over year' },
+      { value: '6.8', label: 'Condo/Townhome Months of Supply', sub: 'down from 8.8' },
     ],
     subheadline:
       'Prices, inventory, pace and negotiating conditions across Palm Beach County, with single-family homes and condos/townhomes measured separately.',
     metaTitle: `Palm Beach County Real Estate Market Report | ${COUNTY_REPORT_EDITION}`,
     metaDescription:
-      'Palm Beach County August 2026: single-family median $650,000 at 3.5 months of supply; condos/townhomes $300,000 at 6.7 months. Free PDF with year-over-year tables.',
+      'Palm Beach County September 2026: single-family median $656,000 at 3.6 months of supply; condos/townhomes $310,000 at 6.8 months. Free PDF with year-over-year tables.',
     summaryHeading: `What the ${COUNTY_REPORT_DATA_MONTH} Numbers Say`,
     summary:
-      'Single-family homes and condos/townhomes behaved like two different markets in Palm Beach County in August 2026. Single-family supply tightened from 5.2 to 3.5 months as active inventory fell 23.8% to 4,345, and median days to contract dropped from 46 to 40, even though closed sales slipped 2.0% to 1,112. The median sale price was $650,000, against $630,000 a year earlier, and the typical sale closed at 94.8% of original list price. That reads as seller-leaning. Condos and townhomes still leave more room to negotiate at 6.7 months of supply, with a median of 69 days to contract and sales closing at 92.6% of original list price, but inventory fell 17.1% and supply is down from 9.0 months, so that room is narrower than it was a year ago.',
+      'Single-family homes and condos/townhomes behaved like two different markets in Palm Beach County in September 2026. Single-family supply tightened from 5.0 to 3.6 months as active inventory fell 19.6% to 4,481, and median days to contract dropped from 51 to 43, even though closed sales slipped 2.7% to 1,132. The median sale price was $656,000, against $615,000 a year earlier, and the typical sale closed at 94.7% of original list price. That reads as seller-leaning. Condos and townhomes still leave more room to negotiate at 6.8 months of supply, with a median of 53 days to contract and sales closing at 93.2% of original list price, but inventory fell 15.3% and supply is down from 8.8 months, so that room is narrower than it was a year ago.',
     takeaways: [
-      'Single-family: 1,112 closed sales (−2.0%), median $650,000 (+3.2%), 3.5 months of supply, down from 5.2.',
-      'Single-family median days to contract fell from 46 to 40, and sales closed at 94.8% of original list price, up from 93.3%.',
-      'Condo/townhome: 765 closed sales (−6.7%), median $300,000 (+5.3%), 6.7 months of supply, down from 9.0.',
-      'Condo/townhome sales closed at 92.6% of original list price, with a median of 69 days to contract, down from 74.',
-      'Active inventory fell 23.8% for single-family homes and 17.1% for condos and townhomes.',
-      '41.8% of single-family and 57.3% of condo/townhome closings were paid in cash, calculated from the reported counts.',
+      'Single-family: 1,132 closed sales (−2.7%), median $656,000 (+6.7%), 3.6 months of supply, down from 5.0.',
+      'Single-family median days to contract fell from 51 to 43, and sales closed at 94.7% of original list price, up from 93.4%.',
+      'Condo/townhome: 782 closed sales (−4.3%), median $310,000 (+3.3%), 6.8 months of supply, down from 8.8.',
+      'Condo/townhome sales closed at 93.2% of original list price, with a median of 53 days to contract, down from 65.',
+      'Active inventory fell 19.6% for single-family homes and 15.3% for condos and townhomes.',
+      '44.7% of single-family and 61.1% of condo/townhome closings were paid in cash, calculated from the reported counts.',
     ],
     audienceColumns: [
       {
         heading: 'If You Are Buying',
         points: [
-          'See how 3.5 months of single-family supply and a 40-day median contract time shape how ready you need to be.',
-          'Understand the negotiating room 6.7 months of condo/townhome supply still gives buyers, and why it is narrower than a year ago.',
+          'See how 3.6 months of single-family supply and a 43-day median contract time shape how ready you need to be.',
+          'Understand the negotiating room 6.8 months of condo/townhome supply still gives buyers, and why it is narrower than a year ago.',
           'Base offers on what homes actually closed at relative to original list price, not on asking prices.',
         ],
       },
@@ -225,7 +225,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     faqs: [
       {
         q: 'What data is in the Palm Beach County Market Report?',
-        a: 'August 2026 county-level figures for Palm Beach County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with August 2025, plus guidance for buyers and sellers. Source: MIAMI REALTORS® + RWorld, based on Florida Realtors® data.',
+        a: 'September 2026 county-level figures for Palm Beach County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with September 2025, plus guidance for buyers and sellers. Source: BeachesMLS (Broward, Palm Beaches & St. Lucie Realtors®).',
       },
       {
         q: 'Does it include figures for my city or neighborhood?',
@@ -233,7 +233,7 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       },
       {
         q: 'Does it cover condos as well as houses?',
-        a: 'Yes. Single-family homes and condos/townhomes are reported separately, because in August 2026 they were behaving like two different markets: 3.5 months of supply for single-family homes against 6.7 for condos and townhomes.',
+        a: 'Yes. Single-family homes and condos/townhomes are reported separately, because in September 2026 they were behaving like two different markets: 3.6 months of supply for single-family homes against 6.8 for condos and townhomes.',
       },
       {
         q: 'Is the report really free?',
@@ -491,32 +491,32 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
 
   // ───────────────────────────────────────────────────────────────────────────
   // The Martin and St. Lucie county reports. Every figure below comes from the
-  // August 2026 data files the PDFs are built from — scripts/pbc-county-report/
-  // data/{martin,st-lucie}-market-2026-08.json — and the landing-page tables
+  // September 2026 data files the PDFs are built from — scripts/pbc-county-report/
+  // data/{martin,st-lucie}-market-2026-09.json — and the landing-page tables
   // read those same files. Past activity only: no predictions, no valuation
-  // claims. Both condo medians rest on small samples (61 and 80 closings) and
+  // claims. Both condo medians rest on small samples (90 and 91 closings) and
   // must never be presented as a blanket increase in condo values.
   'martin-county-market-report': {
     key: 'martin-county-market-report',
-    id: 'martin-county-market-report-2026-08',
+    id: 'martin-county-market-report-2026-09',
     kind: 'market-report',
     title: 'Martin County Market Report',
     shortTitle: 'Martin County Market Report',
     category: 'Martin County',
     edition: COUNTY_REPORT_EDITION,
     dataMonth: COUNTY_REPORT_DATA_MONTH,
-    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} Martin County market data (MIAMI REALTORS® + RWorld, based on Florida Realtors® data)`,
-    fileName: 'martin-county-market-report-august-2026.pdf',
+    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} Martin County market data (BeachesMLS)`,
+    fileName: 'martin-county-market-report-september-2026.pdf',
     coverImage: '/images/reports/martin-county-cover.webp',
     coverImageLarge: '/images/reports/martin-county-cover-lg.webp',
     coverAlt:
-      'Cover of the Martin County Market Report, August 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
+      'Cover of the Martin County Market Report, September 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
     crmTag: 'Lead Magnet - Martin County Market Report',
     landingPage: '/martin-county-market-report',
     ctaEyebrow: `Free — ${COUNTY_REPORT_DATA_MONTH} Martin County Numbers`,
     ctaHeadline: 'Martin County Houses Are Selling Three Weeks Faster',
     ctaDescription:
-      `In ${COUNTY_REPORT_DATA_MONTH}, houses went under contract in 56 days, down from 77 a year ago, and what is for sale dropped by more than a fifth. The typical house sold for $656,900. Every number is Martin County \u2014 Stuart, Palm City, Hobe Sound and Port Salerno \u2014 not Palm Beach County.`,
+      `In ${COUNTY_REPORT_DATA_MONTH}, houses went under contract in 39 days, down from 62 a year ago, and what is for sale dropped by nearly a fifth. The typical house sold for $600,000. Every number is Martin County \u2014 Stuart, Palm City, Hobe Sound and Port Salerno \u2014 not Palm Beach County.`,
     ctaButtonLabel: 'Send Me the Numbers',
     benefits: [
       `What houses and condos actually sold for in ${COUNTY_REPORT_DATA_MONTH}, and how fast`,
@@ -524,32 +524,32 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       'Martin County only, never blended with Palm Beach County',
     ],
     keyStats: [
-      { value: '$656,900', label: 'Single-Family Median', sub: '+12.8% year over year' },
-      { value: '3.4', label: 'Single-Family Months of Supply', sub: 'down from 5.1' },
-      { value: '56', label: 'Single-Family Days to Contract', sub: 'down from 77' },
-      { value: '5.5', label: 'Condo/Townhome Months of Supply', sub: 'down from 8.1' },
+      { value: '$600,000', label: 'Single-Family Median', sub: '+5.3% year over year' },
+      { value: '3.6', label: 'Single-Family Months of Supply', sub: 'down from 5.1' },
+      { value: '39', label: 'Single-Family Days to Contract', sub: 'down from 62' },
+      { value: '5.1', label: 'Condo/Townhome Months of Supply', sub: 'down from 7.9' },
     ],
     subheadline:
       'Stuart, Palm City, Hobe Sound, Port Salerno and the rest of Martin County, measured on their own county’s numbers rather than Palm Beach County’s.',
     metaTitle: `Martin County Real Estate Market Report | ${COUNTY_REPORT_EDITION}`,
     metaDescription:
-      'Martin County August 2026: single-family median $656,900 at 3.4 months of supply; condos/townhomes at 5.5 months. Year-over-year tables in a free PDF.',
+      'Martin County September 2026: single-family median $600,000 at 3.6 months of supply; condos/townhomes at 5.1 months. Year-over-year tables in a free PDF.',
     summaryHeading: `What the ${COUNTY_REPORT_DATA_MONTH} Numbers Say`,
     summary:
-      'Martin County recorded fewer closings and fewer active listings in August 2026 than a year earlier, for both property types. Single-family closed sales fell 11.3% to 181 while active inventory fell 21.7% to 644, taking months of supply from 5.1 to 3.4. Median days to contract dropped from 77 to 56, the typical sale closed at 94.2% of original list price, and the median sale price was $656,900, compared with $582,500 in August 2025. That combination reads as seller-leaning. Condos and townhomes are closer to balanced: supply fell from 8.1 to 5.5 months, sales closed at 90.8% of original list price, and the median took 84 days to reach contract. The condo/townhome median rose 20.7% to $277,500, but it rests on only 61 closings, so it reflects the mix of units that happened to sell rather than a change in what any particular condo is worth.',
+      'Martin County recorded fewer active listings in September 2026 than a year earlier, for both property types. Single-family closed sales fell 4.0% to 168 while active inventory fell 18.1% to 682, taking months of supply from 5.1 to 3.6. Median days to contract dropped from 62 to 39, the typical sale closed at 94.6% of original list price, and the median sale price was $600,000, compared with $570,000 in September 2025. That combination reads as seller-leaning. Condos and townhomes are closer to balanced: supply fell from 7.9 to 5.1 months, the largest move in either property type, and sales closed at 92.3% of original list price, up from 89.0%. Closings rose 13.9% to 90, though median days to contract lengthened from 80 to 89. The condo/townhome median rose 8.0% to $237,500, but it rests on only 90 closings, so it reflects the mix of units that happened to sell rather than a change in what any particular condo is worth.',
     takeaways: [
-      'Single-family: 181 closed sales (−11.3%), median $656,900 (+12.8%), 3.4 months of supply, down from 5.1.',
-      'Single-family median days to contract fell from 77 to 56, and sales closed at 94.2% of original list price, up from 91.5%.',
-      'Condo/townhome: 61 closed sales (−22.8%), 5.5 months of supply, down from 8.1, at 90.8% of original list price.',
-      'The +20.7% condo/townhome median rests on only 61 closings. It is not a blanket conclusion about condo values.',
-      'Active inventory fell 21.7% for single-family homes and 19.9% for condos and townhomes.',
-      '36.5% of single-family and 52.5% of condo/townhome closings were paid in cash, calculated from the reported counts.',
+      'Single-family: 168 closed sales (−4.0%), median $600,000 (+5.3%), 3.6 months of supply, down from 5.1.',
+      'Single-family median days to contract fell from 62 to 39, and sales closed at 94.6% of original list price, up from 93.1%.',
+      'Condo/townhome: 90 closed sales (+13.9%), 5.1 months of supply, down from 7.9, at 92.3% of original list price.',
+      'The +8.0% condo/townhome median rests on only 90 closings. It is not a blanket conclusion about condo values.',
+      'Active inventory fell 18.1% for single-family homes and 24.8% for condos and townhomes.',
+      '33.3% of single-family and 58.9% of condo/townhome closings were paid in cash, calculated from the reported counts.',
     ],
     audienceColumns: [
       {
         heading: 'If You Are Buying',
         points: [
-          'See how 3.4 months of single-family supply and a 56-day median contract time shape how ready you need to be.',
+          'See how 3.6 months of single-family supply and a 39-day median contract time shape how ready you need to be.',
           'Anchor offers to what homes actually closed at, relative to original list price, by property type.',
           'Know which condo and townhome figures rest on small samples before you read too much into them.',
         ],
@@ -566,15 +566,15 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     faqs: [
       {
         q: 'What data is in the Martin County Market Report?',
-        a: 'August 2026 county-level figures for Martin County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with August 2025. Source: MIAMI REALTORS® + RWorld, based on Florida Realtors® data.',
+        a: 'September 2026 county-level figures for Martin County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with September 2025. Source: BeachesMLS (Broward, Palm Beaches & St. Lucie Realtors®).',
       },
       {
         q: 'Does it include figures for Stuart, Palm City, Hobe Sound or Port Salerno?',
         a: 'No. Every figure is a Martin County total. County numbers blend distinct local markets, and conditions in any one town or neighborhood can differ from the county median. For a specific area, we review recent sales and active competition there with you.',
       },
       {
-        q: 'Did Martin County condo values go up 20.7%?',
-        a: 'Not in any general sense. The condo/townhome median sale price was $277,500 in August 2026, compared with $230,000 a year earlier, but that median is based on only 61 closings. A sample that small moves with the mix of units that happened to sell, so it says nothing reliable about what any particular condo or townhome is worth.',
+        q: 'Did Martin County condo values go up 8.0%?',
+        a: 'Not in any general sense. The condo/townhome median sale price was $237,500 in September 2026, compared with $220,000 a year earlier, but that median is based on only 90 closings. A sample that small moves with the mix of units that happened to sell, so it says nothing reliable about what any particular condo or townhome is worth.',
       },
       {
         q: 'Is the report really free?',
@@ -611,25 +611,25 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
   // ───────────────────────────────────────────────────────────────────────────
   'st-lucie-county-market-report': {
     key: 'st-lucie-county-market-report',
-    id: 'st-lucie-county-market-report-2026-08',
+    id: 'st-lucie-county-market-report-2026-09',
     kind: 'market-report',
     title: 'St. Lucie County Market Report',
     shortTitle: 'St. Lucie County Market Report',
     category: 'St. Lucie County',
     edition: COUNTY_REPORT_EDITION,
     dataMonth: COUNTY_REPORT_DATA_MONTH,
-    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} St. Lucie County market data (MIAMI REALTORS® + RWorld, based on Florida Realtors® data)`,
-    fileName: 'st-lucie-county-market-report-august-2026.pdf',
+    dataAttribution: `${COUNTY_REPORT_DATA_MONTH} St. Lucie County market data (BeachesMLS)`,
+    fileName: 'st-lucie-county-market-report-september-2026.pdf',
     coverImage: '/images/reports/st-lucie-county-cover.webp',
     coverImageLarge: '/images/reports/st-lucie-county-cover-lg.webp',
     coverAlt:
-      'Cover of the St. Lucie County Market Report, August 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
+      'Cover of the St. Lucie County Market Report, September 2026, prepared by Christine Dekant and John Oliver of DO Homes Group',
     crmTag: 'Lead Magnet - St. Lucie County Market Report',
     landingPage: '/st-lucie-county-market-report',
     ctaEyebrow: `Free — ${COUNTY_REPORT_DATA_MONTH} St. Lucie County Numbers`,
-    ctaHeadline: 'Houses Are Tight Here. Condo Buyers Still Have Choice.',
+    ctaHeadline: 'Houses Are Near Balanced. Condo Buyers Still Have Choice.',
     ctaDescription:
-      `In ${COUNTY_REPORT_DATA_MONTH}, houses sold at 95.5% of asking in 54 days, so there was less room than most buyers expect. Condos ran 7.6 months of supply and 82 days, which is a different negotiation entirely. Both sets of numbers, in one free PDF.`,
+      `In ${COUNTY_REPORT_DATA_MONTH}, houses sold at 95.7% of asking in 52 days, so there was less room than most buyers expect. Condos ran 7.8 months of supply and 117 days, which is a different negotiation entirely. Both sets of numbers, in one free PDF.`,
     ctaButtonLabel: 'Send Me the Numbers',
     benefits: [
       `What houses and condos actually sold for in ${COUNTY_REPORT_DATA_MONTH}, and how fast`,
@@ -637,34 +637,34 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
       'St. Lucie County only, never blended with Palm Beach County',
     ],
     keyStats: [
-      { value: '$402,500', label: 'Single-Family Median', sub: '+0.6% year over year' },
-      { value: '4.9', label: 'Single-Family Months of Supply', sub: 'down from 5.4' },
-      { value: '95.5%', label: 'Single-Family List Price Received', sub: 'up from 94.3%' },
-      { value: '7.6', label: 'Condo/Townhome Months of Supply', sub: 'down from 10.1' },
+      { value: '$395,000', label: 'Single-Family Median', sub: '−1.3% year over year' },
+      { value: '5.2', label: 'Single-Family Months of Supply', sub: 'down from 5.5' },
+      { value: '95.7%', label: 'Single-Family List Price Received', sub: 'up from 95.0%' },
+      { value: '7.8', label: 'Condo/Townhome Months of Supply', sub: 'down from 9.5' },
     ],
     subheadline:
       'Port St. Lucie and the rest of St. Lucie County, measured on their own county’s numbers rather than Palm Beach County’s.',
     metaTitle: `St. Lucie County Real Estate Market Report | ${COUNTY_REPORT_EDITION}`,
     metaDescription:
-      'St. Lucie County August 2026: single-family median $402,500 at 4.9 months of supply; condos/townhomes at 7.6 months. Year-over-year tables in a free PDF.',
+      'St. Lucie County September 2026: single-family median $395,000 at 5.2 months of supply; condos/townhomes at 7.8 months. Year-over-year tables in a free PDF.',
     summaryHeading: `What the ${COUNTY_REPORT_DATA_MONTH} Numbers Say`,
     summary:
-      'St. Lucie County’s two property types sent different signals in August 2026. Single-family homes were near balanced and tilting toward sellers: supply eased from 5.4 to 4.9 months, the typical sale closed at 95.5% of original list price, up from 94.3%, and median days to contract fell from 64 to 54. The median sale price held essentially steady at $402,500, against $400,000 a year earlier, while closed sales slipped 6.5% to 444. Condos and townhomes remained buyer-leaning. Active inventory fell 15.2% to 626 and supply dropped from 10.1 months, yet 7.6 months still leaves buyers with options, and median days to contract lengthened from 78 to 82. The condo/townhome median rose 7.2% to $320,000, but it is based on only 80 closings, so read it alongside supply and list-price-received figures rather than as an increase in condo values.',
+      'St. Lucie County’s two property types sent different signals in September 2026. Single-family homes were close to balanced: supply eased from 5.5 to 5.2 months and the typical sale closed at 95.7% of original list price, up from 95.0%, but median days to contract rose from 44 to 52. The median sale price was $395,000, against $400,000 a year earlier, and closed sales slipped 8.7% to 464. Condos and townhomes remained buyer-leaning. Active inventory fell 10.6% to 635 and supply dropped from 9.5 months, yet 7.8 months still leaves buyers with options, and median days to contract lengthened from 69 to 117. The condo/townhome median rose 24.1% to $337,500, but it is based on only 91 closings in a county without much condo stock, so which buildings happened to trade moves it more than any change in what units are worth. Read it alongside supply and list-price-received figures, not as an increase in condo values.',
     takeaways: [
-      'Single-family: 444 closed sales (−6.5%), median $402,500 (+0.6%), 4.9 months of supply, down from 5.4.',
-      'Single-family sales closed at 95.5% of original list price, and median days to contract fell from 64 to 54.',
-      'Condo/townhome: 80 closed sales (−9.1%), 7.6 months of supply, down from 10.1, with median days to contract up from 78 to 82.',
-      'The +7.2% condo/townhome median rests on only 80 closings. It is not a universal increase in condo values.',
-      'Active inventory fell 3.4% to 2,270 single-family homes and 15.2% to 626 condos and townhomes.',
-      '25.2% of single-family and 53.8% of condo/townhome closings were paid in cash, calculated from the reported counts.',
+      'Single-family: 464 closed sales (−8.7%), median $395,000 (−1.3%), 5.2 months of supply, down from 5.5.',
+      'Single-family sales closed at 95.7% of original list price, but median days to contract rose from 44 to 52.',
+      'Condo/townhome: 91 closed sales (−3.2%), 7.8 months of supply, down from 9.5, with median days to contract up from 69 to 117.',
+      'The +24.1% condo/townhome median rests on only 91 closings. It is not a universal increase in condo values.',
+      'Active inventory fell 1.3% to 2,384 single-family homes and 10.6% to 635 condos and townhomes.',
+      '27.6% of single-family and 42.9% of condo/townhome closings were paid in cash, calculated from the reported counts.',
     ],
     audienceColumns: [
       {
         heading: 'If You Are Buying',
         points: [
-          'See why single-family sales closing at 95.5% of original list price can mean less room than you expect.',
-          'Understand the leverage 7.6 months of condo/townhome supply and an 82-day median contract time give buyers.',
-          'Judge a condo on its own building’s sales and finances, not a county median built on 80 closings.',
+          'See why single-family sales closing at 95.7% of original list price can mean less room than you expect.',
+          'Understand the leverage 7.8 months of condo/townhome supply and a 117-day median contract time give buyers.',
+          'Judge a condo on its own building’s sales and finances, not a county median built on 91 closings.',
         ],
       },
       {
@@ -679,15 +679,15 @@ export const leadMagnets: Record<LeadMagnetKey, LeadMagnet> = {
     faqs: [
       {
         q: 'What data is in the St. Lucie County Market Report?',
-        a: 'August 2026 county-level figures for St. Lucie County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with August 2025. Source: MIAMI REALTORS® + RWorld, based on Florida Realtors® data.',
+        a: 'September 2026 county-level figures for St. Lucie County single-family homes and condos/townhomes: closed sales, paid-in-cash sales, median sale price, percent of original list price received, median days to contract, active inventory and months of supply, each compared with September 2025. Source: BeachesMLS (Broward, Palm Beaches & St. Lucie Realtors®).',
       },
       {
         q: 'Does it include figures for Port St. Lucie?',
         a: 'No. Every figure is a St. Lucie County total. County numbers blend varied local markets, and conditions in any one city or neighborhood can differ from the county median. For a specific area, we review recent sales and active competition there with you.',
       },
       {
-        q: 'Did St. Lucie County condo values go up 7.2%?',
-        a: 'Not in any general sense. The condo/townhome median sale price was $320,000 in August 2026, compared with $298,450 a year earlier, but it is based on only 80 closings. Read it alongside 7.6 months of supply, 626 active listings and 93.7% of original list price received, not as a universal increase in condo values.',
+        q: 'Did St. Lucie County condo values go up 24.1%?',
+        a: 'Not in any general sense. The condo/townhome median sale price was $337,500 in September 2026, compared with $272,000 a year earlier, but it is based on only 91 closings in a county without much condo stock. Read it alongside 7.8 months of supply, 635 active listings and 93.3% of original list price received, not as a universal increase in condo values.',
       },
       {
         q: 'Is the report really free?',

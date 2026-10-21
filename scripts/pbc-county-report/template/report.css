@@ -1,0 +1,275 @@
+/* DO Homes Group — county market report. Tokens mirror src/app/globals.css on doyouneedahome.com
+   (navy-950/900/800, brand blue, report gold; Playfair Display + Inter) with a deep teal accent. */
+
+@font-face { font-family: "Inter"; font-weight: 400; src: url("../assets/fonts/inter-latin-400-normal.ttf"); }
+@font-face { font-family: "Inter"; font-weight: 500; src: url("../assets/fonts/inter-latin-500-normal.ttf"); }
+@font-face { font-family: "Inter"; font-weight: 600; src: url("../assets/fonts/inter-latin-600-normal.ttf"); }
+@font-face { font-family: "Inter"; font-weight: 700; src: url("../assets/fonts/inter-latin-700-normal.ttf"); }
+@font-face { font-family: "Playfair"; font-weight: 500; src: url("../assets/fonts/playfair-display-latin-500-normal.ttf"); }
+@font-face { font-family: "Playfair"; font-weight: 600; src: url("../assets/fonts/playfair-display-latin-600-normal.ttf"); }
+@font-face { font-family: "Playfair"; font-weight: 700; src: url("../assets/fonts/playfair-display-latin-700-normal.ttf"); }
+@font-face { font-family: "Playfair"; font-weight: 500; font-style: italic; src: url("../assets/fonts/playfair-display-latin-500-italic.ttf"); }
+
+:root {
+  --navy-950: #0B1929;
+  --navy-900: #0F2233;
+  --navy-800: #1A3A52;
+  --teal-700: #0E5E66;
+  --teal-600: #137580;
+  --teal-100: #DDEFEF;
+  --teal-50:  #F0F7F7;
+  --blue-600: #1561A0;
+  --gold:     #C9A961;
+  --gold-text:#8A6E33;
+  --ink:      #13283D;
+  --body:     #3B4B5C;
+  --muted:    #64748B;
+  --line:     #E2E8F0;
+  --paper:    #F7F9FB;
+}
+
+@page { size: letter; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: "Inter", sans-serif; color: var(--body); font-size: 10.5pt; line-height: 1.5; }
+.tile .val, .tile .chg, table.data td, .guide .stat .v, .cash .big { font-variant-numeric: tabular-nums; }
+a { color: inherit; text-decoration: none; }
+
+.page { width: 8.5in; height: 11in; position: relative; overflow: hidden; page-break-after: always;
+        padding: 0.62in 0.7in 0.9in; background: #fff; }
+.page:last-child { page-break-after: auto; }
+
+/* running header / footer on interior pages */
+.runhead { position: absolute; top: 0.34in; left: 0.7in; right: 0.7in; display: flex;
+           justify-content: space-between; font-size: 7.5pt; letter-spacing: .14em; text-transform: uppercase;
+           color: var(--muted); }
+.runhead b { color: var(--teal-700); font-weight: 600; }
+.foot { position: absolute; left: 0.7in; right: 0.7in; bottom: 0.38in; border-top: 1px solid var(--line);
+        padding-top: 8px; display: flex; justify-content: space-between; font-size: 7.5pt; color: var(--muted); }
+.foot .pg { color: var(--navy-800); font-weight: 600; }
+
+.eyebrow { font-size: 8pt; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--teal-600);
+           margin: 0.22in 0 6px; }
+h1 { font-family: "Playfair", serif; font-weight: 600; color: var(--navy-950); font-size: 30pt; line-height: 1.1;
+     margin: 0 0 10px; }
+h2 { font-family: "Playfair", serif; font-weight: 600; color: var(--navy-950); font-size: 15pt; margin: 0 0 8px; }
+.rule { width: 56px; height: 3px; background: var(--gold); margin: 12px 0 14px; }
+.lede { font-size: 11.5pt; line-height: 1.55; color: var(--body); max-width: 6.4in; margin: 0 0 18px; }
+.note { font-size: 7.8pt; color: var(--muted); line-height: 1.45; }
+
+/* ── COVER ─────────────────────────────────────────── */
+.cover { background: var(--navy-950); color: #fff; padding: 0; }
+.cover .band { position: absolute; left: 0; right: 0; bottom: 0; height: 0.14in;
+               background: linear-gradient(90deg, var(--teal-600), var(--teal-700) 60%, var(--gold)); }
+.cover .glow { position: absolute; right: -2.2in; top: -2.4in; width: 7in; height: 7in; border-radius: 50%;
+               background: radial-gradient(circle, rgba(19,117,128,.38) 0%, rgba(19,117,128,.10) 45%, rgba(11,25,41,0) 70%); }
+.cover .inner { position: absolute; left: 0.85in; right: 0.85in; top: 0; bottom: 0.14in; }
+.cover .logo-card { position: absolute; top: 0.7in; left: 0; background: #fff; border-radius: 10px;
+                    padding: 14px 18px; width: 3.1in; }
+.cover .logo-card img { width: 100%; display: block; }
+.cover .edition { position: absolute; top: 0.95in; right: 0; text-align: right; font-size: 8pt; letter-spacing: .2em;
+                  text-transform: uppercase; color: #9FB3C6; line-height: 1.7; }
+.cover .edition b { color: var(--gold); font-weight: 600; display: block; }
+.cover .title-block { position: absolute; top: 3.35in; left: 0; right: 0; }
+.cover .kicker { font-size: 9pt; font-weight: 600; letter-spacing: .24em; text-transform: uppercase; color: #7CC6CC; }
+.cover h1 { color: #fff; font-size: 48pt; line-height: 1.04; margin: 16px 0 0; font-weight: 600; }
+.cover .gold-rule { width: 84px; height: 3px; background: var(--gold); margin: 26px 0 20px; }
+.cover .results { font-family: "Playfair", serif; font-style: italic; font-weight: 500; font-size: 22pt; color: #E8EEF3; }
+.cover .scope { margin-top: 10px; font-size: 10.5pt; color: #9FB3C6; }
+.cover .team { position: absolute; left: 0; right: 0; bottom: 0.62in; border-top: 1px solid rgba(255,255,255,.14);
+               padding-top: 0.3in; }
+.cover .team-label { font-size: 7.5pt; letter-spacing: .22em; text-transform: uppercase; color: #9FB3C6; margin-bottom: 14px; }
+.cover .agents { display: flex; gap: 0.45in; align-items: center; }
+.cover .pbi-white { position: absolute; top: 0.86in; right: 0; height: 0.72in; }
+.cover .agent { display: flex; align-items: center; gap: 14px; }
+.cover .agent img { width: 0.9in; height: 0.9in; border-radius: 50%; border: 2px solid var(--gold); object-fit: cover; }
+.cover .agent .n { font-family: "Playfair", serif; font-size: 14pt; font-weight: 600; color: #fff; }
+.cover .agent .c { font-size: 7.6pt; color: #B9C7D4; letter-spacing: .04em; margin-top: 2px; }
+.cover .brokerage { margin-top: 0.26in; display: flex; justify-content: space-between; font-size: 9pt; color: #C9D5E0; }
+.cover .brokerage b { color: #fff; font-weight: 600; }
+
+/* ── 60 SECONDS ────────────────────────────────────── */
+.seg-grid { display: flex; gap: 0.22in; }
+.seg-card { flex: 1; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #fff; }
+.seg-card .hd { background: var(--navy-900); color: #fff; padding: 9px 14px; display: flex; justify-content: space-between;
+                align-items: baseline; }
+.seg-card .hd .t { font-family: "Playfair", serif; font-weight: 600; font-size: 12.5pt; }
+.seg-card .hd .ms { font-size: 7.6pt; color: #9FD3D6; letter-spacing: .06em; }
+.tiles { display: flex; flex-wrap: wrap; }
+.tile { width: 50%; padding: 11px 12px 12px; border-top: 1px solid var(--line); }
+.tile:nth-child(odd) { border-right: 1px solid var(--line); }
+.tile:nth-child(-n+2) { border-top: 0; }
+.tile .lab { font-size: 7.4pt; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.tile .val { font-family: "Inter"; font-weight: 700; color: var(--navy-950); font-size: 19pt; line-height: 1.15; margin-top: 3px;
+             letter-spacing: -.01em; }
+.tile .chg { font-size: 8pt; margin-top: 2px; color: var(--body); }
+.tile .chg b { color: var(--teal-700); font-weight: 700; }
+.tile .chg span { color: var(--muted); white-space: nowrap; }
+
+.chart-block { margin-top: 0.22in; border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px 6px; background: var(--paper); }
+.chart-block .top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.chart-block h2 { font-size: 12.5pt; margin: 0; }
+.legend { font-size: 7.6pt; color: var(--muted); white-space: nowrap; }
+.legend span { margin-left: 12px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-right: 4px; }
+.legend .cur { background: var(--teal-600); } .legend .pri { background: #B7C6D3; }
+.legend .ref { width: 0; height: 11px; border-left: 2px dashed var(--gold-text); border-radius: 0; }
+.supply-chart { width: 100%; height: auto; display: block; }
+/* svg styles are inline in build.py */
+.x-unused .grid { stroke: #E3E9EF; stroke-width: 1; }
+.supply-chart .ref  { stroke: var(--gold-text); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.supply-chart .axis { font: 500 9px "Inter"; fill: var(--muted); }
+.supply-chart .seglab { font: 600 11px "Inter"; fill: var(--navy-900); }
+.supply-chart .rowlab { font: 500 10px "Inter"; fill: var(--body); }
+.supply-chart .bar.cur { fill: var(--teal-600); } .supply-chart .bar.pri { fill: #B7C6D3; }
+.supply-chart .val { font: 700 10.5px "Inter"; } .supply-chart .val.cur { fill: var(--teal-700); } .supply-chart .val.pri { fill: var(--muted); font-weight: 600; }
+.chart-note { font-size: 7.6pt; color: var(--muted); margin: 2px 0 6px; }
+
+.stands { margin-top: 0.2in; }
+.stands h2 { font-size: 12.5pt; }
+.stands ol { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+.stands li { position: relative; padding-left: 30px; margin: 0 0 8px; font-size: 9.9pt; line-height: 1.48; counter-increment: s; }
+.stands li::before { content: counter(s); position: absolute; left: 0; top: 1px; width: 19px; height: 19px; border-radius: 50%;
+                     background: var(--teal-50); border: 1px solid var(--teal-100); color: var(--teal-700); font-weight: 700; font-size: 8pt;
+                     text-align: center; line-height: 18px; }
+.stands li strong { color: var(--navy-950); font-weight: 600; }
+
+/* ── NUMBERS ───────────────────────────────────────── */
+table.data { width: 100%; border-collapse: collapse; margin: 0 0 0.12in; page-break-inside: avoid; }
+table.data caption { text-align: left; font-family: "Playfair", serif; font-weight: 600; font-size: 13.5pt; color: var(--navy-950);
+                     padding-bottom: 6px; }
+table.data th { background: var(--navy-900); color: #fff; font-size: 7.8pt; letter-spacing: .1em; text-transform: uppercase;
+                font-weight: 600; padding: 7px 12px; text-align: right; }
+table.data th:first-child { text-align: left; border-top-left-radius: 8px; }
+table.data th:last-child { border-top-right-radius: 8px; }
+table.data td { padding: 5.5px 12px; font-size: 10pt; border-bottom: 1px solid var(--line); text-align: right; color: var(--ink); }
+table.data td:first-child { text-align: left; color: var(--body); }
+table.data tr:nth-child(even) td { background: var(--paper); }
+table.data td.cur { font-weight: 700; color: var(--navy-950); }
+table.data td.pri { color: var(--muted); }
+table.data td.chg { font-weight: 700; color: var(--teal-700); width: 1.05in; }
+table.data td.chg .ar { font-weight: 600; margin-right: 3px; }
+
+.cash-row { display: flex; gap: 0.2in; margin-top: 2px; }
+.cash { flex: 1; border-radius: 12px; background: var(--teal-50); border: 1px solid var(--teal-100); padding: 9px 16px; display: flex; gap: 14px; align-items: center; }
+.cash .big { font-weight: 700; font-size: 24pt; color: var(--teal-700); line-height: 1; letter-spacing: -.01em; }
+.cash .txt { font-size: 8.8pt; line-height: 1.4; color: var(--body); }
+.cash .txt b { color: var(--navy-950); font-weight: 600; }
+.cash .calc { display: block; font-size: 7.4pt; color: var(--muted); margin-top: 3px; }
+.meth { margin-top: 0.12in; font-size: 7.8pt; color: var(--muted); line-height: 1.5; }
+.meth p { margin: 0 0 4px; }
+
+/* ── BUYERS / SELLERS ──────────────────────────────── */
+.guide-cols { display: flex; gap: 0.24in; }
+.guide { flex: 1; }
+.guide .gh { display: flex; align-items: center; gap: 8px; padding-bottom: 8px; border-bottom: 2px solid var(--navy-900); margin-bottom: 10px; }
+.guide .gh .t { font-family: "Playfair", serif; font-weight: 600; font-size: 13.5pt; color: var(--navy-950); }
+.guide .stats { display: flex; gap: 6px; margin-bottom: 12px; }
+.guide .stat { flex: 1; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
+.guide .stat .v { font-weight: 700; font-size: 12.5pt; color: var(--navy-950); line-height: 1.1; }
+.guide .stat .l { font-size: 6.8pt; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-top: 2px; line-height: 1.25; }
+.point { margin: 0 0 11px; }
+.point .h { font-weight: 600; color: var(--navy-950); font-size: 9.8pt; line-height: 1.35; margin-bottom: 2px; padding-left: 12px; position: relative; }
+.point .h::before { content: ""; position: absolute; left: 0; top: 5px; width: 5px; height: 5px; border-radius: 50%; background: var(--teal-600); }
+.point .b { font-size: 9pt; line-height: 1.48; color: var(--body); padding-left: 12px; }
+
+.checklist { margin-top: 0.1in; background: var(--navy-950); color: #fff; border-radius: 12px; padding: 14px 18px; }
+.checklist .t { font-family: "Playfair", serif; font-size: 12.5pt; font-weight: 600; margin-bottom: 8px; }
+.checklist ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 0.3in; }
+.checklist li { font-size: 8.8pt; line-height: 1.4; padding-left: 20px; position: relative; margin-bottom: 6px; color: #DCE5EC; break-inside: avoid; }
+.checklist li::before { content: ""; position: absolute; left: 0; top: 2px; width: 10px; height: 10px; border: 1.5px solid #7CC6CC; border-radius: 2px; }
+.not-advice { margin-top: 10px; font-size: 7.6pt; color: var(--muted); }
+
+/* ── CTA ───────────────────────────────────────────── */
+.cta { padding: 0; }
+.cta .top { background: var(--navy-950); color: #fff; padding: 0.8in 0.7in 0.5in; position: relative; overflow: hidden; height: 5.55in; }
+.cta .top .glow { position: absolute; left: -2in; bottom: -3.2in; width: 6.5in; height: 6.5in; border-radius: 50%;
+                  background: radial-gradient(circle, rgba(19,117,128,.34) 0%, rgba(19,117,128,.08) 45%, rgba(11,25,41,0) 70%); }
+.cta .kicker { font-size: 8.5pt; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: #7CC6CC; position: relative; }
+.cta h1 { color: #fff; font-size: 34pt; line-height: 1.08; margin: 12px 0 0; max-width: 4.6in; position: relative; }
+.cta .gold-rule { width: 70px; height: 3px; background: var(--gold); margin: 20px 0 16px; position: relative; }
+.cta p.lede { color: #C9D5E0; font-size: 11pt; max-width: 4.15in; position: relative; }
+.cta .btn { display: inline-block; background: var(--teal-600); color: #fff; font-weight: 600; font-size: 11pt; border-radius: 8px;
+            padding: 11px 20px; margin-top: 6px; position: relative; }
+.cta .phone { display: inline-block; margin-left: 16px; font-size: 13pt; font-weight: 600; color: #fff; position: relative; }
+.cta .qr { position: absolute; right: 0.7in; top: 1.35in; width: 2.05in; background: #fff; border-radius: 12px; padding: 14px 14px 10px; text-align: center; }
+.cta .qr img { width: 100%; display: block; }
+.cta .qr .cap { font-size: 7.8pt; color: var(--navy-800); margin-top: 8px; line-height: 1.35; font-weight: 500; }
+.cta .bottom { padding: 0.55in 0.7in 0; }
+.cta .band { position: absolute; left: 0; right: 0; bottom: 0; height: 0.14in; background: linear-gradient(90deg, var(--teal-600), var(--teal-700) 60%, var(--gold)); }
+.cta .agents { display: flex; gap: 0.22in; }
+.cta .agent { flex: 1; display: flex; gap: 16px; align-items: center; border: 1px solid var(--line); border-radius: 12px; padding: 16px 16px; }
+.cta .agent img { width: 1.05in; height: 1.05in; border-radius: 50%; object-fit: cover; border: 2px solid var(--teal-100); }
+.cta .agent .n { font-family: "Playfair", serif; font-weight: 600; font-size: 14pt; color: var(--navy-950); }
+.cta .agent .c { font-size: 7.8pt; color: var(--teal-700); font-weight: 600; margin: 2px 0 4px; letter-spacing: .02em; }
+.cta .agent .d { font-size: 8.6pt; color: var(--body); line-height: 1.4; }
+.cta .brand-row { display: flex; align-items: center; justify-content: space-between; margin-top: 0.34in; padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.cta .brand-row .dh { height: 0.52in; }
+.cta .brand-row .pbi { height: 0.52in; }
+.cta .brand-row .mid { text-align: center; font-size: 9pt; color: var(--body); line-height: 1.45; }
+.cta .brand-row .mid b { color: var(--navy-950); font-weight: 600; }
+.cta .brand-row .mid a { color: var(--blue-600); font-weight: 600; }
+.cta .legal { margin-top: 0.3in; font-size: 7.5pt; color: var(--muted); line-height: 1.5; }
+.cta .legal .src { color: var(--body); font-weight: 500; margin-bottom: 5px; }
+
+/* ── WHAT THE NUMBERS SAY ──────────────────────────── */
+.insights { display: flex; flex-direction: column; gap: 12px; }
+.insight { display: flex; gap: 18px; align-items: stretch; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #fff; }
+.insight .stat { width: 1.75in; flex: none; background: var(--navy-900); color: #fff; padding: 14px 14px; display: flex; flex-direction: column; justify-content: center; }
+.insight .stat .v { font-weight: 700; font-size: 22pt; line-height: 1.05; letter-spacing: -.01em; color: #fff; font-variant-numeric: tabular-nums; }
+.insight .stat .l { font-size: 7.4pt; color: #9FD3D6; text-transform: uppercase; letter-spacing: .08em; margin-top: 5px; line-height: 1.3; }
+.insight .body { padding: 13px 18px 13px 0; }
+.insight .body .h { font-family: "Playfair", serif; font-weight: 600; font-size: 13pt; color: var(--navy-950); line-height: 1.25; margin-bottom: 4px; }
+.insight .body .b { font-size: 9.6pt; line-height: 1.5; color: var(--body); }
+.local-line { margin: 16px 0 0; padding-top: 10px; border-top: 1px solid var(--line); font-size: 8.6pt; color: var(--muted); font-style: normal; }
+.glance-note { margin-top: 0.2in; font-size: 9.6pt; color: var(--body); line-height: 1.5; }
+
+/* ── BUYERS + SELLERS combined page ────────────────── */
+.bs-cols { display: flex; gap: 0.24in; }
+.bs { flex: 1; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.bs-hd { background: var(--navy-900); color: #fff; font-family: "Playfair", serif; font-weight: 600; font-size: 15pt; padding: 10px 16px; }
+.bs-seg { padding: 12px 16px 2px; }
+.bs-seg + .bs-seg { border-top: 1px solid var(--line); }
+.bs-seg-t { font-weight: 700; font-size: 10pt; color: var(--teal-700); margin-bottom: 8px; }
+.bs-seg-t span { display: block; font-weight: 500; font-size: 7.6pt; color: var(--muted); letter-spacing: .02em; margin-top: 1px; }
+.cta h1.long { font-size: 26pt; max-width: 4.5in; line-height: 1.14; }
+
+.verdicts { display: flex; gap: 0.22in; margin-top: 0.22in; }
+.verdict { flex: 1; background: var(--navy-950); color: #fff; border-radius: 12px; padding: 16px 18px; position: relative; overflow: hidden; }
+.verdict::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--teal-600); }
+.verdict .k { font-size: 7.6pt; letter-spacing: .14em; text-transform: uppercase; color: #9FB3C6; font-weight: 600; }
+.verdict .v { font-weight: 700; font-size: 26pt; line-height: 1.1; margin-top: 6px; font-variant-numeric: tabular-nums; }
+.verdict .w { font-family: "Playfair", serif; font-weight: 600; font-size: 14pt; color: #7CC6CC; margin-top: 2px; }
+.verdict .n { font-size: 8.8pt; line-height: 1.45; color: #C9D5E0; margin-top: 8px; }
+
+.insight .stat.two .v { font-size: 15pt; line-height: 1.25; }
+.insight .stat .v .sub { display: block; font-size: 6.8pt; font-weight: 500; color: #9FD3D6; letter-spacing: .06em; text-transform: uppercase; line-height: 1.2; margin-bottom: 3px; }
+.bs-seg { padding: 15px 18px 6px; }
+.bs .point { margin-bottom: 13px; }
+.bs .point .h { font-size: 10.4pt; }
+.bs .point .b { font-size: 9.7pt; line-height: 1.52; }
+.bs-seg-t { font-size: 10.6pt; margin-bottom: 10px; }
+
+.insights { gap: 10px; }
+.insight .body { padding: 12px 18px 12px 0; }
+.insight .stat { padding: 12px 14px; }
+.insight .stat.two .v { font-size: 15pt; line-height: 1.1; }
+.insight .stat.two .v .row { display: block; }
+.insight .stat.two .v .row + .row { margin-top: 5px; }
+.insight .stat.two .v .sub { margin: 1px 0 0; }
+.insight .stat.two .l { margin-top: 7px; }
+
+/* Interpretation page: keep six cards plus the local-line footnote on one page
+   when the copy runs long (Sept 2026 Martin / St. Lucie condo cards). */
+.insights { gap: 8px; }
+.insight .body { padding: 10px 18px 10px 0; }
+.insight .stat { padding: 10px 14px; }
+.local-line { margin-top: 10px; padding-top: 8px; }
+.insight .body { padding: 9px 18px 9px 0; }
+.insight .body .h { margin-bottom: 3px; }
+.insight .body .b { font-size: 9.4pt; line-height: 1.42; }
+.insight .stat { padding: 9px 14px; }
+.insights { gap: 6px; }
+.insight .body { padding: 8px 18px 8px 0; }
+.insight .stat { padding: 8px 14px; }
+.local-line { margin-top: 8px; }
