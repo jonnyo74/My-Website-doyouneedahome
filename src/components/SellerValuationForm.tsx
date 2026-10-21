@@ -140,7 +140,12 @@ export default function SellerValuationForm({
       const data = (await res.json()) as { ok?: boolean }
       if (!data.ok) throw new Error('Seller lead rejected')
       setStatus('success')
-      trackEvent('valuation_form_success', analyticsParams)
+      const pagePath = window.location.pathname
+      trackEvent('valuation_form_success', {
+        ...analyticsParams,
+        page_path: pagePath,
+        source: pagePath === '/sell' ? 'sell_page' : pagePath.replace(/^\//, ''),
+      })
       trackEvent('generate_lead', { ...analyticsParams, form_type: 'valuation', phone_provided: !!values.phone.trim() })
     } catch (err) {
       console.error('Valuation request error:', err)
