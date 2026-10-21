@@ -167,6 +167,8 @@ export interface Listing {
   financingTermsAccepted?: string[]
 
   virtualTourUrl?: string
+  // YouTube video ID for a click-to-play video tour above the photo gallery.
+  videoId?: string
   heroPhoto?: ListingPhoto
   // Pre-cropped 1200x630 image for social/link previews (Facebook, LinkedIn, etc.)
   // — falls back to heroPhoto if not set, but that risks an odd crop since hero
@@ -210,7 +212,7 @@ const CHRISTINE: ListingAgentInfo = {
 
 export const listings: Listing[] = [
   // ─────────────────────────────────────────────────────────────────────────
-  // Now Active at $2,799,999 (Aug 2026). This entry feeds the listing cards,
+  // Now Active at $2,750,000 (Aug 2026). This entry feeds the listing cards,
   // sitemap, and internal links — the page itself is the standalone microsite
   // at src/app/listings/8804-skyward-street/, which shadows the [slug] route.
   // Price, taxes, HOA, and lot figures below are John-verified for the active
@@ -230,7 +232,8 @@ export const listings: Listing[] = [
     lng: -80.184635,
     subdivision: 'Lotus',
 
-    price: 2799999,
+    price: 2750000,
+    originalPrice: 2799999,
 
     propertyType: 'Single-Family Residence',
     beds: 5,
@@ -505,7 +508,7 @@ export const listings: Listing[] = [
 
     metaTitle: '8804 Skyward Street — Lakefront in Lotus | Boca Raton, FL',
     metaDescription:
-      'Waterfront in Lotus, Boca Raton — a 2021 Sumatra Select with 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool, impact glass and a whole-house generator. $2,799,999.',
+      'Waterfront in Lotus, Boca Raton — a 2021 Sumatra Select with 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool, impact glass and a whole-house generator. $2,750,000.',
   },
   {
     slug: '6145-se-audubon-lane',
@@ -523,9 +526,9 @@ export const listings: Listing[] = [
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
-    price: 575000,
+    price: 560000,
     originalPrice: 625000,
-    pricePerSqft: 406.07,
+    pricePerSqft: 395.48,
 
     propertyType: 'Single-Family Residence',
     // Two bedrooms on the MLS. The third room is a den: it has a window but no
@@ -675,20 +678,13 @@ export const listings: Listing[] = [
       '2 bedrooms plus a den/flex room. The den has no closet and has a door opening into the garage; buyer to verify intended use and any conversion with the Martin County Building Department. Improvement dates provided by seller. All information deemed reliable but not guaranteed; measurements approximate. Buyer to verify all items independently.',
     ],
 
-    openHouses: [
-      {
-        date: 'Sunday, August 30',
-        time: '11:00 AM – 1:00 PM',
-        endsAt: '2026-08-30T13:00:00-04:00',
-      },
-    ],
-
     listingDateDisplay: 'June 12, 2026',
     domCount: 33,
     possession: 'Close of escrow',
     financingTermsAccepted: ['Cash', 'Conventional', 'FHA', 'VA Loan'],
 
     virtualTourUrl: 'https://www.propertypanorama.com/6145-SE-Audubon-Lane-Hobe-Sound-FL-33455/unbranded',
+    videoId: 'aI05W92hSfs',
 
     heroPhoto: {
       src: '/images/listings/6145-se-audubon-lane/01-exterior-front-twilight.jpg',
@@ -753,7 +749,7 @@ export const listings: Listing[] = [
     brokerage: 'Premier Brokers International',
 
     metaTitle: '6145 SE Audubon Lane: 2 Bed + Den No-HOA Pool Home in Hobe Sound, FL',
-    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $575,000. Schedule a private showing.",
+    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $560,000. Schedule a private showing.",
   },
   {
     slug: '982-sw-worcester-lane',
