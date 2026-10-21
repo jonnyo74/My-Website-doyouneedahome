@@ -284,7 +284,12 @@ export default function SkywardStreetPage() {
             Lotus &middot; Boca Raton, Florida &middot; Active on BeachesMLS
           </p>
           <h1 className="sky-display sky-h1 mt-4 text-[#f5f2eb]">8804 Skyward Street</h1>
-          <p className="sky-num mt-5 font-serif text-3xl text-[#f5f2eb] sm:text-4xl">$2,750,000</p>
+          <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <p className="sky-num font-serif text-3xl text-[#f5f2eb] sm:text-4xl">$2,750,000</p>
+            <span className="rounded-full border border-[#f5f2eb]/70 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#f5f2eb]">
+              Price Reduced
+            </span>
+          </div>
 
           <dl className="sky-num mt-8 flex flex-wrap items-center gap-x-0 gap-y-3 text-[#f5f2eb]">
             {[

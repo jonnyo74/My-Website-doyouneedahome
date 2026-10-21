@@ -233,6 +233,7 @@ export const listings: Listing[] = [
     subdivision: 'Lotus',
 
     price: 2750000,
+    originalPrice: 2799999,
 
     propertyType: 'Single-Family Residence',
     beds: 5,
