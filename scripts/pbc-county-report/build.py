@@ -29,6 +29,7 @@ import json
 import math
 import subprocess
 import sys
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 import qrcode
@@ -55,16 +56,29 @@ def f_arrow(v): return "↑" if v > 0 else "↓" if v < 0 else "→"
 
 
 # ── Data validation ─────────────────────────────────────────────────────────
+def round1(v: float) -> float:
+    """Round to 1dp half away from zero, the way the source graphics round.
+
+    Python's round() is half-to-even, so round(11.25, 1) is 11.2 while the
+    graphic prints 11.3 — and the check below would then reject a figure that
+    was transcribed correctly. September 2026 hit this twice: Martin condo days
+    to contract (89 vs 80 = exactly 11.25%) and St. Lucie single-family median
+    price (395,000 vs 400,000 = exactly -1.25%). The tolerance stays at 0.05;
+    only the rounding convention changes.
+    """
+    return float(Decimal(repr(v)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP))
+
+
 def validate(data: dict) -> list[str]:
     problems = []
     for seg in data["segments"]:
         for key, m in seg["metrics"].items():
             calc = (m["current"] - m["prior"]) / m["prior"] * 100
-            if abs(round(calc, 1) - m["pct"]) > 0.05 + 1e-9:
+            if abs(round1(calc) - m["pct"]) > 0.05 + 1e-9:
                 problems.append(f"{seg['key']}.{key}: reported {m['pct']}% but raw values give {calc:.2f}%")
         m = seg["metrics"]
         share = m["paidInCash"]["current"] / m["closedSales"]["current"] * 100
-        if abs(round(share, 1) - data["cashShare"][seg["key"]]) > 0.05 + 1e-9:
+        if abs(round1(share) - data["cashShare"][seg["key"]]) > 0.05 + 1e-9:
             problems.append(f"cashShare.{seg['key']}: stated {data['cashShare'][seg['key']]} but counts give {share:.2f}%")
     return problems
 
