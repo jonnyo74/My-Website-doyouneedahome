@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getListingBySlug } from '@/lib/listings'
+import TestimonialRotator from './TestimonialRotator'
 import ValueForm from './ValueForm'
 
 // Mailed-postcard landing page. Reached only by QR code, so it is kept out of
@@ -84,6 +85,7 @@ export default function ValuePage() {
                 Palm Beach County &amp; Treasure Coast
               </p>
             </div>
+            <TestimonialRotator />
           </div>
           <ValueForm />
         </div>
