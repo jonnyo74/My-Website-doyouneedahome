@@ -6,7 +6,8 @@ import { usePathname } from 'next/navigation'
 // (brokerage, disclaimers, contact) and the site Header/Footer must not wrap
 // them. Children are server-rendered as usual; this wrapper only decides
 // whether they appear.
-const STANDALONE_ROUTES = ['/listings/8804-skyward-street']
+// /value is the mailed-postcard landing page: one purpose, no navigation.
+const STANDALONE_ROUTES = ['/listings/8804-skyward-street', '/value']
 
 export default function SiteChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
