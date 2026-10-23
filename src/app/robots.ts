@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
       // Lead-magnet API endpoints (incl. tokenized PDF downloads) — never index.
-      disallow: '/api/',
+      disallow: ['/api/', '/r/'],
     },
     sitemap: `${SITE_URL}/sitemap.xml`,
   }

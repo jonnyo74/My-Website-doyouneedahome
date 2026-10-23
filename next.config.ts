@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   // serverless bundle for the download route.
   outputFileTracingIncludes: {
     '/api/reports/[reportType]': ['./private/reports/**/*'],
+    '/r/[slug]': ['./private/reports/**/*'],
   },
   images: {
     remotePatterns: [
