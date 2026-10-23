@@ -10,6 +10,8 @@ import { NextResponse } from 'next/server'
 // Each slug maps to a file in private/reports/ (never publicly served otherwise).
 const EMAIL_REPORTS: Record<string, string> = {
   'pbc-sept-2026-1ae967b875e7': 'palm-beach-county-market-report-september-2026.pdf',
+  'mar-sept-2026-4d2df6121414': 'martin-county-market-report-september-2026.pdf',
+  'stl-sept-2026-1d5fa6bc7e87': 'st-lucie-county-market-report-september-2026.pdf',
 }
 
 export async function GET(_req: Request, ctx: RouteContext<'/r/[slug]'>) {
