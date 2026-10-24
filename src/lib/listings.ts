@@ -233,6 +233,7 @@ export const listings: Listing[] = [
     subdivision: 'Lotus',
 
     price: 2750000,
+    originalPrice: 2799999,
 
     propertyType: 'Single-Family Residence',
     beds: 5,
@@ -525,9 +526,9 @@ export const listings: Listing[] = [
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
-    price: 565000,
+    price: 560000,
     originalPrice: 625000,
-    pricePerSqft: 399.01,
+    pricePerSqft: 395.48,
 
     propertyType: 'Single-Family Residence',
     // Two bedrooms on the MLS. The third room is a den: it has a window but no
@@ -748,7 +749,7 @@ export const listings: Listing[] = [
     brokerage: 'Premier Brokers International',
 
     metaTitle: '6145 SE Audubon Lane: 2 Bed + Den No-HOA Pool Home in Hobe Sound, FL',
-    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $565,000. Schedule a private showing.",
+    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $560,000. Schedule a private showing.",
   },
   {
     slug: '982-sw-worcester-lane',
