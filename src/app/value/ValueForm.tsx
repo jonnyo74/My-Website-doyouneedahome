@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import FormConsent from '@/components/FormConsent'
 import { trackEvent } from '@/lib/analytics'
 import { getUtmAndReferrer } from '@/lib/utm'
@@ -46,6 +46,13 @@ export default function ValueForm() {
   const [status, setStatus] = useState<Status>('idle')
   const startedRef = useRef(false)
   const submittingRef = useRef(false)
+  const successRef = useRef<HTMLHeadingElement>(null)
+
+  // The form is replaced by the success card, which would drop keyboard focus
+  // onto <body>. Move it to the confirmation heading instead.
+  useEffect(() => {
+    if (status === 'success') successRef.current?.focus()
+  }, [status])
 
   const update = (field: keyof FormValues, value: string) =>
     setValues((prev) => ({ ...prev, [field]: value }))
@@ -122,7 +129,13 @@ export default function ValueForm() {
             <path d="M5 13l4 4L19 7" stroke="#1A79B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
-        <h2 className="font-serif text-xl font-semibold text-slate-900">Got it. Thank you.</h2>
+        <h2
+          ref={successRef}
+          tabIndex={-1}
+          className="font-serif text-xl font-semibold text-slate-900 focus:outline-none"
+        >
+          Got it. Thank you.
+        </h2>
         <p className="mt-2 text-sm leading-6 text-slate-600">
           {values.name.trim().split(/\s+/)[0]}, John or Christine will reach out today. Your home value review for{' '}
           {values.address.trim()} will be emailed to {values.email.trim()} within 48 hours.
