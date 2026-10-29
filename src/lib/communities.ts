@@ -2242,6 +2242,8 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: true,
     popularNeighborhoods: ['Riverside Drive', 'Country Club Drive', 'Intracoastal Frontage', 'Tequesta Country Club Area'],
     photos: [
+      '/images/tequesta/village-of-tequesta-entrance-sign.webp',
+      '/images/tequesta/lighthouse-diner-storefront.webp',
     ],
     lat: 26.9706, lng: -80.0973,
   },

@@ -140,3 +140,7 @@ out, for the reason recorded above.
 - `inline-festival-sea-turtle.jpg` — `local-street-painting-sea-turtle-panel.jpg`, `extract({left:0, top:500, width:1536, height:1152})`. #5 who should move.
 
 Every frame in this folder is now in use somewhere. #2, #3, #7 and #9 still have no in-body image, because nothing owned fits them without repeating a frame. The shoot list under "Still needed" above is what would fill them.
+
+## West Lake Worth (added 2026-10-29, not yet on a page)
+
+`west-lake-worth-golf-course-rainbow.webp`: John's phone photo (`IMG_7381.jpg`), golf-course fairway with a rainbow over tile-roof homes, western Lake Worth. Resized to 2000 px wide, EXIF/GPS stripped. Not wired into the Lake Worth Beach community page, because the community name is unconfirmed and western Lake Worth is outside the city of Lake Worth Beach.
