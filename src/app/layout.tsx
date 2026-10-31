@@ -8,6 +8,7 @@ import SiteChrome from '@/components/SiteChrome'
 import SiteLeadMagnets from '@/components/leadMagnet/SiteLeadMagnets'
 import ContactClickTracker from '@/components/ContactClickTracker'
 import ThirdPartyFrameTitles from '@/components/ThirdPartyFrameTitles'
+import MetaPixel from '@/components/MetaPixel'
 import { SITE_URL } from '@/lib/site'
 import './globals.css'
 
@@ -80,6 +81,7 @@ export default function RootLayout({
         <SiteLeadMagnets />
         <ContactClickTracker />
         <ThirdPartyFrameTitles />
+        <MetaPixel />
         <Analytics />
       </body>
       <Script
