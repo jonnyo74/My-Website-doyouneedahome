@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { leadRejectionResponse } from '@/lib/leads/respond'
+import { validateLead } from '@/lib/leads/validate'
 import { getValuationRoute, TEAM_ROUTE_SLUG } from '@/lib/agents'
 import {
   buildSellerLeadNote,
@@ -21,12 +23,11 @@ export async function POST(req: NextRequest) {
 
   const { name, email, phone, address, timeline, honeypot, agentSlug } = body
 
-  // Honeypot — bots that fill this hidden field get a fake success so they
-  // don't learn the submission was rejected. Nothing is sent to FUB.
-  if (honeypot && honeypot.trim()) {
-    console.warn('Seller lead blocked by honeypot')
-    return NextResponse.json({ ok: true })
-  }
+  // Honeypot hit → fake success, nothing sent to FUB; fake email/phone → 400.
+  const rejection = leadRejectionResponse(
+    await validateLead({ form: 'seller-valuation', email, phone, honeypot }),
+  )
+  if (rejection) return rejection
 
   const agent = getValuationRoute(agentSlug)
   if (!agent) {

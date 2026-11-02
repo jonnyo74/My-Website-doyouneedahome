@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { leadRejectionResponse } from '@/lib/leads/respond'
+import { validateLead } from '@/lib/leads/validate'
 import {
   CURRENT_CONSENT_VERSION,
   formatConsentLine,
@@ -66,12 +68,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Invalid request' }, { status: 400 })
   }
 
-  // Honeypot — bots that fill the hidden field get a fake success so they don't
-  // learn the submission was rejected. Nothing is sent to FUB.
-  if (str(body.honeypot, 200)) {
-    console.warn('Value lead blocked by honeypot')
-    return NextResponse.json({ ok: true })
-  }
+  // Honeypot hit → fake success, nothing sent to FUB; fake email/phone → 400.
+  const rejection = leadRejectionResponse(
+    await validateLead({ form: 'value-postcard', email: body.email, phone: body.phone, honeypot: body.honeypot }),
+  )
+  if (rejection) return rejection
 
   const name = str(body.name, 80)
   const email = str(body.email, 200)

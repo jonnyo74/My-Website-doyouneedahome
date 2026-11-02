@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { leadRejectionResponse } from '@/lib/leads/respond'
+import { validateLead } from '@/lib/leads/validate'
 import {
   buildContactNote,
   buildContactTags,
@@ -22,12 +24,11 @@ export async function POST(req: NextRequest) {
 
   const { name, email, phone, honeypot } = body
 
-  // Honeypot — bots that fill this hidden field get a fake success so they
-  // don't learn the submission was rejected. Nothing is sent to FUB.
-  if (honeypot && honeypot.trim()) {
-    console.warn('Contact request blocked by honeypot')
-    return NextResponse.json({ ok: true })
-  }
+  // Honeypot hit → fake success, nothing sent to FUB; fake email/phone → 400.
+  const rejection = leadRejectionResponse(
+    await validateLead({ form: 'contact-form', email, phone, honeypot }),
+  )
+  if (rejection) return rejection
 
   if (!isValidName(name) || !isValidEmail(email)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })

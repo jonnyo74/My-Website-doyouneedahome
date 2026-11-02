@@ -110,6 +110,17 @@ export default function ShowingRequestForm() {
           phoneConsent,
         }),
       })
+      if (res.status === 400) {
+        const bad = (await res.clone().json().catch(() => null)) as { error?: string; field?: string } | null
+        const badField = bad?.field
+        const badMessage = bad?.error
+        if ((badField === 'email' || badField === 'phone') && badMessage) {
+          setErrors((prev) => ({ ...prev, [badField]: badMessage }))
+          setStatus('idle')
+          focusField(badField)
+          return
+        }
+      }
       if (!res.ok) throw new Error(`Showing request failed (${res.status})`)
       const data = (await res.json()) as { ok?: boolean }
       if (!data.ok) throw new Error('Showing request rejected')

@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { leadRejectionResponse } from '@/lib/leads/respond'
+import { validateLead } from '@/lib/leads/validate'
 import {
   buildLeadNote,
   buildLeadTags,
@@ -39,12 +41,11 @@ export async function POST(req: NextRequest) {
 
   const { firstName, email, phone, honeypot, magnetKey } = body
 
-  // Honeypot — bots that fill this hidden field get a fake success (without a
-  // download URL) so they don't learn the submission was rejected.
-  if (honeypot && honeypot.trim()) {
-    console.warn('Lead submission blocked by honeypot')
-    return NextResponse.json({ ok: true })
-  }
+  // Honeypot hit → fake success, nothing sent to FUB; fake email/phone → 400.
+  const rejection = leadRejectionResponse(
+    await validateLead({ form: body.followUp ? 'lead-magnet-followup' : 'lead-magnet', email, phone, honeypot }),
+  )
+  if (rejection) return rejection
 
   if (!isValidMagnetKey(magnetKey)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
