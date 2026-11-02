@@ -91,6 +91,17 @@ export default function ValueForm() {
           utmContent,
         }),
       })
+      if (res.status === 400) {
+        const bad = (await res.clone().json().catch(() => null)) as { error?: string; field?: string } | null
+        const badField = bad?.field
+        const badMessage = bad?.error
+        if ((badField === 'email' || badField === 'phone') && badMessage) {
+          setErrors((prev) => ({ ...prev, [badField]: badMessage }))
+          setStatus('idle')
+          document.getElementById(`value-${badField}`)?.focus()
+          return
+        }
+      }
       const data = (await res.json().catch(() => ({}))) as { ok?: boolean }
       if (!res.ok || !data.ok) throw new Error(`Value lead submission failed (${res.status})`)
       setStatus('success')
