@@ -5,6 +5,13 @@ import Image from 'next/image'
 import { relatedMagnets, type LeadMagnet } from '@/lib/leadMagnets'
 import { SITE_URL } from '@/lib/site'
 import LeadMagnetForm from './LeadMagnetForm'
+import NetProceedsCTA from '@/components/offers/NetProceedsCTA'
+
+const COUNTY_REPORT_KEYS: LeadMagnet['key'][] = [
+  'palm-beach-county-market-report',
+  'martin-county-market-report',
+  'st-lucie-county-market-report',
+]
 
 export interface LeadMagnetLandingProps {
   magnet: LeadMagnet
@@ -243,6 +250,15 @@ export default function LeadMagnetLanding({
               Download immediately after completing the form · No obligation
             </p>
           </div>
+          {/* The three county reports speak to sellers directly; send them to the
+              one seller form on /sell rather than adding a second. */}
+          {COUNTY_REPORT_KEYS.includes(magnet.key) && (
+            <NetProceedsCTA
+              fromPath={magnet.landingPage}
+              ctaLocation="county-report-sellers"
+              className="mx-auto mt-10 max-w-3xl"
+            />
+          )}
         </div>
       </section>
 

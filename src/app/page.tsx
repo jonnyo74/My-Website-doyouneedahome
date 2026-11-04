@@ -7,6 +7,7 @@ import CommunityCard from '@/components/CommunityCard'
 import ListingCard from '@/components/ListingCard'
 import RecentlySold from '@/components/RecentlySold'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import NetProceedsCTA from '@/components/offers/NetProceedsCTA'
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -153,6 +154,7 @@ export default function Home() {
               accent="blue"
             />
           </div>
+          <NetProceedsCTA fromPath="/" ctaLocation="homepage-selling" className="mt-8" />
         </div>
       </section>
 

@@ -19,6 +19,8 @@ import CitySearchButtons from '@/components/CitySearchButtons'
 import CommunityVideo from '@/components/CommunityVideo'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
+import AbacoaLanding from '@/components/AbacoaLanding'
+import OfferRequest from '@/components/offers/OfferRequest'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
@@ -463,6 +465,11 @@ export default async function CommunityPage({ params }: Props) {
                     Why {community.name}?
                   </h2>
                   <ul className="mt-5 space-y-3">
+              {/* Avenir: quick move-in comparison, beside the builder and village content */}
+              {community.slug === 'avenir' && (
+                <OfferRequest offer="avenir-move-in" ctaLocation="community-page" />
+              )}
+
                     {community.highlights.map((h) => (
                       <li key={h} className="flex items-start gap-3">
                         <span className="mt-1 flex-shrink-0 text-gold-500">

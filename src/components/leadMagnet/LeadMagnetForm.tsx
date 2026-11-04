@@ -6,6 +6,8 @@ import { markDownloaded } from '@/lib/leadMagnetState'
 import { trackEvent } from '@/lib/analytics'
 import { getUtmAndReferrer } from '@/lib/utm'
 import FormConsent from '@/components/FormConsent'
+import OfferRequest from '@/components/offers/OfferRequest'
+import { DOWNLOAD_CONFIRMATION_OFFERS } from '@/lib/offerPlacements'
 import { CURRENT_CONSENT_VERSION } from '@/lib/consent'
 
 export const INTEREST_OPTIONS = [
@@ -292,6 +294,17 @@ export default function LeadMagnetForm({
               Answer these and we&rsquo;ll tailor what we send you next. Skip them and nothing
               changes.
             </p>
+        {/* Personal-reply offer for this guide, if it has one. The download above
+            is already under way; this never gates or replaces it. */}
+        {DOWNLOAD_CONFIRMATION_OFFERS[magnet.key] && (
+          <OfferRequest
+            offer={DOWNLOAD_CONFIRMATION_OFFERS[magnet.key]!}
+            ctaLocation="download-confirmation"
+            initialEmail={values.email.trim()}
+            className="mt-6"
+          />
+        )}
+
             <div className="mt-4 space-y-3">
               <div>
                 <label htmlFor={fieldId('area')} className={labelCls}>

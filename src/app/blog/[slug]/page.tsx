@@ -16,6 +16,8 @@ import YlopoResultsWidget from '@/components/YlopoResultsWidget'
 import LocalExpertNote from '@/components/LocalExpertNote'
 import YlopoInit from '@/components/YlopoInit'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
+import OfferRequest from '@/components/offers/OfferRequest'
+import { ARTICLE_OFFERS } from '@/lib/offerPlacements'
 import { selectMagnetForArticle } from '@/lib/leadMagnetRouting'
 import { SITE_URL } from '@/lib/site'
 
@@ -245,6 +247,11 @@ export default async function ArticlePage({ params }: Props) {
         ) : (
           <Prose content={article.body} />
         )}
+
+        {/* Personal-reply offers placed on this article (see offerPlacements.ts) */}
+        {(ARTICLE_OFFERS[article.slug] ?? []).map((offer) => (
+          <OfferRequest key={offer} offer={offer} ctaLocation="article" className="mt-10" />
+        ))}
 
         {/* City page link */}
         {community && (
