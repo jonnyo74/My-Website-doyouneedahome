@@ -19,7 +19,6 @@ import CitySearchButtons from '@/components/CitySearchButtons'
 import CommunityVideo from '@/components/CommunityVideo'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
 import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
-import AbacoaLanding from '@/components/AbacoaLanding'
 import OfferRequest from '@/components/offers/OfferRequest'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
