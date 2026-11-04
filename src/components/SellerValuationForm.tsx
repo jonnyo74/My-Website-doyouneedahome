@@ -146,6 +146,8 @@ export default function SellerValuationForm({
       trackEvent('seller_form_success', {
         ...analyticsParams,
         page_path: pagePath,
+        // Set when the visitor arrived from a "See What I'd Keep After Selling" card.
+        offer: new URLSearchParams(window.location.search).get('offer') === 'net-proceeds' ? 'net-proceeds' : undefined,
         source: pagePath === '/sell' ? 'sell_page' : pagePath.replace(/^\//, ''),
       })
     } catch (err) {
@@ -157,8 +159,6 @@ export default function SellerValuationForm({
       trackEvent('valuation_form_error', analyticsParams)
     } finally {
       submittingRef.current = false
-        // Set when the visitor arrived from a "See What I'd Keep After Selling" card.
-        offer: new URLSearchParams(window.location.search).get('offer') === 'net-proceeds' ? 'net-proceeds' : undefined,
     }
   }
 
