@@ -1,4 +1,6 @@
 // Script loading is handled by YlopoInit on the parent page — do not reload here.
+import { getYlopoAliases } from '@/lib/ylopoAliases'
+
 interface Props {
   city: string
   neighborhood?: string
@@ -16,12 +18,14 @@ export default function YlopoResultsWidget({ city, neighborhood, minPrice = 6000
   // Locations are OR'd, so we send all three and let the matching one answer.
   // Check a name with:
   //   portal.ylopo.com/api/1.0/autocomplete?q=<name>&partyWebsite=search.doyouneedahome.com
+  // Some communities are filed under several names (see lib/ylopoAliases);
+  // each alias gets the same three keys.
   const locations = neighborhood
-    ? [
-        { community: neighborhood, city, state: 'FL' },
-        { neighborhood, city, state: 'FL' },
-        { subdivision: neighborhood, city, state: 'FL' },
-      ]
+    ? [neighborhood, ...getYlopoAliases(neighborhood)].flatMap((name) => [
+        { community: name, city, state: 'FL' },
+        { neighborhood: name, city, state: 'FL' },
+        { subdivision: name, city, state: 'FL' },
+      ])
     : [{ city, state: 'FL' }]
 
   // Site-wide floor — never show listings under $400K regardless of caller.

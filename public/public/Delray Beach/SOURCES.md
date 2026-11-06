@@ -97,6 +97,54 @@ publicly at `/public/Delray%20Beach/IMG_6438.jpg` and so on. They are off naming
 they carry the readable addresses this whole note is about. **They should move to the master
 library**, keeping only the two derived crops here.
 
+## Provenance settled — 2026-09-21
+
+John confirmed that **every photo in this folder is his own**, including the pre-existing
+`delray-beach-*.JPEG` files the note above calls unestablished. Do not treat anything here as
+stock. Caption checks still apply: what the frame shows versus what the caption claims.
+
+## The 2026-09-23 drop — Delray Marketplace
+
+`Delray-marketplace-1`–`13.jpg` (no `-11`), John's own, shot at **Delray Marketplace,
+14851 Lyons Road** (West Atlantic Avenue and Lyons Road). That's west Delray in unincorporated
+Palm Beach County, not the City of Delray Beach and not downtown. Frames 1–10 are 5712×4284;
+12 and 13 are 4032×3024. EXIF stripped. A perceptual hash against every existing file in this
+folder found no duplicates (closest distance 22).
+
+⚠️ **`delray-beach-dining-delray-marketplace.JPEG` does not show Delray Marketplace.** It is the
+**Delray Beach Market** food hall downtown. It is `photos[5]` on the Delray city entry; the
+filename is wrong but the page shows a generic alt, so nothing user-facing is mislabeled.
+`Delray-beach-dining-delray-market.JPEG` is a second copy of the same frame, unreferenced.
+
+Processed for `delray-marketplace-west-delray-beach` (article order 11), resized to
+**2048×1536**, q82, progressive, 500–745KB:
+
+| File | From | Depicts | Use |
+|---|---|---|---|
+| `delray-marketplace-fountain-sign.jpg` | `-2` | Stone tower, "DELRAY MARKETPLACE" sign, fountain roundabout, Batch building right | Article hero |
+| `delray-marketplace-fountain-sign-2.jpg` | `-9` | Same sign from the side, closer, lower | Inline |
+| `delray-marketplace-storefront-drive.jpg` | `-3` | Curving brick drive, storefronts, royal palms | Inline |
+| `delray-marketplace-itsugar.jpg` | `-6` | IT'SUGAR curved corner building, bench | Inline |
+| `delray-marketplace-burt-and-maxs.jpg` | `-7` | Burt & Max's tower building, red umbrellas | Inline |
+| `delray-marketplace-patio-umbrellas.jpg` | `-8` | Yellow patio umbrellas, parked cars | Inline |
+| `delray-marketplace-hooky.jpg` | `-12` | Hooky building straight on across its plaza | Inline |
+| `delray-marketplace-hooky-marquee.jpg` | `-10` | Hooky marquee close-up, IMAX sign | Processed, unused |
+| `delray-marketplace-batch.jpg` | `-13` | Batch Local Kitchen and covered patio | Inline |
+| `delray-marketplace-promenade-parking.jpg` | `-1` | Colonnade sidewalk and parking field | Processed, unused |
+
+Not processed: `-4` (near-identical to `-2`) and `-5` (a second Burt & Max's angle, weaker than
+`-7`).
+
+**Plates:** `-8` shows three rear plates. At the delivery size of 2048px they are unreadable
+blur even at 4× enlargement, so the frame ships as is. `-1` shows front ends only; Florida
+issues no front plate. **People:** none identifiable in any processed frame.
+
+Branding is in nearly every frame. That's the subject for an article about the center, but it
+makes these a poor fit for the Delray community gallery or its OG image.
+
+The raw `Delray-marketplace-*.jpg` originals (≈33MB) are **not committed**. Move them to the
+master library with the `IMG_64xx` files.
+
 ## Still needed
 
 Atlantic Avenue as a street rather than a restaurant frontage, the Intracoastal and the bridge,
