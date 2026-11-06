@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import SiteChrome from '@/components/SiteChrome'
 import SiteLeadMagnets from '@/components/leadMagnet/SiteLeadMagnets'
 import ThirdPartyFrameTitles from '@/components/ThirdPartyFrameTitles'
+import MetaPixel from '@/components/MetaPixel'
 import { SITE_URL } from '@/lib/site'
 import './globals.css'
 
@@ -78,6 +79,7 @@ export default function RootLayout({
         </SiteChrome>
         <SiteLeadMagnets />
         <ThirdPartyFrameTitles />
+        <MetaPixel />
         <Analytics />
       </body>
       <Script
