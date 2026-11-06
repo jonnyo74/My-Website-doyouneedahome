@@ -12,6 +12,8 @@ import {
   type LeadSubmission,
 } from '@/lib/leadHelpers'
 import { leadMagnets, magnetDownloadApiPath } from '@/lib/leadMagnets'
+import { leadRejectionResponse } from '@/lib/leads/respond'
+import { validateLead } from '@/lib/leads/validate'
 
 async function sendToFub(apiKey: string, body: unknown): Promise<boolean> {
   const res = await fetch('https://api.followupboss.com/v1/events', {
@@ -39,12 +41,16 @@ export async function POST(req: NextRequest) {
 
   const { firstName, email, phone, honeypot, magnetKey } = body
 
-  // Honeypot — bots that fill this hidden field get a fake success (without a
-  // download URL) so they don't learn the submission was rejected.
-  if (honeypot && honeypot.trim()) {
-    console.warn('Lead submission blocked by honeypot')
-    return NextResponse.json({ ok: true })
-  }
+  // Honeypot hit → fake success (without a download URL) so bots don't learn
+  // they were caught; fake email/phone → 400 naming the field.
+  const check = await validateLead({
+    form: body.followUp ? 'lead-magnet-followup' : 'lead-magnet',
+    email,
+    phone,
+    honeypot,
+  })
+  const rejection = leadRejectionResponse(check)
+  if (rejection) return rejection
 
   if (!isValidMagnetKey(magnetKey)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
@@ -99,7 +105,9 @@ export async function POST(req: NextRequest) {
   if (!isValidFirstName(firstName)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
   }
-  if (!isValidInterest(body.interest)) {
+  // Interest is optional — the form asks for name and email only. A value
+  // that is present but not one of ours is still a forged payload.
+  if (body.interest && !isValidInterest(body.interest)) {
     return NextResponse.json({ error: 'Invalid submission' }, { status: 400 })
   }
   // An unpublished magnet has no verified content behind it — its landing page

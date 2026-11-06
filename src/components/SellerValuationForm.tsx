@@ -136,6 +136,17 @@ export default function SellerValuationForm({
           phoneConsent: values.phone.trim() ? phoneConsent : undefined,
         }),
       })
+      if (res.status === 400) {
+        const bad = (await res.clone().json().catch(() => null)) as { error?: string; field?: string } | null
+        const badField = bad?.field
+        const badMessage = bad?.error
+        if ((badField === 'email' || badField === 'phone') && badMessage) {
+          setErrors((prev) => ({ ...prev, [badField]: badMessage }))
+          setStatus('idle')
+          focusField(badField)
+          return
+        }
+      }
       if (!res.ok) throw new Error(`Seller lead submission failed (${res.status})`)
       const data = (await res.json()) as { ok?: boolean }
       if (!data.ok) throw new Error('Seller lead rejected')
@@ -333,9 +344,16 @@ export default function SellerValuationForm({
               autoComplete="tel"
               value={values.phone}
               onChange={(e) => update('phone', e.target.value)}
+              aria-invalid={!!errors.phone}
+              aria-describedby={errors.phone ? fieldId('phone-error') : undefined}
               className={inputCls}
               placeholder="(561) 555-0100"
             />
+            {errors.phone && (
+              <p id={fieldId('phone-error')} role="alert" className={errorCls}>
+                {errors.phone}
+              </p>
+            )}
           </div>
 
           <fieldset aria-describedby={errors.timeline ? fieldId('timeline-error') : undefined}>

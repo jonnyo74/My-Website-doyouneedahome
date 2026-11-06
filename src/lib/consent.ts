@@ -95,3 +95,11 @@ export function formatConsentLine(
 
 /** Tag applied when someone hands over a number but withholds call/text permission. */
 export const NO_PHONE_CONSENT_TAG = 'No Call/Text Consent'
+
+/**
+ * Tag applied when someone gives a number AND ticks the box. Stated positively
+ * as well as negatively on purpose: without it, "no tag" covers both a
+ * consenting lead and one who left the phone field empty, so a Follow Up Boss
+ * list or automation cannot tell callable leads from the rest.
+ */
+export const PHONE_CONSENT_TAG = 'OK TO CALL/TEXT — Consent Given'

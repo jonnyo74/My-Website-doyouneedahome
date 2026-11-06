@@ -52,7 +52,6 @@ function validate(values: FormValues): Partial<Record<keyof FormValues, string>>
   if (!values.firstName.trim()) errors.firstName = 'Please enter your first name.'
   if (!values.email.trim()) errors.email = 'Please enter your email address.'
   else if (!EMAIL_RE.test(values.email.trim())) errors.email = 'Please enter a valid email address.'
-  if (!values.interest) errors.interest = 'Please select an option.'
   return errors
 }
 
@@ -182,10 +181,22 @@ export default function LeadMagnetForm({
           phoneConsent: values.phone.trim() ? phoneConsent : undefined,
         }),
       })
+      if (res.status === 400) {
+        const bad = (await res.clone().json().catch(() => null)) as { error?: string; field?: string } | null
+        const badField = bad?.field
+        const badMessage = bad?.error
+        if ((badField === 'email' || badField === 'phone') && badMessage) {
+          setErrors((prev) => ({ ...prev, [badField]: badMessage }))
+          setStatus('idle')
+          focusField(badField)
+          return
+        }
+      }
       if (!res.ok) throw new Error(`Lead submission failed (${res.status})`)
       const data = (await res.json()) as { ok?: boolean; downloadUrl?: string }
       if (!data.ok) throw new Error('Lead submission rejected')
 
+      setStatus('success')
       // Server confirmed (res.ok && data.ok). submittingRef blocks re-entry, so
       // this fires once per successful submit. No PII in params.
       trackEvent('lead_magnet_form_success', {
@@ -193,7 +204,6 @@ export default function LeadMagnetForm({
         lead_magnet_name: magnet.key,
         page_path: window.location.pathname,
       })
-      setStatus('success')
       if (data.downloadUrl) {
         setDownloadUrl(data.downloadUrl)
         triggerDownload(data.downloadUrl)
@@ -284,16 +294,6 @@ export default function LeadMagnetForm({
           )}
         </div>
 
-        {/* Optional second step — never required, never blocks the download. */}
-        {!followUpSent ? (
-          <div className={`mt-7 border-t pt-6 ${dark ? 'border-white/15' : 'border-slate-200'}`}>
-            <p className={`text-sm font-semibold ${dark ? 'text-white' : 'text-slate-900'}`}>
-              Two optional questions
-            </p>
-            <p className={`mt-1 text-xs leading-5 ${dark ? 'text-white/60' : 'text-slate-500'}`}>
-              Answer these and we&rsquo;ll tailor what we send you next. Skip them and nothing
-              changes.
-            </p>
         {/* Personal-reply offer for this guide, if it has one. The download above
             is already under way; this never gates or replaces it. */}
         {DOWNLOAD_CONFIRMATION_OFFERS[magnet.key] && (
@@ -305,6 +305,16 @@ export default function LeadMagnetForm({
           />
         )}
 
+        {/* Optional second step — never required, never blocks the download. */}
+        {!followUpSent ? (
+          <div className={`mt-7 border-t pt-6 ${dark ? 'border-white/15' : 'border-slate-200'}`}>
+            <p className={`text-sm font-semibold ${dark ? 'text-white' : 'text-slate-900'}`}>
+              Two optional questions
+            </p>
+            <p className={`mt-1 text-xs leading-5 ${dark ? 'text-white/60' : 'text-slate-500'}`}>
+              Answer these and we&rsquo;ll tailor what we send you next. Skip them and nothing
+              changes.
+            </p>
             <div className="mt-4 space-y-3">
               <div>
                 <label htmlFor={fieldId('area')} className={labelCls}>
@@ -447,13 +457,20 @@ export default function LeadMagnetForm({
           value={values.phone}
           onFocus={handleFocus}
           onChange={(e) => update('phone', e.target.value)}
+          aria-invalid={!!errors.phone}
+          aria-describedby={errors.phone ? fieldId('phone-error') : undefined}
           className={inputCls}
           placeholder="(561) 555-0100"
         />
+        {errors.phone && (
+          <p id={fieldId('phone-error')} role="alert" className={errorCls}>
+            {errors.phone}
+          </p>
+        )}
       </div>
 
       <fieldset aria-describedby={errors.interest ? fieldId('interest-error') : undefined}>
-        <legend className={labelCls}>I am primarily interested in: *</legend>
+        <legend className={labelCls}>I am primarily interested in: (optional)</legend>
         <div className="grid grid-cols-2 gap-2">
           {INTEREST_OPTIONS.map((opt) => {
             const selected = values.interest === opt

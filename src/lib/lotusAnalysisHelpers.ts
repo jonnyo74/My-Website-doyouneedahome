@@ -12,7 +12,7 @@
 // home in Lotus. Its printed QR points at the listing page with no UTM, so
 // campaign attribution can only be asserted when a UTM actually arrives.
 
-import { formatConsentLine, NO_PHONE_CONSENT_TAG } from '@/lib/consent'
+import { formatConsentLine, NO_PHONE_CONSENT_TAG, PHONE_CONSENT_TAG } from '@/lib/consent'
 
 /** The community this CTA serves. Keyed so a second postcard drop can register. */
 export const LOTUS = {
@@ -137,7 +137,10 @@ export function buildAnalysisTags(sub: LotusAnalysisSubmission): string[] {
     // so a confirmed subset can be separated from the cohort if that is ever
     // needed. Only reachable via a ?utm_campaign= link, not the printed QR.
     isPostcardCampaign(sub) ? 'Postcard Link (confirmed)' : null,
+    // Tagged both ways: "no tag" would cover both a consenting lead and one
+    // who left the phone field empty, which no saved list could tell apart.
     sub.phoneConsent === false ? NO_PHONE_CONSENT_TAG : null,
+    sub.phoneConsent === true ? PHONE_CONSENT_TAG : null,
   ].filter(Boolean) as string[]
   return Array.from(new Set(tags))
 }

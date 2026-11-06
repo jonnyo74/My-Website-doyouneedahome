@@ -18,8 +18,10 @@ import type { BuildingFootprint, LngLat, PoolFootprint, SiteFeatures } from '@/l
 
 /** Mirrors are tried in order. The main instance is the busiest one. */
 const OVERPASS_ENDPOINTS = [
+  'https://overpass.openstreetmap.fr/api/interpreter',
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter',
+  'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
 ]
 
 /** Roughly 2 km on a side at Florida latitudes — one neighbourhood, not a city. */
@@ -76,7 +78,9 @@ async function queryOverpass(query: string): Promise<OverpassElement[]> {
           })`,
         },
         body: `data=${encodeURIComponent(query)}`,
-        signal: AbortSignal.timeout(25_000),
+        // Short per-mirror cap so a hung server (overpass-api.de did this) hands
+        // over to the next one instead of eating the whole request.
+        signal: AbortSignal.timeout(12_000),
       })
       if (!res.ok) {
         lastError = new Error(`Overpass ${endpoint} returned ${res.status}`)

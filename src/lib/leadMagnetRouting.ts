@@ -242,6 +242,7 @@ const EXCLUDED_PATH_PREFIXES = [
   // Standalone listing microsite — carries its own showing-request form, and a
   // market-report interruption would undercut a $2.8M conversion page.
   '/listings/8804-skyward-street',
+  '/value', // mailed-postcard landing page — one purpose, no interruptions
   ...Object.values(leadMagnets).map((m) => m.landingPage),
 ]
 
