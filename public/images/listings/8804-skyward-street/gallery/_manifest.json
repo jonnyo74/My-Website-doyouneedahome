@@ -1,0 +1,324 @@
+[
+  {
+    "n": 1,
+    "out": "01-front-elevation.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 392
+  },
+  {
+    "n": 2,
+    "out": "02-aerial-front.jpg",
+    "w": 2048,
+    "h": 1536,
+    "kb": 641
+  },
+  {
+    "n": 3,
+    "out": "03-entrance-foyer.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 143
+  },
+  {
+    "n": 4,
+    "out": "04-aerial-lake.jpg",
+    "w": 2048,
+    "h": 1536,
+    "kb": 766
+  },
+  {
+    "n": 5,
+    "out": "05-rear-elevation-pool.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 424
+  },
+  {
+    "n": 6,
+    "out": "06-pool-lake-fence.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 447
+  },
+  {
+    "n": 7,
+    "out": "07-pool-sun-shelf.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 449
+  },
+  {
+    "n": 8,
+    "out": "08-lanai-sliders.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 183
+  },
+  {
+    "n": 9,
+    "out": "09-lanai-lake-view.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 271
+  },
+  {
+    "n": 10,
+    "out": "10-pool-loungers.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 321
+  },
+  {
+    "n": 11,
+    "out": "11-cabana-bath.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 236
+  },
+  {
+    "n": 12,
+    "out": "12-lake-axis.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 478
+  },
+  {
+    "n": 13,
+    "out": "13-kitchen-island.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 185
+  },
+  {
+    "n": 14,
+    "out": "14-kitchen-seating.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 188
+  },
+  {
+    "n": 15,
+    "out": "15-kitchen-cooktop.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 190
+  },
+  {
+    "n": 16,
+    "out": "16-kitchen-refrigeration.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 152
+  },
+  {
+    "n": 17,
+    "out": "17-kitchen-dining.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 158
+  },
+  {
+    "n": 18,
+    "out": "18-dining-area.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 143
+  },
+  {
+    "n": 19,
+    "out": "19-great-room-kitchen.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 125
+  },
+  {
+    "n": 20,
+    "out": "20-great-room.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 209
+  },
+  {
+    "n": 21,
+    "out": "21-great-room-sliders.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 186
+  },
+  {
+    "n": 22,
+    "out": "22-formal-living.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 134
+  },
+  {
+    "n": 23,
+    "out": "23-formal-living-volume.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 146
+  },
+  {
+    "n": 24,
+    "out": "24-foyer-staircase.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 84
+  },
+  {
+    "n": 25,
+    "out": "25-primary-bedroom.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 154
+  },
+  {
+    "n": 26,
+    "out": "26-primary-windows.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 236
+  },
+  {
+    "n": 27,
+    "out": "27-primary-bath-shower.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 183
+  },
+  {
+    "n": 28,
+    "out": "28-primary-bath-vanity.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 158
+  },
+  {
+    "n": 29,
+    "out": "29-upstairs-landing.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 138
+  },
+  {
+    "n": 30,
+    "out": "30-media-room.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 229
+  },
+  {
+    "n": 31,
+    "out": "31-media-room-screen.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 168
+  },
+  {
+    "n": 32,
+    "out": "32-home-gym.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 309
+  },
+  {
+    "n": 33,
+    "out": "33-loft.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 157
+  },
+  {
+    "n": 34,
+    "out": "34-guest-suite-b.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 187
+  },
+  {
+    "n": 35,
+    "out": "35-guest-suite-c.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 161
+  },
+  {
+    "n": 36,
+    "out": "36-guest-suite-d.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 118
+  },
+  {
+    "n": 37,
+    "out": "37-guest-suite-a.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 102
+  },
+  {
+    "n": 38,
+    "out": "38-laundry-room.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 136
+  },
+  {
+    "n": 39,
+    "out": "39-clubhouse-lobby.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 335
+  },
+  {
+    "n": 40,
+    "out": "40-luna-bistro-bar.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 391
+  },
+  {
+    "n": 41,
+    "out": "41-pool-bar.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 439
+  },
+  {
+    "n": 42,
+    "out": "42-club-fitness.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 392
+  },
+  {
+    "n": 43,
+    "out": "43-club-sports-court.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 260
+  },
+  {
+    "n": 44,
+    "out": "44-club-cardroom.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 510
+  },
+  {
+    "n": 45,
+    "out": "45-club-arcade.jpg",
+    "w": 2048,
+    "h": 1365,
+    "kb": 448
+  },
+  {
+    "n": 46,
+    "out": "46-club-aerial.jpg",
+    "w": 2048,
+    "h": 1536,
+    "kb": 862
+  }
+]
