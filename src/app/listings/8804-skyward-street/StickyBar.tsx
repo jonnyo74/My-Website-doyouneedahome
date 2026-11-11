@@ -32,13 +32,9 @@ export default function StickyBar() {
           8804 Skyward Street
           <span className="sky-num ml-3 hidden text-[#f5f2eb]/60 sm:inline">$2,750,000</span>
         </p>
-        <a
-          href="#showing"
-          tabIndex={visible ? 0 : -1}
-          className="flex-shrink-0 border border-[#93c4cb]/60 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#f5f2eb] transition hover:border-[#93c4cb] hover:bg-[#93c4cb]/10 sm:px-5"
-        >
-          Request a Showing
-        </a>
+        <span className="flex-shrink-0 border border-[#f5f2eb]/30 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#f5f2eb] sm:px-5">
+          Under Contract
+        </span>
       </div>
     </div>
   )
