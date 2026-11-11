@@ -8,7 +8,6 @@ import Lightbox from './Lightbox'
 import LotusAnalysisModal from './LotusAnalysisModal'
 import Reveal from './Reveal'
 import SellerCta from './SellerCta'
-import ShowingRequestForm from './ShowingRequestForm'
 import StickyBar from './StickyBar'
 import VideoTour from './VideoTour'
 import './skyward.css'
@@ -29,7 +28,7 @@ const URL_PATH = '/listings/8804-skyward-street'
 const OG_IMAGE = '/images/listings/8804-skyward-street/og-skyward-active.jpg'
 const TITLE = '8804 Skyward Street — Lakefront in Lotus | Boca Raton, FL'
 const DESCRIPTION =
-  'A 2021-built waterfront Sumatra Select in guard-gated Lotus: 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool on a marble deck, impact glass throughout, and a whole-house generator. Offered at $2,750,000.'
+  'A 2021-built waterfront Sumatra Select in guard-gated Lotus: 5 en-suite bedrooms, 6.5 baths, 4,932 sq ft, a custom heated saltwater pool on a marble deck, impact glass throughout, and a whole-house generator. Under contract at $2,750,000.'
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -234,7 +233,7 @@ export default function SkywardStreetPage() {
       '@type': 'Offer',
       price: 2750000,
       priceCurrency: 'USD',
-      availability: 'https://schema.org/InStock',
+      availability: 'https://schema.org/OutOfStock',
       url,
       seller: {
         '@type': 'RealEstateAgent',
@@ -281,7 +280,7 @@ export default function SkywardStreetPage() {
 
         <div className="relative mx-auto w-full max-w-6xl px-5 pb-24 pt-40 sm:px-8 sm:pb-28">
           <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[#f5f2eb]/85">
-            Lotus &middot; Boca Raton, Florida &middot; Active on BeachesMLS
+            Lotus &middot; Boca Raton, Florida &middot; Under Contract on BeachesMLS
           </p>
           <h1 className="sky-display sky-h1 mt-4 text-[#f5f2eb]">8804 Skyward Street</h1>
           <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
@@ -593,7 +592,7 @@ export default function SkywardStreetPage() {
                 <h3 className="sky-label">The Numbers</h3>
                 <dl className="mt-4">
                   <NumberRow label="Price" value="$2,750,000" />
-                  <NumberRow label="Status" value="Active" note="BeachesMLS" />
+                  <NumberRow label="Status" value="Under Contract" note="BeachesMLS" />
                   <NumberRow label="Living Area" value="4,932 sq ft" note="under air" />
                   <NumberRow label="Total" value="6,263 sq ft" note="incl. garage, porches & two-story volume" />
                   <NumberRow label="Lot" value="0.1802 acres" note="lakefront" />
@@ -658,25 +657,16 @@ export default function SkywardStreetPage() {
       {/* ── Showing ───────────────────────────────────────────────────────── */}
       <section id="showing" className="sky-anchor bg-[#16140f] px-5 py-20 sm:px-8 sm:py-28">
         <div className="mx-auto max-w-6xl">
-          <div className="grid gap-14 lg:grid-cols-[1fr_1.1fr] lg:gap-20">
+          <div className="max-w-2xl">
             <div>
-              <SectionHeading dark label="Private Showings" title="Seeing it is by appointment." />
+              <SectionHeading dark label="Under Contract" title="This home is under contract." />
               <Reveal>
-                <ul className="mt-8 space-y-5">
-                  {[
-                    'Showings are private, by appointment, with 24 hours’ notice.',
-                    'The listing agent accompanies every showing. There is no lockbox.',
-                    'Lotus is guard-gated: every guest must be pre-registered at the gate. John confirms your appointment first — the gate clears no one before that.',
-                    'The sellers prefer a 60-day close and may consider a short post-closing occupancy.',
-                  ].map((item) => (
-                    <li key={item} className="flex gap-4 text-[15px] leading-7 text-[#f5f2eb]/80">
-                      <span aria-hidden="true" className="mt-3 h-px w-6 flex-shrink-0 bg-[#93c4cb]" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+                <p className="mt-8 text-[15px] leading-7 text-[#f5f2eb]/80">
+                  8804 Skyward Street is under contract and is no longer showing. If you are looking
+                  in Lotus, John can tell you what else is available or coming soon.
+                </p>
 
-                <div className="mt-12 border-t border-[#f5f2eb]/20 pt-8">
+                <div className="mt-10 border-t border-[#f5f2eb]/20 pt-8">
                   <p className="sky-label sky-label--dark">Listing Agent</p>
                   <p className="mt-3 font-serif text-2xl text-[#f5f2eb]">John Oliver</p>
                   <p className="mt-1 text-sm text-[#f5f2eb]/70">
@@ -695,10 +685,6 @@ export default function SkywardStreetPage() {
                 </div>
               </Reveal>
             </div>
-
-            <Reveal>
-              <ShowingRequestForm />
-            </Reveal>
           </div>
         </div>
       </section>
@@ -714,19 +700,19 @@ export default function SkywardStreetPage() {
           <Reveal>
             <div className="grid gap-10 sm:gap-12 lg:grid-cols-2 lg:gap-16">
               <div className="lg:pr-16">
-                <p className="sky-label sky-label--dark">Interested in 8804 Skyward?</p>
+                <p className="sky-label sky-label--dark">Looking in Lotus?</p>
                 <h2 className="sky-display mt-3 text-2xl leading-tight text-[#f5f2eb] sm:text-[1.75rem]">
-                  See it in person.
+                  8804 Skyward is under contract.
                 </h2>
                 <p className="mt-4 text-[15px] leading-7 text-[#f5f2eb]/65">
-                  Private, by appointment, with the listing agent. Twenty-four hours&rsquo; notice,
-                  and your name goes to the Lotus gate once the time is confirmed.
+                  It is no longer showing. John can tell you what else is available or coming soon
+                  in Lotus.
                 </p>
                 <a
-                  href="#showing"
+                  href="mailto:john@doyouneedahome.com"
                   className="sky-cta mt-7 inline-flex w-full justify-center border border-[#93c4cb]/60 px-8 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#f5f2eb] transition hover:border-[#93c4cb] hover:bg-[#93c4cb]/10 sm:w-auto"
                 >
-                  Schedule a Private Showing
+                  Contact John
                 </a>
               </div>
 
