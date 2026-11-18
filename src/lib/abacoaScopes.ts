@@ -60,14 +60,15 @@ const VILLAGE_SCOPES: AbacoaScope[] = [
     slug: 'antigua',
     name: 'Antigua',
     kind: 'village',
-    status: 'provider-evidence',
+    status: 'verified',
     locations: [
-      c('Antigua'), c('Antigua At Abacoa'), c('Antigua At Town Center'),
-      s('Antigua At Abacoa'), s('Antigua At Abacoa Town Center'), s('Abacoa Town Center 3'),
+      // Subdivision (MLS plat) entries only. Ylopo's community label "Antigua" is
+      // stuck on homes in plat Abacoa Town Center 3, which the MLS says is not Antigua.
+      s('Antigua At Abacoa'), s('Antigua At Abacoa Town Center'),
     ],
     evidence: [
-      `${VERIFIED_ON}: three actives, all filed under subdivision "Abacoa Town Center 3" with community Antigua / Antigua At Town Center (Greenway and Parkside Drives).`,
-      'Open: "Abacoa Town Center 3" is the plat the MLS uses for Antigua. Confirm with BeachesMLS that it holds no other Town Center residential before treating it as Antigua-only. Live/work (commercial-use) eligibility is not filterable.',
+      `${VERIFIED_ON}: zero actives, confirmed against the MLS by John Oliver. Ylopo labels three Parkside and Greenway Drive homes "Antigua" in their community field, but the MLS files them under plat "Abacoa Town Center 3", which is not Antigua, so that plat is excluded here. They still count in the hub.`,
+      'Live/work (commercial-use) eligibility is not filterable.',
     ],
   },
   {
@@ -185,6 +186,7 @@ const VILLAGE_SCOPES: AbacoaScope[] = [
 const OTHER_ABACOA_LOCATIONS: ScopeLocation[] = [
   c('Abacoa'), n('Abacoa'),
   s('Somerset At Abacoa Condo'),
+  s('Abacoa Town Center 3'),
   s('Village At Abacoa Condo'),
   s('Cambridge At Abacoa'),
   s('Greenwich'), s('Greenwich Residential , Abacoa'),
@@ -224,7 +226,7 @@ const HUB_SCOPE: AbacoaScope = {
     OTHER_ABACOA_LOCATIONS,
   ]),
   evidence: [
-    `${VERIFIED_ON}: union of the subdivision entries of all ten village scopes plus Somerset At Abacoa Condo, The Village At Abacoa Condo, Cambridge At Abacoa and Greenwich. The plain "Abacoa" query returned 25 of the 41; 16 were invisible to it, nine of them village homes.`,
+    `${VERIFIED_ON}: union of the subdivision entries of all ten village scopes plus Somerset At Abacoa Condo, Abacoa Town Center 3, The Village At Abacoa Condo, Cambridge At Abacoa and Greenwich. The plain "Abacoa" query returned 25 of the 41; 16 were invisible to it, nine of them village homes.`,
     'Open: The Island At Abacoa, San Palermo and Abacoa Pl 1 are valid provider names with no actives today, so their eligibility (rental, senior or for-sale) is unconfirmed. Greenwich includes live/work townhomes: confirm which are residential. Somerset and Village at Abacoa have no page on this site.',
   ],
 }
