@@ -386,20 +386,20 @@ export const VILLAGES: Record<string, VillageContent> = {
   "osceola-woods": {
     slug: "osceola-woods",
     tagline:
-      "About 146 three-story townhomes near Downtown Abacoa, with a clubhouse, pool and nature preserve behind them.",
+      "About 146 three-story townhomes near Downtown Abacoa, with a community pool and a nature preserve behind them.",
     metaTitle: "Osceola Woods at Abacoa, Jupiter FL | Townhomes for Sale",
     metaDescription:
-      "Osceola Woods is a three-story townhome village in Abacoa, Jupiter, a short walk to Downtown Abacoa, with a clubhouse, pool and nature preserve. A buyer’s guide.",
+      "Osceola Woods is a three-story townhome village in Abacoa, Jupiter, a short walk to Downtown Abacoa, with a community pool and a nature preserve. A buyer’s guide.",
     story: [
       "Osceola Woods is a village of 146 three-story townhomes built in the early 2000s, in a coastal Mediterranean style. The Abacoa association says it is within easy walking distance of Abacoa Plaza and Downtown Abacoa. New Urban Communities developed it; listings that say “CBS” are describing block-and-stucco construction, not a builder.",
       "These are not single-level homes. The floor plans stack three stories, which suits buyers who want space and a garage in a townhome but may not suit anyone avoiding stairs.",
     ],
     living:
-      "Per listings, residents share a clubhouse and pool, a playground and trails, and the homes back onto a nature preserve rather than a lake. The village is managed by Community ACE under the master association, with its association address on Apalachee Lane.",
+      "Residents share a community pool, and the homes back onto a nature preserve rather than a lake. The village is managed by Community ACE under the master association, with its association address on Apalachee Lane.",
     highlights: [
       "Short walk to Abacoa Plaza and Downtown Abacoa",
       "Three-story townhomes, 146 homes",
-      "Clubhouse, pool, playground and trails (per listings)",
+      "Community pool",
       "Backs onto a nature preserve",
     ],
     facts: [
@@ -407,7 +407,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       { label: "Developer", value: "New Urban Communities" },
       { label: "Built", value: "Early 2000s" },
       { label: "Style", value: "Coastal Mediterranean" },
-      { label: "Village amenities", value: "Clubhouse, pool, playground, trails (per listings)" },
+      { label: "Village amenities", value: "Community pool" },
       { label: "Management", value: "Community ACE" },
     ],
     association:
@@ -420,7 +420,7 @@ export const VILLAGES: Record<string, VillageContent> = {
     faqs: [
       { q: "How many stories are the Osceola Woods townhomes?", a: "Three. These are not single-level homes." },
       { q: "Can I walk to Downtown Abacoa?", a: "The Abacoa association says it is within easy walking distance of Abacoa Plaza and Downtown Abacoa." },
-      { q: "What amenities does it have?", a: "Per listings, a clubhouse, pool, playground and trails." },
+      { q: "What amenities does it have?", a: "A community pool, which John Oliver describes as a beautiful one. It is the village’s main amenity." },
     ],
     related: ["charleston-court", "antigua", "canterbury-place"],
   },

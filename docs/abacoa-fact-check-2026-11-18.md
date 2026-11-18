@@ -37,7 +37,7 @@ change, and the house rule for these pages is no fee figures.
 - **Mallory Creek:** first and last completion dates. Triton on-site office, 561-401-9278.
 - **Martinique:** build periods by home type, whether the pool is heated, Village Green and Civic Center names, recorded coverage of Plats 1 and 2. Triton (Christine Allen).
 - **Newhaven:** final completion year. Castle Group.
-- **Osceola Woods:** completion range, clubhouse, pool, playground and trails (the page still says "per listings"). Community ACE (Anna Maria Marrero).
+- **Osceola Woods:** completion range only. Amenities settled by John Oliver: a community pool, and not much else (clubhouse, playground and trails removed). Community ACE (Anna Maria Marrero).
 - **Tuscany:** full build period; whether dues cover lawn care or basic cable. Triton (Patrice Armstrong).
 - **Valencia:** 136 versus 137 homes; the village-wide build range. The POA's Valencia page describes townhomes, which conflicts with the HOA and developer pages. Harbor Management.
 - **Windsor Park:** official home count (brokerages say 380 and 364), build range, maintenance coverage. Capital Realty Advisors (Tracy Cooper).
