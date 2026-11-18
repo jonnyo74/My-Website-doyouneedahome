@@ -420,7 +420,7 @@ export const VILLAGES: Record<string, VillageContent> = {
     faqs: [
       { q: "How many stories are the Osceola Woods townhomes?", a: "Three. These are not single-level homes." },
       { q: "Can I walk to Downtown Abacoa?", a: "The Abacoa association says it is within easy walking distance of Abacoa Plaza and Downtown Abacoa." },
-      { q: "What amenities does it have?", a: "A community pool, which John Oliver describes as a beautiful one. It is the village’s main amenity." },
+      { q: "What amenities does it have?", a: "A community pool, which is the village’s main amenity." },
     ],
     related: ["charleston-court", "antigua", "canterbury-place"],
   },
