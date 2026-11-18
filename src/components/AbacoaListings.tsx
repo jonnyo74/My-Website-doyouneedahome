@@ -81,7 +81,13 @@ function probeScope(scope: AbacoaScope): Promise<ProbeOutcome> {
  * announced as noise. It is idempotent, so it is safe to re-run whenever the
  * widget re-renders.
  */
-function labelWidgetCards(root: HTMLElement) {
+function labelWidgetCards(root: HTMLElement, hiddenIds: string[] = []) {
+  root.querySelectorAll<HTMLElement>('.gallery-grid-item, .grid-view-item').forEach((item) => {
+    const href = item.querySelector('a')?.getAttribute('href') ?? ''
+    const hide = hiddenIds.some((id) => href.includes(`/detail/${id}`))
+    if (item.hidden !== hide) item.hidden = hide
+    item.style.display = hide ? 'none' : ''
+  })
   root.querySelectorAll<HTMLElement>('.gallery-card-b').forEach((card) => {
     const street = card.querySelector('.gallery-card-b-address-block .layout > div')?.textContent?.trim()
     if (!street) return
@@ -108,6 +114,7 @@ export default function AbacoaListings({
   const wrapRef = useRef<HTMLDivElement>(null)
   const [view, setView] = useState<View>('loading')
   const [comingSoon, setComingSoon] = useState(0)
+  const hiddenIdsRef = useRef<string[]>([])
 
   useEffect(() => {
     if (!scope) return
@@ -138,7 +145,7 @@ export default function AbacoaListings({
     let labelTimer: ReturnType<typeof setTimeout> | undefined
     const labeler = new MutationObserver(() => {
       clearTimeout(labelTimer)
-      labelTimer = setTimeout(() => el && labelWidgetCards(el), 50)
+      labelTimer = setTimeout(() => el && labelWidgetCards(el, hiddenIdsRef.current), 50)
     })
     if (el) {
       labelWidgetCards(el)
@@ -160,6 +167,8 @@ export default function AbacoaListings({
           return
         }
         setComingSoon(outcome.comingSoon)
+        hiddenIdsRef.current = outcome.hiddenIds
+        if (el) labelWidgetCards(el, outcome.hiddenIds)
         waitForCards(
           () => !cancelled && setView('results'),
           () => !cancelled && setView('unavailable'),
@@ -222,12 +231,6 @@ export default function AbacoaListings({
           </div>
         )}
       </div>
-
-      {view === 'results' && comingSoon > 0 && (
-        <p className="mt-3 text-sm text-slate-600">
-          One or more homes below may be Coming Soon rather than Active. Check the listing for its current status.
-        </p>
-      )}
 
       {view === 'empty' && (
         <div role="status" className="rounded-2xl border border-slate-200 bg-slate-50 p-8 text-center">

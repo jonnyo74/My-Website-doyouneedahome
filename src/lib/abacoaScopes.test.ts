@@ -310,11 +310,18 @@ describe('probe outcomes', () => {
       [listing({ mls: 'A', sub: 'Martinique At Abacoa 1' }), listing({ mls: 'B', sub: 'Martinique At Abacoa 2', status: 'Coming Soon' })],
       s(),
     )
-    assert.deepEqual(out, { state: 'results', total: 2, active: 1, comingSoon: 1 })
+    assert.deepEqual(out, { state: 'results', total: 2, active: 1, comingSoon: 1, hiddenIds: [] })
+  })
+
+  it('returns the Ylopo ids of non-Active rows so their cards can be hidden', () => {
+    const active = { ...listing({ mls: 'A', sub: 'Martinique At Abacoa 1' }), id: 111 }
+    const soon = { ...listing({ mls: 'B', sub: 'Martinique At Abacoa 2', status: 'Coming Soon' }), id: 222 }
+    const out = classifyProbe([active, soon], s())
+    assert.deepEqual(out, { state: 'results', total: 2, active: 1, comingSoon: 1, hiddenIds: ['222'] })
   })
 
   it('classifies the Valencia snapshot as results with zero active', () => {
-    assert.deepEqual(classifyProbe(rows('valencia'), scope('valencia')), { state: 'results', total: 1, active: 0, comingSoon: 1 })
+    assert.deepEqual(classifyProbe(rows('valencia'), scope('valencia')), { state: 'results', total: 1, active: 0, comingSoon: 1, hiddenIds: [] })
   })
 })
 
