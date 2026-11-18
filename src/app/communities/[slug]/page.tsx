@@ -91,8 +91,8 @@ export async function generateMetadata({ params }: Props) {
   }
   if (slug === 'abacoa') {
     const img = '/images/abacoa/abacoa-og.jpg'
-    const title = 'Abacoa Homes for Sale | Jupiter FL Villages & Town Center | DO Homes Group'
-    const description = 'Explore Abacoa, Jupiter’s walkable master-planned community: 11 villages, live listings, how the associations work, and a local agent tip for buyers and sellers.'
+    const title = 'Abacoa Homes for Sale in Jupiter, FL | DO Homes Group'
+    const description = 'Explore Abacoa homes, townhomes and condos for sale in Jupiter, FL. Compare neighborhoods, Town Center access and HOA considerations.'
     return {
       title,
       description,

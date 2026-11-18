@@ -4,13 +4,13 @@ import { getCommunityBySlug } from '@/lib/communities'
 import { VILLAGES } from '@/lib/abacoaVillages'
 import { marketTrendsCity } from '@/lib/articles'
 import MarketTrendsBlock from '@/components/MarketTrendsBlock'
-import YlopoResultsWidget from '@/components/YlopoResultsWidget'
+import AbacoaScopeWidget from '@/components/AbacoaScopeWidget'
+import { getAbacoaScope, scopeFullSearchUrl } from '@/lib/abacoaScopes'
 import YlopoInit from '@/components/YlopoInit'
 import AbacoaListings from '@/components/AbacoaListings'
 import AbacoaRetrieved from '@/components/AbacoaRetrieved'
 import GreatSchoolsCard from '@/components/GreatSchoolsCard'
 
-const SEARCH_URL = 'https://search.doyouneedahome.com'
 const SITE = 'https://www.doyouneedahome.com'
 
 // Until a village has its own photos, the hero is the Abacoa Town Center shot
@@ -41,10 +41,10 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
   const c = VILLAGES[slug]
   if (!v || !c) return null
   const trends = marketTrendsCity('Jupiter')
-  const location = c.listingsLocation ?? v.ylopoLocation ?? v.name
-  const searchUrl =
-    `${SEARCH_URL}/search?area=Jupiter&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1` +
-    `&s[locations][0][neighborhood]=${encodeURIComponent(location)}&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[minPrice]=400000`
+  // Every listing surface on this page reads the same verified scope. A page
+  // with no scope (Dakota Drive, a street guide) shows no inventory at all.
+  const scope = getAbacoaScope(slug)
+  const searchUrl = scope ? scopeFullSearchUrl(scope) : undefined
   const hasOwnPhotos = Boolean(v.photos?.length)
   const hero = hasOwnPhotos
     ? { src: v.photos![0], alt: `${v.name}, an Abacoa village in Jupiter, Florida`, caption: '' }
@@ -55,7 +55,6 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
     .map((s) => getCommunityBySlug(s))
     .filter((x): x is NonNullable<typeof x> => Boolean(x))
   const h1 = c.heading ?? `${v.name} Homes for Sale`
-  const listingsName = c.listingsLocation ?? v.name
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -100,55 +99,82 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
             </ol>
           </nav>
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-report-gold-light">
-            An Abacoa village · Jupiter, Florida
+            {scope ? 'An Abacoa village' : 'A street guide'} · Jupiter, Florida
           </p>
           <h1 className="mt-3 font-serif text-5xl font-semibold leading-[1.05] text-white sm:text-6xl">
             {h1}
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-white/90">{c.tagline}</p>
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:gap-4">
-            <a href="#listings" className={btnPrimary}>See {listingsName} listings</a>
+            {scope ? (
+              <a href="#listings" className={btnPrimary}>See {v.name} listings</a>
+            ) : (
+              <Link href="/communities/canterbury-place" className={btnPrimary}>Canterbury Place homes for sale</Link>
+            )}
             <Link href="/contact" className={btnGhostDark}>Speak with a local expert</Link>
           </div>
           {hero.caption && <p className="mt-5 text-xs text-white/75">Photo: {hero.caption}</p>}
         </div>
       </section>
 
-      {/* Listings first */}
-      <section id="listings" className="scroll-mt-24 px-6 py-14 sm:px-8 sm:py-16">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <p className={eyebrow}>Live MLS feed</p>
-              <h2 className={h2}>{c.listingsHeading ?? `Homes for sale in ${v.name}`}</h2>
+      {/* Listings first. Only routes with a verified scope show inventory. */}
+      {scope ? (
+        <section id="listings" className="scroll-mt-24 px-6 py-14 sm:px-8 sm:py-16">
+          <div className="mx-auto max-w-7xl">
+            <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <p className={eyebrow}>Live MLS feed</p>
+                <h2 className={h2}>{c.listingsHeading ?? `Homes for sale in ${v.name}`}</h2>
+              </div>
+              <a
+                href={searchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-semibold text-gold-600 underline-offset-4 hover:text-gold-700 hover:underline"
+              >
+                Open the full {v.name} search →
+              </a>
             </div>
-            <a
-              href={searchUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-semibold text-gold-600 underline-offset-4 hover:text-gold-700 hover:underline"
-            >
-              Open the full {listingsName} search →
-            </a>
+            <YlopoInit key={`init-${slug}`} city="Jupiter" />
+            <AbacoaListings key={`listings-${slug}`} slug={slug}>
+              <AbacoaScopeWidget slug={slug} />
+            </AbacoaListings>
+            <p className="mt-4 text-sm text-slate-600">
+              Looking beyond {v.name}?{' '}
+              <Link href="/communities/abacoa#listings" className="font-semibold text-gold-600 hover:text-gold-700">
+                Browse all of Abacoa →
+              </Link>
+            </p>
           </div>
-          <YlopoInit city="Jupiter" />
-          <AbacoaListings searchUrl={searchUrl}>
-            <YlopoResultsWidget city="Jupiter" neighborhood={location} minPrice={400000} limit={6} />
-          </AbacoaListings>
-          {c.listingsNote && <p className="mt-3 text-sm text-slate-600">{c.listingsNote}</p>}
-          <p className="mt-4 text-sm text-slate-600">
-            Not seeing the right home? Browse{' '}
-            <Link href="/communities/abacoa" className="font-semibold text-gold-600 hover:text-gold-700">
-              all of Abacoa
-            </Link>{' '}
-            or{' '}
-            <Link href="/contact" className="font-semibold text-gold-600 hover:text-gold-700">
-              ask us about off-market options
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
+        </section>
+      ) : (
+        <section id="listings" className="scroll-mt-24 px-6 py-14 sm:px-8 sm:py-16">
+          <div className="mx-auto max-w-7xl rounded-3xl border border-slate-200 bg-slate-50 p-8">
+            <p className={eyebrow}>Where to search</p>
+            <h2 className={h2}>Search the village, not the street</h2>
+            <p className="mt-3 max-w-3xl leading-8 text-slate-600">
+              The MLS files a home under its village, not its street, so Dakota Drive is not a
+              searchable area. We do not show a Dakota Drive listing feed because no filter can tell a
+              Canterbury Place townhome from a Somerset condo on the same street.
+            </p>
+            <ul className="mt-5 flex flex-wrap gap-3">
+              <li>
+                <Link href="/communities/canterbury-place#listings" className={btnPrimary}>
+                  Canterbury Place homes for sale →
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/communities/abacoa#listings"
+                  className="inline-flex items-center justify-center rounded-full border border-slate-300 px-7 py-3.5 text-sm font-semibold text-slate-800 transition hover:border-report-gold hover:text-gold-600"
+                >
+                  All Abacoa homes for sale
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* About */}
       <section className="px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-about">
@@ -177,28 +203,6 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
           </div>
         </div>
       </section>
-
-      {/* Market */}
-      {trends && (
-        <section className="bg-slate-50 px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-market">
-          <div className="mx-auto max-w-7xl">
-            <p className={eyebrow}>Market context</p>
-            <h2 id="village-market" className={h2}>Jupiter market context</h2>
-            <p className="mt-3 max-w-3xl text-slate-600">
-              This feed reports Jupiter as a whole, not {v.name}. Use it for direction, then compare
-              recent sales inside the village. <span className="font-semibold text-slate-700"><AbacoaRetrieved /></span>.
-            </p>
-            <div className="mt-6 min-w-0">
-              <MarketTrendsBlock
-                city={trends.city}
-                heading="Jupiter, FL market trends"
-                caption="Live Ylopo market data for Jupiter, FL. Individual villages are not reported separately."
-                frameClassName="mt-4"
-              />
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Gallery: only when the village has its own photos */}
       {gallery.length > 0 && (
@@ -255,7 +259,16 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
             <GreatSchoolsCard citySlug="jupiter" cityName={v.name} />
           </div>
           <p className="mt-4 text-xs leading-6 text-slate-500">
-            School assignments and boundaries change. Confirm the current zone for any address with Palm Beach County Schools.
+            School assignments follow the address, not the village, and boundaries change. Check any address with the{' '}
+            <a
+              href="https://www.palmbeachschools.org/studentsparents/student-registration"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-slate-700"
+            >
+              Palm Beach County Schools address lookup
+            </a>
+            .
           </p>
         </div>
       </section>
@@ -293,11 +306,34 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
         </div>
       </section>
 
+      {/* Market */}
+      {trends && (
+        <section className="px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-market">
+          <div className="mx-auto max-w-7xl">
+            <p className={eyebrow}>Market context</p>
+            <h2 id="village-market" className={h2}>Jupiter market context</h2>
+            <p className="mt-3 max-w-3xl text-slate-600">
+              This feed reports Jupiter as a whole, not {v.name}. Use it for direction, then compare
+              recent sales inside the village. <span className="font-semibold text-slate-700"><AbacoaRetrieved /></span>.
+            </p>
+            <div className="mt-6 min-w-0">
+              <MarketTrendsBlock
+                city={trends.city}
+                heading="Jupiter, FL market trends"
+                headingLevel="h3"
+                caption="Live Ylopo market data for Jupiter, FL. Individual villages are not reported separately."
+                frameClassName="mt-4"
+              />
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* More villages */}
       <section className="px-6 py-14 sm:px-8 sm:py-16">
         <div className="mx-auto max-w-7xl">
           <p className={eyebrow}>Keep exploring</p>
-          <h2 className={h2}>Other Abacoa villages</h2>
+          <h2 className={h2}>{scope ? 'Other Abacoa villages' : 'Villages along Dakota Drive'}</h2>
           <ul className="mt-6 flex flex-wrap gap-3">
             {siblings.map((s) => (
               <li key={s.slug}>
@@ -317,10 +353,16 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
 
       <section className="bg-navy-950 px-6 py-14 text-center text-white sm:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="font-serif text-3xl font-semibold sm:text-4xl">Want to tour {v.name}?</h2>
+          <h2 className="font-serif text-3xl font-semibold sm:text-4xl">
+            {scope ? `Want to tour ${v.name}?` : 'Want help with a Dakota Drive address?'}
+          </h2>
           <p className="mt-3 text-white/90">Tell us what matters and we’ll walk it with you.</p>
           <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a href={searchUrl} target="_blank" rel="noopener noreferrer" className={btnPrimary}>Search {v.name} homes</a>
+            {searchUrl ? (
+              <a href={searchUrl} target="_blank" rel="noopener noreferrer" className={btnPrimary}>Search {v.name} homes</a>
+            ) : (
+              <Link href="/communities/canterbury-place#listings" className={btnPrimary}>Canterbury Place homes</Link>
+            )}
             <Link href="/contact" className={btnGhostDark}>Speak with a local expert</Link>
           </div>
         </div>

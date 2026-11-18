@@ -17,20 +17,24 @@ export default function MarketTrendsBlock({
   heading,
   caption,
   frameClassName = 'mt-5',
+  headingLevel = 'h2',
 }: {
   city: string
   heading: string
   caption: string
   /** Spacing above the bordered frame — pages differ slightly. */
   frameClassName?: string
+  /** Use 'h3' when the page already supplies the section's h2. */
+  headingLevel?: 'h2' | 'h3'
 }) {
   const { ref, state } = useYlopoWidgetContent(city)
+  const Heading = headingLevel
 
   if (state === 'empty') return null
 
   return (
     <div>
-      <h2 className="font-serif text-2xl font-semibold text-slate-900">{heading}</h2>
+      <Heading className="font-serif text-2xl font-semibold text-slate-900">{heading}</Heading>
       <p className="mt-2 text-sm text-slate-500">{caption}</p>
       <div
         className={`${frameClassName} relative overflow-hidden rounded-2xl border border-slate-200 ${

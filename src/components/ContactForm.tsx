@@ -42,6 +42,8 @@ export interface ContactFormProps {
   /** Prefix that keeps element ids unique when the form is on a page that has another one. */
   idPrefix?: string
   messagePlaceholder?: string
+  /** Pre-fills the message box, e.g. with the exact area a listing alert is for. */
+  initialMessage?: string
   className?: string
 }
 
@@ -56,9 +58,10 @@ export default function ContactForm({
   pageName,
   idPrefix = 'contact',
   messagePlaceholder = 'The area or building you are looking at, your timing, or a question.',
+  initialMessage,
   className = '',
 }: ContactFormProps) {
-  const [values, setValues] = useState<FormValues>(EMPTY)
+  const [values, setValues] = useState<FormValues>({ ...EMPTY, message: initialMessage ?? '' })
   const [phoneConsent, setPhoneConsent] = useState(false)
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({})
   const [status, setStatus] = useState<Status>('idle')

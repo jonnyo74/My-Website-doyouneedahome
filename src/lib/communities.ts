@@ -3230,7 +3230,7 @@ export const neighborhoods: CommunityItem[] = [
       { name: 'Charleston Court', description: 'Victorian-style three-bedroom townhomes overlooking Abacoa Golf Club.' },
       { name: 'Osceola Woods', description: 'About 146 three-story townhomes near Downtown Abacoa, backing onto a nature preserve.' },
       { name: 'Tuscany', description: 'A Mediterranean-style village of 453 single-family homes and townhomes built around 2004.' },
-      { name: 'Dakota Drive', description: 'A street through several villages; many of its townhomes are part of Canterbury Place.' },
+      { name: 'Dakota Drive', description: 'A street through several villages, not a village itself. Some of its townhomes are filed under Canterbury Place.' },
     ],
     priceRanges: [
       { type: 'Condos & Townhomes', range: '$400K – $600K', minPrice: 400000, maxPrice: 600000, propertyTypes: ['condo', 'townhouse'] },
@@ -3244,9 +3244,9 @@ export const neighborhoods: CommunityItem[] = [
       'Homes historically hold value well due to location, school zoning, and community design',
       'Diverse home types from condos under $400K to golf-front estates over $1.4M',
       'Beacon Cove, Eisenhower Middle, and William T. Dwyer High serve the community',
-      '10 minutes to Jupiter Beach, 5 minutes to I-95, 25–30 minutes to DJT Airport',
+      '10 minutes to Jupiter Beach, 5 minutes to I-95, 25–30 minutes to Trump International Airport (DJT), depending on traffic',
     ],
-    schoolOverview: 'Abacoa has both public and private school access and is zoned for its own dedicated school pipeline, which differs from the Jupiter High School zone. Buyers should confirm current attendance assignments with Palm Beach County Schools, as boundaries within Abacoa vary by address.',
+    schoolOverview: 'Abacoa has both public and private school access. Assignments follow the address and boundaries change, so check each address with the Palm Beach County Schools address lookup rather than assuming a village or the whole community feeds one set of schools.',
     schoolList: [
       {
         category: 'Public Schools',
@@ -3271,7 +3271,7 @@ export const neighborhoods: CommunityItem[] = [
       { destination: 'Florida Turnpike', time: '10 min' },
       { destination: 'Downtown Jupiter', time: '8–10 min' },
       { destination: 'The Gardens Mall', time: '15 min' },
-      { destination: 'DJT Airport', time: '25–30 min' },
+      { destination: 'Trump International Airport (DJT)', time: '25–30 min' },
     ],
     outdoorActivities: [
       'Abacoa Golf Club (public, recently redesigned)',
@@ -4836,41 +4836,22 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    // Do NOT "correct" this to Delray Beach. There are two Dakotas: this one is
-    // the Abacoa townhomes in Jupiter; the other is newer single-family east of
-    // the Turnpike on Atlantic in Delray. Ylopo only carries the Delray one, so
-    // this page's listings block stays empty until they add ours.
-    description: "Dakota Drive runs through several Abacoa villages. Many of its townhomes are listed under Canterbury Place.",
-    overview: 'Dakota is a modern townhome community within Abacoa featuring contemporary architecture and practical floor plans. The community emphasizes modern townhome living with a clean, coastal style and an easy, low-maintenance lifestyle. Most homes are 2–3 story with 2–3 bedroom configurations, open living and dining layouts, modern kitchens, private garages, balconies or small outdoor spaces on select models, and HOA-managed exterior and landscaping.\n\nDakota offers approachable pricing compared to larger Abacoa neighborhoods and is described as providing an accessible entry into Jupiter\'s competitive real estate market. Community amenities include a swimming pool, sidewalks, tree-lined streets, green spaces, and guest parking.',
-    lifestyle: 'Low-maintenance and practical with coastal-modern curb appeal. Dakota offers Abacoa\'s most accessible price points, compact low-maintenance floor plans, and HOA-managed exteriors.',
+    // Do NOT "correct" this to Delray Beach. There are two Dakotas: the Abacoa one
+    // here is a street guide (Dakota Drive) plus the Dakota at Abacoa rental
+    // community; the other is newer single-family in Delray. Ylopo only carries the
+    // Delray one, and this route deliberately shows no listings feed.
+    description: "Dakota Drive runs through several Abacoa villages. Some of its townhomes are listed under Canterbury Place.",
+    overview: 'Dakota Drive is a street that runs through several Abacoa villages, so a Dakota Drive address belongs to whichever village the MLS files it under, such as Canterbury Place or Somerset at Abacoa. Dakota at Abacoa is a separate rental community on South Bismark Lane.\n\nThis page is a street guide, not a for-sale neighborhood. It explains how to tell which village a Dakota Drive address is in and links to the villages themselves.',
+    lifestyle: 'Life on Dakota Drive depends on the village: its association, amenities and rules differ from address to address.',
     highlights: [
-      'Modern 2–3 story townhomes with coastal design and private garages',
-      '2–3 bedroom layouts with open living, modern kitchens, and community pool',
-      'HOA-managed exterior — lock-and-leave ready',
-      'Approachable pricing within Abacoa',
-      'Close to Abacoa Town Center, Roger Dean Stadium, and Jupiter public schools',
-    ],
-    priceRanges: [
-      { type: 'Townhomes', range: '$420K – $620K', minPrice: 420000, maxPrice: 620000, propertyTypes: ['townhouse'] },
-    ],
-    commuteTimes: [
-      { destination: 'Abacoa Town Center', time: '5 min' },
-      { destination: 'Jupiter Beach', time: '10–15 min' },
-      { destination: 'I-95', time: '5 min' },
-      { destination: 'DJT Airport', time: '25–30 min' },
-    ],
-    schoolList: [
-      { category: 'Public Schools', schools: [
-        { name: 'Beacon Cove Intermediate' },
-        { name: 'Dwight D. Eisenhower Middle School' },
-        { name: 'William T. Dwyer High School' },
-      ]},
+      'Passes through several Abacoa villages',
+      'Some townhomes in the 500s block are filed under Canterbury Place',
+      'Dakota at Abacoa is a separate rental community',
     ],
     quickFacts: [
-      { label: 'Home style', value: 'Modern 2–3 story townhomes; coastal design' },
-      { label: 'Bedrooms', value: '2–3 bedrooms; private garages' },
-      { label: 'Price range', value: '$420K – $620K' },
-      { label: 'Best for', value: 'Entry-level pricing, low-maintenance living, lock-and-leave ownership' },
+      { label: 'What it is', value: 'A street through several Abacoa villages' },
+      { label: 'Dakota at Abacoa', value: 'A rental community on South Bismark Lane' },
+      { label: 'Best for', value: 'Working out which village an address belongs to' },
     ],
     similarNeighborhoods: ['canterbury-place', 'charleston-court', 'tuscany', 'martinique'],
   },
