@@ -45,7 +45,7 @@ export interface VillageContent {
 }
 
 const POA = (slug: string, name: string) => ({ label: `Abacoa POA: ${name}`, url: `https://www.abacoa.com/neighborhoods/${slug}` })
-const SUNBIZ = { label: "Florida Division of Corporations: association filings", url: "https://search.sunbiz.org/" }
+const SUNBIZ = (name: string, doc: string) => ({ label: `Florida Sunbiz: ${name} (document ${doc})`, url: "https://search.sunbiz.org/" })
 const DAKOTA_GUIDE = { text: "Dakota Drive runs through several villages. See which village your address is in", href: "/communities/dakota" }
 
 const ASSOC_NOTE =
@@ -55,7 +55,7 @@ export const VILLAGES: Record<string, VillageContent> = {
   "mallory-creek": {
     guideLink: DAKOTA_GUIDE,
     slug: "mallory-creek",
-    sources: [POA('mallory-creek', 'Mallory Creek'), { label: 'Mallory Creek HOA', url: 'https://mallorycreekhoa.com/wp/' }, SUNBIZ],
+    sources: [POA('mallory-creek', 'Mallory Creek'), { label: 'Mallory Creek HOA', url: 'https://mallorycreekhoa.com/wp/' }, SUNBIZ("Mallory Creek Homeowners Association, Inc.", "N06000003793")],
     tagline:
       "A Key West–inspired DiVosta village of about 580 homes, townhomes and single-family, with a clubhouse and two heated pools.",
     metaTitle: "Mallory Creek at Abacoa, Jupiter FL | Homes for Sale & Village Guide",
@@ -100,7 +100,7 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   newhaven: {
     slug: "newhaven",
-    sources: [POA('newhaven', 'Newhaven'), { label: 'Newhaven HOA', url: 'https://newhavenabacoa.sites.townsq.io/0' }, SUNBIZ],
+    sources: [POA('newhaven', 'Newhaven'), { label: 'Newhaven HOA', url: 'https://newhavenabacoa.sites.townsq.io/0' }, SUNBIZ("NewHaven at Abacoa Homeowners Association, Inc.", "N97000004612")],
     tagline:
       "Abacoa’s first neighborhood: about 500 homes begun in 1998, tree-lined streets, two clubhouses and two pools.",
     metaTitle: "Newhaven at Abacoa, Jupiter FL | Homes for Sale & Village Guide",
@@ -111,7 +111,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Single-family homes run from about 1,300 to 3,500 square feet, three to five bedrooms, each with a private patio, and include one-story courtyard plans alongside two-story homes. The townhomes are three bedrooms with two-car garages. Exteriors vary even where interior plans are similar.",
     ],
     living:
-      "Because it’s one of the oldest parts of Abacoa, the landscaping has had time to grow in: the HOA describes narrow streets lined with magnolia, live oak, holly and maple. The village has two resident clubhouses, two pools and a playground at each, and listings also mention tennis and pickleball courts. It is managed by Castle Group.",
+      "Because it’s one of the oldest parts of Abacoa, the landscaping has had time to grow in: the HOA describes narrow streets lined with magnolia, live oak, holly and maple. The village has two resident clubhouses, two pools and a playground at each. If court access matters, ask the association which courts this address can use and where they are. It is managed by Castle Group.",
     highlights: [
       "The first neighborhood built in Abacoa, begun in 1998",
       "405 single-family homes and 100 townhomes",
@@ -124,7 +124,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       { label: "Builder", value: "DiVosta Homes" },
       { label: "Built", value: "Began in 1998" },
       { label: "Size and bedrooms", value: "Single-family about 1,300–3,500 sq ft, 3–5 bedrooms; townhomes 3 bedrooms" },
-      { label: "Village amenities", value: "Two clubhouses, two pools, playgrounds; tennis and pickleball per listings" },
+      { label: "Village amenities", value: "Two clubhouses, two pools, playgrounds" },
       { label: "Management", value: "Castle Group" },
     ],
     association:
@@ -145,7 +145,7 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   antigua: {
     slug: "antigua",
-    sources: [POA('antigua-town-center', 'Antigua at Town Center'), SUNBIZ],
+    sources: [POA('antigua-town-center', 'Antigua at Town Center'), SUNBIZ("Antigua at Town Center Homeowners Association, Inc.", "N02000009107")],
     tagline:
       "Antigua at Town Center: live/work and residential townhomes by Main Street, with a clubhouse, resort-style pool and central green.",
     metaTitle: "Antigua at Abacoa Town Center, Jupiter FL | Townhomes for Sale",
@@ -189,7 +189,7 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   "windsor-park": {
     slug: "windsor-park",
-    sources: [POA('windsor-park', 'Windsor Park'), SUNBIZ],
+    sources: [POA('windsor-park', 'Windsor Park'), SUNBIZ("Windsor Park Abacoa Homeowners Association, Inc.", "N06000010430")],
     tagline:
       "Abacoa’s newest village: DiVosta-built single-family homes and townhomes, 3–6 bedrooms, with a clubhouse, pool and fire pit.",
     metaTitle: "Windsor Park at Abacoa, Jupiter FL | Homes & Townhomes for Sale",
@@ -231,26 +231,26 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   valencia: {
     slug: "valencia",
-    sources: [POA('valencia', 'Valencia'), { label: 'Valencia HOA FAQ', url: 'https://valenciahoa.org/frequently-asked-questions.html' }, SUNBIZ],
+    sources: [POA('valencia', 'Valencia'), { label: 'Valencia HOA FAQ', url: 'https://valenciahoa.org/frequently-asked-questions.html' }, SUNBIZ("Valencia at Abacoa Homeowners Association, Inc.", "N01000000067")],
     tagline:
-      "Abacoa’s custom-home village: about 137 Mediterranean single-family estates, 3–6 bedrooms, many with private pools.",
+      "Abacoa’s custom-home village: 137 Mediterranean single-family estates, 3–6 bedrooms, many with private pools.",
     metaTitle: "Valencia at Abacoa, Jupiter FL | Custom Mediterranean Homes for Sale",
     metaDescription:
-      "Valencia is Abacoa’s custom-home village in Jupiter: about 137 Mediterranean single-family estates, many with pools, near lakes and a nature preserve. A buyer’s guide.",
+      "Valencia is Abacoa’s custom-home village in Jupiter: 137 Mediterranean single-family estates, many with pools, near lakes and a nature preserve. A buyer’s guide.",
     story: [
-      "Valencia at Abacoa is a village of custom-built single-family homes, about 137 of them (the village association’s own pages give both 136 and 137), with homes recorded as built as early as 2003. Builders include Frankel-Paone and The Spear Group, which reports building 52 of the homes. This is not a condo or townhome village.",
+      "Valencia at Abacoa is a village of custom-built single-family homes, 137 of them, according to the village association’s FAQ, with homes recorded as built as early as 2003. Builders include Frankel-Paone and The Spear Group, which reports building 52 of the homes. This is not a condo or townhome village.",
       "Homes run from about 2,300 to over 5,000 square feet under air, three to six bedrooms, in a Mediterranean style: stucco, arched doorways or iron gates and terra-cotta tile roofs, with private pools and lanais common.",
     ],
     living:
       "The village association lists a clubhouse, fitness center, heated pool, playground and green space. Listings describe two large lakes, trails and a nature preserve along its southeast edge. It sits at the northeast corner of Frederick Small Road and Central Boulevard, west of Military Trail. We did not find a source for walking distance to Town Center, so test the route yourself.",
     highlights: [
-      "About 137 custom single-family homes, 3–6 bedrooms",
+      "137 custom single-family homes, 3–6 bedrooms",
       "Mediterranean styling, private pools and lanais common",
       "Two lakes, trails and a nature preserve edge",
       "Village clubhouse, fitness center, heated pool and playground",
     ],
     facts: [
-      { label: "Home types", value: "Custom single-family homes (about 137)" },
+      { label: "Home types", value: "Custom single-family homes (137)" },
       { label: "Builders", value: "Frankel-Paone and The Spear Group, among others" },
       { label: "Built", value: "From about 2003" },
       { label: "Size and bedrooms", value: "About 2,300–5,000+ sq ft; 3–6 bedrooms" },
@@ -275,7 +275,7 @@ export const VILLAGES: Record<string, VillageContent> = {
   martinique: {
     guideLink: DAKOTA_GUIDE,
     slug: "martinique",
-    sources: [POA('martinique', 'Martinique'), { label: 'Martinique HOA FAQ', url: 'https://mymartiniquehoa.com/frequently-asked-questions.html' }, SUNBIZ],
+    sources: [POA('martinique', 'Martinique'), { label: 'Martinique HOA FAQ', url: 'https://mymartiniquehoa.com/frequently-asked-questions.html' }, SUNBIZ("Martinique Homeowners Association, Inc.", "N03000008208")],
     tagline:
       "A Caribbean-style Abacoa village of townhomes and single-family homes, with a clubhouse, pool, fitness center and picnic pavilion.",
     metaTitle: "Martinique at Abacoa, Jupiter FL | Townhomes & Homes for Sale",
@@ -286,7 +286,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Townhomes are three-bedroom units in two- and three-story layouts, while the houses run three to five bedrooms. We found no condos here, despite older wording elsewhere. Note that this is not the Martinique in Coconut Creek.",
     ],
     living:
-      "The village association lists a clubhouse, pool, picnic pavilion, fitness center and tot lot; listings also mention a Village Green, a Civic Center, tennis and trails. The east edge borders a nature preserve, and Roger Dean Stadium is described as a few minutes away, which means a short drive or bike ride rather than a verified walk.",
+      "The village association lists a clubhouse, pool, picnic pavilion, fitness center and tot lot; listings also mention a Village Green, a Civic Center and trails. If court access matters, ask the association which courts this address can use and where they are. The east edge borders a nature preserve, and Roger Dean Stadium is described as a few minutes away, which means a short drive or bike ride rather than a verified walk.",
     highlights: [
       "Townhomes and single-family houses, not condos",
       "Caribbean-style architecture",
@@ -318,7 +318,7 @@ export const VILLAGES: Record<string, VillageContent> = {
   "canterbury-place": {
     guideLink: DAKOTA_GUIDE,
     slug: "canterbury-place",
-    sources: [POA('canterbury-place', 'Canterbury Place'), SUNBIZ],
+    sources: [POA('canterbury-place', 'Canterbury Place'), SUNBIZ("Canterbury Place Homeowners’ Association, Inc.", "N05000000206")],
     tagline:
       "A lake-view village of 144 single-family homes and 173 townhomes in a Tuscan and French country style, with a pool and clubhouse.",
     metaTitle: "Canterbury Place at Abacoa, Jupiter FL | Homes & Townhomes for Sale",
@@ -360,7 +360,7 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   "charleston-court": {
     slug: "charleston-court",
-    sources: [POA('charleston-court', 'Charleston Court'), { label: 'Charleston Court HOA FAQ', url: 'https://charlestoncourthoa.org/frequently-asked-questions.html' }, SUNBIZ],
+    sources: [POA('charleston-court', 'Charleston Court'), { label: 'Charleston Court HOA FAQ', url: 'https://charlestoncourthoa.org/frequently-asked-questions.html' }, SUNBIZ("Charleston Court at Abacoa Homeowners Association, Inc.", "N98000003326")],
     tagline:
       "Victorian-style three-bedroom townhomes overlooking Abacoa Golf Club, a short walk to Downtown Abacoa and Roger Dean Stadium.",
     metaTitle: "Charleston Court at Abacoa, Jupiter FL | Townhomes for Sale",
@@ -404,7 +404,7 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   "osceola-woods": {
     slug: "osceola-woods",
-    sources: [POA('osceola-woods', 'Osceola Woods'), SUNBIZ],
+    sources: [POA('osceola-woods', 'Osceola Woods'), SUNBIZ("Osceola Woods Homeowners Association, Inc.", "N01000003459")],
     tagline:
       "About 146 three-story townhomes near Downtown Abacoa, with a community pool and a nature preserve behind them.",
     metaTitle: "Osceola Woods at Abacoa, Jupiter FL | Townhomes for Sale",
@@ -447,7 +447,7 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   tuscany: {
     slug: "tuscany",
-    sources: [POA('tuscany', 'Tuscany at Abacoa'), { label: 'Tuscany HOA', url: 'https://tuscanyabacoa.com/' }, SUNBIZ],
+    sources: [POA('tuscany', 'Tuscany at Abacoa'), { label: 'Tuscany HOA', url: 'https://tuscanyabacoa.com/' }, SUNBIZ("Tuscany at Abacoa Homeowners Association, Inc.", "N01000006205")],
     tagline:
       "A Mediterranean-style DiVosta village of 446 single-family homes and townhomes, with a clubhouse, pool and playground.",
     metaTitle: "Tuscany at Abacoa, Jupiter FL | Homes & Townhomes for Sale",

@@ -391,12 +391,12 @@ export default function AbacoaLanding() {
             <p className="mt-6 text-xs leading-6 text-slate-500">
               School assignments follow the address and boundaries change. Check any address with the{' '}
               <a
-                href="https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps"
+                href="https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline underline-offset-2 hover:text-slate-700"
               >
-                Palm Beach County Schools attendance boundary maps
+                Palm Beach County Schools attendance boundary maps (elementary, middle and high)
               </a>
               .
             </p>
