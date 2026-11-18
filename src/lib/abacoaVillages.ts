@@ -47,7 +47,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "A Key West–inspired DiVosta village of about 580 homes, townhomes and single-family, with a clubhouse and two heated pools.",
     metaTitle: "Mallory Creek at Abacoa, Jupiter FL | Homes for Sale & Village Guide",
     metaDescription:
-      "Mallory Creek is a Key West–inspired Abacoa village of single-family homes and townhomes in Jupiter. See live listings, what the village offers, and what to check with the association.",
+      "Mallory Creek is a Key West–inspired Abacoa village of single-family homes and townhomes in Jupiter. See what the village offers and what to check with the association.",
     story: [
       "Mallory Creek is one of Abacoa’s larger villages: about 581 homes, made up of roughly 267 single-family homes and 314 townhomes. The Abacoa Property Owners’ Assembly names DiVosta Homes as the builder, and public listings show homes finished from about 2009 into the mid-2010s, though sources differ on the exact years.",
       "The styling is Key West–inspired, and the streets carry the theme: Islamorada Drive, Key Largo Street, Windley Key Way. There are more than twenty floor plans, from about 1,500 to 4,800 square feet and from three to six bedrooms, so the village works for very different buyers under one roof.",
@@ -81,7 +81,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "Who built Mallory Creek?", a: "The Abacoa Property Owners’ Assembly names DiVosta Homes as the builder." },
       { q: "Can I walk to Abacoa Town Center from Mallory Creek?", a: "It’s a short bike ride or drive for most addresses. The village’s Walk Score is low, so walk the route yourself before relying on it." },
       { q: "What amenities does Mallory Creek have?", a: "A clubhouse, two heated pools and a playground, managed on site by Triton Property Management." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["newhaven", "windsor-park", "martinique"],
   },
@@ -92,7 +91,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Abacoa’s first neighborhood: about 500 homes begun in 1998, tree-lined streets, two clubhouses and two pools.",
     metaTitle: "Newhaven at Abacoa, Jupiter FL | Homes for Sale & Village Guide",
     metaDescription:
-      "Newhaven is the first neighborhood built in Abacoa, Jupiter: single-family homes and townhomes on tree-lined streets with two clubhouses and pools. Live listings and a buyer’s guide.",
+      "Newhaven is the first neighborhood built in Abacoa, Jupiter: single-family homes and townhomes on tree-lined streets with two clubhouses and pools. A buyer’s guide.",
     story: [
       "Newhaven is where Abacoa began. The village association describes it as the first of Abacoa’s communities, with DiVosta completing the first homes in 1998. The Abacoa association counts 505 homes: 405 single-family residences and 100 townhomes, spread across about 114 acres in two sections. Building ran roughly 1998 to 2001.",
       "Single-family homes run from about 1,300 to 3,500 square feet, three to five bedrooms, each with a private patio, and include one-story courtyard plans alongside two-story homes. The townhomes are three bedrooms with two-car garages. Exteriors vary even where interior plans are similar.",
@@ -126,7 +125,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "What kinds of homes are in Newhaven?", a: "About 405 single-family homes (3–5 bedrooms) and 100 three-bedroom townhomes." },
       { q: "Are the streets wide?", a: "No. The village’s own HOA site describes narrow, tree-lined streets." },
       { q: "What are the amenities?", a: "Two resident clubhouses and two pools, with a playground at each clubhouse." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["mallory-creek", "windsor-park", "tuscany"],
   },
@@ -137,7 +135,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Antigua at Town Center: about 280 live/work townhomes by Main Street, with a clubhouse, resort-style pool and central green.",
     metaTitle: "Antigua at Abacoa Town Center, Jupiter FL | Townhomes for Sale",
     metaDescription:
-      "Antigua at Town Center is Abacoa’s live/work townhome village, with walkable access to Main Street. See live listings, what to know about commercial-use units, and the association checklist.",
+      "Antigua at Town Center is Abacoa’s live/work townhome village, with walkable access to Main Street. What to know about commercial-use units, plus the association checklist.",
     story: [
       "Antigua, officially Antigua at Town Center, is the Abacoa village closest to the Main Street shops and restaurants. It’s a townhome community of roughly 280 units built around 2004–2006, two or three stories each. Listings credit Town & Country Builders, though no official builder statement turned up.",
       "The distinctive feature is live/work: according to the Abacoa association, select units on Main Street, West Main, East Main and Cades Bay allow commercial use on the first floor with living space above. The rest of the village is residential only, so confirm the zoning and use for any specific unit.",
@@ -170,7 +168,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "Is Antigua walkable to Town Center?", a: "The Abacoa association describes it as walkable along Main Street to Downtown Abacoa. It’s the most walkable of the villages we researched." },
       { q: "How many homes are in Antigua?", a: "Roughly 280 townhomes, though brokerage sources give slightly different counts." },
       { q: "What amenities does Antigua have?", a: "A clubhouse, a resort-style pool and a central green." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["tuscany", "valencia", "martinique"],
   },
@@ -181,7 +178,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Abacoa’s newest village: about 380 DiVosta-built single-family homes and townhomes, 3–5 bedrooms, with a clubhouse, pool and fire pit.",
     metaTitle: "Windsor Park at Abacoa, Jupiter FL | Homes & Townhomes for Sale",
     metaDescription:
-      "Windsor Park is the newest village in Abacoa, Jupiter: DiVosta-built single-family homes and townhomes from roughly 2013 to 2018 with a clubhouse, heated pool and fire pit. Live listings and a buyer’s guide.",
+      "Windsor Park is the newest village in Abacoa, Jupiter: DiVosta-built single-family homes and townhomes from roughly 2013 to 2018, with a clubhouse, heated pool and fire pit.",
     story: [
       "Windsor Park at Abacoa is the community’s final and youngest residential village. Public listings credit DiVosta Homes, with construction from about 2013 to 2018 and roughly 380 homes in all. That makes it a newer-construction option inside an otherwise early-2000s community.",
       "There are about 16 floor plans, mixing single-family homes and townhomes, from three to five bedrooms (one source says up to six) and roughly 1,500 to 3,800 square feet, in one- and two-story layouts with up to three-car garages. Sources describe the look as Old Florida bungalow in one place and Mediterranean-inspired in another, so judge the exteriors in person.",
@@ -212,7 +209,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "Is it the same as Windsor Park in North Palm Beach?", a: "No. That is a different community. Search for Windsor Park At Abacoa, Jupiter." },
       { q: "What types of homes are there?", a: "Single-family homes and townhomes, 3–5 bedrooms across about 16 plans." },
       { q: "Does the HOA cover exterior maintenance?", a: "One listing says it covers lawn care and exterior painting, but that is a single source. Confirm with the association for the specific home." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["mallory-creek", "newhaven", "tuscany"],
   },
@@ -223,7 +219,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Abacoa’s custom-home village: about 137 Mediterranean single-family estates, 3–6 bedrooms, many with private pools.",
     metaTitle: "Valencia at Abacoa, Jupiter FL | Custom Mediterranean Homes for Sale",
     metaDescription:
-      "Valencia is Abacoa’s custom-home village in Jupiter: about 137 Mediterranean single-family estates, many with pools, near lakes and a nature preserve. Live listings and a buyer’s guide.",
+      "Valencia is Abacoa’s custom-home village in Jupiter: about 137 Mediterranean single-family estates, many with pools, near lakes and a nature preserve. A buyer’s guide.",
     story: [
       "Valencia at Abacoa is a village of custom-built single-family homes, about 137 of them, finished around 2003–2004. Listing pages name several builders, including Frankel-Paone, Issa, Delcrest and The Spear Group, but we have not confirmed that list at the page level. This is not a condo or townhome village.",
       "Homes run from about 2,300 to over 5,000 square feet under air, three to six bedrooms, in a Mediterranean style: stucco, arched doorways or iron gates and terra-cotta tile roofs, with private pools and lanais common. Of the Abacoa villages we checked, this is the one that skews highest in size and price.",
@@ -253,7 +249,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "Is Valencia condos or townhomes?", a: "No. Public sources describe custom single-family homes. If you saw condo language elsewhere, it was wrong." },
       { q: "What styles are the homes?", a: "Mediterranean: stucco, tile roofs and arched details, with private pools common." },
       { q: "How big are the homes?", a: "Roughly 2,300 to over 5,000 square feet, three to six bedrooms." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
+      { q: "Where is Valencia?", a: "At the northeast corner of Frederick Small Road and Central Boulevard, west of Military Trail. We did not find a source for walking distance to Town Center, so test the route yourself." },
     ],
     related: ["mallory-creek", "newhaven", "tuscany"],
   },
@@ -264,7 +260,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "A Caribbean-style Abacoa village of townhomes and single-family homes, with a Village Green, heated pool and Civic Center.",
     metaTitle: "Martinique at Abacoa, Jupiter FL | Townhomes & Homes for Sale",
     metaDescription:
-      "Martinique at Abacoa is a Caribbean-style village of townhomes and single-family homes in Jupiter, with a Village Green, heated pool and Civic Center. Live listings and a buyer’s guide.",
+      "Martinique at Abacoa is a Caribbean-style village of townhomes and single-family homes in Jupiter, with a Village Green, heated pool and Civic Center. A buyer’s guide.",
     story: [
       "Martinique at Abacoa is a Caribbean-style village of townhomes and single-family houses in the north-west part of Abacoa; MLS records split it into Martinique At Abacoa 1 and 2. DiVosta built most of the homes, with townhomes from about 2005 and single-family around 2006, and custom homes by builders including Frankel-Paone and Issa. Sources do not agree on the exact count of homes.",
       "Townhomes are three-bedroom units in two- and three-story layouts, while the houses run three to five bedrooms. We found no condos here, despite older wording elsewhere. Note that this is not the Martinique in Coconut Creek.",
@@ -294,7 +290,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "Is Martinique a condo community?", a: "No. We found townhomes and single-family houses, no condo buildings." },
       { q: "Why does searching “Martinique” miss homes?", a: "The MLS files them as Martinique At Abacoa 1 and 2, and the name “Martinique” also exists in other Florida cities. The search on this page covers both Abacoa sections and only Jupiter." },
       { q: "What are the amenities?", a: "A Village Green with a heated pool, cabana and playground, plus a Civic Center." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["antigua", "tuscany", "canterbury-place"],
   },
@@ -305,7 +300,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "A lake-view village of 144 single-family homes and 173 townhomes in a Tuscan and French country style, with a pool and clubhouse.",
     metaTitle: "Canterbury Place at Abacoa, Jupiter FL | Homes & Townhomes for Sale",
     metaDescription:
-      "Canterbury Place at Abacoa has 144 single-family homes and 173 townhomes around a lake, with a heated pool and clubhouse. Includes some Dakota Drive townhomes. Live listings and a buyer’s guide.",
+      "Canterbury Place at Abacoa has 144 single-family homes and 173 townhomes around a lake, with a heated pool and clubhouse. Includes some Dakota Drive townhomes.",
     story: [
       "Canterbury Place is a mixed village of 144 single-family homes and 173 townhomes, according to the Abacoa Property Owners’ Assembly. The architecture is Tuscan and French country; listing pages add barrel clay tile roofs, arched entries and louvered shutters. Listings credit Centex Homes, mostly about 2006–2007, though individual homes range from about 2005 to 2010.",
       "The homes surround a natural lake with tropical landscaping, and the Abacoa association says residents can walk or bike to Abacoa restaurants and shops. If you’ve seen townhomes advertised on Dakota Drive, some of them are filed under Canterbury Place in the MLS; others on the same street are not.",
@@ -336,7 +331,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "Are there condos in Canterbury Place?", a: "No. The village is 144 single-family homes and 173 townhomes." },
       { q: "Are the Dakota Drive townhomes part of Canterbury Place?", a: "Some are. Dakota Drive runs through several Abacoa villages, so the subdivision on the listing decides, not the street name. Our Dakota Drive guide explains how to tell them apart." },
       { q: "What amenities does it have?", a: "A lake, a heated pool, a clubhouse with a grand room, a fitness center and an aerobics studio." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["charleston-court", "martinique", "antigua"],
   },
@@ -347,7 +341,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Victorian-style three-bedroom townhomes overlooking Abacoa Golf Club, a short walk to Downtown Abacoa and Roger Dean Stadium.",
     metaTitle: "Charleston Court at Abacoa, Jupiter FL | Townhomes for Sale",
     metaDescription:
-      "Charleston Court is a Victorian-style Abacoa townhome community overlooking the golf club in Jupiter. Three-bedroom townhomes near Downtown Abacoa. Live listings and a buyer’s guide.",
+      "Charleston Court is a Victorian-style Abacoa townhome community overlooking the golf club in Jupiter. Three-bedroom townhomes near Downtown Abacoa. A buyer’s guide.",
     story: [
       "Charleston Court is a townhome community that, per the Abacoa association, overlooks Abacoa Golf Club and is a short walk to Downtown Abacoa and Roger Dean Stadium. Listings describe Victorian styling, built in two phases around 1999 and 2000, with roughly 190 units. Listings credit DiVosta, but we could not confirm that.",
       "There are two floor plans, both three bedrooms: about 1,600 and 1,825 square feet, and the larger plan has a detached garage and private patio. We found no pool or clubhouse listed for the village, so don’t assume one.",
@@ -377,7 +371,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "What types of homes are in Charleston Court?", a: "Three-bedroom townhomes in two floor plans, about 1,600 and 1,825 square feet." },
       { q: "Is Charleston Court on the golf course?", a: "Per the Abacoa association it overlooks Abacoa Golf Club, with many homes facing the course." },
       { q: "Does it have a pool?", a: "We didn’t find one listed for the village. Ask the association." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["canterbury-place", "osceola-woods", "antigua"],
   },
@@ -388,7 +381,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "About 146 three-story townhomes near Downtown Abacoa, with a clubhouse, pool and nature preserve behind them.",
     metaTitle: "Osceola Woods at Abacoa, Jupiter FL | Townhomes for Sale",
     metaDescription:
-      "Osceola Woods is a three-story townhome village in Abacoa, Jupiter, a short walk to Downtown Abacoa, with a clubhouse, pool and nature preserve. Live listings and a buyer’s guide.",
+      "Osceola Woods is a three-story townhome village in Abacoa, Jupiter, a short walk to Downtown Abacoa, with a clubhouse, pool and nature preserve. A buyer’s guide.",
     story: [
       "Osceola Woods is a village of roughly 146 three-story townhomes built about 2002–2003, in a coastal Mediterranean style. The Abacoa association says it is within easy walking distance of Abacoa Plaza and Downtown Abacoa. The builder is uncertain: search summaries name New Urban Communities, while listings that say “CBS” are describing block-and-stucco construction, not a builder.",
       "These are not single-level homes. The floor plans stack three stories, which suits buyers who want space and a garage in a townhome but may not suit anyone avoiding stairs.",
@@ -419,7 +412,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "How many stories are the Osceola Woods townhomes?", a: "Three. These are not single-level homes." },
       { q: "Can I walk to Downtown Abacoa?", a: "The Abacoa association says it is within easy walking distance of Abacoa Plaza and Downtown Abacoa." },
       { q: "What amenities does it have?", a: "Per listings, a clubhouse, pool, playground and trails." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["charleston-court", "antigua", "canterbury-place"],
   },
@@ -430,7 +422,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "A Mediterranean-style DiVosta village of 453 single-family homes and townhomes, with a clubhouse, pool and playground.",
     metaTitle: "Tuscany at Abacoa, Jupiter FL | Homes & Townhomes for Sale",
     metaDescription:
-      "Tuscany at Abacoa is a Mediterranean-style village of 453 single-family homes and townhomes in Jupiter, built around 2004, with a clubhouse and pool. Live listings and a buyer’s guide.",
+      "Tuscany at Abacoa is a Mediterranean-style village of 453 single-family homes and townhomes in Jupiter, built around 2004, with a clubhouse and pool. A buyer’s guide.",
     story: [
       "Tuscany at Abacoa is a DiVosta-built village of 453 single-family homes and townhomes, finished around 2004. The look is Mediterranean: stucco, barrel tile roofs and arched entryways. Single-family plans run from two to five bedrooms, and the townhomes are roughly 1,800 square feet.",
       "Streets include San Remo Drive and Community Drive, and several others appear in listings. Because it is a large village with different home types, always check which part you are looking at.",
@@ -459,7 +451,6 @@ export const VILLAGES: Record<string, VillageContent> = {
       { q: "What types of homes are in Tuscany?", a: "Single-family homes (2–5 bedrooms) and townhomes of about 1,800 square feet." },
       { q: "Who built Tuscany?", a: "Listings credit DiVosta Homes, with homes finished around 2004." },
       { q: "What does the HOA cover?", a: "One source says lawn care and basic cable, but we haven’t confirmed it. Ask for the current documents." },
-      { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
     related: ["newhaven", "windsor-park", "antigua"],
   },
