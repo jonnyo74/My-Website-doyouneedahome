@@ -371,8 +371,9 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 py-10">
           <p className="text-xs leading-6 text-slate-500">
-            Details on this page were compiled in October 2026 from the Abacoa Property Owners’ Assembly and
-            public listings; builders and build years are listing-derived. Association rules, fees, amenities and
+            Details on this page were compiled in October 2026 and checked in November 2026 against the Abacoa
+            Property Owners’ Assembly, village association websites, Florida Division of Corporations and county
+            records; details taken only from listings are marked as such. Association rules, fees, amenities and
             school assignments change often and are for information only. Verify anything that matters to
             your decision directly with the association, the school district and the City of Jupiter.
             DO Homes Group at Premier Brokers International is committed to Equal Housing Opportunity.
