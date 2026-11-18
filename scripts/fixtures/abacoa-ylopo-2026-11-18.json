@@ -1,0 +1,2040 @@
+{
+ "abacoa": [
+  {
+   "mlsNumber": "B26101680",
+   "address": {
+    "fullStreetAddress": "183 Edenberry Avenue",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CANTERBURY PLACE",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CANTERBURY PLACE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "545000.00"
+  },
+  {
+   "mlsNumber": "B26101402",
+   "address": {
+    "fullStreetAddress": "198 Poinciana Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "NEW HAVEN",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Newhaven 07b Ph 01 At Abacoa"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "639000.00"
+  },
+  {
+   "mlsNumber": "B26101406",
+   "address": {
+    "fullStreetAddress": "1637 Jeaga Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "675000.00"
+  },
+  {
+   "mlsNumber": "B26100561",
+   "address": {
+    "fullStreetAddress": "174 San Remo Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "TUSCANY AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1550000.00"
+  },
+  {
+   "mlsNumber": "B26099383",
+   "address": {
+    "fullStreetAddress": "212 Florence Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "TUSCANY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1425000.00"
+  },
+  {
+   "mlsNumber": "B26100140",
+   "address": {
+    "fullStreetAddress": "109 W Indian Crossing Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": "OSCEOLA WOODS"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OSCEOLA WOODS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "559000.00"
+  },
+  {
+   "mlsNumber": "B26100013",
+   "address": {
+    "fullStreetAddress": "136 Santiago Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "VALENCIA",
+    "communityName": "VALENCIA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VALENCIA AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2149000.00"
+  },
+  {
+   "mlsNumber": "B26096607",
+   "address": {
+    "fullStreetAddress": "2695 Lamarville Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "WINDSOR PARK AT ABACOA PL"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2250000.00"
+  },
+  {
+   "mlsNumber": "B26095336",
+   "address": {
+    "fullStreetAddress": "4850 Chancellor Drive 22",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VILLAGE AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   },
+   "price": "315000.00"
+  },
+  {
+   "mlsNumber": "B26093973",
+   "address": {
+    "fullStreetAddress": "172 Satin Leaf Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "NEW HAVEN",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEWHAVEN 7B PH 1"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1100000.00"
+  },
+  {
+   "mlsNumber": "B26094270",
+   "address": {
+    "fullStreetAddress": "3277 E Community Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MARTINIQUE AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MARTINIQUE AT ABACOA 1"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "609900.00"
+  },
+  {
+   "mlsNumber": "A12112795",
+   "address": {
+    "fullStreetAddress": "275 Murcia Drive 205",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SOMERSET AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   },
+   "price": "280000.00"
+  },
+  {
+   "mlsNumber": "B26092241",
+   "address": {
+    "fullStreetAddress": "214 Marlberry Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "NEWHAVEN"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEWHAVEN 7B PH 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1099000.00"
+  },
+  {
+   "mlsNumber": "B26080373",
+   "address": {
+    "fullStreetAddress": "4107 Parkside Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ABACOA TOWN CENTER 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "499900.00"
+  },
+  {
+   "mlsNumber": "B26091931",
+   "address": {
+    "fullStreetAddress": "275 Murcia Drive 308",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "SOMERSET AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SOMERSET AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   },
+   "price": "364900.00"
+  },
+  {
+   "mlsNumber": "B26090656",
+   "address": {
+    "fullStreetAddress": "1031 Tiki Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MALLORY CREEK AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1895000.00"
+  },
+  {
+   "mlsNumber": "A12109421",
+   "address": {
+    "fullStreetAddress": "2724 Wymberly Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ABACAO"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "WINDSOR PARK AT ABACOA PL"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1555000.00"
+  },
+  {
+   "mlsNumber": "B26082297",
+   "address": {
+    "fullStreetAddress": "143 Killarney Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CANTERBURY PLACE",
+    "communityName": "CANTERBURY PLACE AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CANTERBURY PLACE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1289000.00"
+  },
+  {
+   "mlsNumber": "B26089076",
+   "address": {
+    "fullStreetAddress": "4772 Chancellor Drive 24",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VILLAGE AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   },
+   "price": "430000.00"
+  },
+  {
+   "mlsNumber": "B26088750",
+   "address": {
+    "fullStreetAddress": "1043 Key Largo Street",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MALLORY CREEK AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "869900.00"
+  },
+  {
+   "mlsNumber": "B26088929",
+   "address": {
+    "fullStreetAddress": "4106 Greenway Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ANTIGUA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ABACOA TOWN CENTER 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "549000.00"
+  },
+  {
+   "mlsNumber": "B26017647",
+   "address": {
+    "fullStreetAddress": "310 San Remo Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1100000.00"
+  },
+  {
+   "mlsNumber": "B26087306",
+   "address": {
+    "fullStreetAddress": "224 Murcia Drive 213",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SOMERSET AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   },
+   "price": "362500.00"
+  },
+  {
+   "mlsNumber": "B26086850",
+   "address": {
+    "fullStreetAddress": "163 Apalachee Lane",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OSCEOLA WOODS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "525000.00"
+  },
+  {
+   "mlsNumber": "B26085976",
+   "address": {
+    "fullStreetAddress": "776 Dakota Drive 106",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SOMERSET AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "505000.00"
+  },
+  {
+   "mlsNumber": "B26078856",
+   "address": {
+    "fullStreetAddress": "1131 N Prescott Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "WINDSOR PARK AT ABACOA PL NO 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1225000.00"
+  },
+  {
+   "mlsNumber": "B26084857",
+   "address": {
+    "fullStreetAddress": "155 Galicia Way 102",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "SOMERSET AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SOMERSET AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   },
+   "price": "368000.00"
+  },
+  {
+   "mlsNumber": "B26083864",
+   "address": {
+    "fullStreetAddress": "4102 Community Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "799000.00"
+  },
+  {
+   "mlsNumber": "B26083564",
+   "address": {
+    "fullStreetAddress": "1116 University Boulevard 21",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": "VILLAGE AT ABACOA CONDOMINIUM"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VILLAGE AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "465000.00"
+  },
+  {
+   "mlsNumber": "B26082598",
+   "address": {
+    "fullStreetAddress": "336 Legare Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CHARLESTON COURT",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CHARLESTON COURT AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "575000.00"
+  },
+  {
+   "mlsNumber": "B26060280",
+   "address": {
+    "fullStreetAddress": "332 Legare Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CHARLESTON COURT",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CHARLESTON COURT AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "570000.00"
+  },
+  {
+   "mlsNumber": "B26081054",
+   "address": {
+    "fullStreetAddress": "776 Dakota Drive 102",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SOMERSET AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "499999.00"
+  },
+  {
+   "mlsNumber": "B26074504",
+   "address": {
+    "fullStreetAddress": "599 Dakota Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Canterbury Place"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "575000.00"
+  },
+  {
+   "mlsNumber": "B26025013",
+   "address": {
+    "fullStreetAddress": "4345 Parkside Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ANTIGUA AT TOWN CENTER"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ABACOA TOWN CENTER 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "599000.00"
+  },
+  {
+   "mlsNumber": "B26069212",
+   "address": {
+    "fullStreetAddress": "325 Sweet Bay Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "NEW HAVEN",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEWHAVEN 7A"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "999000.00"
+  },
+  {
+   "mlsNumber": "M20056454",
+   "address": {
+    "fullStreetAddress": "1421 Windley Key Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK AT ABACOA 01"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Mallory Creek At Abacoa 01"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2245000.00"
+  },
+  {
+   "mlsNumber": "B26062385",
+   "address": {
+    "fullStreetAddress": "1164 Islamorada Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MALLORY CREEK AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "695000.00"
+  },
+  {
+   "mlsNumber": "A11934046",
+   "address": {
+    "fullStreetAddress": "888 University Boulevard",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OSCEOLA WOODS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "525000.00"
+  },
+  {
+   "mlsNumber": "B26050768",
+   "address": {
+    "fullStreetAddress": "127 Greenwich Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "GREENWICH",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GREENWICH"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "530000.00"
+  },
+  {
+   "mlsNumber": "A12043314",
+   "address": {
+    "fullStreetAddress": "125 Galicia Way 204",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SOMERSET AT ABACOA CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   },
+   "price": "355000.00"
+  },
+  {
+   "mlsNumber": "B26039054",
+   "address": {
+    "fullStreetAddress": "117 Waterford Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CAMBRIDGE",
+    "communityName": "CAMBRIDGE AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CAMBRIDGE AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "799000.00"
+  },
+  {
+   "mlsNumber": "B26031053",
+   "address": {
+    "fullStreetAddress": "221 Marlberry Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEW HAVEN"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2150000.00"
+  }
+ ],
+ "antigua": [
+  {
+   "mlsNumber": "B26080373",
+   "address": {
+    "fullStreetAddress": "4107 Parkside Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ABACOA TOWN CENTER 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "499900.00"
+  },
+  {
+   "mlsNumber": "B26088929",
+   "address": {
+    "fullStreetAddress": "4106 Greenway Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ANTIGUA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ABACOA TOWN CENTER 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "549000.00"
+  },
+  {
+   "mlsNumber": "B26025013",
+   "address": {
+    "fullStreetAddress": "4345 Parkside Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ANTIGUA AT TOWN CENTER"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ABACOA TOWN CENTER 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "599000.00"
+  }
+ ],
+ "canterbury-place": [
+  {
+   "mlsNumber": "B26101680",
+   "address": {
+    "fullStreetAddress": "183 Edenberry Avenue",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CANTERBURY PLACE",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CANTERBURY PLACE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "545000.00"
+  },
+  {
+   "mlsNumber": "B26082297",
+   "address": {
+    "fullStreetAddress": "143 Killarney Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CANTERBURY PLACE",
+    "communityName": "CANTERBURY PLACE AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CANTERBURY PLACE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1289000.00"
+  },
+  {
+   "mlsNumber": "B26074504",
+   "address": {
+    "fullStreetAddress": "599 Dakota Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Canterbury Place"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "575000.00"
+  }
+ ],
+ "charleston-court": [
+  {
+   "mlsNumber": "B26082598",
+   "address": {
+    "fullStreetAddress": "336 Legare Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CHARLESTON COURT",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CHARLESTON COURT AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "575000.00"
+  },
+  {
+   "mlsNumber": "B26060280",
+   "address": {
+    "fullStreetAddress": "332 Legare Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "CHARLESTON COURT",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CHARLESTON COURT AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "570000.00"
+  }
+ ],
+ "mallory-creek": [
+  {
+   "mlsNumber": "B26090656",
+   "address": {
+    "fullStreetAddress": "1031 Tiki Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MALLORY CREEK AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1895000.00"
+  },
+  {
+   "mlsNumber": "B26088750",
+   "address": {
+    "fullStreetAddress": "1043 Key Largo Street",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MALLORY CREEK AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "869900.00"
+  },
+  {
+   "mlsNumber": "M20056454",
+   "address": {
+    "fullStreetAddress": "1421 Windley Key Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK AT ABACOA 01"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Mallory Creek At Abacoa 01"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2245000.00"
+  },
+  {
+   "mlsNumber": "B26062385",
+   "address": {
+    "fullStreetAddress": "1164 Islamorada Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MALLORY CREEK"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MALLORY CREEK AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "695000.00"
+  }
+ ],
+ "martinique": [
+  {
+   "mlsNumber": "B26094270",
+   "address": {
+    "fullStreetAddress": "3277 E Community Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "MARTINIQUE AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "MARTINIQUE AT ABACOA 1"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "609900.00"
+  }
+ ],
+ "newhaven": [
+  {
+   "mlsNumber": "B26101402",
+   "address": {
+    "fullStreetAddress": "198 Poinciana Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "NEW HAVEN",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Newhaven 07b Ph 01 At Abacoa"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "639000.00"
+  },
+  {
+   "mlsNumber": "B26093973",
+   "address": {
+    "fullStreetAddress": "172 Satin Leaf Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "NEW HAVEN",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEWHAVEN 7B PH 1"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1100000.00"
+  },
+  {
+   "mlsNumber": "B26092241",
+   "address": {
+    "fullStreetAddress": "214 Marlberry Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "NEWHAVEN"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEWHAVEN 7B PH 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1099000.00"
+  },
+  {
+   "mlsNumber": "B26069212",
+   "address": {
+    "fullStreetAddress": "325 Sweet Bay Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "NEW HAVEN",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEWHAVEN 7A"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "999000.00"
+  },
+  {
+   "mlsNumber": "B26031053",
+   "address": {
+    "fullStreetAddress": "221 Marlberry Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "NEW HAVEN"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2150000.00"
+  }
+ ],
+ "osceola-woods": [
+  {
+   "mlsNumber": "B26100140",
+   "address": {
+    "fullStreetAddress": "109 W Indian Crossing Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": "OSCEOLA WOODS"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OSCEOLA WOODS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "559000.00"
+  },
+  {
+   "mlsNumber": "B26086850",
+   "address": {
+    "fullStreetAddress": "163 Apalachee Lane",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OSCEOLA WOODS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "525000.00"
+  },
+  {
+   "mlsNumber": "A11934046",
+   "address": {
+    "fullStreetAddress": "888 University Boulevard",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TOWN CENTER",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OSCEOLA WOODS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "525000.00"
+  }
+ ],
+ "tuscany": [
+  {
+   "mlsNumber": "B26101406",
+   "address": {
+    "fullStreetAddress": "1637 Jeaga Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "675000.00"
+  },
+  {
+   "mlsNumber": "B26100561",
+   "address": {
+    "fullStreetAddress": "174 San Remo Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "TUSCANY AT ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1550000.00"
+  },
+  {
+   "mlsNumber": "B26099383",
+   "address": {
+    "fullStreetAddress": "212 Florence Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "TUSCANY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1425000.00"
+  },
+  {
+   "mlsNumber": "B26017647",
+   "address": {
+    "fullStreetAddress": "310 San Remo Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1100000.00"
+  },
+  {
+   "mlsNumber": "B26083864",
+   "address": {
+    "fullStreetAddress": "4102 Community Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "TUSCANY",
+    "communityName": "ABACOA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TUSCANY AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   },
+   "price": "799000.00"
+  }
+ ],
+ "valencia": [
+  {
+   "mlsNumber": "B26100013",
+   "address": {
+    "fullStreetAddress": "136 Santiago Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "VALENCIA",
+    "communityName": "VALENCIA"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VALENCIA AT ABACOA"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2149000.00"
+  }
+ ],
+ "windsor-park": [
+  {
+   "mlsNumber": "B26096607",
+   "address": {
+    "fullStreetAddress": "2695 Lamarville Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "WINDSOR PARK AT ABACOA PL"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "2250000.00"
+  },
+  {
+   "mlsNumber": "A12109421",
+   "address": {
+    "fullStreetAddress": "2724 Wymberly Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": "ABACAO"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "WINDSOR PARK AT ABACOA PL"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1555000.00"
+  },
+  {
+   "mlsNumber": "B26078856",
+   "address": {
+    "fullStreetAddress": "1131 N Prescott Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ABACOA",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "WINDSOR PARK AT ABACOA PL NO 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   },
+   "price": "1225000.00"
+  }
+ ]
+}

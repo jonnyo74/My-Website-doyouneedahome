@@ -29,13 +29,11 @@ export interface VillageContent {
   location: string[]
   faqs: VillageFaq[]
   related: string[]
-  /** Listings widget filter, when the MLS files the homes under another name. */
-  listingsLocation?: string
+  /** Heading over the listings feed. The feed itself comes from lib/abacoaScopes. */
   listingsHeading?: string
-  listingsNote?: string
   /** Hero H1 override. */
   heading?: string
-  /** Set when this page explains a name instead of describing a village. */
+  /** Set when this page is a street guide instead of describing a village. It shows no listings. */
   nameExplainer?: boolean
 }
 
@@ -181,7 +179,7 @@ export const VILLAGES: Record<string, VillageContent> = {
     slug: "windsor-park",
     tagline:
       "Abacoa’s newest village: about 380 DiVosta-built single-family homes and townhomes, 3–5 bedrooms, with a clubhouse, pool and fire pit.",
-    metaTitle: "Windsor Park at Abacoa, Jupiter FL | Newer Homes for Sale",
+    metaTitle: "Windsor Park at Abacoa, Jupiter FL | Homes & Townhomes for Sale",
     metaDescription:
       "Windsor Park is the newest village in Abacoa, Jupiter: DiVosta-built single-family homes and townhomes from roughly 2013 to 2018 with a clubhouse, heated pool and fire pit. Live listings and a buyer’s guide.",
     story: [
@@ -294,7 +292,7 @@ export const VILLAGES: Record<string, VillageContent> = {
     ],
     faqs: [
       { q: "Is Martinique a condo community?", a: "No. We found townhomes and single-family houses, no condo buildings." },
-      { q: "Is it the same as Martinique in Coconut Creek?", a: "No. This one is in Abacoa, Jupiter." },
+      { q: "Why does searching “Martinique” miss homes?", a: "The MLS files them as Martinique At Abacoa 1 and 2, and the name “Martinique” also exists in other Florida cities. The search on this page covers both Abacoa sections and only Jupiter." },
       { q: "What are the amenities?", a: "A Village Green with a heated pool, cabana and playground, plus a Civic Center." },
       { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
@@ -307,10 +305,10 @@ export const VILLAGES: Record<string, VillageContent> = {
       "A lake-view village of 144 single-family homes and 173 townhomes in a Tuscan and French country style, with a pool and clubhouse.",
     metaTitle: "Canterbury Place at Abacoa, Jupiter FL | Homes & Townhomes for Sale",
     metaDescription:
-      "Canterbury Place at Abacoa has 144 single-family homes and 173 townhomes around a lake, with a heated pool and clubhouse. Includes the Dakota Drive townhomes. Live listings and a buyer’s guide.",
+      "Canterbury Place at Abacoa has 144 single-family homes and 173 townhomes around a lake, with a heated pool and clubhouse. Includes some Dakota Drive townhomes. Live listings and a buyer’s guide.",
     story: [
       "Canterbury Place is a mixed village of 144 single-family homes and 173 townhomes, according to the Abacoa Property Owners’ Assembly. The architecture is Tuscan and French country; listing pages add barrel clay tile roofs, arched entries and louvered shutters. Listings credit Centex Homes, mostly about 2006–2007, though individual homes range from about 2005 to 2010.",
-      "The homes surround a natural lake with tropical landscaping, and the Abacoa association says residents can walk or bike to Abacoa restaurants and shops. If you’ve seen townhomes advertised on Dakota Drive, many of them are part of Canterbury Place in the MLS.",
+      "The homes surround a natural lake with tropical landscaping, and the Abacoa association says residents can walk or bike to Abacoa restaurants and shops. If you’ve seen townhomes advertised on Dakota Drive, some of them are filed under Canterbury Place in the MLS; others on the same street are not.",
     ],
     living:
       "Amenities are a heated pool and a clubhouse with a grand room, fitness center and aerobics studio. Townhomes on Dakota Drive are typically two-story, three-bedroom units; the single-family homes go up to five bedrooms. Canterbury Place has its own management company, Triton Property Management, under the master association.",
@@ -318,7 +316,7 @@ export const VILLAGES: Record<string, VillageContent> = {
       "144 single-family homes and 173 townhomes",
       "Tuscan and French country architecture around a lake",
       "Heated pool, clubhouse, fitness center and aerobics studio",
-      "Includes many Dakota Drive townhomes",
+      "Includes some Dakota Drive townhomes; the street also serves other villages",
     ],
     facts: [
       { label: "Home types", value: "Single-family homes (144) and townhomes (173)" },
@@ -332,11 +330,11 @@ export const VILLAGES: Record<string, VillageContent> = {
       "Canterbury Place sits under the master Abacoa Property Owners’ Assembly and has its own management company. An APOA estoppel is required on sales. " + ASSOC_NOTE,
     location: [
       "Association address: 318 Mulligan Place",
-      "Dakota Drive townhomes in roughly the 500–700 block are filed under Canterbury Place",
+      "Some Dakota Drive townhomes, in the 500s block among the MLS records we checked, are filed under Canterbury Place. Confirm the subdivision on the listing.",
     ],
     faqs: [
       { q: "Are there condos in Canterbury Place?", a: "No. The village is 144 single-family homes and 173 townhomes." },
-      { q: "Are the Dakota Drive townhomes part of Canterbury Place?", a: "Many are, per MLS records. Dakota Drive runs through several Abacoa villages, so check the subdivision on the listing." },
+      { q: "Are the Dakota Drive townhomes part of Canterbury Place?", a: "Some are. Dakota Drive runs through several Abacoa villages, so the subdivision on the listing decides, not the street name. Our Dakota Drive guide explains how to tell them apart." },
       { q: "What amenities does it have?", a: "A lake, a heated pool, a clubhouse with a grand room, a fitness center and an aerobics studio." },
       { q: "What should I ask about the HOA?", a: ASSOC_NOTE },
     ],
@@ -468,47 +466,45 @@ export const VILLAGES: Record<string, VillageContent> = {
 
   dakota: {
     slug: "dakota",
-    heading: "Dakota Drive Homes in Abacoa",
+    heading: "Dakota Drive in Abacoa: Which Village Is Your Address In?",
     nameExplainer: true,
     tagline:
-      "Dakota Drive runs through several Abacoa villages. Many of its townhomes are listed under Canterbury Place.",
-    metaTitle: "Dakota Drive in Abacoa, Jupiter FL | Townhomes & Where to Search",
+      "Dakota Drive runs through several Abacoa villages, and Dakota at Abacoa is a rental community. Here is how to tell which one an address belongs to.",
+    metaTitle: "Dakota Drive in Abacoa, Jupiter FL | Which Village Is Your Address In?",
     metaDescription:
-      "Dakota Drive runs through several Abacoa villages. Many of its townhomes are part of Canterbury Place. Here is how to search Abacoa homes on and near Dakota Drive.",
+      "Dakota Drive runs through several Abacoa villages, and Dakota at Abacoa is a separate rental community. See how to tell a Canterbury Place townhome from a Somerset condo before you search.",
     story: [
-      "“Dakota” in Abacoa is a street name more than a village. Dakota Drive is a long road that runs through several Abacoa neighborhoods. Homes on it are filed in different subdivisions, so searching for “Dakota” alone misses most of them or returns the wrong community. The MLS’s only “Dakota” community is in Delray Beach, a different place entirely.",
-      "In the roughly 500–700 block, the Dakota Drive townhomes are part of Canterbury Place, with two-story, three-bedroom townhomes that listings credit to Centex Homes, built around 2006–2007. Other Dakota Drive addresses belong to Somerset at Abacoa, Mallory Creek and Martinique. A separate rental community called Dakota at Abacoa also exists; it is not a for-sale village.",
+      "In Abacoa, “Dakota” means two different things, and neither is a for-sale village. Dakota Drive is a long street that passes through several neighborhoods. Dakota at Abacoa is a rental community: the Abacoa Property Owners’ Assembly describes it as 190 luxury apartments and townhomes at 3334 South Bismark Lane. It is not on Dakota Drive and it is not for sale.",
+      "A home on Dakota Drive is filed in the MLS under its village, not its street. In the records we checked on November 18, 2026, townhomes in the 500s block were listed under Canterbury Place, while condominiums in the 700s block were listed under Somerset at Abacoa. The Abacoa association also lists Martinique at an address on Dakota Drive. Searching for “Dakota” alone finds none of this: the Ylopo search index has no Jupiter area by that name, and its only Dakota community is in Delray Beach.",
     ],
     living:
-      "If you’re looking at a Dakota Drive townhome, the village it belongs to is what determines the association, amenities and rules. For the Canterbury Place townhomes that means a heated pool, clubhouse and fitness center. Treat any other Dakota Drive address individually and confirm its subdivision on the listing.",
+      "Which village a Dakota Drive address belongs to decides everything that matters to an owner: the association, its dues and rules, the amenities and, for Canterbury Place, the heated pool and clubhouse. Treat each address on its own. Look at the subdivision on the listing, then ask for the association documents for that exact village.",
     highlights: [
       "Dakota Drive passes through several Abacoa villages",
-      "Many townhomes in the 500–700 block are part of Canterbury Place",
-      "Other addresses belong to Somerset at Abacoa, Mallory Creek and Martinique",
-      "Dakota at Abacoa is a separate rental community",
+      "Some townhomes in the 500s block are filed under Canterbury Place",
+      "Somerset at Abacoa condominiums also have Dakota Drive addresses",
+      "Dakota at Abacoa, on South Bismark Lane, is a separate rental community",
     ],
     facts: [
       { label: "What it is", value: "A street running through several Abacoa villages" },
-      { label: "Dakota Drive townhomes", value: "Many filed under Canterbury Place (Centex, about 2006–2007 per listings)" },
-      { label: "Not to confuse with", value: "Dakota at Abacoa, a rental community; and Dakota in Delray Beach" },
+      { label: "Filed in the MLS as", value: "The village name on each listing, such as Canterbury Place or Somerset at Abacoa" },
+      { label: "Dakota at Abacoa", value: "A 190-unit apartment and townhome rental community on South Bismark Lane (Abacoa POA)" },
+      { label: "Not to confuse with", value: "Dakota in Delray Beach, the only Dakota community in the Ylopo search index" },
     ],
     association:
-      "The association depends on the subdivision the home belongs to. " + ASSOC_NOTE,
+      "There is no Dakota Drive association. The association depends on the village the home belongs to. " + ASSOC_NOTE,
     location: [
       "Dakota Drive crosses several Abacoa villages",
-      "Canterbury Place listings below include the Dakota Drive townhomes in that village",
+      "Dakota at Abacoa: 3334 South Bismark Lane, a rental community",
+      "For Canterbury Place homes, see the Canterbury Place page",
     ],
     faqs: [
-      { q: "Is Dakota an Abacoa village?", a: "Not as a for-sale village. Dakota Drive is a street that runs through several villages." },
-      { q: "Why do Dakota Drive townhomes show up under Canterbury Place?", a: "Many of them are part of Canterbury Place in the MLS." },
-      { q: "What is Dakota at Abacoa?", a: "A separate rental community, not the for-sale townhomes." },
-      { q: "How should I search?", a: "Search by the village name, or ask us to confirm the subdivision of any Dakota Drive address." },
+      { q: "Is Dakota an Abacoa village?", a: "Not as a for-sale village. Dakota Drive is a street that runs through several villages, and Dakota at Abacoa is a rental community." },
+      { q: "Why do some Dakota Drive townhomes show up under Canterbury Place?", a: "Because the MLS files homes by village. Some townhomes on the street belong to Canterbury Place; others on the same street do not." },
+      { q: "What is Dakota at Abacoa?", a: "A rental community of 190 apartments and townhomes on South Bismark Lane, per the Abacoa Property Owners’ Assembly. It is not part of the for-sale inventory." },
+      { q: "How should I search?", a: "Search by village name, then check the subdivision on any Dakota Drive listing. We can confirm the village and association for a specific address." },
     ],
-    related: ["canterbury-place", "mallory-creek", "martinique"],
-    listingsLocation: "Canterbury Place",
-    listingsHeading: "Canterbury Place homes, including many on Dakota Drive",
-    listingsNote:
-      "These are Canterbury Place listings. Homes on other parts of Dakota Drive belong to other villages.",
+    related: ["canterbury-place", "martinique", "mallory-creek"],
   },
 }
 

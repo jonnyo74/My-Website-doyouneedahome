@@ -3,18 +3,18 @@ import Image from 'next/image'
 import { getCommunityBySlug } from '@/lib/communities'
 import { getArticlesByCity, marketTrendsCity } from '@/lib/articles'
 import MarketTrendsBlock from '@/components/MarketTrendsBlock'
-import YlopoResultsWidget from '@/components/YlopoResultsWidget'
+import AbacoaScopeWidget from '@/components/AbacoaScopeWidget'
+import { getAbacoaScope, scopeFullSearchUrl } from '@/lib/abacoaScopes'
+import { VILLAGES } from '@/lib/abacoaVillages'
 import YlopoInit from '@/components/YlopoInit'
 import AbacoaListings from '@/components/AbacoaListings'
 import AbacoaRetrieved from '@/components/AbacoaRetrieved'
 import GreatSchoolsCard from '@/components/GreatSchoolsCard'
 
-const SEARCH_URL = 'https://search.doyouneedahome.com'
-// Ylopo can only resolve real municipalities in the city filter, so the Abacoa
-// search is Jupiter plus an Abacoa neighborhood filter (see YlopoResultsWidget).
-const ABACOA_SEARCH =
-  `${SEARCH_URL}/search?area=Jupiter&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1` +
-  `&s[locations][0][neighborhood]=Abacoa&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[minPrice]=400000`
+// The hub's listings, the full-search link and the alert request all read the
+// verified master-community scope in lib/abacoaScopes. It is the union of every
+// village plus for-sale stock with no village page, not just the name "Abacoa".
+const ABACOA_SEARCH = scopeFullSearchUrl(getAbacoaScope('abacoa')!)
 
 /**
  * Photos of Abacoa that John has confirmed are Abacoa. Add new shots here and
@@ -34,11 +34,17 @@ const HERO = {
   alt: 'Looking down the palm-lined main street of Abacoa Town Center in Jupiter, Florida, under a pink and grey sunset sky',
 }
 
-// Villages that already have pages. Order is the order we want buyers to see them.
+// Neighborhoods that already have pages, in the order buyers should see them.
+// Dakota is a street guide, not a village, so it is linked separately below.
 const VILLAGE_SLUGS = [
-  'antigua', 'canterbury-place', 'charleston-court', 'dakota', 'mallory-creek', 'martinique',
+  'antigua', 'canterbury-place', 'charleston-court', 'mallory-creek', 'martinique',
   'newhaven', 'osceola-woods', 'tuscany', 'valencia', 'windsor-park',
 ]
+
+/** Facts for the side-by-side comparison, straight from the sourced village data. */
+function villageFact(slug: string, label: string): string {
+  return VILLAGES[slug]?.facts.find((f) => f.label === label)?.value ?? '—'
+}
 
 const CHECKLIST = [
   { t: 'Master association', d: 'Ask for the master association’s current documents, what it covers, and what it costs for this exact address.' },
@@ -134,9 +140,9 @@ export default function AbacoaLanding() {
           <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
             <div>
               <p className={eyebrow}>Live MLS feed</p>
-              <h2 className={h2}>Homes for sale in Abacoa</h2>
+              <h2 className={h2}>Active Abacoa listings</h2>
               <p className="mt-3 max-w-2xl text-slate-600">
-                Filtered to Abacoa itself, not all of Jupiter, and showing homes from $400K up.
+                Active homes for sale across Abacoa, at any price: single-family homes, townhomes and condos.
               </p>
             </div>
             <a
@@ -148,10 +154,78 @@ export default function AbacoaLanding() {
               Open the full Abacoa search →
             </a>
           </div>
-          <YlopoInit city="Jupiter" />
-          <AbacoaListings searchUrl={ABACOA_SEARCH}>
-            <YlopoResultsWidget city="Jupiter" neighborhood="Abacoa" minPrice={400000} limit={6} />
+          <YlopoInit key="init-abacoa" city="Jupiter" />
+          <AbacoaListings key="listings-abacoa" slug="abacoa">
+            <AbacoaScopeWidget slug="abacoa" />
           </AbacoaListings>
+        </div>
+      </section>
+
+      {/* ── Villages ─────────────────────────────────────────── */}
+      <section className="px-6 py-16 sm:px-8 sm:py-20" aria-labelledby="abacoa-villages">
+        <div className="mx-auto max-w-7xl">
+          <p className={eyebrow}>Neighborhoods</p>
+          <h2 id="abacoa-villages" className={h2}>Explore Abacoa’s neighborhoods</h2>
+          <p className="mt-3 max-w-2xl text-slate-600">
+            Same address, very different homes. Start with the neighborhood, then the house.
+          </p>
+          <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {villages.map((v) => (
+              <li key={v.slug}>
+                <Link
+                  href={`/communities/${v.slug}`}
+                  className="group flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-card transition hover:-translate-y-0.5 hover:border-report-gold hover:shadow-card-hover"
+                >
+                  <span className="h-1 w-10 rounded-full bg-report-gold" aria-hidden="true" />
+                  <h3 className="mt-4 font-serif text-xl font-semibold text-slate-900 group-hover:text-gold-600">
+                    {v.name}
+                  </h3>
+                  <p className="mt-2 text-sm leading-7 text-slate-600">{v.description}</p>
+                  <span className="mt-auto pt-4 text-sm font-semibold text-gold-600">Explore {v.name} →</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          <div
+            className="mt-10 overflow-x-auto rounded-3xl border border-slate-200 bg-white shadow-card"
+            role="region"
+            aria-label="Neighborhood comparison table, scrolls sideways on small screens"
+            // A sideways-scrolling table must be keyboard-reachable (axe: scrollable-region-focusable).
+            // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
+            tabIndex={0}
+          >
+            <table className="w-full min-w-[34rem] text-left text-sm">
+              <caption className="px-5 pt-5 text-left font-serif text-xl font-semibold text-slate-900">
+                Compare the neighborhoods
+              </caption>
+              <thead>
+                <tr className="border-b border-slate-200 text-xs uppercase tracking-[0.14em] text-report-gold-text">
+                  <th scope="col" className="px-5 py-3 font-semibold">Neighborhood</th>
+                  <th scope="col" className="px-5 py-3 font-semibold">Home types</th>
+                  <th scope="col" className="px-5 py-3 font-semibold">Built</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {villages.map((v) => (
+                  <tr key={v.slug}>
+                    <th scope="row" className="px-5 py-3 font-semibold text-slate-900">
+                      <Link href={`/communities/${v.slug}`} className="hover:text-gold-600">{v.name}</Link>
+                    </th>
+                    <td className="px-5 py-3 text-slate-600">{villageFact(v.slug, 'Home types')}</td>
+                    <td className="px-5 py-3 text-slate-600">{villageFact(v.slug, 'Built')}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-4 text-sm text-slate-600">
+            Not every Abacoa building has its own page yet. The Dakota Drive question comes up often, so we
+            wrote a guide:{' '}
+            <Link href="/communities/dakota" className="font-semibold text-gold-600 hover:text-gold-700">
+              which village is your Dakota Drive address in →
+            </Link>
+          </p>
         </div>
       </section>
 
@@ -256,34 +330,6 @@ export default function AbacoaLanding() {
         </section>
       )}
 
-      {/* ── Villages ─────────────────────────────────────────── */}
-      <section className="px-6 py-16 sm:px-8 sm:py-20" aria-labelledby="abacoa-villages">
-        <div className="mx-auto max-w-7xl">
-          <p className={eyebrow}>Eleven villages</p>
-          <h2 id="abacoa-villages" className={h2}>Explore Abacoa’s Villages</h2>
-          <p className="mt-3 max-w-2xl text-slate-600">
-            Same address, very different homes. Start with the village, then the house.
-          </p>
-          <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {villages.map((v) => (
-              <li key={v.slug}>
-                <Link
-                  href={`/communities/${v.slug}`}
-                  className="group flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-card transition hover:-translate-y-0.5 hover:border-report-gold hover:shadow-card-hover"
-                >
-                  <span className="h-1 w-10 rounded-full bg-report-gold" aria-hidden="true" />
-                  <h3 className="mt-4 font-serif text-xl font-semibold text-slate-900 group-hover:text-gold-600">
-                    {v.name}
-                  </h3>
-                  <p className="mt-2 text-sm leading-7 text-slate-600">{v.description}</p>
-                  <span className="mt-auto pt-4 text-sm font-semibold text-gold-600">Explore {v.name} →</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
       {/* ── Schools, getting around, outdoors ────────────────── */}
       {abacoa && (
         <section className="px-6 py-16 sm:px-8 sm:py-20" aria-labelledby="abacoa-practical">
@@ -339,7 +385,16 @@ export default function AbacoaLanding() {
               <GreatSchoolsCard citySlug="jupiter" cityName="Abacoa" />
             </div>
             <p className="mt-6 text-xs leading-6 text-slate-500">
-              School assignments and boundaries change. Confirm the current zone for any address with Palm Beach County Schools.
+              School assignments follow the address and boundaries change. Check any address with the{' '}
+              <a
+                href="https://www.palmbeachschools.org/studentsparents/student-registration"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2 hover:text-slate-700"
+              >
+                Palm Beach County Schools address lookup
+              </a>
+              .
             </p>
           </div>
         </section>
@@ -422,6 +477,7 @@ export default function AbacoaLanding() {
                 <MarketTrendsBlock
                   city={trends.city}
                   heading="Jupiter, FL market trends"
+                  headingLevel="h3"
                   caption="Live Ylopo market data for Jupiter, FL. Abacoa is not reported separately."
                   frameClassName="mt-4"
                 />
