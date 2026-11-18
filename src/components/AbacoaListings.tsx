@@ -34,6 +34,8 @@ const PROBE_TIMEOUT_MS = 8_000
 const WIDGET_WAIT_MS = 12_000
 // When the probe itself failed, the widget is the only hope; give it less time.
 const WIDGET_RESCUE_MS = 6_000
+// After giving up, keep watching this long for the widget to appear anyway.
+const LATE_RECOVERY_MS = 45_000
 const CACHE_MS = 60_000
 
 type View = 'loading' | 'results' | 'empty' | 'unavailable'
@@ -115,6 +117,7 @@ export default function AbacoaListings({
   const [view, setView] = useState<View>('loading')
   const [comingSoon, setComingSoon] = useState(0)
   const hiddenIdsRef = useRef<string[]>([])
+  const [attempt, setAttempt] = useState(0)
 
   useEffect(() => {
     if (!scope) return
@@ -152,6 +155,14 @@ export default function AbacoaListings({
       labeler.observe(el, { childList: true, subtree: true })
     }
 
+    // Show the unavailable message, but keep watching: a slow connection or a
+    // late script can still fill the widget, and then the cards should win.
+    const giveUp = () => {
+      if (cancelled) return
+      setView('unavailable')
+      waitForCards(() => !cancelled && setView('results'), () => {}, LATE_RECOVERY_MS)
+    }
+
     probeScope(scope).then((outcome) => {
       if (cancelled) return
       if (outcome.state === 'empty') {
@@ -169,10 +180,7 @@ export default function AbacoaListings({
         setComingSoon(outcome.comingSoon)
         hiddenIdsRef.current = outcome.hiddenIds
         if (el) labelWidgetCards(el, outcome.hiddenIds)
-        waitForCards(
-          () => !cancelled && setView('results'),
-          () => !cancelled && setView('unavailable'),
-        )
+        waitForCards(() => !cancelled && setView('results'), giveUp)
         return
       }
       // Probe failed. Rows outside the scope are never shown. A plain failure
@@ -181,11 +189,7 @@ export default function AbacoaListings({
         setView('unavailable')
         return
       }
-      waitForCards(
-        () => !cancelled && setView('results'),
-        () => !cancelled && setView('unavailable'),
-        WIDGET_RESCUE_MS,
-      )
+      waitForCards(() => !cancelled && setView('results'), giveUp, WIDGET_RESCUE_MS)
     })
 
     return () => {
@@ -195,7 +199,7 @@ export default function AbacoaListings({
       clearTimeout(labelTimer)
       clearTimeout(widgetTimer)
     }
-  }, [scope])
+  }, [scope, attempt])
 
   if (!scope) return null
   const showWidget = view === 'results' || view === 'loading'
@@ -271,6 +275,17 @@ export default function AbacoaListings({
               Open the {scope.name} search →
             </a>
           </div>
+          <button
+            type="button"
+            onClick={() => {
+              cache.delete(scope.slug)
+              setView('loading')
+              setAttempt((n) => n + 1)
+            }}
+            className="mt-4 text-sm font-semibold text-gold-600 underline-offset-4 hover:text-gold-700 hover:underline"
+          >
+            Try loading the listings again
+          </button>
           <AlertRequest scope={scope} openLabel={`Ask about ${scope.name} homes`} kind="contact" />
         </div>
       )}
