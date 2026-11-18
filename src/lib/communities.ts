@@ -3243,16 +3243,16 @@ export const neighborhoods: CommunityItem[] = [
       'Abacoa Golf Club offers a public, recently redesigned course steps from residential streets',
       'Homes historically hold value well due to location, school zoning, and community design',
       'Diverse home types from condos under $400K to golf-front estates over $1.4M',
-      'Beacon Cove, Eisenhower Middle, and William T. Dwyer High serve the community',
+      'Nearby public schools include Beacon Cove Intermediate, Dwight D. Eisenhower K-8 and William T. Dwyer High; assignment follows the address',
       '10 minutes to Jupiter Beach, 5 minutes to I-95, 25–30 minutes to Trump International Airport (DJT), depending on traffic',
     ],
-    schoolOverview: 'Abacoa has both public and private school access. Assignments follow the address and boundaries change, so check each address with the Palm Beach County Schools address lookup rather than assuming a village or the whole community feeds one set of schools.',
+    schoolOverview: 'Abacoa has both public and private school access. Assignments follow the address and boundaries change, so check each address against the Palm Beach County Schools attendance boundary maps rather than assuming a village or the whole community feeds one set of schools.',
     schoolList: [
       {
         category: 'Public Schools',
         schools: [
           { name: 'Beacon Cove Intermediate', url: 'https://www.palmbeachschools.org/fs/pages/15392' },
-          { name: 'Dwight D. Eisenhower Middle School', url: 'https://www.palmbeachschools.org/fs/pages/18689' },
+          { name: 'Dwight D. Eisenhower K-8', url: 'https://www.palmbeachschools.org/fs/pages/18689' },
           { name: 'William T. Dwyer High School', url: 'https://www.palmbeachschools.org/fs/pages/43942' },
         ],
       },
@@ -3282,7 +3282,7 @@ export const neighborhoods: CommunityItem[] = [
     ],
     quickFacts: [
       { label: 'Home styles', value: 'Single-family homes, townhomes, condos — New Urbanist design' },
-      { label: 'Community type', value: 'PUD (Planned Unit Development) within the City of Jupiter' },
+      { label: 'Community type', value: 'PUD (Planned Unit Development) within the Town of Jupiter' },
       { label: 'Best for', value: 'Walkable town center, golf course, community pools and parks, mix of townhomes and single-family homes' },
       { label: 'Key draw', value: 'True walkable town center with Roger Dean Stadium, shops, and restaurants' },
     ],
@@ -4636,7 +4636,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: "Abacoa’s newest village: DiVosta-built single-family homes and townhomes, 3–5 bedrooms, with a clubhouse, pool and fire pit.",
+    description: "Abacoa’s newest village: DiVosta-built single-family homes and townhomes, 3–6 bedrooms, with a clubhouse, pool and fire pit.",
     overview: 'Windsor Park is a residential neighborhood within Abacoa featuring single-family courtyard-style homes, tree-lined streets, and a strong sense of community. The neighborhood emphasizes rear-entry garages and front-facing porches, reflecting Abacoa\'s original New Urbanist town design. Homes were built in the early-to-mid 2000s with 3–4 bedroom floor plans, private courtyards or backyard spaces, and traditional Abacoa architectural style.\n\nThe vibe is relaxed and neighborly, with sidewalks, porches, and green spaces encouraging a connected community atmosphere.',
     lifestyle: 'An established neighborhood of single-family homes with private outdoor space. The neighborhood\'s mature trees and rear-entry garage design keep streetscapes clean and pedestrian-friendly.',
     highlights: [
@@ -4796,7 +4796,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: "About 146 three-story townhomes near Downtown Abacoa, with a clubhouse, pool and nature preserve behind them.",
+    description: "About 146 three-story townhomes near Downtown Abacoa, with a community pool and a nature preserve behind them.",
     overview: 'Osceola Woods is a quiet residential neighborhood within Abacoa consisting of well-designed three-story townhomes, offering a more private and low-maintenance lifestyle compared to some of Abacoa\'s busier sections. With a smaller footprint and fewer residences, the community feels peaceful while still being centrally located in Jupiter.\n\nThree-story layouts feature attached garages, multiple living areas across levels, open living spaces on main floors, and private balconies or patios on select units. Floor plans generally offer generous square footage for townhome living, making them popular with full-time residents and seasonal buyers alike. One standout feature is its beautiful community pool. Inventory is limited due to the neighborhood\'s smaller size.',
     lifestyle: 'Tucked-away with less through-traffic and a quieter day-to-day atmosphere. Osceola Woods offers lower-maintenance homes with HOA-managed grounds and one of the higher full-time occupancy rates within Abacoa.',
     highlights: [

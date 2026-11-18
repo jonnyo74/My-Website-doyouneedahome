@@ -180,15 +180,22 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
       <section className="px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-about">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
           <div>
-            <p className={eyebrow}>About the village</p>
-            <h2 id="village-about" className={h2}>About {v.name}</h2>
+            <p className={eyebrow}>{scope ? 'About the village' : 'The street guide'}</p>
+            <h2 id="village-about" className={h2}>{scope ? `About ${v.name}` : 'How Dakota Drive addresses are filed'}</h2>
             <div className="mt-5 space-y-4 leading-8 text-slate-600">
               {c.story.map((p) => (<p key={p.slice(0, 24)}>{p}</p>))}
             </div>
+            {c.guideLink && (
+              <p className="mt-5 text-sm leading-7 text-slate-600">
+                <Link href={c.guideLink.href} className="font-semibold text-gold-600 hover:text-gold-700">
+                  {c.guideLink.text} →
+                </Link>
+              </p>
+            )}
           </div>
           <div>
-            <p className={eyebrow}>Living here</p>
-            <h2 className={h2}>What it’s like to live in {v.name}</h2>
+            <p className={eyebrow}>{scope ? 'Living here' : 'Along the street'}</p>
+            <h2 className={h2}>{scope ? `What it’s like to live in ${v.name}` : 'Villages along Dakota Drive'}</h2>
             <p className="mt-5 leading-8 text-slate-600">{c.living}</p>
             {c.highlights.length > 0 && (
               <ul className="mt-6 space-y-3">
@@ -224,7 +231,7 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
       <section className="px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-glance">
         <div className="mx-auto max-w-7xl">
           <p className={eyebrow}>At a glance</p>
-          <h2 id="village-glance" className={h2}>{v.name} at a glance</h2>
+          <h2 id="village-glance" className={h2}>{scope ? `${v.name} at a glance` : 'Dakota Drive at a glance'}</h2>
           <dl className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {c.facts.map((f) => (
               <div key={f.label} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-card">
@@ -261,12 +268,12 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
           <p className="mt-4 text-xs leading-6 text-slate-500">
             School assignments follow the address, not the village, and boundaries change. Check any address with the{' '}
             <a
-              href="https://www.palmbeachschools.org/studentsparents/student-registration"
+              href="https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps"
               target="_blank"
               rel="noopener noreferrer"
               className="underline underline-offset-2 hover:text-slate-700"
             >
-              Palm Beach County Schools address lookup
+              Palm Beach County Schools attendance boundary maps
             </a>
             .
           </p>
@@ -277,7 +284,7 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
       <section className="px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-hoa">
         <div className="mx-auto max-w-7xl">
           <p className={eyebrow}>Associations</p>
-          <h2 id="village-hoa" className={h2}>Before you buy in {v.name}</h2>
+          <h2 id="village-hoa" className={h2}>{scope ? `Before you buy in ${v.name}` : 'What to verify for this address'}</h2>
           <p className="mt-3 max-w-3xl leading-8 text-slate-600">{c.association}</p>
           <p className="mt-4 text-sm font-semibold text-slate-900">Checklist for any address:</p>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -294,7 +301,7 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
       {/* FAQ */}
       <section className="bg-slate-50 px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-faq">
         <div className="mx-auto max-w-4xl">
-          <h2 id="village-faq" className={h2}>Questions about {v.name}</h2>
+          <h2 id="village-faq" className={h2}>{scope ? `Questions about ${v.name}` : 'Questions about Dakota Drive addresses'}</h2>
           <dl className="mt-8 space-y-4">
             {faqs.map((f) => (
               <div key={f.q} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-card">
@@ -368,6 +375,23 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
         </div>
       </section>
 
+      <section className="bg-white" aria-labelledby="village-sources">
+        <div className="mx-auto max-w-4xl px-6 pt-10">
+          <h2 id="village-sources" className="text-sm font-semibold text-slate-700">
+            Sources for this page
+          </h2>
+          <ul className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm">
+            {c.sources.map((s) => (
+              <li key={s.url}>
+                <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  {s.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-6 py-10">
           <p className="text-xs leading-6 text-slate-500">
@@ -375,7 +399,7 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
             Property Owners’ Assembly, village association websites, Florida Division of Corporations and county
             records; details taken only from listings are marked as such. Association rules, fees, amenities and
             school assignments change often and are for information only. Verify anything that matters to
-            your decision directly with the association, the school district and the City of Jupiter.
+            your decision directly with the association, the school district and the Town of Jupiter.
             DO Homes Group at Premier Brokers International is committed to Equal Housing Opportunity.
           </p>
         </div>

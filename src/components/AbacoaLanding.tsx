@@ -124,8 +124,8 @@ export default function AbacoaLanding() {
             Abacoa Homes for Sale
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-white/90 sm:text-xl">
-            Walk to dinner, ball games and the town green. Abacoa is Jupiter’s master-planned,
-            village-by-village community, and each village lives a little differently.
+            Abacoa is Jupiter’s master-planned, village-by-village community. Some villages sit steps from
+            Town Center and others are a short drive or bike ride, so each one lives a little differently.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
             <a href="#listings" className={btnPrimary}>Search Abacoa homes</a>
@@ -197,7 +197,7 @@ export default function AbacoaLanding() {
           >
             <table className="w-full min-w-[34rem] text-left text-sm">
               <caption className="px-5 pt-5 text-left font-serif text-xl font-semibold text-slate-900">
-                Compare the neighborhoods
+                Compare the villages covered in this guide
               </caption>
               <thead>
                 <tr className="border-b border-slate-200 text-xs uppercase tracking-[0.14em] text-report-gold-text">
@@ -220,8 +220,12 @@ export default function AbacoaLanding() {
             </table>
           </div>
           <p className="mt-4 text-sm text-slate-600">
-            Not every Abacoa building has its own page yet. The Dakota Drive question comes up often, so we
-            wrote a guide:{' '}
+            This guide covers ten neighborhoods. The Abacoa POA’s own{' '}
+            <a href="https://www.abacoa.com/neighborhoods" target="_blank" rel="noopener noreferrer" className="font-semibold text-gold-600 hover:text-gold-700">
+              neighborhood directory
+            </a>{' '}
+            also lists Cambridge, Somerset, San Palermo and The Island at Abacoa, among others. The Dakota Drive
+            question comes up often, so we wrote a guide:{' '}
             <Link href="/communities/dakota" className="font-semibold text-gold-600 hover:text-gold-700">
               which village is your Dakota Drive address in →
             </Link>
@@ -387,12 +391,12 @@ export default function AbacoaLanding() {
             <p className="mt-6 text-xs leading-6 text-slate-500">
               School assignments follow the address and boundaries change. Check any address with the{' '}
               <a
-                href="https://www.palmbeachschools.org/studentsparents/student-registration"
+                href="https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline underline-offset-2 hover:text-slate-700"
               >
-                Palm Beach County Schools address lookup
+                Palm Beach County Schools attendance boundary maps
               </a>
               .
             </p>
@@ -437,7 +441,7 @@ export default function AbacoaLanding() {
               <p className={eyebrow}>PUD and associations</p>
               <h2 id="abacoa-hoa" className={h2}>How Abacoa is governed</h2>
               <p className="mt-4 leading-8 text-slate-600">
-                Abacoa is a master-planned Planned Unit Development inside the City of Jupiter. It is
+                Abacoa is a master-planned Planned Unit Development inside the Town of Jupiter. It is
                 made up of individual villages, and a village may have its own association with its own
                 rules and costs on top of the community-wide one.
               </p>
@@ -550,7 +554,7 @@ export default function AbacoaLanding() {
           <p className="text-xs leading-6 text-slate-500">
             Community details on this page, including association rules, fees, amenities and school
             assignments, change often and are for information only. Verify anything that matters to
-            your decision directly with the association, the school district and the City of Jupiter.
+            your decision directly with the association, the school district and the Town of Jupiter.
             DO Homes Group at Premier Brokers International is committed to Equal Housing Opportunity.
           </p>
         </div>
