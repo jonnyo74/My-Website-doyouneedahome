@@ -234,7 +234,14 @@ describe('property types and price', () => {
   })
 
   it('includes townhomes classed as Residential', () => {
-    assert.ok(selectCards(rows('antigua'), scope('antigua')).length >= 3)
+    assert.ok(selectCards(rows('tuscany'), scope('tuscany')).length >= 3)
+  })
+
+  it('keeps the Abacoa Town Center 3 plat out of Antigua but in the hub', () => {
+    const plat = listing({ sub: 'Abacoa Town Center 3', comm: 'Antigua' })
+    assert.equal(inScope(plat, scope('antigua')), false)
+    assert.equal(inScope(plat, scope('abacoa')), true)
+    assert.deepEqual(selectCards(rows('antigua'), scope('antigua')), [])
   })
 })
 

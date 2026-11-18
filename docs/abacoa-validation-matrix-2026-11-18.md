@@ -29,7 +29,7 @@ rows across all pages; "Active" is strict `displayStatus == "Active"`.
 | Route | Scope (provider entries, all pinned Jupiter, FL) | Old | Now | Active | Positive example | Negative example | Widget = full search | Alert |
 | --- | --- | ---: | ---: | ---: | --- | --- | --- | --- |
 | `/abacoa` | 43 entries: `Abacoa` community and neighborhood plus every village subdivision plus Somerset, Village at Abacoa, Cambridge, Greenwich, Island, San Palermo, Abacoa Pl 1 | 6 | 42 | 40 | 183 Edenberry Ave (Canterbury Place) | none outside Jupiter or off-list | yes (same locations) | "Request Abacoa listing alerts" |
-| `/antigua` | 6: Antigua names plus `Abacoa Town Center 3` | 1 | 3 | 3 | 4106 Greenway Dr | any Mallory Creek home | yes | request form |
+| `/antigua` | 2: Antigua plat names only (`Antigua At Abacoa`, `... Town Center`); the community label and `Abacoa Town Center 3` are excluded | 1 | 0 | 0 | none; zero confirmed in the MLS | the three Parkside and Greenway Dr homes | yes | verified empty: "No active homes for sale in Antigua right now" |
 | `/canterbury-place` | 4: Canterbury Place neighborhood, community, subdivision | 3 | 3 | 3 | 599 Dakota Dr, 143 Killarney Ct | Somerset condo at 776 Dakota Dr | yes | request form |
 | `/charleston-court` | 4: includes truncated `Charleston Court At Abaco` | 2 | 2 | 2 | 332 Legare Ct | Tuscany homes | yes | request form |
 | `/dakota` | none, by design: a street guide | n/a | n/a | n/a | n/a | Canterbury Place homes no longer shown here | n/a | no feed; links to Canterbury Place and the hub |
@@ -104,8 +104,7 @@ change does not touch.
 3. **Martinique B26088730 (3416 W Community Dr).** Not in the Ylopo feed under any
    Martinique subdivision. Ask BeachesMLS for its status and IDX eligibility; the
    filter is not the cause.
-4. **Antigua** relies on the shared plat `Abacoa Town Center 3`. Confirm it holds
-   no other Town Center residential. Live/work eligibility is not filterable.
+4. **Antigua** is zero, confirmed in the MLS. The three homes Ylopo labels Antigua are in plat `Abacoa Town Center 3`, which is not Antigua; they show on the hub only. Live/work eligibility is not filterable.
 5. **Windsor Park `Pl No 2`** was not found in the provider; add it if the MLS uses it.
 6. **Dakota Drive listings.** No reliable street-plus-Abacoa filter exists, so the
    page carries no feed. If a street filter is ever verified, add a labelled scope.
