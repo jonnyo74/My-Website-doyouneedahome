@@ -291,6 +291,8 @@ export function scopeProbeUrl(scope: AbacoaScope, callback: string): string {
 // ── Membership and eligibility (pure; used by the probe and the tests) ───────
 
 export interface ProviderListing {
+  /** Ylopo's own listing id: the number in each widget card's /search/detail/<id> link. */
+  id?: number | string
   mlsNumber?: string
   address?: { city?: string; stateOrProvince?: string }
   addressStandard?: { neighborhoodName?: string; communityName?: string }
@@ -349,7 +351,7 @@ export function selectCards(listings: ProviderListing[], scope: AbacoaScope, lim
 
 export type ProbeOutcome =
   /** Provider answered and the scope has rows. */
-  | { state: 'results'; total: number; active: number; comingSoon: number }
+  | { state: 'results'; total: number; active: number; comingSoon: number; hiddenIds: string[] }
   /** Provider answered, rows are zero: a verified empty. */
   | { state: 'empty' }
   /** Provider failed, or returned rows outside the scope, so nothing can be claimed. */
@@ -373,5 +375,7 @@ export function classifyProbe(
   if (rows.some((r) => !inScope(r, scope))) return { state: 'unavailable', reason: 'out-of-scope' }
   const active = rows.filter(isStrictActive).length
   const comingSoon = rows.filter((r) => r.listingStatus?.displayStatus === 'Coming Soon').length
-  return { state: 'results', total: rows.length, active, comingSoon }
+  // Ylopo's widget cannot filter by status, so the page hides these cards itself.
+  const hiddenIds = rows.filter((r) => !isStrictActive(r) && r.id != null).map((r) => String(r.id))
+  return { state: 'results', total: rows.length, active, comingSoon, hiddenIds }
 }
