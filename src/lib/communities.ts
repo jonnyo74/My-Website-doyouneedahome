@@ -3209,7 +3209,7 @@ export const neighborhoods: CommunityItem[] = [
     description: 'A walkable New Urbanism master-planned community in Jupiter with tree-lined streetscapes, golf, and walkable town centers.',
     overview:
       'Abacoa is one of Jupiter\'s most sought-after master-planned communities — known for its streetscapes, tree-lined sidewalks, golf, baseball, and walkable town centers. Built with New Urbanist design in mind, Abacoa blends residential living with walkable town centers, parks, and everyday convenience.\n\nUnlike many South Florida communities built around gates and isolated subdivisions, Abacoa was intentionally designed to feel like a real town — and it shows. Developed in the late 1990s and early 2000s as one of Palm Beach County\'s first large-scale New Urbanist communities, Abacoa has matured beautifully — with established landscaping, thriving commercial areas, and long-term homeowner pride. What was once "new" is now one of Jupiter\'s most proven and stable residential communities.',
-    lifestyle: 'Abacoa feels active, social, and genuinely connected — without feeling crowded. The community is built around front-porch neighborhoods, community pools, a golf course, and a town center that is genuinely walkable from most of its sections. Roger Dean Chevrolet Stadium brings concerts, spring training games, and community events right to the neighborhood. It\'s rare to find this level of built-in activity in a residential community.',
+    lifestyle: 'Abacoa feels active, social, and genuinely connected — without feeling crowded. The community is built around front-porch neighborhoods, community pools, a golf course, and a town center you can walk to from some villages. If walking to dinner matters, start with Antigua and Charleston Court; in Mallory Creek, compare the bike or driving route from the house you’re considering. Roger Dean Chevrolet Stadium brings concerts, spring training games, and community events right to the neighborhood. It\'s rare to find this level of built-in activity in a residential community.',
     localLoves: [
       'Walkable town centers with restaurants, cafés, and local shops',
       'Roger Dean Chevrolet Stadium — MLB spring training and year-round events',
@@ -3246,7 +3246,7 @@ export const neighborhoods: CommunityItem[] = [
       'Nearby public schools include Beacon Cove Intermediate, Dwight D. Eisenhower K-8 and William T. Dwyer High; assignment follows the address',
       '10 minutes to Jupiter Beach, 5 minutes to I-95, 25–30 minutes to Trump International Airport (DJT), depending on traffic',
     ],
-    schoolOverview: 'Abacoa has both public and private school access. Assignments follow the address and boundaries change, so check each address against the Palm Beach County Schools attendance boundary maps rather than assuming a village or the whole community feeds one set of schools.',
+    schoolOverview: 'Abacoa has both public and private school access. Assignments follow the address and boundaries change, so check each address against the Palm Beach County Schools attendance boundary maps (elementary, middle and high) rather than assuming a village or the whole community feeds one set of schools.',
     schoolList: [
       {
         category: 'Public Schools',

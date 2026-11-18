@@ -91,6 +91,8 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
             <ol className="flex flex-wrap items-center gap-2 text-xs text-white/85">
               <li><Link href="/" className="hover:text-white">Home</Link></li>
               <li aria-hidden="true">/</li>
+              <li><Link href="/communities" className="hover:text-white">Communities</Link></li>
+              <li aria-hidden="true">/</li>
               <li><Link href="/communities/jupiter" className="hover:text-white">Jupiter</Link></li>
               <li aria-hidden="true">/</li>
               <li><Link href="/communities/abacoa" className="hover:text-white">Abacoa</Link></li>
@@ -268,12 +270,12 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
           <p className="mt-4 text-xs leading-6 text-slate-500">
             School assignments follow the address, not the village, and boundaries change. Check any address with the{' '}
             <a
-              href="https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics/elementary-school-attendance-boundary-maps"
+              href="https://www.palmbeachschools.org/studentsparents/student-registration/student-enrollment-and-demographics"
               target="_blank"
               rel="noopener noreferrer"
               className="underline underline-offset-2 hover:text-slate-700"
             >
-              Palm Beach County Schools attendance boundary maps
+              Palm Beach County Schools attendance boundary maps (elementary, middle and high)
             </a>
             .
           </p>
@@ -340,7 +342,7 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
       <section className="px-6 py-14 sm:px-8 sm:py-16">
         <div className="mx-auto max-w-7xl">
           <p className={eyebrow}>Keep exploring</p>
-          <h2 className={h2}>{scope ? 'Other Abacoa villages' : 'Villages along Dakota Drive'}</h2>
+          <h2 className={h2}>{scope ? 'Other Abacoa villages' : 'Explore the villages'}</h2>
           <ul className="mt-6 flex flex-wrap gap-3">
             {siblings.map((s) => (
               <li key={s.slug}>
