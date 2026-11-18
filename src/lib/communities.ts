@@ -3222,14 +3222,14 @@ export const neighborhoods: CommunityItem[] = [
     subNeighborhoods: [
       { name: 'Mallory Creek', description: 'About 580 Key West–inspired DiVosta homes, townhomes and single-family, with a clubhouse and two heated pools.' },
       { name: 'Newhaven', description: 'Abacoa’s first neighborhood, begun in 1998: about 500 homes on tree-lined streets, with two clubhouses and pools.' },
-      { name: 'Antigua', description: 'About 280 live/work townhomes by Main Street, with a clubhouse, resort-style pool and central green.' },
-      { name: 'Windsor Park', description: 'Abacoa’s newest village: about 380 single-family homes and townhomes built roughly 2013–2018.' },
+      { name: 'Antigua', description: 'Live/work and residential townhomes by Main Street, with a clubhouse, resort-style pool and central green.' },
+      { name: 'Windsor Park', description: 'Abacoa’s newest village: DiVosta-built single-family homes and townhomes from the mid-2010s.' },
       { name: 'Valencia', description: 'About 137 custom Mediterranean single-family homes, 3–6 bedrooms, many with pools.' },
-      { name: 'Martinique', description: 'Caribbean-style townhomes and single-family homes around a Village Green with a heated pool.' },
+      { name: 'Martinique', description: 'Caribbean-style townhomes and single-family homes with a clubhouse, pool and fitness center.' },
       { name: 'Canterbury Place', description: '144 single-family homes and 173 townhomes around a lake, in a Tuscan and French country style.' },
       { name: 'Charleston Court', description: 'Victorian-style three-bedroom townhomes overlooking Abacoa Golf Club.' },
       { name: 'Osceola Woods', description: 'About 146 three-story townhomes near Downtown Abacoa, backing onto a nature preserve.' },
-      { name: 'Tuscany', description: 'A Mediterranean-style village of 453 single-family homes and townhomes built around 2004.' },
+      { name: 'Tuscany', description: 'A Mediterranean-style village of 446 single-family homes and townhomes with a clubhouse and heated pool.' },
       { name: 'Dakota Drive', description: 'A street through several villages, not a village itself. Some of its townhomes are filed under Canterbury Place.' },
     ],
     priceRanges: [
@@ -4596,7 +4596,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: "Antigua at Town Center: about 280 live/work townhomes by Main Street, with a clubhouse, resort-style pool and central green.",
+    description: "Antigua at Town Center: live/work and residential townhomes by Main Street, with a clubhouse, resort-style pool and central green.",
     overview: 'Antigua is a centrally located neighborhood within Abacoa offering a mix of townhomes and select live/work residences in a walkable, community-focused setting. Known for its proximity to Abacoa Town Center, flexible layouts, and urban-style design, Antigua appeals to buyers who value convenience, walkability, and low-maintenance living.\n\nTypical floor plans offer 2–3 bedrooms, open living and dining spaces, balconies or front porches on select units, private garages, and guest parking. Ground-floor layouts are ideal for home offices or small business use.',
     lifestyle: 'Social, convenient, and connected — Antigua sits within walking distance of Abacoa\'s dining, shops, and community events, with a high share of full-time occupancy. Community amenities include a pool, sidewalks, and HOA-managed exterior maintenance.',
     highlights: [
@@ -4636,7 +4636,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: "Abacoa’s newest village: about 380 DiVosta-built single-family homes and townhomes, 3–5 bedrooms, with a clubhouse, pool and fire pit.",
+    description: "Abacoa’s newest village: DiVosta-built single-family homes and townhomes, 3–5 bedrooms, with a clubhouse, pool and fire pit.",
     overview: 'Windsor Park is a residential neighborhood within Abacoa featuring single-family courtyard-style homes, tree-lined streets, and a strong sense of community. The neighborhood emphasizes rear-entry garages and front-facing porches, reflecting Abacoa\'s original New Urbanist town design. Homes were built in the early-to-mid 2000s with 3–4 bedroom floor plans, private courtyards or backyard spaces, and traditional Abacoa architectural style.\n\nThe vibe is relaxed and neighborly, with sidewalks, porches, and green spaces encouraging a connected community atmosphere.',
     lifestyle: 'An established neighborhood of single-family homes with private outdoor space. The neighborhood\'s mature trees and rear-entry garage design keep streetscapes clean and pedestrian-friendly.',
     highlights: [
@@ -4716,7 +4716,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: "A Caribbean-style Abacoa village of townhomes and single-family homes, with a Village Green, heated pool and Civic Center.",
+    description: "A Caribbean-style Abacoa village of townhomes and single-family homes, with a clubhouse, pool and fitness center.",
     overview: 'Martinique at Abacoa offers low-maintenance condominium living in one of Abacoa\'s most walkable and convenient locations. Most units were constructed in the early-to-mid 2000s as part of the original Abacoa development. Typical layouts include 1–2 bedroom configurations with open living areas and functional, easy-to-maintain designs. Many units feature private balconies, in-unit laundry, and assigned parking.\n\nCommunity amenities include a swimming pool, clubhouse, well-maintained common areas, and sidewalk-lined streets. Martinique is especially popular with buyers who prefer simplicity — a social, convenient lifestyle without the upkeep.',
     lifestyle: 'A true lock-and-leave lifestyle. Martinique draws seasonal residents, downsizers, professionals, and buyers who want walkable access to shopping, dining, and community events without the maintenance of a single-family home.',
     highlights: [
@@ -4861,7 +4861,7 @@ export const neighborhoods: CommunityItem[] = [
     type: 'Neighborhood',
     region: 'Jupiter',
     searchCity: 'Jupiter',
-    description: "A Mediterranean-style DiVosta village of 453 single-family homes and townhomes, with a clubhouse, pool and playground.",
+    description: "A Mediterranean-style DiVosta village of 446 single-family homes and townhomes, with a clubhouse, pool and playground.",
     overview: 'Tuscany is a Mediterranean-inspired neighborhood within Abacoa featuring a mix of townhomes and single-family homes built in the mid-2000s. The development emphasizes low-maintenance living in one of Abacoa\'s most peaceful neighborhoods. Floor plans offer 2–4 bedrooms with open living areas, natural light, front porches, shaded sidewalks, private garages, and low HOA fees with exterior maintenance included.\n\nCommunity amenities include a swimming pool, clubhouse, green spaces, and sidewalks. The neighborhood design is pet-friendly. Tuscany offers entry-level and mid-range pricing, 2–4 bedroom layouts, and low-maintenance HOA-managed living.',
     lifestyle: 'Peaceful and community-oriented — Tuscany attracts buyers who want Abacoa character without the higher price point of the larger single-family sections. The Mediterranean aesthetic and front porch culture keep the neighborhood social and connected.',
     highlights: [
