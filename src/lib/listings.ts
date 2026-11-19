@@ -526,9 +526,9 @@ export const listings: Listing[] = [
     subdivision: 'Poinciana Gardens',
     legalDescription: "Poinciana Gardens Sec 2, W 5' of Lot 30 and All of Lot 31, Block 110",
 
-    price: 560000,
+    price: 555000,
     originalPrice: 625000,
-    pricePerSqft: 395.48,
+    pricePerSqft: 391.95,
 
     propertyType: 'Single-Family Residence',
     // Two bedrooms on the MLS. The third room is a den: it has a window but no
@@ -744,12 +744,18 @@ export const listings: Listing[] = [
     // caption can outrank it. The file is still on disk at
     // /images/listings/6145-se-audubon-lane/floor-plan.jpg for the reshoot.
 
+    // Upcoming open houses, soonest first. Cleared once they've passed.
+    openHouses: [
+      { date: 'Saturday, November 28', time: '11:00 AM – 1:00 PM', endsAt: '2026-11-28T13:00:00-05:00' },
+      { date: 'Saturday, December 5', time: '11:00 AM – 1:00 PM', endsAt: '2026-12-05T13:00:00-05:00' },
+    ],
+
     listingAgent: JOHN,
     coListingAgent: CHRISTINE,
     brokerage: 'Premier Brokers International',
 
     metaTitle: '6145 SE Audubon Lane: 2 Bed + Den No-HOA Pool Home in Hobe Sound, FL',
-    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $560,000. Schedule a private showing.",
+    metaDescription: "2 bed + den/flex room, 2 bath pool home in Hobe Sound's Poinciana Gardens — no HOA, owned solar, new septic, impact windows. $555,000. Schedule a private showing.",
   },
   {
     slug: '982-sw-worcester-lane',
