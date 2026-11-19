@@ -10,6 +10,7 @@ import YlopoInit from '@/components/YlopoInit'
 import AbacoaListings from '@/components/AbacoaListings'
 import AbacoaRetrieved from '@/components/AbacoaRetrieved'
 import GreatSchoolsCard from '@/components/GreatSchoolsCard'
+import AbacoaMapSection from '@/components/abacoaMap/AbacoaMapSection'
 
 const SITE = 'https://www.doyouneedahome.com'
 
@@ -178,6 +179,14 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
         </section>
       )}
 
+      {!scope && (
+        <section className="px-6 pb-4 sm:px-8" aria-label="Dakota Drive map">
+          <div className="mx-auto max-w-7xl">
+            <AbacoaMapSection view={{ view: 'dakota' }} id="dakota-map" />
+          </div>
+        </section>
+      )}
+
       {/* About */}
       <section className="px-6 py-14 sm:px-8 sm:py-16" aria-labelledby="village-about">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
@@ -250,6 +259,11 @@ export default function AbacoaVillageLanding({ slug }: { slug: string }) {
         <div className="mx-auto max-w-7xl">
           <p className={eyebrow}>The practical side</p>
           <h2 id="village-practical" className={h2}>Where it sits and schools</h2>
+          {scope && (
+            <div className="mt-8">
+              <AbacoaMapSection view={{ view: 'village', slug }} id="village-map" />
+            </div>
+          )}
           <div className="mt-8 grid gap-6 lg:grid-cols-2">
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
               <h3 className="font-serif text-xl font-semibold text-slate-900">Where it sits</h3>

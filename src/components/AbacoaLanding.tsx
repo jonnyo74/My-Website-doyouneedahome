@@ -10,6 +10,7 @@ import YlopoInit from '@/components/YlopoInit'
 import AbacoaListings from '@/components/AbacoaListings'
 import AbacoaRetrieved from '@/components/AbacoaRetrieved'
 import GreatSchoolsCard from '@/components/GreatSchoolsCard'
+import AbacoaMapSection from '@/components/abacoaMap/AbacoaMapSection'
 
 // The hub's listings, the full-search link and the alert request all read the
 // verified master-community scope in lib/abacoaScopes. It is the union of every
@@ -186,6 +187,10 @@ export default function AbacoaLanding() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-12">
+            <AbacoaMapSection view={{ view: 'hub' }} id="abacoa-map" />
+          </div>
 
           <div
             className="mt-10 overflow-x-auto rounded-3xl border border-slate-200 bg-white shadow-card"
