@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { leadMagnets } from '@/lib/leadMagnets'
 import LeadMagnetLanding from '@/components/leadMagnet/LeadMagnetLanding'
 import CountyMarketTables from '@/components/leadMagnet/CountyMarketTables'
+import CountySupplyChart from '@/components/leadMagnet/CountySupplyChart'
 // The same September 2026 data and narrative files the PDF is built from.
 import stLucieMarket from '../../../scripts/pbc-county-report/data/st-lucie-market-2026-09.json'
 import stLucieNarrative from '../../../scripts/pbc-county-report/data/st-lucie-narrative-2026-09.json'
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function StLucieCountyMarketReportPage() {
   return (
-    <LeadMagnetLanding magnet={magnet}>
+    <LeadMagnetLanding magnet={magnet} heroExtra={<CountySupplyChart data={stLucieMarket} />}>
       <CountyMarketTables data={stLucieMarket} localLine={stLucieNarrative.insights.localLine} />
     </LeadMagnetLanding>
   )

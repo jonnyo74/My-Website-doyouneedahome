@@ -13,6 +13,12 @@ export interface LeadMagnetLandingProps {
    * area-by-area comparison, which is page-specific rather than registry data.
    */
   children?: React.ReactNode
+  /**
+   * Rendered in the hero, under the cover and stat tiles and ahead of the
+   * download form. The county reports put their chart here so the figures can
+   * be read and cited without submitting the form.
+   */
+  heroExtra?: React.ReactNode
   /** Dev-only banner shown when the magnet is unpublished. */
   devPreviewNotice?: string
 }
@@ -25,6 +31,7 @@ export interface LeadMagnetLandingProps {
 export default function LeadMagnetLanding({
   magnet,
   children,
+  heroExtra,
   devPreviewNotice,
 }: LeadMagnetLandingProps) {
   const url = `${SITE_URL}${magnet.landingPage}`
@@ -126,6 +133,8 @@ export default function LeadMagnetLanding({
                   </div>
                 )}
               </div>
+
+              {heroExtra}
             </div>
 
             {/* Lead form */}
