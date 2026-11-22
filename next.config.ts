@@ -134,6 +134,15 @@ const nextConfig: NextConfig = {
       // Old city URLs with "-fl" in them, e.g. /communities/jupiter-fl-real-estate
       { source: '/communities/:slug-fl-real-estate', destination: '/communities/:slug', permanent: true },
 
+      // ── Old-site URLs still 404ing in Search Console (Nov 2026) ───────
+      // Abacoa lived under /communities/ on the old site as well as /new-communities/
+      { source: '/communities/abacoa-real-estate', destination: '/communities/abacoa', permanent: true },
+      // Old slug had a leading "the-", so the /new-communities/[slug] fallback missed it
+      { source: '/new-communities/the-bears-club-real-estate', destination: '/communities/bears-club', permanent: true },
+      // Old Ylopo condo search pages (only bare /condos was covered, further down).
+      // ":path+" not ":path*" so bare /condos still reaches its /buy rule.
+      { source: '/condos/:path+', destination: '/communities/west-palm-beach', permanent: true },
+
       // ── Squarespace leftovers ──────────────────────────────────────────
       { source: '/home', destination: '/', permanent: true },
       { source: '/seller', destination: '/sell', permanent: true },
