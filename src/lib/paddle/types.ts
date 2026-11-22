@@ -88,6 +88,14 @@ export interface LaunchSite {
   description: string
   /** What this launch means to someone shopping for a house nearby. */
   buyerAngle: string
+  /**
+   * The date someone last checked this entry against its sources, as
+   * YYYY-MM-DD. null = no check has been recorded for this launch yet. Never
+   * back-fill this from the page's compile month: it is a per-launch record of
+   * an actual check, and the page prints it next to the sources.
+   */
+  lastVerified: string | null
+  /** Where each claim in this entry comes from. Printed in the page's Sources section. */
   sources: SourceLink[]
 }
 

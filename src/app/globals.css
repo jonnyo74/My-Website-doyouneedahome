@@ -209,3 +209,12 @@ label:has(> input.sr-only:focus-visible) {
 html[data-cta-hide] iframe[name="widgetCta"] {
   display: none !important;
 }
+
+/* Printable reference views (the kayak launch chart). A page that renders a
+   [data-print-view] root prints as that view alone: the site header, footer,
+   skip link and floating offers are dropped from the paper copy. */
+@media print {
+  body:has([data-print-view]) > :not(main) {
+    display: none !important;
+  }
+}

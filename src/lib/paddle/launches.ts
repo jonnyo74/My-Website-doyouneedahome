@@ -48,6 +48,7 @@ export const launches: LaunchSite[] = [
       'The best all-round put-in inside town limits, and the one locals name first. From this one small beach you can turn east toward the lighthouse and the sandbar, north or south on the Intracoastal, or west into the river’s quiet backwaters — three completely different paddles.',
     buyerAngle:
       'Puts the whole river system inside a fifteen-minute paddle without ever crossing the inlet. Anything within a mile of the Alt A1A bridge corridor is a legitimate “walk the kayak down” address.',
+    lastVerified: null,
     sources: [
       { label: 'Town of Jupiter — Fishing & parks', href: 'https://www.jupiter.fl.us/461/Fishing' },
       { label: 'Paddling.com — Sawfish Bay Park', href: 'https://paddling.com/paddle/locations/sawfish-bay-park' },
@@ -82,6 +83,7 @@ export const launches: LaunchSite[] = [
       'The most forgiving launch on the salt side: a sandy beach for paddlers physically separated from the trailer ramps, open around the clock, with a gentle run down to Fullerton Island and Sawfish Bay. If someone in the household is new to a kayak, this is where they learn.',
     buyerAngle:
       'The Riverwalk corridor and the US-1 condos sit within a short cart ride. For a downsizing buyer who wants water without the cost of a dock, this is the strongest argument in Jupiter.',
+    lastVerified: null,
     sources: [
       { label: 'Town of Jupiter — Boating & ramps', href: 'https://www.jupiter.fl.us/463/BoatingRamps' },
       { label: 'Palm Beach County Parks — Burt Reynolds', href: 'https://discover.pbc.gov/parks/Locations/Burt-Reynolds.aspx' },
@@ -114,6 +116,7 @@ export const launches: LaunchSite[] = [
       'Postcard water, and the single most beautiful launch in the county — with the strongest current. The lagoon itself is calm and shallow enough for children; the inlet fifty yards away is not. Know which side of that line you are on before you push off.',
     buyerAngle:
       'Jupiter Inlet Colony, the Beach Road condos and the Jupiter Beach Road corridor all sit within a cart ride. Weekend parking is the real constraint here, which is exactly why walkability to it carries a genuine premium.',
+    lastVerified: null,
     sources: [
       { label: 'Palm Beach County Parks — DuBois', href: 'https://discover.pbc.gov/parks/Locations/DuBois.aspx' },
       { label: 'Jupiter Inlet District', href: 'https://www.jupiterinletdistrict.org/boating-and-outdoor-recreation' },
@@ -146,6 +149,7 @@ export const launches: LaunchSite[] = [
       'The only genuine public launch with a Tequesta address, and it earns the spot: clear shallow water, rays and turtles on a calm morning, and an ocean beach across the road for whoever in the family is not paddling.',
     buyerAngle:
       'This is the launch that makes Jupiter Island and east Tequesta work. Read the address carefully — it is a county park, open to everyone, with no residency requirement.',
+    lastVerified: null,
     sources: [
       { label: 'Palm Beach County Parks — Coral Cove', href: 'https://discover.pbc.gov/parks/Locations/Coral-Cove.aspx' },
       { label: 'Loxahatchee River Center — Coral Cove kayak tour', href: 'https://lrdrivercenter.org/events-calendar/public-kayak-tour-coral-cove-park/' },
@@ -179,6 +183,7 @@ export const launches: LaunchSite[] = [
       'Purpose-built for powerboats and useful to paddlers mainly as a southern Intracoastal put-in. If the goal is a quiet morning, launch somewhere else; if the goal is distance on open water, this is the door.',
     buyerAngle:
       'Serves the Indiantown Road corridor west of the Intracoastal. Solid for a boat-owning household, secondary for a paddling one.',
+    lastVerified: null,
     sources: [
       { label: 'Palm Beach County Parks — Waterway Park', href: 'https://discover.pbc.gov/parks/Locations/Waterway.aspx' },
       { label: 'Town of Jupiter — Boating & ramps', href: 'https://www.jupiter.fl.us/463/BoatingRamps' },
@@ -214,6 +219,7 @@ export const launches: LaunchSite[] = [
       'The quiet one. Brackish, sheltered, and close to nothing, which is the point. Bring water, leave the dog, and note that the launch is not at the Church Street trailhead most map apps will send you to.',
     buyerAngle:
       'The launch that serves inland west Jupiter. For a buyer priced out of the river, this is the argument that you do not have to be on the water to be in the water.',
+    lastVerified: null,
     sources: [
       { label: 'PBC ERM — Limestone Creek Natural Area', href: 'https://discover.pbc.gov/erm/NaturalAreas/Limestone-Creek.aspx' },
       { label: 'Town of Jupiter — facility detail', href: 'https://www.jupiter.fl.us/facilities/Facility/Details/40' },
@@ -248,6 +254,7 @@ export const launches: LaunchSite[] = [
       'Mile zero of the 8.5-mile state-designated paddling trail, and the prettiest water in Palm Beach County — cypress knees, overhung canopy, alligators on the bank. The standard outing is out and back to Masten Dam in two or three hours; the full run to Jonathan Dickinson is 8.3 miles and about five and a half hours with a paid shuttle home.',
     buyerAngle:
       'The reason western Jupiter and the Jupiter Farms corridor sell on lifestyle rather than proximity. Fifteen minutes from Indiantown Road addresses that will never see the Intracoastal.',
+    lastVerified: null,
     sources: [
       { label: 'Palm Beach County Parks — Riverbend', href: 'https://discover.pbc.gov/parks/Locations/Riverbend.aspx' },
       { label: 'FDEP — Loxahatchee River Paddling Guide (PDF)', href: 'https://floridadep.gov/sites/default/files/Lox_guide_0.pdf' },
@@ -280,6 +287,7 @@ export const launches: LaunchSite[] = [
       'The downstream anchor of the Wild & Scenic run and the practical way to reach Trapper Nelson’s homestead, about three and a half river miles upstream through mangrove-lined water. Six dollars a vehicle, 11,500 acres, and the best chance in the county of seeing nobody for an hour.',
     buyerAngle:
       'Twenty minutes from most of Tequesta. For a second-home buyer weighing Jupiter against the Treasure Coast, this park is the thing that closes the gap.',
+    lastVerified: null,
     sources: [
       { label: 'Florida State Parks — Jonathan Dickinson', href: 'https://www.floridastateparks.org/parks-and-trails/jonathan-dickinson-state-park' },
       { label: 'FDEP — Loxahatchee River Paddling Guide (PDF)', href: 'https://floridadep.gov/sites/default/files/Lox_guide_0.pdf' },
@@ -313,6 +321,7 @@ export const launches: LaunchSite[] = [
       'The destination that gives the whole river its story, and the only site here you have to earn. The state park publishes Wednesday to Monday and the FDEP paddling guide publishes Thursday to Monday, so phone the park rather than gamble a seven-mile round trip on it.',
     buyerAngle:
       'Not a launch. It is the answer to “where does this river actually go,” which is the question every out-of-state buyer asks on the second showing.',
+    lastVerified: null,
     sources: [
       { label: 'Florida State Parks — Jonathan Dickinson', href: 'https://www.floridastateparks.org/parks-and-trails/jonathan-dickinson-state-park' },
       { label: 'FDEP — Loxahatchee River Paddling Guide (PDF)', href: 'https://floridadep.gov/sites/default/files/Lox_guide_0.pdf' },
@@ -347,6 +356,7 @@ export const launches: LaunchSite[] = [
       'Included because guided tours use it and people will tell you about it, not because it is a maintained facility. Treat it as an informal put-in with a serious current, and go to Sawfish Bay instead if you are new here.',
     buyerAngle:
       'Useful context rather than a selling point: it explains why the lighthouse-view addresses have superb water views and difficult water access.',
+    lastVerified: null,
     sources: [
       { label: 'BLM — Jupiter Inlet Lighthouse ONA', href: 'https://www.blm.gov/visit/jupiter-inlet-lighthouse-outstanding-natural-area' },
       { label: 'Jupiter Inlet District', href: 'https://www.jupiterinletdistrict.org/boating-and-outdoor-recreation' },
@@ -380,6 +390,7 @@ export const launches: LaunchSite[] = [
       'Two small town preserves with kayak launches somewhere between permitted and open. Worth a phone call before a drive, and worth tracking — a new public launch on a mangrove creek quietly changes what the surrounding blocks are worth.',
     buyerAngle:
       'The one genuinely forward-looking item on this map. If Sims Creek opens, the Center Street pocket gets a walkable put-in it has never had.',
+    lastVerified: null,
     sources: [
       { label: 'Town of Jupiter — Current major projects', href: 'https://www.jupiter.fl.us/1657/Current-Major-Projects' },
       { label: 'Town of Jupiter — Open Space brochure (PDF)', href: 'https://www.jupiter.fl.us/DocumentCenter/View/21781/Open-Space-Brochure' },
@@ -393,3 +404,14 @@ export const MAP_ZOOM = 12
 
 export const LAUNCH_DISCLAIMER =
   'Hours, fees and facility status change without notice. Verify with the managing agency before you go. Nothing on this page is a representation about any specific property’s water access.'
+
+/** "2026-09-14" → "September 14, 2026". Parsed as a plain calendar date, never shifted by timezone. */
+export function formatLastVerified(date: string): string {
+  const [year, month, day] = date.split('-').map(Number)
+  return new Date(Date.UTC(year, month - 1, day)).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC',
+  })
+}
