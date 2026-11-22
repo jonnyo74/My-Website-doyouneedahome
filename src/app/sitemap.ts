@@ -6,6 +6,7 @@ import { agents } from '@/lib/agents'
 import { publishedLeadMagnets } from '@/lib/leadMagnets'
 import { SITE_URL } from '@/lib/site'
 import { discoverImageUrls } from '@/lib/discoverPhotos'
+import { PRESS_KIT_READY } from '@/lib/press/pressKit'
 
 const BASE = SITE_URL
 
@@ -31,6 +32,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/accessibility`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/canadahomeseller`, changeFrequency: 'monthly', priority: 0.6 },
+    // /press 404s in production until its placeholders are filled, so it is
+    // only listed once the kit is complete.
+    ...(PRESS_KIT_READY
+      ? [{ url: `${BASE}/press`, changeFrequency: 'monthly' as const, priority: 0.5 }]
+      : []),
   ]
 
   // Lead-magnet landing pages. Only published magnets are listed — an offer

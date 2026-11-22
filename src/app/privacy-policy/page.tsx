@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { OFFICE_ADDRESS } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | DO Homes Group',
@@ -188,7 +189,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="mb-3 font-serif text-2xl font-semibold text-slate-900">Contact</h2>
             <p>
               Questions about this policy or how your information is handled can be directed to DO
-              Homes Group, 4658 Northlake Boulevard, Suite 103, Palm Beach Gardens, FL 33418, or
+              Homes Group, {OFFICE_ADDRESS.oneLine}, or
               via the contact information above. DO Homes Group operates under Premier Brokers
               International.
             </p>

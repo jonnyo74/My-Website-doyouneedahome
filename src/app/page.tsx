@@ -7,7 +7,7 @@ import CommunityCard from '@/components/CommunityCard'
 import ListingCard from '@/components/ListingCard'
 import RecentlySold from '@/components/RecentlySold'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
-import { SITE_URL } from '@/lib/site'
+import { OFFICE_ADDRESS, SAME_AS, SISTER_SITE_URL, SITE_URL } from '@/lib/site'
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -37,25 +37,22 @@ const stripPhotos = [
 
 // Same business facts the lead-magnet landing pages already publish, and the
 // same office number the footer shows. Emitted once, on the home page.
+// Typed as both: RealEstateAgent is already a kind of Organization, and naming
+// Organization outright makes this the one entity node `sameAs` hangs from.
 const agencySchema = {
   '@context': 'https://schema.org',
-  '@type': 'RealEstateAgent',
+  '@type': ['Organization', 'RealEstateAgent'],
   '@id': `${SITE_URL}/#agency`,
   name: 'DO Homes Group',
   url: SITE_URL,
   telephone: '+1-561-783-7733',
   email: 'info@doyouneedahome.com',
   image: `${SITE_URL}/images/og-image.jpg`,
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '4658 Northlake Boulevard, Suite 103',
-    addressLocality: 'Palm Beach Gardens',
-    addressRegion: 'FL',
-    postalCode: '33418',
-    addressCountry: 'US',
-  },
+  address: OFFICE_ADDRESS.jsonLd,
   areaServed: 'Palm Beach County, Martin County and St. Lucie County, FL',
   parentOrganization: { '@type': 'Organization', name: 'Premier Brokers International' },
+  // Our sister site and the profiles the footer links to (src/lib/site.ts).
+  sameAs: SAME_AS,
 }
 
 export default function Home() {
@@ -290,6 +287,17 @@ export default function Home() {
               <CommunityCard key={city.slug} community={city} />
             ))}
           </div>
+          <p className="text-sm leading-7 text-slate-600">
+            Looking at condos in West Palm Beach or on Singer Island? We cover those building by
+            building on our sister site,{' '}
+            <a
+              href={SISTER_SITE_URL}
+              className="font-semibold text-gold-600 underline underline-offset-4 transition hover:text-gold-700"
+            >
+              CondoWPB.com
+            </a>
+            .
+          </p>
         </div>
       </section>
 

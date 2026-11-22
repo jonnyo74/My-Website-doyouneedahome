@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { relatedMagnets, type LeadMagnet } from '@/lib/leadMagnets'
-import { SITE_URL } from '@/lib/site'
+import { OFFICE_ADDRESS, SITE_URL } from '@/lib/site'
 import LeadMagnetForm from './LeadMagnetForm'
 
 export interface LeadMagnetLandingProps {
@@ -13,6 +13,12 @@ export interface LeadMagnetLandingProps {
    * area-by-area comparison, which is page-specific rather than registry data.
    */
   children?: React.ReactNode
+  /**
+   * Rendered in the hero, under the cover and stat tiles and ahead of the
+   * download form. The county reports put their chart here so the figures can
+   * be read and cited without submitting the form.
+   */
+  heroExtra?: React.ReactNode
   /** Dev-only banner shown when the magnet is unpublished. */
   devPreviewNotice?: string
 }
@@ -25,6 +31,7 @@ export interface LeadMagnetLandingProps {
 export default function LeadMagnetLanding({
   magnet,
   children,
+  heroExtra,
   devPreviewNotice,
 }: LeadMagnetLandingProps) {
   const url = `${SITE_URL}${magnet.landingPage}`
@@ -55,14 +62,7 @@ export default function LeadMagnetLanding({
     url: SITE_URL,
     telephone: '+1-561-783-7733',
     email: 'info@doyouneedahome.com',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '4658 Northlake Boulevard, Suite 103',
-      addressLocality: 'Palm Beach Gardens',
-      addressRegion: 'FL',
-      postalCode: '33418',
-      addressCountry: 'US',
-    },
+    address: OFFICE_ADDRESS.jsonLd,
     areaServed: 'Palm Beach County, Martin County and St. Lucie County, FL',
     parentOrganization: { '@type': 'Organization', name: 'Premier Brokers International' },
     employee: [
@@ -133,6 +133,8 @@ export default function LeadMagnetLanding({
                   </div>
                 )}
               </div>
+
+              {heroExtra}
             </div>
 
             {/* Lead form */}

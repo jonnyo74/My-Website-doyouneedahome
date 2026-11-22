@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getAgentBySlug, getAgentPaths } from '@/lib/agents'
 import SellerValuationForm from '@/components/SellerValuationForm'
-import { SITE_URL } from '@/lib/site'
+import { OFFICE_ADDRESS, SITE_URL } from '@/lib/site'
 
 type Props = { params: Promise<{ agent: string }> }
 
@@ -206,8 +206,8 @@ export default async function AgentValuationPage({ params }: Props) {
           <div className="mt-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-card">
             <p className="text-sm leading-7 text-slate-600">{agent.bio}</p>
             <p className="mt-4 text-xs text-slate-500">
-              Florida license #{agent.license} · Premier Brokers International, 4658 Northlake
-              Boulevard, Suite 103, Palm Beach Gardens, FL 33418
+              Florida license #{agent.license} · Premier Brokers International,{" "}
+              {OFFICE_ADDRESS.oneLine}
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               <Link

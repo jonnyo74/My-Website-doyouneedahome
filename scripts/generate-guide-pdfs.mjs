@@ -10,6 +10,7 @@
 // The county market-report PDFs are NOT produced here — they are built by the
 // kit in scripts/pbc-county-report/.
 
+import { readFileSync } from 'node:fs'
 import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { PdfDoc, COLORS } from './lib/pdf.mjs'
@@ -17,9 +18,12 @@ import { installFonts } from './lib/fonts.mjs'
 
 const OUT_DIR = 'private/reports'
 const AUTHOR = 'Christine Dekant & John Oliver | DO Homes Group'
+// Same record src/lib/site.ts exports as OFFICE_ADDRESS, so the PDFs and the
+// site cannot drift apart again.
+const office = JSON.parse(readFileSync('src/lib/officeAddress.json', 'utf8'))
 const BRAND_FOOTNOTE =
-  'DO Homes Group at Premier Brokers International, 9123 North Military Trail, Suite 104, ' +
-  'Palm Beach Gardens, FL 33410. (561) 783-7733 | doyouneedahome.com'
+  `DO Homes Group at Premier Brokers International, ${office.street}, ${office.suite}, ` +
+  `${office.city}, ${office.state} ${office.zip}. (561) 783-7733 | doyouneedahome.com`
 
 const relocation = JSON.parse(
   await import('node:fs/promises').then((fs) =>

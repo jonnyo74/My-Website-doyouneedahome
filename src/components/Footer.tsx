@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { OFFICE_ADDRESS, SOCIAL_PROFILES } from '@/lib/site'
+import { PRESS_KIT_READY } from '@/lib/press/pressKit'
 
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
 // zero results); omitting locations entirely falls back to the account's
@@ -45,8 +47,8 @@ export default function Footer() {
               <p className="text-sm text-slate-400">Christine Dekant &amp; John Oliver</p>
             </div>
             <div className="space-y-2 text-sm">
-              <p>4658 Northlake Boulevard, Suite 103</p>
-              <p>Palm Beach Gardens, FL 33418</p>
+              <p>{OFFICE_ADDRESS.streetLine}</p>
+              <p>{OFFICE_ADDRESS.cityLine}</p>
               <a href="tel:+15617837733" className="block pt-1 transition hover:text-white">
                 (561) 783-7733
               </a>
@@ -58,11 +60,11 @@ export default function Footer() {
                 same visual spacing, but each tap target grows from 18px to
                 34px (WCAG 2.2 — 2.5.8 Target Size). */}
             <div className="-ml-2 flex items-center gap-1">
-              <SocialLink href="https://www.facebook.com/doyouneedahome" label="Facebook"><FacebookIcon /></SocialLink>
-              <SocialLink href="https://www.instagram.com/doyouneedahome" label="Instagram"><InstagramIcon /></SocialLink>
-              <SocialLink href="https://x.com/doyouneedahome" label="X"><XIcon /></SocialLink>
-              <SocialLink href="https://www.youtube.com/@doyouneedahome" label="YouTube"><YouTubeIcon /></SocialLink>
-              <SocialLink href="https://www.tiktok.com/@doyouneedahome" label="TikTok"><TikTokIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.facebook} label="Facebook"><FacebookIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.instagram} label="Instagram"><InstagramIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.x} label="X"><XIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.youtube} label="YouTube"><YouTubeIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.tiktok} label="TikTok"><TikTokIcon /></SocialLink>
             </div>
           </div>
 
@@ -138,6 +140,12 @@ export default function Footer() {
             © {new Date().getFullYear()} Christine Dekant &amp; John Oliver at Premier Brokers International. All rights reserved.
           </p>
           <div className="flex items-center gap-5">
+            {/* Hidden until the press kit has real copy — see src/lib/press/pressKit.ts. */}
+            {PRESS_KIT_READY && (
+              <Link href="/press" className="text-xs text-slate-400 transition hover:text-white">
+                Press
+              </Link>
+            )}
             <Link href="/accessibility" className="text-xs text-slate-400 transition hover:text-white">
               Accessibility
             </Link>

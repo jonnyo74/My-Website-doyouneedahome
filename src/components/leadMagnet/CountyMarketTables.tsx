@@ -66,7 +66,7 @@ export default function CountyMarketTables({
   const cashShare = data.cashShare
 
   return (
-    <section className="px-6 py-16 sm:px-8">
+    <section id="county-data" className="scroll-mt-24 px-6 py-16 sm:px-8">
       <div className="mx-auto max-w-5xl">
         <p className="text-xs font-semibold uppercase tracking-[0.28em] text-report-gold-text">
           {data.dataMonth} data

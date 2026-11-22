@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import LaunchExplorer from '@/components/paddle/LaunchExplorer'
+import LaunchSources from '@/components/paddle/LaunchSources'
 import PaddleCrossLink from '@/components/paddle/PaddleCrossLink'
 import { LAUNCH_DISCLAIMER, launches } from '@/lib/paddle/launches'
 
@@ -102,6 +104,24 @@ export default function KayakLaunchesPage() {
           ))}
         </dl>
 
+        <p className="border-b border-slate-200 py-4 text-sm text-slate-600">
+          Want it on paper?{' '}
+          <Link
+            href="/kayak-launches-jupiter-tequesta/print"
+            className="font-semibold text-gold-600 underline underline-offset-4 hover:text-gold-700"
+          >
+            Print the launch chart
+          </Link>{' '}
+          or save it as a PDF. No form. Every entry is sourced{' '}
+          <a
+            href="#sources"
+            className="font-semibold text-gold-600 underline underline-offset-4 hover:text-gold-700"
+          >
+            at the bottom of this page
+          </a>
+          .
+        </p>
+
         <div className="py-10">
           <LaunchExplorer />
         </div>
@@ -166,6 +186,10 @@ export default function KayakLaunchesPage() {
 
         <div className="mt-10">
           <PaddleCrossLink to="communities" />
+        </div>
+
+        <div className="mt-10 border-t border-slate-200 pt-8">
+          <LaunchSources printHref="/kayak-launches-jupiter-tequesta/print" />
         </div>
 
         <p className="mt-10 border-t border-slate-200 pt-6 text-sm leading-relaxed text-slate-500">

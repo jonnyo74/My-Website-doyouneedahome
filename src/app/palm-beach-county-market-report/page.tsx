@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { leadMagnets } from '@/lib/leadMagnets'
 import LeadMagnetLanding from '@/components/leadMagnet/LeadMagnetLanding'
 import CountyMarketTables from '@/components/leadMagnet/CountyMarketTables'
+import CountySupplyChart from '@/components/leadMagnet/CountySupplyChart'
 // The same September 2026 data file the PDF is built from.
 import pbcMarket from '../../../scripts/pbc-county-report/data/pbc-market-2026-09.json'
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function PalmBeachCountyMarketReportPage() {
   return (
-    <LeadMagnetLanding magnet={magnet}>
+    <LeadMagnetLanding magnet={magnet} heroExtra={<CountySupplyChart data={pbcMarket} />}>
       <CountyMarketTables
         data={pbcMarket}
         localLine="County numbers blend dozens of very different communities, and your street, building or neighborhood can be moving differently."

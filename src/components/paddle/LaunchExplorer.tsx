@@ -3,6 +3,7 @@
 import dynamic from 'next/dynamic'
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { LAUNCH_DISCLAIMER, MAP_CENTRE, MAP_ZOOM, launches } from '@/lib/paddle/launches'
+import { KIND_LABEL, SOURCING_LABEL } from '@/lib/paddle/labels'
 import type { LaunchSite } from '@/lib/paddle/types'
 
 /**
@@ -40,19 +41,6 @@ function passes(site: LaunchSite, filter: FilterId): boolean {
     default:
       return true
   }
-}
-
-const KIND_LABEL: Record<LaunchSite['kind'], string> = {
-  hand: 'Hand launch',
-  ramp: 'Ramp + paddle access',
-  'water-only': 'Paddle-in only',
-  unconfirmed: 'Confirm before you drive',
-}
-
-const SOURCING_LABEL: Record<LaunchSite['sourcing'], string> = {
-  confirmed: 'Confirmed by the managing agency',
-  corroborated: 'Corroborated across sources',
-  single: 'Single source — verify',
 }
 
 /**
