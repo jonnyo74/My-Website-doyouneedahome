@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { OFFICE_ADDRESS } from '@/lib/site'
+import { PRESS_KIT_READY } from '@/lib/press/pressKit'
 
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
 // zero results); omitting locations entirely falls back to the account's
@@ -139,6 +140,12 @@ export default function Footer() {
             © {new Date().getFullYear()} Christine Dekant &amp; John Oliver at Premier Brokers International. All rights reserved.
           </p>
           <div className="flex items-center gap-5">
+            {/* Hidden until the press kit has real copy — see src/lib/press/pressKit.ts. */}
+            {PRESS_KIT_READY && (
+              <Link href="/press" className="text-xs text-slate-400 transition hover:text-white">
+                Press
+              </Link>
+            )}
             <Link href="/accessibility" className="text-xs text-slate-400 transition hover:text-white">
               Accessibility
             </Link>
