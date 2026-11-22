@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { OFFICE_ADDRESS } from '@/lib/site'
+import { OFFICE_ADDRESS, SOCIAL_PROFILES } from '@/lib/site'
 import { PRESS_KIT_READY } from '@/lib/press/pressKit'
 
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
@@ -60,11 +60,11 @@ export default function Footer() {
                 same visual spacing, but each tap target grows from 18px to
                 34px (WCAG 2.2 — 2.5.8 Target Size). */}
             <div className="-ml-2 flex items-center gap-1">
-              <SocialLink href="https://www.facebook.com/doyouneedahome" label="Facebook"><FacebookIcon /></SocialLink>
-              <SocialLink href="https://www.instagram.com/doyouneedahome" label="Instagram"><InstagramIcon /></SocialLink>
-              <SocialLink href="https://x.com/doyouneedahome" label="X"><XIcon /></SocialLink>
-              <SocialLink href="https://www.youtube.com/@doyouneedahome" label="YouTube"><YouTubeIcon /></SocialLink>
-              <SocialLink href="https://www.tiktok.com/@doyouneedahome" label="TikTok"><TikTokIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.facebook} label="Facebook"><FacebookIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.instagram} label="Instagram"><InstagramIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.x} label="X"><XIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.youtube} label="YouTube"><YouTubeIcon /></SocialLink>
+              <SocialLink href={SOCIAL_PROFILES.tiktok} label="TikTok"><TikTokIcon /></SocialLink>
             </div>
           </div>
 

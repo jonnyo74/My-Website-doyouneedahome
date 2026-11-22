@@ -25,3 +25,19 @@ export const OFFICE_ADDRESS = {
     addressCountry: office.country,
   },
 } as const
+
+// Our own second site: West Palm Beach and Singer Island condos.
+export const SISTER_SITE_URL = 'https://www.condowpb.com'
+
+// The team's social profiles. The footer icons and the Organization JSON-LD
+// `sameAs` list both read from here, so a profile is added or renamed once.
+export const SOCIAL_PROFILES = {
+  facebook: 'https://www.facebook.com/doyouneedahome',
+  instagram: 'https://www.instagram.com/doyouneedahome',
+  x: 'https://x.com/doyouneedahome',
+  youtube: 'https://www.youtube.com/@doyouneedahome',
+  tiktok: 'https://www.tiktok.com/@doyouneedahome',
+} as const
+
+/** Every URL that is the same organization somewhere else on the web. */
+export const SAME_AS: string[] = [SISTER_SITE_URL, ...Object.values(SOCIAL_PROFILES)]
