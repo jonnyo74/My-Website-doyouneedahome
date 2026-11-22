@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { OFFICE_ADDRESS } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Accessibility Statement | DO Homes Group',
@@ -149,9 +150,9 @@ export default function AccessibilityPage() {
                 </a>
               </p>
               <p className="pt-2">
-                4658 Northlake Boulevard, Suite 103
+                {OFFICE_ADDRESS.streetLine}
                 <br />
-                Palm Beach Gardens, FL 33418
+                {OFFICE_ADDRESS.cityLine}
               </p>
             </address>
           </div>

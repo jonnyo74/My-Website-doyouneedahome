@@ -7,7 +7,7 @@ import CommunityCard from '@/components/CommunityCard'
 import ListingCard from '@/components/ListingCard'
 import RecentlySold from '@/components/RecentlySold'
 import LeadMagnetCTA from '@/components/leadMagnet/LeadMagnetCTA'
-import { SITE_URL } from '@/lib/site'
+import { OFFICE_ADDRESS, SITE_URL } from '@/lib/site'
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -46,14 +46,7 @@ const agencySchema = {
   telephone: '+1-561-783-7733',
   email: 'info@doyouneedahome.com',
   image: `${SITE_URL}/images/og-image.jpg`,
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '4658 Northlake Boulevard, Suite 103',
-    addressLocality: 'Palm Beach Gardens',
-    addressRegion: 'FL',
-    postalCode: '33418',
-    addressCountry: 'US',
-  },
+  address: OFFICE_ADDRESS.jsonLd,
   areaServed: 'Palm Beach County, Martin County and St. Lucie County, FL',
   parentOrganization: { '@type': 'Organization', name: 'Premier Brokers International' },
 }

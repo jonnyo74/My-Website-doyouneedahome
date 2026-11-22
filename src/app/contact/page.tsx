@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ContactForm from '@/components/ContactForm'
+import { OFFICE_ADDRESS } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Contact Us | DO Homes Group',
@@ -97,9 +98,9 @@ export default function ContactPage() {
                 <p className="font-semibold text-slate-900">DO Homes Group</p>
                 <p className="mt-1 text-sm text-slate-500">Premier Brokers International</p>
                 <div className="mt-5 space-y-1.5 text-sm text-slate-600">
-                  <p>4658 Northlake Boulevard</p>
-                  <p>Suite 103</p>
-                  <p>Palm Beach Gardens, FL 33418</p>
+                  <p>{OFFICE_ADDRESS.street}</p>
+                  <p>{OFFICE_ADDRESS.suite}</p>
+                  <p>{OFFICE_ADDRESS.cityLine}</p>
                 </div>
                 <a
                   href="tel:+15617837733"

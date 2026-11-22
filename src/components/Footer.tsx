@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { OFFICE_ADDRESS } from '@/lib/site'
 
 // No location filter — a bare state=FL param breaks Ylopo's search (returns
 // zero results); omitting locations entirely falls back to the account's
@@ -45,8 +46,8 @@ export default function Footer() {
               <p className="text-sm text-slate-400">Christine Dekant &amp; John Oliver</p>
             </div>
             <div className="space-y-2 text-sm">
-              <p>4658 Northlake Boulevard, Suite 103</p>
-              <p>Palm Beach Gardens, FL 33418</p>
+              <p>{OFFICE_ADDRESS.streetLine}</p>
+              <p>{OFFICE_ADDRESS.cityLine}</p>
               <a href="tel:+15617837733" className="block pt-1 transition hover:text-white">
                 (561) 783-7733
               </a>

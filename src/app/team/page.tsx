@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { OFFICE_ADDRESS } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Our Team | DO Homes Group',
@@ -241,8 +242,8 @@ export default function TeamPage() {
               </p>
               <div className="space-y-1 text-sm text-slate-600">
                 <p>Premier Brokers International</p>
-                <p>4658 Northlake Boulevard, Suite 103</p>
-                <p>Palm Beach Gardens, FL 33418</p>
+                <p>{OFFICE_ADDRESS.streetLine}</p>
+                <p>{OFFICE_ADDRESS.cityLine}</p>
                 <a
                   href="tel:+15617837733"
                   aria-label="Call Premier Brokers International at (561) 783-7733"

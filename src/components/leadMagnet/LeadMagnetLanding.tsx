@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { relatedMagnets, type LeadMagnet } from '@/lib/leadMagnets'
-import { SITE_URL } from '@/lib/site'
+import { OFFICE_ADDRESS, SITE_URL } from '@/lib/site'
 import LeadMagnetForm from './LeadMagnetForm'
 
 export interface LeadMagnetLandingProps {
@@ -55,14 +55,7 @@ export default function LeadMagnetLanding({
     url: SITE_URL,
     telephone: '+1-561-783-7733',
     email: 'info@doyouneedahome.com',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '4658 Northlake Boulevard, Suite 103',
-      addressLocality: 'Palm Beach Gardens',
-      addressRegion: 'FL',
-      postalCode: '33418',
-      addressCountry: 'US',
-    },
+    address: OFFICE_ADDRESS.jsonLd,
     areaServed: 'Palm Beach County, Martin County and St. Lucie County, FL',
     parentOrganization: { '@type': 'Organization', name: 'Premier Brokers International' },
     employee: [
