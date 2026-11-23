@@ -1,0 +1,206 @@
+{
+ "colony": [
+  {
+   "id": 271803587,
+   "mlsNumber": "B26094695",
+   "address": {
+    "fullStreetAddress": "122 Lighthouse Drive",
+    "city": "Jupiter Inlet Colony",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "JUPITER INLET BEACH COLONY"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 261390667,
+   "mlsNumber": "B26003439",
+   "address": {
+    "fullStreetAddress": "187 Shelter Lane",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "JUPITER INLET COLONY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "JUPITER INLET BEACH COLONY"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 258468432,
+   "mlsNumber": "R11044902",
+   "address": {
+    "fullStreetAddress": "170 Beacon Lane",
+    "city": "Jupiter Inlet Colony",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "JUPITER INLET COLONY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "JUPITER INLET BEACH COLONY"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  }
+ ],
+ "nearby33469": [
+  {
+   "id": 272534044,
+   "mlsNumber": "B26102882",
+   "address": {
+    "fullStreetAddress": "236 Fairway E",
+    "city": "Tequesta",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "TEQUESTA COUNTRY CLUB"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Tequesta Country Club"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272512513,
+   "mlsNumber": "B26102585",
+   "address": {
+    "fullStreetAddress": "9953 Se Mahogany Way",
+    "city": "Tequesta",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "HERITAGE OAKS"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "HERITAGE OAKS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272525506,
+   "mlsNumber": "B26102758",
+   "address": {
+    "fullStreetAddress": "200 Beach Road 101",
+    "city": "Tequesta",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OCEAN TOWERS CONDO APTS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272462906,
+   "mlsNumber": "B26102049",
+   "address": {
+    "fullStreetAddress": "1648 Jupiter Cove Drive 409",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "JUPITER COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Jupiter Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272476574,
+   "mlsNumber": "B26102208",
+   "address": {
+    "fullStreetAddress": "3770 County Line Road B5",
+    "city": "Tequesta",
+    "stateOrProvince": "FL",
+    "postalCode": "33469"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BELLA VILLAGGIO"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BELLA VILLAGGIO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  }
+ ]
+}

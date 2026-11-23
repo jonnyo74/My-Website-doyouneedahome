@@ -40,8 +40,16 @@ export interface AbacoaScope {
   slug: string
   /** Name used in visitor-facing copy: "No active homes for sale in {name} right now". */
   name: string
-  kind: 'hub' | 'village'
+  kind: 'hub' | 'village' | 'town'
   locations: ScopeLocation[]
+  /**
+   * Mailing cities a listing in this scope may carry, normalized (see
+   * normalizeName). Defaults to Jupiter. Jupiter Inlet Colony sets two: the MLS
+   * files the same town under "Jupiter" and "Jupiter Inlet Colony".
+   */
+  cities?: string[]
+  /** `area` label on the full-search URL. Defaults to Jupiter. */
+  area?: string
   status: ScopeStatus
   /** What was checked, and what is still open. Surfaced in the validation matrix. */
   evidence: string[]
@@ -270,7 +278,7 @@ function locationParams(locations: ScopeLocation[]): string {
 /** The full search for the same scope: same locations, no price floor. */
 export function scopeFullSearchUrl(scope: AbacoaScope): string {
   return (
-    'https://search.doyouneedahome.com/search?area=Jupiter&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1' +
+    `https://search.doyouneedahome.com/search?area=${encodeURIComponent(scope.area ?? 'Jupiter')}&hvl=3&s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1` +
     locationParams(scope.locations)
   )
 }
@@ -304,10 +312,10 @@ export interface ProviderListing {
 export const normalizeName = (v: string | undefined | null): string =>
   (v ?? '').toUpperCase().replace(/[^A-Z0-9]+/g, ' ').trim()
 
-/** True when the listing sits in one of the scope's named places, in Jupiter. */
+/** True when the listing sits in one of the scope's named places, in one of its cities. */
 export function inScope(listing: ProviderListing, scope: AbacoaScope): boolean {
   const city = normalizeName(listing.address?.city)
-  if (city && city !== 'JUPITER') return false
+  if (city && !(scope.cities ?? ['JUPITER']).includes(city)) return false
   const subs = (listing.listingAttribute?.subdivisionInfo ?? []).map(normalizeName)
   const nb = normalizeName(listing.addressStandard?.neighborhoodName)
   const comm = normalizeName(listing.addressStandard?.communityName)
@@ -315,7 +323,8 @@ export function inScope(listing: ProviderListing, scope: AbacoaScope): boolean {
     if (l.subdivision) return subs.includes(normalizeName(l.subdivision))
     if (l.community) return comm === normalizeName(l.community)
     if (l.neighborhood) return nb === normalizeName(l.neighborhood)
-    return false
+    // A bare { city } entry is a municipality: the mailing city must name it.
+    return city === normalizeName(l.city)
   })
 }
 

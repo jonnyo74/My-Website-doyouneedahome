@@ -56,6 +56,8 @@ export interface CommunityItem {
   slug: string
   name: string
   type: CommunityType
+  /** Shown on cards instead of `type`, e.g. for a separate town that is filed under a city for navigation. */
+  typeLabel?: string
   region: string
   description: string
   // Optional SEO overrides — used when the generic "{name} Real Estate" title/description
@@ -3288,48 +3290,31 @@ export const neighborhoods: CommunityItem[] = [
     ],
   },
   {
+    // Rendered by components/JupiterInletColonyLanding, not the generic
+    // template. Facts and sources live in lib/colonyGuide; the listing scope in
+    // lib/colonyScope. The fields below feed the directory card, the Jupiter
+    // page's neighborhood card and the metadata. It stays listed under Jupiter
+    // for navigation only: it is its own municipality, and every line here
+    // must say so.
     slug: 'jupiter-inlet-colony',
     name: 'Jupiter Inlet Colony',
     type: 'Neighborhood',
-    region: 'Jupiter',
-    searchCity: 'Jupiter',
-    description: 'One of the most exclusive barrier island addresses in Florida — a tiny incorporated town of roughly 400 homes with direct ocean and inlet access, no traffic, and extraordinary privacy.',
+    typeLabel: 'Separate town',
+    region: 'Jupiter Island, Palm Beach County',
+    dateModified: '2026-11-23',
+    metaTitle: 'Jupiter Inlet Colony Homes for Sale | DO Homes Group',
+    metaDescription: 'Explore Jupiter Inlet Colony homes for sale, recent sales, and the differences between interior, oceanfront, and inlet or Intracoastal properties.',
+    heroHeading: 'Jupiter Inlet Colony Homes for Sale',
+    description: 'Its own town of about 236 single-family homes at the southern tip of Jupiter Island, incorporated in 1959, with the Atlantic, Jupiter Inlet and the Intracoastal Waterway on three sides.',
     overview:
-      'Jupiter Inlet Colony is a small, incorporated barrier island town tucked between the Jupiter Inlet and the Atlantic Ocean. With roughly 400 homes and no commercial development, it\'s one of the most private and sought-after addresses in Palm Beach County. The town sits directly on the inlet — which means residents have both oceanfront and Intracoastal access within walking distance.\n\nThis is not a gated community — it\'s a self-governing municipality with its own police force and strict development controls that have kept the scale and character of the neighborhood intact for decades. Homes range from classic Florida beach cottages to fully rebuilt luxury estates, and the entire community sits on a peninsula where essentially every street ends at the water.',
-    lifestyle: 'Life in Jupiter Inlet Colony is defined by proximity to the water and a neighborhood pace that\'s genuinely rare on the barrier island. Residents fish off the inlet, launch kayaks from the backyard, and walk to the beach in under five minutes. The Jupiter Lighthouse is the town\'s backyard landmark. There\'s no shopping, no nightlife, no commercial noise — just one of the finest coastal residential settings in South Florida. Buyers here are typically trading density and amenities for privacy and direct water access.',
-    highlights: [
-      'Self-governing municipality — own police force and strict development controls that preserve the neighborhood character',
-      'Direct ocean and Jupiter Inlet access — some of the best fishing and boating in Palm Beach County',
-      'Only ~400 homes — one of the smallest and most exclusive incorporated towns in Florida',
-      'The Jupiter Lighthouse sits at the edge of the Colony — one of the most iconic views in South Florida',
-      'No commercial development — pure residential, no traffic, no noise',
-      'Minutes to Jupiter\'s restaurants, I-95, and DJT Airport',
-    ],
-    priceRanges: [
-      { type: 'Oceanfront Condos', range: '$1M – $4M+', minPrice: 1000000, propertyTypes: ['condo'], amenities: ['sa_has_waterfront_ocean'] },
-      { type: 'Waterfront Homes', range: '$2M – $6M', minPrice: 2000000, maxPrice: 6000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
-      { type: 'Oceanfront Estate Homes', range: '$5M – $15M+', minPrice: 5000000, propertyTypes: ['house'], amenities: ['sa_has_waterfront_ocean'] },
-    ],
-    savedSearches: [
-      { label: 'Oceanfront Condos', sublabel: 'Direct ocean views', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=condo&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
-      { label: 'Oceanfront Homes', sublabel: 'Single-family on the ocean', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront_ocean&s[minPrice]=400000' },
-      { label: 'Waterfront Homes', sublabel: 'Inlet & Intracoastal', url: 'https://search.doyouneedahome.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[propertyTypes][0]=house&s[amenities][0]=sa_has_waterfront&s[minPrice]=400000' },
-      { label: 'Price Reductions', sublabel: 'Recently reduced listings', url: 'https://search.doyouneedahome.com/search?s[orderBy]=priceReductionDate%2Cdesc&s[page]=1&s[locations][0][city]=Jupiter&s[locations][0][state]=FL&s[minPrice]=400000' },
-    ],
+      'Jupiter Inlet Colony is a separate municipality, not a Jupiter neighborhood. It was incorporated in 1959 and covers about 0.18 square miles at the southern tip of Jupiter Island, with about 236 single-family homes on eight streets. Interior, Atlantic oceanfront, and inlet or Intracoastal lots each raise different questions about beach access, flood exposure, permits and docks.',
     quickFacts: [
-      { label: 'Community type', value: 'Incorporated barrier island municipality — ~400 homes, no commercial development' },
-      { label: 'Best for', value: 'Direct ocean and inlet access, deep-water dockage, large private lots, gated entry' },
-      { label: 'Water access', value: 'Atlantic Ocean, Jupiter Inlet, and Intracoastal all within the town boundary' },
-      { label: 'Key landmark', value: 'Jupiter Lighthouse — historic 1860 structure at the inlet entrance' },
+      { label: 'Municipality', value: 'Town of Jupiter Inlet Colony, Palm Beach County. Incorporated 1959. Not part of the Town of Jupiter.' },
+      { label: 'Homes', value: 'About 236, all single-family, on eight streets (county parcel records, November 2026)' },
+      { label: 'Location', value: 'Southern tip of Jupiter Island: Atlantic to the east, Jupiter Inlet to the south, Intracoastal Waterway to the west' },
+      { label: 'Nearby landmark', value: 'Jupiter Inlet Lighthouse, across the Intracoastal Waterway in Jupiter' },
     ],
-    commuteTimes: [
-      { destination: 'Downtown Jupiter', time: '5 min' },
-      { destination: 'I-95', time: '10 min' },
-      { destination: 'Florida Turnpike', time: '15 min' },
-      { destination: 'DJT Airport', time: '30 min' },
-      { destination: 'Palm Beach Gardens', time: '20 min' },
-    ],
-    lat: 26.9489, lng: -80.0701,
+    lat: 26.9489, lng: -80.0751,
   },
   {
     slug: 'jupiter-country-club',

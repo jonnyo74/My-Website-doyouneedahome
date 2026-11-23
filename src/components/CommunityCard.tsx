@@ -27,7 +27,7 @@ export default function CommunityCard({ community }: { community: CommunityItem 
 
       {/* Content */}
       <div className="flex flex-1 flex-col p-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">{community.type}</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-gold-600">{community.typeLabel ?? community.type}</p>
         <h2 className="mt-2 text-xl font-semibold text-slate-900 transition group-hover:text-gold-600">
           {community.name}
         </h2>
