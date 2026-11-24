@@ -309,7 +309,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
     ${label(-80.0860, 26.8958, 'Frederick Small Road', 'text-anchor="middle"')}
   </g>
   <g font-size="21" font-weight="700" letter-spacing="0.5">
-    ${label(-80.0872, 26.9168, 'EAST SIDE', 'text-anchor="middle"')}
+    ${label(-80.0868, 26.9112, 'EAST SIDE', 'text-anchor="middle"')}
     ${label(-80.0988, 26.9092, 'GOLF VILLAGE', 'text-anchor="middle"')}
   </g>
   ${pin(landmarks.mainClubhouse, 'Main clubhouse', '', 12, 5)}
