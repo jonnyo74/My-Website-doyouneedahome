@@ -87,6 +87,58 @@ const JUMP: [string, string][] = [
   ['#faqs', 'FAQs'],
 ]
 
+// John Oliver's own photographs. Captions say only what the frame shows.
+const PHOTO_DIR = '/images/admirals-cove'
+const PHOTOS: Record<'arrival' | 'clubhouse', { src: string; alt: string; caption: string }[]> = {
+  arrival: [
+    {
+      src: `${PHOTO_DIR}/entrance-sign.jpg`,
+      alt: 'A low stone wall lettered “Admirals Cove” behind clipped hedges, with palms and oaks above it',
+      caption: 'The Admirals Cove entrance sign.',
+    },
+    {
+      src: `${PHOTO_DIR}/royal-palms.jpg`,
+      alt: 'A double row of tall royal palms against a blue sky with white clouds',
+      caption: 'Royal palms line the drive.',
+    },
+  ],
+  clubhouse: [
+    {
+      src: `${PHOTO_DIR}/clubhouse-lobby.jpg`,
+      alt: 'A clubhouse lobby with blue armchairs, a polished stone floor, a large arrangement of white orchids and glass doors to a covered entrance',
+      caption: 'The lobby of the main clubhouse.',
+    },
+    {
+      src: `${PHOTO_DIR}/clubhouse-chandelier.jpg`,
+      alt: 'A chandelier of hundreds of small gold pieces suspended on wires through a double-height lobby',
+      caption: 'The chandelier above the lobby.',
+    },
+    {
+      src: `${PHOTO_DIR}/clubhouse-bar.jpg`,
+      alt: 'A bar with walnut panelling, a backlit stone panel and glass shelves of bottles, with windows onto palms and water behind',
+      caption: 'One of the clubhouse bars.',
+    },
+  ],
+}
+
+function Photo({ src, alt, caption }: { src: string; alt: string; caption: string }) {
+  return (
+    <figure>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={src}
+        alt={alt}
+        width={1600}
+        height={1067}
+        loading="lazy"
+        decoding="async"
+        className="aspect-[3/2] w-full rounded-2xl object-cover"
+      />
+      <figcaption className="mt-2 text-xs leading-5 text-slate-500">{caption} Photo: John Oliver.</figcaption>
+    </figure>
+  )
+}
+
 const bullet = <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-report-gold" aria-hidden="true" />
 
 export default function AdmiralsCoveLanding() {
@@ -135,9 +187,22 @@ export default function AdmiralsCoveLanding() {
       <script type="application/ld+json" dangerouslySetInnerHTML={ld(pageSchema)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={ld(faqSchema)} />
 
-      {/* Hero. No photograph: we hold none taken inside the gates, and a stock
-          or borrowed image here would misrepresent a private community. */}
-      <section className="bg-navy-950">
+      {/* Hero. John Oliver's own photograph of the entrance, taken from the
+          public road. The overlay keeps the white text at AA contrast. */}
+      <section className="relative isolate overflow-hidden bg-navy-950">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/admirals-cove/entrance.jpg"
+          alt=""
+          width={1600}
+          height={1067}
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 -z-20 h-full w-full object-cover object-[center_45%]"
+        />
+        {/* Phones get an even tint (the text runs full width); wider screens fade to the photo on the right. */}
+        <div className="absolute inset-0 -z-10 bg-navy-950/85 sm:hidden" aria-hidden="true" />
+        <div className="absolute inset-0 -z-10 hidden bg-gradient-to-r from-navy-950 via-navy-950/85 to-navy-950/30 sm:block" aria-hidden="true" />
         <div className={`${wrap} w-full px-6 pb-12 pt-12 sm:px-8 sm:pt-16`}>
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex flex-wrap items-center gap-2 text-xs text-white/85">
@@ -417,6 +482,11 @@ export default function AdmiralsCoveLanding() {
             line from that entrance, {AIRPORTS.map((a) => `${a.name} is ${a.miles}`).join('; ')}. Those are map
             distances, not drive times.
           </p>
+          <div className="mt-8 grid gap-5 sm:grid-cols-2">
+            {PHOTOS.arrival.map((p) => (
+              <Photo key={p.src} {...p} />
+            ))}
+          </div>
         </div>
       </section>
 
@@ -686,6 +756,12 @@ export default function AdmiralsCoveLanding() {
                 <h3 className="font-semibold text-slate-900">{a.title}</h3>
                 <p className="mt-2 text-sm leading-7 text-slate-600">{a.body}</p>
               </div>
+            ))}
+          </div>
+          <h3 className={`mt-12 ${h3}`}>Inside the main clubhouse</h3>
+          <div className="mt-5 grid gap-5 sm:grid-cols-3">
+            {PHOTOS.clubhouse.map((p) => (
+              <Photo key={p.src} {...p} />
             ))}
           </div>
           <p className="mt-6 text-sm">
