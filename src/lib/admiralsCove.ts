@@ -604,6 +604,8 @@ export function salesSummary(sales: Sale[] = SALES, today: Date = new Date()) {
 }
 
 export const SALES_PERIOD = {
+  /** "Nov 2025 – Nov 2026": short enough to sit on a card beside a count. */
+  short: `${monthYear(raw.sales.from)} – ${monthYear(raw.sales.to)}`,
   from: longDate(raw.sales.from),
   to: longDate(raw.sales.to),
   latestQualified: raw.sales.latestQualified ? longDate(raw.sales.latestQualified) : null,

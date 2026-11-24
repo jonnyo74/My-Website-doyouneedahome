@@ -92,7 +92,7 @@ const bullet = <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg
 export default function AdmiralsCoveLanding() {
   const sales = salesSummary()
   const allUrl = admiralsSearchUrl()
-  const bandCount = (min = 0, max = Infinity) => SALES.filter((s) => s.price >= min && s.price <= max).length
+  const bandCount = (min = 0, max = Infinity) => SALES.filter((s) => s.price >= min && s.price < max).length // half-open, so a $3.0M sale counts once
 
   const ld = (o: unknown) => ({ __html: JSON.stringify(o).replace(/</g, '\\u003c') })
   const breadcrumbSchema = {
@@ -289,7 +289,8 @@ export default function AdmiralsCoveLanding() {
                   >
                     <span className="font-serif text-lg font-semibold text-slate-900">{b.label}</span>
                     <span className="mt-2 text-xs leading-5 text-slate-600">
-                      {n === 0 ? 'No recorded sale in the period' : `${n} recorded sale${n === 1 ? '' : 's'} in the period`}
+                      {n === 0 ? 'No recorded sales' : `${n} recorded sale${n === 1 ? '' : 's'}`}
+                      <span className="block">{SALES_PERIOD.short}</span>
                     </span>
                     <span className="mt-3 text-sm font-semibold text-gold-600">Search →</span>
                   </a>
