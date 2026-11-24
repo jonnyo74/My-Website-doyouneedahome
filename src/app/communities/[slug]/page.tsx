@@ -109,13 +109,18 @@ export async function generateMetadata({ params }: Props) {
     const title = community.metaTitle!
     const description = community.metaDescription!
     const url = `/communities/${slug}`
+    // John's own frame from the lighthouse gallery: the Colony is the north
+    // bank on the left. The sitewide og-image.jpg is a West Palm Beach condo
+    // tower, which is the wrong picture for this town.
+    const img = '/images/jupiter/jupiter-inlet-aerial-hero.webp'
+    const alt = 'Jupiter Inlet Colony homes and docks on the north bank of Jupiter Inlet, seen from the lighthouse'
     return {
       title,
       description,
       alternates: { canonical: url },
       other: { ...(community.dateModified && { 'last-modified': community.dateModified }) },
-      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group' }] },
-      twitter: { card: 'summary_large_image' as const, title, description, images: ['/images/og-image.jpg'] },
+      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [{ url: img, width: 2048, height: 1152, alt }] },
+      twitter: { card: 'summary_large_image' as const, title, description, images: [img] },
     }
   }
   const ogImage = community.photos?.[0]
