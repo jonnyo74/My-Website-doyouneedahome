@@ -16,6 +16,8 @@ export default function ScrollTable({
   children: React.ReactNode
 }) {
   return (
+    // A scrollable region must be keyboard-focusable (WCAG 2.1.1).
+    // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
     <div role="region" aria-label={label} tabIndex={0} className={`${tableWrap} focus-visible:outline focus-visible:outline-2 focus-visible:outline-report-gold-dark ${className}`}>
       {children}
     </div>
