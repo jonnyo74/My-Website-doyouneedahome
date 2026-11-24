@@ -143,6 +143,9 @@ const bullet = <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg
 
 export default function AdmiralsCoveLanding() {
   const sales = salesSummary()
+  const medianOf = (label: string) => sales?.segments.find((s) => s.label === label)?.median
+  const waterMedian = medianOf('Houses on the canals or Intracoastal')
+  const dryMedian = medianOf('Houses and townhomes off the water')
   const allUrl = admiralsSearchUrl()
   const bandCount = (min = 0, max = Infinity) => SALES.filter((s) => s.price >= min && s.price < max).length // half-open, so a $3.0M sale counts once
 
@@ -223,10 +226,10 @@ export default function AdmiralsCoveLanding() {
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-white/90">
             Admirals Cove is a gated club community of about 890 homes in
-            the Town of Jupiter, in two parts. The East Side runs to the Intracoastal Waterway, with canals
+            the Town of Jupiter, split in two. The East Side runs to the Intracoastal Waterway, with canals
             behind most of its houses, the main clubhouse and a private marina. Golf Village, across Alternate
-            A1A, is houses and townhomes around 27 holes. The club has 45 holes in all and has been owned by
-            its members since 1999.
+            A1A, is houses and townhomes around 27 holes. Between them the club has 45 holes, and its members
+            have owned it since 1999.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
             <a href="#listings" className={btnPrimary}>See Admirals Cove homes for sale</a>
@@ -252,14 +255,14 @@ export default function AdmiralsCoveLanding() {
           <div className="mt-4 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
             <div className="space-y-5 leading-8 text-slate-600">
               <p>
-                Few communities in Palm Beach County put a boat behind the house, 45 holes of golf and a full
-                club inside one set of gates. In Admirals Cove,{' '}
+                Admirals Cove puts three things in one address that usually come separately: a boat behind the
+                house, 45 holes of golf and a full-service club. On the East Side,{' '}
                 <strong className="text-slate-900">
-                  {COUNTS.waterLots.eastHouses} of the {COUNTS.waterLots.eastHousesTotal} house lots on the East
-                  Side back onto the canal system or the Intracoastal
+                  {COUNTS.waterLots.eastHouses} of the {COUNTS.waterLots.eastHousesTotal} house lots back onto
+                  the canal system or the Intracoastal
                 </strong>
-                , by our measurement from county maps. The run to the ocean is north by the Intracoastal to
-                Jupiter Inlet, past two drawbridges and no fixed bridge.
+                . That count is ours, measured from county parcel and water maps. The run to the ocean is
+                north by the Intracoastal to Jupiter Inlet, past two drawbridges and no fixed bridge.
               </p>
               <p>
                 It is also two communities with one club. The East Side has the water, the marina, the main
@@ -270,18 +273,24 @@ export default function AdmiralsCoveLanding() {
               </p>
               <p>
                 The land was a 727-acre tract the MacArthur Foundation offered in 1985. Ben Frankel began
-                developing it in 1986, the first residents arrived in the winter of 1987–88, and the club’s
-                history page says full member ownership began in November 1999. The name has no apostrophe.
+                developing it in 1986, the first residents arrived in the winter of 1987–88, and full member
+                equity ownership of the club followed in November 1999. The name has no apostrophe.
               </p>
             </div>
             <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7">
-              <h3 className="font-serif text-xl font-semibold text-slate-900">How to use this page</h3>
-              <ul className="mt-4 space-y-3 text-sm leading-7 text-slate-700">
-                <li className="flex gap-3">{bullet}<span>Figures marked “county records” come from Palm Beach County parcel data pulled on {REVIEWED.records}.</span></li>
-                <li className="flex gap-3">{bullet}<span>Club and association facts were read from their own sites on {REVIEWED.facts}. Each is linked.</span></li>
-                <li className="flex gap-3">{bullet}<span>Where official sources disagree, we show both figures instead of choosing one.</span></li>
-                <li className="flex gap-3">{bullet}<span>We do not print membership fees or dues. They change every year. <a href={`#${INQUIRY_ID}`} data-inquiry="membership-fees" className={textLink}>Ask for the current schedule.</a></span></li>
-                <li className="flex gap-3">{bullet}<span>What we could not confirm is listed at the <a href="#sources" className={textLink}>end of the page</a>.</span></li>
+              <h3 className="font-serif text-xl font-semibold text-slate-900">Is Admirals Cove the right fit?</h3>
+              <p className="mt-4 text-sm font-semibold text-slate-900">It makes sense if you want</p>
+              <ul className="mt-2 space-y-2.5 text-sm leading-7 text-slate-700">
+                <li className="flex gap-3">{bullet}<span>A boat at your own dock, with an Intracoastal route to Jupiter Inlet (East Side).</span></li>
+                <li className="flex gap-3">{bullet}<span>Golf as the main reason to join, with 45 holes to rotate through.</span></li>
+                <li className="flex gap-3">{bullet}<span>One club that also runs a marina, a private hotel, wellness, racquets and four dining venues.</span></li>
+              </ul>
+              <p className="mt-5 text-sm font-semibold text-slate-900">Weigh it against</p>
+              <ul className="mt-2 space-y-2.5 text-sm leading-7 text-slate-700">
+                <li className="flex gap-3">{bullet}<span>Club charges on top of the price and the association assessments, billed separately.</span></li>
+                <li className="flex gap-3">{bullet}<span>A membership rule the club does not state publicly. <a href={`#${INQUIRY_ID}`} data-inquiry="membership-fees" className={textLink}>Ask for the current schedule and terms.</a></span></li>
+                <li className="flex gap-3">{bullet}<span>Two drawbridges and a demanding inlet between the canals and the ocean.</span></li>
+                <li className="flex gap-3">{bullet}<span>Homes that began going up in the late 1980s, so roofs, windows and seawalls vary in age.</span></li>
               </ul>
             </div>
           </div>
@@ -305,8 +314,8 @@ export default function AdmiralsCoveLanding() {
           <p className={eyebrow}>Live MLS feed · Admirals Cove only</p>
           <h2 id="ac-listings" className={h2}>Homes for sale in Admirals Cove</h2>
           <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600">
-            Active listings inside the gates only, East Side and Golf Village, at any price. Some homes are
-            entered in more than one MLS and can appear twice; that is the feed, not two homes.
+            Active listings in both parts of Admirals Cove, at any price. A home entered in more than one MLS
+            can appear twice; that is the feed, not two homes.
           </p>
           <a href={allUrl} {...ext} className={`mt-3 inline-block text-sm ${textLink}`}>
             Open all Admirals Cove homes in the full search →
@@ -341,8 +350,8 @@ export default function AdmiralsCoveLanding() {
 
           <h3 className={`mt-12 ${h3}`}>Search by price</h3>
           <p className="mt-2 max-w-3xl text-sm leading-7 text-slate-600">
-            Each band opens the full search for Admirals Cove only. The sales counts are county-recorded sales
-            from {SALES_PERIOD.from} to {SALES_PERIOD.to}, to show where homes have actually traded.
+            Each band opens a search limited to Admirals Cove. The counts are recorded sales from{' '}
+            {SALES_PERIOD.from} to {SALES_PERIOD.to}, so you can see where homes have actually traded.
           </p>
           <ul className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {PRICE_BANDS.map((b) => {
@@ -370,10 +379,10 @@ export default function AdmiralsCoveLanding() {
             <div className={card}>
               <p className="font-semibold text-slate-900">Waterfront and private-dock homes</p>
               <p className="mt-2 text-sm leading-7 text-slate-600">
-                We do not link a “waterfront” search. The feed’s waterfront flag includes Golf Village lake
-                homes, which have no boat access, and its Intracoastal flag missed most canal homes when we
-                tested it. Tell us the boat and we will check each listing against the lot, the dock and the
-                association’s length rule.
+                There is no “waterfront” search link here, on purpose. The MLS waterfront flag lumps in Golf
+                Village lake homes, which have no boat access, and its Intracoastal flag missed most canal
+                homes when we tested it. Tell us about your boat and we’ll check each listing against the lot,
+                the dock and the association’s length rule.
               </p>
               <InquiryLink type="boat-fit" className={`mt-4 inline-block text-sm ${textLink}`}>
                 Find a waterfront home that fits your boat →
@@ -382,8 +391,8 @@ export default function AdmiralsCoveLanding() {
             <div className={card}>
               <p className="font-semibold text-slate-900">Golf-front homes</p>
               <p className="mt-2 text-sm leading-7 text-slate-600">
-                The feed has no reliable golf-frontage filter either: the one we tested returned every listing.
-                We will send the homes that actually back onto the East Course or a Golf Village nine.
+                The MLS has no reliable golf-frontage filter either; the one we tested returned every listing.
+                We’ll send you the homes that actually back onto the East Course or a Golf Village nine.
               </p>
               <InquiryLink type="listing-alerts" className={`mt-4 inline-block text-sm ${textLink}`}>
                 Ask for golf-front homes →
@@ -391,8 +400,8 @@ export default function AdmiralsCoveLanding() {
             </div>
           </div>
           <p className="mt-6 text-xs leading-6 text-slate-500">
-            Listings come from the MLS feed on our search site and show active listings only. Open a listing
-            for its full details and the listing brokerage. Search links were tested on {REVIEWED.facts}.
+            Listings come from the MLS feed on our search site and show active listings only. Open one for
+            its full details and the listing brokerage. Search links last tested {REVIEWED.facts}.
           </p>
         </div>
       </section>
@@ -405,8 +414,8 @@ export default function AdmiralsCoveLanding() {
           <p className={lead}>
             Alternate A1A and the railway beside it split Admirals Cove in two. The East Side holds{' '}
             {COUNTS.east} residences and everything on the water. Golf Village holds {COUNTS.golfVillage}. They
-            share one club and little else: different associations, different home types and, on the evidence
-            of the past year’s sales, different prices.
+            share a club and little else: different associations, different home types and, judging by the
+            past year’s sales, different price ranges.
           </p>
 
           <figure className="mt-8">
@@ -433,9 +442,9 @@ export default function AdmiralsCoveLanding() {
             <p className="mt-2 text-xs text-slate-500 md:hidden">Swipe the map sideways to see the Intracoastal side.</p>
             <figcaption className="mt-3 text-xs leading-6 text-slate-500">
               Drawn from Palm Beach County parcel, water and road data retrieved {REVIEWED.records}. Home areas
-              are county parcel shapes grouped by recorded plat, so the edges are approximate, not a survey. It
-              does not show gates, docks or lot lines precisely, and it is not the club’s or the association’s
-              map. The clubhouse and marina markers are the centre of each club-owned parcel.
+              are county parcel shapes grouped by recorded plat, so the edges are approximate. The map does not
+              show gates, docks or lot lines, and it is not the club’s or the association’s map. The clubhouse
+              and marina markers sit at the center of each club-owned parcel.
             </figcaption>
             <p className="sr-only">{MAP_DESCRIPTION}</p>
           </figure>
@@ -468,9 +477,9 @@ export default function AdmiralsCoveLanding() {
 
           <h3 className={`mt-14 ${h3}`}>Recognized enclaves and associations</h3>
           <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600">
-            These are the named areas that exist in county plats or state corporate records. Other names appear
-            in listings and on brokerage sites; we list only the ones we could tie to a recorded plat or a
-            registered association. Most East Side houses belong to the master association alone.
+            These are the areas with their own county plat or registered association. Listings and brokerage
+            sites use other names for sub-areas, and we have left out any we could not tie to a recorded plat
+            or an association. Most East Side houses belong to the master association alone.
           </p>
           <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {ENCLAVES.map((e) => (
@@ -501,9 +510,8 @@ export default function AdmiralsCoveLanding() {
           <h2 id="ac-membership" className={h2}>How Admirals Cove membership works</h2>
           <p className={lead}>
             The Club at Admirals Cove is a member-owned equity club, separate from the property owners
-            associations. It is a major part of the cost of buying here, and the part with the least public
-            information. This is what the club’s own documents establish, and what you have to
-            ask.
+            associations. It is a major part of what owning here costs, and the part with the least public
+            information. Below is what the club’s own materials establish, and what you will need to ask.
           </p>
           <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {MEMBERSHIP_STRUCTURE.map((m) => (
@@ -520,16 +528,20 @@ export default function AdmiralsCoveLanding() {
               <div className="mt-4 space-y-4 leading-8 text-slate-600">
                 <p>
                   Brokerages and MLS listing remarks describe club membership as required with a purchase in
-                  Admirals Cove. The club’s public pages do not state the rule, the minimum category, or
-                  whether any property is treated differently, and we could not confirm those points from a
-                  primary source.
+                  Admirals Cove. The club’s public pages don’t state the rule, the minimum category or whether
+                  any property is treated differently, so we don’t present it as settled either.
                 </p>
                 <p>
-                  So treat it as a question about the specific property, not the community. Membership
-                  obligations can be written into recorded documents for one section and not another, and club
-                  policies change. Get the club’s current written confirmation of what applies to the home,
-                  and its fee schedule, <strong className="text-slate-900">before you sign a purchase
-                  agreement</strong>. Membership itself is the club’s decision. No agent can promise it.
+                  Treat it as a question about the specific property, not the community. Membership
+                  obligations can be written into the recorded documents for one section and not another, and
+                  club policies change. Get the club’s written confirmation of what applies to the home, along
+                  with its current fee schedule, <strong className="text-slate-900">before you sign a purchase
+                  agreement</strong>. Membership is the club’s decision, and no agent can promise it.
+                </p>
+                <p>
+                  One practical point when you compare homes: club charges follow the membership category, not
+                  what the home cost. Put the club, association and insurance costs beside the price before
+                  you decide which home is the better value.
                 </p>
               </div>
             </div>
@@ -554,8 +566,8 @@ export default function AdmiralsCoveLanding() {
           <h2 id="ac-costs" className={h2}>The total cost of owning in Admirals Cove</h2>
           <p className={lead}>
             Two homes at the same price can cost very different amounts to own. A canal-front house carries a
-            seawall, a dock and more insurance. A condominium adds a third association. A golf membership and
-            a social membership are priced far apart. Work through every line for the specific home.
+            seawall, a dock and more insurance. A condominium adds a third association. Membership categories
+            are priced differently. Work through every line for the specific home.
           </p>
           <div className="mt-8 grid gap-5 md:grid-cols-2">
             {COSTS.map((g) => (
@@ -585,9 +597,8 @@ export default function AdmiralsCoveLanding() {
                 </p>
                 <p>
                   A sale ends that. The county reassesses the property at market value as of January 1 after
-                  the purchase, and your first full tax bill follows from the new figure. In a community where
-                  houses change hands for several times what they sold for a decade ago, the difference can be
-                  large.
+                  the purchase, and your first full tax bill follows from the new figure. The longer the seller
+                  has owned, the bigger the gap tends to be.
                 </p>
                 <p>
                   If the home will be your permanent residence, you can apply for the Homestead exemption, due
@@ -634,10 +645,10 @@ export default function AdmiralsCoveLanding() {
                   bridge on the way.
                 </p>
                 <p>
-                  The club describes the marina as “just two miles from the Jupiter Inlet”. By our own
-                  measurement the mouth of the inlet is about two and a half miles from the marina in a
-                  straight line, and the channel is longer than that. Treat any distance as approximate and
-                  time the run yourself.
+                  The club describes the marina as “just two miles from the Jupiter Inlet”. Measured in a
+                  straight line on the map, the mouth of the inlet is about two and a half miles from the
+                  marina, and the channel is longer than that. Treat any distance as approximate and time the
+                  run yourself.
                 </p>
                 <p>
                   Jupiter Inlet deserves respect. NOAA’s Coast Pilot calls it “dangerous and particularly
@@ -697,8 +708,8 @@ export default function AdmiralsCoveLanding() {
               <p className="mt-4 text-sm leading-7 text-slate-600">
                 The association’s community map, dated July 2024, marks canal depths from 4 to 8 feet, with 8
                 feet only at the marina basin. The owner maintains the dock under a Dock License Agreement,
-                and boats carry an association transponder. We could not confirm who dredges the canals or who
-                is responsible for each seawall: ask the association, and have the wall inspected.{' '}
+                and boats carry an association transponder. Who dredges the canals, and who is responsible for
+                each seawall, isn’t published. Ask the association, and have the wall inspected.{' '}
                 <a href={URLS.mpoaDocks} {...ext} className={textLink}>Master POA dock rules ↗</a>
               </p>
             </div>
@@ -710,15 +721,32 @@ export default function AdmiralsCoveLanding() {
                 opened in 1988 with 57 slips for yachts up to 120 feet.
               </p>
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                Published figures conflict beyond that. The club gives no current slip count. Brokerage and
-                directory pages say anything from 58 to 76 slips and a maximum of 130 feet, and they describe
-                fuel, pump-out and shore power that the club’s own pages do not detail. We have not been able
-                to reconcile them, so we state none as fact. Vessel fit, power, fuel, availability and who may
-                rent a slip must be confirmed with the club’s marina office.
+                Beyond that, the published numbers don’t agree. The club gives no current slip count.
+                Brokerage and directory pages say anything from 58 to 76 slips and a maximum of 130 feet, and
+                mention fuel, pump-out and shore power that the club’s own pages don’t detail. Because they
+                can’t be reconciled, we don’t print any of them as fact. Vessel fit, power, fuel, availability
+                and who may rent a slip are questions for the marina office.
               </p>
               <InquiryLink type="boat-fit" className={`mt-4 inline-block text-sm ${textLink}`}>
                 Ask us about marina dockage →
               </InquiryLink>
+            </div>
+          </div>
+
+          <div className="mt-12 rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
+            <h3 className="font-serif text-xl font-semibold text-slate-900">Comparing two waterfront homes</h3>
+            <div className="mt-3 max-w-3xl space-y-3 text-sm leading-7 text-slate-700">
+              <p>
+                Look past the house. Dock configuration, canal depth, room to turn, seawall condition and the
+                run to the Intracoastal can matter more to a boat owner than square footage. The association
+                works from the width of the lot at the shoreline, so two houses on the same street can be
+                limited to different boats.
+              </p>
+              <p>
+                Then ask what happens if the boat doesn’t fit. The club marina is the fallback for a larger
+                vessel, but the club doesn’t publish whether a slip will be available to you, so settle that
+                before the boat decides the purchase.
+              </p>
             </div>
           </div>
 
@@ -751,9 +779,9 @@ export default function AdmiralsCoveLanding() {
           <p className={eyebrow}>The club</p>
           <h2 id="ac-golf" className={h2}>Golf and club amenities</h2>
           <p className={lead}>
-            Forty-five holes for a community of this size is a lot of golf, and the practical difference from
-            a one-course club is tee times and variety. Add a marina, a hotel for your guests and a racquets
-            program, and the club is doing more jobs than most. Which of these your membership category
+            Forty-five holes for a community this size is a lot of golf, and next to a one-course club the
+            difference you feel is in tee times and variety. Add a marina, a hotel for guests and a racquets
+            program, and the club covers a good deal more than golf. Which of these your membership category
             includes, and how often, is for the club to confirm.
           </p>
           <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -786,13 +814,21 @@ export default function AdmiralsCoveLanding() {
           {sales ? (
             <>
               <p className={lead}>
-                County records show <strong className="text-slate-900">{sales.all.count} qualified sales</strong>{' '}
-                inside Admirals Cove between {SALES_PERIOD.from} and {SALES_PERIOD.to}, from{' '}
+                The county recorded <strong className="text-slate-900">{sales.all.count} qualified sales</strong>{' '}
+                in Admirals Cove between {SALES_PERIOD.from} and {SALES_PERIOD.to}, from{' '}
                 <strong className="text-slate-900">{usd(sales.all.low!)}</strong> to{' '}
                 <strong className="text-slate-900">{usd(sales.all.high!)}</strong>, with a median of{' '}
                 <strong className="text-slate-900">{usd(sales.all.median!)}</strong>. The overall median is the
-                least useful number here: it blends condominiums with canal-front estates. Read the segments.
+                least useful number here because it blends condominiums with canal-front estates. Read the
+                segments instead.
               </p>
+              {waterMedian != null && dryMedian != null && (
+                <p className="mt-4 max-w-3xl leading-8 text-slate-600">
+                  The clearest pattern is the water. Houses on the canals or the Intracoastal sold for a median
+                  of {usd(waterMedian)}, against {usd(dryMedian)} for houses and townhomes off the water. When
+                  you compare prices, compare like with like.
+                </p>
+              )}
               <div className="mt-8">
                 <RecordedSales
                   community={NAME}
@@ -809,8 +845,8 @@ export default function AdmiralsCoveLanding() {
                   <h3 className="font-semibold text-slate-900">How to read it</h3>
                   <p className="mt-2">
                     These are small samples from a single year. They show where homes traded, not a trend, and
-                    one sale can move any of these medians. A recorded price also says nothing about condition,
-                    whether a house was bought to be rebuilt, or what the buyer paid the club.
+                    one sale can move a median. A recorded price also doesn’t tell you the home’s condition,
+                    whether it was bought to be rebuilt, or what the buyer paid the club.
                   </p>
                   <InquiryLink type="private-showing" className={`mt-5 ${btnPrimary}`} />
                 </div>
@@ -852,7 +888,7 @@ export default function AdmiralsCoveLanding() {
           <p className={eyebrow}>Before you buy</p>
           <h2 id="ac-dd" className={h2}>What to verify for any Admirals Cove address</h2>
           <p className={lead}>
-            Each of these has to be checked for the individual property. Nothing below is legal, engineering,
+            Every item below has to be checked for the individual address. None of it is legal, engineering,
             tax or insurance advice; use it to brief the attorney, inspector, marine contractor and insurance
             agent you hire.
           </p>
@@ -872,8 +908,8 @@ export default function AdmiralsCoveLanding() {
 
           <h3 className={`mt-14 ${h3}`}>Projects, by status</h3>
           <p className="mt-2 max-w-3xl text-sm leading-7 text-slate-600">
-            What we found on the club’s, the Town of Jupiter’s and Florida DOT’s pages on {REVIEWED.facts}. We
-            found no announced clubhouse rebuild or course renovation; ask the club what its board has approved.
+            From the club’s, the Town of Jupiter’s and Florida DOT’s pages as of {REVIEWED.facts}. We found no
+            announced clubhouse rebuild or course renovation; ask the club what its board has approved.
           </p>
           <ScrollTable label="Projects by status" className="mt-5">
             <table className="w-full min-w-[36rem]">
@@ -909,8 +945,8 @@ export default function AdmiralsCoveLanding() {
           <p className={eyebrow}>Compare</p>
           <h2 id="ac-compare" className={h2}>If Admirals Cove is on your list, look at these too</h2>
           <p className={lead}>
-            What differs between them is what the club does and what it obliges you to. We compare structure
-            here, not fees, and make no claim about which is more exclusive.
+            The real differences are what each club offers and what it requires of you. This table compares
+            structure, not fees, and does not rank the communities.
           </p>
           <ScrollTable label="Admirals Cove compared with nearby communities" className="mt-8">
             <table className="w-full min-w-[52rem]">
@@ -1018,11 +1054,14 @@ export default function AdmiralsCoveLanding() {
       <section id="sources" className={`scroll-mt-24 border-t border-slate-200 ${section}`} aria-labelledby="ac-sources">
         <div className={wrap}>
           <p className={eyebrow}>Research and sources</p>
-          <h2 id="ac-sources" className={h2}>Where this page’s facts come from</h2>
+          <h2 id="ac-sources" className={h2}>Community Information &amp; Sources</h2>
           <p className={lead}>
-            Every fact above is taken from the club, the associations, a government body or a public record,
-            and checked on the date shown. The membership fee structure is described from the club’s own fee
-            schedule for the club year that began November 1, 2026, which the club does not post publicly.
+            Facts about the club and the associations come from their own sites, read on {REVIEWED.facts}.
+            County figures come from Palm Beach County parcel data pulled on {REVIEWED.records}. Where
+            official sources disagree, both figures are shown. The membership structure is described from
+            the club’s fee schedule for the club year that began November 1, 2026, which the club does not
+            post publicly. We don’t print fees or dues because they change each year;{' '}
+            <a href={`#${INQUIRY_ID}`} data-inquiry="membership-fees" className={textLink}>ask for the current schedule</a>.
           </p>
           <div className="mt-8">
             <SourceRegister groups={SOURCES} notVerified={NOT_VERIFIED} reviewed={REVIEWED.facts} recordsDate={REVIEWED.records} />

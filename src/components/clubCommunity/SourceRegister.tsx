@@ -49,7 +49,7 @@ export default function SourceRegister({
           </p>
         </div>
         <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-6">
-          <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-700">What we could not verify</h3>
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-700">Still unconfirmed</h3>
           <ul className="mt-3 space-y-3 text-sm leading-6 text-slate-700">
             {notVerified.map((n) => (
               <li key={n} className="flex items-start gap-3">

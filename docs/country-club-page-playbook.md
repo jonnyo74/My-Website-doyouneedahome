@@ -4,6 +4,10 @@ Admirals Cove (`/communities/admirals-cove`, rebuilt 2026-11-24) is the template
 every club community on the site. This file says how it is put together, how to
 build the next one, and how to keep them current.
 
+Copy for these pages follows `EDITORIAL_STYLE_GUIDE.md` (voice, banned phrases,
+sources, commentary, fair housing, SEO checks). This file covers structure and
+fee policy.
+
 ## The fee policy (applies to every club page)
 
 1. **No dollar figure for initiation, dues, capital contributions, minimums or

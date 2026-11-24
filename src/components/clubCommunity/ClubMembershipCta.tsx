@@ -24,10 +24,10 @@ export default function ClubMembershipCta({ community, slug }: { community: stri
         {`${community} Membership Fees & Annual Dues`}
       </h3>
       <p className="mt-4 max-w-3xl leading-8 text-white/90">
-        Purchasing a home in {community} may involve club membership obligations in addition to the purchase
-        price and association expenses. Membership initiation fees, annual dues, capital contributions and
-        membership availability are subject to change. DO Homes Group can assist you in obtaining the latest
-        membership fee schedule and understanding the applicable ownership costs before purchasing.
+        Membership and ownership costs vary depending on the property, the membership category and the
+        club’s current requirements. Initiation fees, annual dues, capital contributions and availability
+        all change. Our team can help you obtain current information and understand the total cost of
+        ownership before you make a decision.
       </p>
 
       {fees.length > 0 && (
@@ -58,7 +58,9 @@ export default function ClubMembershipCta({ community, slug }: { community: stri
       )}
 
       <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
-        <InquiryLink type="membership-fees" className={btnPrimary} />
+        <InquiryLink type="membership-fees" className={btnPrimary}>
+          {`Request Current ${community} Membership Information`}
+        </InquiryLink>
         <InquiryLink type="ownership-costs" className={btnGhostDark}>
           Understand the Total Cost of Ownership
         </InquiryLink>

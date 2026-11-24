@@ -119,12 +119,12 @@ export const SOURCES: { group: string; items: { label: string; url: string; used
 
 /** Stated plainly on the page: what we looked for and could not confirm. */
 export const NOT_VERIFIED: string[] = [
-  'Whether club membership is required with every property. Brokerages and listing remarks say it is; the club’s public pages do not state the rule or any exceptions.',
+  'Whether club membership is required with every property. Brokerages and listing remarks say it is; the club’s public pages don’t state the rule or any exceptions.',
   'The marina’s current number of slips. The club publishes no count. Its history page says the original marina had 57. Brokerage and directory figures range from 58 to 76.',
   'The number of private docks. “More than 500” appears only on brokerage pages. County maps show the lots that adjoin the canals, not the docks.',
   'Golf wait lists, rules for moving between membership categories, and what happens to a membership on resale.',
   'Who is responsible for dredging the canals, and for each seawall.',
-  'The exact distance by water to Jupiter Inlet. The club says two miles; our own straight-line measurement is longer.',
+  'The exact distance by water to Jupiter Inlet. The club says two miles; a straight line on the map is longer.',
 ]
 
 // ── County record figures ────────────────────────────────────────────────
@@ -177,14 +177,14 @@ export const QUICK_FACTS: Fact[] = [
   { label: 'Original developer', value: 'Ben Frankel, in partnership with Mutual Benefit Life Insurance', source: 'Club history', url: URLS.clubAbout },
   { label: 'Development began', value: '1986', source: 'Club history', url: URLS.clubAbout },
   { label: 'First residents', value: 'The winter season of 1987–88', source: 'Club history', url: URLS.clubAbout },
-  { label: 'Size today', value: `“Nearly 1,000 acres”, per the master association. Parcels platted as Admirals Cove total about ${COUNTS.acres} acres in county records, which leaves out roads and open water.`, source: 'Master POA; county parcel records', url: URLS.mpoaAbout },
-  { label: 'Residences', value: `893 homes, per the master association. County records show ${COUNTS.residences} improved residential parcels and ${COUNTS.vacant} vacant lots.`, source: 'Master POA; county parcel records', url: URLS.mpoaAbout },
+  { label: 'Size today', value: `The master association says nearly 1,000 acres. Platted parcels add up to about ${COUNTS.acres} acres, a figure that leaves out roads and open water.`, source: 'Master POA; county parcel records', url: URLS.mpoaAbout },
+  { label: 'Residences', value: `The master association counts 893 homes. The county shows ${COUNTS.residences} improved residential parcels and ${COUNTS.vacant} vacant lots.`, source: 'Master POA; county parcel records', url: URLS.mpoaAbout },
   { label: 'Property types', value: `${COUNTS.eastHouses + COUNTS.gvHouses} single-family houses, ${COUNTS.eastCondos} condominium residences in four associations, ${COUNTS.gvTownhomes} townhomes`, source: 'County parcel records', url: URLS.papa },
   { label: 'Golf', value: '45 holes: the 18-hole East Course and three nines in Golf Village', source: 'Club', url: URLS.clubSports },
   { label: 'Clubhouses', value: 'The main clubhouse on the East Side (completed 1989) and a second at Golf Village', source: 'Club history; county parcel records', url: URLS.clubAbout },
   { label: 'Marina', value: 'A private club marina for vessels up to 165 feet. The club does not publish a slip count.', source: 'Club', url: URLS.clubAmenities },
   { label: 'Homes on the canals', value: `${COUNTS.waterLots.eastHouses} of the ${COUNTS.waterLots.eastHousesTotal} East Side house lots adjoin the canal system or the Intracoastal. None in Golf Village do.`, source: 'Our measurement from county parcel and water maps' },
-  { label: 'Navigable waterways', value: 'The club’s pages say 5.5 miles and 6 miles; the master association says seven', source: 'Club; Master POA', url: URLS.mpoa },
+  { label: 'Navigable waterways', value: 'The club’s pages give 5.5 and 6 miles; the master association says seven', source: 'Club; Master POA', url: URLS.mpoa },
   { label: 'Security', value: 'Gated, with 24-hour security staff and a marine patrol on the waterway entrance, run by the master association', source: 'Master POA', url: URLS.mpoaSecurity },
   { label: 'Club ownership', value: 'An equity club since 1988. “Full member equity ownership began in November 1999.”', source: 'Club history', url: URLS.clubAbout },
   { label: 'Membership', value: 'Four categories on the club’s fee schedule: Golf, Sports, Tennis and Social. Marina dockage is arranged separately.', source: 'Club fee schedule' },
@@ -201,7 +201,7 @@ export const SIDES: { row: string; east: string; golfVillage: string }[] = [
     golfVillage: 'West of Alternate A1A and the railway, north of Frederick Small Road. It has its own security post.',
   },
   {
-    row: 'Homes in county records',
+    row: 'Homes',
     east: `${COUNTS.eastHouses} houses and ${COUNTS.eastCondos} condominium residences`,
     golfVillage: `${COUNTS.gvHouses} houses and ${COUNTS.gvTownhomes} townhomes`,
   },
@@ -238,7 +238,12 @@ export const SIDES: { row: string; east: string; golfVillage: string }[] = [
   {
     row: 'Club membership',
     east: 'Confirm the requirement and the category choices for the specific property, in writing, with the club',
-    golfVillage: 'The same. Do not assume the terms match the East Side, or the home next door.',
+    golfVillage: 'Same advice. Don’t assume the terms match the East Side, or the home next door.',
+  },
+  {
+    row: 'Worth a look if you want',
+    east: 'A boat at the house, or a condominium beside the clubhouse and marina. Expect seawall, dock and tidal-water costs on the canal lots.',
+    golfVillage: 'Golf at the door without a seawall, a dock or a boat. Every parcel is in flood zone X or outside the mapped hazard area.',
   },
 ]
 
@@ -256,23 +261,23 @@ export const ENCLAVES: { name: string; where: string; what: string }[] = [
 export const MEMBERSHIP_STRUCTURE: { title: string; body: string }[] = [
   {
     title: 'Four categories',
-    body: 'The club’s fee schedule lists Golf, Sports, Tennis and Social. Each has its own joining fee and its own annual dues. Read the club’s current written description of each before choosing: how much golf a non-golf category allows, and in which months, is set by the club and can change.',
+    body: 'The club’s fee schedule lists Golf, Sports, Tennis and Social, each with its own joining fee and annual dues. Ask the club for its current written description of each before you choose. How much golf a non-golf category allows, and in which months, is the club’s decision and can change.',
   },
   {
     title: 'A joining fee, paid once',
-    body: 'Each category has an initiation fee due when you join. The club’s current schedule shows no refundable portion in any category. Older broker material describes a partly refundable equity fee; treat that as out of date and ask the club what, if anything, comes back when you sell.',
+    body: 'Each category carries an initiation fee, due when you join. The club’s current schedule shows no refundable portion in any category. Older broker material describes a partly refundable equity fee, so don’t rely on it. Ask the club what, if anything, comes back when you sell.',
   },
   {
     title: 'Annual charges, in more than one line',
-    body: 'The schedule separates operating dues from capital dues, lists a debt service assessment tied to past club improvements, sets a food and beverage minimum, and charges a trail fee if you keep your own golf cart. Add every line, not only the one labeled dues.',
+    body: 'The schedule separates operating dues from capital dues, adds a debt service assessment tied to past club improvements, sets a food and beverage minimum, and charges a trail fee if you keep your own golf cart. Add up every line, not only the one labeled dues.',
   },
   {
     title: 'The club is not the association',
-    body: 'The master association says plainly that it and the club are “two separate entities”. Association assessments pay for security, roads and common areas. Club charges pay for golf, dining, wellness and the rest. You will get separate bills, and a condominium adds a third.',
+    body: 'The master association is clear that it and the club are “two separate entities”. Association assessments pay for security, roads and common areas; club charges pay for golf, dining, wellness and the rest. You’ll get separate bills, and a condominium adds a third.',
   },
   {
     title: 'Marina dockage is separate',
-    body: 'Dockage at the club marina is not a membership category on the fee schedule. The club takes inquiries for annual, seasonal and transient dockage and quotes rates through its marina office. We could not confirm from the club who is eligible for a slip, so ask before you count on one.',
+    body: 'Dockage at the club marina is not a membership category. The club takes inquiries for annual, seasonal and transient dockage and quotes rates through its marina office. It doesn’t publish who is eligible for a slip, so ask before you count on one.',
   },
   {
     title: 'The Yacht Club',
@@ -323,7 +328,7 @@ export const COSTS: { group: string; items: { name: string; note: string }[] }[]
   {
     group: 'Paid for the property',
     items: [
-      { name: 'Property tax', note: 'Reset by your purchase. See below.' },
+      { name: 'Property tax', note: 'Reassessed after your purchase. See below.' },
       { name: 'Homeowners and windstorm insurance', note: 'Quote it for the specific roof, openings and year built.' },
       { name: 'Flood insurance', note: 'A lender may not require it in zone X. Price it anyway.' },
       { name: 'Dock, lift and seawall', note: 'The owner maintains the dock. Budget for inspection now and repair later.' },
@@ -348,7 +353,7 @@ export const BRIDGES: { name: string; where: string; type: string; clearance: st
     where: 'Mile 1004.8, between the Intracoastal and the inlet',
     type: 'Drawbridge (bascule), replaced and accepted by the state in December 2025',
     clearance: 'NOAA’s Coast Pilot lists 38 feet. Florida DOT describes the new bridge as “up to 42 feet”.',
-    opens: 'Not on a fixed schedule in the federal rule we read. Confirm with the bridge tender.',
+    opens: 'We found no fixed opening schedule in the federal rule. Confirm with the bridge tender.',
   },
 ]
 
@@ -396,7 +401,7 @@ export const AMENITIES: { title: string; body: string }[] = [
   },
   {
     title: 'Dining',
-    body: 'Four venues named by the club: 27 West, Latitude, Marina Café and NEXT.',
+    body: 'Four club venues: 27 West, Latitude, Marina Café and NEXT.',
   },
   {
     title: 'Private hotel',
@@ -409,7 +414,7 @@ export const AMENITIES: { title: string; body: string }[] = [
 export const DUE_DILIGENCE: { title: string; body: string; link?: { label: string; url: string } }[] = [
   {
     title: 'Flood zone and elevation',
-    body: `On the county’s copy of FEMA’s flood layer, the centre of ${FLOOD.eastX} East Side residential parcels falls in zone X, ${FLOOD.eastShaded} in shaded X (the 0.2 percent annual chance area) and ${FLOOD.eastAE + FLOOD.eastVE} in a special flood hazard area. Every Golf Village parcel is in zone X or outside the mapped hazard area. That is the middle of the lot. A waterfront lot’s seawall, dock and rear yard can sit in a different zone from the house, and the current maps took effect December 20, 2024. Look up the address and ask the seller for an elevation certificate.`,
+    body: `On the county’s copy of FEMA’s flood map, the center of ${FLOOD.eastX} East Side residential parcels falls in zone X, ${FLOOD.eastShaded} in shaded X (the 0.2 percent annual chance area) and ${FLOOD.eastAE + FLOOD.eastVE} in a special flood hazard area. Every Golf Village parcel is in zone X or outside the mapped hazard area. Those readings are taken at the middle of each lot, so a waterfront lot’s seawall, dock and rear yard can sit in a different zone from the house. The current maps took effect December 20, 2024. Look up the address and ask the seller for an elevation certificate.`,
     link: { label: 'FEMA flood map, search by address', url: URLS.fema },
   },
   {
@@ -423,7 +428,7 @@ export const DUE_DILIGENCE: { title: string; body: string; link?: { label: strin
   },
   {
     title: 'Seawall, dock and water depth',
-    body: 'Have a marine contractor inspect the seawall and dock. Ask for permits and for the depth at the dock at low water. We could not confirm from a public source who dredges the canals or how the cost is shared, so put that question to the master association.',
+    body: 'Have a marine contractor inspect the seawall and dock, and ask for the permits and the depth at the dock at low water. Who dredges the canals, and how the cost is shared, isn’t published, so put that question to the master association in writing.',
     link: { label: 'Master POA dock rules', url: URLS.mpoaDocks },
   },
   {
@@ -633,11 +638,11 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'Is club membership mandatory in Admirals Cove?',
-    a: 'Brokerages and listing remarks describe membership in The Club at Admirals Cove as required with a purchase. The club’s public pages do not state the rule, the minimum category or any exceptions, so we do not state them either. Ask the club’s membership office to confirm, in writing, what applies to the specific property before you sign a contract.',
+    a: 'Brokerages and listing remarks describe membership in The Club at Admirals Cove as required with a purchase. The club’s public pages don’t state the rule, the minimum category or any exceptions, so we don’t state them here. Ask the membership office to confirm in writing what applies to the specific property before you sign a contract.',
   },
   {
     q: 'How much does Admirals Cove membership cost?',
-    a: 'It depends on the category, and the figures change every club year, which runs from November 1. We do not print them here because a page like this goes out of date. Ask us for the club’s current fee schedule and we will send it with the association charges for the home you are considering.',
+    a: 'It depends on the category, and the figures change every club year, which starts November 1. We don’t print them because they would be out of date within months. Ask us for the club’s current fee schedule and we’ll send it along with the association charges for the homes you’re considering.',
   },
   {
     q: 'What are the annual membership dues?',
@@ -645,7 +650,7 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'Can buyers choose their membership category?',
-    a: 'The club’s schedule lists four: Golf, Sports, Tennis and Social. Whether every category is open to a new member at a given time, and whether a particular property carries a minimum, are questions for the club. We could not confirm a wait list or the rules for changing category from a public source.',
+    a: 'The club’s schedule lists four: Golf, Sports, Tennis and Social. Whether every category is open to a new member at a given time, and whether a particular property carries a minimum, are questions for the club. Wait lists and the rules for changing category aren’t published.',
   },
   {
     q: 'What is the difference between the East Side and Golf Village?',
@@ -669,7 +674,7 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'Can residents without a waterfront home keep a boat at the marina?',
-    a: 'The club takes dockage inquiries for annual, seasonal and transient stays. We could not confirm from the club who is eligible, whether there is a wait, or how slips are allocated. Ask the marina office before you buy on the assumption that a slip will be available.',
+    a: 'The club takes dockage inquiries for annual, seasonal and transient stays. It doesn’t publish who is eligible, whether there is a wait, or how slips are allocated, so ask the marina office before you buy on the assumption that a slip will be available.',
   },
   {
     q: 'Are there condominiums in Admirals Cove?',
@@ -689,15 +694,23 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'What insurance should a buyer plan for?',
-    a: 'Homeowners, windstorm and flood. Most parcels are in flood zone X at their centre, where a lender may not require flood insurance, but a waterfront lot is still beside tidal water. Get quotes during the inspection period, with a wind mitigation report and an elevation certificate in hand.',
+    a: 'Homeowners, windstorm and flood. Most parcels are in flood zone X at their center, where a lender may not require flood insurance, but a waterfront lot is still beside tidal water. Get quotes during the inspection period, with a wind mitigation report and an elevation certificate in hand.',
   },
   {
     q: 'Are special assessments pending?',
-    a: 'We cannot answer that for you from public sources, and it changes. The club’s current fee schedule carries a debt service assessment from past improvements. Ask the club and each association, in writing, for every assessment that is approved or under discussion.',
+    a: 'Public sources can’t answer that, and the answer changes. The club’s current fee schedule carries a debt service assessment from past improvements. Ask the club and each association, in writing, for every assessment that is approved or under discussion.',
   },
   {
     q: 'Can guests stay in the private hotel?',
     a: 'Yes, with a sponsor. Waterside, the club’s 32-room hotel in the main clubhouse, is for members and their guests, and the club requires sponsorship by a current member for every booking.',
+  },
+  {
+    q: 'How is Admirals Cove different from other Jupiter golf and boating communities?',
+    a: 'Mostly in what sits inside one community. Admirals Cove pairs canal-front lots and a club marina on the East Side with 45 holes across two parts, a private hotel, wellness and racquets. Jonathan’s Landing is the closest match for golf plus boat, but its property owners association describes golf and marina memberships as optional. The Bear’s Club, The Loxahatchee Club and Trump National Jupiter are inland golf clubs with no boating. Jupiter Yacht Club and Jupiter Inlet Colony offer water without a country club. Confirm each one’s current terms.',
+  },
+  {
+    q: 'What are the drawbacks of buying in Admirals Cove?',
+    a: 'Cost is the main one: club charges come on top of the price and the association assessments, a condominium adds a third association, and everything is billed separately. Whether membership is required with a given home has to be confirmed in writing. On the water, two drawbridges and a demanding inlet sit between the canals and the ocean, and a canal lot is not automatically a lot that takes a large boat. Development began in 1986, so roofs, windows and seawalls vary in age. None of this rules a home out. It is the reason to price the whole of ownership before you compare homes.',
   },
   {
     q: 'What should I verify before signing a contract?',
@@ -705,7 +718,7 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'How do I get the current membership fee schedule?',
-    a: 'Use the form on this page and choose “Request Current Membership Fees”. We will send the club’s current schedule and note which association charges apply to the homes you are considering. The club’s membership office can also provide it directly.',
+    a: 'Use the form on this page and choose “Request Current Membership Fees”. We’ll send the club’s current schedule and note which association charges apply to the homes you’re considering. The club’s membership office can also provide it directly.',
   },
   {
     q: 'How do I arrange a private showing?',
