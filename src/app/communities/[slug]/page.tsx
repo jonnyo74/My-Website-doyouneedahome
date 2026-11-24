@@ -36,6 +36,14 @@ import { SITE_URL } from '@/lib/site'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
 
+/** Social-share image for Admirals Cove: John Oliver's photo of the entrance. */
+const ADMIRALS_OG = {
+  url: '/images/admirals-cove/entrance.jpg',
+  width: 1600,
+  height: 1067,
+  alt: 'The Admirals Cove entrance sign behind hedges and palms',
+}
+
 /**
  * Abacoa's villages are neighborhoods-within-a-neighborhood: their region is
  * "Jupiter", but buyers cross-shop them against each other inside Abacoa, not
@@ -116,8 +124,8 @@ export async function generateMetadata({ params }: Props) {
       description,
       alternates: { canonical: url },
       other: { ...(community.dateModified && { 'last-modified': community.dateModified }) },
-      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group' }] },
-      twitter: { card: 'summary_large_image' as const, title, description, images: ['/images/og-image.jpg'] },
+      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [slug === ADMIRALS_COVE_SLUG ? ADMIRALS_OG : { url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group' }] },
+      twitter: { card: 'summary_large_image' as const, title, description, images: [slug === ADMIRALS_COVE_SLUG ? ADMIRALS_OG.url : '/images/og-image.jpg'] },
     }
   }
   const ogImage = community.photos?.[0]
