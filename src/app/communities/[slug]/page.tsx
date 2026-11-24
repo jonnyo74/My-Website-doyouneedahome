@@ -93,6 +93,26 @@ function searchUrl(city: string, opts: {
 const MEMBERSHIP_AMENITY = 'sa_rapb_membership_required'
 const SENIOR_AMENITY = 'sa_is_senior_community'
 
+/**
+ * The link-preview image for a community page. A page with its own photos uses
+ * the first. One without borrows a photo already published for its city (the
+ * city's own, or failing that the cover of a city article), so a Jupiter
+ * community never previews with the sitewide West Palm Beach photo. The alt
+ * text names what the photo actually shows: the city, not the community.
+ */
+function previewImage(community: NonNullable<ReturnType<typeof getCommunityBySlug>>, slug: string): { url: string; alt: string } {
+  if (community.photos?.[0]) return { url: encodeURI(community.photos[0]), alt: `${community.name} real estate` }
+  const city = community.type === 'City' ? community : getParentCity(slug)
+  if (city) {
+    const borrowed =
+      (city !== community ? city.photos?.[0] : undefined) ??
+      // A photograph, not one of the drawn covers or diagrams.
+      getArticlesByCity(city.slug).find((a) => a.heroImage && !/illustration|graphic|schematic|map/i.test(a.heroImage))?.heroImage
+    if (borrowed) return { url: encodeURI(borrowed), alt: `${city.name}, Florida` }
+  }
+  return { url: '/images/og-image.jpg', alt: `${community.name} real estate` }
+}
+
 type Props = { params: Promise<{ slug: string }> }
 
 export function generateStaticParams() {
@@ -142,9 +162,8 @@ export async function generateMetadata({ params }: Props) {
       twitter: { card: 'summary_large_image' as const, title, description, images: [og.url] },
     }
   }
-  const ogImage = community.photos?.[0]
-    ? encodeURI(community.photos[0])
-    : '/images/og-image.jpg'
+  const preview = previewImage(community, slug)
+  const ogImage = preview.url
   return {
     title: community.metaTitle ?? `${community.name} Real Estate | DO Homes Group`,
     description: community.metaDescription ?? community.description,
@@ -160,7 +179,7 @@ export async function generateMetadata({ params }: Props) {
     },
     openGraph: {
       url: `${SITE_URL}/communities/${slug}`,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: `${community.name} real estate` }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: preview.alt }],
     },
     twitter: {
       card: 'summary_large_image' as const,

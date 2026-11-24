@@ -15,8 +15,10 @@ export const metadata: Metadata = {
     title: 'Public Kayak Launches in Jupiter & Tequesta',
     description:
       'Where you can actually drop a kayak on the Loxahatchee River system — mapped, rated for skill, and read through a homebuyer’s lens.',
-    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group — Palm Beach County Real Estate' }],
+    // John Oliver's own photo (docs/tequesta-image-provenance.md).
+    images: [{ url: '/images/tequesta/tequesta-intracoastal-sunset-paddleboard-hero.webp', width: 1920, height: 1080, alt: 'A paddleboarder silhouetted at sunset on the Intracoastal Waterway in Tequesta' }],
   },
+  twitter: { card: 'summary_large_image', images: ['/images/tequesta/tequesta-intracoastal-sunset-paddleboard-hero.webp'] },
 }
 
 /**
