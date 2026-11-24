@@ -5,6 +5,7 @@
 // rejects the same inputs.
 
 import { formatConsentLine, NO_PHONE_CONSENT_TAG, PHONE_CONSENT_TAG } from '@/lib/consent'
+import { CLUB_INQUIRY_TYPES, inquiryClassification, isClubInquiryType } from '@/lib/clubInquiry'
 import { isLeadMagnetKey, leadMagnets } from '@/lib/leadMagnets'
 import { isValidEmail, isValidName, splitName } from '@/lib/showingRequestHelpers'
 
@@ -22,6 +23,11 @@ export function isValidPageName(name: string | undefined): boolean {
   return name === undefined || (typeof name === 'string' && name.length <= 100)
 }
 
+/** Absent, or one of the registered club inquiry keys. Anything else is rejected. */
+export function isValidInquiryType(t: unknown): boolean {
+  return t === undefined || t === null || isClubInquiryType(t)
+}
+
 export interface ContactRequestSubmission {
   name?: string
   email?: string
@@ -32,6 +38,8 @@ export interface ContactRequestSubmission {
   ctaPlacement?: string
   /** Community the visitor was reading when they asked. */
   pageName?: string
+  /** Club-page inquiry key (lib/clubInquiry). The labels come from the server's own table. */
+  inquiryType?: string
   /** Full URL of /contact at submit time — carries `?from=<magnet key>` when the
    *  visitor arrived from a lead-magnet "next step" link. */
   sourcePageUrl?: string
@@ -79,6 +87,9 @@ export function buildContactTags(sub: ContactRequestSubmission): string[] {
   const tags = [
     'Website Inquiry',
     sub.ctaPlacement === 'community-inline' ? 'Community Inquiry' : 'Contact Form',
+    // Club pages: one stable tag for automations, one that names the community.
+    isClubInquiryType(sub.inquiryType) ? CLUB_INQUIRY_TYPES[sub.inquiryType].tag : null,
+    isClubInquiryType(sub.inquiryType) ? inquiryClassification(sub.pageName, sub.inquiryType) : null,
     // A plain label, not the magnet's own crmTag: that tag is what FUB
     // automations key on for a fresh download, and this person is past that.
     magnet ? `Came From: ${magnet.shortTitle}` : null,
@@ -94,6 +105,7 @@ export function buildContactNote(sub: ContactRequestSubmission): string {
     sub.ctaPlacement === 'community-inline' && sub.pageName
       ? `Asked a question from the ${sub.pageName} community page on doyouneedahome.com.`
       : 'Sent a message through the contact form on doyouneedahome.com.',
+    isClubInquiryType(sub.inquiryType) ? `Inquiry type: ${inquiryClassification(sub.pageName, sub.inquiryType)}.` : null,
     sub.ctaPlacement ? `CTA placement: ${sub.ctaPlacement}.` : null,
     magnet ? `Arrived from the "${magnet.title}" download's next-step link.` : null,
     sub.message?.trim() ? `Message: ${sub.message.trim()}` : 'No message was included.',

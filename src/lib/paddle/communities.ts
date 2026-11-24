@@ -753,7 +753,7 @@ export const paddleCommunities: PaddleCommunity[] = [
     sourcing: 'confirmed',
     housing:
       'Gated club community with per-lot dockage and a marina for vessels to 165 feet.',
-    quote: 'deep-water dockage with no fixed bridges',
+    quote: 'our private marina can accommodate vessels up to 165 feet',
     detail:
       'A fuel dock, a full-service marina, and one of the most boat-oriented addresses in the county.',
     flag:
