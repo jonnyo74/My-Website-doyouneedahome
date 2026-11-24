@@ -44,6 +44,8 @@ export interface ContactFormProps {
   messagePlaceholder?: string
   /** Pre-fills the message box, e.g. with the exact area a listing alert is for. */
   initialMessage?: string
+  /** Replaces the "Send Message" button label. */
+  submitLabel?: string
   className?: string
 }
 
@@ -59,6 +61,7 @@ export default function ContactForm({
   idPrefix = 'contact',
   messagePlaceholder = 'The area or building you are looking at, your timing, or a question.',
   initialMessage,
+  submitLabel = 'Send Message',
   className = '',
 }: ContactFormProps) {
   const [values, setValues] = useState<FormValues>({ ...EMPTY, message: initialMessage ?? '' })
@@ -276,7 +279,7 @@ export default function ContactForm({
         disabled={status === 'sending'}
         className="w-full rounded-full bg-report-gold px-6 py-3.5 text-sm font-semibold text-navy-950 transition hover:bg-report-gold-dark disabled:opacity-60"
       >
-        {status === 'sending' ? 'Sending…' : 'Send Message'}
+        {status === 'sending' ? 'Sending…' : submitLabel}
       </button>
 
       {status === 'error' && (

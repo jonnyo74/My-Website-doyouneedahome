@@ -108,11 +108,20 @@ function labelWidgetCards(root: HTMLElement, hiddenIds: string[] = []) {
 export default function AbacoaListings({
   slug,
   children,
+  scope: scopeOverride,
+  areaNote = 'Abacoa, Jupiter',
+  submitLabel,
 }: {
   slug: string
   children: React.ReactNode
+  /** A scope from outside lib/abacoaScopes (e.g. lib/colonyScope). Must be a module-level constant. */
+  scope?: AbacoaScope
+  /** Parenthetical in the pre-filled alert message that says where the scope is. */
+  areaNote?: string
+  /** Replaces the alert form's "Send Message" button label. */
+  submitLabel?: string
 }) {
-  const scope = getAbacoaScope(slug)
+  const scope = scopeOverride ?? getAbacoaScope(slug)
   const wrapRef = useRef<HTMLDivElement>(null)
   const [view, setView] = useState<View>('loading')
   const [comingSoon, setComingSoon] = useState(0)
@@ -251,6 +260,8 @@ export default function AbacoaListings({
             scope={scope}
             openLabel={`Request ${scope.name} listing alerts`}
             kind="alerts"
+            areaNote={areaNote}
+            submitLabel={submitLabel}
           />
         </div>
       )}
@@ -286,7 +297,13 @@ export default function AbacoaListings({
           >
             Try loading the listings again
           </button>
-          <AlertRequest scope={scope} openLabel={`Ask about ${scope.name} homes`} kind="contact" />
+          <AlertRequest
+            scope={scope}
+            openLabel={`Ask about ${scope.name} homes`}
+            kind="contact"
+            areaNote={areaNote}
+            submitLabel={submitLabel}
+          />
         </div>
       )}
     </div>
@@ -297,16 +314,20 @@ function AlertRequest({
   scope,
   openLabel,
   kind,
+  areaNote,
+  submitLabel,
 }: {
   scope: AbacoaScope
   openLabel: string
   kind: 'alerts' | 'contact'
+  areaNote: string
+  submitLabel?: string
 }) {
   const [open, setOpen] = useState(false)
   const message =
     kind === 'alerts'
-      ? `Please send me new listing alerts for ${scope.name} (Abacoa, Jupiter): active homes for sale only, any price, any property type.`
-      : `I would like to hear about ${scope.name} (Abacoa, Jupiter) homes for sale.`
+      ? `Please send me new listing alerts for ${scope.name} (${areaNote}): active homes for sale only, any price, any property type.`
+      : `I would like to hear about ${scope.name} (${areaNote}) homes for sale.`
 
   if (!open) {
     return (
@@ -331,6 +352,7 @@ function AlertRequest({
         pageName={scope.name}
         idPrefix={`alert-${scope.slug}`}
         initialMessage={message}
+        submitLabel={submitLabel}
       />
       <p className="mt-3 text-xs text-slate-500">
         Prefer to talk first?{' '}

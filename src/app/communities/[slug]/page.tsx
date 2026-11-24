@@ -27,6 +27,8 @@ import { selectMagnetForCommunity } from '@/lib/leadMagnetRouting'
 import AbacoaLanding from '@/components/AbacoaLanding'
 import AbacoaVillageLanding from '@/components/AbacoaVillageLanding'
 import { VILLAGES } from '@/lib/abacoaVillages'
+import JupiterInletColonyLanding from '@/components/JupiterInletColonyLanding'
+import { COLONY_SLUG } from '@/lib/colonyScope'
 import WhatsNew from '@/components/WhatsNew'
 import { SITE_URL } from '@/lib/site'
 
@@ -101,6 +103,21 @@ export async function generateMetadata({ params }: Props) {
       twitter: { card: 'summary_large_image' as const, title, description, images: [img] },
     }
   }
+  if (slug === COLONY_SLUG) {
+    // Its own town, with its own page template. Title and description come
+    // from the community entry so the directory and this page cannot drift.
+    const title = community.metaTitle!
+    const description = community.metaDescription!
+    const url = `/communities/${slug}`
+    return {
+      title,
+      description,
+      alternates: { canonical: url },
+      other: { ...(community.dateModified && { 'last-modified': community.dateModified }) },
+      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group' }] },
+      twitter: { card: 'summary_large_image' as const, title, description, images: ['/images/og-image.jpg'] },
+    }
+  }
   const ogImage = community.photos?.[0]
     ? encodeURI(community.photos[0])
     : '/images/og-image.jpg'
@@ -138,6 +155,7 @@ export default async function CommunityPage({ params }: Props) {
 
   if (slug === 'abacoa') return <AbacoaLanding />
   if (VILLAGES[slug]) return <AbacoaVillageLanding slug={slug} />
+  if (slug === COLONY_SLUG) return <JupiterInletColonyLanding />
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []
@@ -833,7 +851,7 @@ export default async function CommunityPage({ params }: Props) {
                         className="group flex flex-col gap-3 rounded-2xl border border-slate-200 bg-white p-6 shadow-card transition hover:-translate-y-0.5 hover:border-gold-500/40 hover:shadow-card-hover"
                       >
                         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold-600">
-                          {n.type}
+                          {n.typeLabel ?? n.type}
                         </p>
                         <h3 className="text-base font-semibold text-slate-900 group-hover:text-gold-600 transition">
                           {n.name}

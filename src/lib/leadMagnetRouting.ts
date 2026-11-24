@@ -264,6 +264,9 @@ const EXCLUDED_PATH_PREFIXES = [
   // market-report interruption would undercut a $2.8M conversion page.
   '/listings/8804-skyward-street',
   '/value', // mailed-postcard landing page — one purpose, no interruptions
+  // Has its own Colony listings-and-sales form. On a phone the sticky bar also sat
+  // directly under the Call/Text contact widget, each hiding the other.
+  '/communities/jupiter-inlet-colony',
   ...Object.values(leadMagnets).map((m) => m.landingPage),
   // Blog posts that carry Discover The Palm Beaches photos: no sticky bar or exit-intent offer.
   ...DISCOVER_POST_PATHS,
