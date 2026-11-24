@@ -29,10 +29,33 @@ import AbacoaVillageLanding from '@/components/AbacoaVillageLanding'
 import { VILLAGES } from '@/lib/abacoaVillages'
 import JupiterInletColonyLanding from '@/components/JupiterInletColonyLanding'
 import { COLONY_SLUG } from '@/lib/colonyScope'
+import AdmiralsCoveLanding from '@/components/AdmiralsCoveLanding'
+import { ADMIRALS_COVE_SLUG } from '@/lib/admiralsCoveScope'
 import WhatsNew from '@/components/WhatsNew'
 import { SITE_URL } from '@/lib/site'
 
 const SEARCH_URL = 'https://search.doyouneedahome.com'
+
+/** Social-share image for Admirals Cove: John Oliver's photo of the entrance. */
+const ADMIRALS_OG = {
+  url: '/images/admirals-cove/entrance.jpg',
+  width: 1600,
+  height: 1067,
+  alt: 'The Admirals Cove entrance sign behind hedges and palms',
+}
+
+/**
+ * Social-share image for Jupiter Inlet Colony: John Oliver's frame from the
+ * lighthouse gallery, where the Colony is the north bank on the left. The
+ * sitewide og-image.jpg is a West Palm Beach condo tower, the wrong picture
+ * for this town.
+ */
+const COLONY_OG = {
+  url: '/images/jupiter/jupiter-inlet-aerial-hero.webp',
+  width: 2048,
+  height: 1152,
+  alt: 'Jupiter Inlet Colony homes and docks on the north bank of Jupiter Inlet, seen from the lighthouse',
+}
 
 /**
  * Abacoa's villages are neighborhoods-within-a-neighborhood: their region is
@@ -103,24 +126,20 @@ export async function generateMetadata({ params }: Props) {
       twitter: { card: 'summary_large_image' as const, title, description, images: [img] },
     }
   }
-  if (slug === COLONY_SLUG) {
-    // Its own town, with its own page template. Title and description come
+  if (slug === COLONY_SLUG || slug === ADMIRALS_COVE_SLUG) {
+    // Its own town (or, for Admirals Cove, its own club-community template), with its own page template. Title and description come
     // from the community entry so the directory and this page cannot drift.
     const title = community.metaTitle!
     const description = community.metaDescription!
     const url = `/communities/${slug}`
-    // John's own frame from the lighthouse gallery: the Colony is the north
-    // bank on the left. The sitewide og-image.jpg is a West Palm Beach condo
-    // tower, which is the wrong picture for this town.
-    const img = '/images/jupiter/jupiter-inlet-aerial-hero.webp'
-    const alt = 'Jupiter Inlet Colony homes and docks on the north bank of Jupiter Inlet, seen from the lighthouse'
+    const og = slug === ADMIRALS_COVE_SLUG ? ADMIRALS_OG : COLONY_OG
     return {
       title,
       description,
       alternates: { canonical: url },
       other: { ...(community.dateModified && { 'last-modified': community.dateModified }) },
-      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [{ url: img, width: 2048, height: 1152, alt }] },
-      twitter: { card: 'summary_large_image' as const, title, description, images: [img] },
+      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [og] },
+      twitter: { card: 'summary_large_image' as const, title, description, images: [og.url] },
     }
   }
   const ogImage = community.photos?.[0]
@@ -161,6 +180,7 @@ export default async function CommunityPage({ params }: Props) {
   if (slug === 'abacoa') return <AbacoaLanding />
   if (VILLAGES[slug]) return <AbacoaVillageLanding slug={slug} />
   if (slug === COLONY_SLUG) return <JupiterInletColonyLanding />
+  if (slug === ADMIRALS_COVE_SLUG) return <AdmiralsCoveLanding />
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []

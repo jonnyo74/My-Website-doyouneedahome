@@ -1,0 +1,280 @@
+{
+ "retrieved": "2026-11-24",
+ "sources": {
+  "parcels": "https://gis.pbcgov.org/arcgis/rest/services/Parcels/PARCEL_INFO/MapServer/4",
+  "water": "https://gis.pbcgov.org/arcgis/rest/services/ENG/WATER/MapServer/34",
+  "centerline": "https://gis.pbcgov.org/arcgis/rest/services/ENG/CENTERLINE/MapServer/0",
+  "flood": "https://gis.pbcgov.org/arcgis/rest/services/FEMA/SFHA_2023/MapServer/57"
+ },
+ "municipalities": [
+  "JUPITER"
+ ],
+ "parcels": {
+  "total": 1016,
+  "acres": 974,
+  "counts": {
+   "east": {
+    "house": 535,
+    "condo": 206,
+    "townhouse": 0,
+    "vacant": 21
+   },
+   "golfVillage": {
+    "house": 107,
+    "condo": 0,
+    "townhouse": 16,
+    "vacant": 2
+   }
+  },
+  "condos": [
+   {
+    "name": "Captains Way",
+    "units": 116
+   },
+   {
+    "name": "Waterside",
+    "units": 48
+   },
+   {
+    "name": "Spyglass",
+    "units": 36
+   },
+   {
+    "name": "Nautical Way",
+    "units": 6
+   }
+  ],
+  "waterLots": {
+   "eastHouses": 419,
+   "eastHousesTotal": 535,
+   "golfVillage": 0
+  }
+ },
+ "floodZones": {
+  "east": {
+   "X": 546,
+   "X-shaded": 194,
+   "AE": 1
+  },
+  "golfVillage": {
+   "unmapped": 82,
+   "X": 41
+  }
+ },
+ "sales": {
+  "from": "2025-11-25",
+  "to": "2026-11-24",
+  "latestQualified": "2026-07-23",
+  "rows": [
+   {
+    "date": "2026-07-23",
+    "address": "194 Spyglass Court",
+    "price": 16255775,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-07-21",
+    "address": "167 Regatta Drive",
+    "price": 5725000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-07-17",
+    "address": "386 Eagle Drive",
+    "price": 14750000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-07-09",
+    "address": "121 Commodore Drive",
+    "price": 9500000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-07-01",
+    "address": "1503 Captains Way",
+    "price": 2750000,
+    "area": "east",
+    "type": "condo",
+    "water": null
+   },
+   {
+    "date": "2026-06-26",
+    "address": "160 Spyglass Lane",
+    "price": 17005000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-06-25",
+    "address": "176 Golf Village Boulevard",
+    "price": 3900000,
+    "area": "golf-village",
+    "type": "house",
+    "water": false
+   },
+   {
+    "date": "2026-06-22",
+    "address": "325 Eagle Drive",
+    "price": 3700000,
+    "area": "east",
+    "type": "house",
+    "water": false
+   },
+   {
+    "date": "2026-06-17",
+    "address": "158 Spyglass Lane",
+    "price": 7900000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-06-08",
+    "address": "114 N Village Way",
+    "price": 4400000,
+    "area": "golf-village",
+    "type": "house",
+    "water": false
+   },
+   {
+    "date": "2026-06-03",
+    "address": "2604 Captains Way",
+    "price": 2900000,
+    "area": "east",
+    "type": "condo",
+    "water": null
+   },
+   {
+    "date": "2026-05-20",
+    "address": "121 Nautical Way",
+    "price": 3600000,
+    "area": "east",
+    "type": "condo",
+    "water": null
+   },
+   {
+    "date": "2026-05-12",
+    "address": "113 Regatta Drive",
+    "price": 7100000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-05-11",
+    "address": "118 N Village Way",
+    "price": 3400000,
+    "area": "golf-village",
+    "type": "house",
+    "water": false
+   },
+   {
+    "date": "2026-05-04",
+    "address": "335 Regatta Drive",
+    "price": 6500000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-04-20",
+    "address": "185 Island Drive",
+    "price": 8452985,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-04-16",
+    "address": "143 W Village Way",
+    "price": 4400000,
+    "area": "golf-village",
+    "type": "house",
+    "water": false
+   },
+   {
+    "date": "2026-03-31",
+    "address": "404 Mariner Drive",
+    "price": 5525000,
+    "area": "east",
+    "type": "house",
+    "water": true
+   },
+   {
+    "date": "2026-02-19",
+    "address": "1602 Captains Way",
+    "price": 2950000,
+    "area": "east",
+    "type": "condo",
+    "water": null
+   },
+   {
+    "date": "2026-02-17",
+    "address": "2001 Captains Way",
+    "price": 3150000,
+    "area": "east",
+    "type": "condo",
+    "water": null
+   },
+   {
+    "date": "2026-02-13",
+    "address": "106 Village Clubhouse Circle",
+    "price": 1850000,
+    "area": "golf-village",
+    "type": "townhouse",
+    "water": false
+   },
+   {
+    "date": "2026-02-13",
+    "address": "220 Eagle Drive",
+    "price": 3420000,
+    "area": "east",
+    "type": "condo",
+    "water": null
+   },
+   {
+    "date": "2026-01-28",
+    "address": "134 Golf Village Boulevard",
+    "price": 3000000,
+    "area": "golf-village",
+    "type": "townhouse",
+    "water": false
+   },
+   {
+    "date": "2026-01-12",
+    "address": "4301 Captains Way",
+    "price": 3000000,
+    "area": "east",
+    "type": "house",
+    "water": false
+   },
+   {
+    "date": "2026-01-07",
+    "address": "360 Spyglass Way",
+    "price": 2850000,
+    "area": "east",
+    "type": "condo",
+    "water": null
+   },
+   {
+    "date": "2025-12-10",
+    "address": "337 Eagle Drive",
+    "price": 2950000,
+    "area": "east",
+    "type": "house",
+    "water": false
+   }
+  ],
+  "pricedNotQualified": 4
+ }
+}

@@ -105,8 +105,8 @@ export const agentQuotes: Record<string, AgentQuotes> = {
   },
 
   'admirals-cove': {
-    christineQuote: "Admiral's Cove is the right market for buyers who want deep-water dockage and championship golf in the same address. It's one of Jupiter's most complete waterfront communities and the private hotel for guests is a genuine differentiator.",
-    johnQuote: "Admiral's Cove works perfectly for boating buyers who also want the country club lifestyle. Deep-water slips, quick Intracoastal access to the Atlantic, championship golf, and a private hotel for guests — few communities in Jupiter can match this package.",
+    christineQuote: "Admirals Cove is the right market for buyers who want deep-water dockage and championship golf in the same address. It's one of Jupiter's most complete waterfront communities and the private hotel for guests is a genuine differentiator.",
+    johnQuote: "Admirals Cove works perfectly for boating buyers who also want the country club lifestyle. Deep-water slips, quick Intracoastal access to the Atlantic, championship golf, and a private hotel for guests — few communities in Jupiter can match this package.",
   },
 
   'loxahatchee-club': {

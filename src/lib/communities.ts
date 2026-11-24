@@ -576,7 +576,7 @@ export const cities: CommunityItem[] = [
     hasMembershipCommunities: true,
     highlights: [
       'Served by Palm Beach County schools — verify current assignment and boundaries for a specific address with the district',
-      'Home to Admiral\'s Cove, The Bear\'s Club, The Loxahatchee Club, and Jonathan\'s Landing — among Florida\'s most exclusive private clubs',
+      'Home to Admirals Cove, The Bear\'s Club, The Loxahatchee Club, and Jonathan\'s Landing — among Florida\'s most exclusive private clubs',
       'Harbourside Place and Riverwalk offer waterfront dining, shopping, and live music year-round',
       'Jupiter Beach and Carlin Park are dog-friendly and draw year-round outdoor lifestyle buyers',
       'Abacoa offers walkable town-center living — shops, restaurants, and Roger Dean Stadium steps away',
@@ -585,7 +585,7 @@ export const cities: CommunityItem[] = [
       'Jupiter Medical Center is one of the top-rated hospitals in Palm Beach County',
       'Jupiter Fire Rescue, the town\'s new independent fire department, officially began serving the community on October 1, 2026',
     ],
-    popularNeighborhoods: ['Rialto', 'Abacoa', 'Egret Landing', 'Jonathan\'s Landing', 'Admiral\'s Cove', 'Jupiter Country Club', 'Sonoma Isles', 'Jupiter Inlet Colony', 'Jupiter Farms'],
+    popularNeighborhoods: ['Rialto', 'Abacoa', 'Egret Landing', 'Jonathan\'s Landing', 'Admirals Cove', 'Jupiter Country Club', 'Sonoma Isles', 'Jupiter Inlet Colony', 'Jupiter Farms'],
     keyLinks: [
       { label: 'Guanabanas — Waterfront Restaurant & Bar', url: 'https://www.guanabanas.com', category: 'Dining' },
       { label: 'Square Grouper — World Famous Waterfront Tiki Bar', url: 'https://www.squaregrouper.net', category: 'Dining' },
@@ -3562,7 +3562,7 @@ export const neighborhoods: CommunityItem[] = [
     region: 'Palm Beach Gardens',
     description: 'Palm Beach Gardens\' largest master-planned community — a luxury growth corridor spanning thousands of acres with multiple builder villages, resort amenities, and long-term upside.',
     overview:
-      'Avenir is one of the largest and most significant luxury master-planned communities in Palm Beach Gardens. Spanning thousands of acres, Avenir was designed as a long-term lifestyle destination — combining estate-level homes, multiple residential villages, resort-style amenities, preserved natural space, and rapidly expanding retail and commercial development.\n\nThis is not a single neighborhood — it\'s an entire luxury growth corridor. Buyers entering now are still positioning ahead of full build-out, something that\'s no longer possible in most established Palm Beach Gardens communities. As retail fills in, infrastructure completes, and neighborhoods mature, Avenir is on track to become one of the county\'s most complete live-work-play destinations.',
+      'Avenir is one of the largest and most significant luxury master-planned communities in Palm Beach Gardens. Spanning thousands of acres, Avenir was designed as a long-term lifestyle destination — combining estate-level homes, multiple residential villages, resort-style amenities, preserved natural space, and rapidly expanding retail and commercial development.\n\nThis is not a single neighborhood — it\'s an entire luxury growth corridor. Buyers entering now are still positioning ahead of full build-out, something that\'s no longer possible in most established Palm Beach Gardens communities. As retail fills in, infrastructure completes, and neighborhoods mature, Avenir is on track to become one of the county\'s most complete live-work-play destinations. DiVosta is opening two new communities within Avenir — Orchid Isles and Avondale — with broker previews beginning in late 2026.',
     lifestyle: 'Avenir was built for buyers who want modern construction without compromise. Higher ceilings, open layouts, energy-efficient design, and larger lots than anything available in older Palm Beach Gardens communities. A second resort-style clubhouse is now complete, adding to an amenity package that includes resort pools, fitness centers, tennis, pickleball, and miles of walking paths. Wide roads and golf-cart-friendly design throughout. Major retail and dining is actively developing along the corridor — the community is still evolving, and that\'s precisely the opportunity.',
     localLoves: [
       'Resort-style amenity centers with pools, fitness, tennis, and pickleball',
@@ -4151,28 +4151,32 @@ export const neighborhoods: CommunityItem[] = [
 
   // ── JUPITER COUNTRY CLUBS ────────────────────────────────────
   {
+    // Rendered by AdmiralsCoveLanding (components/AdmiralsCoveLanding.tsx); the
+    // fields below feed the directory card, metadata and sitemap. Facts live in
+    // lib/admiralsCove.ts. The name has no apostrophe.
     slug: 'admirals-cove',
-    name: "Admiral's Cove",
+    name: 'Admirals Cove',
     type: 'Neighborhood',
     region: 'Jupiter',
-    ylopoLocation: 'Admirals Cove', // the MLS drops the apostrophe
-    description: 'A premier waterfront country club on the Intracoastal — deep-water dockage, championship golf, and and estate homes.',
+    ylopoLocation: 'Admirals Cove',
+    dateModified: '2026-11-24',
+    metaTitle: 'Admirals Cove Jupiter Homes for Sale | Membership, Golf & Marina',
+    metaDescription:
+      'Explore Admirals Cove in Jupiter, Florida. Discover waterfront estates, Golf Village homes, club membership requirements, marina access, ownership costs and current homes for sale with DO Homes Group.',
+    description:
+      'A gated club community of about 890 homes in Jupiter, in two parts: the East Side on the Intracoastal, with canal-front houses and a private marina, and Golf Village across Alternate A1A. 45 holes of golf.',
     overview:
-      "Admiral's Cove is one of Jupiter's most prestigious waterfront club communities, set along the Intracoastal Waterway with direct ocean access and deep-water dockage for large yachts. The community offers a rare combination of protected dockage, championship golf, and a fully integrated club lifestyle — all within minutes of Jupiter's beaches, dining, and private aviation access. The club has undergone extensive modernization over the past decade, attracting a new generation of owners who value both prestige and privacy. A standout feature unique to Admiral's Cove is its private on-site hotel, allowing residents to host guests without compromising the privacy of their own homes. Inventory here is limited — long-term ownership and strong demand keep opportunities rare.",
+      'Admirals Cove is a gated country club community in the Town of Jupiter. The East Side runs from Alternate A1A to the Intracoastal Waterway, with canals behind most of its houses, the main clubhouse, a private marina and four condominium associations. Golf Village, west of Alternate A1A, is houses and townhomes around three nine-hole courses. The Club at Admirals Cove has 45 holes of golf and has been owned by its members since 1999. The club and the property owners associations are separate organizations.',
     quickFacts: [
-      { label: 'Homes', value: 'Waterfront estates, golf-front homes, private dock residences' },
-      { label: 'Amenities', value: 'Deep-water marina, championship golf, private hotel, spa, dining' },
-    ],
-    priceRanges: [
-      { type: 'Golf-Front Homes', range: '$1.5M – $4M', propertyTypes: ['house'] },
-      { type: 'Waterfront Estates', range: '$3M – $15M+', propertyTypes: ['house'], amenities: ['sa_has_waterfront'] },
+      { label: 'Homes', value: 'Houses, townhomes and condominiums on the East Side and in Golf Village' },
+      { label: 'Amenities', value: '45 holes of golf, private marina, two clubhouses, private hotel, wellness, racquets' },
     ],
     highlights: [
-      'Extensive deep-water dockage with quick ocean access via the Intracoastal Waterway',
-      'Private on-site hotel for residents and guests — a rare amenity found in very few communities',
-      'Championship golf, enhanced dining, wellness facilities, and refined social spaces',
-      'Community has modernized significantly while maintaining its legacy of prestige and discretion',
-      'Limited inventory — long-term ownership and high demand make opportunities rare',
+      'Two separate gated areas: the East Side on the Intracoastal Waterway and Golf Village west of Alternate A1A',
+      'Most East Side house lots back onto the canal system, with two drawbridges between the community and Jupiter Inlet',
+      '45 holes of golf: the 18-hole East Course and three nines in Golf Village',
+      'A member-owned club, separate from the master association and the four condominium associations',
+      'Membership terms and fees change each club year; confirm them in writing for the specific property',
     ],
   },
   {
