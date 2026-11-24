@@ -288,7 +288,9 @@ export default function AdmiralsCoveLanding() {
 
           <h3 className={`mt-12 ${h3}`}>Admirals Cove quick facts</h3>
           <div className="mt-5">
-            <ClubQuickFacts facts={QUICK_FACTS} caption="Admirals Cove quick facts, each with its source" />
+            {/* Sources are named but not linked here: outbound links to the club,
+                which runs its own brokerage, live only in the sources section. */}
+            <ClubQuickFacts facts={QUICK_FACTS.map(({ label, value, source }) => ({ label, value, source }))} caption="Admirals Cove quick facts, each with its source" />
           </div>
           <p className="mt-3 text-xs leading-6 text-slate-500">
             The association’s home count and the county’s parcel count differ by a few homes. The county figure
@@ -714,7 +716,9 @@ export default function AdmiralsCoveLanding() {
                 to reconcile them, so we state none as fact. Vessel fit, power, fuel, availability and who may
                 rent a slip must be confirmed with the club’s marina office.
               </p>
-              <a href={URLS.clubDockage} {...ext} className={`mt-4 inline-block text-sm ${textLink}`}>Club dockage inquiries ↗</a>
+              <InquiryLink type="boat-fit" className={`mt-4 inline-block text-sm ${textLink}`}>
+                Ask us about marina dockage →
+              </InquiryLink>
             </div>
           </div>
 
@@ -766,9 +770,10 @@ export default function AdmiralsCoveLanding() {
               <Photo key={p.src} {...p} />
             ))}
           </div>
-          <p className="mt-6 text-sm">
-            <a href={URLS.clubSports} {...ext} className={textLink}>The club’s golf and racquets page ↗</a> ·{' '}
-            <a href={URLS.clubAmenities} {...ext} className={textLink}>The club’s amenities page ↗</a>
+          <p className="mt-6 text-sm text-slate-600">
+            Club facts are taken from the club’s own pages, listed under{' '}
+            <a href="#sources" className={textLink}>sources</a>.{' '}
+            <InquiryLink type="club-options" className={textLink}>Talk through the club with us →</InquiryLink>
           </p>
         </div>
       </section>
