@@ -18,8 +18,10 @@ export const metadata: Metadata = {
     title: 'Communities With Their Own Kayak Launch',
     description:
       'Resident water access from Jupiter to North Palm Beach, graded by whether you can actually use it.',
-    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630, alt: 'DO Homes Group — Palm Beach County Real Estate' }],
+    // John Oliver's own photo (docs/tequesta-image-provenance.md).
+    images: [{ url: '/images/tequesta/tequesta-intracoastal-sunset-paddleboard-hero.webp', width: 1920, height: 1080, alt: 'A paddleboarder silhouetted at sunset on the Intracoastal Waterway in Tequesta' }],
   },
+  twitter: { card: 'summary_large_image', images: ['/images/tequesta/tequesta-intracoastal-sunset-paddleboard-hero.webp'] },
 }
 
 const TRAPS = [
