@@ -412,6 +412,8 @@ export default function AdmiralsCoveLanding() {
             <div
               role="region"
               aria-label="Map of Admirals Cove. Scrolls sideways on small screens."
+              // A scrollable region must be keyboard-focusable (WCAG 2.1.1).
+              // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
               tabIndex={0}
               className="overflow-x-auto rounded-2xl border border-slate-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-report-gold-dark"
             >
