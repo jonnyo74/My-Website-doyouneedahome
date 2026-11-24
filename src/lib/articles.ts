@@ -29824,7 +29824,7 @@ For the wider picture, read [what living in Jupiter is really like](/blog/what-i
       },
       {
         q: 'Are country-club memberships required in Jupiter communities?',
-        a: "It depends on the community and the specific property. Jonathan's Landing's property owners association describes its golf club and marina memberships as optional. Admirals Cove publishes five membership categories through its Club. Whether a purchase carries a membership requirement, which category, the initiation and dues, and the transfer terms come from the governing documents and the club, in writing, not from a listing or a community's reputation.",
+        a: "It depends on the community and the specific property. Jonathan's Landing's property owners association describes its golf club and marina memberships as optional. The Club at Admirals Cove lists four membership categories on its fee schedule (Golf, Sports, Tennis and Social) and arranges marina dockage separately. Whether a purchase carries a membership requirement, which category, the initiation and dues, and the transfer terms come from the governing documents and the club, in writing, not from a listing or a community's reputation.",
       },
       {
         q: 'What should I verify before buying a waterfront home in Jupiter?',

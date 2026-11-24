@@ -29,6 +29,8 @@ import AbacoaVillageLanding from '@/components/AbacoaVillageLanding'
 import { VILLAGES } from '@/lib/abacoaVillages'
 import JupiterInletColonyLanding from '@/components/JupiterInletColonyLanding'
 import { COLONY_SLUG } from '@/lib/colonyScope'
+import AdmiralsCoveLanding from '@/components/AdmiralsCoveLanding'
+import { ADMIRALS_COVE_SLUG } from '@/lib/admiralsCoveScope'
 import WhatsNew from '@/components/WhatsNew'
 import { SITE_URL } from '@/lib/site'
 
@@ -103,8 +105,8 @@ export async function generateMetadata({ params }: Props) {
       twitter: { card: 'summary_large_image' as const, title, description, images: [img] },
     }
   }
-  if (slug === COLONY_SLUG) {
-    // Its own town, with its own page template. Title and description come
+  if (slug === COLONY_SLUG || slug === ADMIRALS_COVE_SLUG) {
+    // Its own town (or, for Admirals Cove, its own club-community template), with its own page template. Title and description come
     // from the community entry so the directory and this page cannot drift.
     const title = community.metaTitle!
     const description = community.metaDescription!
@@ -156,6 +158,7 @@ export default async function CommunityPage({ params }: Props) {
   if (slug === 'abacoa') return <AbacoaLanding />
   if (VILLAGES[slug]) return <AbacoaVillageLanding slug={slug} />
   if (slug === COLONY_SLUG) return <JupiterInletColonyLanding />
+  if (slug === ADMIRALS_COVE_SLUG) return <AdmiralsCoveLanding />
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []

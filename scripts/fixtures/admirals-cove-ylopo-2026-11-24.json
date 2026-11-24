@@ -1,0 +1,1296 @@
+{
+ "admiralsCove": [
+  {
+   "id": 272394886,
+   "mlsNumber": "B26101146",
+   "price": 33750000,
+   "address": {
+    "fullStreetAddress": "120 Spyglass Lane",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ADMIRALS COVE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 272233836,
+   "mlsNumber": "A12117968",
+   "price": 15500000,
+   "address": {
+    "fullStreetAddress": "156 Spyglass Lane",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 272143553,
+   "mlsNumber": "B26098513",
+   "price": 3300000,
+   "address": {
+    "fullStreetAddress": "1602 Captains Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 272094729,
+   "mlsNumber": "B26097844",
+   "price": 7000000,
+   "address": {
+    "fullStreetAddress": "315 Eagle Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 272013808,
+   "mlsNumber": "B26096958",
+   "price": 5899000,
+   "address": {
+    "fullStreetAddress": "171 Spyglass Lane",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ADMIRALS COVE PAR C"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 271529624,
+   "mlsNumber": "A12111102",
+   "price": 3300000,
+   "address": {
+    "fullStreetAddress": "360 Spyglass Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 271303836,
+   "mlsNumber": "B26089112",
+   "price": 3300000,
+   "address": {
+    "fullStreetAddress": "360 Spyglass Way 360",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 270894431,
+   "mlsNumber": "B26085353",
+   "price": 11995000,
+   "address": {
+    "fullStreetAddress": "414 Mariner Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 270855006,
+   "mlsNumber": "B26084859",
+   "price": 3900000,
+   "address": {
+    "fullStreetAddress": "214 Eagle Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 270758585,
+   "mlsNumber": "A12099717",
+   "price": 12900000,
+   "address": {
+    "fullStreetAddress": "193 Spyglass Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 270513543,
+   "mlsNumber": "B26080679",
+   "price": 11495000,
+   "address": {
+    "fullStreetAddress": "130 Waters Edge Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ADMIRALS COVE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 270425101,
+   "mlsNumber": "B26079800",
+   "price": 17200000,
+   "address": {
+    "fullStreetAddress": "107 Schooner Lane",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ADMIRALS COVE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 265782045,
+   "mlsNumber": "A12037866",
+   "price": 3000000,
+   "address": {
+    "fullStreetAddress": "4501 Captains Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 264855377,
+   "mlsNumber": "B26034183",
+   "price": 17500000,
+   "address": {
+    "fullStreetAddress": "404 Mariner Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 263667964,
+   "mlsNumber": "B26024768",
+   "price": 23750000,
+   "address": {
+    "fullStreetAddress": "103 Quayside Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ADMIRALS COVE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 263432155,
+   "mlsNumber": "B26022234",
+   "price": 6950000,
+   "address": {
+    "fullStreetAddress": "469 Mariner Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "ADMIRALS COVE"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 261214931,
+   "mlsNumber": "B26001480",
+   "price": 4925000,
+   "address": {
+    "fullStreetAddress": "3501 Captains Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   }
+  },
+  {
+   "id": 261153715,
+   "mlsNumber": "B26000927",
+   "price": 12500000,
+   "address": {
+    "fullStreetAddress": "466 Mariner Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 258547291,
+   "mlsNumber": "R11156446",
+   "price": 17950000,
+   "address": {
+    "fullStreetAddress": "127 Quayside Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 258462820,
+   "mlsNumber": "R11102033",
+   "price": 6500000,
+   "address": {
+    "fullStreetAddress": "102 Victory Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 272259081,
+   "mlsNumber": "A12123260",
+   "price": 3300000,
+   "address": {
+    "fullStreetAddress": "1602 Captains Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 271239211,
+   "mlsNumber": "B26088444",
+   "price": 2250000,
+   "address": {
+    "fullStreetAddress": "310 Spyglass Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SPYGLASS AT ADMIRALS COVE CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 270752628,
+   "mlsNumber": "B26083473",
+   "price": 12900000,
+   "address": {
+    "fullStreetAddress": "193 Spyglass Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 267207200,
+   "mlsNumber": "B26051935",
+   "price": 5500000,
+   "address": {
+    "fullStreetAddress": "145 W Village Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33458"
+   },
+   "addressStandard": {
+    "neighborhoodName": "COVE WEST - GOLF VILLAGE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GOLF VILLAGE AT ADMIRALS COVE PAR B"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 266767257,
+   "mlsNumber": "B26048330",
+   "price": 3999000,
+   "address": {
+    "fullStreetAddress": "173 N Village Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33458"
+   },
+   "addressStandard": {
+    "neighborhoodName": "COVE WEST - GOLF VILLAGE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GOLF VILLAGE PAR A"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 267013424,
+   "mlsNumber": "B26050590",
+   "price": 2995000,
+   "address": {
+    "fullStreetAddress": "124 Golf Village Boulevard",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33458"
+   },
+   "addressStandard": {
+    "neighborhoodName": "COVE WEST - GOLF VILLAGE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   }
+  },
+  {
+   "id": 265699056,
+   "mlsNumber": "A12031947",
+   "price": 17500000,
+   "address": {
+    "fullStreetAddress": "404 Mariner Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 262499877,
+   "mlsNumber": "B26013134",
+   "price": 6750000,
+   "address": {
+    "fullStreetAddress": "115 W Village Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33458"
+   },
+   "addressStandard": {
+    "neighborhoodName": "COVE WEST - GOLF VILLAGE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 266025893,
+   "mlsNumber": "A11981588",
+   "price": 4925000,
+   "address": {
+    "fullStreetAddress": "3501 Captains Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   }
+  },
+  {
+   "id": 266022942,
+   "mlsNumber": "A11951056",
+   "price": 17950000,
+   "address": {
+    "fullStreetAddress": "127 Quayside Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 265204708,
+   "mlsNumber": "B26037509",
+   "price": 3000000,
+   "address": {
+    "fullStreetAddress": "4501 Captains Way",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "ADMIRALS COVE",
+    "communityName": "ADMIRALS COVE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Admirals Cove"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  }
+ ],
+ "nearby33477": [
+  {
+   "id": 272601704,
+   "mlsNumber": "B26103603",
+   "price": 20900000,
+   "address": {
+    "fullStreetAddress": "170 Bears Club Drive",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "THE BEARS CLUB"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "The Bears Club"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 258456518,
+   "mlsNumber": "R11139932",
+   "price": 799000,
+   "address": {
+    "fullStreetAddress": "400 Ocean Trail Way 101",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OCEAN TRAIL CONDO IV"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 272568900,
+   "mlsNumber": "B26103236",
+   "price": 849000,
+   "address": {
+    "fullStreetAddress": "1212 Ocean Dunes Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "VILLAS OF OCEAN DUNES",
+    "communityName": "VILLAS OF OCEAN DUNES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VILLAS OF OCEAN DUNES 4"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   }
+  },
+  {
+   "id": 272568902,
+   "mlsNumber": "B26103233",
+   "price": 8250000,
+   "address": {
+    "fullStreetAddress": "250 Bears Club Drive C1",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "THE BEARS CLUB"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Bears Club"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 272576805,
+   "mlsNumber": "B26103355",
+   "price": 749999,
+   "address": {
+    "fullStreetAddress": "1405 Ocean Dunes Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "VILLAS OF OCEAN DUNES",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VILLAS OF OCEAN DUNES 4"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   }
+  },
+  {
+   "id": 272584595,
+   "mlsNumber": "B26103456",
+   "price": 850000,
+   "address": {
+    "fullStreetAddress": "1527 Ocean Dunes Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "VILLAS OF OCEAN DUNES",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "VILLAS OF OCEAN DUNES 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   }
+  },
+  {
+   "id": 272550326,
+   "mlsNumber": "B26103155",
+   "price": 725000,
+   "address": {
+    "fullStreetAddress": "200 Ocean Trail Way 108",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "OCEAN TRAIL CONDOS",
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OCEAN TRAIL CONDO I"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 269289447,
+   "mlsNumber": "B26070988",
+   "price": 2500000,
+   "address": {
+    "fullStreetAddress": "149 Jupiter Key Road",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "OLYMPUS",
+    "communityName": "JUPITER KEY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "JUPITER KEY"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Single Family Detached"
+   }
+  },
+  {
+   "id": 272533096,
+   "mlsNumber": "B26102873",
+   "price": 480000,
+   "address": {
+    "fullStreetAddress": "1618 16th Court",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "VILLAS OF OCEAN DUNES",
+    "communityName": "BLUFFS"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "LAKES AT THE BLUFFS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": ""
+   }
+  },
+  {
+   "id": 272538162,
+   "mlsNumber": "B26102954",
+   "price": 619000,
+   "address": {
+    "fullStreetAddress": "275 Palm Avenue A101",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Jupiter Bay East"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 272500672,
+   "mlsNumber": "B26102490",
+   "price": 2350000,
+   "address": {
+    "fullStreetAddress": "221 Ocean Grande Boulevard 401",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "OLYMPUS",
+    "communityName": "JUPITER OCEAN GRANDE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Jupiter Ocean Grande"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  },
+  {
+   "id": 272501847,
+   "mlsNumber": "B26102485",
+   "price": 1950000,
+   "address": {
+    "fullStreetAddress": "623 Inlet Waters Circle",
+    "city": "Jupiter",
+    "stateOrProvince": "FL",
+    "postalCode": "33477"
+   },
+   "addressStandard": {
+    "neighborhoodName": "INLET DISTRICT",
+    "communityName": "INLET WATERS"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Inlet Waters"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   },
+   "listingPropertySubType": {
+    "displayPropertySubType": "Condominium"
+   }
+  }
+ ]
+}

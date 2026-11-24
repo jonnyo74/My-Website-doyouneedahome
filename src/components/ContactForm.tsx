@@ -5,6 +5,7 @@ import FormConsent from '@/components/FormConsent'
 import { trackEvent } from '@/lib/analytics'
 import { CURRENT_CONSENT_VERSION } from '@/lib/consent'
 import { getUtmAndReferrer } from '@/lib/utm'
+import type { ClubInquiryType } from '@/lib/clubInquiry'
 
 interface FormValues {
   name: string
@@ -46,6 +47,8 @@ export interface ContactFormProps {
   initialMessage?: string
   /** Replaces the "Send Message" button label. */
   submitLabel?: string
+  /** What the visitor is asking for, on a club-community page. Sent as a key; the server maps it to CRM tags. */
+  inquiryType?: ClubInquiryType
   className?: string
 }
 
@@ -62,6 +65,7 @@ export default function ContactForm({
   messagePlaceholder = 'The area or building you are looking at, your timing, or a question.',
   initialMessage,
   submitLabel = 'Send Message',
+  inquiryType,
   className = '',
 }: ContactFormProps) {
   const [values, setValues] = useState<FormValues>({ ...EMPTY, message: initialMessage ?? '' })
@@ -75,6 +79,7 @@ export default function ContactForm({
     form_type: 'contact',
     cta_location: ctaPlacement,
     page_name: pageName,
+    ...(inquiryType && { inquiry_type: inquiryType }),
   }
   const id = (field: string) => `${idPrefix}-${field}`
 
@@ -114,6 +119,7 @@ export default function ContactForm({
           honeypot: values.honeypot,
           ctaPlacement,
           pageName,
+          inquiryType,
           sourcePageUrl: window.location.href,
           submittedAt: new Date().toISOString(),
           utmSource,
