@@ -21,3 +21,7 @@ export const td = 'px-5 py-3.5 align-top text-sm leading-6 text-slate-700'
 
 /** The id of the one inquiry form on a club page. Every CTA scrolls to it. */
 export const INQUIRY_ID = 'club-inquiry'
+
+/** The clickable line of a collapsed <details> panel, with an open/close mark. */
+export const summaryCls =
+  'inline-flex cursor-pointer list-none items-center gap-2 rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition hover:border-slate-900 [&::-webkit-details-marker]:hidden after:content-["+"] after:text-report-gold-text group-open:after:content-["−"]'

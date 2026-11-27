@@ -235,15 +235,6 @@ export const SIDES: { row: string; east: string; golfVillage: string }[] = [
   },
 ]
 
-export const ENCLAVES: { name: string; where: string; what: string }[] = [
-  { name: 'Captains Way', where: 'East Side, beside the main clubhouse and marina', what: `${COUNTS.condos.find((x) => x.name === 'Captains Way')?.units} condominium residences with their own association` },
-  { name: 'Waterside', where: 'East Side, off Eagle Drive', what: `${COUNTS.condos.find((x) => x.name === 'Waterside')?.units} condominium residences with their own association` },
-  { name: 'Spyglass', where: 'East Side, on Spyglass Way', what: `${COUNTS.condos.find((x) => x.name === 'Spyglass')?.units} condominium residences with their own association` },
-  { name: 'Nautical Way', where: 'East Side', what: `${COUNTS.condos.find((x) => x.name === 'Nautical Way')?.units} condominium residences with their own association` },
-  { name: 'Clubhouse Island and Club Cottages', where: 'East Side, on Captains Way', what: 'Small plats of houses next to the main clubhouse, recorded separately by the county' },
-  { name: 'Golf Village', where: 'West of Alternate A1A', what: `${COUNTS.golfVillage} houses and townhomes on Village Way, Golf Village Boulevard and Village Clubhouse Circle` },
-]
-
 // ── Membership ───────────────────────────────────────────────────────────
 
 export const MEMBERSHIP_STRUCTURE: { title: string; body: string }[] = [
@@ -442,14 +433,6 @@ export const DUE_DILIGENCE: { title: string; body: string; link?: { label: strin
   },
 ]
 
-export const PROJECTS: { status: string; what: string; source: string }[] = [
-  { status: 'Completed', what: 'Renovation of the main clubhouse entrance, spa and wellness center (early 2020).', source: 'Club history' },
-  { status: 'Completed', what: 'Redesign of the three Golf Village nines by Kipp Schulties (2015).', source: 'Club' },
-  { status: 'Completed', what: 'Replacement of the US-1 Jupiter Federal Bridge, on the route to the inlet (accepted December 2025).', source: 'Florida DOT' },
-  { status: 'Under construction', what: 'Master association recreation parcel on Regatta Drive: playground expansion, court relocation, dog park and a restroom building.', source: 'Town of Jupiter' },
-  { status: 'Under review', what: 'A shade structure of more than 2,000 square feet over four pickleball courts at 624 Captains Way.', source: 'Town of Jupiter' },
-]
-
 // ── Compare ──────────────────────────────────────────────────────────────
 
 export const COMPARE: { name: string; href: string; where: string; golf: string; boating: string; homes: string; note: string }[] = [
@@ -535,11 +518,7 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'How much does Admirals Cove membership cost?',
-    a: 'It depends on the category, and the figures change every club year, which runs from November 1. We do not print them here because a page like this goes out of date. Ask us for the club’s current fee schedule and we will send it with the association charges for the home you are considering.',
-  },
-  {
-    q: 'What are the annual membership dues?',
-    a: 'Annual charges come in several lines: operating dues, capital dues, any debt service assessment, a food and beverage minimum, and a trail fee if you keep your own cart. Each differs by category. Request the current schedule and add every line.',
+    a: "It depends on the category, and the club resets its figures each club year from November 1, so we do not print them here. You pay a one-time initiation fee, then annual charges in several lines: operating dues, capital dues, any assessment, a food and beverage minimum and a trail fee if you keep your own cart. Use the form on this page to ask for the club’s current schedule; we will send it with the association charges for the home you are considering.",
   },
   {
     q: 'Can buyers choose their membership category?',
@@ -550,20 +529,12 @@ export const FAQS: { q: string; a: string }[] = [
     a: `They are two separate gated areas on either side of Alternate A1A. The East Side has ${COUNTS.east} residences, the main clubhouse, the marina, the East Course and every home with boat access. Golf Village has ${COUNTS.golfVillage} houses and townhomes around three nine-hole courses, its own clubhouse and its own master association. It has no navigable water.`,
   },
   {
-    q: 'How many golf holes does Admirals Cove have?',
-    a: 'Forty-five. The East Course is 18 holes, designed by Robert von Hagge. Golf Village has three nine-hole courses, redesigned by Kipp Schulties in 2015.',
-  },
-  {
     q: 'Can I keep a yacht at my house?',
     a: 'Only if the lot, the dock and the water allow that boat. The master association sets boat length by lot width: on lots up to 70 feet wide, half the width plus 10 percent. Harbor Home condominiums are limited to 34 or 35 feet. Depth and canal width can lower the limit further. Larger yachts are kept at the club marina, which takes vessels up to 165 feet.',
   },
   {
-    q: 'Does Admirals Cove have ocean access?',
-    a: 'Yes, by way of the Intracoastal Waterway and Jupiter Inlet. NOAA describes the inlet as dangerous for small boats and says those using it should have local knowledge. The alternative is Lake Worth Inlet to the south, a maintained deep channel, farther away and past more bridges.',
-  },
-  {
     q: 'Are there bridge restrictions between Admirals Cove and the ocean?',
-    a: 'There are two drawbridges on the way to Jupiter Inlet and no fixed bridge. Indiantown Road has 35 feet of clearance when closed and opens on the hour and half-hour. The US-1 Jupiter Federal Bridge, replaced in 2025, is listed at 38 feet by NOAA and “up to 42 feet” by Florida DOT. A boat taller than that waits for an opening.',
+    a: "Admirals Cove reaches the ocean by the Intracoastal Waterway and Jupiter Inlet, past two drawbridges and no fixed bridge. Indiantown Road has 35 feet of clearance when closed and opens on the hour and half-hour. The US-1 Jupiter Federal Bridge is listed at 38 feet by NOAA and “up to 42 feet” by Florida DOT. A taller boat waits for an opening. NOAA advises local knowledge for Jupiter Inlet itself.",
   },
   {
     q: 'Can residents without a waterfront home keep a boat at the marina?',
@@ -590,10 +561,6 @@ export const FAQS: { q: string; a: string }[] = [
     a: 'Homeowners, windstorm and flood. Most parcels are in flood zone X at their centre, where a lender may not require flood insurance, but a waterfront lot is still beside tidal water. Get quotes during the inspection period, with a wind mitigation report and an elevation certificate in hand.',
   },
   {
-    q: 'Are special assessments pending?',
-    a: 'We cannot answer that for you from public sources, and it changes. The club’s current fee schedule carries a debt service assessment from past improvements. Ask the club and each association, in writing, for every assessment that is approved or under discussion.',
-  },
-  {
     q: 'Can guests stay in the private hotel?',
     a: 'Yes, with a sponsor. Waterside, the club’s 32-room hotel in the main clubhouse, is for members and their guests, and the club requires sponsorship by a current member for every booking.',
   },
@@ -602,23 +569,12 @@ export const FAQS: { q: string; a: string }[] = [
     a: 'The club’s written answer on membership for that property and its current fee schedule; every association’s budget, rules and pending assessments; the flood zone, elevation certificate and insurance quotes; and, on the water, the seawall, the dock, the depth at low tide and the boat length the association will allow.',
   },
   {
-    q: 'How do I get the current membership fee schedule?',
-    a: 'Use the form on this page and choose “Request Current Membership Fees”. We will send the club’s current schedule and note which association charges apply to the homes you are considering. The club’s membership office can also provide it directly.',
-  },
-  {
     q: 'How do I arrange a private showing?',
     a: 'Call DO Homes Group at (561) 783-7733 or use the form on this page. Admirals Cove is gated, so showings are by appointment with a licensed agent, and we arrange gate access in advance.',
   },
 ]
 
 // ── Geography ────────────────────────────────────────────────────────────
-
-/** Straight-line distances from the main entrance, computed from published airport coordinates. */
-export const AIRPORTS: { name: string; miles: string }[] = [
-  { name: 'Palm Beach International Airport (PBI)', miles: 'about 16 miles south' },
-  { name: 'North Palm Beach County General Aviation Airport (F45)', miles: 'about 9 miles southwest' },
-  { name: 'Witham Field, Stuart (SUA)', miles: 'about 20 miles north' },
-]
 
 export const MAP_DESCRIPTION =
   'Map of Admirals Cove in Jupiter, Florida. The community is in two parts. The East Side is the larger part: ' +
