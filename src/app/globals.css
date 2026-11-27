@@ -205,6 +205,10 @@ label:has(> input.sr-only:focus-visible) {
     visibility: hidden !important;
   }
 }
+/* Hidden at every width until a page's hero jump links have scrolled past (DeferredContactCta untilPast). */
+html[data-cta-defer-past] iframe[name="widgetCta"] {
+  visibility: hidden !important;
+}
 /* Removed outright (all widths) on posts that carry Discover The Palm Beaches photos. */
 html[data-cta-hide] iframe[name="widgetCta"] {
   display: none !important;
