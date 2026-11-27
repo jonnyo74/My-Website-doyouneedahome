@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import YlopoInit from '@/components/YlopoInit'
+import DeferredContactCta from '@/components/DeferredContactCta'
 import AdmiralsCoveListings from '@/components/AdmiralsCoveListings'
 import ClubInquiry from '@/components/clubCommunity/ClubInquiry'
 import ClubMembershipCta from '@/components/clubCommunity/ClubMembershipCta'
@@ -139,7 +140,7 @@ const bullet = <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg
 /** The eight facts a buyer wants first. The full sourced table sits in a panel below them. */
 const GLANCE: { label: string; value: string }[] = [
   { label: 'Where', value: 'Town of Jupiter · ZIP 33477 (East Side) and 33458 (Golf Village)' },
-  { label: 'Homes', value: `About 890: houses, townhomes and ${COUNTS.eastCondos} condominiums` },
+  { label: 'Residences', value: `${COUNTS.residences} in county records (${COUNTS.east} East Side, ${COUNTS.golfVillage} Golf Village), including ${COUNTS.eastCondos} condominiums` },
   { label: 'On the water', value: `${COUNTS.waterLots.eastHouses} East Side house lots back onto the canals or Intracoastal` },
   { label: 'Golf', value: '45 holes: the East Course and three Golf Village nines' },
   { label: 'Marina', value: 'Private club marina for vessels up to 165 feet' },
@@ -194,7 +195,9 @@ export default function AdmiralsCoveLanding() {
 
       {/* Hero. John Oliver's own photograph of the entrance, taken from the
           public road. The overlay keeps the white text at AA contrast. */}
-      <section className="relative isolate overflow-hidden bg-navy-950">
+      {/* Holds the call/text card back until the hero’s jump links have scrolled away. */}
+      <DeferredContactCta untilPast="ac-jump-links" />
+      <section id="ac-hero" className="relative isolate overflow-hidden bg-navy-950">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/admirals-cove/entrance.jpg"
@@ -227,17 +230,17 @@ export default function AdmiralsCoveLanding() {
             Admirals Cove Homes for Sale
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-white/90">
-            Admirals Cove is a gated club community of about 890 homes in
-            the Town of Jupiter, in two parts. The East Side runs to the Intracoastal Waterway, with canals
-            behind most of its houses, the main clubhouse and a private marina. Golf Village, across Alternate
-            A1A, is houses and townhomes around 27 holes. The club has 45 holes in all and has been owned by
-            its members since 1999.
+            {/* Residence count: county parcel records (East Side + Golf Village), vacant lots excluded. */}
+            Admirals Cove is a gated community in Jupiter with {COUNTS.residences} residences across two areas.
+            The East Side stretches to the Intracoastal Waterway, with canal-front homes, the main clubhouse and
+            a private marina. Across Alternate A1A, Golf Village has houses and townhomes around three nine-hole
+            courses. The member-owned club has 45 holes in all.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
             <a href="#listings" className={btnPrimary}>See Admirals Cove homes for sale</a>
             <InquiryLink type="membership-fees" className={btnGhostDark} />
           </div>
-          <nav aria-label="On this page" className="mt-10 border-t border-white/15 pt-5">
+          <nav id="ac-jump-links" aria-label="On this page" className="mt-10 border-t border-white/15 pt-5">
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/85">
               {JUMP.map(([href, label]) => (
                 <li key={href}>
@@ -249,50 +252,8 @@ export default function AdmiralsCoveLanding() {
         </div>
       </section>
 
-      {/* Overview and quick facts */}
-      <section className={section} aria-labelledby="ac-overview">
-        <div className={wrap}>
-          <p className={eyebrow}>Overview</p>
-          <h2 id="ac-overview" className={h2}>What sets Admirals Cove apart</h2>
-          <div className="mt-4 max-w-3xl space-y-5 leading-8 text-slate-600">
-            <p>
-              Few communities in Palm Beach County put a boat behind the house, 45 holes of golf and a full club
-              inside one set of gates. In Admirals Cove,{' '}
-              <strong className="text-slate-900">
-                {COUNTS.waterLots.eastHouses} of the {COUNTS.waterLots.eastHousesTotal} house lots on the East Side
-                back onto the canals or the Intracoastal
-              </strong>
-              , and the run to the ocean passes two drawbridges and no fixed bridge.
-            </p>
-            <p>
-              It is two communities with one club. The East Side has the water, the marina and the main clubhouse.
-              Golf Village, across Alternate A1A, has three nine-hole courses, its own clubhouse and no boat access.
-              The club has been member-owned since 1999.
-            </p>
-          </div>
-
-          <h3 className={`mt-10 ${h3}`}>At a glance</h3>
-          <dl className="mt-5 grid gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-4">
-            {GLANCE.map((g) => (
-              <div key={g.label} className="border-l-2 border-report-gold pl-4">
-                <dt className="text-xs font-semibold uppercase tracking-wider text-slate-500">{g.label}</dt>
-                <dd className="mt-1 text-sm leading-6 text-slate-900">{g.value}</dd>
-              </div>
-            ))}
-          </dl>
-          <details className="group mt-6">
-            <summary className={summaryCls}>All quick facts, with sources</summary>
-            <div className="mt-4">
-              {/* Sources are named but not linked here: outbound links to the club,
-                  which runs its own brokerage, live only in the sources section. */}
-              <ClubQuickFacts facts={QUICK_FACTS.map(({ label, value, source }) => ({ label, value, source }))} caption="Admirals Cove quick facts, each with its source" />
-            </div>
-          </details>
-        </div>
-      </section>
-
       {/* Scoped listings */}
-      <section id="listings" className={`scroll-mt-24 bg-slate-50 ${section}`} aria-labelledby="ac-listings">
+      <section id="listings" className={`scroll-mt-24 ${section}`} aria-labelledby="ac-listings">
         <div className={wrap}>
           <p className={eyebrow}>Live MLS feed · Admirals Cove only</p>
           <h2 id="ac-listings" className={h2}>Homes for sale in Admirals Cove</h2>
@@ -350,12 +311,62 @@ export default function AdmiralsCoveLanding() {
             ))}
           </ul>
 
-          <p className="mt-8 text-sm leading-7 text-slate-600">
-            Looking for a dock that fits your boat, or a home on the golf course? The search filters cannot tell
-            those apart reliably, so we check each listing by hand.{' '}
-            <InquiryLink type="boat-fit" className={textLink}>Waterfront homes for your boat →</InquiryLink>{' '}
-            <InquiryLink type="listing-alerts" className={textLink}>Golf-front homes →</InquiryLink>
-          </p>
+          <div className="mt-8 rounded-3xl bg-white p-6 shadow-card sm:flex sm:items-center sm:justify-between sm:gap-8">
+            <div className="max-w-2xl">
+              <InquiryLink type="boat-fit" className="font-serif text-xl font-semibold text-gold-600 underline-offset-4 hover:text-gold-700 hover:underline">
+                Find a Waterfront Home That Fits Your Boat <span aria-hidden="true">→</span>
+              </InquiryLink>
+              <p className="mt-1.5 text-sm leading-7 text-slate-600">
+                Send us your boat’s length, beam, draft and height, and we’ll check which listings are worth
+                touring.
+              </p>
+            </div>
+            <InquiryLink type="listing-alerts" className={`mt-4 flex-shrink-0 text-sm sm:mt-0 ${textLink}`}>
+              Golf-front homes →
+            </InquiryLink>
+          </div>
+        </div>
+      </section>
+
+      {/* Overview and quick facts */}
+      <section className={`bg-slate-50 ${section}`} aria-labelledby="ac-overview">
+        <div className={wrap}>
+          <p className={eyebrow}>Overview</p>
+          <h2 id="ac-overview" className={h2}>What sets Admirals Cove apart</h2>
+          <div className="mt-4 max-w-3xl space-y-5 leading-8 text-slate-600">
+            <p>
+              Few communities in Palm Beach County put a boat behind the house, 45 holes of golf and a full club
+              inside one set of gates. In Admirals Cove,{' '}
+              <strong className="text-slate-900">
+                {COUNTS.waterLots.eastHouses} of the {COUNTS.waterLots.eastHousesTotal} house lots on the East Side
+                back onto the canals or the Intracoastal
+              </strong>
+              , and the run to the ocean passes two drawbridges and no fixed bridge.
+            </p>
+            <p>
+              It is two communities with one club. The East Side has the water, the marina and the main clubhouse.
+              Golf Village, across Alternate A1A, has three nine-hole courses, its own clubhouse and no boat access.
+              The club has been member-owned since 1999.
+            </p>
+          </div>
+
+          <h3 className={`mt-10 ${h3}`}>At a glance</h3>
+          <dl className="mt-5 grid gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-4">
+            {GLANCE.map((g) => (
+              <div key={g.label} className="border-l-2 border-report-gold pl-4">
+                <dt className="text-xs font-semibold uppercase tracking-wider text-slate-500">{g.label}</dt>
+                <dd className="mt-1 text-sm leading-6 text-slate-900">{g.value}</dd>
+              </div>
+            ))}
+          </dl>
+          <details className="group mt-6">
+            <summary className={summaryCls}>All quick facts, with sources</summary>
+            <div className="mt-4">
+              {/* Sources are named but not linked here: outbound links to the club,
+                  which runs its own brokerage, live only in the sources section. */}
+              <ClubQuickFacts facts={QUICK_FACTS.map(({ label, value, source }) => ({ label, value, source }))} caption="Admirals Cove quick facts, each with its source" />
+            </div>
+          </details>
         </div>
       </section>
 

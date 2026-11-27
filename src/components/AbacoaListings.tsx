@@ -103,6 +103,24 @@ function labelWidgetCards(root: HTMLElement, hiddenIds: string[] = []) {
     const toggle = card.querySelector<HTMLButtonElement>('button.card-icon')
     if (toggle && !toggle.getAttribute('aria-label')) toggle.setAttribute('aria-label', `Map and photo for ${street}`)
   })
+  hideInvalidSqft(root)
+}
+
+/**
+ * The feed sends a living area of 0 (or nothing) for some listings, and the
+ * card prints it as "Sqft 0". Hide that label and value; leave valid figures
+ * exactly as the widget formats them. Idempotent, like labelWidgetCards.
+ */
+export function hideInvalidSqft(root: ParentNode) {
+  root.querySelectorAll<HTMLElement>('.summary-info .info-block').forEach((block) => {
+    const label = block.querySelector('.label')?.textContent?.trim().toLowerCase()
+    if (label !== 'sqft') return
+    const raw = (block.lastElementChild === block.querySelector('.label') ? '' : block.lastElementChild?.textContent) ?? ''
+    const value = Number(raw.replace(/[,\s]/g, ''))
+    const hide = !(raw.trim() && Number.isFinite(value) && value > 0)
+    const display = hide ? 'none' : ''
+    if (block.style.display !== display) block.style.display = display
+  })
 }
 
 export default function AbacoaListings({

@@ -4164,7 +4164,7 @@ export const neighborhoods: CommunityItem[] = [
     metaDescription:
       'Explore Admirals Cove in Jupiter, Florida. Discover waterfront estates, Golf Village homes, club membership requirements, marina access, ownership costs and current homes for sale with DO Homes Group.',
     description:
-      'A gated club community of about 890 homes in Jupiter, in two parts: the East Side on the Intracoastal, with canal-front houses and a private marina, and Golf Village across Alternate A1A. 45 holes of golf.',
+      'A gated club community in Jupiter with 864 residences (county parcel records) in two parts: the East Side on the Intracoastal, with canal-front houses and a private marina, and Golf Village across Alternate A1A. 45 holes of golf.',
     overview:
       'Admirals Cove is a gated country club community in the Town of Jupiter. The East Side runs from Alternate A1A to the Intracoastal Waterway, with canals behind most of its houses, the main clubhouse, a private marina and four condominium associations. Golf Village, west of Alternate A1A, is houses and townhomes around three nine-hole courses. The Club at Admirals Cove has 45 holes of golf and has been owned by its members since 1999. The club and the property owners associations are separate organizations.',
     quickFacts: [

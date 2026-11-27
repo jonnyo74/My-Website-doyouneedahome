@@ -144,7 +144,10 @@ export default function SoldListings({
         const facts = [
           r.bedrooms ? `${r.bedrooms} bd` : null,
           r.bathrooms ? `${r.bathrooms} ba` : null,
-          r.livingAreaSqFt ? `${r.livingAreaSqFt.toLocaleString('en-US')} sq ft` : null,
+          // Zero, missing or not a number: leave the square footage off.
+          Number.isFinite(Number(r.livingAreaSqFt)) && Number(r.livingAreaSqFt) > 0
+            ? `${Number(r.livingAreaSqFt).toLocaleString('en-US')} sq ft`
+            : null,
         ].filter(Boolean)
         const href = r.id != null ? `https://search.doyouneedahome.com/search/detail/${r.id}` : fullSearchUrl
         return (
