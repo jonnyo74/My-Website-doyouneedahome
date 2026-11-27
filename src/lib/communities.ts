@@ -3547,13 +3547,18 @@ export const neighborhoods: CommunityItem[] = [
     name: 'BallenIsles',
     type: 'Neighborhood',
     region: 'Palm Beach Gardens',
-    description: 'A premier private golf and country club community with three championship courses, luxury estates, and an active social scene.',
+    description: 'A gated country club community in Palm Beach Gardens with three golf courses, 33 neighborhoods and mandatory club membership.',
     overview:
-      'BallenIsles is a flagship gated community in Palm Beach Gardens featuring three championship golf courses, fine dining, a state-of-the-art sports complex, and estate homes on expansive lots. It\'s one of the most sought-after addresses in Northern Palm Beach County.',
+      'BallenIsles is a gated country club community in Palm Beach Gardens with three 18-hole golf courses, a racquets and fitness complex, and 33 neighborhoods of patio, single-family, estate and coach homes. Club membership is mandatory for residents, so buyers choose a membership category along with the home.',
     quickFacts: [
-      { label: 'Homes', value: 'Estate homes and custom residences' },
-      { label: 'Amenities', value: 'Three golf courses, tennis, spa, dining' },
+      { label: 'Homes', value: 'Patio, single-family, estate and coach homes in 33 neighborhoods' },
+      { label: 'Club', value: 'Mandatory equity membership; three golf courses, tennis, pickleball, fitness, dining' },
     ],
+    // Rendered by its own template (components/BallenIslesLanding).
+    dateModified: '2026-11-27',
+    metaTitle: 'BallenIsles Homes for Sale, Palm Beach Gardens | Membership Guide',
+    metaDescription:
+      'BallenIsles homes for sale in Palm Beach Gardens: how the mandatory club membership works, the four categories, 33 neighborhoods compared and the full cost of owning.',
   },
   {
     slug: 'avenir',

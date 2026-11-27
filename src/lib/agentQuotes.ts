@@ -84,11 +84,6 @@ export const agentQuotes: Record<string, AgentQuotes> = {
     johnQuote: "PGA National works great for golf buyers, seasonal owners, and anyone who wants resort amenities with A-rated school zones nearby. Five championship courses and the PGA Resort in your backyard — the lifestyle here is genuinely hard to match.",
   },
 
-  'ballen-isles': {
-    christineQuote: "BallenIsles is the right choice for buyers who want a premier private club experience in Palm Beach Gardens. Three championship courses, a spectacular sports complex, and estate homes that hold their value — I've worked this market extensively.",
-    johnQuote: "BallenIsles works best for serious golf and country club buyers who want the complete lifestyle package. The social scene, the fitness complex, the dining — it's a community that keeps residents engaged and that's reflected in long-term ownership rates.",
-  },
-
   'avenir': {
     christineQuote: "Avenir is ideal for buyers who want new construction quality in a master-planned Palm Beach Gardens setting. The builder variety, the lot selection, the planned town center — I guide buyers through the new construction process so they don't leave money on the table.",
     johnQuote: "Avenir works great for buyers relocating to Palm Beach County who want new construction with room to grow. From townhomes to custom estates and an age-restricted 55+ section — the scale of this community and the quality of the builders make it one of the most compelling buys in the county right now.",

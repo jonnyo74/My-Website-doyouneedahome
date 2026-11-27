@@ -31,6 +31,8 @@ import JupiterInletColonyLanding from '@/components/JupiterInletColonyLanding'
 import { COLONY_SLUG } from '@/lib/colonyScope'
 import AdmiralsCoveLanding from '@/components/AdmiralsCoveLanding'
 import { ADMIRALS_COVE_SLUG } from '@/lib/admiralsCoveScope'
+import BallenIslesLanding from '@/components/BallenIslesLanding'
+import { BALLENISLES_SLUG } from '@/lib/ballenIslesScope'
 import WhatsNew from '@/components/WhatsNew'
 import { SITE_URL } from '@/lib/site'
 
@@ -146,6 +148,23 @@ export async function generateMetadata({ params }: Props) {
       twitter: { card: 'summary_large_image' as const, title, description, images: [img] },
     }
   }
+  if (slug === BALLENISLES_SLUG) {
+    // Club-community template. No approved BallenIsles photograph yet, so the
+    // share image is the parent city's, as previewImage() picks for any
+    // community without one.
+    const title = community.metaTitle!
+    const description = community.metaDescription!
+    const url = `/communities/${slug}`
+    const preview = previewImage(community, slug)
+    return {
+      title,
+      description,
+      alternates: { canonical: url },
+      other: { ...(community.dateModified && { 'last-modified': community.dateModified }) },
+      openGraph: { title, description, url: `${SITE_URL}${url}`, images: [{ url: preview.url, width: 1200, height: 630, alt: preview.alt }] },
+      twitter: { card: 'summary_large_image' as const, title, description, images: [preview.url] },
+    }
+  }
   if (slug === COLONY_SLUG || slug === ADMIRALS_COVE_SLUG) {
     // Its own town (or, for Admirals Cove, its own club-community template), with its own page template. Title and description come
     // from the community entry so the directory and this page cannot drift.
@@ -200,6 +219,7 @@ export default async function CommunityPage({ params }: Props) {
   if (VILLAGES[slug]) return <AbacoaVillageLanding slug={slug} />
   if (slug === COLONY_SLUG) return <JupiterInletColonyLanding />
   if (slug === ADMIRALS_COVE_SLUG) return <AdmiralsCoveLanding />
+  if (slug === BALLENISLES_SLUG) return <BallenIslesLanding />
 
   const isCity = community.type === 'City'
   const linkedNeighborhoods = isCity ? getLinkedNeighborhoods(community) : []

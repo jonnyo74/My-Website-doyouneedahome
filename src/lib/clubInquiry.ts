@@ -12,6 +12,12 @@ export const CLUB_INQUIRY_TYPES = {
     tag: 'Membership Fee Request',
     placeholder: 'Which membership category are you considering, and which home or price range?',
   },
+  'membership-check': {
+    label: 'Check Membership for a Specific Home',
+    crmLabel: 'Membership Check for a Home',
+    tag: 'Membership Check Request',
+    placeholder: 'The address or listing link, and the membership category you want (for example, Full Golf).',
+  },
   'ownership-costs': {
     label: 'Request Current Ownership Costs',
     crmLabel: 'Ownership Costs',
@@ -28,7 +34,7 @@ export const CLUB_INQUIRY_TYPES = {
     label: 'Request a Private Showing',
     crmLabel: 'Private Showing',
     tag: 'Showing Request',
-    placeholder: 'The address or addresses, and the days that suit you.',
+    placeholder: 'The address or listing link (or several), and the days that suit you.',
   },
   'listing-alerts': {
     label: 'Receive New Listings',

@@ -50,6 +50,13 @@ export interface AbacoaScope {
   cities?: string[]
   /** `area` label on the full-search URL. Defaults to Jupiter. */
   area?: string
+  /**
+   * Name prefixes, normalized (see normalizeName), that also put a listing in
+   * scope when its community or a subdivision starts with one. For places the
+   * provider itself matches by prefix: a "Ballenisles" search returns plats
+   * entered as "BALLENISLES POD 8B" or "BallenIsles - Coral Cay".
+   */
+  prefixes?: string[]
   status: ScopeStatus
   /** What was checked, and what is still open. Surfaced in the validation matrix. */
   evidence: string[]
@@ -319,6 +326,7 @@ export function inScope(listing: ProviderListing, scope: AbacoaScope): boolean {
   const subs = (listing.listingAttribute?.subdivisionInfo ?? []).map(normalizeName)
   const nb = normalizeName(listing.addressStandard?.neighborhoodName)
   const comm = normalizeName(listing.addressStandard?.communityName)
+  if (scope.prefixes?.some((pre) => [comm, ...subs].some((v) => v === pre || v.startsWith(`${pre} `)))) return true
   return scope.locations.some((l) => {
     if (l.subdivision) return subs.includes(normalizeName(l.subdivision))
     if (l.community) return comm === normalizeName(l.community)

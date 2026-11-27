@@ -1,0 +1,1413 @@
+{
+ "retrieved": "2026-11-27",
+ "active": [
+  {
+   "id": 272546638,
+   "mlsNumber": "B26103081",
+   "address": {
+    "fullStreetAddress": "104 Palm Point Circle A",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES COUNTRY CLUB"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PALMS AT BALLENISLES CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272357044,
+   "mlsNumber": "B26100684",
+   "address": {
+    "fullStreetAddress": "140 Banyan Isle Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BallenIsles"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272382603,
+   "mlsNumber": "B26101038",
+   "address": {
+    "fullStreetAddress": "127 Palm Bay Terrace A",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PALM BAY CLUB CONDOMINIUM AT BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272332072,
+   "mlsNumber": "A12124021",
+   "address": {
+    "fullStreetAddress": "1108 Crystal Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "CRYSTAL BAY"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272153738,
+   "mlsNumber": "B26098664",
+   "address": {
+    "fullStreetAddress": "117 Victoria Bay Court",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 271457626,
+   "mlsNumber": "B26090593",
+   "address": {
+    "fullStreetAddress": "125 Palm Bay Terrace C",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PALM BAY CLUB NORTH"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PALM BAY CLUB CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 270631624,
+   "mlsNumber": "B26082163",
+   "address": {
+    "fullStreetAddress": "125 Windward Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 266659795,
+   "mlsNumber": "B26047521",
+   "address": {
+    "fullStreetAddress": "105 Island Cove Way",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES POD 24"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 270570353,
+   "mlsNumber": "B26081409",
+   "address": {
+    "fullStreetAddress": "106 Pembroke Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "SABAL POINTE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SABAL POINTE AT BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 269843050,
+   "mlsNumber": "B26074015",
+   "address": {
+    "fullStreetAddress": "241 Coral Cay Terrace",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Ballenisles"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 269168014,
+   "mlsNumber": "B26069408",
+   "address": {
+    "fullStreetAddress": "114 Vintage Isle Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 262671229,
+   "mlsNumber": "B26014768",
+   "address": {
+    "fullStreetAddress": "126 Sunset Cove Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES POD 16B"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  }
+ ],
+ "sold": [
+  {
+   "id": 270911307,
+   "mlsNumber": "B26085527",
+   "address": {
+    "fullStreetAddress": "209 Grand Pointe Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272372761,
+   "mlsNumber": "B26100913",
+   "address": {
+    "fullStreetAddress": "103 Sunset Cove Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 271621660,
+   "mlsNumber": "B26092365",
+   "address": {
+    "fullStreetAddress": "124 Victoria Bay Court",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "VICTORIA BAY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 268807033,
+   "mlsNumber": "B26067404",
+   "address": {
+    "fullStreetAddress": "105 Palm Bay Drive C",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES -  PALM BAY CLUB"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 267219375,
+   "mlsNumber": "B26052044",
+   "address": {
+    "fullStreetAddress": "127 Palm Bay Terrace A",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PALM BAY CLUB CONDOMINIUM"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 265855359,
+   "mlsNumber": "B26042444",
+   "address": {
+    "fullStreetAddress": "61 St George Place",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BallenIsles"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 259983126,
+   "mlsNumber": "R11164325",
+   "address": {
+    "fullStreetAddress": "203 Coral Cay Terrace",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Ballenisles"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 264202122,
+   "mlsNumber": "B26029036",
+   "address": {
+    "fullStreetAddress": "127 Vintageisle Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES POD 14"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 269871701,
+   "mlsNumber": "B26074252",
+   "address": {
+    "fullStreetAddress": "333 Sunset Bay Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SUNSET BAY"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 269760080,
+   "mlsNumber": "B26073723",
+   "address": {
+    "fullStreetAddress": "34 St James Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "HANSEN-JDM 1"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 259494925,
+   "mlsNumber": "R11161795",
+   "address": {
+    "fullStreetAddress": "207 Sunset Bay Court",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "SUNSET BAY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 264434345,
+   "mlsNumber": "B26030832",
+   "address": {
+    "fullStreetAddress": "101 Palm Bay Circle A",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 268315227,
+   "mlsNumber": "B26062297",
+   "address": {
+    "fullStreetAddress": "216 Grand Pointe Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 265401360,
+   "mlsNumber": "B26038676",
+   "address": {
+    "fullStreetAddress": "247 Coral Cay Terrace",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "CORAL CAY"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 262651024,
+   "mlsNumber": "B26014386",
+   "address": {
+    "fullStreetAddress": "1020 Grand Isle Terrace",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Ballenisles - Grand Isles"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 261339300,
+   "mlsNumber": "B26002830",
+   "address": {
+    "fullStreetAddress": "113 Palm Point Circle A",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PALMS AT BALLENISLES CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 263909824,
+   "mlsNumber": "B26026846",
+   "address": {
+    "fullStreetAddress": "76 Laguna Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES PODS 20A AND 20B"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 264804687,
+   "mlsNumber": "B26033778",
+   "address": {
+    "fullStreetAddress": "32 Saint Thomas Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 259281211,
+   "mlsNumber": "R11113255",
+   "address": {
+    "fullStreetAddress": "66 St James Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 263882930,
+   "mlsNumber": "B26026507",
+   "address": {
+    "fullStreetAddress": "21 Somerset Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 258483276,
+   "mlsNumber": "R11145275",
+   "address": {
+    "fullStreetAddress": "59 Saint George Place",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 264260985,
+   "mlsNumber": "B26029414",
+   "address": {
+    "fullStreetAddress": "107 Sunset Cove Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES POD 16B"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 262954459,
+   "mlsNumber": "B26017537",
+   "address": {
+    "fullStreetAddress": "201 Sunset Bay Court",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "SUNSET BAY"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 258612258,
+   "mlsNumber": "R11156718",
+   "address": {
+    "fullStreetAddress": "115 Palm Point Circle A",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES - THE PALMS"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Ballenisles"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 262954552,
+   "mlsNumber": "B26017539",
+   "address": {
+    "fullStreetAddress": "136 Coral Cay Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "BALLENISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "BALLENISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  }
+ ],
+ "nearby33418": [
+  {
+   "id": 272763193,
+   "mlsNumber": "B26104422",
+   "address": {
+    "fullStreetAddress": "423 4th Terrace",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "GLENWOOD AT PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GLENWOOD TWNHS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272606462,
+   "mlsNumber": "B26103626",
+   "address": {
+    "fullStreetAddress": "135 Brookhaven Court",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PGA RESORT COMMUNITY OF PRESTON LAKES 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Coming Soon",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272624083,
+   "mlsNumber": "B26103928",
+   "address": {
+    "fullStreetAddress": "323 Brackenwood Circle",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GOLF VILLAS CONDO"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272586476,
+   "mlsNumber": "B26103492",
+   "address": {
+    "fullStreetAddress": "204 2nd Terrace",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GLENWOOD TWNHS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272537143,
+   "mlsNumber": "B26102941",
+   "address": {
+    "fullStreetAddress": "401 Resort Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "TR M3 PL"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272546798,
+   "mlsNumber": "A12127701",
+   "address": {
+    "fullStreetAddress": ".. Alford Court",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PGA RESORT COMMUNITY 3"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272527526,
+   "mlsNumber": "B26102810",
+   "address": {
+    "fullStreetAddress": "876 Windermere Way",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Windermere at PGA National"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 270273723,
+   "mlsNumber": "B26078377",
+   "address": {
+    "fullStreetAddress": "5664 High Flyer S Road",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "STEEPLECHASE"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "HORSESHOE ACRES WEST"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272149951,
+   "mlsNumber": "B26098626",
+   "address": {
+    "fullStreetAddress": "319 3rd Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33410",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": null
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GARDEN LAKES & GARDEN SQUARE SHOPS"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272396129,
+   "mlsNumber": "B26101158",
+   "address": {
+    "fullStreetAddress": "377 Prestwick Lane 1",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PGA RESORT COMMUNITY PL OF PRESTWICK CHASE UNIT 1"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272403412,
+   "mlsNumber": "B26101280",
+   "address": {
+    "fullStreetAddress": "11414 Pink Oleander Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "OLD PALM GOLF CLUB"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "OLD PALM 2"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 264049142,
+   "mlsNumber": "B26028171",
+   "address": {
+    "fullStreetAddress": "1009 Diamond Head Way",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL - DIAMOND HEAD"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "DIAMOND HEAD"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272368115,
+   "mlsNumber": "B26100856",
+   "address": {
+    "fullStreetAddress": "2504 Mahogany Place",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PGA RESORT COMMUNITY OF HEATHER RUN"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272372979,
+   "mlsNumber": "B26100934",
+   "address": {
+    "fullStreetAddress": "70 Edinburgh Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Townhomes of Marlwood at PGA National"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 272376702,
+   "mlsNumber": "B26100988",
+   "address": {
+    "fullStreetAddress": "408 Resort Lane",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "PGA NATIONAL/RESORT VILLAS"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "Resort Villas/PGA National"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Active",
+    "ylopoStatus": "ACTIVE"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 258819481,
+   "mlsNumber": "R10943336",
+   "address": {
+    "fullStreetAddress": "225 Gardenia Isle Drive",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33418",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "GARDENIA ISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "GARDENIA ISLES"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  },
+  {
+   "id": 258736731,
+   "mlsNumber": "R10950848",
+   "address": {
+    "fullStreetAddress": "4072 Jonquil N Circle",
+    "city": "Palm Beach Gardens",
+    "postalCode": "33410",
+    "stateOrProvince": "FL"
+   },
+   "addressStandard": {
+    "neighborhoodName": null,
+    "communityName": "GARDENIA ISLES"
+   },
+   "listingAttribute": {
+    "subdivisionInfo": [
+     "PALM BEACH GARDENS 6"
+    ]
+   },
+   "listingStatus": {
+    "displayStatus": "Closed",
+    "ylopoStatus": "SOLD"
+   },
+   "listingPropertyType": {
+    "displayPropertyType": "Residential"
+   }
+  }
+ ]
+}
