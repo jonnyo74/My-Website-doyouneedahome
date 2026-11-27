@@ -41,7 +41,7 @@ export default function SourceRegister({
           <p className="mt-3 text-sm leading-7 text-slate-700">
             Club, association, Town and federal sources: <strong>{reviewed}</strong>.
             <br />
-            County parcel records and recorded sales: <strong>{recordsDate}</strong>.
+            County parcel records: <strong>{recordsDate}</strong>.
           </p>
           <p className="mt-3 text-xs leading-6 text-slate-600">
             A date changes only when that material has been read again. Brokerage pages, ours included, are not

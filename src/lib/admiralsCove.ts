@@ -23,22 +23,20 @@
 //  * Evergreen: history, layout, plat counts, bridge types.
 //  * Review when announced: membership categories, amenities, dock rules,
 //    Town projects (REVIEWED.policies).
-//  * Frequently changing: recorded sales and listings. Those come from the
-//    generated file and the live feed, each with its own date.
+//  * Frequently changing: listings and sales. Both come from the live MLS
+//    feed (active and sold widgets), so nothing here goes stale.
 
 import raw from './admiralsCoveData.generated.json' with { type: 'json' }
 
 const longDate = (iso: string) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
-const monthYear = (iso: string) =>
-  new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' })
 
 /** Dates of the last real review. Change one only when that material was actually re-checked. */
 export const REVIEWED = {
   /** Club, association, Town and federal sources read on this date. */
   facts: 'November 24, 2026',
   factsIso: '2026-11-24',
-  /** County parcel records and recorded sales: the date the build script ran. */
+  /** County parcel records (counts, map): the date the build script ran. */
   records: longDate(raw.retrieved),
   recordsIso: raw.retrieved,
 }
@@ -100,8 +98,8 @@ export const SOURCES: { group: string; items: { label: string; url: string; used
   {
     group: 'Government and navigation',
     items: [
-      { label: 'Palm Beach County Property Appraiser', url: URLS.papa, used: 'Parcel counts by plat and use, recorded sales, Homestead rules' },
-      { label: 'Palm Beach County GIS: parcel layer', url: raw.sources.parcels, used: 'The data behind the counts, the sales table and the map' },
+      { label: 'Palm Beach County Property Appraiser', url: URLS.papa, used: 'Parcel counts by plat and use, Homestead rules' },
+      { label: 'Palm Beach County GIS: parcel layer', url: raw.sources.parcels, used: 'The data behind the counts and the map' },
       { label: 'Palm Beach County GIS: water bodies', url: raw.sources.water, used: 'Canals, Intracoastal and lakes on the map; lots that adjoin navigable water' },
       { label: 'Palm Beach County GIS: flood hazard layer', url: raw.sources.flood, used: 'Flood zone at the centre of each residential parcel' },
       { label: 'Palm Beach County: flood map update', url: URLS.countyFlood, used: 'Effective date of the current flood maps' },
@@ -229,11 +227,6 @@ export const SIDES: { row: string; east: string; golfVillage: string }[] = [
     row: 'Associations',
     east: 'The Master POA, plus a condominium association if the home is in Captains Way, Spyglass, Waterside or Nautical Way',
     golfVillage: 'The Golf Village Master POA, which the Master POA’s staff manage',
-  },
-  {
-    row: 'Recorded sales, last 12 months',
-    east: '__EAST_SALES__',
-    golfVillage: '__GV_SALES__',
   },
   {
     row: 'Club membership',
@@ -524,101 +517,6 @@ export const COMPARE: { name: string; href: string; where: string; golf: string;
     note: 'A privately owned club rather than a member-owned one. Ask how that changes fees and control.',
   },
 ]
-
-// ── Recorded sales ───────────────────────────────────────────────────────
-
-export interface Sale {
-  date: string
-  address: string
-  price: number
-  area: 'east' | 'golf-village'
-  type: 'house' | 'condo' | 'townhouse'
-  water: boolean | null
-}
-
-export const SALES = raw.sales.rows as Sale[]
-
-export const usd = (n: number) =>
-  n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(2).replace(/\.?0+$/, '')}M` : `$${n.toLocaleString('en-US')}`
-
-function median(values: number[]): number {
-  const s = [...values].sort((a, b) => a - b)
-  const mid = Math.floor(s.length / 2)
-  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2
-}
-
-export interface Segment {
-  label: string
-  count: number
-  low?: number
-  high?: number
-  /** Only when the segment has at least MIN_FOR_MEDIAN sales. */
-  median?: number
-}
-
-/** Below this, a median says more about which homes happened to sell than about the market. */
-export const MIN_FOR_MEDIAN = 5
-
-export function segment(label: string, rows: Sale[]): Segment {
-  if (!rows.length) return { label, count: 0 }
-  const prices = rows.map((r) => r.price)
-  return {
-    label,
-    count: rows.length,
-    low: Math.min(...prices),
-    high: Math.max(...prices),
-    median: rows.length >= MIN_FOR_MEDIAN ? median(prices) : undefined,
-  }
-}
-
-/** Recorded-sales data older than this is labeled historical, not current. */
-export const STALE_AFTER_DAYS = 150
-
-export function salesSummary(sales: Sale[] = SALES, today: Date = new Date()) {
-  if (sales.length < 3) return null
-  const east = sales.filter((s) => s.area === 'east')
-  const gv = sales.filter((s) => s.area === 'golf-village')
-  const ageDays = Math.floor((today.getTime() - new Date(`${raw.retrieved}T12:00:00Z`).getTime()) / 86_400_000)
-  return {
-    all: segment('All recorded sales', sales),
-    segments: [
-      segment('East Side', east),
-      segment('Golf Village', gv),
-      segment('Houses on the canals or Intracoastal', sales.filter((s) => s.water === true)),
-      segment('Houses and townhomes off the water', sales.filter((s) => s.water === false)),
-      segment('Condominiums', sales.filter((s) => s.type === 'condo')),
-    ],
-    east: segment('East Side', east),
-    golfVillage: segment('Golf Village', gv),
-    stale: ageDays > STALE_AFTER_DAYS,
-    rows: sales.map((s) => ({
-      key: `${s.date}-${s.address}`,
-      month: monthYear(s.date),
-      address: s.address,
-      area: s.area === 'east' ? 'East Side' : 'Golf Village',
-      kind: s.type === 'condo' ? 'Condominium' : s.type === 'townhouse' ? 'Townhome' : s.water ? 'House, on the water' : 'House',
-      // Exact, as recorded: rounding a deed price in a comp table helps nobody.
-      price: '$' + s.price.toLocaleString('en-US'),
-    })),
-  }
-}
-
-export const SALES_PERIOD = {
-  /** "Nov 2025 – Nov 2026": short enough to sit on a card beside a count. */
-  short: `${monthYear(raw.sales.from)} – ${monthYear(raw.sales.to)}`,
-  from: longDate(raw.sales.from),
-  to: longDate(raw.sales.to),
-  latestQualified: raw.sales.latestQualified ? longDate(raw.sales.latestQualified) : null,
-  pricedNotQualified: raw.sales.pricedNotQualified,
-}
-
-const range = (s: Segment) => (s.count ? `${s.count} sales, ${usd(s.low!)} to ${usd(s.high!)}` : 'None recorded')
-{
-  const s = salesSummary()
-  const row = SIDES.find((r) => r.row.startsWith('Recorded sales'))!
-  row.east = s ? range(s.east) : 'Too few to describe'
-  row.golfVillage = s ? range(s.golfVillage) : 'Too few to describe'
-}
 
 // ── FAQ (also emitted as FAQPage JSON-LD) ────────────────────────────────
 

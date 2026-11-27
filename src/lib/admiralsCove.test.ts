@@ -14,6 +14,8 @@ import {
   GOLF_VILLAGE_SCOPE,
   PRICE_BANDS,
   admiralsSearchUrl,
+  admiralsSoldSearchUrl,
+  soldSearch,
 } from './admiralsCoveScope.ts'
 import * as guide from './admiralsCove.ts'
 import { CLUB_FEES, publishableFees, type ClubFeeRecord } from './clubFees.ts'
@@ -73,6 +75,28 @@ describe('Admirals Cove listing scopes', () => {
   })
 })
 
+describe('Recently sold widget', () => {
+  it('asks for sold homes only, across the whole community, with no price filter', () => {
+    const search = soldSearch()
+    assert.equal(search.soldOnly, true)
+    assert.deepEqual(search.locations, ADMIRALS_COVE_SCOPE.locations)
+    assert.equal('minPrice' in search || 'maxPrice' in search || 'amenities' in search, false)
+  })
+
+  it('links to every sale on the search site, most recent first', () => {
+    const url = decodeURIComponent(admiralsSoldSearchUrl())
+    assert.ok(url.includes('s[soldOnly]=true'))
+    assert.ok(url.includes('s[orderBy]=soldDate,desc'))
+    assert.equal(url.includes('sourceCreationDate'), false)
+    for (const l of ADMIRALS_COVE_SCOPE.locations) assert.ok(url.includes(l.neighborhood ?? l.community ?? l.subdivision ?? ''))
+  })
+
+  it('leaves no recorded-sales figures in the page data', () => {
+    assert.equal('SALES' in guide || 'salesSummary' in guide, false)
+    assert.equal(guide.SIDES.some((r) => /sales/i.test(r.row)), false)
+  })
+})
+
 describe('Club fee policy', () => {
   const base: ClubFeeRecord = {
     community: 'x', category: 'Golf', initiationFee: 1, annualDues: 1,
@@ -99,9 +123,8 @@ describe('Club fee policy', () => {
   })
 
   it('keeps dollar fee figures out of the evergreen copy', () => {
-    // Recorded sale prices are data, not copy, and are formatted elsewhere.
     const copy = JSON.stringify([
-      guide.QUICK_FACTS, guide.SIDES.filter((r) => !r.row.startsWith('Recorded sales')), guide.ENCLAVES, guide.MEMBERSHIP_STRUCTURE,
+      guide.QUICK_FACTS, guide.SIDES, guide.ENCLAVES, guide.MEMBERSHIP_STRUCTURE,
       guide.MEMBERSHIP_QUESTIONS, guide.COSTS, guide.DOCK_RULES, guide.BOAT_CHECKLIST, guide.AMENITIES,
       guide.DUE_DILIGENCE, guide.PROJECTS, guide.COMPARE, guide.FAQS, guide.NOT_VERIFIED,
     ])
@@ -143,35 +166,5 @@ describe('Admirals Cove county figures and copy', () => {
   it('answers at least the twenty-two buyer questions, with no duplicate', () => {
     assert.ok(guide.FAQS.length >= 22)
     assert.equal(new Set(guide.FAQS.map((f) => f.q)).size, guide.FAQS.length)
-  })
-
-  it('summarizes sales by segment and withholds a median from a thin one', () => {
-    const mk = (price: number, area: 'east' | 'golf-village', type: 'house' | 'condo', water: boolean | null) =>
-      ({ date: '2026-03-01', address: `${price} Test Lane`, price, area, type, water })
-    const rows = [
-      mk(9_000_000, 'east', 'house', true), mk(7_000_000, 'east', 'house', true), mk(3_000_000, 'east', 'condo', null),
-      mk(4_000_000, 'golf-village', 'house', false), mk(5_000_000, 'east', 'house', false),
-    ]
-    const s = guide.salesSummary(rows, new Date(`${guide.REVIEWED.recordsIso}T12:00:00Z`))!
-    assert.equal(s.all.count, 5)
-    assert.equal(s.all.median, 5_000_000)
-    assert.equal(s.east.count, 4)
-    assert.equal(s.east.median, undefined, 'four sales is too few for a median')
-    assert.equal(s.golfVillage.low, 4_000_000)
-    assert.equal(s.stale, false)
-    assert.equal(guide.salesSummary(rows.slice(0, 2)), null)
-  })
-
-  it('labels the sales historical once the records are old', () => {
-    const later = new Date(new Date(`${guide.REVIEWED.recordsIso}T12:00:00Z`).getTime() + (guide.STALE_AFTER_DAYS + 1) * 86_400_000)
-    assert.equal(guide.salesSummary(guide.SALES, later)?.stale, true)
-  })
-
-  it('keeps every recorded sale inside the stated window, priced and classified', () => {
-    for (const s of guide.SALES) {
-      assert.ok(s.price > 100_000)
-      assert.ok(['east', 'golf-village'].includes(s.area))
-      if (s.area === 'golf-village') assert.notEqual(s.water, true, `${s.address}: Golf Village has no navigable water`)
-    }
   })
 })

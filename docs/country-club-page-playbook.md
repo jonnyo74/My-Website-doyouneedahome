@@ -25,7 +25,7 @@ build the next one, and how to keep them current.
 | Layer | File | Changes when |
 |---|---|---|
 | Facts, copy, sources | `src/lib/admiralsCove.ts` | A source changes |
-| County counts, sales, flood summary | `src/lib/admiralsCoveData.generated.json` | The build script is re-run |
+| County counts, flood summary | `src/lib/admiralsCoveData.generated.json` | The build script is re-run |
 | Static map | `public/images/admirals-cove/admirals-cove-map.svg` | The build script is re-run |
 | Build script | `scripts/build-admirals-cove-data.mjs` | Never, unless the county changes a layer |
 | Listing scopes and search links | `src/lib/admiralsCoveScope.ts` | The MLS files homes under a new name |
@@ -42,8 +42,6 @@ Reusable blocks in `src/components/clubCommunity/`:
   returns any.
 - `ClubInquiry` + `InquiryLink` — one form per page. Any `InquiryLink` scrolls to it
   with the topic preselected. Works without script (it is an in-page link).
-- `RecordedSales` — segment summary plus the full table, with a "historical" banner
-  when the data is old and no median for thin segments.
 - `SourceRegister` — sources, last-reviewed dates and "what we could not verify".
 - `ReviewedBy` — the agent block, read from `src/lib/agents.ts`.
 - `ui.ts` — shared class strings.
@@ -99,7 +97,8 @@ BallenIsles, Ibis, Old Palm (no page yet).
 
 | What | How often | How |
 |---|---|---|
-| Recorded sales, parcel counts, map | Quarterly (Feb, May, Aug, Nov) | `node scripts/build-admirals-cove-data.mjs`, then `npm test`, then read the sales section |
+| Parcel counts, map | Annually | `node scripts/build-admirals-cove-data.mjs`, then `npm test` |
+| Recently sold | Never: a live MLS widget (`soldOnly: true`, newest first) | Nothing to do |
 | Listing scopes | With each data refresh, or if the widget looks thin | Re-run the autocomplete and ZIP sweep in the scope file's header; update the fixture |
 | Membership categories, amenities, dock rules | When the club or association announces a change; otherwise each November, when the club year turns | Re-read the linked pages; update `admiralsCove.ts`; change `REVIEWED.facts` |
 | Membership fee schedule | When a buyer asks | Get the current sheet from the club. Do not edit the page |
@@ -113,15 +112,14 @@ Rules:
 
 - `REVIEWED.facts` changes only when the sources were actually re-read.
   `REVIEWED.records` is the date the build script last ran; it cannot be typed.
-- Recorded sales older than 150 days are labeled historical automatically
-  (`STALE_AFTER_DAYS`). Re-run the script before that.
 - Do not update a fact without a source. Do not resolve a conflict between two
   official sources by choosing one; show both.
 
-## Known limits of the county sales data
+## Sales: a live widget, not a table
 
-- One sale per parcel: a home that sold twice in the window shows once.
-- The county marks a sale "qualified" some months after it records, so the newest
-  months are thin. The page states the date of the latest qualified sale.
-- No living area, days on market or list price. Price per square foot and
-  list-to-sale ratios need an MLS export; the page says so instead of estimating.
+Recorded-sales tables were dropped on 2026-11-27 (John: the page was too much, and
+a table goes stale). Club pages show a live MLS widget of recent closed sales
+instead: the Ylopo results widget with `soldOnly: true` in its `data-search`,
+and a link to the search site with `s[soldOnly]=true&s[orderBy]=soldDate,desc`.
+Both were tested against the live feed; see `soldSearch()` in
+`src/lib/admiralsCoveScope.ts`. Do not add sale counts or medians to page copy.
