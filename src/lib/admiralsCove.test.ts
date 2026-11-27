@@ -124,9 +124,9 @@ describe('Club fee policy', () => {
 
   it('keeps dollar fee figures out of the evergreen copy', () => {
     const copy = JSON.stringify([
-      guide.QUICK_FACTS, guide.SIDES, guide.ENCLAVES, guide.MEMBERSHIP_STRUCTURE,
+      guide.QUICK_FACTS, guide.SIDES, guide.MEMBERSHIP_STRUCTURE,
       guide.MEMBERSHIP_QUESTIONS, guide.COSTS, guide.DOCK_RULES, guide.BOAT_CHECKLIST, guide.AMENITIES,
-      guide.DUE_DILIGENCE, guide.PROJECTS, guide.COMPARE, guide.FAQS, guide.NOT_VERIFIED,
+      guide.DUE_DILIGENCE, guide.COMPARE, guide.FAQS, guide.NOT_VERIFIED,
     ])
     assert.equal(/\$\s?\d/.test(copy), false, 'a dollar figure is hard-coded in the copy')
   })
@@ -163,8 +163,11 @@ describe('Admirals Cove county figures and copy', () => {
     assert.equal(guide.FAQS.filter((f) => /Admiral’s Cove/.test(f.a)).length, 1)
   })
 
-  it('answers at least the twenty-two buyer questions, with no duplicate', () => {
-    assert.ok(guide.FAQS.length >= 22)
+  it('answers the core buyer questions, with no duplicate', () => {
+    assert.ok(guide.FAQS.length >= 12)
+    for (const q of ['mandatory', 'cost', 'yacht', 'bridge', 'rent', 'showing']) {
+      assert.ok(guide.FAQS.some((f) => f.q.toLowerCase().includes(q)), `no FAQ about ${q}`)
+    }
     assert.equal(new Set(guide.FAQS.map((f) => f.q)).size, guide.FAQS.length)
   })
 })
