@@ -126,3 +126,25 @@ export const PRICE_BANDS: { label: string; filter: SearchFilter }[] = [
 ]
 
 export const ADMIRALS_LEAD_CTA = 'Receive New Admirals Cove Listings'
+
+// ── Recently sold (live, so it never goes stale) ──────────────────────────
+//
+// TESTED 2026-11-27: `soldOnly: true` is the key the search site itself sets
+// for its "Sold" filter. On the listings API it returned 114 closed sales for
+// the full Admirals Cove scope, all on Admirals Cove streets, dated from
+// November 2023 to the day before the test, newest sale first. The provider
+// ignores every other status key tried (status, statuses, ylopoStatus, sold).
+// On the search site, `orderBy=soldDate,desc` sorts the same way.
+
+/** The sold widget's `data-search`: the full scope, sold only, newest first. */
+export function soldSearch(limit = 6): Record<string, unknown> {
+  return { locations: ADMIRALS_COVE_SCOPE.locations, limit, soldOnly: true }
+}
+
+/** Every Admirals Cove sale on the full search site, most recent first. */
+export function admiralsSoldSearchUrl(): string {
+  return (
+    admiralsSearchUrl().replace('s[orderBy]=sourceCreationDate%2Cdesc', 's[orderBy]=soldDate%2Cdesc') +
+    '&s[includePending]=f&s[soldOnly]=true'
+  )
+}

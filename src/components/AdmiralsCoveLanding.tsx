@@ -5,7 +5,6 @@ import ClubInquiry from '@/components/clubCommunity/ClubInquiry'
 import ClubMembershipCta from '@/components/clubCommunity/ClubMembershipCta'
 import ClubQuickFacts from '@/components/clubCommunity/ClubQuickFacts'
 import InquiryLink from '@/components/clubCommunity/InquiryLink'
-import RecordedSales from '@/components/clubCommunity/RecordedSales'
 import ScrollTable from '@/components/clubCommunity/ScrollTable'
 import ReviewedBy from '@/components/clubCommunity/ReviewedBy'
 import SourceRegister from '@/components/clubCommunity/SourceRegister'
@@ -33,6 +32,8 @@ import {
   GOLF_VILLAGE_SCOPE,
   PRICE_BANDS,
   admiralsSearchUrl,
+  admiralsSoldSearchUrl,
+  soldSearch,
 } from '@/lib/admiralsCoveScope'
 import {
   AIRPORTS,
@@ -49,18 +50,13 @@ import {
   MAP_DESCRIPTION,
   MEMBERSHIP_QUESTIONS,
   MEMBERSHIP_STRUCTURE,
-  MIN_FOR_MEDIAN,
   NOT_VERIFIED,
   PROJECTS,
   QUICK_FACTS,
   REVIEWED,
-  SALES,
-  SALES_PERIOD,
   SIDES,
   SOURCES,
   URLS,
-  salesSummary,
-  usd,
 } from '@/lib/admiralsCove'
 import { SITE_URL } from '@/lib/site'
 
@@ -142,9 +138,7 @@ function Photo({ src, alt, caption }: { src: string; alt: string; caption: strin
 const bullet = <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-report-gold" aria-hidden="true" />
 
 export default function AdmiralsCoveLanding() {
-  const sales = salesSummary()
   const allUrl = admiralsSearchUrl()
-  const bandCount = (min = 0, max = Infinity) => SALES.filter((s) => s.price >= min && s.price < max).length // half-open, so a $3.0M sale counts once
 
   const ld = (o: unknown) => ({ __html: JSON.stringify(o).replace(/</g, '\\u003c') })
   const breadcrumbSchema = {
@@ -341,29 +335,21 @@ export default function AdmiralsCoveLanding() {
 
           <h3 className={`mt-12 ${h3}`}>Search by price</h3>
           <p className="mt-2 max-w-3xl text-sm leading-7 text-slate-600">
-            Each band opens the full search for Admirals Cove only. The sales counts are county-recorded sales
-            from {SALES_PERIOD.from} to {SALES_PERIOD.to}, to show where homes have actually traded.
+            Each band opens the full search for Admirals Cove only.
           </p>
           <ul className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-            {PRICE_BANDS.map((b) => {
-              const n = bandCount(b.filter.minPrice, b.filter.maxPrice)
-              return (
-                <li key={b.label}>
-                  <a
-                    href={admiralsSearchUrl(ADMIRALS_COVE_SCOPE, b.filter)}
-                    {...ext}
-                    className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-card transition hover:border-report-gold-dark"
-                  >
-                    <span className="font-serif text-lg font-semibold text-slate-900">{b.label}</span>
-                    <span className="mt-2 text-xs leading-5 text-slate-600">
-                      {n === 0 ? 'No recorded sales' : `${n} recorded sale${n === 1 ? '' : 's'}`}
-                      <span className="block">{SALES_PERIOD.short}</span>
-                    </span>
-                    <span className="mt-3 text-sm font-semibold text-gold-600">Search →</span>
-                  </a>
-                </li>
-              )
-            })}
+            {PRICE_BANDS.map((b) => (
+              <li key={b.label}>
+                <a
+                  href={admiralsSearchUrl(ADMIRALS_COVE_SCOPE, b.filter)}
+                  {...ext}
+                  className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-card transition hover:border-report-gold-dark"
+                >
+                  <span className="font-serif text-lg font-semibold text-slate-900">{b.label}</span>
+                  <span className="mt-3 text-sm font-semibold text-gold-600">Search →</span>
+                </a>
+              </li>
+            ))}
           </ul>
 
           <div className="mt-10 grid gap-5 md:grid-cols-2">
@@ -405,8 +391,8 @@ export default function AdmiralsCoveLanding() {
           <p className={lead}>
             Alternate A1A and the railway beside it split Admirals Cove in two. The East Side holds{' '}
             {COUNTS.east} residences and everything on the water. Golf Village holds {COUNTS.golfVillage}. They
-            share one club and little else: different associations, different home types and, on the evidence
-            of the past year’s sales, different prices.
+            share one club and little else: different associations, different home types and different
+            prices.
           </p>
 
           <figure className="mt-8">
@@ -778,71 +764,31 @@ export default function AdmiralsCoveLanding() {
         </div>
       </section>
 
-      {/* Recorded sales */}
+      {/* Recently sold: a live MLS widget, so it never goes stale */}
       <section id="sales" className={`scroll-mt-24 bg-slate-50 ${section}`} aria-labelledby="ac-sales">
         <div className={wrap}>
-          <p className={eyebrow}>Market research · County records</p>
-          <h2 id="ac-sales" className={h2}>What has sold in Admirals Cove</h2>
-          {sales ? (
-            <>
-              <p className={lead}>
-                County records show <strong className="text-slate-900">{sales.all.count} qualified sales</strong>{' '}
-                inside Admirals Cove between {SALES_PERIOD.from} and {SALES_PERIOD.to}, from{' '}
-                <strong className="text-slate-900">{usd(sales.all.low!)}</strong> to{' '}
-                <strong className="text-slate-900">{usd(sales.all.high!)}</strong>, with a median of{' '}
-                <strong className="text-slate-900">{usd(sales.all.median!)}</strong>. The overall median is the
-                least useful number here: it blends condominiums with canal-front estates. Read the segments.
-              </p>
-              <div className="mt-8">
-                <RecordedSales
-                  community={NAME}
-                  period={SALES_PERIOD}
-                  segments={sales.segments}
-                  rows={sales.rows}
-                  stale={sales.stale}
-                  format={usd}
-                  minForMedian={MIN_FOR_MEDIAN}
-                />
-              </div>
-              <div className="mt-8 grid gap-8 lg:grid-cols-2">
-                <div className="text-sm leading-7 text-slate-600">
-                  <h3 className="font-semibold text-slate-900">How to read it</h3>
-                  <p className="mt-2">
-                    These are small samples from a single year. They show where homes traded, not a trend, and
-                    one sale can move any of these medians. A recorded price also says nothing about condition,
-                    whether a house was bought to be rebuilt, or what the buyer paid the club.
-                  </p>
-                  <InquiryLink type="private-showing" className={`mt-5 ${btnPrimary}`} />
-                </div>
-                <div className="text-xs leading-6 text-slate-500">
-                  <h3 className="text-sm font-semibold text-slate-900">Method</h3>
-                  <p className="mt-2">
-                    Source: Palm Beach County Property Appraiser parcel records, retrieved {REVIEWED.records}.
-                    Geography: parcels whose recorded plat is an Admirals Cove or Golf Village at Admirals Cove
-                    plat. Counted: the latest recorded sale of each residential parcel in the period, where the
-                    county marks it a qualified sale by warranty deed for more than $100,000. A home that sold
-                    twice appears once. Left out: quit-claim and other non-warranty deeds, nominal transfers,
-                    and {SALES_PERIOD.pricedNotQualified} priced deed{SALES_PERIOD.pricedNotQualified === 1 ? '' : 's'}{' '}
-                    the county has not marked qualified. “On the water” means the lot adjoins a county-mapped
-                    canal or the Intracoastal; it does not mean a dock of any size.
-                    {SALES_PERIOD.latestQualified &&
-                      ` The county qualifies sales some months after recording: the latest qualified sale in the file is ${SALES_PERIOD.latestQualified}, so recent closings are missing.`}{' '}
-                    These are public records, not MLS data. We do not publish days on market, price per square
-                    foot or list-to-sale ratios here because the county file does not carry them; ask and we
-                    will pull them from the MLS for the homes you are comparing. Refreshed quarterly.
-                  </p>
-                </div>
-              </div>
-            </>
-          ) : (
-            <div className="mt-6 max-w-3xl">
-              <p className="leading-8 text-slate-600">
-                Too few Admirals Cove homes have a qualified recorded sale in the past twelve months to
-                describe a price range honestly. We will pull the closed sales for the streets you care about.
-              </p>
-              <InquiryLink type="private-showing" className={`mt-6 ${btnPrimary}`} />
-            </div>
-          )}
+          <p className={eyebrow}>Live MLS feed · Recently sold</p>
+          <h2 id="ac-sales" className={h2}>Recently sold in Admirals Cove</h2>
+          <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600">
+            The most recent closed sales inside the gates, East Side and Golf Village, newest first. This list
+            updates itself from the MLS as homes close.
+          </p>
+          <a href={admiralsSoldSearchUrl()} {...ext} className={`mt-3 inline-block text-sm ${textLink}`}>
+            See every Admirals Cove sale in the full search →
+          </a>
+          <div
+            className="YLOPO_resultsWidget mt-6 overflow-hidden rounded-2xl"
+            data-search={JSON.stringify(soldSearch())}
+          />
+          <div className="mt-8 rounded-3xl bg-white p-7 shadow-card sm:flex sm:items-center sm:justify-between sm:gap-8">
+            <p className="max-w-2xl text-sm leading-7 text-slate-700">
+              A sale price says nothing about condition, whether the house was bought to be rebuilt, or what the
+              buyer paid the club. We will walk you through the sales on the streets you are considering.
+            </p>
+            <InquiryLink type="private-showing" className={`mt-5 flex-shrink-0 sm:mt-0 ${btnPrimary}`}>
+              Ask for a sales review
+            </InquiryLink>
+          </div>
         </div>
       </section>
 
@@ -983,7 +929,7 @@ export default function AdmiralsCoveLanding() {
             </h2>
             <p className="mt-4 max-w-xl leading-8 text-white/90">
               Choose what you need and tell us a little about the home or the boat. We will reply with the
-              current documents, not a brochure: the club’s fee schedule, the association charges, the recorded
+              current documents, not a brochure: the club’s fee schedule, the association charges, the recent
               sales on the streets you like, and the listings that fit.
             </p>
             <ul className="mt-5 space-y-2 text-sm text-white/90">
